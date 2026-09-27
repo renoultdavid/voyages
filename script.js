@@ -34,6 +34,30 @@ const COUNTRY_SUBDIV_TOTALS = {
 
 const travelSpots = [
   {
+    id: "montfort_le_gesnois_vallee_huisne",
+    name: "Montfort-le-Gesnois - Vallée de l'Huisne",
+    region: "Pays de la Loire (Sarthe)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    subdiv: "Sarthe (72)",
+    region_admin: "Pays de la Loire",
+    altitude: 58,
+    is_island: false,
+    transport: "route",
+    era_group: "nature",
+    era_label: "Bocage Fluvial & Espace Naturel",
+    century: "Temps géologique",
+    category: "",
+    counts: {},
+    lat: 48.050233,
+    lng: 0.444481,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPgIfPfRDV0Te188tt1HIi3p_JegNBxpVtmA7vUJ3igI8KPvLoet7GwjjdvYpyQlPTgSKP8CGiWD7C9kY6oVByvIVz76XLxJtQxdCaBBwSX1JYA_9HAcFzHYzZIlDvl-_YVzAUYjHncAWW9sRYYkSaFng=w2468-h1388-s-no-gm?authuser=0",
+    description: "Écrin de verdure traversant le Pays du Perche Sarthois, la vallée de l'Huisne déploie à l'est de Montfort-le-Gesnois un paysage fluvial préservé où se mêlent méandres paisibles, prairies inondables et coteaux boisés. Principal cours d'eau du bassin sarthois avant sa confluence avec la Sarthe au Mans, la rivière a façonné un écosystème humide d'une grande richesse écologique, ponctué d'anciens moulins, de peupleraies et de ripisylves denses. Véritable couloir biologique pour la faune aquatique et les oiseaux d'eau douce, le site offre une respiration naturelle remarquable où les reflets changeants de la rivière dialoguent avec les douces ondulations du bocage et la quiétude rurale du terroir.",
+    visiter: "La découverte des berges s'effectue idéalement à pied ou à vélo le long des chemins de halage et des sentiers de promenade qui bordent le cours d'eau en direction du Perche. Les promeneurs peuvent y observer une faune diversifiée, notamment le martin-pêcheur, le héron cendré et de nombreuses espèces d'odonates évoluant au-dessus des calmes nappes d'eau. La rivière constitue également un parcours réputé pour la pêche de loisir et les balades en canoë-kayak permettant de glisser au ras de l'eau au milieu des frondaisons d'aulnes et de saules. C'est une halte bucolique parfaite pour s'imprégner de l'atmosphère apaisante des rives de l'Huisne en marge des cœurs historiques du village.",
+    link: "https://photos.google.com/share/AF1QipOb3ShaKNG_lsJde2nz8dRyz9nGHRogFP31vgkL6iaR4Hd7feMJ2OdoN8Q2CULzwg?key=WTRicjlYODZGMUhveTFOQXdEVk0tNEt3Ry1HVTBn"
+  },
+   {
     id: "montfort_le_gesnois_pont_romain",
     name: "Montfort-le-Gesnois - Pont « Romain » sur l'Huisne",
     region: "Pays de la Loire (Sarthe)",
