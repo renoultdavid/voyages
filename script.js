@@ -33,7 +33,6 @@ const COUNTRY_SUBDIV_TOTALS = {
 };
 
 const travelSpots = [
-  [
   {
     id: "tokyo_quartier_shibuya",
     name: "Tokyo - Quartier de Shibuya & Carrefour Scramble",
@@ -1567,7 +1566,6 @@ const travelSpots = [
     visiter: "L'exploration débute par la descente discrète dans une excavation sablonneuse sur la face nord de la pyramide, donnant accès à un boyau descendant très incliné et bas de plafond aménagé de traverses de bois. Au terme de cette traversée souterraine s'ouvrant après une herse de granit colossale, le visiteur pénètre dans une antichambre d'une solennité saisissante : sur les murs intacts s'étalent des colonnes verticales ininterrompues de hiéroglyphes minutieusement incisés, rehaussés à l'origine de pigments vert-bleu symbolisant la renaissance perpétuelle. L'itinéraire franchit ensuite le passage étroit menant à la chambre funéraire proprement dite, où trône le magistral sarcophage royal taillé dans un bloc monolithique de grauwacke et de basalte sombre poli, orné d'inscriptions et coiffé d'une gigantesque voûte à double chevron poudrée d'étoiles sculptées. L'atmosphère fraîche, feutrée et mystique de ce sanctuaire souterrain, souvent accessible en toute quiétude à l'écart des foules avant d'enchaîner avec les mastabas voisins de Mérérouka et de Kagemni, livre une rencontre intime et inoubliable avec la pensée métaphysique de l'âge des pyramides.",
     link: "https://photos.google.com/share/AF1QipMYh6XdRx9VRSnZt3ue2OwEPUbvln_2602MFhakCcqwm2frL-IEJgT3vWg_o3BQhw?key=TXlFS1kzbXJtZERaQU9FOGFqUDJuVlVHTWtoNVlR"
   },
- [
   {
     id: "saqqarah_serapeum",
     name: "Saqqarah - Sérapéum (Nécropole des Taureaux Apis)",
