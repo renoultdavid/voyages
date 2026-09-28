@@ -34,13 +34,795 @@ const COUNTRY_SUBDIV_TOTALS = {
 
 const travelSpots = [
   {
+    id: "tokyo_quartier_shibuya",
+    name: "Tokyo - Quartier de Shibuya & Carrefour Scramble",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 18,
+    is_island: true,
+island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Mégalopole Moderne & Épicentre Urbain",
+    century: "XXIe siècle",
+    category: "",
+    lat: 35.659652,
+    lng: 139.700588,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM37nwaZBOnuR6Z0xDT4u2NkpWqFUe0ZYytSGm03l2JvHIvdHDNXeBS-RV69G04Xpd0AJ-_C8PECyqFtDfEP8dUPyzupq8sEBvhdrdiiVfC4mvSVA2bszcMZVr_yzKZG725mxjMp5cDNqu0_F8iU4-K3w=w1379-h919-s-no-gm?authuser=0",
+    description: "Épicentre incandescent de la modernité tokyoïte et carrefour piétonnier le plus célèbre, dense et traversé au monde, le quartier de Shibuya incarne la pulsation vitale de la capitale japonaise à son paroxysme d'intensité urbaine. Déployé autour de son immense complexe ferroviaire drainant quotidiennement des millions de voyageurs, le secteur est mondialement réputé pour son spectaculaire « Scramble Crossing », intersection géante où le trafic automobile s'interrompt simultanément dans toutes les directions pour laisser déferler une marée humaine compacte de plus de trois mille personnes à chaque passage au feu vert. Ce ballet cinétique parfaitement ordonné et hypnotique se déroule sous le regard scintillant d'écrans géants cathodiques diffusant sans relâche clips musicaux et réclames futuristes, encadrés par des façades commerciales monumentales telles que le célèbre cylindre de mode du Shibuya 109. Véritable creuset des avant-gardes vestimentaires, des tendances musicales et des innovations de la jeunesse nippone, le quartier juxtapose l'effervescence high-tech de ses boulevards bordés de gratte-ciel récents à l'intimité feutrée de ses ruelles adjacentes ombragées de bars musicaux et de minuscules comptoirs de restauration, composant une fresque sociologique et architecturale qui fascine les observateurs du monde entier.",
+    visiter: "La découverte commence dès la sortie emblématique « Hachikō-guchi » de la gare de Shibuya, où les visiteurs s'arrêtent traditionnellement devant la célèbre statue en bronze du chien Hachikō, point de ralliement mythique de la métropole commémorant la fidélité absolue de l'animal attendant son maître défunt chaque soir dans les années 1920. S'élancer ensuite au cœur du carrefour diagonal constitue une expérience sensorielle inoubliable : on se fond dans ce flot continu de passants, enveloppé par les jingles électroniques, les annonces sonores et les faisceaux lumineux des panneaux publicitaires géants qui embrasent la place dès la tombée du jour. Pour embrasser ce spectacle d'en haut, les baies vitrées de la terrasse suspendue du Shibuya Sky ou les étages des cafés environnants offrent des panoramas plongeants saisissants sur l'incroyable chorégraphie des parapluies les jours de pluie. La flânerie se prolonge à travers les pentes animées de Center-Gai, rue piétonne jalonnée de boutiques de disques vinyles, de magasins d'électronique et de karaokés vertigineux, avant de s'engager vers les dédales plus calmes de Dōgenzaka et les passerelles aériennes ultramodernes reliant les nouveaux complexes de Shibuya Scramble Square et Miyashita Park.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tokyo_ameyoko_market",
+    name: "Tokyo - Marché Populaire d'Ameyoko (Ueno)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 6,
+    is_island: true,
+island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Époque Shōwa & Mémoire Populaire d'Après-Guerre (1945)",
+    century: "XXe siècle",
+    category: "",
+    lat: 35.709955,
+    lng: 139.774493,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO50C7Ekd1JdS95F3pbbwaTzJzd1V1wc3g6vsD-FYSA7Glk6Nu7mTIWMcTuX0_blVwKohuKR-ROSF-kw099hMOMAjLwguDUcIKjgdsujMoB16utkNSDOOLp53SKqqdGNdQMZXvJO8kuMHDyZ4sx6Z8oUg=w692-h919-s-no-gm?authuser=0",
+    description: "Artère commerçante vibrante et tumultueuse courant à ciel ouvert directement sous les viaducs ferroviaires surélevés reliant les gares d'Ueno et d'Okachimachi, la rue marchande d'Ameyoko (Ameya-Yokochō) constitue l'un des ultimes et plus authentiques témoins du Tokyo populaire de l'après-guerre. Née sur les décombres de 1945 sous la forme d'un marché noir informel où les Tokyoïtes affamés venaient échanger du sucre brut et acheter des friandises artisanales (ameya) ainsi que des surplus de rations et des denrées américaines (Amerika-yokocho) débarquées par les troupes d'occupation, cette venelle étroite de près de cinq cents mètres a su préserver son effervescence brute et marchande. Bordée de centaines d'échoppes bariolées serrées les unes contre les autres sous le grondement régulier des trains de la ligne Yamanote passant au-dessus des têtes, elle dégage une atmosphère unique de souk asiatique où résonnent les apostrophes gutturales rythmées des marchands haranguant la foule à grands cris (kakegoe). Véritable bazar à ciel ouvert où se côtoient produits de la mer étalés sur glace, fruits exotiques tranchés, vêtements d'armée, cosmétiques dégriffés et épices orientales, Ameyoko incarne la résilience joyeuse, populaire et cosmopolite du vieux quartier traditionnel de Shitamachi.",
+    visiter: "La déambulation dans cette artère pittoresque s'effectue au coude-à-coude dans une ambiance sonore et olfactive électrisante, rythmée par les cris traditionnels des poissonniers proposant à la criée thon rouge frais, saumon séché, crabes géants d'Hokkaidō et algues nori à prix bradés. Les visiteurs s'arrêtent devant les marchands de confiseries pour assister au spectacle du vendeur de chocolat qui remplit des sacs entiers à ras bord en scandant des formules d'encouragement théâtrales jusqu'à ce que la pile menace de s'effondrer. Les étals de street-food invitent à une halte gourmande spontanée sur le pouce pour déguster des brochettes de fruits frais glacés, des takoyaki croustillants fumants, des brochettes yakitori grillées au charbon de bois ou des bols de ramen servis sur de modestes tabourets en plastique calés sous les arcades de béton ferroviaires. En s'enfonçant dans les sous-sols du bâtiment Ameyoko Center Building, on découvre un incroyable marché souterrain asiatique regorgeant d'ingrédients rares, d'épices chinoises, de poissons vivants et de condiments d'Asie du Sud-Est, offrant une immersion sensorielle dépaysante à mille lieues des galeries aseptisées des grands magasins de la capitale.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tokyo_skytree",
+    name: "Tokyo - Tour Tokyo Skytree (Sumida)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 634,
+    is_island: true,
+island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Prouesse Technologique & Néo-Futurisme (2012)",
+    century: "XXIe siècle",
+    category: "",
+    lat: 35.710795,
+    lng: 139.810598,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMch_gAw2o3J5Ua_tQYAFbjiq1mU3u8KpFxonCd-q3B_lEQt5C0fpuqbwg93c_bmvNB6LTloQca_o-CVN3PRu-ZtZh0STuSCpBteXMi-pEXOHuyhKnXre2byepbn171SfBa-GIhHdPkf2rDmRg2v0TOdQ=w1455-h919-s-no-gm?authuser=0",
+    description: "Flèche titanesque fendant l'azur tokyoïte au cœur de l'arrondissement de Sumida, la Tokyo Skytree s'élève à la hauteur vertigineuse de 634 mètres, ce qui en fait la plus haute tour de transmission autoportante du monde et la troisième plus haute structure artificielle de la planète. Inaugurée en mai 2012 pour relayer la télédiffusion numérique au-dessus des gratte-ciel de la mégapole en remplacement de la vénérable Tour de Tokyo devenue trop basse, elle constitue une prouesse d'ingénierie parasismique d'avant-garde. Sa silhouette néo-futuriste immaculée d'une blancheur bleutée subtile (Aijiro) fusionne la modernité technologique la plus poussée avec les canons géométriques de l'art traditionnel nippon : sa base triangulaire au sol se métamorphose progressivement en une forme cylindrique parfaite au sommet selon les courbes délicates du sabre de samouraï (sori) et du galbe des colonnes de temples anciens (mukuri). Dotée d'un pilier central en béton armé (shinbashira) structurellement désolidarisé de l'armature métallique extérieure selon le principe antisismique séculaire des pagodes à cinq étages, la tour est conçue pour dissiper jusqu'à 50 % de l'énergie des séismes majeurs, incarnant le phare technologique et protecteur de la baie de Tokyo.",
+    visiter: "L'ascension vers les cieux s'effectue à bord d'ascenseurs ultra-rapides et silencieux filant à six cents mètres par minute, décorés de panneaux muraux évoquant les quatre saisons tokyoïtes, pour déboucher en cinquante secondes sur le premier observatoire du Tembo Deck situé à 350 mètres d'altitude. Depuis cette immense rotonde vitrée panoramique sur trois niveaux, le regard embrasse un panorama étourdissant à trois cent soixante degrés sur l'océan infini des toits de Tokyo, les méandres de la rivière Sumida et, par temps clair, la silhouette majestueuse et enneigée du mont Fuji se découpant sur l'horizon lointain. Les visiteurs en quête de sensations fortes testent leur aplomb sur la célèbre section de plancher de verre transparent (Glass Floor), contemplant le vide vertigineux de l'armature d'acier sous leurs semelles. Un second ensemble d'ascenseurs transparents hisse ensuite les voyageurs jusqu'à la Tembo Galleria à 450 mètres de hauteur, où une rampe tubulaire en spirale de verre suspendue dans les airs mène jusqu'au point culminant accessible de Sorakara Point (451,2 mètres), offrant l'impression saisissante de marcher littéralement au milieu des nuages au-dessus de la plus grande agglomération du globe.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tokyo_pokemon_center_skytree",
+    name: "Tokyo - Pokémon Center Skytree Town (Solamachi)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 15,
+    is_island: true,
+island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Époque Contemporaine & Pop Culture Vidéoludique (2016)",
+    century: "XXIe siècle",
+    category: "",
+    lat: 35.710659,
+    lng: 139.812873,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNgUWb9YHFeW1HxXyXwM-Q5gtxN_V0arOIF6Y-pFSEKA842nHlxEY0N1lfHyFzsaWg5EERLsSwJJ9HdHsXpSogEV75nWaGpv-iMhJDlXfp9htf6hcb1_ugr95O6zW5Ln_OoRqgoiDjx8UysHOekaescmw=w692-h919-s-no-gm?authuser=0",
+    description: "Temple thématique emblématique de la culture vidéoludique contemporaine et sanctuaire officiel de la franchise de divertissement la plus lucrative et populaire de l'histoire humaine, le Pokémon Center Skytree Town déploie son univers féerique au quatrième étage du vaste complexe commercial Tokyo Solamachi, directement au pied de la Tokyo Skytree. Ouverte à l'été 2016 pour célébrer les vingt ans de la saga créée par Satoshi Tajiri, cette enseigne officielle se singularise par son parrainage exclusif placé sous l'égide du légendaire Pokémon draconique céleste Rayquaza, maître des cieux issu de la région d'Hoenn, dont la mythologie aérienne fait écho à la verticalité vertigineuse de la tour qui le surplombe. Espace immersif baigné d'écrans animés, d'effets visuels futuristes et de thèmes musicaux orchestraux familiers tirés des jeux vidéo Nintendo, la boutique matérialise dans le monde réel les fameux Centres Pokémon virtuels où les dresseurs viennent soigner leurs créatures et s'équiper. Phénomène socioculturel mondial transcendant les générations, le lieu attire aussi bien les passionnés de gaming que les familles et collectionneurs internationaux en quête d'éditions exclusives introuvables ailleurs dans l'archipel nippon.",
+    visiter: "La visite s'amorce devant l'entrée spectaculaire du magasin où trône une monumentale statue grandeur nature sculptée avec un réalisme saisissant figurant le dragon céleste Rayquaza émergeant des cieux, chevauché avec malice par Pikachu paré de son inséparable queue en éclair. En franchissant les portes de ce paradis coloré, les amateurs découvrent d'immenses gondoles thématiques débordant de milliers de peluches officielles représentant l'intégralité du Pokédex national, depuis les figures fondatrices de la première génération comme Dracaufeu, Évoli ou Bulbizarre jusqu'aux légendaires les plus récents. Une section exclusive est spécialement consacrée aux produits dérivés estampillés Skytree Town, dévoilant des pin's commémoratifs, des figurines articulées et des peluches de Pikachu coiffé d'un béret aux motifs de la tour ou costumé d'un poncho Rayquaza vert et noir étincelant. Les passionnés du jeu de cartes à collectionner officiel (JCC Pokémon) s'attardent devant les vitrines de boosters récents et de boîtes de rangement exclusives, tandis que des bornes interactives permettent aux joueurs nomades de recevoir des distributions d'événements virtuels spéciaux sur leurs consoles, composant une étape ludique et colorée incontournable lors de l'exploration de Sumida.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tokyo_akihabara_electric_town",
+    name: "Tokyo - Quartier d'Akihabara Electric Town (Chiyoda)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 5,
+    is_island: true,
+island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Mecque Électronique & Culture Otaku (Après-Guerre - XXIe siècle)",
+    century: "XXIe siècle",
+    category: "",
+    lat: 35.699474,
+    lng: 139.771391,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN2Qxh8x1OI34rK93Pnt0i2QUJ_XrInulKpQmk1FhlhZ2iHsQi7lBVzYfN5Ya7Tl_of-8SYf2JPu8WF15ihe6Beh-rx_HaQAHuy55rPcctBSuKXiKpxxnvUlTWavxDWZyD4Rw_4ZLwZOA3egEyNV-jD5A=w1221-h919-s-no-gm?authuser=0",
+    description: "Mecque planétaire incontestée de la sous-culture otaku, temple mondial des mangas, des animes et du rétrogaming, et berceau historique des composants électroniques d'après-guerre, le quartier d'Akihabara — universellement surnommé Akiba ou Denki-gai (« la ville électrique ») — déploie son labyrinthe d'enseignes géantes au cœur de l'arrondissement de Chiyoda. Né dans les années 1940 et 1950 autour d'un modeste marché noir de lampes radio et de câblages récupérés sous les ponts de chemin de fer, le secteur s'imposa durant les décennies de la haute croissance économique comme la vitrine technologique étincelante de l'électroménager et de la micro-informatique japonaise naissante. À partir des années 1990 et 2000, le quartier connut une formidable mutation sociologique en devenant la terre promise de la pop culture graphique, concentrant des centaines d'immeubles entiers consacrés aux figurines de collection en résine, aux jeux de cartes à jouer, aux doujinshi et aux maid cafés où des serveuses costumées traitent les clients comme des maîtres de maison. Bordé par l'artère centrale Chūō-dōri où les façades vitrées des gratte-ciel s'habillent d'immenses fresques d'héroïnes de mangas aux yeux démesurés, Akihabara forme un paysage urbain cyberpunk sans équivalent sur le globe, vibrant au rythme des jingles publicitaires criards et de la passion dévorante de communautés de fans venues du monde entier.",
+    visiter: "La découverte s'amorce dès la sortie Electric Town de la gare JR d'Akihabara, où le visiteur plonge instantanément dans un univers sensoriel saturé d'écrans néon géants, de musiques de jeux d'arcade et de jeunes filles en costumes victoriens distribuant des prospectus sur le trottoir. Les passionnés de nouvelles technologies et de composants électroniques débuteront par l'exploration des venelles d'origine du Radio Kaikan historique ou des ruelles obscures du Radio Center, véritables cavernes d'Ali Baba débordant de condensateurs, de micro-circuits, de diodes et de connectiques vendus au détail. La visite se poursuit dans les cathédrales verticales de la pop culture comme Mandarake Complex, Kotobukiya, AmiAmi ou Sofmap, où l'on gravit d'étroits escaliers mécaniques desservant huit étages de figurines rares, de maquettes Gundam et d'artbooks de collection. Une immersion dans les célèbres salles d'arcade étagées de Sega (GiGO) ou Taito Hey permet de contempler la virtuosité hallucinante des joueurs japonais sur les bornes de rythme musicales ou de s'essayer aux machines attrape-peluches (UFO catchers). Les dimanches après-midi, l'avenue principale Chūō-dōri est rendue entièrement piétonne (Hokōsha Tengoku), permettant de flâner librement au milieu des façades chamarrées et d'immortaliser l'atmosphère électrique de cette ruche humaine d'anthologie.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tokyo_omoide_yokocho",
+    name: "Tokyo - Ruelle Omoide Yokochō (Shinjuku)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 35,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Époque d'Après-Guerre & Convivialité Nostalgique (1946)",
+    century: "XXe siècle",
+    category: "",
+    lat: 35.692701,
+    lng: 139.699455,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPcqCOSrpJzd7w6yaJ0v09S5iI2BPIPyFG7jZ01va1FRjPdgkDBbT5vVzc1trb-AfznldDPC95sIad73psySXBrMalxVx4CsKbknKG-FcrlFyyRPsKXw7jEY651huo0NRZSjgmy_F_xHY4d_1DIpBCRbg=w692-h919-s-no-gm?authuser=0",
+    description: "Enclave nostalgique miraculeusement préservée le long des voies ferrées à la sortie nord-ouest de la titanesque gare de Shinjuku, l'allée d'Omoide Yokochō (« l'allée des souvenirs ») — historiquement connue sous le sobriquet plus gouailleur de Shonben Yokochō (« l'allée du pipi ») — transporte le voyageur dans le Tokyo populaire, chaleureux et enfumé de l'immédiat après-guerre. Apparu dès 1946 sous la forme d'un dédale de baraquements précaires de marché noir où se vendaient alcools de contrebande et abats de bœuf ou de porc grillés (motsuyaki) échappant au rationnement strict des viandes nobles, ce réseau serré de deux venelles parallèles pavées d'à peine deux mètres de largeur a su résister à toutes les vagues successives de spéculation immobilière. Reconstruit fidèlement dans les règles de l'art après un incendie dévastateur en 1999, le site concentre aujourd'hui une soixantaine de minuscules comptoirs de restauration en bois patiné, pouvant accueillir pour la plupart à peine cinq à huit convives assis au coude-à-coude autour du gril du cuisinier. Les lampions rouges et jaunes en papier suspendus sous de faux feuillages de cerisiers ou d'érables d'automne, mêlés aux volutes d'encens de graisses grillées et aux murmures des verres de bière qui s'entrechoquent, composent un tableau vivant d'une poésie urbaine poignante au pied des gratte-ciel scintillants.",
+    visiter: "Pénétrer dans cette ruelle étroite à la nuit tombée constitue un choc sensoriel et visuel inoubliable : on se faufile entre les façades de bois sombre noircies par les fumées et les auvents bas pour s'imprégner des effluves irrésistibles de sauces soja caramélisées (tare) et de braises de charbon blanc de chêne binchōtan. L'expérience authentique invite à pousser le rideau court noren d'une échoppe minuscule pour trouver une place vacante sur un tabouret de bois patiné face au maître-grilleur, afin de commander des assortiments de brochettes traditionnelles yakitori de poulet fermier, de brochettes d'abats croustillants ou de légumes de saison saisis à vif sur la grille. Les salarymen tokyoïtes en costume s'y détendent après leur journée de bureau aux côtés des voyageurs de passage dans une convivialité désarmante, trinquant au son des bières pression fraîches, des verres de saké nihonshu tiédi ou des grands verres de whisky highball pétillants. En levant les yeux entre les toitures de tôle ondulée couvertes d'enchevêtrements pittoresques de fils électriques, le visiteur mesure avec émerveillement le contraste architectural saisissant entre ce sanctuaire populaire d'époque Shōwa et la silhouette de verre géante des tours modernes de Shinjuku émergeant dans la nuit tokyoïte.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tokyo_tocho_north_observation_deck",
+    name: "Tokyo - Observatoire Nord du Siège du Gouvernement Métropolitain (Tochō)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 202,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Postmodernisme & Architecture Monumentale Kenzo Tange (1991)",
+    century: "XXe siècle",
+    category: "",
+    lat: 35.689515,
+    lng: 139.692054,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNwo8UE6nZlZnBL11zfw3sJm8mvSNeRcCqZxnuRWzxHXaybYCtdKc2vQU-rt6XEZZepBbuADsPKImyskXtfYKSS_pD-AbotlD3z_gglKqHQ8-JNoqyTGNIL-KT4iEvMsWLKjpXp_ijDJnS6eJSEkK_Cuw=w1221-h919-s-no-gm?authuser=0",
+    description: "Symbole monumental du pouvoir civique tokyoïte et chef-d'œuvre du postmodernisme architectural international, le complexe du Siège du Gouvernement Métropolitain de Tokyo (Tōkyō-to Chōsha), universellement désigné sous le diminutif de Tochō, domine le quartier d'affaires de Nishi-Shinjuku de ses deux tours jumelles culminant à 243 mètres de hauteur. Conçu par le maître visionnaire de l'architecture contemporaine nippone Kenzō Tange et inauguré au printemps 1991 au zénith de la bulle économique japonaise pour un coût colossal de plus d'un milliard de dollars, l'édifice s'inspire avec audace de la verticalité hiératique et des façades ouvragées des cathédrales gothiques occidentales — évoquant en particulier Notre-Dame de Paris — tout en intégrant des trames géométriques en damier rappelant les paravents traditionnels japonais et les microprocesseurs électroniques modernes. Le bâtiment principal abrite au 45e étage de sa tour nord un spectaculaire observatoire panoramique public perché à 202 mètres au-dessus du sol, conçu dès l'origine pour offrir gratuitement aux citoyens et aux voyageurs du monde entier une vue plongeante sans égale sur l'immensité de la préfecture tokyoïte et l'infinie étendue urbaine de la plaine du Kantō.",
+    visiter: "La visite s'amorce au rez-de-chaussée du bâtiment numéro 1 par un passage filtré de sécurité avant d'emprunter des ascenseurs express dédiés gravissant les quarante-cinq étages à la vitesse vertigineuse de huit mètres par seconde pour atteindre l'observatoire nord en moins de cinquante-cinq secondes. En débouchant sur la vaste esplanade vitrée circulaire ceinturée de baies toute hauteur, le visiteur est foudroyé par la vue panoramique à 360 degrés embrassant tout l'écosystème de la mégapole : à l'est se déploient les forêts urbaines des parcs de Shinjuku Gyoen et Meiji-jingū encadrant les silhouettes lointaines de la Tokyo Skytree et de la Tour de Tokyo, tandis qu'à l'ouest s'étire l'alignement des gratte-ciel de verre et de granit du quartier des affaires. Par matin d'hiver très sec ou au coucher du soleil, la contemplation atteint un sommet d'émotion lorsque la silhouette pyramidale immaculée du mont Fuji émerge distinctement au-dessus de l'horizon vaporeux dans une lumière dorée ou rosée saisissante. L'observatoire abrite également des espaces de repos, une boutique d'artisanat traditionnel tokyoïte ainsi qu'un magnifique piano à queue laqué d'or orné de motifs géométriques conçu par la célèbre artiste Yayoi Kusama, sur lequel les musiciens de passage viennent improviser librement des mélodies contemplatives au-dessus de la ville.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tokyo_quartier_shinjuku",
+    name: "Tokyo - Quartier de Shinjuku (Kabukichō & Gratte-ciel)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 38,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Mégalopole Moderne & Gare la Plus Fréquentée du Monde",
+    century: "XXIe siècle",
+    category: "",
+    lat: 35.692570,
+    lng: 139.700715,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMTS6U2-lEY-BsGsboZwyOAwR6ziyK7ndb0XmKvYQOrrfWXSFskIjvkzIyN9Bs6gZ2ah9vAAXtFdH8zg5pPvvU1RqVteIYiHfM7VRsBN3E65Skl5Y_IGWuArcpaydC_mcqhIh4I34_nT93Wbg5GQdaWMw=w1221-h919-s-no-gm?authuser=0",
+    description: "Cœur battant démesuré, fascinant et protéiforme de la capitale japonaise, l'arrondissement de Shinjuku s'articule autour de sa gare ferroviaire centrale titanesque, officiellement reconnue par le livre Guinness des records comme la plus fréquentée de la planète avec plus de 3,6 millions d'usagers transitant chaque jour par ses quelque deux cents sorties souterraines. Ancien relais de poste de Naitō-Shinjuku établi au XVIIe siècle le long de la grande route féodale du Kōshū Kaidō sous l'époque d'Edo, le quartier a muté au fil du XXe siècle pour incarner la dualité architecturale et sociologique absolue de Tokyo. À l'ouest (Nishi-Shinjuku), sur un sol rocheux d'une exceptionnelle stabilité géologique ayant résisté au séisme de 1923, s'érige la première forêt de gratte-ciel parasismiques du pays, véritable Manhattan tokyoïte abritant sièges de multinationales, grands hôtels de luxe et l'imposant complexe gouvernemental du Tochō. À l'opposé diamétral vers l'est s'étend l'univers incandescent de Kabukichō, le plus vaste et célèbre quartier nocturne de divertissement d'Asie, baigné de néons étourdissants, de salles de pachinko rugissantes, de bars à thèmes et de cinémas monumentaux veillés par la silhouette menaçante d'un Godzilla grandeur nature dressé sur un toit terrasse.",
+    visiter: "La découverte s'amorce en s'extrayant du labyrinthe souterrain de la gare pour émerger sur la place de la sortie Est, dominée par le célèbre écran 3D incurvé géant de Cross Shinjuku où un chat calico géant animé semble saluer la foule avec malice depuis le sommet de l'immeuble. La traversée de l'avenue Yasukuni mène sous l'arche lumineuse rouge emblématique de Kabukichō Ichibangai, porte d'entrée d'un dédale de rues piétonnes électriques où les visiteurs déambulent sous les panneaux luminescents géants jusqu'à l'esplanade du cinéma Toho pour photographier la tête colossale de Godzilla émettant rugissements et fumées à chaque heure pile. À quelques pas de là, le voyageur s'engouffre dans le réseau intimiste du Golden Gai, minuscule quartier constitué de six allées étroites préservées où s'empilent plus de deux cents micro-bars thématiques artistiques et bohèmes pouvant à peine accueillir quatre à cinq personnes au comptoir. Pour achever la découverte, une marche vers les larges avenues calmes et aérées de Nishi-Shinjuku permet de contempler en contre-plongée la silhouette vertigineuse des tours Mode Gakuen Cocoon Tower et Sompo Japan, offrant un contraste saisissant entre la fête nocturne débridée et la rigueur financière internationale.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tokyo_tour_de_tokyo",
+    name: "Tokyo - Tour de Tokyo (Minato)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 333,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Époque Shōwa & Renaissance d'Après-Guerre (1958)",
+    century: "XXe siècle",
+    category: "",
+    lat: 35.658312,
+    lng: 139.745199,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOYUOVWCbkEIPw4tZGhbYxLVHfpwchUJiNsQH0QNrGIPnZxXz086eesULkoWrMN6C-9DQAil4NwUHiVC5YPB1FNcT3kh-rkCC9oK2uoeRKk_n3ekyvm1Ud-3H6Ay57EIlJITnd5rb5dTYkP7e3VgGsxeQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Silhouette iconique, romantique et bienveillante dominant le paysage urbain de l'arrondissement de Minato depuis plus de six décennies, la Tour de Tokyo (Tōkyō Tawā) incarne avec éclat la renaissance économique, l'optimisme technologique et la fierté retrouvée du Japon d'après-guerre. Conçue par l'architecte prolifique Tachū Naitō et inaugurée en décembre 1958, cette imposante tour de télécommunication autoportante en treillis d'acier culmine à 332,9 mètres de hauteur, surpassant de quelques mètres son illustre modèle d'inspiration, la tour Eiffel de Paris, tout en affichant un poids réduit de moitié (environ 4 000 tonnes) grâce aux progrès de la métallurgie nippone. Symbole éclatant de l'ingéniosité industrielle de l'époque Shōwa, un tiers de son armature métallique provient du recyclage de l'acier de chars d'assaut américains endommagés lors de la guerre de Corée. Peinte de teintes réglementaires alternant blanc pur et orange international pour satisfaire aux normes strictes de la sécurité aérienne, la tour a servi de repère visuel et émotionnel indissociable du quotidien des Tokyoïtes, immortalisée dans d'innombrables films de cinéma, mangas cultes et œuvres d'animation japonaise à travers les générations.",
+    visiter: "La découverte commence dès l'approche au pied de la structure par le complexe de loisirs de Tokyo FootTown, d'où le regard se perd avec vertige dans l'entrelacs des poutres peintes d'un orange éclatant montant vers le ciel. L'ascension vers l'observatoire principal (Main Deck), perché à 150 mètres d'altitude sur deux niveaux vitrés, s'effectue soit par des ascenseurs rapides, soit pour les plus sportifs en gravissant les quelque six cents marches de l'escalier extérieur à ciel ouvert offrant des sensations fortes face au vide. La vue circulaire plonge sur les toits d'ardoise et le parc de sépultures du temple séculaire voisin Zōjō-ji, s'étirant au loin vers la baie de Tokyo, le Rainbow Bridge et le quartier ultramoderne de Roppongi Hills. Les amateurs de vertige contempleront la ville sous leurs pieds à travers les hublots transparents du Skywalk Window, avant d'emprunter, pour une expérience encore plus exclusive, l'ascenseur menant au Top Deck à 250 mètres d'altitude, réaménagé avec de spectaculaires miroirs géométriques démultipliant les lumières de la ville. À la nuit tombée, la tour se métamorphose en un joyau scintillant sous ses éclairages Landmark Light dorés en hiver et blancs en été, parachevant une étape émotionnelle majeure de tout séjour tokyoïte.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tokyo_sanctuaire_asakusa",
+    name: "Tokyo - Sanctuaire d'Asakusa (Sanja-sama)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 5,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque d'Edo & Shogunat Tokugawa (1649)",
+    century: "XVIIe siècle",
+    category: "religieux",
+    lat: 35.714435,
+    lng: 139.796701,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNVlErgZ5v6mtnbqxXxKFofYVLC8jQx8hcgJbfq38xtbCIze838ALn_8m31IMBT57BBYTS5sTsSIpkwdiDHFhvEcYIYieQDND29Urs8pr_ST1N97ua_linf94qEp4q9clDq3fHIZ9kvtjHbNjj_ttzTQg=w1379-h919-s-no-gm?authuser=0",
+    description: "Niché dans l'ombre tutélaire du grand temple bouddhique Sensō-ji au cœur du quartier historique et populaire de Taitō, le sanctuaire d'Asakusa, affectueusement nommé Sanja-sama (« le sanctuaire des trois divinités »), constitue l'un des rares et précieux chefs-d'œuvre de l'architecture shintoïste du début de l'époque d'Edo à avoir miraculeusement survécu aux bombardements dévastateurs de la Seconde Guerre mondiale ainsi qu'aux séismes majeurs. Érigé en 1649 sous les ordres du troisième shogun Tokugawa Iemitsu, cet édifice classé Bien culturel important d'État illustre avec un éclat souverain le style architectural gongen-zukuri, où le pavillon des offrandes (heiden) et le saint des saints (honden) sont reliés sous une même toiture complexe aux courbes élégantes, rehaussée de laques sombres, de ferrures dorées et de délicats motifs sculptés en bois polychrome représentant des bêtes mythologiques et des dragons protecteurs. Le sanctuaire est dédié aux trois figures fondatrices laïques qui présidèrent à l'origine sacrée du quartier au VIIe siècle : les deux frères pêcheurs Hinokuma no Hamanari et Takenari, qui découvrirent dans leurs filets la statuette miraculeuse de Kannon dans les eaux de la rivière Sumida, ainsi que le sage lettré Hajino Nakatomo qui reconnut la divinité et consacra sa vie à son culte. Foyer spirituel indissociable de l'identité des artisans et marchands du vieux Tokyo d'autrefois (shitamachi), il accueille chaque année en mai le Sanja Matsuri, l'un des trois plus gigantesques, fervents et spectaculaires festivals shintoïstes de tout l'archipel nippon, durant lequel une centaine de sanctuaires portatifs (mikoshi) est portée à dos d'homme dans une transe collective inoubliable.",
+    visiter: "La découverte s'amorce après avoir longé le flanc oriental de l'immense esplanade du Sensō-ji, en franchissant le discret torii de granit qui marque le seuil sacré séparant l'effervescence touristique du temple bouddhique de la solennité feutrée de l'enclos shintoïste. Le visiteur s'arrête tout d'abord devant le pavillon d'ablution rituel (temizuya) orné de sculptures de dragons en bronze pour accomplir la purification ancestrale des mains et de la bouche, avant d'aborder la façade richement décorée du bâtiment principal dont les teintes sombres contrastent harmonieusement avec la luxuriance des pins et ginkgos centenaires veillant sur la cour sacrée. En observant attentivement la zone de transition sous les auvents de bois, on peut admirer la virtuosité des assemblages sans le moindre clou et la vivacité intacte des pigments minéraux préservés depuis près de quatre siècles, figurant des oiseaux de paradis et des rinceaux végétaux d'inspiration céleste. Les fidèles et les voyageurs s'avancent vers l'autel de prière pour jeter une offrande dans le tronc de bois, s'incliner deux fois, frapper deux fois dans leurs mains en signe d'appel aux esprits kami, puis formuler une prière silencieuse avant de s'incliner une dernière fois avec déférence. Tout autour de la nef, des présentoirs abritent des centaines de plaquettes ema en bois gravées de vœux calligraphiés ainsi que des omikuji, bandes de papier divinatoires nouées aux grillages pour conjurer le mauvais sort. Cette halte d'une rare densité spirituelle offre un témoignage authentique et bouleversant sur la cohabitation séculaire du shintoïsme et du bouddhisme (shinbutsu shūgō), permettant d'apprécier la persistance vivante des rites traditionnels japonais au milieu de la modernité urbaine tokyoïte.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tokyo_ueno_toshogu",
+    name: "Tokyo - Sanctuaire Ueno Tōshō-gū (Parc d'Ueno)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 18,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque d'Edo & Shogunat Tokugawa (1627 - 1651)",
+    century: "XVIIe siècle",
+    category: "religieux",
+    lat: 35.715338,
+    lng: 139.771061,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP56aA_-i-lkaKAUHevY7xIE0Q-WruBb6LnMRS59Pr2F51p6348GUdtx6NtdlTzkJZAe4FCKkYuXYgASjxmYWau8_rr4NFLEl9pdlavMev6b6H5pGQfreFXoHbWTSo1Q2etX9Ruk5dZetpf4j5OSh7o2A=w1379-h919-s-no-gm?authuser=0",
+    description: "Sommet éblouissant de l'art décoratif shintoïste et mémorial dynastique d'une richesse inouïe niché au cœur de la colline verdoyante du parc d'Ueno, le sanctuaire Ueno Tōshō-gū fut érigé originellement en 1627 par le seigneur féodal Tōdō Takatora avant d'être somptueusement reconstruit et agrandi en 1651 par le troisième shogun Tokugawa Iemitsu pour égaler le faste du grand mausolée de Nikkō. Dédié à la mémoire divinisée de Tokugawa Ieyasu — le fondateur visionnaire du shogunat d'Edo qui unifia le Japon déchiré par les guerres civiles et instaura deux siècles et demi de paix intérieure —, le complexe incarne l'apogée spectaculaire du style architectural gongen-zukuri. Entièrement revêtu de feuilles d'or étincelantes qui lui valent le surnom immémorial de « sanctuaire doré », l'édifice principal associe avec virtuosité laques vermillon, sculptures sur bois polychromes en haut-relief et bronzes massifs ciselés figurant fleurs de pivoine, oiseaux légendaires et motifs géométriques complexes. Miraculeusement épargné par la terrible bataille d'Ueno lors de la guerre de Boshin en 1868, par le grand séisme du Kantō de 1923 et par les flammes de la Seconde Guerre mondiale, ce chef-d'œuvre classé Bien culturel important d'État constitue un témoignage rarissime et d'une authenticité absolue sur la magnificence architecturale et la puissance politique de la caste samouraï au XVIIe siècle.",
+    visiter: "L'approche du sanctuaire constitue une véritable progression initiatique à travers une allée dallée majestueuse bordée par plus de deux cent cinquante monumentales lanternes de pierre (ishidōrō) et une cinquantaine de lanternes en bronze massif offertes au fil des générations par les plus puissants seigneurs féodaux (daimyō) de l'empire en signe d'allégeance éternelle au clan Tokugawa. En progressant sous les frondaisons centenaires, le regard est happé par l'extraordinaire porte d'honneur Karamon de style chinois, dont les battants sculptés dans un bois d'une finesse chirurgicale dévoilent les célèbres deux dragons attribués au maître sculpteur légendaire Hidari Jingorō, réputés descendre s'abreuver chaque nuit dans l'étang voisin de Shinobazu. Une clôture ajourée en treillage de bois doré (sukibei) de près de deux cent cinquante mètres de pourtour ceint le saint des saints, décorée de dizaines de panneaux sculptés représentant avec un naturalisme stupéfiant la faune terrestre et céleste, depuis les oiseaux d'eau jusqu'aux créatures marines. En longeant l'enceinte, les visiteurs accèdent au célèbre jardin de pivoines d'hiver et de printemps (Botan-en), où de somptueuses corolles aux teintes éclatantes s'abritent sous de petits parasols de paille traditionnels tressés à la main créant un tableau végétal féerique. La visite permet d'approcher au plus près l'austère flamme éternelle de la paix d'Hiroshima entretenue sur place, offrant un moment de recueillement d'une solennité poignante avant de poursuivre la découverte des allées ombragées d'Ueno.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tokyo_hanazono_inari_gojoten",
+    name: "Tokyo - Sanctuaires Hanazono Inari & Gojōten (Ueno)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 14,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque Ancienne & Période d'Edo (Fondation antique - 1654)",
+    century: "Moyen Âge & XVIIe siècle",
+    category: "religieux",
+    lat: 35.713567,
+    lng: 139.772321,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMvlFP61W_gUisklY4bX2gl0aVT6-08820umAt_wnmlCOoXDJeWyDtRqWqLV-5Q5PxX2Qsug02NidcbM6he05RaI6f7ugL9hlAugHHITo69T84APDnoTeiLFn_j-Wcb8vSNzeusCkON3wTXRCRbbC1InQ=w603-h919-s-no-gm?authuser=0",
+    description: "Enchâssé dans une gorge boisée secrète et escarpée sur les contreforts occidentaux du parc d'Ueno, le complexe sacré jumeau des sanctuaires Hanazono Inari et Gojōten-jinja forme l'un des recoins les plus envoûtants, intimistes et mystiques de tout le cœur historique tokyoïte. Bien que le Gojōten-jinja puise ses racines légendaires dans la plus haute Antiquité nippone — fondé il y a plus de mille neuf cents ans sous le règne de l'empereur Keikō pour honorer Ōnamuchi no Mikoto et Sukunabikona no Mikoto, divinités tutélaires suprêmes de la médecine, des remèdes curatifs et des sources thermales —, le site fut transféré sur cette colline sacrée en 1654 lors de l'urbanisation de la cité d'Edo. Il partage son enceinte feutrée avec le sanctuaire Hanazono Inari, vénéré quant à lui comme le sanctuaire des fleurs dédié au culte du renard céleste d'Inari, esprit bienveillant de la fertilité agraire, des mariages heureux, de la concorde familiale et du succès des entreprises humaines. L'atmosphère du lieu est marquée par une déclivité topographique spectaculaire où la roche affleurante, tapissée de mousses humides et ombragée par d'immenses érables japonais et des cerisiers séculaires, crée une rupture sensorielle saisissante avec les larges boulevards animés du quartier voisin d'Ueno.",
+    visiter: "La traversée de ce sanctuaire s'aborde traditionnellement par la descente féerique d'un long tunnel sinueux composé de dizaines de portiques torii vermillon serrés les uns contre les autres, offerts au fil des siècles par des dévots et des commerçants reconnaissants dont les noms restent calligraphiés en caractères noirs au dos des montants de bois. En s'enfonçant sous cette voûte écarlate où la lumière du jour filtre délicatement à travers les feuillages, le visiteur découvre des autels rupestres miniatures dissimulés dans de petites cavités rocheuses naturelles (Ana Inari), gardées par de fidèles statues de renards messagers (kitsune) sculptées dans la pierre, parées de bavoirs votifs en tissu rouge et enserrant dans leurs gueules les clefs des greniers à riz ou le joyau sacré. En contrebas de la gorge, l'esplanade s'ouvre sur le pavillon de prière plus vaste et solennel du Gojōten-jinja, où les fidèles viennent chercher des talismans protecteurs contre la maladie et formuler des prières de prompt rétablissement pour leurs proches devant les grilles de bois laqué. L'immersion se poursuit le long des escaliers dérobés menant vers le bassin des ablutions et les lanternes de pierre couvertes de mousse, offrant aux promeneurs une halte contemplative d'une rare intensité poétique où se respire l'âme mystique et silencieuse du Japon d'autrefois.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tokyo_kiyomizu_kannon_do",
+    name: "Tokyo - Temple Kiyomizu Kannon-dō (Parc d'Ueno)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 16,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque d'Edo & École Tendai (1631)",
+    century: "XVIIe siècle",
+    category: "religieux",
+    lat: 35.712536,
+    lng: 139.773466,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPYHb7DUyck7UHJSghtxjsM2d2i-mqlwIonG2t4eGK0s5bI__eaCig2aYzW8QVE4dK0wKL7mA5bMcpnEJkHvIzHFL22RtHsMgQ-8RaNClY12_pB5PxNTFIriwAsagAoK-ml9yq-gyXIICV1Ctd-Bwc0ZA=w1379-h919-s-no-gm?authuser=0",
+    description: "Érigé en 1631 sur les hauteurs de la colline d'Ueno par le grand dignitaire et moine érudit Tenkai de la secte bouddhique Tendai, le Kiyomizu Kannon-dō s'impose comme le plus ancien et admirable sanctuaire bouddhiste conservé dans son état d'origine au sein du parc d'Ueno. Conçu sous le règne des premiers shoguns Tokugawa pour servir de pendant septentrional prestigieux au mythique temple Kiyomizu-dera de Kyōto, l'édifice s'inspire directement de son illustre modèle en s'élevant sur une audacieuse terrasse en encorbellement de bois vermillon (butai) construite à flanc de falaise selon la technique traditionnelle kake-zukuri. Dédié à Senju Kannon, la divinité de la compassion infinie aux mille bras sculptée par le maître d'art sacré Eshin Sōzu au Xe siècle, le temple est également un haut lieu de ferveur pour Kosodate Kannon, protectrice bienveillante de la conception, de la maternité et des jeunes enfants. Ayant miraculeusement survécu aux guerres civiles, aux incendies périodiques et aux ravages des conflits modernes, ce joyau vermillon classé Bien culturel important d'État illustre avec majesté la volonté du pouvoir féodal d'Edo de transposer dans la nouvelle capitale guerrière les chefs-d'œuvre architecturaux et la sacralité raffinée de l'ancienne cour impériale de l'Ouest.",
+    visiter: "La visite s'amorce par l'ascension de l'escalier de pierre menant au promontoire boisé, d'où la terrasse suspendue en charpente rouge vif offre une perspective aérienne splendide sur la plaine basse et l'étang de Shinobazu. C'est depuis cette estrade panoramique que le regard découvre le légendaire « Pin de la Lune » (Tsuki no Matsu), pin noir centenaire dont une branche a été méticuleusement guidée et courbée par les maîtres jardiniers pour former une boucle végétale circulaire parfaite encadrant le paysage lointain, motif rendu universellement célèbre par le maître de l'estampe Utagawa Hiroshige dans ses Cent vues d'Edo. En pénétrant sur le déambulatoire de bois patiné où résonne le son cristallin des cloches à vent et le tintement des prières, les visiteurs contemplent les impressionnantes étagères intérieures où sont délicatement alignées des centaines de poupées traditionnelles (ningyō) déposées par les mères de famille : chaque année en septembre, un office funéraire rituel (Ningyō Kuyō) y est solennellement célébré pour libérer avec gratitude les âmes de ces figurines ayant accompagné l'enfance. L'ambiance feutrée, imprégnée d'effluves d'encens et rythmée par le murmure des dévotions matinales, invite à une halte contemplative d'une rare élégance au carrefour des traditions bouddhiques et de l'art paysager japonais.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tokyo_shinobazu_no_ike_bentendo",
+    name: "Tokyo - Étang de Shinobazu & Temple Bentendō (Ueno)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 3,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque d'Edo & Culte de Benzaiten (1625 - Reconstruit 1958)",
+    century: "XVIIe siècle",
+    category: "religieux",
+    lat: 35.712212,
+    lng: 139.771554,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPqxozrsH7NIlNWgsolyYOLE5ZqiShmKhUWjQzYJ0q_d9FCmoMbH3n6ksPk0PD_662NJsyqa8OEgcmKxl8oSu1R7iYj-RtCeUXHlq6W1fBkDXsvJD6wKLeTD5TEmiwlIlP0U7WwF6IlPlVuY7W_jAQ2jQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Écrin lacustre spectaculaire et sanctuaire aquatique insulaire s'étendant sur plus de seize hectares au pied méridional de la colline d'Ueno, l'étang de Shinobazu (Shinobazu no Ike) forme l'un des paysages naturels et spirituels les plus emblématiques et poétiques de la capitale nippone. Façonné originellement à l'époque d'Edo par le moine Tenkai pour reproduire à l'échelle tokyoïte le cadre grandiose du lac Biwa et de l'île sacrée de Chikubu, l'étang abrite en son centre, sur une île artificielle reliée par des digues piétonnes, le splendide temple octogonal du Bentendō. Dédié à Benzaiten — divinité bouddhique majeure issue de la déesse védique Saraswati, patronne des arts, de la musique, des lettres, de la sagesse et des eaux vives —, le sanctuaire se singularise par sa somptueuse toiture octogonale aux auvents recourbés couverte de cuivre et ses façades richement parées d'ornements vermillon et d'or. Divisé en trois bassins distincts — l'étang aux lotus tapissé de feuilles gigantesques, l'étang aux barques récréatif et le sanctuaire ornithologique des cormorans —, le site déploie un contraste saisissant entre la luxuriance végétale aquatique et les silhouettes verticales des gratte-ciel modernes ceinturant le quartier d'Ueno.",
+    visiter: "La découverte s'amorce en empruntant la longue chaussée pavée bordée de lanternes en pierre et de saules pleureurs qui s'élance sur les eaux pour atteindre l'île centrale du Bentendō. Dès l'entrée sur le terre-plein sacré, le visiteur remarque d'étonnants monuments votifs en bronze et en pierre sculptée érigés par les corporations tokyoïtes en hommage aux êtres vivants sacrifiés pour la subsistance humaine, tels que le monument aux poissons, aux lunettes ou aux instruments de musique. En pénétrant sous la rotonde du pavillon baignée par les lueurs dorées des veilleuses et les volutes d'encens, on peut contempler la statue sacrée de Benzaiten représentée avec ses huit bras armés d'attributs célestes veillant sur la fortune des dévots. Durant les mois d'été, l'étang offre un spectacle visuel d'une féerie sans pareille : des milliers de fleurs de lotus d'un rose immaculé émergent au-dessus de feuilles gigantesques couvrant entièrement la nappe d'eau, ouvrant leurs corolles aux premières lueurs de l'aube dans un parfum délicat. La promenade se prolonge le long des berges aménagées où les citadins canotent en barques traditionnelles au milieu des reflets miroitants des gratte-ciel, offrant une respiration bucolique et spirituelle incontournable.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tokyo_hanazono_jinja",
+    name: "Tokyo - Sanctuaire Hanazono-jinja (Shinjuku)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 34,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque d'Edo & Protection de Shinjuku (Fondé avant 1590)",
+    century: "XVIe siècle",
+    category: "religieux",
+    lat: 35.693521,
+    lng: 139.705439,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMuGu1jAdVuSPzXsQgokyzb-EiAr7xOin30LXY_oVb3DA_B8EwjPza3g7X3GjaKFnbr8EhqjMdmJeCY71qnFeaWzZ2YyJH9K8OWkEE-gru8dbnxpIG-WpUz5zTeJ88wAUu0LHB1KCTYtSRQO8nA1Bf3lg=w1221-h919-s-no-gm?authuser=0",
+    description: "Véritable sanctuaire tutélaire et poumon spirituel immémorial enclavé au beau milieu de la jungle de béton et de néons du quartier ultramoderne de Shinjuku, Hanazono-jinja veille sur le cœur économique et nocturne de Tokyo depuis plus de quatre siècles. Établi bien avant l'accession de la dynastie Tokugawa au pouvoir en 1590 par le clan seigneurial des Kasai, le sanctuaire fut déplacé à son emplacement actuel sous l'ère Kan'ei lorsque le domaine fut concédé au maître de poste impérial, occupant jadis une terre réputée pour ses somptueux jardins de fleurs impériaux qui lui léguèrent son nom poétique de Hanazono (« le jardin de fleurs »). Dédié à trois divinités majeures du panthéon shintoïste — Ukanomitama no Kami (esprit de l'agriculture et du commerce), Yamato Takeru no Mikoto (héros guerrier légendaire) et Ukano Mitama —, ce sanctuaire vermillon vif incarne le protecteur divin absolu des commerçants, des gens de spectacle, des artistes et des résidents de l'arrondissement le plus effervescent de la planète. Ayant su renaître de ses cendres après les incendies dévastateurs d'Edo et les bombardements de 1945, le site déploie une énergie tellurique saisissante où la dévotion shintoïste la plus pure côtoie immédiatement les ruelles interlopes du Golden Gai et les avenues commerçantes baignées d'enseignes lumineuses.",
+    visiter: "L'accès au sanctuaire s'effectue en franchissant l'imposant torii en acier rouge vif dressé le long de l'avenue Meiji-dōri, ouvrant sur une vaste allée pavée bordée d'arbres sacrés et de lanternes traditionnelles qui étouffent progressivement les bruits assourdissants de la mégapole. En pénétrant sur l'esplanade centrale, le regard est captivé par la haute silhouette laquée de rouge du bâtiment principal de prière (haiden), dont les auvents de cuivre patiné et les sculptures de têtes de lions shishi montent la garde face aux gratte-ciel scintillants en arrière-plan. Une déambulation sur le côté oriental permet de découvrir deux sanctuaires subsidiaires hautement vénérés : le sanctuaire Itoku Inari, abrité sous un alignement intimiste de petits torii vermillon où les fidèles viennent prier pour les rencontres amoureuses et l'harmonie des couples, ainsi que le sanctuaire Geinō Asama, lieu de dévotion unique où chanteurs, acteurs de kabuki, musiciens et personnalités du show-business tokyoïte viennent déposer des plaquettes votives ema rouges pour bénir leur carrière artistique. Les dimanches matin, la cour accueille un marché aux puces d'antiquités très couru où chiner kimonos en soie, céramiques et estampes anciennes, tandis qu'en novembre, le festival des foires du coq (Tori no Ichi) embrase le sanctuaire d'une foule en liesse venue acheter des râteaux porte-bonheur kumade richement parés d'or.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tokyo_zojo_ji",
+    name: "Tokyo - Grand Temple Zōjō-ji (Minato)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 12,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque d'Edo & Temple Familial des Tokugawa (1393 - 1598)",
+    century: "XIVe siècle",
+    category: "religieux",
+    lat: 35.657404,
+    lng: 139.748640,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPO935T49ThYlBQYOTYydf6bJ3lZBaxNSnEoki713gqOvMrqWVX_CszM3VpBB7DJLtv4x4BuuclVtWNXpaq5E8DBnfK_LLMp_JPkmO-YPHDbyXWMOg_lji2EJE8FkYSSc2iF-_sFwD-eXABKXxMAHHclg=w1379-h919-s-no-gm?authuser=0",
+    description: "Édifié originellement en 1393 par l'école bouddhique Jōdo-shū (secte de la Terre Pure) et transféré à son emplacement actuel en 1598 par le grand unificateur Tokugawa Ieyasu qui en fit le temple funéraire et tutélaire attitré de sa dynastie shogunale, le Zōjō-ji s'impose comme l'un des sanctuaires les plus monumentaux, historiques et solennels de Tokyo. À son apogée sous l'époque d'Edo, cet immense complexe monastique s'étendait sur des centaines d'hectares, abritant plus de quarante-huit temples annexes et logeant jusqu'à trois mille moines étudiants chargés de prier pour la pérennité du gouvernement shogunal. Le site conserve en son sein le prestigieux mausolée funéraire abritant les tombes et cénotaphes monumentaux de six des quinze shoguns Tokugawa, de leurs épouses et de princes héritiers impériaux. Échappant miraculeusement aux incendies et aux bombardements alliés de 1945 qui détruisirent la majeure partie des nefs en bois, sa gigantesque porte d'entrée principale Sangedatsumon, construite en 1622 en bois de cèdre laqué de rouge vermillon, constitue la plus ancienne structure d'époque d'Edo préservée dans tout Tokyo. Aujourd'hui, le temple offre une confrontation architecturale saisissante et mondialement célèbre, où la majesté austère des toitures bouddhiques centenaires se découpe directement au pied de la silhouette rouge et blanche futuriste de la Tour de Tokyo.",
+    visiter: "La découverte débute par le franchissement vertigineux de la porte Sangedatsumon haute de plus de vingt et un mètres, chef-d'œuvre classé Bien culturel important d'État dont le franchissement est réputé purifier rituellement le visiteur des trois poisons de l'âme bouddhique : l'avidité, la colère et l'ignorance. En s'avançant sur la gigantesque esplanade dallée s'étirant vers le Daibonsho (la grande cloche de bronze coulée en 1673 pesant plus de quinze tonnes), le regard est saisi par le contraste visuel étourdissant entre le grand pavillon de prière Daiden aux toitures d'ardoise massives et l'armature métallique élancée de la Tour de Tokyo dressée juste à l'arrière. L'exploration se prolonge avec émotion le long du jardin latéral des enfants jizō (Sentai Kosodate Jizō) : des centaines de statuettes de pierre émouvantes, coiffées de bonnets de laine rouge tricotés à la main et portant de petits moulins à vent multicolores qui tournoient dans la brise, y sont veillées par les familles en hommage aux âmes des enfants disparus ou non nés. Une visite du musée du trésor en sous-sol permet d'admirer les maquettes minutieuses en bronze et laque du mausolée du deuxième shogun Hidetada ainsi que de superbes rouleaux enluminés, avant de se recueillir devant l'austère cimetière royal des Tokugawa abrité derrière d'imposantes portes de bronze armoriées du blason aux trois feuilles de mauve.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tokyo_musee_art_occidental",
+    name: "Tokyo - Musée National de l'Art Occidental (Le Corbusier)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 20,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Époque Moderne & Chef-d'œuvre Le Corbusier (1959)",
+    century: "XXe siècle",
+    category: "musee",
+    lat: 35.715176,
+    lng: 139.775492,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNoPyfUJ_MTflm0r7tKiA9mVizblTc6_i06Bsjv5zH_S_PEJ6DNm5Hfn6g0oPav_acPGtlGGvZBB_xr8ddDVXpUj0Zx-ghtkcnNXdeElxkMu6D78ptwwgsMIqARLcOP8EPQ4J59yaHUQcYHQZtOu2T07g=w1221-h919-s-no-gm?authuser=0",
+    description: "Fleuron muséographique international et unique accomplissement architectural du maître moderniste franco-suisse Le Corbusier en Extrême-Orient, le Musée National de l'Art Occidental (NMWA) s'élève fièrement sur l'esplanade culturelle du parc d'Ueno. Conçu à la fin des années 1950 et inauguré en juin 1959 pour abriter la fabuleuse collection de l'industriel nippon Kōjirō Matsukata restituée par la France après la guerre, le bâtiment principal matérialise avec une rigueur magistrale le concept théorique cher à Le Corbusier de « musée à croissance illimitée ». Édifié en béton brut bouchardé et reposant sur un socle de pilotis puissants qui libèrent l'espace au sol, l'édifice s'articule autour d'une monumentale salle centrale à double hauteur coiffée d'une verrière zénithale prismatique éclairant une rampe hélicoïdale descendante. Inscrit sur la prestigieuse liste du patrimoine mondial de l'UNESCO au titre de « L'Œuvre architecturale de Le Corbusier, une contribution exceptionnelle au Mouvement Moderne », ce sanctuaire artistique abrite la plus riche collection d'art occidental d'Asie, déployant des chefs-d'œuvre inestimables de la Renaissance jusqu'au début du XXe siècle, de Véronèse et Rubens jusqu'à Monet, Renoir, Van Gogh, Cézanne et Picasso.",
+    visiter: "La découverte s'amorce dès la vaste cour extérieure pavée à ciel ouvert, véritable jardin de sculptures monumentales en bronze où les visiteurs peuvent admirer en accès libre des fontes originales majeures d'Auguste Rodin telles que la colossale Porte de l'Enfer, Le Penseur en position méditative sur son rocher ou Les Bourgeois de Calais, entourées de bronzes d'Antoine Bourdelle. En pénétrant dans le hall d'accueil du rez-de-chaussée, le regard s'élève vers l'impressionnante mezzanine polygonale baignée d'une douce lumière naturelle filtrée par les lanterneaux pyramidaux du plafond, illustrant à merveille le système modulaire proportionnel du Modulor développé par l'architecte. L'itinéraire muséographique s'élève par la rampe intérieure vers les galeries d'exposition où les œuvres dialoguent avec les ouvertures oblongues et les textures minérales du béton d'origine : les toiles lumineuses des Nymphéas de Claude Monet côtoient les chefs-d'œuvre de Delacroix, Courbet, Manet et Degas dans une muséographie épurée de rang mondial. Une extension harmonieuse conçue par ses élèves japonais Kunio Maekawa et Junzō Sakakura prolonge la visite vers les collections d'art contemporain et les expositions temporaires, faisant de cette étape un dialogue culturel et architectural universel d'une intensité rare entre l'Occident et l'archipel nippon.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tokyo_musee_nature_sciences",
+    name: "Tokyo - Musée National de la Nature et des Sciences (Ueno)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 21,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Époque Contemporaine & Histoire Naturelle (Fondation 1877 - 1931)",
+    century: "XXe siècle",
+    category: "musee",
+    lat: 35.716515,
+    lng: 139.776183,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNcJ07ILKViD4JVd3ResfVrRifn97BFtLgYjJJtdCT1Vk13Y5rvU_oRaVBAby1oR-b-4N5kgqZvZPKrRQtsuGVFF3n8asQFB3C8zM39LdV_6jYRHv2k0Z_A-RwBb1Y019ve3-86klb39p2jvrefTCftiA=w1221-h919-s-no-gm?authuser=0",
+    description: "Doyen des institutions scientifiques et temple absolu de la recherche naturaliste au Japon, le Musée National de la Nature et des Sciences (Kahaku) déploie ses imposantes ailes d'exposition à la lisière nord-est du parc d'Ueno depuis sa fondation en 1877 durant les grandes réformes de l'ère Meiji. Son édifice historique central, baptisé Pavillon du Japon et parachevé en 1931 dans un noble style néo-Renaissance coiffé d'un dôme majestueux et agencé selon la silhouette symbolique d'un aéroplane vu du ciel, est classé Bien culturel important d'État pour son exceptionnelle valeur patrimoniale et architecturale. Conservant plus de quatre millions et demi de spécimens zoologiques, botaniques, géologiques et technologiques, l'établissement retrace l'histoire millénaire de l'archipel nippon, la genèse de sa faune endémique façonnée par les glaciations insulaires et l'aventure humaine des premiers chasseurs-cueilleurs de la période Jōmon jusqu'aux pionniers de l'industrie moderne. Adossé à cet écrin ancien, le vaste Pavillon Global contemporain propose une immersion spectaculaire dans l'arbre du vivant universel, l'évolution cosmique des espèces terrestres et les lois fondamentales de la physique, s'imposant comme le phare intellectuel et éducatif le plus prestigieux d'Asie dans le domaine des sciences de la Terre.",
+    visiter: "La découverte commence devant l'esplanade extérieure accueillant deux emblèmes monumentaux de la science nippone : une spectaculaire reproduction grandeur nature d'une baleine bleue de trente mètres semblant plonger dans le sol et la locomotive à vapeur historique D51 qui tractait autrefois les convois à travers les montagnes du pays. En pénétrant dans le hall d'honneur du Pavillon du Japon, le regard est ébloui par la grande rotonde sous coupole sertie de vitraux néo-classiques et d'escaliers de marbre blanc, avant d'arpenter les galeries dédiées aux richesses naturelles de l'archipel : on y contemple les squelettes montés du célèbre plésiosaure Futabasaurus découvert au Japon, des spécimens naturalisés du loup d'Honshū aujourd'hui éteint, ainsi que la dépouille naturalisée émouvante du légendaire chien Hachikō, symbole national de fidélité absolue. Le passage vers le Pavillon Global entraîne le voyageur au cœur d'une forêt minérale de squelettes géants de dinosaures (Tyrannosaurus, Triceratops), complétée par la spectaculaire galerie de la biodiversité animale où des centaines de mammifères naturalisés défilent en procession sous les projecteurs. L'expérience immersive culmine au cinéma circulaire 360 Theatre, où les spectateurs avancent sur une passerelle suspendue au centre d'une sphère vidéo totale pour un voyage vertigineux à travers les fonds marins préhistoriques et les origines de l'Univers.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tokyo_takeshita_street_harajuku",
+    name: "Tokyo - Rue Takeshita (Harajuku, Shibuya)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 32,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Époque Contemporaine & Pop Culture Kawaii",
+    century: "XXIe siècle",
+    category: "",
+    lat: 35.671325,
+    lng: 139.704375,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMujW2maeQUnSzKEaBdWB1G_hk2wPalNicEQTHxmqfsJxOrwG-PnNDc32l_iKMeHa7MWTPRQtJ1YAM50h6cZI0UIR793Wx77o4ZnbKzJKHHabGMyw3UI4DuPXX6IH8sM7vbKTN4lisEraWYc8oLOMGW6w=w692-h919-s-no-gm?authuser=0",
+    description: "Épicentre planétaire de la mode alternative subversive, creuset incandescent de la pop culture adolescente et temple absolu de l'esthétique kawaii (« mignon »), la rue Takeshita (Takeshita-dōri) déroule son ruban piétonnier ultra-vibrant sur environ quatre cents mètres de longueur au cœur du quartier branché d'Harajuku dans l'arrondissement de Shibuya. Apparue dans le sillage de l'après-guerre et métamorphosée à partir des années 1970 et 1980 en un laboratoire d'avant-garde vestimentaire spontané où la jeunesse tokyoïte venait s'émanciper des uniformes scolaires stricts, cette ruelle étroite et dense concentre une infinité de boutiques indépendantes extravagantes, de friperies vintage, de concept-stores futuristes et de stands culinaires aux couleurs fluorescentes. C'est ici qu'ont éclos et fleuri les sous-cultures visuelles qui ont fasciné le monde entier, des silhouettes néo-victoriennes des Gothic Lolitas aux fusions féeriques du style Decora surchargé d'accessoires, en passant par les tendances du Cosplay et de la mode Cyberpunk. Véritable baromètre en temps réel des modes urbaines nippones et phénomène de société international, la rue offre une immersion sensorielle étourdissante où la musique pop acidulée, les effluves sucrées de crêpes enroulées et la marée humaine ininterrompue créent une atmosphère festive unique au monde.",
+    visiter: "La découverte s'amorce dès le franchissement de la monumentale arche électronique lumineuse marquant l'entrée de la rue face à la sortie moderne de la gare JR Harajuku, dont l'écran géant diffuse en temps réel le flux des passants s'engouffrant dans cette artère piétonne électrique. En progressant au coude-à-coude dans cette allée cosmopolite bordée de néons et de façades peintes de teintes pastel, le visiteur s'arrête devant les échoppes emblématiques de crêpes japonaises roulées en cônes débordant de chantilly, de fraises fraîches, de matcha et de génoise, véritable rituel gourmand incontournable de tout passage à Harajuku. Les passionnés de shopping et de curiosités urbaines dénicheront dans les sous-sols et les galeries étagées des boutiques d'accessoires déjantés, des boutiques de mode urbaine unisexe, des magasins de chaussettes fantaisie et les célèbres photomatons purikura où les jeunes personnalisent instantanément leurs portraits numériques à grand renfort d'effets scintillants et d'yeux agrandis. La traversée gagne à être prolongée par les ruelles adjacentes plus calmes d'Ura-Harajuku et la luxueuse avenue ombragée d'Omotesandō toute proche, offrant un saisissant grand écart sociologique entre le temple de la contre-culture adolescente et le luxe épuré des grands créateurs de mode internationale.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+  },
+  {
+    id: "tuffe_chateau_de_cheronne",
+    name: "Tuffé Val de la Chéronne - Château de Chéronne",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Tuffé Val de la Chéronne",
+    altitude: 72,
+    is_island: false,
+    transport: "route",
+    era_group: "medievale",
+    era_label: "Époque Renaissance & Siècle des Lumières (XVIe - XVIIIe siècle)",
+    century: "XVIe siècle",
+    category: "chateau",
+    lat: 48.128388,
+    lng: 0.509067,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNBn-eu_a8A3F-O-CD7aiFVBjuAHpLXczsp9VXMCc4CxTdPjci6i9BFPV16E-SDo3jPgc_tZ4Ic1f2m4NpDvzgQnLPzxmRra1bX4bvsCgfBImucC5PTgJhhhjW07au0jfCf0hPJq2uUyWWRft_l8i4tGQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Écrin d'élégance architecturale et de mémoire seigneuriale dissimulé au cœur du bocage vallonné du Perche Sarthois, le château de Chéronne se dresse au sein d'un domaine paysager exceptionnel de plusieurs centaines d'hectares bordé par les méandres de la rivière éponyme. Édifié originellement à la fin du Moyen Âge et au tournant de la Renaissance au XVIe siècle comme une place forte rurale pourvue de tours de guet et de douves en eau vive, l'édifice connut une profonde métamorphose résidentielle au XVIIIe siècle sous le règne de Louis XV. Le logis seigneurial présente une harmonieuse façade en calcaire blond et brique locale rythmée de hautes fenêtres à croisées, dominée par de monumentales toitures d'ardoise et une élégante tourelle d'escalier en poivrière qui rappelle sa vocation castrale primitive. Transformé au siècle des Lumières en une demeure d'agrément raffinée ouverte sur la nature, le domaine se distingue par son parc à l'anglaise composé d'arbres séculaires remarquables, de vastes pièces d'eau alimentées par les sources environnantes et de dépendances préservées comprenant écuries, orangerie et colombier d'époque. Véritable témoin du grand art de vivre aristocratique en terre mancelle, Chéronne a su traverser les siècles en conservant intacte l'intimité de son atmosphère sylvestre et la beauté sereine de ses lignes d'inspiration classique.",
+    visiter: "La découverte de ce joyau percheron s'amorce par l'accès à la longue allée cavalière ombragée qui traverse les boisements du domaine pour déboucher sur la perspective grandiose de la cour d'honneur et des façades ouvragées se reflétant dans les douves d'eau calme. En cheminant le long des parterres engazonnés, le visiteur prend le temps de contempler les délicates modénatures de pierre blanche, les chaînages d'angle ouvragés et les ferronneries anciennes qui ornent le logis seigneurial et son perron d'honneur. La promenade invite à une immersion contemplative au cœur du vaste parc arboré où se déploient des essences rares, des cèdres bicentenaires et des sentiers bucoliques longeant les berges de la Chéronne jusqu'aux plans d'eau poissonneux où nichent hérons cendrés et martins-pêcheurs. Les amoureux d'histoire et de patrimoine architectural apprécieront l'observation minutieuse des éléments défensifs d'origine habilement intégrés aux agrandissements classiques, ainsi que le remarquable état de conservation des pavillons d'entrée et des coursives de service. Cette halte bucolique et majestueuse constitue une étape incontournable pour quiconque souhaite explorer les splendeurs cachées de la campagne sarthoise, offrant un havre de paix intemporel loin du tumulte des grands circuits touristiques régionaux.",
+    link: "https://photos.google.com/u/0/share/AF1QipPCIuy4pWcQiw-zMj_7SJ_9G-E7QryQBXms9HurKeqfM-8eO3Ck3L9DbKFylzjmtg?key=eE5OWVV2X3VvNzlzVXY1S0VBYTh6cW9FSkVNUHRB&hl=fr_CA"
+  },
+  {
+    id: "tuffe_plan_d_eau",
+    name: "Tuffé Val de la Chéronne - Plan d'eau de Tuffé",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Tuffé Val de la Chéronne",
+    altitude: 68,
+    is_island: false,
+    transport: "route",
+    era_group: "nature",
+    era_label: "Bassin Fluvial & Écrin Bocager Contemporain",
+    century: "XXe siècle",
+    category: "",
+    lat: 48.119205,
+    lng: 0.514056,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOhbeT083TV3SXzhn0DANKgnEFUh-mHih_sV_znXmhhH9k8jmEE8v0A52I_z0j90U2S3QyaLqbrzGt5ZsuZSlPOWLDtivr8fvo1qjD5ne0N2jjHflUHjMCOaW4Oia5849wuBBrGUk1FnoNypKjtNvRIvw=w1380-h919-s-no-gm?authuser=0",
+    description: "Vaste miroir d'eau douce étendu sur plus de quarante hectares au creux de la vallée de la Chéronne, le plan d'eau de Tuffé s'impose comme le poumon environnemental, paysager et récréatif majeur du terroir du Perche Sarthois. Aménagé dans la seconde moitié du XXe siècle pour valoriser les zones humides alluviales bordant la commune tout en régulant les crues du bassin-versant, ce site naturel remarquable marie avec élégance les fonctions de réserve biologique aquatique et de lieu de promenade incontournable. Ceinturé d'une dense ceinture végétale composée de saules pleureurs, d'aulnes glutineux, de roseaux et de prairies bocagères inondables, le lac s'intègre avec une rare harmonie dans le relief légèrement vallonné de la campagne environnante. Lieu de halte migratoire privilégié pour de nombreuses espèces ornithologiques telles que le grèbe huppé, les sarcelles et les foulques macroules, ce vaste plan d'eau offre tout au long de l'année des ambiances changeantes où les brumes matinales glissant sur les flots cèdent la place à de spectaculaires miroitements crépusculaires sous la lumière dorée de l'Ouest. Le site incarne ainsi la parfaite conciliation entre respect de la biodiversité riveraine et mise en valeur des charmes agrestes de la Sarthe rurale.",
+    visiter: "L'exploration du site s'articule idéalement autour de la boucle pédestre et cyclable aménagée qui fait le tour complet du plan d'eau sur plusieurs kilomètres de sentiers stabilisés, ombragés et parfaitement accessibles à tous les profils de promeneurs. En cheminant sur les berges, le regard embrasse de superbes perspectives panoramiques sur la nappe scintillante, avec au loin les silhouettes pittoresques du bourg de Tuffé et les frondaisons imposantes des coteaux boisés avoisinants. Plusieurs pontons de bois et observatoires discrets permettent aux passionnés de photographie et d'ornithologie de contempler le ballet des oiseaux d'eau nichant dans les herbiers littoraux, tandis que les pêcheurs profitent de postes tranquilles réputés pour les carnassiers et les carpes. Durant la belle saison, les abords du plan d'eau s'animent d'activités nautiques douces comme le canoë, le kayak, le paddle et le pédalo, complétées par des espaces de détente en pelouse propices à de longues pauses pique-nique sous les arbres. Une passerelle aménagée permet également de connecter facilement la promenade aux vestiges historiques de l'abbaye Notre-Dame toute proche, prolongeant naturellement la sortie par une parenthèse patrimoniale enrichissante.",
+    link: "https://photos.google.com/u/0/share/AF1QipPCIuy4pWcQiw-zMj_7SJ_9G-E7QryQBXms9HurKeqfM-8eO3Ck3L9DbKFylzjmtg?key=eE5OWVV2X3VvNzlzVXY1S0VBYTh6cW9FSkVNUHRB&hl=fr_CA"
+  },
+  {
+    id: "tuffe_abbaye_notre_dame",
+    name: "Tuffé Val de la Chéronne - Abbaye Notre-Dame",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Tuffé Val de la Chéronne",
+    altitude: 69,
+    is_island: false,
+    transport: "route",
+    era_group: "medievale",
+    era_label: "Époque Bénédictine & Siècle Classique (VIIe - XVIIe siècle)",
+    century: "Moyen Âge (VIIe siècle)",
+    category: "religieux",
+    lat: 48.115150,
+    lng: 0.516343,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP0VFKDtDEtTDsrYwHQX4dfc2kv6bLKjTQmLid7qn6T5EkNueviGl3IAz8If5f9-pSZ_A3EpI5WGrK4M4FSgpJv9dpeyNarolieNDdWUoQTrKxahNfy2nynbc2k4AhckTE6pZKopNZcb1n2jDx-fHMIbw=w1221-h919-s-no-gm?authuser=0",
+    description: "Vénérable foyer de spiritualité monastique et d'érudition bénédictine fondé dès l'aube du haut Moyen Âge au VIIe siècle sous le patronage de saint Innocent, évêque du Mans, l'abbaye Notre-Dame de Tuffé constitue un jalon historique majeur de l'ancienne province du Maine. Ravagée à plusieurs reprises par les incursions guerrières et les vicissitudes de l'Histoire, notamment lors de la guerre de Cent Ans et des guerres de Religion, la communauté monastique connut une splendide renaissance architecturale et spirituelle au XVIIe siècle grâce à son rattachement à la prestigieuse congrégation de Saint-Maur. Les majestueux bâtiments conventuels subsistants en pierre de taille calcaire et moellons de grès témoignent de cette reconstruction mauriste classique, affirmant une sobriété monumentale rythmée par de hauts combles à la Mansart, de nobles frontons triangulaires et des enfilades de baies cintrées régulières. Adossé à la rivière Chéronne qui alimentait jadis le moulin abbatial et les tanneries de la confrérie, ce complexe régulier comprenait logis prioral, cloître intérieur, dortoirs voûtés et vastes celliers de stockage céréalier. Partiellement démantelé au lendemain de la Révolution française, le monument conserve une prestance solennelle remarquable qui illustre l'empreinte séculaire de la règle de saint Benoît sur l'organisation territoriale et économique de la vallée.",
+    visiter: "La visite du domaine abbatial s'amorce par le franchissement de l'ancien porche d'entrée pavé pour déboucher dans la cour intérieure dominée par l'imposant logis mauriste du XVIIe siècle, dont la rigueur classique et les façades de pierre blonde captent magnifiquement la clarté zénithale. Les promeneurs peuvent déambuler le long des vestiges des ailes monastiques pour apprécier la stéréotomie soignée des encadrements de fenêtres, les corniches sculptées et la majesté des toitures restaurées. Des panneaux d'interprétation historiques jalonnent le parcours pour reconstituer l'implantation d'origine de l'église abbatiale aujourd'hui disparue, le tracé des galeries de circulation et le rôle civilisateur des moines dans le drainage des marais environnants. La marche se prolonge paisiblement le long des biefs et des anciens canaux hydrauliques ombragés par de grands arbres centenaires, menant jusqu'au pont de pierre enjambant la Chéronne où s'écoule une eau vive et transparente. L'atmosphère de calme absolu et de recueillement qui imprègne l'enclos monastique invite à une halte méditative incontournable, complétant de manière idéale la découverte du patrimoine villageois et des rives du plan d'eau de Tuffé.",
+    link: "https://photos.google.com/u/0/share/AF1QipPCIuy4pWcQiw-zMj_7SJ_9G-E7QryQBXms9HurKeqfM-8eO3Ck3L9DbKFylzjmtg?key=eE5OWVV2X3VvNzlzVXY1S0VBYTh6cW9FSkVNUHRB&hl=fr_CA"
+  },
+  {
+    id: "tokyo_sanctuaire_meiji_jingu",
+    name: "Tokyo - Sanctuaire Meiji-jingū (Shibuya)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 35,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Époque Taishō & Modernisation Meiji (1920)",
+    century: "XXe siècle",
+    category: "religieux",
+    lat: 35.675754,
+    lng: 139.699465,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOkZOoxmCVBNsXM8FFOAFUaqOaYJa5kvE8K7b8JuDm8Je577Z8FGkBfEWl3FlohIs2Q2Tf5mMat3C_xmK1vo10GEUuawdU8wDtmTLd6YGAnXK3YgI679Ngp92apST1LFshBhkVO2vmXEaCUFM4rCMDocA=w1379-h919-s-no-gm?authuser=0",
+    description: "Cœur spirituel battant et sanctuaire shintoïste le plus vénérable et emblématique de la mégapole tokyoïte, le Meiji-jingū s'étend comme une oasis de silence solennel de plus de soixante-dix hectares enclavée entre les quartiers électriques de Harajuku et de Shibuya. Consacré en 1920 aux âmes divinisées (kami) de l'empereur Meiji — souverain visionnaire qui présida à la spectaculaire ouverture du Japon sur la modernité à la fin du XIXe siècle — et de son épouse l'impératrice Shōken, le site incarne le modèle architectural nagare-zukuri dans toute sa pureté classique. Édifiés en cyprès du Japon (hinoki) au grain d'or et coiffés d'épaisses toitures d'écorce de cuivre vert-de-gris aux courbes organiques, les pavillons sacrés se déploient au sein d'une immense forêt sempervirente entièrement plantée à la main lors de sa fondation, riche de plus de cent vingt mille arbres donnés par les provinces de tout l'archipel nippon. Reconstruit fidèlement selon les préceptes traditionnels après les destructions de la Seconde Guerre mondiale, ce sanctuaire tutélaire célèbre l'union indissoluble entre le culte des ancêtres impériaux, le profond respect de la nature sacrée et la marche résolue du pays vers la modernité.",
+    visiter: "La découverte commence dès la sortie de la station Harajuku en franchissant le monumental premier torii en bois de cèdre millénaire de Taïwan, portique sacré purificateur marquant le passage de l'effervescence urbaine vers le domaine des esprits. La progression s'effectue le long de larges allées rectilignes tapissées de gravier crissant sous le pas, bordées par les célèbres rangées de fûts de saké sacrificiels (kazaridaru) richement décorés de calligraphies traditionnelles faisant face aux barriques de vin français de Bourgogne offertes par les domaines viticoles. Après avoir accompli le rituel ancestral d'ablution des mains et de la bouche au pavillon de purification (temizuya), le visiteur franchit l'imposante porte extérieure pour pénétrer dans la vaste cour centrale ensoleillée où s'élève le bâtiment principal de prière (haiden) encadré par deux arbres camphriers sacrés liés par une corde shimenawa. Il est coutumier d'y inscrire ses vœux intimes sur les plaquettes de bois votives (ema) suspendues aux grilles, ou d'avoir le privilège d'assister à une procession nuptiale shintoïste solennelle guidée par des prêtres en toges immaculées et des servantes miko vêtues de pourpre sous de grandes ombrelles écarlates. La visite gagne à se prolonger dans le jardin intérieur impérial (Gyoen), réputé pour son étang aux nénuphars et sa splendide floraison d'iris en juin au milieu d'une paix absolue.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?hl=fr_CA&key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn"
+  },
+  {
+    id: "tokyo_sanctuaire_kameido_tenjin",
+    name: "Tokyo - Sanctuaire Kameido Tenjin (Kōtō)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kantō",
+    department: "Préfecture de Tokyo",
+    subdiv: "Tokyo",
+    altitude: 4,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque d'Edo & Héritage des Lettrés (1662)",
+    century: "XVIIe siècle",
+    category: "religieux",
+    lat: 35.702853,
+    lng: 139.820679,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOBKihLFHLgVhLiw_qbvVElF67xegorWBYWblnc2IDEPNf0AQoqjy4w4Zkdf0UxNYWGpM9nIkmvsrzN9KNOgdgPgkHGZT0JCPjJkl416JbK55gJNlp6hKUtBl9-fLPtkWClyQ5HyIvt9orCdNXVzyd7fQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Joyau d'art paysager shintoïste et sanctuaire de dévotion lettrée niché au cœur des quartiers traditionnels de l'est de Tokyo dans l'arrondissement de Kōtō, Kameido Tenjinsha puise ses origines en 1662 sous le shogunat des Tokugawa à l'époque d'Edo. Dédié à Sugawara no Michizane — illustre ministre, poète et lettré du IXe siècle déifié sous le nom de Tenjin, kami tutélaire des études, de la calligraphie et de la réussite académique —, le sanctuaire fut conçu comme une réplique miniaturisée et raffinée du vénérable Dazaifu Tenmangū de l'île de Kyūshū. Son architecture sacrée vermillon se distingue par son exceptionnel jardin aquatique d'inspiration zen, traversé par deux ponts tambours en arc hautement symboliques enjambant un vaste étang sinueux en forme de sinogramme pour le cœur (shinji-ike). Célèbre dans toute l'histoire de l'art nippon pour avoir inspiré aux maîtres de l'estampe ukiyo-e tels que Hiroshige ses plus célèbres gravures sur bois, le site crée aujourd'hui un contraste visuel saisissant entre la poésie végétale séculaire de ses tonnelles de glycines suspendues et la verticalité futuriste de la tour Tokyo Skytree dressant sa flèche d'acier en arrière-plan immédiat.",
+    visiter: "La découverte s'amorce par le franchissement du grand portique torii rouge vif ouvrant sur la perspective centrale de l'étang sacré peuplé de carpes koï multicolores et de dizaines d'tortues d'eau douce venues se réchauffer sur les pierres émergées. La traversée des ponts tambours voûtés (Taiko-bashi) constitue un temps fort de la déambulation : le premier pont en dos d'âne pentu symbolise le passage du passé terrestre, tandis que le second pont tambour incarne l'espérance vers l'avenir, préparant l'esprit à l'approche de la demeure divine. Au printemps, les visiteurs affluent pour contempler les tonnelles suspendues au-dessus de l'eau où retombent de somptueuses grappes de glycines mauves (fuji) parfumées, ainsi que la floraison précoce des pruniers sacrés dont Sugawara no Michizane était particulièrement épris. Devant le pavillon principal de prière (honden), étudiants et lycéens viennent nombreux frotter les cornes de la statue en bronze du bœuf couché pour solliciter l'inspiration et accrocher des plaquettes de bois ema implorant le succès aux concours. Cette halte contemplative offre une plongée fascinante dans la culture populaire tokyoïte au carrefour de la tradition d'Edo et du paysage moderne.",
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn"
+  },
+ {
+    id: "montfort_le_gesnois_vallee_huisne",
+    name: "Montfort-le-Gesnois - Vallée de l'Huisne",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Montfort-le-Gesnois",
+    altitude: 58,
+    is_island: false,
+    transport: "route",
+    era_group: "nature",
+    era_label: "Bocage Fluvial & Espace Naturel",
+    century: "Temps géologique",
+    category: "",
+    lat: 48.050233,
+    lng: 0.444481,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPgIfPfRDV0Te188tt1HIi3p_JegNBxpVtmA7vUJ3igI8KPvLoet7GwjjdvYpyQlPTgSKP8CGiWD7C9kY6oVByvIVz76XLxJtQxdCaBBwSX1JYA_9HAcFzHYzZIlDvl-_YVzAUYjHncAWW9sRYYkSaFng=w2468-h1388-s-no-gm?authuser=0",
+    description: "Écrin de verdure traversant le Pays du Perche Sarthois, la vallée de l'Huisne déploie à l'est de Montfort-le-Gesnois un paysage fluvial préservé où se mêlent méandres paisibles, prairies inondables et coteaux boisés. Principal cours d'eau du bassin sarthois avant sa confluence avec la Sarthe au Mans, la rivière a façonné un écosystème humide d'une grande richesse écologique, ponctué d'anciens moulins, de peupleraies et de ripisylves denses. Véritable couloir biologique pour la faune aquatique et les oiseaux d'eau douce, le site offre une respiration naturelle remarquable où les reflets changeants de la rivière dialoguent avec les douces ondulations du bocage et la quiétude rurale du terroir.",
+    visiter: "La découverte des berges s'effectue idéalement à pied ou à vélo le long des chemins de halage et des sentiers de promenade qui bordent le cours d'eau en direction du Perche. Les promeneurs peuvent y observer une faune diversifiée, notamment le martin-pêcheur, le héron cendré et de nombreuses espèces d'odonates évoluant au-dessus des calmes nappes d'eau. La rivière constitue également un parcours réputé pour la pêche de loisir et les balades en canoë-kayak permettant de glisser au ras de l'eau au milieu des frondaisons d'aulnes et de saules. C'est une halte bucolique parfaite pour s'imprégner de l'atmosphère apaisante des rives de l'Huisne en marge des cœurs historiques du village.",
+    link: "https://photos.google.com/share/AF1QipOb3ShaKNG_lsJde2nz8dRyz9nGHRogFP31vgkL6iaR4Hd7feMJ2OdoN8Q2CULzwg?key=WTRicjlYODZGMUhveTFOQXdEVk0tNEt3Ry1HVTBn"
+  },
+   {
+    id: "montfort_le_gesnois_pont_romain",
+    name: "Montfort-le-Gesnois - Pont « Romain » sur l'Huisne",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Montfort-le-Gesnois",
+    altitude: 60,
+    is_island: false,
+    transport: "route",
+    era_group: "medievale",
+    era_label: "Époque Médiévale (XVe siècle)",
+    century: "XVe siècle",
+    category: "pont",
+    lat: 48.0462,
+    lng: 0.4174,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOlfiF0SXCa-qMAwPBaKDwxDuRlxBBvBDE3zjgkUmpX3EmguxyXCdC9B_x4QokRGCgiJ7MJEm6vWzy529utudl1LMvUOqq6HKi4waTKsTfHP_ilWNsbfzYFB_uClJTh56GuWJA0KBc_D6hrhDzgpyJi_A=w2468-h1858-s-no-gm?authuser=0",
+    description: "Emblème patrimonial de Montfort-le-Gesnois enjambant paisiblement les eaux de l'Huisne, le pont dit « romain » est en réalité un remarquable ouvrage d'art médiéval édifié au XVe siècle sur le tracé d'un ancien gué antique. Classé au titre des Monuments historiques dès 1927, cet édifice en maçonnerie de calcaire et de grès roussard déploie dix arches surbaissées rythmées par de robustes avant-becs triangulaires conçus pour fendre le courant lors des crues fluviales. Témoin privilégié des voies de communication historiques reliant Le Mans à Paris et à la Normandie, ce pont pittoresque s'intègre harmonieusement au paysage verdoyant des berges ombragées, conférant au village sarthois un charme d'époque et une sérénité intemporelle.",
+    visiter: "La découverte s'amorce le long des berges aménagées de l'Huisne, offrant un point de vue idéal pour admirer l'enfilade des arches de pierre et leurs reflets scintillants dans l'eau. Une promenade piétonne sur le tablier permet d'apprécier la patine séculaire des dalles et d'observer les refuges aménagés au droit des piles pour laisser passer les attelages d'autrefois. Le site constitue un havre de quiétude très apprécié pour la flânerie, les haltes pique-nique au bord de l'eau et le départ de balades pédestres vers les quartiers historiques de Montfort et du Gesnois. La lumière de fin de journée y met particulièrement en valeur les teintes chaudes de la pierre locale.",
+    link: "https://photos.google.com/share/AF1QipOb3ShaKNG_lsJde2nz8dRyz9nGHRogFP31vgkL6iaR4Hd7feMJ2OdoN8Q2CULzwg?key=WTRicjlYODZGMUhveTFOQXdEVk0tNEt3Ry1HVTBn"
+  },
+  {
+    id: "montfort_le_gesnois_eglise_saint_gilles",
+    name: "Montfort-le-Gesnois - Église Saint-Gilles (Montfort)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Montfort-le-Gesnois",
+    altitude: 65,
+    is_island: false,
+    transport: "route",
+    era_group: "medievale",
+    era_label: "Époque Romane & Médiévale (XIe - XVIe siècle)",
+    century: "Moyen Âge (XIe siècle)",
+    category: "religieux",
+    lat: 48.0471,
+    lng: 0.4171,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMoiouR2K-BQ9MNpIlCZQckkbO9sQxCvLyOzbTSYkL3NVAKPdamTeWdx46qH0tGRRQjgKftQJ4X6KaH48j_a9XgNZzGxVKMbbfkFW0Tt90Phy6UQFlkviOFLYFB4TMt5mV09QzFKHHBymxPul1aedqgrQ=w2468-h1858-s-no-gm?authuser=0",
+    description: "Perchée sur les hauteurs du coteau dominant la vallée de l'Huisne, l'église Saint-Gilles veille sur le bourg historique de Montfort depuis le Moyen Âge. Érigée originellement au XIe siècle puis agrandie et remaniée aux XVe et XVIe siècles, elle s'ancre dans le riche passé féodal de la cité dominée jadis par son château fort. L'édifice se caractérise par son appareillage mêlant calcaire local et grès roussard, sa silhouette trapue typiquement sarthoise et son clocher coiffé d'une flèche charpentée d'ardoise. À l'intérieur, la nef abrite un précieux mobilier liturgique, plusieurs retables anciens ainsi que des boiseries sculptées témoignant de la ferveur paroissiale séculaire de cette communauté commerçante et rurale.",
+    visiter: "La montée vers l'église depuis le bas du village s'effectue par des ruelles pittoresques grimpant le long du coteau, offrant de belles échappées panoramiques sur la vallée de l'Huisne. En pénétrant sous la voûte lambrissée, le visiteur découvrira le calme recueilli de la nef et les détails des statues polychromes ornant les chapelles latérales. Une attention particulière peut être portée aux vestiges romans intégrés dans la maçonnerie des murs gouttereaux. La visite se prolonge agréablement par une déambulation dans le quartier ancien attenant, où subsistent d'anciennes bâtisses en pierre et les traces de l'enceinte castrale médiévale.",
+    link: "https://photos.google.com/share/AF1QipOb3ShaKNG_lsJde2nz8dRyz9nGHRogFP31vgkL6iaR4Hd7feMJ2OdoN8Q2CULzwg?key=WTRicjlYODZGMUhveTFOQXdEVk0tNEt3Ry1HVTBn"
+  },
+  {
+    id: "montfort_le_gesnois_eglise_notre_dame",
+    name: "Montfort-le-Gesnois - Église Notre-Dame (Le Gesnois)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Montfort-le-Gesnois",
+    altitude: 62,
+    is_island: false,
+    transport: "route",
+    era_group: "medievale",
+    era_label: "Époque Gothique & Moderne (XIIe - XIXe siècle)",
+    century: "Moyen Âge (XIXe siècle)",
+    category: "religieux",
+    lat: 48.0493,
+    lng: 0.4034,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPj9tW2XwH7uCW-MeBh7Tg4gBKYDWc125uCrEqwNV53kJYQlAB9kSNEPy825l66SweLarshAyEb5lf5gfiBqELsSB4R2oPxg-zAvKLzBTtrcOWy1_Nh7BgKWqb9-hWmrQ7247Nlnex3OR5SOIJNHB5QUw=w2468-h1645-s-no-gm?authuser=0",
+    description: "Édifiée au cœur de la paroisse du Gesnois sur la rive sud de l'Huisne, l'église Notre-Dame témoigne de l'histoire singulière de Montfort-le-Gesnois, née de la fusion en 1986 de deux bourgs séculaires jadis rivaux. Fondée au XIIe siècle et profondément remaniée aux périodes gothique et classique avant une campagne de restauration au XIXe siècle, elle se distingue par sa tour-clocher massive servant de porche d'entrée et par sa nef spacieuse éclairée de baies ogivales. Construite avec les matériaux emblématiques du terroir sarthois, elle conserve un ensemble remarquable de mobilier d'art sacré, notamment des autels sculptés en tuffeau et des vitraux racontant les dévotions mariales qui animaient autrefois les confréries locales.",
+    visiter: "L'accès à l'église s'effectue au centre de la place du Gesnois, point de départ commode pour explorer la partie méridionale de la commune. En franchissant le portail sous le clocher, on apprécie la belle luminosité du vaisseau central mettant en valeur les boiseries du chœur et la finesse des statues de la Vierge. La visite de cet édifice offre un contraste architectural intéressant avec l'église Saint-Gilles perchée de l'autre côté de la rivière. On peut ensuite rejoindre les berges verdoyantes de l'Huisne et le pont médiéval par une agréable liaison piétonne d'à peine quelques minutes à pied.",
+    link: "https://photos.google.com/share/AF1QipOb3ShaKNG_lsJde2nz8dRyz9nGHRogFP31vgkL6iaR4Hd7feMJ2OdoN8Q2CULzwg?key=WTRicjlYODZGMUhveTFOQXdEVk0tNEt3Ry1HVTBn"
+  },
+  {
+    id: "sarzeau_port_du_logeo",
+    name: "Sarzeau - Port du Logeo",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan (56)",
+    subdiv: "Sarzeau",
+    altitude: 6,
+    is_island: false,
+    transport: "route",
+    era_group: "contemporain",
+    era_label: "Époque Contemporaine & Maritime",
+    century: "XIXe siècle",
+    category: "",
+    lat: 47.5464,
+    lng: -2.8462,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNEmUKRqBa4pMbgZfTWJ1qAZqKKywxx1RMq-kFBUIoFAldzgSXC9JKpDRSZsbFm5uFZUjLMhPf3bp4gWK6sNhWAramoHGiB_rXCmKBW0zrSBuz1Rr_KmGBs8BwpMOOtwWIYq4T2yFO2pI2XGMTFXPNRGw=w1820-h1213-s-no-gm?authuser=0",
+    description: "Havre naturel niché sur le littoral nord de la presqu'île de Rhuys, le port du Logeo s'ouvre sur les eaux calmes du golfe du Morbihan à l'abri des vents dominants. Ancien port de cabotage très actif aux XVIIIe et XIXe siècles pour l'exportation du vin blanc de Rhuys et du sel des marais vers Brest et les grands ports de l'Atlantique, il est aujourd'hui un port d'échouage et de plaisance plein de charme. Sa cale pavée historique, bordée d'anciennes maisons de capitaines et d'échoppes de marins, accueille le va-et-vient des plates ostréicoles et des voiliers traditionnels. Le plan d'eau offre une vue imprenable sur les îles du golfe, créant une atmosphère maritime paisible et authentique au rythme des marées.",
+    visiter: "La découverte s'effectue en flânant sur le quai et la jetée en granit pour admirer les bateaux traditionnels au mouillage et le panorama ouvert vers l'île aux Moines et l'île d'Arz. Les terrasses des cafés et les cabanes de dégustation permettent de savourer des huîtres creuses fraîchement débarquées face à la mer. Le sentier côtier du GR34 borde directement le port, invitant à poursuivre la promenade le long des pointes rocheuses ombragées de pins et des petites criques sauvages. C'est également un point d'embarquement privilégié pour des excursions nautiques à la découverte des chenaux et des courants de la petite mer.",
+    link: "https://photos.google.com/share/AF1QipPb2RZUrZYfIddwN_N0UP-fz4jVTYg8fCDgm8Y9JSsv2B5LfXJfa4tlgBswvp_R2Q?key=RlpMbXVDNWdZSTJpYm1QeEFvVm9HOWxLZlVoMUlR"
+  },
+  {
+    id: "saint_gildas_abbaye_de_rhuys",
+    name: "Saint-Gildas-de-Rhuys - Abbaye Saint-Gildas",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan (56)",
+    subdiv: "Saint-Gildas-de-Rhuys",
+    altitude: 27,
+    is_island: false,
+    transport: "route",
+    era_group: "medievale",
+    era_label: "Époque Romane & Abélard (VIe - XIe siècle)",
+    century: "Moyen Âge (XIe siècle)",
+    category: "religieux",
+    lat: 47.4999,
+    lng: -2.8397,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMqzlEjkj8VBklj0Il15t03qGxrOQlueuZzF1HhNvY6mtfsoYqHbsE9TaNPK84nYjz5GX20POUKaI7MZUNFy07bj6sbs0wxJ2fTDzkYYV_nJLXTvpvJErow3-mVTIpyJqgUCRTlMWOwMOrJGZ9-ObFQfQ=w1820-h1364-s-no-gm?authuser=0",
+    description: "Haut lieu de la spiritualité bretonne dominant le grand large depuis la presqu'île de Rhuys, l'abbaye Saint-Gildas puise ses origines au VIe siècle avec l'arrivée du moine gallois Gildas le Sage. Reconstruite au XIe siècle par saint Félix après les dévastations scandinaves, l'abbatiale actuelle constitue l'un des plus insignes chefs-d'œuvre de l'art roman en Bretagne. Son chœur et son déambulatoire à chapelles rayonnantes déploient un ensemble remarquable de chapiteaux sculptés d'animaux fantastiques, de feuillages stylisés et de motifs bibliques. L'histoire du monastère est également immortalisée par le séjour tumultueux du philosophe Pierre Abélard, qui en devint l'abbé au XIIe siècle et tenta d'en réformer la règle face à des moines rebelles. Classée au titre des Monuments historiques dès 1840 par Prosper Mérimée, l'église abrite également les tombeaux des ducs de Bretagne et un inestimable trésor d'orfèvrerie sacrée.",
+    visiter: "La visite commence par la nef et le transept roman, avant de gagner le déambulatoire pour contempler de près les célèbres chapiteaux historiés du XIe siècle admirablement mis en lumière. Dans le transept nord, le tombeau de saint Gildas et les dalles funéraires des ducs de Bretagne méritent une observation attentive. La salle du Trésor expose de précieuses reliques enchâssées dans l'or et l'argent, dont les bustes et bras reliquaires des saints bretons. La promenade se prolonge à l'extérieur dans le jardin de l'abbaye et le bourg monastique, avant d'emprunter le chemin menant vers les falaises côtières du Grand Mont où saint Gildas venait prier face à l'immensité de l'océan Atlantique.",
+    link: "https://photos.google.com/share/AF1QipPb2RZUrZYfIddwN_N0UP-fz4jVTYg8fCDgm8Y9JSsv2B5LfXJfa4tlgBswvp_R2Q?key=RlpMbXVDNWdZSTJpYm1QeEFvVm9HOWxLZlVoMUlR"
+  },
+  {
+    id: "sarzeau_domaine_de_suscinio",
+    name: "Sarzeau - Château & Domaine de Suscinio",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan (56)",
+    subdiv: "Sarzeau",
+    altitude: 12,
+    is_island: false,
+    transport: "route",
+    era_group: "medievale",
+    era_label: "Époque Ducale & Médiévale (XIIIe - XVe siècle)",
+    century: "Moyen Âge (XIIIe siècle)",
+    category: "chateau",
+    lat: 47.5125,
+    lng: -2.7287,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPDKhrY8zVy37Dz1ZqLT0qZIIIIxd_kq1RpB5B5fatxRMZ4vi3UKUwaKokv-3W_yWlbtIRfRB9Z04Df3vxN1vfGABW9esgJDn7YdMeDEmMv_XhZBEKkN58jSJ5MIne7ApKE3YfsUJ9AGSUqGm4PgscDIA=w1820-h1213-s-no-gm?authuser=0",
+    description: "Majestueuse résidence d'agrément et forteresse de chasse des ducs de Bretagne, le château de Suscinio dresse ses imposantes murailles de granit entre marais salants, landes et océan Atlantique. Édifié à partir du début du XIIIe siècle par Pierre Mauclerc puis agrandi jusqu'au XVe siècle par les ducs Jean IV et Jean V, ce fleuron castral médiéval est ceint de profondes douves en eau et flanqué de six tours monumentales crénelées à mâchicoulis. Le domaine est mondialement réputé pour sa chapelle castrale retrouvée en ruine, d'où fut extrait un pavement médiéval exceptionnel de plus de trente mille carreaux de faïence et de terre cuite vernissée figurant animaux héraldiques, chevaliers et rinceaux fleuris. Remarquablement restauré après des siècles d'abandon consécutifs à la Révolution, Suscinio incarne la puissance politique et le faste princier de la Bretagne indépendante.",
+    visiter: "La découverte s'amorce par le franchissement du pont fixe au-dessus des douves pour pénétrer dans la vaste cour d'honneur pavée bordée par les logis ducaux. Le parcours muséographique interactif traverse la grande salle des banquets, les cuisines voûtées, les chambres seigneuriales aux cheminées monumentales et les courtines supérieures offrant un point de vue aérien sur les marais littoraux et la plage de Landrezac. Une halte prolongée s'impose dans la salle des pavages médiévaux pour admirer la richesse polychrome des céramiques restaurées. La visite se prolonge en extérieur sur les sentiers écologiques aménagés au cœur des marais d'eau douce et d'eau salée, véritable havre ornithologique abritant aigrettes, hérons et tadornes de Belon face au château.",
+    link: "https://photos.google.com/share/AF1QipPb2RZUrZYfIddwN_N0UP-fz4jVTYg8fCDgm8Y9JSsv2B5LfXJfa4tlgBswvp_R2Q?key=RlpMbXVDNWdZSTJpYm1QeEFvVm9HOWxLZlVoMUlR"
+  },
+  {
+    id: "sarzeau_pointe_de_penvins",
+    name: "Sarzeau - Chapelle Notre-Dame-de-la-Côte (Pointe de Penvins)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan (56)",
+    subdiv: "Sarzeau",
+    altitude: 8,
+    is_island: false,
+    transport: "route",
+    era_group: "contemporain",
+    era_label: "Époque Néo-Gothique & Gardienne des Flots (XIXe siècle)",
+    century: "XIXe siècle",
+    category: "religieux",
+    lat: 47.4937,
+    lng: -2.6811,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMTTPS4hsQDRPEWHVjviYGFEd6GIvvH-Hmity-gUDXkgu04B7C_TorikQrUTzvyhTxjXhcFanWKnc1n7vN4ATo6_6Q1gi-kQqyAHnEs927yaTFwhIMCP27lnIXXSr9d_hTAL8R_qu7Cv2or74nmUCm7Bw=w1820-h1213-s-no-gm?authuser=0",
+    description: "Sentinelle solitaire campée sur une avancée herbeuse battue par les vents et la houle atlantique, la chapelle Notre-Dame-de-la-Côte marque l'extrémité sauvage de la pointe de Penvins à Sarzeau. Reconstruite à la fin du XIXe siècle (vers 1876-1877) dans un style néo-gothique robuste en moellons de granit sur l'emplacement d'un oratoire primitif attesté dès le Moyen Âge, elle présente un plan atypique en forme de croix grecque parfaitement symétrique. Conçue pour résister aux tempêtes hivernales tout en servant d'amer bien visible pour les marins naviguant au large de la presqu'île de Rhuys, la chapelle était traditionnellement le lieu où les femmes de marins et de marins-pêcheurs venaient implorer la protection de la Vierge pour leurs proches en mer. Son dôme discret et sa toiture d'ardoise se découpant sur l'horizon océanique forment un emblème maritime d'une poésie saisissante.",
+    visiter: "L'accès à la pointe s'effectue par une route côtière menant à un espace naturel protégé, d'où un sentier piétonnier d'ajoncs et de graminées marines permet de rejoindre l'édifice en bordure de falaise. En contournant la chapelle, le regard embrasse un vaste panorama maritime à trois cent soixante degrés s'étendant de la baie de Kercambre à la pointe du Moré et l'estuaire de la Vilaine au loin. L'intérieur sobre, baigné d'une clarté douce filtrée par d'étroites baies ogivales, abrite des statues votives et des ex-voto de bateaux rappelant la ferveur des périls maritimes d'autrefois. La promenade se poursuit naturellement le long des plages de sable et des cordons dunaires qui flanquent la pointe, spot très apprécié pour respirer le grand air iodé et observer le vol des oiseaux côtiers.",
+    link: "https://photos.google.com/share/AF1QipPb2RZUrZYfIddwN_N0UP-fz4jVTYg8fCDgm8Y9JSsv2B5LfXJfa4tlgBswvp_R2Q?key=RlpMbXVDNWdZSTJpYm1QeEFvVm9HOWxLZlVoMUlR"
+  },
+  {
+    id: "saint_armel_passage_ile_tascon",
+    name: "Saint-Armel - Passage gué de l'Île Tascon",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan (56)",
+    subdiv: "Saint-Armel",
+    altitude: 4,
+    is_island: true,
+    island_name: "Tascon",
+    transport: "route",
+    era_group: "nature",
+    era_label: "Terre Insulaire & Rythme des Marées",
+    century: "Temps géologique",
+    category: "ile",
+    lat: 47.5708,
+    lng: -2.7277,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMHadiyMqOAFQfJ0fVDpJluc9IdMNMTP-RX-N_f1Q2y-HkQCrUva2Wtdn0YzKON2wsElQhEA-UQOiIs71vniS9tmD9QGt2v-y_dUoIjvluntpjh6vzoaOIujCOWLU0F7KjeUuqNuTi28lrl7kBgslr6Lw=w1820-h1024-s-no-gm?authuser=0",
+    description: "Véritable passage submersible d'anthologie au fond du golfe du Morbihan, la chaussée submersible de l'île Tascon relie le continent depuis la commune de Saint-Armel à la troisième plus grande île de la petite mer. Longue d'environ quatre cents mètres, cette route empierrée et dallée n'émerge que deux fois par jour à marée basse, disparaissant entièrement sous plusieurs mètres d'eau salée au jusant. L'île Tascon, sanctuaire agricole et préservé resté habité par une poignée d'agriculteurs et d'éleveurs, déploie un paysage pastoral unique bordé de marais, de salines et de prairies bocagères où paissent des vaches face à la mer. Ce cordon marin éphémère incarne avec force la respiration marine du golfe, où la notion de terre insulaire prend tout son sens au rythme immuable du coefficient des marées.",
+    visiter: "La traversée de ce passage maritime nécessite de consulter impérativement les horaires et coefficients de marée avant de s'engager, le passage n'étant praticable à pied ou à vélo qu'environ deux heures avant et après la basse mer. L'expérience de franchir cette bande de chaussée bordée d'algues et de parcs à huîtres découvrants procure une sensation d'évasion maritime rare. Une fois sur l'île, les chemins de terre invitent à une boucle pédestre respectueuse de la tranquillité des lieux et de l'avifaune migratrice nichant dans les vasières (bernaches cravants, tadornes, courlis). Le retour vers Saint-Armel offre une vue superbe sur les anciens marais salants de Lasné, parachevant une immersion insulaire saisissante.",
+    link: "https://photos.google.com/share/AF1QipPb2RZUrZYfIddwN_N0UP-fz4jVTYg8fCDgm8Y9JSsv2B5LfXJfa4tlgBswvp_R2Q?key=RlpMbXVDNWdZSTJpYm1QeEFvVm9HOWxLZlVoMUlR"
+  },
+  {
     id: "hurghada",
     name: "Hurghada (Mer Rouge)",
-    region: "Gouvernorat de la Mer-Rouge",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Mer-Rouge",
+    region_admin: "Gouvernorat de la Mer-Rouge",
+    department: "Mer-Rouge",
+    subdiv: "Hurghada",
     altitude: -2,
     is_island: false,
     transport: "avion",
@@ -48,7 +830,6 @@ const travelSpots = [
     era_label: "Époque Contemporaine & Récif Géologique",
     century: "XXe siècle",
     category: "plage",
-    counts: { plage: 1 },
     lat: 27.2579,
     lng: 33.8116,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPVx1_9UPwnhcWOyxckSpIvYC2T7xDRFTOGeQEiu82QKFht2G6YoXd-HB0DbIDdJ4ebV00ThDFY_RWXl7IznrNWOy4kUUJPV-vv__clD_rD2Ul_nUySiLRNNiubcIxwK81MgkkBsjwr0_BIkhfXFeTpgg=w1379-h919-s-no-gm?authuser=0",
@@ -57,13 +838,83 @@ const travelSpots = [
     link: "https://photos.app.goo.gl/WmQkwoGfa1tPnuex5"
   },
   {
+    id: "sarzeau_menhir_kermaillard",
+    name: "Sarzeau - Menhir de Kermaillard",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan (56)",
+    subdiv: "Sarzeau",
+    altitude: 18,
+    is_island: false,
+    transport: "route",
+    era_group: "prehistoire",
+    era_label: "Époque Néolithique & Art Mégalithique",
+    century: "Néolithique",
+    category: "megalithe",
+    lat: 47.5359,
+    lng: -2.8492,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNLeIWMywN2K6S4tQVWYlE-w7HN5MIfd29FFjzUKTmINa5Bi5j7IlYA6zAhUcgoHBU0k4sUnsLFXL8eh8vM0uGd_t8rxHDCfbfzZ2eFmauLnyzcuZM7uC2ysvPQgdPcpmXFympxLrwqGUbbbcnZuHOcjw=w1757-h2635-s-no-gm?authuser=0",
+    description: "Dressé fièrement dans la campagne de Sarzeau au cœur de la presqu'île de Rhuys, le menhir de Kermaillard compte parmi les stèles gravées les plus spectaculaires et énigmatiques du mégalithisme armoricain. Érigé vers 4500 avant notre ère puis volontairement abattu lors des bouleversements rituels de la fin du Néolithique, ce monolithe colossal en granit feuilleté de plus de cinq mètres de hauteur a été redressé en 1988 après avoir passé des millénaires couché dans la lande. L'exceptionnelle finesse de son art rupestre en fait un monument de référence : ses parois révèlent un superbe motif en écusson sommé d'une crosse, un bovidé ainsi qu'une vingtaine de cupules creusées dans la roche. Témoin privilégié de la ferveur symbolique des premiers éleveurs du littoral atlantique, le menhir impose par son profil anthropomorphe veillant entre marais et bocage.",
+    visiter: "La découverte s'amorce le long d'une petite allée verdoyante aménagée en lisière du hameau de Kermaillard, accessible aisément à pied ou à vélo depuis le bourg de Sarzeau et les pistes côtières de la presqu'île. En faisant le tour du géant de pierre, le visiteur remarquera la texture étagée du bloc et les incisions pariétales qui s'animent sous la lumière rasante du soleil matinal ou de fin d'après-midi. Des panneaux explicatifs installés sur le site éclairent le contexte de sa redécouverte, sa symbolique pastorale et les techniques néolithiques de halage. La promenade se prolonge agréablement vers les sentiers boisés environnants menant aux rives méridionales du golfe du Morbihan, offrant une halte paisible empreinte de mystère préhistorique.",
+    link: "https://photos.google.com/share/AF1QipPb2RZUrZYfIddwN_N0UP-fz4jVTYg8fCDgm8Y9JSsv2B5LfXJfa4tlgBswvp_R2Q?key=RlpMbXVDNWdZSTJpYm1QeEFvVm9HOWxLZlVoMUlR"
+  },
+  {
+    id: "sarzeau_dolmen_porh_brillac",
+    name: "Sarzeau - Dolmen de Porh Brillac",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan (56)",
+    subdiv: "Sarzeau",
+    altitude: 12,
+    is_island: false,
+    transport: "route",
+    era_group: "prehistoire",
+    era_label: "Époque Néolithique (Mégalithisme Ancien)",
+    century: "Néolithique",
+    category: "megalithe",
+    lat: 47.5426,
+    lng: -2.8101,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOI8pJGVbK9Bxv6UTxyjdTs238Moc9US-PtYPNZL6Uz_gPy2W4Or6NdBH8pGKi9ZLDU_SpqS6L8C9nRzZkdBZDnjD7dnvqthkyMVrgqMSs5y37D499GuFy4qhkDN23N5OnukUD_5DDGpk89fbtjOOvRAA=w1820-h2426-s-no-gm?authuser=0",
+    description: "Niché sur les rives septentrionales de la presqu'île de Rhuys à deux pas de la baie de Brillac, le dolmen de Porh Brillac témoigne de l'antique présence des bâtisseurs de tombes collectives au bord du golfe du Morbihan. Cet édifice mégalithique funéraire, vestige d'une sépulture à couloir datant du IVe millénaire avant notre ère, a vu disparaître son tumulus de terre et de pierres d'origine pour ne laisser apparaître que son imposante chambre funéraire. Formée d'orthostates en granit brut solidement ancrés dans le sol et surmontée d'une épaisse dalle de couverture tabulaire, la structure résiste immuablement aux assauts des vents d'ouest et des marées. Entouré d'une végétation maritime mêlant ajoncs et pins maritimes, ce monument discret dégage une poésie intemporelle face aux anses calmes et aux estuaires intérieurs de la petite mer.",
+    visiter: "L'accès au dolmen s'effectue en empruntant les venelles du village côtier de Brillac ou les sentiers côtiers du GR34 qui longent le golfe du Morbihan entre pointes rocheuses et parcs ostréicoles. En s'approchant de la chambre mégalithique, le visiteur peut apprécier la force d'assemblage des piliers de soutien et la surface patinée par l'air salin de la table de couverture. Le site offre un point de départ remarquable pour contempler les variations d'eaux calmes de la baie de Brillac et le vol des oiseaux marins nichant dans les vasières voisines. Cette halte bucolique et archéologique complète idéalement la visite des alignements et menhirs disséminés sur le territoire de Sarzeau.",
+    link: "https://photos.google.com/share/AF1QipPb2RZUrZYfIddwN_N0UP-fz4jVTYg8fCDgm8Y9JSsv2B5LfXJfa4tlgBswvp_R2Q?key=RlpMbXVDNWdZSTJpYm1QeEFvVm9HOWxLZlVoMUlR"
+  },
+  {
+    id: "arzon_dolmen_grah_niol",
+    name: "Arzon - Dolmen de Graniol (Grah Niol)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan (56)",
+    subdiv: "Arzon",
+    altitude: 17,
+    is_island: false,
+    transport: "route",
+    era_group: "prehistoire",
+    era_label: "Époque Néolithique & Art Mégalithique",
+    century: "Néolithique",
+    category: "megalithe",
+    lat: 47.5537,
+    lng: -2.8911,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP3mylfTlOcA12SvSWVHwA2r2OWkRvpd9XhbbKDKHV6fhZYl1dmJYAaPIF2KZuVzlpJWoY-IVWBIdT0falYOcpPtISMIY2f7__HoidSYfjy51TqbTarv9zWSqJr6TTTZa7Jl6kq_2f8AewyqHox6WIZ4w=w1820-h2426-s-no-gm?authuser=0",
+    description: "Joyau du patrimoine mégalithique de la presqu'île de Rhuys, le dolmen de Graniol — ou Grah Niol (« la butte du soleil » en breton) — s'élève sur les hauteurs d'Arzon face aux rivages du golfe du Morbihan. Classé au titre des Monuments historiques dès 1889, cet ensemble sépulcral érigé au Néolithique moyen (IVe millénaire av. J.-C.) se compose d'un cairn circulaire en pierres sèches enserrant une sépulture mégalithique à couloir et chambre funéraire polygonale. Sa renommée archéologique repose sur les exceptionnelles gravures rupestres ornant plusieurs de ses dalles de soutien en granit : crosses pastorales, écussons, haches et signes géométriques y témoignent de la ferveur spirituelle et de la symbolique funéraire des premières communautés agropastorales armoricaines. Préservé au cœur d'un environnement boisé typique de la lande côtière, le monument plonge le visiteur dans les origines millénaires de l'architecture monumentale bretonne.",
+    visiter: "L'accès au cairn s'effectue aisément à pied depuis le bourg d'Arzon ou les chemins de randonnée côtiers qui sillonnent la presqu'île entre le golfe et l'océan Atlantique. En approchant de la butte de pierre restaurée, le visiteur s'engage dans le couloir dallé pour admirer l'agencement robuste des orthostates de granit supportant les imposantes tables de couverture. Une observation minutieuse des parois intérieures avec une lumière rasante permet de révéler le relief des gravures pariétales millénaires, dont la signification rituelle continue de fasciner les archéologues. La halte se prolonge agréablement par une promenade vers les sentiers littoraux voisins du golfe du Morbihan, offrant de superbes points de vue maritimes au cœur d'un paysage façonné par l'histoire préhistorique.",
+    link: "https://photos.google.com/share/AF1QipPb2RZUrZYfIddwN_N0UP-fz4jVTYg8fCDgm8Y9JSsv2B5LfXJfa4tlgBswvp_R2Q?key=RlpMbXVDNWdZSTJpYm1QeEFvVm9HOWxLZlVoMUlR"
+  },
+  {
     id: "charm_el_naga",
     name: "Charm el-Naga",
-    region: "Gouvernorat de la Mer-Rouge",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Mer-Rouge",
+    region_admin: "Gouvernorat de la Mer-Rouge",
+    department: "Mer-Rouge",
+    subdiv: "Safaga",
     altitude: -5,
     is_island: false,
     transport: "route",
@@ -71,7 +922,6 @@ const travelSpots = [
     era_label: "Temps Géologique & Corallien",
     century: "Temps géologique",
     category: "plage",
-    counts: { plage: 1 },
     lat: 27.0250,
     lng: 33.9150,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM4ecV2oWKGbD_bDkpjOGJXygG-7vPAB5pg8vehhSGDjmXvbEsBLgl1mq_Ca4hyNgW-3MaQCcw2j7AVLMu_dkwwD0f5oNA7tnUo3u31wBKwpoPwjmYa9mBom71lHlNBurZ8mVXghWFoYTwWFwcmFEW1Hg=w1225-h919-s-no-gm?authuser=0",
@@ -82,11 +932,12 @@ const travelSpots = [
   {
     id: "abu_simbel",
     name: "Abou Simbel",
-    region: "Gouvernorat d'Assouan",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Assouan",
+    region_admin: "Gouvernorat d'Assouan",
+    department: "Assouan",
+    subdiv: "Abou Simbel",
     altitude: 185,
     is_island: false,
     transport: "avion",
@@ -94,7 +945,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (-1264 av. J.-C.)",
     century: "Antiquité (XIIIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1, unesco: 1 },
     lat: 22.3372,
     lng: 31.6258,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNxJ2b7wblm68J5LebZ_FRLke0MjUtjwjstgkx1Tv2k0_QEwQ0UZFSbmXelmCFdT91Fg_IXRK4KD4VfG_TGB9x825G1ENU7rXM5cipskgHi99lQ9S7gq1uyAOXpRE7fexNraWeB-fZMY6WGCpi7Qj-hyQ=w2768-h1845-s-no-gm?authuser=0",
@@ -105,10 +955,11 @@ const travelSpots = [
   {
     id: "temple_seti_gournah",
     name: "Louxor - Temple de Séti Ier (Gournah)",
-    region: "Gouvernorat de Louxor",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Louxor",
+    department: "Louxor",
     subdiv: "Louxor",
     altitude: 82,
     is_island: false,
@@ -117,7 +968,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (-1290 av. J.-C.)",
     century: "Antiquité (XIIIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 25.7328,
     lng: 32.6281,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOCn3bnnRckhB2Ac1shOqlfDJfH3SfpYo6esxwODD6rK-dCQksCm6dsSFRbh-V9oMtoOaUJ43Heywro5BI2G7w9FKqOYKowO3AFdi_xiwfzEo_O90EXFb0uBT7VJTgZZ0KPmynrdDdmiF73ZTJTnNHSwA=w2884-h1922-s-no-gm?authuser=0",
@@ -128,10 +978,11 @@ const travelSpots = [
   {
     id: "temple_louxor",
     name: "Temple de Louxor (Amon)",
-    region: "Gouvernorat de Louxor",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Louxor",
+    department: "Louxor",
     subdiv: "Louxor",
     altitude: 76,
     is_island: false,
@@ -140,7 +991,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (-1400 av. J.-C.)",
     century: "Antiquité (XIVe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 25.6994,
     lng: 32.6396,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOVIqtAv6F50s3byzGMdkrnrRK0dYat5T2PO5vZTXiDE7CHYznUqxCuCN_FyK-5VmVcCOrdKGpAxExydMfCvcnA3108CC2HP-MAIQHauLvMhHK78ddOApVu4qnIQL1EnGwPo5yNAaisBG-vM8o_Wn986w=w2416-h1611-s-no-gm?authuser=0",
@@ -151,10 +1001,11 @@ const travelSpots = [
   {
     id: "temple_karnak",
     name: "Temple de Karnak (Amon-Rê)",
-    region: "Gouvernorat de Louxor",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Louxor",
+    department: "Louxor",
     subdiv: "Louxor",
     altitude: 78,
     is_island: false,
@@ -163,7 +1014,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Moyen & Nouvel Empire)",
     century: "Antiquité (XXe siècle av. J.-C. à IVe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1, unesco: 1 },
     lat: 25.7188,
     lng: 32.6573,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOtwfMs5d5wL1IzTbxA7Z3-Z5tARLoOdWDIQWtEuAseuIBIxkYrLQYMer35gjiseXa0FB52lFZCekz_-WroF9o09HewjJKyABFSArCwXEXvcbQCYOrUOUWW6pPF1Ftpv6m_8TzY53xcx12x37egMIq1tg=w2956-h1971-s-no-gm?authuser=0",
@@ -174,10 +1024,11 @@ const travelSpots = [
   {
     id: "vallee_des_nobles",
     name: "Thèbes - Vallée des Nobles",
-    region: "Gouvernorat de Louxor",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Louxor",
+    department: "Louxor",
     subdiv: "Louxor",
     altitude: 105,
     is_island: false,
@@ -186,7 +1037,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe & XIXe dynasties)",
     century: "Antiquité (XVe siècle av. J.-C. à XIIIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 25.7312,
     lng: 32.6078,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOd_OJdWviNds-jAvYJQ6fOhmKABb5wTUSd9reedexFYosDX5eY63EFb8fkeLgVl0Ober_ixxcpyNw1zN2k1O96-TbklhDfSl6jpwbssv48dg99Uwvi64lsSsixAe6N0JndHpYca3D7NODIEZ4l02REZw=w2624-h1750-s-no-gm?authuser=0",
@@ -197,10 +1047,11 @@ const travelSpots = [
   {
     id: "vallee_des_artisans",
     name: "Thèbes - Vallée des Artisans (Deir el-Médineh)",
-    region: "Gouvernorat de Louxor",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Louxor",
+    department: "Louxor",
     subdiv: "Louxor",
     altitude: 115,
     is_island: false,
@@ -209,21 +1060,21 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe à XXe dynasties)",
     century: "Antiquité (XIVe siècle av. J.-C. à XIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 25.7285,
     lng: 32.6014,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNLIIop9G0JKvfSCc8VuoAVjmAMq9-TDvIllyPrY8t_lq9XBI_iB4lzrA8dmwBM_luSuc4zL3Iqrj86AjleX8DgPdGdf3i8CBjSbVtuUNl57dbAVk8thYxKQVQHQz4eQm6cz3EWmxxtqQraap46gkFHlQ=w2624-h1750-s-no-gm?authuser=0",
     description: "Encaissé dans un vallon aride et secret de la montagne thébaine à quelques encablures de la Vallée des Rois, le site de Deir el-Médineh abritait la confrérie d'élite des « Serviteurs dans la Place de Vérité ». Durant près de cinq siècles sous le Nouvel Empire, cette communauté autonome de sculpteurs, tailleurs de pierre, peintres et contremaîtres conçut, creusa et orna de ses propres mains les sépultures les plus grandioses des pharaons. Bénéficiant d'un statut privilégié et d'un savoir-faire technique inégalé, ces artisans d'exception s'aménagèrent sur place, à flanc de colline, de modestes hypogées familiaux surmontés de petites pyramides de brique crue. Débarrassées du carcan protocolaire et de la solennité des canons royaux, les fresques murales miniatures qu'ils peignirent pour leur propre repos éternel atteignent un sommet de délicatesse, de spontanéité et d'intensité chromatique. Sur un fond ocre doré éclatant, les scènes mythologiques du Livre des Morts côtoient des représentations intimes et attendries de la vie domestique, des épouses dévouées et des réunions de famille. Conservé grâce à la sécheresse absolue du désert et immortalisé par des milliers d'ostraca livrant le récit quotidien de leurs amours, procès et grèves ouvrières, ce vallon sacré constitue la mémoire la plus émouvante et vivante du peuple des bâtisseurs de l'Égypte antique.",
-    visiter: "La découverte commence par la traversée contemplative des ruines remarquablement préservées du village en briques crues, où l'on distingue nettement la rue centrale, les seuils de portes peints de rouge, les pièces d'habitation et le colossal grand puits qui livra une inestimable collection d'écrits sur calcaire. L'émotion s'intensifie en descendant l'escalier escarpé menant au caveau funéraire de Sennedjem (TT1), artisan en chef sous Séthi Ier et Ramsès II : la petite voûte peinte, demeurée dans un état de conservation miraculeux, dévoile sur fond jaune d'or le défunt et son épouse labourant les champs d'Ialou dans l'au-delà et saluant le dieu Anubis veillant sur la momie. Juste au-dessus, l'hypogée d'Inerkhaou (TT359), contremaître de la XXe dynastie, séduit par la virtuosité géométrique de ses plafonds aux motifs polychromes et la célèbre scène du grand chat d'Héliopolis pourfendant le serpent Apophis au pied du perséa sacré. La visite se parachève en contrebas devant le temple ptolémaïque dédié à Hathor et Maât, dont l'enceinte renferme des reliefs raffinés et des chapelles commémoratives, offrant une perspective intime et bouleversante à l'écart des grands circuits de masse.",
+    visiter: "La découverte commence par la traversée contemplative des ruines remarquablement préservées du village en briques crues, où l'on distingue nettement la rue centrale, les seuils de portes peints de rouge, les pièces d'habitation et le colossal grand puits qui livra une inestimable collection d'écrits sur calcaire. L'émotion s'intensifie en descendant l'escalier escarpé menant au caveau funéraire de Sennedjem (TT1), artisan en chef sous Séthi Ier et Ramsès II : la petite voûte peinte, demeurée dans un état de conservation miraculeux, dévoile sur fond jaune d'or le défunt et son épouse labourant les champs d'Ialou dans l'au-delà et saluant le dieu Anubis veillant sur la momie. Juste au-dessus, l'hypogée d'Inerkhaou (TT359), contremaître de la XXe dynastie, séduit par la virtuosité géométrique de ses plafonds aux motifs polychromes et la célèbre scène du grand chat d'Héliopolis forfendant le serpent Apophis au pied du perséa sacré. La visite se parachève en contrebas devant le temple ptolémaïque dédié à Hathor et Maât, dont l'enceinte renferme des reliefs raffinés et des chapelles commémoratives, offrant une perspective intime et bouleversante à l'écart des grands circuits de masse.",
     link: "https://photos.google.com/share/AF1QipOWESdxdcRzbO6odBKe4bKq1akK1WOZN2tksnl81-xlfatrp43shF-hVajG0AeNYg?key=VUtGeUtxRDlfcVAyVmtoNjVRMUNBWE5wd1VrbHp3"
   },
   {
     id: "temple_deir_el_medineh",
     name: "Temple de Deir el-Médineh (Hathor & Maât)",
-    region: "Gouvernorat de Louxor",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Louxor",
+    department: "Louxor",
     subdiv: "Louxor",
     altitude: 108,
     is_island: false,
@@ -232,7 +1083,6 @@ const travelSpots = [
     era_label: "Période Ptolémaïque (IIIe siècle av. J.-C. - Ptolémée IV à VIII)",
     century: "Antiquité (IIIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 25.7291,
     lng: 32.6020,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMpO1xyPvhYsSQW29Rx94KkjyOQDLm0tLNkORiJDFGPGNPf4veQ6_l9bLuZ2AUxYuVe4cEZ2OyMPXlHq0bYIM2ZqGCj2DDAcZ9IYYPJvxT9Cn-nR7OipS-LxxmBDcsg9CtQHjqT55G9C_Awf6jBlV4yNw=w2624-h1750-s-no-gm?authuser=0",
@@ -243,10 +1093,11 @@ const travelSpots = [
   {
     id: "vallee_des_reines",
     name: "Thèbes - Vallée des Reines (Ta-Set-Neferou)",
-    region: "Gouvernorat de Louxor",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Louxor",
+    department: "Louxor",
     subdiv: "Louxor",
     altitude: 118,
     is_island: false,
@@ -255,7 +1106,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Nouvel Empire - XIXe & XXe dynasties)",
     century: "Antiquité (XIIIe siècle av. J.-C. à XIIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 25.7281,
     lng: 32.5931,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMU7taj-0RQR1MwvRFxdj3GYC4j8uql9zgKkCWsctOf5pa8NmG2HJeR4dTIKxQ7sYDktflnu8AcGUFGOIyFOEPq-yqoyjFnyPFzG1L8cUGr2wSLCq45xs8o9FUqhn-XyLxX3ZWsIRrIlf1UTtmQwlCT6Q=w2624-h1750-s-no-gm?authuser=0",
@@ -266,10 +1116,11 @@ const travelSpots = [
   {
     id: "temple_hatchepsout",
     name: "Thèbes - Temple d'Hatchepsout (Deir el-Bahari)",
-    region: "Gouvernorat de Louxor",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Louxor",
+    department: "Louxor",
     subdiv: "Louxor",
     altitude: 112,
     is_island: false,
@@ -278,7 +1129,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe dynastie)",
     century: "Antiquité (XVe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 25.7383,
     lng: 32.6078,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPk75OHrQu6obpFOplp54MjErWv62Ba9IGktlvK7XXzNNKRfJVn8AqJRVRkpvSQgF-7bxq2zcTPyFYgAK5nA3W6piJ5oxOoiATNoXQRn-IhO6Y0py1gzDV_2ffYLgtS8a0enLOSK2bzzos1Io0m5hpzlA=w2624-h1750-s-no-gm?authuser=0",
@@ -289,10 +1139,11 @@ const travelSpots = [
   {
     id: "vallee_des_rois",
     name: "Thèbes - Vallée des Rois (Oued el-Moulouk)",
-    region: "Gouvernorat de Louxor",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Louxor",
+    department: "Louxor",
     subdiv: "Louxor",
     altitude: 172,
     is_island: false,
@@ -301,7 +1152,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe à XXe dynasties)",
     century: "Antiquité (XVIe siècle av. J.-C. à XIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 25.7402,
     lng: 32.6014,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMFRpDqYKavLb097DDB8Vtoec_f4bF4PQPXH_DyPO04GrRrvl8MsEiuo6bNRuKoT74FTcJjh2TKu7lI47ZAVFcc-IVkIB1ZPwj16-IeW1d3Jk2b6j7PubcF3SjpshOkRwPG-bqzOjFg9VSp_mIywXsWCw=w2624-h1750-s-no-gm?authuser=0",
@@ -312,10 +1162,11 @@ const travelSpots = [
   {
     id: "thebes_ramesseum",
     name: "Thèbes - Ramesseum (Temple de Ramsès II)",
-    region: "Gouvernorat de Louxor",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Louxor",
+    department: "Louxor",
     subdiv: "Louxor",
     altitude: 78,
     is_island: false,
@@ -324,7 +1175,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Nouvel Empire - XIXe dynastie)",
     century: "Antiquité (XIIIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 25.7280,
     lng: 32.6105,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMvh9kjLPuS5UvlCAsITvriDjOYQ8OBYh9xsGtGjl8n5Nj6GxZjxPiEFawAn6NhTfMb2KrnXH5qKwPmIz4QaX1h5XtQnQz3jSWYLRntjezCQe9C8SomQEWYCwzHXALuIpSusnPmFctAvC6sjVoWPO2wJw=w2624-h1750-s-no-gm?authuser=0",
@@ -335,10 +1185,11 @@ const travelSpots = [
   {
     id: "thebes_colosses_memnon",
     name: "Thèbes - Colosses de Memnon (Aménophis III)",
-    region: "Gouvernorat de Louxor",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Louxor",
+    department: "Louxor",
     subdiv: "Louxor",
     altitude: 75,
     is_island: false,
@@ -347,7 +1198,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe dynastie)",
     century: "Antiquité (XIVe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 25.7206,
     lng: 32.6105,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNByJ9_2Lbc1vXLFwbPNONyha79Q7dIH9R3X50vc_g8l2A-zDRGWwm61hsQUYUabguxMKJDL_4Rgis4Zn3sFchrEV5BeorFNSnGTM9p05kOpNGbU7QMYv3Sv2jKjjTA80t2e5JFmnPvJUE-fanJIA8lvw=w2624-h1750-s-no-gm?authuser=0",
@@ -358,10 +1208,11 @@ const travelSpots = [
   {
     id: "thebes_medinet_habou",
     name: "Thèbes - Médinet Habou (Temple de Ramsès III)",
-    region: "Gouvernorat de Louxor",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Louxor",
+    department: "Louxor",
     subdiv: "Louxor",
     altitude: 76,
     is_island: false,
@@ -370,7 +1221,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Nouvel Empire - XXe dynastie)",
     century: "Antiquité (XIIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 25.7196,
     lng: 32.6013,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM_iR5U6wiG41TixgwSD8PBCikitCe10D8ty_oXf8VbajzaeUb6VWYzWCSoreSeQO7jRcjV2HJ1RHYGrQIkFNRxH61Dl8DkszvIpRXrp4mGSS-oJ0IfAMJoE9xdNNK02xJ3RlhL8Z_mBBi99QOCUZiODA=w2624-h1750-s-no-gm?authuser=0",
@@ -381,11 +1231,12 @@ const travelSpots = [
   {
     id: "temple_denderah",
     name: "Denderah - Temple d'Hathor",
-    region: "Gouvernorat de Qena",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Qena",
+    region_admin: "Gouvernorat de Qena",
+    department: "Qena",
+    subdiv: "Denderah",
     altitude: 76,
     is_island: false,
     transport: "route",
@@ -393,7 +1244,6 @@ const travelSpots = [
     era_label: "Période Ptolémaïque & Romaine (Ier s. av. J.-C. - Ier s. ap. J.-C.)",
     century: "Antiquité (Ier siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 26.1420,
     lng: 32.6703,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNHuBkRjy5aioymSE7CpQUG8TvDuDxAdu3zd5ldR5sNKim6Cei2vereEnv1XBPgb2l-Czb0Y-6fN8F5SQ7OpLvI2m7N_hw69F7ur4OLmuSkTXF_FYpyGwjBN-wOFYadpC27WAsS0m3L7r2FDaw6qcNADQ=w2624-h1750-s-no-gm?authuser=0",
@@ -404,11 +1254,12 @@ const travelSpots = [
   {
     id: "temple_abydos",
     name: "Abydos - Temple de Séthi Ier & Osiréion",
-    region: "Gouvernorat de Sohag",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Sohag",
+    region_admin: "Gouvernorat de Sohag",
+    department: "Sohag",
+    subdiv: "Abydos",
     altitude: 72,
     is_island: false,
     transport: "route",
@@ -416,7 +1267,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Nouvel Empire - XIXe dynastie)",
     century: "Antiquité (XIIIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 26.1849,
     lng: 31.9189,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPRhaqbe1gAmPBRrg2rXivhKhTAC-ueYs_QIoWYLsj2fw0F0rjlnERKJC_AcVFGG0vNrYmolFl8nHb7O_TAT9kg2Q7IrcgFEd5rBLRR62bQNb0GR2co2uZHomG5gtn1cA41EDWvrYAPwg_Bz_ZKvWdFNw=w2624-h1750-s-no-gm?authuser=0",
@@ -427,11 +1277,12 @@ const travelSpots = [
   {
     id: "pyramide_meidoum",
     name: "Pyramide de Meïdoum (Snéfrou)",
-    region: "Gouvernorat de Beni Souef",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Beni Souef",
+    region_admin: "Gouvernorat de Beni Souef",
+    department: "Beni Souef",
+    subdiv: "Meïdoum",
     altitude: 58,
     is_island: false,
     transport: "route",
@@ -439,7 +1290,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 29.3881,
     lng: 31.1570,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNLE7XfVkUuUATKZvZGt2G9iOf0GWGJEPKx6cHutSVJCNA4LgyYFDSZhBr9op2WqrSrGINcet2kMLABSPUeN53HJ5b-qqsazYCZIDWZ1IQ-F_NeTC6ouMco6ZeVrZ9FuFmw-umaZDqZ1lHRAxQR8Ptodw=w2624-h1750-s-no-gm?authuser=0",
@@ -450,11 +1300,12 @@ const travelSpots = [
   {
     id: "dahchour_pyramide_rouge",
     name: "Dahchour - Pyramide Rouge (Snéfrou)",
-    region: "Gouvernorat de Gizeh",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Gizeh",
+    region_admin: "Gouvernorat de Gizeh",
+    department: "Gizeh",
+    subdiv: "Dahchour",
     altitude: 67,
     is_island: false,
     transport: "route",
@@ -462,7 +1313,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1, unesco: 1 },
     lat: 29.8088,
     lng: 31.2062,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOyd3k7egcC-KbVTfiibheQpm_sCjVOcwC6eDQ4UyEgtIspCQB5ep7WWZXu5CRmAgc2vlMm5uWb57Y-bRzvWXSH8YqkIIYrg1qSzWtapvDEDNcYd1WhYvikVXGYsJW8Xew4CBbYkE_9FAaoiZFjVxBwGQ=w2684-h1789-s-no-gm?authuser=0",
@@ -473,11 +1323,12 @@ const travelSpots = [
   {
     id: "dahchour_pyramide_rhomboidale",
     name: "Dahchour - Pyramide Rhomboïdale (Snéfrou)",
-    region: "Gouvernorat de Gizeh",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Gizeh",
+    region_admin: "Gouvernorat de Gizeh",
+    department: "Gizeh",
+    subdiv: "Dahchour",
     altitude: 64,
     is_island: false,
     transport: "route",
@@ -485,7 +1336,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 29.7903,
     lng: 31.2093,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMer0QHDvqpAXsu4CG0KKRpAwlG6T4ED-Vaiw0Z_WuJuADw-Lf_z4KGa1VQHoou-3jszi_lEjnbm6NRoGb4LFab-rqiPzm2JbO9q2WNGzHEpjIECqsm4_nK1fB2GnN98CtogJYVmbFVjIa5ymhbeyXf3g=w2684-h1789-s-no-gm?authuser=0",
@@ -493,18 +1343,14 @@ const travelSpots = [
     visiter: "La découverte s'amorce par la contemplation extérieure de ses faces lisses vertigineuses, où le calcaire fin étincelle dans la lumière crue du désert, avant de longer la face sud pour explorer la pyramide satellite de Snéfrou dont le couloir et la chambre sont accessibles. Ouverte au public après plus de cinquante ans de fermeture, l'incursion au cœur de la pyramide Rhomboïdale procure l'une des aventures spéléologiques et archéologiques les plus mémorables d'Égypte : on s'engage sur la face nord par un boyau très étroit et plongeant de soixante-dix-neuf mètres de longueur incliné à vingt-huit degrés, obligeant à descendre courbé dans une atmosphère confinée et mystérieuse. Au fond, une succession de passerelles de bois franchit une chambre inférieure au plafond en encorbellement monumental s'élevant à plus de dix-sept mètres, avant d'emprunter un escalier suspendu vertigineux et un couloir horizontal menant au réseau occidental de la seconde chambre funéraire, encore étayée de poutres massives en cèdre du Liban vieilles de quarante-six siècles. La quiétude sauvage du désert de Dahchour, loin des circuits touristiques saturés du Caire, sublime cette immersion physique inoubliable au berceau de la géométrie monumentale.",
     link: "https://photos.google.com/share/AF1QipNpwcSK9L1BsvYFDmFWmey31PqN9K9z8b5yVZ1UTLOE8f5ErvX__Ml-xqDduQ1COg?key=eE9jXzM4NUR1akZydWRmNnpaWmxzZjNnanVvVklR"
   },
-  /* =========================================================================
-   FICHIER : script.js — PARTIE 2 / 3
-   Sites 18 à 34 + Référentiels des catégories et siècles
-   ========================================================================= */
-
   {
     id: "musee_louxor",
     name: "Musée de Louxor",
-    region: "Gouvernorat de Louxor",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Louxor",
+    department: "Louxor",
     subdiv: "Louxor",
     altitude: 75,
     is_island: false,
@@ -513,7 +1359,6 @@ const travelSpots = [
     era_label: "Époque Contemporaine (1975)",
     century: "XXe siècle",
     category: "musee",
-    counts: { musee: 1 },
     lat: 25.6983,
     lng: 32.6422,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOlSLP2nXJzrNz-7YmfZxfrtGaKuQMpxo7jzE8XADlNHn5wfzUnwoSPY1J3xMtLRlx3m8z9tN888ejTQ4OWG-sMIk0VM6t5q91zs02fJkeuHymN7ZYHYkhcoFohxLV5jJyCBYJhFMlJsEVgbaDhD1ebyA=w2416-h1611-s-no-gm?authuser=0",
@@ -524,11 +1369,12 @@ const travelSpots = [
   {
     id: "kom_ombo",
     name: "Temple de Kom Ombo",
-    region: "Gouvernorat d'Assouan",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Assouan",
+    region_admin: "Gouvernorat d'Assouan",
+    department: "Assouan",
+    subdiv: "Kom Ombo",
     altitude: 90,
     is_island: false,
     transport: "bateau",
@@ -536,7 +1382,6 @@ const travelSpots = [
     era_label: "Période Ptolémaïque (-180 av. J.-C.)",
     century: "Antiquité (IIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 24.4536,
     lng: 32.9575,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM7PUFtMCkaIiznC67hMHTYvSrp7icTFi1fmvfL6P3eyf__l0mGzgjqbOOIdpKlGLn0KjMYN1FBC1Lp_lsn1GDpPOkJHcvAUAgXWl5MZwkF9RD8EXB3BEHhxroatqj-63eHvfMvQ7WoFfJ-XnhbxYFm5Q=w2468-h1645-s-no-gm?authuser=0",
@@ -547,11 +1392,12 @@ const travelSpots = [
   {
     id: "temple_edfu",
     name: "Temple d'Edfou (Horus)",
-    region: "Gouvernorat d'Assouan",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Assouan",
+    region_admin: "Gouvernorat d'Assouan",
+    department: "Assouan",
+    subdiv: "Edfou",
     altitude: 85,
     is_island: false,
     transport: "bateau",
@@ -559,7 +1405,6 @@ const travelSpots = [
     era_label: "Période Ptolémaïque (-237 av. J.-C.)",
     century: "Antiquité (IIIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 24.9778,
     lng: 32.8733,
     image: "https://lh3.googleusercontent.com/pw/AP1GczODDOHLKqHDHHrENAvAJ6-1bs8Xj6qVoflzOrpcClYqlWXXRgGY_ICKgqAjr9EDeL3yN8cx6v3NmsZS5uQR7gclNIcW2wp-BvXvCloeT-CQH8X_UX4lo-ePx5yWdNmXCzthCKiYptS4X9bZy9xfXbqA0g=w2468-h1645-s-no-gm?authuser=0",
@@ -570,11 +1415,12 @@ const travelSpots = [
   {
     id: "temple_esna",
     name: "Temple de Khnoum à Esna",
-    region: "Gouvernorat de Louxor",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Louxor",
+    region_admin: "Gouvernorat de Louxor",
+    department: "Louxor",
+    subdiv: "Esna",
     altitude: 80,
     is_island: false,
     transport: "bateau",
@@ -582,7 +1428,6 @@ const travelSpots = [
     era_label: "Période Gréco-Romaine (Ier-IIIe siècle)",
     century: "Antiquité (Ier siècle)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 25.2934,
     lng: 32.5543,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNZHFqtzOqeApuv0iH5AFgE7JDfw7vZbJeoRKmc_WpEzFhUdkMes7MiszZtjaHfRVEfU_bq1NtjYeu4tCGzJVoeTD43Xfxf6ySOf_gdxXkHKAYt4upzrPljYjVZR0SfpD85cIem3aV-Z54nfDIz6iXdQg=w2945-h1964-s-no-gm?authuser=0",
@@ -593,10 +1438,11 @@ const travelSpots = [
   {
     id: "philae",
     name: "Temple de Philae",
-    region: "Gouvernorat d'Assouan",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat d'Assouan",
+    department: "Assouan",
     subdiv: "Assouan",
     altitude: 110,
     is_island: true,
@@ -606,7 +1452,6 @@ const travelSpots = [
     era_label: "Période Ptolémaïque & Romaine (-380)",
     century: "Antiquité (IVe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 24.0255,
     lng: 32.8842,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNEZkmSVkAOkW3xempadnM8SHkLXcN3lxMwF4P_v6HtDWRgGXZ7S5acbBjjdYQ9MysHS9TvU4gC2OHbpzOVelFEwDghH81UVzI3MSQWjvGtk5lcPhRiTUSWH-ddLkZdWe9EtrN-ULTtu5eSojGN3EmOQA=w2518-h1679-s-no-gm?authuser=0",
@@ -617,10 +1462,11 @@ const travelSpots = [
   {
     id: "ile_elephantine",
     name: "Île Éléphantine",
-    region: "Gouvernorat d'Assouan",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat d'Assouan",
+    department: "Assouan",
     subdiv: "Assouan",
     altitude: 98,
     is_island: true,
@@ -630,7 +1476,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique & Cité d'Abou",
     century: "Antiquité",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 24.0850,
     lng: 32.8870,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMe5-tPfvBETQYNCaS7NQE82xAvrOGgrkqnWcydSwujR6xCg-Fwh_4V9telxRd-O_X4ET6aLQcybNwJBJ58KjEJyB2zoQWgIyFddWJAc_vLjj4Bdgz21o8-HsKKWdkfrUQrv8eLPr2bbmslLuhpnJts2A=w2686-h1791-s-no-gm?authuser=0",
@@ -641,10 +1486,11 @@ const travelSpots = [
   {
     id: "musee_nubie_assouan",
     name: "Musée de la Nubie à Assouan",
-    region: "Gouvernorat d'Assouan",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat d'Assouan",
+    department: "Assouan",
     subdiv: "Assouan",
     altitude: 106,
     is_island: false,
@@ -653,7 +1499,6 @@ const travelSpots = [
     era_label: "Époque Contemporaine (1997) & Héritage Nubien",
     century: "XXe siècle",
     category: "musee",
-    counts: { musee: 1 },
     lat: 24.0792,
     lng: 32.8906,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNBtyYHTiPCJzYSSKTWjbFKtl7gKteYYMkH-JT7Q6Utpdi4D6XQTQTiAp9Ewa7lMkh9d3eENIBL5kbXdkRTDmNlPoE9tEL0hSHwXg8b1bXr-KrnXpvholz1BiSvEDmaq6XGGTEeaqQcoH9OkyPqD1s7Zg=w2574-h1715-s-no-gm?authuser=0",
@@ -664,11 +1509,12 @@ const travelSpots = [
   {
     id: "musee_imhotep_saqqarah",
     name: "Saqqarah - Musée Imhotep",
-    region: "Gouvernorat de Gizeh",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Gizeh",
+    region_admin: "Gouvernorat de Gizeh",
+    department: "Gizeh",
+    subdiv: "Saqqarah",
     altitude: 34,
     is_island: false,
     transport: "route",
@@ -676,7 +1522,6 @@ const travelSpots = [
     era_label: "Époque Contemporaine (2006) & Héritage de l'Ancien Empire",
     century: "XXIe siècle",
     category: "musee",
-    counts: { musee: 1 },
     lat: 29.8704,
     lng: 31.2251,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNQlXL7V0VuSmR8prrrDjbFqJmmuFMNyrSCiLUqNvK5LCcbHOj5BBAD055wPUQwtedURIIn-4ud9QNhRq-HiUdUDtzsTOYOMiDk1NrJXQkeZm4gC_UxOJ_4mgnpiIUqHB0vXmGvroeaP6_CZnA9a2--sw=w2988-h1993-s-no-gm?authuser=0",
@@ -687,11 +1532,12 @@ const travelSpots = [
   {
     id: "saqqarah_mastabas",
     name: "Saqqarah - Nécropole des Mastabas (Ti & Mérérouka)",
-    region: "Gouvernorat de Gizeh",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Gizeh",
+    region_admin: "Gouvernorat de Gizeh",
+    department: "Gizeh",
+    subdiv: "Saqqarah",
     altitude: 48,
     is_island: false,
     transport: "route",
@@ -699,7 +1545,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Ancien Empire - Ve & VIe dynasties)",
     century: "Antiquité (XXIVe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 29.8760,
     lng: 31.2214,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPm2-iD73muRH_jVot8-EE1lyBKVZCTLF39pIHWToS8yhyubMwAs5zilUHQJ8CKTJTwBLusmEB1RKN_8j-W8gHIHNdsMdhulPx-9UaBuslVVC6aemGNoYObE_BVQvwzoIcvn4PIInE4JNMYBPShsaE66Q=w2650-h1987-s-no-gm?authuser=0",
@@ -710,11 +1555,12 @@ const travelSpots = [
   {
     id: "saqqarah_pyramide_teti",
     name: "Saqqarah - Pyramide de Téti (Textes des Pyramides)",
-    region: "Gouvernorat de Gizeh",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Gizeh",
+    region_admin: "Gouvernorat de Gizeh",
+    department: "Gizeh",
+    subdiv: "Saqqarah",
     altitude: 52,
     is_island: false,
     transport: "route",
@@ -722,7 +1568,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Ancien Empire - VIe dynastie)",
     century: "Antiquité (XXIVe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 29.8753,
     lng: 31.2236,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMfxTYdfUP4yWKt--mBt4ufisLTqTfNE2AjPCYY7te7W3jVjiPUsxAK35VXk4bWdC9vly9HdljYYOqyteOIBtRw_KkgxgF-qq38sElFmwBr-aAMafdO3ekdtpCluGqPe39pw2i78b9VdT9QSs7-SGG0bw=w2650-h1766-s-no-gm?authuser=0",
@@ -733,11 +1578,12 @@ const travelSpots = [
   {
     id: "saqqarah_serapeum",
     name: "Saqqarah - Sérapéum (Nécropole des Taureaux Apis)",
-    region: "Gouvernorat de Gizeh",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Gizeh",
+    region_admin: "Gouvernorat de Gizeh",
+    department: "Gizeh",
+    subdiv: "Saqqarah",
     altitude: 53,
     is_island: false,
     transport: "route",
@@ -745,7 +1591,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique & Époque Ptolémaïque (XIVe s. av. J.-C. - Ier s. av. J.-C.)",
     century: "Antiquité (XIVe siècle av. J.-C. à Ier siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 29.8761,
     lng: 31.2103,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOm9dTai3YyXLZLo6AY9NqTKPU7t-t2QngAmHWZrJYmXXv6n7xiViZWbFZcG1uuZHt2vK7wYzYxfoGzZClTYRx5OS2JpsWUfgLe0hbTGhDzy3dT6ngbUFWrJ89FXFdFhCpHs1TcAR-N1tY-bspHZf2B1A=w2650-h1766-s-no-gm?authuser=0",
@@ -756,11 +1601,12 @@ const travelSpots = [
   {
     id: "saqqarah_complexe_djeser",
     name: "Saqqarah - Complexe Funéraire de Djéser (Pyramide à Degrés)",
-    region: "Gouvernorat de Gizeh",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Gizeh",
+    region_admin: "Gouvernorat de Gizeh",
+    department: "Gizeh",
+    subdiv: "Saqqarah",
     altitude: 58,
     is_island: false,
     transport: "route",
@@ -768,7 +1614,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Ancien Empire - IIIe dynastie)",
     century: "Antiquité (XXVIIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 29.8713,
     lng: 31.2164,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOeP15wzqe7pW0a5CwycfN3EShovzAz7KpqIHW2GWzMrb9XVNN3sbi6X4jKcDUIzv4JKfBoxGTsv7z39SP2CHY2t5TocTCVWeUHnYJvMRvTRq97eMq32DhoBAIgdJK0pQz-YUPH-m34PSuelB4L2ObnlA=w2650-h1766-s-no-gm?authuser=0",
@@ -779,10 +1624,11 @@ const travelSpots = [
   {
     id: "gizeh_temple_vallee_khephren",
     name: "Gizeh - Temple de la Vallée de Khéphren",
-    region: "Gouvernorat de Gizeh",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Gizeh",
+    department: "Gizeh",
     subdiv: "Gizeh",
     altitude: 20,
     is_island: false,
@@ -791,7 +1637,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 29.9724,
     lng: 31.1398,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNP-BTRouMewjBv0Ln8gWm4HN6mLLZ9WCpYq8MAQTvLqokZlwzL1nj2lTo5Kh1peYIjAAAD-eSL9Pe2seesiLRBPzy1vyGpIoX9VSNVLjgIpdnNr89rHeXr-WhzpSidfd2xSroVfdXRUtqFx_NQz8Sb3g=w2650-h1766-s-no-gm?authuser=0",
@@ -802,10 +1647,11 @@ const travelSpots = [
   {
     id: "gizeh_grand_sphinx",
     name: "Gizeh - Grand Sphinx",
-    region: "Gouvernorat de Gizeh",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Gizeh",
+    department: "Gizeh",
     subdiv: "Gizeh",
     altitude: 22,
     is_island: false,
@@ -814,7 +1660,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 29.9753,
     lng: 31.1376,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNOF-n-S3utVbPnDbHcJf-cULebFfhJLRJ6et95I4YoSDJrG-GyQxDSuDbMY5t0DFZKDxQo4QzwDQLVNxheXzusDviBzPND0QzJeXrH9aH2PvTyw3UMyf7VXP33KTNCh8ekhBNf9ySN3YFjcYLfdZVIiw=w2650-h1766-s-no-gm?authuser=0",
@@ -825,10 +1670,11 @@ const travelSpots = [
   {
     id: "gizeh_pyramide_kheops",
     name: "Gizeh - Pyramide de Khéops (Grande Pyramide)",
-    region: "Gouvernorat de Gizeh",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Gizeh",
+    department: "Gizeh",
     subdiv: "Gizeh",
     altitude: 65,
     is_island: false,
@@ -837,21 +1683,21 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 29.9792,
     lng: 31.1342,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOL6UdQ2NgvSXtSJxB1zz2auY4ZqsT2NrlwNUrBsi_6BiP44Vwnz__wBTkmkUFyLA_Ms45SzeK4rBZkYRULi2Q1h-8cOwAKn2isOUGmCYlOmZew4qlF1YSOskg03mndEkfTIVbuOl5GZnLgK9ugSEPSWg=w2650-h1766-s-no-gm?authuser=0",
     description: "Seule survivante des sept merveilles du monde antique et chef-d'œuvre absolu de l'architecture mégalithique universelle, la Grande Pyramide de Khéops domine le plateau calcaire de Gizeh depuis plus de quarante-cinq siècles avec une perfection géométrique qui continue de défier l'entendement. Érigée sous la IVe dynastie au XXVIe siècle avant notre ère par le vizir et maître d'œuvre Hémiounou pour servir de tombeau d'éternité au pharaon Khéops, cette montagne de pierre artificielle culminait à l'origine à plus de cent quarante-six mètres de hauteur, demeurant l'édifice le plus élevé jamais bâti par l'homme jusqu'à l'élévation des cathédrales médiévales. Composée de plus de deux millions trois cent mille blocs de calcaire local pesant chacun en moyenne deux tonnes et demie, la structure était autrefois entièrement revêtue d'un étincelant parement poli de calcaire blanc de Tourah reflétant les rayons du soleil comme un phare cosmique à la lisière du désert libyque. Orientée avec une précision stupéfiante sur les quatre points cardinaux avec une marge d'erreur infime, elle synthétise le savoir astronomique, mathématique et théologique de l'Ancien Empire à son apogée, conçu pour propulser l'âme du souverain défunt vers les étoiles circumpolaires impérissables.",
-    visiter: "La découverte commence au pied des gigantesques assises de calcaire de la face nord, où le regard mesure la démesure des blocs avant d'emprunter la brèche historique creusée au IXe siècle par le calife Al-Mamoun pour pénétrer dans les entrailles du géant. L'incursion intérieure procure une expérience physique et sensorielle inoubliable : après s'être courbé dans l'étroit couloir ascendant incliné à vingt-six degrés, le visiteur se redresse avec sidération au seuil de la Grande Galerie, prodigieuse nef en encorbellement haute de près de neuf mètres et longue de quarante-sept mètres, chef-d'œuvre de stéréotomie où les dalles de calcaire glissent dans une pénombre solennelle. Franchissant la chambre des herses, on pénètre enfin au cœur de la Chambre du Roi, salle sépulcrale entièrement tapissée de monolithes de granit rouge d'Assouan ajustés sans le moindre mortier, surmontée de cinq chambres de décharge destinées à dévier les pressions titanesques de la masse pyramidale. Devant le sarcophage royal monolithique en granit ébréché résonne une acoustique minérale enveloppante chargée de recueillement. De retour au grand jour, le circuit contourne la face sud pour observer la fosse restaurée de la célèbre barque solaire en bois de cèdre avant d'admirer les pyramides satellites des reines sous la lumière dorée du couchant.",
+    visiter: "La découverte commence au pied des gigantesques assises de calcaire de la face nord, où le regard mesure la démesure des blocs avant d'emprunter la brèche historique creusée au IXe siècle par le calife Al-Mamoun pour pénétrer dans les entrailles du géant. L'incursion intérieure procure une expérience physique et sensorielle inoubliable : après s'être courbé dans l'étroit couloir ascendant incliné à vingt-six degrés, le visiteur se redresse avec sidération au seuil de la Grande Galerie, prodigieuse nef en encorbellement haute de près de neuf mètres et longue de quarante-sept mètres, chef-d'œuvre de stéréotomie où les dalles de calcaire glissent dans une pénombre solennelle. Franchissant la chambre des herses, ou pénètre enfin au cœur de la Chambre du Roi, salle sépulcrale entièrement tapissée de monolithes de granit rouge d'Assouan ajustés sans le moindre mortier, surmontée de cinq chambres de décharge destinées à dévier les pressions titanesques de la masse pyramidale. Devant le sarcophage royal monolithique en granit ébréché résonne une acoustique minérale enveloppante chargée de recueillement. De retour au grand jour, le circuit contourne la face sud pour observer la fosse restaurée de la célèbre barque solaire en bois de cèdre avant d'admirer les pyramides satellites des reines sous la lumière dorée du couchant.",
     link: "https://photos.google.com/share/AF1QipPZ5plJybSHlkaMCg-QIKLkGgV1kgRwxjK-SRbFE3kmL4y6GlisgTQGRQ3BriHiyg?key=akRKZVRKbDFYVGhPQ0V1SDJyaERNMVhDQkdmWDRn"
   },
   {
     id: "gizeh_pyramide_henoutsen",
     name: "Gizeh - Pyramide de la Reine Hénoutsen (G1-c)",
-    region: "Gouvernorat de Gizeh",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Gizeh",
+    department: "Gizeh",
     subdiv: "Gizeh",
     altitude: 60,
     is_island: false,
@@ -860,21 +1706,21 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 29.9777,
     lng: 31.1365,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPJV6Ii0zGM90Y28LMW9kKLwLbia1w8r_06kB8TkEMGmCWpIobD6VVdwyBlzuCWGtQcCHA5aUzSXQrExrU5s9QS39RFEGmnzCwL5npAEVFM0OdfPN8r8y9IbECvQol0QtCY8JGOejHaa3wOlM-qPI22gg=w2650-h1766-s-no-gm?authuser=0",
-    description: "Dressée sur le plateau calcaire de Gizeh à quelques dizaines de mètres au sud-est de la Grande Pyramide, la sépulture de la reine Hénoutsen — désignée sous la nomenclature archéologique G1-c — constitue la plus méridionale et la mieux préservée de la triade des pyramides satellites de Khéops. Fille du grand roi bâtisseur Snéfrou et épouse de son demi-frère Khéops, Hénoutsen appartenait au cœur du cercle dynastique de l'âge d'or de la IVe dynastie au XXVIe siècle avant notre ère. Culminant à l'origine à près de vingt-neuf mètres de hauteur pour une base carrée d'environ quarante-six mètres, cette montagne de calcaire local présente la particularité remarquable d'avoir conservé sur ses assises inférieures de magnifiques blocs de parement lissé en calcaire fin de Tourah. Légèrement décalée par rapport à l'alignement des deux autres tombes de reines (G1-a et G1-b) pour s'harmoniser avec l'immense mastaba du prince Khoufoukhaf, elle fut également au cœur d'une extraordinaire renaissance religieuse sous les XXIe et XXVIe dynasties saïtes : sa chapelle funéraire orientale fut alors agrandie et consacrée en temple d'Isis « Maîtresse de la Pyramide », comme l'atteste la célèbre stèle de l'Inventaire découverte en ses murs par Auguste Mariette.",
+    description: "Dressée sur le plateau calcaire de Gizeh à quelques dizaines de mètres au sud-est de la Grande Pyramide, la sépulture de la reine Hénoutsen — désignée sous la nomenclature archéologique G1-c — constitue la plus méridionale et la mieux préservée de la triade des pyramides satellites de Khéops. Fille du grand roi bâtisseur Snéfrou et épouse de son demi-frère Khéops, Hénoutsen appartenait au cœur du cercle dynastique de l'âge d'or de la IVe dynastie au XXVIe siècle avant notre ère. Culminant à l'origine à près de vingt-neuf mètres de hauteur pour une base carrée d'environ quarante-six mètres, cette montagne de calcaire local présente la particularité remarquable d'avoir conservé sur ses assises inférieures de magnifiques blocs de parement lissé en calcaire fin de Tourah. Légèrement décalée par rapport à l'alignement des deux autres tombes de reines (G1-a et G1-b) pour s'harmoniser avec l'immense mastaba du prince Khoufoukhaf, elle fut également au cœur d'une extraordinaire renaissance religieuse sous les XXIe et XXe dynasties saïtes : sa chapelle funéraire orientale fut alors agrandie et consacrée en temple d'Isis « Maîtresse de la Pyramide », comme l'atteste la célèbre stèle de l'Inventaire découverte en ses murs par Auguste Mariette.",
     visiter: "La découverte s'amorce par l'approche de la face nord du monument, où l'on observe la précision de l'appareillage des assises de base avant d'examiner l'entrée du boyau funéraire plongeant à flanc de colline. L'incursion intérieure permet d'emprunter un couloir descendant incliné à environ vingt-cinq degrés, s'enfonçant sous le niveau rocheux naturel du plateau pour déboucher dans une antichambre puis dans la chambre funéraire royale taillée à même le roc calcaire, pourvue d'une niche à canopes au sud. De retour à l'extérieur, l'exploration se concentre sur le flanc oriental où subsistent les murs de calcaire et les fondations du temple d'Isis d'époque tardive, offrant un émouvant témoignage de la continuité dévotionnelle du site sur plus de deux mille ans. La marche se prolonge vers le déambulatoire séparant la pyramide de la fosse de barque voisine et des mastabas des courtisans du champ Est, livrant un angle photographique spectaculaire où la silhouette étagée de la pyramide d'Hénoutsen s'aligne en contre-plongée avec la masse colossale de la Grande Pyramide baignée par la lumière dorée du désert.",
     link: "https://photos.google.com/share/AF1QipPZ5plJybSHlkaMCg-QIKLkGgV1kgRwxjK-SRbFE3kmL4y6GlisgTQGRQ3BriHiyg?key=akRKZVRKbDFYVGhPQ0V1SDJyaERNMVhDQkdmWDRn"
   },
   {
     id: "gizeh_pyramide_khephren",
     name: "Gizeh - Pyramide de Khéphren",
-    region: "Gouvernorat de Gizeh",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Gizeh",
+    department: "Gizeh",
     subdiv: "Gizeh",
     altitude: 71,
     is_island: false,
@@ -883,7 +1729,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 29.9759,
     lng: 31.1308,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMHNGmnFZj13hTSsFRE_EgJi13hRa1xoGli6iRQk35QmGXAa75fhDRQkv-cbsbLIAE3L-xNaHhMYqwLQpyYQFLh930CuS2iPw8JHeTDi9U0hRv4j1M4zwMRuUgmGDOS7HZ5WElZshQSW2PvVqHipSwT7Q=w2650-h1766-s-no-gm?authuser=0",
@@ -894,10 +1739,11 @@ const travelSpots = [
   {
     id: "gizeh_pyramide_mykerinos",
     name: "Gizeh - Pyramide de Mykérinos",
-    region: "Gouvernorat de Gizeh",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Gizeh",
+    department: "Gizeh",
     subdiv: "Gizeh",
     altitude: 73,
     is_island: false,
@@ -906,7 +1752,6 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 29.9725,
     lng: 31.1283,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPKW5gJB4SQe9L8JzJUZxIUHCTz-jhPqsuU17BWoo7dNoR6Q3EGsJYFBVCi6D0MkJMsowjOAy3p0njZLfdieOWJNAQJFkSKkv9fK0Pln89d1XpKZXRwIZvnqhQ3AVKNDalUbaQ47TxMw8TyOAZSOGIpYg=w2650-h1766-s-no-gm?authuser=0",
@@ -917,10 +1762,11 @@ const travelSpots = [
   {
     id: "gizeh_pyramides_reines",
     name: "Gizeh - Pyramides des Reines (Satellites de Mykérinos)",
-    region: "Gouvernorat de Gizeh",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat de Gizeh",
+    department: "Gizeh",
     subdiv: "Gizeh",
     altitude: 70,
     is_island: false,
@@ -929,22 +1775,22 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 29.9713,
     lng: 31.1282,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPJ4tAYvM_fEjvjIPayyJFoQfxDjkO0Pe00gNUwgdbhJjh7DdSDp45pw8L4I5YPvb_g0RCt8V7pZ8Rx3zKI07C3ElLeG62U_h5hpAhVvrCow5vlngwJdtmuBlBYsEwWliHg8DOYOFYrY4-RwYSlTZYseQ=w2650-h1766-s-no-gm?authuser=0",
     description: "Bordant la lisière méridionale du complexe funéraire de Mykérinos face à l'immensité du désert libyque, la triade des pyramides satellites des reines — répertoriées sous les dénominations archéologiques G3-a, G3-b et G3-c — constitue l'un des ensembles funéraires subsidiaires les plus harmonieux du plateau de Gizeh. Érigées au XXVIe siècle avant notre ère sous la IVe dynastie pour abriter les dépouilles des épouses royales de Mykérinos, au premier rang desquelles figure sans doute la reine Khâmerernebty II, ces trois sépultures étagées d'est en ouest illustrent les fascinantes variations de conception architecturale de l'Ancien Empire. La plus orientale (G3-a), culminant jadis à près de vingt-huit mètres de hauteur pour une base carrée de quarante-quatre mètres, fut conçue comme une véritable pyramide à faces lisses pourvue d'un parement partiel de granit rose d'Assouan et d'un petit temple funéraire en calcaire et briques crues. En revanche, ses deux voisines occidentales (G3-b et G3-c), demeurées à l'état de pyramides à degrés composées de quatre à cinq gradins massifs de calcaire local, offrent une silhouette étagée d'une grande puissance géométrique. Elles rappellent que la monumentalité royale à Gizeh s'exprimait au sein d'une constellation dynastique familiale hautement hiérarchisée.",
-    visiter: "La découverte s'amorce par l'approche piétonne longeant le flanc sud de la pyramide de Mykérinos, permettant de mesurer d'emblée le saisissant jeu d'échelles et de perspectives entre le titan royal et ses sentinelles princières alignées au cordeau. En observant la pyramide G3-a, la plus complète du groupe, le regard s'attarde sur les vestiges de son temple de culte en maçonnerie et sur son entrée nord qui s'enfonce par un couloir descendant vers une chambre funéraire souterraine où Richard Vyse découvrit un sarcophage de granit rose contenant les ossements d'une jeune femme. La promenade se prolonge devant les pyramides G3-b et G3-c dont les parois à gradins dénudées révèlent l'appareillage robuste des blocs de calcaire nummulitique extraits des carrières voisines du plateau. En contournant l'angle sud-ouest de la dernière pyramide pour gagner la crête des dunes, le visiteur accède à l'un des panoramas les plus grandioses et photogéniques de tout le plateau memphite : le premier plan met en valeur l'alignement rythmé des trois pyramides satellites dont les ombres crénelées s'étirent sur le sable, dialoguant à l'horizon avec la masse colossale de Mykérinos et la coiffe étincelante de Khéphren dans la lumière dorée du désert égyptien.",
+    visiter: "La découverte s'amorce par l'approche piétonne longeant le flanc sud de la pyramide de Mykérinos, permettant d'apprécier d'emblée le saisissant jeu d'échelles et de perspectives entre le titan royal et ses sentinelles princières alignées au cordeau. En observant la pyramide G3-a, la plus complète du groupe, le regard s'attarde sur les vestiges de son temple de culte en maçonnerie et sur son entrée nord qui s'enfonce par un couloir descendant vers une chambre funéraire souterraine où Richard Vyse découvrit un sarcophage de granit rose contenant les ossements d'une jeune femme. La promenade se prolonge devant les pyramides G3-b et G3-c dont les parois à gradins dénudées révèlent l'appareillage robuste des blocs de calcaire nummulitique extraits des carrières voisines du plateau. En contournant l'angle sud-ouest de la dernière pyramide pour gagner la crête des dunes, le visiteur accède à l'un des panoramas les plus grandioses et photogéniques de tout le plateau memphite : le premier plan met en valeur l'alignement rythmé des trois pyramides satellites dont les ombres crénelées s'étirent sur le sable, dialoguant à l'horizon avec la masse colossale de Mykérinos et la coiffe étincelante de Khéphren dans la lumière dorée du désert égyptien.",
     link: "https://photos.google.com/share/AF1QipPZ5plJybSHlkaMCg-QIKLkGgV1kgRwxjK-SRbFE3kmL4y6GlisgTQGRQ3BriHiyg?key=akRKZVRKbDFYVGhPQ0V1SDJyaERNMVhDQkdmWDRn"
   },
   {
     id: "caire_eglise_saint_georges",
     name: "Le Caire - Église Saint-Georges (Mar Girgis)",
-    region: "Gouvernorat du Caire (Vieux Caire)",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Le Caire",
+    region_admin: "Gouvernorat du Caire",
+    department: "Le Caire",
+    subdiv: "Vieux Caire",
     altitude: 23,
     is_island: false,
     transport: "route",
@@ -952,7 +1798,6 @@ const travelSpots = [
     era_label: "Époque Byzantine & Héritage Romain (Xe-XXe siècle)",
     century: "Moyen Âge (Xe siècle)",
     category: "religieux",
-    counts: { religieux: 1, unesco: 1, ville: 1 },
     lat: 30.0065,
     lng: 31.2301,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNoyzurir8DknmQ8XtdZ05w7nvqJMDVuvbM4ASyaYfRrYCYXShggFrxomUa1tSTfLCYbncqXIaJMa72OMym1uYNQD0JZLe8g-kKuwHZw_B28LpZHh279oa3xJNy07rtzKPu7nr31MSL3S_BcqDLkvIUPg=w2650-h1766-s-no-gm?authuser=0",
@@ -963,11 +1808,12 @@ const travelSpots = [
   {
     id: "caire_eglise_saint_serge_bacchus",
     name: "Le Caire - Église Saint-Serge-et-Saint-Bacchus (Abou Serga)",
-    region: "Gouvernorat du Caire (Vieux Caire)",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Le Caire",
+    region_admin: "Gouvernorat du Caire",
+    department: "Le Caire",
+    subdiv: "Vieux Caire",
     altitude: 20,
     is_island: false,
     transport: "route",
@@ -975,7 +1821,6 @@ const travelSpots = [
     era_label: "Époque Paléochrétienne & Héritage Copte (IVe-XIe siècle)",
     century: "Antiquité tardive (IVe siècle)",
     category: "religieux",
-    counts: { religieux: 1 },
     lat: 30.0054,
     lng: 31.2308,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOUXPal2kg9_OYQjZ5gXWntERCgGjAP3JfOw_GAgk4jJookhgvNZlKHGCu1bzuDTL1I0e2v2Ma8VlUedNTfq3l9AjMkM5n0lFwFVCrpy3e2VFCfJnE0DqyzJo-B6NJDV1QsQSHHqYzgcDAGd9aX-2BiRQ=w2650-h1766-s-no-gm?authuser=0",
@@ -986,11 +1831,12 @@ const travelSpots = [
   {
     id: "caire_tombeau_sanctuaire_saint_georges",
     name: "Le Caire - Tombeau & Sanctuaire de Saint-Georges (Mar Girgis)",
-    region: "Gouvernorat du Caire (Vieux Caire)",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Le Caire",
+    region_admin: "Gouvernorat du Caire",
+    department: "Le Caire",
+    subdiv: "Vieux Caire",
     altitude: 22,
     is_island: false,
     transport: "route",
@@ -998,7 +1844,6 @@ const travelSpots = [
     era_label: "Époque Byzantine & Héritage Copte (Xe-XVIIIe siècle)",
     century: "Moyen Âge (Xe siècle)",
     category: "religieux",
-    counts: { religieux: 1 },
     lat: 30.0060,
     lng: 31.2305,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOBDNd25owkNlRakFd2Z4DGoALmOi_VunIQ-NzpF_syiRP2aI2jeqAvQ-nViTkTRKWNl-aCp4sDGKlSFvXc1AGLzsR-qMpGwEZlrdhCO5cKLxePaiGylmR-m1y4oDfEDaM9pn06fRnMj_wZnqqLB7MRpg=w2650-h1766-s-no-gm?authuser=0",
@@ -1009,11 +1854,12 @@ const travelSpots = [
   {
     id: "caire_forteresse_babylone",
     name: "Le Caire - Forteresse de Babylone (Qasr al-Cham')",
-    region: "Gouvernorat du Caire (Vieux Caire)",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Le Caire",
+    region_admin: "Gouvernorat du Caire",
+    department: "Le Caire",
+    subdiv: "Vieux Caire",
     altitude: 21,
     is_island: false,
     transport: "route",
@@ -1021,7 +1867,6 @@ const travelSpots = [
     era_label: "Époque Romaine Impériale (Ier-IVe siècle)",
     century: "Antiquité (IIe siècle)",
     category: "chateau",
-    counts: { chateau: 1, archeologie: 1 },
     lat: 30.0058,
     lng: 31.2302,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNLiSRKLIO4ehJTUHscH31n8pXzEj_LJJ22YnKy-BTQ3uVi9beivhgpIYBQVp2v-OUx1pgnhKiVeanvbe9JUFkMs2MPD7q8pCBm_IQ9KB2nz4yu0SH61Gn-DIdA7DwPiuOlvFxKZHbmAWk7nEP25DMbaA=w2650-h1766-s-no-gm?authuser=0",
@@ -1032,11 +1877,12 @@ const travelSpots = [
   {
     id: "caire_eglise_suspendue",
     name: "Le Caire - L'Église Suspendue (Al-Moallaqa)",
-    region: "Gouvernorat du Caire (Vieux Caire)",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Le Caire",
+    region_admin: "Gouvernorat du Caire",
+    department: "Le Caire",
+    subdiv: "Vieux Caire",
     altitude: 25,
     is_island: false,
     transport: "route",
@@ -1044,7 +1890,6 @@ const travelSpots = [
     era_label: "Époque Paléochrétienne & Fatimide (IIIe-XIe siècle)",
     century: "Antiquité tardive (IIIe siècle)",
     category: "religieux",
-    counts: { religieux: 1 },
     lat: 30.0052,
     lng: 31.2312,
     image: "https://lh3.googleusercontent.com/pw/AP1GczP3Tz4rZ2saMfJeMKqyQ9r3-Tu6IPe18ZAsXlJqkjQ1Y-L_abFGpbjsCF-mlFeH6yDQFvC2aKIMQJ0wIJGusEM1acLefBSY7phwM2mCEwo-MEa_CB8LW1oHD9pD4CWj5doUZAJeV2i-7--h9LPRUAkkeA=w1757-h2635-s-no-gm?authuser=0",
@@ -1055,11 +1900,12 @@ const travelSpots = [
   {
     id: "caire_musee_copte",
     name: "Le Caire - Musée Copte (Vieux Caire)",
-    region: "Gouvernorat du Caire (Vieux Caire)",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Le Caire",
+    region_admin: "Gouvernorat du Caire",
+    department: "Le Caire",
+    subdiv: "Vieux Caire",
     altitude: 23,
     is_island: false,
     transport: "route",
@@ -1067,7 +1913,6 @@ const travelSpots = [
     era_label: "Héritage Copte & Art Chrétien d'Orient (IIIe-XXe siècle)",
     century: "Antiquité tardive & Moyen Âge",
     category: "musee",
-    counts: { musee: 1 },
     lat: 30.0051,
     lng: 31.2315,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPxt4hKU8BvVr5Sc3s_Z3UzVNRV6CO9A9JV-CGPJv-xLGHGKWk0F5kiP_m7as1-pwr_nNNX-ycFgKjWRhZCFNu04WOCmA3cTDYKGjkwkVr31Gr7_93vfdcGc2KremJwU9ZKdClAVYhz1V6_oHFHGxB_kQ=w2650-h1766-s-no-gm?authuser=0",
@@ -1078,11 +1923,12 @@ const travelSpots = [
   {
     id: "caire_musee_egyptien",
     name: "Le Caire - Musée Égyptien (Place Tahrir)",
-    region: "Gouvernorat du Caire (Centre-ville)",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Le Caire",
+    region_admin: "Gouvernorat du Caire",
+    department: "Le Caire",
+    subdiv: "Centre-ville",
     altitude: 20,
     is_island: false,
     transport: "route",
@@ -1090,7 +1936,6 @@ const travelSpots = [
     era_label: "Époque Contemporaine (1902) & Trésors Pharaoniques",
     century: "XXe siècle",
     category: "musee",
-    counts: { musee: 1 },
     lat: 30.0478,
     lng: 31.2336,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNfJIXTXvDHi2Qedf0CWslJ_C1rz_a4R6hnN8Wjo1HGh8KT2bqFQ4U6PS98cLMkzpiK_U3SBujWGQvhhSPODsdpVhEHfWd222nI3UsuaeMkf0UZnpTNXltqbWW9YFd9KdyYCjGLbk34mMpP-lxEtjuVcQ=w2650-h1760-s-no-gm?authuser=0",
@@ -1101,11 +1946,12 @@ const travelSpots = [
   {
     id: "caire_madrasa_alsalih_ayyub",
     name: "Le Caire - Madrasa & Mausolée d'al-Salih Najm al-Din Ayyub",
-    region: "Gouvernorat du Caire (Le Caire historique)",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Le Caire",
+    region_admin: "Gouvernorat du Caire",
+    department: "Le Caire",
+    subdiv: "Le Caire historique",
     altitude: 21,
     is_island: false,
     transport: "route",
@@ -1113,7 +1959,6 @@ const travelSpots = [
     era_label: "Époque Ayyoubide (XIIIe siècle - 1243)",
     century: "XIIIe siècle",
     category: "religieux",
-    counts: { religieux: 1 },
     lat: 30.0490,
     lng: 31.2614,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMLNP5gxHW1BTWct9gZZNPJuf6MnLgoTgToFZlGoLuD6R_1iYqxcMUGgHGOSQZSdmBmCyn3mxk6j76v_S5qCCZ7_KPv56LRqfCBWlUQyK2hpKsW9uZ210bfr5-d2oBMYWWtVswgcQxWrx0BDAlkdorQYQ=w2650-h1766-s-no-gm?authuser=0",
@@ -1124,11 +1969,12 @@ const travelSpots = [
   {
     id: "caire_complexe_qalawun",
     name: "Le Caire - Complexe Funéraire du Sultan Qalawun",
-    region: "Gouvernorat du Caire (Le Caire historique)",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Le Caire",
+    region_admin: "Gouvernorat du Caire",
+    department: "Le Caire",
+    subdiv: "Le Caire historique",
     altitude: 21,
     is_island: false,
     transport: "route",
@@ -1136,7 +1982,6 @@ const travelSpots = [
     era_label: "Époque Mamelouke Bahrite (XIIIe siècle - 1285)",
     century: "XIIIe siècle",
     category: "religieux",
-    counts: { religieux: 1 },
     lat: 30.0494,
     lng: 31.2608,
     image: "https://lh3.googleusercontent.com/pw/AP1GczN0t98_eJrhGXh5ip1mwuzO_VNVo2fMY3uWXlODYskHluBiZmejmo-Uz5A4UHuEKMngyZbp9r6IRV5EgzphLxijOO4-FaJu6kR16LlcMfMsox22g_PvrKrTNCwAO3WRV_o_WxAhXB0gdkook6E5Pzlcpg=w2650-h1766-s-no-gm?authuser=0",
@@ -1147,11 +1992,12 @@ const travelSpots = [
   {
     id: "caire_madrasa_alkamilia",
     name: "Le Caire - Madrasa al-Kamilia",
-    region: "Gouvernorat du Caire (Le Caire historique)",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Le Caire",
+    region_admin: "Gouvernorat du Caire",
+    department: "Le Caire",
+    subdiv: "Le Caire historique",
     altitude: 21,
     is_island: false,
     transport: "route",
@@ -1159,7 +2005,6 @@ const travelSpots = [
     era_label: "Époque Ayyoubide (XIIIe siècle - 1225)",
     century: "XIIIe siècle",
     category: "religieux",
-    counts: { religieux: 1 },
     lat: 30.0485,
     lng: 31.2618,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNhI-w3RZ_6vkvVVLJ-WWjT35yfAmUTP95SaxupyHI_-hSYdFq5h-QTU7UUkw_nQvj84Ac9Vg69DJNnAPYw9MPu7Ib87LIzrXLHZ2lmCg5BW952d9qYiYGfUO4v13oD57aoSfMUBBI3upAEWdswuyLJ1g=w2650-h1766-s-no-gm?authuser=0",
@@ -1170,11 +2015,12 @@ const travelSpots = [
   {
     id: "caire_hammam_inal",
     name: "Le Caire - Hammam d'Inal",
-    region: "Gouvernorat du Caire (Le Caire historique)",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Le Caire",
+    region_admin: "Gouvernorat du Caire",
+    department: "Le Caire",
+    subdiv: "Le Caire historique",
     altitude: 21,
     is_island: false,
     transport: "route",
@@ -1182,9 +2028,8 @@ const travelSpots = [
     era_label: "Époque Mamelouke Burkite (XVe siècle - 1456)",
     century: "XVe siècle",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 30.0505,
-    lng: 31.2602,
+    lng: 31.2613,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNxxQP0TTMObkuv0uZlOVNUVwjqG_iuxdHXj3ZtjATouqp9OoBBiJ0qZAyrUiOLtwORTYfOpgNyg9RVC0q_ATKuEhT0tz7ZMrdKUGQqnYFWzamWMbDswtFxH-ECllrm1DLsp4-nexJvFTYRFCzGy2Wvxw=w1757-h2635-s-no-gm?authuser=0",
     description: "Édifié en 1456 en plein cœur du quartier historique de Bayn al-Qasrayn sur la prestigieuse artère de la rue Al-Muizz par le sultan mamelouk al-Ashraf Inal, le hammam d'Inal s'impose comme l'un des témoins architecturaux civils, thermaux et sociaux les plus précieux, élégants et miraculeusement préservés du Caire médiéval. À une époque où la métropole comptait près de quatre-vingts établissements de bains publics dévoués à l'hygiène, à la détente et à la sociabilité urbaine, ce complexe thermal illustre le raffinement de l'art mamelouk burkite à travers ses superbes coupoles ajourées de verres colorés, ses voûtes de brique en étoile et son ingénieux système hydraulique alimenté par des canalisations souterraines. Destiné à accueillir les notables comme les gens du peuple dans des espaces décloisonnés selon les heures, le hammam conjuguait des salles de repos spacieuses, des bassins d'eau tiède et des étuves chaudes où la vapeur parfumée aux essences orientales offrait une parenthèse de bien-être au milieu de l'effervescence des souks et des processions princières.",
     visiter: "La découverte s'amorce en cheminant le long de la vibrante et historique rue Al-Muizz, à quelques pas des complexes de Qalawun et d'al-Salih Ayyub, pour repérer la sobre et élégante façade de pierre du bain public. En franchissant le seuil, le visiteur pénètre dans l'ancienne salle de repos et de déshabillage (bayt al-awwal), vaste espace central dont la lumière zénithale filtre à travers de minuscules ouvertures circulaires percées dans les coupoles pour créer une pénombre apaisante et intimiste. L'exploration se poursuit à travers les différentes salles thermales successives aux températures graduées — du tepidarium au caldarium —, permettant d'admirer les structures de maçonnerie anciennes, les sols en dalles de marbre patinées et les cheminées de chauffe préservées. Cette halte insolite au cœur du patrimoine civique de la vieille ville offre aux passionnés d'histoire orientale une page fascinante sur les arts de la vie quotidienne et l'ingénierie architecturale sous la dynastie des Mamelouks burkites.",
@@ -1193,11 +2038,12 @@ const travelSpots = [
   {
     id: "caire_palais_beshtak",
     name: "Le Caire - Palais de Beshtak (Qasr Bashtak)",
-    region: "Gouvernorat du Caire (Le Caire historique)",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
-    subdiv: "Le Caire",
+    region_admin: "Gouvernorat du Caire",
+    department: "Le Caire",
+    subdiv: "Le Caire historique",
     altitude: 22,
     is_island: false,
     transport: "route",
@@ -1205,7 +2051,6 @@ const travelSpots = [
     era_label: "Époque Mamelouke Bahrite (XIVe siècle - 1334)",
     century: "XIVe siècle",
     category: "chateau",
-    counts: { chateau: 1 },
     lat: 30.0506,
     lng: 31.2618,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPMXfyPq1Nzn5OK7IZlmZDBBV2VkKorKY2T115I0zJ65xi_e3gdQcZPK3zrFozbNWeUUYctwm9xgI5zuBAxSOc-9kyzLTyReZEkWy5QKx_V7KVyvdKJzNqr_klK9aBSEbBRTQgDWE7DQUV7W8S1O405Yw=w2650-h1766-s-no-gm?authuser=0",
@@ -1216,20 +2061,19 @@ const travelSpots = [
   {
     id: "alexandrie_citadelle_qaitay",
     name: "Alexandrie - Citadelle de Qaitay",
-    region: "Gouvernorat d'Alexandrie",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat d'Alexandrie",
+    department: "Alexandrie",
     subdiv: "Alexandrie",
     altitude: 10,
-    is_island: true,
-    island_name: "Pharos",
+    is_island: false,
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Mamelouke (XVe siècle - 1477)",
     century: "XVe siècle",
     category: "chateau",
-    counts: { chateau: 1, ville: 1 },
     lat: 31.2139,
     lng: 29.8856,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM13vA2rHUSd8nbsCJnjcTWMmu5-7efmRa9GNfTdAALv1g-qnbbPTmQi2kruc9TtMboTZKwWRIzXqqlaFApyByrTpXInr8sIQ5JmwirArmb5evu2BZ6uMwg4nm-l3zNxWgtcu91BuEfT6CgDhRFGE1mLg=w2650-h1766-s-no-gm?authuser=0",
@@ -1240,10 +2084,11 @@ const travelSpots = [
   {
     id: "alexandrie_stanley_bridge",
     name: "Alexandrie - Pont de Stanley (Stanley Bridge)",
-    region: "Gouvernorat d'Alexandrie",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat d'Alexandrie",
+    department: "Alexandrie",
     subdiv: "Alexandrie",
     altitude: 8,
     is_island: false,
@@ -1252,9 +2097,8 @@ const travelSpots = [
     era_label: "Époque Contemporaine (2001) & Architecture Moderne",
     century: "XXIe siècle",
     category: "pont",
-    counts: {},
-    lat: 31.2343,
-    lng: 29.9465,
+    lat: 31.2353,
+    lng: 29.9489,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNidNeCe7FYHzIohB40iTQSJ-KMhlrsCQJDoJvMlG2kTI5VnYPCnWWGZUP4y-KoYjsubVk7ap1jLyja2QfRrxOe3gNN1vW0FeUU1Wzu3SuMLr-FtXE9VhKy5ZTVY37oLIvqImd4gjERYadK8FQ0MdowNQ=w2650-h1766-s-no-gm?authuser=0",
     description: "Élégant ruban de béton et d'acier jeté au-dessus des eaux azurées du golfe de Stanley sur la grande corniche d'Alexandrie, le pont de Stanley s'impose comme l'un des chefs-d'œuvre architecturaux contemporains les plus emblématiques de la métropole méditerranéenne. Inauguré en 2001 pour fluidifier la circulation côtière et valoriser le front de mer, cet ouvrage d'art long de quatre cents mètres se distingue par ses quatre superbes tours de style néo-mauresque inspirées de l'architecture des palais royaux du Caire et d'Alexandrie. S'étirant gracieusement en arc de cercle au-dessus de la plage et de la marina de Stanley, le pont offre un point de vue panoramique exceptionnel sur les vagues venant lécher les fondations de la corniche et sur les lumières chatoyantes de la ville qui s'embrasent au crépuscule. Véritable lieu de vie, de promenade nocturne et de rendez-vous incontournable pour les amoureux de la mer, l'édifice symbolise la transition harmonieuse entre le prestigieux passé cosmopolite de la fiancée de la Méditerranée et son dynamisme urbain moderne.",
     visiter: "La découverte s'amorce en empruntant les larges trottoirs piétonniers aménagés le long de la corniche pour s'avancer sur le pont au plus près des balustrades surplombant le vide marin. En cheminant d'une tour à l'autre, le regard embrasse une perspective spectaculaire sur les baies successives d'Alexandrie, le ballet des embarcations côtières et l'animation joyeuse des promeneurs accoudés au parapet. La descente vers la plage de Stanley en contrebas permet d'admirer l'ouvrage en contre-plongée, révélant la majesté de ses arches élancées éclairées à la tombée de la nuit par un subtil jeu de projecteurs. Les cafés et terrasses avoisinants invitent à une halte reposante pour déguster un thé à la menthe face aux flots en s'imprégnant de l'atmosphère maritime si caractéristique de la côte égyptienne. Cette étape architecturale moderne constitue une bouffée d'oxygène visuelle incontournable lors de l'exploration de la métropole alexandrine.",
@@ -1263,10 +2107,11 @@ const travelSpots = [
   {
     id: "alexandrie_musee_greco_romain",
     name: "Alexandrie - Musée Gréco-Romain",
-    region: "Gouvernorat d'Alexandrie",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat d'Alexandrie",
+    department: "Alexandrie",
     subdiv: "Alexandrie",
     altitude: 12,
     is_island: false,
@@ -1275,9 +2120,8 @@ const travelSpots = [
     era_label: "Époque Gréco-Romaine (Fondation 1892 & Rénovation 2023)",
     century: "Antiquité tardive & XXIe siècle",
     category: "musee",
-    counts: { musee: 1 },
-    lat: 31.1983,
-    lng: 29.9015,
+    lat: 31.1991,
+    lng: 29.9066,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNU6I8DoTu_NkMDK1jSC2mIGF2QDICnPm5W945WvkgDKpHvdcRRTeLwSN04_7SvEXx0C6GzZR3CPBw4G2MeFuhGSmfxn17vQ8y9Me9J_vpL9FX2uL25aCNz2rF4Tdbu2GUj7HZPvCLa1WPE42T0SxNHmQ=w2650-h1766-s-no-gm?authuser=0",
     description: "Institution muséographique majeure et prestigieuse de la Méditerranée orientale, le Musée Gréco-Romain d'Alexandrie abrite la plus fabuleuse collection au monde d'antiquités issues de la fusion des cultures grecque, romaine, pharaonique et chrétienne. Inauguré initialement en 1892 puis rouvert après une spectaculaire et profonde rénovation de long terme, ce sanctuaire de la science et de l'art abrite plus de quarante mille artefacts répartis à travers des salles lumineuses. De la célèbre tête en marbre blanc d'Alexandre le Grand aux magnifiques mosaïques polychromes de Bérénice II en passant par le monumental taureau Apis en granit et les délicates statuettes de Tanagra, chaque vitrine retrace le rayonnement intellectuel et cosmopolite de la capitale ptolémaïque. Les collections de monnaies antiques, de verreries ouvragées et de reliefs funéraires coptes témoignent du dialogue permanent entre les civilisations qui ont façonné l'histoire de la fiancée de la Méditerranée au fil des siècles.",
     visiter: "La découverte s'amorce par l'admiration de la noble façade néo-classique portant l'inscription grecque « Mouseion », avant de pénétrer dans les superbes galeries thématiques du rez-de-chaussée et de l'étage. Le parcours permet d'admirer de près le raffinement de la statuaire alexandrine où l'anatomie classique grecque épouse les symboles de la spiritualité égyptienne. Une halte prolongée s'impose devant les mosaïques murales exceptionnelles et les sculptures d'époque romaine témoignant du faste impérial sous Auguste et ses successeurs. Cette étape culturelle incontournable offre aux passionnés d'histoire antique une synthèse éblouissante des influences méditerranéennes au cœur même de la métropole alexandrine.",
@@ -1286,10 +2130,11 @@ const travelSpots = [
   {
     id: "alexandrie_theatre_romain",
     name: "Alexandrie - Théâtre Romain Antique (Kom el-Dikka)",
-    region: "Gouvernorat d'Alexandrie",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat d'Alexandrie",
+    department: "Alexandrie",
     subdiv: "Alexandrie",
     altitude: 9,
     is_island: false,
@@ -1298,7 +2143,6 @@ const travelSpots = [
     era_label: "Époque Romaine Impériale (IIe-IVe siècle)",
     century: "Antiquité (IIe siècle)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 31.1948,
     lng: 29.9042,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMXEf0woCHiuDwlAh9mw_qKdwcBNYfmVPixLaGjOuGryfkf7BW4br40FtlCF737093fbbs3S2zKbV8Zwdi4-Yf41ARxj3VRq7DzPvKiCyUm93dmQ4lw1pZZzGNwUoICLii69AalHZNbHFHMAX932dMXtQ=w2650-h1766-s-no-gm?authuser=0",
@@ -1309,10 +2153,11 @@ const travelSpots = [
   {
     id: "alexandrie_catacombes_kom_el_chouqafa",
     name: "Alexandrie - Catacombes de Kom el-Chouqafa",
-    region: "Gouvernorat d'Alexandrie",
     country: "Égypte",
     continent: "Afrique",
     flag: "🇪🇬",
+    region_admin: "Gouvernorat d'Alexandrie",
+    department: "Alexandrie",
     subdiv: "Alexandrie",
     altitude: 5,
     is_island: false,
@@ -1321,7 +2166,6 @@ const travelSpots = [
     era_label: "Époque Romaine Impériale (IIe-IVe siècle)",
     century: "Antiquité (IIe siècle)",
     category: "archeologie",
-    counts: { archeologie: 1 },
     lat: 31.1786,
     lng: 29.8932,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNJVvVDfHbc_E1Z0PVN5ygfeSqr5IBLXTIibbMVHrBZ4v3wkPPqqP9msNO4WjDlUX2fYwN3l5NXhmAPUt3OdLDbDQNtT69024LG2VhB9533rrnLZZ_dskTO86WtEuIdBRaTPbmysrrN0eRUpTBoRNLxbg=w2650-h1766-s-no-gm?authuser=0",
@@ -1332,12 +2176,12 @@ const travelSpots = [
   {
     id: "lac_de_nino",
     name: "Lac de Nino & Pozzi",
-    region: "Haute-Corse (Massif du Rotondo)",
     country: "France",
     continent: "Europe",
     flag: "🇫🇷",
-    subdiv: "Haute-Corse (2B)",
     region_admin: "Corse",
+    department: "Haute-Corse (2B)",
+    subdiv: "Corte",
     altitude: 1743,
     is_island: true,
     island_name: "Corse",
@@ -1346,23 +2190,22 @@ const travelSpots = [
     era_label: "Ère Glaciaire & Temps Géologique",
     century: "Temps géologique",
     category: "lac",
-    counts: { lac: 1, rando: 1, parc_naturel: 1 },
     lat: 42.2575,
     lng: 8.9405,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOffslg_xvJ4kz3UwA46OCvLiQQ8HgO5_n6LBl4EchL5DDN_DeEkv4EzGRseb3NlTtyLxSXmYezSfQEZhddBZDGpPRyCNKT7Ae_d0KGx89OuDQUCUbU6TbO08b1EsR20nJyjUU2By4_zk96E43aOV2iqQ=w2318-h1546-s-no-gm?authuser=0",
-    description: "Perché à 1 743 mètres d'altitude au cœur du Parc Naturel Régional de Corse et dominé par les crêtes granitiques du massif du Rotondo, le lac de Nino constitue l'un des joyaux naturels les plus emblématiques de l'île de Beauté. Ce vaste lac glaciaire s'étend au milieu d'un plateau d'altitude tapissé de pozzines verdoyantes, véritables pelouses tourbeuses constellées de trous d'eau reliés par de délicats méandres scintillants. Véritable oasis suspendue entre ciel et montagne le long du mythique sentier du GR20, le site offre un spectacle féerique où paissent paisiblement en semi-liberté des chevaux insulaires sauvages accompagnés de leurs poulains. Le contraste saisissant entre la douceur des pelouses spongieuses, la limpidité des eaux calmes et l'austérité minérale des parois rocheuses environnantes confère à cet écrin préservé une atmosphère empreinte d'une poésie et d'une sérénité incomparables.",
+    description: "Perché à 1 743 mètres d'altitude au cœur du Parc Naturel Régional de Corse et dominé par les crêtes granitiques du massif du Rotondo, le lac de Nino constitue l'un des joyaux naturels les plus emblématiques de l'île de Beauté. Ce vaste lac glaciaire s'étend au milieu d'un plateau d'altitude tapissé de pozzines verdoyantes, véritables pelouses tourbeuses constellées d'eaux reliées par de délicats méandres scintillants. Véritable oasis suspendue entre ciel et montagne le long du mythique sentier du GR20, le site offre un spectacle féerique où paissent paisiblement en semi-liberté des chevaux insulaires sauvages accompagnés de leurs poulains. Le contraste saisissant entre la douceur des pelouses spongieuses, la limpidité des eaux calmes et l'austérité minérale des parois rocheuses environnantes confère à cet écrin préservé une atmosphère empreinte d'une poésie et d'une sérénité incomparables.",
     visiter: "L'accès pédestre à ce sanctuaire d'altitude s'effectue principalement depuis la maison forestière de Popaghja dans la forêt territoriale de Valdu Niellu, ou via une traversée spectaculaire par le col de Vergio et la crête de Bocca a Reta. L'ascension débute à l'ombre bienfaisante des grands pins laricio avant de déboucher sur un univers minéral et grandiose récompensé par un panorama exceptionnel s'étirant jusqu'au golfe de Sagone et aux sommets environnants. Sur place, la découverte se poursuit en longeant avec précaution les berges herbeuses et les pozzines afin de préserver cet écosystème montagnard d'une grande fragilité, tout en observant à distance respectueuse la harde de chevaux sauvages en pâture. La luminosité changeante au fil de la journée sublime les reflets des crêtes dans le miroir d'eau, invitant à une halte contemplative inoubliable au cœur des grands espaces corses.",
     link: "https://photos.google.com/share/AF1QipOcHfU1z-tymFZfCQ5g7e273NPu_R8fhW62j5S8mqfHfOE8BK_jxQ79ANOfhH5n0Q?key=WVpIbVlIbXNrREllVTFMSVk0UmFnVWV6ZlpzZWJn"
   },
   {
     id: "farinole_sentier_douaniers",
     name: "Farinole & Sentier des Douaniers",
-    region: "Haute-Corse (Cap Corse)",
     country: "France",
     continent: "Europe",
     flag: "🇫🇷",
-    subdiv: "Haute-Corse (2B)",
     region_admin: "Corse",
+    department: "Haute-Corse (2B)",
+    subdiv: "Farinole",
     altitude: 35,
     is_island: true,
     island_name: "Corse",
@@ -1371,9 +2214,8 @@ const travelSpots = [
     era_label: "Époque Génoise (XVIe siècle - 1562)",
     century: "XVIe siècle",
     category: "rando",
-    counts: { rando: 1, plage: 1 },
-    lat: 42.7319,
-    lng: 9.3428,
+    lat: 42.7184,
+    lng: 9.3284,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMJZxrY8toY64F7BFxDsmqaxYEDxY9HN9b2NY0rMk8xnLUHSsgd4TdQ2ucSKJjdzSCqaIpEnSFMS2gvFbz5zysBVivKQXiCAyGLmdhIMzkrV7rk3SMrZczJkJnnlN3T3zxd23xpiDrEz1Ppvupq_1YZBg=w2948-h2219-s-no-gm?authuser=0",
     description: "Sentinelle sauvage dressée sur le littoral occidental du Cap Corse entre Patrimonio et Nonza, Farinole déploie une côte rocheuse tourmentée où la rudesse du schiste vert et des falaises plonge directement dans les flots turquoise de la Méditerranée. Témoin privilégié de l'histoire maritime insulaire, la tour génoise ronde bâtie en 1562 veille sur les anses marines et les déferlantes qui viennent fouetter les galets polis et le sable ocre du rivage. Le sentier des douaniers qui serpente à fleur de crête et en corniche offre une immersion totale dans les parfums entêtants de myrte, d'immortelle et de lentisque courbés par les embruns marins. Les contrastes chromatiques y sont d'une intensité saisissante, mêlant le bleu profond du grand large, la verdure argentée du maquis littoral et les nuances sombres des affleurements rocheux balayés par le vent d'ouest. Cet écrin naturel remarquablement préservé incarne la beauté brute et indomptée des marines corses, où chaque crique isolée murmure les récits séculaires des guetteurs d'autrefois.",
     visiter: "L'itinéraire pédestre s'aborde idéalement depuis la marine de Farinole ou les abords de la tour génoise pour longer les reliefs découpés surplombant les criques secrètes et les platiers rocheux du rivage. La marche en balcon dévoile des perspectives grandioses sur le golfe de Saint-Florent et les crêtes montagneuses du Nebbio se détachant à l'horizon. Les amateurs d'exploration marine trouveront dans les eaux cristallines bordant les récifs un terrain de jeu exceptionnel pour le snorkeling et la plongée, révélant une vie sous-marine foisonnante tapie entre tombants de roche et herbiers de posidonie. Les plages de sable et de galets invitent à des haltes de baignade vivifiantes dans une atmosphère paisible loin des fortes affluences. En fin de journée, l'exposition plein ouest transforme le littoral en un théâtre flamboyant où le soleil couchant embrase les tours côtières et la mer, offrant aux promeneurs une halte contemplative inoubliable au cœur du Cap Corse sauvage.",
@@ -1382,12 +2224,12 @@ const travelSpots = [
   {
     id: "chateau_de_chambord",
     name: "Château de Chambord",
-    region: "Centre-Val de Loire (Loir-et-Cher)",
     country: "France",
     continent: "Europe",
     flag: "🇫🇷",
-    subdiv: "Loir-et-Cher",
     region_admin: "Centre-Val de Loire",
+    department: "Loir-et-Cher (41)",
+    subdiv: "Chambord",
     altitude: 83,
     is_island: false,
     transport: "route",
@@ -1395,7 +2237,6 @@ const travelSpots = [
     era_label: "Époque Moderne & Renaissance (XVIe siècle - 1519)",
     century: "XVIe siècle",
     category: "chateau",
-    counts: { chateau: 1, unesco: 1 },
     lat: 47.6162,
     lng: 1.5177,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM7mR674pInWi3CIFiACN_huSA7_QS14yjUxkwPE-hba4tXIFqjuJXp-clNqLgFhDyqtpdAJGQcvX4fp1Bv_mklfoTgZ7zTA5RnJ-b6Hx04kD3lUoFJmu9sIs3b92tRaAzRozLVagaHPnM5dK0jX0mcjA=w3092-h1739-s-no-gm?authuser=0",
@@ -1406,12 +2247,12 @@ const travelSpots = [
   {
     id: "dolmen_pierre_levee_chapelle_vendomoise",
     name: "La Chapelle-Vendômoise - Dolmen de la Pierre Levée",
-    region: "Centre-Val de Loire (Loir-et-Cher)",
     country: "France",
     continent: "Europe",
     flag: "🇫🇷",
-    subdiv: "Loir-et-Cher",
     region_admin: "Centre-Val de Loire",
+    department: "Loir-et-Cher (41)",
+    subdiv: "La Chapelle-Vendômoise",
     altitude: 115,
     is_island: false,
     transport: "route",
@@ -1419,7 +2260,6 @@ const travelSpots = [
     era_label: "Époque Néolithique (Mégalithisme Ancien)",
     century: "Néolithique",
     category: "megalithe",
-    counts: { megalithe: 1 },
     lat: 47.6611,
     lng: 1.2581,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPucLqNqBUoCHQVv2L_9I8AKGBBseXz8Ao7zkMSQJaHPtLOJXI2OINDZc7dhWLiw6rQfkomEWvPiOvaZ3MLd36PSK6ntTxBa5Oy_oa9X_23DxLhbN7zVjEkGh4-9f54DZmdzM-NyKUt_cFau8vK6fJltA=w2412-h1607-s-no-gm?authuser=0",
@@ -1430,12 +2270,12 @@ const travelSpots = [
   {
     id: "malestroit_eglise_saint_gilles",
     name: "Malestroit - Église Saint-Gilles",
-    region: "Bretagne (Morbihan)",
     country: "France",
     continent: "Europe",
     flag: "🇫🇷",
-    subdiv: "Morbihan",
     region_admin: "Bretagne",
+    department: "Morbihan (56)",
+    subdiv: "Malestroit",
     altitude: 21,
     is_island: false,
     transport: "route",
@@ -1443,7 +2283,6 @@ const travelSpots = [
     era_label: "Époque Médiévale (XIIe - XVIe siècle)",
     century: "Moyen Âge (XIIe siècle)",
     category: "religieux",
-    counts: { religieux: 1, ville: 1 },
     lat: 47.8100,
     lng: -2.3824,
     image: "https://lh3.googleusercontent.com/pw/AP1GczN8DSdTWH6KVBHATJDS9nf3uc55TDucdN9B8iFBsnLVgpzfpoOqPvx3YkfyGAFj-ShPhwdlKmNgPTgXXih1CrqmDsWMp4A6OpiPbdzQtX3lET1dD7lKAhyNPFAEvZZ_UkHjmyg-cb-B1M4Lc_T4uR12WA=w1976-h2635-s-no-gm?authuser=0",
@@ -1454,12 +2293,12 @@ const travelSpots = [
   {
     id: "malestroit_ecluse_canal_nantes_brest",
     name: "Malestroit - Écluse du Canal de Nantes à Brest",
-    region: "Bretagne (Morbihan)",
     country: "France",
     continent: "Europe",
     flag: "🇫🇷",
-    subdiv: "Morbihan",
     region_admin: "Bretagne",
+    department: "Morbihan (56)",
+    subdiv: "Malestroit",
     altitude: 19,
     is_island: false,
     transport: "route",
@@ -1467,7 +2306,6 @@ const travelSpots = [
     era_label: "Époque Contemporaine & Industrielle (XIXe siècle)",
     century: "XIXe siècle",
     category: "pont",
-    counts: {},
     lat: 47.8120,
     lng: -2.3828,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMRq0BVtzKa49cb6RHZPhHvbwR2h4tI57LHD3qR4xOjIMLD9i_HfWgO7wGn7mwsbHdE8NIXnvmemF0Z1nHibrciURpYdEQtH5FwVTx0Veug6_YlGMpACkPI1A0qfIlYknKOU14LR7yq5QjGTpS8D39NOg=w2412-h1809-s-no-gm?authuser=0",
@@ -1478,12 +2316,12 @@ const travelSpots = [
   {
     id: "port_navalo_promontoire",
     name: "Arzon - Promontoire de Port Navalo",
-    region: "Bretagne (Morbihan)",
     country: "France",
     continent: "Europe",
     flag: "🇫🇷",
-    subdiv: "Morbihan",
     region_admin: "Bretagne",
+    department: "Morbihan (56)",
+    subdiv: "Arzon",
     altitude: 15,
     is_island: false,
     transport: "route",
@@ -1491,23 +2329,22 @@ const travelSpots = [
     era_label: "Époque Contemporaine & Littorale",
     century: "XXe siècle",
     category: "",
-    counts: {},
-    lat: 47.5502,
-    lng: -2.9154,
+    lat: 47.5483,
+    lng: -2.9191,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPpn3mcbR_cefuqRbq7u0gfKmaYd3BYCwmfwpWzA_qZfaRV1Xkq2B7_4yJoS4L6423l8B4N6Nm8L5yXDn3FIXHb0GiijFzHAbLeEPd1liLDJFrW3wY6-dRUes7GZQnz9KExWmFPMoei6F0mA9LDuuZOHg=w2506-h1879-s-no-gm?authuser=0",
     description: "Avancée rocheuse spectaculaire marquant la pointe occidentale de la presqu'île de Rhuys, le promontoire de Port Navalo veille tel un gardien de pierre à l'embouchure du golfe du Morbihan, là où les eaux tumultueuses de l'océan Atlantique viennent se heurter aux courants intérieurs de la petite mer. Site naturel d'une beauté saisissante façonné par les vents et les marées parmi les plus puissantes d'Europe, ce promontoire offre un panorama grandiose sur l'entrée du golfe, le phare historique, les îles de Houat et Hoedic au large, ainsi que sur le ballet incessant des voiliers et des navires reliant les îles d'un archipel légendaire. Fréquenté depuis la nuit des temps par les marins et les navigateurs redoutant la violence de ses remous, le site allie la rudesse de son cordon granitique littoral à la douceur iodée des paysages bretons du Morbihan.",
-    visiter: "La découverte s'amorce par les sentiers côtiers aménagés le long des falaises dominant les courants marins, permettant d'observer les remous spectaculaires de la marée montante ou descendante. En contournant la pointe vers le sémaphore et le vieux port, le visiteur profite d'une vue à trois cent soixante degrés idéale pour admirer les couchers de soleil flamboyants sur l'océan. C'est l'étape parfaite pour respirer l'air du large et s'imprégner de l'atmosphère maritime de la presqu'île de Rhuys avant d'embarquer vers les îles.",
+    visiter: "La découverte s'amorce par les sentiers côtiers aménagés le long des falaises dominant les courants marins, permettant d'observer les remous spectaculaires de la marée montante ou descendante. En contournant la pointe vers le sémaphore et le vieux port, le visiteur profite d'une vue à trois cent soignante degrés idéale pour admirer les couchers de soleil flamboyants sur l'océan. C'est l'étape parfaite pour respirer l'air du large et s'imprégner de l'atmosphère maritime de la presqu'île de Rhuys avant d'embarquer vers les îles.",
     link: "https://photos.google.com/share/AF1QipPb2RZUrZYfIddwN_N0UP-fz4jVTYg8fCDgm8Y9JSsv2B5LfXJfa4tlgBswvp_R2Q?key=RlpMbXVDNWdZSTJpYm1QeEFvVm9HOWxLZlVoMUlR"
   },
   {
     id: "cascade_pont_bucatoghju",
     name: "Cascade & Pont génois du Bucatoghju",
-    region: "Haute-Corse (Costa Verde)",
     country: "France",
     continent: "Europe",
     flag: "🇫🇷",
-    subdiv: "Haute-Corse (2B)",
     region_admin: "Corse",
+    department: "Haute-Corse (2B)",
+    subdiv: "San-Nicolao",
     altitude: 240,
     is_island: true,
     island_name: "Corse",
@@ -1516,9 +2353,8 @@ const travelSpots = [
     era_label: "Époque Génoise & Pastorale",
     century: "XVIe siècle",
     category: "cascade",
-    counts: { cascade: 1, rando: 1 },
-    lat: 42.3585,
-    lng: 9.5085,
+    lat: 42.3612,
+    lng: 9.5002,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNrsUFdD0qItTqvLjxxr-mtuoXqc_8g4crUQGLnmXt7hAUfoVXrp-MdsOEQqj1TAC2WXu7VRHUZcXHMeABVJCzEhGLZ2wkeEqlo_wOL4I090xq9ikLGa--M3Z1LEGHRUxZvJnsbTOdxr05oRY8RTgdseg=w2441-h1627-s-no-gm?authuser=0",
     description: "Niché sur les contreforts orientaux de la Castagniccia au cœur de la verdoyante région de la Costa Verde, le site du Bucatoghju dévoile une harmonie saisissante entre patrimoine d'ingénierie historique et nature insulaire préservée. Encaissé dans une gorge sauvage entre Santa-Maria-Poggio et San-Nicolao, le torrent bondissant du Bucatoghju se fraie un passage impétueux à travers les parois de schiste pour donner naissance à une succession de cascades impétueuses et de vasques cristallines aux reflets émeraude. Fièrement campé au-dessus des eaux vives depuis des siècles, le remarquable pont génois à arche unique en pierres sèches témoigne de l'antique voie de communication pastorale qui reliait jadis les communautés villageoises perchées aux plaines fertiles de la côte tyrrhénienne. Entouré d'une dense châtaigneraie, d'aulnes ombragés et d'un maquis odorant qui embaume l'air humide des sous-bois, cet écrin de fraîcheur offre un contraste saisissant avec la douceur du littoral marin tout proche, invitant à une parenthèse enchantée au son apaisant du ruissellement continu de la rivière.",
     visiter: "La découverte de ce site emblématique s'articule autour d'un agréable itinéraire pédestre ombragé et très accessible, cheminant au fil de l'eau entre ponts de pierre et berges moussues. Le parcours franchit le pont génois du Bucatoghju avant de remonter le long du lit du cours d'eau pour atteindre les piscines naturelles propices à des haltes de baignade vivifiantes durant la période estivale. Les randonneurs plus aguerris pourront poursuivre la marche en boucle pour découvrir les vestiges du hameau en ruine de Raghja, la chapelle Saint-Pancrace ou monter vers les tunnels de la corniche découvrant la célèbre cascade de l'Ucelluline et ses panoramas spectaculaires plongeant directement vers la mer Tyrrhénienne. Des passages aménagés sur des rondins et des galets ponctuent la progression au cœur d'une végétation luxuriante où la lumière filtre délicatement à travers les frondaisons. Cette balade constitue une immersion idéale pour les familles comme pour les passionnés d'histoire corse désireux d'associer fraîcheur montagnarde et découverte patrimoniale.",
@@ -1527,12 +2363,12 @@ const travelSpots = [
   {
     id: "giverny_maison_monet",
     name: "Giverny & Maison de Claude Monet",
-    region: "Normandie (Eure)",
     country: "France",
     continent: "Europe",
     flag: "🇫🇷",
-    subdiv: "Eure (27)",
     region_admin: "Normandie",
+    department: "Eure (27)",
+    subdiv: "Giverny",
     altitude: 22,
     is_island: false,
     transport: "avion",
@@ -1540,7 +2376,6 @@ const travelSpots = [
     era_label: "Époque Impressionniste (1883)",
     century: "XIXe siècle",
     category: "ville",
-    counts: { ville: 1 },
     lat: 49.0753,
     lng: 1.5337,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNzF8a6tNABa-f5GaaYsOwVKQNRnGJWizJSr0pAzoBSI0Q4TvXI1pqtPLD9rBhsU98gYbPid5H40jhwo_u62N8-XTqM007sOoYIyg07iepWzLIVHBfAXnK5WY-4WNPfkOaeaasy_VOtA-ft3E7TlDpvVw=w2441-h1627-s-no-gm?authuser=0",
@@ -1553,7 +2388,6 @@ const travelSpots = [
 // Dictionnaire officiel des filtres : Culture et Nature (avec l'item Île)
 const CATEGORIES = {
   tous: { label: "Tous les POI", icon: "fa-star", color: "#f59e0b", section: "culture", active: true },
-  ville: { label: "Ville / Village", icon: "fa-city", color: "#b45309", section: "culture", active: true },
   musee: { label: "Musée", icon: "fa-landmark", color: "#a16207", section: "culture", active: true },
   religieux: { label: "Édifice religieux", icon: "fa-church", color: "#854d0e", section: "culture", active: true },
   chateau: { label: "Château / Palais", icon: "fa-chess-rook", color: "#713f12", section: "culture", active: true },
@@ -1800,19 +2634,24 @@ function renderCountriesDropdown() {
       countryMap.set(country, {
         name: country,
         flag: s.flag || "📍",
-        count: 0,
-        spots: []
+        spots: [],
+        villes: new Set()
       });
     }
     const entry = countryMap.get(country);
-    entry.count++;
     entry.spots.push(s);
+    if (s.subdiv) {
+      entry.villes.add(s.subdiv);
+    }
   });
 
   const sortedCountries = Array.from(countryMap.values()).sort((a, b) => a.name.localeCompare(b.name, 'fr'));
   if (badge) badge.innerText = `${sortedCountries.length} explorés`;
 
   sortedCountries.forEach(c => {
+    const nbVilles = c.villes.size;
+    const nbSites = c.spots.length;
+
     const row = document.createElement('div');
     row.className = 'flex items-center justify-between p-1.5 rounded-xl bg-indigo-950/40 hover:bg-indigo-900/60 border border-indigo-500/20 hover:border-indigo-400/50 cursor-pointer transition select-none group';
     row.innerHTML = `
@@ -1821,7 +2660,7 @@ function renderCountriesDropdown() {
         <span class="text-xs font-semibold text-indigo-100 group-hover:text-white truncate">${c.name}</span>
       </div>
       <span class="font-mono text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-indigo-900/70 border border-indigo-500/40 text-indigo-300 shrink-0">
-        ${c.count} ${c.count > 1 ? 'sites' : 'site'}
+        ${nbVilles} ville${nbVilles > 1 ? 's' : ''} · ${nbSites} site${nbSites > 1 ? 's' : ''}
       </span>
     `;
     row.onclick = (e) => {
@@ -1970,34 +2809,270 @@ function initAdvancedFilterOptions() {
   });
 }
 
+// =========================================================================
+// MOTEUR DE RECHERCHE PYRAMIDAL EN CASCADE (Pays > Région > Dép > Commune)
+// =========================================================================
+
+// Liste officielle et ordonnée de la chronologie du carnet
+const ORDERED_CENTURY_GROUPS = [
+  "Préhistoire",
+  "Antiquité (avant J.-C.)",
+  "Antiquité classique & Romaine (Ier - IVe s.)",
+  "Ve siècle",
+  "VIe siècle",
+  "VIIe siècle",
+  "VIIIe siècle",
+  "IXe siècle",
+  "Xe siècle",
+  "XIe siècle",
+  "XIIe siècle",
+  "XIIIe siècle",
+  "XIVe siècle",
+  "XVe siècle",
+  "XVIe siècle",
+  "XVIIe siècle",
+  "XVIIIe siècle",
+  "XIXe siècle",
+  "XXe siècle",
+  "XXIe siècle"
+];
+
+// Identifie rigoureusement à quelle(s) période(s) officielle(s) appartient un site
+function getSpotCenturyMatches(spot) {
+  const c = (spot.century || '').toLowerCase().trim();
+  const matched = new Set();
+
+  if (!c) return [];
+
+  // 1. Préhistoire (uniquement l'activité humaine préhistorique et mégalithique)
+  if (c.includes('préhist') || c.includes('mégalith') || c.includes('néolith') || c.includes('paléolith') || c.includes('âge du bronze') || c.includes('millénaire')) {
+    matched.add("Préhistoire");
+  }
+
+  // 2. Antiquité avant notre ère (AVANT J.-C.)
+  const isBeforeChrist = c.includes('av. j.-c.') || c.includes('av. jc') || c.includes('av.') || /-\s*\d+/.test(c) || c.includes('pharaon') || c.includes('ptolém');
+  if (isBeforeChrist) {
+    matched.add("Antiquité (avant J.-C.)");
+  }
+
+  // 3. Ier au IVe siècle de notre ère (après J.-C.)
+  if (!isBeforeChrist) {
+    if (/\b(i|ii|iii|iv|1|2|3|4)(er|e)?\s+siècle/i.test(c) || c.includes('romain') || c.includes('antiquité tardive')) {
+      matched.add("Antiquité classique & Romaine (Ier - IVe s.)");
+    }
+  }
+
+  // 4. Siècles du Ve au XXIe siècle (STRICTEMENT APRÈS J.-C.)
+  // Si le texte mentionne "av. J.-C.", on INTERDIT le classement dans ces siècles modernes/médiévaux
+  if (!isBeforeChrist) {
+    const romanMap = [
+      { label: "Ve siècle", regex: /\b(v|5)(e)?\s+siècle/i },
+      { label: "VIe siècle", regex: /\b(vi|6)(e)?\s+siècle/i },
+      { label: "VIIe siècle", regex: /\b(vii|7)(e)?\s+siècle/i },
+      { label: "VIIIe siècle", regex: /\b(viii|8)(e)?\s+siècle/i },
+      { label: "IXe siècle", regex: /\b(ix|9)(e)?\s+siècle/i },
+      { label: "Xe siècle", regex: /\b(x|10)(e)?\s+siècle/i },
+      { label: "XIe siècle", regex: /\b(xi|11)(e)?\s+siècle/i },
+      { label: "XIIe siècle", regex: /\b(xii|12)(e)?\s+siècle/i },
+      { label: "XIIIe siècle", regex: /\b(xiii|13)(e)?\s+siècle/i },
+      { label: "XIVe siècle", regex: /\b(xiv|14)(e)?\s+siècle/i },
+      { label: "XVe siècle", regex: /\b(xv|15)(e)?\s+siècle/i },
+      { label: "XVIe siècle", regex: /\b(xvi|16)(e)?\s+siècle/i },
+      { label: "XVIIe siècle", regex: /\b(xvii|17)(e)?\s+siècle/i },
+      { label: "XVIIIe siècle", regex: /\b(xviii|18)(e)?\s+siècle/i },
+      { label: "XIXe siècle", regex: /\b(xix|19)(e)?\s+siècle/i },
+      { label: "XXe siècle", regex: /\b(xx|20)(e)?\s+siècle/i },
+      { label: "XXIe siècle", regex: /\b(xxi|21)(e)?\s+siècle/i }
+    ];
+
+    romanMap.forEach(r => {
+      if (r.regex.test(c)) {
+        matched.add(r.label);
+      }
+    });
+  }
+
+  return Array.from(matched);
+}
+
+function spotMatchesCentury(spot, chosenGroup) {
+  if (!chosenGroup || chosenGroup === 'all') return true;
+  const matches = getSpotCenturyMatches(spot);
+  return matches.includes(chosenGroup);
+}
+function initAdvancedFiltersCascade() {
+  const countrySel = document.getElementById('adv-filter-country');
+  const regionSel = document.getElementById('adv-filter-region');
+  const deptSel = document.getElementById('adv-filter-dept');
+  const citySel = document.getElementById('adv-filter-city');
+  const catSel = document.getElementById('adv-filter-category');
+  const islandSel = document.getElementById('adv-filter-island');
+  const centurySel = document.getElementById('adv-filter-century');
+  const unescoCheck = document.getElementById('adv-filter-unesco');
+
+  if (!countrySel) return;
+
+  // 1. Remplir les pays existants dans vos POI
+  const countries = [...new Set(travelSpots.map(s => s.country).filter(Boolean))].sort();
+  countrySel.innerHTML = '<option value="all">Tous les pays</option>' +
+    countries.map(c => `<option value="${c}">${c}</option>`).join('');
+
+  // 2. Remplir les catégories officielles (sans "ville" ni "tous")
+  if (catSel) {
+    const catKeys = Object.keys(CATEGORIES).filter(k => k !== 'tous' && k !== 'ville');
+    catSel.innerHTML = '<option value="all">Toutes les catégories</option>' +
+      catKeys.map(k => `<option value="${k}">${CATEGORIES[k].label || k}</option>`).join('');
+  }
+
+  // 3. Remplir les îles
+  if (islandSel) {
+    const islands = [...new Set(travelSpots.filter(s => s.is_island).map(s => s.island_name).filter(Boolean))].sort();
+    islandSel.innerHTML = '<option value="all">Toutes les îles</option>' +
+      islands.map(i => `<option value="${i}">${i}</option>`).join('');
+  }
+
+  // 4. Remplir la liste officielle des époques et siècles (Ve au XXIe)
+  if (centurySel) {
+    centurySel.innerHTML = '<option value="all">Tous les siècles / époques</option>' +
+      ORDERED_CENTURY_GROUPS.map(g => `<option value="${g}">${g}</option>`).join('');
+  }
+  // 5. Écouteurs de changement en cascade
+  countrySel.onchange = () => {
+    updateCascadeRegions();
+    runAdvancedFilter();
+  };
+
+  if (regionSel) {
+    regionSel.onchange = () => {
+      updateCascadeDepts();
+      runAdvancedFilter();
+    };
+  }
+
+  if (deptSel) {
+    deptSel.onchange = () => {
+      updateCascadeCities();
+      runAdvancedFilter();
+    };
+  }
+
+  if (citySel) citySel.onchange = () => runAdvancedFilter();
+  if (catSel) catSel.onchange = () => runAdvancedFilter();
+  if (centurySel) centurySel.onchange = () => runAdvancedFilter();
+  if (islandSel) islandSel.onchange = () => runAdvancedFilter();
+  if (unescoCheck) unescoCheck.onchange = () => runAdvancedFilter();
+}
+
+function updateCascadeRegions() {
+  const country = document.getElementById('adv-filter-country')?.value;
+  const regionSel = document.getElementById('adv-filter-region');
+
+  if (!regionSel) return;
+
+  if (!country || country === 'all') {
+    regionSel.innerHTML = '<option value="all">Toutes les régions</option>';
+    regionSel.disabled = true;
+  } else {
+    const spots = travelSpots.filter(s => s.country === country);
+    const regions = [...new Set(spots.map(s => s.region_admin || s.region).filter(Boolean))].sort();
+    regionSel.innerHTML = '<option value="all">Toutes les régions</option>' +
+      regions.map(r => `<option value="${r}">${r}</option>`).join('');
+    regionSel.disabled = regions.length === 0;
+  }
+
+  updateCascadeDepts();
+}
+
+function updateCascadeDepts() {
+  const country = document.getElementById('adv-filter-country')?.value;
+  const region = document.getElementById('adv-filter-region')?.value;
+  const deptSel = document.getElementById('adv-filter-dept');
+
+  if (!deptSel) return;
+
+  if (!country || country === 'all' || !region || region === 'all') {
+    deptSel.innerHTML = '<option value="all">Tous départements</option>';
+    deptSel.disabled = true;
+  } else {
+    const spots = travelSpots.filter(s => s.country === country && (s.region_admin === region || s.region === region));
+    const depts = [...new Set(spots.map(s => s.department).filter(Boolean))].sort();
+    deptSel.innerHTML = '<option value="all">Tous départements</option>' +
+      depts.map(d => `<option value="${d}">${d}</option>`).join('');
+    deptSel.disabled = depts.length === 0;
+  }
+
+  updateCascadeCities();
+}
+
+function updateCascadeCities() {
+  const country = document.getElementById('adv-filter-country')?.value;
+  const region = document.getElementById('adv-filter-region')?.value;
+  const dept = document.getElementById('adv-filter-dept')?.value;
+  const citySel = document.getElementById('adv-filter-city');
+
+  if (!citySel) return;
+
+  if (!country || country === 'all') {
+    citySel.innerHTML = '<option value="all">Toutes communes</option>';
+    citySel.disabled = true;
+    return;
+  }
+
+  let spots = travelSpots.filter(s => s.country === country);
+  if (region && region !== 'all') {
+    spots = spots.filter(s => s.region_admin === region || s.region === region);
+  }
+  if (dept && dept !== 'all') {
+    spots = spots.filter(s => s.department === dept);
+  }
+
+  const cities = [...new Set(spots.map(s => s.subdiv).filter(Boolean))].sort();
+  citySel.innerHTML = '<option value="all">Toutes communes</option>' +
+    cities.map(c => `<option value="${c}">${c}</option>`).join('');
+  citySel.disabled = cities.length === 0;
+}
+
 function runAdvancedFilter() {
   const countryVal = document.getElementById('adv-filter-country')?.value || 'all';
+  const regionVal = document.getElementById('adv-filter-region')?.value || 'all';
+  const deptVal = document.getElementById('adv-filter-dept')?.value || 'all';
+  const cityVal = document.getElementById('adv-filter-city')?.value || 'all';
   const catVal = document.getElementById('adv-filter-category')?.value || 'all';
   const centuryVal = document.getElementById('adv-filter-century')?.value || 'all';
   const islandVal = document.getElementById('adv-filter-island')?.value || 'all';
   const unescoOnly = document.getElementById('adv-filter-unesco')?.checked || false;
 
   const filtered = travelSpots.filter(s => {
+    // 1. Filtres géographiques en entonnoir
     if (countryVal !== 'all' && s.country !== countryVal) return false;
-    
+    if (regionVal !== 'all' && (s.region_admin !== regionVal && s.region !== regionVal)) return false;
+    if (deptVal !== 'all' && s.department !== deptVal) return false;
+    if (cityVal !== 'all' && s.subdiv !== cityVal) return false;
+
+    // 2. Filtre de catégorie stricte
     if (catVal !== 'all') {
-      if (catVal === 'ile') {
-        if (!s.is_island && (!s.counts || !s.counts.ile)) return false;
-      } else {
-        const hasCount = s.counts && typeof s.counts[catVal] === 'number' && s.counts[catVal] > 0;
-        const isDirectCat = s.category === catVal;
-        if (!hasCount && !isDirectCat) return false;
-      }
+      const isDirect = s.category === catVal;
+      const inCounts = s.counts && typeof s.counts[catVal] === 'number' && s.counts[catVal] > 0;
+      if (!isDirect && !inCounts) return false;
     }
 
+    // 3. Filtre par île
     if (islandVal !== 'all') {
       if (s.island_name !== islandVal) return false;
     }
 
-    if (!spotMatchesCentury(s, centuryVal)) return false;
+    // 4. Siècle / Période
+    if (centuryVal !== 'all') {
+      if (typeof spotMatchesCentury === 'function') {
+        if (!spotMatchesCentury(s, centuryVal)) return false;
+      } else {
+        if (s.century !== centuryVal) return false;
+      }
+    }
 
+    // 5. Patrimoine mondial UNESCO
     if (unescoOnly) {
-      const isUnesco = (s.counts && s.counts.unesco) || s.category === 'unesco';
+      const isUnesco = s.category === 'unesco' || (s.counts && s.counts.unesco > 0);
       if (!isUnesco) return false;
     }
 
@@ -2012,7 +3087,7 @@ function runAdvancedFilter() {
   listEl.innerHTML = '';
   if (filtered.length === 0) {
     listEl.innerHTML = `
-      <div class="p-3 text-center text-[10px] text-slate-400 bg-slate-900/50 rounded-xl">
+      <div class="p-3 text-center text-[10px] text-slate-400 bg-slate-900/50 rounded-xl border border-slate-800">
         Aucun site ne correspond à cette combinaison de critères.
       </div>
     `;
@@ -2022,13 +3097,16 @@ function runAdvancedFilter() {
   filtered.forEach(spot => {
     const item = document.createElement('div');
     item.className = 'flex items-center justify-between p-2 rounded-xl bg-slate-900/70 hover:bg-slate-800 border border-slate-800 hover:border-cyan-500/40 cursor-pointer transition select-none group';
-    const islandBadge = spot.is_island ? `<span class="px-1 py-0.2 rounded text-[8px] bg-cyan-950 border border-cyan-500/40 text-cyan-300 font-bold ml-1">🏝️ ${spot.island_name}</span>` : '';
+    
+    const islandBadge = spot.is_island ? `<span class="px-1 py-0.2 rounded text-[8px] bg-cyan-950 border border-cyan-500/40 text-cyan-300 font-bold ml-1">🏝️ ${spot.island_name || ''}</span>` : '';
+    const locBreadcrumb = [spot.subdiv, spot.department, spot.country].filter(Boolean).join(' · ');
+
     item.innerHTML = `
       <div class="flex items-center gap-2 min-w-0 pr-1">
         <span class="text-sm shrink-0 group-hover:scale-110 transition-transform">${spot.flag || '📍'}</span>
         <div class="min-w-0">
           <div class="text-[11px] font-bold text-white truncate flex items-center">${spot.name} ${islandBadge}</div>
-          <div class="text-[9px] text-cyan-400 truncate">${spot.country} · ${spot.century || spot.era_group || ''}</div>
+          <div class="text-[9px] text-cyan-400 truncate">${locBreadcrumb} · ${spot.century || spot.era_group || ''}</div>
         </div>
       </div>
       <i class="fa-solid fa-chevron-right text-[10px] text-slate-500 group-hover:text-cyan-300 transition-colors shrink-0"></i>
@@ -2047,11 +3125,14 @@ function resetAdvancedFilters() {
   const t = document.getElementById('adv-filter-century');
   const isl = document.getElementById('adv-filter-island');
   const u = document.getElementById('adv-filter-unesco');
+
   if (c) c.value = 'all';
   if (k) k.value = 'all';
   if (t) t.value = 'all';
   if (isl) isl.value = 'all';
   if (u) u.checked = false;
+
+  updateCascadeRegions();
   runAdvancedFilter();
 }
 
@@ -2338,6 +3419,7 @@ function handleQuickSearch(query) {
 
   const matches = travelSpots.filter(s => {
     return s.name.toLowerCase().includes(q) ||
+           (s.region_admin && s.region_admin.toLowerCase().includes(q)) ||
            (s.region && s.region.toLowerCase().includes(q)) ||
            s.country.toLowerCase().includes(q) ||
            (s.description && s.description.toLowerCase().includes(q));
@@ -2358,7 +3440,7 @@ function handleQuickSearch(query) {
         <span class="text-sm shrink-0">${spot.flag || '📍'}</span>
         <div class="min-w-0 flex-1">
           <div class="text-xs font-semibold text-white truncate">${spot.name}</div>
-          <div class="text-[9px] text-cyan-400 truncate">${spot.country} · ${spot.region || ''}</div>
+          <div class="text-[9px] text-cyan-400 truncate">${spot.country} · ${spot.region_admin || spot.region || ''}</div>
         </div>
         <i class="fa-solid fa-arrow-right text-[10px] text-slate-500 mr-1"></i>
       `;
@@ -2821,7 +3903,8 @@ function selectSpot(spot) {
   }
 
   flagEl.innerText = spot.flag || '📍';
-  regionEl.innerText = `${spot.country} · ${spot.region || 'Région non spécifiée'}`;
+  const geoBreadcrumb = [spot.country, spot.region_admin || spot.region, spot.department, spot.subdiv].filter(Boolean).join(' · ');
+  regionEl.innerText = geoBreadcrumb || spot.country;
   img.src = spot.image;
   tagsContainer.innerHTML = '';
 
@@ -3074,9 +4157,7 @@ function renderUnifiedCategoryList() {
       tooltipText = ` title="Îles explorées (${count}) : ${Array.from(uniqueIslands).join(', ')}"`;
     } else {
       travelSpots.forEach(s => {
-        if (s.counts && typeof s.counts[key] === 'number') {
-          count += s.counts[key];
-        } else if (s.category === key) {
+        if (s.category === key) {
           count += 1;
         }
       });
@@ -3194,5 +4275,7 @@ window.onload = function () {
   initGlobe();
   renderUnifiedCategoryList();
   updateStats();
+  initAdvancedFiltersCascade();
+  runAdvancedFilter();
   setTimeout(onWindowResize, 200);
 };
