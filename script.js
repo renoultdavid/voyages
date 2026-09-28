@@ -2408,7 +2408,6 @@ const travelSpots = [
 // Dictionnaire officiel des filtres : Culture et Nature (avec l'item Île)
 const CATEGORIES = {
   tous: { label: "Tous les POI", icon: "fa-star", color: "#f59e0b", section: "culture", active: true },
-  ville: { label: "Ville / Village", icon: "fa-city", color: "#b45309", section: "culture", active: true },
   musee: { label: "Musée", icon: "fa-landmark", color: "#a16207", section: "culture", active: true },
   religieux: { label: "Édifice religieux", icon: "fa-church", color: "#854d0e", section: "culture", active: true },
   chateau: { label: "Château / Palais", icon: "fa-chess-rook", color: "#713f12", section: "culture", active: true },
