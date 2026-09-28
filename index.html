@@ -262,87 +262,99 @@
     </div>
   </div>
 
-  <!-- MODAL 3 : FILTRE POUSSÉ MULTI-CRITÈRES (AVEC CASCADE GÉOGRAPHIQUE PYRAMIDALE) -->
-  <div id="modal-advanced" class="glass-panel-indigo absolute top-16 right-3 sm:right-16 z-50 w-80 sm:w-96 rounded-2xl p-3.5 shadow-2xl hidden border border-cyan-500/50">
-    <div class="flex items-center justify-between pb-2 mb-2.5 border-b border-cyan-500/30">
-      <div class="flex items-center gap-1.5 text-cyan-200 text-xs font-bold uppercase tracking-wider">
+  <!-- MODAL 3 : FILTRE POUSSÉ MULTI-CRITÈRES PANORAMIQUE & MOSAÏQUE -->
+  <div id="modal-advanced" class="glass-panel-indigo absolute top-16 left-3 sm:left-56 right-3 sm:right-6 z-50 rounded-2xl p-4 shadow-2xl hidden border border-cyan-500/50 max-h-[calc(100vh-5rem)] flex flex-col">
+    <!-- En-tête de la modale -->
+    <div class="flex items-center justify-between pb-2 mb-3 border-b border-cyan-500/30 shrink-0">
+      <div class="flex items-center gap-2 text-cyan-200 text-xs sm:text-sm font-bold uppercase tracking-wider">
         <i class="fa-solid fa-sliders text-cyan-400"></i>
-        <span>Filtre Poussé Multi-Critères</span>
+        <span>Moteur de Recherche & Galerie Visuelle</span>
       </div>
-      <button onclick="closeAllPopups()" class="text-slate-400 hover:text-white text-xs">
+      <button onclick="closeAllPopups()" class="text-slate-400 hover:text-white text-sm p-1">
         <i class="fa-solid fa-xmark"></i>
       </button>
     </div>
-    
-    <div class="space-y-2.5 text-xs">
-      <!-- 1. CASCADE GÉOGRAPHIQUE (4 NIVEAUX) -->
-      <div class="grid grid-cols-2 gap-2 bg-slate-950/40 p-2 rounded-xl border border-slate-800/80">
+
+    <!-- 1. Bloc des filtres (compact et horizontalisé) -->
+    <div class="space-y-2 text-xs shrink-0 mb-3 bg-slate-950/40 p-2.5 rounded-xl border border-slate-800/80">
+      <!-- Ligne 1 : Cascade géographique -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
         <div>
           <label class="block text-[9px] font-bold uppercase text-slate-400 mb-1">🌍 Pays</label>
-          <select id="adv-filter-country" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[11px] text-white focus:outline-none focus:border-cyan-400">
+          <select id="adv-filter-country" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1.5 text-[11px] text-white focus:outline-none focus:border-cyan-400">
             <option value="all">Tous les pays</option>
           </select>
         </div>
         <div>
           <label class="block text-[9px] font-bold uppercase text-slate-400 mb-1">🏛️ Région</label>
-          <select id="adv-filter-region" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[11px] text-white focus:outline-none focus:border-cyan-400" disabled>
+          <select id="adv-filter-region" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1.5 text-[11px] text-white focus:outline-none focus:border-cyan-400" disabled>
             <option value="all">Toutes les régions</option>
           </select>
         </div>
         <div>
           <label class="block text-[9px] font-bold uppercase text-slate-400 mb-1">📍 Département / Zone</label>
-          <select id="adv-filter-dept" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[11px] text-white focus:outline-none focus:border-cyan-400" disabled>
+          <select id="adv-filter-dept" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1.5 text-[11px] text-white focus:outline-none focus:border-cyan-400" disabled>
             <option value="all">Tous départements</option>
           </select>
         </div>
         <div>
           <label class="block text-[9px] font-bold uppercase text-slate-400 mb-1">🏘️ Commune / Ville</label>
-          <select id="adv-filter-city" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[11px] text-white focus:outline-none focus:border-cyan-400" disabled>
+          <select id="adv-filter-city" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1.5 text-[11px] text-white focus:outline-none focus:border-cyan-400" disabled>
             <option value="all">Toutes communes</option>
           </select>
         </div>
       </div>
 
-      <!-- 2. FILTRES THÉMATIQUES (CATÉGORIE, SIÈCLE, ÎLE) -->
-      <div class="grid grid-cols-2 gap-2">
+      <!-- Ligne 2 : Filtres thématiques & options -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-2 pt-1 border-t border-slate-800/60 items-end">
         <div>
           <label class="block text-[9px] font-bold uppercase text-slate-400 mb-1">🏷️ Catégorie</label>
-          <select id="adv-filter-category" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[11px] text-white focus:outline-none focus:border-cyan-400">
+          <select id="adv-filter-category" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1.5 text-[11px] text-white focus:outline-none focus:border-cyan-400">
             <option value="all">Toutes catégories</option>
           </select>
         </div>
         <div>
           <label class="block text-[9px] font-bold uppercase text-slate-400 mb-1">⏳ Siècle / Époque</label>
-          <select id="adv-filter-century" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[11px] text-white focus:outline-none focus:border-cyan-400">
+          <select id="adv-filter-century" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1.5 text-[11px] text-white focus:outline-none focus:border-cyan-400">
             <option value="all">Tous les siècles</option>
           </select>
         </div>
-        <div class="col-span-2">
+        <div>
           <label class="block text-[9px] font-bold uppercase text-slate-400 mb-1">🏝️ Île spécifique</label>
-          <select id="adv-filter-island" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[11px] text-white focus:outline-none focus:border-cyan-400">
+          <select id="adv-filter-island" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1.5 text-[11px] text-white focus:outline-none focus:border-cyan-400">
             <option value="all">Toutes les îles</option>
           </select>
         </div>
-      </div>
-
-      <!-- 3. OPTIONS ET RÉINITIALISATION -->
-      <div class="flex items-center justify-between pt-1">
-        <label class="flex items-center gap-1.5 cursor-pointer select-none">
-          <input type="checkbox" id="adv-filter-unesco" class="w-3.5 h-3.5 rounded text-cyan-500 bg-slate-900 border-slate-700 focus:ring-0 cursor-pointer">
-          <span class="text-[10px] font-bold text-amber-300">🏛️ Trésors UNESCO seul</span>
-        </label>
-        <button onclick="resetAdvancedFilters()" class="text-slate-400 hover:text-cyan-300 underline font-semibold text-[9px]">
-          Réinitialiser
-        </button>
-      </div>
-
-      <!-- 4. COMPTEUR ET LISTE DÉROULANTE DES RÉSULTATS -->
-      <div class="flex items-center justify-between pt-1 border-t border-slate-800 text-[10px]">
-        <div class="text-slate-300">
-          Résultats : <span id="adv-results-count" class="font-bold text-cyan-300 font-mono">0</span> site(s)
+        <div class="flex items-center justify-between pb-1 px-1">
+          <label class="flex items-center gap-1.5 cursor-pointer select-none">
+            <input type="checkbox" id="adv-filter-unesco" class="w-3.5 h-3.5 rounded text-cyan-500 bg-slate-900 border-slate-700 focus:ring-0 cursor-pointer">
+            <span class="text-[10px] font-bold text-amber-300">🏛️ UNESCO</span>
+          </label>
+          <button onclick="resetAdvancedFilters()" class="text-slate-400 hover:text-cyan-300 underline font-semibold text-[10px]">
+            Réinitialiser
+          </button>
         </div>
       </div>
-      <div id="adv-results-list" class="space-y-1 max-h-52 overflow-y-auto custom-scrollbar-indigo pr-1"></div>
+    </div>
+
+    <!-- Barre d'état des résultats & Bascule Vue Liste / Mosaïque -->
+    <div class="flex items-center justify-between pb-2 border-b border-slate-800 text-xs shrink-0">
+      <div class="text-slate-300 font-medium">
+        Résultats trouvés : <span id="adv-results-count" class="font-bold text-cyan-300 font-mono text-sm">0</span> site(s)
+      </div>
+      <div class="flex items-center gap-1 bg-slate-900/90 p-1 rounded-xl border border-slate-800">
+        <button id="adv-view-grid-btn" onclick="setAdvancedViewMode('grid')" class="px-2.5 py-1 rounded-lg text-xs font-bold transition bg-cyan-500 text-white shadow" title="Vue Mosaïque d'images (par défaut)">
+          <i class="fa-solid fa-grip mr-1"></i> Mosaïque
+        </button>
+        <button id="adv-view-list-btn" onclick="setAdvancedViewMode('list')" class="px-2.5 py-1 rounded-lg text-xs font-bold transition text-slate-400 hover:text-white" title="Vue Liste compacte">
+          <i class="fa-solid fa-list mr-1"></i> Liste
+        </button>
+      </div>
+    </div>
+
+    <!-- 2. Zone d'affichage des résultats (avec ascenseur vertical fluide) -->
+    <div id="adv-results-container" class="flex-1 overflow-y-auto custom-scrollbar-indigo pt-3 pr-1">
+      <div id="adv-results-list"></div>
     </div>
   </div>
 
