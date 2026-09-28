@@ -2800,34 +2800,185 @@ function initAdvancedFilterOptions() {
   });
 }
 
+// =========================================================================
+// MOTEUR DE RECHERCHE PYRAMIDAL EN CASCADE (Pays > Région > Dép > Commune)
+// =========================================================================
+
+function initAdvancedFiltersCascade() {
+  const countrySel = document.getElementById('adv-filter-country');
+  const regionSel = document.getElementById('adv-filter-region');
+  const deptSel = document.getElementById('adv-filter-dept');
+  const citySel = document.getElementById('adv-filter-city');
+  const catSel = document.getElementById('adv-filter-category');
+  const islandSel = document.getElementById('adv-filter-island');
+  const centurySel = document.getElementById('adv-filter-century');
+  const unescoCheck = document.getElementById('adv-filter-unesco');
+
+  if (!countrySel) return;
+
+  // 1. Remplir les pays existants dans vos POI
+  const countries = [...new Set(travelSpots.map(s => s.country).filter(Boolean))].sort();
+  countrySel.innerHTML = '<option value="all">Tous les pays</option>' +
+    countries.map(c => `<option value="${c}">${c}</option>`).join('');
+
+  // 2. Remplir les catégories officielles (sans "ville" ni "tous")
+  if (catSel) {
+    const catKeys = Object.keys(CATEGORIES).filter(k => k !== 'tous' && k !== 'ville');
+    catSel.innerHTML = '<option value="all">Toutes les catégories</option>' +
+      catKeys.map(k => `<option value="${k}">${CATEGORIES[k].label || k}</option>`).join('');
+  }
+
+  // 3. Remplir les îles
+  if (islandSel) {
+    const islands = [...new Set(travelSpots.filter(s => s.is_island).map(s => s.island_name).filter(Boolean))].sort();
+    islandSel.innerHTML = '<option value="all">Toutes les îles</option>' +
+      islands.map(i => `<option value="${i}">${i}</option>`).join('');
+  }
+
+  // 4. Remplir les siècles / époques
+  if (centurySel) {
+    const centuries = [...new Set(travelSpots.map(s => s.century).filter(Boolean))].sort();
+    centurySel.innerHTML = '<option value="all">Tous les siècles</option>' +
+      centuries.map(c => `<option value="${c}">${c}</option>`).join('');
+  }
+
+  // 5. Écouteurs de changement en cascade
+  countrySel.onchange = () => {
+    updateCascadeRegions();
+    runAdvancedFilter();
+  };
+
+  if (regionSel) {
+    regionSel.onchange = () => {
+      updateCascadeDepts();
+      runAdvancedFilter();
+    };
+  }
+
+  if (deptSel) {
+    deptSel.onchange = () => {
+      updateCascadeCities();
+      runAdvancedFilter();
+    };
+  }
+
+  if (citySel) citySel.onchange = () => runAdvancedFilter();
+  if (catSel) catSel.onchange = () => runAdvancedFilter();
+  if (centurySel) centurySel.onchange = () => runAdvancedFilter();
+  if (islandSel) islandSel.onchange = () => runAdvancedFilter();
+  if (unescoCheck) unescoCheck.onchange = () => runAdvancedFilter();
+}
+
+function updateCascadeRegions() {
+  const country = document.getElementById('adv-filter-country')?.value;
+  const regionSel = document.getElementById('adv-filter-region');
+
+  if (!regionSel) return;
+
+  if (!country || country === 'all') {
+    regionSel.innerHTML = '<option value="all">Toutes les régions</option>';
+    regionSel.disabled = true;
+  } else {
+    const spots = travelSpots.filter(s => s.country === country);
+    const regions = [...new Set(spots.map(s => s.region_admin || s.region).filter(Boolean))].sort();
+    regionSel.innerHTML = '<option value="all">Toutes les régions</option>' +
+      regions.map(r => `<option value="${r}">${r}</option>`).join('');
+    regionSel.disabled = regions.length === 0;
+  }
+
+  updateCascadeDepts();
+}
+
+function updateCascadeDepts() {
+  const country = document.getElementById('adv-filter-country')?.value;
+  const region = document.getElementById('adv-filter-region')?.value;
+  const deptSel = document.getElementById('adv-filter-dept');
+
+  if (!deptSel) return;
+
+  if (!country || country === 'all' || !region || region === 'all') {
+    deptSel.innerHTML = '<option value="all">Tous départements</option>';
+    deptSel.disabled = true;
+  } else {
+    const spots = travelSpots.filter(s => s.country === country && (s.region_admin === region || s.region === region));
+    const depts = [...new Set(spots.map(s => s.department).filter(Boolean))].sort();
+    deptSel.innerHTML = '<option value="all">Tous départements</option>' +
+      depts.map(d => `<option value="${d}">${d}</option>`).join('');
+    deptSel.disabled = depts.length === 0;
+  }
+
+  updateCascadeCities();
+}
+
+function updateCascadeCities() {
+  const country = document.getElementById('adv-filter-country')?.value;
+  const region = document.getElementById('adv-filter-region')?.value;
+  const dept = document.getElementById('adv-filter-dept')?.value;
+  const citySel = document.getElementById('adv-filter-city');
+
+  if (!citySel) return;
+
+  if (!country || country === 'all') {
+    citySel.innerHTML = '<option value="all">Toutes communes</option>';
+    citySel.disabled = true;
+    return;
+  }
+
+  let spots = travelSpots.filter(s => s.country === country);
+  if (region && region !== 'all') {
+    spots = spots.filter(s => s.region_admin === region || s.region === region);
+  }
+  if (dept && dept !== 'all') {
+    spots = spots.filter(s => s.department === dept);
+  }
+
+  const cities = [...new Set(spots.map(s => s.subdiv).filter(Boolean))].sort();
+  citySel.innerHTML = '<option value="all">Toutes communes</option>' +
+    cities.map(c => `<option value="${c}">${c}</option>`).join('');
+  citySel.disabled = cities.length === 0;
+}
+
 function runAdvancedFilter() {
   const countryVal = document.getElementById('adv-filter-country')?.value || 'all';
+  const regionVal = document.getElementById('adv-filter-region')?.value || 'all';
+  const deptVal = document.getElementById('adv-filter-dept')?.value || 'all';
+  const cityVal = document.getElementById('adv-filter-city')?.value || 'all';
   const catVal = document.getElementById('adv-filter-category')?.value || 'all';
   const centuryVal = document.getElementById('adv-filter-century')?.value || 'all';
   const islandVal = document.getElementById('adv-filter-island')?.value || 'all';
   const unescoOnly = document.getElementById('adv-filter-unesco')?.checked || false;
 
   const filtered = travelSpots.filter(s => {
+    // 1. Filtres géographiques en entonnoir
     if (countryVal !== 'all' && s.country !== countryVal) return false;
-    
+    if (regionVal !== 'all' && (s.region_admin !== regionVal && s.region !== regionVal)) return false;
+    if (deptVal !== 'all' && s.department !== deptVal) return false;
+    if (cityVal !== 'all' && s.subdiv !== cityVal) return false;
+
+    // 2. Filtre de catégorie stricte
     if (catVal !== 'all') {
-      if (catVal === 'ile') {
-        if (!s.is_island && (!s.counts || !s.counts.ile)) return false;
-      } else {
-        const hasCount = s.counts && typeof s.counts[catVal] === 'number' && s.counts[catVal] > 0;
-        const isDirectCat = s.category === catVal;
-        if (!hasCount && !isDirectCat) return false;
-      }
+      const isDirect = s.category === catVal;
+      const inCounts = s.counts && typeof s.counts[catVal] === 'number' && s.counts[catVal] > 0;
+      if (!isDirect && !inCounts) return false;
     }
 
+    // 3. Filtre par île
     if (islandVal !== 'all') {
       if (s.island_name !== islandVal) return false;
     }
 
-    if (!spotMatchesCentury(s, centuryVal)) return false;
+    // 4. Siècle / Période
+    if (centuryVal !== 'all') {
+      if (typeof spotMatchesCentury === 'function') {
+        if (!spotMatchesCentury(s, centuryVal)) return false;
+      } else {
+        if (s.century !== centuryVal) return false;
+      }
+    }
 
+    // 5. Patrimoine mondial UNESCO
     if (unescoOnly) {
-      const isUnesco = (s.counts && s.counts.unesco) || s.category === 'unesco';
+      const isUnesco = s.category === 'unesco' || (s.counts && s.counts.unesco > 0);
       if (!isUnesco) return false;
     }
 
@@ -2842,7 +2993,7 @@ function runAdvancedFilter() {
   listEl.innerHTML = '';
   if (filtered.length === 0) {
     listEl.innerHTML = `
-      <div class="p-3 text-center text-[10px] text-slate-400 bg-slate-900/50 rounded-xl">
+      <div class="p-3 text-center text-[10px] text-slate-400 bg-slate-900/50 rounded-xl border border-slate-800">
         Aucun site ne correspond à cette combinaison de critères.
       </div>
     `;
@@ -2852,13 +3003,16 @@ function runAdvancedFilter() {
   filtered.forEach(spot => {
     const item = document.createElement('div');
     item.className = 'flex items-center justify-between p-2 rounded-xl bg-slate-900/70 hover:bg-slate-800 border border-slate-800 hover:border-cyan-500/40 cursor-pointer transition select-none group';
-    const islandBadge = spot.is_island ? `<span class="px-1 py-0.2 rounded text-[8px] bg-cyan-950 border border-cyan-500/40 text-cyan-300 font-bold ml-1">🏝️ ${spot.island_name}</span>` : '';
+    
+    const islandBadge = spot.is_island ? `<span class="px-1 py-0.2 rounded text-[8px] bg-cyan-950 border border-cyan-500/40 text-cyan-300 font-bold ml-1">🏝️ ${spot.island_name || ''}</span>` : '';
+    const locBreadcrumb = [spot.subdiv, spot.department, spot.country].filter(Boolean).join(' · ');
+
     item.innerHTML = `
       <div class="flex items-center gap-2 min-w-0 pr-1">
         <span class="text-sm shrink-0 group-hover:scale-110 transition-transform">${spot.flag || '📍'}</span>
         <div class="min-w-0">
           <div class="text-[11px] font-bold text-white truncate flex items-center">${spot.name} ${islandBadge}</div>
-          <div class="text-[9px] text-cyan-400 truncate">${spot.country} · ${spot.century || spot.era_group || ''}</div>
+          <div class="text-[9px] text-cyan-400 truncate">${locBreadcrumb} · ${spot.century || spot.era_group || ''}</div>
         </div>
       </div>
       <i class="fa-solid fa-chevron-right text-[10px] text-slate-500 group-hover:text-cyan-300 transition-colors shrink-0"></i>
@@ -2877,11 +3031,14 @@ function resetAdvancedFilters() {
   const t = document.getElementById('adv-filter-century');
   const isl = document.getElementById('adv-filter-island');
   const u = document.getElementById('adv-filter-unesco');
+
   if (c) c.value = 'all';
   if (k) k.value = 'all';
   if (t) t.value = 'all';
   if (isl) isl.value = 'all';
   if (u) u.checked = false;
+
+  updateCascadeRegions();
   runAdvancedFilter();
 }
 
@@ -3168,6 +3325,7 @@ function handleQuickSearch(query) {
 
   const matches = travelSpots.filter(s => {
     return s.name.toLowerCase().includes(q) ||
+           (s.region_admin && s.region_admin.toLowerCase().includes(q)) ||
            (s.region && s.region.toLowerCase().includes(q)) ||
            s.country.toLowerCase().includes(q) ||
            (s.description && s.description.toLowerCase().includes(q));
@@ -3188,7 +3346,7 @@ function handleQuickSearch(query) {
         <span class="text-sm shrink-0">${spot.flag || '📍'}</span>
         <div class="min-w-0 flex-1">
           <div class="text-xs font-semibold text-white truncate">${spot.name}</div>
-          <div class="text-[9px] text-cyan-400 truncate">${spot.country} · ${spot.region || ''}</div>
+          <div class="text-[9px] text-cyan-400 truncate">${spot.country} · ${spot.region_admin || spot.region || ''}</div>
         </div>
         <i class="fa-solid fa-arrow-right text-[10px] text-slate-500 mr-1"></i>
       `;
@@ -3651,7 +3809,8 @@ function selectSpot(spot) {
   }
 
   flagEl.innerText = spot.flag || '📍';
-  regionEl.innerText = `${spot.country} · ${spot.region || 'Région non spécifiée'}`;
+  const geoBreadcrumb = [spot.country, spot.region_admin || spot.region, spot.department, spot.subdiv].filter(Boolean).join(' · ');
+  regionEl.innerText = geoBreadcrumb || spot.country;
   img.src = spot.image;
   tagsContainer.innerHTML = '';
 
@@ -3903,7 +4062,6 @@ function renderUnifiedCategoryList() {
       count = uniqueIslands.size;
       tooltipText = ` title="Îles explorées (${count}) : ${Array.from(uniqueIslands).join(', ')}"`;
     } else {
-      // Pour tous les autres sites, on compte purement selon leur 'category'
       travelSpots.forEach(s => {
         if (s.category === key) {
           count += 1;
@@ -3952,13 +4110,7 @@ function updateStats() {
   if (statSitesEl) statSitesEl.innerText = totalSites;
 
   const uniqueCountries = new Set(travelSpots.map(s => s.country)).size;
-  
-  // On extrait toutes les villes uniques (basé sur le champ subdiv / ville)
-  const uniqueVilles = new Set(travelSpots.map(s => s.subdiv || s.country)).size;
-
   const statCountriesEl = document.getElementById('header-stat-countries');
-  // Si vous avez un élément pour afficher les villes dans votre en-tête, vous pouvez l'ajouter ici, 
-  // sinon cela met à jour le nombre total de pays/villes proprement.
   if (statCountriesEl) statCountriesEl.innerText = uniqueCountries;
 }
 
@@ -4029,5 +4181,7 @@ window.onload = function () {
   initGlobe();
   renderUnifiedCategoryList();
   updateStats();
+  initAdvancedFiltersCascade();
+  runAdvancedFilter();
   setTimeout(onWindowResize, 200);
 };
