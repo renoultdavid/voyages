@@ -2962,7 +2962,8 @@ island_name: "Honshū",
 
 // Dictionnaire officiel des filtres : Culture et Nature (avec l'item Île)
 const CATEGORIES = {
-  tous: { label: "Tous les POI", icon: "fa-star", color: "#f59e0b", section: "culture", active: true },
+  tous: { label: "Tous les POI", icon: "fa-earth-americas", color: "#f59e0b", section: "culture", active: true },
+  star: { label: "Lieux incontournables", icon: "fa-star", color: "#eab308", section: "culture", active: true },
   musee: { label: "Musée", icon: "fa-landmark", color: "#a16207", section: "culture", active: true },
   religieux: { label: "Édifice religieux", icon: "fa-church", color: "#854d0e", section: "culture", active: true },
   chateau: { label: "Château / Palais", icon: "fa-chess-rook", color: "#713f12", section: "culture", active: true },
@@ -4260,7 +4261,7 @@ function initGlobe() {
 
       const spot = d.spot;
       const activeCatKey = getFirstActiveCategoryForSpot(spot);
-      const cat = CATEGORIES[activeCatKey] || CATEGORIES[spot.category] || { color: '#06b6d4', icon: 'fa-location-dot' };
+     const cat = CATEGORIES[activeCatKey] || CATEGORIES[spot.category] || (CATEGORIES.star || { color: '#eab308', icon: 'fa-star' });
 
       anchor.innerHTML = `
         <div class="relative flex items-center justify-center pointer-events-auto">
@@ -4566,7 +4567,8 @@ function selectSpot(spot) {
       spotCategories.push('tous');
     }
   }
-  if (spot.is_island && !spotCategories.includes('ile')) {
+  // L'île ne s'ajoute comme catégorie visuelle que si le site est explicitement tagué "ile"
+  if (spot.category === 'ile' && !spotCategories.includes('ile')) {
     spotCategories.push('ile');
   }
 
@@ -4655,18 +4657,30 @@ function spotMatchesActiveFilters(spot) {
 }
 
 function getFirstActiveCategoryForSpot(spot) {
+  // 1. Si tagué 'star' (incontournable) -> priorité absolue à 'star' (ÉTOILE JAUNE)
+  if (spot.category === 'star') {
+    return 'star';
+  }
+
+  // 2. Vérifie les sous-catégories spécifiques (counts)
   if (spot.counts) {
     for (let catKey of Object.keys(spot.counts)) {
-      if (CATEGORIES[catKey] && CATEGORIES[catKey].active && catKey !== 'tous') return catKey;
+      if (CATEGORIES[catKey] && CATEGORIES[catKey].active && catKey !== 'tous' && catKey !== 'ile') return catKey;
     }
   }
-  if (spot.category && CATEGORIES[spot.category] && CATEGORIES[spot.category].active) {
+
+  // 3. Catégorie principale du spot si active
+  if (spot.category && CATEGORIES[spot.category] && CATEGORIES[spot.category].active && spot.category !== 'ile') {
     return spot.category;
   }
-  if (CATEGORIES.ile && CATEGORIES.ile.active && spot.is_island) {
+
+  // 4. Catégorie 'ile' UNIQUEMENT si le spot a explicitement category: "ile"
+  if (spot.category === 'ile') {
     return 'ile';
   }
-  return 'tous';
+
+  // 5. Par défaut : 'star' (étoile) si défini, sinon 'tous'
+  return CATEGORIES.star ? 'star' : 'tous';
 }
 
 function getFilteredSpots() {
