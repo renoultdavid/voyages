@@ -2963,7 +2963,6 @@ island_name: "Honshū",
 // Dictionnaire officiel des filtres : Culture et Nature (avec l'item Île)
 const CATEGORIES = {
   tous: { label: "Tous les POI", icon: "fa-earth-americas", color: "#f59e0b", section: "culture", active: true },
-  star: { label: "Lieux incontournables", icon: "fa-star", color: "#eab308", section: "culture", active: true },
   musee: { label: "Musée", icon: "fa-landmark", color: "#a16207", section: "culture", active: true },
   religieux: { label: "Édifice religieux", icon: "fa-church", color: "#854d0e", section: "culture", active: true },
   chateau: { label: "Château / Palais", icon: "fa-chess-rook", color: "#713f12", section: "culture", active: true },
@@ -4775,6 +4774,9 @@ function renderUnifiedCategoryList() {
   let lastSection = null;
 
   Object.keys(CATEGORIES).forEach(key => {
+    // Ne jamais afficher de ligne "star" dans la colonne de gauche
+    if (key === 'star') return;
+
     const cat = CATEGORIES[key];
 
     if (cat.section !== lastSection) {
@@ -4816,7 +4818,12 @@ function renderUnifiedCategoryList() {
       tooltipText = ` title="Îles explorées (${count}) : ${Array.from(uniqueIslands).join(', ')}"`;
     } else {
       travelSpots.forEach(s => {
-        if (s.category === key) {
+        // Comptabilise la catégorie directe
+        const isDirect = (s.category === key);
+        // Comptabilise aussi si présent dans counts (ex: unesco)
+        const inCounts = (s.counts && typeof s.counts[key] === 'number' && s.counts[key] > 0);
+        
+        if (isDirect || inCounts) {
           count += 1;
         }
       });
