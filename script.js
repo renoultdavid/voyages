@@ -2849,42 +2849,48 @@ function getSpotCenturyMatches(spot) {
     matched.add("Préhistoire & Géologie");
   }
 
-  // 2. Antiquité avant notre ère (recherche stricte de "av. j.-c." ou date négative chiffrée "-1500")
-  if (c.includes('av. j.-c.') || c.includes('av. jc') || c.includes('av.') || /-\s*\d+/.test(c) || c.includes('pharaon')) {
+  // 2. Antiquité avant notre ère (AVANT J.-C.)
+  const isBeforeChrist = c.includes('av. j.-c.') || c.includes('av. jc') || c.includes('av.') || /-\s*\d+/.test(c) || c.includes('pharaon') || c.includes('ptolém');
+  if (isBeforeChrist) {
     matched.add("Antiquité (avant J.-C.)");
   }
 
-  // 3. Ier au IVe siècle
-  if (/\b(i|ii|iii|iv|1|2|3|4)(er|e)?\s+siècle/i.test(c) || c.includes('romain') || c.includes('antiquité tardive') || c.includes('ptolém')) {
-    matched.add("Antiquité classique & Romaine (Ier - IVe s.)");
+  // 3. Ier au IVe siècle de notre ère (après J.-C.)
+  if (!isBeforeChrist) {
+    if (/\b(i|ii|iii|iv|1|2|3|4)(er|e)?\s+siècle/i.test(c) || c.includes('romain') || c.includes('antiquité tardive')) {
+      matched.add("Antiquité classique & Romaine (Ier - IVe s.)");
+    }
   }
 
-  // 4. Siècles du Ve au XXIe siècle (détection par expression régulière exacte)
-  const romanMap = [
-    { label: "Ve siècle", regex: /\b(v|5)(e)?\s+siècle/i },
-    { label: "VIe siècle", regex: /\b(vi|6)(e)?\s+siècle/i },
-    { label: "VIIe siècle", regex: /\b(vii|7)(e)?\s+siècle/i },
-    { label: "VIIIe siècle", regex: /\b(viii|8)(e)?\s+siècle/i },
-    { label: "IXe siècle", regex: /\b(ix|9)(e)?\s+siècle/i },
-    { label: "Xe siècle", regex: /\b(x|10)(e)?\s+siècle/i },
-    { label: "XIe siècle", regex: /\b(xi|11)(e)?\s+siècle/i },
-    { label: "XIIe siècle", regex: /\b(xii|12)(e)?\s+siècle/i },
-    { label: "XIIIe siècle", regex: /\b(xiii|13)(e)?\s+siècle/i },
-    { label: "XIVe siècle", regex: /\b(xiv|14)(e)?\s+siècle/i },
-    { label: "XVe siècle", regex: /\b(xv|15)(e)?\s+siècle/i },
-    { label: "XVIe siècle", regex: /\b(xvi|16)(e)?\s+siècle/i },
-    { label: "XVIIe siècle", regex: /\b(xvii|17)(e)?\s+siècle/i },
-    { label: "XVIIIe siècle", regex: /\b(xviii|18)(e)?\s+siècle/i },
-    { label: "XIXe siècle", regex: /\b(xix|19)(e)?\s+siècle/i },
-    { label: "XXe siècle", regex: /\b(xx|20)(e)?\s+siècle/i },
-    { label: "XXIe siècle", regex: /\b(xxi|21)(e)?\s+siècle/i }
-  ];
+  // 4. Siècles du Ve au XXIe siècle (STRICTEMENT APRÈS J.-C.)
+  // Si le texte mentionne "av. J.-C.", on INTERDIT le classement dans ces siècles modernes/médiévaux
+  if (!isBeforeChrist) {
+    const romanMap = [
+      { label: "Ve siècle", regex: /\b(v|5)(e)?\s+siècle/i },
+      { label: "VIe siècle", regex: /\b(vi|6)(e)?\s+siècle/i },
+      { label: "VIIe siècle", regex: /\b(vii|7)(e)?\s+siècle/i },
+      { label: "VIIIe siècle", regex: /\b(viii|8)(e)?\s+siècle/i },
+      { label: "IXe siècle", regex: /\b(ix|9)(e)?\s+siècle/i },
+      { label: "Xe siècle", regex: /\b(x|10)(e)?\s+siècle/i },
+      { label: "XIe siècle", regex: /\b(xi|11)(e)?\s+siècle/i },
+      { label: "XIIe siècle", regex: /\b(xii|12)(e)?\s+siècle/i },
+      { label: "XIIIe siècle", regex: /\b(xiii|13)(e)?\s+siècle/i },
+      { label: "XIVe siècle", regex: /\b(xiv|14)(e)?\s+siècle/i },
+      { label: "XVe siècle", regex: /\b(xv|15)(e)?\s+siècle/i },
+      { label: "XVIe siècle", regex: /\b(xvi|16)(e)?\s+siècle/i },
+      { label: "XVIIe siècle", regex: /\b(xvii|17)(e)?\s+siècle/i },
+      { label: "XVIIIe siècle", regex: /\b(xviii|18)(e)?\s+siècle/i },
+      { label: "XIXe siècle", regex: /\b(xix|19)(e)?\s+siècle/i },
+      { label: "XXe siècle", regex: /\b(xx|20)(e)?\s+siècle/i },
+      { label: "XXIe siècle", regex: /\b(xxi|21)(e)?\s+siècle/i }
+    ];
 
-  romanMap.forEach(r => {
-    if (r.regex.test(c)) {
-      matched.add(r.label);
-    }
-  });
+    romanMap.forEach(r => {
+      if (r.regex.test(c)) {
+        matched.add(r.label);
+      }
+    });
+  }
 
   return Array.from(matched);
 }
