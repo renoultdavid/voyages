@@ -2813,27 +2813,82 @@ function initAdvancedFilterOptions() {
 // MOTEUR DE RECHERCHE PYRAMIDAL EN CASCADE (Pays > Région > Dép > Commune)
 // =========================================================================
 
-// Normalisation : regroupe avant le Ve siècle, détaille siècle par siècle après
-function getNormalizedCenturyGroup(centuryStr) {
-  if (!centuryStr) return "Époque non spécifiée";
-  const s = centuryStr.toLowerCase();
+// Liste officielle et ordonnée de la chronologie du carnet
+const ORDERED_CENTURY_GROUPS = [
+  "Préhistoire & Géologie",
+  "Antiquité (avant J.-C.)",
+  "Antiquité classique & Romaine (Ier - IVe s.)",
+  "Ve siècle",
+  "VIe siècle",
+  "VIIe siècle",
+  "VIIIe siècle",
+  "IXe siècle",
+  "Xe siècle",
+  "XIe siècle",
+  "XIIe siècle",
+  "XIIIe siècle",
+  "XIVe siècle",
+  "XVe siècle",
+  "XVIe siècle",
+  "XVIIe siècle",
+  "XVIIIe siècle",
+  "XIXe siècle",
+  "XXe siècle",
+  "XXIe siècle"
+];
 
-  if (s.includes('néolithique') || s.includes('mégalithe') || s.includes('préhistoire') || s.includes('millénaire') || s.includes('géologique')) {
-    return "Préhistoire & Mégalithes";
+// Identifie automatiquement à quelle(s) période(s) officielle(s) appartient un site
+function getSpotCenturyMatches(spot) {
+  const text = `${spot.century || ''} ${spot.era_label || ''} ${spot.era_group || ''}`.toLowerCase();
+  const matched = new Set();
+
+  if (text.includes('préhist') || text.includes('mégalith') || text.includes('néolith') || text.includes('glaciaire') || text.includes('géolog')) {
+    matched.add("Préhistoire & Géologie");
   }
-  if (s.includes('av. j.-c.') || s.includes('av.') || s.includes('-')) {
-    return "Antiquité (avant J.-C.)";
+
+  if (text.includes('av. j.-c.') || text.includes('av.') || text.includes('pharaon') || text.includes('ptolém') || text.includes('-')) {
+    matched.add("Antiquité (avant J.-C.)");
   }
-  if (s.includes('ier siècle') || s.includes('iie siècle') || s.includes('iiie siècle') || s.includes('ive siècle') ||
-      s.includes('1er siècle') || s.includes('2e siècle') || s.includes('3e siècle') || s.includes('4e siècle')) {
-    return "Antiquité classique & Romaine (Ier - IVe s.)";
+
+  if (text.includes('ier s') || text.includes('iie s') || text.includes('iiie s') || text.includes('ive s') ||
+      text.includes('1er s') || text.includes('2e s') || text.includes('3e s') || text.includes('4e s') ||
+      text.includes('romain') || text.includes('antiquité tardive')) {
+    matched.add("Antiquité classique & Romaine (Ier - IVe s.)");
   }
-  return centuryStr;
+
+  const romanMap = [
+    { label: "Ve siècle", keys: ["ve s", "5e s", "ve "] },
+    { label: "VIe siècle", keys: ["vie s", "6e s", "vie "] },
+    { label: "VIIe siècle", keys: ["viie s", "7e s", "viie "] },
+    { label: "VIIIe siècle", keys: ["viiie s", "8e s", "viiie "] },
+    { label: "IXe siècle", keys: ["ixe s", "9e s", "ixe "] },
+    { label: "Xe siècle", keys: ["xe s", "10e s", "xe "] },
+    { label: "XIe siècle", keys: ["xie s", "11e s", "xie "] },
+    { label: "XIIe siècle", keys: ["xiie s", "12e s", "xiie "] },
+    { label: "XIIIe siècle", keys: ["xiiie s", "13e s", "xiiie "] },
+    { label: "XIVe siècle", keys: ["xive s", "14e s", "xive "] },
+    { label: "XVe siècle", keys: ["xve s", "15e s", "xve "] },
+    { label: "XVIe siècle", keys: ["xvie s", "16e s", "xvie "] },
+    { label: "XVIIe siècle", keys: ["xviie s", "17e s", "xviie "] },
+    { label: "XVIIIe siècle", keys: ["xviiie s", "18e s", "xviiie "] },
+    { label: "XIXe siècle", keys: ["xixe s", "19e s", "xixe "] },
+    { label: "XXe siècle", keys: ["xxe s", "20e s", "xxe "] },
+    { label: "XXIe siècle", keys: ["xxie s", "21e s", "xxie "] }
+  ];
+
+  romanMap.forEach(r => {
+    if (r.keys.some(k => text.includes(k))) {
+      matched.add(r.label);
+    }
+  });
+
+  return Array.from(matched);
 }
 
 function spotMatchesCentury(spot, chosenGroup) {
   if (!chosenGroup || chosenGroup === 'all') return true;
-  return getNormalizedCenturyGroup(spot.century) === chosenGroup;
+  const matches = getSpotCenturyMatches(spot);
+  return matches.includes(chosenGroup);
 }
 function initAdvancedFiltersCascade() {
   const countrySel = document.getElementById('adv-filter-country');
@@ -2866,24 +2921,11 @@ function initAdvancedFiltersCascade() {
       islands.map(i => `<option value="${i}">${i}</option>`).join('');
   }
 
-  // 4. Remplir les siècles / époques regroupés
+  // 4. Remplir la liste officielle des époques et siècles (Ve au XXIe)
   if (centurySel) {
-    const rawGroups = travelSpots.map(s => getNormalizedCenturyGroup(s.century)).filter(Boolean);
-    const chronoOrder = [
-      "Préhistoire & Mégalithes",
-      "Antiquité (avant J.-C.)",
-      "Antiquité classique & Romaine (Ier - IVe s.)"
-    ];
-    const postRomeCenturies = [...new Set(rawGroups)]
-      .filter(g => !chronoOrder.includes(g) && g !== "Époque non spécifiée")
-      .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
-
-    const finalGroups = [...new Set([...chronoOrder.filter(g => rawGroups.includes(g)), ...postRomeCenturies])];
-
     centurySel.innerHTML = '<option value="all">Tous les siècles / époques</option>' +
-      finalGroups.map(g => `<option value="${g}">${g}</option>`).join('');
+      ORDERED_CENTURY_GROUPS.map(g => `<option value="${g}">${g}</option>`).join('');
   }
-
   // 5. Écouteurs de changement en cascade
   countrySel.onchange = () => {
     updateCascadeRegions();
