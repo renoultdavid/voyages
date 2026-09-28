@@ -2815,7 +2815,7 @@ function initAdvancedFilterOptions() {
 
 // Liste officielle et ordonnée de la chronologie du carnet
 const ORDERED_CENTURY_GROUPS = [
-  "Préhistoire & Géologie",
+  "Préhistoire",
   "Antiquité (avant J.-C.)",
   "Antiquité classique & Romaine (Ier - IVe s.)",
   "Ve siècle",
@@ -2844,9 +2844,9 @@ function getSpotCenturyMatches(spot) {
 
   if (!c) return [];
 
-  // 1. Préhistoire & Géologie
-  if (c.includes('préhist') || c.includes('mégalith') || c.includes('néolith') || c.includes('glaciaire') || c.includes('géolog') || c.includes('millénaire')) {
-    matched.add("Préhistoire & Géologie");
+  // 1. Préhistoire (uniquement l'activité humaine préhistorique et mégalithique)
+  if (c.includes('préhist') || c.includes('mégalith') || c.includes('néolith') || c.includes('paléolith') || c.includes('âge du bronze') || c.includes('millénaire')) {
+    matched.add("Préhistoire");
   }
 
   // 2. Antiquité avant notre ère (AVANT J.-C.)
