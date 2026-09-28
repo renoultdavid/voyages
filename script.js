@@ -598,7 +598,7 @@ const travelSpots = [
     visiter: "La découverte s'amorce par le franchissement du grand portique torii rouge vif ouvrant sur la perspective centrale de l'étang sacré peuplé de carpes koï multicolores et de dizaines d'tortues d'eau douce venues se réchauffer sur les pierres émergées. La traversée des ponts tambours voûtés (Taiko-bashi) constitue un temps fort de la déambulation : le premier pont en dos d'âne pentu symbolise le passage du passé terrestre, tandis que le second pont tambour incarne l'espérance vers l'avenir, préparant l'esprit à l'approche de la demeure divine. Au printemps, les visiteurs affluent pour contempler les tonnelles suspendues au-dessus de l'eau où retombent de somptueuses grappes de glycines mauves (fuji) parfumées, ainsi que la floraison précoce des pruniers sacrés dont Sugawara no Michizane était particulièrement épris. Devant le pavillon principal de prière (honden), étudiants et lycéens viennent nombreux frotter les cornes de la statue en bronze du bœuf couché pour solliciter l'inspiration et accrocher des plaquettes de bois ema implorant le succès aux concours. Cette halte contemplative offre une plongée fascinante dans la culture populaire tokyoïte au carrefour de la tradition d'Edo et du paysage moderne.",
     link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn"
   },
-  {
+ {
     id: "montfort_le_gesnois_vallee_huisne",
     name: "Montfort-le-Gesnois - Vallée de l'Huisne",
     country: "France",
@@ -620,8 +620,7 @@ const travelSpots = [
     description: "Écrin de verdure traversant le Pays du Perche Sarthois, la vallée de l'Huisne déploie à l'est de Montfort-le-Gesnois un paysage fluvial préservé où se mêlent méandres paisibles, prairies inondables et coteaux boisés. Principal cours d'eau du bassin sarthois avant sa confluence avec la Sarthe au Mans, la rivière a façonné un écosystème humide d'une grande richesse écologique, ponctué d'anciens moulins, de peupleraies et de ripisylves denses. Véritable couloir biologique pour la faune aquatique et les oiseaux d'eau douce, le site offre une respiration naturelle remarquable où les reflets changeants de la rivière dialoguent avec les douces ondulations du bocage et la quiétude rurale du terroir.",
     visiter: "La découverte des berges s'effectue idéalement à pied ou à vélo le long des chemins de halage et des sentiers de promenade qui bordent le cours d'eau en direction du Perche. Les promeneurs peuvent y observer une faune diversifiée, notamment le martin-pêcheur, le héron cendré et de nombreuses espèces d'odonates évoluant au-dessus des calmes nappes d'eau. La rivière constitue également un parcours réputé pour la pêche de loisir et les balades en canoë-kayak permettant de glisser au ras de l'eau au milieu des frondaisons d'aulnes et de saules. C'est une halte bucolique parfaite pour s'imprégner de l'atmosphère apaisante des rives de l'Huisne en marge des cœurs historiques du village.",
     link: "https://photos.google.com/share/AF1QipOb3ShaKNG_lsJde2nz8dRyz9nGHRogFP31vgkL6iaR4Hd7feMJ2OdoN8Q2CULzwg?key=WTRicjlYODZGMUhveTFOQXdEVk0tNEt3Ry1HVTBn"
-  }
-]
+  },
    {
     id: "montfort_le_gesnois_pont_romain",
     name: "Montfort-le-Gesnois - Pont « Romain » sur l'Huisne",
