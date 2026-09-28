@@ -2837,47 +2837,51 @@ const ORDERED_CENTURY_GROUPS = [
   "XXIe siècle"
 ];
 
-// Identifie automatiquement à quelle(s) période(s) officielle(s) appartient un site
+// Identifie rigoureusement à quelle(s) période(s) officielle(s) appartient un site
 function getSpotCenturyMatches(spot) {
-  const text = `${spot.century || ''} ${spot.era_label || ''} ${spot.era_group || ''}`.toLowerCase();
+  const c = (spot.century || '').toLowerCase().trim();
   const matched = new Set();
 
-  if (text.includes('préhist') || text.includes('mégalith') || text.includes('néolith') || text.includes('glaciaire') || text.includes('géolog')) {
+  if (!c) return [];
+
+  // 1. Préhistoire & Géologie
+  if (c.includes('préhist') || c.includes('mégalith') || c.includes('néolith') || c.includes('glaciaire') || c.includes('géolog') || c.includes('millénaire')) {
     matched.add("Préhistoire & Géologie");
   }
 
-  if (text.includes('av. j.-c.') || text.includes('av.') || text.includes('pharaon') || text.includes('ptolém') || text.includes('-')) {
+  // 2. Antiquité avant notre ère (recherche stricte de "av. j.-c." ou date négative chiffrée "-1500")
+  if (c.includes('av. j.-c.') || c.includes('av. jc') || c.includes('av.') || /-\s*\d+/.test(c) || c.includes('pharaon')) {
     matched.add("Antiquité (avant J.-C.)");
   }
 
-  if (text.includes('ier s') || text.includes('iie s') || text.includes('iiie s') || text.includes('ive s') ||
-      text.includes('1er s') || text.includes('2e s') || text.includes('3e s') || text.includes('4e s') ||
-      text.includes('romain') || text.includes('antiquité tardive')) {
+  // 3. Ier au IVe siècle
+  if (/\b(i|ii|iii|iv|1|2|3|4)(er|e)?\s+siècle/i.test(c) || c.includes('romain') || c.includes('antiquité tardive') || c.includes('ptolém')) {
     matched.add("Antiquité classique & Romaine (Ier - IVe s.)");
   }
 
+  // 4. Siècles du Ve au XXIe siècle (détection par expression régulière exacte)
   const romanMap = [
-    { label: "Ve siècle", keys: ["ve s", "5e s", "ve "] },
-    { label: "VIe siècle", keys: ["vie s", "6e s", "vie "] },
-    { label: "VIIe siècle", keys: ["viie s", "7e s", "viie "] },
-    { label: "VIIIe siècle", keys: ["viiie s", "8e s", "viiie "] },
-    { label: "IXe siècle", keys: ["ixe s", "9e s", "ixe "] },
-    { label: "Xe siècle", keys: ["xe s", "10e s", "xe "] },
-    { label: "XIe siècle", keys: ["xie s", "11e s", "xie "] },
-    { label: "XIIe siècle", keys: ["xiie s", "12e s", "xiie "] },
-    { label: "XIIIe siècle", keys: ["xiiie s", "13e s", "xiiie "] },
-    { label: "XIVe siècle", keys: ["xive s", "14e s", "xive "] },
-    { label: "XVe siècle", keys: ["xve s", "15e s", "xve "] },
-    { label: "XVIe siècle", keys: ["xvie s", "16e s", "xvie "] },
-    { label: "XVIIe siècle", keys: ["xviie s", "17e s", "xviie "] },
-    { label: "XVIIIe siècle", keys: ["xviiie s", "18e s", "xviiie "] },
-    { label: "XIXe siècle", keys: ["xixe s", "19e s", "xixe "] },
-    { label: "XXe siècle", keys: ["xxe s", "20e s", "xxe "] },
-    { label: "XXIe siècle", keys: ["xxie s", "21e s", "xxie "] }
+    { label: "Ve siècle", regex: /\b(v|5)(e)?\s+siècle/i },
+    { label: "VIe siècle", regex: /\b(vi|6)(e)?\s+siècle/i },
+    { label: "VIIe siècle", regex: /\b(vii|7)(e)?\s+siècle/i },
+    { label: "VIIIe siècle", regex: /\b(viii|8)(e)?\s+siècle/i },
+    { label: "IXe siècle", regex: /\b(ix|9)(e)?\s+siècle/i },
+    { label: "Xe siècle", regex: /\b(x|10)(e)?\s+siècle/i },
+    { label: "XIe siècle", regex: /\b(xi|11)(e)?\s+siècle/i },
+    { label: "XIIe siècle", regex: /\b(xii|12)(e)?\s+siècle/i },
+    { label: "XIIIe siècle", regex: /\b(xiii|13)(e)?\s+siècle/i },
+    { label: "XIVe siècle", regex: /\b(xiv|14)(e)?\s+siècle/i },
+    { label: "XVe siècle", regex: /\b(xv|15)(e)?\s+siècle/i },
+    { label: "XVIe siècle", regex: /\b(xvi|16)(e)?\s+siècle/i },
+    { label: "XVIIe siècle", regex: /\b(xvii|17)(e)?\s+siècle/i },
+    { label: "XVIIIe siècle", regex: /\b(xviii|18)(e)?\s+siècle/i },
+    { label: "XIXe siècle", regex: /\b(xix|19)(e)?\s+siècle/i },
+    { label: "XXe siècle", regex: /\b(xx|20)(e)?\s+siècle/i },
+    { label: "XXIe siècle", regex: /\b(xxi|21)(e)?\s+siècle/i }
   ];
 
   romanMap.forEach(r => {
-    if (r.keys.some(k => text.includes(k))) {
+    if (r.regex.test(c)) {
       matched.add(r.label);
     }
   });
