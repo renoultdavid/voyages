@@ -3932,10 +3932,6 @@ function renderUnifiedCategoryList() {
       });
       count = uniqueIslands.size;
       tooltipText = ` title="Îles explorées (${count}) : ${Array.from(uniqueIslands).join(', ')}"`;
-    } else if (key === 'ville') {
-      // Compte automatiquement toutes les villes distinctes (subdiv) de vos voyages
-      const uniqueVilles = new Set(travelSpots.map(s => s.subdiv).filter(Boolean));
-      count = uniqueVilles.size;
     } else {
       // Pour tous les autres sites, on compte purement selon leur 'category'
       travelSpots.forEach(s => {
