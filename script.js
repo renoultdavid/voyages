@@ -2813,6 +2813,28 @@ function initAdvancedFilterOptions() {
 // MOTEUR DE RECHERCHE PYRAMIDAL EN CASCADE (Pays > Région > Dép > Commune)
 // =========================================================================
 
+// Normalisation : regroupe avant le Ve siècle, détaille siècle par siècle après
+function getNormalizedCenturyGroup(centuryStr) {
+  if (!centuryStr) return "Époque non spécifiée";
+  const s = centuryStr.toLowerCase();
+
+  if (s.includes('néolithique') || s.includes('mégalithe') || s.includes('préhistoire') || s.includes('millénaire') || s.includes('géologique')) {
+    return "Préhistoire & Mégalithes";
+  }
+  if (s.includes('av. j.-c.') || s.includes('av.') || s.includes('-')) {
+    return "Antiquité (avant J.-C.)";
+  }
+  if (s.includes('ier siècle') || s.includes('iie siècle') || s.includes('iiie siècle') || s.includes('ive siècle') ||
+      s.includes('1er siècle') || s.includes('2e siècle') || s.includes('3e siècle') || s.includes('4e siècle')) {
+    return "Antiquité classique & Romaine (Ier - IVe s.)";
+  }
+  return centuryStr;
+}
+
+function spotMatchesCentury(spot, chosenGroup) {
+  if (!chosenGroup || chosenGroup === 'all') return true;
+  return getNormalizedCenturyGroup(spot.century) === chosenGroup;
+}
 function initAdvancedFiltersCascade() {
   const countrySel = document.getElementById('adv-filter-country');
   const regionSel = document.getElementById('adv-filter-region');
@@ -2844,11 +2866,22 @@ function initAdvancedFiltersCascade() {
       islands.map(i => `<option value="${i}">${i}</option>`).join('');
   }
 
-  // 4. Remplir les siècles / époques
+  // 4. Remplir les siècles / époques regroupés
   if (centurySel) {
-    const centuries = [...new Set(travelSpots.map(s => s.century).filter(Boolean))].sort();
-    centurySel.innerHTML = '<option value="all">Tous les siècles</option>' +
-      centuries.map(c => `<option value="${c}">${c}</option>`).join('');
+    const rawGroups = travelSpots.map(s => getNormalizedCenturyGroup(s.century)).filter(Boolean);
+    const chronoOrder = [
+      "Préhistoire & Mégalithes",
+      "Antiquité (avant J.-C.)",
+      "Antiquité classique & Romaine (Ier - IVe s.)"
+    ];
+    const postRomeCenturies = [...new Set(rawGroups)]
+      .filter(g => !chronoOrder.includes(g) && g !== "Époque non spécifiée")
+      .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+
+    const finalGroups = [...new Set([...chronoOrder.filter(g => rawGroups.includes(g)), ...postRomeCenturies])];
+
+    centurySel.innerHTML = '<option value="all">Tous les siècles / époques</option>' +
+      finalGroups.map(g => `<option value="${g}">${g}</option>`).join('');
   }
 
   // 5. Écouteurs de changement en cascade
