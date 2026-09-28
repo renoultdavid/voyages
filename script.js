@@ -34,6 +34,31 @@ const COUNTRY_SUBDIV_TOTALS = {
 
 const travelSpots = [
   {
+    id: "kamakura_zeniarai_benzaiten",
+    name: "Kamakura - Sanctuaire Zeniarai Benzaiten Ugafuku-jinja",
+    country: "Japon",
+    region_admin: "Kantō",
+    department: "Préfecture de Kanagawa",
+    subdiv: "Kamakura",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 35.325797,
+    lng: 139.542118,
+    altitude: 55,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque de Kamakura (fondation en 1185)",
+    century: "XIIe siècle",
+    category: "religieux",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPBQw6yHGbYk6K4_oJYbN6S-vEVgw7ReSBF0wte-P80Gap7KojEtXM9ntgbLQ5GUKnmcRLsFd0OUKJeoadn9WvUHiE4lEy84EarR4MizfVgoWuagm9Vc0DOYVQQICpcPaCiV-1zObyAIJVKHJLL0rQTwQ=w2489-h1660-s-no-gm?authuser=0",
+    description: "Niché au creux des collines boisées occidentales de Kamakura, le sanctuaire Zeniarai Benzaiten Ugafuku-jinja offre une expérience mystique saisissante, débutant dès son entrée : un long tunnel taillé à même la roche qui débouche sur une clairière encaissée bordée de parois abruptes et de centaines de torii en bois. Fondé en 1185 par le premier shogun Minamoto no Yoritomo à la suite d'un songe prémonitoire envoyé par le dieu serpent Ugafukujin, ce lieu saint présente la particularité rare d'avoir préservé un syncrétisme spirituel complet (shinbutsu shūgō) associant la divinité shinto autochtone à Benzaiten, déesse bouddhiste de l'éloquence, des arts et de la fortune. Au cœur du complexe s'ouvre une grotte naturelle obscure d'où sourd une eau sacrée réputée miraculeuse, attirant depuis plus de huit siècles fidèles, marchands et pèlerins venus accomplir le célèbre rite de purification des pièces de monnaie.",
+    visiter: "Franchir le tunnel rocheux percé dans la falaise et passer sous la succession serrée de torii votifs offerts par les dévots. Se procurer un petit panier d'osier, une bougie et de l'encens au pavillon d'accueil avant de pénétrer dans la caverne sacrée (Okumiya). Placer sa monnaie (pièces ou billets) dans le tamis d'osier et l'arroser à l'aide des longues louches en bambou avec l'eau de source sacrée (Zeniarai-mizu) : la tradition promet que l'argent purifié et dépensé avec sagesse reviendra multiplié à son propriétaire. Découvrir les petits autels secondaires disséminés contre la paroi de grès moussue, les étals de talismans (omamori) dédiés à la prospérité financière, et s'imprégner de l'atmosphère intemporelle de cette combe secrète avant de poursuivre la marche vers les sentiers de randonnée de Genjiyama.",
+    link: "https://photos.google.com/share/AF1QipOeq0r9ChAdmfv81FKQ1TYDpks6V2hx0qOiJ_7Qtst8lg6zkp0W8pY8Y1VK9FRysg?key=WFNCSTZDRjNmZElFdm95OGl4UzROZ2s5MTNLRUFR"
+  },
+   {
     id: "tokyo_quartier_shibuya",
     name: "Tokyo - Quartier de Shibuya & Carrefour Scramble",
     country: "Japon",
