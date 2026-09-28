@@ -256,7 +256,7 @@ const travelSpots = [
     era_label: "Époque d'Edo & Shogunat Tokugawa (1649)",
     century: "XVIIe siècle",
     category: "religieux",
-    counts: { religieux: 1 },
+    counts: {},
     lat: 35.714435,
     lng: 139.796701,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNVlErgZ5v6mtnbqxXxKFofYVLC8jQx8hcgJbfq38xtbCIze838ALn_8m31IMBT57BBYTS5sTsSIpkwdiDHFhvEcYIYieQDND29Urs8pr_ST1N97ua_linf94qEp4q9clDq3fHIZ9kvtjHbNjj_ttzTQg=w1379-h919-s-no-gm?authuser=0",
@@ -3932,11 +3932,14 @@ function renderUnifiedCategoryList() {
       });
       count = uniqueIslands.size;
       tooltipText = ` title="Îles explorées (${count}) : ${Array.from(uniqueIslands).join(', ')}"`;
+    } else if (key === 'ville') {
+      // Compte automatiquement toutes les villes distinctes (subdiv) de vos voyages
+      const uniqueVilles = new Set(travelSpots.map(s => s.subdiv).filter(Boolean));
+      count = uniqueVilles.size;
     } else {
+      // Pour tous les autres sites, on compte purement selon leur 'category'
       travelSpots.forEach(s => {
-        if (s.counts && typeof s.counts[key] === 'number') {
-          count += s.counts[key];
-        } else if (s.category === key) {
+        if (s.category === key) {
           count += 1;
         }
       });
