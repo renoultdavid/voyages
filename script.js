@@ -2655,19 +2655,24 @@ function renderCountriesDropdown() {
       countryMap.set(country, {
         name: country,
         flag: s.flag || "📍",
-        count: 0,
-        spots: []
+        spots: [],
+        villes: new Set()
       });
     }
     const entry = countryMap.get(country);
-    entry.count++;
     entry.spots.push(s);
+    if (s.subdiv) {
+      entry.villes.add(s.subdiv);
+    }
   });
 
   const sortedCountries = Array.from(countryMap.values()).sort((a, b) => a.name.localeCompare(b.name, 'fr'));
   if (badge) badge.innerText = `${sortedCountries.length} explorés`;
 
   sortedCountries.forEach(c => {
+    const nbVilles = c.villes.size;
+    const nbSites = c.spots.length;
+
     const row = document.createElement('div');
     row.className = 'flex items-center justify-between p-1.5 rounded-xl bg-indigo-950/40 hover:bg-indigo-900/60 border border-indigo-500/20 hover:border-indigo-400/50 cursor-pointer transition select-none group';
     row.innerHTML = `
@@ -2676,7 +2681,7 @@ function renderCountriesDropdown() {
         <span class="text-xs font-semibold text-indigo-100 group-hover:text-white truncate">${c.name}</span>
       </div>
       <span class="font-mono text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-indigo-900/70 border border-indigo-500/40 text-indigo-300 shrink-0">
-        ${c.count} ${c.count > 1 ? 'sites' : 'site'}
+        ${nbVilles} ville${nbVilles > 1 ? 's' : ''} · ${nbSites} site${nbSites > 1 ? 's' : ''}
       </span>
     `;
     row.onclick = (e) => {
@@ -3978,7 +3983,13 @@ function updateStats() {
   if (statSitesEl) statSitesEl.innerText = totalSites;
 
   const uniqueCountries = new Set(travelSpots.map(s => s.country)).size;
+  
+  // On extrait toutes les villes uniques (basé sur le champ subdiv / ville)
+  const uniqueVilles = new Set(travelSpots.map(s => s.subdiv || s.country)).size;
+
   const statCountriesEl = document.getElementById('header-stat-countries');
+  // Si vous avez un élément pour afficher les villes dans votre en-tête, vous pouvez l'ajouter ici, 
+  // sinon cela met à jour le nombre total de pays/villes proprement.
   if (statCountriesEl) statCountriesEl.innerText = uniqueCountries;
 }
 
