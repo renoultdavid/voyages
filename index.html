@@ -262,7 +262,7 @@
     </div>
   </div>
 
-  <!-- MODAL 3 : FILTRE POUSSÉ MULTI-CRITÈRES -->
+  <!-- MODAL 3 : FILTRE POUSSÉ MULTI-CRITÈRES (AVEC CASCADE GÉOGRAPHIQUE) -->
   <div id="modal-advanced" class="glass-panel-indigo absolute top-16 right-3 sm:right-16 z-50 w-80 sm:w-96 rounded-2xl p-3.5 shadow-2xl hidden border border-cyan-500/50">
     <div class="flex items-center justify-between pb-2 mb-2.5 border-b border-cyan-500/30">
       <div class="flex items-center gap-1.5 text-cyan-200 text-xs font-bold uppercase tracking-wider">
@@ -273,42 +273,70 @@
         <i class="fa-solid fa-xmark"></i>
       </button>
     </div>
+    
     <div class="space-y-2.5 text-xs">
-      <div class="grid grid-cols-2 gap-2">
+      <!-- 1. CASCADE GÉOGRAPHIQUE (4 NIVEAUX) -->
+      <div class="grid grid-cols-2 gap-2 bg-slate-950/40 p-2 rounded-xl border border-slate-800/80">
         <div>
           <label class="block text-[9px] font-bold uppercase text-slate-400 mb-1">🌍 Pays</label>
-          <select id="adv-filter-country" onchange="runAdvancedFilter()" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[11px] text-white focus:outline-none focus:border-cyan-400">
+          <select id="adv-filter-country" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[11px] text-white focus:outline-none focus:border-cyan-400">
             <option value="all">Tous les pays</option>
           </select>
         </div>
         <div>
+          <label class="block text-[9px] font-bold uppercase text-slate-400 mb-1">🏛️ Région</label>
+          <select id="adv-filter-region" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[11px] text-white focus:outline-none focus:border-cyan-400" disabled>
+            <option value="all">Toutes les régions</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-[9px] font-bold uppercase text-slate-400 mb-1">📍 Département / Zone</label>
+          <select id="adv-filter-dept" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[11px] text-white focus:outline-none focus:border-cyan-400" disabled>
+            <option value="all">Tous départements</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-[9px] font-bold uppercase text-slate-400 mb-1">🏘️ Commune / Ville</label>
+          <select id="adv-filter-city" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[11px] text-white focus:outline-none focus:border-cyan-400" disabled>
+            <option value="all">Toutes communes</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- 2. FILTRES THÉMATIQUES (CATÉGORIE, SIÈCLE, ÎLE) -->
+      <div class="grid grid-cols-2 gap-2">
+        <div>
           <label class="block text-[9px] font-bold uppercase text-slate-400 mb-1">🏷️ Catégorie</label>
-          <select id="adv-filter-category" onchange="runAdvancedFilter()" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[11px] text-white focus:outline-none focus:border-cyan-400">
+          <select id="adv-filter-category" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[11px] text-white focus:outline-none focus:border-cyan-400">
             <option value="all">Toutes catégories</option>
           </select>
         </div>
         <div>
           <label class="block text-[9px] font-bold uppercase text-slate-400 mb-1">⏳ Siècle / Époque</label>
-          <select id="adv-filter-century" onchange="runAdvancedFilter()" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[11px] text-white focus:outline-none focus:border-cyan-400">
+          <select id="adv-filter-century" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[11px] text-white focus:outline-none focus:border-cyan-400">
             <option value="all">Tous les siècles</option>
           </select>
         </div>
-        <div>
+        <div class="col-span-2">
           <label class="block text-[9px] font-bold uppercase text-slate-400 mb-1">🏝️ Île spécifique</label>
-          <select id="adv-filter-island" onchange="runAdvancedFilter()" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[11px] text-white focus:outline-none focus:border-cyan-400">
+          <select id="adv-filter-island" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[11px] text-white focus:outline-none focus:border-cyan-400">
             <option value="all">Toutes les îles</option>
           </select>
         </div>
       </div>
+
+      <!-- 3. OPTIONS ET RÉINITIALISATION -->
       <div class="flex items-center justify-between pt-1">
         <label class="flex items-center gap-1.5 cursor-pointer select-none">
-          <input type="checkbox" id="adv-filter-unesco" onchange="runAdvancedFilter()" class="w-3.5 h-3.5 rounded text-cyan-500 bg-slate-900 border-slate-700 focus:ring-0 cursor-pointer">
+          <input type="checkbox" id="adv-filter-unesco" class="w-3.5 h-3.5 rounded text-cyan-500 bg-slate-900 border-slate-700 focus:ring-0 cursor-pointer">
           <span class="text-[10px] font-bold text-amber-300">🏛️ Trésors UNESCO seul</span>
         </label>
         <button onclick="resetAdvancedFilters()" class="text-slate-400 hover:text-cyan-300 underline font-semibold text-[9px]">
           Réinitialiser
         </button>
       </div>
+
+      <!-- 4. COMPTEUR ET LISTE DÉROULANTE DES RÉSULTATS -->
       <div class="flex items-center justify-between pt-1 border-t border-slate-800 text-[10px]">
         <div class="text-slate-300">
           Résultats : <span id="adv-results-count" class="font-bold text-cyan-300 font-mono">0</span> site(s)
