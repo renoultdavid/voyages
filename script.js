@@ -3032,6 +3032,29 @@ function updateCascadeCities() {
   citySel.disabled = cities.length === 0;
 }
 
+// Variable mémorisant le mode d'affichage ('grid' = mosaïque par défaut, 'list' = liste)
+let currentAdvancedViewMode = 'grid';
+
+function setAdvancedViewMode(mode) {
+  currentAdvancedViewMode = mode;
+  const btnGrid = document.getElementById('adv-view-grid-btn');
+  const btnList = document.getElementById('adv-view-list-btn');
+
+  if (mode === 'grid') {
+    btnGrid?.classList.add('bg-cyan-500', 'text-white', 'shadow');
+    btnGrid?.classList.remove('text-slate-400');
+    btnList?.classList.remove('bg-cyan-500', 'text-white', 'shadow');
+    btnList?.classList.add('text-slate-400');
+  } else {
+    btnList?.classList.add('bg-cyan-500', 'text-white', 'shadow');
+    btnList?.classList.remove('text-slate-400');
+    btnGrid?.classList.remove('bg-cyan-500', 'text-white', 'shadow');
+    btnGrid?.classList.add('text-slate-400');
+  }
+
+  runAdvancedFilter();
+}
+
 function runAdvancedFilter() {
   const countryVal = document.getElementById('adv-filter-country')?.value || 'all';
   const regionVal = document.getElementById('adv-filter-region')?.value || 'all';
@@ -3043,25 +3066,21 @@ function runAdvancedFilter() {
   const unescoOnly = document.getElementById('adv-filter-unesco')?.checked || false;
 
   const filtered = travelSpots.filter(s => {
-    // 1. Filtres géographiques en entonnoir
     if (countryVal !== 'all' && s.country !== countryVal) return false;
     if (regionVal !== 'all' && (s.region_admin !== regionVal && s.region !== regionVal)) return false;
     if (deptVal !== 'all' && s.department !== deptVal) return false;
     if (cityVal !== 'all' && s.subdiv !== cityVal) return false;
 
-    // 2. Filtre de catégorie stricte
     if (catVal !== 'all') {
       const isDirect = s.category === catVal;
       const inCounts = s.counts && typeof s.counts[catVal] === 'number' && s.counts[catVal] > 0;
       if (!isDirect && !inCounts) return false;
     }
 
-    // 3. Filtre par île
     if (islandVal !== 'all') {
       if (s.island_name !== islandVal) return false;
     }
 
-    // 4. Siècle / Période
     if (centuryVal !== 'all') {
       if (typeof spotMatchesCentury === 'function') {
         if (!spotMatchesCentury(s, centuryVal)) return false;
@@ -3070,7 +3089,6 @@ function runAdvancedFilter() {
       }
     }
 
-    // 5. Patrimoine mondial UNESCO
     if (unescoOnly) {
       const isUnesco = s.category === 'unesco' || (s.counts && s.counts.unesco > 0);
       if (!isUnesco) return false;
@@ -3085,38 +3103,90 @@ function runAdvancedFilter() {
   if (!listEl) return;
 
   listEl.innerHTML = '';
+
   if (filtered.length === 0) {
+    listEl.className = 'w-full';
     listEl.innerHTML = `
-      <div class="p-3 text-center text-[10px] text-slate-400 bg-slate-900/50 rounded-xl border border-slate-800">
-        Aucun site ne correspond à cette combinaison de critères.
+      <div class="p-6 text-center text-xs text-slate-400 bg-slate-900/50 rounded-2xl border border-slate-800">
+        <i class="fa-solid fa-magnifying-glass text-xl mb-2 text-slate-500"></i>
+        <div>Aucun site ne correspond à cette combinaison de critères.</div>
       </div>
     `;
     return;
   }
 
-  filtered.forEach(spot => {
-    const item = document.createElement('div');
-    item.className = 'flex items-center justify-between p-2 rounded-xl bg-slate-900/70 hover:bg-slate-800 border border-slate-800 hover:border-cyan-500/40 cursor-pointer transition select-none group';
-    
-    const islandBadge = spot.is_island ? `<span class="px-1 py-0.2 rounded text-[8px] bg-cyan-950 border border-cyan-500/40 text-cyan-300 font-bold ml-1">🏝️ ${spot.island_name || ''}</span>` : '';
-    const locBreadcrumb = [spot.subdiv, spot.department, spot.country].filter(Boolean).join(' · ');
+  // --- RENDU EN MOSAÏQUE D'IMAGES (5 COLONNES SUR GRAND ÉCRAN) ---
+  if (currentAdvancedViewMode === 'grid') {
+    listEl.className = 'grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-3';
 
-    item.innerHTML = `
-      <div class="flex items-center gap-2 min-w-0 pr-1">
-        <span class="text-sm shrink-0 group-hover:scale-110 transition-transform">${spot.flag || '📍'}</span>
-        <div class="min-w-0">
-          <div class="text-[11px] font-bold text-white truncate flex items-center">${spot.name} ${islandBadge}</div>
-          <div class="text-[9px] text-cyan-400 truncate">${locBreadcrumb} · ${spot.century || spot.era_group || ''}</div>
+    filtered.forEach(spot => {
+      const card = document.createElement('div');
+      card.className = 'group relative rounded-xl overflow-hidden bg-slate-900 border border-slate-800 hover:border-cyan-400 transition-all duration-200 cursor-pointer shadow-lg hover:shadow-cyan-500/20 flex flex-col';
+
+      const islandBadge = spot.is_island ? `<span class="px-1.5 py-0.5 rounded text-[8px] bg-cyan-950/90 border border-cyan-400 text-cyan-200 font-bold backdrop-blur-sm">🏝️ ${spot.island_name || ''}</span>` : '';
+      const fallbackImg = 'https://placehold.co/600x400/0f172a/38bdf8?text=Voyage';
+
+      card.innerHTML = `
+        <div class="relative w-full h-28 sm:h-32 overflow-hidden bg-slate-950 shrink-0">
+          <img src="${spot.image || fallbackImg}" alt="${spot.name}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.src='${fallbackImg}'">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+          <div class="absolute top-1.5 left-1.5 flex items-center gap-1">
+            <span class="text-xs px-1.5 py-0.5 rounded bg-slate-950/80 backdrop-blur-sm border border-slate-700/80">${spot.flag || '📍'}</span>
+            ${islandBadge}
+          </div>
+          <div class="absolute bottom-1.5 left-2 right-2">
+            <h4 class="text-xs font-bold text-white truncate drop-shadow">${spot.name}</h4>
+          </div>
         </div>
-      </div>
-      <i class="fa-solid fa-chevron-right text-[10px] text-slate-500 group-hover:text-cyan-300 transition-colors shrink-0"></i>
-    `;
-    item.onclick = () => {
-      closeAllPopups();
-      selectSpot(spot);
-    };
-    listEl.appendChild(item);
-  });
+        <div class="p-2 flex flex-col justify-between flex-1 gap-1 text-[10px]">
+          <div class="text-cyan-400 truncate font-medium">
+            <i class="fa-solid fa-location-dot text-[9px] mr-1"></i>${spot.subdiv || spot.department || spot.country}
+          </div>
+          <div class="flex items-center justify-between text-slate-400 text-[9px] pt-1 border-t border-slate-800/80">
+            <span class="truncate">${spot.century || spot.era_group || ''}</span>
+            <span class="text-cyan-400 font-bold group-hover:translate-x-0.5 transition-transform"><i class="fa-solid fa-chevron-right text-[8px]"></i></span>
+          </div>
+        </div>
+      `;
+
+      card.onclick = () => {
+        closeAllPopups();
+        selectSpot(spot);
+      };
+
+      listEl.appendChild(card);
+    });
+
+  // --- RENDU EN LISTE COMPACTE ALTERNATIVE ---
+  } else {
+    listEl.className = 'space-y-1.5';
+
+    filtered.forEach(spot => {
+      const item = document.createElement('div');
+      item.className = 'flex items-center justify-between p-2 rounded-xl bg-slate-900/70 hover:bg-slate-800 border border-slate-800 hover:border-cyan-500/40 cursor-pointer transition select-none group';
+
+      const islandBadge = spot.is_island ? `<span class="px-1 py-0.2 rounded text-[8px] bg-cyan-950 border border-cyan-500/40 text-cyan-300 font-bold ml-1">🏝️ ${spot.island_name || ''}</span>` : '';
+      const locBreadcrumb = [spot.subdiv, spot.department, spot.country].filter(Boolean).join(' · ');
+
+      item.innerHTML = `
+        <div class="flex items-center gap-2 min-w-0 pr-1">
+          <span class="text-sm shrink-0 group-hover:scale-110 transition-transform">${spot.flag || '📍'}</span>
+          <div class="min-w-0">
+            <div class="text-[11px] font-bold text-white truncate flex items-center">${spot.name} ${islandBadge}</div>
+            <div class="text-[9px] text-cyan-400 truncate">${locBreadcrumb} · ${spot.century || spot.era_group || ''}</div>
+          </div>
+        </div>
+        <i class="fa-solid fa-chevron-right text-[10px] text-slate-500 group-hover:text-cyan-300 transition-colors shrink-0"></i>
+      `;
+
+      item.onclick = () => {
+        closeAllPopups();
+        selectSpot(spot);
+      };
+
+      listEl.appendChild(item);
+    });
+  }
 }
 
 function resetAdvancedFilters() {
