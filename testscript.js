@@ -34,6 +34,585 @@ const COUNTRY_SUBDIV_TOTALS = {
 
 const travelSpots = [
   {
+    id: "toyooka_genbudo_park",
+    name: "Toyooka - Parc Géologique des Grottes de Genbudō",
+    country: "Japon",
+    region_admin: "Kansai",
+    department: "Préfecture de Hyōgo",
+    subdiv: "Toyooka",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 35.588530,
+    lng: 134.804707,
+    altitude: 25,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "nature",
+    era_label: "Temps géologique (orgues basaltiques de 1,6 Ma)",
+    century: "",
+    category: "volcan",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMsO7gUtoQqTldjIVJDgEwGQA9EgQ4Ul6G0IjCaQHKKEJHAIUFDeCcoXmTqgBzmh5TTWlWcmxGBJ2XOtJ8PE1krgoxdcZxFZweqkGNIqOU8lEPtW5QbpD-bmuQgwCwHQgeEoa8OQ17W4Fn5Z-jYilV8qA=w2500-h1667-s-no-gm?authuser=0",
+    description: "Site naturel et géologique spectaculaire bordant la rivière Maruyama, le parc de Genbudō abrite cinq cavités nées du refroidissement d'une coulée de lave volcanique survenue il y a environ 1,6 million d'années (Pléistocène). En se solidifiant lentement, le basalte s'est rétracté pour former d'impressionnantes colonnades prismatiques hexagonales et pentagonales (orgues basaltiques). C'est précisément en étudiant l'orientation magnétique des minéraux de ces parois en 1926 que le géophysicien japonais Motonori Matuyama découvrit l'inversion du champ magnétique terrestre, une avancée scientifique fondamentale pour la géologie moderne.",
+    visiter: "Suivre les sentiers aménagés reliant les cinq grottes principales, chacune nommée d'après l'une des quatre créatures mythologiques célestes : Genbudō (la tortue noire), Seiryūdō (le dragon bleu), Byakkodō (le tigre blanc) et Suzakudō (l'oiseau vermillon). Observer de près la précision géométrique stupéfiante des orgues de basalte dressées à la verticale ou incurvées en éventail. Admirer les eaux calmes du bassin reflétant la paroi de Seiryūdō et visiter le musée adjacent présentant de remarquables spécimens minéralogiques et des fossiles découverts dans la région du géoparc San'in Kaigan.",
+    link: "https://photos.google.com/share/AF1QipNHqMHL_7SfOOebUsfihtPZgGMLCn1oe35fxna2Gela_KTco3kKxBr-c43Vfpze6g?key=ekw0TTc2eVAzVkpoajI4a2RKMGJPbmduVE5VOHR3"
+  },
+  {
+    id: "toyooka_kinosaki_onsen",
+    name: "Toyooka - Village Thermal de Kinosaki Onsen",
+    country: "Japon",
+    region_admin: "Kansai",
+    department: "Préfecture de Hyōgo",
+    subdiv: "Toyooka",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 35.625765,
+    lng: 134.807645,
+    altitude: 10,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque de Nara (fondation thermale en 717)",
+    century: "VIIIe siècle",
+    category: "star",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczORQZpGdZPVa5eWQKV-O1z89jQcy77BtD1mSf7QUs4tzEA78bfvclCKW7XcEJAOZ8F35iXmsEby2XJoUv0CUag2tgrUpnk51R5wowqarYzjWA_3OmHtszquPOBlNtpfsU75kVLWdAP-w2_td_dxxg4grg=w1984-h2635-s-no-gm?authuser=0",
+    description: "Célèbre cité thermale réputée depuis plus de mille trois cents ans, Kinosaki Onsen s'étire le long du canal Otani ombragé de saules pleureurs et enjambé de pittoresques ponts de pierre voûtés. Découverte selon la légende par le moine bouddhiste Dōchi Shōnin en 717 après mille jours de prières continues, la station est le berceau d'une tradition balnéaire authentique où les visiteurs arpentent les ruelles pavées vêtus d'un yukata léger et chaussés de sandales en bois geta pour effectuer la tournée des sept bains publics sacrés (soto-yu). Le charme nostalgique de ses auberges ryokan a également inspiré nombre de grands écrivains du début du XXe siècle, dont Naoya Shiga.",
+    visiter: "Revêtir un yukata traditionnel et enfiler des geta pour déambuler le long du canal bordé de lanternes à gaz et de façades en bois d'époque Taishō. Pratiquer le soto-yu meguri en faisant tamponner son pass thermal dans les sept établissements de bains publics aux vertus et ambiances variées, notamment Goshonoyu (le bain du palais impérial avec cascade en plein air) et Ichino-yu. Déguster les spécialités locales au gré des étals : crabe des neiges de Matsuba en saison hivernale, bœuf de Tajima grillé, ou glaces et œufs mollets cuits dans les fontaines thermales fumantes.",
+    link: "https://photos.google.com/share/AF1QipPbMybVwT70dG-fxC9dpMr9Kofb6vrj6_bAO_MzntChEQatvuxl4r7OdJxauWTxNA?key=dkd0WEFtYkNzQWlzeHUyVmZhOEFCQmNjRmxRd3RB"
+  },
+   {
+    id: "hakone_jinja",
+    name: "Hakone - Sanctuaire Hakone-jinja",
+    country: "Japon",
+    region_admin: "Kantō",
+    department: "Préfecture de Kanagawa",
+    subdiv: "Hakone",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 35.203097,
+    lng: 139.025652,
+    altitude: 730,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque de Nara (fondation en 757)",
+    century: "VIIIe siècle",
+    category: "religieux",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMvD3ciQXpmwu9IT0f_D5NiJv25AyM6EQ2gmbdqMuaf7dGKoRIvgqabiLl_aFqkDGzuLzywLTKynXXqhi3zibu_kuiSlGireG4XqJ2Kp7SpNARfg7rSalBLCppay06ME0lsmNl1K6wlitbzNVDgji6yUw=w1921-h2635-s-no-gm?authuser=0",
+    description: "Niché au cœur d'une forêt millénaire de cryptomérias géants au pied du mont Hakone, le sanctuaire shinto Hakone-jinja borde les rives mystiques du lac Ashi. Fondé en 757 par le moine Mangan à la suite d'une révélation divine, ce haut lieu de vénération montagnarde fut historiquement révéré par les guerriers samouraïs, notamment Minamoto no Yoritomo et Tokugawa Ieyasu, venus y implorer la victoire militaire et la protection divine sur la route du Tōkaidō. Le site est mondialement réputé pour son spectaculaire « torii de la paix » (Heiwa no Torii), érigé en 1952 directement dans les eaux calmes du lac, reliant symboliquement le monde des esprits à l'immensité aquatique.",
+    visiter: "Descendre le sentier pavé de marches en pierre plongeant vers la grève du lac Ashi pour admirer le torii vermillon émergeant des eaux, cadrant au loin les collines boisées et les bateaux pirates. Remonter la majestueuse allée bordée de cèdres japonais centenaires parsemée de lanternes en pierre moussues jusqu'au pavillon principal (Haiden). Se purifier les mains à la fontaine sacrée aux neuf têtes de dragon du sanctuaire Kuzuryū-jinja adjacent, réputée apporter chance et santé. Contempler les riches ornements laqués de rouge et d'or de l'architecture shinto traditionnelle, visiter la salle du trésor abritant des armes de samouraïs médiévales, et savourer la quiétude mystique de ce sanctuaire enveloppé par les brumes d'altitude.",
+    link: "https://photos.google.com/share/AF1QipP2x_M2T2jlHQCM_ahzzALakyiWoCRSkhDcC3NQeFMmr2zmlaGVDiWS_ZEihVS-xA?key=dTZwRmhEU1ZnRElUTjI0VmJtMktjMVlzVTF2SW5B"
+  },
+  {
+    id: "hakone_taikan_observation_deck",
+    name: "Hakone - Belvédère du Mont Taikan (Mt. Taikan)",
+    country: "Japon",
+    region_admin: "Kantō",
+    department: "Préfecture de Kanagawa",
+    subdiv: "Yugawara",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 35.184912,
+    lng: 139.048983,
+    altitude: 1011,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "nature",
+    era_label: "panorama naturel",
+    century: "",
+    category: "star",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNyAmGBaH__FFwnim8A9mCB3Roq1OgbRkwmjSaJjzHn-hPn4MAH8LsW3UFGYYcUoB9ELlwKX00Ry-cVQow0iKQsqJ7X_dwsCWWXeW3EZORQHytlwDykiQO_Os8eXDekOYe27gF_scCSwYBxtA7DW32B4A=w2489-h1451-s-no-gm?authuser=0",
+    description: "Culminant à plus de mille mètres d'altitude sur la ligne de crête séparant Hakone de Yugawara, le belvédère du mont Taikan offre l'une des perspectives panoramiques les plus grandioses de l'archipel nippon. Nommé en hommage au maître peintre Yokoyama Taikan qui aimait y contempler la perfection des paysages, ce promontoire venteux embrasse d'un seul regard le miroir bleu du lac Ashi encaissé dans son ancienne caldeira, surmonté en arrière-plan par le cône parfait et enneigé du mont Fuji. Par temps clair, la vue s'étire vers le sud jusqu'à la péninsule d'Izu et les eaux scintillantes de la baie de Sagami.",
+    visiter: "Accéder à l'aire d'observation par la route scénique d'altitude Anest Iwata Turnpike. Rejoindre la terrasse panoramique extérieure pour saisir le contraste saisissant entre la surface étincelante du lac Ashi en contrebas et la silhouette iconique du mont Fuji se découpant sur l'horizon. Profiter des longues-vues pour scruter les crêtes volcaniques de la caldeira de Hakone et les fumerolles lointaines de la vallée. Découvrir l'espace d'accueil du Taikanzan Lounge pour observer le paysage à l'abri des vents frais de montagne, un spot prisé des photographes de paysages et des passionnés de mécanique automobile venus sillonner les lacets du col.",
+    link: "https://photos.google.com/share/AF1QipP2x_M2T2jlHQCM_ahzzALakyiWoCRSkhDcC3NQeFMmr2zmlaGVDiWS_ZEihVS-xA?key=dTZwRmhEU1ZnRElUTjI0VmJtMktjMVlzVTF2SW5B"
+  },
+  {
+    id: "hakone_owakudani",
+    name: "Hakone - Vallée Volcanique d'Ōwakudani",
+    country: "Japon",
+    region_admin: "Kantō",
+    department: "Préfecture de Kanagawa",
+    subdiv: "Hakone",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 35.243178,
+    lng: 139.020073,
+    altitude: 1040,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "nature",
+    era_label: "Temps géologique (caldeira volcanique active)",
+    century: "",
+    category: "volcan",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNwITNCC9nLODN7BfHhEhkhAiCboaLhxDjnZVGaGlCQmx2edqv_ZViNN6xtUkBJi8MUbgnZg-O2w1B_bxM4lo20ilmXYlskUw4hHmLLcAGsev6zhtY-YXdA2rRnAexEqtJjB_Wx-Y1IA9m76AxdcJnLcQ=w2489-h1660-s-no-gm?authuser=0",
+    description: "Anciennement nommée Jigokudani (« la vallée de l'enfer »), Ōwakudani est une impressionnante gorge volcanique active née de l'effondrement partiel du mont Kamiyama lors d'une gigantesque explosion phréatique il y a environ trois mille ans. Ce paysage désolé et minéral, aux pentes blanchies par les dépôts de soufre, est perpétuellement balayé par d'épaisses fumerolles toxiques s'échappant d'évents rocheux sous haute pression. Des sources thermales bouillonnantes y jaillissent à plus de 80 °C, exploitées depuis des siècles pour alimenter les célèbres stations d'onsen de la région et perpétuer des traditions culinaires volcaniques insolites.",
+    visiter: "Arriver en téléphérique panoramique (Hakone Ropeway) pour survoler les abîmes fumants de la caldeira et contempler le mont Fuji se dressant à l'ouest. Suivre les passerelles d'observation sécurisées au milieu des vapeurs soufrées crépitantes et des cours d'eau bouillonnants aux teintes ocre et grisâtres. Goûter impérativement aux célèbres kuro-tamago, des œufs de poule cuits directement dans les eaux géothermales : la réaction chimique entre le fer et le soufre noircit leur coquille, et la légende locale affirme que chacun d'eux prolonge l'existence de sept années. Parcourir le centre géologique pour comprendre l'activité volcanique sous-jacente de l'arc d'Izu.",
+    link: "https://photos.google.com/share/AF1QipMYB4APoUA2rYtsXgB4ouiv4REvI6AMgBC-ViPLgUUkc69iEXL7A58bbvj1oZtVrw?key=TW5JVEJ1SF9FWVNyS3NVWXYwUVpUV2M3dm85eG1R"
+  },
+  {
+    id: "fuji_oshino_hakkai",
+    name: "Oshino - Sources Sacrées d'Oshino Hakkai",
+    country: "Japon",
+    region_admin: "Chūbu",
+    department: "Préfecture de Yamanashi",
+    subdiv: "Oshino",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 35.460160,
+    lng: 138.832079,
+    altitude: 935,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "moderne",
+    era_label: "Époque d'Edo à Meiji (sources sacrées du Fuji)",
+    century: "XIXe siècle",
+    category: "star",
+    unesco_name: "Fujisan, lieu sacré et source d'inspiration artistique",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN4GaFFvDwOoo39gh_l5ngCtHI9FWc0xniHMgArYQTokdnxLwTTuuMFUeJSL-wtEuIW9SmibsomjyIdGFHxpChFbcEZuiS92OyAUt8BQm7uCtvDDxZW0eC06ljjAeZMVt47FLtpnH0wAnDXn2V7A75vnA=w2966-h1978-s-no-gm?authuser=0",
+    description: "Écrin préservé niché sur le plateau entre le lac Kawaguchiko et le lac Yamanakako, Oshino Hakkai regroupe huit étangs de résurgence limpides issus de la fonte des neiges du mont Fuji. Filtrées pendant plus de huit décennies à travers les épaisses strates de laves poreuses du volcan, ces eaux atteignent une pureté et une transparence cristallines exceptionnelles, maintenues à une température constante de 13 °C toute l'année. Vénéré depuis le Moyen Âge comme un lieu de purification rituelle (misogi) avant l'ascension sacrée du Fuji-san, le hameau a conservé son charme bucolique traditionnel avec ses vieilles fermes au toit de chaume, ses roues à aubes en bois et ses saules pleureurs se reflétant dans les bassins.",
+    visiter: "Déambuler d'étang en étang (notamment Waku-ike, Deguchi-ike et Kagami-ike) pour observer la fascinante clarté de l'eau révélant des fonds rocheux tapissés d'algues émeraudes et de grosses truites arc-en-ciel nageant en suspension. Se désaltérer directement à la fontaine jaillissante en forme de dragon crachant l'eau pure du Fuji. Admirer le reflet parfait du mont Fuji dans le bassin Kagami-ike (« l'étang miroir ») lors des matinées calmes et ensoleillées. Flâner le long des échoppes villageoises proposant des spécialités artisanales arrosées à l'eau de source, comme les nouilles soba fraîches, les galettes de riz soufflé grillées au feu de bois et le kusa mochi à l'armoise cuit sur plaque.",
+    link: "https://photos.google.com/share/AF1QipOKa7sY5q9IwYyaNjgeYx1zb7ZhC6prQpD291yo9OZ-jOG6y5VxEPVBkxh1T7KFnw?key=TDJUWTl2SVhxaXU5R1AwVGpvNVVIXzNhelZJbnF3"
+  },
+  {
+    id: "fuji_nakanokura_pass",
+    name: "Lac Motosu - Belvédère du Col Nakanokura",
+    country: "Japon",
+    region_admin: "Chūbu",
+    department: "Préfecture de Yamanashi",
+    subdiv: "Minobu",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 35.474105,
+    lng: 138.575735,
+    altitude: 1045,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "nature",
+    era_label: "Panorama iconique du billet de 1000 yens",
+    century: "",
+    category: "star",
+    unesco_name: "Fujisan, lieu sacré et source d'inspiration artistique",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO1xRH56hURTiSJPHonupDMufdqMaQTrfgYADXxslz9MMHtbGbBj9wnGXqHC-GBx0GtOtgh_ZTCgVdCFQfdf0LOShIZg75Yhxv5bexgbyvApxuSPCKRvI8rPVCgO41oSXMxddGtzQSjaR-hH2KvTURluA=w2250-h1499-s-no-gm?authuser=0",
+    description: "Perché sur les pentes boisées qui dominent la rive nord-ouest du lac Motosu (le plus profond des cinq lacs du Fuji), le belvédère du col Nakanokura constitue l'un des panoramas les plus célèbres et symboliques du Japon. C'est exactement depuis cet éperon rocheux que le photographe Kōyō Okada captura en 1935 son légendaire cliché « Kohan no Haru » (Printemps au bord du lac), immortalisant le mont Fuji se mirant dans les flots cobalt. Cette composition magistrale connut une renommée nationale absolue en devenant l'illustration gravée ornant le dos des billets de 5000 yens, puis de l'actuel billet de 1000 yens en circulation dans tout le pays.",
+    visiter: "Emprunter le sentier de randonnée pentu et sinueux serpentant sous les sous-bois de feuillus depuis le bord du lac Motosu (environ trente minutes de marche soutenue). Atteindre la plate-forme en bois aménagée en belvédère à pic pour contempler l'immense cône volcanique se dressant symétriquement au-dessus des eaux bleu nuit du lac. Sortir un billet de 1000 yens de sa poche pour comparer directement l'illustration officielle avec le panorama réel qui se déploie sous ses yeux. Profiter du calme absolu de cette rive sauvage préservée de l'urbanisation, particulièrement magique aux premières lueurs du soleil matinal lorsque les brumes se dissipent sur l'eau.",
+    link: "https://photos.google.com/share/AF1QipOKa7sY5q9IwYyaNjgeYx1zb7ZhC6prQpD291yo9OZ-jOG6y5VxEPVBkxh1T7KFnw?key=TDJUWTl2SVhxaXU5R1AwVGpvNVVIXzNhelZJbnF3"
+  },
+  {
+    id: "matsumoto_castle",
+    name: "Matsumoto - Château de Matsumoto (Karasu-jō)",
+    country: "Japon",
+    region_admin: "Chūbu",
+    department: "Préfecture de Nagano",
+    subdiv: "Matsumoto",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 36.238695,
+    lng: 137.969051,
+    altitude: 590,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "moderne",
+    era_label: "Époque Azuchi-Momoyama (construit vers 1592-1604)",
+    century: "XVIe siècle",
+    category: "chateau",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN-wH08400iBAkTGgyxVt7f35yEnosRohonUXnhwvEu7hhiP-4ca-WO9A5c2tc34xEzy1QSK99nW4vJ1hpbmsaZmYrFHKkP2Mq5pJP0BM1_79mDsnmJIpU1rkpS3namiJi8sblyNFcDp8qBcJCEVRwa4Q=w2966-h2234-s-no-gm?authuser=0",
+    description: "Surnommé le « Corbeau noir » (Karasu-jō) en raison de son bardage en bois sombre laqué de noir, le château de Matsumoto est l'un des douze donjons originaux (Tenshu) subsistant au Japon et classé Trésor National. Édifié entre 1592 et 1604 par le clan Ishikawa au cœur des Alpes japonaises, il présente une structure unique de type hirajiro (forteresse de plaine) ceinte d'un triple réseau de douves d'eau limpide alimentées par les sources alpines. Témoin capital de la transition féodale nippone, il juxtapose un donjon guerrier truffé de meurtrières à arquebuses et une délicate aile d'observation de la lune (Tsukimi-yagura) ajoutée en temps de paix vers 1635.",
+    visiter: "Traverser le pont rouge arqué franchissant les larges douves peuplées de carpes koï et de cygnes blancs pour admirer les reflets de la façade noire se découpant sur les sommets enneigés des Alpes du Nord. Pénétrer à l'intérieur du donjon d'origine de six étages pour découvrir la charpente massive en cèdre et en pin assemblée sans un seul clou métallique. Gravir les escaliers de bois vertigineux aux marches abruptes inclinées jusqu'à 61 degrés. Observer l'impressionnante collection d'armes à feu d'époque (mousquets teppō, arquebuses et armures de samouraïs), puis atteindre l'étage sommital pour embrasser une vue panoramique circulaire sur les toits de Matsumoto et les cimes environnantes.",
+    link: "https://photos.google.com/share/AF1QipOBiQjtWCtuT8t_Ox4TgxcQlm4ofqOLfVj1v2WM96D_XUHLdRFjBK-UNOzxmG2oLw?key=TVZleVgyU01sZzhHcms0TXYzemNoTVRKOFhkWFJn"
+  },
+  {
+    id: "okuhida_hirayu_waterfall",
+    name: "Okuhida - Cascade de Hirayu (Hirayu Ōtaki)",
+    country: "Japon",
+    region_admin: "Chūbu",
+    department: "Préfecture de Gifu",
+    subdiv: "Takayama",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 36.177787,
+    lng: 137.559627,
+    altitude: 1315,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "nature",
+    era_label: "Site naturel classé (Top 100 des cascades du Japon)",
+    century: "",
+    category: "cascade",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOOF_QPj2U6rYpL2K3VKjYJBnoQ5izgTjUHWhBe1SyFL7fvlu1Njkk824VYRcQpVitsFVGOxB3Cy9X6jgf4343dBEqfhd-9TWDzMvrmEuHY1_pr4hMIxGt3lU1hS251d0ZUGnaLDW60PsAIwRn5-FVDAg=w1984-h2635-s-no-gm?authuser=0",
+    description: "Surgissant d'une abrupte falaise de basalte volcanique au cœur des forêts d'altitude de la station thermale d'Okuhida Onsengō, la cascade de Hirayu (Hirayu Ōtaki) figure parmi les cent plus belles chutes d'eau du Japon. Haute de soixante-quatre mètres pour six mètres de large, elle est alimentée par les eaux de fonte et les résurgences fraîches du mont Norikura voisin. Selon les légendes guerrières régionales du XVIe siècle, les troupes épuisées du seigneur Takeda Shingen furent guidées vers les sources thermales bienfaisantes de Hirayu par un mystérieux singe blanc apparu près de cette chute d'eau écumante.",
+    visiter: "Emprunter le paisible sentier pédestre forestier bordé de torrents tumultueux et de conifères alpins depuis le parking de Hirayu Onsen. Atteindre la plate-forme d'observation en bois située au pied du canyon pour ressentir le souffle puissant de l'air frais et la brumisation vivifiante dégagée par le fracas des flots contre les roches moussues. Admirer la vigueur du rideau d'eau blanche vertical fendant la gorge boisée, particulièrement spectaculaire en été au milieu des frondaisons verdoyantes, flamboyant lors du rougeoiement automnal des érables (kōyō), ou complètement métamorphosé en un gigantesque pilier de glace bleue lors des grands gels d'hiver.",
+    link: "https://photos.google.com/share/AF1QipOIJ2YE2gBqnx4TIM4FdLuiNfcq1Yi6pKtvSJwTV_X0VCnOZD-Ufld39Tv-UWjrDQ?key=enh1UHZreXRzeWRlVDJxNDJxbGFsajRhUmM3U3pn"
+  },
+  {
+    id: "takayama_sanmachi_suji",
+    name: "Takayama - Quartier Historique de Sanmachi Suji",
+    country: "Japon",
+    region_admin: "Chūbu",
+    department: "Préfecture de Gifu",
+    subdiv: "Takayama",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 36.141057,
+    lng: 137.259638,
+    altitude: 575,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "moderne",
+    era_label: "Époque d'Edo (XVIIe - XIXe siècle)",
+    century: "XVIIe siècle",
+    category: "star",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPP60gKj01L9lje_zLAnALqIsQWQUm_PmXfiUgyQR3fIqRvq9_09wpdNv46imbOtYAM3huQoH8xufIGUHoNOP3XbIgY-a2d2yD6DWBSk0MPi1eVkijiwp16zItaQZNUk5Qr5R0tX63lOqJRJ4YJsUXXMg=w2966-h2234-s-no-gm?authuser=0",
+    description: "Cœur battant de la vieille ville marchande de Takayama au creux de la province montagnarde de Hida, Sanmachi Suji est un ensemble exceptionnellement préservé de ruelles historiques bordées de machiya (maisons de ville marchandes) en bois sombre datant de l'époque d'Edo. Protégée par son isolement alpin, la cité prospéra grâce au savoir-faire réputé de ses maîtres charpentiers et ébénistes réquisitionnés par la cour impériale. Les façades en treillis de bois ajouré (kōshi), les auvents bas et les rigoles d'eau vive courant le long des pas-de-porte témoignent de l'opulence des marchands de bois, de soie et surtout des grandes brasseries familiales de saké qui font la renommée du quartier.",
+    visiter: "Arpenter les trois rues parallèles principales (Kami-Sannomachi, Kami-Ninomachi et Kami-Ichinomachi) au son du clapotis de l'eau claire s'écoulant dans les caniveaux pavés traditionnels. Repérer les imposantes boules d'aiguilles de cèdre (sugidama) suspendues sous les auvents marquant l'entrée des vénérables brasseries de saké pour participer à des dégustations de crus locaux servis dans des coupelles d'ochoko. Déguster de délicieuses brochettes ou sushis de bœuf persillé de Hida (Hida-gyu) préparés à la minute par les étals de rue, chiner des objets en laque sculptée traditionnelle (Hida shunkei), et visiter les cours intérieures ombragées des anciennes demeures marchandes reconverties en galeries d'artisans.",
+    link: "https://photos.google.com/share/AF1QipOqFTc9o_f_UUJ0HTPSBzmBgjx83dhRdvcWUQ9rrdxC5e9s09dBYQrqrxawDwaXBw?key=VHczcjVlaVNkdU9pdWJ3ekJLOTcxQjZJTlNsbFRR"
+  },
+  {
+    id: "shirakawago_ogimachi",
+    name: "Shirakawa-gō - Village Historique d'Ogimachi (Gasshō-zukuri)",
+    country: "Japon",
+    region_admin: "Chūbu",
+    department: "Préfecture de Gifu",
+    subdiv: "Shirakawa",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 36.258920,
+    lng: 136.907130,
+    altitude: 500,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "moderne",
+    era_label: "Époque d'Edo à Meiji (Patrimoine Mondial UNESCO 1995)",
+    century: "XVIIIe siècle",
+    category: "star",
+     unesco_name: "Villages historiques de Shirakawa-go et Gokayama",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMDcc3BE31AHhnhn3VH9nMLewnfjtsp2LPT2kIfKRTVoDuPp8E1uFSLypg8_wXf2DTfxVvU2oxwyv-7In7HAw5a9ADRAdKktbIUsEQE7TBPbQGlng0Oqsi7SyjvkBFLrPHOoseT36El682DrV48iRkK4g=w2966-h1978-s-no-gm?authuser=0",
+    description: "Niché dans la vallée isolée du fleuve Shōkawa au cœur de montagnes sauvages jadis coupées du monde en hiver, Ogimachi est le plus grand village préservé de Shirakawa-gō, inscrit au patrimoine mondial de l'UNESCO depuis 1995. Il est mondialement réputé pour ses spectaculaires demeures paysannes traditionnelles de style gasshō-zukuri (« construites comme des mains en prière »). Dotées de vertigineuses toitures de chaume inclinées jusqu'à 60 degrés pour supporter les mètres de neige poudreuse hivernale sans s'effondrer, ces bâtisses en bois de plusieurs étages hébergeaient de vastes familles patriarcales et abritaient dans leurs combles ventilés d'immenses élevages de vers à soie.",
+    visiter: "Prendre de la hauteur en montant au belvédère du château d'Ogimachi (Shiroyama) pour embrasser la vue de carte postale sur l'ensemble du hameau niché entre les rizières verdoyantes et les pentes alpines boisées. Flâner le long des venelles bordées de canaux d'eau de source regorgeant de truites, entre les bâtisses au chaume blond patiné par le temps. Visiter l'intérieur de la maison Wada ou de la maison Nagase pour gravir les échelles de meunier menant aux vastes greniers en charpente d'orme assemblée par des cordages de chanvre. S'imprégner de l'esprit du yui, ce système de solidarité communautaire séculaire où tous les villageois s'unissent pour refaire le chaume d'un toit en une seule journée.",
+    link: "https://photos.google.com/share/AF1QipO-9fthuckrHo5lqfqnWJDKX2OiAbRSSIVyLUw0n2_g-OQRylmTLkag1BfDfYWbRQ?key=SXB3Qm1pdHR0dC1Qc2kwdE5tUW4wN1hzVGk2UDR3"
+  },
+  {
+    id: "shirakawago_shirakawa_hachiman",
+    name: "Shirakawa-gō - Sanctuaire Shirakawa Hachiman-jinja",
+    country: "Japon",
+    region_admin: "Chūbu",
+    department: "Préfecture de Gifu",
+    subdiv: "Shirakawa",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 36.255001,
+    lng: 136.905674,
+    altitude: 505,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque de Nara (fondation vers 708-715)",
+    century: "VIIIe siècle",
+    category: "religieux",
+     unesco_name: "Villages historiques de Shirakawa-go et Gokayama",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOT_XhWFijb0vWJ6OrCq-jq-BqhmyPKHDR9wzpLLHBdaeCzQ52sggj4e5IoogwHZJDWoFg1f7mMD0xvRLK6FR5KWmf38NmDZOKepo2aFIEhSSyQX5tSjPAV_rn9QMOZwJPRmaCAefLLnNWZrRhO7PVq7g=w2966-h1978-s-no-gm?authuser=0",
+    description: "Érigé à l'orée méridionale du village d'Ogimachi au pied de falaises boisées dominées par d'immenses cèdres japonais, le sanctuaire Shirakawa Hachiman-jinja est le gardien spirituel de la vallée de Shirakawa-gō. Fondé selon la tradition orale au début du VIIIe siècle (ère Wadō), il est dédié à Hachiman, protecteur de la communauté contre les calamités et les incendies. Ce lieu saint discret est célèbre dans tout le pays pour être le théâtre annuel du festival Doburoku (Doburoku Matsuri) chaque mois d'octobre, une célébration séculaire où l'on offre aux divinités puis aux pèlerins un saké blanc rustique non filtré, spécialement brassé au sanctuaire selon des méthodes ancestrales.",
+    visiter: "Franchir le sobre torii de bois sombre se dressant à l'ombre d'un cèdre géant classé monument naturel pour pénétrer dans la cour sablonneuse et silencieuse du sanctuaire. Admirer la structure en bois vieilli du pavillon Haiden, ornée de tentures blanches portant le blason shinto et entourée d'arbres séculaires aux troncs massifs. Découvrir le petit musée du Doburoku aménagé dans l'enceinte pour comprendre l'histoire et les secrets de fermentation de ce saké rituel laiteux, et observer les maquettes illustrant les danses du lion (shishimai) exécutées par les villageois lors des fêtes automnales en costumes d'époque.",
+    link: "https://photos.google.com/share/AF1QipO-9fthuckrHo5lqfqnWJDKX2OiAbRSSIVyLUw0n2_g-OQRylmTLkag1BfDfYWbRQ?key=SXB3Qm1pdHR0dC1Qc2kwdE5tUW4wN1hzVGk2UDR3"
+  },
+  {
+    id: "kanazawa_higashi_chaya",
+    name: "Kanazawa - Quartier des Geishas de Higashi Chaya",
+    country: "Japon",
+    region_admin: "Chūbu",
+    department: "Préfecture d'Ishikawa",
+    subdiv: "Kanazawa",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 36.572552,
+    lng: 136.666463,
+    altitude: 18,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "moderne",
+    era_label: "Époque d'Edo (établi en 1820)",
+    century: "XIXe siècle",
+    category: "star",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM_FfEBfd1rKSwY7e7l8TEQBrIG0VbzMCtUnA_K7WKtrN9LiWeKsml0Bz1mU8-ZPX1Qyf4KNH0HBlZMdyJicdhV9l_uAEZAurtD96nzlepY9MGmS6WEELPB9R4AztLvXCs1zqm43tCkuXrnPDH3wNFJcg=w2966-h1978-s-no-gm?authuser=0",
+    description: "Établi officiellement en 1820 par le puissant clan Maeda régnant sur le domaine de Kaga, Higashi Chaya est le plus vaste et prestigieux des quartiers de maisons de thé (chayagai) de Kanazawa. Dévolu aux arts raffinés du spectacle, de la musique au shamisen, de la poésie et de la danse dispensés par les geishas (geiko), le quartier se distingue par son architecture féodale unique : des bâtisses en bois à étage dotées de grilles fines et ajourées appelées kimusuko, dissimulant l'intérieur des salons aux regards des passants tout en laissant passer la lumière. Kanazawa étant le cœur national de l'artisanat de la feuille d'or (kanazawa haku), ce quartier incarne le sommet du raffinement esthétique d'Edo.",
+    visiter: "Arpenter l'allée centrale pavée bordée de façades en bois sombre parfaitement alignées et s'imprégner de l'atmosphère feutrée d'autrefois. Pousser les portes de la maison de thé historique Shima, transformée en musée, pour admirer les salons de réception traditionnels aux tatamis dorés, les instruments de musique anciens et le petit jardin intérieur. Visiter la maison Kaikaro ou la boutique d'orfèvrerie Hakuichi pour découvrir une pièce d'or entière tapissée de feuilles d'or et déguster la fameuse glace artisanale enveloppée d'une feuille d'or comestible étincelante. Flâner au crépuscule lorsque les lanternes de papier s'illuminent et que résonne parfois le son étouffé d'un shamisen.",
+    link: "https://photos.google.com/share/AF1QipOe497_gZlxHEk4kXngagUk3X4z3IIX6fTII-zbuf_m9_TBFokmB_oXmbA5rIGzqg?key=dVQyQXBrRWdEdWs5WFZQOVZPQi15dmEzeG1reGZn"
+  },
+  {
+    id: "kanazawa_kenrokuen",
+    name: "Kanazawa - Jardin Kenroku-en",
+    country: "Japon",
+    region_admin: "Chūbu",
+    department: "Préfecture d'Ishikawa",
+    subdiv: "Kanazawa",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 36.562647,
+    lng: 136.663088,
+    altitude: 52,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "moderne",
+    era_label: "Époque d'Edo (aménagé du XVIIe au XIXe siècle)",
+    century: "XVIIe siècle",
+    category: "star",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMcTUcV22McvMAERDMuW8_6AeAz5q4gx-Ax82R2RM_QKe67-h-ll98Zx9fVv16qoHguEN5Xo6OGyYN5amQku5yhRtYBicuKP_SWnntT37gdz82StlVrHWAdKEeuQ91blTG154u8LFDCmVdRX-guNE9QxA=w2966-h2234-s-no-gm?authuser=0",
+    description: "Considéré comme l'un des « Trois Grands Jardins » les plus éblouissants du Japon (avec le Kairaku-en et le Kōraku-en), le Kenroku-en fut façonné pendant près de deux siècles par les seigneurs Maeda successifs à l'extérieur des remparts du château de Kanazawa. Son nom, tiré d'un traité chinois de la dynastie Song, signifie le « Jardin des Six Caractéristiques sublimées », réunissant trois couples de qualités pourtant réputées incompatibles : l'immensité et la réclusion, l'artifice humain et le charme vénérable du temps, la fraîcheur des cours d'eau et la splendeur des panoramas lointains. Pins taillés en nuages, étangs sinueux, ponts de pierre et collines artificielles composent un tableau vivant parfait.",
+    visiter: "Admirer la célèbre lanterne Kotoji-tōrō à deux pieds de pierre inégaux dressée au bord de l'étang Kasumiga-ike, devenue l'emblème graphique de Kanazawa. Contempler l'ingénieux pin Karasaki-matsu aux branches étalées au ras de l'eau, soutenu en automne et en hiver par le yukizuri, une armature conique magistrale de cordages de paille le protégeant des lourdes neiges humides. Observer le jet d'eau naturel Funsui, considéré comme la plus ancienne fontaine mécanique du Japon fonctionnant par simple pression hydrostatique. Parcourir les sentiers moussus ombragés, traverser le pont des oies sauvages (Gankō-bashi) et contempler la vue panoramique plongeant sur les collines d'Utatsuyama et la plaine côtière.",
+    link: "https://photos.google.com/share/AF1QipOe497_gZlxHEk4kXngagUk3X4z3IIX6fTII-zbuf_m9_TBFokmB_oXmbA5rIGzqg?key=dVQyQXBrRWdEdWs5WFZQOVZPQi15dmEzeG1reGZn"
+  },
+  {
+    id: "kanazawa_shiguretei",
+    name: "Kanazawa - Pavillon de Thé Shigure-tei (Kenroku-en)",
+    country: "Japon",
+    region_admin: "Chūbu",
+    department: "Préfecture d'Ishikawa",
+    subdiv: "Kanazawa",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 36.561926,
+    lng: 136.661664,
+    altitude: 50,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "moderne",
+    era_label: "Époque d'Edo (construit vers 1676, reconstruit en 2000)",
+    century: "XVIIe siècle",
+    category: "star",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO_T-kjaiLg6ppxxI4HTMFjnqze_oPHzLbybKgPaVUZAM532Z4LNAz42D1SeeIo4tx42oN9XFtz6jcwUbPyIV2devVX0t5NxGqJ4S7rnDUGSSqmrrFL6mlueTuLn6JnScg4gqCaNu0PmIfMTof4k89cEg=w896-h1190-s-no-gm?authuser=0",
+    description: "Édifié à l'origine en 1676 par Maeda Tsunanori lors de la création de la villa Renchitei qui préfigura le jardin Kenroku-en, le Shigure-tei est un joyau d'architecture sukiya-zukuri dédié à la cérémonie du thé. Épargné par les transformations militaires et fidèlement restitué sur ses fondations d'origine en l'an 2000, ce pavillon en bois noble de cèdre et cloisons coulissantes en papier washi s'ouvre généreusement sur un ravissant jardin privé d'eau et de mousses. Les seigneurs féodaux venaient y goûter l'art délicat du thé tout en écoutant le doux crépitement des averses passagères (shigure) sur la toiture d'écorce de cyprès.",
+    visiter: "Retirer ses chaussures à l'entrée de la bâtisse pour fouler les nattes de tatami impeccables parfumées à la paille de jonc. S'asseoir en tailleur ou à genoux face aux cloisons entièrement ouvertes sur la terrasse en bois surplombant le jardin de mousses verdoyantes et le petit étang bordé de rocailles. Participer à la dégustation rituelle d'un bol de thé vert matcha fouetté ou de sencha de première récolte, accompagné d'une pâtisserie fraîche traditionnelle (wagashi) sculptée selon les motifs floraux de la saison en cours. Admirer les détails épurés des boiseries artisanales, les peintures de rouleaux suspendues dans l'alcôve tokonoma et la sérénité absolue qui émane de ce havre préservé.",
+    link: "https://photos.google.com/share/AF1QipOe497_gZlxHEk4kXngagUk3X4z3IIX6fTII-zbuf_m9_TBFokmB_oXmbA5rIGzqg?key=dVQyQXBrRWdEdWs5WFZQOVZPQi15dmEzeG1reGZn"
+  },
+  {
+    id: "kanazawa_shrine",
+    name: "Kanazawa - Sanctuaire Kanazawa-jinja",
+    country: "Japon",
+    region_admin: "Chūbu",
+    department: "Préfecture d'Ishikawa",
+    subdiv: "Kanazawa",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 36.560607,
+    lng: 136.662745,
+    altitude: 53,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "moderne",
+    era_label: "Époque d'Edo (fondation en 1794)",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO2GtPbJpZ7-EgY24ckemQqbCqZurRDajCWrsI604Ecxb4shDUJbTxKpWcz5BDzjl0RJakIh62MLxQuwT6TL_nbQ2dDLhrFnIw1JCTkUZItlMpb_zxE8QdoBdb0oSyISnykJTpaIcP1AikIe8Usv2lfTA=w2966-h1978-s-no-gm?authuser=0",
+    description: "Fondé en 1794 par le onzième seigneur de Kaga, Maeda Harunaga, à l'extrémité méridionale du jardin Kenroku-en, le sanctuaire Kanazawa-jinja fut initialement conçu pour protéger l'école médicale et littéraire du domaine féodal (Meirindō). Il est consacré à Sugawara no Michizane (Tenjin), vénéré dans tout l'archipel comme le dieu des lettres, des études et de la réussite aux examens, ainsi qu'à la déesse blanche du mont Hakusan. L'enceinte abrite également le puits légendaire Kinjō Reitaku (« le marais de l'or étincelant ») où le paysan Imohori Tōgoro lava jadis ses ignames sauvages et y découvrit de la poussière d'or natif, donnant son nom à la ville : Kanazawa (« le marais doré »).",
+    visiter: "Passer sous l'élégant torii vermillon bordé de lanternes votives et saluer les statues de taureaux sacrés couchés (messagers de Tenjin) dont le museau poli de bronze est caressé par les fidèles pour attirer la sagesse et la clarté d'esprit. Découvrir la source sacrée Kinjō Reitaku protégée par une charmille hexagonale de pierre et de bois, berceau toponymique mythique de Kanazawa. Observer les milliers d'amulettes et de plaques votives de bois (ema) suspendues par les étudiants préparant leurs concours universitaires. Pénétrer dans le sanctuaire secondaire adjacent de Shiranohebi-sha abritant un kami serpent blanc invoqué pour la prospérité financière et la bonne fortune des entreprises.",
+    link: "https://photos.google.com/share/AF1QipOe497_gZlxHEk4kXngagUk3X4z3IIX6fTII-zbuf_m9_TBFokmB_oXmbA5rIGzqg?key=dVQyQXBrRWdEdWs5WFZQOVZPQi15dmEzeG1reGZn"
+  },
+  {
+    id: "kanazawa_nagamachi_district",
+    name: "Kanazawa - Quartier Féodal des Samouraïs de Nagamachi",
+    country: "Japon",
+    region_admin: "Chūbu",
+    department: "Préfecture d'Ishikawa",
+    subdiv: "Kanazawa",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 36.563770,
+    lng: 136.650748,
+    altitude: 15,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "moderne",
+    era_label: "Époque d'Edo (XVIIe - XIXe siècle)",
+    century: "XVIIe siècle",
+    category: "star",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMeWn2AWIsfLcfCFMuX77BRCc82Yq_4ObJxeoGcVM3U5lSeuLgFyTNcVDeKq2aulPHIlxx5Ig00SrIW-daAHgHgNzr588QxSS5fMaJ7Az523yRfLdD2QSid9OwyBPOGdxKfSFI-86dfgpK9VOpD_fdhRw=w2966-h1978-s-no-gm?authuser=0",
+    description: "Situé au pied des anciennes douves occidentales du château de Kanazawa, Nagamachi est le quartier historique le plus authentique où résidaient autrefois les samouraïs de rang moyen et supérieur servant le clan Maeda. Tracé selon un plan labyrinthique destiné à dérouter d'éventuels assaillants, le quartier est célèbre pour ses ruelles pavées bordées de dobei, de hauts murs d'enceinte en terre crue et paille recouverts de tuiles plates protégeant les demeures seigneuriales des regards. Le long des ruelles coule le canal Onosho, le plus ancien canal d'irrigation de la ville creusé au XVIe siècle pour acheminer vivres, bois de construction et matières premières depuis la côte vers la forteresse.",
+    visiter: "Flâner le long des ruelles sinueuses pavées de galets en longeant les murets de pisé ocre coiffés de tuiles grises. Observer en période hivernale les komokake, ces nattes de paille tressée fixées le long des murs pour empêcher le gel et la fonte de la neige lourde de détériorer la terre séchée séculaire. Longer le cours d'eau du canal Onosho en observant les passerelles de pierre privées permettant aux habitants d'accéder à leurs cours intérieures. Pousser les lourdes portes en bois des cours ouvertes au public pour contempler les avant-toits ouvragés, les lanternes de pierre et l'ordonnancement rigoureux de cet ancien monde guerrier figé dans le temps.",
+    link: "https://photos.google.com/share/AF1QipOe497_gZlxHEk4kXngagUk3X4z3IIX6fTII-zbuf_m9_TBFokmB_oXmbA5rIGzqg?key=dVQyQXBrRWdEdWs5WFZQOVZPQi15dmEzeG1reGZn"
+  },
+  {
+    id: "kanazawa_nomura_residence",
+    name: "Kanazawa - Résidence de Samouraï de la Famille Nomura (Nomura-ke)",
+    country: "Japon",
+    region_admin: "Chūbu",
+    department: "Préfecture d'Ishikawa",
+    subdiv: "Kanazawa",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 36.564005,
+    lng: 136.650071,
+    altitude: 16,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "moderne",
+    era_label: "Époque d'Edo (XVIe - XIXe siècle)",
+    century: "XVIe siècle",
+    category: "star",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPTV2Dsv3L4CtWJthCpI_ZNIdqPa7Bs6XSwsIj7Tf0Z29SbHSvAvB4Y36QILnB4pmgzERd5e_z9CkAuqUVrwdJFG_qYKKq0QMDvIiCkLn1xgMYNYZ7sT0IyJt7idASfcX-8TRdrdrtbKB4ta37HO63qlg=w1757-h2635-s-no-gm?authuser=0",
+    description: "Véritable chef-d'œuvre du patrimoine résidentiel féodal situé au cœur du quartier de Nagamachi, la demeure Nomura-ke appartenait à une lignée d'éminents officiers samouraïs qui servirent fidèlement les seigneurs Maeda pendant onze générations, depuis l'attribution du domaine à Nomura Denbei Nobuhide au XVIe siècle. La bâtisse allie la rigueur martiale d'une lignée de guerriers d'élite au raffinement suprême des arts décoratifs : plafonds ouvragés en cyprès hinoki de haute futaie, paravents peints à l'or fin par l'artiste officiel de la cour Maeda, et armure complète de samouraï exposée dans l'antichambre. Son jardin intérieur miniature, primé mondialement, condense la quintessence de la philosophie paysagère japonaise.",
+    visiter: "Découvrir dès l'entrée la formidable armure complète de samouraï en fer laqué et soie portée par le maître des lieux sous l'ère féodale. Parcourir les salons bordés de tatamis pour admirer les cloisons fusuma décorées de peintures paysagères à l'encre de Chine et dorures signées par l'école Kanō. S'asseoir au bord de l'engawa (galerie en bois ouverte) pour contempler l'extraordinaire jardin d'eau miniature : un ruisseau serpentant au pied des rochers moussus, enjambé d'un pont de pierre incurvé et d'une cascade murm древante alimentant un bassin peuplé de carpes koï multicolores nageant jusqu'au ras du plancher. Monter à l'étage pour déguster un thé matcha dans le pavillon de thé suspendu au-dessus de la canopée du jardin.",
+    link: "https://photos.google.com/share/AF1QipOe497_gZlxHEk4kXngagUk3X4z3IIX6fTII-zbuf_m9_TBFokmB_oXmbA5rIGzqg?key=dVQyQXBrRWdEdWs5WFZQOVZPQi15dmEzeG1reGZn"
+  },
+  {
+    id: "kanazawa_takada_house",
+    name: "Kanazawa - Ancienne Demeure de Samouraï Takada (Takada-ke)",
+    country: "Japon",
+    region_admin: "Chūbu",
+    department: "Préfecture d'Ishikawa",
+    subdiv: "Kanazawa",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 36.565112,
+    lng: 136.649320,
+    altitude: 17,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "moderne",
+    era_label: "Époque d'Edo (XVIIIe - XIXe siècle)",
+    century: "XVIIIe siècle",
+    category: "star",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNb5lK0FCd9NfIeMxLsQl2rbp3AyWdcuRd7QytGcCD1EW4iCPspcQUPBBkZb1e-e2yPS19z5aILGcxuh2Qado2LCeCvGyNmN9RghQZBFfg6gpeG4eNkm3b1q5TvZ0tsiyR4Yi80ZyqWsozbMT670Wt6-A=w2966-h1978-s-no-gm?authuser=0",
+    description: "Témoignage historique précieux du mode de vie des vassaux militaires de rang moyen, la maison de la famille Takada se dresse discrètement au cœur du quartier féodal de Nagamachi. Bien que le bâtiment d'habitation principal ait disparu avec le temps, le domaine conserve intacte sa splendide porte d'entrée seigneuriale à avant-corps (Nagayamon) ainsi que les logements annexes réservés aux domestiques, palefreniers et gardes du corps armés. Restauré avec un grand souci d'authenticité pédagogique, le site met en valeur la structure défensive des portes de samouraïs et abrite un superbe jardin traditionnel en promenade conçu pour le ressourcement et la contemplation.",
+    visiter: "Franchir l'imposante porte d'entrée Nagayamon aux lourds vantaux de chêne cerclés de ferronneries et aux fenêtres à barreaux de bois destinées à la surveillance de la ruelle. Découvrir les quartiers des serviteurs restaurés présentant des outils de la vie quotidienne, des uniformes et des maquettes expliquant l'architecture des résidences guerrières d'Edo. Parcourir le sentier circulaire en dalles de pierre qui serpente à travers le ravissant jardin paysager d'inspiration chisen-kaiyū-shiki : admirer les étangs étagés alimentés par l'eau vive du canal Onosho, les bosquets d'érables, les bambous nains et les arrangements minéraux offrant une quiétude absolue à l'écart du flux touristique.",
+    link: "https://photos.google.com/share/AF1QipOe497_gZlxHEk4kXngagUk3X4z3IIX6fTII-zbuf_m9_TBFokmB_oXmbA5rIGzqg?key=dVQyQXBrRWdEdWs5WFZQOVZPQi15dmEzeG1reGZn"
+  },
+   {
+    id: "kamakura_kotoku_in",
+    name: "Kamakura - Temple Kōtoku-in (Grand Bouddha Daibutsu)",
+    country: "Japon",
+    region_admin: "Kantō",
+    department: "Préfecture de Kanagawa",
+    subdiv: "Kamakura",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 35.316722,
+    lng: 139.535707,
+    altitude: 18,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque de Kamakura (fondation vers 1252)",
+    century: "XIIIe siècle",
+    category: "religieux",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNSsO43hEowvejKb1E0gvpFTIj_6Qd5-vNydIudhrMt0CFnRnZed51V5BEpz8mdwsufhEArLwhy9t6WpvoiqI0CqYr0WLOHRT0hGkdzMSUL3Qx7SGQCARTxRk12iOadc7Ul3Ai5vKwWpOR1DL_KWYAtaw=w1757-h2635-s-no-gm?authuser=0",
+    description: "Le temple bouddhiste Kōtoku-in, affilié à la branche Jōdo-shū (terre pure), abrite l'une des icônes les plus célèbres du Japon féodal : le Grand Bouddha de Kamakura (Kamakura Daibutsu). Cette colossale statue de bronze d'Amitābha, haute de plus de onze mètres et pesant près de cent vingt et une tonnes, fut coulée à partir de 1252 sous le shogunat de Kamakura. Initialement abritée au sein d'un immense hall en bois (Daibutsuden), la structure fut emportée à maintes reprises par des tempêtes, des incendies et finalement par le grand tsunami dévastateur de 1498 (période Muromachi). Depuis lors, le colosse trône majestueusement en plein air contre un rideau de collines boisées, son visage serein et penché vers l'avant conférant un sentiment de quiétude bienveillante qui a traversé les siècles sans jamais être réenfermé entre quatre murs.",
+    visiter: "Traverser la porte d'entrée Niōmon ornée de ses deux gardiens célestes sculptés, puis s'avancer dans la vaste cour de gravier clair dominée par la silhouette massive du Bouddha de bronze. Admirer la finesse du drapé plissé de la toge, les traces subsistantes de dorure à la feuille d'or près des oreilles et les grandes fleurs de lotus en bronze fondues à l'époque d'Edo. Contourner la statue pour observer les volets d'aération ménagés dans le dos du colosse et, si l'accès est ouvert, pénétrer à l'intérieur même du corps creux du Bouddha pour observer l'incroyable technique d'assemblage des plaques de bronze médiévales. Ne pas manquer, suspendues à l'arrière, les gigantesques sandales de paille (waraji) tressées et offertes régulièrement par des écoliers pour symboliser la marche protectrice de la divinité à travers le pays.",
+    link: "https://photos.google.com/share/AF1QipOeq0r9ChAdmfv81FKQ1TYDpks6V2hx0qOiJ_7Qtst8lg6zkp0W8pY8Y1VK9FRysg?key=WFNCSTZDRjNmZElFdm95OGl4UzROZ2s5MTNLRUFR"
+  },
+  {
+    id: "kamakura_hase_dera",
+    name: "Kamakura - Temple Hase-dera (Hase Kannon)",
+    country: "Japon",
+    region_admin: "Kantō",
+    department: "Préfecture de Kanagawa",
+    subdiv: "Kamakura",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 35.312572,
+    lng: 139.533257,
+    altitude: 32,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque de Nara (fondation en 736)",
+    century: "VIIIe siècle",
+    category: "religieux",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNfQSDIDJhMD8GM2fcguqITMvS0QDOOCj_ujUBkH-zA7xHc46Fw3M71MiIqymCwlvznXPR4V_eNWHQ00NImzAUwRFpBNNvjU8FHwzBrfDIA3sMdcL1QnBhXk25e5wz-3e_7zeDSb6ThN2HQ0zPCG7HsrQ=w2489-h1660-s-no-gm?authuser=0",
+    description: "Édifié en 736 à flanc de colline boisée face à l'océan, le temple Hase-dera compte parmi les plus anciens sanctuaires bouddhistes de Kamakura, rattaché à la secte Jōdo. Le lieu est célèbre dans tout l'archipel pour abriter une monumentale statue de Kannon aux onze têtes (Jūichimen Kannon), haute de neuf mètres et sculptée dans un unique tronc de camphrier doré à la feuille. Selon la pieuse légende, le moine Tokudō tailla deux statues identiques dans le même arbre sacré en 721 : l'une fut installée au temple Hasedera de Nara, tandis que la seconde fut jetée à la mer pour guider les âmes, venant s'échouer quinze ans plus tard sur la plage de Yuigahama, tout près d'ici. Le complexe s'étage en plusieurs terrasses végétales où se côtoient jardins d'eau, étangs de carpes koï, bosquets d'hortensias réputés et cavités rocheuses sacrées dédiées à Benzaiten.",
+    visiter: "Franchir la porte Sanmon reconnaissable à sa grande lanterne rouge et flâner le long des étangs étagés du jardin bas peuplés de carpes koï. Gravir les escaliers de pierre ombragés menant à la terrasse intermédiaire pour saluer les milliers de petites statuettes votives en pierre de Jizō Bosatsu (protecteur des enfants et des âmes voyageuses), coiffées de bonnets de laine rouge. Monter ensuite sur l'esplanade supérieure pour se recueillir devant la statue de la Kannon aux onze visages dans le pavillon principal Kannon-dō. Profiter de la terrasse panoramique offrant une vue dégagée sur les toits de Kamakura, la baie de Sagami et la plage de Yuigahama. Enfin, allumer une bougie votive dans la galerie rocheuse obscure de Benten-kutsu creusée à même la falaise, où se dissimulent de multiples représentations de Benzaiten et de ses fidèles disciples.",
+    link: "https://photos.google.com/share/AF1QipOeq0r9ChAdmfv81FKQ1TYDpks6V2hx0qOiJ_7Qtst8lg6zkp0W8pY8Y1VK9FRysg?key=WFNCSTZDRjNmZElFdm95OGl4UzROZ2s5MTNLRUFR"
+  },
+  {
+    id: "kamakura_tsurugaoka_hachimangu",
+    name: "Kamakura - Sanctuaire Tsurugaoka Hachimangū",
+    country: "Japon",
+    region_admin: "Kantō",
+    department: "Préfecture de Kanagawa",
+    subdiv: "Kamakura",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 35.325689,
+    lng: 139.556155,
+    altitude: 15,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque de Kamakura (fondation en 1180)",
+    century: "XIIe siècle",
+    category: "religieux",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPkHDjFZhvKkwiJsgU0SMGJ7sjMwTx2ALhuGvYF7aO098aYvQvZ2a2K9XLz_HwyxrynDUeDCpVQu87WNDTy2e0_bI95yFhSsCx7lj7REtM4CHnnAaNoiqybHJGwFgj2X3pF9Kx9AkMFXss81SUPJSo6NA=w1984-h2635-s-no-gm?authuser=0",
+    description: "Cœur spirituel, politique et historique de l'ancienne capitale shogunale, le Tsurugaoka Hachimangū est le plus important sanctuaire shinto de Kamakura. Fondé en 1063 sur la côte par Minamoto no Yoriyoshi puis transféré et magnifié à son emplacement actuel en 1180 par son descendant Minamoto no Yoritomo, il est consacré à Hachiman, divinité tutélaire de la guerre, de la famille impériale et du puissant clan Minamoto. Structuré selon un axe nord-sud monumental (le Wakamiya Ōji) qui relie directement le sanctuaire à l'océan Pacifique, le domaine a été le théâtre d'événements majeurs du Moyen Âge nippon, notamment l'assassinat en 1219 du troisième shogun Minamoto no Sanetomo. Ses imposants pavillons vermillon, adossés au mont Daijin, incarnent la synthèse parfaite entre la solennité guerrière du premier bakufu et l'élégance rituelle shinto.",
+    visiter: "Emprunter la longue allée centrale bordée de cerisiers (Dankazura) menant au troisième grand torii vermillon marquant l'entrée sacrée. Franchir le pont arqué Taiko-bashi et contempler les deux grands étangs Genpei parsemés de fleurs de lotus en été et reliés par de petits îlots pittoresques. Découvrir la scène rituelle Maiden au bas de la colline, où eurent lieu les légendaires danses de Dame Shizuka, avant d'attaquer la grande volée de soixante et une marches en pierre. Observer sur la gauche le jeune rejeton issu de l'arbre millénaire (le ginkgo géant tombé lors d'une tempête en 2010), puis se recueillir devant le grand pavillon Hongū (Jōgū) aux frises sculptées flamboyantes et aux tentures impériales. Visiter le musée des trésors du sanctuaire et flâner sur l'allée équestre où se déroulent chaque automne les spectaculaires tirs à l'arc à cheval (yabusame).",
+    link: "https://photos.google.com/share/AF1QipOeq0r9ChAdmfv81FKQ1TYDpks6V2hx0qOiJ_7Qtst8lg6zkp0W8pY8Y1VK9FRysg?key=WFNCSTZDRjNmZElFdm95OGl4UzROZ2s5MTNLRUFR"
+  },
+   {
+    id: "kamakura_zeniarai_benzaiten",
+    name: "Kamakura - Sanctuaire Zeniarai Benzaiten Ugafuku-jinja",
+    country: "Japon",
+    region_admin: "Kantō",
+    department: "Préfecture de Kanagawa",
+    subdiv: "Kamakura",
+    continent: "Asie",
+    flag: "🇯🇵",
+    lat: 35.325797,
+    lng: 139.542118,
+    altitude: 55,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque de Kamakura (fondation en 1185)",
+    century: "XIIe siècle",
+    category: "religieux",
+    counts: {},
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPBQw6yHGbYk6K4_oJYbN6S-vEVgw7ReSBF0wte-P80Gap7KojEtXM9ntgbLQ5GUKnmcRLsFd0OUKJeoadn9WvUHiE4lEy84EarR4MizfVgoWuagm9Vc0DOYVQQICpcPaCiV-1zObyAIJVKHJLL0rQTwQ=w2489-h1660-s-no-gm?authuser=0",
+    description: "Niché au creux des collines boisées occidentales de Kamakura, le sanctuaire Zeniarai Benzaiten Ugafuku-jinja offre une expérience mystique saisissante, débutant dès son entrée : un long tunnel taillé à même la roche qui débouche sur une clairière encaissée bordée de parois abruptes et de centaines de torii en bois. Fondé en 1185 par le premier shogun Minamoto no Yoritomo à la suite d'un songe prémonitoire envoyé par le dieu serpent Ugafukujin, ce lieu saint présente la particularité rare d'avoir préservé un syncrétisme spirituel complet (shinbutsu shūgō) associant la divinité shinto autochtone à Benzaiten, déesse bouddhiste de l'éloquence, des arts et de la fortune. Au cœur du complexe s'ouvre une grotte naturelle obscure d'où sourd une eau sacrée réputée miraculeuse, attirant depuis plus de huit siècles fidèles, marchands et pèlerins venus accomplir le célèbre rite de purification des pièces de monnaie.",
+    visiter: "Franchir le tunnel rocheux percé dans la falaise et passer sous la succession serrée de torii votifs offerts par les dévots. Se procurer un petit panier d'osier, une bougie et de l'encens au pavillon d'accueil avant de pénétrer dans la caverne sacrée (Okumiya). Placer sa monnaie (pièces ou billets) dans le tamis d'osier et l'arroser à l'aide des longues louches en bambou avec l'eau de source sacrée (Zeniarai-mizu) : la tradition promet que l'argent purifié et dépensé avec sagesse reviendra multiplié à son propriétaire. Découvrir les petits autels secondaires disséminés contre la paroi de grès moussue, les étals de talismans (omamori) dédiés à la prospérité financière, et s'imprégner de l'atmosphère intemporelle de cette combe secrète avant de poursuivre la marche vers les sentiers de randonnée de Genjiyama.",
+    link: "https://photos.google.com/share/AF1QipOeq0r9ChAdmfv81FKQ1TYDpks6V2hx0qOiJ_7Qtst8lg6zkp0W8pY8Y1VK9FRysg?key=WFNCSTZDRjNmZElFdm95OGl4UzROZ2s5MTNLRUFR"
+  },
+   {
     id: "tokyo_quartier_shibuya",
     name: "Tokyo - Quartier de Shibuya & Carrefour Scramble",
     country: "Japon",
@@ -49,7 +628,7 @@ island_name: "Honshū",
     era_group: "contemporain",
     era_label: "Mégalopole Moderne & Épicentre Urbain",
     century: "XXIe siècle",
-    category: "",
+    category: "star",
     lat: 35.659652,
     lng: 139.700588,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM37nwaZBOnuR6Z0xDT4u2NkpWqFUe0ZYytSGm03l2JvHIvdHDNXeBS-RV69G04Xpd0AJ-_C8PECyqFtDfEP8dUPyzupq8sEBvhdrdiiVfC4mvSVA2bszcMZVr_yzKZG725mxjMp5cDNqu0_F8iU4-K3w=w1379-h919-s-no-gm?authuser=0",
@@ -73,7 +652,7 @@ island_name: "Honshū",
     era_group: "contemporain",
     era_label: "Époque Shōwa & Mémoire Populaire d'Après-Guerre (1945)",
     century: "XXe siècle",
-    category: "",
+    category: "star",
     lat: 35.709955,
     lng: 139.774493,
     image: "https://lh3.googleusercontent.com/pw/AP1GczO50C7Ekd1JdS95F3pbbwaTzJzd1V1wc3g6vsD-FYSA7Glk6Nu7mTIWMcTuX0_blVwKohuKR-ROSF-kw099hMOMAjLwguDUcIKjgdsujMoB16utkNSDOOLp53SKqqdGNdQMZXvJO8kuMHDyZ4sx6Z8oUg=w692-h919-s-no-gm?authuser=0",
@@ -97,7 +676,7 @@ island_name: "Honshū",
     era_group: "contemporain",
     era_label: "Prouesse Technologique & Néo-Futurisme (2012)",
     century: "XXIe siècle",
-    category: "",
+    category: "star",
     lat: 35.710795,
     lng: 139.810598,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMch_gAw2o3J5Ua_tQYAFbjiq1mU3u8KpFxonCd-q3B_lEQt5C0fpuqbwg93c_bmvNB6LTloQca_o-CVN3PRu-ZtZh0STuSCpBteXMi-pEXOHuyhKnXre2byepbn171SfBa-GIhHdPkf2rDmRg2v0TOdQ=w1455-h919-s-no-gm?authuser=0",
@@ -121,7 +700,7 @@ island_name: "Honshū",
     era_group: "contemporain",
     era_label: "Époque Contemporaine & Pop Culture Vidéoludique (2016)",
     century: "XXIe siècle",
-    category: "",
+    category: "star",
     lat: 35.710659,
     lng: 139.812873,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNgUWb9YHFeW1HxXyXwM-Q5gtxN_V0arOIF6Y-pFSEKA842nHlxEY0N1lfHyFzsaWg5EERLsSwJJ9HdHsXpSogEV75nWaGpv-iMhJDlXfp9htf6hcb1_ugr95O6zW5Ln_OoRqgoiDjx8UysHOekaescmw=w692-h919-s-no-gm?authuser=0",
@@ -145,7 +724,7 @@ island_name: "Honshū",
     era_group: "contemporain",
     era_label: "Mecque Électronique & Culture Otaku (Après-Guerre - XXIe siècle)",
     century: "XXIe siècle",
-    category: "",
+    category: "star",
     lat: 35.699474,
     lng: 139.771391,
     image: "https://lh3.googleusercontent.com/pw/AP1GczN2Qxh8x1OI34rK93Pnt0i2QUJ_XrInulKpQmk1FhlhZ2iHsQi7lBVzYfN5Ya7Tl_of-8SYf2JPu8WF15ihe6Beh-rx_HaQAHuy55rPcctBSuKXiKpxxnvUlTWavxDWZyD4Rw_4ZLwZOA3egEyNV-jD5A=w1221-h919-s-no-gm?authuser=0",
@@ -169,7 +748,7 @@ island_name: "Honshū",
     era_group: "contemporain",
     era_label: "Époque d'Après-Guerre & Convivialité Nostalgique (1946)",
     century: "XXe siècle",
-    category: "",
+    category: "star",
     lat: 35.692701,
     lng: 139.699455,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPcqCOSrpJzd7w6yaJ0v09S5iI2BPIPyFG7jZ01va1FRjPdgkDBbT5vVzc1trb-AfznldDPC95sIad73psySXBrMalxVx4CsKbknKG-FcrlFyyRPsKXw7jEY651huo0NRZSjgmy_F_xHY4d_1DIpBCRbg=w692-h919-s-no-gm?authuser=0",
@@ -193,7 +772,7 @@ island_name: "Honshū",
     era_group: "contemporain",
     era_label: "Postmodernisme & Architecture Monumentale Kenzo Tange (1991)",
     century: "XXe siècle",
-    category: "",
+    category: "star",
     lat: 35.689515,
     lng: 139.692054,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNwo8UE6nZlZnBL11zfw3sJm8mvSNeRcCqZxnuRWzxHXaybYCtdKc2vQU-rt6XEZZepBbuADsPKImyskXtfYKSS_pD-AbotlD3z_gglKqHQ8-JNoqyTGNIL-KT4iEvMsWLKjpXp_ijDJnS6eJSEkK_Cuw=w1221-h919-s-no-gm?authuser=0",
@@ -217,7 +796,7 @@ island_name: "Honshū",
     era_group: "contemporain",
     era_label: "Mégalopole Moderne & Gare la Plus Fréquentée du Monde",
     century: "XXIe siècle",
-    category: "",
+    category: "star",
     lat: 35.692570,
     lng: 139.700715,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMTS6U2-lEY-BsGsboZwyOAwR6ziyK7ndb0XmKvYQOrrfWXSFskIjvkzIyN9Bs6gZ2ah9vAAXtFdH8zg5pPvvU1RqVteIYiHfM7VRsBN3E65Skl5Y_IGWuArcpaydC_mcqhIh4I34_nT93Wbg5GQdaWMw=w1221-h919-s-no-gm?authuser=0",
@@ -241,7 +820,7 @@ island_name: "Honshū",
     era_group: "contemporain",
     era_label: "Époque Shōwa & Renaissance d'Après-Guerre (1958)",
     century: "XXe siècle",
-    category: "",
+    category: "star",
     lat: 35.658312,
     lng: 139.745199,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOYUOVWCbkEIPw4tZGhbYxLVHfpwchUJiNsQH0QNrGIPnZxXz086eesULkoWrMN6C-9DQAil4NwUHiVC5YPB1FNcT3kh-rkCC9oK2uoeRKk_n3ekyvm1Ud-3H6Ay57EIlJITnd5rb5dTYkP7e3VgGsxeQ=w1379-h919-s-no-gm?authuser=0",
@@ -312,7 +891,7 @@ island_name: "Honshū",
     transport: "avion",
     era_group: "medievale",
     era_label: "Époque Ancienne & Période d'Edo (Fondation antique - 1654)",
-    century: "Moyen Âge & XVIIe siècle",
+    century: "XVIIe siècle",
     category: "religieux",
     lat: 35.713567,
     lng: 139.772321,
@@ -434,6 +1013,7 @@ island_name: "Honshū",
     era_label: "Époque Moderne & Chef-d'œuvre Le Corbusier (1959)",
     century: "XXe siècle",
     category: "musee",
+    unesco_name: "L'Œuvre architecturale de Le Corbusier, une contribution exceptionnelle au Mouvement Moderne",
     lat: 35.715176,
     lng: 139.775492,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNoPyfUJ_MTflm0r7tKiA9mVizblTc6_i06Bsjv5zH_S_PEJ6DNm5Hfn6g0oPav_acPGtlGGvZBB_xr8ddDVXpUj0Zx-ghtkcnNXdeElxkMu6D78ptwwgsMIqARLcOP8EPQ4J59yaHUQcYHQZtOu2T07g=w1221-h919-s-no-gm?authuser=0",
@@ -481,7 +1061,7 @@ island_name: "Honshū",
     era_group: "contemporain",
     era_label: "Époque Contemporaine & Pop Culture Kawaii",
     century: "XXIe siècle",
-    category: "",
+    category: "star",
     lat: 35.671325,
     lng: 139.704375,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMujW2maeQUnSzKEaBdWB1G_hk2wPalNicEQTHxmqfsJxOrwG-PnNDc32l_iKMeHa7MWTPRQtJ1YAM50h6cZI0UIR793Wx77o4ZnbKzJKHHabGMyw3UI4DuPXX6IH8sM7vbKTN4lisEraWYc8oLOMGW6w=w692-h919-s-no-gm?authuser=0",
@@ -527,7 +1107,7 @@ island_name: "Honshū",
     era_group: "nature",
     era_label: "Bassin Fluvial & Écrin Bocager Contemporain",
     century: "XXe siècle",
-    category: "",
+    category: "star",
     lat: 48.119205,
     lng: 0.514056,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOhbeT083TV3SXzhn0DANKgnEFUh-mHih_sV_znXmhhH9k8jmEE8v0A52I_z0j90U2S3QyaLqbrzGt5ZsuZSlPOWLDtivr8fvo1qjD5ne0N2jjHflUHjMCOaW4Oia5849wuBBrGUk1FnoNypKjtNvRIvw=w1380-h919-s-no-gm?authuser=0",
@@ -549,7 +1129,7 @@ island_name: "Honshū",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Bénédictine & Siècle Classique (VIIe - XVIIe siècle)",
-    century: "Moyen Âge (VIIe siècle)",
+    century: "VIIe siècle",
     category: "religieux",
     lat: 48.115150,
     lng: 0.516343,
@@ -620,7 +1200,7 @@ island_name: "Honshū",
     transport: "route",
     era_group: "nature",
     era_label: "Bocage Fluvial & Espace Naturel",
-    century: "Temps géologique",
+    century: "",
     category: "",
     lat: 48.050233,
     lng: 0.444481,
@@ -666,7 +1246,7 @@ island_name: "Honshū",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Romane & Médiévale (XIe - XVIe siècle)",
-    century: "Moyen Âge (XIe siècle)",
+    century: "XIe siècle",
     category: "religieux",
     lat: 48.0471,
     lng: 0.4171,
@@ -689,7 +1269,7 @@ island_name: "Honshū",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Gothique & Moderne (XIIe - XIXe siècle)",
-    century: "Moyen Âge (XIXe siècle)",
+    century: "XIXe siècle",
     category: "religieux",
     lat: 48.0493,
     lng: 0.4034,
@@ -713,7 +1293,7 @@ island_name: "Honshū",
     era_group: "contemporain",
     era_label: "Époque Contemporaine & Maritime",
     century: "XIXe siècle",
-    category: "",
+    category: "star",
     lat: 47.5464,
     lng: -2.8462,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNEmUKRqBa4pMbgZfTWJ1qAZqKKywxx1RMq-kFBUIoFAldzgSXC9JKpDRSZsbFm5uFZUjLMhPf3bp4gWK6sNhWAramoHGiB_rXCmKBW0zrSBuz1Rr_KmGBs8BwpMOOtwWIYq4T2yFO2pI2XGMTFXPNRGw=w1820-h1213-s-no-gm?authuser=0",
@@ -735,7 +1315,7 @@ island_name: "Honshū",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Romane & Abélard (VIe - XIe siècle)",
-    century: "Moyen Âge (XIe siècle)",
+    century: "XIe siècle",
     category: "religieux",
     lat: 47.4999,
     lng: -2.8397,
@@ -758,7 +1338,7 @@ island_name: "Honshū",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Ducale & Médiévale (XIIIe - XVe siècle)",
-    century: "Moyen Âge (XIIIe siècle)",
+    century: "XIIIe siècle",
     category: "chateau",
     lat: 47.5125,
     lng: -2.7287,
@@ -805,7 +1385,7 @@ island_name: "Honshū",
     transport: "route",
     era_group: "nature",
     era_label: "Terre Insulaire & Rythme des Marées",
-    century: "Temps géologique",
+    century: "",
     category: "ile",
     lat: 47.5708,
     lng: -2.7277,
@@ -920,7 +1500,7 @@ island_name: "Honshū",
     transport: "route",
     era_group: "nature",
     era_label: "Temps Géologique & Corallien",
-    century: "Temps géologique",
+    century: "",
     category: "plage",
     lat: 27.0250,
     lng: 33.9150,
@@ -945,6 +1525,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (-1264 av. J.-C.)",
     century: "Antiquité (XIIIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Monuments de Nubie d'Abou Simbel à Philae",
     lat: 22.3372,
     lng: 31.6258,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNxJ2b7wblm68J5LebZ_FRLke0MjUtjwjstgkx1Tv2k0_QEwQ0UZFSbmXelmCFdT91Fg_IXRK4KD4VfG_TGB9x825G1ENU7rXM5cipskgHi99lQ9S7gq1uyAOXpRE7fexNraWeB-fZMY6WGCpi7Qj-hyQ=w2768-h1845-s-no-gm?authuser=0",
@@ -968,6 +1549,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (-1290 av. J.-C.)",
     century: "Antiquité (XIIIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7328,
     lng: 32.6281,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOCn3bnnRckhB2Ac1shOqlfDJfH3SfpYo6esxwODD6rK-dCQksCm6dsSFRbh-V9oMtoOaUJ43Heywro5BI2G7w9FKqOYKowO3AFdi_xiwfzEo_O90EXFb0uBT7VJTgZZ0KPmynrdDdmiF73ZTJTnNHSwA=w2884-h1922-s-no-gm?authuser=0",
@@ -991,6 +1573,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (-1400 av. J.-C.)",
     century: "Antiquité (XIVe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.6994,
     lng: 32.6396,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOVIqtAv6F50s3byzGMdkrnrRK0dYat5T2PO5vZTXiDE7CHYznUqxCuCN_FyK-5VmVcCOrdKGpAxExydMfCvcnA3108CC2HP-MAIQHauLvMhHK78ddOApVu4qnIQL1EnGwPo5yNAaisBG-vM8o_Wn986w=w2416-h1611-s-no-gm?authuser=0",
@@ -1014,6 +1597,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Moyen & Nouvel Empire)",
     century: "Antiquité (XXe siècle av. J.-C. à IVe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7188,
     lng: 32.6573,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOtwfMs5d5wL1IzTbxA7Z3-Z5tARLoOdWDIQWtEuAseuIBIxkYrLQYMer35gjiseXa0FB52lFZCekz_-WroF9o09HewjJKyABFSArCwXEXvcbQCYOrUOUWW6pPF1Ftpv6m_8TzY53xcx12x37egMIq1tg=w2956-h1971-s-no-gm?authuser=0",
@@ -1037,6 +1621,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe & XIXe dynasties)",
     century: "Antiquité (XVe siècle av. J.-C. à XIIIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7312,
     lng: 32.6078,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOd_OJdWviNds-jAvYJQ6fOhmKABb5wTUSd9reedexFYosDX5eY63EFb8fkeLgVl0Ober_ixxcpyNw1zN2k1O96-TbklhDfSl6jpwbssv48dg99Uwvi64lsSsixAe6N0JndHpYca3D7NODIEZ4l02REZw=w2624-h1750-s-no-gm?authuser=0",
@@ -1060,6 +1645,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe à XXe dynasties)",
     century: "Antiquité (XIVe siècle av. J.-C. à XIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7285,
     lng: 32.6014,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNLIIop9G0JKvfSCc8VuoAVjmAMq9-TDvIllyPrY8t_lq9XBI_iB4lzrA8dmwBM_luSuc4zL3Iqrj86AjleX8DgPdGdf3i8CBjSbVtuUNl57dbAVk8thYxKQVQHQz4eQm6cz3EWmxxtqQraap46gkFHlQ=w2624-h1750-s-no-gm?authuser=0",
@@ -1083,6 +1669,7 @@ island_name: "Honshū",
     era_label: "Période Ptolémaïque (IIIe siècle av. J.-C. - Ptolémée IV à VIII)",
     century: "Antiquité (IIIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7291,
     lng: 32.6020,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMpO1xyPvhYsSQW29Rx94KkjyOQDLm0tLNkORiJDFGPGNPf4veQ6_l9bLuZ2AUxYuVe4cEZ2OyMPXlHq0bYIM2ZqGCj2DDAcZ9IYYPJvxT9Cn-nR7OipS-LxxmBDcsg9CtQHjqT55G9C_Awf6jBlV4yNw=w2624-h1750-s-no-gm?authuser=0",
@@ -1106,6 +1693,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XIXe & XXe dynasties)",
     century: "Antiquité (XIIIe siècle av. J.-C. à XIIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7281,
     lng: 32.5931,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMU7taj-0RQR1MwvRFxdj3GYC4j8uql9zgKkCWsctOf5pa8NmG2HJeR4dTIKxQ7sYDktflnu8AcGUFGOIyFOEPq-yqoyjFnyPFzG1L8cUGr2wSLCq45xs8o9FUqhn-XyLxX3ZWsIRrIlf1UTtmQwlCT6Q=w2624-h1750-s-no-gm?authuser=0",
@@ -1129,6 +1717,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe dynastie)",
     century: "Antiquité (XVe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7383,
     lng: 32.6078,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPk75OHrQu6obpFOplp54MjErWv62Ba9IGktlvK7XXzNNKRfJVn8AqJRVRkpvSQgF-7bxq2zcTPyFYgAK5nA3W6piJ5oxOoiATNoXQRn-IhO6Y0py1gzDV_2ffYLgtS8a0enLOSK2bzzos1Io0m5hpzlA=w2624-h1750-s-no-gm?authuser=0",
@@ -1152,6 +1741,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe à XXe dynasties)",
     century: "Antiquité (XVIe siècle av. J.-C. à XIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7402,
     lng: 32.6014,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMFRpDqYKavLb097DDB8Vtoec_f4bF4PQPXH_DyPO04GrRrvl8MsEiuo6bNRuKoT74FTcJjh2TKu7lI47ZAVFcc-IVkIB1ZPwj16-IeW1d3Jk2b6j7PubcF3SjpshOkRwPG-bqzOjFg9VSp_mIywXsWCw=w2624-h1750-s-no-gm?authuser=0",
@@ -1175,6 +1765,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XIXe dynastie)",
     century: "Antiquité (XIIIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7280,
     lng: 32.6105,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMvh9kjLPuS5UvlCAsITvriDjOYQ8OBYh9xsGtGjl8n5Nj6GxZjxPiEFawAn6NhTfMb2KrnXH5qKwPmIz4QaX1h5XtQnQz3jSWYLRntjezCQe9C8SomQEWYCwzHXALuIpSusnPmFctAvC6sjVoWPO2wJw=w2624-h1750-s-no-gm?authuser=0",
@@ -1198,6 +1789,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe dynastie)",
     century: "Antiquité (XIVe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7206,
     lng: 32.6105,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNByJ9_2Lbc1vXLFwbPNONyha79Q7dIH9R3X50vc_g8l2A-zDRGWwm61hsQUYUabguxMKJDL_4Rgis4Zn3sFchrEV5BeorFNSnGTM9p05kOpNGbU7QMYv3Sv2jKjjTA80t2e5JFmnPvJUE-fanJIA8lvw=w2624-h1750-s-no-gm?authuser=0",
@@ -1221,6 +1813,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XXe dynastie)",
     century: "Antiquité (XIIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7196,
     lng: 32.6013,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM_iR5U6wiG41TixgwSD8PBCikitCe10D8ty_oXf8VbajzaeUb6VWYzWCSoreSeQO7jRcjV2HJ1RHYGrQIkFNRxH61Dl8DkszvIpRXrp4mGSS-oJ0IfAMJoE9xdNNK02xJ3RlhL8Z_mBBi99QOCUZiODA=w2624-h1750-s-no-gm?authuser=0",
@@ -1313,6 +1906,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.8088,
     lng: 31.2062,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOyd3k7egcC-KbVTfiibheQpm_sCjVOcwC6eDQ4UyEgtIspCQB5ep7WWZXu5CRmAgc2vlMm5uWb57Y-bRzvWXSH8YqkIIYrg1qSzWtapvDEDNcYd1WhYvikVXGYsJW8Xew4CBbYkE_9FAaoiZFjVxBwGQ=w2684-h1789-s-no-gm?authuser=0",
@@ -1336,6 +1930,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.7903,
     lng: 31.2093,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMer0QHDvqpAXsu4CG0KKRpAwlG6T4ED-Vaiw0Z_WuJuADw-Lf_z4KGa1VQHoou-3jszi_lEjnbm6NRoGb4LFab-rqiPzm2JbO9q2WNGzHEpjIECqsm4_nK1fB2GnN98CtogJYVmbFVjIa5ymhbeyXf3g=w2684-h1789-s-no-gm?authuser=0",
@@ -1452,6 +2047,7 @@ island_name: "Honshū",
     era_label: "Période Ptolémaïque & Romaine (-380)",
     century: "Antiquité (IVe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Monuments de Nubie d'Abou Simbel à Philae",
     lat: 24.0255,
     lng: 32.8842,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNEZkmSVkAOkW3xempadnM8SHkLXcN3lxMwF4P_v6HtDWRgGXZ7S5acbBjjdYQ9MysHS9TvU4gC2OHbpzOVelFEwDghH81UVzI3MSQWjvGtk5lcPhRiTUSWH-ddLkZdWe9EtrN-ULTtu5eSojGN3EmOQA=w2518-h1679-s-no-gm?authuser=0",
@@ -1545,6 +2141,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - Ve & VIe dynasties)",
     century: "Antiquité (XXIVe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.8760,
     lng: 31.2214,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPm2-iD73muRH_jVot8-EE1lyBKVZCTLF39pIHWToS8yhyubMwAs5zilUHQJ8CKTJTwBLusmEB1RKN_8j-W8gHIHNdsMdhulPx-9UaBuslVVC6aemGNoYObE_BVQvwzoIcvn4PIInE4JNMYBPShsaE66Q=w2650-h1987-s-no-gm?authuser=0",
@@ -1568,6 +2165,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - VIe dynastie)",
     century: "Antiquité (XXIVe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.8753,
     lng: 31.2236,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMfxTYdfUP4yWKt--mBt4ufisLTqTfNE2AjPCYY7te7W3jVjiPUsxAK35VXk4bWdC9vly9HdljYYOqyteOIBtRw_KkgxgF-qq38sElFmwBr-aAMafdO3ekdtpCluGqPe39pw2i78b9VdT9QSs7-SGG0bw=w2650-h1766-s-no-gm?authuser=0",
@@ -1591,6 +2189,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique & Époque Ptolémaïque (XIVe s. av. J.-C. - Ier s. av. J.-C.)",
     century: "Antiquité (XIVe siècle av. J.-C. à Ier siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.8761,
     lng: 31.2103,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOm9dTai3YyXLZLo6AY9NqTKPU7t-t2QngAmHWZrJYmXXv6n7xiViZWbFZcG1uuZHt2vK7wYzYxfoGzZClTYRx5OS2JpsWUfgLe0hbTGhDzy3dT6ngbUFWrJ89FXFdFhCpHs1TcAR-N1tY-bspHZf2B1A=w2650-h1766-s-no-gm?authuser=0",
@@ -1614,6 +2213,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IIIe dynastie)",
     century: "Antiquité (XXVIIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.8713,
     lng: 31.2164,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOeP15wzqe7pW0a5CwycfN3EShovzAz7KpqIHW2GWzMrb9XVNN3sbi6X4jKcDUIzv4JKfBoxGTsv7z39SP2CHY2t5TocTCVWeUHnYJvMRvTRq97eMq32DhoBAIgdJK0pQz-YUPH-m34PSuelB4L2ObnlA=w2650-h1766-s-no-gm?authuser=0",
@@ -1637,6 +2237,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.9724,
     lng: 31.1398,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNP-BTRouMewjBv0Ln8gWm4HN6mLLZ9WCpYq8MAQTvLqokZlwzL1nj2lTo5Kh1peYIjAAAD-eSL9Pe2seesiLRBPzy1vyGpIoX9VSNVLjgIpdnNr89rHeXr-WhzpSidfd2xSroVfdXRUtqFx_NQz8Sb3g=w2650-h1766-s-no-gm?authuser=0",
@@ -1660,6 +2261,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.9753,
     lng: 31.1376,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNOF-n-S3utVbPnDbHcJf-cULebFfhJLRJ6et95I4YoSDJrG-GyQxDSuDbMY5t0DFZKDxQo4QzwDQLVNxheXzusDviBzPND0QzJeXrH9aH2PvTyw3UMyf7VXP33KTNCh8ekhBNf9ySN3YFjcYLfdZVIiw=w2650-h1766-s-no-gm?authuser=0",
@@ -1683,6 +2285,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.9792,
     lng: 31.1342,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOL6UdQ2NgvSXtSJxB1zz2auY4ZqsT2NrlwNUrBsi_6BiP44Vwnz__wBTkmkUFyLA_Ms45SzeK4rBZkYRULi2Q1h-8cOwAKn2isOUGmCYlOmZew4qlF1YSOskg03mndEkfTIVbuOl5GZnLgK9ugSEPSWg=w2650-h1766-s-no-gm?authuser=0",
@@ -1706,6 +2309,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.9777,
     lng: 31.1365,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPJV6Ii0zGM90Y28LMW9kKLwLbia1w8r_06kB8TkEMGmCWpIobD6VVdwyBlzuCWGtQcCHA5aUzSXQrExrU5s9QS39RFEGmnzCwL5npAEVFM0OdfPN8r8y9IbECvQol0QtCY8JGOejHaa3wOlM-qPI22gg=w2650-h1766-s-no-gm?authuser=0",
@@ -1729,6 +2333,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.9759,
     lng: 31.1308,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMHNGmnFZj13hTSsFRE_EgJi13hRa1xoGli6iRQk35QmGXAa75fhDRQkv-cbsbLIAE3L-xNaHhMYqwLQpyYQFLh930CuS2iPw8JHeTDi9U0hRv4j1M4zwMRuUgmGDOS7HZ5WElZshQSW2PvVqHipSwT7Q=w2650-h1766-s-no-gm?authuser=0",
@@ -1752,6 +2357,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.9725,
     lng: 31.1283,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPKW5gJB4SQe9L8JzJUZxIUHCTz-jhPqsuU17BWoo7dNoR6Q3EGsJYFBVCi6D0MkJMsowjOAy3p0njZLfdieOWJNAQJFkSKkv9fK0Pln89d1XpKZXRwIZvnqhQ3AVKNDalUbaQ47TxMw8TyOAZSOGIpYg=w2650-h1766-s-no-gm?authuser=0",
@@ -1775,6 +2381,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.9713,
     lng: 31.1282,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPJ4tAYvM_fEjvjIPayyJFoQfxDjkO0Pe00gNUwgdbhJjh7DdSDp45pw8L4I5YPvb_g0RCt8V7pZ8Rx3zKI07C3ElLeG62U_h5hpAhVvrCow5vlngwJdtmuBlBYsEwWliHg8DOYOFYrY4-RwYSlTZYseQ=w2650-h1766-s-no-gm?authuser=0",
@@ -1890,6 +2497,7 @@ island_name: "Honshū",
     era_label: "Époque Paléochrétienne & Fatimide (IIIe-XIe siècle)",
     century: "Antiquité tardive (IIIe siècle)",
     category: "religieux",
+     unesco_name: "Le Caire historique",
     lat: 30.0052,
     lng: 31.2312,
     image: "https://lh3.googleusercontent.com/pw/AP1GczP3Tz4rZ2saMfJeMKqyQ9r3-Tu6IPe18ZAsXlJqkjQ1Y-L_abFGpbjsCF-mlFeH6yDQFvC2aKIMQJ0wIJGusEM1acLefBSY7phwM2mCEwo-MEa_CB8LW1oHD9pD4CWj5doUZAJeV2i-7--h9LPRUAkkeA=w1757-h2635-s-no-gm?authuser=0",
@@ -1959,6 +2567,7 @@ island_name: "Honshū",
     era_label: "Époque Ayyoubide (XIIIe siècle - 1243)",
     century: "XIIIe siècle",
     category: "religieux",
+     unesco_name: "Le Caire historique",
     lat: 30.0490,
     lng: 31.2614,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMLNP5gxHW1BTWct9gZZNPJuf6MnLgoTgToFZlGoLuD6R_1iYqxcMUGgHGOSQZSdmBmCyn3mxk6j76v_S5qCCZ7_KPv56LRqfCBWlUQyK2hpKsW9uZ210bfr5-d2oBMYWWtVswgcQxWrx0BDAlkdorQYQ=w2650-h1766-s-no-gm?authuser=0",
@@ -1982,6 +2591,7 @@ island_name: "Honshū",
     era_label: "Époque Mamelouke Bahrite (XIIIe siècle - 1285)",
     century: "XIIIe siècle",
     category: "religieux",
+     unesco_name: "Le Caire historique",
     lat: 30.0494,
     lng: 31.2608,
     image: "https://lh3.googleusercontent.com/pw/AP1GczN0t98_eJrhGXh5ip1mwuzO_VNVo2fMY3uWXlODYskHluBiZmejmo-Uz5A4UHuEKMngyZbp9r6IRV5EgzphLxijOO4-FaJu6kR16LlcMfMsox22g_PvrKrTNCwAO3WRV_o_WxAhXB0gdkook6E5Pzlcpg=w2650-h1766-s-no-gm?authuser=0",
@@ -2005,6 +2615,7 @@ island_name: "Honshū",
     era_label: "Époque Ayyoubide (XIIIe siècle - 1225)",
     century: "XIIIe siècle",
     category: "religieux",
+     unesco_name: "Le Caire historique",
     lat: 30.0485,
     lng: 31.2618,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNhI-w3RZ_6vkvVVLJ-WWjT35yfAmUTP95SaxupyHI_-hSYdFq5h-QTU7UUkw_nQvj84Ac9Vg69DJNnAPYw9MPu7Ib87LIzrXLHZ2lmCg5BW952d9qYiYGfUO4v13oD57aoSfMUBBI3upAEWdswuyLJ1g=w2650-h1766-s-no-gm?authuser=0",
@@ -2028,6 +2639,7 @@ island_name: "Honshū",
     era_label: "Époque Mamelouke Burkite (XVe siècle - 1456)",
     century: "XVe siècle",
     category: "archeologie",
+     unesco_name: "Le Caire historique",
     lat: 30.0505,
     lng: 31.2613,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNxxQP0TTMObkuv0uZlOVNUVwjqG_iuxdHXj3ZtjATouqp9OoBBiJ0qZAyrUiOLtwORTYfOpgNyg9RVC0q_ATKuEhT0tz7ZMrdKUGQqnYFWzamWMbDswtFxH-ECllrm1DLsp4-nexJvFTYRFCzGy2Wvxw=w1757-h2635-s-no-gm?authuser=0",
@@ -2051,6 +2663,7 @@ island_name: "Honshū",
     era_label: "Époque Mamelouke Bahrite (XIVe siècle - 1334)",
     century: "XIVe siècle",
     category: "chateau",
+     unesco_name: "Le Caire historique",
     lat: 30.0506,
     lng: 31.2618,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPMXfyPq1Nzn5OK7IZlmZDBBV2VkKorKY2T115I0zJ65xi_e3gdQcZPK3zrFozbNWeUUYctwm9xgI5zuBAxSOc-9kyzLTyReZEkWy5QKx_V7KVyvdKJzNqr_klK9aBSEbBRTQgDWE7DQUV7W8S1O405Yw=w2650-h1766-s-no-gm?authuser=0",
@@ -2237,6 +2850,7 @@ island_name: "Honshū",
     era_label: "Époque Moderne & Renaissance (XVIe siècle - 1519)",
     century: "XVIe siècle",
     category: "chateau",
+     unesco_name: "Val de Loire entre Sully-sur-Loire et Chalonnes",
     lat: 47.6162,
     lng: 1.5177,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM7mR674pInWi3CIFiACN_huSA7_QS14yjUxkwPE-hba4tXIFqjuJXp-clNqLgFhDyqtpdAJGQcvX4fp1Bv_mklfoTgZ7zTA5RnJ-b6Hx04kD3lUoFJmu9sIs3b92tRaAzRozLVagaHPnM5dK0jX0mcjA=w3092-h1739-s-no-gm?authuser=0",
@@ -2387,7 +3001,7 @@ island_name: "Honshū",
 
 // Dictionnaire officiel des filtres : Culture et Nature (avec l'item Île)
 const CATEGORIES = {
-  tous: { label: "Tous les POI", icon: "fa-star", color: "#f59e0b", section: "culture", active: true },
+  tous: { label: "Tous les POI", icon: "fa-earth-americas", color: "#f59e0b", section: "culture", active: true },
   musee: { label: "Musée", icon: "fa-landmark", color: "#a16207", section: "culture", active: true },
   religieux: { label: "Édifice religieux", icon: "fa-church", color: "#854d0e", section: "culture", active: true },
   chateau: { label: "Château / Palais", icon: "fa-chess-rook", color: "#713f12", section: "culture", active: true },
@@ -2743,31 +3357,6 @@ function switchTerritoryTab(tab) {
   }
 }
 
-function spotMatchesCentury(spot, selectedCentury) {
-  if (!selectedCentury || selectedCentury === 'all') return true;
-  const spotCent = (spot.century || "").toLowerCase();
-  const selCent = selectedCentury.toLowerCase();
-
-  if (selCent === 'préhistoire') {
-    return spotCent.includes('préhistoire') || 
-           spotCent.includes('néolithique') || 
-           spotCent.includes('paléolithique') || 
-           spot.era_group === 'prehistoire' || 
-           spot.category === 'megalithe';
-  }
-
-  if (selCent === 'antiquité') {
-    return spotCent.includes('antiquité') || spot.era_group === 'pharaonique' || spot.era_group === 'ptolemaique';
-  }
-
-  const cleanSel = selCent.replace('siècle', '').trim();
-  const isNegative = spotCent.includes('av. j.-c.');
-  if (isNegative) return false;
-
-  const regex = new RegExp(`(^|[^a-z0-9])${cleanSel}([^a-z0-9]|$)`, 'i');
-  return regex.test(spotCent);
-}
-
 function initAdvancedFilterOptions() {
   const selectCountry = document.getElementById('adv-filter-country');
   const selectCategory = document.getElementById('adv-filter-category');
@@ -3032,6 +3621,29 @@ function updateCascadeCities() {
   citySel.disabled = cities.length === 0;
 }
 
+// Variable mémorisant le mode d'affichage ('grid' = mosaïque par défaut, 'list' = liste)
+let currentAdvancedViewMode = 'grid';
+
+function setAdvancedViewMode(mode) {
+  currentAdvancedViewMode = mode;
+  const btnGrid = document.getElementById('adv-view-grid-btn');
+  const btnList = document.getElementById('adv-view-list-btn');
+
+  if (mode === 'grid') {
+    btnGrid?.classList.add('bg-cyan-500', 'text-white', 'shadow');
+    btnGrid?.classList.remove('text-slate-400');
+    btnList?.classList.remove('bg-cyan-500', 'text-white', 'shadow');
+    btnList?.classList.add('text-slate-400');
+  } else {
+    btnList?.classList.add('bg-cyan-500', 'text-white', 'shadow');
+    btnList?.classList.remove('text-slate-400');
+    btnGrid?.classList.remove('bg-cyan-500', 'text-white', 'shadow');
+    btnGrid?.classList.add('text-slate-400');
+  }
+
+  runAdvancedFilter();
+}
+
 function runAdvancedFilter() {
   const countryVal = document.getElementById('adv-filter-country')?.value || 'all';
   const regionVal = document.getElementById('adv-filter-region')?.value || 'all';
@@ -3043,25 +3655,21 @@ function runAdvancedFilter() {
   const unescoOnly = document.getElementById('adv-filter-unesco')?.checked || false;
 
   const filtered = travelSpots.filter(s => {
-    // 1. Filtres géographiques en entonnoir
     if (countryVal !== 'all' && s.country !== countryVal) return false;
     if (regionVal !== 'all' && (s.region_admin !== regionVal && s.region !== regionVal)) return false;
     if (deptVal !== 'all' && s.department !== deptVal) return false;
     if (cityVal !== 'all' && s.subdiv !== cityVal) return false;
 
-    // 2. Filtre de catégorie stricte
     if (catVal !== 'all') {
       const isDirect = s.category === catVal;
       const inCounts = s.counts && typeof s.counts[catVal] === 'number' && s.counts[catVal] > 0;
       if (!isDirect && !inCounts) return false;
     }
 
-    // 3. Filtre par île
     if (islandVal !== 'all') {
       if (s.island_name !== islandVal) return false;
     }
 
-    // 4. Siècle / Période
     if (centuryVal !== 'all') {
       if (typeof spotMatchesCentury === 'function') {
         if (!spotMatchesCentury(s, centuryVal)) return false;
@@ -3070,7 +3678,6 @@ function runAdvancedFilter() {
       }
     }
 
-    // 5. Patrimoine mondial UNESCO
     if (unescoOnly) {
       const isUnesco = s.category === 'unesco' || (s.counts && s.counts.unesco > 0);
       if (!isUnesco) return false;
@@ -3085,38 +3692,90 @@ function runAdvancedFilter() {
   if (!listEl) return;
 
   listEl.innerHTML = '';
+
   if (filtered.length === 0) {
+    listEl.className = 'w-full';
     listEl.innerHTML = `
-      <div class="p-3 text-center text-[10px] text-slate-400 bg-slate-900/50 rounded-xl border border-slate-800">
-        Aucun site ne correspond à cette combinaison de critères.
+      <div class="p-6 text-center text-xs text-slate-400 bg-slate-900/50 rounded-2xl border border-slate-800">
+        <i class="fa-solid fa-magnifying-glass text-xl mb-2 text-slate-500"></i>
+        <div>Aucun site ne correspond à cette combinaison de critères.</div>
       </div>
     `;
     return;
   }
 
-  filtered.forEach(spot => {
-    const item = document.createElement('div');
-    item.className = 'flex items-center justify-between p-2 rounded-xl bg-slate-900/70 hover:bg-slate-800 border border-slate-800 hover:border-cyan-500/40 cursor-pointer transition select-none group';
-    
-    const islandBadge = spot.is_island ? `<span class="px-1 py-0.2 rounded text-[8px] bg-cyan-950 border border-cyan-500/40 text-cyan-300 font-bold ml-1">🏝️ ${spot.island_name || ''}</span>` : '';
-    const locBreadcrumb = [spot.subdiv, spot.department, spot.country].filter(Boolean).join(' · ');
+  // --- RENDU EN MOSAÏQUE D'IMAGES (5 COLONNES SUR GRAND ÉCRAN) ---
+  if (currentAdvancedViewMode === 'grid') {
+    listEl.className = 'grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-3';
 
-    item.innerHTML = `
-      <div class="flex items-center gap-2 min-w-0 pr-1">
-        <span class="text-sm shrink-0 group-hover:scale-110 transition-transform">${spot.flag || '📍'}</span>
-        <div class="min-w-0">
-          <div class="text-[11px] font-bold text-white truncate flex items-center">${spot.name} ${islandBadge}</div>
-          <div class="text-[9px] text-cyan-400 truncate">${locBreadcrumb} · ${spot.century || spot.era_group || ''}</div>
+    filtered.forEach(spot => {
+      const card = document.createElement('div');
+      card.className = 'group relative rounded-xl overflow-hidden bg-slate-900 border border-slate-800 hover:border-cyan-400 transition-all duration-200 cursor-pointer shadow-lg hover:shadow-cyan-500/20 flex flex-col';
+
+      const islandBadge = spot.is_island ? `<span class="px-1.5 py-0.5 rounded text-[8px] bg-cyan-950/90 border border-cyan-400 text-cyan-200 font-bold backdrop-blur-sm">🏝️ ${spot.island_name || ''}</span>` : '';
+      const fallbackImg = 'https://placehold.co/600x400/0f172a/38bdf8?text=Voyage';
+
+      card.innerHTML = `
+        <div class="relative w-full h-28 sm:h-32 overflow-hidden bg-slate-950 shrink-0">
+          <img src="${spot.image || fallbackImg}" alt="${spot.name}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.src='${fallbackImg}'">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+          <div class="absolute top-1.5 left-1.5 flex items-center gap-1">
+            <span class="text-xs px-1.5 py-0.5 rounded bg-slate-950/80 backdrop-blur-sm border border-slate-700/80">${spot.flag || '📍'}</span>
+            ${islandBadge}
+          </div>
+          <div class="absolute bottom-1.5 left-2 right-2">
+            <h4 class="text-xs font-bold text-white truncate drop-shadow">${spot.name}</h4>
+          </div>
         </div>
-      </div>
-      <i class="fa-solid fa-chevron-right text-[10px] text-slate-500 group-hover:text-cyan-300 transition-colors shrink-0"></i>
-    `;
-    item.onclick = () => {
-      closeAllPopups();
-      selectSpot(spot);
-    };
-    listEl.appendChild(item);
-  });
+        <div class="p-2 flex flex-col justify-between flex-1 gap-1 text-[10px]">
+          <div class="text-cyan-400 truncate font-medium">
+            <i class="fa-solid fa-location-dot text-[9px] mr-1"></i>${spot.subdiv || spot.department || spot.country}
+          </div>
+          <div class="flex items-center justify-between text-slate-400 text-[9px] pt-1 border-t border-slate-800/80">
+            <span class="truncate">${spot.century || spot.era_group || ''}</span>
+            <span class="text-cyan-400 font-bold group-hover:translate-x-0.5 transition-transform"><i class="fa-solid fa-chevron-right text-[8px]"></i></span>
+          </div>
+        </div>
+      `;
+
+      card.onclick = () => {
+        closeAllPopups();
+        selectSpot(spot);
+      };
+
+      listEl.appendChild(card);
+    });
+
+  // --- RENDU EN LISTE COMPACTE ALTERNATIVE ---
+  } else {
+    listEl.className = 'space-y-1.5';
+
+    filtered.forEach(spot => {
+      const item = document.createElement('div');
+      item.className = 'flex items-center justify-between p-2 rounded-xl bg-slate-900/70 hover:bg-slate-800 border border-slate-800 hover:border-cyan-500/40 cursor-pointer transition select-none group';
+
+      const islandBadge = spot.is_island ? `<span class="px-1 py-0.2 rounded text-[8px] bg-cyan-950 border border-cyan-500/40 text-cyan-300 font-bold ml-1">🏝️ ${spot.island_name || ''}</span>` : '';
+      const locBreadcrumb = [spot.subdiv, spot.department, spot.country].filter(Boolean).join(' · ');
+
+      item.innerHTML = `
+        <div class="flex items-center gap-2 min-w-0 pr-1">
+          <span class="text-sm shrink-0 group-hover:scale-110 transition-transform">${spot.flag || '📍'}</span>
+          <div class="min-w-0">
+            <div class="text-[11px] font-bold text-white truncate flex items-center">${spot.name} ${islandBadge}</div>
+            <div class="text-[9px] text-cyan-400 truncate">${locBreadcrumb} · ${spot.century || spot.era_group || ''}</div>
+          </div>
+        </div>
+        <i class="fa-solid fa-chevron-right text-[10px] text-slate-500 group-hover:text-cyan-300 transition-colors shrink-0"></i>
+      `;
+
+      item.onclick = () => {
+        closeAllPopups();
+        selectSpot(spot);
+      };
+
+      listEl.appendChild(item);
+    });
+  }
 }
 
 function resetAdvancedFilters() {
@@ -3615,7 +4274,7 @@ function initGlobe() {
 
       const spot = d.spot;
       const activeCatKey = getFirstActiveCategoryForSpot(spot);
-      const cat = CATEGORIES[activeCatKey] || CATEGORIES[spot.category] || { color: '#06b6d4', icon: 'fa-location-dot' };
+     const cat = CATEGORIES[activeCatKey] || CATEGORIES[spot.category] || (CATEGORIES.star || { color: '#eab308', icon: 'fa-star' });
 
       anchor.innerHTML = `
         <div class="relative flex items-center justify-center pointer-events-auto">
@@ -3921,7 +4580,8 @@ function selectSpot(spot) {
       spotCategories.push('tous');
     }
   }
-  if (spot.is_island && !spotCategories.includes('ile')) {
+  // L'île ne s'ajoute comme catégorie visuelle que si le site est explicitement tagué "ile"
+  if (spot.category === 'ile' && !spotCategories.includes('ile')) {
     spotCategories.push('ile');
   }
 
@@ -3990,38 +4650,67 @@ function updateSpotToggleButton() {
 }
 
 function spotMatchesActiveFilters(spot) {
-  if (CATEGORIES.tous && CATEGORIES.tous.active) {
-    return true;
+  if (CATEGORIES.tous && CATEGORIES.tous.active) return true;
+
+  // 1. Prise en charge universelle du filtre UNESCO quand il est coché
+  if (CATEGORIES.unesco && CATEGORIES.unesco.active) {
+    const isUnesco = Boolean(
+      spot.category === 'unesco' ||
+      spot.unesco_name ||
+      spot.unesco ||
+      spot.is_unesco ||
+      (spot.counts && spot.counts.unesco) ||
+      (Array.isArray(spot.tags) && spot.tags.includes('unesco'))
+    );
+    if (isUnesco) return true;
   }
 
+  // 2. Vérifie les sous-catégories déclarées dans counts
   let matched = false;
   if (spot.counts) {
     Object.keys(spot.counts).forEach(catKey => {
       if (CATEGORIES[catKey] && CATEGORIES[catKey].active) matched = true;
     });
   }
+
+  // 3. Catégorie principale du site si cochée
   if (!matched && spot.category && CATEGORIES[spot.category] && CATEGORIES[spot.category].active) {
     matched = true;
   }
-  if (!matched && CATEGORIES.ile && CATEGORIES.ile.active && spot.is_island) {
+
+  // 4. Catégorie île uniquement si le site est explicitement classé "ile"
+  if (!matched && CATEGORIES.ile && CATEGORIES.ile.active && spot.category === 'ile') {
     matched = true;
   }
+
   return matched;
 }
 
 function getFirstActiveCategoryForSpot(spot) {
+  // 1. Si tagué 'star' (incontournable) -> priorité absolue à 'star' (ÉTOILE JAUNE)
+  if (spot.category === 'star') {
+    return 'star';
+  }
+
+  // 2. Vérifie les sous-catégories spécifiques (counts)
   if (spot.counts) {
     for (let catKey of Object.keys(spot.counts)) {
-      if (CATEGORIES[catKey] && CATEGORIES[catKey].active && catKey !== 'tous') return catKey;
+      if (CATEGORIES[catKey] && CATEGORIES[catKey].active && catKey !== 'tous' && catKey !== 'ile') return catKey;
     }
   }
-  if (spot.category && CATEGORIES[spot.category] && CATEGORIES[spot.category].active) {
+
+  // 3. Catégorie principale du spot si active
+  if (spot.category && CATEGORIES[spot.category] && CATEGORIES[spot.category].active && spot.category !== 'ile') {
     return spot.category;
   }
-  if (CATEGORIES.ile && CATEGORIES.ile.active && spot.is_island) {
+
+  // 4. Catégorie 'ile' UNIQUEMENT si le spot a explicitement category: "ile"
+  if (spot.category === 'ile') {
     return 'ile';
   }
-  return 'tous';
+
+  // 5. Par défaut : 'star' (étoile) si défini, sinon 'tous'
+  return CATEGORIES.star ? 'star' : 'tous';
 }
 
 function getFilteredSpots() {
@@ -4116,6 +4805,9 @@ function renderUnifiedCategoryList() {
   let lastSection = null;
 
   Object.keys(CATEGORIES).forEach(key => {
+    // Ne jamais afficher de ligne "star" dans la colonne de gauche
+    if (key === 'star') return;
+
     const cat = CATEGORIES[key];
 
     if (cat.section !== lastSection) {
@@ -4155,9 +4847,29 @@ function renderUnifiedCategoryList() {
       });
       count = uniqueIslands.size;
       tooltipText = ` title="Îles explorées (${count}) : ${Array.from(uniqueIslands).join(', ')}"`;
+    } else if (key === 'unesco') {
+      // Décompte STRICT et EXACT des biens UNESCO uniques
+      const uniqueUnescoSites = new Set();
+      travelSpots.forEach(s => {
+        const isUnesco = Boolean(
+          s.unesco_name ||
+          s.category === 'unesco' ||
+          s.unesco ||
+          s.is_unesco ||
+          (s.counts && s.counts.unesco) ||
+          (Array.isArray(s.tags) && s.tags.includes('unesco'))
+        );
+        if (isUnesco) {
+          const unescoIdentifier = s.unesco_name || s.name;
+          uniqueUnescoSites.add(unescoIdentifier);
+        }
+      });
+      count = uniqueUnescoSites.size;
     } else {
       travelSpots.forEach(s => {
-        if (s.category === key) {
+        const isDirect = (s.category === key);
+        const inCounts = (s.counts && typeof s.counts[key] === 'number' && s.counts[key] > 0);
+        if (isDirect || inCounts) {
           count += 1;
         }
       });
