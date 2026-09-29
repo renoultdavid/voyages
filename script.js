@@ -5951,51 +5951,131 @@ function toggleStatisticsDashboard() {
   const isHidden = modal.classList.toggle('hidden');
   if (!isHidden) {
     computeAllStatistics();
-    if (typeof renderFunStatistics === 'function') {
-      renderFunStatistics();
-    }
+    renderCockpitDashboardDetails();
   }
 }
 
-function renderFunStatistics() {
-  const container = document.getElementById('stat-fun-container');
-  if (!container) return;
-
+function renderCockpitDashboardDetails() {
   const validSpots = travelSpots.filter(s => typeof s.lat === 'number' && typeof s.lng === 'number');
   if (validSpots.length === 0) return;
 
-  // 1. Points cardinaux extrêmes
-  const north = validSpots.reduce((p, c) => c.lat > p.lat ? c : p);
-  const south = validSpots.reduce((p, c) => c.lat < p.lat ? c : p);
-  const east = validSpots.reduce((p, c) => c.lng > p.lng ? c : p);
-  const west = validSpots.reduce((p, c) => c.lng < p.lng ? c : p);
+  // 1. Liste des Îles détaillées
+  const islandBox = document.getElementById('stat-islands-breakdown');
+  if (islandBox) {
+    islandBox.innerHTML = '';
+    const islandsMap = {};
+    validSpots.forEach(s => {
+      if (s.is_island) {
+        const name = s.island_name || 'Île non nommée';
+        islandsMap[name] = (islandsMap[name] || 0) + 1;
+      }
+    });
 
-  // 2. Altitudes records
-  const withAlt = validSpots.filter(s => typeof s.altitude === 'number' && !isNaN(s.altitude));
-  const highest = withAlt.length ? withAlt.reduce((p, c) => c.altitude > p.altitude ? c : p) : null;
-  const lowest = withAlt.length ? withAlt.reduce((p, c) => c.altitude < p.altitude ? c : p) : null;
+    const sortedIslands = Object.entries(islandsMap).sort((a, b) => b[1] - a[1]);
+    sortedIslands.forEach(([name, count]) => {
+      const row = document.createElement('div');
+      row.className = 'flex items-center justify-between p-2 rounded-xl bg-slate-950/70 border border-slate-800';
+      row.innerHTML = `
+        <span class="text-slate-200 font-bold flex items-center gap-2">
+          <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 shadow-[0_0_6px_#22d3ee]"></span> ${name}
+        </span>
+        <span class="font-mono text-cyan-300 font-black text-xs px-2 py-0.5 rounded bg-cyan-950/80 border border-cyan-500/30">${count} POI</span>
+      `;
+      islandBox.appendChild(row);
+    });
+  }
 
-  container.innerHTML = `
-    <div class="p-2.5 rounded-xl bg-slate-950/70 border border-slate-800 space-y-1.5">
-      <div class="text-xs font-bold text-slate-200 flex items-center gap-1.5">
-        <i class="fa-solid fa-compass text-rose-400"></i> Points Cardinaux Extrêmes
-      </div>
-      <div class="text-[11px] text-slate-400 space-y-1">
-        <div><span class="text-slate-200 font-medium">Nord :</span> ${north.name} (${north.lat.toFixed(2)}°)</div>
-        <div><span class="text-slate-200 font-medium">Sud :</span> ${south.name} (${south.lat.toFixed(2)}°)</div>
-        <div><span class="text-slate-200 font-medium">Est :</span> ${east.name} (${east.lng.toFixed(2)}°)</div>
-        <div><span class="text-slate-200 font-medium">Ouest :</span> ${west.name} (${west.lng.toFixed(2)}°)</div>
-      </div>
-    </div>
+  // 2. Profil des étages d'altitude (Histogramme)
+  const altBarsBox = document.getElementById('stat-alt-bars');
+  if (altBarsBox) {
+    altBarsBox.innerHTML = '';
+    const tiers = [
+      { label: "Littoral & Plaines (≤ 100m)", min: -100, max: 100, color: "from-blue-500 to-cyan-400" },
+      { label: "Collines (101m - 500m)", min: 101, max: 500, color: "from-emerald-500 to-teal-400" },
+      { label: "Moyenne Montagne (501m - 1200m)", min: 501, max: 1200, color: "from-amber-500 to-yellow-400" },
+      { label: "Haute Altitude (> 1200m)", min: 1201, max: 9999, color: "from-rose-500 to-pink-500" }
+    ];
 
-    ${highest ? `
-    <div class="p-2.5 rounded-xl bg-slate-950/70 border border-slate-800 space-y-1.5 mt-2">
-      <div class="text-xs font-bold text-slate-200 flex items-center gap-1.5">
-        <i class="fa-solid fa-mountain text-amber-400"></i> Altitudes
+    const spotsWithAlt = validSpots.filter(s => typeof s.altitude === 'number' && !isNaN(s.altitude));
+    const total = spotsWithAlt.length || 1;
+
+    tiers.forEach(t => {
+      const count = spotsWithAlt.filter(s => s.altitude >= t.min && s.altitude <= t.max).length;
+      const pct = Math.round((count / total) * 100);
+      const bar = document.createElement('div');
+      bar.className = 'space-y-1';
+      bar.innerHTML = `
+        <div class="flex justify-between text-[10px]">
+          <span class="text-slate-300 font-medium">${t.label}</span>
+          <span class="font-mono text-slate-400 font-bold">${count} sites (${pct}%)</span>
+        </div>
+        <div class="w-full bg-slate-900 rounded-full h-1.5 overflow-hidden">
+          <div class="bg-gradient-to-r ${t.color} h-full rounded-full" style="width: ${pct}%;"></div>
+        </div>
+      `;
+      altBarsBox.appendChild(bar);
+    });
+  }
+
+  // 3. Carte 5 : Records & Distinctions
+  const recBox = document.getElementById('stat-records-container');
+  if (recBox) {
+    // Région championne
+    const regionCounts = {};
+    validSpots.forEach(s => {
+      if (s.region_admin) regionCounts[s.region_admin] = (regionCounts[s.region_admin] || 0) + 1;
+    });
+    let topReg = "Aucune", topRegCount = 0;
+    Object.entries(regionCounts).forEach(([r, c]) => {
+      if (c > topRegCount) { topRegCount = c; topReg = r; }
+    });
+
+    // Époque championne
+    const eraCounts = {};
+    validSpots.forEach(s => {
+      if (s.era_group) eraCounts[s.era_group] = (eraCounts[s.era_group] || 0) + 1;
+    });
+    let topEra = "Moderne", topEraCount = 0;
+    Object.entries(eraCounts).forEach(([e, c]) => {
+      if (c > topEraCount) { topEraCount = c; topEra = e; }
+    });
+
+    recBox.innerHTML = `
+      <div class="p-3 rounded-xl bg-gradient-to-r from-amber-950/40 to-slate-950 border border-amber-500/30 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-300 flex items-center justify-center font-bold text-sm shadow">
+            👑
+          </div>
+          <div>
+            <div class="text-[9px] uppercase font-bold text-amber-300">Région Star des Carnets</div>
+            <div class="text-xs font-extrabold text-white">${topReg}</div>
+          </div>
+        </div>
+        <span class="font-mono text-amber-300 font-black text-sm px-2.5 py-1 rounded-lg bg-amber-950/80 border border-amber-500/40">${topRegCount} POI</span>
       </div>
-      <div class="text-[11px] text-slate-400 space-y-1">
-        <div><span class="text-slate-200 font-medium">Point le plus haut :</span> ${highest.name} (${highest.altitude} m)</div>${lowest ? `<div><span class="text-slate-200 font-medium">Point le plus bas :</span> ${lowest.name} (${lowest.altitude} m)</div>` : ''}
+
+      <div class="p-3 rounded-xl bg-gradient-to-r from-purple-950/40 to-slate-950 border border-purple-500/30 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded-xl bg-purple-500/20 text-purple-300 flex items-center justify-center font-bold text-sm shadow">
+            ⏳
+          </div>
+          <div>
+            <div class="text-[9px] uppercase font-bold text-purple-300">Époque Dominante</div>
+            <div class="text-xs font-extrabold text-white capitalize">${topEra}</div>
+          </div>
+        </div>
+        <span class="font-mono text-purple-300 font-black text-sm px-2.5 py-1 rounded-lg bg-purple-950/80 border border-purple-500/40">${topEraCount} POI</span>
       </div>
-    </div>` : ''}
-  `;
+
+      <div class="p-3 rounded-xl bg-slate-950/70 border border-slate-800 space-y-1.5">
+        <div class="text-[9px] uppercase font-bold text-cyan-400 flex items-center gap-1.5">
+          <i class="fa-solid fa-plane-departure text-cyan-400"></i> Densité de Voyage
+        </div>
+        <div class="text-[11px] text-slate-300 flex justify-between items-center">
+          <span>Nombre total de sites indexés</span>
+          <span class="font-mono text-cyan-300 font-black text-xs">${validSpots.length} POI</span>
+        </div>
+      </div>
+    `;
+  }
 }
