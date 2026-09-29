@@ -5945,3 +5945,57 @@ window.onload = function () {
   runAdvancedFilter();
   setTimeout(onWindowResize, 200);
 };
+function toggleStatisticsDashboard() {
+  const modal = document.getElementById('statistics-dashboard-modal');
+  if (!modal) return;
+  const isHidden = modal.classList.toggle('hidden');
+  if (!isHidden) {
+    computeAllStatistics();
+    if (typeof renderFunStatistics === 'function') {
+      renderFunStatistics();
+    }
+  }
+}
+
+function renderFunStatistics() {
+  const container = document.getElementById('stat-fun-container');
+  if (!container) return;
+
+  const validSpots = travelSpots.filter(s => typeof s.lat === 'number' && typeof s.lng === 'number');
+  if (validSpots.length === 0) return;
+
+  // 1. Points cardinaux extrêmes
+  const north = validSpots.reduce((p, c) => c.lat > p.lat ? c : p);
+  const south = validSpots.reduce((p, c) => c.lat < p.lat ? c : p);
+  const east = validSpots.reduce((p, c) => c.lng > p.lng ? c : p);
+  const west = validSpots.reduce((p, c) => c.lng < p.lng ? c : p);
+
+  // 2. Altitudes records
+  const withAlt = validSpots.filter(s => typeof s.altitude === 'number' && !isNaN(s.altitude));
+  const highest = withAlt.length ? withAlt.reduce((p, c) => c.altitude > p.altitude ? c : p) : null;
+  const lowest = withAlt.length ? withAlt.reduce((p, c) => c.altitude < p.altitude ? c : p) : null;
+
+  container.innerHTML = `
+    <div class="p-2.5 rounded-xl bg-slate-950/70 border border-slate-800 space-y-1.5">
+      <div class="text-xs font-bold text-slate-200 flex items-center gap-1.5">
+        <i class="fa-solid fa-compass text-rose-400"></i> Points Cardinaux Extrêmes
+      </div>
+      <div class="text-[11px] text-slate-400 space-y-1">
+        <div><span class="text-slate-200 font-medium">Nord :</span> ${north.name} (${north.lat.toFixed(2)}°)</div>
+        <div><span class="text-slate-200 font-medium">Sud :</span> ${south.name} (${south.lat.toFixed(2)}°)</div>
+        <div><span class="text-slate-200 font-medium">Est :</span> ${east.name} (${east.lng.toFixed(2)}°)</div>
+        <div><span class="text-slate-200 font-medium">Ouest :</span> ${west.name} (${west.lng.toFixed(2)}°)</div>
+      </div>
+    </div>
+
+    ${highest ? `
+    <div class="p-2.5 rounded-xl bg-slate-950/70 border border-slate-800 space-y-1.5 mt-2">
+      <div class="text-xs font-bold text-slate-200 flex items-center gap-1.5">
+        <i class="fa-solid fa-mountain text-amber-400"></i> Altitudes
+      </div>
+      <div class="text-[11px] text-slate-400 space-y-1">
+        <div><span class="text-slate-200 font-medium">Point le plus haut :</span> ${highest.name} (${highest.altitude} m)</div>${lowest ? `<div><span class="text-slate-200 font-medium">Point le plus bas :</span> ${lowest.name} (${lowest.altitude} m)</div>` : ''}
+      </div>
+    </div>` : ''}
+  `;
+}
