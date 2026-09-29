@@ -24,12 +24,72 @@ const CONTINENT_TOTALS = {
 
 // Totaux administratifs de premier ordre par pays
 const COUNTRY_SUBDIV_TOTALS = {
-  "France": { type: "Départements", total: 101, regionType: "Régions", regionTotal: 18 },
-  "Égypte": { type: "Gouvernorats", total: 27 },
+  // --- EUROPE OCCIDENTALE & DU NORD ---
+  "France": { type: "Régions", total: 18, depType: "Départements", depTotal: 101 },
+  "Grande-Bretagne": { type: "Nations & Régions", total: 12, depType: "Comtés", depTotal: 48 },
+  "Royaume-Uni": { type: "Nations & Régions", total: 12, depType: "Comtés", depTotal: 48 },
+  "Écosse": { type: "Council Areas", total: 32 },
+  "Belgique": { type: "Régions", total: 3, depType: "Provinces", depTotal: 10 },
+  "Pays-Bas": { type: "Provinces", total: 12 },
   "Allemagne": { type: "Länder", total: 16 },
-  "Italie": { type: "Régions", total: 20 },
-  "Espagne": { type: "Communautés", total: 17, provType: "Provinces", provTotal: 50 },
-  "États-Unis": { type: "États", total: 50 }
+  "Suisse": { type: "Cantons", total: 26 },
+  "Autriche": { type: "Länder", total: 9 },
+  "Danemark": { type: "Régions", total: 5 },
+  "Norvège": { type: "Comtés (Fylker)", total: 15 },
+  "Suède": { type: "Comtés (Län)", total: 21 },
+  "Finlande": { type: "Régions", total: 19 },
+
+  // --- EUROPE DU SUD & MÉDITERRANÉE ---
+  "Espagne": { type: "Communautés", total: 17, depType: "Provinces", depTotal: 50 },
+  "Portugal": { type: "Districts & Régions", total: 20 },
+  "Italie": { type: "Régions", total: 20, depType: "Provinces", depTotal: 107 },
+  "Grèce": { type: "Périphéries", total: 13 },
+  "Turquie": { type: "Provinces", total: 81 },
+
+  // --- EUROPE CENTRALE & BALKANS ---
+  "Pologne": { type: "Voïvodies", total: 16 },
+  "République Tchèque": { type: "Régions (Kraje)", total: 14 },
+  "Tchéquie": { type: "Régions (Kraje)", total: 14 },
+  "Slovaquie": { type: "Régions (Kraje)", total: 8 },
+  "Slovénie": { type: "Régions statistiques", total: 12 },
+  "Croatie": { type: "Comitats (Županije)", total: 21 },
+  "Bosnie-Herzégovine": { type: "Entités & Cantons", total: 10 },
+  "Bosnie": { type: "Entités & Cantons", total: 10 },
+  "Monténégro": { type: "Municipalités", total: 25 },
+  "Albanie": { type: "Préfectures (Qarks)", total: 12 },
+
+  // --- AMÉRIQUE DU NORD & CENTRALE ---
+  "États-Unis": { type: "États", total: 50 },
+  "USA": { type: "États", total: 50 },
+  "Mexique": { type: "États", total: 32 },
+  "Guatemala": { type: "Départements", total: 22 },
+  "Honduras": { type: "Départements", total: 18 },
+
+  // --- AMÉRIQUE DU SUD ---
+  "Argentine": { type: "Provinces", total: 24 },
+  "Chili": { type: "Régions", total: 16 },
+  "Bolivie": { type: "Départements", total: 9 },
+  "Pérou": { type: "Régions", total: 25 },
+
+  // --- AFRIQUE ---
+  "Afrique du Sud": { type: "Provinces", total: 9 },
+  "Namibie": { type: "Régions", total: 14 },
+  "Botswana": { type: "Districts", total: 10 },
+  "Zimbabwe": { type: "Provinces", total: 10 },
+  "Eswatini": { type: "Districts", total: 4 },
+  "Swaziland": { type: "Districts", total: 4 },
+  "Madagascar": { type: "Régions", total: 23 },
+  "Tunisie": { type: "Gouvernorats", total: 24 },
+  "Maroc": { type: "Régions", total: 12 },
+  "Égypte": { type: "Gouvernorats", total: 27 },
+
+  // --- ASIE ---
+  "Japon": { type: "Régions", total: 8, depType: "Préfectures", depTotal: 47 },
+  "Inde": { type: "États & Territoires", total: 36 },
+  "Indonésie": { type: "Provinces", total: 38 },
+  "Thaïlande": { type: "Provinces", total: 77 },
+  "Malaisie": { type: "États & Territoires", total: 16 },
+  "Singapour": { type: "Districts", total: 5 }
 };
 
 const travelSpots = [
@@ -4540,16 +4600,18 @@ function computeAllStatistics() {
       continentCount[s.continent]++;
     }
 
-    if (!subdivData[s.country]) {
+   if (!subdivData[s.country]) {
       subdivData[s.country] = {
         flag: s.flag || '📍',
-        subdivs: new Set(),
         regions: new Set(),
+        depts: new Set(),
+        cities: new Set(),
         spots: []
       };
     }
-    if (s.subdiv) subdivData[s.country].subdivs.add(s.subdiv);
     if (s.region_admin) subdivData[s.country].regions.add(s.region_admin);
+    if (s.department) subdivData[s.country].depts.add(s.department);
+    if (s.subdiv) subdivData[s.country].cities.add(s.subdiv);
     subdivData[s.country].spots.push(s);
   });
 
@@ -4627,22 +4689,23 @@ function computeAllStatistics() {
   const subdivList = document.getElementById('stat-subdivisions-list');
   if (subdivList) {
     subdivList.innerHTML = '';
-    Object.keys(subdivData).forEach(countryName => {
+    Object.keys(subdivData).sort().forEach(countryName => {
       const data = subdivData[countryName];
-      const ref = COUNTRY_SUBDIV_TOTALS[countryName] || { type: "Subdivisions", total: 20 };
-      const subdivCount = data.subdivs.size;
-      const subdivPct = Math.round((subdivCount / ref.total) * 100);
+      const ref = COUNTRY_SUBDIV_TOTALS[countryName] || { type: "Régions", total: Math.max(data.regions.size, 10) };
+      
+      const mainCount = data.regions.size;
+      const mainPct = Math.min(100, Math.round((mainCount / ref.total) * 100));
 
       const card = document.createElement('div');
       card.className = 'p-2 rounded-xl bg-slate-950/70 border border-slate-800 space-y-1.5';
-      
-      let regionsHtml = '';
-      if (ref.regionTotal && data.regions.size > 0) {
-        const regPct = Math.round((data.regions.size / ref.regionTotal) * 100);
-        regionsHtml = `
-          <div class="flex justify-between items-center text-[9px] text-slate-400 mt-1">
-            <span>Régions : ${Array.from(data.regions).join(', ')}</span>
-            <span class="font-mono font-bold text-slate-300">${data.regions.size} / ${ref.regionTotal} (${regPct}%)</span>
+
+      let secondaryHtml = '';
+      if (ref.depTotal && data.depts.size > 0) {
+        const depPct = Math.min(100, Math.round((data.depts.size / ref.depTotal) * 100));
+        secondaryHtml = `
+          <div class="flex justify-between items-center text-[9px] text-slate-400 mt-1 border-t border-slate-900 pt-1">
+            <span>${ref.depType || 'Subdivisions'} : ${Array.from(data.depts).join(', ')}</span>
+            <span class="font-mono font-bold text-slate-300">${data.depts.size} / ${ref.depTotal} (${depPct}%)</span>
           </div>
         `;
       }
@@ -4650,15 +4713,15 @@ function computeAllStatistics() {
       card.innerHTML = `
         <div class="flex justify-between items-center text-[11px] font-bold">
           <span class="text-white flex items-center gap-1.5">${data.flag} ${countryName}</span>
-          <span class="font-mono text-cyan-300">${subdivCount} / ${ref.total} ${ref.type.toLowerCase()}</span>
+          <span class="font-mono text-cyan-300">${mainCount} / ${ref.total} ${ref.type.toLowerCase()}</span>
         </div>
         <div class="w-full bg-slate-800 rounded-full h-1.5 overflow-hidden">
-          <div class="bg-gradient-to-r from-indigo-500 to-cyan-400 h-full rounded-full" style="width: ${Math.max(2, subdivPct)}%;"></div>
+          <div class="bg-gradient-to-r from-indigo-500 to-cyan-400 h-full rounded-full" style="width: ${Math.max(3, mainPct)}%;"></div>
         </div>
         <div class="text-[9px] text-slate-400">
-          <span class="text-slate-300 font-medium">Explorés :</span> ${Array.from(data.subdivs).join(', ')}
+          <span class="text-slate-300 font-medium">Explorées :</span> ${Array.from(data.regions).join(', ') || 'Non renseigné'}
         </div>
-        ${regionsHtml}
+        ${secondaryHtml}
       `;
       subdivList.appendChild(card);
     });
