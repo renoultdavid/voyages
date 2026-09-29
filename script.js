@@ -4852,6 +4852,7 @@ function renderUnifiedCategoryList() {
       const uniqueUnescoSites = new Set();
       travelSpots.forEach(s => {
         const isUnesco = Boolean(
+          s.unesco_name ||
           s.category === 'unesco' ||
           s.unesco ||
           s.is_unesco ||
@@ -4859,7 +4860,6 @@ function renderUnifiedCategoryList() {
           (Array.isArray(s.tags) && s.tags.includes('unesco'))
         );
         if (isUnesco) {
-          // Si le bien a un nom officiel UNESCO renseigné, on regroupe dessus. Sinon on prend le nom du POI.
           const unescoIdentifier = s.unesco_name || s.name;
           uniqueUnescoSites.add(unescoIdentifier);
         }
