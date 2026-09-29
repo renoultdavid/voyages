@@ -255,163 +255,205 @@
     </div>
 
     <!-- Grille des fenêtres de statistiques de même taille -->
+   <!-- GRILLE COCKPIT SPATIAL DYNAMIQUE -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5 py-2 flex-1 min-h-0">
       
-      <!-- Fenêtre 1 : Base Castellare & Caps Extrêmes -->
-      <div class="bg-slate-900/80 border border-slate-800 rounded-2xl flex flex-col min-h-0 shadow-xl overflow-hidden">
-        <div class="p-3 border-b border-slate-800/80 bg-slate-950/50 flex items-center gap-2 text-amber-400 shrink-0">
-          <i class="fa-solid fa-award text-sm"></i>
-          <span class="text-xs font-bold uppercase tracking-wider text-slate-200">Base Castellare & Boussole</span>
-        </div>
-        <div class="p-3 overflow-y-auto space-y-2 flex-1 custom-scrollbar-indigo text-xs">
-          <div class="bg-amber-950/40 p-2.5 rounded-xl border border-amber-500/30">
-            <div class="text-[9px] uppercase font-bold text-amber-300 flex items-center justify-between">
-              <span><i class="fa-solid fa-paper-plane mr-1"></i> Plus lointain de Castellare</span>
-              <span id="stat-home-farthest-dist" class="font-mono text-amber-200 font-black text-xs">0 km</span>
-            </div>
-            <div id="stat-home-farthest-name" class="text-xs font-bold text-white mt-1 leading-snug"></div>
+      <!-- CARTE 1 : BASE CASTELLARE & BOUSSOLE -->
+      <div class="bg-slate-900/90 border border-slate-800 rounded-2xl flex flex-col min-h-0 shadow-2xl relative overflow-hidden backdrop-blur-xl group hover:border-amber-500/40 transition">
+        <div class="absolute -top-12 -right-12 w-28 h-28 bg-amber-500/10 rounded-full blur-2xl pointer-events-none"></div>
+        <div class="p-3 border-b border-slate-800 bg-slate-950/60 flex items-center justify-between shrink-0">
+          <div class="flex items-center gap-2 text-amber-400">
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+            </span>
+            <i class="fa-solid fa-compass text-xs"></i>
+            <span class="text-xs font-black uppercase tracking-wider text-slate-200">Base Castellare & Boussole</span>
           </div>
-          <div class="bg-slate-950/70 p-2.5 rounded-xl border border-slate-800 space-y-1.5">
-            <div class="text-[9px] uppercase font-bold text-indigo-300 tracking-wider">Boussole des Extrêmes</div>
-            <div class="grid grid-cols-2 gap-1.5">
-              <div class="bg-slate-900 p-1.5 rounded-lg border border-slate-800">
-                <div class="text-[8px] uppercase font-bold text-cyan-400 flex items-center gap-1">
-                  <i class="fa-solid fa-arrow-up"></i> Cap Nord
-                </div>
-                <div id="stat-cardinal-north" class="text-[10px] font-semibold text-white mt-0.5 truncate"></div>
-              </div>
-              <div class="bg-slate-900 p-1.5 rounded-lg border border-slate-800">
-                <div class="text-[8px] uppercase font-bold text-rose-400 flex items-center gap-1">
-                  <i class="fa-solid fa-arrow-down"></i> Cap Sud
-                </div>
-                <div id="stat-cardinal-south" class="text-[10px] font-semibold text-white mt-0.5 truncate"></div>
-              </div>
-              <div class="bg-slate-900 p-1.5 rounded-lg border border-slate-800">
-                <div class="text-[8px] uppercase font-bold text-emerald-400 flex items-center gap-1">
-                  <i class="fa-solid fa-arrow-left"></i> Cap Ouest
-                </div>
-                <div id="stat-cardinal-west" class="text-[10px] font-semibold text-white mt-0.5 truncate"></div>
-              </div>
-              <div class="bg-slate-900 p-1.5 rounded-lg border border-slate-800">
-                <div class="text-[8px] uppercase font-bold text-amber-400 flex items-center gap-1">
-                  <i class="fa-solid fa-arrow-right"></i> Cap Est
-                </div>
-                <div id="stat-cardinal-east" class="text-[10px] font-semibold text-white mt-0.5 truncate"></div>
-              </div>
-            </div>
-          </div>
-          <div class="bg-indigo-950/40 p-2 rounded-xl border border-indigo-500/30">
-            <div class="text-[9px] uppercase font-bold text-indigo-300 flex items-center justify-between">
-              <span><i class="fa-solid fa-arrows-left-right mr-1"></i> Envergure maximale</span>
-              <span id="stat-max-dist" class="font-mono text-cyan-300 font-extrabold text-[11px]">0 km</span>
-            </div>
-            <p id="stat-max-pair" class="text-[10px] text-slate-300 mt-0.5 leading-tight"></p>
-          </div>
+          <span class="text-[9px] font-mono px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-300 border border-amber-500/20 font-bold">RADAR</span>
         </div>
-      </div>
-
-      <!-- Fenêtre 2 : Monde ONU & Subdivisions Territoriales -->
-      <div class="bg-slate-900/80 border border-slate-800 rounded-2xl flex flex-col min-h-0 shadow-xl overflow-hidden">
-        <div class="p-3 border-b border-slate-800/80 bg-slate-950/50 flex items-center gap-2 text-blue-400 shrink-0">
-          <i class="fa-solid fa-earth-americas text-sm"></i>
-          <span class="text-xs font-bold uppercase tracking-wider text-slate-200">Monde ONU & Subdivisions</span>
-        </div>
-        <div class="p-3 overflow-y-auto space-y-2 flex-1 custom-scrollbar-indigo text-xs">
-          <div class="bg-blue-950/50 p-2.5 rounded-xl border border-blue-500/30">
+        <div class="p-3.5 overflow-y-auto space-y-3 flex-1 custom-scrollbar-indigo text-xs">
+          <div class="bg-gradient-to-br from-amber-950/40 to-slate-950/80 p-3 rounded-xl border border-amber-500/30 shadow-inner">
             <div class="flex items-center justify-between">
-              <span class="text-[9px] uppercase font-bold text-blue-300">🌍 Accomplissement ONU</span>
-              <span id="stat-onu-fraction" class="font-mono text-blue-200 font-black text-xs">0 / 195</span>
+              <span class="text-[9px] uppercase font-bold text-amber-300/90 flex items-center gap-1.5">
+                <i class="fa-solid fa-paper-plane text-amber-400"></i> Plus grand éloignement
+              </span>
+              <span id="stat-home-farthest-dist" class="font-mono text-amber-300 font-black text-sm tracking-tight drop-shadow-[0_0_8px_rgba(245,158,11,0.5)]">0 km</span>
             </div>
-            <div class="w-full bg-slate-800 rounded-full h-1.5 overflow-hidden mt-1.5">
-              <div id="stat-onu-bar" class="bg-gradient-to-r from-blue-500 to-cyan-400 h-full rounded-full transition-all duration-300" style="width: 1%;"></div>
+            <div id="stat-home-farthest-name" class="text-xs font-bold text-white mt-1.5 leading-snug truncate"></div>
+          </div>
+          <div class="bg-slate-950/70 p-3 rounded-xl border border-slate-800 space-y-2">
+            <div class="text-[9px] uppercase font-black text-indigo-300 tracking-wider flex items-center gap-1.5">
+              <i class="fa-solid fa-crosshairs text-indigo-400"></i> Points Cardinaux Extrêmes
+            </div>
+            <div class="grid grid-cols-2 gap-2">
+              <div class="bg-slate-900/90 p-2 rounded-lg border border-slate-800/80">
+                <div class="text-[9px] uppercase font-black text-cyan-400 flex items-center gap-1"><i class="fa-solid fa-arrow-up"></i> Cap Nord</div>
+                <div id="stat-cardinal-north" class="text-xs font-bold text-slate-100 mt-0.5 truncate"></div>
+              </div>
+              <div class="bg-slate-900/90 p-2 rounded-lg border border-slate-800/80">
+                <div class="text-[9px] uppercase font-black text-rose-400 flex items-center gap-1"><i class="fa-solid fa-arrow-down"></i> Cap Sud</div>
+                <div id="stat-cardinal-south" class="text-xs font-bold text-slate-100 mt-0.5 truncate"></div>
+              </div>
+              <div class="bg-slate-900/90 p-2 rounded-lg border border-slate-800/80">
+                <div class="text-[9px] uppercase font-black text-emerald-400 flex items-center gap-1"><i class="fa-solid fa-arrow-left"></i> Cap Ouest</div>
+                <div id="stat-cardinal-west" class="text-xs font-bold text-slate-100 mt-0.5 truncate"></div>
+              </div>
+              <div class="bg-slate-900/90 p-2 rounded-lg border border-slate-800/80">
+                <div class="text-[9px] uppercase font-black text-amber-400 flex items-center gap-1"><i class="fa-solid fa-arrow-right"></i> Cap Est</div>
+                <div id="stat-cardinal-east" class="text-xs font-bold text-slate-100 mt-0.5 truncate"></div>
+              </div>
             </div>
           </div>
-          <div class="text-[10px] font-bold text-indigo-300 uppercase tracking-wider pt-1">Exploration par Pays :</div>
-          <div id="stat-subdivisions-list" class="space-y-1.5"></div>
+          <div class="bg-indigo-950/30 p-2.5 rounded-xl border border-indigo-500/20 flex items-center justify-between">
+            <span class="text-[10px] uppercase font-bold text-indigo-300">Envergure Maximale</span>
+            <span id="stat-max-dist" class="font-mono text-cyan-300 font-black text-xs">0 km</span>
+          </div>
         </div>
       </div>
 
-      <!-- Fenêtre 3 : Altimètre des Extrêmes -->
-      <div class="bg-slate-900/80 border border-slate-800 rounded-2xl flex flex-col min-h-0 shadow-xl overflow-hidden">
-        <div class="p-3 border-b border-slate-800/80 bg-slate-950/50 flex items-center gap-2 text-emerald-400 shrink-0">
-          <i class="fa-solid fa-mountain-sun text-sm"></i>
-          <span class="text-xs font-bold uppercase tracking-wider text-slate-200">Altimètre & Relief</span>
+      <!-- CARTE 2 : MONDE ONU & SUBDIVISIONS -->
+      <div class="bg-slate-900/90 border border-slate-800 rounded-2xl flex flex-col min-h-0 shadow-2xl relative overflow-hidden backdrop-blur-xl group hover:border-blue-500/40 transition">
+        <div class="absolute -top-12 -right-12 w-28 h-28 bg-blue-500/10 rounded-full blur-2xl pointer-events-none"></div>
+        <div class="p-3 border-b border-slate-800 bg-slate-950/60 flex items-center justify-between shrink-0">
+          <div class="flex items-center gap-2 text-blue-400">
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+            </span>
+            <i class="fa-solid fa-earth-americas text-xs"></i>
+            <span class="text-xs font-black uppercase tracking-wider text-slate-200">Monde ONU & Subdivisions</span>
+          </div>
+          <span id="stat-onu-fraction" class="text-xs font-mono font-black text-blue-300 bg-blue-950/80 border border-blue-500/30 px-2 py-0.5 rounded-lg">0 / 195</span>
         </div>
-        <div class="p-3 overflow-y-auto space-y-2 flex-1 custom-scrollbar-indigo text-xs">
-          <div class="grid grid-cols-2 gap-1.5">
-            <div class="bg-slate-950/70 p-2 rounded-xl border border-slate-800">
-              <div class="text-[8px] uppercase font-bold text-emerald-400 flex items-center gap-1">
-                <i class="fa-solid fa-arrow-up-right-dots"></i> Zénith (Toit)
-              </div>
-              <div id="stat-alt-max-val" class="text-xs font-black text-white font-mono mt-0.5">0 m</div>
-              <div id="stat-alt-max-name" class="text-[9px] text-slate-300 truncate mt-0.5"></div>
+        <div class="p-3.5 overflow-y-auto space-y-3 flex-1 custom-scrollbar-indigo text-xs">
+          <div class="bg-gradient-to-r from-blue-950/40 to-cyan-950/30 p-3 rounded-xl border border-blue-500/30">
+            <div class="flex justify-between items-center text-[10px] font-bold text-slate-300 mb-1.5">
+              <span>Taux de couverture terrestre</span>
+              <span id="stat-onu-pct" class="font-mono text-cyan-300 font-extrabold text-xs">0%</span>
             </div>
-            <div class="bg-slate-950/70 p-2 rounded-xl border border-slate-800">
-              <div class="text-[8px] uppercase font-bold text-cyan-400 flex items-center gap-1">
+            <div class="w-full bg-slate-950 rounded-full h-2.5 p-0.5 border border-slate-800">
+              <div id="stat-onu-bar" class="bg-gradient-to-r from-blue-500 via-cyan-400 to-emerald-400 h-full rounded-full shadow-[0_0_10px_#22d3ee] transition-all duration-500" style="width: 2%;"></div>
+            </div>
+          </div>
+          <div class="text-[10px] font-black uppercase tracking-wider text-slate-400 flex items-center gap-1.5 pt-1">
+            <i class="fa-solid fa-network-wired text-cyan-400"></i> Maillages territoriaux explorés
+          </div>
+          <div id="stat-subdivisions-list" class="space-y-2"></div>
+        </div>
+      </div>
+
+      <!-- CARTE 3 : ALTIMÈTRE & PROFIL DU RELIEF -->
+      <div class="bg-slate-900/90 border border-slate-800 rounded-2xl flex flex-col min-h-0 shadow-2xl relative overflow-hidden backdrop-blur-xl group hover:border-emerald-500/40 transition">
+        <div class="absolute -top-12 -right-12 w-28 h-28 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none"></div>
+        <div class="p-3 border-b border-slate-800 bg-slate-950/60 flex items-center justify-between shrink-0">
+          <div class="flex items-center gap-2 text-emerald-400">
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+            </span>
+            <i class="fa-solid fa-mountain-sun text-xs"></i>
+            <span class="text-xs font-black uppercase tracking-wider text-slate-200">Altimètre & Relief</span>
+          </div>
+          <span class="text-[9px] font-mono px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 font-bold">ALTITUDE</span>
+        </div>
+        <div class="p-3.5 overflow-y-auto space-y-3 flex-1 custom-scrollbar-indigo text-xs">
+          <div class="grid grid-cols-2 gap-2.5">
+            <div class="bg-gradient-to-br from-slate-950 to-emerald-950/40 p-3 rounded-xl border border-emerald-500/30">
+              <div class="text-[9px] uppercase font-black text-emerald-400 flex items-center gap-1">
+                <i class="fa-solid fa-arrow-up-right-dots"></i> Zénith (Sommet)
+              </div>
+              <div id="stat-alt-max-val" class="text-base font-black text-emerald-300 font-mono mt-1 drop-shadow-[0_0_8px_rgba(52,211,153,0.4)]">0 m</div>
+              <div id="stat-alt-max-name" class="text-[10px] font-semibold text-slate-300 truncate mt-0.5"></div>
+            </div>
+            <div class="bg-gradient-to-br from-slate-950 to-cyan-950/40 p-3 rounded-xl border border-cyan-500/30">
+              <div class="text-[9px] uppercase font-black text-cyan-400 flex items-center gap-1">
                 <i class="fa-solid fa-water"></i> Nadir (Plancher)
               </div>
-              <div id="stat-alt-min-val" class="text-xs font-black text-white font-mono mt-0.5">0 m</div>
-              <div id="stat-alt-min-name" class="text-[9px] text-slate-300 truncate mt-0.5"></div>
+              <div id="stat-alt-min-val" class="text-base font-black text-cyan-300 font-mono mt-1 drop-shadow-[0_0_8px_rgba(34,211,238,0.4)]">0 m</div>
+              <div id="stat-alt-min-name" class="text-[10px] font-semibold text-slate-300 truncate mt-0.5"></div>
             </div>
           </div>
-          <div class="bg-emerald-950/40 p-2.5 rounded-xl border border-emerald-500/30 flex items-center justify-between">
+          <div class="bg-slate-950/80 p-3 rounded-xl border border-slate-800 flex items-center justify-between">
             <div>
-              <div class="text-[9px] uppercase font-bold text-emerald-300">Amplitude Verticale</div>
-              <div class="text-[9px] text-slate-400">Dénivelé total exploré</div>
+              <div class="text-[9px] uppercase font-bold text-slate-400">Amplitude Verticale Totale</div>
+              <div class="text-[10px] text-slate-500">Grand écart absolu conquis</div>
             </div>
-            <span id="stat-alt-amplitude" class="font-mono text-emerald-200 font-black text-xs">0 m</span>
+            <span id="stat-alt-amplitude" class="font-mono text-emerald-300 font-black text-sm">0 m</span>
+          </div>
+          <div class="bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 space-y-2">
+            <div class="text-[9px] uppercase font-bold text-slate-400">Profil des étages explorés</div>
+            <div id="stat-alt-bars" class="space-y-1.5"></div>
           </div>
         </div>
       </div>
 
-      <!-- Fenêtre 4 : Terres Insulaires vs Continent -->
-      <div class="bg-slate-900/80 border border-slate-800 rounded-2xl flex flex-col min-h-0 shadow-xl overflow-hidden">
-        <div class="p-3 border-b border-slate-800/80 bg-slate-950/50 flex items-center gap-2 text-cyan-400 shrink-0">
-          <i class="fa-solid fa-anchor text-sm"></i>
-          <span class="text-xs font-bold uppercase tracking-wider text-slate-200">Îles vs Continent</span>
-        </div>
-        <div class="p-3 overflow-y-auto space-y-2 flex-1 custom-scrollbar-indigo text-xs">
-          <div class="bg-slate-950/70 p-2.5 rounded-xl border border-slate-800 space-y-1.5">
-            <div class="flex justify-between items-center text-[10px] font-bold">
-              <span class="text-cyan-300"><i class="fa-solid fa-anchor mr-1"></i> Îles : <span id="stat-islands-pct">0%</span></span>
-              <span class="text-amber-300">Continent : <span id="stat-mainland-pct">0%</span> <i class="fa-solid fa-earth-europe ml-1"></i></span>
-            </div>
-            <div class="w-full bg-slate-800 rounded-full h-2 overflow-hidden flex">
-              <div id="stat-bar-islands" class="bg-cyan-500 h-full transition-all duration-300" style="width: 50%;"></div>
-              <div id="stat-bar-mainland" class="bg-amber-600 h-full transition-all duration-300" style="width: 50%;"></div>
-            </div>
-            <div id="stat-islands-note" class="text-[10px] text-slate-400 italic pt-1"></div>
+      <!-- CARTE 4 : TERRES INSULAIRES & ARCHIPELS -->
+      <div class="bg-slate-900/90 border border-slate-800 rounded-2xl flex flex-col min-h-0 shadow-2xl relative overflow-hidden backdrop-blur-xl group hover:border-cyan-500/40 transition">
+        <div class="absolute -top-12 -right-12 w-28 h-28 bg-cyan-500/10 rounded-full blur-2xl pointer-events-none"></div>
+        <div class="p-3 border-b border-slate-800 bg-slate-950/60 flex items-center justify-between shrink-0">
+          <div class="flex items-center gap-2 text-cyan-400">
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
+            </span>
+            <i class="fa-solid fa-anchor text-xs"></i>
+            <span class="text-xs font-black uppercase tracking-wider text-slate-200">Îles vs Continent</span>
           </div>
+          <span class="text-[9px] font-mono px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-300 border border-cyan-500/20 font-bold">INSULAIRE</span>
+        </div>
+        <div class="p-3.5 overflow-y-auto space-y-3 flex-1 custom-scrollbar-indigo text-xs">
+          <div class="bg-slate-950/70 p-3 rounded-xl border border-slate-800 space-y-2">
+            <div class="flex justify-between items-center text-xs font-bold">
+              <span class="text-cyan-300 flex items-center gap-1.5"><i class="fa-solid fa-anchor text-xs"></i> Îles : <strong id="stat-islands-pct" class="font-mono text-sm">0%</strong></span>
+              <span class="text-amber-400 flex items-center gap-1.5">Continent : <strong id="stat-mainland-pct" class="font-mono text-sm">0%</strong> <i class="fa-solid fa-earth-europe text-xs"></i></span>
+            </div>
+            <div class="w-full bg-slate-900 rounded-full h-3 overflow-hidden flex border border-slate-800 p-0.5">
+              <div id="stat-bar-islands" class="bg-gradient-to-r from-cyan-500 to-blue-500 h-full rounded-l-full transition-all duration-500 shadow-[0_0_10px_#22d3ee]" style="width: 50%;"></div>
+              <div id="stat-bar-mainland" class="bg-gradient-to-r from-amber-600 to-orange-500 h-full rounded-r-full transition-all duration-500" style="width: 50%;"></div>
+            </div>
+            <div id="stat-islands-note" class="text-[10px] text-slate-400 italic text-center pt-0.5"></div>
+          </div>
+          <div class="text-[10px] font-black uppercase tracking-wider text-slate-400 flex items-center gap-1.5 pt-1">
+            <i class="fa-solid fa-water text-cyan-400"></i> Îles explorées & Densité de POI
+          </div>
+          <div id="stat-islands-breakdown" class="space-y-1.5"></div>
         </div>
       </div>
 
-      <!-- Fenêtre 5 : Trésors UNESCO -->
-      <div class="bg-slate-900/80 border border-slate-800 rounded-2xl flex flex-col min-h-0 shadow-xl overflow-hidden">
-        <div class="p-3 border-b border-slate-800/80 bg-slate-950/50 flex items-center gap-2 text-amber-400 shrink-0">
-          <i class="fa-solid fa-award text-sm"></i>
-          <span class="text-xs font-bold uppercase tracking-wider text-slate-200">Patrimoine UNESCO</span>
-        </div>
-        <div class="p-3 overflow-y-auto space-y-2 flex-1 custom-scrollbar-indigo text-xs">
-          <div class="bg-indigo-950/60 p-2.5 rounded-xl border border-indigo-500/30 flex items-center justify-between">
-            <div>
-              <div class="text-[9px] uppercase font-bold text-indigo-300">Biens Mondiaux Inscrits</div>
-              <div class="text-[10px] text-slate-400 mt-0.5"><span id="stat-unesco-count-val" class="font-bold text-indigo-200 font-mono">0</span> sites classés (<span id="stat-unesco-pct-val" class="font-bold text-indigo-200">0%</span> du carnet)</div>
-            </div>
-            <div class="w-8 h-8 rounded-xl bg-indigo-500/20 border border-indigo-500/40 flex items-center justify-center text-sm">
-              🏛️
-            </div>
+      <!-- CARTE 5 : RECORDS & DISTINCTIONS DU CARNET -->
+      <div class="bg-slate-900/90 border border-slate-800 rounded-2xl flex flex-col min-h-0 shadow-2xl relative overflow-hidden backdrop-blur-xl group hover:border-yellow-500/40 transition">
+        <div class="absolute -top-12 -right-12 w-28 h-28 bg-yellow-500/10 rounded-full blur-2xl pointer-events-none"></div>
+        <div class="p-3 border-b border-slate-800 bg-slate-950/60 flex items-center justify-between shrink-0">
+          <div class="flex items-center gap-2 text-yellow-400">
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-yellow-500"></span>
+            </span>
+            <i class="fa-solid fa-trophy text-xs"></i>
+            <span class="text-xs font-black uppercase tracking-wider text-slate-200">Records & Distinctions</span>
           </div>
+          <span class="text-[9px] font-mono px-2 py-0.5 rounded-full bg-yellow-500/10 text-yellow-300 border border-yellow-500/20 font-bold">PALMARÈS</span>
         </div>
+        <div id="stat-records-container" class="p-3.5 overflow-y-auto space-y-2.5 flex-1 custom-scrollbar-indigo text-xs"></div>
       </div>
 
-      <!-- Fenêtre 6 : Chrono-Scope des Siècles -->
-      <div class="bg-slate-900/80 border border-slate-800 rounded-2xl flex flex-col min-h-0 shadow-xl overflow-hidden">
-        <div class="p-3 border-b border-slate-800/80 bg-slate-950/50 flex items-center gap-2 text-indigo-300 shrink-0">
-          <i class="fa-solid fa-hourglass-half text-sm"></i>
-          <span class="text-xs font-bold uppercase tracking-wider text-slate-200">Chrono-Scope des Civilisations</span>
+      <!-- CARTE 6 : CHRONO-SCOPE DES CIVILISATIONS -->
+      <div class="bg-slate-900/90 border border-slate-800 rounded-2xl flex flex-col min-h-0 shadow-2xl relative overflow-hidden backdrop-blur-xl group hover:border-purple-500/40 transition">
+        <div class="absolute -top-12 -right-12 w-28 h-28 bg-purple-500/10 rounded-full blur-2xl pointer-events-none"></div>
+        <div class="p-3 border-b border-slate-800 bg-slate-950/60 flex items-center justify-between shrink-0">
+          <div class="flex items-center gap-2 text-purple-400">
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-purple-500"></span>
+            </span>
+            <i class="fa-solid fa-hourglass-half text-xs"></i>
+            <span class="text-xs font-black uppercase tracking-wider text-slate-200">Chrono-Scope des Civilisations</span>
+          </div>
+          <span class="text-[9px] font-mono px-2 py-0.5 rounded-full bg-purple-500/10 text-purple-300 border border-purple-500/20 font-bold">+4500 ANS</span>
         </div>
-        <div class="p-3 overflow-y-auto space-y-1.5 flex-1 custom-scrollbar-indigo text-xs">
-          <div id="stat-chrono-breakdown" class="space-y-1.5"></div>
+        <div class="p-3.5 overflow-y-auto space-y-2 flex-1 custom-scrollbar-indigo text-xs">
+          <div id="stat-chrono-breakdown" class="space-y-2"></div>
         </div>
       </div>
 
