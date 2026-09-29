@@ -178,7 +178,7 @@ const travelSpots = [
     century: "XIXe siècle",
     category: "star",
     unesco_name: "Fujisan, lieu sacré et source d'inspiration artistique",
-    counts: { unesco: 1 },
+    counts: {},
     image: "https://lh3.googleusercontent.com/pw/AP1GczN4GaFFvDwOoo39gh_l5ngCtHI9FWc0xniHMgArYQTokdnxLwTTuuMFUeJSL-wtEuIW9SmibsomjyIdGFHxpChFbcEZuiS92OyAUt8BQm7uCtvDDxZW0eC06ljjAeZMVt47FLtpnH0wAnDXn2V7A75vnA=w2966-h1978-s-no-gm?authuser=0",
     description: "Écrin préservé niché sur le plateau entre le lac Kawaguchiko et le lac Yamanakako, Oshino Hakkai regroupe huit étangs de résurgence limpides issus de la fonte des neiges du mont Fuji. Filtrées pendant plus de huit décennies à travers les épaisses strates de laves poreuses du volcan, ces eaux atteignent une pureté et une transparence cristallines exceptionnelles, maintenues à une température constante de 13 °C toute l'année. Vénéré depuis le Moyen Âge comme un lieu de purification rituelle (misogi) avant l'ascension sacrée du Fuji-san, le hameau a conservé son charme bucolique traditionnel avec ses vieilles fermes au toit de chaume, ses roues à aubes en bois et ses saules pleureurs se reflétant dans les bassins.",
     visiter: "Déambuler d'étang en étang (notamment Waku-ike, Deguchi-ike et Kagami-ike) pour observer la fascinante clarté de l'eau révélant des fonds rocheux tapissés d'algues émeraudes et de grosses truites arc-en-ciel nageant en suspension. Se désaltérer directement à la fontaine jaillissante en forme de dragon crachant l'eau pure du Fuji. Admirer le reflet parfait du mont Fuji dans le bassin Kagami-ike (« l'étang miroir ») lors des matinées calmes et ensoleillées. Flâner le long des échoppes villageoises proposant des spécialités artisanales arrosées à l'eau de source, comme les nouilles soba fraîches, les galettes de riz soufflé grillées au feu de bois et le kusa mochi à l'armoise cuit sur plaque.",
@@ -304,7 +304,8 @@ const travelSpots = [
     era_label: "Époque d'Edo à Meiji (Patrimoine Mondial UNESCO 1995)",
     century: "XVIIIe siècle",
     category: "star",
-    counts: { unesco: 1 },
+     unesco_name: "Villages historiques de Shirakawa-go et Gokayama",
+    counts: {},
     image: "https://lh3.googleusercontent.com/pw/AP1GczMDcc3BE31AHhnhn3VH9nMLewnfjtsp2LPT2kIfKRTVoDuPp8E1uFSLypg8_wXf2DTfxVvU2oxwyv-7In7HAw5a9ADRAdKktbIUsEQE7TBPbQGlng0Oqsi7SyjvkBFLrPHOoseT36El682DrV48iRkK4g=w2966-h1978-s-no-gm?authuser=0",
     description: "Niché dans la vallée isolée du fleuve Shōkawa au cœur de montagnes sauvages jadis coupées du monde en hiver, Ogimachi est le plus grand village préservé de Shirakawa-gō, inscrit au patrimoine mondial de l'UNESCO depuis 1995. Il est mondialement réputé pour ses spectaculaires demeures paysannes traditionnelles de style gasshō-zukuri (« construites comme des mains en prière »). Dotées de vertigineuses toitures de chaume inclinées jusqu'à 60 degrés pour supporter les mètres de neige poudreuse hivernale sans s'effondrer, ces bâtisses en bois de plusieurs étages hébergeaient de vastes familles patriarcales et abritaient dans leurs combles ventilés d'immenses élevages de vers à soie.",
     visiter: "Prendre de la hauteur en montant au belvédère du château d'Ogimachi (Shiroyama) pour embrasser la vue de carte postale sur l'ensemble du hameau niché entre les rizières verdoyantes et les pentes alpines boisées. Flâner le long des venelles bordées de canaux d'eau de source regorgeant de truites, entre les bâtisses au chaume blond patiné par le temps. Visiter l'intérieur de la maison Wada ou de la maison Nagase pour gravir les échelles de meunier menant aux vastes greniers en charpente d'orme assemblée par des cordages de chanvre. S'imprégner de l'esprit du yui, ce système de solidarité communautaire séculaire où tous les villageois s'unissent pour refaire le chaume d'un toit en une seule journée.",
@@ -329,7 +330,8 @@ const travelSpots = [
     era_label: "Époque de Nara (fondation vers 708-715)",
     century: "VIIIe siècle",
     category: "religieux",
-    counts: { unesco: 1 },
+     unesco_name: "Villages historiques de Shirakawa-go et Gokayama",
+    counts: {},
     image: "https://lh3.googleusercontent.com/pw/AP1GczOT_XhWFijb0vWJ6OrCq-jq-BqhmyPKHDR9wzpLLHBdaeCzQ52sggj4e5IoogwHZJDWoFg1f7mMD0xvRLK6FR5KWmf38NmDZOKepo2aFIEhSSyQX5tSjPAV_rn9QMOZwJPRmaCAefLLnNWZrRhO7PVq7g=w2966-h1978-s-no-gm?authuser=0",
     description: "Érigé à l'orée méridionale du village d'Ogimachi au pied de falaises boisées dominées par d'immenses cèdres japonais, le sanctuaire Shirakawa Hachiman-jinja est le gardien spirituel de la vallée de Shirakawa-gō. Fondé selon la tradition orale au début du VIIIe siècle (ère Wadō), il est dédié à Hachiman, protecteur de la communauté contre les calamités et les incendies. Ce lieu saint discret est célèbre dans tout le pays pour être le théâtre annuel du festival Doburoku (Doburoku Matsuri) chaque mois d'octobre, une célébration séculaire où l'on offre aux divinités puis aux pèlerins un saké blanc rustique non filtré, spécialement brassé au sanctuaire selon des méthodes ancestrales.",
     visiter: "Franchir le sobre torii de bois sombre se dressant à l'ombre d'un cèdre géant classé monument naturel pour pénétrer dans la cour sablonneuse et silencieuse du sanctuaire. Admirer la structure en bois vieilli du pavillon Haiden, ornée de tentures blanches portant le blason shinto et entourée d'arbres séculaires aux troncs massifs. Découvrir le petit musée du Doburoku aménagé dans l'enceinte pour comprendre l'histoire et les secrets de fermentation de ce saké rituel laiteux, et observer les maquettes illustrant les danses du lion (shishimai) exécutées par les villageois lors des fêtes automnales en costumes d'époque.",
@@ -1523,6 +1525,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (-1264 av. J.-C.)",
     century: "Antiquité (XIIIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Monuments de Nubie d'Abou Simbel à Philae",
     lat: 22.3372,
     lng: 31.6258,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNxJ2b7wblm68J5LebZ_FRLke0MjUtjwjstgkx1Tv2k0_QEwQ0UZFSbmXelmCFdT91Fg_IXRK4KD4VfG_TGB9x825G1ENU7rXM5cipskgHi99lQ9S7gq1uyAOXpRE7fexNraWeB-fZMY6WGCpi7Qj-hyQ=w2768-h1845-s-no-gm?authuser=0",
@@ -1546,6 +1549,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (-1290 av. J.-C.)",
     century: "Antiquité (XIIIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7328,
     lng: 32.6281,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOCn3bnnRckhB2Ac1shOqlfDJfH3SfpYo6esxwODD6rK-dCQksCm6dsSFRbh-V9oMtoOaUJ43Heywro5BI2G7w9FKqOYKowO3AFdi_xiwfzEo_O90EXFb0uBT7VJTgZZ0KPmynrdDdmiF73ZTJTnNHSwA=w2884-h1922-s-no-gm?authuser=0",
@@ -1569,6 +1573,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (-1400 av. J.-C.)",
     century: "Antiquité (XIVe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.6994,
     lng: 32.6396,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOVIqtAv6F50s3byzGMdkrnrRK0dYat5T2PO5vZTXiDE7CHYznUqxCuCN_FyK-5VmVcCOrdKGpAxExydMfCvcnA3108CC2HP-MAIQHauLvMhHK78ddOApVu4qnIQL1EnGwPo5yNAaisBG-vM8o_Wn986w=w2416-h1611-s-no-gm?authuser=0",
@@ -1592,6 +1597,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Moyen & Nouvel Empire)",
     century: "Antiquité (XXe siècle av. J.-C. à IVe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7188,
     lng: 32.6573,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOtwfMs5d5wL1IzTbxA7Z3-Z5tARLoOdWDIQWtEuAseuIBIxkYrLQYMer35gjiseXa0FB52lFZCekz_-WroF9o09HewjJKyABFSArCwXEXvcbQCYOrUOUWW6pPF1Ftpv6m_8TzY53xcx12x37egMIq1tg=w2956-h1971-s-no-gm?authuser=0",
@@ -1615,6 +1621,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe & XIXe dynasties)",
     century: "Antiquité (XVe siècle av. J.-C. à XIIIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7312,
     lng: 32.6078,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOd_OJdWviNds-jAvYJQ6fOhmKABb5wTUSd9reedexFYosDX5eY63EFb8fkeLgVl0Ober_ixxcpyNw1zN2k1O96-TbklhDfSl6jpwbssv48dg99Uwvi64lsSsixAe6N0JndHpYca3D7NODIEZ4l02REZw=w2624-h1750-s-no-gm?authuser=0",
@@ -1638,6 +1645,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe à XXe dynasties)",
     century: "Antiquité (XIVe siècle av. J.-C. à XIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7285,
     lng: 32.6014,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNLIIop9G0JKvfSCc8VuoAVjmAMq9-TDvIllyPrY8t_lq9XBI_iB4lzrA8dmwBM_luSuc4zL3Iqrj86AjleX8DgPdGdf3i8CBjSbVtuUNl57dbAVk8thYxKQVQHQz4eQm6cz3EWmxxtqQraap46gkFHlQ=w2624-h1750-s-no-gm?authuser=0",
@@ -1661,6 +1669,7 @@ island_name: "Honshū",
     era_label: "Période Ptolémaïque (IIIe siècle av. J.-C. - Ptolémée IV à VIII)",
     century: "Antiquité (IIIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7291,
     lng: 32.6020,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMpO1xyPvhYsSQW29Rx94KkjyOQDLm0tLNkORiJDFGPGNPf4veQ6_l9bLuZ2AUxYuVe4cEZ2OyMPXlHq0bYIM2ZqGCj2DDAcZ9IYYPJvxT9Cn-nR7OipS-LxxmBDcsg9CtQHjqT55G9C_Awf6jBlV4yNw=w2624-h1750-s-no-gm?authuser=0",
@@ -1684,6 +1693,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XIXe & XXe dynasties)",
     century: "Antiquité (XIIIe siècle av. J.-C. à XIIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7281,
     lng: 32.5931,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMU7taj-0RQR1MwvRFxdj3GYC4j8uql9zgKkCWsctOf5pa8NmG2HJeR4dTIKxQ7sYDktflnu8AcGUFGOIyFOEPq-yqoyjFnyPFzG1L8cUGr2wSLCq45xs8o9FUqhn-XyLxX3ZWsIRrIlf1UTtmQwlCT6Q=w2624-h1750-s-no-gm?authuser=0",
@@ -1707,6 +1717,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe dynastie)",
     century: "Antiquité (XVe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7383,
     lng: 32.6078,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPk75OHrQu6obpFOplp54MjErWv62Ba9IGktlvK7XXzNNKRfJVn8AqJRVRkpvSQgF-7bxq2zcTPyFYgAK5nA3W6piJ5oxOoiATNoXQRn-IhO6Y0py1gzDV_2ffYLgtS8a0enLOSK2bzzos1Io0m5hpzlA=w2624-h1750-s-no-gm?authuser=0",
@@ -1730,6 +1741,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe à XXe dynasties)",
     century: "Antiquité (XVIe siècle av. J.-C. à XIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7402,
     lng: 32.6014,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMFRpDqYKavLb097DDB8Vtoec_f4bF4PQPXH_DyPO04GrRrvl8MsEiuo6bNRuKoT74FTcJjh2TKu7lI47ZAVFcc-IVkIB1ZPwj16-IeW1d3Jk2b6j7PubcF3SjpshOkRwPG-bqzOjFg9VSp_mIywXsWCw=w2624-h1750-s-no-gm?authuser=0",
@@ -1753,6 +1765,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XIXe dynastie)",
     century: "Antiquité (XIIIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7280,
     lng: 32.6105,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMvh9kjLPuS5UvlCAsITvriDjOYQ8OBYh9xsGtGjl8n5Nj6GxZjxPiEFawAn6NhTfMb2KrnXH5qKwPmIz4QaX1h5XtQnQz3jSWYLRntjezCQe9C8SomQEWYCwzHXALuIpSusnPmFctAvC6sjVoWPO2wJw=w2624-h1750-s-no-gm?authuser=0",
@@ -1776,6 +1789,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe dynastie)",
     century: "Antiquité (XIVe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7206,
     lng: 32.6105,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNByJ9_2Lbc1vXLFwbPNONyha79Q7dIH9R3X50vc_g8l2A-zDRGWwm61hsQUYUabguxMKJDL_4Rgis4Zn3sFchrEV5BeorFNSnGTM9p05kOpNGbU7QMYv3Sv2jKjjTA80t2e5JFmnPvJUE-fanJIA8lvw=w2624-h1750-s-no-gm?authuser=0",
@@ -1799,6 +1813,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XXe dynastie)",
     century: "Antiquité (XIIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Thèbes antique et sa nécropole",
     lat: 25.7196,
     lng: 32.6013,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM_iR5U6wiG41TixgwSD8PBCikitCe10D8ty_oXf8VbajzaeUb6VWYzWCSoreSeQO7jRcjV2HJ1RHYGrQIkFNRxH61Dl8DkszvIpRXrp4mGSS-oJ0IfAMJoE9xdNNK02xJ3RlhL8Z_mBBi99QOCUZiODA=w2624-h1750-s-no-gm?authuser=0",
@@ -1891,6 +1906,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.8088,
     lng: 31.2062,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOyd3k7egcC-KbVTfiibheQpm_sCjVOcwC6eDQ4UyEgtIspCQB5ep7WWZXu5CRmAgc2vlMm5uWb57Y-bRzvWXSH8YqkIIYrg1qSzWtapvDEDNcYd1WhYvikVXGYsJW8Xew4CBbYkE_9FAaoiZFjVxBwGQ=w2684-h1789-s-no-gm?authuser=0",
@@ -1914,6 +1930,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.7903,
     lng: 31.2093,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMer0QHDvqpAXsu4CG0KKRpAwlG6T4ED-Vaiw0Z_WuJuADw-Lf_z4KGa1VQHoou-3jszi_lEjnbm6NRoGb4LFab-rqiPzm2JbO9q2WNGzHEpjIECqsm4_nK1fB2GnN98CtogJYVmbFVjIa5ymhbeyXf3g=w2684-h1789-s-no-gm?authuser=0",
@@ -2030,6 +2047,7 @@ island_name: "Honshū",
     era_label: "Période Ptolémaïque & Romaine (-380)",
     century: "Antiquité (IVe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Monuments de Nubie d'Abou Simbel à Philae",
     lat: 24.0255,
     lng: 32.8842,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNEZkmSVkAOkW3xempadnM8SHkLXcN3lxMwF4P_v6HtDWRgGXZ7S5acbBjjdYQ9MysHS9TvU4gC2OHbpzOVelFEwDghH81UVzI3MSQWjvGtk5lcPhRiTUSWH-ddLkZdWe9EtrN-ULTtu5eSojGN3EmOQA=w2518-h1679-s-no-gm?authuser=0",
@@ -2123,6 +2141,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - Ve & VIe dynasties)",
     century: "Antiquité (XXIVe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.8760,
     lng: 31.2214,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPm2-iD73muRH_jVot8-EE1lyBKVZCTLF39pIHWToS8yhyubMwAs5zilUHQJ8CKTJTwBLusmEB1RKN_8j-W8gHIHNdsMdhulPx-9UaBuslVVC6aemGNoYObE_BVQvwzoIcvn4PIInE4JNMYBPShsaE66Q=w2650-h1987-s-no-gm?authuser=0",
@@ -2146,6 +2165,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - VIe dynastie)",
     century: "Antiquité (XXIVe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.8753,
     lng: 31.2236,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMfxTYdfUP4yWKt--mBt4ufisLTqTfNE2AjPCYY7te7W3jVjiPUsxAK35VXk4bWdC9vly9HdljYYOqyteOIBtRw_KkgxgF-qq38sElFmwBr-aAMafdO3ekdtpCluGqPe39pw2i78b9VdT9QSs7-SGG0bw=w2650-h1766-s-no-gm?authuser=0",
@@ -2169,6 +2189,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique & Époque Ptolémaïque (XIVe s. av. J.-C. - Ier s. av. J.-C.)",
     century: "Antiquité (XIVe siècle av. J.-C. à Ier siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.8761,
     lng: 31.2103,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOm9dTai3YyXLZLo6AY9NqTKPU7t-t2QngAmHWZrJYmXXv6n7xiViZWbFZcG1uuZHt2vK7wYzYxfoGzZClTYRx5OS2JpsWUfgLe0hbTGhDzy3dT6ngbUFWrJ89FXFdFhCpHs1TcAR-N1tY-bspHZf2B1A=w2650-h1766-s-no-gm?authuser=0",
@@ -2192,6 +2213,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IIIe dynastie)",
     century: "Antiquité (XXVIIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.8713,
     lng: 31.2164,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOeP15wzqe7pW0a5CwycfN3EShovzAz7KpqIHW2GWzMrb9XVNN3sbi6X4jKcDUIzv4JKfBoxGTsv7z39SP2CHY2t5TocTCVWeUHnYJvMRvTRq97eMq32DhoBAIgdJK0pQz-YUPH-m34PSuelB4L2ObnlA=w2650-h1766-s-no-gm?authuser=0",
@@ -2215,6 +2237,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.9724,
     lng: 31.1398,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNP-BTRouMewjBv0Ln8gWm4HN6mLLZ9WCpYq8MAQTvLqokZlwzL1nj2lTo5Kh1peYIjAAAD-eSL9Pe2seesiLRBPzy1vyGpIoX9VSNVLjgIpdnNr89rHeXr-WhzpSidfd2xSroVfdXRUtqFx_NQz8Sb3g=w2650-h1766-s-no-gm?authuser=0",
@@ -2238,6 +2261,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.9753,
     lng: 31.1376,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNOF-n-S3utVbPnDbHcJf-cULebFfhJLRJ6et95I4YoSDJrG-GyQxDSuDbMY5t0DFZKDxQo4QzwDQLVNxheXzusDviBzPND0QzJeXrH9aH2PvTyw3UMyf7VXP33KTNCh8ekhBNf9ySN3YFjcYLfdZVIiw=w2650-h1766-s-no-gm?authuser=0",
@@ -2261,6 +2285,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.9792,
     lng: 31.1342,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOL6UdQ2NgvSXtSJxB1zz2auY4ZqsT2NrlwNUrBsi_6BiP44Vwnz__wBTkmkUFyLA_Ms45SzeK4rBZkYRULi2Q1h-8cOwAKn2isOUGmCYlOmZew4qlF1YSOskg03mndEkfTIVbuOl5GZnLgK9ugSEPSWg=w2650-h1766-s-no-gm?authuser=0",
@@ -2284,6 +2309,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.9777,
     lng: 31.1365,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPJV6Ii0zGM90Y28LMW9kKLwLbia1w8r_06kB8TkEMGmCWpIobD6VVdwyBlzuCWGtQcCHA5aUzSXQrExrU5s9QS39RFEGmnzCwL5npAEVFM0OdfPN8r8y9IbECvQol0QtCY8JGOejHaa3wOlM-qPI22gg=w2650-h1766-s-no-gm?authuser=0",
@@ -2307,6 +2333,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.9759,
     lng: 31.1308,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMHNGmnFZj13hTSsFRE_EgJi13hRa1xoGli6iRQk35QmGXAa75fhDRQkv-cbsbLIAE3L-xNaHhMYqwLQpyYQFLh930CuS2iPw8JHeTDi9U0hRv4j1M4zwMRuUgmGDOS7HZ5WElZshQSW2PvVqHipSwT7Q=w2650-h1766-s-no-gm?authuser=0",
@@ -2330,6 +2357,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.9725,
     lng: 31.1283,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPKW5gJB4SQe9L8JzJUZxIUHCTz-jhPqsuU17BWoo7dNoR6Q3EGsJYFBVCi6D0MkJMsowjOAy3p0njZLfdieOWJNAQJFkSKkv9fK0Pln89d1XpKZXRwIZvnqhQ3AVKNDalUbaQ47TxMw8TyOAZSOGIpYg=w2650-h1766-s-no-gm?authuser=0",
@@ -2353,6 +2381,7 @@ island_name: "Honshū",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
     lat: 29.9713,
     lng: 31.1282,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPJ4tAYvM_fEjvjIPayyJFoQfxDjkO0Pe00gNUwgdbhJjh7DdSDp45pw8L4I5YPvb_g0RCt8V7pZ8Rx3zKI07C3ElLeG62U_h5hpAhVvrCow5vlngwJdtmuBlBYsEwWliHg8DOYOFYrY4-RwYSlTZYseQ=w2650-h1766-s-no-gm?authuser=0",
@@ -2468,6 +2497,7 @@ island_name: "Honshū",
     era_label: "Époque Paléochrétienne & Fatimide (IIIe-XIe siècle)",
     century: "Antiquité tardive (IIIe siècle)",
     category: "religieux",
+     unesco_name: "Le Caire historique",
     lat: 30.0052,
     lng: 31.2312,
     image: "https://lh3.googleusercontent.com/pw/AP1GczP3Tz4rZ2saMfJeMKqyQ9r3-Tu6IPe18ZAsXlJqkjQ1Y-L_abFGpbjsCF-mlFeH6yDQFvC2aKIMQJ0wIJGusEM1acLefBSY7phwM2mCEwo-MEa_CB8LW1oHD9pD4CWj5doUZAJeV2i-7--h9LPRUAkkeA=w1757-h2635-s-no-gm?authuser=0",
@@ -2537,6 +2567,7 @@ island_name: "Honshū",
     era_label: "Époque Ayyoubide (XIIIe siècle - 1243)",
     century: "XIIIe siècle",
     category: "religieux",
+     unesco_name: "Le Caire historique",
     lat: 30.0490,
     lng: 31.2614,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMLNP5gxHW1BTWct9gZZNPJuf6MnLgoTgToFZlGoLuD6R_1iYqxcMUGgHGOSQZSdmBmCyn3mxk6j76v_S5qCCZ7_KPv56LRqfCBWlUQyK2hpKsW9uZ210bfr5-d2oBMYWWtVswgcQxWrx0BDAlkdorQYQ=w2650-h1766-s-no-gm?authuser=0",
@@ -2560,6 +2591,7 @@ island_name: "Honshū",
     era_label: "Époque Mamelouke Bahrite (XIIIe siècle - 1285)",
     century: "XIIIe siècle",
     category: "religieux",
+     unesco_name: "Le Caire historique",
     lat: 30.0494,
     lng: 31.2608,
     image: "https://lh3.googleusercontent.com/pw/AP1GczN0t98_eJrhGXh5ip1mwuzO_VNVo2fMY3uWXlODYskHluBiZmejmo-Uz5A4UHuEKMngyZbp9r6IRV5EgzphLxijOO4-FaJu6kR16LlcMfMsox22g_PvrKrTNCwAO3WRV_o_WxAhXB0gdkook6E5Pzlcpg=w2650-h1766-s-no-gm?authuser=0",
@@ -2583,6 +2615,7 @@ island_name: "Honshū",
     era_label: "Époque Ayyoubide (XIIIe siècle - 1225)",
     century: "XIIIe siècle",
     category: "religieux",
+     unesco_name: "Le Caire historique",
     lat: 30.0485,
     lng: 31.2618,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNhI-w3RZ_6vkvVVLJ-WWjT35yfAmUTP95SaxupyHI_-hSYdFq5h-QTU7UUkw_nQvj84Ac9Vg69DJNnAPYw9MPu7Ib87LIzrXLHZ2lmCg5BW952d9qYiYGfUO4v13oD57aoSfMUBBI3upAEWdswuyLJ1g=w2650-h1766-s-no-gm?authuser=0",
@@ -2606,6 +2639,7 @@ island_name: "Honshū",
     era_label: "Époque Mamelouke Burkite (XVe siècle - 1456)",
     century: "XVe siècle",
     category: "archeologie",
+     unesco_name: "Le Caire historique",
     lat: 30.0505,
     lng: 31.2613,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNxxQP0TTMObkuv0uZlOVNUVwjqG_iuxdHXj3ZtjATouqp9OoBBiJ0qZAyrUiOLtwORTYfOpgNyg9RVC0q_ATKuEhT0tz7ZMrdKUGQqnYFWzamWMbDswtFxH-ECllrm1DLsp4-nexJvFTYRFCzGy2Wvxw=w1757-h2635-s-no-gm?authuser=0",
@@ -2629,6 +2663,7 @@ island_name: "Honshū",
     era_label: "Époque Mamelouke Bahrite (XIVe siècle - 1334)",
     century: "XIVe siècle",
     category: "chateau",
+     unesco_name: "Le Caire historique",
     lat: 30.0506,
     lng: 31.2618,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPMXfyPq1Nzn5OK7IZlmZDBBV2VkKorKY2T115I0zJ65xi_e3gdQcZPK3zrFozbNWeUUYctwm9xgI5zuBAxSOc-9kyzLTyReZEkWy5QKx_V7KVyvdKJzNqr_klK9aBSEbBRTQgDWE7DQUV7W8S1O405Yw=w2650-h1766-s-no-gm?authuser=0",
@@ -2815,6 +2850,7 @@ island_name: "Honshū",
     era_label: "Époque Moderne & Renaissance (XVIe siècle - 1519)",
     century: "XVIe siècle",
     category: "chateau",
+     unesco_name: "Val de Loire entre Sully-sur-Loire et Chalonnes",
     lat: 47.6162,
     lng: 1.5177,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM7mR674pInWi3CIFiACN_huSA7_QS14yjUxkwPE-hba4tXIFqjuJXp-clNqLgFhDyqtpdAJGQcvX4fp1Bv_mklfoTgZ7zTA5RnJ-b6Hx04kD3lUoFJmu9sIs3b92tRaAzRozLVagaHPnM5dK0jX0mcjA=w3092-h1739-s-no-gm?authuser=0",
@@ -3319,31 +3355,6 @@ function switchTerritoryTab(tab) {
     contentSubdiv.classList.remove('hidden');
     contentWorld.classList.add('hidden');
   }
-}
-
-function spotMatchesCentury(spot, selectedCentury) {
-  if (!selectedCentury || selectedCentury === 'all') return true;
-  const spotCent = (spot.century || "").toLowerCase();
-  const selCent = selectedCentury.toLowerCase();
-
-  if (selCent === 'préhistoire') {
-    return spotCent.includes('préhistoire') || 
-           spotCent.includes('néolithique') || 
-           spotCent.includes('paléolithique') || 
-           spot.era_group === 'prehistoire' || 
-           spot.category === 'megalithe';
-  }
-
-  if (selCent === 'antiquité') {
-    return spotCent.includes('antiquité') || spot.era_group === 'pharaonique' || spot.era_group === 'ptolemaique';
-  }
-
-  const cleanSel = selCent.replace('siècle', '').trim();
-  const isNegative = spotCent.includes('av. j.-c.');
-  if (isNegative) return false;
-
-  const regex = new RegExp(`(^|[^a-z0-9])${cleanSel}([^a-z0-9]|$)`, 'i');
-  return regex.test(spotCent);
 }
 
 function initAdvancedFilterOptions() {
@@ -4639,22 +4650,39 @@ function updateSpotToggleButton() {
 }
 
 function spotMatchesActiveFilters(spot) {
-  if (CATEGORIES.tous && CATEGORIES.tous.active) {
-    return true;
+  if (CATEGORIES.tous && CATEGORIES.tous.active) return true;
+
+  // 1. Prise en charge universelle du filtre UNESCO quand il est coché
+  if (CATEGORIES.unesco && CATEGORIES.unesco.active) {
+    const isUnesco = Boolean(
+      spot.category === 'unesco' ||
+      spot.unesco_name ||
+      spot.unesco ||
+      spot.is_unesco ||
+      (spot.counts && spot.counts.unesco) ||
+      (Array.isArray(spot.tags) && spot.tags.includes('unesco'))
+    );
+    if (isUnesco) return true;
   }
 
+  // 2. Vérifie les sous-catégories déclarées dans counts
   let matched = false;
   if (spot.counts) {
     Object.keys(spot.counts).forEach(catKey => {
       if (CATEGORIES[catKey] && CATEGORIES[catKey].active) matched = true;
     });
   }
+
+  // 3. Catégorie principale du site si cochée
   if (!matched && spot.category && CATEGORIES[spot.category] && CATEGORIES[spot.category].active) {
     matched = true;
   }
-  if (!matched && CATEGORIES.ile && CATEGORIES.ile.active && spot.is_island) {
+
+  // 4. Catégorie île uniquement si le site est explicitement classé "ile"
+  if (!matched && CATEGORIES.ile && CATEGORIES.ile.active && spot.category === 'ile') {
     matched = true;
   }
+
   return matched;
 }
 
