@@ -24,16 +24,683 @@ const CONTINENT_TOTALS = {
 
 // Totaux administratifs de premier ordre par pays
 const COUNTRY_SUBDIV_TOTALS = {
-  "France": { type: "Départements", total: 101, regionType: "Régions", regionTotal: 18 },
-  "Égypte": { type: "Gouvernorats", total: 27 },
+  // --- EUROPE OCCIDENTALE & DU NORD ---
+  "France": { type: "Régions", total: 18, depType: "Départements", depTotal: 101 },
+  "Grande-Bretagne": { type: "Nations & Régions", total: 12, depType: "Comtés", depTotal: 48 },
+  "Royaume-Uni": { type: "Nations & Régions", total: 12, depType: "Comtés", depTotal: 48 },
+  "Écosse": { type: "Council Areas", total: 32 },
+  "Belgique": { type: "Régions", total: 3, depType: "Provinces", depTotal: 10 },
+  "Pays-Bas": { type: "Provinces", total: 12 },
   "Allemagne": { type: "Länder", total: 16 },
-  "Italie": { type: "Régions", total: 20 },
-  "Espagne": { type: "Communautés", total: 17, provType: "Provinces", provTotal: 50 },
-  "États-Unis": { type: "États", total: 50 }
+  "Suisse": { type: "Cantons", total: 26 },
+  "Autriche": { type: "Länder", total: 9 },
+  "Danemark": { type: "Régions", total: 5 },
+  "Norvège": { type: "Comtés (Fylker)", total: 15 },
+  "Suède": { type: "Comtés (Län)", total: 21 },
+  "Finlande": { type: "Régions", total: 19 },
+
+  // --- EUROPE DU SUD & MÉDITERRANÉE ---
+  "Espagne": { type: "Communautés", total: 17, depType: "Provinces", depTotal: 50 },
+  "Portugal": { type: "Districts & Régions", total: 20 },
+  "Italie": { type: "Régions", total: 20, depType: "Provinces", depTotal: 107 },
+  "Grèce": { type: "Périphéries", total: 13 },
+  "Turquie": { type: "Provinces", total: 81 },
+
+  // --- EUROPE CENTRALE & BALKANS ---
+  "Pologne": { type: "Voïvodies", total: 16 },
+  "République Tchèque": { type: "Régions (Kraje)", total: 14 },
+  "Tchéquie": { type: "Régions (Kraje)", total: 14 },
+  "Slovaquie": { type: "Régions (Kraje)", total: 8 },
+  "Slovénie": { type: "Régions statistiques", total: 12 },
+  "Croatie": { type: "Comitats (Županije)", total: 21 },
+  "Bosnie-Herzégovine": { type: "Entités & Cantons", total: 10 },
+  "Bosnie": { type: "Entités & Cantons", total: 10 },
+  "Monténégro": { type: "Municipalités", total: 25 },
+  "Albanie": { type: "Préfectures (Qarks)", total: 12 },
+
+  // --- AMÉRIQUE DU NORD & CENTRALE ---
+  "États-Unis": { type: "États", total: 50 },
+  "USA": { type: "États", total: 50 },
+  "Mexique": { type: "États", total: 32 },
+  "Guatemala": { type: "Départements", total: 22 },
+  "Honduras": { type: "Départements", total: 18 },
+
+  // --- AMÉRIQUE DU SUD ---
+  "Argentine": { type: "Provinces", total: 24 },
+  "Chili": { type: "Régions", total: 16 },
+  "Bolivie": { type: "Départements", total: 9 },
+  "Pérou": { type: "Régions", total: 25 },
+
+  // --- AFRIQUE ---
+  "Afrique du Sud": { type: "Provinces", total: 9 },
+  "Namibie": { type: "Régions", total: 14 },
+  "Botswana": { type: "Districts", total: 10 },
+  "Zimbabwe": { type: "Provinces", total: 10 },
+  "Eswatini": { type: "Districts", total: 4 },
+  "Swaziland": { type: "Districts", total: 4 },
+  "Madagascar": { type: "Régions", total: 23 },
+  "Tunisie": { type: "Gouvernorats", total: 24 },
+  "Maroc": { type: "Régions", total: 12 },
+  "Égypte": { type: "Gouvernorats", total: 27 },
+
+  // --- ASIE ---
+  "Japon": { type: "Régions", total: 8, depType: "Préfectures", depTotal: 47 },
+  "Inde": { type: "États & Territoires", total: 36 },
+  "Indonésie": { type: "Provinces", total: 38 },
+  "Thaïlande": { type: "Provinces", total: 77 },
+  "Malaisie": { type: "États & Territoires", total: 16 },
+  "Singapour": { type: "Districts", total: 5 }
 };
 
 const travelSpots = [
   {
+    id: "omihachiman_village_hachimanbori",
+    name: "Ōmihachiman - Canal Hachiman-bori & Quartier Historique des Marchands",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture de Shiga",
+    subdiv: "Ōmihachiman",
+    altitude: 95,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "moderne",
+    era_label: "Époque Azuchi-Momoyama à Edo (fondé en 1585 par Toyotomi Hidetsugu)",
+    century: "XVIe siècle",
+    category: "star",
+    counts: {},
+    lat: 35.139581,
+    lng: 136.089297,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOJc-FIzuk0-DaCirDcdU_WI2IVGla2SOH2sCiRim-_asRqEfiM3Ti2c60as7LNZ6dRdOvkpcbHyvSSMTsKD2nvcALMAttxIJP8cbcpkQVTWQstqbqm9knG9gpZAou6qYc_XAXpvmTOh0Qg5RhK3f4A9g=w2570-h1714-s-no-gm?authuser=0",
+    description: "Cité marchande féodale remarquablement préservée au bord du lac Biwa, Ōmihachiman fut fondée en 1585 par Toyotomi Hidetsugu (neveu et héritier de Toyotomi Hideyoshi) autour de son château érigé sur le mont Hachiman. Pour stimuler l'économie locale et attirer les corporations artisanales, le seigneur fit creuser le canal Hachiman-bori, reliant directement le système de douves castrales aux grandes voies de navigation marchandes du lac Biwa. Devenu le berceau des célèbres marchands d'Ōmi (Ōmi shōnin) réputés dans tout l'archipel pour leur philosophie éthique du sanpō yoshi (« bénéfique pour le vendeur, pour l'acheteur et pour la société »), le quartier aligne le long de ses voies d'eau et de ses ruelles pavées de magnifiques entrepôts aux murs blancs de torchis (kura), des résidences de négociants en bois sombre et des treillis en cèdre ajouré. Classé District de préservation pour un groupe de bâtiments traditionnels d'importance nationale, ce paysage fluvial bordé de saules et de cerisiers a servi de décor authentique à d'innombrables drames historiques et films de samouraïs (jidaigeki).",
+    visiter: "Descendre le long des berges pavées de pierre moussue du canal Hachiman-bori pour une promenade contemplative sous la frondaison des saules pleureurs et des cerisiers, en observant les barques traditionnelles en bois manœuvrées à la perche glisser sur l'eau calme. Remonter vers les rues historiques Shinmachi-dōri et Nagaharachō pour admirer l'architecture marchande des XVIIIe et XIXe siècles, notamment les anciennes demeures familiales Nishikawa et Ban avec leurs cours intérieures pavées et leurs lourdes portes de grange renforcées de ferrures. Goûter dans les auberges traditionnelles du quartier à la gastronomie locale réputée, en particulier le bœuf d'Ōmi fondant (l'un des trois plus prestigieux bœufs wagyu du Japon) et le konnyaku rouge cuisiné selon les recettes séculaires des marchands féodaux.",
+    link: "https://photos.google.com/share/AF1QipP4X1fpqf0Y75EKuQyXJmdRL1FfTrdSw6HPtP8GppT73g28sBneQrPCduKFTdpkgw?key=NWpYc1JIM2NabXFEeFJ1dGY2RGZXX3pEcENrVldB"
+  },
+  {
+    id: "omihachiman_sanctuaire_himure_hachimangu",
+    name: "Ōmihachiman - Sanctuaire Shinto Himure Hachimangū",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture de Shiga",
+    subdiv: "Ōmihachiman",
+    altitude: 102,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Fondé selon la tradition en 131 (reconstruit à l'Époque de Heian en 991)",
+    century: "Xe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 35.140797,
+    lng: 136.089397,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNQYqh6Q22TL-ynyTAzwE9FJ4g-HlGpiuBz6gB2uS3_c9Z0-gTa7t2O5fpB0iYGvj9_7mbTkiB7B1TXpF_lRuzQ6knHB8veaTwqzDYLFwxmy2zrMQwuqQ_dOdP6QR0k4XY7r4c_AVkWWTCG62zVaEfrjg=w2570-h1714-s-no-gm?authuser=0",
+    description: "Écrin spirituel majeur et cœur sacré de la cité, le sanctuaire shinto Himure Hachimangū étend son enceinte solennelle au pied du mont Hachiman, au débouché direct du canal historique. Selon les chroniques légendaires du sanctuaire, son culte remonterait à l'an 131 sous l'empereur Seimu, avant d'être officiellement refondé en 991 par l'empereur Ichijō qui y fit transférer les divinités tutélaires Hachiman (Honoré sous les traits de l'empereur divinisé Ōjin, de sa mère l'impératrice Jingū et de la déesse Himegami). Vénéré durant des siècles par les samouraïs de Shiga comme protecteur des armes, le sanctuaire devint sous l'ère d'Edo le patron spirituel absolu des marchands d'Ōmi, qui lui firent don de somptueux bâtiments en bois brut et d'émouvantes tablettes votives (ema) peintes illustrant leurs navires marchands naviguant jusqu'au Siam et en Indochine. Le sanctuaire est le théâtre de deux des célébrations les plus spectaculaires du Japon : le Sagichō Matsuri en mars (défilé de chars géants incendiaires couronnés de sculptures comestibles faites de céréales) et le Hachiman Matsuri en avril avec ses monumentales torches de roseaux embrasées la nuit.",
+    visiter: "Franchir le monumental torii de pierre bordant les eaux du canal Hachiman-bori et emprunter la chaussée ombragée de cèdres géants et de lanternes votives conduisant au cœur du bois sacré. Pénétrer sous l'imposante porte à étage Romon aux boiseries patinées pour accéder à la cour intérieure dominée par le hall de prière Haiden et le sanctuaire principal Honden aux toitures courbées en bardeaux de cyprès hinoki. Observer la riche collection de tablettes votives en bois suspendues sous les galeries, dont les célèbres peintures navales d'Annan-sen offertes par les marchands d'Ōmi au XVIIe siècle. Juste à côté de l'entrée du sanctuaire, emprunter la cabine du téléphérique Hachimanyama Ropeway pour s'élever jusqu'au sommet du mont Hachiman afin de contempler les vestiges du château féodal et un panorama grandiose embrassant toute la plaine agricole, les toits d'Ōmihachiman et l'immensité miroitante du lac Biwa.",
+    link: "https://photos.google.com/share/AF1QipP4X1fpqf0Y75EKuQyXJmdRL1FfTrdSw6HPtP8GppT73g28sBneQrPCduKFTdpkgw?key=NWpYc1JIM2NabXFEeFJ1dGY2RGZXX3pEcENrVldB"
+  },
+   {
+    id: "uji_temple_byodoin",
+    name: "Uji - Temple Byōdō-in (Pavillon du Phénix)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture de Kyoto",
+    subdiv: "Uji",
+    altitude: 18,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque de Heian & Apogée de la Terre Pure (fondé en 1052, Hōō-dō érigé en 1053)",
+    century: "XIe siècle",
+    category: "religieux",
+    unesco_name: "Monuments historiques de l'ancienne Kyoto (villes de Kyoto, Uji et Otsu)",
+    counts: {},
+    lat: 34.889300,
+    lng: 135.808105,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOd8QW-gl2UMmNAznVXY3EosuXVZfBOY176IuvGeH9VMLxVqAB79GVsr-Ntl1989ATZoDKt0vZG7F14tFzGqNCWLvm_xAw76XEUDEN_5Ub5upjL0wARoklKW3B0ik3KasSCsbDszrbuyoLxnJvm_VNX-w=w1379-h919-s-no-gm?authuser=0",
+    description: "Joyau suprême de l'architecture aristocratique de l'époque de Heian inscrit au patrimoine mondial de l'UNESCO, le Byōdō-in fut fondé en 1052 par le régent impérial Fujiwara no Yorimichi, transformant la somptueuse villa de villégiature de son père Fujiwara no Michinaga en sanctuaire bouddhique de l'école Jōdo. Conçu pour matérialiser sur Terre le paradis occidental d'Amida (le Gokuraku Jōdo), son célébrissime Pavillon du Phénix (Hōō-dō) — édifié en 1053 au cœur d'un étang en miroir — constitue l'une des structures en bois les plus emblématiques de l'archipel, immortalisée au revers des pièces de dix yens. Sa silhouette aérienne évoque un oiseau mythologique déployant ses ailes, couronnée sur les faîtes de sa toiture par deux phénix dorés en bronze protecteurs. Unique rescapé des incendies guerriers du Moyen Âge féodal, il abrite l'ultime chef-d'œuvre authentifié du sculpteur génial Jōchō : un monumental Bouddha Amida en cèdre doré à la feuille trônant au milieu de cinquante-deux délicats bodhisattvas célestes musiciens sculptés flottant sur des nuages de bois ajouré.",
+    visiter: "Contempler depuis la rive orientale de l'étang Aji-ike le reflet parfait du Pavillon du Phénix étincelant sur les eaux calmes, bordées de glycines centenaires et de pins nains taillés. Traverser les galeries pour pénétrer sous la nef centrale du Hōō-dō lors d'une visite guidée intimiste, afin de contempler dans la pénombre sacrée le colosse doré d'Amida assis sur son socle de lotus et lever les yeux vers le dais céleste incrusté de nacre et de miroirs de bronze. Descendre ensuite dans le musée ultramoderne souterrain Hōshōkan, intégré sous les pelouses du parc pour ne pas altérer la perspective historique : on y admire de près, sous un éclairage muséographique d'orfèvre, les phénix en bronze d'origine du XIe siècle classés Trésors nationaux, la cloche du temple aux reliefs bouddhiques d'une finesse inouïe et la ronde poétique des bodhisattvas musiciens volant sur leurs nuages.",
+    link: "https://photos.google.com/u/0/share/AF1QipNcBDwJne8WYN3fxz95yYuT5nTGt3RMeN2Jlh3mkixzbpQa6HsuiTsCuM6ISi0Veg?hl=fr_CA&key=ZXp1SWVCZG5VX0lPd0dhRzg0VkhsdlBaR0ZHemZ3"
+  },
+  {
+    id: "uji_pont_uji_hashi",
+    name: "Uji - Pont Historique d'Uji (Uji-bashi)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture de Kyoto",
+    subdiv: "Uji",
+    altitude: 15,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Fondé en 646 (Époque d'Asuka), reconstruit dans le style traditionnel Heian en 1996",
+    century: "VIIe siècle",
+    category: "pont",
+    counts: {},
+    lat: 34.892691,
+    lng: 135.805820,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNyUp9XC-CYgzY6A9L0Zk77Gq7-SLnZ-KCag_8NP9l0RfdSbwI3ngBctvuncVhGed_oxRF3NgKvlRh7fSAt-6biGh1tna3aXVVy8ZCwLzBKF3MMiA9c_Vi_Bvm0EES9OBeXiz_Ddc1ASc3xa-PtEm-Fqw=w1379-h919-s-no-gm?authuser=0",
+    description: "Édifié originellement en 646 par le moine Dōshō sous l'ère Taika, l'Uji-bashi compte parmi les trois plus anciens ponts documentés de toute l'histoire du Japon avec le pont de Seta et celui de Yamazaki. Enjambant les eaux tumultueuses et limpides de la rivière Uji-gawa qui s'échappent du lac Biwa, cet ouvrage d'art séculaire a servi de verrou stratégique lors des grandes guerres féodales (notamment les affrontements du Genpei en 1180 opposant les clans Minamoto et Taira) tout en occupant une place magistrale dans la littérature classique nippone, servant de décor central aux dix derniers chapitres (« Uji Jūjō ») du Dit du Genji écrit par Murasaki Shikibu au XIe siècle. Reconstruit en 1996 en harmonisant une ingénierie moderne à l'esthétique féodale, le pont long de cent cinquante-cinq mètres déploie une superbe structure de cyprès du Japon (hinoki) ornée de balustrades couronnées de boutons de lotus en bronze (giboshi) et d'un célèbre balcon en encorbellement (San-no-ma), d'où le maître de thé Sen no Rikyū puisait rituellement l'eau de la rivière pour la cérémonie du thé de Toyotomi Hideyoshi.",
+    visiter: "Traverser à pied ce large pont de bois pour profiter d'un panorama grandiose sur les collines verdoyantes drapées de brume bordant les gorges de l'Uji-gawa et les terrasses de plantations de thé vert s'étageant sur les versants. Faire une halte sur l'avancée du balcon San-no-ma, surplombant directement les remous du courant, pour photographier la perspective filante du pont et imaginer les grands maîtres de thé y descendant leurs seaux de bois. S'arrêter à l'extrémité occidentale devant le monument de pierre commémorant la rédaction du Dit du Genji et la statue assise de l'écrivaine Murasaki Shikibu, avant de remonter la promenade fluviale ombragée jalonnée de salons de thé séculaires servant le célèbre matcha d'Uji.",
+    link: "https://photos.google.com/u/0/share/AF1QipNcBDwJne8WYN3fxz95yYuT5nTGt3RMeN2Jlh3mkixzbpQa6HsuiTsCuM6ISi0Veg?hl=fr_CA&key=ZXp1SWVCZG5VX0lPd0dhRzg0VkhsdlBaR0ZHemZ3"
+  },
+  {
+    id: "uji_sanctuaire_uji_jinja",
+    name: "Uji - Sanctuaire Shinto Uji-jinja",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture de Kyoto",
+    subdiv: "Uji",
+    altitude: 20,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque de Kamakura & Culte Impérial (reconstruit au début de l'ère Kamakura)",
+    century: "XIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 34.890995,
+    lng: 135.810568,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMl6e_IYTbery7_q7xZU0BW7m8GiQBd-1xHw6_-eEcuQimWxmt9kImxTYa2NApXv9mTh9gMMnsojqhQSZVNaF5iG8ockitjVk-qR_eDDI61d9EMA3aYASMza60Xf2Ui8XWsAlFeHay-bMHwwerdZYlCww=w1379-h919-s-no-gm?authuser=0",
+    description: "Établi sur la rive orientale de la rivière Uji au pied de la colline sacrée d'Asahirayama, le sanctuaire shinto Uji-jinja formait jusqu'à la séparation du shintoïsme et du bouddhisme à l'ère Meiji une entité cultuelle unique avec son illustre voisin Ujigami-jinja, portant alors le nom de Rikyū-shimo-sha (« sanctuaire inférieur de la villa impériale »). Le site est dédié à la mémoire du jeune prince impérial Uji no Wakiiratsuko, fils de l'empereur Ōjin et figure légendaire de piété filiale confucéenne, qui choisit de se donner la mort en ces lieux au IVe siècle pour laisser le trône impérial à son frère aîné (le futur empereur Nintoku) et éviter une guerre de succession fratricide. Son pavillon principal (Honden), datant du début de l'époque de Kamakura et classé Bien culturel important national, abrite une statue assise en bois du prince divinisé, tandis que le sanctuaire est placé sous la protection mystique du Mikaeri-usagi, le « lapin qui se retourne », divin guide zoomorphe célébré par les étudiants venant prier pour le succès aux examens et la droiture de leur voie.",
+    visiter: "Franchir le torii vermillon bordant les rives calmes du fleuve et remonter l'allée ombragée de lanternes jusqu'au pavillon de purification (Chōzuya), orné d'une touchante fontaine sculptée à l'effigie du lapin sacré Mikaeri-usagi crachant l'eau pure. S'approcher du hall d'adoration Haiden pour observer les élégantes sculptures de bois brut et la toiture en bardeaux de cyprès patinée par les siècles, encadrée par la luxuriance des cèdres et des érables du mont Asagiri. Acheter l'un des célèbres omikuji (divinations poétiques) dissimulés dans de petites figurines en poterie peinte représentant le lapin blanc jetant un regard en arrière, symbole de sagesse invitant le croyant à ne jamais s'égarer dans ses choix de vie.",
+    link: "https://photos.google.com/u/0/share/AF1QipNcBDwJne8WYN3fxz95yYuT5nTGt3RMeN2Jlh3mkixzbpQa6HsuiTsCuM6ISi0Veg?hl=fr_CA&key=ZXp1SWVCZG5VX0lPd0dhRzg0VkhsdlBaR0ZHemZ3"
+  },
+  {
+    id: "uji_sanctuaire_ujigami_jinja",
+    name: "Uji - Sanctuaire Ujigami-jinja (Le Plus Ancien Sanctuaire Shinto)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture de Kyoto",
+    subdiv: "Uji",
+    altitude: 25,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque de Heian (Honden édifié vers 1060 - Plus ancienne structure shinto du Japon)",
+    century: "XIe siècle",
+    category: "religieux",
+    unesco_name: "Monuments historiques de l'ancienne Kyoto (villes de Kyoto, Uji et Otsu)",
+    counts: {},
+    lat: 34.891957,
+    lng: 135.811173,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMi-lyBhC_SFoaFSgYXTzB2KP2Gp6pAE1dxlh0k_jhE-H-Fh6xnYjLPwn3FnvieGG4qFpCH0fufqU7QPKA6mTShjCVteslksJd1fyX-toh9QFs82-SVn06UE8TxJhaJhYAtBSyMytgVu5ZYCRsZ09UpBw=w1379-h919-s-no-gm?authuser=0",
+    description: "Dissimulé dans un écrin de cèdres géants et de mousses séculaires au pied du mont Asahirayama, le sanctuaire shinto Ujigami-jinja est un trésor d'une valeur patrimoniale inestimable inscrit au patrimoine mondial de l'UNESCO. Anciennement désigné sous le nom de Rikyū-kami-sha (« sanctuaire supérieur de la villa impériale »), il servit historiquement de sanctuaire tutélaire gardien veillant sur le temple Byōdō-in voisin situé de l'autre côté de la rive. Les expertises dendrochronologiques modernes ont révélé que les bois de son pavillon principal (Honden) furent abattus vers 1060, faisant de cet édifice le plus ancien bâtiment shinto originel encore debout dans tout l'archipel nippon. Conçu dans le style archaïque nagare-zukuri à trois travées protégées sous une toiture commune d'écorce de cyprès, il abrite trois chapelles intérieures dédiées à l'empereur Ōjin, à son fils l'empereur Nintoku et au prince sacrifié Uji no Wakiiratsuko. L'enceinte conserve également un splendide pavillon de prière (Haiden) de l'époque de Kamakura bâti dans le style résidentiel raffiné shinden-zukuri des aristocrates de Heian.",
+    visiter: "Franchir le sobre torii de bois pour pénétrer dans la cour sacrée tapissée de graviers immaculés, encadrée par deux monticules coniques de sable purifié (Kiyome-no-suna ou tatesuna) servant à conjurer les mauvais esprits. S'approcher du hall Haiden pour admirer la délicatesse des auvents retroussés d'écorce de cyprès et les auvents asymétriques datant de 1215. Découvrir la source sacrée Kirihara-sui abritée sous un pavillon de bois moussus : c'est l'unique survivante des « Sept Célèbres Sources d'Uji » dont l'eau minérale d'une pureté exceptionnelle est encore puisée aujourd'hui par les maîtres de thé pour les cérémonies rituelles. Lever les yeux vers le Honden surélevé sur la terrasse rocheuse supérieure pour contempler la sobre perfection du plus vieux sanctuaire shinto du Japon.",
+    link: "https://photos.google.com/u/0/share/AF1QipNcBDwJne8WYN3fxz95yYuT5nTGt3RMeN2Jlh3mkixzbpQa6HsuiTsCuM6ISi0Veg?hl=fr_CA&key=ZXp1SWVCZG5VX0lPd0dhRzg0VkhsdlBaR0ZHemZ3"
+  },
+   {
+    id: "nara_ukimido_pavilion",
+    name: "Nara - Pavillon Ukimidō (Parc de Nara)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture de Nara",
+    subdiv: "Nara",
+    altitude: 82,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Époque Taishō & Architecture Flottante (1916 - Restauré en 1994)",
+    century: "XXe siècle",
+    category: "star",
+    counts: {},
+    lat: 34.680101,
+    lng: 135.838862,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNm5WMgBmJCqNJ-1FVau8RDI8VshE1Oq7hhoXbrFmYmCgOmiS8lwq7iS3jfbbmqv8U0lo6AGpxL1YFUFCfLOwMVMOjCYZrRw-PjZL60jtlzq6tm8ppmwto8K9gPsHrNgEdVyrryYxM-QA1vBUbQDDaUsA=w642-h919-s-no-gm?authuser=0",
+    description: "Gracieux pavillon hexagonal en bois de cèdre semblant flotter en apesanteur au-dessus des eaux calmes de l'étang Sagi-ike au cœur du parc de Nara, Ukimidō constitue l'un des tableaux paysagers les plus poétiques et romantiques de l'ancienne capitale impériale. Édifié originellement en 1916 sous l'ère Taishō puis fidèlement restauré en 1994 dans les règles de l'artisanat traditionnel, l'édifice repose sur de solides pilotis de bois foncé et se coiffe d'une élégante toiture d'écorce et de tuiles aux auvents délicatement retroussés. Relié à la rive par deux passerelles en bois arquées, il dialogue harmonieusement avec la végétation environnante composée de cerisiers pleureurs, de saules et d'érables japonais qui enflamment ses reflets au fil des saisons, fréquemment veillé par les cerfs sika sacrés venant s'abreuver sur les berges au crépuscule.",
+    visiter: "Emprunter l'une des passerelles de bois pour accéder au cœur du pavillon ouvert et profiter d'un moment de quiétude absolue bercé par le clapotis de l'eau et le frémissement des feuillages. Observer les carpes koï multicolores et les tortues d'eau nageant autour des pilotis, tout en guettant les hardes de cerfs sika déambulant librement entre les sous-bois et le rivage. Durant la belle saison, louer une barque à rames traditionnelle pour glisser sous la tonnelle et contempler le pavillon depuis le miroir de l'étang. À la tombée de la nuit, le site s'illumine subtilement d'une lueur dorée féerique se reflétant dans l'eau sombre, offrant une halte contemplative incontournable en marge des grands axes touristiques.",
+    link: "https://photos.google.com/u/0/share/AF1QipN1cNgRGSYTU9dkjwObX3nPIk5sJDXkeTvojuRS0MRFvMJRUfqAEpEe968HmUc4lA?hl=fr_CA&key=Q1p5VUJpZXl3b1FkVnVXLThWVUl5dHV3TXM0bV93"
+  },
+  {
+    id: "nara_temple_kofukuji",
+    name: "Nara - Temple Kōfuku-ji & Pagode à Cinq Étages",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture de Nara",
+    subdiv: "Nara",
+    altitude: 75,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque de Nara & Fief du Clan Fujiwara (fondé en 669, transféré en 710)",
+    century: "VIIIe siècle",
+    category: "religieux",
+    unesco_name: "Monuments historiques de l'ancienne Nara",
+    counts: {},
+    lat: 34.682569,
+    lng: 135.831332,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNEEPD36IK7xmHUaYtoW742vAbG-XK6bX51oA4jBwSFUDxodvJMfEkC8pDIUVnEV01T7WsGz3tig3qOE-UdCklZOqIVWMpVx6BFDeVjJsPPW3qZyCGxPsbj06TPsTTPsBMnquR2ZpYiPLvSEIvO5lTV1w=w1379-h919-s-no-gm?authuser=0",
+    description: "Foyer spirituel et politique majeur de l'ancienne capitale Heijō-kyō et temple tutélaire du tout-puissant clan aristocratique des Fujiwara, le Kōfuku-ji s'impose comme l'un des « Sept Grands Temples » fondateurs de Nara. Transféré sur ce promontoire en 710 lors de l'établissement de la capitale impériale par l'aristocrate Fujiwara no Fuhito, ce vaste ensemble monastique affilié à l'école Hossō-shū compta à son apogée féodale plus de cent cinquante édifices. Inscrit au patrimoine mondial de l'UNESCO au titre des « Monuments historiques de l'ancienne Nara », le complexe est universellement célèbre pour sa majestueuse pagode à cinq étages (Gojūnotō) : culminant à plus de cinquante mètres de hauteur, elle constitue la deuxième plus haute pagode en bois de tout l'archipel nippon et l'emblème graphique séculaire de la cité. Son musée des trésors nationaux (Kokuhōkan) abrite l'une des plus exceptionnelles collections de statuaire bouddhique en bois et laque sèche de l'époque de Nara, dominée par la célèbre effigie d'Ashura à trois visages et six bras.",
+    visiter: "Arpenter la vaste esplanade de gravier blanc bordée de cerfs sika en liberté pour contempler l'immense pagode à cinq étages reconstruite en 1426, dont les proportions monumentales se découpent fièrement sur l'azur. Découvrir la seconde pagode à trois étages de style Heian et l'élégant pavillon octogonal Nan'en-dō, étape majeure du pèlerinage des trente-trois temples de Kannon du Kansai. Visiter le grand pavillon central reconstitué (Chū-Kondō) pour admirer ses impressionnantes colonnades vermillon et ses statues dorées de Bouddha historique, puis pénétrer dans le musée Kokuhōkan pour contempler de près les chefs-d'œuvre de l'art sculptural du VIIIe siècle, notamment la célèbre statue d'Ashura à la troublante expression mélancolique et les monumentales têtes de Bouddha en bronze de la période Asuka.",
+    link: "https://photos.google.com/u/0/share/AF1QipN1cNgRGSYTU9dkjwObX3nPIk5sJDXkeTvojuRS0MRFvMJRUfqAEpEe968HmUc4lA?hl=fr_CA&key=Q1p5VUJpZXl3b1FkVnVXLThWVUl5dHV3TXM0bV93"
+  },
+  {
+    id: "nara_temple_todaiji_daibutsuden",
+    name: "Nara - Grand Temple Tōdai-ji (Hall du Grand Bouddha)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture de Nara",
+    subdiv: "Nara",
+    altitude: 88,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque de Nara & Apogée Bouddhique Impériale (fondé en 752)",
+    century: "VIIIe siècle",
+    category: "religieux",
+    unesco_name: "Monuments historiques de l'ancienne Nara",
+    counts: {},
+    lat: 34.688421,
+    lng: 135.839862,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMvBfgqsSs5Z1WTuWdvaI5EnCPxdOT6Cslns3XIAXaPKx7Z_2_aZ13obDnyhbW4yXAQh4__QVrewCdaghsiPrr2hK1v50dVXVY6AdtnPWcNhLJyOjdDcDmcdbKq2MI1KAsN6yujEADDGZyPoDdrPJfMTQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Sommet absolu de l'architecture monumentale en bois et cœur spirituel impérial de l'époque de Nara, le Tōdai-ji (« Grand Temple de l'Est ») fut fondé en 752 par l'empereur Shōmu pour protéger la nation des calamités et asseoir l'autorité religieuse centrale de l'empire. Inscrit au patrimoine mondial de l'UNESCO, son pavillon principal, le Daibutsuden (Hall du Grand Bouddha), s'impose comme l'une des plus vastes structures en bois sous un même toit au monde, s'étirant sur près de cinquante-sept mètres de façade et cinquante mètres de hauteur — bien qu'il ne représente que les deux tiers de l'édifice d'origine ravagé par les incendies guerriers médiévaux. Ce vaisseau colossal abrite en son sein l'une des merveilles de la métallurgie antique universelle : le Grand Bouddha de Nara (Nara no Daibutsu), statue monumentale en bronze de Vairocana haute de près de quinze mètres et pesant plus de cinq cents tonnes, coulée à la suite d'un effort national sans précédent mobilisant des centaines de milliers d'artisans au VIIIe siècle.",
+    visiter: "S'avancer sur la longue chaussée dallée de pierre bordée de cerfs sika pour mesurer la démesure herculéenne du Daibutsuden s'élevant face au ciel. Pénétrer à l'intérieur du hall colossal dans une pénombre sacrée imprégnée d'effluves d'encens pour contempler la stature vertigineuse du Grand Bouddha de bronze trônant sur son socle de pétales de lotus gravés, flanqué des bodhisattvas dorés Kokūzō et Nyoirin Kannon ainsi que des imposantes effigies guerrières des Rois célestes Kōmokuten et Tamonten. Contourner la statue par l'arrière pour observer l'un des piliers de soutien en bois percé à sa base d'une étroite ouverture rectangulaire aux dimensions d'une narine du colosse : la tradition populaire assure que quiconque parvient à s'y faufiler s'assure l'illumination spirituelle et la bonne fortune pour l'éternité.",
+    link: "https://photos.google.com/u/0/share/AF1QipN1cNgRGSYTU9dkjwObX3nPIk5sJDXkeTvojuRS0MRFvMJRUfqAEpEe968HmUc4lA?hl=fr_CA&key=Q1p5VUJpZXl3b1FkVnVXLThWVUl5dHV3TXM0bV93"
+  },
+  {
+    id: "nara_todaiji_nandaimon",
+    name: "Nara - Grande Porte du Sud du Tōdai-ji (Nandaimon)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture de Nara",
+    subdiv: "Nara",
+    altitude: 80,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque de Kamakura & Style Daibutsuyō (reconstruite en 1199)",
+    century: "XIIe siècle",
+    category: "religieux",
+    unesco_name: "Monuments historiques de l'ancienne Nara",
+    counts: {},
+    lat: 34.685651,
+    lng: 135.839843,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP_RKylL0NzbI72YGOtpxwfBNy11lFy-EmzASTTh-VGYwdni934dMTt9PcVh4W49t61ZJUaQ_79-E81fHrmg2ZkR2MrjcdC0HT86T05hzJJaUmqlsopyeF8UeAroh0vzmhAuKevsjUfwJubBKnThpXJYQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Sas d'entrée monumental et triomphal ouvrant la voie sacrée vers le complexe du Tōdai-ji, la Grande Porte du Sud (Nandaimon) compte parmi les chefs-d'œuvre les plus puissants, audacieux et imposants de toute l'architecture en bois féodale du Japon. Détruite par un typhon à l'époque de Heian, elle fut somptueusement rebâtie en 1199 sous l'impulsion du moine Chōgen selon le style Daibutsuyō (« style du Grand Bouddha »), d'inspiration continentale Song. S'élevant à plus de vingt-cinq mètres de hauteur sur cinq travées de charpente colossale en zelkova et cèdre brut assemblées sans le moindre ornement superflu, cette structure titanique abrite dans ses niches latérales l'un des sommets incontestés de la sculpture mondiale : les deux statues colossales de gardiens célestes Niō (Kongōrikishi), hautes de plus de huit mètres et sculptées en bois en un temps record de soixante-neuf jours en 1203 par les maîtres géniaux de l'école Kei, Unkei et Kaikei.",
+    visiter: "S'approcher de l'édifice par la longue allée animée peuplée de cerfs sika quémandant des galettes shika-senbei, en levant les yeux pour mesurer la force brute de la charpente aux poutres maîtresses massives apparentes étagées sous la double toiture. S'arrêter sous le porche monumental devant les deux niches grillagées pour contempler avec saisissement la virtuosité anatomique, la tension musculaire explosive et le dynamisme terrifiant des deux statues de Niō classées Trésors nationaux : à gauche, Agyō ouvrant la bouche pour prononcer la première voyelle sanskrite marquant le commencement cosmique, et à droite, Ungyō aux lèvres closes scellant la fin des temps. Poursuivre ensuite la marche le long du dromos dallé conduisant directement vers le bassin des miroirs et le grand hall du Daibutsuden.",
+    link: "https://photos.google.com/u/0/share/AF1QipN1cNgRGSYTU9dkjwObX3nPIk5sJDXkeTvojuRS0MRFvMJRUfqAEpEe968HmUc4lA?hl=fr_CA&key=Q1p5VUJpZXl3b1FkVnVXLThWVUl5dHV3TXM0bV93"
+  },
+  {
+    id: "nara_sanctuaire_kasugataisha",
+    name: "Nara - Grand Sanctuaire Kasuga-taisha",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture de Nara",
+    subdiv: "Nara",
+    altitude: 105,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque de Nara & Culte Shinto des Fujiwara (fondé en 768)",
+    century: "VIIIe siècle",
+    category: "religieux",
+    unesco_name: "Monuments historiques de l'ancienne Nara",
+    counts: {},
+    lat: 34.681565,
+    lng: 135.848289,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPs9uYkS05ydHQjfCpSD2JmPkWwCbD-fgXAjXpUbsWAFCXo_OkSjouxorxk5xitIz3nhwya_6NT3Iiilih9336acUIVIbzc987-nLGdTrtg2RoFtYAJQ68YYo04sN2ZDt4EaymACcpZ0OBNKs4TRi100A=w1379-h919-s-no-gm?authuser=0",
+    description: "Niché au pied des collines boisées sacrées du mont Kasugayama à l'orée orientale du parc de Nara, le grand sanctuaire shinto Kasuga-taisha fut fondé en 768 par la puissante lignée des Fujiwara pour implorer la protection divine sur la nouvelle capitale impériale. Écrin vermillon étincelant tranchant avec la luxuriance de la forêt primaire séculaire où la coupe d'arbres et la chasse demeurent strictement prohibées depuis plus d'un millénaire, ce haut lieu de dévotion est dédié à quatre divinités majeures du panthéon autochtone, dont Takemikazuchi no Mikoto, descendu selon la légende sur le dos d'un cerf blanc céleste — consacrant ainsi les cerfs sika comme des messagers divins inviolables. Inscrit au patrimoine mondial de l'UNESCO, le sanctuaire a donné son nom au style architectural shinto kasuga-zukuri et se singularise dans tout l'archipel par sa profusion extraordinaire de lanternes votives : plus de deux mille monumentales lanternes de pierre moussues bordant les allées forestières et un millier de lanternes de bronze ciselé suspendues sous les auvents laqués des galeries.",
+    visiter: "Gravir la majestueuse allée forestière sablonneuse ombragée de cèdres géants millénaires, bordée par une forêt minérale ininterrompue de lanternes de pierre recouvertes de mousse où les cerfs sika circulent paisiblement. Franchir le grand torii pour pénétrer dans l'enceinte sacrée ceinte de galeries vermillon étincelantes et de murs blancs, admirant l'alignement féerique des centaines de lanternes de bronze patiné suspendues aux avant-toits. Découvrir la chambre obscure Fujinami-no-ya, où des dizaines de lanternes sont maintenues allumées toute l'année dans le noir complet pour recréer la féerie nocturne des grandes fêtes du Mandōrō (en février et août). Flâner dans le jardin botanique Manyo adjacent réputé pour ses tonnelles de glycines séculaires japonaises en fleurs au printemps, avant de contempler l'immense cèdre sacré vieux de plus de huit cents ans enraciné au pied du pavillon principal.",
+    link: "https://photos.google.com/u/0/share/AF1QipN1cNgRGSYTU9dkjwObX3nPIk5sJDXkeTvojuRS0MRFvMJRUfqAEpEe968HmUc4lA?hl=fr_CA&key=Q1p5VUJpZXl3b1FkVnVXLThWVUl5dHV3TXM0bV93"
+  },
+   {
+    id: "osaka_quartier_shinsekai",
+    name: "Osaka - Quartier Rétro de Shinsekai & Tsūtenkaku",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture d'Osaka",
+    subdiv: "Osaka",
+    altitude: 12,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Époque Meiji à Shōwa (fondé en 1912)",
+    century: "XXe siècle",
+    category: "star",
+    counts: {},
+    lat: 34.652140,
+    lng: 135.506193,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM-TBaG_TvVspX6YB2XqofwuU1_mtst1do7IsoCIFDfbDuWCyzv8N3cUYJNRtJRLHpBveX-8Qhf2ytgIJzEd6IAKeCX-AhpYHDHhUUzlfjDwM3b8ThwdBPz8wA2ccBV9A-pG3xtKAYXUx_C3ZEzMFa9gw=w1221-h919-s-no-gm?authuser=0",
+    description: "Quartier populaire et nostalgique né en 1912 au sud d'Osaka, Shinsekai (« le Nouveau Monde ») fut conçu comme une vitrine futuriste mariant l'urbanisme parisien dans sa partie nord aux attractions new-yorkaises de Coney Island au sud. Dominé par la silhouette métallique de la tour Tsūtenkaku (« la tour qui touche le ciel »), le secteur a conservé son atmosphère brute de l'époque Shōwa d'après-guerre avec ses lanternes géantes en papier, ses enseignes tridimensionnelles exubérantes de poissons fugu et ses effigies dorées de Billiken, dieu malicieux de la chance. Célèbre berceau culinaire des kushikatsu (brochettes frites trempées dans une sauce commune), le quartier offre une immersion sensorielle haute en couleur, témoin vibrant de la convivialité chaleureuse et populaire d'Osaka.",
+    visiter: "Déambuler sous les néons étincelants de l'artère commerçante Janjan Yokocho bordée d'échoppes de tir à l'arc, de salles de mahjong et de comptoirs de brochettes croustillantes. S'asseoir dans un izakaya traditionnel pour déguster des kushikatsu fumants en respectant la règle sacrée de ne jamais tremper deux fois sa brochette dans le bac de sauce. Grimper au sommet de la tour Tsūtenkaku pour caresser la plante des pieds de la statue de Billiken réputée exaucer les vœux, tester le toboggan extérieur tubulaire transparent et contempler la vue panoramique sur les toits d'Osaka.",
+    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
+  },
+  {
+    id: "osaka_temple_isshinji",
+    name: "Osaka - Temple Isshin-ji (Les Bouddhas d'Os)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture d'Osaka",
+    subdiv: "Osaka",
+    altitude: 16,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque de Kamakura & Tradition Ōbutsu (fondé en 1185)",
+    century: "XIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 34.653026,
+    lng: 135.511134,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP0oVfr5yAwo940ceZIWFjQ40sOFfcTduudhThuWZxbQeKkB8n9Xl2yTACYWcEtxkuOPy0KjmAg8SpCOQi88JwK6KIgLNd5-oM79mThBmM1tGa4zYPZuOe_a99bVE1yWmCoUdy8KNHUGFkTfxgmDYqnCA=w1379-h919-s-no-gm?authuser=0",
+    description: "Fondé en 1185 par le grand maître bouddhiste Hōnen, père de l'école de la Terre Pure (Jōdo-shū), le temple Isshin-ji se distingue par une tradition funéraire unique au monde. Depuis 1887, le sanctuaire accueille sans distinction de culte les cendres funéraires de dizaines de milliers de défunts confiées par leurs familles : tous les dix ans, ces ossements incinérés sont broyés, mêlés à de la résine et sculptés pour façonner une monumentale statue de Bouddha (Okotsu Butsu). Treize de ces statues sacrées ont ainsi été créées au fil des générations, symbolisant l'égalité absolue de tous les êtres humains dans la mort et l'illumination. Le temple surprend également par son architecture contemporaine audacieuse, mêlant portes d'entrée monumentales en acier et béton brut gardées par de colossales statues en bronze de divinités gardiennes Niō sculptées par l'artiste Sano Gaho.",
+    visiter: "Franchir la porte Sanmon d'avant-garde aux lignes architecturales modernes en béton et verre, encadrée par les impressionnantes statues musclées des guerriers gardiens Niō. Se recueillir dans le hall principal Kōdō devant les statues d'Okotsu Butsu où brûle un encens continu, enveloppé par la ferveur silencieuse des familles venues honorer leurs ancêtres. Parcourir les allées paisibles du cimetière et du jardin intérieur parsemé de stèles commémoratives, dont le tombeau du général samouraï Honda Tadatomo tombé lors du siège d'Osaka en 1615, où les fidèles viennent déposer des bouteilles de saké pour faire le vœu d'arrêter l'alcool.",
+    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
+  },
+  {
+    id: "osaka_temple_shitennōji",
+    name: "Osaka - Grand Temple Shi Tennō-ji",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture d'Osaka",
+    subdiv: "Osaka",
+    altitude: 18,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque d'Asuka (fondé en 593 par le Prince Shōtoku)",
+    century: "VIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 34.654305,
+    lng: 135.516063,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMU-UbT2UGmY_8OrVbIAVoCQ8wcvXKuJHXWvusaFLnz2-gyJTdv51ST5pwRRIjBIeYl7IAd_52VlNsDNsfm_I7l6ctTYTpLf9np6JXucQG0elDNKlHpSjeOe0GdHGmQNt9SjDemZB0nbmgVffBuKJDGUQ=w1221-h919-s-no-gm?authuser=0",
+    description: "Considéré comme le plus ancien temple bouddhiste officiel administré par l'État au Japon, le Shi Tennō-ji fut fondé en 593 par le régent prince Shōtoku Taishi, figure fondatrice de la civilisation japonaise qui introduisit le bouddhisme dans l'archipel. Dédié aux quatre rois célestes protecteurs (Shi Tennō), le complexe monastique a conservé rigoureusement à travers quatorze siècles de reconstructions fidèles son plan d'origine de style Asuka (Shitennōji-shiki) : une disposition axiale rectiligne parfaite sud-nord alignant la porte centrale (Chūmon), la pagode à cinq étages (Gojūnotō), le pavillon d'or (Kondō) et le grand hall de lecture (Kōdō), ceinturés d'un cloître couvert. Véritable phare spirituel et historique, ce sanctuaire vermillon incarne les racines mêmes du bouddhisme nippon.",
+    visiter: "Franchir le monumental torii de pierre érigé en 1294 (l'un des plus anciens du Japon marquant l'entrée d'un temple bouddhiste) et pénétrer dans l'enceinte sacrée centrale ceinte de galeries laquées de rouge. Pénétrer dans le pavillon Kondō pour contempler la statue sacrée de la Kannon Guanyin entourée de fresques murales bouddhiques, puis gravir les escaliers étroits de la pagode à cinq étages pour embrasser la perspective aérienne sur la cour. Flâner le long de l'étang Kame-no-ike peuplé de centaines de tortues d'eau douce se réchauffant sur les pierres, et explorer le paisible jardin paysager Gokuraku-jōdo (« le jardin de la Terre Pure ») abritant des étangs sinueux, des cours d'eau et des pavillons de thé préservés.",
+    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
+  },
+  {
+    id: "osaka_temple_hozenji",
+    name: "Osaka - Temple Hōzen-ji & Ruelle Hōzenji-Yokochō",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture d'Osaka",
+    subdiv: "Osaka",
+    altitude: 5,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "moderne",
+    era_label: "Époque d'Edo (fondé en 1637)",
+    century: "XVIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 34.667980,
+    lng: 135.502482,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMy3d5OIYCQKMUkY44iinngaKPSmzXyxhuR47w2fKkD4imFJpIpPaSsV75CeC4W8zaogTYEKY8TSXbxvwojx8e0buOQy7oP3WIOVwKFhxK3Dt4_r_Yf4avHfJ4cbUZeoK4eHUy1-JT6O9EFGjihRKFSZQ=w1221-h919-s-no-gm?authuser=0",
+    description: "Havre de paix spirituel et enclave intemporelle dissimulée à quelques pas de l'agitation frénétique de Dōtonbori, le temple bouddhiste Hōzen-ji veille sur le quartier de Namba depuis 1637. Rattaché à l'école Jōdo-shū, il est mondialement célèbre pour sa statue miraculeuse de Fudō Myōō, divinité bouddhique protectrice au visage courroucé entourée de flammes, affectueusement surnommée Mizukake Fudō (« le Fudō aspergé d'eau »). Unique vestige ayant échappé aux incendies et aux bombardements de la Seconde Guerre mondiale, la statue est aujourd'hui entièrement recouverte d'un épais manteau vivant de mousse verte veloutée, fruit d'un rituel séculaire où les fidèles puisent de l'eau de source pour l'asperger en formulant des vœux de santé, d'amour ou de prospérité commerciale. Le temple s'ouvre sur Hōzenji-Yokochō, une allée pavée historique bordée de restaurants traditionnels et de lanternes en papier.",
+    visiter: "S'avancer dans la cour intime du temple bercée par la fumée d'encens et prendre l'une des longues louches en bois pour puiser de l'eau claire dans le bassin sacré. Asperger avec déférence la statue entièrement tapissée de mousse de Mizukake Fudō et ses deux acolytes Kongara et Seitaka Doji en formulant un vœu silencieux. S'engager ensuite le long des quatre-vingts mètres de venelles pavées de pierre de Hōzenji-Yokochō, admirer les façades en bois sombre et les rideaux noren des petites tavernes Kappō, et s'arrêter dans le salon historique Meoto Zenzai pour déguster la célèbre soupe sucrée aux haricots rouges azuki servie en deux bols inséparables, symbole traditionnel de concorde conjugale.",
+    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
+  },
+  {
+    id: "osaka_nipponbashi_denden_town",
+    name: "Osaka - Quartier Électronique de Nipponbashi (Denden Town)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture d'Osaka",
+    subdiv: "Osaka",
+    altitude: 6,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Épicentre Électronique & Pop Culture Otaku d'Osaka",
+    century: "XXIe siècle",
+    category: "star",
+    counts: {},
+    lat: 34.660502,
+    lng: 135.505905,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNfQpnjuECWCybdmES_EAddTdliyn5yM6vUGuEm1_Ara-xsxGNQmqhS1EH435Bwo9n0J4WVFjUQUMgYBREPDOAVffaR0L5TmRriR82NnBi9t6TQ66PL8_IXwlcDxvbuQnnkf-S1ZILkh3I54A8MB5N_8A=w692-h919-s-no-gm?authuser=0",
+    description: "Pendant occidental mythique du quartier tokyoïte d'Akihabara, Nipponbashi — universellement surnommé Denden Town (« la ville électrique ») — s'étire le long des avenues Sakaisuji et Ota Road au cœur de l'arrondissement de Naniwa. Né dans les décennies d'après-guerre autour d'un dense marché de composants radio et d'outillage électrique, le quartier s'est mué avec éclat en temple absolu de la sous-culture otaku, des mangas, du rétrogaming, des cartes à collectionner et des figurines d'animation. Moins policé et plus convivial que son homologue de la capitale, Denden Town regorge de minuscules boutiques spécialisées dans l'électronique de pointe, d'ateliers de robotique, d'immenses magasins de figurines étagés (comme Animate, Mandarake ou Kotobukiya) et de maid cafés traditionnels, constituant une étape emblématique de la culture geek japonaise.",
+    visiter: "Arpenter l'artère centrale Sakaisuji pour dénicher des composants informatiques, du matériel audio haute-fidélité et des gadgets électroniques rares. Obliquer vers la rue parallèle Ota Road, véritable cœur battant des passionnés de pop culture, pour fouiller les vitrines remplies de milliers de figurines de collection en résine, de maquettes Gunpla et de mangas anciens. Explorer les salles d'arcade étagées de Taito Station ou Namco pour observer la dextérité des joueurs locaux sur les bornes de rythme et tester les machines attrape-peluches (UFO catchers). Chiner des consoles de jeux vidéo rétro légendaires (Famicom, Super Nintendo, Game Boy) chez Super Potato dans une atmosphère vintage unique.",
+    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
+  },
+  {
+    id: "osaka_canal_dotonbori",
+    name: "Osaka - Canal & Quartier Festif de Dōtonbori",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture d'Osaka",
+    subdiv: "Osaka",
+    altitude: 4,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Épicentre Nocturne & Théâtre des Saveurs (creusé en 1612)",
+    century: "XXIe siècle",
+    category: "star",
+    counts: {},
+    lat: 34.669139,
+    lng: 135.501557,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPFEiery79fnVtCmd1-Qy066lD7PLLDvy2u6xP7rmZiPiX1wjeb6gvvX3MinxFMrMcU341yRkTqmO1FJs7fo8fc7No5j2MdmgOIVt5jwJXgKlZ01PTS-yj5VPCSihDMxPhzbG6e_eFOMc1iRINcQS4jJg=w1221-h919-s-no-gm?authuser=0",
+    description: "Cœur incandescent, joyeux et démesuré d'Osaka, le quartier de Dōtonbori s'articule le long de son canal historique creusé en 1612 par le marchand Yasui Dōton pour relier deux rivières régionales. Devenu sous l'époque d'Edo le quartier attitré des théâtres de kabuki et de marionnettes bunraku, le secteur s'est métamorphosé en l'une des avenues gastronomiques et nocturnes les plus célèbres du globe. C'est ici que s'incarne avec panache la philosophie du kuidaore (« manger jusqu'à la ruine financière »), proclamée par des façades commerciales monumentales décorées de créatures géantes animées : crabe articulé géant de Kani Dōraku, pieuvres géantes, têtes de bœuf et dragons cracheurs de fumée. Dominé par l'emblématique enseigne lumineuse du coureur Glico franchissant la ligne d'arrivée depuis 1935 sur le pont Ebisubashi, Dōtonbori offre un spectacle visuel étourdissant où l'effervescence de la street-food côtoie les reflets multicolores des néons miroitant sur les eaux du canal.",
+    visiter: "Rejoindre le pont piétonnier Ebisubashi pour prendre l'incontournable photo souvenir en mimant la pose victorieuse du coureur Glico les bras levés devant son écran géant. Flâner le long de la promenade basse aménagée Tonbori River Walk longeant l'eau pour admirer les reflets flamboyants des enseignes géantes et voir passer les bateaux de croisière urbaine. S'arrêter devant les étals de rue fumants pour déguster sur le pouce les grands classiques d'Osaka : des boulettes de poulpe brûlantes takoyaki nappées de sauce et de flocons de bonite séchée dansante, des galettes de chou okonomiyaki grillées sur plaque teppan, et des gyozas croustillants. Photographier la roue foraine ovale jaune géante intégrée à la façade du magasin Don Quijote dominant le canal.",
+    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
+  },
+  {
+    id: "osaka_chateau_osaka",
+    name: "Osaka - Château d'Osaka (Osaka-jō)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture d'Osaka",
+    subdiv: "Osaka",
+    altitude: 35,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "moderne",
+    era_label: "Époque Azuchi-Momoyama (fondé en 1583 par Toyotomi Hideyoshi)",
+    century: "XVIe siècle",
+    category: "chateau",
+    counts: {},
+    lat: 34.686777,
+    lng: 135.525794,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNbRchP53XPW3YfymBadHGqAI-_rlDcx2UgQfEx9pde66V8aiYZFcwWQ392dNg4s7NPz7xzzDffo3mbrF_lj7YfMB6LxMEWp1xyiFGRjFI_dy7OKMTmNze2Xo5YmrmCLSqSLddpbV6chfLVVYveQkFkog=w1379-h919-s-no-gm?authuser=0",
+    description: "Symbole monumental de la puissance féodale nippone et de l'unification du Japon à la fin du XVIe siècle, le château d'Osaka (Osaka-jō) fut érigé à partir de 1583 par le grand seigneur de guerre Toyotomi Hideyoshi sur l'emplacement de l'ancien temple-forteresse Ishiyama Hongan-ji. Conçu pour être la forteresse la plus imprenable et opulente du pays, il présente un colossal système défensif composé de deux réseaux concentriques de douves monumentales et de remparts vertigineux bâtis à l'aide de monolithes de granit titanesques pesant jusqu'à plus de cent tonnes (comme la célèbre pierre Takoishi de trente-six mètres carrés). Détruit lors du dramatique siège d'Osaka en 1615 puis reconstruit par le shogunat Tokugawa, son donjon majestueux à cinq étages extérieurs et huit niveaux intérieurs s'habille de murs d'un blanc pur et de toitures vertes rehaussées de dorures éclatantes et d'ornements de carpes shachihoko en or massif, dominant un immense parc de plus de cent hectares planté de milliers de cerisiers.",
+    visiter: "Franchir la colossale porte Otemon et longer les douves baignées d'eau calme avant de s'arrêter avec stupéfaction devant la pierre géante Takoishi intégrée dans le mur d'enceinte de la porte Sakura-mon. Pénétrer dans le donjon central rénové pour parcourir son riche musée historique exposant des armures complètes de samouraïs, des paravents peints retraçant la bataille d'Osaka et des lettres calligraphiées de Toyotomi Hideyoshi. Monter au huitième étage sur la terrasse d'observation extérieure panoramique perchée à cinquante mètres de hauteur pour embrasser une vue saisissante sur les douves, le parc arboré et les gratte-ciel de la métropole. Se promener ensuite dans le jardin Nishinomaru pour admirer la perspective magistrale du château se reflétant sur les eaux.",
+    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
+  },
+  {
+    id: "osaka_quartier_nakazakicho",
+    name: "Osaka - Quartier Bohème de Nakazakichō",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture d'Osaka",
+    subdiv: "Osaka",
+    altitude: 8,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Époque Shōwa Préservée & Avant-Garde Bohème",
+    century: "XXe siècle",
+    category: "star",
+    counts: {},
+    lat: 34.708622,
+    lng: 135.503394,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMN3GQOtPfHENPX7XtXfJ1JLpqeAhZYRK5YbF7beqE6gbWmL9O201TzlDqFsGO-wgterMgE6TNhM_jy6IFs30-RzZuYsXBssXJz_Ii9_DvNVMfpOiTDH0vIV3z1NCzT2rYERyy4T9P2rBLt5vh93zWC6w=w1379-h919-s-no-gm?authuser=0",
+    description: "Miraculeusement épargné par les intenses bombardements de la Seconde Guerre mondiale qui rasèrent la quasi-totalité d'Osaka, le quartier intimiste de Nakazakichō constitue l'un des rares témoins authentiques de l'habitat populaire urbain des ères Taishō et du début Shōwa. Niché à quelques minutes de marche des gratte-ciel vertigineux de la gare d'Umeda, ce dédale de venelles piétonnes étroites bordées de maisons traditionnelles en bois (machiya et nagaya) a trouvé une seconde jeunesse artistique et bohème. Sans dénaturer l'architecture d'époque aux façades patinées, aux tuiles anciennes et aux enchevêtrements de câbles électriques aériens, une communauté créative de jeunes artisans, stylistes et restaurateurs y a aménagé des galeries d'art indépendantes, des cafés rétro feutrés, des librairies d'occasion et des friperies vintage, créant une oasis de calme et de poésie urbaine hors du temps.",
+    visiter: "Se perdre au hasard des venelles sinueuses et silencieuses en observant les détails des façades d'époque, les pots de fleurs disposés sur les pas-de-porte et les chats de quartier somnolant à l'ombre des toitures basses. Pousser la porte coulissante en bois d'une ancienne maison mitoyenne nagaya réhabilitée pour déguster un café filtre artisanal ou un gâteau maison dans un salon rétro aux poutres apparentes meublé d'objets chinés. Explorer les boutiques d'artisanat indépendant, les ateliers de créateurs textiles et les concept-stores de vêtements vintage disséminés dans les cours intérieures, offrant une respiration douce et bucolique en contraste absolu avec le gigantisme moderne du pôle d'Umeda tout proche.",
+    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
+  },
+  {
+    id: "osaka_nintendo_store_daimaru",
+    name: "Osaka - Nintendo Store & Pokémon Center (Daimaru Umeda)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture d'Osaka",
+    subdiv: "Osaka",
+    altitude: 50,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Époque Contemporaine & Pop Culture Vidéoludique (inauguré en 2022)",
+    century: "XXIe siècle",
+    category: "star",
+    counts: {},
+    lat: 34.702154,
+    lng: 135.496644,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN7sm_BAmQzZzLa4sHaFJW7DKbtIA3u3TvgLMaWKIAz98z8UsSQnyAn2cDBz5Y8kskZ-JQi7Uo5XOodudmKfjwv9h8-0r7wg0b9hXorXqGQbJt6UQvo-R4wDE-Z1fOALOjw4h7VXhO_aOSZploTdg_FQQ=w692-h919-s-no-gm?authuser=0",
+    description: "Temple officiel de la culture vidéoludique contemporaine situé au 13e étage du grand magasin Daimaru Umeda au cœur du complexe de la gare d'Osaka, le magasin Nintendo OSAKA s'impose comme le deuxième magasin officiel de la firme historique ouvert au Japon après celui de Tokyo. Inauguré fin 2022, cet espace immersif ultramoderne célèbre l'univers des franchises légendaires créées par l'entreprise kyotoïte fondée en 1889 : Super Mario, The Legend of Zelda, Splatoon et Animal Crossing. Flanqué du gigantesque Pokémon Center Osaka adjacent et de corners dédiés à Capcom et One Piece, cet étage concentre le sommet de la pop culture et du divertissement graphique japonais. Baigné de musiques orchestrales familières tirées des jeux et rythmé par des écrans interactifs diffusant des animations exclusives, le lieu attire passionnés de gaming et collectionneurs du monde entier en quête de pièces exclusives introuvables ailleurs.",
+    visiter: "Prendre les ascenseurs rapides du grand magasin Daimaru jusqu'au 13e étage pour être accueilli à l'entrée de la boutique par de spectaculaires statues géantes grandeur nature de Mario sortant d'un tuyau vert, de Link bandant son arc et des Inklings de Splatoon. Parcourir les allées éclatantes pour découvrir les milliers de produits dérivés exclusifs estampillés du logo rouge Nintendo : figurines de collection de haute précision, vêtements urbains, papeterie créative et vaisselle thématique. Prolonger la visite dans l'espace voisin du Pokémon Center Osaka pour saluer les grandes statues de Pikachu et des Pokémon de départ, explorer les rayons de peluches géantes du Pokédex national et découvrir les vitrines de cartes à collectionner officielles.",
+    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
+  },
+  {
+    id: "osaka_umeda_sky_building",
+    name: "Osaka - Tour Umeda Sky Building & Observatoire Flottant",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture d'Osaka",
+    subdiv: "Osaka",
+    altitude: 173,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Postmodernisme & Architecture Futuriste Hiroshi Hara (1993)",
+    century: "XXe siècle",
+    category: "star",
+    counts: {},
+    lat: 34.705577,
+    lng: 135.490207,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNsw29mZXnjY41aa8zweJYPli_niONPvB4J5zM0h118wA2Yv1ywz6jseCrN6D0BOwSne1HR20bOCmBouM0_9GyYFHLG9kYfLNcG4w7nTadsMy20D_6Q8MNZoNLdibXLw9OTUui6nM9iGRG5yPCgqCYFSw=w735-h919-s-no-gm?authuser=0",
+    description: "Chef-d'œuvre audacieux de l'architecture rétrofuturiste internationale conçu par le maître Hiroshi Hara et inauguré en 1993, l'Umeda Sky Building dresse sa silhouette monumentale de 173 mètres de hauteur dans l'arrondissement de Kita. Composé de deux tours jumelles de quarante étages entièrement revêtues de verre miroitant reflétant les variations du ciel, l'édifice est couronné à son sommet par une plate-forme circulaire spectaculaire : l'Observatoire du Jardin Flottant (Kuchu Teien). Véritable exploit d'ingénierie parasismique, cette structure annulaire d'un millier de tonnes fut entièrement pré-assemblée au sol avant d'être hissée dans les airs par de puissants vérins hydrauliques. Relié par d'incroyables escaliers mécaniques tubulaires suspendus dans le vide spatial entre les deux tours, l'édifice offre un panorama à 360 degrés sans vitre sur toute la métropole d'Osaka, le fleuve Yodo et la baie d'Osaka s'étendant jusqu'à l'île d'Awaji.",
+    visiter: "Prendre les ascenseurs vitrés à grande vitesse filant le long de la façade extérieure jusqu'au 35e étage, puis s'engager dans l'impressionnant escalator tubulaire suspendu dans le vide traversant l'atrium central entre les deux tours pour accéder au dôme de l'observatoire. Franchir les portes vitrées du 40e étage pour accéder au Sky Walk, terrasse circulaire à ciel ouvert unique au monde où l'on ressent le souffle vivifiant des vents d'altitude en admirant la vue panoramique circulaire sur l'océan urbain de gratte-ciel d'Osaka, les ponts enjambant le fleuve Yodo et le coucher de soleil flamboyant sur la mer intérieure. À la nuit tombée, contempler le sol de la passerelle extérieure incrusté de particules phosphorescentes créant l'illusion d'une voie lactée lumineuse sous les pieds, avant de descendre au sous-sol dans la rue commerçante Takimi-koji reconstituant avec nostalgie une venelle d'Osaka des années 1920.",
+    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
+  },
+   {
+    id: "himeji_chateau_himeji",
+    name: "Himeji - Château de Himeji (Shirasagi-jō)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture de Hyōgo",
+    subdiv: "Himeji",
+    altitude: 45,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "moderne",
+    era_label: "Époque Azuchi-Momoyama & Début Edo (achevé en 1609)",
+    century: "XVIIe siècle",
+    category: "chateau",
+    unesco_name: "Himeji-jo",
+    counts: {},
+    lat: 34.839084,
+    lng: 134.693971,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN4WFspKMaNJPHkEGoGYT39OiUiJU16HOFA-ft4Suc31yJ1H9GSk2ljZMwPhPuOa1MAXgz2sBp39VCjjahUHwb2xca4XWkIJs7E7bOP9SkQRtPVVMmIJFXgEcigxBKVo2PRLZx9_lNOkk1lFG6PfjF4XQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Surnommé le « Héron blanc » (Shirasagi-jō) en raison de ses élégantes façades immaculées recouvertes de plâtre blanc résistant au feu, le château de Himeji est le plus vaste, majestueux et spectaculaire donjon féodal préservé de tout le Japon. Trésor national inscrit au patrimoine mondial de l'UNESCO dès 1993, cet ensemble castral de type hirayamajiro (forteresse sur colline de plaine) fut porté à son apogée entre 1601 et 1609 par le seigneur Ikeda Terumasa. Épargné miraculeusement par les guerres civiles féodales, les bombardements de la Seconde Guerre mondiale et les séismes majeurs, il déploie un formidable système défensif labyrinthique composé de portes fortifiées en chicane, de meurtrières dissimulées (sama) et d'un grand donjon central (Daitenshu) de six étages relié à trois tours secondaires par des galeries blindées. Véritable chef-d'œuvre de la charpenterie japonaise traditionnelle assemblée sans clou métallique, il incarne l'apogée militaire et esthétique de l'architecture des samouraïs à l'aube de l'ère d'Edo.",
+    visiter: "Franchir la monumentale porte Otemon et remonter les allées en pente bordées de hauts murs de pierre cyclopéenne en éventail (ōgi-no-kōbai) et de remparts crénelés percés de meurtrières triangulaires et rectangulaires. Traverser les multiples portes fortifiées en chicane conçues pour désorienter les assaillants avant de pénétrer au cœur du grand donjon de bois sombre. Déchaussé sur les planchers de pin patinés, gravir les volées d'escaliers intérieurs très pentus pour contempler les deux monumentaux piliers maîtresses en cèdre et sapin traversant toute la structure, les râteliers d'armes médiévales et les trappes de défense pour jeter pierres et liquides bouillants. Atteindre le dernier étage abritant le sanctuaire shinto Osakabe-jinja pour jouir d'une vue circulaire panoramique imprenable sur les toits sculptés de tuiles armoriées ornées de poissons mythologiques protecteurs shachihoko et sur l'ensemble de la ville de Himeji.",
+    link: "https://photos.google.com/u/0/share/AF1QipPKnXoV4FXvajDZ_QCz-mA_squf3grEpTszI8zDp_m-m0zQC-ni5lBT2Uo9gdV2Yw?hl=fr_CA&key=NTE2d2Fpd0pHVlA1UElldFBmLV9wQ0UwNXFSMmtR"
+  },
+  {
+    id: "himeji_jardins_kokoen",
+    name: "Himeji - Jardins Traditionnels de Kōko-en",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture de Hyōgo",
+    subdiv: "Himeji",
+    altitude: 20,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "contemporain",
+    era_label: "Jardins Traditionnels de Style Époque d'Edo (inaugurés en 1992)",
+    century: "XXe siècle",
+    category: "star",
+    counts: {},
+    lat: 34.837541,
+    lng: 134.690147,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNhiGSJwiJEIFKtt7wEuDCgC-aFy2k83T66BKyA5YbImgyI7moqdC0kAKAXjJK3-ReJfqQKOrDspesl5pYeRuUVaT81OVuxiljR1RDRzjTBl64K1YUiY1d6sMiDGrmr_TqDEqmgZdlG0BmjENWrQskVrA=w1221-h919-s-no-gm?authuser=0",
+    description: "Aménagé en 1992 pour célébrer le centenaire de la municipalité de Himeji, Kōko-en est un splendide ensemble de neuf jardins paysagers traditionnels clos de murs, édifié sur l'emplacement archéologique précis des anciennes résidences des samouraïs et du manoir seigneurial occidental (Nishi-Oyashiki) du clan Sakai. Ceinturés de nobles murs de torchis et de tuiles d'époque (tsujibei), ces jardins reliés par des passages couverts et des portes seigneuriales restaurées restituent avec un raffinement magistral l'art horticole et paysager de l'époque d'Edo. Chaque enclos développe une thématique végétale et sensorielle distincte : le grand jardin de la résidence seigneuriale avec cascade et vaste étang de carpes koï, le jardin des bambous, le jardin des conifères, le jardin des fleurs ou encore le jardin du pavillon de thé. Utilisant avec virtuosité la technique du paysage emprunté (shakkei), le domaine cadre magnifiquement la silhouette blanche du château de Himeji en arrière-plan des érables et des pins taillés en nuages.",
+    visiter: "Franchir la porte seigneuriale Nagayamon et s'engager sous la galerie en bois de cèdre du pavillon Cho-on-sai, qui s'avance sur les eaux limpides du grand étang peuplé de carpes koï multicolores nageant au pied d'une cascade tumultueuse. Flâner le long des sentiers dallés bordés de lanternes de pierre moussues et franchir les ponts de bois arqués reliant les neuf jardins thématiques. Découvrir le calme feutré du jardin des bambous abritant une quinzaine de variétés rares oscillant sous le vent, puis s'arrêter au pavillon de thé Souju-an, conçu selon les règles strictes de l'école Urasenke, pour savourer un thé matcha mousseux accompagné d'une confiserie wagashi de saison face au jardin d'eau. Admirer les trouées paysagères à travers les feuillages d'érables flamboyants révélant le donjon blanc de Himeji se découpant sur le ciel.",
+    link: "https://photos.google.com/u/0/share/AF1QipPKnXoV4FXvajDZ_QCz-mA_squf3grEpTszI8zDp_m-m0zQC-ni5lBT2Uo9gdV2Yw?hl=fr_CA&key=NTE2d2Fpd0pHVlA1UElldFBmLV9wQ0UwNXFSMmtR"
+  },
+   {
+    id: "tatsuno_chateau_tatsuno",
+    name: "Tatsuno - Château de Tatsuno (Tatsuno-jō)",
+    country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
+    region_admin: "Kansai",
+    department: "Préfecture de Hyōgo",
+    subdiv: "Tatsuno",
+    altitude: 58,
+    is_island: true,
+    island_name: "Honshū",
+    transport: "avion",
+    era_group: "medievale",
+    era_label: "Époque Muromachi à Edo (fondé vers 1499, reconstruit en 1672)",
+    century: "XVIIe siècle",
+    category: "chateau",
+    counts: {},
+    lat: 34.868695,
+    lng: 134.544766,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPb2kZE9iXDXFrQiFr-bulNX4scu-N-FmRJYfMye5P3k4qsVXyS8vEHbFeZzPinyASY_mWhnm1SMGoy1LZbOIjsw13LFN4ZiBtcOfwlXFwIoqSzayUO79ED7qUHHdqO6gdLWVXpm7FU_LAgFfxZjOXbsQ=w1221-h919-s-no-gm?authuser=0",
+    description: "Édifié originellement en 1499 par le clan Akamatsu au sommet du mont Keigo sous la forme d'une place forte de montagne (yamajiro), le château de Tatsuno fut profondément remanié en 1672 sous l'époque d'Edo par le seigneur Yasumasa Wakisaka pour devenir une forteresse de plaine au pied du relief (hirayamajiro). Fief seigneurial dominant la vallée fertile de l'Ibo-gawa et le quartier historique préservé aux façades blanches de la « Petite Kyoto du Harima », le domaine castral se distingue par ses imposants murs de soutènement en pierres cyclopéennes, ses douves asséchées et ses courtines immaculées. Reconstruit fidèlement selon les techniques artisanales traditionnelles en charpente de cèdre et toitures de tuiles sombres kuruma-gawara, le complexe comprend un élégant logis seigneurial (Honmaru Goten), des tourelles de guet d'angle (yagura) et une monumentale porte fortifiée d'honneur (Uzumon), témoignant de la grandeur militaire et politique des daimyos sous le shogunat Tokugawa.",
+    visiter: "Franchir la puissante porte en bois massif Uzumon et longer les hauts remparts de pierre moussue bordés de cerisiers pour accéder à l'esplanade du Honmaru. Visiter les appartements intérieurs du palais seigneurial Goten, où l'on découvre de vastes enfilades de tatamis parfumés, des cloisons coulissantes en papier washi et des pièces d'exposition présentant des armes de samouraïs d'époque, des sabres, des armures laquées et des cartes cadastrales féodales du domaine de Tatsuno. S'attarder sur la galerie d'observation extérieure pour embrasser un panorama plongeant sur les toits d'ardoise de la vieille ville marchande, les fabriques séculaires de sauce soja et la silhouette boisée du mont Keigo où subsistent les vestiges de la forteresse primitive médiévale.",
+    link: "https://photos.google.com/u/0/share/AF1QipPUxlujlWKyir2WyoJjhQ68Tu0ol8DL1aIB8mm27u1PhEE0D_xYCyXm77LXyuWdAQ?hl=fr_CA&key=b0V2ZTg4alNnZ0FETldBZ1RZNnlfNlN5OUg3NGtB"
+  },
+   {
     id: "shinonsen_port_igumi",
     name: "Shin'onsen - Port de Pêche d'Igumi",
     country: "Japon",
@@ -4085,16 +4752,18 @@ function computeAllStatistics() {
       continentCount[s.continent]++;
     }
 
-    if (!subdivData[s.country]) {
+   if (!subdivData[s.country]) {
       subdivData[s.country] = {
         flag: s.flag || '📍',
-        subdivs: new Set(),
         regions: new Set(),
+        depts: new Set(),
+        cities: new Set(),
         spots: []
       };
     }
-    if (s.subdiv) subdivData[s.country].subdivs.add(s.subdiv);
     if (s.region_admin) subdivData[s.country].regions.add(s.region_admin);
+    if (s.department) subdivData[s.country].depts.add(s.department);
+    if (s.subdiv) subdivData[s.country].cities.add(s.subdiv);
     subdivData[s.country].spots.push(s);
   });
 
@@ -4172,22 +4841,23 @@ function computeAllStatistics() {
   const subdivList = document.getElementById('stat-subdivisions-list');
   if (subdivList) {
     subdivList.innerHTML = '';
-    Object.keys(subdivData).forEach(countryName => {
+    Object.keys(subdivData).sort().forEach(countryName => {
       const data = subdivData[countryName];
-      const ref = COUNTRY_SUBDIV_TOTALS[countryName] || { type: "Subdivisions", total: 20 };
-      const subdivCount = data.subdivs.size;
-      const subdivPct = Math.round((subdivCount / ref.total) * 100);
+      const ref = COUNTRY_SUBDIV_TOTALS[countryName] || { type: "Régions", total: Math.max(data.regions.size, 10) };
+      
+      const mainCount = data.regions.size;
+      const mainPct = Math.min(100, Math.round((mainCount / ref.total) * 100));
 
       const card = document.createElement('div');
       card.className = 'p-2 rounded-xl bg-slate-950/70 border border-slate-800 space-y-1.5';
-      
-      let regionsHtml = '';
-      if (ref.regionTotal && data.regions.size > 0) {
-        const regPct = Math.round((data.regions.size / ref.regionTotal) * 100);
-        regionsHtml = `
-          <div class="flex justify-between items-center text-[9px] text-slate-400 mt-1">
-            <span>Régions : ${Array.from(data.regions).join(', ')}</span>
-            <span class="font-mono font-bold text-slate-300">${data.regions.size} / ${ref.regionTotal} (${regPct}%)</span>
+
+      let secondaryHtml = '';
+      if (ref.depTotal && data.depts.size > 0) {
+        const depPct = Math.min(100, Math.round((data.depts.size / ref.depTotal) * 100));
+        secondaryHtml = `
+          <div class="flex justify-between items-center text-[9px] text-slate-400 mt-1 border-t border-slate-900 pt-1">
+            <span>${ref.depType || 'Subdivisions'} : ${Array.from(data.depts).join(', ')}</span>
+            <span class="font-mono font-bold text-slate-300">${data.depts.size} / ${ref.depTotal} (${depPct}%)</span>
           </div>
         `;
       }
@@ -4195,15 +4865,15 @@ function computeAllStatistics() {
       card.innerHTML = `
         <div class="flex justify-between items-center text-[11px] font-bold">
           <span class="text-white flex items-center gap-1.5">${data.flag} ${countryName}</span>
-          <span class="font-mono text-cyan-300">${subdivCount} / ${ref.total} ${ref.type.toLowerCase()}</span>
+          <span class="font-mono text-cyan-300">${mainCount} / ${ref.total} ${ref.type.toLowerCase()}</span>
         </div>
         <div class="w-full bg-slate-800 rounded-full h-1.5 overflow-hidden">
-          <div class="bg-gradient-to-r from-indigo-500 to-cyan-400 h-full rounded-full" style="width: ${Math.max(2, subdivPct)}%;"></div>
+          <div class="bg-gradient-to-r from-indigo-500 to-cyan-400 h-full rounded-full" style="width: ${Math.max(3, mainPct)}%;"></div>
         </div>
         <div class="text-[9px] text-slate-400">
-          <span class="text-slate-300 font-medium">Explorés :</span> ${Array.from(data.subdivs).join(', ')}
+          <span class="text-slate-300 font-medium">Explorées :</span> ${Array.from(data.regions).join(', ') || 'Non renseigné'}
         </div>
-        ${regionsHtml}
+        ${secondaryHtml}
       `;
       subdivList.appendChild(card);
     });
@@ -5159,17 +5829,17 @@ function renderUnifiedCategoryList() {
       });
     }
 
-    const row = document.createElement('label');
-    row.className = 'flex items-center justify-between p-1 rounded-lg bg-slate-900/60 hover:bg-slate-800/80 cursor-pointer transition select-none border border-slate-800/60';
+   const row = document.createElement('label');
+    row.className = 'flex items-center justify-between p-1.5 rounded-lg bg-slate-900/60 hover:bg-slate-800/80 cursor-pointer transition select-none border border-slate-800/60';
     row.innerHTML = `
-      <div class="flex items-center gap-1.5 min-w-0 pr-1">
-        <input type="checkbox" ${cat.active ? 'checked' : ''} onchange="toggleCategory('${key}')" class="w-3 h-3 rounded text-cyan-500 bg-slate-800 border-slate-700 focus:ring-0 cursor-pointer shrink-0">
-        <div class="w-4 h-4 rounded-full flex items-center justify-center text-white text-[8px] shrink-0 shadow" style="background-color: ${cat.color};">
+      <div class="flex items-center gap-2 min-w-0 pr-1">
+        <input type="checkbox" ${cat.active ? 'checked' : ''} onchange="toggleCategory('${key}')" class="w-3.5 h-3.5 rounded text-cyan-500 bg-slate-800 border-slate-700 focus:ring-0 cursor-pointer shrink-0">
+        <div class="w-5 h-5 rounded-full flex items-center justify-center text-white text-[10px] shrink-0 shadow" style="background-color: ${cat.color};">
           <i class="fa-solid ${cat.icon}"></i>
         </div>
-        <span class="text-slate-200 text-[10px] font-medium truncate">${cat.label}</span>
+        <span class="text-slate-200 text-xs font-semibold truncate">${cat.label}</span>
       </div>
-      <span class="min-w-[26px] text-center font-mono font-bold text-[9px] px-1 py-0.5 rounded bg-slate-950/70 border border-slate-800 shrink-0 ${count > 0 ? 'text-cyan-300' : 'text-slate-500'}"${tooltipText}>${count}</span>
+      <span class="min-w-[28px] text-center font-mono font-bold text-[11px] px-1.5 py-0.5 rounded bg-slate-950/70 border border-slate-800 shrink-0 ${count > 0 ? 'text-cyan-300' : 'text-slate-500'}"${tooltipText}>${count}</span>
     `;
     container.appendChild(row);
   });
