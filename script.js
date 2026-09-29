@@ -94,6 +94,32 @@ const COUNTRY_SUBDIV_TOTALS = {
 
 const travelSpots = [
   {
+    id: "piana_falaises_capu_rossu",
+    name: "Golfe de Porto - Falaises Méridionales & Capu Rossu",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Corse",
+    department: "Corse-du-Sud",
+    subdiv: "Piana",
+    altitude: 165,
+    is_island: true,
+    island_name: "Corse",
+    transport: "a_pied",
+    era_group: "naturel",
+    era_label: "Complexe volcanique et plutonique calco-alcalin hercynien (Rhyolites et granites rouges)",
+    century: "",
+    category: "naturel",
+    unesco_name: "Golfe de Porto : calanche de Piana, golfe de Girolata, réserve de Scandola",
+    counts: {},
+    lat: 42.245904,
+    lng: 8.583878,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPwRniLWx6Ji-TLHxa7hQLcxvLWrni4FsIqwaMQZCJ6nAEqGAReziOnb3jZWpF3SCHUnR2vNuWn6NtS9PuPjjCQ0NutLxwwnADtEmyUpXAlwRCmN2wvGylgG5TZIZgk9sJmyYjikcoy_uKVMlkuvlUF_A=w2549-h1919-s-no-gm?authuser=0",
+    description: "Verrouillant la rive méridionale du majestueux golfe de Porto, la presqu'île du Capu Rossu déploie une muraille maritime spectaculaire inscrite au patrimoine mondial de l'UNESCO. Façonnées dans des porphyres et granites rouges d'origine volcanique vieux de plus de deux cent cinquante millions d'années, ces falaises monumentales tombent à pic dans les abysses de la Méditerranée depuis plus de trois cents mètres de hauteur. L'action combinée des embruns marins salés et des vents d'ouest a sculpté la roche en un dédale saisissant de taffoni — alvéoles d'érosion caractéristiques de l'île —, d'arches naturelles et d'éperons déchiquetés plongeant dans des eaux d'un bleu cobalt d'une pureté absolue, dominés à leur sommet par la silhouette solitaire de la tour génoise de Turghiu.",
+    visiter: "Emprunter le sentier de randonnée pédestre balisé qui démarre du parking de la buvette du Capu Rossu pour traverser un plateau aride de maquis bas parfumé d'immortelles et de romarin. Dépasser les anciens bergeries en pierre sèche de Turghiu avant d'attaquer la rude montée finale taillée en lacets dans la roche pourpre. Depuis la crête des falaises, contempler le panorama vertigineux sur les golfes de Porto et de Girolata, la réserve de Scandola fermant l'horizon au nord, et la baie de Cargèse s'étirant au sud. En fin d'après-midi, la lumière rasante embrase le granite dans un flamboiement de teintes pourpres et orangées exceptionnel.",
+    link: "https://photos.google.com/share/AF1QipMn5lN5apwGen5RvQA56G3PAdgefbz3bKHzQManIiwjO1W6l_d4f5_c2SLpBMAhEw?key=ZjhSSEhaejM1WjJ0ZUVQN3pOdXExN0dNUWF5U1dn"
+  },
+   {
     id: "galeria_eglise_sainte_marie",
     name: "Galéria - Église Sainte-Marie (Santa Maria)",
     country: "France",
