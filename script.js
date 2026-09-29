@@ -3298,6 +3298,121 @@ function flyToCountry(countryData) {
     if (myLeafletMap) myLeafletMap.flyTo([avgLat, avgLng], 6, { duration: 1.2 });
   }
 }
+// ==========================================
+// BLOC CLUSTERS UNESCO (À COLLER ICI)
+// ==========================================
+
+function isOnlyUnescoFilterActive() {
+  if (!CATEGORIES.unesco || !CATEGORIES.unesco.active) return false;
+  return Object.keys(CATEGORIES).every(key => key === 'unesco' ? CATEGORIES[key].active : !CATEGORIES[key].active);
+}
+
+function getUnescoClustersData() {
+  const unescoMap = new Map();
+  travelSpots.forEach(s => {
+    const isUnesco = Boolean(s.unesco_name || s.category === 'unesco' || (s.counts && s.counts.unesco));
+    if (!isUnesco) return;
+    const name = s.unesco_name || s.name;
+    if (!unescoMap.has(name)) {
+      unescoMap.set(name, {
+        unescoName: name,
+        spots: [],
+        flag: s.flag || '🏛️',
+        country: s.country
+      });
+    }
+    unescoMap.get(name).spots.push(s);
+  });
+
+  const clusters = [];
+  unescoMap.forEach((entry, name) => {
+    const count = entry.spots.length;
+    const avgLat = entry.spots.reduce((sum, sp) => sum + sp.lat, 0) / count;
+    const avgLng = entry.spots.reduce((sum, sp) => sum + sp.lng, 0) / count;
+    clusters.push({
+      isUnescoCluster: true,
+      unescoName: name,
+      count: count,
+      lat: avgLat,
+      lng: avgLng,
+      spots: entry.spots,
+      flag: entry.flag,
+      country: entry.country
+    });
+  });
+  return clusters;
+}
+
+function openUnescoSummaryCard(cluster) {
+  currentSelectedSpot = cluster.spots[0];
+  const card = document.getElementById('destination-card');
+  const flagEl = document.getElementById('card-flag');
+  const regionEl = document.getElementById('card-country-region');
+  const img = document.getElementById('card-img');
+  const tagsContainer = document.getElementById('card-photo-tags');
+  const title = document.getElementById('card-title');
+  const location = document.getElementById('card-location');
+  const desc = document.getElementById('card-description');
+  const visiter = document.getElementById('card-visiter');
+  const link = document.getElementById('card-link');
+  const gmapsLink = document.getElementById('card-gmaps-link');
+  const indexEl = document.getElementById('card-spot-index');
+
+  if (indexEl) indexEl.innerText = `Patrimoine Mondial UNESCO`;
+  flagEl.innerText = cluster.flag || '🏛️';
+  regionEl.innerText = `${cluster.country} · Bien UNESCO`;
+  img.src = cluster.spots[0].image;
+
+  tagsContainer.innerHTML = `
+    <div class="px-2.5 py-1 rounded-lg text-[10px] font-bold text-white uppercase tracking-wider shadow flex items-center gap-1.5 border border-amber-400/40 bg-amber-900">
+      <i class="fa-solid fa-award"></i><span>Bien UNESCO</span>
+    </div>
+    <div class="px-2.5 py-1 rounded-lg text-[10px] font-bold text-amber-200 uppercase tracking-wider shadow flex items-center gap-1.5 border border-amber-500/40 bg-slate-900">
+      <i class="fa-solid fa-monument"></i><span>${cluster.count} site${cluster.count > 1 ? 's' : ''} exploré${cluster.count > 1 ? 's' : ''}</span>
+    </div>
+  `;
+
+  title.innerText = cluster.unescoName;
+  location.querySelector('span').innerText = `${cluster.lat.toFixed(4)}°N, ${cluster.lng.toFixed(4)}°E`;
+
+  desc.innerHTML = `
+    Ce bien inscrit au Patrimoine Mondial regroupe <strong>${cluster.count} monument${cluster.count > 1 ? 's' : ''}</strong> de vos voyages :
+    <ul class="list-disc pl-4 mt-1.5 space-y-1">
+      ${cluster.spots.map(s => `<li><strong>${s.name}</strong> (${s.century || s.era_label})</li>`).join('')}
+    </ul>
+  `;
+
+  visiter.innerHTML = `
+    <div class="text-slate-300">
+      Monuments explorés au sein de ce bien :
+      <div class="flex flex-col gap-1 mt-1.5">
+        ${cluster.spots.map(s => `
+          <button onclick="selectSpotById('${s.id}')" class="text-left px-2 py-1 rounded bg-slate-800 hover:bg-amber-950/60 border border-slate-700 text-amber-300 font-semibold text-[10px] flex items-center justify-between">
+            <span>${s.name}</span> <i class="fa-solid fa-chevron-right text-[8px]"></i>
+          </button>
+        `).join('')}
+      </div>
+    </div>
+  `;
+
+  link.href = cluster.spots[0].link;
+  if (gmapsLink) {
+    gmapsLink.href = `https://www.google.com/maps/search/?api=1&query=${cluster.lat},${cluster.lng}`;
+  }
+
+  updateSpotToggleButton();
+  card.classList.remove('hidden');
+
+  if (currentMode === 'globe' && myGlobe) {
+    myGlobe.pointOfView({ lat: cluster.lat, lng: cluster.lng, altitude: 0.4 }, 1000);
+  } else if (currentMode === 'map' && myLeafletMap) {
+    myLeafletMap.flyTo([cluster.lat, cluster.lng], 11, { duration: 1.0 });
+  }
+}
+
+// ==========================================
+// FIN DU BLOC CLUSTERS UNESCO
+// ==
 
 function getHaversineDistanceKm(lat1, lon1, lat2, lon2) {
   const R = 6371;
@@ -3678,8 +3793,12 @@ function runAdvancedFilter() {
       }
     }
 
-    if (unescoOnly) {
-      const isUnesco = s.category === 'unesco' || (s.counts && s.counts.unesco > 0);
+   if (unescoOnly) {
+      const isUnesco = Boolean(
+        s.unesco_name ||
+        s.category === 'unesco' ||
+        (s.counts && s.counts.unesco > 0)
+      );
       if (!isUnesco) return false;
     }
 
@@ -4251,6 +4370,25 @@ function initGlobe() {
         };
         return anchor;
       }
+       if (d.isUnescoCluster) {
+        anchor.innerHTML = `
+          <div class="relative flex items-center justify-center pointer-events-auto">
+            <div class="px-2.5 py-1 rounded-full flex items-center gap-1.5 text-white font-bold text-xs bg-amber-950/95 border-2 border-amber-400 shadow-[0_0_15px_rgba(251,191,36,0.7)] cursor-pointer hover:scale-120 transition-transform duration-150">
+              <span class="text-xs">🏛️</span>
+              <span class="font-mono text-xs font-black tracking-tight text-amber-200">${d.unescoName}</span>
+              <span class="px-1 py-0.2 rounded-full bg-amber-500 text-slate-950 text-[10px] font-black">${d.count}</span>
+            </div>
+            <div class="absolute bottom-full mb-1.5 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-150 pointer-events-none whitespace-nowrap px-2 py-0.5 rounded-lg bg-slate-950/95 border border-amber-400/50 text-[10px] font-bold text-amber-300 shadow-xl z-50">
+              Bien UNESCO : ${d.count} monument${d.count > 1 ? 's' : ''}
+            </div>
+          </div>
+        `;
+        anchor.onclick = (e) => {
+          e.stopPropagation();
+          openUnescoSummaryCard(d);
+        };
+        return anchor;
+      }
 
       if (d.isCluster) {
         const count = d.count;
@@ -4426,6 +4564,33 @@ function updateLeafletDisplay() {
         className: 'custom-leaflet-tooltip'
       });
       marker.on('click', () => openIslandSummaryCard(cluster));
+      leafletMarkersGroup.addLayer(marker);
+    });
+    return;
+  }
+   if (isOnlyUnescoFilterActive()) {
+    const unescoClusters = getUnescoClustersData();
+    unescoClusters.forEach(cluster => {
+      const unescoIcon = L.divIcon({
+        className: 'custom-unesco-pin',
+        html: `
+          <div class="px-2 py-1 rounded-full flex items-center gap-1 bg-amber-950 border-2 border-amber-400 text-white shadow-xl cursor-pointer hover:scale-115 transition">
+            <span class="text-[11px]">🏛️</span>
+            <span class="font-bold text-[10px] text-amber-200">${cluster.unescoName}</span>
+            <span class="px-1 py-0.2 rounded-full bg-amber-500 text-slate-950 font-black text-[9px]">${cluster.count}</span>
+          </div>
+        `,
+        iconSize: [120, 26],
+        iconAnchor: [60, 13]
+      });
+
+      const marker = L.marker([cluster.lat, cluster.lng], { icon: unescoIcon });
+      marker.bindTooltip(`<span>🏛️ ${cluster.unescoName} (${cluster.count} monument${cluster.count > 1 ? 's' : ''})</span>`, {
+        direction: 'top',
+        offset: [0, -12],
+        className: 'custom-leaflet-tooltip'
+      });
+      marker.on('click', () => openUnescoSummaryCard(cluster));
       leafletMarkersGroup.addLayer(marker);
     });
     return;
@@ -4723,6 +4888,12 @@ function updateGlobeDisplay() {
   if (isOnlyIslandFilterActive()) {
     const islandClusters = getIslandClustersData();
     myGlobe.htmlElementsData(islandClusters);
+    updateStats();
+    return;
+  }
+   if (isOnlyUnescoFilterActive()) {
+    const unescoClusters = getUnescoClustersData();
+    myGlobe.htmlElementsData(unescoClusters);
     updateStats();
     return;
   }
