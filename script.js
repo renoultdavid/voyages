@@ -4716,7 +4716,7 @@ function computeAllStatistics() {
     pharaonique: { label: "Antiquité Pharaonique", span: "-1500 à -1200 av. J.-C.", icon: "🏺", count: 0, color: "#f59e0b" },
     ptolemaique: { label: "Période Ptolémaïque & Romaine", span: "-300 à +300", icon: "🏛️", count: 0, color: "#38bdf8" },
     medievale: { label: "Époque Médiévale & Génoise", span: "XVIe - XVIIIe s.", icon: "🏰", count: 0, color: "#818cf8" },
-    contemporain: { label: "XIXe - XXIe s. & Impressionnisme", span: "1883 à nos jours", icon: "🎨", count: 0, color: "#a855f7" },
+    contemporain: { label: "XIXe - XXIe s.", span: "1883 à nos jours", icon: "🎨", count: 0, color: "#a855f7" },
     nature: { label: "Temps Géologique & Ère Glaciaire", span: "Temps long", icon: "🌿", count: 0, color: "#10b981" }
   };
 
