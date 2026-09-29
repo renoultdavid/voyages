@@ -2041,7 +2041,7 @@ island_name: "Honshū",
     subdiv: "Assouan",
     altitude: 110,
     is_island: true,
-    island_name: "Philae (Agilkia)",
+    island_name: "Philae",
     transport: "bateau",
     era_group: "ptolemaique",
     era_label: "Période Ptolémaïque & Romaine (-380)",
@@ -3312,26 +3312,40 @@ function getUnescoClustersData() {
   travelSpots.forEach(s => {
     const isUnesco = Boolean(s.unesco_name || s.category === 'unesco' || (s.counts && s.counts.unesco));
     if (!isUnesco) return;
-    const name = s.unesco_name || s.name;
-    if (!unescoMap.has(name)) {
-      unescoMap.set(name, {
-        unescoName: name,
+    const fullName = s.unesco_name || s.name;
+
+    // Nom court pour que la pastille reste fine et sur une seule ligne
+    let shortName = fullName;
+    if (fullName.includes("Val de Loire")) shortName = "Val de Loire";
+    else if (fullName.includes("Memphis")) shortName = "Gizeh à Dahchour";
+    else if (fullName.includes("Thèbes")) shortName = "Thèbes antique";
+    else if (fullName.includes("Nubie")) shortName = "Abou Simbel à Philae";
+    else if (fullName.includes("Le Caire")) shortName = "Le Caire historique";
+    else if (fullName.includes("Shirakawa")) shortName = "Shirakawa-gō";
+    else if (fullName.includes("Fujisan")) shortName = "Mont Fuji";
+    else if (fullName.includes("Corbusier")) shortName = "Le Corbusier";
+
+    if (!unescoMap.has(fullName)) {
+      unescoMap.set(fullName, {
+        unescoName: fullName,
+        shortLabel: shortName,
         spots: [],
         flag: s.flag || '🏛️',
         country: s.country
       });
     }
-    unescoMap.get(name).spots.push(s);
+    unescoMap.get(fullName).spots.push(s);
   });
 
   const clusters = [];
-  unescoMap.forEach((entry, name) => {
+  unescoMap.forEach((entry, fullName) => {
     const count = entry.spots.length;
     const avgLat = entry.spots.reduce((sum, sp) => sum + sp.lat, 0) / count;
     const avgLng = entry.spots.reduce((sum, sp) => sum + sp.lng, 0) / count;
     clusters.push({
       isUnescoCluster: true,
-      unescoName: name,
+      unescoName: fullName,
+      shortLabel: entry.shortLabel,
       count: count,
       lat: avgLat,
       lng: avgLng,
@@ -4373,13 +4387,13 @@ function initGlobe() {
        if (d.isUnescoCluster) {
         anchor.innerHTML = `
           <div class="relative flex items-center justify-center pointer-events-auto">
-            <div class="px-2.5 py-1 rounded-full flex items-center gap-1.5 text-white font-bold text-xs bg-amber-950/95 border-2 border-amber-400 shadow-[0_0_15px_rgba(251,191,36,0.7)] cursor-pointer hover:scale-120 transition-transform duration-150">
+            <div class="px-2.5 py-1 rounded-full flex items-center gap-1.5 text-white font-bold text-xs bg-amber-950/95 border-2 border-amber-400 shadow-[0_0_12px_rgba(251,191,36,0.5)] cursor-pointer hover:scale-115 transition-transform duration-150 whitespace-nowrap">
               <span class="text-xs">🏛️</span>
-              <span class="font-mono text-xs font-black tracking-tight text-amber-200">${d.unescoName}</span>
-              <span class="px-1 py-0.2 rounded-full bg-amber-500 text-slate-950 text-[10px] font-black">${d.count}</span>
+              <span class="font-mono text-xs font-black tracking-tight text-amber-200">${d.shortLabel}</span>
+              <span class="px-1.5 py-0.2 rounded-full bg-amber-500 text-slate-950 text-[10px] font-black">${d.count}</span>
             </div>
             <div class="absolute bottom-full mb-1.5 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-150 pointer-events-none whitespace-nowrap px-2 py-0.5 rounded-lg bg-slate-950/95 border border-amber-400/50 text-[10px] font-bold text-amber-300 shadow-xl z-50">
-              Bien UNESCO : ${d.count} monument${d.count > 1 ? 's' : ''}
+              ${d.unescoName} (${d.count} site${d.count > 1 ? 's' : ''})
             </div>
           </div>
         `;
@@ -4389,7 +4403,6 @@ function initGlobe() {
         };
         return anchor;
       }
-
       if (d.isCluster) {
         const count = d.count;
         anchor.innerHTML = `
@@ -4574,18 +4587,18 @@ function updateLeafletDisplay() {
       const unescoIcon = L.divIcon({
         className: 'custom-unesco-pin',
         html: `
-          <div class="px-2 py-1 rounded-full flex items-center gap-1 bg-amber-950 border-2 border-amber-400 text-white shadow-xl cursor-pointer hover:scale-115 transition">
+          <div class="px-2 py-1 rounded-full flex items-center gap-1.5 bg-amber-950/95 border-2 border-amber-400 text-white shadow-xl cursor-pointer hover:scale-115 transition whitespace-nowrap">
             <span class="text-[11px]">🏛️</span>
-            <span class="font-bold text-[10px] text-amber-200">${cluster.unescoName}</span>
-            <span class="px-1 py-0.2 rounded-full bg-amber-500 text-slate-950 font-black text-[9px]">${cluster.count}</span>
+            <span class="font-bold text-[10px] text-amber-200">${cluster.shortLabel}</span>
+            <span class="px-1.5 py-0.2 rounded-full bg-amber-500 text-slate-950 font-black text-[9px]">${cluster.count}</span>
           </div>
         `,
-        iconSize: [120, 26],
-        iconAnchor: [60, 13]
+        iconSize: 'auto',
+        iconAnchor: [50, 13]
       });
 
       const marker = L.marker([cluster.lat, cluster.lng], { icon: unescoIcon });
-      marker.bindTooltip(`<span>🏛️ ${cluster.unescoName} (${cluster.count} monument${cluster.count > 1 ? 's' : ''})</span>`, {
+      marker.bindTooltip(`<span>🏛️ ${cluster.unescoName} (${cluster.count} site${cluster.count > 1 ? 's' : ''})</span>`, {
         direction: 'top',
         offset: [0, -12],
         className: 'custom-leaflet-tooltip'
