@@ -94,6 +94,31 @@ const COUNTRY_SUBDIV_TOTALS = {
 
 const travelSpots = [
   {
+    id: "san_giovanni_di_moriani_pont_de_l_enfer",
+    name: "San-Giovanni-di-Moriani - Pont de l'Enfer (Ponte à l'Infernu)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Corse",
+    department: "Haute-Corse",
+    subdiv: "San-Giovanni-di-Moriani",
+    altitude: 165,
+    is_island: true,
+    island_name: "Corse",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Ouvrage d'art génois traditionnel en pierre sèche (Époque moderne)",
+    century: "XVIIe siècle",
+    category: "naturel",
+    counts: { rando: 1 },
+    lat: 42.388453,
+    lng: 9.474430,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOV_QRZWDlHvoICaceRqTpHIpj-Bw8xcdtVQ169F5w3XNzSAJjfdj3JBV_3bTG6eYUKm7IVdkIdKDvsNf52XuQPK9EmUbTyp8jv5j6f-ja1C3ZSuaJaQepjFpSkNGebYkbZ4qNZ2NpPlePAn3alXDOu2w=w2549-h1919-s-no-gm?authuser=0",
+    description: "Niché dans les replis verdoyants de la Costa Verde au cœur de la vallée encaissée du Bucatoghju, le pont de l'Enfer (Ponte à l'Infernu) enjambe une gorge sauvage dominée par de hautes parois rocheuses et une forêt dense de châtaigniers séculaires. Bâti selon les techniques traditionnelles génoises avec une arche unique en plein cintre en moellons de schiste liés au mortier de chaux, ce pont muletier permettait autrefois de relier les hameaux perchés de la piève de Moriani aux zones d'estive et aux moulins à farine de châtaigne de la haute vallée. Le toponyme spectaculaire du lieu provient du grondement assourdissant des eaux tumultueuses s'engouffrant dans la faille rocheuse lors des crues printanières et automnales.",
+    visiter: "Emprunter le sentier de randonnée pédestre ombragé qui part des hauteurs du village de San-Giovanni-di-Moriani et descend à travers le sous-bois de châtaigniers, de mousses et de fougères géantes. S'arrêter sur le tablier pavé du pont de pierre pour contempler l'enfilade des cascades, des vasques d'eau pure cristalline et des marmites de géants creusées dans la roche lustrée par les millénaires. Les amateurs de fraîcheur peuvent descendre prudemment sur les berges rocheuses pour tremper les pieds dans l'eau vive du torrent avant de poursuivre la boucle balisée en direction de la cascade de l'Ucelluline.",
+    link: "https://photos.google.com/share/AF1QipPRcmCbDTEzJMDi4WQTbyjOOdhUJGOvcOXzTwnlKnzkwZGt5s4gMQG_IRDN8iRoIQ?key=M3U0c2RJVmdRUVBMVnYyWXpjUGtLM0ROXy1ncGNn"
+  },
+   {
     id: "scandola_reserve_naturelle",
     name: "Golfe de Porto - Réserve Naturelle de Scandola",
     country: "France",
