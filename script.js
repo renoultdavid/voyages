@@ -5677,17 +5677,17 @@ function renderUnifiedCategoryList() {
       });
     }
 
-    const row = document.createElement('label');
-    row.className = 'flex items-center justify-between p-1 rounded-lg bg-slate-900/60 hover:bg-slate-800/80 cursor-pointer transition select-none border border-slate-800/60';
+   const row = document.createElement('label');
+    row.className = 'flex items-center justify-between p-1.5 rounded-lg bg-slate-900/60 hover:bg-slate-800/80 cursor-pointer transition select-none border border-slate-800/60';
     row.innerHTML = `
-      <div class="flex items-center gap-1.5 min-w-0 pr-1">
-        <input type="checkbox" ${cat.active ? 'checked' : ''} onchange="toggleCategory('${key}')" class="w-3 h-3 rounded text-cyan-500 bg-slate-800 border-slate-700 focus:ring-0 cursor-pointer shrink-0">
-        <div class="w-4 h-4 rounded-full flex items-center justify-center text-white text-[8px] shrink-0 shadow" style="background-color: ${cat.color};">
+      <div class="flex items-center gap-2 min-w-0 pr-1">
+        <input type="checkbox" ${cat.active ? 'checked' : ''} onchange="toggleCategory('${key}')" class="w-3.5 h-3.5 rounded text-cyan-500 bg-slate-800 border-slate-700 focus:ring-0 cursor-pointer shrink-0">
+        <div class="w-5 h-5 rounded-full flex items-center justify-center text-white text-[10px] shrink-0 shadow" style="background-color: ${cat.color};">
           <i class="fa-solid ${cat.icon}"></i>
         </div>
-        <span class="text-slate-200 text-[10px] font-medium truncate">${cat.label}</span>
+        <span class="text-slate-200 text-xs font-semibold truncate">${cat.label}</span>
       </div>
-      <span class="min-w-[26px] text-center font-mono font-bold text-[9px] px-1 py-0.5 rounded bg-slate-950/70 border border-slate-800 shrink-0 ${count > 0 ? 'text-cyan-300' : 'text-slate-500'}"${tooltipText}>${count}</span>
+      <span class="min-w-[28px] text-center font-mono font-bold text-[11px] px-1.5 py-0.5 rounded bg-slate-950/70 border border-slate-800 shrink-0 ${count > 0 ? 'text-cyan-300' : 'text-slate-500'}"${tooltipText}>${count}</span>
     `;
     container.appendChild(row);
   });
