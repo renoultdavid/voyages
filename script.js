@@ -109,7 +109,7 @@ const travelSpots = [
     era_group: "naturel",
     era_label: "Ancienne caldeira volcanique sous-marine effondrée (Paléozoïque)",
     century: "",
-    category: "naturel",
+    category: "parc_naturel",
     unesco_name: "Golfe de Porto : calanche de Piana, golfe de Girolata, réserve de Scandola",
     counts: {},
     lat: 42.369572,
