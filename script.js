@@ -5773,7 +5773,7 @@ function initGlobe() {
           <div class="relative flex items-center justify-center pointer-events-auto">
             <div class="px-2.5 py-1 rounded-full flex items-center gap-1.5 text-white font-bold text-xs bg-cyan-950/95 border-2 border-cyan-400 shadow-[0_0_15px_rgba(34,211,238,0.7)] cursor-pointer hover:scale-120 transition-transform duration-150">
               <span class="text-xs">🏝️</span>
-              <span class="font-mono text-xs font-black tracking-tight text-cyan-200">${d.islandName}</span>
+              <span class="font-mono text-xs font-black tracking-tight text-cyan-200 whitespace-nowrap">${d.islandName}</span>
               <span class="px-1 py-0.2 rounded-full bg-cyan-500 text-slate-950 text-[10px] font-black">${d.count}</span>
             </div>
             <div class="absolute bottom-full mb-1.5 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-150 pointer-events-none whitespace-nowrap px-2 py-0.5 rounded-lg bg-slate-950/95 border border-cyan-400/50 text-[10px] font-bold text-cyan-300 shadow-xl z-50">
