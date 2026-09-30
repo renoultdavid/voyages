@@ -5657,7 +5657,8 @@ function initGlobe() {
   if (!container || typeof Globe !== 'function') return;
 
   myGlobe = Globe()(container)
-    .globeImageUrl('https://unpkg.com/three-globe@2.31.1/example/img/earth-blue-marble.jpg')
+    // .globeImageUrl('https://unpkg.com/three-globe@2.31.1/example/img/earth-blue-marble.jpg')
+     .globeTileEngineUrl((x, y, l) => `https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/${l}/${y}/${x}`)
     .backgroundColor('rgba(2, 6, 23, 1)')
     .showAtmosphere(false)
     .htmlElementsData([])
