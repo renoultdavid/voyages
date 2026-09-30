@@ -5657,7 +5657,7 @@ function initGlobe() {
   if (!container || typeof Globe !== 'function') return;
 
   myGlobe = Globe()(container)
-    .globeImageUrl('https://cdn.jsdelivr.net/npm/three-globe/example/img/earth-blue-marble.jpg')
+    .globeImageUrl('https://unpkg.com/three-globe@2.31.1/example/img/earth-blue-marble.jpg')
     .backgroundColor('rgba(2, 6, 23, 1)')
     .showAtmosphere(false)
     .htmlElementsData([])
