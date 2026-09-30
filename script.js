@@ -113,7 +113,7 @@ const travelSpots = [
     counts: {},
     lat: 47.968539,
     lng: 0.166377,
-    image: "https://photos.fife.usercontent.google.com/pw/AP1GczNrSTyx1v1vznRdGmVtngbzjKaPLB2Hs6nYpBwrlxRBT00WJJVX1ypPTA=w1901-h1431-s-no-gm?authuser=0",
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNEAMlC_6Vg8tLVwDb6dabEr2rg9KdQ5hZHBvTmgUEWgyfGuxlVmBPpkPVdK0U5W6yf_H3cGrd96qXQLJkJO7Y6z5VxSe-j6u25qlKWRFsDw9pAvj2tszcLLO-RuYDS0vnYymbd91CoMbjx4eyw2FzzDg=w1901-h1431-s-no-gm?authuser=0",
     description: "Implanté sur les hauteurs dominant le confluent de la Sarthe et de l'Huisne face au Mans antique, le sanctuaire de Mars Mullo à Allonnes est l'un des ensembles religieux monumentaux les plus prestigieux de la Gaule romaine. Établi sur un lieu de culte gaulois remontant au IVe siècle avant notre ère, ce grand complexe de pèlerinage dédié à Mars Mullo — divinité syncrétique protectrice et guérisseuse honorée par le peuple des Aulerques Cénomans — fut doté au IIe siècle d'un temple à plan centré gigantesque. Enserré dans une vaste esplanade de péribole rythmée de galeries à colonnades, l'édifice conserve les puissants pans de maçonnerie en petit appareil régulier de sa cella circulaire, surnommée traditionnellement « la Tour aux Fées ».",
     visiter: "Parcourir le parc archéologique aménagé en sous-bois pour découvrir les substructions dégagées du sanctuaire monumental. Observer de près l'élévation remarquable des murs de la cella en moellons calcaires et lits de briques (opus mixtum), imaginer la colonnade entourant le temple d'époque antonine et consulter les panneaux explicatifs qui retracent l'évolution du site, des fosses sacrificielles gauloises jusqu'aux thermes et au théâtre de pèlerinage voisins.",
     link: ""
@@ -413,7 +413,7 @@ const travelSpots = [
     counts: {},
     lat: 47.616672,
     lng: -2.712241,
-    image: "https://photos.fife.usercontent.google.com/pw/AP1GczMqGYS_HThC3Boq2LYlA8Qg75X4u64hEonnjuv5r84siUanozbeprV-Eg=w1901-h1431-s-no-gm?authuser=0",
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPxN83APcgajHdYxjCy6pGAN1BcF-LZrdTLyhFMM3REEiq5i_DVX-1GHHpBp3rT_EE1GS3Jiajm4bkGsl3tV_6plqGDxXyX5tjYsP_rG5CidyniOvcUWgXMYBCgvPlQxgiWRaMcH1aBf92g_oznirKWWw=w1901-h1431-s-no-gm?authuser=0",
     description: "Étendue sur plus de cinq cents hectares d'anciens marais salants, de vasières lagunaires et de prairies humides, la Réserve Naturelle Nationale des Marais de Séné est le sanctuaire écologique le plus important du golfe du Morbihan. Classé d'intérêt international pour la protection des oiseaux d'eau, ce vaste biotope saumâtre accueille des milliers de limicoles, d'échassiers et de canards en escale migratoire ou en nidification, notamment l'avocette élégante, la spatule blanche, l'échasse blanche et le chevalier gambette.",
     visiter: "Parcourir les sentiers balisés aménagés sur les digues d'argile entre les bassins d'eau salée. Pénétrer dans les observatoires ornithologiques en bois équipés de longues-vues pour admirer de très près les colonies d'oiseaux sauvages sans les déranger, et visiter le centre d'accueil pédagogique pour comprendre l'histoire saunière et la faune des marais.",
     link: "https://photos.google.com/share/AF1QipNnphodHd7ZJ7e3O9m06dVLlvS2pe1Fbp1GBVfWd8HrXhC-g9yEs717mSChDtrbcA?key=azV2OGVSRUZ0c29VVFF1OXF0X1ViQ2NXRFlBM1pR"
