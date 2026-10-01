@@ -7671,6 +7671,14 @@ function selectSpot(spot) {
   const geoBreadcrumb = [spot.country, spot.region_admin || spot.region, spot.department, spot.subdiv].filter(Boolean).join(' · ');
   regionEl.innerText = geoBreadcrumb || spot.country;
   img.src = spot.image;
+  img.classList.add('cursor-pointer', 'hover:opacity-90', 'transition');
+  img.title = "Cliquer pour agrandir en plein écran";
+  img.onclick = () => openPoiModalViewer(spot);
+
+  if (img.parentElement) {
+    img.parentElement.classList.add('cursor-pointer');
+    img.parentElement.onclick = () => openPoiModalViewer(spot);
+  }
   tagsContainer.innerHTML = '';
 
   let spotCategories = [];
@@ -8237,3 +8245,165 @@ function renderCockpitDashboardDetails() {
     `;
   }
 }
+// ==========================================
+// VISIONNEUSE PLEIN ÉCRAN DYNAMIQUE
+// ==========================================
+
+let activeModalIndex = 0;
+let currentModalSpotList = [];
+
+// Fonction principale d'affichage de la visionneuse
+function openPoiModalViewer(spot) {
+  if (typeof getFilteredSpots === 'function') {
+    currentModalSpotList = getFilteredSpots();
+  } else {
+    currentModalSpotList = [spot];
+  }
+  
+  activeModalIndex = currentModalSpotList.findIndex(s => s.id === spot.id);
+  if (activeModalIndex === -1) {
+    currentModalSpotList = [spot];
+    activeModalIndex = 0;
+  }
+
+  renderModalSpot(spot);
+
+  const modal = document.getElementById('poi-modal-viewer');
+  if (modal) {
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+  }
+}
+
+function closePoiModalViewer() {
+  const modal = document.getElementById('poi-modal-viewer');
+  if (modal) {
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+  }
+}
+
+function renderModalSpot(spot) {
+  const modal = document.getElementById('poi-modal-viewer');
+  if (!modal || !spot) return;
+
+  // 1. Remplissage des textes et métadonnées
+  const flagEl = document.getElementById('modal-flag');
+  if (flagEl) flagEl.innerText = spot.flag || '📍';
+  
+  const breadcrumb = [spot.country, spot.region_admin, spot.department, spot.subdiv].filter(Boolean).join(' • ');
+  const breadcrumbEl = document.getElementById('modal-breadcrumb');
+  if (breadcrumbEl) breadcrumbEl.innerText = breadcrumb;
+
+  const counterEl = document.getElementById('modal-counter');
+  if (counterEl) counterEl.innerText = `${activeModalIndex + 1} / ${currentModalSpotList.length}`;
+
+  const titleEl = document.getElementById('modal-title');
+  if (titleEl) titleEl.innerText = spot.name;
+  
+  const coordsEl = document.getElementById('modal-coords');
+  if (coordsEl) {
+    coordsEl.innerHTML = `<i class="fa-solid fa-location-crosshairs text-cyan-400"></i> ${Number(spot.lat).toFixed(6)}°N, ${Number(spot.lng).toFixed(6)}°E`;
+  }
+
+  const altEl = document.getElementById('modal-altitude');
+  if (altEl) {
+    altEl.innerHTML = `<i class="fa-solid fa-mountain text-amber-400"></i> ${spot.altitude || 0} m`;
+  }
+
+  // Badge catégorie
+  const catKey = spot.category;
+  const catConf = (typeof CATEGORIES !== 'undefined' && CATEGORIES[catKey]) ? CATEGORIES[catKey] : { label: catKey, color: '#06b6d4' };
+  const badgeCat = document.getElementById('modal-badge-cat');
+  if (badgeCat) {
+    badgeCat.innerText = catConf.label || catKey;
+    badgeCat.style.backgroundColor = catConf.color || '#06b6d4';
+    badgeCat.style.color = '#ffffff';
+  }
+
+  // Badge Époque / Siècle
+  const badgeEra = document.getElementById('modal-badge-era');
+  if (badgeEra) {
+    badgeEra.innerText = spot.century || spot.era_label || spot.era_group || 'Patrimoine';
+  }
+
+  // Textes complets
+  const descEl = document.getElementById('modal-description');
+  if (descEl) descEl.innerText = spot.description || "Aucune description disponible.";
+
+  const visitEl = document.getElementById('modal-visiter');
+  if (visitEl) visitEl.innerText = spot.visiter || "Informations de visite à venir.";
+
+  // Lien album
+  const linkAlbum = document.getElementById('modal-album-link');
+  if (linkAlbum) {
+    if (spot.link) {
+      linkAlbum.href = spot.link;
+      linkAlbum.classList.remove('hidden');
+    } else {
+      linkAlbum.classList.add('hidden');
+    }
+  }
+
+  // 2. Gestion intelligente de la photo et détection Paysage / Portrait
+  const imgEl = document.getElementById('modal-image');
+  const layout = document.getElementById('modal-body-layout');
+  const imgWrapper = document.getElementById('modal-image-wrapper');
+  const textWrapper = document.getElementById('modal-text-wrapper');
+
+  if (imgEl) {
+    imgEl.onload = function() {
+      const isPortrait = this.naturalHeight > this.naturalWidth;
+
+      if (isPortrait) {
+        // MODE PORTRAIT : Côte à côte (Photo à gauche, Texte à droite)
+        if (layout) layout.className = "flex-1 flex flex-col md:flex-row overflow-hidden";
+        if (imgWrapper) imgWrapper.className = "relative bg-black flex items-center justify-center overflow-hidden w-full md:w-1/2 lg:w-3/5 h-1/2 md:h-full shrink-0 border-b md:border-b-0 md:border-r border-cyan-500/20";
+        if (textWrapper) textWrapper.className = "w-full md:w-1/2 lg:w-2/5 h-1/2 md:h-full overflow-y-auto p-4 sm:p-6 space-y-4 custom-scrollbar";
+      } else {
+        // MODE PAYSAGE : Superposé (2/3 image en haut, 1/3 texte en bas)
+        if (layout) layout.className = "flex-1 flex flex-col overflow-hidden";
+        if (imgWrapper) imgWrapper.className = "relative bg-black flex items-center justify-center overflow-hidden w-full h-[62%] sm:h-[65%] shrink-0 border-b border-cyan-500/20";
+        if (textWrapper) textWrapper.className = "flex-1 overflow-y-auto p-4 sm:p-6 space-y-4 custom-scrollbar";
+      }
+    };
+
+    imgEl.src = spot.image || '';
+  }
+}
+
+// Navigation précédent / suivant
+function navigateModalSpot(direction) {
+  if (!currentModalSpotList.length) return;
+  activeModalIndex = (activeModalIndex + direction + currentModalSpotList.length) % currentModalSpotList.length;
+  const newSpot = currentModalSpotList[activeModalIndex];
+  renderModalSpot(newSpot);
+  
+  if (typeof selectSpot === 'function') {
+    selectSpot(newSpot);
+  }
+}
+
+// Initialisation automatique de tous les boutons et raccourcis clavier
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('modal-btn-close')?.addEventListener('click', closePoiModalViewer);
+  document.getElementById('modal-btn-prev')?.addEventListener('click', () => navigateModalSpot(-1));
+  document.getElementById('modal-btn-next')?.addEventListener('click', () => navigateModalSpot(1));
+  document.getElementById('modal-arrow-left')?.addEventListener('click', () => navigateModalSpot(-1));
+  document.getElementById('modal-arrow-right')?.addEventListener('click', () => navigateModalSpot(1));
+
+  // Clic en dehors de la fenêtre pour fermer
+  document.getElementById('poi-modal-viewer')?.addEventListener('click', (e) => {
+    if (e.target.id === 'poi-modal-viewer') closePoiModalViewer();
+  });
+
+  // Touches Clavier : Échap pour fermer, Flèches Gauche/Droite
+  window.addEventListener('keydown', (e) => {
+    const modal = document.getElementById('poi-modal-viewer');
+    if (!modal || modal.classList.contains('hidden')) return;
+
+    if (e.key === 'Escape') closePoiModalViewer();
+    if (e.key === 'ArrowLeft') navigateModalSpot(-1);
+    if (e.key === 'ArrowRight') navigateModalSpot(1);
+  });
+});
