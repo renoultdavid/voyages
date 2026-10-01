@@ -573,6 +573,83 @@
     </button>
   </div>
 
+  <!-- MODALE VISIONNEUSE GRAND ÉCRAN (IMMERSIVE VIEWER) -->
+  <div id="poi-modal-viewer" class="fixed inset-0 z-[9999] hidden items-center justify-center p-3 sm:p-6 bg-slate-950/85 backdrop-blur-md transition-opacity duration-300">
+    <div id="poi-modal-container" class="relative w-full max-w-6xl h-[92vh] bg-slate-900/95 border border-cyan-500/30 rounded-2xl shadow-[0_0_50px_rgba(6,182,212,0.25)] flex flex-col overflow-hidden text-slate-100">
+      
+      <!-- BARRE SUPÉRIEURE (NAVIGATION & CONTRÔLES) -->
+      <div class="flex items-center justify-between px-4 py-2.5 bg-slate-950/80 border-b border-cyan-500/20 z-10 shrink-0">
+        <!-- Fil d'Ariane & Drapeau pulsant -->
+        <div class="flex items-center gap-2 overflow-hidden text-xs">
+          <span id="modal-flag" class="text-base animate-pulse">🇫🇷</span>
+          <span id="modal-breadcrumb" class="text-slate-400 truncate font-mono text-[11px]"></span>
+        </div>
+
+        <!-- Commandes de navigation & Fermeture -->
+        <div class="flex items-center gap-2 shrink-0">
+          <button id="modal-btn-prev" class="px-2.5 py-1 rounded-lg bg-slate-800/80 hover:bg-cyan-500/30 text-cyan-300 border border-cyan-500/30 transition text-xs font-bold flex items-center gap-1 cursor-pointer">
+            <i class="fa-solid fa-chevron-left text-[10px]"></i> <span class="hidden sm:inline">Précédent</span>
+          </button>
+          <span id="modal-counter" class="text-[11px] font-mono font-bold text-slate-400 px-1">1 / 1</span>
+          <button id="modal-btn-next" class="px-2.5 py-1 rounded-lg bg-slate-800/80 hover:bg-cyan-500/30 text-cyan-300 border border-cyan-500/30 transition text-xs font-bold flex items-center gap-1 cursor-pointer">
+            <span class="hidden sm:inline">Suivant</span> <i class="fa-solid fa-chevron-right text-[10px]"></i>
+          </button>
+          <div class="h-4 w-px bg-slate-700 mx-1"></div>
+          <button id="modal-btn-close" class="px-2.5 py-1 rounded-lg bg-red-950/60 hover:bg-red-500/40 text-red-300 border border-red-500/40 transition text-xs font-bold flex items-center gap-1.5 cursor-pointer">
+            <i class="fa-solid fa-xmark"></i> <span>Retour Carte</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- CORPS DE LA VISIONNEUSE -->
+      <div id="modal-body-layout" class="flex-1 flex overflow-hidden">
+        <!-- ZONE IMAGE -->
+        <div id="modal-image-wrapper" class="relative bg-black flex items-center justify-center overflow-hidden shrink-0">
+          <img id="modal-image" src="" alt="Photo POI" class="max-w-full max-h-full object-contain select-none" />
+          
+          <button id="modal-arrow-left" class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-950/60 hover:bg-cyan-500/80 border border-cyan-400/40 text-white flex items-center justify-center transition backdrop-blur-sm cursor-pointer shadow-lg">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button id="modal-arrow-right" class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-950/60 hover:bg-cyan-500/80 border border-cyan-400/40 text-white flex items-center justify-center transition backdrop-blur-sm cursor-pointer shadow-lg">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+
+          <a id="modal-album-link" href="#" target="_blank" class="absolute bottom-3 right-3 px-3 py-1 rounded-lg bg-slate-950/80 hover:bg-cyan-600/90 border border-cyan-400/40 text-cyan-200 text-xs font-bold flex items-center gap-1.5 backdrop-blur-sm transition shadow-lg">
+            <i class="fa-solid fa-images"></i> Album complet
+          </a>
+        </div>
+
+        <!-- ZONE TEXTE DÉFILANT -->
+        <div id="modal-text-wrapper" class="flex-1 overflow-y-auto p-4 sm:p-6 space-y-4 custom-scrollbar">
+          <div>
+            <div class="flex flex-wrap items-center gap-2 mb-2">
+              <span id="modal-badge-cat" class="px-2.5 py-0.5 rounded-full text-[11px] font-black tracking-wide uppercase shadow"></span>
+              <span id="modal-badge-era" class="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-slate-800 text-slate-300 border border-slate-700"></span>
+              <span id="modal-altitude" class="text-xs font-mono text-cyan-300 flex items-center gap-1"></span>
+            </div>
+            <h2 id="modal-title" class="text-xl sm:text-2xl font-black text-cyan-100 tracking-tight"></h2>
+            <div id="modal-coords" class="text-[11px] font-mono text-slate-400 flex items-center gap-1.5 mt-1"></div>
+          </div>
+
+          <div class="bg-slate-950/40 border border-slate-800/80 rounded-xl p-3.5 sm:p-4">
+            <h3 class="text-xs font-black tracking-wider uppercase text-cyan-400 mb-2 flex items-center gap-1.5">
+              <i class="fa-solid fa-book-open text-[11px]"></i> Introduction & Histoire
+            </h3>
+            <p id="modal-description" class="text-xs sm:text-sm text-slate-300 leading-relaxed text-justify"></p>
+          </div>
+
+          <div class="bg-slate-950/40 border border-slate-800/80 rounded-xl p-3.5 sm:p-4">
+            <h3 class="text-xs font-black tracking-wider uppercase text-emerald-400 mb-2 flex items-center gap-1.5">
+              <i class="fa-solid fa-compass text-[11px]"></i> À Visiter & Incontournables
+            </h3>
+            <p id="modal-visiter" class="text-xs sm:text-sm text-slate-300 leading-relaxed text-justify"></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
   <!-- Fichier JavaScript externe -->
   <script src="script.js"></script>
 </body>
