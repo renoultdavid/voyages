@@ -94,6 +94,31 @@ const COUNTRY_SUBDIV_TOTALS = {
 
 const travelSpots = [
   {
+    id: "montfort_le_gesnois_tombe_du_croise",
+    name: "Montfort-le-Gesnois - Tombeau du Croisé (Cimetière Saint-André)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe",
+    subdiv: "Montfort-le-Gesnois",
+    altitude: 62,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medieval",
+    era_label: "Plus ancien monument funéraire de la Sarthe orné de symboles de chevalerie",
+    century: "XIIe siècle",
+    category: "star",
+    counts: {},
+    lat: 48.049735,
+    lng: 0.419438,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPOOnVBXCWzAazKaCJUTDXOWTAywkqUiaqsWdn64t2sZDQLBv6lZ1C21lAN5h3M6LMIw_yJ8tBQ8G7ArDLOSbvfNrdZ1BT3a8G_u89TEoDaK090_swwPqaP8eT7tYmidVSByfxbjJ2riinWJ-J3azEtjA=w1818-h2416-s-no-gm?authuser=0",
+    description: "Érigé à l'ombre des ifs séculaires du cimetière Saint-André dans l'ancienne paroisse de Pont-de-Gennes, le tombeau dit du Croisé est considéré par les historiens comme le plus vénérable et ancien monument funéraire sculpté du département de la Sarthe. Daté de la fin du XIIe siècle ou des premières années du XIIIe siècle, ce sépulcre en grès roussard et calcaire gréseux local s'apparente aux tombes d'apparat des chevaliers bannerets revenus des expéditions de Terre sainte à l'époque de la troisième croisade menée par Philippe Auguste et Richard Cœur de Lion. La tradition locale et les chroniques du Perche sarthois y associent la mémoire d'un seigneur de la maison de Lauresse ou de Pont-de-Gennes, parti combattre en Orient avant de revenir finir ses jours en dévotion sur ses terres ligériennes. Le monument se compose d'un coffre de pierre surmonté d'une imposante dalle sculptée en bâtière, profondément gravée d'une longue épée de chevalier à garde droite et d'une croix pattée aux extrémités ancrées, symboles indubitables de la vocation militaire et de la foi chrétienne du défunt.",
+    visiter: "Pénétrer dans le cimetière Saint-André par la route de Connerré pour rejoindre l'allée centrale où se dresse ce tombeau médiéval exceptionnellement préservé des outrages du temps. Approcher la dalle sommitale pour examiner de près la gravure en bas-relief de l'épée médiévale à pommeau discoïdal et la croix de Terre sainte sculptées dans le grain sombre de la pierre de roussard, témoignages poignants des rituels d'inhumation de la noblesse féodale du Haut Moyen Âge. Prendre le temps de contempler la patine multiséculaire et les marques de taille laissées par les maîtres carriers d'autrefois, avant de poursuivre la découverte du riche patrimoine de Montfort-le-Gesnois vers le pont romain enjambant l'Huisne et l'église Saint-Gilles située à quelques centaines de mètres.",
+    link: "https://photos.google.com/share/AF1QipOb3ShaKNG_lsJde2nz8dRyz9nGHRogFP31vgkL6iaR4Hd7feMJ2OdoN8Q2CULzwg?key=WTRicjlYODZGMUhveTFOQXdEVk0tNEt3Ry1HVTBn"
+  },
+   {
     id: "le_mans_abbaye_de_l_epau",
     name: "Le Mans - Abbaye Royale de l'Épau",
     country: "France",
