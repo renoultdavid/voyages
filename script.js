@@ -131,7 +131,7 @@ const travelSpots = [
     is_island: false,
     island_name: "",
     transport: "a_pied",
-    era_group: "contemporain",
+    era_group: "nature",
     era_label: "Bassin lacustre paysager au cœur des cinq cents hectares du grand parc périurbain",
     century: "XXe siècle",
     category: "lac",
