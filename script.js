@@ -8356,14 +8356,14 @@ function renderModalSpot(spot) {
       const isPortrait = this.naturalHeight > this.naturalWidth;
 
       if (isPortrait) {
-        // MODE PORTRAIT : 65% à 70% de largeur pour la photo sur grand écran
+        // MODE PORTRAIT : Côte à côte (Photo à gauche, Texte à droite)
         if (layout) layout.className = "flex-1 flex flex-col md:flex-row overflow-hidden";
-        if (imgWrapper) imgWrapper.className = "relative bg-black flex items-center justify-center overflow-hidden w-full md:w-3/5 lg:w-[68%] 2xl:w-[72%] h-1/2 md:h-full shrink-0 border-b md:border-b-0 md:border-r border-cyan-500/20";
-        if (textWrapper) textWrapper.className = "w-full md:w-2/5 lg:w-[32%] 2xl:w-[28%] h-1/2 md:h-full overflow-y-auto p-4 sm:p-6 space-y-4 custom-scrollbar";
+        if (imgWrapper) imgWrapper.className = "relative bg-black flex items-center justify-center overflow-hidden w-full md:w-1/2 lg:w-3/5 h-1/2 md:h-full shrink-0 border-b md:border-b-0 md:border-r border-cyan-500/20";
+        if (textWrapper) textWrapper.className = "w-full md:w-1/2 lg:w-2/5 h-1/2 md:h-full overflow-y-auto p-4 sm:p-6 space-y-4 custom-scrollbar";
       } else {
-        // MODE PAYSAGE : ~73% de hauteur réservée à l'image, texte défilant compact dessous
+        // MODE PAYSAGE : Superposé (2/3 image en haut, 1/3 texte en bas)
         if (layout) layout.className = "flex-1 flex flex-col overflow-hidden";
-        if (imgWrapper) imgWrapper.className = "relative bg-black flex items-center justify-center overflow-hidden w-full h-[65%] sm:h-[73%] 2xl:h-[75%] shrink-0 border-b border-cyan-500/20";
+        if (imgWrapper) imgWrapper.className = "relative bg-black flex items-center justify-center overflow-hidden w-full h-[62%] sm:h-[65%] shrink-0 border-b border-cyan-500/20";
         if (textWrapper) textWrapper.className = "flex-1 overflow-y-auto p-4 sm:p-6 space-y-4 custom-scrollbar";
       }
     };
