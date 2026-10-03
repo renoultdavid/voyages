@@ -94,6 +94,31 @@ const COUNTRY_SUBDIV_TOTALS = {
 
 const travelSpots = [
   {
+    id: "asco_station_du_haut_asco",
+    name: "Asco - Station de Ski du Haut-Asco (Stazzona d'Ascu)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Corse",
+    department: "Haute-Corse",
+    subdiv: "Asco",
+    altitude: 1422,
+    is_island: true,
+    island_name: "Corse",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Bout du monde d'altitude dominé par les géants de rhyolite du massif du Cinto",
+    century: "XXe siècle",
+    category: "star",
+    counts: { rando: 1 },
+    lat: 42.399916,
+    lng: 8.918855,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPSji_pjlY_1Haseb309DokWSbpdKj8n5jeCgWYknG7H3Z6kS_vAL8RQhyqLKVi-bpKYD2-ejAAPKbVtVmrUuCMNW02GKkEboeFYmxED4LpDHUGtyE7IXSz7dZ0Htr01YTqYuc821Q6iYbMrfxKMiVELA=w2918-h1946-s-no-gm?authuser=0",
+    description: "Niché au fond d'un cirque glaciaire grandiose et minéral à plus de mille quatre cents mètres d'altitude, le plateau du Haut-Asco (Stazzona) est le terminus spectaculaire de la vertigineuse route qui remonte les gorges encaissées de l'Asco. Dominé par la muraille vertigineuse du Monte Cinto — point culminant de la Corse s'élevant à 2 706 mètres — et par les arêtes déchiquetées de la pointe des Éboulis et du Capu Borba, ce site de haute montagne sauvage constitue une porte d'entrée majeure vers l'univers alpin insulaire. Ancienne station pionnière des sports d'hiver en Corse créée dans les années 1960 puis réhabilitée avec son téléski moderne et son espace d'apprentissage, le Haut-Asco est surtout mondialement célèbre auprès des passionnés de grande randonnée : c'est ici que fait escale le mythique sentier du GR20, servant de camp de base incontournable après le franchissement de la pointe des Éboulis qui a remplacé le franchissement historique du dangereux cirque de la Solitude. Le paysage, d'une rudesse austère et poétique, est composé d'éboulis de rhyolite pourpre, de névés tardifs et d'une forêt d'altitude de pins laricio centenaires aux troncs massifs tordus par les rigueurs du vent et de la neige.",
+    visiter: "Arriver par la route en lacets qui serpente le long du torrent pour déboucher sur le cirque sommital et embrasser d'un regard l'écrasante forteresse de pierre rouge du massif du Cinto. S'équiper pour une randonnée en suivant les balises blanches et rouges du GR20 qui grimpent hardiment vers la passerelle suspendue du vallon de Tighiettu ou s'engager sur la voie normale montant vers le sommet du Monte Cinto pour les montagnards chevronnés. Prendre le temps d'observer le vol majestueux du gypaète barbu et de l'aigle royal tournoyant au-dessus des crêtes escarpées, ou chercher les silhouettes agiles des mouflons corses sur les vires rocheuses supérieures. S'accorder une halte revigorante au refuge et gîte d'étape du Haut-Asco pour goûter à l'atmosphère chaleureuse des fins d'étapes alpines, avant de contempler au crépuscule les teintes embrasées du granite et de la roche volcanique s'éteignant sous le ciel étoilé de haute altitude.",
+    link: "https://photos.google.com/share/AF1QipOJpzCMLUGUygur3jLUW9WSl9TvdalRDGgg_gU5_5-sQAHBbi8yQJ7Zrwv5fNJM8Q?key=R1BrQUxnTnJWd3VxcjNTa3FId0J3U08zMFR6dFNB"
+  },
+   {
     id: "lucciana_embouchure_du_golo",
     name: "Lucciana - Embouchure du Golo & Cordon Lagunaire",
     country: "France",
