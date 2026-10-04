@@ -94,6 +94,31 @@ const COUNTRY_SUBDIV_TOTALS = {
 
 const travelSpots = [
   {
+    id: "barbaggio_monte_seccu",
+    name: "Barbaggio - Monte Seccu (Grand Site Conca d'Oru)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Corse",
+    department: "Haute-Corse",
+    subdiv: "Barbaggio",
+    altitude: 662,
+    is_island: true,
+    island_name: "Corse",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Belvédère panoramique sur les deux mers et sanctuaire botanique du chou insulaire",
+    century: "",
+    category: "star",
+    counts: { rando: 1 },
+    lat: 42.675675,
+    lng: 9.375731,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNhzdCyEomW3_tWupLFR69I2V-tg7nTwkkDqUUAndU-3L_i4D5f1BmWBJjKlYs5wWAd6SH5rz5fSCn3XpGFyGR8FXfduhU_E_Q51GgT2gOgjxg4BKCLREgCQ_88QkuM0q-NTvFVT5o_VoMSzYhkcoLHPQ=w1784-h1343-s-no-gm?authuser=0",
+    description: "Culminant à plus de six cents mètres d'altitude sur la ligne de crête schisteuse et calcaire reliant le col de Teghime au massif du Pigno, le Monte Seccu est un sommet emblématique dominant la cuvette fertile du Nebbio et le vignoble réputé de Patrimonio au cœur du Grand Site de France Conca d'Oru. Véritable vigie naturelle jetée entre l'est et l'ouest de l'île, ce relief escarpé offre une situation géographique exceptionnelle permettant d'embrasser simultanément les deux mers : la mer Tyrrhénienne baignant la plaine de la Marana et le port de Bastia d'un côté, et la Méditerranée ouvrant sur le golfe turquoise de Saint-Florent et les reliefs désertiques des Agriate de l'autre. Balayé par les vents marins et tapissé d'un maquis ras xérophile parsemé d'affleurements rocheux ruiniformes, le versant occidental du Monte Seccu est également un sanctuaire écologique protégé d'importance européenne (réseau Natura 2000), abritant l'une des très rares stations sauvages au monde de Brassica insularis (le chou insulaire), relique botanique endémique protégée accrochée aux falaises calcaires.",
+    visiter: "Gagner le point de départ au col de Teghime ou sur les hauteurs de Barbaggio pour s'engager sur le sentier de crête balisé remontant vers le Monte Seccu. Suivre la sente minérale qui serpente à travers les cistes, les immortelles d'Italie et les genévriers nains tout en profitant de belvédères naturels plongeant à pic sur le vignoble de Patrimonio et la plaine d'Oletta. Atteindre le cairn sommital pour jouir d'un panorama circulaire à 360 degrés d'une pureté saisissante : vers l'est, l'étang de Biguglia et l'archipel toscan (Capraia, Elbe) ; vers l'ouest, la citadelle génoise de Saint-Florent fermant son golfe étincelant et les crêtes déchiquetées du Monte Cinto et du Monte Padro fermant l'horizon montagnard. Privilégier la fin d'après-midi pour contempler le coucher de soleil embrasant le golfe et la mer de reflets dorés.",
+    link: ""
+  },
+   {
     id: "popolasca_castellu_di_serravalle",
     name: "Popolasca - Castellu di Serravalle",
     country: "France",
