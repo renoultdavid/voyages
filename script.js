@@ -94,6 +94,31 @@ const COUNTRY_SUBDIV_TOTALS = {
 
 const travelSpots = [
   {
+    id: "argelliers_eglise_saint_etienne",
+    name: "Argelliers - Église Saint-Étienne",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Occitanie",
+    department: "Hérault",
+    subdiv: "Argelliers",
+    altitude: 243,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medieval",
+    era_label: "Sanctuaire roman du XIIe siècle de la haute garrigue couronné d'un clocher-beffroi à campanile",
+    century: "XIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 43.697276,
+    lng: 3.673922,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOlzf4PeQLsZeClUs5zWAZs1slBBX1YRFu8k5i0TzOavhz4EO8j5N6e7IO07CQ_sZNrAzX3eSMHBKgIfNp5zhZRxXJw7SCOg9tkvyRsuxR-xNyrFOR2MQpDSNwIcWqtQyBZTVPHwE0ygxwPqeWAC7UHCw=w1611-h2416-s-no-gm?authuser=0",
+    description: "Dressant sa fière silhouette de calcaire au cœur d'un village médiéval lové au creux des garrigues et des chênaies du causse de la Selle, l'église paroissiale Saint-Étienne d'Argelliers est un précieux témoin de l'art roman languedocien. Mentionnée dès le XIIe siècle comme possession spirituelle dépendant de la prestigieuse abbaye bénédictine de Saint-Sauveur d'Aniane, elle fut intégrée au réseau défensif de la communauté lors des troubles de la guerre de Cent Ans et des guerres de Religion. Bâtie en moellons de calcaire blanc coquillier soigneusement équarris et appareillés, l'église présente une nef unique voûtée en berceau brisé épaulée de puissants contreforts et prolongée par une abside semi-circulaire romane. Elle est dominée par un haut clocher-tour quadrangulaire aux allures de beffroi fortifié, percé de baies campanaires en plein cintre et coiffé d'un ravissant campanile en fer forgé méridional ajouré qui permettait aux cloches de sonner tout en offrant une prise minimale aux violentes rafales de tramontane.",
+    visiter: "S'arrêter sur la place ombragée du village pour admirer l'harmonieuse façade minérale et la verticalité du clocher roman surmonté de sa cage en fer forgé ouvragé. Franchir le portail d'entrée pour ressentir la fraîcheur bienfaisante des épais murs de calcaire et apprécier la pureté des lignes de la nef romane couverte de son berceau de pierre. Découvrir dans le chœur le cul-de-four de l'abside éclairé par d'étroites fenêtres en meurtrières ainsi que le mobilier de dévotion paroissiale, avant de flâner dans les ruelles caladées adjacentes bordées de maisons vigneronnes en pierre sèche et d'anciennes fontaines de village.",
+    link: ""
+  },
+   {
     id: "laroque_vue_sur_l_herault",
     name: "Laroque - Belvédère & Vue sur les Méandres de l'Hérault",
     country: "France",
