@@ -109,7 +109,7 @@ const travelSpots = [
     era_group: "nature",
     era_label: "Sentinelle calcaire tutélaire de l'Hérault et belvédère mythique entre Cévennes et Méditerranée",
     century: "",
-    category: "star",
+    category: "rando",
     counts: { rando: 1 },
     lat: 43.779167,
     lng: 3.811371,
