@@ -94,6 +94,31 @@ const COUNTRY_SUBDIV_TOTALS = {
 
 const travelSpots = [
   {
+    id: "paris_fondation_louis_vuitton",
+    name: "Paris - Fondation Louis Vuitton (Bois de Boulogne)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Île-de-France",
+    department: "Paris",
+    subdiv: "Paris 16e",
+    altitude: 34,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Vaisseau de verre et chef-d'œuvre déconstructiviste de Frank Gehry inauguré en 2014",
+    century: "XXIe siècle",
+    category: "musee",
+    counts: {},
+    lat: 48.876778,
+    lng: 2.263453,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP0X1U6tYs4MG6WFyysVuqN3j74L8CsnPQiKHO2yXcq3Xe1lO54oodrwRVeAgXBZ4tCzyBuYPdrBy4HuVjxIlWmVuZQlTGSexzk3lO6nTix1lbKudmOZnNURKelAMZgO7Cmc3b9OnNA6jXH3XP2HYc6sA=w1379-h919-s-no-gm?authuser=0",
+    description: "Amarré en lisière du bois de Boulogne et du jardin d'Acclimatation dans le 16e arrondissement de Paris, l'édifice de la Fondation Louis Vuitton est un exploit architectural et un temple international dédié à la création contemporaine. Conçu par l'architecte américano-canadien Frank Gehry et inauguré en octobre 2014 à l'initiative de Bernard Arnault, le bâtiment évoque un immense navire futuriste aux voiles gonflées par le vent, dialoguant avec la tradition des architectures de verre des jardins du XIXe siècle. La structure se compose d'un assemblage audacieux de douze immenses voiles de verre totalisant plus de treize mille cinq cents mètres carrés de surface courbée, portées par une ossature hybride d'acier et de bois de mélèze. Sous ces verrières translucides s'abritent les volumes compacts d'un « iceberg » revêtu de dix-neuf mille panneaux de béton ultra-haute performance blanc (Ductal), abritant onze galeries d'exposition modulables réparties sur trois niveaux ainsi qu'un auditorium d'exception. Haut lieu muséal parisien, la fondation accueille des expositions temporaires d'envergure mondiale confrontant les maîtres de l'art moderne (Schiele, Basquiat, Monet-Mitchell, Rothko) aux figures majeures de la scène contemporaine internationale.",
+    visiter: "Arriver par l'allée ombragée du bois de Boulogne pour contempler le reflet des voiles de verre ondulantes dans le bassin d'eau en cascade étagé au pied du bâtiment. Pénétrer dans le hall baigné de lumière naturelle pour débuter la visite des galeries intérieures consacrées aux grandes rétrospectives internationales et aux installations in situ monumentales (telles que l'installation lumineuse « Inside the horizon » d'Olafur Eliasson le long du bassin). Gravir les escaliers et passerelles suspendues pour accéder aux terrasses panoramiques étagées sous les voiles de verre, d'où se déploie une vue spectaculaire embrassant la cime des arbres du bois de Boulogne, les tours de La Défense et la silhouette de la tour Eiffel se détachant au-dessus de la canopée parisienne.",
+    link: "https://photos.google.com/u/0/share/AF1QipN06BoIewxOPodz_aFjBmlOvWEHUAvIfN39qF4PipgAOGHNnFVEcesnjhuflQT39w?hl=fr_CA&key=cEtvdVYzU2VYc0ZjSERicmlyOHIxM0laMVVkTTNB"
+  },
+   {
     id: "bonifacio_cala_genovese",
     name: "Bonifacio - Cala Genovese",
     country: "France",
