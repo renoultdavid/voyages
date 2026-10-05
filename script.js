@@ -94,6 +94,30 @@ const COUNTRY_SUBDIV_TOTALS = {
 
 const travelSpots = [
   {
+    id: "roche_d_oetre",
+    name: "La Roche d'Oëtre",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Normandie",
+    department: "Orne (61)",
+    subdiv: "Saint-Philbert-sur-Orne",
+    altitude: 162,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Belvédère Naturel & Gorge du Massif Armoricain",
+    century: "",
+    category: "star",
+    lat: 48.828,
+    lng: -0.3809,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNxrx_M-b_6RleOw9VflCdXk2W4dKWhjMrz2UQdBv6HLlff_nxWgI_zJWqFy0XA8_0ca5tdVpjoUK3V5vDjobt99kjx7sgGGZ2OBi6plLnwAat-fRQXFVqsVpSq4KFrRm7Fg6iKc8Fm30P6TSsenTwJrw=w1379-h919-s-no-gm?authuser=0",
+    description: "Perchée au cœur de la Suisse Normande sur les hauteurs de Saint-Philbert-sur-Orne, la Roche d'Oëtre constitue l'un des belvédères naturels les plus spectaculaires et abrupts de l'Ouest de la France. Ce monumental précipice rocheux en poudingue et grès armoricain domine vertigineusement de plus de cent dix-huit mètres le lit encaissé et sauvage de la Rouvre. Façonné par des centaines de millions d'années d'érosion fluviatile et de contraintes tectoniques, le site présente un profil tourmenté dont les corniches de pierre dessinent, selon l'angle de vue, les traits saisissants d'un gigantesque visage humain sculpté dans la roche. Classé pour son intérêt géologique et paysager d'exception, ce promontoire abrite des landes à bruyères et des pierriers xérothermiques où s'épanouit une flore rare adaptée aux conditions extrêmes, côtoyant une forêt de ravins dense et mystérieuse qui tapisse les flancs de la gorge.",
+    visiter: "S'avancer prudemment sur la plateforme sommitale sécurisée pour embrasser le panorama grandiose sur les méandres boisés de la vallée de la Rouvre et tenter de distinguer le fameux profil anthropomorphe sculpté dans la paroi rocheuse. Emprunter l'un des huit sentiers pédestres balisés qui partent de l'Espace d'accueil, notamment la boucle des Gorges ou le sentier des Corniches, pour descendre vers la rivière tumultueuse à travers des sous-bois tapissés de fougères et de rochers moussus. Prendre le temps d'observer la faune et la flore spécifiques des landes sèches d'altitude, puis visiter l'espace muséographique et les expositions temporaires consacrées à la géologie singulière et à l'histoire naturelle de la Suisse Normande.",
+    link: ""
+  },
+   {
     id: "sees_cathedrale_notre_dame",
     name: "Sées - Cathédrale Notre-Dame",
     country: "France",
