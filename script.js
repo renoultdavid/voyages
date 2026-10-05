@@ -10990,11 +10990,43 @@ function renderModalSpot(spot) {
     }
   }
 
-  // 2. Gestion intelligente de la photo et détection Paysage / Portrait
+  // 2. Gestion de l'album complet (lien externe)
+  const albumLink = document.getElementById('modal-album-link');
+  if (albumLink) {
+    if (spot.link && spot.link.trim() !== '') {
+      albumLink.href = spot.link;
+      albumLink.style.display = 'flex';
+    } else {
+      albumLink.style.display = 'none';
+    }
+  }
+
+  // 3. Initialisation de la galerie interne du spot
+  currentSpotGallery = [{ url: spot.image || '', caption: '' }];
+  if (Array.isArray(spot.gallery) && spot.gallery.length > 0) {
+    spot.gallery.forEach(item => {
+      if (item && item.url) currentSpotGallery.push(item);
+    });
+  }
+  currentSpotGalleryIndex = 0;
+  renderSpotGalleryImage();
+}
+
+// Variables d'état pour la galerie interne
+let currentSpotGallery = [];
+let currentSpotGalleryIndex = 0;
+
+// Rendu et affichage de l'image de la galerie (avec détection automatique Portrait / Paysage)
+function renderSpotGalleryImage() {
+  if (!currentSpotGallery.length) return;
+
+  const currentItem = currentSpotGallery[currentSpotGalleryIndex];
   const imgEl = document.getElementById('modal-image');
   const layout = document.getElementById('modal-body-layout');
   const imgWrapper = document.getElementById('modal-image-wrapper');
   const textWrapper = document.getElementById('modal-text-wrapper');
+  const counterEl = document.getElementById('modal-gallery-counter');
+  const captionEl = document.getElementById('modal-gallery-caption');
 
   if (imgEl) {
     imgEl.onload = function() {
@@ -11013,11 +11045,42 @@ function renderModalSpot(spot) {
       }
     };
 
-    imgEl.src = spot.image || '';
+    imgEl.src = currentItem.url;
+  }
+
+  // Gestion de l'indicateur de photos (ex: 2 / 4)
+  if (counterEl) {
+    if (currentSpotGallery.length > 1) {
+      counterEl.textContent = `${currentSpotGalleryIndex + 1} / ${currentSpotGallery.length}`;
+      counterEl.classList.remove('hidden');
+    } else {
+      counterEl.classList.add('hidden');
+    }
+  }
+
+  // Gestion du bandeau de légende sous la photo
+  if (captionEl) {
+    if (currentItem.caption && currentItem.caption.trim() !== '') {
+      captionEl.textContent = currentItem.caption;
+      captionEl.classList.remove('hidden');
+    } else {
+      captionEl.classList.add('hidden');
+    }
   }
 }
 
-// Navigation précédent / suivant
+// Navigation dans la galerie de photos
+function navigateSpotGallery(direction) {
+  if (currentSpotGallery.length > 1) {
+    currentSpotGalleryIndex = (currentSpotGalleryIndex + direction + currentSpotGallery.length) % currentSpotGallery.length;
+    renderSpotGalleryImage();
+  } else {
+    // Si une seule photo, la flèche passe au site suivant/précédent
+    navigateModalSpot(direction);
+  }
+}
+
+// Navigation d'un site à un autre
 function navigateModalSpot(direction) {
   if (!currentModalSpotList.length) return;
   activeModalIndex = (activeModalIndex + direction + currentModalSpotList.length) % currentModalSpotList.length;
@@ -11034,21 +11097,29 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('modal-btn-close')?.addEventListener('click', closePoiModalViewer);
   document.getElementById('modal-btn-prev')?.addEventListener('click', () => navigateModalSpot(-1));
   document.getElementById('modal-btn-next')?.addEventListener('click', () => navigateModalSpot(1));
-  document.getElementById('modal-arrow-left')?.addEventListener('click', () => navigateModalSpot(-1));
-  document.getElementById('modal-arrow-right')?.addEventListener('click', () => navigateModalSpot(1));
+
+  // Les flèches sur la photo naviguent dans la galerie (ou dans les sites si pas de galerie)
+  document.getElementById('modal-arrow-left')?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    navigateSpotGallery(-1);
+  });
+  document.getElementById('modal-arrow-right')?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    navigateSpotGallery(1);
+  });
 
   // Clic en dehors de la fenêtre pour fermer
   document.getElementById('poi-modal-viewer')?.addEventListener('click', (e) => {
     if (e.target.id === 'poi-modal-viewer') closePoiModalViewer();
   });
 
-  // Touches Clavier : Échap pour fermer, Flèches Gauche/Droite
+  // Touches Clavier : Échap pour fermer, Flèches Gauche/Droite pour les photos
   window.addEventListener('keydown', (e) => {
     const modal = document.getElementById('poi-modal-viewer');
     if (!modal || modal.classList.contains('hidden')) return;
 
     if (e.key === 'Escape') closePoiModalViewer();
-    if (e.key === 'ArrowLeft') navigateModalSpot(-1);
-    if (e.key === 'ArrowRight') navigateModalSpot(1);
+    if (e.key === 'ArrowLeft') navigateSpotGallery(-1);
+    if (e.key === 'ArrowRight') navigateSpotGallery(1);
   });
 });
