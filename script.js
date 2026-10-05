@@ -118,15 +118,15 @@ const travelSpots = [
     gallery: [
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczOpNfRuHAIU1i0_76cWz4iMdFFB8iC20EBxk4PSxs9mYoi_2MHaBmgAeyxSDL9VENNrV0HmJnAbPSsBxSUgOXvLMlKXRViuUo72FC--n6C16-a6t_E4VMhYk647acffPIJqwX_F_5zmrcEZ7nhcuY5CNg=w613-h919-s-no-gm?authuser=0",
-        caption: "La façade occidentale et ses deux imposantes flèches de pierre ajourées"
+        caption: "vue du portail"
       },
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczMBYC-VSG6q6jRsY-wR4JzUeuWgaijcijU64p4A0r3PrGLRPU3Vl0lNj8SX8i33G6EwI6KGWzF0kanOrXLlQiOo3XbWjcZRiwNpyQsqsk0CIe9rqZ92po0Mf0ZibCbL3nige4VdlKGYI1-5FR1Q2BQS5g=w1379-h919-s-no-gm?authuser=0",
-        caption: "Élévation de la nef gothique et détails sculptés des portails"
+        caption: "élévation de la nef gothique"
       },
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczO7EUFstwZdON0h_gFhWn-9V2GBGsjZ5ApTGMfhbaJWhLlH-YJOSQjoA6DBFkU8bnN0W_WBwlqER-j49_TnOcvqWnc3Q494F_u5lX1N6XxIdfzjrpAf5k1Vf_GNFIGfa67dbtUPw2nREsav-j6g-jGjcA=w1379-h919-s-no-gm?authuser=0",
-        caption: "Perspective d'ensemble sur le chevet et les arcs-boutants rayonnants"
+        caption: "autre vue de la nef"
       }
     ],
     description: "Siège épiscopal historique fondé au Ve siècle par saint Latuin au cœur de la campagne ornaise, la cathédrale Notre-Dame de Sées est l'un des sommets architecturaux du gothique normand des XIIIe et XIVe siècles. Érigée sur un sol marécageux instable qui a imposé aux bâtisseurs successifs des trésors d'audace technique et d'incessants renforts structurels, elle frappe d'emblée par l'élan vertical souverain de sa façade occidentale. Deux majestueuses flèches jumelles ajourées culminant à soixante-dix mètres d'altitude dominent les toitures de la petite cité ecclésiastique. L'intérieur déploie un contraste saisissant entre la nef du début du XIIIe siècle, rythmée par ses arcs brisés robustes caractéristiques de l'école normande, et le chœur rayonnant éblouissant de la fin du XIIIe siècle. Véritable cage de verre et de lumière conçue comme un reliquaire transparent, ce dernier s'illumine d'un exceptionnel ensemble de verrières d'origine mettant en scène les apôtres et les saints évêques sagéens.",
@@ -157,7 +157,7 @@ const travelSpots = [
     gallery: [
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczMQ6Dv7aQRH27tZOeIs5uvZXhkKgYZdAqbggXl_KFivmbQUhvSXBv4QapV8iIU9MqLkflVNOAmjB5vjlTIxgaweRQ9XRGun0shpeV42tCG6jqGqnrf1IO7zzwREOJTgqUlA-Bqn-uav3-qbPrptD2pMrQ=w1379-h919-s-no-gm?authuser=0",
-        caption: "Appareil en pierre de taille et modénatures gothiques du logis canonial"
+        caption: ""
       }
     ],
     description: "Adossée au flanc nord-est de la cathédrale, la chapelle canoniale constitue le cœur spirituel et communautaire des anciens bâtiments claustraux du chapitre de Sées. Fait rare dans l'Occident chrétien médiéval, le chapitre cathédral de Sées ne regroupait pas des clercs séculiers mais des chanoines réguliers suivant la stricte règle de saint Augustin, vivant en clôture sous les voûtes de leur prieuré canonial attenant au sanctuaire. Édifiée au XIIIe siècle à l'apogée du chantier cathédral, la chapelle servait d'oratoire privé aux chanoines pour la récitation des offices des heures et les assemblées capitulaires. Bâtie en pierre calcaire blanche de Caen et en grès local, elle offre un volume sobre et élégant, percé de baies en arc brisé et soutenu par des contreforts réguliers, rappelant l'organisation monastique qui régissait autrefois la vie liturgique et temporelle du diocèse de Sées.",
