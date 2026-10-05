@@ -49,7 +49,12 @@ const CHRONOLOGICAL_CENTURIES = [
   "XXe siècle",
   "XXIe siècle"
 ];
-
+/* =========================================================================
+   Fusion des données POI (Volume 1 + Volume 2)
+   ========================================================================= */
+if (typeof SPOTS_2 !== 'undefined' && Array.isArray(SPOTS_2)) {
+  travelSpots.push(...SPOTS_2);
+}
 /* =========================================================================
    Logique d'affichage, Globe 3D, Leaflet, Modales & Filtres
    ========================================================================= */
