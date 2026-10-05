@@ -10994,7 +10994,19 @@ function renderModalSpot(spot) {
   const albumLink = document.getElementById('modal-album-link');
   if (albumLink) {
     if (spot.link && spot.link.trim() !== '') {
-      albumLink.href = spot.link;
+      albumif (link) {
+    if (spot.link && spot.link.trim() !== '') {
+      link.href = spot.link;
+      link.target = "_blank";
+      link.className = "py-1.5 xl:py-2 px-2.5 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[10px] xl:text-xs font-semibold flex items-center justify-center gap-1.5 shadow transition cursor-pointer";
+      link.onclick = null;
+    } else {
+      // Aucun album : bouton grisé, non cliquable, pas de rechargement vers le globe
+      link.removeAttribute('href');
+      link.className = "py-1.5 xl:py-2 px-2.5 rounded-lg bg-slate-800/60 border border-slate-700/50 text-slate-500 text-[10px] xl:text-xs font-semibold flex items-center justify-center gap-1.5 cursor-not-allowed opacity-60";
+      link.onclick = (e) => e.preventDefault();
+    }
+  }
       albumLink.style.display = 'flex';
     } else {
       albumLink.style.display = 'none';
@@ -11027,6 +11039,8 @@ function renderSpotGalleryImage() {
   const textWrapper = document.getElementById('modal-text-wrapper');
   const counterEl = document.getElementById('modal-gallery-counter');
   const captionEl = document.getElementById('modal-gallery-caption');
+  const arrowLeft = document.getElementById('modal-arrow-left');
+  const arrowRight = document.getElementById('modal-arrow-right');
 
   if (imgEl) {
     imgEl.onload = function() {
@@ -11048,9 +11062,14 @@ function renderSpotGalleryImage() {
     imgEl.src = currentItem.url;
   }
 
-  // Gestion de l'indicateur de photos (ex: 2 / 4)
+  // Affichage STRICT des commandes de galerie UNIQUEMENT si au moins 2 photos
+  const hasMultiplePhotos = currentSpotGallery.length > 1;
+
+  if (arrowLeft) arrowLeft.style.display = hasMultiplePhotos ? 'flex' : 'none';
+  if (arrowRight) arrowRight.style.display = hasMultiplePhotos ? 'flex' : 'none';
+
   if (counterEl) {
-    if (currentSpotGallery.length > 1) {
+    if (hasMultiplePhotos) {
       counterEl.textContent = `${currentSpotGalleryIndex + 1} / ${currentSpotGallery.length}`;
       counterEl.classList.remove('hidden');
     } else {
@@ -11069,14 +11088,11 @@ function renderSpotGalleryImage() {
   }
 }
 
-// Navigation dans la galerie de photos
+// Navigation dans la galerie de photos (active SEULEMENT si plusieurs photos)
 function navigateSpotGallery(direction) {
   if (currentSpotGallery.length > 1) {
     currentSpotGalleryIndex = (currentSpotGalleryIndex + direction + currentSpotGallery.length) % currentSpotGallery.length;
     renderSpotGalleryImage();
-  } else {
-    // Si une seule photo, la flèche passe au site suivant/précédent
-    navigateModalSpot(direction);
   }
 }
 
