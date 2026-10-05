@@ -10359,7 +10359,18 @@ function selectSpot(spot) {
   location.querySelector('span').innerText = `${spot.lat.toFixed(4)}°N, ${spot.lng.toFixed(4)}°E (${spot.altitude > 0 ? '+' : ''}${spot.altitude} m)`;
   desc.innerText = spot.description;
   visiter.innerText = spot.visiter || "Aucun détail complémentaire renseigné pour ce site.";
-  link.href = spot.link;
+  if (link) {
+    if (spot.link && spot.link.trim() !== '') {
+      link.href = spot.link;
+      link.target = "_blank";
+      link.className = "py-1.5 xl:py-2 px-2.5 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[10px] xl:text-xs font-semibold flex items-center justify-center gap-1.5 shadow transition cursor-pointer";
+      link.onclick = null;
+    } else {
+      link.removeAttribute('href');
+      link.className = "py-1.5 xl:py-2 px-2.5 rounded-lg bg-slate-800/60 border border-slate-700/50 text-slate-500 text-[10px] xl:text-xs font-semibold flex items-center justify-center gap-1.5 cursor-not-allowed opacity-60";
+      link.onclick = (e) => e.preventDefault();
+    }
+  }
 
   if (gmapsLink) {
     gmapsLink.href = `https://www.google.com/maps/search/?api=1&query=${spot.lat},${spot.lng}`;
