@@ -94,6 +94,76 @@ const COUNTRY_SUBDIV_TOTALS = {
 
 const travelSpots = [
   {
+    id: "sees_cathedrale_notre_dame",
+    name: "Sées - Cathédrale Notre-Dame",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Normandie",
+    department: "Orne",
+    subdiv: "Sées",
+    altitude: 184,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medieval",
+    era_label: "Joyau du gothique normand des XIIIe et XIVe siècles aux flèches jumelles élancées",
+    century: "XIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 48.605343,
+    lng: 0.172141,
+    image: "https://photos.fife.usercontent.google.com/pw/AP1GczMc2jlveHMKLlJOhXu1o7TFuOhWj5LdFnntEsZacFQFgQCYLvxyLv2SZQ=w1379-h919-s-no-gm?authuser=0",
+    link: "",
+    gallery: [
+      {
+        url: "https://photos.fife.usercontent.google.com/pw/AP1GczPfVnk0XlSbfTkDtV0uVOSq-PyF3Mm-evH_-BQWBEgN4YllTb1Gcea58A=w613-h919-s-no-gm?authuser=0",
+        caption: "La façade occidentale et ses deux imposantes flèches de pierre ajourées"
+      },
+      {
+        url: "https://photos.fife.usercontent.google.com/pw/AP1GczMQi1wbTvTIaYubodOJE9x-en6ZJgiRkv-hZShEVdUXYTYXwf4--V5N2Q=w613-h919-s-no-gm?authuser=0",
+        caption: "Élévation de la nef gothique et détails sculptés des portails"
+      },
+      {
+        url: "https://photos.fife.usercontent.google.com/pw/AP1GczNlaNCb3QhVWfxqpfq3gv_34nzu7r3wEL1G0vDRw6MorUV0wWc6wem4SQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "Perspective d'ensemble sur le chevet et les arcs-boutants rayonnants"
+      }
+    ],
+    description: "Siège épiscopal historique fondé au Ve siècle par saint Latuin au cœur de la campagne ornaise, la cathédrale Notre-Dame de Sées est l'un des sommets architecturaux du gothique normand des XIIIe et XIVe siècles. Érigée sur un sol marécageux instable qui a imposé aux bâtisseurs successifs des trésors d'audace technique et d'incessants renforts structurels, elle frappe d'emblée par l'élan vertical souverain de sa façade occidentale. Deux majestueuses flèches jumelles ajourées culminant à soixante-dix mètres d'altitude dominent les toitures de la petite cité ecclésiastique. L'intérieur déploie un contraste saisissant entre la nef du début du XIIIe siècle, rythmée par ses arcs brisés robustes caractéristiques de l'école normande, et le chœur rayonnant éblouissant de la fin du XIIIe siècle. Véritable cage de verre et de lumière conçue comme un reliquaire transparent, ce dernier s'illumine d'un exceptionnel ensemble de verrières d'origine mettant en scène les apôtres et les saints évêques sagéens.",
+    visiter: "Arriver par la place du Général-de-Gaulle pour prendre la mesure de la masse imposante de la façade et de l'envolée symétrique des deux flèches gothiques. Franchir le portail central pour être saisi par la clarté spectaculaire qui inonde la croisée du transept et le chœur rayonnant, où les fines piles fasciculées semblent s'effacer au profit des vitraux des XIIIe et XIVe siècles. Prendre le temps d'observer les grandes rosaces du transept et les bas-reliefs sculptés du maître-autel en marbre avant de contourner l'édifice par le déambulatoire extérieur pour admirer le jeu savant des culées et des arcs-boutants à double volée."
+  },
+  {
+    id: "sees_chapelle_canoniale",
+    name: "Sées - Chapelle Canoniale (Ancien Logis des Chanoines)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Normandie",
+    department: "Orne",
+    subdiv: "Sées",
+    altitude: 184,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medieval",
+    era_label: "Ensemble claustral médiéval du chapitre cathédral de chanoines réguliers de saint Augustin",
+    century: "XIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 48.605736,
+    lng: 0.172446,
+    image: "https://photos.fife.usercontent.google.com/pw/AP1GczMoqkjQPw7Ey4RW0gzx2IDiJTdlXffwfuYBU1bSMyRUOAyFpKo4An72sg=w1379-h919-s-no-gm?authuser=0",
+    link: "",
+    gallery: [
+      {
+        url: "https://photos.fife.usercontent.google.com/pw/AP1GczPWZjpesMgpY_NvsvHLsFeE1sIHMqxga3dfcjEszxfrb-SnkZesfyVdjQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "Appareil en pierre de taille et modénatures gothiques du logis canonial"
+      }
+    ],
+    description: "Adossée au flanc nord-est de la cathédrale, la chapelle canoniale constitue le cœur spirituel et communautaire des anciens bâtiments claustraux du chapitre de Sées. Fait rare dans l'Occident chrétien médiéval, le chapitre cathédral de Sées ne regroupait pas des clercs séculiers mais des chanoines réguliers suivant la stricte règle de saint Augustin, vivant en clôture sous les voûtes de leur prieuré canonial attenant au sanctuaire. Édifiée au XIIIe siècle à l'apogée du chantier cathédral, la chapelle servait d'oratoire privé aux chanoines pour la récitation des offices des heures et les assemblées capitulaires. Bâtie en pierre calcaire blanche de Caen et en grès local, elle offre un volume sobre et élégant, percé de baies en arc brisé et soutenu par des contreforts réguliers, rappelant l'organisation monastique qui régissait autrefois la vie liturgique et temporelle du diocèse de Sées.",
+    visiter: "Rejoindre l'enclos canonial au nord du chevet de la cathédrale pour découvrir ces bâtiments médiévaux préservés de la foule. Observer l'appareillage soigné des maçonneries du XIIIe siècle et l'articulation directe de la chapelle avec les anciens logis claustraux. Profiter du calme monastique de cette cour intérieure pavée, qui offre un point de vue dérobé et privilégié sur la forêt d'arcs-boutants du chœur de la cathédrale se dressant juste au-dessus des toitures en ardoise."
+  },
+   {
     id: "paris_fondation_louis_vuitton",
     name: "Paris - Fondation Louis Vuitton (Bois de Boulogne)",
     country: "France",
