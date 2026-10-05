@@ -118,39 +118,19 @@
         <div id="quick-search-results" class="glass-panel absolute top-full right-0 mt-2 w-64 sm:w-72 rounded-2xl p-1.5 shadow-2xl hidden z-50 max-h-64 overflow-y-auto custom-scrollbar border border-cyan-500/40"></div>
       </div>
 
+      <!-- Bouton Moteur de recherche & Galerie -->
       <div class="relative">
-        <button id="btn-popup-home" onclick="togglePopup('modal-home', event)" class="glass-panel w-8 h-8 sm:w-9 sm:h-9 rounded-2xl flex items-center justify-center text-amber-400 hover:text-white hover:border-amber-400/70 transition shadow" title="Base Castellare & Boussole des Extrêmes">
-          <i class="fa-solid fa-award text-xs"></i>
-        </button>
-      </div>
-
-      <div class="relative">
-        <button id="btn-popup-territories" onclick="togglePopup('modal-territories', event)" class="glass-panel w-8 h-8 sm:w-9 sm:h-9 rounded-2xl flex items-center justify-center text-blue-400 hover:text-white hover:border-blue-400/70 transition shadow" title="Baromètre Mondial ONU & Subdivisions Territoriales">
-          <i class="fa-solid fa-earth-americas text-xs"></i>
-        </button>
-      </div>
-
-      <div class="relative">
-        <button id="btn-popup-advanced" onclick="togglePopup('modal-advanced', event)" class="glass-panel w-8 h-8 sm:w-9 sm:h-9 rounded-2xl flex items-center justify-center text-cyan-300 hover:text-white hover:border-cyan-400/70 transition shadow" title="Filtres Poussés Multi-Critères (Cascade Géographique, Siècle, Catégorie, Îles, UNESCO)">
+        <button id="btn-popup-advanced" onclick="togglePopup('modal-advanced', event)" class="glass-panel w-8 h-8 sm:w-9 sm:h-9 rounded-2xl flex items-center justify-center text-cyan-300 hover:text-white hover:border-cyan-400/70 transition shadow" title="Moteur de Recherche & Galerie Visuelle">
           <i class="fa-solid fa-sliders text-xs"></i>
         </button>
       </div>
 
+      <!-- Nouveau Bouton Tableau de Bord Statistiques Pleine Page -->
       <div class="relative">
-        <button id="btn-popup-altitude" onclick="togglePopup('modal-altitude', event)" class="glass-panel w-8 h-8 sm:w-9 sm:h-9 rounded-2xl flex items-center justify-center text-emerald-400 hover:text-white hover:border-emerald-400/70 transition shadow" title="Altimètre des Extrêmes & Terre Insulaire vs Continent">
-          <i class="fa-solid fa-mountain-sun text-xs"></i>
+        <button onclick="toggleStatisticsDashboard()" class="glass-panel w-8 h-8 sm:w-9 sm:h-9 rounded-2xl flex items-center justify-center text-cyan-400 hover:text-white hover:border-cyan-400/70 transition shadow" title="Tableau de Bord des Statistiques">
+          <i class="fa-solid fa-chart-pie text-xs"></i>
         </button>
       </div>
-
-      <div class="relative">
-        <button id="btn-popup-chrono" onclick="togglePopup('modal-chrono', event)" class="glass-panel w-8 h-8 sm:w-9 sm:h-9 rounded-2xl flex items-center justify-center text-indigo-300 hover:text-white hover:border-indigo-400/70 transition shadow" title="Chrono-Scope des Civilisations & UNESCO">
-          <i class="fa-solid fa-landmark text-xs"></i>
-        </button>
-      </div>
-
-      <button onclick="pickRandomDestination()" class="glass-panel w-8 h-8 sm:w-9 sm:h-9 rounded-2xl flex items-center justify-center text-cyan-300 hover:text-white hover:border-cyan-400/60 transition shadow" title="Destination au hasard (Surprise !)">
-        <span class="text-xs sm:text-sm">🎲</span>
-      </button>
 
       <button onclick="toggleFullScreen()" class="glass-panel w-8 h-8 sm:w-9 sm:h-9 rounded-2xl flex items-center justify-center text-slate-300 hover:text-cyan-300 transition shadow" title="Mode plein écran">
         <i id="fullscreen-icon" class="fa-solid fa-expand text-xs"></i>
@@ -158,109 +138,6 @@
     </div>
   </header>
 
-  <!-- MODAL 1 : BASE CASTELLARE & CAPS -->
-  <div id="modal-home" class="glass-panel-indigo absolute top-16 right-3 sm:right-16 z-50 w-72 sm:w-80 rounded-2xl p-3.5 shadow-2xl hidden border border-amber-500/50">
-    <div class="flex items-center justify-between pb-2 mb-2 border-b border-amber-500/30">
-      <div class="flex items-center gap-1.5 text-amber-200 text-xs font-bold uppercase tracking-wider">
-        <i class="fa-solid fa-house-chimney text-amber-400"></i>
-        <span>Base : Castellare-di-Casinca</span>
-      </div>
-      <button onclick="closeAllPopups()" class="text-slate-400 hover:text-white text-xs">
-        <i class="fa-solid fa-xmark"></i>
-      </button>
-    </div>
-    <div class="space-y-2 text-xs">
-      <div class="bg-amber-950/40 p-2.5 rounded-xl border border-amber-500/30">
-        <div class="text-[9px] uppercase font-bold text-amber-300 flex items-center justify-between">
-          <span><i class="fa-solid fa-paper-plane mr-1"></i> Plus lointain de Castellare</span>
-          <span id="stat-home-farthest-dist" class="font-mono text-amber-200 font-black text-xs">0 km</span>
-        </div>
-        <div id="stat-home-farthest-name" class="text-xs font-bold text-white mt-1 leading-snug"></div>
-      </div>
-      <div class="bg-slate-900/80 p-2.5 rounded-xl border border-slate-800 space-y-1.5">
-        <div class="text-[9px] uppercase font-bold text-indigo-300 tracking-wider">Boussole des Extrêmes</div>
-        <div class="grid grid-cols-2 gap-1.5">
-          <div class="bg-slate-950/70 p-1.5 rounded-lg border border-slate-800/80">
-            <div class="text-[8px] uppercase font-bold text-cyan-400 flex items-center gap-1">
-              <i class="fa-solid fa-arrow-up"></i> Cap Nord
-            </div>
-            <div id="stat-cardinal-north" class="text-[10px] font-semibold text-white mt-0.5 truncate"></div>
-          </div>
-          <div class="bg-slate-950/70 p-1.5 rounded-lg border border-slate-800/80">
-            <div class="text-[8px] uppercase font-bold text-rose-400 flex items-center gap-1">
-              <i class="fa-solid fa-arrow-down"></i> Cap Sud
-            </div>
-            <div id="stat-cardinal-south" class="text-[10px] font-semibold text-white mt-0.5 truncate"></div>
-          </div>
-          <div class="bg-slate-950/70 p-1.5 rounded-lg border border-slate-800/80">
-            <div class="text-[8px] uppercase font-bold text-emerald-400 flex items-center gap-1">
-              <i class="fa-solid fa-arrow-left"></i> Cap Ouest
-            </div>
-            <div id="stat-cardinal-west" class="text-[10px] font-semibold text-white mt-0.5 truncate"></div>
-          </div>
-          <div class="bg-slate-950/70 p-1.5 rounded-lg border border-slate-800/80">
-            <div class="text-[8px] uppercase font-bold text-amber-400 flex items-center gap-1">
-              <i class="fa-solid fa-arrow-right"></i> Cap Est
-            </div>
-            <div id="stat-cardinal-east" class="text-[10px] font-semibold text-white mt-0.5 truncate"></div>
-          </div>
-        </div>
-      </div>
-      <div class="bg-indigo-950/40 p-2 rounded-xl border border-indigo-500/30">
-        <div class="text-[9px] uppercase font-bold text-indigo-300 flex items-center justify-between">
-          <span><i class="fa-solid fa-arrows-left-right mr-1"></i> Envergure maximale</span>
-          <span id="stat-max-dist" class="font-mono text-cyan-300 font-extrabold text-[11px]">0 km</span>
-        </div>
-        <p id="stat-max-pair" class="text-[10px] text-slate-300 mt-0.5 leading-tight"></p>
-      </div>
-    </div>
-  </div>
-
-  <!-- MODAL 2 : BAROMÈTRE MONDIAL ONU & SUBDIVISIONS -->
-  <div id="modal-territories" class="glass-panel-indigo absolute top-16 right-3 sm:right-16 z-50 w-80 sm:w-96 rounded-2xl p-3.5 shadow-2xl hidden border border-blue-500/50">
-    <div class="flex items-center justify-between pb-2 mb-2 border-b border-blue-500/30">
-      <div class="flex items-center gap-1.5 text-blue-200 text-xs font-bold uppercase tracking-wider">
-        <i class="fa-solid fa-earth-americas text-blue-400"></i>
-        <span>Monde & Subdivisions</span>
-      </div>
-      <button onclick="closeAllPopups()" class="text-slate-400 hover:text-white text-xs">
-        <i class="fa-solid fa-xmark"></i>
-      </button>
-    </div>
-    <div class="flex items-center gap-1 bg-slate-900/80 p-1 rounded-xl mb-2.5 border border-slate-800">
-      <button id="tab-btn-world" onclick="switchTerritoryTab('world')" class="flex-1 py-1 rounded-lg text-[10px] font-bold transition bg-blue-600 text-white shadow">
-        🌍 Monde ONU & Continents
-      </button>
-      <button id="tab-btn-subdiv" onclick="switchTerritoryTab('subdiv')" class="flex-1 py-1 rounded-lg text-[10px] font-bold transition text-slate-400 hover:text-white">
-        🏛️ Subdivisions & Régions
-      </button>
-    </div>
-    <div id="tab-content-world" class="space-y-2 text-xs">
-      <div class="bg-blue-950/50 p-2.5 rounded-xl border border-blue-500/30">
-        <div class="flex items-center justify-between">
-          <span class="text-[9px] uppercase font-bold text-blue-300">🌍 Accomplissement Planétaire ONU</span>
-          <span id="stat-onu-fraction" class="font-mono text-blue-200 font-black text-xs">2 / 195 pays</span>
-        </div>
-        <div class="w-full bg-slate-800 rounded-full h-1.5 overflow-hidden mt-1.5">
-          <div id="stat-onu-bar" class="bg-gradient-to-r from-blue-500 to-cyan-400 h-full rounded-full transition-all duration-300" style="width: 1.03%;"></div>
-        </div>
-        <div class="text-[9px] text-slate-400 mt-1 flex justify-between">
-          <span>Terre débloquée</span>
-          <span id="stat-onu-pct" class="font-bold text-cyan-300">1,03%</span>
-        </div>
-      </div>
-      <div class="bg-slate-900/80 p-2 rounded-xl border border-slate-800 space-y-1.5">
-        <div class="text-[9px] uppercase font-bold text-indigo-300 tracking-wider">Pénétration par Continents</div>
-        <div id="stat-continents-container" class="space-y-1.5"></div>
-      </div>
-    </div>
-    <div id="tab-content-subdiv" class="space-y-2 text-xs hidden">
-      <div class="text-[9px] text-slate-400 leading-tight">
-        Taux d'exploration des maillages administratifs officiels de premier ordre.
-      </div>
-      <div id="stat-subdivisions-list" class="space-y-2 max-h-64 overflow-y-auto custom-scrollbar-indigo pr-1"></div>
-    </div>
-  </div>
 
   <!-- MODAL 3 : FILTRE POUSSÉ MULTI-CRITÈRES PANORAMIQUE & MOSAÏQUE -->
   <div id="modal-advanced" class="glass-panel-indigo absolute top-16 left-3 sm:left-56 right-3 sm:right-6 z-50 rounded-2xl p-4 shadow-2xl hidden border border-cyan-500/50 max-h-[calc(100vh-5rem)] flex flex-col">
@@ -358,80 +235,228 @@
     </div>
   </div>
 
-  <!-- MODAL 4 : ALTIMÈTRE DES EXTRÊMES & ÎLES -->
-  <div id="modal-altitude" class="glass-panel-indigo absolute top-16 right-3 sm:right-16 z-50 w-72 sm:w-80 rounded-2xl p-3.5 shadow-2xl hidden border border-emerald-500/50">
-    <div class="flex items-center justify-between pb-2 mb-2 border-b border-emerald-500/30">
-      <div class="flex items-center gap-1.5 text-emerald-200 text-xs font-bold uppercase tracking-wider">
-        <i class="fa-solid fa-mountain-sun text-emerald-400"></i>
-        <span>Altimètre & Îles</span>
+  <!-- TABLEAU DE BORD STATISTIQUES PLEINE PAGE (FENÊTRES IDENTIQUES AVEC ASCENSEURS) -->
+  <div id="statistics-dashboard-modal" class="fixed inset-0 z-[9999] bg-slate-950/90 backdrop-blur-md hidden flex flex-col p-4 md:p-6 overflow-hidden">
+    
+    <!-- En-tête du tableau de bord -->
+    <div class="flex items-center justify-between pb-3 mb-2 border-b border-slate-800 shrink-0">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 shadow-lg">
+          <i class="fa-solid fa-chart-pie text-base"></i>
+        </div>
+        <div>
+          <h2 class="text-base font-black text-white tracking-wide uppercase font-mono">Tableau de Bord des Voyages</h2>
+          <p class="text-xs text-slate-400">Statistiques globales, géographie, patrimoine et chronologie</p>
+        </div>
       </div>
-      <button onclick="closeAllPopups()" class="text-slate-400 hover:text-white text-xs">
-        <i class="fa-solid fa-xmark"></i>
+      <button onclick="toggleStatisticsDashboard()" class="w-9 h-9 rounded-2xl bg-slate-900 border border-slate-700 hover:border-rose-500 text-slate-400 hover:text-rose-400 flex items-center justify-center transition">
+        <i class="fa-solid fa-xmark text-sm"></i>
       </button>
     </div>
-    <div class="space-y-2 text-xs">
-      <div class="grid grid-cols-2 gap-1.5">
-        <div class="bg-slate-900/80 p-2 rounded-xl border border-slate-800">
-          <div class="text-[8px] uppercase font-bold text-emerald-400 flex items-center gap-1">
-            <i class="fa-solid fa-arrow-up-right-dots"></i> Zénith (Toit)
-          </div>
-          <div id="stat-alt-max-val" class="text-xs font-black text-white font-mono mt-0.5">0 m</div>
-          <div id="stat-alt-max-name" class="text-[9px] text-slate-300 truncate mt-0.5"></div>
-        </div>
-        <div class="bg-slate-900/80 p-2 rounded-xl border border-slate-800">
-          <div class="text-[8px] uppercase font-bold text-cyan-400 flex items-center gap-1">
-            <i class="fa-solid fa-water"></i> Nadir (Plancher)
-          </div>
-          <div id="stat-alt-min-val" class="text-xs font-black text-white font-mono mt-0.5">0 m</div>
-          <div id="stat-alt-min-name" class="text-[9px] text-slate-300 truncate mt-0.5"></div>
-        </div>
-      </div>
-      <div class="bg-emerald-950/40 p-2 rounded-xl border border-emerald-500/30 flex items-center justify-between">
-        <div>
-          <div class="text-[9px] uppercase font-bold text-emerald-300">Amplitude Verticale Conquise</div>
-          <div class="text-[9px] text-slate-400">Du fond récifal aux crêtes montagnardes</div>
-        </div>
-        <span id="stat-alt-amplitude" class="font-mono text-emerald-200 font-black text-xs">0 m</span>
-      </div>
-      <div class="bg-slate-900/80 p-2 rounded-xl border border-slate-800 space-y-1">
-        <div class="flex justify-between items-center text-[9px] font-bold">
-          <span class="text-cyan-300"><i class="fa-solid fa-anchor mr-1"></i> Terres Insulaires : <span id="stat-islands-pct">0%</span></span>
-          <span class="text-amber-300">Continent : <span id="stat-mainland-pct">0%</span> <i class="fa-solid fa-earth-europe ml-1"></i></span>
-        </div>
-        <div class="w-full bg-slate-800 rounded-full h-1.5 overflow-hidden flex">
-          <div id="stat-bar-islands" class="bg-cyan-500 h-full transition-all duration-300" style="width: 50%;"></div>
-          <div id="stat-bar-mainland" class="bg-amber-600 h-full transition-all duration-300" style="width: 50%;"></div>
-        </div>
-        <div id="stat-islands-note" class="text-[9px] text-slate-400 italic mt-0.5"></div>
-      </div>
-    </div>
-  </div>
 
-  <!-- MODAL 5 : CHRONO-SCOPE & UNESCO -->
-  <div id="modal-chrono" class="glass-panel-indigo absolute top-16 right-3 sm:right-16 z-50 w-72 sm:w-80 rounded-2xl p-3.5 shadow-2xl hidden border border-indigo-500/50">
-    <div class="flex items-center justify-between pb-2 mb-2 border-b border-indigo-500/30">
-      <div class="flex items-center gap-1.5 text-indigo-200 text-xs font-bold uppercase tracking-wider">
-        <i class="fa-solid fa-hourglass-half text-indigo-400"></i>
-        <span>Chrono-Scope & UNESCO</span>
-      </div>
-      <button onclick="closeAllPopups()" class="text-slate-400 hover:text-white text-xs">
-        <i class="fa-solid fa-xmark"></i>
-      </button>
-    </div>
-    <div class="space-y-2 text-xs">
-      <div class="bg-indigo-950/60 p-2 rounded-xl border border-indigo-500/30 flex items-center justify-between">
-        <div>
-          <div class="text-[9px] uppercase font-bold text-indigo-300">Trésors UNESCO Visités</div>
-          <div class="text-[9px] text-slate-400 mt-0.5"><span id="stat-unesco-count-val" class="font-bold text-indigo-200 font-mono">0</span> sites classés (<span id="stat-unesco-pct-val" class="font-bold text-indigo-200">0%</span> du carnet)</div>
+    <!-- Grille des fenêtres de statistiques de même taille -->
+   <!-- GRILLE COCKPIT SPATIAL DYNAMIQUE -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5 py-2 flex-1 min-h-0">
+      
+      <!-- CARTE 1 : BASE CASTELLARE & BOUSSOLE -->
+      <div class="bg-slate-900/90 border border-slate-800 rounded-2xl flex flex-col min-h-0 shadow-2xl relative overflow-hidden backdrop-blur-xl group hover:border-amber-500/40 transition">
+        <div class="absolute -top-12 -right-12 w-28 h-28 bg-amber-500/10 rounded-full blur-2xl pointer-events-none"></div>
+        <div class="p-3 border-b border-slate-800 bg-slate-950/60 flex items-center justify-between shrink-0">
+          <div class="flex items-center gap-2 text-amber-400">
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+            </span>
+            <i class="fa-solid fa-compass text-xs"></i>
+            <span class="text-xs font-black uppercase tracking-wider text-slate-200">Base Castellare & Boussole</span>
+          </div>
+          <span class="text-[9px] font-mono px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-300 border border-amber-500/20 font-bold">RADAR</span>
         </div>
-        <div class="w-8 h-8 rounded-xl bg-indigo-500/20 border border-indigo-500/40 flex items-center justify-center font-mono font-black text-indigo-300 text-xs">
-          🏛️
+        <div class="p-3.5 overflow-y-auto space-y-3 flex-1 custom-scrollbar-indigo text-xs">
+          <div class="bg-gradient-to-br from-amber-950/40 to-slate-950/80 p-3 rounded-xl border border-amber-500/30 shadow-inner">
+            <div class="flex items-center justify-between">
+              <span class="text-[9px] uppercase font-bold text-amber-300/90 flex items-center gap-1.5">
+                <i class="fa-solid fa-paper-plane text-amber-400"></i> Plus grand éloignement
+              </span>
+              <span id="stat-home-farthest-dist" class="font-mono text-amber-300 font-black text-sm tracking-tight drop-shadow-[0_0_8px_rgba(245,158,11,0.5)]">0 km</span>
+            </div>
+            <div id="stat-home-farthest-name" class="text-xs font-bold text-white mt-1.5 leading-snug truncate"></div>
+          </div>
+          <div class="bg-slate-950/70 p-3 rounded-xl border border-slate-800 space-y-2">
+            <div class="text-[9px] uppercase font-black text-indigo-300 tracking-wider flex items-center gap-1.5">
+              <i class="fa-solid fa-crosshairs text-indigo-400"></i> Points Cardinaux Extrêmes
+            </div>
+            <div class="grid grid-cols-2 gap-2">
+              <div class="bg-slate-900/90 p-2 rounded-lg border border-slate-800/80">
+                <div class="text-[9px] uppercase font-black text-cyan-400 flex items-center gap-1"><i class="fa-solid fa-arrow-up"></i> Cap Nord</div>
+                <div id="stat-cardinal-north" class="text-xs font-bold text-slate-100 mt-0.5 truncate"></div>
+              </div>
+              <div class="bg-slate-900/90 p-2 rounded-lg border border-slate-800/80">
+                <div class="text-[9px] uppercase font-black text-rose-400 flex items-center gap-1"><i class="fa-solid fa-arrow-down"></i> Cap Sud</div>
+                <div id="stat-cardinal-south" class="text-xs font-bold text-slate-100 mt-0.5 truncate"></div>
+              </div>
+              <div class="bg-slate-900/90 p-2 rounded-lg border border-slate-800/80">
+                <div class="text-[9px] uppercase font-black text-emerald-400 flex items-center gap-1"><i class="fa-solid fa-arrow-left"></i> Cap Ouest</div>
+                <div id="stat-cardinal-west" class="text-xs font-bold text-slate-100 mt-0.5 truncate"></div>
+              </div>
+              <div class="bg-slate-900/90 p-2 rounded-lg border border-slate-800/80">
+                <div class="text-[9px] uppercase font-black text-amber-400 flex items-center gap-1"><i class="fa-solid fa-arrow-right"></i> Cap Est</div>
+                <div id="stat-cardinal-east" class="text-xs font-bold text-slate-100 mt-0.5 truncate"></div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-indigo-950/30 p-2.5 rounded-xl border border-indigo-500/20 flex items-center justify-between">
+            <span class="text-[10px] uppercase font-bold text-indigo-300">Envergure Maximale</span>
+            <span id="stat-max-dist" class="font-mono text-cyan-300 font-black text-xs">0 km</span>
+          </div>
         </div>
       </div>
-      <div class="bg-slate-900/80 p-2.5 rounded-xl border border-slate-800 space-y-1.5">
-        <div class="text-[9px] uppercase font-bold text-slate-300 tracking-wider">Époques Traversées (+3 500 ans)</div>
-        <div id="stat-chrono-breakdown" class="space-y-1.5 max-h-48 overflow-y-auto custom-scrollbar-indigo pr-1"></div>
+
+      <!-- CARTE 2 : MONDE ONU & SUBDIVISIONS -->
+      <div class="bg-slate-900/90 border border-slate-800 rounded-2xl flex flex-col min-h-0 shadow-2xl relative overflow-hidden backdrop-blur-xl group hover:border-blue-500/40 transition">
+        <div class="absolute -top-12 -right-12 w-28 h-28 bg-blue-500/10 rounded-full blur-2xl pointer-events-none"></div>
+        <div class="p-3 border-b border-slate-800 bg-slate-950/60 flex items-center justify-between shrink-0">
+          <div class="flex items-center gap-2 text-blue-400">
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+            </span>
+            <i class="fa-solid fa-earth-americas text-xs"></i>
+            <span class="text-xs font-black uppercase tracking-wider text-slate-200">Monde ONU & Subdivisions</span>
+          </div>
+          <span id="stat-onu-fraction" class="text-xs font-mono font-black text-blue-300 bg-blue-950/80 border border-blue-500/30 px-2 py-0.5 rounded-lg">0 / 195</span>
+        </div>
+        <div class="p-3.5 overflow-y-auto space-y-3 flex-1 custom-scrollbar-indigo text-xs">
+          <div class="bg-gradient-to-r from-blue-950/40 to-cyan-950/30 p-3 rounded-xl border border-blue-500/30">
+            <div class="flex justify-between items-center text-[10px] font-bold text-slate-300 mb-1.5">
+              <span>Taux de couverture terrestre</span>
+              <span id="stat-onu-pct" class="font-mono text-cyan-300 font-extrabold text-xs">0%</span>
+            </div>
+            <div class="w-full bg-slate-950 rounded-full h-2.5 p-0.5 border border-slate-800">
+              <div id="stat-onu-bar" class="bg-gradient-to-r from-blue-500 via-cyan-400 to-emerald-400 h-full rounded-full shadow-[0_0_10px_#22d3ee] transition-all duration-500" style="width: 2%;"></div>
+            </div>
+          </div>
+          <div class="text-[10px] font-black uppercase tracking-wider text-slate-400 flex items-center gap-1.5 pt-1">
+            <i class="fa-solid fa-network-wired text-cyan-400"></i> Maillages territoriaux explorés
+          </div>
+          <div id="stat-subdivisions-list" class="space-y-2"></div>
+        </div>
       </div>
+
+      <!-- CARTE 3 : ALTIMÈTRE & PROFIL DU RELIEF -->
+      <div class="bg-slate-900/90 border border-slate-800 rounded-2xl flex flex-col min-h-0 shadow-2xl relative overflow-hidden backdrop-blur-xl group hover:border-emerald-500/40 transition">
+        <div class="absolute -top-12 -right-12 w-28 h-28 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none"></div>
+        <div class="p-3 border-b border-slate-800 bg-slate-950/60 flex items-center justify-between shrink-0">
+          <div class="flex items-center gap-2 text-emerald-400">
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+            </span>
+            <i class="fa-solid fa-mountain-sun text-xs"></i>
+            <span class="text-xs font-black uppercase tracking-wider text-slate-200">Altimètre & Relief</span>
+          </div>
+          <span class="text-[9px] font-mono px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 font-bold">ALTITUDE</span>
+        </div>
+        <div class="p-3.5 overflow-y-auto space-y-3 flex-1 custom-scrollbar-indigo text-xs">
+          <div class="grid grid-cols-2 gap-2.5">
+            <div class="bg-gradient-to-br from-slate-950 to-emerald-950/40 p-3 rounded-xl border border-emerald-500/30">
+              <div class="text-[9px] uppercase font-black text-emerald-400 flex items-center gap-1">
+                <i class="fa-solid fa-arrow-up-right-dots"></i> Zénith (Sommet)
+              </div>
+              <div id="stat-alt-max-val" class="text-base font-black text-emerald-300 font-mono mt-1 drop-shadow-[0_0_8px_rgba(52,211,153,0.4)]">0 m</div>
+              <div id="stat-alt-max-name" class="text-[10px] font-semibold text-slate-300 truncate mt-0.5"></div>
+            </div>
+            <div class="bg-gradient-to-br from-slate-950 to-cyan-950/40 p-3 rounded-xl border border-cyan-500/30">
+              <div class="text-[9px] uppercase font-black text-cyan-400 flex items-center gap-1">
+                <i class="fa-solid fa-water"></i> Nadir (Plancher)
+              </div>
+              <div id="stat-alt-min-val" class="text-base font-black text-cyan-300 font-mono mt-1 drop-shadow-[0_0_8px_rgba(34,211,238,0.4)]">0 m</div>
+              <div id="stat-alt-min-name" class="text-[10px] font-semibold text-slate-300 truncate mt-0.5"></div>
+            </div>
+          </div>
+          <div class="bg-slate-950/80 p-3 rounded-xl border border-slate-800 flex items-center justify-between">
+            <div>
+              <div class="text-[9px] uppercase font-bold text-slate-400">Amplitude Verticale Totale</div>
+              <div class="text-[10px] text-slate-500">Grand écart absolu conquis</div>
+            </div>
+            <span id="stat-alt-amplitude" class="font-mono text-emerald-300 font-black text-sm">0 m</span>
+          </div>
+          <div class="bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 space-y-2">
+            <div class="text-[9px] uppercase font-bold text-slate-400">Profil des étages explorés</div>
+            <div id="stat-alt-bars" class="space-y-1.5"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARTE 4 : TERRES INSULAIRES & ARCHIPELS -->
+      <div class="bg-slate-900/90 border border-slate-800 rounded-2xl flex flex-col min-h-0 shadow-2xl relative overflow-hidden backdrop-blur-xl group hover:border-cyan-500/40 transition">
+        <div class="absolute -top-12 -right-12 w-28 h-28 bg-cyan-500/10 rounded-full blur-2xl pointer-events-none"></div>
+        <div class="p-3 border-b border-slate-800 bg-slate-950/60 flex items-center justify-between shrink-0">
+          <div class="flex items-center gap-2 text-cyan-400">
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
+            </span>
+            <i class="fa-solid fa-anchor text-xs"></i>
+            <span class="text-xs font-black uppercase tracking-wider text-slate-200">Îles vs Continent</span>
+          </div>
+          <span class="text-[9px] font-mono px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-300 border border-cyan-500/20 font-bold">INSULAIRE</span>
+        </div>
+        <div class="p-3.5 overflow-y-auto space-y-3 flex-1 custom-scrollbar-indigo text-xs">
+          <div class="bg-slate-950/70 p-3 rounded-xl border border-slate-800 space-y-2">
+            <div class="flex justify-between items-center text-xs font-bold">
+              <span class="text-cyan-300 flex items-center gap-1.5"><i class="fa-solid fa-anchor text-xs"></i> Îles : <strong id="stat-islands-pct" class="font-mono text-sm">0%</strong></span>
+              <span class="text-amber-400 flex items-center gap-1.5">Continent : <strong id="stat-mainland-pct" class="font-mono text-sm">0%</strong> <i class="fa-solid fa-earth-europe text-xs"></i></span>
+            </div>
+            <div class="w-full bg-slate-900 rounded-full h-3 overflow-hidden flex border border-slate-800 p-0.5">
+              <div id="stat-bar-islands" class="bg-gradient-to-r from-cyan-500 to-blue-500 h-full rounded-l-full transition-all duration-500 shadow-[0_0_10px_#22d3ee]" style="width: 50%;"></div>
+              <div id="stat-bar-mainland" class="bg-gradient-to-r from-amber-600 to-orange-500 h-full rounded-r-full transition-all duration-500" style="width: 50%;"></div>
+            </div>
+            <div id="stat-islands-note" class="text-[10px] text-slate-400 italic text-center pt-0.5"></div>
+          </div>
+          <div class="text-[10px] font-black uppercase tracking-wider text-slate-400 flex items-center gap-1.5 pt-1">
+            <i class="fa-solid fa-water text-cyan-400"></i> Îles explorées & Densité de POI
+          </div>
+          <div id="stat-islands-breakdown" class="space-y-1.5"></div>
+        </div>
+      </div>
+
+      <!-- CARTE 5 : RECORDS & DISTINCTIONS DU CARNET -->
+      <div class="bg-slate-900/90 border border-slate-800 rounded-2xl flex flex-col min-h-0 shadow-2xl relative overflow-hidden backdrop-blur-xl group hover:border-yellow-500/40 transition">
+        <div class="absolute -top-12 -right-12 w-28 h-28 bg-yellow-500/10 rounded-full blur-2xl pointer-events-none"></div>
+        <div class="p-3 border-b border-slate-800 bg-slate-950/60 flex items-center justify-between shrink-0">
+          <div class="flex items-center gap-2 text-yellow-400">
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-yellow-500"></span>
+            </span>
+            <i class="fa-solid fa-trophy text-xs"></i>
+            <span class="text-xs font-black uppercase tracking-wider text-slate-200">Records & Distinctions</span>
+          </div>
+          <span class="text-[9px] font-mono px-2 py-0.5 rounded-full bg-yellow-500/10 text-yellow-300 border border-yellow-500/20 font-bold">PALMARÈS</span>
+        </div>
+        <div id="stat-records-container" class="p-3.5 overflow-y-auto space-y-2.5 flex-1 custom-scrollbar-indigo text-xs"></div>
+      </div>
+
+      <!-- CARTE 6 : CHRONO-SCOPE DES CIVILISATIONS -->
+      <div class="bg-slate-900/90 border border-slate-800 rounded-2xl flex flex-col min-h-0 shadow-2xl relative overflow-hidden backdrop-blur-xl group hover:border-purple-500/40 transition">
+        <div class="absolute -top-12 -right-12 w-28 h-28 bg-purple-500/10 rounded-full blur-2xl pointer-events-none"></div>
+        <div class="p-3 border-b border-slate-800 bg-slate-950/60 flex items-center justify-between shrink-0">
+          <div class="flex items-center gap-2 text-purple-400">
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-purple-500"></span>
+            </span>
+            <i class="fa-solid fa-hourglass-half text-xs"></i>
+            <span class="text-xs font-black uppercase tracking-wider text-slate-200">Chrono-Scope des Civilisations</span>
+          </div>
+          <span class="text-[9px] font-mono px-2 py-0.5 rounded-full bg-purple-500/10 text-purple-300 border border-purple-500/20 font-bold">+4500 ANS</span>
+        </div>
+        <div class="p-3.5 overflow-y-auto space-y-2 flex-1 custom-scrollbar-indigo text-xs">
+          <div id="stat-chrono-breakdown" class="space-y-2"></div>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -500,20 +525,19 @@
         </div>
       </div>
 
-      <div class="flex flex-col gap-1 xl:gap-1.5 bg-slate-900/60 p-2.5 xl:p-3 rounded-xl border border-slate-800/80">
-        <div class="text-[9px] xl:text-[11px] font-bold uppercase tracking-wider text-cyan-400 flex items-center gap-1">
+      <div class="flex flex-col gap-1 xl:gap-1.5 bg-slate-900/60 p-3 xl:p-3.5 rounded-xl border border-slate-800/80">
+        <div class="text-[11px] xl:text-xs font-bold uppercase tracking-wider text-cyan-400 flex items-center gap-1.5">
           <i class="fa-solid fa-book-open"></i> Introduction
         </div>
-        <p id="card-description" class="text-[10px] md:text-[11px] xl:text-[13px] text-slate-300 leading-relaxed pr-1"></p>
+        <p id="card-description" class="text-[13px] md:text-[14px] xl:text-[15px] text-slate-200 leading-normal pr-1"></p>
       </div>
 
-      <div class="flex flex-col gap-1 xl:gap-1.5 bg-slate-900/60 p-2.5 xl:p-3 rounded-xl border border-slate-800/80">
-        <div class="text-[9px] xl:text-[11px] font-bold uppercase tracking-wider text-indigo-300 flex items-center gap-1">
+      <div class="flex flex-col gap-1 xl:gap-1.5 bg-slate-900/60 p-3 xl:p-3.5 rounded-xl border border-slate-800/80">
+        <div class="text-[11px] xl:text-xs font-bold uppercase tracking-wider text-indigo-300 flex items-center gap-1.5">
           <i class="fa-solid fa-compass"></i> À visiter & Incontournables
         </div>
-        <p id="card-visiter" class="text-[10px] md:text-[11px] xl:text-[13px] text-slate-300 leading-relaxed pr-1"></p>
+        <p id="card-visiter" class="text-[13px] md:text-[14px] xl:text-[15px] text-slate-200 leading-normal pr-1"></p>
       </div>
-    </div>
 
     <div class="flex flex-col gap-2 pt-2.5 border-t border-slate-700/60 mt-3">
       <div class="grid grid-cols-2 gap-2">
@@ -547,6 +571,83 @@
     <button onclick="zoomMapOut()" class="glass-panel w-9 h-9 rounded-xl flex items-center justify-center text-slate-200 hover:text-white transition shadow-lg" title="Zoom arrière">
       <i class="fa-solid fa-minus text-xs"></i>
     </button>
+  </div>
+
+  <!-- MODALE VISIONNEUSE GRAND ÉCRAN (IMMERSIVE VIEWER) -->
+  <div id="poi-modal-viewer" class="fixed inset-0 z-[9999] hidden items-center justify-center p-3 sm:p-6 bg-slate-950/85 backdrop-blur-md transition-opacity duration-300">
+    <div id="poi-modal-container" class="relative w-full max-w-6xl h-[92vh] bg-slate-900/95 border border-cyan-500/30 rounded-2xl shadow-[0_0_50px_rgba(6,182,212,0.25)] flex flex-col overflow-hidden text-slate-100">
+      
+      <!-- BARRE SUPÉRIEURE (NAVIGATION & CONTRÔLES) -->
+      <div class="flex items-center justify-between px-4 py-2.5 bg-slate-950/80 border-b border-cyan-500/20 z-10 shrink-0">
+        <!-- Fil d'Ariane & Drapeau pulsant -->
+        <div class="flex items-center gap-2 overflow-hidden text-xs">
+          <span id="modal-flag" class="text-base animate-pulse">🇫🇷</span>
+          <span id="modal-breadcrumb" class="text-slate-400 truncate font-mono text-[11px]"></span>
+        </div>
+
+        <!-- Commandes de navigation & Fermeture -->
+        <div class="flex items-center gap-2 shrink-0">
+          <button id="modal-btn-prev" class="px-2.5 py-1 rounded-lg bg-slate-800/80 hover:bg-cyan-500/30 text-cyan-300 border border-cyan-500/30 transition text-xs font-bold flex items-center gap-1 cursor-pointer">
+            <i class="fa-solid fa-chevron-left text-[10px]"></i> <span class="hidden sm:inline">Précédent</span>
+          </button>
+          <span id="modal-counter" class="text-[11px] font-mono font-bold text-slate-400 px-1">1 / 1</span>
+          <button id="modal-btn-next" class="px-2.5 py-1 rounded-lg bg-slate-800/80 hover:bg-cyan-500/30 text-cyan-300 border border-cyan-500/30 transition text-xs font-bold flex items-center gap-1 cursor-pointer">
+            <span class="hidden sm:inline">Suivant</span> <i class="fa-solid fa-chevron-right text-[10px]"></i>
+          </button>
+          <div class="h-4 w-px bg-slate-700 mx-1"></div>
+          <button id="modal-btn-close" class="px-2.5 py-1 rounded-lg bg-red-950/60 hover:bg-red-500/40 text-red-300 border border-red-500/40 transition text-xs font-bold flex items-center gap-1.5 cursor-pointer">
+            <i class="fa-solid fa-xmark"></i> <span>Retour Carte</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- CORPS DE LA VISIONNEUSE -->
+      <div id="modal-body-layout" class="flex-1 flex overflow-hidden">
+        <!-- ZONE IMAGE -->
+        <div id="modal-image-wrapper" class="relative bg-black flex items-center justify-center overflow-hidden shrink-0">
+          <img id="modal-image" src="" alt="Photo POI" class="max-w-full max-h-full object-contain select-none" />
+          
+          <button id="modal-arrow-left" class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-950/60 hover:bg-cyan-500/80 border border-cyan-400/40 text-white flex items-center justify-center transition backdrop-blur-sm cursor-pointer shadow-lg">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button id="modal-arrow-right" class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-950/60 hover:bg-cyan-500/80 border border-cyan-400/40 text-white flex items-center justify-center transition backdrop-blur-sm cursor-pointer shadow-lg">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+
+          <a id="modal-album-link" href="#" target="_blank" class="absolute bottom-3 right-3 px-3 py-1 rounded-lg bg-slate-950/80 hover:bg-cyan-600/90 border border-cyan-400/40 text-cyan-200 text-xs font-bold flex items-center gap-1.5 backdrop-blur-sm transition shadow-lg">
+            <i class="fa-solid fa-images"></i> Album complet
+          </a>
+        </div>
+
+        <!-- ZONE TEXTE DÉFILANT -->
+        <div id="modal-text-wrapper" class="flex-1 overflow-y-auto p-4 sm:p-6 space-y-4 custom-scrollbar">
+          <div>
+            <div class="flex flex-wrap items-center gap-2 mb-2">
+              <span id="modal-badge-cat" class="px-2.5 py-0.5 rounded-full text-[11px] font-black tracking-wide uppercase shadow"></span>
+              <span id="modal-badge-era" class="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-slate-800 text-slate-300 border border-slate-700"></span>
+              <span id="modal-altitude" class="text-xs font-mono text-cyan-300 flex items-center gap-1"></span>
+            </div>
+            <h2 id="modal-title" class="text-xl sm:text-2xl font-black text-cyan-100 tracking-tight"></h2>
+            <div id="modal-coords" class="text-[11px] font-mono text-slate-400 flex items-center gap-1.5 mt-1"></div>
+          </div>
+
+          <div class="bg-slate-950/40 border border-slate-800/80 rounded-xl p-3.5 sm:p-4">
+            <h3 class="text-xs font-black tracking-wider uppercase text-cyan-400 mb-2 flex items-center gap-1.5">
+              <i class="fa-solid fa-book-open text-[11px]"></i> Introduction & Histoire
+            </h3>
+            <p id="modal-description" class="text-xs sm:text-sm text-slate-300 leading-relaxed text-justify"></p>
+          </div>
+
+          <div class="bg-slate-950/40 border border-slate-800/80 rounded-xl p-3.5 sm:p-4">
+            <h3 class="text-xs font-black tracking-wider uppercase text-emerald-400 mb-2 flex items-center gap-1.5">
+              <i class="fa-solid fa-compass text-[11px]"></i> À Visiter & Incontournables
+            </h3>
+            <p id="modal-visiter" class="text-xs sm:text-sm text-slate-300 leading-relaxed text-justify"></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </div>
 
   <!-- Fichier JavaScript externe -->
