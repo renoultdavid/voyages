@@ -94,6 +94,102 @@ const COUNTRY_SUBDIV_TOTALS = {
 
 const travelSpots = [
   {
+    id: "clecy_eglise_saint_pierre",
+    name: "Clécy - Église Saint-Pierre",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Normandie",
+    department: "Calvados (14)",
+    subdiv: "Clécy",
+    altitude: 66,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medieval",
+    era_label: "Édifice Paroissial aux Fondations Médiévales & Reconstructions Classiques",
+    century: "XVe-XVIIe siècle",
+    category: "religieux",
+    lat: 48.9168,
+    lng: -0.4824,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMV5YGB-Ca7YMwNFalXEOSI2lrdoC6aL-skszBBLiUx4G0xw3xT0tk_v8FMTP5paHFjk7a7RRoPxw0BLOt_lHl-loilaxV7dFORJEWtreSwU7-z7Ry-SXhKH-NdUW0F0lJxBLriK60fGqZcxJ1Bnx4lZw=w1379-h919-s-no-gm?authuser=0",
+    description: "Érigée sur les hauteurs du bourg au cœur de la Suisse Normande, l'église Saint-Pierre de Clécy témoigne de l'histoire paroissiale mouvementée de cette vallée encaissée de l'Orne. Si ses origines remontent au Moyen Âge, l'édifice actuel résulte de remaniements et de reconstructions successives conduits principalement entre le XVe et le XVIIe siècle, combinant le schiste local sombre et le calcaire clair. Sa silhouette trapue et robuste est dominée par un clocher en bâtière typique de l'architecture normande, couronné de solides contreforts qui ancrent le sanctuaire dans la déclivité du terrain. L'église veille sur un enclos paroissial intime, bordé d'anciennes sépultures et de maisons de pierre, formant le point d'ancrage historique autour duquel le village a progressivement étagé ses quartiers.",
+    visiter: "Pénétrer dans la nef pour apprécier la sobriété architecturale de la voûte en berceau lambrissée et la texture des appareils de moellons mis en valeur par la lumière filtrant à travers les baies cintrées. Découvrir le mobilier liturgique ancien, notamment les retables en bois polychrome, les statues de saints locaux et les fonts baptismaux traditionnels sculptés dans la pierre calcaire. Prendre le temps de faire le tour extérieur du chevet pour observer les différentes phases de maçonnerie et profiter, depuis le parvis surélevé, d'échappées visuelles sur les toitures d'ardoise du bourg et les crêtes rocheuses qui ceinturent la vallée.",
+    link: "https://photos.google.com/u/0/share/AF1QipOyzqcLEzCqqTsR3lgFARIf7XU_HxNIQU2FwvbH6OOhoZAajN-gfNy3Ub5LdloPLQ?hl=fr_CA&key=T3FhQ2U0aUd6WkpHdmNMNjFzTThFV2RNbUo3czl3"
+  },
+  {
+    id: "clecy_village_centre",
+    name: "Clécy - Village & Cité Typique de la Suisse Normande",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Normandie",
+    department: "Calvados (14)",
+    subdiv: "Clécy",
+    altitude: 66,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Capitale Historique & Pittoresque de la Suisse Normande",
+    century: "XVIIIe-XIXe siècle",
+    category: "star",
+    lat: 48.9167,
+    lng: -0.4818,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO56ht4nCaoe10KNjAIXLxJYyHd4UEtiuVEdEmose4N-vcy6JFwi0Sof5Kbi70lmqDWZ-cWcAD8kMRefDBicVgc9jKyaJHp7GkMFuJWSbQpryEcH6XSyytm2rMFfihNQPAySaXTxhKW66LSJGzR2uNdYg=w1379-h919-s-no-gm?authuser=0",
+    description: "Considéré comme la capitale pittoresque de la Suisse Normande, le bourg de Clécy étage ses ruelles sinueuses et ses bâtisses de caractère sur les flancs verdoyants de la vallée de l'Orne. Réputé dès la fin du XIXe siècle pour son atmosphère agreste qui attira de nombreux peintres paysagistes — à l'instar d'André Hardy ou de Paul-Émile Pissarro —, le village séduit par son harmonie minérale associant moellons de grès roussard, schistes gris et toitures d'ardoise inclinées. Autrefois animé par le travail du fil de lin, le tissage et la meunerie hydraulique, Clécy a conservé un tissu villageois dense et préservé, où de charmantes cours intérieures et d'anciens manoirs ruraux côtoient des auberges traditionnelles bordant la place centrale.",
+    visiter: "Flâner au cœur du bourg le long des rues pavées et fleuries pour admirer les façades en pierre de taille, les lucarnes à frontons et les enseignes artisanales qui perpétuent l'art de vivre normand. Faire une halte sur la place du village ombragée pour profiter de l'ambiance des terrasses et visiter les ateliers d'artistes et galeries locales qui perpétuent la tradition picturale de la vallée. Prolonger la balade en descendant par les chemins de traverse vers les guinguettes des bords de l'Orne, point de départ privilégié pour la contemplation des imposants reliefs rocheux des Rochers des Parcs.",
+    link: "https://photos.google.com/u/0/share/AF1QipOyzqcLEzCqqTsR3lgFARIf7XU_HxNIQU2FwvbH6OOhoZAajN-gfNy3Ub5LdloPLQ?hl=fr_CA&key=T3FhQ2U0aUd6WkpHdmNMNjFzTThFV2RNbUo3czl3"
+  },
+  {
+    id: "clecy_viaduc_ferroviaire",
+    name: "Clécy - Viaduc de la Lande",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Normandie",
+    department: "Calvados (14)",
+    subdiv: "Clécy",
+    altitude: 35,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Ouvrage d'Art Ferroviaire & Voie Verte de l'Orne",
+    century: "XIXe siècle (1866)",
+    category: "star",
+    lat: 48.9096,
+    lng: -0.4703,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOwgNivjc9Xkqs5EJASNm51n2zSqBLvE0Ek3VXZmPhScwQuA9G57JG8Q4OXTdBXuOEEy-CgKUkqBk3VIQlAZhzgaCwdwxlXpcUv203ICRwV14OT3TobxdBycxInlOtQ0hM59ygZaukQBYWQIvgjMe4QsQ=w1380-h919-s-no-gm?authuser=0",
+    description: "Édifié en 1866 pour permettre le franchissement de la tumultueuse rivière de l'Orne par la ligne de chemin de fer reliant Caen à Flers, le viaduc de Clécy (ou viaduc de la Lande) s'impose comme un chef-d'œuvre du patrimoine d'ingénierie du Second Empire. Bâti en maçonnerie de moellons et pierre de taille issue des carrières granitiques régionales, l'ouvrage déploie ses neuf arches majestueuses en plein cintre sur une longueur de plus de cent mètres, surplombant le cours d'eau d'une trentaine de mètres de hauteur. Désormais reconverti dans le cadre de la voie verte de la Suisse Normande (Vélo Francette), le viaduc a troqué le fracas des locomotives à vapeur contre les pas feutrés des randonneurs et le passage des cyclotouristes, offrant l'une des perspectives les plus saisissantes sur les gorges encaissées.",
+    visiter: "Traverser le tablier sécurisé du viaduc à pied ou à vélo pour embrasser un panorama à trois cent soixante degrés sur les méandres de l'Orne, les collines boisées et les fameuses crêtes schisteuses de la Suisse Normande. Descendre sur les berges aménagées en contrebas pour contempler l'élégance architecturale de la succession d'arches de pierre se reflétant dans le miroir de l'eau, spot très apprécié des kayakistes et pêcheurs. Les amateurs de sensations fortes peuvent également s'approcher des piles lors des sessions encadrées d'escalade ou de saut à l'élastique régulièrement organisées sur l'ouvrage.",
+    link: "https://photos.google.com/u/0/share/AF1QipOyzqcLEzCqqTsR3lgFARIf7XU_HxNIQU2FwvbH6OOhoZAajN-gfNy3Ub5LdloPLQ?hl=fr_CA&key=T3FhQ2U0aUd6WkpHdmNMNjFzTThFV2RNbUo3czl3"
+  },
+   {
+    id: "roche_d_oetre",
+    name: "La Roche d'Oëtre",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Normandie",
+    department: "Orne (61)",
+    subdiv: "Saint-Philbert-sur-Orne",
+    altitude: 162,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Belvédère Naturel & Gorge du Massif Armoricain",
+    century: "",
+    category: "star",
+    lat: 48.828,
+    lng: -0.3809,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNxrx_M-b_6RleOw9VflCdXk2W4dKWhjMrz2UQdBv6HLlff_nxWgI_zJWqFy0XA8_0ca5tdVpjoUK3V5vDjobt99kjx7sgGGZ2OBi6plLnwAat-fRQXFVqsVpSq4KFrRm7Fg6iKc8Fm30P6TSsenTwJrw=w1379-h919-s-no-gm?authuser=0",
+    description: "Perchée au cœur de la Suisse Normande sur les hauteurs de Saint-Philbert-sur-Orne, la Roche d'Oëtre constitue l'un des belvédères naturels les plus spectaculaires et abrupts de l'Ouest de la France. Ce monumental précipice rocheux en poudingue et grès armoricain domine vertigineusement de plus de cent dix-huit mètres le lit encaissé et sauvage de la Rouvre. Façonné par des centaines de millions d'années d'érosion fluviatile et de contraintes tectoniques, le site présente un profil tourmenté dont les corniches de pierre dessinent, selon l'angle de vue, les traits saisissants d'un gigantesque visage humain sculpté dans la roche. Classé pour son intérêt géologique et paysager d'exception, ce promontoire abrite des landes à bruyères et des pierriers xérothermiques où s'épanouit une flore rare adaptée aux conditions extrêmes, côtoyant une forêt de ravins dense et mystérieuse qui tapisse les flancs de la gorge.",
+    visiter: "S'avancer prudemment sur la plateforme sommitale sécurisée pour embrasser le panorama grandiose sur les méandres boisés de la vallée de la Rouvre et tenter de distinguer le fameux profil anthropomorphe sculpté dans la paroi rocheuse. Emprunter l'un des huit sentiers pédestres balisés qui partent de l'Espace d'accueil, notamment la boucle des Gorges ou le sentier des Corniches, pour descendre vers la rivière tumultueuse à travers des sous-bois tapissés de fougères et de rochers moussus. Prendre le temps d'observer la faune et la flore spécifiques des landes sèches d'altitude, puis visiter l'espace muséographique et les expositions temporaires consacrées à la géologie singulière et à l'histoire naturelle de la Suisse Normande.",
+    link: ""
+  },
+   {
     id: "sees_cathedrale_notre_dame",
     name: "Sées - Cathédrale Notre-Dame",
     country: "France",
@@ -113,20 +209,20 @@ const travelSpots = [
     counts: {},
     lat: 48.605343,
     lng: 0.172141,
-    image: "https://photos.fife.usercontent.google.com/pw/AP1GczMc2jlveHMKLlJOhXu1o7TFuOhWj5LdFnntEsZacFQFgQCYLvxyLv2SZQ=w1379-h919-s-no-gm?authuser=0",
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMx-jOXpCmt8kt8sgDj3zWBMxaVx4yFFFHQGoWJDtHp9TmRxhu_BqXkAzFfIhCP95u5_vXMygr9QjADrjq-8T6TQEwoL6GMqIouXJHHfhPNu8VCkGSMzYQXEUI3b_1mUW0mOlgWO6kx97ZsOUeuG7RigQ=w613-h919-s-no-gm?authuser=0",
     link: "",
     gallery: [
       {
-        url: "https://photos.fife.usercontent.google.com/pw/AP1GczPfVnk0XlSbfTkDtV0uVOSq-PyF3Mm-evH_-BQWBEgN4YllTb1Gcea58A=w613-h919-s-no-gm?authuser=0",
-        caption: "La façade occidentale et ses deux imposantes flèches de pierre ajourées"
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOpNfRuHAIU1i0_76cWz4iMdFFB8iC20EBxk4PSxs9mYoi_2MHaBmgAeyxSDL9VENNrV0HmJnAbPSsBxSUgOXvLMlKXRViuUo72FC--n6C16-a6t_E4VMhYk647acffPIJqwX_F_5zmrcEZ7nhcuY5CNg=w613-h919-s-no-gm?authuser=0",
+        caption: "vue du portail"
       },
       {
-        url: "https://photos.fife.usercontent.google.com/pw/AP1GczMQi1wbTvTIaYubodOJE9x-en6ZJgiRkv-hZShEVdUXYTYXwf4--V5N2Q=w613-h919-s-no-gm?authuser=0",
-        caption: "Élévation de la nef gothique et détails sculptés des portails"
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMBYC-VSG6q6jRsY-wR4JzUeuWgaijcijU64p4A0r3PrGLRPU3Vl0lNj8SX8i33G6EwI6KGWzF0kanOrXLlQiOo3XbWjcZRiwNpyQsqsk0CIe9rqZ92po0Mf0ZibCbL3nige4VdlKGYI1-5FR1Q2BQS5g=w1379-h919-s-no-gm?authuser=0",
+        caption: "élévation de la nef gothique"
       },
       {
-        url: "https://photos.fife.usercontent.google.com/pw/AP1GczNlaNCb3QhVWfxqpfq3gv_34nzu7r3wEL1G0vDRw6MorUV0wWc6wem4SQ=w1379-h919-s-no-gm?authuser=0",
-        caption: "Perspective d'ensemble sur le chevet et les arcs-boutants rayonnants"
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO7EUFstwZdON0h_gFhWn-9V2GBGsjZ5ApTGMfhbaJWhLlH-YJOSQjoA6DBFkU8bnN0W_WBwlqER-j49_TnOcvqWnc3Q494F_u5lX1N6XxIdfzjrpAf5k1Vf_GNFIGfa67dbtUPw2nREsav-j6g-jGjcA=w1379-h919-s-no-gm?authuser=0",
+        caption: "autre vue de la nef"
       }
     ],
     description: "Siège épiscopal historique fondé au Ve siècle par saint Latuin au cœur de la campagne ornaise, la cathédrale Notre-Dame de Sées est l'un des sommets architecturaux du gothique normand des XIIIe et XIVe siècles. Érigée sur un sol marécageux instable qui a imposé aux bâtisseurs successifs des trésors d'audace technique et d'incessants renforts structurels, elle frappe d'emblée par l'élan vertical souverain de sa façade occidentale. Deux majestueuses flèches jumelles ajourées culminant à soixante-dix mètres d'altitude dominent les toitures de la petite cité ecclésiastique. L'intérieur déploie un contraste saisissant entre la nef du début du XIIIe siècle, rythmée par ses arcs brisés robustes caractéristiques de l'école normande, et le chœur rayonnant éblouissant de la fin du XIIIe siècle. Véritable cage de verre et de lumière conçue comme un reliquaire transparent, ce dernier s'illumine d'un exceptionnel ensemble de verrières d'origine mettant en scène les apôtres et les saints évêques sagéens.",
@@ -152,12 +248,12 @@ const travelSpots = [
     counts: {},
     lat: 48.605736,
     lng: 0.172446,
-    image: "https://photos.fife.usercontent.google.com/pw/AP1GczMoqkjQPw7Ey4RW0gzx2IDiJTdlXffwfuYBU1bSMyRUOAyFpKo4An72sg=w1379-h919-s-no-gm?authuser=0",
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMsfL0Bpzmc4ZPBk1izvB9F_g1Q5QlBlgN0bbJw-z_VrVAA0aEKGBSjDJMFk7zh6RSxGp_EVAVd35i9rcuUf9jypRkKd8EVYajDhU6hInSFBShB-2ARnGEFAGhkjOjzkUbq94rsU6IzuqhxjWm40qr6RA=w1379-h919-s-no-gm?authuser=0",
     link: "",
     gallery: [
       {
-        url: "https://photos.fife.usercontent.google.com/pw/AP1GczPWZjpesMgpY_NvsvHLsFeE1sIHMqxga3dfcjEszxfrb-SnkZesfyVdjQ=w1379-h919-s-no-gm?authuser=0",
-        caption: "Appareil en pierre de taille et modénatures gothiques du logis canonial"
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMQ6Dv7aQRH27tZOeIs5uvZXhkKgYZdAqbggXl_KFivmbQUhvSXBv4QapV8iIU9MqLkflVNOAmjB5vjlTIxgaweRQ9XRGun0shpeV42tCG6jqGqnrf1IO7zzwREOJTgqUlA-Bqn-uav3-qbPrptD2pMrQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
       }
     ],
     description: "Adossée au flanc nord-est de la cathédrale, la chapelle canoniale constitue le cœur spirituel et communautaire des anciens bâtiments claustraux du chapitre de Sées. Fait rare dans l'Occident chrétien médiéval, le chapitre cathédral de Sées ne regroupait pas des clercs séculiers mais des chanoines réguliers suivant la stricte règle de saint Augustin, vivant en clôture sous les voûtes de leur prieuré canonial attenant au sanctuaire. Édifiée au XIIIe siècle à l'apogée du chantier cathédral, la chapelle servait d'oratoire privé aux chanoines pour la récitation des offices des heures et les assemblées capitulaires. Bâtie en pierre calcaire blanche de Caen et en grès local, elle offre un volume sobre et élégant, percé de baies en arc brisé et soutenu par des contreforts réguliers, rappelant l'organisation monastique qui régissait autrefois la vie liturgique et temporelle du diocèse de Sées.",
@@ -2329,7 +2425,7 @@ const travelSpots = [
     era_group: "antiquite",
     era_label: "La muraille romaine du Bas-Empire la mieux conservée d'Europe occidentale avec Rome et Byzance",
     century: "IIIe siècle",
-    category: "archeo",
+    category: "star",
     counts: {},
     lat: 48.009763,
     lng: 0.196693,
@@ -3254,7 +3350,7 @@ const travelSpots = [
     era_group: "antiquite",
     era_label: "Haut lieu cultuel gallo-romain majeur de la cité des Aulerques Cénomans",
     century: "IIe siècle",
-    category: "archeo",
+    category: "archeologie",
     counts: {},
     lat: 47.968539,
     lng: 0.166377,
@@ -4129,7 +4225,7 @@ const travelSpots = [
     era_group: "contemporain",
     era_label: "Ancienne maisonnette de gardien d'huîtres posée sur un récif de granit",
     century: "XIXe siècle",
-    category: "naturel",
+    category: "star",
     counts: {},
     lat: 47.685607,
     lng: -3.187492,
@@ -4456,7 +4552,7 @@ const travelSpots = [
     era_group: "naturel",
     era_label: "Complexe volcanique et plutonique calco-alcalin hercynien (Rhyolites et granites rouges)",
     century: "",
-    category: "naturel",
+    category: "star",
     unesco_name: "Golfe de Porto : calanche de Piana, golfe de Girolata, réserve de Scandola",
     counts: {},
     lat: 42.245904,
@@ -4582,7 +4678,7 @@ const travelSpots = [
     era_group: "naturel",
     era_label: "Site naturel classé Réserve de Biosphère par l'UNESCO (MAB 1977)",
     century: "",
-    category: "naturel",
+    category: "star",
     counts: {},
     lat: 42.419117,
     lng: 8.658653,
@@ -4884,10 +4980,10 @@ const travelSpots = [
     is_island: true,
     island_name: "Honshū",
     transport: "avion",
-    era_group: "medievale",
+    era_group: "nature",
     era_label: "Site naturel et paysager protégé (Villégiature aristocratique depuis l'Époque de Heian)",
     century: "IXe siècle",
-    category: "naturel",
+    category: "star",
     counts: {},
     lat: 35.016701,
     lng: 135.670927,
@@ -6771,7 +6867,7 @@ island_name: "Honshū",
     era_group: "nature",
     era_label: "Bocage Fluvial & Espace Naturel",
     century: "",
-    category: "",
+    category: "star",
     lat: 48.050233,
     lng: 0.444481,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPgIfPfRDV0Te188tt1HIi3p_JegNBxpVtmA7vUJ3igI8KPvLoet7GwjjdvYpyQlPTgSKP8CGiWD7C9kY6oVByvIVz76XLxJtQxdCaBBwSX1JYA_9HAcFzHYzZIlDvl-_YVzAUYjHncAWW9sRYYkSaFng=w2468-h1388-s-no-gm?authuser=0",
@@ -8512,7 +8608,7 @@ island_name: "Honshū",
     era_group: "contemporain",
     era_label: "Époque Contemporaine & Littorale",
     century: "XXe siècle",
-    category: "",
+    category: "star",
     lat: 47.5483,
     lng: -2.9191,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPpn3mcbR_cefuqRbq7u0gfKmaYd3BYCwmfwpWzA_qZfaRV1Xkq2B7_4yJoS4L6423l8B4N6Nm8L5yXDn3FIXHb0GiijFzHAbLeEPd1liLDJFrW3wY6-dRUes7GZQnz9KExWmFPMoei6F0mA9LDuuZOHg=w2506-h1879-s-no-gm?authuser=0",
@@ -8559,7 +8655,7 @@ island_name: "Honshū",
     era_group: "contemporain",
     era_label: "Époque Impressionniste (1883)",
     century: "XIXe siècle",
-    category: "ville",
+    category: "star",
     lat: 49.0753,
     lng: 1.5337,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNzF8a6tNABa-f5GaaYsOwVKQNRnGJWizJSr0pAzoBSI0Q4TvXI1pqtPLD9rBhsU98gYbPid5H40jhwo_u62N8-XTqM007sOoYIyg07iepWzLIVHBfAXnK5WY-4WNPfkOaeaasy_VOtA-ft3E7TlDpvVw=w2441-h1627-s-no-gm?authuser=0",
@@ -10359,7 +10455,18 @@ function selectSpot(spot) {
   location.querySelector('span').innerText = `${spot.lat.toFixed(4)}°N, ${spot.lng.toFixed(4)}°E (${spot.altitude > 0 ? '+' : ''}${spot.altitude} m)`;
   desc.innerText = spot.description;
   visiter.innerText = spot.visiter || "Aucun détail complémentaire renseigné pour ce site.";
-  link.href = spot.link;
+  if (link) {
+    if (spot.link && spot.link.trim() !== '') {
+      link.href = spot.link;
+      link.target = "_blank";
+      link.className = "py-1.5 xl:py-2 px-2.5 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[10px] xl:text-xs font-semibold flex items-center justify-center gap-1.5 shadow transition cursor-pointer";
+      link.onclick = null;
+    } else {
+      link.removeAttribute('href');
+      link.className = "py-1.5 xl:py-2 px-2.5 rounded-lg bg-slate-800/60 border border-slate-700/50 text-slate-500 text-[10px] xl:text-xs font-semibold flex items-center justify-center gap-1.5 cursor-not-allowed opacity-60";
+      link.onclick = (e) => e.preventDefault();
+    }
+  }
 
   if (gmapsLink) {
     gmapsLink.href = `https://www.google.com/maps/search/?api=1&query=${spot.lat},${spot.lng}`;
@@ -10990,11 +11097,45 @@ function renderModalSpot(spot) {
     }
   }
 
-  // 2. Gestion intelligente de la photo et détection Paysage / Portrait
+  // 2. Gestion de l'album complet (lien externe)
+  const albumLink = document.getElementById('modal-album-link');
+  if (albumLink) {
+    if (spot.link && spot.link.trim() !== '') {
+      albumLink.href = spot.link;
+      albumLink.style.display = 'flex';
+    } else {
+      albumLink.style.display = 'none';
+    }
+  }
+
+  // 3. Initialisation de la galerie interne du spot
+  currentSpotGallery = [{ url: spot.image || '', caption: '' }];
+  if (Array.isArray(spot.gallery) && spot.gallery.length > 0) {
+    spot.gallery.forEach(item => {
+      if (item && item.url) currentSpotGallery.push(item);
+    });
+  }
+  currentSpotGalleryIndex = 0;
+  renderSpotGalleryImage();
+}
+
+// Variables d'état pour la galerie interne
+let currentSpotGallery = [];
+let currentSpotGalleryIndex = 0;
+
+// Rendu et affichage de l'image de la galerie (avec détection automatique Portrait / Paysage)
+function renderSpotGalleryImage() {
+  if (!currentSpotGallery.length) return;
+
+  const currentItem = currentSpotGallery[currentSpotGalleryIndex];
   const imgEl = document.getElementById('modal-image');
   const layout = document.getElementById('modal-body-layout');
   const imgWrapper = document.getElementById('modal-image-wrapper');
   const textWrapper = document.getElementById('modal-text-wrapper');
+  const counterEl = document.getElementById('modal-gallery-counter');
+  const captionEl = document.getElementById('modal-gallery-caption');
+  const arrowLeft = document.getElementById('modal-arrow-left');
+  const arrowRight = document.getElementById('modal-arrow-right');
 
   if (imgEl) {
     imgEl.onload = function() {
@@ -11013,11 +11154,44 @@ function renderModalSpot(spot) {
       }
     };
 
-    imgEl.src = spot.image || '';
+    imgEl.src = currentItem.url;
+  }
+
+  // Affichage STRICT des commandes de galerie UNIQUEMENT si au moins 2 photos
+  const hasMultiplePhotos = currentSpotGallery.length > 1;
+
+  if (arrowLeft) arrowLeft.style.display = hasMultiplePhotos ? 'flex' : 'none';
+  if (arrowRight) arrowRight.style.display = hasMultiplePhotos ? 'flex' : 'none';
+
+  if (counterEl) {
+    if (hasMultiplePhotos) {
+      counterEl.textContent = `${currentSpotGalleryIndex + 1} / ${currentSpotGallery.length}`;
+      counterEl.classList.remove('hidden');
+    } else {
+      counterEl.classList.add('hidden');
+    }
+  }
+
+  // Gestion du bandeau de légende sous la photo
+  if (captionEl) {
+    if (currentItem.caption && currentItem.caption.trim() !== '') {
+      captionEl.textContent = currentItem.caption;
+      captionEl.classList.remove('hidden');
+    } else {
+      captionEl.classList.add('hidden');
+    }
   }
 }
 
-// Navigation précédent / suivant
+// Navigation dans la galerie de photos (active SEULEMENT si plusieurs photos)
+function navigateSpotGallery(direction) {
+  if (currentSpotGallery.length > 1) {
+    currentSpotGalleryIndex = (currentSpotGalleryIndex + direction + currentSpotGallery.length) % currentSpotGallery.length;
+    renderSpotGalleryImage();
+  }
+}
+
+// Navigation d'un site à un autre
 function navigateModalSpot(direction) {
   if (!currentModalSpotList.length) return;
   activeModalIndex = (activeModalIndex + direction + currentModalSpotList.length) % currentModalSpotList.length;
@@ -11034,21 +11208,29 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('modal-btn-close')?.addEventListener('click', closePoiModalViewer);
   document.getElementById('modal-btn-prev')?.addEventListener('click', () => navigateModalSpot(-1));
   document.getElementById('modal-btn-next')?.addEventListener('click', () => navigateModalSpot(1));
-  document.getElementById('modal-arrow-left')?.addEventListener('click', () => navigateModalSpot(-1));
-  document.getElementById('modal-arrow-right')?.addEventListener('click', () => navigateModalSpot(1));
+
+  // Les flèches sur la photo naviguent dans la galerie (ou dans les sites si pas de galerie)
+  document.getElementById('modal-arrow-left')?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    navigateSpotGallery(-1);
+  });
+  document.getElementById('modal-arrow-right')?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    navigateSpotGallery(1);
+  });
 
   // Clic en dehors de la fenêtre pour fermer
   document.getElementById('poi-modal-viewer')?.addEventListener('click', (e) => {
     if (e.target.id === 'poi-modal-viewer') closePoiModalViewer();
   });
 
-  // Touches Clavier : Échap pour fermer, Flèches Gauche/Droite
+  // Touches Clavier : Échap pour fermer, Flèches Gauche/Droite pour les photos
   window.addEventListener('keydown', (e) => {
     const modal = document.getElementById('poi-modal-viewer');
     if (!modal || modal.classList.contains('hidden')) return;
 
     if (e.key === 'Escape') closePoiModalViewer();
-    if (e.key === 'ArrowLeft') navigateModalSpot(-1);
-    if (e.key === 'ArrowRight') navigateModalSpot(1);
+    if (e.key === 'ArrowLeft') navigateSpotGallery(-1);
+    if (e.key === 'ArrowRight') navigateSpotGallery(1);
   });
 });
