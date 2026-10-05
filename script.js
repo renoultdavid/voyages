@@ -2518,3 +2518,4 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.key === 'ArrowRight') navigateSpotGallery(1);
   });
 });
+ 
