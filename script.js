@@ -113,19 +113,19 @@ const travelSpots = [
     counts: {},
     lat: 48.605343,
     lng: 0.172141,
-    image: "https://photos.fife.usercontent.google.com/pw/AP1GczMc2jlveHMKLlJOhXu1o7TFuOhWj5LdFnntEsZacFQFgQCYLvxyLv2SZQ=w1379-h919-s-no-gm?authuser=0",
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMx-jOXpCmt8kt8sgDj3zWBMxaVx4yFFFHQGoWJDtHp9TmRxhu_BqXkAzFfIhCP95u5_vXMygr9QjADrjq-8T6TQEwoL6GMqIouXJHHfhPNu8VCkGSMzYQXEUI3b_1mUW0mOlgWO6kx97ZsOUeuG7RigQ=w613-h919-s-no-gm?authuser=0",
     link: "",
     gallery: [
       {
-        url: "https://photos.fife.usercontent.google.com/pw/AP1GczPfVnk0XlSbfTkDtV0uVOSq-PyF3Mm-evH_-BQWBEgN4YllTb1Gcea58A=w613-h919-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOpNfRuHAIU1i0_76cWz4iMdFFB8iC20EBxk4PSxs9mYoi_2MHaBmgAeyxSDL9VENNrV0HmJnAbPSsBxSUgOXvLMlKXRViuUo72FC--n6C16-a6t_E4VMhYk647acffPIJqwX_F_5zmrcEZ7nhcuY5CNg=w613-h919-s-no-gm?authuser=0",
         caption: "La façade occidentale et ses deux imposantes flèches de pierre ajourées"
       },
       {
-        url: "https://photos.fife.usercontent.google.com/pw/AP1GczMQi1wbTvTIaYubodOJE9x-en6ZJgiRkv-hZShEVdUXYTYXwf4--V5N2Q=w613-h919-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMBYC-VSG6q6jRsY-wR4JzUeuWgaijcijU64p4A0r3PrGLRPU3Vl0lNj8SX8i33G6EwI6KGWzF0kanOrXLlQiOo3XbWjcZRiwNpyQsqsk0CIe9rqZ92po0Mf0ZibCbL3nige4VdlKGYI1-5FR1Q2BQS5g=w1379-h919-s-no-gm?authuser=0",
         caption: "Élévation de la nef gothique et détails sculptés des portails"
       },
       {
-        url: "https://photos.fife.usercontent.google.com/pw/AP1GczNlaNCb3QhVWfxqpfq3gv_34nzu7r3wEL1G0vDRw6MorUV0wWc6wem4SQ=w1379-h919-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO7EUFstwZdON0h_gFhWn-9V2GBGsjZ5ApTGMfhbaJWhLlH-YJOSQjoA6DBFkU8bnN0W_WBwlqER-j49_TnOcvqWnc3Q494F_u5lX1N6XxIdfzjrpAf5k1Vf_GNFIGfa67dbtUPw2nREsav-j6g-jGjcA=w1379-h919-s-no-gm?authuser=0",
         caption: "Perspective d'ensemble sur le chevet et les arcs-boutants rayonnants"
       }
     ],
@@ -152,11 +152,11 @@ const travelSpots = [
     counts: {},
     lat: 48.605736,
     lng: 0.172446,
-    image: "https://photos.fife.usercontent.google.com/pw/AP1GczMoqkjQPw7Ey4RW0gzx2IDiJTdlXffwfuYBU1bSMyRUOAyFpKo4An72sg=w1379-h919-s-no-gm?authuser=0",
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMsfL0Bpzmc4ZPBk1izvB9F_g1Q5QlBlgN0bbJw-z_VrVAA0aEKGBSjDJMFk7zh6RSxGp_EVAVd35i9rcuUf9jypRkKd8EVYajDhU6hInSFBShB-2ARnGEFAGhkjOjzkUbq94rsU6IzuqhxjWm40qr6RA=w1379-h919-s-no-gm?authuser=0",
     link: "",
     gallery: [
       {
-        url: "https://photos.fife.usercontent.google.com/pw/AP1GczPWZjpesMgpY_NvsvHLsFeE1sIHMqxga3dfcjEszxfrb-SnkZesfyVdjQ=w1379-h919-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMQ6Dv7aQRH27tZOeIs5uvZXhkKgYZdAqbggXl_KFivmbQUhvSXBv4QapV8iIU9MqLkflVNOAmjB5vjlTIxgaweRQ9XRGun0shpeV42tCG6jqGqnrf1IO7zzwREOJTgqUlA-Bqn-uav3-qbPrptD2pMrQ=w1379-h919-s-no-gm?authuser=0",
         caption: "Appareil en pierre de taille et modénatures gothiques du logis canonial"
       }
     ],
