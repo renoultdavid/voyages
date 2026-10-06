@@ -1341,6 +1341,45 @@ function checkContinuousGlobeZoom() {
     setTimeout(() => { isTransitioningMode = false; }, 1200);
   }
 }
+// Dégradé d'intensité thermique des clusters (2D & 3D)
+function getClusterHeatStyle(count) {
+  if (count >= 50) {
+    return {
+      bg: 'rgba(236, 72, 153, 0.95)',      // Fuchsia néon (+50 sites)
+      border: '#f472b6',
+      shadow: '0 0 16px rgba(244, 114, 182, 0.85)',
+      size: 38
+    };
+  } else if (count >= 30) {
+    return {
+      bg: 'rgba(249, 115, 22, 0.95)',      // Orange vif (30 à 49 sites)
+      border: '#fb923c',
+      shadow: '0 0 14px rgba(251, 146, 60, 0.8)',
+      size: 35
+    };
+  } else if (count >= 15) {
+    return {
+      bg: 'rgba(245, 158, 11, 0.95)',      // Ambre / Doré (15 à 29 sites)
+      border: '#fbbf24',
+      shadow: '0 0 12px rgba(251, 191, 36, 0.75)',
+      size: 32
+    };
+  } else if (count >= 5) {
+    return {
+      bg: 'rgba(16, 185, 129, 0.95)',      // Émeraude (5 à 14 sites)
+      border: '#34d399',
+      shadow: '0 0 10px rgba(52, 211, 153, 0.65)',
+      size: 30
+    };
+  } else {
+    return {
+      bg: 'rgba(14, 116, 144, 0.95)',      // Cyan doux (2 à 4 sites)
+      border: '#22d3ee',
+      shadow: '0 0 8px rgba(34, 211, 238, 0.55)',
+      size: 27
+    };
+  }
+}
 
 function initGlobe() {
   const container = document.getElementById('globe-container');
@@ -1398,10 +1437,13 @@ function initGlobe() {
       }
       if (d.isCluster) {
         const count = d.count;
+        const heat = getClusterHeatStyle(count);
+
         anchor.innerHTML = `
           <div class="relative flex items-center justify-center pointer-events-auto">
-            <div class="px-3 py-1 rounded-full flex items-center gap-1.5 text-white font-bold text-xs bg-slate-900/95 border-2 border-cyan-400 shadow-xl cursor-pointer hover:scale-115 hover:border-cyan-300 transition-transform duration-150">
-              <span class="text-cyan-400 text-[10px]">📍</span>
+            <div class="px-2.5 py-1 rounded-full flex items-center gap-1.5 text-white font-bold text-xs cursor-pointer hover:scale-120 transition-transform duration-150"
+                 style="background-color: ${heat.bg}; border: 2px solid ${heat.border}; box-shadow: ${heat.shadow};">
+              <span style="color: ${heat.border}; font-size: 10px;">📍</span>
               <span class="font-mono text-xs font-black tracking-tight text-white">${count}</span>
             </div>
             <div class="absolute bottom-full mb-1.5 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-150 pointer-events-none whitespace-nowrap px-2 py-0.5 rounded-lg bg-slate-950/95 border border-cyan-400/50 text-[10px] font-bold text-cyan-300 shadow-xl z-50">
@@ -1512,10 +1554,14 @@ function initLeafletMap(initialCenter = [27.2579, 33.8116], initialZoom = 10) {
       animateAddingMarkers: false,
       chunkedLoading: true,
       iconCreateFunction: function(cluster) {
+        const count = cluster.getChildCount();
+        const heat = getClusterHeatStyle(count);
+
         return L.divIcon({
-          html: `<span>${cluster.getChildCount()}</span>`,
-          className: 'custom-cluster-icon',
-          iconSize: L.point(32, 32)
+          html: `<div style="background-color: ${heat.bg}; border: 2px solid ${heat.border}; box-shadow: ${heat.shadow}; width: ${heat.size}px; height: ${heat.size}px; border-radius: 9999px; display: flex; align-items: center; justify-content: center; color: #ffffff; font-weight: 800; font-size: 11px; font-family: monospace;">${count}</div>`,
+          className: '',
+          iconSize: [heat.size, heat.size],
+          iconAnchor: [heat.size / 2, heat.size / 2]
         });
       }
     });
