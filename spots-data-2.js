@@ -15,7 +15,7 @@ const SPOTS_2 = [
     era_group: "medieval",
     era_label: "Croix de Carrefour Gothique Flamboyante & Calvaire Sculpté",
     century: "XVe siècle",
-    category: "religieux",
+    category: "star",
     counts: {},
     lat: 48.011956,
     lng: 0.266022,
