@@ -20,11 +20,23 @@ const SPOTS_2 = [
     lat: 42.181296,
     lng: 9.162025,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOssHB5DRE6620De9TLa-KBKC29MHdWo3keCI-PD3un2UC8hkLkE3qxQ80xKoYLs3U1YYfrrEIkRgamSPK58FNijVP5ju_vsWx7AEjoYNSAktJyll_6y6tyfzgjPQHZbIxuXznHpmxkTPfqY1AOqWFXbg=w1379-h919-s-no-gm?authuser=0",
-    images: [
-      "https://lh3.googleusercontent.com/pw/AP1GczPF-wxtyywMCNJ0v2sgCFBlKryvPlfZWOAgpjmPkFbbinmARDwToUMjvj8XsLB-4AL1gu_ppSIxu8tzibhyyLuU-WxjaAGkuwhpW8jd5qHS0NLNMTCyaH0hNhUhYWxWNeFvb9BvTQPewbiH8iqjKFN-cQ=w1379-h919-s-no-gm?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AP1GczPVdpLYA_0vcv9m8pSFRh6tJQ7lwq8QwQugLGVmA6SpHkfhdEW8QhM_Acjo4x9pyXYiFu3sPMKO5PJJXUyb8pFklzPrOb1jgj_3eYMBYOnhJ0PLgTPW8KM2KbWlccBJVv-iZt5eTn2rrfjZ9PGv2MqGvQ=w1379-h919-s-no-gm?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AP1GczO21_fuCLkKvtgHHBW1AqPBKI15x__6143v9y7YyWEULEZ38t3QfqK9dx6X4mvY9bQM1OcAkP-1qZGz1PrsIYneopXVzyJy61L23vW3vxGa9LkReEyniolWJv83Mvzr2zF9IP79ub364PsVIpryhEEvFw=w1379-h919-s-no-gm?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AP1GczPkzEtq8WBdn2zgQAdCAm8hoZnSGJSlYxTk7AIDa9smqwniZ2jg9ZqbZwmQRFXi6akYC6G0TIOrxsQK7UMPkgVKZUFpiTSc-Xelcz_cEw8tCjtfhP5ozm1Hw9xwGBsfR9pmL7xaYzdm65XFmrbfUdDjlQ=w1379-h919-s-no-gm?authuser=0"
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPF-wxtyywMCNJ0v2sgCFBlKryvPlfZWOAgpjmPkFbbinmARDwToUMjvj8XsLB-4AL1gu_ppSIxu8tzibhyyLuU-WxjaAGkuwhpW8jd5qHS0NLNMTCyaH0hNhUhYWxWNeFvb9BvTQPewbiH8iqjKFN-cQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "Échauguette et maçonnerie du fortin dominant le défilé"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPVdpLYA_0vcv9m8pSFRh6tJQ7lwq8QwQugLGVmA6SpHkfhdEW8QhM_Acjo4x9pyXYiFu3sPMKO5PJJXUyb8pFklzPrOb1jgj_3eYMBYOnhJ0PLgTPW8KM2KbWlccBJVv-iZt5eTn2rrfjZ9PGv2MqGvQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "Vue sur les murailles et le relief environnant"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO21_fuCLkKvtgHHBW1AqPBKI15x__6143v9y7YyWEULEZ38t3QfqK9dx6X4mvY9bQM1OcAkP-1qZGz1PrsIYneopXVzyJy61L23vW3vxGa9LkReEyniolWJv83Mvzr2zF9IP79ub364PsVIpryhEEvFw=w1379-h919-s-no-gm?authuser=0",
+        caption: "Détail des meurtrières et de l'appareil en granite"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPkzEtq8WBdn2zgQAdCAm8hoZnSGJSlYxTk7AIDa9smqwniZ2jg9ZqbZwmQRFXi6akYC6G0TIOrxsQK7UMPkgVKZUFpiTSc-Xelcz_cEw8tCjtfhP5ozm1Hw9xwGBsfR9pmL7xaYzdm65XFmrbfUdDjlQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "Panorama sur la vallée du Vecchio et les massifs"
+      }
     ],
     description: "Dressé sur un piton rocheux escarpé surplombant le défilé du Vecchio et la vallée de Vivario, le fortin de Pasciola (ou fort de Vivario) est un remarquable exemple d'architecture militaire de montagne édifié en 1771 par le corps royal du Génie sous les ordres du comte de Vaux. Conçu au lendemain de la bataille de Ponte-Novo et du rattachement de la Corse au royaume de France, cet ouvrage bastionné avait pour mission stratégique de verrouiller la voie de communication centrale reliant Corte à Ajaccio et de surveiller l'accès au col de Vizzavona face aux partisans paolistes insoumis. Érigé en moellons de granite et schiste locaux parfaitement taillés, le fortin adopte un plan polygonal compact flanqué d'échauguettes d'angle en briques et en pierre, percé de créneaux de tir et de meurtrières pour mousqueterie. Il abritait une garnison permanente logée dans des casemates voûtées, dotée d'une citerne taillée à même le socle rocheux garantissant son autonomie hydraulique en cas de siège. Bien qu'abandonné par l'armée dès le XIXe siècle au profit d'infrastructures routières et militaires modernes, l'édifice conserve fière allure, dominant les gorges sauvages et le spectaculaire viaduc ferroviaire conçu par Gustave Eiffel en contrebas.",
     visiter: "Gravir le sentier rocailleux ombragé par les châtaigniers et les pins laricio pour atteindre l'éperon rocheux où s'enracine la maçonnerie de granite. Examiner les échauguettes en encorbellement et les meurtrières de défense battant les anciens accès de la vallée du Vecchio. Faire le tour de la plate-forme sommitale pour profiter d'un panorama vertigineux à trois cent soixante degrés sur les massifs du Monte d'Oro et du Monte Rotondo, ainsi que sur les lacets de la route territoriale et les arches métalliques du viaduc ferroviaire d'Eiffel en contrebas.",
