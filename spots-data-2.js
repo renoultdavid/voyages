@@ -826,5 +826,3 @@ const SPOTS_2 = [
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
   },
 ];
-// Fusion immédiate avec la base principale de spots
-travelSpots.push(...SPOTS_2);
