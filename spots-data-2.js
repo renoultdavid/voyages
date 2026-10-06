@@ -120,7 +120,7 @@ const SPOTS_2 = [
       },
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczMNEg73D6ItK54vfe5-2_ExlmdyiRMSoWBKGJkwyQMnzW_R6GgjENc9yo-wc_ZCKoGGmL6_x7luAweq5Rc4-IVwJHfQ-wVkLrmLfVE9vsZRays5-kr4DwxlEYzqRr3xe-TeziOBflkwPM-lWPcOzdFmeQ=w1800-h1201-s-no-gm?authuser=0",
-        caption: "Vue d'ensemble de la nef et du chœur"
+        caption: "entrée extérieure"
       }
     ],
     description: "Édifiée au cœur du bourg à partir du XVe siècle sur les assises d'un sanctuaire plus ancien mentionné dès le haut Moyen Âge dans le cartulaire de Redon, l'église paroissiale Saint-Pierre-aux-Liens est un édifice emblématique des reconstructions religieuses du pays vannetais. Conçue selon un plan en croix latine avec bas-côtés, elle a fait l'objet de remaniements substantiels aux XVIe et XIXe siècles qui lui ont conféré sa silhouette imposante en grand appareil de granite gris. Sa façade occidentale est dominée par une puissante tour-clocher carrée épaulée de contreforts massifs, coiffée d'une chambre des cloches ajourée de baies en plein cintre et surmontée d'une flèche charpentée en ardoise. Dédiée à la délivrance miraculeuse de l'apôtre Pierre de sa prison romaine, l'église conserve dans son croisillon sud et son chevet des ouvertures gothiques aux réseaux flamboyants soignés, ornées de vitraux retraçant les épisodes fondateurs du christianisme local. L'intérieur est couvert d'une charpente lambrissée ornée de poutres sculptées et abrite un mobilier liturgique d'intérêt, notamment un chœur pourvu d'un maître-autel à retable en bois sculpté et doré du XVIIIe siècle ainsi qu'une collection de statues anciennes représentant saint Pierre tenant les clés du Paradis et saint Clair.",
@@ -413,7 +413,7 @@ const SPOTS_2 = [
       },
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczPkzEtq8WBdn2zgQAdCAm8hoZnSGJSlYxTk7AIDa9smqwniZ2jg9ZqbZwmQRFXi6akYC6G0TIOrxsQK7UMPkgVKZUFpiTSc-Xelcz_cEw8tCjtfhP5ozm1Hw9xwGBsfR9pmL7xaYzdm65XFmrbfUdDjlQ=w1379-h919-s-no-gm?authuser=0",
-        caption: "Panorama sur la vallée du Vecchio et les massifs"
+        caption: "vue intérieure"
       }
     ],
     description: "Dressé sur un piton rocheux escarpé surplombant le défilé du Vecchio et la vallée de Vivario, le fortin de Pasciola (ou fort de Vivario) est un remarquable exemple d'architecture militaire de montagne édifié en 1771 par le corps royal du Génie sous les ordres du comte de Vaux. Conçu au lendemain de la bataille de Ponte-Novo et du rattachement de la Corse au royaume de France, cet ouvrage bastionné avait pour mission stratégique de verrouiller la voie de communication centrale reliant Corte à Ajaccio et de surveiller l'accès au col de Vizzavona face aux partisans paolistes insoumis. Érigé en moellons de granite et schiste locaux parfaitement taillés, le fortin adopte un plan polygonal compact flanqué d'échauguettes d'angle en briques et en pierre, percé de créneaux de tir et de meurtrières pour mousqueterie. Il abritait une garnison permanente logée dans des casemates voûtées, dotée d'une citerne taillée à même le socle rocheux garantissant son autonomie hydraulique en cas de siège. Bien qu'abandonné par l'armée dès le XIXe siècle au profit d'infrastructures routières et militaires modernes, l'édifice conserve fière allure, dominant les gorges sauvages et le spectaculaire viaduc ferroviaire conçu par Gustave Eiffel en contrebas.",
