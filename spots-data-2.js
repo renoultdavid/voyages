@@ -1,5 +1,36 @@
 const SPOTS_2 = [
  {
+    id: "boesse_le_sec_croix_de_boesse",
+    name: "Boëssé-le-Sec - Croix de Boëssé",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Boëssé-le-Sec",
+    altitude: 77,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medieval",
+    era_label: "Croix de Carrefour Gothique Flamboyante & Calvaire Sculpté",
+    century: "XVe siècle",
+    category: "star",
+    counts: {},
+    lat: 48.011956,
+    lng: 0.266022,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNDuAk6rPRGAUC6CPGOXSnTH6A-PKDEk4RpLZKET2n0azm6tqOVBinpZKxN9Hm8tkf4MeHzGIpOZxarP01P6KdPG48ysV8pBmP45r2rnYvPYK7IGn2BHh_rmP5-HpAPGpJTMLcFrm-h7fKzqNi6Dzm8EA=w1611-h2416-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPX-v1yP7VZpakivvqMHL9-v0II8p8RsZmPgwA65IvotybiwjePZKa7Z9uOVRqw0Tc1dqtx8hf6cJvFxs2gCWAALBWWKYUY6lNC_BbQsNBD4RvG0SR_SJttZ-oFkrdLwTd-daifg1nqebYvwshRNIDmnQ=w1800-h1201-s-no-gm?authuser=0",
+        caption: "L'iconographie centrale présente une figure du Christ en croix, sculptée en relief sur le fût. La croix elle-même n'est pas une simple structure rectiligne ; ses extrémités se terminent par des fleurons imposants et des choux frisés, des motifs ornementaux caractéristiques de la période tardive du gothique."
+      }
+    ],
+    description: "Érigée à la croisée des chemins vicinaux au cœur du bocage sarthois, sur le territoire de Boëssé-le-Sec, cette croix monumentale en pierre calcaire constitue un remarquable témoin de la dévotion populaire et de la statuaire funéraire ou de carrefour de la fin du Moyen Âge. Datée du XVe siècle, en pleine période d'épanouissement du gothique flamboyant, elle a été taillée avec une virtuosité technique saisissante dans le calcaire tendre de la région, particulièrement adapté aux découpes fines et ajourées. Le monument repose sur un emmarchement circulaire et un socle massif mouluré qui supporte un fût octogonal élancé, couronné par une composition cruciforme d'une grande inventivité plastique. Loin d'une simple géométrie linéaire, les bras de la croix adoptent des profils polylobés richement festonnés et s'achèvent par d'imposants fleurons épanouis et des choux frisés caractéristiques de la modénature tardo-gothique normande et ligérienne. Au centre du croisillon, le sculpteur médiéval a ciselé en bas-relief une figure poignante du Christ en croix, entourée de motifs ornementaux végétaux sculptés avec un sens aigu du détail réaliste. Protégée au titre des monuments historiques pour son état de conservation remarquable, cette œuvre d'art lapidaire illustre le rôle spirituel et protecteur assigné à ces repères sacrés qui balisaient les voies rurales, protégeaient les récoltes et guidaient les voyageurs et pèlerins à travers le Haut-Maine.",
+    visiter: "S'approcher du monument depuis le bord du chemin pour observer l'emmarchement de pierre et le profil octogonal du fût calcaire patiné par le temps. Détailler à hauteur de regard et en contre-plongée la richesse ornementale des bras de la croix, notamment les choux frisés découpés et les grands fleurons terminaux typiques du XVe siècle. Faire le tour de l'ouvrage pour examiner la sculpture du Christ en croix et apprécier l'harmonieuse intégration de ce repère patrimonial au sein du paysage bocager environnant.",
+    link: ""
+  },
+ {
     id: "rennes_portes_mordelaises",
     name: "Rennes - Portes Mordelaises",
     country: "France",
