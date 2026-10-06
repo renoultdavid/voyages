@@ -12,7 +12,7 @@ const SPOTS_2 = [
     is_island: false,
     island_name: "",
     transport: "a_pied",
-    era_group: "nature,
+    era_group: "nature",
     era_label: "Champ de Bataille & Exploit des Rangers",
     century: "XXe siècle (1944)",
     category: "star",
@@ -826,3 +826,5 @@ const SPOTS_2 = [
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
   },
 ];
+// Fusion immédiate avec la base principale de spots
+travelSpots.push(...SPOTS_2);
