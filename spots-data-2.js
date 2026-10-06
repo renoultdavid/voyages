@@ -1,5 +1,133 @@
 const SPOTS_2 = [
  {
+    id: "ploeren_chapelle_notre_dame_de_bethleem_belean",
+    name: "Ploeren - Chapelle Notre-Dame de Bethléem de Béléan",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan (56)",
+    subdiv: "Ploeren",
+    altitude: 29,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medieval",
+    era_label: "Gothique Flamboyant & Charpente aux Engoulants",
+    century: "XVe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.679664,
+    lng: -2.818004,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPldwGCoe72nWfGMc43roDKhRRXfsE-KN0BeHrrX3uX2JPKkisdDLnzARk_qucX4coymdUxzPE8sh0nbbkG-M35asBVQ_63mlSfpTYLdm9LDLdqfxWgcA9gGfksghc9Dik9nO_mTRaQQSA2GYY5D1JAmw=w1800-h1201-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOgStuLQvjo51WEvYcE_iPA1ddB2Xz3nqDaEUGitYbzEDtnz5-2bBvtSJDiQ6D1HFaY5jP7l6IzUstG0CmNrv_2N54bw_Tn0ZnZjW5p9Ga_MvDnWjpLOlscsgOT1Ag48h53Q12n1iwqeWR6NLNghr-a5w=w1800-h1201-s-no-gm?authuser=0",
+        caption: "vue extérieure de la chapelle"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOHrZwQ00WQtqDOJEvlKXk7eFgRhiivKcKdTcmdqim1MapOk2sgZJkrBqdwhDlu_i7wT602ff8EzxddMnn85kVGCg3N2HaRJGAs3e3-VEuFrAYDiC0vCTOHrErSt1f2k6VQU1UwmCEncLog6ynxpr-SqA=w1611-h2416-s-no-gm?authuser=0",
+        caption: "porte principale"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOb1JKTcL8o3gsldcB3q__0ZZKX4yU1wlHffDjc3FEfLoPMvctIasKDPfrN9qG0ujx-Skhzz2Msq8EQ8UC38se1-qafjm2SUpY1Mq8MsIMqTrF2rlp6QDL4adgrQ4LtoOaV1rJdf8IiUOrBiz_6cKrRtw=w1611-h2416-s-no-gm?authuser=0",
+        caption: "façade principale"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPIKcvXzXm-NKrFqkQmJyYhrSOVEcXO5vGyDNudBqEla8Udfzoy-NzC4GDCmaGxwaQMTtZGAdLwOptPjqqtifwNlm0GOH7-Kwu8VUz06HUJbnK6vhRuV__CotVh7Hdn_s233PBP8jckuQIid5WGtLBIag=w1800-h1201-s-no-gm?authuser=0",
+        caption: "poutre avec têtes de crocodiles"
+      }
+    ],
+    description: "Édifiée à la fin du XVe siècle au village de Béléan, à la lisière des terroirs de Ploeren et de Vannes, la chapelle Notre-Dame de Bethléem constitue un remarquable témoignage du gothique flamboyant breton rural. Fondée sous le patronage des seigneurs locaux et des ordres hospitaliers, elle adopte un plan rectangulaire sobre orienté est-ouest, appareillé en moellons de granite et de schiste avec un chaînage soigné en pierre de taille. L'édifice se singularise par sa façade occidentale percée d'un portail en anse de panier surmonté d'une accolade à fleuron et pinacles effilés, typique de la modénature flamboyante du pays vannetais. L'intérêt patrimonial majeur de l'intérieur réside dans sa remarquable charpente lambrissée en carène de vaisseau renversée, dont les sablières et les entraits sculptés présentent des abouts en forme d'engoulants figurant des gueules de monstres marins et de crocodiles dévorant les poutres. Ce riche bestiaire sculpté dans le chêne comprend également des scènes cynégétiques, des angelots porteurs d'écussons et des masques grotesques d'une grande expressivité populaire. Le sanctuaire abrite une Vierge à l'Enfant dite Notre-Dame de Bethléem en bois polychrome ainsi qu'un retable de facture classique, témoins de la ferveur des pardons ruraux qui s'y perpétuent depuis l'époque ducale.",
+    visiter: "Observer depuis le placître herbeux le chevet plat ajouré d'une baie flamboyante à réseau trilobé et le clocheton de granite couronnant le pignon occidental. Détailler l'accolade sculptée du portail principal ornée de crosses végétales avant de franchir le seuil pour lever les yeux vers la charpente de chêne. Examiner attentivement les entraits pour repérer les fameux engoulants sculptés en têtes de crocodiles avalant les poutres ainsi que la frise narrative ornant les sablières.",
+    link: ""
+  },
+  {
+    id: "plescop_chapelle_notre_dame_de_lezurgan",
+    name: "Plescop - Chapelle Notre-Dame de Lézurgan",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan (56)",
+    subdiv: "Plescop",
+    altitude: 44,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medieval",
+    era_label: "Édifice Flamboyant & Haut Lieu Mémorial Vannetais",
+    century: "XVe siècle (1455)",
+    category: "religieux",
+    counts: {},
+    lat: 47.695223,
+    lng: -2.844846,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMgSHeXm6vubERAnCspgudKnEQEEVUSTWegk4KIZO1a7kZZV5oijk5hIR-b_d2jLGuL0OqnfVkVQHrIO_hqgiumSgBdeSOxR58dQmf19EMnY2bkEPdVwtEP9G5vFgscsrj97e-Wzk3g8O3UxJnAZIo4Xw=w1800-h1201-s-no-gm?authuser=0",
+    description: "Implantée dans un vallon paisible au sud-ouest du bourg de Plescop, la chapelle Notre-Dame de Lézurgan a été construite vers le milieu du XVe siècle, aux alentours de 1455, sous le règne du duc Pierre II de Bretagne. Érigée en grand appareil de granite d'une remarquable homogénéité, elle présente un plan régulier à vaisseau unique terminé par un chevet à trois pans coupés soutenu par d'épais contreforts biais. L'élévation sud déploie de remarquables ouvertures en arc brisé ornées de réseaux flamboyants polylobés, tandis que le clocheton ajouré dominant la toiture apporte une sobre verticalité à l'ensemble. Le site est intimement lié à la mémoire des guerres de la Chouannerie dans le Morbihan : en raison de son isolement au milieu des landes et des talus du pays vannetais, la chapelle servit de quartier général clandestin et de dépôt d'armes pour les officiers royalistes de Georges Cadoudal. À l'intérieur, l'espace est couvert d'un berceau lambrissé soutenu par une charpente de chêne décorée de sablières ouvragées représentant des scènes allégoriques médiévales. L'édifice conserve un maître-autel de pierre surmonté d'une statue ancienne de la Vierge couronnée tenant l'Enfant Jésus, objet séculaire d'une vénération intense lors du pardon annuel de Lézurgan.",
+    visiter: "Faire le tour extérieur pour apprécier l'appareil régulier des blocs de granite et la finesse des remplages flamboyants taillés dans les baies du chevet polygonal. Remarquer au niveau de la corniche les gargouilles saillantes et les modillons sculptés figurant des motifs végétaux et des têtes humaines expressives. Pénétrer dans la nef pour contempler la perspective sobre du chœur baigné de lumière naturelle et détailler les fragments de statues polychromes médiévales conservées in situ.",
+    link: ""
+  },
+  {
+    id: "plescop_menhir_de_lezurgan",
+    name: "Plescop - Menhir de Lézurgan",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan (56)",
+    subdiv: "Plescop",
+    altitude: 44,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "prehistoire",
+    era_label: "Mégalithe Granitique & Vestige Néolithique Armoricain",
+    century: "Néolithique",
+    category: "megalithe",
+    counts: {},
+    lat: 47.69543,
+    lng: -2.844947,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNsHCRQnNgkuJc2RWJX59iSxrQ-EIrZkPfeIAA6diRiVLb-8rQeRjDRYtsE4g0VgpKsvhqagNUNf-W4h2f6OENf67y71qqx8JtfkKFCHXsLpxzU7h4mA6M5xjwlUw_zSk_TEy_DTUcpfrUIwKZ4XAPK5g=w1611-h2416-s-no-gm?authuser=0",
+    description: "Dressé à quelques mètres seulement au nord de la chapelle Notre-Dame de Lézurgan, ce menhir monolithique témoigne de la très ancienne occupation humaine du bassin vannetais dès le Néolithique moyen, entre le Ve et le IVe millénaire avant notre ère. Taillé dans un bloc de granite local à gros grains, le mégalithe s'élève à près de deux mètres de hauteur au-dessus du sol actuel, présentant un profil élancé légèrement fusiforme et une face plane tournée vers le sud-est. Son implantation au sein de ce vallon humide n'est pas fortuite : à l'instar de nombreux monuments mégalithiques d'Armorique, il marquait sans doute un carrefour de voies préhistoriques, la proximité d'une source sacrée ou une limite de territoire communautaire pastorale. L'extrême proximité physique entre cette pierre levée païenne et la chapelle chrétienne du XVe siècle illustre de façon éclatante le phénomène récurrent de christianisation des hauts lieux cultuels préhistoriques en Bretagne, où l'Église médiévale choisissait délibérément de sanctifier les sites mégalithiques préexistants afin d'en canaliser la dévotion populaire sans heurter les traditions immémoriales.",
+    visiter: "S'approcher du bloc mégalithique pour observer l'érosion différentielle du granite soumise aux intempéries depuis plusieurs millénaires et les lichens qui en tapissent les arêtes. Se placer face au menhir avec la chapelle de Lézurgan en arrière-plan afin d'apprécier la remarquable juxtaposition spatiale entre le monument préhistorique et le bâti gothique. Parcourir le sous-bois environnant pour s'imprégner de l'atmosphère paisible et hors du temps de ce vallon chargé d'histoire.",
+    link: ""
+  },
+  {
+    id: "plescop_eglise_saint_pierre_aux_liens",
+    name: "Plescop - Église Saint-Pierre-aux-Liens",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan (56)",
+    subdiv: "Plescop",
+    altitude: 51,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medieval",
+    era_label: "Architecture Paroissiale & Enclos Religieux Breton",
+    century: "XVe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.698195,
+    lng: -2.805947,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPCHklxLrJ7Hsr8yrEVNiCpCTvbFvtuQTxgNzoME3dZcYWrU4TC2avhrqVSp4aOPizBbxbaQnU5SsWrxnLo5y_3RK0rktaEnWRel_lXVjlxAaIvrk-8P1OHCw5miqMriqlfA8pi3XLsCz0c6Grf6XOGhw=w1800-h1201-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPippHf-28WkHT3NDDzsV8y_cNSC4n32qr2myqtdpPFyjm25ZCRROyuLP0wnG0fS9F6NfwIc2FcaMGIDuzJQPDQO9cb2YQ0lyU5BURbucLKfOKYTju2o8bs-WXpvnKTnoIIIh0eFGTZ6fIteoegHN3cVQ=w1611-h2416-s-no-gm?authuser=0",
+        caption: "Façade et clocher-porche en granite"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMNEg73D6ItK54vfe5-2_ExlmdyiRMSoWBKGJkwyQMnzW_R6GgjENc9yo-wc_ZCKoGGmL6_x7luAweq5Rc4-IVwJHfQ-wVkLrmLfVE9vsZRays5-kr4DwxlEYzqRr3xe-TeziOBflkwPM-lWPcOzdFmeQ=w1800-h1201-s-no-gm?authuser=0",
+        caption: "Vue d'ensemble de la nef et du chœur"
+      }
+    ],
+    description: "Édifiée au cœur du bourg à partir du XVe siècle sur les assises d'un sanctuaire plus ancien mentionné dès le haut Moyen Âge dans le cartulaire de Redon, l'église paroissiale Saint-Pierre-aux-Liens est un édifice emblématique des reconstructions religieuses du pays vannetais. Conçue selon un plan en croix latine avec bas-côtés, elle a fait l'objet de remaniements substantiels aux XVIe et XIXe siècles qui lui ont conféré sa silhouette imposante en grand appareil de granite gris. Sa façade occidentale est dominée par une puissante tour-clocher carrée épaulée de contreforts massifs, coiffée d'une chambre des cloches ajourée de baies en plein cintre et surmontée d'une flèche charpentée en ardoise. Dédiée à la délivrance miraculeuse de l'apôtre Pierre de sa prison romaine, l'église conserve dans son croisillon sud et son chevet des ouvertures gothiques aux réseaux flamboyants soignés, ornées de vitraux retraçant les épisodes fondateurs du christianisme local. L'intérieur est couvert d'une charpente lambrissée ornée de poutres sculptées et abrite un mobilier liturgique d'intérêt, notamment un chœur pourvu d'un maître-autel à retable en bois sculpté et doré du XVIIIe siècle ainsi qu'une collection de statues anciennes représentant saint Pierre tenant les clés du Paradis et saint Clair.",
+    visiter: "Contempler depuis la place du bourg l'imposant clocher-tour en granite et repérer les cadrans solaires gravés dans la pierre sur la façade sud bien exposée. Pénétrer dans le porche pour découvrir la nef tripartite couverte de berceaux lambrissés en bois et s'avancer vers la croisée du transept. Examiner le retable du maître-autel avec ses colonnes torses et ses dorures d'époque classique, puis détailler la statuaire polychrome de saint Pierre aux liens conservée dans les chapelles latérales.",
+    link: ""
+  },
+ {
     id: "vitre_ville_medievale",
     name: "Vitré - Ville Médiévale",
     country: "France",
@@ -290,7 +418,7 @@ const SPOTS_2 = [
     ],
     description: "Dressé sur un piton rocheux escarpé surplombant le défilé du Vecchio et la vallée de Vivario, le fortin de Pasciola (ou fort de Vivario) est un remarquable exemple d'architecture militaire de montagne édifié en 1771 par le corps royal du Génie sous les ordres du comte de Vaux. Conçu au lendemain de la bataille de Ponte-Novo et du rattachement de la Corse au royaume de France, cet ouvrage bastionné avait pour mission stratégique de verrouiller la voie de communication centrale reliant Corte à Ajaccio et de surveiller l'accès au col de Vizzavona face aux partisans paolistes insoumis. Érigé en moellons de granite et schiste locaux parfaitement taillés, le fortin adopte un plan polygonal compact flanqué d'échauguettes d'angle en briques et en pierre, percé de créneaux de tir et de meurtrières pour mousqueterie. Il abritait une garnison permanente logée dans des casemates voûtées, dotée d'une citerne taillée à même le socle rocheux garantissant son autonomie hydraulique en cas de siège. Bien qu'abandonné par l'armée dès le XIXe siècle au profit d'infrastructures routières et militaires modernes, l'édifice conserve fière allure, dominant les gorges sauvages et le spectaculaire viaduc ferroviaire conçu par Gustave Eiffel en contrebas.",
     visiter: "Gravir le sentier rocailleux ombragé par les châtaigniers et les pins laricio pour atteindre l'éperon rocheux où s'enracine la maçonnerie de granite. Examiner les échauguettes en encorbellement et les meurtrières de défense battant les anciens accès de la vallée du Vecchio. Faire le tour de la plate-forme sommitale pour profiter d'un panorama vertigineux à trois cent soixante degrés sur les massifs du Monte d'Oro et du Monte Rotondo, ainsi que sur les lacets de la route territoriale et les arches métalliques du viaduc ferroviaire d'Eiffel en contrebas.",
-    link: "https://photos.google.com/share/AF1QipMZZAaDB98fr8XWMKluZeJr8cdl7SRYuP9Ki-YfvlLUXrOpTliMMcX-oXv6t3Covg?key=ZU1HeTlMMzVzQnF6cV9jeFJtMzNMQUMxb2Z3RGJ3"
+    link: ""
   },
   {
     id: "lucciana_musee_archeologique_mariana",
