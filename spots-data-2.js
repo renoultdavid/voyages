@@ -1,13 +1,13 @@
 const SPOTS_2 = [
  {
-    id: "boesse_le_sec_croix_de_boesse",
-    name: "Boëssé-le-Sec - Croix de Boëssé",
+    id: "yvre_l_eveque_croix_de_boesse",
+    name: "Yvré-l'Évêque - Croix de Boëssé",
     country: "France",
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
     department: "Sarthe (72)",
-    subdiv: "Boëssé-le-Sec",
+    subdiv: "Yvré-l'Évêque",
     altitude: 77,
     is_island: false,
     island_name: "",
@@ -15,7 +15,7 @@ const SPOTS_2 = [
     era_group: "medieval",
     era_label: "Croix de Carrefour Gothique Flamboyante & Calvaire Sculpté",
     century: "XVe siècle",
-    category: "star",
+    category: "religieux",
     counts: {},
     lat: 48.011956,
     lng: 0.266022,
@@ -26,7 +26,7 @@ const SPOTS_2 = [
         caption: "L'iconographie centrale présente une figure du Christ en croix, sculptée en relief sur le fût. La croix elle-même n'est pas une simple structure rectiligne ; ses extrémités se terminent par des fleurons imposants et des choux frisés, des motifs ornementaux caractéristiques de la période tardive du gothique."
       }
     ],
-    description: "Érigée à la croisée des chemins vicinaux au cœur du bocage sarthois, sur le territoire de Boëssé-le-Sec, cette croix monumentale en pierre calcaire constitue un remarquable témoin de la dévotion populaire et de la statuaire funéraire ou de carrefour de la fin du Moyen Âge. Datée du XVe siècle, en pleine période d'épanouissement du gothique flamboyant, elle a été taillée avec une virtuosité technique saisissante dans le calcaire tendre de la région, particulièrement adapté aux découpes fines et ajourées. Le monument repose sur un emmarchement circulaire et un socle massif mouluré qui supporte un fût octogonal élancé, couronné par une composition cruciforme d'une grande inventivité plastique. Loin d'une simple géométrie linéaire, les bras de la croix adoptent des profils polylobés richement festonnés et s'achèvent par d'imposants fleurons épanouis et des choux frisés caractéristiques de la modénature tardo-gothique normande et ligérienne. Au centre du croisillon, le sculpteur médiéval a ciselé en bas-relief une figure poignante du Christ en croix, entourée de motifs ornementaux végétaux sculptés avec un sens aigu du détail réaliste. Protégée au titre des monuments historiques pour son état de conservation remarquable, cette œuvre d'art lapidaire illustre le rôle spirituel et protecteur assigné à ces repères sacrés qui balisaient les voies rurales, protégeaient les récoltes et guidaient les voyageurs et pèlerins à travers le Haut-Maine.",
+    description: "Érigée au lieu-dit Boëssé sur le territoire communal d'Yvré-l'Évêque, aux portes orientales du Mans, cette croix monumentale en pierre calcaire constitue un remarquable témoin de la dévotion populaire et de la statuaire de carrefour de la fin du Moyen Âge dans le Haut-Maine. Datée du XVe siècle, en pleine période d'épanouissement du gothique flamboyant, elle a été taillée avec une virtuosité technique saisissante dans la pierre de taille locale, matériau de prédilection des imagiers manceaux permettant des ciselures d'une extrême finesse. Le monument repose sur un emmarchement circulaire et un socle massif mouluré qui supporte un fût octogonal élancé, couronné par une composition cruciforme d'une grande inventivité plastique. Loin d'une simple géométrie linéaire, les bras de la croix adoptent des profils polylobés richement festonnés et s'achèvent par d'imposants fleurons épanouis et des choux frisés caractéristiques du répertoire architectural flamboyant. Au centre du croisillon, le sculpteur médiéval a ciselé en bas-relief une figure poignante du Christ en croix, entourée de motifs végétaux sculptés avec un sens aigu du détail ornemental. Classée au titre des monuments historiques pour son exceptionnelle qualité d'exécution, cette œuvre d'art lapidaire illustre le rôle spirituel et protecteur assigné à ces calvaires ruraux qui balisaient les carrefours vicinaux et guidaient les voyageurs sur les anciens chemins diocésains.",
     visiter: "S'approcher du monument depuis le bord du chemin pour observer l'emmarchement de pierre et le profil octogonal du fût calcaire patiné par le temps. Détailler à hauteur de regard et en contre-plongée la richesse ornementale des bras de la croix, notamment les choux frisés découpés et les grands fleurons terminaux typiques du XVe siècle. Faire le tour de l'ouvrage pour examiner la sculpture du Christ en croix et apprécier l'harmonieuse intégration de ce repère patrimonial au sein du paysage bocager environnant.",
     link: ""
   },
