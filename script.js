@@ -2427,15 +2427,20 @@ function renderEnrichedCarnetMode(spot, layout) {
   const catKey = spot.category;
   const catConf = (typeof CATEGORIES !== 'undefined' && CATEGORIES[catKey]) ? CATEGORIES[catKey] : { label: catKey, color: '#06b6d4' };
 
-  const bannerImg = spot.banner || spot.image;
+  // 1. Bandeau : uniquement si un visuel dédié "banner" est renseigné
+  let bannerMarkup = '';
+  if (spot.banner && spot.banner.trim() !== '') {
+    bannerMarkup = `
+      <div class="w-full max-h-72 rounded-2xl overflow-hidden bg-slate-950 border border-slate-800 shadow-2xl relative">
+        <img src="${spot.banner}" alt="${spot.name}" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+      </div>
+    `;
+  }
+
   let headerHtml = `
     <div class="space-y-4 max-w-5xl mx-auto">
-      ${bannerImg ? `
-        <div class="w-full h-48 sm:h-64 md:h-80 rounded-2xl overflow-hidden bg-slate-950 border border-slate-800 shadow-2xl relative">
-          <img src="${bannerImg}" alt="${spot.name}" class="w-full h-full object-cover">
-          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
-        </div>
-      ` : ''}
+      ${bannerMarkup}
 
       <div class="space-y-2">
         <div class="flex flex-wrap items-center gap-2">
@@ -2472,22 +2477,23 @@ function renderEnrichedCarnetMode(spot, layout) {
     </div>
   `;
 
+  // 2. Grilles de photos : proportions respectées (object-contain) et clic pour zoomer
   let sectionsHtml = '<div class="space-y-10 max-w-5xl mx-auto">';
   spot.sections.forEach((sec) => {
     let photosMarkup = '';
     if (Array.isArray(sec.photos) && sec.photos.length > 0) {
       if (sec.photos.length === 1) {
         photosMarkup = `
-          <div class="w-full max-h-[72vh] rounded-2xl overflow-hidden bg-black/60 border border-slate-800 shadow-xl flex items-center justify-center">
-            <img src="${sec.photos[0]}" alt="${sec.title || spot.name}" class="max-h-[72vh] w-auto object-contain mx-auto">
+          <div class="w-full rounded-2xl overflow-hidden bg-black/60 border border-slate-800 shadow-xl flex items-center justify-center p-1">
+            <img src="${sec.photos[0]}" alt="${sec.title || spot.name}" class="max-h-[75vh] w-auto max-w-full rounded-xl object-contain mx-auto cursor-zoom-in hover:opacity-95 transition" onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
           </div>
         `;
       } else {
         photosMarkup = `
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
             ${sec.photos.map(p => `
-              <div class="h-64 sm:h-80 rounded-2xl overflow-hidden bg-black/60 border border-slate-800 shadow-xl flex items-center justify-center">
-                <img src="${p}" alt="${sec.title || spot.name}" class="w-full h-full object-cover">
+              <div class="w-full h-80 sm:h-96 md:h-[460px] rounded-2xl overflow-hidden bg-black/60 border border-slate-800 shadow-xl flex items-center justify-center p-2">
+                <img src="${p}" alt="${sec.title || spot.name}" class="max-h-full max-w-full object-contain mx-auto rounded-xl cursor-zoom-in hover:scale-[1.02] transition-transform duration-200" onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
               </div>
             `).join('')}
           </div>
@@ -2506,6 +2512,35 @@ function renderEnrichedCarnetMode(spot, layout) {
   sectionsHtml += '</div>';
 
   layout.innerHTML = headerHtml + sectionsHtml;
+}
+
+// -------------------------------------------------------------------------
+// ZOOM PLEIN ÉCRAN AU CLIC (LIGHTBOX)
+// -------------------------------------------------------------------------
+function openLightboxZoom(src, title) {
+  let box = document.getElementById('carnet-lightbox-zoom');
+  if (!box) {
+    box = document.createElement('div');
+    box.id = 'carnet-lightbox-zoom';
+    box.className = 'fixed inset-0 z-[10000] bg-black/95 backdrop-blur-md flex flex-col items-center justify-center p-3 select-none cursor-zoom-out';
+    box.onclick = closeLightboxZoom;
+    box.innerHTML = `
+      <button class="absolute top-4 right-4 w-10 h-10 rounded-full bg-slate-900/80 border border-slate-700 text-white flex items-center justify-center hover:bg-rose-900/80 transition" onclick="closeLightboxZoom()">
+        <i class="fa-solid fa-xmark text-lg"></i>
+      </button>
+      <img id="carnet-lightbox-img" src="" alt="Agrandissement" class="max-w-[95vw] max-h-[88vh] object-contain rounded-lg shadow-2xl">
+      <div id="carnet-lightbox-caption" class="mt-3 text-xs sm:text-sm text-slate-300 font-medium text-center px-4 max-w-3xl"></div>
+    `;
+    document.body.appendChild(box);
+  }
+  document.getElementById('carnet-lightbox-img').src = src;
+  document.getElementById('carnet-lightbox-caption').innerText = title || '';
+  box.style.display = 'flex';
+}
+
+function closeLightboxZoom() {
+  const box = document.getElementById('carnet-lightbox-zoom');
+  if (box) box.style.display = 'none';
 }
 
 function renderClassicViewerMode(spot, layout) {
