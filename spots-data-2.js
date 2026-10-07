@@ -1090,7 +1090,42 @@ const SPOTS_2 = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczMGa12RhEv2kwjnLPDftw3TgYQpdr-HeqeTJ_SwSVXAtgaPKj2I8XwZy033Ye8LbxY19iCvoiezszwkoiRS-sqXQd1c9NRvC_wm_lhnaTHp11oDDHtehhkAOHuvd57l_4q79Vehshd4yJxcak8cssT1tg=w1379-h919-s-no-gm?authuser=0",
     description: "Avancée rocheuse dominant la Manche du haut de falaises de calcaire hautes d'une trentaine de mètres, la pointe du Hoc constituait une position stratégique majeure du mur de l'Atlantique, verrouillant l'espace maritime entre les plages de débarquement d'Utah Beach à l'ouest et d'Omaha Beach à l'est. L'Organisation Todt y avait aménagé une redoutable batterie côtière composée de six encuvements et casemates en béton armé armés de pièces de cent cinquante-cinq millimètres susceptibles de pilonner les flottes de débarquement alliées. Au matin du 6 juin 1944, deux cent vingt-cinq soldats d'élite du 2nd US Ranger Battalion, commandés par le lieutenant-colonel James Earl Rudder, prennent d'assaut cette position réputée imprenable. Escaladant la paroi verticale sous les tirs ennemis à l'aide de grappins, d'échelles de corde et de cordages propulsés par fusées, les Rangers parviennent au sommet au prix de lourdes pertes, découvrant que les canons avaient été déplacés en retrait dans les terres où ils finissent par les neutraliser. Le site a été préservé dans son état d'après-bataille, offrant un paysage lunaire bouleversé par des centaines de cratères d'obus d'artillerie navale et de bombes aériennes, jalonné de casemates disloquées et de bunkers éventrés.",
     visiter: "Suivre le cheminement balisé serpentant entre les profonds entonnoirs d'explosion tapissés d'herbe qui témoignent de la violence inouïe des bombardements préparatoires. Pénétrer dans les bunkers et abris souterrains en béton armé encore noircis par les déflagrations, puis s'avancer prudemment jusqu'au poste d'observation et de direction de tir coiffé du monument commémoratif des Rangers pour admirer le vide vertical des falaises plongeant dans la mer.",
-    link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
+    link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB",
+    sections: [
+      {
+        title: "Le verrou fortifié et l'assaut des Rangers",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOhaMDOV0hKwZXiaaGshUX9VKIIoXpTp01dQZqyGTicLy6G5q70hltEFffqDv7FxCNXEuJ7sj3AzT13ZfN-5UjIVfdCDTNqvGpBjKvUxheZ5R6OTWOYltVGUwiBeADdB7u8aI_abtFFHcDA5OYoRGz_5Q=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPt8b-4qx5igCouudQDm-xuSU4WaYF-kQ9o-E4RXXI4IAFeuJAdHk9sKyZ6jyAJBBafw9TdniDK8gOBD9M-74YghKm7cyX87OATBeBrkrQ0txA_NJIGRawIHQEvsU04nXK2x59BaQ852ZHrz23FKQW-6Q=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNeSl76cecYFygMfCkl_9wxNVzhe7hyRyXeYfSQyxgElvEVW_nxWMSOtICdgatUJoJzVkp2pKaTsuYvZ8WDmJMGURqs8j6uR6Up8BiHxm12Mh1mDfPzvG2XA6MaxkmYwX42mxoZHXvDW1mCP-I4IGHtAQ=w1822-h1215-s-no-gm?authuser=0"
+        ],
+        text: "Dressée sur une falaise calcaire abrupte dominant la Manche d'une trentaine de mètres entre Omaha Beach et Utah Beach, La Pointe du Hoc constitue l'un des champs de bataille les plus saisissants et les mieux préservés de la Seconde Guerre mondiale. Ce promontoire stratégique abritait une redoutable batterie côtière du Mur de l'Atlantique dotée de six canons de 155 mm capables de pilonner les deux secteurs de débarquement américains et la flotte d'invasion. Au matin du 6 juin 1944, les deux cent vingt-cinq soldats d'élite du 2e bataillon de Rangers du lieutenant-colonel James Earl Rudder escaladèrent la paroi verticale sous le feu ennemi à l'aide de cordes, d'échelles de corde et de grappins propulsés par fusées. Au terme de combats d'une férocité inouïe au corps à corps et de violentes contre-attaques allemandes durant quarante-huit heures, seuls quatre-vingt-dix Rangers étaient encore valides lorsque les renforts parvinrent enfin à briser leur encerclement le 8 juin."
+      },
+      {
+        title: "Le paysage lunaire des cratères et casemates éventrées",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNyXk06qOV1njzp-iLry-FYgDveZWDSwq1hDxB67Xy6nDOlBhg9YT8tu3OD_L6UKRav0vzuLwoVJ8bQkixOXzE9-1Wv0e-TxYAqU2aaectHBEo4zTuw02IGNHpbdC3V8vbe9-4JKP3rvmp0dbrCJFcRIA=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMGa12RhEv2kwjnLPDftw3TgYQpdr-HeqeTJ_SwSVXAtgaPKj2I8XwZy033Ye8LbxY19iCvoiezszwkoiRS-sqXQd1c9NRvC_wm_lhnaTHp11oDDHtehhkAOHuvd57l_4q79Vehshd4yJxcak8cssT1tg=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMG6HemozICn9IQcdze_NrhuTJkaeQEz_ebu4lgJvn-CK3LFOyP-0Ac9x9cODYc1JeiKrUGCbcLvmAUmkGfY_w_Yji-8JifQtrfIqp42Y7z6klPBphcNuqLrgpOTY_dnhIkY5gzBzGNt_1jTMQb8S1Htw=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Le sol du plateau, laissé en l'état après le conflit, offre aujourd'hui un paysage lunaire bouleversant creusé de dizaines d'entonnoirs profonds nés des bombardements massifs de l'aviation et de l'artillerie de marine alliées. Les visiteurs déambulent au milieu des casemates en béton armé éventrées, des tobrouks de défense rapprochée et des vestiges de soutes à munitions déchiquetées par les explosifs. Le poste de direction de tir allemand, situé à la pointe extrême du cap rocheux face à l'immensité des flots, a été soigneusement consolidé pour résister à l'érosion marine et abrite à son sommet le monument officiel rendant hommage au courage des assaillants."
+      },
+      {
+        title: "Le mémorial des Rangers et le sacrifice pour la liberté",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNmXRtIzrU-o0TDxwOmia--4SzKsQ8Olt-iO66wsW8kvgjmgbC5oL-1M6krUc4oDZPAYRw6B6PnLjlseQCtBmzewnlKGNZo4wf8GapkYLybc8mGsGsKJu-lyzGIl09anRIXhmNmyhZfNmRLPncqlG4yJQ=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM0dAEd6QPp0IwFLYHRMKxbNYCfwWwLRoAowFV_7czt-aNa76FK8MJp2Yso9jNqxY7kX2i8qhmucencSbrZVcZNp7NPEkmaRCqiw7ShdW2ZvA0ygGjUkg5Ck8lJv1HqTcjb-d66NBo3fy3xw4U0cXvGQw=w1822-h1215-s-no-gm?authuser=0"
+        ],
+        text: "Cet obélisque de granit dressé en forme de dague de commando s'élance vers le ciel au-dessus de la mer pour perpétuer le souvenir du sacrifice héroïque des Rangers américains. La charge émotionnelle du site, confié par la France à l'American Battle Monuments Commission, réside dans cette confrontation intacte entre la fureur destructrice des armes et la dignité du recueillement mémoriel. Ce sanctuaire minéral et militaire demeure le symbole universel de la détermination et de l'abnégation des forces alliées pour reconquérir la liberté du continent européen."
+      },
+      {
+        title: "Perspective sur la falaise",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOgtLIjHrxx87EBkZyc2OBxEff79KktvPeFdRWJ8J4H7GQHJRo3DwVlxMG3HE_XmPZAjj81iA7gsMrl0E7ieDHLHsonLTISLkdnWlozUd-ZSg3L3-EQKRW-eEKcWnv4LUVunArZ_CcgHjBAuW3SkOKpGA=w1822-h1215-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "vierville_sur_mer_omaha_beach_wn72",
@@ -1188,6 +1223,16 @@ const SPOTS_2 = [
     lat: 49.348257,
     lng: -0.856258,
     image: "https://lh3.googleusercontent.com/pw/AP1GczP3ytC7wD3dpFB_BuxaXfKjfIbFcgsv9Y9EKUd2LcmzmmmrzYKwm0iJzrx8Z5ywQnVxeHpiGgUVSD4flVX0pHuhEDMqA4iQdxa0Ji4SaLVuDgQatPTaul1q6-Cr12J_buTiIhir1RigqQv0Kw0eYg03mQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMyvkuz8oaWKpvtIQ8OH1myOM20gcKGoP081b1HZ1f756sEvmbBUCy4MPyLUXmQVOAt3zV-fzigzEChV2LxJOxwfdjZelkxjHCbam86r9kpcdS4zreKq60n5eMLgZ5lxdsaWL-8lvKOUKeethlvIEn-fg=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOZ5SnfQam-vuafKxL1_2g5jEWHFEwRO4uRfyaH9JD9ErMCPzJGNLPuH4cuKjSIQRe06hjidUVOQfAxg21vFOb9KSrclOGUYz7iKCHjaUBXM3IoX2kJwwi63E9fRgJx5-WvCZIRUg3KkiMTOI2Q0i35OQ=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Implanté au carrefour d'accès menant au cimetière américain de Colleville-sur-Mer, l'Overlord Museum abrite l'une des plus exceptionnelles collections privées de matériel militaire consacrées à l'opération Overlord et à la bataille de Normandie. Fruit de plus de quarante années de recherches et d'acquisitions menées par Michel Leloup, témoin direct des combats de 1944, l'établissement déploie sur plus de deux mille mètres carrés d'exposition couverte une muséographie immersive remarquable. Le parcours présente des dioramas à l'échelle un reconstituant des scènes de combat réalistes, combinant mannequins en uniformes d'époque d'une rigoureuse authenticité, effets personnels et véhicules lourds entièrement restaurés dans leur état de marche d'origine. Les collections rassemblent plus de quarante blindés, canons et véhicules de transport alliés et allemands, parmi lesquels un rare char Sherman M4, des engins chenillés semi-automoteurs, des véhicules de reconnaissance, des barges fluviales ainsi qu'une bombe volante V1 sur sa rampe. L'exposition s'attache à retracer chronologiquement la planification de l'assaut maritime et aéroporté du 6 juin jusqu'à l'anéantissement de la VIIe armée allemande dans la poche de Falaise-Chambois à la fin du mois d'août 1944.",
     visiter: "Déambuler dans les grands halls d'exposition pour examiner au plus près les engins blindés rares et détailler l'équipement tactique présenté dans les vitrines thématiques. Observer la scénographie travaillée des dioramas qui intègre des gravats, des façades normandes reconstituées et des véhicules en situation de combat. Terminer la visite en contournant l'esplanade extérieure où sont exposés des pièces d'artillerie lourde, des blindés et un imposant canon antiaérien allemand de quatre-vingt-huit millimètres.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
@@ -1213,6 +1258,16 @@ const SPOTS_2 = [
     lat: 49.359237,
     lng: -0.853226,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOZgMabZ98Heb8baVOk7TY9pzZXJBNLdoMPUpj93IzttFwldZbWR18H1zj1oBAZe7qPgoR4Y-DnsOpAZUX6lmFEeVzfkX9D827xH1S_6Uqf91p2_0EYv1UamxAPhCG-ZnD1X6q3B8i5Io7RQWg0XM3YOg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP0tuIIsIBUHyFN-F5kwouUBJfP3kJA98bApqPES9suu_ip7l4oKtHa9ZGYc-2X7FgSwoh_5tEHaok-4R0PZWisrVqYdAEwrDMlEmNkn17cv-1fIbHD8oPEl2z6Q4S7V-Oupl1VWtutkP3OwvOs-XVfUA=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPTd2-Q2wxqpKhImo5kBIRhWjFa1WsQ_QZJ79JOGFb1w1dWDecpNX9dkokaW3Ruekw2u8YskJH_XmR8P0yc24Q3cXFTOEjr5MgoZnQrGy-Q5zEPPh9OL4-2j1pa3J82nQRWTf3-CC-ZMvMQv3KZpHDWBw=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Dominant la perspective orientale du Normandy American Cemetery and Memorial de Colleville-sur-Mer, ce mémorial solennel a été conçu par les architectes new-yorkais Harbeson, Hough, Livingston et Larson. L'ensemble architectural s'articule autour d'une monumentale colonnade semi-circulaire en calcaire du Jura d'inspiration néoclassique, enserrant une vaste esplanade de granit au centre de laquelle trône une majestueuse statue en bronze haute de plus de sept mètres. Réalisée par le sculpteur américain Donald De Lue, cette œuvre allégorique intitulée « L'Esprit de la jeunesse américaine s'élevant des flots » personnifie le sacrifice et la bravoure des milliers de jeunes soldats tombés sur les plages normandes. Les deux loggias encadrant la colonnade abritent de monumentales cartes militaires en émail grand feu et mosaïque de pierres colorées, détaillant avec précision le plan stratégique des opérations aéroportées, les convois du Débarquement et le déroulement de la bataille de Normandie. À l'arrière de l'hémicycle s'étend le paisible Jardin des Disparus, constitué d'un mur en arc de cercle gravé des noms de mille cinq cent cinquante-sept soldats américains portés disparus au combat et dont les corps n'ont jamais pu être retrouvés.",
     visiter: "Avancer au centre de l'hémicycle pour admirer la dynamique de la statue en bronze de Donald De Lue se reflétant dans le grand bassin miroir d'eau qui lui fait face. Détailler sous les loggias latérales les immenses cartes murales polychromes expliquant les phases tactiques du Débarquement naval et des opérations aériennes. Parcourir avec recueillement le Jardin des Disparus à l'arrière de la colonnade pour lire les noms gravés dans la pierre calcaire des soldats portés disparus.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
@@ -1235,9 +1290,19 @@ const SPOTS_2 = [
     century: "XXIe siècle (2007)",
     category: "musee",
     counts: {},
-    lat: 49.358607,
+    lat: 48.358607,
     lng: -0.851414,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNZDLvUucm5jfycj3BNSFKFTi4De9bQX5H3FT79I0qYjCGNK5AbzyguuRbTJvJGqTGgygu7ycTyl88_mIBvRpOS5FVt_wWLSOgoZCXNGkKnsLYeruOaCF59IYYXhmGcmZs7dhML_Gexsj4fEeeQmd2oZg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPTEWi7TsKGHPcjW8ZH7y-vS6N4q7wvpHchFu1oTapPrrSJrNXtm3HOWLM1VmbTcIT5CfuQvwocjJwlOx_rGAtG1YKBlT_70j_5GzUWxl_TaA5uYon-elbWurX6_FVi3ceOpIF9n_sxu2sEO9DZ_8bKMg=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN-N2jeTHrXR1WlRou2ITFNWQV8j67iTQMcMhgyqJvKiqLslT2kPSMgB7xnSA1TV6z4BmfN-kZpBkotsZ8QYHGAhvmo0aydrJPzqVdzugnvLixnBptBgco3yVRPQJJc_OdCZiqIMejLTAYBDzgOFTdGmA=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Inauguré en juin 2007 par l'American Battle Monuments Commission (ABMC) à l'occasion du 63e anniversaire du Débarquement, le Visitor Center du cimetière américain de Colleville-sur-Mer sert de seuil d'introduction historique et pédagogique au site funéraire. Conçu selon des lignes architecturales contemporaines épurées mêlant baies vitrées monumentales, parois de calcaire blond et structures d'acier sombre, l'édifice s'intègre discrètement dans le paysage boisé du plateau littoral sans troubler le recueillement de la nécropole. Les galeries intérieures déploient une exposition permanente d'une grande rigueur documentaire, articulée autour de récits de vie individuels, d'objets militaires authentiques, de lettres de soldats et de témoignages audiovisuels poignants. Le parcours explicite la genèse de l'opération Overlord, les enjeux géopolitiques de la libération de l'Europe occidentale et l'ampleur sans précédent du soutien logistique engagé par les États-Unis. La muséographie met tout particulièrement en lumière le courage des combattants d'Omaha Beach et des rangers de la pointe du Hoc, offrant une contextualisation indispensable avant d'accéder aux rangées silencieuses des croix de marbre blanc.",
     visiter: "Franchir le pavillon d'accueil pour découvrir le parcours muséographique jalonné d'installations interactives, de films d'archives d'époque et d'objets personnels ayant appartenu aux soldats inhumés sur le site. Observer depuis la grande baie vitrée d'extrémité la vue en perspective s'ouvrant sur les bosquets bordant l'allée centrale du cimetière. S'attarder devant le mur mémorial diffusant en continu les photographies et biographies de combattants avant de sortir vers le parc commémoratif.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
@@ -1263,6 +1328,16 @@ const SPOTS_2 = [
     lat: 49.359951,
     lng: -0.85608,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNcPmNU7yVhTziWh3vP7pTlI4rVBO3ixdflmBPeYFywT4kfbRYG12FM6jADerO_sgm9KTv_mNeRgZt11cKLxMGExENamHuu1BT4B7GonzMSNEzdrqVqyAance-s3_W_khzwZXwNw0rMJyt2CKbn_dejXQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNT1jW2J8E1__nUV-ShbQN_f7bWcVZCrMaTE_rz3s5pk2jm5CA1khxRbpsTKlK-kS8whOnvECWoXfhXdf8oUQt0YFtLNZSY9ZrYDBVC7_90_VRQR6ix9Tc8MbhTMKicM0AkkhC9AL6vBMw5tyIL3mBQ5Q=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPV4Zbcx_ojaXbqB4je05m6ldv1DoUxKWKeHy-Pg0JIwXMxkdoN9-WLMF2UytbhCtUjjS6xxwE8i6yRHl6fWLwNk4Yedy5CWn9XYexhllKtTsHtVgYYSN7CggYOK3VzcoisxTku1vXURwC9CJrJDrCcvQ=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Établi au sommet de la falaise dominant Omaha Beach, sur un domaine de soixante-dix hectares concédé à perpétuité par la France aux États-Unis, le cimetière américain de Colleville-sur-Mer est la nécropole militaire américaine la plus visitée au monde. Aménagé dès le 8 juin 1944 sous le nom de cimetière provisoire de Saint-Laurent par les services des sépultures de la First Army, le site définitif a été inauguré en 1956 après des travaux paysagers colossaux menés par les architectes Markley Stevenson et Harbeson. Il rassemble les sépultures de neuf mille trois cent quatre-vingt-huit soldats américains tombés lors du Débarquement et des opérations de la bataille de Normandie, ainsi que quatre femmes membres des services auxiliaires civils et militaires. Les tombes sont matérialisées par de strictes stèles immaculées en marbre blanc de Carrare, taillées sous la forme de croix latines ou d'étoiles de David pour les défunts de confession juive, parfaitement alignées sur une pelouse irréprochable rythmée de pins parasols et de massifs fleuris. Parmi les personnalités inhumées figurent le général de brigade Theodore Roosevelt Jr, fils du président Theodore Roosevelt et médaillé d'honneur du Congrès, ainsi que les frères Niland, dont le destin tragique a inspiré le scénario du film « Il faut sauver le soldat Ryan ».",
     visiter: "Déambuler en silence le long des allées géométriques divisées en dix carrés funéraires pour apprécier l'alignement visuel parfait des milliers de croix de marbre blanc se détachant sur le vert des pelouses. Rejoindre la table d'orientation aménagée en belvédère au bord du plateau pour embrasser d'un regard toute l'étendue de la plage d'Omaha Beach en contrebas. Repérer les sépultures remarquables des récipiendaires de la Medal of Honor signalées par des lettres gravées et dorées à l'or fin.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
