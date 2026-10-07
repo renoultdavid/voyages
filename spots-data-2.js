@@ -64,21 +64,39 @@ const SPOTS_2 = [
     region_admin: "Bretagne",
     department: "Ille-et-Vilaine (35)",
     subdiv: "Rennes",
-    altitude: 34,
+    altitude: 48,
     is_island: false,
     island_name: "",
     transport: "a_pied",
-    era_group: "moderne",
-    era_label: "Façade Classique à Ordres Superposés & Décor Ultramontain",
-    century: "XVIe siècle",
+    era_group: "contemporain",
+    era_label: "Cathédrale Classique & Fastes Ultramontains du Second Empire",
+    century: "XIXe siècle (1844)",
     category: "religieux",
     counts: {},
-    lat: 48.111566,
-    lng: -1.683122,
-    image: "https://lh3.googleusercontent.com/pw/AP1GczP7QdNaETTdoalIbqVUwv5qLmbQdEZYYwlxIaAf0nEkm_UipQ_ZddcyCN7Llhwdhz0Tqwewi8AZ3HLLneRrGU1MKT9ME_eE0VMwqgOl3zZBqjsIoOLqVoK4nfEvzLB8Ol1-r6Xc_ep6vAtXZdxDg-h9oA=w1800-h1201-s-no-gm?authuser=0",
-    description: "Siège de l'archevêché métropolitain de Rennes, la cathédrale Saint-Pierre surprend par le contraste saisissant entre sa silhouette extérieure d'esprit classique et la magnificence néoclassique et ultramontaine de son intérieur. Après l'effondrement progressif du grand sanctuaire gothique médiéval au XVe siècle, la reconstruction s'ouvre en 1541 par l'élévation d'une monumentale façade occidentale en granit de Fougères, achevée en 1704 selon les plans revus par l'architecte Tugal Caris. Cette composition harmonique à deux tours massives de près de cinquante mètres de haut superpose quatre ordres architecturaux classiques inspirés des traités de la Renaissance italienne (toscan, dorique, ionique et corinthien). Entre 1787 et 1844, la nef et le chœur sont intégralement reconstruits dans un style basilical grandiose sous la conduite de l'architecte Mathurin Crucy. L'espace intérieur déploie quarante-quatre colonnes ioniques cannelées en stuc blanc soutenant une immense voûte en berceau constellée de caissons dorés à l'or fin, enrichie sous le Second Empire de fresques murales et de peintures de scènes bibliques signées Jobbé-Duval. Sanctuaire du couronnement des ducs et duchesses de Bretagne, l'édifice abrite parmi ses chefs-d'œuvre patrimoniaux un exceptionnel retable flamand en bois sculpté et doré du début du XVIe siècle dédié à la vie de la Vierge, sauvé des pillages et des incendies.",
-    visiter: "Prendre du recul dans l'étroite rue de la Monnaie pour embrasser du regard la superposition des ordres d'architecture de la façade en granit et les devises du roi Louis XIV gravées au fronton. Franchir le portail central pour être saisi par la clarté éclatante des colonnades ioniques et la profusion des ors habillant la voûte en berceau à caissons. S'avancer impérativement dans le bas-côté sud pour admirer les détails foisonnants du grand retable anversois en chêne polychrome du XVIe siècle, véritable dentelle de bois sculpté représentant l'arbre de Jessé et la dormition de la Vierge.",
-    link: "https://photos.google.com/share/AF1QipNuFMKeUBF_WMoFKdpcAIXUm-jgFez4Q5CFtAHG2iXVqqoXlCOCeKeysaW7BcwE7w?key=dzBvd05Nd2s0RFBnQlZzdWR4NVo2bFZRV2FxSHlR"
+    lat: 48.11165,
+    lng: -1.68388,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPPJsyxTqWjJeSDKvcAbc08IUUbBDgHME2FhV3XMRqAIlreOHPdUNGq-PlWzdZi5vCB8TjUy2Q3av3RoIRtaZ1jXAY-wH0wahFK7wMeKy_2y8MgYHmwZRAJcVJNOTj98jKVRz755-qqjzfSHOycykJ8hg=w1931-h819-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM3VYg7EGoNap96mHyOC7aovN2RD1co3mOQ1sam2ratvWseOYbbknRucgJNpr023tY-Ypd1KC3g3cZ0PDHgUI1J_ZdD61GERY7KptSWzKQF0aSDi1Vfl0Hu8AfmV-pehCk5pGLSx9QZP_5Lg2c7LlUtjw=w1611-h2416-s-no-gm?authuser=0",
+        caption: "Façade occidentale classique et élévation à ordres superposés"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP7QdNaETTdoalIbqVUwv5qLmbQdEZYYwlxIaAf0nEkm_UipQ_ZddcyCN7Llhwdhz0Tqwewi8AZ3HLLneRrGU1MKT9ME_eE0VMwqgOl3zZBqjsIoOLqVoK4nfEvzLB8Ol1-r6Xc_ep6vAtXZdxDg-h9oA=w1931-h1287-s-no-gm?authuser=0",
+        caption: "Perspective monumentale de la nef néoclassique et voûte à caissons"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP3xAdEbqcn1Eri6tThUtk25nyYDBoYp66_mS0oFgK8TEfJ2eK8Hb-kIAs-QlUZBhYssrnfB51gBZYv_DjwI6gOVGdZmd15Gd7Wj3gGX3jOHjKkvnp5_W5UBoSR-dpsVhw-EQHmEM3uyNUBIHOEQhKOEQ=w1931-h1287-s-no-gm?authuser=0",
+        caption: "Chœur liturgique et maître-autel romain offert par Pie IX"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNvjG2hGm1zmxILxN8iO-zFBA3et5TOSGFVIcc9j0mdDfKI6skl74uJw-Uo9PjQ268QnrWHpw3jczSSbVRc41kQUVtUd7X4O5GXPhTLUqTx3SS0gMk1u1aP5zybyodycazINQT6cAAIhtjJpPJNwl6nhw=w1611-h2416-s-no-gm?authuser=0",
+        caption: "Retable flamand anversois du XVIe siècle en bois doré et polychrome"
+      }
+    ],
+    description: "Siège du diocèse de Rennes et théâtre séculaire du couronnement des ducs et duchesses de Bretagne, la Cathédrale Saint-Pierre de Rennes surprend par le contraste saisissant entre son austère façade classique et l'éblouissant faste ultramontain de ses volumes intérieurs. La reconstruction de la façade occidentale, entreprise dès le XVIe siècle à la suite de l'effondrement de l'ouvrage gothique et achevée en 1704, juxtapose sur cinq niveaux en pierre de taille de granit les ordres dorique, ionique et corinthien, le tout sommé des armes du Roi-Soleil. Le vaisseau de la nef, menaçant ruine, fut entièrement rebâti au XIXe siècle selon les plans de l'architecte Mathurin Crucy dans un style néoclassique monumental rappelant les basiliques romaines. L'espace intérieur déploie une nef bordée de colonnes cannelées à chapiteaux ioniques dorés, couverte d'une ample voûte en berceau ornée de caissons peints, de stucs et de dorures exécutés sous le Second Empire par le décorateur Jobbé-Duval. Le chœur liturgique abrite un majestueux maître-autel offert par le pape Pie IX, rehaussé de marbres précieux prélevés sur les ruines de la basilique Saint-Paul-hors-les-Murs à Rome. Le joyau mobilier de l'édifice demeure sans conteste le retable flamand d'Anvers du début du XVIe siècle, chef-d'œuvre de bois doré et polychrome sculpté d'une foisonnante Passion du Christ et de la vie de la Vierge. L'édifice conserve également de grandes toiles d'histoire sacrée, les tombeaux sculptés d'évêques rennais et un remarquable orgue de tribune du facteur Cavaillé-Coll.",
+    visiter: "Observer d'abord depuis le parvis l'élévation en granit breton de la façade tripartite avant de franchir le portail pour apprécier la rupture visuelle totale avec les ors intérieurs. Parcourir le bas-côté sud pour admirer en détail les scènes minutieusement sculptées du retable anversois, joyau de sculpture sur bois du XVIe siècle. Lever les yeux vers la voûte en berceau afin de repérer les médaillons peints par Jobbé-Duval et les chapiteaux ioniques à l'or fin. Dans le déambulatoire, s'attarder devant le maître-autel pontifical en marbre romain, puis contempler en tribune de contre-façade le buffet d'orgue monumental conçu par le facteur Aristide Cavaillé-Coll.",
+    link: ""
   },
   {
     id: "rennes_centre_historique_rue_du_chapitre",
