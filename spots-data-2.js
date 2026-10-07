@@ -75,7 +75,6 @@ const SPOTS_2 = [
     counts: {},
     lat: 48.11165,
     lng: -1.68388,
-    banner: "https://lh3.googleusercontent.com/pw/AP1GczPPJsyxTqWjJeSDKvcAbc08IUUbBDgHME2FhV3XMRqAIlreOHPdUNGq-PlWzdZi5vCB8TjUy2Q3av3RoIRtaZ1jXAY-wH0wahFK7wMeKy_2y8MgYHmwZRAJcVJNOTj98jKVRz755-qqjzfSHOycykJ8hg=w1931-h819-s-no-gm?authuser=0",
     image: "https://lh3.googleusercontent.com/pw/AP1GczP7QdNaETTdoalIbqVUwv5qLmbQdEZYYwlxIaAf0nEkm_UipQ_ZddcyCN7Llhwdhz0Tqwewi8AZ3HLLneRrGU1MKT9ME_eE0VMwqgOl3zZBqjsIoOLqVoK4nfEvzLB8Ol1-r6Xc_ep6vAtXZdxDg-h9oA=w1931-h1287-s-no-gm?authuser=0",
     description: "Édifice emblématique du cœur historique rennais, la cathédrale Saint-Pierre surprend par le contraste saisissant entre sa sobre façade classique en granit et l'éblouissant faste ultramontain de son intérieur. Reconstruite après plusieurs effondrements, elle allie la rigueur monumentale de son architecture néoclassique au raffinement d'un décor Second Empire d'une richesse exceptionnelle en Bretagne.",
     visiter: "Contempler l'élévation classique de la façade en granit avant de pénétrer dans le vaisseau pour saisir le contraste avec les ors intérieurs. Parcourir la nef jusqu'au chœur pour détailler le maître-autel romain et admirer dans le déambulatoire le chef-d'œuvre de sculpture flamande que constitue le grand retable d'Anvers.",
