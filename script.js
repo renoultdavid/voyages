@@ -2483,12 +2483,12 @@ function renderEnrichedCarnetMode(spot, layout) {
           </div>
         `;
       } else if (count === 2) {
-        // 2 photos : grand duo confortable (hauteur 440px)
+        // 2 photos : ajustement fluide en largeur sans aucun rognage ni débordement
         photosMarkup = `
-          <div class="flex flex-col md:flex-row gap-2.5 w-full justify-center items-center rounded-2xl overflow-hidden bg-slate-950/40 p-2 border border-slate-800/80 shadow-xl">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2.5 w-full rounded-2xl overflow-hidden bg-slate-950/40 p-2 border border-slate-800/80 shadow-xl items-center">
             ${sec.photos.map(p => `
-              <div class="h-64 sm:h-80 md:h-[440px] flex items-center justify-center shrink-0 max-w-full">
-                <img src="${p}" alt="${sec.title || spot.name}" class="h-full w-auto max-w-full rounded-xl object-contain cursor-zoom-in hover:scale-[1.01] transition-transform duration-200" onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+              <div class="w-full flex items-center justify-center">
+                <img src="${p}" alt="${sec.title || spot.name}" class="w-full h-auto max-h-[65vh] rounded-xl object-contain cursor-zoom-in hover:scale-[1.01] transition-transform duration-200" onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
               </div>
             `).join('')}
           </div>
