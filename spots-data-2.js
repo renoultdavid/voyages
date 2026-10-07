@@ -824,7 +824,52 @@ const SPOTS_2 = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczMq19ByICloNh6AAM_r3B3ha8J220c9ifNGe58dbm3xu1__D9dNPpyaB2WfrytsTWo3xkY6JE2xlFTGTYjeYPXu1vOddZllxFOuiMEnwo92dDVgsb2Not9l4Hs6mm_41-QKvM-hrV0-VdmDs_t89twmzA=w1800-h1201-s-no-gm?authuser=0",
     description: "Campé sur un éperon rocheux de schiste dominant d'une trentaine de mètres le confluent de la Vilaine et du ruisseau du Vern-d'Héau, le château de Vitré est l'une des forteresses médiévales les plus imposantes et spectaculaires de l'Ouest français. Fondé vers 1060 par Robert Ier de Vitré sous la forme d'un castrum de bois et de pierre, il est reconstruit en plan triangulaire au début du XIIIe siècle par le baron André III pour s'adapter à la topographie de l'éperon. Au cours des XIVe et XVe siècles, la prestigieuse famille de Laval transforme la place forte en un chef-d'œuvre de l'architecture militaire, verrouillant l'entrée du duché de Bretagne face aux invasions françaises lors de la guerre de Cent Ans et de la guerre folle. L'ensemble est dominé par son grandiose châtelet d'entrée du XVe siècle, flanqué de deux imposantes tours rondes à mâchicoulis, percé de rainures de pont-levis et d'embrasures pour armes à feu. L'enceinte compte également de formidables tours d'angle, dont la massive tour Saint-Laurent servant de donjon et la tour de la Madeleine abritant les logis seigneuriaux. Modernisé à la Renaissance avec l'adjonction d'élégantes lucarnes sculptées et d'une orangerie dans la cour haute, le château abrite aujourd'hui l'hôtel de ville ainsi qu'un riche musée d'histoire et d'art décoratif.",
     visiter: "Traverser le pont dormant franchissant les douves sèches pour admirer en contre-plongée le double pont-levis et les échauguettes du colossal châtelet d'entrée. Pénétrer dans la vaste cour intérieure triangulaire pour contempler la façade Renaissance du logis seigneurial et les tours circulaires ceinturant la forteresse. Gravir les marches de la tour Saint-Laurent pour visiter les salles voûtées du musée consacrées à la sculpture médiévale et profiter de la vue plongeante sur les toits d'ardoise de la vieille ville.",
-    link: "https://photos.google.com/share/AF1QipPm71qi40Tij84XqSDDGNQ9ciRxYT46a1ZQ8zvA3V1V0icxjad82kCIIlwKZBBZpg?key=WUw5dFkxMHVHMzlyaWE5NXZzQzJBLU5HNm9yd0V3"
+    link: "https://photos.google.com/share/AF1QipPm71qi40Tij84XqSDDGNQ9ciRxYT46a1ZQ8zvA3V1V0icxjad82kCIIlwKZBBZpg?key=WUw5dFkxMHVHMzlyaWE5NXZzQzJBLU5HNm9yd0V3",
+    sections: [
+      {
+        title: "La cour triangulaire et les tours médiévales",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM4-yLbWteT3MYPkg9NlLMawacDOFhzwiY2jryoLzZlpQELlx6szxsRNppSlxWAS4p4KzcFfcaUgKC4DAczuKCoHNk2uNczD5EkyIN4T3qN9TAtPyWj7LGvbgoDVYWjoAaJPxVr7W8lyCBL44w6kA8BjA=w1822-h1215-s-no-gm?authuser=0"
+        ],
+        text: "La voûte d'entrée franchie, le visiteur découvre une vaste cour intérieure triangulaire épousant la configuration naturelle de l'escarpement rocheux. Au nord-ouest se dresse la tour Saint-Laurent, gigantesque donjon cylindrique érigé au XIVe siècle par le baron Guy XII de Laval, dont les murs épais de trois mètres renferment des salles de tir sous une haute toiture en poivrière d'ardoise. À la pointe orientale veille la tour de la Madeleine munie de canonnières pour couleuvrines, tandis que la courtine sud abrite la tour de l'Oratoire du début du XVIe siècle avec sa chapelle privée et son triptyque émaillé annonçant la première Renaissance bretonne."
+      },
+      {
+        title: "Tours seigneuriales, chapelle privée et trésor",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNKX7VRLgqng5r8vdX7ekLvNFVJWU3ga8fQzs_Yl5Xs6nYDqt2umqur2oKOYfOOzhKEuIT7s_Pdis03rlNrkFH4VyrnhuGBseI6GFLt9lANzYHUZQslwFnsLpTYamakKeyWYmpkcZPC9jDMczHnAwjSrQ=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMmkyhdjIAa412tRTaINlmP7hgCaMvFXLY4yQe0a_X34ZIb0utxOIo3DIoz8WwSyF_U7T_FuX4E4I0h80WymVXU57xas8S24S_Pd8Saa007fW7KOqybQH8rbHOUt5H97BKz7m258SjaUEJjRjtpaX_kdg=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMVxnzY40iFuymRHN1a8iQGDksybuiq8Rgy8Sb1VNzMR0hoXgQHOsEBnVBM9gZhsnWbc-0PBuq5acH7UNj9AxFsTbHU9FV6CG1tVWivEkD2k9upEFvYJfzqG1BDKBgpSDUUpdG5i-fSkwlS4G6JrL0ELg=w1822-h1215-s-no-gm?authuser=0"
+        ],
+        text: "La tour de l'Oratoire retient l'attention le long de la courtine méridionale avec son élégant oratoire privé du début du XVIe siècle, orné d'un triptyque émaillé sur cuivre et de voûtes d'ogives sculptées annonçant le raffinement de la première Renaissance bretonne.\nLa tour de l'Argenterie, autrefois affectée à la garde du trésor des seigneurs et aux archives baronniales, révèle de splendides charpentes intérieures ainsi que de vastes salles d'exposition abritant les riches collections du musée municipal de la ville."
+      },
+      {
+        title: "Défenses féodales, chemins de ronde et éperon rocheux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMq19ByICloNh6AAM_r3B3ha8J220c9ifNGe58dbm3xu1__D9dNPpyaB2WfrytsTWo3xkY6JE2xlFTGTYjeYPXu1vOddZllxFOuiMEnwo92dDVgsb2Not9l4Hs6mm_41-QKvM-hrV0-VdmDs_t89twmzA=w1822-h1215-s-no-gm?authuser=0"
+        ],
+        text: "Les chemins de ronde supérieurs et les vis étroites permettent de longer les créneaux au-dessus des douves sèches creusées dans le roc, célèbres pour avoir permis aux assiégés de repousser victorieusement cinq mois de blocus menés en 1589 par la Ligue catholique du duc de Mercœur. Des appartements seigneuriaux aux cheminées sculptées jusqu'aux poternes basses taillées dans la falaise, ce colosse de pierre classé Monument historique dès 1872 incarne la puissance stratégique des seigneurs bretons face à la couronne de France."
+      },
+      {
+        title: "Logis seigneurial, vie quotidienne et collections",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPJW6-Mt4BAPNSJmR7aK6T5imjRqdld5_cgzbnhDQFK1L0iGHPJRU7jz6kM11TduLoOntidsrHwpDMuNrVZndJTbV_r9zCapasxu2ZpLyS_u3ZxpsDddey0lclFjmtZwQDy8OcmkHanuL70K8DxBPtujw=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNQtxQ1PqgI3fRmVfaTmaD-pbjj_OgKk19a4Lepq7P8IL5kPuNLRSHYaUvSrEYj4frt6W-MCNA1rJCfvJjHf488_xKV4FQr4bQ8-y7L63d9xJAqOtciddraFg6mbDBP16-9h5nyjw4JMVTjWBWraUxcbQ=w1822-h1215-s-no-gm?authuser=0"
+        ],
+        text: "L'ascension des étages par les vis étroites de granit révèle la vie quotidienne et le faste seigneurial dissimulés derrière l'austérité des défenses féodales. Les salles de garde voûtées sur croisées d'ogives de la tour Saint-Laurent et de la tour de l'Argenterie dévoilent d'imposantes cheminées monumentales armoriées, sculptées aux armes des comtes de Laval et du duché de Bretagne, autour desquelles s'organisait la garnison. Aux niveaux supérieurs du logis, les appartements résidentiels s'éclairent par de hautes baies à coussièges taillées dans l'épaisseur des murailles, autrefois tendues de tapisseries flamandes pour isoler les seigneurs des courants d'air hivernaux. La tour de l'Oratoire réserve l'émotion la plus vive avec son sanctuaire privé du début du XVIe siècle, orné d'un pavement émaillé polychrome, d'armoires murales liturgiques et de voûtes nervurées d'une finesse remarquable. Sous les combles, les charpentes médiévales en chêne déployées en coque de navire inversée surplombent les galeries du musée municipal, où sont aujourd'hui exposés des coffres de mariage sculptés, des pièces d'orfèvrerie religieuse et des souvenirs du négoce des toiles d'outre-mer."
+      },
+      {
+        title: "Galerie des vues complémentaires",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNkXavB-RujvZgdHQRM5-SCB9aPhTGRlg1wQ8wIjt4i3mGj70LQ9Mgc5v349gouv2cBsA7bvnfuTYJS64R8ct665AFVEryMK4bOkRuhWk0giw1oH_nmj33kgdTQuQcbY40iif2kZnxQ6SDrpcqZZHUraQ=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOBXfTagFS5bPWNWPhA6LFnMuV-KnoQ2xHtp5A4rlB_GNNuO-diGdE9koLo3T_W8jGu7ErGbwzSb7L23F0xoTTIZzkOediHRxgcE6Ga3IAMIViOsSQDw_0Zuad4CZu7GIAQIK8aRDBHNlyD8jUaQL7bNw=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOF5Yqc_mCIYSGgi3glwn2-a-mv7cgEWnpmVL7zBNzTZFO4yA51yo75BQNbzBahOUTrRJqj5N8ZQE_Z3JAcnObypWvuljz8DJ85NAu9POMYUibBlq9baRnXHfXlF65fwAobAYIe9ZKQtqulW0O4v9m_IQ=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPhVMK0Wy79M7zY34roSLM51r3bOWdqA6YEE_pBnc5vkluU4zBcsD9yp8wJBnW2rayyPd1ch8p_7jgNhkdv_PDze6KeIlYs-mzixU9SRMpDJbagS794uLw4biYIpaVCD3ZfBZ35kmCZQqoD1VjVxU9mMA=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNxjiaBlovLlhkV14aJnSFc5ISVOegEQ3EZkftt_H8q4HuVNck9xvgyg_3vEQEqXTmHCerjlgN_UzjG6joIuwYOLCetwCd8PYG1A0yc-gILl3baGIIKF9NqoTK2VV06bQi4FeJxytp-yRwYlWTm0wH2Qw=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOFDevXBZ-7tq4eFr53DGcZr3Je41B9BiWsbsrfdiLmQZ2XaHWqgZelkpKGRi8k_RFsnC5w0Wj13FL1tAv0HUa1Ymq6KN3hK-ISRQ2dw89NcGW0neYbX0UP_LaDs_tiHg1zSuZ9f2bItCQFkjLp7IJ0dg=w1822-h1215-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
  {
     id: "illiers_combray_eglise_saint_jacques",
