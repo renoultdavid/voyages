@@ -696,7 +696,25 @@ const SPOTS_2 = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczOyFj8nWN3WQ8cyiUZFdQ5UiJP58lKNsuIykvUVyuYLP9IKUDbOSyVZ-krbyVFWns0Pdkccu_xCesMg1o0AI00-5jYGXKcjLidMwov39YPvKhUUMl11ffhBVcI5twrGJLwdd9qgTvUE-EhaND4S58CuwQ=w1800-h1201-s-no-gm?authuser=0",
     description: "Érigée entre 1868 et 1885 au cœur des faubourgs orientaux en pleine expansion, l'église Saint-Martin est l'une des réalisations les plus monumentales et abouties de l'architecture éclectique néo-romane en Bretagne. Conçue par l'architecte diocésain rennais Jacques Mellet pour remplacer un ancien sanctuaire médiéval devenu exigu et vétuste, elle illustre la ferveur catholique et le renouveau liturgique qui traversent le diocèse au XIXe siècle. Bâtie selon un appareil polychrome très soigné alternant le calcaire clair de Touraine, le granite local et la brique rouge, l'église s'inspire directement des grandes basiliques romanes du Poitou et du Périgord avec une liberté de composition remarquable. Sa façade harmonique imposante est dominée par un beffroi central coiffé d'une flèche conique octogonale flanquée de tourelles d'angle et de clochetons ajourés. À l'intérieur, le plan en croix latine déploie une nef spacieuse bordée de bas-côtés voûtés, menant à une croisée de transept surmontée d'une impressionnante coupole octogonale sur trompes. Le sanctuaire est complété par un mobilier néo-médiéval d'une grande cohérence stylistique, comprenant des stalles finement ouvragées, un riche maître-autel sculpté ainsi qu'une série de verrières narratives signées par les meilleurs maîtres-verriers de l'atelier Lecomte et Colin.",
     visiter: "Prendre du recul sur la place pour contempler la polychromie des façades mêlant harmonieusement la brique rouge au calcaire clair et au granite breton. Franchir le portail d'inspiration romane pour lever les yeux vers la croisée du transept et apprécier la monumentalité de la coupole intérieure. Déambuler dans le déambulatoire pour examiner les chapelles rayonnantes, les autels sculptés en marbre blanc et la série de vitraux du XIXe siècle baignant les vaisseaux d'une lumière colorée éclatante.",
-    link: "https://photos.google.com/share/AF1QipPm71qi40Tij84XqSDDGNQ9ciRxYT46a1ZQ8zvA3V1V0icxjad82kCIIlwKZBBZpg?key=WUw5dFkxMHVHMzlyaWE5NXZzQzJBLU5HNm9yd0V3"
+    link: "https://photos.google.com/share/AF1QipPm71qi40Tij84XqSDDGNQ9ciRxYT46a1ZQ8zvA3V1V0icxjad82kCIIlwKZBBZpg?key=WUw5dFkxMHVHMzlyaWE5NXZzQzJBLU5HNm9yd0V3",
+    sections: [
+      {
+        title: "Silhouette néo-romane, dôme octogonal et élévation de la nef",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNHFdvEpk2MNp2ql9Sb-KVfCfYO1fLNOy-KM6-lAghUrjQ4d3Bm1eUnqP3rrcoMpQJ5g3WHAFvFpRuFk8nOahvlE1o3GwPm6WaId6MxLbIWyePuYgGH5SGMRgf8k7zvlrF52KDRlbMVLc1hUkwnJsIehg=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOyFj8nWN3WQ8cyiUZFdQ5UiJP58lKNsuIykvUVyuYLP9IKUDbOSyVZ-krbyVFWns0Pdkccu_xCesMg1o0AI00-5jYGXKcjLidMwov39YPvKhUUMl11ffhBVcI5twrGJLwdd9qgTvUE-EhaND4S58CuwQ=w1822-h1215-s-no-gm?authuser=0"
+        ],
+        text: "La silhouette extérieure impressionne par la hardiesse de son clocher-porche occidental sommé du Christ-Roi et par l'ample dôme octogonal qui coiffe majestueusement la croisée du transept, couronné par une statue de saint Martin veillant sur les toits. L'intérieur surprend par l'ampleur théâtrale de son vaisseau central, articulé sur trois niveaux d'élévation associant de grandes arcades en plein cintre, un triforium aveugle et une double rangée de baies hautes géminées. Les chapiteaux des piliers massifs, sculptés avec virtuosité par Vergne et Cosson au début des années 1890, déploient un fascinant programme iconographique mêlant le Tétramorphe, les prophètes de l'Ancien Testament et des motifs de bestiaires grotesques."
+      },
+      {
+        title: "Mobilier d'art, verrières historiées et maître-autel doré",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPSyyhHGV_bLQWu9KTItmWIFHy9thfYiUHYbx-yJ3yBdMo29z-ZEcbxTlDHM4D-LlF5lX1SznE7USGHq68CU_Byo6kcKHFyF4oBGp_K8AXY_u5s7aq6Xs7FHZwmOS4NuwZraGgOyZ9dgZteFr1-HmQ79g=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOIj6ZgxWGtFaDPi5VvCpjNI8lL0WnCPRUw2ddy6SSokQRo1QVGGjnNWNpQGMR4Ntr_uHeAVxWA9xC2IcU1hNmiJDPem2F5WCBNUtUwMrzTa7UxR_PpCjkihmnQol96xhcwFwusNpDG1StXuwQdvL59Yw=w1822-h1215-s-no-gm?authuser=0"
+        ],
+        text: "Une monumentale chaire à prêcher en chêne sculpté réalisée en 1902 par les ateliers Lecomte, Vallet et Brillu occupe une travée entière avec ses anges musiciens et ses reliefs raffinés. Le chœur liturgique s'organise autour d'un somptueux maître-autel en bronze et cuivre doré sorti des prestigieux ateliers parisiens Poussielgue-Rusand. Les transepts s'éclairent par deux immenses rosaces figuratives mettant en scène les figures de la foi locale et des marins bretons en péril. La chapelle d'axe dédiée à Notre-Dame de Grâce abrite des peintures murales monumentales exécutées en 1957 par le peintre rennais Louis Garin ainsi qu'une Vierge à l'Enfant sculptée par Jean Fréour. Inscrit au titre des Monuments historiques en 2013, ce sanctuaire illustre avec éclat le renouveau catholique et la virtuosité éclectique des ateliers d'art religieux de la IIIe République."
+      }
+    ]
   },
   {
     id: "vitre_tour_de_la_bridole",
@@ -744,6 +762,16 @@ const SPOTS_2 = [
     lat: 48.125085,
     lng: -1.211775,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOn2L4SMk1PJ7vsC5gJQBxqhqyhWKi9l2YiaNRYA_b-7B5TCey56lOTsjCzJi35c3NC0Nc4PfiJAf0Ot8w3tl5SChbRCod4z_03QFDt0nOJ0y8E3osIw-nKJrD40oQp-jrDyt63iBItN3w-C4yowR-MHA=w1800-h1201-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPbBpfQ7gttZKP97MiohRHOivVRsuiSFRrYr2imhuvbEaSsh-pn-WHO1a0FneJEMB_nvpiemHvyVY6PFOf7y7HZ4nb-hmCeapcAyez2lCqh2qY0BVbECDxy2hb4aRtoB3rqbmiijgtioaS_6EgvhHP8fg=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPd0gRmHkrcuT83x6a5FF-mqVTNT0RYc8O9C78Z4mdvmExJOoZwJ0QLLLHaczPJVdxzwpy3dv4ZmfPEs_GS6l9X4-N8uo01KdUUa076L6T_t0ICMfhuThkJ0Gfs2ZmBpPY3dO-dOtx6PAy878G5sOsuGw=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Fondée au XIIIe siècle comme chapelle priorale dépendant de l'abbaye Saint-Melaine de Rennes, l'église Notre-Dame de Vitré a été entièrement reconstruite entre la fin du XVe et le début du XVIe siècle dans le style gothique flamboyant le plus exubérant. Financé par la puissante et riche confrérie des Marchands d'Outre-Mer enrichie par le commerce international du chanvre, l'édifice s'impose comme l'un des sommets de l'architecture religieuse de Haute-Bretagne. Sa façade méridionale, donnant sur le parvis, déploie un alignement féerique de sept pignons ajourés couronnés de fleurons, de chimères et de pinacles effilés taillés dans le granite avec une virtuosité technique stupéfiante. L'élément extérieur le plus remarquable est sa célèbre chaire à prêcher en plein air du XVe siècle, nichée sur le contrefort sud pour permettre aux prêtres d'adresser leurs sermons aux foules assemblées sur la place lors des jours de foire et de pèlerinage. À l'intérieur, le vaisseau présente une ample nef à trois vaisseaux couverte de voûtes d'ogives élancées, ornée d'un triptyque flamand de la Passion en émail de Limoges de 1544, de vitraux Renaissance d'origine et d'un remarquable chœur bordé de stalles baroques richement sculptées.",
     visiter: "Examiner depuis la place Notre-Dame la spectaculaire façade sud hérissée de gâbles, pinacles et gargouilles gothiques sculptés dans le granite gris. Repérer sur le flanc extérieur droit la délicate chaire en pierre suspendue au contrefort avec son escalier d'accès intramural et son abat-voix polygonal. Pénétrer dans le sanctuaire pour admirer le vitrail Renaissance de l'Arbre de Jessé datant de 1530 ainsi que le triptyque de la Passion en émaux de Limoges conservé dans le trésor paroissial.",
     link: "https://photos.google.com/share/AF1QipPm71qi40Tij84XqSDDGNQ9ciRxYT46a1ZQ8zvA3V1V0icxjad82kCIIlwKZBBZpg?key=WUw5dFkxMHVHMzlyaWE5NXZzQzJBLU5HNm9yd0V3"
