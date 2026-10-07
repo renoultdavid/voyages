@@ -1684,7 +1684,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Centre-Val de Loire",
-    department: "Loir-et-Cher",
+    department: "Loir-et-Cher (41)",
     subdiv: "Lavardin",
     altitude: 73,
     is_island: false,
@@ -1700,7 +1700,41 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczMV0-yhk5ENRTEe3JwGpOzBRw3s74I4q6-kZTMO-xYO7UCX4SWIqjESxcWPa0IOHVbSGCJDXNLYC7KsSO6taMoNbnvtLP-CdzjivkqNIEFhzgVUSB7qJtj5-cRbe-f8Z4A4_q2yGXCRmeUVwyPvU6u-lw=w2270-h1514-s-no-gm?authuser=0",
     description: "Érigée à partir de la fin du XIe siècle au pied du promontoire castral de Lavardin — classé parmi les Plus Beaux Villages de France —, l'église Saint-Genest est l'un des monuments les plus précieux et émouvants de l'art roman en Val de Loire. Bâtie en moyen appareil de pierre de tuffeau blonde, elle frappe d'abord par sa silhouette extérieure austère flanquée d'un puissant clocher-porche quadrangulaire d'allure défensive. Mais c'est une fois son portail franchi que le sanctuaire dévoile son trésor inestimable : une parure presque intégrale de peintures murales polychromes s'étendant du XIIe au XVIe siècle, redécouvertes au XIXe siècle sous un badigeon protecteur de chaux. Ces fresques magistrales illustrent avec une expressivité poignante le Christ en majesté entouré du tétramorphe et des apôtres dans le cul-de-four de l'abside, le martyre de saint Genest (comédien romain converti au christianisme sur scène), le supplice de saint Laurent sur son gril ardent ainsi qu'un saisissant Arbre de Jessé Renaissance ornant les collatéraux. Les piliers massifs de la nef s'ornent en outre de chapiteaux romans primitifs sculptés de masques grimaçants, d'entrelacs et d'animaux fantastiques.",
     visiter: "Pousser le vantail de bois sous le porche roman pour pénétrer dans une pénombre mystique révélant progressivement la splendeur ocre, rouge et blanche des pigments minéraux anciens. Avancer lentement dans la nef centrale pour détailler les scènes bibliques peintes à hauteur de regard sur les piles et les arcades, en s'attardant sur la douceur graphique des visages byzantins du XIIe siècle. Lever les yeux vers le chœur pour contempler l'immense mandorle du Christ bénissant entouré des symboles des quatre évangélistes, puis observer les chapiteaux corinthiens archaïques taillés dans la craie de tuffeau. Prendre le temps d'admirer les détails de la crucifixion et du Jugement Dernier peints sur les murs latéraux avant de ressortir admirer le chevet roman entouré du petit cimetière fleuri.",
-    link: "https://photos.google.com/share/AF1QipNwFGIRLzJ6bi3ZsThNM3gZPrwtI7ThTtgASFmQVOmxVzCuf-D1aRr2evmY9XTvtA?key=V1pNb1A5c1FsVHRRdkhOdWs3TFQ3S182T1dGOTVR"
+    link: "https://photos.google.com/share/AF1QipNwFGIRLzJ6bi3ZsThNM3gZPrwtI7ThTtgASFmQVOmxVzCuf-D1aRr2evmY9XTvtA?key=V1pNb1A5c1FsVHRRdkhOdWs3TFQ3S182T1dGOTVR",
+    sections: [
+      {
+        title: "Vues extérieures et clocher-porche",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPbRF9I_cpBBUUphdC_Pi3ITdwgGd2YzHnSe86eXQiUxEsVxklnqd-mjMJKjkMEXdfLXhhFpRyvvcZhgJSoKKyJLo1sqZj-PoPBsypVMcNEGdGjX-WFniVJiH2F6jlTF05x9hkWR2Qd_WzNTssoPWtvWw=w2088-h1391-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM6Wh2h1iqxN4Fd3c9HsRXnHWfACXGHhwdHmDmQLYNZBT563y_7Fkc8xrlB7CD_ifcppjtmNo6C0DExCZ1nvQy-JsKQ3BHlq6HYYttNEdQgbkVh7UesSkzm-hVigBblzYnrxyuPBY9DtgcyGoKNO1ls5g=w1921-h2880-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Architecture de la nef et chapiteaux romans du XIe siècle",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMV0-yhk5ENRTEe3JwGpOzBRw3s74I4q6-kZTMO-xYO7UCX4SWIqjESxcWPa0IOHVbSGCJDXNLYC7KsSO6taMoNbnvtLP-CdzjivkqNIEFhzgVUSB7qJtj5-cRbe-f8Z4A4_q2yGXCRmeUVwyPvU6u-lw=w2088-h1391-s-no-gm?authuser=0"
+        ],
+        text: "L'entrée dans la nef à trois vaisseaux révèle un volume baigné d'une pénombre mystique, structuré par de robustes arcades en plein cintre reposant sur des piles circulaires maçonnées. Les chapiteaux de la croisée et des bas-côtés déploient un bestiaire roman et un décor sculpté du XIe siècle d'une grande vigueur expressive : entrelacs, rinceaux, palmettes et têtes stylisées de masques humains et de chimères."
+      },
+      {
+        title: "Le Christ en majesté et les peintures du cul-de-four",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM1io4ZEfDjhXP83It8evNbHkZdOPcvGQsq6xGly4K7wNpDawKw7QVk4lfArJNDVKia6-OLdokVtlVwd91q6bfejKX8ofZjARj5Qn_5xzwRrpEittrebTWUFUdzT6cT1Jzamk0zdfVeX2JYR5nqnWwcSw=w2088-h1391-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOEdhJoKkSAkkiU199itxou47waa2vvg6iirsqDsBEXbihWpgxXuSMUvJ1UKzEM5-dd955FmjHcMZMItft5RT8e724LY32S8YJOYFGB6pIUdW4BrqEGYeuNEN6pEkFOsnebD5l_5hf7O5tK4HdOAJ7YRg=w2088-h1391-s-no-gm?authuser=0"
+        ],
+        text: "Le chef-d'œuvre absolu de Saint-Genest réside dans son ensemble exceptionnel de peintures murales romanes et gothiques, peintes à fresque du XIIe au XVIe siècle et miraculeusement redécouvertes sous des badigeons de chaux au milieu du XIXe siècle. La composition la plus spectaculaire s'étend sur la voûte en cul-de-four de l'abside, figurant un monumental Christ en majesté du XIIe siècle inscrit dans une mandorle lumineuse, trônant au milieu des quatre symboles ailés des évangélistes (le Tétramorphe)."
+      },
+      {
+        title: "Cycles narratifs, scènes bibliques et Jugement dernier",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOlBjgvd5YH316KtsqjBwMw3zBO12S0O-Gn4_p6KM9mXDQYAWc9zub1bOceEm3GzIHGvjOnkp44i29-PkJ-SAkYXugUA2Pa3jInMifsPbZDQEfoF5hxVqZOoiPkoUG1oVX98V7rK9iU1EXVCqsSbhmtvw=w2088-h1391-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMVoGOi3YQMfgVGZiLHVIwJ2Y2Fpp7Oa27RwBNcgRd6zKX2nMmKwIR2hxb8ElVmY44cikro38K9_WLYVJQnSmgIaXFnegiL5AXeqXfUL_Smt4K3tfJrHRR_F3YJM8uYLYF4_RM0szI03yqZj0WFTV3tkQ=w2088-h1391-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOVAA7syYpiwInpm9_MhZlsL8DVXBWj00BiKN4SxbFic54f1f4_02NwkeU2oP8XW3tSmKlyEKTRPCx6dx2MHfAM7srE3_TthHnyiNXoOXxqGiMy-VUVUfnGW1IOAA62R9MYdncAV4VfbGV920fu8qkmzg=w2088-h1391-s-no-gm?authuser=0"
+        ],
+        text: "Les parois de la nef et des bas-côtés offrent une véritable bible illustrée peinte au fil des siècles : scènes de la Nativité, Fuite en Égypte, Lavement des pieds, Passion du Christ, ainsi qu'une saisissante représentation du crucifiement de saint Pierre la tête en bas. Une grande scène gothique du XIVe siècle détaille le Jugement dernier avec les justes accueillis dans le sein d'Abraham et les damnés précipités dans les tourments de l'enfer."
+      }
+    ]
   },
   {
     id: "lavardin_chateau_feodal",
@@ -1784,7 +1818,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Centre-Val de Loire",
-    department: "Loir-et-Cher",
+    department: "Loir-et-Cher (41)",
     subdiv: "Trôo",
     altitude: 128,
     is_island: false,
@@ -1796,8 +1830,14 @@ const travelSpots = [
     category: "religieux",
     counts: {},
     lat: 47.777435,
-    lng: 0.792730,
+    lng: 0.79273,
     image: "https://lh3.googleusercontent.com/pw/AP1GczP-M--MiaHZ7sZwZ0KM5aM7sV4IasTspAbsnkRnAIT2wMHAPkOaE58F1QmYv0lGz3dJI3IEKjP_FcIiiI18KBw__kCu-nJZksylvAYKyZpDLdJsoLhsVh_wXka2CREGILwGk6QExg0tq-XLnJw3YFZR4w=w2270-h1514-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOy1KeeX8xko2yNa-MvM5gJpFLFbngNGxN28QW9PfCosfziwlmKMBE5LsToC89Hm77T-vT8G_mSPnPGHYXOGgZvcQqcO8-ug24-m1IPGuYs9CDNoETE2oKbvaB3bP015K0AXIEghKO_aV8wRZaFNPF6fQ=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Trônant au point culminant du village sur la corniche rocheuse dominant le Loir, la collégiale Saint-Martin de Trôo est un monument majeur de l'art roman de transition vers le gothique Plantagenêt dans l'ouest de la France. Reconstruite à partir du milieu du XIIe siècle sous le règne d'Henri II Plantagenêt à l'emplacement d'un oratoire primitif fondé par saint Martin de Tours au IVe siècle, elle impressionne par la majesté de ses volumes et la blancheur lumineuse de son tuffeau. L'édifice est coiffé à la croisée du transept d'un clocher carré robuste couronné d'une flèche de pierre octogonale sculptée. À l'intérieur, la vaste nef à trois vaisseaux surprend par la richesse prodigieuse de sa sculpture ornementale : des dizaines de chapiteaux romans historiés déclinent un bestiaire fantastique de griffons, de sirènes, de lions affrontés et de scènes d'acrobates. Le chœur conserve en outre un ensemble exceptionnel de stalles en chêne du XVe siècle ornées de miséricordes sculptées de figures truculentes et satiriques inspirées de la vie quotidienne médiévale.",
     visiter: "Admirer depuis la place haute la pureté de la façade romane et les modillons sculptés qui soulignent les corniches du chevet. Pousser la porte pour découvrir l'enfilade lumineuse des travées couvertes de voûtes angevines et s'approcher des piliers pour examiner avec attention la virtuosité des chapiteaux romans aux thèmes symboliques et animaliers. Pénétrer dans le chœur pour contempler les stalles en bois sculpté, en soulevant délicatement les sièges pour observer la verve populaire des miséricordes gothiques illustrant les péchés capitaux et les proverbes du terroir vendômois. Terminer en faisant le tour de la terrasse extérieure pour jouir d'un belvédère spectaculaire plongeant sur la vallée du Loir.",
     link: "https://photos.google.com/share/AF1QipNwFGIRLzJ6bi3ZsThNM3gZPrwtI7ThTtgASFmQVOmxVzCuf-D1aRr2evmY9XTvtA?key=V1pNb1A5c1FsVHRRdkhOdWs3TFQ3S182T1dGOTVR"
@@ -1859,7 +1899,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Centre-Val de Loire",
-    department: "Loir-et-Cher",
+    department: "Loir-et-Cher (41)",
     subdiv: "Saint-Jacques-des-Guérets",
     altitude: 68,
     is_island: false,
@@ -1870,12 +1910,50 @@ const travelSpots = [
     century: "XIIe siècle",
     category: "religieux",
     counts: {},
-    lat: 47.774120,
+    lat: 47.77412,
     lng: 0.795013,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOHtVYXuZuxvmr5iFGyLsHfZrGIvQoF_LoaVneKkXgLlAZh24I9qXX9JNtRsliwE3khORtS59Mip51_Ej__nMYxMcD7TIr5Flf-wswO4xVC-nRYlEaVuZdKndcGmTx0BQ-jUfGfLMOx-CJxrm4ZeAjpsQ=w2270-h1514-s-no-gm?authuser=0",
     description: "Établie dans un cadre bucolique au bord du Loir face à la falaise troglodytique de Trôo, l'église Saint-Jacques-des-Guérets est un sanctuaire roman intimiste qui jalonnait l'une des voies secondaires de pèlerinage menant vers Saint-Jacques-de-Compostelle. Érigée au début du XIIe siècle, cette église rurale à nef unique sans transept séduit par la pureté modeste de ses proportions et son abside semi-circulaire en cul-de-four couverte de tuiles plates. À l'intérieur s'est conservé un ensemble exceptionnel de fresques murales des XIIe, XIVe et XVe siècles d'un éclat et d'une fraîcheur chromatique rares, épargnées par le temps. Le cul-de-four présente un majestueux Christ pantocrator bénissant entouré du tétramorphe, tandis que les parois latérales déploient des cycles peints foisonnants illustrant le martyre de saint Jacques le Majeur, la Nativité, la Cène ainsi qu'une impressionnante résurrection des morts où les défunts sortent de leurs sépulcres au son de la trompette du Jugement Dernier.",
     visiter: "Pénétrer dans la nef unique baignée par la douce lumière filtrant des étroites fenêtres romanes en meurtrières pour contempler la richesse des pigments minéraux ocres, rouges et bruns ornant le chœur. Examiner le Christ en gloire de l'abside assis sur son trône céleste et s'attarder sur la scène de la Cène où les apôtres partagent le pain et le poisson sur une nappe blanche détaillée. Observer la statue en bois polychrome de saint Jacques pèlerin portant son bourdon et la coquille jacquaire, avant de sortir apprécier le calme champêtre des berges de la rivière et la vue frontale sur l'éperon crayeux de Trôo se découpant sur l'autre rive.",
-    link: "https://photos.google.com/share/AF1QipNwFGIRLzJ6bi3ZsThNM3gZPrwtI7ThTtgASFmQVOmxVzCuf-D1aRr2evmY9XTvtA?key=V1pNb1A5c1FsVHRRdkhOdWs3TFQ3S182T1dGOTVR"
+    link: "https://photos.google.com/share/AF1QipNwFGIRLzJ6bi3ZsThNM3gZPrwtI7ThTtgASFmQVOmxVzCuf-D1aRr2evmY9XTvtA?key=V1pNb1A5c1FsVHRRdkhOdWs3TFQ3S182T1dGOTVR",
+    sections: [
+      {
+        title: "Christ en gloire, Cène et Passion",
+        photos: [
+          {
+            url: "https://lh3.googleusercontent.com/pw/AP1GczNoPCwZs5O6ThgHl1qog5zGfle9Av9wu8PtpjuagMTqJDNpcUwyvhbV98Cp3rt7JuSGWMFSCeKcvjLe4IcTwPNh6fLm9Qu4l7VkD2lQAXVBEE_RwGx10ce0h7t5FIxCz_AbTZ4HqicSgTU7d7e8BxBnAQ=w1921-h2880-s-no-gm?authuser=0",
+            caption: ""
+          },
+          {
+            url: "https://lh3.googleusercontent.com/pw/AP1GczOHtVYXuZuxvmr5iFGyLsHfZrGIvQoF_LoaVneKkXgLlAZh24I9qXX9JNtRsliwE3khORtS59Mip51_Ej__nMYxMcD7TIr5Flf-wswO4xVC-nRYlEaVuZdKndcGmTx0BQ-jUfGfLMOx-CJxrm4ZeAjpsQ=w2088-h1391-s-no-gm?authuser=0",
+            caption: "La partie supérieure droite présente une majestueuse « Majesté du Christ » ou Christ en gloire, inscrit dans une mandorle polylobée. Le Christ est entouré du Tétramorphe, représentant les quatre évangélistes sous leurs formes symboliques : l'ange pour saint Matthieu, l'aigle pour saint Jean, le lion pour saint Marc et le bœuf pour saint Luc. Cette figure centrale domine l'espace sacré, symbolisant le règne éternel et le jugement.\n\nDirectement en dessous du Christ en gloire se déploie une représentation de la Cène. Les apôtres sont alignés derrière une table recouverte d'une nappe aux plis géométriques marqués, caractéristique du style de l'époque. On distingue Jean, s'appuyant traditionnellement sur la poitrine de Jésus, tandis que les autres figures expriment une solennité recueillie. Cette scène eucharistique fait le lien entre le sacrifice divin et le sacrement pratiqué dans le chœur de l'église.\n\nLe registre de gauche est consacré au cycle de la Passion et de la Résurrection. On y observe une Crucifixion où le Christ en croix est flanqué de la Vierge Marie et de saint Jean l'Évangéliste, dont les postures traduisent une douleur contenue. Plus bas, une scène de la Mise au tombeau ou de la Résurrection complète ce cycle narratif, illustrant le passage de la mort à la vie, thématique centrale de la foi chrétienne."
+          },
+          {
+            url: "https://lh3.googleusercontent.com/pw/AP1GczPzDa2RadADhw06HgY6WYFcIzzOpS_yRTxpkYLwYOKX3ioSdLi-VR_33ciB6HxEvAIUDEOGpo3XNJolL-sjKX7NU4BzWsHevEs3f9msSl69npQNBNJq8ySTcIGw1JjVbliUZ3z_Ipc4waX5ViO3zfgaLw=w2088-h1391-s-no-gm?authuser=0",
+            caption: "Les personnages sont disposés derrière une table rectangulaire qui traverse toute la largeur de la fresque, recouverte d'une nappe blanche ornée de plis en forme de « V » très stylisés et de motifs géométriques rappelant des broderies.\n\nAu centre, le Christ se distingue par son nimbe crucifère et sa taille légèrement supérieure à celle des apôtres. Il est représenté dans une posture de bénédiction, tandis que saint Jean, l'apôtre préféré, est penché vers lui, reposant traditionnellement sa tête contre la poitrine du maître dans un geste d'affection et de recueillement. À la droite du Christ (gauche de l'image), on reconnaît saint Pierre, souvent représenté avec une barbe et des cheveux blancs, tandis qu'à sa gauche, un autre apôtre tient une croix, rappelant le martyre futur.\n\nL'aspect le plus frappant de cette représentation est la figure de Judas, placée seule de l'autre côté de la table, au premier plan à droite. Contrairement aux autres apôtres dont les corps sont cachés par la table, Judas est représenté de profil, dans une posture dynamique, s'étirant pour tremper sa main dans le plat en même temps que le Christ, geste qui désigne le traître dans le récit évangélique."
+          }
+        ],
+        text: ""
+      },
+      {
+        title: "Martyre de saint Jacques, miracles et Jugement dernier",
+        photos: [
+          {
+            url: "https://lh3.googleusercontent.com/pw/AP1GczPF8gJetHRDAKqY27ppUJwsNLsphTcgGJeR75nZXxmwcK9TWFv0Nu4bi1CXkJwJeProH0kVa0UU0R2Kz2KtHv378ApA7swatcySGzwKn7SrDceFOuRPZe1lj0_mUI57NL14ZHAgQR0Foq-fnRfxAtUNww=w2088-h1391-s-no-gm?authuser=0",
+            caption: "Cette fresque illustre un épisode marquant de la vie de saint Jacques le Majeur, patron de l'édifice, confronté aux autorités temporelles.\n\nLa scène dépeint le moment où saint Jacques, reconnaissable à son nimbe et à sa posture digne, est conduit devant le roi Hérode Agrippa. Au centre, un garde ou un bourreau saisit l'apôtre, symbolisant son arrestation imminente. À droite, la figure royale est assise sur un trône, portant la couronne et les attributs de son pouvoir, s'apprêtant à rendre son jugement.\n\nL'œuvre témoigne de la transition stylistique entre l'art roman et le début du gothique. On y observe une grande finesse dans le trait et une palette chromatique caractéristique de la région, dominée par les ocres jaunes et rouges. La fluidité des drapés et l'expressivité des visages, malgré l'érosion du temps, soulignent la qualité exceptionnelle de cet ensemble pictural, qui servait à l'époque d'enseignement visuel pour les pèlerins en route vers Saint-Jacques-de-Compostelle."
+          },
+          {
+            url: "https://lh3.googleusercontent.com/pw/AP1GczNIIFu8G7bi_Hx6womhN2co1urYmz0bA2lMeAcDwCbQP7lvkQ0n1VK8ex5o1YitewBgQ24-5U8w4TxzNhYjQ4-2KnTlox_r7nZdqx0I9ddxO5YNrCNBp9ehh23mL327MJ5I3iKCNXZvCuaEMyjkhIemqg=w2088-h1391-s-no-gm?authuser=0",
+            caption: "Le registre supérieur relate un miracle de saint Nicolas, protecteur des pauvres et des enfants, au moment où il sauve trois jeunes filles de la déchéance en leur offrant secrètement des bourses d'or. On y voit à gauche l'évêque de Myre, drapé de rouge, tendant les bourses vers le lit où reposent les trois sœurs sous une arcature architecturale. Juste en dessous, le registre inférieur est consacré à la Résurrection de Lazare, l'un des miracles les plus emblématiques du Nouveau Testament. Le Christ, situé à gauche avec ses disciples, commande d'un geste majestueux le retour à la vie de Lazare, lequel émerge de son tombeau encore enveloppé dans ses linceuls croisés. À la droite du Christ, les sœurs du défunt témoignent de la scène, illustrant la compassion et la victoire sur la mort."
+          },
+          {
+            url: "https://lh3.googleusercontent.com/pw/AP1GczPESbG7cMw1DRyzZS61jiBhc4OZwa1zltV3A7CDz0MZR-nateyrcRZLXbI3rx8dRKpg9OAQHcpbnHm3KZteLJcdNgWQbM6DPLIoTPsTVIOI_Y8MXKeHOZtV9BfIN-Sj6ZQlj-AULS-SztZhZ9UhIdkvIQ=w2088-h1391-s-no-gm?authuser=0",
+            caption: ""
+          }
+        ],
+        text: "Le cul-de-four déploie un grandiose Christ en majesté bénissant de la main droite et tenant le Livre de vie, ceint d'une mandorle rayonnante et flanqué des quatre figures ailées du Tétramorphe ainsi que des apôtres saint Pierre et saint Paul. Les registres inférieurs et les parois de la nef content avec une intense vivacité graphique la Crucifixion, la descente aux enfers, la Résurrection des morts et le Jugement dernier où l'archange saint Michel pèse les âmes face aux ricanements des démons. On remarque également un très rare saint Georges terrassant le dragon à cheval, vêtu de la cotte de mailles normande, ainsi que des scènes de la légende de saint Nicolas et du martyre de saint Jacques. Le style de ces fresques se caractérise par une palette chromatique chaleureuse dominée par l'ocre rouge, l'ocre jaune, le noir de charbon et le blanc de chaux, traduisant une filiation directe avec les grands ateliers romans du Poitou et du Val de Loire. L'émotion spirituelle qui se dégage de cette bible imagée rurale est renforcée par la simplicité dépouillée du volume architectural et de sa charpente apparente. Classé au titre des Monuments historiques dès 1913, cet édifice intime constitue un témoignage capital de la dévotion populaire et de la virtuosité des fresquistes médiévaux le long des méandres du Loir."
+      }
+    ]
   },
   {
     id: "couture_manoir_de_la_possonniere",
