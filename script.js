@@ -2546,7 +2546,7 @@ function renderClassicViewerMode(spot, layout) {
   layout.className = "flex-1 flex flex-col md:flex-row overflow-hidden";
   layout.innerHTML = `
     <div id="modal-image-wrapper" class="relative bg-black flex items-center justify-center overflow-hidden w-full md:w-1/2 lg:w-3/5 h-1/2 md:h-full shrink-0 border-b md:border-b-0 md:border-r border-cyan-500/20">
-      <img id="modal-image" src="" alt="Photo POI" class="max-w-full max-h-full object-contain select-none transition-opacity duration-200" />
+      <img id="modal-image" src="" alt="Photo POI" class="max-w-full max-h-full object-contain select-none transition-opacity duration-200 cursor-zoom-in hover:opacity-95" />
       
       <button id="modal-arrow-left" class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-950/70 hover:bg-cyan-500/80 border border-cyan-400/40 text-white flex items-center justify-center transition backdrop-blur-sm cursor-pointer shadow-lg z-20">
         <i class="fa-solid fa-chevron-left"></i>
@@ -2664,6 +2664,12 @@ function renderSpotGalleryImage() {
 
   if (imgEl) {
     imgEl.src = currentItem.url;
+    imgEl.onclick = () => {
+      const activeSpot = currentModalSpotList[activeModalIndex];
+      const spotTitle = activeSpot ? activeSpot.name : '';
+      const captionText = currentItem.caption || spotTitle;
+      openLightboxZoom(currentItem.url, captionText);
+    };
   }
 
   const hasMultiplePhotos = currentSpotGallery.length > 1;
