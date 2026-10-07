@@ -3095,7 +3095,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Le Mans",
     altitude: 72,
     is_island: false,
@@ -3111,7 +3111,59 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczMAf_j8Wn5P9ZxD9Q42vPorY29xLX-Z0OJa0dZwTcE41UR9NvAo3FpMJfpys4lxHH51JwGcoIbX36UL09eylPZbld5zuqLEH0NI8_V5A_EQQDoBypy5td73z9R208XDnBBtDq983NUiANxuJtp8z2-V2Q=w692-h919-s-no-gm?authuser=0",
     description: "Dominant majestueusement la vieille ville et la plaine de la Sarthe depuis l'éperon rocheux du plateau de la Cité, la cathédrale Saint-Julien du Mans est l'un des plus impressionnants chefs-d'œuvre de l'architecture médiévale de l'Ouest de la France. Sa silhouette unique au monde résulte d'une fusion spectaculaire entre deux époques stylistiques majeures : une austère nef romane du XIIe siècle couverte de voûtes d'ogives bombées de tradition angevine (ou Plantagenêt) et un chœur gothique rayonnant du XIIIe siècle d'une virtuosité technique éblouissante. Vues depuis la place des Jacobins, les treize chapelles rayonnantes étagées du chevet composent une véritable forêt de pierre vivante, où une double volée d'arcs-boutants pyramidaux à contreforts élancés soutient l'immense claire-voie vitrée à plus de trente-trois mètres au-dessus du sol. Dédiée à saint Julien, premier évêque évangélisateur du Maine, la cathédrale abrite une collection exceptionnelle d'art sacré, comprenant le vitrail de l'Ascension daté du milieu du XIIe siècle — considéré comme l'un des plus anciens vitraux au monde encore in situ —, ainsi que les célèbres fresques musicales peintes sous les voûtes de la chapelle de la Vierge représentant quarante-sept anges jouant des instruments de musique du XIVe siècle.",
     visiter: "Arriver par l'esplanade des Jacobins pour admirer le prodigieux enchevêtrement des arcs-boutants en V et des pinacles gothiques sculptés dans le calcaire clair et le roussard. Franchir le portail royal roman inspiré de Chartre et pénétrer dans la pénombre sereine de la nef pour observer la retombée puissante des croisées d'ogives angevines sur les piles massives. Poursuivre vers le chœur inondé de lumière où le regard est aspiré par l'élévation vertigineuse des triforiums et l'éclat rubis des baies médiévales. Ne pas manquer la chapelle axiale de la Vierge pour contempler au plafond le concert céleste des quarante-sept anges musiciens peints par Jean de Bruges en 1377, puis se recueillir devant le tombeau en marbre et albâtre de Charles d'Anjou, comte du Maine.",
-    link: "https://photos.google.com/share/AF1QipN6hvq2Fyep-bA3X2sqUF7bO-kwuwNvoIUiXUbfk5q2N47EaSZEtx3WIuDdyD8grQ?key=Q0E2Nl9xdy1yMFd4SFdyWjJjX0hyQVA1MUJjNVpB"
+    link: "https://photos.google.com/share/AF1QipN6hvq2Fyep-bA3X2sqUF7bO-kwuwNvoIUiXUbfk5q2N47EaSZEtx3WIuDdyD8grQ?key=Q0E2Nl9xdy1yMFd4SFdyWjJjX0hyQVA1MUJjNVpB",
+    sections: [
+      {
+        title: "Forêt d'arcs-boutants du chevet et portail royal",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczODB6h5LuPF8GQGbgd5ZvMo5njsbsc3C8a8qcTNOHlNudejoZMQSdEiqGmhtXCU4z9LJ9G5rUHj2N8GWNPx2hfwEEq59c--B2DkZrhZmZAcJwhbaYBFuQTA6NZ7z81__etycd1loLjFO1nKsrD_LT4hIQ=w1802-h1206-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMgJjlpDmFQKd5cMGFHtz7mz35qz10XtLByT5h5Z3nPZ9I2srxBV_YEW1Z1LKcKFqoN0IZ4UBD9_a69ffWo1wahc0p_3oURzuzaONPc45Y2vZqodkp5CzZ2cSVR6xnX-rk3kT2lrKVg3ZtT5SLpXWaiYQ=w1802-h2392-s-no-gm?authuser=0"
+        ],
+        text: "L'approche extérieure par la place des Jacobins révèle la spectaculaire forêt de pierre du chevet gothique, chef-d'œuvre absolu de l'art rayonnant conçu par l'architecte Jean d'Orbais. Pour franchir la forte déclivité du terrain sans empiéter sur l'enceinte gallo-romaine, les maîtres d'œuvre ont déployé un système unique d'arcs-boutants à double volée et triples contreforts bifurqués, enjambant les treize chapelles rayonnantes avec une audace structurelle inégalée. Sur le flanc méridional, le regard croise d'abord le célèbre menhir de grès préhistorique plaqué contre les maçonneries, avant de franchir le portail royal roman (vers 1158), orné de statues-colonnes représentant les rois et reines de l'Ancien Testament préfigurant le portail royal de Chartres."
+      },
+      {
+        title: "Nef romane angevine et vitrail de l'Ascension",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO8_17Q04X0zc3PDbsChFkIVl7s4QSUkY2l94aCyKInmAwISQvFAwGKl6Gu54IuSl79tAOWI2JK4ZFHkzPLMNaRS_uyKugg_uXeqzjlNWLZv_08d9f_1BHGzAuz7B-01m1sV9fg4ztUa2vsE3zW0Ulpag=w1802-h2392-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMAf_j8Wn5P9ZxD9Q42vPorY29xLX-Z0OJa0dZwTcE41UR9NvAo3FpMJfpys4lxHH51JwGcoIbX36UL09eylPZbld5zuqLEH0NI8_V5A_EQQDoBypy5td73z9R208XDnBBtDq983NUiANxuJtp8z2-V2Q=w1802-h2392-s-no-gm?authuser=0"
+        ],
+        text: "Le franchissement du portail plonge le visiteur dans la sévérité et la pénombre de la nef romane. Reconstruite après les incendies du premier tiers du XIIe siècle, elle est couverte de voûtes bombées sur croisées d'ogives archaïques dites angevines ou Plantagenêt, retombant sur de puissantes piles ornées de chapiteaux sculptés à motifs géométriques et végétaux. Dans le bas-côté sud scintille le plus ancien vitrail chrétien au monde conservé in situ, le panneau de l'Ascension (fin du XIe siècle), dont les rouges éclatants et les bleus profonds défient le passage des siècles."
+      },
+      {
+        title: "Élévation des voûtes et transition du roman au gothique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN5DEbtMXULNg_7fksG_ImMoZDcCEvZ3HX8LOshWU1jyAacyFLWjJiOzB7gvgtUafBzlBRCEiGFaZvHM9Uqqv0j3GYfxyVDTnkKU6faDLHXHCdBYH22rFAttJHS-UGrPEbzcC87EfVobUMF74ONzFzNmg=w1802-h1357-s-no-gm?authuser=0"
+        ],
+        text: "La voûte de la cathédrale Saint-Julien du Mans offre l'un des spectacles les plus saisissants de l'architecture médiévale française, illustrant le passage de la puissance romane à l'élégance gothique. Dans la nef, le plafond se compose de voûtes sur croisées d'ogives dites « bombées », caractéristiques du style Plantagenêt ou gothique de l'Ouest. Cette technique particulière donne aux voûtes un aspect de coupole, où la clé de voûte est nettement plus élevée que les arcs latéraux. Ce choix structurel permet de répartir les poussées de manière plus flexible tout en créant un volume intérieur aéré et dynamique, contrastant avec la sévérité des murs romans qui les supportent.\n\nEn progressant vers l'est, le plafond subit une métamorphose spectaculaire au-dessus du chœur. Ici, l'art gothique rayonnant atteint son apogée avec des voûtes d'une hauteur vertigineuse s'élevant à 34 mètres. Les nervures de pierre, fines et élancées, se rejoignent en des clés de voûte sculptées et dorées, formant un réseau géométrique d'une précision mathématique. La multiplication des liernes et des tiercerons dans certaines parties crée un dessin stellaire qui semble suspendu dans les airs, soutenu par la forêt de colonnettes qui montent sans interruption du sol jusqu'aux sommets.\n\nLa relation entre le plafond et la lumière est le point culminant de cette composition architecturale. Dans le chœur, la voûte semble littéralement flotter au-dessus d'une paroi de verre ; les vitraux du haut chœur, parmi les plus hauts d'Europe, inondent les nervures de reflets colorés qui évoluent au fil de la journée. Cette « esthétique de la lumière » transforme le plafond en un dais céleste, où la pierre perd sa lourdeur apparente pour devenir un cadre délicat dédié à la glorification du divin. La transition entre la nef plus sombre et le chœur étincelant marque ainsi un parcours symbolique vers la clarté."
+      },
+      {
+        title: "Chapelle de la Vierge et anges musiciens de Jean de Bruges",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMbETNLIK469gsbHG71KZapfoSXuxa7FLlxALaKJv39aj4GUHknm3nJLlKuxXmtJVo7KNtqiJCj5dFeuVN1XFIY7YXm48Jqm0kjP14TQiEg2Vsqck_2q1JHZtKxkPDhPfaDNKiM16lhJkeRgXyVrq-g9w=w1802-h2392-s-no-gm?authuser=0"
+        ],
+        text: "Au centre du déambulatoire s'ouvre la profonde chapelle axiale de la Vierge, chef-d'œuvre de la peinture médiévale française. Ses voûtains s'ornent d'une fresque commandée à la fin du XIVe siècle par l'évêque Gonthier de Baigneux, représentant quarante-sept anges musiciens peints par Jean de Bruges sur fond ocre rouge et rose. Chaque figure ailée y tient un instrument médiéval fidèlement documenté — vièle, chalemie, psaltérion, cornemuse ou orgue portatif —, composant un concert céleste d'une grâce incomparable. Le transept nord abrite quant à lui le monumental tombeau en marbre et albâtre de Charles d'Anjou, comte du Maine, ainsi que les grandes orgues Renaissance dont le buffet richement sculpté veille sur le triforium."
+      },
+      {
+        title: "La parure vitrée médiévale et le vitrail de l'Ascension",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO6CWasyEFXS3xGM55NQMEFK9jy3ZOpY8chlOIZ9ffQqTvEVdiuFRtT795cT4mOQXld8tGUhh2z9iPFcU_roYyus8-tNsoht_q5oofhw1wuAXDWrcDqdNFo_fUp0kXOY7BFyRC0N-p3cwbXIicYP59o9A=w1802-h2552-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO5lCmj4Js7b6HtKA39NZYjcc4LBrut1K1-qiihpcxXpitayBWrYF-wykgR05ZuCAOmnGqo31YFCVIf5Xy3g8dfq4pNIHKAEV6nPCdRUUSgO_sOy62DNDkJ0emlP8LaK38h7GKNAsXn10myuYdCP9mwYw=w1802-h2794-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOQVpZ7sw4CY1aCOBZ56brkXW1QfnZnkid6G8H9_8Y6FAkN17bH5cNpmsOX1VnGa_UHY1DnzQNpTQDA2tiz-lDjUesrmLusTz-s7KGsL-6itkpukp6zN9WgFfiDwGp5Jp3Q4CJseJOYlPvRndDLrlfNrw=w1802-h2601-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNad_oj-OwiRY1FKjwsbo0TdUfi1WtES67s2QCOz3NPl7a4vCsGdWjcj1oQNiFj5vT6jsGqvjUyem-zv3uhcqGeaoJ9oVWmdVXGypT0zNib4mXqnUjt1ARC_C1DnBpHRxHkPhdMjiXVSiKIjr-DMOvCeQ=w1802-h2655-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPozgBpuC0nTZRHbFUZB1lFXe-3abfF-UZAT_8pchbYx_47nQgH_ReKvQFt6Rel6NU5N03Npw2wYXUYPc0rEDLKsJtn5djJqJe9Wg98WehGOqepjDnpazMeocYhGJXQNgzOymi18kBslGDkoPyQ8scyEg=w1802-h2605-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMeo25vSdlqHSZdL2nK-TV1BeVXuq-6lZ8JnVbqivmkqYxQdfwGdsA2vD7mKIIm2Es2T9orlhHaUeyz3snjJh4ck2OchD-g3nFGNJt2X6ntcy1aP0kgfozGbJFJYw2d2Me-pxQQmrgk9h0AIyFr8YGtvg=w1802-h2720-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPXffX6gI142tx8DBXy2rCSZLGwUFDownR0Gqp0WP2dbcJOZHZE3l1kAF739Bn6-VWjJP95MV03AkFn0O88T9cwoDdNzqyhFVx2n3xo6QewyBx47Rwe6FmvXH5b8gJMa7ZFlosC1Ud61fLDEbPk-quHaw=w1802-h2619-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczON4ARNI9GmiYSlspNUEqcCNDBQR-v5u2vdXnepJPiXWwElROLCZgfqQp8x9hZ5CrK9Agie3j9Xrv8x1zSP0X9cVqZc0ylqXU2UZs1vz1USWxmRh2gs3k20vO51S2w3GKrUkMD9S4ado27q8Sn7c_HnJg=w1802-h2570-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOqodVS_3HfgzrRWM556zNFAsPOg0zkEQsiPmevBo6G8D4fxPPciUf_ZGKRABAs_C7xP2jZRldSf-a0Q20qUSCpoYm8xWDLCdqfbRiliIQKfRXufwKdBSRyr_v6qnIntABsnKYWdvugjmsZfsimhrPeeA=w1802-h2848-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO41K_K_vY3ScU35l0LQJYnWJ-VbeaqXskXR6nh3up1lAX7QEDQSIst7bhUTbHiZ5HaqxbuPf6zal5EiNJ1qDBwTSE3eLMiaiVAeeUh56VJKN9rcnCOW8bQ2D0e2nFB9A_f6oBAxNYWFlsLztiybwZBVA=w1802-h2785-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNIKjU0dX6V5JPIGBf-sJFpR1S-jYXrc7SNUI3Xqy-tafhkC3nuLJtdVIBwAumWfz2pYqdwPvWY19Ka-f60ai5WcSs-vWoAMAdP_UWm728HJSk-LeP1QLFVRZV8bqcFPD4BseBpUP2MPYBaYJPrOetgOA=w1802-h2524-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMtfg0x4CqtQSdUiVBTaUG3VfObqRPmOCMML4_46Q7DQ6bwH90xy-5RMEhL8NkF18U7B8usS4JwIDqXnNRQtNsEhxg4WjkgI-jTutQi6BDQSVcGYHmkJweuBRiLNX1mOCC4S7M8e76LaD6051mpg1d5kw=w1802-h2610-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNqWDM55cyyS-uZdX_rrxIttaQF_z-MD3JPOtcZBpwheyh4nHBsQlpKFboIL5Pvt0VKwO_Ju37CuFCWn3_Nte8qVokKXdfVtops6W3OxhCrTdffotlWqxrgQ9FhTAkB1WVD0uaLlokKduIGwuQkkkyL2w=w1417-h2880-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN9oH2yaTGGT2ySoC6AdW0iRvQ6oflZ7P9TM9dJqL0XYiu54lc9C6tJdYWALHJZ5zBqKaIkxGxk-KtXQaCtgAXKPP2oG_7jZTKrsUAq8tc_FF6XQlkeERtVnXSQDiZSZrxv8CTvRT2dpVOztiUpnucCsw=w1802-h2570-s-no-gm?authuser=0"
+        ],
+        text: "Véritable musée de l'art du verre s'étendant du XIe au XVIe siècle, la parure vitrée de la cathédrale Saint-Julien du Mans compte parmi les ensembles les plus précieux et complets de l'Occident chrétien. Le joyau incontesté de cette collection demeure le célèbre panneau de l'Ascension, inséré dans une baie du bas-côté sud de la nef romane et daté de la fin du XIe siècle ou du tout début du XIIe siècle ; cette œuvre d'art majeure, considérée comme le plus ancien vitrail figuratif encore conservé in situ au monde, frappe le regard par ses rouges rubis incandescents, ses bleus profonds et l'expressivité hiératique des apôtres entourant la Vierge."
+      }
+    ]
   },
   {
     id: "le_mans_menhir_pierre_saint_julien",
