@@ -892,6 +892,24 @@ const SPOTS_2 = [
     lat: 48.299328,
     lng: 1.244542,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOWS8tmp2pY46t_yGkVCrZXJ8g0JNs07beAWRkry03RC01XIiiw6BJARkDc6kOErkozlIddYxGLr4rQHEAGuBUsyJHA_yuseDVYversoSo6ig553kVaE_JX3PVJ4wwWzgggLKcNEAzGpod6c0RC_OFjzQ=w2448-h1633-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMyxmInfhdqLT9bcTaa5dWrrMdGGkeBvWUGyXkYLdH_AVu34_eKmWQsZFyyt2yWxw4HiduzQGURtFaZICj56BdkzBiAb-05yoHJryrfCrGo5wFKpmjM9eGke-5VMVFPRo11lhj0D5EnXxfNMuFVniUyWg=w1611-h2416-s-no-gm?authuser=0",
+        caption: "vue extérieure de l'église"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMWgDELt9tA2P6HFGbKBeDMHeQoeaHlY7wXzzfjAnZEbmL7ZZ5fAk2_-MbvtcprEhpkOgeeLbq2t6CoOtBhR3TkO-c8u-bn49GpjZyvvtG396951dNjQT3OeFTnMoz2Sq_JXphpxJV6DwZX7Jy33HJNtg=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNDSh3fJj7NzjediXNIaHyNfA58E9qWfZVMJYG7lSlIqKraCRN35KqxLpcXkv3lejAZOFqmgF_Qb1x9SG0kZpNqootFl9K1RpI9djT8A5bnhpVruY8GNFjJ_JOqfr4CqHree2QIaltdvkUc2lvvtKAOnw=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPq7Q4ghe8VduqJUk_R8BEDm3XNVVfjEfFsPMQHAg1X14MCZxfrxDzm8OYUDEE8o9Q-9pzTsHqaCi6k9GfEdldRmwZcDCbklzeWXaWHaRHQVAZhwggSEqHpve7LMR8Hh_RzlBZ4nz1tY2BhDIMAFDjZVw=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Édifiée à partir du XIVe siècle sur les bases d'un sanctuaire roman primitif puis profondément reconstruite au XVIe siècle après les déprédations de la guerre de Cent Ans, l'église Saint-Jacques d'Illiers-Combray mêle les formes du gothique flamboyant aux premières influences de la Renaissance. Bâtie en moellons enduits et grison local avec des encadrements en pierre de taille calcaire, elle est dominée par un vigoureux clocher-porche couronné d'une flèche charpentée en ardoise qui servait de repère visuel majeur dans la plaine beauceronne. L'édifice accède à une célébrité littéraire universelle sous la plume de Marcel Proust dans « Du côté de chez Swann », où elle devient le modèle direct de l'église Saint-Hilaire de Combray, dont le clocher familier rythme les promenades et structure la géographie affective du narrateur. À l'intérieur, le vaisseau surprend par son ampleur et abrite un chef-d'œuvre patrimonial rare : une immense voûte en carène de navire renversée, entièrement lambrissée de chêne et peinte au XVIe siècle d'un foisonnant bestiaire fantastique, d'arabesques florales, de figures grotesques et de motifs géométriques polychromes Renaissance. Classé monument historique en 1907, le sanctuaire conserve également une riche statuaire en pierre et en bois polychrome, d'anciennes dalles funéraires gravées ainsi que des verrières remarquables dont plusieurs scènes ont nourri les méditations proustiennes sur la lumière et le temps retrouvé.",
     visiter: "Observer depuis la place du village la haute silhouette du clocher d'ardoise immortalisé par Proust et examiner le portail sculpté orné de voussures de la fin du gothique. Pénétrer dans la nef pour contempler la voûte lambrissée polychrome en berceau brisé, en scrutant aux jumelles les détails du bestiaire sculpté et peint ornant les entraits et les sablières. Rejoindre les chapelles latérales pour admirer la lumière filtrant à travers les vitraux anciens et s'imprégner de l'atmosphère silencieuse si fidèlement décrite dans « À la recherche du temps perdu ».",
     link: "https://photos.google.com/share/AF1QipMjye03wc_nB867DkUsyFmmafYJt8nM49txUZ6t2PckjaIGkektAatp-Lb3qoOz_g?key=OE0yT0FPSVhVSUluM05sajFZUGtDemN4WGRPeXRR"
@@ -942,6 +960,16 @@ const SPOTS_2 = [
     lat: 48.297086,
     lng: 1.24109,
     image: "https://lh3.googleusercontent.com/pw/AP1GczO2-t6xVeh_zC0KEaSD7wu54fUAbD1XtvlbbGZrPoKLGnbQlv9ZoOXG5bAzihF_YVq4fWlW5PFd93xhqLujbACyqAvAvyFfeCSTKFV_xn4zzRais0sBJQf7rZgj59FlrWVSji_rEMh3Zj0UcA9jOpiV3Q=w2448-h1633-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNS9SsZEstR8GSPi06nxU2JUPTcCk07DSy1H3HkA8_Oa4VQK4C1YjC03xZI2AYfg5_0DkfEUXxu3B-AQsG9sXz926euElMsZvNCWsaP9FXSVuwZ2RtrcKFFh3hLwC21Ld7cvpIX2XUY7KPR1J8oE7bdUQ=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMdAP9QuUfEk-7-HtrelNCP47MAoCuqyu26AFb_VjYRFFDBidJMxo8YyFrQo1N3Vh0CnVMgnAhi4YZD3u26iCtnw5Q_WXDp88n4wgYiJPip2O9ZuHKSK1klFxdLDtVufX28BqyehJ5YY972sOZ3ka3m4A=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Aménagé à partir du milieu du XIXe siècle par Jules Amiot, l'oncle de Marcel Proust, dans un méandre boisé et encaissé de la vallée du Loir, le Pré Catelan est un remarquable jardin d'agrément romantique inspiré de l'art paysager oriental et des compositions paysagères pittoresques du Second Empire. Séduit par ses voyages d'affaires et séjours en Algérie, son créateur conçut ce parc comme une promenade poétique et exotique, transformant une prairie marécageuse en un havre de verdure jalonné de sentiers sinueux, de canaux de dérivation, de bassins d'eau dormante et de fabriques de jardin éclectiques. On y découvre notamment un pavillon néo-mauresque orné d'arcs outrepassés, une fausse ruine médiévale crénelée, un pigeonnier rustique et une glacière artificielle dissimulée sous un monticule ombragé. Dans la géographie littéraire proustienne, ce lieu idyllique correspond étroitement au parc de Tansonville appartenant à Charles Swann, où le jeune narrateur aperçoit pour la première fois Gilberte Swann au milieu d'une haie d'aubépines blanches et roses en fleurs. Classé monument historique et labellisé Jardin remarquable, le Pré Catelan préserve sa palette végétale d'origine avec ses bouquets d'arbres centenaires d'essences variées, ses massifs d'arbustes indigènes et ses berges herbeuses baignées par les eaux calmes du Loir.",
     visiter: "Descendre les allées en sous-bois bordées d'aubépines et d'arbres centenaires pour rejoindre les méandres du Loir qui serpentent au cœur du parc paysager. Détailler l'architecture éclectique des folies de jardin imaginées par Jules Amiot, notamment le kiosque d'inspiration mauresque et les fausses ruines de pierre rustique. S'accorder une pause contemplative au bord de la pièce d'eau centrale pour observer les reflets de la végétation dans le miroir aquatique, dans l'ambiance intacte de la promenade du « côté de Swann ».",
     link: "https://photos.google.com/share/AF1QipMjye03wc_nB867DkUsyFmmafYJt8nM49txUZ6t2PckjaIGkektAatp-Lb3qoOz_g?key=OE0yT0FPSVhVSUluM05sajFZUGtDemN4WGRPeXRR"
