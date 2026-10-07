@@ -692,7 +692,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Occitanie",
-    department: "Hérault",
+    department: "Hérault (34)",
     subdiv: "Montpellier",
     altitude: 32,
     is_island: false,
@@ -706,6 +706,12 @@ const travelSpots = [
     lat: 43.613219,
     lng: 3.874102,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPBg2tVKq0g_Q3IkF6OXUjI46uNGV25kgWSq4t14RdIZALOkw-vBidldOjG2DfnvbHfHVHXBRm1PULALT4rpDtRjfneG9RZmujRD82AMzuejRLnp4yAkW9VUUEnYofkqpgE_hAk0_UWCu_KztatLApVAA=w1813-h2416-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPS3ESc5zIYupPnKbkc7oBumv83lvdp5AcIyfVAmqETyef1H0yLnLjMGZXdVXJb78K7yXOu9BkwupeVQpNOf7i0kHonRr6molcjUtqRUWbUA78GCnKy2Ff-RGOiYlbVlI-2Kl7i73ja9FfhAcJrRpKe4A=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Dressant sa colossale silhouette fortifiée au sommet de la colline de l'Écusson, la cathédrale Saint-Pierre est le monument religieux le plus imposant de Montpellier et l'un des spécimens les plus singuliers du gothique méridional en France. Érigée à partir de 1364 à l'initiative du pape Urbain V pour servir de chapelle abbatiale au monastère bénédictin Saint-Benoît, elle fut élevée au rang de cathédrale en 1536 lors du transfert du siège épiscopal de Maguelone vers Montpellier. L'édifice est universellement célèbre pour sa façade occidentale d'une puissance guerrière saisissante, précédée d'un porche gigantesque à voûte d'ogive supporté par deux tours-piliers cylindriques isolées mesurant plus de quatre mètres de diamètre et couronnées de créneaux et de toits coniques. Meurtrie et démantelée lors des guerres de Religion par les troupes protestantes avant d'être magistralement reconstruite et agrandie au XVIIe siècle puis dotée d'un nouveau chœur sous le Second Empire par Henri Revoil, la cathédrale déploie une immense nef unique de style méridional bordée de quatorze chapelles latérales et éclairée par de somptueuses verrières historiées.",
     visiter: "Se poster sur la place de la Canourgue ou au pied du porche occidental pour être saisi par la masse colossale des deux piliers circulaires jumeaux et la hauteur vertigineuse de la voûte d'entrée. Pénétrer dans le sanctuaire pour ressentir l'ampleur dépouillée de la nef unique gothique et admirer l'élévation des croisées d'ogives du chœur. Parcourir les chapelles latérales pour contempler le tableau d'autel monumental de Sébastien Bourdon représentant la chute de Simon le Magicien, admirer le buffet d'orgue baroque en bois sculpté du XVIIIe siècle soutenu par des cariatides, et s'attarder devant les vitraux colorés baignant le déambulatoire de reflets pourpres et azurés.",
     link: "https://photos.google.com/share/AF1QipM8bJp1NFUMbKvmfI87OoWIag5_0C93AlRQvDelco5yyIGS4aE29OZLQ7mV4F7Qwg?key=QUxVZVE5REZxS21hWVJvRjhWcy1nUDU5c3BDSUxR"
@@ -767,7 +773,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Occitanie",
-    department: "Hérault",
+    department: "Hérault (34)",
     subdiv: "Laroque",
     altitude: 149,
     is_island: false,
@@ -777,10 +783,24 @@ const travelSpots = [
     era_label: "Donjon féodal du XIe siècle et chapelle castrale juchés sur un éperon rocheux",
     century: "XIe siècle",
     category: "chateau",
-    counts: { religieux: 1 },
+    counts: {},
     lat: 43.922464,
     lng: 3.723859,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPD5-ycT5RSpz_CDB-aa902Pypm_j5J6-VY_-mtaf82hb7Z3jn05WNolr2BT9_ozd7OOlkrspjZAoIrDLa8oz1m9jyqc24SVaXaMUmNFosEdusLREiQE8UZXtlUCIWDO9VUKaSU9CIZZAUNq71JqCmW9Q=w1611-h2416-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN5X5_6SYSs-KBAJr3IsKRXhUT_u3hS1tJkcHx9mJSLDks5unyXG6VkYVD0P14s8GKsKWjXHsATN7bykTDTXropDVPJFtcBI5yZ4H1hrPBUCxda2g-HSNKx9S7thx1TJyI5ZPLwk6y3zluER3lRvUqkFg=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP34Na04EMLipUvKcRkE2gxkkkeIsseI0bLs8EGjxXITH9v7rmKi1e1Sz3rNpd7Lz-EFu-_TviDqeGpGNLmWs18y_qeJ54gmRzb5pmDECMjDhquQo9uyKSqlN-cgsnmoE6DiQgdUP0APM93ItLmPC_1hg=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNAIQpCzIp8OoFzKQavINQj6NdSN3iMNOashsDXx3JYgZxzHwRTtL4TI3k7DJc-4KsNUFIkrWPHTmJHyjVtZuWenHFADFHYkYWbFt-r9XCXmKAO7xPFWYObs8-HYS9UBPNBLDKywljX7atApPqJluKjPg=w1921-h2880-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Couronnant le sommet de l'éperon calcaire défendant le verrou naturel de la vallée de l'Hérault, l'ensemble castral de Laroque est un modèle d'architecture militaire féodale du bas Languedoc. Mentionné dès la fin du XIe siècle sous le nom de « Castrum de Ruppe » (château du rocher), il appartenait aux seigneurs de Laroque qui contrôlaient le péage fluvial et le passage des troupeaux transhumants vers le mont Aigoual. Le site est dominé par une puissante tour-donjon quadrangulaire haute de plus de vingt-sept mètres, bâtie en moellons calcaires locaux soigneusement assisés sur le rocher taillé à pic. Directement adossée à l'enceinte sommitale, la chapelle castrale Saint-Jean-Baptiste — devenue église paroissiale du bourg — présente une nef unique romane couverte d'un berceau en plein cintre et un chevet semi-circulaire fortifié, coiffé d'un clocheton ajouré. Cet ensemble minéral, remarquablement restauré, témoigne de l'imbrication étroite entre le pouvoir seigneurial protecteur et la vie spirituelle villageoise au Moyen Âge.",
     visiter: "Gravir les calades escarpées et passer sous les portes fortifiées successives du village pour atteindre la plateforme rocheuse supérieure. S'arrêter au pied du donjon pour apprécier l'appareil de pierre calcaire blanche et lever les yeux vers les corbeaux de soutènement des anciens hourds défensifs. Pousser la porte de la chapelle Saint-Jean pour découvrir la pureté de son volume roman intérieur et son chœur voûté en cul-de-four. Contourner la muraille pour contempler le panorama circulaire embrassant le cours sinueux de l'Hérault, les toits de tuiles canal du village accrochés à la pente et les premiers contreforts des Cévennes gardoises au nord.",
     link: "https://photos.google.com/share/AF1QipNpEf0SxNZJscwD7gKekkrYlS9ge5xQW01u6L_o_uWpquy-N8SaNeL21AWoTNGpJw?key=MHZHUFlKa0lmdzNGYXRvYWNEcDhXRW9jMFBpcVhB"
@@ -817,7 +837,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Occitanie",
-    department: "Hérault",
+    department: "Hérault (34)",
     subdiv: "Cazevieille",
     altitude: 651,
     is_island: false,
@@ -831,6 +851,12 @@ const travelSpots = [
     lat: 43.779167,
     lng: 3.811371,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPAGNOtC80Veaw1o348r3CpIWABORW_iKNwI9OiwACRARHYYud4F2IO6MAlhdWkXJoc12iTEY0dsKqp3aPJQCUsDQDI_75f0JTcgQcWpFbr2XppQ8Ld4ww-7asANnAherphFJnx2pI8ajx7lERnaHXHFA=w2538-h1692-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMuJsUdN3ce1eNrBM742ZpOTugvmt7RkCniCdVPp8-xbcIl2rU0JjLj5cXvoSYsdrVD8C06ZPPM7ZYZEopFtEMlivRiRlFXfWIb4nING9I9VzHtTruiVxBsxP4tuVOL36mb3rS91ssxVGanE__ID_lzug=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Édifiée à quelques dizaines de mètres en contrebas de la croix sommitale sur une terrasse rocheuse étroite dominant l'abîme, la chapelle Saint-Joseph — souvent désignée comme la chapelle de l'Ermitage — est un lieu sacré millénaire chargé de légendes cévenoles. Associée à l'histoire des trois frères chevaliers Guiral, Clair et Loup, partis aux croisades et devenus ermites sur les sommets environnants au retour d'Orient, la chapelle d'origine romane fut remaniée au cours des siècles pour accueillir les pèlerinages paroissiaux venus implorer la pluie ou la protection contre les épidémies. Bâtie en moellons de calcaire blanc arrachés à la montagne et protégée par une toiture basse pour résister aux tempêtes hivernales, elle jouxte les vestiges de l'ancien logis des ermites qui se succédèrent sur cette cime isolée jusqu'au milieu du XIXe siècle. Témoignage poignant de ferveur et de contemplation, cet édicule suspendu entre ciel et terre offre un asile spirituel minéral d'une exceptionnelle intensité.",
     visiter: "Pénétrer avec recueillement sous la voûte en berceau de la petite chapelle restaurée, dont la fraîcheur minérale contraste vivement avec la réverbération du soleil sur le calcaire extérieur. Découvrir la simplicité rustique de l'autel en pierre et les plaques ex-voto marquant la dévotion multiséculaire des randonneurs et pèlerins languedociens. Franchir le seuil pour faire le tour de la terrasse de l'ermitage, observer les traces des anciennes citernes rupestres aménagées pour recueillir l'eau de pluie, et contempler la vue en enfilade sur la falaise nord plongeant vertigineusement vers la vallée de la Buèges et la combe de Mortiès.",
     link: "https://photos.google.com/share/AF1QipOuP_s-MUztkO7728uDbhxa19HTOUEh4diwhiqI0ab_6k0vCyllEuqkNsnfJR7qqg?key=ZzNGTklHRXk2R051Z3pVREtUaEJXYU16aHFxd3hn"
@@ -842,7 +868,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Occitanie",
-    department: "Hérault",
+    department: "Hérault (34)",
     subdiv: "Saint-Mathieu-de-Tréviers",
     altitude: 342,
     is_island: false,
@@ -856,6 +882,20 @@ const travelSpots = [
     lat: 43.776374,
     lng: 3.824438,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMlTxwcfXPSx-Fs_YhkUfnphTFTCx-UFcZfnhXjonUbTkjPmPCBK-mOfFzBN19WSKlwrZMmGFm1eL5wqcBHy_7E8ljAaydxINRTwWWu3UA27_GxGqc_qVygzUB2wtpgvBHvkObKyH5121RVYiz0Neverw=w2528-h1684-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOwCeO2SUycbmkKYiGF3Jw7iobaf0-fE2CC8FxcX-POqMxRLiIK88K_5nP3fXA5V_5nn_UXMhge8B6lhh34hfN_vKJC3xAaLUWCC2gQZ9Z-sZOF5MHkqr-qJhBdxjyDg_vf7Uxi4d1TlIR1a15MoUfpcg=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMTKbYfDSo5ng6k5SELX4yUVQNvjDU8Wjm0cTnNM3pUisFhLmmL_VoreSEysqjIKXq6qBrV5zIH7wea0MWiadk0XOIelpBU7pDavMklwb8U8witkg-SqML-vjnTqIQBd1uYnhCpp_c-5XJFGEN_ckCMUw=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMuE2QPvHbEtCPdngytaHV1vwmxyUZD_ulm0s4yusI9nh8eF2dkBAcmmQHCzDGiY0lnN2d8-yqBajvY6PXsYIgwiOgDMUMJBw1xSZvHs4-wZvd0C7CJWaHg43W3Kbq4428hjM87nlA1pzb6bhumF4U0zg=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Ensellure naturelle creusée entre la face orientale effilée du pic Saint-Loup et la crête calcaire menant à la forteresse de Montferrand, le col de la Pousterle — dont le toponyme occitan « posterla » désigne une poterne ou un passage dérobé — est un carrefour stratégique et pastoral séculaire du piémont cévenol. Situé à trois cent quarante-deux mètres d'altitude, ce col permet de basculer du bassin viticole de Saint-Mathieu-de-Tréviers vers la combe sauvage de Fambétou blottie sous la formidable falaise nord. Balayé par les courants thermiques, le site offre une perspective géologique spectaculaire sur les parois stratifiées et plissées de la montagne, tout en constituant un biotope de garrigue dense dominé par les chênes kermès, le thym, le romarin et les genévriers cade. Point de passage privilégié des randonneurs du tour du Pic Saint-Loup (GR de Pays), il offre une halte aérée révélant la verticalité saisissante des à-pics calcaires.",
     visiter: "Marquer une pause au carrefour des sentiers balisés du col de la Pousterle pour apprécier le changement d'ambiance thermique et paysagère entre le versant ensoleillé et l'ombre minérale du versant septentrional. Lever les yeux vers l'impressionnante arête est du Pic Saint-Loup pour mesurer la puissance des forces tectoniques qui ont redressé ces bancs de calcaire blanc. Prendre le temps d'observer le panorama vers l'est sur la silhouette crénelée du château de Montferrand émergeant de la forêt de pins d'Alep, avant de choisir de redescendre vers la combe de Fambétou ou de poursuivre la traversée en balcon le long des sentiers odorants de la garrigue.",
     link: "https://photos.google.com/share/AF1QipOuP_s-MUztkO7728uDbhxa19HTOUEh4diwhiqI0ab_6k0vCyllEuqkNsnfJR7qqg?key=ZzNGTklHRXk2R051Z3pVREtUaEJXYU16aHFxd3hn"
@@ -917,7 +957,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Occitanie",
-    department: "Hérault",
+    department: "Hérault (34)",
     subdiv: "Saint-Guilhem-le-Désert",
     altitude: 87,
     is_island: false,
@@ -931,18 +971,28 @@ const travelSpots = [
     lat: 43.733801,
     lng: 3.551572,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOXRTHpJUyVof8JwWEJ31-qdEz2T0oqnl1QZ4j0zQxiL20oR1eirm7uHJtqfcoJuSsYbSAHrGeKxg4Pt0lIGlWXJCgONOrZQ-N5a0qly8Hc5UqBiMByAh01KkVaH_TK3EF38iWWIejYYNZqeOBWsKs-EA=w1611-h2416-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOVN3G3EXNTBaZGLrt0CfyX11q9JnEajuz7t5FaNnLLmfuILVX_A-YJ5XMR5GMnCkd3Lqb2qzSS5kdpXahkyEBtn4ZUHA1AHZ6Oif9cOyggT7WhZqN-w6fb0Y4qAW0aKlDvPhN7iOEJGwNXoDzPH77QYA=w2088-h2774-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMyFAAYfeThtEJtURxl7eNZ4zKkGjzoTfLCcUIhzgpa8z5uow1b2PqHiHanIYPw3rJGZx3ScOVuF6weAxcX1t9KTRyesRJIW5coOTrq3_rosFszkaHc46SPUTmbClG05J24YBIFs9yIWJXEbDLmgE-ZTQ=w2088-h2774-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Étagé en gradins étroits le long de la faille rocheuse creusée par le torrent du Verdus avant son confluent avec les gorges de l'Hérault, le bourg de Saint-Guilhem-le-Désert — classé parmi les Plus Beaux Villages de France et Grand Site de France — est un ensemble médiéval d'une remarquable homogénéité architecturale. Le village s'articule autour d'un lacis de « calades » (ruelles traditionnelles pavées de galets du fleuve et de blocs de calcaire taillés en chantepleure pour canaliser les eaux d'orage) enjambées d'arcs-boutants, de passages couverts sous voûtes romanes et de pontets de pierre franchissant le ruisseau. Les maisons de maîtres et échoppes artisanales des XIIe et XIVe siècles, bâties en calcaire coquillier extrait du cirque de l'Infernet, dévoilent des fenêtres géminées à colonnettes sculptées, des portes en plein cintre et des escaliers extérieurs menant à d'anciens séchoirs à châtaignes et à figues. Cet urbanisme resserré, pensé pour faire rempart aux vents violents et préserver une relative fraîcheur estivale, offre une promenade intemporelle où la pierre patinée s'accorde aux massifs de lauriers-roses et aux rosiers grimpants.",
     visiter: "Arpenter la rue du Bout-du-Monde en longeant le lit caillouteux du Verdus pour admirer les maisons séculaires accrochées à même le roc et franchir les pontets de pierre enjambant le torrent. Lever les yeux pour détailler les linteaux gravés, les fenêtres gothiques à coussièges et les arcades médiévales reliant les bâtisses par-dessus la ruelle. Découvrir les ateliers d'artisans d'art (céramistes, santonniers, tourneurs sur bois) dissimulés dans d'anciens celliers voûtés, avant de grimper par les calades supérieures menant au sentier en corniche du cirque de l'Infernet pour profiter d'une vue plongeante sur les toits de tuiles brunes et le clocher roman de l'abbaye.",
     link: "https://photos.google.com/share/AF1QipO-npy7_T8Mdqf7CzI_oRqfkVrXU24M5tyvoA_59tG59z3n-VcGrt1zLUf1HveO3g?key=OGM3Vms0OFpPbFdQaW53X0p2Tnc5VmQ2Wl9uWV93"
   },
-   {
+  {
     id: "saint_guilhem_le_desert_abbaye_de_gellone",
     name: "Saint-Guilhem-le-Désert - Abbaye de Gellone (UNESCO)",
     country: "France",
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Occitanie",
-    department: "Hérault",
+    department: "Hérault (34)",
     subdiv: "Saint-Guilhem-le-Désert",
     altitude: 102,
     is_island: false,
@@ -952,10 +1002,29 @@ const travelSpots = [
     era_label: "Chef-d'œuvre du premier art roman languedocien inscrit au patrimoine mondial de l'UNESCO",
     century: "XIe siècle",
     category: "religieux",
-    counts: { unesco: 1 },
+    unesco_name: "Chemins de Saint-Jacques-de-Compostelle en France",
+    counts: {},
     lat: 43.733945,
-    lng: 3.549290,
+    lng: 3.54929,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMeOA29iULVZw4mGt-wd79Bh2uwbB3S8p9AuD2bA8Jbz_L3W0cYWdeOtt-yJYlbLRMijrOPs3Mj1fGPFgUGGvFkOR7aHdvHsFOfJxvL8pKoq-_A6TVrlMA3JtIWoRK1KC5sOzl8BUxArw8FcBDg8OIy5A=w1890-h1260-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNN8D5z4irTvjJCrIg5E5p8VYxiBjI83GSzu18McyXm0L9ieBL8Y0u7BP6gf03PcVUs_7rjmPPjy9pDdV_qN1-SWZJYqGl3t-q9_tlRTm6Em6FGNjPKGT25DcRIE7W1Df6yu3i0_rAuEt3Rm2xkEj6aqQ=w2088-h1399-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOWfroDZvnznp2uHOS9lFJRN6aRjNd7v8Mj5TaT7XbTXQYWBl98h-g8cUI-a5dCHKzvKOTzpHdeQUH3oVYgo1yw0Y412Wfxo77c3Pb2LDztOUB-cy7n3Xdn9rVfJDy954_nIVLAmsLvQqamBLmsGAMBww=w2088-h1399-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOzFQQp2TrntAqrv0NR-mEcrx06DTiGPI8O5K9iD33LRCC-6P4nn-KNkU-v3XG-8cXv5GeuFW42fsK7qr_FpH3e36qb5ZdiRtTYGDIOxZ0tfiDTvRsGgXsddbR0gW0sXpFdUCpvzdTcQZaBrZQKe75TVg=w2088-h1399-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOrcUvWxWbRb0Zkf3Dr_R1SWdutCNekk1fLfx2U3LsbfYOpLrqB4TArg6Ma3qfONxBm2MCbPWvia7_CL8C3euhUZkKqntueLaUWQlbSz-IMCtSIr9VhwqlaY_XdPUxV3CmYKWKaXJNtLxwatlvB-nBgZA=w2088-h1391-s-no-gm?authuser=0",
+        caption: "L'architecture intérieure de la nef est d'une grande sobriété, privilégiant la puissance de la pierre et la pureté des lignes. Elle se divise en quatre travées rythmées par des arcs doubleaux en plein cintre qui retombent sur de puissants pilastres. La voûte, un berceau en plein cintre continu, repose sur des murs latéraux renforcés par des arcs de décharge, une technique permettant de soutenir le poids considérable de la structure sans recourir à d'importantes ouvertures. Cette conception limite l'apport de lumière naturelle, plongeant la nef dans une pénombre mystique qui dirige le regard vers la clarté du chœur.\n\nLe vaisseau central est flanqué de collatéraux plus bas, également voûtés en berceau, qui communiquent avec la nef par de grandes arcades en plein cintre. À l'extrémité orientale, la perspective s'ouvre sur une abside majestueuse percée de baies, dont l'éclairage contraste avec la sévérité de la nef. Le mobilier liturgique visible, notamment le maître-autel du XVIIIe siècle et les éléments de ferronnerie, témoigne de l'évolution de l'abbaye de Gellone à travers les siècles, tout en respectant l'harmonie romane de l'édifice originel fondé par saint Guilhem, compagnon de Charlemagne."
+      }
+    ],
     description: "Fondée en 804 par Guillaume de Gellone, cousin germain de Charlemagne et héros militaire devenu moine après avoir déposé les armes, l'abbaye de Gellone est un joyau universel de l'art roman méridional, inscrit au patrimoine mondial de l'UNESCO au titre du bien « Chemins de Saint-Jacques-de-Compostelle en France » (voie d'Arles ou via Tolosana). Établie au creux des impressionnantes falaises calcaires du cirque de l'Infernet dans le val de Gellone, l'abbatiale actuelle rebâtie au XIe siècle impressionne par la majesté dépouillée de ses lignes architecturales et son chevet monumental à trois absides étagées, rythmé par des lésènes et des bandes lombardes finement sculptées. Le sanctuaire doit sa renommée millénaire et l'afflux des pèlerins médiévaux aux précieuses reliques rapportées par saint Guilhem, notamment un morceau de la Vraie Croix serti dans un reliquaire d'argent ainsi que les reliques du saint fondateur conservées dans une crypte romane voûtée. La nef, d'une verticalité exceptionnelle pour le premier art roman méditerranéen, s'élève sous un berceau en plein cintre d'une pureté acoustique souveraine, baignée par la lumière dorée filtrant à travers de fines plaques de calcite translucide.",
     visiter: "Arriver face au chevet roman pour contempler le jeu des arcatures lombardes et la patine dorée du calcaire taillé contrastant avec les murailles rocheuses du vallon. Franchir le portail pour pénétrer dans la haute nef austère, lever les yeux vers la voûte en plein cintre et admirer l'orgue historique Jean-Pierre Cavaillé achevé en 1789, miraculeusement préservé dans son état d'origine. Descendre dans la crypte du Xe siècle abritant le tombeau en marbre blanc de saint Guilhem et de ses sœurs, avant de gagner les deux galeries subsistantes du cloître roman, où chapiteaux sculptés de feuilles d'acanthe et d'animaux fantastiques rappellent la splendeur des galeries aujourd'hui en partie dispersées (notamment au musée des Cloisters de New York).",
     link: "https://photos.google.com/share/AF1QipO-npy7_T8Mdqf7CzI_oRqfkVrXU24M5tyvoA_59tG59z3n-VcGrt1zLUf1HveO3g?key=OGM3Vms0OFpPbFdQaW53X0p2Tnc5VmQ2Wl9uWV93"
