@@ -1061,7 +1061,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Haute-Corse",
+    department: "Haute-Corse (2B)",
     subdiv: "Porri",
     altitude: 560,
     is_island: true,
@@ -1072,9 +1072,23 @@ const travelSpots = [
     century: "XIIe siècle",
     category: "religieux",
     counts: {},
-    lat: 42.458920,
+    lat: 42.45892,
     lng: 9.445925,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMD0AfZsQMgMntSaxiq1Kp1XY19GYL-uL_bgDKwZqQDWhRp9SK4dHvMeWHqRuAxoEM0PIHHH4tDE3ccUPd2afbXUWCviI_NnSFOhPDeundUjBfHk1M9dhZjun-1ia13dj3njCQbeefYyb2b_shGk1mWSw=w1784-h1343-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMjp5ilgWHTRHM48GNkDZnO4O0OeTUDA-_e15lGgX7K461_HkOQqhnFofXJzKufRyItejQ87LePqdZKRMR42E1-VgX9tvtpRLPkU5ZR0Q4_j37qwYajK1pJD8CKUbuiE0RVfn9DICtChsz9euE0xeTHQQ=w2088-h2774-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNG6eHoM1YuEieYmHy2TtC4e267bbCdqconEHnVSjIU3vigrokPj0nYLs3roxgYXZ0R5hmzJxa29zETR4BD8EHEWWI30DOxrR8T8WM3ts-n8K8pu3ODas1siMyYtPiYBhhtbjIZ_bjMEiTVhE3_adiX1A=w2088-h2774-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczODNSQG-7ff0M_Ay-7ZikBcvP4a4FVoernqGMT399RwzeWIGALaFwRhZeRYfv8j9RYlys0nyyw20FRkZMeUDI777rkHshlU-eGsDD4fvmOnE-KDSVSHojkd1qmSQBl9E_b2NNxdXxBA4i7LG4vjyBvvYA=w2088-h2774-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Perchée à plus de cinq cent soixante mètres d'altitude sur les contreforts boisés dominant le village montagnard de Porri, l'ancienne chapelle rurale San Ghjacumu (Saint-Jacques) est un jalon spirituel précieux et méconnu du Haut-Fium'Alto. Érigée au Moyen Âge à la croisée d'anciens chemins muletiers et de transhumance reliant les communautés de la Casinca aux crêtes de la Castagniccia et au massif du Monte San Petrone, elle servait à la fois de chapelle de confrérie, d'oratoire pour les bergers et d'étape protectrice placée sous le patronage de saint Jacques le Majeur. Construite en moellons de schiste sombre issus des carrières locales et coiffée à l'origine d'un toit à deux pans en lauzes traditionnelles (teghje), la chapelle se love sous une magnifique canopée de châtaigniers séculaires et de chênes verts. Sa maçonnerie robuste et son chevet plat ou semi-circulaire révèlent le savoir-faire rustique mais pérenne des maîtres maçons insulaires, offrant un contraste saisissant entre la rudesse de la pierre sèche et l'atmosphère sylvestre paisible qui enveloppe le sanctuaire.",
     visiter: "Gagner le sanctuaire en empruntant le sentier de randonnée pédestre ombragé qui s'élève depuis le bourg de Porri à travers les sous-bois de châtaigneraies et les terrasses de culture réhabilitées. Découvrir la façade austère percée d'une simple porte surmontée d'un linteau monolithe et admirer l'intégration parfaite de l'édifice au cœur du paysage montagnard. Faire une halte méditative à l'ombre bienfaisante des grands arbres pour profiter de la quiétude des lieux et de l'air vif d'altitude, avant de jeter un regard vers l'est pour contempler les trouées panoramiques plongeant vers la mer Tyrrhénienne.",
     link: "https://photos.google.com/share/AF1QipMULn9cKklmtM8rg4me1yrjqtjpxbMatXa9ip-lBt-FKU_H4Di4tfrGT8hZqAtCsQ?key=cGNUa214ZEM2Q0tmNjQ3UU1xVExHM05PTDFPSGVR"
@@ -1086,7 +1100,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Haute-Corse",
+    department: "Haute-Corse (2B)",
     subdiv: "Sorbo-Ocagnano",
     altitude: 222,
     is_island: true,
@@ -1100,6 +1114,16 @@ const travelSpots = [
     lat: 42.478315,
     lng: 9.459175,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMau9wrHFeHH_3XHFbIE66Inyws2M4DG0AVQ4Q4CRDbiBoOmCax5Qw0IGUwceIQh4l3CS4ZFkKx8iCmHYzWSZ0zLx5RlnnBZMU_XvUi-6Brk5I9RiwtPHSFFZOB-LC2tO2mrnvh6LES8Y5rd8wOxnciGg=w1784-h1190-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNHFeurALyXyNEs8fHjNiCR-PIx2ENen7ZgOVOIXQO3HJ6CQtLt21C4-_1zZoWeQzHtBIszuZqkqLdG053AVp4xyw4P1z5_9rPMIEO_ovi3Cq79Spk7tvhVVhDOAGoPAURwU0hXTl8DyajPR3OsulJQUQ=w1922-h2880-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNLqxVcvM6KbqLuK7H7bXIVfVGrb1FMgNlM9LQxln2FBFCcTK_kdUnIXkZgE_l4DQkc0egPn_7A4mDKWmdwkxyOy0TZHDXYC_N9wYAabMZ2Dfw46kwNlk_UqOi_Yh-nwKNXM3O_doA7rwofCmRo3gxv6w=w2088-h1393-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Édifiée sur une terrasse panoramique en promontoire entre les hameaux de Sorbo et d'Ocagnano, l'église San Giovanni Battista est l'ancienne pieve (église baptismale et judiciaire) médiévale qui administrait spirituellement la piévanie de Casinca au Moyen Âge. Reconstruite au XIIe siècle dans un pur style roman pisan avant d'être remaniée et agrandie aux périodes classique et baroque pour répondre à la démographie paroissiale, elle séduit par la beauté lumineuse de son appareil en blocs de schiste vert et ocre soigneusement équarris. Sa façade principale s'orne d'un clocher-campanile élégant coiffé d'un dôme en coupole typique du baroque génois corse, créant une superposition architecturale harmonieuse entre la rigueur romane primitive et la grâce méridionale. Dédiée à saint Jean-Baptiste, protecteur des sources et des baptêmes, l'église abrite sous sa nef voûtée un mobilier d'art sacré d'un grand intérêt, comprenant des autels de stuc polychrome, des toiles de confrérie des XVIIe et XVIIIe siècles et de remarquables fonts baptismaux rappelant sa vocation de sanctuaire mère du canton.",
     visiter: "S'arrêter sur le vaste parvis pavé en balcon pour contempler le clocher ajouré et examiner sur les murs latéraux les assises romanes du XIIe siècle aux teintes vert amande et dorées. Pénétrer dans la nef pour admirer la clarté du maître-autel baroque richement sculpté et découvrir les retables latéraux dédiés à la Vierge et aux saints patrons locaux. Prendre le temps d'observer la cuve baptismale ancienne en pierre locale avant de sortir admirer le panorama exceptionnel qui se déploie depuis l'esplanade : une vue plongeante et dégagée sur l'immensité de la plaine orientale, les eaux scintillantes de la mer Tyrrhénienne et les contours montagneux de la presqu'île du Cap Corse au nord.",
     link: "https://photos.google.com/share/AF1QipMULn9cKklmtM8rg4me1yrjqtjpxbMatXa9ip-lBt-FKU_H4Di4tfrGT8hZqAtCsQ?key=cGNUa214ZEM2Q0tmNjQ3UU1xVExHM05PTDFPSGVR"
@@ -1111,7 +1135,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Haute-Corse",
+    department: "Haute-Corse (2B)",
     subdiv: "Sorbo-Ocagnano",
     altitude: 466,
     is_island: true,
@@ -1121,10 +1145,20 @@ const travelSpots = [
     era_label: "Oratoire roman de crête perché sur un piton panoramique face à l'archipel toscan",
     century: "XIIe siècle",
     category: "religieux",
-    counts: { rando: 1 },
+    counts: {},
     lat: 42.469312,
     lng: 9.444308,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOhGNk_OIGIueE_RiX7paf0-T-j7Vdd9joIVen1uQxkzGBUnaaXIvbo0j790efZdqcGXUbMjy4dUQrp0JPz4mQs3wKtOxSy767jK673kp7IROUxDt-XcEC2H0fguF1NjSmooag2TnbBxDipcLy8Po13vQ=w1784-h2369-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNGN8iHEV_6ggoSRBBZjILVwuHr8ct0NmlCygdzowcGdsZsWgXuP0ZtzNd64l0hVF8IdVoSSnggyOvK3E3Tt7EOlpqgNztWA8jPxi0NKpMQzgfsokw9GyP2-saSccDeavw5jnURC476iNp8SQ8lQXlIqw=w2088-h1571-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMJHNq2qtfB7ismChyClNo3dTOsSfj8xwteWW54uJ_GdSm2zWW2PPc_-LSONBIxLkOQi30ONOCb14MeU973wdOcnvgstvCSJkDpN8RfShY_2fSUeJZGGOOjzqm1vkqmSUyPPh8b8FKJ8o9u5tic5oKjSw=w2088-h1571-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Couronnant un éperon rocheux particulièrement spectaculaire à près de quatre cent soixante-dix mètres d'altitude au-dessus des châtaigneraies d'Ocagnano, la chapelle San Damianu (dédiée aux saints martyrs médecins Côme et Damien) est l'un des belvédères religieux les plus saisissants de la côte est de la Corse. Bâtie à l'origine au XIIe siècle dans la grande tradition de l'art roman corse puis entretenue avec ferveur par les confréries villageoises, elle présente un plan rectangulaire modeste bâti en moellons de schiste apparents et surmonté d'un clocheton à baie unique campaniforme. Utilisée jadis pour des offices votifs lors des épidémies et pour bénir les terres agricoles de la microrégion, la chapelle s'élève comme une vigie spirituelle et visuelle entre ciel et mer. L'environnement minéral qui l'entoure, tapissé de cistes, de bruyères arborescentes et de blocs de rochers gris polis par les vents d'est, compose un cadre sauvage d'une beauté austère et grandiose.",
     visiter: "Entreprendre l'ascension pédestre par le sentier communal balisé serpentant depuis le haut du village de Sorbo ou d'Ocagnano à travers le maquis haut et les sous-bois de châtaigniers. Découvrir la chapelle juchée sur son piton rocheux et admirer la simplicité chaleureuse de sa façade minérale flanquée de son campanile rustique. Gravir prudemment la petite crête rocheuse attenante pour embrasser un panorama circulaire à 360 degrés grandiose : la plaine de Casinca à vos pieds, l'embouchure du Golo au nord, et par temps clair, la ligne d'horizon soulignée par les silhouettes majestueuses des îles de Capraia, d'Elbe et de Montecristo.",
     link: "https://photos.google.com/share/AF1QipMULn9cKklmtM8rg4me1yrjqtjpxbMatXa9ip-lBt-FKU_H4Di4tfrGT8hZqAtCsQ?key=cGNUa214ZEM2Q0tmNjQ3UU1xVExHM05PTDFPSGVR"
@@ -1211,7 +1245,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Haute-Corse",
+    department: "Haute-Corse (2B)",
     subdiv: "Popolasca",
     altitude: 553,
     is_island: true,
@@ -1221,10 +1255,20 @@ const travelSpots = [
     era_label: "Nid d'aigle féodal des seigneurs Amondaschi verrouillant la vallée de la Tartagine et du Golo",
     century: "XIIIe siècle",
     category: "chateau",
-    counts: { rando: 1 },
+    counts: {},
     lat: 42.438572,
     lng: 9.164599,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPZUaye-VeTLZRBve-zOLeC5VR20DJThe1pASdnCKyNyUy0KFxNA8YLFbu_QarQA1NJbSaPhEHtGr9IK1asXrjCiffzFb7Df2muD0Y0HRVpg4kCbUU7Uye0cfFya5mbO1r4hT4J43FjhdhVcglDjCiemg=w1784-h2369-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMQM2m1L8fkjPTjQ91ThnYEX15McLdo0UjXqLZaMCkuuWFcPlmRIibl54N7JSD3bUtW5AgrdQf4hQXpfZQn5QKvw5BHr9_zjflljZ_B95zeje826mQAThqCcxMGug6qwbF5VdgMRHMR79e98SQmYMvJhA=w2088-h1571-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPFlG5FwT34xZiJeIQG-MwMDpI1fXHxkb_P1dde-hmvzCDO3SyIocTnu5wSzCYwMC800P_iQmrDM0GIghh7theHm2OO9Von5trjmcja0oWVfBQCFEV_Er-aA5Vaa2X5zVe16f6-kS0Kx74H9l2RSam82A=w2088-h1571-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Perché sur une arête rocheuse calcaire particulièrement escarpée dominant le confluent de la Tartagine et du Golo, le Castellu di Serravalle est l'une des forteresses médiévales les plus spectaculaires et stratégiques de l'intérieur de la Corse. Érigé au XIIIe siècle par la puissante lignée seigneuriale des Amondaschi — seigneurs féodaux qui contrôlaient le Caccia, le Giussani et les voies de passage transhumantes vers le Niolo —, ce nid d'aigle verrouillait l'accès entre la côte orientale et la Balagne. Les vestiges actuels comprennent une puissante tour maîtresse quadrangulaire en moellons de calcaire local soigneusement appareillés, les ruines d'une courtine d'enceinte épousant les failles vertigineuses du rocher ainsi que des traces de logis et de citernes rupestres. Théâtre d'âpres conflits entre les seigneurs locaux et l'autorité montante de la république de Gênes, le château fut assiégé à plusieurs reprises avant d'être progressivement démantelé, laissant place à des ruines grandioses qui se découpent fièrement sur le décor minéral des célèbres aiguilles de Popolasca.",
     visiter: "Rejoindre le départ du sentier depuis la route en contrebas de Popolasca ou près du pont génois de Castirla. Suivre la sente cairnée et sportive qui s'élève à travers le maquis odorant (arbousiers, cistes et chênes verts) pour grimper à l'assaut du piton rocheux. Gravir avec prudence les derniers mètres taillés dans la roche pour accéder à l'esplanade du donjon médiéval et contempler l'appareillage médiéval bravant le vide. Profiter d'un panorama circulaire à couper le souffle embrassant les aiguilles déchiquetées de Popolasca, la vallée encaissée du Golo et l'enfilade des crêtes du massif du Monte Cinto.",
     link: "https://photos.google.com/share/AF1QipPtWZFeIYzvCHFr9VyBEk0mA0NoHu-kXgfbKQP2Flw50FgUA3suQI8pWrdw_uCprg?key=YVo2WER1cFVmQWJVZWVTOExHWnFuTFQ5Q2IxeGVn"
@@ -1236,7 +1280,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Haute-Corse",
+    department: "Haute-Corse (2B)",
     subdiv: "Castiglione",
     altitude: 470,
     is_island: true,
@@ -1246,10 +1290,16 @@ const travelSpots = [
     era_label: "Tour de guet médiévale isolée dressée sur un piton panoramique face au massif du Cinto",
     century: "XIIIe siècle",
     category: "chateau",
-    counts: { rando: 1 },
+    counts: {},
     lat: 42.421323,
     lng: 9.176825,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPJkhYYIlYT8G2zHPHVuQwf2v4u3IqeqygaRLvopS17eHcpxbJt2XGX-VgXW6mKhb0ztkKpeldxX09ll6F60loWUPoQnHJO-JiYvGov6THJJrHwBn2jtadxLo2okF6Vh5RlVuDGoqPQ41TMG2SrqtWqVA=w1784-h2369-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMTPZaFB64nOeyV6NzfoqaUwVAsPw6S2U7XQIQKVo935KYdu1UUdll_ei8sobFSzpBYub9DtYNi72PuZNJwhv28rW0DewwQRV98zZbKizihuvhR6nyOtOtlPgzvLTarI3CfE-srO2s3RYuMTEXFKy_pmw=w2088-h1571-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Dressant sa fière silhouette de pierre au sommet d'une cime rocheuse isolée culminant à près de mille mètres d'altitude au-dessus du village de Castiglione, la Torra di Monte Albanu est un poste de guet et de transmission médiéval d'une grande valeur historique. Bâtie à l'époque féodale en liaison visuelle directe avec le Castellu di Serravalle et les autres places fortes du Caccia et du Niolo, cette tour circulaire ou sub-carrée occupait une position de surveillance militaire hors pair. Elle permettait d'observer les mouvements de troupes le long de la haute vallée du Golo et de relayer instantanément les alertes par feux nocturnes ou signaux de fumée diurnes vers les villages perchés voisins. Érigée en blocs de granite et calcaire bruts solidement hourdés, la tour défie les siècles au cœur d'une nature rude et préservée, entourée d'une végétation de maquis d'altitude et de pins d'où émergent d'impressionnants chaos rocheux sculptés par l'érosion éolienne.",
     visiter: "Emprunter l'itinéraire de randonnée pédestre balisé s'élevant depuis le village montagnard de Castiglione à travers les châtaigneraies et les rocailles. Monter de façon soutenue en suivant la ligne de crête pour atteindre le sommet du Monte Albanu où trônent les vestiges de la tour séculaire. S'approcher des soubassements pour admirer l'intégration parfaite de la maçonnerie médiévale à même la roche mère. Savourer le silence absolu de la montagne corse et contempler la perspective plongeante sur les gorges de la Scala di Santa Regina, les crêtes du Monte Padro et l'ensemble de la vallée centrale.",
     link: "https://photos.google.com/share/AF1QipPtWZFeIYzvCHFr9VyBEk0mA0NoHu-kXgfbKQP2Flw50FgUA3suQI8pWrdw_uCprg?key=YVo2WER1cFVmQWJVZWVTOExHWnFuTFQ5Q2IxeGVn"
