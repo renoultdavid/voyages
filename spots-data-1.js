@@ -2367,7 +2367,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Île-de-France",
-    department: "Paris",
+    department: "Paris (75)",
     subdiv: "Paris (1er arrondissement)",
     altitude: 34,
     is_island: false,
@@ -2383,16 +2383,34 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczP_3kfEljQsn8ApIZygUDZadQBM8pNHJt9oktoWbu2y2SLjWGFNWmn6nrPBvU6EFgHwbfX0FPMTxO8o0IWjWmEF-RCTRFrUk1oCKylXMbBuMmV6wHIXNHjSn0s7GQ-_I44E4QfNP898GiANXBbJBFGZBw=w1818-h2416-s-no-gm?authuser=0",
     description: "Dressée directement face à la colonnade orientale du palais du Louvre dessinée par Claude Perrault, l'église Saint-Germain-l'Auxerrois est l'un des sanctuaires médiévaux les plus chargés d'histoire de Paris. Fondée dès l'époque mérovingienne sous l'invocation de saint Germain d'Auxerre, l'église fut entièrement reconstruite du XIIe au XVe siècle dans un somptueux style gothique flamboyant. Sa façade ouest est précédée d'un porche exceptionnel à cinq arcades ajourées bâti entre 1435 et 1439 par maître Jean Gauvain, surmonté d'une élégante rose et bordé de gargouilles expressives. Devenue la paroisse attitrée des rois Valois puis Bourbon résidant au Louvre, Saint-Germain-l'Auxerrois entra tragiquement dans les annales dans la nuit du 23 au 24 août 1572 : c'est le tocsin de sa cloche Marie qui donna le signal funeste du massacre de la Saint-Barthélemy ordonné contre les chefs protestants. Abrite de nombreuses sépultures d'artistes et d'architectes royaux (comme François Boucher, Jean-Baptiste Chardin ou Louis Le Vau), l'église présente une nef élancée, un remarquable chœur canonial ainsi qu'un beffroi néogothique flamboyant érigé au XIXe siècle par Théodore Ballu entre le sanctuaire et la mairie du premier arrondissement.",
     visiter: "Observer depuis la place du Louvre le grand porche flamboyant à cinq baies en arc brisé, en scrutant les statues de saints couronnant les contreforts et les voussures ciselées de rinceaux végétaux et de scènes bibliques. Franchir les portails pour apprécier l'harmonieuse ordonnance de la nef gothique et découvrir le banc d'œuvre monumental en chêne sculpté exécuté en 1682 par Le Brun et Le Pautre, où prenaient place le roi et la famille royale lors des grandes cérémonies. Parcourir le déambulatoire pour contempler le retable flamand en bois doré du début du XVIe siècle sculpté de bas-reliefs consacrés à la Passion, admirer les vitraux anciens mêlant grisailles du XIIIe siècle et panneaux flamboyants, puis se recueillir dans la chapelle de la Vierge renommée pour sa pietà et sa statuaire médiévale.",
-    link: "https://photos.google.com/share/AF1QipN06BoIewxOPodz_aFjBmlOvWEHUAvIfN39qF4PipgAOGHNnFVEcesnjhuflQT39w?key=cEtvdVYzU2VYc0ZjSERicmlyOHIxM0laMVVkTTNB"
+    link: "https://photos.google.com/share/AF1QipN06BoIewxOPodz_aFjBmlOvWEHUAvIfN39qF4PipgAOGHNnFVEcesnjhuflQT39w?key=cEtvdVYzU2VYc0ZjSERicmlyOHIxM0laMVVkTTNB",
+    sections: [
+      {
+        title: "Architecture intérieure et banc d'œuvre royal",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPie81CF4HpBOqdKmrNhep9aNd_r-uev0zXsPmlwBxdzu9KsjRXgTOIGDvfJCHurZBG_ynruSmw_1LtuP0BKKJeYnamCjmPgTP-NvwIGqvybBRWC1ywvqYAzPIoVjZfxWmBkPRoeObOnU_aTQrU0ULTgQ=w1802-h2392-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNhAFvw-Zi0DtnzmxVFqfpYEf7ZUwnNzwlPRmvWyQzUSBznzWr8vb0DRJJddcxDoYp2hrBBGwqms5HoRicCM10ZSmGWQ4jG2dI-oqURvo-MZkOpOMsQ2iLsTAYJgJahxTtv_K_GCQfUqWp0tVn32bYJHA=w1802-h2392-s-no-gm?authuser=0"
+        ],
+        text: "Le portail central s'ouvre sur un tympan sculpté illustrant le Jugement dernier et conduit à un intérieur baigné d'une lumière douce. La nef flamboyante à double bas-côté frappe par ses piles sans chapiteaux dont les nervures s'élancent avec fluidité vers les voûtes, tandis que le chœur du XIIIe siècle conserve les traces du badigeon et de la cannelure classique appliqués au XVIIIe siècle pour harmoniser l'église avec le goût néoclassique royal. Dans la nef se dresse le somptueux banc d'œuvre des rois de France, meuble de chêne magistralement sculpté en 1682 par François Mercier d'après les dessins de Charles Le Brun pour accueillir Louis XIV et la famille royale lors des offices."
+      },
+      {
+        title: "Mémoire historique, mobilier d'art et beffroi néogothique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP_3kfEljQsn8ApIZygUDZadQBM8pNHJt9oktoWbu2y2SLjWGFNWmn6nrPBvU6EFgHwbfX0FPMTxO8o0IWjWmEF-RCTRFrUk1oCKylXMbBuMmV6wHIXNHjSn0s7GQ-_I44E4QfNP898GiANXBbJBFGZBw=w1802-h2392-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOHJvtCgwKgfqzOvPilAv5xY-pU4hZXcPJPByOYoSivqv_f0daypUSBlQo-d_k1TsR-MKJFDGGWc7t7DEuMUrP5XpCPAk5E0_b4yZSerIq9b3C-IOs0s6d80-K4JR6BuBHIb9kCVsazhQ58eUCsc0lLRw=w1802-h1357-s-no-gm?authuser=0"
+        ],
+        text: "Le sanctuaire conserve également une exceptionnelle mémoire dramatique liée aux guerres de Religion : c'est le beffroi de cette paroisse qui sonna le tocsin dans la nuit du 23 au 24 août 1572 depuis sa petite cloche baptisée Marie, donnant le signal funeste du massacre de la Saint-Barthélemy. L'église abrite de multiples trésors artistiques, à commencer par son triptyque flamand en bois sculpté du début du XVIe siècle dans le bas-côté sud, de superbes verrières Renaissance attribuées à Jean Chastellain ainsi que des vitraux néogothiques restaurés. Les chapelles latérales conservent les sépultures et monuments funéraires de nombreux artistes et savants du Louvre, parmi lesquels François Boucher, Jean-Baptiste Chardin, Charles Le Brun et l'architecte Jacques-Germain Soufflot. Entre l'église et la mairie du 1er arrondissement s'élance un beffroi indépendant de style néogothique bâti par Théodore Ballu au XIXe siècle, venant parfaire cet ensemble patrimonial majeur du centre de la capitale."
+      }
+    ]
   },
-   {
+  {
     id: "rouen_cathedrale_notre_dame",
     name: "Rouen - Cathédrale Notre-Dame",
     country: "France",
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Normandie",
-    department: "Seine-Maritime",
+    department: "Seine-Maritime (76)",
     subdiv: "Rouen",
     altitude: 15,
     is_island: false,
@@ -2403,12 +2421,63 @@ const travelSpots = [
     century: "XIIe siècle",
     category: "religieux",
     counts: {},
-    lat: 49.440310,
+    lat: 49.44031,
     lng: 1.095031,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNRlSoDyiK6ow8pavUAL4SatLiHNfFsXbT_qLE34K2lodEisdJjpUQad5A66h-uPAWfhb-WgVBaNVj3hL636YNrvG6aCBoxnCLbEdU7RSwWjzN5cog5XPs5YPnniiLmossh0Jgj5gMohM9NXQOmIjM6RA=w1818-h2416-s-no-gm?authuser=0",
     description: "Cœur spirituel battant de la Normandie et monument insigne de l'art médiéval européen, la primatiale Notre-Dame de Rouen déploie une façade occidentale d'une richesse ornementale prodigieuse, véritable dentelle de pierre où s'entremêlent toutes les étapes du gothique, depuis le premier art ogival du XIIe siècle jusqu'aux rinceaux flamboyants et aux dais ciselés de la Renaissance. Encadrée par la tour Saint-Romain d'époque romane tardive et la tour de Beurre érigée au début du XVIe siècle grâce aux dispenses de carême, elle est couronnée en sa croisée du transept par une monumentale flèche en fonte de fer ajourée culminant à plus de cent cinquante et un mètres, ce qui en fait la plus haute flèche d'église de France. Immortalisée par Claude Monet dans sa célébrissime série de trente toiles peintes entre 1892 et 1894 captant les métamorphoses de la lumière selon les heures du jour, la cathédrale est aussi un haut lieu de l'histoire ducale : son déambulatoire conserve les tombeaux des premiers ducs normands, dont le gisant de Rollon, premier chef viking sédentarisé, ainsi que le réceptacle de plomb renfermant le cœur embaumé du roi Richard Cœur de Lion.",
     visiter: "Se poster sur la place de la Cathédrale pour contempler la façade occidentale et chercher à retrouver les angles de vue et les variations chromatiques explorés par Claude Monet depuis l'ancienne mercerie en face. Franchir le portail central pour apprécier la verticalité vertigineuse de la nef s'élevant sur quatre niveaux et admirer le spectaculaire escalier des Libraires menant à la bibliothèque capitulaire. Faire le tour du déambulatoire pour se recueillir devant les gisants de Rollon et de Richard Cœur de Lion, examiner le somptueux tombeau Renaissance des cardinaux d'Amboise sculpté par Roulland Le Roux, puis lever les yeux dans la croisée du transept pour admirer l'intérieur de la tour-lanterne baignée de clarté zénithale.",
-    link: "https://photos.google.com/share/AF1QipMLwFEK_Au4ZgNwaxmnwCuxrTd2EK8rQ25YqSv_dtNmig3HlymO8KPVXpBhTWyiEA?key=eFdVT1UwTEhIUFRJVHFGWUg4bU9qRi0tTUVzWkh3"
+    link: "https://photos.google.com/share/AF1QipMLwFEK_Au4ZgNwaxmnwCuxrTd2EK8rQ25YqSv_dtNmig3HlymO8KPVXpBhTWyiEA?key=eFdVT1UwTEhIUFRJVHFGWUg4bU9qRi0tTUVzWkh3",
+    sections: [
+      {
+        title: "Façade occidentale, tour Saint-Romain et tour de Beurre",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNZqtkiFXannQPzna5uAoPaD3_BHpRgeGGN60aqe1CrgaES84R5NGANsP8RMomMNnwf8dDsynTPBd4KCea0UWPXUSshT-jjC9yFccjOheNvrwpFnWexPF5riv0Q-OjqQOie2Flw55j0iZB01o3bnIhfsg=w1802-h2392-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOYJGuAL0y6vYNTFfIyvC_m1JAY5gS8YW3xpaeELKS8N-VntSttZAg_GXThNvH-NHvl8ZBe0dw6k-E3TPqY1Z5VqQMvNaSivyWsHgLUhjvj5lQtI8e9bq4LYQth3kpTCBsVyDIib0Y4Gd7zCIqc2oLNSQ=w1802-h1357-s-no-gm?authuser=0"
+        ],
+        text: "Véritable livre de pierre ouvert sur l'évolution de l'architecture sacrée du XIIe au XVIe siècle, la Cathédrale Notre-Dame de Rouen frappe d'emblée par l'asymétrie magistrale de sa façade occidentale. Cette dernière confronte la robuste tour Saint-Romain au nord, érigée au XIIe siècle dans un style gothique primitif couronné au XVe siècle par un niveau flamboyant en panache, et la célèbre tour de Beurre au sud, chef-d'œuvre du gothique flamboyant tardif achevé en 1506 grâce aux dispenses de carême accordées aux fidèles autorisés à consommer des produits laitiers."
+      },
+      {
+        title: "Portails sculptés et flèche monumentale en fonte",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOyHrf3r-lCxG4dB9gRpWeygxpEh4wCs2rqx86B7NmMfFU8ho3tQR9d7MMPE3KJApm7T4HuH75ZtWrxKlz3-km5Rr9eM7fHddac58j4FZeILkvBWmxlpj38DxStvoCMz6ertFGsCbyyr9jrV4RnE3v3tA=w1802-h2392-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPlC6H1ApgdzsS6fp2Fx_U7IGCCjoMzqA8exMfEZv2nKZ-5b9p5d8vXW2g7s7aZ3sYQmxl-tPU_qIvEu9tEh2Te6MqgkXuWhA7aXAFyMppsDXH19z4IFTXASTCuB_8ehVFfFgbZQ6zCXuoW3FcZ8uFLkA=w1802-h1357-s-no-gm?authuser=0"
+        ],
+        text: "Au centre s'ouvre le portail principal orné de l'arbre de Jessé sculpté dans la craie blanche, entouré par les portails latéraux de Saint-Jean et de Saint-Étienne aux tympans romans et gothiques d'une exceptionnelle densité figurative. L'ensemble est surmonté au niveau de la croisée du transept par une vertigineuse flèche en fonte de cent cinquante et un mètres conçue au XIXe siècle par Jean-Antoine Alavoine, faisant de l'édifice le plus haut monument religieux de France à son achèvement."
+      },
+      {
+        title: "Élévation de la nef et tour-lanterne",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNRlSoDyiK6ow8pavUAL4SatLiHNfFsXbT_qLE34K2lodEisdJjpUQad5A66h-uPAWfhb-WgVBaNVj3hL636YNrvG6aCBoxnCLbEdU7RSwWjzN5cog5XPs5YPnniiLmossh0Jgj5gMohM9NXQOmIjM6RA=w1802-h2394-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMEgNVObmPUJNFdNGAfw6QYUI1OdCANsFB7qU4CPj3-GRfChzyYeCp94GCBBhmfu9pZPFMuY-vtUcj1vHeXW9WBzvKFkgdrcjqgPHXNSnorAIhsMZBb7CofEcxqA_VchoXQ-2gar_2ZdlAQXts_bYAEfg=w1802-h2392-s-no-gm?authuser=0"
+        ],
+        text: "L'accès à l'intérieur dévoile une nef grandiose longue de cent trente-sept mètres et haute de vingt-huit mètres, rythmée par une élévation à quatre niveaux caractéristique de la première phase du gothique normand : grandes arcades brisées, galeries de tribunes à double baie, triforium aveugle et fenêtres hautes inondant le vaisseau de clarté. Au-dessus de la croisée s'ouvre la spectaculaire tour-lanterne octogonale qui baigne le centre de la croix d'un puits de lumière suspendu à plus de cinquante mètres du dallage. Le chœur à chevet arrondi, entouré d'un déambulatoire donnant sur des chapelles rayonnantes, conserve d'admirables stalles en chêne du XVe siècle ciselées de miséricordes profanes et satiriques."
+      },
+      {
+        title: "Panthéon des ducs de Normandie et tombeaux Renaissance",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOGNUgiSaKBnc73yakQBQ3w3HFg8RVS5Nlp3QsUTs0WLbtuZeXniWMTnJEIHNQbzRuwfIu3Kou5Dshpd1iQx9MxPjp4pNwzj6WtNhpZ4tg56IzVDG6IOCZwnF7zDm88hn09Cp4E6wDxL0OnweQqVsCwvw=w1802-h2394-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOwquGQGEbqjaYptq1tiT0VZ0qW9KvJHftLZkRsb78vFV_sN7O6WhlcEZWChMFgjjg_y_A0HSjx-dG7ugy_4QjNMx5TbMrGbkBxmsx9mT3VpGwwpHyGD2oXHG43zLoOfzyXfGsfQ4jofVUQwvV9-xGxMw=w1802-h1357-s-no-gm?authuser=0"
+        ],
+        text: "Sous le chœur se trouve l'un des ensembles funéraires historiques les plus prestigieux de Normandie. Le sanctuaire abrite les gisants des souverains normands, au premier rang desquels figure le tombeau renfermant le cœur embaumé de Richard Cœur de Lion, duc de Normandie et roi d'Angleterre, mort en 1199. À ses côtés reposent les sépultures de Rollon, premier jarl viking de Normandie, et de son fils Guillaume Longue-Épée, ainsi que le monument funéraire d'Henri le Jeune. Dans la vaste chapelle axiale de la Vierge s'élèvent les monumentaux mausolées Renaissance des cardinaux d'Amboise, sculptés en albâtre et marbre noir par Roulland Le Roux, ainsi que le tombeau de Louis de Brézé, sénéchal de Normandie, veillé par sa veuve Diane de Poitiers."
+      },
+      {
+        title: "Vitraux du XIIIe siècle et portails des transepts",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNYkoL3bh2lV0v-cH__iEmk7MnrXk6YM9wrlkQhxVeKDHy9BsBx_klk-UzQJ49ONxIqt1SX5pzzdScEMypPyANQUi_zm77Kbhz8tNr5ai5wobO4mAUNCFnyfBl11jlLGUuCiIQkxux918wF7Fsg4yOikA=w1280-h2880-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN18aFrPwnTsxmlmjkzUDpvMmMEsjYaeq0htURVWYVMpidboh2WMQebDQcICrA2PWKb9uBRbNyKH3CA8qNBF4r8-OlvcmHLS4B1TZ_DPeR1kvGhJLYWsiyc3EZrkXnGyotmM0ad6qvcYQYyqqWRVYZ-MQ=w1256-h2880-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOHnMNjjUXb21Gk1yeq6MYRrjyp6v7NsMSkGEzvCHchRRz8bWpdClrd7dIxYb-i44KHCgwP42wMqME1iHWf4dzLp2Pdr84IV20-GhDvZoWars1LJ8ncPzLAA0hFQe6NqPKqFlhAxzXqr3y8IOcmIDZYyA=w1278-h2880-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczND7oJB8ClAMkyM9ivJB1G4zKH3Ri5EnF9DltLvcoMP_XlHsKegX9to4TQPrvYIbGaioYmW7EuwIL64fIJzwpgG57UiLPWjO8oYVdZGSJD4svaHidZ3ykLb0GU3qlS2liSwcWMmbx9IYgNIsXAlijwMgQ=w1035-h2880-s-no-gm?authuser=0"
+        ],
+        text: "L'édifice constitue également un conservatoire exceptionnel de l'art du vitrail s'étalant du premier tiers du XIIIe siècle jusqu'aux créations contemporaines. Les fenêtres basses du déambulatoire conservent des verrières narratives célèbres du début du XIIIe siècle, notamment le vitrail des Belles Verrières et celui de la Passion, où les médaillons à fond bleu de Chartres racontent avec expressivité la vie des saints locaux et les donations des confréries de métiers rouennaises. Les façades des transepts prolongent cette féerie lumineuse, dominées au sud par le portail de la Calende et au nord par le portail des Libraires, chef-d'œuvre de stéréotomie gothique précédé d'une cour fermée où travaillaient scribes et relieurs au Moyen Âge."
+      },
+      {
+        title: "Regard impressionniste et mémoire de Monet",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOd3k_mHemx9mB9MpddfZ_QTjsDFUuPtIydff_RO2yw-h7AQeUKdev9p4CJY4hcf5LknEE0MoMu6wbpUsanVmNZ_FD9Jp-R9e4wONzw4yFhKDh7r71XXR3TJpIrsGsRZ82koAPeiYiab3T8KjOXRFAIyA=w1802-h1357-s-no-gm?authuser=0"
+        ],
+        text: "L'immortalité esthétique de la cathédrale est scellée à la fin du XIXe siècle par Claude Monet, qui s'installe face au parvis entre 1892 et 1894 pour peindre sa célèbre série d'une trentaine de toiles. L'artiste y dissèque le temps et la métamorphose de la matière sous les variations atmosphériques, capturant le portail occidental sous le soleil éclatant, la brume grise ou le crépuscule doré. Épargnée de justesse par les incendies de 1940 et les bombes de la « Semaine rouge » de juin 1944 qui éventrèrent les bas-côtés et la nef, Notre-Dame a bénéficié de campagnes de restauration exemplaires qui ont redonné tout son éclat à la pierre de Caumont."
+      }
+    ]
   },
   {
     id: "rouen_eglise_saint_maclou",
@@ -2417,7 +2486,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Normandie",
-    department: "Seine-Maritime",
+    department: "Seine-Maritime (76)",
     subdiv: "Rouen",
     altitude: 14,
     is_island: false,
@@ -2433,7 +2502,33 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczMPc5nTqktdCLFpNp4kklPKh6M_RyBY25YH3InmuCHM9P7OJMReTr854pPE8q2WyYcFQrok-4-4S8qebVLInl_pHtmWueBuqMaXH3Teh2-CZGonKZic2aBkIw-76BgExT4Rpxh0-PCUIGp3rFUscp3gyg=w1818-h2416-s-no-gm?authuser=0",
     description: "Érigée entre 1437 et 1521 au cœur d'un quartier d'artisans drapiers et d'orfèvres en pleine effervescence économique, l'église Saint-Maclou est universellement regardée comme l'un des joyaux les plus parfaits et virtuoses du gothique flamboyant en France. Dessinée par le maître d'œuvre Pierre Robin, elle se distingue dès le premier regard par sa façade occidentale extraordinaire, précédée d'un porche convexe cintré à cinq pans entièrement ajouré, surmonté de gâbles effilés à redents et de pinacles découpés comme une résille d'orfèvrerie. Les trois portails abritent des vantaux en chêne sculptés vers le milieu du XVIe siècle dans le style maniériste attribué à Jean Goujon, illustrant la circoncision, le baptême du Christ et la mort de la Vierge. Couronnée par une tour-lanterne ajourée que coiffe une flèche octogonale en pierre reconstruite au XIXe siècle, la nef présente des proportions d'un équilibre absolu, où les nervures des croisées d'ogives retombent avec fluidité sans chapiteaux le long de colonnes fasciculées.",
     visiter: "Admirer depuis la place Saint-Maclou la silhouette mouvementée du porche courbe et s'approcher pour contempler la finesse sculpturale des panneaux de bois des vantaux de la Renaissance. Pénétrer dans la nef pour ressentir la pureté élancée du gothique flamboyant et découvrir les fonts baptismaux ainsi que le monumental escalier d'accès à la tribune d'orgue, chef-d'œuvre de menuiserie gothique en chêne sculpté sans aucun clou métallique. Découvrir les chapelles rayonnantes pour admirer les verrières anciennes du XVe siècle teintées de jaune d'argent et de bleu cobalt, avant de contourner le chevet extérieur pour observer l'harmonie des arcs-boutants retombant sur les toits des maisons avoisinantes.",
-    link: "https://photos.google.com/share/AF1QipMLwFEK_Au4ZgNwaxmnwCuxrTd2EK8rQ25YqSv_dtNmig3HlymO8KPVXpBhTWyiEA?key=eFdVT1UwTEhIUFRJVHFGWUg4bU9qRi0tTUVzWkh3"
+    link: "https://photos.google.com/share/AF1QipMLwFEK_Au4ZgNwaxmnwCuxrTd2EK8rQ25YqSv_dtNmig3HlymO8KPVXpBhTWyiEA?key=eFdVT1UwTEhIUFRJVHFGWUg4bU9qRi0tTUVzWkh3",
+    sections: [
+      {
+        title: "Porche pentagonal ajouré et vantaux Renaissance",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMioJHJayLFRXorImcPWhZyYtqVPB3fBqKvRwWywFhuCFiS-NGuYfGm7kpZBpR4gmpSAFxmABBxKOMo1-tlAFwfKyfZbjjs4RRbbh1f9dp1cgQuE6lDf6ovxfbwiKw47ykhIehokGS46C5PlKDxDEVWPw=w1802-h2394-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMqk7Hbs23POpUyeiiMefSRNbxzVmLCTve_KjSGoQEQ6Cu6xWFFteCFJ7TbBQVV7kQ0O_Ere6_AKHsA3H8buUKFm_iVeCLA-yKbpYo5StK5Sh8GTk_qroPM3SiuMBQGG4TTddML9f0gMVGqkoVBpUiP9A=w1802-h2392-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMWKn-f0_1H6nmZTlnOnROgC4Bazet8_IxHFAeId-SVU20b-T8ywlpoz0h7dqvOFZR3Y4cQfQj4JP7ycwhjaUwojS6RQcw3QY41PqFBxSuXO2kCgPTwZspNhp58mA17o3CkQI5LIdv4Nrctnfdlq6vHcQ=w1802-h2392-s-no-gm?authuser=0"
+        ],
+        text: "La visite débute devant sa façade occidentale, chef-d'œuvre absolu de stéréotomie caractérisé par un porche convexe à cinq arcades disposées en demi-cercle. Trois de ces baies ouvrent sur des portails aux vantaux de bois sculptés attribués à l'atelier de Jean Goujon, illustrant des scènes bibliques encadrées de rinceaux, de figures maniéristes et de termes à l'antique typiques de la Renaissance. Les deux baies latérales, aveugles, sont surmontées de vertigineux gables triangulaires ajourés de soufflets et de mouchettes qui s'entrecroisent avec une grâce aérienne. Le tympan du portail central déploie un relief poignant du Jugement dernier, où le Christ accueille les ressuscités tandis que les damnés sont engloutis dans la gueule béante du Léviathan."
+      },
+      {
+        title: "Élévation de la nef et flèche flamboyante",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMPc5nTqktdCLFpNp4kklPKh6M_RyBY25YH3InmuCHM9P7OJMReTr854pPE8q2WyYcFQrok-4-4S8qebVLInl_pHtmWueBuqMaXH3Teh2-CZGonKZic2aBkIw-76BgExT4Rpxh0-PCUIGp3rFUscp3gyg=w1802-h2394-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOjGdA7iFlT5NzQ4pZyteEF4bEIfkKQcDeCCHRKp8Mo9qqXM8LDIoNkZaB6TkMQNDhFQgjbNURLc4DJvNUka3Uc5CbsHy6n3UVniT7vypOk3i6jbOUPq-4XHuvdk_HV6jN_ZmIVjGC8ulkbPZ34QoRBjQ=w1802-h2394-s-no-gm?authuser=0"
+        ],
+        text: "L'intérieur surprend par l'harmonieuse compacité de ses volumes, baignés d'une lumière cristalline filtrant à travers de hautes verrières flamboyantes. La nef à trois niveaux — grandes arcades en arc brisé, triforium aveugle à balustrade flamboyante et fenêtres hautes — s'élève avec une rigueur géométrique exemplaire, ses nervures filiformes retombant sans rupture de chapiteau le long de faisceaux de colonnettes ondulées. À la croisée du transept, une tour-lanterne octogonale élève son puits de clarté zénithale, couronnée à l'extérieur par une flèche en pierre de taille de quatre-vingt-trois mètres entièrement reconstruite au XIXe siècle par l'architecte Jacques-Eugène Barthélémy."
+      },
+      {
+        title: "Verticalité de la croisée et voûte étoilée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMtImVxxfparY-W_94Un1RM2HjGJCcRL4M4zWZK-aeurATaXj8t7FE7N8giF_JpuTbDqBzlsyWQaRSg0YQiHllQsqiaIOKzTyrC7gqXON_dt4JZGtiSF7PiySDmsHv9VXvUntu28rbwvX-5N_KmKzmcNA=w1802-h2392-s-no-gm?authuser=0"
+        ],
+        text: "Cette vue en contre-plongée de la croisée du transept de l'église Saint-Maclou de Rouen révèle l'audace structurelle du gothique flamboyant où la pierre semble s'alléger jusqu'à l'immatérialité. Au centre de la composition, la tour-lanterne octogonale s'élève telle une couronne de lumière, ses nervures convergeant vers un oculus central parfaitement circulaire, entouré d'une voûte étoilée à liernes et tiercelets dont la précision géométrique est soulignée par le jeu des ombres portées. Les quatre piliers fasciculés, aux colonnettes d'une finesse extrême, jaillissent du sol pour supporter les grands arcs brisés de la croisée, créant une dynamique ascensionnelle qui culmine dans ce puits de clarté zénithale. Sur la droite, la silhouette sinueuse de la poutre de gloire baroque du XVIIIe siècle s'insère dans l'espace médiéval, ses volutes sculptées en bois sombre contrastant avec la rigueur minérale des ogives. Les voûtes adjacentes de la nef et du transept déploient leurs réseaux de nervures prismatiques sans aucun chapiteau pour en interrompre l'élan, illustrant parfaitement la continuité fluide propre au XVe siècle tardif. La lumière latérale traverse les baies hautes et les fenêtres de la lanterne, révélant la texture de la pierre calcaire et les vestiges de polychromie ou de patine séculaire sur les voûtains. Cette perspective exalte la maîtrise des bâtisseurs qui ont su transformer une fonction de support en un pur objet esthétique, où chaque arête de pierre contribue à une harmonie céleste. Les verrières du chœur, visibles à travers l'ouverture de l'arc triomphal, complètent cette mise en scène par des touches de bleu et de rouge profonds, ancrant la verticalité de l'édifice dans une dimension sacrée et colorée."
+      }
+    ]
   },
   {
     id: "rouen_place_barthelemy",
