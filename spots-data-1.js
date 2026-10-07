@@ -1944,7 +1944,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Centre-Val de Loire",
-    department: "Loir-et-Cher",
+    department: "Loir-et-Cher (41)",
     subdiv: "Couture-sur-Loir",
     altitude: 78,
     is_island: false,
@@ -1960,7 +1960,90 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczMbLO-TEHafBPiHTj4jUzDAxQc6p68G0LngYDuDB49mK2qrf1qikhWtJOqxqX2jImhBbljxI_Zw3-_-aFb8WtBwwpVawH4xVhsfN4WFM5r67wH_m6Pe-N8hrLerYS1Egc8Z7EOuxLTZnX7KPoCcBFXszQ=w2270-h1514-s-no-gm?authuser=0",
     description: "Niché dans un vallon intime et verdoyant à l'écart du bourg de Couture-sur-Loir, le manoir de la Possonnière est un chef-d'œuvre de la Première Renaissance française et le berceau poétique de Pierre de Ronsard, qui y vit le jour en septembre 1524. Reconstruit au tout début du XVIe siècle par son père Louis de Ronsard, chevalier revenant enrichi des guerres d'Italie menées auprès de Louis XII, le logis seigneurial s'adosse directement au coteau de tuffeau percé de pièces troglodytiques (cuisines, celliers et dépendances). La façade de tuffeau blanc est mondialement célèbre pour sa profusion de sculptures maniéristes à l'antique : médaillons de profils d'empereurs, rinceaux, cornes d'abondance et blasons royaux, accompagnés de sentences philosophiques et de devises humanistes gravées en grec et en latin (« Veritas filia temporis », « Avant partir »). C'est dans ce décor agreste, bercé par les murmures des sources et les ramures de la forêt de Gastine toute proche, que le futur « prince des poètes » puisa l'inspiration sensuelle et mélancolique de ses plus célèbres odes consacrées à Cassandre et à la rose éphémère.",
     visiter: "Traverser la cour d'honneur pour admirer le raffinement des fenêtres à meneaux sculptées et lire les maximes humanistes gravées dans la pierre au-dessus des linteaux de portes. Pénétrer dans le corps de logis pour visiter la chambre natale du poète ornée d'une splendide cheminée monumentale Renaissance, avant d'explorer les surprenantes pièces troglodytiques creusées à l'arrière dans la falaise de craie (cellier et four à pain). Déambuler dans le jardin d'inspiration Renaissance aménagé en terrasses, planté d'une roseraie exceptionnelle rassemblant des centaines de variétés de roses anciennes et modernes parfumées rendant un vibrant hommage poétique aux vers immortels de Ronsard.",
-    link: "https://photos.google.com/share/AF1QipNwFGIRLzJ6bi3ZsThNM3gZPrwtI7ThTtgASFmQVOmxVzCuf-D1aRr2evmY9XTvtA?key=V1pNb1A5c1FsVHRRdkhOdWs3TFQ3S182T1dGOTVR"
+    link: "https://photos.google.com/share/AF1QipNwFGIRLzJ6bi3ZsThNM3gZPrwtI7ThTtgASFmQVOmxVzCuf-D1aRr2evmY9XTvtA?key=V1pNb1A5c1FsVHRRdkhOdWs3TFQ3S182T1dGOTVR",
+    sections: [
+      {
+        title: "Vues d'ensemble du manoir et de la cour",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNSMLzWVXpbCXvj5EwiAzy1rVz0ThVAHWYFaoP1S7t5yXmOn_K5AG7v24fa_iWVIQy0wTx0Vs2RHTYVstnU0bOtAwke6ZmkqHvV82IyqBWtU8NdljF_tdH_Psu_3xylyykHG45PESedTq8D9NvOjXt5Ng=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMbLO-TEHafBPiHTj4jUzDAxQc6p68G0LngYDuDB49mK2qrf1qikhWtJOqxqX2jImhBbljxI_Zw3-_-aFb8WtBwwpVawH4xVhsfN4WFM5r67wH_m6Pe-N8hrLerYS1Egc8Z7EOuxLTZnX7KPoCcBFXszQ=w1802-h1201-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Dépendances troglodytiques et falaise de tuffeau",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPOPcPZXf0bO-H__24bw7yLvqOyUl7LEdOXIVaIk9zH1MZpfWkjUh5FES4sYgvi0TNMW9XWKJ2gOjBor3XpyQfjCdgB4z2fIUwks5MoWGYv5whYBYaAEd4_BCZSaTCzDbJQjAxGjIeCaElWPJXzlellKg=w1802-h2702-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPCDUHxGOjZzaw8jqQPwMvJ6-omQRA9hdxfrZPifIVIwZ5KT1w7D8FqnUgrp3yZDwgT0vdULfxUJuNsoxt_PUB3N03O71EJ4pTslVStUI_kfn89JfXYC7OaMZHB12i9-x2w9Qk57u72a1pED4OmSUDg9w=w1802-h1201-s-no-gm?authuser=0"
+        ],
+        text: "La découverte du domaine débute par la falaise de tuffeau blanc qui enserre la cour, percée d'un vaste réseau de dépendances troglodytiques antérieures au logis Renaissance. Creusées à même la craie, ces cavités révèlent l'ancienne chapelle souterraine ornée d'arcatures rustiques, le cellier voûté où mûrissait le vin des coteaux, les remises agricoles et l'impressionnante cuisine troglodytique dotée d'une cheminée monumentale dont le conduit traverse la masse rocheuse jusqu'au sommet du coteau. Un pigeonnier troglodytique percé de dizaines de boulins taillés dans la roche côtoie d'anciens pressoirs et étables souterraines, illustrant l'autarcie domestique d'un domaine seigneurial du bas Vendômois."
+      },
+      {
+        title: "Cuisine troglodytique et devise stoïcienne",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMgxvYivHwcnip7gimONyQDQ-a6NgGwXCHRMjhF3G7YwUy-L2PuG54t08C0dav8an7npbGL_X6peoK29qMzi8NQDClzoMSmw8lRdiftC9fcKbssQhqpFS3Pqv86kRo5_CofymW5wHbEw_UIQ-sPP4l_Iw=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO1b4Lmqke3JvViRlFRchSR5ZImtWJDyD61GuLD4I1VsbzrvSKNj6F9bMfgxLl-UiifhhMtRzWAZpsEdhyWynkOuywRjKOetDZvj8d9gyDZZoY23jTXgX8pTXrU5Q-gA2vdHajOGt431MbD3iTtzMaHRw=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMaOfSU5FiLYZtFJqjoPF6yg95hjwKqMmicmVdNSSQBqbxvxNSNlHp0MhYiXOMcqA8J9ajlk3ezJlb2GIRjOAuDIVoLy7QwCDeWtL-F0vrQDBvdYSpw-GikrTtV_S03BjjpvjG8SaHEqNG8o3ZAXoE20w=w1802-h1201-s-no-gm?authuser=0"
+        ],
+        text: "La découverte s'ouvre par la cuisine troglodytique, vaste salle voûtée ménagée dans le rocher où trône un monumental foyer dont la hotte et le conduit traversent la masse de calcaire jusqu'au sommet du coteau. Sur le linteau de pierre sculpté de son entrée s'affiche la formule en latin : « Sustine et abstine » — devise stoïcienne empruntée à Épictète (« Supporte et abstiens-toi »), rappelant la tempérance et la modération nécessaires à la table et aux appétits."
+      },
+      {
+        title: "Parcours philosophique et linteaux gravés",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMx1cv_5VJjcopCi6EC5nsMnusp2OJ-R9Pv5n4NOZUQYknyineaOc5DZ44Ok8wG4rfcr_haiTsfVWzX9VQ8HJRzghn_RR9u2tIwGt4e7t8Yf9_3QkUvOlXWwSu4SDqEMN8At6R-ol3OQ-YdNpCeMClTqQ=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPJRyTmTBLYLh_8NMIpum7aiEoe9Zy8vdHKTAQfzuH8N5V9D5KOAXF_Cv-Y949CDvDyoCUcGbSVCmknvNyKl8i68qI9fG6rq2AK2t5U1NVC-tZ4qqUWYI9hpP5NRaPCwJ5lOmaMcY8QIp5YBlTgowemdQ=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNqO0cV78ngYRLxo34LsJKVQ-xW0LU0Lp6WMjP56yIbO0Hv6QzVgISs-spjfJlH07gI9KCnXwxtTax4PsLRhuGikWGyBLSQl-gG3ODVk4PXMPaWGJgn_Pf868oXyz3oVisNMt26-mP21yeqpLGnirUy5g=w1802-h2702-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMN0zymDsiIDvE_EdUq0shVV1IT4XBO4ot_QDtCusdnoNp8VtSe01od5RYlORdjWbhv75VvbXSILFSqX3fNJgfQE0SA6J_ohmZ54uTedCp_IwWJ3_Kd3xY0IwSxcMH84_jWXT9sEVrfhNTDVG2zR_hAYA=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPdzNuJrdEggdUtbPau3NiB8Y36kLOeMT8Y8bv-qCIRxVcq4JcR3hERCHO4UcrPywMAMJxmUn1EecKYVLV6TKdyM5tV_qy1xwSf28uv2Vj1W5JBvyRaVmg-xnmMsAa2q71gOgrwrtpx2P7bXDhM7LV0Kg=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNkbHcLjUuGJMaVHxTWJo5um0sRMUmHjysZ_SqZvcgUTpMRCgzEB3HVW2U7N9duoARnxw3TatFqplS4jtVkIfMVc4gQTm7EtlPkKRmlGmM4YniaR792hHiHG2vyxBzGBtfjp7x0ZZ4JGRoFLHro8wSB3g=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPu0pNw6TB7FQ7k2dm7MZVMvjdMffHjpoAgHVZeqPiBQ3ZqBnkWbW3sNzCBKR28jhuREQvAM1upT5DYNdJ7vj9_El6Ngr_cYjbFmAkKpNIhjiBjXhnCTr2YUq5W6ssGHoO6W7VbUFydXBAaKyLFoJPhMA=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOTDuKq0fNfj6evYLFMXvfBxt5Lbh4-m6XdJujIl78p_ztI_YLk9-8KTcc1a-6J2ZFvTP-guF30JKhnvoUFjGbASlIFV4LV8JGYx-e9m0WUPtZbVea4Y3JYvhaztcnZZ_LpHVy8gKASbaXInENNSqBQ4Q=w1802-h1201-s-no-gm?authuser=0"
+        ],
+        text: "Chacune de ces entrées troglodytiques forme ainsi un dialogue précoce entre l'habitat rural creusé dans le tuffeau médiéval et l'humanisme érudit inspiré de l'Antiquité, transformant les simples communs du manoir en un parcours philosophique gravé dans la pierre."
+      },
+      {
+        title: "Façades Renaissance du logis seigneurial",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOyab_6iwX9ap4waNLgGI4wURbjQZXgVEdRQLFt1WhnYVWUKYYhNWCn65sLGhJ7muhT67QtblaoBD6TzFkTLXHcUWECNLOC-StRps8KTES0EOpyPrME4crduFaCI_giY1SWWqd3t2mfXjV4u_G9Eq9q8Q=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN5JJbLRJ8exLo6neu--0cT7eROYyOiU0nfHczYEzEdP_Y6Jhgmprug2NKVJs-wJxcSFlGJL8mP_AF8BZ7EVNIjFXKR-LH5H4LVH-nmDSCIlPZC46J5iZDQOzGc5iZ8704UdLsb1IGbG8Omx6DhRJ5GMw=w1802-h1201-s-no-gm?authuser=0"
+        ],
+        text: "Érigées à partir de 1515 dans un calcaire de tuffeau d'une blancheur lumineuse, les façades extérieures du logis de la Possonnière offrent l'un des premiers et plus brillants manifestes de la Première Renaissance dans la vallée du Loir. Louis de Ronsard, rentré des guerres d'Italie nourri d'esthétique classique et d'idéal humaniste, fit sculpter sur les bandeaux, les trumeaux et les linteaux un livre d'architecture à ciel ouvert où dialoguent motifs antiquisants, emblèmes familiaux et maximes morales gravées en capitales romaines."
+      },
+      {
+        title: "Composition étagée et baies à croisées",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNlsejlv49UcH88JKtsrXKF8ASIn-YR-e-F0x17anfJQLwCNWQ7Mna2TfKCR5oOj0rzs-w8aFIfXiF4b1ARLxvr6zO4zpq1CL8tWPcrhetND94qEd0oOFV2l2h7VXWEP38uOlE0UaS2lUXL1N1YS6DEJg=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPM3LW7t3gwCc7og4v7qs34P73sdlAblD0cjbcyjR3vIsgsv60knvXi4j4wLIX41vOPf4GbGi-6tBkExknLRu_BWoeDjju6ceaiI5-1g4w8h4lxCeYbFTjvD6ZTQhh5h_YdywbJet23I-pgy7IKtiodcQ=w1802-h2702-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNddf4OGXMmGnC8aAcXw0vnvXrzbtuD4PEhjhHAaKiK0X_cWBqzvbXXzhE-RadIENZhHRzCtmbaYTVEX2Pqz8UnpYZ080DzaJ7o-DkN7-NPAlWC8-4BJvE5CL84zX58aLc29o5fEcrY_-2r3d9OHXaddQ=w1802-h1201-s-no-gm?authuser=0"
+        ],
+        text: "La façade principale sur cour attire immédiatement le regard par sa composition étagée, rythmée par de larges baies à croisées et demi-croisées encadrées de pilastres plats ornés d'arabesques, de candélabres et de rinceaux végétaux d'une grande finesse. Au-dessus des fenêtres du rez-de-chaussée courent des frises épigraphiques délivrant des leçons de stoïcisme et de prudence."
+      },
+      {
+        title: "Escalier à vis, salle basse et cheminée monumentale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMXKDbA4YaefHQZAwgY0f90BXiKzYTC4YoXYT0aPTJW98Dt_QD9dBmMjqGk3kBEVI91zmIJhGrwqLVACufx43fMR2uA-JEA9vKZyaB-FPG6lGe6Mf53wPKlxzy7x4r8KMoQcpWcXMoyAWB764z6NywOOg=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP0r1xJSI3_x2DpgEP1TLdn_j9JCb_fUiNhPrl8HALUTOQNKi1Uq-lNDSyCnRrMGDABYCUN5_-DQBPoy4DMEX1FCuOQb-a_1cmsdjXoFeG0mhP-12VyywEK-5El6PyK2jFoV2QAV3MLyP9ON-osSVOieQ=w1802-h1201-s-no-gm?authuser=0"
+        ],
+        text: "Le franchissement du seuil du corps de logis de la Possonnière fait pénétrer au cœur d'une demeure seigneuriale intime et lumineuse, où la rudesse défensive médiévale s'efface au profit de l'élégance humaniste de la Première Renaissance. L'organisation intérieure s'articule autour de la tourelle d'escalier à vis polygonale, dont les marches de tuffeau hélicoïdales aux arêtes adoucies desservent les différents niveaux du logis en reliant les pièces de réception aux appartements privés. Au rez-de-chaussée s'ouvre la grande salle basse d'apparat, vaste pièce de vie et de réception éclairée par de hautes croisées de pierre ouvrant sur la cour d'honneur. Le plafond à la française laisse apparaître ses maîtresses poutres et ses solives de chêne massif, jadis rehaussées de polychromies et d'armoiries. La pièce est dominée par sa magistrale cheminée monumentale en pierre de taille, véritable morceau de bravoure sculptural de l'artisanat ligérien du début du XVIe siècle. Son manteau richement mouluré déploie des pilastres Renaissance ornés de candélabres, de cornes d'abondance et de rinceaux d'acanthe encadrant l'écu aux armes de Louis de Ronsard — d'azur à trois poissons d'argent nageant l'un sur l'autre — surmonté de nouvelles maximes morales gravées dans la craie rappelant l'éthique stoïcienne et la fidélité royale du maître des lieux."
+      },
+      {
+        title: "Chambre natale de Pierre de Ronsard",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM8d76ksnV9XTHTjrXtSDHElHXwP_7DdzTMpjQV3FEh5tkaJiKh2ogx2uxJ3hEnThNqlEely7V3181y7tW4V_K81BQXmJjtVvbVC1imeGBLopJfLu6hNbDK0bdD5VXJXXTAXfrFib5WJ-TS87cEg82Oog=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMdv_GQPgR_gZ1X05bdvn_gKvUa_QODDLKQJJzEo9r0wfcV_-FnV4mryVMmdzXYx89c_7nZEk2ND1nsZXerIA7KapcBg0IgK4u-s--qUbhzRofAFTmXULKyrOZJ8xHywi_RI6AlUAKGe9CNXddBME5ccQ=w1802-h1201-s-no-gm?authuser=0"
+        ],
+        text: "L'ascension de l'escalier à vis conduit au premier étage vers la chambre natale de Pierre de Ronsard, lieu de mémoire où le futur chantre de Cassandre et d'Hélène vit le jour le 11 septembre 1524. Cette pièce feutrée, parquetée de chêne et tendue d'étoffes sobres, conserve une atmosphère de recueillement champêtre avec ses coussièges en pierre aménagés dans l'embrasure des fenêtres, d'où le jeune poète contemplait les jardins, les coteaux de vigne et la lisière de la forêt de Gastines. La chambre s'orne elle aussi d'une admirable cheminée Renaissance sculptée de volutes et de devises humanistes, devant laquelle la tradition veut que le père du poète ait initié son fils aux lettres antiques et à l'exercice des armes."
+      },
+      {
+        title: "Combles, charpente d'origine et musée littéraire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMqdtgLq8WgbfS1q9q6MxnmnM93aL62tMKkdhLjVcnq3f96cb7X5UELYTS6M4vlfeDDoEKmRqSQPd68iQnR7tmWK906Yy49QaixrwM0HOXwhz60OCixcxX5jx-mXjO649VU-FD1uJWVP2s6XAGn_bRKrA=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMajf-CJfoXts6AjgZKhUpRCvQeuuZcxP4bKa8FPR4LtPVv0kM-NQz-o9rA8fCxeFKybrYAh-VZYN9ZGBxNe1jQTJGMZqDDQArz_GoPkbuokajGwtTHDWoIxrsDyxxSNPjPrZe-idR2GIfeBlDzIguMLA=w1802-h2702-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPu9SMIMRgmSXQTfmCvvisetB7cmyhnAXbO8AIWSIO5ldggdiY9CR-gTYC_c6n6dSPwqiSouzHKnpiaZ25L2i_K6tWE_cBGoZBa5nSRcrK3OW73Tjg9Wqlpu0X68KzoMvj-jMqkpmBdBUyV4TAzCybKoQ=w1802-h1201-s-no-gm?authuser=0"
+        ],
+        text: "Les étages supérieurs et les pièces sous combles, abrités sous les hautes toitures d'ardoise percées des lucarnes monumentales, révèlent la maestria de la charpente d'origine chevillée en chêne. Ces espaces aménagés en salles muséographiques présentent des éditions anciennes des œuvres poétiques de la Pléiade, des fac-similés de manuscrits ronsardiens et des documents d'archives retraçant la vie de cour du poète auprès des rois Henri II et Charles IX. La circulation intérieure, à la fois fluide et mesurée, illustre avec authenticité le mode de vie raffiné d'une famille de petite noblesse provinciale à l'aube du Grand Siècle de la Renaissance française."
+      }
+    ]
   },
   {
     id: "couture_l_isle_verte",
@@ -1994,7 +2077,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Poncé-sur-le-Loir",
     altitude: 64,
     is_island: false,
@@ -2010,7 +2093,42 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczP6BUIlUggN4tGKb7j0TOOlcpL6licj72_Sf_pVYbQyrGp799lvdpKB034truYluT5CpGj-3OG2PmRpCCknLTFldRqYeYv9jzm2aRxMIDppUlJhHy-F2k51wFU3vePbtVoosahoRiH2cNtAsjPT3e2leQ=w2270-h1514-s-no-gm?authuser=0",
     description: "Édifiée au XIIe siècle sur une terrasse dominant la vallée du Loir dans le charmant village d'artisanat d'art de Poncé-sur-le-Loir, l'église Saint-Julien est l'un des sommets les plus originaux de la fresque romane en France. D'une facture extérieure sobre en calcaire de tuffeau flanquée d'un clocher carré à baies géminées, elle abrite sous sa nef lambrissée un cycle pictural continu d'une valeur historique et iconographique inestimable, peint vers 1180. Contrairement aux programmes religieux traditionnels, les parois supérieures de la nef déploient sur plusieurs registres une spectaculaire épopée guerrière et chevaleresque contemporaine des croisades : on y contemple des charges furieuses de cavaliers en cottes de mailles munis de heaumes à nasal, de longues lances et d'écussons normands, combattant au corps à corps sous des châteaux forts à créneaux. Associées à des scènes du Nouveau Testament, à un combat d'archers et à des travaux des mois, ces peintures murales d'une vivacité narrative saisissante offrent un témoignage visuel direct de l'idéal chevaleresque et des tactiques militaires sous la dynastie des Plantagenêt.",
     visiter: "Entrer dans la nef unique pour être accueilli par le spectaculaire défilé des fresques médiévales peintes en ocre rouge et jaune sur le mur nord. Munissez-vous de jumelles ou levez le regard pour observer la minutie des détails d'armement des chevaliers médiévaux : observer les caparaçons des chevaux, les épées tirées au clair et les bannières flottant au vent lors du siège de la forteresse. Découvrir ensuite le cycle religieux du chœur illustrant le Jugement Dernier et les vieillards de l'Apocalypse, avant de ressortir admirer le panorama champêtre sur le clocher et le château Renaissance voisin réputé pour son monumental escalier sculpté.",
-    link: "https://photos.google.com/share/AF1QipNwFGIRLzJ6bi3ZsThNM3gZPrwtI7ThTtgASFmQVOmxVzCuf-D1aRr2evmY9XTvtA?key=V1pNb1A5c1FsVHRRdkhOdWs3TFQ3S182T1dGOTVR"
+    link: "https://photos.google.com/share/AF1QipNwFGIRLzJ6bi3ZsThNM3gZPrwtI7ThTtgASFmQVOmxVzCuf-D1aRr2evmY9XTvtA?key=V1pNb1A5c1FsVHRRdkhOdWs3TFQ3S182T1dGOTVR",
+    sections: [
+      {
+        title: "Vues extérieures et clocher roman",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNGyaKxV0-Jy7EMaPeuHPD8kZwGmeuCWkAtNapMQNjeBjodp-L8Jy8mAG9Oopch-sbGjYcwFJgjM9YMVQAAgPPAfxlibXZzMsB3WOqv7MGY8MAr4WjGiRotcMeSyhmwwbFMXM_a5egUs5Iuq-FVJNQ4GA=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNz3vPRQTNx9rE3F5ldIMcQk5s868W_uFZNky5u-lxbKjz9u57Rzi-JqngbMrsChTPKzCHBiELgf8OnKEOAYbgLPfN0Wc8TrYveqtq8USMuRsJ07JdzPQ5LGJPyPn88BZZewKC_wZw968VaPCo8CTPdNA=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOiZSY6xqB_cpF7_GmMrWTx4IM8ROAxCzmTdQ_4uYJbj1pLNnthi3LEPX2JN-qCo55ahylN4PF4w26hi3wxSozD6RkiCNLQpgXDQEs_fxkvYp8d-X0Ym_yoWLwUQLvGmWc6rx0RTtzpNRZ2X-r8kFcw9Q=w1802-h1201-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Nef lambrissée, arc triomphal et Crucifixion",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP6BUIlUggN4tGKb7j0TOOlcpL6licj72_Sf_pVYbQyrGp799lvdpKB034truYluT5CpGj-3OG2PmRpCCknLTFldRqYeYv9jzm2aRxMIDppUlJhHy-F2k51wFU3vePbtVoosahoRiH2cNtAsjPT3e2leQ=w1802-h1201-s-no-gm?authuser=0"
+        ],
+        text: "Le programme iconographique, réalisé à la fin du XIIe siècle, se déploie sur plusieurs registres superposés, relatant des épisodes bibliques et des scènes de la vie de saints. Sur le mur pignon surplombant l'arc triomphal, une imposante Crucifixion accueille le regard des fidèles, créant une transition monumentale vers le chœur absidial. La palette chromatique, dominée par les ocres jaunes, les rouges terreux et les blancs calcaires, s'harmonise avec la blondeur de la pierre de tuffeau locale, conférant à la nef une unité visuelle et une chaleur lumineuse singulières.\n\nLa couverture de la nef est assurée par une voûte lambrissée en bois dont les entraits sont peints de motifs géométriques, faisant écho aux décors muraux. Cette charpente apparente apporte une certaine légèreté au-dessus de la masse imposante des piliers décorés de motifs en damiers et de figures angéliques. Le mobilier, composé de bancs en bois simple et d'un maître-autel sobre, s'efface devant la prédominance du décor peint qui transforme chaque surface maçonnée en un support de dévotion et d'enseignement visuel.\n\nL'organisation spatiale de la nef de Poncé-sur-Loir reflète une conception de l'église comme un espace de narration totale, où l'architecture et la peinture fusionnent pour immerger le visiteur dans l'histoire sainte. La préservation de ce décor de la fin du XIIe siècle fait de cette nef un document historique de première importance, illustrant parfaitement l'esthétique et la spiritualité de l'époque romane tardive dans la vallée du Loir."
+      },
+      {
+        title: "Cycle chevaleresque des croisades et scènes évangéliques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM727oGnU8L7U9470HijXVhUbKQbb2LOQk2hvBOtX7ANQ5RXWpJ77tKqqr1Gwd-SI_7KnP3nmQ7mNitMsueDE5xQ-IxIDJ85LZeXoDcMDWxWasVAYg8uz1k1xKDHVg1Ru0cbUWh9aAt2wDuNrqXL91Lzg=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNoRXpVZ_ECSptjCO7m4czT1C_uuwFNrsq115OjX4wIM7gCKRxnKSMckAMGLeqc_YV0GtP8e2U_qB4TF_HMANxFFrSvNnbE6KLQx0uYt7yUx1VcS55AUeIJ_IUimOmjx7VRi-gDWCZT-IZmwfkXaF0k5Q=w1802-h1201-s-no-gm?authuser=0"
+        ],
+        text: "Le mur nord déroule un cycle chevaleresque et militaire d'une intensité narrative exceptionnelle, figurant avec une minutie documentaire rare des combats de croisés et de chevaliers vêtus de hauberts de mailles, casqués au nasal et armés de lances et d'écus normands en amande, traditionnellement rattachés aux récits des croisades ou aux affrontements féodaux entre Plantagenêts et Capétiens.\n\nLes registres supérieurs et le mur sud illustrent les grands épisodes de l'histoire du Salut et des Évangiles, depuis la Nativité, la Cène et le Baiser de Judas jusqu'au cycle complet de la Passion, du crucifiement et de la Mise au tombeau. On y observe également la légende et le martyre de saint Julien du Mans, ainsi qu'une monumentale et terrifiante pesée des âmes au Jugement dernier où l'archange saint Michel s'oppose à des diables grimaçants."
+      },
+      {
+        title: "Expressionnisme roman et palette des ocres",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPkJGop5NDXu0zt_CStREoCPgXSOraGqqFOvBSSFnA1__BBikik_gBEGcEtYNlxawzylJ2GOGm-lrCl6BA1VUiVpc_t-CpSd9wKkkxsMXuT5K7hMuAGsQuiuPXwms5YfsL1tcMteA6015iz2JhFN9fjvQ=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMCe5jSLXxs8fknO5qbAY9CcIqgjxNSXhtWaxrdtq-t8V88baBU7lF0pARcpZU_Cn_onZdt2HbZiRztWhv8NXm73WMi25XUt6lPhUr9vozo1ZGlUchggTJtUuadLYQe-h2n_jw0Onn5xM984dRUHd_1XA=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMKGEcflpihZrvr_0S7Bs4EOULXePrZMaSzyOsSzTT6bJZRbSnuQjCrA5zDKOwMylLKDov-GGKmVUjBUaWf9hooZNcy8IcBl3qMU-4yNiEMFMiRyVRCtTLLQeXngQXwk_FluxDBX_rB-d9_5uXI_pLEeg=w1802-h1201-s-no-gm?authuser=0"
+        ],
+        text: "Le style de ces fresques se caractérise par une puissante expressivité graphique, des silhouettes élancées cernées d'un trait ferme et une harmonie d'ocres rouges, jaunes, bruns et blancs de chaux qui rattache étroitement cet atelier aux maîtres fresquistes de Lavardin et de Saint-Jacques-des-Guérets. Classé au titre des Monuments historiques dès 1889, ce sanctuaire constitue une étape capitale pour la compréhension de l'art figuratif et de l'imaginaire féodal du XIIe siècle dans la vallée du Loir."
+      }
+    ]
   },
   {
     id: "vallee_du_loir_caves_troglodytiques",
@@ -2019,7 +2137,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Ruillé-sur-Loir",
     altitude: 70,
     is_island: false,
@@ -2033,6 +2151,24 @@ const travelSpots = [
     lat: 47.728712,
     lng: 0.591678,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOCIAIrxZ97aaCZDbOanvSmBkCeJveBFVuVoSyfFCsskQF1KAXRd6fF_pDYPORlcMviBjqYbV0dQuGjATJtnpfTyUVsR3U5eDCdqdqxeAczzLWBJurnAbkX0UipVf8LMJ5joQFFCE80JOHFHImdOpLH6Q=w2270-h1708-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMZ-95DEfl9LtveDj9CkakvrmY26vbv9AqiakVzlq4v_834pAje_AiJYwNrlIioDDGJ9OtTYEKhybxuEa-FLU5x4EIVTshaAlDaERcQ1dbLa5s15_198PM_vnlJpmGCqcaM_oNQTHHgXXB5gYwkOwmW8A=w1802-h1357-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMp1NxqStCiKzIdr6--7RqUUw_EmzR-wzYPEQWqmd_EgGGToP7lgdGx_FYPNG6DthuAQl_SGs6WC5XDWhbXJzU36mV1LB6em3s_HWKy2HsJG5hC_8bX8dD4vJmxvw1Cc2K09PJqnbcZ0laJiEHl2XOmCA=w1802-h2392-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPgYyqdCljnAdkOL9zFS0TdDOWt9siD6y6xWJ4NwtI4S0ETVnAwA_ADqBRh3a1KddvBdg7PZ3fjO4rsvqdWREs_kc4VCpUn3d42XdlaWRj6MUkzFvILb9Vrm1gdjBsZc1oQAPcDfIsEWeHlQNkj10YUyQ=w1802-h2392-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNSASd35xz17OwqN7ThNTFPp3rmkOZhbMNSfQCuvZpWFW5LIYo7RjtBEqcUzroU5RzzImosS7_WzUDvIOBVZpycvNUT39mryfsuobDPUOZx73pGY0iS5oCa50kSfaQD4GWEXnCDo6tOJnKTykCiBvpBBg=w1802-h2392-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Creusées à flanc de coteau dans l'épaisseur de la falaise de craie turonienne le long des méandres du Loir entre Ruillé et La Chartre, les caves troglodytiques constituent un patrimoine paysager, artisanal et géologique emblématique du vignoble de Jasnières et des Coteaux-du-Loir. Extraite dès le Moyen Âge et la Renaissance pour fournir la pierre de taille de tuffeau blanc nécessaire à l'édification des châteaux et abbayes de la région, cette roche sédimentaire a laissé place à des kilomètres de galeries obscures et de salles voûtées souterraines. Les vignerons et paysans locaux se sont promptement approprié ces excavations pour en faire des caves de vinification et de vieillissement idéales, où l'hygrométrie constante et la fraîcheur naturelle permettent au cépage roi, le chenin blanc, de s'épanouir lentement en fûts de chêne pendant des décennies. Les entrées de caves, maçonnées en pierres de taille rustiques fermées de lourdes portes en bois clouté et tapissées de lierres et de clématites, composent une ligne continue d'échoppes troglodytiques et d'habitats rupestres pittoresques enchâssés sous les vignes.",
     visiter: "Parcourir à pied ou à vélo la route des caves sinuant au pied des coteaux viticoles ensoleillés pour observer l'alignement des portes de caves creusées dans la craie vive. Pousser la porte d'un domaine viticole troglodytique pour ressentir la fraîcheur bienfaisante des entrailles de tuffeau et contempler l'enfilade des fûts et des bouteilles couvertes d'une noble poussière sous les voûtes de pierre. Découvrir les traces de pics laissées sur les parois par les carriers d'autrefois, comprendre le travail du vigneron pour élever les grands crus blancs de Jasnières aux arômes de pierre à fusil et de miel, et déguster les cuvées locales dans une ambiance minérale et authentique.",
     link: "https://photos.google.com/share/AF1QipNwFGIRLzJ6bi3ZsThNM3gZPrwtI7ThTtgASFmQVOmxVzCuf-D1aRr2evmY9XTvtA?key=V1pNb1A5c1FsVHRRdkhOdWs3TFQ3S182T1dGOTVR"
