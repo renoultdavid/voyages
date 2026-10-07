@@ -1388,6 +1388,16 @@ const SPOTS_2 = [
     lat: 49.277343,
     lng: -0.700026,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM9QSY-2AF9Wng2DJhJB34kkmoO3w5o2ydC5Vsyl06bOpFJ-MAFDC60OQvycv43CSjeTki7V0mkBP5Oywqn5fcYViv-WY4CWd3nlKV_il5sc9DJ-UFF_VrpCBvfDqf2UogRrwRYAsNJlTItLSC_2Yc33g=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMfVo781XJXwSOxH8EZPZFGbwLhFrTtU9ngYsBrR6kNzFS7iJ5txcq0zjx06OPi-behCda7Iis6qYr39qLtWP409aSLEpsxd0_koZI86q5KTMPW_QQ9ar-QSAOht9fHhc8zwiB7kgm-hDtnXApcYbWn2A=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMl-6L5XEiPfao4j4tnvfBiKIE-X-FKnN6XQYVSGfJMV1AHrxI_eP5TmLpyC9S1ElGSMWu_0NjqDaJrwNYnFpcEprthXmr601FKwVwUdi6ilRbutfBqeuYprfpL_LMcJArJMbvJBpJs_odK7vhBn6yr2w=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Ouvrage de pierre franchissant l'Aure à la jonction entre le quartier médiéval des tanneurs et l'ancienne place commerciale aux Pommes, ce pont en maçonnerie témoigne du rôle primordial du cours d'eau dans le développement artisanal et urbain de Bayeux. Bâti en moellons de calcaire du Bessin avec des arches surbaissées soigneusement appareillées, il reliait jadis les marchés de primeurs et de fruits de la basse ville aux ateliers de traitement du cuir, de draperie et de teinturerie établis au fil de la rivière. L'Aure constituait en effet une voie d'énergie motrice et de travail essentielle au Moyen Âge et sous l'Ancien Régime, comme en attestent les nombreux biefs, déversoirs et canaux de dérivation visibles dans les parages immédiats. Depuis les parapets du pont, le regard embrasse une perspective pittoresque sur les maisons à pan de bois et façades de pierre dont les soubassements plongent directement dans l'eau claire, ainsi que sur les anciens lavoirs et passages voûtés en encorbellement. Préservé des destructions de 1944 grâce à la libération précoce de la ville dès le 7 juin, ce secteur fluvial a conservé son charme bucolique et sa structure viaire médiévale d'origine.",
     visiter: "S'accouder au parapet de pierre pour contempler le reflet des façades anciennes dans l'eau de l'Aure et observer les anciens déversoirs de retenue d'eau. Emprunter la promenade aménagée le long des berges pour apprécier les arches de pierre du pont vues d'en bas et découvrir les passerelles fleuries reliant les maisons d'habitation. Poursuivre vers la place aux Pommes pour repérer les belles demeures bourgeoises des XVIIe et XVIIIe siècles ceinturant l'esplanade pavée.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
@@ -1438,6 +1448,20 @@ const SPOTS_2 = [
     lat: 49.276105,
     lng: -0.70365,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMZaswXUKwLO5EJy3rZMt-oafOGEPIvCZanRTkqMlmt_M90XgcCr57Nukv14RZcCqCo5Mqg-aNMD_ImIpGvqLtKtXQhQog7tqRIkxaw1lxbVv9KWZ7krIjBEVQlppKvH0EIdsoKRRY9OE7a6xBYXpK-RA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPJT2ldCYS9S54CFp3gXM2Lh3m0VEec89PLmC53vdffVeFclLNDvzqOB1t7HqPpf3QZSj6Y2-1c0abDVozGuQAuGXMUKTPPgkEdl-0gZH_xsrmuvX49BWRNFcbuH3USJ6y_cjSmu4tkH5S0iiD011nt_A=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMfk513AzRHYPZ4r1jUOZj0sDeNsscKc5NpvmHeb-WPL5ni4dIBbp4SFGAnTxbsBpT-xTBTLXHYWxvZkdMYYl7VbvjlHyDHm2IyyBmNAY5e_Rk1kNfEQQM76mQ1r9H72Gl5qmgwH_5WxtvZJhDV4vrncA=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPgx2qG2PT6PBAETLOCWnNr63UHg4PKlpQ0Vryr4aznw7SRQ7XSotJ15iPQLa719MAMX9nNH5OLQrDw95pSkG0gXvvfIPmgNMoBuuqri40b5PE0kf6F35XCokGlyqqy1Odg5STpCZuRtPmKSXejq8YR3Q=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Installé dans le cadre grandiose de l'ancien palais des évêques de Bayeux, adossé au flanc nord de la cathédrale Notre-Dame, le musée d'Art et d'Histoire Baron Gérard (MAHB) occupe un ensemble monumental édifié du XIe au XVIIIe siècle. Le corps de logis principal conserve des éléments majeurs de la Renaissance et de l'âge classique, dont une remarquable chapelle castrale ornée de peintures murales maniéristes du début du XVIIe siècle commandées par l'évêque Arnaud d'Ossat. Réaménagé au début du XXIe siècle avec une scénographie contemporaine élégante, le musée offre un parcours chronologique dense retraçant l'histoire de la création artistique et du territoire normand, depuis la préhistoire jusqu'à l'art moderne. Les collections rassemblent de prestigieux vestiges archéologiques gallo-romains issus de l'antique Augustodurum, des chefs-d'œuvre de la peinture européenne signés Philippe de Champaigne, François Boucher ou Gustave Caillebotte, ainsi qu'un fonds exceptionnel consacré aux arts décoratifs locaux. Le musée est particulièrement réputé pour sa collection d'excellence de dentelle aux fuseaux de Bayeux et ses ensembles complets de pièces de porcelaine de la manufacture de Bayeux, témoignant du rayonnement industriel et artistique de la cité aux XVIIIe et XIXe siècles.",
     visiter: "Admirer la cour d'honneur pavée de l'évêché dominée par l'ombre majestueuse du platane de la Liberté planté en 1797. Parcourir les salles archéologiques souterraines révélant les fondations antiques avant de monter dans les étages pour contempler les toiles de maîtres de la Renaissance au XIXe siècle. Prendre le temps d'observer sous vitrine les pièces raffinées de dentelle au point de Bayeux et les délicates créations de porcelaine polychrome arborant des décors d'inspiration orientale.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
@@ -1465,7 +1489,42 @@ const SPOTS_2 = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczOys-41G6vwCHEueGLNkG5VVo7NicR7_E3vF96STd2sR7ZS9gnbxR0rjpw5GvJM1Lh_9uvyEbzrWFedg_xZSC67d66GQ8pcRujieyxPrSlN2EdTJFDGmHz9D8GRrA4yVQFy77wPk_ee0UzLjjudHIXfmw=w1379-h919-s-no-gm?authuser=0",
     description: "Édifiée au sommet de la colline historique dominant l'Aure, la cathédrale Notre-Dame de Bayeux est un joyau exceptionnel illustrant la fusion harmonieuse de l'art roman normand et de l'architecture gothique rayonnante. Consacrée le 14 juillet 1077 par l'évêque Odon de Conteville en présence de son demi-frère Guillaume le Conquérant, l'église romane primitive fut conçue pour servir d'écrin à la célèbre tapisserie de Bayeux, traditionnellement suspendue dans la nef lors des grandes solennités liturgiques. De cette époque subsistent la majestueuse crypte souterraine, ornée de colonnes à chapiteaux sculptés et de fresques peintes d'anges musiciens du XVe siècle, ainsi que les deux imposantes tours occidentales et les grandes arcades de la nef au décor sculpté de bâtons rompus et de frettes crénelées d'une richesse foisonnante. Reconstruite après les incendies du XIIe siècle, la cathédrale est sublimée au XIIIe siècle par l'érection d'un chœur gothique étourdissant d'élégance, caractérisé par ses triforiums ajourés, ses voûtes sur croisées d'ogives et ses baies élancées inondant le sanctuaire de lumière. Au-dessus de la croisée du transept s'élève la spectaculaire tour lanterne, complétée au XVe siècle dans le style flamboyant puis coiffée au XIXe siècle d'un dôme en cuivre par l'architecte Eugène Viollet-le-Duc.",
     visiter: "Observer depuis le parvis les tours romanes occidentales coiffées de flèches gothiques et les portails sculptés illustrant le Jugement dernier et la vie de Thomas Becket. Pénétrer dans la nef pour détailler les sculptures géométriques des écoinçons romans avant d'admirer la légèreté vertigineuse du chœur gothique du XIIIe siècle. Descendre impérativement dans la crypte du XIe siècle pour contempler les chapiteaux romans primitifs et les peintures murales d'anges musiciens sur les voûtes.",
-    link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
+    link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB",
+    sections: [
+      {
+        title: "Façade occidentale, tours romanes et portails sculptés",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOgAD1oaYwvRvToMregbC1_cupbGxaTSfYyi1DH00JPdnmf1TLCe3e0WtedyvB9-0oa1BXnQ8Q72t-K7IrKriicAzEchVFib-sXwqv0oaKHUXERdy0PLBtnZ9vfkJEl8wloVbYsN4WvLakxmSWwcaonRw=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMHaP3BC9bwRA87Kb-oV--RfCLdXa0sU33xQTpFYLEASupHqaoi1RMZUpI5Tetno_bZXEE4RRpKABYEXcFiuKnGAzjqbqlM_yES4m5ONFr6381eI4uUZdeTBGr3hRqK_HkjkK5vS1aukpDO2rR2RjadSQ=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPCcxqIyawiezWyh7T6N15v1Wo9QcZVixQgwcdyqbd0Ycs5ds05I-Da8NHEdvljPvwB5UrLLK0B8NDeA5DX3P2i7Rjvk3yNVbXs69ZNzzyJ9WCAfrh9emhldqPU0TeIOEjoNcnVpvH-0CCUgwFafFYSTQ=w1822-h1215-s-no-gm?authuser=0"
+        ],
+        text: "La découverte débute devant la puissante façade occidentale, flanquée de deux tours romanes massives du XIe siècle coiffées au XIIIe siècle de flèches gothiques octogonales élancées atteignant plus de soixante-dix mètres de hauteur.\nLe parvis ouvre sur cinq portails sculptés, dont le portail central et les baies latérales déploient sous leurs voussures des scènes ciselées du Jugement dernier, de la Passion du Christ et des épisodes de la vie légendaire des saints protecteurs normands."
+      },
+      {
+        title: "Élévation de la grande nef romane et claire-voie gothique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOys-41G6vwCHEueGLNkG5VVo7NicR7_E3vF96STd2sR7ZS9gnbxR0rjpw5GvJM1Lh_9uvyEbzrWFedg_xZSC67d66GQ8pcRujieyxPrSlN2EdTJFDGmHz9D8GRrA4yVQFy77wPk_ee0UzLjjudHIXfmw=w1822-h1215-s-no-gm?authuser=0"
+        ],
+        text: "Le franchissement du portail plonge le visiteur dans une nef lumineuse et grandiose, chef-d'œuvre de symbiose constructive où les grandes arcades romanes primitives à motifs de frettes crénelées, d'étoiles et de damiers supportent une haute claire-voie gothique rayonnante du XIIIe siècle."
+      },
+      {
+        title: "Bestiaire médiéval, tour lanterne et chœur liturgique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOO-u-R4nBLuEY5guFy4TGTcqIX5krlmwBgIEHfi6FWNE3vLcNy1Z8i4QAbbTHh0GsiBW5n45MiaZwGSagkbf_PtCkgS2WcsIk3s1BFjrhb-CumoBx2YrRIk9GhPy44BW026Q3F6icqQqQ8nRTToJeVFA=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPGhjntOkWPlZgN57V3161HxBzLW7R04dkL2b53eNi1328F0EeQwfN5LA2EERZ41xW47MVfW3DNKhJDvitqUu8fpmrcjmhi_F-WFIDG5N76t0I-6jFg8sI7EGugV4SzxwrYPFjt9yfYqqL1pHD846CDHw=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOLh8wlRjp70e-nKvctFdR0qzvnFwNyLoZit3RVWT8Veoay3MsH93MrVohsgS3MkbL9BDRGH0Qe0JUMLQtl0YxFne6i1knlD8Y5uz3-jF12mkBvS_pMuOxgeOIbjBpodarYPSHxz85RJwEnQE6_OrHB-A=w1822-h1215-s-no-gm?authuser=0"
+        ],
+        text: "Les écoinçons de la nef conservent un étonnant bestiaire médiéval gravé dans la pierre calcaire, mêlant figures chimériques, monstres hybrides, masques grimaçants et entrelacs d'inspiration scandinave et saxonne.\nLe transept saillant mène directement sous la croisée que domine la majestueuse tour lanterne centrale, structure gothique flamboyante surélevée au XIXe siècle par une élégante coupole néogothique en cuivre vert dessinée par Eugène Viollet-le-Duc pour sauver l'édifice d'un effondrement imminent.\nLe chœur liturgique, considéré comme l'un des sommets du gothique normand du XIIIe siècle, déploie une élévation aérienne rythmée par des colonnettes de marbre sombre, des médaillons polylobés sculptés et de splendides stalles en chêne du XVIe siècle.\nLe maître-autel néoclassique conçu par l'architecte Jacques-Germain Soufflot et le sculpteur Caffieri au XVIIIe siècle capte le regard sous la verrière absidiale avec son baldaquin monumental et son tabernacle doré."
+      },
+      {
+        title: "Crypte romane du XIe siècle et fresques des anges musiciens",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNPwzdMK4rWsHWYMez98d_6o3QSsXrWpWpVXFayHM45ci5AGFSQlqDwDAu2wtvLBkUcilgdZeXX6WfygHU5WVWuu83uGBClSeakRoc0iJEs_NykFuK258OEntMMKccS2uKnOOvGUDCW9H5lIM4f7xo7OA=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPWdR0H1XY6HIC1rBe3sAODknVLpLa307KhmgxWdd3aKj3TyoT5SeZU-XwUhtiEmfGMCf8vdJr1p78L7VxN-jFA23wYyeRvupcOkixHynGK6rtmLb_u0ytuc2_Y0BeoIh4hP1DIL-Ilx8kg-IGR5Abdug=w1822-h1215-s-no-gm?authuser=0"
+        ],
+        text: "Un escalier de pierre dissimulé dans le déambulatoire permet de descendre sous le chevet pour explorer la mystique crypte romane du XIe siècle, redécouverte par hasard en 1412 lors de travaux d'inhumation d'un chanoine.\nCe sanctuaire souterrain préservé de tout remaniement postérieur repose sur deux rangées de colonnes trapues à chapiteaux sculptés de volutes et de feuilles d'acanthe, éclairées par des fresques murales du XVe siècle représentant des anges musiciens jouant du luth, de la harpe et de la cornemuse."
+      }
+    ]
   },
   {
     id: "bayeux_moulin_coisel",
@@ -1509,11 +1568,52 @@ const SPOTS_2 = [
     era_label: "Broderie Romanes & Récit de la Conquête de l'Angleterre",
     century: "XIe siècle (1077)",
     category: "musee",
-    // unesco_name: "Mémoire du Monde",
     counts: {},
     lat: 49.274405,
     lng: -0.700277,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPCKPWitTbjwX104i_TwDtKdF_q8xsAGoQW2gtf-6UsRuFIyFh3HXtounSpWmNbDvA3XDXkBJXiXtxCyorqVt4ErZEj__UORCB_rRNG5b4oHQmxHO9-j9TBBpfTMcLBPngl1Ssd4_U8HsWJnDZcnGNJBQ=w1225-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP93i54y2dj-gr1G4qcSqTgfUwaUKh-3q6ENXLNbDQitejMCMJWDJv5QuIB41eoAJlPKD7NPPb8iN2ted9ilxAFM5q5bQbfhSIoFXvdtpJBfI2Xvfi1kICikHJchhYv416M4oSaZcYGi9mZ-pawvTVl7w=w1822-h1366-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNJ1aqvd8kfpEzMLXxx1VFRmBkF8r4idUJMGNe7GV5KPHLXU97W1SlU0Bzft5ZR75dwt_9YEiEWcWjWXE-OIeTPOwqo9y_D_82L8eRmR324Ot5xrxn08VUll0HREGlBIUxR8HqjLWNKzypmMaDmxJjkQA=w1822-h1024-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOmgRLMokBZ-kCwHp1UjA_6jo4VTNjkqOS_nr1HYjvMMZoKHgCMeKjTlK1k6F8c8QBQNrTmIrWHPbxaeXQwoGc8bO_pvnqRMgjt11384gtBDKsn6LuGKaEIzVG0Xc6bbja-cKk28f2xdYmlDFQo3CmKww=w1822-h1114-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPGa3JVKoS0RLF4FqKw0VMlopxDWrWShaNA0ogAwt4ww9rSsFnqHOnz4ZmLOcPrU0Qf82iyEX7uuu0VXBc7nFhxIQlJeBTubFY523Zbmfn3rCzmH1TdyYxwtW-I9EbU-vq4v4fdXGFGbTsbEaIxz_JEQA=w1822-h1096-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMGGhoAXOqP08cMC9g2sigPjxJdOVN5g4nJCCiutmNMlRBMlJxcaMR3hfJ57T000Q2nc6LmO_jpZm6VnhhZJh0T2yoApiz4KXEDBWc8FBDyVHLgcYomZtgHfhAMPiC_ExVk712kS7jMD15tnUqJYVf8uQ=w1822-h1053-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMIs-td-VEQssbAz2JAs3ar1PJJWs0GD5QZ8rB7SUJz0b-Vdpq_Iz532sRE1aO2Aa8ybhfiz74FE99pr03XhI69sVxhZPPlF3AhonAhecWWJxLXa4vHTh9fxIZxyCTW7r0vL3rvZOKVKLFlhOgsQKjJOg=w1822-h1366-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPjJrl2RC8yPSZfey9KgLZVGyyxusHgoBL_MjM33XoUjxvSJ2JAUso0GHo0HmSatZY034CaJNmvnb1bs0VZ2fQ9sPgTXEmAy-4N23MPtmUInpb5llr3OxBmWzHKNeivyi7SkDL1Iz0vqQe8bCoPmy8-lw=w1822-h1366-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNYNwAAmriIoBsIT1CSIwcNKlsLweYI7lbcQq6ZyLX_B-IVwSmrfbnufICHeq4DUjodQToJ5GC1im1btuOxyYgcmgOutdFujSl0HO0D9UsZ6KZ0epwFOHaaXmLSSIDWc3YGASBFSBH1D_6NKUViCiQk6g=w1822-h1271-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMKkG-BeiHDy3DWx_wlNtQ3xfXU2mU56Kqgp2Ju7Z7wHTib5P8ViX-Iu3B7Vmf2pmY7s20OlnqVWj1x_mqpg3Otb9w5s4F34_IgEnRABqzCGJni34uPbJ4O93THeqCy5x-sRAzG9gKdFMgv-AmmleAACw=w1822-h1366-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPLtM6mz5oeAIhgG_wj4oWCYmVL7eZeFbcyTP34yC3-mJELghVWADGxvUUME8ZwrejvYkWiAxaQeNu3JyrIbywlQKyo3nfyMhie86oUakuk3qtT-vpO-nQrkBOYbT_nzcm-yT0RzdmhojTWuRrDgIhkyg=w1822-h1366-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Aménagé dans l'ancien Grand Séminaire de Bayeux, vaste édifice classique du XVIIe siècle ordonné autour d'une cour solennelle, le musée abrite l'un des trésors artistiques les plus précieux et célèbres du Moyen Âge occidental : la tapisserie de Bayeux, également appelée broderie de la reine Mathilde. Réalisée au cours des années 1070, très probablement sur commande de l'évêque Odon de Conteville pour orner la nouvelle cathédrale Notre-Dame, cette œuvre monumentale inscrite au registre Mémoire du monde de l'UNESCO est en réalité une broderie de fils de laine teints sur une toile de lin longue de près de soixante-dix mètres et haute de cinquante centimètres. Elle relate avec une vivacité narrative stupéfiante les événements conduisant à la conquête normande de l'Angleterre en 1066 par Guillaume le Conquérant, depuis l'expédition d'Harold Godwinson jusqu'à l'affrontement décisif de la bataille d'Hastings. Véritable document historique et sociologique de premier ordre, l'étoffe fourmille de détails réalistes sur l'armement, l'équitation, la navigation maritime, les fortifications castrales et la vie quotidienne du XIe siècle, complétée dans ses bordures supérieure et inférieure par un bestiaire fabuleux et des illustrations de fables d'Ésope.",
     visiter: "Avancer dans la galerie sombre et thermorégulée pour contempler la broderie de lin déployée sur près de 70 mètres derrière sa vitrine blindée sécurisée. Suivre scène par scène le récit brodé pour observer les détails techniques fascinants : la construction de la flotte d'invasion normande, la traversée de la Manche et le choc des cavaliers à Hastings. Monter au premier étage pour visiter l'espace muséographique didactique comprenant la projection d'un film d'analyse historique et des maquettes de drakkars.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
@@ -1539,6 +1639,16 @@ const SPOTS_2 = [
     lat: 49.343384,
     lng: -0.693449,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM8sl84pSl0i-yYu4ys2t3-pyPHTGMnZYRzdAhA4gCq1lyhgPaerez0cPi0txb3j1LHeajf-VLhbHN5xFLNKJDYESsHRi4-AN3g0MGzNH6Re98ECcfAC3Nf-7-1n5qwOZPM_OVBXXzccx28hfwpBOQw3Q=w1380-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPCN12sYUJFWHPobePiunDVmvjoEd5PJWQtDojqDRJ-27IUsbEeY14OjwX2FhEMQql6x8uQDe59_-G2v1RG5B1Fy9DdjhQB2cAMIuWGhtCSM0QMuCAvBlqtRXwnfG7ssa9r-PnJxKb2j5PuPgKdRaHbmA=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMyabHZvbG3oSChuagGng-jLp9REtRkKYXmJ2tyucMXtwi24uurnpZtx6lYMImhIj-jAD6IuolcQxJza33BNq8y6y3qNvry-ZeBbGBs_ctGcF6JiGuTnlo-YUDaVV6D7VqvB8R6jbp8pj31ro-TViS8vQ=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Édifiée par la Kriegsmarine puis transférée à la Wehrmacht au sommet des falaises littorales dominant la Manche, la batterie d'artillerie de Longues-sur-Mer (codée Wn 48) constitue l'un des ouvrages les plus spectaculaires et les mieux conservés de tout le mur de l'Atlantique en France. Positionnée de façon stratégique à mi-chemin entre les plages d'Omaha Beach et de Gold Beach, elle était armée de quatre redoutables canons de marine à tir rapide de cent cinquante millimètres (15 cm Tbts.K C/36) placés sous d'épaisses casemates en béton armé de type Regelbau M272, dotées d'un blindage d'acier et d'une portée de feu atteignant près de vingt kilomètres. Au lever du jour le 6 juin 1944, la batterie engage un duel d'artillerie d'une rare violence contre les croiseurs alliés HMS Ajax et Georges Leygues, tirant plus d'une centaine d'obus sur les bâtiments de guerre avant d'être réduite au silence par les tirs précis de l'artillerie navale et les bombes aériennes. Le site a conservé l'intégralité de ses quatre casemates en béton, fait unique sur les plages du Débarquement où les pièces d'artillerie d'origine trônent encore dans leurs embrasures, ainsi qu'un poste de direction de tir à deux étages rendu célèbre pour avoir servi de décor au film « Le Jour le plus long ».",
     visiter: "Parcourir le vaste plateau herbeux pour examiner de près les quatre casemates en béton et admirer les imposants canons de marine de 150 mm toujours en place sur leurs affûts d'acier. S'avancer vers le bord de la falaise pour découvrir le poste de direction de tir à deux niveaux semi-enterré et son embrasure d'observation panoramique. Observer les impacts d'obus navals perforants et les éclats de bombes ayant déchiqueté le béton armé lors des pilonnages navals du 6 juin.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
@@ -1564,6 +1674,16 @@ const SPOTS_2 = [
     lat: 49.345,
     lng: -0.63983,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPdV35Ga07-cSSeXpeZISBtNjL0IRTutYVN500B9LOi3jxnzqHKYVohVReon5RHetuXhmRg2GvNa6WqvkBMZYsZ6e9wM31NVlAsGRlQlw218ZH3cxSwC9ihRKE9fXXwsln2oEuY5J-eHFhpqjO0jFfdnw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNZGv4QG8A339I462WtzkqMFPH1owD4ZeYftyRyZVDlqfmaWo3NuIhzQt3a9NHnxORU0fV2SNF2y3FJ9SVj0E05t4e6fq9iLDkdhx9shGhQACSX9KdjFG4GrF2NSNp5K0QyFtQMWZPOPOsTzMYeVnZKDw=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczODEnpL5sb-k3V3Rfqg9Ht8nApKYVOEexjfwKmUh5FzwFRWb7Z3SHVRWjhM-wjW_A9PtKL4WWKqBa0dLhu4c7b9-nI4UHPU4IhjsE4hb9MU3n06d7iqIIGs-m8QEzaDtuFnJymUYJ_jMj0AsrC2hBRwnw=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Culminant à plus de quarante mètres au-dessus du niveau de la mer entre Port-en-Bessin et Arromanches-les-Bains, le cap Manvieux déploie un alignement majestueux de falaises vives taillées dans les calcaires oolithiques et les marnes du Jurassique supérieur du Bessin. Cet éperon naturel offre un belvédère paysager exceptionnel sur la Manche, la Côte de Nacre et la baie de Seine occidentale. Les versants abrupts, soumis à l'érosion constante de la houle et aux embruns salins, abritent une pelouse calcaro-marneuse littorale d'un grand intérêt écologique, colonisée par des espèces floristiques protégées adaptées aux vents violents et servant d'aire de nidification pour de nombreuses colonies d'oiseaux marins tels que le goéland argenté et le fulmar boréal. Sur le plan historique, le sommet du cap Manvieux offre un point de vue stratégique incomparable et direct sur la rade foraine d'Arromanches et les vestiges titanesques du port artificiel Mulberry B (Port Winston). Mis en place par les Alliés dès les jours suivant le 6 juin 1944 pour approvisionner les armées de libération en vivres, munitions et véhicules lourds, ce chef-d'œuvre du génie militaire britannique laisse encore voir à marée basse son imposant demi-cercle de caissons en béton Phoenix immergés au large.",
     visiter: "Emprunter le sentier de grande randonnée des douaniers (GR 223) qui longe le bord supérieur de la falaise herbeuse pour profiter du grand air du large. Braquer le regard vers l'est pour contempler le panorama saisissant sur les caissons Phoenix en béton du port artificiel Mulberry B posés au large de la plage d'Arromanches. Observer la flore rase de falaise et guetter le vol plané des fulmars boréaux nichant dans les failles de la paroi rocheuse calcaire.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
@@ -1589,6 +1709,16 @@ const SPOTS_2 = [
     lat: 49.337779,
     lng: -0.469145,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMZquiT_km5ldezxGWeveXfQU_6eBCqvkcpBvioe6KNE9JwUUfZeojmbJpqAhz1EZ2_eIuGgXto3a0AWQE4WL9nQjbk82M63JLd-sscBNJkoTd1MQbV7_nLlMPHr6iLWCQMJRPlo5IA6v8IhAeCLhknLg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNm1ER5o18yoF4uGOdts6fPDPiVxf5sdBmP1kjXyXSnYSMaw2xQJiPfnNdpGs55xNunM5BUOG12o5HIWJlQqzISEGovd_aCU2xOLMbHTGgeftS9rpdRoH0ce8Ph4ToZ7db_D-qCoDF4BPwb8MlJb0fzOg=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOyIP9Be6s5CjrS62Z8ldhWzcLRt0qIZoYncInqIz_oZ8JKELKX4Sz_VqKimMv0DFiDMzidl-beM-4t98tgWpRmRGf7-HgfMQG6qceb8hcFHoBxJkt6R2_B3skYV5QTaM7DOK2l3VTs-mT05CN07mevMA=w1822-h1215-s-no-gm?authuser=0",
+        caption: "Dressé face aux flots à la sortie orientale de Graye-sur-Mer près de Courseulles, un authentique char lourd britannique Churchill AVRE rappelle le rôle capital des blindés spéciaux de la 79e division du général Percy Hobart. Surnommé « One Charlie » et appartenant au 26th Assault Squadron des Royal Engineers, ce colosse d'acier de quarante tonnes armé d'un mortier lourd Petard de 290 mm était conçu pour projeter d'énormes charges de démolition contre les casemates de béton. Submergé dans un cratère d'obus inondé le matin du débarquement où plusieurs membres de son équipage périrent sous les tirs, le monstre mécanique resta enseveli sous les sables durant plus de trois décennies. Les passionnés d'histoire et les sapeurs militaires britanniques le sortirent de sa tombe marine en novembre 1976 avant de le restaurer avec minutie pour l'ériger sur un socle de maçonnerie dominant les dunes. Cette silhouette massive tournée vers le large témoigne de l'ingéniosité technique des blindés de génie sans lesquels le franchissement du mur de l'Atlantique aurait été impossible sur ce rivage. L'ensemble de la plage et ce mémorial d'acier incarnent le sacrifice indéfectible de la nation canadienne et de ses alliés pour briser le joug nazi en Normandie."
+      }
+    ],
     description: "S'étirant le long du littoral de la Côte de Nacre de part et d'autre de l'embouchure de la Seulles, le secteur de Juno Beach constitue l'une des cinq grandes plages de débarquement de Normandie, assignée le 6 juin 1944 à la 3e division d'infanterie et à la 2e brigade blindée canadiennes, appuyées par des commandos britanniques. Bordée d'un cordon dunaire vulnérable et de digues protégeant les stations balnéaires de Courseulles-sur-Mer, Bernières et Saint-Aubin, la zone était lourdement défendue par le réseau allemand de points d'appui côtiers comprenant casemates de tir, canons sous abri et nids de mitrailleuses croisés. Retardées par une marée haute dangereuse dissimulant les récifs et les obstacles de plage piégés, les premières vagues d'assaut canadiennes débarquent sous un feu nourri qui occasionne des pertes sévères dans les premiers instants. Grâce à l'engagement décisif des chars amphibies duplex drive et au courage héroïque des fantassins des régiments du Royal Winnipeg Rifles, des Regina Rifles et de la North Shore, les défenses allemandes sont enfoncées en quelques heures. À la fin de la journée du 6 juin, les troupes canadiennes ont réalisé la percée territoriale la plus profonde de tous les secteurs alliés, s'avançant de plus de dix kilomètres vers l'intérieur des terres en direction de l'axe routier Caen-Bayeux.",
     visiter: "Marcher sur l'immense estran de sable découvert à marée basse pour prendre la mesure du glacis à découvert que durent traverser les vagues d'assaut canadiennes le 6 juin 1944. Découvrir sur la dune le Centre Juno Beach à l'architecture géométrique remarquable et le char Sherman amphibie exposé sur l'esplanade. Observer à proximité immédiate de la jetée du port les bunkers allemands préservés et les stèles rendant hommage aux différents régiments d'infanterie du Canada.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
