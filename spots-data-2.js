@@ -75,28 +75,29 @@ const SPOTS_2 = [
     counts: {},
     lat: 48.11165,
     lng: -1.68388,
-    image: "https://lh3.googleusercontent.com/pw/AP1GczPPJsyxTqWjJeSDKvcAbc08IUUbBDgHME2FhV3XMRqAIlreOHPdUNGq-PlWzdZi5vCB8TjUy2Q3av3RoIRtaZ1jXAY-wH0wahFK7wMeKy_2y8MgYHmwZRAJcVJNOTj98jKVRz755-qqjzfSHOycykJ8hg=w1931-h819-s-no-gm?authuser=0",
-    gallery: [
+    banner: "https://lh3.googleusercontent.com/pw/AP1GczPPJsyxTqWjJeSDKvcAbc08IUUbBDgHME2FhV3XMRqAIlreOHPdUNGq-PlWzdZi5vCB8TjUy2Q3av3RoIRtaZ1jXAY-wH0wahFK7wMeKy_2y8MgYHmwZRAJcVJNOTj98jKVRz755-qqjzfSHOycykJ8hg=w1931-h819-s-no-gm?authuser=0",
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP7QdNaETTdoalIbqVUwv5qLmbQdEZYYwlxIaAf0nEkm_UipQ_ZddcyCN7Llhwdhz0Tqwewi8AZ3HLLneRrGU1MKT9ME_eE0VMwqgOl3zZBqjsIoOLqVoK4nfEvzLB8Ol1-r6Xc_ep6vAtXZdxDg-h9oA=w1931-h1287-s-no-gm?authuser=0",
+    description: "Siège du diocèse de Rennes et théâtre séculaire du couronnement des ducs et duchesses de Bretagne, la Cathédrale Saint-Pierre surprend par le contraste saisissant entre son austère façade classique et l'éblouissant faste ultramontain de ses volumes intérieurs. Reconstruite à la suite de l'effondrement de la croisée gothique puis réaménagée au XIXe siècle dans un esprit néoclassique monumental inspiré des grandes basiliques romaines, elle déploie un décor grandiose de marbres précieux, de stucs et de dorures sous une ample voûte peinte.",
+    visiter: "Contempler l'élévation classique de la façade en granit avant de pénétrer dans le vaisseau pour saisir le saisissant contraste avec les ors intérieurs. Parcourir la nef jusqu'au chœur pour détailler le maître-autel romain et admirer dans le déambulatoire le chef-d'œuvre de sculpture flamande que constitue le grand retable d'Anvers.",
+    link: "",
+    sections: [
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczM3VYg7EGoNap96mHyOC7aovN2RD1co3mOQ1sam2ratvWseOYbbknRucgJNpr023tY-Ypd1KC3g3cZ0PDHgUI1J_ZdD61GERY7KptSWzKQF0aSDi1Vfl0Hu8AfmV-pehCk5pGLSx9QZP_5Lg2c7LlUtjw=w1611-h2416-s-no-gm?authuser=0",
-        caption: "Façade occidentale classique et élévation à ordres superposés"
+        title: "Façade occidentale classique et nef néoclassique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM3VYg7EGoNap96mHyOC7aovN2RD1co3mOQ1sam2ratvWseOYbbknRucgJNpr023tY-Ypd1KC3g3cZ0PDHgUI1J_ZdD61GERY7KptSWzKQF0aSDi1Vfl0Hu8AfmV-pehCk5pGLSx9QZP_5Lg2c7LlUtjw=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP7QdNaETTdoalIbqVUwv5qLmbQdEZYYwlxIaAf0nEkm_UipQ_ZddcyCN7Llhwdhz0Tqwewi8AZ3HLLneRrGU1MKT9ME_eE0VMwqgOl3zZBqjsIoOLqVoK4nfEvzLB8Ol1-r6Xc_ep6vAtXZdxDg-h9oA=w1931-h1287-s-no-gm?authuser=0"
+        ],
+        text: "Siège du diocèse de Rennes et théâtre séculaire du couronnement des ducs et duchesses de Bretagne, la Cathédrale Saint-Pierre de Rennes surprend par le contraste saisissant entre son austère façade classique et l'éblouissant faste ultramontain de ses volumes intérieurs. La reconstruction de la façade occidentale, entreprise dès le XVIe siècle à la suite de l'effondrement de l'ouvrage gothique et achevée en 1704, juxtapose sur cinq niveaux en pierre de taille de granit les ordres dorique, ionique et corinthien, le tout sommé des armes du Roi-Soleil. Le vaisseau de la nef, menaçant ruine, fut entièrement rebâti au XIXe siècle selon les plans de l'architecte Mathurin Crucy dans un style néoclassique monumental rappelant les basiliques romaines."
       },
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczP7QdNaETTdoalIbqVUwv5qLmbQdEZYYwlxIaAf0nEkm_UipQ_ZddcyCN7Llhwdhz0Tqwewi8AZ3HLLneRrGU1MKT9ME_eE0VMwqgOl3zZBqjsIoOLqVoK4nfEvzLB8Ol1-r6Xc_ep6vAtXZdxDg-h9oA=w1931-h1287-s-no-gm?authuser=0",
-        caption: "Perspective monumentale de la nef néoclassique et voûte à caissons"
-      },
-      {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczP3xAdEbqcn1Eri6tThUtk25nyYDBoYp66_mS0oFgK8TEfJ2eK8Hb-kIAs-QlUZBhYssrnfB51gBZYv_DjwI6gOVGdZmd15Gd7Wj3gGX3jOHjKkvnp5_W5UBoSR-dpsVhw-EQHmEM3uyNUBIHOEQhKOEQ=w1931-h1287-s-no-gm?authuser=0",
-        caption: "Chœur liturgique et maître-autel romain offert par Pie IX"
-      },
-      {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczNvjG2hGm1zmxILxN8iO-zFBA3et5TOSGFVIcc9j0mdDfKI6skl74uJw-Uo9PjQ268QnrWHpw3jczSSbVRc41kQUVtUd7X4O5GXPhTLUqTx3SS0gMk1u1aP5zybyodycazINQT6cAAIhtjJpPJNwl6nhw=w1611-h2416-s-no-gm?authuser=0",
-        caption: "Retable flamand anversois du XVIe siècle en bois doré et polychrome"
+        title: "Le chœur liturgique, décors du Second Empire et retable flamand",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP3xAdEbqcn1Eri6tThUtk25nyYDBoYp66_mS0oFgK8TEfJ2eK8Hb-kIAs-QlUZBhYssrnfB51gBZYv_DjwI6gOVGdZmd15Gd7Wj3gGX3jOHjKkvnp5_W5UBoSR-dpsVhw-EQHmEM3uyNUBIHOEQhKOEQ=w1931-h1287-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNvjG2hGm1zmxILxN8iO-zFBA3et5TOSGFVIcc9j0mdDfKI6skl74uJw-Uo9PjQ268QnrWHpw3jczSSbVRc41kQUVtUd7X4O5GXPhTLUqTx3SS0gMk1u1aP5zybyodycazINQT6cAAIhtjJpPJNwl6nhw=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "L'espace intérieur déploie une nef bordée de colonnes cannelées à chapiteaux ioniques dorés, couverte d'une ample voûte en berceau ornée de caissons peints, de stucs et de dorures exécutés sous le Second Empire par le décorateur Jobbé-Duval. Le chœur liturgique abrite un majestueux maître-autel offert par le pape Pie IX, rehaussé de marbres précieux prélevés sur les ruines de la basilique Saint-Paul-hors-les-Murs à Rome. Le joyau mobilier de l'édifice demeure sans conteste le retable flamand d'Anvers du début du XVIe siècle, chef-d'œuvre de bois doré et polychrome sculpté d'une foisonnante Passion du Christ et de la vie de la Vierge. L'édifice conserve également de grandes toiles d'histoire sacrée, les tombeaux sculptés d'évêques rennais et un remarquable orgue de tribune du facteur Cavaillé-Coll."
       }
-    ],
-    description: "Siège du diocèse de Rennes et théâtre séculaire du couronnement des ducs et duchesses de Bretagne, la Cathédrale Saint-Pierre de Rennes surprend par le contraste saisissant entre son austère façade classique et l'éblouissant faste ultramontain de ses volumes intérieurs. La reconstruction de la façade occidentale, entreprise dès le XVIe siècle à la suite de l'effondrement de l'ouvrage gothique et achevée en 1704, juxtapose sur cinq niveaux en pierre de taille de granit les ordres dorique, ionique et corinthien, le tout sommé des armes du Roi-Soleil. Le vaisseau de la nef, menaçant ruine, fut entièrement rebâti au XIXe siècle selon les plans de l'architecte Mathurin Crucy dans un style néoclassique monumental rappelant les basiliques romaines. L'espace intérieur déploie une nef bordée de colonnes cannelées à chapiteaux ioniques dorés, couverte d'une ample voûte en berceau ornée de caissons peints, de stucs et de dorures exécutés sous le Second Empire par le décorateur Jobbé-Duval. Le chœur liturgique abrite un majestueux maître-autel offert par le pape Pie IX, rehaussé de marbres précieux prélevés sur les ruines de la basilique Saint-Paul-hors-les-Murs à Rome. Le joyau mobilier de l'édifice demeure sans conteste le retable flamand d'Anvers du début du XVIe siècle, chef-d'œuvre de bois doré et polychrome sculpté d'une foisonnante Passion du Christ et de la vie de la Vierge. L'édifice conserve également de grandes toiles d'histoire sacrée, les tombeaux sculptés d'évêques rennais et un remarquable orgue de tribune du facteur Cavaillé-Coll.",
-    visiter: "Observer d'abord depuis le parvis l'élévation en granit breton de la façade tripartite avant de franchir le portail pour apprécier la rupture visuelle totale avec les ors intérieurs. Parcourir le bas-côté sud pour admirer en détail les scènes minutieusement sculptées du retable anversois, joyau de sculpture sur bois du XVIe siècle. Lever les yeux vers la voûte en berceau afin de repérer les médaillons peints par Jobbé-Duval et les chapiteaux ioniques à l'or fin. Dans le déambulatoire, s'attarder devant le maître-autel pontifical en marbre romain, puis contempler en tribune de contre-façade le buffet d'orgue monumental conçu par le facteur Aristide Cavaillé-Coll.",
-    link: ""
+    ]
   },
   {
     id: "rennes_centre_historique_rue_du_chapitre",
