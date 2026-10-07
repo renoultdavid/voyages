@@ -2205,7 +2205,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Haute-Corse",
+    department: "Haute-Corse (2B)",
     subdiv: "Asco",
     altitude: 1422,
     is_island: true,
@@ -2215,13 +2215,50 @@ const travelSpots = [
     era_label: "Bout du monde d'altitude dominé par les géants de rhyolite du massif du Cinto",
     century: "XXe siècle",
     category: "rando",
-    counts: { rando: 1 },
+    counts: {},
     lat: 42.399916,
     lng: 8.918855,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPSji_pjlY_1Haseb309DokWSbpdKj8n5jeCgWYknG7H3Z6kS_vAL8RQhyqLKVi-bpKYD2-ejAAPKbVtVmrUuCMNW02GKkEboeFYmxED4LpDHUGtyE7IXSz7dZ0Htr01YTqYuc821Q6iYbMrfxKMiVELA=w2918-h1946-s-no-gm?authuser=0",
     description: "Niché au fond d'un cirque glaciaire grandiose et minéral à plus de mille quatre cents mètres d'altitude, le plateau du Haut-Asco (Stazzona) est le terminus spectaculaire de la vertigineuse route qui remonte les gorges encaissées de l'Asco. Dominé par la muraille vertigineuse du Monte Cinto — point culminant de la Corse s'élevant à 2 706 mètres — et par les arêtes déchiquetées de la pointe des Éboulis et du Capu Borba, ce site de haute montagne sauvage constitue une porte d'entrée majeure vers l'univers alpin insulaire. Ancienne station pionnière des sports d'hiver en Corse créée dans les années 1960 puis réhabilitée avec son téléski moderne et son espace d'apprentissage, le Haut-Asco est surtout mondialement célèbre auprès des passionnés de grande randonnée : c'est ici que fait escale le mythique sentier du GR20, servant de camp de base incontournable après le franchissement de la pointe des Éboulis qui a remplacé le franchissement historique du dangereux cirque de la Solitude. Le paysage, d'une rudesse austère et poétique, est composé d'éboulis de rhyolite pourpre, de névés tardifs et d'une forêt d'altitude de pins laricio centenaires aux troncs massifs tordus par les rigueurs du vent et de la neige.",
     visiter: "Arriver par la route en lacets qui serpente le long du torrent pour déboucher sur le cirque sommital et embrasser d'un regard l'écrasante forteresse de pierre rouge du massif du Cinto. S'équiper pour une randonnée en suivant les balises blanches et rouges du GR20 qui grimpent hardiment vers la passerelle suspendue du vallon de Tighiettu ou s'engager sur la voie normale montant vers le sommet du Monte Cinto pour les montagnards chevronnés. Prendre le temps d'observer le vol majestueux du gypaète barbu et de l'aigle royal tournoyant au-dessus des crêtes escarpées, ou chercher les silhouettes agiles des mouflons corses sur les vires rocheuses supérieures. S'accorder une halte revigorante au refuge et gîte d'étape du Haut-Asco pour goûter à l'atmosphère chaleureuse des fins d'étapes alpines, avant de contempler au crépuscule les teintes embrasées du granite et de la roche volcanique s'éteignant sous le ciel étoilé de haute altitude.",
-    link: "https://photos.google.com/share/AF1QipOJpzCMLUGUygur3jLUW9WSl9TvdalRDGgg_gU5_5-sQAHBbi8yQJ7Zrwv5fNJM8Q?key=R1BrQUxnTnJWd3VxcjNTa3FId0J3U08zMFR6dFNB"
+    link: "https://photos.google.com/share/AF1QipOJpzCMLUGUygur3jLUW9WSl9TvdalRDGgg_gU5_5-sQAHBbi8yQJ7Zrwv5fNJM8Q?key=R1BrQUxnTnJWd3VxcjNTa3FId0J3U08zMFR6dFNB",
+    sections: [
+      {
+        title: "Cirque sommital et géants du massif du Cinto",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPXF3XBNPsybSTyZnSlW0mKoezLM953mfLieEBtiqjmsmeJ-e_8X_qdoqOcTE-uQ2Wz0lSJ6gzx16sxRj7MkGfJUxD1bl0Li1lsthuzku5cX_cxZ_GQDVVPomcPM6B3ApLx2KjP0aLaVb8sS-_oa_6l_w=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPSji_pjlY_1Haseb309DokWSbpdKj8n5jeCgWYknG7H3Z6kS_vAL8RQhyqLKVi-bpKYD2-ejAAPKbVtVmrUuCMNW02GKkEboeFYmxED4LpDHUGtyE7IXSz7dZ0Htr01YTqYuc821Q6iYbMrfxKMiVELA=w1802-h1201-s-no-gm?authuser=0"
+        ],
+        text: "Le paysage environnant frappe par sa démesure minérale et alpine, dominé au sud-ouest par la silhouette titanesque du Monte Cinto, toit de la Corse culminant à deux mille sept cent six mètres d'altitude. La station constitue le point de départ classique de la voie normale d'ascension vers ce sommet emblématique, dont l'itinéraire balisé remonte le rude pierrier du vallon de Tighiettu vers la pointe des Éboulis et le lac d'Argent. À l'est et au nord s'élèvent les crêtes acérées de la Muvrella, de la Punta Minuta et de la Capaghjola, formant un amphithéâtre géant de murailles rocheuses d'où s'élançaient autrefois les randonneurs franchissant le redoutable cirque de la Solitude. Ces barres rocheuses déchiquetées abritent des névés persistants jusqu'au cœur de l'été et constituent le royaume secret du mouflon de Corse et du gypaète barbu planant dans les courants d'altitude."
+      },
+      {
+        title: "Forêt d'altitude de pins laricio et flore alpine",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPrpBGDdB8Melkd4F6QfAtbQj2t80a5UPx-QBopJ-hHGMXBKCcfTrPVe0TgrZCwE9upHdq9AxJcdpmZJgBTG0fu0gpuD-_Lus4wRT00g3D-HgFZiVl_hsJZW-40p471TqbDGBhYeUpo-LdTsLmaqKpawQ=w1802-h1357-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP5xmSfSE24Ikp6Xkxew8_uRfisqPv3e7m56bLVg-zac-ZI9Zxj4qbF1-FSRzit1B8rnoyF9c-UF2q8cP3dwkz6eeEcq6Kl2bDsDntjdiNVfjzxPMt2Vr1gVrcp-CM7XTSs3J1vq1FXt3hGbyjzDvafsw=w1802-h1201-s-no-gm?authuser=0"
+        ],
+        text: "Le manteau végétal qui tapisse les pentes adoucies du cirque se singularise par la présence remarquable de la forêt de pins laricio, essence reine des montagnes corses dont les fûts rectilignes et argentés défient les rigueurs du climat d'altitude et les avalanches hivernales. Au-dessus de la limite des arbres, la roche nue laisse place aux pelouses alpines rases, aux aulnes nains et aux landes épineuses de genévriers nains qui s'accrochent aux moraines glaciaires et aux éboulis schisteux."
+      },
+      {
+        title: "Ambiance de haute montagne et lumière du cirque",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMMvGorzV9mJ2xi5qJbKrdt9gHhvm2EZnZqdzp9H9Z5xrLIkcYdcmPqalzRFt6jZmRPrKlmdaCUOC0gmal1dznrRgnaNuCKgyH2zDV1Bjhl1TmvffVE6kjslmosAeG97G60hs1YdDebPCy-KMVt_Gs8mw=w1802-h2702-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM_lmVms2KVSInqfkP6rjdixZXh2DMBRoY1DL7oPGP3BKESl2OI1-WrfrcnTh5a4cwY5gVu7Ik9397bRx5_BuvKiZk-IOtWrtR6NBeU7wJuvWucLsI7yrIlyknosdxiQefpdztWSluSWfVpNiJVGY9KtA=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOAdS73UdIybwsMIb3meoDhLFmOatOPmDP-czu2tFDVaOaoLTlZg2ntSl0bM4tUKZLL7FD0eNlRTAlOBbtWkf4PexXXmetNCZ_ABFKOt3bQgM573tQ8TyFc37VboTkk7OwA8uQtW8DQzqpY1CtM6QCJIw=w1802-h1202-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMg7YbZ2-y7kY1KvNNyNH_U44U1-NLwP4q4ZOMNzigZmG1FJ_dXzuxLx_dvygu6UIUq1SpwtfTG3RE7fn5bgI3AE0zb2CPOBiDDOTXYctrTaCe20xj0krbedONAtR09mdMuvjURNnCMHMDB7S9gvD-fjw=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNCgpL_DZzuBraoL0xBoaMGi8cCEndPTDzcmNG0qPPUIiS0ghicq2Cj6gCw3WOf-qYClmFy7BgOLEvu6BGlPTEuwFkiOzVg1QWc2_WhtNttsQd6gBzZmSSEFK37Etw-cwCsEK68VVe6fIAAqx71dKwghg=w1802-h1013-s-no-gm?authuser=0"
+        ],
+        text: "Tout au long de l'année, le cirque du Haut-Asco vit au rythme des contrastes saisissants de la haute montagne méditerranéenne, passant du manteau immaculé des neiges hivernales à la clarté éclatante du soleil estival embrasant les arêtes de granite au crépuscule. Ce carrefour d'altitude conjugue la mémoire du pastoralisme montagnard aux défis de l'alpinisme d'aventure, incarnant avec vigueur la puissance sauvage de la montagne corse."
+      },
+      {
+        title: "Perspectives alpines sur les arêtes rocheuses",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczONolmXHWjQdi9cBKQqOPBF1mUmOCa0T3F4NAtDk2W1wxUNVdrzsWADagSScw5nXIaKDcg-kIJD8iBYjVYCVaKbne3EORuBtDjbCmF6NQLQhFtUAvl2nJau12zQW7oT-lyEjo-cesFbb2k2jsrtyDei4w=w1802-h1201-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO9xIxreW7YHFBkvyDATn_IYlGyamUPhZAdh4HswBLZr4mXlDOR638bVt1d2IerFcDH5vZn_cs1jfWS4PfHcqETWbV1Lgf7kXrMSa2VL_vFQa0MSJgVt4c99uBXmYkfB6RG9isgFyDy-CKskwPM9geCSg=w1802-h1091-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
    {
     id: "lucciana_embouchure_du_golo",
