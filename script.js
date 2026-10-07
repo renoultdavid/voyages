@@ -2427,13 +2427,12 @@ function renderEnrichedCarnetMode(spot, layout) {
   const catKey = spot.category;
   const catConf = (typeof CATEGORIES !== 'undefined' && CATEGORIES[catKey]) ? CATEGORIES[catKey] : { label: catKey, color: '#06b6d4' };
 
-  // 1. Bandeau : uniquement si un visuel dédié "banner" est renseigné
+  // 1. Bandeau : affichage intégral respectant le format exact de tes albums
   let bannerMarkup = '';
   if (spot.banner && spot.banner.trim() !== '') {
     bannerMarkup = `
-      <div class="w-full max-h-72 rounded-2xl overflow-hidden bg-slate-950 border border-slate-800 shadow-2xl relative">
-        <img src="${spot.banner}" alt="${spot.name}" class="w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+      <div class="w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-2xl flex items-center justify-center">
+        <img src="${spot.banner}" alt="${spot.name}" class="w-full h-auto object-contain block select-none">
       </div>
     `;
   }
