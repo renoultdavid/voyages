@@ -1311,7 +1311,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Parigné-l'Évêque",
     altitude: 73,
     is_island: false,
@@ -1325,7 +1325,25 @@ const travelSpots = [
     lat: 47.937698,
     lng: 0.365678,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNLMjjC1KfJjj5PXVeCSWbOUfSvpQqhH9NRg-hILoxxGevRXj4fqch5BtsBuKTOM49jwtW3WXEcKxyiAU0FFIer52S_SG53qANX1dclYeGbTJpQ9x_RYaMWXIxfxj_bU5_SadMWm-DlWCeFL9-kt95X-Q=w1784-h2369-s-no-gm?authuser=0",
-    description: "Édifiée au cœur du bourg sur une butte sableuse dominant la vallée du Narais, l'église Notre-Dame-de-l'Assomption de Parigné-l'Évêque porte dans son architecture et son toponyme l'empreinte séculaire des évêques du Mans, qui y possédaient jadis un manoir et un vaste domaine temporel dès le Haut Moyen Âge. L'édifice primitif du XIIe siècle, dont subsistent les puissantes maçonneries de la nef en moellons de grès roussard ferrugineux et calcaire gréseux, a connu d'importantes campagnes de remaniement à la fin de la période gothique puis au XIXe siècle. Sa façade occidentale sobre est épaulée de robustes contreforts et percée d'un portail en arc brisé, tandis que la croisée du transept s'élève en un imposant clocher carré coiffé d'une haute flèche pyramidale élancée couverte d'ardoises. À l'intérieur, la nef charpentée s'ouvre sur un chœur lumineux et des chapelles latérales conservant un mobilier liturgique d'une grande valeur patrimoniale, comprenant des retables baroques ornés de colonnes torses, des statues en terre cuite mancelle polychrome ainsi qu'un bel ensemble de verrières figurant la Vierge patronne et les évangélisateurs du Maine.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNxxjM4JvZd4ABpj18f_y-1B-WRR13EJOtSRcj8LSahdbds0wX3jcjKy1jxdB-teYVVdNmNDSFhfZIBNRDhQWwBiAhrxEN-iAnxp-4Pl4SlMZQsTUkVRWKV10eTsw5jlFBdRB-LXvq7GfFp5vc8Ou2oqA=w2088-h1571-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNUAn29bRJ90YEgI3F28JHj5mK0p18xbgpqSyhixuP7wZjTYNEoPoBS9wWBGNGL_pC_AYx_mi_9iZfX3fs-T9sSUiNIucaWxfF_JnExETb5DDHP3C_PCdhWYR8VR8zzMQ6LXtHtOcU6QVqcnymoRRHqPQ=w2088-h2774-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPThuH48_RIef-Qeen34vahIRixqFuttD5kMfRavdIz6T11NHAOod1UsMSa2E0eAucIZ2KA-xgcTsQHmBWFAUo7qmY5Zo5pyIh0ecAdVjAkc5iyf7i4iwzOgeDa7jeYfW3g8zTSPdrbXg6MX8j0A6-XrQ=w2088-h2774-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO6ILLXg2EWrWS6955yTmlm3Dbz0CNDOAqrRgSz1Qch4qAmTUH-S2OTsEc62CLpx8sUM_VBa68-LchnypIi0HEaqX1bgIx6EKvqeHB6gOwsUKdIBxd_Th-moidytoxxAUfVqucZMYrM6C4_sI--eOKn3Q=w2088-h2774-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "L'intérieur révèle un volume accueillant articulé en un large vaisseau central voûté d'ogives en plâtre et lattis surbaissées, flanqué de collatéraux aux arcades en plein cintre et en anse de panier retombant sur des piles circulaires sobres. Le chœur à chevet plat abrite un retable en bois sculpté et doré d'inspiration baroque classique du XVIIIe siècle, encadré de colonnes corinthiennes et surmonté d'un fronton triangulaire entouré d'anges thuriféraires. Les baies des bas-côtés et du chœur sont garnies de verrières historiées du XIXe siècle, œuvres d'ateliers de maîtres-verriers normands retraçant des scènes de la vie du prince des apôtres saint Pierre et de sainte Barbe, patronne invoquée contre la foudre. Les fidèles et les visiteurs y découvrent également une statuaire de dévotion polychrome remarquable, notamment une Vierge à l'Enfant d'époque moderne et un Christ en croix en bois patiné par les siècles. Les fonts baptismaux en calcaire de Caen soigneusement sculptés témoignent de la finesse stéréotomique des artisans de la basse vallée de l'Orne. Sauvegardée des destructions massives des combats de la poche de Falaise en août 1944, l'église demeure le cœur spirituel et mémoriel de la Suisse Normande.",
     visiter: "Arriver par la place de l'Église pour contempler la stature du clocher d'ardoise se détachant au-dessus des toitures du bourg et observer l'appareillage chaleureux des moellons de roussard typiques du terroir sarthois. Franchir le portail d'entrée pour s'imprégner de l'atmosphère sereine de la nef et apprécier la perspective vers le chœur réaménagé au fil des siècles. Prendre le temps de détailler la statuaire religieuse ancienne des autels secondaires, notamment les œuvres maniéristes en terre cuite et bois sculpté représentant saint Julien et la Vierge à l'Enfant. Contourner ensuite le chevet pour profiter des ruelles calmes bordées de maisons anciennes de vignerons et d'artisans, avant de prolonger la découverte vers les forêts de pins et de chênes ceinturant la commune.",
     link: ""
   },
@@ -1336,7 +1354,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Brette-les-Pins",
     altitude: 68,
     is_island: false,
@@ -1350,6 +1368,12 @@ const travelSpots = [
     lat: 47.913138,
     lng: 0.338208,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOTz1TerNuQsuYVHI8LuZjtycMM0t0z6a-4kO7dN1XKXt8I6Pmt74lD5QbpJUhUgiBrdt1HV3H9iHJkyFsyVES7NE2fJAbYZHaZgZ_46C2l_uHGQPh8hNfQnqdwo2z4kab5E8bC2VDCot4ZjctBh66JPQ=w1784-h2369-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOsMk0kgORhCy1TCX7MYnpctANbeuzC5ZttIP7PFMBg7iG5bCz17U3qo_r3kmHQYuV4W_s4H9-X-MWvLzc7DM8bqDVC3GSpsOvonBY7OBLS2CSc3op-1h5LhyLFj9TEgICrCTEu-OXICWwJMwpo_aHc8A=w2088-h2774-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Dressant sa fière silhouette néogothique au centre du village à l'orée des vastes massifs de pins maritimes et sylvestres du Belinois, l'église paroissiale Saint-Martin de Brette-les-Pins perpétue un patronage martinien ancestral remontant aux premiers temps de l'évangélisation du Maine. Reconstruite sous le Second Empire pour remplacer l'ancien sanctuaire médiéval devenu vétuste et inadapté à la population grandissante, elle adopte un plan régulier en croix latine bâti en pierre calcaire blanche et tuffeau, rythmé par des contreforts élancés couronnés de pinacles. Sa façade principale est précédée d'un clocher-porche monumental percé de lancettes géminées et surmonté d'une remarquable flèche octogonale en pierre finement taillée, ornée de lucarnes ajourées et de crosses végétales. L'intérieur déploie trois nefs voûtées d'ogives sur croisées d'arêtes élégantes, baignées par la clarté colorée d'un cycle complet de vitraux d'ateliers manceaux illustrant notamment le geste de charité de saint Martin partageant son manteau avec un pauvre, la vie des saints évangélisateurs locaux et les grandes dévotions rurales.",
     visiter: "Admirer depuis la place centrale la rigueur géométrique et la virtuosité des sculptures de la flèche de pierre dominant les houppiers des pins avoisinants. Pénétrer sous le clocher-porche pour découvrir l'enfilade lumineuse des croisées d'ogives soutenues par de fines colonnettes à chapiteaux de feuillages stylisés. Déambuler le long des bas-côtés pour contempler la finesse des baies vitrées narratives du XIXe siècle, en s'attardant sur les représentations de saint Martin d'Amiens à Tours. Prendre le temps d'observer le mobilier néogothique en chêne et le maître-autel sculpté avant de ressortir flâner dans ce village verdoyant bordé de sentiers sablonneux s'enfonçant sous les pinèdes.",
     link: ""
@@ -1361,7 +1385,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Duneau",
     altitude: 78,
     is_island: false,
@@ -1375,6 +1399,16 @@ const travelSpots = [
     lat: 48.053841,
     lng: 0.520447,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNN9c_PN8HISe4SOl4dlh-jhnxYH_sRVVtX2Qo47Q5jTGHiQXZg_De9q1JxJcN16Rq-q8a1eZYtJH1HitZK76rccVVNtS4PcrWVxIEgQOSzM55OaFjw2hGoVNHW18JQe_8gPa5Ae00g97QEqTnZpwBY3A=w1784-h1190-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPs_-s_wRhXIxY2e1iJ8AdiKOeKsh68TiixL0x5uCKcJyzinycoEOMfsszK5BSCnxFe41wetPZSz7bIsXEgPPDO1sAT7aWBYS5yK5wYVfcquB0XAMZkx8sp9mpY4Kp9WHLc0ZyTF2ifbNUjr5ve3tbkYA=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMr5svnSMU_3vzN2C32ppFS_7IUca1nkHD3kLL-P_SUHE__DyBBwG0iv9BG2JX7zxNDszXOS_RVJFDFkW1CDc6H_GUgd6MOk6SKqIkBGuVoL3rmVK_ENN6m0oULIboALaNDqh5W5PDzr_QLEzPKeCmgAw=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Érigé il y a plus de quatre mille cinq cents ans par les premières communautés paysannes sédentarisées dans la plaine alluviale de l'Huisne, le dolmen de la Pierre Couverte de Duneau — classé au titre des Monuments Historiques dès 1889 — est l'un des spécimens mégalithiques les plus imposants et spectaculaires de l'Est sarthois. Bâtie à l'aide d'énormes blocs de grès roussard ferrugineux extrait localement, cette sépulture mégalithique collective appartenait à l'origine à une vaste chambre funéraire recouverte d'un tumulus de terre et de pierrailles (cairn) arasé par des millénaires de labours agricoles. Le monument conserve toujours son impressionnante table de couverture monolithe, une dalle trapézoïdale massive mesurant près de quatre mètres de long pour plus de deux mètres de large et pesant plusieurs dizaines de tonnes, reposant en équilibre parfait sur de puissants orthostates latéraux ancrés dans le sol. Lors des fouilles archéologiques menées au XIXe siècle, les couches funéraires profondes livrèrent de nombreux ossements humains accompagnés d'un riche mobilier lithique composé de haches polies en silex, de perles d'ornement et de tessons de céramique à pâte grossière caractéristiques de la culture de Seine-Oise-Marne.",
     visiter: "Rejoindre ce témoin de la Préhistoire par le chemin communal vicinal qui longe les parcelles cultivées au sud du bourg de Duneau. S'approcher de l'imposante table de couverture pour observer la texture alvéolée et les teintes sombres et oxydées du grès roussard ferrugineux patiné par les millénaires. Examiner les piliers porteurs latéraux en appréciant l'ingéniosité des bâtisseurs néolithiques qui surent caler ces blocs colossaux sans aucun liant de maçonnerie pour créer une chambre funéraire pérenne. Prendre le temps d'observer le panorama ouvert sur la plaine environnante et le vallon de l'Huisne, avant de prolonger la découverte en direction du menhir voisin de Pierrefiche.",
     link: "https://photos.google.com/share/AF1QipOOtQjEARz4RLSEyZv6FNSGm4NXzhRx0XxLUGcIWbA7sMPVSkSCjzqiyacgkf3t9g?key=TEhLQ2NHeHJGVjRBc1UwVFZrM2lzSjVIMnE3Wld3"
@@ -1386,7 +1420,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Duneau",
     altitude: 72,
     is_island: false,
@@ -1400,6 +1434,12 @@ const travelSpots = [
     lat: 48.068988,
     lng: 0.519718,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPQ_Lw0rvgJnz64UPJ4uG4FJ2WgAyi9QrptGaoyYfUUwpm8hpgQ1Dn-7i6om_sy1AkHbRuUBPpPfmxhUz1dTqlh2QlfNORSyfPakL-L72iZvyDjKEgcJTU0ijR8zUR6mg4yzk_UP_dtfLo4yIEcJGQcrQ=w1784-h1190-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOqfDCBcnfc2vLxBA6jxNd_7mKf32fjRy6kEOMNxTeptoV7V5i_og-H3abrZIuia7EbhZYQtoxRbOE2NK7qYq1UQx6vRAak4lBSnA0y0-6yNgdIHw7sC0L3mJdv79MdFdr3mHAGOemo1fNsbLCkBttiZw=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Dressée au centre du bourg de Duneau sur une terrasse légèrement surélevée dominant le vallon bocager, l'église paroissiale Saint-Cyr-et-Sainte-Julitte est un sanctuaire d'origine romane plein de charme, placé sous le vocable du jeune martyr chrétien Cyr et de sa mère Julitte. Édifiée au cours du XIIe siècle puis remaniée à la fin de la période gothique et à l'époque classique, elle offre une maçonnerie polychrome caractéristique du patrimoine sarthois associant des moellons de grès roussard brun-rougeâtre, du calcaire blond de Bernay et des lits de silex. L'extérieur se distingue par sa nef sobre épaulée de contreforts appareillés et par son clocher carré surmonté d'une élégante flèche pyramidale couverte d'écailles d'ardoise d'Anjou. L'intérieur déploie un volume intimiste sous une belle charpente lambrissée en berceau brisé, abritant un retable baroque en tuffeau peint et doré du XVIIe siècle ainsi qu'un ensemble de statuaire religieuse ancienne illustrant la ferveur paroissiale séculaire de cette communauté rurale du Perche sarthois.",
     visiter: "Pénétrer dans le bourg pour admirer l'harmonie des matériaux rustiques composant les façades de l'église, soulignées par les chaînages d'angle en pierre calcaire et la toiture pentue. Pousser la porte pour découvrir la quiétude de la nef unique baignée d'une clarté tamisée par les vitraux historiés modernes et anciens. S'approcher du chœur pour contempler le retable d'autel baroque encadré de colonnettes à chapiteaux corinthiens et admirer les statues de saint Cyr et de sainte Julitte portant la palme du martyre. Faire le tour du chevet plat pour apprécier le calme du square paroissial arboré avant de s'engager sur les petites rues menant vers le paysage ouvert du bocage.",
     link: "https://photos.google.com/share/AF1QipOOtQjEARz4RLSEyZv6FNSGm4NXzhRx0XxLUGcIWbA7sMPVSkSCjzqiyacgkf3t9g?key=TEhLQ2NHeHJGVjRBc1UwVFZrM2lzSjVIMnE3Wld3"
@@ -1436,7 +1476,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Duneau",
     altitude: 85,
     is_island: false,
@@ -1446,10 +1486,24 @@ const travelSpots = [
     era_label: "Mosaïque agro-pastorale traditionnelle préservée rythmée de haies vives et de chênes émondés",
     century: "",
     category: "rando",
-    counts: { rando: 1 },
+    counts: {},
     lat: 48.064888,
     lng: 0.527191,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOlcJ9e1y5oOSqU-ToDy-6Cjx5gPzk5D_XoE3_6ErvQZofqL_DzBaSLU8_ySQQ0bKTIQC92BBDUzjoqayI_fF3CepEm1JHUmuhQ0MGTcWZdtFmEBna2zKQJNgIZ7rIqIi5SdDRxdtqafTDPaRUDwLAKQg=w1784-h1190-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNF6XpjTePYnhoUbpwiYnccjgb0FFz5lmJKejtrEURlnTog0-s9yYb2VVAO3STFagbchBPmRth2E6uOWp1SfQjRp6RzzC2SkCWIof8JtMSvx2CGPmYUMsGjHGGwXCJ4EPc3YRcSOJJPzdi3RROOAK_SwQ=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMqV5KApiytVVzatSfT1iFR6UPeLvsO_b_vuM7qKjQwUZMMsVchdLWlAl88DQVB6U4agUW-QCpt9MIu-iYAGwL846YHcDbH_4xTqYkDudrfCdKpXnQ6q6-NBeQOQcnFHhF7-de-cF8rD-S51IE4bAPCDw=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNYk4ABho7mYLq8p-LorkhYnc1j5eS1Xtq78WJZebpRKXmJHqtEqVvIWfPgUEm3-8j6AnfcOPDLNe-fZNYlKmJA3ltQqu5iyHVPII4JooFHWbJhc59u2SC0ow7jfpsSnob6SYCWmRlEbfJI5dsPBNoCEw=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "S'étirant doucement entre les méandres de l'Huisne et les premières ondulations du Perche sarthois, le bocage de Duneau offre un exemple remarquablement préservé du paysage agraire traditionnel de l'Ouest de la France. Ce réseau vivant de parcelles herbagères et céréalières est délimité par une trame continue de haies plessées, de talus herbeux et de chemins creux ancestraux ombragés de grands chênes pédonculés menés en « trognes » (arbres têtards émondés). Véritable havre de biodiversité, ces corridors écologiques abritent une faune sylvicole et bocagère dense, servant d'abris pour les hérissons, chevreuils, chouettes chevêches et passereaux granivores, tout en jouant un rôle hydrologique protecteur fondamental contre le ruissellement des eaux de pluie. Le cheminement au fil de ces sentes de terre battue offre une immersion apaisante au cœur d'une campagne vivante où se perpétue l'élevage bovin et où la lumière filtre délicatement à travers les feuillages des aubépines et des prunelliers en fleur.",
     visiter: "Chaussé de bonnes chaussures de marche, emprunter les chemins de terre et sentiers de randonnée balisés qui sillonnent la commune à l'écart des axes routiers. Savourer la fraîcheur protectrice des chemins creux encaissés entre deux talus herbeux tapissés de fougères et de jacinthes des bois au printemps. Prendre le temps d'observer le port sculptural des vieux chênes têtards aux troncs creux servant de refuges aux insectes saproxyliques et aux chauves-souris. Profiter des trouées visuelles sur les champs ondulants pour contempler les couleurs changeantes des cultures au gré des saisons et respirer les parfums de terre humide et de foin coupé qui caractérisent la campagne sarthoise.",
     link: "https://photos.google.com/share/AF1QipOOtQjEARz4RLSEyZv6FNSGm4NXzhRx0XxLUGcIWbA7sMPVSkSCjzqiyacgkf3t9g?key=TEhLQ2NHeHJGVjRBc1UwVFZrM2lzSjVIMnE3Wld3"
@@ -1486,7 +1540,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Sillé-le-Guillaume",
     altitude: 185,
     is_island: false,
@@ -1500,6 +1554,12 @@ const travelSpots = [
     lat: 48.185012,
     lng: -0.126101,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOAEesC6bE3eAoCOfhy7thhNVlW02vrv26C29DU7otdW6PDWeQ-_enY8Nn8VlxF55s1FY0pkhyzNsqqn3ZaFTwtJ3r79p7JE5AlHAQR5SJPexUT_WEiuQbLg99VXmGOp2NXB24fQiDL68rDttmM3tO7Sg=w1784-h1343-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNUlWskK-4oGwKASGAaed8mRKNUGcpbeuZ7ADqK-5iAsSmqzyabfhsK-AHFsVAxcY0Q2PQdqnNrKJ1xRw78QGdqHbEJTw1uH5Vvx7xdaJ3gMY6huWn4vspkMrQnoH30r6aYmtHvmtD1uzB4kvaX_vmoJQ=w2088-h2774-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Dressé fièrement au sommet d'un promontoire stratégique contrôlant les marches historiques entre le Maine, la Bretagne et la Normandie, le château fort de Sillé-le-Guillaume est l'une des places fortes médiévales les plus imposantes du département de la Sarthe. Établi dès le XIe siècle par le premier baron Guillaume Ier de Sillé, le site fut âprement disputé pendant la guerre de Cent Ans, pris puis occupé par les troupes anglaises de John Talbot avant d'être reconquis et entièrement reconstruit à la fin du XVe siècle par la puissante famille de Montecler. L'ensemble architectural s'articule autour d'une vaste cour trapézoïdale défendue par de massives courtines en moellons de grès et schiste armées de canonnières, et flanquée d'un colossal donjon circulaire du XIIe siècle haut de plus de vingt-cinq mètres. Remanié au XVIIe siècle pour adoucir son austérité militaire par le percement de larges fenêtres à meneaux et la création de logis seigneuriaux à toitures en ardoise, le château a conservé ses fossés profonds, ses tours d'angle à mâchicoulis et son châtelet d'entrée autrefois précédé d'un pont-levis, illustrant magistralement la transition entre l'art défensif féodal et les résidences seigneuriales de l'époque moderne.",
     visiter: "Franchir l'ancienne porte fortifiée pour pénétrer dans la haute cour d'honneur pavée et admirer la puissance des tours d'angle couronnées de mâchicoulis de pierre et de toitures en poivrière. Gravir les degrés en vis du grand donjon médiéval pour explorer ses salles de garde voûtées et sa charpente monumentale, tout en découvrant les expositions consacrées à l'histoire militaire de la baronnie de Sillé et aux combats de la guerre de Cent Ans. Parcourir le chemin de ronde qui relie les courtines pour bénéficier d'une vue plongeante sur les ruelles anciennes du bourg castral, la silhouette de la collégiale Notre-Dame et les moutonnements boisés du massif de la forêt de Sillé. Prendre le temps de faire le tour extérieur par les anciens fossés en herbe pour apprécier la verticalité colossale des soubassements ancrés dans le roc.",
     link: "https://photos.google.com/share/AF1QipNzttNsovalm8WxLhF4jahGCiK7WtIfEGg-m1nDg1sa8QzrHPkkUr_EtvW52eWEyg?key=ZTA1MkhvaVFmSnRTaTl4UU1mX0VXODJ6WmlQXzhR"
@@ -1511,7 +1571,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Sillé-le-Guillaume",
     altitude: 182,
     is_island: false,
@@ -1525,6 +1585,20 @@ const travelSpots = [
     lat: 48.184586,
     lng: -0.126587,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNQtjNrqSr-CTLgnaAsbFRvpwWwLRA_YPr-Y11DT-jGeIVUAVogHfH-gDMzJy-b5wW-0Brzf7dvSk14sL8f-vWnBKICpSLThz12s2p-bFGXmCamdZjm9_ODeLeXNphGaifnUUxpl7Cd3hHnEIstmyf5-A=w1784-h2369-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM_0ImLZ2-D8FrK7SlxexI1DKareeuZ3UNC5g7VdRsWVQdx6l_XAhChgpeA4tdv_XxHYDTI00jd-fOlSVFV_VjVi6fJ-wIkcCFfc_t9ZPYiizteK7X6VGEDfk4Vvqq57uJ0kZIkYBFqsynrxeB0UxCnhw=w2088-h2774-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOxA38VEfi_I-Y1AyPOIBM2ip_ZVH7cK-KRp8ar7OPWMCefKP8J7bPVg5xziBK7jAbzmVdgAFUUPKuqexFzjDug9yMDV4HQP-Q6vCQvc3Wqgzdf_gLg22em0p35yc2SDtxIXWJCEM3xg30LYS3sB84mDw=w2088-h2774-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOCtKuc_wbx4Szegw_wbrXeXxwNXX4F8Z_W1Q-9KHMjettFps65JnhHVxicaouy72_kJaJttQcWcupkQ63H5kluK6pokHcrjEbyvIO32SAU4mm5ndmsIozGdmSnoLG8LfEIuw39j3b79pgdtoxlO_gLRA=w2088-h2774-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Édifiée en contrebas immédiat des remparts du château au cœur du tissu urbain médiéval, l'église Notre-Dame de Sillé-le-Guillaume — ancienne collégiale fondée au XIIe siècle sous le patronage des barons locaux — est un remarquable édifice mariant la robustesse du roman primitif aux élégances du premier gothique de l'Ouest. En raison de la forte déclivité du terrain rocheux, l'église présente la particularité rare d'avoir été bâtie sur une imposante crypte romane voûtée du XIIe siècle, servant d'assise monumentale au chœur supérieur. Sa façade occidentale attire l'attention par son magnifique portail du XIIIe siècle en calcaire de Bernay, dont les voussures en ogive s'ornent d'une délicate dentelle de feuillages sculptés, de rinceaux végétaux et de voussures historiées représentant les vierges sages et les vierges folles. À l'intérieur, la vaste nef unique couverte d'une charpente lambrissée s'ouvre sur un transept et un chœur dotés de voûtes angevines à croisées d'ogives surbaissées, abritant un mobilier liturgique d'un grand intérêt patrimonial, dont des retables baroques du XVIIe siècle en terre cuite mancelle et des statues en bois polychrome.",
     visiter: "S'arrêter sur le parvis en pente pour admirer la richesse ornementale du portail gothique du XIIIe siècle, en détaillant les délicates sculptures des archivoltes et les chapiteaux sculptés de feuillages d'acanthe. Pousser la porte pour pénétrer dans la nef spacieuse, lever les yeux vers la voûte en coque de bateau inversée et apprécier la perspective dégagée vers le maître-autel baroque richement sculpté. Descendre dans la crypte médiévale semi-enterrée pour ressentir l'atmosphère minérale et recueillie de ses nefs basses portées par de lourds piliers carrés romans. Prendre le temps d'observer les retables en tuffeau et plâtre doré des chapelles latérales ainsi que les fonts baptismaux anciens en marbre et grès, avant de remonter par la ruelle pavée bordant l'abside pour contempler la vue en contre-plongée sur les tours du château.",
     link: "https://photos.google.com/share/AF1QipNzttNsovalm8WxLhF4jahGCiK7WtIfEGg-m1nDg1sa8QzrHPkkUr_EtvW52eWEyg?key=ZTA1MkhvaVFmSnRTaTl4UU1mX0VXODJ6WmlQXzhR"
@@ -1536,7 +1610,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Sillé-le-Guillaume",
     altitude: 178,
     is_island: false,
@@ -1550,6 +1624,20 @@ const travelSpots = [
     lat: 48.209465,
     lng: -0.129315,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMGIcXHQMSL7_EdenIuUqibiiYc2qoNN0IMNSaTrvk4Duku0usKckVIo4XYRTmLfTfBfQU6GHUxsBJ3AOyOQzOzSErGN2cVvRXG_G3GoPQGeLdEkpOOkHyfe--X6DhEHYI9VUhvTtC7Dj_SwZ5cJr73_g=w1784-h1343-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNklXW1Mc_GO0IR-aRo_PAZ3LxADj_0JktbcPoyc44xQRkhKjopnNsc5Pd5MaRDGuKE1TUelbd39xAM9pmBQdarGFbYQbP6xVCWdBXB-RbMr-QpbXOPdE6IThKb7dRzUIZVvPciU-LCMzWjtHhtNxKleA=w2088-h1571-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOscvyOpQ_owL9zVjhwLOtphOcihKD2wGf-zjIWP8lCDQFJQGSdVMA4mwfo7FXAWeRkDFl9BCS28U6Mh-jkPF-00vp8tzro4A7NlcXWzoa1vxNkhveeZrTk_eAZfYzSBsM1Uryt7wp_00CdvHOrLoIZ4g=w2088-h2774-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP-bBoizZ9m_AjhHoTo3z3BM_qrcGquzLtsN1yzqThuSKtdSDCuor13cnCBR_cyMI2AeFqJMHAujHIF2IWL2WCrSAcMRyAUyKuFYq3Bgv9YGmoaF7VE56Tabj_m8XMJfavuzKuZQxkk1W1pRHull7Vi_A=w2088-h2774-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Enchâssé dans une cuvette naturelle au cœur des trois mille cinq cents hectares de la forêt domaniale de Sillé, le lac de Sillé — affectueusement surnommé « Sillé-Plage » — est une splendide nappe d'eau douce de plus de trente-deux hectares formant l'un des pôles d'écotourisme et de nature les plus réputés du parc naturel régional Normandie-Maine. Créé à l'origine pour réguler les eaux des ruisseaux forestiers et alimenter les anciennes forges et moulins de la vallée, ce bassin lacustre s'est mué au fil du XXe siècle en une station verte préservée prisée des amoureux de plein air et de baignade. Ses berges bordées d'immenses futaies de chênes rouvres, de hêtres centenaires et de pins sylvestres composent un paysage d'inspiration presque nordique où la forêt vient plonger directement dans les reflets sombres et paisibles du plan d'eau. Doté d'une plage de sable fin aménagée et surveillée en période estivale, le lac est également un écosystème aquatique d'une remarquable biodiversité, abritant carpes, brochets, perches ainsi qu'une abondante avifaune lacustre composée de grèbes huppés, de canards colverts et de hérons cendrés.",
     visiter: "Entreprendre le tour complet du lac à pied en suivant le sentier pédestre ombragé de quatre kilomètres qui serpente au ras de l'eau sous la frondaison des grands feuillus. S'arrêter sur les pontons de pêche en bois pour admirer les reflets du ciel et de la forêt dans l'eau limpide, ou poser sa serviette sur la plage de sable pour une baignade rafraîchissante. Louer un pédalo, un canoë ou un paddle pour explorer les petites anses secrètes du lac inaccessibles depuis la rive, ou s'engager sur les nombreux sentiers de randonnée balisés montant vers le belvédère du Saut du Serf et la ligne de crête des Coëvrons. Profiter des aires de pique-nique aménagées à l'ombre des pins pour une halte champêtre au grand air.",
     link: "https://photos.google.com/share/AF1QipNzttNsovalm8WxLhF4jahGCiK7WtIfEGg-m1nDg1sa8QzrHPkkUr_EtvW52eWEyg?key=ZTA1MkhvaVFmSnRTaTl4UU1mX0VXODJ6WmlQXzhR"
@@ -1561,7 +1649,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Sillé-le-Guillaume",
     altitude: 215,
     is_island: false,
@@ -1575,6 +1663,16 @@ const travelSpots = [
     lat: 48.222271,
     lng: -0.107364,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNXUy7zJjclhX5r-e-RjRjdssLguMJSlJ7PbcUYiBHzlv0qfvtKoNeU0FXEwYFZ1toVqtcilNWfd2ili6_uoQCi4tZnCflKO3CrYx7z8Yc6exe-Q1mxnQB-FTDfpP0rxRrNItneSrzFh3rAsh5F5VBpVQ=w1784-h1190-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMGcovFBkU0pc5Ycv38yKsTtCdM6HTVuy0zl1d7WUixPsMxydF-CO0SLIPqPjolIggbOHiCDWasKgFU_UoXjoJX_pGPBr2qDQTtlk6JzM41DLAdYs7_CvvxOoAgT5A1zQNQZ6ryiDg2QroE3uRLjWoxAQ=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNDNAeIl8LAyeTnZBs66xQM9lT5gXMBf8wrzRDj6X7wPzyYSw30tp6scvqH5gGkdBYiQEo-QGEuZr2ss8L05K3poJ7UFq0s4MGXOy6MlLKeNiKomNIRbepu5M-UZTZ51GNk23W43Eg4P1FzO-XT0OAJmw=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Dissimulé dans les profondeurs sylvestres du nord-est de la forêt domaniale de Sillé, à plus de deux cents mètres d'altitude au creux d'un vallon humide et silencieux, l'étang du Jouteau est une perle secrète réservée aux promeneurs en quête d'immersion sauvage et contemplative. Aménagé autrefois par des digues artisanales en terre et moellons de grès pour servir de réserve d'eau aux activités de bûcheronnage, de flottage du bois et d'alimentation des viviers piscicoles des seigneurs du Maine, cet étang forestier est resté totalement à l'abri de l'urbanisation et des loisirs motorisés. Ses rives sauvages, colonisées par des tapis de sphaignes, des laîches, des fougères aigles et des massettes, forment une zone humide tourbeuse d'une grande valeur écologique. Entouré d'une dense chênaie-hêtraie entremêlée de résineux, le miroir d'eau reflète avec une netteté cristalline les silhouettes imposantes des arbres géants, créant une ambiance de conte de fées où le silence n'est troublé que par le chant du pic noir, le coassement des amphibiens et le bruissement des libellules au ras des nénuphars.",
     visiter: "Rejoindre ce havre de paix en empruntant les pistes forestières sablonneuses ou les sentiers balisés de grande randonnée (GR 36) traversant le cœur du massif de Sillé depuis Sillé-Plage ou le carrefour de la Queue d'Aronde. Faire lentement le tour des berges sauvages pour savourer le calme absolu et contempler les troncs d'arbres moussus se mirant dans l'eau sombre aux reflets tourbeux. Déployer ses jumelles pour observer les libellules rares (cordulies et caloptéryx) ainsi que les chevreuils venant parfois s'abreuver sur la rive opposée à la tombée du jour. Poursuivre la marche le long des sentiers en sous-bois bordés de blocs de grès et d'affleurements de quartzite armoricain pour une immersion totale dans la nature sarthoise.",
     link: "https://photos.google.com/share/AF1QipNzttNsovalm8WxLhF4jahGCiK7WtIfEGg-m1nDg1sa8QzrHPkkUr_EtvW52eWEyg?key=ZTA1MkhvaVFmSnRTaTl4UU1mX0VXODJ6WmlQXzhR"
