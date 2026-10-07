@@ -379,19 +379,11 @@ const SPOTS_2 = [
     counts: {},
     lat: 48.114902,
     lng: -1.68024,
-    image: "https://lh3.googleusercontent.com/pw/AP1GczMbFmgeuYcnFme2ql4nR--pjW342n7GcljYDQQXBY28QZli7k5Me9Et_6CVAxxmVGBmkF14bpkBd40ve6N5HDhWOyfi5LRFNerr8xUAw1NIfiLY2RGVDieZSPWtM08vtcTDoJNSNbPxYWAjwZTeNlIsaQ=w1611-h2416-s-no-gm?authuser=0",
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPGQNWUkM8VDOe6cRZNkHy3eXTb3gTvzhddV7CIg03vzcQPlP1-EstQKt0ubHVbd0C5tPrXlswfW-bkDuwBvNAuTrVxsc5C9bISZbxzl49vQH673eIQH2R5DH895R_7GMxhzfbQWftxFzBBS2k5ndyqpA=w1611-h2416-s-no-gm?authuser=0",
     description: "Dressée sur la vaste place Sainte-Anne au cœur des quartiers marchands de la cité médiévale, l'église Saint-Aubin, érigée au rang de Basilique Notre-Dame de Bonne Nouvelle, s'impose comme un édifice emblématique du renouveau religieux rennais au tournant du XXe siècle.",
     visiter: "Prendre du recul depuis l'esplanade de la place Sainte-Anne pour détailler la dentelle de pierre du portail néo-gothique et le dessin polylobé de la grande rose centrale. Pénétrer dans le vaisseau pour ressentir la verticalité des voûtes sur croisées d'ogives et examiner la série de vitraux retraçant les miracles de Notre-Dame de Bonne-Nouvelle. S'avancer vers la chapelle axiale pour se recueillir devant la vénérable icône médiévale peinte sur bois avant de prolonger la découverte vers le centre des congrès du couvent des Jacobins adjacent.",
     link: "https://photos.google.com/share/AF1QipNuFMKeUBF_WMoFKdpcAIXUm-jgFez4Q5CFtAHG2iXVqqoXlCOCeKeysaW7BcwE7w?key=dzBvd05Nd2s0RFBnQlZzdWR4NVo2bFZRV2FxSHlR",
     sections: [
-      {
-        title: "Élévation de la nef et rigueur néo-gothique",
-        photos: [
-          "https://lh3.googleusercontent.com/pw/AP1GczMbFmgeuYcnFme2ql4nR--pjW342n7GcljYDQQXBY28QZli7k5Me9Et_6CVAxxmVGBmkF14bpkBd40ve6N5HDhWOyfi5LRFNerr8xUAw1NIfiLY2RGVDieZSPWtM08vtcTDoJNSNbPxYWAjwZTeNlIsaQ=w1611-h2416-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczP1q18EauHssnjlcL9319k1zM4vCFyqjtEtl2mTYmnzB-Y9mrLJaDjB9NTv3eCHOmQoO1hwuojU2_TBHsz231onN9bA8klSjOlQhKDBp9erQM05NeNuLKqsPqMDIBBFEqh8Qyz8sbZc956jQB1nF_N-3Q=w1865-h1244-s-no-gm?authuser=0"
-        ],
-        text: "Sa nef se distingue par une verticalité impressionnante et une rigueur architecturale qui cherche à recréer la majesté des grandes cathédrales du XIIIe siècle. L'espace intérieur est structuré par de hauts piliers fasciculés dont les multiples colonnettes s'élancent sans interruption jusqu'aux voûtes sur croisée d'ogives, créant un rythme ascensionnel puissant qui dirige immédiatement le regard vers les hauteurs.\n\nL'élévation de la nef suit un schéma classique à trois niveaux : les grandes arcades brisées, un triforium aveugle et des fenêtres hautes. Ces dernières, ornées de vitraux aux couleurs denses, filtrent une lumière tamisée qui souligne la précision de la taille de pierre et le soin apporté aux détails ornementaux, tels que les chapiteaux à feuillages délicats. Le chœur, situé dans le prolongement direct de la nef, abrite un maître-autel monumental de style néo-gothique, dont la blancheur contraste avec la tonalité grise des piliers et la richesse chromatique des verrières de l'abside.\n\nLa cohérence stylistique de la nef est renforcée par un mobilier liturgique parfaitement intégré, notamment la chaire à prêcher en bois sculpté que l'on aperçoit sur la gauche, dont l'abat-voix en forme de flèche ciselée fait écho aux pinacles du maître-autel. L'utilisation systématique de l'arc brisé et la répétition des modules architecturaux confèrent à cet espace une harmonie et une solennité remarquables. La basilique Saint-Aubin demeure ainsi l'un des plus beaux exemples de l'ambition monumentale et de la maîtrise technique des architectes néo-gothiques bretons."
-      },
       {
         title: "Façade monumentale et portail ogival",
         photos: [
@@ -399,6 +391,14 @@ const SPOTS_2 = [
           "https://lh3.googleusercontent.com/pw/AP1GczN346P0LixaA14__6zDP_zLB8WyWRkAjzLy-jcO0rlvaGUe9RW5luliaKnO_nXqdH9SHB3CWga2QETy18F0pHxLzYPGiS4Mmewr_1wW2MpzhKt3LIdVXwGRozCgEfB3r3Tk73Xu6H6kjjkJAlcPtSXlxQ=w1865-h1244-s-no-gm?authuser=0"
         ],
         text: "Conçu par l'architecte Jean-Baptiste Martenot puis repris par Arthur Regnault pour remplacer le vieux sanctuaire paroissial devenu trop exigu, ce vaste édifice de calcaire blanc et de schiste adopte les canons du gothique rayonnant avec une spectaculaire façade inachevée flanquée de tours décapitées. Le portail d'entrée s'ouvre sous de puissantes voussures ogivales surmontées d'une haute baie à remplages ajourés qui éclaire largement le grand vaisseau central."
+      },
+      {
+        title: "Élévation de la nef et rigueur néo-gothique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMbFmgeuYcnFme2ql4nR--pjW342n7GcljYDQQXBY28QZli7k5Me9Et_6CVAxxmVGBmkF14bpkBd40ve6N5HDhWOyfi5LRFNerr8xUAw1NIfiLY2RGVDieZSPWtM08vtcTDoJNSNbPxYWAjwZTeNlIsaQ=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP1q18EauHssnjlcL9319k1zM4vCFyqjtEtl2mTYmnzB-Y9mrLJaDjB9NTv3eCHOmQoO1hwuojU2_TBHsz231onN9bA8klSjOlQhKDBp9erQM05NeNuLKqsPqMDIBBFEqh8Qyz8sbZc956jQB1nF_N-3Q=w1865-h1244-s-no-gm?authuser=0"
+        ],
+        text: "Sa nef se distingue par une verticalité impressionnante et une rigueur architecturale qui cherche à recréer la majesté des grandes cathédrales du XIIIe siècle. L'espace intérieur est structuré par de hauts piliers fasciculés dont les multiples colonnettes s'élancent sans interruption jusqu'aux voûtes sur croisée d'ogives, créant un rythme ascensionnel puissant qui dirige immédiatement le regard vers les hauteurs.\n\nL'élévation de la nef suit un schéma classique à trois niveaux : les grandes arcades brisées, un triforium aveugle et des fenêtres hautes. Ces dernières, ornées de vitraux aux couleurs denses, filtrent une lumière tamisée qui souligne la précision de la taille de pierre et le soin apporté aux détails ornementaux, tels que les chapiteaux à feuillages délicats."
       }
     ]
   },
