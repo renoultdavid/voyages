@@ -2421,26 +2421,18 @@ function renderModalSpot(spot) {
   }
 }
 
+// -------------------------------------------------------------------------
+// MODE 1 : CARNET DE VOYAGE (TEXTE D'ABORD, GRANDES PHOTOS EN DESSOUS)
+// -------------------------------------------------------------------------
 function renderEnrichedCarnetMode(spot, layout) {
-  layout.className = "flex-1 overflow-y-auto p-4 sm:p-8 space-y-8 custom-scrollbar bg-slate-950/70";
+  layout.className = "flex-1 overflow-y-auto p-4 sm:p-8 space-y-12 custom-scrollbar bg-slate-950/80";
 
   const catKey = spot.category;
   const catConf = (typeof CATEGORIES !== 'undefined' && CATEGORIES[catKey]) ? CATEGORIES[catKey] : { label: catKey, color: '#06b6d4' };
 
-  // 1. Bandeau : affichage intégral respectant le format exact de tes albums
-  let bannerMarkup = '';
-  if (spot.banner && spot.banner.trim() !== '') {
-    bannerMarkup = `
-      <div class="w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-2xl flex items-center justify-center">
-        <img src="${spot.banner}" alt="${spot.name}" class="w-full h-auto object-contain block select-none">
-      </div>
-    `;
-  }
-
+  // 1. En-tête : Badges, Titre et Présentation générale
   let headerHtml = `
     <div class="space-y-4 max-w-5xl mx-auto">
-      ${bannerMarkup}
-
       <div class="space-y-2">
         <div class="flex flex-wrap items-center gap-2">
           <span class="px-2.5 py-0.5 rounded-full text-[11px] font-black tracking-wide uppercase shadow" style="background-color: ${catConf.color || '#06b6d4'}; color: #fff;">
@@ -2476,23 +2468,25 @@ function renderEnrichedCarnetMode(spot, layout) {
     </div>
   `;
 
-  // 2. Grilles de photos : proportions respectées (object-contain) et clic pour zoomer
-  let sectionsHtml = '<div class="space-y-10 max-w-5xl mx-auto">';
+  // 2. Sections de visite : Titre + Texte puis Galerie photo
+  let sectionsHtml = '<div class="space-y-12 max-w-5xl mx-auto">';
   spot.sections.forEach((sec) => {
     let photosMarkup = '';
     if (Array.isArray(sec.photos) && sec.photos.length > 0) {
       if (sec.photos.length === 1) {
+        // Une seule photo : grand format centré
         photosMarkup = `
-          <div class="w-full rounded-2xl overflow-hidden bg-black/60 border border-slate-800 shadow-xl flex items-center justify-center p-1">
-            <img src="${sec.photos[0]}" alt="${sec.title || spot.name}" class="max-h-[75vh] w-auto max-w-full rounded-xl object-contain mx-auto cursor-zoom-in hover:opacity-95 transition" onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+          <div class="w-full rounded-2xl overflow-hidden bg-black/40 border border-slate-800/80 shadow-xl flex items-center justify-center p-1">
+            <img src="${sec.photos[0]}" alt="${sec.title || spot.name}" class="max-h-[80vh] w-auto max-w-full rounded-xl object-contain mx-auto cursor-zoom-in hover:opacity-95 transition" onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
           </div>
         `;
       } else {
+        // Deux photos ou plus : alignées côte à côte avec un espacement fin (gap-2)
         photosMarkup = `
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2.5 items-stretch">
             ${sec.photos.map(p => `
-              <div class="w-full h-80 sm:h-96 md:h-[460px] rounded-2xl overflow-hidden bg-black/60 border border-slate-800 shadow-xl flex items-center justify-center p-2">
-                <img src="${p}" alt="${sec.title || spot.name}" class="max-h-full max-w-full object-contain mx-auto rounded-xl cursor-zoom-in hover:scale-[1.02] transition-transform duration-200" onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+              <div class="w-full h-80 sm:h-96 md:h-[500px] rounded-2xl overflow-hidden bg-black/40 border border-slate-800/80 shadow-xl flex items-center justify-center p-1">
+                <img src="${p}" alt="${sec.title || spot.name}" class="max-h-full max-w-full object-contain mx-auto rounded-xl cursor-zoom-in hover:scale-[1.01] transition-transform duration-200" onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
               </div>
             `).join('')}
           </div>
@@ -2501,10 +2495,15 @@ function renderEnrichedCarnetMode(spot, layout) {
     }
 
     sectionsHtml += `
-      <article class="space-y-3 pt-2">
+      <article class="space-y-4">
+        <!-- Titre et texte en premier -->
+        <div class="space-y-2">
+          ${sec.title ? `<h4 class="text-base sm:text-lg font-bold text-cyan-200 flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-cyan-400"></span>${sec.title}</h4>` : ''}
+          ${sec.text ? `<p class="text-xs sm:text-sm text-slate-300 leading-relaxed text-justify bg-slate-900/60 p-4 rounded-xl border border-slate-800/80">${sec.text.replace(/\n\n/g, '<br><br>')}</p>` : ''}
+        </div>
+
+        <!-- Photos juste en dessous -->
         ${photosMarkup}
-        ${sec.title ? `<h4 class="text-base sm:text-lg font-bold text-cyan-200 flex items-center gap-2 pt-1"><span class="w-2 h-2 rounded-full bg-cyan-400"></span>${sec.title}</h4>` : ''}
-        ${sec.text ? `<p class="text-xs sm:text-sm text-slate-300 leading-relaxed text-justify bg-slate-900/50 p-4 rounded-xl border border-slate-800/80">${sec.text}</p>` : ''}
       </article>
     `;
   });
