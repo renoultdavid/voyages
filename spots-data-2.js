@@ -627,6 +627,48 @@ const SPOTS_2 = [
     lat: 48.123688,
     lng: -1.213254,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNXEGjaiY6g8Q6tmSd2EA0nxnNC8RWV-1VIFNHDcpdhfyv-NVz0KPd-qYRfUTg0xgwNCrf37TrkYCbmVKXbyXqOCq8g6FchrbkrX6ycUmC1dC0J7isd2qM55DCgPDPgS0tP2xAvcQMBs1aTQJuEtdS_eQ=w1800-h1201-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOUXYg_3aOl2mE1luiaTBk1IsYm_zOaTO3f8nMfo72emmQitVjSSTpiVMkjZ-4dMHzg1w8uRdBGcKAmDARWS8TGnkXiakA7dFeTRhdQhklqI6csUdB07GSR6QICnmAhJCSRfzE_HS1ml04YcTe42LE7UA=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPF3gccZDETnEb2bDQtwjTpn1Ui0JwAGJ11z_Tf48cNH4R02SbkMSjp8PV1PsZqkw9Vqn-nW269K1DRU_Q-v-JtC-I9miPt2O9X8ruEWY4tN7f4-1yRhiU6smPpd_75iISlSAPDKs5SJLGyZAbzXxcCvw=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNBDAhLGxHInSfb592nyzXS3Hi2SFngx8Cp4OGJ6RknQsYaQeZNblcwyTR61crPOU4op9PAtZ2uUTyQL3ZPIARKaZjBraV4UmNovFnSPDa_KxKpFPr9tc1bG_kigUJz4Z7f8Q5UkNf0ZmqTHoKa2-8RkQ=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczODQU7DVTS65DEPMbpQ-DiI25ND9pS4LKWBKDer0oI1-nuW1oIQlzuHR4tpaWjQuPNRDk0mn2uUcrG6ecjEVE-uwsnHROS4nmRZ1_WyPTZUnCuaDWwgttPQTXu8178Tla04Ak7F2zKVQlRe408P6zdDsg=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPPSmSHkHNza7LipNZrWGaWtq2AMA2u-Sl1esA7XNuVTTF7mTTarHs5IGWVvPVd62I_mn67-UfG93zxYnLSNcM-D1X_TQZQaWD9smIzbiyRzqBWqeonLJgV3Qm8UsQ0M323qKwDRA3K6PX4QaSnsA-IwA=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOcnk4Mu1L5YeLSPBsyv0S0X-TsHzBPCh6kwEbOHP62VKtrpJ-uVT2h7F0EyegVodUzLyO7OQb0IqBeQMShqv2IR6U-d8uNU0T_PzFmCwIyz9DEMuef547iDifKoxUqy1PZKkf05hfOv5LhyeAXRM7Ajg=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMRgi_fudevHVLEOBwS7ZD3XyyAACJhwsIztoQ9AxmQOAHG73rNcU_BqPoC8kGMC5X0kqUMjxMTw4HzXtiuKSxgMnN3Ip_kHyz3FYAllhFvKPnJsulGFvZef9OG0XF9xicd0MvtniOXMj_aYzAduP2qXw=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMF5hlrkDb-Cz8aBkq7R9xMnyQMXojY9lzBnH45JuveAENHHH8nsRZGM-YYu0-VVKGnTHtEFBApfQUjyD2MGbch1ceN8lN45QmtJOpqXUVk8h4yPnMHTy2BwuuQ-BCskjbzR2NA8f487awelaXSAyftGg=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOvoO6kgUnaX_09WmD5Bpv_uHcQc-k5gG4A2a90aEtgEQbw7K3mcnVZbVIbo8zM8SAGM-fhhdz9mUhOlmtTnCp2bE63IDv8Ir_Eqft0GVgph1w_RTdiEuyQYkOPx4RbadSJqPszvIA69lLV9R8r8_uecQ=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPJihDeKYwLOomkDfofroD6Nwgkays-PHfAMJkOHDzDQg__pGaFCp1okSaAFflXXU9XK6J9YHwLwxpMqHrxWOA0umTLstAGxTz0wMnycJvXly60OkIaOF_XoSSeR-OjoUwGeB5gc7PJTIRaTMtyIFaR8w=w1822-h886-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Établie sur un promontoire de schiste dominant la vallée encaissée de la Vilaine, la vieille ville de Vitré offre l'un des ensembles urbains médiévaux et Renaissance les plus spectaculaires et homogènes de Bretagne. Ancienne place forte frontière des Marches de Bretagne protégeant le duché face au royaume de France, la cité connaît un essor économique prodigieux du XVe au XVIIe siècle grâce à la confrérie des Marchands d'Outre-Mer. Ces négociants fortunés exportaient dans toute l'Europe et jusqu'aux Amériques les célèbres toiles de chanvre appelées « canevas », tissées dans les campagnes environnantes. Cette prospérité marchande s'exprime de manière saisissante dans le tissu urbain intramuros, caractérisé par un dédale de ruelles pavées jalonnées de maisons à porches, à pans de bois polychromes et à double encorbellement. Les artères maîtresses comme la rue de la Baudrairie et la rue d'En-Bas déploient des façades aux charpentes de chêne ornées de sablières sculptées de motifs géométriques, de décors végétaux ou de figures grotesques, reposant sur de puissants soubassements en moellons de schiste et de granite. Épargné par les grands incendies et les destructions des guerres modernes, le cœur historique de Vitré constitue un conservatoire exceptionnel de l'architecture civile bretonne de la fin du Moyen Âge.",
     visiter: "Arpenter la rue de la Baudrairie pour admirer l'enfilade spectaculaire des maisons à pans de bois du XVIe siècle dont les encorbellements successifs semblent presque se rejoindre au-dessus de la chaussée. Lever les yeux pour détailler les sculptures en bas-relief sur les sablières et les abouts de poutres représentant des figures animalières et des figures allégoriques. S'engager dans la rue d'En-Bas et la rue de Paris afin d'observer les cours intérieures pavées abritant d'anciens escaliers à vis à ciel ouvert taillés dans le bois et le granite.",
     link: "https://photos.google.com/share/AF1QipPm71qi40Tij84XqSDDGNQ9ciRxYT46a1ZQ8zvA3V1V0icxjad82kCIIlwKZBBZpg?key=WUw5dFkxMHVHMzlyaWE5NXZzQzJBLU5HNm9yd0V3"
