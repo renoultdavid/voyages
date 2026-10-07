@@ -2492,7 +2492,6 @@ function renderEnrichedCarnetMode(spot, layout) {
         `;
       }
     }
-
     sectionsHtml += `
       <article class="space-y-4">
         <!-- Titre et texte en premier -->
