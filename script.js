@@ -2473,19 +2473,44 @@ function renderEnrichedCarnetMode(spot, layout) {
   spot.sections.forEach((sec) => {
     let photosMarkup = '';
     if (Array.isArray(sec.photos) && sec.photos.length > 0) {
-      if (sec.photos.length === 1) {
+      const count = sec.photos.length;
+
+      if (count === 1) {
+        // 1 seule photo : grand format centré
         photosMarkup = `
-          <div class="w-full rounded-2xl overflow-hidden bg-slate-950 border border-slate-800/80 shadow-xl flex items-center justify-center">
-            <img src="${sec.photos[0]}" alt="${sec.title || spot.name}" class="w-full max-h-[82vh] object-contain mx-auto cursor-zoom-in hover:opacity-95 transition" onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+          <div class="w-full flex justify-center rounded-2xl overflow-hidden bg-slate-950/40 p-1 border border-slate-800/80 shadow-xl">
+            <img src="${sec.photos[0]}" alt="${sec.title || spot.name}" class="h-auto max-h-[80vh] w-auto max-w-full rounded-xl object-contain cursor-zoom-in hover:opacity-95 transition" onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
           </div>
         `;
-      } else {
-        // Ligne flexible proportionnelle : aucune découpe, proportions d'origine préservées
+      } else if (count === 2) {
+        // 2 photos : grand duo confortable (hauteur 440px)
         photosMarkup = `
           <div class="flex flex-col md:flex-row gap-2.5 w-full justify-center items-center rounded-2xl overflow-hidden bg-slate-950/40 p-2 border border-slate-800/80 shadow-xl">
             ${sec.photos.map(p => `
-              <div class="h-64 sm:h-80 md:h-[460px] flex items-center justify-center shrink-0 max-w-full">
+              <div class="h-64 sm:h-80 md:h-[440px] flex items-center justify-center shrink-0 max-w-full">
                 <img src="${p}" alt="${sec.title || spot.name}" class="h-full w-auto max-w-full rounded-xl object-contain cursor-zoom-in hover:scale-[1.01] transition-transform duration-200" onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+              </div>
+            `).join('')}
+          </div>
+        `;
+      } else if (count === 3) {
+        // 3 photos : hauteur réduite à 280px pour rentrer parfaitement sans déborder
+        photosMarkup = `
+          <div class="flex flex-col sm:flex-row gap-2 w-full justify-center items-center rounded-2xl overflow-hidden bg-slate-950/40 p-2 border border-slate-800/80 shadow-xl">
+            ${sec.photos.map(p => `
+              <div class="h-52 sm:h-64 md:h-[280px] flex items-center justify-center shrink-0 max-w-full">
+                <img src="${p}" alt="${sec.title || spot.name}" class="h-full w-auto max-w-full rounded-xl object-contain cursor-zoom-in hover:scale-[1.01] transition-transform duration-200" onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+              </div>
+            `).join('')}
+          </div>
+        `;
+      } else {
+        // 4 photos ou plus : grille de vignettes équilibrée
+        photosMarkup = `
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 w-full rounded-2xl overflow-hidden bg-slate-950/40 p-2 border border-slate-800/80 shadow-xl items-center justify-center">
+            ${sec.photos.map(p => `
+              <div class="h-44 sm:h-52 md:h-60 flex items-center justify-center overflow-hidden rounded-xl bg-black/40">
+                <img src="${p}" alt="${sec.title || spot.name}" class="h-full w-auto max-w-full object-contain cursor-zoom-in hover:scale-[1.02] transition-transform duration-200" onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
               </div>
             `).join('')}
           </div>
