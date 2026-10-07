@@ -2352,12 +2352,14 @@ function renderCockpitDashboardDetails() {
   }
 }
 
-// ==========================================
-// VISIONNEUSE PLEIN ÉCRAN DYNAMIQUE
-// ==========================================
+// =========================================================================
+// VISIONNEUSE GRAND ÉCRAN HYBRIDE : CARNET IMMERSIF & CARROUSEL CLASSIQUE
+// =========================================================================
 
 let activeModalIndex = 0;
 let currentModalSpotList = [];
+let currentSpotGallery = [];
+let currentSpotGalleryIndex = 0;
 
 function openPoiModalViewer(spot) {
   if (typeof getFilteredSpots === 'function') {
@@ -2365,7 +2367,7 @@ function openPoiModalViewer(spot) {
   } else {
     currentModalSpotList = [spot];
   }
-  
+
   activeModalIndex = currentModalSpotList.findIndex(s => s.id === spot.id);
   if (activeModalIndex === -1) {
     currentModalSpotList = [spot];
@@ -2393,19 +2395,179 @@ function renderModalSpot(spot) {
   const modal = document.getElementById('poi-modal-viewer');
   if (!modal || !spot) return;
 
+  const container = document.getElementById('poi-modal-container');
+  if (container) {
+    container.className = "relative w-full max-w-7xl h-[94vh] md:h-[92vh] bg-slate-900/95 border border-cyan-500/30 rounded-2xl shadow-[0_0_50px_rgba(6,182,212,0.25)] flex flex-col overflow-hidden text-slate-100";
+  }
+
   const flagEl = document.getElementById('modal-flag');
   if (flagEl) flagEl.innerText = spot.flag || '📍';
-  
-  const breadcrumb = [spot.country, spot.region_admin, spot.department, spot.subdiv].filter(Boolean).join(' • ');
+
+  const breadcrumb = [spot.country, spot.region_admin || spot.region, spot.department, spot.subdiv].filter(Boolean).join(' • ');
   const breadcrumbEl = document.getElementById('modal-breadcrumb');
   if (breadcrumbEl) breadcrumbEl.innerText = breadcrumb;
 
   const counterEl = document.getElementById('modal-counter');
   if (counterEl) counterEl.innerText = `${activeModalIndex + 1} / ${currentModalSpotList.length}`;
 
+  const layout = document.getElementById('modal-body-layout');
+  if (!layout) return;
+
+  const hasSections = Array.isArray(spot.sections) && spot.sections.length > 0;
+  if (hasSections) {
+    renderEnrichedCarnetMode(spot, layout);
+  } else {
+    renderClassicViewerMode(spot, layout);
+  }
+}
+
+function renderEnrichedCarnetMode(spot, layout) {
+  layout.className = "flex-1 overflow-y-auto p-4 sm:p-8 space-y-8 custom-scrollbar bg-slate-950/70";
+
+  const catKey = spot.category;
+  const catConf = (typeof CATEGORIES !== 'undefined' && CATEGORIES[catKey]) ? CATEGORIES[catKey] : { label: catKey, color: '#06b6d4' };
+
+  const bannerImg = spot.banner || spot.image;
+  let headerHtml = `
+    <div class="space-y-4 max-w-5xl mx-auto">
+      ${bannerImg ? `
+        <div class="w-full h-48 sm:h-64 md:h-80 rounded-2xl overflow-hidden bg-slate-950 border border-slate-800 shadow-2xl relative">
+          <img src="${bannerImg}" alt="${spot.name}" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+        </div>
+      ` : ''}
+
+      <div class="space-y-2">
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="px-2.5 py-0.5 rounded-full text-[11px] font-black tracking-wide uppercase shadow" style="background-color: ${catConf.color || '#06b6d4'}; color: #fff;">
+            ${catConf.label || catKey}
+          </span>
+          <span class="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-slate-800 text-slate-300 border border-slate-700">
+            ${spot.century || spot.era_label || spot.era_group || 'Patrimoine'}
+          </span>
+          <span class="text-xs font-mono text-cyan-300 flex items-center gap-1">
+            <i class="fa-solid fa-mountain text-amber-400"></i> ${spot.altitude || 0} m
+          </span>
+          ${spot.link ? `
+            <a href="${spot.link}" target="_blank" class="ml-auto px-3 py-1 rounded-lg bg-cyan-950/80 hover:bg-cyan-700 border border-cyan-400/40 text-cyan-300 text-xs font-bold flex items-center gap-1.5 transition">
+              <i class="fa-solid fa-images"></i> Album Google Photos
+            </a>
+          ` : ''}
+        </div>
+
+        <h2 class="text-2xl sm:text-3xl font-black text-white tracking-tight">${spot.name}</h2>
+        <div class="text-[11px] font-mono text-slate-400 flex items-center gap-1.5">
+          <i class="fa-solid fa-location-crosshairs text-cyan-400"></i> ${Number(spot.lat).toFixed(6)}°N, ${Number(spot.lng).toFixed(6)}°E
+        </div>
+      </div>
+
+      ${spot.description ? `
+        <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-4 sm:p-5 shadow-inner">
+          <h3 class="text-xs font-black tracking-wider uppercase text-cyan-400 mb-2 flex items-center gap-1.5">
+            <i class="fa-solid fa-book-open"></i> Présentation générale
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-200 leading-relaxed text-justify">${spot.description}</p>
+        </div>
+      ` : ''}
+    </div>
+  `;
+
+  let sectionsHtml = '<div class="space-y-10 max-w-5xl mx-auto">';
+  spot.sections.forEach((sec) => {
+    let photosMarkup = '';
+    if (Array.isArray(sec.photos) && sec.photos.length > 0) {
+      if (sec.photos.length === 1) {
+        photosMarkup = `
+          <div class="w-full max-h-[72vh] rounded-2xl overflow-hidden bg-black/60 border border-slate-800 shadow-xl flex items-center justify-center">
+            <img src="${sec.photos[0]}" alt="${sec.title || spot.name}" class="max-h-[72vh] w-auto object-contain mx-auto">
+          </div>
+        `;
+      } else {
+        photosMarkup = `
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+            ${sec.photos.map(p => `
+              <div class="h-64 sm:h-80 rounded-2xl overflow-hidden bg-black/60 border border-slate-800 shadow-xl flex items-center justify-center">
+                <img src="${p}" alt="${sec.title || spot.name}" class="w-full h-full object-cover">
+              </div>
+            `).join('')}
+          </div>
+        `;
+      }
+    }
+
+    sectionsHtml += `
+      <article class="space-y-3 pt-2">
+        ${photosMarkup}
+        ${sec.title ? `<h4 class="text-base sm:text-lg font-bold text-cyan-200 flex items-center gap-2 pt-1"><span class="w-2 h-2 rounded-full bg-cyan-400"></span>${sec.title}</h4>` : ''}
+        ${sec.text ? `<p class="text-xs sm:text-sm text-slate-300 leading-relaxed text-justify bg-slate-900/50 p-4 rounded-xl border border-slate-800/80">${sec.text}</p>` : ''}
+      </article>
+    `;
+  });
+  sectionsHtml += '</div>';
+
+  layout.innerHTML = headerHtml + sectionsHtml;
+}
+
+function renderClassicViewerMode(spot, layout) {
+  layout.className = "flex-1 flex flex-col md:flex-row overflow-hidden";
+  layout.innerHTML = `
+    <div id="modal-image-wrapper" class="relative bg-black flex items-center justify-center overflow-hidden w-full md:w-1/2 lg:w-3/5 h-1/2 md:h-full shrink-0 border-b md:border-b-0 md:border-r border-cyan-500/20">
+      <img id="modal-image" src="" alt="Photo POI" class="max-w-full max-h-full object-contain select-none transition-opacity duration-200" />
+      
+      <button id="modal-arrow-left" class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-950/70 hover:bg-cyan-500/80 border border-cyan-400/40 text-white flex items-center justify-center transition backdrop-blur-sm cursor-pointer shadow-lg z-20">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <button id="modal-arrow-right" class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-950/70 hover:bg-cyan-500/80 border border-cyan-400/40 text-white flex items-center justify-center transition backdrop-blur-sm cursor-pointer shadow-lg z-20">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+
+      <div id="modal-gallery-counter" class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-slate-950/80 border border-cyan-400/40 text-cyan-300 font-mono text-[11px] font-bold shadow-lg backdrop-blur-sm z-20 hidden">1 / 1</div>
+      <div id="modal-gallery-caption" class="absolute bottom-0 left-0 right-0 p-3 pt-6 bg-gradient-to-t from-slate-950/90 via-slate-950/50 to-transparent text-[11px] sm:text-xs text-slate-200 text-center font-medium leading-relaxed backdrop-blur-[1px] z-10 hidden"></div>
+
+      <a id="modal-album-link" href="#" target="_blank" class="absolute bottom-3 right-3 px-3 py-1 rounded-lg bg-slate-950/80 hover:bg-cyan-600/90 border border-cyan-400/40 text-cyan-200 text-xs font-bold flex items-center gap-1.5 backdrop-blur-sm transition shadow-lg z-20">
+        <i class="fa-solid fa-images"></i> Album complet
+      </a>
+    </div>
+
+    <div id="modal-text-wrapper" class="w-full md:w-1/2 lg:w-2/5 h-1/2 md:h-full overflow-y-auto p-4 sm:p-6 space-y-4 custom-scrollbar">
+      <div>
+        <div class="flex flex-wrap items-center gap-2 mb-2">
+          <span id="modal-badge-cat" class="px-2.5 py-0.5 rounded-full text-[11px] font-black tracking-wide uppercase shadow"></span>
+          <span id="modal-badge-era" class="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-slate-800 text-slate-300 border border-slate-700"></span>
+          <span id="modal-altitude" class="text-xs font-mono text-cyan-300 flex items-center gap-1"></span>
+        </div>
+        <h2 id="modal-title" class="text-xl sm:text-2xl font-black text-cyan-100 tracking-tight"></h2>
+        <div id="modal-coords" class="text-[11px] font-mono text-slate-400 flex items-center gap-1.5 mt-1"></div>
+      </div>
+
+      <div class="bg-slate-950/40 border border-slate-800/80 rounded-xl p-3.5 sm:p-4">
+        <h3 class="text-xs font-black tracking-wider uppercase text-cyan-400 mb-2 flex items-center gap-1.5">
+          <i class="fa-solid fa-book-open text-[11px]"></i> Introduction & Histoire
+        </h3>
+        <p id="modal-description" class="text-xs sm:text-sm text-slate-300 leading-relaxed text-justify"></p>
+      </div>
+
+      <div class="bg-slate-950/40 border border-slate-800/80 rounded-xl p-3.5 sm:p-4">
+        <h3 class="text-xs font-black tracking-wider uppercase text-emerald-400 mb-2 flex items-center gap-1.5">
+          <i class="fa-solid fa-compass text-[11px]"></i> À Visiter & Incontournables
+        </h3>
+        <p id="modal-visiter" class="text-xs sm:text-sm text-slate-300 leading-relaxed text-justify"></p>
+      </div>
+    </div>
+  `;
+
+  document.getElementById('modal-arrow-left')?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    navigateSpotGallery(-1);
+  });
+  document.getElementById('modal-arrow-right')?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    navigateSpotGallery(1);
+  });
+
   const titleEl = document.getElementById('modal-title');
   if (titleEl) titleEl.innerText = spot.name;
-  
+
   const coordsEl = document.getElementById('modal-coords');
   if (coordsEl) {
     coordsEl.innerHTML = `<i class="fa-solid fa-location-crosshairs text-cyan-400"></i> ${Number(spot.lat).toFixed(6)}°N, ${Number(spot.lng).toFixed(6)}°E`;
@@ -2436,16 +2598,6 @@ function renderModalSpot(spot) {
   const visitEl = document.getElementById('modal-visiter');
   if (visitEl) visitEl.innerText = spot.visiter || "Informations de visite à venir.";
 
-  const linkAlbum = document.getElementById('modal-album-link');
-  if (linkAlbum) {
-    if (spot.link) {
-      linkAlbum.href = spot.link;
-      linkAlbum.classList.remove('hidden');
-    } else {
-      linkAlbum.classList.add('hidden');
-    }
-  }
-
   const albumLink = document.getElementById('modal-album-link');
   if (albumLink) {
     if (spot.link && spot.link.trim() !== '') {
@@ -2466,42 +2618,21 @@ function renderModalSpot(spot) {
   renderSpotGalleryImage();
 }
 
-let currentSpotGallery = [];
-let currentSpotGalleryIndex = 0;
-
 function renderSpotGalleryImage() {
   if (!currentSpotGallery.length) return;
 
   const currentItem = currentSpotGallery[currentSpotGalleryIndex];
   const imgEl = document.getElementById('modal-image');
-  const layout = document.getElementById('modal-body-layout');
-  const imgWrapper = document.getElementById('modal-image-wrapper');
-  const textWrapper = document.getElementById('modal-text-wrapper');
   const counterEl = document.getElementById('modal-gallery-counter');
   const captionEl = document.getElementById('modal-gallery-caption');
   const arrowLeft = document.getElementById('modal-arrow-left');
   const arrowRight = document.getElementById('modal-arrow-right');
 
   if (imgEl) {
-    imgEl.onload = function() {
-      const isPortrait = this.naturalHeight > this.naturalWidth;
-
-      if (isPortrait) {
-        if (layout) layout.className = "flex-1 flex flex-col md:flex-row overflow-hidden";
-        if (imgWrapper) imgWrapper.className = "relative bg-black flex items-center justify-center overflow-hidden w-full md:w-1/2 lg:w-3/5 h-1/2 md:h-full shrink-0 border-b md:border-b-0 md:border-r border-cyan-500/20";
-        if (textWrapper) textWrapper.className = "w-full md:w-1/2 lg:w-2/5 h-1/2 md:h-full overflow-y-auto p-4 sm:p-6 space-y-4 custom-scrollbar";
-      } else {
-        if (layout) layout.className = "flex-1 flex flex-col overflow-hidden";
-        if (imgWrapper) imgWrapper.className = "relative bg-black flex items-center justify-center overflow-hidden w-full h-[62%] sm:h-[65%] shrink-0 border-b border-cyan-500/20";
-        if (textWrapper) textWrapper.className = "flex-1 overflow-y-auto p-4 sm:p-6 space-y-4 custom-scrollbar";
-      }
-    };
-
     imgEl.src = currentItem.url;
   }
 
   const hasMultiplePhotos = currentSpotGallery.length > 1;
-
   if (arrowLeft) arrowLeft.style.display = hasMultiplePhotos ? 'flex' : 'none';
   if (arrowRight) arrowRight.style.display = hasMultiplePhotos ? 'flex' : 'none';
 
@@ -2536,7 +2667,7 @@ function navigateModalSpot(direction) {
   activeModalIndex = (activeModalIndex + direction + currentModalSpotList.length) % currentModalSpotList.length;
   const newSpot = currentModalSpotList[activeModalIndex];
   renderModalSpot(newSpot);
-  
+
   if (typeof selectSpot === 'function') {
     selectSpot(newSpot);
   }
@@ -2547,15 +2678,6 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('modal-btn-prev')?.addEventListener('click', () => navigateModalSpot(-1));
   document.getElementById('modal-btn-next')?.addEventListener('click', () => navigateModalSpot(1));
 
-  document.getElementById('modal-arrow-left')?.addEventListener('click', (e) => {
-    e.stopPropagation();
-    navigateSpotGallery(-1);
-  });
-  document.getElementById('modal-arrow-right')?.addEventListener('click', (e) => {
-    e.stopPropagation();
-    navigateSpotGallery(1);
-  });
-
   document.getElementById('poi-modal-viewer')?.addEventListener('click', (e) => {
     if (e.target.id === 'poi-modal-viewer') closePoiModalViewer();
   });
@@ -2565,8 +2687,15 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!modal || modal.classList.contains('hidden')) return;
 
     if (e.key === 'Escape') closePoiModalViewer();
-    if (e.key === 'ArrowLeft') navigateSpotGallery(-1);
-    if (e.key === 'ArrowRight') navigateSpotGallery(1);
+    if (e.key === 'ArrowLeft') {
+      const hasSections = Array.isArray(currentModalSpotList[activeModalIndex]?.sections);
+      if (hasSections) navigateModalSpot(-1);
+      else navigateSpotGallery(-1);
+    }
+    if (e.key === 'ArrowRight') {
+      const hasSections = Array.isArray(currentModalSpotList[activeModalIndex]?.sections);
+      if (hasSections) navigateModalSpot(1);
+      else navigateSpotGallery(1);
+    }
   });
 });
- 
