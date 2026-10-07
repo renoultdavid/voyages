@@ -2064,6 +2064,16 @@ const SPOTS_2 = [
     lat: 49.287416,
     lng: -0.252389,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM5LVSYmdJQ_NSahpFAYMhVgtQqGFCvkOnzG69gltghHwezm7lumkeXp2wj_z_FU4bYRmR44ZGZvROA0vys8z_4ZqqLAG2mG1RIjMiP5nWMIwNZ5DWfss5YbZw1l1i5Ek0ZLX-83UigmT7wekmALWVYAA=w1800-h1201-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMUG6lLb3pRPiY6VV2kP3qfKD4a2EdLIiD7r4AXNkRYWetEQMLkaQfOb5gbVl7GE5b5fqVg07bO6gZdSOeJsSJ8BAc37-uhkPlxEkOO-_yjFAhDDnR-8LerskLCM4RDYz3AwFs5CGZJcckTc4oG47-7DA=w1530-h1021-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOEbdxC2yuFLlRKH0kgiw36ADzFHbUzgwt24nLXDesqEft_rxKYK1iOoMXaj6B1e7ULB-4W9TCakzSdtwJTK6ZfNYuZH5h_mtATAE1zbRZts09IHUfUbJYUzVpIRwyG9pjZ80M9T0vjQ8SyjKcKiltKAQ=w1530-h1021-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Aménagé dans un authentique poste de direction de tir allemand (bunker de type Regelbau H636) achevé début 1944 par l'Organisation Todt, ce musée surnommé « Le Grand Bunker » culmine à dix-sept mètres de hauteur et domine l'embouchure de l'Orne et la baie de Seine. Ce monolithe de béton armé de cinq niveaux, doté de blindages étanches et de murs atteignant par endroits plus de deux mètres d'épaisseur, coordonnait le tir des batteries d'artillerie lourde côtières couvrant le secteur est de la plage de Sword Beach. Lors du Débarquement du 6 juin 1944, l'ouvrage verrouille le front fluvial et résiste pendant trois jours aux tirs de navires alliés et aux assauts terrestres. Il n'est neutralisé que le 9 juin par le lieutenant britannique Bob Orrell du Royal Engineers, qui parvient à dynamiter l'épaisse porte blindée après plusieurs heures d'un siège méthodique. Intégralement réhabilité et transformé en musée de site, le complexe restitue fidèlement l'ambiance confinée et technique de la garnison allemande à travers la reconstitution méticuleuse de ses chambrées, de son infirmerie, de ses salles des machines de filtration d'air, de son central téléphonique et de sa coupole télémétrique sommitale. L'extérieur abrite également la célèbre péniche de débarquement PA 30-4 ayant servi au tournage du film « Il faut sauver le soldat Ryan ».",
     visiter: "Gravir les paliers intérieurs pour explorer chaque niveau fonctionnel du bunker, depuis les installations de survie autonomes au sous-sol jusqu'au central radio parfaitement équipé. Atteindre le sommet pour regarder à travers les optiques du puissant télémètre à coïncidence sous coupole blindée, offrant une vue panoramique directe sur tout le littoral d'Ouistreham et la Manche. Examiner sur l'esplanade extérieure la barge de débarquement de type LCVP ainsi que les canons de DCA et pièces antichars d'époque.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
@@ -2141,9 +2151,35 @@ const SPOTS_2 = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczNoUPf-BIDUT5rWYfb3z-EApkN9bid5MXnYlQbpvfjOOOOlzvWT8ezmgut-Cg5_X8I7lNGCGRDvGZNAvhHd6MapTOGjDa8QPOY3BrR06sE8qRg7H1kIeFe6MvgB9Esi28ej0LYrGvlCmAVitIsO1WW9hw=w1800-h1201-s-no-gm?authuser=0",
     description: "Édifiée à partir de la seconde moitié du XIIe siècle sur les hauteurs du bourg originel, l'église Saint-Samson constitue un jalon remarquable de l'art roman normand, construite en pierre calcaire de Caen. Dédiée à saint Samson de Dol, l'un des sept saints fondateurs de Bretagne ayant débarqué sur le littoral normand au VIe siècle, elle dépendait sous l'Ancien Régime de la prestigieuse abbaye aux Dames de Caen. L'édifice se distingue par son allure massive et austère, issue de son rôle défensif face aux incursions maritimes venues de la Manche : ses maçonneries épaisses, percées d'ouvertures étroites en meurtrières, servaient de refuge à la population locale, notamment durant les ravages de la guerre de Cent Ans. La façade occidentale est une pièce maîtresse de la sculpture romane régionale, structurée par trois registres d'arcatures aveugles en plein cintre et rythmée par un portail richement sculpté d'archivoltes à bâtons rompus, de frettes crénelées et de modillons figuratifs animaliers. À l'intérieur, la vaste nef romane à trois niveaux d'élévation mène à un chœur et une abside remaniés au XIIIe siècle dans un style gothique primitif élancé, marqué par des voûtes sur croisées d'ogives et des baies lancéolées apportant une vive clarté au sanctuaire. Classé monument historique dès 1840 sur la toute première liste établie par Prosper Mérimée, le monument a également été le témoin direct des combats acharnés menés le 6 juin 1944 par les commandos français du bataillon Kieffer lors de la libération du bourg.",
     visiter: "Prendre du recul sur le parvis pour détailler l'ornementation géométrique du portail ouest, en particulier les chevrons sculptés, les motifs d'entrelacs et la série de modillons anthropomorphes sous la corniche. Faire le tour extérieur par le chevet afin d'observer la transition architecturale entre les puissants contreforts romans de la nef et les baies gothiques plus élancées du chœur. Franchir le portail pour admirer l'élévation intérieure de la nef rythmée par ses grandes arcades retombant sur de lourdes piles circulaires, puis lever les yeux vers la croisée du transept pour examiner la lanterne octogonale coiffant la tour centrale.",
-    link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
+    link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB",
+    sections: [
+      {
+        title: "Façade occidentale romane et tour lanterne",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMTn3-9jWHYl-c2g9GFjvPgonldRchUaEBGZAbu1ybwB6f9bWbFV1jAlJDlQj-4T6h73JYTI8kBEOx3Io2cVvPQH6KJB7Oig6RQpiGcgKUgB_saUzLewkYKRUli_dNX0JNTR6CCupEwwUZB3I03O6WC4Q=w1530-h1021-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOpfFmDqY-USq45jTzpyxeeRfylrTTcgkpqXuM66t3_Luqgd2ZeChYc1DFuuTkQV2JOnu7NdEiFTeiXnE8Zh3lkArLGmDmz6_8RdXbZRwWL1fTu_lMfClsGsrF9GOQqpUyhNY4YzBTIsPlupQAii58XkQ=w1530-h1021-s-no-gm?authuser=0"
+        ],
+        text: "L'église présente une remarquable façade occidentale tripartite ornée de portails sculptés d'arcs brisés, de chevrons géométriques et d'une arcature aveugle élégante. La croisée du transept est couronnée par une puissante tour lanterne carrée flanquée de contreforts massifs, qui servit historiquement d'amer pour la navigation côtière ainsi que de vigie militaire face aux incursions maritimes."
+      },
+      {
+        title: "Détails architecturaux et vues extérieures",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNoUPf-BIDUT5rWYfb3z-EApkN9bid5MXnYlQbpvfjOOOOlzvWT8ezmgut-Cg5_X8I7lNGCGRDvGZNAvhHd6MapTOGjDa8QPOY3BrR06sE8qRg7H1kIeFe6MvgB9Esi28ej0LYrGvlCmAVitIsO1WW9hw=w1530-h1021-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMOsJvi0dzOiiO4j0LkK-3A5iwghGKDzNVTuAxCkQnIenWR58HO-kCOAB4aBNFLNLGm3YdyqIhnAAOUShV3QjyOkd8d2G63odFu-op85Sp1ZKHGGhsB1ih2hYW462i6H2kGB1j3Jr9VBUYqycmzZxmNJg=w1530-h1021-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Canons de marine et vestiges défensifs",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMjng6fXOPdlImW259I3EELubJhQAFndGaKeK8hnSJXW63HFOlyIbnLAsXDnBwH2D7CdPrfrPKzqo7DY8Fgwdlhu_Z6RtfgetyZo05S6J2evbEYi_GohAeecDS696dx3IB8RFFgqM2TF3QQXZ9kd1l-rw=w1530-h1021-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNwfcxkijJ15zsfvCnq1r_9EOcVkwi0YH-5-IeW9WYuL8F-BjB9dqug0KHsKYPlh0HkGRoiWCVW1lVaFDzSw3oEUY0M0CgQgWbCPF1fzMDr0bGGyLyxW817BpURrOpXAJWs9NvVn02OBJ5efdN6AZW2CQ=w1530-h1021-s-no-gm?authuser=0"
+        ],
+        text: "Disposés aux abords immédiats de l'église Saint-Samson dans l'ancien enclos paroissial, deux anciens canons de marine en fonte rappellent le passé défensif de la côte normande face aux escadres ennemies. Ces bouches à feu de gros calibre, datant de la seconde moitié du XVIIIe siècle, armaient à l'origine la redoute littorale et les batteries côtières établies à l'embouchure de l'Orne pour repousser les raids de la marine britannique sous le règne de Louis XV et durant les guerres napoléoniennes. Démontées lors de la désaffectation des fortifications côtières au cours du XIXe siècle, les pièces d'artillerie ont été installées au pied du chevet et de la tour de l'église comme témoins matériels de la surveillance de la baie de Seine. Leurs fûts massifs en fer patiné par les embruns portent encore les tourillons de pointage et les marques de fonderie arsenale de la marine royale. Cet armement historique évoque les siècles d'affrontements navals en Manche avant que le rivage ne devienne le secteur allié de Sword Beach en 1944."
+      }
+    ]
   },
- {
+  {
     id: "benouville_pegasus_bridge",
     name: "Bénouville - Pegasus Bridge",
     country: "France",
@@ -2164,6 +2200,12 @@ const SPOTS_2 = [
     lat: 49.242332,
     lng: -0.273935,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNYr1V1dfwoTR4Kea3DMnCa3VuVOSf8_W6IkWwgGMXx3ol0iPrMoNCu52nqaorKPR4q8BqykZi2tmIPGaXynQ3t8ItNyNIgUJRXubr30MeqKkRQ2Az-kvGPgMZ-3vvOr-DlgvXnYP4OErfyynWvZgWAaA=w1800-h1199-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPyKwonol1M9cupRKS3hKQs3_bEQyzOVYBYzZAXLx2YME4Hw_3RkS9bqteudh69KMKZCIyAfyxjxa8gR4qUsYQ6OZPQCnkNQbroloJ2ErGuHUaFwjLnPShdKEfswfczDFJzorA-XsV3VXpkr6VvxY5y1w=w1530-h1021-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Édifié en 1935 pour franchir le canal de Caen à la mer et relier Bénouville à Ranville, cet ouvrage d'art est un pont basculant métallique à bascule roulante de type Scherzer, reconnaissable à son imposant contrepoids aérien et à ses poutres en treillis riveté. Le site entre dans l'histoire universelle dans la nuit du 5 au 6 juin 1944, lors de l'opération aéroportée Deadstick menée sous le commandement du major John Howard. Déposés à bord de trois planeurs Airspeed Horsa à moins de cinquante mètres des défenses allemandes, les hommes de la 6e division aéroportée britannique de la British Army s'emparent de l'ouvrage en une dizaine de minutes seulement. Cet exploit tactique éclair visait à sécuriser le flanc est de la zone de débarquement d'Ouistreham (Sword Beach) et à empêcher tout contre-assaut de blindés ennemis sur les plages normandes. Rebaptisé officiellement Pegasus Bridge en l'honneur de l'insigne ailé des troupes aéroportées britanniques, le pont d'origine a été déposé et préservé en 1994 afin de permettre le recalibrage du canal maritime. Remplacé in situ par un modèle élargi reprenant scrupuleusement la cinématique et l'architecture industrielle d'origine, le tablier historique repose aujourd'hui dans l'enceinte du musée mémorial voisin.",
     visiter: "Rejoindre à pied le tablier pour examiner le système de bascule Scherzer, ses rails crantés et les contrepoids géants dominant la voie d'eau. Longer les rives du canal jusqu'à l'emplacement des points d'atterrissage des trois planeurs Horsa, matérialisés par des stèles commémoratives sur la rive orientale. Traverser ensuite vers le parc du Mémorial Pegasus afin d'approcher le pont original de 1935 et d'observer de près les traces d'impacts d'obus et de mitraille conservées sur son armature rivetée.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
