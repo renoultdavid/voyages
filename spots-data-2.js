@@ -401,27 +401,33 @@ const SPOTS_2 = [
     lat: 47.679664,
     lng: -2.818004,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPldwGCoe72nWfGMc43roDKhRRXfsE-KN0BeHrrX3uX2JPKkisdDLnzARk_qucX4coymdUxzPE8sh0nbbkG-M35asBVQ_63mlSfpTYLdm9LDLdqfxWgcA9gGfksghc9Dik9nO_mTRaQQSA2GYY5D1JAmw=w1800-h1201-s-no-gm?authuser=0",
-    gallery: [
+    description: "Édifiée à la fin du XVe siècle au village de Béléan, à la lisière des terroirs de Ploeren et de Vannes, la chapelle Notre-Dame de Bethléem constitue un remarquable témoignage du gothique flamboyant breton rural. Fondée sous le patronage des seigneurs locaux et des ordres hospitaliers, elle adopte un plan rectangulaire sobre orienté est-ouest, appareillé en moellons de granite et de schiste avec un chaînage soigné en pierre de taille.",
+    visiter: "Observer depuis le placître herbeux le chevet plat ajouré d'une baie flamboyante à réseau trilobé et le clocheton de granite couronnant le pignon occidental.",
+    link: "",
+    sections: [
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczOgStuLQvjo51WEvYcE_iPA1ddB2Xz3nqDaEUGitYbzEDtnz5-2bBvtSJDiQ6D1HFaY5jP7l6IzUstG0CmNrv_2N54bw_Tn0ZnZjW5p9Ga_MvDnWjpLOlscsgOT1Ag48h53Q12n1iwqeWR6NLNghr-a5w=w1800-h1201-s-no-gm?authuser=0",
-        caption: "vue extérieure de la chapelle"
+        title: "Architecture extérieure et placître",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOgStuLQvjo51WEvYcE_iPA1ddB2Xz3nqDaEUGitYbzEDtnz5-2bBvtSJDiQ6D1HFaY5jP7l6IzUstG0CmNrv_2N54bw_Tn0ZnZjW5p9Ga_MvDnWjpLOlscsgOT1Ag48h53Q12n1iwqeWR6NLNghr-a5w=w1800-h1201-s-no-gm?authuser=0"
+        ],
+        text: "Implantée au cœur d'un placître herbeux typique des sanctuaires ruraux bretons, la chapelle présente un chevet plat ajouré d'une baie flamboyante à réseau trilobé. Le pignon occidental s'achève par un élégant clocheton en granite ajouré qui rythme la silhouette de l'édifice."
       },
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczOHrZwQ00WQtqDOJEvlKXk7eFgRhiivKcKdTcmdqim1MapOk2sgZJkrBqdwhDlu_i7wT602ff8EzxddMnn85kVGCg3N2HaRJGAs3e3-VEuFrAYDiC0vCTOHrErSt1f2k6VQU1UwmCEncLog6ynxpr-SqA=w1611-h2416-s-no-gm?authuser=0",
-        caption: "porte principale"
+        title: "Façade occidentale et portail gothique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOb1JKTcL8o3gsldcB3q__0ZZKX4yU1wlHffDjc3FEfLoPMvctIasKDPfrN9qG0ujx-Skhzz2Msq8EQ8UC38se1-qafjm2SUpY1Mq8MsIMqTrF2rlp6QDL4adgrQ4LtoOaV1rJdf8IiUOrBiz_6cKrRtw=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOHrZwQ00WQtqDOJEvlKXk7eFgRhiivKcKdTcmdqim1MapOk2sgZJkrBqdwhDlu_i7wT602ff8EzxddMnn85kVGCg3N2HaRJGAs3e3-VEuFrAYDiC0vCTOHrErSt1f2k6VQU1UwmCEncLog6ynxpr-SqA=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "L'entrée se distingue par son portail en anse de panier surmonté d'une accolade à crosses végétales sculptées et pinacles effilés. La modénature flamboyante s'exprime avec une vigueur remarquable dans ce granite beige rigoureusement appareillé."
       },
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczOb1JKTcL8o3gsldcB3q__0ZZKX4yU1wlHffDjc3FEfLoPMvctIasKDPfrN9qG0ujx-Skhzz2Msq8EQ8UC38se1-qafjm2SUpY1Mq8MsIMqTrF2rlp6QDL4adgrQ4LtoOaV1rJdf8IiUOrBiz_6cKrRtw=w1611-h2416-s-no-gm?authuser=0",
-        caption: "façade principale"
-      },
-      {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczPIKcvXzXm-NKrFqkQmJyYhrSOVEcXO5vGyDNudBqEla8Udfzoy-NzC4GDCmaGxwaQMTtZGAdLwOptPjqqtifwNlm0GOH7-Kwu8VUz06HUJbnK6vhRuV__CotVh7Hdn_s233PBP8jckuQIid5WGtLBIag=w1800-h1201-s-no-gm?authuser=0",
-        caption: "poutre avec têtes de crocodiles"
+        title: "La charpente aux engoulants et monstres marins",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPIKcvXzXm-NKrFqkQmJyYhrSOVEcXO5vGyDNudBqEla8Udfzoy-NzC4GDCmaGxwaQMTtZGAdLwOptPjqqtifwNlm0GOH7-Kwu8VUz06HUJbnK6vhRuV__CotVh7Hdn_s233PBP8jckuQIid5WGtLBIag=w1800-h1201-s-no-gm?authuser=0"
+        ],
+        text: "L'intérêt patrimonial majeur de l'intérieur réside dans sa charpente lambrissée en carène de vaisseau renversée. Les entraits et sablières de chêne sont ornés d'engoulants spectaculaires figurant des têtes de monstres marins et de crocodiles dévorant les poutres, entourés de scènes cynégétiques et de masques grotesques d'époque ducale."
       }
-    ],
-    description: "Édifiée à la fin du XVe siècle au village de Béléan, à la lisière des terroirs de Ploeren et de Vannes, la chapelle Notre-Dame de Bethléem constitue un remarquable témoignage du gothique flamboyant breton rural. Fondée sous le patronage des seigneurs locaux et des ordres hospitaliers, elle adopte un plan rectangulaire sobre orienté est-ouest, appareillé en moellons de granite et de schiste avec un chaînage soigné en pierre de taille. L'édifice se singularise par sa façade occidentale percée d'un portail en anse de panier surmonté d'une accolade à fleuron et pinacles effilés, typique de la modénature flamboyante du pays vannetais. L'intérêt patrimonial majeur de l'intérieur réside dans sa remarquable charpente lambrissée en carène de vaisseau renversée, dont les sablières et les entraits sculptés présentent des abouts en forme d'engoulants figurant des gueules de monstres marins et de crocodiles dévorant les poutres. Ce riche bestiaire sculpté dans le chêne comprend également des scènes cynégétiques, des angelots porteurs d'écussons et des masques grotesques d'une grande expressivité populaire. Le sanctuaire abrite une Vierge à l'Enfant dite Notre-Dame de Bethléem en bois polychrome ainsi qu'un retable de facture classique, témoins de la ferveur des pardons ruraux qui s'y perpétuent depuis l'époque ducale.",
-    visiter: "Observer depuis le placître herbeux le chevet plat ajouré d'une baie flamboyante à réseau trilobé et le clocheton de granite couronnant le pignon occidental. Détailler l'accolade sculptée du portail principal ornée de crosses végétales avant de franchir le seuil pour lever les yeux vers la charpente de chêne. Examiner attentivement les entraits pour repérer les fameux engoulants sculptés en têtes de crocodiles avalant les poutres ainsi que la frise narrative ornant les sablières.",
-    link: ""
+    ]
   },
   {
     id: "plescop_chapelle_notre_dame_de_lezurgan",
