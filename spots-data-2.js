@@ -492,31 +492,32 @@ const SPOTS_2 = [
     lat: 47.679664,
     lng: -2.818004,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPldwGCoe72nWfGMc43roDKhRRXfsE-KN0BeHrrX3uX2JPKkisdDLnzARk_qucX4coymdUxzPE8sh0nbbkG-M35asBVQ_63mlSfpTYLdm9LDLdqfxWgcA9gGfksghc9Dik9nO_mTRaQQSA2GYY5D1JAmw=w1800-h1201-s-no-gm?authuser=0",
-    description: "Édifiée à la fin du XVe siècle au village de Béléan, à la lisière des terroirs de Ploeren et de Vannes, la chapelle Notre-Dame de Bethléem constitue un remarquable témoignage du gothique flamboyant breton rural. Fondée sous le patronage des seigneurs locaux et des ordres hospitaliers, elle adopte un plan rectangulaire sobre orienté est-ouest, appareillé en moellons de granite et de schiste avec un chaînage soigné en pierre de taille.",
+    description: "Au cœur de la campagne morbihannaise sur la commune de Ploeren, la chapelle Notre-Dame de Béléan, également désignée sous le vocable de Notre-Dame de Bethléem d'après la forme bretonne du toponyme, s'impose comme un ravissant témoin de l'art gothique flamboyant breton. La fondation du sanctuaire remonte au XVe siècle sous l'impulsion des seigneurs locaux et de la ferveur populaire liée aux pèlerinages du pays vannetais. Édifié en moellons de granit et de schiste avec des chaînages d'angle soignés, ce petit sanctuaire rural adopte un plan rectangulaire sobre orienté est-ouest. La façade occidentale est percée d'un portail en anse de panier surmonté d'une accolade à crosses végétales et pinacles effilés, tandis que le pignon supporte un élégant clocheton ajouré. Le chevet plat s'ouvre par une maîtresse-vitre à réseau flamboyant polylobé qui diffuse une lumière douce sur le chœur. À l'intérieur, l'édifice conserve un ensemble exceptionnel de sablières et d'entraits à engoulants sculptés dans le chêne d'origine, figurant des monstres marins, des animaux fantastiques et des masques grotesques. Sauvegardée par les habitants et protégée au titre des Monuments historiques dès 1925, la chapelle témoigne avec authenticité de la vitalité des dévotions paysannes et du savoir-faire des artisans bretons de la fin du Moyen Âge.",
     visiter: "Observer depuis le placître herbeux le chevet plat ajouré d'une baie flamboyante à réseau trilobé et le clocheton de granite couronnant le pignon occidental.",
     link: "",
     sections: [
       {
-        title: "Architecture extérieure et placître",
+        title: "Architecture extérieure et chevet plat",
         photos: [
-          "https://lh3.googleusercontent.com/pw/AP1GczOgStuLQvjo51WEvYcE_iPA1ddB2Xz3nqDaEUGitYbzEDtnz5-2bBvtSJDiQ6D1HFaY5jP7l6IzUstG0CmNrv_2N54bw_Tn0ZnZjW5p9Ga_MvDnWjpLOlscsgOT1Ag48h53Q12n1iwqeWR6NLNghr-a5w=w1800-h1201-s-no-gm?authuser=0"
+          "https://lh3.googleusercontent.com/pw/AP1GczOgStuLQvjo51WEvYcE_iPA1ddB2Xz3nqDaEUGitYbzEDtnz5-2bBvtSJDiQ6D1HFaY5jP7l6IzUstG0CmNrv_2N54bw_Tn0ZnZjW5p9Ga_MvDnWjpLOlscsgOT1Ag48h53Q12n1iwqeWR6NLNghr-a5w=w2239-h1492-s-no-gm?authuser=0"
         ],
-        text: "Implantée au cœur d'un placître herbeux typique des sanctuaires ruraux bretons, la chapelle présente un chevet plat ajouré d'une baie flamboyante à réseau trilobé. Le pignon occidental s'achève par un élégant clocheton en granite ajouré qui rythme la silhouette de l'édifice."
+        text: "L'édifice rectangulaire appareillé en moellons de granit et pierre de taille présente une sobre silhouette champêtre couronnée d'un clocheton ajouré à haute flèche polygonale dressé sur le pignon occidental. La façade s'ouvre par un élégant portail en anse de panier surmonté d'une accolade fleuronnée à choux frisés et encadré de pinacles prismatiques typiques de la fin du Moyen Âge. Le chevet plat est percé d'une haute baie ogivale dont les remplages dessinent des courbes et contre-courbes d'une grande finesse pour diffuser la clarté vers l'autel."
       },
       {
-        title: "Façade occidentale et portail gothique",
+        title: "Portail flamboyant et dévotions campagnardes",
         photos: [
-          "https://lh3.googleusercontent.com/pw/AP1GczOb1JKTcL8o3gsldcB3q__0ZZKX4yU1wlHffDjc3FEfLoPMvctIasKDPfrN9qG0ujx-Skhzz2Msq8EQ8UC38se1-qafjm2SUpY1Mq8MsIMqTrF2rlp6QDL4adgrQ4LtoOaV1rJdf8IiUOrBiz_6cKrRtw=w1611-h2416-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOHrZwQ00WQtqDOJEvlKXk7eFgRhiivKcKdTcmdqim1MapOk2sgZJkrBqdwhDlu_i7wT602ff8EzxddMnn85kVGCg3N2HaRJGAs3e3-VEuFrAYDiC0vCTOHrErSt1f2k6VQU1UwmCEncLog6ynxpr-SqA=w1611-h2416-s-no-gm?authuser=0"
+          "https://lh3.googleusercontent.com/pw/AP1GczOHrZwQ00WQtqDOJEvlKXk7eFgRhiivKcKdTcmdqim1MapOk2sgZJkrBqdwhDlu_i7wT602ff8EzxddMnn85kVGCg3N2HaRJGAs3e3-VEuFrAYDiC0vCTOHrErSt1f2k6VQU1UwmCEncLog6ynxpr-SqA=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOb1JKTcL8o3gsldcB3q__0ZZKX4yU1wlHffDjc3FEfLoPMvctIasKDPfrN9qG0ujx-Skhzz2Msq8EQ8UC38se1-qafjm2SUpY1Mq8MsIMqTrF2rlp6QDL4adgrQ4LtoOaV1rJdf8IiUOrBiz_6cKrRtw=w1611-h2416-s-no-gm?authuser=0"
         ],
-        text: "L'entrée se distingue par son portail en anse de panier surmonté d'une accolade à crosses végétales sculptées et pinacles effilés. La modénature flamboyante s'exprime avec une vigueur remarquable dans ce granite beige rigoureusement appareillé."
+        text: "La paroisse s'y rassemblait traditionnellement lors d'un pardon annuel très suivi qui perpétuait les dévotions mariales et paysannes des environs de Vannes. Les campagnes de restauration menées au XXe siècle ont permis de consolider la toiture d'ardoise et de préserver l'authenticité des boiseries anciennes miraculeusement parvenues jusqu'à nous. Ce joyau de l'art religieux campagnard, protégé au titre des Monuments historiques dès 1925, incarne avec poésie la foi populaire et le savoir-faire des maîtres charpentiers bretons."
       },
       {
-        title: "La charpente aux engoulants et monstres marins",
+        title: "Vaisseau lambrissé et sablières aux engoulants",
         photos: [
-          "https://lh3.googleusercontent.com/pw/AP1GczPIKcvXzXm-NKrFqkQmJyYhrSOVEcXO5vGyDNudBqEla8Udfzoy-NzC4GDCmaGxwaQMTtZGAdLwOptPjqqtifwNlm0GOH7-Kwu8VUz06HUJbnK6vhRuV__CotVh7Hdn_s233PBP8jckuQIid5WGtLBIag=w1800-h1201-s-no-gm?authuser=0"
+          "https://lh3.googleusercontent.com/pw/AP1GczPldwGCoe72nWfGMc43roDKhRRXfsE-KN0BeHrrX3uX2JPKkisdDLnzARk_qucX4coymdUxzPE8sh0nbbkG-M35asBVQ_63mlSfpTYLdm9LDLdqfxWgcA9gGfksghc9Dik9nO_mTRaQQSA2GYY5D1JAmw=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPIKcvXzXm-NKrFqkQmJyYhrSOVEcXO5vGyDNudBqEla8Udfzoy-NzC4GDCmaGxwaQMTtZGAdLwOptPjqqtifwNlm0GOH7-Kwu8VUz06HUJbnK6vhRuV__CotVh7Hdn_s233PBP8jckuQIid5WGtLBIag=w1822-h1215-s-no-gm?authuser=0"
         ],
-        text: "L'intérêt patrimonial majeur de l'intérieur réside dans sa charpente lambrissée en carène de vaisseau renversée. Les entraits et sablières de chêne sont ornés d'engoulants spectaculaires figurant des têtes de monstres marins et de crocodiles dévorant les poutres, entourés de scènes cynégétiques et de masques grotesques d'époque ducale."
+        text: "Le vaisseau unique couvert d'un lambris en berceau brisé abrite une remarquable charpente en chêne dont les sablières et entraits à engoulants révèlent un foisonnant décor sculpté de figures grotesques, d'animaux fantastiques et de motifs végétaux. Le sanctuaire conserve une statuaire ancienne particulièrement émouvante, dominée par une Vierge à l'Enfant médiévale vénérée par les fidèles venus implorer la fécondité et la protection des nouveau-nés."
       }
     ]
   },
