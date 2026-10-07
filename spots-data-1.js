@@ -110,10 +110,25 @@ const travelSpots = [
     era_label: "Édifice Paroissial aux Fondations Médiévales & Reconstructions Classiques",
     century: "XVe-XVIIe siècle",
     category: "religieux",
+    counts: {},
     lat: 48.9168,
     lng: -0.4824,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMV5YGB-Ca7YMwNFalXEOSI2lrdoC6aL-skszBBLiUx4G0xw3xT0tk_v8FMTP5paHFjk7a7RRoPxw0BLOt_lHl-loilaxV7dFORJEWtreSwU7-z7Ry-SXhKH-NdUW0F0lJxBLriK60fGqZcxJ1Bnx4lZw=w1379-h919-s-no-gm?authuser=0",
-    description: "Érigée sur les hauteurs du bourg au cœur de la Suisse Normande, l'église Saint-Pierre de Clécy témoigne de l'histoire paroissiale mouvementée de cette vallée encaissée de l'Orne. Si ses origines remontent au Moyen Âge, l'édifice actuel résulte de remaniements et de reconstructions successives conduits principalement entre le XVe et le XVIIe siècle, combinant le schiste local sombre et le calcaire clair. Sa silhouette trapue et robuste est dominée par un clocher en bâtière typique de l'architecture normande, couronné de solides contreforts qui ancrent le sanctuaire dans la déclivité du terrain. L'église veille sur un enclos paroissial intime, bordé d'anciennes sépultures et de maisons de pierre, formant le point d'ancrage historique autour duquel le village a progressivement étagé ses quartiers.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNe4Nw5rUkrsne5qE1gmbwzxwHn72kQCVAp-iVvy2dtz3ZL0DC-MqoiR8Km8uqHMBKIOcOs5cmHDGrTOx-mPRJ6V4Ygf-HtQAZy8_rOLcQ_1mlAf_lGwd1ywOUo4pfqjP99Z-s3kHrX2Ds8kFapzYIRKw=w2088-h1391-s-no-gm?authuser=0",
+        caption: "Érigée sur une terrasse surélevée au cœur du bourg de Clécy, l'église Saint-Pierre dresse sa haute silhouette de moellons de grès armoricain et de calcaire taillé au milieu de l'ancien enclos paroissial. L'édifice plonge ses fondations dans le Moyen Âge central, conservant dans ses maçonneries basses et les contreforts de son chœur des assises remontant aux XIIe et XVe siècles. Le sanctuaire a connu une transformation profonde entre le XVIIe et le XIXe siècle, période au cours de laquelle la nef a été réaménagée pour accueillir l'accroissement démographique de la communauté rurale et des tisserands du bocage. La façade occidentale sobre et austère est dominée par un puissant clocher-porche de plan carré, percé de baies géminées abritant les cloches et surmonté d'une imposante flèche octogonale charpentée entièrement recouverte d'ardoises naturelles."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNlyBVa_0DqnpDg6P9XajBD2oKpmzbN97zX3Kk1JozZZH40UINNYWsoagLUJBRUmy3hRu8qFMPb68SL_K0F4Uz1kbdjWV8cAF97Y7kCti6wFawPbMtQOtKg6JO4XEDXzYurcCvwb_jBtrXTwFXQZ-ymvw=w1921-h2880-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPtdMx2iQ2YzPXkbcfVLE0l4THs8108rNn0ZJpZjzRQUY1bSfu62XEhGp75kD1misAlSX-KCBTSgij-rcc9Uxi-Z-LoK4xLtMJwD3ZaC3jFNzyU2hyamRj5DY4zG4H_t1g0vpvQLtzKDY74V_LhF7KUog=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "L'intérieur révèle un volume accueillant articulé en un large vaisseau central voûté d'ogives en plâtre et lattis surbaissées, flanqué de collatéraux aux arcades en plein cintre et en anse de panier retombant sur des piles circulaires sobres. Le chœur à chevet plat abrite un retable en bois sculpté et doré d'inspiration baroque classique du XVIIIe siècle, encadré de colonnes corinthiennes et surmonté d'un fronton triangulaire entouré d'anges thuriféraires. Les baies des bas-côtés et du chœur sont garnies de verrières historiées du XIXe siècle, œuvres d'ateliers de maîtres-verriers normands retraçant des scènes de la vie du prince des apôtres saint Pierre et de sainte Barbe, patronne invoquée contre la foudre. Les fidèles et les visiteurs y découvrent également une statuaire de dévotion polychrome remarquable, notamment une Vierge à l'Enfant d'époque moderne et un Christ en croix en bois patiné par les siècles. Les fonts baptismaux en calcaire de Caen soigneusement sculptés témoignent de la finesse stéréotomique des artisans de la basse vallée de l'Orne. Sauvegardée des destructions massives des combats de la poche de Falaise en août 1944, l'église demeure le cœur spirituel et mémoriel de la Suisse Normande.",
     visiter: "Pénétrer dans la nef pour apprécier la sobriété architecturale de la voûte en berceau lambrissée et la texture des appareils de moellons mis en valeur par la lumière filtrant à travers les baies cintrées. Découvrir le mobilier liturgique ancien, notamment les retables en bois polychrome, les statues de saints locaux et les fonts baptismaux traditionnels sculptés dans la pierre calcaire. Prendre le temps de faire le tour extérieur du chevet pour observer les différentes phases de maçonnerie et profiter, depuis le parvis surélevé, d'échappées visuelles sur les toitures d'ardoise du bourg et les crêtes rocheuses qui ceinturent la vallée.",
     link: "https://photos.google.com/u/0/share/AF1QipOyzqcLEzCqqTsR3lgFARIf7XU_HxNIQU2FwvbH6OOhoZAajN-gfNy3Ub5LdloPLQ?hl=fr_CA&key=T3FhQ2U0aUd6WkpHdmNMNjFzTThFV2RNbUo3czl3"
   },
@@ -291,7 +306,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Corse-du-Sud",
+    department: "Corse-du-Sud (2A)",
     subdiv: "Bonifacio",
     altitude: 1,
     is_island: true,
@@ -301,10 +316,28 @@ const travelSpots = [
     era_label: "Crique sauvage de sable fin et d'eaux cristallines du littoral des Bruzzi",
     century: "",
     category: "plage",
-    counts: { rando: 1 },
+    counts: {},
     lat: 41.395504,
     lng: 9.105942,
     image: "https://lh3.googleusercontent.com/pw/AP1GczN0ibkcCAWR8Fjfozy-zKX6gUUZ-QYgE4JEOuMTZvXCLTG-eJpx4UfsyAwnkAeBY9QuiIifPdT7D450qRnHF-nnOWWmsBGxrfA_UyJqOaug9KybVE8-yDNwVMojR97ehVBQpH2MmcP1FiMb9gI47Y1g-w=w1225-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNLRuVzb-lLRoF07vzOcLN9PO69Sf8buAs-w3vhZuRbRH3HCZ3vmQyaN6ZGsUXvxweephHRHw9gUDFAAz_RS4Kzf78Tb8Ty0mBO-wBw_mWJJrucXm9Yjoly-DXpPlg-VHuZdEHsAkjYdcoxMcdSbl-DxQ=w2088-h1566-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNjdLyV_nNrZWueC5rYaBhtYMr2oqFEQfFrUOXL0bwfGbn1lzVAvMM012CatrGtsoHK4VMy9tMjkpdUGH8p_VlOLBdQhZxp3KSi7EUkeZ8ssx5xiJ-SKRptL_IgkBr-qbzhWUoF5tSdtzGxVkRTKOj8Mw=w2088-h1566-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPw4fycCC3hz7AmOjv6S18YGqCvfWVXpFZDinmjNrBmOl5tOhRVdB80ZFqqwsexSjkmEiKz0X9dgs_ZK7gKjkvS_cZmuoROhamjHtgUfYadbLXNzssxMqdX7WMv3dIscddI2wnLKCeiEjS5WC_v3CrMtg=w2088-h1566-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNX04iWWqTnXeop9jMDPDSwubLS_5D7j1WFqPUfaHheChqprAKFq53EDvUFDOl64tYSnawFJpi0wOOpPvloF3IctIHZzdlY58hzyLxcLe3rq5G9_3G6ULthpoCCk5fq0mIwcFkebNac6uG5C2UW0vpozA=w2088-h1566-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Nichée dans l'écrin granitique et préservé du littoral occidental de Bonifacio, en bordure immédiate de la réserve naturelle des bouches de Bonifacio, la Cala Genovese est une anse marine d'une beauté sauvage saisissante. Accessible uniquement à pied ou par la mer, cette crique abritée dévoile un croissant de sable fin et doré baigné par des eaux d'une limpidité turquoise absolue. Les blocs de granite rose et gris, érodés en taffoni sculpturaux par les embruns et les vents d'ouest, encadrent ce havre littoral où s'échouent des banquettes de posidonies séchées, garantes de l'équilibre biologique marin. Tapissée en arrière-plan d'un maquis ras et odorant dominé par les genévriers de Phénicie, le lentisque et les immortelles, la crique tire son nom des marins génois qui y trouvaient autrefois un mouillage providentiel lors des fortes tempêtes balayant le détroit.",
     visiter: "Rejoindre l'anse en suivant le sentier du littoral des Bruzzi au départ du hameau de Giannuccio ou de Chevanu. Descendre avec précaution jusqu'au rivage pour goûter au calme souverain d'une grève totalement préservée de toute construction. S'équiper d'un masque et d'un tuba pour explorer les failles sous-marines et les herbiers de posidonie qui abritent sars, dorades et girelles dans une eau translucide. Prendre le temps d'admirer les formes tourmentées des rochers de granite sculptés avant de poursuivre la randonnée côtière vers les îlots des Bruzzi.",
     link: "https://photos.google.com/u/0/share/AF1QipMJe_pe2dMQyXerfFfR1mH4AuI7hX7MGfXOPtbNZyZOFX6DpYMV_iOUZTWdHrjmnA?hl=fr_CA&key=Vy1SVDRUY1JkVTRvak1tczZHOF8xd0tMWGxiNHh3"
@@ -366,7 +399,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Corse-du-Sud",
+    department: "Corse-du-Sud (2A)",
     subdiv: "Monacia-d'Aullène",
     altitude: 15,
     is_island: true,
@@ -380,6 +413,12 @@ const travelSpots = [
     lat: 41.475315,
     lng: 8.984284,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOOMK2ta2SqJlJVx0TKbLrDt_pogkjzghDYFAupWKpLFJ8gNx2gezeLs8FX4X2zPXznmVE9lNJ-N6Hq_rd1dx-g-Rqg4JSrfiYl9QLnKghME8K49g5RjTko4etl-Zd7gkUYLWjzasGODuM1BuFtGOdoew=w1560-h868-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOi5yU-lqJpQgcQHwtM2cdAPbJJCj98AtduylYSH0lu5TC7O4JPg1cIcFiYWQJPKEd5QQ7rbUTlTLZn4l9iCQK4qwn954Gpk9hACP2llsQdx_RsO0zepboGO4F_PF1KpFfL4Q3NA2FhZiyi0lHs96dfyQ=w2088-h1566-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Dressant sa fière silhouette de pierre sur la pointe rocheuse d'Olmeto fermant l'accès maritime au golfe de Figari, la Torra d'Ulmetu est un précieux vestige du système de défense littoral édifié sous l'administration génoise. Bâtie à la fin du XVIe siècle au sein du réseau d'alerte côtière destiné à prémunir les populations insulaires contre les raids des corsaires barbaresques, cette tour ronde de guet en maçonnerie de granite local reposait sur une assise rocheuse inexpugnable. Bien qu'aujourd'hui partiellement ruinée par le temps et les tempêtes marines, elle conserve l'élévation imposante de son soubassement taluté et des pans de sa chambre de garde supérieure. En liaison optique directe avec la tour de Roccapina au nord et celle de Caldarello à l'est, elle permettait de donner l'alerte à l'intérieur des terres en allumant des feux sommitaux dès l'apparition d'embarcations suspectes.",
     visiter: "Rejoindre la tour en empruntant le sentier du littoral qui sinue au milieu des buissons de lentisques et des affleurements de granite sculptés par l'érosion. Monter jusqu'au pied du promontoire pour apprécier la robustesse de l'appareil de moellons hourdés à la chaux défiant les éléments depuis plus de quatre siècles. Faire le tour de la terrasse naturelle pour admirer une vue panoramique grandiose sur le déferlement des vagues contre les récifs, l'immensité du golfe de Figari et les crêtes montagneuses de la Cagna dominées par l'Omu di Cagna se profilant dans l'arrière-pays.",
     link: "https://photos.google.com/u/0/share/AF1QipMJe_pe2dMQyXerfFfR1mH4AuI7hX7MGfXOPtbNZyZOFX6DpYMV_iOUZTWdHrjmnA?hl=fr_CA&key=Vy1SVDRUY1JkVTRvak1tczZHOF8xd0tMWGxiNHh3"
@@ -516,7 +555,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Occitanie",
-    department: "Hérault",
+    department: "Hérault (34)",
     subdiv: "Montpellier",
     altitude: 35,
     is_island: false,
@@ -526,10 +565,16 @@ const travelSpots = [
     era_label: "Cœur battant de la cité surnommé l'Œuf bordé par l'Opéra Comédie et les façades haussmanniennes",
     century: "XVIIIe siècle",
     category: "star",
-    counts: { place: 1 },
+    counts: {},
     lat: 43.608725,
     lng: 3.879805,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNkYt0n-CSRdFPzb7hb6RMQ5mHNtMAgC6TWK6HTgQsKaKIT6qkY4mAX4p79Bx-BsL-_NMu15brz7x4-Tho3bD9nEd3yt00IifY2IkWuoQZFy8tFddYBm--HUyBAOYHQogc_WwNK95e6WmXbePeTrSjmtA=w1890-h1260-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMmwXk38MsyMQcyHsKdmG_yBkVf0WprxW0Yk9maNoEUdnkmHxs7VtaIWQfOsPVI47DQqApUyxKpvFwWhOi5lSVzqtP9vfV3WT-6LwEbmvQ3N3a3p_3_sU_hkbUo2uu5Oe7qcB_qENmTTwrFmFiQQh0Iug=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Vaste esplanade piétonne de forme ovoïde qui lui valut son célèbre surnom d'« Œuf », la place de la Comédie est le cœur palpitant, théâtral et monumental de Montpellier depuis le milieu du XVIIIe siècle. Aménagée sur l'ancien tracé des fossés des remparts médiévaux pour relier l'Écusson historique aux faubourgs modernes, elle tire son nom du prestigieux Opéra Comédie qui en ferme la perspective méridionale, un somptueux théâtre à l'italienne reconstruit à la fin du XIXe siècle par l'architecte Joseph-Marie Cassien-Bernard dans l'esprit de l'Opéra Garnier parisien. Au centre de la place trône la fontaine monumentale des Trois Grâces, sculptée en marbre blanc en 1773 par Étienne d'Antoine pour incarner les déesses antiques Aglaé, Euphrosyne et Thalie, symboles tutélaires de beauté et de concorde. Bordée d'immeubles cossus de style haussmannien coiffés de dômes en ardoise et d'élégantes terrasses de cafés, la place est traversée par les rames colorées du tramway moderne dessiné par Christian Lacroix, offrant un spectacle permanent d'animation urbaine méridionale.",
     visiter: "S'arrêter au pied de la fontaine des Trois Grâces pour contempler le galbe gracieux des statues en marbre émergeant des jets d'eau, avant de lever les yeux vers le dôme et les mascarons sculptés de l'immeuble du Scaphandrier qui fait l'angle de la rue de la Loge. Admirer la façade monumentale de l'Opéra Comédie rythmée par ses colonnes corinthiennes et ses statues allégoriques de la Tragédie et de la Comédie. S'installer en terrasse pour savourer l'effervescence de la place baignée de soleil et regarder glisser les rames de tramway aux livrées d'hirondelles et de fleurs, avant de s'engager vers l'enfilade ombragée de l'Esplanade Charles-de-Gaulle.",
     link: "https://photos.google.com/share/AF1QipM8bJp1NFUMbKvmfI87OoWIag5_0C93AlRQvDelco5yyIGS4aE29OZLQ7mV4F7Qwg?key=QUxVZVE5REZxS21hWVJvRjhWcy1nUDU5c3BDSUxR"
@@ -616,7 +661,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Occitanie",
-    department: "Hérault",
+    department: "Hérault (34)",
     subdiv: "Montpellier",
     altitude: 32,
     is_island: false,
@@ -630,6 +675,12 @@ const travelSpots = [
     lat: 43.613008,
     lng: 3.873466,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPoE5tZtfxLXSgJJiTPcJQgO4gNVP9lk1sSvqtm3FOUjyiKeWEwVbOAci64Zno1_xrJnVuy2pWidnGy_zkLtX2G9y38etUMud4n8sT5DaYL0rynXaApG1SqxrlRVqEfEbQ1kI2wbwMLEr0Fbst8iA2N9Q=w1890-h1260-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNO9njnb0Fw7uZLQiDiv5niuYm5er3hvso5j1itPyLPfhWm3AKtWQwoPo5u1PQolNUuRLhxvKv_LtD57MNbOKD5XLbqd68wFzlG5u67SjxFBiAPMX2mpxRuDutXWIa0RwNZeI4xrWOEghBickaQcIYNLA=w2088-h1391-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Haut lieu de l'histoire scientifique mondiale adossé directement à la cathédrale Saint-Pierre, la faculté de médecine de Montpellier est la plus ancienne faculté de médecine en exercice continu du monde occidental, institutionnalisée en 1220 par la bulle du cardinal Conrad d'Urach sous l'autorité du pape Honorius III. Installée depuis la Révolution française dans les somptueux bâtiments de l'ancien monastère bénédictin Saint-Benoît fondé au XIVe siècle par le pape Urbain V, elle a formé au cours des siècles d'illustres esprits scientifiques et humanistes tels que François Rabelais (qui y passa son baccalauréat de médecine en 1530), Nostradamus, Guillaume Rondelet, Théophraste Renaudot et Paul-Joseph Barthez. L'édifice s'articule autour d'une cour d'honneur d'une grande noblesse classique ornée des bustes des grands médecins de l'école montpelliéraine, de salles d'actes lambrissées, d'une bibliothèque patrimoniale renfermant des centaines de manuscrits médiévaux précieux ainsi que du célèbre Conservatoire d'anatomie abritant des milliers de cires anatomiques et de pièces de dissection historiques.",
     visiter: "Franchir le porche monumental donnant sur la rue de l'École-de-Médecine pour pénétrer dans la cour d'honneur et contempler les statues en toge de François Lapeyronie et Paul-Joseph Barthez gardant l'entrée solennelle. Observer les ailes classiques encadrant la cour et le dialogue architectural avec les contreforts massifs de la cathédrale attenante. Pousser les portes lors des visites guidées patrimoniales pour admirer la salle des Actes où les étudiants soutiennent toujours leurs thèses sous les portraits d'illustres professeurs du XVIIe siècle, avant de découvrir les collections fascinantes du musée d'Anatomie et de ressortir vers les grilles du Jardin des Plantes tout proche, fondé en 1593 par Henri IV pour l'étude des simples médicinales.",
     link: "https://photos.google.com/share/AF1QipM8bJp1NFUMbKvmfI87OoWIag5_0C93AlRQvDelco5yyIGS4aE29OZLQ7mV4F7Qwg?key=QUxVZVE5REZxS21hWVJvRjhWcy1nUDU5c3BDSUxR"
