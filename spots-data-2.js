@@ -1744,6 +1744,16 @@ const SPOTS_2 = [
     lat: 49.187161,
     lng: -0.363092,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPwMeOlN2hghhfFMthOB7kcVP7h-ovzWNgjBNXqWJA_T_C3c02-uja0nC7S7upJA-KPBoOwprIpobgiHMAhTOHDJmJ14nU0tBYZQZyrrD6V-QBwP2nWKwvxEsdhHb3Ze-s8VERAdFrT5g3qbaYOPhjAVw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM5uq9UToQRQvA0DgnXi60zRFbrJd4zmGnAIN-iLPxqEZk1tF-3PTmZ6gKjUmnBtyRPQch0dbBl9s-cXdQNwi5nVUbLUWWyKOtSUHDkOsO2AEa0R2F21xmdK-AUfGeeURnZweCyI3fD85wQXn6JSki0ug=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNZ7Sm8akuuOfuqv7avsCHPu-tcEgW6_86yY66LieRTe6cvl6Lp0-vt17p-nVRsSG8T1B2OOXfg99uvmGOBxKUOq7iOsrjYukLYvUE4N7MpfhqTESCyzD_iemQTnOXGx8k7LQTvx829kcpac-A-Veg1PQ=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Fondée vers 1060 par Guillaume le Conquérant sur un promontoire calcaire dominant la vallée de l'Orne, cette vaste forteresse s'étend sur plus de cinq hectares, ce qui en fait l'une des plus grandes enceintes médiévales fortifiées d'Europe. Conçu à l'origine pour affirmer l'autorité ducale sur la plaine de Caen, le site est profondément remanié au fil des siècles, notamment par Henri Ier Beauclerc qui y fait bâtir un imposant donjon roman carré et la célèbre salle de l'Échiquier de Normandie, remarquable témoin de l'architecture civile anglo-normande du XIIe siècle. Sous la domination des rois de France, Philippe Auguste ordonne le creusement de fossés monumentaux et la construction de la chemise du donjon, avant que la guerre de Cent Ans n'entraîne la modernisation des défenses, matérialisée par la porte Saint-Pierre flanquée de puissantes tours à mâchicoulis et la barbacane de la porte des Champs. Transformé en caserne militaire après la Révolution, le château subit de lourds bombardements lors des combats acharnés de l'été 1944. Les destructions des casernements modernes ont toutefois permis de dégager la cour intérieure et de mettre au jour les structures médiévales originelles. Aujourd'hui restauré, le site forme le cœur patrimonial de la ville, abritant dans son écrin de remparts en pierre de Caen le musée des Beaux-Arts et le musée de Normandie.",
     visiter: "Gravir les escaliers menant au chemin de ronde des remparts pour profiter d'un panorama circulaire exceptionnel sur les toits de la ville et les flèches des églises médiévales. Franchir la porte fortifiée des Champs avec son châtelet défensif et sa barbacane avant de traverser la vaste cour haute arborée. S'arrêter devant l'austère salle romane de l'Échiquier de Normandie afin d'en observer les baies géminées, puis explorer les vestiges archéologiques consolidés du donjon de Philippe Auguste et les jardins botaniques aménagés au pied des courtines.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
@@ -1794,6 +1804,12 @@ const SPOTS_2 = [
     lat: 49.185939,
     lng: -0.362675,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOHHE63OVvmuEXdd4QNW41abqfQSZPL51EWenOdTyUqLUvG8IDgiubnrfRIGnGsM5mTE5Gg2GVJkzdvaRRGlrzHrBUpi6oPs81zyWT-0YogxxEXQtm44nn3DWW2V9-XLT3ajM61OgmvFQ6LO2hHJBx0rA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPNTZZuziDaUL8vvQamMJbjrziI2ATHOyPIjCin3SdT_GlI0BU0BSriJoDS74MaWWr31Ml5j3bYIahggLc4AKgwOoJusOp3j8c3j_0hFCfnJgBUMfV7aVu7foEuufcWJsD9ND6zM5_ywKph-fH0Tr4sIQ=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Érigée à l'intérieur même de l'enceinte castrale de Guillaume le Conquérant, l'église Saint-Georges assurait sous le duché de Normandie les fonctions de chapelle castrale et de paroisse réservée à la garnison ainsi qu'aux civils résidant dans la haute cour. Mentionnée dès les dernières décennies du XIe siècle, la structure primitive romane a fait l'objet de reconstructions successives et profondes, principalement au cours des XIVe et XVe siècles durant la guerre de Cent Ans. L'édifice actuel, appareillé en pierre calcaire de Caen, illustre la sobriété du gothique normand avec sa nef unique charpentée et son chœur à chevet plat percé de baies lancéolées aux réseaux polylobés délicats. Utilisée comme magasin à poudre puis comme salle de stockage militaire lorsque la forteresse ducale fut reconvertie en caserne au cours des XVIIIe et XIXe siècles, l'église subit d'importantes dégradations intérieures avant d'être sévèrement endommagée par les bombardements de 1944. Restaurée avec soin dans l'après-guerre et désacralisée, elle a été pourvue d'une charpente apparente en berceau évoquant une coque de navire renversée. L'édifice sert désormais d'écrin patrimonial pour l'accueil du musée de Normandie, présentant des expositions temporaires et de grandes maquettes retraçant les métamorphoses topographiques de la forteresse à travers les époques.",
     visiter: "Contempler depuis la pelouse de la cour ducale le profil modeste du chevet plat et les contreforts élancés soutenant les parois calcaires de l'édifice. Pénétrer dans le vaisseau unique pour lever les yeux vers la remarquable charpente en bois formant une voûte lambrissée continue. Détailler les vestiges d'inscriptions et de pierres tombales anciennes enchâssées dans le dallage, ainsi que les panneaux explicatifs et maquettes didactiques retraçant l'évolution médiévale de l'enceinte castrale.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
@@ -1819,6 +1835,20 @@ const SPOTS_2 = [
     lat: 49.185445,
     lng: -0.359451,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNMtcSFT5nTP6cmD-3SjxmKevACIU3vzgmDO-BiFY0lixyb31rq4Mq2BEkQ5hvFrvkgG_KkIMOC8SiyNy8ePFndOI2IRrxswTO4kwblOzI4lDK1jukMaMHFoKlTbIWUWY0ZwkhUYqtzvqlJWqnqJr7CRg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNZOn5NedbFQzYaPIcT4wRY0OoWa8PEhtWVQ9HsxSqFO7lbVtvAHqXVm1bj-OVFXixGZOxsb76OPG9xDhgcOCJW_RaZjultL6pUQ4OFGhiVobLZmnrYahkyw0eCSg2fqdvsTJeZJM5_nExTQ7HTT-aVfw=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOp5BqRdrsnieEF4vM_6b3QfCkAJlMKDWql2C4GBqMQxaVs1aNI4AThEgXqzpVxtopsKbJAxTtaKrIYB443b1Ks9nOec-XW_kRDwMQHpOWWhNA1FXP1-5CZUEwvqjB_Zh4X2fB2bHCHmWcvYN_IKs44sg=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNlPA2PMhbG0RIPiKmmxDw4-CPG_0T9pqM9a0TPBTm2n4G4CsUUu9s0_bn_IEjkJG3APIwYfKMESiPYzgXs0IaxDmeax5IGVJ0VHiKnHD4L6-eCIsqt9tu6UyWBGw3eHQfBDnUAfslQYB95AYpLS7hAgQ=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Niché au pied des courtines orientales du château ducal, dans le vallon reliant la forteresse à l'abbaye aux Dames, le quartier du Vaugueux constitue l'un des rares îlots médiévaux et Renaissance ayant survécu aux bombardements dévastateurs de la bataille de Normandie en 1944. Ancien faubourg populaire et commerçant établi hors des remparts primitifs dès le Moyen Âge, ce dédale de venelles pavées et étroites est bordé de remarquables demeures construites entre les XVe et XVIIe siècles. Les façades témoignent d'une juxtaposition pittoresque entre la pierre calcaire de Caen, employée pour les rez-de-chaussée et les encadrements de fenêtres à meneaux, et les élévations traditionnelles à pans de bois hourdés de torchis ou de briques. Parmi ses étroites ruelles, la rue du Vaugueux et la rue Porte-au-Berger conservent des façades à encorbellement et de petits passages pavés caractéristiques du tissu urbain normand pré-moderne. Le quartier est également célèbre pour avoir été le lieu d'enfance d'Édith Piaf, qui venait régulièrement y séjourner chez sa grand-mère tenant une maison close rue des Chanoines. Entièrement réhabilité et piétonnisé à partir des années 1970, le secteur forme aujourd'hui le principal cœur gastronomique et animé du centre historique caennais.",
     visiter: "Arpenter la rue pavée du Vaugueux le nez en l'air pour repérer les sablières sculptées, les poteaux corniers ouvragés et les étages en encorbellement des maisons à pans de bois du XVIe siècle. S'engouffrer dans les passages piétons et cours intérieures pavées pour observer les escaliers à vis hors-œuvre taillés dans la pierre de Caen. Profiter de l'ambiance chaleureuse en soirée lorsque les terrasses s'animent face aux façades illuminées au pied du château.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
@@ -1844,6 +1874,12 @@ const SPOTS_2 = [
     lat: 49.184094,
     lng: -0.360846,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNIsjJrY1c5wMWo5uAJ6qf_8w4dzYSn-LWx_gDrN8goKWX75jW3c-1kZ5uY1zYhYtwo1uIg1oHsqnqavrM2xAw8FpjpCQ1EhDRUYRuCBPSY9KB3BA0fCrbQDTinUHaf-TceVev9AoMWxxu6a7Guxvb6sQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMObyBGbYHhR1fEOInyP2Svz0LuB6gvuE1LZvMsWIRPwvr2FbceMF3JoRW7JkgBharKHwnXqTxjj2a-yUtl9rQdGkhvZoLH2vyV_RUfrAxKLEFuwESZcVFu_yYkNWdh_bjIjDjZRb6vv3erYfNqc0oV5g=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Édifiée face aux douves méridionales du château ducal, l'église Saint-Pierre est le principal sanctuaire paroissial du centre historique de Caen et un chef-d'œuvre de la transition stylistique entre le Moyen Âge et la Renaissance. Construit par étapes entre le XIIIe et le XVIe siècle en pierre de Caen, l'édifice est dominé par une prestigieuse tour-clocher du tout début du XIVe siècle, couronnée d'une flèche pyramidale ajourée culminant à plus de soixante-quinze mètres de hauteur, prototype admiré dans toute la Normandie. La nef et les bas-côtés illustrent l'épanouissement du gothique flamboyant avec leurs voûtes à liernes et tiercerons et leurs grandes verrières aux remplages tourmentés. La renommée architecturale de Saint-Pierre repose toutefois sur son chevet d'exception, commandé au maître-maçon normand Hector Sohier entre 1518 et 1545. Ce dernier y déploie un vocabulaire maniériste d'une virtuosité éclatante, ornant les chapelles rayonnantes de voûtes suspendues à pendentifs sculptés vertigineux, de balustrades en candélabres, de pilastres antiquisants et d'angelots d'inspiration italienne. Frappée de plein fouet par un obus de marine britannique dans la nuit du 8 au 9 juin 1944 qui fit s'effondrer sa célèbre flèche sur la nef, l'église a fait l'objet d'une campagne de reconstruction exemplaire achevée en 1957.",
     visiter: "Contempler depuis la place Saint-Pierre l'élancement remarquable du clocher gothique et sa flèche octogonale ajourée réédifiée à l'identique après-guerre. Contourner impérativement l'édifice par la rue de Geôle pour admirer les chapelles rayonnantes du chevet conçues par Hector Sohier, foisonnantes de culots, de niches et de pinacles Renaissance. Franchir le portail sud pour lever les yeux vers les spectaculaires voûtes à clés pendantes du déambulatoire, véritables dentelles de pierre sculptées au XVIe siècle.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
@@ -1869,6 +1905,16 @@ const SPOTS_2 = [
     lat: 49.183398,
     lng: -0.367815,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMWB4hi6zQnPKSnstqereSZxpOXSy31gJuBs82-Ti2uezyHfXiNr_mxzRFzeLVOEBIkvzuZxzsK3sdxkeRZV6_hnF7ch956M7dX3Y42VtVTJ4SL0cmfzfVsPKaRoEWnWTcQCy03uGkbQADvcpWrz-76EA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO2bdk6k3-8bo-EdY_ZZVfgLzn9mF5VI_WDJlHT-PvO3QsUjCmY_LuwpKR6yYluoWKNwDr10gPd2GdqLpq6FJntnmgGZMIMTEeeQHMCHLROikMCB9cAjEFDQqfMfBv2S4mGpAkov77f_In54CzqoNJONg=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP1UrPfKtEMEncRb3zGDs8c6PANsPU_1ZWnbKewqhcT9fIz7PW5Npl8svQc-yMoCzbvHYvIsGwp_eJWz5ZUBzXJ-oOC00ATuvDGTm7IgAdM2zw8gL0qbMp9CR_wPFHu0K1BJ3_MqYMNq5IDd7oK5HQyMA=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Dressée sur la place Saint-Sauveur au cœur du quartier marchand médiéval de Caen, l'ancienne église paroissiale Saint-Sauveur, dite du « Vieux Saint-Sauveur », offre un précieux témoignage des transformations de l'architecture religieuse normande entre la fin du Moyen Âge et la Renaissance. Initialement fondée sous le règne de Guillaume le Conquérant, l'église conserve dans son clocher latéral des maçonneries du XIIe siècle, mais son allure générale résulte des reconstructions intégrales menées aux XIVe et XVe siècles dans le style gothique flamboyant. Son plan insolite présente une double nef asymétrique, dictée par les contraintes d'alignement parcellaire et l'adjonction progressive de chapelles de confréries. Le chœur à chevet polygonal, réédifié vers 1530-1546 dans l'orbite stylistique des ateliers d'Hector Sohier, mêle arcs brisés et décors sculptés influencés par la Première Renaissance française. Déconsacrée lors de la Révolution au profit de l'église des Cordeliers voisine (qui reprit alors le titre de Saint-Sauveur), la bâtisse échappe de justesse à la démolition pour servir de halle aux blés tout au long du XIXe siècle. Bien que durement éprouvée par les souffles d'explosions et les incendies lors des bombardements alliés de 1944, ses voûtes et ses élévations extérieures en pierre calcaire de Caen ont été minutieusement consolidées, devenant un espace d'expositions culturelles.",
     visiter: "Prendre du recul depuis la vaste place Saint-Sauveur pour apprécier l'asymétrie curieuse de la façade et la silhouette massive de la tour romane coiffée d'une toiture en bâtière. Examiner le chevet polygonal donnant sur la rue Pasteur afin de repérer les détails Renaissance sculptés sur les corniches et les remplages flamboyants des fenêtres hautes. Accéder à l'intérieur lors des manifestations artistiques pour observer le double vaisseau dégagé, les culots sculptés et les vestiges des voûtes en croisée d'ogives.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
@@ -1919,6 +1965,28 @@ const SPOTS_2 = [
     lat: 49.186476,
     lng: -0.353019,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMXr0Z5eyh8zozv-xGP1-ej_UmH35fUy6tzJ1qFyrf0RGCRRikrAioNuc3FtMaIsUSHHbl03Xpn3F2mRnh7qMnwFQstxvmZRNuiLqta5KIdLWmxPobJs2Xp5tzxt_iacO9FDGfabn0Qr8677xck1QLLTw=w1800-h1201-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMfkd0KWRGrVgdCLlmYNhI-U1QY9fwsw8kEhcNkuKKqaqS7aLDDhfQQayc5c8CeF8rCSVMs6jeSxgWSuIek1dbam-5Yy_ZPcUuyIkUxNdPCBClPGr0wDESrHtuGeiywTUo2mXZFks4qKGKtVkjTnsytrw=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMIGSZFEIl53WA2z7UjfzWXjpoHs5FKF_wHNoSZf5-GlqzsxlRXf7tLU4t5oQrLAXdQ07DB0ChDpixYZ-89NmZYpNDqc5_jxZpsijnBBg5Sp7khsq3W-TsAg3EMyAwRm7M-knQtTOi7lfxNx3_Awf4ldw=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNMXtGJC0OLedqHkcGbIGa3zOWBdujQWzPqJ7EwPAqDRfsowgtrD8yy8vlodQhTGJyn95PorJoQc_AAvLYSupYrsaRkUu4gQOlUkK2ukm2aco1JYFvLObblJM9jm18gnq1UcJ0m6IL2pcNKOX2lxjIREQ=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN7NJvlo25cGJWsjasxYquexJr022C1UUKtybgrFjGHmUgwUMn5MBOcDq10pJOA2bjXlThBEP8kXlFvOY9N3mjcjwDLHlKUqzia771oDxiWHHdDWFHjvMFO_xMTx6CZZIG0voKpANmKkJHYuvH_IXC4Nw=w1822-h1215-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOYYCagaB3Kmu_KTXVzsHndEiF5Ir-PtQFV-eQFJz89OY4fLNmXy_bKyQwhELEIqIuTS02WA59fzV_7qNszGW5a1cwGDRDGJfkOiUJkYFkNMqyD9jHgMSxksnqRt1VLtFA1LhZBo17Q0Ygyr36oV5FGKw=w1822-h1215-s-no-gm?authuser=0",
+        caption: "Au centre de ce chœur solennel repose la reine Mathilde de Flandre sous une dalle funéraire historique en marbre noir du Tournaisis, miraculeusement préservée des profanations révolutionnaires et ornée d'une épitaphe d'origine gravée en élégantes lettres latines médiévales."
+      }
+    ],
     description: "Fondée vers 1060 par Mathilde de Flandre, épouse de Guillaume le Conquérant, l'abbaye aux Dames (consacrée sous le vocable de la Trinité) est l'un des plus illustres ensembles monastiques de Normandie. Conçue comme l'homologue féminin de l'abbaye aux Hommes, cette fondation bénédictine royale visait à sceller la réconciliation du couple ducal avec la papauté après leur mariage célébré malgré un degré de consanguinité prohibé par le droit canonique. L'église abbatiale, consacrée en 1066 à la veille du départ de la flotte d'invasion vers l'Angleterre, est un sommet de l'architecture romane normande. Construite en pierre calcaire de Caen aux teintes dorées, sa nef imposante présente une élévation à trois niveaux surmontée, dès le début du XIIe siècle, de voûtes d'arêtes sexpartites parmi les premières et les plus hardies de l'Occident chrétien. Le sanctuaire abrite au centre de son chœur la sépulture historique de la reine Mathilde, signalée par une magnifique dalle funéraire de marbre noir du Tournaisis gravée de caractères carolingiens. Au XVIIIe siècle, les bâtiments conventuels furent entièrement reconstruits dans un style classique monumental par l'architecte Guillaume de La Tremblaye, ordonnés autour d'un cloître majestueux et d'un grand escalier d'honneur. Miraculeusement épargnée par les bombardements de 1944 grâce à son statut de refuge hospitalier sous égide de la Croix-Rouge, l'abbaye abrite aujourd'hui le siège du Conseil régional de Normandie.",
     visiter: "Franchir le porche occidental pour contempler la pureté des lignes de la nef romane et la hardiesse technique de ses voûtes d'ogives sexpartites du début du XIIe siècle. S'avancer vers le chœur liturgique afin de se recueillir devant la dalle de marbre noir gravée recouvrant la sépulture de la reine Mathilde. Descendre impérativement dans la crypte romane souterraine, véritable forêt minérale soutenue par seize colonnes monolithes coiffées de chapiteaux historiés remarquablement conservés, avant de déambuler dans les jardins à la française et le parc Michel d'Ornano attenant.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
@@ -1946,7 +2014,34 @@ const SPOTS_2 = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczNq8cpJNL1VGeUl2J0GhsXep2gSyUlt-3AOaadXs_FBx6PsL-MY82KZ3EmBr8UB9jKZuPWFXYq3BlSmjYjFHG9mpMJ-vMAifpjJcOvChjir6NbeUFHRyXtMsa3xALq3HvZPg47D7FmDVn_YG0WW1lqKEQ=w1800-h1201-s-no-gm?authuser=0",
     description: "Fondée en 1063 par Guillaume le Conquérant, duc de Normandie et futur roi d'Angleterre, l'abbaye aux Hommes, dédiée à saint Étienne, forme avec l'abbaye aux Dames le pendant de la pénitence matrimoniale imposée par le pape Léon IX. Chef-d'œuvre fondateur de l'architecture anglo-normande, son abbatiale Saint-Étienne a profondément inspiré les grandes cathédrales d'outre-Manche telles que Durham, Winchester ou Ely. Bâtie en pierre calcaire de Caen, la façade harmonique occidentale offre un modèle d'équilibre et de puissance austère, structurée par de vigoureux contreforts verticaux et sommée de deux imposantes tours romanes couronnées au XIIIe siècle par d'admirables flèches octogonales gothiques culminant à plus de quatre-vingts mètres. L'intérieur de la nef s'élève sur trois niveaux d'une grande rigueur géométrique et accueille le prototype canonique de la voûte d'ogives sexpartite expérimentée vers 1120. Le sanctuaire abrite dans son chœur la dalle tombale de marbre blanc marquant l'emplacement de la sépulture de Guillaume le Conquérant, inhumé ici en 1087 lors d'obsèques mouvementées. Aux XVIIe et XVIIIe siècles, la congrégation de Saint-Maur métamorphosa les bâtiments conventuels attenants en un palais monastique d'esprit classique grandiose, articulé autour d'un vaste cloître toscan et d'un escalier d'honneur en fer forgé. Devenu lycée au XIXe siècle puis hôtel de ville de Caen en 1965, le site a servi d'immense camp de réfugiés sous la protection de la Croix-Rouge lors de l'été 1944, ce qui lui valut d'échapper miraculeusement aux bombardements.",
     visiter: "Admirer depuis l'esplanade Jean-Marie Louvel la façade harmonique et la verticalité des flèches gothiques s'élançant au-dessus des tours romanes. Pénétrer dans l'abbatiale Saint-Étienne pour apprécier la clarté et l'ampleur monumentale de la nef tripartite, puis s'avancer jusqu'au chœur pour observer la dalle funéraire de marbre blanc signalant le tombeau de Guillaume le Conquérant. Prolonger la visite dans les bâtiments conventuels de l'actuel hôtel de ville afin d'admirer les galeries voûtées du cloître classique, le monumental escalier des matines et les lambris de chêne de la salle des mariages.",
-    link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
+    link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB",
+    sections: [
+      {
+        title: "Façade harmonique occidentale et flèches gothiques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPjofFyNtnGUinPjXJ3G7HXYvA7EYzTXJYCW4nemXaw6wsJ0wvAR0mV2aV3EU3LdWX0fqg1MKX1y03Cr8rXdRV1iPMiHweXCxneb94nhTdqs-rW03Vtx0P2cBeeLuz35W9PS5hNa2Nd40S_Pkyb3E2JnQ=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPtyR8FEh9kBa90WEMXSbXqkGFoEtskvk1dI8lxc70YiYgCRm8vsdZWO6PUQp5XT9gmYp7o-QfFft7kpESbkaWKa_ns9zxUbn_i7RQkvcrfsHveQgEC_bJIGH6Nde2NbyMCRO5eNdEE01XuaEgxtoXjQA=w1822-h1215-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNCYRXS5ew5okY8_zYEQRNJ_Ptk-BiQHODXlcKg1ya7Apz8XIMMrdaLpJ1Jx5X5p1LHCHbP1KhhS_lFyiF0mQBqDj_2LissZcw283BLxtuTpXsY-ZXN6WRF6UEUpsMN4q-rfFetlPsHCiltYaTvUVIVPA=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Le parcours s'ouvre sur la vertigineuse façade occidentale de l'église abbatiale Saint-Étienne, chef-d'œuvre absolu du roman normand tripartite dont la rigueur géométrique et le dépouillement ornemental annoncent les canons de l'architecture médiévale européenne.\nDeux tours carrées monumentales percent les cieux, couronnées au début du XIIIe siècle par d'admirables flèches octogonales gothiques en pierre de Caen culminant à plus de quatre-vingts mètres de hauteur."
+      },
+      {
+        title: "Élévation de la nef romane et voûtes d'ogives sexpartites",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNq8cpJNL1VGeUl2J0GhsXep2gSyUlt-3AOaadXs_FBx6PsL-MY82KZ3EmBr8UB9jKZuPWFXYq3BlSmjYjFHG9mpMJ-vMAifpjJcOvChjir6NbeUFHRyXtMsa3xALq3HvZPg47D7FmDVn_YG0WW1lqKEQ=w1822-h1215-s-no-gm?authuser=0"
+        ],
+        text: "La nef se distingue par sa puissance structurelle et son équilibre géométrique, caractéristiques du génie bâtisseur normand du XIe siècle. L'élévation s'organise rigoureusement sur trois niveaux : de grandes arcades en plein cintre, un étage de tribunes vastes et profondes, et enfin un niveau de fenêtres hautes permettant une diffusion optimale de la lumière. Cette clarté, renforcée par l'usage du calcaire de Caen, souligne la verticalité impressionnante du vaisseau central qui culmine à une hauteur alors inégalée dans la région.\n\nLe système de couvrement constitue l'innovation majeure de cet édifice. Bien que la nef ait été conçue pour recevoir une charpente en bois, elle a été dotée au début du XIIe siècle de voûtes d'ogives sexpartites, parmi les plus anciennes du monde médiéval. Ce choix technique a imposé l'alternance des supports, visible dans la répétition de piles fortes et de piles faibles, qui rythme la progression vers le chœur. Ces voûtes permettent de franchir de larges espaces tout en reportant les poussées sur les murs extérieurs, offrant ainsi une sensation de légèreté et de volume qui préfigure les cathédrales de l'Île-de-France.\n\nL'esthétique de la nef repose sur une sobriété monumentale où le décor sculpté reste discret, laissant les lignes de force de l'architecture s'exprimer pleinement. Au-delà des piliers massifs, on devine au fond de la perspective le chœur gothique reconstruit au XIIIe siècle, dont la finesse contraste avec la robustesse romane de la nef.\n\nLe franchissement du portail découvre une nef d'une ampleur saisissante, articulée en trois registres superposés d'arcades en plein cintre, de tribunes spacieuses et d'un bandeau de fenêtres hautes dispensant une clarté limpide.\nLa charpente de bois primitive fut remplacée vers 1120 par des voûtes d'ogives sexpartites novatrices, constituant une prouesse technique pionnière qui permit de franchir d'immenses portées tout en affirmant l'élan ascensionnel du sanctuaire."
+      },
+      {
+        title: "Tour lanterne, chœur liturgique et tombeau de Guillaume le Conquérant",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP1XxE_3nvicm3f_Obo88Qk-IXGSoPbDlqX64q8ew1ogVomMl2ZrS7FRqW8kCYCJj_CROLROLBWFxg4aECHGzZufVfuZeTLnuw6QHey5Who3owLSdRQDATMkciuB56Om_4wMl12dUo4vCsSwvro8bJHxA=w2027-h1352-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOG3rnYf343kL9mKblP0qsRwXXcDUXg17-vxtHVWTnRq6zSfn0uSvlFBbvcBHgzT-WuKC-g3gCCmMUX8X_y38_TlyKm8fKU5ZzITyRf4H8hXYWjtt6hZXTGbpH5D1ITrvy30WLDfLZiMr4nwieXc_HQbg=w2027-h1352-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNzmQVAKp6od6sS62NsfsNmtRgx74gclWSoEPuwAeGqpG51MFGMvW3NrpOt5GjPHxFVaHYM6BZCIYizQtrwYutMuHZJ9Q92JWlKINLMwWnU4lin3HY0Y0UKk9yvCFnaSrWK2C-st4iVJ5UQqFX3VNSq_A=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Le regard converge naturellement vers la croisée du transept, dominée par une tour lanterne colossale qui projette un faisceau de lumière zénithale directement au seuil du chevet gothique primitif conçu par le maître d'œuvre Guillaume de Saint-Étienne.\nAu cœur du sanctuaire liturgique repose une sobre dalle de marbre blanc marquant l'emplacement du tombeau de Guillaume le Conquérant, inhumé en 1087 lors d'obsèques mouvementées et dont seule une relique de fémur subsiste après les profanations des guerres de Religion et de la Révolution."
+      }
+    ]
   },
  {
     id: "ouistreham_musee_mur_atlantique",
