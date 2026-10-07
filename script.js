@@ -2480,12 +2480,12 @@ function renderEnrichedCarnetMode(spot, layout) {
           </div>
         `;
       } else {
-        // Rendu dynamique style Google Photos : hauteur uniforme, proportions naturelles, zéro bord noir
+        // Ligne flexible proportionnelle : aucune découpe, proportions d'origine préservées
         photosMarkup = `
-          <div class="flex flex-col sm:flex-row gap-2 w-full justify-center items-stretch rounded-2xl overflow-hidden bg-slate-950/60 p-1 border border-slate-800/80 shadow-xl">
+          <div class="flex flex-col md:flex-row gap-2.5 w-full justify-center items-center rounded-2xl overflow-hidden bg-slate-950/40 p-2 border border-slate-800/80 shadow-xl">
             ${sec.photos.map(p => `
-              <div class="flex-1 flex items-center justify-center min-w-0 overflow-hidden rounded-xl bg-black">
-                <img src="${p}" alt="${sec.title || spot.name}" class="w-full h-full max-h-[62vh] object-cover cursor-zoom-in hover:scale-[1.01] transition-transform duration-200" onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+              <div class="h-64 sm:h-80 md:h-[460px] flex items-center justify-center shrink-0 max-w-full">
+                <img src="${p}" alt="${sec.title || spot.name}" class="h-full w-auto max-w-full rounded-xl object-contain cursor-zoom-in hover:scale-[1.01] transition-transform duration-200" onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
               </div>
             `).join('')}
           </div>
