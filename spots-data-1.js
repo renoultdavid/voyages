@@ -2562,7 +2562,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Normandie",
-    department: "Seine-Maritime",
+    department: "Seine-Maritime (76)",
     subdiv: "Rouen",
     altitude: 16,
     is_island: false,
@@ -2574,8 +2574,22 @@ const travelSpots = [
     category: "star",
     counts: {},
     lat: 49.440272,
-    lng: 1.099830,
+    lng: 1.09983,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMh2XcMMphZ7TEgT-dly4smbSzcBEBuCEfY2XS_e1R_FP3qgg40tOrqgNziGNqXCooRdaF4dsUoV3mpMfPODFwFs3SxuLZbortkpo7eC_bU_HAXvT1ierzzbWUyq_DRtm2gnJm7OGYS6iU-2HtCCAOUyg=w1818-h2416-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPQsCeiYNKqZTIAnWQW4hcLJajSsYuawFCCyddDGG8M9c9zbqfvlNLi6ZcA9w88ed5iDiz2-d35BCFKRwZ0YkqkLMrJhnyW8UVpLs87UkdZsGNGHP62ZA82fNj1tVZA-LgMjud_uSZXEEb3prlnBHxTOg=w1802-h2392-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPkoBuEuTDymsmssCs6fP3su8w89mIr5DWbQHhnb1y0_OD3k7bid9jAmdcFZ40FrrXb3-rRguMeWLij1MnYbbVd48zrQSlN5jEjd8twZRxr8SSQb2pCyEza30CvT-ZI1Q2kpG0tA4pWFceYEWpo99fDag=w1802-h2394-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMZ5HsIQ9W15oblSPt4MJQt9aMPIzCuNFZgrHr-mG2DNbxOkclJUiZ8slpTHxH545O2CBIbYikTnKuq08GLTVIcmbrgJzX-E-CHyNGzy-CP067LaZfAfciTkMu0UZrHVh2ednMQHRkG2wPbTGpsfYv2gg=w1802-h2392-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Aménagé à la suite de la terrible épidémie de Peste Noire de 1348 qui décima plus d'un tiers de la population rouennaise, l'aître Saint-Maclou — du latin « atrium » désignant la cour d'entrée d'un édifice sacré — est un ensemble funéraire et architectural unique en Europe occidentale. Rebâti entre 1526 et 1533 pour servir d'ossuaire de débordement, il se présente sous la forme d'un cloître rectangulaire clos dont les galeries à pans de bois et soubassements de pierre entourent une cour verdoyante. Sa célébrité mondiale provient de son extraordinaire décor funéraire sculpté en bas-relief sur les sablières et colonnes de chêne des galeries : une véritable danse macabre de la Renaissance figurant avec une minutie saisissante des crânes, des tibias entrecroisés, des cercueils, des pelles de fossoyeurs et des instruments liturgiques. Après avoir abrité une école de charité pour garçons pauvres au fil des siècles puis l'École régionale des Beaux-Arts, l'aître a fait l'objet d'une restauration intégrale méticuleuse pour renaître en pôle d'artisanat d'art, de céramique et de culture vivante.",
     visiter: "Franchir le passage voûté discret depuis la rue Martainville pour pénétrer dans la cour intérieure et ressentir le contraste saisissant entre la quiétude paisible du jardin central arboré et la puissance évocatrice de son histoire funéraire. Examiner minutieusement le long des galeries couvertes les motifs sculptés sur les poutres de chêne, en repérant les figures squelettiques entraînant clercs, chevaliers et laboureurs dans la danse de la mort. Découvrir la vitrine historique conservant le squelette momifié d'un chat trouvé dans les combles, autrefois emmuré selon d'anciennes superstitions pour chasser le mauvais œil, puis visiter les ateliers contemporains de verriers et de céramistes installés dans les ailes rénovées.",
     link: "https://photos.google.com/share/AF1QipMLwFEK_Au4ZgNwaxmnwCuxrTd2EK8rQ25YqSv_dtNmig3HlymO8KPVXpBhTWyiEA?key=eFdVT1UwTEhIUFRJVHFGWUg4bU9qRi0tTUVzWkh3"
@@ -2587,7 +2601,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Normandie",
-    department: "Seine-Maritime",
+    department: "Seine-Maritime (76)",
     subdiv: "Rouen",
     altitude: 12,
     is_island: false,
@@ -2601,6 +2615,12 @@ const travelSpots = [
     lat: 49.441477,
     lng: 1.100908,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPhY4BuBGv299fk4413q5LF8Tu-lJZgrYjqD08yNEZfm8LxXGIzkzhpEy4h9b7BYUNLVC6XPGbIjEmNENe7u1wEu432zxlAOrfeqUoxvmgBGabyzcV2eO7Ub3vUrzeY6QBXNU1y4WqS2RSl7BAeJHgrCQ=w1838-h1384-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOqJl8DA-foecEkV7Bz8zLzQ6FaLDzRhT45T2nV6dEkTK0gbvjZE2Tc_qAXWkhJC8JsThWDWRZ0GgJlrSWbp-LobznnlGczZeSyLEkr5MBogWLGoZEtjD6AWZBYEU4V2euk02rTm9hV74M0dO9Gcl-WSw=w1802-h2392-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "S'étirant le long de l'ancien lit du Robec — petit affluent fougueux de la Seine réputé pour la pureté de ses eaux ferrugineuses particulièrement propices à la fixation des couleurs —, la rue Eau-de-Robec était au cœur de l'industrie textile drapière et de la teinturerie qui firent la fortune de Rouen de l'époque médiévale jusqu'au XIXe siècle. Les draps de laine et de lin y étaient lavés, teints de bleu guède, d'écarlate ou de garance, puis séchés à l'air libre dans les combles ventilés des maisons riveraines. Canaliseé puis recouvert au fil des décennies pour des impératifs d'hygiène urbaine, le cours d'eau a été remis en scène au cours des années 1970 sous la forme d'un charmant canal artificiel à ciel ouvert jalonné de pontets en fer forgé. La rue présente un exceptionnel alignement de demeures bourgeoises à pans de bois des XVIe et XVIIe siècles, coiffées de greniers étagés à claire-voie et de toits mansardés où les ouvriers suspendaient jadis les coupons d'étoffes tout juste sortis des cuves.",
     visiter: "Arpenter cette longue rue pavée piétonne en longeant le cours d'eau gazouillant, en empruntant les nombreuses passerelles de métal fleuries de géraniums qui relient la chaussée aux porches des habitations. Lever les yeux vers les combles étagés pour admirer l'ingénieux système d'aération des séchoirs textiles et observer la polychromie des façades en colombages réhabilitées. Pousser la porte du Musée national de l'Éducation installé dans la somptueuse Maison des Quatre Fils Aymon au numéro 185, un hôtel particulier Renaissance en pans de bois sculptés parmi les plus beaux de la ville, avant de profiter des terrasses calmes des restaurants et librairies anciennes bordant l'eau.",
     link: "https://photos.google.com/share/AF1QipMLwFEK_Au4ZgNwaxmnwCuxrTd2EK8rQ25YqSv_dtNmig3HlymO8KPVXpBhTWyiEA?key=eFdVT1UwTEhIUFRJVHFGWUg4bU9qRi0tTUVzWkh3"
@@ -2662,7 +2682,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Normandie",
-    department: "Seine-Maritime",
+    department: "Seine-Maritime (76)",
     subdiv: "Rouen",
     altitude: 12,
     is_island: false,
@@ -2670,12 +2690,22 @@ const travelSpots = [
     transport: "a_pied",
     era_group: "contemporain",
     era_label: "Architecture audacieuse du XXe siècle évoquant un drakkar et abritant les vitraux Renaissance de Saint-Vincent",
-    century: "XXe siècle",
+    century: "XXe siècle (1979)",
     category: "religieux",
     counts: {},
     lat: 49.443105,
     lng: 1.088666,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPACUU44FeC-f9D3mnK4xW7tTyoYgkz6jpvQSDPJ-6vWZ5iyjOr4V9m6nsaShheigrAqeRPZAhajkqW7JNTuh9pQTOFs6mGJPsrYuzb1r78c4yZik_aylhrso68tUwhYJXLV1jaiTsyAbODg_q7eKEKqQ=w1838-h1384-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMJ9cZRX4FFsn8pzVfY-GD9B-WdqvmXlZxNirb5RePpr1Nzj12xTwl6tRfz2roqGilMV2YZWhYLrnD-1WbxCcxSMUvl7hyXSNIEr9bQ4rUlVVE83T9uTBzQlWoguf-Hwvs6v1N-6CKk3v1gyFHuW0XB9w=w1802-h2392-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO65D9iVEKASGrKC5xcS4i1oiwyiiw0Hz4ULSBy9bSASFn1YJztTVdpfLi8b6Q00gA8hiz5NfFCibJYauQtaxl37zBru3Euj7jR1NHtbStv5Y2EmQMw24bhmZjwfoPfcdeOf8sGHT8xBQOqWhXcxwQYqQ=w1802-h2392-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Inaugurée en mai 1979 sur la place du Vieux-Marché par l'architecte Louis Arretche, l'église Sainte-Jeanne-d'Arc est une œuvre majeure de l'architecture sacrée contemporaine, conçue à la fois comme un mémorial national à l'héroïne brûlée vive sur cette place en 1431 et comme un écrin protecteur pour un trésor artistique sauvé de la Seconde Guerre mondiale. Sa toiture monumentale aux courbes hardies, bardée d'écailles d'ardoise et de cuivre vert-de-gris, évoque tour à tour les flammes du bûcher ou la coque d'un drakkar viking renversé s'étirant au-dessus des halles marchandes. L'intérieur surprend par sa chaleur organique, dominé par une immense charpente en bois lamellé-collé qui descend jusqu'au sol pour enserrer une spectaculaire verrière de cinq cents mètres carrés : treize verrières Renaissance du XVIe siècle réalisées par l'école de Rouen pour l'ancienne église Saint-Vincent, détruite par les bombes de 1944 mais dont les vitraux avaient été préventivement démontés et mis à l'abri.",
     visiter: "Observer depuis la place du Vieux-Marché les formes sculpturales de la toiture en cuivre ondulant comme une vague maritime au-dessus des étals du marché couvert. Pousser les portes pour pénétrer dans un sanctuaire lumineux et apaisé où la charpente de bois blond enveloppe le visiteur. Contempler l'immense mur de lumière formé par les treize vitraux Renaissance du XVIe siècle, en s'attardant sur la richesse des détails illustrant la vie du Christ, la légende de saint Pierre et les scènes de la Vierge Marie. Admirer l'autel en pierre de taille épuré avant de sortir vers le jardin mémorial attenant où se dresse la croix commémorative.",
     link: "https://photos.google.com/share/AF1QipMLwFEK_Au4ZgNwaxmnwCuxrTd2EK8rQ25YqSv_dtNmig3HlymO8KPVXpBhTWyiEA?key=eFdVT1UwTEhIUFRJVHFGWUg4bU9qRi0tTUVzWkh3"
@@ -2712,7 +2742,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Normandie",
-    department: "Seine-Maritime",
+    department: "Seine-Maritime (76)",
     subdiv: "Rouen",
     altitude: 20,
     is_island: false,
@@ -2726,18 +2756,28 @@ const travelSpots = [
     lat: 49.444804,
     lng: 1.094485,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM0sZuRYiWtyI6aBgxlBEheir0IYvcNA_bemVtttDRQ_9Iwct7_qXYQXURxUlSP0FIC_kMD-pJTTIHh1kqdFuJUxJGyGIAHjv5mS3kQTx3LAG3A7S9nhIHdbDxsqXn3tK0WfwECuTEgZZbn9Fe_j2mHvA=w1838-h1399-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOxvFTvmBEb9PLqX3zHkvnPkB1IcLP2hUfw8VS2iOTIvTlbQlcYJjh4EWW_6DMv8pFw8G39vx2tiRDiJZp-2wyL5E4VWCKK-w8DwHd3S7dJN8ui5jyd-QQtzGhctPDxpWjxueII92GKPAIoNxpIUQ-RCw=w1802-h1357-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOlo8yDc4gop7nPDGdzd9NB1Ou5tmWLthHdeIgBZW20d16efgcvLJZFlYfjLrdjGC_DLLkw968incP9eVIdG9hsh3cocC9gYKbnSSJRGztHjdCJ6zACp9rF6kuoBDj0_HJh3o47bgr94Ldlj1PUKWXJZw=w1802-h2392-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Installé dans un somptueux palais néoclassique érigé à la fin du XIXe siècle par l'architecte Louis Sauvageot en bordure du square Verdrel, le Musée des Beaux-Arts de Rouen conserve l'une des collections publiques les plus prestigieuses et complètes de France en dehors des musées parisiens. Fondé sous la Révolution par décret consulaire et enrichi par d'illustres mécènes normands comme François Depeaux, le musée embrasse six siècles de création artistique européenne, du XVe au XXIe siècle. Il abrite notamment des chefs-d'œuvre insignes de la Renaissance et de l'Âge d'or de la peinture européenne, signés Le Pérugin, Gérard David, Vélasquez et Le Caravage avec son bouleversant tableau « La Flagellation du Christ ». Berceau de la modernité picturale, l'institution est mondialement réputée pour sa galerie impressionniste — la deuxième plus importante de France après le musée d'Orsay —, déployant des toiles maîtresses de Claude Monet (dont plusieurs versions des Cathédrales de Rouen), Camille Pissarro, Alfred Sisley, Pierre-Auguste Renoir, Edgar Degas et l'école paysagiste de Canteleu et de Honfleur.",
     visiter: "Traverser la cour d'honneur du square Verdrel pour pénétrer dans le vaste hall central baigné d'une verrière zénithale et commencer le parcours chronologique des collections. S'attarder dans la salle espagnole et italienne pour contempler l'intensité dramatique du clair-obscur de « La Flagellation » du Caravage et le portrait d'homme de Vélasquez. Rejoindre l'étage pour plonger dans les salles impressionnistes : admirer de près les touches vibrantes de Claude Monet sur « La Cathédrale de Rouen, le portail et la tour Saint-Romain, plein soleil », contempler les vues plongeantes des ponts et quais de Rouen peintes par Camille Pissarro, puis découvrir les grands formats romantiques de Théodore Géricault, enfant illustre de la ville.",
     link: "https://photos.google.com/share/AF1QipMLwFEK_Au4ZgNwaxmnwCuxrTd2EK8rQ25YqSv_dtNmig3HlymO8KPVXpBhTWyiEA?key=eFdVT1UwTEhIUFRJVHFGWUg4bU9qRi0tTUVzWkh3"
   },
-   {
+  {
     id: "pont_audemer_bords_de_la_risle",
     name: "Pont-Audemer - Bords de la Risle & Canaux des Tanneurs",
     country: "France",
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Normandie",
-    department: "Eure",
+    department: "Eure (27)",
     subdiv: "Pont-Audemer",
     altitude: 12,
     is_island: false,
@@ -2751,6 +2791,12 @@ const travelSpots = [
     lat: 49.355003,
     lng: 0.514386,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNWdoykvxDPDFMnhDLfOEmwRRqASOeJYEA0aelEVcmTa-uIYo7syosr7vXlQGQVvac8JmKZsJirojQZ42EXFUkGtmasAnY4xTQ4nDEQ79Y-dnTwZ20fgX0CVdvax5qHeYItICCI8gVsiemFQjpsCWE9Cg=w1818-h2416-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPIse8WkhLNHOrAsULDclbVhSKQHWCWX12sCRbJiI11fFG6Nt3IVoavn5lZE0ODQqP8qlo13tX-naE2bjNnA0o4K_cQ9aDtSkqGtWoVlamD2fReogDZUuAea9GTkx4ZYKaTZjlCIx5J-nPD5fiYAjg7Xw=w1802-h2394-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Surnommée avec fierté la « Venise normande », la cité historique de Pont-Audemer s'enracine au creux de la riante vallée de la Risle, à l'endroit précis où le fleuve côtier se ramifie en une multitude de bras secondaires, de biefs de dérivation et de canaux enserrant le centre médiéval. Cœur battant de la mégisserie et de la tannerie artisanale depuis le Moyen Âge, la ville s'est structurée autour de cette eau abondante indispensable au décapage, au lavage et à la préparation des cuirs. Les berges pavées et les ruelles d'eau sont bordées d'un ensemble pittoresque et exceptionnellement préservé d'anciennes maisons à colombages des XVIe et XVIIe siècles, dont les derniers étages s'ouvrent par de larges persiennes ajourées formant des séchoirs à peaux traditionnels suspendus au-dessus de la Risle. Des dizaines de petits ponts de pierre et de passerelles de fonte à fleur d'eau relient les îlots résidentiels, offrant un cadre bucolique où l'eau sombre reflète les façades colorées d'encorbellements et les massifs fleuris entretenus avec passion.",
     visiter: "Emprunter à pied la ruelle des Tanneurs et longer les quais bordant les canaux pour admirer l'enchevêtrement des passerelles privatives en fer forgé reliant directement les seuils de portes à la rue. Lever les yeux vers les combles aérés des maisons à pans de bois pour observer l'architecture spécifique des séchoirs de mégissiers aux claire-voies en chêne. Faire une halte sur le pont de la Madeleine ou celui des Carmes pour apprécier la vue plongeante sur les herbiers aquatiques oscillant dans le courant limpide de la Risle et le reflet des façades à colombages. Poursuivre la flânerie le long des venelles pavées vers les anciens lavoirs publics en bois, puis prolonger la balade vers le parc de la tour grise bordé de saules pleureurs.",
     link: "https://photos.google.com/album/AF1QipNvDErfQeeB34RgIzi-LODdvp4EvQeRjHxABwKQ"
@@ -2762,7 +2808,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Normandie",
-    department: "Eure",
+    department: "Eure (27)",
     subdiv: "Pont-Audemer",
     altitude: 14,
     is_island: false,
@@ -2778,7 +2824,37 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczMxLjNlbepX-NbibiwgbiCjpjTOZ3HAWENMaDctBqU9tGy8i94zu6iMucXHHigoQJKI6Cy2u1XvYbi3R2XEiSYcr6Nd1cfqgpO3sARsI04McGCtAHhlTsjrAoQUDPUtGxqcRJr95of_uo_BpkJKCEQrPQ=w1818-h2416-s-no-gm?authuser=0",
     description: "Dominant la Cité des Tanneurs de son imposante silhouette inachevée aux allures de cathédrale tronquée, l'église Saint-Ouen de Pont-Audemer est l'un des monuments les plus fascinants du gothique flamboyant et de la Première Renaissance en Normandie. Érigée à partir de la fin du XVe siècle sous l'impulsion de riches marchands tanneurs et mécènes locaux désireux de rivaliser avec les plus illustres sanctuaires de Rouen, elle ne put jamais voir sa tour-lanterne ni sa façade achevées en raison des ravages des guerres de Religion et de l'effondrement des budgets municipaux. Malgré cette interruption brutale, la nef impressionne par la hardiesse de ses proportions et la virtuosité technique de ses piliers prismatiques s'élançant d'un seul jet vers des voûtes à liernes et tiercerons richement ciselées. La renommée artistique majeure de Saint-Ouen repose sur sa série incomparable de quatorze verrières du XVIe siècle, œuvres virtuoses des maîtres verriers rouennais représentant avec une palette chromatique éblouissante des scènes bibliques, la légende de saint Ouen ainsi que les corporations professionnelles des donateurs.",
     visiter: "Contempler depuis la place du Général-de-Gaulle la puissante façade occidentale restée inachevée, avec ses contreforts massifs en pierre de taille blanche de Vernon sculptés de niches Renaissance, de gargouilles et de pinacles flamboyants. Pénétrer dans la vaste nef baignée d'une clarté féerique filtrée par les grandes baies pour contempler la collection inestimable de vitraux Renaissance du XVIe siècle, en s'attardant sur la verrière des tanneurs détaillant le travail des peaux. Admirer le triforium finement ajouré, la riche tribune d'orgue Renaissance en chêne sculpté de bas-reliefs représentant les vertus et les apôtres, puis faire le tour du chœur roman plus sobre du XIe siècle subsistant de l'édifice primitif.",
-    link: "https://photos.google.com/album/AF1QipNvDErfQeeB34RgIzi-LODdvp4EvQeRjHxABwKQ"
+    link: "https://photos.google.com/album/AF1QipNvDErfQeeB34RgIzi-LODdvp4EvQeRjHxABwKQ",
+    sections: [
+      {
+        title: "Façade occidentale inachevée et tours",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPZDazU9aaHqm9gYM2V03HLL99a2Wu9CDYJBMx9R4J8_W7a5QNpPKy3rSmSl8y2RMMV1LPF6G6UWrYUJR76l1ysTPUav3gawz_NkXekhOtqeiSgOt5-NoNj_Q92yElhn7vZ2ClMZPSLu_0smJH_JizUfg=w1802-h2392-s-no-gm?authuser=0"
+        ],
+        text: "La façade occidentale affiche une puissante tour nord épaulée de contreforts à pinacles, tandis que la tour sud est restée interrompue à la suite des guerres de Religion et du tarissement des finances paroissiales au XVIe siècle."
+      },
+      {
+        title: "Élévation de la nef, triforium ajouré et voûte en berceau",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMxLjNlbepX-NbibiwgbiCjpjTOZ3HAWENMaDctBqU9tGy8i94zu6iMucXHHigoQJKI6Cy2u1XvYbi3R2XEiSYcr6Nd1cfqgpO3sARsI04McGCtAHhlTsjrAoQUDPUtGxqcRJr95of_uo_BpkJKCEQrPQ=w1802-h2394-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPtFh95QfQE1D9yAKJmHmnMJn-0dQQT42C3tKYqlBvm88t9-f2om7qToZ8PncYang9FjnUIPmaXT1S0pCsp9MMR4Ul0Bxx3Y3gJf4EvB_YgxfpROKsVsuObjVMqukCrOAJ2VaK-kAgAjw0IMKaw7o1NDQ=w1802-h2392-s-no-gm?authuser=0"
+        ],
+        text: "Le franchissement du porche révèle une élévation saisissante à trois niveaux : de hautes arcades brisées reposant sur des piles ondulées continues, un triforium ajouré d'une extrême virtuosité sculpturale et des fenêtres hautes baignées de lumière. Le triforium déploie une frise continue de balustrades ciselées, d'arcs trilobés, d'animaux fantastiques et de figures grotesques rivalisant avec les plus beaux chantiers de Rouen. En levant les yeux vers le couvrement, le regard découvre une vaste voûte lambrissée en carène de navire inversée en chêne, substituée aux croisées d'ogives en pierre jamais posées en raison de l'interruption des travaux."
+      },
+      {
+        title: "Collection de verrières Renaissance et mobilier d'art",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOW9OkLB9cb013VKxzkyRBJ7OFapPbI-tr3RbkVGgIQHf37zs1fg24ldDzTvgk0dqZ67ugmySTW-UxTtJkyPRYv5TOqT5bflPRXGerfby_MrT7eGM6AoMHDlLFj1cfFQxA5RRTZyC10lU02r7wiWgPnIw=w1802-h2574-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM-qZfwYPAZhGk6KZLpTADj8Ygb48GLTSEdkTiOR8mISgIRC0jg0k-TAOTl2Iy2VUIUC06REKdrN--QcCsK86pdMNY1T7KqtDZS0EagujfBZRRbdWRadhtvXLrOG49EGKHDj5ujsEE0fkZ2_MEgrcS0GA=w1802-h2552-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPBoJodXfORLRGnbWf80NOWOha1vxCYtbId7NEgKB1kKsA12lM7Y-92XxEPUDYC95-w6alBSYYhoCjYPQrcLbDPkzh9yQPJPaSob_98VRIoh8f0DlaoEQVfXir844jzMUGLE-JFYwVQj2LTzZx6invFJg=w1802-h2657-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMAtjb7SM15CV89-CNOT_6QhtZMtTqPFTtVsBaiDb60ILWpsPBS3p-Mmq7wMaMXbsYnVWGiMwYDPVf-oa9r62VWcday296Yrp8rU8DWTW4uCZO7dOtXpjMwDocbs4LNx3UG4_mHei0AKvVF36jubAULvQ=w1802-h2587-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO3MfDwYtYXz5eXvHLIcHBMNO8URIlLEfFF4lbo3vyexujc0fusxMn1Nw_dv0xTkePXo_8niQigjw0FkQnP7qbsE8zRuxa65spJ45D7Hz6SpqIKppgFBK9aJvO2v_95rt9IeyiDblLjAhSH1Wy962tdRw=w1802-h2626-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMfkqCYuKp-RqiL7Q1IGcZ_i_yNIm_2RVrOdakfdcQRNDKKHGCV8u2mEr0kMC4KvGhnJWmBH4BArFc7U_nnI61btJ7zm3y008M0C0-Td3AfkuczcKfdyLY70TivOI67Tcoz-qvsNS8mvJuDBsOu0Tkm2w=w1802-h2812-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOjyDvEU_QyKxueKG-dELkU38t-Dl2Ml2bhlg6nHoSFpN2altGg2iHsbYdfAB01H9GD9hddwZfuleayha45q-_k9TTtIho3xtZBTD-pT271pjpyz5zGXLe259F0PxD_JNGrS-T_nmdzTMnrpxwE8jGuuw=w1802-h2754-s-no-gm?authuser=0"
+        ],
+        text: "Le grand trésor de Saint-Ouen réside dans sa prestigieuse collection de quatorze verrières du XVIe siècle, réalisées entre 1500 et 1556 par les maîtres verriers de l'école rouennaise. Réparties dans les bas-côtés, ces fenêtres illustrent la vie de saint Jean-Baptiste, la légende de saint Ouen, l'arbre de Jessé ou le martyre de saint Sébastien avec un emploi virtuose de la grisaille, du jaune d'argent et des émaux colorés. Les donateurs — notables et corporations de tanneurs — y figurent en habits d'époque, insérés dans des architectures feintes à l'antique caractéristiques de la Première Renaissance. L'édifice abrite également un monumental buffet d'orgue baroque en chêne sculpté du XVIIe siècle et des fonts baptismaux médiévaux préservés de l'édifice primitif."
+      }
+    ]
   },
   {
     id: "honfleur_vieux_bassin",
@@ -2787,7 +2863,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Normandie",
-    department: "Calvados",
+    department: "Calvados (14)",
     subdiv: "Honfleur",
     altitude: 4,
     is_island: false,
@@ -2801,6 +2877,20 @@ const travelSpots = [
     lat: 49.420345,
     lng: 0.233073,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPBM6_O3cl3cfD8S4kNQNvwXLC0zGV2cJjoI4vxld_7roXKF-cxlqaDztxx4ElEW-qHv7jYi5tDw10IIQYoGZcTYgyIR0rPUN60-CE-vgqWRSa90x3BJGjIzhSY9l9-tTKhnojoRi9SmVznbbjwQi8wWg=w2486-h1658-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOOVIh2YoQLIOBp7etlQ65ISUEJUrgWDRKvTcAgyd4mOlGKT5wV2_NOTo1hvqa7vLpfBuBGW5tTMhirnT9Z7bJ9yhECrt7cZD3fm45V1lzHJbaSi9gla7ciyCDp2MfJr3oPnGOMvez98qUeapc84e-Wrg=w1802-h1201-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPVakHtx8hbOm-jYgWsfldufCLwEtTHz_JlKU6IA5SeABaIs8PhUXVOBR3_i2mNK0-_Z-nU_Mo6jfZkDp5KKAmJRf1B4llASKMNm3f9H1Y4rVDjECMtsfXpLjLWwLRbFslC-r_41sno9OzXoGv9DKHkaQ=w1802-h1357-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPyJhwkcEiagqv4NzP7ws-caL--Vfl4k-3ALQSBY9mYjt-1q42s9RDuBwlb4YYAJjD6uvPOyxopo6wGJE4rzEzhEH3z_mm9vy35JBY618_HbzLj8DVIlKIcG_P1x9D-o9VoBH5P37jm-WubYM7rB16dZQ=w1802-h2392-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Véritable carte postale universelle de la Normandie maritime, le Vieux Bassin de Honfleur est un port d'échouage d'une harmonie scénographique absolue, creusé en 1681 sur ordre de Colbert pour remplacer un havre d'échouage médiéval trop étroit face à l'essor des expéditions vers les Amériques. Aménagé au débouché de la Claire dans l'estuaire de la Seine, ce bassin rectangulaire est mondialement réputé pour l'alignement spectaculaire des étroites maisons du quai Sainte-Catherine : hautes de cinq à sept étages, ces bâtisses mitoyennes singulières, souvent bâties en pans de bois et couvertes d'écailles d'ardoise aux reflets ardoisés et violacés, étaient adossées directement à l'ancien rempart urbain pour optimiser l'espace au sol. Berceau de l'impressionnisme et refuge privilégié des peintres de l'école de Honfleur (Eugène Boudin, Claude Monet, Gustave Courbet, Johan Barthold Jongkind), le plan d'eau miroitant accueille toujours vieux gréements, chalutiers côtiers et voiliers modernes dans une ambiance maritime vibrante et intemporelle.",
     visiter: "Faire le tour complet du bassin pavé en débutant par le quai Sainte-Catherine pour s'imprégner des reflets irisés des façades d'ardoise et des mâtures de bateaux dans l'eau salée. Prendre le temps d'observer le déchargement des crevettes grises sur les quais par les marins pêcheurs locaux ou contempler les peintres installant toujours leurs chevalets sur les pavés face au port. Déambuler ensuite le long du quai Saint-Étienne en profitant des terrasses animées et des galeries d'art, franchir la passerelle mobile qui régule l'accès maritime, puis s'asseoir sur les bancs de granit face à la Lieutenance pour contempler la lumière nacrée si particulière de l'estuaire au coucher du soleil.",
     link: "https://photos.google.com/album/AF1QipNvDErfQeeB34RgIzi-LODdvp4EvQeRjHxABwKQ"
@@ -2837,7 +2927,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Normandie",
-    department: "Calvados",
+    department: "Calvados (14)",
     subdiv: "Honfleur",
     altitude: 10,
     is_island: false,
@@ -2851,6 +2941,16 @@ const travelSpots = [
     lat: 49.421148,
     lng: 0.232489,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMg6uE1AACpG6TEhztjL3YdnwFNi1sQ8f7wWHssvSxXdJXrlZsv5bBxt7Ytihzkog4LoJy5u1ir3ZNSeb7tLJkNdvkuZTAfSMdDXVy8dPK4SCjDxiUeXQBrYUQd1-3wFNY8pDo2MIIMdPyYmPAfSd67cg=w2486-h1872-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO63hQQQTewVn6JGBETEyhstNolHkYDD7kxKXhyxPMD0s_UoUfHLVpff0BJfLHPTjXO1HoByuOL5aGrKbssWSlEZiX2WI2eIV7ebKNi8VWkY2nXDjBNB-bldG9sAbgaYOXJwy42sqqsplMJq3lhkduELQ=w1600-h1200-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO1HQ_h94AFAAZBtiu-d6mkMXMvrf_82FF46Sdl7Fa4iu8_5KOps8MlFMsbsHNx1jUGLsNlHh_qYOvYj8CV2cxJy2ghjKKPTwWJTp9v1O1L0kb4vg2E440xJoV4JArlwA2HVoN_nA115VyzUVc01UfDdQ=w1802-h2392-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "S'élevant fièrement sur une charmante place pavée au cœur du quartier historique des marins, l'église Sainte-Catherine est un chef-d'œuvre patrimonial unique en son genre : elle constitue la plus vaste église de bois avec un clocher séparé conservée en France. Érigée au lendemain de la guerre de Cent Ans par les habitants et maîtres charpentiers navals des chantiers maritimes locaux pour remplacer l'ancienne église de pierre détruite par les Anglais, elle fut conçue selon les techniques rigoureuses de la construction navale en employant le chêne issu des forêts environnantes du Touques. L'édifice se compose de deux nefs parallèles jumelées dont les voûtes intérieures spectaculaires adoptent la forme exacte de doubles coques de navires marchands renversées, soutenues par une forêt de puissants piliers de chêne équarris à la hache. Séparé de l'église pour éviter qu'un éventuel incendie provoqué par la foudre n'embrase l'édifice principal, le clocher en bois de chêne bardé d'essentes d'ardoise et solidement contreventé trône sur la place en face, abritant aujourd'hui les cloches paroissiales.",
     visiter: "Pousser le porche en bois pour être immédiatement saisi par la chaleur organique et l'odeur caractéristique de cire et de vieux chêne qui imprègne le sanctuaire. Lever les yeux vers la prodigieuse double voûte lambrissée pour admirer le savoir-faire des charpentiers de marine et repérer les sablières sculptées de figures grotesques, d'animaux marins et d'anges musiciens. Parcourir les deux nefs pour contempler le retable de la Renaissance, les ex-voto marins offerts par les équipages rescapés des tempêtes de l'Atlantique et la statuaire polychrome dédiée à sainte Catherine d'Alexandrie. Traverser ensuite la place pavée bordée de bistros typiques pour s'approcher du clocher indépendant et admirer la structure magistrale de son beffroi pyramidal ancré sur une robuste souche de chêne.",
     link: "https://photos.google.com/album/AF1QipNvDErfQeeB34RgIzi-LODdvp4EvQeRjHxABwKQ"
@@ -2912,7 +3012,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Normandie",
-    department: "Calvados",
+    department: "Calvados (14)",
     subdiv: "Lisieux",
     altitude: 95,
     is_island: false,
@@ -2920,12 +3020,18 @@ const travelSpots = [
     transport: "a_pied",
     era_group: "contemporain",
     era_label: "Colosse néo-byzantin du XXe siècle et deuxième lieu de pèlerinage de France après Lourdes",
-    century: "XXe siècle",
+    century: "XXe siècle (1929-1954)",
     category: "religieux",
     counts: {},
-    lat: 49.139400,
+    lat: 49.1394,
     lng: 0.236163,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOwTXU8l7IyNx2Olxf8HhfygdiRsBHhdfc6jzwHQm-4mwLGXl9EKwZmFZxAanyYxRRvaITX87IkhkVxPWJ6cUbgfON4sxgGN78jBhlSgaDxPmSfopYB-9VD3OSzxRM0rBqQenMBneZX1nZM6Y14p3UPog=w1061-h688-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO21AMcWfAzNaSKFlScRnxHu9l6CiI1JweisL5koneKxhST8FQzecwtxbOLx9IkcGi2qL82U5Jdin7lVHFYNwMDfdYFMh_YYvUV8ldjjdP6SQXyAiNidz_ABIVISY9Ehb8OHf3cMVsR30SgDwvECqumqg=w1066-h685-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Érigée sur une éminence boisée dominant la cité lexovienne et le vallon de la Touques, la basilique Sainte-Thérèse de Lisieux est l'une des plus gigantesques églises construites au XXe siècle dans le monde catholique, faisant de la ville le deuxième sanctuaire de pèlerinage de France après Lourdes. Commencée en 1929 sous l'impulsion du pape Pie XI pour honorer la carmélite sainte Thérèse de l'Enfant-Jésus et de la Sainte-Face — canonisée en 1925 et proclamée docteure de l'Église —, cette basilique monumentale conçue par l'architecte Louis Marie Cordonnier adopte un style romano-byzantin d'une imposante théâtralité. Capable d'accueillir plus de quatre mille fidèles sous sa voûte immense sans piliers intermédiaires, elle est dominée par un dôme majestueux culminant à près de quatre-vingt-quinze mètres de hauteur. L'intérieur est entièrement tapissé de plus de huit mille mètres carrés de mosaïques chatoyantes en pâte de verre et émaux de Venise créées par Pierre Gaudin, illustrant le message de la « Petite Voie » d'amour et de confiance spirituelle chère à la sainte normande.",
     visiter: "Gravir l'imposant escalier monumental ouvrant sur le parvis en terrasse pour contempler la façade de granit et de pierre blanche ornée de bas-reliefs et le dôme sommital. Pénétrer dans la vaste nef pour apprécier la clarté chaleureuse et la richesse visuelle des mosaïques polychromes recouvrant les murs et les arcades, en s'attardant sur le reliquaire doré abritant les reliques de sainte Thérèse dans le transept sud. Descendre ensuite dans la crypte semi-enterrée de trois nefs, entièrement décorée de mosaïques bleues et or retraçant la vie de Thérèse et accueillant le tombeau en marbre blanc de ses parents canonisés, Louis et Zélie Martin. Terminer par l'ascension du dôme pour profiter d'un panorama circulaire exceptionnel sur les bocages du pays d'Auge.",
     link: "https://photos.google.com/album/AF1QipNvDErfQeeB34RgIzi-LODdvp4EvQeRjHxABwKQ"
@@ -2937,7 +3043,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Normandie",
-    department: "Calvados",
+    department: "Calvados (14)",
     subdiv: "Lisieux",
     altitude: 50,
     is_island: false,
@@ -2953,7 +3059,34 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczOjrDMdTi7QWQNQSNQGMJ4ZS9jWlH6WpxoEODKoXyRfsj9mM7f6pYeCkU6iwfHeV25svXMOKuGwr8sVhAU0thfB-6O5aRjRd3df9j2N7oRzxAZLN1hEubAYiGmAG7WjaCMxeiV3k8F2AxQuhjUwCb8ikg=w1818-h2416-s-no-gm?authuser=0",
     description: "Trônant au cœur de la place François-Mitterrand, la cathédrale Saint-Pierre de Lisieux est un édifice médiéval insigne, réputé pour être l'un des premiers et plus purs chefs-d'œuvre du style gothique érigés sur le sol normand. Bâtie entre 1160 et 1230 sous l'épiscopat de l'évêque Arnoul (ardent partisan du roi Henri II Plantagenêt), elle devança même la construction de Notre-Dame de Paris par l'adoption précoce des arcs brisés et des voûtes sur croisées d'ogives quadripartites. Sa façade occidentale présente une étonnante asymétrie entre sa tour nord romane aux baies géminées et sa haute tour sud gothique du XVIe siècle couronnée d'une flèche élancée en charpente d'ardoise. L'intérieur séduit par la rigueur et l'élégance de ses lignes, rythmées par de puissantes piles cylindriques et un triforium ajouré d'une rare légèreté. Ayant miraculeusement réchappé aux bombardements dévastateurs de l'été 1944 qui anéantirent la quasi-totalité de la vieille ville en pans de bois, Saint-Pierre conserve une haute valeur spirituelle : c'est en effet dans cette église que la jeune Thérèse Martin assistait chaque dimanche à la messe en famille et connut sa première vocation religieuse.",
     visiter: "Admirer depuis la place du marché les trois portails sculptés de la façade occidentale et observer la transition stylistique fascinante entre les deux tours d'angle. Pénétrer dans la nef élancée pour apprécier la blancheur de la pierre calcaire de Caen et l'harmonieuse ordonnance du triforium à colonnettes normandes. Se diriger vers le déambulatoire pour découvrir la chapelle d'axe de la Vierge, restaurée au XVe siècle par Pierre Cauchon (évêque de Beauvais tristement célèbre pour avoir instruit le procès de Jeanne d'Arc et dont la sépulture repose sous les dalles), puis s'arrêter devant la chapelle latérale où la famille Martin venait prier devant la statue de la Vierge au sourire.",
-    link: "https://photos.google.com/album/AF1QipNvDErfQeeB34RgIzi-LODdvp4EvQeRjHxABwKQ"
+    link: "https://photos.google.com/album/AF1QipNvDErfQeeB34RgIzi-LODdvp4EvQeRjHxABwKQ",
+    sections: [
+      {
+        title: "Élévation de la nef et façade occidentale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOfXbvqC_h_ruvvC-x3kVIGAoUzqSjyrfRG0ZqfR9HipfXZLmIRMs8M3pspO5ehsgicavygXbrjGTWEC0NzGU4cXM7sj5YBze-Z6Lo6rbBlWvHo8I_6RLYfgBtsOVRVB_vDzSEqj6gK8uGw8MkNQ-m6xg=w1802-h2392-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOjrDMdTi7QWQNQSNQGMJ4ZS9jWlH6WpxoEODKoXyRfsj9mM7f6pYeCkU6iwfHeV25svXMOKuGwr8sVhAU0thfB-6O5aRjRd3df9j2N7oRzxAZLN1hEubAYiGmAG7WjaCMxeiV3k8F2AxQuhjUwCb8ikg=w1802-h2392-s-no-gm?authuser=0"
+        ],
+        text: "La nef s'élève sur trois niveaux harmonieux mariant la clarté des grandes arcades brisées et du triforium au respect de l'austérité et de la robustesse propres aux traditions architecturales anglo-normandes. La façade occidentale tripartite en calcaire présente un imposant massif percé de trois portails sculptés, flanqué d'une tour sud romane remaniée et d'une vertigineuse tour nord gothique couronnée d'une haute flèche ajourée."
+      },
+      {
+        title: "Tour-lanterne et chapelles du déambulatoire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOVcO-itQne0DrmbJiTdGDsi5qoUAbgOqFILMrFQp41mwtQwUA11tp_OBlrlBMf1k5LSkbcZ-zPuHFVCY5NPt768qAiFJ9FFWWV6b7yqXyROe1Ssud0eOAceEYZojUbGd_s5XiBPAznn77jCICys_g85w=w1802-h2394-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPkGrfwo9Xi33rvg65aOh11WuvZG1rrHzKnDhmOyRXEDYrfWbPNKckARmIRjeJVbJ08kVg-eTAJvrOxaA95FUSWTeS-KS5Uwetrxv8RwgvS_xXA3pVSxDuJ1WvXVZ2_bRvRmNpdEI-e54R7HkgB5yK-dw=w1802-h2392-s-no-gm?authuser=0"
+        ],
+        text: "À la croisée du transept s'élance une spectaculaire tour-lanterne octogonale baignant la croisée d'une lumière céleste, dispositif emblématique de l'école des maîtres d'œuvre de Normandie. Le chevet s'achève par la profonde chapelle axiale de la Vierge, reconstruite au début du XVe siècle par Pierre Cauchon, évêque de Lisieux et président du procès de Jeanne d'Arc, qui y fut solennellement inhumé en 1442. Les chapelles du déambulatoire conservent de précieux autels, des boiseries baroques et des tombeaux d'évêques témoins de l'ancien évêché-comté lexovien dissous lors de la Révolution."
+      },
+      {
+        title: "Mémoire thérésienne et renaissance d'après-guerre",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM-9TOsCZxRJIMHYYKfcOWzBMrG-OiLU_bIFJg9E_kylVoeOgrkRneO4eflWupzNcfjqRMyMj_tUxFHId7lHCB1ZiKTZQ2LD3HmabYT8wdCuIQgwAEf_h7VrVdqdp_TKOmFDT0U2YrjDr5OtugK5PDSbg=w1548-h2880-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNCLWKN97P9_QZ8BAcsKgwfY9Dw1MAhLRfSlGn-fm5wybGrDs9HETxHmznNqyzT9BBUClxihEwcU8qaSxhfx_acGL0SRgpT3CnGC-9APxHeNeELM7fBq7Ib0ytYSmQeAcdsW38Yy-Cv8gsCVWC9xyltsA=w1802-h2356-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOh43qN3uRgIsEMmpMkZOkwlIW0wqJs3xFhXU3BN93VanYSDTx-A4RYzwbDQTcd1IeGWs8bP53uANlDyvN-ppCH0QedIBkp_C0-Jf53guD8Re-QhFntodnxehysu1x7lkwAndUXM-OSzuBJU3hpRVOXng=w1465-h2880-s-no-gm?authuser=0"
+        ],
+        text: "Le monument s'inscrit également dans la géographie thérésienne du XIXe siècle, sainte Thérèse de l'Enfant-Jésus y ayant assidûment prié en famille, reçu sa première communion et confirmé sa vocation religieuse avant d'entrer au Carmel. Épargnée miraculeusement par les terribles bombardements alliés qui rasèrent les deux tiers de la ville en 1944, l'église a conservé intacte sa majestueuse élévation médiévale au milieu des reconstructions modernes. Les restaurations contemporaines ont mis en valeur la blancheur lumineuse de la pierre de taille et la pureté des lignes de cette cathédrale longtemps méconnue au profit de la monumentale Basilique Sainte-Thérèse de Lisieux voisine. L'édifice demeure ainsi un chef-d'œuvre fondateur du gothique primitif, reliant avec force l'épopée des Plantagenêts, les soubresauts de la guerre de Cent Ans et la ferveur spirituelle lexovienne."
+      }
+    ]
   },
    {
     id: "le_mans_cathedrale_saint_julien",
