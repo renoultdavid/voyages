@@ -7904,6 +7904,12 @@ const travelSpots = [
     lat: 34.839084,
     lng: 134.693971,
     image: "https://lh3.googleusercontent.com/pw/AP1GczN4WFspKMaNJPHkEGoGYT39OiUiJU16HOFA-ft4Suc31yJ1H9GSk2ljZMwPhPuOa1MAXgz2sBp39VCjjahUHwb2xca4XWkIJs7E7bOP9SkQRtPVVMmIJFXgEcigxBKVo2PRLZx9_lNOkk1lFG6PfjF4XQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPSfVmPgWPqr-6WUYWTNRSWa4gx3_3-JdpLF1R37SNOIxTaiqnIBsReFgX9N0XDxZlXEOVVuZ0dL9NUl9P_zpbjYIMobXLhd_P7x4-KHaPnYg32SCYHH96tN8zcFcAGuk4yCgZSzun_8tTXkhhcb3f7Ww=w1586-h1057-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Surnommé le « Héron blanc » (Shirasagi-jō) en raison de ses élégantes façades immaculées recouvertes de plâtre blanc résistant au feu, le château de Himeji est le plus vaste, majestueux et spectaculaire donjon féodal préservé de tout le Japon. Trésor national inscrit au patrimoine mondial de l'UNESCO dès 1993, cet ensemble castral de type hirayamajiro (forteresse sur colline de plaine) fut porté à son apogée entre 1601 et 1609 par le seigneur Ikeda Terumasa. Épargné miraculeusement par les guerres civiles féodales, les bombardements de la Seconde Guerre mondiale et les séismes majeurs, il déploie un formidable système défensif labyrinthique composé de portes fortifiées en chicane, de meurtrières dissimulées (sama) et d'un grand donjon central (Daitenshu) de six étages relié à trois tours secondaires par des galeries blindées. Véritable chef-d'œuvre de la charpenterie japonaise traditionnelle assemblée sans clou métallique, il incarne l'apogée militaire et esthétique de l'architecture des samouraïs à l'aube de l'ère d'Edo.",
     visiter: "Franchir la monumentale porte Otemon et remonter les allées en pente bordées de hauts murs de pierre cyclopéenne en éventail (ōgi-no-kōbai) et de remparts crénelés percés de meurtrières triangulaires et rectangulaires. Traverser les multiples portes fortifiées en chicane conçues pour désorienter les assaillants avant de pénétrer au cœur du grand donjon de bois sombre. Déchaussé sur les planchers de pin patinés, gravir les volées d'escaliers intérieurs très pentus pour contempler les deux monumentaux piliers maîtresses en cèdre et sapin traversant toute la structure, les râteliers d'armes médiévales et les trappes de défense pour jeter pierres et liquides bouillants. Atteindre le dernier étage abritant le sanctuaire shinto Osakabe-jinja pour jouir d'une vue circulaire panoramique imprenable sur les toits sculptés de tuiles armoriées ornées de poissons mythologiques protecteurs shachihoko et sur l'ensemble de la ville de Himeji.",
     link: "https://photos.google.com/u/0/share/AF1QipPKnXoV4FXvajDZ_QCz-mA_squf3grEpTszI8zDp_m-m0zQC-ni5lBT2Uo9gdV2Yw?hl=fr_CA&key=NTE2d2Fpd0pHVlA1UElldFBmLV9wQ0UwNXFSMmtR"
@@ -7931,9 +7937,42 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczNhiGSJwiJEIFKtt7wEuDCgC-aFy2k83T66BKyA5YbImgyI7moqdC0kAKAXjJK3-ReJfqQKOrDspesl5pYeRuUVaT81OVuxiljR1RDRzjTBl64K1YUiY1d6sMiDGrmr_TqDEqmgZdlG0BmjENWrQskVrA=w1221-h919-s-no-gm?authuser=0",
     description: "Aménagé en 1992 pour célébrer le centenaire de la municipalité de Himeji, Kōko-en est un splendide ensemble de neuf jardins paysagers traditionnels clos de murs, édifié sur l'emplacement archéologique précis des anciennes résidences des samouraïs et du manoir seigneurial occidental (Nishi-Oyashiki) du clan Sakai. Ceinturés de nobles murs de torchis et de tuiles d'époque (tsujibei), ces jardins reliés par des passages couverts et des portes seigneuriales restaurées restituent avec un raffinement magistral l'art horticole et paysager de l'époque d'Edo. Chaque enclos développe une thématique végétale et sensorielle distincte : le grand jardin de la résidence seigneuriale avec cascade et vaste étang de carpes koï, le jardin des bambous, le jardin des conifères, le jardin des fleurs ou encore le jardin du pavillon de thé. Utilisant avec virtuosité la technique du paysage emprunté (shakkei), le domaine cadre magnifiquement la silhouette blanche du château de Himeji en arrière-plan des érables et des pins taillés en nuages.",
     visiter: "Franchir la porte seigneuriale Nagayamon et s'engager sous la galerie en bois de cèdre du pavillon Cho-on-sai, qui s'avance sur les eaux limpides du grand étang peuplé de carpes koï multicolores nageant au pied d'une cascade tumultueuse. Flâner le long des sentiers dallés bordés de lanternes de pierre moussues et franchir les ponts de bois arqués reliant les neuf jardins thématiques. Découvrir le calme feutré du jardin des bambous abritant une quinzaine de variétés rares oscillant sous le vent, puis s'arrêter au pavillon de thé Souju-an, conçu selon les règles strictes de l'école Urasenke, pour savourer un thé matcha mousseux accompagné d'une confiserie wagashi de saison face au jardin d'eau. Admirer les trouées paysagères à travers les feuillages d'érables flamboyants révélant le donjon blanc de Himeji se découpant sur le ciel.",
-    link: "https://photos.google.com/u/0/share/AF1QipPKnXoV4FXvajDZ_QCz-mA_squf3grEpTszI8zDp_m-m0zQC-ni5lBT2Uo9gdV2Yw?hl=fr_CA&key=NTE2d2Fpd0pHVlA1UElldFBmLV9wQ0UwNXFSMmtR"
+    link: "https://photos.google.com/u/0/share/AF1QipPKnXoV4FXvajDZ_QCz-mA_squf3grEpTszI8zDp_m-m0zQC-ni5lBT2Uo9gdV2Yw?hl=fr_CA&key=NTE2d2Fpd0pHVlA1UElldFBmLV9wQ0UwNXFSMmtR",
+    sections: [
+      {
+        title: "Composition en neuf jardins clos et murets tsujibei",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOQlQQ4xOeo7fT8FUBbmH0ktBqdQGWkt0fKWUccbSUmORx32AGD1qYjvkOc1E2nVGZqEl4oiBVQ9sChNJol_zMGdODQOVq0LgDI_snGJ3c7Jw6sGFVHPyFreEn2bq2HxcVpu6qA0lpSuuNvbIxrhB7BdA=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMkOTi2xv1M3mW_AxCyaqAv-laKzqwuoVHJjPpR0yEDKOOoOKPXRVNR_4DNWIxY-vhs1wPMB7TFppuC4FJ7WktLdM3vZ362wH7PuaMjtwMyKvce0D5s_YcxdGlpgep58Ocz8T9jgK7CjTSSAuxHllyuDQ=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMZUY5x1TurG2J_nHnyRVllCsAvp60wUKxfVM4m2xTg3t6wL01TyC_OziEwqUu5oiAN5IwIPTq_EK2_Kadoydu8T4YXQKYVvxHoq9LhYOcI3wYM_EWBpj3Pwpz1XFlfOATh2hQZ6qi-x9R6WYXThw0OSA=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "Loin d'adopter un dessin monolithique, Kōko-en se compose de neuf jardins d'agrément clos distincts, articulés selon le style des jardins de promenade de l'époque d'Edo (chisen-kaiyūshiki). Chaque enclos paysager possède sa propre thématique sensorielle et botanique, isolé des parcelles voisines par d'élégants murets de pisé blanchis à la chaux (tsuijibei) couverts de tuiles plates grises et percés de portes monumentales en bois massif."
+      },
+      {
+        title: "L'étang aux carpes koï et le principe du shakkei",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOeEmmoDO0dPke30dNCFeB8k9Rsd_9-CfeBylGcVnkHFHRki7gGbCh4OcgB4Z1Gs2g18_m7xR5Lc86YR-Ijy7TNKbkOAA_WVj1ZQ0JwO16cnGp6zlYQ9Zrc-_cjP8WQYhljLwHEMvTRE7vWnQQXMVOUPA=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "Le cœur du domaine est formé par le jardin de la noble demeure (Oyashiki no Niwa), centré sur un vaste étang sinueux où évoluent plusieurs centaines de carpes koï sélectionnées pour la pureté de leurs marbrures. Ce bassin est alimenté par une cascade rocheuse miniature évoquant les torrents de montagne et s'admire depuis une grande galerie couverte en bois de cyprès prolongeant le pavillon Cho-on-sai. L'artifice paysager recourt ici avec virtuosité au principe du shakkei (la « vue empruntée ») : le relief boisé de la colline de Himeyama et les toitures immaculées du grand donjon de Himeji s'invitent au-dessus des cimes des pins noirs taillés en nuages, intégrant la forteresse comme décor naturel d'arrière-plan."
+      },
+      {
+        title: "Pavillon de thé Sōju-an et enclos thématiques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNhiGSJwiJEIFKtt7wEuDCgC-aFy2k83T66BKyA5YbImgyI7moqdC0kAKAXjJK3-ReJfqQKOrDspesl5pYeRuUVaT81OVuxiljR1RDRzjTBl64K1YUiY1d6sMiDGrmr_TqDEqmgZdlG0BmjENWrQskVrA=w1586-h1193-s-no-gm?authuser=0"
+        ],
+        text: "Le parcours traverse successivement le jardin de la cérémonie du thé (Cha no Niwa), qui abrite le pavillon de thé Sōju-an bâti dans le style dépouillé sukiya-zukuri sous la supervision de l'école Urasenke, le jardin des conifères, le jardin des bambous où se balancent une quinzaine de variétés rares, ainsi que le jardin des herbes médicinales, rappelant la pharmacopée que les seigneurs de Himeji cultivaient autrefois pour soigner leurs troupes. Reliés par des allées pavées de galets et de passerelles de cèdre suspendues au-dessus de l'eau, les jardins Kōko-en constituent une immersion vivante dans l'art de vivre et la contemplation esthétique de l'aristocratie samouraï."
+      },
+      {
+        title: "Perspectives végétales et allées traditionnelles",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPU5eCS74fsqsMRzyjmOk4r16wb1FFMDM2Dg0UCCf55MvBrEk-2TWnzNobcGZIRhJBqjEWAj3vqAtBeT9GBusSXz0f-fTlZ90JTiijoshlnNF2HW7LhnzXV15dqV6PHQvAc5XlnJAu_4mwizEAkJcPSGw=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNoKg7bYzuGeN88xYPO-Z3jHbVaTfoocTVEvBfVSyw8_YIVCSpEbSdRoygZi6-YXHsYglbYHBOPSsw6P2ZQTAYXLHLsnioN7tiKJzbfxjaotIdp2WueZZ_jjmpYTnkR71PIaNEX0coQvj0XvcxWcxj2yA=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
-   {
+  {
     id: "tatsuno_chateau_tatsuno",
     name: "Tatsuno - Château de Tatsuno (Tatsuno-jō)",
     country: "Japon",
@@ -7956,7 +7995,33 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczPb2kZE9iXDXFrQiFr-bulNX4scu-N-FmRJYfMye5P3k4qsVXyS8vEHbFeZzPinyASY_mWhnm1SMGoy1LZbOIjsw13LFN4ZiBtcOfwlXFwIoqSzayUO79ED7qUHHdqO6gdLWVXpm7FU_LAgFfxZjOXbsQ=w1221-h919-s-no-gm?authuser=0",
     description: "Édifié originellement en 1499 par le clan Akamatsu au sommet du mont Keigo sous la forme d'une place forte de montagne (yamajiro), le château de Tatsuno fut profondément remanié en 1672 sous l'époque d'Edo par le seigneur Yasumasa Wakisaka pour devenir une forteresse de plaine au pied du relief (hirayamajiro). Fief seigneurial dominant la vallée fertile de l'Ibo-gawa et le quartier historique préservé aux façades blanches de la « Petite Kyoto du Harima », le domaine castral se distingue par ses imposants murs de soutènement en pierres cyclopéennes, ses douves asséchées et ses courtines immaculées. Reconstruit fidèlement selon les techniques artisanales traditionnelles en charpente de cèdre et toitures de tuiles sombres kuruma-gawara, le complexe comprend un élégant logis seigneurial (Honmaru Goten), des tourelles de guet d'angle (yagura) et une monumentale porte fortifiée d'honneur (Uzumon), témoignant de la grandeur militaire et politique des daimyos sous le shogunat Tokugawa.",
     visiter: "Franchir la puissante porte en bois massif Uzumon et longer les hauts remparts de pierre moussue bordés de cerisiers pour accéder à l'esplanade du Honmaru. Visiter les appartements intérieurs du palais seigneurial Goten, où l'on découvre de vastes enfilades de tatamis parfumés, des cloisons coulissantes en papier washi et des pièces d'exposition présentant des armes de samouraïs d'époque, des sabres, des armures laquées et des cartes cadastrales féodales du domaine de Tatsuno. S'attarder sur la galerie d'observation extérieure pour embrasser un panorama plongeant sur les toits d'ardoise de la vieille ville marchande, les fabriques séculaires de sauce soja et la silhouette boisée du mont Keigo où subsistent les vestiges de la forteresse primitive médiévale.",
-    link: "https://photos.google.com/u/0/share/AF1QipPUxlujlWKyir2WyoJjhQ68Tu0ol8DL1aIB8mm27u1PhEE0D_xYCyXm77LXyuWdAQ?hl=fr_CA&key=b0V2ZTg4alNnZ0FETldBZ1RZNnlfNlN5OUg3NGtB"
+    link: "https://photos.google.com/u/0/share/AF1QipPUxlujlWKyir2WyoJjhQ68Tu0ol8DL1aIB8mm27u1PhEE0D_xYCyXm77LXyuWdAQ?hl=fr_CA&key=b0V2ZTg4alNnZ0FETldBZ1RZNnlfNlN5OUg3NGtB",
+    sections: [
+      {
+        title: "Transition vers le modèle hirayamajiro et clan Wakisaka",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPb2kZE9iXDXFrQiFr-bulNX4scu-N-FmRJYfMye5P3k4qsVXyS8vEHbFeZzPinyASY_mWhnm1SMGoy1LZbOIjsw13LFN4ZiBtcOfwlXFwIoqSzayUO79ED7qUHHdqO6gdLWVXpm7FU_LAgFfxZjOXbsQ=w1586-h1193-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOQ-RyGTDS0bmvwpV3h53OidlRIIfq9NxPCYzUQ5PdB6KpKB1LUAwajc2RO6v9g-UEwIahc3zouShZ_QdVjSD41jaAgrg95onJK9U7x2HZ70iqfdQn4MzIh1dofZpNhYPacgNRC_DU-1HfywJsf4QcNwg=w1586-h2106-s-no-gm?authuser=0"
+        ],
+        text: "Passée sous le contrôle de Toyotomi Hideyoshi lors de sa campagne de conquête du Chūgoku à la fin du XVIe siècle, la place forte fut profondément restructurée avec l'avènement de la paix Tokugawa au début de l'époque d'Edo. Le modèle de nid d'aigle médiéval fut alors délaissé au profit d'un château de pied de colline (hirayamajiro), déplaçant le cœur du pouvoir seigneurial vers la plaine pour en faciliter l'administration civile et le raccordement aux axes fluviaux. Après plusieurs transferts de gouverneurs, la seigneurie échut en 1672 au clan Wakisaka, qui régna sur le fief pendant près de deux siècles jusqu'à la chute du shogunat. Dépourvu de donjon pyramidal traditionnel (tenshu), le complexe s'articulait autour d'un grand palais résidentiel fortifié et d'élégantes cours d'apparat, symbole d'un gouvernement daimyō pacifié qui sut faire prospérer la cité grâce au commerce fluvial, à la fabrication séculaire de sauce soja claire (usukuchi shōyu) et aux nouilles de blé sōmen d'Ibonoito."
+      },
+      {
+        title: "Restitution patrimoniale du Honmaru Goten",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOiV_YaqTchjHn3y-FPM3SHGS49rE8WPxLWKV_QOBhilstrX1ykOy9nMa2Wwco6nkRnPpV0QBc1bhUGO-S4nU5ZnEKYwmwpMF-0XML6yn96a4DGK2Ibdnc8msKdVTF_DPMFCC1dZ9oZad22GfDRdFyxWg=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOkGfnnqFLKUwIfl_-LC9lOud0M3dvQaWncK2AZWK2O2rgnlywg9Yf3jCZPtCpbY1J-344x0og0u5UDF0aT32FO_4I9D2gUsPXJVWW2JXzMe_G9HMalZPgpUUnjVHJKlNcbPURU2cCF9ATTBDazv2-hcw=w1586-h1193-s-no-gm?authuser=0"
+        ],
+        text: "Démantelé en 1871 sous le décret de l'ère Meiji ordonnant la destruction des forteresses féodales, le domaine a fait l'objet d'une campagne de restitution historique scrupuleuse en 1979. Bâti d'après les relevés et plans d'archives du XVIIe siècle, le palais du grand logis (Honmaru Goten) déploie de sobres appartements en bois noble couverts de tatamis et de toitures en tuiles vernissées, ceints de murets de terre crue blanchis à la chaux (shikkui), de portes fortifiées dont l'emblématique Uzumi-mon, et de tourelles de guet d'angle (yagura)."
+      },
+      {
+        title: "Buke-yashiki et cerisiers du domaine",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOLoGxUyAiOsg_rpjsMb3DUIc_05WnXGh12o_BhytXUf0YyZtBADz5j9tjBhyUMCEQUim2MnoygUYk77LLt5J9dRnrbdfyAaBui5WeQ-Kv--RYaz_utNVdE6fqK5cbCLVUpCa9Oy2rHlPq7hKpAlCqmkA=w1586-h1193-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNYeQktxLH0L3K_-h3lrxv5U__WFy4HVshD_nY2Z1DKZmxDvYJiU8Kh2Wk3BEZA0tdX0aCfzMjKHG1AMFS0kJY1GUOAeJhsYh6wuglCv0sBiX2EiXw6w4eiRBXAVXDC9KI624MAQZ8jXk2YAX4v0nbNNw=w1586-h2106-s-no-gm?authuser=0"
+        ],
+        text: "Enserré par des centaines de cerisiers qui subliment ses remparts de pierre au printemps, l'ensemble prolonge naturellement le quartier des résidences de samouraïs (buke-yashiki), offrant l'un des rares témoignages fidèles de palais seigneurial restauré dans le sud-ouest du Kansai."
+      }
+    ]
   },
    {
     id: "shinonsen_port_igumi",
@@ -8001,9 +8066,15 @@ const travelSpots = [
     century: "",
     category: "plage",
     counts: {},
-    lat: 35.605430,
+    lat: 35.60543,
     lng: 134.370861,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMCmDXOOp2AmaYye-LuyP1wTBKQXO3zOPmLRG4DclkHAPHuwoTGE9vpiCN5EHy2LggZEoIc14LSjb5DfwSuWNr76986A-IPblF5c0Xp9OVD85LbXvx9FmE7bi7ePrbZemxhLmCSHhVznjY55ZsjVQst8w=w1221-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOynYL2s7DQZGkVNv3GPU7r-YF7VZAuB9EQe23-XHIOTazhZM6-nMVWk9xsk8sQVqexqsq6fNH5R9VIz9hHSKu_gK4vZkQhZ3kQYj-o1pXMJZimeHFJz3TRq-nkBsD-Yr5babjqpIoeetNn1mLo1iWIfQ=w1586-h1057-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Écrin sauvage et préservé de la côte d'Uradome au sein du géoparc mondial UNESCO San'in Kaigan, la plage d'Arashigahama offre une anse marine spectaculaire cernée de falaises rocheuses couvertes de pins maritimes noueux. Façonné par des millions d'années d'érosion marine et d'intempéries hivernales caractéristiques de la mer du Japon, ce rivage mêle galets polis et sable doré bordant des eaux d'une limpidité cristalline exceptionnelle. Véritable havre de nature brute à l'écart des grands flux touristiques, le site dévoile de saisissants contrastes entre la blancheur de la roche granitique sculptée par les vagues, la verdure profonde de la végétation littorale et la palette turquoise du plan d'eau.",
     visiter: "Descendre le sentier escarpé serpentant à travers les sous-bois de pins côtiers pour atteindre cette grève isolée et silencieuse. Longer le bord de l'eau pour observer de près les cavités d'érosion, les récifs submergés et les empilements de galets multicolores battus par le ressac. Profiter de la clarté saisissante des eaux pour une séance de baignade vivifiante ou de snorkeling le long des tombants rocheux, tout en admirant les perspectives marines ouvertes vers les îlots sauvages émergeant au large.",
     link: "https://photos.google.com/u/0/share/AF1QipNotf_9dJvJ1HrGUeURi4zx3V946GW9cpHOV6y7aIpRYSfE29Em-4q4Qs0FE8Hcfg?key=X3VlMDdITVZVa2NQQk9KNWZzTGs5akpDOTFsUHFR&hl=fr_CA"
@@ -8029,6 +8100,24 @@ const travelSpots = [
     lat: 35.589115,
     lng: 134.300699,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPi2znRo5H-g5wOqoHpVJHRhwm4AKkFmEQLbmUHhgMElir_zpH9owLXdK38wK5g5Xv43UwudDXmmaM5cNT8S64bdMcPQsssYH57lFPkEcOp2GXkefyKoqzB9UjlKz9eL3F1JNcD3tRNxYegOwU5awuF1A=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPBTcF36r1cyRkT3T4gk3OAiLM12Z2NY-7KEeUAva0wMrCJA6t7RB9UOj2zr3qStcN44dS9q_2sVpaipnbrsAfGcnB2-MCfzkdq4qTaA0imf171ufKQRLmXcnrdL-o3vPHA2she48Dh1W8bA6KhrqFGMg=w1586-h1193-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPGLkeokQkc1Oii4PQbiT7S2S-Z1k-lnmR2HeKE-jnkflrBoo40s-TVXVsTPAZa-pXAr7U6pbRP3EV2QPuw9UUoKMhhNtXex3K_4VksKvYSiK6vFKZQM0G7FxCCQtimbstpSaNZ_SbRx7_Fed95CDlWHA=w1586-h1193-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOzF6OWhpaj4De8ynXSAVcKSDtMNnkeWSZwZ2fh7ERlJWLk2r8rM7exMxeMgEivbViSabzB6gBx4QpRJ0gLMJg19Q0AYqNK4xD5w4NLNTYVKxOBy6UBOfwhvM-IeojTC8LRfHI1XAcioBYkTMPIRX6XMA=w1586-h1057-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPJNj_0YFI0jWSv6xV8OmYJOFZMEbh4jARfGUyrFHviUbKCMeIjiSreivS0vr38H_y4LC5WsYXP-VS46FTRkQJHQk4OdBXT2pvu_gKQWbTVdSCX9dTmslMgIcAvO-a7XUQE1uF0GEYU5R0jyWGvttmvcQ=w1586-h2106-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Considéré comme l'un des joyaux géologiques les plus célèbres de la côte d'Uradome, le site de Kamogaiso déploie un paysage marin féerique composé d'une anse sablonneuse parsemée d'îlots rocheux et de pitons de granit blanc coiffés de conifères japonais. Ce chaos minéral sculpté par la puissance des vagues et les vents marins présente un dédale d'arches naturelles, de failles et de récifs immergés baignés par des eaux d'une transparence tropicale oscillant entre émeraude et saphir. Cité comme l'une des étapes emblématiques du géoparc mondial UNESCO San'in Kaigan, Kamogaiso offre une synthèse magistrale de l'esthétique paysagère côtière nippone, immortalisée depuis des siècles par les artistes et poètes contemplant la mer du Japon.",
     visiter: "Emprunter les passerelles et sentiers de randonnée côtiers aménagés en corniche qui surplombent la crique avant de descendre directement sur la grève de sable clair. Parcourir les platiers rocheux à marée descendante pour contempler les cavités marines, les arches naturelles forgées dans le granit et les piscines de marée peuplées d'anémones et de petits crustacés. S'avancer le long de la plage pour saisir les contrastes visuels saisissants entre la blancheur éclatante de la roche, le vert profond des pins accrochés aux crêtes et la clarté abyssale des lagons d'Uradome.",
     link: "https://photos.google.com/u/0/share/AF1QipNotf_9dJvJ1HrGUeURi4zx3V946GW9cpHOV6y7aIpRYSfE29Em-4q4Qs0FE8Hcfg?key=X3VlMDdITVZVa2NQQk9KNWZzTGs5akpDOTFsUHFR&hl=fr_CA"
@@ -8062,13 +8151,11 @@ const travelSpots = [
     id: "toyooka_genbudo_park",
     name: "Toyooka - Parc Géologique des Grottes de Genbudō",
     country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
     region_admin: "Kansai",
     department: "Préfecture de Hyōgo",
     subdiv: "Toyooka",
-    continent: "Asie",
-    flag: "🇯🇵",
-    lat: 35.588530,
-    lng: 134.804707,
     altitude: 25,
     is_island: true,
     island_name: "Honshū",
@@ -8078,22 +8165,56 @@ const travelSpots = [
     century: "",
     category: "volcan",
     counts: {},
+    lat: 35.58853,
+    lng: 134.804707,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMsO7gUtoQqTldjIVJDgEwGQA9EgQ4Ul6G0IjCaQHKKEJHAIUFDeCcoXmTqgBzmh5TTWlWcmxGBJ2XOtJ8PE1krgoxdcZxFZweqkGNIqOU8lEPtW5QbpD-bmuQgwCwHQgeEoa8OQ17W4Fn5Z-jYilV8qA=w2500-h1667-s-no-gm?authuser=0",
     description: "Site naturel et géologique spectaculaire bordant la rivière Maruyama, le parc de Genbudō abrite cinq cavités nées du refroidissement d'une coulée de lave volcanique survenue il y a environ 1,6 million d'années (Pléistocène). En se solidifiant lentement, le basalte s'est rétracté pour former d'impressionnantes colonnades prismatiques hexagonales et pentagonales (orgues basaltiques). C'est précisément en étudiant l'orientation magnétique des minéraux de ces parois en 1926 que le géophysicien japonais Motonori Matuyama découvrit l'inversion du champ magnétique terrestre, une avancée scientifique fondamentale pour la géologie moderne.",
     visiter: "Suivre les sentiers aménagés reliant les cinq grottes principales, chacune nommée d'après l'une des quatre créatures mythologiques célestes : Genbudō (la tortue noire), Seiryūdō (le dragon bleu), Byakkodō (le tigre blanc) et Suzakudō (l'oiseau vermillon). Observer de près la précision géométrique stupéfiante des orgues de basalte dressées à la verticale ou incurvées en éventail. Admirer les eaux calmes du bassin reflétant la paroi de Seiryūdō et visiter le musée adjacent présentant de remarquables spécimens minéralogiques et des fossiles découverts dans la région du géoparc San'in Kaigan.",
-    link: "https://photos.google.com/share/AF1QipNHqMHL_7SfOOebUsfihtPZgGMLCn1oe35fxna2Gela_KTco3kKxBr-c43Vfpze6g?key=ekw0TTc2eVAzVkpoajI4a2RKMGJPbmduVE5VOHR3"
+    link: "https://photos.google.com/share/AF1QipNHqMHL_7SfOOebUsfihtPZgGMLCn1oe35fxna2Gela_KTco3kKxBr-c43Vfpze6g?key=ekw0TTc2eVAzVkpoajI4a2RKMGJPbmduVE5VOHR3",
+    sections: [
+      {
+        title: "Contraction thermique et géométrie prismatique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMsO7gUtoQqTldjIVJDgEwGQA9EgQ4Ul6G0IjCaQHKKEJHAIUFDeCcoXmTqgBzmh5TTWlWcmxGBJ2XOtJ8PE1krgoxdcZxFZweqkGNIqOU8lEPtW5QbpD-bmuQgwCwHQgeEoa8OQ17W4Fn5Z-jYilV8qA=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMEDPXrpvziE8wz80937ATNHXPSki-XPqLZyLpVwPe5QjgaMpohZNQcEHSgJ1q1u31bDmxD-oidV1cx-FJnPGNazzdNOq_fjbpjxSRlZfe5n17QrePdn8GjYicSFQwMoPKJ2IOKoZTk36-Q64wtrH3T-w=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "Le lent refroidissement de la roche magmatique a provoqué un phénomène de contraction thermique uniforme, fracturant la matière en faisceaux de prismes polygonaux — généralement pentagonaux ou hexagonaux — d'une régularité géométrique remarquable, mesurant entre trente et cinquante centimètres de section. Selon les gradients thermiques et les contraintes tectoniques de l'époque, ces colonnes s'élèvent en parois rigoureusement verticales ou s'incurvent en gerbes ondulantes évoquant des draperies minérales fossilisées."
+      },
+      {
+        title: "Carrières féodales et cosmologie des quatre gardiens",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPr2S-m8c9_3makfnVRepJnC6moy01B2n8cOPCqbgt_uABWPSkUFWqgg5fdUM3zvoeDqKtNBP1NNXTiGAEy4eSexQSLMZlT0zOWP5OBY-MkT8PnU0h7hmhkkIjmsUNR46qhQwrAJiSRwE90ZM_pinG5NQ=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMxqZubV0sjOfqbkQoN3LB7Xzy0bot7jDqLtJiikI_IRy-hR58vHBITSfuAxUhnsPIZGkzc5rGb-Wv6rOvXMelNzREx0-ohCFdvHRQEc0K-z_wcCKg7tjl446SLWQa20Ai1W94k51Hu9YRKMsPdH3WYoA=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "Exploitées dès l'époque d'Edo pour l'extraction de blocs de construction servant aux digues fluviales et aux fondations de la station thermale voisine de Kinosaki Onsen, ces carrières à ciel ouvert ont mis au jour d'impressionnantes salles souterraines. En 1807, le lettré confucéen Shibano Ritsuzan visita le lieu et, frappé par l'assemblage polygonal des prismes évoquant les écailles imbriquées d'une carapace de tortue, lui attribua le nom de Genbudō en hommage à Genbu (la Tortue Noire du Nord et gardienne des eaux), l'une des quatre créatures mythologiques de la cosmologie sino-japonaise (Shijin). Ce baptême inspira directement le savant Kotora Jinbō qui, en 1884, choisit la désignation de genbu-gan (玄武岩) pour nommer le basalte dans la minéralogie japonaise moderne. Les autres grottes du complexe portent également le nom des gardiens célestes cardinaux : Seiryūdō (le Dragon Azur de l'Est, dont la muraille verticale de quinze mètres plonge dans un étang miroitant), Byakkodō (le Tigre Blanc de l'Ouest, caractérisé par ses prismes couchés à l'horizontale), ainsi que Kita-Suzakudō et Minami-Suzakudō (les grottes jumelles de l'Oiseau Vermillon du Sud)."
+      },
+      {
+        title: "Découverte de l'inversion géomagnétique par Motonori Matuyama",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMyys5ocZNXZHejKsR_7bbm6qKwGKxdFbHzrvWsjgpJWZxLQdvQKMARbdjADYg8RyLSyr1w7BTyM8my_o80BuqiHXoPF2FC-0DrijQ8b1zcpk1GEx8iwWnOjlFoRjOcSFbXtaC1G5TcAGtDLGZlZWpA9A=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNMmwST94jyUpW6G7q_JNuKoDciyAqimmKiPp1R2epxPR-WjrV15URdrdF_rit4DPZrK8M4GuWeYlxtp4kxGsyeMC6XXz4FIY4_ZyqdYn6QUbPfwZyvYQ-hVrblwvVGX8LAfvlqh33bU8mmR2xfhMIIPw=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "Genbudō occupe en outre une place de premier plan dans l'histoire des sciences de la Terre. C'est en prélevant des échantillons sur ces colonnes de basalte que le géophysicien japonais Motonori Matuyama, professeur à l'université impériale de Kyoto, découvrit entre 1926 et 1929 que l'aimantation thermorémanente piégée dans la roche était de polarité rigoureusement opposée à celle du champ magnétique terrestre contemporain. Ces observations pionnières apportèrent la première preuve empirique de l'inversion périodique des pôles magnétiques de notre planète, une découverte fondamentale qui servit plus tard de clé de voûte à la démonstration de l'expansion des fonds océaniques et de la tectonique des plaques. En hommage à ses travaux fondateurs menés sur ce site, la plus récente grande période d'inversion géomagnétique — s'étendant d'environ 2,58 millions d'années à 780 000 ans avant notre ère — a été officiellement désignée par la communauté scientifique internationale sous le nom d'époque de polarité de Matuyama, qui s'achève par la célèbre transition de Brunhes-Matuyama."
+      },
+      {
+        title: "Protection patrimoniale et classement naturel",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNj2juGUhZBEFON2hu0uvFISDLskpfcqn9K0e_TYfoQi-ky5v4yKpV2HEAvOVfzqh_q63th8BD5hvh-c9g5upddnRiBplHREjK6sUmsQJAfGHzd9t35dDlGMc9a2sxOOr4Vr8KXcoFnCxgaEZtHqk-cvg=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPb9XfGYsMSAXkx098WLRQUzMoGzzdOVtBdXA-Ap1PVyC7yLBH2aAA0A4Yk0ubEXv1f3u_Ye3BRwS-EGwmxLAJFad4aZAOd95G7ZE2cmBoiyl7wA-lXpYVgfaCJFDdwapiaeSnOqM9AVJZA4d-82yuiuQ=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "Classé Monument naturel national (Tennen Kinenbutsu) dès 1931, le parc a bénéficié de réaménagements paysagers contemporains permettant d'admirer la texture de ces parois sculptées tout en préservant l'intégrité physique de ce sanctuaire de la géologie mondiale."
+      }
+    ]
   },
   {
     id: "toyooka_kinosaki_onsen",
     name: "Toyooka - Village Thermal de Kinosaki Onsen",
     country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
     region_admin: "Kansai",
     department: "Préfecture de Hyōgo",
     subdiv: "Toyooka",
-    continent: "Asie",
-    flag: "🇯🇵",
-    lat: 35.625765,
-    lng: 134.807645,
     altitude: 10,
     is_island: true,
     island_name: "Honshū",
@@ -8103,10 +8224,39 @@ const travelSpots = [
     century: "VIIIe siècle",
     category: "star",
     counts: {},
+    lat: 35.625765,
+    lng: 134.807645,
     image: "https://lh3.googleusercontent.com/pw/AP1GczORQZpGdZPVa5eWQKV-O1z89jQcy77BtD1mSf7QUs4tzEA78bfvclCKW7XcEJAOZ8F35iXmsEby2XJoUv0CUag2tgrUpnk51R5wowqarYzjWA_3OmHtszquPOBlNtpfsU75kVLWdAP-w2_td_dxxg4grg=w1984-h2635-s-no-gm?authuser=0",
     description: "Célèbre cité thermale réputée depuis plus de mille trois cents ans, Kinosaki Onsen s'étire le long du canal Otani ombragé de saules pleureurs et enjambé de pittoresques ponts de pierre voûtés. Découverte selon la légende par le moine bouddhiste Dōchi Shōnin en 717 après mille jours de prières continues, la station est le berceau d'une tradition balnéaire authentique où les visiteurs arpentent les ruelles pavées vêtus d'un yukata léger et chaussés de sandales en bois geta pour effectuer la tournée des sept bains publics sacrés (soto-yu). Le charme nostalgique de ses auberges ryokan a également inspiré nombre de grands écrivains du début du XXe siècle, dont Naoya Shiga.",
     visiter: "Revêtir un yukata traditionnel et enfiler des geta pour déambuler le long du canal bordé de lanternes à gaz et de façades en bois d'époque Taishō. Pratiquer le soto-yu meguri en faisant tamponner son pass thermal dans les sept établissements de bains publics aux vertus et ambiances variées, notamment Goshonoyu (le bain du palais impérial avec cascade en plein air) et Ichino-yu. Déguster les spécialités locales au gré des étals : crabe des neiges de Matsuba en saison hivernale, bœuf de Tajima grillé, ou glaces et œufs mollets cuits dans les fontaines thermales fumantes.",
-    link: "https://photos.google.com/share/AF1QipPbMybVwT70dG-fxC9dpMr9Kofb6vrj6_bAO_MzntChEQatvuxl4r7OdJxauWTxNA?key=dkd0WEFtYkNzQWlzeHUyVmZhOEFCQmNjRmxRd3RB"
+    link: "https://photos.google.com/share/AF1QipPbMybVwT70dG-fxC9dpMr9Kofb6vrj6_bAO_MzntChEQatvuxl4r7OdJxauWTxNA?key=dkd0WEFtYkNzQWlzeHUyVmZhOEFCQmNjRmxRd3RB",
+    sections: [
+      {
+        title: "Fondation sacrée de 717 et temple Onsen-ji",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOfHzroTeKCd4uiO6xt5EgurA13BV3iAXnyS6btFLzb5cwyvC7DCQZ6l239q6I-DGQMCS-R9-yp-zvWjJsoHaLaQH384dkDmjBlLUKOUQ1LWjb_251knISgy5t2xTkpVyW6L7ENFNaRhswZwi3-s1ttVA=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNTD7eNqZsP7B-9-kLVY8QA1gDmJkRebJfVLUBgzMXxl-kaKN_xkTPP6AIVNbEFLKpPhmgPjVhy4q8EE4-EoQxOcdgt03KvkPYdPtaPkek_zeuFx4JDot0u56iRGya73_mX_Mu6IriKrpexn8lzjFO17Q=w1586-h2106-s-no-gm?authuser=0"
+        ],
+        text: "L'histoire de la cité s'enracine au début du VIIIe siècle, sous l'époque de Nara. La tradition rapporte que le moine bouddhiste itinérant Dōchi Shōnin, guidé par une révélation divine pour soulager les souffrances des infirmes, s'imposa en 717 une ascèse de mille jours de prière (sennichi shugyō) au pied de la montagne. Au millième jour, en 720, une source d'eau chaude jaillit des profondeurs de la terre, donnant naissance au bain originel de Mandara-yu. Une seconde légende fondatrice attribue la découverte des vertus curatives du terroir thermal à une cigogne orientale (kōnotori), oiseau emblématique de la région de Toyooka, venue soigner sa patte blessée dans une eau de résurgence avant de reprendre son envol, inaugurant ainsi l'emplacement de Kōno-yu. Pour veiller sur ces résurgences sacrées, Dōchi Shōnin fonda le temple Onsen-ji, dédié au bodhisattva Kannon à onze têtes (Jūichimen Kannon). Durant toute l'époque féodale, un rituel strict imposait aux curistes de gravir la colline pour prier au temple, y acquérir une louche en bois (yubishaku) bénie et recevoir l'autorisation spirituelle de pénétrer dans les eaux bienfaitrices."
+      },
+      {
+        title: "Le rituel du soto-yu meguri et les sept bains sacrés",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNdB9j5EbGFf_P-69ezvuxhY30Btp6DjFxhT119lv6QAdv5137Q05WI3FPUvWg7YY7tL5M85bCd-hkXt6ACFckCYDQRbwVq6HSCiQmnJIBqS5_H-5WrlvwWxElw5W2HyIsgwnPfBQZgXUSYp3KNC0vTMw=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP4HCXq1CQ4gORRvlWsLm53S2JAPTzwUoMLAjK8PvCKdvn7a2IZEw4tIZ6gDRWtOuH1eVbE-8Rf1-XEVHysCytdN42Z2mkzvbVqJ8_s92FXp1A34Dui6b_tEVkRsgZLK3AVaUSck4gxai-cpO06EcHakw=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "Le cœur de la pratique thermale repose sur le soto-yu meguri, le circuit pédestre des sept bains publics extérieurs, tous alimentés par des eaux chlorurées et sodiques réputées pour apaiser les névralgies, les douleurs musculaires et la fatigue. Chaque établissement possède son caractère architectural et ses vertus propres. Gosho-no-yu, le « bain du palais impérial », évoque une noble résidence de l'époque de Heian avec ses charpentes de cyprès et son bassin extérieur dominé par une cascade rocheuse. Ichino-yu, dont la façade reproduit les proportions d'un théâtre de kabuki, abrite une vaste grotte naturelle creusée dans la paroi de la falaise ; il fut consacré « premier bain sous le ciel » au XVIIIe siècle par le célèbre médecin de l'époque d'Edo Kagawa Shūtoku, qui vanta sa supériorité médicale dans son traité Ippondō Yakusen. Le parcours se complète par Mandara-yu et ses cuves extérieures en bois dominant la verdure, Kōno-yu niché en lisière forestière pour favoriser la longévité, Yanagi-yu ombragé par les saules et protecteur de la maternité, Jizō-yu dont les ouvertures géométriques rappellent les orgues de basalte de Genbudō tout en veillant sur le foyer, et enfin Satono-yu, vaste établissement panoramique établi près de la gare ferroviaire."
+      },
+      {
+        title: "Mémoire littéraire de Naoya Shiga et renaissance de 1925",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczORQZpGdZPVa5eWQKV-O1z89jQcy77BtD1mSf7QUs4tzEA78bfvclCKW7XcEJAOZ8F35iXmsEby2XJoUv0CUag2tgrUpnk51R5wowqarYzjWA_3OmHtszquPOBlNtpfsU75kVLWdAP-w2_td_dxxg4grg=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNOSmZVhT5WmiLEpgODPzB5IvZxuV8yReiWOMjhzCXutSwflMGOV03e0AngYorR8iSRsKbAw32N6K4gV0GW6T7TAgQx9uWhXRIMGwzYTOu5iO1YkW2ZMU9whwHKvKugmUjc2DBdKOmArarDUQUxXoLUEw=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNB86j8TNekhlq-N4JJ4jpYKwzOyYybFlrF1MbJkY9PLwGjj9xVjV3aPWzcJVUqvzYk6Kl_yYT5u3V14HUn-jsRlDdeZKjXlwjK-VQEyR4KfKc4HpPkEH2RMYcjXpK1gnseJg67aE7t1_2vwi_PaRyAuA=w1586-h2106-s-no-gm?authuser=0"
+        ],
+        text: "Kinosaki occupe également une place d'honneur dans l'histoire littéraire japonaise moderne (bungaku no machi). À l'automne 1913, l'écrivain Naoya Shiga, figure majeure du courant humaniste de la revue Shirakaba, vint y passer trois semaines de convalescence à l'auberge Mikiya après avoir été grièvement heurté par une rame de train à Tokyo. Marqué par cette proximité intime avec la mort et observant la fin d'une guêpe, d'un triton et d'un rat au fil de ses promenades thermales, il publia en 1917 sa nouvelle autobiographique maîtresse, Kinosaki nite (« À Kinosaki »), modèle d'économie stylistique méditant sur la vulnérabilité humaine et l'acceptation sereine du destin. De nombreux autres maîtres des lettres, tels que Ryūnosuke Akutagawa ou Doppo Kunikida, y prirent leurs habitudes. Dévastée le 23 mai 1925 par le grand tremblement de terre de Kita-Tajima qui provoqua un gigantesque brasier détruisant presque toute la cité, Kinosaki fut rebâtie à l'identique par ses habitants, qui refusèrent le béton pour reconstruire leurs auberges en bois et leurs ponts de pierre le long des saules, préservant intacte l'atmosphère féodale de la vallée."
+      }
+    ]
   },
    {
     id: "hakone_jinja",
