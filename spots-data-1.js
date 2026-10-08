@@ -5160,7 +5160,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Île-aux-Moines",
     altitude: 3,
     is_island: true,
@@ -5170,11 +5170,25 @@ const travelSpots = [
     era_label: "Port d'escale maritime reliant l'île à Port-Blanc en cinq minutes de traversée",
     century: "XXe siècle",
     category: "rando",
-    counts: { rando: 1 },
+    counts: {},
     lat: 47.598415,
     lng: -2.848765,
     image: "https://lh3.googleusercontent.com/pw/AP1GczObI6PWQMrWBBz-uNfi7lf2XRNPbyQHjBDRJiNaGCFA5MOU6fQnFG8qUvvQQ8HxLXLUlrQUY_VZUVas_6YBD60jE96GJPRoWJa2Nqn8ebvA-Y4bLZJS0Bm6NZeOAJcpMpdMOmZs71xRWb9s3PsgBdiTrA=w2642-h1989-s-no-gm?authuser=0",
-    description: "Porte d'entrée emblématique de la perle du golfe du Morbihan, le port du Léresto accueille les vedettes insulaires reliant en quelques minutes la pointe de Port-Blanc sur le continent à l'Île-aux-Moines. Animée par le va-et-vient des bateaux traditionnels, des doris et des loueurs de bicyclettes, cette anse abritée offre un premier contact pittoresque avec l'ambiance insulaire piétonne, bordée de cales de granit et dominée par les terrasses de café donnant sur le chenal.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOHHzVttTlpWf-dfqj7ktvLsIR4GI08LBVD0RkYNCp8U9k820PUuiEOxCdFQYTMSYFQbUdEtpk3EZR4vjyltfCqldPepsOa6Xp3X4EOS1gACuQ_ScUrJQjhL3GWN9d2K9LVGLHPm0Ra-QrQFoCF3IT9Zw=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPPvSJrpWSRqNkG2i4nnLqdSozf3oMBUJA_PpQtKQzRL0tRoPr5ksQbYgMY1pH1jUUDRPDsw0lW9O9A0dar_qxScxRuR3rgzNYsjAS14hmbazkRV90f6opkLvcE6B_fRaNfl0BTmfU213hlOBXLQNB67A=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNSRhsnpvezyqwRk4IDzQAHzqXkRGeZl-gaA76MHkdKhP6jxAhJA8aUADlvmukIr-RdJecHY5I3oxTVAYXNfs611RaPq_8epFgMjYuac7921kgQ_ZDGxzJXIvSwHwKcvv22Y6eReztCpi2g4D4Akp45_A=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Porte d'entrée maritime incontournable et cœur palpitant de l'Île-aux-Moines, le port du Léresto accueille tout au long de l'année les passagers et insulaires débarquant des vedettes qui effectuent la traversée en seulement cinq minutes depuis la pointe de Port-Blanc sur le continent. Aménagé dans une anse naturelle abritée des vents dominants d'ouest, ce havre pittoresque s'articule autour de robustes cales en grand appareil de granit appareillé qui plongent en pente douce dans les eaux vives du golfe du Morbihan. Dès la passerelle franchie, le visiteur est immédiatement saisi par l'ambiance singulière de cette île sans voitures, où la bicyclette et la marche à pied règnent en maîtresses absolues pour sillonner les sentiers côtiers et les venelles fleuries du bourg. Le quai principal déploie une animation permanente et chaleureuse, rythmée par les boutiques des loueurs de vélos, les étals de produits locaux, les terrasses de cafés offrant une vue imprenable sur le chenal et les va-et-vient des marins pêcheurs et ostréiculteurs. Le plan d'eau miroitant offre un spectacle nautique perpétuel où se croisent doris traditionnels, plates en aluminium chargées de poches d'huîtres, voiliers modernes au mouillage et sinagots historiques aux voiles carguées rouge cachou. À marée haute comme à marée basse, les courants puissants de la passe animent le paysage marin, révélant les balises maritimes et les perches d'alignement qui guident les embarcations à travers les dédales de la petite mer. Véritable sas de décompression entre la frénésie du continent et la douceur de vivre insulaire, le port du Léresto marque le point de départ privilégié des randonnées menant vers la pointe du Trech, la pointe du Brouel ou le sanctuaire préhistorique de Kergonan.",
     visiter: "Débarquer sur le quai animé et contempler le ballet des sinagots et voiliers traditionnels évoluant dans le détroit marin. Louer un vélo ou lacer ses chaussures de marche pour entamer le grand périple pédestre autour de l'île en s'imprégnant de la douceur microclimatique locale.",
     link: "https://photos.google.com/share/AF1QipN0IBf9VXEF8vsQECkipbYNwuKHKHzqNAd2_qf3PY9SD-tMVl8PzJIDYTDzk7RPSw?key=VjhtV1U2dlBGWXRkVnYyZTZyX1hxUlpJR0NTWnlR"
   },
@@ -5185,7 +5199,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Île-aux-Moines",
     altitude: 22,
     is_island: true,
@@ -5199,7 +5213,13 @@ const travelSpots = [
     lat: 47.597746,
     lng: -2.844814,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPCYQRZBVluzd2flp51T3FtbugQKYVns6zutGiHYG1_hSs2w-ae7GjFeqKQKcz3SnMCKyu7-lTcm_SMjrnGU-6eehMo8EEMBFQ4MDEMe7qZmzsrlQRPYJB5Wk96Npo4GlCFC-G5KflScGtG43MOXROL-Q=w1984-h2635-s-no-gm?authuser=0",
-    description: "Édifiée en 1854 sur un point haut dominant la montée vers le bourg, la chapelle Notre-Dame d'Espérance est un haut lieu de ferveur maritime où les familles de marins venaient implorer la protection de la Vierge lors des périlleuses campagnes de pêche et de cabotage au long cours. Cette sobre chapelle en moellons de granit surmontée d'un clocheton ajouré abrite une nef lumineuse ornée d'ex-voto marins, de vitraux évoquant la vie insulaire et d'une statue tutélaire de Notre-Dame.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPfD-p-zg37mPqLl2uM9lp7zsXT20CEAh5CR7CMzbGuPj6f5YxMFLhFDH-nyYDiGepdiXI6u5Lk_ATAcs5K1HDIoVgN_T_HbnJMksCwTepzVkJgtf8-xibpjASbrEX_JG4Ur0d4O7-0F1w72-I9Lh6qtg=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressée en vigie spirituelle sur les hauteurs verdoyantes qui dominent la montée depuis le port vers le cœur du bourg, la chapelle Notre-Dame d'Espérance est l'un des lieux de mémoire les plus émouvants du patrimoine maritime de l'Île-aux-Moines. Construite en 1854 grâce à la piété et aux souscriptions volontaires des familles insulaires, elle incarne la ferveur indéfectible d'une communauté tout entière tournée vers l'océan, dont la subsistance reposait sur les campagnes de pêche et les navigations au long cours. Bâti en moellons de granit appareillés et coiffé d'un toit d'ardoise que surmonte un élégant clocheton ajouré, ce sanctuaire néogothique présente un plan rectangulaire sobre et harmonieux, conçu pour braver les tempêtes océaniques. L'intérieur baigné d'une clarté tamisée invite au recueillement et conserve une collection inestimable d'ex-voto maritimes : de méticuleuses maquettes de trois-mâts, de frégates et de goélettes chevillées en bois y sont suspendues aux voûtes, offertes par des marins rescapés de naufrages en remerciement de leur salut miraculeux. Les vitraux colorés filtrent une lumière douce sur les plaques commémoratives égrenant les noms des disparus en mer, tandis que la statue tutélaire de Notre-Dame d'Espérance accueille les prières des visiteurs. Entourée d'un paisible enclos planté d'hortensias, de mimosas et d'eucalyptus parfumés, la chapelle demeure un havre de sérénité et le témoin poignant des destins maritimes morbihannais.",
     visiter: "Pousser la porte de bois pour se recueillir dans le calme de la nef et observer la finesse des maquettes de vaisseaux suspendues en guise de remerciement pour les marins rescapés des tempêtes de l'Atlantique. Découvrir l'enclos arboré d'hortensias et d'eucalyptus qui entoure ce sanctuaire paisible.",
     link: "https://photos.google.com/share/AF1QipN0IBf9VXEF8vsQECkipbYNwuKHKHzqNAd2_qf3PY9SD-tMVl8PzJIDYTDzk7RPSw?key=VjhtV1U2dlBGWXRkVnYyZTZyX1hxUlpJR0NTWnlR"
   },
@@ -5210,7 +5230,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Île-aux-Moines",
     altitude: 12,
     is_island: true,
@@ -5224,7 +5244,17 @@ const travelSpots = [
     lat: 47.606886,
     lng: -2.838129,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOB7sZqoRFcgOhJGCZyj_2lqoQNmJEBYEbJBivRI5Medb__IdTMcOM73CP5jhNrt81E88JaNR2oJd1Be8UMJzqjnwDLyNbA0klVk1BCgPEA0-eGqF-WmyAW1pjIyZbsholoXq-jLbD98eXOyf6CRe3ITQ=w1984-h2635-s-no-gm?authuser=0",
-    description: "Éperon granitique le plus septentrional de l'Île-aux-Moines, la pointe du Trech s'avance audacieusement vers la pointe d'Arradon, resserrant le passage maritime du golfe où circulent de puissants courants d'estran. Coiffée d'un calvaire de granit dressé face aux flots en mémoire des péris en mer, la pointe offre un panorama imprenable sur l'archipel intérieur, les îles voisines de Logoden et les parcs ostréicoles battus par les marées.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPnD6g6V03_-qDvfOIIEKfk9u2_ARlLd_dGHoYrjIqSsg4-f5wirn0EVgtNsewbBpmmEYEX-jgZrvKDnA7CLyDoBkAs8L16Axqp1yyCA9U3AtBFOHrd6LlKq2E00NjLAZjMxCSTo_A0hRZKRRQRVM6ETQ=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNHfgk7-2iV0TCU_UQRn_dBj-cUuwxmnOLEzIxF9pkXn5aMRfpw67WuTxwjvR-pI0UIKbcg-K5x7zKCiBC-5J9fdkH61zIXPYymebC4aUuOOKyp_i4Eo6vGMG_WLgb7_q9ZAY31AIa6IJ3TK0i8WwcPcg=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Éperon de terre et de granit formant l'extrémité la plus septentrionale de l'Île-aux-Moines, la pointe du Trech s'avance avec hardiesse vers la côte continentale d'Arradon, créant un détroit resserré où les eaux du golfe du Morbihan s'engouffrent avec une remarquable vivacité. Ce passage maritime stratégique — dont le toponyme breton « trech » évoque le franchissement ou le passage — est réputé pour ses forts courants de marée qui imposent de subtiles manœuvres aux voiliers et aux embarcations traditionnelles naviguant entre les îles. Au sommet de cette avancée rocheuse balayée par les vents du large se dresse un calvaire monumental en granit érigé au XIXe siècle, sentinelle de pierre dressée face à l'immensité marine pour protéger les navigateurs et honorer le souvenir des marins disparus en mer. Le site offre un belvédère naturel exceptionnel, embrassant dans un panorama grandiose la pointe d'Arradon, les îles verdoyantes de Logoden, l'île de Roguédas et les étendues miroitantes du bassin intérieur du Morbihan. Les pentes douces du promontoire sont tapissées d'une lande côtière d'ajoncs d'Europe, de genêts et de pins maritimes penchés par la brise, dont les aiguilles tapissent le sentier côtier d'un tapis odorant. À marée basse, l'estran de galets et de roches découvertes dévoile des parcs ostréicoles traditionnels et offre un terrain de jeu privilégié pour les oiseaux marins en quête de nourriture, faisant de la pointe du Trech l'un des panoramas les plus emblématiques de la petite mer.",
     visiter: "Rejoindre le promontoire par le sentier littoral bordé de pins maritimes et d'ajoncs d'Europe. S'asseoir au pied de la croix de pierre pour contempler le spectaculaire chassé-croisé des voiliers et kayakistes négociant la passe du Trech au gré des marées.",
     link: "https://photos.google.com/share/AF1QipN0IBf9VXEF8vsQECkipbYNwuKHKHzqNAd2_qf3PY9SD-tMVl8PzJIDYTDzk7RPSw?key=VjhtV1U2dlBGWXRkVnYyZTZyX1hxUlpJR0NTWnlR"
   },
@@ -5235,7 +5265,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Île-aux-Moines",
     altitude: 27,
     is_island: true,
@@ -5249,7 +5279,17 @@ const travelSpots = [
     lat: 47.598519,
     lng: -2.842402,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMgUqboyZO6pPbWqfcqX-Jgj_ADXBx3G8Psaw1hAMunKB8Zepb6Ac5xZAYWou31Pji6MdKR6kGl6ZsX-TLZTz1y6m2xA-cdYCvRSn4qwKk_s-e6TjOan9MFUFpXfYCKg3RjR6Qg0DJg0zWBKvacVYoGRA=w1984-h2635-s-no-gm?authuser=0",
-    description: "Trônant au cœur du village aux venelles pavées et aux maisons de capitaines bordées de figuiers, l'église Saint-Michel constitue le centre spirituel historique de l'Île-aux-Moines. Reconstruite en 1826 en grand appareil de granit sur l'emplacement d'un ancien sanctuaire du monastère de Redon, elle se distingue par sa tour-clocher trapue, son buste reliquaire en bois doré de saint Vincent Ferrier et ses maquettes de frégates et trois-mâts offertes par les marins insulaires.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOZVQc0ip2IenI7BlFwjaNheT83Q7vKfFrvdaQyBsGPG9au1hOH9ct1cnRS-k5MLY-Umgf_P_o_Aci_-lf1gnTTNtC5MIeRe62FNDCo2Y-iht_gtl3YVuKT8jGJI-VVHI4awURuP0PPNQs2nmUFsqlxaw=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOc068e4c2JII82O52emjcLHdUlH-WpiXqZbo2fL166SR2t_wbQy6T_yqzZucAqDEr4PxCe5m_jlbnuCAFYNUCoBk91dz-3cmzoRWXqSLkbt6sSQChqG2LVqpWkSeOAney4-ohOsHSjjuz1LdeEudnIvw=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Trônant au point culminant du village entre des venelles pavées bordées de maisons de capitaines au long cours et de jardins fleuris de camélias et de figuiers, l'église paroissiale Saint-Michel est le cœur spirituel et historique de l'Île-aux-Moines. Succédant à un oratoire primitif fondé au IXe siècle par les moines de l'abbaye Saint-Sauveur de Redon auxquels le roi breton Salomon avait fait don de l'île en 854, l'édifice actuel a été reconstruit en 1826 en appareil régulier de granit gris local pour accueillir l'essor démographique des familles de marins. Sa silhouette extérieure se signale par un puissant clocher-tour carré sommé d'une balustrade et d'une toiture polygonale trapue, servant d'amer visuel pour la navigation côtière dans le golfe. À l'intérieur, la nef unique bordée de chapelles latérales déploie une atmosphère chaleureuse mise en valeur par un riche mobilier liturgique d'époque classique et moderne. Le sanctuaire abrite notamment un remarquable buste-reliquaire en bois polychrome et doré de saint Vincent Ferrier datant du XVe siècle, vénéré par les paroissiens insulaires, ainsi que plusieurs maquettes de navires de commerce et de combat suspendues aux voûtes en ex-voto d'action de grâce. Les verrières modernes baignent l'autel d'une clarté lumineuse, rappelant la vocation maritime et la foi séculaire de cette communauté insulaire morbihannaise.",
     visiter: "Flâner sur la place de l'église ombragée avant de découvrir la nef ornée de boiseries chaleureuses et les impressionnants maquettes de navires suspendues aux voûtes en ex-voto. Parcourir les ruelles adjacentes du bourg fleuries de mimosas et de camélias.",
     link: "https://photos.google.com/share/AF1QipN0IBf9VXEF8vsQECkipbYNwuKHKHzqNAd2_qf3PY9SD-tMVl8PzJIDYTDzk7RPSw?key=VjhtV1U2dlBGWXRkVnYyZTZyX1hxUlpJR0NTWnlR"
   },
@@ -5285,7 +5325,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Île-aux-Moines",
     altitude: 8,
     is_island: true,
@@ -5299,7 +5339,13 @@ const travelSpots = [
     lat: 47.591466,
     lng: -2.832707,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMST0rcmR-GcUnXCR_BM-ZnGxw5WGRtuFbUcy-LCorCbZM0p6L5cEKSff4NyqUSbrBfsKhbZ3oABE37gaoJQMC-GV5KLqczHVycM7ZD9iFfYifsJSTiSk7UuAJ_zSQBpCR4VNh-dEuFBGIbnyB3WdaMbQ=w2642-h1989-s-no-gm?authuser=0",
-    description: "Dessinant l'un des bras de la croix que forme l'Île-aux-Moines, la pointe du Brouel s'étire vers le sud-est dans les eaux calmes du golfe en faisant face au littoral voisin de l'île d'Arz. Frangée d'une côte basse où alternent taillis maritimes de chênes verts, grèves de galets et murets de pierre sèche envahis de lichens, cette avancée paisible offre une vue remarquable sur le chenal d'Arz et les méandres intérieurs de la petite mer.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMsPO2bsMR1TX6F9IgUybuhLZvgvjK5pQ9o6RdY4LFXfLQPj5bDXoJ7e4YhAjqjrKT0iedt52GnHjbvAaY5Hm4yytVvFSiK4rD0D0oxBoRzMDEdKHwAXXSpt1ZC1LB8KtPwuWc8Q0y1JS2Hs52JWjnseQ=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dessinant la branche orientale de la forme en croix caractéristique de l'Île-aux-Moines, la pointe du Brouel s'étire paisiblement vers le sud-est dans les eaux calmes du bassin intérieur du golfe du Morbihan. Faisant face aux rivages verdoyants de l'île d'Arz et aux sinuosités marines conduisant vers la presqu'île de Rhuys et Saint-Armel, ce cap bas et préservé offre un contraste saisissant avec les pointes venteuses ouvertes sur l'océan. Le paysage y est façonné par une mosaïque végétale douce où des bosquets de chênes verts et de pins maritimes côtoient d'anciens vergers ceints de murets de pierre sèche tapissés de lichens dorés. Le rivage alterne grèves de petits galets de schiste, platiers sableux et vasières abritées où se dévoilent à marée basse des parcs ostréicoles traditionnels aux tables de fer alignées. Véritable havre pour la faune ailée, les anses du Brouel constituent des zones de nourrissage paisibles pour les aigrettes garzettes, hérons cendrés, cormorans et bernaches cravants en hivernage. Loin de l'animation estivale du port, le sentier côtier qui épouse les contours de la pointe invite à une déambulation silencieuse, baignée par le clapotis régulier de la marée et la contemplation des méandres insulaires.",
     visiter: "Marcher le long du sentier douanier côtier jusqu'au bout de la pointe pour profiter d'un panorama dégagé sur les îles du golfe et les parcs ostréicoles. Observer les oiseaux de mer (aigrettes, cormorans et bernaches) se nourrissant à marée basse dans les anses abritées.",
     link: "https://photos.google.com/share/AF1QipN0IBf9VXEF8vsQECkipbYNwuKHKHzqNAd2_qf3PY9SD-tMVl8PzJIDYTDzk7RPSw?key=VjhtV1U2dlBGWXRkVnYyZTZyX1hxUlpJR0NTWnlR"
   },
@@ -5385,7 +5431,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Île-aux-Moines",
     altitude: 10,
     is_island: true,
@@ -5399,7 +5445,17 @@ const travelSpots = [
     lat: 47.566325,
     lng: -2.848967,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNDvnCNQZlHss6QssHBP-VMhpSIxI0JyOYOZY_2DkJbUAf_JjYpHNkgF4zNlL1C_saSkkYUgHt2hJi6_EM5YMwXS8QXnwFJikim40DS2IaB8kBjr41shBHI8xIs38fpSdSpw4Z3gDLQKys-QYPcEGWHYg=w2642-h1989-s-no-gm?authuser=0",
-    description: "Battue par les embruns océaniques à l'extrême sud de l'Île-aux-Moines, la pointe de Brannec marque la transition entre les eaux protégées du bassin intérieur et les courants vifs de la passe de Port-Navalo. Dominée par une lande rase d'ajoncs nains, de bruyères et de pins maritimes courbés par le vent d'ouest, la pointe offre un panorama grandiose à 180 degrés embrassant la presqu'île de Rhuys, l'île de Gavrinis et la sortie vers l'océan Atlantique.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPw-WtfYo0f0iL0_zJ9Sh-tp33D5unRhonLHotms77xYT9mrKkDE0QLXMFjRgUBl0cH5woBwglo3cOuwD4HW9hh9djg2J3giXu6W7OLz0LeiO7ZmftnIjIDJcyaspvPCmdY1DliCjT1XAQIgs_tgV07Pw=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMoPXqzYS1AIADWXRQ5X0rexAn0rEmBN9hGuJFT9ZMvCsM13nxPz8_XCwcEVQDD0-RU2zGqTlaLtnjdxT_FQK0gaiGf-iabKqEpuU3SqLSdXf_p_55NpBPv3_j6wxJewoZc2BTKf4xEURlMBTpBsYqcxg=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Battue par les embruns et les puissantes brises venues de l'océan, la pointe de Brannec marque l'extrémité méridionale de l'Île-aux-Moines et offre l'un des visages les plus sauvages et spectaculaires du golfe du Morbihan. Situé à la frontière des eaux abritées de la baie intérieure et des courants impétueux de la passe de Port-Navalo qui relie le golfe à l'océan Atlantique, ce cap rocheux se distingue par ses abrupts de granit sombre taillés en petites falaises déchiquetées par la houle. Le promontoire est recouvert d'une lande rase et austère d'ajoncs nains, de bruyères cendrées et d'armoise maritime, ponctuée de pins maritimes aux silhouettes tourmentées et couchées par les vents d'ouest. Depuis les blocs granitiques polis par les éléments, le regard embrasse un panorama maritime d'une rare intensité, s'ouvrant sur l'île mégalithique de Gavrinis, l'îlot d'Er Lannic et son double cromlech immergé, la presqu'île de Rhuys et le goulet marin où les flots se heurtent avec force au renversement de la marée. Accessible uniquement par le sentier pédestre côtier qui s'étire le long des falaises du sud, la pointe de Brannec offre une sensation de bout du monde préservé, où la puissance des éléments marins contraste avec la douceur légendaire des ruelles du bourg.",
     visiter: "Gagner l'extrémité sud par le sentier côtier escarpé pour ressentir la force du grand large et admirer les courants tourbillonnants au confluent des passes. Faire une pause contemplative sur les dalles de granite sculptées par l'érosion marine.",
     link: "https://photos.google.com/share/AF1QipN0IBf9VXEF8vsQECkipbYNwuKHKHzqNAd2_qf3PY9SD-tMVl8PzJIDYTDzk7RPSw?key=VjhtV1U2dlBGWXRkVnYyZTZyX1hxUlpJR0NTWnlR"
   },
@@ -5460,7 +5516,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Île-aux-Moines",
     altitude: 24,
     is_island: true,
@@ -5474,7 +5530,21 @@ const travelSpots = [
     lat: 47.590653,
     lng: -2.851808,
     image: "https://lh3.googleusercontent.com/pw/AP1GczO4TG1_FnwHYOGwmTsglcSm5yWyyTd-3_vJgGuUuSSLUUfq1oUv087Kr97W5Uiq5WSI6tkRolAgb1zEidZsSiLI-LH_hoxChvpIxVY4DJ2Vo33EekYVz5X-q4V2eCEkvuYK5J1CFYVYYTyX7LW4X9y8zw=w2642-h1989-s-no-gm?authuser=0",
-    description: "Plus vaste enceinte mégalithique de Bretagne insulaire avec son diamètre de plus de soixante-dix mètres, le cromlech de Kergonan forme un impressionnant demi-cercle en fer à cheval composé de vingt-quatre menhirs de granit encore debout. Érigé au IVe millénaire avant notre ère au centre géographique de l'île, ce temple solaire et rituel mégalithique s'ouvre vers l'est et s'intègre harmonieusement aux jardins et murets de pierre sèche du hameau de Kergonan.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN90aE1-Cog_wnHmnlOgtV05IWfAsv6PMa3NgyHIP-BBIqAOTGg34rrS39yCJgwbs88of-fZ3TyaYpUuxyxOEYP2t4iOefJKuVN1jIQuHGSH_lET9DBdDF7aPm5-zSOXSSXjuNhWpFjlJr3dqqBeAXQZA=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP5BCVSiVnzW5ooF0yRzFYgysbvLaw4esWFxIJPeamtRz5YftriiL78fPR8YKtOHUCH8AmaK2I_UDfcP9sAvREhjCZvPwzeW3SxhPkFFSKEzp5jr3rYqG4hjzESJsYALU6A4xJhCFgCCWQEH7O68eVRrQ=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNrlXTOkyWH54MlCeRow7zyqJ80lYzdW-DyarfJ2ofeeEWYXztTDLQU_22MQ7dHzRyQJPWgonKHXq_FmNmEh39x7yXmcZeuC99s-1HreizjXvSX82KJj4J6s0HAZuJtyU6ryfrIFOv4DQlBzmzX1o0jsA=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Érigé au IVe millénaire avant notre ère par les bâtisseurs mégalithiques du Néolithique, le cromlech de Kergonan est la plus vaste enceinte de pierres dressées conservée sur une île bretonne et l'un des monuments préhistoriques majeurs du golfe du Morbihan. Classé au titre des Monuments historiques dès 1862, ce sanctuaire mégalithique se déploie en un impressionnant hémicycle en fer à cheval de plus de soixante-dix mètres de diamètre, s'ouvrant symboliquement vers l'est et le lever du soleil. L'ensemble comptait à l'origine plus d'une cinquantaine de menhirs en granit local, dont vingt-quatre monolithes demeurent aujourd'hui dressés ou redressés, témoignant de rites sacrés, astronomiques ou communautaires complexes au cœur de l'ancienne péninsule armoricaine avant la montée définitive des eaux marines. Le joyau de l'enceinte est son plus haut menhir, affectueusement surnommé « le Moine », un imposant monolithe de plus de trois mètres de hauteur dont le profil massif veille sur le site depuis plus de cinq millénaires. Parfaitement intégré dans le paysage habité du hameau de Kergonan, où les pierres millénaires côtoient les murets de clôture en pierre sèche et les jardins potagers insulaires, le cromlech dégage une majesté intemporelle qui relie directement l'histoire de l'île aux racines spirituelles les plus anciennes de l'Europe néolithique.",
     visiter: "Parcourir le pourtour du cercle mégalithique et mesurer la stature imposante du plus grand menhir du site, surnommé « le Moine », dressé à plus de trois mètres de haut. Découvrir l'alignement géométrique des monolithes préservés en lisière des habitations traditionnelles.",
     link: "https://photos.google.com/share/AF1QipN0IBf9VXEF8vsQECkipbYNwuKHKHzqNAd2_qf3PY9SD-tMVl8PzJIDYTDzk7RPSw?key=VjhtV1U2dlBGWXRkVnYyZTZyX1hxUlpJR0NTWnlR"
   },
