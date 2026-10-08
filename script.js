@@ -2482,29 +2482,43 @@ function renderEnrichedCarnetMode(spot, layout) {
             <img src="${sec.photos[0]}" alt="${sec.title || spot.name}" class="w-full h-auto max-h-[80vh] rounded-xl object-contain cursor-zoom-in hover:opacity-95 transition block mx-auto" onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
           </div>
         `;
-      } else {
-        // Multi-photos : disposition dynamique sur plusieurs lignes (style Google Photos / Flickr)
-const rowHeight = count <= 2 ? 'h-[360px] sm:h-[420px]' : count <= 4 ? 'h-[260px] sm:h-[300px]' : 'h-[200px] sm:h-[240px]';
-const baseHeightPx = count <= 2 ? 380 : count <= 4 ? 280 : 220;
+      } else if (count <= 3) {
+        // 2 ou 3 photos : TOUJOURS sur une seule ligne (Google Photos strict)
+        const rowHeight = count === 2 ? 'h-[360px] sm:h-[440px]' : 'h-[260px] sm:h-[320px]';
 
-photosMarkup = `
-  <div class="flex flex-wrap gap-2 w-full items-stretch rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2">
-    ${sec.photos.map(p => `
-      <div class="${rowHeight} overflow-hidden rounded-xl bg-slate-900 transition-all duration-300" 
-           style="flex-grow: 1; flex-basis: 140px;">
-        <img src="${p}" 
-             alt="${sec.title || spot.name}" 
-             class="w-full h-full object-cover cursor-zoom-in hover:scale-[1.02] transition-transform duration-300" 
-             onload="
-               const ratio = this.naturalWidth / this.naturalHeight;
-               this.parentElement.style.flexGrow = ratio;
-               this.parentElement.style.flexBasis = Math.round(${baseHeightPx} * ratio) + 'px';
-             "
-             onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
-      </div>
-    `).join('')}
-  </div>
-`;
+        photosMarkup = `
+          <div class="flex flex-row gap-2 w-full items-stretch rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2">
+            ${sec.photos.map(p => `
+              <div class="${rowHeight} min-w-0 overflow-hidden rounded-xl bg-slate-900 transition-all duration-300" style="flex: 1;">
+                <img src="${p}" 
+                     alt="${sec.title || spot.name}" 
+                     class="w-full h-full object-cover cursor-zoom-in hover:scale-[1.02] transition-transform duration-300" 
+                     onload="this.parentElement.style.flex = (this.naturalWidth / this.naturalHeight);"
+                     onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+              </div>
+            `).join('')}
+          </div>
+        `;
+      } else {
+        // 4 photos et plus (vitraux, etc.) : retour à la ligne automatique
+        photosMarkup = `
+          <div class="flex flex-wrap gap-2 w-full items-stretch rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2">
+            ${sec.photos.map(p => `
+              <div class="h-[200px] sm:h-[240px] overflow-hidden rounded-xl bg-slate-900 transition-all duration-300" 
+                   style="flex-grow: 1; flex-basis: 120px;">
+                <img src="${p}" 
+                     alt="${sec.title || spot.name}" 
+                     class="w-full h-full object-cover cursor-zoom-in hover:scale-[1.02] transition-transform duration-300" 
+                     onload="
+                       const ratio = this.naturalWidth / this.naturalHeight;
+                       this.parentElement.style.flexGrow = ratio;
+                       this.parentElement.style.flexBasis = Math.round(220 * ratio) + 'px';
+                     "
+                     onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+              </div>
+            `).join('')}
+          </div>
+        `;
       }
     }
     sectionsHtml += `
