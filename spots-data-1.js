@@ -3629,7 +3629,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Montfort-le-Gesnois",
     altitude: 62,
     is_island: false,
@@ -3643,18 +3643,24 @@ const travelSpots = [
     lat: 48.049735,
     lng: 0.419438,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPOOnVBXCWzAazKaCJUTDXOWTAywkqUiaqsWdn64t2sZDQLBv6lZ1C21lAN5h3M6LMIw_yJ8tBQ8G7ArDLOSbvfNrdZ1BT3a8G_u89TEoDaK090_swwPqaP8eT7tYmidVSByfxbjJ2riinWJ-J3azEtjA=w1818-h2416-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNYKQPTs7nPfIf_U-8l78gasQ6xfTj6FQTNvYRD6UECeux5flu6Li9si71Ntd236SCw3O3P6ec_a1AAP-7FJ__n_bSxi7bEa71RBsI1sZSTW_NBags8FIm0d9EahpuZexaldN8QPMdC6QVWVp4ENKeEtw=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Érigé à l'ombre des ifs séculaires du cimetière Saint-André dans l'ancienne paroisse de Pont-de-Gennes, le tombeau dit du Croisé est considéré par les historiens comme le plus vénérable et ancien monument funéraire sculpté du département de la Sarthe. Daté de la fin du XIIe siècle ou des premières années du XIIIe siècle, ce sépulcre en grès roussard et calcaire gréseux local s'apparente aux tombes d'apparat des chevaliers bannerets revenus des expéditions de Terre sainte à l'époque de la troisième croisade menée par Philippe Auguste et Richard Cœur de Lion. La tradition locale et les chroniques du Perche sarthois y associent la mémoire d'un seigneur de la maison de Lauresse ou de Pont-de-Gennes, parti combattre en Orient avant de revenir finir ses jours en dévotion sur ses terres ligériennes. Le monument se compose d'un coffre de pierre surmonté d'une imposante dalle sculptée en bâtière, profondément gravée d'une longue épée de chevalier à garde droite et d'une croix pattée aux extrémités ancrées, symboles indubitables de la vocation militaire et de la foi chrétienne du défunt.",
     visiter: "Pénétrer dans le cimetière Saint-André par la route de Connerré pour rejoindre l'allée centrale où se dresse ce tombeau médiéval exceptionnellement préservé des outrages du temps. Approcher la dalle sommitale pour examiner de près la gravure en bas-relief de l'épée médiévale à pommeau discoïdal et la croix de Terre sainte sculptées dans le grain sombre de la pierre de roussard, témoignages poignants des rituels d'inhumation de la noblesse féodale du Haut Moyen Âge. Prendre le temps de contempler la patine multiséculaire et les marques de taille laissées par les maîtres carriers d'autrefois, avant de poursuivre la découverte du riche patrimoine de Montfort-le-Gesnois vers le pont romain enjambant l'Huisne et l'église Saint-Gilles située à quelques centaines de mètres.",
     link: "https://photos.google.com/share/AF1QipOb3ShaKNG_lsJde2nz8dRyz9nGHRogFP31vgkL6iaR4Hd7feMJ2OdoN8Q2CULzwg?key=WTRicjlYODZGMUhveTFOQXdEVk0tNEt3Ry1HVTBn"
   },
-   {
+  {
     id: "le_mans_abbaye_de_l_epau",
     name: "Le Mans - Abbaye Royale de l'Épau",
     country: "France",
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Yvré-l'Évêque",
     altitude: 48,
     is_island: false,
@@ -3670,7 +3676,63 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczOE8gI6nXJGhHu3-4IMkuMnNlPyf1iOu2DnhgcSy1i7TUzbtmM6MbJQpWjRUbPsrmb5B2JNnte3N1KAo4dll2EIgq0xSAKotworPOztozdKhJwk8EspeHHCW7AccPCuwkmskow1iWXEr1gLyHNJEA4f1w=w1658-h1244-s-no-gm?authuser=0",
     description: "Fondée en 1229 par la reine Bérengère de Navarre, veuve de Richard Cœur de Lion et dame du Mans, l'abbaye royale de l'Épau (originellement nommée la Piété-Dieu de l'Épau) est l'un des ensembles monastiques cisterciens les plus complets et remarquablement préservés de l'Ouest de la France. Érigée sur les rives fertiles de l'Huisne selon la stricte règle de saint Bernard prônant le dépouillement décoratif et la pureté des lignes, l'abbaye déploie une superbe église abbatiale en pierre calcaire de Bernay et roussard, dotée d'un vaste transept baigné par la lumière d'une immense verrière de chevet à réseau rayonnant. Les bâtiments conventuels préservent une exceptionnelle salle capitulaire aux voûtes d'ogives surbaissées retombant sur de fines colonnes monolithes, le chauffoir des moines, le scriptorium ainsi que l'immense dortoir haut à charpente en carène de vaisseau renversée lambrissée de chêne. Après avoir traversé les tourments de la guerre de Cent Ans et les dégradations agricoles post-révolutionnaires, le domaine a été racheté et méticuleusement restauré par le Conseil départemental de la Sarthe, abritant notamment le gisant d'origine en pierre de tuffeau de la reine Bérengère.",
     visiter: "Franchir le porche monumental pour pénétrer dans la cour d'honneur avant d'entrer dans la majestueuse église abbatiale, où règne une acoustique souveraine mise en valeur lors du prestigieux festival musical de l'Épau. Se recueillir devant le tombeau et le gisant médiéval de la reine Bérengère de Navarre, parée de ses attributs royaux et tenant un livre de prières entre ses mains. Parcourir les trois galeries subsistantes du cloître cistercien et s'arrêter dans la salle du chapitre pour contempler l'équilibre parfait de ses croisées d'ogives du XIIIe siècle. Monter à l'étage pour admirer la nef monumentale du dortoir des moines et sa charpente médiévale en chêne longue de quarante mètres, puis terminer par une flânerie dans le jardin potager biologique monastique d'un hectare et demi cultivé en permaculture selon les préceptes historiques cisterciens.",
-    link: "https://photos.google.com/share/AF1QipPlfdZcGXM8KMgTnk1rdclEVZ3CZg3rIqYyRAkJIj7Kwo52vC-Ctwlm4YpYSeLm2g?key=eml2TnB3bDloX1lYNmtxRjdYQUJJUTBZTVR6XzhR"
+    link: "https://photos.google.com/share/AF1QipPlfdZcGXM8KMgTnk1rdclEVZ3CZg3rIqYyRAkJIj7Kwo52vC-Ctwlm4YpYSeLm2g?key=eml2TnB3bDloX1lYNmtxRjdYQUJJUTBZTVR6XzhR",
+    sections: [
+      {
+        title: "Vues extérieures et architecture monastique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPsQ4GM_iV3h3aNQIHo3VsvxAvIUi8smSd1mkdTMrwtaUaVyn8ixMl3gAaGplENWav2iGuactSNmqkM0Zv68FGsG1TYnGFJ-Isgaenu8Sg3DmL7vvH3sohHavSE_VbhLWjgjnsXkH9zJlzzSo1275Ilrg=w1373-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOI5dMXQJBF7yw8ayI81QStZNL3LQ6g0qDeSFfKfdMjANc3vUdpZMtyYv-ziqF2fQU_DSiwr7f4crMI8jaF27lBRsvEwMY07tcOXBw49nAPFIYfSAzCvkducZds7HxzJq2Cv3VaBlZKKnRPwzZg0_InOw=w1373-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOj6EUw2shHKHrqVzbwA1sRaMExtsQ3nimfzh7CKU9Nq8BitVZPLZ77I9JeQoZpU73b0KhgXbEdPW1bfmN4xXsphYTKuDmYe5t7B1saBIU8ACkOIgPCQlrK8E9RcHrApHKvfrPAXixnj8QMUle1agjN5A=w1373-h919-s-no-gm?authuser=0"
+        ],
+        text: "Trois vues extérieures de l'abbaye."
+      },
+      {
+        title: "Église abbatiale, chevet plat et gisant de Bérengère",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNr5mM1LvYSyA3DZx875sxX1hvOB3nSSBrSpI8frqInbT7-Jcmn-pVshuJ0csJQT4_EArWmG7D6bChC0YC7VfP1frazLFr1ZeFxw2oKf8wFWw3y5cOk7GHPRH4-IwHNwsy0iZdMfPSrfRHhkcIVxpjSWA=w1225-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOxvt7557oR2x96bxYLYYwkTHz6YMwUg7DdQGNlfLV_02-zMyu0WnXM5zo6H-bjyMdUWNYKsmaZqOyCJX-yAid8GRygHBjpVtPMLSjzE7IEY1mXGsacsBVCDsubg1wuJueK96IJe5t3dk4gksVBWLTNHQ=w1373-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOsuVYqdnqHbS6IYzPJhBkKLNVTuD2mCW15aipiTocjnvQbTZ__a4DYW37xwlVaTWVE94hGVP6WsOavU-XI7NPeIP4QxReKgVaQnAiDOLRH9wkaKdl8j2icIKMW36i9wmhlxfDhF0Nd4kbjnWTTW_SKmw=w1225-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMBFHO9kw1v-7yFcxyamenI183pNVciRlSY6cOShmdSdW8i2m1g8B6dDfpZx51AWEymDJIyB-tcCZuuXQtk5Oky1jPbnRyu9tiFeSrrL6LXA_Im6op-pcotf0_pjVw0fwpaoygZIi0YF9e2qlMfpu7tTw=w1373-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMnG-vB020PIYIhdSwEdptSGZ1XWdY1isu4l_8w3G5Ryws39EncXL4FzJZN-Pr_hs8okCvf-0Xl3HPYQwJ1WmZeWX3XU_QDiOUh-fXmgqguNixrmReKYAHtNMs5tUbRliYiYVoas4UBCIy-T11c2y-4wQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'entrée dans l'enclos monastique dévoile l'église abbatiale, édifice en croix latine orienté vers l'est dont la nef austère a perdu ses voûtes d'origine mais conserve son élévation médiévale. Le transept et le chœur présentent un exceptionnel chevet plat typiquement cistercien, percé d'une immense verrière gothique à remplages rayonnants du XIVe siècle qui inonde de lumière le sanctuaire. Dans le croisillon sud du transept repose le gisant de Bérengère de Navarre, chef-d'œuvre de la sculpture funéraire du XIIIe siècle taillé dans la pierre de tuffeau ; la souveraine y est représentée couronnée, vêtue de plis amples et tenant entre ses mains jointes un livre de prières orné de sa propre effigie."
+      },
+      {
+        title: "Le cloître et la salle capitulaire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPbhGEjnOOn2Oc67yLMnhx_Ikko87bi9GLe2624tqO9UgjW3uDGZS8Bxyassuzglp3LdL_OfAVH8WyzmnsjiXhhYHfNaB5pr5lCmM7KjU2hEFE54n1DdePrU0dDYyY-EHN6oF_8XqGMUNrYjjv18re5Mw=w1225-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPznrdQBQWeN1ePMdoCizhnhg77Z8uGvHd_QbMvnxas07NpRM7HorXoc8QzKw8PNLR5PMBjwdaCd18AITThbJODTji3nhBfFHG1lAxx6-ljqvZQu8QB7h_mICQ9bpmX8gbro2SrlJgSYRLzam9cA2eBRw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMVLKKucH-h2bQ83iMAaUTBi8I4T6ZwNA77gX_ZL1abotKmVQB8Gq3N3ty0ef0QrdoH7LKtNN-BqVicaK5AnzsufdmH2iC4z1Olw3pdNHsQrb9Qfj0qDD0dwgjrWozEHq1m6LF13uoWJmWYgEFoq7KXPg=w1373-h919-s-no-gm?authuser=0"
+        ],
+        text: "La visite se poursuit par le cloître, centre névralgique de la clôture religieuse dont subsiste la galerie orientale, ouvrant directement sur les pièces majeures de la vie communautaire. La salle capitulaire (ou salle du chapitre), joyau architectural du XIIIe siècle, déploie neuf travées voûtées d'ogives retombant au centre sur quatre élégantes colonnes monolithes aux chapiteaux délicatement épannelés, encadrée d'une baie d'entrée géminée par où les frères convers assistaient aux débats."
+      },
+      {
+        title: "Dortoir des moines et charpente en carène",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMcWMY5rLvEUH_6G6pQqK8yuNDdVHr1eFkhNc_4tp_lA7ceAQh5E7DvYXbHe6796NtjhHrvZc9hAs83QDhmgLFttliPCBv2ixQ_FEUVgGDF7juAE7dCbDqmhuNPRS2Qnn8DmJLIfbFmhN7HBztPUlQnFQ=w1225-h919-s-no-gm?authuser=0"
+        ],
+        text: "À l'étage de cette aile orientale s'étire le spectaculaire dortoir des moines, vaste vaisseau éclairé par deux rangées de baies cintrées et couvert d'une immense charpente lambrissée en chêne en forme de carène de navire inversée, restaurée à la perfection."
+      },
+      {
+        title: "Chauffoir, scriptorium et vie cistercienne",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMskLTxtyxQWfo-JrAyqA_jvLjhzoMQVPrW70gM5J0EgjAY6KWStdw4Kmav6ePZJej6QmisQBz-pZYcbYyxn1oG7f2MqsP2N2Fgm5i5EoYbT-JT9VtX4Bxob9lWQDYO4ADOm5_aeF9snYelvYpARiA7eg=w1373-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOqxP4UsP2xqtLUejuzU1q4sdeXPnJ_nVoIr9uf0-FImBewLwz9LJq2laxVmxc9IVU8qD_x_qewjW67QY06RU-gevVkjBJJwWEXa4buT7s1OKww5Zy_ex5Ayd1JmPikFcLu6hgSqnsQpwyO3hH_JBBcww=w1225-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczODtCC6c6kbMPWEEvgOOViG9satHL47a4ToXrk12rTOC-wpGGBMYHsJj30zxJ3vWoK6HiCmxn-15oAA-5ycM4Dick1NeFFB5jrBO1uMEjOC9Z_pmuoIRVy3fz-bnng4uYCqWJY_Pjezd-WKUnQON6Vfpg=w1373-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczONHMAV5vNyVFp8popE_LefIihvtv6nS_D-r4gd_vXB29i1YZYWQ0uJMFoctd_pPhojhxeKggCtqOeBfnShGYszTDiX1tKL29ZlYAl05nL591_0nnsKbdk14GXMbbT0-oXbHp3DyYVL-RUYJhPYZkatIw=w1225-h919-s-no-gm?authuser=0"
+        ],
+        text: "Au rez-de-chaussée de l'aile orientale, le parcours mène au chauffoir — seule pièce chauffée du monastère avec sa cheminée monumentale — puis au scriptorium où les moines copiaient les manuscrits. L'aile sud abrite les vestiges du réfectoire et de la cuisine, tandis que les bâtiments des convers et le logis abbatial remanié aux XVIIe et XVIIIe siècles rappellent les vicissitudes du lieu avant sa transformation en exploitation agricole au XIXe siècle. Rachetée et sauvée de la ruine par le Conseil départemental de la Sarthe à partir de 1959, l'abbaye s'entoure d'un parc paysager et d'un potager médiéval en permaculture, s'affirmant aujourd'hui comme un haut lieu culturel accueillant expositions d'art contemporain et prestigieux festivals de musique."
+      },
+      {
+        title: "Mémoire et destin de la reine Bérengère",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM5FLwNADT8Y-4_4f2y9d5CZaSjb4k9PO0OmI-jv-r_FJ9boouTBb-yYe7aU25htlBDz7tdT3iqa4-9RbtT2w5TPZ7PtRjjYelmRhQ-RpgYA25FhnNx31zCSmmS5WFe-CBvzENtwBnBQRX29bFjjrdlAQ=w1373-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOE8gI6nXJGhHu3-4IMkuMnNlPyf1iOu2DnhgcSy1i7TUzbtmM6MbJQpWjRUbPsrmb5B2JNnte3N1KAo4dll2EIgq0xSAKotworPOztozdKhJwk8EspeHHCW7AccPCuwkmskow1iWXEr1gLyHNJEA4f1w=w1225-h919-s-no-gm?authuser=0"
+        ],
+        text: "Fille du roi Sanche VI de Navarre, Bérengère de Navarre épouse Richard Cœur de Lion à Chypre en 1191 avant de devenir la seule reine d'Angleterre à n'avoir jamais foulé le sol britannique. Devenue veuve dès 1199, la souveraine se heurte aux réticences de son beau-frère Jean sans Terre pour percevoir son douaire légitime, trouvant finalement refuge et compensation territoriale dans la cité du Mans. Établie au palais comtal de la ville à partir de 1204 sous la protection du roi de France Philippe Auguste, la reine administre son apanage manceau avec autorité, piété et fermeté politique. Les chroniques locales retiennent sa grande générosité envers les indigents, le soutien constant apporté aux léproseries et son rôle de pacificatrice au sein des institutions municipales en gestation. Animée par le désir d'assurer le salut de son âme et de préparer sa dernière demeure loin des intrigues de la cour d'Angleterre, la reine acquiert des terres au lieu-dit l'Épau sur la commune voisine d'Yvré-l'Évêque. Elle fonde solennellement en 1229 l'abbaye cistercienne de la Piété-Dieu de l'Épau, dotant le monastère de vastes revenus agricoles et suivant avec passion l'élévation des premières travées de l'abbatiale. Décédée au Mans vers la fin de l'année 1230, cette souveraine d'envergure européenne est inhumée au cœur du chœur des moines de son abbaye bien-aimée. Son tombeau monumental sculpté dans la pierre de tuffeau perpétue le souvenir d'une princesse hispanique devenue bienfaitrice majeure du Maine médiéval. L'histoire retient d'elle le profil d'une femme d'État résolue, protectrice infatigable des ordres monastiques et bâtisseuse éclairée aux confins des mondes plantagenêt et capétien."
+      }
+    ]
   },
   {
     id: "le_mans_plan_d_eau_arche_de_la_nature",
@@ -3679,7 +3741,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Yvré-l'Évêque",
     altitude: 46,
     is_island: false,
@@ -3691,8 +3753,22 @@ const travelSpots = [
     category: "lac",
     counts: {},
     lat: 47.992376,
-    lng: 0.252720,
+    lng: 0.25272,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPkqSkIYyE9BpiPJD112OUTC_2LlfkXKIOlgbdphRMwT4AEtS6qHAAak4ejCfjnzlRrYKjRZigaJ2JnRyH-eqM3sPhKkmWF__j8ELvumVmaWWlJ4i9cXpXqNlM6U-zzXSI8WReZ3qYF97FNxcjzPn4Dpg=w1658-h1107-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMInHFqebploKh3vLz9QwyCxXWZS4HAUOQLGYBqDBcBTW1qqSd7UK70PJ2X_J18gGi6V5Hra_ElOPZayuyPUbLBEM4dYvY-OLdRg3c6Olz3jK28N3IswM-8peqQxTM8B1jxfknBA87aXV55d2Hf38So5w=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNkMo2dHzBfXs5SFepAspufQoYDgL3VslMk6cG-WbcvNOQuJsOdvXiL-UUdl5wWbVvxatI2Kl0iJeMi-_43vMiOTKaBcoyBDUq6uN6TqVV5wZvjik1nr13V925atfqDh5KX7iI79lZDBJg9v2If_P2gfA=w1373-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMwHn9ef8AiSf2tuJtMNGGvk9mhKY6jesvXMPV7GsclOrdmcMx-aF7iJZJknrLHl6LX8IPkrG1A5jo2ajCEVo-pvFdD2MC-TV-AAhctdULGGIt95hdTrHqN8ICSgO_c8y-87K68SZG7aRfQdZsc30zBtQ=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Étendue d'eau paisible miroitant au cœur du vaste domaine protégé de l'Arche de la Nature — poumon vert de plus de quatre cent cinquante hectares aménagé aux portes orientales de l'agglomération mancelle —, le plan d'eau constitue un biotope humide remarquable enserré entre prairies humides bocagères et massifs forestiers de résineux et de feuillus. Alimenté par les rus secondaires et les nappes alluviales de la basse vallée de l'Huisne, ce bassin lacustre a été pensé pour favoriser la biodiversité faunistique et floristique locale tout en offrant une coupure naturelle apaisante aux promeneurs et cyclistes. Ses rives douces, plantées de saules pleureurs, de frênes, d'iris d'eau et de ceintures de roseaux, servent de zone de gagnage et de refuge privilégié pour une riche avifaune aquatique comprenant grèbes huppés, foulques macroules, martins-pêcheurs et hérons cendrés.",
     visiter: "Faire le tour pédestre complet du plan d'eau en empruntant les sentiers stabilisés aménagés sur les berges herbeuses, rythmés par des pontons de bois discrètement intégrés pour l'observation des oiseaux et la détente au fil de l'eau. Profiter des trouées paysagères pour admirer les reflets de la forêt dans l'eau calme et écouter le concert des grenouilles et passereaux aquatiques. Poursuivre la promenade vers la Maison de la Prairie toute proche et ses enclos d'espèces animales domestiques régionales rustiques (bovins Saosnois, porcs Blanc de l'Ouest, baudets du Poitou), avant d'explorer les vastes allées cavalières et forestières menant vers le bocage sarthois.",
     link: "https://photos.google.com/share/AF1QipPlfdZcGXM8KMgTnk1rdclEVZ3CZg3rIqYyRAkJIj7Kwo52vC-Ctwlm4YpYSeLm2g?key=eml2TnB3bDloX1lYNmtxRjdYQUJJUTBZTVR6XzhR"
@@ -3704,7 +3780,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Loire-Atlantique",
+    department: "Sarthe (72)",
     subdiv: "Le Mans",
     altitude: 44,
     is_island: false,
@@ -3718,6 +3794,20 @@ const travelSpots = [
     lat: 47.994224,
     lng: 0.236399,
     image: "https://lh3.googleusercontent.com/pw/AP1GczP2Py6jbA6goVwxwNNzTUtcCs5hxY6Tk7tLwzJZUR6tuYmyMteo3dJkdd8hGNaThF7nHL9ueZUeHopMmjj4o-3ri1Gt5o8oVbVQTDmyicgGmnLTkDnW9M8EIQ5TEvfNQGmmgxey3Yk920G2qRTJCMtF2Q=w1658-h1105-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP0wPFa7rCn9baZFWbIOmGU-U-UmFISAwavyMEIIp7-U7ZIiDYWJBW8qP9aiSicFxVVJ8b_XdMxnUrik6qUwEzuw9TihKwYqyu3Uehxss8HhksnqoRdy5CnhWzUzbRgl0hdThd6_AqY-uoyV57Acg6kHQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMDOdkT3iL_8h9JWxvzubn6LcQw28kocYls8miXPJYHt7dNhkrJi6ijDrJMBPderZy1FPpHU69pvT5Jh8qgoLHeFLuIThYFuL_ho6BPwKoUth24A3VJsrMyHnve8CvQcpydp9N-hYGt8hyMt3i7cyylzw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPSbx5j6DplbGZvQqj8HtXfE0CgQSa9TOacH7AB2PV1v6VmUxCVjLhy_KkfDnQ9HBNgz5YYX1r-Kgf3YROXhM3gBSo9Gcl0LbxY3g8s1OWUXuA-A9b9CZAXMX94ZlWhlSu7i0VnryqDjkosyM3XDtWBmg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Installée dans l'ancienne usine des eaux de la ville du Mans construite en 1854 sur la rive gauche de l'Huisne, la Maison de l'Eau constitue un témoignage majeur de l'archéologie industrielle sarthoise du Second Empire au service de la salubrité publique urbaine. Conçu sous la direction de l'ingénieur hydraulicien Ernest Bollée, ce complexe technique avait pour mission d'extraire, filtrer et refouler quotidiennement l'eau de la rivière vers les réservoirs sommitaillaires de la ville haute afin d'approvisionner les fontaines et les foyers manceaux. Les bâtiments de briques rouges, de tuffeau et de verre abritent toujours dans leur salle des machines la monumentale machine à vapeur thermique de 1904 et les pompes hydrauliques à pistons jumelés entraînées par l'énergie des eaux du barrage de l'Épau. Entièrement réaménagé au sein de l'Arche de la Nature, le lieu propose aujourd'hui un pôle muséographique et aquariologique interactif dévoilant les écosystèmes dulcicoles et les enjeux environnementaux liés à la préservation des rivières.",
     visiter: "Pénétrer dans l'imposant bâtiment historique des machines pour contempler la gigantesque pompe hydraulique à pistons et la machinerie à vapeur du début du XXe siècle, dont les engrenages massifs et les volants d'inertie en fonte lustrée évoquent les grandes heures de l'essor industriel. Descendre observer la chaîne des bassins de décantation et d'épuration avant d'explorer les aquariums géants intérieurs présentant plus d'une trentaine d'espèces de poissons d'eau douce peuplant l'Huisne et la Sarthe (brochets, carpes cuir, tanches, silures et perches). Parcourir le sentier d'interprétation longeant le barrage mobile à aiguilles et le déversoir régulateur pour comprendre le fonctionnement séculaire du moulin à eau et des vannes fluviales.",
     link: "https://photos.google.com/share/AF1QipPlfdZcGXM8KMgTnk1rdclEVZ3CZg3rIqYyRAkJIj7Kwo52vC-Ctwlm4YpYSeLm2g?key=eml2TnB3bDloX1lYNmtxRjdYQUJJUTBZTVR6XzhR"
@@ -3929,7 +4019,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Haute-Corse",
+    department: "Haute-Corse (2B)",
     subdiv: "Monte",
     altitude: 510,
     is_island: true,
@@ -3940,9 +4030,19 @@ const travelSpots = [
     century: "XIIe siècle",
     category: "religieux",
     counts: {},
-    lat: 42.479960,
+    lat: 42.47996,
     lng: 9.389087,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMbqh0pu87NCYsvQlIiiMVq-emHDvviUHGKWvCydl18_5nZWzXKZGn2nkHuOx7EZ4kcH5GmcDe25eCgtir7aar96NmZIU1WnMTO3v3-sMj8NsSBUXJrmNX3nyw_muLxvUa_B8whOjm5VJHJ3YO_wmffcw=w1739-h1159-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNjtH8e76zixZHpCBnOA9Gajrxz1KVeFy2F4i7-uHenPmU4vEDzzL-IeSctj_kcP6hPrlSIiyT4SyAILfgpTzXwu7hK03T94vgWf4Cb5JnRAmANXK1jqZkvT6RtC4Ex0w23-q5NnDr_UG5RvQB4X9EqrQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMTy0Jy3weoSMzgIZM13mA8Sz2u-0592Q-yKpI-iotMRTSByI6jXbH5efj2_PA30GQaOaT-Or9QM0R8GdQ-Ih9ZmKTh6tDfxyW4dWfEABsWKlnzQm8GjIG_B4-6QmLiDqtmts3kSwlZik9ZnQv9p3iu0w=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Émouvante sentinelle du passé religieux et médiéval de la commune de Monte, l'ancienne église de Carognu dresse ses pans de murs ruinés dans un environnement sauvage et préservé, dissimulé sous les ramures des châtaigniers et les frondaisons épaisses du maquis corse. Édifié selon les préceptes de l'art roman pisan insulaire, cet ancien sanctuaire paroissial desservait autrefois un hameau rural aujourd'hui disparu des cartes administratives. Bâtie en moellons de schiste vert et de calcaire taillés et assemblés au mortier de chaux, la structure conserve la silhouette reconnaissable de son abside en cul-de-four et l'amorce de sa nef unique, témoignant de la ferveur spirituelle qui animait ces communautés agropastorales avant le regroupement des habitats vers les bourgs principaux.",
     visiter: "Rejoindre ce site patrimonial discret en empruntant les anciens chemins muletiers reliant les différents hameaux de Monte et d'Olmo, dans une ambiance de quiétude absolue bercée par le chant des oiseaux forestiers. Approcher les vestiges de la maçonnerie médiévale pour examiner les techniques d'appareillage en pierre sèche et les corniches résiduelles qui soulignent l'arrondi de l'abside romane. Prendre le temps d'observer la manière dont la végétation insulaire (mousses, lierres et fougères) a lentement colonisé la ruine, créant une atmosphère romantique propice au recueillement et à la photographie patrimoniale.",
     link: "https://photos.google.com/share/AF1QipP8pf_Tx1YVMHgANk_QHrGG9jgWeu4YK52Uv80tbN4YtvZcTYTxYGhCVGABIy_3KA?key=Z0dKRm9vZFJJLWY4TzRNSkktVkZMRlJQdWR0RXNB"
@@ -3954,7 +4054,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Haute-Corse",
+    department: "Haute-Corse (2B)",
     subdiv: "Monte",
     altitude: 460,
     is_island: true,
@@ -3966,11 +4066,39 @@ const travelSpots = [
     category: "star",
     counts: {},
     lat: 42.482496,
-    lng: 9.383190,
+    lng: 9.38319,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOCjSh79eVkZf7gSxxPWR9UpAVT9vkQMQerBsfHj4zj0wr8Bru44lb0QRs_OK4-UpRlYzn4gdLl-oD_9kLOtZ-f8QEb4b-W0Nqj-2V-LbnBsyrhJwL_3UEF85mJhwY6O-DWZl5Ykq-DpaP5xJOrwpRUzg=w1739-h1161-s-no-gm?authuser=0",
     description: "Niché sur un replat d'épaulement boisé dominant le thalweg intérieur de la commune de Monte, le hameau de Divina est un modèle préservé de l'habitat dispersé traditionnel de moyenne montagne corse. Caractérisé par un ensemble resserré de maisons fortes en schiste gris-vert, surmontées de toitures couvertes de teghje et flanquées de séchoirs à châtaignes traditionnels (i grigli), Divina témoigne de l'ingéniosité des anciens bâtisseurs pour tirer parti du relief accidenté. Entouré de vergers d'agrumes, d'anciens potagers en terrasses et de sources d'eau vive descendant des hauteurs, ce hameau authentique respire une tranquillité intemporelle où le lien entre l'architecture de pierre et le paysage végétal environnant demeure intact.",
     visiter: "Déambuler à pied le long de l'unique ruelle piétonne pavée qui traverse le hameau pour observer les escaliers extérieurs en pierre menant aux étages d'habitation et les voûtes de soutènement enjambant les passages. Découvrir la petite chapelle ou l'oratoire de quartier qui servait de cœur dévotionnel aux habitants de Divina, et contempler la vue plongeante sur les versants boisés tapissés de châtaigneraies et d'aulnes. Poursuivre la marche en direction des sources et anciens lavoirs du hameau pour apprécier l'ingénieux réseau d'irrigation traditionnel canalisant l'eau de montagne.",
-    link: "https://photos.google.com/share/AF1QipP8pf_Tx1YVMHgANk_QHrGG9jgWeu4YK52Uv80tbN4YtvZcTYTxYGhCVGABIy_3KA?key=Z0dKRm9vZFJJLWY4TzRNSkktVkZMRlJQdWR0RXNB"
+    link: "https://photos.google.com/share/AF1QipP8pf_Tx1YVMHgANk_QHrGG9jgWeu4YK52Uv80tbN4YtvZcTYTxYGhCVGABIy_3KA?key=Z0dKRm9vZFJJLWY4TzRNSkktVkZMRlJQdWR0RXNB",
+    sections: [
+      {
+        title: "Maisons de schiste et ruelles du hameau",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPATXOuQefJrHMFU8IvwXH70fwYPe_GDyXoD-9jR-qjNPfTUy6Uvu5T6OasY3_03xT0xcO0EwpOgyc6JrJQkr1IZIi2N-PRNUT-p_4p6UdYfzf1N8jMjIawgTyYzLIJchia3R6Isnm5WWHGu4c7HszanA=w1377-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOCjSh79eVkZf7gSxxPWR9UpAVT9vkQMQerBsfHj4zj0wr8Bru44lb0QRs_OK4-UpRlYzn4gdLl-oD_9kLOtZ-f8QEb4b-W0Nqj-2V-LbnBsyrhJwL_3UEF85mJhwY6O-DWZl5Ykq-DpaP5xJOrwpRUzg=w1377-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Chapelle de quartier et petit patrimoine rural",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNbwpbhib1FkYO5BzVXjTQEpgOekj8trfHBuNt2bxUIcaOA7eiV2uy_NbQZuWwiDOCp89uMUqGvOFHbBN7MjKPos_4j8fLxQA4U_KQcevkB1urtZl_uiPBYrI0jppOZ5xgh-xqXu00DfHV_4CwCi-UT_w=w1377-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO759BtbI0tltteJrwmaAS8_LlN75QKlVY6K0QUyppgjcZnENJj91_yMekud50SKqtH6n_NoCenGOBdlCvNCwhU6zagApdoo4Y1xvwMkM4NC0J1gjQTKEJFbZIxk_hpONwS2XQLcOFofdrnNTY1IU2Bpw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMlLPjJd1Wxl3x8E8yI098EGaenm97t2sciM1JKppxStE2sfHTxwIZW8QQy2AoX_2EwkeRie44CAanlMXeAjsEc1QmXwJaZ51SmuyHKtUbvhRK0he0TMGnOb7D8Sv04O6z-99VT2zllJePWhk6HTq9KQQ=w1377-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOAvq7B2Z44fNza1CnzRvxiI6iZzM_wXc11WOHgKdqwIvOQO2HFpGLLKBb8DI4VuRn9iJCl9n7rygk-YgzAaClt6pcDYy6sI7AZZlxqWpWbl8HPFV3Lf86Vwm6ldGnzSXE2jpvm-oMbXY76q-lsMh-PGw=w1634-h919-s-no-gm?authuser=0"
+        ],
+        text: "La chapelle du lieu-dit, édifice sobre à nef unique surmonté d'un campanile à baie unique, rassemblait les villageois pour les offices quotidiens, les baptêmes et les fêtes patronales sans exiger la difficile montée quotidienne vers le bourg principal. Les abords du hameau conservent les traces séculaires des anciens séchoirs à châtaignes (grataghji), des aires de battage et des fontaines canalisant l'eau fraîche issue des sources de Castagniccia. Protégé de l'oubli par des restaurations respectueuses du bâti vernaculaire corse, Divina veille paisiblement au milieu des châtaigneraies et des chênaies, perpétuant le souvenir vivant d'un mode de vie rural en communion étroite avec la montagne."
+      },
+      {
+        title: "Détails vernaculaires et vues complémentaires",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOwS4R7G39AZrk086EmOQo-pFYQMobp9U7RYo-ezyoS3SVwByK4S7t1jViXZJNDEGQ0VxqxGeWvqZmYz3HthIdioT-KV4YRwCqiQEwvtH-tqwDtJwTsj0HXd-Fgan3cIXu9rguXNlsbjo0XzWOZlCXhCw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOROJRBvVPClnqYt3KvwdTl-7pP8ps7MtgLUZ5rYbQoNZWuebUNhQ7OT6lGtgyPKbRuC8EwxnH76_8I90I_o6ovtAeVy1hegvWA-ZbkJW2IDnxxeV439XTjj4wPvIImsEHUkSn4i1TyZofF1aWBuuASqg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "monte_hameau_ferlaja",
@@ -3979,7 +4107,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Haute-Corse",
+    department: "Haute-Corse (2B)",
     subdiv: "Monte",
     altitude: 430,
     is_island: true,
@@ -3993,22 +4121,28 @@ const travelSpots = [
     lat: 42.464014,
     lng: 9.388858,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPE9jDtFCMHdAXjAZ1mg2r1S6VYFVLCEfYg9dkjAj85waUCGHVodJcZ7YuBd4-8xn0A43z8-G9eY_Y5fWf8-XwBwEmJEZNz7MWhR1KhSaTyVUH-ceTZCKRUFiSTZCwiXWyIpMwR57pxhMS2J3rzdwVgIQ=w1739-h1159-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMEDxl52EJm20w5r5QPRS44pxV-4jobfmh92WCLWJecruq7IyhQ9Vy_7ay5Ey0PRVm-EixxWixE9qzjcEQQ2z3QZwH0TIb6j5ClRBxi8M_eyokQ7Ln10M9sLuvQJoY-Dq6aZ712L0qQkAjq-r-5kI_g-g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "S'étirant le long d'une croupe ensoleillée au sud du territoire communal de Monte, le hameau de Ferlaja compose un tableau architectural rural remarquable par son homogénéité et sa parfaite symbiose avec le milieu naturel. Bâties avec les blocs de schiste lustré extraits directement de la montagne, ses maisons séculaires aux murs épais et aux petites fenêtres conçues pour conserver la fraîcheur estivale témoignent du mode de vie autarcique des communautés rurales d'autrefois. Le hameau est ceinturé par une majestueuse châtaigneraie aux arbres multiséculaires aux troncs tortueux, rappelant le rôle nourricier fondamental de « l'arbre à pain » (l'arburu) dans l'économie et la survie des villages de la région jusqu'au milieu du XXe siècle.",
     visiter: "Traverser le hameau par ses sentes de terre et de pavés rustiques pour contempler l'appareillage soigné des maçonneries traditionnelles et la noblesse des linteaux monolithes. S'attarder à l'ombre bienfaisante des grands châtaigniers bordant les habitations et écouter le murmure des ruisseaux qui dévalent vers la vallée. Découvrir les anciens fours à pain communaux et les aires de battage en plein air (l'aghje) où l'on séparait jadis le grain de la paille, témoins précieux de la mémoire paysanne insulaire.",
     link: "https://photos.google.com/share/AF1QipP8pf_Tx1YVMHgANk_QHrGG9jgWeu4YK52Uv80tbN4YtvZcTYTxYGhCVGABIy_3KA?key=Z0dKRm9vZFJJLWY4TzRNSkktVkZMRlJQdWR0RXNB"
   },
-   {
+  {
     id: "ile_rousse_tour_pietra",
     name: "L'Île-Rousse - Tour Génoise de la Pietra & Phare",
     country: "France",
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Haute-Corse",
+    department: "Haute-Corse (2B)",
     subdiv: "L'Île-Rousse",
     altitude: 64,
-    is_island: false,
-    island_name: "",
+    is_island: true,
+    island_name: "Corse",
     transport: "a_pied",
     era_group: "renaissance",
     era_label: "Sentinelle littorale génoise édifiée sur les dômes de porphyre rouge de la presqu'île",
@@ -4018,6 +4152,20 @@ const travelSpots = [
     lat: 42.643505,
     lng: 8.935121,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMaU1TxuFIkh2AL5E1TUfA4dp0DBfkHHyaxsYx1gpI5BLgPq0n5odzJk32xKAZZuWf7Sq4up9pt775Vglm_zWTSk8cwfxgG-VG-9UKw0uzNuh7XTB2B5P_zKsLvS-AMJQl_VMpePow_nQ8K7agtxH_FqA=w1221-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPR1JQu9QuD2NWgpFi648pfkWn1x17T-GLDrI8aCNhayTqlKmnVGvM6OpF6ipgelPUp4wR8km1_XiuDz1F-TOKJkeqoClnGSoES9SMXMLAExdVMWNJqfXM7WXHoDI-AxD5edBx--L63yc07fUC8_fLABQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMmFbQ7OlalTOkS_8PwEWdI4U5lq6kpma_DdhxPWBt1mHuxDH2TDSh-t4KWWsIWGvirbZIhyaZKNHqEIPwdBUbR4bHdmlQ2oTKgvZd7ED3ZCV_XDRWn2DKKFsEECCBuuX7c5KgK-472HE63APRMHnklww=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOIj1mBpJkINkBZPrpNVrQ82ZHc0KCp9ME6Tsm_FvI_BfgydQUUU7H3MURIOXJ3tBMW5XTgR40UDHti5EO01pMKqu0zkHTewW7ypG9qFeb8s_I2kYhznerWk56xal9rzL6zwB_x3zKOtfQSAw2A-C1EiQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Dressée au sommet des roches de porphyre ocre rouge qui ont donné son nom à la cité paoline de L'Île-Rousse, la tour de la Pietra est l'un des emblèmes maritimes les plus spectaculaires de la Balagne. Érigée au XVIe siècle sous l'autorité génoise pour verrouiller la côte septentrionale face aux incursions barbaresques, cette tour ronde de guet s'élève sur un éperon rocheux déchiqueté autrefois totalement insulaire, désormais rattaché au port et au continent par une digue carrossable. Bâtie en moellons de granite et de roche volcanique locale liés au mortier de chaux, elle conserve sa base légèrement tronconique et sa plateforme sommitale à mâchicoulis d'où les sentinelles allumaient des feux d'alarme visibles depuis Calvi jusqu'au Cap Corse. Flanquée du phare de la Pietra construit au XIXe siècle pour guider la navigation dans le golfe de Saint-Florent, la tour offre un contraste saisissant entre la teinte rougeoyante des falaises de rhyolite polies par les embruns et l'outremer intense de la Méditerranée.",
     visiter: "Partir à pied depuis le port de plaisance ou la place Paoli en empruntant la digue promenade qui relie la terre ferme aux îlots de porphyre rouge. Gravir le sentier pavé qui monte en lacets réguliers à travers un maquis ras d'immortelles, de cinéraires maritimes et de griffes de sorcière jusqu'à l'esplanade sommitale de la tour et du phare. Faire le tour de l'ouvrage pour admirer les parois rocheuses tombant à pic dans les remous de la mer et contempler le vaste panorama qui embrasse toute la baie de L'Île-Rousse, les crêtes montagneuses du Monte San Petrone et du Monte Padro en arrière-plan, ainsi que les villages perchés de Haute-Balagne. Privilégier la fin d'après-midi au coucher du soleil, lorsque la lumière rasante enflamme littéralement le porphyre en lui conférant des nuances pourpres et dorées inoubliables.",
     link: "https://photos.google.com/share/AF1QipOUGVc_ce4DHk2BAb-NVLUQVtx5_rVgcr5yTIoi9giThvdBL_vym7WmhC8QZl6UAA?key=OHFXcU9xSVB6aUpmU2dwaVJhWDdVdExoWkMxZGd3"
