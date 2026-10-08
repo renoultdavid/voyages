@@ -2476,41 +2476,41 @@ function renderEnrichedCarnetMode(spot, layout) {
       const count = sec.photos.length;
 
       if (count === 1) {
-        // 1 seule photo : grand format centré
+        // 1 photo : alignée à 100% de la largeur du texte, hauteur généreuse
         photosMarkup = `
-          <div class="w-full flex justify-center rounded-2xl overflow-hidden bg-slate-950/40 p-1 border border-slate-800/80 shadow-xl">
-            <img src="${sec.photos[0]}" alt="${sec.title || spot.name}" class="h-auto max-h-[80vh] w-auto max-w-full rounded-xl object-contain cursor-zoom-in hover:opacity-95 transition" onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+          <div class="w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl">
+            <img src="${sec.photos[0]}" alt="${sec.title || spot.name}" class="w-full h-auto max-h-[82vh] object-cover cursor-zoom-in hover:opacity-95 transition block" onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
           </div>
         `;
       } else if (count === 2) {
-        // Grand duo proportionnel style Google Photos : hauteur synchronisée, largeur libre sans rognage
+        // 2 photos : duo 50/50 parfaitement calé aux deux extrémités du texte
         photosMarkup = `
-          <div class="flex flex-col md:flex-row gap-2 w-full justify-center items-center rounded-2xl overflow-hidden bg-slate-950/40 p-2 border border-slate-800/80 shadow-xl">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-1.5 w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl">
             ${sec.photos.map(p => `
-              <div class="h-64 sm:h-80 md:h-[400px] flex items-center justify-center shrink max-w-full">
-                <img src="${p}" alt="${sec.title || spot.name}" class="h-full w-auto max-w-full rounded-xl object-contain cursor-zoom-in hover:scale-[1.01] transition-transform duration-200" onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+              <div class="w-full h-72 sm:h-96 md:h-[460px] overflow-hidden">
+                <img src="${p}" alt="${sec.title || spot.name}" class="w-full h-full object-cover cursor-zoom-in hover:scale-[1.01] transition-transform duration-200" onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
               </div>
             `).join('')}
           </div>
         `;
       } else if (count === 3) {
-        // 3 photos : trio équilibré en largeur, zéro rognage
+        // 3 photos : trio tiers/tiers bord à bord avec le texte, collées par un fin interstice
         photosMarkup = `
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 w-full rounded-2xl overflow-hidden bg-slate-950/40 p-2 border border-slate-800/80 shadow-xl items-center">
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-1.5 w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl">
             ${sec.photos.map(p => `
-              <div class="w-full h-48 sm:h-56 md:h-64 flex items-center justify-center overflow-hidden rounded-xl">
-                <img src="${p}" alt="${sec.title || spot.name}" class="max-h-full max-w-full object-contain cursor-zoom-in hover:scale-[1.02] transition-transform duration-200" onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+              <div class="w-full h-64 sm:h-80 md:h-[440px] overflow-hidden">
+                <img src="${p}" alt="${sec.title || spot.name}" class="w-full h-full object-cover cursor-zoom-in hover:scale-[1.01] transition-transform duration-200" onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
               </div>
             `).join('')}
           </div>
         `;
       } else {
-        // 4 photos ou plus : grille de vignettes équilibrée
+        // 4 photos ou plus : mosaïque 4 colonnes calée bord à bord
         photosMarkup = `
-          <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 w-full rounded-2xl overflow-hidden bg-slate-950/40 p-2 border border-slate-800/80 shadow-xl items-center justify-center">
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-1.5 w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl">
             ${sec.photos.map(p => `
-              <div class="h-44 sm:h-52 md:h-60 flex items-center justify-center overflow-hidden rounded-xl bg-black/40">
-                <img src="${p}" alt="${sec.title || spot.name}" class="h-full w-auto max-w-full object-contain cursor-zoom-in hover:scale-[1.02] transition-transform duration-200" onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+              <div class="w-full h-44 sm:h-56 md:h-64 overflow-hidden">
+                <img src="${p}" alt="${sec.title || spot.name}" class="w-full h-full object-cover cursor-zoom-in hover:scale-[1.02] transition-transform duration-200" onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
               </div>
             `).join('')}
           </div>
