@@ -4227,7 +4227,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Loire-Atlantique",
+    department: "Loire-Atlantique (44)",
     subdiv: "Nantes",
     altitude: 12,
     is_island: false,
@@ -4243,7 +4243,64 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczPCFdsAYUCt03t3yZy2hQpeIUIq-9SmLXMfXxUkO6rcSZkKf7QJJxzPK6G4irw_eWTYK2w0SRu48JSosgKDdnzexLe1vEUr_zaQKUW-OthOjiU3Cuu7XMTA5rAIaz7Fha_3ALideGBxFKs2JAFh3Npu2A=w1379-h919-s-no-gm?authuser=0",
     description: "Dernier grand château édifié sur les rives de la Loire avant que le fleuve ne se jette dans l'océan Atlantique, le château des ducs de Bretagne incarne de manière magistrale le chant du cygne de l'indépendance bretonne. Érigé à partir de 1466 sous l'impulsion du duc François II, soucieux de protéger sa capitale face aux ambitions centralisatrices de la couronne de France, puis achevé par sa fille, la duchesse Anne de Bretagne deux fois reine de France, ce monument constitue une prouesse d'architecture militaire et princière. Côté ville, l'édifice oppose aux regards une redoutable enceinte fortifiée de granit sombre, flanquée de sept tours imposantes aux épaisses murailles percées de canonnières et ceinturée par de profondes douves autrefois alimentées par les eaux de la Loire. Dès le pont-levis franchi, cette rudesse défensive s'efface pour laisser place à la blancheur éblouissante du tuffeau et au raffinement de la Première Renaissance. Dans la cour d'honneur se déploient le Grand Logis orné de lucarnes gothiques flamboyantes, la tour de la Couronne d'Or percée de loggias à l'italienne, ainsi que le Grand Gouvernement et le bâtiment du Harnachement, composant un décor d'une noblesse insigne qui a traversé l'histoire de France, depuis la signature solennelle de l'Édit de Nantes par Henri IV en 1598 jusqu'à sa reconversion patrimoniale contemporaine.",
     visiter: "Pénétrer dans la vaste cour intérieure en franchissant le pont-levis monumental et commencer par parcourir le chemin de ronde intégral, librement accessible sur plus de cinq cents mètres linéaires le long des courtines crénelées. Cette déambulation en hauteur offre des perspectives remarquables et variées, plongeant d'un côté sur les toits d'ardoise et les façades de tuffeau finement ciselées du palais ducal, et s'ouvrant de l'autre sur les douves verdoyantes, le miroir d'eau, la tour LU et le quartier historique environnant. Prendre le temps d'observer les détails sculptés de la tour de la Couronne d'Or dont les motifs préfigurent l'art de la Renaissance en Val de Loire. Descendre ensuite dans la cour pour visiter les collections permanentes du musée d'Histoire de Nantes réparties à travers les trente-deux salles restaurées du Grand Logis, retraçant l'évolution de la cité fluviale et maritime, la traite négrière atlantique, les guerres de Vendée et le passé industriel nantais, avant de terminer par une promenade contemplative au bord des douves pavées bordées de magnolias.",
-    link: "https://photos.google.com/share/AF1QipNA-WajdV28rziPVi0hp3zq0PyAWWMSkNtis-tm3qUDmjaXU_K2XVfaWMdQqQZRGA?key=VWVyclhYQzBiblpDMTE1MTNTUXg4X1lwR1dfRHp3"
+    link: "https://photos.google.com/share/AF1QipNA-WajdV28rziPVi0hp3zq0PyAWWMSkNtis-tm3qUDmjaXU_K2XVfaWMdQqQZRGA?key=VWVyclhYQzBiblpDMTE1MTNTUXg4X1lwR1dfRHp3",
+    sections: [
+      {
+        title: "Châtelet d'entrée, remparts et tours bastionnées",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOui8macGgINEle-a1-d25dfxtOTBVq6j6HKiCiWmzhC6YtDFi73d8el2H4WT8SmXEtDgK5myyLLqkEVA-fRXNWP69B6IcmCuSh7Neh7EdTRzwC35Vl4ro70X99hFjMiLHsaksXimizF4Jl89578Ivy0g=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP_BtSxyC8CV0vv70nCHs52yN72m7Pxstuw0R4rZ-JG4vz4XHSqPO4OJnFB596EnTKXHAlnXH59__HE0EeQ2pAUR4ET22vSYeH3OAxFk54qS5TKWQwb1I_yPTJvIgoI4vL9rU34R6sPsJ8Oa0x4VN81Pw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPh71byLXtCJ_YUWM2Y7aFXYOBwE7tUwUsN2ul2_ETYBsjqWSYJIzXo3xdzMl9b87uLovslVglwqZadBdBc5tFbXtx2cGed7ZlkdAKD8iaG7X8LOOQ5xjOkUMIdta3gsxYxcBsjtkEbcNVaQXRh5JzgSQ=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'accès principal s'effectue à l'ouest par le pont de pierre enjambant les douves sèches, gardé par le châtelet d'entrée encadré de deux puissantes tours médiévales en moellons de schiste et de granit armoricain. Franchi le porche d'entrée surmonté d'une herse et d'armes sculptées, la muraille extérieure dévoile un circuit continu de remparts flanqué de sept tours massives, parmi lesquelles la tour du Fer à Cheval, la tour du Port et la tour de la Couronne d'Or. Ces ouvrages bastionnés, percés de canonnières adaptées aux débuts de l'artillerie à feu, sont reliés par un chemin de ronde intégralement pavé de plus de cinq cents mètres de long, offrant des vues plongeantes sur la cour pavée et sur les toits de Nantes."
+      },
+      {
+        title: "Grand Logis et tour de la Couronne d'Or",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPCFdsAYUCt03t3yZy2hQpeIUIq-9SmLXMfXxUkO6rcSZkKf7QJJxzPK6G4irw_eWTYK2w0SRu48JSosgKDdnzexLe1vEUr_zaQKUW-OthOjiU3Cuu7XMTA5rAIaz7Fha_3ALideGBxFKs2JAFh3Npu2A=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPHaVjCg2okPhS51WxQxcVykUTdPPLf2kDxAvycfRqrqph3GZW4avKN5HWDF83pvsJ9JQ75x0sWBABPCdBRcCjC6DcWQ9lZxLh8GssGg5SuCJXW0FdcK6eghE67yyg4nT1LSCCrd7Uf9DslW__nVdjA8w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Une fois pénétré dans la vaste cour d'honneur, l'austérité du granit militaire s'efface brutalement devant la blancheur lumineuse de la pierre de tuffeau ligérienne. Au fond de la cour s'élève le Grand Logis, magnifique résidence princière du gothique flamboyant couronnée d'un toit pentu d'ardoise que percent de majestueuses lucarnes Renaissance ornées de candélabres, de chimères et d'armoiries ducales à l'hermine mouchetée. À sa droite se déploie la tour de la Couronne d'Or, flanquée de deux loggias superposées à arcades en anse de panier et balustres sculptées inspirées de la Renaissance italienne précoce, véritable promontoire d'apparat d'où la cour ducale contemplait les joutes et les fêtes seigneuriales."
+      },
+      {
+        title: "Vieux Donjon, Grand Gouvernement et Harnachement",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOEzJ2ZHCi2g_vyBnDw3Ev6cj7yT0hvkDPUmPxRoadn345y_T6A_WZ2ItDxGlRNrfOOgwaXtBCmNozZg7zWa1j8zGc2fH6q0adVUBcE9qNesRk-20O7Pdj27SmCUAkywMakvqmt0dyuu3PoPxlSRnA-8w=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM5kCYVuNjJfLk8lpgS9mWz0Kp5-LivQpKHTXXa35diXmY0mwfBerEnzqO3Jkh6OhOOzwX0_ZCHyj7wnPbFRj1Gd8qlhGzN-E8baqVdAXBiWJ6T-B6n-I6ZwozHN8q2R0J71Zq9Y4DNU1IG5EtFza8q7w=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "La promenade dans la cour mène ensuite vers le Vieux Donjon, vestige octogonal plus ancien remontant au XIVe siècle et contemporain des ducs de la maison de Montfort, puis vers le Grand Gouvernement, corps de logis classique reconstruit au XVIIe siècle après un incendie sous le règne de Louis XIV. Au sud s'alignent les élégantes arcades du bâtiment du Harnachement, vaste magasin d'artillerie et écuries d'époque classique édifié sous le règne de Louis XVIII, dont la sobre façade de calcaire dialogue avec le petit édifice du Puits sculpté, abrité d'une ferronnerie raffinée aux motifs d'entrelacs et d'hermines."
+      },
+      {
+        title: "Musée d'Histoire de Nantes et collections ducales",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPeX7dh059iYt6tLn6R-1ayNG041bb1nMx9I8ApBUaax6RqcVKvTSUMIetbCvxI-QdODhC6Lcyv7uXnXXTjYJrkpBI_A4hu6fcevgKLXVQLyexyeD1mx71fg7jiX40y8Ye28fPOuQp7TNE1qSRixi1rcQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOJgBguFdzZoxj1fADh6YWcoZKFWFm7sZQgzKRtVWyBkf2VCtnt2VPisvZF0QG0Do33e8Fy7FTtglGeyaduktd9F0ye9ZViE31Ra_-virn_rxoCHB8cS1jyCPxpo_nQWXEI8QOs4hAO84K6wnlV909z4g=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "À l'intérieur des logis ducaux rénovés, un parcours muséographique de trente-deux salles abrite le musée d'Histoire de Nantes, déployant plus de mille objets retraçant l'évolution de la cité, depuis les fastes de la cour bretonne et la signature solennelle de l'Édit de Nantes par Henri IV en 1598, jusqu'au grand commerce maritime et colonial négrier du XVIIIe siècle, aux friches industrielles du XIXe siècle et aux mutations contemporaines de l'estuaire."
+      },
+      {
+        title: "Cachots révolutionnaires de la tour des Jacobins",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPdPXWZHvejcEvaTiqFXBWQTxIbp2VxUK0ciFMchmKkBYfMo1n3PIkiEDBHNdKvp6ZogSCOfDSdUEWYYaFxP5Y_tmCFMIUVbuppuh9rsgTCnrgpIEhMgn5xGKNn0qhIs6hzSMukOQ5i9a4fTY0KONUlqg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO9vHKxCvAExzKknl7zMhWzYQxnEMhqhm8FJy_7kie3PjIwvPI51Vd16nbFJMmbwd77DqIlErAjyen3m_MAcf2MNuazIMnXuO4wadPWnVk9qHqH5oPx1xiFi386eG-0k5ZuFN4mm3YKklrH8Ujlf-YULA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Dans la tour des Jacobins se trouve un bien curieux endroit : il s'agit d'une ancienne cellule de cachot utilisé durant la Révolution, dont les murs sont couverts de graffitis des prêtres réfractaires ayant refusé de prêter serment à la constitution civile du clergé en 1792. Plusieurs étages dans la tour, chacun pouvant accueillir plus de 70 prisonniers."
+      },
+      {
+        title: "Vues complémentaires des remparts et des douves",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPWCroKdSuXlGFlQAqnr9-8kXDy1VO5HxPQkkQ_eNmvPJBivmEVX6TiifBDARpxV9lHppy3logKHjy9qGsOUloHzHAAJYFChL6355lxbY5zriiMRCEGAr8Bi9uO4m04LH6fX5UEM3l34Fe41PRbdIrjtA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNHKuGD3rGdiKNhfQsqu0ZkC-607Dnyjjo4617qiGrR3Mh2BSBxV0FltmG6QZ8xg1RXdUs0cGfwql54AYoeANN2LSQUy4t29_x9fma-I--okpoL3B-0nWD7Jc57MTVoLWNVQU4KXBX-s-iFSO9AnZdhjA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMTSnx9mGg25akcuYiX5W_WGfWIFStSwf3IJWI0cIkaLfcwLx3Ywy-BJjXPqmxNKWFUL7r2tB-FVl5_voZwILVGgoXW_bXWy_vrIgLpsB9ARdcQjZg8QLoxpuRZwtxQSruQR_CsAKIH-07npdIP613ipw=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPcD1UTThRAgFMEkmwbN5SA66XehiW9qjrTHxWE03SfOa4VJlVh-OlpLv7nAJMOz0H5yLkptE-FGvKCbivJaBWboqoR0nZNH9J44F9DzexsBiAzEslf8uVO7JNfrkimH9qXcmq5ZRebW3IsV5Sb9E1MqA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPC02qGLvJtChLwdammXuhUuM5rLzfqUHkC35Yf7iABZwZzVzjVZ75lIM5ae2CUUrutHLaM9afAafyO-sBpUjgc_nQ0aQ4LOIOXIQSg_es1UFVa51o7jiUM2-KFxSrOczg2SSvIXwBrYU4e6bo07o5-jQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNPV3u66775LMKPxZZVGgzy5ZOvNEEf0zAIccbgP8K94Nrikue3CXodq-sEV8_BDIIqazH_7RKa5kHoE-Q5uHDKMfSrhxq0yF5dmihmxZISzJFRbh3JDE4feeyXodYPwMWza73CLxCihhu1claslgckQA=w1382-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPK9VsXOiMkt2xSB3aWXrmZXxh8r0hqN3NdxSkenHZOw_q1ZZ24XvrpVM_hxIMBcDnErzdU9ReCOayWym8DO2klnCEyG-9MVoB8oqqIExqGOeHt8altILQ5aqmgnOHDLoa_3ob8-Axl3iz17KBB-WugHQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMOWaGlFsWJd6t8-1Go81hNUvYM18TI-gDc0kwPMhyD5ESD1gS8J56iOCZGNZX-ozRJ9XkVviQvt0SPVjPCZb2VmN4KbYLNI1gYWqDsrZ9PJuq4q6sQBbc8OtT_sAi2mFYXYlpUiUOv1qn8PtqWHWX5QA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "nantes_passage_pommeraye",
@@ -4252,7 +4309,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Loire-Atlantique",
+    department: "Loire-Atlantique (44)",
     subdiv: "Nantes",
     altitude: 18,
     is_island: false,
@@ -4260,12 +4317,18 @@ const travelSpots = [
     transport: "a_pied",
     era_group: "contemporain",
     era_label: "Galerie marchande couverte monumentale du XIXe siècle sur trois niveaux",
-    century: "XIXe siècle",
+    century: "XIXe siècle (1843)",
     category: "star",
     counts: {},
     lat: 47.213549,
     lng: -1.559665,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPHPfbDIuP44qg3yMuV_tDnR0b0tA8aZLbWIrz5UbsHgmcjNCjr4H67TIn7DEMR6tmky1Rhp85NtlTJfrul-E_tNvlmisTofVQW-Cxu_mnvK_f0tg3Rds8wlSJxml5rZ_bwvYVT0lIk6F448xNaOxmU9A=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNFxkGVvlE3ogi6CWwCtuYD7BOKMDUkuAC9QOGNyxO0jVLx1fmhaEiyd9UkPkcbdO_PFE4AZbGHloA9mSv4yyNOdfg4rJe0v1UYZcENcImZhFwAzPFxNQSgB6vSznShOeIbgMiJ1VZNn_65Qqj5KWZwjQ=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Inauguré en juillet 1843 sous le règne de Louis-Philippe, le passage Pommeraye s'impose incontestablement comme l'une des galeries couvertes les plus audacieuses et élégantes du patrimoine architectural européen du XIXe siècle. Conçu par les architectes Jean-Baptiste Buron et Hippolyte Durand-Gasselin sous l'impulsion du notaire Louis Pommeraye qui y consacra toute sa fortune, cet aménagement monumental relève le défi technique de relier la commerçante rue de la Fosse, établie au niveau des anciens quais, à la bourgeoise rue Santeuil juchée sur les hauteurs de la colline, en rachetant un dénivelé topographique abrupt de plus de neuf mètres. Organisé sur trois niveaux superposés reliés par un vertigineux escalier central en bois de chêne et fonte moulée, l'espace est coiffé d'une gigantesque verrière à armature métallique qui diffuse une lumière zénithale cristalline. L'ornementation d'inspiration néoclassique et éclectique y est d'une richesse foisonnante : d'admirables statues d'adolescents drapés à l'antique tenant des torchères ornent les paliers, tandis que des médaillons, des rinceaux dorés et des allégories sculptées par Guillaume Grootaërs célèbrent le négoce maritime, l'industrie et les beaux-arts. Véritable féerie architecturale, le lieu a marqué l'imaginaire des surréalistes comme André Breton et a servi de décor emblématique aux films de Jacques Demy, notamment dans « Lola ».",
     visiter: "Pénétrer dans le passage soit par la volée basse de la rue de la Fosse, soit par le niveau supérieur de la rue Santeuil pour apprécier d'emblée la spectaculaire profondeur de champ offerte par la perspective des paliers étagés. Emprunter pas à pas le magistral escalier de chêne dont les marches grincent doucement sous les pieds, en prenant le temps de détailler la virtuosité des balustrades en fer forgé aux entrelacs végétaux et la finesse expressive des statues de torchères juchées sur les pilastres de fonte. Lever les yeux vers la grande verrière zénithale pour admirer la clarté changeante qui baigne les coursives supérieures suspendues au-dessus du vide. Parcourir les trois galeries marchandes à la découverte des vitrines en bois sculpté, des boutiques raffinées, des librairies et des salons de thé traditionnels qui perpétuent l'élégance du commerce nantais du siècle passé, puis poursuivre l'exploration vers la galerie contemporaine Cœur de Nantes afin de mesurer la subtile greffe moderne apportée à ce chef-d'œuvre classé Monument Historique.",
     link: "https://photos.google.com/share/AF1QipNA-WajdV28rziPVi0hp3zq0PyAWWMSkNtis-tm3qUDmjaXU_K2XVfaWMdQqQZRGA?key=VWVyclhYQzBiblpDMTE1MTNTUXg4X1lwR1dfRHp3"
@@ -4277,7 +4340,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Loire-Atlantique",
+    department: "Loire-Atlantique (44)",
     subdiv: "Nantes",
     altitude: 20,
     is_island: false,
@@ -4291,6 +4354,12 @@ const travelSpots = [
     lat: 47.218461,
     lng: -1.550148,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOZ3oZBjxtjmIaSzVd8XxkMZm1aaheLc_I4B8Fv0HPHH8rZGLL-RRd-vNJz_8QSeRsIezDLZGwxKkrw3uZRH3nt3DTVjfMxLhXwaI5c6tMuMf9-dpBf0khn4402wvfOY4xkjNg_BRo0AMp9Zy8nTSYsew=w692-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMWcMwduQ9gnVOvDHokKMIEXOHesj5bPc3IwkGTB-2Lad5kyZyuLq1cvCOC5G5sI7hvo2783NOIlkueJsFMYd9IZiPvGs3OYqfYhfxgsYSqsj3bpvKkWm5RY7Js7MI1uvKv_kuWy_QLM0iULBA8ef5QbA=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Édifiée sur une durée phénoménale de plus de quatre cent cinquante ans entre la pose solennelle de sa première pierre en 1434 par le duc Jean V et son achèvement complet en 1891, la cathédrale Saint-Pierre-et-Saint-Paul de Nantes est un sommet du gothique flamboyant en Bretagne. Bâtie en calcaire blanc et tuffeau ligérien, elle présente une imposante façade occidentale encadrée par deux massives tours carrées dépourvues de flèches, rythmée par trois portails richement sculptés dont les voussures racontent l'histoire sainte et le Jugement Dernier. L'intérieur surprend par son élévation et sa pureté lumineuse : avec une hauteur sous voûte atteignant plus de trente-sept mètres et demi, la nef nantaise surpasse de plusieurs mètres celle de Notre-Dame de Paris. Malgré les drames qui ont jalonné son histoire — notamment les bombardements de 1944, l'incendie de toiture de 1972 et le sinistre criminel de 2020 qui a détruit le grand orgue du XVIIe siècle —, l'édifice conserve des trésors d'art funéraire d'une valeur inestimable, au premier rang desquels trône le tombeau de François II et de Marguerite de Foix, sculpté en marbre de Carrare polychrome par Michel Colombe au tout début du XVIe siècle sur ordre d'Anne de Bretagne.",
     visiter: "Débuter la visite par la place Saint-Pierre afin de contempler la façade occidentale et s'attarder sur les sculptures détaillées des trois portails ogivaux, en repérant les armoiries ducales bretonnes et les scènes gravées dans la pierre calcaire. Pénétrer à l'intérieur pour ressentir l'immense souffle vertical de la grande nef baignée d'une clarté éclatante due à la blancheur du tuffeau et à la hauteur prodigieuse des piliers fasciculés sans chapiteaux. Se diriger vers le transept sud pour admirer le cénotaphe ducal de François II : observer minutieusement les gisants reposant sous la garde de lions et de lévriers, ainsi que les quatre statues d'angle incarnant les vertus cardinales, en s'attardant sur la Prudence représentée avec un double visage, jeune fille au miroir regardant vers l'avenir et vieillard barbu tourné vers le passé. Visiter la crypte romane du XIe siècle abritant les reliquaires et le trésor épiscopal pour mesurer la continuité cultuelle de ce site habité par la foi depuis plus d'un millénaire.",
     link: "https://photos.google.com/share/AF1QipNA-WajdV28rziPVi0hp3zq0PyAWWMSkNtis-tm3qUDmjaXU_K2XVfaWMdQqQZRGA?key=VWVyclhYQzBiblpDMTE1MTNTUXg4X1lwR1dfRHp3"
@@ -4427,7 +4496,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Séné",
     altitude: 5,
     is_island: false,
@@ -4441,7 +4510,25 @@ const travelSpots = [
     lat: 47.614696,
     lng: -2.762547,
     image: "https://lh3.googleusercontent.com/pw/AP1GczO5k0W6VnVIaS1BMr0uvsJ1o9E7E6o9HJausVYz9h3911VHxx6CcXCGyjh7JUH8DgiiPUF81ADpkcXx6XCaupdX7Q2czQASC4gtSwcZVrzcGaYxIAeffZmyrZV1rNwOM81W-zhbScAjwzq4tvuaVjn-QA=w1901-h1426-s-no-gm?authuser=0",
-    description: "Enchâssée dans l'un des replis intimes du littoral sinagot, l'anse du Ranquin offre un paysage maritime calme où les marées rythment la découverte d'immenses vasières nourricières. Bordé d'une végétation de prés-salés, de schorres et de pinèdes maritimes, ce bras d'eau abrité fait face aux méandres conduisant vers le chenal de Vannes et le goulet de Conleau, servant de havre naturel pour de petites embarcations traditionnelles.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNSjdTTWl-wJnrAnReTUtoG6HvOnZi53Y9EaZJ81dqkdp9kibxNd17tQFjDWuuYnA2GOC37xLzZdDOzpB8igjP8fByd0Fmg1tNVfkMQZk3lVIobnSmh7Vudez5AjDb2ZRqqTGq5jvDqlraos1jXNo48jA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPHpjKLwwOGJGFDPwyPFPx9tBLHb2wufgwDM2o37zqqkyPAPGEn8OGa0Ya5JTH8UY61qBT6KeI9B2RX2dVDbU2ogrmugeXc71RKmN0MEfqCTsKPbjG2qYRhdlzXzQQ6yOeauxrLdYFY1OMO7LAr6nA8YA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPGH410qayEPwBx1A3N9hT1tejNTEqV6rioDGyEeNT1uWQWqmsZdjhuyHBih2qvoPjmDQ3oL10o66GW1f9zAXJlUarbPAo8gvgd_X4aptZayhKlhGT24wpTAjx_cSVnswA4NDWmudrJfuEnF2l0C7fr4A=w1225-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNzjdbXrJdUczNp5eNUGye3qgy1oMDRrR8p0uO6vO35t1IhkfKw1TILFo59i6KNKv99a3AP3Yn9PLN7g7xZ2vapNzfwQpFIFA0kD8s-pvqFYMRF3rzqYIK9LF4Z-9btWiJ28heC_tt1ZwJF7SbR4aQVfg=w689-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Enchâssée dans l'un des replis les plus abrités du littoral de Séné, l'anse du Ranquin forme une coupure paysagère remarquable où se rencontrent les eaux calmes du chenal de Vannes et les vasières sédimentaires du golfe du Morbihan. Cet espace maritime sensible vit au rythme puissant des marées qui découvrent deux fois par jour de vastes étendues d'estran limoneux, garde-manger indispensable pour une avifaune migratrice variée. Bordée par des prés-salés recouverts d'obiones et de salicornes, l'anse est ceinturée d'un boisement de pins maritimes et de chênes dont les ramures se reflètent dans les eaux miroitantes. Utilisé depuis des générations par les riverains et les pêcheurs à pied, ce havre naturel sert de point de mouillage paisible pour de petites embarcations traditionnelles et plates ostréicoles. L'atmosphère y demeure empreinte d'une profonde sérénité, loin de l'urbanisation de l'agglomération toute proche, offrant un condensé du charme estuarien et sauvage qui caractérise les rias de Bretagne sud.",
     visiter: "Emprunter le sentier côtier qui serpente entre ajoncs et pins parasols pour admirer le contraste des vasières aux reflets argentés à marée basse. Observer les hérons cendrés et aigrettes garzettes en quête de coquillages et petits poissons au fond de la crique.",
     link: "https://photos.google.com/share/AF1QipNnphodHd7ZJ7e3O9m06dVLlvS2pe1Fbp1GBVfWd8HrXhC-g9yEs717mSChDtrbcA?key=azV2OGVSRUZ0c29VVFF1OXF0X1ViQ2NXRFlBM1pR"
   },
@@ -4452,7 +4539,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Séné",
     altitude: 4,
     is_island: false,
@@ -4466,7 +4553,13 @@ const travelSpots = [
     lat: 47.625579,
     lng: -2.774881,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOLO-PEbJGd9U61lrEY1c0p1EQLOHBPgtJy2VaEffM92QDIOZXZ7SJuLmswatHKINbfs5Ik-HhePO2pdGaCgVzqZ2pF5PXcJXGN935xdVcpln2qXg2V_6NneoRC9XFqWUFGCiRXFMQ4GuefhZMqf2W2Lw=w1901-h1267-s-no-gm?authuser=0",
-    description: "Établi sur la rive orientale du chenal de Vannes, le petit port de Barrarac'h a longtemps servi de point de traversée fluvial stratégique. C'est d'ici que le bac à chaîne puis les passeurs à la godille assuraient la liaison directe avec la pointe de Conleau, évitant ainsi le grand détour par le fond de la ria pour les pêcheurs et paysans sinagots. Aujourd'hui, sa longue cale pavée plongeant dans le courant conserve un charme maritime authentique face au va-et-vient des voiliers.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPpzaBf5v03hQy7_Y17ZLfOeEQ6ghJBFlrW4k7CKRJu6G2blyaOo2UbxkFg-5M81rBbwArrKxt_t6zW8ouchJxuxAHJoaJyhp-D57fPfIWY0hQoPhyOvS10mnQF8-YZj1CLc69-2r6s265-14ucUidBWw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Établi sur la rive orientale du chenal d'accès maritime à Vannes, le petit port de Barrarac'h est un jalon capital de l'histoire des communications dans le golfe du Morbihan. Aménagé avec sa longue cale inclinée en grand appareil de granit, ce site assurait le passage stratégique entre le terroir agricole de Séné et la presqu'île de Conleau. Pendant des siècles, paysans, marchands et pêcheurs empruntaient les barques de passeurs à la godille puis le bac à chaîne pour franchir ce bras de mer resserré, s'épargnant un long et pénible détour à travers les marécages du fond de la ria. Aujourd'hui reconverti en havre de mouillage paisible, le port demeure un observatoire privilégié du ballet nautique de la rivière de Vannes, où le fort courant de marée impose toute son énergie aux voiliers et vedettes à passagers.",
     visiter: "S'avancer sur la cale de pierre pour contempler de près le passage resserré du goulet maritime de Conleau. Prendre le temps d'observer le ballet des plates et des bateaux de plaisance manœuvrant dans le courant de marée.",
     link: "https://photos.google.com/share/AF1QipNnphodHd7ZJ7e3O9m06dVLlvS2pe1Fbp1GBVfWd8HrXhC-g9yEs717mSChDtrbcA?key=azV2OGVSRUZ0c29VVFF1OXF0X1ViQ2NXRFlBM1pR"
   },
@@ -4477,7 +4570,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Séné",
     altitude: 5,
     is_island: false,
@@ -4488,10 +4581,16 @@ const travelSpots = [
     century: "XIXe siècle",
     category: "star",
     counts: {},
-    lat: 47.623500,
+    lat: 47.6235,
     lng: -2.779191,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOw2zmhvKa7nmekw6nYX15ngVvUoorULlx2N077WH5jkOGOfhnaNdrhkmDhexUZg2I3WBOEs-qXCGC0QpmM80Ms8jVWo37wvTrSMBbyROWl3zzMR3C5otrzsYLW0hTFU1F8qIxZXZhwU2ddx4hKWWGAHQ=w1901-h1267-s-no-gm?authuser=0",
-    description: "Aménagé à la fin du XIXe siècle à la pointe de Bellevue, Port-Anna est un haut lieu du patrimoine maritime breton et l'ultime bastion des pêcheurs côtiers du golfe. Berceau historique du sinagot — ce célèbre cotre traditionnel à deux mâts et voiles rouge cachou non haubanées —, le port accueille encore les débarquements de bars, de crevettes et de dorades rapportés par les chalutiers locaux, sous le regard des anciennes maisons d'armateurs et des casiers à crustacés empilés sur les quais.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM8aJvSoYQINqak6tcz8j7jaTVEeiMdC0OxxuFRcTpDkOvc8G0NzIo-a8fMxevZhQhd7xWAuKWJdeAYaQfvkmn8pnSgY3DCkWabMThaRcdnuXLS4InbWExS1CUN_bxXqWhw4S29ywIEdeXcxntNBfEh7w=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Aménagé à la fin du XIXe siècle à la pointe de Bellevue, face à la presqu'île de Conleau et au débouché de la rivière de Vannes, Port-Anna constitue le cœur battant de la mémoire maritime de la commune de Séné et l'unique port de pêche artisanale encore en pleine activité au sein du golfe du Morbihan. Édifié pour offrir un mouillage abrité aux marins locaux bravant les courants complexes de la « petite mer », le site est indissociable de la saga des célèbres « sinagots », ces robustes chaloupes traditionnelles en bois à deux mâts non haubanés et aux voiles caractéristiques teintes au cachou rouge sombre. Durant plus d'un siècle, ces embarcations maniées avec une virtuosité exceptionnelle ont dragué les bancs d'huîtres sauvages et traqué le bar, la crevette et la sole le long des rivages morbihannais. La jetée de granit protège aujourd'hui une flottille côtière contemporaine de caseyeurs et de fileyeurs, bordée de casiers empilés et de cabanes de pêcheurs traditionnelles. Haut lieu de rassemblement lors des Semaines du Golfe et des régates traditionnelles, le port conserve une identité populaire et vivante d'un charme authentique, où se perpétue sans discontinuer la fierté des gens de mer du pays de Vannes.",
     visiter: "Se promener sur la jetée de granit pour admirer les sinagots historiques amarrés au mouillage et s'imprégner de l'atmosphère laborieuse et iodée du port. Déguster des fruits de mer et des huîtres creuses aux terrasses de la cale en profitant de la vue imprenable sur l'entrée de la rivière de Vannes.",
     link: "https://photos.google.com/share/AF1QipNnphodHd7ZJ7e3O9m06dVLlvS2pe1Fbp1GBVfWd8HrXhC-g9yEs717mSChDtrbcA?key=azV2OGVSRUZ0c29VVFF1OXF0X1ViQ2NXRFlBM1pR"
   },
@@ -4502,7 +4601,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Séné",
     altitude: 6,
     is_island: false,
@@ -4516,7 +4615,21 @@ const travelSpots = [
     lat: 47.593819,
     lng: -2.729067,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOlCM2KM2IPbR2J0pKl8J57jWcpAUAKSmLXIOvvRlTDkaQPX5HviBiXrxqZ986nRKU62Pd_wZKsgMktweqQxL2gaSxvrH9dbgF9QXVa5n4jAGmByhnyWOuPB00z2qAnWKcUbg53EaWySzM5Xfssu--jZA=w1901-h1267-s-no-gm?authuser=0",
-    description: "S'étirant au sud de la commune de Séné vers les îles de Boëdic et Boëd, la presqu'île de Villeneuve est un fin cordon de terre préservé où se côtoient prés-salés, claires ostréicoles et murets de pierres sèches. Isolé de l'effervescence urbaine, ce promontoire boisé de chênes et d'ajoncs offre un belvédère de premier ordre sur les méandres intérieurs de la petite mer et les parcs ostréicoles traditionnels.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczON1ceMmBvda4AU6L3P6GgHxrVGlPltBZDQ18uljIu7zUCIeNEYFFrVr6ZiwT1a_QcSfS9XRZy3egnUiadMzTGbbroTx44KuaysG4qNFmQ8SIyyhbajuWEMoyV64CIjFk--SFMA1Rr2z8RQ5XqVPOFQAQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOc0nAZiRyTd_Y3FOp0wbflcfjLMA9EHJCX0Wnueq5yI9tZi5pt_3117hrlJ3Dd3yNMPH7W0AOTJEvNIVwHayQyLeKbbN2afwLtsCRf7JaC4eTUNit2Z_Gk1vvRqVaYnU1JIwQrdK1mqMyaZGCyuxiEdA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMr_ALyQZ8l-aive0UEeLH3uSdYbH_vV8B5Kh4nEPp-c_qPDUFbwK5d1SuSJ_gKHhQ8RC13v5av7GyAzgm_q9fUoqSrPkur5eXoQGl9-2_Ph8izORiIwtVuuXzwiWxkdvjq8dDfe8KmXaWh89mC8PH_QQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "S'avançant comme une longue digue naturelle entre l'anse de Moustérian et le bras maritime conduisant vers l'île de Boëd, la presqu'île de Villeneuve constitue l'un des espaces littoraux les plus sauvages et préservés de la commune de Séné. Cette langue de terre basse, façonnée par les courants marins et les sédiments fluviaux du golfe du Morbihan, est un sanctuaire écologique où s'entremêlent prés-salés inondables, vasières riches en invertébrés et petits massifs boisés de pins maritimes et d'ajoncs odorants. Longtemps voué à une agriculture paysanne austère et au pacage des bêtes sur les schorres littoraux, le site a vu s'implanter au fil des siècles une activité ostréicole traditionnelle dont témoignent encore les claires d'affinage et les cabanes de chantiers ostréicoles dispersées le long de la rive. À marée basse, l'estran se dégage sur des centaines de mètres, attirant une importante colonie d'échassiers, de bécasseaux et de bernaches cravants venant s'alimenter dans ce biotope nourricier. Dépourvue de toute circulation motorisée, la presqu'île est sillonnée de sentiers discrets bordés de murets de pierres sèches, offrant une retraite idéale pour la contemplation paisible des îles intérieures du golfe.",
     visiter: "Suivre le chemin piétonnier littoral qui fait le tour de la pointe pour savourer le calme d'un rivage préservé. Observer les oiseaux limicoles qui sondent les vasières découvrantes et contempler la vue panoramique sur les sinuosités du golfe.",
     link: "https://photos.google.com/share/AF1QipNnphodHd7ZJ7e3O9m06dVLlvS2pe1Fbp1GBVfWd8HrXhC-g9yEs717mSChDtrbcA?key=azV2OGVSRUZ0c29VVFF1OXF0X1ViQ2NXRFlBM1pR"
   },
@@ -4527,7 +4640,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Séné",
     altitude: 12,
     is_island: false,
@@ -4541,7 +4654,13 @@ const travelSpots = [
     lat: 47.595852,
     lng: -2.716696,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMu3GcWTRy6aEjWfOiSJfD46wiQ4VMhf25DlwMCWM1oLoYoj_BVKKg8TWqJC3GSZWa1l6eZ0hrmP0VWlaTYUiiUah8jbgtzM9hgn11SV4iYkeC65K-6gg_mR3HU21UHK6Hkz9h-DYwlU-Tlrne7Vl7XGQ=w1757-h2635-s-no-gm?authuser=0",
-    description: "Érigée à un carrefour champêtre au cœur du terroir de Montsarrac et de Kerarden, cette vénérable croix de granit gris témoigne de la foi profonde des marins et des paludiers sinagots à l'aube des temps modernes. Taillée d'un seul bloc et fichée sur un socle massif, elle servait autrefois de repère géographique pour les convois de sel acheminés depuis les salines littorales vers l'arrière-pays vannetais.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPgCZu1UVlKtz27qxI4m-4ofJxVzEhqUhIeaknq0TGw6ZTwtc7UFJTyfjy6uVIEXps6RXtslXsKGV7Vz-YBnHyC4AzkB1YiEZoTCh_JySv8wYZ8zF722YyyrUawM0kuUZhOIyg8eycPzBE2-u3ED42yFw=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Érigée à un carrefour champêtre au croisement des anciens terroirs de Montsarrac et de Kerarden, cette vénérable croix de granit breton constitue un précieux témoin de la piété populaire qui imprégnait le quotidien des habitants de Séné au début de l'époque moderne. Taillée avec une grande sobriété architecturale dans un bloc monolithique de granit gris extrait des carrières locales, elle repose sur un emmarchement robuste conçu pour défier les siècles et les intempéries du climat océanique. Au-delà de sa fonction spirituelle de sanctuaire de carrefour où les paysans et les marins récitaient une prière avant de s'engager sur les chemins, ce monument jouait un rôle géographique et économique fondamental : il servait de borne d'orientation pour les convois de sel blanc récolté dans les marais salants de la baie de Kerarden et acheminé vers les foires du pays de Vannes. Patinée par les lichens et protégée par le bocage avoisinant, la croix incarne la symbiose historique entre dévotion chrétienne et labeur saunier au cœur du terroir sinagot.",
     visiter: "Marquer une halte lors d'une balade rurale pour observer la sobriété de la taille de pierre et les mousses qui patinent ce calvaire séculaire. Découvrir les venelles du hameau de Montsarrac aux longères bretonnes fleuries d'hortensias.",
     link: "https://photos.google.com/share/AF1QipNnphodHd7ZJ7e3O9m06dVLlvS2pe1Fbp1GBVfWd8HrXhC-g9yEs717mSChDtrbcA?key=azV2OGVSRUZ0c29VVFF1OXF0X1ViQ2NXRFlBM1pR"
   },
@@ -4552,7 +4671,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Séné",
     altitude: 8,
     is_island: false,
@@ -4566,7 +4685,17 @@ const travelSpots = [
     lat: 47.599475,
     lng: -2.733038,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPB9FZ8xEUjBqGwwDSmyc37qkHQFP_CdENm-GSKdHfTSZUFfINA3hsZ0wuIQw-VF3p2_gdjuH3fSRQEzMu1i5QXV1PedZwZN5-H0gH4S6e9zpsB-CLJOaqCqLzm082-It2jwMi44RluDi4rj605Z-_UHA=w1901-h1267-s-no-gm?authuser=0",
-    description: "Avancée stratégique dessinant l'entrée occidentale de l'anse de Moustérian, la pointe du Bill est un éperon de schiste et de terre battu par les brises du golfe. Face à elle s'étirent les silhouettes sauvages des îles de Boëdic et de Boëd, ainsi que les parcs à huîtres qui se découvrent lors des grandes marées. Sa grève sauvage mêle galets, sable roux et coquillages brisés sous la frondaison des pins maritimes.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNO_osLQtu7-Pp_fmGxcTK_MjnrtchLy6rgzq_KRPaca2TRP-X2rh144IlvXFjSqUCZ3axGuvJB6X3NcJ-qOCazPaPauHwHsWhs2sLQe1SQSyn-52olPxaJpDaCMzmZfGamDT7EdrMRMlPKyBXmNJdtSw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMupWcdF2W9Qe_EWtnz-Vu2QMCu2MP2LAfBekvF7J13h8t3qESfprU1ZcXtogyv4IEBCUbZK1Fe9tWHh-QFoAEOBmbiYVx6UAvDVS0lhv9g3SeXvzRL2LXtK4NcL30C_4h6sl0UBgEYY0SP6HB3CCf4Vw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Éperon rocheux et sauvage marquant l'extrémité occidentale de l'anse de Moustérian, la pointe du Bill est un promontoire naturel stratégique s'avançant avec hardiesse dans les eaux protégées du golfe du Morbihan. Façonné par l'érosion marine et les assauts des brises d'ouest, ce cap de terre et de schiste offre un observatoire panoramique grandiose sur le détroit menant aux îles de Boëd et de Boëdic, ainsi que sur l'entrée de la rivière de Vannes. Sa rive alterne grèves de galets sombres, cordons de sable roux et amoncellements de coquilles d'huîtres, ombragés par une frange dense de pins maritimes penchés par le vent. Le lieu est depuis toujours un carrefour pour les gens de mer : il surveille les parcs ostréicoles découverts à marée basse et accueille sur ses flancs une école de voile dynamique où évoluent dériveurs et catamarans. Balayée par les embruns et bordée par le sentier des douaniers (GR 34), la pointe du Bill séduit par son profil maritime indompté, véritable belvédère ouvert sur l'immensité changeante du golfe.",
     visiter: "Rejoindre l'extrémité de la pointe par le sentier des douaniers pour profiter d'un panorama dégagé sur les îles centrales du golfe. Regarder passer les dériveurs de l'école de voile voisine et contempler le jeu des marées modelant les bancs de sable découvrants.",
     link: "https://photos.google.com/share/AF1QipNnphodHd7ZJ7e3O9m06dVLlvS2pe1Fbp1GBVfWd8HrXhC-g9yEs717mSChDtrbcA?key=azV2OGVSRUZ0c29VVFF1OXF0X1ViQ2NXRFlBM1pR"
   },
@@ -4577,21 +4706,27 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Séné",
     altitude: 3,
     is_island: false,
     island_name: "",
     transport: "a_pied",
     era_group: "nature",
-    era_label: "Plus grande plage familiale de Séné bordée d'un cordon dunaire préservé",
+    era_label: "Plus grande plage familiale de Séné bordée d'un cordon dune préservé",
     century: "",
     category: "plage",
     counts: {},
     lat: 47.605032,
     lng: -2.740607,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMESg--ZZa4EgtfjxlspzhkQuyoDNqYrN4Cd1AIo3wjtk_9SvPIq05lIU3JAQZ06CqhCaTSEp8cQRmEQN0eq_VdRhk6XgZ-9be6b9A7FJpktGPc-e_Ltvm63-2pPEPzGJxb1Mf0cv-13YbqZ9u28B-WcQ=w1901-h1267-s-no-gm?authuser=0",
-    description: "Principale plage sablonneuse de la commune de Séné, la grève de Moustérian se déploie en un large croissant de sable doré protégé des vagues du large. Très appréciée pour ses eaux calmes et tempérées propices à la baignade et aux sports de glisse nautique, elle offre une perspective directe sur l'île de Boëd et abrite en arrière-plage un espace naturel sensible d'oyats et de landes côtières.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN7Jvqe6V9leMD2G-lx5Ca5hYUDiSU1cvoqSXMCzAcyVeMg3jIfwSlg2bxVAKtwAYcFnlQ2UihdK--GDyz34UB9D8kyN_qVkruPXdosOwPElic3tRVzmUnubvbma4hGMq99xO0RKVGZcNuNFZEpf_5cCw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "S'étirant en un gracieux croissant de sable blond face aux rivages verdoyants de l'île de Boëd, la plage de Moustérian est la plus vaste et populaire grève balnéaire de la presqu'île de Séné. Protégée des fortes houles du grand large par les nombreuses îles qui verrouillent le golfe du Morbihan, elle offre un plan d'eau remarquablement calme et sécurisé, dont les eaux douces et tempérées en font le rendez-vous privilégié des familles et des passionnés d'activités nautiques. En arrière-plage s'étire un cordon dunaire préservé colonisé par les oyats et les chardons maritimes, formant une transition végétale harmonieuse avec les pinèdes et les sentiers piétonniers côtiers. À marée basse, l'estran sablonneux et rocheux se déploie largement, révélant un terrain de jeu exceptionnel pour la pêche à pied des coques, palourdes et bigorneaux. Lieu de villégiature et d'apprentissage maritime réputé grâce à son centre nautique actif, Moustérian conjugue avec équilibre plaisirs balnéaires, patrimoine naturel insulaire et panoramas maritimes apaisants.",
     visiter: "Poser sa serviette sur le sable fin et se baigner à marée haute dans les eaux abritées du golfe. Longer l'estran à pied vers le centre nautique ou poursuivre vers la pointe de Moustérian pour admirer les dériveurs et catamarans évoluer sur le plan d'eau.",
     link: "https://photos.google.com/share/AF1QipNnphodHd7ZJ7e3O9m06dVLlvS2pe1Fbp1GBVfWd8HrXhC-g9yEs717mSChDtrbcA?key=azV2OGVSRUZ0c29VVFF1OXF0X1ViQ2NXRFlBM1pR"
   },
@@ -4602,7 +4737,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Séné",
     altitude: 14,
     is_island: false,
@@ -4616,7 +4751,7 @@ const travelSpots = [
     lat: 47.608005,
     lng: -2.745282,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOLoUm2J_PHtPTvvK4V7ORGpJGbHMcTAWOvayILfeiaCnnX72F9dniU_s2j2ZaSfmzOm8wTgzdt_WDAVqpFwj4UEL-sQRvWi7pcK8NcOZLzjzermYcqlX9MAlUtsEXL2pfceEGtuyaTkoqBv7GXAS3mHw=w1901-h1267-s-no-gm?authuser=0",
-    description: "Érigé il y a plus de cinq mille ans sur une légère colline dominant l'anse de Moustérian, le dolmen du Gornevèze est l'un des rares témoins mégalithiques bien préservés de la presqu'île de Séné. Cette sépulture à couloir néolithique conserve sa robuste table de couverture en granite reposant sur plusieurs dalles verticales de soutien, formant une chambre funéraire autrefois dissimulée sous un imposant tumulus circulaire de terre et de pierres.",
+    description: "Érigé il y a plus de cinq mille ans par les premières communautés d'agriculteurs-éleveurs sédentarisées sur les pourtours du golfe du Morbihan, le dolmen du Gornevèze constitue le monument mégalithique le plus insigne et prestigieux conservé sur le territoire de Séné. Classé au titre des Monuments historiques dès 1968, ce sépulcre néolithique à couloir témoigne des rites funéraires élaborés et des prouesses d'ingénierie des bâtisseurs préhistoriques de la façade atlantique. Le monument conserve toujours son imposante table de couverture en granit local, une dalle colossale pesant plusieurs tonnes maintenue en équilibre parfait au-dessus de la chambre funéraire par une série de piliers verticaux (orthostates) fichés en terre. À l'origine, cette structure de pierre était totalement recouverte et protégée par un cairn de pierres et de terre circulaire formant un tumulus visible de loin dans le paysage côtier. Niché dans un écrin paisible de pins maritimes et de chênes, le dolmen rappelle avec force l'ancienneté millénaire de l'occupation humaine sur cette avancée littorale morbihannaise.",
     visiter: "Gagner ce monument néolithique niché en lisière d'un bois de chênes et de pins. Observer l'appareillage millénaire des blocs de granite et la chambre funéraire témoignant des premiers peuplements préhistoriques s'étant établis sur les rives du Morbihan.",
     link: "https://photos.google.com/share/AF1QipNnphodHd7ZJ7e3O9m06dVLlvS2pe1Fbp1GBVfWd8HrXhC-g9yEs717mSChDtrbcA?key=azV2OGVSRUZ0c29VVFF1OXF0X1ViQ2NXRFlBM1pR"
   },
@@ -4652,7 +4787,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Séné",
     altitude: 9,
     is_island: true,
@@ -4666,7 +4801,21 @@ const travelSpots = [
     lat: 47.606711,
     lng: -2.759652,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOtZhVmgYnB3wDMk3BlCmaL36ro-NoCIX2ukxkYNcEvhkOj_DvppB7sRpGHx_YOBaLGXUbhzUEN7Qa7BftITrzodgLLNTeO4EWlMzMuBQc9V9zk5WFbYa1UJDwz-Dv_Swj9aRMlbjtAF_5-pcwQJQCMow=w1901-h1267-s-no-gm?authuser=0",
-    description: "S'étirant au large de Séné face à Moustérian, l'île de Boëd est une des rares îles privées et protégées du golfe du Morbihan accessible à pied sec par les randonneurs lors des marées basses de fort coefficient. Traversée d'est en ouest par des sentes bordées de landes d'ajoncs, de pins maritimes et d'anciennes parcelles maraîchères délimitées par des murets de pierre, Boëd conserve un caractère pastoral et maritime brut d'une rare quiétude.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOrs1vmzqHXP0bKy3Vfw5GzMULa24ueGNV_ZX1TWh4CwgQgl640OH-Z22yN6ELFgrknUoT51xJACFUFS4EtixNsPh9kS6uRHBzAP4GMhPppWqX-fdtT8g0q0mIsm0JTsuH0mvI9An0DA5kwvnOB1_69NA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNX2r9eC0cGJJuxUMPZEl9vtTX-rgcmhSy6HNd8mJM0wvfyss8uI_FESl5YYPkYMbLFhKyOpvvmuf4Cgjtu0gotvZEU5f9Z42QZad1MedzQDKBon8Kl89XmDAVs5QsTgqZNcRU7ijtsIStVMBBtJ9Gs1w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNKvL_To_xcUkaKN4I3LTBrmrOEPk0vhBCljRseJ6ZUYMLqACLMRkh40atfkb5LafytRfZy0K5NHTo4gVzaFN_4gksXd5vDvgvKxZcCyANlcwj6D7SQD540MQuFEbT6y9vAEoL7NKPJnTZRtpuQq_3tjQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "S'étirant au large de Séné face au littoral de Moustérian et de Cadouarn, l'île de Boëd est l'une des terres insulaires les plus secrètes et attachantes du golfe du Morbihan. Privée et rigoureusement protégée pour préserver sa biodiversité remarquable, elle offre la particularité captivante d'être accessible à pied sec lors des marées basses de moyen et fort coefficient grâce à un passage submersible naturel de vase compacte et de sable. Longue de près d'un kilomètre et demi, l'île conserve une atmosphère pastorale et maritime brute : ses sentes discrètes serpentent à travers des landes d'ajoncs d'Europe, des bosquets de pins maritimes et d'anciennes parcelles maraîchères ceintes de murets de pierre sèche croulants. Des générations de paysans-pêcheurs y vécurent en quasi-autarcie, rythmés par le flux et le reflux de l'océan et la culture des sols sableux fertilisés au goémon. Entourée d'eaux calmes où scintillent les parcs à huîtres et résonne le cri des courlis cendrés, Boëd invite à une expérience d'évasion intemporelle, exigeant une attention rigoureuse aux horaires de la marée montante pour regagner la terre ferme.",
     visiter: "Consulter soigneusement la table des marées pour traverser l'estran sablonneux à pied sec depuis la cale de Cadouarn ou de Mousterian. Parcourir le sentier insulaire dans un silence total en humant les parfums de pinède et de goémon, tout en surveillant le retour de la mer montante pour regagner la terre ferme.",
     link: "https://photos.google.com/share/AF1QipNnphodHd7ZJ7e3O9m06dVLlvS2pe1Fbp1GBVfWd8HrXhC-g9yEs717mSChDtrbcA?key=azV2OGVSRUZ0c29VVFF1OXF0X1ViQ2NXRFlBM1pR"
   },
