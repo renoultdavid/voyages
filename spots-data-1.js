@@ -7208,6 +7208,16 @@ const travelSpots = [
     lat: 34.680101,
     lng: 135.838862,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNm5WMgBmJCqNJ-1FVau8RDI8VshE1Oq7hhoXbrFmYmCgOmiS8lwq7iS3jfbbmqv8U0lo6AGpxL1YFUFCfLOwMVMOjCYZrRw-PjZL60jtlzq6tm8ppmwto8K9gPsHrNgEdVyrryYxM-QA1vBUbQDDaUsA=w642-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMDrEIuFdoNghMHjJA_qIsQflGESz1Z4JmiYbvQUMVmj8hrjFI_nKNqhoaJh3-HzsKwLgvfJzA2VCGRW3LnrUoepaq42QNzoNnDAT-B0wfP61yHPx1ZvfFc08ijUy6zKFMe4Oj0TKPTPghwCswREMPCpA=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPSSUvuwuC8Jfzd3Q2zCjmEsOEy_nAWwaHi5rN1pmzhdjxtB2B6Lj11JYB_04pvGn90bKpibP_b2plTi5Li4Uwq1yZ6_zb2DdmaLzjN1OBugLgJpvn9g7hvw5iAkmjgy56WSHAncJv-HzEzUv4D3AwwGw=w1553-h2416-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Gracieux pavillon hexagonal en bois de cèdre semblant flotter en apesanteur au-dessus des eaux calmes de l'étang Sagi-ike au cœur du parc de Nara, Ukimidō constitue l'un des tableaux paysagers les plus poétiques et romantiques de l'ancienne capitale impériale. Édifié originellement en 1916 sous l'ère Taishō puis fidèlement restauré en 1994 dans les règles de l'artisanat traditionnel, l'édifice repose sur de solides pilotis de bois foncé et se coiffe d'une élégante toiture d'écorce et de tuiles aux auvents délicatement retroussés. Relié à la rive par deux passerelles en bois arquées, il dialogue harmonieusement avec la végétation environnante composée de cerisiers pleureurs, de saules et d'érables japonais qui enflamment ses reflets au fil des saisons, fréquemment veillé par les cerfs sika sacrés venant s'abreuver sur les berges au crépuscule.",
     visiter: "Emprunter l'une des passerelles de bois pour accéder au cœur du pavillon ouvert et profiter d'un moment de quiétude absolue bercé par le clapotis de l'eau et le frémissement des feuillages. Observer les carpes koï multicolores et les tortues d'eau nageant autour des pilotis, tout en guettant les hardes de cerfs sika déambulant librement entre les sous-bois et le rivage. Durant la belle saison, louer une barque à rames traditionnelle pour glisser sous la tonnelle et contempler le pavillon depuis le miroir de l'étang. À la tombée de la nuit, le site s'illumine subtilement d'une lueur dorée féerique se reflétant dans l'eau sombre, offrant une halte contemplative incontournable en marge des grands axes touristiques.",
     link: "https://photos.google.com/u/0/share/AF1QipN1cNgRGSYTU9dkjwObX3nPIk5sJDXkeTvojuRS0MRFvMJRUfqAEpEe968HmUc4lA?hl=fr_CA&key=Q1p5VUJpZXl3b1FkVnVXLThWVUl5dHV3TXM0bV93"
@@ -7234,6 +7244,16 @@ const travelSpots = [
     lat: 34.682569,
     lng: 135.831332,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNEEPD36IK7xmHUaYtoW742vAbG-XK6bX51oA4jBwSFUDxodvJMfEkC8pDIUVnEV01T7WsGz3tig3qOE-UdCklZOqIVWMpVx6BFDeVjJsPPW3qZyCGxPsbj06TPsTTPsBMnquR2ZpYiPLvSEIvO5lTV1w=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPOJg6xYt9Vlch8zKkrlWxYl0HfdWUVRmFt0J0DgDAPbTgeLW9qt-1gvhTEyG5wib0mKZZ1_Cr7RPrJSriXuzMAu0bCOEHLcBkWGNBln4vPAs9qAjb8GeBPZr9P7yqXYDcve1xvSkuqoeUWUbQpmseWaw=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO-VpT4F2U6ZwY31tQv7VUBov1Y7omWt-vex8rSBPf9R_rHSMKRseJoRt8tJL-UMUjOVXsxqtIjfw5fKhSUBng3kDqfqKAFILn8aCVxq3MbniGWcsJIHBuXZBBA8PCUFV2BnjHqfGRvDpCaEJg9TDTgMQ=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Foyer spirituel et politique majeur de l'ancienne capitale Heijō-kyō et temple tutélaire du tout-puissant clan aristocratique des Fujiwara, le Kōfuku-ji s'impose comme l'un des « Sept Grands Temples » fondateurs de Nara. Transféré sur ce promontoire en 710 lors de l'établissement de la capitale impériale par l'aristocrate Fujiwara no Fuhito, ce vaste ensemble monastique affilié à l'école Hossō-shū compta à son apogée féodale plus de cent cinquante édifices. Inscrit au patrimoine mondial de l'UNESCO au titre des « Monuments historiques de l'ancienne Nara », le complexe est universellement célèbre pour sa majestueuse pagode à cinq étages (Gojūnotō) : culminant à plus de cinquante mètres de hauteur, elle constitue la deuxième plus haute pagode en bois de tout l'archipel nippon et l'emblème graphique séculaire de la cité. Son musée des trésors nationaux (Kokuhōkan) abrite l'une des plus exceptionnelles collections de statuaire bouddhique en bois et laque sèche de l'époque de Nara, dominée par la célèbre effigie d'Ashura à trois visages et six bras.",
     visiter: "Arpenter la vaste esplanade de gravier blanc bordée de cerfs sika en liberté pour contempler l'immense pagode à cinq étages reconstruite en 1426, dont les proportions monumentales se découpent fièrement sur l'azur. Découvrir la seconde pagode à trois étages de style Heian et l'élégant pavillon octogonal Nan'en-dō, étape majeure du pèlerinage des trente-trois temples de Kannon du Kansai. Visiter le grand pavillon central reconstitué (Chū-Kondō) pour admirer ses impressionnantes colonnades vermillon et ses statues dorées de Bouddha historique, puis pénétrer dans le musée Kokuhōkan pour contempler de près les chefs-d'œuvre de l'art sculptural du VIIIe siècle, notamment la célèbre statue d'Ashura à la troublante expression mélancolique et les monumentales têtes de Bouddha en bronze de la période Asuka.",
     link: "https://photos.google.com/u/0/share/AF1QipN1cNgRGSYTU9dkjwObX3nPIk5sJDXkeTvojuRS0MRFvMJRUfqAEpEe968HmUc4lA?hl=fr_CA&key=Q1p5VUJpZXl3b1FkVnVXLThWVUl5dHV3TXM0bV93"
@@ -7262,7 +7282,35 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczMvBfgqsSs5Z1WTuWdvaI5EnCPxdOT6Cslns3XIAXaPKx7Z_2_aZ13obDnyhbW4yXAQh4__QVrewCdaghsiPrr2hK1v50dVXVY6AdtnPWcNhLJyOjdDcDmcdbKq2MI1KAsN6yujEADDGZyPoDdrPJfMTQ=w1379-h919-s-no-gm?authuser=0",
     description: "Sommet absolu de l'architecture monumentale en bois et cœur spirituel impérial de l'époque de Nara, le Tōdai-ji (« Grand Temple de l'Est ») fut fondé en 752 par l'empereur Shōmu pour protéger la nation des calamités et asseoir l'autorité religieuse centrale de l'empire. Inscrit au patrimoine mondial de l'UNESCO, son pavillon principal, le Daibutsuden (Hall du Grand Bouddha), s'impose comme l'une des plus vastes structures en bois sous un même toit au monde, s'étirant sur près de cinquante-sept mètres de façade et cinquante mètres de hauteur — bien qu'il ne représente que les deux tiers de l'édifice d'origine ravagé par les incendies guerriers médiévaux. Ce vaisseau colossal abrite en son sein l'une des merveilles de la métallurgie antique universelle : le Grand Bouddha de Nara (Nara no Daibutsu), statue monumentale en bronze de Vairocana haute de près de quinze mètres et pesant plus de cinq cents tonnes, coulée à la suite d'un effort national sans précédent mobilisant des centaines de milliers d'artisans au VIIIe siècle.",
     visiter: "S'avancer sur la longue chaussée dallée de pierre bordée de cerfs sika pour mesurer la démesure herculéenne du Daibutsuden s'élevant face au ciel. Pénétrer à l'intérieur du hall colossal dans une pénombre sacrée imprégnée d'effluves d'encens pour contempler la stature vertigineuse du Grand Bouddha de bronze trônant sur son socle de pétales de lotus gravés, flanqué des bodhisattvas dorés Kokūzō et Nyoirin Kannon ainsi que des imposantes effigies guerrières des Rois célestes Kōmokuten et Tamonten. Contourner la statue par l'arrière pour observer l'un des piliers de soutien en bois percé à sa base d'une étroite ouverture rectangulaire aux dimensions d'une narine du colosse : la tradition populaire assure que quiconque parvient à s'y faufiler s'assure l'illumination spirituelle et la bonne fortune pour l'éternité.",
-    link: "https://photos.google.com/u/0/share/AF1QipN1cNgRGSYTU9dkjwObX3nPIk5sJDXkeTvojuRS0MRFvMJRUfqAEpEe968HmUc4lA?hl=fr_CA&key=Q1p5VUJpZXl3b1FkVnVXLThWVUl5dHV3TXM0bV93"
+    link: "https://photos.google.com/u/0/share/AF1QipN1cNgRGSYTU9dkjwObX3nPIk5sJDXkeTvojuRS0MRFvMJRUfqAEpEe968HmUc4lA?hl=fr_CA&key=Q1p5VUJpZXl3b1FkVnVXLThWVUl5dHV3TXM0bV93",
+    sections: [
+      {
+        title: "La monumentale porte Nandaimon et le style Daibutsuyō",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMvBfgqsSs5Z1WTuWdvaI5EnCPxdOT6Cslns3XIAXaPKx7Z_2_aZ13obDnyhbW4yXAQh4__QVrewCdaghsiPrr2hK1v50dVXVY6AdtnPWcNhLJyOjdDcDmcdbKq2MI1KAsN6yujEADDGZyPoDdrPJfMTQ=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczORGk5CUztPhk7CeWwgGK2_zSMz6UA7WQiVpZSiGd9uHwBJgJANNaE4C0l3Z66DdRhs-vqDod7fscjzN-AphNZbRZrmavLbFkbNTDPUOBI5mv_xXXL6tD5Dyqh_o5_QY3eWZVuvQBRamDAxzocYRLyE8Q=w2002-h1334-s-no-gm?authuser=0"
+        ],
+        text: "Le franchissement vers cette enceinte sacrée s'opère par la monumentale porte du Sud (Nandaimon, 南大門), qui constitue l'un des sommets de l'ingénierie médiévale japonaise. Entièrement détruit par un typhon dévastateur en 962 puis de nouveau ravagé lors des guerres de la fin du XIIe siècle, ce portail d'apparat fut réédifié en 1199 sous la direction du moine réformateur Chōgen, chargé par le premier shogun Minamoto no Yoritomo de reconstruire le Tōdai-ji au lendemain des ravages du clan Taira. Pour lever cette colossale bâtisse à double niveau s'élevant à plus de vingt-cinq mètres de hauteur, Chōgen importa de Chine du Sud un vocabulaire constructif radicalement novateur, le style Daibutsuyō (style du Grand Bouddha) : les gigantesques fûts de piliers monoxyles en cyprès et en cèdre, laissés sans enduit ni peinture, sont traversés d'outre en outre par de puissantes poutres horizontales assemblées sans clous, tandis que de vertigineux consoles à corbeaux étagés soutiennent des avant-toits aux portées vertigineuses."
+      },
+      {
+        title: "Les gardiens célestes Niō d'Unkei et Kaikei",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP_RKylL0NzbI72YGOtpxwfBNy11lFy-EmzASTTh-VGYwdni934dMTt9PcVh4W49t61ZJUaQ_79-E81fHrmg2ZkR2MrjcdC0HT86T05hzJJaUmqlsopyeF8UeAroh0vzmhAuKevsjUfwJubBKnThpXJYQ=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNIPTnG92JgZsk9B_i8z2kdQPktEW8u5i5UjvyZdnB7TmhrcVDra1mbeXcCdPN-9-Mw9wQjEGPiTFB-MTeuBKgHrmCm2VuaaKT6DbGgxcuPqCbhWcHVDgW9mLm8wHuCEXCrBcR4oDuwEG23GD0t34A5kQ=w1818-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO7EpFrLbjM2X2E2IBPWHeKQSFp4bVKwaXxrw3zmVUYF5Wr4BynOlelFYDZjAU0ja7YgwaPB9kTWiPBPW3EbjrFv0BarvCkRGOGnivDXKq3_C6FY4L7y_gvLgIsNz7LdHlr_uisY1fUv9Y6gi3BL63E1g=w2002-h1507-s-no-gm?authuser=0"
+        ],
+        text: "La Nandaimon abrite dans ses niches latérales l'un des trésors artistiques les plus fulgurants de l'époque de Kamakura : les deux gardiens célestes colossaux Niō (Kongōrikishi). Sculptées en un temps record de soixante-neuf jours en 1203 sous la conduite des maîtres de l'école Kei, Unkei et Kaikei, ces statues en bois de plus de huit mètres de haut incarnent l'apogée du réalisme sculptural japonais médiéval. Réalisées selon la technique d'assemblage de pièces de bois évidées (yosegi-zukuri), les figures d'Agyō — la bouche ouverte prononçant la première syllabe cosmique « a » — et d'Ungyō — la bouche fermée expirant le son « un » — exhibent une musculature puissante en tension dramatique, des veines saillantes et des draperies tourmentées par le vent, composant un manifeste martial d'une énergie farouche destiné à repousser les forces du mal hors du seuil du temple."
+      },
+      {
+        title: "Le Daibutsuden et la consécration du Grand Bouddha",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOPfKnvLPrdAx6F-DE2hLCUkQeIpGdWuVhq5nxQ5PCG__Yv9fKO8MIBsOarbkmfu0-K8qqBgKwRTzqybOvWlsPRE7LU3-_oez_nzxLuqx5MUWJ4KPe9G-nT9gWLAmoAHOUsA6XFcSx8NrD9voogAfkOkg=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMnBsp7-OB53L9O_f-CHs9v8H8Wis7RlGgZC5AFn9qKi7DG8-dky7NeurSZELclDSYVdQjMiQFIZ0-CRT6C9kWLKOyyIk4YDTm0H-XGFOhpF32hLEBfGcDsHw4n0gw-eCRKoub_H47x9YYy96rKHlTQTg=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP7Dvny4HBjF9FAFlx1zxk-kzMwNm2SmUy2qA_MXoAyNNMfB29p3N1EM8Mgoux95HdVa2HifeTuIRTlYtrbnoZkfcnjbOj2RE_gmkXIhyAKzR5BXddor7wMOsgjMYU1J8pMVqWavqY9AZCQQfP384gVHA=w2002-h1334-s-no-gm?authuser=0"
+        ],
+        text: "Consacré solennellement en 752 lors d'une grandiose « cérémonie d'ouverture des yeux » (kaigen kuyō) conduite par le maître indien Bodhisena en présence d'ambassadeurs venus de toute l'Asie, ce colosse de bronze de près de quinze mètres de hauteur et pesant plus de quatre cent cinquante tonnes prit place au sein du grand pavillon du Bouddha (Daibutsuden). Ravagé à deux reprises par des incendies de guerre en 1180 et 1567, le bâtiment actuel achevé en 1709 sous l'époque d'Edo, bien qu'amputé d'un tiers de sa largeur originelle par manque de bois d'œuvre séculaires, demeure l'une des plus vastes structures en charpente de bois au monde."
+      }
+    ]
   },
   {
     id: "nara_todaiji_nandaimon",
@@ -7314,7 +7362,35 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczPs9uYkS05ydHQjfCpSD2JmPkWwCbD-fgXAjXpUbsWAFCXo_OkSjouxorxk5xitIz3nhwya_6NT3Iiilih9336acUIVIbzc987-nLGdTrtg2RoFtYAJQ68YYo04sN2ZDt4EaymACcpZ0OBNKs4TRi100A=w1379-h919-s-no-gm?authuser=0",
     description: "Niché au pied des collines boisées sacrées du mont Kasugayama à l'orée orientale du parc de Nara, le grand sanctuaire shinto Kasuga-taisha fut fondé en 768 par la puissante lignée des Fujiwara pour implorer la protection divine sur la nouvelle capitale impériale. Écrin vermillon étincelant tranchant avec la luxuriance de la forêt primaire séculaire où la coupe d'arbres et la chasse demeurent strictement prohibées depuis plus d'un millénaire, ce haut lieu de dévotion est dédié à quatre divinités majeures du panthéon autochtone, dont Takemikazuchi no Mikoto, descendu selon la légende sur le dos d'un cerf blanc céleste — consacrant ainsi les cerfs sika comme des messagers divins inviolables. Inscrit au patrimoine mondial de l'UNESCO, le sanctuaire a donné son nom au style architectural shinto kasuga-zukuri et se singularise dans tout l'archipel par sa profusion extraordinaire de lanternes votives : plus de deux mille monumentales lanternes de pierre moussues bordant les allées forestières et un millier de lanternes de bronze ciselé suspendues sous les auvents laqués des galeries.",
     visiter: "Gravir la majestueuse allée forestière sablonneuse ombragée de cèdres géants millénaires, bordée par une forêt minérale ininterrompue de lanternes de pierre recouvertes de mousse où les cerfs sika circulent paisiblement. Franchir le grand torii pour pénétrer dans l'enceinte sacrée ceinte de galeries vermillon étincelantes et de murs blancs, admirant l'alignement féerique des centaines de lanternes de bronze patiné suspendues aux avant-toits. Découvrir la chambre obscure Fujinami-no-ya, où des dizaines de lanternes sont maintenues allumées toute l'année dans le noir complet pour recréer la féerie nocturne des grandes fêtes du Mandōrō (en février et août). Flâner dans le jardin botanique Manyo adjacent réputé pour ses tonnelles de glycines séculaires japonaises en fleurs au printemps, avant de contempler l'immense cèdre sacré vieux de plus de huit cents ans enraciné au pied du pavillon principal.",
-    link: "https://photos.google.com/u/0/share/AF1QipN1cNgRGSYTU9dkjwObX3nPIk5sJDXkeTvojuRS0MRFvMJRUfqAEpEe968HmUc4lA?hl=fr_CA&key=Q1p5VUJpZXl3b1FkVnVXLThWVUl5dHV3TXM0bV93"
+    link: "https://photos.google.com/u/0/share/AF1QipN1cNgRGSYTU9dkjwObX3nPIk5sJDXkeTvojuRS0MRFvMJRUfqAEpEe968HmUc4lA?hl=fr_CA&key=Q1p5VUJpZXl3b1FkVnVXLThWVUl5dHV3TXM0bV93",
+    sections: [
+      {
+        title: "Allée forestière et approche sacrée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMsI1K6am4oYqafjuGc8bG83c9yW-6fu10Ksp2a6OcwR3xbC004XnGYiVhBQkPf7IT37KhxrsPFHD0-2xboFk-VMgtwAgYfL9fAyndd4hMWJeSSoVB1F4FvoXrEAfBO6bFNZohpKd1cmv1-YLmxNqu5zQ=w2002-h1507-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPaWg_-IS4MEgX9msC-X1wLOxnvU0p6SPQAvsZPe3mJsB_serV6BY9S8M_FY6-Y4yAlmmlfsxH58tKxWD3NwSKoHEf0qPbJjGgxG9YCMwVNP7YqcvOxEOWK868MMdJBwTkVkShImJQ9ps28ikApBuAGAA=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMLeV0ZRd-eesQWsMLKeCUK_ONlpzYpZPaeyfRBuoqry5UbBaIqzsF3jRlNDkS-G-Tm8h6Ddrj79Pvf6ayOUimPJ3zRPlq8ce-feF4v_E7NCF2xlJuTuqH66X0un5DzQZ1DyAyl_6fL3frbC91RDRnETw=w2002-h1334-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le style Kasuga-zukuri et le rituel du renouvellement",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNSwV-m2G8qSbnPCmMcd8u5IVSzEKu6xYHEkqHkK_q6mWRFywc5gNhOfFIcQzU0RrEHCCRGTO_j2TuhbNq1ZDQv5HLVMjgg6VbkJhajcxZv-iQzCbmrVJIA_HerYeYKj8XWDm6Du8ze_njAW5VFdgh6KA=w1818-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPs9uYkS05ydHQjfCpSD2JmPkWwCbD-fgXAjXpUbsWAFCXo_OkSjouxorxk5xitIz3nhwya_6NT3Iiilih9336acUIVIbzc987-nLGdTrtg2RoFtYAJQ68YYo04sN2ZDt4EaymACcpZ0OBNKs4TRi100A=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP_YaL5yzx3WWyjZMlU0qBMQOpLgjKnW9gWLtn9gRvrQSZdhO9w51DXzyQtJrncYi2xsUbGwNkRunZL4n6nzTi2qS5ZvZN85Vls_iJTxoiPuFGGDcjITSjgP7XFq9AGO-NZrMqQkoyld5lkvLoPPP4W9Q=w2002-h1334-s-no-gm?authuser=0"
+        ],
+        text: "L'architecture du sanctuaire incarne le style shinto canonique dit Kasuga-zukuri (春日造), particulièrement visible à travers les quatre sanctuaires principaux intérieurs (Honden), alignés côte à côte et peints d'un rouge vermillon éclatant rehaussé de ferronneries dorées. Chaque pavillon, de plan modeste et presque carré surélevé sur pilotis, se caractérise par une toiture à deux pans incurvés en bardeaux d'écorce de cyprès du Japon (hiwadabuki), surmontée d'un auvent protecteur prolongeant le versant d'entrée (hisashi), ainsi que par des poutres faîtières croisées (chigi) et des rondins décoratifs transversaux (katsuogi). À l'instar des sanctuaires d'Ise, Kasuga Taisha a perpétué pendant des siècles le rituel du renouvellement périodique des structures (shikinen sengū), imposant la démolition et la reconstruction rituelle à l'identique des pavillons sacrés tous les vingt ans afin de purifier les lieux de toute souillure temporelle, une coutume célébrée soixante fois jusqu'à la fin de l'époque d'Edo."
+      },
+      {
+        title: "La scénographie des trois mille lanternes et le Mandōrō",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPPfrUJ0XHuNAsJN0fcwPqxLKciwHkMuOc6qxbaxyFemldBgD9V-4KeRa-TcXIs3J2VO1XOrMupTKu8gRU5tV3dyzYgZEmRrJEh0rTgp2hS-YIVwytv92yFiZyV6jHzMuLUiqpCKuIvgDLao51X9UtGLA=w2002-h1507-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOblT3xiBAXWZPIm76MfI5-92rGwGKpGUvTmUKnZUPLivh99UEjRiOken0cRQidvVA62gBQOhv6_cGuXv3OibAO7dM45CE-fbwImxMQKaMsXCPxEp_fh3bYbGOMXJSmNAFeoH4eq0sPRJDCIU0YRV5IQQ=w2002-h1507-s-no-gm?authuser=0"
+        ],
+        text: "Kasuga Taisha est mondialement réputé pour sa scénographie de trois mille lanternes, offertes au fil des siècles en ex-voto par des fidèles de toutes conditions, depuis de prestigieux généraux samouraïs jusqu'à d'humbles marchands et courtisanes. Les abords et les chemins d'accès ombragés sous les cèdres sont bordés par environ deux mille lanternes de pierre moussues (ishi-dōrō), tandis que les galeries couvertes laquées de pourpre de l'enclos intérieur sont garnies d'un millier de lanternes suspendues en bronze ciselé (tsuridōrō). Deux fois par an, lors des nuits solennelles de la fête du Mandōrō (en février pour le Setsubun et en août pour le Chūgen), l'intégralité de ces trois mille luminaires est embrasée à la lueur des mèches et des bougies, métamorphosant le sanctuaire en une féerie mystique d'ombres et d'or."
+      }
+    ]
   },
    {
     id: "osaka_quartier_shinsekai",
