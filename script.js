@@ -2476,24 +2476,22 @@ function renderEnrichedCarnetMode(spot, layout) {
       const count = sec.photos.length;
 
       if (count === 1) {
-        // 1 photo unique
         photosMarkup = `
           <div class="w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl flex items-center justify-center p-1">
             <img src="${sec.photos[0]}" alt="${sec.title || spot.name}" class="w-full h-auto max-h-[80vh] rounded-xl object-contain cursor-zoom-in hover:opacity-95 transition block mx-auto" onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
           </div>
         `;
       } else {
-        // Multi-photos : Grille proportionnelle Google Photos sans rognage
-        const targetHeight = count <= 2 ? 460 : count <= 4 ? 320 : 220;
+        // Hauteur commune pour aligner les photos
+        const rowHeight = count <= 2 ? 'h-[380px] sm:h-[450px]' : count <= 4 ? 'h-[260px] sm:h-[300px]' : 'h-[200px] sm:h-[240px]';
 
         photosMarkup = `
-          <div class="flex flex-wrap gap-2 w-full justify-center items-stretch rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2">
+          <div class="flex flex-row gap-2 w-full justify-center items-stretch rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2">
             ${sec.photos.map(p => `
-              <div class="flex-grow flex items-center justify-center rounded-xl overflow-hidden bg-black/40 border border-slate-800/50" 
-                   style="height: ${targetHeight}px; min-width: calc(${targetHeight}px * 0.4);">
+              <div class="${rowHeight} shrink min-w-0 flex items-center justify-center rounded-xl overflow-hidden bg-black/40">
                 <img src="${p}" 
                      alt="${sec.title || spot.name}" 
-                     class="w-auto h-full max-w-full object-contain cursor-zoom-in hover:scale-[1.02] transition-transform duration-200" 
+                     class="w-auto h-full max-w-full object-contain cursor-zoom-in hover:scale-[1.01] transition-transform duration-150" 
                      onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
               </div>
             `).join('')}
@@ -2515,7 +2513,6 @@ function renderEnrichedCarnetMode(spot, layout) {
 
   layout.innerHTML = headerHtml + sectionsHtml;
 }
-
 // -------------------------------------------------------------------------
 // ZOOM PLEIN ÉCRAN AU CLIC (LIGHTBOX)
 // -------------------------------------------------------------------------
