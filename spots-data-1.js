@@ -4876,7 +4876,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Vannes",
     altitude: 12,
     is_island: false,
@@ -4890,7 +4890,17 @@ const travelSpots = [
     lat: 47.656247,
     lng: -2.755941,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMHTiy0QIN4O0mLO0b01IzxmIx8NxtN1LJTOBrUjUcw0HGYyJF0ubFlpqWNi6Wo3r8JzT8q0Td5iYh3RSRXt7jAwFjsFNKzYYOAagoTZHpAM9zzrGQ_oIDOzaQxWaPncEDXEyvBNVhBTuw9eExjLbi1kw=w2219-h1480-s-no-gm?authuser=0",
-    description: "Témoignage grandiose de la puissance des ducs de Bretagne qui établirent leur cour à Vannes aux XIVe et XVe siècles, l'enceinte fortifiée déploie l'un des ensembles de remparts urbains les mieux conservés de France. Dominant les douves transformées en parterres à la française fleuris au bord de la rivière de la Marle, la tour du Connétable se dresse comme le joyau défensif et résidentiel du circuit. Bâtie sous le règne du duc Jean IV en grand appareil de granit appareillé, cette tour semi-circulaire à cinq niveaux allie la robustesse d'un ouvrage d'artillerie percé de canonnières et de mâchicoulis à l'élégance d'une demeure seigneuriale dotée de fenêtres à meneaux et de hautes toitures d'ardoise.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMeUxEPu11Qmn8NOfbpL2iHO6SjHnnOruGiUt8mWN50lFeVJcTJOoZEqaJAGgKSCwvh4NMK0jqOVO6OHZBLINllG113n49lM0NNa1IQHBxPgOUM4Im58Oh0X4_oZX3JIN6FBZy-2N0H3nJ4pC8V_er2IQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO4xpiiYFIqf-wBNN3YnRUpXTiUFmEyirAVdylkqgEBZN0L8ggQwTmITuqo3C5vogCzTItu-1LmybIPAYG_tPiMzhP80XTcwX7VRsuwPZJc8oKtqLcAnJ6CbPA2d8UOUuN1OuI8tX8hQMw81psyHDMHDQ=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Édifiée dès l'époque gallo-romaine au IIIe siècle puis considérablement agrandie et renforcée sous le règne du duc Jean IV au cours de la seconde moitié du XIVe siècle, l'enceinte fortifiée de Vannes constitue l'un des ensembles de remparts urbains les plus complets, majestueux et remarquablement préservés de France. Capitale politique et résidence favorite des ducs de Bretagne pendant plus d'un siècle, la cité s'est dotée d'un formidable dispositif défensif en grand appareil de granit appareillé, conçu pour résister aux assauts des troupes françaises et aux premières pièces d'artillerie à poudre. Dominant la vallée marécageuse de la Marle et les anciens fossés métamorphosés au XXe siècle en somptueux parterres à la française fleuris au pied des murailles, la tour du Connétable s'affirme comme le chef-d'œuvre incontesté de cette forteresse urbaine. Bâtie vers le milieu du XVe siècle pour loger le grand connétable de Bretagne, chef suprême des armées ducales, cette tour semi-circulaire monumentale articulée sur cinq niveaux conjugue avec une rare virtuosité les impératifs d'un puissant ouvrage de flanquement militaire et le confort d'un logis aristocratique. Ses épaisses parois sont percées de canonnières et de meurtrières sous une ligne continue de mâchicoulis couverts de toits d'ardoise en poivrière, tandis que les étages résidentiels supérieurs s'éclairent par d'élégantes baies à meneaux moulurées et des cheminées monumentales. Intégrée au circuit de promenade du jardin de la Garenne, la courtine relie la tour du Connétable à la porte Poterne, à la tour Picheclot et aux bastions de la Garenne, composant un panorama minéral saisissant où la rudesse défensive féodale dialogue harmonieusement avec la grâce horticole des jardins d'eau.",
     visiter: "Parcourir la promenade aménagée le long des anciens fossés au pied des murailles pour apprécier la monumentalité des courtines et la rigueur géométrique des jardins de la Garenne. Emprunter la poterne médiévale pour grimper sur le chemin de ronde et admirer la vue panoramique sur les toits d'ardoise du centre ancien, avant de contempler l'architecture militaire et les créneaux de la tour du Connétable.",
     link: "https://photos.google.com/share/AF1QipNlMPNwHBbaxlcTEAzamK3009GZIredm7xE38n5kU01_Il977cOhLQfbRPGScqmeA?key=S1Q1aEdhRjMwdDlPVUtCcjF6eV9zTjBtRzZ2Z3VR"
   },
@@ -4901,7 +4911,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Vannes",
     altitude: 8,
     is_island: false,
@@ -4915,7 +4925,13 @@ const travelSpots = [
     lat: 47.655754,
     lng: -2.755391,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMUOGmS4NAAJxkZ0tpWtW72gd2_8rGBMU_R2OikjTfVPNiaNop3U5xTnr6zmnFVHHGm6Dzjjo5D0HSS8PpFiN-klRKKJH0EnxP0svxok7jcQFzYR2oIOrAzT7c-ZpLzYvnAr2Dx27NaXWsLMiXlmA_Z7w=w2219-h1480-s-no-gm?authuser=0",
-    description: "Édifiés au début du XIXe siècle au pied immédiat des puissantes murailles médiévales et de la porte Poterne, les lavoirs de la Garenne composent l'un des décors les plus romantiques et photogéniques de la cité des Vénètes. Suivant la courbure gracieuse de la rivière de la Marle, ce long bâtiment à pans de bois et charpente d'ardoise posé sur des piles de granit servait autrefois de lieu d'activité intense et de sociabilité pour les lavandières vannetaises. Les reflets de la toiture ondulée dans les eaux calmes de la rivière, entourée de massifs horticoles impeccables, forment un contraste saisissant avec la verticalité minérale des remparts.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOXa0YJ_laZ3hpMwnc6MFmX8r8uJUJgIy6gji_S4Ay9xnCeBa-2LT_J2Fh3O9O3Gqm5xVeeC9yuKkZgwFgWdiV6xWAabuXLj0RfqCsPjK50k9bNkRpXtlDBqKsSBiCLkqs2kUkyfW8HvQqT_tX5IsW9ZA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Édifiés entre 1817 et 1821 pour répondre aux impératifs d'hygiène publique et canaliser les activités domestiques des quartiers populaires de la basse ville, les lavoirs de la Garenne composent l'un des tableaux patrimoniaux les plus emblématiques, bucoliques et photographiés de Bretagne. Bâti en demi-cercle pour épouser la courbe naturelle de la rivière de la Marle au pied direct des imposantes murailles médiévales et de la porte Poterne, cet ensemble architectural vernaculaire témoigne avec émotion du quotidien rude et solidaire des lavandières vannetaises du XIXe siècle. La structure repose sur de solides piles de granit ancrées dans le lit du cours d'eau, supportant une longue galerie ouverte à pans de bois et poteaux de chêne chevillés, coiffée d'une spectaculaire toiture d'ardoise incurvée qui semble onduler au fil du courant. Sous cet auvent protecteur abritant les travailleuses des intempéries océaniques, un plan incliné en pierre et de larges dalles de lavage permettaient aux femmes de frotter, battre et rincer le linge à genoux dans leurs caisses en bois garnies de paille. Les eaux vives de la Marle, régulées par des vannes en amont, assuraient un renouvellement constant indispensable au savonnage à la cendre de bois. Restaurés avec passion par la municipalité après la cessation de leur usage au milieu du XXe siècle, les lavoirs s'intègrent désormais dans la promenade fleurie de la Garenne, où le reflet de leur charpente sombre et de leurs massifs d'hortensias dans le miroir aquatique contraste avec la majesté austère des tours de granit qui les surplombent.",
     visiter: "Longer les berges pavées de la Marle pour observer la remarquable charpente en berceau de bois et le plan incliné où s'agenouillaient les lavandières. Photographier la perspective depuis le ponton de pierre en embrassant à la fois les lavoirs, le rideau d'eau et les tours d'angle des fortifications de la haute ville.",
     link: "https://photos.google.com/share/AF1QipNlMPNwHBbaxlcTEAzamK3009GZIredm7xE38n5kU01_Il977cOhLQfbRPGScqmeA?key=S1Q1aEdhRjMwdDlPVUtCcjF6eV9zTjBtRzZ2Z3VR"
   },
@@ -4926,7 +4942,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Vannes",
     altitude: 18,
     is_island: false,
@@ -4938,9 +4954,35 @@ const travelSpots = [
     category: "star",
     counts: {},
     lat: 47.656892,
-    lng: -2.757660,
+    lng: -2.75766,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOvKu8mh1lFN_PA8dzQputTNKbG7tNWXHo_ZsTWdn9kP3zVoFJVxT7qIo6rLv8RHV5PagRNTR3v5hgP9qAa_Dg4KshTlWw7kZrYlGbH920bJu-wyj8VZy5XaxOdw6J019m-hOiRPaLSSNFU83_EZhI4Fw=w2219-h1480-s-no-gm?authuser=0",
-    description: "Enserré à l'intérieur de sa ceinture de remparts, le centre historique de Vannes est un dédale enchanteur de ruelles médiévales pavées, de placettes intimes et de cours secrètes préservées des outrages du temps. Comptant plus de cent soixante-dix demeures à colombages et à pans de bois construites entre les XVe et XVIIe siècles, la cité dévoile des façades polychromes ornées d'encorbellements hardis, de sablières richement sculptées et de motifs renaissants. Autour de la place Henri-IV et de la rue Saint-Salomon, l'ambiance marchande perpétue une tradition urbaine séculaire au pied des logis patriciens de granit.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPomGYiDi7wgzUMqNavqRu38qHWXv2ZeO-l2C8iADF2Xr0HOfd8RG1lLqxF_nAg3wAlh82RF36HlAqadDSYpt1vfpyzmMmMTh2f7TiV_XZyMaoATzphM7HbUVv_63VoSBM3a5Fa-M87RUCeQmIGm3cUFg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMOk4DQocjbpND3h-eBaJSeq1TirAqTFYkyfXwJa1B22xrS3oJyhQ6SHiZvD0IePhif7AvDVT5DPPhBC2wrKBxWEOb56wyS1AKBWDYh8w5lKsBhHgFkgOKjCm5EbvwKIw4YLx7oaaDeaoDY7UH5FGEzRw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPXndYaFoA4S69Vh3-ZSLFMXCdhvNoANN5fC3IR1JmGuXrbVNdHvW4lq4R8BdAywRSNaqghb-rYXY1SQiWrik-_Z5H0l3s7V8XzjoDhxvQO5tPKAT3YpAs60cPV7Ow9n-AXDFnMV_JTR2a0ARU7mRDNMw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNeroevel1P5vzvkKqwVKH-EdHcY3WhxHloxTFT8wr4W8F08Rb7dyADjZc_eI3EoAh-veWPwSKKfgg2DUNwcKxZ6wr59r-I_qVYBhpvpZMaJ9caSbZj-4M0sihujCgmuchWAuY-hQ4dhiMSBD4WJekrMQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMhGLROTeUnw0B_vSx8FXRdn00PDlrIOz0hg6fP3IyACPmsZecdSkntdDbgETJlSm71Odx2sG5FVPeqR8JNMefVFMCued7GJfhs0LIavTEGVp6PAcNP4iyaoql6VSyYFhsj_KCFnnbQplfhN0fSxdDRjA=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN57SyFtt-LyLSiKTt5d8wHcQ-jsr985hc6Rj9Z5PJyOfwFq9sE8F7jigxYK8uNpxjS5dtts4hv33J5nNVel8toWXNdly4Fy09vU5B8D6NZWoro1xORjOLSpbPP3GHrKvI7GkLMZ2r3_AQJQmWJP5rHvA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Enserré à l'intérieur de sa puissante ceinture de murailles et préservé des grands incendies urbains qui frappèrent d'autres cités bretonnes, le centre historique de Vannes forme un conservatoire exceptionnel de l'architecture civile de la fin du Moyen Âge et de la Renaissance. Comptant plus de cent soixante-dix demeures à colombages et à pans de bois construites principalement entre le XVe et le XVIIe siècle, la ville intramuros s'organise en un lacis pittoresque de venelles pavées, de cours secrètes et de placettes commerçantes pleines de charme. Les façades se caractérisent par leurs étages en encorbellement successifs qui s'avancent hardiment au-dessus de la chaussée pour gagner de la surface habitable tout en protégeant les étals des marchands des pluies océaniques. Bâties sur des rez-de-chaussée solides en grand appareil de granit armoricain, les structures en chêne déploient une polychromie éclatante où les ocres, rouges sang-de-bœuf, bleus profonds et verts amande mettent en valeur le dessin des écharpes et des croix de Saint-André. Les sablières d'étage, les abouts de poutres et les poteaux corniers foisonnent de sculptures figuratives ciselées par des maîtres artisans : rinceaux végétaux, monstres hybrides, masques grotesques et représentations de saints patrons. Autour de la place Henri-IV, de la place Valencia et de la rue Saint-Salomon, l'animation des marchés et des échoppes perpétue une tradition marchande séculaire, tandis que les hôtels particuliers Renaissance en pierre de taille, tel le prestigieux château Gaillard, rappellent le faste politique de cette cité parlementaire d'Ancien Régime.",
     visiter: "Flâner au hasard des venelles pavées en levant les yeux vers les étages en surplomb des maisons médiévales colorées. Faire une halte sur la place Henri-IV pour apprécier l'harmonie des pignons à pans de bois, explorer les petites boutiques d'artisans d'art et s'imprégner de l'atmosphère animée de cette ville d'art et d'histoire.",
     link: "https://photos.google.com/share/AF1QipNlMPNwHBbaxlcTEAzamK3009GZIredm7xE38n5kU01_Il977cOhLQfbRPGScqmeA?key=S1Q1aEdhRjMwdDlPVUtCcjF6eV9zTjBtRzZ2Z3VR"
   },
@@ -4951,7 +4993,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Vannes",
     altitude: 17,
     is_island: false,
@@ -4965,6 +5007,12 @@ const travelSpots = [
     lat: 47.656728,
     lng: -2.757568,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOFyfPPFpl8q_3IiEy7Ha3E-0M3RaozShgiPIyxmYmSc2AaAqS6EtVuQZ2QDxdr-68QBCDqmjFNPOeXEe1-rwr4SboTfgVte6ZI8w4rTMTKGfgqfGLwaZpwZlshkvbAhi8hyaqcypPlwzW6_YpnDlX8JA=w2219-h1480-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNLc53WcI1h97-AW60i2AFaJRA38huj5gKQmV9OLAbpfzfTRT0m2n_BKK114nE9VRDOfHYQeBwE5xLQH4L1z1ozViqPy5oSZVYUL8rayoP1OQgjANOFerL6w8jBa5QIj46BYPMux01TNub-XxnLnPusMQ=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Véritable emblème populaire et mascotte chaleureuse de la ville, le haut-relief sculpté de « Vannes et sa femme » trône à l'angle de la rue du Bienheureux Pierre-René Rogues et de la rue Noé. Incrustée dans la maçonnerie d'une maison à pans de bois du XVIe siècle, cette œuvre en granit peint représente un couple de bourgeois jovials aux visages ronds et souriants, amputés de leurs mains sans doute lors des tourments révolutionnaires. Probable enseigne commerciale d'un cabaretier ou souvenir attendri des propriétaires d'alors, cette sculpture demeure l'un des détails patrimoniaux les plus chers au cœur des Vannetais.",
     visiter: "Lever la tête au carrefour piétonnier pour contempler les expressions riantes et bienveillantes de ces deux figures emblématiques taillées dans le granit breton. Remarquer les détails des costumes d'époque Renaissance et immortaliser ce célèbre symbole urbain avant de poursuivre vers le château Gaillard tout proche.",
     link: "https://photos.google.com/share/AF1QipNlMPNwHBbaxlcTEAzamK3009GZIredm7xE38n5kU01_Il977cOhLQfbRPGScqmeA?key=S1Q1aEdhRjMwdDlPVUtCcjF6eV9zTjBtRzZ2Z3VR"
@@ -4976,7 +5024,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Vannes",
     altitude: 20,
     is_island: false,
@@ -4990,7 +5038,17 @@ const travelSpots = [
     lat: 47.657802,
     lng: -2.756973,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOUr4GJ6zNTHbwiN9dxDiQtpoUy_bHOm_IF4WgBoClRxPstkMGkE1H24YhWIL8RvkMDq3vO2YJcjfxhwYUqX84upUs6vkhTxJ7fFlmSEJ-G9Ar7Uln-wTqEYDouQvblYZflyU0kQcqqs5aNwsBsCbvXtA=w1580-h1053-s-no-gm?authuser=0",
-    description: "Dominant la colline du Mené au point culminant de la vieille ville, la cathédrale Saint-Pierre est le plus imposant sanctuaire du diocèse de Vannes, s'étirant sur une longueur exceptionnelle de cent dix mètres. Reconstruite à l'emplacement d'un édifice roman dont subsiste le puissant clocher carré du XIIIe siècle, la cathédrale présente une immense nef gothique sans bas-côtés, réaménagée du XVe au XIXe siècle. Elle abrite la sépulture et les reliques de saint Vincent Ferrier, célèbre prédicateur valencien mort à Vannes en 1419, ainsi qu'une chapelle axiale ornée de remarquables retables et de tapisseries d'Aubusson.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOdrgcThye2FekUeZa29W1m3y260bdrEOlQiVJItqlapMR46E8GKe_VC6LLLd77EoJyIG3mgiyZKIDo06l4xV18udl4dIO4MBEaCttHxGmzFuFTQOU_3NoZvnoq7KS-v5zpfI2J5WKgjIpULoM6Me9Ytw=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOF4nI9Jb6H7wjD1c-b151_xJNj_eF4XHrwbuDDw4J5oyi-BcUDAWVMWqFKXCzuhFp68qlbFW-cBi9-CLdZE8ZGnmIWvYJ5-Z84V2fCkRwXCKNXZUhvxfCPSTvAOUCKkLcbJ6HJf4qWQmYWrfYZsD_8rQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dominant la colline du Mené au point culminant de la cité historique, la cathédrale Saint-Pierre de Vannes est le siège épiscopal d'un diocèse fondé dès le Ve siècle par saint Clair, s'étirant sur une longueur monumentale de plus de cent dix mètres. L'édifice actuel représente un passionnant palimpseste architectural où dialoguent plus de sept siècles d'art sacré. De la cathédrale romane primitive incendiée par les Normands puis rebâtie au XIIIe siècle subsiste le puissant clocher carré nord, flanqué de contreforts massifs en granit. La nef centrale, reconstruite à partir de 1454 dans le style gothique flamboyant sous l'impulsion des ducs de Bretagne et des évêques locaux, surprend par son ampleur dégagée : dépourvue de bas-côtés selon la tradition mendiante et bretonne, elle s'élance d'un seul jet sous de hautes croisées d'ogives éclairées par de vastes baies flamboyantes. La renommée spirituelle universelle du sanctuaire culmine à partir de 1419 avec le décès à Vannes de saint Vincent Ferrier, illustre prédicateur dominicain valencien canonisé en 1455 ; son tombeau en marbre et ses reliques précieuses conservées dans le transept attirèrent d'immenses foules de pèlerins européens. L'édifice s'est enrichi au fil des époques de joyaux artistiques insignes, à l'image de la chapelle du Saint-Sacrement — exceptionnelle rotonde Renaissance bâtie entre 1536 et 1537 par l'archidiacre Jean de Danet —, des tapisseries d'Aubusson du XVIIe siècle narrant la vie du saint patron et d'un cloître canonial dont subsistent d'élégantes galeries gothiques ajourées.",
     visiter: "Pénétrer dans la vaste nef pour apprécier l'élégance de la voûte et la clarté des élévations gothiques. Se recueillir devant le tombeau de saint Vincent Ferrier dans le transept, contempler la magnifique rotonde Renaissance édifiée par le chanoine de Guéméné et jeter un coup d’œil aux stalles sculptées du chœur ainsi qu'aux galeries du cloître attenant.",
     link: "https://photos.google.com/share/AF1QipNlMPNwHBbaxlcTEAzamK3009GZIredm7xE38n5kU01_Il977cOhLQfbRPGScqmeA?key=S1Q1aEdhRjMwdDlPVUtCcjF6eV9zTjBtRzZ2Z3VR"
   },
@@ -5051,7 +5109,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Vannes",
     altitude: 5,
     is_island: false,
@@ -5059,13 +5117,39 @@ const travelSpots = [
     transport: "a_pied",
     era_group: "contemporain",
     era_label: "Ancienne station balnéaire insulaire reliée par une digue face aux îles du Golfe",
-    century: "XIXe siècle",
+    century: "XIXe siècle (1879)",
     category: "plage",
     counts: {},
     lat: 47.627625,
     lng: -2.777256,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM2Hkti6FI4s1ZViaihURHivXrhvnL5xeYa1WXFzk2LAUXCSu_RC_I06QRVmV42cHEu6HrYbLdcgGeT4oaqJ911YZLSJYO91XVJxASqUCSNzzSefMBmdnAPKGU5JC8klIkhYWADTW6RjoivmQTogjWorA=w2219-h1480-s-no-gm?authuser=0",
-    description: "Véritable avant-poste maritime de Vannes sur les eaux du golfe du Morbihan, la presqu'île de Conleau était à l'origine une île rocheuse couverte de pins, rattachée au continent en 1879 par une digue-route aménagée. Transformée en station balnéaire élégante à la Belle Époque sous l'impulsion de passionnés qui y bâtirent un chalet suisse et des bains de mer, Conleau séduit par son atmosphère maritime hors du temps. Elle dispose d'une célèbre piscine naturelle d'eau de mer régulée par les marées et bordée d'une plage sablonneuse, offrant un observatoire exceptionnel sur le goulet resserré où transitent les navires en route vers Séné ou l'île d'Arz.",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPvR3u3dG2aajqysd2yQN7nhn-LIn521kV7TiIGkarf43QOg9uIaie-7dyuvms_M1WI-_uHbgLbdBuqHjE5U8yyN6j_OPIR3Mk1Eb4QJuJ8kKpjt6SHjvcaAgszCirgAXIXqbbKPWq5TRXsjYndVPmj-A=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMqxiRvto9SaN5UrYLtsROKPEWzl6ko2Fdo8BreOCjtVxPM3W6hHyKfhuq_N00NuFngWzi2DvWFhtmvDGtkZoGVJ6z8vv4MQP5Zqs8Zdk26LGk3QyZlzJ4UqIcj3MtxMth4gDDtbn1bEELl2OeevwLimQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPI_LG5wgJ2Fm6c3BThsBjLDF_XeBxI9-RSRNCQFQ6zPbf0D9MOBz11FyI1iC0DyZVlbl6H4sS1TyNp-b3ANk3AG5acQWU0Wg70BKPAk_aUq_6N9J7hTKKoqX-nFhH5AcyRO9g-MVUaWZGPcBgYb7qy3Q=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNK5sbWcZslwfarYtkwWVpdsMQ3MYitGDFoczgZbxQsokJyIVExrcG2c1RntV_Kwz3mnV1WK27A33VM6qKlMb4Vh7fwXJZmPxSxuLsCPi2kgpPRcbXKfDRLcEoZjnhQd6aoetgOyOAhI_zkfFUHz3N4zw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNa-3nrpAggrf9gIFrSGGrrQnqwalfhNujzVRA5cxghMRF51KkypIXx4-bGiw5_Yo_ZUcbE5PAceUUcZ_4awjRDWRlOtRUOC9DyUZNC9ZuXfWmAhgLnJnAhFcsm8pQCOa1RA0J-vHtmdyB2ROFeebv1cA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMarZHwYvcZGYeKqdd__dzblHt7MxBp5X1cYBnSBAZol078T4p1ZPW_la0-nszYS8Ak7COEuIo9olN88DZiziCqR1UmL7ohiRxqugiGsNQar4IYTaiMZlGdEaNnoviJQBtqTin6Hz4jXswTQ1JdyyPBFQ=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Véritable avant-poste maritime et villégiature emblématique des Vannetais sur les eaux du golfe du Morbihan, la presqu'île de Conleau était à l'origine une île rocheuse escarpée couverte de pins, séparée de la terre ferme par un bras de mer vaseux soumis aux marées. C'est en 1879 que le site fut rattaché au continent grâce à l'édification d'une digue-route empierrée, œuvre visionnaire d'un entrepreneur local désireux de créer une station balnéaire moderne inspirée des grands bains de mer de la côte atlantique. Dès la Belle Époque, l'îlot s'est métamorphosé en un lieu de villégiature très prisé : on y construisit un grand hôtel, des cabines de bain, des guinguettes et un curieux chalet suisse en bois toujours visible aujourd'hui au milieu de la pinède. Le joyau récréatif de Conleau demeure sa célèbre piscine d'eau de mer aménagée, un vaste bassin ceinturé de digues dont l'eau salée se renouvelle naturellement au gré des marées de la baie. Bordée d'une agréable plage de sable fin et d'une promenade circulaire sous la frondaison des pins maritimes, la presqu'île forme un observatoire géographique de premier plan sur le goulet resserré de la rivière de Vannes, où le fort courant oblige les voiliers, plates ostréicoles et navettes à destination de l'île d'Arz à d'admirables manœuvres nautiques. Préservant une atmosphère balnéaire rétro et chaleureuse, Conleau constitue le poumon iodé de la ville de Vannes.",
     visiter: "Faire le tour pédestre ombragé de la presqu'île sous la frondaison des pins maritimes pour respirer l'air iodé et admirer la vue panoramique sur les îles et les parcs ostréicoles. Se baigner dans le grand bassin d'eau de mer à marée haute, ou s'attabler aux terrasses du café historique de Conleau pour contempler le balai des voiliers franchissant le détroit.",
     link: "https://photos.google.com/share/AF1QipNlMPNwHBbaxlcTEAzamK3009GZIredm7xE38n5kU01_Il977cOhLQfbRPGScqmeA?key=S1Q1aEdhRjMwdDlPVUtCcjF6eV9zTjBtRzZ2Z3VR"
   },
