@@ -7410,12 +7410,40 @@ const travelSpots = [
     century: "XXe siècle",
     category: "star",
     counts: {},
-    lat: 34.652140,
+    lat: 34.65214,
     lng: 135.506193,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM-TBaG_TvVspX6YB2XqofwuU1_mtst1do7IsoCIFDfbDuWCyzv8N3cUYJNRtJRLHpBveX-8Qhf2ytgIJzEd6IAKeCX-AhpYHDHhUUzlfjDwM3b8ThwdBPz8wA2ccBV9A-pG3xtKAYXUx_C3ZEzMFa9gw=w1221-h919-s-no-gm?authuser=0",
     description: "Quartier populaire et nostalgique né en 1912 au sud d'Osaka, Shinsekai (« le Nouveau Monde ») fut conçu comme une vitrine futuriste mariant l'urbanisme parisien dans sa partie nord aux attractions new-yorkaises de Coney Island au sud. Dominé par la silhouette métallique de la tour Tsūtenkaku (« la tour qui touche le ciel »), le secteur a conservé son atmosphère brute de l'époque Shōwa d'après-guerre avec ses lanternes géantes en papier, ses enseignes tridimensionnelles exubérantes de poissons fugu et ses effigies dorées de Billiken, dieu malicieux de la chance. Célèbre berceau culinaire des kushikatsu (brochettes frites trempées dans une sauce commune), le quartier offre une immersion sensorielle haute en couleur, témoin vibrant de la convivialité chaleureuse et populaire d'Osaka.",
     visiter: "Déambuler sous les néons étincelants de l'artère commerçante Janjan Yokocho bordée d'échoppes de tir à l'arc, de salles de mahjong et de comptoirs de brochettes croustillantes. S'asseoir dans un izakaya traditionnel pour déguster des kushikatsu fumants en respectant la règle sacrée de ne jamais tremper deux fois sa brochette dans le bac de sauce. Grimper au sommet de la tour Tsūtenkaku pour caresser la plante des pieds de la statue de Billiken réputée exaucer les vœux, tester le toboggan extérieur tubulaire transparent et contempler la vue panoramique sur les toits d'Osaka.",
-    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
+    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB",
+    sections: [
+      {
+        title: "La tour Tsūtenkaku et son histoire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOy0ungbrAeaF6mBfc-Yv6Vs4pnWO8rtRzmIbuLDKi3JCO8qGEjQ40COeKbKVx5abK6UqwC-AyGQCamKv2o5ofBRknuFaRTylqvuCguEdxTITRVXem560TTTKaHiGGOgoiJ-hx09X46ZOKvDfeCUBMshQ=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOsG45XyWGrteuYO0n_v19_W1fE9Yfyvkh7NjnzRuYJ1LSCd3r4_WL4ED7wB9i45OJfvTfgu5omvq8sRdtMgFpDJ2uVMvt8PYYEvTYbsIvyL9TGvrFibuD8BJ7L6PP9ARk_khL4XEaeU2At6Ileh1-eRg=w1586-h1193-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM2l731DKQmxD47jWHZb5G4oVgP08w49CiUNJQv11MtpKZ9O_c4CGp4gxxBidask_JPkcpjkWYELdVWVWDqV2I8WwfaUIxCupbJOqi82AKxfRVEJCgpmtlyoePgHyX2Kbs7k5Ae_6pI6hwL30YVW6URLg=w1586-h1193-s-no-gm?authuser=0"
+        ],
+        text: "Le point d'ancrage visuel de ce décor rétrofuturiste demeure la tour Tsūtenkaku (通天閣, « la tour tutoyant le ciel »). La structure originelle de 1912, reliée au parc d'attractions par un téléphérique aérien novateur, fut endommagée par un incendie en 1943 puis démantelée par les autorités militaires pour alimenter en acier l'effort de guerre. L'édifice actuel, haut de cent trois mètres, a été réédifié en 1956 sous la direction de l'architecte Tachū Naitō, également concepteur de la tour de Tokyo."
+      },
+      {
+        title: "La figure tutélaire de Billiken",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNfcqKguZRjq8AxLY97TD0BBugcmeDTDpgqXx8mSbr-a6RcvU5u7H1UPsOPRtKG_vBEn1kVOxeAaSgwaRwm0In55A2rhIF2jMOwsvAk2owm2s5VLFxxeOA8Y7AO86Gty0uccV1ofQj9dwAV67rOugXKjQ=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMWYgFRTffsBjyN_z4DHtKTqa2W2kxeqXcIbpgbqWrZSNbxJQPX_LM2zG_qgELzBDBeLmgVlzngqaIoxtMiKrQrrw2w5lINY-jMPp_VeVkM-f2dolnfh_DFR8az4ApQvzCSSOa4z3pAEfQ7ERRcc0VCPA=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM-TBaG_TvVspX6YB2XqofwuU1_mtst1do7IsoCIFDfbDuWCyzv8N3cUYJNRtJRLHpBveX-8Qhf2ytgIJzEd6IAKeCX-AhpYHDHhUUzlfjDwM3b8ThwdBPz8wA2ccBV9A-pG3xtKAYXUx_C3ZEzMFa9gw=w1586-h1193-s-no-gm?authuser=0"
+        ],
+        text: "La tour abrite au cinquième étage la statue de Billiken, étrange divinité bienveillante au crâne pointu et au sourire malicieux créée en 1908 par l'illustratrice américaine Florence Pretz. Adopté avec ferveur par les habitants d'Osaka comme le « dieu des choses telles qu'elles devraient être », frotter la plante de ses pieds nus est réputé apporter la chance et la fortune matérielle."
+      },
+      {
+        title: "Kushikatsu et culture culinaire populaire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPJRQWIcClyPohWNVSSnF0qh-Wz25LOfDdefq82_8AnsiMaCcmIIchzgN4QtPp--wWG5SyqtFSbIg8WGPfHtwbNzjZSOiLdOapofL28U_Rtv8KMdLe4uQClsScn0_VlJ4h3Swk4JvZqJIp3EqHxHRVqZA=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMuz38j6CISli6ofb9aRxjzB6g7Tlr_1qvkJQLmyc7hgIpJfzEUC0I_6zkQP-zjjR3-XWdZX-uAQZlSxfe3QWlFFQYJCU3sQf7G874qT5E4XFC-8-KH_FJjshipqjr0aH_4vE766VOcjOS6E1f8DIkXLA=w1080-h1920-s-k-no-gm?authuser=0"
+        ],
+        text: "Après avoir connu un long déclin économique dans l'après-guerre et s'être mué en repaire ouvrier populaire de journaliers, de salles de mah-jong et de cinémas de quartier, Shinsekai s'est affirmé comme le sanctuaire incontournable de la cuisine de rue d'Osaka. C'est ici qu'est né le kushikatsu (串カツ), ces brochettes de viande, de fruits de mer et de légumes enrobées d'une panure croustillante et frites dans l'huile bouillante. La dégustation dans les échoppes traditionnelles répond à une règle d'or d'hygiène collective strictement affichée : l'interdiction absolue de retremper sa brochette entamée dans le bac commun de sauce brune Worcestershire (nido-zuke kinshi). Les comptoirs y servent également le doteyaki, un ragoût réconfortant de tendons de bœuf mijotés pendant de longues heures dans du miso blanc et du mirin, perpétuant l'âme chaleureuse, théâtrale et gouailleuse de la ville marchande."
+      }
+    ]
   },
   {
     id: "osaka_temple_isshinji",
@@ -7440,7 +7468,25 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczP0oVfr5yAwo940ceZIWFjQ40sOFfcTduudhThuWZxbQeKkB8n9Xl2yTACYWcEtxkuOPy0KjmAg8SpCOQi88JwK6KIgLNd5-oM79mThBmM1tGa4zYPZuOe_a99bVE1yWmCoUdy8KNHUGFkTfxgmDYqnCA=w1379-h919-s-no-gm?authuser=0",
     description: "Fondé en 1185 par le grand maître bouddhiste Hōnen, père de l'école de la Terre Pure (Jōdo-shū), le temple Isshin-ji se distingue par une tradition funéraire unique au monde. Depuis 1887, le sanctuaire accueille sans distinction de culte les cendres funéraires de dizaines de milliers de défunts confiées par leurs familles : tous les dix ans, ces ossements incinérés sont broyés, mêlés à de la résine et sculptés pour façonner une monumentale statue de Bouddha (Okotsu Butsu). Treize de ces statues sacrées ont ainsi été créées au fil des générations, symbolisant l'égalité absolue de tous les êtres humains dans la mort et l'illumination. Le temple surprend également par son architecture contemporaine audacieuse, mêlant portes d'entrée monumentales en acier et béton brut gardées par de colossales statues en bronze de divinités gardiennes Niō sculptées par l'artiste Sano Gaho.",
     visiter: "Franchir la porte Sanmon d'avant-garde aux lignes architecturales modernes en béton et verre, encadrée par les impressionnantes statues musclées des guerriers gardiens Niō. Se recueillir dans le hall principal Kōdō devant les statues d'Okotsu Butsu où brûle un encens continu, enveloppé par la ferveur silencieuse des familles venues honorer leurs ancêtres. Parcourir les allées paisibles du cimetière et du jardin intérieur parsemé de stèles commémoratives, dont le tombeau du général samouraï Honda Tadatomo tombé lors du siège d'Osaka en 1615, où les fidèles viennent déposer des bouteilles de saké pour faire le vœu d'arrêter l'alcool.",
-    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
+    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB",
+    sections: [
+      {
+        title: "Mémoire du siège d'Osaka et tombeau de Honda Tadatomo",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM5EUKEvG6h6ntd9dlHiV39gS8ygThACby9jYYYtaRcgwsY_lcrOkqIvnxfObHTJbd0kDmRqJ04NSSABrQnOMgbVqu8RJt2dSpm_1fi02b0q37zMMfMFOpJ5Y2yZJur90pDVT7iYDwHzQWM_rix0aCcZg=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP0oVfr5yAwo940ceZIWFjQ40sOFfcTduudhThuWZxbQeKkB8n9Xl2yTACYWcEtxkuOPy0KjmAg8SpCOQi88JwK6KIgLNd5-oM79mThBmM1tGa4zYPZuOe_a99bVE1yWmCoUdy8KNHUGFkTfxgmDYqnCA=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "Le temple s'inscrit au cœur des tourments militaires de l'archipel lors du dramatique siège d'Osaka (1614–1615). Durant la campagne d'hiver, le futur maître du pays, Tokugawa Ieyasu, y établit l'un de ses quartiers généraux avancés pour diriger les opérations contre la forteresse des Toyotomi. Lors de la campagne d'été de 1615, le célèbre général samouraï Honda Tadatomo, qui avait essuyé les reproches publics d'Ieyasu pour s'être enivré avant une bataille décisive l'hiver précédent, chargea les lignes ennemies à Tennoji avec une témérité désespérée afin de laver son honneur, y trouvant une mort héroïque. Inhumé dans l'enceinte sacrée, Tadatomo formula sur son lit d'agonie le vœu d'aider quiconque lutterait contre l'intempérance : sa sépulture est devenue un lieu de pèlerinage populaire où les fidèles viennent encore déposer de petites coupelles et des bouteilles de saké en formulant des prières solennelles de sevrage alcoolique (sake-dachi)."
+      },
+      {
+        title: "La tradition des Okotsubutsu, les bouddhas d'os",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPqYp3I7GNUqau006vIIwAAL_6rY2a4QrWcNVuoG9GK55CaPWOLfoCj2eLqdS6bXgSyXz6-db3jc_eETikd4AXTjmoQ0DaFYMKjYghEdSF-hNm_uFAudjDronRFzissCybBG-11FQEWmx0bH2NQehIBSg=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMs7zg1J77osfUXaEb65v3FSiAenExlObJM7RPJhV2HTG4Q427flh9besY3iQlJYaQEtnTmI3kNBax7IsPb4PqXxvrZwyctmf1Z3mfA0E3F6TejBF5GqevV8j-j_v_8Ruw-gxbEj_6Fu28DYDOqUazmhA=w1586-h2380-s-no-gm?authuser=0"
+        ],
+        text: "La renommée universelle d'Isshin-ji repose sur une tradition rituelle unique dans l'histoire du bouddhisme mondial : les Okotsubutsu (お骨仏), les statues sacrées modelées à partir d'ossements et de cendres humaines. Dès 1887, sous l'ère Meiji, le temple fit le choix d'accueillir les reliques funéraires de tous les défunts sans distinction de caste, de fortune matérielle ni même d'obédience religieuse, affirmant sa vocation d'asile universel (fuse-dera). Tous les dix ans, les restes incinérés de dizaines de milliers de personnes — atteignant souvent plus de cent mille urnes accumulées en une décennie — sont concassés en une poudre d'une extrême finesse, intimement mêlés à de la résine naturelle puis coulés pour façonner une statue monumentale d'Amida Bouddha. Si les six premières effigies créées avant la Seconde Guerre mondiale furent pulvérisées lors des bombardements aériens d'Osaka en 1945, leurs fragments calcinés furent recueillis pour être amalgamés aux cendres suivantes lors de la consécration de la septième statue en 1948. Perpétuée sans interruption de décennie en décennie, cette pratique funéraire rassemble aujourd'hui la mémoire de plus d'un million d'âmes anonymes réunies dans le corps même du Bouddha."
+      }
+    ]
   },
   {
     id: "osaka_temple_shitennōji",
@@ -7465,7 +7511,36 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczMU-UbT2UGmY_8OrVbIAVoCQ8wcvXKuJHXWvusaFLnz2-gyJTdv51ST5pwRRIjBIeYl7IAd_52VlNsDNsfm_I7l6ctTYTpLf9np6JXucQG0elDNKlHpSjeOe0GdHGmQNt9SjDemZB0nbmgVffBuKJDGUQ=w1221-h919-s-no-gm?authuser=0",
     description: "Considéré comme le plus ancien temple bouddhiste officiel administré par l'État au Japon, le Shi Tennō-ji fut fondé en 593 par le régent prince Shōtoku Taishi, figure fondatrice de la civilisation japonaise qui introduisit le bouddhisme dans l'archipel. Dédié aux quatre rois célestes protecteurs (Shi Tennō), le complexe monastique a conservé rigoureusement à travers quatorze siècles de reconstructions fidèles son plan d'origine de style Asuka (Shitennōji-shiki) : une disposition axiale rectiligne parfaite sud-nord alignant la porte centrale (Chūmon), la pagode à cinq étages (Gojūnotō), le pavillon d'or (Kondō) et le grand hall de lecture (Kōdō), ceinturés d'un cloître couvert. Véritable phare spirituel et historique, ce sanctuaire vermillon incarne les racines mêmes du bouddhisme nippon.",
     visiter: "Franchir le monumental torii de pierre érigé en 1294 (l'un des plus anciens du Japon marquant l'entrée d'un temple bouddhiste) et pénétrer dans l'enceinte sacrée centrale ceinte de galeries laquées de rouge. Pénétrer dans le pavillon Kondō pour contempler la statue sacrée de la Kannon Guanyin entourée de fresques murales bouddhiques, puis gravir les escaliers étroits de la pagode à cinq étages pour embrasser la perspective aérienne sur la cour. Flâner le long de l'étang Kame-no-ike peuplé de centaines de tortues d'eau douce se réchauffant sur les pierres, et explorer le paisible jardin paysager Gokuraku-jōdo (« le jardin de la Terre Pure ») abritant des étangs sinueux, des cours d'eau et des pavillons de thé préservés.",
-    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
+    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB",
+    sections: [
+      {
+        title: "Fondation impériale et tracé canonique d'Asuka",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP3SQMOJQSvNIigu1kLBmJBPmT_tMFaXa-6X17TwBuk4JMrzpFhQ7wGM9kB9zNQdB4pW-GRqYV4S6mYBEtAScHRZzn6kOsv8l50BagdxKPqAZhcHDY-XoisyiMXKZmLjErL5MVpP8QqecGOSvyCYvr-hQ=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPntMHmKgtPl6aSUbdYvop5UE-0Jcksn2Xk2E2UhQpsYGg4vGticARvz7b837TuhtSFo9sOnf5vAEmeolvrXp3iRw23NIiab-FB1EDQtBWGjGOKuSTheFqzx4PMIKNEvVrtXqUjRWvJC-v6SCgJqDPIVw=w1586-h2380-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPfWDu28Y9KOz2l9JSo_FidXrMtM3D4yVYz3-YR5e42mZAHY7FP-xVicMD_s77EEu3rOiijdvua-DecKOrvZAtCqr7-c7YsLk9uAnVatIls0unqDAfC8sVKEFSjcMOcw0uaj1ODGX1rDXSHYmq1XTa1jw=w1586-h2380-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNcwyvOoF5JLuU3bF8_f1N_mngZ4ZY0YuOGr57NdtZlXRMobVMk4gHmkzj8a2VWacNJkQh3c5Gy2eORfy4kKACkHV14A2K8SZaP3oHkJg6B3Q4FTfPm-vzKLgYtYUoqgOsE1yHNBi0kd-CH1FC8NqCIyw=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "Pour mener à bien ce chantier sans précédent, le prince fit venir du royaume coréen de Baekje (Kudara) des maîtres charpentiers d'élite, dont le bâtisseur Kongō Shigeharu. Ce dernier fonda à cette occasion l'entreprise Kongō Gumi, considérée comme la plus ancienne société commerciale en activité continue du monde, chargée durant plus de quatorze siècles d'entretenir et de rebâtir le temple. Shitennō-ji a inauguré une organisation spatiale devenue un modèle classique de l'architecture religieuse continentale : le plan Shitennō-ji-shiki garan (四天王寺式伽藍). Enserré dans une vaste cour fermée par une galerie couverte à colonnades (kairō), ce dessin géométrique rigoureusement rectiligne aligne sur un axe sud-nord parfait la porte du Milieu (Chūmon), la spectaculaire pagode à cinq étages (Gojūnotō), le pavillon d'or (Kondō) abritant la statue du bodhisattva Kannon Sauveur du Monde (Guze Kannon), et enfin le pavillon de lecture (Kōdō) réservé à l'exégèse des soutras."
+      },
+      {
+        title: "Les quatre instituts de bienfaisance et le torii de pierre",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNzyrK7i3jc5rYjmfCSz1MieDWcpn77R8rUEYF-JJssuCeCCPsxBVnPgqjIv4pnNYsTN14FEcU9PcismCsYotA38gbjpofxUzQLPhH-19ecNoPUdqH_O15DueObuzeRmBDTORkot0gb1iiSVD06NJxEug=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN9CkMtQzkixgy8NxQbH93pJtkCGgn6ecq2mQE9q9EsJyQj6odswPrh-7WuOW4AXG1KxLlVEKmpSzIJ44e_p_PGxtJ6HUoYD0qppGNw17eAMmQBzSpFT_cK29ph8rQi3vQWloPeii86CcB6alyufPRtsA=w1586-h2308-s-no-gm?authuser=0"
+        ],
+        text: "Au-delà de sa mission religieuse, Shitennō-ji a constitué le premier complexe de protection sociale et d'assistance publique de l'archipel grâce à l'institution novatrice des Shika-in (les quatre instituts d'entraide) mise en place par le prince Shōtoku. Le temple abritait ainsi conjointement le Kyōden-in (académie consacrée à la religion, la musique et aux arts classiques), le Seyaku-in (dispensaire pharmaceutique distribuant des herbes médicinales gratuites aux indigents), le Ryōbyō-in (hôpital public soignant les malades démunis) et le Hiden-in (asile d'accueil pour les orphelins et les personnes âgées sans ressources). L'enceinte se distingue également par son monumental torii de pierre (Ishitorii), érigé en 1294 sous l'époque de Kamakura à l'entrée occidentale pour remplacer une porte de bois primitive, figurant parmi les plus anciens portails mégalithiques subsistants du pays. Dans la dévotion populaire médiévale, cette porte de l'Ouest était vénérée comme le seuil d'accès direct vers la Terre Pure du Bouddha Amida, car le coucher du soleil dans les flots de la baie d'Osaka offrait aux fidèles une invite mystique à méditer sur le paradis occidental."
+      },
+      {
+        title: "Destructions historiques et résurrection contemporaine",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPptWPMUBZ8SvT3G9Oh_dy3vxmFWZ-j1ad4RYqdHXrScxBeSB3fssJy7bYPlw3wSqd2AtCucBx5d8d30HdqqmF1oRUBbLsGO9TV0vNewU2tL6c9T6pRoLBg7TtGNc6GJBhItoKYo30khH8kgQSdkwKfJg=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMU-UbT2UGmY_8OrVbIAVoCQ8wcvXKuJHXWvusaFLnz2-gyJTdv51ST5pwRRIjBIeYl7IAd_52VlNsDNsfm_I7l6ctTYTpLf9np6JXucQG0elDNKlHpSjeOe0GdHGmQNt9SjDemZB0nbmgVffBuKJDGUQ=w1586-h1193-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMkRkPDg7V_0nx5-gq5b4DCoJdABGkZ3rzTEZDJhaKFt7NYYMAknu2VRDpcHEDh1dmBA_i94eYFJZ8GywIdvFGL6-IIbSAgFIVQjn2lVAl9TupYiL0qH5ShMxcDVg_T0HRpTYvGdDupUs_aEuPjgvbqDA=w1586-h2106-s-no-gm?authuser=0"
+        ],
+        text: "Ravagé à maintes reprises au cours des siècles par les typhons, les séismes, les assauts d'Oda Nobunaga en 1576, le siège d'Osaka en 1614 et les bombardements aériens dévastateurs de 1945, Shitennō-ji a systématiquement été reconstruit à l'identique par la population. La reconstruction intégrale de l'après-guerre a restitué en béton armé ignifuge les proportions exactes, les charpentes élancées et les vives laques vermillon du canon architectural d'Asuka du VIe siècle, perpétuant sans altération la matrice de la foi bouddhique au cœur de la métropole moderne."
+      }
+    ]
   },
   {
     id: "osaka_temple_hozenji",
@@ -7513,6 +7588,36 @@ const travelSpots = [
     lat: 34.660502,
     lng: 135.505905,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNfQpnjuECWCybdmES_EAddTdliyn5yM6vUGuEm1_Ara-xsxGNQmqhS1EH435Bwo9n0J4WVFjUQUMgYBREPDOAVffaR0L5TmRriR82NnBi9t6TQ66PL8_IXwlcDxvbuQnnkf-S1ZILkh3I54A8MB5N_8A=w692-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOO5x7knaj2G4H6krbopgCnmAvJaMI0cKAVp7uBnX6wkJjNZVqtKPrTJjUwP0YjzD47ztJtUm33-cNGgpuUe5jcsx6fSOzhAwxdxIr9gMIitoTNBwf2TcEhFEQ02lV-QiFEfvvXbfmFb4OPK4FUL1Fa9A=w1586-h2106-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMim8WpbyijSv4tosbhf3rzMcxkRxuqPzD60mhD68GQeXcjUS5DUHGknSMthAVG3k-VJb1oyrf8abHNXeson0XGXpRBtkEfTzojOIfj5FQadAvsbUYFfFrBae9qoOa7xPGyJenNdX4PlILfjpGPRlXbOA=w1586-h1193-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO08pXXGK7tQYxWVAEi-0knhXqUVdsSAMuPalKQM96pGa6thNnm2w5RMU7uE9-OFCRu77uzTM9C7ni8s_VKCZg2Q1Hoj0EEx6re33peisWpku456k4mryiXil25qbKdcSX_9Cl-wN6XCdgSiHWzMViyRg=w1586-h2106-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOVX48PQZ7DnvZEV-869RD3qWippJ15BGUNrySK8NRNGWUt4jnAvda-NitJc6zncfwgBikcRPW_EEDGVk1JAumBZFfHpTelRsu0Z6w-LLeZrXGC14QIRUKmmY3NK6HH1kL8GxeN8ZH7c1NgsGE3z_jJLg=w1586-h1193-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMAOccOIDghvt352xI-BMG_25EV69qGcltPbuVmteK3sl8rCaoN0VFsJoFAEodS2Za9HCu7ZPjMuvijYN5Fkl7474ZjzrVZfwPe_z8_2iZpNYbg7VdFybs3LcIteJUEZvmu443qWR5IM57oVWUofp0_YQ=w1586-h2106-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPZrwSjJKpKRM6sBQLhTYoQYfKUUJ1pDPDE1EUDf0jgk7VFAn3lc1bv9xCzb7W0TXkdY3GCTuI_-NSFr5f-W-IeHjlJz94XkXO9P-uTiMqoAcifqaNi9uPABlF2QYrvco7fZUXr21J0fpvnNykRIfz9qw=w1586-h2106-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO6dU7A75OBt2eKSUgmAEX2oV5A7lwZ_L07vCnnIL-qh7-icGemEAD2x1e6MswcwFnpgffNGBSLICQDROOTNca8EcHhpgL0NtmrbL7UoFsfjJuopk_aqu2ysU6c1vybTVbPuBPH5uePuenk_Zt7qB1m_Q=w1586-h2106-s-no-gm?authuser=0",
+        caption: "À partir de la fin des années 1990, le quartier a négocié une seconde mue pour s'affirmer comme le sanctuaire de la pop culture et des loisirs alternatifs. Si les coursives sombres de la galerie couverte du marché Nipponbashi conservent leurs alignements de résistances, de câbles et de diodes pour passionnés d'électronique, la voie parallèle adjacente, baptisée Ota Road (オタロード), s'est couverte d'enseignes monumentales consacrées à l'animation japonaise, aux mangas, aux jeux vidéo de rétrogaming, aux figurines de collection et aux jeux de cartes à jouer. Cette vitalité s'exprime également dans les salles d'arcade historiques et culmine lors du grand festival annuel de rue Nipponbashi Street Festa, durant lequel la grande avenue est fermée aux voitures pour accueillir l'un des plus importants rassemblements de cosplay en plein air du pays."
+      }
+    ],
     description: "Pendant occidental mythique du quartier tokyoïte d'Akihabara, Nipponbashi — universellement surnommé Denden Town (« la ville électrique ») — s'étire le long des avenues Sakaisuji et Ota Road au cœur de l'arrondissement de Naniwa. Né dans les décennies d'après-guerre autour d'un dense marché de composants radio et d'outillage électrique, le quartier s'est mué avec éclat en temple absolu de la sous-culture otaku, des mangas, du rétrogaming, des cartes à collectionner et des figurines d'animation. Moins policé et plus convivial que son homologue de la capitale, Denden Town regorge de minuscules boutiques spécialisées dans l'électronique de pointe, d'ateliers de robotique, d'immenses magasins de figurines étagés (comme Animate, Mandarake ou Kotobukiya) et de maid cafés traditionnels, constituant une étape emblématique de la culture geek japonaise.",
     visiter: "Arpenter l'artère centrale Sakaisuji pour dénicher des composants informatiques, du matériel audio haute-fidélité et des gadgets électroniques rares. Obliquer vers la rue parallèle Ota Road, véritable cœur battant des passionnés de pop culture, pour fouiller les vitrines remplies de milliers de figurines de collection en résine, de maquettes Gunpla et de mangas anciens. Explorer les salles d'arcade étagées de Taito Station ou Namco pour observer la dextérité des joueurs locaux sur les bornes de rythme et tester les machines attrape-peluches (UFO catchers). Chiner des consoles de jeux vidéo rétro légendaires (Famicom, Super Nintendo, Game Boy) chez Super Potato dans une atmosphère vintage unique.",
     link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
@@ -7540,7 +7645,65 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczPFEiery79fnVtCmd1-Qy066lD7PLLDvy2u6xP7rmZiPiX1wjeb6gvvX3MinxFMrMcU341yRkTqmO1FJs7fo8fc7No5j2MdmgOIVt5jwJXgKlZ01PTS-yj5VPCSihDMxPhzbG6e_eFOMc1iRINcQS4jJg=w1221-h919-s-no-gm?authuser=0",
     description: "Cœur incandescent, joyeux et démesuré d'Osaka, le quartier de Dōtonbori s'articule le long de son canal historique creusé en 1612 par le marchand Yasui Dōton pour relier deux rivières régionales. Devenu sous l'époque d'Edo le quartier attitré des théâtres de kabuki et de marionnettes bunraku, le secteur s'est métamorphosé en l'une des avenues gastronomiques et nocturnes les plus célèbres du globe. C'est ici que s'incarne avec panache la philosophie du kuidaore (« manger jusqu'à la ruine financière »), proclamée par des façades commerciales monumentales décorées de créatures géantes animées : crabe articulé géant de Kani Dōraku, pieuvres géantes, têtes de bœuf et dragons cracheurs de fumée. Dominé par l'emblématique enseigne lumineuse du coureur Glico franchissant la ligne d'arrivée depuis 1935 sur le pont Ebisubashi, Dōtonbori offre un spectacle visuel étourdissant où l'effervescence de la street-food côtoie les reflets multicolores des néons miroitant sur les eaux du canal.",
     visiter: "Rejoindre le pont piétonnier Ebisubashi pour prendre l'incontournable photo souvenir en mimant la pose victorieuse du coureur Glico les bras levés devant son écran géant. Flâner le long de la promenade basse aménagée Tonbori River Walk longeant l'eau pour admirer les reflets flamboyants des enseignes géantes et voir passer les bateaux de croisière urbaine. S'arrêter devant les étals de rue fumants pour déguster sur le pouce les grands classiques d'Osaka : des boulettes de poulpe brûlantes takoyaki nappées de sauce et de flocons de bonite séchée dansante, des galettes de chou okonomiyaki grillées sur plaque teppan, et des gyozas croustillants. Photographier la roue foraine ovale jaune géante intégrée à la façade du magasin Don Quijote dominant le canal.",
-    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
+    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB",
+    sections: [
+      {
+        title: "L'animation d'Osaka et les rives du canal",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOHip6hCsqheXyFOF_4SYdwkxdCPnQMqIRwTIcaNfmfBqHaYPkasRc8kXVeZo3L_ZVDOQIw0kmHO2dp3VBL5f5-txEx8zqcMsi9Gg3xxVKKcTl3Ib8iEgbwanBV2612Mw3SpvhyQ69Elsmi2oFDN0JQrg=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPoibsq-Yqo_cgLtJp1WYBevdS-4baXMFbdiHNtyxT38fGk8ZjkMEj_2WA112QzIygCdD2INkJKR0DVB3ENveRDFx8nNKaIXJUpT0_pMNm2-S7F9wCgDR8hymw9Tyf-vVz0Ip-1aqlJoqzaX6v8StJvnQ=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNZTtrMQDnQpxY60zZinQp_PL__NKYiPM7Xphfb8Xo6GiaCQnL0Ye6q1I9v_YtUM1FkKog4J3zB8bA9-8VYV3zR6D94pZrYBw1MaTIsmNxZjaHxHCuYWu5agL0HUivSKO3pR4pY2a6pinyoefNnswcp1A=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "Le quartier le plus animé d'Osaka."
+      },
+      {
+        title: "L'âge d'or des théâtres et du spectacle vivant",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNgla1OgEYTyyjm9HZMCq8V5GQhTLrbL7Pkha1R_S9DUWqnR9OlWqwUIZjIwlZj0m5OHQdbwy7hmlt1yQfICbUXMwwy8EQuWfuxX1Fk6tnVSXmon69HUYIDYl1xe1ATOGiVsePi-QyHGFYWt-40jjysaw=w1586-h893-s-k-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMg95wZcIpdHi0lw7JVVzlNJ_9uyhdVYa-oy1w3qa1ZsXpwpO3H2_hCHNr3XWzQQAi4idklQ_rRfCNYi9LWXxgHr5DZc2yo4uDrpV6Y-ivDWFi_V-GAdMgymRSxNi1QGV2Q2FRQeFcBl2qPKMM2Vx-DXg=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM4PyZ5nNOUDzlCjkqCULEbOSp7UgXYfxg04A2WQcEybSoFApYKmnVh2fi71gnxye5HeOtdfEQMD8h-haxk63yiavwz1bfBv7yyCGyqKoRGNvdfnIr8ok8tqDVBgL4yiAx_tx2GZWLwpS8p1ShrFuO2zA=w1586-h1193-s-no-gm?authuser=0"
+        ],
+        text: "Dès 1626, le shogunat d'Edo décréta la réorganisation urbaine de la cité et assigna la rive sud de Dōtonbori au rassemblement officiel des lieux de divertissement. Le quartier devint en quelques décennies le cœur battant du spectacle vivant au Japon grâce à ses cinq théâtres emblématiques (Dōtonbori Goza), dédiés au kabuki et au théâtre de marionnettes traditionnelles (bunraku). C'est sur la scène du célèbre Takemoto-za que le dramaturge Chikamatsu Monzaemon, souvent surnommé le « Shakespeare japonais », fit triompher ses tragédies domestiques tirées de faits divers réels, notamment Les Suicides d'amour à Sonezaki. Face aux théâtres, la rive nord vit s'implanter une profusion d'auberges, de salons de thé et de maisons de bouche chargées de restaurer les spectateurs, forgeant l'identité profondément festive et gourmande du secteur."
+      },
+      {
+        title: "Les enseignes géantes tridimensionnelles et le coureur Glico",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPFEiery79fnVtCmd1-Qy066lD7PLLDvy2u6xP7rmZiPiX1wjeb6gvvX3MinxFMrMcU341yRkTqmO1FJs7fo8fc7No5j2MdmgOIVt5jwJXgKlZ01PTS-yj5VPCSihDMxPhzbG6e_eFOMc1iRINcQS4jJg=w1586-h1193-s-no-gm?authuser=0"
+        ],
+        text: "Au fil de sa reconstruction après les destructions de la Seconde Guerre mondiale, Dōtonbori s'est métamorphosé en un théâtre urbain à ciel ouvert, mondialement réputé pour sa scénographie d'enseignes géantes tridimensionnelles. Sur les berges de la promenade piétonne du Tombori River Walk, les façades rivalisent d'audace populaire : le monumental crabe mécanique articulé de l'enseigne Kani Dōraku, déployé dès 1960 avec ses pinces et ses pattes en mouvement perpétuel, voisine avec d'immenses pieuvres rouges en plastique, des têtes de dragons sculptées et des gyōzas surdimensionnés. Sur le pont Ebisu-bashi, lieu de ralliement emblématique des supporters et des noctambules, trône le célèbre panneau lumineux du coureur de Glico (Glico Man), représentant un athlète franchissant la ligne d'arrivée les bras levés. Installée pour la première fois en 1935 pour promouvoir une marque de confiserie locale et aujourd'hui animée par plus de cent mille diodes électroluminescentes, cette silhouette est devenue l'icône graphique universelle de la ville."
+      },
+      {
+        title: "L'esprit du kuidaore et les saveurs de la street-food",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNDAVb5vUIiTYtdDEOCeLfPnL0STBdxvZzA-lSKBSKvZhGt7P8bR11pUd7HBDG6SVRXDEMh4L8pmr7O8Eb9Eqj9yVQZfVeqxMUi_wPbqn547Q0sL1TWBE2AojU311PCiUQ3bYAAqk6KWv6CPc16--wzvg=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMezImyww9k0PwqyZWmmvfpl-cA4-EuUvRVStEycgDgy7NUGAea4mCxwGcAozxDM5LiRyfcOeRgRaf5ZeNswlPn4OGEsDE9sdghrQ-KMSqBxMrztyYSy84EVhYnd1QK8nNAc0X9fKMQPdV-4EpOkc58Zg=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOqNuCR_FkmCBgy03tDY4EAKK1CYFuV8XFiVcywJZ-vFxBI7OcB2ZlKyYeJ_M5to_JsFFXjGOUtJpbJz4O3SQtKU_ejpNpm0v4VTS_u-U-SfpgK-_Sj88sJGKGUWXbCeZW00eZwNFV03yLW7QNgW4crGA=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMKjczgBATMC2uPmwYgzvQkvNod4qlultHolhuGAYrMduy8tTrO1zSH2REAKmLR_0bWSB8md_4eXcNJrcDNvdDEx3e_oay2dzPJCujigQJmMvCbHWd6hCXZsOJ1mhKs8uMh3gQ0_H5UWEe3cdO7rWupWQ=w1586-h2106-s-no-gm?authuser=0"
+        ],
+        text: "Dōtonbori est enfin le sanctuaire indétrônable de la philosophie du kuidaore (食い倒れ), cette maxime populaire propre aux enfants d'Osaka invitant à « manger jusqu'à l'excès » ou « jusqu'à la ruine financière ». Les passants y déambulent dans un nuage d'arômes de fumée et de sauces caramélisées, dégustant sur le pouce les deux piliers de la gastronomie locale : les takoyaki (boulettes sphériques de pâte moelleuse farcies d'un morceau de poulpe, nappées de sauce brune, de mayonnaise japonaise et de flocons de bonite séchée dansant sous la chaleur) et l'okonomiyaki (épaisse galette de chou blanc, de porc ou de fruits de mer cuite sur plaque chauffante teppan)."
+      },
+      {
+        title: "Kuidaore Tarō et figures du folklore d'Osaka",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMoSEtqo_mCrDwhMz0kJVILPLIzIf9dSkTGT5ncdE0HhWqr8wF21qoVFlfxKtr1HXHJKupen0ZLKkfDv_of6nyKuGiE90RsDQ6u8GpsyG5aelTfj8Bn95uiaW4durWKgD_eH4A8GqIZywTVkg4K_rNyhg=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOqzgswOIl85BjHn-SRL789_XHECXFZNRL4UxzqwQwME-Yq6BTON8GBAxfpExBr2Y2xG3UuTuhkA74Yazc1ddON-MMA-D1lQDpTRqvwwPI3o9_bOlSQOvmn-RM_yxDrVXtRK_-XjJmV46PLRnc3YUKfKw=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMpI1hVa208v0Ish2FklNMcsQXxX-LDgRdd-atQePsyw7VWFkwK03oRlqEJKrpDsqcNeXStH5QoTUASqlE0So2s0FuY0dG3p-kKLPcajfNGJStvMeXh9gzHSNNUMF2bIxZdB6QEOjfYlX_ByGQsGkpmPQ=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMwDGZRdLIoyjrpv51A7Dmtc2cYbKwU06M1Pya41JzvDFvke9tZjy5n321I2IwPugLGFPELI6c4Hf349IPrcTHgHG9JIPtaBrtWNdnoyOwJcot_uDG8eIaW5a4oL4aiWQ4jyLQSVEqcX6YiCefl3SWrfA=w1586-h1193-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNCEFFxKaa0ucw5EhtGlVEEPdNY0BZH8Oj7cCp4W_D06wZBNiY-4YNLKHcQ7Ooo4ZZTtDfwbCZFsgq72E77N1OsZKCW0pd76OsCZVLuKRxebSDTjAfCJj0qpazJS2o-IieAa25KreIlFArZsqyQXyeO4g=w1586-h1193-s-no-gm?authuser=0"
+        ],
+        text: "Cette gouaille populaire est incarnée par la figurine mécanique de Kuidaore Tarō, clown au costume rayé bleu et blanc battant inlassablement son tambour depuis 1949, survivant de la splendeur des anciens restaurants-théâtres d'après-guerre et vigie bienveillante de la capitale de la cuisine de rue."
+      },
+      {
+        title: "Vues complémentaires du canal et des ponts",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPmZATApW8hP4CoABWb4Zmqvp8YsDP6HLDAvr5aXeVRLnSxGKRrmMWil0Aw7TPG2QPV4a1XBcG6fajkfCDj7xjWpr_gmR0E7VcoOLqtIgRDt-BgGGSDksTxtPw2Wn_tSDhE0s6UH6Jw2Rl_K860k5mFGA=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNxzvG3kldb6krAv9O9yLEeDyoSbNHxC0Lhpf1mudlgT_Fy0G3bVjTl025v00ORxqX51e_NrJrsMl7rd53YbpfItaZezkFfK4-USbMxQt1-t-0FOKrpMrZG-haZoGlJYOUmt9M5b9Y2hdpld65-FfXerA=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPHwcO8YpisAGRtI3b3UmVx3w199-cuf88upwkDfdKK54p_K2lRdGKFy2EmK9caI87fJ_wEyZ0hz7GMQxJimVDBT6Nr-yO572SfAUpGLjXu7xLBkWvpPDHGltHMNTaeqQI3rStk7M6RVEDPtGDIK29PDQ=w1586-h1193-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN6y0CgXXgE2AO9iX340JSdD4_Wc7oF2wYSCUsYBYohtYcOb0VRUXwzA0XqjBflYE_wRZu0MBpvmhi5W776hu1MgZy7HKVVcNSckT2hb4hcVCUIPmrJaL6KAxsMtIMYaiZk9v5PzAdvq-I0szbn9FEzbQ=w1586-h2106-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "osaka_chateau_osaka",
@@ -7565,7 +7728,34 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczNbRchP53XPW3YfymBadHGqAI-_rlDcx2UgQfEx9pde66V8aiYZFcwWQ392dNg4s7NPz7xzzDffo3mbrF_lj7YfMB6LxMEWp1xyiFGRjFI_dy7OKMTmNze2Xo5YmrmCLSqSLddpbV6chfLVVYveQkFkog=w1379-h919-s-no-gm?authuser=0",
     description: "Symbole monumental de la puissance féodale nippone et de l'unification du Japon à la fin du XVIe siècle, le château d'Osaka (Osaka-jō) fut érigé à partir de 1583 par le grand seigneur de guerre Toyotomi Hideyoshi sur l'emplacement de l'ancien temple-forteresse Ishiyama Hongan-ji. Conçu pour être la forteresse la plus imprenable et opulente du pays, il présente un colossal système défensif composé de deux réseaux concentriques de douves monumentales et de remparts vertigineux bâtis à l'aide de monolithes de granit titanesques pesant jusqu'à plus de cent tonnes (comme la célèbre pierre Takoishi de trente-six mètres carrés). Détruit lors du dramatique siège d'Osaka en 1615 puis reconstruit par le shogunat Tokugawa, son donjon majestueux à cinq étages extérieurs et huit niveaux intérieurs s'habille de murs d'un blanc pur et de toitures vertes rehaussées de dorures éclatantes et d'ornements de carpes shachihoko en or massif, dominant un immense parc de plus de cent hectares planté de milliers de cerisiers.",
     visiter: "Franchir la colossale porte Otemon et longer les douves baignées d'eau calme avant de s'arrêter avec stupéfaction devant la pierre géante Takoishi intégrée dans le mur d'enceinte de la porte Sakura-mon. Pénétrer dans le donjon central rénové pour parcourir son riche musée historique exposant des armures complètes de samouraïs, des paravents peints retraçant la bataille d'Osaka et des lettres calligraphiées de Toyotomi Hideyoshi. Monter au huitième étage sur la terrasse d'observation extérieure panoramique perchée à cinquante mètres de hauteur pour embrasser une vue saisissante sur les douves, le parc arboré et les gratte-ciel de la métropole. Se promener ensuite dans le jardin Nishinomaru pour admirer la perspective magistrale du château se reflétant sur les eaux.",
-    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
+    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB",
+    sections: [
+      {
+        title: "Le siège d'Osaka et la reconstruction Tokugawa",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMo-E3SyqGG6SKXS_RBs5vhb_guaGWi-APEwHZhzQbvOwVFX1s56v8bsqyUpYB65Bi-tmrihYM5t6TVnUaoE2NBXHjKEFQslwnB1bXMhDwY4f1nnmEMlj2zYgIlvKzBNqs-_kD5fgkzv8bwBYM5Rzp-jw=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOLwD-tY8_TsNwWX5AtQurAXKK273zV8QzNP-NRtR0BAQbZPnQk39p-7ujWXTBtvQeqHaioyBIM1T6k-fQiM5bQGGDnVwikgQ_x0FQiHGAGIPddyAUmRBV21kdIfVJ7hsG347Y7sfyFWEbuj28HSwKrAw=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "Le destin du château bascula lors du tragique siège d'Osaka (1614–1615), ultime affrontement sanglant entre les fidèles du jeune héritier Toyotomi Hideyori et les armées shogonales de Tokugawa Ieyasu. À l'issue de la campagne d'été de 1615, la place forte fut livrée aux flammes, provoquant la chute tragique du clan Toyotomi et scellant pour plus de deux siècles et demi l'ordre militaire de la dynastie Tokugawa. Entre 1620 et 1629, le deuxième shogun, Tokugawa Hidetada, orchestra une refonte totale des lieux : soucieux d'annihiler la mémoire de son rival, le pouvoir shogonal fit ensevelir les fondations et les ruines primitives sous plusieurs mètres de remblai, avant de reconstruire une forteresse encore plus massive aux murailles plus élevées, enduites de chaux blanche. Frappé par la foudre en 1665, le donjon des Tokugawa partit en fumée, laissant le château orphelin de sa tour maîtresse pendant plus de deux siècles et demi, tandis que les incendies de la guerre de Boshin en 1868 détruisirent la majorité des casernes et des dépendances subsistantes."
+      },
+      {
+        title: "Architecture défensive mégalithique et la pierre Takoishi",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP0PXH_d5tXSfw-i0ecT3bi16TShkpAvst1ZsGVzMm9nEVDLsozACY6KX8o2r4aQF8m9e8S-Gt5pTEqyrmyWSKII4dYeCEfKtXsHGC6FUFTONPq2J5bDqH3Sz6OdoTMSP6U-EkgrOl8RTMEjUZTsY5Jxg=w1586-h2380-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP5NLkZGcZ7tzn1SULvigS_lpE0xFuLEzMMJ55fEvn52t7D_zud7bF_SMr1FleD6hX-3DpquoNIF4gYoGG9f6f6L5B9CT9LBAO724gG4llfwl08Sex3Sbayt27umhzRH66h7oR28FL7G7rPRXYf3MV0mA=w1586-h2142-s-no-gm?authuser=0"
+        ],
+        text: "La prouesse architecturale majeure du domaine réside dans son imposant appareil défensif mégalithique. Les douves intérieures et extérieures, parmi les plus larges et profondes du pays, sont soutenues par des remparts vertigineux taillés sans mortier selon la méthode uchikomi-hagi. Ces murailles intègrent de colossaux blocs de granit acheminés depuis les carrières de la mer intérieure de Seto aux frais des seigneurs vassaux soumis à la corvée d'État. Près de la grande porte Otemon s'élève la célèbre pierre du Poulpe (Takoishi), le plus vaste monolithe de la forteresse : s'étendant sur près de soixante mètres carrés de surface pour un poids évalué à cent huit tonnes, elle tire son nom d'une silhouette de céphalopode dessinée par les irrégularités naturelles de la roche. Treize édifices d'époque d'Edo ont miraculeusement survécu aux destructions et aux bombardements aériens de la Seconde Guerre mondiale, notamment la monumentale porte-tourelle Tamon-yagura et la tourelle Sengan-yagura, remarquables postes de guet conçus pour croiser les feux d'arquebuse sur toute troupe franchissant les barbacanes."
+      },
+      {
+        title: "Le donjon Tenshu moderne et le parc arboré",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPuNMesN76xKK6ySB3DuPv7TAyuuw7R7oh5wTx36phSEynOH8i8AJ20B0ba6E1SkuegVpS0Huyq5WZmzg9Q7L9ALVPme5C4AGT3iE58W8D1E2kp8eAPKWBy1F4kJdI0mSA3vBQlmt_kEXBPZS4VKU1m2g=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP7mEkpxiMB1kX-SviMEcGLi6Ciq9VusDScSkhhn9Z_CyPXznPdhbFiTbAROY5A-P_304_sK55B_e6sR4pNN7ZV2vvs-JfOf1hJieiadTuFoyYJ1-2tlTmBrHaVkewHyAmGTPkDDITDk7SOKx5lwCo5Uw=w1586-h2380-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNbRchP53XPW3YfymBadHGqAI-_rlDcx2UgQfEx9pde66V8aiYZFcwWQ392dNg4s7NPz7xzzDffo3mbrF_lj7YfMB6LxMEWp1xyiFGRjFI_dy7OKMTmNze2Xo5YmrmCLSqSLddpbV6chfLVVYveQkFkog=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "Le grand donjon actuel (Tenshu), s'élevant à cinquante-huit mètres de hauteur, est le fruit d'une mobilisation civique sans équivalent achevée en 1931. Entièrement financée par les souscriptions populaires des citoyens d'Osaka, cette reconstruction novatrice en béton armé a fidèlement restitué l'apparence extérieure somptueuse du donjon primitif de Toyotomi Hideyoshi, avec ses toitures à cinq niveaux rehaussées de gargouilles carpes-tigres en bronze doré (shachihoko) et ses frises de fauves bondissants peints à la feuille d'or sur fond noir. Rénové en profondeur à la fin des années 1990 et abritant un musée d'histoire dédié aux guerres féodales et au règne de Hideyoshi, le donjon domine un parc arboré de plus de cent hectares planté de milliers de cerisiers et d'abricotiers, offrant un contraste saisissant entre la majesté guerrière du XVIe siècle et la ligne d'horizon des gratte-ciel contemporains d'Osaka."
+      }
+    ]
   },
   {
     id: "osaka_quartier_nakazakicho",
@@ -7590,7 +7780,33 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczMN3GQOtPfHENPX7XtXfJ1JLpqeAhZYRK5YbF7beqE6gbWmL9O201TzlDqFsGO-wgterMgE6TNhM_jy6IFs30-RzZuYsXBssXJz_Ii9_DvNVMfpOiTDH0vIV3z1NCzT2rYERyy4T9P2rBLt5vh93zWC6w=w1379-h919-s-no-gm?authuser=0",
     description: "Miraculeusement épargné par les intenses bombardements de la Seconde Guerre mondiale qui rasèrent la quasi-totalité d'Osaka, le quartier intimiste de Nakazakichō constitue l'un des rares témoins authentiques de l'habitat populaire urbain des ères Taishō et du début Shōwa. Niché à quelques minutes de marche des gratte-ciel vertigineux de la gare d'Umeda, ce dédale de venelles piétonnes étroites bordées de maisons traditionnelles en bois (machiya et nagaya) a trouvé une seconde jeunesse artistique et bohème. Sans dénaturer l'architecture d'époque aux façades patinées, aux tuiles anciennes et aux enchevêtrements de câbles électriques aériens, une communauté créative de jeunes artisans, stylistes et restaurateurs y a aménagé des galeries d'art indépendantes, des cafés rétro feutrés, des librairies d'occasion et des friperies vintage, créant une oasis de calme et de poésie urbaine hors du temps.",
     visiter: "Se perdre au hasard des venelles sinueuses et silencieuses en observant les détails des façades d'époque, les pots de fleurs disposés sur les pas-de-porte et les chats de quartier somnolant à l'ombre des toitures basses. Pousser la porte coulissante en bois d'une ancienne maison mitoyenne nagaya réhabilitée pour déguster un café filtre artisanal ou un gâteau maison dans un salon rétro aux poutres apparentes meublé d'objets chinés. Explorer les boutiques d'artisanat indépendant, les ateliers de créateurs textiles et les concept-stores de vêtements vintage disséminés dans les cours intérieures, offrant une respiration douce et bucolique en contraste absolu avec le gigantisme moderne du pôle d'Umeda tout proche.",
-    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
+    link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB",
+    sections: [
+      {
+        title: "Architecture vernaculaire et maisons nagaya",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMPs2XAsIO5_6zjCJ2KEsdUiibcBa6kOArq4uVmkFm05oDRBsOkh-qFzweVOztACHinW4XzCASl-ajNG19yTzAroi-Bha0KhrKo2daQkTTi-tTjCDJ5Ao9rFiXLqpp6CU5hfpKvhlkf15fRUxTGC1WNng=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMhfCXiYeWI1_jR3L6dyU0o2ChEjAGbkdH_ta_Tr-lPuaZri9ZiOl7EOyZYuD_yjOM6FGsAdlbW_JB2PH0_jBUYN31sz3xcFIcHdOEO_MYbAydQzpSS0odGOYJHIhgyprBiauhhDUtcKBmS6ZVRsDfEmQ=w1586-h2106-s-no-gm?authuser=0"
+        ],
+        text: "L'identité architecturale de Nakazakichō repose sur la concentration exceptionnelle de ses maisons mitoyennes en bois (nagaya), édifiées entre la fin de l'ère Meiji, l'ère Taishō et les premières décennies de l'ère Shōwa, principalement durant les années 1920 et 1930. Ces habitations traditionnelles d'artisans et d'ouvriers, conçues selon une charpente légère de poteaux de cèdre et coiffées de toitures en tuiles sombres vernissées (kawara), témoignent du mode de vie communautaire de la ville basse d'autrefois. Leurs façades patinées par les décennies arborent des treillis de bois ajourés (kōshi), des portes coulissantes vitrées et des enduits de terre crue ou de plâtre patiné par près d'un siècle d'intempéries."
+      },
+      {
+        title: "Renaissance bohème et préservation patrimoniale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMWz5E8_SGJvFNgr9Ai2NoIAJlH26JnefbEae21BHDB7EAZ_EX3pDDF8q82rHewy8gj9Ql9jaCM3P0TMI8NYSERAGEuUbaj8lej5c3a6T9ALNIiweVqxb0JilX_dA_A8KTt-HMSlqvFi7AXMWaG1anG4w=w1586-h2380-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMdMA8-5ZVi7eZYz5FJFYcnMDoWylstMGgQwByMhWCyyERERpev96u777NwgRdqErVlMEiUxz3Nk1NUuV5aNw2LUYBH8f8XChLqgQpuBxLI6GG3nUbQeaM1h7JmB338LnecDYab_fxFR2zngr4Qk6nLYg=w1586-h1193-s-no-gm?authuser=0"
+        ],
+        text: "Promis un temps à la démolition spéculative durant la bulle immobilière de la fin du XXe siècle, le quartier a trouvé son salut à partir de la fin des années 1990 grâce à un mouvement spontané de réhabilitation patrimoniale mené par de jeunes créateurs et des amoureux d'artisanat. Plutôt que de détruire ce patrimoine vernaculaire, ces résidents ont restauré les intérieurs avec un soin méticuleux, conservant les piliers d'origine, les plafonds à solives apparentes et les vieux tatamis pour les reconvertir en salons de thé intimistes, ateliers de céramique, galeries d'art indépendantes, friperies vintage et échoppes de bouquinistes. Ce contraste saisissant entre la nostalgie émouvante de l'ère Shōwa (Shōwa retro) et l'effervescence créative contemporaine fait de Nakazakichō le sanctuaire bohème d'Osaka, offrant un éloge de la lenteur face au vertige futuriste des gratte-ciel voisins."
+      },
+      {
+        title: "Atmosphère des ruelles et perspectives intimistes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMN3GQOtPfHENPX7XtXfJ1JLpqeAhZYRK5YbF7beqE6gbWmL9O201TzlDqFsGO-wgterMgE6TNhM_jy6IFs30-RzZuYsXBssXJz_Ii9_DvNVMfpOiTDH0vIV3z1NCzT2rYERyy4T9P2rBLt5vh93zWC6w=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP-CQKjbK-ZzH2I_6963KLl69Z4qENFBWD5qSBdH_xqH04O-i20hcVe3QApHEXi_oqkkC2RMbs5va4VLtUfHnTbPG7qZmwUdXMSXNUnlsl4wji2SoEx_BgbPcTw-pwZTZXtFM0sJDLfAYTnhJJ0p9BlkQ=w1586-h2106-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "osaka_nintendo_store_daimaru",
@@ -7613,6 +7829,16 @@ const travelSpots = [
     lat: 34.702154,
     lng: 135.496644,
     image: "https://lh3.googleusercontent.com/pw/AP1GczN7sm_BAmQzZzLa4sHaFJW7DKbtIA3u3TvgLMaWKIAz98z8UsSQnyAn2cDBz5Y8kskZ-JQi7Uo5XOodudmKfjwv9h8-0r7wg0b9hXorXqGQbJt6UQvo-R4wDE-Z1fOALOjw4h7VXhO_aOSZploTdg_FQQ=w692-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNvBckjUuxJfnwiGYQT2B-PU5XuGRKNjMHYk8LYUwCL0KwkyhYjw6-abDN9D_2w4daCQHJ2ijMoC4prkelW7tZTOtw7dIkRyvp99b7C_H7GZoNiEurEHqbpyuRBzhFb9G3FTF2LctngB77edVN4l-A-8A=w1586-h2106-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPaSI-CfzSwxlXd2wFWq0joEuYaSwWA4CqxQPhrjsb9DAooU75eNi2WkXZS1WxY9xQrR3dGLTRQjSOLuCZZaPzgnHAX2ftFeZFVtNxuWFe8gBVAGxRB2nTJ9DLwsXBya2Tz3Ote2cmmyPMgA9ZZdDyzwA=w1586-h2106-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Temple officiel de la culture vidéoludique contemporaine situé au 13e étage du grand magasin Daimaru Umeda au cœur du complexe de la gare d'Osaka, le magasin Nintendo OSAKA s'impose comme le deuxième magasin officiel de la firme historique ouvert au Japon après celui de Tokyo. Inauguré fin 2022, cet espace immersif ultramoderne célèbre l'univers des franchises légendaires créées par l'entreprise kyotoïte fondée en 1889 : Super Mario, The Legend of Zelda, Splatoon et Animal Crossing. Flanqué du gigantesque Pokémon Center Osaka adjacent et de corners dédiés à Capcom et One Piece, cet étage concentre le sommet de la pop culture et du divertissement graphique japonais. Baigné de musiques orchestrales familières tirées des jeux et rythmé par des écrans interactifs diffusant des animations exclusives, le lieu attire passionnés de gaming et collectionneurs du monde entier en quête de pièces exclusives introuvables ailleurs.",
     visiter: "Prendre les ascenseurs rapides du grand magasin Daimaru jusqu'au 13e étage pour être accueilli à l'entrée de la boutique par de spectaculaires statues géantes grandeur nature de Mario sortant d'un tuyau vert, de Link bandant son arc et des Inklings de Splatoon. Parcourir les allées éclatantes pour découvrir les milliers de produits dérivés exclusifs estampillés du logo rouge Nintendo : figurines de collection de haute précision, vêtements urbains, papeterie créative et vaisselle thématique. Prolonger la visite dans l'espace voisin du Pokémon Center Osaka pour saluer les grandes statues de Pikachu et des Pokémon de départ, explorer les rayons de peluches géantes du Pokédex national et découvrir les vitrines de cartes à collectionner officielles.",
     link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
@@ -7638,6 +7864,20 @@ const travelSpots = [
     lat: 34.705577,
     lng: 135.490207,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNsw29mZXnjY41aa8zweJYPli_niONPvB4J5zM0h118wA2Yv1ywz6jseCrN6D0BOwSne1HR20bOCmBouM0_9GyYFHLG9kYfLNcG4w7nTadsMy20D_6Q8MNZoNLdibXLw9OTUui6nM9iGRG5yPCgqCYFSw=w735-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMIEklDBroyIubcwSHqqTzfkPSnX_He59UeiQVIXDz9osDCN0K383puzXNRBsKspdHemLIJtHigNx2Cgqr3fK8MJKEiX-qHVL45Q6ZtpgXVsQBKYdy1ChXKHaJV9o8wTvod7_INA6L5oKHd5eAiP5xkAA=w1586-h1193-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM8ranjEFznJfhcLt2gF2tD9Cj26d44EzMKBwGNywjAsDqs-JLcyDgHjytXTES0kjKeTMNsLWdtZH0U2EiyzMNSuUzszhi5ZmD_MWTtEHEjBtx7nRFGlcTLSKWTN7J7j8XtNFlQXzj2eujKdzCCcDb-dA=w1586-h2106-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNHV63ijQ3KCLG_5sSFqBLysHToEvX2iNdGz4VpSn4JeTL4MtPvFapqJHlTOTgM0Em2RMPiPF_VWmDVjgbjwOYx1RDjFACTH5Sl0VjbTx4OXcuot4FfPYlF6qV5tFcuHWPAFr3Y1HrJ25k6j_jj6lGlVQ=w1586-h2106-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Chef-d'œuvre audacieux de l'architecture rétrofuturiste internationale conçu par le maître Hiroshi Hara et inauguré en 1993, l'Umeda Sky Building dresse sa silhouette monumentale de 173 mètres de hauteur dans l'arrondissement de Kita. Composé de deux tours jumelles de quarante étages entièrement revêtues de verre miroitant reflétant les variations du ciel, l'édifice est couronné à son sommet par une plate-forme circulaire spectaculaire : l'Observatoire du Jardin Flottant (Kuchu Teien). Véritable exploit d'ingénierie parasismique, cette structure annulaire d'un millier de tonnes fut entièrement pré-assemblée au sol avant d'être hissée dans les airs par de puissants vérins hydrauliques. Relié par d'incroyables escaliers mécaniques tubulaires suspendus dans le vide spatial entre les deux tours, l'édifice offre un panorama à 360 degrés sans vitre sur toute la métropole d'Osaka, le fleuve Yodo et la baie d'Osaka s'étendant jusqu'à l'île d'Awaji.",
     visiter: "Prendre les ascenseurs vitrés à grande vitesse filant le long de la façade extérieure jusqu'au 35e étage, puis s'engager dans l'impressionnant escalator tubulaire suspendu dans le vide traversant l'atrium central entre les deux tours pour accéder au dôme de l'observatoire. Franchir les portes vitrées du 40e étage pour accéder au Sky Walk, terrasse circulaire à ciel ouvert unique au monde où l'on ressent le souffle vivifiant des vents d'altitude en admirant la vue panoramique circulaire sur l'océan urbain de gratte-ciel d'Osaka, les ponts enjambant le fleuve Yodo et le coucher de soleil flamboyant sur la mer intérieure. À la nuit tombée, contempler le sol de la passerelle extérieure incrusté de particules phosphorescentes créant l'illusion d'une voie lactée lumineuse sous les pieds, avant de descendre au sous-sol dans la rue commerçante Takimi-koji reconstituant avec nostalgie une venelle d'Osaka des années 1920.",
     link: "https://photos.google.com/u/0/share/AF1QipP-qVxbxRbghKHs7bMWHS2EmJjssopfxJKsOzRgMq7x08PnWRd26GUfh1KFjqkFLw?hl=fr_CA&key=aEc0YUZYT1pwMDFDZ3hMWFdrWVFURDhXbXpDeWxB"
