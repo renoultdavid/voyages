@@ -5605,6 +5605,8 @@ const travelSpots = [
           "https://lh3.googleusercontent.com/pw/AP1GczOcCYJjFzWCaT-W31CTGkBocYHAUWRl5aInxZ8MCAb58xHPWKhtCcOTtujD31gEh1IYcJPX0YlJwP_gchn-50PMEe1_GUi_fmUmtglDy0NlIjKHenTfuS1qjlvxao2xIEs-xI8KrR7yrmnJEULuEyrFHQ=w1221-h919-s-no-gm?authuser=0"
         ],
         text: "Plus bas sur l'estran, au pied de la digue sud, la fontaine de dévotion du XVIIIe siècle offre une singularité hydraulique captivante : semi-submersible, ce petit édicule en pierre surmonté d'un fronton et d'une statue du saint patron est entièrement recouvert par la mer à marée haute et ne réapparaît qu'au jusant, laissant s'écouler son eau douce miraculeuse que les fidèles recueillaient traditionnellement pour soigner les affections de l'ouïe et protéger les marins bravant la barre d'Étel."
+      }
+    ]
   },
   {
     id: "belz_ilot_nichtarguerc_maison_bleue",
