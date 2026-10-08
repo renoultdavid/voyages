@@ -6956,6 +6956,28 @@ const travelSpots = [
     lat: 35.139581,
     lng: 136.089297,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOJc-FIzuk0-DaCirDcdU_WI2IVGla2SOH2sCiRim-_asRqEfiM3Ti2c60as7LNZ6dRdOvkpcbHyvSSMTsKD2nvcALMAttxIJP8cbcpkQVTWQstqbqm9knG9gpZAou6qYc_XAXpvmTOh0Qg5RhK3f4A9g=w2570-h1714-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOCiQzfVofNMQdwCzRclcBQhZ2hgkAJFgZ3R4yvZzZoyIwZT7_lBGV8gSfBmqdDvxpnZjQt3UQ1JirVSNEK6947GFQnMz5zvksXLTJewkzRWCFQGvW9jqJSeyPsjqJuVA5K9qOcNsGWPW0bCv-her7JUA=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP0S4FURL9gsTES-X_cDTzOMswiexiBAqjAXuKBuX_JYp0IWooJ-tfVMJH_34Es9zZtPG71qSMcLGd1FygmjJOEFw7H4XP62yykLAPlqPkvHtPzjgBkchxQz4H5uN_5z-Gdirv2Bi-TNkGrtCxoqkICsA=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOmp6H35-ZmR_xZjY_lza0WvXM28qu9MGIWudnrItRKzUpJ7DOUFyeVGIGOo4wf2BYlXbzM_YqH0noiEtsPnqbCCqmdgMiQVaNtpzshMm2dpaztzLWU27vOCe4teBB-Wr-QcdUTgxScMC-rbL-TcKHgdg=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM22k2VBbkxLIW93kF-OhJc43dLCYJ_aUNV0itYiFh3wAlm4DEQc-r0lZHFZ4BOD9HY2oh3442ubCIig25jwvFCwJ5UgJhL9HZViVuZLu4qt8H8KgePYs1b7Ory6oSzuXo9XzdNkulDMMQGYnoRCmsdWw=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPQ28kZ1qCz0LFMzVrkmxFdauUDHoXy2aeqEzSHvn31gf_2uVZXQfkyX59x_fZj0mbLB-DNQvRv7ppYwj04TGNSdfelBULRaUovVbW8mO8MurmYHDRUf3fTECq0LZ0G4PH4s-Q-UtAl_Hce9smkm_WhzQ=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Cité marchande féodale remarquablement préservée au bord du lac Biwa, Ōmihachiman fut fondée en 1585 par Toyotomi Hidetsugu (neveu et héritier de Toyotomi Hideyoshi) autour de son château érigé sur le mont Hachiman. Pour stimuler l'économie locale et attirer les corporations artisanales, le seigneur fit creuser le canal Hachiman-bori, reliant directement le système de douves castrales aux grandes voies de navigation marchandes du lac Biwa. Devenu le berceau des célèbres marchands d'Ōmi (Ōmi shōnin) réputés dans tout l'archipel pour leur philosophie éthique du sanpō yoshi (« bénéfique pour le vendeur, pour l'acheteur et pour la société »), le quartier aligne le long de ses voies d'eau et de ses ruelles pavées de magnifiques entrepôts aux murs blancs de torchis (kura), des résidences de négociants en bois sombre et des treillis en cèdre ajouré. Classé District de préservation pour un groupe de bâtiments traditionnels d'importance nationale, ce paysage fluvial bordé de saules et de cerisiers a servi de décor authentique à d'innombrables drames historiques et films de samouraïs (jidaigeki).",
     visiter: "Descendre le long des berges pavées de pierre moussue du canal Hachiman-bori pour une promenade contemplative sous la frondaison des saules pleureurs et des cerisiers, en observant les barques traditionnelles en bois manœuvrées à la perche glisser sur l'eau calme. Remonter vers les rues historiques Shinmachi-dōri et Nagaharachō pour admirer l'architecture marchande des XVIIIe et XIXe siècles, notamment les anciennes demeures familiales Nishikawa et Ban avec leurs cours intérieures pavées et leurs lourdes portes de grange renforcées de ferrures. Goûter dans les auberges traditionnelles du quartier à la gastronomie locale réputée, en particulier le bœuf d'Ōmi fondant (l'un des trois plus prestigieux bœufs wagyu du Japon) et le konnyaku rouge cuisiné selon les recettes séculaires des marchands féodaux.",
     link: "https://photos.google.com/share/AF1QipP4X1fpqf0Y75EKuQyXJmdRL1FfTrdSw6HPtP8GppT73g28sBneQrPCduKFTdpkgw?key=NWpYc1JIM2NabXFEeFJ1dGY2RGZXX3pEcENrVldB"
@@ -6981,11 +7003,21 @@ const travelSpots = [
     lat: 35.140797,
     lng: 136.089397,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNQYqh6Q22TL-ynyTAzwE9FJ4g-HlGpiuBz6gB2uS3_c9Z0-gTa7t2O5fpB0iYGvj9_7mbTkiB7B1TXpF_lRuzQ6knHB8veaTwqzDYLFwxmy2zrMQwuqQ_dOdP6QR0k4XY7r4c_AVkWWTCG62zVaEfrjg=w2570-h1714-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOH0Pb7FS1Mb2P_RtMJIrp2_5T6eM-sgbixqtBgEY4Cs6W-TTKuUpxgg-4GHeFvTw7_otTWp_V8b8DNRhp7vMa-TTMYAdLo8clR4w35x-2qKdYpSShteuzhQBIMVuooGhcb_vCbKXJFscvBsXnt_NliIA=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMiyWs7DiCeiv255WX-Z-M4mIxsJ8c6R1dKeer6DZBA9K9tBi61HDv41MNU9J9G-Ug25jkwBe4GIOZCoIHepuI5DIhX1bafsj6jUMpspXRey5xq_n8BRL7k43yRYu0EK3qT2S9SYhK9ubd3ufDGH5RHRQ=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Écrin spirituel majeur et cœur sacré de la cité, le sanctuaire shinto Himure Hachimangū étend son enceinte solennelle au pied du mont Hachiman, au débouché direct du canal historique. Selon les chroniques légendaires du sanctuaire, son culte remonterait à l'an 131 sous l'empereur Seimu, avant d'être officiellement refondé en 991 par l'empereur Ichijō qui y fit transférer les divinités tutélaires Hachiman (Honoré sous les traits de l'empereur divinisé Ōjin, de sa mère l'impératrice Jingū et de la déesse Himegami). Vénéré durant des siècles par les samouraïs de Shiga comme protecteur des armes, le sanctuaire devint sous l'ère d'Edo le patron spirituel absolu des marchands d'Ōmi, qui lui firent don de somptueux bâtiments en bois brut et d'émouvantes tablettes votives (ema) peintes illustrant leurs navires marchands naviguant jusqu'au Siam et en Indochine. Le sanctuaire est le théâtre de deux des célébrations les plus spectaculaires du Japon : le Sagichō Matsuri en mars (défilé de chars géants incendiaires couronnés de sculptures comestibles faites de céréales) et le Hachiman Matsuri en avril avec ses monumentales torches de roseaux embrasées la nuit.",
     visiter: "Franchir le monumental torii de pierre bordant les eaux du canal Hachiman-bori et emprunter la chaussée ombragée de cèdres géants et de lanternes votives conduisant au cœur du bois sacré. Pénétrer sous l'imposante porte à étage Romon aux boiseries patinées pour accéder à la cour intérieure dominée par le hall de prière Haiden et le sanctuaire principal Honden aux toitures courbées en bardeaux de cyprès hinoki. Observer la riche collection de tablettes votives en bois suspendues sous les galeries, dont les célèbres peintures navales d'Annan-sen offertes par les marchands d'Ōmi au XVIIe siècle. Juste à côté de l'entrée du sanctuaire, emprunter la cabine du téléphérique Hachimanyama Ropeway pour s'élever jusqu'au sommet du mont Hachiman afin de contempler les vestiges du château féodal et un panorama grandiose embrassant toute la plaine agricole, les toits d'Ōmihachiman et l'immensité miroitante du lac Biwa.",
     link: "https://photos.google.com/share/AF1QipP4X1fpqf0Y75EKuQyXJmdRL1FfTrdSw6HPtP8GppT73g28sBneQrPCduKFTdpkgw?key=NWpYc1JIM2NabXFEeFJ1dGY2RGZXX3pEcENrVldB"
   },
-   {
+  {
     id: "uji_temple_byodoin",
     name: "Uji - Temple Byōdō-in (Pavillon du Phénix)",
     country: "Japon",
@@ -7004,12 +7036,46 @@ const travelSpots = [
     category: "religieux",
     unesco_name: "Monuments historiques de l'ancienne Kyoto (villes de Kyoto, Uji et Otsu)",
     counts: {},
-    lat: 34.889300,
+    lat: 34.8893,
     lng: 135.808105,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOd8QW-gl2UMmNAznVXY3EosuXVZfBOY176IuvGeH9VMLxVqAB79GVsr-Ntl1989ATZoDKt0vZG7F14tFzGqNCWLvm_xAw76XEUDEN_5Ub5upjL0wARoklKW3B0ik3KasSCsbDszrbuyoLxnJvm_VNX-w=w1379-h919-s-no-gm?authuser=0",
     description: "Joyau suprême de l'architecture aristocratique de l'époque de Heian inscrit au patrimoine mondial de l'UNESCO, le Byōdō-in fut fondé en 1052 par le régent impérial Fujiwara no Yorimichi, transformant la somptueuse villa de villégiature de son père Fujiwara no Michinaga en sanctuaire bouddhique de l'école Jōdo. Conçu pour matérialiser sur Terre le paradis occidental d'Amida (le Gokuraku Jōdo), son célébrissime Pavillon du Phénix (Hōō-dō) — édifié en 1053 au cœur d'un étang en miroir — constitue l'une des structures en bois les plus emblématiques de l'archipel, immortalisée au revers des pièces de dix yens. Sa silhouette aérienne évoque un oiseau mythologique déployant ses ailes, couronnée sur les faîtes de sa toiture par deux phénix dorés en bronze protecteurs. Unique rescapé des incendies guerriers du Moyen Âge féodal, il abrite l'ultime chef-d'œuvre authentifié du sculpteur génial Jōchō : un monumental Bouddha Amida en cèdre doré à la feuille trônant au milieu de cinquante-deux délicats bodhisattvas célestes musiciens sculptés flottant sur des nuages de bois ajouré.",
     visiter: "Contempler depuis la rive orientale de l'étang Aji-ike le reflet parfait du Pavillon du Phénix étincelant sur les eaux calmes, bordées de glycines centenaires et de pins nains taillés. Traverser les galeries pour pénétrer sous la nef centrale du Hōō-dō lors d'une visite guidée intimiste, afin de contempler dans la pénombre sacrée le colosse doré d'Amida assis sur son socle de lotus et lever les yeux vers le dais céleste incrusté de nacre et de miroirs de bronze. Descendre ensuite dans le musée ultramoderne souterrain Hōshōkan, intégré sous les pelouses du parc pour ne pas altérer la perspective historique : on y admire de près, sous un éclairage muséographique d'orfèvre, les phénix en bronze d'origine du XIe siècle classés Trésors nationaux, la cloche du temple aux reliefs bouddhiques d'une finesse inouïe et la ronde poétique des bodhisattvas musiciens volant sur leurs nuages.",
-    link: "https://photos.google.com/u/0/share/AF1QipNcBDwJne8WYN3fxz95yYuT5nTGt3RMeN2Jlh3mkixzbpQa6HsuiTsCuM6ISi0Veg?hl=fr_CA&key=ZXp1SWVCZG5VX0lPd0dhRzg0VkhsdlBaR0ZHemZ3"
+    link: "https://photos.google.com/u/0/share/AF1QipNcBDwJne8WYN3fxz95yYuT5nTGt3RMeN2Jlh3mkixzbpQa6HsuiTsCuM6ISi0Veg?hl=fr_CA&key=ZXp1SWVCZG5VX0lPd0dhRzg0VkhsdlBaR0ZHemZ3",
+    sections: [
+      {
+        title: "Architecture sculpturale du Pavillon du Phénix",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNFu6DKC5dcO45PkZcHdmg7gFp-Xjep4AXkzctH6H9Gjyc0KAO4cltg2vjB1ROUZCJEIZzxyDyKJRfE_h_O1mLf8TdPE_zYOFKbdUZhVP6CzYsbUsWVbR-1FksG7rx6LGugvjAg-pAumWtx3DmbDXDWKA=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMoVIPtguL-G84K6uuSJoPEQ7PAXD4xeOA6gxRgRUZ0XS1Ou2kA9p9lUWhhMPOwwXd3nFK3h710sHzDwOwgE-fvmUAcBVSmquE9X5ULPrIRGHIcfXpja-8jugls2-yESJ6OA_kRpl8OZXnToRT71L_A1w=w2002-h1334-s-no-gm?authuser=0"
+        ],
+        text: "Dès 1053, Yorimichi fit ériger au cœur du domaine le chef-d'œuvre architectural du complexe, le pavillon d'Amida (Amida-dō), universellement célébré sous le nom de Pavillon du Phénix (Hōō-dō, 鳳凰堂). Cette dénomination poétique renvoie à la fois aux deux oiseaux mythologiques de bronze doré qui déploient leurs ailes aux extrémités de la toiture faîtière et à la silhouette générale de l'édifice lui-même, conçue pour évoquer un phénix majestueux se posant délicatement au bord de l'eau. La composition spatiale se déploie de manière parfaitement symétrique autour d'un grand corps central (Chūdō), flanqué de deux ailes latérales à galeries aériennes à double niveau en forme de L (Yoku-rō), et prolongé à l'arrière par une longue galerie de queue (Bi-rō). Délibérément non conçues pour un usage fonctionnel d'habitation — les galeries d'ailes étant bien trop basses et dépourvues de plancher continu —, ces structures purement sculpturales servaient à créer un jeu aérien d'ombres et de transparences, donnant au pavillon l'illusion de léviter au-dessus du sol. L'édifice a miraculeusement réchappé à tous les incendies de guerre qui réduisirent en cendres le reste du vaste complexe monastique en 1336, demeurant le seul bâtiment en bois de l'époque de Heian à être parvenu intact jusqu'à nos jours, ce qui lui vaut d'être classé Trésor national, inscrit au patrimoine mondial de l'UNESCO parmi les « Monuments historiques de l'ancienne Kyoto », et immortalisé sur les deux faces de la monnaie japonaise courante (la pièce de dix yens pour la façade du pavillon et le billet de dix mille yens pour les oiseaux de bronze)."
+      },
+      {
+        title: "Jardin de la Terre Pure et étang Aji-ike",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMmlL6ehvULIwuGtEd1IBMtJfXrej7NFT4MDMfZ4OMUpv7bzorY4V752gtoIrzdFAZYKstZZqPbCY8bxSU-XG94JO-dF8PF9PqtzL5QICvJPoE-2CCGXzSyH2mT8lVdN_aUFfThtkKxb60EdF6v1d2Y3A=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNd6X9VGeye2CMpihtMrfD4B-nUiMHukHIjZ4IZk9SK8el-7XdANwKm6qYJKq-s6QCcyZi4imrcg0Ck-YSW5hm_WQOonLbjgWz6AHk6wmvSbMd0PaWID61JJHaBX7nghjp4kEdg0Ax4wAf49rb73zXSQg=w2002-h1334-s-no-gm?authuser=0"
+        ],
+        text: "L'écrin végétal et aquatique du temple est structuré par son célèbre jardin de la Terre Pure (Jōdo-shiki teien), articulation paysagère novatrice conçue selon les canons de la géomancie chinoise et des descriptions sacrées des soutras. Le Pavillon du Phénix est édifié sur une île centrale au milieu d'un vaste étang en forme de croissant de lune (Aji-ike), directement relié aux eaux vives de la rivière Uji. Les pèlerins et fidèles contemplaient le pavillon depuis la rive orientale de l'étang en regardant vers l'ouest, direction sacrée du paradis d'Amida : au lever du soleil ou dans la lumière dorée du crépuscule, le reflet symétrique des boiseries laquées de rouge cinabre, des avant-toits recourbés et des colonnades dans l'eau immobile composait une vision féerique, donnant à la cour l'avant-goût sensible de la félicité céleste promise après la mort."
+      },
+      {
+        title: "Rives de galets et floraison des glycines Fujiwara",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOd8QW-gl2UMmNAznVXY3EosuXVZfBOY176IuvGeH9VMLxVqAB79GVsr-Ntl1989ATZoDKt0vZG7F14tFzGqNCWLvm_xAw76XEUDEN_5Ub5upjL0wARoklKW3B0ik3KasSCsbDszrbuyoLxnJvm_VNX-w=w2002-h1334-s-no-gm?authuser=0"
+        ],
+        text: "Les rives sablonneuses parsemées de galets polis simulent les plages immaculées du paradis bouddhique, tandis que les floraisons printanières de glycines séculaires violettes (fuji) suspendues à de grands treillis de bois ajoutent une touche d'élégance végétale indissociable de la mémoire aristocratique du clan Fujiwara, dont la glycine constituait le blason familial."
+      },
+      {
+        title: "Héritage d'Uji : culture du matcha et art du saké",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMcqE1V0-wBGMP7Y7cuG4b04k0WV3Zk7FUREBWTw58IvgkU0ZPz8pIIikwNMwf5oyQ9r-fL3vl1LOh7STcO1Cdb4HwBmv17Rz8Ue9fEYRiohgVPKcypyL2XutuLH4Or_ZgBtXcufF4Tb9zVhMfAbTRTIQ=w1818-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNpKO1n4pzmrMhMXodaVUMJU5klcrJbiF-JKv1qci5msfC69uz22sFUdXessCpdY9-hJnMHEDTeaJw9WE6NtnZMdIPMwH9IeWyEmsvcODh1ANWL1cG7xU_kJBAwbpeZlZRqqeY11v5UNX_8KiFBL0cnow=w1818-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNIj0wOuiSGncgwb4UaK5Bc8uUWbpM9vHzEJxoWsmxH8fu3jcaodPbVGwTIkynJvvCJfAKhVbNheKF6a_AO9CcOW1662t3wLaZ9jszG0GIDpoMXa_D5lPPSogWbZV3Udx-6KW41E_FQW6O0n1RcQ_HCfQ=w1818-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Uji fait dialoguer deux des plus grands arts de la fermentation et de la dégustation du Japon : le thé matcha et le saké. Réputée dès le XIIe siècle pour ses plantations de thé sous ombrage (oishita saibai) fournissant les cours shogunales et les maîtres du chanoyu, la ville a également tissé des liens séculaires avec l'art brassicole grâce à la pureté exceptionnelle de ses nappes phréatiques, filtrées par les sables de granit du bassin. L'eau douce et cristalline qui sert à fouetter la précieuse poudre de thé vert est issue des mêmes sources sacrées — telle la source historique Kirameki-sen — que celle puisée par les brasseurs du bassin de Yamashiro pour cuire le riz à la vapeur et conduire la fermentation du moût. Dans les ruelles menant au Byōdō-in, les comptoirs pluricentenaires associent ainsi les meules de pierre taillant le tencha aux jarres de grès et aux tonneaux de cèdre tressés de paille (komodaru), offerts en hommage aux divinités du sanctuaire Ujigami-jinja. De nos jours, cette double vocation s'exprime à travers une gastronomie raffinée où la liqueur de riz s'infuse parfois de notes végétales et où des cuvées locales de saké sec sont servies pour sublimer la rondeur umami et la douceur veloutée du matcha d'Uji."
+      }
+    ]
   },
   {
     id: "uji_pont_uji_hashi",
@@ -7030,8 +7096,18 @@ const travelSpots = [
     category: "pont",
     counts: {},
     lat: 34.892691,
-    lng: 135.805820,
+    lng: 135.80582,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNyUp9XC-CYgzY6A9L0Zk77Gq7-SLnZ-KCag_8NP9l0RfdSbwI3ngBctvuncVhGed_oxRF3NgKvlRh7fSAt-6biGh1tna3aXVVy8ZCwLzBKF3MMiA9c_Vi_Bvm0EES9OBeXiz_Ddc1ASc3xa-PtEm-Fqw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMb6RGKXL9tUEdV2sWcnn1_nH-XOYbigODoPM8Q9cuJQZnBU3nH39X1XOZ6lLce0mMrfAuDTLa7dbsCl4QKV0_cO4XsgtqAxPH4KWzeo6snzx9855ApPkjzUfVT7ilLaHCghTuKfIM-ftII2QMagtc5OA=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNqs3zoTc7JVDwbyH3rixdwarHMElgq1qBEl_LJZ1gtPpixCBCVTZekecniuYPLZ8D4Y08fUEXEq6xarnqqD9O_bhZvk8bQlY2oLaiUE2dgbH8_TJvPa1x-ru-F5-NCl28Fsv05C6YVJ0XoPjZNKbA9iw=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Édifié originellement en 646 par le moine Dōshō sous l'ère Taika, l'Uji-bashi compte parmi les trois plus anciens ponts documentés de toute l'histoire du Japon avec le pont de Seta et celui de Yamazaki. Enjambant les eaux tumultueuses et limpides de la rivière Uji-gawa qui s'échappent du lac Biwa, cet ouvrage d'art séculaire a servi de verrou stratégique lors des grandes guerres féodales (notamment les affrontements du Genpei en 1180 opposant les clans Minamoto et Taira) tout en occupant une place magistrale dans la littérature classique nippone, servant de décor central aux dix derniers chapitres (« Uji Jūjō ») du Dit du Genji écrit par Murasaki Shikibu au XIe siècle. Reconstruit en 1996 en harmonisant une ingénierie moderne à l'esthétique féodale, le pont long de cent cinquante-cinq mètres déploie une superbe structure de cyprès du Japon (hinoki) ornée de balustrades couronnées de boutons de lotus en bronze (giboshi) et d'un célèbre balcon en encorbellement (San-no-ma), d'où le maître de thé Sen no Rikyū puisait rituellement l'eau de la rivière pour la cérémonie du thé de Toyotomi Hideyoshi.",
     visiter: "Traverser à pied ce large pont de bois pour profiter d'un panorama grandiose sur les collines verdoyantes drapées de brume bordant les gorges de l'Uji-gawa et les terrasses de plantations de thé vert s'étageant sur les versants. Faire une halte sur l'avancée du balcon San-no-ma, surplombant directement les remous du courant, pour photographier la perspective filante du pont et imaginer les grands maîtres de thé y descendant leurs seaux de bois. S'arrêter à l'extrémité occidentale devant le monument de pierre commémorant la rédaction du Dit du Genji et la statue assise de l'écrivaine Murasaki Shikibu, avant de remonter la promenade fluviale ombragée jalonnée de salons de thé séculaires servant le célèbre matcha d'Uji.",
     link: "https://photos.google.com/u/0/share/AF1QipNcBDwJne8WYN3fxz95yYuT5nTGt3RMeN2Jlh3mkixzbpQa6HsuiTsCuM6ISi0Veg?hl=fr_CA&key=ZXp1SWVCZG5VX0lPd0dhRzg0VkhsdlBaR0ZHemZ3"
@@ -7057,6 +7133,16 @@ const travelSpots = [
     lat: 34.890995,
     lng: 135.810568,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMl6e_IYTbery7_q7xZU0BW7m8GiQBd-1xHw6_-eEcuQimWxmt9kImxTYa2NApXv9mTh9gMMnsojqhQSZVNaF5iG8ockitjVk-qR_eDDI61d9EMA3aYASMza60Xf2Ui8XWsAlFeHay-bMHwwerdZYlCww=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNDYFsd1F977qDmrxMNqKCjc32PfGdSHVrkwLTXH-oej08zMNk-PI-z4g77-io4pQAmsLhzOCRgf9Rz-lvfTEiCYUYfehbuag_AIbN-nacy1D5zFX3MTiMHEeJb8Nc6MaqyydR0QupPyUoHfxg9HgpkPw=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMQyoWJxPQNwh1hjpdBgVcFn2OhBg28ekubsN-TPKS8qChdmN1rLmBcPTmSG0FFGVkCiUK6D5q9s5GfCEQlCxSPFl03DPDIVTbgTb44fjHL9EAyN5OAZbwzmAXz9GxAZfduF0upuFpek7-66dFxq4T0yg=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Établi sur la rive orientale de la rivière Uji au pied de la colline sacrée d'Asahirayama, le sanctuaire shinto Uji-jinja formait jusqu'à la séparation du shintoïsme et du bouddhisme à l'ère Meiji une entité cultuelle unique avec son illustre voisin Ujigami-jinja, portant alors le nom de Rikyū-shimo-sha (« sanctuaire inférieur de la villa impériale »). Le site est dédié à la mémoire du jeune prince impérial Uji no Wakiiratsuko, fils de l'empereur Ōjin et figure légendaire de piété filiale confucéenne, qui choisit de se donner la mort en ces lieux au IVe siècle pour laisser le trône impérial à son frère aîné (le futur empereur Nintoku) et éviter une guerre de succession fratricide. Son pavillon principal (Honden), datant du début de l'époque de Kamakura et classé Bien culturel important national, abrite une statue assise en bois du prince divinisé, tandis que le sanctuaire est placé sous la protection mystique du Mikaeri-usagi, le « lapin qui se retourne », divin guide zoomorphe célébré par les étudiants venant prier pour le succès aux examens et la droiture de leur voie.",
     visiter: "Franchir le torii vermillon bordant les rives calmes du fleuve et remonter l'allée ombragée de lanternes jusqu'au pavillon de purification (Chōzuya), orné d'une touchante fontaine sculptée à l'effigie du lapin sacré Mikaeri-usagi crachant l'eau pure. S'approcher du hall d'adoration Haiden pour observer les élégantes sculptures de bois brut et la toiture en bardeaux de cyprès patinée par les siècles, encadrée par la luxuriance des cèdres et des érables du mont Asagiri. Acheter l'un des célèbres omikuji (divinations poétiques) dissimulés dans de petites figurines en poterie peinte représentant le lapin blanc jetant un regard en arrière, symbole de sagesse invitant le croyant à ne jamais s'égarer dans ses choix de vie.",
     link: "https://photos.google.com/u/0/share/AF1QipNcBDwJne8WYN3fxz95yYuT5nTGt3RMeN2Jlh3mkixzbpQa6HsuiTsCuM6ISi0Veg?hl=fr_CA&key=ZXp1SWVCZG5VX0lPd0dhRzg0VkhsdlBaR0ZHemZ3"
@@ -7083,6 +7169,20 @@ const travelSpots = [
     lat: 34.891957,
     lng: 135.811173,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMi-lyBhC_SFoaFSgYXTzB2KP2Gp6pAE1dxlh0k_jhE-H-Fh6xnYjLPwn3FnvieGG4qFpCH0fufqU7QPKA6mTShjCVteslksJd1fyX-toh9QFs82-SVn06UE8TxJhaJhYAtBSyMytgVu5ZYCRsZ09UpBw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPoQDRbTBSSSxN_Z9H54uUSv4xvXpA_hAibsKTcMXdlJ1eLj0zSUwaT4zl9_WTufPB4pH6Tv902bJukBcZphzTRLguh6Ry5dAI4Zbf0if3AMGOHBZh2nhGQiAJOPrLxMtNgoMC4NE6oPScAzyJKsPvpYQ=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPwuz-9Sy4Ipie17cJf-I36LL_11B7RHePMT8d1vKMWgUVDofjTRaR4GwyL5n_39rfVnJ8J_wamzw_lEwR-GwOiW7opPEEOd1r9rWw4a4nnr_o6rc5xmHXi0fLtNNvMcaxoFmC3o7hTk7N9-enuhDIhug=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPSSLPO8KvQPjLzZj-O8_r3P5P9gZTONWlwkmIjaJfgOgEIq3bud531ct2buqt1cywiPdRo8fNQ8PbAvU175h29S_lmJgfBezAiVTFYzVToC6N-bMHXazpVnyT6C12T3DvwSibrO-lCvzanlEQGCPFEdg=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Dissimulé dans un écrin de cèdres géants et de mousses séculaires au pied du mont Asahirayama, le sanctuaire shinto Ujigami-jinja est un trésor d'une valeur patrimoniale inestimable inscrit au patrimoine mondial de l'UNESCO. Anciennement désigné sous le nom de Rikyū-kami-sha (« sanctuaire supérieur de la villa impériale »), il servit historiquement de sanctuaire tutélaire gardien veillant sur le temple Byōdō-in voisin situé de l'autre côté de la rive. Les expertises dendrochronologiques modernes ont révélé que les bois de son pavillon principal (Honden) furent abattus vers 1060, faisant de cet édifice le plus ancien bâtiment shinto originel encore debout dans tout l'archipel nippon. Conçu dans le style archaïque nagare-zukuri à trois travées protégées sous une toiture commune d'écorce de cyprès, il abrite trois chapelles intérieures dédiées à l'empereur Ōjin, à son fils l'empereur Nintoku et au prince sacrifié Uji no Wakiiratsuko. L'enceinte conserve également un splendide pavillon de prière (Haiden) de l'époque de Kamakura bâti dans le style résidentiel raffiné shinden-zukuri des aristocrates de Heian.",
     visiter: "Franchir le sobre torii de bois pour pénétrer dans la cour sacrée tapissée de graviers immaculés, encadrée par deux monticules coniques de sable purifié (Kiyome-no-suna ou tatesuna) servant à conjurer les mauvais esprits. S'approcher du hall Haiden pour admirer la délicatesse des auvents retroussés d'écorce de cyprès et les auvents asymétriques datant de 1215. Découvrir la source sacrée Kirihara-sui abritée sous un pavillon de bois moussus : c'est l'unique survivante des « Sept Célèbres Sources d'Uji » dont l'eau minérale d'une pureté exceptionnelle est encore puisée aujourd'hui par les maîtres de thé pour les cérémonies rituelles. Lever les yeux vers le Honden surélevé sur la terrasse rocheuse supérieure pour contempler la sobre perfection du plus vieux sanctuaire shinto du Japon.",
     link: "https://photos.google.com/u/0/share/AF1QipNcBDwJne8WYN3fxz95yYuT5nTGt3RMeN2Jlh3mkixzbpQa6HsuiTsCuM6ISi0Veg?hl=fr_CA&key=ZXp1SWVCZG5VX0lPd0dhRzg0VkhsdlBaR0ZHemZ3"
