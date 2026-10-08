@@ -6039,7 +6039,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Corse-du-Sud",
+    department: "Corse-du-Sud (2A)",
     subdiv: "Osani",
     altitude: 15,
     is_island: true,
@@ -6054,9 +6054,63 @@ const travelSpots = [
     lat: 42.369572,
     lng: 8.543016,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPGfpIOmmvEsHwkuDyysesip7daRn22yvFu4vOt-fEexwbO5ekLSohkSz-zKWZ24DMbm7fVR1Tbo2n71GtS1wLizjZOc8gRt6_Ulc0_1vyQBBkE7DmFtkv6_dxb6E-Chc3n8BpZ56GdpEizWG6Md6cMyA=w1600-h1200-s-no-gm?authuser=0",
-    description: "Joyau écologique et géologique absolu inscrit au patrimoine mondial de l'UNESCO en 1983, la presqu'île de Scandola est la première réserve naturelle de France à la fois marine et terrestre. Vestige d'un ancien complexe volcanique effondré vieux de deux cent cinquante millions d'années, le site déploie une féerie de falaises de rhyolite rouge sang tombant à pic dans une mer turquoise d'une pureté exceptionnelle, percées de grottes marines, de failles vertigineuses et d'orgues basaltiques prismatiques parfaits. Sanctuaire intégral strictement protégé et inaccessible par la route, Scandola abrite une biodiversité marine et aviaire remarquable, offrant notamment un refuge inviolé au mythique balbuzard pêcheur (l'aigle de mer), au faucon pèlerin, au cormoran huppé ainsi qu'à de riches herbiers de posidonies sous-marins abritant mérous bruns et corail rouge.",
+    description: "Joyau écologique et géologique absolu inscrit au patrimoine mondial de l'UNESCO en 1983, la presqu'île de Scandola est la première réserve naturelle de France à la fois marine et terrestre, couvrant plus de mille neuf cents hectares d'une biodiversité inestimable. Vestige grandiose d'un complexe volcanique effondré vieux de deux cent cinquante millions d'années, ce sanctuaire minéral déploie des falaises monumentales de rhyolite et de porphyre rouge sang qui plongent verticalement dans des eaux turquoise d'une pureté exceptionnelle. Sculptées par l'érosion marine et les vents d'ouest, ces murailles rocheuses sont percées de grottes obscures, de failles vertigineuses, d'arches naturelles et de prismes parfaits d'orgues volcaniques résultant du refroidissement lent des coulées de lave. Rigoureusement protégée et totalement inaccessible par le réseau routier, Scandola constitue un laboratoire à ciel ouvert où la nature s'épanouit sans entrave humaine. Ses corniches inaccessibles ont permis de sauver de l'extinction le mythique balbuzard pêcheur, rapace emblématique dont les nids massifs coiffent les pitons marins isolés, aux côtés du faucon pèlerin, du cormoran huppé de Méditerranée et du goéland d'Audouin. Sous la surface, la richesse biologique atteint des sommets grâce à de vastes herbiers de posidonies qui tapissent les fonds marins, servant de nourricerie à des populations denses de mérous bruns, de corbs, de dentis et de langoustes, tandis que les parois submergées s'ornent d'arborescences éclatantes de corail rouge et de gorgones pourpres. Approchée par la mer au ralenti, Scandola offre une féerie chromatique saisissante où le pourpre des falaises se marie au bleu cobalt de la Méditerranée.",
     visiter: "Approcher le domaine de Scandola par la mer à bord d'une vedette de promenade ou d'une embarcation respectueuse de la faune, au départ de Galéria, Porto ou Calvi. Naviguer au ralenti au ras des tombants de porphyre rouge pour contempler les orgues volcaniques géométriques plongeant dans l'eau limpide et observer aux jumelles les nids monumentaux de branchages construits par les couples de balbuzards au sommet des pitons rocheux isolés. Pénétrer à l'entrée des failles étroites pour observer le contraste saisissant entre la roche pourpre, les reflets émeraude de la Méditerranée et les colonies d'algues calcifiées formant de rares trottoirs marins fossilisés.",
-    link: "https://photos.google.com/share/AF1QipP7PQw4sXND64gGz0qB-BIQlm8HtACPjw6A177nWM7bfF9jK63R0gMfU2Q0CSsxkQ?key=ekl0VU9pZnFyekdBb0tXSWpscnBURVJzOFNFX25n"
+    link: "https://photos.google.com/share/AF1QipP7PQw4sXND64gGz0qB-BIQlm8HtACPjw6A177nWM7bfF9jK63R0gMfU2Q0CSsxkQ?key=ekl0VU9pZnFyekdBb0tXSWpscnBURVJzOFNFX25n",
+    sections: [
+      {
+        title: "Caldeira volcanique et falaises de rhyolite",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNvggFkAEtRxxHsbNXRlKlNMCxZHR6AhwdF7zQSMF6swIr9Aq6Z-3pGe8Cyrws8g-BXbUGe_xROhQilTvy5U8qPRVXi-9j-uQ8POdGM-2CdWgUlQqdXOzI0o0LWhsu-gXPUqioj4RpPA3ISejvM3trYug=w1225-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNpJf4c80QnnmNoRamlJJFHmnAZsl0_6azaToupXeR2xpPU3p8K-R9Ktjd6DIdX8e8xaZUKa-LPIIrRmVG7MriYalVgiWh0nNqhkTvVCVihhm7IlQIvOBufXEytx8qVCR4te4Q4UeKnXkLYQK6Oq69nFQ=w1225-h919-s-no-gm?authuser=0"
+        ],
+        text: "Cet éperon minéral d'une verticalité vertigineuse, entièrement préservé de toute route carrossable et accessible uniquement par la mer ou par d'âpres sentiers muletiers côtiers, forme l'appareil résiduel d'une gigantesque caldeira volcanique effondrée au cours de l'ère primaire (Permien, vers deux cent cinquante millions d'années). Les laves acides, les tufs soudés et les coulées de rhyolite et de porphyre rouge sang y ont été mis à nu par les fractures tectoniques et sculptés par l'érosion marine en orgues volcaniques prismatiques, en pointes déchiquetées et en murailles criblées de cavités éoliennes profondes (tafoni) qui plongent à pic dans des abysses marins d'une transparence absolue."
+      },
+      {
+        title: "Sanctuaire du balbuzard pêcheur",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNIBzAiz1m4lF39lgrnu7oWCs-tyiruSdWzUdItvpzfY5Wg0HPgCb3RLzDN-j4hlXnlQw8BHWo1GvSb4n0NCNlHwIL53BRKQfgdNWsWQsnKA8rmtucm4rH3cLIxSTU7im4Mkt98IcupZqnz7u9EawfArQ=w1225-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMEFas98irHSSSQWEn5VXV13dZqTMSsCN-3kJ2g6rqAIWZkXz6EgaTHPEyTQ3lxW886DW_FF-R_4roYkMWRZQOpCBF4FNm7ANMJulibBB_t3Hp1Dxug2ZKIqD_ejxkuPhDOldKGbmSaLmwOxbdEaKfkPQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOWnpXSA8VOesOkxPRE3pxdk73Zr_t_xhr3cQLcd2f6D-dCR72zOtEgDwuRelvnJ0vADik6BgutUioyGooWkSHNqRcCMMTMFMsEfrSm80K5Gy0iFT__OFxDD0gHtggbMkmSY96yD_BxkFjkzAa6-hW8bg=w1225-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'isolement rigoureux et la stricte réglementation du site en ont fait un laboratoire naturel d'exception pour la régénération d'une biodiversité menacée à l'échelle planétaire. C'est sur les corniches rocheuses inaccessibles et les pitons marins isolés de Scandola qu'a été sauvé de l'extinction le balbuzard pêcheur (Pandion haliaetus), rapace emblématique des côtes corses dont la population, réduite à quelques couples au début des années 1970, s'est rétablie grâce à la sanctuarisation de ses aires de nidification."
+      },
+      {
+        title: "Faune marine, avifaune et baie d'Elbo",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPGfpIOmmvEsHwkuDyysesip7daRn22yvFu4vOt-fEexwbO5ekLSohkSz-zKWZ24DMbm7fVR1Tbo2n71GtS1wLizjZOc8gRt6_Ulc0_1vyQBBkE7DmFtkv6_dxb6E-Chc3n8BpZ56GdpEizWG6Md6cMyA=w1225-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPHwXffPdSPJknPR0MxH4q8AL4QWx1j8fYaoBqf9GMuQHOrYCf-P7MS7_32DjQYK3vShEOZYRyCbxte46IwQHApwqUi4SmiwCSflFpDv4940Zmhr4c8SuRW_givx-Vtt-HFGxizTfdBBJGzRAoryaDKDA=w1225-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPB1HTlQ9Va2NU2c2FfrpbXwhHy2G4U0j0n_OMubDCHpi6ofkOnu9_NW1VkuXH3RouYb45aiHeb7lxE4pZJfLbayOgWj2uDZwEVcGLJGEFIZKZR_YbjOOsSnQFtqLxsppztOWkc7R22NMbyA_kOqFY71w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La réserve héberge également des colonies protégées de faucons pèlerins, de cormorans huppés de Méditerranée et d'innombrables goélands d'Audouin, tandis que ses tombants sous-marins et ses vastes herbiers de posidonies (Posidonia oceanica) forment des zones de frayère et de nourrissage majeures où prospèrent de grands mérous bruns, des corbs, des dentis, des langoustes et des gorgones rouges arborescentes. L'approche par la mer le long des caps de Punta Palazzu et de Punta Muretta révèle des contrastes chromatiques stupéfiants entre le rouge incandescent des falaises volcaniques, la mousse sombre des lichens rupestres et le bleu turquoise des anses abritées comme la baie d'Elbo, dominée par les ruines de sa tour de guet génoise du XVIe siècle."
+      },
+      {
+        title: "Genèse et contraction thermique des orgues",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNsIStYYIkKx-pSjRVY7dKwBsn8bfHUaw0oYRYPk5_IhRH9PwYrzW2EDhJ0UqES8AcsYalo_tkkifET4aPChqiuEEOUJRDzXk9qCnq10ZTmr4QCxZlVkvz0WG8S-TrZ3xlh0Ri4PWB9uRlFFLcHLjmisw=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMkZVPNKXo5BWwubTba4gmsvLqZoiHxSrrKSy8pQ4fmXNaNLvypYLpcjDWU2an2J2oFUjjupjVxFTn5dWigcVXnJm5qefuVk1NM0bo4kYXA0AP5edxxxDXgWVFpM9V8q7-vGdbrkcbPVY75mbFm0HETPA=w660-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP-WMjIHj1p5P8NC6ndAIpg3ciU4OrpCsU9rEyqfNFwzBO7VAO7iezCyWrrr9wxNr1tfVgJ_JfGJAB8A0je9URGO4omt7BIM6j7d2wFebDDFQZgT0wk3AJaVrChIZuDr7PSae2d9wfpQxVaELsFJX7rGw=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "La formation des colonnes basaltiques — ou orgues basaltiques — repose sur un phénomène physique de retrait thermique lors du refroidissement lent et régulier d'une coulée de lave basaltique ou d'une intrusion magmatique épaisse.\n\nLorsque la lave basaltique fluide s'arrête d'avancer (dans un lac de lave, une dépression ou un filon de type dyke), sa température avoisine les 1 100 à 1 200°C. En s'immobilisant, la masse commence à perdre sa chaleur au contact de l'air, de l'eau ou du sol encaissant.\n\nLe processus se déroule en plusieurs étapes physiques bien définies :\n\nLa contraction thermique\n\nComme la majorité des matières en refroidissement, la roche volcanique diminue de volume en passant de l'état liquide ou pâteux à l'état solide (généralement autour de 800 à 900°C pour le basalte). Cette réduction de volume crée d'intenses tensions mécaniques de traction à la surface de refroidissement."
+      },
+      {
+        title: "Fracturation prismatique et propagation",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMYczVVuK26f2IPBapyLta6c-gYuwi_12U-q8mQZfMSuK_jjEs50Azi0fo-jSC1GboUKMErX5PkCB7s0-JdW4HlISLQZ1PS_M2mDEWtwk9SZn4Y2HiL5ll4t_Mqr0Rz_10-O4H1Lvf1aNliKGo3BZrNNg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPYY6u_FIuhTZFTruaPZyCm2mNf91wEg1e97Ghqs4VKZPZmTEfRjyNR1CmPCydpITXWcdmmLP1YLkhJI7BguXbFICva2ZHiICCf37HOk6X1lGGyXYTInGbqh7E4hC2IE5zeipm639SO6ZgvOxQ_2xVWvQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM6PG4keIp0-NM8-rbGHfz4vnoNuT7nBWSGetUgkXW7USiqglSE2DoxrjeaXXeshNi4uz9K0XNff0jiR6N7Kdgfpy1nj_bINKM51_C_qTeMXZoOww4nqZKTK5NKywN_Fj3bvbYWVQ3N7kkHl30hVqlTuw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La fracturation et le réseau de contraintes\n\nPour relâcher cette contrainte d'étirement, la surface de la roche se fissure. Le réseau de fractures s'organise selon un principe géométrique d'optimisation énergétique : pour libérer un maximum de tension avec un minimum de fissures, la matière tend à former des angles de 120 degrés entre les lignes de fracture. Cette géométrie génère naturellement des cellules polygonales, à dominante hexagonale (bien qu'on trouve aussi des sections pentagonales, heptagonales ou quadrangulaires selon l'homogénéité du milieu).\n\nLa propagation en profondeur\n\nÀ mesure que le front de refroidissement progresse vers le cœur de la masse rocheuse, les fissures de surface se propagent perpendiculairement aux isothermes de refroidissement. Les fentes s'enfoncent ainsi en profondeur, guidées par la progression de l'onde thermique, découpant l'épaisseur de la coulée en prismes verticaux ou colonnes régulières."
+      },
+      {
+        title: "Tombants marins et perspective des orgues",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPqSp1ePGSq680umzeDAPtOSANDlW9PRqgHAU7iFsEzQhHPe-wHCGmmQziYBniOGdGxuxaswr9RQkPA_oyscm1CW0AwpAOn2gb-la4e4An5q6NawNZDC9Fuy7frldv80H5maJ0Frs2Seo6NA1VL0b-vRg=w1225-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMBV-bM0tIkSh8-rIINBrwC4vJgbtm64V3JuFcoT_Mow17F1Eqjy9n1nyqhl8ak-vGf9_-uaBmxU9499EE6rN1xxPYlwroM63eTLw1tbW5SHLHNXjDMs7GVjmQ9vwMhC49CzxQHSutfI_WKDhCuMkaQeg=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "girolata_village_et_fortin",
@@ -6065,7 +6119,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Corse-du-Sud",
+    department: "Corse-du-Sud (2A)",
     subdiv: "Osani",
     altitude: 10,
     is_island: true,
@@ -6080,18 +6134,28 @@ const travelSpots = [
     lat: 42.349294,
     lng: 8.612946,
     image: "https://lh3.googleusercontent.com/pw/AP1GczObcw36GqyefKpB7Jw9pB3kqPyMl8jDUeDWv8MY_PPa5o7iMvr6FJmlbx2Dznppn6CFYPXtbQONpadTyABRlQkOmoKur1BiuUL-B2BqMLytTzXrcPXN-wG_fxTRxX9VPgpqmJ2TTJ5QZGH2bjUwya65vg=w2549-h1919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPxx7KP2l3SXXUENJTOEVVYndXFp3XXlCHNjSaHlD0fcxUcgzIk_VRkGtKDhf5b2G4joo_osIua2PU7VSRUzdQa3zrLwDn5vQoxr2pJWQKpciwQCOF2wVAUcvCnE3mxBOOqfqFhLyTAhGMHngP1kgCSUA=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOThfAijUOg5xe8WQCuNpS_a-6ucbZNlDyvXKdqeIeTiH2r7muE0BZywlg85b8v2d3FYOe_DNEk2wc__2KLnVDVgr9T1z9L-Wexh_yhwe-1-RbkBKEMN_pBczNSHjwsfYLNSLLUf_ODXCjngYssgL2EKA=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Niché au creux d'un golfe splendide dominé par de hautes crêtes d'eucalyptus et de maquis, le hameau maritime de Girolata possède la particularité unique de n'être relié à aucun réseau routier, n'étant accessible que par la voie des flots ou par un sentier muletier escarpé. Sa petite anse naturelle servit de mouillage stratégique dès l'Antiquité avant d'être fortifiée en 1552 par la République de Gênes, qui fit dresser sur un éperon rocheux défendant la baie un puissant fortin bastionné polygonal ceint d'une tour d'artillerie. C'est dans ces eaux abritées qu'eut lieu en 1540 la capture historique du célèbre corsaire ottoman Dragut par la flotte génoise de Giannettino Doria. Aujourd'hui classé à l'UNESCO, ce village hors du temps vit au rythme des allées et venues des bateaux et de ses célèbres vaches sauvages se reposant paisiblement sur la plage de sable doré.",
     visiter: "Débarquer sur le ponton de bois du port naturel après une traversée maritime, ou rejoindre le village à pied en empruntant le spectaculaire sentier muletier du facteur (traversant le col de la Croix à travers le maquis odorant avec une vue plongeante continue sur le golfe). Remonter le chemin de terre bordé de cabanes de pêcheurs, de lauriers-roses et de paillotes conviviales pour gravir l'éperon rocheux du fortin génois privé. Déjeuner les pieds dans le sable en observant les voiliers au mouillage dans les eaux calmes de la calanque et faire une halte baignade sur la plage de galets de Focaghia au sud de la presqu'île.",
     link: "https://photos.google.com/share/AF1QipP7PQw4sXND64gGz0qB-BIQlm8HtACPjw6A177nWM7bfF9jK63R0gMfU2Q0CSsxkQ?key=ekl0VU9pZnFyekdBb0tXSWpscnBURVJzOFNFX25n"
   },
-   {
+  {
     id: "piana_falaises_capu_rossu",
     name: "Golfe de Porto - Falaises Méridionales & Capu Rossu",
     country: "France",
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Corse-du-Sud",
+    department: "Corse-du-Sud (2A)",
     subdiv: "Piana",
     altitude: 165,
     is_island: true,
@@ -6106,9 +6170,53 @@ const travelSpots = [
     lat: 42.245904,
     lng: 8.583878,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPwRniLWx6Ji-TLHxa7hQLcxvLWrni4FsIqwaMQZCJ6nAEqGAReziOnb3jZWpF3SCHUnR2vNuWn6NtS9PuPjjCQ0NutLxwwnADtEmyUpXAlwRCmN2wvGylgG5TZIZgk9sJmyYjikcoy_uKVMlkuvlUF_A=w2549-h1919-s-no-gm?authuser=0",
-    description: "Verrouillant la rive méridionale du majestueux golfe de Porto, la presqu'île du Capu Rossu déploie une muraille maritime spectaculaire inscrite au patrimoine mondial de l'UNESCO. Façonnées dans des porphyres et granites rouges d'origine volcanique vieux de plus de deux cent cinquante millions d'années, ces falaises monumentales tombent à pic dans les abysses de la Méditerranée depuis plus de trois cents mètres de hauteur. L'action combinée des embruns marins salés et des vents d'ouest a sculpté la roche en un dédale saisissant de taffoni — alvéoles d'érosion caractéristiques de l'île —, d'arches naturelles et d'éperons déchiquetés plongeant dans des eaux d'un bleu cobalt d'une pureté absolue, dominés à leur sommet par la silhouette solitaire de la tour génoise de Turghiu.",
+    description: "Verrouillant la rive méridionale du golfe de Porto, la presqu'île du Capu Rossu déploie une gigantesque muraille maritime de porphyre et de granite rouge sang, mondialement réputée et inscrite au patrimoine mondial de l'UNESCO. Façonnées il y a plus de deux cent cinquante millions d'années au cours de l'orogenèse hercynienne, ces falaises volcaniques monumentales s'élèvent à pic au-dessus de la mer d'une hauteur vertigineuse dépassant trois cents mètres. L'assaut incessant des vagues et la morsure corrosive des embruns marins ont sculpté la pierre en un dédale féerique d'arches naturelles, de pointes acérées, de grottes sous-marines et d'alvéoles profondes (tafoni). Dominé à son sommet par la tour génoise de Turghju perchée à trois cent trente et un mètres d'altitude, ce promontoire aride forme l'un des belvédères les plus spectaculaires de l'île. Accessible à pied par un sentier serpentant à travers les genévriers et les immortelles, ou par la mer en longeant les tombants vertigineux, le site offre des contrastes chromatiques inoubliables entre le rouge incandescent du roc et le bleu profond de la Méditerranée. Les anfractuosités de la falaise constituent un sanctuaire écologique inviolé pour le faucon pèlerin et le cormoran huppé, tandis que les eaux cristallines abritent mérous et gorgones. Au coucher du soleil, la roche s'embrase dans un flamboyant spectacle de pourpre et d'or reflété par les flots.",
     visiter: "Emprunter le sentier de randonnée pédestre balisé qui démarre du parking de la buvette du Capu Rossu pour traverser un plateau aride de maquis bas parfumé d'immortelles et de romarin. Dépasser les anciens bergeries en pierre sèche de Turghiu avant d'attaquer la rude montée finale taillée en lacets dans la roche pourpre. Depuis la crête des falaises, contempler le panorama vertigineux sur les golfes de Porto et de Girolata, la réserve de Scandola fermant l'horizon au nord, et la baie de Cargèse s'étirant au sud. En fin d'après-midi, la lumière rasante embrase le granite dans un flamboiement de teintes pourpres et orangées exceptionnel.",
-    link: "https://photos.google.com/share/AF1QipMn5lN5apwGen5RvQA56G3PAdgefbz3bKHzQManIiwjO1W6l_d4f5_c2SLpBMAhEw?key=ZjhSSEhaejM1WjJ0ZUVQN3pOdXExN0dNUWF5U1dn"
+    link: "https://photos.google.com/share/AF1QipMn5lN5apwGen5RvQA56G3PAdgefbz3bKHzQManIiwjO1W6l_d4f5_c2SLpBMAhEw?key=ZjhSSEhaejM1WjJ0ZUVQN3pOdXExN0dNUWF5U1dn",
+    sections: [
+      {
+        title: "Grottes marines et voûtes effondrées",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNnXTB40frvcejhlIcxjizAdwjTlT3pbLy02sjCvjuWUthTJsbNJsu7TMCC-20TIjqFseEwcgzvtUL5NJDPXYDWsyt9BgIHYrbra8folV4e6rIms1L3VY3mp3e0lFvxG_DueEe2qRPKxBA7euEfQ9Yj3A=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPeaLFWMhrN3stKm_FZ74fQZ6iL5BY__OTYiqNnon86Yl2QBeQCxpfIQVr9uRr7WswiH8ct8hqC8dW6T9_-I94r_XMGTJS4Rn9qFkiXe8zrIvHkhoPodrG8zF7kJHxF-Ncfc-M516AExeRXZsSkwehuDA=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOqO-Cj6iGlG0_L8CWmSRDmHJYkayppKdadbkpl2a-aBzPI-a2vms9hFDwrKTD5rJ-JQDLV311sfmQL5GKkI2dhx3LEwcjr6glS3EiI69AQwk4K9EDjy2UtQltjLRPxHI3fE6x1MRdmBhwe7w9Mtdo8SA=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "La navigation au ras de ces falaises titanesques révèle un labyrinthe de grottes marines creusées par l'énergie des vagues au pied des escarpements. Parmi les plus spectaculaires figure la grotte des amoureux (ou grotte à ciel ouvert), cavité monumentale dont la voûte s'est en partie effondrée pour laisser filtrer une colonne de lumière zénithale qui fait étinceler des fonds sablonneux d'une clarté turquoise irréelle."
+      },
+      {
+        title: "Couloirs rocheux et faune des parois",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOYr2nnpzISiIgQh3cgVMSnxNExLqkYpNyxue3mETHVQ9Idp62qJ0zumb89gN-1UcmNhKDrwzAN_ZquODo0CmYHXqRytFedmAbfGfKhRBuzAXHfbDeQcAOARiCe-3bqHRSFyrf7kLMQsbVF-PJKgQ9SsA=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNiVA8DQG9c73Nqgbg7_I4LvwUSIhNrPqHC1Hjqn5tsyLs8tQKwmtfoeeWXf28hhAbJmwUsGUnut-HHh3wQP5mUJowo1QIIrp7UKn9GJWF--Fa9vI-FSMib6Kf-aivTFYM1V2H1SLIk3JzTajnOXUFeig=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: "Plus loin, des boyaux obscurs et d'étroits couloirs rocheux permettent aux embarcations légères de s'engager sous les entrailles de la falaise, où le ressac résonne en grondements sourds contre des parois tapissées d'algues coralligènes et d'anémones encroûtantes. Ces anfractuosités profondes et ces corniches inaccessibles depuis la terre ferme constituent des refuges de nidification vitaux pour une faune aviaire d'exception : le faucon pèlerin, le cormoran huppé de Méditerranée et le gypaète barbu y croisent le sillage des balbuzards pêcheurs réintroduits dans les réserves voisines, tandis que les platiers rocheux sous-marins et les herbiers de posidonies abritent mérous bruns, corbs et bancs de dentis."
+      },
+      {
+        title: "La tour génoise de Turghju sur son nid d'aigle",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNKT-u23tWUSozcGi8gsvq_kJ8Zn8dkdshP8_MQubYg-10FQTHX_G5HEAE5jeWPAzEfIN1o89Z-o0WQTbIrNSGoGLWd7YEZm11uaaTzXYTCnseIihM3g3tGMA9gvGwN1LwmwkgtZF0hUIjMAOIUm-IkZQ=w1221-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMKLrmhelATp70xS_O_Bir62OYn0RmEDhrhOdsS65zPuejdR-LuJEFa1UE2KN5PqfWjME1g0HAf4KOXEFfDVGJib-zuIsncZ_OYjAEgwBBkUHGRFhb6pos_1dbjkbNWbhL17KAulj3WWZDBKd30Tja3Ew=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "La pointe extrême du promontoire est coiffée par la tour de Turghju, tour de guet génoise circulaire édifiée en 1608 sous la direction du bâtisseur Anton Giovanni Sarrola pour le compte de la république de Gênes. Perchée au bord de l'abîme marin à trois cent trente et un mètres d'altitude, cette vigie de pierre sèche apparaît depuis les flots comme suspendue entre ciel et mer, ultime jalon défensif d'un réseau littoral conçu pour prévenir les raids des corsaires barbaresques le long des côtes des Deux-Sevi."
+      },
+      {
+        title: "Contraste chromatique et splendeur du porphyre",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOsc_V8lKWBWfYApkkbccpjyHBIWroyhj4Y08yOk46hETrUzXhs7GNl8xGqlg-zf3A7F3M6nPUtB2NofHWHt-uMB8DGNUkzGg36PfNMgbHh1qNNpQd1i8GpoDS5kRHkjZEdcZsabnHOQz1BFMeL-HsF5w=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO-Sg_bFaRRDo6VDYY7fjeIg_kIxWB5VQNLoHUtsscA7Gz21hAEPD-yYo40idAJ-1VYigat1GQkn9gczlKSK5j2LgqMEB0o60IMwVbYfkUSB2RACVji9wO7m3B8M79XbvKxqUdmGLdFb0JJc8kjlMSk5Q=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPwRniLWx6Ji-TLHxa7hQLcxvLWrni4FsIqwaMQZCJ6nAEqGAReziOnb3jZWpF3SCHUnR2vNuWn6NtS9PuPjjCQ0NutLxwwnADtEmyUpXAlwRCmN2wvGylgG5TZIZgk9sJmyYjikcoy_uKVMlkuvlUF_A=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le contraste chromatique saisissant entre le rouge incandescent du porphyre, le blanc d'écume des brisants et la transparence des tombants sous-marins confère à cette approche maritime une majesté théâtrale qui fait écho aux calanques de Piana situées plus au fond du golfe, scellant la réputation de cette côte sud comme l'un des sanctuaires géologiques les plus purs de Corse."
+      },
+      {
+        title: "Vues complémentaires des tombants du cap",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNoOG3J--JgOtvai7Y9tP_vMC4l_lIxo1Gh7ZE-NDejcVPcjZiLEQi2DOof3_IVqTEFJdDLwQYeNMZGWQRgKu4ezbLpSPzBujFoo7ghvWx1dOKYU9Dj2EFLsO82MLV8xRb7wKNl5fi9BMp6DSQ344vO-w=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPWNKCZNZwUKmrB2QYYI8NlvD9BoMf5z314kII9G2tBoGTdRt7VBlDl3lxLzmsXlzGzt030Gl2cFoW0Mn5SSVXXfBz9e2s3XjL-1fcN175bBQTRpbBm5utH64ZkM-R2OoFrnz25OfXn50qWxD4eSniWMA=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
    {
     id: "galeria_eglise_sainte_marie",
@@ -6117,7 +6225,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Haute-Corse",
+    department: "Haute-Corse (2B)",
     subdiv: "Galéria",
     altitude: 22,
     is_island: true,
@@ -6131,6 +6239,12 @@ const travelSpots = [
     lat: 42.409461,
     lng: 8.647662,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPD-O9Xq43EL-K4T3JWQ8-t0PEc7E49L-WbUILhJVzt2nrJADfKSOoI2Lwjvb6ot_a_XnFMXGghNtXJLJInTZDgTprCs89iNw1hXHdGJXtjGwGxMuXna_dXhCfItGXcUB-UsBeZmx5LBiXmn7o2jR40oQ=w1984-h2635-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP7cXdE2N_bfKuq7xBFuiZlvFBRsBwlPJR50AdsOlO_QfRI4P-xLz1lVJEBXeJZb8MnMqv1KRs7zQYT8jBz_0hr4dE9Y5j3mZKy_-g4cT8xmvHmixhT2u2B8_m0Gpx0w6HNxTAYeO7MbW3KF9PBk39RdQ=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Érigée au cœur du village de Galéria en 1864, l'église paroissiale Sainte-Marie témoigne de la sédentarisation définitive des pasteurs et cultivateurs du Filosorma sur le littoral au XIXe siècle. Présentant une sobre architecture néoclassique corse, elle se distingue par sa façade enduite aux tonalités chaleureuses, couronnée d'un fronton triangulaire et flanquée d'un élégant clocher-tour quadrangulaire à lanternon ajouré. À l'intérieur, la nef unique voûtée en berceau abrite un chœur décoré dans la tradition locale avec un maître-autel en marbre polychrome, des statues processionnelles vénérées lors des fêtes mariales et de touchants tableaux liturgiques évoquant la protection spirituelle des marins et des gens de la terre face aux rigueurs de l'isolement maritime.",
     visiter: "Pousser la porte de l'église pour profiter de la fraîcheur du sanctuaire et observer les détails des autels latéraux et de la statuaire populaire corse. Faire une halte sur le parvis ombragé de palmiers et d'oliviers, véritable place de vie du village, qui offre une belle perspective sur les maisons de granit et le profil rocheux des crêtes environnantes. Poursuivre ensuite à pied à travers les ruelles calmes de Galéria pour rejoindre les terrasses de café bordant l'avenue principale menant au petit port de pêche.",
     link: "https://photos.google.com/share/AF1QipMhX8jyxxj2AofzPQIpQVDzjI1XfmNmyhwc97QT66KFOi7FSMJ-57SartoyuHoekg?key=bU0tMi1UNW4xWWxnb3I1b3lTZldHazltVDBRRzdR"
@@ -6142,7 +6256,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Haute-Corse",
+    department: "Haute-Corse (2B)",
     subdiv: "Galéria",
     altitude: 184,
     is_island: true,
@@ -6156,6 +6270,12 @@ const travelSpots = [
     lat: 42.402232,
     lng: 8.647227,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPxqjTpwERteCOoPNEFPVIltuf3oK6UYvHOBHdD37BjFf4QxCb0Fdlrw0DODiuhssrvEOB_prxD0rdNcjxchgBCeGKyxrCvfLKDRX30x1-M2jSvXEqQ-Ocs0kc2CI1aFPw7QjoXIyVrDBk8ImdzHFAubQ=w3089-h2059-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNIN73ME-H48-osNzmZdREfylLNFr7TZdittA4kK1LG7gIuypWjWKbT0KbpStJEPOmxmJ8zM0YSrLHANl5L9l8aJr_lRO0Iy9isQAA8IHrM4BvbUBnXym1_YhsQUQG7YG5_FmiDAX1iSE4BOjr05fo3-A=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Dominant immédiatement le sud du bourg de Galéria, le piton arrondi de Chjucu Capu Tondu dresse son échine de roches érodées et son dôme de maquis face aux eaux scintillantes de la baie. Ce promontoire naturel sert de formidable belvédère d'altitude modeste mais à forte personnalité, offrant une vue plongeante spectaculaire sur les toits du village, la tour génoise et l'estuaire du Fango. Façonné dans les granites et les rhyolites rouges de la bordure septentrionale de Scandola, ce sommet mineur est parcouru de sentes pastorales rocailleuses bordées de cistes cotonneux, de lentisques et d'immortelles sauvages, exhalant un parfum capiteux sous le soleil méditerranéen.",
     visiter: "Emprunter les sentes de randonnée qui s'élèvent depuis le village à travers le maquis pour gagner les crêtes rocheuses sommitales. Profiter d'un panorama panoramique à 360 degrés embrassant le golfe de Galéria, la réserve de Scandola fermant l'horizon au sud-ouest, et la longue vallée encaissée du Fango qui serpente jusqu'aux barres neigeuses de la Grande Barrière et de la Paglia Orba. Choisir les heures de fin d'après-midi pour observer la lumière dorée embraser les versants rocheux et la mer turquoise.",
     link: "https://photos.google.com/share/AF1QipMhX8jyxxj2AofzPQIpQVDzjI1XfmNmyhwc97QT66KFOi7FSMJ-57SartoyuHoekg?key=bU0tMi1UNW4xWWxnb3I1b3lTZldHazltVDBRRzdR"
@@ -6167,7 +6287,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Haute-Corse",
+    department: "Haute-Corse (2B)",
     subdiv: "Galéria",
     altitude: 145,
     is_island: true,
@@ -6181,6 +6301,16 @@ const travelSpots = [
     lat: 42.397262,
     lng: 8.621814,
     image: "https://lh3.googleusercontent.com/pw/AP1GczP01F1aGaA-LLzQDtK4u1oMjcE1QeV0YxOddSUaohK3PqV_7Vez7_3LqyxEPN1DF1qGTQp4D3Q_22azuAOv6SGncL59a7kyaar6AcXnPsbGBEiDj55GwY7sfCs362lTGkUZLe2tGkuo3DowU4soHpydpQ=w2896-h1944-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPFkbOKYmmHxmy_cNaJkiYtCcDr2ZGGfQaIwFSqvhHDQsaDeqc3OM-ZaX_bIVyCcwldMn9FGkfmy1WKoW4NlimJ5AtGOwl1PPbA7JqebxyS9K45Mv96ERvY0CLXvP6PS_lA1M8TvGZYhFJgnnRjr4b81w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPCEr9YQVn5suQSn6ErLIu75GxhfrOoA6yS9RKURnbdwRRhGo2Sx9NntPcg3MFO_0a3OulDNsASzcQssawpZAeJg_JJJ-i9E-wUaPOabTl-3uXP3IobFZW-IZWynSaSx20R8hpUtWW5lE5OtVB5YFM0jg=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'arrivée au sommet récompense l'effort par un panorama circulaire à couper le souffle, embrassant la quasi-totalité des contrastes géologiques de la Corse occidentale. Vers l'ouest et le sud-ouest, le regard plonge sur les eaux turquoise de la baie de Galéria, le cordon de galets du delta du Fango et les contreforts volcaniques rouge sang de la presqu'île de Scandola classée réserve naturelle. Vers l'est et le sud-est, le décor change radicalement d'échelle : la vue s'enfonce dans la vallée du Fango bordée par sa célèbre forêt de chênes verts de Piriu pour buter contre la monumentale barrière alpine du massif du mont Cinto, de la Paglia Orba et du Capu Tafunatu, dont la brèche caractéristique se découpe nettement sur l'horizon. Cette randonnée rude et préservée incarne toute la force du relief corse, où la haute montagne plonge verticalement dans le bleu profond de la Méditerranée."
+      }
+    ],
     description: "Accroché aux contreforts côtiers à l'ouest du golfe de Galéria sur le tracé menant vers les abords de la réserve naturelle de Scandola, le secteur de Porcu Liccatu présente un relief chaotique sculpté par l'érosion éolienne et marine. Ce passage sauvage sur le sentier littoral offre une plongée saisissante sur des criques inaccessibles d'eau cristalline, ceinturées de falaises de roches ocres et pourpres parsemées de genévriers phoeniciens nains agrippés à la pierre. Zone d'une tranquillité absolue balayée par les brises du large, c'est un point d'observation privilégié pour apercevoir les balbuzards pêcheurs planant au-dessus des tombants marins.",
     visiter: "Randonner sur le sentier balisé côtier reliant Galéria à la pointe de Ciuttone pour atteindre le belvédère sauvage de Porcu Liccatu. S'asseoir sur les dalles de granite rouge poli pour admirer l'enfilade des falaises déchiquetées plongeant dans un dégradé de bleus profonds et d'émeraude. Prévoir de bonnes chaussures de marche et de l'eau, le sentier serpentant au cœur d'un maquis dense et parfumé sans le moindre point d'ombre, avant de redescendre vers les petites calanques secrètes du littoral pour une halte contemplative.",
     link: "https://photos.google.com/share/AF1QipMhX8jyxxj2AofzPQIpQVDzjI1XfmNmyhwc97QT66KFOi7FSMJ-57SartoyuHoekg?key=bU0tMi1UNW4xWWxnb3I1b3lTZldHazltVDBRRzdR"
@@ -6192,7 +6322,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Haute-Corse",
+    department: "Haute-Corse (2B)",
     subdiv: "Galéria",
     altitude: 1,
     is_island: true,
@@ -6206,6 +6336,20 @@ const travelSpots = [
     lat: 42.414056,
     lng: 8.651302,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPlMAKOqYkQW86xxcbgGrAV-SVnGlpXVspQAScK-kraSx6eeNUy3Gj5Cm9aItuDjfA5LO0nX8F2GFT5mRRNncMLLU6Apg7Yr_eMw5IxHLHUxUmZIKVTKkbthYGoPNJb63AOQ1592wFyhd4GBIIFQKMltg=w3089-h2059-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNXxuTXn0t_T8ahsm3itT8yTcEve6nw_qjVOvkv74VzOp_0FrGDF2RKI4yk5lHYKzTTsEr2xx11OYTtqc0nr3J4fqTc9QpS8moS2Sq_ZsbeYW0H3RG0zLf0KNQoT-nBbDe_uD8p9K-30fPCm8ue1oAIbA=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPAulW1AsPqytTAQETxhJfYGIdQqNxtaffDVdqG9yOaDn5t1_nyYKToMQ-tnp6wATj5kzhkzNZGostYHdNGM9pAwticgzepOvsJZ2KNHAXkP4TnqBQeAbN5lgnWuZ3lJ32ZzokTRQ2FLEvyHNEEoqoDsg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM2yuc8_hY-B73JJdftHaZs1LyFzbzt3GaB-gJeCGf99eP5yEw2Gw8cFbqT0SnzzD_gtPKK4KJL86quC0426MGwApolOT6KBnqNqbKQGgGPdHV4rzigPblSdZxbK4KcWOWgsvkVaWnvdjmuwfsqW5Qvjg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Étendue au pied immédiat du village, la plage de Galéria forme un long arc de cercle sauvage composé d'un mélange caractéristique de sable grossier doré et de galets roulés polis par le ressac. Ouverte sur une baie abritée aux eaux calmes et d'une clarté remarquable, elle offre un cadre maritime préservé face à la tour génoise historique dressée sur son éperon rocheux. Ce rivage tranquille, bordé de tamaris et de quelques barques de pêche traditionnelles tirées sur les galets, contraste avec l'effervescence des grandes plages touristiques de Balagne, conservant une authenticité pastorale et maritime intacte au débouché de la haute vallée montagneuse.",
     visiter: "Poser sa serviette sur le cordon littoral pour une baignade rafraîchissante dans des eaux limpides aux fonds sous-marins riches en poissons de roche (idéal avec palmes, masque et tuba). Longer le bord de l'eau vers le nord jusqu'à la base de la tour génoise de Galéria pour photographier le coucher du soleil tombant directement dans la mer à l'horizon. Profiter des terrasses de restaurants et paillotes les pieds dans l'eau pour savourer du poisson frais local face au spectacle paisible des embarcations amarrées dans la baie.",
     link: "https://photos.google.com/share/AF1QipMhX8jyxxj2AofzPQIpQVDzjI1XfmNmyhwc97QT66KFOi7FSMJ-57SartoyuHoekg?key=bU0tMi1UNW4xWWxnb3I1b3lTZldHazltVDBRRzdR"
