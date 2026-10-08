@@ -2483,17 +2483,23 @@ function renderEnrichedCarnetMode(spot, layout) {
           </div>
         `;
       } else {
-        // Multi-photos : disposition dynamique type Google Photos (largeur proportionnelle au ratio naturel)
-const rowHeight = count === 2 ? 'h-[360px] sm:h-[440px]' : count === 3 ? 'h-[260px] sm:h-[320px]' : 'h-[200px] sm:h-[260px]';
+        // Multi-photos : disposition dynamique sur plusieurs lignes (style Google Photos / Flickr)
+const rowHeight = count <= 2 ? 'h-[360px] sm:h-[420px]' : count <= 4 ? 'h-[260px] sm:h-[300px]' : 'h-[200px] sm:h-[240px]';
+const baseHeightPx = count <= 2 ? 380 : count <= 4 ? 280 : 220;
 
 photosMarkup = `
-  <div class="flex flex-row gap-2 w-full items-stretch rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2">
+  <div class="flex flex-wrap gap-2 w-full items-stretch rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2">
     ${sec.photos.map(p => `
-      <div class="${rowHeight} min-w-0 overflow-hidden rounded-xl bg-slate-900 transition-all duration-300" style="flex: 1;">
+      <div class="${rowHeight} overflow-hidden rounded-xl bg-slate-900 transition-all duration-300" 
+           style="flex-grow: 1; flex-basis: 140px;">
         <img src="${p}" 
              alt="${sec.title || spot.name}" 
              class="w-full h-full object-cover cursor-zoom-in hover:scale-[1.02] transition-transform duration-300" 
-             onload="this.parentElement.style.flex = (this.naturalWidth / this.naturalHeight);"
+             onload="
+               const ratio = this.naturalWidth / this.naturalHeight;
+               this.parentElement.style.flexGrow = ratio;
+               this.parentElement.style.flexBasis = Math.round(${baseHeightPx} * ratio) + 'px';
+             "
              onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
       </div>
     `).join('')}
