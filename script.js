@@ -2476,44 +2476,24 @@ function renderEnrichedCarnetMode(spot, layout) {
       const count = sec.photos.length;
 
       if (count === 1) {
-        // 1 photo : largeur calée sur le texte, hauteur libre naturelle
+        // 1 photo unique
         photosMarkup = `
           <div class="w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl flex items-center justify-center p-1">
             <img src="${sec.photos[0]}" alt="${sec.title || spot.name}" class="w-full h-auto max-h-[80vh] rounded-xl object-contain cursor-zoom-in hover:opacity-95 transition block mx-auto" onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
           </div>
         `;
-      } else if (count <= 3) {
-        // 2 ou 3 photos : TOUJOURS sur une seule ligne (Google Photos strict)
-        const rowHeight = count === 2 ? 'h-[360px] sm:h-[440px]' : 'h-[260px] sm:h-[320px]';
+      } else {
+        // Multi-photos : Grille proportionnelle Google Photos sans rognage
+        const targetHeight = count <= 2 ? 460 : count <= 4 ? 320 : 220;
 
         photosMarkup = `
-          <div class="flex flex-row gap-2 w-full items-stretch rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2">
+          <div class="flex flex-wrap gap-2 w-full justify-center items-stretch rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2">
             ${sec.photos.map(p => `
-              <div class="${rowHeight} min-w-0 overflow-hidden rounded-xl bg-slate-900 transition-all duration-300" style="flex: 1;">
+              <div class="flex-grow flex items-center justify-center rounded-xl overflow-hidden bg-black/40 border border-slate-800/50" 
+                   style="height: ${targetHeight}px; min-width: calc(${targetHeight}px * 0.4);">
                 <img src="${p}" 
                      alt="${sec.title || spot.name}" 
-                     class="w-full h-full object-cover cursor-zoom-in hover:scale-[1.02] transition-transform duration-300" 
-                     onload="this.parentElement.style.flex = (this.naturalWidth / this.naturalHeight);"
-                     onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
-              </div>
-            `).join('')}
-          </div>
-        `;
-      } else {
-        // 4 photos et plus (vitraux, etc.) : retour à la ligne automatique
-        photosMarkup = `
-          <div class="flex flex-wrap gap-2 w-full items-stretch rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2">
-            ${sec.photos.map(p => `
-              <div class="h-[200px] sm:h-[240px] overflow-hidden rounded-xl bg-slate-900 transition-all duration-300" 
-                   style="flex-grow: 1; flex-basis: 120px;">
-                <img src="${p}" 
-                     alt="${sec.title || spot.name}" 
-                     class="w-full h-full object-cover cursor-zoom-in hover:scale-[1.02] transition-transform duration-300" 
-                     onload="
-                       const ratio = this.naturalWidth / this.naturalHeight;
-                       this.parentElement.style.flexGrow = ratio;
-                       this.parentElement.style.flexBasis = Math.round(220 * ratio) + 'px';
-                     "
+                     class="w-auto h-full max-w-full object-contain cursor-zoom-in hover:scale-[1.02] transition-transform duration-200" 
                      onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
               </div>
             `).join('')}
@@ -2523,13 +2503,10 @@ function renderEnrichedCarnetMode(spot, layout) {
     }
     sectionsHtml += `
       <article class="space-y-4">
-        <!-- Titre et texte en premier -->
         <div class="space-y-2">
           ${sec.title ? `<h4 class="text-base sm:text-lg font-bold text-cyan-200 flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-cyan-400"></span>${sec.title}</h4>` : ''}
           ${sec.text ? `<p class="text-xs sm:text-sm text-slate-300 leading-relaxed text-justify bg-slate-900/60 p-4 rounded-xl border border-slate-800/80">${sec.text.replace(/\n\n/g, '<br><br>')}</p>` : ''}
         </div>
-
-        <!-- Photos juste en dessous -->
         ${photosMarkup}
       </article>
     `;
