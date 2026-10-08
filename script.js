@@ -2476,14 +2476,15 @@ function renderEnrichedCarnetMode(spot, layout) {
       const count = sec.photos.length;
 
       if (count === 1) {
+        // 1 photo unique
         photosMarkup = `
           <div class="w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl flex items-center justify-center p-1">
             <img src="${sec.photos[0]}" alt="${sec.title || spot.name}" class="w-full h-auto max-h-[80vh] rounded-xl object-contain cursor-zoom-in hover:opacity-95 transition block mx-auto" onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
           </div>
         `;
-      } else {
-        // Hauteur commune pour aligner les photos
-        const rowHeight = count <= 2 ? 'h-[380px] sm:h-[450px]' : count <= 4 ? 'h-[260px] sm:h-[300px]' : 'h-[200px] sm:h-[240px]';
+      } else if (count <= 4) {
+        // De 2 à 4 photos : TON CODE EXACT d'origine (1 seule ligne stricte, sans aucun changement)
+        const rowHeight = count <= 2 ? 'h-[380px] sm:h-[450px]' : 'h-[260px] sm:h-[300px]';
 
         photosMarkup = `
           <div class="flex flex-row gap-2 w-full justify-center items-stretch rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2">
@@ -2492,6 +2493,20 @@ function renderEnrichedCarnetMode(spot, layout) {
                 <img src="${p}" 
                      alt="${sec.title || spot.name}" 
                      class="w-auto h-full max-w-full object-contain cursor-zoom-in hover:scale-[1.01] transition-transform duration-150" 
+                     onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+              </div>
+            `).join('')}
+          </div>
+        `;
+      } else {
+        // PLUS DE 4 PHOTOS UNIQUEMENT (vitraux, grandes séries) : passage à la ligne en grille nette
+        photosMarkup = `
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2 w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2">
+            ${sec.photos.map(p => `
+              <div class="h-56 sm:h-64 flex items-center justify-center rounded-xl overflow-hidden bg-black/40 border border-slate-800/50 p-1">
+                <img src="${p}" 
+                     alt="${sec.title || spot.name}" 
+                     class="w-auto h-full max-w-full object-contain cursor-zoom-in hover:scale-105 transition-transform duration-150" 
                      onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
               </div>
             `).join('')}
