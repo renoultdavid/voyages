@@ -8262,13 +8262,11 @@ const travelSpots = [
     id: "hakone_jinja",
     name: "Hakone - Sanctuaire Hakone-jinja",
     country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
     region_admin: "Kantō",
     department: "Préfecture de Kanagawa",
     subdiv: "Hakone",
-    continent: "Asie",
-    flag: "🇯🇵",
-    lat: 35.203097,
-    lng: 139.025652,
     altitude: 730,
     is_island: true,
     island_name: "Honshū",
@@ -8278,10 +8276,72 @@ const travelSpots = [
     century: "VIIIe siècle",
     category: "religieux",
     counts: {},
+    lat: 35.203097,
+    lng: 139.025652,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMvD3ciQXpmwu9IT0f_D5NiJv25AyM6EQ2gmbdqMuaf7dGKoRIvgqabiLl_aFqkDGzuLzywLTKynXXqhi3zibu_kuiSlGireG4XqJ2Kp7SpNARfg7rSalBLCppay06ME0lsmNl1K6wlitbzNVDgji6yUw=w1921-h2635-s-no-gm?authuser=0",
     description: "Niché au cœur d'une forêt millénaire de cryptomérias géants au pied du mont Hakone, le sanctuaire shinto Hakone-jinja borde les rives mystiques du lac Ashi. Fondé en 757 par le moine Mangan à la suite d'une révélation divine, ce haut lieu de vénération montagnarde fut historiquement révéré par les guerriers samouraïs, notamment Minamoto no Yoritomo et Tokugawa Ieyasu, venus y implorer la victoire militaire et la protection divine sur la route du Tōkaidō. Le site est mondialement réputé pour son spectaculaire « torii de la paix » (Heiwa no Torii), érigé en 1952 directement dans les eaux calmes du lac, reliant symboliquement le monde des esprits à l'immensité aquatique.",
     visiter: "Descendre le sentier pavé de marches en pierre plongeant vers la grève du lac Ashi pour admirer le torii vermillon émergeant des eaux, cadrant au loin les collines boisées et les bateaux pirates. Remonter la majestueuse allée bordée de cèdres japonais centenaires parsemée de lanternes en pierre moussues jusqu'au pavillon principal (Haiden). Se purifier les mains à la fontaine sacrée aux neuf têtes de dragon du sanctuaire Kuzuryū-jinja adjacent, réputée apporter chance et santé. Contempler les riches ornements laqués de rouge et d'or de l'architecture shinto traditionnelle, visiter la salle du trésor abritant des armes de samouraïs médiévales, et savourer la quiétude mystique de ce sanctuaire enveloppé par les brumes d'altitude.",
-    link: "https://photos.google.com/share/AF1QipP2x_M2T2jlHQCM_ahzzALakyiWoCRSkhDcC3NQeFMmr2zmlaGVDiWS_ZEihVS-xA?key=dTZwRmhEU1ZnRElUTjI0VmJtMktjMVlzVTF2SW5B"
+    link: "https://photos.google.com/share/AF1QipP2x_M2T2jlHQCM_ahzzALakyiWoCRSkhDcC3NQeFMmr2zmlaGVDiWS_ZEihVS-xA?key=dTZwRmhEU1ZnRElUTjI0VmJtMktjMVlzVTF2SW5B",
+    sections: [
+      {
+        title: "Le mythe de Kuzuryū et le pavillon aux neuf dragons",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNUYGfvOMD8TZD4P-w70zmhCGZg9tSAJJpJtU7zQwkMPJ8sIks9K1zFRQKRDNZZri9NvJxXppdfsLaSmON5UuOE2nY8hmCvln2to5q-O2v38Cpmr8RXd4lLrEbAI8p6Q1PwGvsHSTVKz5VfcABiahEN4A=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPWT-T2S5lPXT92Us1NPYptWL6Z-gOzJMxM-oRv-XqTEcHSjp-FO37HK0Hr2eKAbEJ_P0OyvCyeONDV3OP9vSDKV_GqB5ZhKeWeqIACXQFNASawEshGuvdxcQdniDga8h5h9utA9G35yfjmCInhnLR8gQ=w1586-h2106-s-no-gm?authuser=0"
+        ],
+        text: "La tradition attribue également à Mangan la pacification du monstre aquatique qui terrorisait les riverains du lac Ashi : un redoutable dragon à neuf têtes. Par la récitation ininterrompue de sûtras bouddhiques, le religieux parvint à soumettre la créature et à l'enchaîner à un rocher sous-marin, la transformant en une divinité tutélaire bienfaisante des eaux et de la fertilité : Kuzuryū (le « dragon aux neuf têtes »). Un sanctuaire annexe dédié à cette divinité (Kuzuryū-jinja) se dresse au bord de l'eau, et les pèlerins se purifient traditionnellement les mains et la bouche au pavillon des ablutions (chōzuya) du sanctuaire principal, où l'eau sacrée jaillit directement de neuf gueules de dragons sculptées en bronze."
+      },
+      {
+        title: "Patronage des samouraïs et route du Tōkaidō",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOH4__oqdLNNxPE2HKlANdwduSehaxhAxmb1l7ufvF70JBBXp88433JnoTNdWe9qZfsmtf019mAnYCNvcyipDzT1ARuN4uVB71Q18qo9ZVKMXQsxKx28EU1_DCwp28OgH3ODczgXAHSjsA2Ud7-jJBtEA=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMlbdkjRpadlrNwQas7P5dmQZeqEtuiHlZSZPCMpRPwrzk86K9eIHGPAEHN_AKt1WbhJgp-Stl2Y-0WM6SUlPW3CC6_5TkhnMHMLglMbYrlosrmBjuLrGVSS_LiziMndxRUmqFk8YgVDYJkaaxMKBkaDg=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "Le sanctuaire est indissociable de l'ascension de la caste militaire. En 1180, après sa déroute inaugurale face au clan Taira lors de la bataille d'Ishibashiyama, le jeune Minamoto no Yoritomo trouva refuge auprès des prêtres de Hakone-jinja. C'est dans cette enceinte qu'il formula le vœu secret de renverser ses ennemis et d'unifier l'archipel. Une fois devenu le premier shogun de Kamakura, Yoritomo témoigna une piété indéfectible au lieu, le dotant de terres fertiles et en faisant l'un des protecteurs spirituels du gouvernement guerrier (bakufu).\n\nCette tradition de patronage militaire fut reprise par le clan Hōjō, puis par Tokugawa Ieyasu au XVIIe siècle. Sous l'époque d'Edo, le sanctuaire devint un passage obligé pour les voyageurs bravant les pentes escarpées du col de Hakone le long de l'ancienne route du Tōkaidō reliant Kyoto à Edo, les marchands et pèlerins venant y implorer la protection des dieux contre les brigands et les intempéries."
+      },
+      {
+        title: "L'escalier sacré, le cèdre Yatate no sugi et la terrasse",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO3HOBUO1FpZWqPiwyA-xkKmyxxe70YZUqOXODs95KzkKFNOxfz2p5JIPJ2e7em87rJDgZ9DtUn1sQzwKvVr_oEB9wvclo4PFhChP8nIS21pY0Aaoj06iSOUDLyu5BYIEAeGl_fDIj0aTaiOGA3OzcU1A=w1586-h2380-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOLWexpaH--gjn0IMYETHzGp-LPPVjjFc_6bf4BCNfezvMkRfRVBgNhsG9Vw-VWwVFZe9TE4O-9hj7xC-P4OQ5kGjKtUNioXbQYKTVxpunC0mrGmO_f8skkFpU0NvhVROvKarJrVzIgpU9fqkwCYGwtWA=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOFv5gsiBHdmlQPv3Fy2x_iDI--hTm_BBlb5p_efgNYZTJvidTxXvSI6wGAjgtk7yq5-8snG2QTxv0nw8ST_pWa27NLMG3J6rp7VMeu_EY8vcR7QfUUDaNlwiLtIOSgZIU8ZBpcOuUlDpAuiY_BGs0o5Q=w1586-h2380-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNE0o-i49fTXaofvdZCo_8GzkjYqes__uospsrnq6OafWsotNol4h8jI1tFZcesclo38qZ2pXzHgghu-TZ5W0zfpyhDMcW0Q7RsVxON4OIZI1zWGic8q0vUowHeWhTXov9MX2jfbrX0xdb8tq6atHBE3Q=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "L'accès au sanctuaire s'effectue par un long escalier de pierre comptant près de quatre-vingt-dix marches, flanqué de lanternes de pierre vermillon et de mousses épaisses. L'allée est dominée par des cèdres gigantesques dont certains dépassent huit cents ans d'âge, notamment le vénérable Yatate no sugi (« cèdre aux flèches plantées »), devant lequel les samouraïs tiraient rituellement des flèches avant de partir en campagne.\n\nAu sommet de l'escalier s'étend la terrasse sacrée où se dressent le pavillon d'adoration (Haiden) et le sanctuaire intérieur (Honden). Entièrement laqués d'un vermillon éclatant rehaussé de touches d'or et de toitures courbes en écorce de cyprès, ces édifices offrent un contraste saisissant avec le vert sombre et profond de la forêt environnante."
+      },
+      {
+        title: "Architecture vermillon et enceinte sacrée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO0lH9K76nsI6zg4QPI5ZALICJX6J6HE84k7Gs-p8kdEPgXypnpkmAcp7btz3xUaNtUhSSP9HIV6MXmeMuoOzeoqfmIdqmp2gjPENNxvA60MUe8oVFZUaMExNLPod1ngrINuDBUQAJQIjhLaBhdPvjgqQ=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPg7BKdCtKGE64WaLpTLA7ul4GRZHdxde61FjuFkeJH1ueNRCYFwBe3vODU73WdZmmlz0PcrHBFqFt4qjyscQRIpZcbR93VTeB4Bo6S3wxysYcTUILbgmZuPm9tnCForXX2JNMOrXDMY86OxMsOsXCYFw=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM_NDMN5AEkpj5Jknk7yuXRDbbCGXr1B3AGAd7G4mY7ALwQQOqTkL3RIhgn4Q9ZaHNd2uZJJ3pgKvCpkAyDioMAflvbValKlnvXKRt7ovkUeU8l1cR630MEOpnkh7NtYJWmxwTlVSIpRM40zrIiNVKejA=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Agencement Gongen-zukuri et divinités tutélaires",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNR3JMPGaKEKIjbr6Ks7-rWgVxUkP06T43P204GtD81TaLtQZuQS3zOU9vEFswMKMnDU9LpIyixvYHmktlh8H-xbQEZnKbT_rZEHOhJitwUI2nyGGs85WpYDm8KaKV_ymNTIimYsYD3NdDG9Mozm2xr9w=w1586-h2380-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN3X9KFFkTp34Jgiv-iBl7ogVqWPMg_KHg3j93V3NsO-Z95LoW-ibnq0O5qUcOme4YtIZ8Y5sJSaQ05DcfTK_YMNmITINJLFtz5NjksEGO70qbnt6H1-Gco_YqZ_JyDAQIw2zHPIcS9_Nm7vtRe5enwPQ=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMIndgWAzE32apoLrHpAhygvK2TUOBgmjNQh4dgd6F8JCyzoA_HLZf239ITgmiJSKPARUMvUBnIm929ElX0CH-3eR28AKV5SJ76OLjIXcS7ixqzWhg7mhwhLsOHhIFn7REDPA8M2kAtol0ooXGMzg0tjw=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "Les édifices principaux s'articulent selon la typologie Gongen-zukuri, un agencement shinto hautement raffiné où le pavillon d'adoration (Haiden) et le saint des saints (Honden) sont reliés par une antichambre dallée intermédiaire nommée Heiden, le tout abrité sous une toiture continue en écorce de cyprès. Le Haiden, largement ouvert aux visiteurs, déploie une façade vermillon rehaussée de ferrures en bronze doré et de bas-reliefs polychromes figurant des pivoines, des vagues et des phénix."
+      },
+      {
+        title: "Rituels du Haiden et shintai du Honden",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP1kAVPbXglm1GDdP_HB3vBZIfxUihIzWd8dbotffWJI10akuvKW1leRDCWez5ga6mOdoewEfgr7rpShPqQZQQMBZC_v9euVCcHQVsEHz0__Z8YHxjHWCAMRn8ikZMyC4ci7kkdUk0MjYW09c6Sg5zihw=w1190-h896-s-no-gm?authuser=0"
+        ],
+        text: "À l'intérieur, les fidèles font tinter les cloches suspendues au bout de lourdes cordes tressées pour avertir les divinités avant d'exécuter la salutation rituelle à deux inclinaisons, deux battements de mains et une inclinaison finale. Plus en retrait et surélevé sur une estrade ceinte d'une clôture de bois sacré, le Honden abrite les réceptacles spirituels (shintai) dans lesquels résident les trois grandes divinités tutélaires du volcan : Ninigi no Mikoto, Konohanasakuya-hime et Hoori no Mikoto."
+      },
+      {
+        title: "Le Torii de la Paix flottant sur le lac Ashi",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMvD3ciQXpmwu9IT0f_D5NiJv25AyM6EQ2gmbdqMuaf7dGKoRIvgqabiLl_aFqkDGzuLzywLTKynXXqhi3zibu_kuiSlGireG4XqJ2Kp7SpNARfg7rSalBLCppay06ME0lsmNl1K6wlitbzNVDgji6yUw=w1586-h2176-s-no-gm?authuser=0"
+        ],
+        text: "L'élément le plus célèbre du complexe se situe en contrebas du sanctuaire, au bord immédiat de l'eau. Planté directement au fond du lac Ashi et accessible par un petit ponton de pierre où viennent clapotis des vagues, le Torii de la Paix (Heiwa no Torii, 平和の鳥居) dresse sa haute silhouette rougeoyante face à l'immensité lacustre.\n\nÉrigé en 1952 pour commémorer la signature du traité de paix de San Francisco consacrant le retour de la souveraineté du Japon après l'occupation d'après-guerre, il a été complété en 1964 par une plaque frontale calligraphiée par l'ancien Premier ministre Shigeru Yoshida portant le mot « Paix » (平和, Heiwa). Par temps serein, le torii semble flotter entre le bleu des eaux et la silhouette tutélaire du mont Fuji se découpant au loin au-dessus des collines."
+      }
+    ]
   },
   {
     id: "hakone_taikan_observation_deck",
@@ -8312,13 +8372,11 @@ const travelSpots = [
     id: "hakone_owakudani",
     name: "Hakone - Vallée Volcanique d'Ōwakudani",
     country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
     region_admin: "Kantō",
     department: "Préfecture de Kanagawa",
     subdiv: "Hakone",
-    continent: "Asie",
-    flag: "🇯🇵",
-    lat: 35.243178,
-    lng: 139.020073,
     altitude: 1040,
     is_island: true,
     island_name: "Honshū",
@@ -8328,22 +8386,59 @@ const travelSpots = [
     century: "",
     category: "volcan",
     counts: {},
+    lat: 35.243178,
+    lng: 139.020073,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNwITNCC9nLODN7BfHhEhkhAiCboaLhxDjnZVGaGlCQmx2edqv_ZViNN6xtUkBJi8MUbgnZg-O2w1B_bxM4lo20ilmXYlskUw4hHmLLcAGsev6zhtY-YXdA2rRnAexEqtJjB_Wx-Y1IA9m76AxdcJnLcQ=w2489-h1660-s-no-gm?authuser=0",
     description: "Anciennement nommée Jigokudani (« la vallée de l'enfer »), Ōwakudani est une impressionnante gorge volcanique active née de l'effondrement partiel du mont Kamiyama lors d'une gigantesque explosion phréatique il y a environ trois mille ans. Ce paysage désolé et minéral, aux pentes blanchies par les dépôts de soufre, est perpétuellement balayé par d'épaisses fumerolles toxiques s'échappant d'évents rocheux sous haute pression. Des sources thermales bouillonnantes y jaillissent à plus de 80 °C, exploitées depuis des siècles pour alimenter les célèbres stations d'onsen de la région et perpétuer des traditions culinaires volcaniques insolites.",
     visiter: "Arriver en téléphérique panoramique (Hakone Ropeway) pour survoler les abîmes fumants de la caldeira et contempler le mont Fuji se dressant à l'ouest. Suivre les passerelles d'observation sécurisées au milieu des vapeurs soufrées crépitantes et des cours d'eau bouillonnants aux teintes ocre et grisâtres. Goûter impérativement aux célèbres kuro-tamago, des œufs de poule cuits directement dans les eaux géothermales : la réaction chimique entre le fer et le soufre noircit leur coquille, et la légende locale affirme que chacun d'eux prolonge l'existence de sept années. Parcourir le centre géologique pour comprendre l'activité volcanique sous-jacente de l'arc d'Izu.",
-    link: "https://photos.google.com/share/AF1QipMYB4APoUA2rYtsXgB4ouiv4REvI6AMgBC-ViPLgUUkc69iEXL7A58bbvj1oZtVrw?key=TW5JVEJ1SF9FWVNyS3NVWXYwUVpUV2M3dm85eG1R"
+    link: "https://photos.google.com/share/AF1QipMYB4APoUA2rYtsXgB4ouiv4REvI6AMgBC-ViPLgUUkc69iEXL7A58bbvj1oZtVrw?key=TW5JVEJ1SF9FWVNyS3NVWXYwUVpUV2M3dm85eG1R",
+    sections: [
+      {
+        title: "De la vallée de l'Enfer à Enmei Jizō",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO6FVM_kgYHfNdIQoxbYagA1bEPAgz9J7NkgTPsKDkeRHNPWQ33KUDGsucbxLVkgy-VSI4yRY5qLBFuDJZjFZQhbzR-t-Nuj1w2gFW48w245D1w2mB426opMJM6wTb8UZl1CTZviF8d0i-KkpMxnOGHcQ=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPskcBmBi9dMm-YtVPUWOc5g8B4hPDROLNlxr44u2N0BcdqvuQM8jtXhh0KuoGwXL3kcsa60EIbz2M8POOXCGrOdec9WTKnP3ihi_Yyh8GAyGM0c5CkumjM-vZC8rKzbCTq98VqYXzDQoGYUv4gZkv0EA=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "Longtemps craint par les riverains pour son hostilité et ses émanations toxiques, le site portait autrefois le nom évocateur de Jigokudani (地獄谷, « la vallée de l'Enfer »). Ce n'est qu'en 1876, à la veille d'une visite officielle de l'empereur Meiji et de l'impératrice Shōken, que les autorités le rebaptisèrent sous son appellation actuelle, jugeant inconvenant qu'un souverain impérial foule une terre associée aux tourments infernaux. Malgré sa dangerosité géologique, le lieu devint très tôt un foyer de dévotions montagnardes associées au bouddhisme ésotérique. La légende rapporte que le grand maître Kōbō Daishi (Kūkai) visita la gorge au IXe siècle et, ému par la détresse des âmes errant dans ces vapeurs sulfureuses, y sculpta une effigie protectrice du bodhisattva Jizō, l'Enmei Jizō (« le Jizō qui prolonge la vie »), toujours vénéré au cœur du site par les fidèles implorant santé et longévité."
+      },
+      {
+        title: "Les œufs noirs kuro-tamago et la longévité",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMJIn6WuZ0AsnVhMLITc55x-6-pLI8JJZD5vFFlghOdXO0UoqNjhaDd-t_i4xsyytQx8YKNmV33V8MszSxTTNMsWcz_J-KII9XZiEBmjLccBuQeP8yy89ytrqhPRF9gADveoMwOPgFj9bZx3YDhGOzxnw=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNC2TUCBFUSoxUR8sI8Oo_Dc-8cEK_eTbTUg9Km7uJ4U84rffN_6pq35X0YZ_jDAWDUusTBUpDYEUmhqVzRAjy4oY6lsatv2g0JSl7l4dJrG6aH5MwDYH7bwaTXupOsY8yVUCNSnFAIfRqsM3E5RRJBhA=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPJBtPcSXcej9ibbPILAl5HX_e2VSiTIhxXN9-Oh8GhtugfuGl-lBLz2USrCam-bpTSR9t8Cg7sQsrNFnY8BVJ-hOfWIDF-etBqXfDY1lXdA0y8PCDMMko9K-YgOvzl4GT-KPXK3AyUvXxsgssevyDaNA=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "La notoriété universelle d'Ōwakudani repose aujourd'hui sur sa curiosité culinaire emblématique : les kuro-tamago (黒卵, « œufs noirs »). Il s'agit d'œufs de poule ordinaires cuits directement dans des bassins naturels d'eau thermale saturée en minéraux à environ 80 °C, avant d'être transférés dans des étuves de vapeur volcanique à 100 °C. Une réaction chimique naturelle se produit durant l'immersion : le fer présent dans la source d'eau chaude réagit avec le sulfure d'hydrogène pour former une pellicule de sulfure de fer qui noircit intégralement la coquille, lui conférant une teinte noir de jais uniforme et mate. L'intérieur reste celui d'un œuf dur classique au blanc immaculé et au jaune fondant, discrètement relevé d'une subtile note minérale. La croyance populaire, étroitement liée aux bénédictions de l'Enmei Jizō, assure que déguster un de ces œufs ajoute sept années à l'espérance de vie de celui qui le consomme."
+      },
+      {
+        title: "Activité géothermique et alimentation des onsen",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPP7zodTmtlSoTH1sd5q2ukdR6Y3EpTjgCN7VwXjPaJ9c6w_Fs1wo_FhBAZ_5Cegzj5XRWv09kDDhlDKunYrd8JKQRM21zKOOj3MsM_dG8YxH0NL95b-PXK9UwcPqro-454JhHEF4UOLLnbrxBX7CtmnA=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN0TZ5c1v9Im3ZDfh2XysAEiOal6oqoZ2ZtUhSIvD3RaIdFg4ZJ91D7T0tE26BnGjGFqHz1Cp-ETKPdDTjmyVd3nq8b-8KPqpDz-Tg8Y5qrOxIijE2sepN49OFOSTqsMOyFAhhKVoA0PHSpCKPtjspG0g=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNwITNCC9nLODN7BfHhEhkhAiCboaLhxDjnZVGaGlCQmx2edqv_ZViNN6xtUkBJi8MUbgnZg-O2w1B_bxM4lo20ilmXYlskUw4hHmLLcAGsev6zhtY-YXdA2rRnAexEqtJjB_Wx-Y1IA9m76AxdcJnLcQ=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "À Ōwakudani, les fumerolles rejettent en continu des panaches de vapeur d'eau et de gaz sulfureux à près de 100 °C, révélant la présence de la chambre magmatique sous-jacente. Si la collecte historique du soufre natif — jadis utilisé pour la poudre noire et la médecine — a été abandonnée à l'époque moderne, le site fait l'objet d'un captage géothermique original : de l'eau de source pure est injectée au contact des évents volcaniques pour produire artificiellement une eau thermale très chargée en minéraux, acheminée par un réseau de conduites vers les hôtels et bains (onsen) des localités voisines de Gōra et Sengokuhara. En raison du statut de parc national protégé et de la haute corrosivité des gaz acides, aucune centrale géothermique de production électrique n'y est implantée, l'énergie du sous-sol étant réservée au thermalisme et à la cuisson des célèbres œufs noirs."
+      },
+      {
+        title: "Panoramas sur les fumerolles et les crêtes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOUkjD3-HY63AwaiRGjsmwxlZiL3eAKxbEyIeLIJwn0cNgLWJyJjaIy0_guAS0IrfoNKyHSCWhOMZ_HAXe55a9Pb_iOHnrePbqkX6ZNAesmBTuVXBv_jvr6SGCRBVKNhvyOigmQd4dyx6ZwSxtH8UfYzw=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPz9NJbNQfkbfMwhZ13FBIc2f-i5XADqvfMgrWqBtgI8n9UtpFkT5ld9AT-TePEHKoZnz8M-jLEU_rypBW6OBPlyNCDFTZWt78rzVVqgFZ-fCwH4MQYXP--f-9UCWTsh3HD53pvVW74W-agfALeYLQLUg=w1586-h2106-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNJlpPZ5UbLuPR3PKvP9jT6B03Ppx7bK__Jb7Q2i_nI_5cq6_IP_6vuE3LBKwhBjwI7QOnDhE1zpCxscrEX-FTEVzD2qfiySdUFygGpW_EffAfisqXPycQ4pPVjfYtRaE7ab6xMMfAse_0I6oR_-3INNA=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "fuji_oshino_hakkai",
     name: "Oshino - Sources Sacrées d'Oshino Hakkai",
     country: "Japon",
+    continent: "Asie",
+    flag: "🇯🇵",
     region_admin: "Chūbu",
     department: "Préfecture de Yamanashi",
     subdiv: "Oshino",
-    continent: "Asie",
-    flag: "🇯🇵",
-    lat: 35.460160,
-    lng: 138.832079,
     altitude: 935,
     is_island: true,
     island_name: "Honshū",
@@ -8354,10 +8449,49 @@ const travelSpots = [
     category: "star",
     unesco_name: "Fujisan, lieu sacré et source d'inspiration artistique",
     counts: {},
+    lat: 35.46016,
+    lng: 138.832079,
     image: "https://lh3.googleusercontent.com/pw/AP1GczN4GaFFvDwOoo39gh_l5ngCtHI9FWc0xniHMgArYQTokdnxLwTTuuMFUeJSL-wtEuIW9SmibsomjyIdGFHxpChFbcEZuiS92OyAUt8BQm7uCtvDDxZW0eC06ljjAeZMVt47FLtpnH0wAnDXn2V7A75vnA=w2966-h1978-s-no-gm?authuser=0",
     description: "Écrin préservé niché sur le plateau entre le lac Kawaguchiko et le lac Yamanakako, Oshino Hakkai regroupe huit étangs de résurgence limpides issus de la fonte des neiges du mont Fuji. Filtrées pendant plus de huit décennies à travers les épaisses strates de laves poreuses du volcan, ces eaux atteignent une pureté et une transparence cristallines exceptionnelles, maintenues à une température constante de 13 °C toute l'année. Vénéré depuis le Moyen Âge comme un lieu de purification rituelle (misogi) avant l'ascension sacrée du Fuji-san, le hameau a conservé son charme bucolique traditionnel avec ses vieilles fermes au toit de chaume, ses roues à aubes en bois et ses saules pleureurs se reflétant dans les bassins.",
     visiter: "Déambuler d'étang en étang (notamment Waku-ike, Deguchi-ike et Kagami-ike) pour observer la fascinante clarté de l'eau révélant des fonds rocheux tapissés d'algues émeraudes et de grosses truites arc-en-ciel nageant en suspension. Se désaltérer directement à la fontaine jaillissante en forme de dragon crachant l'eau pure du Fuji. Admirer le reflet parfait du mont Fuji dans le bassin Kagami-ike (« l'étang miroir ») lors des matinées calmes et ensoleillées. Flâner le long des échoppes villageoises proposant des spécialités artisanales arrosées à l'eau de source, comme les nouilles soba fraîches, les galettes de riz soufflé grillées au feu de bois et le kusa mochi à l'armoise cuit sur plaque.",
-    link: "https://photos.google.com/share/AF1QipOKa7sY5q9IwYyaNjgeYx1zb7ZhC6prQpD291yo9OZ-jOG6y5VxEPVBkxh1T7KFnw?key=TDJUWTl2SVhxaXU5R1AwVGpvNVVIXzNhelZJbnF3"
+    link: "https://photos.google.com/share/AF1QipOKa7sY5q9IwYyaNjgeYx1zb7ZhC6prQpD291yo9OZ-jOG6y5VxEPVBkxh1T7KFnw?key=TDJUWTl2SVhxaXU5R1AwVGpvNVVIXzNhelZJbnF3",
+    sections: [
+      {
+        title: "Filtration volcanique et résurgences cristallines",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNhTLBOG0cXpyLtwlnS_7VKMLThVEfJliws42_cm0C5JFlgwG8tHgIR0XP9kPO9U63hxQZtXHVTInD1hoWsnAu59HnQeaLVxV_p12hHRp7F02mEZb6nXvRDUzrO3TmyZJ8KHa7jkvX_j6-s__x2sHi_SA=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN4GaFFvDwOoo39gh_l5ngCtHI9FWc0xniHMgArYQTokdnxLwTTuuMFUeJSL-wtEuIW9SmibsomjyIdGFHxpChFbcEZuiS92OyAUt8BQm7uCtvDDxZW0eC06ljjAeZMVt47FLtpnH0wAnDXn2V7A75vnA=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "L'eau de ces bassins provient de la fonte des neiges et des précipitations s'abattant sur les pentes du volcan. Filtrée et purifiée très lentement pendant près de quatre-vingts ans à travers d'épaisses couches géologiques de basalte et de lave poreuse, elle jaillit à l'air libre à une température constante d'environ 13 °C. Cette pureté minérale confère aux bassins — tels que le Waku-ike, le Deguchi-ike ou le Kagami-ike — une clarté quasi irréelle d'un bleu saphir profond, laissant apercevoir les fonds tapissés d'algues ondulantes et les truites qui y évoluent en suspension."
+      },
+      {
+        title: "Pèlerinage Fuji-kō et fermes d'époque d'Edo",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNYNuvYWaoWGvIFDubGNrzWZDBaNyPGW5Pdh1MTJTk4z_iiX7bzruV2Kyz37Fkopz6Yu-9me9ILobHnmWvNeVUUcYM27xjmkzwKLTbfjlM33_2Dg22cPr8r0V-Uf5zgct17kCGtgF38jnAP5XBV9L-fgw=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNFYAfmVAzIKsq2g1QOOF1gakiTu8Wpa0GUKhjVPbiZRFJnuPTufeX1fMRSfhrxqr0idnsBgJN2WHNr6dz_PaEJ_ag1vk64A0ro9lp-krlUXFpFVUwm9E4o2MwnF6ZxMuSVdkR_mAil-dtwmzNCH0NX3A=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMwwATP5uWz_MCfkGCOZHeuq9aoGj40Lc7ptb_09tKVM-mAe53z3jhA5HPpzP2v3h6QlgZ568mECv5ErvCeU6fZFBSg7iIMlhCTDDebZU1UUcPG8YLGKAxilY_iT_4sHlHbrH9_Wx5Dfsxp8ngZrq5FAQ=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "Inscrit au patrimoine mondial de l'UNESCO au titre des éléments constitutifs du mont Fuji, Oshino Hakkai était autrefois un haut lieu du culte religieux Fuji-kō. Dès l'époque d'Edo, les pèlerins en route vers le sommet sacré y faisaient étape pour pratiquer le rituel du misogi, une immersion purificatrice dans chacun des huit bassins afin de laver leur corps et leur esprit avant l'ascension. Aujourd'hui, le cœur du bourg perpétue l'atmosphère d'un village rural traditionnel avec ses fermes aux toits de chaume (kayabuki), ses roues à aubes en bois et ses étals artisanaux servant des nouilles soba préparées à l'eau de source et des kusa mochi grillés à l'armoise."
+      },
+      {
+        title: "La présence du tanuki dans le paysage villageois",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNdRNjoYyp9qssof2qdbauZkI0Vac3jgyuKIZAJ4CFUePWycm-psb1mXAAYgYGxJMKkJqbERjtrUPThaRuLUPPFF6svgIc3Q6Bx7JbF4yYq8pWZ481dsf0WOzfL6fiI9WnS4STcK8IdndympOnZbTWjOw=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMMBsfkJZLBb4WPBrHXI89n_xPFxEtKLI27BQl3Ix3yOvAgzynRlquexQS9dI3vv_APLi4pcRdba5hwQu2S5pSyed-VoGjsclBvoqE0V0CMjeiLVNw3MDOhF3RpDOx6hIrX8p6av_9sb6lOO9nU4shOig=w1586-h1057-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNA3abeHuy3vwkdTTxErEcNd2Ri-nTSe8X8A8XVtyQ8nZQ3pMT_TdXK4C4YntTB0SbhM6HPL6xFhHA02-mdCWK17nXvWp4I8a5M18HwwWV3l-OJXWepjeaz-QojGh-NMpiu5OhqsfvKPcw6JYMFHBmU5A=w1586-h1057-s-no-gm?authuser=0"
+        ],
+        text: "Ce petit mammifère ventripotent posté devant presque chaque échoppe, restaurant ou maison n'est ni un raton laveur ni un blaireau : il s'agit d'un tanuki (chien viverrin japonais, Nyctereutes viverrinus), un canidé indigène bien réel élevé au rang de créature mythologique majeure dans le folklore insulaire."
+      },
+      {
+        title: "Folklore de Shigaraki et les huit bénédictions",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP0qjKyD-k4YkcpiLhXUks5KhB5fFsehgVzTAJMlJGM3SoDedLgYfU5iWDcTjkujNFaqK9gnQAh9Gdu3SQajEZUDYwIz8oqNPpBlRiX2CeUhHleotp1j_5m52aGECzcLW1JGQ1T33hBq3pEhCmlh-EvlQ=w1586-h2115-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMTAQkLz8Rr-9cDf_pshncfrtgwv7eFpCe123Ih21FgkrgpGxD0TR7bZN3Vo_GGoPnu9iF8gvAgPnaagJMJjIGWUigFtW6VmyXpmCuTCiPT9ITyKdfT7-XVwoWUt1Ky4ef-opVnemO0lM3ex4vBvYLBag=w1586-h2115-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMkL6aBjqIFprsmzZo17yfmRaZsSM5sV4xSSXGE3DvEvZz_P-BC7LeRFLIOQvnEi7f34ErCrMIiEbC607bRqpzPyeC7VTo8s8MsPxI3nWCGddTHGAMMf6_NDUPr9ysOdPilf4mAh2uufHq1bk8eNYE5cA=w1586-h2106-s-no-gm?authuser=0"
+        ],
+        text: "Dans l'imaginaire populaire et les contes traditionnels (yōkai), le tanuki est un esprit malicieux et jovial, maître de la métamorphose (bake-danuki), capable de changer d'apparence à volonté en posant une simple feuille sur son crâne. Si les légendes médiévales lui prêtaient parfois des tours pendables, son image s'est adoucie à l'époque moderne pour devenir le symbole absolu de la bonhomie, de la convivialité et de la prospérité commerciale.\n\nLa statuette en grès émaillé photographiée ici provient de la tradition céramique de Shigaraki (Shigaraki-yaki), dans la préfecture de Shiga. Chaque élément de sa silhouette répond à un code symbolique précis, souvent résumé par les « huit bénédictions » (hasso saiki) :\n\n- Le chapeau de paille (kasa) : la prévoyance face aux intempéries, aux accidents et aux imprévus du destin.\n- Les grands yeux ronds (me) : la vigilance, le discernement et la lucidité pour observer le monde et saisir les opportunités.\n- Le visage souriant (egao) : la bienveillance, la politesse sincère et la bonne humeur pour attirer la sympathie des clients et des proches.\n- La gourde de saké (tokkuri) : la vertu, le partage désintéressé et l'art de savourer les plaisirs simples avec modération.\n- Le carnet de comptes (kayoichō) : la confiance mutuelle, l'honnêteté et la fidélité rigoureuse dans les engagements financiers.\n- Le ventre rebondi (hara) : le sang-froid, la générosité d'âme et l'audace tranquille face aux tourments du quotidien.\n- La bourse d'or (kinbukuro) : la prospérité financière et la multiplication des richesses, traditionnellement liée au travail des métaux précieux.\n- La queue bien campée (o) : la stabilité, la constance et l'assurance d'une issue favorable (owari-yoshi) pour mener chaque projet à son terme.\n\nSur la statuette s'ajoute également la plaquette votive suspendue au bâton Kaiun (開運), invitant l'ouverture de la porte à la bonne fortune."
+      }
+    ]
   },
   {
     id: "fuji_nakanokura_pass",
