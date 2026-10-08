@@ -5570,7 +5570,42 @@ const travelSpots = [
     lng: -3.184286,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNNrJ5kXK5P9blc5NUJM9I9SKfvkBQzB41t0_4j9U2Jt4uRiLJcIMMMxjGRhDteu78eU_s3lB8_fe2xkKMQ7KeLL4reV9u3NBmhZhY3ml5Du7JWCEMmmzWrXvj7wbQxZH82-niyf-bnB0hkGBM6LjSTeA=w2653-h1769-s-no-gm?authuser=0",
     description: "Relié à la terre ferme par un pont de pierre séculaire traversant les eaux changeantes de la ria d'Étel, l'îlot de Saint-Cado est un lieu emblématique du patrimoine maritime et spirituel breton. Bâtie sur un ancien tertre insulaire où le moine gallois Cado fonda un ermitage au VIe siècle, la chapelle romane du XIIe siècle dévoile une sobre nef de granit couverte d'une charpente lambrissée, un autel dédié à saint Cado et une tribune sculptée remarquable. Le hameau de pêcheurs aux venelles fleuries de roses trémières s'organise autour de l'édifice, s'achevant au sud par un calvaire monumental à degrés et une fontaine de dévotion semi-submersible léchée par les marées.",
-    visiter: "Traverser le pont de pierre au ras de l'eau pour pénétrer dans le
+    visiter: "Traverser le pont de pierre au ras de l'eau pour pénétrer dans le cœur préservé de l'îlot piétonnier. Entrer dans la chapelle pour s'asseoir sur le « lit de pierre » de saint Cado, réputé autrefois guérir la surdité, et contempler les ex-voto de bateaux suspendus sous les voûtes. Poursuivre la promenade le long de la jetée sud jusqu'à la fontaine d'eau douce régulièrement engloutie par la mer montante, tout en admirant la lumière changeante qui embrase les vasières et les parcs ostréicoles à marée basse.",
+    link: "https://photos.google.com/share/AF1QipM-ClSqzBHKnPezVkqhkJHWn9QGmLqOlNITgMxupEkgiHqmmDJdOjonEseyFWPNkw?key=a1lHZWpZQldzQkxxZEt0Z0w0LTRTcVIzWWVLRDln",
+    sections: [
+      {
+        title: "Chaussée de pierre et vues panoramiques de l'îlot",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMNJaDH9uKzogr4EmZY16S9eIIFUrAnco-2iSO6v5rd-WS0rLRY1opMhc3xZGf9DmNkSYV0rxu0k5-ixUgWfg_6giN43483ohjrRhIUwEI_jhWnqeHU87Hol0NWCGn-ctiG7NnpHc9eCfPj1I0v17VWYg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNNrJ5kXK5P9blc5NUJM9I9SKfvkBQzB41t0_4j9U2Jt4uRiLJcIMMMxjGRhDteu78eU_s3lB8_fe2xkKMQ7KeLL4reV9u3NBmhZhY3ml5Du7JWCEMmmzWrXvj7wbQxZH82-niyf-bnB0hkGBM6LjSTeA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPUPaVtt3juxXWxhq99a_SXNpZhfJdJx-tpOxKujvyXDr7Hrx0REIv-y7xeN1GXU9LV4d4Cw9T4I0N2mURPzdCORxByks1QWcPkof7TcEiJufHrFI_w_PaVJgwfjvcrsQy2QDr-npwjtXAkvCPrvxHXUg=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La chapelle romane Saint-Cado et le lit de pierre",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNZks32vFjmUsI_hXt5VS_if9yHYQI9rkR0W9KQS395f8kuVNQ0FI1YX-PAl2uM_i4abTnX-_C7_WEn6YT76IFQbiGrfFwgG1jAeN-Hp7mzpkHe-PcyU-8OLi9kJc3t3OaRoNoDgxK9-AHmPEhebZieNQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOnZksNnthR04tby3iunYPEZGcXBhGVYsPLvzHHFhzJ2C5pLJQknSNUuoE6a3pUb9Au7Z1KcZoLNKuia6RD_NvREo8NKIM16irFvCKeqpqOiNRGi2SfrU7PwKnKxN6NNxD7qVVM7XF77YSWdZPtCEpbTQ=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: "Au centre de ce village de pêcheurs aux ruelles resserrées s'élève la chapelle romane Saint-Cado, édifiée au XIIe siècle par les moines bénédictins de l'abbaye de Quimperlé sur les bases du sanctuaire primitif. L'édifice en grand appareil de granit présente une nef sobre voûtée en berceau de bois, des chapiteaux sculptés de motifs géométriques et animaliers, ainsi qu'un autel en pierre creusé d'une cavité funéraire appelée « le lit de saint Cado », où les pèlerins sourds ou malentendants venaient glisser leur tête pour obtenir la guérison par intercession du saint."
+      },
+      {
+        title: "Le calvaire monumental à degrés de 1832",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMtVH3cqQoSxrLZMAjHB2SJNgnYBy6w4tVHLMG_mC9AF9nWT7Q2HG3sJWRCrfLM0UmrHeyKPbi8cY01j_VaZycYAIrtxZY29X-b7B_tDJqVLgo-_kjpEvPCiRTDsYArC70u593FmvUACMjkYCPj5J6BuQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNaLYXldCv9Vj5_pFvu0zeiwCTX7VEfdrTzX_OsYuuKAaY74a-G3-6JCVh22QcF0Xe2XxnS3vrd8t_RFOfhdQ3HuE8RtcHkN5bXQbXZ9zitI5M3oR5JWhQ0Qs6fct4rHhoqKAZpbZC4lCnOx0-2-35IPA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "À proximité immédiate du parvis de la chapelle, un remarquable calvaire monumental en granit érigé en 1832 domine la ria de toute sa hauteur. Bâti sur une imposante base carrée accessible par deux volées d'escaliers latéraux, il supporte une croix ornée d'un Christ en croix et d'une Pietà, dont les reliefs sculptés de style naïf représentent avec force la Passion du Christ et les instruments du supplice, servant de repère solennel lors des pardons maritimes."
+      },
+      {
+        title: "Fontaine de dévotion semi-submersible et estran",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPOf4XlxzdPI3Kgk8BE3cQeapPNIawpibUghklLrz6xOwM_Ry79stvMlbon2qKeRn02RgGrbuNhYW9AJKRROga9iuq1pSh8hQHDxmIkvGzshzRmWqV5kZyS4dsuaEnOeBRqZEbq7ZCZNrWecWHt_-Oiew=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOcCYJjFzWCaT-W31CTGkBocYHAUWRl5aInxZ8MCAb58xHPWKhtCcOTtujD31gEh1IYcJPX0YlJwP_gchn-50PMEe1_GUi_fmUmtglDy0NlIjKHenTfuS1qjlvxao2xIEs-xI8KrR7yrmnJEULuEyrFHQ=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: "Plus bas sur l'estran, au pied de la digue sud, la fontaine de dévotion du XVIIIe siècle offre une singularité hydraulique captivante : semi-submersible, ce petit édicule en pierre surmonté d'un fronton et d'une statue du saint patron est entièrement recouvert par la mer à marée haute et ne réapparaît qu'au jusant, laissant s'écouler son eau douce miraculeuse que les fidèles recueillaient traditionnellement pour soigner les affections de l'ouïe et protéger les marins bravant la barre d'Étel."
+  },
   {
     id: "belz_ilot_nichtarguerc_maison_bleue",
     name: "Ria d'Étel - Maison de Nichtarguér (Maison aux volets bleus)",
