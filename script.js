@@ -2483,17 +2483,22 @@ function renderEnrichedCarnetMode(spot, layout) {
           </div>
         `;
       } else {
-        // Multi-photos : hauteur commune synchronisée, aucun rognage, largeurs naturelles
-        const rowHeight = count === 2 ? 'h-[360px] sm:h-[420px]' : count === 3 ? 'h-[260px] sm:h-[300px]' : 'h-[200px] sm:h-[240px]';
-        photosMarkup = `
-          <div class="flex flex-row gap-1.5 w-full justify-between items-stretch rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-1.5">
-            ${sec.photos.map(p => `
-              <div class="${rowHeight} flex-1 min-w-0 flex items-center justify-center overflow-hidden rounded-xl bg-black/40">
-                <img src="${p}" alt="${sec.title || spot.name}" class="w-full h-full object-contain cursor-zoom-in hover:scale-[1.01] transition-transform duration-200" onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
-              </div>
-            `).join('')}
-          </div>
-        `;
+        // Multi-photos : disposition dynamique type Google Photos (largeur proportionnelle au ratio naturel)
+const rowHeight = count === 2 ? 'h-[360px] sm:h-[440px]' : count === 3 ? 'h-[260px] sm:h-[320px]' : 'h-[200px] sm:h-[260px]';
+
+photosMarkup = `
+  <div class="flex flex-row gap-2 w-full items-stretch rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2">
+    ${sec.photos.map(p => `
+      <div class="${rowHeight} min-w-0 overflow-hidden rounded-xl bg-slate-900 transition-all duration-300" style="flex: 1;">
+        <img src="${p}" 
+             alt="${sec.title || spot.name}" 
+             class="w-full h-full object-cover cursor-zoom-in hover:scale-[1.02] transition-transform duration-300" 
+             onload="this.parentElement.style.flex = (this.naturalWidth / this.naturalHeight);"
+             onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+      </div>
+    `).join('')}
+  </div>
+`;
       }
     }
     sectionsHtml += `
