@@ -6473,9 +6473,27 @@ const travelSpots = [
     century: "XVIIe siècle",
     category: "star",
     counts: {},
-    lat: 34.996780,
+    lat: 34.99678,
     lng: 135.781038,
     image: "https://lh3.googleusercontent.com/pw/AP1GczO89GGyb1y2h5z9SawUzqCQAA_fJCznZbWITNy8o9VbHfvAvTc-XeSgUsGhkUv6pFAsT5SHvxTteKTr2VHHCoaXfiR1h50UUGmkJh5L7UnG9vnkjnK6Zf2-LPCqrCsEyaWCjlObZIfh-JvA63M2Adl5TA=w2549-h1699-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPhFVZSgbroVZf0YQnREPqy5DNu6fWjZlmFA5TzBGlcChlR-oY4BbsHjMeXc0SkECtg73E2CQDUKC1VGrru1Pca1oNRZg94EHpRR0psu3ylnLxIcJuAvb3s95-wudsP8dIqDKylT9ehmjWMgVGo3xPmbA=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMG9YYdfoiDUHz4cTCCMwvOXa_qBEU7d3mHJHvULq8-mRsZzV3Yz93qrV7rhVJJTP6ArwvtLeiDalo3vE_LI4qweM3eD1iMGZhsyXQPC_BN0iEqofEbZU7K7VhSv6Km9ax3Nrje8aKRmY1sOfnmYSiEGQ=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNR1fx9wcCbMKHz1h8m5DLrKbp8V0oYUjNec8kpF1WCpQU9J68WZwIokgUdPmtNhgitsGzFtQT7riDK5jpaJ4lrtM61HGesr5w2hGxxwVqnTsHjWY61aGiqToMJFX9m1-ZYrAXaOL2N7TjN98gxY9-NXQ=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM5Z3y3x_oeO_uLpezBTVLf7WegnhXpmktI81jgHXKOo6bV4ARfFznBoWCWbualk5HObaIexIDzQl5sVm49nieM97Ep-MOXp2xuKBFM-6zjy1uzEUVFpeIWRluG_yCnFXIa9i3gNkHLd3C7xyS5CQl4VA=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Cœur battant de l'architecture civile de l'époque d'Edo à Kyoto, les ruelles en escaliers de Sannenzaka (la « pente de trois ans ») et de Ninenzaka constituent l'une des zones de protection du patrimoine urbain les plus célèbres du pays. Tracé à l'origine en 808 sous le règne de l'empereur Saga pour permettre aux fidèles et aux femmes enceintes d'accéder au sanctuaire de prière pour les naissances heureuses du Kiyomizu-dera, ce chemin piétonnier pavé de larges dalles de granit est bordé de maisons marchandes machiya en bois sombre, d'anciennes auberges ryokan et de boutiques d'artisanat d'art protégées par des auvents en tuiles kawara et des treillis en cèdre. Une vieille légende populaire prétend avec humour que toute personne trébuchant dans ces marches s'expose à trois années de malchance, ce qui incitait les pèlerins à faire l'acquisition de gourdes protectrices vendues par les commerçants du quartier.",
     visiter: "Descendre avec précaution les célèbres volées de marches en pierre de Sannenzaka pour s'imprégner de l'atmosphère médiévale de l'ancienne capitale, au son des socques de bois des visiteurs en kimono traditionnel. Explorer les échoppes artisanales proposant des céramiques de Kiyomizu-yaki, des éventails peints à la main, des laques et des douceurs typiques comme les biscuits yatsuhashi parfumés à la cannelle. Poursuivre la déambulation vers Ninenzaka pour découvrir l'insolite Starbucks aménagé dans une authentique maison de maître de l'époque Taishō, doté de tatamis au sol et de jardins intérieurs de mousse zen.",
     link: "https://photos.google.com/share/AF1QipPyiv1eIMsVXO0ftzSTgJMBL_SdyMhPxzsv9CsQKH9YTKBEfbQfCZdz6RS1c4JX7g?key=UURaU2VvUkF0R19wTnZSMW5ib2pPMjI5alBia3VB"
@@ -6504,7 +6522,62 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczOtBplP4nZIWX-X7lsksTYXOOETopPCSrefBe-DB_QvGOjjO0Yv69W_U-3Hir9nx4PW33zeBi--pMvLW8y-RxpLs-niF4L5qJS9BFPZKpEQNJG8mXTtzM7wVzIw3g23RGlqpJWjdl6an9hOSOBns3kIIA=w2549-h1699-s-no-gm?authuser=0",
     description: "Inscrit au patrimoine mondial de l'UNESCO et perché sur les flancs boisés du mont Otowa, le temple Kiyomizu-dera (« temple de l'eau pure ») fut fondé en 778 par le moine Enchin et le général Sakanoue no Tamuramaro. Le bâtiment principal actuel (Hondō), chef-d'œuvre de charpenterie nippone érigé en 1633 sous les ordres du troisième shogun Tokugawa Iemitsu, est universellement célèbre pour son audacieuse terrasse sur pilotis (Kiyomizu no butai) qui s'avance à treize mètres au-dessus du ravin. Soutenue par un entrelacs magistral de cent trente-neuf piliers de zelkova géants assemblés sans aucun clou métallique selon la méthode traditionnelle du kake-zukuri, la terrasse servait à l'origine de scène rituelle pour les danses Kagura dédiées à la statue secrète de Kannon aux onze têtes. L'expression populaire japonaise « sauter de la terrasse de Kiyomizu » est devenue synonyme de prendre une décision radicale et audacieuse.",
     visiter: "Avancer sur les larges planches de cyprès patinées de la terrasse suspendue pour profiter d'un panorama vertigineux sur la mer de cimes d'érables et les collines de Higashiyama, avec en contrebas toute la plaine urbaine de Kyoto s'étendant jusqu'à la silhouette moderne de la tour de Kyoto. Pénétrer dans le sanctuaire sombre du Hondō pour observer les autels bouddhiques et faire sonner le bol chantant géant en bronze. Emprunter ensuite le sentier en corniche faisant le tour du vallon pour admirer la perspective en surplomb la plus célèbre du Japon, dévoilant la proue de bois suspendue au-dessus de la canopée flamboyante.",
-    link: "https://photos.google.com/share/AF1QipPyiv1eIMsVXO0ftzSTgJMBL_SdyMhPxzsv9CsQKH9YTKBEfbQfCZdz6RS1c4JX7g?key=UURaU2VvUkF0R19wTnZSMW5ib2pPMjI5alBia3VB"
+    link: "https://photos.google.com/share/AF1QipPyiv1eIMsVXO0ftzSTgJMBL_SdyMhPxzsv9CsQKH9YTKBEfbQfCZdz6RS1c4JX7g?key=UURaU2VvUkF0R19wTnZSMW5ib2pPMjI5alBia3VB",
+    sections: [
+      {
+        title: "Arrivée au sanctuaire et portes d'accès",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNUMHTDgr3b2DkKOFognD6-CfXSEWc2RNbwQ462hHbz-i4NFju67b-0O3j4mBjN7bKrvcFm6zLgrcIRS2Dw0ZQY0BvaQ7EZ5JyuQtSeiukqlKn6GMLY0lqoUu6FS-Vr79AJT55ciWvYZ7ADB0YMDDyS_Q=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOoWnhWTWbIRdlIaeStxuBu2zDqdXmsAOW2hDrF3Yecx_0PVNtZVYqjJ_m9Upq6luO-31a4ZK3BhjMeOs4IEuY2chTbSXnAP_au99AJpt8BMGAnV42xZfPt50dzgvyJp65ZAjkFebSfz7wqGx1lL1g-EA=w1818-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Arrivée au pied des temples."
+      },
+      {
+        title: "Le Hondō et la prouesse du kake-zukuri",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOtBplP4nZIWX-X7lsksTYXOOETopPCSrefBe-DB_QvGOjjO0Yv69W_U-3Hir9nx4PW33zeBi--pMvLW8y-RxpLs-niF4L5qJS9BFPZKpEQNJG8mXTtzM7wVzIw3g23RGlqpJWjdl6an9hOSOBns3kIIA=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM-mt6sDDzBpB3tvBWEUkw2821-qn_Kcmc8LEGd_bFd3R-aF25a91nysj4hCoSvFQXmak2D47WPhZDN1XGDNhXq5E_bsJ7rdFAk2N8ajgevyg33AqiA01MHpNUrWYurBMYmlchpUEMXN2jWRirYa3sA6w=w2002-h1334-s-no-gm?authuser=0"
+        ],
+        text: "Le chef-d'œuvre incontesté de l'ensemble réside dans son pavillon principal (Hondō), classé Trésor national, célèbre à travers le monde pour son audacieuse terrasse en bois suspendue au-dessus d'un précipice verdoyant d'une quinzaine de mètres de hauteur. Véritable prouesse de charpente traditionnelle japonaise (kake-zukuri ou construction en échafaudage en encorbellement), cette esplanade d'environ cent quatre-vingt-dix mètres carrés repose sur un entrelacs magistral de cent trente-neuf piliers massifs en troncs de zelkova du Japon (keyaki), solidement chevillés et assemblés par des tenons et mortaises sans l'usage du moindre clou métallique afin d'absorber la flexibilité des secousses sismiques."
+      },
+      {
+        title: "La scène des danses rituelles et le saut légendaire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMZhqo3dPVNyDILIccE4uehZqSo2gC5PsGOdWnzAUuFReaOQYn7OeoawKsC2d1htJS3b96QF4KHHEbbe3HG3g_Du9iHj_TGM28A-txaaE7ZM9BhS6ec9o16BCD2adRiWUoH2XStNdz8jo2xaa0mcsGfKA=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPEYwtC5jWJDzidW1gtimI8E2rSeuTyUOpyVgcdEIlJpM-MkjDWWcsMV0cOBdYOnUME1AaQhOcaDs8NQABKdofQIlbZZOOGkuslnnSg2Z1XN-HqwcClDWFt5LW4X6SrqQnalmxtK3FUdrVtA8qdvU2SdQ=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP3hDcBO-lvl41LVj7Ti-bxJ_jD2e5i5R7aWvXnocWYH7d3aVOB43Xm0LRs1i6LEUIBCdBXOh0J6sb9HecF-PtU_2yzngix0kW_B8UETmS31C2t_61lQzNzBuYDV4pX3gWTPPAewMmx9qbIfaS6IbMcYg=w2002-h1334-s-no-gm?authuser=0"
+        ],
+        text: "Conçue initialement pour accueillir les danses sacrées (bugaku) et les représentations de théâtre nō offertes à la divinité, cette plateforme a donné naissance à la célèbre locution proverbiale japonaise « sauter de la terrasse de Kiyomizu » (Kiyomizu no butai kara tobioriru), équivalent de l'expression française « jeter son cœur par-dessus l'obstacle » ou prendre une décision irrévocable : durant l'époque d'Edo, une croyance populaire affirmait que quiconque survivait à un saut depuis la terrasse verrait son vœu le plus cher exaucé par Kannon, une pratique qui enregistra plus de deux cents tentatives répertoriées dans les registres du temple avant d'être formellement prohibée par les autorités en 1872."
+      },
+      {
+        title: "Toiture irimoya-zukuri et sanctuaire de Kannon",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMYoxkAPTcYrcFJtT5Y5ED-J26C_UViAAqkj_cWC77pcAwBGNniM24qwhD8r8_O0i-TZFUrclnKEqOquzwjSwo52VkcHBaCBoCEonTFGhAf1Oysl6RAvgCUt03IK-HE-75XAgNSnlF93pA5Z-G2IwJ1vg=w1499-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPLN6GJ24IZAqhHnYFJVpKtiKAlybJxlVRuyjGhdomq0PvU6yhO-WB1F2xObXlNtrUhxldIMtsr1R_UzxiXTFCxpJjqAPmL-a8RSSzWO44i-bLbmutCQiGBmnfFho8kcKOcha-R1jhsmbCHsKIgJ91r3g=w1818-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPCwHuHX6CbAEIsEono22skfNc8BWv26ZGWiY1e0fIszFTwMf-1lb27KaaSrAfItlPjFIzxz3wLXxkry2OR8G0ODsU6_KnhO2HQJEN2HG2GY1zvY5DuvY34V_qbkx5wnWaMVriUH9pjb_tLLS2XTrZniw=w2002-h1334-s-no-gm?authuser=0"
+        ],
+        text: "Le pavillon principal, coiffé d'une monumentale toiture à croupes et pignons (irimoya-zukuri) en bardeaux d'écorce de cyprès du Japon (hiwadabuki), abrite dans son saint des saints l'effigie secrète de Senju Kannon à onze visages, dissimulée aux regards et dévoilée aux pèlerins uniquement tous les trente-trois ans."
+      },
+      {
+        title: "La pagode Sanjūnotō",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMCqIWBQj5B7xA5kx_iVNXz8p4IwWGy4GfT-WoMYJlgmldFceg-AQBwJphKvGbqLRQYimakqG21PmTY63B1CEk_DJa1NZmbf_O0MYaaY7Z5cdEYtfSM3iVYi6ziJaSYeobLa76yb3C-OF1Uw44DVx4fyg=w896-h1190-s-no-gm?authuser=0"
+        ],
+        text: "À l'entrée nord-ouest du domaine, immédiatement après le franchissement de la porte Niōmon, s'élève la monumentale pagode Sanjūnotō (三重塔), l'une des plus imposantes pagodes à trois niveaux du Japon avec ses quelque trente-et-un mètres de hauteur. Érigée pour la première fois en 847 sous le règne de l'empereur Nimmyō, la structure actuelle résulte de la grande campagne de réédification menée en 1633 sous les ordres du troisième shogun Tokugawa, Iemitsu. Revêtue d'un vermillon étincelant rehaussé de motifs polychromes raffinés de style Momoyama sur ses corbeaux et ses frises, elle abrite en son cœur une statue du Bouddha Dainichi Nyorai (Vairocana) entourée de fresques peintes sur les cloisons intérieures. Sa toiture étagée en tuiles traditionnelles est couronnée par un élégant épi de faîtage en bronze (sōrin), dont l'extrémité orientale présente une gargouille d'angle singulière en forme de dragon des eaux, disposée là selon les préceptes de la géomancie pour protéger la charpente de bois contre les incendies."
+      },
+      {
+        title: "La pagode Koyasu-no-tō et vues sur le vallon",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMEArkA5FtWfkuj4ICvuIKcZYxF6NlazdPyzcp0RYyqLvxiBJ4D0rY0CkaBlCDM6t7kZS4VI8q6Yw8SVzmXj32JTmuCmmJkThxsc9x3l0NgtEHuCfklsInQaxAUAGRa5YaE9dO2umz5Gnvp_S1IQf1RyA=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNzaHJdMbnIBxgy9W_o_d67KxPrxvTZpBcnLYkGzqhjJNadegZojznI51qUH1jbDAc-YG2VlCz3t04Is0hqEMmUajgJbxACJyOdxr1lkfTlI-_SITjhPVrtT_htbtc_tp5pM6jih5giRqS2g2qPjzuo3g=w1588-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOuo-rZ9JRDP08_Sq6eVIx3scfaqrppWuXaFQ29HWAgO0ZBmXHTZ4MvhoIKMzkjr5vh8cEYCaTpvFRtK7Rb8iv0evF631Zn7pNosyetw-fPICwwd_xfX1_F049Qi6LctOWascYe1d29W53NQxkBX_Bh_Q=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPz7dByEJYNhqTXv6I0lOUqs6WgLyHEeCRig17DmRuH59yTCXphIA1nwfM5td0vmAll5ohpoZSsvueFaSUFjEjC1sGB9iQy9B_4zU5ENhzFrzfmRkUioJGR6P_9fnyvKL4yuhP5zoeWOHZKKlQEr_70Cw=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNpzWBssX2fEMI4y2q9SBa87NiwVrEbtaEm3MoVJxVWalBGEDyhdoHJLpeSitYz2fxU3WdfP_QthZDNkuJwnfctyXBMPuRfw_7WxXlL-a4qWkgP9MJCJx1dQGPsDuF7bS5uNgi0nZ-zAQwUlP87WvMFXQ=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOz3G9PgBsULHXi8sgxA4eaNi_RjDpd2LhvPjk9aXgkDVouzimcyiBtqgZbx6eLphIxscnzQdoHfTzl4pxRKaQMgWbDVvNXHUZ98b-CMI64HccbH0x5MFSsONRTm-1iD7xcUkoo6KK-Og20odEbebZPyg=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "À l'exact opposé du vallon, juchée sur un promontoire boisé au sud qui fait face à la vertigineuse terrasse en bois du Hondō, se découpe la silhouette plus discrète et gracieuse de la pagode Koyasu-no-tō (子安塔, la « pagode de l'enfantement aisé »). Haute d'environ quinze mètres, cette tour à trois niveaux aux proportions délicates se trouvait à l'origine à proximité de l'entrée principale du temple, avant d'être démontée et transférée à son emplacement panoramique actuel en 1911, lors des grands réaménagements urbains et routiers de l'ère Meiji. Bâtie vers 1500, à la fin de l'époque de Muromachi, elle constitue l'un des rares édifices en bois du complexe à avoir échappé au grand incendie dévastateur de 1629. Consacrée à la déesse de la compassion sous les traits de Koyasu Kannon, la tour est depuis des siècles le but d'un pèlerinage fervent pour les femmes enceintes venues prier pour un accouchement sans souffrance et la santé des nouveau-nés, à l'image de la dévotion légendaire de l'impératrice Kōmyō au VIIIe siècle. Depuis son esplanade ombragée, le regard embrasse l'une des perspectives les plus saisissantes sur la nef principale de Kiyomizu-dera suspendue dans le vide au-dessus de la canopée d'érables et de cerisiers."
+      }
+    ]
   },
   {
     id: "kyoto_kiyomizudera_porte_niomon",
@@ -6581,7 +6654,33 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczNmm7O7VVEYpxJYCrDjtEcTiMPSfWN8iZ0NWelbXeSbLzlyL5h3Om4B9nbnuHogu6F7LIb_3B36VaGeBJ04y5W1JhF1rRp8U1dood7YEyc3cK4TdzwZs2FDqXW_EFmLpk1ecGdqkoQJKKIC7sWPjSzjcQ=w2549-h1919-s-no-gm?authuser=0",
     description: "Établi à la frontière orientale du célèbre quartier des geishas de Gion, le sanctuaire Yasaka-jinja (historiquement appelé Gion-sha) est l'un des centres spirituels shinto les plus vibrants de la ville. Fondé dès 656 par l'envoyé coréen Irishi et dédié au puissant dieu des tempêtes et de la mer Susanoo-no-Mikoto ainsi qu'à son épouse Kushinadahime, il devint célèbre en 869 lorsque la cour impériale y organisa des rituels de purification pour conjurer une épidémie de peste meurtrière, donnant naissance au prestigieux Gion Matsuri, le plus important festival du Japon. Son impressionnant pavillon principal (Honden), reconstruit en 1654 sous les ordres du shogun Tokugawa Ietsuna et classé Trésor national, associe sous un immense toit unique de bardeaux de cyprès le sanctuaire intérieur et la salle de prière selon le rare style architectural gion-zukuri.",
     visiter: "Franchir la monumentale porte à étage vermillon Nishi-rōmon dominant le carrefour animé de l'avenue Shijō-dōri pour pénétrer dans l'enceinte sacrée. Découvrir la vaste scène centrale de danse rituelle (Buden), ceinturée par des centaines de lanternes de papier blanc offertes par les maisons de thé et commerces de Gion, illuminées d'une féerie dorée à la tombée de la nuit. Visiter le petit sanctuaire annexe Utsukushi-gozen-sha dédié aux déesses de la beauté, où les geikos, maikos et visiteurs viennent déposer quelques gouttes d'eau miraculeuse sacrée (Biyōsui) sur leur visage pour purifier leur peau et cultiver leur grâce intérieure.",
-    link: "https://photos.google.com/share/AF1QipPyiv1eIMsVXO0ftzSTgJMBL_SdyMhPxzsv9CsQKH9YTKBEfbQfCZdz6RS1c4JX7g?key=UURaU2VvUkF0R19wTnZSMW5ib2pPMjI5alBia3VB"
+    link: "https://photos.google.com/share/AF1QipPyiv1eIMsVXO0ftzSTgJMBL_SdyMhPxzsv9CsQKH9YTKBEfbQfCZdz6RS1c4JX7g?key=UURaU2VvUkF0R19wTnZSMW5ib2pPMjI5alBia3VB",
+    sections: [
+      {
+        title: "Mémoire du Gion Matsuri et rituels d'exorcisme",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPD-TLcXZVhYPzzVjJXa2Z5TYO3VfNU2oq4yX7jWs8GhnbxYANnEL0NXMRCNdusKJBNq9jDEvmBDuZ2UJ0aJ1i74Ih-FMJjZ8B0D7hW8owiZSill94GffLdj0OaZtR7-hTSmjdsj_zCVQ6CIUGeDrkhVQ=w1818-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMQJfgWlStjX0WazRlSc-PGpypjSvf_7cqQiX9G1o_5FsxMUhTIt8UhakiPnaAZ15K6oS3dAb01heIImiMmYPjU7YVd8nkS2ypv0zMiqeoEwW5vSbLOyuBfbp4achuK0wB1rvt2Rn6aIFJXAb2J1crRsw=w2002-h1507-s-no-gm?authuser=0"
+        ],
+        text: "Le destin du sanctuaire est indissociable de la naissance du plus illustre événement rituel du Japon, le Gion Matsuri (祇園祭). En 869, alors qu'une terrible épidémie de peste décimait les habitants de Heian-kyō, l'empereur Seiwa ordonna la tenue d'un grand rituel d'exorcisme et de purification spirituelle nommé Goryō-e : soixante-six lances sacrées en fer (hoko), incarnant chacune l'une des soixante-six provinces de l'archipel impérial de l'époque, furent dressées dans le jardin impérial de Shinsen'en tandis que les trois palanquins divins (mikoshi) de Yasaka-jinja étaient portés en procession à travers les rues pour chasser les miasmes et les esprits malveillants. Ce rite propitiatoire est devenu le grand festival d'été célébré durant tout le mois de juillet à Kyoto, où défilent aujourd'hui les gigantesques chars monumentaux en bois ouvragé (yamaboko), véritables musées ambulants tapissés de brocarts précieux et d'orfèvreries importées le long des routes de la soie."
+      },
+      {
+        title: "Porte Nishi-rōmon et pavillon Honden en style Gion-zukuri",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNmm7O7VVEYpxJYCrDjtEcTiMPSfWN8iZ0NWelbXeSbLzlyL5h3Om4B9nbnuHogu6F7LIb_3B36VaGeBJ04y5W1JhF1rRp8U1dood7YEyc3cK4TdzwZs2FDqXW_EFmLpk1ecGdqkoQJKKIC7sWPjSzjcQ=w2002-h1507-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMJIPyDt4peTjiETWC_gCmQ0eqSlCXgF6AacibyfmwJ_2fRHAg2ogO3aib8R8-BKP0QE5DX6jz55mHHGlio-0AC_u250IYFwRQry4l07W2HRT8tdk9uAOuBxQrPsFsCaI3VGZvA0uILdVh0vQfVScwfKw=w2002-h1507-s-no-gm?authuser=0"
+        ],
+        text: "L'accès monumental au domaine s'effectue par la célèbre porte à deux niveaux (Nishi-rōmon), éclatante de vermillon, qui fait face dans l'axe direct à la grande artère marchande de Shijō-dōri. Au centre de l'enclos s'élève le pavillon d'adoration et sanctuaire principal combiné (Honden), reconstruit en 1654 sous les ordres du quatrième shogun Tokugawa, Ietsuna. Classé Trésor national, ce majestueux bâtiment de charpente déploie une toiture monumentale en bardeaux d'écorce de cyprès du Japon (hiwadabuki) selon une typologie architecturale unique au monde nommée Gion-zukuri (祇園造), où le sanctuaire secret de la divinité et le pavillon des célébrations publiques sont réunis sous une seule et même toiture commune monumentale de près de quatre cents mètres carrés."
+      },
+      {
+        title: "Scène Buden des lanternes et culte de la beauté",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNLno1WFGVjeJ1ceMQiXCVLi35EPc5llAA4kgdLa8XBYWaiSZ2_RJhJncz5CrORbXjnCpWLa8hhFkThB2J2CmEGeyELOSH5sluw08_xM5Ht_JQ9naO0WnchvsWZuHrXni0I9wB7SvHNjRgXAfqLUwAMoA=w2002-h1507-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPXVlZvB97aJYADnBUXHyPlP6Z6J9RtMA4RwUgrAO3yaHst8ysX9xhXceQs2vA7V_lzLd6Ag3yQzfuqBST3BV-8Ko7NuhBF84yJvOygeqT9NTS2Wvod4wjtaBxSBkxg_ggFnaMuHMTEMbdBwVutg3-UWg=w1818-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Au cœur de la cour sacrée trône la grande scène des offrandes et de danse (Buden), ceinte d'un millier de lanternes de papier blanc suspendues sous les auvents. Chacune de ces lanternes porte la calligraphie au pinceau des commerces de bouche, des maisons de thé (ochaya) et des corporations de geishas (geiko) et d'apprenties (maiko) des quartiers de plaisir traditionnels de Gion Kobu, Gion Higashi, Ponto-chō et Miyagawa-chō. Allumées dès la tombée du jour, elles parent l'enclos d'une lueur dorée mystique, scellant l'alliance historique entre la ferveur shintoïste apotropaïque et le monde des arts vivants de Kyoto. L'enceinte abrite également le sanctuaire secondaire Utsukushi-gozen-sha, dédié à trois déesses shintoïstes de la beauté, où s'écoule l'eau thermale sacrée Gion Shinshisui, dont quelques gouttes déposées sur la peau sont réputées purifier l'âme et illuminer le teint selon la dévotion populaire."
+      }
+    ]
   },
   {
     id: "kyoto_temple_toji",
@@ -6605,6 +6704,20 @@ const travelSpots = [
     lat: 34.980582,
     lng: 135.748156,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMWghJeORcme_4j-XJweVwqm0DnPsaiwiE3IKHZ3fgUxkTYSGfErj8g_Ey5XkhB7Vx7VakstF9WKoBxNXmQti7AqhV0h77xnf6Yze3MYf1_wyqqGYOmGKg1sXK7o9CWnCW7ZqgXyfwctRbi42dW3xTqpw=w1825-h2635-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMOxaYVu0PlaChPSWRpe894SiQCtZ62YbRcflHCBROgjhKOHgOPEq40nI9ZBzl7eIoX3u46YYFKs5_ST_GzEr4TM8tlHLLvZSOmdId_zghrM2_VqC1-FnWXJwZVOOTnjHAJpcCzPyIl_n-1NmIPcFS4Rg=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPWmf0oEhYnhF037-xeLcDjOWHBPXHlWeY-hstweGjFwVaP-WuaCMKeJ44rdq-fKSlDm2jfy5oay41_9YWESQrjjgLiuut24EP1lzp4vr56p-f9Ah1OpfITYtfxyWWTNhseVrHqPKx_O_Oosb8o5tn1xg=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPijrOS09JuNacbXOf_C_RkA_YiS9_IZRY4JBUBjUCKXOQ884ueryv6T116dhjN4bxaLGYjzTPhvEHg_DaaHlhNDDhSPftxEAC1vYPH3BTYO96kA2SRynemTdLIQu501Y49GYvKEBTYFVwUjCqPy5rq3w=w2002-h1334-s-no-gm?authuser=0",
+        caption: "Le domaine est mondialement réputé pour sa pagode à cinq étages (Gojūnotō, 五重塔), devenue la silhouette emblématique et le phare visuel du paysage architectural de Kyoto. S'élevant à près de cinquante-cinq mètres de hauteur, cette tour en bois brut de cyprès du Japon (hinoki) est la plus haute pagode en charpente de bois subsistant dans l'archipel. Reconstruite à quatre reprises après des incendies provoqués par la foudre ou les guerres civiles, la structure actuelle a été réédifiée en 1644 sous le patronage du troisième shogun Tokugawa, Iemitsu. Conçue selon une ingénierie parasismique d'une remarquable sophistication, elle s'articule autour d'un tronc central monoxyle suspendu (shinbashira) reposant sur une base en pierre sans être solidaire des planchers extérieurs, agissant comme un pendule d'amortissement capable de dissiper l'énergie des secousses telluriques. Le rez-de-chaussée de la pagode, richement orné de peintures murales bouddhiques de style ésotérique, abrite quatre effigies de bouddhas assis entourant le pilier central, figurant l'axe primordial de l'univers."
+      }
+    ],
     description: "Fondé en 796 immédiatement après le transfert de la capitale à Heian-kyō pour garder l'entrée sud de la cité impériale, le Tō-ji (« temple de l'Est ») fut confié en 823 par l'empereur Saga au célèbre maître spirituel Kōbō Daishi (Kūkai), devenant le siège de l'école bouddhique ésotérique Shingon. Inscrit au patrimoine mondial de l'UNESCO, le monastère abrite la plus haute pagode en bois de tout l'archipel nippon, dressant sa flèche de bronze à cinquante-cinq mètres de hauteur (reconstruite en 1644 par le shogun Tokugawa Iemitsu). Au cœur du domaine, le hall de conférence (Kōdō) matérialise dans l'espace en trois dimensions un spectaculaire mandala ésotérique sculpté composé de vingt-et-une statues en bois de l'époque de Heian, dominées par les féroces rois de la science Myōō dont l'impressionnant Fudō Myōō armé de son épée de vérité.",
     visiter: "Contempler l'altière pagode à cinq étages se reflétant dans les eaux calmes de l'étang aux lotus Hyōtan-ike, entourée d'un superbe jardin de promenade planté de cerisiers pleureurs. Pénétrer à l'intérieur du grand hall Kondo pour admirer la monumentale triade dorée de Yakushi Nyorai (le Bouddha guérisseur) reposant sur un socle orné des douze généraux célestes. Se recueillir dans le hall Kōdō devant l'incroyable alignement sculptural du mandala vivant ésotérique conçu par Kūkai. Si vous visitez le site le 21 du mois, parcourez l'immense marché aux puces populaire Kōbō-san qui envahit tout le parc de stands d'antiquités, de kimonos anciens et de gastronomie de rue.",
     link: "https://photos.google.com/share/AF1QipPyiv1eIMsVXO0ftzSTgJMBL_SdyMhPxzsv9CsQKH9YTKBEfbQfCZdz6RS1c4JX7g?key=UURaU2VvUkF0R19wTnZSMW5ib2pPMjI5alBia3VB"
@@ -6633,7 +6746,44 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczM9A1itiLTuU9tfjnpbff03BpxokSZM1Xwl0DKda9IEubdync0K1Pbapc9DDwIIBLhqhgnjm-4iUbPs-cimrc3TjNRsxuHhl_uCz0N8QQOOVJIGLrumZh0wKj4rrbCTKl7BiBTkHUxZnbrS9a5eEQBZWA=w2549-h1919-s-no-gm?authuser=0",
     description: "Symbole magistral de l'autorité militaire écrasante des shoguns sur la cour impériale, le château de Nijō fut édifié à partir de 1603 par Tokugawa Ieyasu pour servir de résidence officielle lors de ses séjours à Kyoto, puis agrandi en 1626 pour la visite historique de l'empereur Go-Mizunoo. Inscrit au patrimoine mondial de l'UNESCO, le complexe est célèbre pour son palais Ninomaru, somptueux chef-d'œuvre de l'architecture résidentielle de style shoin-zukuri composé de six pavillons reliés en escalier. L'édifice intègre un ingénieux système de sécurité défensif : le plancher rossignol (uguisubari), dont les crochets métalliques fixés sous les lames de bois émettent un pépiement d'oiseau caractéristique au moindre pas pour déjouer les intrusions d'assassins ninjas. C'est dans la grande salle d'audience Ōhiroma de ce palais que le quinzième shogun, Tokugawa Yoshinobu, remit officiellement ses pouvoirs à l'empereur Meiji en 1867, mettant un terme à plus de deux siècles et demi de règne féodal des Tokugawa.",
     visiter: "Franchir la spectaculaire porte Karamon décorée de dorures rutilantes, de grues célestes et de lions chinois sculptés en ronde-bosse. Retirer ses chaussures pour parcourir les couloirs du palais Ninomaru en écoutant chanter sous ses pieds les planches du parquet rossignol. Admirer à travers les salles d'audience successives les sublimes cloisons coulissantes fusuma peintes sur fond d'or massif par les maîtres de l'école Kanō (notamment les majestueux tigres et les pins tricentenaires de Kanō Tan'yū). Conclure par une promenade dans le jardin classique Ninomaru dessiné par le génial paysagiste Kobori Enshū, orné de pierres dressées spectaculaires symbolisant les îles des immortels sur un vaste plan d'eau.",
-    link: "https://photos.google.com/share/AF1QipPyiv1eIMsVXO0ftzSTgJMBL_SdyMhPxzsv9CsQKH9YTKBEfbQfCZdz6RS1c4JX7g?key=UURaU2VvUkF0R19wTnZSMW5ib2pPMjI5alBia3VB"
+    link: "https://photos.google.com/share/AF1QipPyiv1eIMsVXO0ftzSTgJMBL_SdyMhPxzsv9CsQKH9YTKBEfbQfCZdz6RS1c4JX7g?key=UURaU2VvUkF0R19wTnZSMW5ib2pPMjI5alBia3VB",
+    sections: [
+      {
+        title: "Fondation shogonale et murailles cyclopéennes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOlkSIIjKkMA4-OEOWdUDG6EZNfY8OY53HuGzaEyDSbgjbliO13cAXa6MLrADY4CkUKaKDUnrTudiCTuILjzVKVRfBXj2E0zUS_fTPAFMSDSxJorBVRmvXIRqOWR_4rGFnJhb392G8iE4YzOc09un07MA=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNFJV5ZGchVxdZS5Rm5Ndi6yJxXgOsN3inBVe414eusTi135ok4fD0iUbvkA8ahe1XTXq_ohjhZjHBWM2clK2MxnZFNDCFJWUuprQY6bagiQhpzuO2pchxbSECKU1K6FUQnb6aLzeMW4O_L7WX06JPGMA=w2002-h1334-s-no-gm?authuser=0"
+        ],
+        text: "Érigé au cœur de l'ancienne trame impériale de Kyoto, le château de Nijō (Nijō Castle, 二条城) incarne l'affirmation magistrale de la suprématie militaire du clan Tokugawa sur la cour impériale. La construction de cette forteresse de plaine (hirajiro) fut ordonnée en 1601 par le premier shogun Tokugawa Ieyasu, au lendemain de sa victoire décisive à la bataille de Sekigahara, et achevée en 1603. Conçu initialement pour servir de résidence officielle au shogun lors de ses rares séjours dans l'ancienne capitale et d'avant-poste de surveillance étroite du palais impérial tout proche, le château connut un agrandissement spectaculaire en 1626 sous l'égide du troisième shogun, Iemitsu, à l'occasion de la visite d'État historique de l'empereur Go-Mizunoo. Entourée de deux enceintes concentriques de puissantes murailles en moellons cyclopéens (nozura-zumi) et de larges douves en eau franchies par des ponts fortifiés, la citadelle est inscrite au patrimoine mondial de l'UNESCO parmi les « Monuments historiques de l'ancienne Kyoto »."
+      },
+      {
+        title: "Porte Karamon et plancher rossignol du palais",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOSnqL34nrx6pO9ZeekMo4P_9PNQnDhyWuhN8-kUbR6kCf80HgZozbo2kRFmKY04umLf2hp4O9vzA41NDni7lUUIlePnoV4gCRqlcWWaD5bgymy8qlpGJI6nd09WYjqRtTT7yDg7iAX2f6I9HwtK8Am2Q=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOltJDQqdxCIrPSvL3ootr12QsuZwP-_9_SO9Qaeh2tH4VgVGgsRh8MXW1z1VX5M_J9_t6hnjCFZUVLZ9A10uWxxGGqI3NFnJwEbYnbM1nj-FThBt9IunDJDzhJsi-QZdHCOMHLQsD5WMQKvRL-ojSudw=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN_wLl_gCDmJEiWtVT7P8bAYG1pLZmX9_SJ9g5uj7ZmEj3sCGB_zPtdpAwaLiBM96_VvEd9hRJ-A7-QrZn6DNufZFHJUI7E_h2UVkjscqoUYUY0r4gPMnCJNWCj2LCAqKAFcmcRTMmUR0AqWZUsiLBKZg=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP3gMK5NWqsohnkdKy-3pwQSeJlXpWgu71aMG3QVkB4jm2pxkFcdFC1AV6qvgDixHQB0iNdzd3tGVCHTW6AbCdkhDESnW1sptT6AEG4744IffXZfows-oqZanP4ARar9GBNx-Z-vRjA0bgi6Gaakc7vog=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "L'accès à ce complexe s'effectue par la monumentale porte Karamon (唐門), chef-d'œuvre de la période Azuchi-Momoyama orné d'un arc chinois en accolade, de riches ferrures dorées et de bas-reliefs sculptés de grues, de lions mythologiques (shishi) et de pivoines polychromes. Le palais lui-même rassemble six corps de bâtiments en bois de cyprès du Japon (hinoki) disposés en diagonale selon un plan décalé en vol d'oies sauvages (gankō-kei), permettant à chaque aile d'ouvrir de larges perspectives lumineuses sur les jardins environnants. Le cheminement protocolaire, allant des vastes salles de réception des seigneurs féodaux (Ōhiroma) jusqu'aux appartements intimes réservés au shogun (Kuroshoin et Shiroshoin), est scandé par le célèbre plancher à chant de rossignol (uguisubari) : un mécanisme ingénieux d'agrafes métalliques frottant sous les lames de bois émet un gazouillement d'oiseau au moindre pas, alertant infailliblement la garde contre toute tentative d'intrusion d'assassins ou d'espions ninjas."
+      },
+      {
+        title: "La salle Ōhiroma et la fin du shogunat Tokugawa",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMJcSn2UOTmlvCkqg4u-LHwm2NsoSGmaFGWi9E3AjWjaQqh89mqI05YxIKGYWTzwbNZYBwe7s5A-LAbDSJ8x5d9d74A6vs--8yGbj9HuFBq3xyUwvErNpYalhbdPpJt-B_Y4s5Os34bKbqUibfFejOgWg=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM9A1itiLTuU9tfjnpbff03BpxokSZM1Xwl0DKda9IEubdync0K1Pbapc9DDwIIBLhqhgnjm-4iUbPs-cimrc3TjNRsxuHhl_uCz0N8QQOOVJIGLrumZh0wKj4rrbCTKl7BiBTkHUxZnbrS9a5eEQBZWA=w2002-h1507-s-no-gm?authuser=0"
+        ],
+        text: "Le château de Nijō est le théâtre d'un raccourci historique saisissant, ayant scellé à la fois l'avènement et la fin du règne shogonal sur l'archipel. C'est dans la grande salle d'audience du palais Ninomaru que Tokugawa Ieyasu réunit l'ensemble des seigneurs féodaux en 1603 pour leur signifier son investiture par l'empereur au titre suprême de shogun, inaugurant ainsi deux cent soixante-cinq années de paix relative sous la domination de la dynastie Tokugawa. Deux siècles et demi plus tard, le 29 octobre 1867, c'est dans cette même salle que le quinzième et dernier shogun, Tokugawa Yoshinobu, convoqua les représentants des grands domaines pour proclamer la restitution formelle de l'autorité politique suprême à l'empereur Meiji (Taisei Hōkan), mettant un point final à plus de sept siècles de régime féodal militaire et ouvrant la voie à la modernisation fulgurante du Japon de la fin du XIXe siècle."
+      },
+      {
+        title: "Le jardin Ninomaru de Kobori Enshū",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNM-_hsKvTQp-St3aUdPvHGCejVX7ln3dvgaCPj2rU1_F_CwbLyi1bgtguKyHth-oFV7yqCmWYZyHhqjk8VbIPWOc3jY_62ZJPl31YwptAeDwR6X8U3Ke6NnRkCOX3yVVBmFi3Q7IoDvEwZyzjcAaynkQ=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOZqXx1dINQBXuLz1idmMpxjafy0j_G6ExP0g-TfoOr2bxZ7aNrk8zzsI_53mr1EWfe8mTTuIbgdptfNEBS8iL9DHGuqi-Zz8H03VDCArSZkfzYNvLSn6TkPXIY_3aAGefupGCZYMv15_zplpvA6uLM_g=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPmLc1zcVteVtTpfuTpx36-qLDSu9XOBDKWRSeFLadkRBLt6DJ8lfcRA2UOit3IJvKfIrFcXsaNbJqjQ1WEXAtO20Jewg7cOTnTCVbHz0orkSG9f_MpH0V-m0R1axPB5zwdautmvmup-lw8t2wH2PhPAA=w2002-h1334-s-no-gm?authuser=0"
+        ],
+        text: "En contrebas des vérandas de bois se déploie le jardin Ninomaru, conçu par le génial maître de thé et paysagiste Kobori Enshū : ce jardin de promenade de style chisen-kaiyūshiki met en scène un étang parsemé de trois îles rocheuses symbolisant la grue, la tortue et l'île paradisiaque des immortels Hōrai, articulé autour d'un agencement spectaculaire de pierres dressées reflétant la puissance martiale des guerriers."
+      }
+    ]
   },
   {
     id: "kyoto_fushimi_senbon_torii",
@@ -6654,11 +6804,46 @@ const travelSpots = [
     category: "religieux",
     counts: {},
     lat: 34.967162,
-    lng: 135.774300,
+    lng: 135.7743,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOHYQdOPHf0KglgvTOZzUMxq3DqNTwP-15fSu3d50FjoQ_61MiGFk8J_8RXz4FqNDhcc0u63aaGMW9qNK2c_gnFl-ZQ5Vw4ggyuwA7sm-HI3SKrot3H7Dkg5egayvT_ux0uTcQKDYI9wHz6min4V9ogNg=w2549-h1919-s-no-gm?authuser=0",
     description: "Grand sanctuaire de tête veillant sur plus de trente mille sanctuaires Inari à travers tout le Japon, le Fushimi Inari-taisha fut établi en 711 sur la montagne sacrée d'Inari-san par la famille aristocratique Hata. Dédié à Inari Ōkami, divinité shinto ancestrale du riz, de l'agriculture, de la prospérité commerciale et des affaires florissantes, le site est célèbre dans le monde entier pour ses fascinants Senbon Torii (« mille portiques »), un dédale continu de près de dix mille portiques vermillon en bois formant de véritables tunnels écarlates à travers la forêt de cèdres. Chacun de ces portiques a été offert par une entreprise commerciale, une corporation financière ou un fidèle reconnaissant, portant gravé à l'encre noire sur ses montants le nom du donateur et la date de la consécration pour garantir fortune et protection divine.",
     visiter: "S'engager sous les galeries jumelles des Senbon Torii pour une expérience visuelle et spirituelle immersive, où les rayons du soleil filtrent à travers les espacements des piliers laqués de vermillon. Observer au long du parcours les innombrables statues de pierre de renards sacrés (kitsune), messagers célestes d'Inari, tenant dans leur gueule une clé de grenier à grains, un rouleau de sutra ou un joyau d'abondance et parés de bavoirs rouges offerts par les fidèles. Découvrir à mi-parcours le carrefour d'Okusha Hōhaisho pour tenter l'épreuve de divination de la pierre Omokaru-ishi : formulez un vœu et soulevez la lourde sphère de pierre ; si elle vous semble plus légère que prévu, votre vœu se réalisera promptement.",
-    link: "https://photos.google.com/share/AF1QipPyiv1eIMsVXO0ftzSTgJMBL_SdyMhPxzsv9CsQKH9YTKBEfbQfCZdz6RS1c4JX7g?key=UURaU2VvUkF0R19wTnZSMW5ib2pPMjI5alBia3VB"
+    link: "https://photos.google.com/share/AF1QipPyiv1eIMsVXO0ftzSTgJMBL_SdyMhPxzsv9CsQKH9YTKBEfbQfCZdz6RS1c4JX7g?key=UURaU2VvUkF0R19wTnZSMW5ib2pPMjI5alBia3VB",
+    sections: [
+      {
+        title: "Symbolisme rituel du passage sous les torii",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOvS6Gcm4TnkbWmIzJlwL8AfHbzDk8bx3NrQFgCNPOpc5jeCGrefvVS1ell4gEfi60O4FzSvoHeepKEEN4watt5PDwTJ5_crShxteH-r-LVOJ_vHzWI6Lx2KMUoEb6ZTiG7Urtccy_EXzYTIP_Bm1iDEA=w1818-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOxQsvoija0U_i-EFPnDdRKlF9L_3tHfbaRlje1jCh0kd25v2OSqvWne6NTZgbD8Rlep0KUfh4fPrq-796lT52QKd7Q_sNTKc4uGjRJm2NY1ob4sUFwLzgZM9Uzy2GkGZDb87yt09L0Ny2-6nQTzg1yjg=w1818-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP5xkSBlBoNSv3H2ukwvGxbSnMr6lcN-P2EIIfyw0G_hs_PnxeRyq2TioqEP2XDp30iR6UDbVU5z74t29jCPES3H1lx2BwjR-2iUnx5am7Hxq_Sfl5PlEK-p9edcxrzuWdHHYGtP5OAUr67xVdsbwLfug=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPHKobC5N7kh5_Ls0X73vuQY0Qn6dRzTjz4fX8nPkQqt3xf9FR041n8RzkLNNcJGAoIZnFXBx8z1vV8PB3QFtU2tR4sJJtprtLH4TVV29UwEsFTKYpctL0TEmuA_qJqbJhuvlpgp3oTC4DBrNW5KXQsNg=w2002-h1507-s-no-gm?authuser=0"
+        ],
+        text: "Au fil des siècles, le passage sous les portiques sacrés s'est mué en un acte dévotionnel majeur : le mot « torii » résonnant phonétiquement avec le verbe tōru (qui signifie « passer à travers » mais aussi « voir son souhait se réaliser »), franchir ces arches de bois laqué est perçu comme une communion directe avec la bénédiction divine."
+      },
+      {
+        title: "Tunnels écarlates et rouge cinabre shū-iro",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNvsuBzbfTJ8BKUoqPz82VrHyRU2IZlmQfhOrwugHacpB7Tui2VxWqShAgycabtrKF4rnFmmsL8S5mbFrepTkpxyDZFKhIvaxYTEV2ZlkBBnPT63fC5I_q-lVVaDSNodUe01Vx4hYV0bRovMTuWvtFCKw=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMPWNfVdO5IHIH7c4lV4D67QL3f0BcQrRizTRXpzYa_VPnSnwULsC093E9_du1VlKPMwB2h5lAsGwqvxx5zFj8wIK77IwuLtIHk7Kxa3WwprVdhkkVoKa9TZU1tYFDo-o_b6-jy7Qs_qfJlvMV06jhjGw=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "La coutume spectaculaire de dresser ces tunnels continus d'arches vermillon a pris son essor à l'époque d'Edo, entre le XVIIe et le XIXe siècle, portée par l'émergence d'une puissante classe marchande soucieuse de s'attirer la bienveillance divine ou d'exprimer sa gratitude après une réussite commerciale retentissante. Dès la sortie de la cour basse du sanctuaire, la voie se scinde en deux galeries parallèles étroites où les portiques, serrés touche contre touche, forment un véritable corridor couvert d'environ soixante-dix mètres de long. Bien que le terme « Senbon » désigne métaphoriquement un nombre infini ou un millier d'arches, la montagne entière en compte aujourd'hui plus de dix mille, s'étirant sur un parcours de pèlerinage de quatre kilomètres jusqu'au sommet culminant à deux cent trente-trois mètres d'altitude. L'enfilade est peinte d'un éclatant rouge vermillon cinabre (shū-iro), une teinte minérale sacrée traditionnellement obtenue à partir de sulfure de mercure, employée depuis l'Antiquité pour repousser les forces maléfiques (magatsuhi) et protéger le bois de cèdre des intempéries et des insectes xylophages."
+      },
+      {
+        title: "Calligraphies des donateurs et perspective double",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOGMqoCnkbAFcxqaR4OGz4wGNRiH8n0ZuyOnIEz6RgT1BwNvDUu9KAF6a50CALpoeA2UyGjrwGqDVA3D3uFqBA5fHSPtJ8KDCAE1x-Tw3FTCQBjkgJeTLiKUMZvR6XnJM3O6c72XNu4ecKRTMjtSmp0Pg=w1818-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOHYQdOPHf0KglgvTOZzUMxq3DqNTwP-15fSu3d50FjoQ_61MiGFk8J_8RXz4FqNDhcc0u63aaGMW9qNK2c_gnFl-ZQ5Vw4ggyuwA7sm-HI3SKrot3H7Dkg5egayvT_ux0uTcQKDYI9wHz6min4V9ogNg=w2002-h1507-s-no-gm?authuser=0"
+        ],
+        text: "L'expérience spatiale du pèlerinage repose sur un saisissant contraste entre les deux faces des portiques. En montant vers la montagne sacrée, le visiteur contemple une perspective abstraite et immaculée d'arches rouge vif rythmée par les jeux d'ombres et la lumière tamisée filtrant à travers la forêt de cèdres et de bambous. En se retournant ou lors de la descente, l'autre côté de chaque pilier vertical révèle une vertigineuse archive sociale et économique à ciel ouvert : gravés au burin et calligraphiés à l'encre noire, on y lit le nom du donateur — artisan local, fidèle anonyme ou multinationales contemporaines — ainsi que la date précise de l'érection du portique. Le coût d'offrande d'un torii variant selon ses dimensions d'environ deux cent mille yens à plus d'un million de yens, chaque portique usé par le climat montagnard est périodiquement retiré et remplacé par un nouveau don, assurant un renouvellement organique et perpétuel de cette forêt de bois sacré."
+      },
+      {
+        title: "Renards sacrés kitsune et autels votifs",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNXOfpCWajbiPwWjsuhwTp2G9Rpf4HglFSIZxiC-cwDJXjIwar2KOrPQ7qmAPlY_drQrg1rvD2ZYOVtEVLstsTTCNcwobQq2cklucjUx13xJXPNjHKkqOLVurbv9Ib6bprOg-zr6kWq0n5LstHie2_VOA=w1818-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Le long des galeries et aux carrefours du sentier veillent d'innombrables statues de renards en pierre moussue (kitsune), messagers sacrés et serviteurs terrestres d'Inari. Vêtus de bavoirs votifs en tissu rouge noués par les dévots, ces renards serrent dans leur gueule des attributs symboliques : la clé du grenier à riz impérial, le rouleau des textes sacrés, le joyau exauçant les souhaits (hōju) ou un épi de riz doré. Aux clairières de prière (otsuka), des milliers de torii miniatures en bois s'empilent au pied d'autels de pierre rustiques, prolongeant la ferveur populaire au cœur d'une nature où la frontière entre le monde profane et le domaine des esprits de la forêt demeure suspendue."
+      }
+    ]
   },
   {
     id: "kyoto_fushimi_kumataka_shrine",
@@ -6678,9 +6863,23 @@ const travelSpots = [
     century: "XIIe siècle",
     category: "religieux",
     counts: {},
-    lat: 34.968272,
-    lng: 135.778589,
+    lat: 47.994224,
+    lng: 0.236399,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOzmRnh9WjXMoxG3ChAS4ylK304_D1b4ubN_XSoMbR7KD9TRBk-dqNZi_mHUb62NbzfNEyS8JkoqArkaKRtYz4andicXi1X4uCgF_sagebdt42USHXYUIGeWNct_8Tw0itGpmEwylco_r08mfXsRXdHfQ=w2549-h1919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOTU7Gewt0a4iKD_PxBsidwMkeK5hp0dHqPPp4PgPR__u7ViBxZWLbiuR3vPPqWM7s37hCfdgwTyD2elUawgo0vLHiwctvICwCPx_yYs0l1bAT8kc-XxZ3OOpSI-FRddAXDaTyGD4vQBK3aRiqWGwcF8w=w1818-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO-icgNQ0JDXUOlXoI4zfrcImqn4rQuWowIBld5Y6Gvt-iIVPELoh3QDbOkPuzd_ZGhn9RrWDTlTVYegR2SYUxkwaS4suu7dfsUQtCQquOawfjpKov-QnxU1xZ7CfEbdWHV1wusi_TOZLu994GDTbNiQw=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMOCbBcLgnW4LSd7oYAUHFfwWEZWDTPHfepplrlPQrsIAezDFVQV0Y8uoqLuqrCRlP-M-lVS_0S06hxaa1lW1rRDPqH0uvRonEklhVV3DAY0N__Tu0FKNx0m7geOU2yjHuQDefvEW1BZ4b4yVMkYlVxYg=w2002-h1334-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Niché plus haut sur les sentiers escarpés du mont Inari au bord de l'étang sacré Shin-ike (également appelé Kodama-ike), le sanctuaire Kumataka-sha (« sanctuaire du faucon ours ») baigne dans une atmosphère mystique et intimiste remarquable. Dédié à la divinité Kumataka Daimyōjin réputée accorder la force d'esprit, la ténacité et le succès dans les entreprises les plus difficiles, ce haut lieu de dévotion populaire est réputé pour son rituel des battements de mains : la tradition veut que la personne cherchant un être cher disparu ou la solution à une épreuve frappe deux fois dans ses mains en direction de la surface sombre de l'étang ; la direction d'où revient l'écho indique la voie à suivre pour trouver la réponse espérée. Les abords du sanctuaire sont densément encombrés de milliers de minuscules torii votifs et de cierges allumés par les pèlerins dans la pénombre des sous-bois.",
     visiter: "Faire une halte méditative sur la terrasse de bois surplombant les eaux sombres du bassin Shin-ike, où se reflètent les branches des pins et la multitude de torii miniatures offerts par les pèlerins. Pénétrer dans l'antre du petit pavillon Kumataka-sha illuminé par la lueur vacillante de centaines de bougies votives blanches produisant une chaleur et une odeur de cire caractéristiques. Profiter du calme de l'auberge traditionnelle de repos voisine pour déguster un thé vert matcha réconfortant accompagné d'un plat de nouilles kitsune udon garnies de tofu frit (l'offrande favorite des renards sacrés) avant de poursuivre l'ascension vers le sommet du mont Inari.",
     link: "https://photos.google.com/share/AF1QipPyiv1eIMsVXO0ftzSTgJMBL_SdyMhPxzsv9CsQKH9YTKBEfbQfCZdz6RS1c4JX7g?key=UURaU2VvUkF0R19wTnZSMW5ib2pPMjI5alBia3VB"
@@ -6708,7 +6907,33 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczO4cD232hITKPo1esZHRMlVB0dXItDBqHGPVAiyRETyxYo6EKiaEq9W6ScCwhzgF5ll72PGvQACPMnxN_SaS0h501MZ2ACtk11LfwcIRsd4z_B5KTEMJvv1lxB73Rqt6hFUuAj8BD4G1gQApm5WYkHtlg=w2549-h1912-s-no-gm?authuser=0",
     description: "Écrin naturel emblématique s'étendant à l'ouest de la ville entre le temple Tenryū-ji et la villa Ōkōchi Sansō, la forêt de bambous de Sagano est un chef-d'œuvre paysager façonné dès l'époque de Heian, lorsque les aristocrates de la cour impériale choisirent le district d'Arashiyama pour y établir leurs résidences secondaires de villégiature et composer des poèmes waka. Formée d'une futaie dense de bambous géants mōsō s'élançant droit vers le ciel à plus de vingt mètres de haut, l'allée sinueuse est bordée de traditionnelles clôtures de branchages tressés. Ce site possède une dimension sensorielle unique : le bruissement délicat des tiges creuses s'entrechoquant et le sifflement du vent dans les feuilles suspendues ont été officiellement classés par le ministère japonais de l'Environnement parmi les « Cent paysages sonores du Japon à préserver absolument ».",
     visiter: "Arpenter l'allée ombragée de terre battue au petit matin lorsque la lumière dorée transperce la haute canopée verdoyante et crée des jeux d'ombres mouvants sur le sol. S'arrêter un instant pour fermer les yeux et écouter le craquement envoûtant des tiges oscillant sous les rafales de vent. Emprunter le passage longeant le sanctuaire Nonomiya-jinja, ancien lieu de retraite et de purification des princesses impériales avant leur départ pour le grand sanctuaire d'Ise immortalisé dans Le Dit du Genji. Prolonger la marche vers le nord en direction du temple Gio-ji, réputé pour son extraordinaire jardin de mousses émeraude niché au cœur de la bambouseraie.",
-    link: "https://photos.google.com/share/AF1QipPyiv1eIMsVXO0ftzSTgJMBL_SdyMhPxzsv9CsQKH9YTKBEfbQfCZdz6RS1c4JX7g?key=UURaU2VvUkF0R19wTnZSMW5ib2pPMjI5alBia3VB"
+    link: "https://photos.google.com/share/AF1QipPyiv1eIMsVXO0ftzSTgJMBL_SdyMhPxzsv9CsQKH9YTKBEfbQfCZdz6RS1c4JX7g?key=UURaU2VvUkF0R19wTnZSMW5ib2pPMjI5alBia3VB",
+    sections: [
+      {
+        title: "Allée végétale et clôtures chikugaki",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOP-6-9IKrMe6RnCN1x-1k3-BPsXqlVVEQ5LJe1-nfFPrOve14tswJBEvuZKetSSCPCMFz-0S0_NDOjeNb8XW7wMwldNkSS5P9M3_Z5w-pE-h7BFFn_uKfCp6-dm2fFc2-iqC9Dcj3KqrxiSWfHSZoFYg=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPchD1s54CfQ4cV9s2yXCsuKFekA_tON0zELUXUzeviHPkeIh1ARAGZZDnNqV6BIvMIMbflzz3mmAUqzhP_QZH37RYuOdUS9U2PYe9vVeyOxpp3ehwbbfAZsE2w8ELkJg9nK6prw51eDO6yzyxL0OZg4g=w2002-h1334-s-no-gm?authuser=0"
+        ],
+        text: "Le sentier principal, long d'environ cinq cents mètres, serpente entre le sanctuaire shinto Nonomiya-jinja et la villa d'Okochi Sansō. Il forme une nef végétale vertigineuse où les tiges rectilignes de l'espèce mōsō-chiku (Phyllostachys edulis), introduite de Chine pour sa vigueur et sa taille spectaculaire, s'élancent sans branches jusqu'à plus de vingt mètres de hauteur avant de déployer une canopée plumeuse et dense. La disposition serrée de ces fûts lisses vert jade filtre la lumière solaire en une pénombre émeraude mouvante, créant une atmosphère de sanctuaire naturel propice au recueillement. L'allée est bordée de part et d'autre de clôtures traditionnelles en branches sèches et lattes de bambou tressées (chikugaki), façonnées à la main selon des techniques artisanales transmises depuis l'époque féodale pour canaliser le pas des promeneurs sans rompre l'harmonie minérale et organique du sous-bois."
+      },
+      {
+        title: "Signature sonore et esprit du yūgen",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO8BiomCGD_kRP9nl_s_UndrV9VE9NczPN9jCm3jLnm1MCD1FS5rj-jn0LgXS3DiOTUbIf2uCZ-GP9tou6G7zAfw5YMlbXiq0pUMwoQzbHnnxL50pYA3RyYIant69wYV62U_Grdf4XuXxasCpaNz5W9lA=w2002-h1334-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO4cD232hITKPo1esZHRMlVB0dXItDBqHGPVAiyRETyxYo6EKiaEq9W6ScCwhzgF5ll72PGvQACPMnxN_SaS0h501MZ2ACtk11LfwcIRsd4z_B5KTEMJvv1lxB73Rqt6hFUuAj8BD4G1gQApm5WYkHtlg=w2002-h1501-s-no-gm?authuser=0"
+        ],
+        text: "Au-delà de son impact visuel, la bambouseraie est reconnue pour sa signature acoustique unique au monde. En 1996, le ministère de l'Environnement japonais a inscrit le frémissement de la forêt de Sagano sur la liste officielle des « Cent paysages sonores du Japon à préserver » (Nihon no oto fūkei hyakusen). Lorsque la brise s'engouffre dans le vallon, le visiteur perçoit une symphonie subtile mêlant le cliquetis creux des chaumes de bois qui s'entrechoquent avec douceur, le craquement lointain des tiges souples courbées par les rafales et le bruissement semblable à une ondée marine des milliers de feuilles effilées. Pour la sensibilité esthétique japonaise, ce murmure végétal incarne la notion de yūgen — cette grâce mystique et insaisissable qui suggère la profondeur du vide et l'impermanence de toute chose."
+      },
+      {
+        title: "Le sanctuaire Nonomiya-jinja et la mémoire des prêtresses",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOCx15Oe2vmOUZYAPzOWuEN5UA2DmP8QmGFO9jRi5KgHPhSL72L29MCXvYTvYeSvzXza2mkfS9yJzgEj9oTR3L1cSto9EUXz80_k_7xfczlF-XFTWEpv1LtQ2RCYZ0kb9wvrYKPctgx3RtQJYJEkwZQ7w=w1818-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO6e18UHbc6VUZBpz5VaOKxklP5YIOvG7V2GG1P9NX-sAjl7Os5dsiSJibftz0o1CmIKvstd1E35ZhP9DcjTLguUzaiCdeQPjGq9ir3RRoXDm-zfEX1xNrKgf_qEFO_hRlu7NfbEhK9csIczSlkduixAQ=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "L'histoire du site est également indissociable de la mémoire des prêtresses impériales du sanctuaire Nonomiya-jinja, niché à l'entrée orientale de la forêt. Durant l'époque classique, les princesses vierges de la famille impériale choisies pour servir de grandes prêtresses (saigū) au sanctuaire d'Ise s'y retiraient pendant une année entière de jeûne et d'ablutions rituelles au milieu des bambous afin de purifier leur esprit avant leur grand départ pour la côte sacrée, conférant à ce sous-bois une aura d'inviolabilité et de sainteté qui imprègne encore chaque recoin de ce corridor naturel."
+      }
+    ]
   },
    {
     id: "omihachiman_village_hachimanbori",
