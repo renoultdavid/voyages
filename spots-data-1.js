@@ -5555,7 +5555,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Belz",
     altitude: 4,
     is_island: true,
@@ -5570,9 +5570,7 @@ const travelSpots = [
     lng: -3.184286,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNNrJ5kXK5P9blc5NUJM9I9SKfvkBQzB41t0_4j9U2Jt4uRiLJcIMMMxjGRhDteu78eU_s3lB8_fe2xkKMQ7KeLL4reV9u3NBmhZhY3ml5Du7JWCEMmmzWrXvj7wbQxZH82-niyf-bnB0hkGBM6LjSTeA=w2653-h1769-s-no-gm?authuser=0",
     description: "Relié à la terre ferme par un pont de pierre séculaire traversant les eaux changeantes de la ria d'Étel, l'îlot de Saint-Cado est un lieu emblématique du patrimoine maritime et spirituel breton. Bâtie sur un ancien tertre insulaire où le moine gallois Cado fonda un ermitage au VIe siècle, la chapelle romane du XIIe siècle dévoile une sobre nef de granit couverte d'une charpente lambrissée, un autel dédié à saint Cado et une tribune sculptée remarquable. Le hameau de pêcheurs aux venelles fleuries de roses trémières s'organise autour de l'édifice, s'achevant au sud par un calvaire monumental à degrés et une fontaine de dévotion semi-submersible léchée par les marées.",
-    visiter: "Traverser le pont de pierre au ras de l'eau pour pénétrer dans le cœur préservé de l'îlot piétonnier. Entrer dans la chapelle pour s'asseoir sur le « lit de pierre » de saint Cado, réputé autrefois guérir la surdité, et contempler les ex-voto de bateaux suspendus sous les voûtes. Poursuivre la promenade le long de la jetée sud jusqu'à la fontaine d'eau douce régulièrement engloutie par la mer montante, tout en admirant la lumière changeante qui embrase les vasières et les parcs ostréicoles à marée basse.",
-    link: "https://photos.google.com/share/AF1QipM-ClSqzBHKnPezVkqhkJHWn9QGmLqOlNITgMxupEkgiHqmmDJdOjonEseyFWPNkw?key=a1lHZWpZQldzQkxxZEt0Z0w0LTRTcVIzWWVLRDln"
-  },
+    visiter: "Traverser le pont de pierre au ras de l'eau pour pénétrer dans le
   {
     id: "belz_ilot_nichtarguerc_maison_bleue",
     name: "Ria d'Étel - Maison de Nichtarguér (Maison aux volets bleus)",
@@ -5630,7 +5628,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Belz",
     altitude: 6,
     is_island: false,
@@ -5642,8 +5640,22 @@ const travelSpots = [
     category: "naturel",
     counts: { rando: 1 },
     lat: 47.671771,
-    lng: -3.201420,
+    lng: -3.20142,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNLxHjoAUcrrKvB-OX2t45zwe4-4LJS_ZcWoSikq4uJy32pSwlL0H2xf2Lb3M9ZUXFDURa6rGsL1pHZVBlVzVe0CunOLOCAEOHpfH2Q5javnWL-7y-H3YQzISCT7KIezO6FqxI3_Jki7ovksIXPkJvOdQ=w2653-h1998-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPLFat6Os2rzBM7w5TwFc7cvZN94xJwnvl04d3_IJMShsHuY32i2OIoI5IXZxbIMVa_Do7K2_HmgkxVYDi0somxHmfHNAG9VFvITRM9mM4ccNOK1qDUuTFjgZTt2NmgKn7tWnu-2gxsIwdigsMLQ7-odw=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNjuk5ZqtgvBMTcJtQ4J1cN5jLlVDLKq8YnTW0MhtbmYizqKjoVtzi3AdMDD1ZlUI33bTXV_eUkN5CXt8_wFY3fouIjQ13GXMpl1FpE1aopkDuE9OxnXXypLGizDnbu9TsieWpPQ6jBv5IyrJDgGMVO_w=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNd46jKRup3UN3EkE5_5PLi8r_nagKSG0CUwrdGhQiKe12mkSQDJR2shWxn5PN_eHm-1XkxmTUs-y6W1XQ3WajE5zXSsDi-lwiV70v7m2bP7SyEsZ08JlAnmCdMkXDSOw3iB3hGYcs_HicsPH6MBIMTIw=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "S'avançant comme un promontoire boisé dans les méandres intérieurs de la ria d'Étel, la pointe de Larmor et l'anse du Bignac offrent l'une des escapades littorales les plus sauvages et apaisantes de la commune de Belz. Bordée par un sentier de randonnée cheminant au plus près de l'estran sous les ramures protectrices des pins maritimes et des chênes, cette côte échancrée alterne petites grèves de coquillages concassés, platins rocheux couverts de goémon et chenaux d'estuaire calmes. Le panorama s'ouvre généreusement sur les rives sauvages de Locoal-Mendon et sur le ballet des chalands ostréicoles manœuvrant entre les tables métalliques au fil des marées.",
     visiter: "Suivre la boucle de randonnée côtière balisée au départ des abords du Bignac pour longer les rives paisibles de la ria en humant les parfums de résine de pin et de sel marin. Contempler les oiseaux limicoles qui fouillent la vase nourricière à marée descendante et s'arrêter sur les rochers de la pointe pour admirer les nuances émeraudes du goulet marin. Découvrir les parcs ostréicoles en activité et les cabanes d'écaillage traditionnelles qui ponctuent les contours abrités de l'anse.",
     link: "https://photos.google.com/share/AF1QipM-ClSqzBHKnPezVkqhkJHWn9QGmLqOlNITgMxupEkgiHqmmDJdOjonEseyFWPNkw?key=a1lHZWpZQldzQkxxZEt0Z0w0LTRTcVIzWWVLRDln"
@@ -5730,7 +5742,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Larmor-Baden",
     altitude: 5,
     is_island: true,
@@ -5744,9 +5756,36 @@ const travelSpots = [
     lat: 47.579964,
     lng: -2.886317,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNClU1Vv7sWtM6kgfS8D9rLizNqiPk-YmPceT-0azOAkvN4Z96ZUVffI5vnGLNgUb9r_o8YBvKVUh5guLzLWZU0_lN1vncsY-kYlAR4fmRamtCuiC-tI9e9uE9zeJ_2kNcYxvuzfrerFaPt-SoHlKsefQ=w2549-h1919-s-no-gm?authuser=0",
-    description: "Joyau végétal et maritime niché au cœur du golfe du Morbihan sur la commune de Larmor-Baden, l'île Berder offre une expérience insulaire fascinante rythmée par le flux et le reflux des marées. Reliée au continent par une chaussée submersible de pavés et de goémon qui se découvre uniquement à marée basse, l'île déploie un sentier côtier d'environ deux kilomètres et demi ombragé par une végétation luxuriante aux accents presque méditerranéens, composée de pins maritimes centenaires, de chênes verts, de palmiers et d'ajoncs fleuris. À sa pointe sud, le regard plonge sur le courant de la Jument, le deuxième courant de marée le plus puissant d'Europe, où les eaux s'engouffrent avec une force spectaculaire entre Berder et l'île aux Moines en formant d'impressionnants tourbillons d'écume.",
+    description: "Joyau végétal et insulaire d'une superficie d'une vingtaine d'hectares ancré dans les eaux vives du golfe du Morbihan sur le territoire de Larmor-Baden, l'île Berder offre une expérience maritime fascinante intimement rythmée par les marées océaniques. Reliée à la terre ferme par un tombolo pavé et submersible d'environ quatre-vingts mètres de long, l'île n'est accessible à pied sec que durant quelques heures par jour à marée basse, exigeant des promeneurs une attention méticuleuse aux horaires d'inondation de la chaussée. Une fois franchi ce seuil d'estran tapissé de goémon et de coquillages, Berder dévoile un sentier littoral circulaire de deux kilomètres et demi ombragé par une végétation luxuriante favorisée par un microclimat d'une douceur exceptionnelle. Sous la canopée protectrice de grands pins maritimes centenaires, de chênes verts et de cyprès de Lambert, s'épanouissent des essences méditerranéennes et exotiques telles que mimosas, palmiers et arbousiers, composant une atmosphère presque méridionale au cœur de la Bretagne. L'histoire du domaine reste marquée par la personnalité d'Arthur Dillon, officier et financier qui acquit l'île en 1879 pour y édifier un grand logis néoclassique flanqué d'une tour d'observation polygonale de cinq étages et d'une ravissante chapelle néogothique dédiée à sainte Anne. Le pourtour du rivage alterne grèves rocheuses, petites anses sablonneuses abritées et points de vue spectaculaires sur l'archipel intérieur, notamment sur l'île aux Moines et l'île de la Jument toute proche. La pointe méridionale de l'île constitue un observatoire hydrographique mondialement célèbre sur le Grip de la Jument, le deuxième courant de marée le plus violent d'Europe, dont les tourbillons puissants et les bouillonnements d'écume blanche contrastent magnifiquement avec la quiétude silencieuse des sous-bois de ce sanctuaire insulaire d'exception.",
     visiter: "Consulter impérativement l'horaire de la marée basse avant de franchir à pied sec la chaussée submersible recouverte de coquillages reliant Larmor-Baden à l'île. Parcourir la boucle pédestre intégrale qui fait le tour du littoral sous la frondaison des grands pins parasols pour admirer les criques sauvages de sable fin et les panoramas sans cesse renouvelés sur l'île aux Moines et l'île de la Jument. Faire une halte contemplative à la pointe méridionale pour observer le déferlement assourdissant du courant marin, puis jeter un œil au manoir flanqué de sa haute tour carrée et à la chapelle néogothique Sainte-Anne édifiée par le comte Dillon.",
-    link: "https://photos.google.com/share/AF1QipMqnQ0IuLbC4uN2v2e3O65c3qUIJTKVz82bE0vYAc59n2I8rQVJQht66uYPRrF25w?key=eGpISkxfSEE4RzVGNm0wSHZjWWxIdWRSUFZSQ0xR"
+    link: "https://photos.google.com/share/AF1QipMqnQ0IuLbC4uN2v2e3O65c3qUIJTKVz82bE0vYAc59n2I8rQVJQht66uYPRrF25w?key=eGpISkxfSEE4RzVGNm0wSHZjWWxIdWRSUFZSQ0xR",
+    sections: [
+      {
+        title: "Passage submersible et chaussée d'accès",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNClU1Vv7sWtM6kgfS8D9rLizNqiPk-YmPceT-0azOAkvN4Z96ZUVffI5vnGLNgUb9r_o8YBvKVUh5guLzLWZU0_lN1vncsY-kYlAR4fmRamtCuiC-tI9e9uE9zeJ_2kNcYxvuzfrerFaPt-SoHlKsefQ=w1221-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN7tNUnuj7kb_Q6mbo1HX0FG1DMjsqNtC9JewGojS_bLiPBNreaZPtNb-66cB5I-Bjz9xxLx31RtHWdRVYc-WHFVaeFXWBwE2M7dmtnZ7VCv13ysz-Hsk-4fpaEEZ8H3kw4NrVtbkztQlfdp_pwYwQJxw=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Patrimoine de Dillon et parc exotique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPYowNHIPZK8RmDdNB4nOmKaom-DgS_KAkjOYFGJsmOqjEHsU1dhxSMA5FnTCFA96G23-QsAfURJhYMqSFCmU1vOu02HUgfzSNFL_wD1B794uzjq6I4R5PbhF1Qqwu-vVBWYXbyYoVyvxxbJuU4SEUIVw=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP_L3yFQvpnapbakVZcG18fDIuqxG98l6PG5L5pTqt3MiS2MSNnFkjg6UMQdOr2s5EVtthJ-NzHV-WKgSFnEVhf0hRPLJ485HkgCH7PSoxSaKKH4TT_-qThKcxM9-2LzKWWSGI_2FvXYVpYwXSa7SuaaQ=w1221-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMjp7tXXOdb64vEKjNvqC45kw6DPPG3OsFoRGWYDVDJpTnjzvlavIAtV1bJixeg_4N_UXugVq-3zr_MAFVLZ32vt-arEAbbsXb35x9eaEgAkuwX2gD3jtlBbui7qKb45eVJGkVvuk2nF2DSvHC9weLGdw=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "Historiquement aménagée à la fin du XIXe siècle par l'industriel et philanthrope Arthur Dillon, qui y fit ériger un manoir néo-Renaissance, une tour d'observation et une chapelle néo-gothique, l'île bénéficie d'un microclimat d'une douceur exceptionnelle favorisant l'épanouissement d'essences méditerranéennes et exotiques telles que palmiers, chênes-lièges, eucalyptus et pins maritimes bordant un sentier côtier circulaire d'une rare quiétude."
+      },
+      {
+        title: "Pointe sud et courant spectaculaire de la Jument",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNsEy77CeNkKlQTi63DWtWIP-SrrmQ6ZYzrqgp6DoP84Y2rvND1Ai3rK5l5Z3r0xDkRZ3oGhFxDsTAS52V9uEjI1TpqMIXy9evGSEBvKGCf7zEkkY39GCWDYa8w_DrKqgVMSk6X3kMefV6NAFcmRhOa4Q=w1221-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOW0h5R17oEKasTKOfiqUewYNB3RGMhkw8s127_xP7W70vVlcTYVAqc4dxO_ZGr47uKFytBsgmDf0r2wFdpN06run3_5RHdAl7eX84CAp1Bd75lQ2mMQQWoCEiEhLtRI12cDgS8T82yTTFlJM4gxSDY5Q=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: "La pointe méridionale de l'île offre un spectacle hydrographique grandiose en surplombant directement le détroit resserré séparant Berder de l'île de la Jument. C'est dans ce goulet que rugit le célèbre courant de la Jument (Grip de la Jument), reconnu comme le deuxième courant de marée le plus puissant d'Europe continentale après celui du raz Blanchard, pouvant atteindre des vitesses vertigineuses dépassant neuf nœuds (près de dix-sept kilomètres par heure) lors des grands coefficients. À chaque renverse, des millions de mètres cubes d'eau océanique s'engouffrent ou s'évacuent avec une violence inouïe entre le golfe et l'océan Atlantique, créant des bouillonnements d'écume blanche, des tourbillons profonds et des marmites hydrauliques impressionnantes visibles depuis la côte, attirant les kayakistes chevronnés en quête de sensations et contrastant magnifiquement avec la sérénité ombragée des sous-bois de l'île."
+      }
+    ]
   },
   {
     id: "baden_plage_des_sept_iles",
@@ -5755,7 +5794,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Bretagne",
-    department: "Morbihan",
+    department: "Morbihan (56)",
     subdiv: "Baden",
     altitude: 3,
     is_island: true,
@@ -5769,6 +5808,20 @@ const travelSpots = [
     lat: 47.584968,
     lng: -2.932932,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNKRgexn4YYtcbV_gqgTv7k4VjhoqnbO9lo26F9_PIWMFdtwKXzIBaIABoTPiKXRgPTe1C7wX6pRAUs95CP8bMEzYldAY0NOl1fziU4unEyjAw5qSxXMXAsYLHmU5tey1VYJthYwdyl2DhN08XbCKANCA=w2549-h1919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPntUCyCBBNQObpoIZwfINRXj4yQsQshNMuB7Pdpp5QUlQBdaPvW1N-n2JnLxePVhhTi7r7riHMvEb2z0_hbCrHfEMcSbB7D_UTn-pR4vIPzXEtSLLzEUSXpQ5Ddej4iOAd1E9LrZ-MvAtvel9k92uclQ=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNT8nMyOUC1G_DGeUBjOjc0popSMY3VpiJYcdyxfrtoc538tMJ0c-vPoIbDc0Q_U-v96SDGL799qol3B6KZ20ag81TjtQrh4gNZEFbG-RL2UrcPohYg2PzwmvbhtxNDUdDJQADwlHdz1H5orCb0CZdPrA=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOOH-l6RWgrrlx1A3YNDyIuPUlvAMzUa_aDNWk9cUPx_zreVzbgqc6iHiBFzeO5h3Z51lLDhO4suBV2zNIQsG-f_Rxtsukb0OYuX79GQBL80TKkVTOGPMMnFnZoNHJxUBmSpbt8GjIaXkubbDQuC73Ncg=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Située sur le littoral préservé de Baden, en bordure du goulet maritime reliant la ria d'Auray aux eaux abritées du golfe du Morbihan, la presqu'île des Sept Îles constitue l'un des espaces naturels les plus sauvages et paisibles de la côte morbihannaise. Contrairement à ce que son nom suggère, le site se compose d'une seule et même île étirée, reliée à la terre ferme par un tombolo de sable blanc et de galets qui disparaît complètement sous la mer lors des pleines mers de vives-eaux. Bordée de petites grèves de sable doré, de landes d'ajoncs et de falaises de schiste basses battues par les vagues, la baie offre un décor marin changeant où se mêlent parcs ostréicoles traditionnels, voiliers au mouillage et vols d'aigrettes garzettes.",
     visiter: "Traverser le cordon dunaire à pied lors de la marée descendante pour gagner les Sept Îles et s'installer sur sa plage intimiste orientée vers le sud et l'ouest, propice à la baignade à l'abri des vents dominants. Suivre la sente côtière qui serpente parmi les ajoncs et les genêts pour admirer la vue dégagée sur Locmariaquer, Port-Navalo et l'entrée majestueuse de la rivière d'Auray ponctuée de pinasses ostréicoles. Prendre garde à la montée des eaux pour retraverser le banc de sable avant qu'il ne soit submergé, ou poursuivre la balade le long du sentier des douaniers (GR 34) qui borde la baie de Locmiquel.",
     link: "https://photos.google.com/share/AF1QipMqnQ0IuLbC4uN2v2e3O65c3qUIJTKVz82bE0vYAc59n2I8rQVJQht66uYPRrF25w?key=eGpISkxfSEE4RzVGNm0wSHZjWWxIdWRSUFZSQ0xR"
@@ -5780,7 +5833,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Haute-Corse",
+    department: "Haute-Corse (2B)",
     subdiv: "Palasca",
     altitude: 2,
     is_island: true,
@@ -5794,6 +5847,24 @@ const travelSpots = [
     lat: 42.662842,
     lng: 9.061173,
     image: "https://lh3.googleusercontent.com/pw/AP1GczP7OkbdDReBx9gwcc4l899wYSEaLgVCPumTTw9gPdeDJ2fvFdzo9XTzytNWc-fLpAu6NX6bxFBAl1y_B31JT3Q5V0HAxjeJkE89sBbjHAS33c4Zw3mHDLhOwAxocL_dF_VGf1RBbc86i4oXwJm_YoJtUQ=w2549-h1706-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP2zspSA_21RlTb3AU8tpJy66FzAYhNcDqK6g12EL7rSKXKuPF-Ly9zls8egDELelk8LgJsN6p-cknqdKC6DpmMSVlXCfZQKsZc-O_DV83R3XctuUytknCkWsFbjPYZEpfb9pizvQr0e1JVTn_zrz8o1w=w1369-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMveVQS1w7zOBxJujIQmjo4HHv_xKOA8boZKMK5DGW-voUnadQ19TVjAZPoaSl3-gM7JBr0Xwjin4GTQgoM3KM05SR_XadSCpqHTQvs9kvJuA4zY7onI_-92LYrgEiI9J1QOAoR4mMltg_kZW0Xcwyngg=w1225-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNk2p-X9H7IoCvBsD49YMOAOwPmZvIKhbGTEabkIj4DGT1lAXE8gQrYEE4v8rnpB5JprJ0UIuQKPwNNg_Zy9raQi6bzsL01uUVJoafySQfwHojbZDvv5zA9CZvtmk1OzZRwlOnaF1kPWCMDlLYN6RFS8w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO6WwaFc92FfkVtmqXzj7u8ZhCloLdnn1iiuUzPoEhsLO_g0HyrP59bPKuLlY--ceTQljvHdpIIzjb-U16VeheJuZvAGrN6jOa3g7YgZ1F3gNlKlVidHqQ5ANDajqYtwIVkryAjxQH3MVyQ6pYa9nLaXw=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Marquant la frontière naturelle spectaculaire entre la fertile plaine de Balagne et le désert minéral des Agriate, la plage de l'Ostriconi déploie une vaste étendue de sable blanc immaculé bordée par les eaux turquoise du golfe de Saint-Florent. Classé Grand Site de France et rigoureusement protégé par le Conservatoire du littoral, ce havre sauvage est traversé par les méandres paresseux de la rivière Ostriconi, formant un estuaire lagunaire ceinturé de dunes littorales mobiles parmi les plus hautes de Corse, d'oyats et de maquis piqué de genévriers séculaires sculptés par le libeccio. Dépourvue de toute construction humaine et inaccessible aux véhicules motorisés, l'anse conserve une authenticité brute où se reposent régulièrement des vaches insulaires en liberté.",
     visiter: "Stationner sur les hauteurs le long de la route territoriale puis descendre le sentier panoramique taillé dans la terre rouge qui offre une vue plongeante splendide sur le cordon dunaire et les étangs côtiers. Franchir la rivière à gué ou contourner les zones humides pour poser sa serviette sur le sable fin et nager dans des eaux cristallines aux dégradés émeraude. Découvrir l'arrière-plage dunaire en respectant les ganivelles de protection du biotope, et admirer au coucher du soleil les crêtes ocres du désert s'enflammer face aux reflets marins.",
     link: "https://photos.google.com/share/AF1QipPB9Tbdc51OoxHIQXyjt6OC7jR9EhI6Qd1cnzcPZCcPMvkrqpBJXZOA7kNRN4lBLg?key=MHZiZ3dQbjY2aC1sS3FvWW1qUWRvbk9mLVExMEtR"
@@ -5805,7 +5876,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Haute-Corse",
+    department: "Haute-Corse (2B)",
     subdiv: "Palasca",
     altitude: 222,
     is_island: true,
@@ -5819,9 +5890,42 @@ const travelSpots = [
     lat: 42.667237,
     lng: 9.073988,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMImqQ_nn8QpLGQ7KMbS8RvK8H-AvRMKTGh1Dk6zOz5MXMCYsYYMCFPTmlJozRWCzi61yEx0_Shhe9VDwukdp45SVccrZes9n_qfBTPVJzdMWwZ6ve2xoXrKS8fzyVbpFxW6ZzMbrOw0TpwFqtJoLS3xg=w2549-h1699-s-no-gm?authuser=0",
-    description: "Culminant à deux cent vingt-deux mètres d'altitude au-dessus des flots, la Punta Liatoggiu dresse son dôme de granite sculpté de taffoni monumentaux comme une sentinelle veillant sur l'entrée occidentale du désert des Agriate. Accessible uniquement à pied par d'anciens chemins douaniers et des sentes pastorales rocailleuses, ce sommet aride offre l'un des panoramas côtiers les plus grandioses de Haute-Corse. La crête dénudée, balayée par les embruns et couverte d'un maquis rasant d'immortelles, de cistes et de lentisques, plonge vers l'ouest sur l'amphithéâtre dunaire de l'Ostriconi et s'ouvre au nord sur l'enfilade sauvage des anses rocheuses menant jusqu'à la pointe du Ghignu et les lointaines montagnes du Cap Corse.",
+    description: "Culminant à deux cent vingt-deux mètres d'altitude au-dessus des eaux turquoise du golfe de Saint-Florent, la Punta Liatoggiu dresse son dôme de granite ruiniforme et ses arêtes rocheuses sculptées de taffoni monumentaux comme une sentinelle austère verrouillant l'entrée sud-ouest du désert des Agriate. Accessible uniquement à pied par d'anciennes sentes douanières et des pistes pastorales escarpées au départ de la vallée de l'Ostriconi, ce sommet aride offre l'un des panoramas côtiers et montagnards les plus saisissants et grandioses de toute la Haute-Corse. La crête dénudée, battue par les rafales du libeccio et couverte d'un maquis rasant et odorant d'immortelles d'Italie, de cistes de Montpellier, de lentisques et de genévriers de Phénicie, s'élève au-dessus d'un paysage minéral immaculé d'une sauvagerie absolue. Vers le sud et l'ouest, le regard plonge sur les méandres lagunaires de l'étang et les dunes blanches de l'Ostriconi, avant de remonter vers les oliveraies de la Balagne et les sommets enneigés du massif du Monte Cinto et du Monte Padro qui barrent l'horizon. Vers le nord et l'est, la vue balaie la succession infinie de criques rocheuses déchiquetées, d'anses de sable blond et de collines désertiques s'étirant jusqu'à la pointe de l'Acciolu, au phare de la Giraglia et aux crêtes lointaines du Cap Corse. Dépourvue de toute trace d'aménagement moderne et protégée par le Conservatoire du littoral, la Punta Liatoggiu conserve les vestiges discrets d'anciens abris sous roche et de murets pastoraux en pierres sèches (pagliaghji), témoins de l'époque où bergers et paysans vivaient en communion étroite avec cette terre rude. L'ascension sur ces dalles chauffées par le soleil méditerranéen procure une sensation rare d'isolement et de liberté totale au cœur de l'un des plus vastes espaces naturels littoraux préservés de Méditerranée.",
     visiter: "Entreprendre la randonnée pédestre sportive depuis la plage de l'Ostriconi en suivant le tracé balisé du sentier des douaniers avant de bifurquer sur la crête ascendante menant au dôme sommital. Gravir les derniers blocs de granite fissuré pour s'installer sur les dalles sommitales et profiter d'un panorama aérien à couper le souffle embrassant les étangs littoraux, la côte déchiquetée des Agriate et les contreforts du Monte Padro en arrière-plan. Prévoir de l'eau en quantité et un chapeau, l'itinéraire évoluant en plein vent et sous un soleil battant sans aucune zone ombragée.",
-    link: "https://photos.google.com/share/AF1QipPB9Tbdc51OoxHIQXyjt6OC7jR9EhI6Qd1cnzcPZCcPMvkrqpBJXZOA7kNRN4lBLg?key=MHZiZ3dQbjY2aC1sS3FvWW1qUWRvbk9mLVExMEtR"
+    link: "https://photos.google.com/share/AF1QipPB9Tbdc51OoxHIQXyjt6OC7jR9EhI6Qd1cnzcPZCcPMvkrqpBJXZOA7kNRN4lBLg?key=MHZiZ3dQbjY2aC1sS3FvWW1qUWRvbk9mLVExMEtR",
+    sections: [
+      {
+        title: "Montée vers la bocca di Liatoghju",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPjd7uVb04fDd2f7Tal_LczGBd1r23w6EuDd_rJPtu0WBKqa1F3kQMulzu7KIGmJTj6tmMA5YeCuUsAXYmJA1lxMUkPbSrFqLTmozikoqOgveNCnv3P35BClLRAddF-OjzS206NxMohZD-iLfowFgA86Q=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le sentier quitte alors le tracé classique des douaniers (qui file vers l'Acciolu et la plage de Ghignu) pour obliquer plein nord et s'élever franchement dans les pentes de la bocca di Liatoghju. La montée emprunte un chemin pierreux et raviné qui louvoie au milieu d'un maquis serré de cistes de Montpellier, de lentisques, d'oléastres et d'immortelles d'Italie. La pente s'accentue en lacets sur un terrain de terre et de blocs de schiste friable balayé par les vents d'ouest, avant d'atteindre le col ouvrant sur les replis sauvages de l'intérieur du désert des Agriates."
+      },
+      {
+        title: "Arête dorsale et ressaut sommital",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMvku7Sdp6j2BnSlwPL4ctAMCemHZMvGy03L9G1tXJTIFH6K5m6lVozKaBLgvaCVWh6Gsrtx6FMa7p575D8hKgyLXMVmlgUrGS6nkGuN_EhRJWKxY85Xttcy5BBzRJ5XECuDNPRQd_vkUn0h_kdwNwxfw=w1221-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOV-N_8WiNGiFxHvOxa1157Kgm_gzEggKkM7cLwg-wcrLarYqHbiVbJM3BNBS6Tuq47juIBcEz7q5Mw59Y6SxkLwUP3exvDXsVMAJjrfw7ixGPx9dkD8Ja7JXuUov0nJS7-TDpczUDJlIUxT0ECWMAVaQ=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: "Depuis la bocca, une sente balisée de cairns s'échappe vers la droite sur la croupe dorsale pour négocier le ressaut sommital. La dernière portion demande de poser les pieds sur des dalles rocheuses inclinées jusqu'au point culminant, matérialisé par un promontoire granitique déchiqueté coiffé d'un gros cairn et d'une borne géodésique."
+      },
+      {
+        title: "Panorama circulaire sur l'Ostriconi et les Agriates",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP6GRJDwXgDurzGmI3RFyNbdS3455lqSE30Eh9YzYRvNQc7Noe7Lky85ACY_Y-UyV4uKI7WScwXJvkx0dElaUwdqxsR7iAmEvdQ7TS7o5k7dgRA8ydKYsWWHV6MvBWOGoXXOM7x3Zo6kggIbdl1KuVM8w=w1377-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMA4U7WFb6o8AYkRoR2lJA5VX2EqK3P7EAmg9GjjPIhRnl1qbblhnswrK9V-7s2STe_fH1tnRQQn2Aa_mLvVrToyxS4ludOQcKeqCsINnW6CBVhTVgaVFpYCme729KpfkiOdWCNVtN1Fh4lt6T5lqVJbw=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le panorama circulaire y est spectaculaire : au sud, le regard plonge sur les méandres vert émeraude de l'étang de l'Ostriconi, les étalements de sable de la plage et l'échancrure de la vallée vers la Balagne et le Monte Cinto ; à l'ouest et au nord, la vue balaie le découpage des criques déchiquetées des Agriates, la pointe de Curza et l'immensité de la mer de Ligure. La redescente s'effectue soit par le même sentier de crête, soit en boucle par un vallon plus oriental qui rejoint les pistes pastorales et les anciens enclos à bétail (pagliaghji) avant de retrouver le franchissement de la zone humide."
+      },
+      {
+        title: "Vues complémentaires du dôme et de la mer",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMImqQ_nn8QpLGQ7KMbS8RvK8H-AvRMKTGh1Dk6zOz5MXMCYsYYMCFPTmlJozRWCzi61yEx0_Shhe9VDwukdp45SVccrZes9n_qfBTPVJzdMWwZ6ve2xoXrKS8fzyVbpFxW6ZzMbrOw0TpwFqtJoLS3xg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO1ECK7YfkNsQ_g3ehWJ1qRm3fz5sI-CETda2wWr4xHUYryKwF-8UCHtCKTnrXW7jQ12rDt2IcKOzmiEaNN3CDniLF7sCRjcJ6IBI7Xo-DLI5FZpzhMY6oE6khf21LRV4lGCMkj66ObCEVpbZUKI-uj-Q=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
    {
     id: "san_giovanni_di_moriani_pont_de_l_enfer",
@@ -5830,7 +5934,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Corse",
-    department: "Haute-Corse",
+    department: "Haute-Corse (2B)",
     subdiv: "San-Giovanni-di-Moriani",
     altitude: 165,
     is_island: true,
@@ -5842,11 +5946,54 @@ const travelSpots = [
     category: "naturel",
     counts: { rando: 1 },
     lat: 42.388453,
-    lng: 9.474430,
+    lng: 9.47443,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOV_QRZWDlHvoICaceRqTpHIpj-Bw8xcdtVQ169F5w3XNzSAJjfdj3JBV_3bTG6eYUKm7IVdkIdKDvsNf52XuQPK9EmUbTyp8jv5j6f-ja1C3ZSuaJaQepjFpSkNGebYkbZ4qNZ2NpPlePAn3alXDOu2w=w2549-h1919-s-no-gm?authuser=0",
     description: "Niché dans les replis verdoyants de la Costa Verde au cœur de la vallée encaissée du Bucatoghju, le pont de l'Enfer (Ponte à l'Infernu) enjambe une gorge sauvage dominée par de hautes parois rocheuses et une forêt dense de châtaigniers séculaires. Bâti selon les techniques traditionnelles génoises avec une arche unique en plein cintre en moellons de schiste liés au mortier de chaux, ce pont muletier permettait autrefois de relier les hameaux perchés de la piève de Moriani aux zones d'estive et aux moulins à farine de châtaigne de la haute vallée. Le toponyme spectaculaire du lieu provient du grondement assourdissant des eaux tumultueuses s'engouffrant dans la faille rocheuse lors des crues printanières et automnales.",
     visiter: "Emprunter le sentier de randonnée pédestre ombragé qui part des hauteurs du village de San-Giovanni-di-Moriani et descend à travers le sous-bois de châtaigniers, de mousses et de fougères géantes. S'arrêter sur le tablier pavé du pont de pierre pour contempler l'enfilade des cascades, des vasques d'eau pure cristalline et des marmites de géants creusées dans la roche lustrée par les millénaires. Les amateurs de fraîcheur peuvent descendre prudemment sur les berges rocheuses pour tremper les pieds dans l'eau vive du torrent avant de poursuivre la boucle balisée en direction de la cascade de l'Ucelluline.",
-    link: "https://photos.google.com/share/AF1QipPRcmCbDTEzJMDi4WQTbyjOOdhUJGOvcOXzTwnlKnzkwZGt5s4gMQG_IRDN8iRoIQ?key=M3U0c2RJVmdRUVBMVnYyWXpjUGtLM0ROXy1ncGNn"
+    link: "https://photos.google.com/share/AF1QipPRcmCbDTEzJMDi4WQTbyjOOdhUJGOvcOXzTwnlKnzkwZGt5s4gMQG_IRDN8iRoIQ?key=M3U0c2RJVmdRUVBMVnYyWXpjUGtLM0ROXy1ncGNn",
+    sections: [
+      {
+        title: "L'arche génoise et les vasques du Bucatoghju",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMgNC0a0tB_1QQEeUTy6hdl-cjPnoOncwtXA0G9y8cZF4QwusfqmKvvwKyvpYZsvkhPzXIbNrECPx_icUnjw9ChQKHLc6neBJXyhpC3C-QG5cM_G6PaAB11JyemkQcZhSTwBdxiE-KZ_0fGpThv8TrySw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMLcsdBW1vmnZmsrR2BffJfcDGpHlIj_E-vdgTpBe_Sv83iiKHknpiYbeFqTjUSXEq4ZMFns2HvT9yvTymos8ayMPFUyKrSII_4vd5m5i0RThBEdRseiP59uAfBYg8nsT7oztyzx4H-UwNTW8fzFML-Zg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La première partie de l'ascension conduit au spectaculaire pont de l'Enfer (Ponte di l'Infernu), ouvrage d'art voûté en pierre sèche audacieusement jeté au-dessus d'une gorge étroite où les eaux vives ont creusé de profondes marmites de géant. De part et d'autre de cette arche séculaire, le torrent déploie ses vasques naturelles d'eau cristalline, alternant les cuvettes sauvages et encaissées de l'amont avec les bassins plus lumineux de l'aval."
+      },
+      {
+        title: "Sentier muletier et montée vers Fiuminale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNZbDhLW4Qyz2haI8jLhLYEBNdc-NWwkVfV19ZVTKkdU2wj99JEzK-3erOV0v9vriiyWUxEuLiMvaW0NyGYCEeZ_L-VGTINSmy31c-Fr6I_nOjivZbvPDpesnSBcaAWXCKJbDR24ehPwjveR-vkOFDdgQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMT5ClsohHv0oljx_T9HzRpaYiNFmz0DbN7V-6LiOQUt-B6X0sIP_s1FGWxZDSTPErO7R17KiP4jStWwTmnEsgjHsMZjfxAEMMAQUudVnaTiEBWzibjip_6hnkoxpJFgsq1u_bEYb6xAL07Jo_b_hvHXQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOp8__lpUV8WwI_gTES0CH8Tj2mQEgTNKsUl_x4HNfdpy9uMvtJAtBEQpMe-lyqKbAJw2h2-4EoITF3ZusCdtt4xiOKrfcqmPteXmtgA09ZiFyf2PgQmWrSDfSLWig3rGEEL8ZxxYNHTTtxfudGYq1S0Q=w1377-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOosfDfg1oqsKNa7XUOj2lgfeRmqVPgR6Hvr_PlfUXVCVdHkcpjKTOKEifP2uedKZWMFFP2zuNhu7m1XyhDeMw-MZDIWMzaGiXNE8y_V2kQehlXYQNXq5lLORCleBRQVvaVvDTQ_g1wmYjNTVVjqeQKyA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMApDMFl_Gj_bCAce1tMDTBEGyTzUYQkgmvOVVsrvSHLMcJTXh9dcWDYMLBizRZSm-8ThuKBVWtYicLIREglnY32pxC1VHrF-qtkvcIejfSud1tJGBgaKWMcSGfDHUy0c9Pmjbm9JYBFX_zJsLHBhBj2Q=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNBaCIAW61TPXfL6YdBl6IRa0U70mLzZpeQIuB68YSkKSs7vUKCBYFOMCfyiE4jdMORJDmzZpAWkvtPJMw1wbH3md1nFNrXXTDpkrO7wvftKYhdj9M9R6VReVB85Jey1W5UT05zaSvz6NOU_oPAfwNXNA=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: "En poursuivant la montée au-delà du pont sur les sentiers muletiers caladés qui s'élèvent, la trace grimpe à flanc de vallon pour atteindre le site bouleversant de Fiuminale (Fiuminale Sottano et Fiuminale Soprano) (objet d'une autre page car fait depuis Vellone)."
+      },
+      {
+        title: "Mémoire du village abandonné",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOV_QRZWDlHvoICaceRqTpHIpj-Bw8xcdtVQ169F5w3XNzSAJjfdj3JBV_3bTG6eYUKm7IVdkIdKDvsNf52XuQPK9EmUbTyp8jv5j6f-ja1C3ZSuaJaQepjFpSkNGebYkbZ4qNZ2NpPlePAn3alXDOu2w=w1221-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNNVulQ_SFt9Leq7KCXMei1lLE4F6-5iwBNgVeLQFbXag3nGRNDrwiqrUvc176gQu38kRRZJWTBvqIofohWP_UYsiC_VRbqodA2eZEssEh1hnD6JROf5K4Tdw1ILKwHY8jto1MoS_hQ44bAedEPWjUmIQ=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "Ce double village abandonné au cours du XXe siècle, dont les solides maisons de pierre aux toits de lauze émergent de la végétation envahissante, constitue l'un des témoignages les plus poignants de l'exode rural insulaire, offrant au randonneur un havre de silence et de mémoire suspendu face au large."
+      },
+      {
+        title: "Vues complémentaires du vallon et des cascades",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNWbkTF3TlsLLzIcdlQK0YvPR5xnTF0IWkU-NDEBmPxlV_BJtfz7bk-meb1-NtpE9cVw9CiFxbcXjnIe7YbkwgpdEBPM_ozcrCsZqPCtGlqI-5ocudXMXIn7TeOV9y083u9nq2iJ5FdscKEStJgzGVeQQ=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNMeZ-kNM3l5xSW5fA1UZj5nqK01WY3rAbTsIsFH4k7Tg68r19-YE1moX8MTXkAk50hTHO4jzT6O9Xu6NuGIa7KTI94-PeDNs5vg_sMXSCuKRQu54YVVgvudZV4fxB9uVMX_vaEvfl7hiVuRzj-0kq0bQ=w1221-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMUKF5SiUWRHJxYpkfALdlXJdkKxBT5Bm07Qmur3xRFlXM1_H135ZZJLIjUNIHIi2Jqy-z_mj75ms1KAkvoRA2xbdIHJIG_s65LGMvwe_s_zs02xYbZ55fToWuxtuFTW3c9SqV2aIMySGy1UU1Sp_XNbw=w1221-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP6rFRdTNnUxLub_cr2Ed3dF9JrmMiy3C-4_6gwVHQiPjsecB7vPM1Qdpwp7ZSNe_iYOicYU-IXNQeCj97cEVSeQrdotffjzCuD-xwr_1Ox_2lH8fwNgbE38PZ5cJjpOxFBw4HhKY5ihwrmcWsPKUsEqw=w1221-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPIGS9lvEmh06zlbWmR2J6cXw4iA3jMk1Adni5QRCNRUrH_rbrwWql2KPIeFOyjbA2HMfqOaKC_X7vZwymKpXt8YpTOekGNNQ1rqcV71O6AglJZfiENSyKv2gd6q5eGjbdk9t7IcbXiyeXolpXx8orDjQ=w1221-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM37G4ehVvNRDwJV31PHayd6OVtUmPYVREbKV2C9miMHT_ph2vKmJ2IR_Xpv-iVCGm1vug50BaBowGzFQkKsTENfNvyUc7Nzeztk5F6jc-1TnYYkl-S1QmPcJ1b2i0WPeZnW5fbEllZM_QfPoNilICJOw=w1221-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMdVQilxxx3F264Dm89PLrupxc--nhlrLkZxTqHUj1gJnjaTyrBpDNGmX7VBMtMZNGg27LMhHCXC59scEAeSKX3hj71JBXZI8shrqnBR7i70yOs1pzACrA3nhMLTXGoFVHfdQynSBWNOwFyytF7CUm-pQ=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
    {
     id: "scandola_reserve_naturelle",
