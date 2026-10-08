@@ -3222,7 +3222,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Le Mans",
     altitude: 54,
     is_island: false,
@@ -3238,7 +3238,33 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczOuM2uUFwQM1fxHoZzYnvhSmrw1SKWwrkDPcUanci3haP9Zxn0rfPPT6E37QF9gR5KWXZ8asCbEJF_Bi2YOWATWiMAEt9KhYEBMZwMcrKgXZwUca8yYKYb9WwpmPvHLO7lL3tfEZE4b2bUKKJJfy-E9YA=w1373-h919-s-no-gm?authuser=0",
     description: "Fondée au VIe siècle sous l'épiscopat de saint Bertrand sous le nom d'abbaye Saint-Pierre-et-Saint-Paul de la Couture (dérivé de « cultura », en référence aux terres fertiles cultivées en dehors de l'enceinte fortifiée), Notre-Dame-de-la-Couture est l'un des plus anciens et prestigieux établissements monastiques bénédictins du Maine. Reconstruite à l'époque romane puis remaniée aux XIIe et XIIIe siècles, l'église abbatiale présente une impressionnante façade occidentale encadrée de deux tours carrées massives coiffées d'ardoise, au centre de laquelle s'ouvre un portail gothique exceptionnel dont le tympan sculpté figure un Jugement Dernier foisonnant d'expressivité. L'intérieur déploie une large nef unique sans bas-côtés couverte de grandioses voûtes Plantagenêt bombées à liernes et nervures multiples, caractéristiques de l'apogée gothique angevin. Le sanctuaire abrite des chefs-d'œuvre artistiques inestimables, dont cinq statues monumentales en terre cuite polychrome du XVIIe siècle réalisées par Germain Pilon et Charles Hoyau, ainsi que le fameux suaire de saint Bertrand d'origine byzantine précieusement conservé dans la crypte romane.",
     visiter: "Contempler depuis la place de la Préfecture la façade monumentale de l'abbatiale et scruter la finesse du tympan du portail central illustrant la résurrection des morts et la pesée des âmes par l'archange saint Michel. Franchir le seuil pour apprécier l'ampleur dégagée de la nef unique baignée d'une lumière douce, en levant les yeux vers les clés de voûte historiées de la croisée angevine. Parcourir les collatéraux du chœur pour admirer les chefs-d'œuvre de la sculpture maniériste mancelle en terre cuite, notamment la Vierge de Pitié et sainte Cécile drapée de Charles Hoyau, avant de descendre dans la crypte du Xe siècle abritant les reliques de saint Bertrand.",
-    link: "https://photos.google.com/share/AF1QipN6hvq2Fyep-bA3X2sqUF7bO-kwuwNvoIUiXUbfk5q2N47EaSZEtx3WIuDdyD8grQ?key=Q0E2Nl9xdy1yMFd4SFdyWjJjX0hyQVA1MUJjNVpB"
+    link: "https://photos.google.com/share/AF1QipN6hvq2Fyep-bA3X2sqUF7bO-kwuwNvoIUiXUbfk5q2N47EaSZEtx3WIuDdyD8grQ?key=Q0E2Nl9xdy1yMFd4SFdyWjJjX0hyQVA1MUJjNVpB",
+    sections: [
+      {
+        title: "Portail occidental et tympan du Jugement dernier",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNMtMUR3GRVocBLy0ymu0PKaiiBiNe8pkrnEhHCPY82TjpeD07AIdr8pTBmVeotBN1E3D5asL87CiOAbhdlfkAF1XGzZfkXJQ1aBivzMXS6mcWFHFceW8TnGmSlZ8Z0VBdAB0tK_QsZT1L-1w-GdU6Heg=w1373-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPO7LY892oMEmhUXt03RTOkj96SWP-PYuckfBxsfnS5H78Y0n4JU1uhAlmQUmGRHxT-2UFQodJ95jscXWYX4xM6KXrZcmOnCI8yY7a7BQpiK463zSu1A0fqFEp20fTV7s54uMLsJob3l9MFmswP1Jr5kQ=w1373-h919-s-no-gm?authuser=0"
+        ],
+        text: "La découverte débute par le portail occidental, chef-d'œuvre de la sculpture gothique du XIIIe siècle. Son tympan déploie avec une remarquable finesse expressive le thème du Jugement dernier : le Christ en majesté y trône au centre montrant ses plaies, entouré d'anges porteurs des instruments de la Passion, tandis que les linteaux et voussures illustrent la pesée des âmes par saint Michel, la résurrection des morts et la séparation des élus conduits vers le paradis et des damnés précipités vers la gueule béante de l'enfer. Les ébrasements conservent de grandes statues de saints et d'apôtres dont le drapé fluide annonce l'épanouissement de l'art figuratif capétien."
+      },
+      {
+        title: "Nef unique, voûtes Plantagenêt et déambulatoire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOuM2uUFwQM1fxHoZzYnvhSmrw1SKWwrkDPcUanci3haP9Zxn0rfPPT6E37QF9gR5KWXZ8asCbEJF_Bi2YOWATWiMAEt9KhYEBMZwMcrKgXZwUca8yYKYb9WwpmPvHLO7lL3tfEZE4b2bUKKJJfy-E9YA=w1373-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPEWJ4rCsqyWfAT8BAHEjg_8sXuJIKSdokF4xAK4B6Pa2HzGrhCTMyxkXRjTzakaA8iTKzANyAiPBFnYWGYvXqrs0ErVRyrWsfmYxGqtM6g64ETx44c61LYhJ1Tn5ij63nQXVdooGXFfYlXe6V4qLZjeQ=w1373-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'accès à l'intérieur révèle un volume grandiose caractérisé par une vaste nef unique sans bas-côtés, élargie au XIIe siècle. Les travées sont couvertes de spectaculaires voûtes bombées sur croisées d'ogives à liernes, emblématiques du style gothique angevin (ou style Plantagenêt), dont les nervures profilées retombent sur d'élégantes colonnes engagées rythmées de chapiteaux sculptés de figures humaines, d'entrelacs végétaux et d'animaux fantastiques. Le chevet s'achève par un chœur roman cerné d'un déambulatoire ouvrant sur cinq chapelles rayonnantes, héritage direct du grand sanctuaire de pèlerinage médiéval."
+      },
+      {
+        title: "Crypte romane et trésors de terre cuite mancelle",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOY0fZIihQuMh2Nc8racYFRPRvRegZflTZPciB6nJ6PUE_eEUtKLwN_UD1cXlsQQIy009MgvrjsWhOfjVOnyBktG3dbWPTOkiuNj6GXX6UGHtO0-AOSLw7hnFEVRmDBnGnGUNDx9621gPu0u2rv0t4j7g=w1373-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM5zpYhlvJKODaxemY4Oofpl87L8RQ0WKzNVOKeM7IUzgQl28OsQXsWf_L-BtM9uLjFxFz7bSruNUPvzOuiHmET4yRQZ8YpFv41CRj5wNSMgVTrefdCY1bNG-cRp2-RDshbh6oWZrLNaWT1pLIZuR3D6Q=w1373-h919-s-no-gm?authuser=0"
+        ],
+        text: "Sous le chœur s'étend la remarquable crypte romane du Xe et XIe siècles, l'une des plus vastes de l'Ouest français, divisée en trois vaisseaux par de robustes colonnettes aux chapiteaux archaïques épannelés ; elle abrite le lieu de vénération primitive du tombeau de saint Bertrand. Le mobilier liturgique et décoratif de l'église compte également de prestigieux trésors artistiques, notamment des toiles d'or et des soieries byzantines médiévales, ainsi que de monumentales statues en terre cuite sarthoise de la Renaissance et du XVIIe siècle façonnées par les sculpteurs manceaux Gervais Delabarre et Charles Hoyau, faisant de cette abbatiale l'un des plus riches conservatoires d'art sacré de la Sarthe."
+      }
+    ]
   },
   {
     id: "le_mans_vieille_ville_pilier_rouge",
@@ -3247,7 +3273,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Le Mans",
     altitude: 68,
     is_island: false,
@@ -3261,6 +3287,20 @@ const travelSpots = [
     lat: 48.008385,
     lng: 0.196916,
     image: "https://lh3.googleusercontent.com/pw/AP1GczO8iYqD6CqUCfJIDrggcLMsmWwkp74fEMO5s9RMmUF9WOnAzI7A3aKwb4nQdUEjeYVXyGzhfs4YpGMeL_b__Y17gkTEK9MtLy9dCcPWSROrsmmmr-JlMXx6bFAhAWhf8nVQkJrXawl_Vi7DKS2qhAV0Yw=w1373-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMXdTnIl8UGVClYQqw9MyM4rW4kxfZXSCe67BDNqcR4zVrgf2hbkxWDRHrksyG8FiVRqMNjZlXb1dcMvxnvNuhQmNraIuAUaI-oq5TF4PiHDC5V8DZojpy3ILScWz94EaFksinCy5StFRe5dB0WQVcdlg=w615-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPpjf-G7D9qpyAK57gC1-xbnYPQip4zTRUJP3_bZVfKwPFsfNFPPlC9QkFv70bhdMtPQjoFkRWB7Ygm0Em3bHWwyunYAXHrM1XFvzeOm5XBQFVSIXbr8iiXWwpcal9jpJhqc-EDLkbhB6uw__W7AXe37A=w1373-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOH8dNGc0ssr6EVAmgVUKp1ZjU-Gs8sYijGdBj0mkS3Si-9SsqjSVmv082ifdqZFMfq2k4wyGACminNaZ5JtuLMRkX0n5l9wt1XcgbzGiS6drfD_ptvlRKKiOyB_hptK2gxY__y6VFo6-8GxNi1Yiu2ew=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "S'étendant sur une vingtaine d'hectares protégés au sommet de la butte antique, la Cité Plantagenêt — cœur historique du Mans où naquit le roi Henri II d'Angleterre en 1133 — est l'un des ensembles urbains anciens les mieux conservés et les plus homogènes d'Europe. Entièrement ceinturée de ruelles pavées à rigole centrale, de passages dérobés et de cours d'hôtels particuliers Renaissance aux façades de calcaire et de tuffeau richement sculptées, la cité offre un voyage immersif au cœur des XVe et XVIe siècles. Au carrefour stratégique de la Grande-Rue et de la rue Saint-Pavin se dresse l'emblématique Maison du Pilier-Rouge, bâtie vers le milieu du XVe siècle. Cette remarquable demeure à pans de bois et encorbellements successifs doit son nom au puissant poteau cornier en chêne massif peint en rouge vermillon qui soutient la sablière d'étage. Sculpté de motifs gothiques flamboyants et de figures d'artisans, ce pilier servait d'enseigne visible de loin pour les étals des marchands qui déployaient leurs échoppes à volets rabattants sur la chaussée médiévale.",
     visiter: "Flâner au hasard des ruelles pavées de la Cité Plantagenêt (rue de la Reine-Bérengère, rue des Chanoines) pour admirer l'alignement des maisons en pans de bois colorés et les portes sculptées des hôtels Renaissance (hôtel de Clévant, hôtel de Vignolles). Faire une halte prolongée devant la Maison du Pilier-Rouge pour examiner les détails sculptés du grand poteau d'angle rouge et comprendre l'organisation d'une échoppe médiévale avec ses auvents en saillie. Découvrir les cours intérieures pavées, monter les escaliers des Pans-de-Gorron et s'imprégner de l'atmosphère cinématographique qui a servi de décor naturel à de nombreux films d'époque, dont « Cyrano de Bergerac » et « Le Bossu ».",
     link: "https://photos.google.com/share/AF1QipN6hvq2Fyep-bA3X2sqUF7bO-kwuwNvoIUiXUbfk5q2N47EaSZEtx3WIuDdyD8grQ?key=Q0E2Nl9xdy1yMFd4SFdyWjJjX0hyQVA1MUJjNVpB"
@@ -3272,7 +3312,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Le Mans",
     altitude: 46,
     is_island: false,
@@ -3288,7 +3328,33 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczNtisHpmS1lyvm-EJzseeysHZGcktd3syLgtyP5_fsvy3AUwNYBXilA7DZQlpPnF8oRySiMcbGHGJObdVmtYUXpRGNzX1PzUlTQlPiBLCu0yWkqXo9ojNg0OenPqGUWUTQtVQiBivxvt9TlyhhaABnFTQ=w1379-h919-s-no-gm?authuser=0",
     description: "Établie au pied occidental de l'éperon de la vieille ville à quelques mètres des berges de la Sarthe et de l'enceinte romaine, l'église Saint-Benoît est un sanctuaire intimiste au passé millénaire profondément lié à la vie fluviale et ouvrière mancelle. Fondée au XIIe siècle sous le patronage de l'abbaye Saint-Julien du Pré pour desservir la corporation active des mariniers, tanneurs et blanchisseurs qui travaillaient le long du cours d'eau, l'église a été remaniée à la fin du XVe siècle au lendemain de la guerre de Cent Ans. De cette époque date sa nef unique couverte d'une élégante charpente lambrissée en berceau brisé soutenue par des entraits et poinçons sculptés de gueules de monstres et d'engoulants. Bâtie en moellons de grès roussard et de calcaire beige, elle conserve des baies flamboyantes à remplages soignés ainsi qu'une collection remarquable de retables en tuffeau et toiles peintes du XVIIe siècle illustrant la vie de saint Benoît de Nursie.",
     visiter: "Rejoindre l'église depuis le pont Yssoir ou en descendant les venelles de la Cité Plantagenêt vers les quais de la Sarthe. Pousser la porte pour découvrir la quiétude de sa nef unique et lever les yeux vers la voûte en coque de bateau inversée pour observer les sablières peintes et les gueules d'engoulants sculptées dans le chêne massif. Admirer le retable du maître-autel encadré de colonnes torses en marbre ainsi que les statues en terre cuite mancelle représentant les saints protecteurs des mariniers, puis apprécier le point de vue en sortant sur les falaises rocheuses soutenant les jardins suspendus de la cathédrale.",
-    link: "https://photos.google.com/share/AF1QipN6hvq2Fyep-bA3X2sqUF7bO-kwuwNvoIUiXUbfk5q2N47EaSZEtx3WIuDdyD8grQ?key=Q0E2Nl9xdy1yMFd4SFdyWjJjX0hyQVA1MUJjNVpB"
+    link: "https://photos.google.com/share/AF1QipN6hvq2Fyep-bA3X2sqUF7bO-kwuwNvoIUiXUbfk5q2N47EaSZEtx3WIuDdyD8grQ?key=Q0E2Nl9xdy1yMFd4SFdyWjJjX0hyQVA1MUJjNVpB",
+    sections: [
+      {
+        title: "Vues extérieures et clocher",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOYT_SLTR3OJ0BZM1MX-OBsjdMQYJXn1Fi5rdmhXiSmi4aXcCqA4a9j9qMekH-e6KluIwPGhwYiTwUwLPCJyZj-pczBJDoM1PYWxya1jAq0e-SX-2iuPp140PbUGXr7Mt_-obhy1TfTc1TTHG6FzSu9pg=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNYrYxV1BXK26mCdVAC9MdWbdkfYV_XqHxpIPNI38rqTym_GupC6VggWMpcIC69ge5YsqgEwFJUxwaBahtHZoxVfMwS2CuO3khRlQr5Gz0A8OHMPmGHPNolOOj508DEjkuigzux_hI9guJbTPqso3kn2w=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Élévation de la nef et chœur",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNtisHpmS1lyvm-EJzseeysHZGcktd3syLgtyP5_fsvy3AUwNYBXilA7DZQlpPnF8oRySiMcbGHGJObdVmtYUXpRGNzX1PzUlTQlPiBLCu0yWkqXo9ojNg0OenPqGUWUTQtVQiBivxvt9TlyhhaABnFTQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMixGPelo5mrLsN0L-ZF78_XQ_GTtVAiyPOKmZyQUTmZenGftjNh-Nnjtup5oCm1d4mP7L2NnQ76JzP2oo3GwJoJXSSWd9UftquJvpL0jUIztQ_VdBR-IOaG1CcBE7GICkaSstHTynjIDuyqCLZlfLA_w=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le sanctuaire conserve une nef d'origine romane flanquée de bas-côtés remaniés au fil des siècles, présentant une sobre élévation de moellons et de pierre calcaire. Le chœur à chevet plat percé de baies gothiques s'orne d'un remarquable ensemble de statues en terre cuite polychrome de l'école mancelle du XVIIe siècle, témoignant de la virtuosité des sculpteurs locaux sous le règne de Louis XIII et Louis XIV. La façade occidentale a été profondément transformée au XIXe siècle lors du réaménagement des quais de Sarthe, avec l'adjonction d'un imposant clocher-porche néogothique sommé d'une flèche qui domine les toits du quartier Saint-Benoît."
+      },
+      {
+        title: "Détails architecturaux et mobilier liturgique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPawcThI3nLm_NMVG4GsDIwOma-FEAEAF-6XUTMp8m_evzL8IWcNHTDoqvWp9Vhu0J7vDNaY3iz8TvYDhR_cMwQscNyNXzW7WDtP51msHJt890C8x5mXDW4r92zQVJeSonPgAxtKijGK-rDVE1elgHtgw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP3QY9Hu2xmZODTU4Ydrx-RHVB5xPOy9p_CftQYDWo47iAEGmX225RVaRq2EmmVTFH9swCJfy130FckBLETuKC6xaIJGVn082VPWN3LDdC35QwkrhTOIuPZV52KtL_YlwPLoiRc0pfbs_u_ceja09-xmQ=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "le_mans_place_de_la_republique",
@@ -3322,7 +3388,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Le Mans",
     altitude: 52,
     is_island: false,
@@ -3336,6 +3402,20 @@ const travelSpots = [
     lat: 48.004217,
     lng: 0.195677,
     image: "https://lh3.googleusercontent.com/pw/AP1GczP9Vw36xCUFj6dqM3UQLVot-RpsP5cEFcqFd8NjyI5bg6haxYxQvelnLMlsSEICcsNPW3t0Mw8CNMT91Utmy16sR2C7-KhHTYG7DOuVn23LQD7QzD23WLd7D4R4UwTqCT7KRldYzoQvsziS2gB2raLO9A=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOL4ew7p3cQ_Sn600GUNbKkd4eVbk89nCHVlMSaphDulTBh69i5e_iUU4qeUdU3j3jhA8PyX1YaDN7t5hg2m6Hpkmx-dLJRbeOB4zaPaB8fe9I7HtZ9RPvBacR8a5J1ZzBD75ijbMeyuVPhhb3_M8qOaw=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMksOqAyP2og07Xso79Q0Y3Kqy5ZRd1Gy5cvXvUqrwobEZ9SqRV0gJM60AIpbDMvbfhlQoVJUS0JtqH7fDwEskudx4v8_m_dJKPcx5SsRGKq76Iu7RWMmOBByMdkwd_GfG8UoiuHydFh3GV_m74M-OPZQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMgvL_4Lyn3Prfk4kCymI3nP-fTpBYpO88MIEfYVl2CRB1ov4p1LRI-Hq_EGaO43PWKo1uJ8gnTmDePXbyccTopSWLPh_ckCc5HR5-D2MZNVe2qIm1-xMjkQTFGVp__YwFwxbx2xOq9tzazqjWUq2hlcg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Bordant le côté occidental de la place de la République, la chapelle de la Visitation est l'un des rares et plus élégants édifices baroques de l'Ouest de la France, inspiré des modèles religieux du classicisme romain et parisien. Érigée entre 1714 et 1723 selon les plans de l'architecte et religieuse sœur Anne-Victoire Pillon pour le couvent des Visitandines, elle se signale de loin par son monumental dôme octogonal coiffé d'un lanternon en ardoise qui culmine à plus de trente mètres de hauteur. Sa façade sobre en pierre de taille de tuffeau, scandée de pilastres toscans et surmontée d'un grand fronton triangulaire, masque une composition intérieure en croix grecque d'une harmonie géométrique saisissante. Les religieuses cloîtrées y assistaient aux offices depuis des tribunes supérieures discrètement grillagées donnant directement sur le sanctuaire central baigné par la lumière dorée tombant des huit baies de la coupole.",
     visiter: "Pousser le lourd portail de chêne pour pénétrer sous l'immense coupole centrale et ressentir la plénitude de son plan centré circulaire. Lever les yeux vers le dôme pour admirer la pureté des arcs de pierre et le jeu de lumière zénithale filtrée par la lanterne sommitale. Découvrir le maître-autel baroque richement sculpté de marbre blanc et de stucs dorés, ainsi que la chapelle funéraire latérale abritant la mémoire des sœurs martyres sous la Terreur révolutionnaire. Prendre le temps d'observer les balustrades des anciennes tribunes en fer forgé où les religieuses contemplaient le Saint-Sacrement sans être vues des fidèles de la nef.",
     link: "https://photos.google.com/share/AF1QipN6hvq2Fyep-bA3X2sqUF7bO-kwuwNvoIUiXUbfk5q2N47EaSZEtx3WIuDdyD8grQ?key=Q0E2Nl9xdy1yMFd4SFdyWjJjX0hyQVA1MUJjNVpB"
@@ -3365,14 +3445,14 @@ const travelSpots = [
     visiter: "Marquer une halte recueillie devant ce monument d'eau séculaire niché dans son écrin de verdure ombragé d'acacias et de frênes. Observer l'appareillage rustique des blocs de grès patinés par le ruissellement continuel de l'eau et s'approcher de la niche abritant la silhouette sculptée de saint Aldric crossé et mitré. Écouter le murmure limpide du mince filet d'eau se déversant dans le bassin inférieur pavé, et prendre le temps d'apprécier la tranquillité de ce site préservé qui perpétue depuis plus de onze siècles la mémoire du grand évêque bâtisseur du Maine.",
     link: "https://photos.google.com/share/AF1QipN6hvq2Fyep-bA3X2sqUF7bO-kwuwNvoIUiXUbfk5q2N47EaSZEtx3WIuDdyD8grQ?key=Q0E2Nl9xdy1yMFd4SFdyWjJjX0hyQVA1MUJjNVpB"
   },
-  {
+ {
     id: "le_mans_musee_de_tesse",
     name: "Le Mans - Musée de Tessé (Beaux-Arts & Égypte Antique)",
     country: "France",
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Le Mans",
     altitude: 60,
     is_island: false,
@@ -3386,6 +3466,20 @@ const travelSpots = [
     lat: 48.010307,
     lng: 0.203472,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOFfLvtT0rSnCxw7a_L6wmfIq-lr2KBCfNBfbz6sRtX2WRRsITKMSklps8m3ns2yHw10Cqt5lmjNYcTAJ5c1Ro-C1fQ_m5dCp-0F-_WWNsfo6gHbi6Gdnk4vKIi4oSOo1DQhCRVLfn-lvH4u3aMuZG7DA=w1373-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNiyS-VZ_301Ci011TJZcYx5HkQzknvfHpY_kCYzsXTkNkYHRyxHNHauqTk7QfgGGHAxvuQuumxcGxEnqYNGeREUm7do1I7OHepx5iWDIL8ywOL4y5i5rT77jy9Cwa1UUowDBIuqsyiU7IputwJkVarbQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNXuBGcSfzHsbrtbmgdNMiGury0HseHzJQvOBD6h_vTuFl5k8PaM04Zrt5dL27y7nIX1DY8RZRzqt73JEG4T09IDWjD_mdXudHtLjNxx_GY0v2HmAddBnlHIVjLIsVtY9Aclu04lCnY3pXGomSjdWXR5A=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOqVcXlCbC5NRjAPhxTmwrpvTefzjvfr6W7EnO5TA3oOD75IwE1rRPKS8kqKfVUgQCVdgLwpvfjYUkey4SrMVAAEq3WfGF9KqdFPdT5A97fmHdY2SnaKE39xva55lKR81xV_cC31I04cGlyM6E_xYHZxg=w1373-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Aménagé dans l'ancien palais épiscopal de Tessé édifié au XIXe siècle en bordure du splendide parc paysager éponyme, le musée de Tessé est le musée des Beaux-Arts de la ville du Mans. Héritier des riches saisies révolutionnaires et des donations des grandes familles nobles sarthoises, l'établissement conserve une collection exceptionnelle de peintures et sculptures s'étendant du XIVe au XXe siècle, particulièrement illustrée par les primitifs italiens et flamands, la peinture caravagesque du Grand Siècle et les toiles majeures de Philippe de Champaigne, Georges de La Tour et Simon Vouet. L'originalité mondiale du musée réside toutefois dans son sous-sol : un espace muséographique spectaculaire entièrement dédié à l'Égypte pharaonique, abritant la reconstitution grandeur nature et à l'identique de deux tombes princières thébaines de la Vallée des Reines, dont le célèbre caveau funéraire de la reine Néfertari, grande épouse royale de Ramsès II, ainsi que celui du scribe royal Sennefer.",
     visiter: "Déambuler dans les salons du rez-de-chaussée pour contempler les chefs-d'œuvre de la peinture d'histoire classique, la célèbre série des toiles comiques du « Roman Comique » de Scarron peintes par Jean-Baptiste Pater, ainsi que l'étonnant « Sommeil d'Élie » de Philippe de Champaigne. Descendre ensuite l'escalier menant à la galerie égyptienne souterraine pour une expérience immersive unique : pénétrer à l'intérieur des répliques exactes des chambres funéraires de Néfertari et de Sennefer pour admirer l'éclat flamboyant des hiéroglyphes et fresques mythologiques reproduites avec une minutie scientifique absolue. Conclure la visite par une flânerie reposante au bord du bassin et sous les arbres centenaires du jardin paysager de Tessé.",
     link: "https://photos.google.com/share/AF1QipN6hvq2Fyep-bA3X2sqUF7bO-kwuwNvoIUiXUbfk5q2N47EaSZEtx3WIuDdyD8grQ?key=Q0E2Nl9xdy1yMFd4SFdyWjJjX0hyQVA1MUJjNVpB"
@@ -3397,7 +3491,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Le Mans",
     altitude: 64,
     is_island: false,
@@ -3405,12 +3499,22 @@ const travelSpots = [
     transport: "a_pied",
     era_group: "contemporain",
     era_label: "Musée d'archéologie et d'histoire déployé au pied de la muraille romaine",
-    century: "XXIe siècle",
+    century: "XXIe siècle (2009)",
     category: "musee",
     counts: {},
     lat: 48.007269,
     lng: 0.198076,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPB1NNS8hur43BW1GohV-pK1nBNFJF0Qb8-miOzwcmm2Ue5j4OsCxuBcMQfqSepUYq3FMnBuIILWcdU3LGsqesrR41epmMDYP5so9NGJF1Da1TLhnJHVXgeuEJWvUVeOrj-GLrhsFVVGmbUv0vdDH6zPw=w1225-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO676Gw_0cE2gBQsJHGLUynBLwhp9LYGNE5FzvYOCx9vOulxeTRUgIQxbCacPSI0c3GU1XSPiT1oupRNrFlspkSMCBJPYzDFCmc_z8pLsOpZ_L6dS5t0jalqOlb3UsJbbThe8nipcgBw4uRtRZdhYopJw=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPP0BhLvE8s1eHgxaISeP_x3HkaRM96sKfj27gK5AtJ6sKGh8HCFNfu5eqibQEP7IZ63pP9TO-XKrCPZJlBxjU1e2-c9yF_-k2HMZ9QFnKoNITp5hXlpqTQOhJWzvHoEK8b2g1P6OyrBxIWDzM2bM2JFA=w1225-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Inauguré en 2009 sous le nom de Carré Plantagenêt puis rebaptisé en hommage à l'ancien sénateur-maire du Mans, le musée d'Archéologie et d'Histoire Jean-Claude Boulard est un joyau muséographique contemporain inséré au pied de la muraille romaine et des contreforts de la vieille ville. Conçu par les architectes de l'atelier de l'Île, le bâtiment associe avec virtuosité la pierre calcaire blonde, le verre et l'acier dans un dialogue subtil avec les maçonneries gallo-romaines antiques mises au jour in situ. Sur plus de mille deux cents mètres carrés d'expositions permanentes, le musée retrace l'épopée humaine et matérielle du territoire sarthois depuis les premiers bifaces paléolithiques et les trésors gaulois des Aulerques Cénomans, jusqu'au rayonnement exceptionnel de la cour d'Anjou-Plantagenêt au Moyen Âge. Le parcours met en valeur des trésors nationaux, notamment le prestigieux trésor monétaire gaulois d'Allonnes, les décors peints thermaux romains de la cour d'Assé et le rarissime émail champlevé de Geoffroy V Plantagenêt, chef-d'œuvre absolu de l'orfèvrerie limousine du XIIe siècle.",
     visiter: "Débuter le parcours muséographique chronologique au niveau des fondations archéologiques pour observer les vestiges authentiques de l'enceinte antique intégrés à l'architecture moderne. Examiner les somptueuses parures gauloises en or et bronze ainsi que les maquettes interactives restituant la cité romaine de Vindunum et ses arènes monumentales. Marquer un temps d'arrêt devant la célébrissime plaque funéraire en émail champlevé de Geoffroy V Plantagenêt pour admirer la finesse des émaux bleus et or représentant le comte d'Anjou armé de son bouclier aux lionceaux d'or. Profiter de la muséographie tactile et interactive particulièrement adaptée aux familles pour comprendre l'évolution du bâti médiéval manceau.",
     link: "https://photos.google.com/share/AF1QipN6hvq2Fyep-bA3X2sqUF7bO-kwuwNvoIUiXUbfk5q2N47EaSZEtx3WIuDdyD8grQ?key=Q0E2Nl9xdy1yMFd4SFdyWjJjX0hyQVA1MUJjNVpB"
@@ -3422,7 +3526,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Le Mans",
     altitude: 53,
     is_island: false,
@@ -3434,8 +3538,22 @@ const travelSpots = [
     category: "musee",
     counts: {},
     lat: 47.986791,
-    lng: 0.208420,
+    lng: 0.20842,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOtftrMtp6EZFo-FuL9mueYZI21vq9gRuFi_vvjvve3t5WL8YxEpHwvCQFlPucHsaY6sl_yqdebrc9KRfoDLkpwCXGlezQ8u9zK0nJL4xyOS2GAWGQaxng49c-gXNzzLekYRG27G8g7_2VjMFypzq22Ww=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPVsh6Hp1Lk59IGAwZMse-TClzdDd_LGNjOerh5Ahfg7FybDG7u5rRVW0hjK_wGLFKYwov9r8xdF56YXXZoB7pyAuftHVmc1Qc0yHiiFJoode1YH8ae6Iz9lq0qcyI_OHy6j_u4tEmLX9E1zj0u08d-kQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNahtdzx87wyuW7OIgiSVd2VdRPhTrpUWeZjG-oc1nQjUtAcFnX6JrEGjeI0fTdY9LJfn2N3jTettpej6nupofyUtR1yodhb2PmDH9dlMPs1FbNXOXFFPiaakOtx9fXZI4JUTwl25VRZ5jJEAwvES6y0Q=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMBJg7d_E-xura6U95wJFhK14kD8qBALkbiWAJDWIL3yz2NRYZZe4lM-qpE2IL215XRzZbmB0xSYlVSmurt6KLRWEqwncjUsHMWEMLk3o2i1I9Men6JGJVLnZ43dKQTxIRy-G5WKLSM0jIgkm6Z7cqWfQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Installé dans le quartier sud du Mans au sein d'un ancien groupe scolaire en briques et tuffeau réhabilité, le Musée Vert est le Muséum d'histoire naturelle de la métropole mancelle. Conservant plus de quatre cent mille spécimens naturalisés, roches, fossiles et herbiers historiques constitués depuis le début du XIXe siècle par les savants naturalistes sarthois, l'institution jouit d'une réputation scientifique internationale, particulièrement dans le domaine de la paléontologie. Le musée abrite en effet les stratotypes de référence mondiale du Cénomanien (période géologique du Crétacé supérieur définie au Mans en 1847 par Alcide d'Orbigny) et présente de spectaculaires fossiles de reptiles marins, de dinosaures, d'ammonites géantes et de poissons préhistoriques exhumés dans les carrières de calcaire et de roussard de la région. Ses galeries permanentes consacrées à la faune régionale, aux oiseaux migrateurs de la vallée de la Sarthe et à la géologie offrent une plongée pédagogique vivante au cœur de la biodiversité et de l'histoire de la Terre.",
     visiter: "Explorer la salle permanente « Sarthe Sauvage » pour découvrir la richesse des écosystèmes forestiers, bocagers et fluviaux locaux à travers des dioramas fidèlement reconstitués présentant cervidés, loutres d'Europe, rapaces nocturnes et passereaux protégés. S'attarder dans la section géologique et paléontologique « Mémoire de Terre » pour contempler les squelettes fossilisés d'ichtyosaures et de plésiosaures, ainsi que les dents géantes de carcharodontosaures découvertes en Sarthe. Participer aux ateliers interactifs de microscopie et consulter les expositions temporaires thématiques qui abordent avec clarté les grands enjeux écologiques et de préservation de la biodiversité planétaire.",
     link: "https://photos.google.com/share/AF1QipN6hvq2Fyep-bA3X2sqUF7bO-kwuwNvoIUiXUbfk5q2N47EaSZEtx3WIuDdyD8grQ?key=Q0E2Nl9xdy1yMFd4SFdyWjJjX0hyQVA1MUJjNVpB"
@@ -3447,7 +3565,7 @@ const travelSpots = [
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
-    department: "Sarthe",
+    department: "Sarthe (72)",
     subdiv: "Le Mans",
     altitude: 58,
     is_island: false,
@@ -3461,6 +3579,20 @@ const travelSpots = [
     lat: 47.956974,
     lng: 0.208782,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMUCfEwlxdKjv2QO-pWnmeTku0bYhSp17y01ZJ5kqzlJ3rf6v0bJU0AVgyzCsvZd9GxQhvi-mXxL5rVxQAwORgVhGDAOgqP8Z3I6r2oERTaCmsL7md869OB0CFkooP2147DbDgIo-LvzHZ5d6qYBZp0-Q=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMkY0Rsx2HaC3poeKJT8M8lCB2vjLTYTe7ktDcuaRTwU8e-ZdL5Ye-51-Fn9ONIGx2JjIQVkYlFnshJgpE-n7yx0cJj2WtOhXzlC4wimmLp-w8yT8o4TS2rUVaakMF9hkS38m1_MvD987LCuW6ohZLdBQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMfEjuDGv1_35TInTy7eN1QVvR1XNg9Ja3_oY1BxPvS6WSYwXifAoTFUerACu6GzP0EjfwELl4mCN5FFVGzBv_Wmcn9gJV9HAbdTAM85nEoT5hsA0l89mXrwvWmGcrMDQLG5uTq8LDFdBOcwhFHK8ut5g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMY6cU_fMJjDuptbKJ4FIHLe5ZBujlI64Srj09bvuKOJMU0eIpMytratQ5sASz3XZki-DhQyeGuaBw58j2tafDGTmLuFW4gejqlRttYeZ30WPNP1qhNVyzvx4JbcbTd4_IzMcFSbNyuuSPAB6rY2n8wRw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Implanté à l'entrée principale du mythique circuit des 24 Heures du Mans, le musée officiel de l'Automobile Club de l'Ouest (ACO) est un sanctuaire d'envergure mondiale célébrant la plus grande et exigeante course d'endurance automobile de la planète, disputée sans discontinuer depuis 1923. Déployé sur une vaste nef muséographique de cinq mille mètres carrés entièrement rénovée, l'établissement retrace l'épopée héroïque des pilotes, des constructeurs visionnaires et des innovations technologiques nées sur l'asphalte manceau (freins à disque, phares antibrouillard, moteurs rotatifs, hybridation et motorisation hydrogène). La collection permanente rassemble plus de cent quarante véhicules d'exception ayant forgé la légende de l'épreuve : des pionnières Chenard et Walcker des années vingt jusqu'aux monstres de puissance contemporains, en passant par les légendaires Bentley Boys, Jaguar Type D, Ford GT40 victorieuses du duel historique face à Ferrari, Porsche 917, Matra-Simca bleu de France, Peugeot 905 et prototypes Audi e-tron invaincus.",
     visiter: "Parcourir la grande allée des légendes pour contempler au plus près les carrosseries fuselées des prototypes victorieux portant encore les traces héroïques de la course (poussière de frein et projections de gomme). Découvrir la galerie des héros mettant en scène les combinaisons, casques et trophées des plus grands pilotes de l'histoire, d'Ickx à Kristensen en passant par Pescarolo. S'immerger dans les espaces interactifs présentant des simulateurs de pilotage, des moteurs éclatés et des projections d'archives audiovisuelles captant l'intensité des départs en épi et des relais nocturnes sous la pluie battante, avant d'accéder directement aux passerelles surplombant le virage du Raccordement.",
     link: "https://photos.google.com/share/AF1QipN6hvq2Fyep-bA3X2sqUF7bO-kwuwNvoIUiXUbfk5q2N47EaSZEtx3WIuDdyD8grQ?key=Q0E2Nl9xdy1yMFd4SFdyWjJjX0hyQVA1MUJjNVpB"
