@@ -2411,26 +2411,19 @@ function renderModalSpot(spot) {
 function renderEnrichedCarnetMode(spot, layout) {
   layout.className = "flex-1 overflow-y-auto p-3 sm:p-6 md:p-8 space-y-12 custom-scrollbar bg-slate-950/80";
 
-  // =========================================================================
-  // FUSION AUTOMATIQUE À LA VOLÉE DES SECTIONS SCINDÉES (1/2), (2/2)...
-  // =========================================================================
+  // Fusion à la volée des sections scindées (1/2), (2/2)...
   const consolidatedSections = [];
   if (Array.isArray(spot.sections)) {
     spot.sections.forEach(sec => {
-      // Détecte et extrait la racine du titre en retirant (1/2), (2/2), 1/2, etc.
       const rawTitle = sec.title || '';
       const baseTitle = rawTitle.replace(/\s*\(\s*\d+\s*\/\s*\d+\s*\)\s*$/i, '').trim();
       const hasPartPattern = /\(\s*\d+\s*\/\s*\d+\s*\)/.test(rawTitle);
-
-      // On vérifie si la section précédente avait la même racine de titre
       const lastSec = consolidatedSections[consolidatedSections.length - 1];
 
       if (lastSec && hasPartPattern && lastSec._baseTitle === baseTitle) {
-        // Fusion des photos
         if (Array.isArray(sec.photos)) {
           lastSec.photos = (lastSec.photos || []).concat(sec.photos);
         }
-        // Fusion du texte si présent et différent
         if (sec.text && sec.text.trim() !== '') {
           if (!lastSec.text || lastSec.text.trim() === '') {
             lastSec.text = sec.text;
@@ -2439,7 +2432,6 @@ function renderEnrichedCarnetMode(spot, layout) {
           }
         }
       } else {
-        // Nouvelle section propre
         consolidatedSections.push({
           title: hasPartPattern ? baseTitle : rawTitle,
           text: sec.text || '',
@@ -2453,7 +2445,7 @@ function renderEnrichedCarnetMode(spot, layout) {
   const catKey = spot.category;
   const catConf = (typeof CATEGORIES !== 'undefined' && CATEGORIES[catKey]) ? CATEGORIES[catKey] : { label: catKey, color: '#06b6d4' };
 
-  // 1. En-tête : Badges, Titre et Présentation générale
+  // 1. En-tête : Badges, Titre et Présentation
   let headerHtml = `
     <div class="space-y-4 w-full max-w-7xl mx-auto px-1 sm:px-4">
       <div class="space-y-2">
@@ -2486,14 +2478,14 @@ function renderEnrichedCarnetMode(spot, layout) {
     </div>
   `;
 
-  // 2. Sections de visite (on itère sur consolidatedSections au lieu de spot.sections)
+  // 2. Sections avec disposition proportionnelle
   let sectionsHtml = '<div class="space-y-12 w-full max-w-7xl mx-auto px-1 sm:px-4">';
-  consolidatedSections.forEach((sec) => {
+  consolidatedSections.forEach(sec => {
     let photosMarkup = '';
     if (Array.isArray(sec.photos) && sec.photos.length > 0) {
       const count = sec.photos.length;
 
-     if (count === 1) {
+      if (count === 1) {
         photosMarkup = `
           <div class="w-full flex items-center justify-center my-3">
             <img src="${sec.photos[0]}" 
@@ -2503,7 +2495,6 @@ function renderEnrichedCarnetMode(spot, layout) {
           </div>
         `;
       } else {
-        // De 2 a N photos : Grille proportionnelle flex sans AUCUN rognage
         const maxH = count === 2 
           ? 'max-h-[480px] sm:max-h-[560px]' 
           : 'max-h-[340px] sm:max-h-[420px]';
@@ -2535,7 +2526,6 @@ function renderEnrichedCarnetMode(spot, layout) {
   });
 
   sectionsHtml += '</div>';
-
   layout.innerHTML = headerHtml + sectionsHtml;
 }
 
