@@ -2493,7 +2493,7 @@ function renderEnrichedCarnetMode(spot, layout) {
     if (Array.isArray(sec.photos) && sec.photos.length > 0) {
       const count = sec.photos.length;
 
-      if (count === 1) {
+     if (count === 1) {
         photosMarkup = `
           <div class="w-full flex items-center justify-center my-3">
             <img src="${sec.photos[0]}" 
@@ -2521,11 +2521,24 @@ function renderEnrichedCarnetMode(spot, layout) {
           </div>
         `;
       }
-       );
+    }
+
+    sectionsHtml += `
+      <article class="space-y-4">
+        <div class="space-y-2">
+          ${sec.title ? `<h4 class="text-base sm:text-lg lg:text-xl font-bold text-cyan-200 flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-cyan-400"></span>${sec.title}</h4>` : ''}
+          ${sec.text ? `<p class="text-sm md:text-base text-slate-300 leading-relaxed text-justify bg-slate-900/60 p-4 sm:p-5 rounded-xl border border-slate-800/80">${sec.text.replace(/\n\n/g, '<br><br>')}</p>` : ''}
+        </div>
+        ${photosMarkup}
+      </article>
+    `;
+  });
+
   sectionsHtml += '</div>';
 
   layout.innerHTML = headerHtml + sectionsHtml;
 }
+
 // -------------------------------------------------------------------------
 // ZOOM PLEIN ÉCRAN AU CLIC (LIGHTBOX)
 // -------------------------------------------------------------------------
