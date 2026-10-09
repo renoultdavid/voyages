@@ -11297,17 +11297,237 @@ const travelSpots = [
     subdiv: "Safaga",
     altitude: -5,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "nature",
     era_label: "Temps Géologique & Corallien",
     century: "",
     category: "plage",
-    lat: 27.0250,
-    lng: 33.9150,
+    counts: {},
+    lat: 27.025,
+    lng: 33.915,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM4ecV2oWKGbD_bDkpjOGJXygG-7vPAB5pg8vehhSGDjmXvbEsBLgl1mq_Ca4hyNgW-3MaQCcw2j7AVLMu_dkwwD0f5oNA7tnUo3u31wBKwpoPwjmYa9mBom71lHlNBurZ8mVXghWFoYTwWFwcmFEW1Hg=w1225-h919-s-no-gm?authuser=0",
     description: "Baie paradisiaque et sanctuaire naturel protégé sur la mer Rouge, célèbre pour son magnifique récif corallien accessible directement depuis la plage. Les fonds marins y regorgent de poissons multicolores et d'espèces endémiques dans un état de conservation remarquable. Loin de l'agitation des grandes stations balnéaires, ce site offre un havre de paix absolu pour les amoureux de nature préservée, de calme et d'exploration sous-marine en bord de rivage.",
     visiter: "L'utilisation du masque et du tuba s'effectue directement depuis le rivage sablonneux pour observer une grande variété de poissons-perroquets, de raies et de spécimens marins protégés. Les installations de détente sur la plage permettent de profiter du panorama marin en toute tranquillité, et le restaurant panoramique offre des haltes gourmandes avec vue directe sur le rivage turquoise, dans un cadre particulièrement préservé.",
-    link: "https://photos.google.com/share/AF1QipNRwK8ty9V3z_pZf-4EdBsAxQruzmu08jE2YUbNhN5qjAIvnZ-eD_YMF1h_I1jveg?key=Z19TSXNmSGNDazJoOEsxR3YyRmstR0R6aXExOWpR"
+    link: "https://photos.google.com/share/AF1QipNRwK8ty9V3z_pZf-4EdBsAxQruzmu08jE2YUbNhN5qjAIvnZ-eD_YMF1h_I1jveg?key=Z19TSXNmSGNDazJoOEsxR3YyRmstR0R6aXExOWpR",
+    sections: [
+      {
+        title: "Récif frangeant accessible du rivage",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPalKDx2z_Q5s64VNXj5ZYs04alSibaJ2mUdGRVww0lZ7mbpQjCFd_EUcW_QJR9uSyf_EggrJV8uHC3llWE0m4OK18KkSl8JX4nogFviABVUHkDoEEk8IQgmE_c37czITUh00yYbpfAWsfo_MUaHCf3Lw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOUmRiJX8w6SPjuh2-9tQzqPVNIYiQ8z07-hESzNn37Acml9wbqZHc5hPuHWE1zo_lo2OdnRWybM59mJUZDkAXTFRRuuMND5WAjxe3mLluFkXTwgTj4_UPj5TQbeTVD1kVZKnFVFDUo-I0cASWF8ateqw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM5ROQikZA3ozSfgaHdHI0OQxFZWfuLB5JRem5fpNAiqlaKCE3WfYBoQUVYNTcyg83nv2JhMc1XPVrd_z1tPQDRsBH_1kvCsHQrFNPZN2vu-j5Bx-489U2rRwIBazw8qyycVjO0Hu3MWcUyPXZ8rOPBJw=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La renommée de Sharm el Naga repose avant tout sur son récif corallien d’exception, classé en zone protégée. Contrairement à la majorité des spots de la région qui nécessitent une sortie en bateau, le récif maison se déploie à seulement quelques mètres du rivage. Dès les premiers pas dans l’eau, un simple masque et un tuba suffisent pour survoler des jardins de coraux foisonnants et contempler une vie sous-marine éclatante de couleurs, peuplée de poissons-clowns, perroquets, raies pastenagues et parfois de tortues marines."
+      },
+      {
+        title: "Faune et flore du lagon côtier",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNkLHkQVnsI1437bA9KagMTJOL2ECIsZ5RU7QGh2gIcWmp4D8AYtKEoqNGt6mR0hgNQHL78JJTS5U3TUAkjoUuCjlyjB6SBhfkmvWkEXKN59Rqzqt7kc5JC2UgeNtPOrdztXNuNxuVhjgO5iYkeD-jNEw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNODdEGyoYFlriPCJMLgPHhViHGlg7qzQgX_LGFEgk33V-Ve-m41g6zijKPRFJd7cRapuoTlvWVS2CxbkQjph80eJlN_No5xiWd13CktcvYNNBIuSyEzkgPH3OyodXz64NwJYNFviVXrr5_yujwZYEZQQ=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM5wlAL1tV3z_Sp0TyxoQXQFbCDuxwjm2LA8XMS2jiPfYnsCGs6VxmAU2uKgIP-vtq8fWzspqa1TjFsmpUz-0-XPc-pGjrfVcmCpxpF-B4-nBOLndD67eH9MR9QXOpwnOLLhuKulc3uJ6-N9uRW-ascBg=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Rôle écologique et biodiversité corallienne",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNOPiRmZlH44ssYExxKPHtdZAIyX_DXCY6Et69ziX_3bjaIFCA1C4JVVtHXMQPUdkBXVaWOmWMfrKc2ZFTlZK3XhiH3gRms0zWzxU6Dck_z50qJqR44ZaB5AhYHChnlGM4pZCO_C-3tXTivY4KxDj_CQQ=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNQ4_oZlO9jzp_WT5iFzi_IJKG_41dmVLdjTEcU2hxNGmCNtfwPe3piLFP0KLzw13pt2w6RosB_bIuz8ztzA3XZ6CIHvhwhfvahThuqhEjkojIOVdb41N31XQew4GasNM8kUgmZZP4QaN5mKgiUb1QCRQ=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP5czjf1-36RZxG3uyeVaSrjAxHZVjoSJ6oDCRqK9x3fEmR8NU3erNPA3__ZA8dsf8qSwl8o_kZzn376E3IYwESoaaXwYGFedqZKzgl-2FGz3zDLSSnHrAENYP8gLvQjcVHW5_oEQhmNuzJ-lAhe23_2A=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: "L'importance des coraux pour la vie en Mer Rouge est fondamentale, car ils sont la base d'un écosystème marin extraordinairement riche, jouant plusieurs rôles cruciaux :\n\n- Habitat et Abri : Les récifs coralliens forment des structures complexes qui servent d'habitat, d'abri, de nurserie et de lieu de reproduction à une vaste gamme d'espèces marines, incluant des poissons, des mollusques, des crustacés et des invertébrés. La Mer Rouge est particulièrement riche, avec environ 300 espèces de coraux et de nombreux organismes endémiques (introuvables ailleurs) qui en dépendent. Les scientifiques estiment que les récifs coralliens abritent plus de 25 % de toutes les espèces marines à l'échelle mondiale.\n- Source de Nourriture : Les coraux eux-mêmes et les organismes qui y vivent constituent le début d'une chaîne alimentaire essentielle pour de nombreuses espèces."
+      },
+      {
+        title: "Jardins de corail et tombants sous-marins",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMB68ciq3mLIxF7iUFJgHKe1_SbJ0int3WSs9OXZZyM5DOWxxkTKFRgLRj-oc_xX5e2whFvo-NzINhLDxo7OhIQDg1zU9sXHv3w2IkMwi5zl41zzPzdMZlJLRupQdudUdsP3-EzugRjQ0lFZ5tVQ-jM4Q=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM1m6tK2AWbtS9P6MOTDFhJJqsMBmT0u9HvKbljm-VnzMCYa1A36mnI0HHFBZlFVYCcujJZqX1ZQXwbHr29_WUCq-Kn2okTJMpZleOZBNY2lmXfgvSrSChdwXlFf7ytSKxQfV_pPMW7_p1lL_NjdJKN-A=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMCYfzTI6tBG6BFUaq3z7oZI7LB1PpnzXCDSyhz6bZfyiMegGON77YTGle_eXG6RmD3AtamCoDgi_0sjvGnGXpFJRP0KAwjbBqXmMjLceXkR0Op9HdICu8Ju7BQ4p6ogESGR-5wdd4dbb2A_aV8EXU5uA=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMCBY2AFf2EoiZFEzc2nXy816QV1m2KI9BhUurC9nKtWX1ew-QsGCzfm-4FZsAsZXtomdOj6O3xjX4V6PM5xTN-rc9oJcNeuQ4c_K4hQFPLWMi0PJpLKsIfBlAdnSi5KajSJHlY6PiShpJ9vUx2PD1EQw=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOFKCHuCTcOMZq_t0xNLwBJ0DfjfgjNuplRlunS8Iu7anEHlr_XcHAQVr-3QIbLI162fuueTdYU7xpzphqB-sxL1q30HaK-J74fLzbPTF14u66UD8Sqfsrrbc5y0IqAsmO0DanVpqj6d_Ad1I67BVfu4A=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNjxBp-aMpq6IWwjXoiUMjBbAzVvP5rQQQaUUcD0T5buwXJw7lc_D2pSwnRyRzL7OD1c8J6P4gk6ySbFdzF0QvSIHHGaobqa-E-d0jraIqAZoJsuYozHpkn-oz6465KxTBeGn-9KCrLfFWemz5GtaiWOw=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOtifQ_kTXMzTmOTW8p5X5WZXyqjiQsynejh_ud4P4rfrOolWTwnvR8resayGWbYAD6vBcKQ6-L4OUIEwvhLFdYMWGmGCINL5g6HufJLzw36iycR-FLosv8-rs0V4nqtLdGAZjYHT2nXH2Twq620DDaKg=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMLn1DMryvaSYoA4dkAyLsF5I6gWB1J8WZ8lcJiigVy94imXMXHe3db2txv7ZDYhvnMprnRu79LQIZgTaBOxpg-zUVJR8Zk227pRRjFMVK1u6yQc5s8BUDrvqzBcQUfnVMGJbA6GTTbn-JXjpDM69E0Tg=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPgmW7bwlxCVaZKABvhty1d8pYFDacqoiKLIlJXQf-C24OLFurogQ2U4sd_3BDs2S2AsJQ_Zkw9HxdLmqUCIELfx-RCRRcbCuuhJv8Qa08YAuublHPcHNw5KE1fB6TDhlHca4NsVrQGZTTyb2UZ470WZw=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOavk1y-qiPEdyRTxajVB1o2ZMlCrhxL26DDGzysMNyLkVfEHowUew1SqY8th-GRpLO9muHTHtgpkR4LnCJrTY79LjIx0Q7_78MfPmMdnHOIr0E3UCZYI37Ktv2hZa38c-9Zy7s1bdzq3xREdjvfQ8KUA=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN0Sd0o6VchS2OH13uBXbrtTJLZjIu6k6z68pGxT0gmkH9fR-W_jQ2Q4ALIwSUnX3ORgd8Lyq341ilA7X5mgvQR7aVTwuXH0CK4HdLAUbY2_6fbGXP3MxVnNT9HRRDkrKqwo2C3VZSq0XNydJXAWEd5kQ=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO4NdUUQmcVheKYvmNeoETpYQVt65LTYzGDUKZ5j4z9cb5i-Hn7FDj2sCYKnpYsKZU9jQJtUAuurGU3_A9AvskS8s7by-5n2emtVXa8ndRtaQuRBIp5cAN_cUiLPo70NWsoUMsjCD0IQVJNreJEKnrv_A=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNpyfDdNSu0bLNIypqoelcs8HG5uqJV-kJU6Enzo9vsHTXzr3Sz6X1bFTek-maZp7iYU_UzA4DxoWCCF9ViUFOdi9WjLSMl-YmosYWBh_XO0AkSsnmHUNdbNmyDPDo1sW37mjz-vqDQjYamXWTRVaACgQ=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPt0K9GCXoJQMyO0urtO1TkcYm5BM00Dri2KT8zMYNth8R4_F0IaA4ca2fZYwZyWN_cpbAdLMH1LofOPUVyYMantR-el-K9cR_ZugfmaJKOkTvTsJWPSSG8cnPH7mGhOZ3A-WhEkx-gtv4c-T-lD56e6g=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN6DNzqlFEXEHRdUZ9n4fMavA58gaIEOaMbMgVUMBpZXmAK6TKNv0oV7J0x_XfvvmbI96iuoA24R6_NB0un2aHNnBNvW8ezOa63YIFi7TOIxqQt2GoZPUGkCEHptIob72-o_IYY2vB-Wx1H-FsA6yAfSQ=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPipzm2OSDDh-noo7TOpBGG-fwShFim3nohSCIZvpVAVo4VF7Z4_C81m14lc6fgt-qz3fisxqPm9X2Q93wFb1T8_vsMkD6yNdfUe4gppCUHmM8zvizU1HS15PjbkgxWL0pBcKu_p5_MwsgCXj_131Bvtg=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPCnGHUA-BkNhY1RGLOCXoQrtrAYc2IKLNPqXO2TTEgmyff7NsR-6elMEOF_PPyLZJ5fZP5NQQORAtYpTMTvlM6stjGvQmEM0eKMwVRkd-sfsReKpA0yePe2uQS5VNAv35LNOjsO-1QEegAHpeKJ86DNQ=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNP2nJHc0UGA-cLvL-ROtFnND-KmtxnSvzVGhMs1J5BPDLn-5WbJcUoEIA1cs7IsPkehoPfHCuAIzlJBoYdEBsL2RZtijLWdo1qMerdEc-TiYSl6rRduMchgZNaN1UqpvEHNH0udN1A3SFGgMD-rhbYJg=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNm96gPL3eibWjQ8kjniAXEerf7zAvXWihBSGU_7icXhbiPkcNWmG4Rt6qzfDgtMmJjfXJc62Cnp2qvhslaOm8Qe9JcocA4mqIQeNIqXJQurJGNKN0YkDh-YntvGfhKtjo6qWT0GgmjgP3tnK92hL7I_Q=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNfSrMesgbvmgkDSphGAnGnyrbqaa4DsgA3SPLqgDCZWgJK7LarVyyENV9hF5N5CVoDmzdpi6j_I3J9QLgzSkKEZqbt8QA0uXnReoDgH2zsT4dR-PMLTghcx-oq2ii1PpqJ9jAHz6tbslyaLbEvEQIDCw=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOPX74MelzUBfVhPY84qiDDxs8LT3ik1tsS-dSomdheaJE03Ncz3V9NG4pfqj0kAZMhyLZjCpoh6jx-C5sQTGwKDbBTDAz_yIOKpRih-5FDvI-r8fM8WqT5u4uxcgWB8GC4Xo5VbRq7FdGwaG-OUSsNUw=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPl1Rc91uolAdf2LWgtUkqly-eVbq4b1-Uz1W_TiIdB6OKdKTAmiXDWRrpjj8ufC9KBXwYlCtaeoJ1thE4UdC761yZnfxrREGweSx5oiq9OzrmPF4lWoLdLvoLdF2eVZ55CuwnpWZaHx6JlfTtPeUXJmg=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNZSmmB5e0yJhemwi1fk3eLdTFNOX0jwKTxBWJKmRRunMxXJ6a8-sqdS-c8EvJ5UFHb4YRQRLKRSLZrjANiOTKlqD2NAE8lJGRZUCQ94d0CQiBuN3pia-QthqmgTaYGpMyXafR-Ouk8XEvZM7zpjjxv_g=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPXlyDiOkDfZcfiNa19hc7vLS8OVzAxNakpqC-vEdd00JdjP6ZMUWIJmbVUHVPAClCJ_IIDlwxplOS4S55SYLenA5-cCzfY1KErekKZLBlGgttIwsfW9jrQkgxUhq7-tzSvBGELUmQ5U0WAs1585tvQWw=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMpWso7V_8A6dsxQ8Md1gwJAoPjBNkYFQRJrh8lU_SRMbxJN5fo9SeudJC4xDfCWqanFlpmjK8rDWUlzOErB9X3wsqz1LyEuMwuxR-JqVudCVVNpr46mvRchgt9CmkjmntW5YgHrZ_JZp6WUl4rHoI28A=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNBHafZ9chIUK8kLSqlMudoKw9KCaAaTcEdFSaHEBAZgxE03iiTk0_cOjyRirURypXwfG9Iizg5FSQdbxYYsZfE8PPpPQd8gvQ2Kv_Ei4OUHNmOCUO2iDjh5CLS3fD16WBR8WPJIe_ImbXzJV_I65IsrA=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPeU5hZTB0zynzvTrPDDxZifZcT4hJhgF-WZ6KGW3_x6zdk9sOZM-f614Ayv5m44sM8WSZpIwUBk9yyiFnPLfBCoK6Cpm0C1YUtkHQ6itrEyYT_OGTr3RKBovmOlCRSEVC-innjox_XApY422hQUms1Dw=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM_Vw8t57IJWFvIvNxDq_SFZgq5KkngYeY1hXOhhGAU87vu1gMYBYz0pWcNaSkoTtaQ_Na3co5TI6dVci9nalSgTyC_UnYswHol4lf8Enci5CcuFOmjDFZkYzNTFK3FGbhsmfJQ8m78BJiT9bQcX6AOWQ=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOV8c1feQOr2hwuOeJYacGrRIHwOhrkrb3T2ieo0njnmdBc0cL_5Ym1THeYpqwybkkv_yIQOtP-PHS0OyKrXaVDTNTmDWtB3eIPx-H69MgOqd69-xcaNxexNjl5hOs6cBXjiPktJfGh6hHWY5Z3msReeg=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNUs0yUdf0YSVju1NBmNWK6cgnuRTdPqkv195shBtxmkJQ3GA4cHixXqcEiRR-sRgjgBln6jJHyBxPthRRBZ7cp2PKpk_AJ5Vgj_FtrulNJ7HvYy0IWtS4RKJGhs0bZ7tyB-jKPxbcHYpaP57sze7SmUg=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOCiD6OaFHVO1iuCoTSNZ9cBwglDdv6soI7CR11Sa2E1NCOpwv5dPWUb8-HZb24Nlrj0Bbp6YKRllHkNvKOMX7EeSaoL69orVaX67_FLTjQApnIffO-sIIU3kYe9_HJlPhz_i-HwaI2iVEIuBJwfS7ZNQ=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOoGyyHODboSsIyFz5pOSnTo4J-Q_EWhXw56TEwRdtSm0Yh3Z4bIAJUYxrn9vzJTswNl2sOa9QaX_83uzWN9OlCfM4jwgHFkKMUVUoVRkjPPZpNP2_GhbjXa8H7KFHaSGzSR5dcfaEvvJ-qyAUXlQ_BZQ=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPLiySPIv3la1P1Xx9kL3ID3LSPqdmgO1rh85FGZ1BaxkDIetAZZf1Vv75F5TslVszsDJLTRx2IXKNF1gUYbWB4g6FPg0sTiX7VOQMIdl25dn0F4Rn5fcYoHZQP8-VhB5_NamYH3Y_4bMlvQK6UHoJHGg=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNiRfdqgGYY-1EeyHFTfsYFc9xlFWUsx30QiJhNXCCZEEtlsjyS-gI2dVFt-RB2Ui2DPmLpwotAEfUi1Ygp8g4IoC78CaXnBvVkqZuH6S-dM5ML3H7M87C2wc63jZ49juyWoeyS8y5ENjtrnVo9UnXP4w=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPwvbcSunVWYAZIMNdwmvvXCRh0o3ey0PfqO741noubjirbkSpJn71sQ-ku0N4konDkk4Ah6SOUXHD2k-uXCKho0ilf_qYeUreYKrx1ByaY3nH1eDi99Sywn5uNzZfGYIohMeX-2A_0fIxow2PD78-IgA=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN_I9lv475H3T4gvj_5lVsRgTfuu5687oulQ2kkIVvNRDIml4oWOhxcJZqw0a7QBJPJ1K4YqfR6OoFvkDAVazxlJExBELxPYVZqOg0dHdPscuq31RaoxbX2RoUGLOJ7dRJQ5ecWPvlBgg1gZhEO26rJEQ=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNpFPF0Cc9PnC2FHfTjZM8vjFkcUTdfEG5zCTpbYbSEC49gjV0hq78sfwMtg0IVk7IEwgkoKC6Gb6XXsLKoAMWrk2jx6bv7QWg7KEfQFgHjglf9LNs-qKYdL0ND7_pMXIonB92Ktdcc0LUlKucHrz93oQ=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOYYpoiChrZGhzZp_jRBlaTvSIcOc9Yn0T8MZ4TFvJRfTgbf7qyAPOmniru0Y0XdgA4h6IkMStlZHYnG_G3p3rlQxmMiXPf0KCbFDWG6TQFtySHX-3yPegqZLIR-953dBAVXIchsXPWHP7dEvOURyDHkg=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNVY4eLPt6w2Lr7cmXNvl5ZO-THlooNPFWfWTTVj7XJ2nrzgHhc1HefkwkqVJhP8wj9C2npvSTDRj73xnDrY6OoNWsXlZlqECb4_xi7kmkJBYosAstJYoCwNf1mvhli-K8cO4yRDbZDOe1PSfk11F0S2w=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOf_0XLNN1x8oWWS8NmJACxWoKJRmosrbxebFwmrlM2ucRvxugmL6zwkyKPq86BHG3xiAB8A4NBKLfcKssAmklDKahho0dV0ir-cuxz11Qyinp_S_uYysPjSFxbjfoYA4YpQr7kYHHK9ToTQpcQREGpqA=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM4Svsj-AjVWAVa2HTVfJXAJO4561-8jIJOJZ-Uefxmxces6I-Bu7Y9GGcyrgDbYOqGBnXO8dN70idZT5nJukiEVxnwuVxXxCxrRcGy_owkgqGXD45KDndoslDq55SbU63pzfYVwyfxt4IYmiEvWUwTBg=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMee6xLBohthvL61ceIWGyOeILfgHnapERX9b2LPxtIEXw_M4R2qOQ-IDISoQBHcTtQTkSS14GVh5tgHcMHnBrlAbw-aMelAwxTo3RPG2YhNyaljGVLppIT2_3zAY3Yz55NqffytRayW9RnzZmIOjOkzw=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Géologie et formation des tombants",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPjYOi75kbSFTiRUQggcM7uecQ1VgGxaQsmBIc44n8LzcWVMl64CoZ2t6GbIqZJZNT_h14Hlr4zItDrJqb8wT4wTHK-7qwH_P2GaswxRkmWOyiLVgy7glZmF8yvvG7ZaI0_tHmNH7Gwla4BDv3rWAXpFA=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO4qwMw7JKvVP7fXusxPBGamRzL6H_0BsnI_dZx3JTd_sBPk-TujzoQBmDy-UQLtxM73GpN9kN2s5kYyAquj67agW8LvjYfh9RYfl-hdHDX0ftT2hFl5FfMrAoUb4JmalNIx-UbFDElwBQYJWyk2uwz9A=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOufjMS9XWHpwNkGoeiB5LTtYz4fhXC2u9u8ekXIsOX0Th39whlC3lcFNv3DilTU6-nbq2AYpj-WmFZEVbS-Ct_pdgO4R7AhVvz6mRFisjFxhNP_-e09tsj45dvhTJ2kzqVccznSDNu5imf58yhCxCLcA=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: "Un « tombant corallien » est une paroi sous-marine quasi verticale, créée par la croissance d'un récif corallien sur un fond marin qui s'effondre abruptement. On en trouve à Sharm El Naga grâce à deux facteurs : la géologie unique de la mer Rouge et la biologie des coraux.\n\nLa formation géologique :\nLa mer Rouge est une jeune mer, qui s'est formée il y a environ 30 millions d'années par l'éloignement progressif des plaques tectoniques africaine et arabique. Ce processus de rift continental a créé un bassin très profond avec des flancs extrêmement abrupts, souvent proches du littoral. Ces pentes abruptes sous-marines offrent une base idéale pour la colonisation par le corail.\n\nLe rôle des coraux :\nLes coraux sont de minuscules organismes marins qui construisent des squelettes calcaires. Ils se développent en colonies, formant des structures massives au fil des millénaires. Dans les eaux chaudes et claires de la mer Rouge, où la lumière pénètre profondément, les coraux se sont accrochés aux falaises sous-marines et ont grandi vers le haut et l'extérieur. La croissance verticale des colonies de coraux, suivant la pente raide du fond marin, a créé le tombant que l'on voit aujourd'hui.\n\nÀ Sharm El Naga, cette falaise sous-marine, et son récif corallien, sont exceptionnellement proches du rivage. Cela permet aux plongeurs et aux amateurs de snorkeling de pouvoir directement l'explorer depuis la plage."
+      },
+      {
+        title: "Tombants et faune sous-marine",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPzLhPdTozEyEeT4bUQapoyXQg0_jWZuG8nviPSSRkQ7o2Hdo_95i4nTTNJ1c8S9k4S6XKRdbu-ZvLwvplcJpjo143bmkZ0-ZCRHXbnM4KQtnbc1_5ehoe6jzd5eD5JWSCeLvH7ownaSfQFANkI-M-zFQ=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNw_C0r43sCp6OQf1eQpOQhYP2YsLKxkn4gFP2ehITA3ICs-59AhZ4Tnt8uq5IqY8gnMnimoMs3v6mbplSMuqpwYcbV1zQxqJ7VzW3HL7kGvjvr6DHLHs6pkWpMJrM3w92MZkLsGOt_fFZ3zBoeao49tw=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPEWST-EYqcoHrNa5f-pUWkvXJA4puZglvhpByy9ucVoLPl9Vuyf4cNfyYXTBdReaduGFpAKh6JlMmw_Lo2AmUNtML9c802lcREXfXw6NJIPoAF15hxGl9qoMGAQ_Z0vap0lZKtVlgtcj-4qjMYCHSmEw=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN1YfELwhVYSeDs0Fem9_nb0OI4wo2b2SE1_3Ka4nHOJg9Qy6nSLKZQ62YEqCn3lGQLhwzNZgoLNz6PQmQkP6QO3ELSyG-f3pYR41mlIAizh07c8YDpVs03N5UeA_JmxnY3AyO_VKH56dSjP10kJ9M2Cw=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNGAXXmnhv9gmCD86MEG-LY2bKqGKotx0k6FoanMlQQ-BqnJZunGpX0ahco4f1j_iM9vCmoLJZIIVfujGQn5uueDbdhxY13zecoQ8RCV1dyKncv0NCgJBG_l6Wc27WiTqoV_sdhb7v_0uW3nw-ai0nW2A=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOoX19eoOuRf-yxNfDzX4RfHYz4YLLNDX_pcj5OxlugCINpb7D2gub1DEwHM3ej0P6WlxCih8AszzQtFBkZuRGAcQ1TPfLs6doq1xi-vBLDoMjLjGm-MN4IiMpN3gammXUhl84fD6HOsZISBmzRPeEAtg=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMRx6M8XkpmLv5ppI-hP754izMtY2jUsS7dL28XabB4HPdIFlMtEBbto-7uG4ElVduTc_nDCCK2brl66exuLRgFlkZd1fRCHbXxuZmB8ePEVFCQtSxq5HjSg778qb761lWF9KwPXl3r0vWbKpTwAtT4lw=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMbLPrenvjl842K2TAkoCbjb1RrhGtHiXj1dRd6_TZGmwNvnA7G_YCDs9ZwPMNYp1AYRvvi17knjnSJlA4awx2iI02TXhtbWVO1TAamdM8AZCNpxR6vK4p4v7TBpr7YWDG6vqjbn1sevLW9ZNZC8l9WsA=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM4ecV2oWKGbD_bDkpjOGJXygG-7vPAB5pg8vehhSGDjmXvbEsBLgl1mq_Ca4hyNgW-3MaQCcw2j7AVLMu_dkwwD0f5oNA7tnUo3u31wBKwpoPwjmYa9mBom71lHlNBurZ8mVXghWFoYTwWFwcmFEW1Hg=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNwfNbLxFA_Tg-t-62weCnB5yeknhB-cM39x00fFt8XIIhABEQuBK5UeTJ8REtAtPQBrJyfg7XS5M-nFl5E6slzdti2lF7M8vvAedxwMp04MRo--2kam3fhkq68zy0u4dRFCkFnif_PVLYsb1JMKmX7jg=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMgaEIieocX0ENV99ifJIGXtAaCW4mZAmers5laUNEF8O-cn36RVponfZeOe4qhfV-8FcIijbCPukVIEm_C3uJ2S6ICyYlm07wo38l2sGoA5zCQhp24UmfnHu3_llHVvfVdYGntZMeaW7PCZ9KLeRWOiA=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMzl_TnNJjXjYGPXr0ZUClbsSMEfhCNxeU4_3vmVG2JZ0RJB-s0EckYaO-7ZTpP0bsDbwHol62pGTaKQhJMODDh_-I-OM5tzhAQrEvS98eUvueHaPlmkBqnqjwAWk-owRsxUp8lVveGS5t8aAO7aSAaPQ=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNVwWAqMJ6KmjAV-mdYzoKXzDL7iWMyDnQjIabByg9bvidOJczwdf0DtYdSiofBsR7xjm5Sq8jBbzXCw0aJqNq3_XlLF3sKDc0eNbmC0tW4kwcyxjYvNFP5L6hunEn8fdGkBAKaL2wUaGg4QmLlokA6AA=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNBbmuBjsDdNa1RqTMAMu94DTl4mp8E9qR5NqeMYpFOHPG1m6DhGo91i9MvT8ZHmhq3AsN96WWrDX0h3WbQvejAHe8A9cEZFJwl8S3RzcDWHIPuT_YhPBc7dzL8RZ5slb-HVkCQ4w2jnV2PrDmU5pkkrg=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP1Zay2xnFDS3TNVYV0izWkYDBlrbNji_RBfGmtJWwu4uHhR0pcdz9AQ8HTjEM82do-EDNBYFyKvR3xbswTkK4r2zolHoLcypKCaBIyTOXX2EisMH3J1c9wuQ887pdF5ypEgsvhnSr23cecvZmgg4tLJg=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP3v0dR1umfK8GCB_Lu1JOKx5Uc-5AosgoFSLk-Q2qgFoEayiqwWy5SKivdMmmlQcjhCDukljTSeo8SeoI97Rm4UGfB6sfazGq75KqpNWPzWNMNWMwcHkS7vRXQWx6BJh6NayT0tAuR6roOmsmmjcnZdg=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMsgd2aNYDv5TZVJKGIZFOisUq1iEUKjI8Uyx3pvybp2DrN9Ec9a5v2slXmlat5CsAduDESMJh1ZDesPkRFFZjrblB01p26GyjA3SO2iLuEaFXD5K8mnZHPfb9KyF68VpdedT_OcsHXabtEx5GVQBV0Rw=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMgv3OVEYB7u0AjBjGJm1uB60zlJBpHEZl7JtAgjlr5esQ6Lqlp5tEoKNPJoL5xIjwBJrMyhUSSVoKizB4H7eQssFQExvJ4JSGtg7W_XohcJPfVuV_hBNV4njREPbNU2-J4HOuG9IQ9W_4gCZlvrNHg5w=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "abu_simbel",
