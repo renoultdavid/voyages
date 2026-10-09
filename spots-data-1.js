@@ -11064,17 +11064,158 @@ const travelSpots = [
     subdiv: "Hurghada",
     altitude: -2,
     is_island: false,
+    island_name: "",
     transport: "avion",
     era_group: "contemporain",
     era_label: "Époque Contemporaine & Récif Géologique",
     century: "XXe siècle",
     category: "plage",
+    counts: {},
     lat: 27.2579,
     lng: 33.8116,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPVx1_9UPwnhcWOyxckSpIvYC2T7xDRFTOGeQEiu82QKFht2G6YoXd-HB0DbIDdJ4ebV00ThDFY_RWXl7IznrNWOy4kUUJPV-vv__clD_rD2Ul_nUySiLRNNiubcIxwK81MgkkBsjwr0_BIkhfXFeTpgg=w1379-h919-s-no-gm?authuser=0",
     description: "Joyau de la côte égyptienne aux portes du désert arabique. Paradis de la plongée sous-marine réputé pour ses récifs coralliens et ses eaux cristallines chaudes toute l'année. Un cadre idyllique pour observer la faune et la flore sous-marine de la mer Rouge en toute quiétude au cœur de superbes lagons. La ville offre un contraste saisissant entre l'animation des souks traditionnels de Dahar, le charme touristique de Sekalla et le luxe moderne de Marina Boulevard, créant ainsi une destination balnéaire et culturelle complète pour tous les voyageurs en quête d'évasion et de découverte.",
     visiter: "Les excursions nautiques vers l'île de Giftun constituent une option privilégiée pour l'observation des fonds marins, tandis que la découverte des récifs s'organise facilement depuis les centres spécialisés de la côte. Les spécialités culinaires locales à base de poissons frais se dégustent dans les établissements du port principal. Les édifices religieux tels que la grande mosquée Al Mina et l'église copte apportent une dimension culturelle aux promenades urbaines, et l'immensité du désert environnant se prête aux randonnées en véhicules tout-terrain sous un ciel étoilé.",
-    link: "https://photos.app.goo.gl/WmQkwoGfa1tPnuex5"
+    link: "https://photos.app.goo.gl/WmQkwoGfa1tPnuex5",
+    sections: [
+      {
+        title: "Récifs coralliens frangeants et biodiversité",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMxpevKMtRxC6nHyMt3nnZ8ZBA2Uk_NbcwrEZf6XE9KhTQBfPYQhN6dW3VeMr-JznYjIJhw5gthA5fSO5tXXCHhGCD1bTKESnkJbDz5_gdyPhZ5SRuLjy-8Hnhb_1v6q79Vax3oMgbAKrwSaJLijRxDXQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPR2EUCoTuvDdE-pDxUqLXUK3Le09IZb8Tkxfo-WR5OLObWHi1HUOi6s6pqGy7_F1bRbunowEhmbEWH0a4t08yHcLHG_FSVVuYPeyMAme27eUkZnvidno4UnP33rB4MCkk3WpMETG36SR-xsBsv0xFB5A=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: "La richesse d'Hurghada repose principalement sur ses magnifiques récifs coralliens frangeants, de véritables cathédrales sous-marines qui abritent une biodiversité phénoménale. Les eaux chaudes et très salées de la Mer Rouge, combinées à une clarté exceptionnelle, ont permis le développement de plus de 200 espèces de coraux durs et mous, formant des jardins spectaculaires, comme ceux que l'on trouve autour des îles Giftun."
+      },
+      {
+        title: "Endémisme et richesse ichtyologique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMe0Ut7h52t89xh7SC7w2s5F5C0ii_jCtd6mCtreiK8SAMyQ1SytkE8NN9XHHgOIBlj-5VVrXePNUjtZ_eHXwOAVwrne_My2s837BhGhwZYGmz3sAgmx7xGuTupBT8z8T_Nkew1KxtfdeyPgqn-_wm-1Q=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN-RGkj_LPadcSRC1FkcAfClb8RJzTYXqv4TLoTyzus6koxAwOfcmbg0XXXpK01tGV5XiHtOqa7Pxxjpm_V7CD8K906_uZ_RyMVmajnGW6otfZ5Ge6la1xSmC1aB-7kyV0TXuD1K3RkuhYc5CT0TkZXcg=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMo98zhtwziyLGp4s5EdOc0DOjdaRNWD4KFJ8NBvTl74pc-562kAmT7bPl8LP3fV2J99lb_QrrAn6i4ZaAPm7Q9DdYY5UNUcT9nMSGzfH2JxKdmZxvUUaMM04G8fr5X6eYpAr7nR_Yc6s_g2Rxbx8R3pA=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: "La Mer Rouge est un paradis pour les ichtyologues, abritant environ 1200 espèces de poissons, dont près de 20 % sont endémiques (uniques à cette mer)."
+      },
+      {
+        title: "Faune pélagique et poissons de récif",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPvQjDNce3_bMC7SDr3Xye-JTNgNqrW2xfRTtOYW0jdPIs5VFPYo3PV72t7zsBbJNYr-6SLG_yjy6OFAa9XXlUGF108-3YhR4MFCW1vR8e3A6RWbOkG-77tYp1rLrEencJ3RM_dmr9uhC2dnmzXfpzQZQ=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM2-jvW6hUnrQ56XYO_H2CXkrKN3Aq1ozM9zjcq-6nfCHKk_9XSpSKj9VMN6DRcTMSDF6qukyyZjuKtDwbsS0huU7fiKkXHcSXlWy06szITYA7XS3ELv5fjYXKH7tEgFW2UL6jHrikMeDLkhY1xKTHC7Q=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPPriDsko-BxrD0Pes_UzyxWAxSk-x-RNlPDhWZWvkcQyktVTL373L8xIuKegczDnj4gtjOt_EocWmhyAbO9SM0xB-yF6BEcTVjqf0Vy9Hrio7qIXZWFgJ_wNwO8_rwD2eV6qXPTSY_SEDvoeaLPDGSXg=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Résilience thermique des colonies coralliennes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMHqMYzQXU2PlHG-WuHCsaoddQTJErBQw6Q9f5udT0tqeHV7YOkL1PTT8kPwzE9LdXpxE4GyU6VCfsStr5mVlQBEnBT-a_OGDThgzYow5ZdCspwxZgRGdM9Uk0thMeb2WdNiD88MOMTSCnEzW7WASFHrg=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPiyhhSSlj_oMUgnxfY2alDJYmVZjPePoq4P8AoaCtp1_1p309vrvO6qMyQCsfea_WUS_QB3gAZqyBkl_IJ332M782hkuMNY0A05IxpLxApWh5ivQGD5DkESJWyU84GUKaKI3sKL2wDR8jyb7js55I7VQ=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPNultAPuyHBni6k5Q8qk9ArYzy8yvbso8L-xRSkjkEit_cEr3aEfeXxT-fBL4gT7FDabq-0qiXKrrg0glz3Aa4rPujWAnsf0AWsLGbNDTeJNBRYYmW8X3liV6gxNEZzEz6P1qf2_yvvFhJUAB7yLE59g=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: "La Mer Rouge est célèbre pour ses coraux en excellent état de santé, souvent plus tolérants aux variations de température que dans d'autres régions du monde."
+      },
+      {
+        title: "Architecture calcaire des coraux durs et mous",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMxyals-gIRJDFeRgRqyxFGJCYQ4ClQ4onycKPJRgkkmyp9ZQr_GadGwnXYLx9GHKEmhGBVlEtOMXORUmsuTlTdmRIiEbtTH3a6GvGjwHS9Dgx-3EHY_-1FM703CZLNLZi_VfZ6HW9QawuAe_Sq7NuQkg=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOcwX-jaIA8arcgLgoWQ-WGnxhCnsewo6fj2CWPmPcmV3anIIlTVQbONZWJRqUjPrryOLxMhMzIzQAlppbO0ROcsnrVE0JGwgz5NSDy0QPVinx5M-CPMljLilGJp6zw_028Mzr2EyPN4Uo_9vmIEW1IoA=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMyI4fCxXEsBl_fJGEVnKToO1wiwB3DwABhLzGj73vJdyXrY2xs_LZI_XbQ7buzdc0xZvBqAbY33C0BWci4VbaTuQximsSgUjjf433wuKdjVibZ2oq10cpqa5y3MuEErsKeAbCqmx_I52LMJwMbGnsxQA=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: "Ces « jardins » sont formés de milliers de minuscules animaux, les polypes, qui sécrètent un squelette calcaire.\n- Les coraux durs (ou coraux bâtisseurs) créent la structure massive du récif, allant des majestueux coraux massifs en forme de têtes aux délicats coraux en table (Acropora) qui fournissent un abri essentiel aux poissons.\n- Les coraux mous apportent la touche finale, se balançant au gré des courants dans des couleurs spectaculaires : alcyonaires pourpres, jaunes et oranges. Ces formations vivantes transforment les tombants et les pinacles en véritables paysages tridimensionnels."
+      },
+      {
+        title: "Sanctuaire marin des îles Giftun",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPwgUQIqmYpAmE73pZvuUeqMKajSJsup0hZTZm8OMpZLP14Z9bKm-1ctqYmSOlr0lvitNaR4GWk_1G1qbk3zNMw86HNeFYA97IoNYk4OYWipxVh2C2I-4OMYQ961xdN-L3XRJljZat0Lqba-4HqjJdn6Q=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPX9zIrErQhr9FUQRI0P0AJYoz9BeRH3hcvH-A7hb-ZdefvVn-m8_j3o9sHCXUq-pJSOh9ItZTNqSQmv2RqhVdvF8Wb-DGdYbAa4gKc5qqVoqrbfl0iYwVhyg23iFnApCIpRHrKdjGotK-nQQxDv8-sLQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "L'importance écologique des îles Giftun est directement liée aux récifs coralliens frangeants qui les entourent. Ces structures complexes offrent un refuge et une aire de reproduction pour une faune marine dense et variée.\n\nDiversité ichtyologique : La région abrite environ 65 % de la biodiversité totale des poissons de la Mer Rouge, soit plus de 790 espèces de poissons de récif. Parmi les observations courantes et les espèces emblématiques, on trouve le majestueux Poisson-Napoléon (un grand labre protégé), diverses espèces de poissons-papillons et de poissons-anges aux couleurs vives, des bancs de poissons-bannières ainsi que des mérous et des barracudas patrouilleurs.\n\nUne histoire de préservation : Contrairement à Hurghada, qui a une histoire de développement rapide, les îles Giftoun n'ont pas de passé historique complexe. Leur histoire récente est surtout celle de leur protection. Pour préserver leur incroyable biodiversité marine face à l'essor du tourisme, elles ont été classées comme parc national marin en 1986."
+      },
+      {
+        title: "Géologie et lagons turquoise d'Orange Bay",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMklMRfev1OZZX0VBIuVj3a4ljKVgjeoUdQUInm6IFOCWC2itK81xMma3hSlaASl4ERYsSuoUQazccmALE7ctnIzJZ3iPEwhlhJ67U5ULM5_R28LH0_aScoCgaRsHjfTy3g4Lyi7lITZcqm6zUwB6K76A=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPreCtgjHHZRBogNHej0tX2KMq4x56IhpuUmH4RWvZXySZY1z92_-BEgmWpQ59kDErkLOSVYSEhK_SexObcU5fmQNbRAy7UPGt3Kn-nuGraII2VYdcAL3bukg9Iq9uMg-r6rUAr9l0CR05bcYWMPowScg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPVx1_9UPwnhcWOyxckSpIvYC2T7xDRFTOGeQEiu82QKFht2G6YoXd-HB0DbIDdJ4ebV00ThDFY_RWXl7IznrNWOy4kUUJPV-vv__clD_rD2Ul_nUySiLRNNiubcIxwK81MgkkBsjwr0_BIkhfXFeTpgg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Orange Bay est une plage célèbre située sur l'île de Big Giftun (Giftun El Kébir), au large d'Hurghada. Elle est devenue l'une des destinations les plus populaires de la mer Rouge en raison de son ambiance caribéenne.\n\nCaractéristiques : D'un point de vue géologique, l'île de Giftun est un affleurement de roches calcaires et d'anciens récifs coralliens fossilisés soulevés. Le lagon d'Orange Bay lui-même est une vaste étendue de faible profondeur d'origine naturelle. La Mer Rouge étant exempte d'apport sédimentaire majeur (contrairement au Nil, qui se jette plus au nord), l'eau y est d'une clarté exceptionnelle, conférant au lagon cette teinte turquoise irréelle par réflexion. Le sable blanc immaculé provient de l'érosion marine des squelettes d'organismes marins. Entourée de récifs frangeants qui la protègent des courants, Orange Bay est ainsi un écosystème où la géologie de la faille océanique rencontre une biodiversité marine intense, créant cet environnement côtier unique. Elle constitue la destination idéale pour conjuguer la détente sur une plage paradisiaque avec la découverte des merveilles de la Mer Rouge."
+      },
+      {
+        title: "Bancs de sable et platiers découvrants",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNFuBatIiLPRR_63iEIh3btBragUmssxpKYAhV2hZA1-ncPGSZBToCcO25M6EtZNkKHQHZ8JcKCFd5TznBvsrzNQfCe7jvzXEaZN8x_exY68hIugH3TuP8E6agMNOa0P5JF1KbU_RsyiXHSyvTS-JV7_A=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOJlwCXUoiaCvICXmg4l3ChcPkw6wry48deYsw9TtSX8aS_RFjcBnJ4DLO2B5tAyvBKsaCnuVgCLi3GFiGx7LFDJxjnSk8ua0A8rzTqJej6zLoIfEOaLTuh6u6xWPdGY3fBdKmVoJ5b_FMgcf-6NgHWjg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le bénitier géant et la symbiose algale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczObGAzadlAVTYzdYcyXbkmHa9niYqT7EJW37MpEiF6MvXNCTCsz9QRrsSUX0DkFMDMrgTw8inAy5oMrNgr8hZAVB4rJD_NAZ2mf9mmFzGKUcBFPaTGXvx_X5mnfkU0nvl65So8BeIOqr6u7S8YSxEqZ4A=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPPzlgNzkhBshGeJvnQmwqjlYCi4T6Itidpo0qtQ8Jl58JcM-113JVwsW8L3W6diX_8Ibo8Y0dYysmsZ6tiitVXxGVx3vbr7pI1k5Z9qfKCf6tnrtV0v8dTGSeoV0oRrp-lnjLtW3mDh4YFkd4FA_z62g=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPtbDf6yf7lJhx7jt4JNp98PhsXbfqrCEuYLXaZEii9g2SDZOIs-8cm9SsPL49Tx29X51Gu5GaYZFsOSkRShhhQSs21swalsHt6uBIwmiV763NBBO-Sd38EemH_mFak0C_DEZmmtlM-Pd_FZlcAq55lXA=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: "L'incroyable panoplie de couleurs observée chez le bénitier géant Tridacna maxima (bleu, vert, jaune, etc.) est un chef-d'œuvre de la nature, né de la symbiose vitale qu'il entretient avec des micro-algues appelées zooxanthelles."
+      },
+      {
+        title: "Iridocytes et filtres protecteurs ultraviolets",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOBtwvqBpH8KlesjyWaTbN1FpWbUVlEUyBEUvyV0y53tw-obY2IEAOZD7oPWCN4RgNYRW5q_0UXy24f9sDy8nAoDQroy52XwvPe46a4gKAZbbi9fbFGerg1B0RamePqaqWkxQ8QdkADvWV8AjnVVbXWZw=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPYgCz6-OqzNpX6esWvkiZTGbIEHzw0vd7X0oTpgg3J9KiCngmDZ8woiql_EHqixsn-yOjJJRJ8EaPyCFdOFM_cvz-5p8sqi18-UvlVbI6uYL6D1omeY41zvsW5ojCXAV64FLART_tak9GnGkZposf50Q=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO1WFoaVwerbiRYI8gc7yqN0YofwLIKZCFacXRs_ZKrdE40goJdkxtlEkpGTQYYSLE127fywazs2Hxq6U1wQ54R-G0hKLieVSFweOuxm-FySbuB1Fgcqt9Oz9VsV6Ag-6om-0o75IE7T4gQ8pXjdUBI5g=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: "La couleur provient de cellules spécialisées dans le manteau du mollusque, nommées iridocytes. Ces cellules agissent comme des filtres solaires : elles absorbent le rayonnement lumineux potentiellement dangereux, comme les UV, et le réfléchissent sous des longueurs d'onde que les zooxanthelles peuvent utiliser pour la photosynthèse. Les pigments spécifiques produits par ces cellules, combinés aux pigments des algues elles-mêmes, créent ainsi les motifs et les teintes éblouissantes que nous admirons. Le bénitier utilise donc la couleur pour se protéger du soleil tout en nourrissant ses algues symbiotiques."
+      },
+      {
+        title: "Morphologie défensive des poissons-chirurgiens",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMvxLKg1qwxO98lBbLX3kBxGgMKl97i_YmM-cSbRNyjYCDr76iJ6iUZQv23xeBFb2kOIf-aPUFZ_FxpMJIzV2Wo_-w9Ymuu8nq41LKXL8ISYrvgFTZ8f6yXTuN5hciPQyYZh-TvvwBO1__Pu4h8WcGMaA=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN3wstKHM0wCxsO4G3d2k8iiJ9j0EXGZyM4bPjAL0RO4UGwyTL6CICWt2xwlktcENO4oXYfsA2ksQCbn1eWm2LXBV2kET_EUvRKqrouPFEMN18bxSSrxRdeqBXG4ga0LUm1pHwQRdiNmqqnfS5rQKqL0Q=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM7Mz2LcI7Z-JWctEgr2dOo7PIvjbqzqHoON57qXko16RmVdDR_t-sFRoR-blF3FQ7Mw1Z0dGgk0UTL67YzRjNu5swPve9lvRDeqVZETob3zZScymf2-OOQX0Gz_A2dW7gLL7J5R0EzvBKbEflYRsKg7A=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: "Parmi la foule colorée des récifs d'Hurghada, les poissons-chirurgiens (famille des Acanthuridae) sont immédiatement reconnaissables. Leur nom ne vient pas de leur apparence colorée, mais de leur système de défense unique :\n- Le Scalpel (Défense) : Chaque poisson-chirurgien est équipé d'une ou plusieurs paires de fines lames osseuses extrêmement coupantes, logées de chaque côté de la base de leur queue. Semblables à des scalpels, ces lames sont généralement repliées dans une rainure et ne sont érigées qu'en cas de danger ou lors de combats territoriaux.\n- Le Rôle Écologique : Ces poissons sont majoritairement herbivores. Ils jouent un rôle crucial en broutant les algues qui poussent sur les coraux. Sans eux, les algues étoufferaient le récif."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNyaOIN1LoRIQkEE9T0Zy9WHd1AOuOJGr7EAhREPyDk8Lt7T_EWdKfCpzKKgy9F1Kcmx5tZOrqwPZaYfT2mMsJ3HSilDSMmY9BsDchE7pv_3voU3dsOPfbdZXllve_9sMAPsoZuXDpg_gWmybNOE7Q3ZQ=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPrfCDC-hVuAg7rIplLz30vpbdsJIppKFJ_U-7I1cvadLXlX4LZBUdP4svI0O4NtM0EjYHHVnPTLov4Ayn6rT7vVLmri-6KFv2820KllJhW4S5FGRqLalzAefw-P1N3t-5sKikYKZWWxCqHUYVV4o0njQ=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOUPb8nfz0Sm5E7zuTt-yS25SrhXiB_tFn6qLJ8d0fDn-xaMzrCGyPYMuv5h5C4L8U0opaQvvRnrWMD4aWGh3swSENOefQTDMaKPVLL2U9rGbvMlbaf0Y1yz-Nbehe-kcKDJKl1gyaWdKTOcnk2TGtdvQ=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPRCs9aztKP-adF8Nfsbv4B2lrEakEZixczLT0QBn4XWnNUEyUhyiVDuX8n7IGRcEkTPWAgdOldEVQpRThdv7gy12fx34MDuZv1HjfqyiCRN4RYCvJAn2W90RujDHU4snJrsl6K-4jhySvTXFciFkcgpQ=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNPeb9j3O2KGb_QM1hYdFD33_fbOsgRszYPI79tflaLudpaSpmzFAoSaF_Qa8YE_lqqVwSPju96LijTpZ1hmpe3D2S15XmoryhImQ64GuzGDse5HS3ELsfVqK527MMaHjXWdwz_6IfcvxILXdwxPcrCxQ=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNqHyka20C9ccgrW5uybuwwC0BwVFnxz8H2G47MrD2iqXcayDEI2piZp843-s_Sko5OKPKAHxrw2-g5kuiLNuvHe4miRDVPqKdQDVQN3q91qpiuRICmZh56wN9ZY9UXauVgWNk0L_ri7gf0ZFW47K3Tyg=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM_03n4iPnH530CpsDX1TZCOafnQbLHIhEHwrXvIPzYxCYihHnnoEsvuvyyObwSMq8NbCquNyubiOvJgK7X56c_p_LytzbQ9FmApZElaAJ4CCMuefVZ8_2umshIWImiZwQltoH5WXrMjdC5jpKYLHJAXg=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM5E9YFFhwmDZPcBUqi-9kR3mEwQFeTzKDezli9Nwihrzr3dE4G7fIvyLztPfVi1AwPulDWc0ls-dtzkYWuh63aEW6eOWlCt8VK10XTGSTlR4rA4RlQSo2cDedGQ-NtIrl1G6vLgS4gZ71Jw55JMPB-DQ=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La Marina moderne de Sigala",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM2ueClm9nfsb6BCQQH2q0pcvT7p7Jj6aRX1H8apQfDHmZxU6EZ8fCVm43v46x9tR4zlvNU7P3HLF_tE1QoTnW_d5Ng1EceWE-wIcVK1KgrYUhVXG_4x6Twjh9C06n4SgN63m-oOQu7Rc-c_fMS2N9Pzw=w1741-h2320-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMZtQluwhMO48Kpk-EPUavlBClDs8YzRPrUCR8lQNySZ4K71XNJC0j39cxNc0oge-tZ_99xc1Yau--P3QN4krkMmidi3uXH8r1StqMEg-LJ1IdzbL1pwIKzGLaihfrBpiggvC9_YEYHPRfY6chN3mx-0Q=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOPZHcb4g-zS0MSxIEhitNFgpmn2RdOlNnD8anb9ipr2izLao9Nz_qs-IEGeo1ycoPl42pna38gx9dLmAm6dIwl9XA6YUW880PtTcccJVuOcs0T9M3f9_e9UTLtZHJlFHnvJoamcufsW5a9cNG9mEGrCw=w1741-h2320-s-no-gm?authuser=0"
+        ],
+        text: "La Marina d'Hurghada, située dans le quartier central de Sigala, est un pôle de loisirs moderne et sophistiqué qui contraste avec les zones plus anciennes de la ville. C'est une promenade agréable et piétonne, particulièrement animée en soirée, bordée de palmiers et de guirlandes lumineuses qui créent une atmosphère chaleureuse. Elle sert de havre pour près de 200 yachts et bateaux de plaisance et est le principal point de départ pour les excursions de plongée, de snorkeling et les expéditions vers les îles de la mer Rouge."
+      }
+    ]
   },
   {
     id: "sarzeau_menhir_kermaillard",
