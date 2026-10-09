@@ -2494,56 +2494,34 @@ function renderEnrichedCarnetMode(spot, layout) {
       const count = sec.photos.length;
 
       if (count === 1) {
-        // 1 photo : Grande, centree, ratio natif 100% respecte, zero boite noire
         photosMarkup = `
-          <div class="w-full flex items-center justify-center py-2">
+          <div class="w-full flex items-center justify-center my-3">
             <img src="${sec.photos[0]}" 
                  alt="${sec.title || spot.name}" 
                  class="h-auto max-h-[75vh] max-w-full rounded-2xl shadow-2xl object-contain cursor-zoom-in hover:opacity-95 transition" 
                  onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
           </div>
         `;
-      } else if (count <= 4) {
-        // 2 a 4 photos : LIGNE EXACTE STYLE GOOGLE PHOTOS
-        // Hauteur de ligne identique pour TOUTES les photos : alignement parfait garanti
-        const rowHeight = count === 2 
-          ? 'h-[360px] sm:h-[440px] lg:h-[500px]' 
-          : 'h-[280px] sm:h-[350px] lg:h-[400px]';
+      } else {
+        // De 2 a N photos : Grille proportionnelle flex sans AUCUN rognage
+        const maxH = count === 2 
+          ? 'max-h-[480px] sm:max-h-[560px]' 
+          : 'max-h-[340px] sm:max-h-[420px]';
 
         photosMarkup = `
-          <div class="flex flex-row items-center justify-center gap-3 w-full ${rowHeight} my-2 overflow-hidden">
+          <div class="flex flex-row items-stretch justify-center gap-3 w-full my-3">
             ${sec.photos.map(p => `
-              <img src="${p}" 
-                   alt="${sec.title || spot.name}" 
-                   class="h-full w-auto max-w-full rounded-xl shadow-xl object-contain cursor-zoom-in hover:scale-[1.01] transition-transform duration-150" 
-                   onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
-            `).join('')}
-          </div>
-        `;
-      } else {
-        // Plus de 4 photos : mosaique souple a hauteur uniforme
-        photosMarkup = `
-          <div class="flex flex-wrap items-center justify-center gap-3 w-full my-2">
-            ${sec.photos.map(p => `
-              <img src="${p}" 
-                   alt="${sec.title || spot.name}" 
-                   class="h-44 sm:h-56 w-auto max-w-full rounded-xl shadow-lg object-contain cursor-zoom-in hover:scale-105 transition-transform duration-150" 
-                   onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+              <div class="flex-1 min-w-0 flex items-center justify-center">
+                <img src="${p}" 
+                     alt="${sec.title || spot.name}" 
+                     class="w-full ${maxH} h-auto object-contain rounded-xl shadow-lg cursor-zoom-in hover:scale-[1.01] transition-transform duration-150" 
+                     onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+              </div>
             `).join('')}
           </div>
         `;
       }
-    }
-    sectionsHtml += `
-      <article class="space-y-4">
-        <div class="space-y-2">
-          ${sec.title ? `<h4 class="text-base sm:text-lg lg:text-xl font-bold text-cyan-200 flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-cyan-400"></span>${sec.title}</h4>` : ''}
-          ${sec.text ? `<p class="text-sm md:text-base text-slate-300 leading-relaxed text-justify bg-slate-900/60 p-4 sm:p-5 rounded-xl border border-slate-800/80">${sec.text.replace(/\n\n/g, '<br><br>')}</p>` : ''}
-        </div>
-        ${photosMarkup}
-      </article>
-    `;
-  });
+       );
   sectionsHtml += '</div>';
 
   layout.innerHTML = headerHtml + sectionsHtml;
