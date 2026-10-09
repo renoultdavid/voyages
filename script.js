@@ -2494,45 +2494,41 @@ function renderEnrichedCarnetMode(spot, layout) {
       const count = sec.photos.length;
 
       if (count === 1) {
-        // 1 photo : pleine hauteur majestueuse, centree, ratio natif preserve a 100%
+        // 1 photo : Grande, centree, ratio natif 100% respecte, zero boite noire
         photosMarkup = `
-          <div class="w-full flex items-center justify-center p-2 rounded-2xl bg-slate-900/30 border border-slate-800/80 shadow-xl">
+          <div class="w-full flex items-center justify-center py-2">
             <img src="${sec.photos[0]}" 
                  alt="${sec.title || spot.name}" 
-                 class="h-auto max-h-[75vh] w-auto max-w-full rounded-xl object-contain cursor-zoom-in hover:opacity-95 transition" 
+                 class="h-auto max-h-[75vh] max-w-full rounded-2xl shadow-2xl object-contain cursor-zoom-in hover:opacity-95 transition" 
                  onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
           </div>
         `;
       } else if (count <= 4) {
-        // 2 a 4 photos : RANGÉE STYLE GOOGLE PHOTOS (flexbox justifie sans aucun rognage)
-        // Hauteur de ligne harmonisee : 400px a 480px sur desktop
+        // 2 a 4 photos : LIGNE EXACTE STYLE GOOGLE PHOTOS
+        // Hauteur de ligne identique pour TOUTES les photos : alignement parfait garanti
         const rowHeight = count === 2 
-          ? 'h-[360px] sm:h-[450px] lg:h-[520px]' 
-          : 'h-[280px] sm:h-[360px] lg:h-[420px]';
+          ? 'h-[360px] sm:h-[440px] lg:h-[500px]' 
+          : 'h-[280px] sm:h-[350px] lg:h-[400px]';
 
         photosMarkup = `
-          <div class="flex flex-row items-center justify-center gap-2.5 sm:gap-3 w-full ${rowHeight} rounded-2xl p-2 sm:p-2.5 bg-slate-900/30 border border-slate-800/80 shadow-xl overflow-hidden">
+          <div class="flex flex-row items-center justify-center gap-3 w-full ${rowHeight} my-2 overflow-hidden">
             ${sec.photos.map(p => `
-              <div class="h-full flex-1 min-w-0 flex items-center justify-center rounded-xl overflow-hidden bg-black/40 border border-slate-800/50">
-                <img src="${p}" 
-                     alt="${sec.title || spot.name}" 
-                     class="h-full w-full object-contain cursor-zoom-in hover:scale-[1.01] transition-transform duration-150" 
-                     onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
-              </div>
+              <img src="${p}" 
+                   alt="${sec.title || spot.name}" 
+                   class="h-full w-auto max-w-full rounded-xl shadow-xl object-contain cursor-zoom-in hover:scale-[1.01] transition-transform duration-150" 
+                   onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
             `).join('')}
           </div>
         `;
       } else {
-        // Au-dela de 4 photos : mosaique souple
+        // Plus de 4 photos : mosaique souple a hauteur uniforme
         photosMarkup = `
-          <div class="flex flex-wrap items-center justify-center gap-2.5 w-full rounded-2xl p-2 sm:p-3 bg-slate-900/30 border border-slate-800/80 shadow-xl">
+          <div class="flex flex-wrap items-center justify-center gap-3 w-full my-2">
             ${sec.photos.map(p => `
-              <div class="h-44 sm:h-56 flex-grow flex items-center justify-center rounded-xl overflow-hidden bg-black/40 border border-slate-800/50 p-1">
-                <img src="${p}" 
-                     alt="${sec.title || spot.name}" 
-                     class="h-full w-auto max-w-full object-contain cursor-zoom-in hover:scale-105 transition-transform duration-150" 
-                     onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
-              </div>
+              <img src="${p}" 
+                   alt="${sec.title || spot.name}" 
+                   class="h-44 sm:h-56 w-auto max-w-full rounded-xl shadow-lg object-contain cursor-zoom-in hover:scale-105 transition-transform duration-150" 
+                   onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
             `).join('')}
           </div>
         `;
