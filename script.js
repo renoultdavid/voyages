@@ -2500,16 +2500,21 @@ function renderEnrichedCarnetMode(spot, layout) {
           </div>
         `;
       } else if (count <= 4) {
+        // Définition de la grille selon le nombre d'images (2, 3 ou 4 colonnes strictes)
         const colsClass = count === 2 ? 'grid-cols-2' : (count === 3 ? 'grid-cols-3' : 'grid-cols-4');
-        const rowHeight = count <= 2 ? 'h-[380px] sm:h-[460px] lg:h-[520px]' : 'h-[250px] sm:h-[300px] lg:h-[350px]';
+        
+        // Hauteur généreuse : 480px à 620px pour que les verticales se déploient en grand
+        const rowHeight = count <= 2 
+          ? 'h-[440px] sm:h-[540px] lg:h-[640px]' 
+          : 'h-[360px] sm:h-[460px] lg:h-[540px]';
 
         photosMarkup = `
-          <div class="grid ${colsClass} gap-2.5 w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2 sm:p-3">
+          <div class="grid ${colsClass} gap-3 w-full rounded-2xl overflow-hidden bg-slate-900/40 border border-slate-800/80 shadow-xl p-2 sm:p-3">
             ${sec.photos.map(p => `
-              <div class="${rowHeight} w-full flex items-center justify-center rounded-xl overflow-hidden bg-black/50">
+              <div class="${rowHeight} w-full flex items-center justify-center rounded-xl overflow-hidden bg-slate-950/60 border border-slate-800/40">
                 <img src="${p}" 
                      alt="${sec.title || spot.name}" 
-                     class="w-full h-full object-cover sm:object-contain cursor-zoom-in hover:scale-[1.02] transition-transform duration-150" 
+                     class="w-full h-full object-cover cursor-zoom-in hover:scale-[1.02] transition-transform duration-200" 
                      onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
               </div>
             `).join('')}
