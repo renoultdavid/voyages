@@ -2494,40 +2494,43 @@ function renderEnrichedCarnetMode(spot, layout) {
       const count = sec.photos.length;
 
       if (count === 1) {
+        // 1 photo : pleine hauteur majestueuse, centree, ratio natif preserve a 100%
         photosMarkup = `
-          <div class="w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl flex items-center justify-center p-1">
-            <img src="${sec.photos[0]}" alt="${sec.title || spot.name}" class="w-full h-auto max-h-[82vh] rounded-xl object-contain cursor-zoom-in hover:opacity-95 transition block mx-auto" onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+          <div class="w-full flex items-center justify-center p-2 rounded-2xl bg-slate-900/30 border border-slate-800/80 shadow-xl">
+            <img src="${sec.photos[0]}" 
+                 alt="${sec.title || spot.name}" 
+                 class="h-auto max-h-[75vh] w-auto max-w-full rounded-xl object-contain cursor-zoom-in hover:opacity-95 transition" 
+                 onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
           </div>
         `;
       } else if (count <= 4) {
-        // Définition de la grille selon le nombre d'images (2, 3 ou 4 colonnes strictes)
-        const colsClass = count === 2 ? 'grid-cols-2' : (count === 3 ? 'grid-cols-3' : 'grid-cols-4');
-        
-        // Hauteur généreuse : 480px à 620px pour que les verticales se déploient en grand
-        const rowHeight = count <= 2 
-          ? 'h-[440px] sm:h-[540px] lg:h-[640px]' 
-          : 'h-[360px] sm:h-[460px] lg:h-[540px]';
+        // 2 a 4 photos : RANGÉE STYLE GOOGLE PHOTOS (flexbox justifie sans aucun rognage)
+        // Hauteur de ligne harmonisee : 400px a 480px sur desktop
+        const rowHeight = count === 2 
+          ? 'h-[360px] sm:h-[450px] lg:h-[520px]' 
+          : 'h-[280px] sm:h-[360px] lg:h-[420px]';
 
         photosMarkup = `
-          <div class="grid ${colsClass} gap-3 w-full rounded-2xl overflow-hidden bg-slate-900/40 border border-slate-800/80 shadow-xl p-2 sm:p-3">
+          <div class="flex flex-row items-center justify-center gap-2.5 sm:gap-3 w-full ${rowHeight} rounded-2xl p-2 sm:p-2.5 bg-slate-900/30 border border-slate-800/80 shadow-xl overflow-hidden">
             ${sec.photos.map(p => `
-              <div class="${rowHeight} w-full flex items-center justify-center rounded-xl overflow-hidden bg-slate-950/60 border border-slate-800/40">
+              <div class="h-full flex-1 min-w-0 flex items-center justify-center rounded-xl overflow-hidden bg-black/40 border border-slate-800/50">
                 <img src="${p}" 
                      alt="${sec.title || spot.name}" 
-                     class="w-full h-full object-cover cursor-zoom-in hover:scale-[1.02] transition-transform duration-200" 
+                     class="h-full w-full object-contain cursor-zoom-in hover:scale-[1.01] transition-transform duration-150" 
                      onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
               </div>
             `).join('')}
           </div>
         `;
       } else {
+        // Au-dela de 4 photos : mosaique souple
         photosMarkup = `
-          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2 w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2 sm:p-3">
+          <div class="flex flex-wrap items-center justify-center gap-2.5 w-full rounded-2xl p-2 sm:p-3 bg-slate-900/30 border border-slate-800/80 shadow-xl">
             ${sec.photos.map(p => `
-              <div class="h-60 sm:h-72 flex items-center justify-center rounded-xl overflow-hidden bg-black/40 border border-slate-800/50 p-1">
+              <div class="h-44 sm:h-56 flex-grow flex items-center justify-center rounded-xl overflow-hidden bg-black/40 border border-slate-800/50 p-1">
                 <img src="${p}" 
                      alt="${sec.title || spot.name}" 
-                     class="w-auto h-full max-w-full object-contain cursor-zoom-in hover:scale-105 transition-transform duration-150" 
+                     class="h-full w-auto max-w-full object-contain cursor-zoom-in hover:scale-105 transition-transform duration-150" 
                      onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
               </div>
             `).join('')}
