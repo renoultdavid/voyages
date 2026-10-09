@@ -9672,18 +9672,90 @@ const travelSpots = [
     subdiv: "Tokyo",
     altitude: 5,
     is_island: true,
-island_name: "Honshū",
+    island_name: "Honshū",
     transport: "avion",
     era_group: "contemporain",
     era_label: "Mecque Électronique & Culture Otaku (Après-Guerre - XXIe siècle)",
     century: "XXIe siècle",
     category: "star",
+    counts: {},
     lat: 35.699474,
     lng: 139.771391,
     image: "https://lh3.googleusercontent.com/pw/AP1GczN2Qxh8x1OI34rK93Pnt0i2QUJ_XrInulKpQmk1FhlhZ2iHsQi7lBVzYfN5Ya7Tl_of-8SYf2JPu8WF15ihe6Beh-rx_HaQAHuy55rPcctBSuKXiKpxxnvUlTWavxDWZyD4Rw_4ZLwZOA3egEyNV-jD5A=w1221-h919-s-no-gm?authuser=0",
     description: "Mecque planétaire incontestée de la sous-culture otaku, temple mondial des mangas, des animes et du rétrogaming, et berceau historique des composants électroniques d'après-guerre, le quartier d'Akihabara — universellement surnommé Akiba ou Denki-gai (« la ville électrique ») — déploie son labyrinthe d'enseignes géantes au cœur de l'arrondissement de Chiyoda. Né dans les années 1940 et 1950 autour d'un modeste marché noir de lampes radio et de câblages récupérés sous les ponts de chemin de fer, le secteur s'imposa durant les décennies de la haute croissance économique comme la vitrine technologique étincelante de l'électroménager et de la micro-informatique japonaise naissante. À partir des années 1990 et 2000, le quartier connut une formidable mutation sociologique en devenant la terre promise de la pop culture graphique, concentrant des centaines d'immeubles entiers consacrés aux figurines de collection en résine, aux jeux de cartes à jouer, aux doujinshi et aux maid cafés où des serveuses costumées traitent les clients comme des maîtres de maison. Bordé par l'artère centrale Chūō-dōri où les façades vitrées des gratte-ciel s'habillent d'immenses fresques d'héroïnes de mangas aux yeux démesurés, Akihabara forme un paysage urbain cyberpunk sans équivalent sur le globe, vibrant au rythme des jingles publicitaires criards et de la passion dévorante de communautés de fans venues du monde entier.",
     visiter: "La découverte s'amorce dès la sortie Electric Town de la gare JR d'Akihabara, où le visiteur plonge instantanément dans un univers sensoriel saturé d'écrans néon géants, de musiques de jeux d'arcade et de jeunes filles en costumes victoriens distribuant des prospectus sur le trottoir. Les passionnés de nouvelles technologies et de composants électroniques débuteront par l'exploration des venelles d'origine du Radio Kaikan historique ou des ruelles obscures du Radio Center, véritables cavernes d'Ali Baba débordant de condensateurs, de micro-circuits, de diodes et de connectiques vendus au détail. La visite se poursuit dans les cathédrales verticales de la pop culture comme Mandarake Complex, Kotobukiya, AmiAmi ou Sofmap, où l'on gravit d'étroits escaliers mécaniques desservant huit étages de figurines rares, de maquettes Gundam et d'artbooks de collection. Une immersion dans les célèbres salles d'arcade étagées de Sega (GiGO) ou Taito Hey permet de contempler la virtuosité hallucinante des joueurs japonais sur les bornes de rythme musicales ou de s'essayer aux machines attrape-peluches (UFO catchers). Les dimanches après-midi, l'avenue principale Chūō-dōri est rendue entièrement piétonne (Hokōsha Tengoku), permettant de flâner librement au milieu des façades chamarrées et d'immortaliser l'atmosphère électrique de cette ruche humaine d'anthologie.",
-    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA",
+    sections: [
+      {
+        title: "L'institution des gēsen à Akihabara (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPSjpX5WR6EQgTuqAcXh5afsshBqiGrmi6OQFoKj3mRKGLCtOHPwUPrcfcfY-e7aWgJ1o3f7hMQgbTxA-LBS8YBoCK2uhVPdBSgjnUpt2y-RkeODUYzQVt9uWFj_v16cAy3b5Udg-L0IvbhUbQExj4k8w=w1741-h2311-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMOEZAOsVfIpA4aMvBsT6gXg3wMxoqUgEXMjsU60PjrTYgIQXgGPIswbcsnV8m3xAIwvmlIFWF_hkPZ4LPpAl2n7ORCSPmigD5rCniqtyZkKHdOiizZXcKHA617wXj99BaR9jgCKINPR1CRF-h7NLRbfQ=w1741-h2311-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOsVNsQyHPA9LWBsLeb_DyC4WRU5sYzOCwXkt61d9sVqifiyVpiC0LiLG7Ayjqi5gOdadoQOnMiOUxzfQ3MmlYWO2XBihu3lUkKtQDtucx25EPYXvG72ZIiFw9UXuahsnGF-msRXZryWCuQpargJlCGQQ=w1741-h2311-s-no-gm?authuser=0"
+        ],
+        text: "Alors que les salles d'arcade ont quasiment disparu du paysage occidental, elles demeurent au Japon une institution sociale florissante, désignée sous le terme familier de gēsen (ゲーセン). À Akihabara, le jeu ne se pratique pas dans des sous-sols sombres mais dans d'imposantes tours de verre et de néons de cinq à huit étages — à l'instar des complexes emblématiques GiGO (héritiers des historiques salles Sega), de la chaîne Taito Station reconnaissable à son extraterrestre rouge pixelisé issu de Space Invaders, ou encore de la salle spécialisée HEY (Hirose Entertainment Yard)."
+      },
+      {
+        title: "L'institution des gēsen à Akihabara (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOfgYyWR7N1EzBbQtPIkZWBylTqSpHfosTuiNS54VPTiQlDn_RmJibC4ctBN7MypeRAvBnq7DeTfkJSEHm3kc6TH5RivQVUnYKoRS1m03rxXYcVBceKU0f7CaEsMKXZwQ42oSnZsPpsPb0Go0WKdQ-5hA=w1741-h2311-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Stratification verticale des étages de jeux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM1LnOmf03Pp-OvcP4-TMQ94qcly2vOh-Es3imuw8XxHuZOIshI0cfAJpseBh3zg0FYFe2uck983ZEK6StY0Htz2syBP61pRH8ZN_skXB5DHVJ_8Z3FmCYTIdj0mxV6P9S--lLXOGPbgGujh8-IcahXWw=w1741-h2311-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN2Qxh8x1OI34rK93Pnt0i2QUJ_XrInulKpQmk1FhlhZ2iHsQi7lBVzYfN5Ya7Tl_of-8SYf2JPu8WF15ihe6Beh-rx_HaQAHuy55rPcctBSuKXiKpxxnvUlTWavxDWZyD4Rw_4ZLwZOA3egEyNV-jD5A=w1741-h1310-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNzj7iHuBrN9YGgqAlI8M5yaTr8x7XCthS2jfZttdviODNL5E2RsulSJ8GbSG27R3z60CKXSg5hiSGi_xRMcDHYjInXU7nHeD_bYy-gfWnbkALeM2sHHavtDipBRvhMRdTI80tj06HCM2-fZHYgCRmPdQ=w1741-h2311-s-no-gm?authuser=0"
+        ],
+        text: "Chaque tour est organisée selon une stratification verticale rigoureuse :\n\n- Les rez-de-chaussée et sous-sols : l'empire des machines à pinces (UFO Catchers) : Dès l'entrée, des dizaines de grues mécaniques lumineuses attirent les passants. Elles ne renferment pas de simples babioles, mais des récompenses exclusives introuvables dans le commerce standard (prizes) : imposantes figurines de collection tirées des mangas du moment, peluches géantes, coussins et snacks géants. Les joueurs y investissent des poignées entières de pièces de cent yens, sous le regard attentif des employés en gilet qui viennent régulièrement replacer les boîtes au millimètre près pour faciliter la prise.\n\n- Les étages intermédiaires : la ferveur des jeux de rythme (Otoge) : Les étages suivants baignent dans une cadence effrénée. On y trouve les mythiques tambours traditionnels de Taiko no Tatsujin, mais aussi des bornes plus sophistiquées comme beatmania IIDX, maimai (avec son écran tactile circulaire semblable à un hublot de machine à laver) ou Chunithm. Les habitués s'y présentent munis de gants en tissu blanc pour réduire la friction et frappent les dalles à une vitesse stupéfiante, offrant de véritables démonstrations de virtuosité chorégraphique devant des spectateurs médusés.\n\n- Les étages supérieurs : versus fighting, cockpits et rétro-gaming : Les derniers niveaux sont réservés aux joueurs chevronnés. Des alignements de bornes d'arcade japonaises compactes (candy cabs) permettent des affrontements en face-à-face sur Street Fighter, Tekken ou Guilty Gear, sans contact visuel direct avec l'adversaire. On y croise également des simulateurs immersifs géants (véritables cockpits fermés de pilotage de robots Gundam), des jeux tactiques combinant cartes à collectionner physiques posées sur un plateau tactile, ainsi que des étages entiers dédiés au culte des jeux de tir rétro frénétiques (shoot 'em up) des années 1980 et 1990."
+      },
+      {
+        title: "Sociologie du moratoire de jeunesse",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMnUkmMD1wZzCmtpxfG_1_lbf2m8_3Bt6jtx-mMO5S3gsU3Mf_hGTGhArxHLf4SyURHhmC1ET9NhO1-HrT4YmS5Fdr-JiSt-vjKhcpcmmfTbg3X-B-ndAjw7epOlcKr5YcYhipg9WgYF6kkjh0fPrcazA=w1449-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNpPiF7WXplTXBBFlN0O3PZHGTu3ehtgY4Hg0h4l1Psx6p8iPxI9wg3RU4z-Ml9A1YtZ1YPilUqn5vxiAny0kAnwq8jsKfLMvwqGSt7Q4BUj9J04ppivY_E-UVPurrVill-J0kvmEvNzOLV7Bkoq8ccnw=w1741-h2320-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOX9WZQnaiw-sMQVENWB-COEHFqtkHaEPxs6dWeqTHUlH2yl6qCRr6QYJsfNVlA2sZLEMeH-PTzXe7DLJEDObpjouuykljBgbZ3s1tppqWKcMC96tBsdBKxZZanX5gQWs9k1ko70utKxMWphWx69stH-Q=w1741-h2320-s-no-gm?authuser=0"
+        ],
+        text: "Les tenues excentriques que l'on croise partout dans certains quartiers branchés n'est pas un simple caprice esthétique : cela répond à un puissant mécanisme sociologique propre au Japon, souvent qualifié de moratoire de jeunesse. Pour comprendre cette intensité éphémère, il faut mesurer le carcan dans lequel grandit la jeunesse nippone. Dès le collège, les règlements scolaires (kōsoku) régissent le quotidien avec une sévérité implacable : uniforme obligatoire (seifuku), interdiction formelle du maquillage, des bijoux ou du vernis, longueur de jupe mesurée au centimètre près et obligation d'avoir les cheveux noirs et lisses au naturel. À l'autre bout de la trajectoire guette l'entrée dans la vie active en tant que « membre à part entière de la société » (shakaijin). Là, le moule corporatiste se referme définitivement : costume sombre standardisé (recruit suit), retenue émotionnelle et conformisme absolu dicté par l'harmonie du groupe (wa)."
+      },
+      {
+        title: "Expression éphémère et scène de rue",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNqizMW_haay2avvbHZwudK0FSvF3ZINZ-R2aA2clbnR0jsrccA5a8BVKxohtDz56C0KDzWqcVrMZQ8FcMk9GHVuqsztZTe0EVgEU82REX9ny5UzM9KfpBLTEGadEBWLiq9lMXZGUf8qCi-NIjLQoAdMg=w1741-h2311-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM3RrC8tXcjXPuCAOV3I3JSqzPDHynbP9o2t7OPtgQ84esvOjyaV7-EZxpo3WiIPFJjmXjjvzVdbBkO5tyYDxuncEMmmF7OhLt8K0_ntRJ3g5z7ez4gsC6fp1eEIR_p4_kSjYg_9sN8DvmutpHR2MSsqA=w1741-h2311-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPVgCn3W4nNLPaZgBg8N_1OawNVb_4nDMbDmgNsNW0cwYs3nSh7dCqAfn8MsH1RVw56KYyZQErdnnxH-Ht2nlFg4vOdQ6wrIXyp7bQPHl6pqWGVmwxt7kfRBn5L4LdZ4601emFexVu1lFrRRF8Ze8qezA=w1728-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Entre ces deux étaux s'ouvre une brève parenthèse dorée — la fin du lycée et les années d'études supérieures — où la société tolère une liberté d'expression radicale, sachant pertinemment que ces adolescentes rentreront sagement dans le rang une fois leur diplôme en poche. Sachant leur liberté comptée, ces jeunes filles investissent la rue comme une scène de théâtre à ciel ouvert pour affirmer leur individualité avant le grand effacement adulte."
+      },
+      {
+        title: "Tribus urbaines : des Gyaru aux Lolitas",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNe9Cm72FFVFSnEnbnihjExr2QZKb_R6wZUoWxwF-jjnygPC4iRs5xd5fw7mUniDdn4e6iNLV9b7_iwBT5VUpDKjP8EYeKoXm9g-AMSHTlVxtil6va7vYqErGuWPs1BRrxV_DQTEYbI8xoLWh9TYgFBYQ=w1539-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM1M0ksViyHCIsh9_Mo3SxqDJMRdG8OigJyj8NTWQv5k0RCDiOdC2TX3dNv1ReEcoww0GKAnA2-rcaTw67EHg2gVDCI7lQ_NCxgMRcLIYdahaJ3DCm-vItdQuOu32zpncjJdCKoaNBqPIxFwnzts4syWw=w1359-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNNjiDjKcgYIlSPuYzqZkCYdNtv9RmDyFf4VCcEUPrXW88UVJDJPucwV_imE9taeqPP65_R-LerPgENLtgUNYWX6rLnQH9m-GPi9FzqEjACIol9yARKmgtq8nStECleVonrJXPHtozl_X5XldfrGzPW8g=w1741-h2237-s-no-gm?authuser=0"
+        ],
+        text: "Loin d'un mouvement uniforme, cette créativité s'est scindée en plusieurs tribus urbaines hautement codifiées, nées dans des quartiers rivaux :\n\n- Les Kogal et Gyaru (berceau : Shibuya) : Apparu dans les années 1990, ce mouvement a pris la forme d'une rébellion directe contre l'uniforme scolaire. Les lycéennes ont raccourci leurs jupes plissées à l'extrême, déboutonné leurs chemisiers et popularisé les fameuses loose socks (rūzu sokkusu), ces chaussettes blanches démesurées et tirebouchonnées maintenues sur les mollets avec de la colle spéciale. Les plus radicales, les Ganguro puis les Yamanba, ont poussé la provocation en adoptant un bronzage artificiel très foncé, des chevelures décolorées en blond ou argenté et un maquillage blanc crayeux autour des yeux et des lèvres, prenant le contre-pied absolu de l'idéal traditionnel de la femme japonaise au teint diaphane et à la chevelure d'ébène.\n\n- Le style Lolita (berceau : Harajuku) : À l'opposé de la sensualité tapageuse des gyaru, la mode Lolita est née d'un refus de la sexualisation imposée par le regard masculin. Inspirées par l'époque victorienne, les gravures de mode rococo et l'univers d'Alice au pays des merveilles, ces jeunes filles s'enveloppent dans des robes bouffantes sur jupons, ornées de dentelles, de volants et de collerettes hautes. Ce style revendique une innocence éternelle et une élégance aristocratique, déclinée en Sweet Lolita (tons pastel, motifs de pâtisseries ou d'oursons) ou en Gothic Lolita (tissus noirs, velours, croix argentées et inspiration romantique sombre)."
+      },
+      {
+        title: "Le mouvement Decora à Takeshita-dōri",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP13yS6gQRR-6ppLpGVRUdjc8gvcRUmJllhDT-4U8fLssHJ5CtFpm71-dZvxV7JaLl3YZyJLvMhoXt9TP3duMC6iJUsG2pN8E295_gYGXkpP6a5JK2fs-ZqUP0oDAKSin7zPNXlTDStv3vDnC6hwVEEww=w1741-h2311-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPmnVUcm0QpDNuDUT6NO8LyjvjkM_fVCWWAlKmupIfUY5se9JT0YOOsSQBItIM7XUPo_9uo5oHzkpHSiXk9sWDsRUnkpYxWMPYyAmmoIesDzyVljqXObtWKHASFRJxQ6-b65N9GQ9DqhCTHFy3_M7poOQ=w1741-h2311-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNfMzHyVfOC3U6c935jpmGJS4NGpqGlq6xsLT5Ri3BIhHoyaRzmKHNQ9s9P1gRHFp-FtozIKsiVN_PQQSkCXE_snjTJGR5pqLXqIngZb_6tcyH7EVI3aUvLT8cvo9R8gS2DMa-KmKFbtn2g80NM7i4c7Q=w1741-h2311-s-no-gm?authuser=0"
+        ],
+        text: "Le Decora (berceau : Takeshita-dōri) : Poussant la culture du kawaii jusqu'à la saturation psychédélique, le Decora repose sur l'accumulation compulsive d'accessoires enfantins en plastique fluo. Les adeptes superposent des dizaines de pinces à cheveux sur leur frange, collent des pansements bariolés sur leur nez, suspendent des peluches miniatures à leurs sacs et portent des t-shirts superposés aux couleurs criardes, transformant leur propre corps en boîte à jouets régressive."
+      },
+      {
+        title: "Dialogue entre la rue et la bande dessinée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOcxQChAOBL_roTqIUiyEcrvq4aql7LuvHvuT4QozPK_-L9J8DyUqXOAZT7e09YkNgG3a2k-f62bcMXncS_Wf-NTRT9WR91Ckod-eJnFKNhclNabT2CqhV6YFzADtoWnpwUI1PILTFV9UWXNt5qEuhVZQ=w1359-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNkeL2gLFUv3jq3mSFZD_Pa2fuABZ-RpDWVRfEFANLbR6kxpN4P4a5hryW-y3aTWsBGA-xm--AsULHh2yvu4AeVO9yk2R4nI_3TFPExN1R_5dG1MNin9HAShnME-xlxXty7E9jhcaUHDiOhYeoRhvzxuQ=w1741-h979-s-no-gm?authuser=0"
+        ],
+        text: "Cette effervescence vestimentaire n'est pas née des mangas : ce sont les mangas qui s'en sont nourris, avant que la fiction ne vienne en retour réinjecter de nouvelles tendances dans la réalité.\n\nDans les années 1990 et 2000, des mangakas comme Ai Yazawa (Nana, Gokinjo Monogatari / Paradise Kiss) ou Mihona Fujii (GALS!) ont arpenté les trottoirs de Shibuya et Harajuku pour croquer sur le vif les tenues des passantes, érigeant ces codes de rue en manifestes narratifs d'émancipation féminine. Les personnages de mangas et de jeux vidéo — de Misa Amane dans Death Note à Marin Kitagawa dans Sexy Cosplay Doll (Sono Bisque Doll) — ont ensuite cristallisé ces silhouettes dans l'imaginaire planétaire, créant un va-et-vient continu où le style vestimentaire de rue et le dessin animé ont fini par ne former qu'une seule et même matière visuelle."
+      }
+    ]
   },
   {
     id: "tokyo_omoide_yokocho",
@@ -9726,9 +9798,28 @@ island_name: "Honshū",
     era_label: "Postmodernisme & Architecture Monumentale Kenzo Tange (1991)",
     century: "XXe siècle",
     category: "star",
+    counts: {},
     lat: 35.689515,
     lng: 139.692054,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNwo8UE6nZlZnBL11zfw3sJm8mvSNeRcCqZxnuRWzxHXaybYCtdKc2vQU-rt6XEZZepBbuADsPKImyskXtfYKSS_pD-AbotlD3z_gglKqHQ8-JNoqyTGNIL-KT4iEvMsWLKjpXp_ijDJnS6eJSEkK_Cuw=w1221-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP2b-ou6NRdabi1r_KB1-U65MihNhFbA7ajGVF_LjRq3LUV1ceasLRmJ0Zh7ACVjKFQzg5uxpoYkk9Z2RThGfneZCCCHJRfywUR7M2cIUwG4KDKA8fWLbpFjZlEXCiCOrlPvjtBZnvlRMbdVfJXf9rPzA=w1741-h1161-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMlFEvEfSv4PpfCJecj2RKL1mjvp_n_o5m4mEniZVy4WAoXUmeD5zyHYGZkID_IQp8XL-z-DD3_o8hYa6h-XaQVQ0EDtiL5nTvL2kKSHO4RE7SklewgwiO-Hj5-QmSCpZV67aLsFECfX-atm2yNMlLQLA=w1741-h1310-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN79Tt3_td6OIEZ-RwCbH7G4bY8MrZTG1bloYDc3T0BZAXaGR0ns35z-FAijgaktCBW3ucvFpA5P11aJ4iFYgDKi9V0wFHRK5Iq1opPCVzJFfi8kpC0vhfppAVR_d2siDRJ8-fGxtGxn4H7EBm0ZhQKmw=w1741-h2311-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOsIzmZJYmyB1S5ECagCBrHbV8SZq7j1feauaOhKFvjMTgH7BoWc_FLgrMbsmBgTF7oIjfUZc-gWZ9D0fNuqDlvdDY0oUNWYScKNICQJBfP6PlOAsPxqqsCdKPrCseAQFoqSwvVZDi3eQMgo3cbJSU1hQ=w1741-h2311-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Symbole monumental du pouvoir civique tokyoïte et chef-d'œuvre du postmodernisme architectural international, le complexe du Siège du Gouvernement Métropolitain de Tokyo (Tōkyō-to Chōsha), universellement désigné sous le diminutif de Tochō, domine le quartier d'affaires de Nishi-Shinjuku de ses deux tours jumelles culminant à 243 mètres de hauteur. Conçu par le maître visionnaire de l'architecture contemporaine nippone Kenzō Tange et inauguré au printemps 1991 au zénith de la bulle économique japonaise pour un coût colossal de plus d'un milliard de dollars, l'édifice s'inspire avec audace de la verticalité hiératique et des façades ouvragées des cathédrales gothiques occidentales — évoquant en particulier Notre-Dame de Paris — tout en intégrant des trames géométriques en damier rappelant les paravents traditionnels japonais et les microprocesseurs électroniques modernes. Le bâtiment principal abrite au 45e étage de sa tour nord un spectaculaire observatoire panoramique public perché à 202 mètres au-dessus du sol, conçu dès l'origine pour offrir gratuitement aux citoyens et aux voyageurs du monde entier une vue plongeante sans égale sur l'immensité de la préfecture tokyoïte et l'infinie étendue urbaine de la plaine du Kantō.",
     visiter: "La visite s'amorce au rez-de-chaussée du bâtiment numéro 1 par un passage filtré de sécurité avant d'emprunter des ascenseurs express dédiés gravissant les quarante-cinq étages à la vitesse vertigineuse de huit mètres par seconde pour atteindre l'observatoire nord en moins de cinquante-cinq secondes. En débouchant sur la vaste esplanade vitrée circulaire ceinturée de baies toute hauteur, le visiteur est foudroyé par la vue panoramique à 360 degrés embrassant tout l'écosystème de la mégapole : à l'est se déploient les forêts urbaines des parcs de Shinjuku Gyoen et Meiji-jingū encadrant les silhouettes lointaines de la Tokyo Skytree et de la Tour de Tokyo, tandis qu'à l'ouest s'étire l'alignement des gratte-ciel de verre et de granit du quartier des affaires. Par matin d'hiver très sec ou au coucher du soleil, la contemplation atteint un sommet d'émotion lorsque la silhouette pyramidale immaculée du mont Fuji émerge distinctement au-dessus de l'horizon vaporeux dans une lumière dorée ou rosée saisissante. L'observatoire abrite également des espaces de repos, une boutique d'artisanat traditionnel tokyoïte ainsi qu'un magnifique piano à queue laqué d'or orné de motifs géométriques conçu par la célèbre artiste Yayoi Kusama, sur lequel les musiciens de passage viennent improviser librement des mélodies contemplatives au-dessus de la ville.",
     link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
@@ -9750,9 +9841,24 @@ island_name: "Honshū",
     era_label: "Mégalopole Moderne & Gare la Plus Fréquentée du Monde",
     century: "XXIe siècle",
     category: "star",
-    lat: 35.692570,
+    counts: {},
+    lat: 35.69257,
     lng: 139.700715,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMTS6U2-lEY-BsGsboZwyOAwR6ziyK7ndb0XmKvYQOrrfWXSFskIjvkzIyN9Bs6gZ2ah9vAAXtFdH8zg5pPvvU1RqVteIYiHfM7VRsBN3E65Skl5Y_IGWuArcpaydC_mcqhIh4I34_nT93Wbg5GQdaWMw=w1221-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN0w7JK1ttY0me2vhYv7QuhPVaoOFKHz8OuWvoF_5vzYOYlaLKdyzjqatBye5KRjPAkCZc3J1W251wNoOqsgTEB1-1UkIK18LGAc1LuU3fmLQg-FMLKa3F7wVQCmT1-edSIgKo9DbMcdC0aJLs97EPoLA=w1741-h1310-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN4paaCMNc9TvNe6OWs_O8Q7Ag8_WDCBw7_ZxTseFPBlkkEg5cNHn0AXwD9ilcIEqN_aW0q8jS6V-CbuQU9W5Xq30CGnJ6w2g0E44n1vYGsSzJplg-ElN-pCe85qptTRSOJFaENOd443FJYaO2QX6gEcg=w1741-h2311-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNNNKyUaPY_3N7ZoGDBblcT6yWzDcoOqdw7I_A19mLCJczjN2PCYbto_9TaAKWWJHtp3F8dZ_9N2eU05B1S-Ulh42xRqmH7IK_Mmxhl4vQyrc8PYzWXjbU-xG7IDpT3vrnLzg9bwJhY-xpYZCqSkHpAyQ=w1741-h2311-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Cœur battant démesuré, fascinant et protéiforme de la capitale japonaise, l'arrondissement de Shinjuku s'articule autour de sa gare ferroviaire centrale titanesque, officiellement reconnue par le livre Guinness des records comme la plus fréquentée de la planète avec plus de 3,6 millions d'usagers transitant chaque jour par ses quelque deux cents sorties souterraines. Ancien relais de poste de Naitō-Shinjuku établi au XVIIe siècle le long de la grande route féodale du Kōshū Kaidō sous l'époque d'Edo, le quartier a muté au fil du XXe siècle pour incarner la dualité architecturale et sociologique absolue de Tokyo. À l'ouest (Nishi-Shinjuku), sur un sol rocheux d'une exceptionnelle stabilité géologique ayant résisté au séisme de 1923, s'érige la première forêt de gratte-ciel parasismiques du pays, véritable Manhattan tokyoïte abritant sièges de multinationales, grands hôtels de luxe et l'imposant complexe gouvernemental du Tochō. À l'opposé diamétral vers l'est s'étend l'univers incandescent de Kabukichō, le plus vaste et célèbre quartier nocturne de divertissement d'Asie, baigné de néons étourdissants, de salles de pachinko rugissantes, de bars à thèmes et de cinémas monumentaux veillés par la silhouette menaçante d'un Godzilla grandeur nature dressé sur un toit terrasse.",
     visiter: "La découverte s'amorce en s'extrayant du labyrinthe souterrain de la gare pour émerger sur la place de la sortie Est, dominée par le célèbre écran 3D incurvé géant de Cross Shinjuku où un chat calico géant animé semble saluer la foule avec malice depuis le sommet de l'immeuble. La traversée de l'avenue Yasukuni mène sous l'arche lumineuse rouge emblématique de Kabukichō Ichibangai, porte d'entrée d'un dédale de rues piétonnes électriques où les visiteurs déambulent sous les panneaux luminescents géants jusqu'à l'esplanade du cinéma Toho pour photographier la tête colossale de Godzilla émettant rugissements et fumées à chaque heure pile. À quelques pas de là, le voyageur s'engouffre dans le réseau intimiste du Golden Gai, minuscule quartier constitué de six allées étroites préservées où s'empilent plus de deux cents micro-bars thématiques artistiques et bohèmes pouvant à peine accueillir quatre à cinq personnes au comptoir. Pour achever la découverte, une marche vers les larges avenues calmes et aérées de Nishi-Shinjuku permet de contempler en contre-plongée la silhouette vertigineuse des tours Mode Gakuen Cocoon Tower et Sompo Japan, offrant un contraste saisissant entre la fête nocturne débridée et la rigueur financière internationale.",
     link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
@@ -9774,12 +9880,106 @@ island_name: "Honshū",
     era_label: "Époque Shōwa & Renaissance d'Après-Guerre (1958)",
     century: "XXe siècle",
     category: "star",
+    counts: {},
     lat: 35.658312,
     lng: 139.745199,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOYUOVWCbkEIPw4tZGhbYxLVHfpwchUJiNsQH0QNrGIPnZxXz086eesULkoWrMN6C-9DQAil4NwUHiVC5YPB1FNcT3kh-rkCC9oK2uoeRKk_n3ekyvm1Ud-3H6Ay57EIlJITnd5rb5dTYkP7e3VgGsxeQ=w1379-h919-s-no-gm?authuser=0",
     description: "Silhouette iconique, romantique et bienveillante dominant le paysage urbain de l'arrondissement de Minato depuis plus de six décennies, la Tour de Tokyo (Tōkyō Tawā) incarne avec éclat la renaissance économique, l'optimisme technologique et la fierté retrouvée du Japon d'après-guerre. Conçue par l'architecte prolifique Tachū Naitō et inaugurée en décembre 1958, cette imposante tour de télécommunication autoportante en treillis d'acier culmine à 332,9 mètres de hauteur, surpassant de quelques mètres son illustre modèle d'inspiration, la tour Eiffel de Paris, tout en affichant un poids réduit de moitié (environ 4 000 tonnes) grâce aux progrès de la métallurgie nippone. Symbole éclatant de l'ingéniosité industrielle de l'époque Shōwa, un tiers de son armature métallique provient du recyclage de l'acier de chars d'assaut américains endommagés lors de la guerre de Corée. Peinte de teintes réglementaires alternant blanc pur et orange international pour satisfaire aux normes strictes de la sécurité aérienne, la tour a servi de repère visuel et émotionnel indissociable du quotidien des Tokyoïtes, immortalisée dans d'innombrables films de cinéma, mangas cultes et œuvres d'animation japonaise à travers les générations.",
     visiter: "La découverte commence dès l'approche au pied de la structure par le complexe de loisirs de Tokyo FootTown, d'où le regard se perd avec vertige dans l'entrelacs des poutres peintes d'un orange éclatant montant vers le ciel. L'ascension vers l'observatoire principal (Main Deck), perché à 150 mètres d'altitude sur deux niveaux vitrés, s'effectue soit par des ascenseurs rapides, soit pour les plus sportifs en gravissant les quelque six cents marches de l'escalier extérieur à ciel ouvert offrant des sensations fortes face au vide. La vue circulaire plonge sur les toits d'ardoise et le parc de sépultures du temple séculaire voisin Zōjō-ji, s'étirant au loin vers la baie de Tokyo, le Rainbow Bridge et le quartier ultramoderne de Roppongi Hills. Les amateurs de vertige contempleront la ville sous leurs pieds à travers les hublots transparents du Skywalk Window, avant d'emprunter, pour une expérience encore plus exclusive, l'ascenseur menant au Top Deck à 250 mètres d'altitude, réaménagé avec de spectaculaires miroirs géométriques démultipliant les lumières de la ville. À la nuit tombée, la tour se métamorphose en un joyau scintillant sous ses éclairages Landmark Light dorés en hiver et blancs en été, parachevant une étape émotionnelle majeure de tout séjour tokyoïte.",
-    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA",
+    sections: [
+      {
+        title: "Prouesse métallurgique et acier recyclé",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOYUOVWCbkEIPw4tZGhbYxLVHfpwchUJiNsQH0QNrGIPnZxXz086eesULkoWrMN6C-9DQAil4NwUHiVC5YPB1FNcT3kh-rkCC9oK2uoeRKk_n3ekyvm1Ud-3H6Ay57EIlJITnd5rb5dTYkP7e3VgGsxeQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM9hND1rlGcyJ00DbZTJrZ8MBowkZ38SUtBBNuXNg7smop1L-i2Sph8kbJ8Uw2JkWZCd_C352jEwFwFlPj-W0DSbZC6w6kwmQ-9geTifxLuvEa86p_qM4aixfgAKkS8IzmJ6OZgmCwipsJSiApukx62Rw=w1741-h2311-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOIRVLfbRSeLe69FwTN-lX2M5Dv51iSTrKwSn-CBqE3WMznF0vASYeKL3QGniYJAYQlNAOaWcZaKKrMucVwVsPw-n8hWJUGdvKId_SI0uSVFa8kAQb3HHuOqADXyp0NmJoqiM8krv0N8xX_dOecGF787g=w1741-h2311-s-no-gm?authuser=0"
+        ],
+        text: "Tout en reprenant l'élégance pyramidale en treillis d'acier de la tour Eiffel, l'édifice tokyoïte témoigne des progrès de la métallurgie de l'après-guerre : grâce à une optimisation poussée de la résistance aux séismes et aux typhons, sa structure ne pèse qu'environ 4 000 tonnes, soit près de la moitié du poids de son modèle français. Une partie de l'acier employé pour sa flèche supérieure provient d'ailleurs du recyclage de chars militaires américains endommagés lors de la guerre de Corée."
+      },
+      {
+        title: "Observatoires panoramiques et Landmark Light",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMVjGz4P4I0SdX9Dj-__7xTE95E_Tk7FxnG7nOSPwcBFA57F0Xvr8gNXpOiC5VYiswUM_ROnZeablJXcmUvnVV6Kki_HGmPfm592R38m6yZB7QjfnbXE5cPgTFJC1w6f4CnTAagMOoIJwJAEv5pgqAYow=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMqNlNk1v5bxi6gxLc6pRfzaWnNLk1hQuTBpE2CgUrJspK1ojRtviuoAFbN7T_GltH8Oisbc5vi3Jh-wLHlR3VdXK2YObsfauxN0QdfzX6_iYajNpJXe4PdoBwwKRTzdcuE0gMTx4DZ8-KvQ38pmP4Y8g=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN7NF4KU3JVL4gYDVyoGKHYELrJMMYNLPDf29-4AYmABRZcvs_c6IOM8ewiRJvXrgmrIjE-eAXPg1-G8eEnrydKInxfb641xZadJExuDLpXW7yODWptjx-Q1Ip3rVhT9mNbqpH16H2vQPHVqr1cYSyDKg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Reconnaissable au premier coup d'œil, la tour arbore une livrée alternant le blanc pur et l'orange international (international orange), exigée par la réglementation de la sécurité aérienne et entretenue par une campagne de peinture intégrale effectuée à la main tous les cinq ans. Elle dispose de deux observatoires panoramiques : le Main Deck à 150 mètres (avec ses célèbres dalles de verre plongeant directement dans le vide) et le Top Deck perché à 250 mètres, dont les parois habillées de miroirs géométriques reflètent les lueurs de la ville tout en offrant une vue circulaire sur la baie de Tokyo, les gratte-ciel de Shinjuku et le mont Fuji. À la nuit tombée, ses illuminations (Landmark Light, conçues par Motoko Ishii) enveloppent l'armature d'une lueur ambrée en hiver et d'un blanc argenté rafraîchissant en été."
+      },
+      {
+        title: "Symbole du miracle économique japonais",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPA-EbP7fnI9eGp1-raoIHwCupRcStXzcNBYYnRMMnJAcqasgIj0U0FULjOXwlZ1_a6ReZEpw5RHyuMf7M1sBYGSD6-VI_yUvjbImk2aUEhqo8JFhuUQUbTwYZ-Tshc8Di7RDIRJvhp_jS1MP2kiAIuvg=w1741-h979-s-no-gm?authuser=0"
+        ],
+        text: "Érigée pour regrouper sur une antenne unique les signaux de radiodiffusion et de télévision analogique de la région du Kantō (notamment pour la chaîne publique NHK), la tour a incarné dans l'imaginaire collectif le symbole éclatant du « miracle économique japonais » d'après-guerre et du relèvement national. Bien que la diffusion des flux numériques à très haute fréquence ait été confiée en 2012 à la gigantesque Tokyo Skytree — rendue nécessaire par l'élévation continue des gratte-ciel voisins —, la Tour de Tokyo conserve un rôle d'émetteur de secours et demeure la figure tutélaire, poétique et nostalgique de la skyline de la capitale."
+      },
+      {
+        title: "Culture culinaire du Washoku : le gyūdon",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOIy0wpKBH4p3Gpa-ruBOHWntvZy4XGTPiPsFyzSREUsj--464WKpPV3YqFsp9a0bnOGpusM99Pb0MfpOTpHII65yvJJDeMnkICSULDA3jLHLiOoE3etCtDjxWfw-cQZpYOhM25TUHZQirO3suoMhPc8g=w1741-h2311-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMvELCYvbdWbTknNPNiz3WnaWLWYzKxI_-ePNw8kC-C_Vb5oFUiqgfWaXKSDQxgpi-ntBWg4xnChMZv6kH_6GdIxXlcBQNhNvxP6-_jgjsPIccYXxx_k50rZdJRrvwgO-90v3a9jv6HzuP-zrbUq5L3lQ=w1741-h2311-s-no-gm?authuser=0"
+        ],
+        text: "La gastronomie japonaise (washoku), classée au patrimoine culturel immatériel de l'humanité, ne se résume pas à une esthétique formelle : elle tisse un dialogue permanent entre la haute précision artisanale, la convivialité populaire du quotidien et la mémoire sacrée des récoltes. Au cœur de ce paysage culinaire se détache un triptyque emblématique : le gyūdon, pilier de la cuisine de comptoir moderne ; le mochi, pâte de riz aux origines rituelles millénaires ; et le sushi, chef-d'œuvre de fraîcheur et de maîtrise technique né au bord de la baie d'Edo."
+      },
+      {
+        title: "Tradition rituelle du mochi et du mochitsuki",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO8K8XwcqubqIlGyaHTrHgJtjbNnumXM64-PYUJW_d-X76A_MuOrrRtDrwLTqsmVlcacB5ngfXPDAol0JT0GC_h1Mb6lD_T3bdq8Ds2fmeB9unchQXP9Upa2vorP2a9cXPQeg8nvsgkfFMXpZryFCIL8g=w1741-h2320-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPeQeNq4nroP2fW_g6X_ZCLGrlyH24ynlD3kQn5TT1QVRUtN1Zm3sEdkvl-b_q-2NG2BsJeS62xaQNzAGLI-26bbD_jxeJ2Bh4GP7TWksLGiXjDtUPv_hm8_46TuEnqk8LXSC9OyROPl9qZBtAd3loGmw=w1741-h2320-s-no-gm?authuser=0"
+        ],
+        text: "Façonné à base de riz gluant (mochigome), le mochi plonge ses racines dans les rituels agraires les plus archaïques du shintoïsme. Depuis l'Antiquité, le riz est perçu comme le réceptacle de la force vitale des divinités (kami). Sa confection traditionnelle, le mochitsuki, est une performance physique et communautaire spectaculaire : le riz cuit à la vapeur est déposé dans un lourd mortier en bois (usu) et vigoureusement frappé à coups de maillets (kine) tout en étant humidifié et retourné à mains nues en une fraction de seconde, jusqu'à obtenir une pâte blanche élastique, dense et collante.\n\nAliment festif indispensable lors du Nouvel An — où il s'empile en offrande sacrée sur les autels (kagami mochi) ou s'intègre dans la soupe cérémonielle zōni —, le mochi se décline sous de multiples visages. Salé, il se déguste grillé au feu de bois et enveloppé d'une feuille d'algue nori trempée dans la sauce soja (isobeyaki). En pâtisserie traditionnelle (wagashi), il devient daifuku, une sphère soyeuse saupoudrée de fécule de pomme de terre, garnie de pâte de haricots rouges confits (anko), d'une fraise entière fraîche (ichigo daifuku) ou, dans ses réinterprétations contemporaines, d'un cœur de glace parfumée au thé vert matcha."
+      },
+      {
+        title: "Origines millénaires du sushi : le narezushi (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPo2TRhGMjwywwXYcrOje6Mzk0QDzsj7ZrgnyFak9movKu4DoVRH0LhOkQeae6xYzzvZmCwq7y1-VVLwAKUhNpsv0OiBe3ux10cg3tGTspmtlahCFJjF566yl2zXSEfvUUK1JlCCg7tDNIkLQQkZa4-Lg=w1741-h2320-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOBLc3N7GRKMv-xQZupy-cN3xa3TzS-9RBn0n8BFbVFd2qgWLACRM8-x5RCuF6sWGp2iTY380BlPzh_SPz9Z10w3TT22b-hpi_n1XcfLI3bHG7zDzGNG0agPIrsxOcNmfhwUf6-yoC4TnS-xnTtAtkaew=w1741-h2320-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNl2pnrYTEcMvCP7AOiVBOv5VmgTT5MtbSgbYQC1x_zFzJFFtpqfR2ewu-cWCwv6MTq8f1ZWlzSPkkYVf4cDR7J8pEgG8CpBDvFV67zoki5TfYJxMgJHVgMu6BWEYEdfQfExsHB7dDbDUCMt9dJnylPHA=w1741-h2320-s-no-gm?authuser=0"
+        ],
+        text: "Avant d'être une bouchée d'une grande pureté visuelle, le sushi est né il y a plus d'un millénaire comme une méthode paysanne de conservation : le narezushi. Les poissons d'eau douce étaient alors pressés pendant des mois dans du riz fermenté et salé dont l'acidité empêchait le pourrissement ; le riz, devenu aigre et pâteux, était systématiquement jeté avant dégustation."
+      },
+      {
+        title: "Origines millénaires du sushi : le narezushi (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMlpGsZYlBiVLvGSGQyQ8bfW1j6M5LFQ8cLakVtM10-xBg-6KYySb8LHRSDwLPv-3VFbNWUvoMzb9z-p9wr8IwKsOxPP7hFHOpEFj4rQhSRjT5YnW5kPpCq3djlgVtkUKn9OCYDtdoQPGGRPf3UZJ2otg=w1741-h2320-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Naissance de l'Edomae sushi au XIXe siècle",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMZy1_p8xbchgyeB_b7wLzYP9RIARRkCxtNjG_hCKgv_fgAGSYswA6TGKN-NG_df0lvt0BWh4_nRjQQKlYWXF-wvblzWv8Toj87kKA5Q56k498hQFyzBKEm74VR1-tOLjv_3YmLy2HqUHxGDfz4CrCWdg=w1741-h2320-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO7pGFrK8Yf9u_4LjAbweAyl17WAOsz6R0riBfPXqrRa5OuCMpjZlzjOa8ws3Pr_1MdsMWU9hgugA99rWNyV6yLdpEHc8-O0daBEOe7yZC80BCqaHlFq3DNDrFnyDGugLQSZAI_Pvm68vX1Bgxn596u1A=w1741-h2320-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNuN_rRTojKRE3Lrj3eG1J4UP-sAO23fKEdfA9aBsVroVsIcCkdAvahnhDuFLzihMRugQDlg7K_AcvdPM3iZzFQg3faKxBkEmBUeEfCLRaG-nzKnyZbUz_tsgjmXmlflrgGjfd4bmy41EL0kix82o97Dg=w1741-h2320-s-no-gm?authuser=0"
+        ],
+        text: "Il faut attendre le début du XIXe siècle, en pleine effervescence de la ville d'Edo (Tokyo), pour qu'un cuisinier visionnaire, Hanaya Yohei, invente l'Edomae sushi (le « sushi devant la baie d'Edo »). Profitant de la diffusion du vinaigre de riz et de l'abondance des prises fraîches de la baie, il supprime la longue fermentation pour créer une restauration rapide vendue sur des étals mobiles en bois (yatai). Le poisson cru ou mariné est alors délicatement tranché et pressé à la main sur une petite bouchée de riz vinaigré tiède (shari) discrètement relevée d'une touche de wasabi."
+      },
+      {
+        title: "Sublimation de la matière brute et art du sushi (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPGTWw94pUDuRlIlNc-C4WSR36PMC22F5_xRYfYb-fCcUjeD8w05Nlc8ckY-jrB8cKMP2PZm8lY62pUlvLJpQYbxoaMe75bV3hpKFtpcIX0miorYl-lINSVPAUkHCzhnfSmmzWD33J2mUd2nMhFtcB6pQ=w1741-h2320-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP6VjGN6i6iKhyijAo0dQAEf7u1gAYUK7d9KOZhOo6b2I63O99A0NGzZu_bp93RfADHzop3u9mSSrUWVI4LuIVKdAN6DFhdByVpmP0Boi8wey0MpGmfINdh1TThCaeSfQsXjlCxN2HZcwksLV6RzjvLoQ=w1741-h2320-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP-Y-kIha0YVXRZciJJufiuHyRL7IHjWopdOD0ObQcMebudQ29zIhdr79eGR_odq8r5GL6JzzXF9nIUEtq8UsMQFlF4WgJKQ9ERYcUOQy16d-wBoSAtyA_9jVjPnvHmYSm5bzGeE8_hpTseq7dicWlIrg=w1741-h2320-s-no-gm?authuser=0"
+        ],
+        text: "De l'échoppe populaire aux comptoirs épurés en bois de cyprès des maîtres sushis étoilés, ce plat incarne la quête japonaise de l'essentiel : sublimer la matière première brute sans artifice superflu."
+      },
+      {
+        title: "Sublimation de la matière brute et art du sushi (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPXkfCEuTshrFt73VNZdfzipomZ1hYqwKvmb2Nlk1psHQU-80EHxm9hniv3vO8KhR9IzhWuMViVXQsbN6_tAG7FByo_wTg8khyK4gLJYVIaYbgDnh-LhZFlftpy501sh_WyVH7V-jEBx5iDF9QVfnl24A=w1741-h2320-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Perspectives culinaires et dégustation",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPqTzrFz8NYbHkILRxn8uC1aswcBBbjLcagCB5yEUegEwyBrJR5kFG_woAVEw2fO24ZD2WQfUsvdGPyd29J19t5jhqhVXYheeVsSG1jijzrkS-64Am6h0r8CsuYelVTACZIPdzqpFyj-WgQ4lnhC2836Q=w1741-h2320-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMOvfnS9IuzwWt_h72FludXwbc369eKmWP0SAK2kYvmlLgHUz3ITwnsc7SbJnEnj9AC2TiJhtZaOLFbf_LwpdYKB6m1LffZFp1ycLL8uJrv4dVJzW-8sSyknyWaF5vB3F9g79FEhYOkrIC1TdTxm1TEiQ=w1741-h2320-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNX0ybrWYiHz1scvJZFav2attbF6BidcxY1rzPQZyulhOoSlsL4W0s_Tti1XDobayBbpZNHFW7pPaX89nugMuoKccqAbwSokkzTKWLItK9fMMgBflSRwXXS6IG6Rf0HpH5LZojWh6ZezyHmYs8LQk7_pQ=w1741-h2320-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "tokyo_sanctuaire_asakusa",
