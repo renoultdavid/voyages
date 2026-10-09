@@ -10702,14 +10702,30 @@ const travelSpots = [
     subdiv: "Montfort-le-Gesnois",
     altitude: 58,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "nature",
     era_label: "Bocage Fluvial & Espace Naturel",
     century: "",
     category: "star",
+    counts: {},
     lat: 48.050233,
     lng: 0.444481,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPgIfPfRDV0Te188tt1HIi3p_JegNBxpVtmA7vUJ3igI8KPvLoet7GwjjdvYpyQlPTgSKP8CGiWD7C9kY6oVByvIVz76XLxJtQxdCaBBwSX1JYA_9HAcFzHYzZIlDvl-_YVzAUYjHncAWW9sRYYkSaFng=w2468-h1388-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM6fcnbHRC142K0FdXPIc33wdMHFb_Y-_PKVPHzoxrepzdWlXROYELHkLCLRIRKKlusss32cJhUzN2sy1uSlh9DIpMaWRu2OHwqyJq26x_DCTW0VtxcJMo-bAupMAEklD4NTNmxIfggP0H3Id0YxPWrYw=w1741-h1161-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPxTcyIi1RlNvOy5dPhJWFfgB-PKwBPx1ZrdB46iGkNps27FeqHH4KZtJ2CN722YcG9qkpMbqSY8i6imYTYF2Qwj9bn6rly3DSqYqbxV12nx9u_vRCyUwGGYieUbpxvScqKkb-UB0IXjaL_jbG9Y_G1ZA=w1741-h1157-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNd5qEaezPQFGHI4w_gEHdcH9OnZM8EhoeA69mIl3z8YD1MeuVST2uIbWrslXVrblEEwej1Qwjx9KjJwuienDgIAKd06wcLyCGXxO6-bjt9X3yrXoDx7i3O8E7j98-DvozVHi2cg3e7LnXorxkW9rR0aQ=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Écrin de verdure traversant le Pays du Perche Sarthois, la vallée de l'Huisne déploie à l'est de Montfort-le-Gesnois un paysage fluvial préservé où se mêlent méandres paisibles, prairies inondables et coteaux boisés. Principal cours d'eau du bassin sarthois avant sa confluence avec la Sarthe au Mans, la rivière a façonné un écosystème humide d'une grande richesse écologique, ponctué d'anciens moulins, de peupleraies et de ripisylves denses. Véritable couloir biologique pour la faune aquatique et les oiseaux d'eau douce, le site offre une respiration naturelle remarquable où les reflets changeants de la rivière dialoguent avec les douces ondulations du bocage et la quiétude rurale du terroir.",
     visiter: "La découverte des berges s'effectue idéalement à pied ou à vélo le long des chemins de halage et des sentiers de promenade qui bordent le cours d'eau en direction du Perche. Les promeneurs peuvent y observer une faune diversifiée, notamment le martin-pêcheur, le héron cendré et de nombreuses espèces d'odonates évoluant au-dessus des calmes nappes d'eau. La rivière constitue également un parcours réputé pour la pêche de loisir et les balades en canoë-kayak permettant de glisser au ras de l'eau au milieu des frondaisons d'aulnes et de saules. C'est une halte bucolique parfaite pour s'imprégner de l'atmosphère apaisante des rives de l'Huisne en marge des cœurs historiques du village.",
     link: "https://photos.google.com/share/AF1QipOb3ShaKNG_lsJde2nz8dRyz9nGHRogFP31vgkL6iaR4Hd7feMJ2OdoN8Q2CULzwg?key=WTRicjlYODZGMUhveTFOQXdEVk0tNEt3Ry1HVTBn"
@@ -10748,14 +10764,22 @@ const travelSpots = [
     subdiv: "Montfort-le-Gesnois",
     altitude: 65,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Romane & Médiévale (XIe - XVIe siècle)",
     century: "XIe siècle",
     category: "religieux",
+    counts: {},
     lat: 48.0471,
     lng: 0.4171,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMoiouR2K-BQ9MNpIlCZQckkbO9sQxCvLyOzbTSYkL3NVAKPdamTeWdx46qH0tGRRQjgKftQJ4X6KaH48j_a9XgNZzGxVKMbbfkFW0Tt90Phy6UQFlkviOFLYFB4TMt5mV09QzFKHHBymxPul1aedqgrQ=w2468-h1858-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMjK_ZHqUl9TT_WmOdMUR4q1WuQCytURTN-anBi2DhITQg64zmr7Iba53loNxzS2U8s1V5OR-8xq3yGBXSMZd4u4md47bdX2-Tc3bGTGwd9eRvoK8eT2XfONc4x1wdEqXhulNQELrE0UkRHodI5vdeHzg=w1741-h2311-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Perchée sur les hauteurs du coteau dominant la vallée de l'Huisne, l'église Saint-Gilles veille sur le bourg historique de Montfort depuis le Moyen Âge. Érigée originellement au XIe siècle puis agrandie et remaniée aux XVe et XVIe siècles, elle s'ancre dans le riche passé féodal de la cité dominée jadis par son château fort. L'édifice se caractérise par son appareillage mêlant calcaire local et grès roussard, sa silhouette trapue typiquement sarthoise et son clocher coiffé d'une flèche charpentée d'ardoise. À l'intérieur, la nef abrite un précieux mobilier liturgique, plusieurs retables anciens ainsi que des boiseries sculptées témoignant de la ferveur paroissiale séculaire de cette communauté commerçante et rurale.",
     visiter: "La montée vers l'église depuis le bas du village s'effectue par des ruelles pittoresques grimpant le long du coteau, offrant de belles échappées panoramiques sur la vallée de l'Huisne. En pénétrant sous la voûte lambrissée, le visiteur découvrira le calme recueilli de la nef et les détails des statues polychromes ornant les chapelles latérales. Une attention particulière peut être portée aux vestiges romans intégrés dans la maçonnerie des murs gouttereaux. La visite se prolonge agréablement par une déambulation dans le quartier ancien attenant, où subsistent d'anciennes bâtisses en pierre et les traces de l'enceinte castrale médiévale.",
     link: "https://photos.google.com/share/AF1QipOb3ShaKNG_lsJde2nz8dRyz9nGHRogFP31vgkL6iaR4Hd7feMJ2OdoN8Q2CULzwg?key=WTRicjlYODZGMUhveTFOQXdEVk0tNEt3Ry1HVTBn"
@@ -10771,14 +10795,34 @@ const travelSpots = [
     subdiv: "Montfort-le-Gesnois",
     altitude: 62,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Gothique & Moderne (XIIe - XIXe siècle)",
     century: "XIXe siècle",
     category: "religieux",
+    counts: {},
     lat: 48.0493,
     lng: 0.4034,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPj9tW2XwH7uCW-MeBh7Tg4gBKYDWc125uCrEqwNV53kJYQlAB9kSNEPy825l66SweLarshAyEb5lf5gfiBqELsSB4R2oPxg-zAvKLzBTtrcOWy1_Nh7BgKWqb9-hWmrQ7247Nlnex3OR5SOIJNHB5QUw=w2468-h1645-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOD0s5DCcu7o-6ArLBEDcgVxySlMjuK6SzcE31c4BmR0-X3f4tjScal76Brbl1wh-v6ryjJzAyhhAzPQemca8aWaAiLYgtn-2A4AydBtQ8StzdwGN39U-duEh7lVSAbwgKuxTAC3ETAVAInM4_CGAwmSg=w1611-h2416-s-no-gm?authuser=0",
+        caption: "À l'intérieur, le vaisseau déploie des travées couvertes de voûtes sur croisées d'ogives qui créent un volume élancé et lumineux. L'édifice se distingue tout particulièrement par l'intégrité de son décor Second Empire, incarné par le programme peint néo-gothique qui habille les élévations et les voûtains du chœur. Ce sanctuaire conserve un mobilier liturgique d'époque conçu en parfaite harmonie avec l'architecture, complété par un ensemble de verrières historiées — comprenant une rosace mariale entourée de quadrilobes d'anges — et des œuvres d'art sacré protégées. Inscrite en totalité au titre des monuments historiques, Notre-Dame constitue l'un des manifestes néo-médiévaux les plus accomplis et représentatifs du renouveau ecclésial sarthois au XIXe siècle."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNE7EUodGkNH6R5VCSrku4ncxDq0wC00pEA7E2VOEiYwZJkrHSnWVmQRlqEbTRCEK5azwFs_ZHfTWrLWuy7iOO51sg3HyIJ9063H-VAyTQoYmT2Y3-CDc0POz4MBSO9MYB-lWcL2bXglaDgpjVkIutrGA=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPhhQ1nDIwV9134tRYTikT8HC4y4-3GeqS3EuS4EYEBPQKi2-zmWb4fr-LXIZR62atztiHtQh5CbPaMVEXMM3aS8frSGxZYY-MyEvKXeOcQeVQdQBm_101fW15tWqgrIlY_pH_oOd-bVOiKpm0dSMuEIQ=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNj2YNXez36PaCkJQxLKH9rIfNKb94FiCaPAckaKN0WjrAWQsEAF0qvm5R60r6_xIJMYT8PKnHhdKd5vBnD-wiImKB1tKLJBBwGm2QJMmrjKfb9rgLY0DbVNz-vj6H-JPcf1ONBXwVwMOWQmi4bYzVI3w=w1741-h1161-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Édifiée au cœur de la paroisse du Gesnois sur la rive sud de l'Huisne, l'église Notre-Dame témoigne de l'histoire singulière de Montfort-le-Gesnois, née de la fusion en 1986 de deux bourgs séculaires jadis rivaux. Fondée au XIIe siècle et profondément remaniée aux périodes gothique et classique avant une campagne de restauration au XIXe siècle, elle se distingue par sa tour-clocher massive servant de porche d'entrée et par sa nef spacieuse éclairée de baies ogivales. Construite avec les matériaux emblématiques du terroir sarthois, elle conserve un ensemble remarquable de mobilier d'art sacré, notamment des autels sculptés en tuffeau et des vitraux racontant les dévotions mariales qui animaient autrefois les confréries locales.",
     visiter: "L'accès à l'église s'effectue au centre de la place du Gesnois, point de départ commode pour explorer la partie méridionale de la commune. En franchissant le portail sous le clocher, on apprécie la belle luminosité du vaisseau central mettant en valeur les boiseries du chœur et la finesse des statues de la Vierge. La visite de cet édifice offre un contraste architectural intéressant avec l'église Saint-Gilles perchée de l'autre côté de la rivière. On peut ensuite rejoindre les berges verdoyantes de l'Huisne et le pont médiéval par une agréable liaison piétonne d'à peine quelques minutes à pied.",
     link: "https://photos.google.com/share/AF1QipOb3ShaKNG_lsJde2nz8dRyz9nGHRogFP31vgkL6iaR4Hd7feMJ2OdoN8Q2CULzwg?key=WTRicjlYODZGMUhveTFOQXdEVk0tNEt3Ry1HVTBn"
@@ -10794,14 +10838,30 @@ const travelSpots = [
     subdiv: "Sarzeau",
     altitude: 6,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "contemporain",
     era_label: "Époque Contemporaine & Maritime",
     century: "XIXe siècle",
     category: "star",
+    counts: {},
     lat: 47.5464,
     lng: -2.8462,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNEmUKRqBa4pMbgZfTWJ1qAZqKKywxx1RMq-kFBUIoFAldzgSXC9JKpDRSZsbFm5uFZUjLMhPf3bp4gWK6sNhWAramoHGiB_rXCmKBW0zrSBuz1Rr_KmGBs8BwpMOOtwWIYq4T2yFO2pI2XGMTFXPNRGw=w1820-h1213-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN6U5R_p6stG3_9cHpg7rtCQk0ptKYuLdW-kHZpmctXUsLRlF90geevq2k-Caiu4bUiv8b_aXhppVH9dlYUP7PB8AbNdZUdS0J-UbrTLKWuDqOz85vAgIZtFNAozqMiq6fEuatj4Bn9Wk0r3p-eBqJjKw=w1741-h1161-s-no-gm?authuser=0",
+        caption: "Le Logéo a réussi sa mutation en devenant un pôle ostréicole actif doublé d'un mouillage très prisé pour la plaisance, réputé pour accueillir la flottille des « Guépards », ces élégants dériveurs en bois nés dans le golfe. Dominé par de coquettes maisons côtières et offrant une perspective ouverte sur l'île Gohivan, il demeure l'une des escales traditionnelles les plus pittoresques lors des fêtes maritimes de la Semaine du Golfe."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN5Bhq62Gj7Q-FgJi80tloC4m4cEwkkdxPEh4DyEtRFWitdpOPFBqGXfrDcEIQoJl5TqWo0WIoIb_IYIXsyYHFsf6tp-ekxVlXHWXZCSbQK2RspgUtOBQ___Ld2G3uermYFgKlg7bYAFB7LsVNV8s8kHw=w1741-h1161-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOkG3dpVR2hLiO2zC3gxjipfGhU3Hk-eE29pIjJYJH8KWAzmLnlIlTDiY6AQ4MGWVkbNUjTJdXWcUUVXNG-0R_EUz3lrEsSqsEpJSJ3JggNCvVYR2lDZALU-ymRr6nEXntY_u2DieVH3lo3Bs0me8z0uA=w1741-h1161-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Havre naturel niché sur le littoral nord de la presqu'île de Rhuys, le port du Logeo s'ouvre sur les eaux calmes du golfe du Morbihan à l'abri des vents dominants. Ancien port de cabotage très actif aux XVIIIe et XIXe siècles pour l'exportation du vin blanc de Rhuys et du sel des marais vers Brest et les grands ports de l'Atlantique, il est aujourd'hui un port d'échouage et de plaisance plein de charme. Sa cale pavée historique, bordée d'anciennes maisons de capitaines et d'échoppes de marins, accueille le va-et-vient des plates ostréicoles et des voiliers traditionnels. Le plan d'eau offre une vue imprenable sur les îles du golfe, créant une atmosphère maritime paisible et authentique au rythme des marées.",
     visiter: "La découverte s'effectue en flânant sur le quai et la jetée en granit pour admirer les bateaux traditionnels au mouillage et le panorama ouvert vers l'île aux Moines et l'île d'Arz. Les terrasses des cafés et les cabanes de dégustation permettent de savourer des huîtres creuses fraîchement débarquées face à la mer. Le sentier côtier du GR34 borde directement le port, invitant à poursuivre la promenade le long des pointes rocheuses ombragées de pins et des petites criques sauvages. C'est également un point d'embarquement privilégié pour des excursions nautiques à la découverte des chenaux et des courants de la petite mer.",
     link: "https://photos.google.com/share/AF1QipPb2RZUrZYfIddwN_N0UP-fz4jVTYg8fCDgm8Y9JSsv2B5LfXJfa4tlgBswvp_R2Q?key=RlpMbXVDNWdZSTJpYm1QeEFvVm9HOWxLZlVoMUlR"
@@ -10817,14 +10877,42 @@ const travelSpots = [
     subdiv: "Saint-Gildas-de-Rhuys",
     altitude: 27,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Romane & Abélard (VIe - XIe siècle)",
     century: "XIe siècle",
     category: "religieux",
+    counts: {},
     lat: 47.4999,
     lng: -2.8397,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMqzlEjkj8VBklj0Il15t03qGxrOQlueuZzF1HhNvY6mtfsoYqHbsE9TaNPK84nYjz5GX20POUKaI7MZUNFy07bj6sbs0wxJ2fTDzkYYV_nJLXTvpvJErow3-mVTIpyJqgUCRTlMWOwMOrJGZ9-ObFQfQ=w1820-h1364-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOQJ6_t1SJuef8lwdPL31dcc06RpXApbpFtWm8nH557fqj_ctzGqwhhHu-SAjv6bvdeqTwNrfAIjUSjwLIkwY139MsHNDPJYeiTENT6zwdbRt98UB8PzX7v4JLs2cZZRzlbhYWwNMSeiCM6fm0UkBtwmQ=w1741-h1305-s-no-gm?authuser=0",
+        caption: "L'église abbatiale constitue un jalon fondamental du premier art roman en Armorique, particulièrement admirable par son chevet du XIe siècle doté d'un chœur à déambulatoire et de trois chapelles rayonnantes. Élevé en grand appareil de granite local, cet ensemble séduit par l'équilibre de ses volumes et la puissance expressive de ses chapiteaux sculptés, ornés d'entrelacs, de motifs géométriques et d'un bestiaire fantastique. Bien que la nef ait été reconstruite au XVIIe siècle par la congrégation de Saint-Maur à la suite d'effondrements, l'édifice abrite toujours les sépultures des premiers ducs de Bretagne ainsi que le tombeau attribué à saint Gildas, complétés par un précieux trésor d'orfèvrerie sacrée."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNoI1Z_wRAhsutEajfqPLlY1hljzBfRMrww3hT1rJVJLvMABErMjJrmGT06nrCIDmMj0jGlvP_-EhKmbn38JWY4nmEssingvmj4aflJvQqNTnDjPKcz9R5pGdblZRTtC9smXoRe6bEECXopHNzdUzAyeA=w1741-h2320-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczODY9yur8u0a3_4BETcK3LZEBiZmDGLLUrX3dSUWyK3YybVdUlAaX8dI8F0oUyljT7jWZcSEQU5Q5i0xUzJWy5PPj_Ivs9cqe1v8pivprbsjgCs74A84w48ch4TYSFQEncYwozsMvF1PRc5WBA83NWmHg=w1741-h1305-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPnvKY2cB5NILPzpC1_iypya3LA201Sodi4HQPi2N8ni1ez8a-6i7XQWwLHHxjAR727BxfCTsz_8KGEM5pBcQH3aXGt_9ylnAGrteOt7RMLg6XAq4pR5Xwd4I6bzy1BBkXfWDEkhJXGcPYJ_U-rQ4tysg=w1741-h2320-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNbKBktUHtln6wL1-Mui7z9YeU2mO_nUP0wIkkaJlgXu8pH9xa35BzDylspTqHAenscWnfH3x0T1llFavVXlevixDGgDgcAcjZ5v8Dt2dyydi5ViF832alGwxtnnM-wA3Qyxu8hA-zVzCobMtH_B7UQAw=w1741-h2320-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP2y2V4bAV-87CnBen58GkqOSpwv46-KZK2V8bn_VcOD-hgC2CfZSHKkEVFlMaAh-ijeYKR3d9xCIQG-c8epHyeTzkEVmiORPmwcfsy83ONsf3kQuc9sCPgFqoKCzIvlP7TzrotRm9FUyxGU7EgBYM4vA=w1741-h2320-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Haut lieu de la spiritualité bretonne dominant le grand large depuis la presqu'île de Rhuys, l'abbaye Saint-Gildas puise ses origines au VIe siècle avec l'arrivée du moine gallois Gildas le Sage. Reconstruite au XIe siècle par saint Félix après les dévastations scandinaves, l'abbatiale actuelle constitue l'un des plus insignes chefs-d'œuvre de l'art roman en Bretagne. Son chœur et son déambulatoire à chapelles rayonnantes déploient un ensemble remarquable de chapiteaux sculptés d'animaux fantastiques, de feuillages stylisés et de motifs bibliques. L'histoire du monastère est également immortalisée par le séjour tumultueux du philosophe Pierre Abélard, qui en devint l'abbé au XIIe siècle et tenta d'en réformer la règle face à des moines rebelles. Classée au titre des Monuments historiques dès 1840 par Prosper Mérimée, l'église abrite également les tombeaux des ducs de Bretagne et un inestimable trésor d'orfèvrerie sacrée.",
     visiter: "La visite commence par la nef et le transept roman, avant de gagner le déambulatoire pour contempler de près les célèbres chapiteaux historiés du XIe siècle admirablement mis en lumière. Dans le transept nord, le tombeau de saint Gildas et les dalles funéraires des ducs de Bretagne méritent une observation attentive. La salle du Trésor expose de précieuses reliques enchâssées dans l'or et l'argent, dont les bustes et bras reliquaires des saints bretons. La promenade se prolonge à l'extérieur dans le jardin de l'abbaye et le bourg monastique, avant d'emprunter le chemin menant vers les falaises côtières du Grand Mont où saint Gildas venait prier face à l'immensité de l'océan Atlantique.",
     link: "https://photos.google.com/share/AF1QipPb2RZUrZYfIddwN_N0UP-fz4jVTYg8fCDgm8Y9JSsv2B5LfXJfa4tlgBswvp_R2Q?key=RlpMbXVDNWdZSTJpYm1QeEFvVm9HOWxLZlVoMUlR"
@@ -10840,17 +10928,48 @@ const travelSpots = [
     subdiv: "Sarzeau",
     altitude: 12,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Ducale & Médiévale (XIIIe - XVe siècle)",
     century: "XIIIe siècle",
     category: "chateau",
+    counts: {},
     lat: 47.5125,
     lng: -2.7287,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPDKhrY8zVy37Dz1ZqLT0qZIIIIxd_kq1RpB5B5fatxRMZ4vi3UKUwaKokv-3W_yWlbtIRfRB9Z04Df3vxN1vfGABW9esgJDn7YdMeDEmMv_XhZBEKkN58jSJ5MIne7ApKE3YfsUJ9AGSUqGm4PgscDIA=w1820-h1213-s-no-gm?authuser=0",
     description: "Majestueuse résidence d'agrément et forteresse de chasse des ducs de Bretagne, le château de Suscinio dresse ses imposantes murailles de granit entre marais salants, landes et océan Atlantique. Édifié à partir du début du XIIIe siècle par Pierre Mauclerc puis agrandi jusqu'au XVe siècle par les ducs Jean IV et Jean V, ce fleuron castral médiéval est ceint de profondes douves en eau et flanqué de six tours monumentales crénelées à mâchicoulis. Le domaine est mondialement réputé pour sa chapelle castrale retrouvée en ruine, d'où fut extrait un pavement médiéval exceptionnel de plus de trente mille carreaux de faïence et de terre cuite vernissée figurant animaux héraldiques, chevaliers et rinceaux fleuris. Remarquablement restauré après des siècles d'abandon consécutifs à la Révolution, Suscinio incarne la puissance politique et le faste princier de la Bretagne indépendante.",
     visiter: "La découverte s'amorce par le franchissement du pont fixe au-dessus des douves pour pénétrer dans la vaste cour d'honneur pavée bordée par les logis ducaux. Le parcours muséographique interactif traverse la grande salle des banquets, les cuisines voûtées, les chambres seigneuriales aux cheminées monumentales et les courtines supérieures offrant un point de vue aérien sur les marais littoraux et la plage de Landrezac. Une halte prolongée s'impose dans la salle des pavages médiévaux pour admirer la richesse polychrome des céramiques restaurées. La visite se prolonge en extérieur sur les sentiers écologiques aménagés au cœur des marais d'eau douce et d'eau salée, véritable havre ornithologique abritant aigrettes, hérons et tadornes de Belon face au château.",
-    link: "https://photos.google.com/share/AF1QipPb2RZUrZYfIddwN_N0UP-fz4jVTYg8fCDgm8Y9JSsv2B5LfXJfa4tlgBswvp_R2Q?key=RlpMbXVDNWdZSTJpYm1QeEFvVm9HOWxLZlVoMUlR"
+    link: "https://photos.google.com/share/AF1QipPb2RZUrZYfIddwN_N0UP-fz4jVTYg8fCDgm8Y9JSsv2B5LfXJfa4tlgBswvp_R2Q?key=RlpMbXVDNWdZSTJpYm1QeEFvVm9HOWxLZlVoMUlR",
+    sections: [
+      {
+        title: "Forteresse de chasse des ducs de Bretagne",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPDKhrY8zVy37Dz1ZqLT0qZIIIIxd_kq1RpB5B5fatxRMZ4vi3UKUwaKokv-3W_yWlbtIRfRB9Z04Df3vxN1vfGABW9esgJDn7YdMeDEmMv_XhZBEKkN58jSJ5MIne7ApKE3YfsUJ9AGSUqGm4PgscDIA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPJ52xKqkX7LDwvTs8XYbAdfG4xrm8EdkaMLvX09yo4VCmV2WuG2qEwzBfXsyiw0HjHTKG20Zs9h-LN3z2jvWmNQsqtt0ewvWBTYw1r7HnXW-_6Ck4h4CufBDlYx_pwJBGu6f3q9rFjpy7_6qnf4r2Hsg=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPksNY_HDfLeUf26YvdsKQ-qm66XEC5fjNLYhqPoOOMHjRjAa_yAXJe4mmmthu_KPjAJs-SCSvBicnIxwnIuXy0S8K3KPMDS0BXcnqrUdq4SEPeh3c0Zp7NvlwWdKhcPj3hoR3kh1UhXQ_pB0mAWR2fmg=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Vendu comme bien national et laissé à l'abandon après la Révolution française, l'édifice a fait l'objet d'un sauvetage spectaculaire et de restaurations minutieuses menées par le département du Morbihan depuis les années 1960."
+      },
+      {
+        title: "Pavement médiéval et logis seigneuriaux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNKxGnfyOWlntehGQRp9zePUr_AHHEr7aO9sWjeX8j113WwLk2a46dqPQdhyUZ8hxp8fVplT2Ms4BOsy9pDltMGx-FErendmzVi4NX6023NIAMLPTB9MeCXCDdaUSXaDOgEJZAzRUOd3TwStqRLP2dznA=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPqAuLWnI6kQqs8t8mGbepcQAutDxnM7h0o0TeKxiOo_gYircwv0DRt-CXYfPN-21SGpfv2kMqvKR6d9J1hrmAMXNMDbkcQ4CQTTJv1D81gZL3kRuRuw3GvAtAGikYZIylm9UG3VFCSYlyRF9CuOcetmg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPAt4Z-XF4YNm5PvEyefE2EwGkSXMHJoo5fUWHmhob--RBF8GNowH2DQvPpwNHtQb2fwi8NWJYezSq8BuTEXRPxDbIlKgE_75Vv18mMQfTWtMgL2A_x1TI6moc-8VQISlp3xJA1A2l_J1uQ80Ozo1ilnQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Ses grands logis restaurés abritent aujourd'hui un exceptionnel pavement médiéval vernissé du XIVe siècle, découvert dans les ruines d'une ancienne chapelle extérieure du domaine. Intimement lié à son environnement naturel de marais, d'étangs et de roselières classés espaces naturels sensibles et refuges pour l'avifaune, Suscinio offre un témoignage majeur de l'architecture castrale et de la vie de cour en Bretagne à l'automne du Moyen Âge."
+      },
+      {
+        title: "Observatoire ornithologique des marais littoraux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNkkKQxzRvLP-qh881-wIybECNRwD5X88Ae7fLIWxuzuHetpcLCXGYcbDMlfXylcB2Ifv7twdPxjF1q30GBW9SnN5osPFobOsdXQ1sELBnVniov8xJhVwvGC0CZoHGdu-6z9C_p0u_hi_xz_5iliCiAkQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMsL0ryptYNTLuLv4oA8Hn-MxHB0nxCigCqnBvTjCJgMYgL4Z0Flgn1CcZOdrUIfMQEmycvBXt5mdH8WBz0a4_DMEqAIdDNxs2Dq29CCe5W52mBee-ogyBhpEuepWD9msSsrZKTTUsG3PQ8vN0MmHKYZA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOrQEvakbqXQPwg7DJhg3LAYmExxNv8b-J1EUAOlKhLVFU_MdUAT5JccQa6SKdgK7C4-LsxZAwojWrYzMPG1gnIwFt6c-5epsJD7Npk2ljjg6KijXM7g4TBnKXhjuZHyrXHvXXQW6npOQ-2rmAg9-yb4Q=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Aménagé le long du chemin de Louzaou au cœur des marais littoraux de Suscinio, cet observatoire ornithologique en bois offre une vue panoramique sur les roselières et les miroirs d'eau saumâtre peuplés d'aigrettes, d'avocettes et de hérons. Il dévoile une perspective remarquable où les plans d'eau de l'étang mettent en valeur, en arrière-plan, la silhouette massive et crénelée du château ducal."
+      }
+    ]
   },
   {
     id: "sarzeau_pointe_de_penvins",
@@ -10863,14 +10982,30 @@ const travelSpots = [
     subdiv: "Sarzeau",
     altitude: 8,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "contemporain",
     era_label: "Époque Néo-Gothique & Gardienne des Flots (XIXe siècle)",
     century: "XIXe siècle",
     category: "religieux",
+    counts: {},
     lat: 47.4937,
     lng: -2.6811,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMTTPS4hsQDRPEWHVjviYGFEd6GIvvH-Hmity-gUDXkgu04B7C_TorikQrUTzvyhTxjXhcFanWKnc1n7vN4ATo6_6Q1gi-kQqyAHnEs927yaTFwhIMCP27lnIXXSr9d_hTAL8R_qu7Cv2or74nmUCm7Bw=w1820-h1213-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNtYDRlFH-qHlzsTgD4A5BbQ8GjvS3kGTMj052VaeR8yiPegj3MZhkzhzDvYbkXlWxMGgrjQnxWkSAZAS1CGYBL1jMIu7kI2NqSwZlIbO-KoY4uPewkvr5FI-XA4WAgLpxZEYLAH6didAoUdYd1sydd1Q=w1741-h1161-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPSxJmEcj480pKUXe2KXFbvZn7eF0Sa04gBvKKuGYhT8ysCL233aCtjdAWmJP5r0bV2uTX-qdZ0JtOA_TItVObUnJ5bxj7MfE04DpoTfDYlWvtfGx5R7y9mFhgjLrVXJyd8hvJLrXEXUqO33bOdHOZxMg=w1741-h1161-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMvmn-_LBAlRWjtgl4buPF8nY-kkN5lI5BK-Fb-a9l6BQvXJCVChpO0VCq_JFpS3Fw2GOM4NyWHRWgEJh6qh99688ZqoapN8jBYyCEoVG3blA1EGC3MqvOotaSaa6JNDBXK883_6w2ZcIrh5n3BQJxfNg=w1741-h1161-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Sentinelle solitaire campée sur une avancée herbeuse battue par les vents et la houle atlantique, la chapelle Notre-Dame-de-la-Côte marque l'extrémité sauvage de la pointe de Penvins à Sarzeau. Reconstruite à la fin du XIXe siècle (vers 1876-1877) dans un style néo-gothique robuste en moellons de granit sur l'emplacement d'un oratoire primitif attesté dès le Moyen Âge, elle présente un plan atypique en forme de croix grecque parfaitement symétrique. Conçue pour résister aux tempêtes hivernales tout en servant d'amer bien visible pour les marins naviguant au large de la presqu'île de Rhuys, la chapelle était traditionnellement le lieu où les femmes de marins et de marins-pêcheurs venaient implorer la protection de la Vierge pour leurs proches en mer. Son dôme discret et sa toiture d'ardoise se découpant sur l'horizon océanique forment un emblème maritime d'une poésie saisissante.",
     visiter: "L'accès à la pointe s'effectue par une route côtière menant à un espace naturel protégé, d'où un sentier piétonnier d'ajoncs et de graminées marines permet de rejoindre l'édifice en bordure de falaise. En contournant la chapelle, le regard embrasse un vaste panorama maritime à trois cent soixante degrés s'étendant de la baie de Kercambre à la pointe du Moré et l'estuaire de la Vilaine au loin. L'intérieur sobre, baigné d'une clarté douce filtrée par d'étroites baies ogivales, abrite des statues votives et des ex-voto de bateaux rappelant la ferveur des périls maritimes d'autrefois. La promenade se poursuit naturellement le long des plages de sable et des cordons dunaires qui flanquent la pointe, spot très apprécié pour respirer le grand air iodé et observer le vol des oiseaux côtiers.",
     link: "https://photos.google.com/share/AF1QipPb2RZUrZYfIddwN_N0UP-fz4jVTYg8fCDgm8Y9JSsv2B5LfXJfa4tlgBswvp_R2Q?key=RlpMbXVDNWdZSTJpYm1QeEFvVm9HOWxLZlVoMUlR"
@@ -10892,9 +11027,28 @@ const travelSpots = [
     era_label: "Terre Insulaire & Rythme des Marées",
     century: "",
     category: "ile",
+    counts: {},
     lat: 47.5708,
     lng: -2.7277,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMHadiyMqOAFQfJ0fVDpJluc9IdMNMTP-RX-N_f1Q2y-HkQCrUva2Wtdn0YzKON2wsElQhEA-UQOiIs71vniS9tmD9QGt2v-y_dUoIjvluntpjh6vzoaOIujCOWLU0F7KjeUuqNuTi28lrl7kBgslr6Lw=w1820-h1024-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPOG6SvpgzCqGhhKwWi6G4wk9QadNGeR0ae9ox28StTCUi1bf-JwHsJUjLgcrVjeIsYn8ehaxbjLQm58OQEj4i6c6_ZKVf5A8weHgV3m1XyMbIVqhjkndHwW32ObuJdz6QME7crn8ZOa21-4I5Dvu1ALw=w1741-h1161-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMmFUlH_o-t4pfq4oZaGx2p8p7D-qcecVpn4g0rJOv2GJry5Q70g1klQT6yWHNg431_MDBwNC6xVudap6oBxJfDj6UC5hp3R9TydzwaVxkWJUDxPrsulvMKLF6gVMlxYyuHP-CfRHLcdg0ObHXguslVsw=w1741-h979-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOvQCRNMMFty3KiuAi2sX3BIae6PkZ1MssZY32j9bAvFop0iOuzM222tRe3R7SffzhqIU5dHr0jrCRgectZgONHrAjLOXFGOgQFVGAwmJdCQGGPRVx1yAH09ykkw78Cv5oAwRnbQgHazea7lANMDMPjCQ=w1741-h979-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM-jELX-i6MV8VvOxp2XioSIZeFMKNJdUBziwgk2RHsY2dQay4_oRKJe2IOq5c0gaLxDiguDeVHZXc-cmWAcsZVfhcpcXPOxbMeXtpcYv9GscCxqK2TVv1nNkBmG1hWCCTInrXHWHGjrO_WdazenZaF8g=w1741-h979-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Véritable passage submersible d'anthologie au fond du golfe du Morbihan, la chaussée submersible de l'île Tascon relie le continent depuis la commune de Saint-Armel à la troisième plus grande île de la petite mer. Longue d'environ quatre cents mètres, cette route empierrée et dallée n'émerge que deux fois par jour à marée basse, disparaissant entièrement sous plusieurs mètres d'eau salée au jusant. L'île Tascon, sanctuaire agricole et préservé resté habité par une poignée d'agriculteurs et d'éleveurs, déploie un paysage pastoral unique bordé de marais, de salines et de prairies bocagères où paissent des vaches face à la mer. Ce cordon marin éphémère incarne avec force la respiration marine du golfe, où la notion de terre insulaire prend tout son sens au rythme immuable du coefficient des marées.",
     visiter: "La traversée de ce passage maritime nécessite de consulter impérativement les horaires et coefficients de marée avant de s'engager, le passage n'étant praticable à pied ou à vélo qu'environ deux heures avant et après la basse mer. L'expérience de franchir cette bande de chaussée bordée d'algues et de parcs à huîtres découvrants procure une sensation d'évasion maritime rare. Une fois sur l'île, les chemins de terre invitent à une boucle pédestre respectueuse de la tranquillité des lieux et de l'avifaune migratrice nichant dans les vasières (bernaches cravants, tadornes, courlis). Le retour vers Saint-Armel offre une vue superbe sur les anciens marais salants de Lasné, parachevant une immersion insulaire saisissante.",
     link: "https://photos.google.com/share/AF1QipPb2RZUrZYfIddwN_N0UP-fz4jVTYg8fCDgm8Y9JSsv2B5LfXJfa4tlgBswvp_R2Q?key=RlpMbXVDNWdZSTJpYm1QeEFvVm9HOWxLZlVoMUlR"
