@@ -1757,8 +1757,6 @@ function selectSpot(spot) {
   const location = document.getElementById('card-location');
   const desc = document.getElementById('card-description');
   const visiter = document.getElementById('card-visiter');
-  const link = document.getElementById('card-link');
-  const gmapsLink = document.getElementById('card-gmaps-link');
   const indexEl = document.getElementById('card-spot-index');
 
   const spotIdx = travelSpots.findIndex(s => s.id === spot.id);
@@ -1812,8 +1810,8 @@ function selectSpot(spot) {
   location.querySelector('span').innerText = `${spot.lat.toFixed(4)}°N, ${spot.lng.toFixed(4)}°E (${spot.altitude > 0 ? '+' : ''}${spot.altitude} m)`;
   desc.innerText = spot.description;
   visiter.innerText = spot.visiter || "Aucun détail complémentaire renseigné pour ce site.";
-  if (link) {
-    card.classList.remove('hidden');
+
+  card.classList.remove('hidden');
 
   if (currentMode === 'globe' && myGlobe) {
     myGlobe.pointOfView({ lat: spot.lat, lng: spot.lng, altitude: 0.35 }, 1000);
@@ -1823,7 +1821,6 @@ function selectSpot(spot) {
     myLeafletMap.setView([spot.lat, spot.lng], targetZoom, { animate: true });
   }
 }
-
 function closeSpotCard() {
   currentSelectedSpot = null;
   document.getElementById('destination-card').classList.add('hidden');
