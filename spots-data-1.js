@@ -10003,7 +10003,48 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczNVlErgZ5v6mtnbqxXxKFofYVLC8jQx8hcgJbfq38xtbCIze838ALn_8m31IMBT57BBYTS5sTsSIpkwdiDHFhvEcYIYieQDND29Urs8pr_ST1N97ua_linf94qEp4q9clDq3fHIZ9kvtjHbNjj_ttzTQg=w1379-h919-s-no-gm?authuser=0",
     description: "Niché dans l'ombre tutélaire du grand temple bouddhique Sensō-ji au cœur du quartier historique et populaire de Taitō, le sanctuaire d'Asakusa, affectueusement nommé Sanja-sama (« le sanctuaire des trois divinités »), constitue l'un des rares et précieux chefs-d'œuvre de l'architecture shintoïste du début de l'époque d'Edo à avoir miraculeusement survécu aux bombardements dévastateurs de la Seconde Guerre mondiale ainsi qu'aux séismes majeurs. Érigé en 1649 sous les ordres du troisième shogun Tokugawa Iemitsu, cet édifice classé Bien culturel important d'État illustre avec un éclat souverain le style architectural gongen-zukuri, où le pavillon des offrandes (heiden) et le saint des saints (honden) sont reliés sous une même toiture complexe aux courbes élégantes, rehaussée de laques sombres, de ferrures dorées et de délicats motifs sculptés en bois polychrome représentant des bêtes mythologiques et des dragons protecteurs. Le sanctuaire est dédié aux trois figures fondatrices laïques qui présidèrent à l'origine sacrée du quartier au VIIe siècle : les deux frères pêcheurs Hinokuma no Hamanari et Takenari, qui découvrirent dans leurs filets la statuette miraculeuse de Kannon dans les eaux de la rivière Sumida, ainsi que le sage lettré Hajino Nakatomo qui reconnut la divinité et consacra sa vie à son culte. Foyer spirituel indissociable de l'identité des artisans et marchands du vieux Tokyo d'autrefois (shitamachi), il accueille chaque année en mai le Sanja Matsuri, l'un des trois plus gigantesques, fervents et spectaculaires festivals shintoïstes de tout l'archipel nippon, durant lequel une centaine de sanctuaires portatifs (mikoshi) est portée à dos d'homme dans une transe collective inoubliable.",
     visiter: "La découverte s'amorce après avoir longé le flanc oriental de l'immense esplanade du Sensō-ji, en franchissant le discret torii de granit qui marque le seuil sacré séparant l'effervescence touristique du temple bouddhique de la solennité feutrée de l'enclos shintoïste. Le visiteur s'arrête tout d'abord devant le pavillon d'ablution rituel (temizuya) orné de sculptures de dragons en bronze pour accomplir la purification ancestrale des mains et de la bouche, avant d'aborder la façade richement décorée du bâtiment principal dont les teintes sombres contrastent harmonieusement avec la luxuriance des pins et ginkgos centenaires veillant sur la cour sacrée. En observant attentivement la zone de transition sous les auvents de bois, on peut admirer la virtuosité des assemblages sans le moindre clou et la vivacité intacte des pigments minéraux préservés depuis près de quatre siècles, figurant des oiseaux de paradis et des rinceaux végétaux d'inspiration céleste. Les fidèles et les voyageurs s'avancent vers l'autel de prière pour jeter une offrande dans le tronc de bois, s'incliner deux fois, frapper deux fois dans leurs mains en signe d'appel aux esprits kami, puis formuler une prière silencieuse avant de s'incliner une dernière fois avec déférence. Tout autour de la nef, des présentoirs abritent des centaines de plaquettes ema en bois gravées de vœux calligraphiés ainsi que des omikuji, bandes de papier divinatoires nouées aux grillages pour conjurer le mauvais sort. Cette halte d'une rare densité spirituelle offre un témoignage authentique et bouleversant sur la cohabitation séculaire du shintoïsme et du bouddhisme (shinbutsu shūgō), permettant d'apprécier la persistance vivante des rites traditionnels japonais au milieu de la modernité urbaine tokyoïte.",
-    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA",
+    sections: [
+      {
+        title: "Style gongen-zukuri et héritage d'Edo (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMFB90IP8tIOfDR3C5uEqkb5pO-2yncknUJJYIrioQOTlvjdPot98_t0iMtGb4f40rsiJEsJEhBNB8-Bse4bdmq6BQvkJyOWTrvmqtVh_Ro-yHn2zWu-rCyNdOYM69YS9ZR48Al8eBWEdn62Yu4Qw5Itg=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMRyNU6stEUIRiKlbu9qP4-x-el5HZXEbyH6Odh6ENc6PP5Jbxp0Zd5LcqWkRVAefYX6V527edqdI92J9lCKlc9XYNN1-sFmTa8sIAgFUZa65fcKqnLQJW17r1MDuf6kCqRKaf6O8CzJ_erfrQH2Tk7Bw=w1741-h2311-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP0Nfa0R60BHzYbR8rX53MTOGXl1lsJppfuE8sut_6wnSp_00UvgwF5iSbZlzJquZEKBCgrV1ayZECpHEL0s4lwhc_DF9vWpCoBpbvpl4BN0PHygVc_oHdn1hWtAX-6agfF15fIdlERQzp7w9tKyQoY_A=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "L'ensemble architectural actuel doit son existence à la dévotion du troisième shogun de la dynastie des Tokugawa, Tokugawa Iemitsu, qui ordonna la construction du complexe en 1649. Érigé selon les principes raffinés du style gongen-zukuri — une composition spatiale où le sanctuaire principal (honden) et la salle d'adoration (haiden) sont reliés sous une même toiture par un vestibule intermédiaire d'offrandes (heiden) —, l'édifice se distingue par son éclatant laquage vermillon rehaussé de ferrures noires, de feuilles d'or et de sculptures sur bois polychromes représentant des créatures mythologiques protectrices comme le kirin, le dragon ou le phénix. Miraculeusement préservé des ravages du grand séisme du Kantō de 1923, puis des bombardements incendiaires dévastateurs de mars 1945 qui anéantirent les structures en bois du Sensō-ji voisin, Asakusa-jinja est classé Bien culturel important du Japon (Jūyō Bunkazai). Il constitue l'un des très rares témoins authentiques de l'architecture religieuse du début de l'époque d'Edo ayant survécu intacts au cœur de la mégalopole tokyoïte."
+      },
+      {
+        title: "Style gongen-zukuri et héritage d'Edo (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMvwBrEGrsKaxhc-vTEDUhkuf8T0sr5OSy4xWmGdiFRdY6y1dJdctRbTKX5NxtRUOTJ9B9XxJmAKMvf0ZPLrJQa1rIiJrjq9zdrehH-S_95RcoXvLV9H93sbjl4cF9Dt5HlmEs7J1P4csXjQXCmWIAVpw=w1741-h2320-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La porte Kaminarimon et le lampion monumental",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPBMuto6IeTqkJI3pZb-A_md_tissE-vsg3CZXJUSAf2GHOJfTSEzbjPbEQ29Uk0lMD2VL1Ohx9GLcqjAL26jr9z_zIkBfa9vkDKT5vZBts_OyrYiV7hIR_LNDiuCGJREOLyEfshacDX9Y0WDccNXcWgA=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNerJqnTb7A2WXKkbMQUhfYYhNghxurpLXwJCqALjVYc8mjQ-q9JhfIbAGKxNNip7Ho3dZj7CqPhfnVKcOQPK8_RuvmVx2PoliqzIaEQ8PVFIA21WmjRF9YimTeUU06x2TmQruOlEgA8QGNFUq0_6IKwg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Suspendu au centre du Kaminarimon (雷門, la « porte du tonnerre ») marquant l'accès sud au complexe bouddhique du Sensō-ji, ce monumental lampion rouge (chōchin) est l'un des repères visuels les plus célèbres de Tokyo. Haut de près de 3,9 mètres pour un diamètre de 3,3 mètres et un poids avoisinant les 700 kg, il est confectionné en papier traditionnel washi tendu sur une armature circulaire en lamelles de bambou. Sa face avant affiche les deux imposants kanjis 雷門 peints à l'encre noire, tandis que sa base en bois dissimule un remarquable dragon sculpté en relief, visible en levant les yeux au moment de franchir le portique. Détruits par un incendie en 1865 à la fin de l'époque d'Edo, le porche et son lampion ont été rétablis en 1960 grâce au mécénat de Kōnosuke Matsushita, fondateur de Panasonic, venu remercier les divinités du temple après sa guérison."
+      },
+      {
+        title: "La pagode à cinq étages Gojūnotō",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMJiSCnQh3TNDAdmNQoCT0wR05nS7CRDzoupKInewD3T7WwPWD0pecFvW2V9nHBmqj6mTuWSvI7oaGyDoj2SkZkdbGrXx4l8Cw6gPBoXzxw5SiOkjIfnS_xt2bveSj8FP1xu10jkADvsFwRsdXxIU6ehg=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "S'élevant sur le flanc ouest de l'esplanade du temple, la pagode à cinq étages (Gojūnotō, 五重塔) culmine à environ 53 mètres de hauteur et structure la perspective d'Asakusa. Fondée à l'origine en 942 par le chef militaire Taira no Kinmasa, elle a traversé de nombreuses destructions et reconstructions au cours des siècles, notamment en 1648 sous l'impulsion du shogun Tokugawa Iemitsu. Entièrement calcinée lors des bombardements aériens de mars 1945, la tour actuelle a été réédifiée en 1973 en béton armé afin de résister aux aléas sismiques et au feu, tout en restituant avec exactitude les proportions, les auvents laqués de vermillon et le haut épi de faîtage en bronze (sōrin) de l'époque d'Edo. Le sommet de l'édifice conserve un reliquaire abritant des cendres attribuées au Bouddha historique, offertes par un temple du Sri Lanka."
+      },
+      {
+        title: "Séparation religieuse et ferveur du Sanja Matsuri",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNVlErgZ5v6mtnbqxXxKFofYVLC8jQx8hcgJbfq38xtbCIze838ALn_8m31IMBT57BBYTS5sTsSIpkwdiDHFhvEcYIYieQDND29Urs8pr_ST1N97ua_linf94qEp4q9clDq3fHIZ9kvtjHbNjj_ttzTQg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNx13WdO1r6HUuf2ryCRCCPTHV7ncqGSvdpVPksZ3WcbYRTHj8TuApy5LTCN8kXz8XYtRNtkNuqH5jjxShzeBlggFHEkaEobSdYnqiPpLL6gBStJPQ9NnI4Ohfmg1ZUCcOyUrZkY-RAQB2UTVLrkORfJw=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Longtemps imbriqués au sein d'un même ensemble syncrétique (shinbutsu-shūgō) où les moines bouddhistes administraient également les rituels du sanctuaire shintoïste, les deux cultes furent formellement disjoints lors de la restauration de Meiji en 1868, sous l'effet du décret de séparation des dieux et des bouddhas (shinbutsu bunri). Prenant officiellement le nom d'Asakusa-jinja en 1873, le sanctuaire s'affirma dès lors comme le cœur battant des traditions populaires et de la ferveur festive de Tokyo. C'est ici que se tient chaque année, le troisième week-end de mai, le spectaculaire festival de Sanja Matsuri (三社祭), l'un des trois plus grands événements shintoïstes de la capitale aux côtés des festivités de Kanda et de Sannō. Durant trois journées d'une ferveur intense, près de deux millions de pèlerins et de spectateurs se rassemblent pour acclamer le défilé d'une centaine de sanctuaires portatifs (mikoshi) de quartier, avant que les trois lourds palanquins sacrés du sanctuaire principal — abritant chacun l'esprit de l'un des trois fondateurs divinisés — ne soient portés à dos d'homme à travers les artères d'Asakusa dans une atmosphère rythmée par les tambours taiko et les chants rituels."
+      }
+    ]
   },
   {
     id: "tokyo_ueno_toshogu",
@@ -10027,7 +10068,26 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczP56aA_-i-lkaKAUHevY7xIE0Q-WruBb6LnMRS59Pr2F51p6348GUdtx6NtdlTzkJZAe4FCKkYuXYgASjxmYWau8_rr4NFLEl9pdlavMev6b6H5pGQfreFXoHbWTSo1Q2etX9Ruk5dZetpf4j5OSh7o2A=w1379-h919-s-no-gm?authuser=0",
     description: "Sommet éblouissant de l'art décoratif shintoïste et mémorial dynastique d'une richesse inouïe niché au cœur de la colline verdoyante du parc d'Ueno, le sanctuaire Ueno Tōshō-gū fut érigé originellement en 1627 par le seigneur féodal Tōdō Takatora avant d'être somptueusement reconstruit et agrandi en 1651 par le troisième shogun Tokugawa Iemitsu pour égaler le faste du grand mausolée de Nikkō. Dédié à la mémoire divinisée de Tokugawa Ieyasu — le fondateur visionnaire du shogunat d'Edo qui unifia le Japon déchiré par les guerres civiles et instaura deux siècles et demi de paix intérieure —, le complexe incarne l'apogée spectaculaire du style architectural gongen-zukuri. Entièrement revêtu de feuilles d'or étincelantes qui lui valent le surnom immémorial de « sanctuaire doré », l'édifice principal associe avec virtuosité laques vermillon, sculptures sur bois polychromes en haut-relief et bronzes massifs ciselés figurant fleurs de pivoine, oiseaux légendaires et motifs géométriques complexes. Miraculeusement épargné par la terrible bataille d'Ueno lors de la guerre de Boshin en 1868, par le grand séisme du Kantō de 1923 et par les flammes de la Seconde Guerre mondiale, ce chef-d'œuvre classé Bien culturel important d'État constitue un témoignage rarissime et d'une authenticité absolue sur la magnificence architecturale et la puissance politique de la caste samouraï au XVIIe siècle.",
     visiter: "L'approche du sanctuaire constitue une véritable progression initiatique à travers une allée dallée majestueuse bordée par plus de deux cent cinquante monumentales lanternes de pierre (ishidōrō) et une cinquantaine de lanternes en bronze massif offertes au fil des générations par les plus puissants seigneurs féodaux (daimyō) de l'empire en signe d'allégeance éternelle au clan Tokugawa. En progressant sous les frondaisons centenaires, le regard est happé par l'extraordinaire porte d'honneur Karamon de style chinois, dont les battants sculptés dans un bois d'une finesse chirurgicale dévoilent les célèbres deux dragons attribués au maître sculpteur légendaire Hidari Jingorō, réputés descendre s'abreuver chaque nuit dans l'étang voisin de Shinobazu. Une clôture ajourée en treillage de bois doré (sukibei) de près de deux cent cinquante mètres de pourtour ceint le saint des saints, décorée de dizaines de panneaux sculptés représentant avec un naturalisme stupéfiant la faune terrestre et céleste, depuis les oiseaux d'eau jusqu'aux créatures marines. En longeant l'enceinte, les visiteurs accèdent au célèbre jardin de pivoines d'hiver et de printemps (Botan-en), où de somptueuses corolles aux teintes éclatantes s'abritent sous de petits parasols de paille traditionnels tressés à la main créant un tableau végétal féerique. La visite permet d'approcher au plus près l'austère flamme éternelle de la paix d'Hiroshima entretenue sur place, offrant un moment de recueillement d'une solennité poignante avant de poursuivre la découverte des allées ombragées d'Ueno.",
-    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA",
+    sections: [
+      {
+        title: "Allée triomphale et forêt de lanternes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMeryzTvgmOFh_ZkSzDwVNZJ3zLiJt6suLFPHKbu_bacSfpJAXlidz8uf4HgKEAuv-TCwwIUD1r99FOzuCj5p28n6qzWnJ9Z3c2OJ2mazcweR3UoUYdBzzH8XMLKCklp3mKDtgHzg3kmSKpOxoe-EohRg=w1741-h2311-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOKOJc9W_fto8grLmkWiE-_RWJbKPEe1PukhMqL4WoZ53IVlmyjy6UiqYNvvhrD3FLmllgodBTdX5FyWjdc8iCYGzv6TKn8ksghaamvLRkULxR2_SyUKTcKVteuWcH9Z9pZ8BX8dEf__gq-Sm7SH3Oxcg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP6YbzvEbtv-cLJzDYqWPYpWkcuUegkgaKgjM7z0YsaqCq5PhzfAxAYBFbMEHJvVJYHZmzFRyV7560qf7SIY7Xi1YP-rnVuAsNk6NsNpA-H-INSaw7_j6tnYfUqkJlyd_aIBiqRkTQlMw6PIN_8cdGr_w=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "L'accès au sanctuaire s'ouvre par un imposant torii en pierre taillée (Ōtorii), érigé en 1633 par Tōdō Takatora. Franchi ce portique massif conçu pour résister aux secousses sismiques, le visiteur s'engage sur une large allée pavée bordée d'une impressionnante forêt de lanternes votives. Près de deux cents imposantes lanternes en bronze (kondōdōrō), fondues au milieu du XVIIe siècle, s'alignent le long du chemin aux côtés de dizaines de lanternes en pierre (ishidōrō). Offertes par les plus puissants seigneurs féodaux (daimyō) de tout l'archipel en hommage au shogun défunt, ces pièces d'artillerie sculpturale en métal ouvragé matérialisaient l'allégeance indéfectible des grands clans provinciaux envers le pouvoir central d'Edo."
+      },
+      {
+        title: "Miracle patrimonial et splendeur d'Edo",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP56aA_-i-lkaKAUHevY7xIE0Q-WruBb6LnMRS59Pr2F51p6348GUdtx6NtdlTzkJZAe4FCKkYuXYgASjxmYWau8_rr4NFLEl9pdlavMev6b6H5pGQfreFXoHbWTSo1Q2etX9Ruk5dZetpf4j5OSh7o2A=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM_F52bFcfnFMKRAzTb101ZR9LMMk6XLDAFZDGUwZNRqxi2dIR8y8KGiO9sQwlwkEtrlrLO4qKD2iDV2bsWukJDRVU-Qon3jeVNwFxVg_nrwFa_uDkdRZCp_0L8i7-4VFQlwweIwrt0WlHoLzcWVuZnQg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Ce sanctuaire présente une valeur testimoniale exceptionnelle en raison de sa miraculeuse préservation. Alors que l'immense majorité des structures en bois de Tokyo a été anéantie au fil des siècles par les désastres naturels et les conflits, Ueno Tōshō-gū a survécu intact à la bataille d'Ueno en 1868 (qui vit la destruction du temple voisin Kanei-ji durant la guerre de Boshin), au grand tremblement de terre du Kantō de 1923, ainsi qu'aux bombardements dévastateurs de la Seconde Guerre mondiale en 1945. Classé Bien culturel important du Japon (Jūyō Bunkazai), il constitue le plus pur et le plus somptueux ensemble d'architecture religieuse du début de l'époque d'Edo subsistant dans la capitale."
+      }
+    ]
   },
   {
     id: "tokyo_hanazono_inari_gojoten",
@@ -10073,6 +10133,12 @@ const travelSpots = [
     lat: 35.712536,
     lng: 139.773466,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPYHb7DUyck7UHJSghtxjsM2d2i-mqlwIonG2t4eGK0s5bI__eaCig2aYzW8QVE4dK0wKL7mA5bMcpnEJkHvIzHFL22RtHsMgQ-8RaNClY12_pB5PxNTFIriwAsagAoK-ml9yq-gyXIICV1Ctd-Bwc0ZA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOlhurNmskgAbH3rHWvqHl8thSnNORuzDuvefN2mXvSbOIyJZJIx_-NLv8G-qUp8gX2qca2ZiTWmQJ1GqQnvy4IAu2CzAKZt6IX5VRmsxIz0gFcWFxg3W3wKcsDhf-JukujmzCWaox9B9RyTMUrsw_Zyg=w1741-h1161-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Érigé en 1631 sur les hauteurs de la colline d'Ueno par le grand dignitaire et moine érudit Tenkai de la secte bouddhique Tendai, le Kiyomizu Kannon-dō s'impose comme le plus ancien et admirable sanctuaire bouddhiste conservé dans son état d'origine au sein du parc d'Ueno. Conçu sous le règne des premiers shoguns Tokugawa pour servir de pendant septentrional prestigieux au mythique temple Kiyomizu-dera de Kyōto, l'édifice s'inspire directement de son illustre modèle en s'élevant sur une audacieuse terrasse en encorbellement de bois vermillon (butai) construite à flanc de falaise selon la technique traditionnelle kake-zukuri. Dédié à Senju Kannon, la divinité de la compassion infinie aux mille bras sculptée par le maître d'art sacré Eshin Sōzu au Xe siècle, le temple est également un haut lieu de ferveur pour Kosodate Kannon, protectrice bienveillante de la conception, de la maternité et des jeunes enfants. Ayant miraculeusement survécu aux guerres civiles, aux incendies périodiques et aux ravages des conflits modernes, ce joyau vermillon classé Bien culturel important d'État illustre avec majesté la volonté du pouvoir féodal d'Edo de transposer dans la nouvelle capitale guerrière les chefs-d'œuvre architecturaux et la sacralité raffinée de l'ancienne cour impériale de l'Ouest.",
     visiter: "La visite s'amorce par l'ascension de l'escalier de pierre menant au promontoire boisé, d'où la terrasse suspendue en charpente rouge vif offre une perspective aérienne splendide sur la plaine basse et l'étang de Shinobazu. C'est depuis cette estrade panoramique que le regard découvre le légendaire « Pin de la Lune » (Tsuki no Matsu), pin noir centenaire dont une branche a été méticuleusement guidée et courbée par les maîtres jardiniers pour former une boucle végétale circulaire parfaite encadrant le paysage lointain, motif rendu universellement célèbre par le maître de l'estampe Utagawa Hiroshige dans ses Cent vues d'Edo. En pénétrant sur le déambulatoire de bois patiné où résonne le son cristallin des cloches à vent et le tintement des prières, les visiteurs contemplent les impressionnantes étagères intérieures où sont délicatement alignées des centaines de poupées traditionnelles (ningyō) déposées par les mères de famille : chaque année en septembre, un office funéraire rituel (Ningyō Kuyō) y est solennellement célébré pour libérer avec gratitude les âmes de ces figurines ayant accompagné l'enfance. L'ambiance feutrée, imprégnée d'effluves d'encens et rythmée par le murmure des dévotions matinales, invite à une halte contemplative d'une rare élégance au carrefour des traditions bouddhiques et de l'art paysager japonais.",
     link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
@@ -10097,6 +10163,24 @@ const travelSpots = [
     lat: 35.712212,
     lng: 139.771554,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPqxozrsH7NIlNWgsolyYOLE5ZqiShmKhUWjQzYJ0q_d9FCmoMbH3n6ksPk0PD_662NJsyqa8OEgcmKxl8oSu1R7iYj-RtCeUXHlq6W1fBkDXsvJD6wKLeTD5TEmiwlIlP0U7WwF6IlPlVuY7W_jAQ2jQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOmUqyOntwLwls9b_wpEugRyHo3M_3KtO3m4AnUBTOqNJqDHYnEUWMxZhZnSokYerK_vX70WEPy7ZMcEPkOle2QFxwDB81L6VipoAw6BxN_T2IITiqkg15_LpEdewlCLVYSTI_Kmhsg2aImTUwWuyrwOA=w1741-h1161-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPhre5fpZO8eopM5OT4QR6Pnp0ER2J3eQNsfsg7Vaz2djhwlV3DpSijVyWoQ2240T0Jtq5sGuJ3XjKQVVeoTBUNi6CjUgPpzVg_kwquX7zWZoQDUiVzTK6_o64-qltA-TsmwTdvuYDIlbwq9aS2ip_AkA=w1741-h1310-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMvMwiuv2XNr5bq_NEBJEem4s2mSPHpCthSVzHOL0U8VQg6A9XkPUUuu7--5r6zRN2mQQ6WpSwZkzorRhg7memHMKoCieloXIqQMYdafy_tDS_LsNzjNS1vcNS5zemyR7RTIZi2q2ppvQPtfEiuX0wrUQ=w1741-h2311-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNIA04JRnsOsmvZ5gY9QhA0eZWsp7NOnaQfeQqkx0dL39YPcfea8NoIKBuDCvQOv3WAEqyxH70Fko2b5f9Q2tI2_8ZAEEVmA9i8lv8PMUCDDICi6b_YOb2O3NjtjcVdj23VAK_hHivaba7mnRxIwVfEsA=w1741-h2311-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Écrin lacustre spectaculaire et sanctuaire aquatique insulaire s'étendant sur plus de seize hectares au pied méridional de la colline d'Ueno, l'étang de Shinobazu (Shinobazu no Ike) forme l'un des paysages naturels et spirituels les plus emblématiques et poétiques de la capitale nippone. Façonné originellement à l'époque d'Edo par le moine Tenkai pour reproduire à l'échelle tokyoïte le cadre grandiose du lac Biwa et de l'île sacrée de Chikubu, l'étang abrite en son centre, sur une île artificielle reliée par des digues piétonnes, le splendide temple octogonal du Bentendō. Dédié à Benzaiten — divinité bouddhique majeure issue de la déesse védique Saraswati, patronne des arts, de la musique, des lettres, de la sagesse et des eaux vives —, le sanctuaire se singularise par sa somptueuse toiture octogonale aux auvents recourbés couverte de cuivre et ses façades richement parées d'ornements vermillon et d'or. Divisé en trois bassins distincts — l'étang aux lotus tapissé de feuilles gigantesques, l'étang aux barques récréatif et le sanctuaire ornithologique des cormorans —, le site déploie un contraste saisissant entre la luxuriance végétale aquatique et les silhouettes verticales des gratte-ciel modernes ceinturant le quartier d'Ueno.",
     visiter: "La découverte s'amorce en empruntant la longue chaussée pavée bordée de lanternes en pierre et de saules pleureurs qui s'élance sur les eaux pour atteindre l'île centrale du Bentendō. Dès l'entrée sur le terre-plein sacré, le visiteur remarque d'étonnants monuments votifs en bronze et en pierre sculptée érigés par les corporations tokyoïtes en hommage aux êtres vivants sacrifiés pour la subsistance humaine, tels que le monument aux poissons, aux lunettes ou aux instruments de musique. En pénétrant sous la rotonde du pavillon baignée par les lueurs dorées des veilleuses et les volutes d'encens, on peut contempler la statue sacrée de Benzaiten représentée avec ses huit bras armés d'attributs célestes veillant sur la fortune des dévots. Durant les mois d'été, l'étang offre un spectacle visuel d'une féerie sans pareille : des milliers de fleurs de lotus d'un rose immaculé émergent au-dessus de feuilles gigantesques couvrant entièrement la nappe d'eau, ouvrant leurs corolles aux premières lueurs de l'aube dans un parfum délicat. La promenade se prolonge le long des berges aménagées où les citadins canotent en barques traditionnelles au milieu des reflets miroitants des gratte-ciel, offrant une respiration bucolique et spirituelle incontournable.",
     link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
@@ -10143,8 +10227,22 @@ const travelSpots = [
     century: "XIVe siècle",
     category: "religieux",
     lat: 35.657404,
-    lng: 139.748640,
+    lng: 139.74864,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPO935T49ThYlBQYOTYydf6bJ3lZBaxNSnEoki713gqOvMrqWVX_CszM3VpBB7DJLtv4x4BuuclVtWNXpaq5E8DBnfK_LLMp_JPkmO-YPHDbyXWMOg_lji2EJE8FkYSSc2iF-_sFwD-eXABKXxMAHHclg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPa2NQmvHKzNemR7GpOfyb-OeGPeq78l8Rgk9hQvSJgV-48oIr_0D1b-U2i9UETO0DwVmK7jeNh7ht6rr1ld9tbdJ-i5rrcGQKJ8VhCVvOF4xqPZxIK-lGlVdIHf56lDuDX705SR1HEzYIoZnWYkYqFcQ=w1741-h1161-s-no-gm?authuser=0",
+        caption: "Le sanctuaire est mondialement renommé pour son alignement saisissant de centaines de petites statuettes de pierre, les Sentai Jizō (千体地蔵, les « Mille Jizō »), disposées en rangs serrés sur les terrasses bordant le flanc droit de l'enceinte. Invoqué sous la figure de Kosodate Jizō, le bodhisattva Jizō incarne le protecteur bienveillant des enfants et des âmes des tout-petits disparus avant de naître ou morts prématurément, guidant leurs pas dans les limbes selon le rituel du mizuko kuyō.\n\nChaque effigie de pierre est affectueusement vêtue par les familles d'un petit bonnet de laine tricoté et d'un bavoir écarlate, le rouge étant une couleur tutélaire réputée chasser les maladies et les mauvais esprits. Aux côtés de ces statues sont piqués de petits moulins à vent en plastique bariolés (kazaguruma) qui tournoient sans cesse au gré de la brise : leur mouvement perpétuel symbolise le cycle du souffle de la vie, apaisant les âmes enfantines et offrant aux parents un poignant témoignage d'amour, de recueillement et de deuil apaisé."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMGFzWd52zHOnnj3jfSNMdQ_e58KBI9XYcoM1VA0AdkghCQIN2sCSeXtmJmHJE2c0I8tU3ob0c6JcDmik0L0eAE8yrTanmjxH6muzsoaQmSba_Ean8KxVX4HWB5dOrQIfRuT1Zmijf853kK7HyDBcqPGg=w1741-h1310-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMk6Wr_EzmeYkjvQzQYImz-zunukK3SNn3iJzUpmORyUBdbn1hFWhSqG-jz_h_s7fwR_0qvmySBDvO72BkuHwem9aSpw9L8kqzjtTgHO5IMDn6eeI5fsJTeOuh9w3DPpVCEqrn3WBHZt_trmMKk9TAPmQ=w1741-h1310-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Édifié originellement en 1393 par l'école bouddhique Jōdo-shū (secte de la Terre Pure) et transféré à son emplacement actuel en 1598 par le grand unificateur Tokugawa Ieyasu qui en fit le temple funéraire et tutélaire attitré de sa dynastie shogunale, le Zōjō-ji s'impose comme l'un des sanctuaires les plus monumentaux, historiques et solennels de Tokyo. À son apogée sous l'époque d'Edo, cet immense complexe monastique s'étendait sur des centaines d'hectares, abritant plus de quarante-huit temples annexes et logeant jusqu'à trois mille moines étudiants chargés de prier pour la pérennité du gouvernement shogunal. Le site conserve en son sein le prestigieux mausolée funéraire abritant les tombes et cénotaphes monumentaux de six des quinze shoguns Tokugawa, de leurs épouses et de princes héritiers impériaux. Échappant miraculeusement aux incendies et aux bombardements alliés de 1945 qui détruisirent la majeure partie des nefs en bois, sa gigantesque porte d'entrée principale Sangedatsumon, construite en 1622 en bois de cèdre laqué de rouge vermillon, constitue la plus ancienne structure d'époque d'Edo préservée dans tout Tokyo. Aujourd'hui, le temple offre une confrontation architecturale saisissante et mondialement célèbre, où la majesté austère des toitures bouddhiques centenaires se découpe directement au pied de la silhouette rouge et blanche futuriste de la Tour de Tokyo.",
     visiter: "La découverte débute par le franchissement vertigineux de la porte Sangedatsumon haute de plus de vingt et un mètres, chef-d'œuvre classé Bien culturel important d'État dont le franchissement est réputé purifier rituellement le visiteur des trois poisons de l'âme bouddhique : l'avidité, la colère et l'ignorance. En s'avançant sur la gigantesque esplanade dallée s'étirant vers le Daibonsho (la grande cloche de bronze coulée en 1673 pesant plus de quinze tonnes), le regard est saisi par le contraste visuel étourdissant entre le grand pavillon de prière Daiden aux toitures d'ardoise massives et l'armature métallique élancée de la Tour de Tokyo dressée juste à l'arrière. L'exploration se prolonge avec émotion le long du jardin latéral des enfants jizō (Sentai Kosodate Jizō) : des centaines de statuettes de pierre émouvantes, coiffées de bonnets de laine rouge tricotés à la main et portant de petits moulins à vent multicolores qui tournoient dans la brise, y sont veillées par les familles en hommage aux âmes des enfants disparus ou non nés. Une visite du musée du trésor en sous-sol permet d'admirer les maquettes minutieuses en bronze et laque du mausolée du deuxième shogun Hidetada ainsi que de superbes rouleaux enluminés, avant de se recueillir devant l'austère cimetière royal des Tokugawa abrité derrière d'imposantes portes de bronze armoriées du blason aux trois feuilles de mauve.",
     link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
@@ -10169,7 +10267,52 @@ const travelSpots = [
     unesco_name: "L'Œuvre architecturale de Le Corbusier, une contribution exceptionnelle au Mouvement Moderne",
     lat: 35.715176,
     lng: 139.775492,
-    image: "https://lh3.googleusercontent.com/pw/AP1GczNoPyfUJ_MTflm0r7tKiA9mVizblTc6_i06Bsjv5zH_S_PEJ6DNm5Hfn6g0oPav_acPGtlGGvZBB_xr8ddDVXpUj0Zx-ghtkcnNXdeElxkMu6D78ptwwgsMIqARLcOP8EPQ4J59yaHUQcYHQZtOu2T07g=w1221-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMXAQAIQdG4h0Lgb_fi3Babd5LdmGvr-XvTWoU4RDKGFQOrW1Nz6CVBobOJfRU2y0PCSh3ipTjjehesxwwDc6hbfvIobbqTaZyTTf5mPrcGG_yaIBZAHU7Sod8n5wW7BRVfTMISRC6AhUTniRR28uMklA=w1741-h1310-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOnCBZ-VMnCcelHjqyJW4Wy7VSKrO-A2XhLNNXLTlrvxEvUOVTyQexAdL1-PYhtA9C6nm6D0jkgAG82jBlQ79xxdBDbse-xctp8obl0XhvD1sCMsdHcakNUbqqGiqFdHWvdFKpiqjFaNqd-GwZZZ9iJRg=w1741-h2311-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOT1h0FX2f6HXujxg7LLMDz2GzXSWh-badqfghfnuvlRkIvQr_mufW67NM-pvlFvjeyzpOo2nMsCLsER8NJQrr2XayxY06nFKaETmjBp7lJCDzfTEOgmPST5rfmG1cfrA1uu4O5pPReZjZMxWmufgiRhQ=w1741-h2313-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMsy3P_CphV0zvo25Uda3WHnW_kezGGDzejRJ9If4NKyzWa2UqclvM5aDucLeX09H9tVwG39v3w7AaAldFuhEYpo3qzoBZCnk0MpuaGMemT0zs-hPTNP_bz4jwyEQACN49rvI5uL0-OHGrgs9w_No4wGA=w1741-h2311-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNKjtaMBz_LH-yVY-0u0Es8vkvWFXkAAVitJ7NPzJAjJTk3QSlQND_-mtg1BnK0tQgaeabOeaO-iLK7tD-GKM1hXV9R2WK4bwkl-x2Js3v49lvG0lQ0bJo_8wz8S7ce6OIVuhOzWGsXP7Kw-UTUd7wiTQ=w1741-h2311-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNp57enKObUzk2lJwMtC48Yxpv___avoYi6aGyr_9S-s0ao2D4Yea-0XglpcYMVlfr66on9WQqNyW006Jh9-Omr3qmxaXC-GfrGSWBm8PF30fxdYZBHPfve2639eRXROeJKHqeJ5u8lgT0vs8MjHjtfNA=w1741-h2311-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPx-7Lf5U4i8KR1lVCNMn52M3ku5nHrPUb-m_6_Plsm-Pi8VXwpznLeK-N-bO7LfQ0XrRlyPVCz-WB3_STpI7tayISBvUSrONETuSgQGEdxwqkmaI3gH_6xNGyx6ByKquf79JSu9Y4PY6Imwn0W31WshQ=w1741-h2311-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN09IdSXtL7qxb2ZEqa9-QhRfTJQawBuz-CEgyZaZuCtYJW1ultcLfYGEJSW3hRePB9Um6Bq8z0pQn0lT4LJ7IZPMxSofbxpXB5yNAvxtFtqkF3Ym6Xkor3CYelAOB0VPru2G-MA0yrDNdjnXMjVfEpew=w1741-h2311-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM60fERDvhkg9jc5x61g5CVpTy-eufdjMy_UPlYYq2--q8HAodB-b8t81gvoAsY0sdqFTnYSrHHcOz5aWNDAdH5RNyFAdQ-R1CIt7mGVN4JYAcNykcvL2tcckVgcXjGMBaWyP4MNaEJs9JyBgVhqfgeog=w1741-h1310-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN4eYwrE9kpt1Ytd5pGNdzoIPaolFIMW9miina0tfIb3POAp7iYS_5OWNLN-O0sOArErBn3ZhCmjRxKZ1Drz6JB0jAkOkJ2p57UXyZm6d-BINVXcLcsPjJOihGsZfyMXcgLkF2ShN7-gA8IqQxnAl_ekg=w1741-h2311-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNTPUobxEdQ_dJP5XxPJcTMU2YUyvwc5k40XyWLT-COmmNzayqu-XJt4obOSaeSgVtS597fxrpM8yXKOFOxacVYjWU4A3zbWcytTx98qyaaMMMAqo5Wi7ZSH54x9lGiwQ3eUbhJAD0RZrk67EUY495u0Q=w1741-h1233-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Fleuron muséographique international et unique accomplissement architectural du maître moderniste franco-suisse Le Corbusier en Extrême-Orient, le Musée National de l'Art Occidental (NMWA) s'élève fièrement sur l'esplanade culturelle du parc d'Ueno. Conçu à la fin des années 1950 et inauguré en juin 1959 pour abriter la fabuleuse collection de l'industriel nippon Kōjirō Matsukata restituée par la France après la guerre, le bâtiment principal matérialise avec une rigueur magistrale le concept théorique cher à Le Corbusier de « musée à croissance illimitée ». Édifié en béton brut bouchardé et reposant sur un socle de pilotis puissants qui libèrent l'espace au sol, l'édifice s'articule autour d'une monumentale salle centrale à double hauteur coiffée d'une verrière zénithale prismatique éclairant une rampe hélicoïdale descendante. Inscrit sur la prestigieuse liste du patrimoine mondial de l'UNESCO au titre de « L'Œuvre architecturale de Le Corbusier, une contribution exceptionnelle au Mouvement Moderne », ce sanctuaire artistique abrite la plus riche collection d'art occidental d'Asie, déployant des chefs-d'œuvre inestimables de la Renaissance jusqu'au début du XXe siècle, de Véronèse et Rubens jusqu'à Monet, Renoir, Van Gogh, Cézanne et Picasso.",
     visiter: "La découverte s'amorce dès la vaste cour extérieure pavée à ciel ouvert, véritable jardin de sculptures monumentales en bronze où les visiteurs peuvent admirer en accès libre des fontes originales majeures d'Auguste Rodin telles que la colossale Porte de l'Enfer, Le Penseur en position méditative sur son rocher ou Les Bourgeois de Calais, entourées de bronzes d'Antoine Bourdelle. En pénétrant dans le hall d'accueil du rez-de-chaussée, le regard s'élève vers l'impressionnante mezzanine polygonale baignée d'une douce lumière naturelle filtrée par les lanterneaux pyramidaux du plafond, illustrant à merveille le système modulaire proportionnel du Modulor développé par l'architecte. L'itinéraire muséographique s'élève par la rampe intérieure vers les galeries d'exposition où les œuvres dialoguent avec les ouvertures oblongues et les textures minérales du béton d'origine : les toiles lumineuses des Nymphéas de Claude Monet côtoient les chefs-d'œuvre de Delacroix, Courbet, Manet et Degas dans une muséographie épurée de rang mondial. Une extension harmonieuse conçue par ses élèves japonais Kunio Maekawa et Junzō Sakakura prolonge la visite vers les collections d'art contemporain et les expositions temporaires, faisant de cette étape un dialogue culturel et architectural universel d'une intensité rare entre l'Occident et l'archipel nippon.",
     link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
@@ -10196,7 +10339,34 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczNcJ07ILKViD4JVd3ResfVrRifn97BFtLgYjJJtdCT1Vk13Y5rvU_oRaVBAby1oR-b-4N5kgqZvZPKrRQtsuGVFF3n8asQFB3C8zM39LdV_6jYRHv2k0Z_A-RwBb1Y019ve3-86klb39p2jvrefTCftiA=w1221-h919-s-no-gm?authuser=0",
     description: "Doyen des institutions scientifiques et temple absolu de la recherche naturaliste au Japon, le Musée National de la Nature et des Sciences (Kahaku) déploie ses imposantes ailes d'exposition à la lisière nord-est du parc d'Ueno depuis sa fondation en 1877 durant les grandes réformes de l'ère Meiji. Son édifice historique central, baptisé Pavillon du Japon et parachevé en 1931 dans un noble style néo-Renaissance coiffé d'un dôme majestueux et agencé selon la silhouette symbolique d'un aéroplane vu du ciel, est classé Bien culturel important d'État pour son exceptionnelle valeur patrimoniale et architecturale. Conservant plus de quatre millions et demi de spécimens zoologiques, botaniques, géologiques et technologiques, l'établissement retrace l'histoire millénaire de l'archipel nippon, la genèse de sa faune endémique façonnée par les glaciations insulaires et l'aventure humaine des premiers chasseurs-cueilleurs de la période Jōmon jusqu'aux pionniers de l'industrie moderne. Adossé à cet écrin ancien, le vaste Pavillon Global contemporain propose une immersion spectaculaire dans l'arbre du vivant universel, l'évolution cosmique des espèces terrestres et les lois fondamentales de la physique, s'imposant comme le phare intellectuel et éducatif le plus prestigieux d'Asie dans le domaine des sciences de la Terre.",
     visiter: "La découverte commence devant l'esplanade extérieure accueillant deux emblèmes monumentaux de la science nippone : une spectaculaire reproduction grandeur nature d'une baleine bleue de trente mètres semblant plonger dans le sol et la locomotive à vapeur historique D51 qui tractait autrefois les convois à travers les montagnes du pays. En pénétrant dans le hall d'honneur du Pavillon du Japon, le regard est ébloui par la grande rotonde sous coupole sertie de vitraux néo-classiques et d'escaliers de marbre blanc, avant d'arpenter les galeries dédiées aux richesses naturelles de l'archipel : on y contemple les squelettes montés du célèbre plésiosaure Futabasaurus découvert au Japon, des spécimens naturalisés du loup d'Honshū aujourd'hui éteint, ainsi que la dépouille naturalisée émouvante du légendaire chien Hachikō, symbole national de fidélité absolue. Le passage vers le Pavillon Global entraîne le voyageur au cœur d'une forêt minérale de squelettes géants de dinosaures (Tyrannosaurus, Triceratops), complétée par la spectaculaire galerie de la biodiversité animale où des centaines de mammifères naturalisés défilent en procession sous les projecteurs. L'expérience immersive culmine au cinéma circulaire 360 Theatre, où les spectateurs avancent sur une passerelle suspendue au centre d'une sphère vidéo totale pour un voyage vertigineux à travers les fonds marins préhistoriques et les origines de l'Univers.",
-    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA",
+    sections: [
+      {
+        title: "Collections naturalistes et histoire géologique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNWWqQFv_POjbuJthiNl5xt330_DjqOYDz9H6--Foyy68Kc5QlRueYLMy1PVp5Ik_win2GGVmZIVPruJBsWz2mofgtRTCVFtfpdGF2i3hcSAcpMy5l_1Mo7fv3_zIhOj2x_uLlbF9VgoaY52MfZ_FmY4g=w1741-h1310-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMhoPbdH1fF7U92JMSLyELw71LaP5-J87AtKtuu7VUMySNPRoB0A288yct1NIf_-8gw7-yTWA90wwtpACGLeT-hI_hAKb9ZV1vl-JXRcaOFh9slT3z7LX-3ZbEmOv47Yw_lKe5T8ClpyLzGRqmg-cqSKQ=w1741-h1310-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO2wlIF2wNKDiDJBzHB7qS1-yEJUAmkjrUUkOh_xzk8fysTSYuyVigLmNdIl94NBR8SvgrCkOVfvY4nwyTrjat-EcH4Pn7kSpZwATPxALAKo3-McxCHtWAZPsaIK3Zn9-a1wnxKgPXzLqwg_yfk30GRDQ=w1741-h1310-s-no-gm?authuser=0"
+        ],
+        text: "Les galeries permanentes déploient une collection foisonnante de plusieurs millions de spécimens retraçant la formation géologique de l'archipel, la biodiversité mondiale et l'histoire des innovations humaines."
+      },
+      {
+        title: "Paléontologie et dinosaures de l'archipel",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNcJ07ILKViD4JVd3ResfVrRifn97BFtLgYjJJtdCT1Vk13Y5rvU_oRaVBAby1oR-b-4N5kgqZvZPKrRQtsuGVFF3n8asQFB3C8zM39LdV_6jYRHv2k0Z_A-RwBb1Y019ve3-86klb39p2jvrefTCftiA=w1741-h1310-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNnHQDCj8GueJ0ViIomrJ3cwEbzDqAlfSG64V-ibQx-YhwbQg3E4B11Rgf5iQwDaAn2IkkSykeZ3Hh-z3HgxXSABTtqkEInjy-ZWacVbt9XoCS7f9nn-0nsgsl7n4sEcyh82DE7Yv6GtI0i1WYFLUVykA=w1741-h1310-s-no-gm?authuser=0"
+        ],
+        text: "Au rayon de la paléontologie brille le fossile original du Futabasaurus suzukii, un gigantesque reptile marin plésiosaure découvert dans la préfecture de Fukushima, complété par une remarquable nef consacrée aux squelettes de dinosaures montés en postures dynamiques."
+      },
+      {
+        title: "Reliques mémorielles : Hachikō et Jirō",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPGL2aZDGG-B2X3_fyUoZYuaeTxlP2cH6BK4L8lkiR_Q-kaPubgz2eAzizS4b8KZMdQTyTWQ7sscDPV3ob7OtwegqBEIOM_-Oe1koAZNQ8MFja69K_R8tccfJ-se21MwyQNvYsJO9Rklr1F9uzchludOA=w1741-h1310-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP3vzXjfIVV5XfTtI4z655iKIi09VmMli4IZFNj7-2FWRfPiSiF3uqUBm90XtA21yL24R3avdt2Ih4ozInresvb0asAGl7gAmAcO8nyprUjrQFZdmwzqNFZ_TWQ0m9sST8ZLMC6RH9LGdFmPu8g0_q0-w=w1741-h1310-s-no-gm?authuser=0"
+        ],
+        text: "Le musée conserve également des pièces naturalisées d'une haute valeur mémorielle pour le peuple japonais, au premier rang desquelles figure la dépouille du fidèle chien Hachikō, symbole national de dévouement dont la statue orne le carrefour de Shibuya, ainsi que celle de Jirō, le chien d'attelage ayant survécu à un hiver polaire d'abandon lors d'une expédition antarctique en 1958."
+      }
+    ]
   },
   {
     id: "tokyo_takeshita_street_harajuku",
