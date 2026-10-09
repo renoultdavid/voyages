@@ -12135,18 +12135,227 @@ const travelSpots = [
     subdiv: "Louxor",
     altitude: 105,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe & XIXe dynasties)",
     century: "Antiquité (XVe siècle av. J.-C. à XIIIe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Thèbes antique et sa nécropole",
+    unesco_name: "Thèbes antique et sa nécropole",
+    counts: {},
     lat: 25.7312,
     lng: 32.6078,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOd_OJdWviNds-jAvYJQ6fOhmKABb5wTUSd9reedexFYosDX5eY63EFb8fkeLgVl0Ober_ixxcpyNw1zN2k1O96-TbklhDfSl6jpwbssv48dg99Uwvi64lsSsixAe6N0JndHpYca3D7NODIEZ4l02REZw=w2624-h1750-s-no-gm?authuser=0",
-    description: "Adossée aux falaises calcaires de la montagne thébaine sur la rive occidentale du Nil, la nécropole des Nobles déploie un ensemble funéraire exceptionnel où reposent les dignitaires, vizirs, scribes, généraux et hauts courtisans de l'âge d'or pharaonique. À l'opposé des hypogées royaux consacrés aux liturgies célestes de l'au-delà, ces sépulcres creusés à flanc de colline constituent la chronique vivante et éclatante de la civilisation égyptienne au Nouvel Empire. Éparpillées sur les secteurs historiques de Cheikh Abd el-Gourna, d'El-Khokha et d'Assassif, des centaines de chapelles rupestres s'ornent de fresques murales d'une fraîcheur prodigieuse dépeignant avec une liberté de ton et une virtuosité technique saisissantes le quotidien de l'élite thébaine. Les scènes de banquets fastueux aux danseuses graciles côtoient les travaux des champs, les vendanges dans les treilles verdoyantes, les chasses au vol dans les marais de papyrus et la réception solennelle des tributs étrangers venus d'Asie et de Nubie. Baignée par une luminosité dorée surplombant la bande fertile du fleuve, cette colline sacrée livre un témoignage d'une humanité bouleversante sur les joies terrestres et les espoirs d'éternité des grands serviteurs de pharaon.",
+    description: "Adossée aux contreforts calcaires de la montagne thébaine sur la rive occidentale du Nil, la nécropole des Nobles déploie un ensemble funéraire exceptionnel où reposent les dignitaires, vizirs, scribes, généraux et intendants du Nouvel Empire.\n\nÀ l'opposé des hypogées royaux consacrés aux liturgies célestes et aux périples nocturnes du soleil, ces sépulcres creusés à flanc de colline constituent la chronique vivante de la civilisation pharaonique à son apogée.\n\nÉparpillées sur les secteurs historiques de Cheikh Abd el-Gourna, d'El-Khokha et d'Assassif, des centaines de chapelles rupestres s'ornent de reliefs et de peintures murales d'une fraîcheur prodigieuse dépeignant le quotidien de l'élite thébaine.\n\nLes scènes de banquets fastueux aux danseuses graciles côtoient les travaux des champs, les vendanges dans les treilles verdoyantes, les chasses au vol dans les marais de papyrus et la réception solennelle des tributs étrangers venus d'Asie et de Nubie.\n\nCe patrimoine inestimable offre un témoignage d'une humanité bouleversante sur les joies terrestres, la gestion administrative de l'empire et les espoirs d'éternité des grands serviteurs de pharaon.",
     visiter: "La découverte de cette nécropole s'organise par groupes de sépultures emblématiques disséminées le long des sentiers étagés montant vers Cheikh Abd el-Gourna, offrant en chemin de sublimes échappées panoramiques sur le temple de Hatchepsout et la plaine nilotique. Parmi les joyaux incontournables, la tombe de Nakht (TT52), astronome et scribe d'Amon, émerveille par sa palette chromatique intacte et sa célèbre fresque des trois musiciennes, tandis que celle de Menna (TT69), scribe cadastral, dévoile de minutieuses scènes de récolte de blé et de pesée de l'âme. La tombe inachevée de Ramose (TT55), gouverneur de Thèbes sous Akhenaton, impressionne par l'extrême finesse de ses reliefs sur calcaire blanc marquant la transition stylistique amarnienne, complétée par l'hypogée de Sennefer (TT96), dit la tombe des vignes, dont la voûte ondulée simule une tonnelle de grappes de raisin suspendues au-dessus du défunt. La marche à travers les venelles de terre battue entre les façades de torchis de l'ancien village invite à une immersion intime et émouvante dans l'art pictural pharaonique, loin des flux massifs des grands axes touristiques.",
-    link: "https://photos.google.com/share/AF1QipNMD4tIHiypU_Je6aTW4w1lxzlW9xN-c97qbaIxsMc77dVfxLJcxci3czd2Scm65Q?key=Sk1lZzB1by1WbnpGVDVWODVWYlRoLW5uUjllNk1B"
+    link: "https://photos.google.com/share/AF1QipNMD4tIHiypU_Je6aTW4w1lxzlW9xN-c97qbaIxsMc77dVfxLJcxci3czd2Scm65Q?key=Sk1lZzB1by1WbnpGVDVWODVWYlRoLW5uUjllNk1B",
+    sections: [
+      {
+        title: "Pillages anciens et pionniers de l'égyptologie",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOYcmezIM3NOQhZABnob1DYqtIaFM_JtBirUeemYBT7E33yx41wb_tSy0aOWsiETd4PpLSfS-9bweUP9Kh2zM3K93pc2YTo0yYiNQlf8tp30Na39ToqRfBBee2Mk_r_uq1T66q6P7zmn-XeymL_3py66g=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOOVHYo3UfVu3VSYyENtMHAhHfXrkMDT4vjnzYkeFqyG4UO02nZnINTuIivrUY3UkBbqfTj0QdIgX5-tf-zE5y9SWjpfWEnrvZOWBTCnhBGzxc8V8njtzZBv4Htyljxu88LxWE12b8O3e9BLg96iH5gcg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Dès l'Antiquité, les tombes de la Vallée des Rois et des Reines ont été la cible de nombreux pillages. À l'époque moderne, l'intérêt pour ces lieux a été ravivé par les récits de voyageurs et d'antiquaires. Au XVIIIe siècle, des explorateurs comme le jésuite français Claude Sicard et le pasteur anglais Richard Pococke sont parmi les premiers à décrire les tombes. C'est le début d'une période de « chasse aux antiquités », où les découvertes sont souvent motivées par la recherche de trésors.\n\nLe tournant majeur s'opère avec l'arrivée des égyptologues systématiques, qui cessent de se contenter de piller pour se concentrer sur l'étude des sites. Des figures comme Giovanni Belzoni au début du XIXe siècle, puis Auguste Mariette et Gaston Maspero, ont commencé à documenter les tombes de manière plus méthodique, jetant les bases de l'égyptologie moderne."
+      },
+      {
+        title: "La sépulture du vizir Ramosé (TT55)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMMcXHtyWdtLiuDHIWp6jrGhIcqCgLQVb0SfBgyyqoA0lAl8fVQq-Dx-JUjYuooFgHHVE0R9mjZhIlh4D3-ws0xrBeUCvGi7RwqcDhyFI0OkZozz4TRHQ7Q8w4eqzqXyG0xA5l7R03qj92DcUe_o_zLVQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNkD0zURww1tzVnvuhn7ds-1-DJlEQ3Azw-frxcEymO8CTsG2J1XupwPCGgCLG9GcR_gquBvXADp9Ern92i-xma9J9mtM1q6JhUbeb4ItzKPkWt9Y48OiNREzDK5HsKZMGAiUdgbg0aBc0D-PdZJ0Wmbg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La tombe de Ramosé (TT55) est un chef-d'œuvre de la Vallée des Nobles, qui se distingue par l'élégance de ses reliefs et le témoignage unique qu'elle apporte sur une période charnière de l'histoire égyptienne, le passage entre le règne d'Aménophis III et la révolution religieuse d'Akhenaton.\n\nRamosé était un homme de haut rang, vizir de Haute-Égypte et gouverneur de Thèbes sous les règnes successifs d'Aménophis III et de son fils, le futur Akhenaton. Sa carrière, à la croisée de ces deux époques, est illustrée de manière saisissante dans sa tombe. Bien qu'il ait commencé les travaux sous le règne de l'un, il les a continués sous celui de l'autre, ce qui explique la coexistence de deux styles artistiques différents dans une même sépulture. Située dans le quartier de Cheikh Abd el-Gournah, la tombe est un hypogée (tombe souterraine) qui se compose d'une vaste cour extérieure et d'une seule salle hypostyle décorée, soutenue par 32 colonnes. C'est dans cette salle, la seule accessible, que se trouvent les décorations les plus remarquables."
+      },
+      {
+        title: "La rupture amarnienne et le culte d'Aton",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN_8DeQeCoRk55XxdEN83kOivzLL4r_DPeoFskaDzcyk-Qxxv8OVQ5VWaYOfSq04W7-4-TYxZK2LeXUHxvYBWL0h_RrFQHQAwvhLrRiGGXhy7lDna4GxuEtwjuEa4nQXMH3ZZuUBa8n7vLFSHvgyGgoEg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO90SYpL6z9Wx958PU9SLz-nWWpvh9ggJfXAAxaJwegrBxQ7Hn78Ft_t6QRBfuIYXdyyRi3KX8yXf6KAB7zr9bcwjmsseYYT2uaJhZNqQ6UGKRyZF4JaOMaZbrlgAyKAxKxQ3OmQACbfkZJVPGNPwg2Sg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Les reliefs et les peintures de la tombe de Ramosé sont d'une finesse et d'une qualité exceptionnelles, et ils illustrent parfaitement la transition artistique de la XVIIIe dynastie. Un mur de la tombe présente un style radicalement différent, le style amarnien, caractéristique du règne d'Akhenaton. Sur ce mur, les reliefs sont inachevés, et l'on peut encore voir les tracés préparatoires. La scène représente le pharaon Aménophis IV (le futur Akhenaton) assis, ainsi que Ramosé recevant les honneurs de délégations étrangères. Le changement de style est évident : les personnages sont représentés de manière plus naturaliste, avec des traits allongés, des silhouettes déformées et un réalisme plus « imparfait » que dans l'art traditionnel, reflétant la nouvelle idéologie religieuse du roi. Au-dessus de la scène, on voit les rayons du disque solaire Aton, qui était le nouveau dieu unique promu par Akhenaton."
+      },
+      {
+        title: "Classicisme thébain et banquet de Méry-Ptah",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOoDumxGQeznUYKpYTW6gBZPeyLTH1BcDxuhw14hLCLwtmDg_5VwXZ308z5F7bV5BV5zaeJEaK3hDmEv7E2MF2w0DiX8GmvOD9F7Ks_eqHHKYWqf4aTuHm2-gQ4WXoaL2LI27MQGK_Fy22cGSO_Y_APAw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPH2i3wgfMIi5-m6_-slDILphn8KGNKXU7roM-iLBUD-wJIwVQSWvEKtuTcp-KmQ1utM4Br8je6xUHYUyMk5pGj1A6mJSDu7GtEV4WdDDmwwlHuT2ga99IZd4YzDVHoHco4BLpsiNrP-eoy0xKzcro7Og=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La majeure partie de la tombe est décorée dans le style traditionnel d'Aménophis III. On y trouve des scènes funéraires et rituelles d'une grande élégance, caractérisées par des reliefs très fins et un rendu réaliste. On peut y voir Ramosé et sa femme Méry-Ptah, ainsi que les membres de leur famille et des amis participant à un banquet funéraire. Les scènes de la procession funéraire sont particulièrement célèbres, avec des pleureuses professionnelles se jetant de la poussière sur la tête en signe de deuil, des porteurs d'offrandes et des prêtres."
+      },
+      {
+        title: "Le rôle rituel des pleureuses professionnelles",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPYvWjItRsaTFw9oV9_KCmQcctQ1KYzew67xp02cNaK2dngR8t3H7F_LzNMXBPeavxH_l0MkjcpvkhKQbDA_f3fjD0K7lGPymyNdFrShcNXMYx8N8Rp2YLXNp4NshncA5ee11LJ5Mt4s2KSLYhuEQ8qKA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO-a_01HEg7Dhn2OzkLO-vdnlUz9aSyko3GdIvmWm59mQvBc6kRHPDhEdxSsBH7v6OYOvnZBEFq_IJBoiGAXeuRw7_r2I_a2JXoN-EMYa3aZ7sMvK7oD_H9AMqiAIpP8wj94KJf0Ea-0ecVNpv-jCpYQw=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNTneXlCSUHvIhnKx_8y1-yPfuS98sIlHhZ5SaVVbvGLhCAtN0lrmduTAidt4NU8hTE9OH85Wp4zMDg-e_Bcz8KLrDlvDI4U9P0as06jKwILx2bruqRrBm3ZwkMIn462s92bMgphFkbT7-RirIRk99jcA=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Dans l'Égypte antique, les pleureuses professionnelles, appelées les pleureuses de la douleur ou les pleureuses du deuil, jouaient un rôle essentiel dans les rituels funéraires. Elles étaient des femmes recrutées pour accompagner la procession funéraire, et leur rôle était à la fois symbolique et théâtral.\n\nLeur principale fonction était d'exprimer et de manifester publiquement le deuil, une étape cruciale pour l'âme du défunt. Leurs actions visaient à inciter l'entourage du défunt à exprimer sa propre douleur, mais aussi à aider à la transition du défunt vers l'au-delà."
+      },
+      {
+        title: "Incarnation du deuil d'Isis et passage vers l'au-delà",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczONvzdFyh-g9ckYnAV67txCKw62MmNQe7G3uSx3vWJgixqSzIJCCsBviuRNcoMsDyEfLfBZGraXXj63jm2nk9BgXxUR-qZuvgfTOAFQ5JGHp6zT6o-3-ZeTinHjh-h7GFeFsVS3pJ--oDlmF2QM-IBtHg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPs8onP0zFzPEz3QD9OYCVJUGKsu1OHjMyc-0vXRDS0B41VIykN-4jLRZ_MTa56ZExQAF1D4xPua6uRBzCpY_g_yjd1S5eYhjZEsWhjj_HjSfJvlWFN7lIgTDp0Blto_Yx2WLJ2mqBUuuoJP29rkvbp4A=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN9vF2aVvHR5hXV1uGEnzm8ePQdHIfoFgiSGWQWFZcYHGU3TrLraSAC44OOgOE1BEmGZRK_9-qdhdZQpMKo6kwjo47QcZHxeCZ1ejivdoCfH4sJLeAEN80Y77OMP357C2wmEydJrOIRyTeWYsdR_KWO8A=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Au cours des processions, les pleureuses professionnelles se couvraient les cheveux de terre et de poussière, déchiraient leurs vêtements, se frappaient la poitrine et lançaient des lamentations et des cris de douleur. Elles agissaient comme des intermédiaires entre le monde des vivants et celui des morts. Leurs gestes extrêmes n'étaient pas seulement des signes de chagrin, ils avaient une valeur rituelle. En exprimant une douleur intense, elles incarnaient symboliquement la déesse Isis en deuil de son époux, Osiris, qui a été tué et démembré par son frère Seth. En ce sens, les pleureuses aidaient à ressusciter le défunt, tout comme Isis a aidé à ressusciter Osiris.\n\nCes pleureuses étaient un élément si important des funérailles qu'elles sont fréquemment représentées dans l'art funéraire, notamment sur les murs des tombes, comme dans la tombe de Ramosé à Thèbes, où l'on peut voir leurs silhouettes de deuil accompagnant la procession. Leur présence assurait au défunt un passage réussi vers le monde des morts et sa transformation en une entité divinisée."
+      },
+      {
+        title: "La tombe d'Ouserhat (TT56), scribe royal",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPlZdiZ1PxzNMnUYj6U9IW6PI5gZNALwmgqSTSdJ_CcyXk1lNaLScqVVZ6-ZQeEKO-46GCzRd35DXxc4qh1EELlCiSlTokdv7okRKj0jpc35J4WLVOM8V_gqKNdqaf_AYdRbe3lBzYvyOvbcoodnMWdKA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPnLbdbOCA-stO58i1gvfx74GNz1XWfoKXJbJlo3f4EXrOZrGheZOgLyZ0KHT6oON4IRwWCPvVJ44a4UlVqLEuvbvEPawtsApRrWAEsR8V9lIKGjWkyZSUGH2XnMNap2GY-xilAa6vK9R7Bj5wl7h7OMA=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La tombe d'Ouserhat, située dans la Vallée des Nobles à Cheikh Abd el-Gournah, est un des joyaux de la nécropole thébaine. Datée du règne d'Aménophis II (XVIIIe dynastie), cette sépulture est célèbre pour la vivacité et les couleurs éclatantes de ses scènes, qui offrent un aperçu unique du quotidien des anciens Égyptiens.\n\nOuserhat était un haut fonctionnaire du nom de « scribe royal » et « serviteur de la place de Vérité », un titre qui le liait directement aux travailleurs et aux artisans qui ont construit les tombes de la Vallée des Rois. Sa tombe, bien que de taille modeste, se distingue par la qualité et le réalisme de ses peintures, qui en font un document exceptionnel pour l'étude des mœurs de l'époque."
+      },
+      {
+        title: "Chasses marécageuses, banquets et moissons",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO8KnOvlB8tRTi27hjbohrpg4DLk9-VHVjCZeb9fo5PPmO_g6XF2srCXdD39HeXnQqO3fwN7Y8YXfJLUOq8Co0_9HgHE1jmH8ULRl-kMRL3f96j8_i8F7uZtfwyFdoeshQHX8U2p_-Qft4Zv2vAiHa7fw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPttJGtwNkLrp-gnN9Fozz9FOqy006Taa4mryhpdIvkp-NPPp5uVY09mrX8yUHO2zcBqcE7Ibm3VyWx6e63SwRKwXSdky0ntlVdB3fjlHWPbK55yZBfkHwKX3zCs3ZaEqpgSImz2F7OMhqteg6gb7Pi8g=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La tombe est surtout célèbre pour ses peintures qui ne se limitent pas aux rituels funéraires. Les murs sont couverts de scènes de la vie de tous les jours :\n- La chasse et la pêche : Une des fresques les plus célèbres montre Ouserhat en train de chasser des oiseaux dans les marais, avec des canards et des oies s'envolant des roseaux. Une autre le représente à la pêche au harpon, entouré de poissons et d'une faune marine richement détaillée. Ces scènes, au-delà de leur aspect ludique, sont des représentations symboliques du triomphe de l'ordre sur le chaos.\n- Le banquet funéraire : Une grande partie de la tombe est dédiée à la scène du banquet funéraire, où la famille d'Ouserhat est représentée en train de partager un repas. Les femmes et les hommes sont assis dans des chaises finement décorées, et des musiciens et des danseurs animent la scène. Les détails des vêtements, des perruques, et des instruments de musique sont d'une grande précision.\n- La récolte et le travail agricole : On y voit également des scènes de moisson et de labour, montrant l'abondance et la prospérité de la terre d'Égypte. Les agriculteurs sont représentés en pleine activité, récoltant les céréales et les fruits, un thème qui symbolise le renouveau et la fertilité."
+      },
+      {
+        title: "Offrandes d'Ouserhat et royaume d'Osiris",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN8K2AZsQUgy8qeJiugKN0St7bSJO1yFWjOIB12gabDF1HvJDmNritXD4yoI18O2dsfssXsG3I5CYXlCsflBgR-sXitwTE3rYGXrrfcyLfYfIh6mM2C3Wu3hNJTNiM1bHckOTxwqJLWEKugz_FPupRIFw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOCLZmX54uLCE7k2cgODsLQBEwVPqQvgwv1rst11-xgI4D_pq2ZItRl1fDrf6m5RzBPtcWCgtPbOYF_Doa34cGCSXEOFMqE31GKprpAyth9H1Th8GshGBnKcYhdovWODIxdf8WvlUNuIu2_srtf3W6OvQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Bien que la vie quotidienne soit mise en avant, le voyage vers l'au-delà n'est pas oublié. Une des scènes montre Ouserhat et son épouse offrant des sacrifices aux dieux pour s'assurer un passage réussi vers le royaume d'Osiris. Les reliefs du temple sont remarquables pour la fluidité des lignes et la vivacité des couleurs, ce qui rend la tombe de TT56 un document précieux et un exemple exceptionnel de l'art funéraire égyptien du Nouvel Empire."
+      },
+      {
+        title: "La tombe de Khaemhat (TT57), surveillant des greniers",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMEdQnd-WyALxmF3QDxv7TjiXOah2aAhPVfLV_FWukxekhLE32lhUqsIzuuTNIdbdKp0CQBUn1tpm0CHOWD_r7Vm86Jofq9XHknaXTH6NhlxViEpAd71HPiKrCvWEAub-7PRpf-yxy5SgF6pjBu3_11yg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNVy3IG8V8AYjDzmCs5gl_5z845KQR6nza4wraSaIoPbAp7dqB_UnJd5fKFL7m-VmNlAGuTEv3haS2FQu_qIIngyeVERXT94Tny3sQ-BVaoaO5hksYMKzvfJDCn1bOf19KksX31t40qlkyVKWH5axa2AQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La tombe de Khaemhat (TT57), située dans la Vallée des Nobles à Cheikh Abd el-Gournah, est un des joyaux de la XVIIIe dynastie. Datant du règne d'Aménophis III, elle se distingue par la qualité exceptionnelle de ses reliefs et la précision de ses scènes, qui en font un document historique de premier plan.\n\nKhaemhat était un haut fonctionnaire qui portait les titres de « Scribe royal » et de « Surveillant des greniers » d'Amon. Son rôle était essentiel dans l'administration de l'Égypte, car il était responsable de l'approvisionnement en céréales du temple d'Amon, une tâche vitale pour l'économie du pays. Sa tombe, bien que de taille modeste, reflète la richesse et l'influence de son propriétaire."
+      },
+      {
+        title: "Inspection des récoltes de blé et scènes agraires",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOY8FRRr0XiBBWTOrgT4zpQ61lCezHsCQbOHebhULCMwClCyzSqZ6VOUason9ksi9bUS0ZocHfClg6fUyHMCvMwTrgGLOLsjLsF9wYorU_qBLo4Cvakn2bsIJuNggW-966xOndhn5Ng-PS5dU1ks6gDUA=w1741-h2320-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMym9vJj1BZZG_OEf2HkpKy_HzbsX_VPH1zrIAD_ABI9J8-QNhWYSY_P9k1XXVnBPbYUqNnU9VP9q1PgrQq3Vs4nUk2x81BAhqXXwmYn7VBpV8lekEcBJuVcs-r2Gp_QK7NBe49zkA_ae4ph3yT7Uhhlg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Les reliefs de la tombe de Khaemhat sont d'une finesse et d'un réalisme remarquables, et ils couvrent un large éventail de sujets, de la vie quotidienne aux rituels funéraires :\n- Les scènes de récolte : Une des scènes les plus célèbres montre Khaemhat inspectant la récolte de blé dans ses champs. Les reliefs sont d'une précision étonnante, montrant les paysans en train de moissonner le grain, les bêtes de somme tirant les lourds chariots, et les scribes enregistrant la production."
+      },
+      {
+        title: "Pesage du grain, jubilé Sed et pèlerinage",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMlqIRaPJGlbb7duw1pkEf1LEbgqJQP1hzSGV7aVCPvz-h_cA0w-1cLsSYZYBg1Rw6unHHm-2yT3VGJVzMekQuMNK8-HYy58WoWqEvsVsyHDiOP7qKScTqSThLwDh_ix6x4XX8wAHX1oOzBd6MSSPgvJg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN1acTp7MRKRv9HCWpy5vkf-ED0OL9o5X_VWBd5iYgAvvWHT1kTG1vyJhZ49h8YiOnlNcjKhdqwKuHvqFhhj-fZhGHgsPaHq2azQtQ_G-d8gZPIzsTdw2QRpEKKG6glDRxcqIQTlwYqcldUZzcYo06Blw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPXtkYLlsrq6wgW85XkpmjirW0F2ZKOlek1cyiY6fZW8FuD2rpzS0MFXhbBHYw2Xfn6vf3b-ZPNmtQyowj9LKHaU0my-2ct57Ju-iQAiOlP2AP_0elbWA-yQAAl0LedabPGx1yrqbB2Jw1PbiFtm3wjKg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "- Le pesage du grain : Une autre scène unique représente le pesage du grain. On y voit Khaemhat superviser l'opération, assis à l'intérieur d'un portique, tandis que des scribes notent le poids des sacs.\n- La scène du jubilé : Le mur de la façade de la tombe est orné d'une scène qui montre le pharaon Aménophis III célébrant sa fête-Sed (jubilé), un rituel de renouvellement de son règne. Khaemhat est représenté aux côtés du pharaon, ce qui souligne son statut élevé et son accès privilégié au roi.\n- Les rituels funéraires : D'autres murs représentent des scènes plus traditionnelles, comme le banquet funéraire, où Khaemhat et sa famille reçoivent des offrandes, et des scènes de pèlerinage à Abydos, un lieu sacré lié au dieu des morts, Osiris."
+      },
+      {
+        title: "Statuaire familiale rupestre de Khaemhat",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPh1i0RuDhXpWFdknvt-_hKqt6-dhVuXjmHLd2X-O8PyzgHyHk_f-5ZcHNHimjbxASeTdWtxcoNUiJRlb4_U5Q_cSPEhoH5I1UA0ezt3so98dbQpBH3TgzsAJ-5qsZwdvieSxGrqbQBrcc3IFrYRbCD7g=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP2O1U7uhqy6sep3C5toZ62tQ-EYGf8EiNdipq70a-jo7orwl316EQiYkI3fG7uamUG159VLVsgVwtwmKsUkMaCA6VqAVQ7vdU_t9claTbmtUtb9euSjdLkhq3E4q_nxVqA0bJ3VasnfxJBpfbTiXzuSg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNJeCLV7co4W0W00-ssa-NMkm4IBlurfY05WveBaO4EKrIQjVCtVbZrtmP0KOkCJkS9Ma3vZfbsC5ppjSbGADfpQdQLIOTgAva268xOZVBmDjIZSAJDteK_SUqDxfxR2GMTI69FQ_VfyCNDEyOapHhgEQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Au fond de la salle principale, taillées directement dans le roc, on trouve plusieurs statues assises qui représentent Khaemhat en compagnie de membres de sa famille. Ces statues sont souvent regroupées par couples.\n1. Khaemhat et sa mère : Le groupe central représente Khaemhat assis avec sa mère, Amenhotep, sur le même trône. Ce duo est le plus important, car la mère jouait un rôle essentiel dans le culte funéraire et dans la légitimation de la filiation.\n2. Khaemhat et son père : Juste à côté, un second groupe de statues représente Khaemhat en compagnie de son père, Amenwahsu, également assis. La présence du père était cruciale pour affirmer la lignée du défunt.\n3. Khaemhat et son épouse : D'autres statues, parfois fragmentées, montrent Khaemhat aux côtés de son épouse, ainsi que d'autres membres de sa famille."
+      },
+      {
+        title: "Puissance magique et sacrée des hiéroglyphes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOXQTrFYvckVN-suzgVJGoce_pemCMTIXAGcNLvnyQ5ir075GRSzftWZz9ng-Zu1GIgoJIbU0ZIrIeoA1vd9s0ysWGUeNv036o81zxbqf7cqnSGGpWtKNU1_gHTbij-QrSv66gWA16BWMLZLuqc-_BAqw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPpr999RriVuQ3jubEgs8Px2QxaBGFziY2zlZe9SUmjGIiiq1Z5VDTtJW0QlmBrMLX43PQIUjwUTuAng59Cdrj-th8RA9uj78ZAeg7rPA9H7cJP1aRGfZ09IKmZzc5ZfmSSm_-stiACP11P4M6XCnXjLA=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La profusion de hiéroglyphes dans les tombes égyptiennes s'explique par leur rôle fondamental qui dépassait largement leur simple fonction d'écriture. Ils étaient considérés comme des signes sacrés dotés d'un pouvoir magique.\n\nUn rôle rituel et magique :\nLes hiéroglyphes n'étaient pas seulement des inscriptions ; ils étaient des images qui prenaient vie. Réciter un hiéroglyphe ou le graver sur un mur rendait l'action représentée réelle. Ainsi, les textes des tombes, comme ceux du Livre des Morts, étaient des formules magiques qui aidaient le défunt à surmonter les dangers de l'au-delà, à se faire reconnaître par les dieux, et à assurer sa survie éternelle.\n\nPréserver l'identité du défunt :\nDans la croyance égyptienne, le nom d'une personne était une part essentielle de son identité. Tant que le nom était préservé, l'âme de la personne continuait d'exister. Les hiéroglyphes qui inscrivaient le nom, les titres et la biographie du défunt sur les murs de la tombe assuraient sa pérennité. Si une momie était endommagée, le texte hiéroglyphique servait de substitut magique, garantissant que l'âme (ka) du défunt avait un lieu où résider.\n\nAssurer la vie dans l'au-delà :\nLes hiéroglyphes décrivaient aussi les offrandes que le défunt recevait, le représentant en train de participer à un banquet ou d'être servi par des prêtres. Ces images n'étaient pas de simples décorations ; elles garantissaient que les offrandes, même si elles n'étaient plus fournies par les vivants, continueraient d'exister dans l'au-delà pour nourrir l'âme. De même, les scènes de la vie quotidienne représentaient les actions que le défunt souhaitait faire pour l'éternité, comme la chasse ou la pêche."
+      },
+      {
+        title: "La tombe de Sennefer (TT96), intendant des jardins",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNMsLg0g-5gE2PGJL_4GvyKwyesf4G6nMzmHXAaFTNoeUznYN7ime-xNq7VTjxUkjK3YKDhnTnN4DnyOhuTDPtc427gjt8ibN4wJw1UrB80Oz2lKCoR3GHW3sW5nDqa-2Wo5xnQjSXiMBYnW5P593IyAg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNRWZzcbaM-AwdEltaJMy3h30LGaw1n9yK1bVNBig_q9BK_H8RWa9rDQx1eHpVSNSUjQyOVnxnCGXX-6bC5dmsZz6WAY0wszwwjBqyKrpsCRVGiYMdBWo4idjTuJxI1Uhs--0TmgvOKMtV_qWFXaBxKoA=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La tombe de Sennefer, également connue sous le nom de Tombe des Vignes (TT96), est un joyau de la Vallée des Nobles. Datée du règne d'Aménophis II (XVIIIe dynastie), cette sépulture est célèbre pour l'exceptionnelle conservation de ses peintures. Sennefer portait le titre de « Maire de Thèbes » et « Intendant du Jardin d'Amon », et sa tombe se distingue par sa décoration unique, notamment ses scènes de vignes qui lui ont valu son surnom.\n\nSennefer était un dignitaire de haut rang sous le règne du pharaon Aménophis II. Il cumulait plusieurs titres importants, dont les plus notables étaient « Maire de Thèbes » et « Intendant des greniers et des jardins d'Amon ». Ces fonctions lui conféraient une grande influence et une immense richesse. Son rôle dans l'administration de Thèbes et la gestion des biens du temple d'Amon témoigne de la confiance que le pharaon lui accordait. La tombe de Sennefer est composée de deux parties : une chapelle en T inversé (TT96A), autrefois accessible aux vivants pour le culte funéraire, et un caveau souterrain (TT96B) qui est aujourd'hui la seule partie ouverte au public. C'est dans ce caveau que l'on trouve les peintures les plus remarquables. La décoration de la tombe est célèbre pour son style vivant et sa palette de couleurs richement préservée. Les scènes ne sont pas seulement gravées, mais peintes directement sur l'enduit, un choix technique qui a permis de conserver les couleurs avec une vivacité étonnante."
+      },
+      {
+        title: "La voûte végétale de la Tombe des Vignes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP9YT4fnBmvSFTnJF6kxu6wEWTePI2AZDlx4HakS_LiXQT3t-YJNPNc6aycOV48Iewb_2fQyprTTB6fOpWjODU7wZ8-Y3XBZVt9YhjQFhBHHiLwjYp-180Nzy2DruVUFZy3iZ-g7RStaLrayZzEqH9aVw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOWjiM4_4DfSUqczmHllDpitSbyRDM0_aGdcRasSogJWk4d0X_BZ79Z29lqp0De6yyRL5vGQBnakygxCQw7y0DBAxl7oeycBBefIx9Cnwc9IgXr_WH4xmF0nFYkVmf8CBR-PSUpPLVYEuIl5cmYXY8uLg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La caractéristique la plus célèbre de la tombe est son plafond. Sculpté de manière irrégulière pour imiter les branches et les grappes de vigne, il est entièrement peint de ce motif. Les grappes de raisin, représentées avec un grand réalisme, pendent du plafond, ce qui a donné à la tombe son surnom de « Tombe des Vignes ». Ce thème symbolise la renaissance et la fertilité, car la vigne était associée au dieu du vin et de la résurrection, Osiris."
+      },
+      {
+        title: "Sennefer et son épouse Méryt",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMt5R5HHGIGzVM8l8-6bFbSBUzmY5F9eCSYDP3dIlA4IWiEhvXo9EN4xeAkriLt_Q6VEBYzy7u41-4OnMk2p9nSWQs1Eckxf2l2_X_w-HS3DegDjfEbsy0WUEr_YQFIAmza8w9wITyGhKfShmqUC46rsQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOd_OJdWviNds-jAvYJQ6fOhmKABb5wTUSd9reedexFYosDX5eY63EFb8fkeLgVl0Ober_ixxcpyNw1zN2k1O96-TbklhDfSl6jpwbssv48dg99Uwvi64lsSsixAe6N0JndHpYca3D7NODIEZ4l02REZw=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Les murs de la tombe représentent Sennefer et son épouse, Méryt, dans des scènes d'une grande intimité. On les voit ensemble lors de banquets funéraires, offrant des offrandes aux dieux ou se purifiant. Leurs gestes et leurs expressions sont dépeints avec une grande tendresse, ce qui est rare dans l'art funéraire égyptien. Méryt est souvent représentée tenant des fleurs de lotus et des colliers, soulignant son rôle dans le rituel."
+      },
+      {
+        title: "Textes sacrés du Livre des Morts",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNQERCJjRnfbLfxaKYSc1m-3iyTuvNyJa7RCHYQUQUijPsMb8zSn8zBwODAk1cyqtrceH636HE2Qkz11_EH5fqpYctN45kCV5Tgf3DkZYDqWlid3nVhPS8gO1OjM12vfRWMDHehGBilQqie9PLhy4mtDw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMIRg05kqmCPK8nmhgHSdcVGQvAh1deMOpMODQqQs_LlADhQltXG8QgnMede1RzA7rZBqUyFv5Ovr2qEuGY4AjkIeMnhCNGcbBcgsfeXCooo167J-zlX8f8DcBOCmG6eQTc64UW1BfDOrhOp4sW0q1bZg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Contrairement à de nombreuses tombes, celle de Sennefer montre peu de scènes de travail agricole, ce qui reflète sans doute son statut d'administrateur. En revanche, on y trouve des scènes de pèlerinage à Abydos et d'adoration des dieux. Les textes hiéroglyphiques qui accompagnent les peintures sont des extraits du Livre des Morts et d'autres textes funéraires, garantissant le passage d'Ouserhat dans l'au-delà."
+      },
+      {
+        title: "Anubis, gardien symétrique du seuil sacré",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOhnXuXiH71NlE1EwoiG6oHQ89pBxev5pxiENdpJXz7p8NUvXZyIuSjnTxBXibTZVoXqscMehsvMPVQRtWzj0EDqE6glf87oD6CrEn8umb_A5xcNAq42Md0YCFxCRh98nqN9hYg_iRBr2prFyQBei-zSQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMxm9M927MKZ3TQEYnwdQS3CZgIb-sGs4OIo6et4R6_MmAgc0YBzfGvn8Nojz_1ZPf0g_rQPwMRahGBfas3VYnwCoIy8K_rDa64Sq4A9GfGed4kCC21y2yZMD86Yd35_I_H6N_2LDHyITTj45gwqGhiwQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Ces chacals représentent Anubis, le dieu des morts et des embaumements. Anubis est souvent représenté sous la forme d'un chacal ou d'un homme à tête de chacal. Son rôle était de veiller sur les cimetières, d'aider à la momification et de guider les âmes des défunts dans l'au-delà.\n\nDans cette scène, les deux chacals sont disposés symétriquement, se faisant face. Ils symbolisent la protection de la tombe et la garantie de la sécurité du défunt dans son voyage. Cette position, au-dessus de la porte qui mène au caveau, est une représentation classique de la fonction d'Anubis en tant que gardien de l'accès au royaume des morts."
+      },
+      {
+        title: "La navigation rituelle vers Abydos",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN8pDqG3AcOMquB-gVNpFuRrdf78kfg0XMg70K2qxK0B2Kc3JlauqymNZ4-SFQAfy2Ge-NlO5MftQ6LXJ_qnNFUczttbMghpXYtVvy6P-DYre6kxmjRnv6Nk2z73_cKkZmunboKbscuv_jzybLdIYyy-w=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPWyC2gc-gs45mqnQaBKpBhIgZvcdsO91kPJXbfFjJFI2OWSP4D9cyNWBOx9tzzwyOcpzGE8_c4vpHpuVov51XRnpz2YDUwPXTDlpPCxvllDRJlu64vrntRBJOjk8xzG08MdlCeQ0r5Ee94mJ8DPM0e_Q=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Le voyage en bateau était un symbole puissant de la transition et de la renaissance. Cette scène n'est pas une simple représentation de la vie quotidienne, mais un acte rituel crucial. Le défunt y accomplit le pèlerinage vers la ville sacrée d'Abydos, le principal centre de culte du dieu Osiris, le souverain du monde des morts.\n\nCe pèlerinage avait plusieurs significations :\n- L'identification avec Osiris : En accomplissant ce voyage symbolique, le défunt s'identifiait au mythe d'Osiris, le premier roi ressuscité, et assurait sa propre renaissance dans l'au-delà.\n- La protection divine : Le voyage vers le sanctuaire d'Osiris garantissait au défunt sa place dans l'au-delà et la protection des dieux funéraires.\n- La victoire sur la mort : La navigation, à travers les eaux du Nil, représentait la victoire sur le chaos et la mort, menant le défunt en toute sécurité vers l'éternité.\n\nCette scène est une illustration magnifique de la croyance égyptienne selon laquelle la vie dans l'au-delà était une continuation idéalisée de la vie terrestre, accessible par un ensemble de rituels et de pratiques magiques."
+      },
+      {
+        title: "La chapelle funéraire du vizir Rekhmirê (TT100)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPrKy-eZhyc3YdCu4yFd8Gl66iOBMDjejbasOXXTm8lQ87NUOnMhCdaWcAxfibUKyTKHGJo-kU9I3ej9Ovv1fN7pY0jb9jnmZwmhYIEJp4YvmTwy3WmxH-f1712hwHkfSYnJ1yr9yL-YSpB4iGE3HkPwg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNy1J4O17nRtya0o-pQemkTsmymSI0B5Qz-mRVVOUXsO2s1bSwJSpg4o2JeAjo3eoWZ94wO1lsxW4E8z7rB3ReWb69Z3xWucQiRBJiDRIlwOI59Fm41JHAp35Ep3WCfmOw0wR47k08ghTsFwRotsr9pPA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM21ZZhZInlAhhhtc-_9QVYtoZo4lyHck7ijsJqfbUJdFEfZlJNiNAIMLuL_RJfOVMnIQDKvDkxbvewW15IOi4ZSedXGmtRNT0FDZlVRGf-x3UWTK7GjPgSbSj9J1ez06p-ZkTxs8wkBiBdZtPAh49JYQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Rekhmirê portait les titres de « gouverneur de la ville et vizir du Sud » sous les règnes des pharaons Thoutmôsis III et Aménophis II. Le vizir était le plus haut fonctionnaire après le pharaon, à la tête de l'administration du pays. Sa tombe est un témoignage de son immense pouvoir et de sa richesse. La tombe de Rekhmirê est notable pour l'absence d'une chambre funéraire classique, ce qui a conduit les égyptologues à penser qu'il n'y a pas été enterré. Au lieu de cela, il s'agit d'une grande chapelle de culte décorée qui se termine en pente douce, et qui servait de lieu de mémoire et de rituels funéraires."
+      },
+      {
+        title: "L'encyclopédie visuelle et les devoirs du vizir",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN9uAvcesnfaS8wv6d9-rFqo87vut-U9ZQBGNyQVSv6pEk1q-7NXgMM4WzsX4Kasnn5MnNvaw-bZij-pCFpFukfXWTYk0v7JXM5_0o0CLDEqqITM4Ek4pFFfiWPHac-hqe5zODvsFkw1ml_IlbbiKMrFQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNhSwZFgReZBlM6rc8Le7yZhXp0lv3mVaDEJb-aXQPc3yNURHd_Ja89Uk1M4yK7OEOQiShh_Vc-JCx5-i3z_9DOqUwCX1itpmMkhX69HPNsm8OKr27M8PP3HHSrGKAuvTzdIHgxLUCky7IBvR03YbKWXw=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La décoration des murs de la tombe de Rekhmirê est d'une richesse inégalée. Elle est considérée comme une véritable « encyclopédie » visuelle de la société et de l'administration égyptienne, détaillant avec précision le quotidien d'un vizir. Les scènes sont peintes avec un grand souci du détail et un style élégant, propre à la XVIIIe dynastie.\n\nLe texte des devoirs du vizir : L'une des particularités les plus célèbres de la tombe est un long texte hiéroglyphique, gravé sur un mur, qui décrit en détail les devoirs du vizir. Ce document, unique en son genre, est une source précieuse pour comprendre le fonctionnement du gouvernement égyptien. Il évoque ses responsabilités en matière de justice, d'agriculture, et d'administration."
+      },
+      {
+        title: "Les tributs des délégations étrangères",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO2MCVbptHGnXa_QD7Bk8DuDXWAHpttRE0AhiL9cNVCcxSR9Qf0El1U1sMrx8S3-v8dBbnQrQPRzqQvu-Z2WH3iO3-r0AgqrzlD3vEMfWVqu0ifV5bbDzcGQxjoR3DQJVfj6TPxqBzRl6In1lnC5H8TPg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPWkyMb9CReCh_QsmOuUM62muf8p8v7izwTMRl2mW_kBdemt9XCf5hIriLzyHYuarZ-BdpVnxJvalAZLVluJ8x_wy4T74yWctgK-Kj4yKWomOi6BT7kho3Lll6MLlQA-Zho-YUkl4-8TVNWUXZHaw6DQw=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Une autre scène spectaculaire montre une procession de peuples étrangers (Syriens, Nubiens, Crétois, etc.) apportant des tributs au vizir. Ces scènes illustrent la puissance de l'Empire égyptien et la richesse qui affluait de toutes les provinces. On y voit des éléphants, des ours, des girafes et d'autres animaux exotiques, ainsi que des objets précieux, ce qui fait de cette scène une source d'informations inestimable pour les échanges internationaux de l'époque."
+      },
+      {
+        title: "Les ateliers d'artisans et le savoir technique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPZ137o9Nzh6yf3QfmXuJ06zlhQdQYZ495E8ezEdGLTFUgbh2K0kIqzzxqLEh-AFjnFF8ldbaERUmqyWiPpNgEdTEX-n_UrMS46Qb9lD9jUo8yG4IIoI-iRKbUynoe815RpD9YKrBs7ACTfq-DQMBWtig=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Les murs de la tombe de Rekhmirê sont également ornés de scènes de la vie des artisans et des ouvriers. On y voit des menuisiers, des forgerons, des potiers, et des sculpteurs au travail, ce qui en fait l'un des plus importants témoignages de la technologie et des métiers de l'Égypte antique."
+      },
+      {
+        title: "Intendance du temple d'Amon et héritage historique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOkdrAXMJvVV2XmYEbfKRMVxBVq_s1oE7RyTssAU5Ag-hBLDJ3pRnKFGvGgvGS2HcWvlrlLXsMKCqHKNs5e9FtUhOAQP3DryQ2FcpMZvTeAhui9phEHylZ_1pdIETttZujIEnGQOGE9QveiBcIzEw6lGg=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMrAXa6E5ghbsH4CQDJ5-8DVsnzi0yVB6CKzTIyRVW5nrAs-TD9PO5PRFYBRQ23NOSna0d0sXc9iniavuUz72KWxcKrklYHDXlpZkwDR4OZnHzSiCN2wxTZ91OB87cLvKiI1eunSfRmVh2zmka6ELyFrw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO0oDTWaFXBgaV2pI0SboyRYl9SnsGCx5E2e1l0B8JlB9EouCntO74aEPf0iUtrjvGFjrewY47rjiAF1nlfJi_E338omChx7sjRc9GV5MIS3TdOy7us4qpeg4HyZ2ykJq1T2LSWEex0UIyDpWN3fG1IhQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "En tant qu'intendant des biens du temple d'Amon, Rekhmirê a fait représenter les activités liées au culte : la préparation de la nourriture, le stockage des offrandes, et l'enregistrement du bétail et des récoltes.\n\nLa tombe de Rekhmirê est un lieu unique qui combine la majesté de l'art funéraire et la richesse d'une documentation historique sans précédent, nous offrant un regard rare et exhaustif sur le rôle d'un homme d'État dans l'Égypte antique."
+      }
+    ]
   },
   {
     id: "vallee_des_artisans",
