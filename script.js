@@ -171,12 +171,6 @@ function openIslandSummaryCard(islandCluster) {
     </div>
   `;
 
-  link.href = islandCluster.spots[0].link;
-  if (gmapsLink) {
-    gmapsLink.href = `https://www.google.com/maps/search/?api=1&query=${islandCluster.lat},${islandCluster.lng}`;
-  }
-
-  updateSpotToggleButton();
   card.classList.remove('hidden');
 
   if (currentMode === 'globe' && myGlobe) {
@@ -417,12 +411,6 @@ function openUnescoSummaryCard(cluster) {
     </div>
   `;
 
-  link.href = cluster.spots[0].link;
-  if (gmapsLink) {
-    gmapsLink.href = `https://www.google.com/maps/search/?api=1&query=${cluster.lat},${cluster.lng}`;
-  }
-
-  updateSpotToggleButton();
   card.classList.remove('hidden');
 
   if (currentMode === 'globe' && myGlobe) {
@@ -1825,24 +1813,7 @@ function selectSpot(spot) {
   desc.innerText = spot.description;
   visiter.innerText = spot.visiter || "Aucun détail complémentaire renseigné pour ce site.";
   if (link) {
-    if (spot.link && spot.link.trim() !== '') {
-      link.href = spot.link;
-      link.target = "_blank";
-      link.className = "py-1.5 xl:py-2 px-2.5 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[10px] xl:text-xs font-semibold flex items-center justify-center gap-1.5 shadow transition cursor-pointer";
-      link.onclick = null;
-    } else {
-      link.removeAttribute('href');
-      link.className = "py-1.5 xl:py-2 px-2.5 rounded-lg bg-slate-800/60 border border-slate-700/50 text-slate-500 text-[10px] xl:text-xs font-semibold flex items-center justify-center gap-1.5 cursor-not-allowed opacity-60";
-      link.onclick = (e) => e.preventDefault();
-    }
-  }
-
-  if (gmapsLink) {
-    gmapsLink.href = `https://www.google.com/maps/search/?api=1&query=${spot.lat},${spot.lng}`;
-  }
-
-  updateSpotToggleButton();
-  card.classList.remove('hidden');
+    card.classList.remove('hidden');
 
   if (currentMode === 'globe' && myGlobe) {
     myGlobe.pointOfView({ lat: spot.lat, lng: spot.lng, altitude: 0.35 }, 1000);
@@ -2647,15 +2618,6 @@ function renderClassicViewerMode(spot, layout) {
   const visitEl = document.getElementById('modal-visiter');
   if (visitEl) visitEl.innerText = spot.visiter || "Informations de visite à venir.";
 
-  const albumLink = document.getElementById('modal-album-link');
-  if (albumLink) {
-    if (spot.link && spot.link.trim() !== '') {
-      albumLink.href = spot.link;
-      albumLink.style.display = 'flex';
-    } else {
-      albumLink.style.display = 'none';
-    }
-  }
 
   currentSpotGallery = [{ url: spot.image || '', caption: '' }];
   if (Array.isArray(spot.gallery) && spot.gallery.length > 0) {
