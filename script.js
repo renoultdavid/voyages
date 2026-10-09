@@ -2769,9 +2769,10 @@ function getVisibleSpotsInViewport() {
 
 function updateLiveRadarPanel() {
   const radarDock = document.getElementById('right-radar-dock');
+  const radarPanel = document.getElementById('radar-panel');
   const countEl = document.getElementById('radar-total-count');
   const listEl = document.getElementById('radar-entities-list');
-  if (!radarDock || !listEl) return;
+  if (!radarDock || !radarPanel || !listEl) return;
 
   if (currentSelectedSpot) {
     radarDock.classList.add('hidden');
@@ -2785,6 +2786,9 @@ function updateLiveRadarPanel() {
   listEl.innerHTML = '';
 
   if (visibleSpots.length === 0) {
+    // Largeur standard
+    radarPanel.className = radarPanel.className.replace(/w-\[?[^ ]+\]?/g, '');
+    radarPanel.classList.add('w-48', 'sm:w-52');
     listEl.innerHTML = `
       <div class="p-4 text-center text-slate-500 text-[11px] space-y-1">
         <i class="fa-solid fa-compass-drafting text-lg opacity-40"></i>
@@ -2794,14 +2798,20 @@ function updateLiveRadarPanel() {
     return;
   }
 
-  // CAS 1 : NIVEAU LOCAL (Moins de 12 sites visibles) -> Cartes POI individuelles avec photos
+  // =========================================================================
+  // CAS 1 : NIVEAU LOCAL (<= 12 sites) -> LARGEUR DOUBLÉE & GRANDES VIGNETTES
+  // =========================================================================
   if (visibleSpots.length <= 12) {
+    // On passe à la largeur élargie (~380px)
+    radarPanel.classList.remove('w-48', 'sm:w-52');
+    radarPanel.classList.add('w-80', 'sm:w-96');
+
     visibleSpots.forEach(spot => {
       const activeCatKey = typeof getFirstActiveCategoryForSpot === 'function' ? getFirstActiveCategoryForSpot(spot) : spot.category;
       const cat = (typeof CATEGORIES !== 'undefined' && CATEGORIES[activeCatKey]) || { color: '#06b6d4', icon: 'fa-location-dot' };
       const fallbackImg = 'https://placehold.co/400x250/0f172a/38bdf8?text=Voyage';
 
-      // Nettoie "Le Mans - " ou "Rennes - " s'il est au début du nom pour ne garder que le monument
+      // Nettoie le préfixe de commune si présent
       let cleanTitle = spot.name;
       if (spot.subdiv && cleanTitle.toLowerCase().startsWith(spot.subdiv.toLowerCase())) {
         cleanTitle = cleanTitle.replace(new RegExp(`^${spot.subdiv}\\s*[-–—:]\\s*`, 'i'), '');
@@ -2811,26 +2821,27 @@ function updateLiveRadarPanel() {
       }
 
       const card = document.createElement('div');
-      card.className = 'group relative rounded-xl overflow-hidden bg-slate-900/90 border border-slate-800/80 hover:border-cyan-400 transition-all duration-200 cursor-pointer shadow-lg hover:shadow-cyan-500/20 flex items-center p-1.5 gap-2';
-      card.title = spot.name; // Affiche le nom complet dans l'infobulle au survol
+      card.className = 'group relative rounded-xl overflow-hidden bg-slate-900/90 border border-slate-800/80 hover:border-cyan-400 transition-all duration-200 cursor-pointer shadow-lg hover:shadow-cyan-500/20 flex items-center p-2 gap-3';
+      card.title = spot.name;
 
       card.innerHTML = `
-        <div class="relative w-11 h-11 rounded-lg overflow-hidden shrink-0 bg-slate-950 border border-slate-700/60">
-          <img src="${spot.image || fallbackImg}" alt="${spot.name}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" onerror="this.src='${fallbackImg}'">
-          <div class="absolute bottom-0 right-0 w-3 h-3 rounded-tl flex items-center justify-center text-[7px] text-white" style="background-color: ${cat.color};">
+        <div class="relative w-16 h-16 rounded-xl overflow-hidden shrink-0 bg-slate-950 border border-slate-700/60 shadow-inner">
+          <img src="${spot.image || fallbackImg}" alt="${spot.name}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.src='${fallbackImg}'">
+          <div class="absolute bottom-0 right-0 px-1 py-0.5 rounded-tl-md flex items-center justify-center text-[9px] text-white font-bold shadow" style="background-color: ${cat.color};">
             <i class="fa-solid ${cat.icon}"></i>
           </div>
         </div>
         <div class="min-w-0 flex-1 flex flex-col justify-center">
-          <div class="text-[11px] font-bold text-white leading-tight line-clamp-2 group-hover:text-cyan-300 transition-colors">
+          <div class="text-xs sm:text-[13px] font-bold text-white leading-snug line-clamp-2 group-hover:text-cyan-300 transition-colors">
             ${cleanTitle}
           </div>
-          <div class="text-[8px] text-slate-400 font-mono mt-0.5 truncate flex items-center gap-1">
+          <div class="text-[10px] text-slate-400 font-mono mt-1 truncate flex items-center gap-1.5">
             <span class="text-cyan-400 font-semibold truncate">${spot.subdiv || spot.country}</span>
-            <span>·</span>
-            <span class="truncate">${spot.century || spot.era_group || ''}</span>
+            <span class="text-slate-600">·</span>
+            <span class="truncate text-slate-300">${spot.century || spot.era_group || ''}</span>
           </div>
         </div>
+        <i class="fa-solid fa-chevron-right text-xs text-slate-600 group-hover:text-cyan-400 group-hover:translate-x-1 transition-all shrink-0 mr-1"></i>
       `;
 
       card.onclick = () => selectSpot(spot);
@@ -2839,7 +2850,12 @@ function updateLiveRadarPanel() {
     return;
   }
 
-  // Regroupement par pays
+  // =========================================================================
+  // CAS 2 & 3 : VUE DÉZOOMÉE -> RETOUR À LA LARGEUR STANDARD
+  // =========================================================================
+  radarPanel.classList.remove('w-80', 'sm:w-96');
+  radarPanel.classList.add('w-48', 'sm:w-52');
+
   const countryMap = new Map();
   visibleSpots.forEach(s => {
     const c = s.country || "Autre";
@@ -2847,7 +2863,7 @@ function updateLiveRadarPanel() {
     countryMap.get(c).spots.push(s);
   });
 
-  // CAS 2 : VUE PLANÉTAIRE (Plusieurs pays dans le champ)
+  // Plusieurs pays dans le champ
   if (countryMap.size > 1) {
     Array.from(countryMap.values())
       .sort((a, b) => b.spots.length - a.spots.length)
@@ -2873,8 +2889,7 @@ function updateLiveRadarPanel() {
     return;
   }
 
-  // CAS 3 : UN SEUL PAYS VISIBLE -> Regroupement granulaire (Communes si zoom serré, sinon Départements / Régions)
-  const singleCountrySpots = visibleSpots;
+  // Un seul pays dans le champ (Régions ou Départements)
   const isCloseZoom = (currentMode === 'map' && myLeafletMap && myLeafletMap.getZoom() >= 9) || 
                       (currentMode === 'globe' && myGlobe && (myGlobe.pointOfView()?.altitude || 2) < 0.35);
 
@@ -2882,7 +2897,7 @@ function updateLiveRadarPanel() {
   const groupLabelFallback = isCloseZoom ? 'Commune' : 'Département / Région';
 
   const groups = new Map();
-  singleCountrySpots.forEach(s => {
+  visibleSpots.forEach(s => {
     const key = s[groupKey] || s.department || s.region_admin || s.region || groupLabelFallback;
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key).push(s);
