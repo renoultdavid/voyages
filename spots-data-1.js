@@ -6863,8 +6863,8 @@ const travelSpots = [
     century: "XIIe siècle",
     category: "religieux",
     counts: {},
-    lat: 47.994224,
-    lng: 0.236399,
+    lat: 34.9663,
+    lng: 135.7828,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOzmRnh9WjXMoxG3ChAS4ylK304_D1b4ubN_XSoMbR7KD9TRBk-dqNZi_mHUb62NbzfNEyS8JkoqArkaKRtYz4andicXi1X4uCgF_sagebdt42USHXYUIGeWNct_8Tw0itGpmEwylco_r08mfXsRXdHfQ=w2549-h1919-s-no-gm?authuser=0",
     gallery: [
       {
