@@ -1508,6 +1508,7 @@ function initGlobe() {
 
   controls.addEventListener('change', () => {
     checkContinuousGlobeZoom();
+    updateLiveRadarPanel(); // <-- Ajoute cette ligne ici
     if (clusterDebounceTimeout) clearTimeout(clusterDebounceTimeout);
     clusterDebounceTimeout = setTimeout(updateGlobeDisplay, 90);
   });
@@ -2732,19 +2733,35 @@ function getVisibleSpotsInViewport() {
     return filtered.filter(s => bounds.contains([s.lat, s.lng]));
   } else if (currentMode === 'globe' && myGlobe) {
     const pov = myGlobe.pointOfView();
-    const centerLat = pov.lat || 0;
-    const centerLng = pov.lng || 0;
+    const cameraLatRad = (pov.lat || 0) * Math.PI / 180;
+    const cameraLngRad = (pov.lng || 0) * Math.PI / 180;
     const altitude = typeof pov.altitude === 'number' ? pov.altitude : 2.0;
 
-    // Angle d'ouverture visible selon l'altitude
-    const maxAngularDist = altitude >= 1.5 ? 1.57 : Math.max(0.25, altitude * 1.4);
+    // Vecteur unitaire du centre de la caméra
+    const cx = Math.cos(cameraLatRad) * Math.cos(cameraLngRad);
+    const cy = Math.sin(cameraLatRad);
+    const cz = Math.cos(cameraLatRad) * Math.sin(cameraLngRad);
+
+    // Horizon géométrique strict : un point derrière la rotondité de la Terre a un angle > horizonAngle
+    // Plus on est proche (altitude basse), plus l'horizon visible se réduit
+    const horizonAngle = Math.acos(1 / (1 + altitude));
 
     return filtered.filter(s => {
-      const dLat = (s.lat - centerLat) * Math.PI / 180;
-      const dLng = normalizeLongitude(s.lng - centerLng) * Math.PI / 180;
-      const a = Math.sin(dLat / 2) ** 2 + Math.cos(centerLat * Math.PI / 180) * Math.cos(s.lat * Math.PI / 180) * Math.sin(dLng / 2) ** 2;
-      const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-      return c <= maxAngularDist;
+      const latRad = s.lat * Math.PI / 180;
+      const lngRad = s.lng * Math.PI / 180;
+
+      // Vecteur unitaire du point sur la Terre
+      const px = Math.cos(latRad) * Math.cos(lngRad);
+      const py = Math.sin(latRad);
+      const pz = Math.cos(latRad) * Math.sin(lngRad);
+
+      // Produit scalaire = cosinus de l'angle entre le point et la caméra
+      const dot = cx * px + cy * py + cz * pz;
+      const angle = Math.acos(Math.max(-1, Math.min(1, dot)));
+
+      // Le point doit être strictement sur la face visible (devant l'horizon)
+      // Marge de sécurité de 0.05 rad pour ne pas capter l'arrière du limbe
+      return angle < (horizonAngle - 0.05);
     });
   }
   return [];
