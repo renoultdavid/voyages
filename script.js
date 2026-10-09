@@ -2486,6 +2486,7 @@ function renderEnrichedCarnetMode(spot, layout) {
       const count = sec.photos.length;
 
       if (count === 1) {
+        // 1 photo : Grande, centrée, ratio natif 100%
         photosMarkup = `
           <div class="w-full flex justify-center py-2">
             <img src="${sec.photos[0]}" 
@@ -2495,17 +2496,13 @@ function renderEnrichedCarnetMode(spot, layout) {
           </div>
         `;
       } else {
-        // Hauteur commune stricte pour TOUTE la rangée
-        const targetH = count === 2 ? 420 : 310;
-
+        // 2 photos et plus : Algorithme Google Photos (justification stricte à la largeur du texte)
         photosMarkup = `
-          <div class="photo-row-container flex flex-row items-center justify-center gap-2.5 sm:gap-3 w-full my-3" style="height: ${targetH}px;">
+          <div class="justified-photo-row flex flex-row flex-nowrap items-center justify-between gap-3 w-full my-3" data-photos='${JSON.stringify(sec.photos).replace(/'/g, "&#39;")}'>
             ${sec.photos.map(p => `
               <img src="${p}" 
                    alt="${sec.title || spot.name}" 
-                   onload="this.style.aspectRatio = this.naturalWidth + ' / ' + this.naturalHeight;"
-                   class="h-full rounded-xl shadow-md cursor-zoom-in hover:scale-[1.01] transition-transform duration-150 block object-contain min-w-0" 
-                   style="height: 100%; width: auto;"
+                   class="rounded-xl shadow-lg cursor-zoom-in hover:scale-[1.01] transition-transform duration-150 block object-contain flex-shrink-0" 
                    onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
             `).join('')}
           </div>
@@ -2526,6 +2523,50 @@ function renderEnrichedCarnetMode(spot, layout) {
 
   sectionsHtml += '</div>';
   layout.innerHTML = headerHtml + sectionsHtml;
+
+  // Ajustement proportionnel pour caler la ligne de photos sur la largeur du texte
+  requestAnimationFrame(() => {
+    layout.querySelectorAll('.justified-photo-row').forEach(row => {
+      const imgs = Array.from(row.querySelectorAll('img'));
+      if (imgs.length === 0) return;
+
+      const adjustRow = () => {
+        const allLoaded = imgs.every(img => img.naturalWidth && img.naturalHeight);
+        if (!allLoaded) return;
+
+        const containerWidth = row.clientWidth;
+        if (containerWidth <= 0) return;
+
+        const gap = 12;
+        const totalGaps = gap * (imgs.length - 1);
+        const availableWidth = containerWidth - totalGaps;
+
+        const sumRatios = imgs.reduce((sum, img) => sum + (img.naturalWidth / img.naturalHeight), 0);
+        let idealHeight = availableWidth / sumRatios;
+
+        const maxHeightCap = window.innerHeight * 0.65;
+        if (idealHeight > maxHeightCap) {
+          idealHeight = maxHeightCap;
+          row.style.justifyContent = 'center';
+        } else {
+          row.style.justifyContent = 'space-between';
+        }
+
+        imgs.forEach(img => {
+          img.style.height = `${idealHeight}px`;
+          img.style.width = `${idealHeight * (img.naturalWidth / img.naturalHeight)}px`;
+        });
+      };
+
+      imgs.forEach(img => {
+        if (img.complete) {
+          adjustRow();
+        } else {
+          img.addEventListener('load', adjustRow, { once: true });
+        }
+      });
+    });
+  });
 }
 
 // -------------------------------------------------------------------------
