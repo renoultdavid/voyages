@@ -1478,11 +1478,12 @@ function initGlobe() {
     console.warn("Ajustement du pixel ratio ignoré :", e);
   }
 
-  const controls = myGlobe.controls();
+ const controls = myGlobe.controls();
   controls.autoRotate = false;
   controls.autoRotateSpeed = 0.5;
   controls.enableDamping = true;
-  controls.dampingFactor = 0.08;
+  controls.dampingFactor = 0.15; // Amorti plus réactif et fluide
+  controls.zoomSpeed = 1.8;      // <-- Double la vitesse de la molette (fini de mouliner !)
   controls.minDistance = 101;
   controls.maxDistance = 1200;
   controls.enabled = true;
@@ -1523,7 +1524,10 @@ function initLeafletMap(initialCenter = [27.2579, 33.8116], initialZoom = 10) {
     zoom: initialZoom,
     zoomControl: false,
     maxZoom: 18,
-    minZoom: 3
+    minZoom: 3,
+    zoomSnap: 0.25,             // Autorise les zooms fractionnaires (évite les gros sauts brutaux)
+    wheelPxPerZoomLevel: 120,   // Rend chaque cran de molette plus ample et progressif
+    wheelDebounceTime: 40       // Réduit le temps de latence au coup de molette
   });
 
   currentTileLayerInstance = L.tileLayer(TILE_LAYERS.satellite.url, {
