@@ -8721,32 +8721,56 @@ const travelSpots = [
     link: "https://photos.google.com/share/AF1QipO-9fthuckrHo5lqfqnWJDKX2OiAbRSSIVyLUw0n2_g-OQRylmTLkag1BfDfYWbRQ?key=SXB3Qm1pdHR0dC1Qc2kwdE5tUW4wN1hzVGk2UDR3",
     sections: [
       {
-        title: "Isolement montagnard et survie économique",
+        title: "Isolement montagnard et survie économique (1/3)",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczM5L68u9peY9uFccn70O3_xH3029V3IzRGmw34yrX5ez0nJxaMZ7LoIf_eB_hQChkBiX54sDHPJmKoN_Xhd4u7m_--_0oFGcOv8LqP9nCybl0kbpbYsFce2php4rLUILLnlx8l9oGrqzZjlmkjdjGL3UA=w1380-h919-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczN5zrIVz_JsGFq67Ym9v6yXnYp-v5i2nr6y0RgNpuDV0ov_ErDlsY96z-4dp2GVbPDk2tx2Rhq7YKoN8M6Fy62J6KKTFa0TfCeubtSC_R6rIysHHnbcRTAyZqlg_bj3Yj5ha4wNB9FrclDrt5R_kE88Dg=w1379-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczM9x-y6pqMWkVWoF7wKDtarM4J6Tc9GJlWFDjDUTf97bj5v0hlatssi51dMlyTmxfrv1H8QtwZN1L8pTA6i1XW8N3PhUsA1JS92NuFgDCpq4SgpKIQmo5SXz53KH2RFj_6boTSsCsoq1s7-w8bV4L_aWg=w1379-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczN8XzCu0sx7VtdSRqYgdngUGFUod1svKTVO43dUVx88mIKf2aFbKsNWtEGdLYeIk11gmqM2obODzfTM1nQ1DDEPjOo2zo86fGZZTJyWRcKSAsKDIkFqaoCpQwDUCQ-hbQi9UN3S3KVUXy_we083AVTYkw=w1379-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczMK1MlT33mpzxg9vIbFVJoeEukEWK0dI_e5alDhF2CjtpOezDiv2pmVjamdV9UbJ2fJimTtwrZYIfKvyyIFYKnwU_itPeJVpGukhbWpHOOdYafMIpBTWNRMF0WlBbMpHTI0g5U7aaCK9V-VkeNR7Kz46g=w1379-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczP_2ysy_CdEpiq9lgfZAehOcUa_uzVC3zzWqYRS6fYsV6JzTyVUFBC3sSZio5ccVrc1LIqMxKfFlTxb98Rc96TMcCut6I5YTiXOnSMve8U23r9D_o99V04yJwOWWXeZiikgrtzR6r4xI70Uw57aqhehDA=w1379-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOJ05srtTsxPyBc2eA60UqSj6w3jcVAD2pmVtbK3jDOJF-msHyLihdtHTuXlCbi_Yk3Q5u6MDFhWEsqnS9h_u2U4Q8n-VFF3OlpPwVa2AExXz3541MaTPkwIbSw3D0tcT1RbzvJHUMoQqemEbfUsrN6Ug=w1379-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOgfgNlJlQvWa2w-9gIKPA2rNNB9UIvos6GdkWQQz-EwCNJSx5T0_f9MAOjGkEwTLccx60GjTR8sc-VRGXWpemXSbUHYjjGUS6kvulXWf04AnmoYnNGuDp56CGABXeQDxVof5zrqPmqLJoSkdZY5iLJrA=w1379-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPQhgVoHVTThwQG1mH7cYqFzSC_jgHFvzgu7k8fQn5ueX6e46t3DYLu1q9znIuoz29UThKBUjGxosGPx4hqMDr1vF76KUjJIiwTeQxtADbO3y5L46b3ZmdOfKjh7TJXYdgC68bhyhG9KWygCfxej9FRBQ=w1379-h919-s-no-gm?authuser=0"
+          "https://lh3.googleusercontent.com/pw/AP1GczM9x-y6pqMWkVWoF7wKDtarM4J6Tc9GJlWFDjDUTf97bj5v0hlatssi51dMlyTmxfrv1H8QtwZN1L8pTA6i1XW8N3PhUsA1JS92NuFgDCpq4SgpKIQmo5SXz53KH2RFj_6boTSsCsoq1s7-w8bV4L_aWg=w1379-h919-s-no-gm?authuser=0"
         ],
         text: "L'histoire de Shirakawa-gō s'enracine dans la tourmente féodale. La tradition locale rapporte qu'après la défaite fatale de la bataille navale de Dan-no-ura en 1185, des rescapés du clan vaincu des Taira (les Heike) fuirent les purges ordonnées par Minamoto no Yoritomo pour trouver refuge dans ces gorges réputées inaccessibles.\n\nCet enclavement imposa un modèle de subsistance en autarcie quasi complète. Le manque critique de terres arables plates empêchant la riziculture intensive, la communauté dut développer des activités complémentaires pour survivre et s'acquitter des impôts féodaux exigés par le puissant clan Maeda du domaine voisin de Kaga : la culture du chanvre, l'élevage des vers à soie et la fabrication secrète de salpêtre (enshō, nitrate de potassium). Durant l'époque d'Edo, les villageois exploitaient la fermentation des déjections humaines et animales mêlées à des herbes sauvages sous le plancher de leurs habitations pour produire cette poudre noire indispensable aux armées des samouraïs, assurant à la vallée une relative prospérité et une discrète protection seigneuriale."
       },
       {
-        title: "Le style Gasshō-zukuri et la toiture de chaume",
+        title: "Isolement montagnard et survie économique (2/3)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN8XzCu0sx7VtdSRqYgdngUGFUod1svKTVO43dUVx88mIKf2aFbKsNWtEGdLYeIk11gmqM2obODzfTM1nQ1DDEPjOo2zo86fGZZTJyWRcKSAsKDIkFqaoCpQwDUCQ-hbQi9UN3S3KVUXy_we083AVTYkw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMK1MlT33mpzxg9vIbFVJoeEukEWK0dI_e5alDhF2CjtpOezDiv2pmVjamdV9UbJ2fJimTtwrZYIfKvyyIFYKnwU_itPeJVpGukhbWpHOOdYafMIpBTWNRMF0WlBbMpHTI0g5U7aaCK9V-VkeNR7Kz46g=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP_2ysy_CdEpiq9lgfZAehOcUa_uzVC3zzWqYRS6fYsV6JzTyVUFBC3sSZio5ccVrc1LIqMxKfFlTxb98Rc96TMcCut6I5YTiXOnSMve8U23r9D_o99V04yJwOWWXeZiikgrtzR6r4xI70Uw57aqhehDA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Isolement montagnard et survie économique (3/3)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOJ05srtTsxPyBc2eA60UqSj6w3jcVAD2pmVtbK3jDOJF-msHyLihdtHTuXlCbi_Yk3Q5u6MDFhWEsqnS9h_u2U4Q8n-VFF3OlpPwVa2AExXz3541MaTPkwIbSw3D0tcT1RbzvJHUMoQqemEbfUsrN6Ug=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOgfgNlJlQvWa2w-9gIKPA2rNNB9UIvos6GdkWQQz-EwCNJSx5T0_f9MAOjGkEwTLccx60GjTR8sc-VRGXWpemXSbUHYjjGUS6kvulXWf04AnmoYnNGuDp56CGABXeQDxVof5zrqPmqLJoSkdZY5iLJrA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPQhgVoHVTThwQG1mH7cYqFzSC_jgHFvzgu7k8fQn5ueX6e46t3DYLu1q9znIuoz29UThKBUjGxosGPx4hqMDr1vF76KUjJIiwTeQxtADbO3y5L46b3ZmdOfKjh7TJXYdgC68bhyhG9KWygCfxej9FRBQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le style Gasshō-zukuri et la toiture de chaume (1/3)",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczPo5gJP2yFihtRBHnejOmIOKMOF_FdvbrpL36HubPRq1IqtR0CnWYBaI07rPrVWT81H6URCPqkX_TTtB-3q5u5XGxw_hK9fNWr948ByUMqkwk1G408Zz14aTe7iA9EIB3cixZkAPfIQT8S-WelU3bPRpg=w1221-h919-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczM8oKyDrMrwOD2AfQafY4Uij9vFvJHbkIPMofuvINa_JhYI6sfxZ-gSrPN1Kgdxt0DK6d7UYRMUYnqccg-re-BI5i_2aNK8VvFYT4fptQ0ufK_Tf16Kj_xA8pMfIeIErHf5jiRHHvUCNNqnQw4DrmDMTw=w1379-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOWAAEIaihAR9jKKtu9AAtOyClkMeBtEgZT4QdY9GXXDyjlW2g_ljWXLV7MXCJnXUbFCKBFwCZcl4Dp7EWmH7HUXHK5j2m5GddyrPpsA37rYy1VVB8S_QspKYR3pqbcncraRDmyt6Epbxjire2F3pjQKQ=w613-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczP5CtoOR57VSOx3Qo5YwE3hz4xw4uBEZchAn3I4dE6ZKpWQOEn6y6S-GZTnvh-eDvX4BUeqA-kehLqd-U-R3N5qK3YwMBBGL2H2AVjFUl9-JgCnFH8Mb7SADKfPGn6N_CIY_rFU_eypiLlclZ6Cb-BCdw=w1379-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPYJRuwAlm0zXIIg1IIqJH-_8q4i6hWQfBdNUeMDwXIsKAfJdNsj1HqgfomUP4SalDRXupfOg104OoPBFJ-t9mVDptPIdXq4KFpXvcpcaA4sd8qc_6N-iSSrvtgpUnuOc6ftSPnudVV3hPODtt8_lH2LQ=w1379-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNZIuPpEOUDiOod1IYhmBeqEYQ5Zw3IV_r-3ZmI-pMmag9w4JfZLEykRhwmNkjZKSTs7OeHYv2NsoYa7rNYkZqm4HImd99IjvQaw-RQ3Bzx3niWw5FjFpmoKEhc9_3WYeHpo3rSjskcuH7MF03I_pjLuw=w1379-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczMS2DlpLCQsjhFc4sStlptai_metRAkVasGQ7a5PqtP0S4RS5bF5cyGOYwAkMtMGTYrmHZE0uHvOfTGfx4-zE2vH7y3VyuJ7iMR96XQJtO_HMmKLYMqfSzfzPWvkt2BdUvvN-nY2GS6pWmyJD6RzK9tMg=w1379-h919-s-no-gm?authuser=0"
+          "https://lh3.googleusercontent.com/pw/AP1GczOWAAEIaihAR9jKKtu9AAtOyClkMeBtEgZT4QdY9GXXDyjlW2g_ljWXLV7MXCJnXUbFCKBFwCZcl4Dp7EWmH7HUXHK5j2m5GddyrPpsA37rYy1VVB8S_QspKYR3pqbcncraRDmyt6Epbxjire2F3pjQKQ=w613-h919-s-no-gm?authuser=0"
         ],
         text: "Le hameau principal d'Ōgimachi doit sa renommée universelle à ses maisons de maître en bois et chaume édifiées selon le style Gasshō-zukuri (合掌造り). Cette appellation poétique, signifiant « construction aux mains jointes pour la prière », renvoie à l'angle triangulaire très aigu de la toiture, qui évoque la posture des paumes unies des moines bouddhistes.\n\nCette morphologie ne relève d'aucune coquetterie esthétique mais d'une adaptation biologique et physique absolue aux rigueurs de l'environnement :\n\nUne inclinaison vertigineuse oscillant entre 45 et 60 degrés permet à la neige abondante de glisser d'elle-même sous l'effet de son propre poids, évitant l'écrasement mécanique des combles. Le toit est recouvert d'une épaisse toison végétale de soixante à quatre-vingts centimètres de chaume (susuki, roseau de Chine), tressée de manière étanche et respirante."
+      },
+      {
+        title: "Le style Gasshō-zukuri et la toiture de chaume (2/3)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP5CtoOR57VSOx3Qo5YwE3hz4xw4uBEZchAn3I4dE6ZKpWQOEn6y6S-GZTnvh-eDvX4BUeqA-kehLqd-U-R3N5qK3YwMBBGL2H2AVjFUl9-JgCnFH8Mb7SADKfPGn6N_CIY_rFU_eypiLlclZ6Cb-BCdw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPYJRuwAlm0zXIIg1IIqJH-_8q4i6hWQfBdNUeMDwXIsKAfJdNsj1HqgfomUP4SalDRXupfOg104OoPBFJ-t9mVDptPIdXq4KFpXvcpcaA4sd8qc_6N-iSSrvtgpUnuOc6ftSPnudVV3hPODtt8_lH2LQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNZIuPpEOUDiOod1IYhmBeqEYQ5Zw3IV_r-3ZmI-pMmag9w4JfZLEykRhwmNkjZKSTs7OeHYv2NsoYa7rNYkZqm4HImd99IjvQaw-RQ3Bzx3niWw5FjFpmoKEhc9_3WYeHpo3rSjskcuH7MF03I_pjLuw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le style Gasshō-zukuri et la toiture de chaume (3/3)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMS2DlpLCQsjhFc4sStlptai_metRAkVasGQ7a5PqtP0S4RS5bF5cyGOYwAkMtMGTYrmHZE0uHvOfTGfx4-zE2vH7y3VyuJ7iMR96XQJtO_HMmKLYMqfSzfzPWvkt2BdUvvN-nY2GS6pWmyJD6RzK9tMg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
       },
       {
         title: "Orientation bioclimatique et charpente flexible",
