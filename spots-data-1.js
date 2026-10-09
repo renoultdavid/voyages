@@ -11890,7 +11890,7 @@ const travelSpots = [
         text: "La « Chapelle de la barque » : le cœur du sanctuaire\n\nC’est le sanctuaire de la barque d'Amon. Son nom ancien, en égyptien, était l'« Opet du sud », ce qui signifie le « sanctuaire méridional », soulignant son rôle complémentaire au temple de Karnak.\n\nInitialement construite par Amenhotep III, cette chapelle a été entièrement reconstruite par Alexandre le Grand après sa conquête de l'Égypte. En faisant cela, Alexandre cherchait à légitimer son pouvoir aux yeux du peuple égyptien en se présentant comme un pharaon et le digne fils du dieu Amon. L'élégance de la pièce réside dans le fait qu'elle s'intègre parfaitement à l'architecture égyptienne tout en portant la marque du conquérant macédonien."
       },
       {
-        title: "Sanctuaire intérieur de l'Opet du Sud",
+        title: "",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczNBhP-bbvVgU1m0Fc4Y8XO_WiTXC2Oe1gtPBtGV39McSdHfUvqLFkegfS-ui666oquACj3N8LcKONZLwyfxUuyb-QR4Et0qTDM9IgvI7v-SPmS-SpmQF2Kpz1kTqYHywEOpBsF2EGNptcLO-1Tc4FvXtA=w1741-h1161-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczPKN4IE0PcdEDpN0vcugBMFqCL5ByrKO0zv-6j8N-8cBzIW7TN9BlK7GkAFKvEQKiu-U94evM4z9iyjHRrY9foUddzABdSDCO-v98vn0N0pFohvUrRNhe2Sya1L-o07PC0SUVkv5gxejbwnp3czI7bubA=w1741-h1161-s-no-gm?authuser=0",
@@ -11908,7 +11908,7 @@ const travelSpots = [
         text: "Les murs du sanctuaire sont ornés de bas-reliefs d'une grande finesse qui décrivent des scènes sacrées et des rituels.\n\n- Le transport de la barque sacrée : Les reliefs montrent les prêtres transportant la barque sacrée d'Amon, supportant la statue du dieu, à l'intérieur du sanctuaire. C'était un moment clé des processions annuelles de la fête d'Opet, et cette salle était le point final où la barque était déposée.\n- Offrandes et rituels : On y voit également de nombreuses scènes d'offrandes. Le roi (représenté ici par Alexandre le Grand sous ses noms égyptiens) fait des offrandes au dieu Amon. Ces scènes symbolisent la relation intime entre le pharaon et la divinité, garantissant l'ordre et la prospérité du royaume.\n- Alexandre en Pharaon : La présence d'Alexandre le Grand est unique. Sur ces reliefs, il est dépeint dans la tenue traditionnelle d'un pharaon, coiffé de la double couronne et officiant en tant que grand prêtre. Les hiéroglyphes qui l'accompagnent inscrivent son nom dans des cartouches, le plaçant formellement dans la lignée des souverains égyptiens."
       },
       {
-        title: "Bas-reliefs sacrés et cartouches d'Alexandre (2/2)",
+        title: "",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczN9na_eLhsu9Hgy9g01vDYcAVg6zX29oRjHIAlBSJxuq5T5SVpeWJMVBOTzQ7_CGoyE0RS-cXaNj_0HomzysJ7TGFtLE_tqGiQy0tblRduFyHBNAtjOKgitJaizQWK0K93bfYMyHCEncjsFbCXwN7CDvw=w1741-h1161-s-no-gm?authuser=0"
         ],
@@ -11952,18 +11952,177 @@ const travelSpots = [
     subdiv: "Louxor",
     altitude: 78,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Moyen & Nouvel Empire)",
     century: "Antiquité (XXe siècle av. J.-C. à IVe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Thèbes antique et sa nécropole",
+    unesco_name: "Thèbes antique et sa nécropole",
+    counts: {},
     lat: 25.7188,
     lng: 32.6573,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOtwfMs5d5wL1IzTbxA7Z3-Z5tARLoOdWDIQWtEuAseuIBIxkYrLQYMer35gjiseXa0FB52lFZCekz_-WroF9o09HewjJKyABFSArCwXEXvcbQCYOrUOUWW6pPF1Ftpv6m_8TzY53xcx12x37egMIq1tg=w2956-h1971-s-no-gm?authuser=0",
-    description: "Plus vaste complexe religieux de toute l'Antiquité et cœur battant de la théocratie thébaine, le domaine d'Amon-Rê à Karnak s'étend sur plus de cent hectares sur la rive orientale du Nil. Érigé, agrandi et remanié durant près de deux millénaires par plus de trente souverains successifs depuis le Moyen Empire jusqu'aux empereurs romains, ce sanctuaire démesuré incarnait la résidence terrestre du roi des dieux et le centre cosmologique du pouvoir royal. Franchir son colossal premier pylône ouvre sur une succession prodigieuse de cours monumentales, de propylées, d'obélisques monolithiques fendant l'azur et de chapelles consacrées aux figures divines de la triade thébaine, Amon, Mout et Khonsou. Chef-d'œuvre absolu de l'architecture mondiale, la grande salle hypostyle déploie une véritable forêt pétrifiée de cent trente-quatre colonnes de grès titanesques dont les fûts et les chapiteaux papyriformes s'élèvent jusqu'à vingt-trois mètres de hauteur sous des plafonds jadis peints d'or et de lapis-lazuli. Baigné par les eaux miroitantes du lac sacré où les prêtres purificateurs célébraient les ablutions liturgiques à l'aube, le site dégage une puissance sacrée sans égale, où chaque bloc sculpté de bas-reliefs triomphants murmure la gloire éternelle des bâtisseurs de pharaon.",
+    description: "Plus vaste complexe religieux de toute l'Antiquité et cœur battant de la théocratie thébaine, le domaine d'Amon-Rê à Karnak s'étend sur plus de cent hectares sur la rive orientale du Nil.\n\nÉrigé, agrandi et remanié durant près de deux millénaires par plus de trente souverains successifs depuis le Moyen Empire jusqu'aux empereurs romains, ce sanctuaire démesuré incarnait la résidence terrestre du roi des dieux et le centre cosmologique du pouvoir royal.\n\nFranchir son colossal premier pylône ouvre sur une succession prodigieuse de cours monumentales, de propylées, d'obélisques monolithiques fendant l'azur et de chapelles consacrées aux figures divines de la triade thébaine, Amon, Mout et Khonsou.\n\nChef-d'œuvre absolu de l'architecture mondiale, la grande salle hypostyle déploie une véritable forêt pétrifiée de cent trente-quatre colonnes de grès titanesques dont les fûts et les chapiteaux papyriformes s'élèvent jusqu'à vingt-trois mètres de hauteur sous des plafonds jadis peints d'or et de lapis-lazuli.\n\nBaigné par les eaux miroitantes du lac sacré où les prêtres purificateurs célébraient les ablutions liturgiques à l'aube, le site dégage une puissance sacrée sans égale, où chaque bloc sculpté de bas-reliefs triomphants murmure la gloire éternelle des bâtisseurs de pharaon.",
     visiter: "La découverte commence traditionnellement par le dromos d'entrée bordé de criosphinx à tête de bélier protégeant de majestueuses effigies royales, avant de franchir l'imposant premier pylône donnant accès à la vaste cour péristyle. L'émotion atteint son apogée en pénétrant dans la nef centrale de la salle hypostyle, où le jeu d'ombres et de lumière filtrant à travers les claustras de pierre sublime les hiéroglyphes monumentaux gravés par Séti Ier et son fils Ramsès II. La marche se prolonge vers le sanctuaire de la barque sacrée en granit poli, encadré par les aiguilles vertigineuses des obélisques érigés par Thoutmosis Ier et la reine Hatchepsout dominant l'enceinte de leurs silhouettes dorées. Au bord du lac sacré, les visiteurs découvrent le colossal scarabée d'Aménophis III, symbole solaire de renaissance perpétuelle autour duquel la tradition invite à effectuer plusieurs révolutions rituelles. L'exploration se parachève en longeant l'axe processionnel méridional en direction du temple de Khonsou et de la spectaculaire allée des sphinx réaménagée qui reliait autrefois Karnak au temple de Louxor dans un faste rituel inoubliable.",
-    link: "https://photos.google.com/share/AF1QipMMg8FSRFZjda0onjYcUzb4V1FhHycLVSV_NZ5biFM-VhtZT0jv9K4XjAlIgFNYkg?key=R2VmWDZhcTd4NjluQzA1anFzRGw0S014X3F2ZUZn"
+    link: "https://photos.google.com/share/AF1QipMMg8FSRFZjda0onjYcUzb4V1FhHycLVSV_NZ5biFM-VhtZT0jv9K4XjAlIgFNYkg?key=R2VmWDZhcTd4NjluQzA1anFzRGw0S014X3F2ZUZn",
+    sections: [
+      {
+        title: "L'allée des sphinx criocéphales d'entrée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOtwfMs5d5wL1IzTbxA7Z3-Z5tARLoOdWDIQWtEuAseuIBIxkYrLQYMer35gjiseXa0FB52lFZCekz_-WroF9o09HewjJKyABFSArCwXEXvcbQCYOrUOUWW6pPF1Ftpv6m_8TzY53xcx12x37egMIq1tg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN-hj9MeIpFtCw3fb27UuPlCEZMZjppol0YePAe-4oJBrdJudG8_NE_dqwncU8ib3oz4SOkWhfTTm8PZYTzypxijaz6aVW5c5TMxzpQM9BFgfBr3arsxP7YqapBPMo8a8bYqM2a6QGHv8MI3U2a3VYneA=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "L'allée des sphinx à l'entrée du temple de Karnak, juste avant le premier pylône, est une voie bordée de sphinx criocéphales, c'est-à-dire à tête de bélier et corps de lion. Le bélier était l'animal sacré du dieu Amon-Rê, auquel le temple est dédié. Ces statues, dont certaines portent le cartouche de Ramsès II, sont distinctes de l'avenue de sphinx plus longue qui relie Karnak au temple de Louxor. Les sphinx de cette allée d'entrée sont disposés de chaque côté de la voie et symbolisaient la protection du temple et du dieu."
+      },
+      {
+        title: "Topographie sacrée du dromos thébain",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNjy85xXcog2oZP7EO8zfXsHMJnGef-By71lCx2YjsLi4zoP_pgpRrdRYcXHhbTKglSovsvpH4CDbkEc4_zFwbCniS1HltxolZdufsgdquDr_cvcTesLy_TE2owuyM5E0E6SLoIpnX1uYxGx-EfUT55CA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMsrJ8Qgvgq7k6ObzoLJHfuQDxnASvVWIvLtRquHw0AGmzMntm-iC2c0rnpQswocBdshInk5VSAs_86WtOKJGfGAh5StkK8nUMv3aRkTzwqrG5cbH7xztkRXm8kQV13U9oU7SPMc9o2oDtnbH0-C8bxZw=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Selon les sources, l'allée qui relie le temple de Karnak à celui de Louxor comptait à l'origine 1 057 statues de sphinx. À l'entrée du temple de Karnak lui-même, avant le premier pylône, on en compte environ 40. Le nombre total de sphinx sur ces deux allées est donc de 1 097."
+      },
+      {
+        title: "La grande cour bubastide et ses criosphinx",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNExZUFJHsyBVpbsfXOH7uhX2Rz7AqWMFChBM-Lot4V8yFecAFLtMaN3jBlwUCyKZLGxlcPz2lMX7Yiubt2QjVaMak5FZqFDDrr8WLLEBy8spnQnkqnPaFjrXEVwZ_EQAG_AdG3mL7WVClOYjP4zERdTQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN-vmwSgWCNQnDp8GiNxA4aJeOs6kvC2mpvdV1kkDy3-iaGAV5wS7VwrcspPgrSDrTSmpb0Nl0Mo0D1WR7FaVg1Ni3DBoHiZzxVNvsL8gCT8Rsad4BAEL1i_n363GYK4MKcpawU11K2cFXYwoiZllpM3Q=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM0toyxNnmTJEcSnUN3nKUV_ZNtw2pIfu3qAIIiF98PLcJFCwvnjY1BersJXwNsEVOkde01JzfVFgWjWaVOXd7pZ1GqCqfQmChBI_auaj_aAqDTpn0y1W8tUE0ipkctNJjs8bAvPjHwUzpQuXqA1LhNow=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La grande cour de l'enceinte d'Amon-Rê à Karnak, également connue sous le nom de cour bubastide, est un espace monumental qui se trouve juste après le premier pylône du temple. La cour est bordée sur ses côtés nord et sud de statues de sphinx à tête de bélier (criosphinx) qui protègent de petites statues du pharaon. Elles sont la continuation de l'allée des sphinx qui reliait les temples de Karnak et de Louxor."
+      },
+      {
+        title: "Le temple-reposoir de Ramsès III",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPZqFMa4NECZfczZTqtMXEQrJtDzLe_V_gAKu5BW-eCRIlhkjLtSsIQvUuqLPuX5nPKWGPmV8VjHdz0vajyg0KaYRldShhey-LHTFi_FJjm7USAOoFfsymL4yeSwJ7Akjw6cqr2ZVkjWijrow_mRR97YA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNHFW5DLh8B9uGLjZ-vus3J-og0lYdrx-l1xlQkHSqxd149XfJsTbgrSqnHHBmv3BWcomAgwGMwSU1nfSyAmuMnCq8z4IsbCgE2E2y48DJpS3hgXzPpZEOIGq6kGtDft7fjHEUn2gd2lqRZZxRtk4L5Og=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Le temple de Ramsès III est un temple-reposoir conçu pour les processions de la triade thébaine d'Amon, Mout et Khonsou. Il se distingue par son architecture et ses reliefs."
+      },
+      {
+        title: "Péristyle osiriaque et scènes d'Opet",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNj242cQ1HTQMDWLc_xUa5SheUgoK-Pk11XQ0iZt3xFM6hjme6gnAc11Ay0mXH7OKDqL_iGw3qrZj4kuUSk3u_-VrPCpKi5m5ClQ1XN39WNUSbzCUyaLkZtFDf4ZNoUVnDkod59R6MNbFGoLGIAyEIZ1w=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOKlr9QRVQ2bDwc7N0S7UoR1qSbODnIQKlcXvZGO-S5Ka2XH8HaNm6zS_kMa9eiW3rrQqqBLtjt3bqt9TXAwoCNSWKbqPa1amURioqq-19H1RNB_cjmF4PWHetcyUd53n79-yD7lXWDQVa3Lp6TQBp4BA=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Bien que plus petit que d'autres temples du complexe, il possède tous les éléments d'un temple égyptien. Il est doté d'un pylône d'entrée qui mène à une cour à péristyle. Cette cour est bordée de huit statues osiriaques de Ramsès III, représentant le roi en habit de jubilé. Une rampe mène à une petite salle hypostyle, qui donne sur les trois chapelles destinées à accueillir les barques sacrées des dieux.\n\nLe pylône du temple présente des scènes classiques montrant le pharaon Ramsès III écrasant ses ennemis. Le temple comporte également d'autres reliefs qui reproduisent des scènes du temple funéraire de Ramsès III à Médinet Habou. Les scènes gravées sur les murs extérieurs incluent la procession de la Fête d'Opet. Le temple servait de « maison de Ramsès III dans le domaine d'Amon » et était un lieu de repos pour les barques sacrées lors des processions, comme celle de la fête d'Opet, qui reliait les temples de Karnak et de Louxor."
+      },
+      {
+        title: "Le deuxième pylône d'Horemheb et Ramsès II",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOhUoaD5i8a6jqtvxsf9Nwo12WPqE3bqbZj48joq2Nh5Xpb01JJ9VipN1fjEMpkHIaIb3aCciHgTsp_vmeg8s8uOPNuWVVXKLj8j6zWv1Hi9ySTazvM0HiL8HFLEr8hPnKUYYIk7CvDfA_LabNPGCo4aQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNECVelve3tyidTUo24l4Hzuo_lHXpt9DO1Qe__aluiL2GHyqwYkctLaI6Ir-u4h9ywHmJUj2YEB_phwblJ77tjNBw_aQvwMq6-CGgSORYNkFpMDKN1gNubkptGdkWi_iNOCfiUe3k5nl5PppyfXgB7xQ=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Le deuxième pylône du temple de Karnak est une porte monumentale qui marque la transition entre la cour bubastide et la majestueuse Grande Salle Hypostyle. Sa construction a été initiée par le pharaon Horemheb et achevée par des pharaons ultérieurs, notamment Ramsès Ier et Ramsès II, ce qui en fait un monument à l'histoire architecturale riche et complexe. Les murs du pylône, construits en grès, sont recouverts de reliefs qui illustrent des scènes rituelles et historiques. Un enduit de gypse ou de plâtre, d'une blancheur remarquable, a été appliqué sur la pierre pour lisser la surface avant d'être peinte. C'est cette sous-couche qui est visible aujourd'hui, les couleurs vives ayant disparu avec le temps. Les reliefs montrent des figures pharaoniques en profil, accomplissant des offrandes aux dieux et recevant leurs bénédictions. Ces scènes, accompagnées d'hiéroglyphes, fournissent des informations précieuses sur les rituels et les croyances de l'époque. Bien que la porte du pylône ait été restaurée et décorée par la suite à l'époque ptolémaïque, les reliefs du Nouvel Empire restent un témoignage de la grandeur de la XXe dynastie."
+      },
+      {
+        title: "La forêt minérale de la Grande Salle Hypostyle",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPEUvN9ev-DQhBP7IbedBKVhNs915JF2dff5VlJ14X72tYgBfwxvvVr8tWE3lJ2LdykR1j6EWQpi28GK4yyBpaG2vKYqqiKgzV9av4QWtRFW3fpOENUkmElavfeIU1VH_0wIph4SsFokSWCmzpFnjH-5w=w1741-h2320-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOrBShA1P3JN0MizGRacUd8Lasjay38y0yisbrfbqG4pCf1gsoG054mxYeAQwiFiEt1rQGuWHsOGNS0t_IU-eDij9Y-jq4x_WZlJKp1Zi1VPkuczRPIYkvi6fREhKmh8jER3HVXvTqwOupllCzWuVdYfQ=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMlT00JOvAxYH3EAZWvZuYPMEuGrMLNLqIAf2dKd_lGkDwHIqPAJgauo4BmOUN0zgLAF_HGI3Q9rDUqU8bH1hfj2wms3VH_ZlGq7Iqdn5-fFvwCfqUVlaj4NKJrDrkQ9dYMvNpFtGUCtnVvBM2LhsVEkQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La Grande Salle Hypostyle du temple de Karnak est l'une des structures les plus célèbres et les plus imposantes de l'architecture égyptienne antique. Cette salle couvre une superficie d'environ 5 000 mètres carrés. Elle est composée d'une véritable « forêt de pierre », avec un total de 134 colonnes massives, disposées en seize rangées."
+      },
+      {
+        title: "Les douze colonnes colossales de la nef centrale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPfPtjG8uWNXsfrXwMIfkV_bPKm9LKu2KGTovv8CfZ1sy1ASf6rnIEpHFpZc3E3hYvcqns4htUa7w0hAVat07OUF_YMQIHDGtu_0zjvKhif4P1rozSs5kHmXLzVDBNNB5_3HBYG3Mtw24FxdvpISl8SIA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMxap6cbYLQR1fvGTwQYcyvYv-6AwDJjbRLD_oIvkN3InsFdFgrE9RyUfNwGfUWCBRN0I6ZxTcpJ7pTJpjf25sRluqmy8rnvdxM4XaIB6FlSvI-O7qE5BnUks5yR9D2fWDGBytqIe0O3Wjm-yggpTk_Kg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Les colonnes centrales, au nombre de douze, sont les plus grandes. Elles mesurent 23 mètres de haut et ont un diamètre d'environ 3,5 mètres."
+      },
+      {
+        title: "Chapiteaux papyriformes ouverts et fermés",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO7xVZ_va_NeIra-gHp8a1Ltnh2D03hRn3LRSsqqSeK3Z5akNYxlxQSOWsSmRyUt-buIR5_NrQTMRraWQVYK8OjbB33lsRGDRhGr-Bg1cQEuq2mZkKZN66hFE_c8ha4bOF5fwvnmeyd_VX3Trc1LpAf0A=w1741-h2320-s-no-gm?authuser=0"
+        ],
+        text: "Leur chapiteau est de type papyriforme ouvert, symbolisant la fleur de papyrus épanouie. Les 122 autres colonnes, plus petites, mesurent 15 mètres de hauteur et leurs chapiteaux sont de type papyriforme fermé, évoquant un bourgeon de papyrus."
+      },
+      {
+        title: "Reliefs polychromes et campagnes militaires (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNy-Xw-idQ_N1r0PYttYtNS6Xf9eHyvy8tKoUENcGSsaPYhdg7-gHANgylFY2ntflBBp6O162y5luI6KhyMXEAfLKXMN7j3oDMp8Z3KiL1FCPYeU69SbJcRfa9MK-LPvFZck6226K39COTEpii5s6RocQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPm4duwqgoF8vKN4vJJfeYea18xXlih_UFHzgZfum-Th3WzH8EZYLBpjXdCxbKOD-tSqjF0IOBqW2YE5R_kPtPr7BCHXc9Nq5_8prLXRT9EHWBVDMLr42VeszlgEsyW_0AWBhSILAMoepngiWzS1OsJZw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOt4G58VEkBo7_EdIrSbLcakGuv3BRDecVLq7L6Usd9kv1YL0Eqk93bIEhDL1hdzHdSEgE5bhexMWilWjqTfE5z3IIa7aERJ_i2nVcTBdWMaTks4HoGHYia5PYEe7ynyoB2gSTW72gjHi4TGwZ7VUizVg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La construction de la salle a été initiée par le pharaon Horemheb, mais sa conception et sa décoration principales sont l'œuvre de Séti Ier (XIXe dynastie). Son fils, Ramsès II, a achevé les reliefs et les inscriptions. L'alignement des colonnes et la disposition des chapiteaux symbolisent un marais de papyrus primordial, rappelant le mythe de la création.\n\nLe toit de la salle était soutenu par les colonnes et des dalles de pierre. La différence de hauteur entre les colonnes centrales et latérales créait un effet de clair-obscur, la lumière pénétrant par une sorte de « fenêtre haute » ou de clerestory, illuminant ainsi la nef centrale.\n\nLes colonnes et les murs de la salle sont entièrement recouverts de reliefs polychromes et de hiéroglyphes. Sur les murs extérieurs, on trouve des scènes de batailles et de conquêtes militaires de Séti Ier et de Ramsès II, notamment les représentations des campagnes syriennes. À l'intérieur, les reliefs illustrent des scènes de rituels religieux, de processions, et d'offrandes aux dieux, symbolisant la dévotion du pharaon."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM3OnxyUelTicygZUjlTKJrRVecZFp3FZJx_pucxw2lpO17UqeIpc9xiaKvAm0CnuR36kbN9DMygvXgeSWJ_f-l5BzkOIOZ1yWGB7whzg0IxJbiPWVGtp2TCYRwPCPydGCygIl_3fnNXFgUso4kImE-4w=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Pylône d'Amenhotep III et obélisque d'Hatchepsout",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNmpUC83y_77yl1-w2Vi74RfSbTelUJZhoWMFkdx6HW2q0cEEiaX_ezZHZinNyyZy7z5CZdZuyknjwVDkwOpeeI839lh6nUN44AYX2l67N8JdgL4tewFaV3PqpvXpP5LWjs59yEcL0DyR8wFarQlDSbKA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNGw_RNbcaB3Z9m1JT4KIy3cVoCXoTE0TmzGvonRU5qhUacNT2n8hA0LYgQoymBjPv92Q0UI795RjWMBOPRdwZSUL10Hf5M7Aj7XQMontG-A5gL1bay09Sbdm95l1G5xzqqpzEV_mmE8InZet1HbdQVuQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Le pylône d'Amenhotep III mesurait plus de 12 mètres de profondeur et presque 96 mètres de long. Il était décoré de scènes, dont une montrant le pharaon sur la barque sacrée d'Amon. Lors de sa restauration, des archéologues ont découvert des milliers de blocs de grès à l'intérieur de ses môles (les tours du pylône). Ces blocs provenaient de monuments plus anciens qui avaient été démontés, notamment la Chapelle Blanche de Sésostris Ier et la Chapelle Rouge d'Hatchepsout.\n\nObélisque d'Hatshepsout : La reine pharaon a fait ériger deux obélisques monumentaux, hauts de près de 30 mètres et pesant 325 tonnes chacun. L'un d'entre eux est toujours debout dans l'enceinte du temple. Le texte gravé à sa base mentionne que le transport et l'érection de ces obélisques ont pris seulement sept mois. Le sommet, appelé pyramidion, était à l'origine recouvert d'électrum (un alliage d'or et d'argent) pour refléter la lumière du soleil."
+      },
+      {
+        title: "La découverte archéologique de la Cachette",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOJ79W7Er975X8oZJmiyiJzSPU9WrVxd1Qg3NGH7YzT_PHbWFaw-pebEtxxuBWjHQ2DQnOCtvvcLfH-qxa3MX36nkYGRojnFg3npvGMSoEHAro5kDwU-y_eIXLQVihtXMxztbx6NPxAIA5zBjBm-hYywg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOROrPh2AkfQxYYBHRDYPB8TCDZuuVc1Je98t5JWtZdY27sdkDNetjhaA17rTO8_AEqcaC4z-ZDHJWe2iaibdk6r47tJvO5m0mzcU_JC72kxkA8z2M-_2QWW-YvRC6y8LWQ5RcOjGTQalLb0Yr0cK4PYw=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "La cour de la Cachette, située entre le 7e et le 8e pylône du temple de Karnak, tire son nom d'une des découvertes archéologiques les plus importantes du site. En 1903, l'archéologue Georges Legrain a mis au jour dans cette cour une fosse (ou « cachette ») contenant une quantité stupéfiante d'objets, en particulier des statues. Ces fouilles, qui ont duré jusqu'en 1907, ont révélé plus de 700 statues et environ 17 000 statuettes en bronze. La plupart des statues appartenaient à des rois, des prêtres et des fonctionnaires qui ont officié au temple sur une période allant du Moyen Empire à la fin de la période ptolémaïque. On y trouve notamment des effigies de pharaons tels que Thoutmosis III et Sésostris III. Ces statues étaient probablement des offrandes au dieu Amon-Rê ou des représentations votives de leurs donateurs."
+      },
+      {
+        title: "Le pylône VIII et les colosses d'Amenhotep Ier",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMBfEChBQdu0r9oQNWp6zvA2OgcuFAzoEjIdvyLOuuf_LUYaGfFRmtaJGM-UloxxmndSy3PazDzCPssf-s8LqiX5dol3_JBgENmfANPt69V-YuHA3uh47Gy1ev4cwXwA-pZm3olxEYGixb9_BZSMXfUlw=w1741-h2320-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNWFLRWDTQAm742ZrRrS857u99kxHVlJ6AyQFO09f81PBeDrDqr4gY_igz9MhhNuKZjjlbNn1N6Xz4tOa3zZpjTghYw9_rQqPyRzAUn9tCl_sCa1sFHsZ5eBCh4-SWr7I1XpLKxedANrCn30ZJi9M_orQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Le pylône VIII, construit par la reine-pharaon Hatchepsout et achevé par son successeur Thoutmosis III, est une structure essentielle qui délimitait le temple d'Amon-Rê. Sa particularité réside dans les statues qui l'entourent.\n- Les statues de pharaons assis : Devant ce pylône se trouvent les restes de grandes statues de pharaons en position assise. La plupart d'entre elles ont été identifiées comme représentant Amenhotep Ier (un ancêtre de Thoutmosis III et Hatchepsout), vénéré comme un dieu après sa mort. Ces statues colossales, faites de grès et de calcaire, sont alignées de part et d'autre de l'entrée.\n- Symbolisme : La présence de ces statues d'Amenhotep Ier est significative, car il était considéré comme le patron des artisans qui travaillaient sur les tombes royales de la vallée des Rois. Leur placement à cet endroit précis soulignait la légitimité du pouvoir royal et la continuité dynastique.\n- Fonction : Le pylône VIII marquait la limite sud de la cour de la Cachette. Il était le point de départ de la procession de la Fête d'Opet, qui emmenait la barque sacrée d'Amon jusqu'au temple de Mout."
+      },
+      {
+        title: "Le pylône IX et les talâtât d'Akhenaton",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNln_y7AwlFFpFscPLz863Ox_byzpUJfXUUXHwYX8dow7D4D9IjfI09opOGTy0Um26bTgMix3AiQUvpSxKTQep5ynkfA1O6gmfKpEXjC7s-FP0pDf4aB4SsqbrjbCcqIdGPKabnGgbD626y8Y9R7MhL7g=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO92y5U5YJdJ5V-HxaD8TYl3PhlWTueBQQu0vpbq3fNsA1sP-xNoHmyb3MsTS69NvGxQCL2UOU-5GHRaw13mlbJ3q7YkeNnVITpiA58Nns_oScd2OhmYt5LdBoXXyih4KQQqruCWlh7jmymQw8FjCTO1Q=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Horemheb a fait construire le pylône IX de manière hâtive, en utilisant des milliers de blocs provenant de la démolition des temples que le pharaon Akhenaton avait dédiés au dieu Aton. Ces blocs, appelés talâtât, ont été retrouvés à l'intérieur de la structure du pylône lors de fouilles.\n- Fonction religieuse : Le pylône IX, tout comme les pylônes VII, VIII et X, faisait partie de l'allée processionnelle utilisée lors des grandes fêtes, comme la célèbre Fête d'Opet.\n- Ruines : Le pylône est aujourd'hui en très mauvais état, et il n'en reste que les deux extrémités.\n- Décret d'Horemheb : Sur le môle ouest du pylône, on peut encore voir une stèle connue sous le nom de « Décret d'Horemheb », qui relate la remise en ordre du royaume après la période amarnienne d'Akhenaton.\n- Stèles et reliefs : Bien que très endommagés, des reliefs sur les murs du pylône représentent le roi Horemheb massacrant ses ennemis, une scène traditionnelle sur les pylônes de l'époque."
+      },
+      {
+        title: "Le Lac Sacré et l'obélisque brisé",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPu1ZNycZjqOXuBV_uJwY1xtUmRceoD0Z-OWzjE63To0P1yrsmn6bZWzdM_aTZqIRRO3AQCzTIeiJLoNLoEHR0Op-vMwg7nDyfek9t0ffTu2VxiJPFO1FeumntkNUvrcyW2LZT3TEhaejQkBqGMgrm3BA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN5HnYvbydG_xlC2x_EkcnnFx56zzFb7Fl-XKadD7zVkCzBA3x-bFg0xefOcOnfvhnRkR2uHKvOz7ue9-xMOUYvNtBUE67vH6YE0cMRmiQxfKbQh5UGHe3gkWxDYfey20ggGQ7XhknyhhgPynX-09WLTw=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM-BhFbWQuMX8Ch_M3x8QXlUUn1b1Hw8K_092Y3PJt2Qo_-A9C8leyBsT9knRKxLBP0z_uebGVj16aX7BNmyeCZN4s3c27efjN6ybD-_a6YAMcrick04ESHBGg1xxpy9SNBnag-fZ4XL-mmkWzO8y1RXg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Derrière la Grande Salle Hypostyle du temple de Karnak se trouve la partie la plus endommagée de l'un des deux obélisques monumentaux de la reine-pharaon Hatchepsout. Tandis que le premier obélisque est toujours debout, le second a été brisé, probablement par un tremblement de terre. Aujourd'hui, il ne subsiste que les fragments du monolithe de près de 30 mètres qui gisent au sol, à l'exception du sommet qui a été redressé à la verticale par les archéologues. C'est le long du Lac Sacré, qui servait aux prêtres pour leurs ablutions rituelles, que ce vestige de l'obélisque repose, témoignant ainsi de la tentative de Thoutmosis III d'effacer le nom de sa rivale tout en préservant le monument en tant qu'offrande à Amon.\n\nLe Lac Sacré de Karnak est le plus grand lac artificiel jamais construit par les anciens Égyptiens. Mesurant 120 mètres sur 77, il se trouve au sein du grand temple d'Amon-Rê. Alimenté par les eaux souterraines du Nil, il jouait un rôle essentiel dans le culte. Les prêtres y effectuaient leurs rituels de purification au petit matin, et des processions sacrées s'y déroulaient sur des barques. Le lac était aussi un élément de la cosmogonie égyptienne. Il symbolisait l'océan primordial, le Noun, d'où, selon la mythologie, le soleil est sorti et où la vie s'est renouvelée chaque jour. C'est pourquoi, à son bord, se trouve l'une des plus célèbres statues du temple : un grand scarabée de pierre."
+      },
+      {
+        title: "Amon aux traits de Toutânkhamon et protocole royal",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMBq_mhXQtXL5dEiAtkeQjKF4InQidPr8QZRqtFQANqMT9swiPokKschrTw-rfC2_08rsG6kldcOUjoAMASSsfg8tBFjcwOtFQsr2FjWCGHqlRq-woho5nT24vO2bX6iJx13rjcMBBV-ElRWu9DhAKuxw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNSBo7gThkCKT9k_Vc0tO_BBvNFViZvmMZ_Y7pSM39v3F-n2X0pIOjqeJ2mD3HGtB99xbGc2OzvXqruSRPdfvVcXeUb90wHlOsPKHPqrJB4ethbnXEdYpY2ROfG0XoEY_8AkKl92rHcP2qC7aMJAajEwg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Il s'agit d'une statue du dieu Amon avec le visage de Toutânkhamon, découverte dans la « cachette » de Karnak par Georges Legrain en 1904. Cette statue est particulièrement remarquable pour deux raisons :\n- L'identité divine et royale : La statue montre une fusion entre la divinité, Amon, et la royauté, incarnée par Toutânkhamon. Amon, le roi des dieux, est représenté avec les traits distincts du jeune pharaon.\n- La damnatio memoriae (effacement de la mémoire) : Le nom de Toutânkhamon a été martelé sur les cartouches situés sur la statue, probablement par son successeur Horemheb, qui a voulu l'effacer de l'histoire. C'est le cas pour de nombreuses statues de Toutânkhamon dans le complexe de Karnak, mais les traits du visage du pharaon sont restés intacts sur cette statue d'Amon, ce qui rend cette pièce très rare et précieuse.\n\nL'abeille symbolisait la Basse-Égypte, la région du delta du Nil. Elle faisait partie du protocole royal et du titre du pharaon. Le pharaon était souvent désigné par le titre nswt-bity, que l'on traduit par « Celui qui appartient au roseau et à l'abeille », symbolisant l'union des deux terres d'Égypte : le roseau pour la Haute-Égypte et l'abeille pour la Basse-Égypte."
+      },
+      {
+        title: "L'Akh-Menou ou la Salle des Fêtes de Thoutmosis III",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNRvdSOMf_mp87GJvlkWZObsjVV3e6iShDqGcQKtowkDRQvhqqwe4oYcvhHdKBXpjbgHDP3_q1Gwbivdaj9dcxNbQI_9jR9pkMDCPed4SMd4LY5Ak6Z5Qs_JjetIknEbZf_JPixDDg5kfAnkNK7UCNO9A=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN6-Gpxb_tmtHkmR2w_qOflFwPsekppS0n0v993OOEVjj9KmwRkSD_Ncm5_RbNyXVxpmJDMUhEJfWrfDroZTjN0p86hxlT-TxP6_e8JWNOcLZyx4b6kMnY5IFGN4S7l2iTyFXpIDKZ7AeIV3zotFq4Ptw=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN2SwTFXMuW00aqSeyOOmZ2hx2yZxy-AXWj9WlYAGCc_OzOBiLoR1mSBNG-BRIZPet-0R_yUpJ_VOdH75O8wV2QOHGp8r7RSKozUpR8UVNtCtRRXGTb5SmZdP3dI4v39RJ-5U6LqIokO5pMNqxV_kUEdQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La salle des Fêtes d'Akh-Menou, construite par le pharaon Thoutmosis III vers 1450 av. J.-C., est une partie unique du temple de Karnak, conçue pour célébrer son jubilé. Contrairement aux autres temples qui s'alignent sur l'axe est-ouest, l'Akh-Menou est construite perpendiculairement à cet axe. Son architecture est particulièrement distinctive : au lieu des colonnes papyriformes traditionnelles, on y trouve des colonnes massives dont la forme évoque des mâts de tente, un style qui rend hommage aux expéditions militaires de Thoutmosis III. La salle, qui abrite 32 piliers carrés sur son périmètre, servait de lieu de cérémonie et de rituels."
+      },
+      {
+        title: "Le temple de Ramsès II qui écoute les prières",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPh2iJrvkPkoRj73HIX0NnecF3Zy1nTPGEY2Wr0ka2SA5V8zAphKhJSZKBOQaKJ6WBBGNw3-czLImHXaFEJdXYjlRJ1VfTTyzIRMWPcqspqi1PMOz6YNfgAs4q_XAbQaQbBHA2k6xeeakItU3GQZhtKPw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM79v3unuz9l2z9sQD5PzDoBeZKR1cu--3z25XxbP8qsK1GaXh5lhOnAMqcOK40BeMkq-kECa6jT1QnGvCXANnsCC1APIkkGiBrdj2jnxusSpVDswOSFZtRey9hEiTpzbx55Ln_LMaMfibbVnKL573urg=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Ce temple a été bâti entre l'an 40 et l'an 46 du règne de Ramsès II par son architecte en chef et premier prophète d'Amon, Bakenkhonsou. Il était destiné à la population, lui permettant de se rapprocher de la divinité et d'y obtenir une certaine forme de justice. Une de ses caractéristiques les plus notables est le réemploi de blocs de constructions antérieures, comme des colonnes de Thoutmosis IV.\n\nLe temple de Ramsès II à l'est, nommé « Ramsès-Méryamon qui-écoute-les-prières », était un lieu où le souverain pouvait exalter sa fonction royale et se manifester auprès des gens du commun. Bien qu'il n'ait jamais fait l'objet d'une publication exhaustive, il est connu pour son portail, son obélisque unique et le rôle important de son constructeur."
+      }
+    ]
   },
   {
     id: "vallee_des_nobles",
