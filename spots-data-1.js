@@ -9065,7 +9065,7 @@ const travelSpots = [
     subdiv: "Kanazawa",
     continent: "Asie",
     flag: "🇯🇵",
-    lat: 36.563770,
+    lat: 36.56377,
     lng: 136.650748,
     altitude: 15,
     is_island: true,
@@ -9077,6 +9077,16 @@ const travelSpots = [
     category: "star",
     counts: {},
     image: "https://lh3.googleusercontent.com/pw/AP1GczMeWn2AWIsfLcfCFMuX77BRCc82Yq_4ObJxeoGcVM3U5lSeuLgFyTNcVDeKq2aulPHIlxx5Ig00SrIW-daAHgHgNzr588QxSS5fMaJ7Az523yRfLdD2QSid9OwyBPOGdxKfSFI-86dfgpK9VOpD_fdhRw=w2966-h1978-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPK2rmhUOs2wcPiKcHoClaZI3yeu75rdrZ08gc8PMzaCCfijvn1LFp04zvbuOKtr3U_FXfmiGp-qPfdlxh3x_k5dBxRl7sTVcmQ7anf9C_0Qw6oF6g-qra93EKVQKVodQMzCYWszOI0M1SxFBjtQWs2_A=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNky0W894LI8Te9n8pPQiaAlkNOvD6RLjunXNksZ_4cGsSWvN5UqwBo7Ld8UTyyfyQVDtoxzDCvTmDFhNy_FKS2RFYsKqSsuAUCgGCRSa93fRCwgeZP0yyxbCWC_PbceFAYl903BJe2JyvLW9krbn5Ieg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Situé au pied des anciennes douves occidentales du château de Kanazawa, Nagamachi est le quartier historique le plus authentique où résidaient autrefois les samouraïs de rang moyen et supérieur servant le clan Maeda. Tracé selon un plan labyrinthique destiné à dérouter d'éventuels assaillants, le quartier est célèbre pour ses ruelles pavées bordées de dobei, de hauts murs d'enceinte en terre crue et paille recouverts de tuiles plates protégeant les demeures seigneuriales des regards. Le long des ruelles coule le canal Onosho, le plus ancien canal d'irrigation de la ville creusé au XVIe siècle pour acheminer vivres, bois de construction et matières premières depuis la côte vers la forteresse.",
     visiter: "Flâner le long des ruelles sinueuses pavées de galets en longeant les murets de pisé ocre coiffés de tuiles grises. Observer en période hivernale les komokake, ces nattes de paille tressée fixées le long des murs pour empêcher le gel et la fonte de la neige lourde de détériorer la terre séchée séculaire. Longer le cours d'eau du canal Onosho en observant les passerelles de pierre privées permettant aux habitants d'accéder à leurs cours intérieures. Pousser les lourdes portes en bois des cours ouvertes au public pour contempler les avant-toits ouvragés, les lanternes de pierre et l'ordonnancement rigoureux de cet ancien monde guerrier figé dans le temps.",
     link: "https://photos.google.com/share/AF1QipOe497_gZlxHEk4kXngagUk3X4z3IIX6fTII-zbuf_m9_TBFokmB_oXmbA5rIGzqg?key=dVQyQXBrRWdEdWs5WFZQOVZPQi15dmEzeG1reGZn"
@@ -9102,8 +9112,34 @@ const travelSpots = [
     category: "star",
     counts: {},
     image: "https://lh3.googleusercontent.com/pw/AP1GczPTV2Dsv3L4CtWJthCpI_ZNIdqPa7Bs6XSwsIj7Tf0Z29SbHSvAvB4Y36QILnB4pmgzERd5e_z9CkAuqUVrwdJFG_qYKKq0QMDvIiCkLn1xgMYNYZ7sT0IyJt7idASfcX-8TRdrdrtbKB4ta37HO63qlg=w1757-h2635-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPlt4avSgE-8QBjH2sGaVyBzxloHNz8uuCXZkZ6aLFva0w2guqSHC9Jw_ezpqP2S5bzd9xP60DJIc7umvf6bPjydrxVAUaHhodMFdWBHj5sw1N-8AnwU9B6RQ3PCs22iY8Enlf3tdyiN9uiWXPGNsYvBA=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOWJMF5FWV-t5wdPYtXW4MPWSeq5Ey5Wlo7PDY6iMq70AhebOZknmcy2ZJdx1pLTckjYSnN2leaZVZMdgbd6V45Un0L9J-KnkO3BAlXG01KLscsFFPWB5wxmtiz1Ma_P1twVN99nQ6sXy7OqXE-SLLhlA=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMYHfbBoNR0BVGfAe1nH_SxCd6jN5MMl--bDYKLk-r8Ln7OEMsPPq1dH1pPd3cxx8hvjz8FtXBLvUMWc_bBktH3OVcbhuLNBoOUg-gD6lbC6AftJqRptJTUXkoFt8GJPzY1lsGUM53TDX5kOr3uur0PeA=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOpLdhavbqnYXra_vzPQn2yjeYaIgbR_WhUhg7_R0gUTHjL56x-vShJ4HukoW4gYswNngKWJbwQVAiVOsT4lQ6-7rqqHoKBceAOiU7XQcgTACcoUraFgdGEnXYomaoK3edfkRsS6dVYewWAeHT6hQX_xw=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN3bK78K5d8qg7McD37ZURi1NSW04fhpXNcx_GRN3fwcLDMtWcrAyRgYyflxIWD7pjIFporYoKCozxD0QsVf50Nby-N4nYbgpcdxtLf2uazYpWIZm-kQlJHgxJ_b2S8t_2a-XLghSOJSG9nz2bJopU2RA=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPSb1SqztabZMQecdnfwyBff0s4uO2wTmA-4xeHyPC_1bfE5Cs5wkzsVKcz27Qhf3YdFbT5_ZgHLHK6k1KlanOBTWsE4KiqlI3xGbmUtiVTAdA_OdGW1j5V_6Jf-V9b-WY5pxB4Nur_YLrQfXn9UqEfEg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Véritable chef-d'œuvre du patrimoine résidentiel féodal situé au cœur du quartier de Nagamachi, la demeure Nomura-ke appartenait à une lignée d'éminents officiers samouraïs qui servirent fidèlement les seigneurs Maeda pendant onze générations, depuis l'attribution du domaine à Nomura Denbei Nobuhide au XVIe siècle. La bâtisse allie la rigueur martiale d'une lignée de guerriers d'élite au raffinement suprême des arts décoratifs : plafonds ouvragés en cyprès hinoki de haute futaie, paravents peints à l'or fin par l'artiste officiel de la cour Maeda, et armure complète de samouraï exposée dans l'antichambre. Son jardin intérieur miniature, primé mondialement, condense la quintessence de la philosophie paysagère japonaise.",
-    visiter: "Découvrir dès l'entrée la formidable armure complète de samouraï en fer laqué et soie portée par le maître des lieux sous l'ère féodale. Parcourir les salons bordés de tatamis pour admirer les cloisons fusuma décorées de peintures paysagères à l'encre de Chine et dorures signées par l'école Kanō. S'asseoir au bord de l'engawa (galerie en bois ouverte) pour contempler l'extraordinaire jardin d'eau miniature : un ruisseau serpentant au pied des rochers moussus, enjambé d'un pont de pierre incurvé et d'une cascade murm древante alimentant un bassin peuplé de carpes koï multicolores nageant jusqu'au ras du plancher. Monter à l'étage pour déguster un thé matcha dans le pavillon de thé suspendu au-dessus de la canopée du jardin.",
+    visiter: "Découvrir dès l'entrée la formidable armure complète de samouraï en fer laqué et soie portée par le maître des lieux sous l'ère féodale. Parcourir les salons bordés de tatamis pour admirer les cloisons fusuma décorées de peintures paysagères à l'encre de Chine et dorures signées par l'école Kanō. S'asseoir au bord de l'engawa (galerie en bois ouverte) pour contempler l'extraordinaire jardin d'eau miniature : un ruisseau serpentant au pied des rochers moussus, enjambé d'un pont de pierre incurvé et d'une cascade murmurente alimentant un bassin peuplé de carpes koï multicolores nageant jusqu'au ras du plancher. Monter à l'étage pour déguster un thé matcha dans le pavillon de thé suspendu au-dessus de la canopée du jardin.",
     link: "https://photos.google.com/share/AF1QipOe497_gZlxHEk4kXngagUk3X4z3IIX6fTII-zbuf_m9_TBFokmB_oXmbA5rIGzqg?key=dVQyQXBrRWdEdWs5WFZQOVZPQi15dmEzeG1reGZn"
   },
   {
@@ -9152,6 +9188,16 @@ const travelSpots = [
     category: "religieux",
     counts: {},
     image: "https://lh3.googleusercontent.com/pw/AP1GczNSsO43hEowvejKb1E0gvpFTIj_6Qd5-vNydIudhrMt0CFnRnZed51V5BEpz8mdwsufhEArLwhy9t6WpvoiqI0CqYr0WLOHRT0hGkdzMSUL3Qx7SGQCARTxRk12iOadc7Ul3Ai5vKwWpOR1DL_KWYAtaw=w1757-h2635-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPb8ciT6r43i_Md_buYXo21PSdZnjUQo3PVkz8kq1UZUYMx2dw1B-uHkTyl4Q9uc_KML2Wj1RfqW81-DL7YHs2cV5kx5YQOFQynFc1nzknZjNS7Bw62vMorYj4gI1CCfyC4aiXoXOT3L1rtkezVb_5SHQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMTa3KWkyWKcAll9dyGsHOfMrcGRdx5ljI9fV_Kc5oslJn2xHK7Wrz9xtJTeh2yN89dX0nEtUTFBrayweAZNFPuj0alxl0shln2Zk__XtLlYHCdKz-KdDRx0GDGZ5ds_aKvLBhAYV00ia8QzwyrFlKKXg=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Le temple bouddhiste Kōtoku-in, affilié à la branche Jōdo-shū (terre pure), abrite l'une des icônes les plus célèbres du Japon féodal : le Grand Bouddha de Kamakura (Kamakura Daibutsu). Cette colossale statue de bronze d'Amitābha, haute de plus de onze mètres et pesant près de cent vingt et une tonnes, fut coulée à partir de 1252 sous le shogunat de Kamakura. Initialement abritée au sein d'un immense hall en bois (Daibutsuden), la structure fut emportée à maintes reprises par des tempêtes, des incendies et finalement par le grand tsunami dévastateur de 1498 (période Muromachi). Depuis lors, le colosse trône majestueusement en plein air contre un rideau de collines boisées, son visage serein et penché vers l'avant conférant un sentiment de quiétude bienveillante qui a traversé les siècles sans jamais être réenfermé entre quatre murs.",
     visiter: "Traverser la porte d'entrée Niōmon ornée de ses deux gardiens célestes sculptés, puis s'avancer dans la vaste cour de gravier clair dominée par la silhouette massive du Bouddha de bronze. Admirer la finesse du drapé plissé de la toge, les traces subsistantes de dorure à la feuille d'or près des oreilles et les grandes fleurs de lotus en bronze fondues à l'époque d'Edo. Contourner la statue pour observer les volets d'aération ménagés dans le dos du colosse et, si l'accès est ouvert, pénétrer à l'intérieur même du corps creux du Bouddha pour observer l'incroyable technique d'assemblage des plaques de bronze médiévales. Ne pas manquer, suspendues à l'arrière, les gigantesques sandales de paille (waraji) tressées et offertes régulièrement par des écoliers pour symboliser la marche protectrice de la divinité à travers le pays.",
     link: "https://photos.google.com/share/AF1QipOeq0r9ChAdmfv81FKQ1TYDpks6V2hx0qOiJ_7Qtst8lg6zkp0W8pY8Y1VK9FRysg?key=WFNCSTZDRjNmZElFdm95OGl4UzROZ2s5MTNLRUFR"
@@ -9179,7 +9225,98 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczNfQSDIDJhMD8GM2fcguqITMvS0QDOOCj_ujUBkH-zA7xHc46Fw3M71MiIqymCwlvznXPR4V_eNWHQ00NImzAUwRFpBNNvjU8FHwzBrfDIA3sMdcL1QnBhXk25e5wz-3e_7zeDSb6ThN2HQ0zPCG7HsrQ=w2489-h1660-s-no-gm?authuser=0",
     description: "Édifié en 736 à flanc de colline boisée face à l'océan, le temple Hase-dera compte parmi les plus anciens sanctuaires bouddhistes de Kamakura, rattaché à la secte Jōdo. Le lieu est célèbre dans tout l'archipel pour abriter une monumentale statue de Kannon aux onze têtes (Jūichimen Kannon), haute de neuf mètres et sculptée dans un unique tronc de camphrier doré à la feuille. Selon la pieuse légende, le moine Tokudō tailla deux statues identiques dans le même arbre sacré en 721 : l'une fut installée au temple Hasedera de Nara, tandis que la seconde fut jetée à la mer pour guider les âmes, venant s'échouer quinze ans plus tard sur la plage de Yuigahama, tout près d'ici. Le complexe s'étage en plusieurs terrasses végétales où se côtoient jardins d'eau, étangs de carpes koï, bosquets d'hortensias réputés et cavités rocheuses sacrées dédiées à Benzaiten.",
     visiter: "Franchir la porte Sanmon reconnaissable à sa grande lanterne rouge et flâner le long des étangs étagés du jardin bas peuplés de carpes koï. Gravir les escaliers de pierre ombragés menant à la terrasse intermédiaire pour saluer les milliers de petites statuettes votives en pierre de Jizō Bosatsu (protecteur des enfants et des âmes voyageuses), coiffées de bonnets de laine rouge. Monter ensuite sur l'esplanade supérieure pour se recueillir devant la statue de la Kannon aux onze visages dans le pavillon principal Kannon-dō. Profiter de la terrasse panoramique offrant une vue dégagée sur les toits de Kamakura, la baie de Sagami et la plage de Yuigahama. Enfin, allumer une bougie votive dans la galerie rocheuse obscure de Benten-kutsu creusée à même la falaise, où se dissimulent de multiples représentations de Benzaiten et de ses fidèles disciples.",
-    link: "https://photos.google.com/share/AF1QipOeq0r9ChAdmfv81FKQ1TYDpks6V2hx0qOiJ_7Qtst8lg6zkp0W8pY8Y1VK9FRysg?key=WFNCSTZDRjNmZElFdm95OGl4UzROZ2s5MTNLRUFR"
+    link: "https://photos.google.com/share/AF1QipOeq0r9ChAdmfv81FKQ1TYDpks6V2hx0qOiJ_7Qtst8lg6zkp0W8pY8Y1VK9FRysg?key=WFNCSTZDRjNmZElFdm95OGl4UzROZ2s5MTNLRUFR",
+    sections: [
+      {
+        title: "L'origine sacrée du camphrier et la statue de Kannon",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNfQSDIDJhMD8GM2fcguqITMvS0QDOOCj_ujUBkH-zA7xHc46Fw3M71MiIqymCwlvznXPR4V_eNWHQ00NImzAUwRFpBNNvjU8FHwzBrfDIA3sMdcL1QnBhXk25e5wz-3e_7zeDSb6ThN2HQ0zPCG7HsrQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMLlUcM9Q6M1lwnwg8VHW29tp9OWMUt1E3TC3IYIUxYePWigVyw5qU3u_EUIeAamoJPuUcGQJ_DP5lag3xoefHeTfh4Kh3mkcvzFrriUVZ7Z7t3r-3btks8jkGyecd7wSrgfzZr5cEik2dqBapOYMiB3Q=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En 721, Tokudō découvrit dans les forêts de la province de Yamato (actuelle préfecture de Nara) un camphrier gigantesque dans lequel il fit sculpter deux statues monumentales de la déesse de la compassion, la Kannon à onze têtes (Jūichimen Kannon). Si la première effigie fut consacrée dans le temple Hase-dera du Yamato, la seconde fut solennellement confiée aux flots de l'océan Pacifique avec la prière de dériver vers la terre où les fidèles auraient le plus besoin de secours. Quinze ans plus tard, en 736, la statue s'échoua miraculeusement sur la plage de Nagai, sur la péninsule de Miura, non loin de Kamakura. Averti par ce prodige, le gouvernement ordonna l'édification immédiate du sanctuaire de Kamakura pour l'abriter dignement."
+      },
+      {
+        title: "Le colosse doré du Kannon-dō",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMNqyMYng4NmgtrkiFuk51OrBYgVJkvrbKT8U8q3eMi6GJxPtlPV5RcXVdVnhRcttkzuqGjXTdsmgQI-Ko-d1LPatyiD1d384vzNfqUNY5vPc5s3_03AN8Earn5bT2HGc9rYM_euzb03w34TJrF_R0QPQ=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "Dressée au cœur du pavillon principal (Kannon-dō), la statue en bois doré culmine à 9,18 mètres, ce qui en fait la plus haute sculpture bouddhique en bois du Japon. Chacun des onze visages coiffant la couronne de la divinité exprime une émotion distincte — compassion bienveillante, courroux face au mal, sourire d'apaisement ou rire d'encouragement —, symbolisant sa capacité à entendre et soulager simultanément toutes les formes de souffrance terrestre."
+      },
+      {
+        title: "Jizō Bosatsu, sentinelle protectrice des chemins (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMqJh8S9J0LdmFilxkqMpANZQ5ByNz-QFufffsOBp8V7FI0mHRBuwcJRkkaszhum1hxdD8XvaWgVdP5rVMI34c7t7RW8vm_d7RqFgHn-gmNvcPkvbvHkavxBqYCPEUYUtsacd_wMKXRDNvdK3n6TqAsWw=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP1cFi4GvwG0wYHI4tOkJO6DPkd0clY21dsae1XsmGFvViqIJYG84DS4SypEoC-9VeMrfq9dwbodQ4DpClnovhrDI6JvtG5jBy5m4-wR-8GMjw_wanbsO1CYwDA1J20Gy3OJRHbqxof4kaSc6JNmdKd9w=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMOaAl4QxzBSV7bo5eJrDuuk0PwWY_zoVMnOplA8zvjwzhBK0yfMnCEBaCXAY4SATLrjIAncn9gjrbpNi8FSwm9NEKbTbc0eIYue7QhnkvgBqO8z6qHeVwYjxMNt3s3hhd3Yyzc1USlpD12f1cqdga-QQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Érigé en bordure de sentiers ruraux, aux croisées de chemins, aux cols montagneux ou aux entrées de villages, il fait office de borne protectrice. Il veille sur les voyageurs, les marchands ambulants et les pèlerins, empêchant les mauvais esprits, les épidémies et les calamités d'entrer dans la communauté. Au fil des siècles, les Japonais lui ont attribué des fonctions thérapeutiques ou thaumaturgiques spécifiques selon les localités : le Migawari Jizō qui prend sur lui la souffrance physique d'un malade, le Togenuki Jizō qui retire les épines symboliques et corporelles, ou encore le Shōgun Jizō invoqué autrefois par les guerriers pour s'assurer la victoire au combat."
+      },
+      {
+        title: "Jizō Bosatsu, sentinelle protectrice des chemins (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOHWS3cU8G-JIgDZ-nNG-kQxdq77EwIKsRsiERCEd5qPdo1MWk-_VIZbA2jA0WbP-8fLVydMpGJ-s879eoGvzMdw4sai_DVYsRRB6NmTygOWogSEySd2xNfVtr2uV1H-92aexWJb3uQdztmqx5FZK6fDA=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le jardin inférieur et les étangs à carpes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNQf-Wq6GO5g4-_TYt1vzVeuGOBGVp-1guRKo13ScU8qK4KTZ-rri-dZc-Du5tKaolz8e98nEMjTWoY8gSOYa3AvZ1SbRdENkcDPUeKL4qZXuhB0qfDEEqzF7UcMRj_QXwsAmkvmgmOfWn9e09NXEcwwQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOH-Va53-Y5F7sILTAwwnDh4bSf4171MG-RvOze8-p8VHYVRf7QogbeEW5t6D2VzsvH_YgFEdrc3cX6um8xQUxxYjjAF5tV0VslyvrUaErJfIvrrF2ePZszrfkZPUzE7i-lLyjkpO44yz-YhzXDQ5NnKw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le jardin inférieur et la grotte de Benzaiten : Dès l'entrée marquée par une lanterne de papier rouge et des pins taillés, des sentiers sinueux longent deux étangs peuplés de carpes koï."
+      },
+      {
+        title: "La grotte sacrée de Benten-kutsu (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO9qodZAKJyjCR2J_tJfQr1Qr6me1ozl9KM2g-rMyyEQjGbU1qcEwIaQpzZ8PhG4sH3dzmD-4t9AX14EeVPtFlF1yJljl1UBcsAGmxQB4LbW-OnvZJ0IUFGbtZ0i_C2RuHFOE-T3DVH2gGmQ3fbQDxkag=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNHcpezwvlrp_iP4oe5NsOFm7SpUsiyiV0aJYYg4IGbis5EzToEWi5m8YFus-zruowhlIIOPc3uP5NQm41gy2seljiJY2hdOKyV59iyL8o5mRBV42z06I2JAnneBJQtGlSUxm7wtE-0cOfsNrXSJABDJw=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP01wSdKufDgfijM7_SxYA6KphZ_-3es2gXuqrBYM84t_0VqY7FpyZiMUnYehKgH_puZBsSAuZeCg_XWc8MZounRFzVwzEng9RA-htWyqIf2uR6NhFFaydjAHxD0j7GEMvwIiIIu48N1yfFrLZ-gSFl4A=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "Sur le flanc de falaise s'ouvre la grotte Benten-kutsu, un dédale obscur creusé dans la roche où sont taillées à même la paroi la déesse Benzaiten et ses seize serviteurs, vénérés au milieu de minuscules statuettes votives déposées par les pèlerins."
+      },
+      {
+        title: "La grotte sacrée de Benten-kutsu (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPKKjXiIw824Vhd-ZMojqVd56tTAZKPNx6VtDqREqlS5QZV5PnB8O1zoxrrd_USBqJVj3IXO5XNwdvDUDf4ABmvtNTkdc4t0yVJeX_czGxR6bOFL_xyjXPrk10PQsYLrCeSbIKQXbvdfsnph0tGDtuP6Q=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le plateau médian et les sentinelles Jizō",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPOLBOOTf0HyrJaESWkvAVyudvqSwybIBCKGHLWt601Z6Gp6wM38o4UIUieaiCsbQQ7WFsVN0FoIogI89hX6_ItGJdVIbEDcVYEeAO8uptjt5uP0SdAJKgBndAZjW3I2T2iq7QjMed9OwJiq_z3M1BJjw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN45PYCxYKztqvad7Z4KObiKE8Ht0nq8VHkGJEnsriduYki0SvcqgEngfoToO7aKJAAVVMB6KKerJ_t9THxCeOzNswMUoMi53pCyHm_MqeqWOntAOhZnX4GRPd6Y-j2HKXWXCjGcf3Ls7vSM3_k4kyS2g=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPzlNFLmE1y-3kFXKRirG1_4v99fzCxAIjm500Ys07nJJU6d_OeJQct0UDCg-B2SCGU2nr_fWG4krOkE25ZoGb6bYVImG0SoBPPyOIBLmBkKNEyNtV94eW4k-MVHvljC7VWa7PSU7FY9kVrLzxP0I2NyA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le plateau médian et les sentinelles Jizō : À mi-pente se trouve le pavillon Jizō-dō, entouré par des milliers de petites statues de pierre de Sentai Jizō (« les mille Jizō »). Vêtues de bavoirs et de bonnets de laine écarlates, elles veillent sur l'âme des enfants disparus et des fœtus non nés (mizuko kuyō), créant une atmosphère de recueillement silencieux."
+      },
+      {
+        title: "Culte de Jizō et rituel du Mizuko Kuyō",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMBctUnlci99h1XC-0iqxty98aOSQIR0k-cuLwa1Dc3RuWMw_3nuflH8fxbZrwNRVYrGgihRSleMUTDLjcx8HpuM9TkUOizy7DjeFALrmzOR7HnO5xsIN9O4MMF4s58IpF-IyC5WrVxyYQZ_NEQIT3W-w=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOnGyEIlwBqTNgEFjofsffVXUx6yTRs9vJl2397a0KT801d1605GeyOGsK3KaXhyph-k-0wf0M7U-LPRTlCsElxqNlzXdwvpTIkga3Ol-GTRQrKvNnxgr_i6gi7VkND00tDhxzolbe7EyO8C0HZzaJEeA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMAyjkMGrV8MMsBpJAxFds8_peaAiZrPEi5BQH6L0966BD1oZt_Fxm_hwT2oXOWd0GPP7saOU4yLES0C4fKwAD2zBQ3rh5HcWfrdFVF9HPyidrSZil15NHSmK_aW5-GBkCpZzFaRGO1Mqp91Tjpi4i9-g=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "Connu sous le nom sanskrit de Kṣitigarbha (« matrice » ou « trésor de la Terre »), Jizō Bosatsu (地蔵菩薩) est l'un des bodhisattvas les plus vénérés du Japon. Contrairement à la majorité des bodhisattvas figurés sous des parures princières et des tiares somptueuses, Jizō se distingue par une iconographie délibérément humble : il apparaît sous les traits d'un moine bouddhiste au crâne rasé, vêtu d'une simple robe de bure.\n\nSon rôle le plus poignant au Japon concerne la protection de l'enfance, en particulier des enfants décédés prématurément, des fœtus mort-nés et des victimes de fausses couches ou d'avortements :\n\nLa légende de Sai no Kawara : Selon le folklore bouddhique, les enfants morts avant leurs parents n'ont pas eu le temps d'accumuler suffisamment de bon karma et commettent le péché involontaire de plonger leur famille dans la douleur. Ils se retrouvent bloqués sur la grève aride du fleuve Sanzu (Sai no Kawara), où ils doivent empiler des galets pour ériger des stupas de prière. Des démons (oni) viennent sans cesse détruire leurs monticules de pierre à coups de massue.\n\nLe geste de sauvetage : Jizō intervient pour consoler les tout-petits, les soustrait à la cruauté des démons en les dissimulant dans les amples manches de sa robe monastique et les aide à traverser le fleuve vers la Terre Pure.\n\nLes bonnets et bavoirs rouges : Les fidèles et les mères endeuillées habillent traditionnellement les statues de pierre de bavoirs (yodarekake), de capes et de bonnets de laine tricotés rouge vif. Dans les croyances japonaises, le rouge possède une fonction apotropaïque reconnue pour repousser les démons et les maladies infantiles ; ce geste symbolise également une marque d'affection parentale pour que l'enfant n'ait pas froid dans l'au-delà. Les pèlerins déposent également de petits monticules de galets au pied des statues pour soulager le labeur des enfants du fleuve Sanzu.\n\nLe rituel funéraire : Ce culte s'incarne dans le rite du Mizuko Kuyō (commémoration des « enfants de l'eau »), visible dans les cours de temples comme le Hase-dera de Kamakura ou le Zōjō-ji de Tokyo, où s'alignent des milliers de statuettes individuelles commandées par les familles."
+      },
+      {
+        title: "La terrasse supérieure et le panorama maritime (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNse2RwvryPmempVHdsAMo1zyEgJGnnijUY_Vvj4pMX7SmSU7nl7Eie6pwybagvRnJOwe28Ps7EOCxeCqwRjgNeq9RcPOWbhUVfmGU9FlPUaxxUzQ-vdPOIIFEI804B0tUfOJerYQntajPMvVciq3phIA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczObZo2sFtdIyNEtaDt0hk8LttTfuhJYN3h6rii0Dk6iougypvcdAQt1GzvWhE62q5t9SaOVWGavk1oiMa6LGYY1uBxmFzB63OX8fVOoCOuKTWMkbc8Zf38BXCM3IEGCe0ojqI3GyOyAZw87Xad3ZE44ig=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMX7lyeuZcQqJsiUtUbFRlHVGnrGgm6dPOHVUmExFZ1097JUo0nB8V8OO4x7hFkdXSEttwvYUe8kiB11GvJHiQFfc7udMHHcpMQ54mkDdTnHhWZRZSXni259QCLOt_R88qwsCVEAl0G0r9_UXu_DNh-CA=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "La terrasse supérieure et le panorama maritime : Le sommet abrite le pavillon d'Amida, la bibliothèque des sûtras (Kyōzō) dotée de son imposant réceptacle rotatif octogonal (rinzō), ainsi que la cloche monumentale (bonshō) fondue en 1264, classée Bien culturel important. L'esplanade s'ouvre sur un belvédère dégagé offrant une vue plongeante sur la courbe sablonneuse de la plage de Yuigahama et l'immensité de la baie de Sagami."
+      },
+      {
+        title: "La terrasse supérieure et le panorama maritime (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPD_hgRJ0RcVt2idTJG6YtAEEaq6yOn6UZUpmKUxHwS5ubSXtlZTvaJaZ8fUYPqkJD5WfgK_YbDdfT2yWQGVTH-KK6Ks7cXIU9cuerDfbA0Xk6r9q-vSD2NMNK4r16IrBVevitbkq9BWN-QrUbTy2qFtw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "kamakura_tsurugaoka_hachimangu",
@@ -9202,11 +9339,32 @@ const travelSpots = [
     category: "religieux",
     counts: {},
     image: "https://lh3.googleusercontent.com/pw/AP1GczPkHDjFZhvKkwiJsgU0SMGJ7sjMwTx2ALhuGvYF7aO098aYvQvZ2a2K9XLz_HwyxrynDUeDCpVQu87WNDTy2e0_bI95yFhSsCx7lj7REtM4CHnnAaNoiqybHJGwFgj2X3pF9Kx9AkMFXss81SUPJSo6NA=w1984-h2635-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO4rUc8aPBfaArkIDtq1dYdNSgEm6w8ko44EBkIYJKZJv2FxF_KMSzo7pMfMXbpx3m3ATK-a_nxIjes9egq9obwOvudn9kZlGjdX8acTht37lHtZuX3LAQMHOPEBTTRAyXoLuNwIRpDLJfUK0Y1sDFCAg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPkQRnyT83ibkk_YaXlnZ_wSeo501XY-FSiem063EfBOWMYwkJumfD0Tt8ZPdNpMeHppaRBvc-4gSQKNbf8_hJAYrkiABiUXGgigjsQ19yMSWkwsnPM2itLaaK7ULOSRlfp0htOLssAeIz3UAsPCBvtgg=w1379-h919-s-no-gm?authuser=0"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPkHDjFZhvKkwiJsgU0SMGJ7sjMwTx2ALhuGvYF7aO098aYvQvZ2a2K9XLz_HwyxrynDUeDCpVQu87WNDTy2e0_bI95yFhSsCx7lj7REtM4CHnnAaNoiqybHJGwFgj2X3pF9Kx9AkMFXss81SUPJSo6NA=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP6GjcpM0SbMNZ0faXIi2rhvAtyzQ6aJ5HPye5l_yA8gzmLOUiouFY_cZvB2HvcUQJJxsnmQL9NHmLWOmocC_rpnpds-ZnXvY3lSC2C96hsMce_yfSPTvTmMllJ0Ro88_1wnm09hIqcqnofh4QqPnosCQ=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOpYF2qUGvKDo8DfvcdfPc5UyukZA8VRUvcYrCglRoKO8f_IBsxejiWG1_LwQ_FAWqru8-Jshr669Az0mn6NnwI4tKMMHWy7yg51lrvQEN8lk5SEwT3W9lEkzuJHNTupqbPTPd8GBYkeNJ7WJqgJq5tAw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Cœur spirituel, politique et historique de l'ancienne capitale shogunale, le Tsurugaoka Hachimangū est le plus important sanctuaire shinto de Kamakura. Fondé en 1063 sur la côte par Minamoto no Yoriyoshi puis transféré et magnifié à son emplacement actuel en 1180 par son descendant Minamoto no Yoritomo, il est consacré à Hachiman, divinité tutélaire de la guerre, de la famille impériale et du puissant clan Minamoto. Structuré selon un axe nord-sud monumental (le Wakamiya Ōji) qui relie directement le sanctuaire à l'océan Pacifique, le domaine a été le théâtre d'événements majeurs du Moyen Âge nippon, notamment l'assassinat en 1219 du troisième shogun Minamoto no Sanetomo. Ses imposants pavillons vermillon, adossés au mont Daijin, incarnent la synthèse parfaite entre la solennité guerrière du premier bakufu et l'élégance rituelle shinto.",
     visiter: "Emprunter la longue allée centrale bordée de cerisiers (Dankazura) menant au troisième grand torii vermillon marquant l'entrée sacrée. Franchir le pont arqué Taiko-bashi et contempler les deux grands étangs Genpei parsemés de fleurs de lotus en été et reliés par de petits îlots pittoresques. Découvrir la scène rituelle Maiden au bas de la colline, où eurent lieu les légendaires danses de Dame Shizuka, avant d'attaquer la grande volée de soixante et une marches en pierre. Observer sur la gauche le jeune rejeton issu de l'arbre millénaire (le ginkgo géant tombé lors d'une tempête en 2010), puis se recueillir devant le grand pavillon Hongū (Jōgū) aux frises sculptées flamboyantes et aux tentures impériales. Visiter le musée des trésors du sanctuaire et flâner sur l'allée équestre où se déroulent chaque automne les spectaculaires tirs à l'arc à cheval (yabusame).",
     link: "https://photos.google.com/share/AF1QipOeq0r9ChAdmfv81FKQ1TYDpks6V2hx0qOiJ_7Qtst8lg6zkp0W8pY8Y1VK9FRysg?key=WFNCSTZDRjNmZElFdm95OGl4UzROZ2s5MTNLRUFR"
   },
-   {
+  {
     id: "kamakura_zeniarai_benzaiten",
     name: "Kamakura - Sanctuaire Zeniarai Benzaiten Ugafuku-jinja",
     country: "Japon",
@@ -9229,7 +9387,34 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczPBQw6yHGbYk6K4_oJYbN6S-vEVgw7ReSBF0wte-P80Gap7KojEtXM9ntgbLQ5GUKnmcRLsFd0OUKJeoadn9WvUHiE4lEy84EarR4MizfVgoWuagm9Vc0DOYVQQICpcPaCiV-1zObyAIJVKHJLL0rQTwQ=w2489-h1660-s-no-gm?authuser=0",
     description: "Niché au creux des collines boisées occidentales de Kamakura, le sanctuaire Zeniarai Benzaiten Ugafuku-jinja offre une expérience mystique saisissante, débutant dès son entrée : un long tunnel taillé à même la roche qui débouche sur une clairière encaissée bordée de parois abruptes et de centaines de torii en bois. Fondé en 1185 par le premier shogun Minamoto no Yoritomo à la suite d'un songe prémonitoire envoyé par le dieu serpent Ugafukujin, ce lieu saint présente la particularité rare d'avoir préservé un syncrétisme spirituel complet (shinbutsu shūgō) associant la divinité shinto autochtone à Benzaiten, déesse bouddhiste de l'éloquence, des arts et de la fortune. Au cœur du complexe s'ouvre une grotte naturelle obscure d'où sourd une eau sacrée réputée miraculeuse, attirant depuis plus de huit siècles fidèles, marchands et pèlerins venus accomplir le célèbre rite de purification des pièces de monnaie.",
     visiter: "Franchir le tunnel rocheux percé dans la falaise et passer sous la succession serrée de torii votifs offerts par les dévots. Se procurer un petit panier d'osier, une bougie et de l'encens au pavillon d'accueil avant de pénétrer dans la caverne sacrée (Okumiya). Placer sa monnaie (pièces ou billets) dans le tamis d'osier et l'arroser à l'aide des longues louches en bambou avec l'eau de source sacrée (Zeniarai-mizu) : la tradition promet que l'argent purifié et dépensé avec sagesse reviendra multiplié à son propriétaire. Découvrir les petits autels secondaires disséminés contre la paroi de grès moussue, les étals de talismans (omamori) dédiés à la prospérité financière, et s'imprégner de l'atmosphère intemporelle de cette combe secrète avant de poursuivre la marche vers les sentiers de randonnée de Genjiyama.",
-    link: "https://photos.google.com/share/AF1QipOeq0r9ChAdmfv81FKQ1TYDpks6V2hx0qOiJ_7Qtst8lg6zkp0W8pY8Y1VK9FRysg?key=WFNCSTZDRjNmZElFdm95OGl4UzROZ2s5MTNLRUFR"
+    link: "https://photos.google.com/share/AF1QipOeq0r9ChAdmfv81FKQ1TYDpks6V2hx0qOiJ_7Qtst8lg6zkp0W8pY8Y1VK9FRysg?key=WFNCSTZDRjNmZElFdm95OGl4UzROZ2s5MTNLRUFR",
+    sections: [
+      {
+        title: "Le tunnel d'accès et l'enclos secret",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP_KBczlQPw_R57HQYStRq-RWES1ZrcA0IoBiPBjyAwTZZvOr_oZV2NaoizAYS1e1dSfMpffI1AoHp0j9ZYhZVMxB1t5oD8FhaLzYPHpJg8TPAJ9fUtVT6RYQFTmvqC07y8twwMbE83P2Qba282K3fTHg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNeFx1UL8ucjPsoxbeZX2mGROogIOn2Kxm9yebTZVBC_6a4PAyrQ95VMjToGmYK4cNFRxrJxGEX9XoujxKd4cbhGMv8jsNEIrO2ae6coyvx0TUo3lXsVatl9t9tDAJ-V5j3hbZG7ZrRhRDSuXMAHNrktw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Dissimulé au creux d'un vallon boisé dans les collines occidentales de Kamakura, le sanctuaire Zeniarai Benzaiten Ugafuku-jinja (銭洗弁天宇賀福神社) offre l'une des expériences rituelles les plus singulières du Japon. Son accès donne d'emblée le ton : pour pénétrer dans son enceinte encaissée, le visiteur doit franchir un tunnel obscur taillé à même la falaise rocheuse, avant de déboucher dans une clairière secrète bordée de parois abruptes et ponctuée d'un alignement serré de torii en bois et de bannières votives blanches."
+      },
+      {
+        title: "Le songe de Yoritomo et le syncrétisme religieux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNu4tCFKjoYaFhQBnj9hRS5UKnR14Haf9RoF2c3TU5OqwGvDGPiGr5njAnsbCfA7TufM69GwTcCFDTegE-HP1p0AfXn1thC1nA_s8Z-RZ5MBPMvYXDf8-dKiVS_Nmz6W_YDTuy9-EJ2OPQHh1NHIQphpw=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMTX2RG6akPmHxxT5uAufZ4cmZRRbydso7olkGNwAF83G2f65G5xBI437c63kT1_DwDJuSy31tyt4Kn07F-xxL34MNcJYB2MJXI3XnbHBG2zEMNpIGpsE4oSzIQRxeqjaO1z2ka-NUQSkrV8omoQ6nFQg=w1221-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPzSYtEiaf5txYK3tX6Q5IO8rqWOWse1rQnohC0sCF6enwpQVvza90yCti304PgaVfKa6B4jajL4Y1UGfebvqbJzkxhTYCAdfFvqANIqobZ9Pqv-FOgKVP-X7BqgyHmHkRRtgKZkBiXT0hEJnR8vt10sQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'origine du lieu remonte aux premiers temps du shogunat de Kamakura. Selon la tradition, le seigneur Minamoto no Yoritomo aurait reçu en songe, en 1185 — l'année du Serpent —, l'apparition d'Ugajin, une divinité ancestrale des moissons et de la fertilité souvent représentée sous la forme d'un serpent à tête humaine. La divinité lui révéla l'existence d'une source miraculeuse jaillissant au cœur du rocher, prédisant que vénérer les dieux en ce lieu apporterait la paix et la prospérité au pays tout entier. Plus tard, vers 1257, le régent Hōjō Tokiyori y lava symboliquement ses pièces de monnaie en priant pour la prospérité de son peuple, inaugurant ainsi le rite qui fait aujourd'hui la renommée du sanctuaire. Le site incarne par ailleurs un rare exemple subsistant de syncrétisme religieux (shinbutsu-shūgō), mêlant le culte shintoïste d'Ugajin à celui de Benzaiten, déesse bouddhique des eaux, des arts et de la fortune."
+      },
+      {
+        title: "La grotte Okumiya et le rituel du zeniarai",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPBQw6yHGbYk6K4_oJYbN6S-vEVgw7ReSBF0wte-P80Gap7KojEtXM9ntgbLQ5GUKnmcRLsFd0OUKJeoadn9WvUHiE4lEy84EarR4MizfVgoWuagm9Vc0DOYVQQICpcPaCiV-1zObyAIJVKHJLL0rQTwQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOeoXc7IQWaQcG7QgNgL-IkzeVJYEd61Lh3yH8lOmrzcVA0U92tqH4qMIiB7PmupkAspM-_q9j2nyYqo801ebWtOEpbsLxhsAhpVAi7Qcnoy9V-o3OdN-U2_GzD-P_8hA4Rw5ChdFz-X3lglQ_Yln0Skg=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "La ferveur populaire se concentre dans la grotte naturelle (Okumiya), où ruisselle l'eau sacrée, considérée comme l'une des cinq sources les plus pures de Kamakura. Dans une pénombre éclairée par des centaines de petites bougies blanches et saturée par l'encens, les fidèles empruntent de petits paniers en osier tressé (zaru), y déposent pièces de monnaie ou billets de banque, puis les aspergent à l'aide d'une louche en bois au manche allongé. La croyance promet que l'argent ainsi purifié (zeniarai, littéralement « laver la monnaie ») se multipliera, à condition de ne pas le thésauriser mais de le dépenser rapidement dans l'économie pour faire circuler la bienveillance et la fortune."
+      }
+    ]
   },
    {
     id: "tokyo_quartier_shibuya",
