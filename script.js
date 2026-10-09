@@ -2773,7 +2773,6 @@ function updateLiveRadarPanel() {
   const listEl = document.getElementById('radar-entities-list');
   if (!radarDock || !listEl) return;
 
-  // Si une fiche de site est déjà ouverte à droite, on masque le radar
   if (currentSelectedSpot) {
     radarDock.classList.add('hidden');
     return;
@@ -2786,7 +2785,46 @@ function updateLiveRadarPanel() {
   listEl.innerHTML = '';
 
   if (visibleSpots.length === 0) {
-    listEl.innerHTML = `<div class="p-2 text-center text-[10px] text-slate-500 italic">Aucun site dans le champ</div>`;
+    listEl.innerHTML = `
+      <div class="p-4 text-center text-slate-500 text-[11px] space-y-1">
+        <i class="fa-solid fa-compass-drafting text-lg opacity-40"></i>
+        <div>Aucun site dans cette zone</div>
+      </div>
+    `;
+    return;
+  }
+
+  // CAS 1 : NIVEAU LOCAL (Moins de 12 sites visibles) -> Cartes POI individuelles avec photos
+  if (visibleSpots.length <= 12) {
+    visibleSpots.forEach(spot => {
+      const activeCatKey = typeof getFirstActiveCategoryForSpot === 'function' ? getFirstActiveCategoryForSpot(spot) : spot.category;
+      const cat = (typeof CATEGORIES !== 'undefined' && CATEGORIES[activeCatKey]) || { color: '#06b6d4', icon: 'fa-location-dot' };
+      const fallbackImg = 'https://placehold.co/400x250/0f172a/38bdf8?text=Voyage';
+
+      const card = document.createElement('div');
+      card.className = 'group relative rounded-xl overflow-hidden bg-slate-900/90 border border-slate-800/80 hover:border-cyan-400 transition-all duration-200 cursor-pointer shadow-lg hover:shadow-cyan-500/20 flex items-center p-1.5 gap-2.5';
+      
+      card.innerHTML = `
+        <div class="relative w-12 h-12 rounded-lg overflow-hidden shrink-0 bg-slate-950 border border-slate-700/60">
+          <img src="${spot.image || fallbackImg}" alt="${spot.name}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" onerror="this.src='${fallbackImg}'">
+          <div class="absolute bottom-0 right-0 w-3 h-3 rounded-tl flex items-center justify-center text-[7px] text-white" style="background-color: ${cat.color};">
+            <i class="fa-solid ${cat.icon}"></i>
+          </div>
+        </div>
+        <div class="min-w-0 flex-1">
+          <div class="text-[11px] font-bold text-white truncate group-hover:text-cyan-300 transition-colors">${spot.name}</div>
+          <div class="text-[9px] text-cyan-400/90 truncate flex items-center gap-1">
+            <i class="fa-solid fa-location-dot text-[8px]"></i>
+            <span>${spot.subdiv || spot.department || spot.country}</span>
+          </div>
+          <div class="text-[8px] text-slate-400 font-mono mt-0.5 truncate">${spot.century || spot.era_group || ''}</div>
+        </div>
+        <i class="fa-solid fa-chevron-right text-[9px] text-slate-600 group-hover:text-cyan-400 group-hover:translate-x-0.5 transition-all shrink-0 mr-1"></i>
+      `;
+
+      card.onclick = () => selectSpot(spot);
+      listEl.appendChild(card);
+    });
     return;
   }
 
@@ -2798,55 +2836,78 @@ function updateLiveRadarPanel() {
     countryMap.get(c).spots.push(s);
   });
 
-  // Si plus d'un pays est visible : affichage par pays
+  // CAS 2 : VUE PLANÉTAIRE (Plusieurs pays dans le champ)
   if (countryMap.size > 1) {
     Array.from(countryMap.values())
       .sort((a, b) => b.spots.length - a.spots.length)
       .forEach(c => {
-        const item = document.createElement('div');
-        item.className = 'flex items-center justify-between p-1.5 rounded-lg bg-slate-900/60 hover:bg-slate-800/80 cursor-pointer border border-slate-800/60 transition group';
-        item.innerHTML = `
-          <div class="flex items-center gap-2 min-w-0 pr-1">
-            <span class="text-xs shrink-0">${c.flag}</span>
-            <span class="text-slate-200 text-[11px] font-semibold truncate group-hover:text-cyan-300 transition-colors">${c.name}</span>
+        const leadSpot = c.spots[0] || {};
+        const card = document.createElement('div');
+        card.className = 'group relative rounded-xl overflow-hidden bg-slate-900/80 border border-slate-800/80 hover:border-cyan-400/80 transition-all duration-200 cursor-pointer p-2 shadow';
+        
+        card.innerHTML = `
+          <div class="flex items-center justify-between mb-1">
+            <span class="text-xs font-bold text-white flex items-center gap-1.5 group-hover:text-cyan-300 transition-colors">
+              <span class="text-base">${c.flag}</span> ${c.name}
+            </span>
+            <span class="font-mono text-[10px] font-black px-1.5 py-0.5 rounded-full bg-cyan-950 border border-cyan-500/40 text-cyan-300">${c.spots.length} POI</span>
           </div>
-          <span class="font-mono font-bold text-[10px] px-1.5 py-0.2 rounded bg-slate-950/80 border border-slate-800 text-cyan-300 shrink-0">${c.spots.length}</span>
-        `;
-        item.onclick = () => flyToCountry(c);
-        listEl.appendChild(item);
-      });
-  } else {
-    // Si un seul pays est visible : affichage détaillé par région
-    const regionMap = new Map();
-    visibleSpots.forEach(s => {
-      const reg = s.region_admin || s.region || "Région principale";
-      if (!regionMap.has(reg)) regionMap.set(reg, []);
-      regionMap.get(reg).push(s);
-    });
-
-    Array.from(regionMap.entries())
-      .sort((a, b) => b[1].length - a[1].length)
-      .forEach(([regName, spots]) => {
-        const avgLat = spots.reduce((sum, sp) => sum + sp.lat, 0) / spots.length;
-        const avgLng = spots.reduce((sum, sp) => sum + sp.lng, 0) / spots.length;
-
-        const item = document.createElement('div');
-        item.className = 'flex items-center justify-between p-1.5 rounded-lg bg-slate-900/60 hover:bg-slate-800/80 cursor-pointer border border-slate-800/60 transition group';
-        item.innerHTML = `
-          <div class="flex items-center gap-1.5 min-w-0 pr-1">
-            <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 shrink-0 shadow-[0_0_5px_#22d3ee]"></span>
-            <span class="text-slate-200 text-[11px] font-semibold truncate group-hover:text-cyan-300 transition-colors">${regName}</span>
+          <div class="text-[9px] text-slate-400 truncate">
+            Ex. : <span class="text-slate-300 italic font-medium">${leadSpot.name || ''}</span>
           </div>
-          <span class="font-mono font-bold text-[10px] px-1.5 py-0.2 rounded bg-slate-950/80 border border-slate-800 text-cyan-300 shrink-0">${spots.length}</span>
         `;
-        item.onclick = () => {
-          if (currentMode === 'globe' && myGlobe) {
-            myGlobe.pointOfView({ lat: avgLat, lng: avgLng, altitude: 0.6 }, 1000);
-          } else if (myLeafletMap) {
-            myLeafletMap.flyTo([avgLat, avgLng], 8, { duration: 1.0 });
-          }
-        };
-        listEl.appendChild(item);
+        card.onclick = () => flyToCountry(c);
+        listEl.appendChild(card);
       });
+    return;
   }
+
+  // CAS 3 : UN SEUL PAYS VISIBLE -> Regroupement granulaire (Communes si zoom serré, sinon Départements / Régions)
+  const singleCountrySpots = visibleSpots;
+  const isCloseZoom = (currentMode === 'map' && myLeafletMap && myLeafletMap.getZoom() >= 9) || 
+                      (currentMode === 'globe' && myGlobe && (myGlobe.pointOfView()?.altitude || 2) < 0.35);
+
+  const groupKey = isCloseZoom ? 'subdiv' : 'department';
+  const groupLabelFallback = isCloseZoom ? 'Commune' : 'Département / Région';
+
+  const groups = new Map();
+  singleCountrySpots.forEach(s => {
+    const key = s[groupKey] || s.department || s.region_admin || s.region || groupLabelFallback;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(s);
+  });
+
+  Array.from(groups.entries())
+    .sort((a, b) => b[1].length - a[1].length)
+    .forEach(([label, spots]) => {
+      const avgLat = spots.reduce((sum, sp) => sum + sp.lat, 0) / spots.length;
+      const avgLng = spots.reduce((sum, sp) => sum + sp.lng, 0) / spots.length;
+      const highlightSpot = spots[0];
+
+      const item = document.createElement('div');
+      item.className = 'group relative rounded-xl overflow-hidden bg-slate-900/80 border border-slate-800/80 hover:border-cyan-400/80 transition-all duration-200 cursor-pointer p-2 shadow';
+      
+      item.innerHTML = `
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-1.5 min-w-0 pr-1">
+            <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 shadow-[0_0_5px_#22d3ee]"></span>
+            <span class="text-[11px] font-bold text-slate-100 truncate group-hover:text-cyan-300 transition-colors">${label}</span>
+          </div>
+          <span class="font-mono text-[10px] font-black px-1.5 py-0.2 rounded bg-slate-950 border border-slate-800 text-cyan-300 shrink-0">${spots.length}</span>
+        </div>
+        <div class="text-[9px] text-slate-400 truncate mt-1">
+          <i class="fa-solid fa-monument text-[8px] mr-1 text-slate-500"></i>${highlightSpot ? highlightSpot.name : ''}
+        </div>
+      `;
+
+      item.onclick = () => {
+        if (currentMode === 'globe' && myGlobe) {
+          myGlobe.pointOfView({ lat: avgLat, lng: avgLng, altitude: isCloseZoom ? 0.25 : 0.45 }, 900);
+        } else if (myLeafletMap) {
+          myLeafletMap.flyTo([avgLat, avgLng], isCloseZoom ? 11 : 9, { duration: 0.8 });
+        }
+      };
+
+      listEl.appendChild(item);
+    });
 }
