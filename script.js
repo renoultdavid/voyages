@@ -1577,6 +1577,8 @@ function initLeafletMap(initialCenter = [27.2579, 33.8116], initialZoom = 10) {
     }
   });
 
+  myLeafletMap.on('moveend', updateLiveRadarPanel);
+
   updateLeafletDisplay();
 }
 
@@ -1662,11 +1664,12 @@ function updateLeafletDisplay() {
     markersToAdd.push(marker);
   });
 
-  if (typeof leafletMarkersGroup.addLayers === 'function') {
+ if (typeof leafletMarkersGroup.addLayers === 'function') {
     leafletMarkersGroup.addLayers(markersToAdd);
   } else {
     markersToAdd.forEach(m => leafletMarkersGroup.addLayer(m));
   }
+  updateLiveRadarPanel();
 }
 
 function setViewingMode(mode, targetCoords = null, targetZoom = null) {
@@ -1828,6 +1831,7 @@ function selectSpot(spot) {
 function closeSpotCard() {
   currentSelectedSpot = null;
   document.getElementById('destination-card').classList.add('hidden');
+  updateLiveRadarPanel();
 }
 
 function toggleCurrentSpotViewMode() {
@@ -1999,6 +2003,7 @@ function updateGlobeDisplay() {
 
   myGlobe.htmlElementsData(finalElements);
   updateStats();
+  updateLiveRadarPanel();
 }
 
 function renderUnifiedCategoryList() {
@@ -2715,3 +2720,116 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+// =========================================================================
+// RADAR DYNAMIQUE DE CHAMP DE VISION (VOLET DROIT)
+// =========================================================================
+
+function getVisibleSpotsInViewport() {
+  const filtered = (typeof getFilteredSpots === 'function') ? getFilteredSpots() : travelSpots;
+
+  if (currentMode === 'map' && myLeafletMap) {
+    const bounds = myLeafletMap.getBounds();
+    return filtered.filter(s => bounds.contains([s.lat, s.lng]));
+  } else if (currentMode === 'globe' && myGlobe) {
+    const pov = myGlobe.pointOfView();
+    const centerLat = pov.lat || 0;
+    const centerLng = pov.lng || 0;
+    const altitude = typeof pov.altitude === 'number' ? pov.altitude : 2.0;
+
+    // Angle d'ouverture visible selon l'altitude
+    const maxAngularDist = altitude >= 1.5 ? 1.57 : Math.max(0.25, altitude * 1.4);
+
+    return filtered.filter(s => {
+      const dLat = (s.lat - centerLat) * Math.PI / 180;
+      const dLng = normalizeLongitude(s.lng - centerLng) * Math.PI / 180;
+      const a = Math.sin(dLat / 2) ** 2 + Math.cos(centerLat * Math.PI / 180) * Math.cos(s.lat * Math.PI / 180) * Math.sin(dLng / 2) ** 2;
+      const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+      return c <= maxAngularDist;
+    });
+  }
+  return [];
+}
+
+function updateLiveRadarPanel() {
+  const radarDock = document.getElementById('right-radar-dock');
+  const countEl = document.getElementById('radar-total-count');
+  const listEl = document.getElementById('radar-entities-list');
+  if (!radarDock || !listEl) return;
+
+  // Si une fiche de site est déjà ouverte à droite, on masque le radar
+  if (currentSelectedSpot) {
+    radarDock.classList.add('hidden');
+    return;
+  } else {
+    radarDock.classList.remove('hidden');
+  }
+
+  const visibleSpots = getVisibleSpotsInViewport();
+  if (countEl) countEl.innerText = visibleSpots.length;
+  listEl.innerHTML = '';
+
+  if (visibleSpots.length === 0) {
+    listEl.innerHTML = `<div class="p-2 text-center text-[10px] text-slate-500 italic">Aucun site dans le champ</div>`;
+    return;
+  }
+
+  // Regroupement par pays
+  const countryMap = new Map();
+  visibleSpots.forEach(s => {
+    const c = s.country || "Autre";
+    if (!countryMap.has(c)) countryMap.set(c, { name: c, flag: s.flag || '📍', spots: [] });
+    countryMap.get(c).spots.push(s);
+  });
+
+  // Si plus d'un pays est visible : affichage par pays
+  if (countryMap.size > 1) {
+    Array.from(countryMap.values())
+      .sort((a, b) => b.spots.length - a.spots.length)
+      .forEach(c => {
+        const item = document.createElement('div');
+        item.className = 'flex items-center justify-between p-1.5 rounded-lg bg-slate-900/60 hover:bg-slate-800/80 cursor-pointer border border-slate-800/60 transition group';
+        item.innerHTML = `
+          <div class="flex items-center gap-2 min-w-0 pr-1">
+            <span class="text-xs shrink-0">${c.flag}</span>
+            <span class="text-slate-200 text-[11px] font-semibold truncate group-hover:text-cyan-300 transition-colors">${c.name}</span>
+          </div>
+          <span class="font-mono font-bold text-[10px] px-1.5 py-0.2 rounded bg-slate-950/80 border border-slate-800 text-cyan-300 shrink-0">${c.spots.length}</span>
+        `;
+        item.onclick = () => flyToCountry(c);
+        listEl.appendChild(item);
+      });
+  } else {
+    // Si un seul pays est visible : affichage détaillé par région
+    const regionMap = new Map();
+    visibleSpots.forEach(s => {
+      const reg = s.region_admin || s.region || "Région principale";
+      if (!regionMap.has(reg)) regionMap.set(reg, []);
+      regionMap.get(reg).push(s);
+    });
+
+    Array.from(regionMap.entries())
+      .sort((a, b) => b[1].length - a[1].length)
+      .forEach(([regName, spots]) => {
+        const avgLat = spots.reduce((sum, sp) => sum + sp.lat, 0) / spots.length;
+        const avgLng = spots.reduce((sum, sp) => sum + sp.lng, 0) / spots.length;
+
+        const item = document.createElement('div');
+        item.className = 'flex items-center justify-between p-1.5 rounded-lg bg-slate-900/60 hover:bg-slate-800/80 cursor-pointer border border-slate-800/60 transition group';
+        item.innerHTML = `
+          <div class="flex items-center gap-1.5 min-w-0 pr-1">
+            <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 shrink-0 shadow-[0_0_5px_#22d3ee]"></span>
+            <span class="text-slate-200 text-[11px] font-semibold truncate group-hover:text-cyan-300 transition-colors">${regName}</span>
+          </div>
+          <span class="font-mono font-bold text-[10px] px-1.5 py-0.2 rounded bg-slate-950/80 border border-slate-800 text-cyan-300 shrink-0">${spots.length}</span>
+        `;
+        item.onclick = () => {
+          if (currentMode === 'globe' && myGlobe) {
+            myGlobe.pointOfView({ lat: avgLat, lng: avgLng, altitude: 0.6 }, 1000);
+          } else if (myLeafletMap) {
+            myLeafletMap.flyTo([avgLat, avgLng], 8, { duration: 1.0 });
+          }
+        };
+        listEl.appendChild(item);
+      });
+  }
+}
