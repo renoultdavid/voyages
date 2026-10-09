@@ -2486,28 +2486,27 @@ function renderEnrichedCarnetMode(spot, layout) {
       const count = sec.photos.length;
 
       if (count === 1) {
+        // 1 seule photo : grande et centrée, ratio natif 100%
         photosMarkup = `
-          <div class="w-full flex items-center justify-center my-3">
+          <div class="w-full flex justify-center py-2">
             <img src="${sec.photos[0]}" 
                  alt="${sec.title || spot.name}" 
-                 class="h-auto max-h-[75vh] max-w-full rounded-2xl shadow-2xl object-contain cursor-zoom-in hover:opacity-95 transition" 
+                 class="h-auto max-h-[75vh] max-w-full rounded-2xl shadow-2xl cursor-zoom-in hover:opacity-95 transition" 
                  onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
           </div>
         `;
       } else {
-        const maxH = count === 2 
-          ? 'max-h-[480px] sm:max-h-[560px]' 
-          : 'max-h-[340px] sm:max-h-[420px]';
+        // 2 photos ou plus : Moteur d'alignement type Google Photos (hauteur uniforme, largeurs réelles)
+        const targetRowHeight = count <= 2 ? 440 : 340; // hauteur de la ligne en pixels
 
         photosMarkup = `
-          <div class="flex flex-row items-stretch justify-center gap-3 w-full my-3">
+          <div class="google-photos-row flex flex-wrap justify-center items-center gap-3 w-full my-3" data-target-h="${targetRowHeight}">
             ${sec.photos.map(p => `
-              <div class="flex-1 min-w-0 flex items-center justify-center">
-                <img src="${p}" 
-                     alt="${sec.title || spot.name}" 
-                     class="w-full ${maxH} h-auto object-contain rounded-xl shadow-lg cursor-zoom-in hover:scale-[1.01] transition-transform duration-150" 
-                     onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
-              </div>
+              <img src="${p}" 
+                   alt="${sec.title || spot.name}" 
+                   onload="this.style.height='${targetRowHeight}px'; this.style.width=(this.naturalWidth * (${targetRowHeight} / this.naturalHeight)) + 'px';"
+                   class="rounded-xl shadow-lg cursor-zoom-in hover:scale-[1.01] transition-transform duration-150 block max-w-full object-contain" 
+                   onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
             `).join('')}
           </div>
         `;
