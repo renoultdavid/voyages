@@ -2349,6 +2349,12 @@ function openPoiModalViewer(spot) {
     modal.classList.remove('hidden');
     modal.classList.add('flex');
   }
+
+  // Force le retour tout en haut de la page au chargement
+  const layout = document.getElementById('modal-body-layout');
+  if (layout) {
+    layout.scrollTop = 0;
+  }
 }
 
 function closePoiModalViewer() {
@@ -2668,6 +2674,11 @@ function navigateModalSpot(direction) {
   activeModalIndex = (activeModalIndex + direction + currentModalSpotList.length) % currentModalSpotList.length;
   const newSpot = currentModalSpotList[activeModalIndex];
   renderModalSpot(newSpot);
+
+  const layout = document.getElementById('modal-body-layout');
+  if (layout) {
+    layout.scrollTop = 0;
+  }
 
   if (typeof selectSpot === 'function') {
     selectSpot(newSpot);
