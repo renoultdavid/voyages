@@ -2398,7 +2398,7 @@ function renderEnrichedCarnetMode(spot, layout) {
   const catKey = spot.category;
   const catConf = (typeof CATEGORIES !== 'undefined' && CATEGORIES[catKey]) ? CATEGORIES[catKey] : { label: catKey, color: '#06b6d4' };
 
-  // 1. En-tête : Badges, Titre et Présentation générale (largeur élargie et responsive)
+  // 1. En-tête : Badges, Titre et Présentation générale (sans le bouton album)
   let headerHtml = `
     <div class="space-y-4 w-full max-w-7xl mx-auto px-1 sm:px-4">
       <div class="space-y-2">
@@ -2412,11 +2412,6 @@ function renderEnrichedCarnetMode(spot, layout) {
           <span class="text-xs font-mono text-cyan-300 flex items-center gap-1">
             <i class="fa-solid fa-mountain text-amber-400"></i> ${spot.altitude || 0} m
           </span>
-          ${spot.link ? `
-            <a href="${spot.link}" target="_blank" class="ml-auto px-3 py-1 rounded-lg bg-cyan-950/80 hover:bg-cyan-700 border border-cyan-400/40 text-cyan-300 text-xs font-bold flex items-center gap-1.5 transition">
-              <i class="fa-solid fa-images"></i> Album Google Photos
-            </a>
-          ` : ''}
         </div>
 
         <h2 class="text-2xl sm:text-3xl font-black text-white tracking-tight">${spot.name}</h2>
@@ -2430,7 +2425,7 @@ function renderEnrichedCarnetMode(spot, layout) {
           <h3 class="text-xs font-black tracking-wider uppercase text-cyan-400 mb-2 flex items-center gap-1.5">
             <i class="fa-solid fa-book-open"></i> Présentation générale
           </h3>
-          <p class="text-xs sm:text-sm md:text-base text-slate-200 leading-relaxed text-justify">${spot.description}</p>
+          <p class="text-sm md:text-base text-slate-200 leading-relaxed text-justify">${spot.description}</p>
         </div>
       ` : ''}
     </div>
@@ -2444,14 +2439,12 @@ function renderEnrichedCarnetMode(spot, layout) {
       const count = sec.photos.length;
 
       if (count === 1) {
-        // 1 photo unique
         photosMarkup = `
           <div class="w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl flex items-center justify-center p-1">
             <img src="${sec.photos[0]}" alt="${sec.title || spot.name}" class="w-full h-auto max-h-[82vh] rounded-xl object-contain cursor-zoom-in hover:opacity-95 transition block mx-auto" onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
           </div>
         `;
       } else if (count <= 4) {
-        // 2 à 4 photos : rangée large ajustée à l'écran
         const rowHeight = count <= 2 ? 'h-[420px] sm:h-[520px] lg:h-[580px]' : 'h-[280px] sm:h-[340px] lg:h-[400px]';
 
         photosMarkup = `
@@ -2467,7 +2460,6 @@ function renderEnrichedCarnetMode(spot, layout) {
           </div>
         `;
       } else {
-        // Plus de 4 photos (vitraux, collections denses)
         photosMarkup = `
           <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2 w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2 sm:p-3">
             ${sec.photos.map(p => `
@@ -2486,7 +2478,7 @@ function renderEnrichedCarnetMode(spot, layout) {
       <article class="space-y-4">
         <div class="space-y-2">
           ${sec.title ? `<h4 class="text-base sm:text-lg lg:text-xl font-bold text-cyan-200 flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-cyan-400"></span>${sec.title}</h4>` : ''}
-          ${sec.text ? `<p class="text-xs sm:text-sm md:text-base text-slate-300 leading-relaxed text-justify bg-slate-900/60 p-4 sm:p-5 rounded-xl border border-slate-800/80">${sec.text.replace(/\n\n/g, '<br><br>')}</p>` : ''}
+          ${sec.text ? `<p class="text-sm md:text-base text-slate-300 leading-relaxed text-justify bg-slate-900/60 p-4 sm:p-5 rounded-xl border border-slate-800/80">${sec.text.replace(/\n\n/g, '<br><br>')}</p>` : ''}
         </div>
         ${photosMarkup}
       </article>
@@ -2540,10 +2532,6 @@ function renderClassicViewerMode(spot, layout) {
 
       <div id="modal-gallery-counter" class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-slate-950/80 border border-cyan-400/40 text-cyan-300 font-mono text-[11px] font-bold shadow-lg backdrop-blur-sm z-20 hidden">1 / 1</div>
       <div id="modal-gallery-caption" class="absolute bottom-0 left-0 right-0 p-3 pt-6 bg-gradient-to-t from-slate-950/90 via-slate-950/50 to-transparent text-[11px] sm:text-xs text-slate-200 text-center font-medium leading-relaxed backdrop-blur-[1px] z-10 hidden"></div>
-
-      <a id="modal-album-link" href="#" target="_blank" class="absolute bottom-3 right-3 px-3 py-1 rounded-lg bg-slate-950/80 hover:bg-cyan-600/90 border border-cyan-400/40 text-cyan-200 text-xs font-bold flex items-center gap-1.5 backdrop-blur-sm transition shadow-lg z-20">
-        <i class="fa-solid fa-images"></i> Album complet
-      </a>
     </div>
 
     <div id="modal-text-wrapper" class="w-full md:w-1/2 lg:w-2/5 h-1/2 md:h-full overflow-y-auto p-4 sm:p-6 space-y-4 custom-scrollbar">
@@ -2561,14 +2549,14 @@ function renderClassicViewerMode(spot, layout) {
         <h3 class="text-xs font-black tracking-wider uppercase text-cyan-400 mb-2 flex items-center gap-1.5">
           <i class="fa-solid fa-book-open text-[11px]"></i> Introduction & Histoire
         </h3>
-        <p id="modal-description" class="text-xs sm:text-sm text-slate-300 leading-relaxed text-justify"></p>
+        <p id="modal-description" class="text-sm sm:text-base xl:text-[15px] text-slate-200 leading-relaxed text-justify"></p>
       </div>
 
       <div class="bg-slate-950/40 border border-slate-800/80 rounded-xl p-3.5 sm:p-4">
         <h3 class="text-xs font-black tracking-wider uppercase text-emerald-400 mb-2 flex items-center gap-1.5">
           <i class="fa-solid fa-compass text-[11px]"></i> À Visiter & Incontournables
         </h3>
-        <p id="modal-visiter" class="text-xs sm:text-sm text-slate-300 leading-relaxed text-justify"></p>
+        <p id="modal-visiter" class="text-sm sm:text-base xl:text-[15px] text-slate-200 leading-relaxed text-justify"></p>
       </div>
     </div>
   `;
@@ -2614,7 +2602,6 @@ function renderClassicViewerMode(spot, layout) {
 
   const visitEl = document.getElementById('modal-visiter');
   if (visitEl) visitEl.innerText = spot.visiter || "Informations de visite à venir.";
-
 
   currentSpotGallery = [{ url: spot.image || '', caption: '' }];
   if (Array.isArray(spot.gallery) && spot.gallery.length > 0) {
