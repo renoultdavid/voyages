@@ -8542,7 +8542,61 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczN-wH08400iBAkTGgyxVt7f35yEnosRohonUXnhwvEu7hhiP-4ca-WO9A5c2tc34xEzy1QSK99nW4vJ1hpbmsaZmYrFHKkP2Mq5pJP0BM1_79mDsnmJIpU1rkpS3namiJi8sblyNFcDp8qBcJCEVRwa4Q=w2966-h2234-s-no-gm?authuser=0",
     description: "Surnommé le « Corbeau noir » (Karasu-jō) en raison de son bardage en bois sombre laqué de noir, le château de Matsumoto est l'un des douze donjons originaux (Tenshu) subsistant au Japon et classé Trésor National. Édifié entre 1592 et 1604 par le clan Ishikawa au cœur des Alpes japonaises, il présente une structure unique de type hirajiro (forteresse de plaine) ceinte d'un triple réseau de douves d'eau limpide alimentées par les sources alpines. Témoin capital de la transition féodale nippone, il juxtapose un donjon guerrier truffé de meurtrières à arquebuses et une délicate aile d'observation de la lune (Tsukimi-yagura) ajoutée en temps de paix vers 1635.",
     visiter: "Traverser le pont rouge arqué franchissant les larges douves peuplées de carpes koï et de cygnes blancs pour admirer les reflets de la façade noire se découpant sur les sommets enneigés des Alpes du Nord. Pénétrer à l'intérieur du donjon d'origine de six étages pour découvrir la charpente massive en cèdre et en pin assemblée sans un seul clou métallique. Gravir les escaliers de bois vertigineux aux marches abruptes inclinées jusqu'à 61 degrés. Observer l'impressionnante collection d'armes à feu d'époque (mousquets teppō, arquebuses et armures de samouraïs), puis atteindre l'étage sommital pour embrasser une vue panoramique circulaire sur les toits de Matsumoto et les cimes environnantes.",
-    link: "https://photos.google.com/share/AF1QipOBiQjtWCtuT8t_Ox4TgxcQlm4ofqOLfVj1v2WM96D_XUHLdRFjBK-UNOzxmG2oLw?key=TVZleVgyU01sZzhHcms0TXYzemNoTVRKOFhkWFJn"
+    link: "https://photos.google.com/share/AF1QipOBiQjtWCtuT8t_Ox4TgxcQlm4ofqOLfVj1v2WM96D_XUHLdRFjBK-UNOzxmG2oLw?key=TVZleVgyU01sZzhHcms0TXYzemNoTVRKOFhkWFJn",
+    sections: [
+      {
+        title: "Forteresse de plaine et douves alpines",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN-wH08400iBAkTGgyxVt7f35yEnosRohonUXnhwvEu7hhiP-4ca-WO9A5c2tc34xEzy1QSK99nW4vJ1hpbmsaZmYrFHKkP2Mq5pJP0BM1_79mDsnmJIpU1rkpS3namiJi8sblyNFcDp8qBcJCEVRwa4Q=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: "Sur le plan stratégique, Matsumoto appartient à la catégorie des châteaux de plaine (hirajiro). Privée du rempart protecteur d'un éperon rocheux ou d'une colline abrupte, la forteresse a compensé cette vulnérabilité topographique par un formidable système défensif hydraulique constitué à l'origine de trois douves concentriques alimentées par la fonte des neiges et les résurgences souterraines des cours d'eau Metoba et Tagawa. La vaste douve intérieure (uchibori), remarquablement préservée, déploie un miroir d'eau calme d'une soixantaine de mètres de large qui isole le donjon et démultiplie l'effet visuel de sa masse sombre."
+      },
+      {
+        title: "Des guerres de Sengoku à la dynastie Ishikawa",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMpo4ybzbEDPbcSx6Gpj0eNeCapSUTcIMGqyCNr5R_9-UMawtPyXzUay_yLe-51wE-cu4atE_7IbVm3y0BS0_IEOue8tCDkc5sp6LnslMLdd4HPC3vNEvm0t7cAAJuYkB1Qy2_-LY8DNcU8WGKs31A-3A=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOOD8aoZFb2lcxjaKcQx3fpuM6rQCcFykGkxnsrE7W7RHAlQwwA_BXQfkjsu84C1tRDoA1wGj9LicevflMUScAksrYqTPIoYmQvTf6aCVWC9W6KSAWAWlKdcQP9Ic4LFGH9Bs_HtnuT1i8FI462yJJoHA=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOgTdbeg0yZp7Pud3Jftw4AlbGspXMNSOhvfIWJ1_0rK5BJawSKiD6tferQpOKu5DZeV7ufvuWVEyeNXZ_ZrSUrXWWO9fB0hJG-t4Bcn3SJZXcl1rfePoDzVr8AzjEzU2r4sP9jovLIYzVtJzvOY6ENqw=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'histoire du site s'enracine au début du XVIe siècle, lorsque le clan Ogasawara édifia en 1504 le fortin de Fukashi pour verrouiller le centre de Shinano en pleine époque des Provinces en guerre (Sengoku). Conquis en 1550 par le redoutable stratège Takeda Shingen, le lieu redevient possession des Ogasawara en 1582, qui le rebaptisent Matsumoto. La physionomie monumentale actuelle prend forme à partir de 1590, lorsque Toyotomi Hideyoshi transfère la seigneurie à son fidèle vassal Ishikawa Kazumasa et à son fils Yasunaga. Entre 1592 et 1594, en pleine époque Azuchi-Momoyama, les Ishikawa font ériger le colossal donjon principal (Daitenshu), la tour secondaire du nord-ouest (Inui-kotenshu) et la galerie de liaison couverte (Watari-yagura), concevant une place forte prête à soutenir les sièges d'artillerie les plus rudes."
+      },
+      {
+        title: "Ingénierie défensive et meurtrières sama",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczONn2cdFm8Rjj1-oOz0w40AavQhNHQqy60-uZnm6IOE4n1X_Jq82Xo9lE8ducZzuyztTyXA6egjQ0QMycNgYRQEC-Kg5G14PGfJ7pojFHU1qVpPrKRNcQ40hjK3tEOGvThlzGb9A2TgxL250c1zRvY6vQ=w1221-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOgI2sNhvbdNjuZUUPLbEZiLldKnEBGO72hysR0FG8XrAeyig8yK9-ClJfqjJ3CEtrUeKhR3-ZPOKzchi6gVs-X5p_O6FHLl2DZQrzQ5c0AU4zsC6Y8g7AEtGtWQEl0WgtKM1coC9a4ig-2m0dlPMDoJA=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPQ3vXRAlGpHCvu-UQmSiGtJr89Hvr93fM67s2JY1v5DDyHOVuEfPxyBJrKrnmpLtkbDo8eR__Rqu6aH9lwrRFRJaVzjL-sw1WEXx5TCluki5eDsM4vZfB5XYEaH-VRWAXmFtqAFaqjVpAlbcD5YfYIXA=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "Ce noyau défensif primitif relève d'une conception dite « en complexe connecté » (teikaku-shiki). Vu de l'extérieur, le grand donjon présente une élévation de cinq toitures étagées (gojū), mais il dissimule en réalité six niveaux intérieurs (rokukai). Le troisième niveau, complètement invisible depuis l'extérieur en raison de l'absence totale de fenêtres, constituait un étage aveugle et sécurisé (kurayado) servant de magasin d'armes et de poudrière, imperméable aux flèches incendiaires et aux tirs d'arquebuse. Partout, les dispositifs militaires traduisent la brutalité des combats de la fin du XVIe siècle : les bases des façades sont percées de onze mâchicoulis d'angle (ishi-otoshi) destinés à écraser d'énormes quartiers de roche ou à déverser de la poix bouillante sur les assaillants escaladant les soubassements en pierre de taille (ishigaki), tandis que les murs épais en torchis et chaux sont criblés de cent quinze meurtrières (sama), rectangulaires pour le tir à l'arc (ya-zama) ou circulaires et carrées pour les arquebuses à mèche (teppō-zama)."
+      },
+      {
+        title: "Charpente massive, escaliers abrupts et sanctuaire sommital",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPYlJrviNq2tHZcL04hlQVjG082WomYIbuU9XPzcIxsHoSju7S13hHQsIBMhRNk0QbS7er1mSWPuPtpUH2lAGuN_mRclTnU9pc7INXGS2pZTGUXC_83TNSyBPHmbGiQ4j7Qxh_VBsMrzA78AvLyDm60Qw=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNFb6cHvBL2R7sE_2Tf2_UdNzvkGek0ts-O1EOWbdjQWO5n7F5b0JfRn5YLtbXnS_6g-2wsAkHZ1XqALZx_7UQ_ZNb1S8lvQR7IqOPlWZ43cdR8zTBeaPRyFR3YF-b3SfI_wABVAFwF__HTOfYVENdPjw=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOY_hSXgxqkNxiZH0D3QgCJzi8IoJFg59xLZ9_qlBVfCxoifaEG9w7KtpQQThEPAQ2MDk_ACmBGK3nG0TquIrfGlShtRuHtRrjGr6f_D1ndc9RChPQqiBNvTJznS8ftBnQr7dPFJY2Z0HZKAjaDLBThwQ=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP47r7XjDutJvT_Vu0FYbF0MdI-AtB1-CtfSW5C9SubPK1LYqeABVGzSKAIwWt432gBUYuA0z2tIPzsO1BdZZN6VDNp6GsXGQAZfIsLednz1d9cilwlKfsDIVUP7YkmdmzDTgPnb9MfF-49DwYn3RNRdA=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "À l'intérieur, l'absence d'ornements superflus met en valeur une charpente gigantesque en cèdre, pin et cyprès soutenue par d'immenses piliers massifs qui traversent les étages. La circulation verticale est assurée par des escaliers en bois particulièrement étroits et vertigineux, dont l'inclinaison atteint jusqu'à 61 degrés avec des marches hautes de quarante centimètres, conçus pour briser l'élan des ennemis et permettre aux défenseurs de bloquer les accès un à un. Le sixième et dernier niveau (Daiten-fu), réservé à l'état-major du seigneur en cas d'assaut ultime, abrite sous son plafond à caissons le sanctuaire dédié à Nijūrokuyo-shin, divinité protectrice de la vingt-sixième nuit de la lune, installée en 1618 pour préserver la charpente des ravages du feu."
+      },
+      {
+        title: "Collection d'armes féodales Akabane",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOQerfaVFjAGkB16mBWsTZcTnfYwiry03MjqVXk_Ff6ekXudvMirQwHJcQf7CBHtPThYYKpyV2eP3X_rDUK2QWANkTTwy7ljMDFQ3KghjFO2iog-brDFlXDR7t5DB8FzwZMwNYhU7R8kFVXMbA7_eix6w=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM-DvMSJC-lAwGzCBtFPYWjSa1EtfMlBczYjbAByPh3D9mrs0FGNLJG-ngIMor8HKuOpmPzPpBgTTkoUlB8tlKm5kL80vckS-jz3vWxEdsSQXOksykY-cFLm-dmT1LP3HCxD3OIZQCyQ_nHraCCs_LcIw=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO9HYUa6PLJPUb5TlKNeBf6iSxBI-MfT1eLZ-uVp6Kex4vxemC3cxv3HCVS-a4omfxIzkS8CHc5oSRCv4S57DVNw8rmUtPXkqy_HLQn7FUFd1aWbVaM4RDa0xptAS7skiZIaZ3_1u9aPGGJLheTfKgRIQ=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "Au deuxième étage du donjon du Château de Matsumoto, dans l'ancienne salle d'armes, est conservée une collection exceptionnelle léguée par les collectionneurs locaux Michishige Akabane et son épouse : la collection d'armures, d'armes blanches et d'arquebuses à mèche (teppō). Ces pièces authentiques permettent d'appréhender concrètement la réalité matérielle des guerriers japonais et l'évolution de leur condition, de la brutalité des champs de bataille féodaux jusqu'au raffinement cérémoniel de l'époque d'Edo."
+      },
+      {
+        title: "Épopée des samouraïs et sauvetage civique de l'édifice",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMcFD5Ep5cV6u6CsGCirJy2ehFPW_Jpt2p-o7vVyW7CSfZhvzrYTMHMvakJsZk9ThyQjco6Tk5kjPO1zdic_peRxQK9x7fGG3X2t5thD56txjvOGPigHPwYz4zEb8DrlYpuHwfePU-i4-hM2hp7YrZgHQ=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPO0x7EyJwjjwA88tr69CXBunZMnq_TbFZHPyT8_0AhuFzhJlSiUU8x5VyPcpSC8WExsqox302fxIbNX9tFziHNNiIzpVknj9gTn4k41QdakFBqc1G630gdpKvZLn7f3jsEFqCf6vUwYKP8j8DHri9eJg=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le statut du samouraï (« celui qui sert ») a connu une profonde mutation historique au fil des siècles. D'abord intendants armés des grands domaines impériaux, les guerriers s'emparent des leviers politiques de l'archipel en fondant le shogunat en 1185, formant durant les guerres civiles de l'époque Sengoku une élite combattante pragmatique guidée par la prouesse militaire. Sous la paix imposée par les Tokugawa à l'époque d'Edo (1603–1868), la caste est placée au sommet de la hiérarchie civile mais se retrouve privée de combats : ils se muent alors en administrateurs, lettrés et magistrats, formalisant le code du Bushidō qui allie maîtrise de soi, loyauté absolue et sacrifice d'honneur par le suicide rituel (seppuku). Enfin, la restauration de Meiji met un terme définitif à leur ordre avec la conscription universelle et l'interdiction du port du sabre en 1876, léguant néanmoins leur exigence morale à l'esprit du Japon moderne. La survie du monument tient du miracle historique. Lors de la restauration de Meiji, en 1872, un décret impérial ordonna le démantèlement de la plupart des châteaux seigneuriaux, symboles d'un ordre féodal honni. Mis aux enchères pour être démoli afin de récupérer son bois de charpente et son métal, le château fut sauvé in extremis grâce à la mobilisation civique d'un notable local, Ichikawa Ryōzō, qui organisa des expositions payantes et lança une vaste souscription populaire auprès des habitants pour racheter l'édifice et le préserver. Au tout début du XXe siècle, alors que la structure subissait un affaissement critique dû au pourrissement des piliers d'assise et à l'humidité des douves — un phénomène que la légende populaire attribuait à la malédiction du paysan rebelle Tada Kasuke, exécuté au XVIIe siècle —, le directeur de l'école secondaire locale, Kobayashi Unari, mena pendant dix ans une campagne de mécénat et de restauration titanesque (Meiji no Dai-shūri, 1903–1913) pour redresser le donjon. Consolidé une nouvelle fois après-guerre entre 1950 et 1955, le Château du Corbeau demeure aujourd'hui l'archétype vivant de la forteresse japonaise intacte."
+      }
+    ]
   },
   {
     id: "okuhida_hirayu_waterfall",
@@ -8565,6 +8619,16 @@ const travelSpots = [
     category: "cascade",
     counts: {},
     image: "https://lh3.googleusercontent.com/pw/AP1GczOOF_QPj2U6rYpL2K3VKjYJBnoQ5izgTjUHWhBe1SyFL7fvlu1Njkk824VYRcQpVitsFVGOxB3Cy9X6jgf4343dBEqfhd-9TWDzMvrmEuHY1_pr4hMIxGt3lU1hS251d0ZUGnaLDW60PsAIwRn5-FVDAg=w1984-h2635-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOF7O8K397Yjluplb-e0wR2WkXI39MOBckww8rOapVCJSXnE02TtdKVYHJH7Hr55k1RW-lJgkMPUCoASiYcOJWS6WU1PG0ePAG4iqmbCvsAM1CGc8w6ikSn8d4fMCLx7js5KpR35ubaHg8AOf_wYC69xw=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO8wHi2cPDUPmJP2U_LNRz_T_VSHHXHOR9slkqkRodueMDi3S-6ZHhtzghMqvCxYsBu3Nmmp6n1O1G_mksEZ5XVVAIkPN-VmZsEOsY4z54lO_lPdVI6z7hXJ8v-tFTFn9pZPK64ugsnXWOHeTC4VUjauw=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Surgissant d'une abrupte falaise de basalte volcanique au cœur des forêts d'altitude de la station thermale d'Okuhida Onsengō, la cascade de Hirayu (Hirayu Ōtaki) figure parmi les cent plus belles chutes d'eau du Japon. Haute de soixante-quatre mètres pour six mètres de large, elle est alimentée par les eaux de fonte et les résurgences fraîches du mont Norikura voisin. Selon les légendes guerrières régionales du XVIe siècle, les troupes épuisées du seigneur Takeda Shingen furent guidées vers les sources thermales bienfaisantes de Hirayu par un mystérieux singe blanc apparu près de cette chute d'eau écumante.",
     visiter: "Emprunter le paisible sentier pédestre forestier bordé de torrents tumultueux et de conifères alpins depuis le parking de Hirayu Onsen. Atteindre la plate-forme d'observation en bois située au pied du canyon pour ressentir le souffle puissant de l'air frais et la brumisation vivifiante dégagée par le fracas des flots contre les roches moussues. Admirer la vigueur du rideau d'eau blanche vertical fendant la gorge boisée, particulièrement spectaculaire en été au milieu des frondaisons verdoyantes, flamboyant lors du rougeoiement automnal des érables (kōyō), ou complètement métamorphosé en un gigantesque pilier de glace bleue lors des grands gels d'hiver.",
     link: "https://photos.google.com/share/AF1QipOIJ2YE2gBqnx4TIM4FdLuiNfcq1Yi6pKtvSJwTV_X0VCnOZD-Ufld39Tv-UWjrDQ?key=enh1UHZreXRzeWRlVDJxNDJxbGFsajRhUmM3U3pn"
@@ -8592,7 +8656,43 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczPP60gKj01L9lje_zLAnALqIsQWQUm_PmXfiUgyQR3fIqRvq9_09wpdNv46imbOtYAM3huQoH8xufIGUHoNOP3XbIgY-a2d2yD6DWBSk0MPi1eVkijiwp16zItaQZNUk5Qr5R0tX63lOqJRJ4YJsUXXMg=w2966-h2234-s-no-gm?authuser=0",
     description: "Cœur battant de la vieille ville marchande de Takayama au creux de la province montagnarde de Hida, Sanmachi Suji est un ensemble exceptionnellement préservé de ruelles historiques bordées de machiya (maisons de ville marchandes) en bois sombre datant de l'époque d'Edo. Protégée par son isolement alpin, la cité prospéra grâce au savoir-faire réputé de ses maîtres charpentiers et ébénistes réquisitionnés par la cour impériale. Les façades en treillis de bois ajouré (kōshi), les auvents bas et les rigoles d'eau vive courant le long des pas-de-porte témoignent de l'opulence des marchands de bois, de soie et surtout des grandes brasseries familiales de saké qui font la renommée du quartier.",
     visiter: "Arpenter les trois rues parallèles principales (Kami-Sannomachi, Kami-Ninomachi et Kami-Ichinomachi) au son du clapotis de l'eau claire s'écoulant dans les caniveaux pavés traditionnels. Repérer les imposantes boules d'aiguilles de cèdre (sugidama) suspendues sous les auvents marquant l'entrée des vénérables brasseries de saké pour participer à des dégustations de crus locaux servis dans des coupelles d'ochoko. Déguster de délicieuses brochettes ou sushis de bœuf persillé de Hida (Hida-gyu) préparés à la minute par les étals de rue, chiner des objets en laque sculptée traditionnelle (Hida shunkei), et visiter les cours intérieures ombragées des anciennes demeures marchandes reconverties en galeries d'artisans.",
-    link: "https://photos.google.com/share/AF1QipOqFTc9o_f_UUJ0HTPSBzmBgjx83dhRdvcWUQ9rrdxC5e9s09dBYQrqrxawDwaXBw?key=VHczcjVlaVNkdU9pdWJ3ekJLOTcxQjZJTlNsbFRR"
+    link: "https://photos.google.com/share/AF1QipOqFTc9o_f_UUJ0HTPSBzmBgjx83dhRdvcWUQ9rrdxC5e9s09dBYQrqrxawDwaXBw?key=VHczcjVlaVNkdU9pdWJ3ekJLOTcxQjZJTlNsbFRR",
+    sections: [
+      {
+        title: "Les trois ruelles marchandes et les machiya en bois sombre",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMZKXrxieVI1qCSnJ7Qb1GFlnu8D7o4VfTriUcL8rxCXP8DckXH7wpVN_WCnLBBqfsPqHuKaGqawGT1fZp201147DdmNsHTrQzbiIllUhHSoUXDjJfk4FQn20_lcW_IDXba_TkFSa1k56y55LVwz_lvRw=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNh8CjZ1xQY9TTRvu1ngRyCTzzEQN4yLGCAuVNe3UweMrN6MGpqi7yW2bTP3ECO8b-NQc18gSqTIapUN7MtBfJNxoqqkemKS1UsXiJYa3Z9Zza7xMRulY8pRRh4OMC1G5lwuTY7ZFzqd0CG1qKSU_RWtA=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN87_G0UWxKDNxL5LBIRWZDIbK4gK4EFIErCllYS8P6LAdwC74ueuW-9juSBamhOsNA4vEIogKJMM_p70AqK5osJLOE2vPGrC_DxB9XoP6aAqys8Pv002JRLVXN1GINWQSd5Fim--2J25lL8VpGMjzCwA=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le cœur historique de Takayama, désigné sous le nom de Sanmachi Suji (三町筋), s'étend sur la rive orientale de la rivière Miya et regroupe trois ruelles marchandes parallèles tracées sous la féodalité : Kamisannomachi, Kamininomachi et Kamiichinomachi. Ce secteur sauvegardé présente un alignement continu de maisons traditionnelles de marchands (machiya) à deux niveaux, construites en bois sombre foncé à l'huile naturelle ou à la suie de charbon. Les façades se signalent par leurs avant-toits bas, leurs persiennes amovibles en treillis de lattes fines (senbon-gōshi) qui protègent l'intimité domestique tout en laissant circuler l'air, et les caniveaux d'eau de montagne qui courent à ciel ouvert le long des seuils pour rafraîchir la chaussée et servir de réserve contre les incendies."
+      },
+      {
+        title: "Statut de tenryō, brasseries de saké et artisanat de Hida",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMKWNKqty_I-iUonBa07iMvYwswVxVgnK4Tg3qp9uUkMb3R7nLp919N7mQwkGAHbhjvwGZNxNiH6KUi41GvmMaMeWm55JzemW-PNW-Dlc7Wrzv_4SpjtVOCM0xg80HlWJ6V-TF4QF6aOE_ZEGRZoUi4tA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNf6YCgt3nsqZSBoRfl73x79l9cQ3hPwp9ocJKLAyyz7crMNmnIFwWzEEv7mYP6upK-hgwlV1paLODWkC7rgbaVtEpZw3-JWcekEh9Ci5EO6MANyTHAuKKR1JBR5a4pVJEBKIhO1rYJNrhoedP014Yhzg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Placée à la fin du XVIIe siècle sous l'administration directe des shoguns Tokugawa (tenryō) en raison de ses précieuses ressources en bois de cyprès et de ses mines, Takayama vit s'épanouir une bourgeoisie marchande cultivée et prospère. Sanmachi Suji perpétue ce dynamisme séculaire : plusieurs brasseries de saké artisanales pluricentenaires y sont toujours en activité. On les reconnaît à la grosse boule d'aiguilles de cèdre du Japon (sugidama) suspendue sous leur auvent : verte au moment du pressage du saké nouveau en hiver, elle brunit progressivement au fil des mois pour signaler aux connaisseurs que le breuvage a atteint sa maturation idéale. Le quartier demeure également réputé pour la laque translucide aux reflets d'or végétal (Hida Shunkei) et les figurines taillées d'un seul coup de gouge (ichii ittō-bori)."
+      },
+      {
+        title: "Les chars yatai du Takayama Matsuri",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPP60gKj01L9lje_zLAnALqIsQWQUm_PmXfiUgyQR3fIqRvq9_09wpdNv46imbOtYAM3huQoH8xufIGUHoNOP3XbIgY-a2d2yD6DWBSk0MPi1eVkijiwp16zItaQZNUk5Qr5R0tX63lOqJRJ4YJsUXXMg=w1221-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMQ1GG2-8GcMCF_GaJQ94DAx6c2ex7Cyk5vNZGO6iQSeFZCJO44WzCeoCORBIsVBThJ5MTorE2yAhROdb1XCL6LqWLaK5vLq5uxSskXgYp6A3B0VWQBS8XyLklusI1VLOLX5ArZOKYNHOq0fJIywtjadg=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "Cette prospérité marchande culmine lors du célèbre Takayama Matsuri, festival séculaire célébré au printemps et à l'automne, réputé parmi les trois plus somptueux de l'archipel. Les ruelles de bois sombre servent alors d'écrin au défilé des yatai, de spectaculaires chars allégoriques à étages richement laqués, sculptés et dorés, sur lesquels opèrent des automates mécaniques médiévaux (karakuri ningyō) mus par d'invisibles fils de soie sous les yeux de la foule."
+      },
+      {
+        title: "Vues complémentaires des façades préservées",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM1GppvEpbq6QokHcVcTBOZG_oAVgwBJYJas15OZm1BgZ-fBTxC3haL8f_2qJjKxXdgMLg-bA_0w6nCuUNwvBZfngZdJXQl1y7RDpgYMYMLiNLRS3CZK7NpAcqaujZuxyb21Q3tQZKWs7szIAf5a8IiXg=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNy_EonVaUa4K2OCcGT1LRUmqwTO_oOWylF5fjm2yfOSoLji3_km4q47xCMaYfQR2lgcVATHbZk7gyrWmv83poxSeqN1Wah8DGlPK83-Qa_eHTWkEns5ru_5KGobOAGWgKMLBxVSzulByzDfLr5B0aR-g=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPwkSiTG9FBUDitXQm0qX9tdbOKOQtB-xL00WxYmFa9zStlDAI2Xu-dq6tTEaeNFDrdCwbDxrFYtBRYyEBZi43V5IVvcpazjyooDueHMJB7GUZA_cF94F2e5ZAP0cGFY9l3bICKcHzH6o9F8rdJCPH6KA=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "shirakawago_ogimachi",
@@ -8603,8 +8703,8 @@ const travelSpots = [
     subdiv: "Shirakawa",
     continent: "Asie",
     flag: "🇯🇵",
-    lat: 36.258920,
-    lng: 136.907130,
+    lat: 36.25892,
+    lng: 136.90713,
     altitude: 500,
     is_island: true,
     island_name: "Honshū",
@@ -8613,12 +8713,76 @@ const travelSpots = [
     era_label: "Époque d'Edo à Meiji (Patrimoine Mondial UNESCO 1995)",
     century: "XVIIIe siècle",
     category: "star",
-     unesco_name: "Villages historiques de Shirakawa-go et Gokayama",
+    unesco_name: "Villages historiques de Shirakawa-go et Gokayama",
     counts: {},
     image: "https://lh3.googleusercontent.com/pw/AP1GczMDcc3BE31AHhnhn3VH9nMLewnfjtsp2LPT2kIfKRTVoDuPp8E1uFSLypg8_wXf2DTfxVvU2oxwyv-7In7HAw5a9ADRAdKktbIUsEQE7TBPbQGlng0Oqsi7SyjvkBFLrPHOoseT36El682DrV48iRkK4g=w2966-h1978-s-no-gm?authuser=0",
     description: "Niché dans la vallée isolée du fleuve Shōkawa au cœur de montagnes sauvages jadis coupées du monde en hiver, Ogimachi est le plus grand village préservé de Shirakawa-gō, inscrit au patrimoine mondial de l'UNESCO depuis 1995. Il est mondialement réputé pour ses spectaculaires demeures paysannes traditionnelles de style gasshō-zukuri (« construites comme des mains en prière »). Dotées de vertigineuses toitures de chaume inclinées jusqu'à 60 degrés pour supporter les mètres de neige poudreuse hivernale sans s'effondrer, ces bâtisses en bois de plusieurs étages hébergeaient de vastes familles patriarcales et abritaient dans leurs combles ventilés d'immenses élevages de vers à soie.",
     visiter: "Prendre de la hauteur en montant au belvédère du château d'Ogimachi (Shiroyama) pour embrasser la vue de carte postale sur l'ensemble du hameau niché entre les rizières verdoyantes et les pentes alpines boisées. Flâner le long des venelles bordées de canaux d'eau de source regorgeant de truites, entre les bâtisses au chaume blond patiné par le temps. Visiter l'intérieur de la maison Wada ou de la maison Nagase pour gravir les échelles de meunier menant aux vastes greniers en charpente d'orme assemblée par des cordages de chanvre. S'imprégner de l'esprit du yui, ce système de solidarité communautaire séculaire où tous les villageois s'unissent pour refaire le chaume d'un toit en une seule journée.",
-    link: "https://photos.google.com/share/AF1QipO-9fthuckrHo5lqfqnWJDKX2OiAbRSSIVyLUw0n2_g-OQRylmTLkag1BfDfYWbRQ?key=SXB3Qm1pdHR0dC1Qc2kwdE5tUW4wN1hzVGk2UDR3"
+    link: "https://photos.google.com/share/AF1QipO-9fthuckrHo5lqfqnWJDKX2OiAbRSSIVyLUw0n2_g-OQRylmTLkag1BfDfYWbRQ?key=SXB3Qm1pdHR0dC1Qc2kwdE5tUW4wN1hzVGk2UDR3",
+    sections: [
+      {
+        title: "Isolement montagnard et survie économique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM5L68u9peY9uFccn70O3_xH3029V3IzRGmw34yrX5ez0nJxaMZ7LoIf_eB_hQChkBiX54sDHPJmKoN_Xhd4u7m_--_0oFGcOv8LqP9nCybl0kbpbYsFce2php4rLUILLnlx8l9oGrqzZjlmkjdjGL3UA=w1380-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN5zrIVz_JsGFq67Ym9v6yXnYp-v5i2nr6y0RgNpuDV0ov_ErDlsY96z-4dp2GVbPDk2tx2Rhq7YKoN8M6Fy62J6KKTFa0TfCeubtSC_R6rIysHHnbcRTAyZqlg_bj3Yj5ha4wNB9FrclDrt5R_kE88Dg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM9x-y6pqMWkVWoF7wKDtarM4J6Tc9GJlWFDjDUTf97bj5v0hlatssi51dMlyTmxfrv1H8QtwZN1L8pTA6i1XW8N3PhUsA1JS92NuFgDCpq4SgpKIQmo5SXz53KH2RFj_6boTSsCsoq1s7-w8bV4L_aWg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN8XzCu0sx7VtdSRqYgdngUGFUod1svKTVO43dUVx88mIKf2aFbKsNWtEGdLYeIk11gmqM2obODzfTM1nQ1DDEPjOo2zo86fGZZTJyWRcKSAsKDIkFqaoCpQwDUCQ-hbQi9UN3S3KVUXy_we083AVTYkw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMK1MlT33mpzxg9vIbFVJoeEukEWK0dI_e5alDhF2CjtpOezDiv2pmVjamdV9UbJ2fJimTtwrZYIfKvyyIFYKnwU_itPeJVpGukhbWpHOOdYafMIpBTWNRMF0WlBbMpHTI0g5U7aaCK9V-VkeNR7Kz46g=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP_2ysy_CdEpiq9lgfZAehOcUa_uzVC3zzWqYRS6fYsV6JzTyVUFBC3sSZio5ccVrc1LIqMxKfFlTxb98Rc96TMcCut6I5YTiXOnSMve8U23r9D_o99V04yJwOWWXeZiikgrtzR6r4xI70Uw57aqhehDA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOJ05srtTsxPyBc2eA60UqSj6w3jcVAD2pmVtbK3jDOJF-msHyLihdtHTuXlCbi_Yk3Q5u6MDFhWEsqnS9h_u2U4Q8n-VFF3OlpPwVa2AExXz3541MaTPkwIbSw3D0tcT1RbzvJHUMoQqemEbfUsrN6Ug=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOgfgNlJlQvWa2w-9gIKPA2rNNB9UIvos6GdkWQQz-EwCNJSx5T0_f9MAOjGkEwTLccx60GjTR8sc-VRGXWpemXSbUHYjjGUS6kvulXWf04AnmoYnNGuDp56CGABXeQDxVof5zrqPmqLJoSkdZY5iLJrA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPQhgVoHVTThwQG1mH7cYqFzSC_jgHFvzgu7k8fQn5ueX6e46t3DYLu1q9znIuoz29UThKBUjGxosGPx4hqMDr1vF76KUjJIiwTeQxtADbO3y5L46b3ZmdOfKjh7TJXYdgC68bhyhG9KWygCfxej9FRBQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'histoire de Shirakawa-gō s'enracine dans la tourmente féodale. La tradition locale rapporte qu'après la défaite fatale de la bataille navale de Dan-no-ura en 1185, des rescapés du clan vaincu des Taira (les Heike) fuirent les purges ordonnées par Minamoto no Yoritomo pour trouver refuge dans ces gorges réputées inaccessibles.\n\nCet enclavement imposa un modèle de subsistance en autarcie quasi complète. Le manque critique de terres arables plates empêchant la riziculture intensive, la communauté dut développer des activités complémentaires pour survivre et s'acquitter des impôts féodaux exigés par le puissant clan Maeda du domaine voisin de Kaga : la culture du chanvre, l'élevage des vers à soie et la fabrication secrète de salpêtre (enshō, nitrate de potassium). Durant l'époque d'Edo, les villageois exploitaient la fermentation des déjections humaines et animales mêlées à des herbes sauvages sous le plancher de leurs habitations pour produire cette poudre noire indispensable aux armées des samouraïs, assurant à la vallée une relative prospérité et une discrète protection seigneuriale."
+      },
+      {
+        title: "Le style Gasshō-zukuri et la toiture de chaume",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPo5gJP2yFihtRBHnejOmIOKMOF_FdvbrpL36HubPRq1IqtR0CnWYBaI07rPrVWT81H6URCPqkX_TTtB-3q5u5XGxw_hK9fNWr948ByUMqkwk1G408Zz14aTe7iA9EIB3cixZkAPfIQT8S-WelU3bPRpg=w1221-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM8oKyDrMrwOD2AfQafY4Uij9vFvJHbkIPMofuvINa_JhYI6sfxZ-gSrPN1Kgdxt0DK6d7UYRMUYnqccg-re-BI5i_2aNK8VvFYT4fptQ0ufK_Tf16Kj_xA8pMfIeIErHf5jiRHHvUCNNqnQw4DrmDMTw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOWAAEIaihAR9jKKtu9AAtOyClkMeBtEgZT4QdY9GXXDyjlW2g_ljWXLV7MXCJnXUbFCKBFwCZcl4Dp7EWmH7HUXHK5j2m5GddyrPpsA37rYy1VVB8S_QspKYR3pqbcncraRDmyt6Epbxjire2F3pjQKQ=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP5CtoOR57VSOx3Qo5YwE3hz4xw4uBEZchAn3I4dE6ZKpWQOEn6y6S-GZTnvh-eDvX4BUeqA-kehLqd-U-R3N5qK3YwMBBGL2H2AVjFUl9-JgCnFH8Mb7SADKfPGn6N_CIY_rFU_eypiLlclZ6Cb-BCdw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPYJRuwAlm0zXIIg1IIqJH-_8q4i6hWQfBdNUeMDwXIsKAfJdNsj1HqgfomUP4SalDRXupfOg104OoPBFJ-t9mVDptPIdXq4KFpXvcpcaA4sd8qc_6N-iSSrvtgpUnuOc6ftSPnudVV3hPODtt8_lH2LQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNZIuPpEOUDiOod1IYhmBeqEYQ5Zw3IV_r-3ZmI-pMmag9w4JfZLEykRhwmNkjZKSTs7OeHYv2NsoYa7rNYkZqm4HImd99IjvQaw-RQ3Bzx3niWw5FjFpmoKEhc9_3WYeHpo3rSjskcuH7MF03I_pjLuw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMS2DlpLCQsjhFc4sStlptai_metRAkVasGQ7a5PqtP0S4RS5bF5cyGOYwAkMtMGTYrmHZE0uHvOfTGfx4-zE2vH7y3VyuJ7iMR96XQJtO_HMmKLYMqfSzfzPWvkt2BdUvvN-nY2GS6pWmyJD6RzK9tMg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le hameau principal d'Ōgimachi doit sa renommée universelle à ses maisons de maître en bois et chaume édifiées selon le style Gasshō-zukuri (合掌造り). Cette appellation poétique, signifiant « construction aux mains jointes pour la prière », renvoie à l'angle triangulaire très aigu de la toiture, qui évoque la posture des paumes unies des moines bouddhistes.\n\nCette morphologie ne relève d'aucune coquetterie esthétique mais d'une adaptation biologique et physique absolue aux rigueurs de l'environnement :\n\nUne inclinaison vertigineuse oscillant entre 45 et 60 degrés permet à la neige abondante de glisser d'elle-même sous l'effet de son propre poids, évitant l'écrasement mécanique des combles. Le toit est recouvert d'une épaisse toison végétale de soixante à quatre-vingts centimètres de chaume (susuki, roseau de Chine), tressée de manière étanche et respirante."
+      },
+      {
+        title: "Orientation bioclimatique et charpente flexible",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPHIo2BPXBNN9rCOyP6SoPOfNzRORkxBPS_-LYQLXeRzr-Pu0vySdDa9GuJldABqJxUjcSI8AF6lh-Ao7OugGKKnajuqwnVUBEggU2InHBXnSbC1ektosJkAQG-9anwgHPtnPkM0kQX2Bo_8tmTOVSttA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN2BOoh6DhJ6dK1rPGL9YE-d0_efSJDGxngVqo9L-ewZIcyF1vj-yNo25YTpsGJmdxQswpJkw4GXSkf1r9ABWturkWM3u1GYEkdRhLk6L3_O6imy7t1Ulku0RRzIxB442EcZ7xNqeiKiKz5qNMxyyrBlw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPCzH0drg483KYWzAcwj-pZEr-zEjsXXVhhb3xCiGgPDU3QyCrgXP0T4H8ET7YhKeBoCaaZTMEXlwTEU-RT4iR3Sf8b5bRvMNrQr-R-gY1eEPupL8LJDH-yDjgWpSVQVtNCFtb961grCiicx49Imt8EXw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Toutes les maisons du village sont rigoureusement alignées selon un axe nord-sud, parallèlement à la gorge. Cette orientation bioclimatique minimise la prise au vent froid canalisé par la vallée tout en garantissant un ensoleillement maximal sur les deux versants du toit, accélérant ainsi la fonte de la couche de neige et le séchage du chaume humide pour prévenir son pourrissement.\n\nLa charpente maîtresse témoigne du savoir-faire des artisans de la province de Hida : elle est entièrement assemblée sans le moindre clou métallique. Les poutres en bois massif de cyprès et de pin sont solidarisées par des entailles d'embrèvement et ligaturées au moyen de cordages en chanvre ou de jeunes branches de saule assouplies à la vapeur (neso). Cette élasticité structurelle permet à la charpente d'osciller sans rompre sous la force des rafales de vent d'hiver et d'absorber les séismes sans désolidariser l'édifice."
+      },
+      {
+        title: "Vie autour de l'irori et sériciculture sous les toits",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPbtdqVzPZqG3nxktndtmyoXJ2_L95CAj0hmkEQAd0NNveFHYIJK1P-0u8Aj1TunNs4SiLKJQ2YbhxBnSvH5VNJlbAMhyLYZGFI2IXGxmEd6-P2lASar174b3gG_nmlZgJPN8vCZqUZxgw7ryER5HYLLQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNM98OK0sMVZmj_t93u_6eknEl4yM_HZshuFjDjsLlg0217Kuq929LPyPlgoF-YDBdau0h2r-qZoqB7B-DDQPNBGbduz4Qd8BhtagTBflf4pK1IC4SN3H5xtB-c5f02CZnS_sDDRC2DP2Nehl_5HFCodg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMyEgCcVq6fgixUMd2NHSjGL88XoMJ3R6zJtHiJ1MsRgbqHrYCP2vY7yc9YVHsAcfLJKeAW3gNgpg8XWV2xEOkp49gZ5l7_k6nbzxTKtIN5wPNM0UfYV4dfTTemP8HP1--fKCkuf9pxyR5jDkFhV2_McQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "S'élevant sur trois à quatre niveaux habitables, la demeure gasshō a été conçue comme une unité productive intégrée capable d'abriter de vastes familles patriarcales :\n\nLe rez-de-chaussée sert d'espace de vie domestique, d'accueil et d'artisanat. En son centre trône l'irori (囲炉裏), un foyer ouvert carré creusé à même le sol, où se consument en permanence des bûches de chêne. Dépourvu de cheminée extérieure, ce foyer diffuse une chaleur vitale durant les longs hivers, tandis que sa fumée âcre s'élève à travers les planchers de lattes ajourées des étages supérieurs. Cette fumée joue un rôle sanitaire indispensable : chargée de suie et de goudron végétal, elle imprègne la charpente, repousse les insectes et larves xylophages, durcit les cordages de saule et assèche la sous-face du chaume.\n\nLes combles supérieurs, vastes et bien aérés par de petites fenêtres triangulaires ouvertes aux pignons, étaient voués à la sériciculture. Les vers à soie y trouvaient la chaleur montante de l'âtre, une humidité régulée et des étagères de clayettes en bambou pour tisser leurs cocons, tandis que la cueillette des feuilles de mûrier mobilisait les membres de la maisonnée pendant la belle saison."
+      },
+      {
+        title: "L'esprit de solidarité du Yui",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM44WCOlbEEsAsRLFwiS2iDnz2fQN7WImDxFrJCOxr5LiD6LjE4yjt6TPulGaccPOiZqtjC8hjBY9G_adJYENHSSZc95UBLGJnx17aF-fIOKbwq1EedK2LE8tLbPrwrVKyi4EvlJOA2hpAlkEW5n3MtDw=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOlWkUAcBPfN3A1s7hosTulZ4mRwrGLS-IVUNGzNPVqoHeijkwiIZF6bmKESeFadJkGluQ2tP0MdMM2eC0A7D9OYgknB5DY8UfIXAzcYgCu0V-LZGyfUw_anem4ha0lxSY-e4WaN9TzOlPnLYxKRxuH3w=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNwlueoc_SnQcpO5BM4frBxECVH6vxpmjQUHgCCLIt2IopEs67Y57hpd8cammqshv5qeP9GX5Vo1f-vgQQ9ThoAZuCKfaWEBgE2JDsj9tXMsrq9YNyN6G6kYjDv1unvkUEeIf8mj0cytl4PGYxTG9CdMg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Pour résister à un milieu naturel aussi impitoyable, la société de Shirakawa-gō s'est structurée autour de grandes maisonnées multigénérationnelles pouvant regrouper vingt à trente personnes sous l'autorité stricte d'un patriarche. Cette concentration de main-d'œuvre était vitale pour entretenir les bâtisses et exploiter la forêt.\n\nLe socle moral et social de cette communauté repose sur le principe séculaire du Yui (結, l'esprit d'entraide et de réciprocité collective). Aucune famille ne pouvant assumer seule l'entretien d'une demeure gasshō, le village fonctionne comme un corps solidaire unique."
+      },
+      {
+        title: "Le fukikae ou la réfection collective des toits",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMDcc3BE31AHhnhn3VH9nMLewnfjtsp2LPT2kIfKRTVoDuPp8E1uFSLypg8_wXf2DTfxVvU2oxwyv-7In7HAw5a9ADRAdKktbIUsEQE7TBPbQGlng0Oqsi7SyjvkBFLrPHOoseT36El682DrV48iRkK4g=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La manifestation la plus spectaculaire du Yui réside dans le fukikae, la réfection complète d'un versant de toit de chaume, effectuée tous les trente à quarante ans. Dès l'aube, entre cinquante et cent villageois — hommes, femmes et jeunes gens — se rassemblent pour arracher l'ancien chaume pourri, réaligner les lattes de bambou, poser les nouvelles bottes végétales et les égaliser à l'aide de lourdes cisailles. Menée dans une discipline communautaire millimétrée au rythme des chants traditionnels, cette opération colossale est systématiquement achevée en une seule journée. Aucune rétribution financière n'est échangée : chaque famille apporte son travail avec l'assurance absolue que la communauté viendra refaire son propre toit lorsque le moment sera venu."
+      }
+    ]
   },
   {
     id: "shirakawago_shirakawa_hachiman",
@@ -8639,9 +8803,23 @@ const travelSpots = [
     era_label: "Époque de Nara (fondation vers 708-715)",
     century: "VIIIe siècle",
     category: "religieux",
-     unesco_name: "Villages historiques de Shirakawa-go et Gokayama",
+    unesco_name: "Villages historiques de Shirakawa-go et Gokayama",
     counts: {},
     image: "https://lh3.googleusercontent.com/pw/AP1GczOT_XhWFijb0vWJ6OrCq-jq-BqhmyPKHDR9wzpLLHBdaeCzQ52sggj4e5IoogwHZJDWoFg1f7mMD0xvRLK6FR5KWmf38NmDZOKepo2aFIEhSSyQX5tSjPAV_rn9QMOZwJPRmaCAefLLnNWZrRhO7PVq7g=w2966-h1978-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMT_q05w7E34T_R3HwyI7JUuekxcY_IFz_ZkJ9pl43vHS3JPhwPLgrntLMCDM860hNxD_TfIIh_JyJ2JWs9epMOgob4IaQkE_GMSKTBpgj6HLPgyqCMG74cMyCxG5WC8U9OT5MCrPLP8PghkfTQIub6bA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNVnoLn3gQd_do8QkyhaB_1dlELLeVAe02sLRBCyq72zYRvh2mpkyajBq2g3dKB9w8SqEGdSX3ttEQn_LxAIV_wfzuF3m0PmgrcjGLX_Us4phK6hfVr0k2pVXLZoS9XKmyh8l4PN6H7NLCDY9Ky9zGuIQ=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP08sfpIiG6ct16K-vkiVSVdW-2N2iSeS2o8k3QJvicJwKKmFG-aSyE16mIYRgiT_y-NFZeCkaranvrgETj2G9dcSiEcM3v93VtwBm53lzUsW6mp5LrJoTnA0PaoDWtnqOkzsQZpd2AwYknxczF2pEGOg=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Érigé à l'orée méridionale du village d'Ogimachi au pied de falaises boisées dominées par d'immenses cèdres japonais, le sanctuaire Shirakawa Hachiman-jinja est le gardien spirituel de la vallée de Shirakawa-gō. Fondé selon la tradition orale au début du VIIIe siècle (ère Wadō), il est dédié à Hachiman, protecteur de la communauté contre les calamités et les incendies. Ce lieu saint discret est célèbre dans tout le pays pour être le théâtre annuel du festival Doburoku (Doburoku Matsuri) chaque mois d'octobre, une célébration séculaire où l'on offre aux divinités puis aux pèlerins un saké blanc rustique non filtré, spécialement brassé au sanctuaire selon des méthodes ancestrales.",
     visiter: "Franchir le sobre torii de bois sombre se dressant à l'ombre d'un cèdre géant classé monument naturel pour pénétrer dans la cour sablonneuse et silencieuse du sanctuaire. Admirer la structure en bois vieilli du pavillon Haiden, ornée de tentures blanches portant le blason shinto et entourée d'arbres séculaires aux troncs massifs. Découvrir le petit musée du Doburoku aménagé dans l'enceinte pour comprendre l'histoire et les secrets de fermentation de ce saké rituel laiteux, et observer les maquettes illustrant les danses du lion (shishimai) exécutées par les villageois lors des fêtes automnales en costumes d'époque.",
     link: "https://photos.google.com/share/AF1QipO-9fthuckrHo5lqfqnWJDKX2OiAbRSSIVyLUw0n2_g-OQRylmTLkag1BfDfYWbRQ?key=SXB3Qm1pdHR0dC1Qc2kwdE5tUW4wN1hzVGk2UDR3"
@@ -8669,7 +8847,44 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczM_FfEBfd1rKSwY7e7l8TEQBrIG0VbzMCtUnA_K7WKtrN9LiWeKsml0Bz1mU8-ZPX1Qyf4KNH0HBlZMdyJicdhV9l_uAEZAurtD96nzlepY9MGmS6WEELPB9R4AztLvXCs1zqm43tCkuXrnPDH3wNFJcg=w2966-h1978-s-no-gm?authuser=0",
     description: "Établi officiellement en 1820 par le puissant clan Maeda régnant sur le domaine de Kaga, Higashi Chaya est le plus vaste et prestigieux des quartiers de maisons de thé (chayagai) de Kanazawa. Dévolu aux arts raffinés du spectacle, de la musique au shamisen, de la poésie et de la danse dispensés par les geishas (geiko), le quartier se distingue par son architecture féodale unique : des bâtisses en bois à étage dotées de grilles fines et ajourées appelées kimusuko, dissimulant l'intérieur des salons aux regards des passants tout en laissant passer la lumière. Kanazawa étant le cœur national de l'artisanat de la feuille d'or (kanazawa haku), ce quartier incarne le sommet du raffinement esthétique d'Edo.",
     visiter: "Arpenter l'allée centrale pavée bordée de façades en bois sombre parfaitement alignées et s'imprégner de l'atmosphère feutrée d'autrefois. Pousser les portes de la maison de thé historique Shima, transformée en musée, pour admirer les salons de réception traditionnels aux tatamis dorés, les instruments de musique anciens et le petit jardin intérieur. Visiter la maison Kaikaro ou la boutique d'orfèvrerie Hakuichi pour découvrir une pièce d'or entière tapissée de feuilles d'or et déguster la fameuse glace artisanale enveloppée d'une feuille d'or comestible étincelante. Flâner au crépuscule lorsque les lanternes de papier s'illuminent et que résonne parfois le son étouffé d'un shamisen.",
-    link: "https://photos.google.com/share/AF1QipOe497_gZlxHEk4kXngagUk3X4z3IIX6fTII-zbuf_m9_TBFokmB_oXmbA5rIGzqg?key=dVQyQXBrRWdEdWs5WFZQOVZPQi15dmEzeG1reGZn"
+    link: "https://photos.google.com/share/AF1QipOe497_gZlxHEk4kXngagUk3X4z3IIX6fTII-zbuf_m9_TBFokmB_oXmbA5rIGzqg?key=dVQyQXBrRWdEdWs5WFZQOVZPQi15dmEzeG1reGZn",
+    sections: [
+      {
+        title: "Architecture des chaya et treillis kimusuko",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN0atXBmNpYg7mbtI8Elf0jZcDNKzawfnwdkkP7boVT5XHHo3RC6yJ94RTlF7enIdVIvyoe8pc89flWSy_EZdMYrboAuEQe6_q8SkEHsIYU-HaUiXlJ0fR4DckRdzAVTi6RnRvcNxIMcM3NVk60bwrPoQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMq_zwPATMu8f1GY8v34jWeRqQNJSwDOfoeEtF09GMVHy122QR7uZEtrrJpm-ksHNU7TUa6wQ1jscXCRIOtqP8ulxZ-YRKwHXyIkuoMCjqLGAb5DhD5hlE1umdU6SwItr8qKQcoWlOGBQFjvBxk01Z8og=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNsRT3S3IYlZwowfGRcBkhkfvO-mH0jnOqdg7cdamLT-s55fs5wklfVmfOsRwkXDZ-_6qEW5iCB_FOyoHxJceLxPjWmj2-pVHe-mIkmHf0a47l3jfDjO5fOg-DFxxT_DotWoWHw0kfjEL1RsprTK6uU6A=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'architecture des lieux se distingue par une remarquable unité esthétique en bois sombre patiné. Le tracé s'articule autour d'une large artère pavée centrale desservant d'étroites ruelles perpendiculaires bordées de chaya (maisons de thé traditionnelles). Les façades du rez-de-chaussée sont habillées de kimusuko, de délicats treillis de fines lattes de bois verticales à claire-voie, conçus pour laisser filtrer la lumière tout en dérobant l'intérieur aux regards des passants."
+      },
+      {
+        title: "Dérogation somptuaire et salons d'étage",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM_FfEBfd1rKSwY7e7l8TEQBrIG0VbzMCtUnA_K7WKtrN9LiWeKsml0Bz1mU8-ZPX1Qyf4KNH0HBlZMdyJicdhV9l_uAEZAurtD96nzlepY9MGmS6WEELPB9R4AztLvXCs1zqm43tCkuXrnPDH3wNFJcg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Alors que les décrets somptuaires de l'époque d'Edo interdisaient rigoureusement au peuple et aux commerçants ordinaires de bâtir des habitations à deux étages, une dérogation spéciale fut accordée à ces établissements : le premier étage accueillait les salons de réception d'apparat tendus de tatamis, où les clients fortunés festoyaient en compagnie des artistes."
+      },
+      {
+        title: "Tradition vivante des geikos et ichigensan okowari",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNQbyDoVZ5XhtjCnzRmHVccJy-XP5YVCzoiMKEto8Ji55-WJVV-a4zkgHPIZlFZwNQ2GD_iB9zgLfoLaKCIxxbblIJSylHkGb_t8akIuBikDZdlDLHx2Vot_7kz10ic2RKc8noQhWpfmbi2QEVxPDuRKQ=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNz_NEEp5_07emYz6BMkoh1ED1aDTB_2zl06q8LYXd2lpYLEvLOxx7582QDmXGh5g97gdwyBVKMZdTeUC1510lRKvy2A4NADDUcOqco7WC4597RPv2u9Ct8PLr727f72sAV9_0xHu505dQ-0tauWj8JNA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOmf6RHMZOtPqWXSR-FMwFDvX02ppFXr3WV5GnAkyDlt-Retgq1xDNZDatVSPhD6I4MQLpsyvvBJx7NFFpPxUimPmdR8DPieCwh77fnNl2XbOnQLXnYqWSro8qRNbOJHrD5HOX9TW6mgv1nXTDdpl4_LQ=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN1BwfZ6zhefgqO6zxdlqt_9o59WrfMNwFk35IF6uH8gPxRLrfytzPFWw1sn7fbm3Sx35-eqXrBFj-guboUOF3_SuDGB153T_p7yPNu-dXhqDZTSavfhNJ1THCeW7ngUzLgQLW27EG9NX5BssiEIX6-Ww=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Higashi Chaya n'est pas un simple décor figé dans le passé. Plusieurs maisons y perpétuent encore aujourd'hui la tradition vivante des geikos (le terme local désignant les geishas à Kanazawa), qui continuent de s'y produire lors de banquets privés très sélectifs régis par la règle du ichigensan okowari, interdisant l'accès aux clients sans recommandation préalable d'un habitué."
+      },
+      {
+        title: "Feuille d'or de Kanazawa et crépuscule feutré",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOuHp-CJwziDHL-BHQXTHGd9nyAmuKgREhJJkAsEu6wgBaO5nDvIqyNOKSqfLebcELcdtfZrZ11EVKDCZ3p0CWP0SqTxpTM2qTSqTmYKRrRwEkaW_0bKf7PN4fJz1NdSKtb47B9xvlwSeZFT_liPv1giA=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMi2oCTEwhZTCUYsJmOXF2PZqnkZk8zauQdon5sWasgA8tINX12nkk6d9avd6_wvfKnA0vIZ9PeaLz2M091o6f2tidJN3muah6SY0l5AQ2vxeVyxJaGKP2drv1BYfhWtY8v6iAmCKiDhVlG859KcXzNCw=w689-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMLVwChBXRbmAKA8Ue4hE9bRIUbOekbpj1UqUwafqyJOP7x8jE7QovhCXpzAR10GUpbzSwSIhQI-z_cqysrjr-1v7qUgXYTKnHeQGa8BOPGs59lzrZrfECNGiIqs0NyPUGJqqekvSuGx6BvFrP-NBwb8Q=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En journée, le quartier vibre au rythme de ses salons de dégustation de thé vert matcha, de ses ateliers d'orfèvrerie où s'illustre le savoir-faire de la feuille d'or battue (Kanazawa haku) et de ses boutiques de confiseries traditionnelles, avant de retrouver à la tombée de la nuit son silence feutré, à peine troublé par la lueur des lanternes de papier et l'écho lointain d'un accord de cordes."
+      }
+    ]
   },
   {
     id: "kanazawa_kenrokuen",
@@ -8694,7 +8909,43 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczMcTUcV22McvMAERDMuW8_6AeAz5q4gx-Ax82R2RM_QKe67-h-ll98Zx9fVv16qoHguEN5Xo6OGyYN5amQku5yhRtYBicuKP_SWnntT37gdz82StlVrHWAdKEeuQ91blTG154u8LFDCmVdRX-guNE9QxA=w2966-h2234-s-no-gm?authuser=0",
     description: "Considéré comme l'un des « Trois Grands Jardins » les plus éblouissants du Japon (avec le Kairaku-en et le Kōraku-en), le Kenroku-en fut façonné pendant près de deux siècles par les seigneurs Maeda successifs à l'extérieur des remparts du château de Kanazawa. Son nom, tiré d'un traité chinois de la dynastie Song, signifie le « Jardin des Six Caractéristiques sublimées », réunissant trois couples de qualités pourtant réputées incompatibles : l'immensité et la réclusion, l'artifice humain et le charme vénérable du temps, la fraîcheur des cours d'eau et la splendeur des panoramas lointains. Pins taillés en nuages, étangs sinueux, ponts de pierre et collines artificielles composent un tableau vivant parfait.",
     visiter: "Admirer la célèbre lanterne Kotoji-tōrō à deux pieds de pierre inégaux dressée au bord de l'étang Kasumiga-ike, devenue l'emblème graphique de Kanazawa. Contempler l'ingénieux pin Karasaki-matsu aux branches étalées au ras de l'eau, soutenu en automne et en hiver par le yukizuri, une armature conique magistrale de cordages de paille le protégeant des lourdes neiges humides. Observer le jet d'eau naturel Funsui, considéré comme la plus ancienne fontaine mécanique du Japon fonctionnant par simple pression hydrostatique. Parcourir les sentiers moussus ombragés, traverser le pont des oies sauvages (Gankō-bashi) et contempler la vue panoramique plongeant sur les collines d'Utatsuyama et la plaine côtière.",
-    link: "https://photos.google.com/share/AF1QipOe497_gZlxHEk4kXngagUk3X4z3IIX6fTII-zbuf_m9_TBFokmB_oXmbA5rIGzqg?key=dVQyQXBrRWdEdWs5WFZQOVZPQi15dmEzeG1reGZn"
+    link: "https://photos.google.com/share/AF1QipOe497_gZlxHEk4kXngagUk3X4z3IIX6fTII-zbuf_m9_TBFokmB_oXmbA5rIGzqg?key=dVQyQXBrRWdEdWs5WFZQOVZPQi15dmEzeG1reGZn",
+    sections: [
+      {
+        title: "Philosophie des six vertus et traité de Luoyang",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMRV5aCX6USFGkfEaiT2BIAUPCCYIhFvwA4spapxMRWSNrq9tm1xF40e3a0BMm-g-MGkS6dhwBTXX4uAoontjvGt0fvyngwxx8719m02YmpHjk3NbZrLLKQoto8LuAZmKrOp-8gPwbjRs0KxrbCZgrT2w=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM7Z9G_Znm1TSJnWPXmScKeZCkWLY3HRQwmcsEQuwUe7nvOFTYapE3gBkoD3a3e9LHcLG4sRG8UrHjdmLkCPvpfZvZtZva_OKJGSyu4SCHwr2YNAFA0fygrdROU-ereVU0QaHqLlJRmOKLx6XzokdQHUg=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOoFaqmJsz0pdjbvySij9UheXV_-g1991pWj9PyILC2Gx2Rwb5ZJmU5W-VM5RpQ5nIwOTSCVYknByYBFO6oRk3SVOUjJAWoA62bBPtfBXMWDIkMdFbM7YgWYfLusl-nF4PJVcRwUZSirzTRBAEMeKPkKA=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO6m6A-48mdVRdRd_f7js-bz1IKF3Yw7ntlgc3n16qnqkGUJhTRdynntOvcFDvqUnWvjE_8CIsnao3cf9CUI7oMsPPAVGiNYVPqva723L5rSwrtegbo_n7XDqSDyrG-EVxjW8dFEuGbf7ErZzEzM5NXxQ=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le nom du jardin trouve son origine en 1822 sous le pinceau de Matsudaira Sadanobu, éminent conseiller shogonal et lettré confucéen. Il s'inspire directement d'un célèbre traité paysager chinois de la dynastie Song, la Chronique des jardins célèbres de Luoyang (Luoyang Mingyuanji) rédigée par le poète Li Gefei. Ce texte classique postule qu'aucun jardin ne peut prétendre à la perfection absolue en raison de contradictions spatiales et sensorielles insurmontables, regroupées en trois couples de polarités antithétiques : l'espace vaste (kōdai) s'oppose à la retraite intime et close (yūzen) ; l'artifice ingénieux du travail humain (jinryoku) s'oppose à la rusticité patinée par le temps (kōko) ; enfin, l'abondance des ruisseaux et étangs murmurants (suisen) s'oppose aux échappées panoramiques lointaines (chōbō). Kenroku-en tire son prestige universel de sa capacité exceptionnelle à concilier harmonieusement ces six vertus théoriquement incompatibles au fil d'une seule et même déambulation."
+      },
+      {
+        title: "L'étang Kasumigaike et la lanterne Kotoji",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczORVklgagJu6w06Y3gomutF0fonu1qrlnTwnXxYUUDmBh1w8tcnvXx5Zhtk5QCHfSbxKhnJiKn2d78C_tyPeH6zvsPA7MCx6V7QLO8cu4H6mraMxAtvLlVtCf9mQYY1CUn8FtnlPVDsc9CT9mH_7rFAwQ=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMcTUcV22McvMAERDMuW8_6AeAz5q4gx-Ax82R2RM_QKe67-h-ll98Zx9fVv16qoHguEN5Xo6OGyYN5amQku5yhRtYBicuKP_SWnntT37gdz82StlVrHWAdKEeuQ91blTG154u8LFDCmVdRX-guNE9QxA=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le cœur gravitationnel du domaine s'articule autour de l'immense étang Kasumigaike, creusé entre 1819 et 1837 sous l'égide de Maeda Narinaga. En son centre émerge l'îlot Hōrai, sculpté en forme de tortue pour symboliser la longévité spirituelle et le paradis taoïste des immortels. Sur sa rive septentrionale veille la lanterne Kotoji (Kotojitorō), devenue l'emblème iconographique de la cité : haute de plus de deux mètres, elle se distingue par ses deux piliers de granit asymétriques enjambant l'eau vive, dont la silhouette rappelle le chevalet supportant les cordes d'une cithare traditionnelle koto."
+      },
+      {
+        title: "Le canal de Tatsumi et la fontaine Funsui",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNjyxKDbHTysnLUqjhXfcs08zLbLvlDAUC7xpjOxfs6jlasnft2Gbgk1GTfF6Ro0V7kpv1hhxLF4ZGz-drcEYp_uMPzzuKdM9Bslf5TOYB1Vft0SykUeUn1j5QmmZWLYqNmoHMLQBFAcaoCDGtRRSMY8A=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNkk6omWr2coJHTEetyzYlJ9UI9moDYZcwWwPDqQDN-0PAkahFDKN7JGU1IiHSs2jvKj44I-QfMxRx-8axLlWE_m8NgjaudJV5iTf_ycYWs2c9Uu4i6Va37Xy2abf2fCW8eayarY9gnZEaR0RTsO2FoMQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le réseau hydraulique témoigne d'une maîtrise technique remarquable, alimenté par le canal de Tatsumi qui détourne la rivière Sai sur plus de dix kilomètres : il donne vie à la cascade Midoritaki, ainsi qu'à la fontaine Funsui, considérée comme la plus ancienne du Japon (1861), fonctionnant sans aucune pompe mécanique par le simple jeu du siphon et de la pression naturelle différentielle avec le niveau supérieur du plan d'eau."
+      },
+      {
+        title: "Pins Karasaki-matsu et l'art du yukizuri",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMcoiVz67SZ5Sippu2fxQSAu5ziyJweu9zqV_nzl-mfdRkoYZNqghlCtKBEDrl4SyP-uVabygceVZxBcrvlzdd562Mh55XDyusLq3tSI1SrNVfPEW_5YkaZdL4R3AX7UJF3wGVYF7ZSxr4mh_RWEB5hTg=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOMkt27JT6rNy1DxxnPxHgwgEzao68U7dipio6_Fd5E6_h7A6ye7iKVq8OLks7q-01qfH1zMHYYTuTgwBRoC8IOoNZE_CAV8PrkOSyEzNfLALJt14_sSeZLYo5gr6tZo0YHa42WgTu-UVmBzaNy1HWDpA=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le domaine végétal est dominé par les célèbres pins noirs de Karasaki (Karasaki no matsu), semés au XIXe siècle à partir de graines rapportées du lac Biwa par le seigneur Nariyasu. Pour protéger leur ramure tentaculaire et centenaire de la neige côtière, particulièrement lourde et humide sous le climat de la mer du Japon, les jardiniers perpétuent chaque automne le savoir-faire séculaire du yukizuri. Dès le mois de novembre, ils dressent au pied de chaque tronc d'immenses mâts de bambou d'où retombent en corolles géométriques des centaines de cordes de paille tressée amarrées aux branches fragiles. Ces cônes de cordages protecteurs, qui transforment le parc en une monumentale sculpture géométrique abstraite durant l'hiver, complètent les pavillons historiques subsistants, tel le pavillon de thé Yūgao-tei datant de 1774. Ouvert au public en 1874 à la suite de la restauration de Meiji, Kenroku-en a été classé « Lieu de beauté pittoresque spéciale » (Tokubetsu Meishō) dès 1922 par l'État japonais."
+      }
+    ]
   },
   {
     id: "kanazawa_shiguretei",
@@ -8719,7 +8970,32 @@ const travelSpots = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczO_T-kjaiLg6ppxxI4HTMFjnqze_oPHzLbybKgPaVUZAM532Z4LNAz42D1SeeIo4tx42oN9XFtz6jcwUbPyIV2devVX0t5NxGqJ4S7rnDUGSSqmrrFL6mlueTuLn6JnScg4gqCaNu0PmIfMTof4k89cEg=w896-h1190-s-no-gm?authuser=0",
     description: "Édifié à l'origine en 1676 par Maeda Tsunanori lors de la création de la villa Renchitei qui préfigura le jardin Kenroku-en, le Shigure-tei est un joyau d'architecture sukiya-zukuri dédié à la cérémonie du thé. Épargné par les transformations militaires et fidèlement restitué sur ses fondations d'origine en l'an 2000, ce pavillon en bois noble de cèdre et cloisons coulissantes en papier washi s'ouvre généreusement sur un ravissant jardin privé d'eau et de mousses. Les seigneurs féodaux venaient y goûter l'art délicat du thé tout en écoutant le doux crépitement des averses passagères (shigure) sur la toiture d'écorce de cyprès.",
     visiter: "Retirer ses chaussures à l'entrée de la bâtisse pour fouler les nattes de tatami impeccables parfumées à la paille de jonc. S'asseoir en tailleur ou à genoux face aux cloisons entièrement ouvertes sur la terrasse en bois surplombant le jardin de mousses verdoyantes et le petit étang bordé de rocailles. Participer à la dégustation rituelle d'un bol de thé vert matcha fouetté ou de sencha de première récolte, accompagné d'une pâtisserie fraîche traditionnelle (wagashi) sculptée selon les motifs floraux de la saison en cours. Admirer les détails épurés des boiseries artisanales, les peintures de rouleaux suspendues dans l'alcôve tokonoma et la sérénité absolue qui émane de ce havre préservé.",
-    link: "https://photos.google.com/share/AF1QipOe497_gZlxHEk4kXngagUk3X4z3IIX6fTII-zbuf_m9_TBFokmB_oXmbA5rIGzqg?key=dVQyQXBrRWdEdWs5WFZQOVZPQi15dmEzeG1reGZn"
+    link: "https://photos.google.com/share/AF1QipOe497_gZlxHEk4kXngagUk3X4z3IIX6fTII-zbuf_m9_TBFokmB_oXmbA5rIGzqg?key=dVQyQXBrRWdEdWs5WFZQOVZPQi15dmEzeG1reGZn",
+    sections: [
+      {
+        title: "Architecture sukiya-zukuri et galerie engawa",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMuACWcIQUjeNdgUWa0FU3imDiIqBgUw5ncv9hXBLsKd2r0tqMaNsfvUqZTAtgXbHBwRqvdjv_26TXcb6yFvQDFX7GuuCRtuxKnz_ku1X_IiSQ73kMwSlR7otDzv9XwCQXGe7_dNySLmm_6OEZ3-QFWPA=w845-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNJ87NcWM3-F3mbf5CrVFklhjCMsKNinIL9jdWCgobRto-HHKIf0q0I7kv2DWe09lg_Zk54mrOj123uDwA8XWEa1l5fp_BUBoDX-ff0iIIvTO-UFEwfOIIf5zJbMTxg_0NZQ7WyFPeZ7MaevjH1gwunUw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Son architecture relève du style sukiya-zukuri, caractérisé par une élégance épurée inspirée des maisons de thé : charpente légère en cèdre et en pin, piliers d'angle en troncs d'arbres à peine équarris conservant leur écorce naturelle, sols tendus de tatamis et cloisons de papier de riz coulissantes (shōji). L'agencement intérieur s'efface totalement devant la nature extérieure : lorsque les panneaux sont tirés, la vaste galerie en bois (engawa) fait corps avec un jardin de mousse d'une grande sérénité, planté d'érables japonais et adossé au murmure d'un ruisseau artificiel."
+      },
+      {
+        title: "Rituel du thé et pâtisserie de saison wagashi",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOQP4dmcrTdBl9BpOxHSjgkpJek_sAxneYGJwi6LvfcAevWtBD13UWdhBU7riXOfCvQYTcEUAwoqt9mgS3qAyx_MDL9qdt-Qvt3rXjXMuv_g1BpuofK6MEYOtz4Qw7e_voWi5zPaZtYonSKw3-_feMMqA=w1433-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOtVtfLJ6e5SSV0WnUKrHIP1EuJVmGzXs90S8gBWVx5y_buEzVXIxSxNmTl5WeOvp95-ufZF226Z8JAOnOYO-tfVAZqo1dRvNfqPzQ17-pqBVQ3Djzwc0HAcY2-b9iuZE6vy6RgNgKGwDIRC8-1SH8kXA=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le pavillon perpétue la cérémonie et le service du thé dans la plus pure tradition de l'école locale, intimement liée à l'histoire de Kanazawa. Les hôtes y sont accueillis après avoir quitté leurs chaussures pour s'asseoir sur les tatamis face au paysage végétal. Le rituel s'ouvre toujours par le service d'une pâtisserie fraîche artisanale (wagashi ou namagashi), façonnée le matin même pour refléter la saison en cours — fleur de camélia en hiver, pétale de cerisier au printemps, feuille d'érable rougeoyante à l'automne — et parfois rehaussée d'un éclat de feuille d'or de Kanazawa (Kanazawa haku). La douceur sucrée de la pâte de haricot rouge (anko) doit impérativement être savourée avant la boisson afin d'envelopper le palais et d'atténuer la vive amertume du thé vert en poudre."
+      },
+      {
+        title: "Service du matcha et céramique d'Ōhi-yaki",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO_T-kjaiLg6ppxxI4HTMFjnqze_oPHzLbybKgPaVUZAM532Z4LNAz42D1SeeIo4tx42oN9XFtz6jcwUbPyIV2devVX0t5NxGqJ4S7rnDUGSSqmrrFL6mlueTuLn6JnScg4gqCaNu0PmIfMTof4k89cEg=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "Vient ensuite la présentation du bol de matcha, fouetté à la main au moyen d'un fouet en bambou (chasen) jusqu'à l'obtention d'une fine émulsion mousseuse vert jade. Le service obéit à une étiquette de respect séculaire : le convive reçoit le bol (chawan) des deux mains, s'incline en signe de gratitude envers l'hôte, puis l'élève légèrement au niveau des yeux avant de lui faire faire deux rotations dans le sens horaire. Ce geste symbolique vise à ne jamais poser ses lèvres sur la face d'honneur du bol (shōmen), réservée au regard. Le breuvage se boit en trois ou quatre gorgées lentes, la dernière étant ponctuée d'une discrète aspiration sonore pour signifier à l'assemblée que la coupe a été bue jusqu'à l'ultime goutte. Après avoir délicatement essuyé le bord du bol entre le pouce et l'index, le visiteur prend le temps de tourner l'objet entre ses mains pour admirer la texture et l'émail de la céramique, souvent issue de la célèbre poterie locale d'Ōhi (Ōhi-yaki), renommée depuis plus de trois siècles pour sa couverte ambrée et son modelé tactile unique."
+      }
+    ]
   },
   {
     id: "kanazawa_shrine",
@@ -8742,6 +9018,16 @@ const travelSpots = [
     category: "religieux",
     counts: {},
     image: "https://lh3.googleusercontent.com/pw/AP1GczO2GtPbJpZ7-EgY24ckemQqbCqZurRDajCWrsI604Ecxb4shDUJbTxKpWcz5BDzjl0RJakIh62MLxQuwT6TL_nbQ2dDLhrFnIw1JCTkUZItlMpb_zxE8QdoBdb0oSyISnykJTpaIcP1AikIe8Usv2lfTA=w2966-h1978-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOtJcGNQXRsdx46HyS6zQ9c53QTfiwF_NRksQRMndmQcj4cGKH1UZGf4TP7N4azb48x0UW_1-UsqlmI8-Aw9ra_GhwVodbSwU1UTZAjx00e4PJ2HeCZi54yIw3i1Zz5xeuryQvREpKnwk2IOrb0zB7WVQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPAbUJu9eszlZI6q0kW27CUFuXwJgOV7nCYDCex73LC9lL52-bHgVEfh93mAv0CpiThIdUFo2hMDi2saLlFO3ouu6nYOGeTnubcbj8-7c4uyu0uQmjmTu5dlq5lSs9eQTRz8bIVa_2nqVSJtqR1VszIQw=w1221-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Fondé en 1794 par le onzième seigneur de Kaga, Maeda Harunaga, à l'extrémité méridionale du jardin Kenroku-en, le sanctuaire Kanazawa-jinja fut initialement conçu pour protéger l'école médicale et littéraire du domaine féodal (Meirindō). Il est consacré à Sugawara no Michizane (Tenjin), vénéré dans tout l'archipel comme le dieu des lettres, des études et de la réussite aux examens, ainsi qu'à la déesse blanche du mont Hakusan. L'enceinte abrite également le puits légendaire Kinjō Reitaku (« le marais de l'or étincelant ») où le paysan Imohori Tōgoro lava jadis ses ignames sauvages et y découvrit de la poussière d'or natif, donnant son nom à la ville : Kanazawa (« le marais doré »).",
     visiter: "Passer sous l'élégant torii vermillon bordé de lanternes votives et saluer les statues de taureaux sacrés couchés (messagers de Tenjin) dont le museau poli de bronze est caressé par les fidèles pour attirer la sagesse et la clarté d'esprit. Découvrir la source sacrée Kinjō Reitaku protégée par une charmille hexagonale de pierre et de bois, berceau toponymique mythique de Kanazawa. Observer les milliers d'amulettes et de plaques votives de bois (ema) suspendues par les étudiants préparant leurs concours universitaires. Pénétrer dans le sanctuaire secondaire adjacent de Shiranohebi-sha abritant un kami serpent blanc invoqué pour la prospérité financière et la bonne fortune des entreprises.",
     link: "https://photos.google.com/share/AF1QipOe497_gZlxHEk4kXngagUk3X4z3IIX6fTII-zbuf_m9_TBFokmB_oXmbA5rIGzqg?key=dVQyQXBrRWdEdWs5WFZQOVZPQi15dmEzeG1reGZn"
