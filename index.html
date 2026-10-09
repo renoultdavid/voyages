@@ -516,8 +516,20 @@
         <span id="card-country-region" class="truncate font-semibold text-white"></span>
       </div>
 
-      <div class="w-full h-32 md:h-40 xl:h-56 2xl:h-64 rounded-xl overflow-hidden bg-slate-900 shrink-0 relative border border-slate-700/50 shadow-inner">
-        <img id="card-img" src="" alt="Aperçu destination" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/800x450/0f172a/38bdf8?text=Voyage'">
+      <!-- IMAGE AVEC LE BADGE PULSANT ET SURVOL ZOOM -->
+      <div class="w-full h-32 md:h-40 xl:h-56 2xl:h-64 rounded-xl overflow-hidden bg-slate-950 shrink-0 relative border border-slate-700/50 shadow-inner cursor-pointer group" onclick="if(currentSelectedSpot) openPoiModalViewer(currentSelectedSpot)">
+        <img id="card-img" src="" alt="Aperçu destination" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.src='https://placehold.co/800x450/0f172a/38bdf8?text=Voyage'">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent pointer-events-none"></div>
+
+        <!-- Mini badge élégant invitant à ouvrir la fiche complète -->
+        <div class="absolute bottom-2 right-2 flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-slate-950/80 backdrop-blur-md border border-cyan-400/40 text-cyan-200 text-[10px] xl:text-[11px] font-semibold shadow-lg group-hover:border-cyan-300 group-hover:text-white transition">
+          <span class="relative flex h-2 w-2">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
+          </span>
+          <span>Fiche détaillée</span>
+          <i class="fa-solid fa-expand text-[9px] ml-0.5"></i>
+        </div>
       </div>
 
       <div id="card-photo-tags" class="flex flex-wrap items-center gap-1.5 min-h-[22px]"></div>
@@ -547,22 +559,6 @@
         </div>
         <p id="card-visiter" class="text-[13px] md:text-[14px] xl:text-[15px] text-slate-200 leading-normal pr-1"></p>
       </div>
-
-    <div class="flex flex-col gap-2 pt-2.5 border-t border-slate-700/60 mt-3">
-      <div class="grid grid-cols-2 gap-2">
-        <a id="card-link" href="#" target="_blank" rel="noopener noreferrer" class="py-1.5 xl:py-2 px-2.5 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[10px] xl:text-xs font-semibold flex items-center justify-center gap-1.5 shadow transition">
-          <i class="fa-solid fa-images text-[9px] xl:text-xs"></i>
-          <span>Album</span>
-        </a>
-        <a id="card-gmaps-link" href="#" target="_blank" rel="noopener noreferrer" class="py-1.5 xl:py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-[10px] xl:text-xs font-semibold flex items-center justify-center gap-1.5 border border-slate-700 transition" title="Voir l'itinéraire sur Google Maps">
-          <i class="fa-solid fa-route text-[9px] xl:text-xs text-emerald-400"></i>
-          <span>Itinéraire</span>
-        </a>
-      </div>
-      <button id="card-btn-mode-toggle" onclick="toggleCurrentSpotViewMode()" class="w-full py-1.5 xl:py-2 px-2.5 rounded-lg bg-slate-800/90 hover:bg-slate-700 text-slate-200 text-[10px] xl:text-xs font-medium flex items-center justify-center gap-1.5 border border-slate-700 transition">
-        <i id="card-btn-icon" class="fa-solid fa-map-location-dot text-cyan-400 text-[9px] xl:text-xs"></i>
-        <span id="card-btn-label">Explorer en 2D</span>
-      </button>
     </div>
   </section>
 
@@ -632,10 +628,7 @@
           <!-- Légende de la photo active masquée si vide -->
           <div id="modal-gallery-caption" class="absolute bottom-0 left-0 right-0 p-3 pt-6 bg-gradient-to-t from-slate-950/90 via-slate-950/50 to-transparent text-[11px] sm:text-xs text-slate-200 text-center font-medium leading-relaxed backdrop-blur-[1px] z-10 hidden"></div>
 
-          <!-- Lien album complet (masqué si link est vide) -->
-          <a id="modal-album-link" href="#" target="_blank" class="absolute bottom-3 right-3 px-3 py-1 rounded-lg bg-slate-950/80 hover:bg-cyan-600/90 border border-cyan-400/40 text-cyan-200 text-xs font-bold flex items-center gap-1.5 backdrop-blur-sm transition shadow-lg z-20">
-            <i class="fa-solid fa-images"></i> Album complet
-          </a>
+        
         </div>
         <!-- ZONE TEXTE DÉFILANT -->
         <div id="modal-text-wrapper" class="flex-1 overflow-y-auto p-4 sm:p-6 space-y-4 custom-scrollbar">
