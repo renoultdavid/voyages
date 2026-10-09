@@ -2801,25 +2801,36 @@ function updateLiveRadarPanel() {
       const cat = (typeof CATEGORIES !== 'undefined' && CATEGORIES[activeCatKey]) || { color: '#06b6d4', icon: 'fa-location-dot' };
       const fallbackImg = 'https://placehold.co/400x250/0f172a/38bdf8?text=Voyage';
 
+      // Nettoie "Le Mans - " ou "Rennes - " s'il est au début du nom pour ne garder que le monument
+      let cleanTitle = spot.name;
+      if (spot.subdiv && cleanTitle.toLowerCase().startsWith(spot.subdiv.toLowerCase())) {
+        cleanTitle = cleanTitle.replace(new RegExp(`^${spot.subdiv}\\s*[-–—:]\\s*`, 'i'), '');
+      } else if (cleanTitle.includes(' - ')) {
+        const parts = cleanTitle.split(' - ');
+        if (parts.length > 1) cleanTitle = parts.slice(1).join(' - ');
+      }
+
       const card = document.createElement('div');
-      card.className = 'group relative rounded-xl overflow-hidden bg-slate-900/90 border border-slate-800/80 hover:border-cyan-400 transition-all duration-200 cursor-pointer shadow-lg hover:shadow-cyan-500/20 flex items-center p-1.5 gap-2.5';
-      
+      card.className = 'group relative rounded-xl overflow-hidden bg-slate-900/90 border border-slate-800/80 hover:border-cyan-400 transition-all duration-200 cursor-pointer shadow-lg hover:shadow-cyan-500/20 flex items-center p-1.5 gap-2';
+      card.title = spot.name; // Affiche le nom complet dans l'infobulle au survol
+
       card.innerHTML = `
-        <div class="relative w-12 h-12 rounded-lg overflow-hidden shrink-0 bg-slate-950 border border-slate-700/60">
+        <div class="relative w-11 h-11 rounded-lg overflow-hidden shrink-0 bg-slate-950 border border-slate-700/60">
           <img src="${spot.image || fallbackImg}" alt="${spot.name}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" onerror="this.src='${fallbackImg}'">
           <div class="absolute bottom-0 right-0 w-3 h-3 rounded-tl flex items-center justify-center text-[7px] text-white" style="background-color: ${cat.color};">
             <i class="fa-solid ${cat.icon}"></i>
           </div>
         </div>
-        <div class="min-w-0 flex-1">
-          <div class="text-[11px] font-bold text-white truncate group-hover:text-cyan-300 transition-colors">${spot.name}</div>
-          <div class="text-[9px] text-cyan-400/90 truncate flex items-center gap-1">
-            <i class="fa-solid fa-location-dot text-[8px]"></i>
-            <span>${spot.subdiv || spot.department || spot.country}</span>
+        <div class="min-w-0 flex-1 flex flex-col justify-center">
+          <div class="text-[11px] font-bold text-white leading-tight line-clamp-2 group-hover:text-cyan-300 transition-colors">
+            ${cleanTitle}
           </div>
-          <div class="text-[8px] text-slate-400 font-mono mt-0.5 truncate">${spot.century || spot.era_group || ''}</div>
+          <div class="text-[8px] text-slate-400 font-mono mt-0.5 truncate flex items-center gap-1">
+            <span class="text-cyan-400 font-semibold truncate">${spot.subdiv || spot.country}</span>
+            <span>·</span>
+            <span class="truncate">${spot.century || spot.era_group || ''}</span>
+          </div>
         </div>
-        <i class="fa-solid fa-chevron-right text-[9px] text-slate-600 group-hover:text-cyan-400 group-hover:translate-x-0.5 transition-all shrink-0 mr-1"></i>
       `;
 
       card.onclick = () => selectSpot(spot);
