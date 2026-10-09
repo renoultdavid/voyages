@@ -2486,7 +2486,6 @@ function renderEnrichedCarnetMode(spot, layout) {
       const count = sec.photos.length;
 
       if (count === 1) {
-        // 1 photo : Grande, centrée, ratio natif 100%
         photosMarkup = `
           <div class="w-full flex justify-center py-2">
             <img src="${sec.photos[0]}" 
@@ -2496,20 +2495,18 @@ function renderEnrichedCarnetMode(spot, layout) {
           </div>
         `;
       } else {
-        // 2 à 4 photos (et plus) : STRICTEMENT SUR UNE SEULE LIGNE (zéro passage à la ligne, zéro rognage)
-        const rowHeight = count === 2 
-          ? 'h-[320px] sm:h-[400px] lg:h-[460px]' 
-          : 'h-[240px] sm:h-[300px] lg:h-[360px]';
+        // Hauteur commune stricte pour TOUTE la rangée
+        const targetH = count === 2 ? 420 : 310;
 
         photosMarkup = `
-          <div class="flex flex-row flex-nowrap items-stretch justify-center gap-3 w-full ${rowHeight} my-3">
+          <div class="photo-row-container flex flex-row items-center justify-center gap-2.5 sm:gap-3 w-full my-3" style="height: ${targetH}px;">
             ${sec.photos.map(p => `
-              <div class="flex-1 min-w-0 h-full flex items-center justify-center overflow-hidden">
-                <img src="${p}" 
-                     alt="${sec.title || spot.name}" 
-                     class="h-full w-full object-contain rounded-xl shadow-lg cursor-zoom-in hover:scale-[1.01] transition-transform duration-150 block" 
-                     onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
-              </div>
+              <img src="${p}" 
+                   alt="${sec.title || spot.name}" 
+                   onload="this.style.aspectRatio = this.naturalWidth + ' / ' + this.naturalHeight;"
+                   class="h-full rounded-xl shadow-md cursor-zoom-in hover:scale-[1.01] transition-transform duration-150 block object-contain min-w-0" 
+                   style="height: 100%; width: auto;"
+                   onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
             `).join('')}
           </div>
         `;
