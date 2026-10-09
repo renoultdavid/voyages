@@ -2486,7 +2486,7 @@ function renderEnrichedCarnetMode(spot, layout) {
       const count = sec.photos.length;
 
       if (count === 1) {
-        // 1 seule photo : grande et centrée, ratio natif 100%
+        // 1 photo : Grande, centrée, ratio natif 100%
         photosMarkup = `
           <div class="w-full flex justify-center py-2">
             <img src="${sec.photos[0]}" 
@@ -2496,17 +2496,20 @@ function renderEnrichedCarnetMode(spot, layout) {
           </div>
         `;
       } else {
-        // 2 photos ou plus : Moteur d'alignement type Google Photos (hauteur uniforme, largeurs réelles)
-        const targetRowHeight = count <= 2 ? 440 : 340; // hauteur de la ligne en pixels
+        // 2 à 4 photos (et plus) : STRICTEMENT SUR UNE SEULE LIGNE (zéro passage à la ligne, zéro rognage)
+        const rowHeight = count === 2 
+          ? 'h-[320px] sm:h-[400px] lg:h-[460px]' 
+          : 'h-[240px] sm:h-[300px] lg:h-[360px]';
 
         photosMarkup = `
-          <div class="google-photos-row flex flex-wrap justify-center items-center gap-3 w-full my-3" data-target-h="${targetRowHeight}">
+          <div class="flex flex-row flex-nowrap items-stretch justify-center gap-3 w-full ${rowHeight} my-3">
             ${sec.photos.map(p => `
-              <img src="${p}" 
-                   alt="${sec.title || spot.name}" 
-                   onload="this.style.height='${targetRowHeight}px'; this.style.width=(this.naturalWidth * (${targetRowHeight} / this.naturalHeight)) + 'px';"
-                   class="rounded-xl shadow-lg cursor-zoom-in hover:scale-[1.01] transition-transform duration-150 block max-w-full object-contain" 
-                   onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+              <div class="flex-1 min-w-0 h-full flex items-center justify-center overflow-hidden">
+                <img src="${p}" 
+                     alt="${sec.title || spot.name}" 
+                     class="h-full w-full object-contain rounded-xl shadow-lg cursor-zoom-in hover:scale-[1.01] transition-transform duration-150 block" 
+                     onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+              </div>
             `).join('')}
           </div>
         `;
