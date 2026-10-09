@@ -11688,18 +11688,100 @@ const travelSpots = [
     subdiv: "Louxor",
     altitude: 82,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (-1290 av. J.-C.)",
     century: "Antiquité (XIIIe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Thèbes antique et sa nécropole",
+    unesco_name: "Thèbes antique et sa nécropole",
+    counts: {},
     lat: 25.7328,
     lng: 32.6281,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOCn3bnnRckhB2Ac1shOqlfDJfH3SfpYo6esxwODD6rK-dCQksCm6dsSFRbh-V9oMtoOaUJ43Heywro5BI2G7w9FKqOYKowO3AFdi_xiwfzEo_O90EXFb0uBT7VJTgZZ0KPmynrdDdmiF73ZTJTnNHSwA=w2884-h1922-s-no-gm?authuser=0",
-    description: "Magnifique temple des millions d'années érigé sur la rive ouest de Louxor par le pharaon Séti Ier et achevé par son fils Ramsès II au cœur de la nécropole thébaine. Ce sanctuaire commémoratif et funéraire est dédié au culte du roi ainsi qu'au dieu Amon-Rê. Bien que partiellement ruiné dans sa partie orientale, il conserve des salles hypostyles remarquables, des chapelles richement décorées de bas-reliefs d'une grande finesse artistique et un plan architectural pionnier pour l'époque.",
+    description: "Magnifique temple des millions d'années érigé sur la rive ouest de Louxor par le pharaon Séti Ier et achevé par son fils Ramsès II au cœur de la nécropole thébaine. Ce sanctuaire commémoratif et funéraire est dédié au culte du roi ainsi qu'au dieu Amon-Rê.\n\nBien que partiellement ruiné dans sa partie orientale, il conserve des salles hypostyles remarquables, des chapelles richement décorées de bas-reliefs d'une grande finesse artistique et un plan architectural pionnier pour l'époque.\n\nÉtabli à l'orée septentrionale des grands sites de la rive thébaine, ce complexe sacré servait de relais primordial lors des grandes festivités thébaines reliant la rive orientale du Nil au domaine des morts.\n\nLe temple se singularise également par l'intégration d'un sanctuaire filial voué au repos de Ramsès Ier, fondateur de la dynastie, affirmant la légitimité dynastique face aux dieux traditionnels du panthéon égyptien.\n\nL'exceptionnelle pureté du trait gravé sur le calcaire fin témoigne du classicisme raffiné atteint par les ateliers royaux sous le règne de Séti Ier avant le style colossal rammesside.",
     visiter: "L'exploration de l'enceinte permet d'admirer les colonnes papyracées de la salle hypostyle ainsi que les chapelles dédiées aux principales divinités et aux ancêtres royaux. Les murs préservés dévoilent des scènes rituelles et des offrandes polychromes caractéristiques du Nouvel Empire. Situé à l'entrée nord de la nécropole thébaine, le site offre un cadre calme et privilégié pour s'imprégner de l'art pharaonique loin des afflux touristiques majeurs.",
-    link: "https://photos.google.com/share/AF1QipNzr_Fg6pFcitaIuS-gzg2QB15dXmm1sscmdynudrfrm9IAbsZniv6hC3TYPgAMmQ?key=c3Y0bnRPWGR6MGZCOHpQUUdCRU9WQmJkbC1tVUtn"
+    link: "https://photos.google.com/share/AF1QipNzr_Fg6pFcitaIuS-gzg2QB15dXmm1sscmdynudrfrm9IAbsZniv6hC3TYPgAMmQ?key=c3Y0bnRPWGR6MGZCOHpQUUdCRU9WQmJkbC1tVUtn",
+    sections: [
+      {
+        title: "Écrin préservé de la nécropole thébaine",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNehlKaQ8xVP-c0kiheM_eydZSmhU7MEm8eb0wOe4HY_k3ArRMDg0jrdXBWTVeP76SzHAvFJH0GOJi7XPxNEZ-g3lSNAkX3lfWPliE8wAeR58grxkgh3k4XEtYZhj8W27kFcA-j26C90PaIT6Q94XlxLg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP4AxXy3UUr2u88NLfNBVkvKxGPdOErmcrlVpM_cX6ZmW0eAG4gCjk_XgZAvL3aNjGCdVHOrM7tCeQTJK1Rrui70PWN8TlrH7N94jBNIB5aur5MVMxqSFG43LK5p235TmwhbQsYINdnTz7dDRj_ucXKww=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM7ys5hxUdDiHunCmqHOqhoDI6kOwRKf5rc2VREvkWRcJ1P3oZJnj6Bk5_Hbt1ynAarrB_4YP8IH0a-LYi7VlbTtgDO1-Ed7eIQO6hvK2PjFq09gx_APrMe00Hvv41MBm79d9W4ut4xhzeGDxqQm_jCBw=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Parfaitement situé pour ouvrir ou clore une journée d’exploration de la nécropole thébaine, non loin de la Vallée des Rois et des tombes des nobles, ce sanctuaire séduit par son élégance classique et son authenticité préservée. Déambuler entre ses murs chargés d’histoire, baignés par la lumière dorée du désert, constitue une immersion intime et inoubliable dans la grandeur de la XIXe dynastie."
+      },
+      {
+        title: "Le culte du temple des millions d'années",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNP8GzrcwJXuA_8y5DL1B5v066pm8S4sawxFpsl4dwARkaWg-e8R0Te3ibzjlAmmS9p2-Q2igq2w1hL2VaIOTFAi1uqLys7dldtWxgYZRS2v3K6nz0zDCybakI2Jy_bOmY5pn9qN2VUuAoPYDCU8u8Oow=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO3n9r5ujtkFiObkulI_zSrIEjSBzqtskh5vmRf0LS2V-zJV_hLi181wb9tKr5c_9bMlYbMNK16BhYLBknnkHEUj2utGUHvO4JGH2u4L5FS_CNLDaKWj7sD7VvkRUhw1U4wLw52wzkP0jeorgbBDp2MwQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMtKLITOQgFPF0K_P_mYvREnAWildrjZC84AdrdgToomWTDvFf_hMVcG5hmexWJ_r0WTyi1ojlDEZlqMzd_0_tDbahFmgok9rPMKDk9zbIVvoK_m8tvmFO6AAx7g85d8Im53r0NjjOENByHLdfBEtsLdQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Le nom de « temple des millions d'années » indique sa fonction. Ces temples étaient construits pour assurer le culte du pharaon après sa mort et pour le relier à l'éternité et aux cycles divins. Le temple de Séthi Ier était spécifiquement dédié au culte du roi et au dieu suprême de Thèbes, Amon-Rê. Il servait également de lieu de culte pour son père, Ramsès Ier."
+      },
+      {
+        title: "Fondation sous Séti Ier et achèvement rammesside",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPUgDEGZl-ZbX48w7DZatyM-ckP_jP9M1zDs4sShBi59M-stB32cdy9Nxz4MSDH1d_ouJKdyNjJNFlKYlOjWC0BZJiETU8oWDmnoEf5-7vrrMle4YWQBbgDFN4WbiuvBvsRuUm2UUc9R0s48gcjAfys5w=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Le temple fut commencé par le pharaon Séthi Ier au début de la XIXe dynastie (vers 1290 av. J.-C.) et fut achevé par son fils, le célèbre Ramsès II."
+      },
+      {
+        title: "Plan architectural classique et démantèlement",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP8dg--zxXc1KfPAJITCIBfw31unUr892RggyLbamnzi9Vn_5KHwxzcDYfY1MZfUr-s76wtxzQHA1d4y6NHTgaddfgli6ED0Wfq34yRLVrs-z2QsQf-TLBc10d-db0in1BYi47NZBYmN6jRxd13FMOC-A=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNAX_JgVTN4Nz8kFzsbbsAtqt-bFz5dx8g9XaELRtLkoVwNUppNmjlQ-cpnsXfsHKRakJeS7dgbLslE_FwuDXciySPhpdDXwQjs0wuxRHR4pnFMnBKYgW3iqw112YBtJYod8v2ekFOyVwRE-IxnK2M1Eg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Le plan du temple est classique. On y trouve un pylône d'entrée, une grande cour, une salle hypostyle et plusieurs sanctuaires. Il servait de lieu de procession et de cérémonies. Aujourd'hui, le temple est en grande partie en ruine. Il a été démantelé au fil des siècles et ses pierres ont été réutilisées pour la construction d'autres monuments, notamment le Ramesseum de Ramsès II, son fils."
+      },
+      {
+        title: "Le règne restaurateur de Séti Ier",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPGOEaqwiB64n5hci4Pc7Zmbdy_50UJS9xkVkC9N__0MnHCApw9AyirGbxRtLODXx8X4j1vjWNHAc6v7Sl9XavoQkXg__2pbtLXBdcQseLMkFYH-zooAa1EdX_sSDz-3MsDfD9sov0pQLWDJS_rpnkcfQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOu-4-WfscIXR_g-EcySTbylHOafhBUJk_0l6uluv5G41s8sn2LY5TfBCcBxi90rocCYXcMHthCl4aI9nymnb0FhAsvP4pGzVNYTiV4XKUu6PCKWa18KnEWTOMhraOCUmKO5WrhRM1CZ35ZNkFZsf8xtA=w1741-h2320-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN7cgJylI0K-1B3jSK9hTFY2vdDWiIXHg-rfgqTfHMGcMbrHr-LwVcePbZCFfr6i4jU8PX5c5GDNaPo5euFq66cOo5nqC-rZD1Ih3Qiz35-MrNnp7KweFCoFvVotAKYtIG9WMQQVW2yfi64G3LSRMfY5A=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Séthi Ier est un pharaon de la XIXe dynastie, souvent dans l'ombre de son fils, Ramsès II. Voici les points clés à retenir sur lui : son règne marque la fin de la période de trouble laissée par le pharaon monothéiste Akhenaton. Séthi Ier a pour mission de restaurer l'ordre et la stabilité sociale et religieuse en Égypte, notamment en honorant à nouveau les anciens dieux, en particulier Amon-Rê. C'est un grand chef militaire qui a mené des campagnes victorieuses en Asie et en Syrie, restaurant l'autorité égyptienne dans la région. La bataille de Kadesh, qu'il a menée, a été une victoire importante, même si elle est plus connue à travers les récits de son fils."
+      },
+      {
+        title: "Chantiers monumentaux de Karnak à Abydos",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPWCEmjNFjS-Q_OlVuR9U0eDtvAyIfI8DFUh4btXFZTzg1G4NiyIUzexIqe4Cr7xC5GSms1eQEMUXucCuVi_oMqhUtgIpb87byr062TiDok-W2NIGndmetcqNRNOqC8sGDgwZzwIyQ679wTRWl1pCCe2w=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOSJdd2XTIo2gjA8eUTOAdr6OX7MAuRn7WHcyNcHYKw4qkWefY34Uc5uFtVbGWoOZIYhrTSTFExpI32gLGtsdryJSv8iIR0_qoBustctI_BIn75zSYSLgMHAR8Ev_YyVSSR88OAGXrAS1Wn5XHhQcLNSg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNkwt0WJ4X0w1Sebp8GGx5zd1Sy5wj5QYASHY8ojselLRK3u2R8M9Azaj1ehmoAAOd8gCQonp9IfbipWUFoFlycsgCJvWWzrMjxNk_X7VeG0Ns5s-qrDa3bF9gLXOc679LmFX3Qz2WViTOwJy4l3ib5ZA=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Bien que son règne ait été plus court que celui de Ramsès II, Séthi Ier a laissé de nombreux monuments. Il a notamment construit le temple des millions d'années à Gournah (Louxor) et a grandement contribué à la grande salle hypostyle du temple de Karnak. Son temple funéraire à Abydos est particulièrement célèbre pour la Liste royale d'Abydos, une liste de soixante-seize pharaons qui a été une source inestimable pour les égyptologues."
+      },
+      {
+        title: "Apogée artistique et finesse des reliefs",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN696WBk0mFjOMSk3Tf_OLWPHdoshrU67NOtOiL_xGtNU1QYD3jbeGIa0OFSk3YnvRLoGwdtk0JWFEndwXxat5Bw6ivbOIvX0bMBLqEwWjy_Y6FS6KtP-jPOchOB17YolQmqdRyZ9mSkIjAppBopGyoZQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPjR-IbKt7qbXzXSWDF-BeqmnwPDYBynyKsOJuf8JNVrKcmcK-rIc4V5n5gI_836u-upkzTKYD9dyWDMh5aS85utIddl0wAr4Exs9Cc2Kzoyxo61wQNRe9urltnmQeNHrr9a6GK5hKADOIqftpOvEyYUA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMAlWFfc5y00OKvAay9oiDTbEUAwHEUA67dhYzS52zks8Mq_aVb5B82xCc6Ix3l7WYV_tEqq0aEXgL4Mwx24oKfNltq7HKA4GSgRt9Hi2XibJkzyqyVcNtm0mfNQLtvFuOTvl4ut0G4PyHymvyDQbXvBg=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Le trait le plus mémorable de Séthi Ier est la qualité de l'art sous son règne. Les bas-reliefs et les peintures de ses monuments, notamment dans son temple funéraire et sa tombe dans la Vallée des Rois, sont considérés comme parmi les plus beaux de l'Égypte antique. Les reliefs de l'époque sont d'une finesse et d'une élégance sans égal, avec des formes douces et un sens du détail très poussé, ce qui contraste avec le style plus massif et monumental qui dominera sous le règne de Ramsès II."
+      },
+      {
+        title: "Scènes d'offrandes et pigments d'origine",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN-1m7fPdR6MJYsl1aZatZ5EqB5pGIO_vIBjAEEco0GQSyeRwEHLCfBMCvfQna7nZzrAvcj7mhDHHlZhYpGPOr-k0sSITO2RwM1nncbWwR7zCcd_uN_2hSwY_KlCjIIgQ5YZmclJ0cQ7kkzmBqlRzTeZA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOSUZQHWgYpoH_ROSlaTFAzw1Uaw8krabBU66PF3I9uhd74jVLbYdjbdF20SmF2jUtQwmYuS4wS-98R9les1QXFuIfS7Y-m15UIBFfhjpFBAt2DSw7ak2BuWh0m7pHGt5idC3Qq0Uwac9CVVeMhHVhkLQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNNzsRpYoIIyk0VOg1ksHtKCHBuWqIGkstZZtepuExrFjcjy8ErnIRYzgzLUCaMByETtzRd919r6Lt-o3UWWIKXc0tnDZUnt-shT78auVQYyi266csnvETAavBft0KPox7aEqVvVlbDfu7C_XYoNh2WFQ=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "La décoration du temple est d'une qualité exceptionnelle. Les reliefs, particulièrement bien conservés dans certaines sections, sont d'une grande finesse d'exécution. Les scènes représentent le roi Séthi Ier faisant des offrandes aux divinités, participant à des rituels de fondation et triomphant de ses ennemis. Les figures sont élégantes, avec des traits subtilement modelés, et les couleurs d'origine, comme le bleu et le vert, sont encore visibles."
+      },
+      {
+        title: "Vestiges et colonnades du sanctuaire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPlNEMPF1qcRTNJuHrFQp0x_2M-yasgJfrTTOScq96VBFONYh8-57VPRtWKo74tfgDJYPF1jnBwkvG-zGUDe1vI2V89N9RT1D9xmX04a42nRcYBI_zSRUlu1wHRStk3vNaXJ1Wf9ba5WQ9cjIVxjBFVuQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOCn3bnnRckhB2Ac1shOqlfDJfH3SfpYo6esxwODD6rK-dCQksCm6dsSFRbh-V9oMtoOaUJ43Heywro5BI2G7w9FKqOYKowO3AFdi_xiwfzEo_O90EXFb0uBT7VJTgZZ0KPmynrdDdmiF73ZTJTnNHSwA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNxbYdQ7B69qMVajoqVh__7Raq_AqfEfQ2TBYXr_wANK4yHaA3p-2IpdrXG-GxR-gIcNQ4MqkePsZOLMpUMqptxmq8G1ese417DIHXnJDT7xlltrBuQ6UEmqy6_44YQ8Wc-Y39LX7FDyJueDZbxV4DgRw=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "temple_louxor",
@@ -11712,18 +11794,152 @@ const travelSpots = [
     subdiv: "Louxor",
     altitude: 76,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (-1400 av. J.-C.)",
     century: "Antiquité (XIVe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Thèbes antique et sa nécropole",
+    unesco_name: "Thèbes antique et sa nécropole",
+    counts: {},
     lat: 25.6994,
     lng: 32.6396,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOVIqtAv6F50s3byzGMdkrnrRK0dYat5T2PO5vZTXiDE7CHYznUqxCuCN_FyK-5VmVcCOrdKGpAxExydMfCvcnA3108CC2HP-MAIQHauLvMhHK78ddOApVu4qnIQL1EnGwPo5yNAaisBG-vM8o_Wn986w=w2416-h1611-s-no-gm?authuser=0",
-    description: "Sanctuaire majestueux érigé en plein cœur de la ville moderne de Louxor, dédié principalement au dieu Amon, à son épouse Mout et à leur fils Khonsou. Développé principalement par les pharaons Aménophis III et Ramsès II, ce complexe monumental est relié au grand temple de Karnak par l'impressionnante allée des sphinx. Ses immenses colonnades papyracées, ses cours péristyles et ses imposants colosses de granit témoignent de la grandeur religieuse et politique du Nouvel Empire au bord du Nil.",
+    description: "Sanctuaire majestueux érigé en plein cœur de la ville moderne de Louxor, dédié principalement au dieu Amon, à son épouse Mout et à leur fils Khonsou.\n\nDéveloppé principalement par les pharaons Aménophis III et Ramsès II, ce complexe monumental est relié au grand temple de Karnak par l'impressionnante allée des sphinx.\n\nSes immenses colonnades papyracées, ses cours péristyles et ses imposants colosses de granit témoignent de la grandeur religieuse et politique du Nouvel Empire au bord du Nil.\n\nAu fil des millénaires, le site a continué de vibrer comme centre spirituel majeur, intégrant des sanctuaires hellénistiques dédiés à Alexandre le Grand, des chapelles romaines puis une mosquée médiévale.\n\nÉcrin rituel de la fête annuelle d'Opet, le temple incarnait le renouveau mystique du pouvoir pharaonique et l'union cosmique du souverain avec le créateur universel.",
     visiter: "La découverte débute par le grand pylône d'entrée encadré par les vestiges des colosses de Ramsès II et l'obélisque préservé, faisant face à l'allée processionnelle. L'allée des colonnes d'Aménophis III mène à de vastes cours à ciel ouvert baignées par la lumière du soir. Les salles intérieures dévoilent des sanctuaires transformés au fil des millénaires, incluant des chapelles romaines et une mosquée historique intégrée dans l'enceinte, offrant ainsi une fascinante superposition des civilisations.",
-    link: "https://photos.google.com/share/AF1QipMtbW6CGkq4QfXr6u0f_aEpgHzyt6I3h3xQLCFSBKU9Y8SSyq4LF2ZywZTi9dgarw?key=ZTk4TUQ1ci1qV2k3YjFJb0dlaEFaR2poejBmWndn"
+    link: "https://photos.google.com/share/AF1QipMtbW6CGkq4QfXr6u0f_aEpgHzyt6I3h3xQLCFSBKU9Y8SSyq4LF2ZywZTi9dgarw?key=ZTk4TUQ1ci1qV2k3YjFJb0dlaEFaR2poejBmWndn",
+    sections: [
+      {
+        title: "L'Allée des Sphinx et la liaison avec Karnak",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM60tsVk9LUyi40Mkw6Rhq_WPom-oWpbD7sErYR-DzArGPBlIFqZ7n1FK7fXDhJvta9NXOWbPlauuNd-LpGejVan526YYcVzSrLD9IiH_TWWltTR-lOXYIyWx11MY2q8O6u3ceqScxIGfpExa8ta4uA5Q=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOW2M-ae0Y23kdq61ThXSW19WRB2ZBrS-8auMrzCkupvPN-p9BJdmR7cCqos1wRk6U20lqDxJ2o2s936oQUZrUXACay2FCo-z6jEDBXrl-qzKw09Jq3Sy8lFMumAVRF2oURVo1OTfbSQHu1ADHEy5HAvg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "L'Allée des Sphinx est l'une des plus impressionnantes réalisations de l'Égypte antique, un monument à la fois religieux, symbolique et urbain. Cette voie processionnelle reliait sur près de 2,7 kilomètres les temples de Karnak et de Louxor, les deux principaux lieux de culte de l'ancienne Thèbes."
+      },
+      {
+        title: "Édification et dynasties bâtisseuses du dromos",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP-9dgV4nzXan2I5eeFZDZ087KoZwgG1CdICHSmeuPUzjN5q_DOJAYPxE_fI4QCu0RH173WimLF8DWprXHTGJzBPfnRHDdlQWcoYE54Dqt2Vt1MyAVLHEXTZ8gkz_S2SlyEvDr7h25DxwKprOtB8K15Kw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN5kl3A9H75bWN8NAlj3c4HGzNCQ8KozK6Y9UH8nhBkG-WrUVaY3izi7uBXBuL_BzqyprZxFAU1Iptt7D9K3Vf92YAWiGbUd-_U4cFL9HYVzTYquW2CpJdoDo4VBjSbtH9AOUE0RHE1E95AOt-AU55f9Q=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNMBNxdS6CRhHimFyvcmVizMzrefO4Ai7pWBP4wZ5k-kNei6FjgxIHE0yaQg7dMNCngZEf6JCmpyzqSOQNNncv4RI7oclDGXUXiJ-G7IJEKGEyY4i17KwRZjikq_3X1B_9TuI1_OafeCYambBo1hd0_Aw=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "La construction de cette allée, ou dromos, s'est étendue sur plusieurs siècles. Si la reine Hatchepsout est créditée d'avoir initié le projet, sa réalisation principale a été l'œuvre d'Amenhotep III, avant d'être achevée par le pharaon Nectanebo Ier de la XXXe dynastie (IVe siècle av. J.-C.). Au fil du temps, des pharaons comme Toutânkhamon et Horemheb ont également contribué à sa décoration et à sa restauration."
+      },
+      {
+        title: "Criosphinx, androsphinx et fête d'Opet",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNCnkSkV-T9YYO9zWz5XAEUvHNgNmTxj5LWs2xTP05vR9eWDRyjXQAM90OtS-IcTZIiNGHlLMW3DN-BXelxItOuQsLp-58GQmsTXk0Y9URTW8Td36amfDBl-Tes2Lo5RB0CMR2Gom-Adrw0_ko_gp0F8Q=w1741-h2320-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO1e-4hUlWQK4aWNooc0AiGQorI6cpttDwtV8BLzO2wJqpmVtyCDSAAyUA_UL3VWEc0IVC5qm69cepFFcX1jBsQGXxDIIsvWSd0ZR9lnJ_jv11H7WqUdCkmdSUo2IoSxkKLgd8fFcAguAJcruCDHA0YZA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMlX9Sdmvimdx5RHX20FC4hS0VnpRwQkv4XasjRwS6yBzRF3xH5JEcy-usYb_N54zmRzP3GaaHt20eI_045LivnYb6rZ6XUYpd64onCPZ7wezF__D1mWY29dvcRzccDK5FnhakXfK0Kl_DN8o5x3Fysqw=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La voie est bordée de plus de 1 050 statues qui ne sont pas toutes identiques. On y trouve deux types principaux de sphinx :\n\n- Les criosphinx : Les plus anciens, qui ont un corps de lion et une tête de bélier (l'animal sacré du dieu Amon-Rê). On les trouve principalement près du temple de Karnak.\n- Les androsphinx : Les plus nombreux, qui ont un corps de lion et une tête humaine. Ce sont ces statues qui bordent la majeure partie de l'allée, du temple de Louxor jusqu'à l'entrée de Karnak.\n\nL'allée des sphinx n'était pas un simple chemin, mais une route sacrée utilisée lors des grandes processions religieuses, notamment la fête d'Opet. Au cours de cette fête annuelle, les statues des divinités de Karnak (Amon-Rê, Mout et Khonsou) étaient transportées en barques sacrées le long de cette allée jusqu'au temple de Louxor pour une réunion symbolique."
+      },
+      {
+        title: "Pylône monumental et reliefs de Qadesh",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNxLNr2868y97DO6EMegcLxAeA-7BsP_xVWe0fYuUhyeWNpzDCbwTAh5Pysk1iZ5I9wIcx87Ch18TZCYSv1E7bohOXt9LEJiu5zkqEkJQGrXNatRtrmk_beRQCrcGObfItsEV7enyA1q5oUzps3qAuWdg=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNiPQ_eIj2r91iL1oA395afjC1bMJ-WUVG4tOXSltoLdl7A5Efksg7NHDn0_a-_K4-ywjXD9XcDSqAPyKPYLG4UgRyQbqwNEggD4A3RGa9yQoWzAQPgekifiZxU07imQNMwXWhAl-NXvox00f94y5ZzIw=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMGdxo1U41X_wSGip-A5uRNWB2fcNtor-tWcsPvChLhaZDTwSmZakExFosEmoMZBnyqk_c3W9KgTxbwwn8TPnfRJ-Cg7ztoeWxg1l35diwCFzC4B8TvzrAmfXsseo3z2CTHQBD7duRvwDqzgGSOeHXo3Q=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Le pylône et les obélisques du temple de Louxor, ajoutés par Ramsès II, constituent la façade monumentale du temple et un point d'entrée clé. Ils sont un témoignage saisissant de la propagande royale et de la puissance de la XIXe dynastie.\n\nLe pylône est une structure massive, de 24 mètres de hauteur et 65 mètres de largeur. Ses deux tours encadrent l'entrée principale du temple. Il est décoré de scènes en bas-relief qui célèbrent les exploits militaires de Ramsès II.\n\nLa Bataille de Qadesh : Le thème le plus important est la Bataille de Qadesh, une confrontation entre les armées égyptiennes de Ramsès II et l'empire Hittite. Les reliefs représentent le déroulement de la bataille, depuis le campement égyptien jusqu'à la riposte du pharaon. Les scènes montrent Ramsès II, sur son char, écrasant ses ennemis, ce qui glorifie son rôle de guerrier et de protecteur de l'Égypte, même si l'issue de la bataille fut plus complexe qu'une simple victoire."
+      },
+      {
+        title: "Théâtralité et propagande royale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNUMAju-QqZKWQ45AHVwmdV78z880iPoEAt9ZgrQ7mXxO23ZL_rN0EnzRrECNaemREHrOQe-_yGNeXXHgCiQUXSeQl2uEe2uEjQMSSGR9qbd1RMtpGq9Cux4Kgm7kKwGbvTPMoFlKvGfpAbpNrFufuGZw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO4POsGQ3fulCzjx01RTobLb7QWvG55fnspWsDZfF4oPP9Ke5VFfOGssxoHzEY_LSstbFxrMhLPYobS7KTMN3gxOJ5Tl1nUNOs0sFE2jbIVdieTlbzMKFZZQllfgUiff0dAtvYcG-M1Iz10oldCzIBNvw=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOlyJCFTkKeWVeBkMY6FfYgN7saKhNQ7nJ7Vbo99WStk25K8Vx63jLtJIae_J4AoMi5Ys7LdVUfRLi5IMS3USvUcXcH5FryFFkqcCDOF6UXhdoSFqjDKKEfxHpokWpcLN6mxV0MB8xU0-dZL7Ysv3qdBA=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Symbolisme et fonction : Le pylône n'était pas seulement une porte d'entrée ; il servait aussi de toile pour la propagande royale. Il était recouvert d'un enduit blanc et de décors peints de couleurs vives, créant un spectacle éblouissant pour ceux qui approchaient du temple."
+      },
+      {
+        title: "La cour péristyle d'Amenhotep III et sa cachette",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOdgIFtz3hMJtMcZhe-ZUV1I4A8ZCBHK69fRy5hEr_yFhMFBLZW1D2J3TlK4DlxA3NSc746tNvbtqAbGDnacrrjr4ggR4Zg-QCvYT0vTUDnfHnuymcJKgXglRViTPHYwGJgC1ktcjSL1McvomzDx1QIIg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOEZ8QRAwPZwwUllBZFWcvQp20bxWovWzuhEP3GyhbMeFusA2_4yuHJwmtKseyAa_-40MhFnliMgFN6xq79lZhhr3__gKhlL1jeisgLP2lSMD5hTlpfOeK7MfYFLHVQ18DOHMyy-5hC2lZyeFzr7LD1Rw=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP-Zz8WHgDPCB0V5GDXCgyx4V0MMtviZm9BxHz4AhtG61PBd0NVFfZrGPbwrpdFPm5xO8h6Fw0U8eYbawddK4VEfQpLxt8hlY7EHGONdKG8lkHl8lWOFmMuIqugjm2ikKSJkexQsmoaVT0vl8zS6NWBiA=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La cour d’Amenhotep III est un vaste espace à ciel ouvert de 45 mètres de long sur 56 mètres de large. Son architecture se distingue par ses soixante-quatre colonnes qui l'entourent, réparties sur trois côtés. Ces colonnes, en grès, sont d'une grande finesse et se caractérisent par leurs chapiteaux en forme de papyrus ouvert, symbolisant la floraison du pays. Le jeu de lumière et d'ombre créé par ces colonnes confère au lieu une atmosphère de solennité et de grâce. La cour est aussi célèbre pour sa découverte archéologique majeure. En 1989, une cachette de statues a été mise au jour sous le sol. Plus de vingt statues d'une qualité exceptionnelle y étaient enfouies, dont des représentations du roi Amenhotep III, du dieu Amon et d'autres divinités. Cette découverte a considérablement enrichi notre connaissance de l'art du Nouvel Empire, et la plupart de ces statues sont aujourd'hui exposées au musée de Louxor."
+      },
+      {
+        title: "Cérémonies processionnelles et reliefs muraux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMR9KLeTc8th4d6D5efuf_cHPGHkiJi2ibvriJPdAiXubTJtF34MCD6PbfmdwApBNRD2mtMAzfKXTDVLGuXlRtbtw0VmzQV08bgovL_n5c5TJDllBL4_R6fcL2-qY4GcUnpL8TJG4rhcaTCqbvy-CEr2w=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPF9BHnqGChwyaRjrVklkJbQGJb35eXJ-BPdiwPdL1Qfacb2hOanbtx4iaQCsUngSbZtBxez5uf-UuqHFMF8XgkncUMy3kwD6FYNdpOOgj0E8EI7Oro2qwIC2VycdWt1poHDoO41RDtk090sDaifVkLrA=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM_H1jw50pm7YTynWOTxrkGXjKK7OTJ_HkQYt1x0qJioB4VapQKqieYEMHxP9943nwjOP1vm7XCLMRrIBrctCDfnL0Cp_7xrorgyFcy2AHgeniqegpiS1AzE5xfa8M5DR13lGemxrjZfcBV_o3Kh7cfpg=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "La cour d'Amenhotep III était le lieu de rituels et de cérémonies importantes. Elle servait de point d'étape pour les grandes processions, notamment lors de la fête d'Opet, où les statues des divinités de Karnak étaient transportées. Les reliefs qui ornent les murs intérieurs de la cour représentent ces festivités, offrant une description détaillée des rituels de l'époque.\n\nBien que la cour ait été modifiée par des pharaons ultérieurs, notamment par Toutânkhamon et Ramsès II, son architecture et son élégance d'origine témoignent du raffinement de l'art sous le règne d'Amenhotep III, qui fut un des plus grands bâtisseurs de son temps."
+      },
+      {
+        title: "Colonnades papyriformes de la nef centrale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNQVtwOn6qJsNxbJj-o1-mg0FP0PHeQdOFepAm5Tn499vf7ZXOi292Or6iEKA1xZAjBoM0_B3TB7FeG50vwkNqS6UchYYo8Ya-eh7Qvg9CGYR7J_JMZH6vMYKhr604ERUBiwrxoLpQhTYzJDljp4_gkiQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOjZfZw3LF85IVIByz5dU_lUNkT8Ewf_p9sR7lqK17H-YtOocfV4H760Ilyx_LWQKQ9b-oo-ragVTBDfaqAX3xFo72K1s-6cz3px0NzlCfCtpQVsVHEsbA_h26uF5FogteXpJTr2-LdODop72sJKWWWcA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPTsDROHaQiZ3ctoJYy7xClukQC_PxFG6iPuykrNruchuksVCH1gd0t4GjwdJydacScxARQM3Phago_M4YQtEF80eMDkHQym_yDXyhbIeATzGXe0m_r-isrRdXG5tQIu_EmtOVapmuBbJL2QWLDAgjFcg=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La Chapelle de la barque et Alexandre le Grand",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPeZqLXl_b8Ef_eH4OKWB4KxABAWD1JK2lZSxXrO1PX19LIpFDYjGYgFc0aex4nMrNK6KfqO2CiAwsN1m3riD6ovqOq2WTI-jAgutel6TI-tH5-AH8At0G03Fe9b8DbMTLDSea51L6qd7A3paNzo-Uqvg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPVL4uow6lzS1TEJNetX6PG4MWrwSdS9FthcPpmO3s0Ts-8i4MiZAzwX5hwP2_hCV2dMiW5huWFV6Nh5K0Aw4XEbM7TuVAveeZCoFtiejxLW4UFrRb8JVvNvbK2LRmbYKtSbo1QU_uaszn33Umsd9JRDg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOjiZLopY4n9BslmvGKAsIvMd_SmZ-n_WVXGr1qe9LsukguacK6DKWYSBb34tu_lsz8QHwzKAvV_Dxsc8FiCCnt71a5XBvr1fsRYLr03-h8rhy0Et6ynMxCrkBfE49ngfgN2O4g6lNKSvP7Z3xGNjwIeA=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La « Chapelle de la barque » : le cœur du sanctuaire\n\nC’est le sanctuaire de la barque d'Amon. Son nom ancien, en égyptien, était l'« Opet du sud », ce qui signifie le « sanctuaire méridional », soulignant son rôle complémentaire au temple de Karnak.\n\nInitialement construite par Amenhotep III, cette chapelle a été entièrement reconstruite par Alexandre le Grand après sa conquête de l'Égypte. En faisant cela, Alexandre cherchait à légitimer son pouvoir aux yeux du peuple égyptien en se présentant comme un pharaon et le digne fils du dieu Amon. L'élégance de la pièce réside dans le fait qu'elle s'intègre parfaitement à l'architecture égyptienne tout en portant la marque du conquérant macédonien."
+      },
+      {
+        title: "Sanctuaire intérieur de l'Opet du Sud",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNBhP-bbvVgU1m0Fc4Y8XO_WiTXC2Oe1gtPBtGV39McSdHfUvqLFkegfS-ui666oquACj3N8LcKONZLwyfxUuyb-QR4Et0qTDM9IgvI7v-SPmS-SpmQF2Kpz1kTqYHywEOpBsF2EGNptcLO-1Tc4FvXtA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPKN4IE0PcdEDpN0vcugBMFqCL5ByrKO0zv-6j8N-8cBzIW7TN9BlK7GkAFKvEQKiu-U94evM4z9iyjHRrY9foUddzABdSDCO-v98vn0N0pFohvUrRNhe2Sya1L-o07PC0SUVkv5gxejbwnp3czI7bubA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP7_GfRm7js1UhjVOmzJj_xmcXRMCQgTg31KQeaTxwbz1nJ0AK1sAIyvxcv6qvkqaMNCUDW8_1fV7bylfJEtnZ_crrVfPB1gNsaSgI3nxjRGPPK4-W61Y82yBwWKbqYsFJX0e5oUMBBxz0pzx910yLaMQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Bas-reliefs sacrés et cartouches d'Alexandre (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPRIWwvv-VxwPmWAtDh4UGM6pK5CFVZHvM7as0pt6W1KNVhXEtai_p9Fr6vFT2sUQ7DIgiQdubgPNCFg-25sPgEyubKXRsXZvVIab_Ww7fB7Qk6PHwQOk3l_dGS5PlI09hcvVeflNwgw04lJyKkgSozzw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMh9v2WeA9IFprdgkwcK2jJ_B1Z6ZMRsZT4OpVWYw1FR-_YSIkNyfEUIIuy03Ggwe7L1nlKNvG2vbc7Pm4ygCeqJI0Af7KhFol5b9_3t5kSkXP2sHeqIr6UIj-NLQeLx-8EyxNixrApUYLBsrFIp6Y8Ww=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNw6sPbesmEi4HjfF6N891JhdWqbiNTsjxZ5cjWR1n_wtIdDLX2gGwNfyLZymA2Q7Jf6F5MjAsDiGiAcOdCNZP4VfxU8t2zvNDJ2tt__snKfw6oswbNuqY2zPfZ5OK_gJWaysE0aoSu-Rf_d8RjTgTF2w=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Les murs du sanctuaire sont ornés de bas-reliefs d'une grande finesse qui décrivent des scènes sacrées et des rituels.\n\n- Le transport de la barque sacrée : Les reliefs montrent les prêtres transportant la barque sacrée d'Amon, supportant la statue du dieu, à l'intérieur du sanctuaire. C'était un moment clé des processions annuelles de la fête d'Opet, et cette salle était le point final où la barque était déposée.\n- Offrandes et rituels : On y voit également de nombreuses scènes d'offrandes. Le roi (représenté ici par Alexandre le Grand sous ses noms égyptiens) fait des offrandes au dieu Amon. Ces scènes symbolisent la relation intime entre le pharaon et la divinité, garantissant l'ordre et la prospérité du royaume.\n- Alexandre en Pharaon : La présence d'Alexandre le Grand est unique. Sur ces reliefs, il est dépeint dans la tenue traditionnelle d'un pharaon, coiffé de la double couronne et officiant en tant que grand prêtre. Les hiéroglyphes qui l'accompagnent inscrivent son nom dans des cartouches, le plaçant formellement dans la lignée des souverains égyptiens."
+      },
+      {
+        title: "Bas-reliefs sacrés et cartouches d'Alexandre (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN9na_eLhsu9Hgy9g01vDYcAVg6zX29oRjHIAlBSJxuq5T5SVpeWJMVBOTzQ7_CGoyE0RS-cXaNj_0HomzysJ7TGFtLE_tqGiQy0tblRduFyHBNAtjOKgitJaizQWK0K93bfYMyHCEncjsFbCXwN7CDvw=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Caractère sacré de la pénombre thébaine",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNaWI6jV03VrVsNXkPlL4khVNMf1rVA_V5ddJYsh8PKb_Dlkh_vHPj_7v7DfAu8bqQ2ThHY1adeslCOIRA34dKFyBlJ6lEFn3CipMVU-TvAzi9AGF608hV99wwFT9EBs_JFkw_btC_1j7BSZy2s3RAZoA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNs49UZ8HvP76lp0JbMwb4UF4bIQAArJ2Qk9TNOg_Yh3uj5uuqYFU46V-LH40WepU7Rvnrkj17lgrwMNH1XYN6lqgOEQQTypAAsG_oQg5INkZMJz24d_IGb-mzJIoHA7YzA99xDaWEEE-gvcpmqnpo2lg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO92wm6JqoeMOOr2Te0hGZorwQmMWItkUfJSk1JQeNm7daMzI7eI0oAVpNNh9uZy_O-60L_IaeU_U9vsK0Y8stAKxkxRGaKAGnPwojJVRmnIh3HQmZ145jBqhM01EEUP1Xew83eKk28NiWDHpbtg9lvyw=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: "Le sanctuaire n'était pas un lieu de culte public. C'était un espace réservé au pharaon et à quelques prêtres de haut rang, dont la fonction principale était de servir le dieu. La pièce servait de lieu de repos pour la barque sacrée lors de la fête d'Opet, où des rituels quotidiens de régénération avaient lieu.\n\nContrairement à d'autres salles du temple, le sanctuaire a la particularité d'être semi-couvert par un plafond de dalles, créant une ambiance de pénombre qui renforçait le caractère sacré et mystique du lieu. L'ensemble de la pièce, avec ses reliefs et ses inscriptions, est un témoignage puissant de la manière dont la culture égyptienne a assimilé et transformé les influences étrangères, y compris celles d'un conquérant comme Alexandre le Grand."
+      },
+      {
+        title: "Monolithes solaires en granit rose d'Assouan",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOVIqtAv6F50s3byzGMdkrnrRK0dYat5T2PO5vZTXiDE7CHYznUqxCuCN_FyK-5VmVcCOrdKGpAxExydMfCvcnA3108CC2HP-MAIQHauLvMhHK78ddOApVu4qnIQL1EnGwPo5yNAaisBG-vM8o_Wn986w=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "À l'origine, deux obélisques en granit rose d'Assouan se dressaient devant le pylône. Mesurant environ 25 mètres de haut et pesant plus de 220 tonnes, ils étaient des symboles solaires, représentant un rayon pétrifié du soleil."
+      },
+      {
+        title: "L'Obélisque de Louxor à Paris et l'obélisque subsistant",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOtkp7rVnRf593mCw1DSM2aJ8oVMpLOgT6k9rbIkVcMFha2bXhDVq2Br27eXX1L8OaCMXhegHC4oKNdaFm59Spp9e_EuD4YGb8O9gemgIOEO9fPs0SRS8pNSjE9NDwd5JR2eig8zWmz8yllqlzW-AuztQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOy-27kYnNhXJVfdfQ9dQGmfTYld4qzhMI49FuM4X4erVSQF6euuaaQlwRs2ukfnk9ZaVM1EBl8vljyEtvbjLg8b8BtN-nrVn5Pyadghdp1p2x-K4ggli_VFGelKn_rLtFqr8Mg_w94JXbKdg7Qp-6Stg=w1741-h2320-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPrdNn8OgKWlY0T5-uxz-aPCP10_8QRAc0Lolr1XoWa9yramI7VwdJcTgC1HtCR9vD1oWdVFOgAWx1rMgonjMBFMoTX-YnQ51a5dW4bb98cGELQ7wtBLMCCjyRhXJ3_tEkdBcZ6Zat5VJjDE0pc02USRQ=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "L'obélisque de Louxor (Paris) : Le premier obélisque fut offert à la France par Méhémet Ali, vice-roi d'Égypte, en 1830. Après une prouesse technique pour le transport, il fut érigé en 1836 au centre de la place de la Concorde à Paris, où il se trouve encore aujourd'hui. Il est orné d'inscriptions et du cartouche de Ramsès II, ainsi que d'illustrations de la logistique de son transport sur son piédestal.\n\nL'obélisque restant : Le second obélisque, toujours sur le site du temple, témoigne de la symétrie originale de l'entrée. Il est de hauteur légèrement différente du premier, ce qui est une caractéristique architecturale peu commune."
+      }
+    ]
   },
   {
     id: "temple_karnak",
