@@ -11321,7 +11321,7 @@ const travelSpots = [
         text: "La renommée de Sharm el Naga repose avant tout sur son récif corallien d’exception, classé en zone protégée. Contrairement à la majorité des spots de la région qui nécessitent une sortie en bateau, le récif maison se déploie à seulement quelques mètres du rivage. Dès les premiers pas dans l’eau, un simple masque et un tuba suffisent pour survoler des jardins de coraux foisonnants et contempler une vie sous-marine éclatante de couleurs, peuplée de poissons-clowns, perroquets, raies pastenagues et parfois de tortues marines."
       },
       {
-        title: "Faune et flore du lagon côtier",
+        title: "Farniente sur la côte",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczNkLHkQVnsI1437bA9KagMTJOL2ECIsZ5RU7QGh2gIcWmp4D8AYtKEoqNGt6mR0hgNQHL78JJTS5U3TUAkjoUuCjlyjB6SBhfkmvWkEXKN59Rqzqt7kc5JC2UgeNtPOrdztXNuNxuVhjgO5iYkeD-jNEw=w1741-h1161-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczNODdEGyoYFlriPCJMLgPHhViHGlg7qzQgX_LGFEgk33V-Ve-m41g6zijKPRFJd7cRapuoTlvWVS2CxbkQjph80eJlN_No5xiWd13CktcvYNNBIuSyEzkgPH3OyodXz64NwJYNFviVXrr5_yujwZYEZQQ=w1741-h1305-s-no-gm?authuser=0",
@@ -11540,18 +11540,142 @@ const travelSpots = [
     subdiv: "Abou Simbel",
     altitude: 185,
     is_island: false,
+    island_name: "",
     transport: "avion",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (-1264 av. J.-C.)",
     century: "Antiquité (XIIIe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Monuments de Nubie d'Abou Simbel à Philae",
+    unesco_name: "Monuments de Nubie d'Abou Simbel à Philae",
+    counts: {},
     lat: 22.3372,
     lng: 31.6258,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNxJ2b7wblm68J5LebZ_FRLke0MjUtjwjstgkx1Tv2k0_QEwQ0UZFSbmXelmCFdT91Fg_IXRK4KD4VfG_TGB9x825G1ENU7rXM5cipskgHi99lQ9S7gq1uyAOXpRE7fexNraWeB-fZMY6WGCpi7Qj-hyQ=w2768-h1845-s-no-gm?authuser=0",
-    description: "Chef-d'œuvre absolu de l'Égypte antique et sanctuaire monumental de Ramsès II, sauvé des eaux par une opération internationale historique de l'UNESCO. Ses colosses sculptés dans la roche dominent le lac Nasser et témoignent du génie des bâtisseurs pharaoniques à travers les millénaires. Les façades majestueuses et les salles intérieures richement décorées de bas-reliefs racontent la grandeur militaire et divine du pharaon ainsi que son amour pour son épouse Néfertari.",
+    description: "Chef-d'œuvre absolu de l'Égypte antique et sanctuaire rupestre monumental de Ramsès II, Abou Simbel s'impose comme l'un des sommets universels de l'art pharaonique, sauvé des eaux du Nil au terme d'une épopée archéologique et technique internationale sans équivalent sous l'égide de l'UNESCO. Érigé vers 1264 avant notre ère aux confins de la Nubie, cet ensemble speos comprend deux sanctuaires creusés directement à même la falaise de grès : le Grand Temple dédié à Amon-Rê, Rê-Horakhty, Ptah et à la glorification du pharaon divinisé, ainsi que le Petit Temple voué à la déesse Hathor et à la reine Néfertari. Ses colosses titanesques assis face au désert dominent les flots du lac Nasser, affirmant avec éclat la suprématie politique et religieuse de l'empire d'Égypte face aux peuples du Sud. Les salles hypostyles intérieures s'enfonçant dans les entrailles de la montagne déploient des piliers osiriaques majestueux et de spectaculaires parois sculptées de bas-reliefs polychromes immortalisant les faits d'armes de la bataille de Qadesh, les offrandes célestes et l'intimité sacrée du couple royal. Merveille d'ingénierie astronomique, son orientation millimétrée organise le miracle solaire bi-annuel illuminant les dieux au fond du naos. Démembré en plus de mille blocs massifs puis reconstitué soixante-cinq mètres plus haut sur une colline artificielle en béton armé dans les années 1960 pour échapper à la montée des eaux du Haut Barrage d'Assouan, le site demeure le phare éternel de la grandeur pharaonique et de la solidarité patrimoniale mondiale.",
     visiter: "Les colosses assis de Ramsès II se dressent à même la falaise de grès, tandis que les salles intérieures du grand temple révèlent des piliers osiriens et des peintures murales d'époque. Le sanctuaire voisin d'Hathor est consacré à la reine Néfertari, et le site propose des représentations en plein air mettant en valeur les façades rocheuses face aux rives calmes du lac Nasser.",
-    link: "https://photos.google.com/share/AF1QipNZny40txWDRQ8Qb-LD1XNcYvUTphU0lnrL4IGXMN759ZNkxSRmNoWpmQcCU_W-8A?key=RVJiTzd4cDNfMkE1Y2d1Y3hJU1RMOEJ0T1dqODlR"
+    link: "https://photos.google.com/share/AF1QipNZny40txWDRQ8Qb-LD1XNcYvUTphU0lnrL4IGXMN759ZNkxSRmNoWpmQcCU_W-8A?key=RVJiTzd4cDNfMkE1Y2d1Y3hJU1RMOEJ0T1dqODlR",
+    sections: [
+      {
+        title: "Façade monumentale du Grand Temple et colosses de Ramsès II",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNxJ2b7wblm68J5LebZ_FRLke0MjUtjwjstgkx1Tv2k0_QEwQ0UZFSbmXelmCFdT91Fg_IXRK4KD4VfG_TGB9x825G1ENU7rXM5cipskgHi99lQ9S7gq1uyAOXpRE7fexNraWeB-fZMY6WGCpi7Qj-hyQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La façade, d’une dimension impressionnante de 33 mètres de haut sur 38 mètres de large, est dominée par quatre statues colossales représentant Ramsès II assis sur son trône. Bien que l'un des colosses se soit effondré dès l'Antiquité à la suite d'un séisme, les détails restants, tels que le némès, la double couronne et les cartouches royaux, illustrent la finesse du travail des sculpteurs égyptiens. Entre les jambes des colosses et à leurs côtés, des statues de taille réduite représentent des membres de la famille royale, notamment la reine Néfertari et plusieurs princes et princesses.\n\nL'architecture est conçue selon un axe solaire précis. Deux fois par an, lors du « miracle du soleil », les rayons pénètrent jusqu'au fond du sanctuaire pour illuminer trois des quatre statues divines, laissant Ptah, dieu des artisans lié aux ténèbres, dans l'ombre. Au-dessus de l'entrée, une niche abrite une représentation de Rê-Horakhty, soulignant la dévotion du temple au dieu solaire. La partie supérieure de la façade est couronnée par une frise de vingt-deux babouins adorant le soleil levant, symbole de renaissance perpétuelle."
+      },
+      {
+        title: "Regalia royaux et effigies de la famille souveraine",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP1le5iuCZ0DbHpteIk549d4d-vjYTjCaHmQbjAvFiSyXwbQa9x59TLfWOX2Dvg84EtIOFtPnrLmYYStaPq8C4AkrxxQ5CBu6qlIec749FPUHKdFgEbvEBmSVmcLPXtnmA4O7dSiDPLeMm2PHODzjG41w=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMuwZ0i898EixDIrFCUImFAInyc_oMV9JoeTfkk0Jk9QwppKtHaYcMlrXxyufnkRTzWu6pAAjnuIVmrGgXgl7RrPXotOYaMhQhpB0H1h4lYqY71n5VjkoJwSPzoe3RbI1RUTVuwYMk1SGQ9SeJH3b1y_A=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNEhPFkO-jmC_coNr7CBnfYVk6MQqqa7x38WvV4F7WkUKnoh2ODZm1llNtzkFk2U1JD_gXdAlKheegTZHQen_-DNEW_tuCgB7IiKp-Gm8dlFwT2SgRWtGT0tPbfrH0jN79bc_AjhtUrspZYMVyFUjSWLw=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Les statues sont coiffées de la double couronne de Haute et Basse Égypte, symbolisant son règne sur les deux terres. À leurs pieds, on trouve des statues beaucoup plus petites, mais tout de même grandeur nature, de sa mère (la reine Touy), de son épouse bien-aimée (la reine Néfertari), et de ses enfants, soulignant ainsi sa lignée et sa famille royale."
+      },
+      {
+        title: "Niche de Rê-Horakhty et propagande royale (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNa6Nq77cLtbG37Zy4ULNSXG1RkF7Tj3Y7x4UFxFK2wn01ehKn0uL_YtijF1Ucu0RQX6XS5zNzh6it2Gn-M4-sNo3Oq7qZChKykDkwKBkQQ6S8XXwe21Ro4HvgE9c4DAAbmPhK8uk1n9B5hVpreroIW6A=w1481-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP7IJxeEVYjTWieYWMfqrSCWmQQn_NNd3dshDmcPjpr1v05r69jze7nTECLuS7UfM7Jf5s4U_QuWQGZX5y_usIYD3dsq2UiP7mzLUmT36eYKgwjOt5GzmLDp7DPT-0zwZym1ElWs_4ceukW_qWO2UEEXA=w1741-h1305-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN8LljSN1h6ZnlNfe3AKOik3hRv5R109KFbLzKDUXOZOfj34dH6UxfErCXLTH5KX-6z4gBC4OWuzF1pYHcsyov2Nb3UfLr8FZIhwYB7VzjMuvQosHb5DQopi3rD86xOkayp5LvI1n2z99Zv3rxmHQSpqQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Au-dessus de l'entrée du temple, une niche rectangulaire abrite une statue en demi-ronde-bosse du dieu Rê-Horakhty, une divinité solaire majeure. La statue tient un sceptre et une plume, symboles de pouvoir et de vérité, et l'ensemble est un jeu de mots hiéroglyphique : le nom de Ramsès II, Usermaatre, signifie « la justice de Rê est puissante ». La présence du dieu au-dessus de la porte relie le pharaon directement au dieu soleil.\n\nLa façade est également ornée de bas-reliefs qui retracent les exploits de Ramsès II, en particulier sa fameuse bataille de Qadesh contre les Hittites. Ces reliefs glorifient le pharaon comme un héros de guerre divin, l'idéalisant en un conquérant qui assure l'ordre cosmique face au chaos.\n\nCette façade n'est pas qu'une simple œuvre d'art, c'est un véritable outil de propagande. Sa taille colossale et sa symbolique complexe étaient destinées à intimider les peuples nubiens et à graver dans l'esprit de tous la puissance de Ramsès II, qui se positionnait non seulement comme un roi, mais comme un dieu vivant."
+      },
+      {
+        title: "Niche de Rê-Horakhty et propagande royale (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMLeInVZrBCOb1Wf0D-p-nA8PSZGijQJcT7y8yqzNIVj8urrz9MnwBsHS52M_xYBZr4enlEuQ32anC-wU5lr9JovzVoHZFA__j0zygpqh4ejoycEKX2QfrR98hDNtxGS8JZrprpKNkZuvcaAUZLfjBulA=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le pronaos et les huit piliers osiriaques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMS1kiRpyITQ_7LfFSt3MrR923kNeEoFF8UOMCGHNjCRLMkZFp2mE91r6XQzWmem-SvotNEADxCr5yJDZ3Swryzo48B1vNdIhDQZO9JuwnOsx9FujOe6dTWkfS4v7otSkvniurOpW-WET8C90JOBayHgQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPc5SKxxaTDzefWUM8QX0T2Qm__QfWQgBHV02eQEZN0R-v4ud9mKrr13MXXuhj-FF0Xpu3csIseQb072ber9wxA3KrMh-yCi-55prArxQkeAxVk9IWdCZIwQZwdsmvwLsVB__VkWcXcyV-K_36IF_iPnA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPU5NIKEeUz8UYEzxGevlvORrFip9KsD577U86Pu6tt46GtUwP7656gHkP-iIFYSyZ-MFy_i3_q8zBMFINKHmnayIOrsKo3EYsGbGpwQQ_O-SOj33qqz1xlutYuo-VJ9qft3RGvOshhTK1k0UT2nr0shg=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "À l'intérieur, le Grand Temple s'enfonce de 55 mètres dans la falaise. La première et principale salle est le pronaos, ou grande salle hypostyle, dont le plafond est soutenu par huit piliers osiriaques. Ces piliers sont des statues massives d'Osiris, le dieu des morts, avec le visage de Ramsès II, accentuant son lien avec la divinité. Le plafond, d'une profondeur d'environ 18 mètres, est décoré de vautours aux ailes déployées.\n\nLes murs de cette salle sont entièrement couverts de bas-reliefs qui narrent les exploits militaires du pharaon. La scène la plus célèbre est la bataille de Qadesh, où Ramsès II est représenté conduisant son char et attaquant l'armée hittite, soulignant son courage et sa force au combat. D'autres reliefs montrent des scènes d'offrandes aux dieux, consolidant l'image du pharaon comme un intermédiaire entre le monde terrestre et les divinités.\n\nAu-delà de cette grande salle, le temple s'articule autour de salles plus petites et de vestibules, chacun menant vers le cœur du sanctuaire, appelé le naos."
+      },
+      {
+        title: "Le char de guerre et la déroute hittite",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNpJ_9AQMh0knh1HLFgcEOMvRwYQ5k3mQE4iALbKSDdD_e5kO9nE_tFuNbcYSOv60aD0ulEswMfmhWTsOnGwwHlkCDcyR3U3wbmyYZ2BYvyExtXbzgpAcC9u_tiPOpeUEW-bRJj9gzzcl5ZVOExiK5R6g=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPE7MQxpOSxLbtCJL-edpNCbWJWddP61_ch_1Xd2Ck68tHEGPMSXchwe5OH1wit_TUYof5whpD8eQf38PWBEQqAG81wBBamC49a7PUBvwqjKImGjWTqkP7WCVDQvAUDBNp-VZswVj3YBV6MJyfdU2rn5w=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La scène met en lumière la bravoure du pharaon. Les reliefs montrent Ramsès II sur son char de guerre, se tenant seul contre les forces hittites. Son char, symboliquement appelé « Victoire à Thèbes », est tiré par deux chevaux et le pharaon y est souvent représenté avec son lion de compagnie, soulignant sa force surhumaine. Il est à l'avant-garde, armé de son arc, et est entouré de flèches qui volent vers ses ennemis. Les Hittites, eux, sont représentés en déroute, se noyant dans la rivière Oronte alors qu'ils tentent de fuir."
+      },
+      {
+        title: "Protection divine d'Amon-Rê et récit officiel",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOJ-2hckeJ-9vj2PhlU4bLNhR0wFu74gRaV9oDw33S3QFF9YgsUg86IYvGXzHMeOLStmtH1jZA12bUaORxhMNF1SC4FTy9VDufanAKLJ0wTRzYfHOtU1VfxKtlLSMnUh6iGy0ra6YfcmSlib1t-cbew0g=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPOhc_zmuEw3jFG82VYRvnGP66bANYp8i23cMojAMTt-fi9S9QFquzYdTGElC7SiXzNr7sFOsvyPBGyCJNRLhMt9Cgx03jp0EsqCu6qzGn8Qkq1pkJIz6FRmlakil4q_4bJanFGhesl5wfX0kODYK1iVg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNHz7r6eaFVd_1a-FQlj4j2UQeen1iI3rJMfukGZ7RQevQrZhDjFQVHDsqqpXVZ7p_bvwPIFriHRzN8bvSXR1aaJpg513PMIuEvDDXsRZKfKpXumrpyEWRjVTdfjfybI1Li_Y6fGmYaLVLE6xhpXDlHWg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Les reliefs de la bataille incluent également des éléments divins. Ramsès II affirme avoir été aidé par le dieu Amon-Rê, qui lui a prêté sa force pour vaincre ses adversaires. Cette mise en scène vise à légitimer le pharaon comme un protecteur choisi par les dieux, renforçant ainsi son autorité et son statut de roi-dieu.\n\nCette représentation, répétée sur les murs de plusieurs temples en Égypte, est un témoignage de la façon dont les pharaons utilisaient l'art pour construire un récit officiel de leur règne, glorifiant leurs succès et affirmant leur pouvoir aux yeux de leur peuple et de l'histoire."
+      },
+      {
+        title: "Chambres annexes et magasins liturgiques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPJxxjoNA2a7gfPJ8wT-eXzZIHPFbhqWgfhPHec8SHQJ-i3HJ0J2PvgTvGyGwe0oEcS0Ya5gG5bC9nioTq7Q_ukijZVLXkTgWswmdAzNobOO6vtZgjDPuu_zwcRzMrGxREWrD5KuZJefr-nkG0Vnu8mOA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMFM6s6AvsiD0CGxZ1w8_lkyNSa1ex_zDkIK9R5wSOsz8FpBD0snTauURy_nOIUqLuBcDhtagN0gc2uNEATaScdcUv5GhwHlTGTFYT9x4SLPY_G8CegAwMBcv2yBJ1CHd0U8jCX53spAcBOiRh2Oxjr9Q=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "De part et d'autre des salles principales, on trouve plusieurs chambres annexes. Ces pièces, au nombre de huit au total, étaient utilisées comme des entrepôts pour les offrandes rituelles, les huiles sacrées, l'encens, et le matériel de culte. Chaque chambre était probablement dédiée à une divinité ou à une fonction spécifique. Les reliefs qui les ornent sont souvent des listes d'offrandes ou des représentations du pharaon en train d'accomplir des rituels. Elles illustrent les aspects logistiques et matériels du culte quotidien du temple.\n\nCes petites salles, bien que moins imposantes que la grande salle hypostyle, sont d'une importance capitale. Elles montrent la complexité et la richesse des rituels qui se déroulaient dans le temple et servaient de transition progressive entre le monde extérieur et le cœur divin du sanctuaire, renforçant la nature sacrée et intime de ce voyage."
+      },
+      {
+        title: "Vestibule intermédiaire et préparation des prêtres",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOnWknzjbRtoDfYEIwP6PnQvQ-OEtwKDcwgMNSR7CyPOdyjFEhSknyXuoQ2gaxzu1uwFSEVmoMgK9g5EPmtw7x2-SSvGar7A9LC-xEW_a3Lbwag85gyHiGyGYHhn56ZjaLWRkrZ8GYiAZVon_SE2_uFKQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMMHvCy4BUXI09gyTdx5iUJVDfjddG-dW6HPpPZbmbjUtyY5zHk9Ec8zRRR2zJMz9yy1V8KIop-erznGi0r5BdOEdnzftYeTdNw7CL9T7hPz6CHyT6rLbHqyzOfLTEVqzvULkcQs8CsgE_eF5-TcpDsjg=w1741-h2144-s-no-gm?authuser=0"
+        ],
+        text: "Juste après le pronaos se trouve une seconde salle, plus petite, soutenue par quatre piliers carrés. Cette salle, souvent appelée « vestibule », servait de lieu de préparation pour les prêtres avant d'entrer dans le sanctuaire. Les reliefs sur ses murs sont d'une grande finesse et représentent des scènes rituelles où Ramsès II fait des offrandes à diverses divinités."
+      },
+      {
+        title: "Le naos et l'alignement astronomique solaire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN5XJer0GGR9wONYdfMF1Y1BLjCtiIkh1szzKO30Y7DYdzsMuRnYGO_lunS94JcjEFWXZav1AGFVVKSZ93KDM2q-kK_VqCOA0M0E27glBZq2nUULPFKQ6pwnd_4_Vv72f_Clg9jHmB5ibtuenvqc0CvCQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPWhz15KbkJcB4M4tQRTDE9gCVZnu9lzUE346vCtMe3DQ0TUtsgOxWjovAy2HqkqVuOqYouuL6vdKv_JW-que0f8RbfOo60taqwXAMsCoL7q2AXBOXpKt9CsiFb6LgOg4fzoHk-JKtJ9jkI6DVYNoyVjQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Au fond du temple, après avoir traversé les salles intermédiaires, se trouve le sanctuaire. C'est la partie la plus sacrée, qui abrite quatre statues assises, taillées directement dans le mur de la falaise. Elles représentent les dieux Ptah, Amon-Rê, Rê-Horakhty, et le pharaon Ramsès II déifié.\n\nL'élément le plus fascinant du temple est son incroyable alignement solaire. Deux fois par an, le 22 février (la date du couronnement de Ramsès II) et le 22 octobre (son anniversaire), les rayons du soleil levant pénètrent par la porte principale et traversent toute la longueur du temple pour éclairer les trois statues des dieux et de Ramsès II. La statue de Ptah, le dieu des ténèbres, reste quant à elle dans l'ombre. Ce phénomène, intentionnellement conçu par les architectes égyptiens, symbolise le lien divin du pharaon et la régénération du soleil. Il témoigne de la connaissance approfondie de l'astronomie et de l'ingénierie des anciens Égyptiens."
+      },
+      {
+        title: "Le Petit Temple de la reine Néfertari et d'Hathor",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOXF_FVyVBr4GrMlOWkh5kLZSz0aIHnJ79A68WFtT96wFQAWwCxEdXGD_G4ykQFXLFRx3fN491nzVxMNWjI9wNCMz55Y_P_lbfREJTRIYGXpRq0_tRdomYrgeyLiaBRtGba9J5d0MYoTu4EopKbW2m1zw=w1741-h1305-s-no-gm?authuser=0"
+        ],
+        text: "Le deuxième temple d'Abou Simbel est le Petit Temple, dédié à la reine Néfertari et à la déesse de l'amour, Hathor. Sa façade, bien que plus modeste en taille que celle du Grand Temple, est d'une signification historique et symbolique unique.\n\nLa façade du Petit Temple est remarquable par ses six statues colossales, taillées dans la roche. Elles représentent quatre statues de Ramsès II et deux de la reine Néfertari. Ce qui distingue cette façade de toutes les autres en Égypte est la taille des statues : celles de la reine sont de la même hauteur que celles du pharaon (environ 10 mètres), une égalité sans précédent dans l'art égyptien où l'épouse royale était traditionnellement représentée à une échelle beaucoup plus petite.\n\nLa reine est représentée coiffée de la couronne à plumes et du disque solaire, flanquée d'un grand uraeus, tous des symboles divins. Entre les statues colossales, d'autres statues plus petites figurent leurs enfants."
+      },
+      {
+        title: "Salle hypostyle aux piliers hathoriques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPZpfLlIYOY8Hlv1II0Ai965-u75NnzpNZ5WLpeiA86eRJuGozgUkg825K8spAMzOE8fwWYAumwAVrN4VzF36uQm0GGNFPRoRZ5joTAd_P0CX58bQ5hISLb8ihkS71KcaeFiWEkgoz4sXxOdimcftvZTw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMo7X21xvFvevubH4QMO-e6J9GLpC9dsZarO0pBGa9Ryr3gdz8qofeCbT38FXZugZuA2OpcRTZfi-KGW1kEDy6DH2coMEA7wKaFzwYV-jvSR94JcSQ0o8C5RsUr_x-hAJFCZ4q6NSjKNEnERkXg9kpNKA=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "L'entrée mène à une première salle soutenue par huit piliers. Contrairement aux statues colossales du Grand Temple, les chapiteaux de ces piliers sont décorés de la figure de la déesse Hathor, reconnaissable à son visage de femme et ses oreilles de vache. Les reliefs muraux de cette salle représentent Ramsès II et Néfertari en train de faire des offrandes aux dieux, montrant l'aspect rituel et dévotionnel de leur règne."
+      },
+      {
+        title: "Dévotion de Néfertari et sanctuaire de la vache sacrée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPZS8Bhjr6uN5slNCT6ZYQzCFc88BT2Ig4b1-Wr1Hr60fDdxYTMMrC1b8nhpaAxvApwjtvRBd1J5sxGrx7DSLGsPZWCGQCWTpkx_XMQ1WYDBDW8rnUsf8G6moJ4qmlBSOlQQQ62BOm6C_kSvMWHY3Ag6w=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNNIJaEhPbnOddy7AtJkVp5qFUSrnXnM411s64aIkcs3e-1nrh6hnlYCuN6UepcaVFEJXw5QJv5h3yf6voFR0RjqcnDQlHgHrwX1CltJ3mahUY5vQ_djzo8-5Saa4rQgb-oUQ8Ief99QZZzeZMD3Sz9Qw=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Derrière la salle hypostyle se trouve un vestibule plus petit, soutenu par quatre colonnes. Les scènes ici se concentrent davantage sur Néfertari, la montrant adorant les divinités égyptiennes. On la voit par exemple offrant des bouquets de fleurs et des sistres (instrument de musique sacré) à Hathor, illustrant son rôle de prêtresse et de dévote.\n\nAu fond du temple se trouve le « saint des saints », le sanctuaire. Il est caractérisé par une niche où une statue d'Hathor est représentée sous sa forme divine de vache, sortant de la montagne rocheuse. Cette représentation symbolise la déesse Hathor qui, en tant que patronne du temple, nourrit et protège la reine divinisée."
+      },
+      {
+        title: "Le sauvetage international de l'UNESCO",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO9IqOT9Wx1WVMtD34drtyxKj2czUsfKUGa5ZfZSkA_SJEZ20NC8TOZAADRmh-lMFAt-8smy3RkUx1boTxr8ceRqDpTqRYE8EUhTLz8WOEIEwl1_Rv_ra0jNRdsMFzr89QjpGXZcUhmKmVjPFL9UoI9kg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOAk8x5BhU0ou4iLAwfpaxXWlDd05Q7nz5miOhqfH8ruevgTlKLa4U7ySDG_fkJrrVz70j9iPSJbXRUXFlEzmFVu_uPp4XM-h2mHw1B0ahKQKr606kUEzuguf60M0__tewxypm3Y_4y8AxMYfB5baH6Fw=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Dans les années 1960, la construction du Haut Barrage d'Assouan menaçait de créer un immense lac artificiel, le lac Nasser, dont les eaux auraient submergé de nombreux monuments de Nubie, y compris les temples d'Abou Simbel, qui auraient disparu sous plus de 60 mètres d'eau.\n\nFace à cette menace imminente, l'Organisation des Nations Unies pour l'éducation, la science et la culture (UNESCO) lança en 1959 un appel international sans précédent pour sauver ces trésors. Cet appel mobilisa plus de 50 pays qui contribuèrent financièrement et en expertise technique. Le projet est devenu un symbole de la coopération internationale pour la protection du patrimoine mondial.\n\nLe chantier, qui a duré de 1964 à 1968, fut une prouesse technique hors du commun. Le plan retenu consistait à découper les deux temples et la roche qui les entourait en plus de 1 000 blocs massifs, pesant chacun entre 20 et 30 tonnes. Chaque bloc fut numéroté, déplacé et réassemblé à l'identique sur un nouveau site, situé 65 mètres plus haut et 200 mètres plus loin que l'emplacement d'origine. Une fausse montagne en béton fut même construite pour recréer leur environnement naturel.\n\nLe sauvetage a été un succès total. Les temples ont été réinaugurés en septembre 1968. Les ingénieurs ont même réussi à préserver le fameux phénomène solaire où, deux fois par an, les rayons du soleil pénètrent dans le sanctuaire du Grand Temple. Cet exploit a non seulement sauvé un monument inestimable, mais a aussi posé les bases de la Convention du patrimoine mondial de l'UNESCO, qui vise à protéger les sites culturels et naturels exceptionnels à travers le monde."
+      },
+      {
+        title: "Le désert de Nubie et le paysage minéral",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOhUsWeBDgLKjKmmkmA2QZouW2-2CnlwUylg_LKtExU51IFbseN5TE5YwwLpvC40HCZTyDoaCi_Kas7anxvDsuKO7IQ3AacZ8LesikSIEDHt1zRbjb4lsi7rZCOhnluihrdXkfcTVcxYQAAigVB1yX7Gw=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Le voyage vers le site d'Abou Simbel offre un contraste saisissant avec la verdure luxuriante de la vallée du Nil. Le trajet, qui dure plusieurs heures, traverse le désert de Nubie, un paysage aride et accidenté, où le sable doré et les roches s'étendent à perte de vue.\n\nCe que l'on observe, ce sont des paysages de dunes de sable, mais aussi des collines et des formations rocheuses. Ces collines sombres sont composées de grès nubien, une roche sédimentaire qui, avec son aspect rugueux et ses teintes sombres, donne au paysage un caractère minéral et austère. Cette géologie singulière crée une palette de couleurs contrastées : le beige et le jaune pâle du sable se mêlent aux nuances d'ocre, de brun et de noir des collines, qui se découpent de manière spectaculaire sur le ciel bleu."
+      }
+    ]
   },
   {
     id: "temple_seti_gournah",
