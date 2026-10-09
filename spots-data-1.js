@@ -9427,18 +9427,118 @@ const travelSpots = [
     subdiv: "Tokyo",
     altitude: 18,
     is_island: true,
-island_name: "Honshū",
+    island_name: "Honshū",
     transport: "avion",
     era_group: "contemporain",
     era_label: "Mégalopole Moderne & Épicentre Urbain",
     century: "XXIe siècle",
     category: "star",
+    counts: {},
     lat: 35.659652,
     lng: 139.700588,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM37nwaZBOnuR6Z0xDT4u2NkpWqFUe0ZYytSGm03l2JvHIvdHDNXeBS-RV69G04Xpd0AJ-_C8PECyqFtDfEP8dUPyzupq8sEBvhdrdiiVfC4mvSVA2bszcMZVr_yzKZG725mxjMp5cDNqu0_F8iU4-K3w=w1379-h919-s-no-gm?authuser=0",
     description: "Épicentre incandescent de la modernité tokyoïte et carrefour piétonnier le plus célèbre, dense et traversé au monde, le quartier de Shibuya incarne la pulsation vitale de la capitale japonaise à son paroxysme d'intensité urbaine. Déployé autour de son immense complexe ferroviaire drainant quotidiennement des millions de voyageurs, le secteur est mondialement réputé pour son spectaculaire « Scramble Crossing », intersection géante où le trafic automobile s'interrompt simultanément dans toutes les directions pour laisser déferler une marée humaine compacte de plus de trois mille personnes à chaque passage au feu vert. Ce ballet cinétique parfaitement ordonné et hypnotique se déroule sous le regard scintillant d'écrans géants cathodiques diffusant sans relâche clips musicaux et réclames futuristes, encadrés par des façades commerciales monumentales telles que le célèbre cylindre de mode du Shibuya 109. Véritable creuset des avant-gardes vestimentaires, des tendances musicales et des innovations de la jeunesse nippone, le quartier juxtapose l'effervescence high-tech de ses boulevards bordés de gratte-ciel récents à l'intimité feutrée de ses ruelles adjacentes ombragées de bars musicaux et de minuscules comptoirs de restauration, composant une fresque sociologique et architecturale qui fascine les observateurs du monde entier.",
     visiter: "La découverte commence dès la sortie emblématique « Hachikō-guchi » de la gare de Shibuya, où les visiteurs s'arrêtent traditionnellement devant la célèbre statue en bronze du chien Hachikō, point de ralliement mythique de la métropole commémorant la fidélité absolue de l'animal attendant son maître défunt chaque soir dans les années 1920. S'élancer ensuite au cœur du carrefour diagonal constitue une expérience sensorielle inoubliable : on se fond dans ce flot continu de passants, enveloppé par les jingles électroniques, les annonces sonores et les faisceaux lumineux des panneaux publicitaires géants qui embrasent la place dès la tombée du jour. Pour embrasser ce spectacle d'en haut, les baies vitrées de la terrasse suspendue du Shibuya Sky ou les étages des cafés environnants offrent des panoramas plongeants saisissants sur l'incroyable chorégraphie des parapluies les jours de pluie. La flânerie se prolonge à travers les pentes animées de Center-Gai, rue piétonne jalonnée de boutiques de disques vinyles, de magasins d'électronique et de karaokés vertigineux, avant de s'engager vers les dédales plus calmes de Dōgenzaka et les passerelles aériennes ultramodernes reliant les nouveaux complexes de Shibuya Scramble Square et Miyashita Park.",
-    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA",
+    sections: [
+      {
+        title: "Origines topographiques et essor ferroviaire (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM2Xl5YPgUes07wUuRHACDxQpKEtuUt3oU7wUlRreh8PangzSrLBMkFFheby6u51W_Yws4hCELbVIG4Wx6YrdQvOwgDw8iKzub7_4-6J0yWRUWuby_x9DZre8rkP1p2dP1LGyUpl0RNzCe7lFjBpUNpUA=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOTwDR9kmwC_rRtKo67iKkxlxYgk0fzWJGdT6vnV429ym6k-C2CMyn8-fa2LYUmVGqh4tZRK19EsIGxl0a-6Pzf0ic60IvbZZFj2JtMUicHvjksc8WtiJ0FCQReMIGxWwWA6b362PhTEllivG8OXpr-sQ=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM55ZRYXAhh0zcOHgyRF2xPAse1az7QG0YgEMoFaXYCaKniH47jd-kfEWxZ3mut7eCSQvwGYEbLK9uplqEAZADV499VrhgIKck5K7hGE5247t_YKeZSB1jBWQWF3FJY9urssVPyKGK3NVKwB3sC_8po2w=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "Né dans une cuvette topographique au confluent des rivières Shibuya et Uda — aujourd'hui canalisées et souterraines —, le quartier de Shibuya (渋谷, littéralement « la vallée austère ») est passé du statut de fief seigneurial médiéval sous la coupe du clan guerrier Shibuya à celui de carrefour névralgique de la mégalopole tokyoïte. Son essor moderne s'amorce avec l'inauguration de sa gare ferroviaire en 1885 sur la ligne Shinagawa (future ligne circulaire JR Yamanote), devenant dès l'entre-deux-guerres le grand terminus d'interconnexion entre le cœur d'Edo-Tokyo et les banlieues résidentielles du sud-ouest via les réseaux des compagnies privées Tōkyū et Keiō."
+      },
+      {
+        title: "Origines topographiques et essor ferroviaire (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczODtdfgCH6FdgraMcp47kM6q9_AKzSAAp72xybN-G5saPoBAozGJxLi4rtog-eZqKwD_FamtmphIZlhGUztnP-0ZUdmw_wXyfKaQbtVy-UWJwFlcyg6N918hql4BdOjDnRvLX3C_9WOM2wBNpxPVRp12g=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Bataille commerciale et naissance du Shibuya 109",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPC6hFv3jbYP7VA7whYCEkXHnww6PbPKYO6EhMQXuTsbZd-oHtDRuQwe0ydiWm_nmRRokoFQJT8t0PnJ-nPUxzwaeK0GL7qqVX3BLXX_yV-8y3nDQpKPpsukrs5a-Q9QU9_1IdUBCDqhTkD4s4DCD2LjQ=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: "Après les destructions de la Seconde Guerre mondiale, le quartier s'est réinventé pour rivaliser avec Ginza et Shinjuku. Dès les années 1970, une concurrence acharnée entre deux géants de la distribution — les groupes Seibu (qui implante les grands magasins Parco) et Tōkyū (qui érige le célèbre cylindre de mode Shibuya 109 en 1979) — transforme Shibuya en laboratoire de création commerciale et en épicentre incontesté des tendances adolescentes et des subcultures urbaines de l'archipel."
+      },
+      {
+        title: "Le carrefour Scramble et la marée humaine",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPaeY2o_UW1lq9E1iQ-UKhIG4JT4VFdn-hzRQbcYB8JZ6jqlGtQw3Rnr0b05EN63U8B10K1bmOFS60PuAu2By3byLqTmJZzcOWj6B_P-kemBCACO37IN7q4dBo8Mvxg5FKstwr6Ci9kEIYDbUp6Uw54SQ=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM3zff07YZi55_VtDbbvy41sQTQmjxjcCZJAhAIMIxZntviSTgiuWIs74i5GYrv-BJsvo98eU6CRQpIrxPk9NoyvwFm7twSMJjzUBjGSnwPQz3EG3aJ2X1vTTWM1mZyMmvbka_GmgjZbOclogQpWbXyrw=w1221-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM37nwaZBOnuR6Z0xDT4u2NkpWqFUe0ZYytSGm03l2JvHIvdHDNXeBS-RV69G04Xpd0AJ-_C8PECyqFtDfEP8dUPyzupq8sEBvhdrdiiVfC4mvSVA2bszcMZVr_yzKZG725mxjMp5cDNqu0_F8iU4-K3w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Devant la sortie nord-ouest de la gare s'ouvre le carrefour piétonnier le plus célèbre et le plus dense de la planète : le Shibuya Crossing (Shibuya Kōsaten). À chaque passage au vert synchronisé, les flux de circulation automobile s'interrompent simultanément pour libérer jusqu'à trois mille piétons qui traversent en diagonale et de tous côtés sans jamais se heurter, composant une marée humaine parfaitement orchestrée.\n\nDominé par les façades vitrées du bâtiment QFRONT et un alignement monumental d'écrans numériques géants diffusant en continu bandes-annonces, publicités animées et jingles sonores, ce carrefour incarne dans l'imaginaire mondial la quintessence visuelle du Tokyo futuriste et cyberpunk."
+      },
+      {
+        title: "La statue de Hachikō et le culte de la fidélité",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN3ENSxpnlbfayNJArSSbHZ4NaFA0uyHwTa8TAn_VQPABWPnPoEx77_foIrA-x0Z8rt0i2DpNB7ZVAPX0PKfK-t8SPt_dWoXlxds0pvhfdnpz_9ufKV4WNRa9fMmUiXwEJZstErRpVQ5ll9LNuN6-pAbQ=w1225-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOZkz9Fw5Q5BmiVcO7317VDDyZnlEKABAnFtVev2JnpPyiHA8QS1nDTRr585D_zEokD03j-5jeG7JuURbIUrUWbzpljOdJm4EgCBkIZqIRfiGQ1Jtps7jwiejmB9_qpiI3pKLHt9NM5Z31jGtSSNm419w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En bordure immédiate du carrefour veille la modeste statue en bronze du chien Hachikō. Érigée dès 1934 du vivant de l'animal — puis refondue et replacée en 1948 —, elle immortalise la loyauté légendaire de ce chien de race Akita inu qui, pendant près de dix ans après la mort subite de son maître, le professeur Hidesaburō Ueno en 1925, continua de venir attendre chaque soir son retour à la descente du train. Cette esplanade ombragée constitue aujourd'hui le point de ralliement le plus fréquenté de Tokyo."
+      },
+      {
+        title: "L'artère piétonne de Center-Gai",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOXGIq6hzSyUABE3QMoz-HoqLUekIrlpGt5TB9ehNC0J-HDD3qET_oKY8V_aerciqzzTSOInBm8qdNkj4IeIxRgYhioe4gDdOiP4MAkz4bKJLHB_E_aCZLEAj6I6m5fgFh2yoywERz_3llgxGeLEx2CGA=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNTyAZIO-o7Xum-fP9zSQJXhiW3u70Us7eOmxFjUnU30Hnt3iISqCf-hKaZcBNq8RcONHQG3lDhwL76HhteYmF0-FL5YfWcz8eGU6DT72IaYLyWq4PLDf67itdKm1bvHMvNwaxGLtIC3tvGvgVfkkdg8g=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOiGybngdXH35mPjEM4HqlNVrjqXURLTHHH5lUt8COOaj3YP6TsvcugY-PK-9lC_n9Zfp7Ts2_eSQmPpdJDiuKpxRaiOygD4dMlRKV-fzJCx3pDPqQsYZ0EqDBCfnO6-saBE9B6psDaCry7VpcIm5ks7g=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "S'enfonçant dans le quartier juste derrière le front de scène du carrefour et le QFRONT, Center-Gai (渋谷センター街, Shibuya Sentā-gai) est une artère piétonne étroite bordée d'immeubles verticaux saturés d'enseignes lumineuses. Née comme ruelle commerçante de quartier au lendemain de la guerre dans le secteur d'Udagawachō, elle s'est imposée dès la fin des années 1980 et tout au long des décennies 1990 et 2000 comme le sanctuaire des mouvements contestataires et vestimentaires de la jeunesse tokyoïte."
+      },
+      {
+        title: "Genèse et mécanique du phénomène Gashapon",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPZstA-v6DeXTRppY7YlbglJd8_36ApFTFMHJAmxLubQiUFAHoS2up2VGMYMf-sTugfekkwYnbUE4yT-ykyRvVbj_gM-StG6M1krMKPH7cE3Vc449sRpq_1JMoVt3LOtDrQimqM-SMwkeXrt6yclKn-FA=w1225-h919-s-no-gm?authuser=0"
+        ],
+        text: "Véritable raz-de-marée commercial et visuel de l'archipel, le phénomène des distributeurs de capsules surprises tire son nom d'une double onomatopée japonaise : gacha (ガチャ), le cliquetis métallique de la manivelle que l'on tourne manuellement, suivi de pon (ポン), le son sourd de la boule en plastique tombant dans le réceptacle. Si les premiers distributeurs mécaniques à pièces ont été importés des États-Unis dans les années 1960 par Ryūzō Shigeta (Penny Shōkai), c'est l'entreprise Bandai qui propulse le marché en 1977 en déposant la marque officielle Gashapon (ガシャポン). La folie s'empare alors des cours d'école dans les années 1980 avec les célèbres gommes de catch miniatures Kinkeshi (Kinnikuman), avant de muer au fil des décennies en une composante à part entière de la culture pop japonaise."
+      },
+      {
+        title: "L'univers des figurines et capsules miniatures (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPf_xNSJFNq4FaH8OQca3OrA6vkkM3XS2yax_oEQVg73RmMbGEeWK7PCJx-rtKoATBwb_fYIGHKlSXwg4CLkOaUITEC7eYz5MY0_PksRrD51-2_VSwvqONk0CG55oD3QUx5_6vfMkJhKwkMdVK1o-GDNw=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMh1YG6JxjsPcB2t0mPy8y_UDE3YsLwZYk_hMc3J4dVK3pibDrLYNEGeQ8nUQ1Ttg8bL3ez28wFWm3gGebkj5ZDSiOjNDCsmxpiqSJD1GCk1H_qU6DKdsgStLfA5ti_3huTDoJyHgTzWO5W8FzfAuz0uA=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNZMUapJ7xFwYC2p9YmIMTLsv1RS0q9aW2FIJGcljczHuD0960fPbbgjeH_0N2mRKhHyOk15ms-dgrh_nNExs8hIbDJ4H25iG5VFF52L7cvpVuNHz4JVARzP1PUfBXMyykj0duK6pDWSublwn632S3TiQ=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'expérience repose sur une mécanique psychologique redoutablement addictive : l'alchimie entre le paiement par pièces de monnaie (souvent entre deux et cinq pièces de cent yens, parfois jusqu'à mille ou deux mille yens pour les modèles dits « premium » ou les bornes sans contact), le geste tactile du tour de manivelle et le suspense du tirage aléatoire. Impossible de choisir le modèle exposé en vitrine : le collectionneur s'en remet entièrement au hasard, cherchant à compléter une série ou à dénicher la figurine la plus rare (chase), quitte à accumuler les doublons. Le contenu de ces sphères en plastique bicolores s'est affranchi depuis longtemps du seul public enfantin pour séduire les adolescents, les touristes et les adultes actifs (kidults) :\n\n- Les licences majeures du manga, du jeu vidéo et de l'animation : Reproductions miniatures ultra-fidèles de personnages cultes, porte-clés, bagues ou accessoires issus de franchises comme Dragon Ball, Pokémon, Gundam ou Jujutsu Kaisen.\n- Le réalisme du quotidien en modèle réduit : Répliques à l'échelle d'objets usuels de la vie japonaise reproduits avec un niveau de détail maniaque (fausses briquettes de lait, cabines téléphoniques rétro de la NTT, réchauds de camping, distributeurs de boissons ou emballages de nouilles instantanées).\n- L'humour absurde (bakadane) : Créations conceptuelles décalées et poétiques, allant des animaux pris en flagrant délit de pompes abdominales aux employés de bureau (salarymen) prosternés dans des excuses publiques théâtrales (dogeza), en passant par des bonnets de laine miniatures pour chats de compagnie."
+      },
+      {
+        title: "L'univers des figurines et capsules miniatures (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMr-m3pYgYhKk3p0B0knDqK3qxUBH6ro6wRqleJBJ7NQ5zp1E99bAA2qccYYX9I3cEb7uDbGQIdQVdQBicZF8tb2orOCCssGY0K6D7gLWs8Lowwj5mrU5gaeU_NUR4HfpXx72CDLA61u_qD0fgy27-tOQ=w692-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "L'icône rétro et kawaii de Monchhichi",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNl2xwNGIT5bniT_iagDRVu_sOmFfecSJ0PuoG1PC4r8zOZXKIdsAMihaw9vLfOAHhueS7P0-E_jZhoNXhq75VASVAYIcYqIDvr3m8GM7P6vth6i0ZIvBEA1V_vrox7OXY5ZUOjwreOqjF0eleGi6DXLw=w1225-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOJmDQl-hxyRfoEeZqi6ap9wRL6KO1UG4cTVdUZcaGI-71v_O01uHU8dIQ_NVnESuDU7_knkS1CdNaaPLYPV9fY7RJa8T-tvuqZEdJ6RUrMgnKXnM6zwnKUL0371fiUzdk7o9M_Rri0O9GNjkeY0JotzA=w689-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNDcXUlkPmDWMuTHUo5UTQL6Pi5SH0XtFYBOl1JVEcgywzudF9p4cbPMGcJeGwMrQNoHtRbdzlmGP0Fmfbm3kJzXaJclbrv0oCUp7_JUwFUB2iPQPo3dnyMn884ZQE2MAIXCTy37Ti_PUviCXSAoL9IKw=w689-h919-s-no-gm?authuser=0"
+        ],
+        text: "Créé en 1974 à Tokyo par Yoshiharu Sekiguchi (fondateur de la manufacture de poupées Sekiguchi), le petit singe en peluche connu au Japon sous le nom de Monchhichi (モンチッチ) — et rendu célèbre en France dès 1979 sous l'appellation Kiki — est l'un des emblèmes les plus durables du jouet nippon. Mi-bébé, mi-primate, il se caractérise par son corps souple en fourrure synthétique brune, sa frimousse expressive en vinyle piquée de taches de rousseur et, surtout, sa tétine ou son pouce qu'il peut loger directement dans sa bouche.\nImaginé pour diffuser un message de réconfort et de tendresse, il a rencontré un succès planétaire avant de s'imposer comme une figure culte de la culture nostalgique rétro et de la vague kawaii. Toujours omniprésent dans les artères tokyoïtes — des étals de Harajuku aux boutiques de souvenirs des grandes gares —, il est devenu un objet de collection décliné en porte-clés, en figurines de distributeurs gashapon et en éditions spéciales vêtues de kimonos traditionnels ou de tenues thématiques locales."
+      },
+      {
+        title: "Nocturne incandescente et ballet des néons (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMr27S-1kV1Xm-wQ-2hbhptgN_6AGTTdRecXmK2LxdEiZHlCWqAEwX7GxaAw7amDG8rKdVJ-VOjkLzPXhA5PmATUtypPZPqeEsy5yl6rqLqGx3rUUWfbGVQXLcpLOst-vW0H_TjvFsEg7tp9sty-f_ITw=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPWwEVTTuuHjvDkNVSRo-hb8qEFWm_CyEVUDDa6Q1zosPwrRNMAIyXsWUKlBBQmnZ6f7P0uZI7R3QS5OondzQ-a7h7HU0a3qxchD1Eu8s_J7M9W6jeZZNsdknhBZbH7448MfOsrNfK-PeH9QQhjHv0fDA=w692-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMkyV_tvtdn9A-9VNtGrx0Gs05hx7Kd_ZDkYRS4Ms9oWpAjEE9ktDBIMuXrqNHm2AWUlk-QBXSoBc9OM7HcP52BhcLS5pZxh4gbxE9_V3eoBW6Qk1YhPoJyIEriSIaH-f2gGE4aBzwaOVAQpHNdGFlxqw=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: "Dès la tombée du jour, Shibuya bascule dans une scénographie lumineuse hypnotique où la nuit est littéralement abolie par la déflagration visuelle des façades. Les écrans géants verticaux, les néons multicolores et les bandeaux LED des gratte-ciel s'allument à l'unisson, inondant le grand carrefour d'un éclat électrique permanent.\n\nSous cette voûte incandescente, le flux des piétons s'intensifie encore : étudiants, noctambules, touristes et employés de bureau libérés de leur journée s'entrecroisent au rythme cadencé des feux de signalisation, fendant le bitume éclairé comme en plein jour."
+      },
+      {
+        title: "Nocturne incandescente et ballet des néons (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN3nnDZ41-lvIz3ZNscojOXpo7fJI9V1wfCb5xN2_nTLkCFinm2efjECNrWleYBoya-vPuSTlb0NPNeRLVPLYmALv3APUTNES-ld_NxciboFbtOw3LSM9MX9-5P2mmGkHQSyBNqtSlq2xpcbhOnTO5_Zw=w1221-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "tokyo_ameyoko_market",
@@ -9451,15 +9551,30 @@ island_name: "Honshū",
     subdiv: "Tokyo",
     altitude: 6,
     is_island: true,
-island_name: "Honshū",
+    island_name: "Honshū",
     transport: "avion",
     era_group: "contemporain",
     era_label: "Époque Shōwa & Mémoire Populaire d'Après-Guerre (1945)",
     century: "XXe siècle",
     category: "star",
+    counts: {},
     lat: 35.709955,
     lng: 139.774493,
     image: "https://lh3.googleusercontent.com/pw/AP1GczO50C7Ekd1JdS95F3pbbwaTzJzd1V1wc3g6vsD-FYSA7Glk6Nu7mTIWMcTuX0_blVwKohuKR-ROSF-kw099hMOMAjLwguDUcIKjgdsujMoB16utkNSDOOLp53SKqqdGNdQMZXvJO8kuMHDyZ4sx6Z8oUg=w692-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOdoSPa4fpBok-eUOD15onlXQ-bBL7NcD7DE1nupZuRS4AdeNnlYSmWU5_aBlEaIoDSmdd14_n9pcW7yVFxHemvVgIieHBmkomR0rIJp7zwRdlyudv6uwCYBKfil8uq1QUVs6w3kl2OjG_GqcLto10Ryw=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO50C7Ekd1JdS95F3pbbwaTzJzd1V1wc3g6vsD-FYSA7Glk6Nu7mTIWMcTuX0_blVwKohuKR-ROSF-kw099hMOMAjLwguDUcIKjgdsujMoB16utkNSDOOLp53SKqqdGNdQMZXvJO8kuMHDyZ4sx6Z8oUg=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMsLA-rahgmptJ5ecWZxWyI7gQyLit_axcYo3VoZUE7K6i9rdArL-Y_AZKKmPifMZzs6W0tbTnkqIA2mddxlTv_fGOIA_KTOhVqtFw-QD-I9rJ8kdye024gAG6Ek4ZJ2CAPmbvkefcz4UFWyllUBbwe_w=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Artère commerçante vibrante et tumultueuse courant à ciel ouvert directement sous les viaducs ferroviaires surélevés reliant les gares d'Ueno et d'Okachimachi, la rue marchande d'Ameyoko (Ameya-Yokochō) constitue l'un des ultimes et plus authentiques témoins du Tokyo populaire de l'après-guerre. Née sur les décombres de 1945 sous la forme d'un marché noir informel où les Tokyoïtes affamés venaient échanger du sucre brut et acheter des friandises artisanales (ameya) ainsi que des surplus de rations et des denrées américaines (Amerika-yokocho) débarquées par les troupes d'occupation, cette venelle étroite de près de cinq cents mètres a su préserver son effervescence brute et marchande. Bordée de centaines d'échoppes bariolées serrées les unes contre les autres sous le grondement régulier des trains de la ligne Yamanote passant au-dessus des têtes, elle dégage une atmosphère unique de souk asiatique où résonnent les apostrophes gutturales rythmées des marchands haranguant la foule à grands cris (kakegoe). Véritable bazar à ciel ouvert où se côtoient produits de la mer étalés sur glace, fruits exotiques tranchés, vêtements d'armée, cosmétiques dégriffés et épices orientales, Ameyoko incarne la résilience joyeuse, populaire et cosmopolite du vieux quartier traditionnel de Shitamachi.",
     visiter: "La déambulation dans cette artère pittoresque s'effectue au coude-à-coude dans une ambiance sonore et olfactive électrisante, rythmée par les cris traditionnels des poissonniers proposant à la criée thon rouge frais, saumon séché, crabes géants d'Hokkaidō et algues nori à prix bradés. Les visiteurs s'arrêtent devant les marchands de confiseries pour assister au spectacle du vendeur de chocolat qui remplit des sacs entiers à ras bord en scandant des formules d'encouragement théâtrales jusqu'à ce que la pile menace de s'effondrer. Les étals de street-food invitent à une halte gourmande spontanée sur le pouce pour déguster des brochettes de fruits frais glacés, des takoyaki croustillants fumants, des brochettes yakitori grillées au charbon de bois ou des bols de ramen servis sur de modestes tabourets en plastique calés sous les arcades de béton ferroviaires. En s'enfonçant dans les sous-sols du bâtiment Ameyoko Center Building, on découvre un incroyable marché souterrain asiatique regorgeant d'ingrédients rares, d'épices chinoises, de poissons vivants et de condiments d'Asie du Sud-Est, offrant une immersion sensorielle dépaysante à mille lieues des galeries aseptisées des grands magasins de la capitale.",
     link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
@@ -9475,15 +9590,34 @@ island_name: "Honshū",
     subdiv: "Tokyo",
     altitude: 634,
     is_island: true,
-island_name: "Honshū",
+    island_name: "Honshū",
     transport: "avion",
     era_group: "contemporain",
     era_label: "Prouesse Technologique & Néo-Futurisme (2012)",
     century: "XXIe siècle",
     category: "star",
+    counts: {},
     lat: 35.710795,
     lng: 139.810598,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMch_gAw2o3J5Ua_tQYAFbjiq1mU3u8KpFxonCd-q3B_lEQt5C0fpuqbwg93c_bmvNB6LTloQca_o-CVN3PRu-ZtZh0STuSCpBteXMi-pEXOHuyhKnXre2byepbn171SfBa-GIhHdPkf2rDmRg2v0TOdQ=w1455-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOZ_aLYFtmP1dHYhj2vymYN3I64Wh82l-rrnFIM3DlreMwIREzcicP8vmQAOLpS9giDNfDpxL2afZr6oYTGyTVqAEFx71yHcU3KOZhTli1ajUGz-SJhTKGlAojlT1scAEv41Nyhgntx4gYx1kdIqhB5kQ=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO0iTPFbJ06kiy43NVjraCScdqL8FF7ClmImTtsnsBrvmiCC_nJgV-0NhyshIi83ifKHUBIfmR7lHnB3fywuT5gu7Xv5WmemlHU7FqjK8v0l-Zm9sZZVBP75KT9EMnDcuGqAhtG6kD-bMWEJptaSTVokw=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOA_f1ZJTTR7OUtGKdhT7P2tYWDjF9rhcT3VBwYbng0Kb6dHNuYyYcvMtmKON1AE3TjukYwtBhTd66a0i_mMGqu7pEvq-wShK_yymwyZU5BOW1d4gxbMzTCIR2olkv4xRIXSvHhcuFLDjUfnmciMfQocA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOhTuUKox0fo_hQezgX55zzcV_NJcSjOPZbWkWOCbDxXkWecG-n5xlrB97cCjP-ZykQob4j3uOiyKzKnd16SMBIFFKXL7P_SNb5Ib_zoYId0VHkg0wcVJF9BB6nZY7TKpPN4K_OxvQozKZaiOXWG2nggg=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Flèche titanesque fendant l'azur tokyoïte au cœur de l'arrondissement de Sumida, la Tokyo Skytree s'élève à la hauteur vertigineuse de 634 mètres, ce qui en fait la plus haute tour de transmission autoportante du monde et la troisième plus haute structure artificielle de la planète. Inaugurée en mai 2012 pour relayer la télédiffusion numérique au-dessus des gratte-ciel de la mégapole en remplacement de la vénérable Tour de Tokyo devenue trop basse, elle constitue une prouesse d'ingénierie parasismique d'avant-garde. Sa silhouette néo-futuriste immaculée d'une blancheur bleutée subtile (Aijiro) fusionne la modernité technologique la plus poussée avec les canons géométriques de l'art traditionnel nippon : sa base triangulaire au sol se métamorphose progressivement en une forme cylindrique parfaite au sommet selon les courbes délicates du sabre de samouraï (sori) et du galbe des colonnes de temples anciens (mukuri). Dotée d'un pilier central en béton armé (shinbashira) structurellement désolidarisé de l'armature métallique extérieure selon le principe antisismique séculaire des pagodes à cinq étages, la tour est conçue pour dissiper jusqu'à 50 % de l'énergie des séismes majeurs, incarnant le phare technologique et protecteur de la baie de Tokyo.",
     visiter: "L'ascension vers les cieux s'effectue à bord d'ascenseurs ultra-rapides et silencieux filant à six cents mètres par minute, décorés de panneaux muraux évoquant les quatre saisons tokyoïtes, pour déboucher en cinquante secondes sur le premier observatoire du Tembo Deck situé à 350 mètres d'altitude. Depuis cette immense rotonde vitrée panoramique sur trois niveaux, le regard embrasse un panorama étourdissant à trois cent soixante degrés sur l'océan infini des toits de Tokyo, les méandres de la rivière Sumida et, par temps clair, la silhouette majestueuse et enneigée du mont Fuji se découpant sur l'horizon lointain. Les visiteurs en quête de sensations fortes testent leur aplomb sur la célèbre section de plancher de verre transparent (Glass Floor), contemplant le vide vertigineux de l'armature d'acier sous leurs semelles. Un second ensemble d'ascenseurs transparents hisse ensuite les voyageurs jusqu'à la Tembo Galleria à 450 mètres de hauteur, où une rampe tubulaire en spirale de verre suspendue dans les airs mène jusqu'au point culminant accessible de Sorakara Point (451,2 mètres), offrant l'impression saisissante de marcher littéralement au milieu des nuages au-dessus de la plus grande agglomération du globe.",
     link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
@@ -9499,15 +9633,30 @@ island_name: "Honshū",
     subdiv: "Tokyo",
     altitude: 15,
     is_island: true,
-island_name: "Honshū",
+    island_name: "Honshū",
     transport: "avion",
     era_group: "contemporain",
     era_label: "Époque Contemporaine & Pop Culture Vidéoludique (2016)",
     century: "XXIe siècle",
     category: "star",
+    counts: {},
     lat: 35.710659,
     lng: 139.812873,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNgUWb9YHFeW1HxXyXwM-Q5gtxN_V0arOIF6Y-pFSEKA842nHlxEY0N1lfHyFzsaWg5EERLsSwJJ9HdHsXpSogEV75nWaGpv-iMhJDlXfp9htf6hcb1_ugr95O6zW5Ln_OoRqgoiDjx8UysHOekaescmw=w692-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNwe-j6UnoEjyegMQN1eaFTENrxYRd36E1MB8YbWc1UoEq7u4sV_0nTLs1uABQsX9x-B90kweBOM59_aobfziG_ztaAT1JCgrJADzMrKZUDJnnypMHxNIFadmQXRD7uT8MOFuwBdReuqSmTHvgSnX8wuA=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOTJ7nOkaKviodFmdI9ChAINwX8HoZR7c50_q5vczir5yR6Jpz4UZmJOuCN3CMtCOS4ddRgEINe0OOjLc1iNLAZrOaWNpXf_rO45zZexUXpGIJc5mn_t7y4y-Lx0yqhsyhS_G-6FwUXWtQk1Nosp4xmOw=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPRV7RVUAsMR6aEkB3SHfxRIUadXsdDY7ZGU4bUcRPRti61y8F02kQ0nOsf3NwwlI5By7S5VAQz4lv3OrzzooBE4-U3Ep_HHUHyIcyNIlozfkZWZCJsDe6uKmujAMQf3OYYLQv9JZ9xeI3QWBuCmBqT4A=w692-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Temple thématique emblématique de la culture vidéoludique contemporaine et sanctuaire officiel de la franchise de divertissement la plus lucrative et populaire de l'histoire humaine, le Pokémon Center Skytree Town déploie son univers féerique au quatrième étage du vaste complexe commercial Tokyo Solamachi, directement au pied de la Tokyo Skytree. Ouverte à l'été 2016 pour célébrer les vingt ans de la saga créée par Satoshi Tajiri, cette enseigne officielle se singularise par son parrainage exclusif placé sous l'égide du légendaire Pokémon draconique céleste Rayquaza, maître des cieux issu de la région d'Hoenn, dont la mythologie aérienne fait écho à la verticalité vertigineuse de la tour qui le surplombe. Espace immersif baigné d'écrans animés, d'effets visuels futuristes et de thèmes musicaux orchestraux familiers tirés des jeux vidéo Nintendo, la boutique matérialise dans le monde réel les fameux Centres Pokémon virtuels où les dresseurs viennent soigner leurs créatures et s'équiper. Phénomène socioculturel mondial transcendant les générations, le lieu attire aussi bien les passionnés de gaming que les familles et collectionneurs internationaux en quête d'éditions exclusives introuvables ailleurs dans l'archipel nippon.",
     visiter: "La visite s'amorce devant l'entrée spectaculaire du magasin où trône une monumentale statue grandeur nature sculptée avec un réalisme saisissant figurant le dragon céleste Rayquaza émergeant des cieux, chevauché avec malice par Pikachu paré de son inséparable queue en éclair. En franchissant les portes de ce paradis coloré, les amateurs découvrent d'immenses gondoles thématiques débordant de milliers de peluches officielles représentant l'intégralité du Pokédex national, depuis les figures fondatrices de la première génération comme Dracaufeu, Évoli ou Bulbizarre jusqu'aux légendaires les plus récents. Une section exclusive est spécialement consacrée aux produits dérivés estampillés Skytree Town, dévoilant des pin's commémoratifs, des figurines articulées et des peluches de Pikachu coiffé d'un béret aux motifs de la tour ou costumé d'un poncho Rayquaza vert et noir étincelant. Les passionnés du jeu de cartes à collectionner officiel (JCC Pokémon) s'attardent devant les vitrines de boosters récents et de boîtes de rangement exclusives, tandis que des bornes interactives permettent aux joueurs nomades de recevoir des distributions d'événements virtuels spéciaux sur leurs consoles, composant une étape ludique et colorée incontournable lors de l'exploration de Sumida.",
     link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
