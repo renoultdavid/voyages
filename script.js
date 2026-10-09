@@ -2411,10 +2411,49 @@ function renderModalSpot(spot) {
 function renderEnrichedCarnetMode(spot, layout) {
   layout.className = "flex-1 overflow-y-auto p-3 sm:p-6 md:p-8 space-y-12 custom-scrollbar bg-slate-950/80";
 
+  // =========================================================================
+  // FUSION AUTOMATIQUE À LA VOLÉE DES SECTIONS SCINDÉES (1/2), (2/2)...
+  // =========================================================================
+  const consolidatedSections = [];
+  if (Array.isArray(spot.sections)) {
+    spot.sections.forEach(sec => {
+      // Détecte et extrait la racine du titre en retirant (1/2), (2/2), 1/2, etc.
+      const rawTitle = sec.title || '';
+      const baseTitle = rawTitle.replace(/\s*\(\s*\d+\s*\/\s*\d+\s*\)\s*$/i, '').trim();
+      const hasPartPattern = /\(\s*\d+\s*\/\s*\d+\s*\)/.test(rawTitle);
+
+      // On vérifie si la section précédente avait la même racine de titre
+      const lastSec = consolidatedSections[consolidatedSections.length - 1];
+
+      if (lastSec && hasPartPattern && lastSec._baseTitle === baseTitle) {
+        // Fusion des photos
+        if (Array.isArray(sec.photos)) {
+          lastSec.photos = (lastSec.photos || []).concat(sec.photos);
+        }
+        // Fusion du texte si présent et différent
+        if (sec.text && sec.text.trim() !== '') {
+          if (!lastSec.text || lastSec.text.trim() === '') {
+            lastSec.text = sec.text;
+          } else if (!lastSec.text.includes(sec.text.trim())) {
+            lastSec.text += '\n\n' + sec.text;
+          }
+        }
+      } else {
+        // Nouvelle section propre
+        consolidatedSections.push({
+          title: hasPartPattern ? baseTitle : rawTitle,
+          text: sec.text || '',
+          photos: Array.isArray(sec.photos) ? [...sec.photos] : [],
+          _baseTitle: baseTitle
+        });
+      }
+    });
+  }
+
   const catKey = spot.category;
   const catConf = (typeof CATEGORIES !== 'undefined' && CATEGORIES[catKey]) ? CATEGORIES[catKey] : { label: catKey, color: '#06b6d4' };
 
-  // 1. En-tête : Badges, Titre et Présentation générale (sans le bouton album)
+  // 1. En-tête : Badges, Titre et Présentation générale
   let headerHtml = `
     <div class="space-y-4 w-full max-w-7xl mx-auto px-1 sm:px-4">
       <div class="space-y-2">
@@ -2447,9 +2486,9 @@ function renderEnrichedCarnetMode(spot, layout) {
     </div>
   `;
 
-  // 2. Sections de visite : Titre + Texte puis Galerie photo
+  // 2. Sections de visite (on itère sur consolidatedSections au lieu de spot.sections)
   let sectionsHtml = '<div class="space-y-12 w-full max-w-7xl mx-auto px-1 sm:px-4">';
-  spot.sections.forEach((sec) => {
+  consolidatedSections.forEach((sec) => {
     let photosMarkup = '';
     if (Array.isArray(sec.photos) && sec.photos.length > 0) {
       const count = sec.photos.length;
@@ -2461,15 +2500,16 @@ function renderEnrichedCarnetMode(spot, layout) {
           </div>
         `;
       } else if (count <= 4) {
-        const rowHeight = count <= 2 ? 'h-[420px] sm:h-[520px] lg:h-[580px]' : 'h-[280px] sm:h-[340px] lg:h-[400px]';
+        const colsClass = count === 2 ? 'grid-cols-2' : (count === 3 ? 'grid-cols-3' : 'grid-cols-4');
+        const rowHeight = count <= 2 ? 'h-[380px] sm:h-[460px] lg:h-[520px]' : 'h-[250px] sm:h-[300px] lg:h-[350px]';
 
         photosMarkup = `
-          <div class="flex flex-row gap-2.5 w-full justify-center items-stretch rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2 sm:p-3">
+          <div class="grid ${colsClass} gap-2.5 w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2 sm:p-3">
             ${sec.photos.map(p => `
-              <div class="${rowHeight} shrink min-w-0 flex items-center justify-center rounded-xl overflow-hidden bg-black/40">
+              <div class="${rowHeight} w-full flex items-center justify-center rounded-xl overflow-hidden bg-black/50">
                 <img src="${p}" 
                      alt="${sec.title || spot.name}" 
-                     class="w-auto h-full max-w-full object-contain cursor-zoom-in hover:scale-[1.01] transition-transform duration-150" 
+                     class="w-full h-full object-cover sm:object-contain cursor-zoom-in hover:scale-[1.02] transition-transform duration-150" 
                      onclick="openLightboxZoom('${p}', '${(sec.title || '').replace(/'/g, "\\'")}')">
               </div>
             `).join('')}
