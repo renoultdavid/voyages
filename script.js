@@ -2395,9 +2395,9 @@ function renderModalSpot(spot) {
   const modal = document.getElementById('poi-modal-viewer');
   if (!modal || !spot) return;
 
-  const container = document.getElementById('poi-modal-container');
+ const container = document.getElementById('poi-modal-container');
   if (container) {
-    container.className = "relative w-full max-w-7xl h-[94vh] md:h-[92vh] bg-slate-900/95 border border-cyan-500/30 rounded-2xl shadow-[0_0_50px_rgba(6,182,212,0.25)] flex flex-col overflow-hidden text-slate-100";
+    container.className = "relative w-[98vw] max-w-[1700px] h-[96vh] bg-slate-900/95 border border-cyan-500/30 rounded-2xl shadow-[0_0_50px_rgba(6,182,212,0.25)] flex flex-col overflow-hidden text-slate-100";
   }
 
   const flagEl = document.getElementById('modal-flag');
@@ -2425,14 +2425,14 @@ function renderModalSpot(spot) {
 // MODE 1 : CARNET DE VOYAGE (TEXTE D'ABORD, GRANDES PHOTOS EN DESSOUS)
 // -------------------------------------------------------------------------
 function renderEnrichedCarnetMode(spot, layout) {
-  layout.className = "flex-1 overflow-y-auto p-4 sm:p-8 space-y-12 custom-scrollbar bg-slate-950/80";
+  layout.className = "flex-1 overflow-y-auto p-3 sm:p-6 md:p-8 space-y-12 custom-scrollbar bg-slate-950/80";
 
   const catKey = spot.category;
   const catConf = (typeof CATEGORIES !== 'undefined' && CATEGORIES[catKey]) ? CATEGORIES[catKey] : { label: catKey, color: '#06b6d4' };
 
-  // 1. En-tête : Badges, Titre et Présentation générale
+  // 1. En-tête : Badges, Titre et Présentation générale (largeur élargie et responsive)
   let headerHtml = `
-    <div class="space-y-4 max-w-5xl mx-auto">
+    <div class="space-y-4 w-full max-w-7xl mx-auto px-1 sm:px-4">
       <div class="space-y-2">
         <div class="flex flex-wrap items-center gap-2">
           <span class="px-2.5 py-0.5 rounded-full text-[11px] font-black tracking-wide uppercase shadow" style="background-color: ${catConf.color || '#06b6d4'}; color: #fff;">
@@ -2462,14 +2462,14 @@ function renderEnrichedCarnetMode(spot, layout) {
           <h3 class="text-xs font-black tracking-wider uppercase text-cyan-400 mb-2 flex items-center gap-1.5">
             <i class="fa-solid fa-book-open"></i> Présentation générale
           </h3>
-          <p class="text-xs sm:text-sm text-slate-200 leading-relaxed text-justify">${spot.description}</p>
+          <p class="text-xs sm:text-sm md:text-base text-slate-200 leading-relaxed text-justify">${spot.description}</p>
         </div>
       ` : ''}
     </div>
   `;
 
   // 2. Sections de visite : Titre + Texte puis Galerie photo
-  let sectionsHtml = '<div class="space-y-12 max-w-5xl mx-auto">';
+  let sectionsHtml = '<div class="space-y-12 w-full max-w-7xl mx-auto px-1 sm:px-4">';
   spot.sections.forEach((sec) => {
     let photosMarkup = '';
     if (Array.isArray(sec.photos) && sec.photos.length > 0) {
@@ -2479,15 +2479,15 @@ function renderEnrichedCarnetMode(spot, layout) {
         // 1 photo unique
         photosMarkup = `
           <div class="w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl flex items-center justify-center p-1">
-            <img src="${sec.photos[0]}" alt="${sec.title || spot.name}" class="w-full h-auto max-h-[80vh] rounded-xl object-contain cursor-zoom-in hover:opacity-95 transition block mx-auto" onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
+            <img src="${sec.photos[0]}" alt="${sec.title || spot.name}" class="w-full h-auto max-h-[82vh] rounded-xl object-contain cursor-zoom-in hover:opacity-95 transition block mx-auto" onclick="openLightboxZoom('${sec.photos[0]}', '${(sec.title || '').replace(/'/g, "\\'")}')">
           </div>
         `;
       } else if (count <= 4) {
-        // De 2 à 4 photos : TON CODE EXACT d'origine (1 seule ligne stricte, sans aucun changement)
-        const rowHeight = count <= 2 ? 'h-[380px] sm:h-[450px]' : 'h-[260px] sm:h-[300px]';
+        // 2 à 4 photos : rangée large ajustée à l'écran
+        const rowHeight = count <= 2 ? 'h-[420px] sm:h-[520px] lg:h-[580px]' : 'h-[280px] sm:h-[340px] lg:h-[400px]';
 
         photosMarkup = `
-          <div class="flex flex-row gap-2 w-full justify-center items-stretch rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2">
+          <div class="flex flex-row gap-2.5 w-full justify-center items-stretch rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2 sm:p-3">
             ${sec.photos.map(p => `
               <div class="${rowHeight} shrink min-w-0 flex items-center justify-center rounded-xl overflow-hidden bg-black/40">
                 <img src="${p}" 
@@ -2499,11 +2499,11 @@ function renderEnrichedCarnetMode(spot, layout) {
           </div>
         `;
       } else {
-        // PLUS DE 4 PHOTOS UNIQUEMENT (vitraux, grandes séries) : passage à la ligne en grille nette
+        // Plus de 4 photos (vitraux, collections denses)
         photosMarkup = `
-          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2 w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2">
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2 w-full rounded-2xl overflow-hidden bg-slate-950/40 border border-slate-800/80 shadow-xl p-2 sm:p-3">
             ${sec.photos.map(p => `
-              <div class="h-56 sm:h-64 flex items-center justify-center rounded-xl overflow-hidden bg-black/40 border border-slate-800/50 p-1">
+              <div class="h-60 sm:h-72 flex items-center justify-center rounded-xl overflow-hidden bg-black/40 border border-slate-800/50 p-1">
                 <img src="${p}" 
                      alt="${sec.title || spot.name}" 
                      class="w-auto h-full max-w-full object-contain cursor-zoom-in hover:scale-105 transition-transform duration-150" 
@@ -2517,8 +2517,8 @@ function renderEnrichedCarnetMode(spot, layout) {
     sectionsHtml += `
       <article class="space-y-4">
         <div class="space-y-2">
-          ${sec.title ? `<h4 class="text-base sm:text-lg font-bold text-cyan-200 flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-cyan-400"></span>${sec.title}</h4>` : ''}
-          ${sec.text ? `<p class="text-xs sm:text-sm text-slate-300 leading-relaxed text-justify bg-slate-900/60 p-4 rounded-xl border border-slate-800/80">${sec.text.replace(/\n\n/g, '<br><br>')}</p>` : ''}
+          ${sec.title ? `<h4 class="text-base sm:text-lg lg:text-xl font-bold text-cyan-200 flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-cyan-400"></span>${sec.title}</h4>` : ''}
+          ${sec.text ? `<p class="text-xs sm:text-sm md:text-base text-slate-300 leading-relaxed text-justify bg-slate-900/60 p-4 sm:p-5 rounded-xl border border-slate-800/80">${sec.text.replace(/\n\n/g, '<br><br>')}</p>` : ''}
         </div>
         ${photosMarkup}
       </article>
