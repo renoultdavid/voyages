@@ -10267,6 +10267,7 @@ const travelSpots = [
     unesco_name: "L'Œuvre architecturale de Le Corbusier, une contribution exceptionnelle au Mouvement Moderne",
     lat: 35.715176,
     lng: 139.775492,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMXAQAIQdG4h0Lgb_fi3Babd5LdmGvr-XvTWoU4RDKGFQOrW1Nz6CVBobOJfRU2y0PCSh3ipTjjehesxwwDc6hbfvIobbqTaZyTTf5mPrcGG_yaIBZAHU7Sod8n5wW7BRVfTMISRC6AhUTniRR28uMklA=w1741-h1310-s-no-gm?authuser=0",
     gallery: [
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczMXAQAIQdG4h0Lgb_fi3Babd5LdmGvr-XvTWoU4RDKGFQOrW1Nz6CVBobOJfRU2y0PCSh3ipTjjehesxwwDc6hbfvIobbqTaZyTTf5mPrcGG_yaIBZAHU7Sod8n5wW7BRVfTMISRC6AhUTniRR28uMklA=w1741-h1310-s-no-gm?authuser=0",
@@ -10385,12 +10386,64 @@ const travelSpots = [
     era_label: "Époque Contemporaine & Pop Culture Kawaii",
     century: "XXIe siècle",
     category: "star",
+    counts: {},
     lat: 35.671325,
     lng: 139.704375,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMujW2maeQUnSzKEaBdWB1G_hk2wPalNicEQTHxmqfsJxOrwG-PnNDc32l_iKMeHa7MWTPRQtJ1YAM50h6cZI0UIR793Wx77o4ZnbKzJKHHabGMyw3UI4DuPXX6IH8sM7vbKTN4lisEraWYc8oLOMGW6w=w692-h919-s-no-gm?authuser=0",
     description: "Épicentre planétaire de la mode alternative subversive, creuset incandescent de la pop culture adolescente et temple absolu de l'esthétique kawaii (« mignon »), la rue Takeshita (Takeshita-dōri) déroule son ruban piétonnier ultra-vibrant sur environ quatre cents mètres de longueur au cœur du quartier branché d'Harajuku dans l'arrondissement de Shibuya. Apparue dans le sillage de l'après-guerre et métamorphosée à partir des années 1970 et 1980 en un laboratoire d'avant-garde vestimentaire spontané où la jeunesse tokyoïte venait s'émanciper des uniformes scolaires stricts, cette ruelle étroite et dense concentre une infinité de boutiques indépendantes extravagantes, de friperies vintage, de concept-stores futuristes et de stands culinaires aux couleurs fluorescentes. C'est ici qu'ont éclos et fleuri les sous-cultures visuelles qui ont fasciné le monde entier, des silhouettes néo-victoriennes des Gothic Lolitas aux fusions féeriques du style Decora surchargé d'accessoires, en passant par les tendances du Cosplay et de la mode Cyberpunk. Véritable baromètre en temps réel des modes urbaines nippones et phénomène de société international, la rue offre une immersion sensorielle étourdissante où la musique pop acidulée, les effluves sucrées de crêpes enroulées et la marée humaine ininterrompue créent une atmosphère festive unique au monde.",
     visiter: "La découverte s'amorce dès le franchissement de la monumentale arche électronique lumineuse marquant l'entrée de la rue face à la sortie moderne de la gare JR Harajuku, dont l'écran géant diffuse en temps réel le flux des passants s'engouffrant dans cette artère piétonne électrique. En progressant au coude-à-coude dans cette allée cosmopolite bordée de néons et de façades peintes de teintes pastel, le visiteur s'arrête devant les échoppes emblématiques de crêpes japonaises roulées en cônes débordant de chantilly, de fraises fraîches, de matcha et de génoise, véritable rituel gourmand incontournable de tout passage à Harajuku. Les passionnés de shopping et de curiosités urbaines dénicheront dans les sous-sols et les galeries étagées des boutiques d'accessoires déjantés, des boutiques de mode urbaine unisexe, des magasins de chaussettes fantaisie et les célèbres photomatons purikura où les jeunes personnalisent instantanément leurs portraits numériques à grand renfort d'effets scintillants et d'yeux agrandis. La traversée gagne à être prolongée par les ruelles adjacentes plus calmes d'Ura-Harajuku et la luxueuse avenue ombragée d'Omotesandō toute proche, offrant un saisissant grand écart sociologique entre le temple de la contre-culture adolescente et le luxe épuré des grands créateurs de mode internationale.",
-    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA"
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn&hl=fr_CA",
+    sections: [
+      {
+        title: "Entrée d'Harajuku et artère piétonne (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOp-gaIE6-TuyvBbqfwOifFDyRNoyhewXV283paYjCOriUTvUOtzdilQt3vICs3SECklBBwEsutMc3jX3mKK6SXvr6jfxDPwpi3cX47AC6E35NJLdbYvpUSNVvt830a15zaKxEIieVmoB9er3e_p88txA=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMujW2maeQUnSzKEaBdWB1G_hk2wPalNicEQTHxmqfsJxOrwG-PnNDc32l_iKMeHa7MWTPRQtJ1YAM50h6cZI0UIR793Wx77o4ZnbKzJKHHabGMyw3UI4DuPXX6IH8sM7vbKTN4lisEraWYc8oLOMGW6w=w1741-h2311-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNEbcycmXknlk0k0E6j4Gq02QUEvsHEsfwkJ8khpeMr5GBVEWyzjRyKBCF2tFIcBtNWTzDkqccL4sI4pMWpJbjHzvu8v3-Vt3DJZvshGthA8E3_ngtQKnMp80k9Rw50_3IzyU0fOiL2Wr7sTgIoTdJGrw=w1741-h2311-s-no-gm?authuser=0"
+        ],
+        text: "S'ouvrant face à la sortie de la gare JR de Harajuku, Takeshita Street (Takeshita-dōri, 竹下通り) est une étroite artère piétonne d'environ trois cent cinquante mètres de long, réputée mondialement comme l'épicentre historique de la culture jeune tokyoïte et du phénomène kawaii (« mignon »). Située à quelques dizaines de mètres à peine de la sérénité boisée du Meiji-jingū, elle incarne une transition saisissante vers le Tokyo excentrique et branché."
+      },
+      {
+        title: "Entrée d'Harajuku et artère piétonne (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOiFs1BBgGpJ0CfeKisbDONu-BcNw72_DApndpcazqwA9l8Yn4G4jh_019Aumw6fhngJDyeHF5ziybo4_vsFBzZ7ssocdrlIlKSdrgCjepv13vUoAASkjsn4QX3REnpbiUAMKZYEQDgsGA1a4ySDgdxEA=w1741-h2313-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Portique numérique et tribus urbaines",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMLK7x-CfZygrDwd_6AMjsKS_uGPCIKhlpAdqOATSaaWseGBJ3jl-NsEt8KppiRAKA4vtISSBZlj94vmw719DVZemUS_Zz3zlpUrFyWYlsfkm5CxNUwKc0o4VxbacrYlfMiaZbeOXT1dvo5mLH4G_IYGA=w1741-h1310-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOZiYh7CrBsQi3mYQk4cv5SLt1ufq5mjM4TdkL8XNJW5sOGUTA-phr18FDd6tMSGIsSKkjLHXi1JGfjwX73BLnbT3KjG4R65B6m98Z-Q-SC0mGCK2SZbTcbKIXAjSrwp31UPO29STa3eOqTIxkm5Xhsyg=w1741-h1310-s-no-gm?authuser=0"
+        ],
+        text: "Dès le portique numérique monumental qui surplombe son entrée — filmant et projetant les passants sur écran géant —, la rue plonge le visiteur dans un défilé effervescent de néons, de musiques pop et de devantures bariolées. Émergée à la fin des années 1970 comme lieu de ralliement des tribus urbaines (Takenoko-zoku) puis berceau des styles Lolita, Decora et cyberpunk, l'artère rassemble une multitude de micro-boutiques de mode alternative, d'accessoires décalés, d'échoppes de perruques et de salons de cabines photo interactives (purikura)."
+      },
+      {
+        title: "Gourmandises régressives et crêpes japonaises",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO8DDR_6t5V3ndl5k0c4b3P6bvEOPgNWuUtj8wV70fNFdZ2yX_rBxDoUTgeiiZR3yKRei1OEq_newLSjLC0tAogKzIRG8DtaLPR868CFLuPaZja7aLNlxvJoTmRJ6oy_jLbNK4EpsfBsQvgEJgzd8jgSw=w1741-h2311-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMmcUI1NJ8bw_2FSjC8hqYJ3B-jJG7NpPU4tWl-8UKw-uDtQbIbOLmhUhlxBgZMqG-O0u4nrkaNBEv7SVVquj1J33nYqouzh-TqPDLq3ZpyBl9YAGAJDXykZ0IXEYnc-vtHv_m8bcoRHYLratUycmEhJQ=w1741-h2311-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOASAsnSLL1mbE-qZ7x4rjgFL4Cj7CdyH6RZ6tIyMU-ne51Z88CSwoLJkEAzwSrf2NIlbm0OqDcpBBwgzDTh9cEP8FC-yWD7eLBWQsAmIIASOpYAdMWVS29joG3B3F4nUZHa_rDUkNf1zERNmRBPEPoXA=w1741-h2311-s-no-gm?authuser=0"
+        ],
+        text: "Takeshita Street est également incontournable pour ses délices de street food régressifs et ultra-visuels : les célèbres crêpes roulées à la japonaise servies en cornet et garnies de fruits ou de chantilly (rendues emblématiques par des enseignes historiques comme Marion Crêpes), les barbes à papa géantes aux couleurs de l'arc-en-ciel, ou encore les brochettes de fruits caramélisés."
+      },
+      {
+        title: "Vitrine internationale des micro-tendances (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMKhHXBhyTG9DkKNxZ5FOEULhuG_sYAZ0uSQ9vQdu4aKQTSadk-ecEkpNwBhsRtJhdyzoPTSj4ijFJfufNRQd1lDqvNZktP7rEcmWiZi4Pite00Q2tTA0wRkm5DDFxBMzpYka9J7KKIqAQjaDJBa6G_xQ=w1741-h2311-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMzPxAA6NhDTODpy3lPqPAz-kC_EoF0ss4BiJ46G-D9vq7FDR-Y1LR2OaexXQt2DgWA-Vh-uDixC6Pmpe1SrExLanY1C0C8KlCUSlUsRMNnEYq5ui4mP9A_WlqSS2DD-fRe1NGMFHRNVFXolovPQhrdnQ=w1741-h2311-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPBbcJqtVVKvRibOUxzXr6yYI7bAPRDn4daljnuACfAmlyG5Ts8Sp7zqrTLN6LGdydjRJOeU2cH3Iz83RIo8tFnz7ptpLX9RM-ggP3Tf6i4g3J5SrF-6j2vE5jHaYGX1LUIBqCum9YuEqXZCuvlIyVNQQ=w1741-h2311-s-no-gm?authuser=0"
+        ],
+        text: "Bien que soumise à une forte fréquentation touristique internationale, l'allée conserve son statut de vitrine des micro-tendances adolescentes et d'exubérance vestimentaire nippone."
+      },
+      {
+        title: "Vitrine internationale des micro-tendances (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNKNrwiT1pC8cVzcQX6bbIDSblqipzH7ByPI4xBIYnqD3SAUBpMTVJP7696mXczGlsahtc5v_SpPDdBGo4BqnHJ53L56MtTdEYQI1sV9cQBxc7sUGgkic9ysI4Gz7PWLcB8xKtXnz-cPcJyfqkXLub_nQ=w1741-h2311-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "tuffe_chateau_de_cheronne",
@@ -10403,14 +10456,26 @@ const travelSpots = [
     subdiv: "Tuffé Val de la Chéronne",
     altitude: 72,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Renaissance & Siècle des Lumières (XVIe - XVIIIe siècle)",
     century: "XVIe siècle",
     category: "chateau",
+    counts: {},
     lat: 48.128388,
     lng: 0.509067,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNBn-eu_a8A3F-O-CD7aiFVBjuAHpLXczsp9VXMCc4CxTdPjci6i9BFPV16E-SDo3jPgc_tZ4Ic1f2m4NpDvzgQnLPzxmRra1bX4bvsCgfBImucC5PTgJhhhjW07au0jfCf0hPJq2uUyWWRft_l8i4tGQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOEEa4PPe8fi1C5vtulRo3IIPS5SiWT-tYygonoeiHL-xH9pI-QtwM2ULTx7xZB3t_e7zsj8pEniNVoSJE3hhbuilT--s-FXgOBSIhUkNiTvQOmRdAkVxBdJ3lSM1DSIsaJXqQbCr_Df2SM2lGzd62MfQ=w1741-h1161-s-no-gm?authuser=0",
+        caption: "Élément emblématique commandant l'accès à la cour seigneuriale du domaine de Chéronne, le logis-porte — ou châtelet d'entrée — matérialise la transition entre le dispositif de défense féodal et l'affirmation statutaire propre aux manoirs du Maine au XVIe siècle. Érigé au-dessus du franchissement des douves, ce pavillon porche répondait à une double exigence de contrôle et de prestige. Sa façade conserve le dispositif traditionnel d'entrée avec une porte charretière voûtée en plein cintre réservée aux attelages, doublée d'un guichet piétonnier plus étroit. Des traces d'ancrage et de rainures rappellent la présence originelle d'un pont-levis ou d'une passerelle mobile, secondés par des ouvertures de tir (arquebusières ou couleuvrinières) destinées à la surveillance rapprochée dans le climat incertain des guerres de Religion."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOH3PPNz-3CmTSoXH05CL3clu_huKI-kf0h9eSwBCsXvTAMQ7lbxUyGtZS7w1zTHof1gtLehI3lcrOB4JiShJ-lw8s5VLydNzEq2ZMVVK6CTF89DiigwA86CjUs7CScXFEd-qhln79wndhRE2TXjNllrA=w1741-h1161-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Écrin d'élégance architecturale et de mémoire seigneuriale dissimulé au cœur du bocage vallonné du Perche Sarthois, le château de Chéronne se dresse au sein d'un domaine paysager exceptionnel de plusieurs centaines d'hectares bordé par les méandres de la rivière éponyme. Édifié originellement à la fin du Moyen Âge et au tournant de la Renaissance au XVIe siècle comme une place forte rurale pourvue de tours de guet et de douves en eau vive, l'édifice connut une profonde métamorphose résidentielle au XVIIIe siècle sous le règne de Louis XV. Le logis seigneurial présente une harmonieuse façade en calcaire blond et brique locale rythmée de hautes fenêtres à croisées, dominée par de monumentales toitures d'ardoise et une élégante tourelle d'escalier en poivrière qui rappelle sa vocation castrale primitive. Transformé au siècle des Lumières en une demeure d'agrément raffinée ouverte sur la nature, le domaine se distingue par son parc à l'anglaise composé d'arbres séculaires remarquables, de vastes pièces d'eau alimentées par les sources environnantes et de dépendances préservées comprenant écuries, orangerie et colombier d'époque. Véritable témoin du grand art de vivre aristocratique en terre mancelle, Chéronne a su traverser les siècles en conservant intacte l'intimité de son atmosphère sylvestre et la beauté sereine de ses lignes d'inspiration classique.",
     visiter: "La découverte de ce joyau percheron s'amorce par l'accès à la longue allée cavalière ombragée qui traverse les boisements du domaine pour déboucher sur la perspective grandiose de la cour d'honneur et des façades ouvragées se reflétant dans les douves d'eau calme. En cheminant le long des parterres engazonnés, le visiteur prend le temps de contempler les délicates modénatures de pierre blanche, les chaînages d'angle ouvragés et les ferronneries anciennes qui ornent le logis seigneurial et son perron d'honneur. La promenade invite à une immersion contemplative au cœur du vaste parc arboré où se déploient des essences rares, des cèdres bicentenaires et des sentiers bucoliques longeant les berges de la Chéronne jusqu'aux plans d'eau poissonneux où nichent hérons cendrés et martins-pêcheurs. Les amoureux d'histoire et de patrimoine architectural apprécieront l'observation minutieuse des éléments défensifs d'origine habilement intégrés aux agrandissements classiques, ainsi que le remarquable état de conservation des pavillons d'entrée et des coursives de service. Cette halte bucolique et majestueuse constitue une étape incontournable pour quiconque souhaite explorer les splendeurs cachées de la campagne sarthoise, offrant un havre de paix intemporel loin du tumulte des grands circuits touristiques régionaux.",
     link: "https://photos.google.com/u/0/share/AF1QipPCIuy4pWcQiw-zMj_7SJ_9G-E7QryQBXms9HurKeqfM-8eO3Ck3L9DbKFylzjmtg?key=eE5OWVV2X3VvNzlzVXY1S0VBYTh6cW9FSkVNUHRB&hl=fr_CA"
@@ -10449,14 +10514,42 @@ const travelSpots = [
     subdiv: "Tuffé Val de la Chéronne",
     altitude: 69,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Bénédictine & Siècle Classique (VIIe - XVIIe siècle)",
     century: "VIIe siècle",
     category: "religieux",
-    lat: 48.115150,
+    counts: {},
+    lat: 48.11515,
     lng: 0.516343,
     image: "https://lh3.googleusercontent.com/pw/AP1GczP0VFKDtDEtTDsrYwHQX4dfc2kv6bLKjTQmLid7qn6T5EkNueviGl3IAz8If5f9-pSZ_A3EpI5WGrK4M4FSgpJv9dpeyNarolieNDdWUoQTrKxahNfy2nynbc2k4AhckTE6pZKopNZcb1n2jDx-fHMIbw=w1221-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM6vq40X6Z5IqaCYXu7P6mewnRxcMLbxXE-z2QLZAjjpVbDKm3Kl-0tf37JsVCc0Sn1MRVr33lnseJZF75VAsAW4qMkCxKroo6ziIHgP6XWI64_2zeHQ4Im_rgCRcv9yreRkSzkOYZD0X7XzdkhBJdsHA=w1741-h1310-s-no-gm?authuser=0",
+        caption: "Bien que l'église abbatiale ait été démantelée à la Révolution après la dispersion de la communauté et la vente du domaine comme bien national, le site conserve un imposant bâtiment conventuel mauriste élevé à la fin du XVIIe siècle. Ce long corps de logis en pierre calcaire enduite, percé de travées régulières et coiffé d'une haute toiture d'ardoise ponctuée de lucarnes, reflète la rigueur et la mesure de l'architecture classique monastique. Le domaine abbatial se distingue également par son remarquable pigeonnier circulaire coiffé d'un lanternon et doté de plus d'un millier de boulins de terre cuite, insigne privilège seigneurial et haut lieu de mémoire monastique du Haut-Maine."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPZ7DDCVA8xSsIhD1hm8_V0u2KMWLEw67qDEBIGtKbVTGXgQj8YTQ6ScsUCcLGxZd9PMyvP2cKEIDmmWIFdSGRSrIsOfFVp5PkzD4XsumULcM32ewAfhJwGQHzCak04d8ksC5S9KnsphLsABxDClka9qQ=w1741-h2311-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMF3uMpydXHY5dIn63UethactNIjBIM_-xT3I1KrGCsIxOm1Rv5dFOpZNtH3L-l6ScVVhZpb7XdIaPpf3VQ0jaxXNMvEek6J-QzxF4Z6eQSrukvfklKXAVuhxDRZrJ0TZ3K2YOPOwtSJXWEsvnTcVkJoQ=w1741-h1310-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPEhNIadeJ100ygQ7VgGSy9i7HOYWG8d1pQpl2aPSxpLRJox4aos3sHrjCDjZHGAT2HaMzTXNo9cfOw1zvVBTabNskD5YVx5a5RVzMAHnX0XpYQ9rcCcHjng_PqyZJ7-LYtcqe_Uz6eZXIZfT1DQAep5A=w1741-h2311-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPr8a0uoQBJQqZlfpzD8swjKq7434-ELKG7EV9vwuDtSOwEVadoxWbSfK7xsngYPbH2AkPI52dHIaTQpYGDX2SEy2ylvr9nXq0KEc-5Nf4_c8Z5LXVdX71t7A4VrBNc80ztoEnQtkAx2GvhY2IyYxz3Jw=w1741-h2311-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN_VBlXp9AVRY4DGpk3nNa5drd7NAkV3P7aLNbxiWz28ecSWe0WYZrpGmMmtrAqAc2e91nIKKuY3SqN3gpx8zOx0SdKktu5cp7nKtqAIXecmmM02MkzVdho4473N4Ji8pavSV88SCqSC5gKEy0deBa0Ng=w1741-h1310-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Vénérable foyer de spiritualité monastique et d'érudition bénédictine fondé dès l'aube du haut Moyen Âge au VIIe siècle sous le patronage de saint Innocent, évêque du Mans, l'abbaye Notre-Dame de Tuffé constitue un jalon historique majeur de l'ancienne province du Maine. Ravagée à plusieurs reprises par les incursions guerrières et les vicissitudes de l'Histoire, notamment lors de la guerre de Cent Ans et des guerres de Religion, la communauté monastique connut une splendide renaissance architecturale et spirituelle au XVIIe siècle grâce à son rattachement à la prestigieuse congrégation de Saint-Maur. Les majestueux bâtiments conventuels subsistants en pierre de taille calcaire et moellons de grès témoignent de cette reconstruction mauriste classique, affirmant une sobriété monumentale rythmée par de hauts combles à la Mansart, de nobles frontons triangulaires et des enfilades de baies cintrées régulières. Adossé à la rivière Chéronne qui alimentait jadis le moulin abbatial et les tanneries de la confrérie, ce complexe régulier comprenait logis prioral, cloître intérieur, dortoirs voûtés et vastes celliers de stockage céréalier. Partiellement démantelé au lendemain de la Révolution française, le monument conserve une prestance solennelle remarquable qui illustre l'empreinte séculaire de la règle de saint Benoît sur l'organisation territoriale et économique de la vallée.",
     visiter: "La visite du domaine abbatial s'amorce par le franchissement de l'ancien porche d'entrée pavé pour déboucher dans la cour intérieure dominée par l'imposant logis mauriste du XVIIe siècle, dont la rigueur classique et les façades de pierre blonde captent magnifiquement la clarté zénithale. Les promeneurs peuvent déambuler le long des vestiges des ailes monastiques pour apprécier la stéréotomie soignée des encadrements de fenêtres, les corniches sculptées et la majesté des toitures restaurées. Des panneaux d'interprétation historiques jalonnent le parcours pour reconstituer l'implantation d'origine de l'église abbatiale aujourd'hui disparue, le tracé des galeries de circulation et le rôle civilisateur des moines dans le drainage des marais environnants. La marche se prolonge paisiblement le long des biefs et des anciens canaux hydrauliques ombragés par de grands arbres centenaires, menant jusqu'au pont de pierre enjambant la Chéronne où s'écoule une eau vive et transparente. L'atmosphère de calme absolu et de recueillement qui imprègne l'enclos monastique invite à une halte méditative incontournable, complétant de manière idéale la découverte du patrimoine villageois et des rives du plan d'eau de Tuffé.",
     link: "https://photos.google.com/u/0/share/AF1QipPCIuy4pWcQiw-zMj_7SJ_9G-E7QryQBXms9HurKeqfM-8eO3Ck3L9DbKFylzjmtg?key=eE5OWVV2X3VvNzlzVXY1S0VBYTh6cW9FSkVNUHRB&hl=fr_CA"
@@ -10478,12 +10571,64 @@ const travelSpots = [
     era_label: "Époque Taishō & Modernisation Meiji (1920)",
     century: "XXe siècle",
     category: "religieux",
+    counts: {},
     lat: 35.675754,
     lng: 139.699465,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOkZOoxmCVBNsXM8FFOAFUaqOaYJa5kvE8K7b8JuDm8Je577Z8FGkBfEWl3FlohIs2Q2Tf5mMat3C_xmK1vo10GEUuawdU8wDtmTLd6YGAnXK3YgI679Ngp92apST1LFshBhkVO2vmXEaCUFM4rCMDocA=w1379-h919-s-no-gm?authuser=0",
     description: "Cœur spirituel battant et sanctuaire shintoïste le plus vénérable et emblématique de la mégapole tokyoïte, le Meiji-jingū s'étend comme une oasis de silence solennel de plus de soixante-dix hectares enclavée entre les quartiers électriques de Harajuku et de Shibuya. Consacré en 1920 aux âmes divinisées (kami) de l'empereur Meiji — souverain visionnaire qui présida à la spectaculaire ouverture du Japon sur la modernité à la fin du XIXe siècle — et de son épouse l'impératrice Shōken, le site incarne le modèle architectural nagare-zukuri dans toute sa pureté classique. Édifiés en cyprès du Japon (hinoki) au grain d'or et coiffés d'épaisses toitures d'écorce de cuivre vert-de-gris aux courbes organiques, les pavillons sacrés se déploient au sein d'une immense forêt sempervirente entièrement plantée à la main lors de sa fondation, riche de plus de cent vingt mille arbres donnés par les provinces de tout l'archipel nippon. Reconstruit fidèlement selon les préceptes traditionnels après les destructions de la Seconde Guerre mondiale, ce sanctuaire tutélaire célèbre l'union indissoluble entre le culte des ancêtres impériaux, le profond respect de la nature sacrée et la marche résolue du pays vers la modernité.",
     visiter: "La découverte commence dès la sortie de la station Harajuku en franchissant le monumental premier torii en bois de cèdre millénaire de Taïwan, portique sacré purificateur marquant le passage de l'effervescence urbaine vers le domaine des esprits. La progression s'effectue le long de larges allées rectilignes tapissées de gravier crissant sous le pas, bordées par les célèbres rangées de fûts de saké sacrificiels (kazaridaru) richement décorés de calligraphies traditionnelles faisant face aux barriques de vin français de Bourgogne offertes par les domaines viticoles. Après avoir accompli le rituel ancestral d'ablution des mains et de la bouche au pavillon de purification (temizuya), le visiteur franchit l'imposante porte extérieure pour pénétrer dans la vaste cour centrale ensoleillée où s'élève le bâtiment principal de prière (haiden) encadré par deux arbres camphriers sacrés liés par une corde shimenawa. Il est coutumier d'y inscrire ses vœux intimes sur les plaquettes de bois votives (ema) suspendues aux grilles, ou d'avoir le privilège d'assister à une procession nuptiale shintoïste solennelle guidée par des prêtres en toges immaculées et des servantes miko vêtues de pourpre sous de grandes ombrelles écarlates. La visite gagne à se prolonger dans le jardin intérieur impérial (Gyoen), réputé pour son étang aux nénuphars et sa splendide floraison d'iris en juin au milieu d'une paix absolue.",
-    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?hl=fr_CA&key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn"
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?hl=fr_CA&key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn",
+    sections: [
+      {
+        title: "Le torii nord et l'accès depuis Yoyogi",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMBWjf4gKFlor3RkX3pzwGNzvVP2ZKmcGV8sLL2CIwhFjYz0E3eLIXN_bC9XThpl7Cwk2lRs6I4Smt2N1Ddx1ax5PmppOAf2yTpz8yJXxyyewdXWxOsbVmbiPb8ZvvIbHaFlmkP5S_TAIn_fCSRrFYw8w=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNrkfdAjPcUKT4ZqZ0asLm6pX811cSI4QXqgCkueHq2O1ma5KQxCoDvDcLLwVLr59QzDS5Ql2jPk-mx7CwUcuhMzwCuhfE5U8pEym-znCGp1v-zR6ZveM7Y-8d2rApaT4RUYKZ_5C9bNKXHLQymex736Q=w1741-h2311-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPbYIwQh7OHcZoT7FHwkaB63pASkq8XSV_u0BpzcvOUbCH66OxdpI6Tjl74rGZ2lWqeoYAU1Op-9AV-Rz1j5O0HbkFcGkGgCSgvzz9yg5cj3DjIUzwuaR06s5WBiyKQ0CnGu9o-X-CVuhfpBpdkiRVe_w=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Au sein du domaine de Meiji-jingū, le torii nord marque l'accès septentrional du sanctuaire depuis la station de Yoyogi et le quartier de Shinjuku. Moins emprunté par les grands groupes touristiques que le célèbre Ōtorii de l'allée sud (côté Harajuku), il ouvre sur une approche plus paisible et ombragée de la forêt sacrée. Fidèle à la sobriété du style impérial myōjin, ce monumental portique est taillé dans d'imposants troncs de cyprès du Japon (hinoki). Contrairement aux portiques laqués de vermillon vifs typiques des cultes d'Inari, le bois est ici laissé brut, sans fard ni peinture, afin d'exalter la noblesse de la matière naturelle et l'harmonie intemporelle avec le sous-bois environnant.\n\nDans la tradition shintoïste, le torii (鳥居, littéralement « perchoir à oiseaux ») matérialise le seuil sacré entre le monde profane, marqué par les souillures du quotidien (kegare), et le domaine pur des divinités (kami). Franchir un torii n'est jamais un acte anodin : le visiteur s'incline légèrement en signe de déférence avant de passer sous le linteau et veille traditionnellement à ne pas marcher sur la ligne médiane de l'allée (seichū), réservée au cheminement invisible des dieux. Ce portique agit comme un filtre rituel et spirituel, marquant l'entrée dans un sanctuaire à ciel ouvert où la nature et le sacré s'entremêlent."
+      },
+      {
+        title: "Cordes sacrées shimenawa et tablettes ema",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPdiHrfR61NdNymrWEtQr0wYaSEn93Dcbqu60-4bhwJ4rae2TT-OUAGEi66exl5qJ9kKL0wyck1Tu5P3ROKE3M85U0OVD_nfVbi75_6XCkiiNCrN3p5uCJlOru1-4odEntFwvKVUA-YCjgvyf4Aut85EQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOeQBQmvl4EgMYC13eX5bRxruK1_oLcFGIFrHQ-hO53blk7zSYvtK9iGhywQOLz_k1_j-dI16zDq2kef0QBmfqYNmnCFWKtjnqnjDnNcxLW9QERtBjb6CgEyBWOHOqR0n2efiN3do1OJGX7oJ9HxBdjhw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPx93-zHpwmJWOFurUi_XDVXZIvd87jw1IUgqE8x8lQuWzCJxGdwIO-Ua776z2FdZuHj15HgaEvdbXMLyCnJdzlop0-hgg_hs2uUkT8N_ObbmpBELhxXOBl-q7rMx31Wz11BdljTHmBUh1OllzlLyQg3g=w1741-h2311-s-no-gm?authuser=0"
+        ],
+        text: "Dans la spiritualité shintoïste, la shimenawa (注連縄, littéralement « corde qui délimite ») est une tresse confectionnée en paille de riz ou en chanvre. Elle sert de frontière protectrice et spirituelle, séparant l'espace pur habité par le divin des impuretés du monde profane (kegare). Lorsqu'elle enserre le tronc d'un arbre majestueux (shinboku) — à l'instar des deux grands camphriers conjoints (Meoto Kusu) du Meiji-jingū — ou qu'elle orne un rocher ou un portique, elle signale la présence d'un kami (divinité) ayant élu domicile dans cet élément naturel. La corde est traditionnellement ponctuée de bandelettes de papier blanc découpées et pliées en zigzag, appelées shide (紙垂), évoquant les éclairs fertilisants et la foudre céleste.\n\nLes tablettes de bois suspendues en grappes denses aux abords des pavillons sont appelées ema (絵馬, littéralement « cheval peint »). Leur origine remonte à l'Antiquité japonaise : le cheval étant considéré comme la monture attitrée des dieux (shinme), les fidèles fortunés ou les seigneurs offraient des chevaux vivants aux sanctuaires pour s'attirer la bienveillance céleste. Au fil des siècles, cette offrande s'est stylisée sous forme de petites plaquettes individuelles où pèlerins et visiteurs inscrivent un vœu intime avant de les accrocher aux portiques (emakake)."
+      },
+      {
+        title: "La porte sud cérémonielle Minami-shinmon",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOkZOoxmCVBNsXM8FFOAFUaqOaYJa5kvE8K7b8JuDm8Je577Z8FGkBfEWl3FlohIs2Q2Tf5mMat3C_xmK1vo10GEUuawdU8wDtmTLd6YGAnXK3YgI679Ngp92apST1LFshBhkVO2vmXEaCUFM4rCMDocA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNV-HL-0mcbcHXgRDBkUUDDSqMNSfnCuCALIkNfQZDMjBaurn5tHz7dBe2Jmu0rUqE3mJemuyzDvwCVZNBbYi9LB0uKIT9EZRynPp-9OI-DZB4F6uv2Vc5oWHp2ngPEYLlpBXt9JMfzvAr7XZVP8W8bWQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Située au terme de l'allée sud (Minami-sandō) après le pavillon des ablutions, la porte sud (Minami-shinmon, 南神門) constitue l'accès principal et cérémoniel à la grande cour intérieure (Naien) du Meiji-jingū.\n\nÉrigée selon les canons du style rōmon (porte monumentale à étage couverte d'une toiture à croupes en cuivre patiné), cette structure massive est entièrement assemblée en cyprès du Japon (hinoki). Suivant la tradition épurée du shintoïsme, le bois est laissé brut, sans fard ni peinture laquée, afin de laisser transparaître le veinage naturel du bois et de s'harmoniser avec la forêt sacrée environnante."
+      },
+      {
+        title: "Offrandes votives : fûts de saké et pièces bourguignonnes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczONuCAzqstU7kTgmlHNmxboJXdCD6bMXZgkIPxjjJ2k__DGpVq3_zrNfCBdGyVFP5xmX5HK-htwHIDu5hnZUKzU3_VgBBFfbEbFCkmADGUOQTmW7jB4hrAsRPCmOGIsio7yxQJgIPuI7H95dvHoD0Pv7Q=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPr_F8Ni_1salwQOgjj7Zfe0khI6Lsx-9QUfBtFj3ioKKZUtkZ9fYq5z3gwleJB7ee0tUTJVv4GLfHKJUfh3MCqyFILrGC1_En3VJQZNGGx_LVNAsnKkWOGZx1jAmZ1fhUuqdpsk_X21nWJyG8RBI-y0g=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "D'un côté de l'allée s'élève un immense mur formé de barils de paille et de bois appelés kazaridaru (飾り樽, barils d'apparat). Dans le shintoïsme, le saké purifié offert aux divinités prend le nom d'omiki (お神酒) ; il symbolise le lien indissoluble entre les hommes, la terre nourricière et les kami, scellant l'harmonie communautaire lors des rituels de communion (naorai). Chaque année, l'association des brasseurs du Japon fait don au sanctuaire de ces tonneaux recouverts de toile de jute tressée, richement calligraphiés aux couleurs et emblèmes des plus grandes maisons de brassage de l'archipel.\n\nFaisant directement face aux barils de saké, un alignement de véritables pièces de chêne français attire le regard. Cette présence unique dans un sanctuaire shintoïste rend hommage au goût personnel de l'empereur Meiji, qui appréciait le vin occidental et avait adopté les usages diplomatiques modernes, illustrant la devise Wakon Yōsai (« esprit japonais, savoir occidental »). À l'initiative de grands domaines viticoles de Bourgogne et de la Confrérie des Chevaliers du Tastevin, ces fûts ont été offerts et consacrés au sanctuaire en signe d'amitié franco-japonaise."
+      },
+      {
+        title: "Le cortège nuptial shintoïste sanshin no gi",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN1k0U9sv9dj3AY2Od5yIRk0IOIzyLRbk-1QNExcMdez8V2rCcupbf6Pj_Db-L9FIUMmvVqMWnSzUcuGXxYz8PcRF8r2VsYK_DrtAyGU_kqnl89lru17_S-WAddp9Xb2WloJ8qkEg1oZIIPlhqRfjsH1w=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMkMDuaPtC1R_wm2QjnSaly64hA5PLrquKEVS5D8Mz8O871uBnPRFCo5ZS2ovywXFmXI58RrLvvzY9BQeVbsiEkHrIbDaruPV-vUxx3tD_LSHgWdGP3lSZLhJa9YXAdoMgS9DqJXqey6V9Y84dGT87usw=w1741-h2311-s-no-gm?authuser=0"
+        ],
+        text: "Le sanctuaire Meiji-jingū est l’un des lieux les plus prisés du Japon pour la célébration des mariages traditionnels shintoïstes (shinzen kekkonshiki, 神前結婚式). Les visiteurs ont fréquemment le privilège d’assister au passage solennel du cortège nuptial (sanshin no gi, 参進の儀), qui traverse la vaste cour intérieure dallée de gravier blanc en direction du pavillon de culte.\n\nCette procession rythmée par une lenteur et un silence majestueux est ouverte par les prêtres (kannushi) vêtus de robes cérémonielles et par deux servantes sacrées (miko). Juste derrière eux avancent les mariés : l'époux porte le traditionnel kimono masculin noir orné d’armoiries familiales (montsuki haori hakama), tandis que la mariée est parée du shiromuku (白無垢), un lourd kimono en soie d'un blanc immaculé symbolisant la pureté rituelle. Sa chevelure est recouverte du vaste capuchon blanc (watabōshi) ou du bandeau traditionnel (tsunokakushi), destiné selon la coutume à « dissimuler les cornes de la jalousie »."
+      },
+      {
+        title: "L'ombrelle tōgasa et les vœux de l'union",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMFptffO9nwKEc68JpYYxBvppXC3pjrMvzxcfQaAOqvstCq647Eh5uVpemRFGq5DwU_8Vm_rAfDEV4wQuAPRw-iE9tpv3RPKkLLG40ZIxwE3piz62FpVzPSLHs7ubEq1Swf3jf2OvYHuGhsmU6TFHxmDQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Le couple chemine abrité sous une grande ombrelle en papier laqué écarlate (tōgasa), tenue par un officiant pour les protéger des mauvaises influences et bénir leur union. Les familles proches suivent en rang serré selon un ordre protocolaire strict. À l'intérieur du sanctuaire, la cérémonie intimiste scelle ensuite l'alliance devant les kami par le rituel du san-san-kudo (échange de trois gorgées réparties sur trois coupes de saké purifié) et l'offrande d'un rameau sacré d'arbre sakaki (tamagushi)."
+      }
+    ]
   },
   {
     id: "tokyo_sanctuaire_kameido_tenjin",
@@ -10502,12 +10647,49 @@ const travelSpots = [
     era_label: "Époque d'Edo & Héritage des Lettrés (1662)",
     century: "XVIIe siècle",
     category: "religieux",
+    counts: {},
     lat: 35.702853,
     lng: 139.820679,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOBKihLFHLgVhLiw_qbvVElF67xegorWBYWblnc2IDEPNf0AQoqjy4w4Zkdf0UxNYWGpM9nIkmvsrzN9KNOgdgPgkHGZT0JCPjJkl416JbK55gJNlp6hKUtBl9-fLPtkWClyQ5HyIvt9orCdNXVzyd7fQ=w1379-h919-s-no-gm?authuser=0",
     description: "Joyau d'art paysager shintoïste et sanctuaire de dévotion lettrée niché au cœur des quartiers traditionnels de l'est de Tokyo dans l'arrondissement de Kōtō, Kameido Tenjinsha puise ses origines en 1662 sous le shogunat des Tokugawa à l'époque d'Edo. Dédié à Sugawara no Michizane — illustre ministre, poète et lettré du IXe siècle déifié sous le nom de Tenjin, kami tutélaire des études, de la calligraphie et de la réussite académique —, le sanctuaire fut conçu comme une réplique miniaturisée et raffinée du vénérable Dazaifu Tenmangū de l'île de Kyūshū. Son architecture sacrée vermillon se distingue par son exceptionnel jardin aquatique d'inspiration zen, traversé par deux ponts tambours en arc hautement symboliques enjambant un vaste étang sinueux en forme de sinogramme pour le cœur (shinji-ike). Célèbre dans toute l'histoire de l'art nippon pour avoir inspiré aux maîtres de l'estampe ukiyo-e tels que Hiroshige ses plus célèbres gravures sur bois, le site crée aujourd'hui un contraste visuel saisissant entre la poésie végétale séculaire de ses tonnelles de glycines suspendues et la verticalité futuriste de la tour Tokyo Skytree dressant sa flèche d'acier en arrière-plan immédiat.",
     visiter: "La découverte s'amorce par le franchissement du grand portique torii rouge vif ouvrant sur la perspective centrale de l'étang sacré peuplé de carpes koï multicolores et de dizaines d'tortues d'eau douce venues se réchauffer sur les pierres émergées. La traversée des ponts tambours voûtés (Taiko-bashi) constitue un temps fort de la déambulation : le premier pont en dos d'âne pentu symbolise le passage du passé terrestre, tandis que le second pont tambour incarne l'espérance vers l'avenir, préparant l'esprit à l'approche de la demeure divine. Au printemps, les visiteurs affluent pour contempler les tonnelles suspendues au-dessus de l'eau où retombent de somptueuses grappes de glycines mauves (fuji) parfumées, ainsi que la floraison précoce des pruniers sacrés dont Sugawara no Michizane était particulièrement épris. Devant le pavillon principal de prière (honden), étudiants et lycéens viennent nombreux frotter les cornes de la statue en bronze du bœuf couché pour solliciter l'inspiration et accrocher des plaquettes de bois ema implorant le succès aux concours. Cette halte contemplative offre une plongée fascinante dans la culture populaire tokyoïte au carrefour de la tradition d'Edo et du paysage moderne.",
-    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn"
+    link: "https://photos.google.com/u/0/share/AF1QipO9cIQqS1v_VNBaZ14RicxeMmd21cxk_rmzJHZ6BCrKIGwhFziijEGsqkndRXkUcA?key=ZEVnSHVKQkFtVXRISXRES1dKZGVud0V1ZkdTdGpn",
+    sections: [
+      {
+        title: "L'étang sacré Shinji-ike et la géométrie du cœur",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMkdZm8WfYBqRLDO5aXDVp6rIIDzesTdA6vzlylL4eysxp3A30e9nejY0geZ3BQKLvPGlqsFZaFJQEp16aXVQs2QxiWvNmiWJRthKg-dqRFDj0YvA4ilJW_hq91L_hDsHI4WU8SU2BxHxH_DxnOO9suVQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM1Vp88OwFXFfkLsCCfAO3psI-iG0r4GZDUepBbunzNyvfUVjVEgejNGED-v5Q27YQvB37uZVe9bjeE2ulW-8SZOGb5qhg4qM7xuC9vIOlQE2YS_dcDU4HjbvxQBO-E-8tmqhbvJMNF1wqjshBe5NiW3A=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "L'organisation spatiale du domaine reprend fidèlement les préceptes paysagers et symboliques de sa maison-mère de Kyūshū, en s'ordonnant autour du grand étang Shinji-ike (心字池), dont les berges sinueuses dessinent dans le sol la graphie du kanji signifiant le « cœur » ou « l'esprit »."
+      },
+      {
+        title: "La traversée initiatique des ponts tambours",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP5qBYoCbiVP9kxdZbYQLVVVepS1D08RbJUYlkSP77flTgY_yLS3VJ4FfO4j3Lp3xec8QsuYep7jlk0WOAWxmpAIZiv_0AkveDB0Ys1ufVuRZRtNh2t0Ft-wZ8rptfzoZe3FIlAtL9vaJ450OjcorlIsg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOrjTcxH10mlCiNsIjYpyl8uT-D0Xkzj5gvlykFIRXmInQV9knCJsIrYgtQIwJMBVgnaTLQ8nc4BjvkYAmdEh0jZoOjEaOWgzlWwLniUUivTfqlU3U2TC9X5lbZCm8Z-mYwcHblx1xTMuO9tgPPcSjjKw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPjrJMt7GNhbxJbrJ3oSyJe7ulR79P8NdHJ0oPY7dIeOFoodWAb5u9WTGBfODyaMo2u3kpOCM77424QhWZvlmtZrHu6uwGcnv3HCky2HN37k6CkDBgbwUgEnM9xRA85xNzVgGjYHJNvsRd2yutsIJkkkQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Pour accéder au pavillon d'adoration, les fidèles doivent franchir une enfilade de trois ponts enjambant cette nappe d'eau, matérialisant une traversée initiatique fondée sur la conception bouddhique du karma et du temps. Le premier ouvrage, un pont en tambour rouge vif fortement cambré (Otoko-bashi, ou pont masculin), incarne le passé et les souffrances vécues ; la passerelle plate intermédiaire figure le présent et la stabilité de l'instant ; enfin, le second pont en arc de cercle (Onna-bashi, ou pont féminin), situé à proximité du sanctuaire principal, symbolise l'avenir et l'espoir. Franchir cette succession d'arches vermillon agit comme un rituel de purification mentale et spirituelle, délestant le pèlerin de ses souillures profanes avant de s'incliner devant la divinité."
+      },
+      {
+        title: "Treilles de glycines, pruniers et estampes d'Hiroshige",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOBKihLFHLgVhLiw_qbvVElF67xegorWBYWblnc2IDEPNf0AQoqjy4w4Zkdf0UxNYWGpM9nIkmvsrzN9KNOgdgPgkHGZT0JCPjJkl416JbK55gJNlp6hKUtBl9-fLPtkWClyQ5HyIvt9orCdNXVzyd7fQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNb7QfR5z_QbvgfpvVbBSFgMsSZ4yo60690qFP_Dp5LYgXw9Ep2gloJ8kPy19tvCBhdSfhrDdnY8o4hrwGGFZIpoIJ1G6ERaUX5Wm_kguw57pQRehBGw8cPPXmGf0iXoRuRiWLRJBnZkUz28R7Ethg40A=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Le sanctuaire entretient un dialogue intime avec le monde végétal et les saisons, attirant les foules à chaque floraison majeure. Dès la fin de l'hiver, en février et mars, plus de trois cents pruniers (ume) explosent en corolles blanches et roses, rappelant la légende de l'arbre volant (Tobiume) qui aurait suivi d'amour Sugawara no Michizane lors de son exil politique à Dazaifu. Au cœur du printemps, de la fin avril au début mai, les immenses treilles de bambou suspendues au-dessus des eaux de l'étang portent des milliers de grappes pendantes de glycines violettes (fuji), composant l'un des spectacles horticoles les plus célèbres du pays. Les eaux abritent une colonie florissante de carpes et surtout de tortues d'eau douce (kame), dont la présence séculaire fait écho au toponyme même de Kameido (« le puits de la tortue »). Ce paysage aquatique avait déjà acquis un statut légendaire à l'époque d'Edo grâce au maître de l'estampe Utagawa Hiroshige, qui immortalisa l'élancement vertigineux de son pont en tambour et la cascade de ses glycines dans sa série des Cent vues célèbres d'Edo."
+      },
+      {
+        title: "Culte de Tenjin, rituel Uso-kae et perspective Skytree",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN8kKtpoTFr-CvbRzqB4p5axhv3zfi-g7QiY1yFacIbnkB6bzwD26aOtgRPcN3ticfNj-YkVpIZv3rCCHYS7SqdEEZ5RcQ1bF-nb5dGoy8qrdCvkfNv4ds-1tL87e6UVwhLpyyfJ9OVRNVsyQ6k5VO0PA=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNgeR24KY1op-lZWRWpwWSAslw10FatlMaNXrMyXb8k1QkNDbMZS1bbXl-yasaKXTPilGwEWFpLX-sH5pvVlqdS2juWgcLMUSDETvcn-eDF6Vx3x94OmSGtqD323lTAg2FLMivkVowsuiDUDQwT9AB9-A=w1741-h1310-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPOcqrLgZybA-q3P7LaKhyHdqFavAOAwQVJHvVqAgQ2lkeg7kk0QuYTrcnGNX03QwC1RdzFFz2o9AHCM2N1UM87RsUONGZ7rr3vriQ8XAF3bNgrvGseQhrTkubp5eLcdSlX3csdQpqvNU7W6olfO6AR4w=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Au-delà de son cadre paysager, le sanctuaire demeure un pôle de dévotion populaire très actif, fréquenté toute l'année par des milliers d'écoliers et d'étudiants venus suspendre des plaquettes ema pour s'attirer la bienveillance de Tenjin avant les concours scolaires. Chaque mois de janvier s'y tient également le rituel de l'Uso-kae (échange de bouvreuils), où les participants s'échangent de petites figurines en bois sculpté figurant cet oiseau protecteur afin de transformer par homophonie les mensonges et malheurs de l'année écoulée (uso) en augures favorables et en vérité pour l'année naissante. Entièrement calciné lors du grand séisme du Kantō en 1923, puis de nouveau rasé par les raids aériens de 1945, l'ensemble des bâtiments a été reconstruit dans l'après-guerre en préservant scrupuleusement l'harmonieuse architecture de bois inspirée du style gongen-zukuri. Le site offre désormais un dialogue saisissant entre le passé féodal et le XXIe siècle, l'arrondi vermillon des ponts séculaires se détachant en contraste direct sur la silhouette ultramoderne de la tour Tokyo Skytree qui s'élève à proximité dans le ciel tokyoïte."
+      }
+    ]
   },
  {
     id: "montfort_le_gesnois_vallee_huisne",
