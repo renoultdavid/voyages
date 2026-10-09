@@ -1325,7 +1325,7 @@ function checkContinuousGlobeZoom() {
   if (pov && typeof pov.altitude === 'number' && pov.altitude <= 0.55) {
     isTransitioningMode = true;
     const target = activeCursorCoords || getExactGlobeCenterCoords();
-    setViewingMode('map', target, 8);
+    setViewingMode('map', target, 6);
     setTimeout(() => { isTransitioningMode = false; }, 800);
   }
 }
@@ -2126,7 +2126,7 @@ function zoomMapIn() {
     const nextAlt = pov.altitude - 0.35;
     if (nextAlt <= 0.60) {
       const target = activeCursorCoords || getExactGlobeCenterCoords();
-      setViewingMode('map', target, 8);
+      setViewingMode('map', target, 6);
     } else {
       myGlobe.pointOfView({ altitude: nextAlt }, 250);
     }
