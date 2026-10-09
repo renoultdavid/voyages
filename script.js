@@ -1322,11 +1322,11 @@ let currentTileLayerInstance = null;
 function checkContinuousGlobeZoom() {
   if (currentMode !== 'globe' || !myGlobe || isTransitioningMode) return;
   const pov = myGlobe.pointOfView();
-  if (pov && typeof pov.altitude === 'number' && pov.altitude <= 0.22) {
+  if (pov && typeof pov.altitude === 'number' && pov.altitude <= 0.55) {
     isTransitioningMode = true;
     const target = activeCursorCoords || getExactGlobeCenterCoords();
-    setViewingMode('map', target, 9);
-    setTimeout(() => { isTransitioningMode = false; }, 1200);
+    setViewingMode('map', target, 8);
+    setTimeout(() => { isTransitioningMode = false; }, 800);
   }
 }
 // Dégradé d'intensité thermique des clusters (2D & 3D)
@@ -2124,11 +2124,11 @@ function zoomMapIn() {
   } else if (myGlobe) {
     const pov = myGlobe.pointOfView();
     const nextAlt = pov.altitude - 0.35;
-    if (nextAlt <= 0.28) {
+    if (nextAlt <= 0.60) {
       const target = activeCursorCoords || getExactGlobeCenterCoords();
-      setViewingMode('map', target, 9);
+      setViewingMode('map', target, 8);
     } else {
-      myGlobe.pointOfView({ altitude: nextAlt }, 350);
+      myGlobe.pointOfView({ altitude: nextAlt }, 250);
     }
   }
 }
