@@ -2510,13 +2510,11 @@ function renderEnrichedCarnetMode(spot, layout) {
       }
     }
 
-    sectionsHtml += `
+    ectionsHtml += `
       <article class="space-y-4">
-        <div class="space-y-2">
-          ${sec.title ? `<h4 class="text-base sm:text-lg lg:text-xl font-bold text-cyan-200 flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-cyan-400"></span>${sec.title}</h4>` : ''}
-          ${sec.text ? `<p class="text-sm md:text-base text-slate-300 leading-relaxed text-justify bg-slate-900/60 p-4 sm:p-5 rounded-xl border border-slate-800/80">${sec.text.replace(/\n\n/g, '<br><br>')}</p>` : ''}
-        </div>
+        ${sec.title ? `<h4 class="text-base sm:text-lg lg:text-xl font-bold text-cyan-200 flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-cyan-400"></span>${sec.title}</h4>` : ''}
         ${photosMarkup}
+        ${sec.text ? `<p class="text-sm md:text-base text-slate-300 leading-relaxed bg-slate-900/60 p-4 sm:p-5 rounded-xl border border-slate-800/80">${sec.text.replace(/\n\n/g, '<br><br>')}</p>` : ''}
       </article>
     `;
   });
