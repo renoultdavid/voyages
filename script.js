@@ -2510,7 +2510,7 @@ function renderEnrichedCarnetMode(spot, layout) {
       }
     }
 
-    ectionsHtml += `
+    sectionsHtml += `
       <article class="space-y-4">
         ${sec.title ? `<h4 class="text-base sm:text-lg lg:text-xl font-bold text-cyan-200 flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-cyan-400"></span>${sec.title}</h4>` : ''}
         ${photosMarkup}
