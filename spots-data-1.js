@@ -12654,18 +12654,131 @@ const travelSpots = [
     subdiv: "Louxor",
     altitude: 118,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XIXe & XXe dynasties)",
     century: "Antiquité (XIIIe siècle av. J.-C. à XIIe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Thèbes antique et sa nécropole",
+    unesco_name: "Thèbes antique et sa nécropole",
+    counts: {},
     lat: 25.7281,
     lng: 32.5931,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMU7taj-0RQR1MwvRFxdj3GYC4j8uql9zgKkCWsctOf5pa8NmG2HJeR4dTIKxQ7sYDktflnu8AcGUFGOIyFOEPq-yqoyjFnyPFzG1L8cUGr2wSLCq45xs8o9FUqhn-XyLxX3ZWsIRrIlf1UTtmQwlCT6Q=w2624-h1750-s-no-gm?authuser=0",
     description: "Enchâssé dans une gorge sauvage au pied des falaises thébaines à l'extrémité méridionale de la nécropole, le site sacré de la Vallée des Reines portait en égyptien ancien le nom évocateur de Ta-Set-Neferou, « la place de beauté ». Choisi dès la XIXe dynastie pour servir de sépulture royale aux grandes épouses royales, princesses et jeunes princes héritiers des règnes de Ramsès II et de ses successeurs, ce vallon aride compte près d'une centaine d'hypogées creusés dans le calcaire tendre. Loin de la monumentalité austère des tombeaux des pharaons, les sépulcres s'y distinguent par une délicatesse plastique raffinée et une palette chromatique éblouissante où triomphent les nuances d'ocre vermillon, de vert malachite, de lapis-lazuli et de blanc immaculé. Chef-d'œuvre incontesté de l'art funéraire universel souvent comparé à une « Chapelle Sixtine » de l'Antiquité, la sépulture de la reine Néfertari y immortalise la beauté intemporelle de l'épouse chérie de Ramsès II guidée avec tendresse par les divinités féminines vers le repos céleste. Les tombes princières racontent quant à elles avec une gravité poignante la ferveur filiale et le passage des jeunes enfants royaux vers l'immortalité osirienne.",
     visiter: "La visite s'amorce par la remontée du sentier désertique dominé par les pitons rocheux, permettant d'accéder aux hypogées ouverts par alternance pour préserver la fragilité des pigments picturaux millénaires. L'expérience atteint son sommet avec l'émouvante descente dans la tombe de Néfertari (QV66), où les parois de stuc révèlent la souveraine vêtue de sa robe de lin plissé transparent jouant au jeu de senet, offrant des présents à Hathor et franchissant les portes de l'au-delà sous une voûte céleste poudrée d'étoiles dorées. Non loin, l'hypogée du prince Amon-her-khepeshef (QV55), fils de Ramsès III fauché dans son jeune âge, bouleverse par ses scènes d'une fraîcheur éclatante montrant le jeune prince coiffé de la tresse de l'enfance présenté par son royal père aux dieux protecteurs, ainsi que par la petite vitrine abritant un fœtus momifié découvert in situ. La visite de la tombe du prince Khâemouaset (QV44) ou de la reine Titi (QV52) parachève cette traversée intime de la nécropole thébaine, dans une atmosphère de recueillement et de splendeur préservée à l'écart des foules.",
-    link: "https://photos.google.com/share/AF1QipOluBlqCu-kGHFpWRZO6iNM7Ef_o0a-E0Ii7aqapO2gWVFCd6U_ulN-QNaCJTXgHQ?key=eHluQ1RWMnJHS2x1Vk9lQWxvWVVLVXRvRmdtQ0R3"
+    link: "https://photos.google.com/share/AF1QipOluBlqCu-kGHFpWRZO6iNM7Ef_o0a-E0Ii7aqapO2gWVFCd6U_ulN-QNaCJTXgHQ?key=eHluQ1RWMnJHS2x1Vk9lQWxvWVVLVXRvRmdtQ0R3",
+    sections: [
+      {
+        title: "Le tombeau de la reine Tyti (QV52)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOSU5css4a8ainSXATELVDfZslSB8iA4OPdbhXQjyKcea4JyAVq5HZqsIITL_oMO28ucRdIy35cOBWGdrmE2EQoPL33WagbkGyQ2PTszg-XpfSObcJEODbD-csoz_N9OtabnuZddOBvShl4jgEhB1b3iA=w2389-h1593-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNOYBQ772BecOSxU8BcQv8y_OOIjQEwBy9b6h1HJbstaR7Ux1-vUZl4Qq2Rg_sOmtAMMPu5DE_PQcXXTLVUilqJPz9c70Utns3d6yPX2R5vKAVqyxhKXGLiGB_Ay7oa_-TGLO1GHZ-06YFwggjHOby4ig=w2389-h1593-s-no-gm?authuser=0"
+        ],
+        text: "Le Tombeau de Tyti (QV52), découvert en 1903 par Ernesto Schiaparelli, est une sépulture de la XXe dynastie située dans la Vallée des Reines. Bien que l'identité exacte de la reine Tyti soit incertaine (elle est le plus souvent considérée comme l'épouse de Ramsès III, voire sa fille ou la mère de Ramsès IV), sa tombe est un témoin précieux de son statut élevé. Contrairement à d'autres tombes, elle a été considérablement endommagée par sa réutilisation durant la Troisième Période Intermédiaire, et même transformée en bergerie à une époque, ce qui explique l'état parfois altéré de ses peintures."
+      },
+      {
+        title: "Plan architectural et voûte étoilée de Tyti",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNH-Z_j2Qux-UtyI-mftYyi5Amh4bimCIv8sdfqyDdKBNND7oqKHBZwNtDv2k8ZWRZtRXQO3aGCcLAkBlqruSvAc0lufDs1ju6IOtr3HhQ4pxdkZoFsS4Et9in6wrB0aULijTKKYdwPMVfzDDIZDMk2oA=w2389-h1593-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOl3OptEq8oVkIuiggDIMV68RoX9J8T9WKAG6iYblo534AJhbZUO9vA_SqEcdrt6CBxFng1OKnPgV-AND-8GehEaeEc0x4Zs-hBXI8S1Dyf4a59nwYHvWseZiB5bkrQu5bRttF5hbSnxql-kkP7m10nIA=w2389-h1593-s-no-gm?authuser=0"
+        ],
+        text: "Le plan de la tombe est plus simple que celui d'autres tombes royales. Elle s'ouvre sur un couloir qui mène à une antichambre, qui débouche elle-même sur la chambre funéraire. Cette chambre est flanquée de plusieurs annexes. L'ensemble de la décoration est caractérisé par des figures peintes aux couleurs vives sur un fond qui alterne entre le blanc-gris et le jaune. Les plafonds de la chambre funéraire sont ornés de délicates étoiles blanches sur un fond doré, symbolisant la voûte céleste."
+      },
+      {
+        title: "Adoration divine et métamorphose rituelle",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN5_wkQg58JMNlJG24MKLC72xsNlAluuBz384GII000QJfl0mDcpbZIFZB1bImw9JCbeMMq_Fxk-p-M7z0suJneYgFhIOUZxLQvSIE-GZbGmDrAPwqjCRwSHHEFCnJR3T3Za8oV2bfHCwzwZ6ZGfTERqw=w2389-h1593-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO8PXLWNrw6m0QaYexGtBWxfOU0-UcGLYKoVFvl1Ml7oK0ey1ziU_3HlcdIY_LEbOq4F06WMqkpU0Bpmbvw480MXklb_EFPwLzJzeECoWPW59pDT3DJdGoNLjByNy0GVhW675XTxyVKKFpRzHdy_cCvNQ=w2389-h1593-s-no-gm?authuser=0"
+        ],
+        text: "Les scènes murales sont centrées sur le voyage de la reine dans l'au-delà et sa transformation divine. Dans le couloir, Tyti est représentée en adoration devant des paires de divinités qui symbolisent le cycle solaire et le monde souterrain, comme Ptah et Thot, et les divinités solaires Rê-Horakhty et Atoum. Elle rend également hommage aux Quatre Fils d'Horus, protecteurs des vases canopes. Un détail particulièrement intrigant est la manière dont la reine est parfois représentée comme une jeune fille portant la tresse latérale de la jeunesse, contrastant avec d'autres scènes où elle apparaît en femme adulte. Cette ambivalence pourrait suggérer une mort prématurée ou symboliser la jeunesse éternelle. Dans une chambre latérale, elle est même montrée sous la forme d'un prêtre Iounmoutef, soulignant son importance rituelle."
+      },
+      {
+        title: "Osiris trônant et le jugement de l'éternité",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMgA20dZbo_0dDQ7dRfaVP7ZVJIQzpZth0hbdY10bZFfByENdufsv-I7RnYQlpxBmMWqzOAK9hm8he3C4t63ldEhSpPSCMrf1f8S3t0ESSAtGfvbAlrStCxTF5F2WikkfQbDz9URGr3agFJP0KjaifuDg=w2389-h1593-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPOnDWSwEr_ZWo_lb8u_qIBmEx76Y5rZ34PsKBJZ5M1YhrI2kJpFCO1O2h4nHcMTbHs2cICVnh5zMxFLa1WSEmfwEcXaAgevOTC72v6Wijb2qBPDZeDeBZoetwyKYY7cA3YDgeM-7RteHGhQnOEK9lp-A=w2389-h1593-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN71JHJt0RwqTpZ-QRCT7RbVwNIRHHMPyTQYzNXIZPO1RzjXOmeNdhbN9F0CeGNdgO_gSna_dMWNDgTnk3K_3FJRgqkxZ2-Mo-4z4DScxvcMeEw_hlljKOkrjSQ40FmrxfpWAth1VS-Pzgu8WEtOteUvg=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Le mur du fond de la chambre funéraire est le point culminant du voyage, illustrant la vie éternelle. On y trouve la figure d'Osiris trônant, le dieu du monde des morts, assisté par les déesses Nephtys et Neith et les dieux Thot et Serket. Bien qu'abîmée, la tombe de Tyti reste une étape essentielle dans la Vallée des Reines, offrant un aperçu de la spiritualité et du statut des reines de l'ère ramesside."
+      },
+      {
+        title: "La sépulture du prince Amonherkhépeshef (QV55)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMZ8h462It_Z1OQYIetmeFSZL6CeMgzsE7jzeejodorEDWaOW7jhxQAd2BMEcOIuQIj2tUAO5ziTiVMTisGSCUKMYp8DHKjtFD7ZY_Wj_B64G3qNmXLp80V6boaz9JJPtNTmWVF77ofbr-EPwooTdnjzA=w2389-h1593-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMQdnZSd0XkK5Tr3WQ637Z66Yv1pVeLxGtdI8QHGVAz4yL6jGzbkn5sPTbmTP9CX8xE9O1WjaBBVzzK0VUZ9TuinmTcFrsA4v15bdmIACe3BJcbutgY4_6Bl8bbH6E9Sr1Kq4wNoV9JkjUqaZgAyodhOg=w2389-h1593-s-no-gm?authuser=0"
+        ],
+        text: "Le tombeau QV55 est la sépulture du Prince Amonherkhépeshef, l'un des fils aînés de Ramsès III, un pharaon de la XXe dynastie (Nouvel Empire). Bien que destiné un temps à être l'héritier du trône, il mourut avant son père et fut inhumé dans la Vallée des Reines, près de ses frères Khaemouaset (QV44) et Ramsès-Mériamon (QV53), et de sa possible mère, la reine Tyti (QV52). La tombe fut découverte en 1903 par la mission archéologique italienne dirigée par Ernesto Schiaparelli. Aujourd'hui, elle est considérée, après celle de Néfertari (QV66), comme l'une des mieux conservées et des plus belles de la nécropole, notamment pour la fraîcheur et la qualité de ses couleurs, lui donnant une tonalité d'outremer."
+      },
+      {
+        title: "Ramsès III guidant son fils vers les dieux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP0Dk0P2ys_3yNYdCvSC2E6yDkUJHjjjyvjuJBQQAbhyeaUcI2762JMPW09GEZmOW9WoiKrh7qw5cmdq0EI1_HkzTDXURIzK_IZUby00ID1uZhRpdfDUVIcBySac1O7Zeh3hKs7SR2RmJ7KxY_ub01jug=w2389-h1593-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPjFdcVA3aJu3FM4b8cVyT_xJp82kWzlLkLkZd-M6C7ndxOO2AVDN5Z8g9VPWTN4eGgPOLXGR0DNjiEfC3Rdudyqomgvi5wl9nge9AbHW1X4NSdKkdwZ_PNAfdAbgGdovlkuVWUqxdtLM-RcI0On30QNA=w2389-h1593-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPENE8HLUedzH1PVofwGCW-5xfvDxxtJOM7JG79Vm5csMpZljouZHqJcqhKXeayBH7vjaRR77mUAku_QbeC57DpQneOOcqcU6XKvy1NaYEa9NZpVuISwzaLRy682Rm3q0dccJjwaizvi_fOri5BbLXsOg=w2389-h1593-s-no-gm?authuser=0"
+        ],
+        text: "Le programme décoratif de QV55 est particulièrement émouvant et met l'accent sur la relation entre le roi et son jeune fils. Les murs sont recouverts de reliefs peints magnifiquement conservés. Les scènes principales représentent le pharaon Ramsès III agissant comme le guide spirituel de son fils défunt. Il tient la main du jeune prince, l'accompagnant et le présentant aux grandes divinités de l'au-delà, telles que Ptah, Thot et Anubis. Cette action du roi, faisant personnellement l'offrande et introduisant son fils auprès des dieux, était essentielle pour garantir le passage du prince vers la vie éternelle et son intégration au cycle osirien. Ce thème est souvent perçu comme un témoignage de la tendresse et de l'importance que Ramsès III accordait à ses enfants, même dans la mort."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNizVmV8hYQvC-5W3ffmo9phEWJyW-pDmaF7YPjk0Ce8foncxfExN_6wN-4dky6eBfOTxJCZejLXvDCcEkGjHjSXtefmDNrplljupgHFR0yApJLdd1JRUDHYzak8IXH2LqmgmX1ezo8oGhAwiud5wk1vQ=w2389-h1593-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNCvQh7GPAQ8InA8ZrTtL-1ckFOJ792VjA5NNPKePC0gtNhi2ytqV-pSvTRM1ULKEGsdk2BXfYKMoJcBSQFC984aR4KEy2mstQ11DhV5SVkcXB0MOKXtBHEOLpHn4iMmrxV2u0eH-cmNmVAmnAc9PwAGA=w2389-h1593-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP4YMw6TSCKQmZQIB2LNDVEcYy6a85iBwa6XvsXZ8qx9cjngcPB3I-xOpCq0AfwDNf31Ut9JtArWpHuLcCAHvaldKN_u1cGKbAxeT1jp0jTJwjmijZCUQ0XY7q8ywxmoez-vrKiI3pvqM-qWGZ94qwG8w=w2389-h1593-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN4Ul9HTL3bdQkFLI-WhMNsiVD-JNBHM3Brng1up36GrEXUVaLhHd2s4vyq4TBpymnWkMKR6ejejqbT7d-79j0E9OAFC8kPTnoWOzurhJBf0IGY1IwksmZBGsVVcxnu04H3bYSLbjrT1t70iiOHQ1IUtw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO5G29F1B5hrh-sS2gYx-yObJ2pXmH6E_cK7mYwC4nzjddKLr22kAphMMxmBNNy6QoZbAnGbHpH6MF-eICvx3iRUvdZ0RssQFuP15BRWrrMyoAZmO4rJT-SqjJlagpogvD_jtSFYKvwObOQMob2e9n3Kw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOdUZ5Rk8Q9PW4efSk3HQtXmGq4GUqC7tG2UUkCv5erYKbCWA5pm3fA_CQMFcwgfb8AtG7JUGDxPLLlr1PUym0olHItuAay8TWcC2kaXDWHeIU2waOv9wGbDKIHXjbz0s7nzCec7n2kZe5WmPNxfc37jw=w1741-h2320-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Textes sacrés du Livre des Morts en bleu outremer",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMBvD04j3gUFjMf2VtViV-mt_85k2zhDvrxSP9qZ4IKafSypmFjfPduNNDyndFeQ5a-AaYYLZGliUiBz4r7_UFU0uAsLcKfg1IyaLEI7R3qupPkL2bFLF_ATKzbSNUk4MUh9Y76IeHapEeBLNy6IAePhg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Bien que la chambre latérale et la salle arrière soient dépourvues de décors peints, l'ensemble de la tombe illustre des passages du Livre des Morts et d'autres textes funéraires visant à protéger le défunt et à l'aider à atteindre le royaume d'Osiris. L'atmosphère générale est celle d'une couleur d'outremer apaisante, rehaussée par la qualité artistique des figures."
+      },
+      {
+        title: "La tombe du prince Khâemouaset (QV44)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOCfBckJc_5ANAZIbUEFplbX81zPIN-dQz4XfjrkWFA161JqAvOMGu2GPi6zfC4UghbdCmoNqmy7oIIm3MyIorCuLl7Urcanljy-x3AX6BFw_xfj0P3sBNyFrC3p2HoT0qB4ystKbiVKE0KZuZ1srZEJA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPUsIf_qOXlo_agKwHW05BkP-NTZS7P47co9JNo6YQRXXa64EUUmJthvihgjsG6AN25kyBDLRgT1QRYnj6KKZk2G7K2h_ZuheggdaBQzo9P_NkQ2xLjZW6-oxl3h9l8NUGx9ybvH5WyrF7BzndJYGJmIw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPs_LIgeP7ULumbjMLZ9_L_PCPeMa_42hkpS835o9BkorBq8lOEoWS9uasewE1caX7itIOqe6kKC223g5QLGra1klizsKI1X1kV1-Cspm3FjfF92yJmJuJQtruiMqfQa7T9M_Q5sQTgPzMKPRUw95PyvQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Le Tombeau de Khâemouaset (QV44), situé dans la Vallée des Reines, est la sépulture d'un autre fils important de Ramsès III, un contemporain et frère d'Amonherkhépeshef (QV55). Découverte en février 1903 par Ernesto Schiaparelli, cette tombe est souvent considérée comme l'une des mieux conservées de la vallée, rivalisant avec celle de son frère en termes de qualité artistique.\n\nKhâemouaset portait des titres prestigieux, notamment celui de « Fils le plus âgé du Roi » et de « Grand Prêtre de Ptah à Memphis », ce qui témoigne de son importance politique et religieuse. On sait qu'il a survécu à son père et fut probablement enterré sous le règne de son frère, Ramsès IV, car une inscription sur son sarcophage mentionne ce dernier."
+      },
+      {
+        title: "Structure de la tombe et réutilisation tardive",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNUpzKu2T5lJawAFgzAkBT2RcP7u4xL1d3a_EoKX3JDt-POPDMq0KaD3ZsXBvOFPjTqjPW09BGIJy90AzQXHR2OuTdL9gQPUmbs8_4JUxCtW82BQsnTAvP9BCS4_eVCI_592ef6nmWKYyOmecHEfTFdgQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOGNOBdcPoyGPD28RCaAcjp26VhC-1DFgoWJpSWXJGUUIxUD4YZurfv_p4V9AfSPehbJY6jSIsUIRFZwFDhwjZHpp9Scpu8vj306Qi1lbp8dxSaDrk0lKp_hD-r0L8OKpYkBdrQPq5MrGRHJC0WoGeXlg=w1741-h2320-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNxDaPF-xNhMJjC6BHVMp_jGY45djkQIlstzniZamMYXcio96sEyPfISvZdJFVifM0N_O_LIYkInz7h5wZKRPFDwjPrO3M-y3quWtfehyW1fO-U3tI-mcDas-LSfYqME0Pf7a96fnOdGLKAx5zalGVNQA=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La structure de la tombe est simple mais efficace, typique des sépultures princières de la XXe dynastie : un long couloir mène à une antichambre, flanquée de deux annexes latérales, puis se poursuit vers une chambre funéraire. Le tombeau a cependant subi une réutilisation massive lors de la Basse Époque (XXVe-XXVIe dynasties), période durant laquelle plus de quarante sarcophages en bois y ont été entassés, pillés et découverts par Schiaparelli."
+      },
+      {
+        title: "Médiation royale et déesses protectrices",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMU7taj-0RQR1MwvRFxdj3GYC4j8uql9zgKkCWsctOf5pa8NmG2HJeR4dTIKxQ7sYDktflnu8AcGUFGOIyFOEPq-yqoyjFnyPFzG1L8cUGr2wSLCq45xs8o9FUqhn-XyLxX3ZWsIRrIlf1UTtmQwlCT6Q=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOZ94sD55PuBP_h40U-1vYbk_zfUrgwKDAnHpFrSWABmNoUyEDVM20UA46-8lzyNJo6Bt-B-pBL2hIi2JuQJWpqyLQw23HYnurEXPrwgNQXtCdBFWFIoWX3PZJ5nuG6ysuk05EswUbpuyHIh1_zqStDVg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Le programme décoratif met en scène le voyage du prince dans l'au-delà, dominé par la figure du pharaon Ramsès III, qui agit comme médiateur entre son fils et les dieux. Dans le premier couloir, Ramsès III, suivi du prince Khâemouaset, introduit le défunt auprès de divinités majeures comme Ptah et Thot, avant que le prince ne fasse lui-même des offrandes à Anubis. Les annexes latérales mettent en évidence les quatre fils d'Horus, ainsi que les déesses protectrices telles qu'Isis, Nephthys, Neith et Serket."
+      },
+      {
+        title: "Le Livre des Portes et l'élévation d'Osiris",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMgmInTre0at1fkuXV8xBvnnRsP6RMdobcjkc2F65DjR_-pJHjf_4vjdKmLe7c17YlUJRKCOfLqtluK2YtXUrsA7VTzJxlsWTqoPKb_P8pcHGNKnRNkQ8-2aX0KNPXikMy-SkFa6okGIIQPhm84kmcViw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNLdkXFUy0EoCOw5ggRJfkOY4gKvnuRJfEZxONNiPuv6INhLk1QlZ_2b9ZEcOlb-f-UR9fEK7RYN-uwxAsJBjxOd_3s8fQ6Q_gLCUBHG1XsBxR_nPbEMFaJbWOLXZVlxaNh-h3hLCtyr1ULGvmdPJNyMQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Le second couloir est remarquable car il illustre des scènes tirées du Livre des Portes, décrivant le passage du prince à travers les douze portes du royaume d'Osiris, chacune gardée par des génies et des monstres armés. Le prince y est également représenté en prêtre Iounmoutef, un rôle rituel important. Ce n'est que dans la chambre funéraire que le prince disparaît symboliquement des scènes finales, laissant son père Ramsès III seul faire face aux divinités, car Khâemouaset a désormais accompli sa transformation et rejoint le royaume des élus, aux côtés d'Osiris trônant, assisté des quatre déesses protectrices."
+      }
+    ]
   },
   {
     id: "temple_hatchepsout",
