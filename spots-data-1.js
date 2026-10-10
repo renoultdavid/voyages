@@ -13294,18 +13294,144 @@ const travelSpots = [
     subdiv: "Louxor",
     altitude: 76,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XXe dynastie)",
     century: "Antiquité (XIIe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Thèbes antique et sa nécropole",
+    unesco_name: "Thèbes antique et sa nécropole",
+    counts: {},
     lat: 25.7196,
     lng: 32.6013,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM_iR5U6wiG41TixgwSD8PBCikitCe10D8ty_oXf8VbajzaeUb6VWYzWCSoreSeQO7jRcjV2HJ1RHYGrQIkFNRxH61Dl8DkszvIpRXrp4mGSS-oJ0IfAMJoE9xdNNK02xJ3RlhL8Z_mBBi99QOCUZiODA=w2624-h1750-s-no-gm?authuser=0",
     description: "Véritable forteresse sacrée ceinte de puissantes murailles crénelées de briques crues, le complexe monumental de Médinet Habou constitue le temple des millions d'années de Ramsès III et l'un des sanctuaires les plus spectaculaires et complets de l'Égypte pharaonique. Érigé au XIIe siècle avant notre ère sur un site saint où reposaient selon la cosmogonie thébaine les dieux primordiaux de l'Ogdoade d'Hermopolis, cet ensemble grandiose intègre également le vénérable petit temple d'Amon fondé sous la XVIIIe dynastie par Hatchepsout et Thoutmosis III. L'architecture militaire unique du domaine s'affirme dès son entrée monumentale matérialisée par un « migdol » d'inspiration syro-palestinienne, exceptionnel pavillon fortifié flanqué de tours crénelées d'où le pharaon dominait la plaine. Si les colossales façades des pylônes immortalisent avec un réalisme saisissant les campagnes militaires contre les Libyens et la célèbre bataille navale repoussant les redoutables Peuples de la Mer, le temple éblouit surtout par la fraîcheur miraculeuse de ses plafonds et colonnades où subsistent intacts les pigments bleus, jaunes et ocres originels. Dernier grand chef-d'œuvre architectural du Nouvel Empire avant le déclin de l'État ramesside, Médinet Habou conjugue puissance défensive, ferveur liturgique envers Amon et virtuosité polychrome absolue.",
     visiter: "La découverte s'amorce par le franchissement du haut portail oriental fortifié du migdol, dont les salles supérieures abritaient les appartements royaux privés ornés de reliefs intimistes figurant le souverain entouré des dames de son harem. Après avoir longé sur la gauche les élégantes chapelles funéraires des Divines Adoratrices d'Amon (Amenardis et Chepenoupet) et dépassé le petit temple primitif d'Amon, le visiteur se trouve saisi par l'imposant premier pylône gravé de scènes de triomphe royal. Le passage dans la première cour donne accès aux vestiges du palais royal attenant ainsi qu'aux piliers osiriens monumentaux, avant d'aborder la seconde cour, véritable apothéose artistique du site : sous les portiques péristyles abrités des ardeurs du soleil, les architraves et plafonds conservent des cartouches royaux et des motifs célestes d'une vivacité chromatique étourdissante. En parcourant les déambulatoires et les parois extérieures occidentales, les amateurs d'art militaire admireront le célèbre relief dynamique de la chasse aux taureaux sauvages dans les marais et l'affrontement maritime contre la flotte des Peuples de la Mer. La visite se conclut dans le calme feutré du sanctuaire hypostyle intérieur, offrant une plongée archéologique d'une densité émotionnelle rare.",
-    link: "https://photos.google.com/share/AF1QipPzrn9sLkxepEnNE-xHPFffJ2Ib__m41dsjynhH9lVONdD8oj7WJe4O7l54WDaYxQ?key=cjFOSlQ2WW1PUm13a3dEbU5yR2s5WHUwV19Bb3hn"
+    link: "https://photos.google.com/share/AF1QipPzrn9sLkxepEnNE-xHPFffJ2Ib__m41dsjynhH9lVONdD8oj7WJe4O7l54WDaYxQ?key=cjFOSlQ2WW1PUm13a3dEbU5yR2s5WHUwV19Bb3hn",
+    sections: [
+      {
+        title: "Mur d'enceinte fortifié, Migdol et culte de Sekhmet",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM3stg-uw-prj3iHpf-eev10J7tk4KwuPu5r6BG_NeMFM2op4YqjcWLhPr4mM7RUQZQV7-El2KB4PCR8Lm05RkCeFyDW5cw5CSEjM7ADd--6QIw112A9fhgfG_Ds023ofOEfCnMGsRcxIp8L0ej4AMtfg=w1813-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPLGuiHU3-OV_lcedGseGdaJwaEtjyFCpsbOj13jWClpPF3t-udmRu6Uob09-xWT2uqxHSB33FpGpJh8MuOKUm6etunLjMoAmgrhC6rIao48x0ch9QjUQCPFO3kr7af2dMuGNyWFmVe_hx59dIU3lZemQ=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP7RBvzOaDZSl1gHUyCgpUGZXIFff0QRvkeBmYCXa5JCtoRhQ3i2JtOMx-Oh0QAZnTGkOJ28Hva_HyYSekxZqZYxIJixbVVYhd_OssgyLKd3LOIZ3PzC268YpPxU6N5IrlfrdHeunvuwTOHTizEprM1fQ=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Le mur d'enceinte de Médinet Habou n'est pas une simple fortification. Construit en briques de terre crue, il entoure le complexe entier, y compris le temple funéraire principal de Ramsès III. Sa fonction principale était de protéger le temple et ses habitants des invasions, en particulier des Peuples de la Mer, contre lesquels Ramsès III a mené de nombreuses campagnes. L'entrée principale, le Migdol, a été conçue sur le modèle des portes fortifiées asiatiques, soulignant le caractère défensif du site. Le mur a également joué un rôle de protection en préservant le temple de l'accumulation de sable et de boue, ce qui a contribué à la conservation remarquable de ses couleurs.\n\nCette statue de la déesse-lionne Sekhmet à l'intérieur du mur d'enceinte n'est pas à sa place d'origine, mais constitue un vestige d'un ensemble de statues de Sekhmet qui proviennent du temple funéraire d'Amenhotep III, situé à proximité, à Kom el-Hettan.\n\nDe nombreuses statues de Sekhmet ont été découvertes dans ce secteur. Aménophis III, le grand-père de Toutankhamon, a fait construire un nombre considérable de statues de cette déesse de la guerre et de la maladie, probablement dans le but d'apaiser sa colère et de guérir une maladie qui l'affligeait. Au fil du temps, ces statues ont été dispersées et réutilisées. C'est un exemple de la réutilisation des monuments dans l'Égypte antique. Elle a été déplacée de son temple initial et réintégrée dans le complexe de Ramsès III, soulignant la continuité du culte et l'importance de cette déesse protectrice pour les pharaons."
+      },
+      {
+        title: "La première cour et les reliefs de victoires militaires",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOgDpp-nsPU7Ff53zCDwUiGNpESO0ucBJ29LjAinFZwUhsgyJ707dReoTWayaBvZpwDd8lBAhspUtkZu4rtVsfpSgHCuk453Ls7615JLuf1PAmucu5P3ncf5rn13hlSN2fczFI49a6uXU-blK4Pz4gGug=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP0E_S6BXp_8SszpyCRcWxKzXeOkupudQvRjs-D9vW7D15LxfslsRhAC0JPRtBh17z0_jX1KPClNZFiF3DXoPc-UdQ1-SYiJl8UY4nFSn8EduqBNV2nphVINM4j0wpWOzUYX01_Lv_gO5wLERr0Xamdxg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La première cour, ou « Cour des Fêtes », est un espace grandiose qui s'ouvre après le portail du Migdol. Elle est encadrée sur ses côtés est et ouest par des portiques à sept piliers. Ces piliers ne sont pas de simples supports architecturaux : ils sont décorés de statues osiriaques du pharaon, le représentant sous les traits d'Osiris, le dieu de la résurrection. Cela symbolise le pouvoir et la pérennité du roi, qui est associé au divin.\n\nLes murs de cette cour sont recouverts de bas-reliefs qui narrent les exploits militaires de Ramsès III, en particulier ses victoires sur les Peuples de la Mer et les Libyens. Ces scènes sont remarquables par leur niveau de détail et leur dynamisme. On y voit des batailles navales, des processions de prisonniers et le pharaon triomphant. Ces images servaient à la fois de propagande royale et de récit historique, proclamant la puissance de l'Égypte et de son souverain."
+      },
+      {
+        title: "Le petit temple d'Amon et la butte primordiale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNoLFnv6wZl_O8bPG6GiVJG3t9ulHj-zG708OccK1NEYtRA7J0Kh2qbd71Vu0DTFUGohAAN65ylGWf2KR0etudA-b1MvpXWlrIR60553G9cIbb-xJoHmnI3RL9PYxkZs1itVfsBCznnl1E4k29-JZBxWg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPPLj6mdNmz2PaAZLqHXs1ggxS0bmzLW5bxv_KMuk9WJt1Xwd0_SW3n3_zU-0LaD3PdMPSo0CJoJ9hW9wiNH5OEyaGrwWD6SDo8YZtlzuURrvqIecR1TcbY26KaDfUyw9dOAPdtigcPmN0iebgU1xAHcg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "À droite de la cour principale, il s'agit du temple d'Amon, un édifice bien plus ancien qui prédate le temple de Ramsès III. Construit à l'origine par la reine Hatshepsout et son beau-fils Thoutmôsis III (XVIIIe dynastie), ce temple témoigne de l'importance du site de Médinet Habou bien avant le règne de Ramsès III.\n\nCe petit temple est considéré comme le cœur spirituel du lieu, car selon la mythologie égyptienne, il se trouve à l'emplacement de la « butte primordiale » où huit divinités créatrices du monde seraient enterrées. Ramsès III a choisi de construire son grand temple autour de ce site sacré pour s'associer à l'origine du monde et à la puissance d'Amon. Au fil des siècles, d'autres pharaons (comme la XXVe dynastie et les Ptolémées) ont agrandi et modifié le petit temple, y ajoutant des cours, des pylônes et des sanctuaires. Il a aussi servi d'abri pour la population locale lors d'invasions, démontrant la pérennité de son importance."
+      },
+      {
+        title: "Le premier pylône : massacres rituels et comptabilité guerrière",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMroEVJBcujOdjvnro9r4JvCZf8Re7WDYfzmLoVMvoK8dc_ZdWyyY2lL2bFZKwkwGGae2ZzjnWVbPWwI0UeqhQyj-p_SFYKN3jz5uiOd_6vtRn_-M7B3ZT0F70A_jlPTQpDRczi2tDWbYbp52hKSqgvgg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPUJltJysw8pzkIbfBHT4YmSB13xEh3k7X1ykRHd_4O4rqdMAeYdCxHqhoYFGtsQH8tVhTi_yoOGHIW8BrP3zRD_3Mz6PCtyMZfpo-bxeGL67KaglDcYnPaSRL79E1HXTTryOfmM7Fa0-aQVFbrNYVWjw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le premier pylône du temple de Médinet Habou est une structure monumentale qui sert à la fois de forteresse symbolique et de toile de fond pour une série de reliefs exceptionnels. Il est le point d'entrée du temple funéraire de Ramsès III.\n\nLes deux tours massives du pylône, appelées môles, sont entièrement recouvertes de bas-reliefs qui narrent les exploits militaires du pharaon. L'image principale, typique des entrées de temples, montre Ramsès III, en taille colossale, saisissant par les cheveux un groupe d'ennemis et s'apprêtant à les frapper avec sa massue devant les dieux. Sur les côtés des tours, des scènes détaillées représentent les armées égyptiennes en action, avec des soldats, des chars, et des scènes de batailles contre les peuples ennemis, dont les Libyens et les Nubiens. Ces reliefs sont un témoignage visuel de la puissance de Ramsès III, qui se présentait comme le protecteur du pays et le garant de l'ordre cosmique.\n\nUne fois passé le pylône, la décoration des murs intérieurs est tout aussi frappante. On y trouve des scènes de triomphe qui sont d'une précision historique et même comptable. Les reliefs montrent le dénombrement des mains et des phallus coupés des ennemis tués. Ces scènes, bien que macabres, étaient une méthode officielle pour compter les morts et attribuer les récompenses aux soldats victorieux. Au-delà de leur aspect violent, ces reliefs étaient des archives de pierre qui documentaient les victoires militaires du pharaon avec un réalisme brutal.\n\nLe premier pylône de Médinet Habou est donc bien plus qu'une simple entrée. Il est un livre d'histoire qui combine la propagande royale et une documentation détaillée des événements de l'époque, le tout avec un style artistique remarquable."
+      },
+      {
+        title: "La deuxième cour et les colosses osiriaques mutilés",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOkpEDsSkzkbsnl_D8Leq7FHFZ9a43zq7l1psuHd2--t4m_6V0d2xKTm07GlHURXEzOoyRTlQ1SeM3i41kbXjGZtCyuqjjoTbaaqY_RrgZfG2WCXV3gBlrI6u0yce-DNUyMhs8T4vH2l_LUX3-licRR4A=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNI8OWFoR8AK6CV-yo65FfnQ1pms4iGXZi27yYxYE1o9MCYJsvCYefbEv9GFKhsY8T_BbF4td2d84bkA47v8tbRJJcG8_NGnVmZWYdS9Ed2cPuudE4dnrKc-0pu2OCgWcxl80WYBAshZpedoe2Qik4RXw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La deuxième cour du temple de Médinet Habou est un espace vaste et important, marquant la transition entre la cour extérieure plus publique et les parties plus sacrées du temple. Sa conception architecturale et sa décoration sont étroitement liées à celles de la première cour et au Ramesseum, le temple funéraire de Ramsès II, qui a servi de modèle.\n\nLe côté nord de la cour était orné de grandes statues du pharaon, connues sous le nom de colosses osiriaques. Ces statues représentaient Ramsès III sous la forme du dieu Osiris, reconnaissable à ses attributs divins (la barbe tressée, le sceptre heqa et le flagellum nekhakha). Les colosses symbolisaient la mort et la renaissance du roi, l'associant à l'immortalité d'Osiris. Malheureusement, la plupart de ces statues ont été détruites, en partie lors de la conversion du temple en église chrétienne à l'époque copte, mais on peut encore en voir quelques fragments ou la base."
+      },
+      {
+        title: "Face-à-face théologique avec Amon-Rê",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPTuXMyOFteW5Y_pOxORHJAOT3kcEwyAY3BPbvXDpgJBh_T15BftosdHOCZAQk0JKb4SS1kiIwqK6sMej2v2dHSSkiUdIcM8NJyX8obzN2vii0niq1_Q57_inEPBSmt-zbfShLbOdEXM_G5DlicuWHmWg=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Cette scène colossale, gravée sur l'une des hautes parois du temple de Médinet Habou, illustre la dimension théologique du pouvoir de Ramsès III au début de la XXe dynastie. Le relief met en présence le pharaon et le dieu Amon-Rê, la divinité suprême de Thèbes, dans un face-à-face solennel qui légitime l'action royale. Le souverain, à gauche, porte la double couronne Pschent et l'uraeus, tandis qu'il lève le bras dans un geste d'offrande ou de salutation rituelle devant le dieu qui lui fait face, garantissant ainsi l'équilibre du monde.\n\nLa figure divine d'Amon-Rê, reconnaissable à sa haute coiffe composée de deux plumes verticales, tient le sceptre Ouas, symbole de puissance, et le signe Ankh, porteur de vie éternelle. Entre les deux protagonistes, de longues colonnes de textes hiéroglyphiques consignent le dialogue sacré : le dieu confirme les victoires du roi et lui assure un règne de « millions d'années ». La précision du relief creux, typique du style ramesside, permet de distinguer chaque détail des parures et des emblèmes, soulignant la splendeur de cette rencontre entre le terrestre et le céleste.\n\nLe registre inférieur et les espaces latéraux sont saturés d'inscriptions et de cartouches délimitant le nom de couronnement et le nom de naissance du pharaon. Cette accumulation textuelle transforme la paroi en une archive monumentale et indestructible de la piété royale."
+      },
+      {
+        title: "Le deuxième pylône et le seuil des sanctuaires intérieurs",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNo7JkPGgjqnXEfmCHYvsv-e3zH3ZFZo49ClsV9w1ejLOFFZoXH8WOABag1N3iw87VmH9rLVsIQxqVBvmjn_Pzo3zR9OeeyYDTELc1hIiJ518aw3_-h4GKXtRSI28z_htb9pKWoFTytGshGgPFmeNmmEA=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN5CFhQ4iygh1y_6EEHSKRdHDt8HTfmFssIIx-sBivLMYIq8pAPFZqa3vijCcippc4IsLYxs9uUN9WpNT4euxomWbI-0WIxI6ZjEPF0euYnjSsPGNYhKcVSf29a5X8nf1r-gmkDx2ye-KrINS-R8oo2zw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPjWE4zM6tgcIbaey03_qRjIxVTfqEZeKBQdXl4Q6sTYGapnTTL-auTa4lj-mdhr6ZABi9AOGLml6ZzbNxcXw3VE0BPOxHCKWwrfBmTHSmzJzCp8qP-6Tac72ZlPLQTjxxFZ2n-uVEmsyO4Prr0QMJeBg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le deuxième pylône du temple de Médinet Habou est la porte d'entrée qui mène à la salle hypostyle et aux parties les plus sacrées du temple. Il a été construit, tout comme le reste du temple, par le pharaon Ramsès III et est richement décoré de scènes rituelles et de textes.\n\nLa face du pylône est ornée de reliefs qui montrent le pharaon en train d'accomplir des cérémonies pour les dieux, notamment des offrandes et des sacrifices, renforçant son rôle de médiateur entre l'humanité et le divin. Ces scènes contrastent avec les scènes de guerre et de triomphe que l'on trouve sur le premier pylône.\n\nLe second pylône est aussi un lieu de transition symbolique. En le franchissant, le visiteur passe de la cour extérieure, un espace semi-public, aux parties intérieures du temple, où le culte et les rituels deviennent plus intimes et plus sacrés. Il servait à marquer le passage vers le cœur du temple et les chambres du sanctuaire."
+      },
+      {
+        title: "Les déesses ailées Nekhbet et Ouadjet sur les voûtes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPg_Ol16P7Q7YAl7XM1--Y1Tkpr2rs1842b3eqA_sL7tN-5v0h1SqjSP9VA8oXfgIOjmTgcymAR8QePMw742kGDi40U4r2i1d9ReTVdXFLDvlvQtvyxuvS1HaN3WxnCLk5djEQFtYZhPQdVz9PTa0_KGA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNaO8X5hqikietpdTzPPU1RN37Gn5jxmHC9XMBUhOPzbUkdwRE9HZwSCFAIO-Cr2GIA-_gmH_9MxGxKDv9YEsBFqbROJl6d5fr-HOnB5C9xJmhM87ls6oRQ4y-SXorhU0onFJdtN01AYit47I1jeFMoVQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Les voûtes des portes du temple de Médinet Habou, notamment au niveau des pylônes, sont décorées de rapaces aux couleurs vives. Ces oiseaux ne sont pas choisis au hasard, mais représentent deux déesses protectrices majeures : Nekhbet et Ouadjet.\n\nLe rapace à l'allure d'un aigle ou d'un faucon est le symbole de la déesse Nekhbet, la protectrice de la Haute-Égypte (le sud du pays). Elle était une déesse-vautour associée au pouvoir royal et à la protection du pharaon. Le vautour était également le symbole de la déesse Ouadjet, la déesse-serpent de la Basse-Égypte (le nord). Ensemble, ces deux déesses représentaient l'union des Deux Terres d'Égypte et assuraient la protection du pharaon sur l'ensemble du royaume."
+      },
+      {
+        title: "Protection divine des Deux Terres et pigments préservés",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMC45a3X9Vc-XbH7lUEOQobCp2AGTXVxpWN9dKiTGL8zcW3oLGRGH-ZJOgokwst7n0i8emc_hrEkxeJ4MWkIYEzcXt9V53nY5tGmvUrJfDKRHxg95hnxaQ4EzwWRlg0n74jOPFePBSAbColigS8ocVDpQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMt2F7hnW8NfkWEu1VrWaeIDIK3za-5jUXth79HwSjGi_aA5Yb8IgUfvCjxCk-obFyils5iLbuNnLe33gHV98TJr1zYO00H88aYD1mIuQsK3YAbxUd2TZS1pE7tjG6j5Y70xwt84qu6S3agOLBJTAm_Kg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La représentation de ces deux divinités ailées sur la voûte des portes avait une signification profonde. En traversant la porte, le pharaon passait sous la protection de ces deux puissances divines qui veillaient sur lui et sur son empire. C'est un symbole fort de la dualité et de l'unité de l'Égypte, un thème récurrent dans l'iconographie pharaonique. Leurs couleurs, qui ont été remarquablement préservées, témoignent de l'importance visuelle de ce message."
+      },
+      {
+        title: "La grande salle hypostyle de Ramsès III",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPKr6CEa9tHKvP-JYfv-6j8r2HAwXnqiMUCSWxBl1up0hutHNAi6ktREqkK81iJcbIR5HMnckj7NA5a4ObLl-2wLqEkrMG1C8r1epHG3u0r5hzLJX27Z_AZNrP1ayOdgw_QRX5Y4YHYuhB4m3lhCEH1Lw=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNimLoU5n7Z9uS2lL2yuUsXmC_gX9dwSQ6l5Ehk5QdXrxYfONo_QcRVX418xjQ-xsXLxrTFQNfaQhJE1MrwgNqHp0jPSOuYuUMoItaZNiThtcuiGxYfVgN1MWxNQUnuMzukLrTH3h5Ni7KxnA-isQJuzw=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOK-r8_hIeqGG3F4AI6KyGBZUAVgaokEYyPSDVoQWAzCHuJXHFSWzvWc02MuWKdG0IcUiPeDt9pR9olzDs16WRaZ5AKDkobeqSBHoIO24vK-RYyZ_IyhrAEbD4OPIkfbLkf4oeltdiPxIgUFpwbXKqaZQ=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "La grande salle hypostyle de Ramsès III, bien que moins vaste que celle de Karnak, était tout aussi impressionnante. Son plan original comprenait 24 colonnes et trois salles successives. Malheureusement, le toit de la salle s'est effondré lors d'un tremblement de terre au Ier siècle av. J.-C., mais les bases des colonnes et les murs sont relativement bien conservés."
+      },
+      {
+        title: "Polychromie minérale et ombelles de papyrus",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNJg8YmBGy6fpy7tD48tl3VNxjrB_9WoLYQjaWLX2KZiZo1wqWNRnCD9JbQjEWMFKUV0rrs1kFhoAD7EpAl1pGiUVGG55tBU1PJgcyQP4MNxMrQVIj68uQAAhvVQ3zFCW_3ob3qMJMejZMkuiNBMmU_zQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPPCOcgnvRFG4KnYI58N2iYLG1orCfKY9Os2Yp8E3JBNps1VRH8JB2aZEtaPUpEVQQdgNaLNMdbI1pHol1pPAfR2adIDIuiYdwiCPm-OAf-kYoJZ__Mw7KrvSIPCUWPXN7j50TCYo1iWXliMM38dx-WLg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "C'est dans cette salle que l'on peut encore voir des traces de la magnificence originale du temple. Les colonnes et les murs étaient recouverts de reliefs et de peintures aux couleurs vives, d'où l'impression de « piliers de toutes les couleurs » que le visiteur peut avoir. Les artistes égyptiens utilisaient des pigments minéraux qui ont résisté à l'épreuve du temps, notamment le bleu intense, le jaune, le rouge et le vert.\n\nLes motifs des chapiteaux des colonnes représentaient des ombelles de papyrus fermées ou ouvertes, symbolisant le marécage primordial d'où la création du monde a émergé. Le plafond de la salle était peint en bleu, parsemé d'étoiles jaunes ou dorées, créant une voûte céleste symbolique."
+      },
+      {
+        title: "Liturgie royale et offrandes aux divinités thébaines",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPq_50fPPF825eV-VZEvs6lNS6d3bBasRMTUUEh07Z2gfKZLsfQliO_shptClxir5bnSNkQIHr06eMTGLZoeC0aPmVSkM45rmi8tMrmVFQi1kivNOvtM9h8VoW_qhwxUZOqqh_EyWXtkx1lhNDhfFUmjg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM_iR5U6wiG41TixgwSD8PBCikitCe10D8ty_oXf8VbajzaeUb6VWYzWCSoreSeQO7jRcjV2HJ1RHYGrQIkFNRxH61Dl8DkszvIpRXrp4mGSS-oJ0IfAMJoE9xdNNK02xJ3RlhL8Z_mBBi99QOCUZiODA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Les murs de la salle hypostyle sont recouverts de scènes qui illustrent les devoirs religieux du pharaon. On y voit Ramsès III en train de faire des offrandes à diverses divinités, d'être purifié rituellement ou de recevoir les insignes de son pouvoir. Les reliefs, d'une grande finesse, sont souvent incisés en creux pour mieux résister à la lumière et au temps."
+      },
+      {
+        title: "Le maintien cosmique de Maât",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPGt-Koea_sgVE6jEJlrqb0E8BepvPj97M0scHsrJgPPGPWI4bTsnHfx_rP1eDKnx_7q0W6X3PlCot20ppvuv7Qk6sO2BjCLIG7BWFAVdPAuQYPZkaIZcXi1dcLc0bp7AkMuCp-Rgym7-K4Vg315NKUhQ=w1813-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Ces scènes servaient à rappeler la fonction essentielle du pharaon : maintenir l'harmonie cosmique (Maât) en honorant les dieux et en accomplissant les rituels appropriés. La salle hypostyle était donc un espace sacré où se déroulaient des cérémonies essentielles, marquant le passage vers les sanctuaires les plus profonds et les plus secrets du temple."
+      },
+      {
+        title: "Sanctuaires intérieurs et magasins de stockage",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMKqdyDs8kb1LSUh827B8QoLJzVsBSb-xTnnS0veAJUUKCkbyFoDbGSV0ce1Pd5dBJNuDk48M9P2KfwzjVCz6tv041acBaiC1uyh5VGHKWRvffNep1TdOX3-SxmVC4fJKVJPxun5FLZULRlXdXHaw4JTA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM18fUWOKHpRhIBQCkNy8RbplK0MsLzIcrVaJqYiIkEq4ZZvCrcfJs2xH5AF3NLrpqWzvulFuesgWsGBjPpG9IGqg0gAc6-LPI9a_V9_mwO6bSmhOD_pkJtnsyepZAhdJ-9iAn77gzwh4mF2QsYD86DSg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Au-delà de la grande salle hypostyle se trouvent les parties les plus sacrées et les mieux conservées du temple de Médinet Habou. Bien que le toit de la salle hypostyle principale se soit effondré, les petites pièces situées derrière, qui servaient de sanctuaires, de chapelles et de chambres de stockage, sont remarquablement préservées et offrent un aperçu intime de la vie religieuse du temple."
+      },
+      {
+        title: "Le retour triomphal en char et les prisonniers de guerre",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM0YB-R_RFLgMYQFofJRHH1cUgxlJRKrHRGq4SoQYQ-0Jz5BDADMeyV5PktdsmAWYpEg7Bllx4nR3GDDjRIKDy8OxBzBhnEIF8XybvCzzRAOI-2CLjXxhFwXIWuQHxmmtcjM6x_y0SH0zKHD2shOOX0oQ=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN3iGGXckUPC2G58MD29pmpBafoqXHZinsX0D7fxXx1IxBLVqSOpeR_X15jM0e0i3AVxCset-eK_rNI62Snxyq5zT47PMTgxINmaIAoPq12C0lGR0PEsR3vA_YrXuHoUF6yHb-cpRG57WXMDrcNVxInTA=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNhyzQWBt-3AHC1Fyel9Nkn8JvJchSeXuBgipecZmEFjPhPj_5f4UKZ-Oa5cZHoL5gf1tOCvWhTZ7WA1xRJ6w9U6ceFRXwojmIcDEtLAvysvSy7EBV7JAsHnkQAAd2xA7fRfDwgdd0GcFwSmFvca76a7A=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Ces salles latérales sont particulièrement précieuses car, à l'inverse des grandes cours exposées, elles ont souvent conservé leurs toits et une grande partie de leurs couleurs d'origine. Les reliefs y sont souvent moins endommagés par les intempéries et le soleil, et les couleurs sont encore vibrantes.\n\nLe panneau central met en scène le retour triomphal après une campagne militaire, probablement contre les Peuples de la Mer ou les Libyens. On y distingue le pharaon montant son char de guerre, dont les chevaux sont parés de panaches de plumes sophistiqués, symboles de la force impétueuse du roi. Sous les sabots des chevaux et à l'arrière du char, des prisonniers ennemis sont représentés ligotés, les bras entravés dans des positions d'humiliation qui soulignent la victoire totale de l'ordre égyptien sur le chaos extérieur. Les traces de pigments rouges et ocres encore visibles témoignent de la vivacité originelle de cette fresque de pierre.\n\nLes registres supérieurs et latéraux détaillent le défilé des troupes et des fonctionnaires royaux, portant des enseignes ou comptabilisant le butin de guerre. La précision du trait permet d'identifier les différents types d'armements et les particularités ethniques des captifs, faisant de cette paroi une véritable archive historique autant qu'une œuvre religieuse. En consacrant ces victoires sur les murs de son temple des millions d'années, Ramsès III ne cherchait pas seulement à glorifier ses exploits terrestres, mais à assurer la pérennité de son nom et la protection divine de l'Égypte pour l'éternité."
+      }
+    ]
   },
   {
     id: "temple_denderah",
