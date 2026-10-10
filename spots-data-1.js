@@ -12903,18 +12903,214 @@ const travelSpots = [
     subdiv: "Louxor",
     altitude: 172,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe à XXe dynasties)",
     century: "Antiquité (XVIe siècle av. J.-C. à XIe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Thèbes antique et sa nécropole",
+    unesco_name: "Thèbes antique et sa nécropole",
+    counts: {},
     lat: 25.7402,
     lng: 32.6014,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMFRpDqYKavLb097DDB8Vtoec_f4bF4PQPXH_DyPO04GrRrvl8MsEiuo6bNRuKoT74FTcJjh2TKu7lI47ZAVFcc-IVkIB1ZPwj16-IeW1d3Jk2b6j7PubcF3SjpshOkRwPG-bqzOjFg9VSp_mIywXsWCw=w2624-h1750-s-no-gm?authuser=0",
     description: "Encaissée dans une gorge calcaire aride et secrète de la montagne thébaine, sous l'ombre tutélaire de la cime pyramidale naturelle d'Al-Qurn, la mythique Vallée des Rois abrita pendant plus de cinq siècles le repos éternel des souverains du Nouvel Empire. Rompant avec la monumentalité visible des pyramides memphites trop vulnérables au pillage, les pharaons de la XVIIIe à la XXe dynastie choisirent d'enfoncer leurs sépulcres dans les entrailles rocheuses du désert pour préserver leurs momies et leurs fabuleux trésors funéraires. Ces hypogées vertigineux, s'enfonçant parfois sur plus de cent mètres dans la falaise, forment de véritables cathédrales souterraines conçues comme des répliques de l'au-delà cosmique. Sur les parois stuquées et peintes demeurées dans une fraîcheur chromatique miraculeuse, des fresques d'une virtuosité éclatante reproduisent les livres sacrés guidant le pharaon dans son odyssée nocturne : l'Amdouat, le Livre des Portes, le Livre des Cavernes et les constellations célestes. Découverte intacte en 1922 par Howard Carter et recelant plus de soixante-trois tombeaux royaux, cette nécropole sacrée constitue le sanctuaire le plus prestigieux et fascinant de l'archéologie mondiale.",
     visiter: "La découverte s'amorce par la traversée en navette électrique du défilé minéral jusqu'au cœur de l'oued aride, d'où partent les rampes d'accès aux différentes sépultures royales ouvertes en alternance pour protéger leurs pigments séculaires. La descente dans les hypogées constitue une expérience saisissante où la température s'élève à mesure que l'on s'enfonce dans les longs corridors couverts de hiéroglyphes minutieux. Parmi les joyaux incontournables, la tombe de Séthi Ier (KV17) éblouit par la perfection de ses bas-reliefs polychromes et son plafond astronomique, tandis que celle de Ramsès IV (KV2) ou de Ramsès VI (KV9) dévoile une nef monumentale s'achevant sous la gigantesque déesse Nout engloutissant le disque solaire au crépuscule pour l'enfanter à l'aurore. L'émotion atteint son zénith devant la célèbre sépulture de Toutânkhamon (KV62) où repose encore la momie du jeune roi sous un cercueil de quartzite, ainsi que dans les caveaux de Thoutmosis III ou d'Horemheb. La marche au fond de ce canyon brûlé par le soleil d'Égypte transporte le visiteur au plus près des croyances d'éternité des bâtisseurs de pharaon.",
-    link: "https://photos.google.com/share/AF1QipPc0myyS1e0ubKBaM9KazQm8Yq5S2rSirwM2i1SjgE8nzQBJeVJByhkfyqXOg7brw?key=UTByU3NPeUs3c1dDZHpvWXE2Q01HVnFyN1kxRXdB"
+    link: "https://photos.google.com/share/AF1QipPc0myyS1e0ubKBaM9KazQm8Yq5S2rSirwM2i1SjgE8nzQBJeVJByhkfyqXOg7brw?key=UTByU3NPeUs3c1dDZHpvWXE2Q01HVnFyN1kxRXdB",
+    sections: [
+      {
+        title: "La tombe de Ramsès IV (KV2) : architecture rectiligne",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNLNwFL9LE0YTrmkkinHjiLcw5-WzVvopYYGxXFOXGHTFbwglsTqsfbT5wOG1kTXivCIWjmR-F7UXVWUAd4IeMAkLott4V-70hjq4Oj0Owh05-zx5BUy_pNMpSRg-xD9FrG9663Qq22-emwdjGAkivV4g=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP43IgxWSubj8Z-GfTx2kgD2f4RnBK-V_WEIzNPvqB7Tdh-upp9EzWTlIqBFxpjhnbb0KVlwvMGJvwTVcM2HZd_N43ea9AwGTknTvhfSPK1SiELxisUaRCOc2IlslijIG5qL-cbaiT4tfZzj4YcK-AiKQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP_sSeAb4oBs0454z5D0n9Usms-yRLSboWWV3BqNYLYrBu94mg0N6NTOL-a7asLUxfKFESGNCfp5va5hxFTdzyBFeaeU-saJ_1tu3lTbxNBhS48oF4A4HHJ4ImQdp4qPhsQ6-0TR8YhAfCaZpJecZl9bQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La tombe de Ramsès IV, désignée KV2 (King's Valley 2), est l'une des sépultures les plus accessibles et les plus visitées de la Vallée des Rois, connue pour ses reliefs exceptionnellement bien conservés et sa conception simplifiée.\n\nKV2 est une tombe typique de la XXe dynastie, caractérisée par un plan rectiligne et droit (sans les changements d'axe des tombes précédentes), traduisant l'accélération des travaux funéraires due à la courte durée du règne de Ramsès IV (environ six ans, 1153 à 1147 av. J.-C.).\n- Longueur et axe : la tombe s'étend sur environ 88 mètres le long d'un axe droit. Elle est située bas dans la vallée et a toujours été ouverte et connue depuis l'Antiquité.\n- Structure : elle se compose d'une série de trois longs couloirs en pente successifs (B, C, D) qui mènent à une antichambre (E), puis à la chambre funéraire (J), suivie d'un dernier corridor et de trois petites chambres annexes (K, Ka, Kb, Kc).\n- Simplicité : son architecture est considérée comme « simpliste » par rapport aux tombes des pharaons ramsessides précédents, les couloirs étant larges et moins profonds. Cependant, ils ont été conçus pour faciliter le passage de l'immense sarcophage en granit."
+      },
+      {
+        title: "Couloir B : la Litanie de Rê et les protecteurs ailés",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO9RvVv3Ty7MNycAXekIUQ9WyoRpiwkmyoXElU2YvfGikUu7tNlO7WoOSBIryfJ2xYU3Cmf5Ki1MLoebUNHM290mje1P_Ahxqs5AnJRRCHuvKsNh_Vgfon2peDvFvbra5neJtMXo8uUw6qGEGVp8JT4FQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMx2ZPvl8fTKjJ1KhVEjx6hmEFuirCzvQqLdpeA91H7spgXuWYz0TxmdTnR6sgJjSMxjaAsRELKIV2DxOenPPhwoLeLcmH2Wxug2miMxJszqL0fgkYtJ0EmfamoYHkSRoJY78J56gjaT23YloHaA3bl6Q=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La tombe est caractérisée par trois longs couloirs en pente douce, qui représentent symboliquement la descente du défunt dans le monde souterrain et sa progression aux côtés du dieu solaire Rê durant les heures de la nuit.\n\nCouloir B : la Litanie de Rê\n- Décoration murale : ce premier couloir est principalement consacré à la Litanie de Rê, un texte funéraire majeur qui identifie le roi défunt aux 75 formes du dieu Rê. Le but est d'assurer l'union du pharaon avec la divinité solaire pour garantir sa résurrection.\n- Plafond : le plafond est richement décoré de motifs protecteurs. On y trouve des représentations d'oiseaux sacrés (vautours et faucons) aux ailes déployées, ainsi que des scarabées ailés (symbole de la renaissance, Khépri)."
+      },
+      {
+        title: "Couloirs C et D : le Livre des Cavernes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM2dLX8DvbMgSbM7e_nDCaGAcLfOqgCuPnoLNEDNP3ttLJGYC6cqTMuderqdkEqPYt_5KNdY4jAj-Zu1GTPr3CpuHbzw5BM_88qeJ4MQpHSVniVPjQuNrDCdd6obi7XMF9cxA5l-4Y1ACD82nZpa-UqwQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMygOsA4GXUho-XMqACD42AkkkPtzhtqlBdU8S3QgQSipTBSXxuvWHUn7g_djUGHLsJcrV3IAt2O66pOWlRh5t4b2115y7tOq5GnsEttjz9JXBC55SpY9p6E_bJo_l3KSEyhTTkn8o5BsW9Oyi6D0WUTg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Couloirs C et D : Livres du Monde Souterrain\n- Livre des Cavernes : ces couloirs présentent les premières sections du Livre des Cavernes. Ce texte décrit le monde souterrain (l'Amdouat) segmenté en cavernes, chacune peuplée de dieux et de bienheureux, souvent représentés allongés dans leurs sarcophages. Il montre la progression de Rê à travers ce monde nocturne.\n- Niches des Litanies : les murs de ces couloirs comportent également des niches, qui contiennent des figures des divinités mentionnées dans les Litanies du Soleil.\n- Les Litanies du Soleil : ces textes continuent d'orner les murs, accompagnés de figures des divinités que le pharaon rencontre durant son voyage nocturne."
+      },
+      {
+        title: "L'antichambre : le Livre des Morts et la voûte d'étoiles",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMEbKRYToRBfeZDjecqQ3qZIlL_kkkxOxeBRuiZvvwerpfKP3BsdtgpvV5E_RKHidqw0upSQ3ByQJLSxVhkGCe4Ek8gde14RRQBz4siwo6ota-xc3hMCwrUVMrPHFUSYaY8PLOULce49a_5iQs3wkTqpw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO1eVwrXF9dl2LZvtdtqIsQZAo-bMjSR9qbYRiqvWAKqIahm1EivauorWkFc9lZ7VL6Ue98j44r22DSuG47H3ji7NChzjD6zJDfvGBXGNLsNzigJOq3fu1XnqRTYpTe2aje5caNs3ZiR_JhLV6VZHVauQ=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOf6pFZ0sLkUJ3ZjPmKAtl-aluF_VrLjF1JyMvf0cg148Yk9IxYD2haCN4TVS1slHwINjSoeS8Mwcx0gFX8wsyrecD4XAUmOphWILOJKDTiT-9u0ZxU3zDMIu8n3UYrElCJPf_476fYVTiFRUg8sanQEg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Après les couloirs de descente, le tombeau s'élargit dans l'antichambre (également appelée salle des offrandes ou du puits, bien que le puits n'ait pas été creusé).\n\nLe Livre des Morts\n- Murs : les parois de cette pièce sont consacrées à d'importants chapitres du Livre des Morts (ou, plus justement, le Livre pour sortir au jour). On y trouve notamment les textes relatifs à la justification du pharaon dans la Salle du Jugement d'Osiris, où le défunt doit prouver qu'il a vécu selon la Maât (l'ordre cosmique et moral).\n- Les 74 colonnes de texte contiennent les formules magiques que le roi devait prononcer pour assurer son passage et sa renaissance dans l'au-delà (y compris les célèbres chapitres 123, 124 et 127).\n\nLe Plafond\n- Le plafond est magnifiquement décoré, souvent avec un fond sombre ou bleu nuit, orné d'un motif d'étoiles jaunes et des cartouches (noms) du roi Ramsès IV. Ce décor rappelle que le pharaon est assimilé aux étoiles circumpolaires, celles qui ne se couchent jamais, symbolisant son éternité.\n\nL'ensemble de ces décorations avait une fonction magique essentielle : elles formaient une carte routière spirituelle et un moteur de renaissance destiné à transformer le corps du roi en un être immortel."
+      },
+      {
+        title: "Le serpent d'éternité et les buttes de la Douat",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN0BWqE-5ZMm_WPHfc_BnGKnYknJoI38h6NvlzBHqevlXifzB4LXPHjUAgvBP21Rtax3BdJ_hbMQyWg1VvqPlQBDKknpJo09mvEXjME8i_aZgYokcrzmIkwMwKQkU6ISfRc-6i9RBOXotmHfUN6SLj1KQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "L'œuvre présente une iconographie complexe sur fond ocre jaune intense, où une série de divinités anthropomorphes féminines, coiffées de perruques tripartites et vêtues de fourreaux traditionnels, progressent sur un plan incliné symbolisant les buttes de la Douat ou monde souterrain. Au centre de la composition, un serpent monumental aux anneaux sinueux et dressés semble émerger d'une structure rectangulaire, figurant une entité protectrice ou un obstacle que le dieu solaire Rê doit franchir lors de son périple nocturne à travers les douze heures de la nuit. La partie supérieure est surmontée d'une frise de colonnes de hiéroglyphes polychromes finement tracés, utilisant des pigments de terre d'ombre, d'ocre rouge et de bleu égyptien, qui détaillent les litanies et les incantations nécessaires à la régénération du souverain défunt. Le registre inférieur offre une répétition symétrique de textes sacrés, créant un rythme visuel qui encadre la scène narrative et souligne la fonction magique de la décoration murale destinée à assurer le triomphe de la lumière sur les ténèbres. Les détails anatomiques des silhouettes, avec leurs membres graciles et leurs visages de profil, témoignent de la continuité du canon artistique thébain tout en affichant la saturation chromatique caractéristique de la période ramesside tardive. Cette section particulière met en lumière le concept de la « caverne », lieu de transformation et de châtiment des ennemis d'Osiris, où le roi, par la connaissance de ces images et de ces textes, garantit son passage vers l'éternité céleste."
+      },
+      {
+        title: "La Chambre de l'Or et le sarcophage de granit rouge",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOhK6hHIutamaxSJj71koCSY_Fy-TgA34x0rAkb0TpUhMOePzWNuJCu5fwlGQgYY7P-mkqA9994HAQZoJ39pmzfCiuUqbReOp2xe9s1IBMT8xkTDw9qR0Cjh1oerDjs8JF56T236aOLx8ADkIs6V3tRNA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOwoWLe0aPCvgrjv8Sn7lmn2rMAzGFmExmSRHYAx3YHr-M7hdK30ZRJoe3z-4_jEYwpr0sCA0sKp4eyeUP3IdG0CSNIOalCifXeJOo60-BpW51dIzHt4k8HvdRMYRb3CHcM3xBk8MmshwtAFsiF3kB6zg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La Chambre Funéraire, souvent appelée la « Chambre de l'Or » en raison de sa couleur dominante, est la pièce maîtresse du tombeau. La chambre abrite l'imposant sarcophage extérieur en granit rouge de Ramsès IV, l'un des plus grands de la Vallée des Rois, mesurant 3,5 mètres de long. Son couvercle, également en granit, est sculpté d'une représentation du pharaon en forme osirienne, encadré par des figures de dieux protecteurs. Bien que la momie du pharaon ait été déplacée vers la cachette royale de KV35 pour la protéger des pillards, le sarcophage est resté sur place."
+      },
+      {
+        title: "Plafond astronomique : Nout et le Livre du Ciel",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM61i58blGZ4BNM_-Xm1le4zca98m3CLhltUxNOwR7DjK50xHVXc4A0jpOo8psyLGAWMmzfuAfuhwKKlmz68DFbM11T1C1fjUHdz9-eIyYzy3hStTBGKPeS1Y6gYkYqaApkZIoGGCWvunOCm3Dw-BulEw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP3-Ndf7NdRVI1cy3RseKSgBRLDRNAh0NJfPlFOC-i7jdi_h7CGm7mnBqOWHg3pQj9diiM1O9JomLhpJ9-SFyJbUD9zs-V2LT_OrDXPRryL_iTnRIHh58O9B4X7qrCMmC-gtWrXcqMxoFbEzCY5Py-A5Q=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le plafond voûté est particulièrement célèbre pour sa décoration astronomique. Il est dominé par deux grandes figures de la déesse du ciel, Nout, soutenues par le dieu de l'air, Shou. Les textes du Livre de Nout (le Livre du Ciel) qui les entourent décrivent le mécanisme de la renaissance quotidienne du soleil et du pharaon, un élément essentiel pour l'éternité du roi."
+      },
+      {
+        title: "Le couloir terminal et l'horizon d'Aker",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN3amxQeqw9bcCfyF7YObV8-NM8U8rSbB9OqHOtrczhscFyO8E7dptzbqN38aMBSvMVa-ucbmRbecO-MNrKhthUt48KwV9a3hStSF99iJTO0kd_nI2QlP9OdXqcVXHTlwx-vWtLxVFLTYX4eDMNggwpuw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOG8P5D889wPpXioJT8mueq1298mHQgECwFOgt5cymVFnbCJxzMPVIjLOc7WlC_i9KM-8zUR7Dr4THYL8D9CpuhgOoMcB-5kbXA1Lwbis02XOst9cT4fFNwSjiQXCZxIL-fEkfSY_FRKV9XC6znl9kx7A=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Derrière la chambre funéraire se trouve un étroit couloir (Chambre K) flanqué de petites chambres annexes (Ka, Kb, Kc). Cet ensemble symbolisait les dernières étapes du voyage du pharaon.\n- Décoration : ce couloir final est décoré de scènes du Livre des Cavernes (une continuation des scènes vues dans les couloirs précédents). On y voit des divinités qui veillent sur le repos du défunt.\n- Symbolisme de l'annexe arrière : la toute dernière annexe est la plus significative. Au-dessus de son entrée, un double sphinx symbolise l'horizon (Aker), marquant la frontière entre le monde des morts et le ciel. La scène finale montre la barque solaire traversant cet horizon, réaffirmant la réussite du pharaon à achever son cycle et à renaître dans le monde supérieur, concluant ainsi son voyage funéraire."
+      },
+      {
+        title: "L'Amdouat et la chair dorée des dieux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPhaYizEOpkJmAu64UcWIDmkJNhUdqBYcoNWSWFrbEksSF4agv3m_4-CzefOXRI9Uxg8hgvkE6ERN5jcOzE0Q7V7GlldYt2Pf_QB7-5legGwQZNAjH0tQcB0ht_TMbMEVVTKQ0njOkzRjmIXiOTBK5mog=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKxgPav5ftc0zvlrZxFkYqrOfBpmwUxzSdN0vSRvhbmJrBhWqnvTTKVCx8L-ZHUEbqe-cAfNokElXpEBfe7XNc0b5hdUHsuzvY5L8D4g-TTKbYag1aZkeWeC_KZW9rBJV9Ea2gktaVBkbyVqw2ySEgKw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN7vFaPiVC4hj0yZ_ek7AWsYjhAfdkBJEWyMwCec-SngUnCbnEL1ou8Tkm3vOwSTnJd0PIKSlBFI_4G28p93F8QBfc1QaMLrQ4fglFxPAsvnezw5Koek2NxUTpOWMFeuyuDuCPpjTq7cBi9g2UQ1iThaw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Décoration murale : les murs sont décorés principalement par des extraits du Livre des Portes et du Livre de l'Amdouat (ou Livre de ce qui est dans le monde inférieur). Ces textes décrivent le voyage du dieu solaire Rê (et par extension du pharaon) à travers les douze heures de la nuit. La couleur jaune dominante dans cette salle évoque l'or, la chair incorruptible des dieux, garantissant l'immortalité du roi."
+      },
+      {
+        title: "La tombe de Ramsès V et Ramsès VI (KV9)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPBjzdRmJHKw8Y8oBQrsMSOiAu-yh7hQfvjD0VzVLDCKGC_Rz7KEYJkhVlBrH_HGJAD4NkwVzU7LWNCLAXXxj0ZsmwpbjkVjS87662QTUOPV5_zexnsxRQjjNoohYQ_zl7MfRlKvg-5Su5L1eMCCBDRXg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La tombe KV9 dans la Vallée des Rois est un monument unique, car elle fut commencée par le pharaon Ramsès V de la XXe dynastie (vers 1147-1143 av. J.-C.), mais fut ensuite usurpée, agrandie et achevée pour son oncle et successeur, Ramsès VI (vers 1143-1136 av. J.-C.). Elle est célèbre pour la qualité et la densité de ses décorations, qui recouvrent le plafond et les murs d'un véritable livre d'images cosmologiques.\n\nHistoire : l'usurpation\nLa construction de KV9 a commencé sous Ramsès V. Après son court règne, la tombe fut reprise par Ramsès VI qui fit marteler le nom de son neveu pour y apposer le sien. Cette réappropriation était courante, mais dans KV9, elle est particulièrement visible, notamment sur les montants des portes et dans les premiers couloirs, où les cartouches de Ramsès V ont été remplacés par ceux de Ramsès VI. Le tombeau, long de 116,84 mètres, est resté ouvert et connu depuis l'Antiquité, comme en témoignent les nombreux graffitis laissés par les visiteurs grecs et romains."
+      },
+      {
+        title: "Descente dans la Douat et cycles cosmologiques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNye2UBwVGf1cOK_ueI4a0n4NRCIzZHbdjPJu57uv4G819nBieyzV3Y6U9iRNammfB4p-c_SKImV4pAPmFvKHRQE_OVN-B2DTbnAvq-2GB6Bjc5EeOCGJsniMJJqqBa_P_5Jd0BltZ9acTD17ZNLiXUlw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMT7WthcRBQFHI5KDBODWync9HLTh-zl-_jrIRa7YTZLMtnyk8IInAvD34heSngnOMHDRUpf-GkhjXNYZ9G-W1Ac0IQ_1lINZrhh42tg6crqE7TU3wib7kzreZYIFh4aoOVrY2lVNmU9vXFQENEzWsztg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "L'entrée de la tombe est marquée par une composition théologique centrée sur le disque solaire, encadré par les déesses protectrices Isis et Nephthys agenouillées, tandis que les montants portent les cartouches de Ramsès VI superposés à ceux de son prédécesseur. Les premiers couloirs, qui descendent en pente douce, sont intégralement dédiés au voyage nocturne du dieu solaire Rê. Leurs parois sont couvertes par des scènes du Livre des Portes et du Livre de l'Amdouat, qui initient le pharaon aux épreuves et aux mystères du monde souterrain (Douat). Dès le troisième couloir, le plafond introduit une innovation majeure en présentant la double figuration du Livre du Jour et du Livre de la Nuit, cycle qui se poursuit dans les sections suivantes de la tombe. Ce troisième couloir expose également des chapitres du Livre des Cavernes sur ses murs."
+      },
+      {
+        title: "La salle hypostyle et la confession négative",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMOc9zniLU0pPlIXfrrLYbpdZMlqNNw8KRfXa_DWn0GDucqVZopcsHQGTkNhcNo6qDqzJB_goAIkBHp73S7LIbOWwTbJJTWWW5xuSLXhpViZ_HSN_c4ocKrcaa1UwMQbdIiXtNVIJ5Hucxe6jRJa7DP2w=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOQy1GtUXh_fUK8bcpH3nF8zdNQkF4ra5lqj7am4Un1UT-I85TprQkhi-N6VX4EvRGxRMacXE2Y1O--O8NmHkcL6y_fuueXqhMTpcrdhVEmjhBsBLzCyi4lEPmx6YdFHK5xNm2wXAapAEVIK_Kp87L6tw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOqnjM-xjBTmo6PceABl--aZe244Td6TwY9YJDp04G4SH5AgMtN9XVM4KrZMbOpQr9X7croM7dy0OchsV1VnOIcmUuRlHYmzHLp36QXQPwINWTrxcU3fJfpUpHDqXLSoduKvR5kV9LsG7Jg4MRvKg1vpg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La progression mène à la vaste Salle Hypostyle (salle à piliers) où les décorations murales prolongent les récits de la Douat et montrent Ramsès VI en pleine interaction rituelle, présentant des offrandes et des libations à des divinités majeures comme Ptah, Osiris et Khonsou, représentées sur les quatre piliers. De cette salle part une rampe conduisant à l'Antichambre, dont les murs sont couverts de chapitres essentiels du Livre des Morts, y compris la célèbre Confession Négative, complétée par des hymnes au dieu Rê. Le plafond de cette antichambre représente le roi prenant place dans les Barques du Jour et de la Nuit."
+      },
+      {
+        title: "La Barque Solaire : Mandjet et Mesektet",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP4IDyDH0zSNbEcSYAruiS4SHfTnrb6756pn8t97-WejTEjIlGCmnQp5IoQ5xOpONiKwcedAYwdEaiZV8gaDVOw19lO_gwFnwJ2SFjZ17UpajyZDbXtKq8KfHTgoP9YMEFU0STZNW9Lq44-RiRPBShoKg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPu1zE3-Wdf9KE0hRR3LAbQf-1aJktGoSOrm4VOKtHb5NPcjM2dY4mq2qdPO3ooC8PtTAZOEenxGyHCbNAJmETstXhcGsCH-Ub2J1l68VJnrqdcUL0ZVkOrZLkFQCYK9KyYaKpX85omCIAtImo1FCNNnA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La Barque du Jour et de la Nuit (ou Barque Solaire) est un concept fondamental et central dans la mythologie égyptienne antique, essentiel à la compréhension du cycle de la vie, de la mort et de la renaissance. Elle représente le véhicule utilisé par le dieu soleil, Rê, pour traverser le ciel pendant le jour et le monde souterrain (Douat) pendant la nuit.\n\nLe Cycle du Voyage de Rê\nLa Barque Solaire n'est pas un seul et même bateau, mais deux embarcations qui assurent le cycle perpétuel de l'existence :\n- Barque du Jour (ou Mandjet) : utilisée par Rê pour son voyage dans le ciel, de l'Est vers l'Ouest, marquant le passage de la journée. Rê est alors souvent représenté sous la forme du dieu jeune ou du dieu créateur dans sa pleine puissance.\n- Barque de la Nuit (ou Mesektet) : utilisée pour la traversée nocturne dans le monde souterrain (Douat), de l'Ouest vers l'Est. Ce voyage est périlleux et représente la mort et la renaissance. Rê y est représenté sous sa forme vieillissante ou à tête de bélier (associé à Osiris)."
+      },
+      {
+        title: "Le combat nocturne contre Apophis et la régénération",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOr7mrNPm2eBr1FYvG-8I0o2MfGErDqc7PVS3twF9QlHPIENsWRd_JU9UXNwSMxTljDG_0PjMTNQu7SYg55HvVTsUgrY2Z02fD5u0M9Odz0w_DTJ-1xOyqIFyC9NhVUOKEGiJmAIlwWwZN5cFijjh6zsw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPlFHOk3_-nryRNI6qg6K1JOGNNHAUpAy4-ZWHHDLZI6GTG0QVk5hDIDxVZ63mlw9vu7rWkBTK6yCo0B2a4M9nQ36QW3L9vDe4JvhjN0kIPKYZP_R4B2dh66x2xWmruDbeAnaXqcm_YtTEij7Spg_10Pw=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNwZiMEIiZkt1x0jiqR7n8K4UfoXfUTXWKs8LTXFoGx5MfPYcjz75ycCILB1-8_ii-fMOJF2k-a7zZn6xe97e2VVtIoe7uIGrlPazdRGGJhv1NpC9qn9vIJBi2D7vQtb9Mm7JVpBPg-x__kowA4U23p5Q=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le Rôle pendant la Nuit (Barque de la Nuit)\nLe voyage nocturne est le plus important pour la doctrine funéraire, car il symbolise le passage du défunt vers l'au-delà :\n- Le combat contre Apophis : chaque nuit, la Barque de la Nuit affronte le serpent géant du chaos, Apophis, qui tente d'engloutir l'embarcation et de stopper le Soleil. Les dieux et les esprits des morts dans la barque aident Rê à vaincre Apophis pour permettre au soleil de renaître.\n- La traversée de la Douat : le parcours de la barque à travers les douze heures de la nuit est détaillé dans des textes funéraires comme le Livre de l'Amdouat ou le Livre des Portes. Chaque heure est une région (ou porte) du monde souterrain, avec ses propres épreuves et divinités à rencontrer.\n- La régénération : à la fin de la nuit, le corps fatigué de Rê est fusionné avec le corps d'Osiris (le dieu des morts et de la résurrection) pour se régénérer. Le soleil renaît à l'aube, symbolisant la victoire de l'ordre (Maât) sur le chaos et la promesse de résurrection pour le pharaon et le défunt."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOGSY_cf4PO49p732IfaVDXwvHQgs4BKFiZRbTLbmUTeIs3kPXgulAGnnV0ggbA3Pc7jxuwxeuQfR_kFcXrUs1qfRCevdsXJwEopb3-7nmVU9n61gb3T_MLNE096YKF2PKP-h2p5xfpykcCnT7bgngYtQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO9XBjFuA9e-LcipXaM-GMm64yzBAas44Zs0r_uC2d3Yn9YzkSCHmrXAA9g6PVnECYrD_9qoARvyuGnTpbTOTNFM78BW_QlDMj2IuMm4lUMsGr9sGFi6BwLrPL6A2bMl71RpBXCvtbNDNFOlpqzLWGguA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La Chambre Funéraire de Ramsès VI et le Livre de la Terre",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMFRpDqYKavLb097DDB8Vtoec_f4bF4PQPXH_DyPO04GrRrvl8MsEiuo6bNRuKoT74FTcJjh2TKu7lI47ZAVFcc-IVkIB1ZPwj16-IeW1d3Jk2b6j7PubcF3SjpshOkRwPG-bqzOjFg9VSp_mIywXsWCw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le point culminant architectural et théologique est la Chambre Funéraire. Ses parois sont entièrement ornées du Livre de la Terre (ou Livre d'Aker), décrivant de manière détaillée et complexe la géographie du royaume d'Osiris et le châtiment des ennemis du soleil, figurés par des hommes ligotés, renversés et décapités. Le sarcophage en granit du roi reposait au centre de cette salle. Enfin, la voûte est célèbre pour son magnifique Plafond Astronomique : la déesse du ciel, Nout, est représentée deux fois, son corps arqué encadrant une double version complète du Livre du Jour et du Livre de la Nuit, intégrant également les figures des constellations et des décans. Cette composition assure symboliquement la régénération ultime de Ramsès VI par son association au cycle perpétuel du dieu solaire."
+      },
+      {
+        title: "Nout, matrice cosmique et voûte céleste",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOW_Fw6YWUM7LNAQ8LlZwyDrkAZeNLVlhgljUNM6FxJTU6r-YQ1Reo-UESYTbny1WV8KIJLfYl0yzORWMFCRjFfU-MAf8p6qEwcj1h-i74oBK9hbfSx9hc6o_mesCkUSa6ebvM02syLdwfbQ1mrSzBiiQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPdc3MkH2bRoqRnbxFd-l8n365BARPxFNd9uCIBURHaldGDBMtln480M0i1nmgt-bLbnYJPi_HNJDLnqDmRHRMAhkitrnbF6HxEn1sj8D-9E_1ZmFeP-wmK3iqW6h9VHTBw89rwauJrtOv5i0GfIpNBrA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPQK8HgUBWlTMF4DJbb1Fo3R5LsGrycmvsGPb2nDl_kduEP_LxABKnqoo5zj_sZ74vlzqrIr7LzfyK7SIvwLWrDbEowvbwVLEb_fEyil6jcsXFyGSWzO1aaRgaJ6ehEOtyemi6C1imw512aEYPb0kMY5w=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le rôle principal de Nout dans cette tombe est de servir de matrice cosmique pour le dieu soleil, et par extension, pour le pharaon défunt :\n- Le corps comme voûte céleste : Nout est représentée sur la voûte de la chambre funéraire comme une femme immense, au corps couvert d'étoiles, arquée au-dessus de la Terre. Cette posture délimite l'espace où le cycle de la mort et de la renaissance est accompli.\n- Encadrement des cycles du temps : son corps encadre deux versions complètes des textes du Livre du Jour et du Livre de la Nuit. Le fait que ces deux livres soient contenus en elle souligne qu'elle est le réceptacle qui permet au jour (vie) d'émerger de la nuit (mort), assurant la continuité du temps.\n- La double Nout : la présence d'une double image de Nout, dos à dos (une pour le Jour à l'Est, une pour la Nuit à l'Ouest) sur le plafond de la chambre funéraire, est particulièrement symbolique. Elle matérialise le cycle ininterrompu : elle avale le soleil le soir et le met au monde le matin. Le pharaon, enterré sous ce plafond, est directement placé sous la protection de cette matrice céleste, garantissant sa propre renaissance."
+      },
+      {
+        title: "Constellations, décans et mesure du temps céleste",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNYujAcPAC6dGGdnq9D4oSDWH1ybR1Gl5sdaG05doZhsS5vdYSK1nBoGG763UfC1yljfXoQo5s4xwJfPkRQz8iRrNU4UDAvcv-71W9RRABTyja6_Yc3VXP5pKHy9pzqK85byMviM-JIOxSya9YlBhWxeQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP06w46VZFas-ZS7o4YrFTB_lCcwxV996lNK-YYuJVdf1vIosKFxmIHrdtidCNWLpDlQ0cB54RM5fAlLSuTatJ7I3lg8RNu6JOZsGn80XW31dLYUan2H_ylKpTDEW2iUOABA91Vbl4qeNsBtq8x6M-yug=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNGhfUOo_6Wy8rAYRfXFxDcBANsIJDLuNcKm-A1Id4azybFwnLiq3rduoBMB_pRD79aObsWyauCaqI6hzF2_Pmp5JnDJBpeZUCBbBslLLgxGvIRpq11OOuVKnEdwtSmMoA7A3PS5ddmtHz3lyxAocKhKw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La présence de Nout n'est pas limitée à la chambre funéraire, elle commence dès les couloirs :\n- Apparition précoce : dès le troisième couloir, le thème du Livre du Jour et du Livre de la Nuit est introduit sur les plafonds, souvent figuré sous les traits de son corps arqué. Cela prépare le défunt, à mesure qu'il s'enfonce dans la tombe (et dans le royaume des morts), à la fusion avec le cycle éternel.\n- Maîtrise du temps : les scènes célestes sur les plafonds incluent les décans (groupes d'étoiles qui servaient d'horloge nocturne) et les constellations. Nout est la mère de ces astres, et sa représentation aide le pharaon à maîtriser le temps et l'espace célestes, nécessaires à son voyage dans l'au-delà."
+      },
+      {
+        title: "Cartouches royaux et survie du nom de Ramsès VI",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM19v_4I-JzUWzLCp4GcGIN0033LjUwo-bbmTJ4YNnu3t4lamUQeLUU6f6XWn44geJxB4q1wcwk1T4v4EDSaMAAJlx9VSfYjt49zssiiAXTkhonjWrQQOuQb3MVOaPcWtOrfqtsyqeayNGHPAA0BIHtdg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM99g0j80mwVYTQCL2li8BBk6B4e4gwzg5EVK6_g5VMkX7BvUgdIrb1wrnZE_vR8lM8GT9A9TJneF4NxLQlwzsvT_b3ApiTLUJu52sHAfKe2v98yATr60_Nl14iz75JVDbivH3rEip3ka4v2ciHCs4SbA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOT-lLk6zvoIL3Vdnwgpp55C5b9-3BGf1_WA4PvvFfm4FmkhyKhhtiPOLYmUxC0fLrUG6_OjT67TyN_hHRs3MYs6s0_ZOp5QrhaBchaBRCqeZJQbe61SAf8b0GH8X24dR6_wrjwPs5idoX2Dj_ZWrW_rg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "L'œuvre présente une alternance rigoureuse de noms royaux inscrits dans des cartouches sur fond jaune d'or, symbolisant l'immortalité. On y reconnaît notamment le nom de couronnement Nebmaâtrê-meryamoun (Ramsès VI). La densité des signes est caractéristique de la fin de l'époque ramesside, où chaque centimètre carré de la paroi est investi pour conjurer les forces du chaos. La finesse de la gravure, soulignée par une polychromie restée extrêmement vive, témoigne d'un chantier qui a duré près de six ans, utilisant les textes du Livre des Portes et du Livre de la Terre.\n\nContrairement à la tombe de Ramsès IV, le style ici se fait plus compact et les contrastes de couleurs plus marqués. Les hiéroglyphes sont exécutés avec une précision presque calligraphique : les rouges terreux, les bleus profonds et les blancs de chaux s'équilibrent pour guider l'œil à travers les récits cosmogoniques. Cette paroi illustre parfaitement la fonction « incantatoire » de l'art égyptien : l'écrit n'est pas fait pour être lu par les vivants, mais pour vibrer éternellement dans la pierre et accompagner le roi dans sa fusion avec le dieu solaire.\n\nLa présence répétée des figures de divinités agenouillées au-dessus des cartouches renforce la dimension rituelle de la scène. Elles semblent porter et protéger le nom du roi, assurant la survie de son Ren (le nom), l'un des composants essentiels de l'âme égyptienne. Cet ensemble monumental, par sa perfection technique et sa richesse théologique, demeure l'un des plus hauts témoignages de la pensée religieuse de la XXe dynastie, transformant la chambre funéraire en un véritable temple de la connaissance ésotérique."
+      },
+      {
+        title: "La tombe de Mérenptah (KV8) et ses sarcophages géants",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNkaOY6sVBqI5fszLs98_vsO9jfPQo2wkcJcF6sPpJFrpMMtH7ePvP1whDToyvqb69l7GjeALdBkn4lHD3Wg0l6PXECayoo_Wbfr8FvYI_t1T-IEGcNgFSuBd8O1t-vbOwuqQ0aVFJ3d0myjteqx09MXQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMwP9uAKdbFU_K66JUDRo8tdNfuPt7CLGMT-Dk9tG-CWBJhb59BezVyKEVm3o7yAd2k5O8LGWhYh4HbbKjDuHom8yYxScxV5JZ00BVgzIBEjIxhTgfehO-_B08Qte5q5AJLKLk04mXVUf8NW42iQVs3yA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La tombe KV8 est la sépulture du pharaon Mérenptah (ou Merneptah), le quatrième souverain de la XIXe dynastie (Nouvel Empire, vers 1213-1203 av. J.-C.). Fils et successeur du célèbre Ramsès II, Mérenptah a fait construire un hypogée immense qui s'étend sur une longueur d'environ 165 mètres dans la Vallée des Rois.\n\nL'importance de KV8 réside à la fois dans son architecture, qui a servi de modèle pour les tombes ramessides suivantes, et dans l'ampleur de son programme décoratif.\n\nLa tombe KV8 suit le plan axial (rectiligne) typique de cette période, mais avec une ampleur significative :\n1. L'entrée et les couloirs : la tombe commence par une longue rampe d'accès, suivie de plusieurs couloirs descendants qui mènent au cœur de la montagne. Fait notable, les architectes ont dû raboter l'inclinaison du couloir et démolir puis reconstruire les montants de portes. Ces modifications ont été faites à l'époque pharaonique pour faciliter le passage et l'installation des quatre sarcophages monumentaux en granit et calcite du roi, dont l'extérieur était gigantesque.\n2. La salle du puits : un puits rituel, autrefois destiné à piéger les pilleurs et à protéger la chambre funéraire des inondations, est présent.\n3. La salle à piliers (Salle F) : une grande salle transversale, ou salle à piliers, précède la chambre funéraire. Elle est souvent endommagée par les inondations passées.\n4. La chambre funéraire (J) : c'est la salle finale, conçue pour accueillir les sarcophages emboîtés. Le sol y est enfoncé pour accueillir les cuves de granit. Le couvercle extérieur de l'un des sarcophages y est encore visible aujourd'hui, représentant le roi en gisant, coiffé du némès."
+      },
+      {
+        title: "La tombe de Ramsès III (KV11) et ses 188 mètres de galeries",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP6WKkLhQgGTx0sVb8ht_siEGMF76InVlwbeVIYK11RyN3iH3g_CppqkFb3Vc1-yPgDwQoZdAYw5K2XZWVzxXQ6cC8195PjNYyr6mbqgimuInHyYjHZgl5nL1OMhoH5ZYEk33h-i9eT5gzT07srC7Uo9Q=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPRCiENKCRwuzCPSJf3th0ADFsNoYX8prCb4k0-XK7b5qM3zFBLvjqcwMx0C8Ihvu_K0ddueGXzgWLITI_SECvwEupvF-1Uz5Ig_uQfoyeOKjKH896mntNzFukDWpikFXdTL64vqHEqpLCZxmVYhYrJJA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO7jXNQR2SVUFR0EPqcw_UE88YMWr0N1DePYJAuIXpWyWyiD6DFJxDMoM_DYX-322wTD8syhVo_-xeOfgPrCfNZTc0y3sZLAqVrUDxKLfCCg3Z5fWSNel6qqzX6gxkotrTwtbk3WHIhkUkDW1H02NoauQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La tombe KV11 est l'hypogée du pharaon Ramsès III, deuxième souverain de la XXe dynastie (Nouvel Empire, vers 1184-1153 av. J.-C.). Elle est l'une des plus longues tombes de la Vallée des Rois, s'étendant sur environ 188 mètres. Initialement commencée pour le père de Ramsès III, Setnakht, elle fut abandonnée temporairement lorsqu'elle heurta accidentellement la tombe voisine d'Amenmessé (KV10) avant d'être reprise et complétée sur un axe décalé pour Ramsès III."
+      },
+      {
+        title: "Chambres de métiers et la Tombe des Harpistes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNyTAXNsffSh6QOAITCyrPy4fMUQ8CaXi9JaTPz8iniZX2IBw4KwkDU88wKTycMtiYGSvW1bPGAOOt1Q7asXdVaYblyVdu2JfXgosXf_sq6AYDYAf3pBgJ0ujhRwOt98_wArvuq_-7Q48tYlZws-RwIIw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM4-M1NaYHSEBnnRf9Ic6Sqr7xoG7rdR3290-LUiqX9wtWBEOfjozTaNyrl13q_XwV_K8SiAbnAFC5lb-UbYZ7q8pryMnGXqoopwoEgKTXQJIC886r9Y7rttlD7h0v4Og56_wvRXJgwzYV7nzFt3nlTZQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOjMu-ryuiTwxG1lFJzcoJ3TIDnbN4G_ARawvzVvwJjqDDA6tundelWr1-mYHRzqSwzgR9KDb10NF7Gg8x06ATOx0WT8TO45irejrqT_wUGv5A35spBt5-oH4vWtwQxTDq6ug8RXL-PtsNzBcTVlt3Yww=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "- Entrée et couloirs initiaux : la tombe commence par des escaliers et des couloirs descendants ornés de la Litanie de Rê. Fait architectural unique, l'entrée comporte des pilastres sculptés à tête de vache, symboles de la déesse Hathor/céleste.\n- Chambres latérales uniques : les deux premiers couloirs sont flanqués de huit petites chambres latérales décorées d'un type de scènes sans équivalent dans une tombe royale. Ces pièces représentent la vie quotidienne et les activités profanes : boulangers, bouchers, cuisiniers, artisans du cuir, et même des objets de luxe (mobilier, vases de style mycénien, et armes). Ces scènes ont une fonction symbolique, assurant la subsistance éternelle du roi.\n- La déviation d'axe : au niveau du troisième couloir, le plan original a été modifié par un décalage de l'axe vers la droite pour éviter KV10. Cette section mène à la salle du puits rituel.\n- La Salle des Harpistes : l'une des chambres latérales est célèbre pour ses représentations de deux harpistes aveugles chantant les louanges des dieux (Atoum et Shou), un tableau si célèbre qu'il a valu à KV11 son nom populaire de « Tombe des Harpistes » dès sa découverte par les explorateurs européens."
+      },
+      {
+        title: "Textes sacrés et mobilier de Ramsès III",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN4e33DKxpTiO_IL8MPMNE7n-wDtvS0iymk3wHhVooixGWOzj4_mDe4SzmdCO5P59c3sv1C9ktw3MEiAZt1QfeD35_NRMZVnHjTnZEpPhzvpnan2f5Km4aNCari_XFomttmQ_GvclVCZ_Qv5q6-OFEz4g=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOtjBI98V5x6ESloUvimR1SiAY9cFo7NKX9AfwRkra1E2YCwemQBKNikQPE98btvMSziUbJHVgmDKS2wt-LomcJqmJuIe9cy8STGWAL2Ghgu0RQbYhBAEaEkc0rDMsyOBy7B4KPrlOHLtM68SQanykwMg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPDhuPCKFOmfyk3xlGWYi3tGV8tbPxcXdzAtCCqRIPvx4gvAfTl_9_4xQqzJC5jilK9LiN1zLogL-uU2wwVGQSSCbl1DYhM_ZXC9AxpV3EIaKvj_jMCQFzpvSxKgEdTohNSJbDJlgcTj-Geot2gAH1e6g=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La décoration de KV11 est remarquée pour la qualité de ses bas-reliefs et ses couleurs vives qui ont été relativement bien conservées, surtout dans les premières sections :\n- Couloirs et salles : la majeure partie des couloirs est couverte par les principaux textes funéraires royaux : le Livre des Portes, le Livre de l'Amdouat et des extraits du Livre des Morts, tous décrivant le voyage nocturne du soleil et l'intégration du pharaon dans le cycle cosmique.\n- Chambre funéraire : cette salle finale à huit piliers (certains piliers sont incomplets) était le lieu d'inhumation. Son décor est centré sur le Livre des Portes et le Livre de la Terre (ou Livre d'Aker). Fait rare, une des salles adjacentes comporte le Livre de la Vache du Ciel, relatant l'histoire de la rébellion de l'humanité contre Rê.\n- Sarcophage : le sarcophage de Ramsès III, en quartzite rouge, a été retiré de la tombe et est aujourd'hui séparé : la cuve est au Musée du Louvre à Paris, et le couvercle est au Fitzwilliam Museum à Cambridge."
+      }
+    ]
   },
   {
     id: "thebes_ramesseum",
