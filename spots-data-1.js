@@ -13444,17 +13444,200 @@ const travelSpots = [
     subdiv: "Denderah",
     altitude: 76,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "ptolemaique",
     era_label: "Période Ptolémaïque & Romaine (Ier s. av. J.-C. - Ier s. ap. J.-C.)",
     century: "Antiquité (Ier siècle av. J.-C.)",
     category: "archeologie",
-    lat: 26.1420,
+    counts: {},
+    lat: 26.142,
     lng: 32.6703,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNHuBkRjy5aioymSE7CpQUG8TvDuDxAdu3zd5ldR5sNKim6Cei2vereEnv1XBPgb2l-Czb0Y-6fN8F5SQ7OpLvI2m7N_hw69F7ur4OLmuSkTXF_FYpyGwjBN-wOFYadpC27WAsS0m3L7r2FDaw6qcNADQ=w2624-h1750-s-no-gm?authuser=0",
     description: "Majestueusement dressé sur la rive occidentale du Nil à une soixantaine de kilomètres au nord de Louxor, le complexe de Denderah abrite le temple d'Hathor, l'un des sanctuaires les plus spectaculaires et admirablement préservés de toute l'Égypte gréco-romaine. Dédié à la déesse de l'amour, de la joie, de la maternité et de la musique, ce chef-d'œuvre en grès ocre fut édifié sous les derniers souverains ptolémaïques et parachevé par les empereurs romains, d'Auguste à Trajan. Protégé par une massive enceinte de briques crues, le temple impressionne d'emblée par son immense façade monumentale et son pronaos soutenu par vingt-quatre colossales colonnes sistrophores à chapiteaux hathoriques à quadruple visage. Les récentes campagnes de restauration ont révélé la splendeur chromatique d'origine de ses plafonds astronomiques, où la déesse Nout déploie son corps constellé d'étoiles azurées pour engloutir et régénérer le disque solaire. Célèbre dans l'histoire de l'égyptologie pour avoir abrité le mystérieux zodiaque circulaire de Denderah transporté au musée du Louvre, le sanctuaire associe la ferveur des cultes osiriens à la gloire de la reine Cléopâtre VII et de son fils Ptolémée XV Césarion, immortalisés en bas-reliefs triomphants sur le mur extérieur sud.",
     visiter: "La découverte commence par la traversée de la vaste cour bordée par les deux mammisis de Nectanébo Ier et de l'époque romaine, ainsi que par les émouvants vestiges d'une basilique copte du Ve siècle. L'émotion s'intensifie en pénétrant dans la pénombre grandiose de la grande salle hypostyle, où le regard est immédiatement happé vers les plafonds d'un bleu céleste étourdissant ornés des barques sacrées, des constellations et des douze heures de la nuit. L'itinéraire franchit la salle des apparitions et les chapelles d'offrandes avant d'accéder, fait rarissime en Égypte, aux cryptes souterraines secrètes ornées de bas-reliefs d'une finesse chirurgicale figurant les fameux « mystères de Denderah ». Par un ingénieux escalier en colimaçon gravé de la procession du Nouvel An, on gagne ensuite les terrasses supérieures pour visiter la chapelle du Nouvel An et la chambre du Zodiaque, dont le moulage fidèle rappelle l'emplacement du bas-relief original. La visite s'achève par le tour extérieur du temple pour contempler la monumentale effigie de Cléopâtre VII vêtue des attributs divins face au lac sacré ceinturé de palmiers, dans une atmosphère de sérénité absolue.",
-    link: "https://photos.google.com/share/AF1QipNaQawiK9x2K5Yr5hlUTi_utLdUInp7iXvtBgR6CMF-_JNEYaXhjmJfeEK-fcUxYw?key=UDF3RUV4aDRVQXNRbk5GbW43WDNXR0QtUTY3ZGtn"
+    link: "https://photos.google.com/share/AF1QipNaQawiK9x2K5Yr5hlUTi_utLdUInp7iXvtBgR6CMF-_JNEYaXhjmJfeEK-fcUxYw?key=UDF3RUV4aDRVQXNRbk5GbW43WDNXR0QtUTY3ZGtn",
+    sections: [
+      {
+        title: "Portail de Domitien et Trajan et enceinte sacrée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMt46GryEUTF_gHsFbkj1dySmhKke0I3qiqWxXcU4bEdDHjjveVIdVJ18u7kAsQkHTJIWdw6su7bqAnXvyzXFCp7CXNmyTbx1oxYM6ZM3wZ7AdMvPmUf6PlDu-w33jQbmiU0gTfpW75Xm7EXbjRB9TexA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO7A0gFHiILCvyxw-D-QdPJjd1HyGkrxgh3eTJG8WLeLmlFvh_P1bPduww8Zpl7kZo7s05TK521Ca212Ej-3hqPC1UAYhvUdidxe3mnSmREG5p0q_JmwyH68QoYueT4wntOhtln2oiFE2r7rJkiBMscZQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le portail d'entrée de l'enceinte du complexe de Denderah est un élément architectural tardif, mais de grande importance, connu sous le nom de Portail de Domitien et Trajan ou Porte Romaine.\n\n- Matériau et fonction : ce portail monumental en pierre a été construit pour traverser l'immense mur d'enceinte en briques crues qui délimitait le domaine sacré (téménos), s'étendant sur environ 40 000 mètres carrés. Il servait de point d'accès solennel au parvis et aux structures du complexe.\n- Datation et commanditaires : il date de l'époque romaine, construit conjointement sous les règnes des empereurs Domitien (vers la fin du Ier siècle ap. J.-C.) et son successeur Trajan.\n- Décorations : le portail est orné de reliefs montrant les empereurs romains se faisant représenter en pharaons, dans l'acte rituel de faire des offrandes aux divinités égyptiennes, principalement Hathor et son fils Harsomptous (Horus unificateur des Deux Terres). Cela illustre la continuité du protocole royal égyptien, même sous domination romaine.\n- Contexte architectural : en entrant par ce portail (généralement situé sur le côté Nord ou Est de l'enceinte), le visiteur découvrait l'ensemble du complexe, qui comprenait, en plus du grand Temple d'Hathor, des mammisis (maisons de naissance) ptolémaïque et romain, un temple dédié à Isis, le lac sacré, et même une basilique chrétienne copte tardive."
+      },
+      {
+        title: "Les mammisis et la naissance divine d'Ihy",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP5of-CMQU4A1GCr97olPocQYITEidhEvQ7lH5rInl3GQi8qf8tzSNHrw80im1EXOwDk1exenYuA8MbWHXwYDVwjUUHMcZQ8mvIAEYhcyrFpf79wAwvhZffoAYps_gbkcoiY1Q6zM5V1ammmuISLKBy2g=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM5SKKSqohJyHErfSYmB8eE1CEuN8_fV0OBJuAkSfxns4-Ar89KVPHnsMH8mYhYQ-L2tRIyiFkuVRZYMSAkar3WMoiYjlChwMBVouiyUj2wwNf9gMgRdprMI2sWNXMulVRyMX1567jqj6l4C-NZLP7i9g=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Les Mammisis (terme introduit par Champollion, signifiant littéralement « Maison de la Naissance ») sont des édifices annexes fondamentaux au sein du complexe de Denderah. Leur fonction principale est de célébrer le mystère de la naissance divine du dieu-fils de la triade locale, servant ainsi à légitimer le pouvoir royal du souverain en place, qui s'identifie à cet enfant divin. À Denderah, ces chapelles sont dédiées à la naissance d'Ihy (ou Harsomptous), le fils issu de l'union d'Hathor (la déesse principale du site) et d'Horus d'Edfou, faisant de ces lieux des symboles de fertilité et de continuité dynastique."
+      },
+      {
+        title: "Le Mammisi Romain et la protection du dieu Bès",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP455VYKmLA92JrjyPBcfBxhjR5UzeXFwZbbZBbiTukSDzvtgoBcZSqjbGhcE-TCJtmR-LVIQ4fDKtXCkviWpEAiSKeUzxoHjeCJIj7eI6Ibs6p9fxWvrjKuYnR0K16xAkXlV_O-qKbVmYxUHOOj3wNWw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOpyB42zgZsaF6zpN_NsBOMDWAAF3ZTSPqN_srt3Y16QUeVX6H4fjhXfB1sFA3Ij6-0fGCSadzZ3bCDXTu8_woSAlZKoaxAFyx4CvTBZ6j8lgMdyXVEq-3oImioy2R8uiAuS5kQsUqYjMeBszuhqHFgqA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le Mammisi Romain : il a été édifié sous l'empereur Auguste et décoré sous ses successeurs, notamment Trajan et Marc Aurèle. Ses murs sont couverts de reliefs détaillés illustrant la scène de la naissance divine et les rituels associés, où les empereurs sont représentés comme des pharaons en train de faire des offrandes aux divinités.\n\nL'architecture typique du mammisi se compose d'un sanctuaire principal précédé d'une salle des offrandes, le tout étant souvent entouré d'un déambulatoire à colonnes. Un détail architectural et théologique notable est la représentation du dieu-nain Bès, divinité protectrice des accouchements et des foyers, souvent sculptée sur les chapiteaux des colonnes, assurant la protection de la mère et de l'enfant divin."
+      },
+      {
+        title: "Façade monumentale du pronaos et murs d'entre-colonnement",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczODfIXhHFRDkMNB15FjM9PPvEmiKXTSD5LhOn2wQ9MpOC7uy__0QKzBF5P7stJDsbYCnSc-JiChEKFMKdw3yQraNpV_-F1kEZmIxrfJOIh5W2XXPv5-EE0iuadrb-DxP3USojnEQ3MRIdPyS8-v_TGZOA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPCCag5sHNg_xus6OYbEh5ZSyma_wn4raFUlosB10aQR0SRs-yYnsi_LpofPT9Y2wZhPcQVIcPCF-QktDkZ43Z3H4tD9uChdhs7d0SjNrgbHis16Czj9Ow0Li04OAK__cJtFZG6Ek99YFJ3kopKBY1-cQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Contrairement à la plupart des temples égyptiens plus anciens qui présentaient un immense pylône massif et aveugle en guise d'entrée, le temple de Denderah n'a pas de pylône traditionnel. La façade est constituée par la façade du Grand Hall Hypostyle (ou pronaos), qui remplit la fonction d'entrée principale.\n\nCette façade est caractérisée par :\n- Six colonnes hathoriques massives, disposées en première ligne.\n- Des murs d'entre-colonnement qui relient les colonnes entre elles jusqu'à mi-hauteur. Ces murs de protection partielle créent un écran, tout en laissant l'intérieur du hall hypostyle visible depuis l'extérieur, permettant ainsi à la lumière de pénétrer profondément. Cette configuration, typique de l'époque ptolémaïque et romaine, est une adaptation architecturale distinctive.\n\nAu-dessus de ces colonnes, une corniche monumentale et une moulure sont surmontées, au centre, d'un grand disque solaire ailé, symbole de protection divine."
+      },
+      {
+        title: "Chapiteaux quadrifrons et reliefs impériaux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOMod22yQMviJeW0L0--iILeO4HPylsRelx3LB1P__Rc7Gix-NANcC08u-BbA-r1tHRVdWML0-a7qnO_Hp2Q7HZuM76ODpn9AYYp2R8-acFlf3ByuDS8gOPmcyrI_dHa9WbIAN7XzHvcypQD3U5WW_Xkg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOfXX6dzFHOUgCzBw58WBbZ8Q6wanyMhPR6kvJeYf4RItXR_5ZB2mX2CjdhjQtnZ-U4pyVOisTlQhmQ4A4mQRqnvAITL0DOo-Jd7MeZhZKADsRnuI_vjROwi3Flb5TtCszAW-s1EYredoaEOuhXg8mCaA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le trait le plus emblématique de cette façade est la forme des chapiteaux des colonnes. Ils ne sont pas floraux, mais sont sculptés pour représenter la tête de la déesse Hathor sous quatre faces (quadrifrons), coiffée de ses oreilles de vache. Ces chapiteaux, qui représentent la déesse en tant que souveraine du cosmos (orientée vers les quatre points cardinaux), font également référence au sistre, l'instrument de musique sacré d'Hathor.\n\n- Reliefs impériaux : les murs et les colonnes sont ornés de bas-reliefs polychromes, souvent très bien conservés. Ils montrent des empereurs romains (tels que Tibère, qui a achevé le hall hypostyle) se faisant représenter en pharaons. Ils accomplissent des rituels d'offrandes à Hathor et à son fils Ihy, légitimant ainsi leur règne auprès des divinités locales.\n- Lumière et ciel : l'ouverture créée par les murs d'entre-colonnement permet d'éclairer le plafond du grand hall. Ce plafond est décoré de magnifiques scènes astronomiques qui illustrent le cycle solaire et les constellations, faisant de cette façade le seuil entre le monde terrestre et le cosmos divin."
+      },
+      {
+        title: "Le pronaos achevé sous Tibère",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM1cWq3O63kKfBA5Gg9KaDvtRYQvLCKMgzRxA_yHFMGgDEuSDCH-Eh_t2CHwE6QtFgQj3kvOYaI-1aDhJdU9zdGo2llXNQ9uct2tX8tSpX9UIqYNWvRNg39YLtwCTC6nlw0ecXcIlKQhtrNylnPL1eopA=w1813-h2416-s-no-gm?authuser=0"
+        ],
+        text: "La Grande Salle Hypostyle (ou pronaos) est le premier espace intérieur du Temple d'Hathor à Denderah, immédiatement accessible après avoir franchi la façade. C'est l'une des parties les plus impressionnantes et les plus célèbres du temple, achevée sous l'empereur romain Tibère."
+      },
+      {
+        title: "Les vingt-quatre colonnes sistrophores",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMIas5bfVQS4DWe9FzY-dTUuO_NgY-wdopH1hOuKSHBYFFiyUBjOtAZCHWEtgVrDHw7O3O0sHI9C5ZHcnSHPnca319We4nmO3MjEM6RIsm6DClg3X0sKr18lQYOXZ3iafadXUGosSObMBirnj0iRev4qw=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOUEKx8XO2gZ5ZpgbCiT_uVH0BtdADO-1xeZVrqLBdD-ZkCAESoHSzCugSFpesSS5mY2vOEkDINWGiS5W77Sxo9UNgUR2M6QFUIrhSx0IF_CKvc-kNO7g-ox7Sljw5XkXOEtKF4FEag2k88CRUD8W_VCw=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNHuBkRjy5aioymSE7CpQUG8TvDuDxAdu3zd5ldR5sNKim6Cei2vereEnv1XBPgb2l-Czb0Y-6fN8F5SQ7OpLvI2m7N_hw69F7ur4OLmuSkTXF_FYpyGwjBN-wOFYadpC27WAsS0m3L7r2FDaw6qcNADQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La salle hypostyle de Denderah est un exemple tardif et exceptionnel de l'architecture égyptienne classique :\n- Dimensions et support : c'est une vaste salle soutenue par 24 colonnes massives, disposées en quatre rangées.\n- Les chapiteaux hathoriques : l'élément le plus marquant est la conception des chapiteaux des colonnes intérieures. Ils sont sculptés sous la forme du visage de la déesse Hathor sur les quatre côtés (quadrifrons), coiffée de ses oreilles de vache. Ces chapiteaux ne sont pas seulement décoratifs ; ils font également référence au sistre, l'instrument de musique sacré de la déesse, et symbolisent la présence d'Hathor elle-même.\n- Éclairage et façade : la salle est partiellement éclairée par la lumière qui pénètre à travers les ouvertures entre les murs d'entre-colonnement de la façade, créant un jeu d'ombre et de lumière qui met en valeur les reliefs et les couleurs du plafond."
+      },
+      {
+        title: "Plafond astronomique : Nout et les cycles célestes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOWJEufhEI4PW08RMEsfvd5QM9THLC9lUWxbCiLV9ccVMfeJ1b9ptk4lj5qF2gRFA-xtKmQKfsXEa6bur1XPm0tTwYkizhSl_wMm4xrDhTeluaBizG9rykz-Xvq4Dhp2a1IHrMWWDrcy3supF15oH_DRA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPAweZA8wtp4O3SS2BmPbqCLSSSBW7QoKNAxwUPfm3QIAZDDP1iWVN3AHvXHodO1YptXW4pJIvDHYLDW-h6m2MrNGYXa9hO6lGmpLcnebgtVPT0WPCHuCwnk2Gsj4tAOcz0P3WKXxdb_Gc078bF8hOQyA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN988UMdrffyLFzlARIkNEtH9nz2Y48kl6sqH80fIFBx-JO2NyMh-rFG3QepT43uBmzaR-TAQgcmyquuwmc6T7ZEYLxFGGA9_qnV8-eGV3KeJayCm-wNQF1uuBEPjRNwqwM0iWQSJ7H7iZNl-IeFBt9CA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le plafond de la salle hypostyle est mondialement célèbre pour la richesse de ses décorations astronomiques, qui comptent parmi les mieux conservées de l'Égypte antique :\n- Motifs et couleurs : peint en bleu nuit, le plafond est constellé d'étoiles jaunes et arbore de superbes illustrations des mythes célestes et du cycle de la vie.\n- Scènes célestes : ces scènes incluent la déesse du ciel, Nout, qui est figurée avalant le soleil le soir et le mettant au monde le matin. On y trouve également des représentations des constellations, du zodiaque égyptien, et des déesses des heures.\n- Symbolisme : ces fresques soulignent le caractère cosmique du temple et la fonction d'Hathor en tant que maîtresse des cieux et garante de la stabilité de l'univers (Maât).\n\nLa Grande Salle Hypostyle remplissait plusieurs rôles rituels essentiels en tant que première salle couverte du temple :\n- Lieu de purification : elle servait de zone de transition entre le monde extérieur profane et le sanctuaire intérieur sacré.\n- Salle des apparitions : lors des grandes fêtes et processions (comme la Fête du Nouvel An ou la « Belle Réunion » avec Horus à Edfou), la statue culte d'Hathor y était exposée au clergé et, dans une certaine mesure, au public.\n\nLa salle hypostyle n'est donc pas seulement une merveille architecturale ; elle est un concentré théologique qui résume l'essence du culte d'Hathor et la vision égyptienne du cosmos."
+      },
+      {
+        title: "Organisation concentrique des chambres du rez-de-chaussée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNEdUqsq6rK84Q5xd9XnQWrt0yu4tfbPHXMPSqWcL8_2OcaLSN6w4MtBFQGflfYtMtUOjPHjGzsBTCIyNJwxqEJgPHUreBfENNj8FNi6AUziTjfHguDlS_AdsBCDSkyyU2fr5GctI37zKCNafEdqwxRyQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPYBxt7mlo_m9vAAsMZ-wrUhzPNO82sjSDpuz0K3RnTFMqE_rn9qLyekxNl-T5y__t0oeiU1IZSFOWZym7phEZ2mbMu0ecAouxrQqS25V9ZJeON1aJ1gspIQWH8UjhqG32fKvYP-x_FMjk0riLMcCuJaQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le Temple d'Hathor à Denderah est caractérisé par une étonnante profusion de pièces au rez-de-chaussée, organisées de manière concentrique et progressive à partir de la Grande Salle Hypostyle jusqu'au Saint des Saints (le naos). Ces innombrables pièces, souvent de petite taille et sans ouverture extérieure, sont la conséquence directe de l'extrême complexité et de la nature ésotérique du culte égyptien : chaque divinité, chaque rite et chaque offrande nécessitait un espace dédié, garantissant la pureté et le bon déroulement des cérémonies."
+      },
+      {
+        title: "Salles des apparitions, des offrandes et chapelles spécialisées",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNJX6aRxgDw8RQyU6hNlyAMONcUukVNT0frW4lGOIgystsF92Vaik1KtfOJ1tEwJQgFGvYjJ79FJlOieWBTQ3gJVuivLP5Vj-nKqWqtFHIYatBr71xx8qtYf-OzB5RMXI_kwU0bSv1kRij80kIzZnGcqA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMauTWdQMLCLvfMwsQ2Dv0Qs6sceyh4KrkoR91Lt87f-_U93M1uUseDSh8rqUpRw2SBC-av147_Is2YnjW3Qn_LYc5_8lBqBJLa_HZ2PR59ivw067tevMkiQtnDSsSad7xROGxhYBU1t1nyB4Hp-Psnow=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le grand nombre de salles répond donc à une nécessité rituelle : le temple fonctionnait comme un microcosme où chaque étape du service divin était exécutée dans une chambre spécifique. On trouve ainsi des pièces telles que la Salle de l'Apparition, où la barque sacrée portant l'image de la déesse était temporairement déposée lors des processions, ou la Salle des Offrandes, où les prêtres préparaient et purifiaient la nourriture et les objets destinés à la divinité. D'autres pièces étaient des chapelles spécialisées dédiées à des divinités associées (comme Sokar) ou à des attributs d'Hathor, tels que le menat (le collier de la déesse) ou le sistre (son instrument de musique), essentiels dans son culte."
+      },
+      {
+        title: "Les mystères d'Osiris et le réveil sur le lit léonin",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPsB5-HFcjGqTnyd1qbEs59m_ne-1cFLuMqoopse_Z819QieUa78IdA_aPn4dxHiGxYG8JwiECbKIQ5M1XbXQkXpUbOJLt7Ok7TQMhyEnCsyYJBDQZwtgIMrsS1RAiBQlu5LDfcYEotZ17pR6cG0UaJsA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMm5Dti0UEL1Q8p7zP5QbwJb1bXoQC9tu1LonblLO27Q0FwIXZh8G7WDalZCyTMbXkkiYLvakINFDdXk0rJVex3qBTEjfYpGRE1jDDjDTL5FkTjFk4CgvtyyPNsbWikJRjllk28qVkQ0AarWuuSJozaWQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Ce bas-relief détaille avec une précision rituelle les étapes de la revitalisation d'Osiris, le dieu souverain de l'au-delà. La scène se divise en plusieurs registres où le corps du dieu est disposé sur des lits funéraires léonins, un motif récurrent symbolisant la transition entre le repos mortuaire et l'éveil spirituel. Chaque lit est surmonté d'un faucon ou d'un oiseau-ba, représentant l'âme divine veillant sur la dépouille pour assurer son intégrité physique et mystique.\n\nDans le registre supérieur, on observe la progression de la métamorphose d'Osiris. À gauche, le dieu est encore passif, tandis qu'à droite, sa posture suggère un début de redressement, signe de sa victoire imminente sur la mort. Les figures de faucons coiffés de couronnes rituelles encadrent ces lits comme des sentinelles divines. Ces images ne sont pas de simples illustrations, mais des supports liturgiques destinés à activer magiquement la renaissance du dieu à travers les prières récitées par les prêtres lors des fêtes du mois de Khoiak.\n\nLe registre inférieur présente une procession de divinités et de génies protecteurs, chacun juché sur des signes « nébou » (signifiant l'or, matière de la chair des dieux). On y distingue des figures à têtes d'animaux, notamment des faucons et des divinités léonines, tenant des sceptres et des emblèmes de pouvoir. Cette hiérarchie céleste participe au maintien de l'ordre cosmique (la Maât) en protégeant le mystère de la résurrection contre les forces perturbatrices de Seth."
+      },
+      {
+        title: "Le couloir mystérieux ceinturant le naos",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMzeRvGr_kiCkH0o3iOUKUpJgqBblRwMIyOnw911bvtiryxO1xa9TDSe1GctPgegZpnpSPJb5UzJeHnMeBBcSN4lgKP24Jvwb-3luoEUxPMkDPy6Rv2AuDn3XliAOs-N8AJex4nUL98ZDFb0uZ1MNqV7g=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPBeSRiTu3ZtND5FXRhs9s4Mk51xrjegRaXQDEtplX2YdXv6mctJhNW0owErZ1F4rlBZc5oZHpaSWgsO1GDX_JpFY01oNN4ZDJ1Vt-0We4ApblzlQypxsrTTbha4bFP-MaZV-rci0yLZ1UAy2F8XhpGjw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Les pièces les plus intérieures et les plus sacrées comprennent une série de chambres entourant le Sanctuaire Central qui abritait la statue d'Hathor. Ces couloirs et petites salles, parfois appelés le « couloir mystérieux », permettaient aux prêtres d'effectuer les rites les plus secrets sans jamais tourner le dos au Saint des Saints, renforçant la progression graduelle vers l'espace le plus sacré du temple. L'organisation du rez-de-chaussée est donc une véritable progression théologique et rituelle : du monde des hommes (salle hypostyle) au monde du dieu (sanctuaire), avec une multitude d'étapes intermédiaires matérialisées par ces nombreuses chambres, chacune ayant pour fonction d'assurer la régénération et la prospérité de la déesse et, par extension, de l'Égypte entière."
+      },
+      {
+        title: "Chambres de stockage et archives rituelles",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOqStsSJOj_5aq3PasxUhZmQwDcXNOKfwQy8h08B4XUuhwuvlmi4uEJ2FLQoe5NxZ-6sOmbS0xxSfVKDIMSDqxsWLmipmrwW43jqTcjHYXrsrCg42PIymguZWa2yyy4izAulzOM-l3RA7NZrcd4WgFF0g=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN4-kquD9Ap6e9LWe-G0YNePt6ZETYg7qXnfZEFjVMEzk6QRc1i2AL3AUy_NIpfaQOCf9VmxFlqm6yZU3DR4Jvsw9LpJ3UZNnFxfS_QGg0YohXHLJOm3_LwbPl3Peqqkw6mvcexXGeav9YQ4zjU3A0tvQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Cryptes de stockage : d'autres chambres, souvent appelées cryptes bien que certaines soient situées en hauteur, étaient utilisées pour entreposer les objets sacrés du culte, notamment les vases, les vêtements de la déesse, et les documents rituels. Leur emplacement difficile d'accès assurait la sécurité et le secret des trésors du temple.\n\nCes pièces, bien que minuscules, étaient théologiquement essentielles, car elles représentaient le point de contact entre le monde terrestre du temple et le monde céleste dont Hathor était la maîtresse."
+      },
+      {
+        title: "Le kiosque de terrasse et l'Union au Disque Solaire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP0s8nJx98Bs6gq-C8Iv7uwAIU7I8TU5VBXnk8w4r7wHy4cJmv8HpqpiM7qcg3OP0wy5GiidzHeu3UogFatv0YCJmjDqfSxQv8v7zu2V07qLplHWJWDfSocfz-QjX4q2lFZamBWERnMMMw9lGpsPzJcrg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPfJlk0bagskWqyw2hgftoFl1YXGr9C0OkXwDGnJEO8YGgUnthdrAeOw6CIbSkX_p1pMEuFC3SIBArwLhQLu45tZW5SQrGppVq3H_X9jX4uDLezLAZVzWKoqqiPRs4yldDjHiU4BR5Sr_Fl0O-1u-Uklw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le Kiosque sur la terrasse du Temple d'Hathor à Denderah est l'un des points culminants, tant au sens propre que figuré, des rituels qui s'y déroulaient. Il s'agit d'une petite chapelle ou d'un naos qui joue un rôle théologique fondamental :\n\nLe kiosque n'est pas un lieu de culte permanent, mais un élément central de la cérémonie la plus importante du temple : le Rituel de l'Union au Disque Solaire (ou Fête du Nouvel An).\n- Fonction rituelle : le kiosque était le lieu précis où la statue culte d'Hathor était déposée à l'aube, après avoir été transportée en procession depuis le Saint des Saints par les escaliers.\n- Revivification divine : le but de ce rituel était d'exposer l'image de la déesse aux premiers rayons du soleil levant. Ce bain de lumière solaire permettait la « fusion » ou l'« union » symbolique de la déesse avec le disque solaire, lui transmettant l'énergie vitale pour se régénérer et assurer la fertilité et la prospérité de l'Égypte pour l'année à venir. Hathor était ainsi considérée comme la forme féminine du soleil."
+      },
+      {
+        title: "Le Zodiaque circulaire de Denderah",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMwkAS0sXHXFh-1WXepP3ZT42iR3emzRuhwmp1fZNpP3q0cOc_uJobr1vqi1dBOwI2MSattuobeucEyS7W1t_nn8hE97opPUjoGxLVs5iQ_AeVi4h7b1hm0xDrVoWkT5R9Hu5n7xt2ur2ogHnpQMVlx_A=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNpsFVpWuQ_ax17FCh6tu0HUeGwkG8aSef_vpE-ph34RmTAYWD1vKP-Bswne3Cxk8NPGGeAxPro_PbgJD3xGlhZY1HfMhqAamK5IFQKI-E-wTMNwF3Kg374xhdiVc3uCO9AumaOzXPrsib_CKJlU8H-og=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le Zodiaque de Denderah est une célèbre représentation de la voûte céleste et l'une des découvertes les plus importantes de l'égyptologie.\n\nCe bas-relief circulaire ne se trouvait pas dans la salle hypostyle principale, mais sur le plafond d'une petite chapelle située sur la terrasse du temple d'Hathor. Cette chapelle était dédiée aux mystères de la résurrection d'Osiris, le dieu des morts.\n- Période : il a été sculpté à l'époque ptolémaïque tardive (vers 50 av. J.-C.) et présente une fusion unique des traditions égyptiennes et hellénistiques.\n- Découverte et destination : le zodiaque fut découvert lors de la campagne d'Égypte de Napoléon. Il fut ensuite retiré du temple en 1820 par l'aventurier français Jean L'Hôte et est exposé au Musée du Louvre à Paris. Une copie se trouve désormais dans le temple à son emplacement d'origine.\n\nDescription et importance :\nLe Zodiaque de Denderah est remarquable par sa représentation détaillée et la combinaison d'éléments culturels :\n- Structure : il représente un ciel nocturne complet, soutenu par des figures (génies et déesses), avec les constellations disposées autour du centre.\n- Fusion culturelle : il mélange le système égyptien des décans (groupes d'étoiles utilisés pour mesurer les heures de la nuit) avec les signes du zodiaque gréco-romain (comme le Bélier, le Taureau, les Gémeaux, etc.). C'est l'un des rares documents antiques égyptiens à présenter une carte du ciel complète.\n- Signification théologique : dans le contexte de la chapelle d'Osiris, le zodiaque symbolisait l'union du défunt au cosmos. Il illustrait le voyage du soleil et des étoiles à travers le ciel et le monde souterrain, assurant ainsi la résurrection perpétuelle du dieu et, par extension, celle du pharaon."
+      },
+      {
+        title: "Les douze cryptes secrètes et le trésor cultuel",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO_oh5SBNzenlXTMc2CPBDQu6HWEabLtfhRYCSQxjn_0sisab4jwfeg-8H6m2sKDHdQH-3l1et0RSRdTCRubRshUqPKm-oibhZrFKs7khsDcpnAVk9J546BaH-xW5_lHL40ThO_S8WwYQQ-VJv7nwLDmA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM1Y8Fb3-eaX1tk5qQgYA3viFuTbbGJcdshy6RoOOWtie4QB9Oq-oBEqeImuozMfad9oSX4w6vdsKtZFUQ4RuMDaGu8gwzbzqCpi7VD84C-JlazrGMYslXFxG1pHz-wB9do235P2GE01lXFGoVesPpwUg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOPjc3T3o0gw_njTNB3-LwIn6Ivfz1-Nsx9KHVflSw1yALWSYhtDs3BSybqHKXKGks_oJpimgUt6BDgYqXrqP_d3cZf-DV8WFtW0g-eljcpaYin0I_mfQWdeJyFlGu6Y61S4GL0pDrU8oGhWDMHnwNwhw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le temple de Denderah possède un ensemble de douze cryptes, dont la plupart sont situées sous le sol du Saint des Saints (naos) et des chambres intérieures. Elles sont des espaces étroits, obscurs, et difficiles d'accès, certaines étant creusées sur trois niveaux ou même dissimulées dans l'épaisseur des murs.\n\nLa fonction première des cryptes était le stockage rituel :\n- Trésors sacrés : elles servaient à conserver les objets de culte les plus précieux et les plus sacrés du temple, notamment les vases, les bijoux, les vêtements de cérémonie de la déesse Hathor, et les archives rituelles.\n- Icônes et reliques : leurs murs abritaient également les icônes divines utilisées dans les processions. Ces icônes étaient conservées à l'abri des regards profanes avant d'être sorties pour les grandes fêtes. Par exemple, lors du Rituel de l'Union au Disque Solaire, c'est de ces cryptes que les prêtres montaient la statue du Ba d'Hathor vers la terrasse.\n- Le secret théologique : le fait que ces pièces soient cachées et difficiles d'accès soulignait le caractère secret et ésotérique des objets qu'elles contenaient, renforçant leur pouvoir magique et leur mystère."
+      },
+      {
+        title: "Bas-reliefs liturgiques et offrandes ptolémaïques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOirT9vLFOs9zdFd-rXX96MztoT9U9IJGQcIsXxu9ihqLzYrJZXFswjwvExUk72VrMlxfFO9QLQvuqAF1BTpU1ogHYZjaZvsRg_8tl5O7k49sAKn0ZZ4EQCQQhaaEKOOcV-0fOovDcnehMe4jrtj7bZfA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOV0ZXzW4GjX6Tna8PGShpypI9z8h8MYLA-6NLUeNpDIx2gJjhF_wJhEnR_etZvgIGPgpL-f0NHl51iQBjHXmU0eQFt0Qp_TD7FHMXcHqu0p9uPD5H3sun8pA-0gNqKUt8XfypFtui0QelqnnGDkZZpkQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Malgré leur nature cachée, les cryptes de Denderah sont ornées de superbes reliefs :\n- Rituels et offrandes : les décorations murales, souvent bien préservées de la lumière et du temps, illustrent les rites et les offrandes effectués par les pharaons (y compris les Ptolémées) aux divinités."
+      },
+      {
+        title: "Le serpent d'Harsomptous et la fleur de lotus primordiale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP3G2IccFCgTrSBWPZf5rYBfTe7VKAgDKg6JD_Zar5uQtwKRFSUtkZBG89tbfgAwvuzxEGyBSX1JcIbbj4UI7Ig5BxzsFEJL15eMXrtyBtwE_yLlFAH7lqK4Q7dzIlby9UpN2ytP7f5E-FBk6u7I1PC4Q=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNZbxPeaJ6rgn5CXIfoCHLsasqvRE2QsbINLTN7V5GgdX9Snq9-SBLmW0c-ClbMV2B5o81fw4Wxc0Uo94hTn1xQNyOLsYjp9s9Gb31gx_msvrbfXi-rUJlcuXuhdhbA73Habu3zx77AwcJnA4vWwwcDcA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "L'une des scènes les plus célèbres, et sujettes à controverse, se trouve dans l'une des cryptes. Elle montre un serpent sortant d'une fleur de lotus, ou dans une autre interprétation, une forme de bulbe allongé. Ce relief, qui fait partie du mythe de la création locale (souvent associé à Harsomptous, fils d'Hathor), est parfois interprété par certains théories alternatives comme la représentation d'une ampoule électrique antique, bien que l'interprétation égyptologique classique y voit une représentation de la jeunesse et de la renaissance divine, ou un symbole du ciel.\n\nLes cryptes représentent ainsi la dimension souterraine et secrète du temple, faisant d'elles le pendant du ciel symbolisé par le plafond astronomique de la salle hypostyle. Elles sont le point de départ de la vie rituelle du temple et le gardien de ses trésors les plus sacrés."
+      },
+      {
+        title: "Décorations extérieures et proclamation divine du souverain",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOlv4oQtE5q3ffOH1zh_Z1skYWcoNfSN7auwqRpmfj34TqQsvuywcs9NJesA2XGxqaG4fXg94wnqT6lHTuIurXSqSovBH68mQnE3Mq5ThAMaselwUwijuh6RHFu-NNT5fN0VD1g9ONwqw3bdifU1Eq4kA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOHtLH8bdu9sZqGeLCgA1CbW8WgESI3cdJY7-RrT3NLpYLAsYmLXf0BXxcoS9f9EbHDbiYLKapNdOIKG_1RAoFw9c_kG70ViGClpRO2yajhzn5gEmP9ao7Khdk4uG1E2MlXpOWRn0pWl0QKHG5CAWvF-Q=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Les décorations extérieures du Temple d'Hathor à Denderah sont aussi riches et importantes que celles de l'intérieur. Elles s'étendent sur les murs latéraux et la façade arrière, et avaient pour fonction de proclamer publiquement le statut divin du pharaon et la légitimité du culte."
+      },
+      {
+        title: "Le relief colossal de Cléopâtre VII et Césarion",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNSwxJNT28ELcqnfkPX-IgOIWcVKfngGlAWuxVQPdWaeRVRwE4qQkULRjwM2GZB85TdGBP4XD1mtDmtMb9nfnNxv0c6eVe6but8BXaP3tPf2c4MFcuLtBIHiVQSAl6RwMOOARp_dxfPqi0zh7ImF_YaLQ=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMlmO8XVdpBMq4IAM1tRfMSywU66EsfQSbyUGTqVZw69lkGXIRv9BnvTBrcf4B1iKIMlluB4AZ-anU4Z5KxJSZhE2v2TXiaIk5JZtmIG0iWUx4jkCBOg7UYXuxkGlz-WZr4oy_vF7efl8ZQfOOXNn2gOA=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOUTxfiZ5hUaeMhFSLQrfs_dbejZ9oMp4NCucWleePxoPJ3f2_GY3jtsOS4RIazMtF9pZNnZ7LMexlUVvPCFd5GkErhX8VTPa1FqMknIu3cPZQTbOdZi9zuR49FpzQfev6Ff_PYFCs5saAh-U8Zp6RWmw=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "La décoration la plus célèbre se trouve sur le mur arrière (mur Sud) du temple, car c'était la partie du bâtiment la plus ancienne et la plus sacrée.\n\n- Le Relief de Cléopâtre et Césarion : ce relief est exceptionnel d'un point de vue historique et politique. Il représente la reine Cléopâtre VII et son fils, Ptolémée XV Césarion (dont le père était Jules César), tous deux figurés dans l'acte d'offrir aux divinités. Ce relief est l'une des rares représentations officielles subsistantes de Cléopâtre VII en tant que souveraine pharaonique. Il proclamait la légitimité de Césarion comme héritier royal et soulignait l'alliance des Ptolémées avec Rome, juste avant la défaite face à Auguste."
+      },
+      {
+        title: "Murs extérieurs et gargouilles léonines",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNvBolQQxidF6NtqwPOWYJvndanBUQdblrWkphFCRZ26QhieBrXe7ElQL_yeZkSW09dZmRCy6wgw3AgXl966a4EPJjZ5GTpJBF1OFxLgeIO5-4jbehYyPdxJk-8Y4RdQSA1LI_hoETNHEmaXLreEDzDVw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMCujUDIRs9RJCNPc65T0CXqtsp67Uc3OZHmcRYXY6KRpHWumxIwLtlwJbsrWfT5qFT_5hKPn6mfAEIFNDFRm0_eWolkURf9xtghIw_UqTwzSMAtZ1uTN3AcnddYvASmsqw34dtz9eMG8Mx5aPeRbZvcQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Détails architecturaux et parures monumentales",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMGDXLWjPKc6OPbwBoVWUfqh5Z_EElMJU7Lfvm0O26FZV8q2t_EVMmT4C8teuBc4GZDLTSssVNbKkrH1Eho1FC77-MLxFD3BAzMwL5kD7rkzMYcWW2RmiV3ClkR_uzaDvOKkqXGEUunME43dbbBTPlewg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM3kDJjBlEKe72nz8j-j3AW-5pRuYkLgFzV23QHcseRjUhvG96htqgiR4WlxVGEmacRFb7ZFyIfXrF2lR71tYwm_7cyZS5d0_zFo6R53sjVNmkggzEqu_8c73p9VwqQ1tWvoBHmqtbBUTRP6Y884PXyzg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "temple_abydos",
