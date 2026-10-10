@@ -14387,14 +14387,30 @@ const travelSpots = [
     subdiv: "Assouan",
     altitude: 106,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "contemporain",
     era_label: "Époque Contemporaine (1997) & Héritage Nubien",
     century: "XXe siècle",
     category: "musee",
+    counts: {},
     lat: 24.0792,
     lng: 32.8906,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNBtyYHTiPCJzYSSKTWjbFKtl7gKteYYMkH-JT7Q6Utpdi4D6XQTQTiAp9Ewa7lMkh9d3eENIBL5kbXdkRTDmNlPoE9tEL0hSHwXg8b1bXr-KrnXpvholz1BiSvEDmaq6XGGTEeaqQcoH9OkyPqD1s7Zg=w2574-h1715-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMTxgRektAtq7pp9T847uVZmcwtWmeg_k_NZv1l3GsdUXOwGTDFwFublZBfCQPVIr2AToI5NMBPzPj5X69sVmhs6qhsfkKNB1F2eDNOzp9VfuQwDI9r7Id5k7VGIU9C2URPl3BaupcvHonKjm925tjQ3w=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPF2UvtaCRslcDnnhFagLVBeJDKJR1mhzUiMooQFiFftVxPW1LIfpcEB4AT-QLk9SB3li_Mf1BK9HrqHaXX-MalTDnXROd986RMm1NumjnE4y0YV2DZn3FcVnJb2ren4PJi7tjSTGi0xP2smyQWe1gMdw=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOq67Tu-1LqlkcUxhdVQFnMRibd_p4MNyHDsOEw_TwfrQi1mV37uOBD-HHCUCtoZ_Hy1rKjeYELa81lLhCYe94DGNVN6whAdx2EbxWYbcP5SYHrEIzNWZzwqjAlGmYGzA5NW9l4K8nApiuq92J-Xag5qA=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Dédié à la sauvegarde et au rayonnement de la mémoire millénaire de la terre de Koush, le musée de la Nubie à Assouan s'impose comme l'un des plus remarquables complexes muséographiques du continent africain. Inauguré en 1997 sous l'égide de l'UNESCO dans le sillage de la grande campagne internationale de sauvetage des trésors nubiens engloutis par les eaux du lac Nasser, cet édifice récompensé par le prestigieux prix Aga Khan d'architecture s'intègre harmonieusement aux collines de granit rose dominant la vallée du Nil. Bâti en blocs de grès ocre rappelant l'épure et les proportions majestueuses des temples pharaoniques, le musée abrite une collection inestimable de plus de trois mille pièces d'exception, retraçant l'épopée de la région depuis les cultures néolithiques et le royaume de Kerma jusqu'à l'ère islamique en passant par la domination égyptienne et l'apogée chrétienne. Dans une scénographie aérée et baignée d'une lumière naturelle délicate, statues royales monumentales, parures en or martelé, stèles funéraires sculptées et maquettes immersives racontent avec intensité la splendeur et la résilience d'un peuple à l'identité séculaire dont la terre ancestrale fut à jamais transformée par la montée du fleuve.",
     visiter: "Le parcours muséal s'articule autour d'une vaste nef centrale descendante guidant les visiteurs à travers les grandes étapes chronologiques de la Nubie antique et médiévale, jalonné de chefs-d'œuvre tels que les colosses royaux de la XXVe dynastie nubienne et les céramiques fines méroïtiques. Des dioramas réalistes grandeur nature mettent en scène la vie quotidienne, les costumes chamarrés, les cours intérieures traditionnelles en pisé et les coutumes artisanales des Nubiens avant leur relocalisation, offrant une passerelle humaine particulièrement émouvante entre passé millénaire et mémoire vivante. La découverte se poursuit agréablement en plein air au cœur d'un parc paysager étagé d'inspiration désertique, où des canaux d'eau vive, des cascades artificielles et des sentiers plantés de palmiers et de flores indigènes serpentent entre de monumentaux blocs rocheux ornés de gravures rupestres préhistoriques authentiques. Facilement accessible à pied depuis la corniche ou en taxi depuis le centre d'Assouan, le site dispose d'espaces de repos ombragés propices à une halte contemplative incontournable pour approfondir l'histoire de la Haute-Égypte.",
     link: "https://photos.google.com/share/AF1QipNZfBT4M0PS4dNnwcK68X2Oia2tILgY86cyJSq9mDJ69FPcLPDkB9H4VMkFde2FiQ?key=bWVoRGE4X3E5dUxxVk81akd5Z3BtTzMtUm55aWx3"
@@ -14410,14 +14426,34 @@ const travelSpots = [
     subdiv: "Saqqarah",
     altitude: 34,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "contemporain",
     era_label: "Époque Contemporaine (2006) & Héritage de l'Ancien Empire",
     century: "XXIe siècle",
     category: "musee",
+    counts: {},
     lat: 29.8704,
     lng: 31.2251,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNQlXL7V0VuSmR8prrrDjbFqJmmuFMNyrSCiLUqNvK5LCcbHOj5BBAD055wPUQwtedURIIn-4ud9QNhRq-HiUdUDtzsTOYOMiDk1NrJXQkeZm4gC_UxOJ_4mgnpiIUqHB0vXmGvroeaP6_CZnA9a2--sw=w2988-h1993-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOg9mjiHUorr57XJaz3jNTtvxNkP4lae3MC1ZD16FW1ASu9mdo_dlR4oK1WjYuO4HWizWXyfh_u6A-yUyKjmIaN5vgSQTfi95GbHShddatGow1e5lxpxGLftF8gmIarFLLNX-sY2eTd6Pz7QlfmCjNzXQ=w1926-h1283-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOYKx9ek0UhEJS54IaV2c5wB0fStGzyqEOUwnEKEII9VRwIvNy0ETomNV3bByzrSSCW9leBciZ1R-YhfBkUI9lc41cVIQcKPkwQ6Kfso0W7RDBd_hMMWFrTxJuFeSNgkn0ZUrkAVboUZXRRjBVLhFiQ5g=w1926-h1283-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOjZS2pY8_udjJkUufE5UkL7_k2xe-Yl36nuLASF7TduCnO1E9n94cRyTsnG446FFlHQ-T1enxHkgblVIJtHLg_q2dmR6rKC-7VIcATlQqGYT_qR2cMMUcbC2Yalp3KKGIxc6w6svJvscWupQJA31kfbg=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO1JG2i77WzLbO44yts91v3bZzPbcLdoBlYef_b5HYV6kSm2AlU3uPE4WSwC8KrZCfui8WkFhlKJcCOPVKxkMa5vddzq63e-WztlChXMKLL6uvOPrb9M3FjPWCviZDQ4SPoEIf4IayEX_Zn5E6wCQB3xQ=w1926-h1283-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Édifié au pied de l'escarpement désertique marquant l'entrée du plateau de Saqqarah, le musée Imhotep rend un hommage vibrant au premier génie universel et architecte identifié de l'Histoire, concepteur visionnaire du complexe funéraire à degrés du pharaon Djéser. Inauguré en 2006 et rouvert après une modernisation complète de ses galeries, cet établissement d'exception a été pensé comme un écrin lumineux pour abriter les trésors les plus précieux mis au jour au cours de plus d'un siècle de fouilles archéologiques dans cette nécropole memphite. Le musée célèbre également la mémoire de l'architecte et égyptologue français Jean-Philippe Lauer, qui consacra plus de soixante-dix années de sa vie à reconstituer patiemment par anastylose les portiques et les chapelles de calcaire fin du site. À travers une muséographie épurée, aérée et entièrement climatisée, le parcours donne à contempler des pièces maîtresses de l'Ancien Empire d'une finesse inouïe, depuis les célèbres carreaux de faïence bleue d'origine ornant les appartements funéraires souterrains jusqu'aux statues en bois de sycomore, sarcophages peints et reliefs d'offrandes. Ce sanctuaire pédagogique constitue le prélude idéal avant de gravir la route montant vers l'immensité minérale des pyramides et des mastabas.",
     visiter: "La visite s'amorce dans le vestibule d'honneur devant l'émouvant socle de calcaire de la statue royale de Djéser, portant gravé dans la pierre le nom d'Imhotep aux côtés de celui de son roi, témoignage exceptionnel de l'élévation d'un homme de science au rang des plus grands dignitaires de l'État pharaonique. La déambulation se poursuit à travers cinq galeries thématiques judicieusement agencées, dont le point d'orgue réside dans la reconstitution fidèle d'une paroi de la chambre bleue de Djéser, sertie de ses véritables plaques de faïence turquoise étincelantes d'une fraîcheur intacte. Les vitrines dévoilent des découvertes majeures telles que la célèbre collection d'instruments chirurgicaux en bronze trouvée dans la tombe du médecin royal Qar, des vases en albâtre translucide de l'époque thinite ainsi que des statues funéraires d'une troublante humanité. L'aile consacrée aux archives de Jean-Philippe Lauer expose avec une grande charge émotionnelle ses instruments d'arpentage, ses carnets de relevés aquarellés et son bureau de campagne, rappelant l'aventure scientifique hors norme de la redécouverte de Saqqarah. Une halte culturelle et rafraîchissante indispensable pour comprendre le berceau de l'architecture monumentale.",
     link: "https://photos.google.com/share/AF1QipMYh6XdRx9VRSnZt3ue2OwEPUbvln_2602MFhakCcqwm2frL-IEJgT3vWg_o3BQhw?key=TXlFS1kzbXJtZERaQU9FOGFqUDJuVlVHTWtoNVlR"
@@ -14433,18 +14469,216 @@ const travelSpots = [
     subdiv: "Saqqarah",
     altitude: 48,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Ancien Empire - Ve & VIe dynasties)",
     century: "Antiquité (XXIVe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
-    lat: 29.8760,
+    unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    counts: {},
+    lat: 29.876,
     lng: 31.2214,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPm2-iD73muRH_jVot8-EE1lyBKVZCTLF39pIHWToS8yhyubMwAs5zilUHQJ8CKTJTwBLusmEB1RKN_8j-W8gHIHNdsMdhulPx-9UaBuslVVC6aemGNoYObE_BVQvwzoIcvn4PIInE4JNMYBPShsaE66Q=w2650-h1987-s-no-gm?authuser=0",
     description: "Disséminés sur le plateau désertique de Saqqarah à l'ombre bienveillante des pyramides royales, les mastabas des hauts dignitaires de l'Ancien Empire constituent la chronique visuelle la plus vivante, spontanée et éblouissante de la civilisation pharaonique à son apogée. Véritables palais d'éternité édifiés en calcaire fin de Tourah pour les vizirs, grands prêtres et intendants de cour des Ve et VIe dynasties, ces sépultures monumentales à base rectangulaire et parois inclinées rompent avec la rigueur solennelle des caveaux royaux. À l'intérieur, les chapelles funéraires déploient sur des centaines de mètres carrés de bas-reliefs d'une virtuosité ciselée inégalée, peints à l'origine de pigments éclatants. Chef-d'œuvre absolu de cet art narratif, le mastaba de Ti — haut fonctionnaire royal et surveillant des domaines sacrés — ainsi que l'immense sépulture familiale de Mérérouka, vizir tout-puissant du pharaon Téti comptant plus de trente-deux salles, immortalisent avec un naturalisme saisissant l'abondance de la vallée du Nil, la ferveur des liturgies de subsistance et l'inébranlable foi en une immortalité à l'image du monde terrestre.",
     visiter: "La découverte s'amorce par le franchissement des portiques d'entrée taillés dans le calcaire pour pénétrer dans les cours à péristyle et l'enfilade des couloirs étroits baignés d'une lumière rasante. L'émerveillement culmine devant les registres sculptés du mastaba de Ti : les parois s'animent d'un foisonnement de scènes champêtres et marécageuses où le défunt, debout sur une barque de papyrus, chasse l'hippopotame et le poisson au milieu d'oiseaux nichant dans les ombelles, tandis que se succèdent le halage des filets, les labours guidés par les bœufs et le gavage des oies. En s'approchant des serdabs dissimulés, le regard croise à travers les fentes murales la statue du défunt recevant les effluves de l'encens rituel. La visite se prolonge dans l'immense labyrinthe funéraire de Mérérouka, où les scènes de poterie, d'orfèvrerie, de danseuses acrobatiques et de scribes comptabilisant les récoltes rivalisent de minutie anatomique et d'expressivité. Cette immersion intimiste et contemplative au cœur du quotidien des bâtisseurs de l'Ancien Empire dévoile le sommet artistique de la sculpture memphite, préservé miraculeusement depuis quarante-cinq siècles.",
-    link: "https://photos.google.com/share/AF1QipMYh6XdRx9VRSnZt3ue2OwEPUbvln_2602MFhakCcqwm2frL-IEJgT3vWg_o3BQhw?key=TXlFS1kzbXJtZERaQU9FOGFqUDJuVlVHTWtoNVlR"
+    link: "https://photos.google.com/share/AF1QipMYh6XdRx9VRSnZt3ue2OwEPUbvln_2602MFhakCcqwm2frL-IEJgT3vWg_o3BQhw?key=TXlFS1kzbXJtZERaQU9FOGFqUDJuVlVHTWtoNVlR",
+    sections: [
+      {
+        title: "La tombe rupestre de Netcherouymès au Bubasteion",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMy1V4P27IQpx6pxHcRi7FtgDcL15pv555kAeA8WUVFi11lc2t3vH1atDpMzyNhbsosmmwis7hfMfFlOegYNLTf2yShmVdKZvt3slXF1Q0DxR7htdFLvfrp_2IHI9rjh0wLdZ4Wh83Q_Z3KSzRxs1TDKg=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNuSo1dXdKxTAYH6lHhOQHz1WaTwUBF03ePJbYOWL_aQFRaO_yAeRN8fb2apzx4AGeSvo4tbGg3zrYYRRZvaTKraIDBaguDewQc6hh5L89N_LGTmJMj7vPTvKNudhTLD--YIeJD9b4G4fatmjDuOaFsXA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La tombe de Netcherouymès (ou Netjeruymes) est une sépulture d'élite datant du Nouvel Empire (Dynastie XIX, règne de Ramsès II, environ 1279–1213 av. J.-C.), située dans la nécropole de Saqqarah. Elle est localisée dans le complexe du Bubasteion, une zone de tombes rupestres creusées dans la falaise et dédiée à la déesse chatte Bastet, près de la tombe de la nourrice du roi, Maïa. Netcherouymès était un haut fonctionnaire à la cour de Ramsès II."
+      },
+      {
+        title: "Le style néo-memphite et les honneurs de cour",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOWt6ouxE95W5MFVvytOmhBBB3pBMtRKz21UF53aADRdJGjs4W0fsL7WL08D8C1cDylH9rz4TEDFiQahFdtVBLMXkGsfnF7Pql89ZT0GgM3JO2r45HFldslbUuH1xyN47ifowdM8FGNhVMvZQ8NsecBRQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP1gWpvtf_zVUQpkl4Pizrs3iILzhFeVD-qdUgTM-IPSnsO2MJZBi_jd6ROWbpbzO54bKSTZwM_ovlW7kBvv3SKa8bz3jtRp3T5sND4mQSjGkwI0SEG1NDYlyk52ZYlH7QvR_ZeSEZmeiJh59TnOiYMVw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Les artisans de Memphis (l'ancienne capitale) ont utilisé le style néo-memphite, caractérisé par l'emploi de reliefs sculptés profonds et peints. Ce choix était volontaire : il permettait aux hauts fonctionnaires de l'époque de Ramsès II de se rattacher symboliquement à l'autorité et à l'esthétique du Prestige de l'Ancien Empire (le temps des grandes pyramides).\n\nLes Thèmes Représentés :\nLa décoration de l'hypogée de Netcherouymès, comme celle de ses voisins du Bubasteion, combine les exigences religieuses et les marques de statut :\n- Le Rôle Officiel : Les parois intérieures contiennent des inscriptions hiéroglyphiques détaillant la carrière, les titres et les honneurs reçus par Netcherouymès à la cour royale. Des scènes le montrent souvent en train de recevoir des récompenses du Pharaon."
+      },
+      {
+        title: "Offrandes, taureau Apis et fausse-porte",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPMEjlN163yjxg5uG0UJY0gKImwMiJylPzCES8KpewbNoM2xD_p4mxxyjgK4gG2RFnSRhKBpXLiakm7mymrqfcN2z2Kukjn9TxDPY00KUyoHaGqbSvyg-rK2TweuL-YTYp-cZK5MwnI80LoiP5GWwSMlA=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPj-qThx_EoYQFa7B4fmAkap9rTzVWicsW02R7-l4ks5t3f6KrlhRMDgbJo8TV5Dn9yHz2IJ5KgNIJpTTpjRl-XEp-V-QMAOxUly-C23ZEsaKma6rZ2uDYqE53t1GAyesB0nhpbmIt3_YeM4WYN9tnK0g=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "- Les Offrandes et la Richesse : Des reliefs mettent en scène des porteurs d'offrandes et l'inventaire de ses domaines, garantissant que le défunt disposerait éternellement de tout le nécessaire pour sa vie post-mortem. Ces scènes incluent la représentation détaillée des produits agricoles et des biens de luxe.\n- Le Culte de Memphis : La tombe intègre des éléments liés à la religion locale, notamment la présence du dieu-taureau Apis (manifestation du dieu Ptah) et de scènes d'adoration devant d'autres divinités de l'au-delà, comme Osiris et Anubis.\n- Les Rituels Funéraires : On trouve des représentations de la stèle d'adoration (une fausse-porte) où le défunt se tient en prière, permettant à son Ka (son double vital) de communiquer avec le monde des vivants.\n\nLa tombe de Netcherouymès est ainsi un exemple précieux de la manière dont les élites de la XIXe dynastie utilisaient l'art pour légitimer leur pouvoir et assurer leur éternité, en se reliant à la fois à l'autorité royale de leur temps et aux traditions ancestrales de Saqqarah."
+      },
+      {
+        title: "La tombe de Maïa, nourrice de Toutânkhamon",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOG0Tsa-DbxyFmFg3oZY-m8ckKrEMQd8-LdU6RQGu4smzCIlbJos4kZVEBHxxlvmUTHHirkR7FWilmYR9xqX3sC_E58YF9BevYMA4-6D3uEGAncQ-Mn57Y4wKjV14VUYeruLdzU7cF2Cq2_BO6S3Hcv7g=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMpaxDlPhVbifP14gm2QUVTbhAhPCyRSgh-GvfZLwb50obtdAgeNvR9wVKmoOPis-TvdGw9lXONXtEH0ZtKgdPIj8dBv8DBk6kgjEtW8joqtHDwsiEuAK78a71CXxe22gIpOI2tpOXwtvvpSznGdinn0Q=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Maïa fut une femme extrêmement influente de la XVIIIe dynastie (Nouvel Empire), sous le règne du pharaon Toutânkhamon. Son titre principal et le plus célèbre était « Nourrice du roi Toutânkhamon » (ou « Nourricière de l'enfant divin »). Ce rôle était considéré comme essentiel, faisant d'elle une membre de la famille royale. Sa tombe fut redécouverte en 1996 par la mission française d'Alain-Pierre Zivie, qui a fouillé et restauré l'ensemble du complexe.\n\nLa tombe de Maïa est un vaste hypogée (tombe creusée dans le roc) qui suit le plan typique des sépultures des nobles de Memphis du Nouvel Empire, similaire à celle de Netcherouymès :\n- Elle se compose d'une série de cours, de chapelles, de puits funéraires et de chambres souterraines.\n- Les Murs : La décoration est réalisée en reliefs sculptés et peints d'une grande finesse. Contrairement à la tombe de Netcherouymès qui adopte un style très archaïsant, les reliefs de Maïa montrent un style plus caractéristique de l'art du début de la XVIIIe dynastie.\n- Les Scènes Clés : Le thème central est l'affirmation de son rôle :\n  * Maïa et Toutânkhamon : Les scènes les plus émouvantes et célèbres la montrent tenant le jeune prince Toutânkhamon sur ses genoux, lui donnant le sein ou le serrant dans ses bras. Ces images confirment son rôle crucial dans l'éducation du pharaon.\n  * Adoration et Offrandes : Maïa est représentée avec son époux, faisant des offrandes aux divinités funéraires (Osiris, Anubis) et assistant à des banquets."
+      },
+      {
+        title: "Le culte léonin de Maahes au Bubasteion",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMjY_1R1oW8Wbpv2qsUCN-hgPJHQOmsbnH7-pNuj89-2oFr9zKLCJk6WRQVNOzqk0N99Sq4ODG1uY9-lg9vrdcEwZv3LLypgl3jHHqGRhAEtp-G6CW7ckA_GrvzwOsMaxuywaMkeUQQPUNeSLpDFbbBFA=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMuWXTMylizdT5n6uBs-97Zta1Lv_8aMAfO6-g6_k3jfdK6f4Sq0h0KHdpvYr48pDrtuTP7ZXsNQGZXqbsYORPzIY4M2w8oCFFZBWTYE-BAjEbslgIkvI_FukJ1ymX6lHXLS7wnGvz4G4-UPGMSbZqOmw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNAVsKWaDFW8Hr2Aunj4e8KDrrZvj_OrSU44RVOC_g42APLHukM6yHLMGQ6J4ZpHhMv7A85YaGlVP3uj0vkyx5uuFlF6XqyuFOs4BEgY4Ukj3EpXar-pwTu-0-NVMTR08R-Fw4mp9RBW2esl6ns0Rb-Og=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "En 2001, une découverte majeure fut faite dans l'une des chambres de la tombe de Maïa : un squelette de lion enterré avec des bandelettes et des offrandes. Cette découverte est exceptionnelle, car elle a fourni une preuve solide que le Bubasteion n'était pas seulement une nécropole pour les chats (sacrés pour Bastet), mais aussi pour d'autres animaux dangereux, le lion étant la manifestation du dieu Maahes, fils de Bastet, à Memphis. Ce lion pourrait avoir été l'incarnation d'une divinité vénérée par Maïa."
+      },
+      {
+        title: "Le mastaba familial du vizir Mérérouka (VIe dynastie)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNNmM0wWp1K885buj8sR3dilTlAYMGNU5y101HT05RReMXClp_DmMQqKSBdba10eJUwbe9FtIrlnkFROnfgUhU0XtfoOlJBrVrZMFRsOx7kNSxnn5jXtIOtFEZTw9KlYN4SBojeNAXV24eJ_0yc2OsVcA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMoH17Zem9jdLBU73Iqjob4UCd532ZrsuAXV11464s5dztdjyJ7tdga9z7xdl4z5QVLuQbb28Rv33ym1VFJZjRk5wXzX3D3XoMxlXkjHJDxKSyZdu0byRy86ab59iJr06Jq_Nq3a8bKIXymD0yvGbwbSA=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMNRB1LwSSLdJTtCPhIG8wha6qf7tXByUd0EoRf7y6FhBUw39QnHi0EQJdRAKYG4F-z2brULpArMo0eKMyvAwv1uOwTqPbq6HREpf6wUKqnbPrvLBxWq00lYXrhZbwF3v5Exs01M2O19SOrDG4Wn6Sc-g=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le mastaba de Mérérouka, également connu sous son nom abrégé Méri, est l'une des tombes non-royales les plus vastes et les plus richement décorées de l'Égypte antique, constituant un témoignage exceptionnel de la puissance et de la richesse de l'élite de la VIe dynastie (Ancien Empire). Ce monument funéraire se situe dans la nécropole de Saqqarah, juste au nord de la pyramide du pharaon Téti, dont Mérérouka fut le vizir (premier ministre) et le gendre, ayant épousé sa fille, la princesse Séshéshét II (aussi appelée Ouatéthétor). Le mastaba, qui date d'environ 2323-2150 av. J.-C., est remarquable par ses dimensions imposantes et sa complexité architecturale. Il s'agit en réalité d'un complexe funéraire familial comprenant trois sections distinctes : vingt-et-une pièces (chambres A) sont dédiées à Mérérouka lui-même, cinq (chambres B) à son épouse, la princesse Séshéshét, et cinq autres (chambres C) ont été ajoutées pour leur fils, Mérytéti. Au total, le mastaba compte environ trente-deux ou trente-trois chambres, ce qui en fait le plus grand mastaba privé connu à Saqqarah. Ses dimensions extérieures sont d'environ 23 mètres d'est en ouest, 30 mètres du nord au sud, s'étendant à 41 mètres avec l'ajout de Mérytéti."
+      },
+      {
+        title: "L'entrée sud : la peinture des saisons et le senet",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOf0cr89BkO03jnuZQQHspcCOlfsWO9mZbNbvGv7YYHkL9lLyC2kPWbMUM_x5gm-0mM9Xjuj09WSAUcekMaUZNgJ9TvlCek-trqxoXi4Rv16zAz0EoHJ43BFsnBiw8_AXZ0k3oeKEQS3UzHZQPXLSTvcA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMZ9aPJpYXN7_QGHgY34pYY1PVThgTcFddKYV62ewmXDd5hgEJKN3-uHOoN8tsSAyzhBu7_8B1wuaKlt4IsVTlViB_Ar_8YfTqqAXDGVqFXob_mTySM_XUqYsC5BMea0EBe71r2XWuTLjXrQOe7xqapKg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "L'entrée du complexe se trouve au sud. Dès le passage d'entrée, des reliefs magnifiquement conservés donnent le ton de l'ensemble, montrant notamment Mérérouka en train de peindre les saisons et de jouer au senet, un jeu de société égyptien."
+      },
+      {
+        title: "Encyclopédie de l'Ancien Empire : chasses et métiers",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP1gb1pjj1ge1D3xbbYB6wKibpgfHuNHhWMgNimEx8C_i3bXI-yZRMVwkJcf5aGrX8Z0vU2qaBeQIisvkUvuRiAjpR-zUETGJ3AUA7TtW0dAr9I7J922wmhwISp_vXbCLbzxAvQuFd_RGzVVdgKfTwcNA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMHduAl4PRp7DmTSg7cvKM4vtGq6CZp11FQAiNhWYNvVnv8-PFkBgX1FHhGDJEryUqdXXADX6G8-7x2B0sKWpIhY_remKY1LdyY61LfKGoIXqry7PYMRb4WQYU6njs4mMS_fi7r5hG6v4uExmw6N1bKGg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Les parois des différentes chambres sont intégralement couvertes de bas-reliefs peints d'une qualité exceptionnelle et aux couleurs souvent très bien préservées. Ces scènes constituent une source documentaire inestimable sur la vie quotidienne, l'économie et les croyances de l'Ancien Empire. Elles représentent une grande variété d'activités : scènes de chasse dans le désert avec l'aide de lévriers et de singes dressés, scènes de pêche et de chasse aux hippopotames dans les marais du Nil (dont une scène célèbre d'hippopotame attaquant un crocodile), travaux des champs comme le labour et la récolte, et des scènes d'artisanat variées, y compris des charpentiers, des sculpteurs de vases en pierre, des métallurgistes et des bijoutiers, dont certains sont représentés par des nains (traditionnellement associés à l'orfèvrerie). D'autres reliefs montrent des scènes d'offrandes, le gavage d'animaux (y compris des hyènes), et des processions funéraires."
+      },
+      {
+        title: "La chapelle funéraire A13 et le culte du ka",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPm2-iD73muRH_jVot8-EE1lyBKVZCTLF39pIHWToS8yhyubMwAs5zilUHQJ8CKTJTwBLusmEB1RKN_8j-W8gHIHNdsMdhulPx-9UaBuslVVC6aemGNoYObE_BVQvwzoIcvn4PIInE4JNMYBPShsaE66Q=w1926-h1445-s-no-gm?authuser=0"
+        ],
+        text: "La chapelle funéraire, souvent appelée chambre A13 dans les études archéologiques et parfois la chambre centrale principale, constitue le cœur du culte mortuaire au sein du mastaba de Mérérouka. Sa conception et sa décoration visent à assurer la survie du ka du vizir dans l'au-delà et à lui garantir un flot perpétuel d'offrandes."
+      },
+      {
+        title: "La salle hypostyle monumentale à six piliers",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMiXMls4asr5msQUR5kAOarsupqtjSGCS6UkR0v4j55aZUKEA_unxYPvPzRWyWzdzeEplQTSETbISv3DJquNN0i7kaI1JTrW5tpZnNH2P88ON-rRvJwyPkaIaSsQlBTUCTxb1_Q7DxLda-x3XnrXByg-Q=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP5_KsrrX4biQoe_FVf8is6J50Yv5Pec-7A5jOYqIjtgFhwGmd0fc-hKg1XcmAlcZSI33E5qmWRkmP1VFpKcKhhgnNeXnVvTPnN1_XAXg2e4dZ2q9Pjuhk_mmtHGVk-SlDlUBLatL1-zEVtMOEJapl4UQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "C'est la plus vaste des trente-deux chambres que compte le complexe, et elle fut le point de rassemblement principal pour la famille du défunt, les prêtres et les officiants du culte. Son rôle était de servir de lieu pour les cérémonies d'offrandes et les rituels destinés à nourrir spirituellement Mérérouka et à invoquer les divinités protectrices des morts. Dans cette perspective, l'architecture elle-même est monumentale, et la pièce est notamment caractérisée par la présence d'imposants piliers, au nombre de six, qui soutiennent le plafond et confèrent à l'espace une solennité digne d'un temple."
+      },
+      {
+        title: "La statue surgissant de la fausse-porte occidentale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNRbpyiy_eHD3f-D25rlsI-qIUri6WAqLwI2Vn_w95O0sjOlSL1uDVKGTtZ4Jvd1H-pc_G37xdbKOrim4QYOD5t3vk7mpunspPiKylBH7-UOgr8MZUsmIpoS8k02yYYInLqONsO6GLDQfnS0txzajO0gQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPUGRFCKIuvtJvKUxd6dU7FJ4O5t1NlHwKGPa4vUt9wmJDiTJ-_XVghAFSJMP5FDmfNKXmwfVkhU6j7TcsG_CgCQqW6w3rD7DUyd5IQkyakp8Hg9XZXDxj6v3wVLqHr84VjWWoC13sxNicd8vJjHTcijw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le point focal absolu de la chapelle est la fausse-porte, située traditionnellement sur le mur ouest, face à l'entrée. C'est le lieu symbolique par excellence où l'esprit du défunt, le ka, pouvait transiter entre le monde des morts et celui des vivants pour recevoir les offrandes. Devant cette fausse-porte, une table d'offrande était disposée pour les denrées alimentaires et les libations.\n\nC'est dans l'axe de cette fausse-porte, plus précisément dans une niche aménagée dans le mur, que fut découverte la célèbre statue debout de Mérérouka. Cette œuvre en calcaire, d'un réalisme saisissant, le représente faisant un pas en avant, prêt à sortir de la niche pour participer aux rites et consommer symboliquement les offrandes déposées pour lui. Cette statue incarnait le ka du défunt et était essentielle à la continuité de son existence."
+      },
+      {
+        title: "La suite funéraire de la princesse Séshéshét",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMNh2-m-TGXGStFXRJui3vzGlNy9oE4AYjQRfD2CObDYE3-pt5-ENB-PttGmq_tAwXMnwCssoMER9dwcehzKcNksN39Y-nEqDiG_uA1LDmbT6Y4tosOct6KL2ZoRwN9WpD2MPybns9JWAJj0bAlRORHjA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOtHqS9B4DwKhdWx2j6yaa1XsBNkiOojiXrYxvYjkm3O3w_X_6iqncNWyXKSk1TImVLrtbM4nor8QlZHfrHp1vD3EUF6w4wOsuuBNqe0usP34Krg6UWuWKw-iWTgl5pGfqU0_BUgw9ncIZ8EkpLowROMw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La partie réservée à son épouse, la princesse Séshéshét, comporte également des scènes finement exécutées la montrant recevant des offrandes, se relaxant en observant des danseuses, ou encore représentée avec son fils sur un palanquin en forme de lion. Bien que le mastaba ait été découvert et fouillé en 1893 par Jacques de Morgan, et malgré son âge, la richesse et la conservation de ses décors en font l'un des monuments majeurs de Saqqarah et l'un des plus beaux exemples de l'art funéraire égyptien de l'Ancien Empire. La complexité de l'aménagement et la splendeur des reliefs illustrent l'ascension et le pouvoir croissant des hauts fonctionnaires au déclin de la VIe dynastie."
+      },
+      {
+        title: "Fonction magique et transit spirituel de la fausse-porte",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOpRL8DHaIU38rfsnrEkb2Etuaiqvhs1woSZfoOp80sz02CNpaldTzwS3qJoBb8iJ13sDXAPgnErtTklBomx5LsI5PtZo5IcxnWm9vybic94yCPUujgA-79lvGQRI0mY4HcllWPOmbODl2FgZ0ojwr_KQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczODYoMNnHXPD1sdS1_zKbZOKK2TIDKT8WEsWO1S8lfRisKHjlk0U42ERoEbQEpeUmzYtjH1NcpBT5LqodHyEniC7cj0psB_KCgw0LMiaHzTwyFfE1uQUoHnPqyxF_oqPa_0iO3gGS-6-NCLKuDal3WmwQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La fausse porte est avant tout un portail symbolique destiné à assurer la continuité de la vie du défunt dans l'au-delà. Les anciens Égyptiens croyaient que le corps physique devait être conservé (d'où la momification) et que l'esprit du défunt, notamment le Ka (le principe vital), devait être capable de se déplacer librement entre le royaume des morts et le monde des vivants.\n\nLa fausse porte était le point de passage désigné. Elle n'était pas fonctionnelle pour les humains vivants, étant généralement sculptée ou peinte dans le mur, mais elle l'était pour l'entité spirituelle du défunt. C'est par là que le Ka pouvait :\n1. Sortir du caveau souterrain, où reposait le corps, pour se manifester dans la chapelle.\n2. Entrer dans la statue du défunt (comme celle de Mérérouka dans sa niche), pour s'incarner temporairement.\n3. Recevoir les offrandes déposées par la famille et les prêtres sur la table d'offrandes placée juste devant la porte."
+      },
+      {
+        title: "Multiplication des stèles fausses-portes familiales",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMhfADumZ1fTD9Jn0jcMDAIyeA3K67r6QI1VIz45YK7l8D6F03MDeThdZa38T_uk1Dvi8MxvO-7tkWG_I_cbFub6AEtlNRkej5G2XEmCMy2FU3EplVKvVvsC_wNTYtZj2lKwWT0fBFNm6w1TsXhBidsOg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPuiqvAidzfxJ9SiIueeFoUU67TUDJBSWj6o32fHOnVeUkHTh_pVaHeILmlyeLShYWut7Ley7OHkPaBjl7yHSLKVpxCbruZrTYM-iXXgVrmqTMtc7yXFOhYQ_yJNdh5esxu6evv8I9dzi7kczoTJ-4b8w=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Dans un mastaba de la taille et de la complexité de celui de Mérérouka, la présence de plusieurs fausses portes s'explique par deux raisons principales :\n1. La Sépulture Familiale : Le mastaba de Mérérouka est un complexe funéraire regroupant trois sépultures : celle de Mérérouka lui-même, celle de son épouse la princesse Séshéshét, et celle de leur fils Mérytéti. Chaque individu de haut rang nécessitait sa propre fausse porte dans sa propre suite de chambres, afin d'établir un point de passage individuel pour son propre Ka et de recevoir son propre culte. Dans le cas de Séshéshét, sa fausse porte était le lieu où sa famille venait lui rendre hommage et déposer des offrandes dues à une fille du roi.\n2. L'Accentuation de la Fonction Cultuelle : Même au sein d'une seule suite (celle de Mérérouka), il pouvait y avoir plusieurs portes ou stèles décorées jouant un rôle de fausse-porte ou de stèle de culte secondaire. Ces éléments architecturaux multiples servaient à renforcer le caractère sacré de la sépulture et à fournir plusieurs points où le Ka était vénéré, insistant sur l'importance du défunt et la pérennité de son culte."
+      },
+      {
+        title: "Le mastaba de Kagemni, vizir du pharaon Téti",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMnzFSP2iEQip39bPgxbYFZW-hpboITB-wwqxOOyO789-J-B4Y7PE02dyPlGQvAxAzq054RTjofpQLoTiSSAeFuSNEcfJy-GeaD7eU0R9ZRbNyUT2Mb5ofKVH9x5Vrzm2om-iyG7Kol8UclkhNpcKQ9WA=w1813-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOxE4Ayt-7PF4i_IbhyYQ7FW8W4pHLxq0KOKmSgjMJpbwQRwWpX3KK-3r6GyxzuACGEQ8sr9oDfwYqPifciGw675ik5FniLpe8HMi-2HUm6DK4oibVFLre_JBdAt8cgIxmLvLyz7SwOH7XMGmkItLXu8A=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le Mastaba de Kagemni est un autre exemple éclatant de la puissance et du raffinement artistique atteints par la haute noblesse égyptienne au début de la VIe dynastie (vers 2345 av. J.-C.), sous le règne du pharaon Téti. Il est positionné immédiatement à l'est du mastaba de Mérérouka, son successeur au poste suprême de vizir, attestant de l'importance de cette « rue des tombes » près de la pyramide royale. Kagemni, dont le nom signifierait « Mon Ka est trouvé », était un personnage de premier plan, cumulant les titres les plus prestigieux de l’administration égyptienne. Il fut vizir du pharaon Téti, ce qui faisait de lui le chef de la justice et de l'administration, le second homme de l'État après le roi. Il était aussi lié à la famille royale par son mariage avec la princesse Nebtynoubkhet, une fille de Téti, et détenait de nombreux titres religieux, notamment celui de Grand Prêtre de Rê à Héliopolis et Inspecteur des prêtres de la pyramide de Téti."
+      },
+      {
+        title: "Plan architectural et exécution des reliefs de Kagemni",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOT63N27nRvSlpGJhQ2C6yClc-q5JYVX1M9Bcwux7vAj322BNJwQ9rDyRVV-5zeNH_jn8nIHYyn8IeK8mh4MXuRUvGcbBfSqAcm0ydxDs_D3BJLtHaMw_urcggFkTVX16o8Vj0XWV5Yiso677nmyS8jyg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPJNaxwcAJoejfLGwF8DD5enZeQzToJGV6uZf66YAzWRX0VtLu1jgoD40ZEalZPMVcsUnTX7k0YsURzairF_h37GOLTrIePEU1EOO9jsxW9k_CnOhF3BpCFo0N-L5KzNYlhfKn_yIL2o7hyAaBIJU6D-A=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le mastaba, de forme carrée et de grandes dimensions (environ 32 mètres de côté), fut découvert pour la première fois par Richard Lepsius en 1843, puis fouillé plus méthodiquement par Jacques de Morgan en 1893. Il est considéré comme l'un des plus beaux de Saqqarah par la qualité d'exécution de ses reliefs. Le complexe interne est composé de sept chambres et d'un serdab (chambre fermée contenant la statue du ka), bien que ce dernier soit inaccessible. L'entrée se fait par la façade est. Le mastaba se distingue par une conception moins labyrinthique que celui de Mérérouka, se concentrant sur une suite de salles rectangulaires destinées au culte."
+      },
+      {
+        title: "Scènes naturalistes des marais et harponnage",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOfE-S-dtHPNsZu1DFRbPSj-tngYZSikK69DHBCbL-xlM6LveAwOW0eUvHVBhZDvHLKjW_nLv9WVZAWmrRLCobE8E-oyohjecrbtHgSCCA49rA0Xug9HGJEMgHDOJVZh5F_Adz_ukkPBGLkMSA6G2DtoQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOu42_UuMmRYSJ4YLQoSSTrJZ5MIMIC8numsIDmkvfYj1zWlk2N85rY4mKiDfFgXOnqd09Hqcr9AUn59pPWC3z9NbIkMbsDhtmoTBAHy74ZrqgZ2E2y-Z3WRZh2yVXcZB2Lsjnx_MKFS_O4eq8-QWGWlw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "L'une des pièces maîtresses est une salle à trois piliers, qui servait probablement de chapelle principale ou de salle de réception pour les offrandes. Les dépendances du tombeau, en particulier les magasins et couloirs, étaient importantes, mais c'est le décor qui fait la renommée du monument.\n\nLes murs des chambres sont recouverts de bas-reliefs peints d'une exécution très fine, souvent jugée supérieure en qualité sculpturale à celle de la tombe voisine de Mérérouka, bien que les couleurs soient moins bien conservées dans les registres supérieurs. Les thèmes illustrés sont des tableaux de la vie quotidienne et des activités visant à garantir le ravitaillement éternel de Kagemni dans l'au-delà, en particulier les scènes liées à la production de nourriture :\nScènes Aquatiques et de Chasse : On trouve de magnifiques représentations de scènes de pêche dans les marais (harponnage) et de capture d'oiseaux, y compris des oiseaux nichant parmi les papyrus. Ces reliefs sont célèbres pour leur souci du détail et leur animation, les animaux et les oiseaux étant représentés dans des postures très réalistes et variées."
+      },
+      {
+        title: "La fausse-porte de Kagemni",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP30_PGNSp8OBpuiaj73a7iRb8pVCpoEA-iJiMNbZXEpF5G1-u4vUmJpcCr33B55WAnJe9l6w-ss8jgGq0LUOUyoQh7Fdxg0lMmRLg1_WNUrps7SgjwiXMxEdgASiz6ZuUljHSEw2TCuCIDcfhnOh4hnA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO2XBJieKVQV4S7AQLmWs5VeXdBydWfyBw5n_-7SfBZw2vrlkGBHAE2xGdWIIG5nrWADw6x7RMYGtzuFj4RBD3Zd3jCYJUkPqgUblSi67AE-1eryEAH278TaPqyy40YeB6Ih-Y2Oq7Z2kuWVmTziBMKlw=w1813-h2416-s-no-gm?authuser=0"
+        ],
+        text: "La fausse-porte, située dans l'une des dernières chambres, est le point de convergence des offrandes pour le ka de Kagemni. Elle porte les inscriptions funéraires traditionnelles (formules d'offrandes) et confirme le statut de Kagemni en tant que bénéficiaire du culte éternel."
+      },
+      {
+        title: "Gavage rituel des animaux et dignité de Kagemni",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNVsYKr-TJDousPnRCOuwGp_mY8-RsAjJatp-yHVdKQN4fqCyzxHNHem7OtNsJIHqE_7lBtjyvRAnPhtSu40X0I3R8gLHHEaCRzGrYeuAQpFGjVP7zNRqlyFheoKMzF5kDyEu3dNl6ED2BfEHpB26GztQ=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMTHIYfrc0X4dXSaqMK2H4dD-VPKgGd_2tkwcLMz71CtFKkfm3RyNmX27obcaSWN0zRL2-wFdiWfIyZ8bswN8ggObeq910ME9Gg1OL5SR5etwWDvDZyXaKfFN98y12fc42172vyGvYubGktJm8vimNBFg=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Agriculture et Élevage : Le mastaba contient des scènes agricoles, des récoltes, ainsi que des scènes d'élevage d'animaux. Une représentation notable, et parfois surprenante, montre le gavage d'oies et de hyènes, pratique attestée mais aujourd'hui disparue, destinée à engraisser le bétail pour le sacrifice. Une autre scène montre une vache en train d'être traite.\n\nCérémonies et Offrandes : Les reliefs dépeignent des porteurs d'offrandes, des serviteurs apportant des provisions et des jarres d'onguents, ainsi que Kagemni lui-même, représenté à une échelle monumentale, portant la canne et le sceptre du commandement, et assistant aux réjouissances et aux banquets funéraires."
+      },
+      {
+        title: "Le mastaba de Nikaouisési et les scènes de marais",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN4sTvglKaSJtiIcAOiWmcxFcO9DDRTvW4UiPAS9D1RIfjCf_BqQERQs9iCgEceYquv2jiRHx-RjlV7epk5ag5QGo6o7nkb8qDdnvQDu_YXCYBEqnTE2ALCI3MkPfTb5JXDlm-q16sfoF5-CRJgbVJ1ZQ=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMLoUE90gsWxJCIX023XERh0QBL862yWvSfEigi1a5b8b21Cp-YMUuMt0ty_4qdwxiBCbP0hp6ru1MIWCNPLRChSqezGZnpLjugR5das0oZSkJm1RPYs7ZDfrsYaTJRrAzbtMmlpPPf0LddJ-MsyY5IIQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Nikaouisési était un fonctionnaire de l'Ancien Empire, bien que moins célèbre ou moins puissant que les vizirs mentionnés précédemment. Son nom et les titres inscrits dans sa tombe indiquent qu'il occupait une position élevée dans la bureaucratie et les cercles religieux. Il fut notamment prêtre-lecteur et inspecteur du ka du roi, ainsi que prêtre-serviteur de la pyramide d'Ounas, le dernier roi de la Ve dynastie. Ces fonctions de prêtrise funéraire et d'administration des biens du culte royal témoignent de sa proximité avec le pouvoir pharaonique et de sa richesse suffisante pour se faire bâtir un mastaba décoré dans ce secteur privilégié. Le style et les thèmes de sa tombe le placent généralement à la fin de la Ve dynastie ou au tout début de la VIe dynastie.\n\nUne des scènes les plus célèbres, située dans la première chambre, dépeint des scènes d'embarcation sur l'eau. On y voit des hommes à bord d'une petite barge, utilisant des lignes de pêche ou des filets, transportant des oiseaux (oies et grues). Les reliefs du marais sont toujours très détaillés, incluant la faune et la flore du Nil, et garantissant l'approvisionnement en poisson et en volaille."
+      },
+      {
+        title: "Reliefs polychromes et défilé des domaines",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNAwejAtOczxyo-QJTsVrLFrtRjOv-qCI2fk_-m2Qa5Q9D4oiH7li3s-hD2P8UeEvcpnyAi5PQ9RsC-FdtcAhekHPK47xGnMnKUMDGPVHOMuls3bdGwU74ZCeD9H14KQ9bVT2CTIMB9sN9bj3TpJKoJOA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNnpBJkGehsJVwrVccmytuopBHNBcfVMlJOKPRMzOxPxMLcF9EUgGHfid6j8iGWL3ReeuUYkoLeAqoRPKWXMX4B22i5jF1pKR1JpTz_TV6HLrH36Yr8r3Az4s95V9XTod-2oJz7BuQbfAwpKD7gu61j7Q=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le mastaba de Nikaouisési est, par rapport à ceux de Mérérouka et Kagemni, une structure plus petite mais dont l'intérieur est très bien organisé et décoré, témoignant d'une excellence artistique caractéristique de cette période. Il s'agit d'une tombe individuelle, concentrant les éléments du culte funéraire dans un espace plus réduit. Le mastaba est principalement composé de quelques chambres rectangulaires menant à la zone du culte. Comme tous les mastabas, il comprenait une superstructure accessible pour les vivants (la chapelle) et une infrastructure souterraine (le caveau funéraire) accessible par un puits scellé après les funérailles. Le caveau, comme c'est souvent le cas, fut découvert vide, ayant été pillé durant l'Antiquité.\n\nCe qui rend la tombe de Nikaouisési particulièrement digne d'intérêt, ce sont les reliefs polychromes qui ornent les parois de sa chapelle. Ces scènes, bien qu'elles suivent les conventions iconographiques de l'Ancien Empire, sont d'une grande vivacité et préservent encore des traces de leurs couleurs d'origine. Leur objectif principal était d'assurer l'éternité du défunt en recréant magiquement l'abondance et les activités terrestres.\n\nLes Domaines Funéraires : Les murs représentaient également des scènes de l'activité des domaines du défunt. Ces domaines, gérés par des prêtres funéraires, étaient chargés d'alimenter le culte. Les reliefs montrent des défilés de porteurs d'offrandes, inscrits avec les noms des domaines (villages ou terres) qui devaient fournir le pain, la bière, le bétail et les produits de luxe."
+      },
+      {
+        title: "Les scènes médicales uniques : circoncision et obstétrique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMPKSrMplXyun1HsAcbX8n6ymuhx_mGqUafGW0Qe6aBfBTcpRA5LfmtpsdsSraSS7o2rtVOLkf-0pwpbUQNDVgJ9S4aQdd0Ia22sTclhygpp0nwIUJa_JA4HIFS6drfKP4Qa19PArYC3LNKH2Wfdwjlkg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM-p-AsNGOzKsTA67uxbWKzkS3Rwjw2h_I6hRe8K2DYOK7UCgfeSpu7YZu2kJ4t3LWGOfgvL-6SCxs01sqgogrPVthAHTswRD1fNoIvwD3q8Sq13sIMLzdQAtjc0_STtm4ZZtR1ODn8sGWw6uqAVzBdUg=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNms-9i0A3p3iErhIdu6I28sHkcs48pqwjDh0U14Kdk11gjSDYX7xMfRBkSoEALJlU3T_0rmdI_c0dMAVynMKVymZZjPRyWZx0E1JeYZCIomXR67Bgghqx6Dm_9S067qR4Rl_cmMItchcv_gE6BMRpxuw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La Scène de Circoncision (à gauche et au milieu) :\nC'est l'une des scènes les plus célèbres de l'Égypte antique et elle est considérée comme la plus ancienne représentation iconographique connue de cet acte.\n- Description : La scène représente deux hommes, accroupis ou à genoux, subissant l'opération. L'opérateur, qui pourrait être un prêtre ou un « médecin », utilise un instrument (probablement une lame en silex ou en métal).\n- Détails : Le sujet est tenu et réconforté par un autre homme pendant l'opération. Les textes qui accompagnent la scène contiennent des dialogues, incitant le patient à la patience et l'opérateur à la minutie, comme : « Tiens-le bien ! » ou « Ne me laisse pas défaillir ! » (en référence au patient).\n- Interprétation : La circoncision était un rite de passage masculin pratiqué en Égypte antique, probablement pour des raisons d'hygiène ou d'appartenance sociale/religieuse. Sa représentation dans une tombe vise à assurer la continuité de ce rite pour le défunt dans l'au-delà, ou à souligner son importance rituelle.\n\nLa Scène de la Femme Accroupie (à droite) :\nLa scène de la « femme au sol » (ou « femme accroupie ») est également très énigmatique et rare.\n- Description : Un relief montre une femme, généralement interprétée comme enceinte ou en couches, accroupie ou penchée. La scène est parfois associée à des gestes d'aide ou de rituel.\n- Interprétation : Cette représentation est très inhabituelle dans les décors funéraires de l'Ancien Empire, qui se concentrent habituellement sur le défunt et son approvisionnement. Elle pourrait illustrer : 1. Un rituel de protection (assurer la fécondité et la régénération du défunt) ; 2. Une scène obstétricale (la naissance d'un enfant et le renouvellement du cycle de vie) ; 3. Une scène de deuil ou de douleur intense lors des funérailles."
+      },
+      {
+        title: "Le mastaba double d'Âkhethotep et Ptahhotep",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPyb1rHHqjBDh_mXq_LuptJhNfOZV9KphyCoFk31-rCjMJv5f0jYTSgHWgLHx8sr2GpVCg1tZu8RMHqDcSNJtpuobYX75lC2ZWvIVKGU5kaCXP3cy91Hd4s5xBO_IPhKPztFQ0vzxHVZ9Asb2LoAAVyCA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMmKQyDpZkeVMCqIqhKmYOkX34ZOqCCrgtOyrrc6AAF4hpI4c6k1Q-9aBDT8ovVkLvpQEOcir2mYxRVpM8Nvxwn9eQyeZ0fzzqhiN-MPLOOx4piusXcwyPi9bdYf0G8OATbMmIsvS9SAxm0OOPJW4Sojg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le Mastaba de Ptahhotep est l'un des joyaux de la nécropole de Saqqarah, souvent désigné par la référence D64 et célèbre pour la qualité exceptionnelle et l'état de conservation de ses reliefs. Ce monument fut la sépulture commune de deux hauts dignitaires de la Ve dynastie (vers 2400 av. J.-C.) : le Vizir Âkhethotep et son fils, également nommé Ptahhotep (souvent appelé Ptahhotep II ou Ptahhotep Tjefi pour le distinguer du premier vizir Ptahhotep, son grand-père, enterré dans le mastaba D62 voisin). La fausse-porte, située sur le mur ouest de la chapelle de Ptahhotep, est le point focal du culte. Elle est encadrée de plusieurs jambages en retrait, soulignant le caractère de passage entre les mondes. Le sarcophage de Ptahhotep, retrouvé dans le caveau, portait des inscriptions de ses noms et titres, confirmant sa haute fonction."
+      },
+      {
+        title: "Activités de campagne, joutes nautiques et autorité du vizir",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM9W4uMsnJwHj-DhyX_fWKbhNn-q0A6Gm4S0MR2c-dmSADrk9TEzT_2AcBXhix-3dZl0F-epYr47bRRL7dNfFBwiX7v7JS_4gh4gCuQhjwiaAeMU-w7deNXWXHPKbISGdibED0xvuy_1k-OSE22bALHdw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMSN1Ad05RQWQQekQkSi1DXfWky9CbE1ngxM31A25cUlsAOp2YpJJFq5JJ27f8Xn_SdY2Q6MpZdGOVx2_wfDS1dYL-gyyajGxcsLON2oXHpX9-g2kWuFRe37Fa84N22br74LjxQWj8Hb4k7oJ6OFSCBJw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Les décorations du mastaba de Ptahhotep sont considérées comme un sommet du bas-relief égyptien de l'Ancien Empire, se distinguant par leur finesse, leur réalisme et la conservation de couleurs éclatantes sur certaines sections.\n- Thèmes Agricoles et Élevage : Les murs décrivent avec minutie les « activités agréables de la campagne » (šsp nfr n tȝ drw), assurant l'abondance éternelle pour le défunt. On y voit des scènes de moisson, de battage du grain par des ânes, de cueillette des fruits, de traite des vaches, et de l'équarrissage rituel du bétail par les bouchers (sacrifice d'offrandes).\n- Scènes Fluviales et Sportives : Les reliefs incluent des scènes de chasse aux oiseaux au filet dans les marais, des pêcheurs, et des joutes nautiques entre jeunes hommes, symbolisant la vigueur et la jeunesse que Ptahhotep souhaitait retrouver dans l'au-delà.\n- Le Culte du Défunt : Ptahhotep est représenté à une taille majestueuse, souvent accompagné de son fils, supervisant ses domaines ou assis devant une table d'offrandes, tenant un sceptre et une canne de fonction. Une scène célèbre le montre sentant le parfum régénérateur d'un pot d'onguent, assis devant la liste des offrandes, avant que celles-ci ne soient présentées.\n- Le Scribe et l'Autorité : L'importance de la fonction de Ptahhotep en tant que vizir et Grand Juge se reflète dans l'ordre et le détail de ces scènes, qui célèbrent non seulement l'abondance mais aussi la Maât (l'ordre et la justice) qu'il a servie toute sa vie."
+      }
+    ]
   },
   {
     id: "saqqarah_pyramide_teti",
