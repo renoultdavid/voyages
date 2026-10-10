@@ -13123,18 +13123,105 @@ const travelSpots = [
     subdiv: "Louxor",
     altitude: 78,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XIXe dynastie)",
     century: "Antiquité (XIIIe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Thèbes antique et sa nécropole",
-    lat: 25.7280,
+    unesco_name: "Thèbes antique et sa nécropole",
+    counts: {},
+    lat: 25.728,
     lng: 32.6105,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMvh9kjLPuS5UvlCAsITvriDjOYQ8OBYh9xsGtGjl8n5Nj6GxZjxPiEFawAn6NhTfMb2KrnXH5qKwPmIz4QaX1h5XtQnQz3jSWYLRntjezCQe9C8SomQEWYCwzHXALuIpSusnPmFctAvC6sjVoWPO2wJw=w2624-h1750-s-no-gm?authuser=0",
     description: "Dédié au culte perpétuel de Ramsès II associé au dieu suprême Amon-Rê, le Ramesseum s'élève avec une majesté mélancolique sur la rive occidentale du Nil au cœur de la plaine thébaine. Baptisé à l'origine « le Château de millions d'années d'Ousermaâtrê-Setepenrê uni à Thèbes dans le domaine d'Amon » et nommé ainsi par Champollion au XIXe siècle, ce monumental temple funéraire fut conçu pour immortaliser la gloire militaire et la piété divine du plus illustre souverain de la XIXe dynastie. Si le temps et les crues nilotiques ont en partie érodé ses cours colossales, ses ruines imposantes dégagent une poésie tragique inégalée, magnifiée par les débris titanesques du grand colosse abattu de Ramsès II en granit rose d'Assouan, bloc monolithique de plus de mille tonnes qui inspira à Shelley son célèbre poème Ozymandias. Les parois subsistantes du premier pylône et de la salle hypostyle déploient avec un dynamisme pictural saisissant les bas-reliefs épiques de la bataille de Qadech contre les Hittites, tandis que les spectaculaires voûtes de briques crues des magasins attenants témoignent de l'immense puissance économique et redistributive de ce sanctuaire pharaonique d'exception.",
     visiter: "La découverte commence par la traversée de la première cour dominée par les fragments colossaux du géant de granit gisant à terre, dont le torse, le bras et les pieds aux dimensions surhumaines permettent de mesurer la démesure des ambitions ramessides. L'itinéraire franchit ensuite la seconde cour aux piliers osiriens élégants bordée par un portique où subsiste la tête du colosse de la reine Touy, mère du pharaon, avant de pénétrer dans la forêt minérale de la grande salle hypostyle. Sous des architraves encore ornées d'inscriptions hiéroglyphiques polychromes, les quarante-huit colonnes papyriformes à chapiteaux ouverts et fermés filtrent une lumière dorée dévoilant des scènes de couronnement, de processions sacrées et la célèbre scène de l'arbre sacré perséa sur les feuilles duquel Thot et Séchat inscrivent le nom royal pour l'éternité. En contournant le sanctuaire central, l'exploration des immenses magasins voûtés en brique crue offre une immersion archéologique fascinante dans les coulisses de la gestion des céréales et des trésors sacrés, le tout sublimé par un calme admirable et une vue imprenable sur la falaise de Deir el-Bahari et les cimes de la montagne thébaine.",
-    link: "https://photos.google.com/share/AF1QipMCKqQjBP2XLww6deDJUXxTSLUm7cE_7gqXIt475IvaVvZ06fxsrg3hF-ZJ7AmwLA?key=TENXSldTUXcycnUwMmFXVWUxYjJhdXVZYzF5a0J3"
+    link: "https://photos.google.com/share/AF1QipMCKqQjBP2XLww6deDJUXxTSLUm7cE_7gqXIt475IvaVvZ06fxsrg3hF-ZJ7AmwLA?key=TENXSldTUXcycnUwMmFXVWUxYjJhdXVZYzF5a0J3",
+    sections: [
+      {
+        title: "Les babouins sacrés de Thot et la garde du temple",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP-HN5vWMiaxZ_m4QDTbkxYhWxGrIo4ovv8gF-2TLU-HkiQ5KgEI4Vov2nDsHYzz0rbWOa7whV4kJlZ0659OuBX51a6FN1oA9KSVjQFWq_gW6-VtG2s1cWb9VuhDv634PDZT1e_qN8qTztFY70tAUpfnQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMEViCvMhFqXrMdKySss9gI2kzLg-18xsoyDdaQmJ1KkP0AIZwmMbA0w6TTPUa5qWmFV6T3Wza5dAG3dup2Op7qTacKnnDVGFKgh6Vwvm380ltN4CO6e7JvgoQAkQy9GbQ2mAMYOLKrj9CSffQ8y3_0ag=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPaCdCqBT0QG34Otkk2cadYwK3nC-GRkto7cfi7o9whGm9ZgWsJhS3kMAVnkVKFUUpJdPmX4L2tsLSL9Da1LayI0xu1pa3ujmTxsl-tjpCmO8VsB178CcJexW7H9epUijefBIYFIRf6T7yGRjK6sTyQuw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Les statues de singes que l'on trouve à l'entrée du Ramesseum ne sont pas de simples représentations animales. Elles représentent en fait des babouins, qui jouaient un rôle symbolique important dans la religion égyptienne. Le babouin était l'un des animaux sacrés du dieu Thot, le dieu de la sagesse, de l'écriture et de la connaissance. Ces singes étaient également associés au soleil et à la lumière, car ils ont l'habitude de se tenir sur leurs pattes arrière au lever du soleil et d'émettre des cris, comme s'ils saluaient l'astre divin. Au Ramesseum, ces statues de babouins étaient positionnées à l'entrée du temple pour symboliser la sagesse et la vigilance. Elles étaient considérées comme des gardiens du temple, veillant sur la demeure sacrée de Ramsès II, qui était assimilé à un dieu vivant. Leur présence était une manière de protéger le temple et de marquer son caractère sacré, tout en associant le pouvoir de Ramsès II à la sagesse de Thot et à la puissance régénératrice du soleil."
+      },
+      {
+        title: "La salle hypostyle et les piliers osiriaques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNm0c9V0FvIG_QU5LxiEjglFyCMC-bB-Rh4DlIeGs-D0n-LtlrB3olJGMFQqJ1x8vVJncrANjRI-u3ieFtHpVDTikBXV84kXSb-FjadjFXZDy7Seflky8D9OVO3LfD-TlkVQ3DsDwBE4KgaU0TlArtlng=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN4kK3UKmknka5p0c1B-OQDSMi_qPYkJXUE2eG_qDAnSGLi0hCnpVb4LX0Z1YcSE2Fd6vRbs22LV7STgNG25h2wU61JSEniYyHirm3wvROGzvlZmB_pY46xGf2xH87ZYULKoInz31sO9ajt5liiXb2tzw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La salle hypostyle du Ramesseum est une pièce majeure du temple, servant de transition entre la cour extérieure et les sanctuaires intérieurs. Son architecture est un exemple typique des temples du Nouvel Empire.\n- Une forêt de colonnes : À l'origine, la salle était composée de 48 colonnes. Elles soutenaient le plafond, qui était décoré d'étoiles dorées sur un fond bleu, symbolisant le ciel.\n- Les piliers osiriaques : Les statues sont des piliers osiriaques, sculptés à l'effigie de Ramsès II lui-même. Il en restait quatre, disposées de manière symétrique. Elles représentaient le pharaon avec les bras croisés et les insignes de la royauté, comme s'il était un dieu décédé, renforçant son identification à Osiris, le dieu de la mort et de la résurrection."
+      },
+      {
+        title: "Statue colossale osiriaque de Ramsès II",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP0eQsiruRF6NgmDr17Gi52jHMLM7Ay-mcmYanMkzZ47uGC-VblYEYAfurhXiDEKuzU-6btwqwwj6QyVf8ye9BLdPcY2Z7Io--n9WbS6S-PYKZ84cROvwwu-97hs8k1AJkDAhU3f4WvGhJu8J_pFOTIaQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOd3n9dQCoypzO-qeNt03WzKOc8dUxLQJqsl0AMDw4mH7nAW1SAtqWAsW62ncP_KJuip6oZ4H2spdGsqo2zPdeCiEiv-zRVLZsirEI19fZ8htl-Jw5-lixTy97V8xEferUGL-LRV71PUCiRtlm5Ull2SA=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Cette œuvre est une statue colossale de type osiriaque représentant le pharaon Ramsès II. Taillée dans un grès monolithique, la figure adopte la posture traditionnelle du dieu Osiris, les bras croisés sur la poitrine, symbolisant la régénération éternelle du souverain et son identification à la divinité funéraire après sa mort.\n\nLe traitement sculptural privilégie la monumentalité et la puissance, caractéristiques de l'art ramesside. Bien que le visage et la coiffe soient aujourd'hui partiellement mutilés, la musculature des bras et la finesse des gravures témoignent d'une maîtrise technique exceptionnelle. Le corps est gainé dans un linceul étroit qui souligne la verticalité de la structure, servant de pilier architectural autant que de monument commémoratif à la gloire du « Grand Ancêtre ».\n\nUne large bande verticale de hiéroglyphes profondément gravés court le long de la jambe, proclamant les noms et titres officiels du roi. On y distingue nettement les cartouches royaux, notamment le nom de couronnement Ousermaâtrê Setepenrê, signifiant « La justice de Rê est puissante, l'élu de Rê ». Ces inscriptions servaient à fixer l'identité du pharaon dans la pierre pour l'éternité, assurant ainsi la pérennité de son culte. Le Ramesseum, où se dresse ce colosse, était conçu comme un centre culturel et religieux colossal, mais aussi comme un outil de propagande politique. En se faisant représenter sous cette forme au sein de son propre complexe funéraire, Ramsès II affirmait son lien indéfectible avec le divin."
+      },
+      {
+        title: "Le colosse abattu d'Ozymandias",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMvh9kjLPuS5UvlCAsITvriDjOYQ8OBYh9xsGtGjl8n5Nj6GxZjxPiEFawAn6NhTfMb2KrnXH5qKwPmIz4QaX1h5XtQnQz3jSWYLRntjezCQe9C8SomQEWYCwzHXALuIpSusnPmFctAvC6sjVoWPO2wJw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le Ramesseum est célèbre pour les vestiges d'une statue colossale de Ramsès II, qui est aujourd'hui brisée au sol. D'une hauteur initiale estimée à environ 18-19 mètres, cette statue assise était la plus grande de son époque."
+      },
+      {
+        title: "Vestiges monolithiques et postérité poétique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMB5_iulT-XpINRE7i86tGmn0XdLOIk4843qDLKjHKjKXiKC-GuayJCfSPU7XL9rsQFGxF2dPhq2XdYQkhNCnIMuiq8ATtOLG1hNxaqrlac4kxml4XiilAbin_BjFK8U1IHMrXTm0e9rDS-jCGr5SYp0w=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOAqxUnitYuYQhNQ_LRQN0QYsKcVRCOOV2soWC9p2ZN9micy1rzbsUaZqwKoQLi4qC7xQ6JpERQEpyX6-eRuSpssePjA20K3znxh0oboRmyjfNDU1QDWOUcFc52TIHNIVtbWEy81AvI18kV6aeGIlB-uQ=w1926-h1445-s-no-gm?authuser=0"
+        ],
+        text: "Cette statue colossale a été conçue pour représenter le pharaon non seulement comme un roi, mais comme un dieu vivant, affirmant son pouvoir et son immortalité. Bien que sa destruction, probablement par un tremblement de terre, témoigne de la force de la nature, son buste monumental est toujours l'un des points forts du site. Il a d'ailleurs inspiré le poète romantique Percy Bysshe Shelley pour son célèbre poème « Ozymandias », qui médite sur la vanité du pouvoir."
+      },
+      {
+        title: "Le plafond astronomique de la salle des barques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOezXnqHN0Ln1eZfue4BmAugl3EqMf_lV5DhzAS6GL-RnJE09sGekeUmlu7Y7k_g8vyuIuT9vctiFPb7KtxmqpfGpgCWKTFFs0BLtlmUjtCqeYDs7cxsyF64vJaGmWgmZmlHA3PfGWHhJFR4a2U8zJ3GQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMmlSb-1IhKrTW1KrbCqqUszWcHbpQS-QFBqKzAdfAGOSU2Of5cJWvoW7lH30gL5waRL-uPcKt-o7QG-ATAy7OOFfVoP-bU6WwGsGaJBVKmArnVK6rx9aCJlBNb3OgSsJn4Y4uelpwyBxEQr71r8fkFeg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNSgIyYBZfZpLRSjSkL8B_TpxEE--SRJX8IBiHOlfka2MgbaeQqaTU8UDeBypfSreRGlDlgJu23IuTRm2Ev9DwDjb_jm1SHpR-sH-f8gV_emP9TdPCbxfW4kc3xyCSEWSZIJUCxw-UBR96kUXPsbEYRSw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le Ramesseum, bien que largement en ruines, conserve une partie de son plafond magnifiquement décoré dans la salle des barques. Cette pièce est particulièrement remarquable pour son plafond astronomique.\n- Le plafond est un témoignage exceptionnel de la connaissance égyptienne du cosmos et du temps. Il est divisé en plusieurs registres et représente un véritable calendrier céleste."
+      },
+      {
+        title: "Le ciel du Sud, les saisons et les constellations",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM-eqX07QkOBuk9MATYhkfMycakz4RtJ3KP4ZLMF0BqNj5PNRS53x03WwE-ArC1Cm9QUBwMonUJ5X9_nQY8cxKMwTjbKEJWKHGYp6NUkyeiWPcruQSTAiovSBJ339mHptBP6HY7cyJVbdkpVDdm1JksEQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMXxHFR8f0OlNaoW_I6algLqae1LWlQlsVpIuGfOi9aNZG_sPFVOszU6VHvOocP05grxXTWdhv9lH7ILYW90ee1JpHU9N2hCPnwdlTtYDI4Rtg6FXuDPaLjbWA_bV76Vn0Sz9jrtnHaREhLz15yjnlKuw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOgoCsxIGkd9Pa-CP3ej9OLOOWzRUVnSo9yoYHK94JtJ8XmusY3yZRWubUz8mrtvmSmWISzKDLGp_AJ9ainJn2JAtJK7Hv0ay8HLgAhc9QgCgeaC3fe1S9A0W3kMz9qLkhJ_q8ZpezvE-yXsjd9IFzFnw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "- Le ciel du Sud : Le registre supérieur du plafond montre les planètes et les étoiles décanales, qui étaient utilisées pour marquer les heures de la nuit. Au centre, se trouve la déesse Isis-Sépédet (Sothis), dont le lever héliaque (la première apparition juste avant le soleil) annonçait l'inondation annuelle du Nil et le début de l'année égyptienne.\n- Les saisons et les mois : Une bande d'inscription au-dessus des registres nomme les trois saisons égyptiennes (Inondation, Hiver et Récolte), chacune divisée en quatre mois.\n- Les constellations et les divinités : Le registre du milieu présente des divinités du cycle lunaire et les constellations du ciel du Nord, tandis que le registre inférieur figure des divinités associées aux fêtes lunaires célébrées par le pharaon.\nCe plafond n'était pas seulement une carte du ciel ; il symbolisait la connexion du roi avec le cosmos et sa capacité à maintenir l'ordre divin."
+      },
+      {
+        title: "Le culte du ka royal déifié",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPar2pePRIDyoxYXtMhRT6TM1G4osuAd6rKpgy1bShKRYFXtBbuF-yJQBKgMzQ7vLctAzydcu-5_H2X9-Xt_PHHiQdJqy9qCK33AxEo18hn8LL3kcKVLTrt6R6JZqKzoEMGPDVmlMSU3oOlHN81bpRGAQ=w1813-h2416-s-no-gm?authuser=0"
+        ],
+        text: "La construction du Ramesseum avait plusieurs buts. Premièrement, c'était un lieu de culte pour le Ramsès II déifié. Le temple servait à maintenir son culte après sa mort, avec des rituels et des offrandes pour nourrir son ka (son âme)."
+      },
+      {
+        title: "Glorification dynastique et Château des millions d'années",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO1xoOZU4Q0Y77s4upVY9FafKDwoJFPV9I2d91LOFmTvCVUfIEgcdziLwnP5fqtSyi7DEAIh0bmf_PlrfwGlMkIZewtSbhkbaIadSP2_ke1wxpphLabherlKjErV7QweqZgwdk_L3FjDo4-Mlc0SZf7eg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMGjlPefSHog_vVr25-HJZ0Hk1lvOXcuoYJjgXHMrhQV_2GMWhxxTCPEzluYsAQ2URwZ8rtUDoSuZID47h-QNypO1MnFNzmz2aZM2J3xqKoVGI9PDZKCe6fljihiM0Z76ZqUO6IRpp5a54VmnVIxHj4PQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPzZkAxxItAgYreZomuf7oUg0G6vQwOM55kHeHIyoaOsdDfq-e_TFC-ZX3lCqkOcv0DFMjlHLx9c8-UIxtuOrMACtX6HeRJ54bMZ0QFPVJVYd1jhR180l5tgztQaKMpucgm9r6YfuCICZ7PgNyNb0wz1w=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Deuxièmement, il était une glorification de sa puissance et de son règne. Il servait à immortaliser ses victoires militaires et son statut de souverain divin. Le nom que le pharaon lui a donné était « Le Château des millions d'années de Ramsès II, ami d'Amon, sur la rive ouest de Thèbes », ce qui montre qu'il était un symbole de sa puissance éternelle."
+      },
+      {
+        title: "Architecture monumentale et batailles de Qadech",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNlxHsCHpetkOmb8OMZlFQaImoBgtK1hvluoHg9GfAhfahWPWRK8C9EbCJaiGs2ohiepgr20upPgd4GBUzWnvbZ2kApQLXccAJQc3MCIxDTg2_5SaWXcK4JQDZGZbHvC5PWBvoKBZEHlDO7DZjb8b5MHg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNulcf9zbuBnXyRkp331mblwrnXkO-lgwbnVNAFx6MfY00zTvLknBRYJR9JKKehcRsbB_mfMnma4XTU-27mvVVwUyexigmzS_OHWwu-8jAoklKcwooR78G-Cxnt_Q0NCE_Ifu8zkeqgr1wm1EKW9CWDHw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMdkl-XBXu6Wxc4UFvNQ9-Ey7CaJUfSzSJuIhfAvPaoYUunYXAgkCfnXIxs3mekdt37DeRS0zZBwrNvG1lFwzBHYA7f9xdF7Z1wruI8FFJcfYhFuglTDVhVrnQsEOJ1zbDBa7k0Cp6uFsC8sMNn2aAsgw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La construction du Ramesseum a impliqué une grande équipe d'artisans, d'architectes et de prêtres. Le temple a été conçu selon un plan classique du Nouvel Empire, avec de vastes cours, des pylônes, des salles hypostyles et des sanctuaires. Ses murs sont couverts de reliefs qui racontent les exploits de Ramsès II, en particulier la bataille de Qadesh. La taille colossale du temple et de ses statues, en particulier la statue monumentale de Ramsès II, était une affirmation de la domination du pharaon. Le Ramesseum est un témoignage puissant de l'ambition de Ramsès II, qui a utilisé l'architecture pour affirmer sa place parmi les dieux."
+      }
+    ]
   },
   {
     id: "thebes_colosses_memnon",
@@ -13147,18 +13234,54 @@ const travelSpots = [
     subdiv: "Louxor",
     altitude: 75,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe dynastie)",
     century: "Antiquité (XIVe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Thèbes antique et sa nécropole",
+    unesco_name: "Thèbes antique et sa nécropole",
+    counts: {},
     lat: 25.7206,
     lng: 32.6105,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNByJ9_2Lbc1vXLFwbPNONyha79Q7dIH9R3X50vc_g8l2A-zDRGWwm61hsQUYUabguxMKJDL_4Rgis4Zn3sFchrEV5BeorFNSnGTM9p05kOpNGbU7QMYv3Sv2jKjjTA80t2e5JFmnPvJUE-fanJIA8lvw=w2624-h1750-s-no-gm?authuser=0",
     description: "Sentinelles titanesques dressées à la lisière des terres fertiles et du désert de la rive occidentale thébaine, les deux colosses de Memnon constituent les ultimes témoins visibles du plus gigantesque complexe cultuel jamais édifié en Égypte : le temple des millions d'années d'Aménophis III. Sculptés au XIVe siècle avant notre ère dans d'immenses blocs monolithiques de quartzite extraits des carrières d'El-Gabal el-Ahmar près du Caire puis transportés par voie fluviale sur plus de six cents kilomètres, ces géants assis de dix-huit mètres de hauteur et de plus de sept cents tonnes chacun gardaient majestueusement l'entrée du premier pylône du sanctuaire royal. Si les crues répétées du Nil et les séismes antiques ont ruiné le vaste temple de Kom el-Hettan qui s'étendait derrière eux, les effigies royales immortalisent toujours le souverain Aménophis III coiffé du némès divin, flanqué à la base de son trône des bas-reliefs du Sema-Taouy célébrant l'union sacrée de la Haute et de la Basse-Égypte par l'entrelacement du papyrus et du lotus. Célèbres dans toute la Méditerranée gréco-romaine après qu'un tremblement de terre en l'an 27 avant notre ère eut fissuré la statue septentrionale, provoquant au lever de l'aurore un phénomène acoustique mystérieux interprété comme la plainte matinale du héros Memnon saluant sa mère Éos, ces géants de pierre continuent de fasciner les voyageurs par leur noble et mélancolique sérénité.",
     visiter: "La découverte des colosses s'effectue librement depuis la vaste esplanade aménagée en bordure de route, permettant d'apprécier de plain-pied la monumentalité vertigineuse des deux effigies royales dominant la campagne nilotique. En observant attentivement les flancs des trônes sculptés, le visiteur remarquera la finesse des bas-reliefs figurant les génies nilotiques liant les plantes héraldiques ainsi que les représentations sculptées en ronde-bosse de la reine Tiyi et de la reine-mère Moutemouia flanquant les jambes colossales du roi. La statue nord livre une fascinante plongée épigraphique à travers la centaine d'inscriptions et de graffitis poétiques en grec et en latin gravés par les illustres pèlerins de l'Antiquité, au premier rang desquels figurent l'empereur Hadrien, l'impératrice Sabine et la poétesse Julia Balbilla venus écouter la légendaire « voix de Memnon ». L'exploration gagne à se prolonger vers l'arrière dans la vaste zone des fouilles archéologiques de Kom el-Hettan menées par la mission germano-égyptienne d'Hourig Sourouzian, où émergent progressivement des sables d'autres statues royales colossales redressées, des stèles géantes et d'impressionnants sphinx en grès. La lumière rasante du début de matinée ou de la fin d'après-midi embrase la roche dorée de quartzite, offrant un contraste pictural splendide avec les palmeraies environnantes.",
-    link: "https://photos.google.com/share/AF1QipNE-dssKYq_VrDmptckw4EBMEp10lbHEGt0Qbxu8ZimPgwFLW6B-Oc3UhISRZ6Few?key=bW1qbmRGVGhSNkt3UWtGYUlOM25velYyWmJOaEd3"
+    link: "https://photos.google.com/share/AF1QipNE-dssKYq_VrDmptckw4EBMEp10lbHEGt0Qbxu8ZimPgwFLW6B-Oc3UhISRZ6Few?key=bW1qbmRGVGhSNkt3UWtGYUlOM25velYyWmJOaEd3",
+    sections: [
+      {
+        title: "Monolithes de quartzite et trônes royaux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO9on8QOQoQdHOZifbEvbTeYxrNIRYr7tsr7EzN7JAZTa9ILEmym08yxS-rncZcicYIZXDyDPKiECymeHwJfjVya4he2EfsTjgQ6HwPuAEuKZXzzr0uk3fPfYxrDhNxMWLakxc1Swk_2DKiNEReAtFgvQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMVO11dlw2IMO3A8QZ1JMWQgQvVCx3JYSjrWQ2NqockCgcGcnWsj99mhgk-xjH68sBkdRlk1KSaJY9-y5Wo4DZzgZetB612s5RREEMdcEoRQ-bnOfBwlfcn5ixdoAlU5aUQyKmmOjO2kAcytdlzdl17aA=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Chaque colosse est sculpté dans un seul bloc de quartzite, une roche extrêmement dure. Ils mesurent environ 18 mètres de haut et pèsent environ 720 tonnes chacun. Les statues représentent Aménophis III en position assise, les mains posées sur ses genoux. À leurs côtés se trouvaient des statues plus petites de sa femme, la reine Tiyi, et de sa mère, Moutemouia. Des inscriptions sur le trône célèbrent le pharaon et la divinité égyptienne du Nil, Hâpy."
+      },
+      {
+        title: "Le séisme antique et la voix mystérieuse de Memnon",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNByJ9_2Lbc1vXLFwbPNONyha79Q7dIH9R3X50vc_g8l2A-zDRGWwm61hsQUYUabguxMKJDL_4Rgis4Zn3sFchrEV5BeorFNSnGTM9p05kOpNGbU7QMYv3Sv2jKjjTA80t2e5JFmnPvJUE-fanJIA8lvw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN8ratBdnm8UQZknCOF6m4_ZLThvkJ5ZHaFYh9ReHG70SZien9EzVUpVFNjAQjbkiXYFETBba-bpLwdxjo1q10IwLYE3Z2hPbIpSEIKf8IJXjtlXUSm2vxv87nth8oOzxnV-zbsI_CSBsXufgvkaHEz8w=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Construits vers 1350 av. J.-C., les colosses se dressaient à l'entrée du temple funéraire d'Aménophis III, un édifice si vaste qu'il était surnommé le « temple des millions d'années ». En 27 av. J.-C., un violent tremblement de terre a endommagé le colosse de droite, brisant sa partie supérieure et provoquant des fissures dans la roche. Les Grecs et les Romains, qui ont visité le site, ont associé le colosse brisé au héros mythologique Memnon, fils de l'Aurore. Selon une légende populaire, la statue « chantait » chaque matin au lever du soleil, un son que les visiteurs interprétaient comme le salut de Memnon à sa mère. Ce phénomène était en réalité un sifflement produit par les variations de température et les vibrations de l'air circulant dans les fissures du quartzite. En 200 apr. J.-C., l'empereur romain Septime Sévère a ordonné la restauration de la statue, ce qui a eu pour effet de faire disparaître le son."
+      },
+      {
+        title: "Épigraphie gréco-romaine et pèlerins impériaux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOmI7IH7RTqJN4tLBYMAho6YPAc62KT6KS1Sbd3Wfx6tk7ZHd8d-_a5Ku2UsBZyyrl2jlhKoVj3NbeHvsIe8joCJzES6O7nh__Q5lj883qMDyxt1rok31cx6hyuhYr606wjQhNLZimBRWDu9JlQjUf5Mw=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOpSdeGsqHHRcUMxi3YZzjbQGAzyNgXncz6M8_TSINgUDix-_0ZRXrDMOPObvqUhWwSyUAItIC1PDXkiWrDegy7TbnaiP-W1h90AiLl5i6seK3Y6Qy-WV_UXqT3p0e1dzRuyH75lVSvh1QrYqeg3nrfAg=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPGSK5EWEPbkqf_yfcslY6VZExbcrbxux7KBvk5z4L--EV9PgHCnpy1e6fXDcIxQhMEQZ3GHaYo7gOqci80KMqYWrSrlfuQPhgr7Z4A-b1K_-SogtHKdZHiO-fFTBOtfq1HkxVG1unM12hQc3vinsRhEA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Puisque la statue de Memnon a été rendue célèbre dans l'Antiquité, de nombreux voyageurs et pèlerins ont laissé des traces de leur passage sur son piédestal, témoignant de leur émerveillement face au phénomène acoustique. Ces inscriptions, en grec et en latin, sont d'une grande valeur historique.\n- Graffitis de visiteurs : ces « graffitis » sont en fait des témoignages de voyageurs, pour la plupart des dignitaires, des soldats ou des personnes de haut rang. Ils ont gravé leur nom, la date de leur visite et leur profession, attestant qu'ils ont bien entendu le fameux « chant » de Memnon.\n- Poèmes et louanges : on y trouve également des poèmes et des hymnes, adressés à Memnon ou à l'empereur. Par exemple, une célèbre inscription d'une poétesse nommée Julia Balbilla rapporte ses visites et décrit le phénomène en vers.\n- Témoignages de l'empereur Hadrien et de sa suite : un grand nombre d'inscriptions datent du passage de l'empereur Hadrien et de son épouse Sabine en l'an 130 après J.-C. Leurs compagnons ont gravé leur nom et des vers pour immortaliser l'événement. Le fait que l'empereur lui-même se soit déplacé démontre la renommée du site.\nCes inscriptions ont été étudiées par des archéologues et des philologues au XIXe siècle, comme Jean-François Champollion. Elles constituent une source précieuse d'information sur le tourisme antique, les croyances de l'époque et la fascination pour les merveilles du monde. Elles révèlent que le « chant » de la statue n'était pas un phénomène anodin, mais une véritable attraction qui attirait des pèlerins de tout l'Empire romain."
+      },
+      {
+        title: "Colosses d'Aménophis III et réemploi ramesside",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMeopG1Htl8ynMwG0bYlH342Kj7D_DbnUxy8ohCHc3H-jr-Jhuw_2ZUxWygaXEW9mLY9gcrIUdto0zlowxjSVEKeZ4Hcg78TxbLm3kuV9_r-vFPIIspnEPUvMFjNLxwgRE-gH2jhwrSVgzS00yXbfCOQQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Ces statues colossales, situées près de la porte nord du temple de Louxor, sont un exemple frappant de l'art du pharaon Amenhotep III. Chacune mesure près de 15 mètres de hauteur et est sculptée dans un seul bloc de quartzite. Représentant le pharaon en position debout, elles étaient à l'origine érigées dans le temple funéraire d'Amenhotep III. Cependant, ces colosses sont plus connus pour avoir été usurpés par Ramsès II, qui les a fait déplacer et a fait graver ses propres cartouches sur elles. Il a également fait construire des statues à son effigie à leurs côtés, créant ainsi un alignement de statues royales. Le fait que Ramsès II ait choisi de s'approprier les statues d'Amenhotep III montre le grand respect qu'il avait pour son prédécesseur et sa volonté de s'associer à sa gloire. Ces statues sont un témoignage de la grandeur d'Amenhotep III et de la pratique de la réutilisation des monuments dans l'Égypte antique."
+      }
+    ]
   },
   {
     id: "thebes_medinet_habou",
