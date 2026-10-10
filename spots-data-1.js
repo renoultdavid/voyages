@@ -13921,17 +13921,89 @@ const travelSpots = [
     subdiv: "Kom Ombo",
     altitude: 90,
     is_island: false,
+    island_name: "",
     transport: "bateau",
     era_group: "ptolemaique",
     era_label: "Période Ptolémaïque (-180 av. J.-C.)",
     century: "Antiquité (IIe siècle av. J.-C.)",
     category: "archeologie",
+    counts: {},
     lat: 24.4536,
     lng: 32.9575,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM7PUFtMCkaIiznC67hMHTYvSrp7icTFi1fmvfL6P3eyf__l0mGzgjqbOOIdpKlGLn0KjMYN1FBC1Lp_lsn1GDpPOkJHcvAUAgXWl5MZwkF9RD8EXB3BEHhxroatqj-63eHvfMvQ7WoFfJ-XnhbxYFm5Q=w2468-h1645-s-no-gm?authuser=0",
     description: "Sanctuaire remarquable dressé sur une colline surplombant les rives du Nil, célèbre pour son architecture double unique dédiée à deux divinités distinctes : le dieu faucon Haroëris et le dieu crocodile Sobek. Ses salles hypostyles, ses reliefs sculptés et son nilomètre ancien témoignent de l'importance religieuse et économique de ce site stratégique au carrefour des routes caravanières. Un lieu chargé d'histoire où la vénération des crocodiles sacrés rythmait la vie des prêtres pharaoniques à travers les siècles.",
     visiter: "Les doubles sanctuaires symétriques révèlent des bas-reliefs détaillés dédiés aux divinités tutélaires du site, tandis que le couloir extérieur présente des représentations d'instruments chirurgicaux antiques. La cour principale conserve des colonnades richement ornées face aux panoramas du fleuve, et le musée des crocodiles situé à proximité expose les momies de ces animaux sacrés retrouvées dans les nécropoles environnantes, complétant ainsi l'immersion historique.",
-    link: "https://photos.google.com/share/AF1QipNR-DYcGyqxLai4EXbIIRgy8JE9kdE62GYsdQjDP_K8avlaYTDSztbKFL-NKhxi4g?key=ZlgzWXp5YzF6Ti03WE5Gb0s4VDJYNzQybllNNmtn"
+    link: "https://photos.google.com/share/AF1QipNR-DYcGyqxLai4EXbIIRgy8JE9kdE62GYsdQjDP_K8avlaYTDSztbKFL-NKhxi4g?key=ZlgzWXp5YzF6Ti03WE5Gb0s4VDJYNzQybllNNmtn",
+    sections: [
+      {
+        title: "Le culte et la dualité de Sobek",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPQnqgrq2svlwTaWb4zf2je2FB0KGqubW9rvqcS89Zxm3drxH7Q-33WWewc_OCnHn4PzrU7RiJQI4mDy9QlKoGJ-ess8DqcSYOBRbnzpcNr8_oY6f41C4MJNEkUEfkHpPwqQHxDk7gCZRxsHspn82X4LQ=w1926-h1445-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMrojgpujvE0E5elufAUXy1gtnGRPjwSKGyLnmTy4I48q5xXkr61yz_t0-NV-w0En4qDFd4ytzGCjqmjGt3JcP-l66dh1NIFmQqv85RoHEasefsfWODl2-8Odpks4UQqZGRsZ_7QDJA2pferHwOABYCkw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Sobek est une divinité complexe et fascinante de l'Égypte antique, vénéré depuis l'Ancien Empire. Il est le plus souvent représenté sous la forme d'un crocodile ou d'un homme à tête de crocodile, coiffé d'une couronne ornée de plumes et de cornes. Son culte était particulièrement répandu dans le Fayoum et à Kom Ombo.\n\nSobek incarnait à la fois les forces bénéfiques et les aspects redoutables de la nature. D'un côté, il était associé à la fertilité et à la puissance créatrice. Les anciens Égyptiens pensaient qu'il fertilisait la terre en se retirant des eaux du Nil, permettant ainsi aux crues d'apporter le limon. Il était également vu comme un dieu protecteur, redoutable pour ses ennemis, et les soldats invoquaient sa fureur au combat.\n- D'un autre côté, Sobek incarnait le danger et l'imprévisibilité du fleuve. La nature agressive du crocodile le liait aux forces du chaos et de la destruction. Son culte reflétait cette dualité : il fallait apaiser sa colère par des offrandes pour éviter la mort dans les eaux."
+      },
+      {
+        title: "Architecture symétrique d'un sanctuaire double",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMiccq9yhGOPTSYO0xUaBBvSv5Ht1-LVijj_qJzy-pqZa973AX6VLiSk5YsznrQ9-M_hIoDlmniezOUAelSF3As5ULuWze_JYiUZP5067SbA8fJgDyNPGzkKt61u_fILxB4IO_nSph1NhQ2biqvLej5AA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMbACUoiJn9QiF_MYI-oYtYm_zg7TedqfpL6fqt3vS2gudVrv-ehbriN4woOhDYblGcP0OAopI2IrAZM1hs2np-NsGnNpdP61eMtMy93b0sJqUAg_5gGZ4-U-dVUJvXrN9nt6Y7kt2bd1PR8gC3KbKyZQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le temple de Kom Ombo est un « temple double », ce qui signifie qu'il est parfaitement symétrique et dédié à deux divinités principales. Chaque divinité possède sa propre moitié du temple, avec des entrées, des cours, des salles et des sanctuaires parallèles."
+      },
+      {
+        title: "Les deux axes divins : Haroéris et Sobek",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM7PUFtMCkaIiznC67hMHTYvSrp7icTFi1fmvfL6P3eyf__l0mGzgjqbOOIdpKlGLn0KjMYN1FBC1Lp_lsn1GDpPOkJHcvAUAgXWl5MZwkF9RD8EXB3BEHhxroatqj-63eHvfMvQ7WoFfJ-XnhbxYFm5Q=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNZMKdWQzVd6Ceeq_ZhtrUl29yZUQZ_pX6Cgru_xS3o2PyJ1_ydgNK0KyPbTUUFBIZR3X6018MjCxjV_o78bDOXZolxB9z4fptrCT7oHli_4hargbFlGrPI4NzUt7_hBtib6Z_EMNp7vlOoqmH-pgEePA=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "L'axe nord est dédié à Haroéris (ou Horus l'Ancien), le dieu faucon associé au soleil et à l'ordre, ainsi qu'à sa triade divine.\n- L'axe sud est dédié à Sobek, le dieu crocodile de la fertilité et de la puissance, et à sa propre triade.\nCette conception reflétait une cohabitation théologique et une tentative d'équilibre entre deux divinités puissantes."
+      },
+      {
+        title: "Plan processionnel doublé et enfilade des sanctuaires",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNE_YpJvNR_PjU2iuue5ZpYWAhh54i9oXDrmL3gxST9yGR8YTOv13NyD7SeKp9ZZRFP3BtqkUzennzApvuGCcbxgSgG5Qa3bjNb1mf7JHYlx52vkNv4fxYD-p4rvYftL-7nJ1k5lYtIM3dDfS3NGbsLGQ=w1813-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOzu2PDqGZ01b56Mj4fE_7EEeJP-eYr5F3IRZbeceOhlc6SzTnKfrh9kLLp0l0bP-n3aCtkhbhSiqrf3HRrxLlmyBPFXoOlr7pP2JSHLSL80QVey4YyXc4lhIHPNgCn2ClekeC7ougWQ8qX9QGLc8IZNg=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Le temple est construit sur un plan processionnel classique, mais doublé. Une fois passées les deux portes d'entrée, on accède à une vaste cour à ciel ouvert, autrefois bordée de colonnades. Juste après se trouve le premier portique (première salle hypostyle) avec ses colonnes décorées de reliefs. Ces décors représentent des scènes rituelles et des offrandes aux dieux.\n\nEn avançant plus loin dans le temple, on traverse la seconde salle hypostyle qui mène aux deux sanctuaires parallèles, le sanctuaire nord pour Haroéris et le sanctuaire sud pour Sobek. Des corridors et des pièces plus petites entourent ces sanctuaires, chacune ayant une fonction spécifique dans les rituels du temple."
+      },
+      {
+        title: "Le célèbre bas-relief des instruments chirurgicaux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNB9QMNP89hKrawj36pW3pPmJ5AaNGOogXkvy81ujZryRYQomSb5MFAeaT8hONwqSCWB_gGQnsl75zi4cb_1WKYA6ydz7p8FVe9ajLGhP9fmUGRvzBCIdzzNFHIPQSPoRrsW320BCzjmJobkHouHD95zQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO8wwA7HrKdPSMNNmba3xgaTy03-UNIdoLRnolG7PiazvBbRlBiKkZq9vP1RDiNjK1LwlB1XbyGpDS_Yn15gYUWp6pKOcZUBWg7izw3yIUjYzQgOcYP6kiAZhLfiCm9Zm8b22CKIyEbNqDlCwgclzV1LQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNYD06-DDejK-glIX1lETaIL_fR7tXQtkN_eq_61GZICiQ9wzGJRNi3eOtEx1u8dqQiooKWxcvXn0Pb4FyBM1s4Q_PkILdXAkD8kfNu3SGXdte8BMQxJpTrtVXN3PPwdDz1VSFc_clYKs7YzI4E1VnE8w=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Ce bas-relief exceptionnel se situe sur le mur d'enceinte extérieur du temple de Kom Ombo, une zone célèbre pour ses représentations uniques dans l'art égyptien. Ce panneau particulier est mondialement connu des historiens de la médecine car il est interprété comme l'une des plus anciennes représentations d'un ensemble d'instruments chirurgicaux et médicaux. Gravé à l'époque ptolémaïque ou romaine, il témoigne de l'incroyable avancée des connaissances scientifiques de l'Égypte ancienne, où le temple ne servait pas seulement de centre religieux, mais aussi de lieu de guérison sous la protection du dieu Haroëris, le « Grand Médecin ».\n\nLe registre central détaille une panoplie d'outils techniques disposés avec une précision surprenante. On y identifie des scalpels, des ciseaux, des aiguilles de suture, des écarteurs, des ventouses et même une balance destinée à peser les ingrédients des remèdes. Ces instruments sont encadrés par des divinités assises sur des chaises d'accouchement, soulignant le lien entre la chirurgie, la pharmacopée et l'obstétrique. L'organisation rigoureuse de la paroi, divisée en colonnes de textes et en registres iconographiques, suggère un véritable traité médical gravé dans la pierre, destiné à être lu par les initiés.\n\nÀ gauche de la scène, deux figures féminines sont représentées assises, dans une posture liée à la naissance ou à la convalescence. Elles sont accompagnées de textes hiéroglyphiques qui, bien que partiellement érodés par le temps et l'exposition au sable, apportent des précisions sur les rituels de soin prodigués dans le temple. La technique du relief en creux, typique des parois extérieures, permet aux formes de se détacher nettement sous le soleil égyptien, rendant chaque instrument de la trousse chirurgicale parfaitement identifiable par le pèlerin ou le chercheur.\n\nL'importance de ce relief dépasse le cadre de la simple dévotion religieuse. Il illustre la synthèse entre la magie et la science, une caractéristique fondamentale de la pensée égyptienne. En plaçant ces outils médicaux sous l'égide des dieux de Kom Ombo, les anciens Égyptiens affirmaient que la main du chirurgien était guidée par le divin. Aujourd'hui, cette « notice médicale » murale reste l'un des témoignages les plus fascinants de la pérennité et de l'influence des savoirs égyptiens sur la médecine occidentale naissante."
+      },
+      {
+        title: "La collection des momies de crocodiles du musée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMOWBXymxMo1UEcz-KwbmwhKXUyY07ivO2oV-HCmSSAOgXj2N1bDyBpWBnTSJZvJkaxTMtzfLL-87UYNmD9Pl7DCHnu1pJp1ATcfsAes8xw-Da1wHWSKc_-UjJrhssTybdK-Bq1Ni96Gqa71SnMXpkang=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOiEwPFMM_QvrO0UdF9bbdR9bOUKyJChxoq4BI1IIKY6EwpOtnz56nUMKt0BDJ-fHxrv4ykN--ty39z24zMPyWPSaLG7XhTSBnNDxBswtoIrrFSmjrAV2FM3T5rKJwZ7GLElYMsfR0Ndh1OCBrRvr7ToQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNOq2dbpIJEiQZeV6pF6SAwJ3RSMwSJMwOxegRFzF6ifuSWbwBJWD-dfjhH2NIQ0ajvwgH8-jWj_MGWbJSrIic4RolKhW77lIejWrFLV86xQ4fedOhfKAOVf1Rc2N0ELtQpms5LI7BUKvirL1kpqxomZg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le musée abrite une impressionnante collection de momies de crocodiles qui ont été découvertes dans un cimetière antique près du site. Au total, plus de 300 momies de crocodiles, de toutes tailles, ont été exhumées. Le musée en expose plusieurs dizaines, dont les plus grandes mesurent jusqu'à 4,3 mètres de long. Ces momies témoignent de l'importance du crocodile dans la religion égyptienne et de l'ampleur du culte qui lui était dédié à Kom Ombo."
+      },
+      {
+        title: "Artefacts rituels et sarcophages de Sobek",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPCmc1Uw7Fb-kA0bXCK39_at0oa3hFAleh9Q8g3T6j-nuIire3LwNbZjZL_fqIzeT2axuN9jW6oBxSUkv4ZfqDUZ_Z8koiiLL9eqheBx6BbWuy9_qb456w5_CR1F6J8XsN9CdHaH9uF4AdtSjVh-0eYBA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPDACRngCUWkQxA8XYW8hf26zBffrs0QRN3XbRyYUtpnwaxHZLRr3yk77OD8X_qcA9cUuNZ4yU9OKrQ3Ikv_OKGbSyH_eFYMWsrtSol6lmXleH7-eSBUGQpOozjGPvtORH0Uo0SEymjMthzXAyYg-bX9w=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN3xG1Ot7WQSjbiRBg_6VoKhtAeiYiax1TFUz8xmCRMLp4bv7FahR0-eU3xc6tZ46-cti2AZaW7q-ZCWssZ_0sHexHcUm0rA0OPuse2TyIk6BpFCByR2AUN5QMWmtz3raSsWFWrth2wyj7UNPTra3sMjA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "En plus des momies, le musée présente divers artefacts liés au culte de Sobek, tels que des sarcophages en terre cuite, des statuettes de la divinité en bronze ou en pierre, et d'autres objets rituels. Ces objets éclairent la pratique de la momification des crocodiles et les croyances des anciens Égyptiens qui voyaient en ces animaux sacrés une manifestation du dieu. La visite du musée est un complément essentiel à la découverte du temple, car elle permet de mieux comprendre la dualité du lieu et le rôle central du crocodile dans la vie religieuse de la région."
+      },
+      {
+        title: "L'art du maillotage géométrique des crocodiles",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNyp4t1mW-mJsfYN3btkkaxElJgAA-n6QV9H3popdjkO4byUpbfieWTTZkav6POjB4WFqhqJtFB9lyFod5cNPYkebN3hhPOtp1y1TmiBeYbySXhMeREse8q-TNecXV7aX-CUFMG16O-LUi2QRe5jy9Hng=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNnrrbNb5kgri7ajRiWBvnKBGImNA5-fKrK5E8FvuyTIP19GfFwKMHSwdMxIRfd0CSL-IgqMMtJfglpHKFEBUIN03nSk5gjwnjiCq-y50w3jUW_NU-MKZ8aaDNINlYgu82YcHTrgxNzcm4i1MwhK03wWA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMPkobDPTP-kIuDojaEaxJ9fTFdYfcNP4TGdfYw-ekj5V0t7VZ0p90Z41m5nxyNGXfugy2G6OjflKnwUMT0V6HjwYaALSGCwGfQ56k28a3JJ_Q82s5JYjUZUjQ8GLqWmfkb9hRLwKu8OFsrNl1frd7oig=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Contrairement aux spécimens dont la peau est exposée à nu, celui-ci illustre avec une grande précision l'art du maillotage rituel appliqué aux animaux sacrés durant l'époque ptolémaïque et romaine.\n\nL'aspect le plus remarquable de cette pièce réside dans la complexité de ses bandelettes de lin. Les embaumeurs ont utilisé des tissus de différentes teintes — alternant le beige naturel et un brun-rougeâtre — pour créer un motif géométrique régulier en forme de damier ou de croisillons. Ce soin esthétique, identique à celui apporté aux momies humaines de haut rang à la même époque, souligne que l'animal était traité comme une véritable incarnation du dieu Sobek.\n\nLe visage du reptile est également mis en valeur par des éléments décoratifs :\n- Les yeux : de petites plaques de pierre ou de stuc peint, imitant le regard vif du crocodile, ont été fixées par-dessus les bandelettes pour redonner une forme de « vie » éternelle au défunt sacré.\n- La structure : le corps est enserré dans des sangles de tissu plus larges qui maintiennent la rigidité de la momie, permettant son transport ou son exposition verticale dans les galeries souterraines du temple."
+      }
+    ]
   },
   {
     id: "temple_edfu",
@@ -13944,17 +14016,109 @@ const travelSpots = [
     subdiv: "Edfou",
     altitude: 85,
     is_island: false,
+    island_name: "",
     transport: "bateau",
     era_group: "ptolemaique",
     era_label: "Période Ptolémaïque (-237 av. J.-C.)",
     century: "Antiquité (IIIe siècle av. J.-C.)",
     category: "archeologie",
+    counts: {},
     lat: 24.9778,
     lng: 32.8733,
     image: "https://lh3.googleusercontent.com/pw/AP1GczODDOHLKqHDHHrENAvAJ6-1bs8Xj6qVoflzOrpcClYqlWXXRgGY_ICKgqAjr9EDeL3yN8cx6v3NmsZS5uQR7gclNIcW2wp-BvXvCloeT-CQH8X_UX4lo-ePx5yWdNmXCzthCKiYptS4X9bZy9xfXbqA0g=w2468-h1645-s-no-gm?authuser=0",
     description: "Sanctuaire monumental dédié au dieu faucon Horus, considéré comme le temple de l'Égypte antique le mieux préservé au monde. Érigé pendant la période ptolémaïque, il offre un témoignage exceptionnel sur l'architecture religieuse, les rituels sacrés et la mythologie pharaonique grâce à ses structures restées intactes à travers les millénaires. Ses immenses pylônes d'entrée, ses salles hypostyles richement décorées de bas-reliefs astronomiques et son saint des saints plongent immédiatement les voyageurs au cœur de la spiritualité de la vallée du Nil.",
     visiter: "Le franchissement du premier pylône monumental permet d'accéder à la grande cour à péristyle encadrée de colonnes richement sculptées. Les salles intérieures dévoilent des scènes mythologiques détaillées retraçant la lutte légendaire entre Horus et Seth. Les chapelles annexes et la chambre du sanctuaire abritent les vestiges des anciens rituels sacerdotaux, tandis que les structures préservées de l'enceinte offrent un panorama remarquable sur l'agencement architectural d'un grand domaine divin de l'Égypte ptolémaïque.",
-    link: "https://photos.google.com/share/AF1QipNqbMqY_-InIkAJX9cPCrdTcJxd05Ei8zaKJYCjHGXrIGOmW3MY9HfCRdYEbiU_2g?key=ZlFTdkRzMzVrTDh4WmZtRjVFZEVVbHlCQ2RmM0xR"
+    link: "https://photos.google.com/share/AF1QipNqbMqY_-InIkAJX9cPCrdTcJxd05Ei8zaKJYCjHGXrIGOmW3MY9HfCRdYEbiU_2g?key=ZlFTdkRzMzVrTDh4WmZtRjVFZEVVbHlCQ2RmM0xR",
+    sections: [
+      {
+        title: "Construction ptolémaïque et redécouverte ensablée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczONQQxtqE1N6iTiBHp8VTDEEjUu_6GgI9N6ZIGiFaTcMQwchu7jNWV6_RgAKT2IcXW_uKXLcjtwp-jjaBdGBGXnHRnrdlzoMv2XBLGGlzoKZnBt0QY8gTDz69ZG78F1Lf8lyQKbhsJFaQtkzFwVWMrI-w=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOEQgJ_feRvwU820CiCobGfzQh8oJIob2b3ABs2_ruG2olPoHQ9JS2wN14VAo1nWhxiHZAFpLGj4h_7z43T6q_X-F5jyyWgeMAGv6rc8DQjYTc-npmdkQP5BQYv4foVMa9f8uldzgtPjmfCBCCdJKIoyg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le temple d'Horus à Edfou est l'un des monuments les plus remarquablement conservés de l'Égypte antique, offrant une vision quasi-intacte de l'architecture et du culte de l'époque ptolémaïque. Sa construction a duré environ 180 ans, de 237 à 57 av. J.-C., sous plusieurs règnes, notamment celui de Ptolémée III et l'achèvement par Ptolémée XII, père de Cléopâtre VII. Son état de conservation exceptionnel est en grande partie dû au fait qu'il a été enseveli sous des couches de sable et de limon pendant des siècles, ce qui l'a protégé des intempéries et des déprédations. Il n'a été dégagé qu'à partir de 1860 par l'égyptologue français Auguste Mariette."
+      },
+      {
+        title: "L'archétype architectural du temple ptolémaïque",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczODDOHLKqHDHHrENAvAJ6-1bs8Xj6qVoflzOrpcClYqlWXXRgGY_ICKgqAjr9EDeL3yN8cx6v3NmsZS5uQR7gclNIcW2wp-BvXvCloeT-CQH8X_UX4lo-ePx5yWdNmXCzthCKiYptS4X9bZy9xfXbqA0g=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOOBH37-QbDoHpZBSiDrNGZLOVF6C6U9GveZK_PwHkr8ZnuJQnm6RSlZf3UGfrYXehaoOd2eTDi0JuKBy02Uq2i54qhgKBcyk1Zo7LBjH77Qsw4ePg188OSwydgAbc_XQ1hWut7y6wsteG-7WRuAe7dtw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le temple, d'une longueur de 137 mètres, est le deuxième plus grand d'Égypte après Karnak et est un archétype du temple ptolémaïque avec son plan harmonieux et ses proportions parfaites. Il est orienté du sud au nord et suit un plan classique : un immense pylône d'entrée, une grande cour péristyle, deux salles hypostyles, des vestibules, puis le « saint des saints », le naos, où résidait la statue du dieu."
+      },
+      {
+        title: "Le pylône colossal d'Edfou",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN4MldNOKf3YFsai4GK4lLG3J839SD06HHtFV8pzUdmiBECJTPh7bdKJnsMSH9aZaHBvxvlMEdEbytOvPFGUEVI4ZLhrU6_PMNY6sDXGwwG0fNPNgcMkE2VqfntLaBd1MBiqYUnCMmfOyR7_2y4GL0hJA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le temple, d'une longueur de 137 mètres, est le deuxième plus grand d'Égypte après Karnak et est un archétype du temple ptolémaïque avec son plan harmonieux et ses proportions parfaites."
+      },
+      {
+        title: "Axe nord-sud et succession des espaces sacrés",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPP2_jxiWToLrDODKwPMEZY5PrLdIhSw3GDW7WkGJ8AhbPlrniqIkKPMS0kmQdjp_oXL001RhnnIw2gzotUFNbVplebDQuB610958bF6k9tXMpQfY0j5LoRXFqg3BNrxNmFomSyCArvFn0xZQoebIiyyA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOH_ofeuJ4qfOOLG0oWS5r_XEpS-Rv6gl_6cmGav6ZRfN7hCxtn3-9oEnpnmWvBADM2PtjZ8BIL70oG_6fsAJbUWleAELBElKFaOsxakRwY-lExXCSJEUXIyw80Wqz5L6JXYlbzUvCnPe56pOs9LoWj0g=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Il est orienté du sud au nord et suit un plan classique : un immense pylône d'entrée, une grande cour péristyle, deux salles hypostyles, des vestibules, puis le « saint des saints », le naos, où résidait la statue du dieu."
+      },
+      {
+        title: "La cour des offrandes et la Fête de la Belle Rencontre",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOKRwMRF_ck6-2Ru28S4Hv-XlRT295VDPUSZTwWOm5PWlhtDpXdIzlDZdeg7VDypf_m89O0snny2D0fuGk-XiYgFR7sa0JIXLZYHsskUN_PRUCVXQYvDzpJrusxWw_ORqmsjE5hLS2h1Zyk1JKlcgEaww=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO18MHs3jfhhUPWDxXmE3xQdfg0Id3Om24jsP1Jdmkc0F1lIpw0MjsEEF68V65fQgrKdhtZpDHrVRYkU5IQ9stZVMr9Fk6RzBJBC2-4JrdApX23leD__6x733XqqRT6hrDe-wS-JQtHgblbPWIFbkhmEQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Après avoir traversé le grand pylône, le visiteur pénètre dans une vaste cour intérieure à ciel ouvert, la première enceinte sacrée du temple d'Edfou. Cette cour, également connue sous le nom de cour des offrandes, est une immense esplanade rectangulaire entourée sur trois côtés d'une magnifique colonnade. Les 32 colonnes qui la bordent sont couronnées de chapiteaux variés aux motifs floraux, comme le lotus et le papyrus.\n\nLes murs et les colonnes de la cour sont entièrement recouverts de reliefs qui racontent les moments clés du temple et de ses fêtes. Ils représentent des scènes de sacrifices et d'offrandes faites par le roi aux divinités. Le plus célèbre de ces reliefs relate la « Fête de la Belle Rencontre », une procession annuelle au cours de laquelle la statue de la déesse Hathor, venant de son temple à Dendérah, rendait visite à son époux Horus à Edfou."
+      },
+      {
+        title: "L'autel central et les faucons de granit noir",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNnMe8Bu6YG30Ufw47Zc6gr9TNThal-coJssUe-oUATbozTI6cbYbAn271Bxynk_xye6raAetAKp3nepIhjFL2Vqo9u8Owza5WWTWwDwX6xe1-NPGNPg69wmINSY1JhfTS5gbJZVvOtAFufZ922qk22Jw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPoN5TNve8NEHw-MpD6YlGSHUVTyvMk2b7aTZpRiILEE1mhyv3Ukns72-M3S0t_JAAMeU_F65R5iqLwI5DMzII5-2igRaX1Ve60V7q73nAiM4X0vkzeO6koESVoHNd-CjYKH7Q4MUnZbkm2oeFooIQzUQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Au centre de la cour se trouve un autel de pierre où l'on déposait des offrandes, et à l'entrée de la première salle hypostyle, deux statues monumentales en granit noir d'Horus le faucon semblent veiller sur l'ensemble du complexe. Cette cour était l'endroit où le peuple égyptien pouvait participer aux grandes cérémonies religieuses avant d'entrer dans les parties plus intimes et sacrées du temple, réservées au pharaon et aux prêtres."
+      },
+      {
+        title: "Gardiens d'Horus et péristyle monumental",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM9K2QiA7iG0BmGBeiYaSAMlt2NE7VrAOeKSSaP6JOPsttnWguxT2_NAW775KpKzsYYY5ggqblGtE5hfjIOILPFcT72aVrfZ7JzWO8ToPtSY8CV-zIUAcYUdgqWSBF7u5crcqBxT4bT3shQY9F9eskMjg=w1926-h1282-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOBdnndk4rM2GbNeebSNBSQbZeQgJ3wqbFvUNzh-XElwqPj9iDUBqT0LOkkym7EbQwHSg8w5OlM-2aR-_KcTW_JdPsKh4liTPCtmnauo6UHfzXLp8FHYhCpP3CyCLSMABTjHyenEudmlsBavNndv9prEg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMSUOs70OgcCIc1Np_p6WJ5uYTeV6s6LCd_luHblxpAqWXe349t5A1H_RtkekPeHpxYqlb193v2TV7ika6-Ch33U0WZ7QNa3ENC_C7T2Jx1jQY5_VZ-8TzNCN_2x9a0s2oiqBczEMG5nmLaKwa3c5429Q=w1813-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Au centre de la cour se trouve un autel de pierre où l'on déposait des offrandes, et à l'entrée de la première salle hypostyle, deux statues monumentales en granit noir d'Horus le faucon semblent veiller sur l'ensemble du complexe. Cette cour était l'endroit où le peuple égyptien pouvait participer aux grandes cérémonies religieuses avant d'entrer dans les parties plus intimes et sacrées du temple, réservées au pharaon et aux prêtres."
+      },
+      {
+        title: "La première salle hypostyle, bibliothèque et laboratoire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPUlTZkoe9L8IXc5rf-k8Wf451wMk036YOo_xDiipVuRQnplRyuML3nNibcPY5qRME9nG24Ysp1J-10WCNO7wYcE27FLD6Q0D1BY5s5DoNQhXez8jrOEA51YwfBNAKSg_H4iES1F4DtFxRmTc8tBWGwHw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOIP7X4Jc_rfxCYsULsr-836oAuqOlG3nkfQeVuwV6ra_VPWrKo1jv6pyHWNkad4d9bOs8Zi7BrufaiEv2V5ogUlGxr5uXc2uL4C6VglMyl22l4BggI5l_D1rFUTyB_nSOxk1C8loQvokfLfKWLVKV4nQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Les inscriptions et reliefs de cette salle hypostyle sont d'une importance capitale. Ils décrivent en détail la fondation du temple et les rituels quotidiens qui y étaient pratiqués. Un aspect particulièrement notable est la présence, dans cette salle, de la « bibliothèque » et du « laboratoire », des pièces annexes où étaient conservés les papyrus sacrés et où les prêtres préparaient les onguents et les parfums rituels. Ces reliefs fournissent des « recettes » précises pour ces préparations. La première salle hypostyle est une transition entre le monde extérieur et les parties les plus sacrées du temple, préparant le fidèle (ou le prêtre) à l'approche du sanctuaire."
+      },
+      {
+        title: "Le laboratoire liturgique et les recettes d'onguents",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMCyNiUa_UkiC30APnBg1_CKk9dk_rYwiJqvHNrorSboNp__AKh9o35dcPNfEth8G3p7GOwilPYTdltZqNicBBdF2rUTb9QT0HB0f9KH48AnOhNX6qoMmOnsMSiF9radDeQGDDAvQDbfzEDwOZW6_wbCw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNoGsiRWOjXiGtwTzch93VWGeuimM3ja6CqZ8SIlwof3eK_xdfb-z61Q0Tw4XI2672bAOgIQjQtREO3d6jUj23PQNF-RxdoVeQ1hCZbBwOo5oOVZpzqZW9OsG7C4xPBgR7Q0fu-EGk7OqqnRBvUJdYpJg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Située sur le côté ouest du temple, cette pièce servait à la préparation des onguents, des huiles et des parfums sacrés utilisés dans les rituels quotidiens. Les murs du « laboratoire » sont couverts de reliefs détaillant les recettes de ces substances, avec des listes d'ingrédients et les étapes de fabrication. Il s'agit d'une source d'information précieuse pour les égyptologues."
+      },
+      {
+        title: "L'escalier du Nouvel An et l'Union au Disque Solaire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMNgEgrWdVmE6mukPePhbyucsTqznh7hmOsfDwE2R45vpWp6y7aoozJHJi8Zm_YC1dGX1qeM2uynDz7ovaGPDPyYAQ27dX7iO8ZGpr_OAIH7oOBnpAIctI91_zX53xGXqRVPzpQKkkXrzo_d3Zgf6MM5w=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO7axtrjIKqAtXdASbPBJmHkDAPIt0TiwqX35BrXsrVDYVycy3oIWlcwBdCkNX-SE1ZPnVFxCsr5AeCdpi9didkj4HQmJmaFPqjsSTtYpZLMgQy00dz4P8bulpdy5JnzCY2qVjQYLDzvwosRLUWibzdWA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Il y avait deux escaliers principaux : un escalier droit, et un escalier en colimaçon, parfois appelé « couloir montant », sur le côté est du temple. Ce dernier est particulièrement intéressant car ses murs sont ornés de reliefs qui décrivent en détail la procession du Nouvel An et les rituels liés au culte solaire. Le jour du Nouvel An, les prêtres et le pharaon montaient sur le toit par cet escalier en procession.\n\nSur le toit, dans une petite chapelle appelée la Chapelle du Nouvel An ou « Ouabet », la statue d'Horus était exposée aux premiers rayons du soleil levant. Ce rituel, connu sous le nom de « union avec le disque solaire », visait à régénérer la force divine du dieu et, par extension, celle du pharaon et de toute l'Égypte pour l'année à venir. Le couloir est donc curieux non seulement par sa forme architecturale, mais aussi par les scènes rituelles qu'il contient, qui illustrent l'importance du soleil et de la renaissance dans la religion égyptienne."
+      },
+      {
+        title: "Le naos monolithe en granit noir d'Horus",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM6AYW9ybURnf4WvUBj8WcEHpO3HhULVScHdOWMQXrshpGPn9opFzJ5Ss1Gslj9MK0BzfhUqv4MPW2yH4wklvLuWj4vWxBF0zbQYDxY1C8jaVtUnc1HzoKaC4SFOyy2GCFg-j8kGQe6_iPQ6-LSR7thOQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKHIjASyvuzE5OD-eXq8S6WtvCPaJyNBkfZlUW4luOP6Qn1JYFrpYqgOK27niyzUDjTRsB4s3Fw9Abk5F0hJoAmIqaHSeqME_9W11TR9sTC9w9bqoND2yCN9ALwQ6cLj23sTcFJJHE2UHFhlF5D3rkYA=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Le sanctuaire central, ou naos, est le cœur sacré du temple d'Horus à Edfou. Il est situé à l'extrémité du temple, après la seconde salle hypostyle, et constitue la zone la plus sainte et la plus intime du complexe. L'accès à cette pièce était strictement réservé au pharaon et aux prêtres de haut rang qui réalisaient les rituels quotidiens.\n\nLe naos est une chambre monolithe en granit noir, impressionnante par sa taille et sa conception. C'est ici que se trouvait la statue du dieu Horus, qui était considérée comme le corps physique de la divinité sur Terre. Les rituels quotidiens visaient à « réveiller » le dieu, le vêtir, lui faire des offrandes de nourriture et de boisson, et lui chanter des hymnes pour assurer l'ordre cosmique."
+      }
+    ]
   },
   {
     id: "temple_esna",
@@ -13967,17 +14131,71 @@ const travelSpots = [
     subdiv: "Esna",
     altitude: 80,
     is_island: false,
+    island_name: "",
     transport: "bateau",
     era_group: "ptolemaique",
     era_label: "Période Gréco-Romaine (Ier-IIIe siècle)",
     century: "Antiquité (Ier siècle)",
     category: "archeologie",
+    counts: {},
     lat: 25.2934,
     lng: 32.5543,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNZHFqtzOqeApuv0iH5AFgE7JDfw7vZbJeoRKmc_WpEzFhUdkMes7MiszZtjaHfRVEfU_bq1NtjYeu4tCGzJVoeTD43Xfxf6ySOf_gdxXkHKAYt4upzrPljYjVZR0SfpD85cIem3aV-Z54nfDIz6iXdQg=w2945-h1964-s-no-gm?authuser=0",
     description: "Sanctuaire gréco-romain spectaculaire dédié au dieu bélier Khnoum, célèbre pour sa grande salle hypostyle magnifiquement restaurée aux couleurs d'origine éclatantes. Longtemps enseveli sous les sédiments et les habitations modernes, le temple se découvre aujourd'hui en contrebas de la ville actuelle. Ses imposantes colonnes aux chapiteaux floraux uniques et son plafond astronomique richement sculpté offrent un témoignage exceptionnel sur les derniers fastes de la religion de l'Égypte antique.",
     visiter: "La descente dans l'enceinte archéologique permet d'admirer de près les fûts monolithiques sculptés de bas-reliefs aux pigments polychromes récemment mis en valeur par un minutieux travail de nettoyage. Le plafond de la salle hypostyle dévoile des représentations célestes et des scènes rituelles d'une finesse remarquable. Les inscriptions hiéroglyphiques tardives gravées sur les murs extérieurs complètent la découverte de ce joyau patrimonial de la vallée du Nil.",
-    link: "https://photos.google.com/share/AF1QipP8lTc2YQ6wilMtOuwVNaP0HZHkxSfOhO1qvbQ5pEEghmOMgFewrHdnv-boONi6KQ?key=WGNwUzZMU0dDbUgwLWxvM3doWk13NkJqQUNrbDlB"
+    link: "https://photos.google.com/share/AF1QipP8lTc2YQ6wilMtOuwVNaP0HZHkxSfOhO1qvbQ5pEEghmOMgFewrHdnv-boONi6KQ?key=WGNwUzZMU0dDbUgwLWxvM3doWk13NkJqQUNrbDlB",
+    sections: [
+      {
+        title: "Édification gréco-romaine de Ptolémée VI à Dèce",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMO_yEX9C3yDV2e7r1dmEqiU5pWAHPXZNCQ1mJkTm-l902OM9867WuimwpChNjMsggx0r9j9hQX6W-4XqOCwZNThhU8JkGG_QJucBlix4GyRJ405TSIGXUTEVzJdY00W-yl8RW1aBWjo_AhyZhtsj80aA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMrH8yDPq2bl8JEU99kXu8CEcP1xEa_EhHwZXwXxcZaBOGYO-P2Em-kB6AHVhAq6R8x921MDT7TyGns8xU2RbuZUItZ0FFy0XHIPFa7xlua9BfVzFIyqdz_NJ0zTOahNp4aa6FX3va5DPCpFbzF3caQHA=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNjmhmXdenAkP8r6UN1dOOm9YuTTzevJc4Ltrbqdo-froKqcfQMhKm-7_JSTKEWNIhqwwRY4s71YxBmTl1NPNFJNA2npsMRP6dRHot9GjaHfEGwZK3JbGGzh3ml5Fg3FLKdXPDfengfDmojhM5s17FrKA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La construction du temple a débuté sous le règne de Ptolémée VI Philométor au IIe siècle av. J.-C. et s'est poursuivie sur plusieurs siècles jusqu'à la fin de la domination romaine, sous des empereurs comme Caracalla et Decius au IIIe siècle apr. J.-C."
+      },
+      {
+        title: "Continuité liturgique sous domination étrangère",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOKHIrpLI2JJMdmyZsqp9xA-HEHNjyWqIGzPyUa9iTGh_2Smppb8prCKqpoOhQV34Gux3VpWV-jvaNeJLzsn_qgacIPxnlLwNHyrryaM5H1tbeNXyTt6PVK_GXAmqd_5gV3lAqXskmturT2MM3Wg6PIcA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMiRTzkIKUNaCamYe9FeMmA8qRSDEJbTdMXalyVtcX3xJTlsk4SmX7-pCihqJxQG_4uhy3kfjUmImyCeoA5AlsnUmwn9lZLraJ5KgHiDmWju5Z86RpZEHjlcXHbcEIDK3UvIPCEqPdPUPREVBIIUNGp8Q=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Cette longue période de construction fait du temple de Khnoum un témoignage unique de la continuité de la religion égyptienne sous l'influence étrangère."
+      },
+      {
+        title: "La salle hypostyle et les 24 colonnes végétales",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOpoj89emoaGTpY4T8R6GTwWA_EV925pqjXvYA2c9rqqJHPRcsOGm4uaQ3DQ4O7fjutVKKNy4uEaVgQ_cJsmQFqGnlY7dC2R3Zy3W5K4KDuJW4QAQxIg1qS056RHtD7VB9jNx32SfFJoARWAZvzbJaGyQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMQJvWpkfX9tinsmf9XUWS4rkkCIBKMzUT6eAcbhULzI7QmyREWMbPFd-4yjOHMEAb2ELoe8fv_dunRCVqQ8pp_VHCJGrhzvTAOAPSsThap5n-GcXYwCKYD6KOkcAs_BFoDo661RcjVqiULZgKdozAnrg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMP3r92u0qKeNk0lIDCK5zKQwBFNTJ7J-LdYQUHDTF9zfQMXoprBXVz9RDm8J3dIDJP6IeB4md79ypeqGjF5oXmj1njPb56YuGlyd_Bv37cx03Bf93hIOyGCWoCyajVsPb4OYvjfrIceH1FV431jdIZ6A=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La salle hypostyle est le point fort du temple. Elle est soutenue par 24 colonnes, chacune dotée de chapiteaux aux motifs différents qui représentent une variété de plantes égyptiennes. Les colonnes et les murs sont richement décorés de reliefs et de hiéroglyphes remarquablement bien préservés, offrant une source d'informations inestimable sur la liturgie et le culte de l'époque. On y voit des scènes de processions, de festivals et des rituels quotidiens dédiés aux dieux, avec une particularité notable : les empereurs romains sont représentés en habits traditionnels de pharaon, faisant des offrandes aux divinités égyptiennes."
+      },
+      {
+        title: "Khnoum le potier et la création des êtres vivants",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMQNns1bKzwjrI8v0pi2yl6iBo0fZ8XK1g1HSZ0XrTGJ5YjsHgnl7h7zZeYN9yZ13zstt4Ra9c_EQwM9gLFpUNayGQAa8alFrOJxa55BeDHkaYrLLRqlaYvxiWdFg8jUvfL72Y06lxuIp3z9_h7aab-Vw=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOw8VZwy3XDgRKpSxzA_FMjtLRYKx87hWOh9zziBcCRPklUpiu8BXril8Eo9pDbDITWE-NzleJeWjFVjs3bdDz3jKzORmNNOYIFr8_ch0ClRJOBhrshJH3bAxfFZ5jgeczdtN-DMUCI78eMO-pco4razg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOa_NkeRf-5idOfhpvZzZCxic44SGHM4C4F5DPWTWICHYQmww9IJPl1IyatNFcERbbsLweEa6yfAv70JsJwuXxKQxbB16PhoI2X80il4H9zt3s3rEb_dJvd2lz_uON7OOvABDABZ5VyzsC6E6Whvb_Elw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Les reliefs les plus célèbres du temple sont dédiés au dieu Khnoum, qui était considéré comme le dieu créateur. Il était représenté avec une tête de bélier et un corps d'homme, et on le croyait responsable de la création des êtres humains en les modelant sur un tour de potier à partir de l'argile du Nil."
+      },
+      {
+        title: "Le tour de potier, la déesse Neith et les hymnes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNZHFqtzOqeApuv0iH5AFgE7JDfw7vZbJeoRKmc_WpEzFhUdkMes7MiszZtjaHfRVEfU_bq1NtjYeu4tCGzJVoeTD43Xfxf6ySOf_gdxXkHKAYt4upzrPljYjVZR0SfpD85cIem3aV-Z54nfDIz6iXdQg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO1plBqNqsvFxEoNlMtBbtRYjRbF6Q9i_HZU3NQvDTPAzsOrSt12U2OgO5dDkGNEWpOybtTHlrUV_wRFGgmd3SC5RAtaUk4cK977iz5CdqoggciTSC5c0lVbdDVhgo985Q2I2D48T7bWcwtJb08xZAbRg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "L'un des reliefs les plus poignants représente le dieu en train de modeler une figurine sur son tour. Les textes du temple comprennent également des informations sur le calendrier égyptien, des hymnes à Khnoum et à sa parèdre, la déesse Neith, ainsi que des listes de villes conquises."
+      },
+      {
+        title: "La préservation éclatante du temple d'Esna",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczORhBN-G4OoLFpHUOQOA51zVwXKwN4sLKuAxxpu8BYzytjIflaUl3KoCRf_f5oD_u98BNVLHyacvoTom7IZ51I1_754b5RRmBU37Yp81lpAtUrq-KhATaRY3yJqwSpOriym2CkJsKcS_PFIGoghIMAR7A=w1813-h2416-s-no-gm?authuser=0"
+        ],
+        text: "La préservation exceptionnelle du temple de Khnoum en fait une ressource précieuse pour les égyptologues, car il offre un aperçu rare de la vitalité de la religion égyptienne à l'époque gréco-romaine."
+      }
+    ]
   },
   {
     id: "philae",
