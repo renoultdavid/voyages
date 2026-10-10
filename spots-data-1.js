@@ -12610,7 +12610,7 @@ const travelSpots = [
         text: "La richesse et l'état de conservation de ses reliefs témoignent de la persistance de la tradition religieuse égyptienne bien après la conquête grecque."
       },
       {
-        title: "Chapiteaux hathoriques et colonnes du pronaos",
+        title: "",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczMlJ4NSpXQNihG2Sy-l6De3yQR09__7pjyMn6L3Ar7BwtaGg3W_xCLVZ7M1-kFgIoQ6aLO0ghMeB8oz-Vk-t_5caBFWAv5GlaxVZhlNuSeTn3ZbBaZqZnNekTpcpSC9IIqKsZrZyV9yqP2gkkgAANmJFw=w1741-h1161-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczMavfu-Lrsecxj8A5f1haFomqAn7tchmpxheETXKcobK-hqyBbdqTJpAsDEakElnGQAOyD8EMHywawBgeEnxTmwdX0mfMWxxZtahtLIUcRbRC87upCwDFHZ2RKpnTREjYUanUEWRqSW_c-lIZK2Z30oLA=w1741-h1161-s-no-gm?authuser=0"
@@ -12618,7 +12618,7 @@ const travelSpots = [
         text: ""
       },
       {
-        title: "Vestibule intérieur et scènes cultuelles",
+        title: "",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczM-ioPCtEoXSsHfXauA7C4MPukO175dpkwWWSwXi9gcbYAvR-Hx8P9qazpco4bDBjEY900VGdXRLERvVLiHfPPsrumNlPzPFQE-jXIK-bYCcYb1Jo2fLktt6xy0iSE3TLf-Lkhs-CfjUapkhF_YmdbJ3g=w1741-h1161-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczOm8IpNteNIACcZbdhy7SFYFXHW038hjSb5EDF0u4HuwQyfHYlcGuAo_yQumkphdLJFjfTE1abQgTg9zVEOmy_H2N52dJ2dcG4qULKTUfw7hSF2Kmdp19hKdRQkPkdL96-l7mqoqmFdQRjNqQx7e3iRhA=w1741-h1161-s-no-gm?authuser=0"
@@ -12626,7 +12626,7 @@ const travelSpots = [
         text: ""
       },
       {
-        title: "Reliefs ptolémaïques des sanctuaires",
+        title: "",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczM9qsSvaQhJqWyOsS-F1xBwhGhAUmU028cdT9OngX81iXE-dkfPwd1IblJ6SHsO2W-3ReqM04I53ptJlO845FsacXvhvarEsaGdM2-C7KTdZP3N_g_fGf29OoHu0SGoHsTrCKRCNapWL48K93YqSrXwJg=w1741-h1161-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczOYuXdwT1SU1oVu2nb7X5x9NBjCZAfleei-zuDcN1Zr6H94d21okLH14hPjFwWdpxoJ4XL_gx59uDYZ1TWTXKiUYXmaiZOy10rAfz5Rn2DtAoNs6dl6Hpv1HwT6pOkl4E94d0fB3tKTZJF_ZZgldsXn5g=w1741-h1161-s-no-gm?authuser=0"
