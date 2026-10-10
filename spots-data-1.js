@@ -14691,18 +14691,47 @@ const travelSpots = [
     subdiv: "Saqqarah",
     altitude: 52,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Ancien Empire - VIe dynastie)",
     century: "Antiquité (XXIVe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    counts: {},
     lat: 29.8753,
     lng: 31.2236,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMfxTYdfUP4yWKt--mBt4ufisLTqTfNE2AjPCYY7te7W3jVjiPUsxAK35VXk4bWdC9vly9HdljYYOqyteOIBtRw_KkgxgF-qq38sElFmwBr-aAMafdO3ekdtpCluGqPe39pw2i78b9VdT9QSs7-SGG0bw=w2650-h1766-s-no-gm?authuser=0",
     description: "Dressée au nord-est de la nécropole de Saqqarah au cœur d'un paysage lunaire de monticules et de tombes royales, la sépulture du pharaon Téti — fondateur de la VIe dynastie de l'Ancien Empire — offre un contraste spectaculaire entre son aspect extérieur dévasté et la somptuosité de ses appartements funéraires souterrains. Réduite par l'érosion séculaire et le pillage de son parement de calcaire de Tourah à une modeste colline d'éboulis arrondis culminant à une vingtaine de mètres, cette pyramide baptisée à l'origine « Les places de Téti sont stables » dissimule l'un des trésors épigraphiques et spirituels les plus inestimables de l'humanité. Téti fut en effet le deuxième souverain égyptien, après Ounas, à faire tapisser l'intégralité des parois de son antichambre et de sa chambre sépulcrale des célèbres Textes des Pyramides. Gravés avec une finesse calligraphique admirable dans le calcaire fin, ces formules liturgiques, hymnes solaires et rituels d'apothéose forment le plus ancien corpus religieux et théologique écrit au monde, conçu pour assurer l'ascension de l'âme royale vers les étoiles impérissables.",
     visiter: "L'exploration débute par la descente discrète dans une excavation sablonneuse sur la face nord de la pyramide, donnant accès à un boyau descendant très incliné et bas de plafond aménagé de traverses de bois. Au terme de cette traversée souterraine s'ouvrant après une herse de granit colossale, le visiteur pénètre dans une antichambre d'une solennité saisissante : sur les murs intacts s'étalent des colonnes verticales ininterrompues de hiéroglyphes minutieusement incisés, rehaussés à l'origine de pigments vert-bleu symbolisant la renaissance perpétuelle. L'itinéraire franchit ensuite le passage étroit menant à la chambre funéraire proprement dite, où trône le magistral sarcophage royal taillé dans un bloc monolithique de grauwacke et de basalte sombre poli, orné d'inscriptions et coiffé d'une gigantesque voûte à double chevron poudrée d'étoiles sculptées. L'atmosphère fraîche, feutrée et mystique de ce sanctuaire souterrain, souvent accessible en toute quiétude à l'écart des foules avant d'enchaîner avec les mastabas voisins de Mérérouka et de Kagemni, livre une rencontre intime et inoubliable avec la pensée métaphysique de l'âge des pyramides.",
-    link: "https://photos.google.com/share/AF1QipMYh6XdRx9VRSnZt3ue2OwEPUbvln_2602MFhakCcqwm2frL-IEJgT3vWg_o3BQhw?key=TXlFS1kzbXJtZERaQU9FOGFqUDJuVlVHTWtoNVlR"
+    link: "https://photos.google.com/share/AF1QipMYh6XdRx9VRSnZt3ue2OwEPUbvln_2602MFhakCcqwm2frL-IEJgT3vWg_o3BQhw?key=TXlFS1kzbXJtZERaQU9FOGFqUDJuVlVHTWtoNVlR",
+    sections: [
+      {
+        title: "Le complexe funéraire Djéd-sout et son monticule arasé",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPRuwIWVkFY03j1KTTSA8IIPROkIEYDDO2-hcXwbqwPrXRuaWn8ix2zUdKe-9SDh6oFkU8lS9Vps6kknwpJ3IM4b7XA1Z9oLlxvA1c0lI6maUMi97DfkG2EIu4mu9GOYrhSqtgQ6U6TGETJ1CnhA5UcMA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le complexe funéraire de Téti, nommé à l'origine « Les Demeures de Téti Sont Éternelles » (Djéd-s.out), suivait le modèle des complexes pyramidaux de la Ve dynastie, bien que sa construction soit jugée moins robuste que celle des monuments de Gizeh.\n\nÀ l'origine, la pyramide à faces lisses mesurait environ 52,5 mètres de hauteur, avec une base carrée de 78,5 mètres de côté. Sa pente est d'environ 53 degrés. Aujourd'hui, elle se présente sous la forme d'un monticule de débris, largement dépouillée de son revêtement de calcaire fin de Tourah par les pilleurs de pierres au fil des siècles. Son noyau était constitué de gradins de maçonnerie de petites pierres locales."
+      },
+      {
+        title: "Descente souterraine et voûte en chevrons étoilée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczORR5g5Wq4WrgJ8vL7nMnplPGtWJu38qHHWCIn6JyGEQQBs08Bo6gv-Gpbd53w6bxQrxFjOmhd2QzpDAGUGgPKy3FXGkh8MsoqiX-kgPxp18z82AG8mYA8Dlc4w0FFycwJuT7FMOsJaRH17oEIE_Z7JNg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMfxTYdfUP4yWKt--mBt4ufisLTqTfNE2AjPCYY7te7W3jVjiPUsxAK35VXk4bWdC9vly9HdljYYOqyteOIBtRw_KkgxgF-qq38sElFmwBr-aAMafdO3ekdtpCluGqPe39pw2i78b9VdT9QSs7-SGG0bw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPOrNkVWuMdRLLIXNICtCEfOLFPgFx3v_aArJtN9g1hIjYP9EVTuoMTrMb19WRDDr-j_m740yUmA82GAwghnq1Epgq48j0sJn_NdSVanS59p92i710fjZKyX38leM4TLW5F4f1KPWXZeoY0fE5riH4QLQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "L'entrée de la pyramide se situe sur la face Nord. Un couloir descendant, obstrué à l'origine par des herses de granit, mène à un vestibule, puis à un couloir horizontal sécurisé par trois énormes herses en granit. Ce couloir donne accès aux trois chambres souterraines principales : l'antichambre au centre et, à l'ouest, la chambre funéraire.\n\nLa chambre funéraire et l'antichambre étaient couvertes d'une voûte en chevrons constituée de trois couches d'énormes poutres de calcaire, conçues pour amortir le poids de la maçonnerie supérieure. Le plafond était peint en bleu foncé et orné d'étoiles dorées, symbolisant le ciel nocturne et l'ascension du roi vers les Étoiles Impérissables (les circumpolaires)."
+      },
+      {
+        title: "Le premier sarcophage inscrit et les Textes des Pyramides",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPt6SrEZ9VDs02WSaASU_uPw9oNoNFRbqDtJ3Hz4V3S0IjF5EpKb81qiQK7Glrl8xe5PKDkoHnoDghcp7BI1KHZr5xJg6nQocRWRvAWF9TTypyEqm17gbr9JkR-7PkMEHHJpDJry9f9he30KrnLf0kpFw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOhJj6oweyd9STypc7Yvy08kkc4hHb7M8BwKVUJU17fmEJ7hglTel0og6lhL_L2pw3pu3ypsbP2KNVKxNf9AAzxrviUO3k7doVB0NCdlYyteqB-iNyV9nbHYXApa8y-CkcA0cc--CAIdNqMTFJSTItacQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOc2T4NSuhkRnUrqGEpIxCbRBKY9ZyAVyGFVVfzx4nk3hqZPnjjSN9PW7lQwbnCb41P56wMClQcMzlPm1b46aKp8kYOfgrrNaUZMeTEnQk5Hjw7pREWLEFjTgHIzdLMY6HaQty5buzi2ur2VkmunypjQg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La chambre funéraire abrite un sarcophage royal en grauwacke (une roche grise et dure), remarquable pour être le premier sarcophage royal connu à porter des inscriptions. Ces inscriptions, gravées à l'intérieur de la cuve, sont des fragments des Textes des Pyramides, le plus ancien corpus de textes religieux égyptiens. Ces formules magiques, prières et incantations étaient destinées à aider le Ka et le Ba du roi à se réanimer, à naviguer dans l'au-delà et à rejoindre le royaume des dieux, notamment Rê. Un simple réceptacle canope était également aménagé dans le sol de la chambre."
+      }
+    ]
   },
   {
     id: "saqqarah_serapeum",
@@ -14715,18 +14744,46 @@ const travelSpots = [
     subdiv: "Saqqarah",
     altitude: 53,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique & Époque Ptolémaïque (XIVe s. av. J.-C. - Ier s. av. J.-C.)",
     century: "Antiquité (XIVe siècle av. J.-C. à Ier siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    counts: {},
     lat: 29.8761,
     lng: 31.2103,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOm9dTai3YyXLZLo6AY9NqTKPU7t-t2QngAmHWZrJYmXXv6n7xiViZWbFZcG1uuZHt2vK7wYzYxfoGzZClTYRx5OS2JpsWUfgLe0hbTGhDzy3dT6ngbUFWrJ89FXFdFhCpHs1TcAR-N1tY-bspHZf2B1A=w2650-h1766-s-no-gm?authuser=0",
     description: "Enfouie sous les dunes mouvantes du désert au nord-ouest du complexe funéraire de Djéser, la nécropole souterraine du Sérapéum constitue l'un des sanctuaires les plus énigmatiques, vertigineux et fascinants de toute l'Égypte antique. Dédié au culte d'Apis — taureau sacré incarnant sur terre la puissance vivante et régénératrice du grand dieu memphite Ptah —, cet ensemble catacombaire monumental fut fondé sous le Nouvel Empire par Aménophis III, avant que le prince Khâemouaset, illustre fils de Ramsès II et grand prêtre de Ptah, ne révolutionne le site en créant les « Grands Souterrains ». Élargie et prolongée jusqu'à la fin de la période ptolémaïque, cette cité souterraine des morts s'articule autour de galeries rectilignes taillées à même le socle rocheux, jalonnées d'immenses alcôves latérales où reposent vingt-quatre colossales cuves funéraires monolithiques en basalte sombre, diorite et granit noir ou rose d'Assouan pesant jusqu'à quatre-vingts tonnes chacune avec leurs couvercles. Mis au jour en 1851 par l'égyptologue français Auguste Mariette guidé par les fragments d'un dromos de sphinx ensablé évoqué par Strabon, ce dédale funéraire illustre une maîtrise de la découpe, du transport et du polissage mégalithique portée à un degré de perfection géométrique qui continue de défier l'imagination des ingénieurs modernes.",
     visiter: "L'exploration débute par la descente d'une rampe maçonnée s'enfonçant dans le calcaire désertique pour franchir l'entrée fortifiée des cryptes, plongeant instantanément le voyageur dans une pénombre fraîche, feutrée et solennelle où résonne le moindre pas. La déambulation s'effectue le long de la nef principale s'étirant sur plus de trois cent cinquante mètres de couloirs voûtés magnifiquement éclairés, d'où s'ouvrent en contrebas de profondes chambres sépulcrales taillées au cordeau. L'émotion vire à la sidération devant les dimensions surhumaines des sarcophages monolithiques de plusieurs mètres de haut, aux parois extérieures polies avec une brillance miroitante et parfois gravées d'inscriptions hiéroglyphiques et de cartouches dédicatoires d'une régularité chirurgicale. En observant les niches d'accès, le regard remarque les emplacements où étaient scellées les stèles votives privées des dévots et des souverains venus saluer l'apothéose osirienne de l'animal divin, ainsi qu'une cuve inachevée abandonnée dans un couloir latéral témoignant des défis herculéens de manœuvre dans un espace souterrain confiné. Cette immersion spéléologique et sacrée hors du temps offre un contraste saisissant avec les temples à ciel ouvert de la vallée du Nil et grave un souvenir impérissable au cœur des mystères de l'ancienne Memphis.",
-    link: "https://photos.google.com/share/AF1QipMYh6XdRx9VRSnZt3ue2OwEPUbvln_2602MFhakCcqwm2frL-IEJgT3vWg_o3BQhw?key=TXlFS1kzbXJtZERaQU9FOGFqUDJuVlVHTWtoNVlR"
+    link: "https://photos.google.com/share/AF1QipMYh6XdRx9VRSnZt3ue2OwEPUbvln_2602MFhakCcqwm2frL-IEJgT3vWg_o3BQhw?key=TXlFS1kzbXJtZERaQU9FOGFqUDJuVlVHTWtoNVlR",
+    sections: [
+      {
+        title: "Petites et Grandes Catacombes des taureaux Apis",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO8tpbUT3xQsbsgz04kgSAzynlfan86Hd5Wn78SeDKv8-bTW7TY_J544zwhX2pqRwu79Nisfhe7S_sEXe6udAJgtdeGC6C0PWfTFtxLgZQujokmLKN-La_RLQL77DL4G5B2ZoAeMvmQkuNp4tkr7m0uDA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMiDOXvgLMtkvGGbzWj5vLTzuUcFD5qjz2a3ZJLfHpG2OP6aTRilfkr35YhngAPvlp5QAU0B9JJxtllwXofHyLPogJFMTIR6A1GvoNHPec908vlfR3d5vjuACHtI6vqSocVylMqcKZMC9wMjwzBvcxPxg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "L'élément le plus frappant du Sérapéum est sa structure funéraire souterraine colossale, creusée dans la roche. La nécropole se compose de deux parties principales :\n1. Les Petites Catacombes : elles abritent les sépultures individuelles des taureaux Apis, datant principalement des XVIIIe et XIXe dynasties (Nouvel Empire). Ces tombes étaient aménagées sous des chapelles de surface (aujourd'hui ruinées).\n2. Les Grandes Catacombes : construites à partir de la XXVIe dynastie (environ 664 av. J.-C.), elles forment un réseau de galeries rectilignes s'étendant sur plus de 200 mètres de long, avec une hauteur et une largeur d'environ 3 à 4 mètres. Des chambres funéraires latérales s'ouvrent sur ces couloirs."
+      },
+      {
+        title: "Les vingt-quatre sarcophages monolithiques géants",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMCIRbtaK4b9HcWTJjXfPcFpaTRGf8LBXIYwANyVDgYXbON10TKSlwbEryunmTXaVrup2iNVtQlBgKhna73URU9vzGeK-UXVeaCW2Q2ioC9rT3IZnuztRrLmNgxGy_EaloxMZGwuwD9tCzFo4bMedHIXA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOm9dTai3YyXLZLo6AY9NqTKPU7t-t2QngAmHWZrJYmXXv6n7xiViZWbFZcG1uuZHt2vK7wYzYxfoGzZClTYRx5OS2JpsWUfgLe0hbTGhDzy3dT6ngbUFWrJ89FXFdFhCpHs1TcAR-N1tY-bspHZf2B1A=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Dans ces chambres sont disposés des sarcophages monolithiques d'une taille absolument gigantesque.\n- Matériau et dimensions : on en dénombre environ 24. Ils sont taillés dans du granit rose d'Assouan ou du basalte, des roches extrêmement dures. Chaque sarcophage, avec son couvercle, pèse entre 60 et 80 tonnes, le couvercle seul pouvant atteindre 25 à 30 tonnes. Leur finition est d'une précision remarquable, soulevant des questions sur les techniques de taille et de transport des Égyptiens à cette époque.\n- Contenu : chaque sarcophage était destiné à accueillir le taureau Apis momifié, selon un rituel élaboré de 70 jours, similaire à celui des pharaons."
+      },
+      {
+        title: "L'épopée de l'extraction, du transport fluvial et de l'installation",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMG98kPEYVwnGp61PFkpCElBQMo85q-W_d3hiX8vP6GPXkJ5ejg3N2Mp4GSHeRIf4N41m5VSPcYRxlx6ctSkFN-QcxdjJT7TDvTsf4Xw_4NP6JmlGXxd61S7afO-09j33dj_KQpBBg09-w-kuZil3qNXw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOASZGpydzowvysncv6PVkYHvyzW5FsfcucOAVZxkE9hTQgCteFI2yFVWd26fqz4g0BVjsWYWIi8Yl356zhcz2oyA_UiTnfMAymTk1p8DZPJpLebizpatunI_q6_XUuj3SHpn_3rzIxdZ2SJgr5ykHOug=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "C'est avec l'épopée des sarcophages colossaux du Sérapéum que le mystère et l'ingéniosité de la civilisation égyptienne atteignent un sommet. L'exploit ne réside pas seulement dans la taille des pierres, mais dans la manière dont elles furent extraites du sol d'Assouan, transportées sur des centaines de kilomètres, et manœuvrées dans l'obscurité des galeries souterraines de Saqqarah.\n\nL'Origine des Sarcophages : Le Granit d'Assouan\nLes sarcophages du Sérapéum sont principalement taillés dans le granit rose d'Assouan ou, pour quelques-uns, dans le basalte. Ces matériaux furent choisis pour leur incroyable dureté et leur résistance, symbolisant l'éternité et la solidité de la protection divine, essentielle pour le Taureau Apis divinisé. Le granit provenait des carrières d'Assouan, situées à environ 900 kilomètres au sud de Saqqarah. L'extraction de blocs monolithiques de cette taille représentait un exploit colossal, réalisé par percussion à la dolérite et par l'usage de cales en bois humide fendant la roche.\n\nLe Transport Fluvial : La Route du Nil\nUne fois dégrossis, les blocs étaient acheminés jusqu'au fleuve via des rampes en terre, puis chargés sur d'immenses barges fluviales spécialement renforcées. Le courant portait les barges vers le nord jusqu'à Memphis lors d'un voyage qui durait plusieurs semaines.\n\nL'Installation Souterraine : Le Défi de Saqqarah\nDepuis la rive, les blocs de 60 à 100 tonnes étaient tirés sur des traîneaux en bois par des milliers d'hommes sur des rampes inclinées pour descendre dans des couloirs étroits de seulement 3 à 4 mètres de large. Les manœuvres de rotation dans les niches latérales, accomplies à la lueur des lampes à huile, exigeaient une coordination et une précision géométrique stupéfiantes avant le scellement définitif du couvercle de 30 tonnes."
+      }
+    ]
   },
   {
     id: "saqqarah_complexe_djeser",
