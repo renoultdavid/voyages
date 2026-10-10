@@ -14214,13 +14214,90 @@ const travelSpots = [
     era_label: "Période Ptolémaïque & Romaine (-380)",
     century: "Antiquité (IVe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Monuments de Nubie d'Abou Simbel à Philae",
+    unesco_name: "Monuments de Nubie d'Abou Simbel à Philae",
+    counts: {},
     lat: 24.0255,
     lng: 32.8842,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNEZkmSVkAOkW3xempadnM8SHkLXcN3lxMwF4P_v6HtDWRgGXZ7S5acbBjjdYQ9MysHS9TvU4gC2OHbpzOVelFEwDghH81UVzI3MSQWjvGtk5lcPhRiTUSWH-ddLkZdWe9EtrN-ULTtu5eSojGN3EmOQA=w2518-h1679-s-no-gm?authuser=0",
-    description: "Majestueux temple dédié à la déesse Isis, dressé sur une île sacrée du Nil et également sauvé des eaux par l'UNESCO lors du déplacement des monuments de Nubie. Un site imprégné de mystère et d'une beauté architecturale inouïe. Ce complexe somptueux fut l'un des derniers bastions de la religion de l'ancienne Égypte, abritant des sanctuaires raffinés, des colonnades élégantes et des murs couverts d'inscriptions hiéroglyphiques remarquablement préservées au milieu des flots.",
+    description: "Majestueux temple dédié à la déesse Isis, dressé sur une île sacrée du Nil et également sauvé des eaux par l'UNESCO lors du déplacement des monuments de Nubie. Un site imprégné de mystère et d'une beauté architecturale inouïe. Ce complexe somptueux fut l'un des derniers bastions de la religion de l'ancienne Égypte, abritant des sanctuaires raffinés, des colonnades élégantes et des murs couverts d'inscriptions hiéroglyphiques remarquablement préservées au milieu des flots. Véritable perle du Nil située aux portes de la Nubie, le sanctuaire accueillait les pèlerins venus de tout le bassin méditerranéen pour célébrer les mystères d'Isis, mère universelle et magicienne divine. Menacé d'engloutissement définitif par la montée des eaux consécutive à l'édification du haut barrage d'Assouan, l'ensemble monumental fit l'objet d'un sauvetage archéologique et technique prodigieux mené sous l'égide de la communauté internationale. Démantelé méticuleusement bloc par bloc, le sanctuaire fut intégralement reconstruit sur l'îlot voisin d'Agilkia, réaménagé pour épouser la topographie originale de la roche sainte. Les imposants pylônes décorés de reliefs triomphants ptolémaïques introduisent une vaste cour péristyle bordée de portiques aux chapiteaux floraux d'une grâce absolue. À l'intérieur, les salles obscures du naos conservent le souvenir des ultimes offices traditionnels célébrés jusqu'au VIe siècle de notre ère, avant la fermeture définitive ordonnée par l'empereur Justinien. C'est ici, sur la porte d'Hadrien, que fut gravée en 394 la toute dernière inscription hiéroglyphique connue de l'histoire, scellant le crépuscule d'une écriture trois fois millénaire. Tout autour du grand temple, le célèbre kiosque de Trajan déploie sa silhouette aérienne face au fleuve, composant un tableau paysager d'une harmonie intemporelle où la pierre dorée dialogue éternellement avec les flots bleus du Nil.",
     visiter: "L'approche de l'île d'Agilkia s'effectue traditionnellement par les embarcations locales naviguant sur les eaux du fleuve. Le kiosque de Trajan présente des colonnades florales remarquables, la cour principale est entourée de portiques sculptés, et les sanctuaires intérieurs conservent des témoignages majeurs des cultes isiaques, le tout baigné par les reflets lumineux du fleuve.",
-    link: "https://photos.google.com/share/AF1QipPVZEvhbCKZ1OsGyi7gmCW1HWWoCPJRFurTVfJyrV-AeNttAhYo3TmhJRSCkkyIdw?key=SG1iYmYyang3QVE5Sk50NDR2aGZHTEh3aXBKQ2lB"
+    link: "https://photos.google.com/share/AF1QipPVZEvhbCKZ1OsGyi7gmCW1HWWoCPJRFurTVfJyrV-AeNttAhYo3TmhJRSCkkyIdw?key=SG1iYmYyang3QVE5Sk50NDR2aGZHTEh3aXBKQ2lB",
+    sections: [
+      {
+        title: "Le sauvetage de l'UNESCO et le transfert vers Agilkia",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOZcySlsVoo5wcuHfHFjN6AYnaavHPzZ9QrjkMhb0XfCjGpbeMGZTqxWl3tDSkYCt4SS-xbE_-5F_kYB7i9OYsDuCd7Wtl-pytVq8xVqFikBPBYBW3RgiPuXwbL17jegFnBm0uZuNVNgiJARfy9cYySHA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNEZkmSVkAOkW3xempadnM8SHkLXcN3lxMwF4P_v6HtDWRgGXZ7S5acbBjjdYQ9MysHS9TvU4gC2OHbpzOVelFEwDghH81UVzI3MSQWjvGtk5lcPhRiTUSWH-ddLkZdWe9EtrN-ULTtu5eSojGN3EmOQA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le projet de sauvetage a débuté en 1972 et a duré jusqu'en 1980. Le principe était le même que pour Abou Simbel, mais avec des spécificités techniques différentes :\n1. Assèchement de l'île : les ingénieurs ont d'abord construit une immense digue en palplanches autour de l'île pour assécher la zone, permettant ainsi aux archéologues de travailler à l'intérieur.\n2. Démantèlement : le complexe a été découpé en près de 40 000 blocs, numérotés avec précision.\n3. Transfert : ces blocs ont été transportés et remontés, pierre par pierre, sur une île voisine, l'île d'Agilkia, qui avait été au préalable surélevée et aménagée pour ressembler à l'île d'origine.\n\nL'opération a été une réussite totale, préservant non seulement le temple d'Isis, mais aussi d'autres monuments importants comme le kiosque de Trajan."
+      },
+      {
+        title: "Le kiosque de Trajan ou Lit du Pharaon",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN8gBDp-PgJdAtdLSCWoZw7wpFuwByrmFV1fUiXLEtKBiO2tJgqczNosxl0feFtA69NCQ8VJQYgkMj31UdsbeVlplM4EqckTXdqTyLlNXNFTevYAIg0KDlpN0GfhqfSkZ3ysOp9kbO46HthUO5wXiTCJQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMT674gLoINtoBfHmp7m9D9n0qf85MM8ufazLtYc3nhS8XQsgdHdzEP0vdfmMlggwsRGwg3uOPbMASPWg04QWd11TsviPdxmQNiA3rpdyYpJ87OPMamQJS0udzs35QUuzRFi3WjWb3NbXaWF-byKkflNQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le kiosque de Trajan, également appelé « Lit du Pharaon », est l'un des monuments les plus célèbres et les mieux préservés du complexe de temples de Philae. Il s'agit d'une structure élégante et hypèthre (ouverte au ciel) qui témoigne de la fusion entre l'architecture romaine et égyptienne.\n\nLe kiosque est un pavillon rectangulaire de 15 x 20 mètres. Il est constitué de 14 colonnes massives surmontées de chapiteaux floraux différents et de dés (des blocs de pierre en forme de cube) qui supportent une architrave. Les colonnes sont reliées entre elles par des murs-écrans qui ne montent qu'à mi-hauteur, laissant le reste de l'édifice ouvert. La fonction principale de ce bâtiment était d'abriter la barque sacrée de la déesse Isis pendant les processions sur le Nil."
+      },
+      {
+        title: "Commandite impériale et postérité artistique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOfyom19bcf0yc5462_MI0GCJIQEbXMqjoO8OtYecDcg4KhpUq2cTajleZLAL5TAepTDgXLBkL3XUxjD0HWr_Nw6yJ94-Rw1l3gEcB8JL1VWG1ju7zVqTgksyM0129l5G2O53JIVf-gH1_3Kpl5wJVO6g=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPGIN-vXKa_X865Ij29CVj1V6vfWBOb9UW--BE1t_anuHQF0T9mRl1YCC6U0TjqvF-2wTnsMmlhLiswvlia-JWw0B2keIQS54kzM6Pavxz-1KU3Jx5Wk38UkjQo4LTGoBH-G5GcNLxrM27DO_FhGfQsxw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "L'attribution du kiosque à l'empereur romain Trajan (98-117 après J.-C.) est confirmée par une gravure à l'intérieur de la structure. On y voit l'empereur, représenté en pharaon, faisant des offrandes aux dieux égyptiens Isis et Osiris. Bien que le kiosque n'ait jamais été complètement terminé, il a servi de modèle pour de nombreux artistes et architectes européens du XIXe siècle, attirés par son style unique et sa position pittoresque sur l'île."
+      },
+      {
+        title: "Les portes monumentales du domaine d'Isis",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPIsoMx98MdM2adm5C2_f32RI5elx_CkVTg4qWINKLIDxlbDhxqoPor9BpKBFolEFpwB0aLbCP1VbGOTc7xPQ6TR7n9g-7AyTVGyzMsxj0Y5Gq97KSdLIrliRTHR7sTTBNL2www9W6-CfzvwlCpyokdKw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOJwre3S2604nmpaU-aBbE3bmBv7rGppnyCXf2tu5uIb6HVaAC0o7hRgZXyD3xTdpuvO96hB5k6_qS0DKcqfX5f5VKHr4CaBx9ndjBXTCnCGgnus5g0Ip2lIA8OpTCHCpYlSkOEDLUscdpt2YRRLa6RCA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Les pylônes du temple de Philae sont des éléments architecturaux majeurs qui définissent l'entrée et la progression à travers le sanctuaire. Ils sont une caractéristique typique des temples du Nouvel Empire et de la période gréco-romaine, agissant comme des portes monumentales entre les différents espaces sacrés."
+      },
+      {
+        title: "Le premier pylône et le triomphe de Ptolémée XII",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOf8AESf33C-ivAMAU7_p783sGHjMrBi0UOFvhvhj6bLOtMUVNIhM6yjJiNQToTXxcGTYpUqKzi-3cE85IaVrxXmwtbK1NWnulVJCv-UQSVAK5VHRb9TcQCSdbCwYuIQDF-UIiqXCQt9zH8nhvaWe4M2g=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le premier pylône de Philae est une structure massive qui marque l'entrée du complexe. Il est flanqué de deux tours trapézoïdales. Sa surface est entièrement recouverte de bas-reliefs qui célèbrent le pouvoir du pharaon. L'une des scènes les plus célèbres représente le roi Ptolémée XII saisissant un groupe d'ennemis pour les frapper en présence des dieux, un motif traditionnel symbolisant la victoire de l'ordre sur le chaos. Une porte en bronze se trouve en son centre, menant à la cour intérieure."
+      },
+      {
+        title: "Le deuxième pylône et l'accès au mammisi",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPtYcjaea5kStAgyy0M2sCWDrFYzQr7hlde5JK_5_vzR5wRLabALTES87Z8tDAfwOqrTxW_9aqVUQe_9eV3GKWn3P854-5JimmSQQaLBP88zK1XM_EJrZ9s9kJS3DONsky8eocFF92xTvxOIPXX1pFXBQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMReobcQXoHiYEFgGQX_Z_DPSbJaVGVT2muBUkzeWCZUEt1KomyYgbcnbIOACDlBAspZO0GiwY1nKQT5Fsl76erHrg9X11WohqgvESVspAxuXLy7SdD20C43WoZtv60jTeydmjl4yNNQPcS0BdDes-nyw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le deuxième pylône est plus petit que le premier, mais il est tout aussi riche en décorations. Il fait le lien entre la cour extérieure et les salles plus intimes du temple. Ses reliefs sont plus axés sur les scènes rituelles. On peut y voir des représentations du roi et des dieux faisant des offrandes. Il est notable pour ses portes qui mènent au mammisi (la « maison de naissance divine »), une structure consacrée à la naissance d'Horus, fils d'Isis.\n\nAu-delà de leur rôle de simple entrée, les pylônes avaient une fonction symbolique profonde. Ils représentaient les deux montagnes entre lesquelles le soleil se lève, un symbole fort de la régénération et du cycle de la vie. Leur taille colossale était conçue pour impressionner les fidèles et les préparait à entrer dans un espace sacré, marquant une transition du monde terrestre au monde divin."
+      },
+      {
+        title: "La grande cour et les colonnades est et ouest",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNls3I7zqgwA9hPD0T7hU85VChtgffDCoFRStIQfdTEmH1aWRZrWcyJV-I5z475hUnNmr0JL3ccgAQYvXYFLJMFemOpxQgCxU20YN_1Zb0YmE5J7TIb5WMVVcTm1maUZArXW_WDEF9YJScwFb7fEeIqjw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPbiXBkZoNl41y6hNQCGGD7qvvJTed2E-uQZ2sVNtjootqhonYDGUmcsvcY_8qKVySCp9VkWNBuCJU-3aG7T-zmBt7vxzoO7nylCRxRYNr609SmBneXjlWYenR_vKoAHhb8N4oErsMb6MgDKM-dPg76NA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNTkXWPW9shhYZclYfHgVCwuykf2GTGxEqimEINiof2w89EvVO7Il4Nyrt9TKgyLiGmM8JYk7S630wR4OneUnbFtzEGBLX9lkCO7oIn4Q12C2JAOHmxLC5p2FwlXR3iEOMtXxfLqD8RfRk-875K2WYThA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Après avoir franchi le premier pylône, on pénètre dans une grande cour ouverte, flanquée de deux colonnades :\n- La colonnade ouest : la plus longue, elle mène au mammisi (ou « Maison de la Naissance »), un temple dédié à la naissance d'Horus. Elle est composée de 32 colonnes aux chapiteaux variés, décorées de scènes religieuses.\n- La colonnade est : plus courte, elle donne accès à la porte de l'empereur Hadrien et à la chapelle de Mandoulis. Les murs derrière cette colonnade abritaient des salles de service et une bibliothèque."
+      },
+      {
+        title: "La salle hypostyle et le saint des saints",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO_pac2CQPDBvP2NNpkyCmrzY7RBRUK-lkkYNuPAAHg0zIVdo7W5VKGXVCYXZEPxWgJ4YL11AsFutgDugGTeimdjOiG7ug19XijbBnuMdurc2whGGPw-1VWCAYkhCbQbn1KFhRY9PQ_OI2vC0mXAAgyyA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMMEZ34f7y6le26Jvdw2iUX1tAN3tkZSxInaTFUnnGrhD8gbyEG-m1EXaf5wJ9akkbuSFlnEle7GkydBgRAe8atrrcgUlRQqQgKOUE39pFIcHcaHMyjv7M9jATYb0qvPpL9vxsDw8e0k4qdOr-1WXL5Ew=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOD9RVZrtI4Ia6b1yTXhwFt_KpLe_Kc6F1tZayASqwOE8efEHz4hrIuCMO1Tl-V_RHjRCr4PeWSHPXuhCsJJYWvJ9kqr7DS3FQ4MDrCwOrM0lVoBm5XhzBwF6iBs9I7C8I9jTp7RQcBqXm68ORzzryIpA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Au-delà de la cour, un deuxième pylône plus petit mène à l'intérieur du temple principal :\n- La salle hypostyle : cette salle était jadis recouverte de reliefs peints, dont beaucoup ont été martelés par les premiers chrétiens qui ont converti le temple en église. On peut encore y voir des croix gravées sur les murs et les colonnes.\n- Le naos (le sanctuaire) : le cœur du temple, où se tenait autrefois la statue d'Isis dans sa barque sacrée. C'est ici que le culte de la déesse était le plus intense. Le sanctuaire est un ensemble de trois salles successives, de plus en plus petites et sombres, pour signifier la progression vers l'espace le plus sacré."
+      },
+      {
+        title: "Épigraphie démotique et mythes isiaques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOHttpC0JDD4ivhoyObuatwDIRYCovLd9u2R3_0fjfcr7TIz0ctRoZbhTnSCa6ZYQkx3j0HuVUVQyCagOHvpNf2CjMGaUpDlE-5ogHa187AnBtonGG_ZAEPb2u5ZdHSdmT1Q1L0TaXB_gzTKHz2eMqy-g=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN-69j2pEcXdYUu7I-uPo_5Thd86PAc2UoPMT8hotrX1lob5QN-C1wBfAMXuQR-yGnfx1SkLUiHcTUTBEnq3ygedgD4UL_NV2vYLgJ_zG-Rtf5bNc3EmWaBQP5p9jSF4fxzWR_3PBQRD2ChNk9bV70Nmw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOwsg0BBR_lS11m6HXq9u8yU7mOhG4_hRciVp3fOsX6TnSGpp47Y3VfWbEYPfvdY1q3Pxv3dy6yU3dj_SxYFaQ66jmLrivNV_Acd9YS2dW4kIJvutOU73aQ7AfXBdunFY3OKYzVowXyS-WHOnI-6FnKvw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le temple est remarquable non seulement pour ses dimensions, mais aussi pour le détail de ses bas-reliefs qui narrent la mythologie d'Isis, Osiris et Horus, et pour les inscriptions en démotique et en hiéroglyphes qui ornent ses murs, attestant de son utilisation sur plusieurs siècles."
+      }
+    ]
   },
   {
     id: "ile_elephantine",
@@ -14239,12 +14316,65 @@ const travelSpots = [
     era_label: "Antiquité Pharaonique & Cité d'Abou",
     century: "Antiquité",
     category: "archeologie",
-    lat: 24.0850,
-    lng: 32.8870,
+    counts: {},
+    lat: 24.085,
+    lng: 32.887,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMe5-tPfvBETQYNCaS7NQE82xAvrOGgrkqnWcydSwujR6xCg-Fwh_4V9telxRd-O_X4ET6aLQcybNwJBJ58KjEJyB2zoQWgIyFddWJAc_vLjj4Bdgz21o8-HsKKWdkfrUQrv8eLPr2bbmslLuhpnJts2A=w2686-h1791-s-no-gm?authuser=0",
-    description: "Bercée par les eaux calmes du Nil juste en aval de la première cataracte, l'île Éléphantine constitue le berceau historique et mythique de la frontière méridionale de l'Égypte antique. Véritable verrou stratégique et carrefour marchand convoité dès les premières dynasties, l'antique cité fortifiée d'Abou tirait son nom du commerce florissant de l'ivoire et des pierres précieuses venues de Nubie. Dominé par les sanctuaires millénaires dédiés au dieu bélier Khnoum, maître des crues bienfaisantes, et à son épouse Satet, le site abrite également le célèbre nilomètre étagé taillé dans la roche granitique qui permettait de scruter la montée des eaux fertilisantes. Au-delà de ses vestiges pharaoniques majeurs, l'île déploie une douceur de vivre intemporelle à travers ses villages nubiens traditionnels aux façades d'argile peintes de motifs géométriques éclatants, entourés de jardins luxuriants et de vergers ombragés par de majestueux palmiers dattiers, offrant un contraste saisissant avec l'aridité minérale des collines désertiques bordant le fleuve.",
+    description: "Bercée par les eaux calmes du Nil juste en aval de la première cataracte, l'île Éléphantine constitue le berceau historique et mythique de la frontière méridionale de l'Égypte antique. Véritable verrou stratégique et carrefour marchand convoité dès les premières dynasties, l'antique cité fortifiée d'Abou tirait son nom du commerce florissant de l'ivoire et des pierres précieuses venues de Nubie. Dominé par les sanctuaires millénaires dédiés au dieu bélier Khnoum, maître des crues bienfaisantes, et à son épouse Satet, le site abrite également le célèbre nilomètre étagé taillé dans la roche granitique qui permettait de scruter la montée des eaux fertilisantes. Au-delà de ses vestiges pharaoniques majeurs, l'île déploie une douceur de vivre intemporelle à travers ses villages nubiens traditionnels aux façades d'argile peintes de motifs géométriques éclatants, entourés de jardins luxuriants et de vergers ombragés par de majestueux palmiers dattiers, offrant un contraste saisissant avec l'aridité minérale des collines désertiques bordant le fleuve. Point de contact historique et militaire fondamental entre le monde égyptien et les royaumes de Nubie, l'île a conservé des traces d'occupation ininterrompues remontant à la période prédynastique. Les souverains de l'Ancien Empire y établirent la résidence des gouverneurs du Grand Sud chargés d'organiser les expéditions lointaines vers le cœur de l'Afrique. La richesse de sa stratigraphie archéologique a livré de précieux papyrus araméens attestant de la présence d'une garnison judéo-araméenne cosmopolite sous la domination perse. Au cœur des ruines s'élève un musée lapidaire abritant statues, stèles et éléments architecturaux sauvés des sites engloutis par les retenues d'eau. Aujourd'hui encore, la silhouette de l'île se découpe harmonieusement dans les eaux du fleuve, ponctuée par les voiles blanches des felouques glissant au ras des rochers noirs polis par les siècles. Traverser les allées ombragées des villages de Siou et de Koti permet de goûter à l'hospitalité légendaire du peuple nubien, dont les chants et les couleurs continuent d'enchanter les rives méridionales du Nil.",
     visiter: "L'accès à l'île s'effectue en quelques minutes de navigation à bord des felouques ou embarcations traditionnelles traversant les flots depuis la corniche d'Assouan. La découverte s'amorce à la pointe sud par l'exploration approfondie de la vaste zone archéologique, où les ruines des temples de Khnoum et de Satet côtoient les vestiges de la cité antique d'Abou et l'escalier millénaire du nilomètre plongeant dans le fleuve. La visite se prolonge agréablement à pied au fil des sentiers de terre battue serpentant à travers les paisibles villages nubiens de Siou et de Koti, réputés pour leur hospitalité chaleureuse, leurs cours ombragées et leurs cafés pittoresques. Les chemins bordés de bananiers et de palmeraies mènent à des points de vue exceptionnels sur les rochers de granit poli émergeant du lit du Nil et sur le mausolée de l'Aga Khan se dressant sur la rive occidentale, invitant à une halte contemplative inoubliable au coucher du soleil.",
-    link: "https://photos.google.com/share/AF1QipNZfBT4M0PS4dNnwcK68X2Oia2tILgY86cyJSq9mDJ69FPcLPDkB9H4VMkFde2FiQ?key=bWVoRGE4X3E5dUxxVk81akd5Z3BtTzMtUm55aWx3"
+    link: "https://photos.google.com/share/AF1QipNZfBT4M0PS4dNnwcK68X2Oia2tILgY86cyJSq9mDJ69FPcLPDkB9H4VMkFde2FiQ?key=bWVoRGE4X3E5dUxxVk81akd5Z3BtTzMtUm55aWx3",
+    sections: [
+      {
+        title: "Carrières de granite rose et paysage fluvial d'Assouan",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNSdf2T336gxEnjyZPiB3J9LXla7ce__nNDMu2JEyxCtozeeR7Ak3Z3YcXQbgIStjM9gJd84vKESJAayGwEY5GkmjDqZ0xfc9zputLi1TzLre78AO395W9dfD456sR5EZxwE7IjTLdW-N5UpaY6NghwJw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPQxMhABDdN0IYN3uQkNyMKkoNAHIk-KmS8QgFJ99GUlXc9QOOeug3cD5VOdvfG6S_SDP9QoeD6xwNGDt4gfBiQJyAb5Gmd2phzBuEdMiLFeJ2YVMn4YQwDelDXSZTsqGZ7XpR3N943WgG_g6492dyn-Q=w1926-h1445-s-no-gm?authuser=0"
+        ],
+        text: "Au-delà de son rôle géopolitique, la région d'Assouan doit sa renommée millénaire à ses carrières de granite rose et gris, roche prestigieuse exploitée sans discontinuer depuis l'Ancien Empire pour sculpter les colosses, les sarcophages royaux, les piliers de temples et les obélisques monolithiques, comme en témoigne le célèbre obélisque inachevé. Son paysage fluvial, parsemé d'îlots granitiques et de rochers polis par les flots, est entouré de sites majeurs tels que les nécropoles des nomarques creusées dans la falaise de Qubbet el-Hawa et le sanctuaire insulaire de Philæ, voué au culte d'Isis."
+      },
+      {
+        title: "Le Haut barrage et le conservatoire des traditions nubiennes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO34P2OJ04BMSaIrtwhzzKgVpTAfTAuSmd_UFg7-oo0w2gcFNO1i9YUoMvSgEhoWlvMYTDyXT9rRs6HrsR5F3J5mixzPJY9kMDeClcLLH1B-DFJlb0xInX2vIJakM4xxcZZxW74h4ukttnhPWRaoLmfsQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Profondément transformée au XXe siècle par l'édification du premier réservoir puis du Haut barrage qui a donné naissance au lac Nasser, la cité demeure le conservatoire vivant des traditions et de l'art nubiens, au confluent du désert arabique et de la frontière soudanaise."
+      },
+      {
+        title: "L'antique cité marchande d'Abou et le commerce de l'ivoire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO147d2Gg0mCwk0SVAtEWixC1I65WOu1rsOSr_i80jVOSeh8HVLJDaFVyllI-M5Caloq01LQoqy_nS44LeMDzg3kThD51GE8lUX2GBSvS_IkFeRAFJWkMYm67LWoLI0eghacV7yjR_Gxba5llhT4z6s9g=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMHsx1FX1ZL05BKKLWtAPTt-nE8E8KDAS8CEG5SRyjMfpXrbPch0yOxrQPJWmfzE3UBEhay2-wfYAMj7wGpwUlob19VAuIRBT6wVqJNPvIdr1MVPpHI-mrE_I2-Aita1Upz8pL5PIHIXgYZ9xR4FAVoFA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN2y8V76wDFtFX0iJ1emEUD8_Y_rfu9TKf7PHAxVfsknTIDecWsAkhdlsck6HaclWJ7JC0vRrm-3cZhaD2UhBpQglWUqljI3_t4VNOXXaXRGaqcWEpuTbE2rMXlw0NuboF642LkvTtxol8KhdotxAxrGw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "L'île Éléphantine est l'une des plus grandes et des plus anciennes îles du Nil à Assouan, et son histoire est étroitement liée à celle de l'Égypte antique. Son nom, qui signifie « île de l'éléphant » ou « île de l'ivoire », fait référence à son rôle majeur comme important centre commercial pour l'ivoire et d'autres marchandises provenant d'Afrique subsaharienne."
+      },
+      {
+        title: "Forteresse de frontière, temples de Khnoum et Nilomètre",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMe5-tPfvBETQYNCaS7NQE82xAvrOGgrkqnWcydSwujR6xCg-Fwh_4V9telxRd-O_X4ET6aLQcybNwJBJ58KjEJyB2zoQWgIyFddWJAc_vLjj4Bdgz21o8-HsKKWdkfrUQrv8eLPr2bbmslLuhpnJts2A=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNrZCRpPZvw4XSJn0kqfuzzBfB0AOh8RqduKps_1irNFr1xEdTx5Rf2XpletJAiwQRJ2iG5ktaSD8VJZq2iodPkJPDJ9C4mw7eRVhsSEb0hMaPjj6si8YjTM2hp8wjtMmPp23eps8ilQ6XdwjfAOa9zlw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPRMcoHAryTU9AQKOW67ITbFiYtYoS2rOD9gQDkPsRj0J4kkNsm7bms3TSplQZbMzHBYK1FzJA1ubMBV_UvMChbfDcsCTJdjtqWkm4VWmCcI7fMDfV707V46BOLF0n9SURFFww460mYV_IfFowZrhPS7A=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Éléphantine a servi de forteresse et de point de contrôle stratégique sur la frontière sud de l'Égypte. Elle était le siège de la Première Cataracte et son importance était liée à la mesure des crues du Nil, qui déterminaient la prospérité du royaume. Les temples dédiés au dieu créateur Khnoum, protecteur des sources du Nil, et à sa triade divine, ont été construits sur l'île. C'est également là que se trouve le plus ancien Nilomètre, un escalier monumental utilisé pour mesurer la hauteur de la crue du fleuve, un indicateur vital pour l'agriculture et les taxes. Les vestiges archéologiques de l'île remontent à la période pré-dynastique."
+      },
+      {
+        title: "Les villages nubiens traditionnels de Siou et Koti",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPozwui-fygHCbJthz9u1iTxOWpnp-1Za7hM64SDnLEUfphu7ANFzKd-jp2eUylVFqds3VnvWF4KUfECOFUvuEmfStfsWR6_PZ27Dgz3-Bnom6dvOQ1vxP5ZDkXV179hRUpZqx5tKcZbFHAyQbuQdWfJw=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPJOqnusMdAxvjm6UGz5IoyWpmrd2HKB0n2kQriutDIhpOYcc_vhie8Iz93ZVcf7snKBOqG588WgSaW0dW_JABUfC02kenZSYr8l1VEfEtbXO8LENH192XxyvDos5uzSe0H-uqIdvDCzbP6yTa5t3u57g=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP7nTbas6B1dpVXl0PBQk3opPWCwAhzJvbnwaH_DPQMZK1t8jO98b8PAoh7CAZmxNOxFoK8HL9UhK4yLmvGBQqHWR-ZF6ZLRrtEwnbJK-1lFqla1IR8j-Gf0gLBWYjB4P4H96wvnyId5gq7fOd_YkSNIw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Aujourd'hui, l'île est surtout connue pour ses charmants villages nubiens traditionnels, tels que Siou et Koti. Ces villages offrent un aperçu unique de la culture nubienne, qui se distingue de celle du reste de l'Égypte.\n\n- Architecture : les maisons sont peintes de couleurs vives, souvent en bleu, rose, jaune et blanc, avec des motifs géométriques et floraux qui rappellent les motifs des céramiques nubiennes. Les portes des maisons sont souvent décorées de scènes religieuses ou de symboles protecteurs.\n- Culture et vie quotidienne : les Nubiens sont réputés pour leur hospitalité et leur sens de la communauté. La langue nubienne, différente de l'arabe égyptien, est encore parlée dans les villages. Les habitants sont également connus pour leur artisanat, notamment la vannerie, la poterie et les bijoux."
+      },
+      {
+        title: "Le Musée de la Nubie à Assouan",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN80uJ8C-xPefZVFYsA9xQl0I3ycpPgdrbiA6Dv_nNm40QEHId3AbS5PsBRY_0F98I_v4vVdOQJyjOHk0tYpVwp2YMv2nKb-EXSgxJjSFWOLceko0WexTYFYqJUa5QbLw4hLEIMj_LKvBJCEZEMJrbXyg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN7kbQQFdwGOd5j6aNxQ8T-GbSlSkrfposHZJLg0E4UVJIGtRu2hJx_lnye4YNQeKqN5SlIR0IiQ6nIveW2436HEaTa76OBkHk7WZkFfIksS-zOuGWOjvtsM5MG_E4yYPEh8dVnAHd11n5JqoNle-9OBw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le Musée de la Nubie est l'une des institutions culturelles les plus importantes d'Assouan. Inauguré en 1997, il a été conçu par l'architecte Mahmoud al-Hakim pour célébrer et préserver l'histoire et la culture nubiennes, une civilisation millénaire qui a été menacée par la construction du Haut Barrage d'Assouan et la montée des eaux du lac Nasser.\n\nLe musée est un chef-d'œuvre architectural qui s'intègre parfaitement dans son environnement. Construit en grès de Nubie, il rappelle les villages traditionnels nubiens avec ses lignes épurées et ses jardins luxuriants. Sa mission est de raconter l'histoire de la Nubie, de la préhistoire à la période moderne, en mettant l'accent sur la culture et les monuments qui ont été déplacés ou submergés par le lac Nasser."
+      }
+    ]
   },
   {
     id: "musee_nubie_assouan",
