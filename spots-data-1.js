@@ -13650,17 +13650,69 @@ const travelSpots = [
     subdiv: "Abydos",
     altitude: 72,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XIXe dynastie)",
     century: "Antiquité (XIIIe siècle av. J.-C.)",
     category: "archeologie",
+    counts: {},
     lat: 26.1849,
     lng: 31.9189,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPRhaqbe1gAmPBRrg2rXivhKhTAC-ueYs_QIoWYLsj2fw0F0rjlnERKJC_AcVFGG0vNrYmolFl8nHb7O_TAT9kg2Q7IrcgFEd5rBLRR62bQNb0GR2co2uZHomG5gtn1cA41EDWvrYAPwg_Bz_ZKvWdFNw=w2624-h1750-s-no-gm?authuser=0",
     description: "Dressé aux confins du désert occidental à environ cent cinquante kilomètres au nord de Louxor, le sanctuaire d'Abydos incarnait pour les Égyptiens de l'Antiquité le nombril spirituel du monde et le cœur palpitant du mythe osirien. Cité sainte par excellence où reposait selon la tradition la tête sacrée d'Osiris décapité par son frère Seth, Abydos vit s'ériger au XIIIe siècle avant notre ère le chef-d'œuvre architectural et artistique du pharaon Séthi Ier, parachevé par son illustre fils Ramsès II. Édifié en calcaire fin d'une blancheur éclatante sur un plan atypique en forme de « L », le temple des millions d'années abrite les plus admirables bas-reliefs polychromes de tout l'art pharaonique, réputés pour leur modelé voluptueux, la douceur infinie de leurs traits et la délicatesse inégalée de leurs pigments ocre et turquoise. Rompant avec la tradition du sanctuaire unique, l'édifice déploie sept chapelles axiales parallèles consacrées aux grandes divinités cosmiques ainsi qu'au souverain divinisé, tandis que s'étend juste à l'arrière l'énigmatique Osiréion, cénotaphe souterrain mégalithique en granit d'Assouan qui figure l'émergence de la butte primordiale hors des eaux sombres du Noun.",
     visiter: "La découverte commence par le franchissement des deux cours extérieures pour pénétrer dans la majestueuse première salle hypostyle, où les reliefs dynamiques gravés en creux sous Ramsès II cèdent la place, dès la seconde salle, aux sublimes bas-reliefs en méplat ciselés sous Séthi Ier. L'émerveillement culmine devant l'enfilade des sept chapelles votives voûtées dédiées à Horus, Isis, Osiris, Amon-Rê, Rê-Horakhty, Ptah et Séthi Ier, dont les parois préservent des scènes rituelles d'une fraîcheur chromatique bouleversante. Dans l'aile sud, le couloir des rois dévoile un trésor historique inestimable : la célèbre Table d'Abydos, gravure murale monumentale énumérant la lignée continue de soixante-seize pharaons depuis Ménès jusqu'à Séthi Ier. En observant attentivement les architraves de la première salle, les esprits curieux remarqueront les curieux hiéroglyphes superposés dits « d'Abydos ». La visite se prolonge à l'extérieur par la contemplation en contrebas de l'Osiréion, dont les piliers colossaux émergeant d'une nappe phréatique turquoise dégagent une aura de mystère intemporelle, dans un calme absolu et une sérénité propice au recueillement.",
-    link: "https://photos.google.com/share/AF1QipMwBNBmX2oQ1yogFlbAD_k6kei683WIeSyIUw9hKtTStvfbUrh-fpS6cfbiWZK1rA?key=U0RtV3lPbjBBUlQzNEdHQTFWa1d4bHpwYnVkcEFR"
+    link: "https://photos.google.com/share/AF1QipMwBNBmX2oQ1yogFlbAD_k6kei683WIeSyIUw9hKtTStvfbUrh-fpS6cfbiWZK1rA?key=U0RtV3lPbjBBUlQzNEdHQTFWa1d4bHpwYnVkcEFR",
+    sections: [
+      {
+        title: "Les sept portes originelles et les cours de Ramsès II",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPRJHKf3bLoFhkj6Z4xf-Q4SpIVNOm4DYalkmQ26n-Kz34Ig3U67cNXsub7hpASyXR0F9CePl_IPY7RtPrNmu_g-VcjeaTiS-j8chIWvUFetu24aTmtyDcMHMjY4-b141SkBGr05Z0l6ZlHN9Uv9EZ5vw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNW7zERs8e_sipGVtDFPcPYJrQEdHGZDyFiQD0oDhGHE1qAmYRTB6jvF2yKiJc5DnmoIMfkxhQmVPPe95yf1gA4vZaJ6oFe4Hhu6ZltAzC_3rETCxHlAClWR62lxwbpL9FoB2fNbQ9XT970MW021kGRFw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Contrairement au Temple d'Hathor sans pylône ou à ceux avec un pylône unique, l'accès au temple de Séti Ier se faisait à l'origine par sept portes monumentales et parallèles. Cette structure unique reflétait les sept sanctuaires alignés situés à l'intérieur du temple (six dédiés aux divinités majeures et un à Séti Ier divinisé).\n\nCependant, à la suite des modifications apportées par Ramsès II après la mort de son père, Séti Ier, la façade a été transformée :\n- Réduction des entrées : Ramsès II a muré six des sept portes, ne laissant ouverte que l'entrée centrale. Cela a créé l'apparence d'une façade plus traditionnelle, centrée sur l'axe principal menant au sanctuaire d'Amon-Rê.\n- Les cours et le pylône : la façade donnait sur deux grandes cours à ciel ouvert qui étaient précédées d'un pylône (aujourd'hui en ruines). Ces éléments, ainsi que le portique (ou le premier péristyle), ont été en grande partie achevés par Ramsès II pour magnifier l'entrée."
+      },
+      {
+        title: "Les salles hypostyles : transition artistique entre deux règnes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPOiM3yLDsYA2agBgU9HdZqgl550jjGLddp-cusnSz2q1KkDPFuYbwvi5VbF_pr1U4GB8pSVu8S_wuuqY9MXfdGcEOtCCS4V6eTO_BkReNTAm6zyz3vZnRiNihWPlX9oo2MvoyB6WDCDbO19WQ5N70tWw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOZ2vF6UzMGG4vEYUuwuaY8sJANIZsfeMmL0S8klVjHQ3DI26nlYfLo6mBeS56G3KMt-ijnvXpkVBRLlT5Ic05wyTm6KsfjZhJJ5OHN89ri3yZK_LW3NLOsq3Od0acALn6jp8ECgWaQSoZfADV7Vs3PGg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "L'intérieur commence par deux vastes salles hypostyles successives, dont les murs et les colonnes ont été en grande partie décorés par Ramsès II, qui a achevé le temple de son père.\n- Thèmes et rites : les reliefs représentent principalement Séti Ier et Ramsès II accomplissant les rites de fondation du temple, faisant des offrandes et étant purifiés par des dieux comme Horus et Thot. Les scènes insistent sur la légitimité du souverain et son rôle en tant qu'intermédiaire entre les dieux et l'Égypte.\n- Qualité artistique : les bas-reliefs de la première salle hypostyle, réalisés sous Séti Ier, sont remarquables par leur relief bas (bas-relief rentrant), offrant des détails subtils et une profondeur rare, contrastant parfois avec le style plus marqué et rapide de Ramsès II."
+      },
+      {
+        title: "L'alignement des sept chapelles axiales",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPD-2GBGZ55gI7vRL-nP_ehNmmHjGQIb9soPp7__InCicQwFQw5Rf6pQA66iUZoa-2azURyO2pvun9_qNO3xyTnW-hfjO2F1UarUYS38vRXmVuvNbqgYLQ_qzWh3TcGu3nu6wEKlXShBVZyXFHUW5F1UQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPfo1Mra5nsavtJN6Ez0AYJhChSIsMoFOxLQwSDBNKaKFFvW5nQmvrJZFcBwT3lBQa3Chu5FBGXqDqhER8iFE4owdSoZH0OdOtixiWjoytUAUmhxN8kSRaO50fNukOJAeUP131JZqxFWSDa0oL_X9o7hw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMYDt_-GfEAS7RlID2ETuQbfmxjzeAUoSopcFHmIKcZ6j7r9MOyxs0UHaYNQfjxNtFDr_mOvtLgIA1ljbPriveR9do7fdpKPbsLFvmI2doCeVRqIFXnl806sHC_7XhRgvfBCPrxuyvR6nXjBBILIr6ESg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "L'élément le plus distinctif de l'intérieur est l'alignement de sept chapelles ou sanctuaires, accessibles depuis la deuxième salle hypostyle.\n- Déités honorées : chaque sanctuaire était dédié à une divinité majeure : Amon-Rê, Rê-Horakhty, Ptah, Osiris, Isis, Horus, et un sanctuaire pour le pharaon Séti Ier divinisé lui-même.\n- Les barques sacrées : chaque chapelle était destinée à accueillir la barque sacrée de la divinité associée, utilisée lors des processions."
+      },
+      {
+        title: "Sanctuaires voûtés et bas-reliefs rituels",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP7xGyp7J8bu_bj6387yB26A_qORNVYaD2vt6DMIBw4uRFbY8okVaA_6Tep0arAFjnfCtTtxLqnOF0FhjA0jRrZPy8fhbPKQ2K5vrARKBSvENBN4mk_B526RVl3Y0tQuMpZnBMks4dCrrtsVANytdIC5g=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMb5DOnQ7qKhNSZbIJ9YE07dxwwS-hbqoA3f4RZKBHU2Ky89jioWiCd506XDgFq6zb40d9LaXvlbI2cY4WpKw8sXCCgPY9I_lBdFnH2_N6jEDPuW0-_FR2xThYF92H6Ynl1ATfho-O0RwUsAo3stkIVHw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le complexe d'Osiris et le mythe de la résurrection",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPRhaqbe1gAmPBRrg2rXivhKhTAC-ueYs_QIoWYLsj2fw0F0rjlnERKJC_AcVFGG0vNrYmolFl8nHb7O_TAT9kg2Q7IrcgFEd5rBLRR62bQNb0GR2co2uZHomG5gtn1cA41EDWvrYAPwg_Bz_ZKvWdFNw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNWgvQrXQ3EKLcGEXzjBqqWcC0Y4lu67h-C9Ox0vhpG24lMdXPSJZdsrnaoDgTH5-YIckqqwbjtGMdjzgZhghOUmQ6CbLAd84O_fvFPo5-fPr6cXDwRSq9snekpk5pCrUNSykh4VapTfrvc5YutuOhhzg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Programme décoratif : les reliefs à l'intérieur de ces chapelles sont d'une importance théologique primordiale, illustrant les rituels journaliers accomplis pour chaque dieu et renforçant la cohésion du panthéon. La chapelle d'Osiris, en particulier, ouvre sur un complexe de trois chapelles supplémentaires (pour Osiris, Isis et Horus), formant un véritable « temple dans le temple » consacré au mythe de la résurrection."
+      },
+      {
+        title: "Le palimpseste d'Abydos et le mythe technologique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP1b7nPYMgnUID2l81S_1BHhXQeQkoREgiIZnbxnNPY32BLHO5dKd202jmTxzXW3a2dxGbSx3twrqb4TGqDR7pXu6-VgxBUyZmG7wyOkY1w6rLvh_ijAuuFtdtBpbX9As9GtFMEwrQOt56fguI-TlK-rg=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le « célèbre hiéroglyphe de la soucoupe » fait partie des fameux hiéroglyphes d'Abydos, qui ont alimenté de nombreuses théories pseudo-scientifiques, notamment celles des anciens astronautes. Ces hiéroglyphes sont célèbres parce qu'ils semblent, à première vue moderne et hors contexte, représenter des objets anachroniques tels qu'un hélicoptère, un char de guerre ou même une soucoupe volante.\n\nLa véritable explication de ces formes étranges est beaucoup plus terre-à-terre, mais tout aussi fascinante pour les égyptologues : il s'agit d'un palimpseste hiéroglyphique. Un palimpseste se produit lorsqu'une inscription est gravée sur une autre, laissant des traces des deux textes. Dans le cas d'Abydos, sur le linteau d'un architrave du Temple de Séti Ier :\n1. L'inscription originale : elle a été réalisée sous le règne de Séti Ier et faisait partie de sa titulature royale, notamment son nom de Nebty (Menmaâtrê).\n2. L'usurpation : après la mort de Séti Ier, son fils, Ramsès II, a modifié l'inscription pour y insérer son propre nom et ses titres (Ousermaâtrê-Setepenrê). Pour ce faire, il a demandé aux artisans de recouvrir l'inscription de Séti Ier avec du plâtre, puis de graver sa propre titulature par-dessus.\n3. L'érosion : avec le temps, le plâtre s'est désagrégé et est tombé, laissant apparaître une superposition involontaire des reliefs originaux de Séti Ier et des reliefs ultérieurs de Ramsès II.\n\nC'est cette superposition, où un hiéroglyphe (comme le bras) chevauche un autre hiéroglyphe (comme un arc), qui crée par coïncidence les formes illusoires d'un hélicoptère ou d'une soucoupe, un phénomène connu sous le nom de paréidolie."
+      }
+    ]
   },
   {
     id: "pyramide_meidoum",
@@ -13673,17 +13725,54 @@ const travelSpots = [
     subdiv: "Meïdoum",
     altitude: 58,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
+    counts: {},
     lat: 29.3881,
-    lng: 31.1570,
+    lng: 31.157,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNLE7XfVkUuUATKZvZGt2G9iOf0GWGJEPKx6cHutSVJCNA4LgyYFDSZhBr9op2WqrSrGINcet2kMLABSPUeN53HJ5b-qqsazYCZIDWZ1IQ-F_NeTC6ouMco6ZeVrZ9FuFmw-umaZDqZ1lHRAxQR8Ptodw=w2624-h1750-s-no-gm?authuser=0",
     description: "Sentinelle solitaire dressée aux confins du désert occidental et des terres fertiles à l'orée de l'oasis du Fayoum, la pyramide de Meïdoum incarne le laboratoire architectural le plus fascinant et audacieux de toute l'Égypte pharaonique. Initiée sous le règne d'Houni puis transformée et parachevée au XXVIe siècle avant notre ère par le grand roi Snéfrou, bâtisseur prolifique et père de Khéops, cette structure monumentale marque le passage décisif de la pyramide à degrés traditionnelle vers la première pyramide géométrique à faces lisses de l'Histoire. Avec sa silhouette insolite et spectaculaire évoquant une tour-donjon médiévale à trois degrés émergeant d'une imposante colline d'éboulis calcaires, le monument suscita de nombreuses légendes locales qui lui valurent le surnom évocateur d'el-Haram el-Kaddab (« la fausse pyramide »). Longtemps attribué à un effondrement catastrophique de son parement extérieur lors de son édification, cet aspect singulier résulte en réalité de l'exploitation séculaire de son précieux calcaire fin de Tourah par les carriers antiques et médiévaux, dévoilant ainsi avec une nudité saisissante les puissantes assises internes du noyau primitif et le génie expérimental des premiers architectes royaux.",
     visiter: "La découverte commence au pied de l'immense cône de débris par l'ascension d'un escalier de bois sur la face nord pour atteindre l'entrée historique perchée à une vingtaine de mètres au-dessus du sol. L'exploration intérieure constitue une aventure archéologique intimiste et saisissante : on s'engage dans un long couloir descendant très étroit et incliné à 28 degrés plongeant sur près de soixante mètres, avant de franchir deux antichambres et de se hisser par une échelle verticale dans la chambre funéraire taillée dans la roche. Véritable prouesse technique, cette voûte en encorbellement sur quatre faces — la plus ancienne jamais conçue dans une sépulture royale égyptienne — exhale encore les effluves séculaires des madriers de cèdre du Liban d'origine scellés sous le plafond. De retour au grand jour, la marche se prolonge vers la chapelle funéraire orientale remarquablement préservée, le temple haut et l'exploration des mastabas princiers environnants, notamment le colossal mastaba 17 dont les couloirs obscurs réservent une traversée mystérieuse, dans une atmosphère de solitude et de silence absolu loin des flux touristiques de la capitale.",
-    link: "https://photos.google.com/share/AF1QipO8IKuCvuHEQVErTLuZk65NeutsaWNJWrUz49BWLMhhT6VAQfKIF67-jtxceGrb2A?key=WHFSRU9OME5wTmtIb3lSbkJSbTBkUFZEOGQ4bG5R"
+    link: "https://photos.google.com/share/AF1QipO8IKuCvuHEQVErTLuZk65NeutsaWNJWrUz49BWLMhhT6VAQfKIF67-jtxceGrb2A?key=WHFSRU9OME5wTmtIb3lSbkJSbTBkUFZEOGQ4bG5R",
+    sections: [
+      {
+        title: "Les trois phases constructives d'Houni et Snéfrou",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOcnejt4y9iWdXrGEv6osZiVsDT4E7UNULwZCYE-b2pVl9KpqBsBVScRN1xKse0kXBXxS4RYh4H_RhAyjtVJnHvd78QIlkkKjwDFgNOD_R5ZiXEz4dbfIIz-w6xHRGENhiJS1CE2jyCAxNatenjfHVoTg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPKzPw6AkQcq7Yz7QIVtaoUbvsil05GsxPpKJeW0hyZpFeOdiXwJp28X1gNHR13MqdrD-drKpHVltN8hYlYUMQDonHwlPbNn9e0tihsmWDFP30nyHNk6GHyHyGqn0awDQye6zc0NPmGLnxkqv2tGXln4g=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOrXsiOQprU5P1q9_YKHVwWyOzYKosxP9EUyQWwPWuToOcgT72X26OOxcWR5BnzdQ-eXuNeRAMYKjhqG_43WKEI3ZIXMkK15KhFr2ZdQiiZAuesiOxPhYQT7IT6Q5zCkKfbG-mYCyp4o2exdg6qr_X2LQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "L'histoire de la pyramide de Meïdoum se déroule en plusieurs phases de construction successives, impliquant deux pharaons clés de l'Ancien Empire :\n- Phase I (Houni) : la construction est très probablement commencée sous le règne d'Houni, le dernier pharaon de la IIIe dynastie (vers 2600 av. J.-C.). Elle fut initialement conçue comme une pyramide à sept degrés (E1).\n- Phase II (Snéfrou) : Snéfrou, le fondateur de la IVe dynastie et père de Khéops, hérite du monument. Il décide de l'agrandir en ajoutant un huitième degré (E2).\n- Phase III (Snéfrou) : Snéfrou entreprend ensuite une transformation radicale, ordonnant de remplir les degrés et de recouvrir toute la structure d'un parement lisse (E3) en calcaire de Tourah, dans le but d'en faire la toute première pyramide à faces lisses d'Égypte.\n\nLe monument, abandonné après l'effondrement de son parement, a servi de cénotaphe (tombeau symbolique) pour Snéfrou, qui a finalement été enterré dans l'une de ses pyramides de Dahchour (probablement la Pyramide Rouge)."
+      },
+      {
+        title: "Laboratoire architectural et effondrement du parement",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMR7-_Ggu_XLmMzrpElWfU7txFck356FU1OI1bXkDvJJItYbO5kZNjB0HYNtFAsbXA3CA9_WXzNkQ4EXUq-eWsWE3Rtvl7S8XdrICV43LRBgk3wqDoz4kdx7DSKtk9w1GvqpEGqDRxfI9QvQWZTtReeGA=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Innovation transitionnelle : Meïdoum est la preuve archéologique de l'expérimentation architecturale. Elle montre l'étape intermédiaire entre la maçonnerie en degrés et la géométrie parfaite des pyramides de Gizeh.\n- Aspect actuel : le monument se présente aujourd'hui comme une tour centrale (l'ancien noyau à trois degrés) entourée d'un vaste talus de sable et de débris qui sont les restes du parement lisse extérieur et du remplissage des degrés qui se sont effondrés.\n- L'effondrement : la théorie la plus acceptée est que l'effondrement catastrophique de la couche extérieure est survenu alors que le chantier était encore en cours, probablement vers la fin du règne de Snéfrou. La cause serait un défaut de conception dans la troisième phase : le parement extérieur fut construit sur une fondation sablonneuse et avec un angle d'inclinaison trop raide (50 degrés) sans les supports horizontaux adéquats."
+      },
+      {
+        title: "Agencement intérieur et voûte en encorbellement",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOhO-0cNOsz_UBsxSOVDaTCMfAP1Y6uqNU59jrZuxyeqmmlSU5ofVaiCHFlH7EHFuBkADXekaZAxpLncfEasTYgn_URfcsVFaaAIusE1GyJ9QnLbGxelX9crGPg3JnuqZWduBOWB7YJHUtcLG4Gf-EMog=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNlVckJINPMF4CMyguc5SmVqDNA5J3Txi8J4V3AFXLqQ8ITJQ6MaenoHEBBo-pMnCJZ6aUnh2OomLIhEJ5QSpvW-T0sZ7SnhhEcCyS2LDaKIsfxtERpT9RyNE6CoWzJ7r7gDolI09EoYyJF_ZA09f_FUQ=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNF_yxQ34UoYeIEVw6l_tMSjbUsdYty7jjh0Mg0H291KKqTyObJYpfV06ov1uF7gy26YSBNgJdUvD33cfsG-qG-_cDtZ5YQj28gGl3AYeCrmv7Ig2ihp2oQbArQYsWbZEcd4akIjhnV-65a3Ub__Rs6Kw=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "L'agencement intérieur de la pyramide de Meïdoum est étonnamment simple, caractéristique des premières pyramides :\n1. L'entrée : l'entrée s'ouvre sur la face Nord du monument, à 11 mètres de hauteur.\n2. Le couloir descendant : un long couloir de 57 mètres s'enfonce dans la maçonnerie avec une pente de 25 degrés.\n3. Le dispositif funéraire : le couloir débouche sur un puits vertical qui mène directement à la chambre funéraire. Cette chambre est située au niveau du sol (sous le noyau de la pyramide, et non au centre de la maçonnerie comme plus tard) et se distingue par sa voûte en encorbellement (ou fausse voûte) admirablement construite, où les pierres s'avancent progressivement pour se rejoindre au sommet, une innovation technique majeure pour l'époque.\n4. Absence de sarcophage : aucun corps n'y a été retrouvé, et la chambre est vide, consolidant l'idée qu'elle n'a jamais été utilisée pour l'inhumation."
+      },
+      {
+        title: "Évolution structurelle des noyaux pyramidaux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNGWdbmrvXMTShOZBFW_2ElX4_oA1QBLe7_N0O14_962AHMDnJzlGo7rjGFTNyucqYMQqiWmatpAS86TNCVEohnprP77w5qKhd8ji_gJzsN87swCvgeogBQAcvkFuye8DImSEftJrShcBdhRv4rx1EsQw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNLE7XfVkUuUATKZvZGt2G9iOf0GWGJEPKx6cHutSVJCNA4LgyYFDSZhBr9op2WqrSrGINcet2kMLABSPUeN53HJ5b-qqsazYCZIDWZ1IQ-F_NeTC6ouMco6ZeVrZ9FuFmw-umaZDqZ1lHRAxQR8Ptodw=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le noyau n'est pas seulement un remplissage ; il est l'élément qui donne sa stabilité et sa forme de base à la pyramide :\n- Pyramides à degrés (IIIe dynastie) : le noyau est constitué par la superposition de mastabas (tombes plates trapézoïdales) de plus en plus petits. Dans la Pyramide de Djéser (Saqqarah), par exemple, le noyau était une série de couches de maçonnerie inclinées vers le centre pour éviter l'effondrement.\n- Pyramides de transition (Meïdoum) : comme nous l'avons vu avec la Pyramide de Meïdoum, son noyau initial était une pyramide à sept, puis huit degrés (E1 et E2). Lorsque Snéfrou a tenté de la convertir en pyramide à faces lisses (E3), le noyau de degrés a servi de base pour le remplissage et le parement extérieur. C'est l'effondrement du parement extérieur (E3) qui a révélé le noyau de degrés.\n- Pyramides à faces lisses (IVe dynastie, Gizeh) : dans les pyramides de Gizeh, le noyau est une structure rocheuse plus massive, faite de blocs de calcaire local, empilés en strates autour d'un noyau rocheux naturel (dans le cas de Khéops et Khéphren) ou d'un massif de maçonnerie très solide. Ce noyau est ensuite enveloppé par le parement en calcaire fin de Tourah.\n\nAinsi, l'existence d'un noyau est une constante technique dans la construction pyramidale égyptienne, symbolisant la butte primordiale (la terre émergée du chaos), et garantissant la stabilité du monument."
+      }
+    ]
   },
   {
     id: "dahchour_pyramide_rouge",
@@ -13696,18 +13785,54 @@ const travelSpots = [
     subdiv: "Dahchour",
     altitude: 67,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    counts: {},
     lat: 29.8088,
     lng: 31.2062,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOyd3k7egcC-KbVTfiibheQpm_sCjVOcwC6eDQ4UyEgtIspCQB5ep7WWZXu5CRmAgc2vlMm5uWb57Y-bRzvWXSH8YqkIIYrg1qSzWtapvDEDNcYd1WhYvikVXGYsJW8Xew4CBbYkE_9FAaoiZFjVxBwGQ=w2684-h1789-s-no-gm?authuser=0",
     description: "Dressée avec une pureté souveraine sur le plateau désertique de Dahchour à une quarantaine de kilomètres au sud du Caire, la pyramide Rouge constitue l'un des accomplissements majeurs de l'architecture universelle : la toute première pyramide à faces lisses parfaitement réussie de l'Histoire humaine. Troisième plus imposante pyramide d'Égypte par son volume après celles de Khéops et de Khéphren, ce titan de cent quatre mètres de hauteur fut érigé au XXVIe siècle avant notre ère par le pharaon Snéfrou, fondateur de la IVe dynastie et bâtisseur le plus prolifique de l'Ancien Empire. Après les tâtonnements structurels de Meïdoum et le changement d'angle forcé de la pyramide Rhomboïdale voisine, les architectes royaux adoptèrent d'emblée une pente adoucie et constante de 43 degrés, garantissant une stabilité parfaite à cette montagne de pierre. Tirant son nom de la teinte ocre rougeoyante de son calcaire local ferrigineux — mis à nu après le pillage médiéval de son somptueux parement extérieur de calcaire blanc de Tourah —, l'édifice se dresse comme l'ultime marchepied technologique ayant rendu possible l'édification de la Grande Pyramide de Gizeh par son fils Khéops.",
     visiter: "L'aventure débute sur la face nord par l'ascension d'un grand escalier extérieur maçonné menant à l'entrée historique située à vingt-huit mètres au-dessus du désert, offrant un vaste panorama sur la pyramide Rhomboïdale et la bande verdoyante de la vallée du Nil. L'exploration intérieure procure une sensation archéologique intense : on s'engage dans un boyau très rectiligne et bas de plafond, incliné à 27 degrés, qui plonge sur plus de soixante mètres au cœur du massif rocheux. Au bas de la descente, l'atmosphère se réchauffe et dévoile successivement deux antichambres vertigineuses dotées de voûtes en encorbellement mégalithiques s'élevant à plus de douze mètres sur onze assises de blocs parfaitement jointoyés. Par un escalier en bois moderne aménagé en hauteur dans la seconde antichambre, on pénètre enfin dans la chambre funéraire supérieure orientée est-ouest, dont la voûte en encorbellement culmine à près de quinze mètres dans une pénombre solennelle imprégnée d'effluves minérales. L'absence quasi-totale de foule touristique confère à cette traversée des entrailles pharaoniques une charge mystique et intemporelle inoubliable.",
-    link: "https://photos.google.com/share/AF1QipNpwcSK9L1BsvYFDmFWmey31PqN9K9z8b5yVZ1UTLOE8f5ErvX__Ml-xqDduQ1COg?key=eE9jXzM4NUR1akZydWRmNnpaWmxzZjNnanVvVklR"
+    link: "https://photos.google.com/share/AF1QipNpwcSK9L1BsvYFDmFWmey31PqN9K9z8b5yVZ1UTLOE8f5ErvX__Ml-xqDduQ1COg?key=eE9jXzM4NUR1akZydWRmNnpaWmxzZjNnanVvVklR",
+    sections: [
+      {
+        title: "La première pyramide géométrique à faces lisses",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO1h4waJr5hDJlpZlPB0WL61A0QMZAAmvD3_JqDXmhd4_vHG031aP9AoMlHvfHx290934c6rx1poeksQhb5RkOllfSNlhsJUdPneNSta9-GLsZbKTwnUNkvLP9HBgX1cCSQ5Ffa5bF5PJwFzw2seMKLwg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOyd3k7egcC-KbVTfiibheQpm_sCjVOcwC6eDQ4UyEgtIspCQB5ep7WWZXu5CRmAgc2vlMm5uWb57Y-bRzvWXSH8YqkIIYrg1qSzWtapvDEDNcYd1WhYvikVXGYsJW8Xew4CBbYkE_9FAaoiZFjVxBwGQ=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Le surnom de Pyramide Rouge lui vient de la couleur de la pierre de construction, un calcaire rougeâtre qui fut exposé après la perte de son revêtement extérieur en calcaire blanc de Tourah. D'un point de vue architectural, elle représente la forme idéale recherchée par les Égyptiens, avant d'être dépassée en taille par la Grande Pyramide de Khéops.\n- Base : sa base est pratiquement carrée, mesurant environ 220 mètres de côté.\n- Hauteur : elle atteint une hauteur d'environ 104 mètres.\n- Pente : l'angle d'inclinaison des faces est de 43 degrés et 22 minutes, une pente délibérément plus douce que ses prédécesseurs pour garantir sa stabilité, et qui lui confère une silhouette ramassée et majestueuse.\n\nLa Pyramide Rouge a détenu le record de la plus haute structure artificielle du monde jusqu'à ce que son fils, Khéops, érige sa propre pyramide à Gizeh."
+      },
+      {
+        title: "Couloir descendant et antichambres en encorbellement",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNkh1-1frcYsAPdjynfAJKSzVQJYv0P03tTJHDeiVea2K2r0_WrOMm2vgfrIqS9BQLUpLIlOsm9Cw2GpAtfGHQQA7U_bUZaVboj4l1yLCtCyC-a438v49_1gnSxJ7lgtjLIrpD8onYBpa90nV3w4T68mA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOfGAoRxSgc_NL546EWNNE4yuQ8zfIzOCEnYUe20jYCmKXzlVjNkJTAlNOLVDILVJ7TolP_bnxDEP-1yduyCJx2XzBJaGnJsYd48GGTkQUgE7w_Q35yh8V9boSgkFah106hKLzlPrHcJaX2zpMqWy-CqQ=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNM4pu07vzAtrABdwDHEW6-Ltm19eMKNbfYRXH-b1xQ9zgRvQSWzwdqqsgWuQdmsD-PdiIXRZ0SOxbsho6ePVQ-HKjuF8TMht8o6ZijcCzBPeM96MCJW253PR9v8RDTZgDAqFa8IW0kKvXoc2JV1o3xKg=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "L'aménagement intérieur de la Pyramide Rouge est relativement simple, mais se distingue par la hauteur remarquable de ses plafonds en encorbellement (ou à chevrons), une technique de maçonnerie qui permet de répartir le poids des blocs massifs du corps de la pyramide.\n\nL'entrée se situe, classiquement, sur la face nord. On y accède par un long couloir descendant incliné à environ 27 degrés sur près de 62 mètres. Ce couloir mène à un système de trois chambres et antichambres.\n1. Les Deux Premières Chambres : ces deux premières salles sont disposées horizontalement et possèdent des plafonds en encorbellement s'élevant à près de 12 mètres. Elles ne sont pas situées sous le centre de la pyramide, mais légèrement décalées vers l'ouest."
+      },
+      {
+        title: "La chambre funéraire axiale de Snéfrou",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMSAu01AfmljWj4rmBGI4T3qkCw8KvZaoMYTnLUckZuALs6Tfr6hEwXW_Wqxj0TpfAj7ogWSCX9rkMMtCNANqnsx6AcFw6rbMqpHliCu8_yCzq2PHehjTm2zul2e7-jB0bp5CTUELcE74xFcsLBWIhAXw=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPYFl6ltTPsAEmWhFKQBPWXsDkTukb9MbZXgW6Utp3gIylnG2mwe8q-VkiO51WhWR4piS3fjC57FUXWoWtjoYXoO2wy_fRc0hso8w7oQofBbJ5J6D0Rm9xVoW4zvkZyxEd3IlVerp_hNYBrhd-_90lScA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La Troisième Chambre Funéraire : un court passage mène à la troisième et dernière chambre, considérée comme la chambre funéraire principale. Elle se distingue car, contrairement aux précédentes, son accès ne se fait pas au niveau du sol, mais par une petite ouverture dans le mur ouest, accessible après une montée de près de 7,40 mètres. Elle est située directement sur l'axe vertical central du monument, une position symboliquement cruciale. C'est dans cette salle que des fragments d'ossements humains momifiés ont été retrouvés, confortant l'hypothèse qu'il s'agissait bien de la sépulture de Snéfrou.\n\nL'expérience de visiter l'intérieur est célèbre pour la chaleur et l'air confiné (à forte odeur d'ammoniaque), mais offre un aperçu inégalé de l'ingénierie funéraire de la IVe dynastie, juste avant l'apogée de Gizeh."
+      },
+      {
+        title: "Détail de la maçonnerie en encorbellement",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMWGHQIsi2vcCsE9g4fKS74SWhKy8EBf7Rq0iHLbm-VN81Tsr2gZTOod9f0_EGR2Fm4Zsq53lThlSeJWFKOeopuAbmSurtPj0ut2j9YeDTKyDo5lgugzsAw-qNOT8Ftvm9WbNMEIzu276xaAGcD0kgK7g=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "dahchour_pyramide_rhomboidale",
@@ -13720,18 +13845,47 @@ const travelSpots = [
     subdiv: "Dahchour",
     altitude: 64,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    counts: {},
     lat: 29.7903,
     lng: 31.2093,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMer0QHDvqpAXsu4CG0KKRpAwlG6T4ED-Vaiw0Z_WuJuADw-Lf_z4KGa1VQHoou-3jszi_lEjnbm6NRoGb4LFab-rqiPzm2JbO9q2WNGzHEpjIECqsm4_nK1fB2GnN98CtogJYVmbFVjIa5ymhbeyXf3g=w2684-h1789-s-no-gm?authuser=0",
     description: "Dressée comme une apparition extraterrestre au milieu des étendues vierges du plateau désertique de Dahchour, la pyramide Rhomboïdale constitue l'un des jalons les plus fascinants et énigmatiques de toute l'aventure constructive humaine. Érigée au XXVIe siècle avant notre ère par le pharaon Snéfrou à mi-chemin entre ses chantiers de Meïdoum et la pyramide Rouge, cette silhouette à double pente unique au monde témoigne de la dramatique crise d'ingénierie qui frappa les bâtisseurs royaux en pleine élévation. Commencée avec une pente audacieuse de cinquante-quatre degrés, la structure colossale menaça de s'effondrer sous son propre poids lorsque d'inquiétantes fissures se propagèrent dans les couloirs intérieurs, forçant les architectes à adoucir l'angle à quarante-trois degrés à partir de quarante-neuf mètres de hauteur. Ce compromis sauva le monument, qui culmine à cent cinq mètres et offre la particularité rarissime d'avoir conservé la quasi-totalité de son somptueux parement calcaire d'origine en pierre de Tourah, poli et étincelant sous le soleil d'Égypte. Seule pyramide à posséder deux entrées distinctes menant à deux réseaux indépendants de chambres funéraires, elle est flanquée au sud de son exceptionnelle pyramide satellite magnifiquement conservée.",
     visiter: "La découverte s'amorce par la contemplation extérieure de ses faces lisses vertigineuses, où le calcaire fin étincelle dans la lumière crue du désert, avant de longer la face sud pour explorer la pyramide satellite de Snéfrou dont le couloir et la chambre sont accessibles. Ouverte au public après plus de cinquante ans de fermeture, l'incursion au cœur de la pyramide Rhomboïdale procure l'une des aventures spéléologiques et archéologiques les plus mémorables d'Égypte : on s'engage sur la face nord par un boyau très étroit et plongeant de soixante-dix-neuf mètres de longueur incliné à vingt-huit degrés, obligeant à descendre courbé dans une atmosphère confinée et mystérieuse. Au fond, une succession de passerelles de bois franchit une chambre inférieure au plafond en encorbellement monumental s'élevant à plus de dix-sept mètres, avant d'emprunter un escalier suspendu vertigineux et un couloir horizontal menant au réseau occidental de la seconde chambre funéraire, encore étayée de poutres massives en cèdre du Liban vieilles de quarante-six siècles. La quiétude sauvage du désert de Dahchour, loin des circuits touristiques saturés du Caire, sublime cette immersion physique inoubliable au berceau de la géométrie monumentale.",
-    link: "https://photos.google.com/share/AF1QipNpwcSK9L1BsvYFDmFWmey31PqN9K9z8b5yVZ1UTLOE8f5ErvX__Ml-xqDduQ1COg?key=eE9jXzM4NUR1akZydWRmNnpaWmxzZjNnanVvVklR"
+    link: "https://photos.google.com/share/AF1QipNpwcSK9L1BsvYFDmFWmey31PqN9K9z8b5yVZ1UTLOE8f5ErvX__Ml-xqDduQ1COg?key=eE9jXzM4NUR1akZydWRmNnpaWmxzZjNnanVvVklR",
+    sections: [
+      {
+        title: "La silhouette rhomboïdale et sa double pente",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPh0DpOqO2k1PMd9mMByv_lQ7f9VFCs5dRApJ1QCkHhsmbQelwHksvFQWFsNCz8DcpRHQotIgLfdV5PMSMAdydfZrCPWT-MiLeGcWmN_O_QFkP4yYvHYDdxhT04nj00SPCUcYfk231Sl95KE4DOQ94ljA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMer0QHDvqpAXsu4CG0KKRpAwlG6T4ED-Vaiw0Z_WuJuADw-Lf_z4KGa1VQHoou-3jszi_lEjnbm6NRoGb4LFab-rqiPzm2JbO9q2WNGzHEpjIECqsm4_nK1fB2GnN98CtogJYVmbFVjIa5ymhbeyXf3g=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "La particularité la plus frappante de cet édifice est son angle brisé (ou rhomboïdal), qui lui donne une apparence « courbée ».\n- Base : sa base est très imposante, mesurant environ 188 mètres de côté.\n- Hauteur : elle atteint environ 105 mètres de hauteur.\n- Double pente : la pyramide a été construite en deux phases, chacune avec un angle d'inclinaison différent. La partie inférieure s'élève avec une pente abrupte d'environ 54 degrés et 27 minutes, tandis qu'à mi-hauteur, la pente est brusquement réduite à un angle plus doux d'environ 43 degrés et 22 minutes."
+      },
+      {
+        title: "Le sauvetage d'ingénierie et le parement de Tourah",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOnDQ-yO88G6tnZ7xrYsWdHvPY5aGo0lX2kKOuuleHVXTINk2_lRVkFSX45nLfXXBV0KC2lkRV0musrRVHRHoBXeURH-7Qcd5n_U6hLjIw7rafFCkbXEans3vfaOa6k8VFPl-BZZeGQDXd77LcEXGv1AA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPo08MoSQsmNce3oLNY2rrj9lYjgoQ1hIp-9AYNIpbc8leChHS1A8ulq2ui3RUs3Wv9-i9fzMusNRh5eT8mY8rm0vCUjw4G2JED6vSHjI_iRubkQoxEpvwb0lOUo2ulMoeziGpgsFQRFD2FlF4QekToKA=w1926-h1283-s-no-gm?authuser=0"
+        ],
+        text: "Ce changement d'angle radical est considéré par la plupart des égyptologues comme le résultat de problèmes structurels majeurs ou de fissures apparues dans les chambres intérieures lors de la construction, alertant les architectes sur le risque d'effondrement de l'édifice s'ils continuaient avec l'angle initial. La modification a permis de réduire drastiquement le poids au sommet et d'assurer la stabilité de l'ouvrage, faisant de cette « erreur » une leçon essentielle pour la construction de la Pyramide Rouge.\n\nDe plus, cette pyramide est la mieux conservée en ce qui concerne son revêtement en calcaire de Tourah, une grande partie de ce parement lisse étant encore visible, offrant un aperçu de l'apparence originale des pyramides de l'Ancien Empire."
+      },
+      {
+        title: "Double réseau interne et appartements funéraires",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOPMvS7IbpkE9PQtKNQ9NsW4tVaFCvzfzqgg26xn9BTmsxopCrbgsnW6RQ2zECzSLosRRN6BvIO2N48hpK_-m6r1uYgKaHwJMsDDrjpqdsIH238e3vpjTNkLMK3SktLw-rDmdkTusJPYA2N9A85OxnDfA=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNUuAAzmQ5j5-O9bbCin1F0M9X0zF-2uGiDUGeZaLlETqy5GPeKiVPssSqoczGQojfGcoacXNeKG4e6Ju72BcjjFNz3nHB6RfUQkEPWr2R7BaVNBW9BorHE-S-GI8qhUTmT6aE0xF8dCX0LzG58-psFWg=w1926-h1283-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNCk6z88HkxRtKhD3uEoLa_GBdXwb7l1c4afofM5vpVcpqkRt4bgiZxokZK_HA2UjfUxCIc7rY6u-itPagI4HNG8bZPu4bvYhATw7u8jGBr0DTOiumKVN1vtXmYVdUmPOhZe7pfBOHTeewZm25tw_rzyw=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "La Pyramide Rhomboïdale est unique pour son système interne très complexe, car elle possède deux entrées menant à deux appartements funéraires distincts, ce qui ne se retrouve dans aucune autre grande pyramide :\n1. L'Entrée Nord : située à environ 11 mètres au-dessus du sol, elle mène à un long couloir descendant d'environ 78 mètres. Ce couloir mène à une première chambre et antichambre, caractérisée par une spectaculaire voûte en encorbellement d'une hauteur d'environ 12,60 mètres, une technique déjà expérimentée à Meïdoum et qui permet de gérer les pressions colossales des blocs de pierre.\n2. L'Entrée Ouest : située beaucoup plus haut, sur la face ouest, elle donne accès à un second système menant à la chambre funéraire supérieure. Cette chambre, également coiffée d'une haute voûte en encorbellement (atteignant environ 17 mètres), était remplie d'une maçonnerie de petits blocs de pierre. Sous cette maçonnerie, les fouilles ont révélé une imposante charpente en bois de cèdre du Liban, vieille de plus de 4 500 ans, dont le rôle était de soutenir la structure face aux fissures. Des fragments d'os humains y ont été découverts.\n\nLe fait qu'elle contienne deux caveaux distincts, ainsi que la proximité de la Pyramide Rouge, suggère que Snéfrou a peut-être envisagé cette structure comme son tombeau, l'a abandonnée après les problèmes structuraux, puis est revenu pour l'achever rapidement, avant d'en commencer une troisième (la Pyramide Rouge) pour son repos final."
+      }
+    ]
   },
   {
     id: "musee_louxor",
