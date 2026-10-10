@@ -2468,11 +2468,11 @@ function renderEnrichedCarnetMode(spot, layout) {
       </div>
 
       ${spot.description ? `
-        <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-4 sm:p-5 shadow-inner">
-          <h3 class="text-xs font-black tracking-wider uppercase text-cyan-400 mb-2 flex items-center gap-1.5">
-            <i class="fa-solid fa-book-open"></i> Présentation générale
+        <div class="space-y-2">
+          <h3 class="text-base sm:text-lg font-bold text-cyan-200 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-cyan-400"></span> Présentation générale
           </h3>
-          <p class="text-sm md:text-base text-slate-200 leading-relaxed text-justify">${spot.description}</p>
+          <p class="text-sm md:text-base text-slate-300 leading-relaxed bg-slate-900/60 p-4 sm:p-5 rounded-xl border border-slate-800/80">${spot.description.replace(/\n\n/g, '<br><br>')}</p>
         </div>
       ` : ''}
     </div>
