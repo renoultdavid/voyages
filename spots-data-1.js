@@ -12368,42 +12368,197 @@ const travelSpots = [
     subdiv: "Louxor",
     altitude: 115,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe à XXe dynasties)",
     century: "Antiquité (XIVe siècle av. J.-C. à XIe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Thèbes antique et sa nécropole",
+    unesco_name: "Thèbes antique et sa nécropole",
+    counts: {},
     lat: 25.7285,
     lng: 32.6014,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNLIIop9G0JKvfSCc8VuoAVjmAMq9-TDvIllyPrY8t_lq9XBI_iB4lzrA8dmwBM_luSuc4zL3Iqrj86AjleX8DgPdGdf3i8CBjSbVtuUNl57dbAVk8thYxKQVQHQz4eQm6cz3EWmxxtqQraap46gkFHlQ=w2624-h1750-s-no-gm?authuser=0",
-    description: "Encaissé dans un vallon aride et secret de la montagne thébaine à quelques encablures de la Vallée des Rois, le site de Deir el-Médineh abritait la confrérie d'élite des « Serviteurs dans la Place de Vérité ». Durant près de cinq siècles sous le Nouvel Empire, cette communauté autonome de sculpteurs, tailleurs de pierre, peintres et contremaîtres conçut, creusa et orna de ses propres mains les sépultures les plus grandioses des pharaons. Bénéficiant d'un statut privilégié et d'un savoir-faire technique inégalé, ces artisans d'exception s'aménagèrent sur place, à flanc de colline, de modestes hypogées familiaux surmontés de petites pyramides de brique crue. Débarrassées du carcan protocolaire et de la solennité des canons royaux, les fresques murales miniatures qu'ils peignirent pour leur propre repos éternel atteignent un sommet de délicatesse, de spontanéité et d'intensité chromatique. Sur un fond ocre doré éclatant, les scènes mythologiques du Livre des Morts côtoient des représentations intimes et attendries de la vie domestique, des épouses dévouées et des réunions de famille. Conservé grâce à la sécheresse absolue du désert et immortalisé par des milliers d'ostraca livrant le récit quotidien de leurs amours, procès et grèves ouvrières, ce vallon sacré constitue la mémoire la plus émouvante et vivante du peuple des bâtisseurs de l'Égypte antique.",
+    description: "Encaissé dans un vallon aride et secret de la montagne thébaine à quelques encablures de la Vallée des Rois, le site de Deir el-Médineh abritait la confrérie d'élite des « Serviteurs dans la Place de Vérité ».\n\nDurant près de cinq siècles sous le Nouvel Empire, cette communauté autonome de sculpteurs, tailleurs de pierre, peintres et contremaîtres conçut, creusa et orna de ses propres mains les sépultures les plus grandioses des pharaons.\n\nBénéficiant d'un statut privilégié et d'un savoir-faire technique inégalé, ces artisans d'exception s'aménagèrent sur place, à flanc de colline, de modestes hypogées familiaux surmontés de petites pyramides de brique crue.\n\nDébarrassées du carcan protocolaire et de la solennité des canons royaux, les fresques murales miniatures qu'ils peignirent pour leur propre repos éternel atteignent un sommet de délicatesse, de spontanéité et d'intensité chromatique.\n\nSur un fond ocre doré éclatant, les scènes mythologiques du Livre des Morts côtoient des représentations intimes et attendries de la vie domestique, des épouses dévouées et des réunions de famille.\n\nConservé grâce à la sécheresse absolue du désert et immortalisé par des milliers d'ostraca livrant le récit quotidien de leurs amours, procès et grèves ouvrières, ce vallon sacré constitue la mémoire la plus émouvante et vivante du peuple des bâtisseurs de l'Égypte antique.\n\nContrairement aux grands complexes monumentaux étatiques, le village révèle avec un réalisme saisissant l'organisation sociale, l'intimité des foyers et la dévotion populaire de la communauté ouvrière thébaine.\n\nLes maisons mitoyennes en brique crue, distribuées de part et d'autre d'une rue centrale dallée, conservent les emmarchements, les banquettes de plâtre et les caves où s'activaient les familles de bâtisseurs.\n\nCette proximité physique immédiate entre le village des vivants et les caveaux funéraires des ancêtres illustre la fusion quotidienne et continue entre le monde terrestre et les espoirs d'éternité.\n\nLes fouilles archéologiques y ont exhumé des milliers de fragments de calcaire portant missives administratives, poèmes d'amour, litiges de voisinage et attestations médicales d'une humanité bouleversante.\n\nLes parois des tombes de Sennedjem, Pashedu ou Inerkhaou brillent encore de leurs pigments naturels purs, préservés intacts par l'atmosphère close des hypogées.\n\nCes artistes, libres de composer selon leur sensibilité propre, ont magnifié les scènes champêtres des Champs d'Ialou avec un souci du détail naturaliste sans équivalent dans les tombes de courtiers.\n\nLa présence tutélaire de la déesse Hathor, souveraine de la montagne thébaine, veille sur l'ensemble du vallon où s'élèvera plus tard un élégant sanctuaire d'époque ptolémaïque.\n\nDeir el-Médineh s'affirme ainsi comme l'un des plus précieux témoignages de l'archéologie mondiale, restituant la parole directe et sensible de ceux qui façonnèrent les merveilles de l'Égypte éternelle.\n\nParcourir ce vallon protégé permet de mesurer le contraste poignant entre la modestie des logis de terre battue et l'éblouissante immortalité des chefs-d'œuvre picturaux légués à la postérité.",
     visiter: "La découverte commence par la traversée contemplative des ruines remarquablement préservées du village en briques crues, où l'on distingue nettement la rue centrale, les seuils de portes peints de rouge, les pièces d'habitation et le colossal grand puits qui livra une inestimable collection d'écrits sur calcaire. L'émotion s'intensifie en descendant l'escalier escarpé menant au caveau funéraire de Sennedjem (TT1), artisan en chef sous Séthi Ier et Ramsès II : la petite voûte peinte, demeurée dans un état de conservation miraculeux, dévoile sur fond jaune d'or le défunt et son épouse labourant les champs d'Ialou dans l'au-delà et saluant le dieu Anubis veillant sur la momie. Juste au-dessus, l'hypogée d'Inerkhaou (TT359), contremaître de la XXe dynastie, séduit par la virtuosité géométrique de ses plafonds aux motifs polychromes et la célèbre scène du grand chat d'Héliopolis forfendant le serpent Apophis au pied du perséa sacré. La visite se parachève en contrebas devant le temple ptolémaïque dédié à Hathor et Maât, dont l'enceinte renferme des reliefs raffinés et des chapelles commémoratives, offrant une perspective intime et bouleversante à l'écart des grands circuits de masse.",
-    link: "https://photos.google.com/share/AF1QipOWESdxdcRzbO6odBKe4bKq1akK1WOZN2tksnl81-xlfatrp43shF-hVajG0AeNYg?key=VUtGeUtxRDlfcVAyVmtoNjVRMUNBWE5wd1VrbHp3"
-  },
-  {
-    id: "temple_deir_el_medineh",
-    name: "Temple de Deir el-Médineh (Hathor & Maât)",
-    country: "Égypte",
-    continent: "Afrique",
-    flag: "🇪🇬",
-    region_admin: "Gouvernorat de Louxor",
-    department: "Louxor",
-    subdiv: "Louxor",
-    altitude: 108,
-    is_island: false,
-    transport: "route",
-    era_group: "ptolemaique",
-    era_label: "Période Ptolémaïque (IIIe siècle av. J.-C. - Ptolémée IV à VIII)",
-    century: "Antiquité (IIIe siècle av. J.-C.)",
-    category: "archeologie",
-     unesco_name: "Thèbes antique et sa nécropole",
-    lat: 25.7291,
-    lng: 32.6020,
-    image: "https://lh3.googleusercontent.com/pw/AP1GczMpO1xyPvhYsSQW29Rx94KkjyOQDLm0tLNkORiJDFGPGNPf4veQ6_l9bLuZ2AUxYuVe4cEZ2OyMPXlHq0bYIM2ZqGCj2DDAcZ9IYYPJvxT9Cn-nR7OipS-LxxmBDcsg9CtQHjqT55G9C_Awf6jBlV4yNw=w2624-h1750-s-no-gm?authuser=0",
-    description: "Disséminé à l'extrémité septentrionale du vallon des artisans dans un repli rocheux empreint d'une quiétude absolue, le temple de Deir el-Médineh constitue l'un des sanctuaires ptolémaïques les plus gracieux et intimistes de la rive thébaine. Érigé sous le règne de Ptolémée IV Philopator au IIIe siècle avant notre ère puis embelli par ses successeurs Ptolémée VI et Ptolémée VIII, ce joyau en grès doré s'élève sur l'emplacement de chapelles votives plus anciennes fondées dès le Nouvel Empire en hommage aux déesses protectrices Hathor et Maât. Protégé par une haute enceinte ondulée en briques crues remarquablement conservée, l'édifice se distingue par la pureté de ses proportions et la finesse voluptueuse de ses bas-reliefs caractéristiques de l'art hellénistique tardif. Fait exceptionnel dans l'architecture des temples égyptiens où les thèmes funéraires demeuraient d'ordinaire proscrits au profit des liturgies cosmiques, ses parois immortalisent avec une intensité dramatique rare la pesée du cœur tirée du Livre des Morts. Réoccupé durant les premiers siècles de notre ère par une communauté de moines coptes qui lui légua son appellation moderne de « couvent de la ville » (Deir el-Médineh), ce monument harmonieux incarne la synthèse émouvante entre la ferveur populaire des bâtisseurs de tombes et les ultimes splendeurs dynastiques des Ptolémées.",
-    visiter: "La découverte s'amorce par le franchissement du portail monumental percé dans l'enceinte de briques crues, conduisant vers un élégant pronaos soutenu par deux colonnes papyriformes aux somptueux chapiteaux composites et hathoriques reliés par des murs-bahuts finement gravés. L'intérêt majeur de la visite réside dans la contemplation du vestibule intérieur, dont le mur occidental dévoile une rarissime et saisissante scène de la psychostasie : sous le regard solennel d'Osiris et des quarante-deux juges divins, Anubis et Horus procèdent à la pesée du cœur du défunt face à la plume de vérité de Maât, tandis que le monstre dévoreur Ammout attend fébrilement le verdict et que Thot consigne la sentence. Au-delà, l'enfilade des trois sanctuaires parallèles dévoile la chapelle centrale dédiée à Hathor, flanquée de celles consacrées à Amon-Sokar-Osiris et à Anubis, toutes ornées de bas-reliefs où les souverains lagides multiplient les offrandes d'encens et de colliers rituels. En contournant l'édifice, un escalier intérieur mène aux terrasses supérieures offrant un panorama splendide sur les ruines du village ouvrier, les puits archéologiques et les falaises dorées de la montagne thébaine.",
-    link: "https://photos.google.com/share/AF1QipOWESdxdcRzbO6odBKe4bKq1akK1WOZN2tksnl81-xlfatrp43shF-hVajG0AeNYg?key=VUtGeUtxRDlfcVAyVmtoNjVRMUNBWE5wd1VrbHp3"
+    link: "https://photos.google.com/share/AF1QipOWESdxdcRzbO6odBKe4bKq1akK1WOZN2tksnl81-xlfatrp43shF-hVajG0AeNYg?key=VUtGeUtxRDlfcVAyVmtoNjVRMUNBWE5wd1VrbHp3",
+    sections: [
+      {
+        title: "Le village ouvrier de Pa-Demi et la confrérie royale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP42R5Kl4GH3Qu0CPUuBFu6so8sWzDF5GR3UK4DE5wE8v10eY8ebzmyYStzL00rEwwTW_3CBUArcz-5qkC4hPHJmnX-GHY0l0qjpRypWrAIfiyw6syyTwjK9AF8oFsyFwH8mTKdc7b5nzEGfK08krYeyQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMePllKXPan8XAC5bL1lniXnUKORXLJbYCQeiqqYMeFm9W8qobTZ1Mu6RhAJ2xsGivG3F5t5PszTEwvamWUirmRN-v36KRjBElRxJxPTWZZSmjMYUdCEY44lxvrTSRHYLxCg0d-7ufdoT-bk18lnCogPw=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Le village de Deir el-Médineh, dont le nom antique était Pa-Demi (le village), est un site archéologique exceptionnel situé sur la rive ouest du Nil, près de Louxor. C'était un village de travailleurs et d'artisans, fondé au début de la XVIIIe dynastie et abandonné à la fin du Nouvel Empire. Il est d'une importance capitale car, contrairement aux monuments funéraires des rois et des nobles, il offre un aperçu rare et intime de la vie quotidienne d'une communauté égyptienne.\n\nLes habitants de Deir el-Médineh étaient des ouvriers hautement qualifiés. Ils portaient le titre de « Serviteurs de la Place de la Vérité » et étaient responsables de la construction, de la décoration et de l'approvisionnement des tombes de la Vallée des Rois et de la Vallée des Reines. Leur métier était une affaire de famille, et le savoir-faire se transmettait de génération en génération. Pour les protéger des pillards, ces artisans étaient logés dans une cité fermée par un mur d'enceinte, et leur vie était rythmée par le travail, la famille et le culte des dieux.\n\nLes ruines du village, encore bien conservées, sont composées d'une centaine de maisons en briques de terre crue, construites de manière simple et rectangulaire. Les fouilles ont révélé des outils, des ustensiles, des poteries, et de nombreux ostraca (éclats de pierre ou de poterie), qui servaient de brouillons ou de notes. Ces ostraca, couverts de textes en hiératique, donnent des informations détaillées sur les grèves des artisans, leurs salaires, leurs disputes familiales, et leurs maladies. Ils constituent une source unique de la vie sociale de l'époque."
+      },
+      {
+        title: "Architecture et intimité des hypogées des artisans",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNVdF3JBFyaBC7sXFEZb5-vGFDLc_KRZvz2i0tPP27_P3_yQQmilICp28h9EHFX1UbKotxfaXvN9wc8QIQBYyynYHPAnL_m5aQV4WuskqP_C3QIxwhr9pjtv8c12FznmUGsXJAjqGyTkVmz-n4AT4nRAw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPYX7VlclpJmbKzwKlKepu_NpFvFQOKSDK-rwJnI0q0jiBINfdb3QSoi-xh_fzvgCKZA4lyhqW4y43pjtjQ-MSm3hE5DYgaZK29_v_fXgzcdz-f1-r_j-69gg3zVdCPu5sNiFCmTP6kcLiKMduCpZb11Q=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Les tombes des artisans de Deir el-Médineh, situées à l'ouest de Thèbes, constituent un ensemble funéraire exceptionnel qui offre un regard unique sur la vie de la classe moyenne de l'Égypte antique. Contrairement aux vastes et sombres tombes des pharaons, celles des artisans sont plus modestes en taille, mais d'une richesse artistique et d'une intimité rares.\n\nL'architecture de ces tombes est relativement standard, bien qu'elle varie selon la richesse du propriétaire. La plupart se composent de trois parties principales :\n- La cour : une cour ouverte à ciel ouvert, parfois ornée de stèles commémoratives.\n- La chapelle : une petite chapelle voûtée, construite en briques crues et surmontée d'une petite pyramide de pierre ou de briques.\n- La chambre funéraire : une ou plusieurs chambres souterraines, accessibles par un puits funéraire depuis la cour. C'est dans ces chambres que l'on trouve les décorations les plus riches.\n\nAlors que les tombes royales se concentrent sur les textes funéraires et les voyages du défunt dans l'au-delà, les tombes des artisans combinent des scènes religieuses et des représentations de la vie quotidienne. Les décors sont d'une grande vivacité et sont souvent peints sur un fond jaune vif, imitant le papyrus."
+      },
+      {
+        title: "Osiris trônant dans le caveau de Pashedu",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNayZMBhSbPUD76vqHEhMLqmnvQrYZn6ZyLfXIkheb0OZiGk5tzbFbRt2vP0yH3qgcp384T9OtaPAKnA2qxS4SWBcce-GtjlUXvvpW3RWm7YYtk4zcjE4YhKV-VNJRngfnkFr9YQoXLQ0B66YGREY2_aA=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Cette peinture représente le dieu Osiris, souverain de l'au-delà et juge des morts, trônant majestueusement dans une posture hiératique caractéristique. Le dieu est figuré avec une peau verte, symbole de la régénération végétale et de la renaissance éternelle, et porte la barbe postiche recourbée des divinités. Il est vêtu d'un linceul de momie blanc immaculé, serré à la taille par une écharpe rouge, et tient contre sa poitrine les insignes de la royauté : le crochet héqa et le fouet nekhekh. Osiris est coiffé de la perruque striée bleue et or, et se tient devant une montagne stylisée de couleur ocre rouge parsemée de points noirs, représentant la « Cime » thébaine ou l'Occident, lieu de résidence des défunts.\n\nAu-dessus de lui, le plafond voûté est saturé de colonnes de textes hiéroglyphiques tracés à l'encre noire sur un fond jaune d'or, contenant des extraits du Livre des Morts destinés à assurer la protection du dieu et la survie de Pashedou dans le royaume souterrain. À gauche, l'œil Oudjat surdimensionné veille sur la scène, symbolisant l'intégrité retrouvée et la protection contre les forces du chaos. La composition se distingue par l'équilibre parfait entre la rigueur des textes sacrés et la puissance graphique de la figure divine, dont le regard semble percer l'éternité. Cette œuvre illustre la piété personnelle profonde des artisans de la « Place de Vérité », qui, tout en bâtissant les palais d'éternité des pharaons, ont su créer pour eux-mêmes des espaces d'une ferveur religieuse et d'une qualité esthétique exceptionnelles."
+      },
+      {
+        title: "La tombe de Pashedu et le palmier doum (TT3)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMc8OmZsgFXLR1f2WqT9oAeQJQx2UVcIP4jMc52YkpLgEELuwrXO5rqcTaLVURcKDB9L5jE9M8QvbE3uvbyqCugBoy_vPHNIVq6qPCwbiUqn4IQJebishU7Nl0w2qkkHz01y6JlKglcGW7LcrhbWR-2nw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNv4-IhvezmItuDQiRie2olO-PQQDowtHbIPACw-6zWUod48FyNMdMEuezVs5s1uEURwtU5yNcU6uePLIJdvtgL18dUi1yIhCJRhzT7ly46AMZLLGTBHBkEwL4--Eqfixl8eBkTcoeoh3aN8ouyf9njsg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Pashedu était un artisan qui vivait et travaillait à Deir el-Médineh sous le règne de Sethy Ier (XIXe dynastie). Il portait le titre de « Serviteur de la Place de la Vérité », ce qui signifie qu'il faisait partie de l'équipe d'ouvriers d'élite responsable de la construction et de la décoration des tombes royales de la Vallée des Rois. Sa tombe, bien que de petite taille, témoigne de la fierté qu'il tirait de son métier et de son dévouement envers les dieux. Les scènes de la tombe de Pashedu sont centrées sur la vie après la mort et la renaissance, mélangeant des thèmes religieux et personnels :\n\n- Le palmier et le point d'eau : L'une des scènes les plus célèbres, située sur le mur de droite, montre Pashedu agenouillé en train de boire l'eau d'un étang ou d'un canal, sous un palmier doum. Cette scène symbolise le souhait du défunt de pouvoir s'abreuver dans l'au-delà et est inspirée du chapitre 62 du Livre des Morts. Une scène similaire se trouve sur le mur de gauche, où une déesse du sycomore (probablement Nout) offre de l'eau et du pain à Pashedu et son épouse.\n- Le plafond voûté : Le plafond, qui est une voûte, est décoré de scènes du défunt en train de travailler dans les Champs de Ialou (le paradis égyptien), où il laboure la terre pour une vie éternelle. Seize divinités sont également représentées, huit de chaque côté, symbolisant la protection divine dans l'au-delà.\n- L'Œil Oudjat : Au-dessus de l'entrée de la chambre, on retrouve le puissant Œil d'Horus (Wedjat), symbole de protection, de guérison et de renaissance, veillant sur le défunt et son passage dans l'au-delà. Il est accompagné de la divinité Ptah-Sokar-Osiris.\n- Le pèlerinage : Les murs latéraux représentent Pashedu et son épouse naviguant sur une barque, soit en pèlerinage vers Abydos, soit en train de « sortir au jour » après leur mort, une scène symbolisant leur résurrection."
+      },
+      {
+        title: "Khépri et la résurrection solaire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPhWtIc2Z_GZAmJPjTDtU_WejUi0HEw3Jan2bZLwD2gO2_eS0NlaBEtmykVP1EweJoGjgkqi5vmABMRs7OMaq25Olh2mazpMHeCEY9MIOMRB8FaszXdmSujBBB8_aF38HRXr8L1_soSVIn3SfQkcMRwhw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPxhFZK_MJnexqZMdeO_EzBdLWhnHxd9XfyHO-8bUpPWBCEBvoDC9CPujaUSfvHA7upHytyUZGxyWvIoIvSK5qHYMrbzajuv3M8VRGB0NBCuOx3FrVFTpiJRPGM2x6i8EdiAt9_SHX1RsW0LtieBppMwg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Khépri est représenté sous la forme d'un homme à tête de scarabée, ou plus souvent, comme un scarabée roulant un disque solaire entre ses pattes. Le mythe de Khépri est directement inspiré du comportement du scarabée bousier, qui roule une boule d'excréments pour y pondre ses œufs, et dont les larves sortent quelques jours plus tard. Pour les anciens Égyptiens, ce processus était un parallèle parfait du cycle du soleil qui se lève chaque jour et se régénère.\n\nKhépri incarnait le soleil levant, l'aube, et était l'une des trois formes du dieu solaire. Il représentait la force de l'apparition et le renouveau, par opposition à Rê, qui était le soleil au zénith (à son apogée), et Atoum, le soleil couchant. Il est parfois associé au nom de Rê, sous la forme de Rê-Khépri, pour souligner son rôle dans le cycle solaire quotidien.\n\nEn raison de ses liens avec la création et le soleil levant, Khépri était un symbole puissant de renaissance et de résurrection. Les scarabées étaient souvent utilisés comme amulettes funéraires, notamment pour le rituel de l'ouverture de la bouche, qui devait garantir la résurrection du défunt dans l'au-delà. Le cœur du défunt était souvent remplacé par un scarabée de cœur, une amulette qui contenait des formules magiques pour l'aider à survivre au jugement d'Osiris."
+      },
+      {
+        title: "Détails rituels et parois polychromes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOlUqpPnxuIGk8iVCTXlrPTCMAabqXS03rfP12aJQQffQx2eoVqOWwb9h1s_dC-NdcBOsrS1U_aYjB9RmBOA5rhkGvjqqfu15tim8_rnARCUCe6vIm4aF0v2d4FEoeHI1eaXGcbvO5y7MR6Pkd8TzFUqw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNTqjkqP5wOxtkKBQiBAiuxywzco4gi2Ww1qBInyg8YxIIX6xmwDcXhahJE5Nq_lD1t9cyCvWCFpsiXfFMknRSrYVqc6TN7R4aNHpFz888fY2HuLF3_Xpx7D4Hns0FDqLVkdO5vSBdI1pinEROk-NUgyw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMUpd4049vaHU3hcUB7k-ddUGityETr2nEHAgc14v48zYAGYoKDTdgHpL7N0bsLKvCMa7NF4JnPNp7JGwWE9AjJeDgnRzAi-KEw-xhbyITpqy0Z4HxtlzQ-Yyxp6N5_cH4Pj8kcMX06amQm8mU8qrQ7GQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Complexe funéraire familial d'Amennakht (TT218 à TT220)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMOSs1fJZfWFDwJF7X5fi1NKd0WZPVcmx44tYkzjknll3wNw3li03WuDp5InQjcyxYggETKPcvBX_tIGfsg7UJkZ_1VA2x19kCica2aUVjFcuZCqVJOOSw5eAC2eTbqkJUjrErq86cY1DrC8tlZCnZOJw=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNbjOnSi__UedKmTx-l8D8fNn9EyVAggPssJ-68-0MKkXmLt0vita7eLDf7tnNvwT7NWXZvajdAV8Tl9li_r_tAPgjrYRSrTTYVEbPMD44HNPOUDyMsGAfEXAIx4poSli8hRsvor_uPa1WK1ZCNv8cnOw=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Les tombes TT218, TT219 et TT220, situées dans la nécropole des artisans de Deir el-Médineh, sont un exemple exceptionnel de sépulture familiale de la XIXe dynastie. Elles appartiennent respectivement à Amennakht (le père), à son fils Nebenmaât et à son petit-fils Khaemteri.\n\nBien que distinctes, ces trois tombes sont unies par une entrée commune, ce qui reflète la cohésion et la hiérarchie au sein de cette famille d'artisans. Leurs décorations, bien que conformes au style de l'époque, se distinguent par des scènes de la vie quotidienne et des représentations des artisans au travail, offrant un aperçu rare de l'envers du décor de l'Égypte antique."
+      },
+      {
+        title: "Styles décoratifs des caveaux d'Amennakht, Nebenmaât et Khaemteri",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPlXhG7THGPZVTbjTw50LEVqm554mO2sIMYuUdvJx9JZYqlsHg5Yd1p5n8Ou-rYbjtVPIF1IrUbL7ZXJILpheUrZ3e3CiE8gflOu6brIAW9VJHv7-j2dj4lKIifBIbLe9QY-FFYEOoal9ofpZ0OcAnxNQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMVBConw2EBL4suFlvI9lSETU7tpgzso015m5CMZ711q1ZhU9OU25blVP8rwzZOkyPfzJrcjiUCz__cNViM57zEtSc5fE_3jUqGPqa5UwHulQyO2Q0QJI0B-vBjUfvvp_U8A5cLABFcNsimGtc0EJt2ug=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNJZwKATNRQVTN308DEVt9x6OJzBJOEEATJoWR97e-eOq0s93KYF4cSbuLrSnWyRyETMcr6xu8DbgwR6HCKm2oBT9qAJSZCLZO8eDOtBP-g8H_6ZTVMkLgR1ADmr7qy8koHp76QwCy4tXTHTcWKxB9qUg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "- Tombe TT218 (Amennakht) : La tombe d'Amennakht est décorée de figures polychromes sur un fond jaune, ce qui est une caractéristique notable. Les chambres funéraires d'Amennakht étaient entièrement dédiées au dieu Rê, ce qui témoigne d'une pensée religieuse singulière pour l'époque.\n- Tombe TT219 (Nebenmaât) : La tombe de Nebenmaât est connue pour ses scènes en monochrome avec des silhouettes jaunes sur un fond blanc. Les décors de son caveau sont particulièrement originaux, intégrant des divinités d'apparence inhabituelle, comme Osiris à tête d'ibis. On y trouve également une scène représentant Anubis effectuant la cérémonie de l'ouverture de la bouche sur le défunt, qui est une étape cruciale du processus funéraire.\n- Tombe TT220 (Khaemteri) : La tombe de Khaemteri est aussi décorée dans un style monochrome. Le défunt y est représenté d'une manière très particulière, car il s'associe à la figure d'Osiris en s'arrogeant ses attributs et son apparence. Elle contient également des extraits du Livre des Morts, ce qui souligne l'importance des textes funéraires pour le passage vers l'au-delà."
+      },
+      {
+        title: "Vivacité des pigments et foi en la renaissance",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMaETFOY8nPeUbq_AllbMxonb7k_hbh4AZH1_wCndP6Cm42ityToaKhmuI86J3uyTPtzEDTg0kUSKL9r5hTHjhfe6pLLjWlEaPxXfwfY2RIcGlOCU-w8ncpOZPvyQb_BMxKNu1Ib7ZI8d1ctDdC6EK6Dg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOFqn3TcFuj5Zh9y4P7CEf8BtuGJsI4jCnknA3BSD1toQXFGW4-WjSjqgfJx_9GQUJ_JMyUmwlvoaPV2fI4iOSc6v17kSERxjoMInhVHCzGwrAQJeRvuXYDurQurlVDlyNQ2s3Kt4TW2ns-YQZs5GSnkg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Ces tombes sont réputées pour leurs peintures bien conservées et leurs couleurs vives. Elles illustrent l'importance de la famille et du métier dans l'au-delà, ainsi que la foi en la renaissance et la protection divine pour le passage vers le monde des morts."
+      },
+      {
+        title: "Anubis et le rituel sacré de l'embaumement",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNLIIop9G0JKvfSCc8VuoAVjmAMq9-TDvIllyPrY8t_lq9XBI_iB4lzrA8dmwBM_luSuc4zL3Iqrj86AjleX8DgPdGdf3i8CBjSbVtuUNl57dbAVk8thYxKQVQHQz4eQm6cz3EWmxxtqQraap46gkFHlQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Cette scène illustre une étape fondamentale de la religion funéraire égyptienne : le rituel de l'embaumement. La scène est dominée par la figure du dieu Anubis, le dieu des embaumements et des rites funéraires, reconnaissable à sa tête de chacal. Il est représenté penché sur le corps du défunt, qui est allongé sur un lit funéraire orné de pattes de lion, symboles de protection. La scène représente l'étape cruciale de la momification, où le corps du défunt était purifié et préparé pour le voyage vers l'au-delà."
+      },
+      {
+        title: "Symbolique de la résurrection et protection ailée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOyITm3z4UVff-5tMqUlNSuEbgRRYKTeGGIU73U_B_Uq3tyeRrg8IkWrXi2tMOQmXuUa809_jyUk7QNbwXT_NeEAMta6z3zibOmt5JSro8sgsmwy10kamCJXVTjJVvSHK0q8ikDKAVKvBiJBayx9v11VQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Les symboles de la scène sont riches de sens :\n- Anubis : En tant que dieu des morts, Anubis est le protecteur du corps du défunt. Son rôle est de s'assurer que l'âme (ka) du défunt puisse reconnaître son corps pour y revenir dans l'au-delà.\n- Le défunt : Le défunt est représenté sous sa forme momifiée, prêt pour l'enterrement. Le linceul et le masque funéraire, souvent de couleur bleue ou verte, symbolisent la renaissance et la résurrection, comme le dieu Osiris.\n- La déesse ailée : Au-dessus de la scène, une déesse ailée (probablement Isis ou Nephthys) étend ses ailes pour protéger le défunt, assurant son voyage dans l'au-delà. Le disque solaire et l'uraeus, ou cobra royal, soulignent la nature divine de la scène.\n\nCes scènes ne sont pas de simples illustrations, mais des actes magiques. En les peignant sur les murs de la tombe, les Égyptiens croyaient qu'ils garantissaient que le rituel se déroulerait parfaitement, assurant ainsi la résurrection et la vie éternelle pour le défunt. La qualité de la préservation de ces peintures et la richesse de leurs couleurs sont remarquables."
+      },
+      {
+        title: "Iconographie funéraire des parois thébaines",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNNv-Fv989C0TpIs8REEp9X_7CYLeTpCHc3XGgRKazVTL3bEJwM48NOz9L8-Hx8sHXGqw9fUbb7t_SxtuAczs9N_VciQ8yjIpJcIMHDVKsMOGUIQTq0owg3Cnx_qxkrqW-DIQG2uP-KkOiXPhzxYvRDmA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNh5iECGaTXjxYMwpPzz5pzAFj5uU-JtSylEtDDnId5xpCWmWOhQ--yo0s0q_bJwrkhqSpTGWODrFE9_ZE9EtCoAaJfw0yLWJ7apNyosXLrgj6X23JQ3Q3HttYju9QirfQ1pWcSHSp5Te34MaAWd6_EnA=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La tombe d'Inerkhaou (TT359) et le triomphe sur Apophis",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNzVQ5ckgurun2zmpwkkhUzV5NJcKgYFayQV9k90Eq5f5aYp3BaUOhTN4wbNFPFVMlKGhYVJUnhcOs3New7yqn-1oCLy3SyWdT63R4kOzmsOg5B6uVlMBlrGIhvuFJHo-Ytge35IazR9a2zKd8FhyOn8w=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPuuJ_BTp0U12ZOW4_egioKGfiskwMQskrhc5VW0DafIW1Bggx4CTD-NpKvrkUKE77g7zCgG7IRsK3pHAzppj-dEecsKkmp0Bbw4uTikyArh3Y3d8_67nAUQzqiNmCtqsYewt-QHSIgaxn2kB6LWPKGKQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Inerkha était un artisan de haut rang qui portait le titre de « Serviteur de la Place de la Vérité », comme ses confrères de Deir el-Médineh. Il était donc un des ouvriers qui a travaillé sur les tombes royales de la Vallée des Rois. Le nom de son épouse était Oueret-Nebet. Sa tombe, découverte par l'égyptologue français Bernard Bruyère, est remarquable par sa décoration et son état de conservation.\n\nBien que plus modeste en taille que les tombes royales, la tombe d'Inerkha est richement décorée de peintures murales aux couleurs vives, typiques du style artistique de la XXe dynastie. Elle est surtout célèbre pour ses scènes qui représentent la vie dans l'au-delà et les rituels funéraires :\n- Scène du chat exterminant le serpent : Une des scènes les plus célèbres de la tombe montre un grand chat, armé d'un couteau, qui tranche la tête du serpent du chaos, Apophis. Cette scène, directement tirée du Livre des Morts, symbolise la victoire de l'ordre sur le chaos, et le triomphe du dieu solaire Rê sur les forces des ténèbres, un mythe central dans la religion égyptienne.\n- La scène de la déesse-vache : Une autre scène représente Inerkha et son épouse rendant hommage à une déesse sous forme de vache, un symbole de la déesse Hathor qui accueille le défunt dans l'au-delà et le nourrit de lait, garantissant sa survie.\n- Le jugement d'Osiris : La tombe contient également des scènes du jugement du défunt par Osiris, où l'âme d'Inerkha est pesée sur une balance pour déterminer sa moralité et son droit à la vie éternelle."
+      },
+      {
+        title: "Les lions Aker et l'horizon solaire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOL0ra7Kkko4OhEUq_WFFkb5NmR15pnS0GOfr0BleqVBHv4ogHQVs7m6roX0ONkIMkxbTNAZyQdjHn1vWOBXWHknwHS1l_W0TOMFxTcbXoHNbjbN6SUSTlahKpm38blKj_0fpKk5NV5Pt3DJDP8WZW6JA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN3Wfv0MtuKQkXfRCfLIi2vYk1JxfxnrQ7XcXOeCZdnd0nsMVcRBRGiPqkbWbRnouqzghCZ-OQPUDr4ZwgDp_jzvzJbOOQpIkviUcZZjnqyyddRWSrfmOfCIh1jTYQhgI1BhexTidfYCFuPZMCbJh16HQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Ces deux lions sont des représentations des dieux Shou et Tefnout, qui sont les enfants du dieu soleil Rê. Ils sont également identifiés comme les divinités Aker, qui représentent l'horizon, avec l'un gardant l'entrée de l'au-delà et l'autre gardant la sortie.\n\nLa scène symbolise la renaissance quotidienne du soleil et la renaissance du défunt. Le soleil, se levant entre les deux lions, passe de l'horizon de l'ouest (le monde des morts) à celui de l'est (le monde des vivants). De la même manière, le défunt renaît et accède à la vie éternelle.\n\nIl est important de noter que dans l'iconographie funéraire égyptienne, le mot pour « lion » et « horizon » était le même, d'où leur association fréquente pour représenter le concept du lever et du coucher du soleil."
+      },
+      {
+        title: "Le voyage nocturne du soleil et le combat d'Apophis",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOT9fqFU2sCuI4YxtWgTn_kHXz57d_a-3P1W3o9Rex_fdKLJv-9sw_pmR5SywEsQ9ngJKN7JXnaEQFaTU2Vdt7KSSgoLDpPmBfna6a1_E4Z21uzsj8gZaj5lMII-ARjHAU-LV5l3ksPqp3jb0q-hteqcQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOc3bD1tKv6QB8gr8iuL2Zy33bFDbC_HKsnSlsJSnG97ZscikwEPPrz_j-ONG3i6demNhwRFfdohX87IGvnPaxy06crUqrg7TbMmxodPM2Eji4t6RlJxRF7Jcc-77p85VYQAm1KYe_8_9_r3C7GgIOnWQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Cette image est une magnifique représentation symbolique du voyage nocturne du soleil, un mythe central de la religion égyptienne. Le scarabée au centre représente le dieu Khépri, la forme du soleil levant, qui symbolise la renaissance et la création. Les Égyptiens croyaient que le soleil, comme le scarabée qui roule sa boule, se déplaçait dans l'au-delà pendant la nuit pour renaître à l'aube.\n\nLa grande forme en serpent est en fait le dieu serpent Apophis, le symbole du chaos, des ténèbres et du désordre. Apophis était le plus grand ennemi du soleil, et chaque nuit, le soleil devait le vaincre pour se lever à nouveau le matin. La scène que vous avez sous les yeux représente donc la victoire de l'ordre (le soleil-scarabée) sur le chaos (le serpent), un mythe qui garantissait la pérennité du cosmos et qui était également un modèle pour le voyage de l'âme du défunt à travers l'au-delà."
+      },
+      {
+        title: "Scènes d'adoration et rituels de l'au-delà",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOmu-a7HLD1ubwR_Bguc_JtG0Rx8DeS_BQ0PfGadDq4o50-jz8-RF9z-wnPU1ayQP_zbbqD9TFEvFKipQSHFi5Q5aYFdafDYoaeOa8dLt7BztTJhJzVakz0427O9njXQtK8_StiFSRharUPWnM0SwolYg=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPSFjToBvwkx2zQdsySntngW5UO4lo3K1C3RxGqsJPT8Lt098yiXHq4AqIkrgsTQNBLFPsep2XhKNZVlv4Ea57WnAr0Gyfz8QbVcjzeMOVfVOXaCCc8LWthpj4k_Tx9D4jF8jwM2JFblbdv9Xwv0Sr0Xg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La voûte hathorique au fond jaune thébain",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNer--Vry8HSofl_5LAVjaxBV7GHbqZwcj5f3X0tsaHxCLOVui1YL9U9dxCvZLj7qLLAPJOycqObKtaIFsvVAObIX61NdbxTsu855xwSxdwKs44KisGRfI77MyGnb1oF5T-rrDQEJsMdbbi7O0UKGWtKA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPOvabQ0KhrubWTzyrKZhafYgRVqewvTAbQWBOzamS2FcBtJvhUMadXt6FoqXW8w4cMmWBBBpF44n6xfN--vA8qBrZEoGpdGj39FX503dTKWb_R7uzBT9wYneM73HzP7fTo7LBXWUbW4WJjWKr3JV0Bcg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Le motif principal du plafond de la chapelle est un réseau répétitif et hypnotique de têtes de vaches stylisées vues de face, surmontées du disque solaire rouge et parées de colliers ousekh, représentant la déesse Hathor sous sa forme bovine. Ces effigies sacrées sont reliées par des motifs spiralés jaunes et des éléments floraux, créant une tapisserie symbolique qui évoque la voûte céleste et la protection maternelle de la déesse, souvent associée à la régénération du défunt et à l'accueil des âmes dans l'horizon occidental.\n\nLa composition est rigoureusement structurée par des bordures géométriques et des registres de textes hiéroglyphiques finement tracés sur un fond jaune intense, dont les colonnes verticales et les lignes horizontales servent de cadres architecturaux à la scène. Ces inscriptions, peintes avec un mélange de pigments bleus, rouges et noirs, contiennent des prières et des épithètes funéraires destinées à garantir la subsistance éternelle de Nebenmaat dans l'au-delà. L'utilisation du fond « jaune thébain », typique de cette époque, cherche à imiter l'éclat de l'or, chair des dieux, transformant le plafond de la tombe en un espace divin immuable. Malgré les outrages du temps et quelques fissures dans l'enduit, la vivacité des couleurs et la précision du trait témoignent du soin extrême que Nebenmaat, lui-même « Serviteur dans la Place de Vérité », a apporté à sa propre demeure d'éternité, utilisant les motifs les plus raffinés de l'art funéraire égyptien."
+      },
+      {
+        title: "La tombe intacte de Sennedjem (TT1)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPu-612kmfb-Bd8M-GscHazVsFbaym3uydBBTM5Dp-Liy4N91MWTKq1Fh1DwP7xlN59W7NvNFeZ3XqwKOB9VLSxENUh-WnMiY-p_FG6iltCp0-SUScKPyOw5FN3iiOpHPQMPyGuRu7gNlyBRA1bOFt8IQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPwf-NxO1hab3wbsyEo6TnsqfAW5cbv6WzYrffWaygfW3kjgYGpJor_B-0_Do5ZSIQNqS1N0wI9EDuf4kXbrZGPDN4tlc56zOWc_znmzDurenhO-VwkHPtnM0qUxvN6wRSfPkzcll54CaRv1ePitVcqrA=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "La tombe de Sennedjem, numérotée TT1, est l'une des sépultures les plus célèbres et les mieux préservées de la nécropole des artisans de Deir el-Médineh. Elle a été découverte intacte le 31 janvier 1886, contenant non seulement le sarcophage et la momie de Sennedjem, mais aussi celles de sa femme, de dix-huit de ses enfants et d'autres membres de sa famille.\n\nSennedjem était un « Serviteur de la Place de la Vérité » (artisan) qui a travaillé sur les tombes royales de la Vallée des Rois sous les règnes de Séthi Ier et de Ramsès II.\n\nDe la tombe, seule la chambre funéraire subsiste aujourd'hui. C'est un caveau voûté en briques crues, dont les murs sont recouverts de peintures sur un fond ocre qui sont remarquablement bien conservées. Les scènes illustrées sur les murs sont principalement religieuses et décrivent le voyage du défunt dans l'au-delà."
+      },
+      {
+        title: "Les babouins sacrés saluant l'aube",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP8fQzMLciK42qIaldcFbq_B6hUTdASwSI9Yip_kUnFzx4d3OjtrHJa7YWwvLVkHdm_iVwtWdfsiT4DcaZGYauEEJLJL5xLJXPRytAaD0i8qU3lUilz3vDqwI3qKAMr2hQe3LzuBZbZ7WurcPywnSX7BQ=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPVft_Aw0S6QRisNpGmA8aOJXhkf48mBgBIkbipNoc1TEPS2iRN_REiMG4Q7WY6SuV6Vv1oMlCd0JT7XBe8bXvNrKsGsrd3oRVc-YumiSxKx2VcUU-BdK2oPkCrAEoNsol96a8Tro76l532W5bzhi4UTg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Les babouins étaient des animaux sacrés, intimement liés au dieu Thot, le dieu de la sagesse, de la science et de l'écriture. Ils étaient également vus comme des créatures qui saluaient le soleil à l'aube, les Égyptiens observant leur habitude de s'asseoir face à l'est et de crier au lever du soleil.\n\nLeur couleur bleue, qui est souvent associée au lapis-lazuli, symbolise le ciel et le Noun, les eaux primordiales. Ainsi, ces babouins bleus représentaient les forces primaires qui aidaient le soleil à renaître chaque matin. Leur posture, les bras levés, est une attitude d'adoration et de protection, un geste d'hommage au dieu solaire Rê au moment de sa renaissance."
+      },
+      {
+        title: "Les Champs d'Ialou et les vignettes du Livre des Morts",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNcqM1V1Ltph_8E6XLKwvrtQlQtM7CHsem85PEN9EOW6OOH9w5vuiNpx-F7y3Sjtld7bBuxUbTNsMKGiP9yQQ52fmyfqMy6O_3KX8l6-Om25H6nx7V2f8UP-vW7NibRa_9JyKI4tnBKNmJ_R4VIBOd2BA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOEjc7o86LAHvxsw-UUHbk2MCSl3r_ICAOxabVOypIvM1RVcbaRnfGWFhiBM32614zJnieZc4f_2xORo7FvQqOfKIEwcLhLjXrnd1g-3WF6S08CNy6uiTajTsdn_GpAjtnH1wwtP3h9_uuUeKfxUnctaQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "- Les Champs d'Ialou : C'est la scène la plus célèbre de la tombe. Elle montre Sennedjem et son épouse en train de labourer, semer et récolter la terre, une représentation idéalisée de leur vie paisible dans l'au-delà, le royaume d'Osiris.\n- L'embaumement : Une scène montre le dieu Anubis, à tête de chacal, penché sur la momie de Sennedjem, réalisant le rite de l'embaumement.\n- Les divinités : Les murs sont couverts de représentations de dieux tels qu'Osiris et Anubis, qui jouent un rôle crucial dans le voyage de l'âme et son jugement.\n- Le Livre des Morts : De nombreux passages et vignettes du Livre des Morts sont peints sur les murs. On peut y voir le couple jouant au senet, un jeu symbolisant le voyage du défunt vers l'éternité. Une autre scène montre une déesse-arbre offrant du pain et de l'eau à Sennedjem et sa femme.\n- Le cycle solaire : La tombe contient également des scènes évoquant la renaissance du soleil, qui apparaît sous la forme d'un petit veau à l'horizon, un symbole de régénération."
+      },
+      {
+        title: "Les gardiens d'Anubis et l'Œil d'Horus",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPTociyKfHl2fkZPH6s3ag8lApIuQe0FY7co3ZXjp-jikfrUquPA1F2hSMOagKjH-IialIeM1HhLqBM629wk5bb1_WnE6_QJKHVx7xeZzhkZcTBbdN25CMgvymdLqj3I7IvxvZx3P-swIF984ydtktE0g=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOWBIYVQL24J2z7q4fTjnelBWpXykDKvLytEHHhVB19FXAH_RbIvwOd-bwlX_2KiTrRVW6BZ99YiKGwB_po7NqdYK8VvZlAP-xRInV9oNSDn7WLfrVLenwlULAB2JHjj1in9Wlcc4AbZcwBKdyMZiJJxQ=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "Au premier plan, deux figures de chacals ou de chiens sauvages sont représentées symétriquement, l'une face à l'autre. Ces animaux sont des représentations du dieu Anubis, le dieu des morts et de l'embaumement, reconnaissable à sa couleur bleue symbolisant la renaissance ou la protection divine. La posture de l'animal couché est celle du gardien, veillant sur le tombeau et le défunt. Entre les deux chacals se trouve un sanctuaire stylisé. Au-dessus de ce sanctuaire, un grand Œil d'Horus, ou Wedjat, domine la scène. L'Œil d'Horus est un symbole de protection, de guérison et de pouvoir royal, et sa présence sur les murs de la tombe était censée garantir la sécurité du défunt dans l'au-delà.\n\nL'ensemble de la scène, avec son fond jaune-doré, symbolise la lumière du soleil et l'immortalité. La composition, symétrique et équilibrée, est une expression de l'ordre cosmique (Maât). Cette peinture est un rappel que l'au-delà était perçu comme un lieu où le défunt serait protégé par les dieux, et qu'il pourrait renaître, tout comme le soleil renaît chaque jour."
+      },
+      {
+        title: "Osiris momiforme et fétiches Imi-out",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNizViyZsHDQVu04KIMi4L3QeQPbA9kLY_h1fUDe8DUqkX9UtMqqKb5gKLK_QOQbHAIkJTgY2wFtVxpn6WaqN2lapiC_ljgiBlISA5LdaQdtpjo5qrcFgd9MVFundJon2aLBVE5HYCAWvhxXvgVOwM0UA=w1741-h1161-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOeVNQm_E4cQq7ApOe9cZVTMY5AR35U08cUc_OORFsXDQLKb1XqJgDIiNmOz7mvwxyMRXcto3ec35lg0Z80jevuK_tjEzOeCJdEk6G9R6F0APBqY25QTpBTt-9hjh75JgRFpW4rZnkyVNuxo-RLJBFABg=w1741-h1161-s-no-gm?authuser=0"
+        ],
+        text: "L’œuvre met en scène la figure centrale d'Osiris, souverain de l'Au-delà et dieu de la régénération, représenté sous une forme momiforme avec une peau d'un vert intense symbolisant la renaissance végétale et la fertilité du Nil. Le dieu porte la couronne Atef, composée de la mitre blanche de Haute-Égypte flanquée de plumes d'autruche colorées, et tient sur sa poitrine les insignes de la royauté, le crochet Héka et le fléau Nekhekh. De part et d'autre de sa tête se déploient deux yeux Oudjat monumentaux, symboles de protection, de plénitude et d'intégrité physique retrouvée, dont les lignes de fard et les éléments de faucon sont tracés avec une précision calligraphique.\n\nLa scène est encadrée par deux colonnes papyriformes surmontées de fleurs de lotus épanouies, tandis que deux fétiches Imi-out, constitués d'une peau de bête sans tête suspendue à un poteau fiché dans un pot, flanquent le dieu pour assurer sa protection magique et la purification du lieu. Le registre supérieur est souligné par une frise de khékerou, motif ornemental stylisé, et l'ensemble de la composition repose sur un fond blanc lumineux qui fait ressortir la polychromie éclatante des pigments bleu lapis-lazuli, ocre rouge et jaune d'or. La présence de textes hiéroglyphiques sur les marges jaunes latérales confirme l'appartenance de Sennedjem à la communauté des artisans d'élite, révélant une maîtrise de l'espace iconographique où chaque élément symbolise la victoire de la vie sur la mort et la justification du défunt devant le tribunal divin."
+      }
+    ]
   },
   {
     id: "vallee_des_reines",
