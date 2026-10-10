@@ -12791,18 +12791,106 @@ const travelSpots = [
     subdiv: "Louxor",
     altitude: 112,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Nouvel Empire - XVIIIe dynastie)",
     century: "Antiquité (XVe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Thèbes antique et sa nécropole",
+    unesco_name: "Thèbes antique et sa nécropole",
+    counts: {},
     lat: 25.7383,
     lng: 32.6078,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPk75OHrQu6obpFOplp54MjErWv62Ba9IGktlvK7XXzNNKRfJVn8AqJRVRkpvSQgF-7bxq2zcTPyFYgAK5nA3W6piJ5oxOoiATNoXQRn-IhO6Y0py1gzDV_2ffYLgtS8a0enLOSK2bzzos1Io0m5hpzlA=w2624-h1750-s-no-gm?authuser=0",
     description: "Adossé avec une audace architecturale sans pareille à l'immense cirque naturel des falaises ocres de Deir el-Bahari, le temple funéraire de la reine-pharaon Hatchepsout, baptisé Djeser-Djeserou (« le sublime des sublimes »), constitue l'un des sommets incontestés de l'architecture mondiale. Conçu au XVe siècle avant notre ère par le brillant architecte royal Senenmout sous la XVIIIe dynastie, cet édifice visionnaire rompt avec les canons traditionnels pour déployer trois terrasses superposées taillées en gradins, reliées par de monumentales rampes axiales et bordées d'élégantes colonnades protodoriques. L'harmonie saisissante entre la pureté géométrique des lignes de grès clair et la verticalité grandiose de la paroi rocheuse thébaine confère au sanctuaire une impression de modernité intemporelle. Les murs des portiques immortalisent avec une minutie et une polychromie admirables les hauts faits du règne de la souveraine, notamment la théogamie relatant sa naissance divine issue d'Amon-Rê, ainsi que la mythique expédition maritime vers le mystérieux pays de Pount, rapportant or, myrrhe, bois précieux, panthères et arbres à encens déracinés avec leurs mottes de terre. Dédié au culte d'Amon ainsi qu'aux divinités protectrices Hathor et Anubis, ce monument d'exception célèbre la mémoire de la première grande reine de l'Histoire ayant exercé la plénitude du pouvoir pharaonique.",
     visiter: "La découverte s'amorce par la traversée de la vaste esplanade désertique où se devinaient jadis les allées de sphinx à tête d'Hatchepsout et les bassins de papyrus, avant d'aborder la première rampe monumentale menant au deuxième niveau. Ce palier central abrite les deux trésors narratifs du site : le portique de la naissance divine et le célèbre portique de Pount, dont les bas-reliefs détaillent les navires de charge cinglant sur la mer Rouge, les maisons sur pilotis des indigènes et les lourdes cargaisons aromatiques. Aux extrémités de cette terrasse se nichent deux joyaux religieux intimistes : la chapelle d'Anubis aux peintures funéraires intactes et la splendide chapelle d'Hathor, dont les colonnes s'achèvent par de sublimes visages hathoriques aux oreilles bovines veillant sur des offrandes rituelles. L'ascension finale vers la troisième terrasse franchit un portique orné de colosses osiriens monumentaux figurant la reine coiffée du némès et parée de la barbe postiche, prélude à la cour supérieure péristyle et au saint des saints taillé à même la roche calcaire. Depuis ce promontoire suspendu, le regard embrasse un panorama étourdissant sur la vallée du Nil et l'enfilade des temples des millions d'années bordant la rive occidentale.",
-    link: "https://photos.google.com/share/AF1QipNrAwyqCKj0Yd0WNu1YGP3axCwm1Rva2ZEQah4a7NVBovqqaiV2Uiokydtq33P3EQ?key=LUFXRHlmWEJhRk1mSlk2enByUzM0UWpvUGliVDdR"
+    link: "https://photos.google.com/share/AF1QipNrAwyqCKj0Yd0WNu1YGP3axCwm1Rva2ZEQah4a7NVBovqqaiV2Uiokydtq33P3EQ?key=LUFXRHlmWEJhRk1mSlk2enByUzM0UWpvUGliVDdR",
+    sections: [
+      {
+        title: "Fondation sous Senenmout et légitimation royale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOBuRCaNdDCOofgtradwkfftAEqgUuzgru31LRvlKpk0fFvrbzmM0B1mA0meQ5EPYKF1nyotDARewI0FCoCd7XY0gisp7HbVl6zDfdeWQZ9wdLWKaMv0WpeIixtz84djjGfXLZIujZgCkbxQ5whWFeTkQ=w1537-h1024-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPQNQo1Ols5dywJcR6hCKuFIhHm6lclxUkTfJGo1t4CJGAEClbbbRHmWecPS18ckRpKvFhMyH1Bw1a3YcT2AdwBhGVlxLobp1rfl4AjcHvT0oyX3UZcznhbdNiT8ruk2uGoh-X4CTDeR_VX006VjULRWw=w1537-h1024-s-no-gm?authuser=0"
+        ],
+        text: "Le temple a été construit entre la 7e et la 21e année du règne d'Hatchepsout (vers 1479-1458 av. J.-C.). Sa conception fut confiée à l'architecte Senenmout et fut intentionnellement calquée sur le temple funéraire voisin de Montouhotep II, renforçant le lien d'Hatchepsout avec une figure royale fondatrice et très vénérée. Le temple avait pour but principal de légitimer le règne d'Hatchepsout, qui avait usurpé le trône à son neveu et beau-fils, Thoutmôsis III. Après sa mort, Thoutmôsis III tenta d'effacer le nom et les images d'Hatchepsout de nombreux monuments, y compris son temple, en détruisant ses statues et en remplaçant ses images par les siennes."
+      },
+      {
+        title: "La chaussée processionnelle et les sphinx d'Hatchepsout",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMfB7llD_8Ww-m3qonaU6dnO6-jwdiWKTOl6-wMWyHsHUiqXgWN-ZDtFlT0hq5m7J-ZzHEKaYShA7GqCbZNiWSkqReBfP-l8QATbLVooMH1iipwRIFSMChiUrLOW-zgYlMs1MgPNTWWWDtlu_pC6mWnOg=w1537-h2306-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPEMZOwr-wpg_-Es9UXzepnbPovl_W3TVLougA08OSbRIOnRBZrghwhJcaK7-z24PRDm9y3bi7-NsYla_O-QNaoybEuAhPFANwuDsBWuGsc-qQEJj2TAuLLAKK1aXsUNj3pGYUUQ6M8Mvleit9oWzjzlQ=w1537-h1024-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMq_bS66yv9AIK0CDB85PP0efLrmsd6br42yKkKdlruxoXdHtHRStlcV3TTPb_3p4ns6wWzJPC4zE2h4MAcY3CebKr7_rAhDgstxwzpNZd5gAV_GG7K7eqkMTEGY1G1CLhWOMYA8aJAj8yXnjuLa96Nwg=w1537-h2306-s-no-gm?authuser=0"
+        ],
+        text: "Le Sphinx dans l'allée centrale du temple d'Hatchepsout était un élément clé de la chaussée processionnelle, le chemin monumental reliant le temple de la vallée à la première terrasse du Djeser-Djeseru à Deir el-Bahari. Elle symbolisait la montée vers le royaume divin. Cette allée était bordée d'une série de statues de sphinx, non pas des sphinx à tête d'homme, mais des figures à tête de la reine Hatchepsout elle-même. Ces sculptures, réalisées en calcaire ou en granit, combinaient le corps puissant du lion (symbole de force et de majesté pharaonique) avec le visage de la reine.\n\nEn se faisant représenter sous la forme d'un sphinx, Hatchepsout affirmait sa légitimité divine et sa puissance en tant que souveraine de l'Égypte. Malgré l'identité féminine du visage, la plupart de ces sphinx arboraient les attributs royaux masculins traditionnels, tels que la barbe postiche et le némès (coiffe royale), soulignant son rôle de Pharaon.\n\nAprès sa mort, ces sphinx, comme le reste des représentations de la reine, furent victimes de la damnatio memoriae orchestrée par Thoutmôsis III. Ils furent brisés, mutilés et enterrés. Les vestiges que l'on observe aujourd'hui témoignent de l'ambition et de la magnificence originale de cette voie sacrée."
+      },
+      {
+        title: "Composition en terrasses étagées et falaise thébaine",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPk75OHrQu6obpFOplp54MjErWv62Ba9IGktlvK7XXzNNKRfJVn8AqJRVRkpvSQgF-7bxq2zcTPyFYgAK5nA3W6piJ5oxOoiATNoXQRn-IhO6Y0py1gzDV_2ffYLgtS8a0enLOSK2bzzos1Io0m5hpzlA=w1537-h1024-s-no-gm?authuser=0"
+        ],
+        text: "L'architecture du temple de Hatshepsout est son trait le plus distinctif. Contrairement à d'autres temples qui utilisent des pylônes comme entrées, il est construit sur trois grandes terrasses successives, reliées par des rampes douces. L'ensemble est taillé dans la roche calcaire de la falaise, créant une harmonie saisissante entre l'architecture construite et le paysage naturel."
+      },
+      {
+        title: "Portiques de la Naissance Divine et du Pays de Pount",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPTkwgxVqj_BMIf-SMZ0lvam8_YEAdKVYLMPhPEltujnm3IOl4IlCQv6bTkfcyIwMoyFACFIZ-lS9CN5eg83H0iYnv9ZQgUzKJSgy8A9dN0w01jrn4r53M9La0_uqDV6pEGsPVfuMX3zAkXFW8qT5KPXg=w1537-h2306-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOYAz-tFMrAAWSQ6-AV3zuFEZD_E2FvzOZnvNuDe-zpUzFGDnV_HWVhin6xLufz5qSuElJPtU98SDrtyRi8M59l58716JTcC0t5m74jnoJBPsn9Y9ktlDDizVBa7L_xibDv9v_tLMNXx_TpEpu_hJCRBw=w1537-h1024-s-no-gm?authuser=0"
+        ],
+        text: "La Première Terrasse : Autrefois bordée de jardins et d'arbres exotiques (un projet d'aménagement paysager unique), elle était ouverte au public. Elle est marquée par des portiques à colonnades.\n\nLa Deuxième Terrasse : L'élément le plus célèbre se trouve sur cette terrasse : les portiques sont ornés de reliefs qui racontent les deux aspects les plus importants de la légitimation d'Hatchepsout :\n\n- Le Portique de la Naissance Divine : Situé sur le côté nord, il représente la mythologie de la naissance divine d'Hatchepsout. Les reliefs décrivent le dieu Amon-Rê visitant sa mère, la reine Ahmès, et lui annonçant qu'elle donnera naissance à la future reine d'Égypte. Ce récit magique établit la reine comme la fille biologique d'Amon, contournant ainsi son manque de filiation masculine directe.\n\n- Le Portique de Pount : Situé sur le côté sud, il raconte l'expédition commerciale qu'Hatchepsout envoya au lointain Pays de Pount. Les reliefs détaillent le voyage et les produits exotiques rapportés : myrrhe, encens, ébène, ivoire, et même des arbres vivants (dont les traces ont été retrouvées). Cette expédition témoigne de la prospérité et de la stabilité du règne d'Hatchepsout."
+      },
+      {
+        title: "Statuaire colossale et piliers osirides",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOOA2i5jfrBjIBcxJbc5oiz9c_XK3VqlPBtvTEEw-rzz6UKvp1O3TVVZsIDJGIZK0SeR7ch9xD9eho2xVYo8xEt5X3y0pmnqVR8Chy9DOhuzeMPJM8JAJ7LAmgxDyfGlcMoEXJkhuE8iaYFBnEym9zcow=w1537-h1024-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNAiqulhfbL93AVRxxZDTV4b35U0_rvyasyda-lfA1bYB7_D9eb8b1EpVb5g2RfdEbmu_iE2MwgA8yhaBZlRQviE4gkonByD04qE_mmqySBNJmUUH5bJeDXPheGtRWo_cHFqoPadVTiFbnHfSaV2w0uiA=w1537-h1024-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMQAZGwf6K82X58rIdt865ISUFk29SceVzYmQekTxcKv4thtX9lKbyfRjzkCFGaSimMJW7Lsjyb4TPFQjkBbBf1JIW-dMVkjonIsr_89lzH_ThUWHuo86yTOv3zm12GgjXDP1b5tJyiP-8lLJYf93O7PA=w1537-h1024-s-no-gm?authuser=0"
+        ],
+        text: "Bien que de nombreuses statues aient été détruites par Thoutmôsis III, les archéologues ont pu déterminer l'ampleur de la statuaire originale. Les deux types de statues les plus importants sur cette terrasse étaient :\n\n- Les statues assises colossales : De grandes statues d'Hatchepsout, la représentant assise, devaient flanquer l'entrée de la première terrasse et les côtés de la rampe centrale. Leur rôle était d'affirmer l'autorité d'Hatchepsout en tant que pharaon.\n\n- Les piliers Osirides : Les portiques intérieurs de la première terrasse étaient flanqués de piliers osirides. Ces statues représentaient Hatshepsout sous les traits du dieu Osiris, dieu de la mort et de la renaissance, avec les bras croisés sur la poitrine. Le fait que la reine se fasse représenter sous une forme masculine (Osiris) et divine soulignait sa capacité à gouverner et garantissait sa résurrection éternelle.\n\nLe message visuel de ces statues était clair : Hatchepsout était non seulement une souveraine terrestre légitime, mais aussi une entité divine capable d'assurer la survie et la prospérité de l'Égypte. Les fragments de ces statues sont parmi les plus beaux exemples de l'art égyptien de la XVIIIe dynastie."
+      },
+      {
+        title: "Colonnades protodoriques et portiques étagés (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOZnj4l_7QqwgZObTSOgMUPaCtwo-N8ettCoPGxrvYsH1iFoPk_UbmH6AAVFNe2Xe-GtlznaBQi9-W5BYMzgGkN4WPLNa08j1M9PjdmTyoO0862ZWxtIjVDoBkZV9EGsyQxmnDLlQjvFEKkxv4WHaVsBQ=w1537-h2306-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPQVfrts2GZzHO6X_Tf_iI4baizDCo9QM_Stlh8UxpeCggf7l3DsuSvDumjRdz7VXPXdz-Y1U1OZ9nqt15EVh1nQd2Kq-Vxr79ir9esaJLnUBQsZE129I6lIDGLMPBMq6AUAePY-Ye3pLLMrhj07Z3fXw=w1537-h1024-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMXcrLR9jPkwfZdacZ3IRwg_cCcCE61Ea1ZsbxewTsEgyarBzZz0aqQKPBtBrdxB4NHs3zA3i0MMM5KNpMGzlMRjLVUg-mefRoKLetaSbzRmb5_uznSqRku3o_k1yIycROtZKwptf5jCoj4qLZ9TCKYog=w1537-h1024-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Colonnades protodoriques et portiques étagés (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMaUqmAvMIkySbRPuJ_5FLvnrsTBRhGXngn0c1mLFDW0ZLHNqUKamE8mso5gY0yO2h9qplkIn_yDuMG5VU_pJg6XqNjTtZFY8CwkmTEieWyEogT7Q48-D5y74InGmIs4SW6aRJsj_CAQ2w-oFqWro7sJg=w1537-h1024-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOVG0XkgMsZfJ3IHd_-jyLGSgxypN3dE3FTzdJNj3t_dYBsl3azBKPCDB4h-_uQes5oEZGNQxTgA17plNWHDm2yEaFWyoU-7FR3P6_o-ai5leIEUHOou9XFXCWY8gcYs7PxXLsNNN2dVyLiVYCVfQ54IA=w1537-h1024-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La troisième terrasse et le sanctuaire d'Amon-Rê",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOYdvlLoZlQcrymj0OffbTn5HNMoj3ZPRNW7oyCN5RtyFAEPRfN54aX8wjqtd463248sCpUv9QTkrG65WL06AtCOFDZFiy8mHDHTGt-7xpTuEjKBRCymOqwzGpBP9eLQmqi6lNTBhx8cVGl6QY_4dNhHg=w1537-h1024-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM1J8wulSSW_85b0fPWBlavam1alI7FtFTiRING9R9YOl7R7ob2RFb3NNLtiJZUwHGq_c075xlrUPotMDBLP-oNPTWr_fdIBSGV7vFP9Ol571gre6fvOfgtYC5JuqrOR5vVKpPouFWlLRrcREVVRgD_Mg=w1537-h1024-s-no-gm?authuser=0"
+        ],
+        text: "La troisième et dernière terrasse mène aux sanctuaires taillés directement dans la falaise. Les sanctuaires principaux sont dédiés au dieu Amon-Rê (le cœur du culte de la reine), à Hathor (la déesse protectrice de la nécropole) et à Anubis (le dieu des morts). Cette intégration du sacré dans la roche symbolisait l'union parfaite entre le pouvoir terrestre de la reine et le domaine divin.\n\nLe Sanctuaire d'Amon-Rê, l'ultime destination de la procession, est situé sur la troisième et plus haute terrasse. Ce sanctuaire n'est pas construit, mais intégralement taillé à même la falaise, ce qui lui confère une atmosphère unique. Sa voûte, ou son plafond fortement cintré, résulte directement de l'excavation dans la roche, créant un espace intérieur qui s'enfonce profondément dans la montagne.\n\nCette salle a une fonction purement divine : elle abritait la barque sacrée d'Amon, transportée depuis Karnak lors des grandes fêtes. Les reliefs et les niches de la chambre sont dédiés aux rituels d'offrandes à Amon. En s'enfonçant dans la falaise, le sanctuaire symbolisait la caverne primordiale où le dieu résidait, renforçant le message de la reine selon lequel elle était la fille directe d'Amon et la garante de l'ordre divin (Maât) sur Terre. Bien que les couleurs et les reliefs aient été endommagés par les inondations et l'effacement des images par Thoutmôsis III, le lieu conserve une puissance solennelle et une importance théologique immense."
+      },
+      {
+        title: "La chapelle d'Hathor et la protection de la nécropole",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP1a3_P70DFcg9RNYy3vrsK65yVWvKzjMhMPahFyKaqQcHHY6JBntTGj_KtENpYdzvs6xJfMhnMlpOlIOF03OQM1Zme1oZBq33-x_d9tfrS-PKyi2g4Y4xIvqf0WD5-Cm8hFtw41nNYms5b4A4dIijsFQ=w1537-h1024-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPuXFH5hxDTQI2Br4MPmIOY-wH0Ca82OC9HKqxBA8uXxLA1YEOkOcwaBU7ZXoLglrXUFtqZasr69wJoClvw8lZKt6FvNwAAHW7OAvMRBtmv6xFPjhWcMd5474xeb6bzrRymy0rD7FCofB2-CtJoZmG7Rg=w1537-h1024-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNOTY4i0RNH-1U2UFWLiVK8-38vKhQibzN126LUTNXMPi0DfpwpSNeB5CtlL3XdGmhXWoq8YQr5SZuORXtfic3t2OcJglpyFOHIS2O33RYAHe4G0dGZOvH6M5K5_h_l-rhat2DkuQpSLwskfVyp6U1BPQ=w1537-h1024-s-no-gm?authuser=0"
+        ],
+        text: "La chapelle d'Hathor est l'un des sanctuaires les plus importants du temple d'Hatchepsout à Deir el-Bahari, et se trouve sur le côté « gauche » (nord) de la deuxième terrasse, ou parfois sur le côté sud-ouest, selon le point d'entrée. Ce sanctuaire est entièrement dédié à la déesse Hathor, une divinité majeure associée à la maternité, la joie, la musique, l'amour, mais aussi à la protection de la nécropole thébaine."
+      },
+      {
+        title: "Piliers hathoriques et scène de la Vache Sacrée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOlf9GVYQAPrmVbJ9oeYiDjFpsUmnpro_6SS54rn3uBGhVxhivrb7Qb62e8FsFoYrZh0fQ9114jKyWPQm4J1MUd2gVa6Tq6yguROXb0xi8zWm4QcpiL6iS3Kdbv5vD5BM1pvDryfTzGz4lFO_3HMCcyCA=w1537-h1024-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPoAesNlFdIvbJCUcRrNzIEOo47Sj67-NQT1B9rfO-3ICOK92OW5wdJC6kDRPrjeFLtXkfvMVBZ9mUkCcHyxn1j_Z9Kgd2f6w86WQMhXfkBPtycvB9KUHnpiBNJ6zPoln69iUgZdN0z7Ad8eWIeaE-Itg=w1537-h1024-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOw9XiDoh-JTq-vVZQc5l7L0WHdXZiukzs2XdhMbaEX8qPXq7YJMHIhSWNoU4Ry4-lCRU2Q0S4DsLcwRXVYVgeTmWtXg0touDYs-cCl8d8nDi2f7SStAS4W_hQCvXUC20GoSBo8WADO6bldfh0zKOaQUQ=w1537-h2306-s-no-gm?authuser=0"
+        ],
+        text: "La chapelle est facilement reconnaissable grâce à son architecture distinctive :\n\n1. Le Portique : L'entrée est marquée par une cour ou un portique à colonnades. Les colonnes, appelées piliers hathoriques, sont célèbres pour leurs chapiteaux sculptés en forme de tête de vache divine, l'animal sacré d'Hathor, portant l'uræus et la coiffe solaire.\n\n2. L'Excavation : Le sanctuaire s'enfonce dans la falaise, composé de plusieurs chambres et d'une salle hypostyle (à colonnes). Une partie est construite sur la terrasse, l'autre est creusée dans la roche.\n\nLes reliefs de cette chapelle sont parmi les mieux conservés et sont théologiquement très riches :\n\n- Le Rôle Protecteur : Les murs décrivent la déesse Hathor accueillant la reine Hatchepsout (souvent sous sa forme bovine ou humaine). Hathor est représentée avec un rôle de nourrice divine et de protectrice du pharaon.\n- La Scène de la Vache Sacrée : La scène la plus célèbre montre la Vache Hathor léchant tendrement la main de la reine ou la protégeant symboliquement. Cette image exprime la protection et l'alimentation divine accordées à la reine pour légitimer son règne.\n- La Fête de la Belle Vallée : Des reliefs illustrent la Fête de la Belle Vallée, une procession majeure qui avait lieu entre Karnak et la nécropole, soulignant le rôle central du temple dans le culte thébain.\n\nLa présence de cette chapelle si détaillée et bien placée souligne l'importance du culte d'Hathor pour la monarchie de la XVIIIe dynastie et l'effort d'Hatchepsout pour s'intégrer sous la protection de la déesse en tant que souveraine féminine."
+      }
+    ]
   },
   {
     id: "vallee_des_rois",
