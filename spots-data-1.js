@@ -16581,7 +16581,7 @@ const travelSpots = [
         text: "Un lieu de vie : L'allée centrale, autrefois un simple chemin, est devenue une allée couverte de capucines, véritable tunnel végétal qui mène à la maison. Le jardin est un lieu de vie et d'inspiration, où l'artiste pouvait observer et peindre en permanence.\n\nLe Clos Normand est un reflet de l'âme de Monet : un jardin à la fois sauvage et maîtrisé, où la nature est mise en scène avec une liberté artistique totale."
       },
       {
-        title: "Perspectives florales du Clos Normand",
+        title: "",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczMG2teIDSnEhHsoGAeLMwC77EH7OfjIGFTwN6BicxzH4HsQ-a3IRGV09hQf0_aknhGZJ8mmU0RC2p6kbyviUJTdqWBApWxSWcpDyY_O7yPYC3oHwvOmeWHYPe72H5YYXHPqzvF37zUqK2P9rsp1r4f7Pw=w1753-h1168-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczMXZk9ZC5Lvl7aLRDrXMtRs08s3EZxyzhkENCCdUvWEfA8HsGOBPDZBDJvz1QTIHiP3iZHWX9EnT929B7Bfl13q-XGtMh1bpgs18mEDrPu1KXHx7ve34jXlFZa9k8bJUE5nKUZX9usD03ZX1gk-Y_XPDw=w1753-h1168-s-no-gm?authuser=0",
@@ -16590,7 +16590,7 @@ const travelSpots = [
         text: ""
       },
       {
-        title: "Les allées du jardin et la maison en arrière-plan (1/2)",
+        title: "",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczOurTpcdQZOkgovTPY_43UIoXRwu9EGMzFgVpiluZOJqZnDVyON0XzosvyR-dxIWqqatwQrcqiffA7-OWJ_KX1vvXVo5gTlqDGbpLxXKIfoHHYAKJ6GuL-GeJNthg_0sydcXPC3QAR_v362R-KoXZU4vw=w1753-h1168-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczOpK_2kDHg6g1HTsL3ieGTMlWEaXmSOOy7FmOsqjK0SktW6BKTn6s-Q48rg1X_ItNFsQ1gVw1V3chnr7LCel0TP41gnWprl1Yx_1nTUy-1Oa-dsi5UU6RaCk9eVlhHTl9NeBPeYBhc5n1GrALI-Byc3_w=w1611-h2416-s-no-gm?authuser=0",
@@ -16599,7 +16599,7 @@ const travelSpots = [
         text: ""
       },
       {
-        title: "Les allées du jardin et la maison en arrière-plan (2/2)",
+        title: "",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczMdbsPK8NAi1A925zQUGCx517ncc7myzytYE40jliFwfkRGxgRQwUDdA-FCEEU5BNWJwjmiA7SMAuVSVaFj_9IE78Y7exgOEeuaZyHRJfyWfd709z99L25YXkqcgSBumnG2zhQTm8orcFVpb1sGLm8-nw=w1753-h1168-s-no-gm?authuser=0"
         ],
