@@ -15119,18 +15119,46 @@ const travelSpots = [
     subdiv: "Gizeh",
     altitude: 71,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    counts: {},
     lat: 29.9759,
     lng: 31.1308,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMHNGmnFZj13hTSsFRE_EgJi13hRa1xoGli6iRQk35QmGXAa75fhDRQkv-cbsbLIAE3L-xNaHhMYqwLQpyYQFLh930CuS2iPw8JHeTDi9U0hRv4j1M4zwMRuUgmGDOS7HZ5WElZshQSW2PvVqHipSwT7Q=w2650-h1766-s-no-gm?authuser=0",
     description: "Deuxième plus imposante sépulture monumentale d'Égypte par ses proportions et silhouette la plus reconnaissable du plateau de Gizeh, la pyramide de Khéphren s'élève avec une grâce souveraine au sud-ouest de la Grande Pyramide. Érigée au XXVIe siècle avant notre ère par le fils et successeur de Khéops à l'apogée de la IVe dynastie, cette montagne artificielle baptisée à l'origine « Khéphren est grand » culminait à plus de cent quarante-trois mètres de hauteur pour une base carrée de deux cent quinze mètres. Bien que légèrement inférieure en dimensions à celle de son père, elle produit l'illusion visuelle de la surpasser en altitude grâce à son implantation sur un promontoire rocheux surélevé d'une dizaine de mètres et à une pente plus prononcée de cinquante-trois degrés. Chef-d'œuvre de stéréotomie calcaire reposant sur une assise de base cyclopéenne en granit rose d'Assouan, elle est le seul monument du site à avoir conservé au sommet son emblématique coiffe de parement d'origine en calcaire fin et poli de Tourah, vestige étincelant de la blancheur immaculée qui enveloppait autrefois toute la nécropole royale.",
     visiter: "La découverte s'amorce par l'approche de la face nord où l'on distingue les deux entrées historiques superposées, la plus basse taillée à même le socle géologique et la supérieure débouchant à onze mètres d'élévation sur les assises de maçonnerie. Pénétrer à l'intérieur procure une immersion solennelle et sportive : on s'engage dans un couloir descendant étroit et pentu plongeant sous le niveau du plateau, avant d'emprunter un boyau horizontal franchissant la chambre des herses pour déboucher dans la chambre sépulcrale royale. Taillée directement dans la roche vive et coiffée d'une gigantesque voûte en chevrons de calcaire, la salle abrite encore le somptueux sarcophage monolithique de granit noir encastré au ras du sol, dont le couvercle brisé rappelle les audaces de Giovanni Belzoni qui redécouvrit le caveau en 1818 et y laissa son célèbre graffiti au noir de fumée. De retour à l'air libre, la promenade contourne le flanc oriental pour arpenter les vestiges du temple funéraire haut et la chaussée montante dallée s'étirant sur près de cinq cents mètres vers le temple de la Vallée et le Sphinx, offrant un point de vue magistral où la coiffe calcaire dorée se découpe majestueusement sur l'azur égyptien.",
-    link: "https://photos.google.com/share/AF1QipPZ5plJybSHlkaMCg-QIKLkGgV1kgRwxjK-SRbFE3kmL4y6GlisgTQGRQ3BriHiyg?key=akRKZVRKbDFYVGhPQ0V1SDJyaERNMVhDQkdmWDRn"
+    link: "https://photos.google.com/share/AF1QipPZ5plJybSHlkaMCg-QIKLkGgV1kgRwxjK-SRbFE3kmL4y6GlisgTQGRQ3BriHiyg?key=akRKZVRKbDFYVGhPQ0V1SDJyaERNMVhDQkdmWDRn",
+    sections: [
+      {
+        title: "Méthodes de construction et illusion d'altitude",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN8LFOq07SawCI_KFwpfbuv0kPstc8pAVAdq6tT_nUvi3zITG8oOJbvChBrTgXVf2f4MFeaQHf3CT9OrT109Jg9GokDfXKNiA8bgKnxXAf_ypbMIiHD5AAP9rswJ-I3E_Rb1J1WI4hCkWPA6IY_zBEs2A=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMpyyIRAXBvbuxHAuoJB75CZCIuc-GAmFwHDtOfCD0Z0Pw_j4w_90fKzoSpSlVoQM6jZdy3H87fZ2QHhLo2ceNE2jBFB44HG6akbIFbRwNR2NR-p15pGhdEhOwL_z8VA0hxSI_WRx-SjFl_72Cl379Cig=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "La construction reposait sur des techniques simples mais efficaces et une organisation magistrale :\n- Extraction de la Pierre : Le calcaire local (pour le noyau) était extrait des carrières adjacentes à l'aide de ciseaux et burins en cuivre ou en dolérite (pierre plus dure), ainsi qu'avec des maillets en bois et des coins en bois humidifiés (l'eau faisait gonfler le bois, fissurant la roche). Le calcaire fin de Toura (pour le parement) était extrait de carrières situées sur l'autre rive du Nil.\n- Transport : Les blocs étaient acheminés sur des traîneaux en bois tirés par des équipes d'hommes (ou de bœufs) le long de chemins spécialement construits et mouillés pour réduire la friction. Les blocs de granit rose (pour les chambres intérieures et les revêtements, comme au Temple de la Vallée de Khéphren) étaient transportés par bateaux depuis Assouan, à des centaines de kilomètres au sud.\n- Élévation : Le levage des blocs sur les faces inclinées de la pyramide se faisait grâce à un système ingénieux de rampes (droites ou hélicoïdales autour de la pyramide) faites de briques de terre crue et de débris. Les blocs étaient tirés par des cordes végétales (lin) et glissés sur ces rampes. Au sommet, le travail nécessitait des échafaudages et des leviers simples.\n- Ajustement : La précision des blocs, notamment du parement, était obtenue par un travail de polissage très fin et d'ajustement qui ne laissait qu'un joint minimal entre les pierres (particulièrement impressionnant sur la Grande Pyramide).\n\nLa pyramide de Khéphren est souvent perçue comme la plus haute des trois pyramides de Gizeh, une illusion due au fait qu'elle est bâtie sur une butte rocheuse plus élevée que celle de Khéops.\n- Dimensions et Pente : Sa base carrée mesure environ 215,5 mètres de côté (légèrement plus petite que Khéops), et sa hauteur initiale était de 143,5 mètres (elle est aujourd'hui d'environ 136 mètres). Son angle d'inclinaison est plus raide que celui de Khéops, atteignant 53°10', une caractéristique qui accentue son aspect élancé.\n- Revêtement : Contrairement aux autres pyramides, celle de Khéphren a conservé une partie de son parement original en calcaire fin de Toura sur et autour de son sommet, ce qui la rend immédiatement reconnaissable. Les assises inférieures de la pyramide étaient revêtues de blocs de granit rouge d'Assouan, ajoutant une touche de couleur et de luxe.\n- Alignement : Comme Khéops, la pyramide est alignée avec une précision remarquable sur les quatre points cardinaux."
+      },
+      {
+        title: "La blancheur originelle du calcaire de Tourah et le pyramidion",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO3IYsNs3sCi9DHK4rgJXeFo4dEkpkuSXF6qsAbDVTLZqUdvRaJ3a38ascwIyvIWUzbdjUCT3028OXS0S1tv0H39RKzoTgfOwdwizWHQ0_6crAkeahEuWWrxZzoL6WcVhraxmrclKoH2Tb5uCGoFAdGUg=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMXreCPJ1AVuydtBW-_knBq9PcXknPXP6dbRPdvUSybZWv31jSW3dliz0nHI6ThAuhpgrUoYUiOWsY45m_Q5rgE5VGHKnIpoPqDLief6Gty3YYzX9mD5J7bqwwO0sMjhWrTPmf9gWJo7VlOICXALcVDPA=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNeVHyDLQIfrMiuQxEsRi11-aSRmhaYyRBzyVw0CZhxgs76myTjoe_VozfclRnBD290vKU5K1E_6tOIuUbrikjbJ8WPQZomtQR33qhnv4FMUWpzhntkBoD7-0N7YMvHn-tIhiaiyfB_MJMprn58NoOtBg=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "À l'époque de leur achèvement, les grandes pyramides d'Égypte, notamment celles de Gizeh, étaient presque entièrement blanches et brillantes. Ceci est dû à la méthode de construction du revêtement extérieur :\n- Le Revêtement (Parement) : Après l'achèvement du noyau interne, les pyramides étaient entièrement recouvertes de dalles de calcaire blanc fin de Toura. Ce calcaire, d'une qualité supérieure au calcaire local utilisé pour le corps de la pyramide, était extrait de carrières situées sur la rive Est du Nil, près de l'actuel Caire.\n- La Finition Polie : Ces blocs de parement étaient soigneusement taillés, ajustés avec une précision extrême et polis jusqu'à obtenir une surface lisse et miroitante. Sous le soleil égyptien, la Grande Pyramide de Khéops, par exemple, devait resplendir comme un immense joyau blanc, visible de très loin, y compris du Delta du Nil.\n- Le Pyramidion : Le sommet de la pyramide était coiffé du pyramidion, qui était probablement recouvert d'électrum (un alliage d'or et d'argent), ajoutant une touche de brillance dorée ou argentée au sommet du monument.\n\nL'aspect actuel des pyramides, qui montre le calcaire plus rugueux et de couleur ocre du noyau, est le résultat de l'érosion et, surtout, du fait que ce revêtement de calcaire blanc de Toura a été largement retiré au Moyen Âge pour être réutilisé dans la construction des mosquées et des citadelles du Caire."
+      },
+      {
+        title: "La coiffe sommitale préservée de Khéphren",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMHNGmnFZj13hTSsFRE_EgJi13hRa1xoGli6iRQk35QmGXAa75fhDRQkv-cbsbLIAE3L-xNaHhMYqwLQpyYQFLh930CuS2iPw8JHeTDi9U0hRv4j1M4zwMRuUgmGDOS7HZ5WElZshQSW2PvVqHipSwT7Q=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "gizeh_pyramide_mykerinos",
@@ -15143,15 +15171,31 @@ const travelSpots = [
     subdiv: "Gizeh",
     altitude: 73,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    counts: {},
     lat: 29.9725,
     lng: 31.1283,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPKW5gJB4SQe9L8JzJUZxIUHCTz-jhPqsuU17BWoo7dNoR6Q3EGsJYFBVCi6D0MkJMsowjOAy3p0njZLfdieOWJNAQJFkSKkv9fK0Pln89d1XpKZXRwIZvnqhQ3AVKNDalUbaQ47TxMw8TyOAZSOGIpYg=w2650-h1766-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOeCJLjmfjc59cESoxk1HPqWmfxY1rQJRN11_a5blGYu5oUAjG_oYeu4CSGXAyO8k2IU_nWXZ2NSYV-AfqncuVfKPmJ3f1xfSkwCv41rW01Ee41QfxOoPUgxV3bfrrgcZtjSPEqMkXgH9UNjXM04V7RHA=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMp2b54SXBP2vXU9wrZeZRWpXKT0Seg5RYTZeib46GhbwPDZQ0McqvbOPq9OPzPiOcQEvQHytvVbWDi8uym-clT0x5TxFLHspaZ-zq_ExKe6ckfgzV0Bd20hDivcZZ30TGeYmBFRfFTdEb9oaB82mMvbg=w1753-h1168-s-no-gm?authuser=0",
+        caption: "L'accès à l'intérieur de la pyramide se fait par une entrée située sur la face nord, à environ 4 mètres au-dessus du niveau du sol. Le système interne est complexe et se développe sur plusieurs niveaux, en grande partie sous la structure même de la pyramide.\n\n1. Le Couloir Descendant : Dès l'entrée, un couloir descendant s'enfonce dans le massif de la pyramide et dans le socle rocheux sur une distance d'environ 31,70 mètres. Ce passage étroit et en pente est généralement bas, obligeant les visiteurs à se baisser pour progresser.\n\n2. La Première Chambre (Chambre à Panneaux) : Le couloir débouche sur une première chambre rectangulaire. Ce qui rend cette salle notable, c'est sa décoration : ses murs sont sculptés de panneaux reproduisant des motifs de façades de palais, un style que l'on ne retrouvait pas dans les grandes pyramides précédentes de Khéops et Khéphren. C'est la première fois depuis la pyramide de Djoser que l'on trouve une décoration intérieure dans une pyramide royale.\n\n3. L'Antichambre et le Système de Herses : Au-delà de cette première chambre, un couloir horizontal s'étend et mène à une large antichambre. Ce passage était initialement sécurisé par un système de trois herses de granit, destinées à empêcher toute intrusion. L'antichambre elle-même est une pièce plus grande, mesurant environ 14,20 mètres de long. C'est un point de jonction clé dans la structure, et sa position sous l'axe central de la pyramide indique une étape importante dans la planification du caveau royal.\n\n4. La Chambre Funéraire en Granit : C'est depuis l'antichambre que l'on accède, via un second couloir descendant, à la Chambre Funéraire définitive. Cette salle est entièrement creusée dans le socle rocheux, à environ 15,50 mètres sous le niveau de la base de la pyramide, et représente l'aboutissement du complexe funéraire.\n- Matériaux : C'est une pièce de maçonnerie de haute qualité, entièrement revêtue de granit (une preuve de l'importance qui lui était accordée).\n- Dimensions : Elle mesure environ 6,59 mètres de long sur 2,62 mètres de large.\n- Plafond : Le plafond est caractéristique avec une conception en voûte à chevrons.\n\nC'est dans cette chambre que fut découvert en 1837 le sarcophage royal, fait de basalte décoré. Malheureusement, ce sarcophage, d'une grande richesse historique, a été perdu en mer lors de son transport vers l'Angleterre en 1838, ne laissant derrière lui que les notes des explorateurs. La complexité et les différents plans intérieurs de la Pyramide de Mykérinos sont souvent cités comme des preuves de modifications et d'ajustements effectués en cours de construction, peut-être en raison de la mort prématurée du pharaon."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMBMUvWT766f4mdnHwlAfRd9kKGSp8zto_6BrQPkz6lGeym6KTE6lcNYUwBw7vONJG0OZVwECsIjFG7pFNBesyGPj-PSyKD-EaADY-J3D6RU5r7XXPMILP8Biypz4J36r6VNxX0mtGTAAZKf4uDCrd_4g=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Dernière-née et plus méridionale de la triade monumentale du plateau de Gizeh, la pyramide de Mykérinos clôt avec élégance l'ère des sépultures royales colossales de la IVe dynastie de l'Ancien Empire. Baptisée à l'origine « Mykérinos est divin », cette montagne artificielle érigée au XXVIe siècle avant notre ère par le fils et successeur de Khéphren culminait à près de soixante-six mètres pour une base carrée de cent trois mètres. Si ses proportions représentent moins d'un dixième du volume de la Grande Pyramide, elle compense sa moindre démesure par un raffinement de mise en œuvre et des matériaux d'une somptuosité inégalée : ses seize premières assises furent entièrement habillées de gigantesques blocs de granit rose d'Assouan acheminés sur plus de huit cents kilomètres, dont les bossages laissés bruts témoignent de l'interruption prématurée du ravalement à la mort inopinée du roi. Le complexe a également livré à l'égyptologie moderne l'un de ses plus purs trésors artistiques avec les célèbres triades sculptées en grauwacke représentant le pharaon flanqué d'Hathor et des personnifications des nomes égyptiens. Éventrée sur sa face nord par une impressionnante entaille verticale résultant des tentatives infructueuses de démolition ordonnées à la fin du XIIe siècle par le sultan ayyoubide Al-Aziz Othman, la pyramide conserve une silhouette émouvante et robuste au bord des dunes désertiques.",
     visiter: "La découverte commence au pied de la face nord où le regard mesure la puissance tellurique des imposantes assises inférieures de granit rose aux arêtes taillées avec une précision chirurgicale, avant de contempler l'immense tranchée médiévale qui met à nu les blocs du noyau calcaire intérieur. L'incursion souterraine constitue une expérience intimiste et technique remarquable : on s'engage dans un couloir descendant incliné à vingt-six degrés s'enfonçant à plus de trente mètres dans le roc géologique, franchissant une antichambre aux parois gravées d'élégantes niches à redans imitant les façades de palais avant de déboucher dans la chambre sépulcrale royale. Entièrement coffrée de massifs monolithes de granit et coiffée d'une fausse voûte en berceau creusée par-dessous dans d'immenses chevrons de pierre, la pièce abritait jadis le magnifique sarcophage de basalte à décor de façade de palais, tragiquement englouti au large des côtes espagnoles lors de son transport vers l'Angleterre en 1838. De retour à l'air libre, l'itinéraire se prolonge sur le flanc sud pour explorer les trois pyramides satellites des reines (G3-a, G3-b et G3-c) et les vestiges du temple funéraire haut, avant de reculer sur le promontoire désertique sud-ouest pour saisir l'un des alignements panoramiques les plus célèbres de la planète où Mykérinos, Khéphren et Khéops se déploient en perspective diagonale dans la lumière dorée d'Égypte.",
     link: "https://photos.google.com/share/AF1QipPZ5plJybSHlkaMCg-QIKLkGgV1kgRwxjK-SRbFE3kmL4y6GlisgTQGRQ3BriHiyg?key=akRKZVRKbDFYVGhPQ0V1SDJyaERNMVhDQkdmWDRn"
@@ -15167,18 +15211,46 @@ const travelSpots = [
     subdiv: "Gizeh",
     altitude: 70,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    counts: {},
     lat: 29.9713,
     lng: 31.1282,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPJ4tAYvM_fEjvjIPayyJFoQfxDjkO0Pe00gNUwgdbhJjh7DdSDp45pw8L4I5YPvb_g0RCt8V7pZ8Rx3zKI07C3ElLeG62U_h5hpAhVvrCow5vlngwJdtmuBlBYsEwWliHg8DOYOFYrY4-RwYSlTZYseQ=w2650-h1766-s-no-gm?authuser=0",
     description: "Bordant la lisière méridionale du complexe funéraire de Mykérinos face à l'immensité du désert libyque, la triade des pyramides satellites des reines — répertoriées sous les dénominations archéologiques G3-a, G3-b et G3-c — constitue l'un des ensembles funéraires subsidiaires les plus harmonieux du plateau de Gizeh. Érigées au XXVIe siècle avant notre ère sous la IVe dynastie pour abriter les dépouilles des épouses royales de Mykérinos, au premier rang desquelles figure sans doute la reine Khâmerernebty II, ces trois sépultures étagées d'est en ouest illustrent les fascinantes variations de conception architecturale de l'Ancien Empire. La plus orientale (G3-a), culminant jadis à près de vingt-huit mètres de hauteur pour une base carrée de quarante-quatre mètres, fut conçue comme une véritable pyramide à faces lisses pourvue d'un parement partiel de granit rose d'Assouan et d'un petit temple funéraire en calcaire et briques crues. En revanche, ses deux voisines occidentales (G3-b et G3-c), demeurées à l'état de pyramides à degrés composées de quatre à cinq gradins massifs de calcaire local, offrent une silhouette étagée d'une grande puissance géométrique. Elles rappellent que la monumentalité royale à Gizeh s'exprimait au sein d'une constellation dynastique familiale hautement hiérarchisée.",
     visiter: "La découverte s'amorce par l'approche piétonne longeant le flanc sud de la pyramide de Mykérinos, permettant d'apprécier d'emblée le saisissant jeu d'échelles et de perspectives entre le titan royal et ses sentinelles princières alignées au cordeau. En observant la pyramide G3-a, la plus complète du groupe, le regard s'attarde sur les vestiges de son temple de culte en maçonnerie et sur son entrée nord qui s'enfonce par un couloir descendant vers une chambre funéraire souterraine où Richard Vyse découvrit un sarcophage de granit rose contenant les ossements d'une jeune femme. La promenade se prolonge devant les pyramides G3-b et G3-c dont les parois à gradins dénudées révèlent l'appareillage robuste des blocs de calcaire nummulitique extraits des carrières voisines du plateau. En contournant l'angle sud-ouest de la dernière pyramide pour gagner la crête des dunes, le visiteur accède à l'un des panoramas les plus grandioses et photogéniques de tout le plateau memphite : le premier plan met en valeur l'alignement rythmé des trois pyramides satellites dont les ombres crénelées s'étirent sur le sable, dialoguant à l'horizon avec la masse colossale de Mykérinos et la coiffe étincelante de Khéphren dans la lumière dorée du désert égyptien.",
-    link: "https://photos.google.com/share/AF1QipPZ5plJybSHlkaMCg-QIKLkGgV1kgRwxjK-SRbFE3kmL4y6GlisgTQGRQ3BriHiyg?key=akRKZVRKbDFYVGhPQ0V1SDJyaERNMVhDQkdmWDRn"
+    link: "https://photos.google.com/share/AF1QipPZ5plJybSHlkaMCg-QIKLkGgV1kgRwxjK-SRbFE3kmL4y6GlisgTQGRQ3BriHiyg?key=akRKZVRKbDFYVGhPQ0V1SDJyaERNMVhDQkdmWDRn",
+    sections: [
+      {
+        title: "La pyramide à faces lisses G3-a de la reine Khâmerernebty II",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOR4hpGxzaLqM9RQP71-vGVMLxYSWPTa-usRGL_mA_Jagf653m_BEuMF7rh9hPhi4xeyYQ8gkj9dlR-rLiPRyzCfXdREnH96dxOlI-ELg8Ez-OFmOnYg1SBf2HI3wVjVYkX3vM_M__mr3eQFOe-3IOMiA=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO9Cbyg7kuRgOk8qbfMXK3qiipIO_U9kYjJKkjfv7OESCmyAGqk2kgINoAsAGgJ5uHlasgmgqfeY4h9JGlby0UZ9Rgc5EzJ2DUhgtbhNe2WE7GMK-4poDi1NedDTTGCNkVlTSQhyqFuEH3HSY13Ih9mrg=w1753-h986-s-no-gm?authuser=0"
+        ],
+        text: "La première de ces pyramides, G3a, est la plus grande et la plus orientale. Elle est la seule des trois à être une véritable pyramide à faces lisses, ce qui souligne son importance. Sa base mesure environ 44 mètres de côté et sa hauteur d'origine était d'environ 28,4 mètres. L'égyptologue George Andrew Reisner a émis l'hypothèse, largement acceptée, que cette pyramide abritait la sépulture de la reine Khâmerernebty II, l'épouse et demi-sœur de Mykérinos. Elle possède une chambre funéraire en forme de T, creusée directement dans le socle rocheux, ainsi qu'un petit temple funéraire en briques crues qui lui était associé."
+      },
+      {
+        title: "Les pyramides à degrés subsidiaires G3-b et G3-c",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPJ4tAYvM_fEjvjIPayyJFoQfxDjkO0Pe00gNUwgdbhJjh7DdSDp45pw8L4I5YPvb_g0RCt8V7pZ8Rx3zKI07C3ElLeG62U_h5hpAhVvrCow5vlngwJdtmuBlBYsEwWliHg8DOYOFYrY4-RwYSlTZYseQ=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOgjzyo3F8fxuCuGP7YnMbGqy-l5yG2qpy0nMZhZ3DFPOQU0rzomgwcRnepJzy8W24uicNHwrC9JMc9hOLO8tG2TTq_uUNfeK1k7Y4hueRZLidhW3-i2r5ZunEuJWmFO7ascBSHnGapRrT7dH_dxcrc1w=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMDHzLUa4TLpdRhwLZmDIZfHeM6tNdKiRMelbnwJTTMHh2oC2Z8G4OoQMEz-213I5F86tIMRRhLeameb9Qx92NdcTBOJnqkU6Qy5VuPzUMskS1kIc03xiEDVKRL5ZG5objBVXVoIhXAcIl2GVzkJKJuQQ=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Les deux autres structures, G3b et G3c, sont de plus petite taille et ont été construites comme des pyramides à degrés. Elles témoignent probablement de plans modifiés ou d'une construction réalisée dans la précipitation.\n\nLa pyramide G3b, celle du milieu, a révélé un sarcophage en granit rose dans sa chambre funéraire. Des ossements appartenant à une jeune femme, dont l'identité n'a jamais pu être confirmée comme étant la propriétaire initiale, y ont été découverts. Le corps pourrait correspondre à une inhumation postérieure ou à une autre épouse de Mykérinos.\n\nQuant à la pyramide G3c, la plus occidentale, elle est considérée comme la moins achevée. Son revêtement extérieur n'a jamais été terminé et sa chambre funéraire interne était inachevée au moment de l'arrêt des travaux. Aucune trace de sépulture n'y a été trouvée, bien que la présence d'une petite chapelle funéraire en briques suggère qu'un culte y était également pratiqué."
+      },
+      {
+        title: "Perspective méridionale sur la triade satellite",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNgUeMq1GndrRPllZMVmVNx2uHaTNrr05_ePM7aGlqgGN-VCOnHNn1ofV9MWPe3cGlWfmgKWJ4UA5HAVrOwbQjQVgS5s-gnifRNbcn96zNQnE0BrvraDih-Hw-a9TJlBYmn1yLrzwa082XP8XYkCVvQ0g=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "caire_eglise_saint_georges",
