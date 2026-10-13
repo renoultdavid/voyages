@@ -14796,18 +14796,136 @@ const travelSpots = [
     subdiv: "Saqqarah",
     altitude: 58,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Ancien Empire - IIIe dynastie)",
     century: "Antiquité (XXVIIe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    counts: {},
     lat: 29.8713,
     lng: 31.2164,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOeP15wzqe7pW0a5CwycfN3EShovzAz7KpqIHW2GWzMrb9XVNN3sbi6X4jKcDUIzv4JKfBoxGTsv7z39SP2CHY2t5TocTCVWeUHnYJvMRvTRq97eMq32DhoBAIgdJK0pQz-YUPH-m34PSuelB4L2ObnlA=w2650-h1766-s-no-gm?authuser=0",
     description: "Dominant le plateau désertique de Saqqarah avec une majesté fondatrice, le complexe funéraire du pharaon Djéser marque l'acte de naissance de l'architecture monumentale en pierre de taille dans l'Histoire humaine. Conçu au XXVIIe siècle avant notre ère par le grand vizir, médecin et architecte déifié Imhotep sous la IIIe dynastie, cet ensemble titanesque de quinze hectares révolutionna les traditions funéraires en superposant six mastabas de calcaire fin de tailles décroissantes, élevant ainsi la première pyramide à degrés du monde à plus de soixante mètres de hauteur. Conçue comme un escalier cosmique gigantesque permettant à l'âme royale d'escalader la voute céleste pour rejoindre les étoiles impérissables, la structure est ceinte d'une prodigieuse muraille à redans et bastions en calcaire blanc d'une blancheur étincelante s'étirant sur plus de seize cents mètres de périmètre. Vaste reproduction pétrifiée du palais royal de Memphis destinée à perpétuer dans l'éternité les liturgies du pouvoir pharaonique, le complexe associe cours cérémonielles, chapelles votives de la fête-Sed et cénotaphes souterrains, incarnant le berceau absolu de la civilisation memphite à son zénith.",
     visiter: "L'exploration commence par le franchissement de l'unique porte monumentale ouverte dans la muraille d'enceinte pour s'engager dans l'impressionnante colonnade d'entrée, où quarante colonnes fasciculées en calcaire figurant des gerbes de roseaux soutiennent un plafond de pierre imitant les rondins de bois. En débouchant sur l'immense Cour Sud baignée par la lumière éclatante du désert, le regard est foudroyé par la silhouette étagée de la pyramide se découpant sur l'azur, bordée au sud par la frise sculptée de cobras dressés (uræus) surmontant la Tombe Sud. La marche se prolonge vers la cour orientale de la fête-Sed bordée d'élégantes chapelles factices aux façades cannelées, avant de gagner la face nord de la pyramide pour contempler le célèbre serdab maçonné : à travers deux orifices circulaires percés dans la pierre, le visiteur plonge son regard dans les yeux incrustés de la statue assise de Djéser, veillant immuablement sur les offrandes depuis quarante-sept siècles. Depuis ce promontoire minéral, le panorama embrasse l'alignement des nécropoles d'Abousir et de Dahchour, livrant une émotion patrimoniale d'une intensité inégalée.",
-    link: "https://photos.google.com/share/AF1QipMYh6XdRx9VRSnZt3ue2OwEPUbvln_2602MFhakCcqwm2frL-IEJgT3vWg_o3BQhw?key=TXlFS1kzbXJtZERaQU9FOGFqUDJuVlVHTWtoNVlR"
+    link: "https://photos.google.com/share/AF1QipMYh6XdRx9VRSnZt3ue2OwEPUbvln_2602MFhakCcqwm2frL-IEJgT3vWg_o3BQhw?key=TXlFS1kzbXJtZERaQU9FOGFqUDJuVlVHTWtoNVlR",
+    sections: [
+      {
+        title: "Genèse et évolution architecturale de la pyramide à degrés",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOeP15wzqe7pW0a5CwycfN3EShovzAz7KpqIHW2GWzMrb9XVNN3sbi6X4jKcDUIzv4JKfBoxGTsv7z39SP2CHY2t5TocTCVWeUHnYJvMRvTRq97eMq32DhoBAIgdJK0pQz-YUPH-m34PSuelB4L2ObnlA=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Le monument est le résultat de six phases de construction successives, passant d'un simple mastaba (structure rectangulaire à toit plat) à la pyramide finale :\n1. M1 : Mastaba carré initial.\n2. P1 : Ajout de quatre degrés, créant une petite pyramide."
+      },
+      {
+        title: "L'escalier céleste vers les étoiles impérissables",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO3ZMzcJTPbuOYhvfw_yHKuQ2iGDGwSyKjHADB2qzDQcAHn-i1YVGgf85aFMde4JNrrTTsZGJvfjcQihujMOf0Dki6U3Ap8dQNnxgDnSdlBbKOnhfO-zR98DO0VLfM5YyWEEc_MPJ__8Rg7ByIZPErJYg=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOsnrT6aDLqbH57OpTw5Ly4rj55d8rdZ3tQSM4bSx7Qad3i41IHSwHsofiBNh99VGO1kxc0-6w_nsssuvmZ_loF6vF1MclYZJrkNUOKeKYVIzCZmmSSbJiFUV-O9pROK0i1IYDpK3a_e37vcRnynECraQ=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "La structure finale atteint une hauteur d'environ 62 mètres et repose sur une base d'environ 121 mètres sur 109 mètres. Sa forme en escalier était symbolique, conçue comme un « escalier vers le ciel » (échelle céleste) permettant au Ka du pharaon d'ascendre vers les étoiles impérissables et de rejoindre le dieu solaire Rê."
+      },
+      {
+        title: "L'allée couverte et la grande colonnade d'entrée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOz9fjaKsB69r94w2eLSJZ6WbaAPXJmcU-uAvUi_01mL2aqz7kp6Q0oGIycnH0GVMjhnE7v4SOT6qLh1sF0Kj_o-69O-cZ-S1nPpNT0_n4KKNkSvulTLMDmfURl8loDklVZzunoKNbgnA5Dgrq6b3XqQQ=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMYfJn379HUXvWx9lHtKtlFbewp74uuDrZeHHWV0WpWInmI_nEGA48elG1YF3gErmp1i8rd3ljiChFBm9VYvCvA4kLfXV4zkhRNX9WxBK6n7r5ypDDULNSUe8nutPWdnjq3O2UGAvoc5g4FsB1odybbQQ=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN5d-kLdnhsYSUcclzEGajjwFDcCl7RggCrHhV5pS2lNfPQTHGFuTdgFV4FYBWmkGcsfpfQGUwAbLt6awAjrtA3O2QV8RK8CQw8fjXzfp617QMwWJr5eZT0cnVpI-WUEL53V_CM09hDy1nh0_nSdam30Q=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "L'accès à l'enceinte sacrée se fait par une unique entrée monumentale située près de l'angle sud-est, conçue comme un passage rituel.\n\nEn franchissant l'entrée, on pénètre dans une longue allée couverte (la grande colonnade), véritable prouesse architecturale :\n- Elle se compose d'un étroit couloir flanqué de quarante demi-colonnes engagées (vingt de chaque côté).\n- Ces colonnes ne sont pas libres, mais reliées au mur adjacent. Elles imitent des faisceaux de tiges végétales (peut-être des joncs ou des roseaux) ou des fûts de bois, mais sont réalisées en calcaire taillé, marquant la transformation d'un matériau périssable en pierre éternelle.\n- Le plafond, également en pierre, imite l'aspect de rondins de bois, renforçant l'illusion d'une construction en matériaux légers traditionnels figée dans la pierre.\n\nCette colonnade, aboutissant à une grande cour, servait de sas rituel, préparant le visiteur (ou l'offrande) à entrer dans le domaine du pharaon divinisé."
+      },
+      {
+        title: "Cours cérémonielles, fête du Heb-Sed et serdab royal",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO9eAOWSFJ9PCr8ejBLx6atGtzo1dgnSx3wC3fzk83_HUVrNqfARgtcLePcHBBGNsZenVhCm9gaGqxHcvpUrmT690Cv-7lkEy_gfj5PjV-woV-r21E7T_0tt5DUot9RBFEFaTVt73IRF0Z659LudskmIw=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNlwC1eN4Y6aEte0vjQfbRCrZ3JHO8FO8tCspVaus0DlU55FtiiBVZsnEclTKjK8MblXiMWnJ5aYo-RyXNcejZHKzEfiCTEtiOw16d5wzhIN1pIVb-dC_rYsT2YHAwkUjbIeT2aeubFmLyArycghkhtRA=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMHd5vq9fy2h0ZXHrZN3ZUmJv1V0oYZrWr-l4OhVGfgLx3XsbWooyDXuEZjbClDqkw42bBpEha9Z0DA3efw8DIOYb9KhmEyIFSmL7XK2XqXRgCYpfsyQUQbXXqqi8hUnI4YEcRMIyKn6O84nIUuAS0MUw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Le complexe funéraire n'est pas uniquement la pyramide elle-même, mais un ensemble d'édifices cérémoniels et un vaste réseau souterrain.\n\nLes Cours et Chapelles (Extérieur Cérémoniel) :\nAutour de la pyramide se déploient plusieurs structures essentielles :\n- La Grande Cour Sud : une vaste esplanade probablement utilisée pour les courses rituelles symbolisant la régénération physique du pharaon lors de la fête du Heb-Sed (fête du jubilé).\n- La Cour du Heb-Sed : située à l'est, elle est bordée de chapelles factices dédiées aux divinités provinciales, où le roi célébrait symboliquement le renouvellement de son pouvoir.\n- Les Maisons du Nord et du Sud : deux pavillons symbolisant les palais de Haute et Basse-Égypte, réaffirmant l'unité du royaume sous le pharaon.\n- Le Serdab : une petite chambre scellée, située au pied de la face nord, qui abritait la statue de Djéser grandeur nature, permettant au Ka royal d'observer les rituels funéraires par deux petits trous percés dans le mur."
+      },
+      {
+        title: "Le dédale souterrain et les faïences bleues-vertes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNWl_2a89WazxdKdcLmKOr-3m9BF70AEsm1wouTYZamIJ5kOALAmpIcCyFUWIL6Sf8fYy-qIZZJfKjiVXBt93dR1W3GzJo4ptYvN6N5pJf0OWuJUdxao8INTcrMGpHBq4oq4UYUmByYNt8IRzDVH0u3pA=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMpFQepetEgPSRfJpgKhWt9aIUIlx-gEyXVR0MMlp-PrQDv5otBMflMBpX-y_3aOS-dtvYHGu8DJ_OWRSE4XqCn6GOs6oViRzAZ6K3GqiL_pIKQNypFhQxmUUEAwa6ozAuz-HJfDbN3yfRRCJsEfLzNqw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Sous la pyramide se trouve un labyrinthe complexe de galeries et de puits, taillé dans la roche, qui constitue la véritable sépulture :\n- Le Puits Funéraire Central : un grand puits vertical de 28 mètres de profondeur et de 7 mètres de large mène à la chambre funéraire royale, originellement recouverte de blocs de granit.\n- Les Galeries Sud : elles comprennent des chambres décorées de manière unique avec des milliers de carreaux de faïence bleue-verte, imitant l'aspect des nattes en roseaux et des portes en bois d'un palais des vivants. Cette décoration est l'une des plus remarquables de l'Ancien Empire.\n- Les Tunnels de Stockage : le réseau contient des kilomètres de galeries destinées au stockage du mobilier funéraire et des provisions du roi, ainsi que des sépultures secondaires pour les membres de la famille royale.\n\nL'ensemble du complexe de Djéser témoigne de la puissance centralisée de l'État sous la IIIe dynastie et de l'extraordinaire génie d'Imhotep, faisant de cette première pyramide un véritable microcosme architectural et symbolique."
+      },
+      {
+        title: "Enceinte à redans et façades cannelées",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMbm9gJg-ZNVjj6bax5ujnXjRyEIEpcFC9mkKZO9LsoKMyoYogi3IEsVsSjXJ9v4Zsfoo2pVJEmNsW7tezGS80acL54On2KGk9NrlHtLMba5yZJZgjnWGQ_-EiiZrFo495sbWObUHWHsG5MV6_-aEFy2w=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM6Ll4oTCXMfIbC6cAcjqgyvjAUCDFso0eAlPbxBPbd4EqztOR3nGzZmWE8udE4qeqOP4Etz27BRJkmZ08OputhR7oTn3Bokq9Gv3WjHbEohzv_H4NXNWGH4rh5NIXKZDgdzmun7woUN55JToGRzho2ww=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le mastaba usurpé de la princesse Séshéshét Idout",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOdzf1Bw1dZ0CsefdXSAPzghV6U_-mufwqjfIS_UiQiabEUN1aqiRdBUoj0Q7cs2u1Le5DZhQahdepz5w7MHb0fQEjztYcIXlL6nCOcqVrGseZLDmelmUqfGGWu4YI_k8r7lCSvMI9ftAtbuFXX9eiEmg=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMisskVzUlhqVicGcU5qXDWjVQXhZpsgDnpOTkOl07g3XjJmBKs90A_J-__Np09kV0-crd6BZXC3KLbCGDA81ZZ4BZK761Khlt3gJZgbDBmYY7Hv9fg00SCwDuY9V4pmrk9XcNjyJAznCV7yCycDDFu6w=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "La tombe de Seshseshet Idut (ou simplement la Princesse Idut) est un mastaba situé dans la zone du complexe funéraire du pharaon Ounas (ou Unas) à Saqqarah. Elle est célèbre pour ses reliefs d'une qualité exceptionnelle, offrant un aperçu vibrant de la vie quotidienne et des rituels de l'Égypte antique à la fin de la Ve dynastie et au début de la VIe dynastie (vers 2350 av. J.-C.). Fait intéressant, la tombe n'a pas été initialement construite pour Idut. Les égyptologues pensent qu'elle a d'abord appartenu à un vizir de haut rang du nom d'Ihy (ou peut-être au fils d'Idut, aussi nommé Ihy). Après la mort du propriétaire initial, le monument a été usurpé pour le compte de la Princesse Idut.\n\nCette usurpation est visible dans la structure et les reliefs :\n- Les cartouches et inscriptions du propriétaire initial ont été soigneusement martelés et remplacés par le nom et les titres de la Princesse Seshseshet Idut.\n- Cependant, une grande partie des scènes de la vie quotidienne initialement sculptées pour un haut fonctionnaire ont été conservées, ce qui enrichit considérablement le répertoire thématique de la tombe."
+      },
+      {
+        title: "Faune du Nil : chasses aux hippopotames et scènes de naissance",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOqIIGO71Q94XnuToVkb7cVDykD-77kR9ClqhSqvHG474Su3dIdZwkzW_FUjErMN9dTWQbXVW8zZvfgVQ-x3ASwJBmMYIty08fEmnHsZJuq3zcZKopGMlXQmanq8QwsFqBB3h6U-TVI8lnHqMms4nExQQ=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOD78E8awVvH2hdeACTo7DhcrtJl3Xo7Majetvor7UDm5QtZly5H8OhWtk_Uc_TknvXe851GaSbz747GHrOYQ4_3aIz0-5K-uF4WDkvN819KCB_2K_TyYfY-1k20ftwxUTVeIg8w6tEfaW7lBazNJ8BHA=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Contrairement aux tombes royales qui se concentrent souvent sur les offrandes, cette tombe présente des scènes dynamiques de la nature :\n- La Chasse à l'Hippopotame : une scène spectaculaire montre des hommes dans des bateaux de papyrus chassant l'hippopotame.\n- La Naissance Unique : un détail particulièrement rare et célèbre montre une femelle hippopotame en train de donner naissance à son petit, tandis qu'un crocodile rôde à proximité. Cette image symbolise le cycle de la vie, de la mort et de la renaissance.\n- La Pêche : des scènes détaillées de pêcheurs utilisant des filets-épuisettes et de la vie aquatique (poissons, crocodiles sous l'eau).\n- Scènes Agricoles et Pastorales : on y voit des bergers traversant un canal avec leurs troupeaux et des activités de moisson."
+      },
+      {
+        title: "Cortège funéraire sur traîneau et abattage du bétail",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMg2oH67YUDPZEYNWWoNZdA7zIxNP_qMcSWzyZ8PRD0ZqcGJKtkLFD7szVFxt3mnbYx7PT6Va5-nmbM9cq0Ypwpgv8zzZ3lsYF3AYK6DjLLPwpMnxkfCXYRFL_bhwwtZnlb9o7Eh2hNxMqdLQiZsHSBpQ=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO5157Z9J9oRw1vYko4Rz54ha0Ll7UOykmtSiu0zMfSs5F77c5JIzhyorGPbQz2h3HJ-1jlEHrQHH7LuzXPRVk6UX6gbAPVZsHz7qgRQhnNf5tBM0kGJzZM1CYDkZfSnw_d60802qUJEKiBr9XpUO0qWw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "- Le Cortège Funéraire : un bas-relief représente la statue de la Princesse Idut en cours de transport sur un traîneau jusqu'à sa sépulture, un serviteur versant rituellement de l'eau devant le traîneau pour faciliter le glissement.\n- Scènes d'Abattage : des scènes classiques montrent l'abattage rituel des bœufs, destiné à fournir de la nourriture éternelle au Ka de la princesse."
+      },
+      {
+        title: "Défilé des porteurs d'offrandes pour l'éternité",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMyGLb0X7_GE5h5PjJaF5i343yvTJIaiLJGwTRWok3J0z5MdSZoGrK0Ki9-zXHDA0O6OaBarAbyiMifLMlTNYqwgfgqM3osLftlb2xUULeX6stq6xShRUCujHiJD4wlt90VICtJbObitjUdp2wm-CFdiQ=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM_fYcB8ufCUI9SYvxqkYWkP3tM0_-Lr_B7YHgarqdJwI6exruzDUmaOBJy64ktaBgjSGM7iY6JCkDU2tWRJl6A63swWRD_rqGz4MlVEH9L2Wlpd_S4ITsMBje7_NDLZGz7IMd2nCB_blM2H0Nz38afVA=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Procession des Offrandes : des porteurs apportant des offrandes (nourriture, bétail, volaille) pour assurer le confort d'Idut dans l'au-delà."
+      },
+      {
+        title: "Le grand mastaba familial du vizir Méhou (VIe dynastie)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP1OHJR0Cr_VR2N-Yxg1osktfqoq9wqLEUqUBX1VsYC7SlFtOLBmY5tfVgdwgT9wGsgwR19pYVMTsrV41tXpG_uILknPtF6sKMjTlfPupDoh3s2YdmeTtIt_g1y97ZnUB9QANkxjVPiZ4yxoPczJII3HA=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOgumCjRt4ktMmfQzpEbXbGwz9Ec0wlJ46cu6HxnCmhwwryNBB8mybYr7WYwExKZ1ntJRl4M70DI_cuTFfmQaCMsV1Ly-UqerkR5Ijh7QBLtcacqCTLOZD0zC20mwG0XRs2CXzwMxEp6l1WgAYvcO5EgQ=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN-dscepZnfF9vWgxYLbh49yvt6OqcO8kydz-yrabE8wo0I1Y9IM6d-HL-0G6BR_xn2kD2sc452I5X0o3OpWa_6T73snuSwdtEBClzV08SFuRvS_rsDrwtwBpeASYwb3Z2lINi24_l2C2Hs-ua5Re24Hg=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "La tombe de Mehou (ou Méhou) est un mastaba spectaculaire datant de la VIe dynastie (Ancien Empire, vers 2323–2291 av. J.-C.).\n\nMehou était un fonctionnaire de très haut rang ayant servi sous au moins deux pharaons, Téti Ier puis son fils Pépi Ier. L'étendue de son pouvoir se reflète dans les 48 titres prestigieux inscrits sur les murs de sa tombe. Le mastaba de Mehou, découvert par l'égyptologue Zaki Saad en 1940, est resté fermé pendant près de 78 ans, ce qui explique en grande partie la conservation exceptionnelle de ses couleurs. Il a été ouvert au public pour la première fois en 2018 après un important travail de restauration.\n- Type et Emplacement : il s'agit d'un grand mastaba, aligné Est-Ouest, à proximité des grandes structures royales, témoignant de l'importance de son occupant.\n- Plan : la tombe, d'une superficie d'environ 512 m², est un complexe comprenant six pièces au total, dont quatre salles décorées principales et trois chambres funéraires (une pour Mehou, une pour son fils et une pour son petit-fils)."
+      },
+      {
+        title: "La cour à portique et les fausses portes imitant le granit",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNdyWYzj1rFCThiQAAPP1YPZstyq7oL2g07nHEUv0P_LnJ6hjX0Wf6_3r4OpXG_yU5eYNtFqdG29QXh1ySvevezzzqAOSMSX7ihVxzXDnEpAkaVEnMdkVmIzr60eOqV6jVSzjbxJ0tvDKDNte5aiI2o0A=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNvSV6Ipf64r4OeyHm-K07MwUumJqL55WQ3wQVw-v2gRFPXihh0L3VcN5WUILvfiRwbc0t1TFZ0mjCT1RoBkBkHx0BjGvxNuZliCrF0hD59c1K_McHT_YRXBwUT7ir9XzJlwCQg__JHdkNIeSpsZY12sA=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Le complexe funéraire, d'une superficie d'environ 512 m², s'articule autour de six pièces, dont quatre salles décorées et trois chambres funéraires souterraines (une pour chaque membre de la famille). La superstructure s'ouvre à l'Est et mène à une cour à portique dotée de piliers carrés sur lesquels sont inscrits les titres de Mehou. Des fausses portes peintes en rouge, imitant le granit, y servaient de seuils symboliques entre le monde des vivants et celui des morts."
+      },
+      {
+        title: "Scènes musicales rares et l'inédit animalier de la tortue",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMWNzG62usY87rrm9b6KRltRF1VFahvfpuaRXGCKI6PcFXMUPKf260T4-vBbuGOV3uTW3b3bmMjjMtJdjUa8MaR5y4f2pmYuUCeIN_JZeAYgPh1sgQHDnQzxSUgjuIqLYFihg0JA7GDYd2vRxcFXMNDgg=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPQAzIvaBIRh15Y-78AUe3CNChHfUbUnfT0nfIjigJdKSrmoSd5VlV_An0Kd-5y83O34heQyAq8w73IfFt0toSfpiH7je24PwkmD-HdT5eYevrsbDjiDZZcMYuXJykF5HIOxZOUIDteTCFC2zzgWIRvSQ=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Le cœur de la tombe réside dans ses chambres intérieures, qui offrent un répertoire iconographique complet et unique. Les murs déploient des scènes essentielles à la survie éternelle du vizir : des processions d'offrandes, l'abattage rituel du bétail, des scènes de chasse aux oiseaux dans les marais et de pêche. Mehou est souvent représenté dans sa splendeur, bénéficiant des biens et des services qui lui étaient dus. Parmi les détails les plus remarquables, on trouve des scènes de divertissement montrant des musiciens (harpistes) et des danseurs acrobatiques, un motif rare apparu sous la VIe dynastie. La scène la plus célèbre est sans conteste celle qui représente des crocodiles et une tortue, un événement animalier jamais observé ailleurs dans l'art funéraire égyptien et qui témoigne de l'originalité du programme décoratif commandé par le vizir.\n\nLes chambres funéraires sont accessibles par des puits menant aux sarcophages, celui de Mehou ayant également livré des vases canopes. L'ensemble du mastaba de Mehou n'est pas seulement un tombeau, mais une véritable capsule temporelle qui illustre le luxe, le pouvoir et la maîtrise artistique des artisans au sommet de l'Ancien Empire égyptien."
+      },
+      {
+        title: "La fosse tardive d'Amountefnakht et la pyramide à textes d'Ounas",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN0LXWCH66Ria8NDgEfQX1CZDRbMvgtOq22NY97MWs9_rlHKnPmnFP5zlnxhgAIbqrkp-4Z99mQM6zP3rQD0p0iaxOk_CWs4_7w-7uKEYVdapExAWE7dGCAB32OpzlfMUCBAcTSSVfMg674IDIHMMHAyA=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNPKEFMpjWs8gFerFsZs6OQsEqw5VDUkMcoNocDjix1cpLRvRRGwb_13pTrhBoBLB9h03Dn6ZL6GNqh3j6i-C2GbELvNgsO_IcS3Pv8aeG-iz46ENPaU5n-ybp0mifKy3x2dFf5oqpmC_OovVLdMa1L9w=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Gauche : l'utilisation de Saqqarah s'étend jusqu'à la Basse Époque, comme le montre la fosse d'Amuntefnakht. Ce dignitaire a vécu sous le pharaon Apriès (XXVIe dynastie, vers 589 av. J.-C.). Sa sépulture est non pas un mastaba, mais une tombe à puits vertical extrêmement profond (jusqu'à 27 mètres). Cette structure souterraine, typique de cette période tardive, faisait partie d'un complexe de sépultures creusées dans le sol pour déjouer les pilleurs, illustrant une toute autre approche de l'éternité, axée sur la protection plutôt que sur la splendeur architecturale de surface.\n\nDroite : la pyramide d'Ounas est la sépulture du pharaon Ounas (ou Unas), le dernier roi de la Ve dynastie. Bien qu'elle soit aujourd'hui en grande partie en ruine, elle est extrêmement importante car c'est la première pyramide à avoir ses appartements funéraires (chambre et antichambre) décorés de gravures connues sous le nom de Textes des Pyramides. Ces textes constituent le plus ancien corpus de textes religieux funéraires connu de l'Égypte antique, destinés à aider le roi défunt dans son voyage vers l'au-delà."
+      }
+    ]
   },
   {
     id: "gizeh_temple_vallee_khephren",
