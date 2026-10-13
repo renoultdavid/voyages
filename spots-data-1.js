@@ -15790,17 +15790,71 @@ const travelSpots = [
     subdiv: "Alexandrie",
     altitude: 10,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Mamelouke (XVe siècle - 1477)",
     century: "XVe siècle",
     category: "chateau",
+    counts: {},
     lat: 31.2139,
     lng: 29.8856,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM13vA2rHUSd8nbsCJnjcTWMmu5-7efmRa9GNfTdAALv1g-qnbbPTmQi2kruc9TtMboTZKwWRIzXqqlaFApyByrTpXInr8sIQ5JmwirArmb5evu2BZ6uMwg4nm-l3zNxWgtcu91BuEfT6CgDhRFGE1mLg=w2650-h1766-s-no-gm?authuser=0",
     description: "Dressée fièrement sur la pointe de l'ancienne île de Pharos à l'extrémité occidentale de la grande corniche d'Alexandrie, la citadelle de Qaitay s'impose comme l'un des bastions militaires, maritimes et défensifs les plus spectaculaires de la Méditerranée orientale. Érigée en 1477 par le sultan mamelouk al-Ashraf Sayf al-Din Qaitay pour fortifier le port face aux menaces navales de l'Empire ottoman naissant, cette puissante forteresse de pierre fut bâtie en grande partie sur les substructures et avec les blocs de granit écroulés du légendaire Phare d'Alexandrie, l'une des sept merveilles du monde antique détruit par de séculaires séismes. Ses hautes murailles crénelées en calcaire ocre, rythmées de tours circulaires robustes et d'embrasures d'artillerie, encadrent un donjon central imposant d'où les garnisons mameloukes surveillaient le large. Témoin exceptionnel de l'architecture militaire islamique du XVe siècle et gardien séculaire de la métropole méditerranéenne, l'édifice fusionne la mémoire du monde antique et la grandeur stratégique de l'Égypte mamelouke.",
     visiter: "La découverte commence en empruntant la longue jetée fortifiée qui s'avance dans les flots bleus de la Méditerranée pour aborder la porte principale de la forteresse. En franchissant l'enceinte, le visiteur accède aux cours intérieures pavées et aux salles voutées en pierre calcaire qui abritaient jadis les casernes des soldats, les mosquées castrales et les immenses réserves de munitions. L'ascension vers les terrasses supérieures et les tours de guet offre un panorama maritime absolument époustouflant sur le port oriental d'Alexandrie, les vagues venant s'briser contre les blocs antiques immergés et les toits de la ville moderne. En regardant attentivement au pied des murs et dans la maçonnerie, les passionnés d'archéologie repéreront des colonnes de granit rose, des chapiteaux et des blocs de pierre pharaoniques ou ptolémaïques réemployés directement dans les fondations de la forteresse. Cette halte magistrale au grand air marin constitue l'introduction idéale pour s'imprégner de l'âme cosmopolite et maritime de la fiancée de la Méditerranée.",
-    link: "https://photos.google.com/share/AF1QipPnYxYd2vfMd4_DmM5RWpIX_sRIZg9egw2MezXjyuS4hRUOZMcQgFW5CKniHiDTTA?key=eHNQd3I3ZlFiejBtZUtsdWMzam14V2lka1BOZi1R"
+    link: "https://photos.google.com/share/AF1QipPnYxYd2vfMd4_DmM5RWpIX_sRIZg9egw2MezXjyuS4hRUOZMcQgFW5CKniHiDTTA?key=eHNQd3I3ZlFiejBtZUtsdWMzam14V2lka1BOZi1R",
+    sections: [
+      {
+        title: "Fondation mamelouke sur les ruines du Phare antique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM13vA2rHUSd8nbsCJnjcTWMmu5-7efmRa9GNfTdAALv1g-qnbbPTmQi2kruc9TtMboTZKwWRIzXqqlaFApyByrTpXInr8sIQ5JmwirArmb5evu2BZ6uMwg4nm-l3zNxWgtcu91BuEfT6CgDhRFGE1mLg=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMIGowa_nx0r8SnBggVpoo0xYuOMfMP5gXSIl5sWYQTlGTFfg2UoEoCQxr9R0PsSHiO_EOlaJN45hlSi7pSPEpQbdlcyTUpv2KLe0oIWPg7Zr1lmGOG5mWMAtQHl8E_j1Ju2p8uNEZDVcJs7D2n5u0IAw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "La Citadelle de Qaitbay doit son existence à la disparition du célèbre Phare d'Alexandrie. Après que la structure du Phare, affaiblie par des siècles de tremblements de terre, ait été définitivement démolie par le séisme de 1375, le site de l'ancienne île de Pharos perdit sa défense côtière.\n\nFace à la menace croissante des Ottomans, le Sultan Mamelouk Al-Ashraf Abou al-Nasr Qaitbay ordonna la construction d'une puissante forteresse défensive en 1477 (an 882 de l'Hégire). L'architecte Qagmas Al-Eshaqy supervisa les travaux, qui durèrent deux ans, et la citadelle fut inaugurée en 1479. Il est dit que le sultan Qaitbay dépensa plus de cent mille dinars en or pour cette construction.\n\nLa citadelle fut stratégiquement bâtie en utilisant une partie des fondations et des blocs de calcaire et de granit provenant des ruines du Phare antique."
+      },
+      {
+        title: "Architecture défensive, donjon carré et mosquée castrale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOToIXfdE8wvd41FmK6UqakVkkX7s7LhSS7cDJ-Kkm8-eSs-YPy3LW5rhd6l1zxJb4aqiVNa4tVBBhDdI2cXp_Isdf62PvAtYHQKKpjuMdtY0s2oFKg7oN_DQAIi-drEhvhoGneDFr9yfGJ9fgmm9pXIw=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPcMVthSDKEbwAtaeUnYz1q2TKEU0NDXuTvKXWslSkWaFNxh_2llp_DzNaBehbBd1i6mrtM6nikpUUNKZBAX9YnzCsZVXnBoBMR6dE6Pqvlkh9tETclRjXjR_auAuCkJnysozxD-Qf21JlYDrWIhM1XNA=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOH8o7q5mzbad1ZsJFQMUnw2PwbIMjbTFmT9slb1fyVYT-nWlEMctU3Hinn3AuaKIdgat1mCeLHhVZe1tzrb-eViscVBYLxsPqoXGZKPYOVZWeDKcK2H9XpjqTVecItpXmGU4FgvRpd3TrJs7bleLN6vQ=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Le bâtiment principal est une citadelle carrée et massive. Il est dominé par une haute tour carrée située à l'intérieur de la cour centrale, dont les quatre coins sont flanqués de tours semi-circulaires.\n- Matériau : Elle est principalement construite en calcaire blanc et jaune (souvent décrit comme gris ou ocre).\n- Fonction Militaire : Conçue pour résister aux assauts maritimes, la forteresse était équipée de remparts massifs, de meurtrières, et d'un espace pour l'artillerie côtière. Elle servait de poste avancé et de base navale pour la défense d'Alexandrie.\n- La Mosquée : À l'intérieur du donjon (la tour principale) se trouvait une petite mosquée avec une cour, utilisée par la garnison et le sultan lors de ses visites."
+      },
+      {
+        title: "Sentinelle ottomane sur la Méditerranée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPkjVdy1LZ3oNUYRYClU1qr_5q_lis2YhG140pm0yrmRrmKe-trkRoldRXsvBJBC3YP8bNK60sSZQk_ainE0AGtJlM0IDMXFRpVoCCw3aH36bq8ISDWrKXr8ZTWt3sgilnMt0FAR4Ibo4BwreXgWmTXaQ=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOUuvkWoZDCnQKPNvMVChhHiqwTLcZlW81uDcEoYc5l5QMMod12MFJWnZbfaZ5rTGbTGqitwIqpXNodOqgLkY8dFvxIjP8fbiU8FuIJ5r6HDh00ioFMUc7vy2MJDX-jsaAo8gLHRy4JKs5hhwkWTqbzJw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Malgré sa construction solide, la citadelle a connu une histoire mouvementée, reflétant les conflits politiques de la région.\n- Période Ottomane : Après la conquête ottomane de l'Égypte en 1517, la citadelle fut maintenue et entretenue, conservant son rôle de poste de défense contre les menaces européennes."
+      },
+      {
+        title: "Modernisations de Muhammad Ali et bombardement de 1882",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNxP8l4oM9QiT-zopC-WOHUbx9xwvVuVdfJSTeVtmw8_KReLWd0PiFK5ri3Ji2hM8w6mgbPJMQ9_Omjcc9_CK0xZchNOh1xUxD9yu6kcJFk0DAXJ0vhq4zi3nZwlkg8DfgxaYbj-QUroDTMA73m4Y1uqA=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMFfJVOuPFiJCdoJRwQ9J2jpk2MZZXQMdIIRbTGDSct98aekbfD8P83pgj_5kp3UIA5Y559qqsnm5YMg1__HDbFir-XV-f8h63plvq5zwFx8HlR98_dARQK8u-amUJ08N51qa90WZIIISuicbfodlmzkg=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Période de Muhammad Ali : Au début du XIXe siècle, Muhammad Ali Pacha, souverain de l'Égypte, rénova et modernisa la forteresse. Il restaura les remparts et l'équipa d'armes modernes, renforçant considérablement ses défenses.\n\nBombardement Britannique (1882) : L'événement le plus destructeur pour la structure fut le bombardement britannique d'Alexandrie en 1882, qui endommagea gravement la partie ouest du fort."
+      },
+      {
+        title: "Restaurations contemporaines et musée maritime",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOF-DxeVLwE10W5SOxZyec1UL1JBgIErEUTGGzdhEbrmeVrjiWDLuTzVu-sJt4vXGMAcvoCeFKUa-q1LZxSthDUvIwm36JW3J077nFdbPd0htg41rvyTgEtroZG6nNzc3-MJGF2ITzoy_TfjDRKc2Bdhg=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMo-wJX7qLugEjvhUvBm7rY3BUTgX25gSVDQH6mYu4MhKsUQSEhOF3o17HkuL6p4uMGV9bmP_EMqRru4mvhTSHYxuKsFftFsEBKPZYzCi5jmk5H0tFXsIM3ep5xss5HLLhNYzd3NKlWCjCZX6u8tGTPvQ=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Après cette période, la citadelle fut négligée jusqu'au XXe siècle. Elle a bénéficié d'importantes séries de restaurations, notamment sous le roi Farouk dans les années 1940 et par le Conseil suprême des Antiquités dans les années 1980, qui lui ont rendu son aspect actuel.\n\nAujourd'hui, la Citadelle de Qaitbay n'est plus une structure militaire mais un musée maritime et une attraction touristique majeure, offrant des vues panoramiques sur Alexandrie et son port. Elle est un témoignage physique de la transition entre l'Antiquité (le Phare) et l'ère médiévale mamelouke."
+      },
+      {
+        title: "Murailles crénelées et vue panoramique sur le port",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPoUX9oJvZtkxZL2GBfQ9rPVeknSqMuNOPK9-yyszKV1CVqC-tPofWrBliV8ViXGUHcVnaihpy4PkA8USZg4RRMh96eB9PiDuzwx3ZzSXrClN7BdNPZlKi05wPXE8bVh76e-DPWukHE-pv6MUvjiuktng=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPDBZCmBHy-IzmT-aMfmBPWNdOOPw0JY-ms7aMuKHYkdpGX5_lRkCZpOyyGe5Mux0kkivE8FxPLfxDsafi3qw8-6zRrNFpZ53Lc0PrVjx4BwM2sPcvIe13LB-3WVdIr7FjYRS70S7tHgrLQM2U_jPm__A=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMcTj_id7XunNnMjc4g15H-QJT_TQeSlBDYGdeUuK7TP5TzLmAVCtNvC2bnMXlchGGYXT6UK5wD5wKj4GbeBdWRt7XYwH67grFh4eNqcEwjMmUVWgJQwGR5MoV4APZQ9ErqrvdREXz-FmFCDJ4VXlWYZg=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "alexandrie_stanley_bridge",
