@@ -16154,12 +16154,57 @@ const travelSpots = [
     era_label: "Époque Génoise (XVIe siècle - 1562)",
     century: "XVIe siècle",
     category: "rando",
+    counts: {},
     lat: 42.7184,
     lng: 9.3284,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMJZxrY8toY64F7BFxDsmqaxYEDxY9HN9b2NY0rMk8xnLUHSsgd4TdQ2ucSKJjdzSCqaIpEnSFMS2gvFbz5zysBVivKQXiCAyGLmdhIMzkrV7rk3SMrZczJkJnnlN3T3zxd23xpiDrEz1Ppvupq_1YZBg=w2948-h2219-s-no-gm?authuser=0",
     description: "Sentinelle sauvage dressée sur le littoral occidental du Cap Corse entre Patrimonio et Nonza, Farinole déploie une côte rocheuse tourmentée où la rudesse du schiste vert et des falaises plonge directement dans les flots turquoise de la Méditerranée. Témoin privilégié de l'histoire maritime insulaire, la tour génoise ronde bâtie en 1562 veille sur les anses marines et les déferlantes qui viennent fouetter les galets polis et le sable ocre du rivage. Le sentier des douaniers qui serpente à fleur de crête et en corniche offre une immersion totale dans les parfums entêtants de myrte, d'immortelle et de lentisque courbés par les embruns marins. Les contrastes chromatiques y sont d'une intensité saisissante, mêlant le bleu profond du grand large, la verdure argentée du maquis littoral et les nuances sombres des affleurements rocheux balayés par le vent d'ouest. Cet écrin naturel remarquablement préservé incarne la beauté brute et indomptée des marines corses, où chaque crique isolée murmure les récits séculaires des guetteurs d'autrefois.",
     visiter: "L'itinéraire pédestre s'aborde idéalement depuis la marine de Farinole ou les abords de la tour génoise pour longer les reliefs découpés surplombant les criques secrètes et les platiers rocheux du rivage. La marche en balcon dévoile des perspectives grandioses sur le golfe de Saint-Florent et les crêtes montagneuses du Nebbio se détachant à l'horizon. Les amateurs d'exploration marine trouveront dans les eaux cristallines bordant les récifs un terrain de jeu exceptionnel pour le snorkeling et la plongée, révélant une vie sous-marine foisonnante tapie entre tombants de roche et herbiers de posidonie. Les plages de sable et de galets invitent à des haltes de baignade vivifiantes dans une atmosphère paisible loin des fortes affluences. En fin de journée, l'exposition plein ouest transforme le littoral en un théâtre flamboyant où le soleil couchant embrase les tours côtières et la mer, offrant aux promeneurs une halte contemplative inoubliable au cœur du Cap Corse sauvage.",
-    link: "https://photos.google.com/share/AF1QipPxc5QdKcOU0QmdDvl5D9EF4pPEd0SIms-Nsinc6b5yLpoO369hYwpzX592PVZRNw?key=OWZVUnZLSk9kQWJJZS11ODg5VE52WmUxcEpxb3dB"
+    link: "https://photos.google.com/share/AF1QipPxc5QdKcOU0QmdDvl5D9EF4pPEd0SIms-Nsinc6b5yLpoO369hYwpzX592PVZRNw?key=OWZVUnZLSk9kQWJJZS11ODg5VE52WmUxcEpxb3dB",
+    sections: [
+      {
+        title: "Tracé douanier, traverses génoises et géologie de transition",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNdDFqTJpAqFIoEJ8uptNisA2Z2n7oPG56U0tjjs0OquaIHP4wKmSPAyQG2Zf2ucLc69YIN23dCjsEGfvuDRbu4qwLU5Laj5VXTTs-SSw5KjLZUHN0PgiF6815roVPyacTqyZ7Q3oq8pAjkUEcemuVSpA=w1753-h1174-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO62uCSu1zK3Wm_RxWKRI65nCEfLgJ2qhIhfGenbiTBv1Yq_hjlLqpn66VEX5ZwRbUup6WuhnmRczVXERulQiuJJ1lsAP9gfrnKnsc8znWc3gTUnVrwT12w6tI_yovgdiwO3xXno30gZ1uvvgCk1yx4VQ=w1753-h1174-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOXzBKVYwq8PhQPqr2AkEEH4bCyCGcsyBonsxlRAsXRweueshQFi-2aZxDAaUiDSluSdDZ-y878K48uJIF_MwAItzIru1_Ef6PYzJDCbn4YRHATjVdDISGg6GQ2sRauHJJiRh9UxUzuCN-OghGyco9ZJA=w1753-h1316-s-no-gm?authuser=0"
+        ],
+        text: "Tracé et entretenu sous l'administration des douanes au XIXe siècle afin de surveiller les criques et d'endiguer la contrebande maritime, cet itinéraire pédestre réutilise en réalité d'anciennes traverses littorales génoises et des sentiers pastoraux reliant jadis les marines de pêche aux villages perchés. Le parcours serpente depuis la plage de galets de la marine et permet d'apprécier la transition géographique et géologique singulière entre les schistes lustrés du Cap Corse et les affleurements calcaires lumineux propres au terroir de Patrimonio."
+      },
+      {
+        title: "Profil du sentier en balcon et panorama côtier",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO2LZKG3ftYUx3CnuPpkUL8By9dxbHcu7sIIe17wT-jSiZhoI923cEjgtybG_6G71b3q6JlaQaOWqq9Z2537mXjW4HIE1SYtYMF1HP8r0bhOChvMQwOugbtftWtB-t6MBZrK_TdKBmDkjt6YsiRId-huQ=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP2Rm2S9vsYUBQzKie5H4VlDKussuVCmlUCJ10sKqadMDZYo9QPgNe6GX4iHHji67SPGWymBz1gd-WIVy01Iv7CsMsFFvk5UzMWAnYt6pdaJ4NO35iObH1FoslfAKUVLk4mswo2uqzRxLJvUSPKs6tBHQ=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPjunH0ar0HUVlbrp-4j9mqxaSvJaKdroWVx48A3UFv76la8wl2RAEMJeQYUbvrnBabI_ZY_uaAzwp7GVXgdd1NEfdp2oaD1ve2l9Pa2sW_U9_8YxJOZy3FSoh1yr5ySevdfnlvRdd5gooHkrftFeBm4w=w1753-h2329-s-no-gm?authuser=0"
+        ],
+        text: "Le tronçon aller compte environ 3,5 km (soit près de 7 km pour l'ensemble du parcours aller-retour), demandant entre 1 h et 1 h 30 de marche par trajet. Bien que le sentier ne comporte pas de difficulté technique particulière, ses cheminements étroits à flanc de falaise restent déconseillés aux marcheurs sujets au vertige."
+      },
+      {
+        title: "L'incursion marine miocène dans le bassin de Saint-Florent",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMJZxrY8toY64F7BFxDsmqaxYEDxY9HN9b2NY0rMk8xnLUHSsgd4TdQ2ucSKJjdzSCqaIpEnSFMS2gvFbz5zysBVivKQXiCAyGLmdhIMzkrV7rk3SMrZczJkJnnlN3T3zxd23xpiDrEz1Ppvupq_1YZBg=w1753-h1319-s-no-gm?authuser=0"
+        ],
+        text: "La présence de calcaire entre Saint-Florent, Patrimonio et les abords de Farinole est une véritable curiosité géologique sur une île presque exclusivement partagée entre le granite à l'ouest et le schiste au nord-est.\n\nCette enclave sédimentaire blanche s'explique par une histoire en trois étapes :\n\nL'incursion marine (au Miocène, il y a environ 15 à 20 millions d'années) : Lorsque le bloc corso-sarde s'est détaché du continent européen pour pivoter vers sa position actuelle, l'écorce terrestre s'est fracturée et affaissée localement. Cette dépression tectonique — le bassin de Saint-Florent — a été immédiatement envahie par la mer, formant une baie marine chaude, peu profonde et très calme."
+      },
+      {
+        title: "Sédimentation biologique et formation des calcarénites",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPnLkj_yadz8YUNioqMxPsKO0CKDWKjjgbw0sTMiK_wjBfwU5HgH0W99f-bAvsBK3c8o2Zmj_HF2Zq8LBcWKe5I3FUBJcw1AxhWb-M8UP3XUCHDjXZ3xfDcz2hVLH8oHtNczLrw49FPc9jlacUfNXy_eA=w1753-h1319-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNiB_Lj8bnjzuObwjf9S1wXYVqC4SWdqzQlvgCUmS45JsJqlfxBpBoAq5EmOZCCPRe3_GKaIbTCA7kxKKr0uQiBYQgwkMR6TXj0is_3crDKSKlXDuYind0FnHr6eN5sSz5rz6ZwMRX5VPImO-7lJKdCLA=w1753-h1319-s-no-gm?authuser=0"
+        ],
+        text: "L'accumulation de débris marins : Dans ces eaux tièdes et bien éclairées pullulait une riche faune marine composée d'innombrables coquillages, d'oursins, de coraux et d'algues encroûtantes. Pendant des millions d'années, les carapaces et squelettes riches en carbonate de calcium de ces organismes se sont déposés au fond. Sous l'effet de leur propre poids et de la sédimentation, ces débris se sont cimentés pour devenir d'épaisses couches de roche calcaire (des calcarénites)."
+      },
+      {
+        title: "Soulèvement tectonique et minéralité de Patrimonio",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMWMmjzZkKVvzIfrERu5BEDGmo2uh6T8R8KEyTc-4yNI1YpBwdcoXiNBZQoC33E2gXyIhrC7927k_H3-c4WLUwqpHfYzquuiDHmX1PZNr5ksy83QDplHCyAsF0hNXnNdS5QT2WTNRoYWhzmAZOJkLQkWw=w1753-h1319-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOKByQaXRbLKIWTjziyl53mKpo0bpYBACmj1sTbMxbOLRaxOjlxjAMZNMf8EHeFoxCUUvdbhy4CaR3xX2gqri0voc07uLFM78EV2HdYObIFLFpSjpTGfJ4AyJxFz2Q52FzbiverUh5s0c4de2ODJVnzYg=w1753-h1319-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOrhnlTVbSuWX_wMMiQxZ4LLRkMNi5F_dCW49GArZH8dcnHIebxpSKvg03p5WYZZRFasNdIfsTYSt5yIZiGa3XjBaMFbxmVrnG0fqcH-DBnXmGrNBYsJBhrRmT9IZzFkRA8ItWh4tbFFlOLLQwu9q-rtQ=w1753-h2329-s-no-gm?authuser=0"
+        ],
+        text: "Le soulèvement à l'air libre : Avec la suite des mouvements des plaques tectoniques et le retrait progressif de la mer, ces anciens fonds marins ont été soulevés et perchés hors de l'eau, puis sculptés par l'érosion.\n\nCe sont ces anciens dépôts coralliens et coquilliers qui forment aujourd'hui les falaises lumineuses de la côte et le terroir alcalin si particulier de Patrimonio, qui apporte sa minéralité caractéristique aux vignobles de la région."
+      }
+    ]
   },
   {
     id: "chateau_de_chambord",
@@ -16172,18 +16217,127 @@ const travelSpots = [
     subdiv: "Chambord",
     altitude: 83,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "renaissance",
     era_label: "Époque Moderne & Renaissance (XVIe siècle - 1519)",
     century: "XVIe siècle",
     category: "chateau",
-     unesco_name: "Val de Loire entre Sully-sur-Loire et Chalonnes",
+    unesco_name: "Val de Loire entre Sully-sur-Loire et Chalonnes",
+    counts: {},
     lat: 47.6162,
     lng: 1.5177,
     image: "https://lh3.googleusercontent.com/pw/AP1GczM7mR674pInWi3CIFiACN_huSA7_QS14yjUxkwPE-hba4tXIFqjuJXp-clNqLgFhDyqtpdAJGQcvX4fp1Bv_mklfoTgZ7zTA5RnJ-b6Hx04kD3lUoFJmu9sIs3b92tRaAzRozLVagaHPnM5dK0jX0mcjA=w3092-h1739-s-no-gm?authuser=0",
     description: "Chef-d'œuvre absolu de la Renaissance française et emblème étincelant du pouvoir de François Ier, le château de Chambord s'élève au cœur du plus grand parc forestier clos d'Europe, grand comme Paris intra-muros. Commandité en 1519 comme un somptueux pavillon de chasse destiné à exalter la puissance royale et inspiré par le génie visionnaire de Léonard de Vinci, l'édifice déploie une silhouette monumentale unique associant l'architecture traditionnelle des forteresses médiévales et la fabuleuse exubérance décorative italienne. Son emblématique donjon central abrite la célèbre et spectaculaire structure de l'escalier à double révolution, où deux personnes peuvent monter et descendre simultanément sans jamais se croiser tout en s'entre-apercevant à travers les ajours de la pierre. Couronné par un foisonnement féerique de tourelles, de lucarnes sculptées et de cheminées qui se découpent sur le ciel de Sologne, le domaine incarne la quintessence du raffinement esthétique et de l'ambition architecturale des monarques de la val de Loire.",
     visiter: "La découverte s'amorce par l'approche de la vaste esplanade royale bordée par les bras canalisés du Cosson, offrant une perspective saisissante sur la façade monumentale de calcaire blanc. En franchissant le seuil, le visiteur accède au grand escalier central du donjon, point de départ idéal pour explorer les salles meublées, les appartements historiques de Louis XIV et les galeries abritant de riches collections d'objets d'art. L'ascension se poursuit vers les vastes terrasses panoramiques qui ceignent la tour lanterne : depuis ce point de vue aérien exceptionnel, le regard embrasse à trois cent soixante degrés les toits sculptés, les chimères et l'immensité verdoyante du parc domanial clos de murs. La promenade se prolonge à l'extérieur par la découverte des jardins à la française récemment restitués au pied du château, ainsi que par les sentiers forestiers invitant à la contemplation de cette merveille architecturale classée au patrimoine mondial de l'UNESCO.",
-    link: "https://photos.google.com/share/AF1QipNG8HeDSAtuw9AUKuzP37jrxBArcjYVnQ4MjEBobSitUF4sSfQQ8VBP047xuVjBpg?key=d2VlWmZSbks1S1JyZGhENUdGWUZERHVnR0MtMk5n"
+    link: "https://photos.google.com/share/AF1QipNG8HeDSAtuw9AUKuzP37jrxBArcjYVnQ4MjEBobSitUF4sSfQQ8VBP047xuVjBpg?key=d2VlWmZSbks1S1JyZGhENUdGWUZERHVnR0MtMk5n",
+    sections: [
+      {
+        title: "Façade monumentale en tuffeau et symétrie royale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM7mR674pInWi3CIFiACN_huSA7_QS14yjUxkwPE-hba4tXIFqjuJXp-clNqLgFhDyqtpdAJGQcvX4fp1Bv_mklfoTgZ7zTA5RnJ-b6Hx04kD3lUoFJmu9sIs3b92tRaAzRozLVagaHPnM5dK0jX0mcjA=w1753-h986-s-no-gm?authuser=0"
+        ],
+        text: "La façade du château de Chambord est un spectacle à elle seule, une véritable composition architecturale qui reflète la transition entre le style médiéval et la Renaissance italienne.\n\nElle est avant tout remarquable par sa symétrie rigoureuse. Les quatre tours massives situées aux angles et les deux tourelles plus fines encadrent une façade parfaitement équilibrée. Le rythme des fenêtres et des portes est régulier, donnant une impression d'ordre et de grandeur.\n\nLe château est construit en pierre de tuffeau, une roche calcaire blanche qui lui confère une luminosité et une élégance particulière. Cette façade est richement décorée : on y trouve des pilastres, des corniches et des médaillons sculptés qui ornent les différentes parties de l'édifice."
+      },
+      {
+        title: "Le corps de logis central et le donjon (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN-RUlUBIv_696gq7igm5iwIUZ3P-zor_M0y64GFaFSlRPglzGM3SWQ8CQZaP4s6gFPW9fc_LSTPcAEchiQ6G9Qs3ttzTkrn9ft96vfhLatc0MXk6zaOF_RZJBaO4C9FEgU8kD3KZIT5Vsx_E6mzrlfhg=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPrM4-Q7u-aNpHaV9L6dRDdfI-L-phmRhxeQXSnPx8Fwg_R-RyLgPgcTXiCr8a8-mLp0lcE8a0cOgEZ8FEpjKOCbxM8mdFpvTdJsuIFydvXNcI1OiSxFsWfLLDFpZsySXenAOmxCH0lmgs2bVyoBZwu7w=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNFFKM33elT44MJ-LKaycW8zm-2AJgO4lTbWPfVOt7ebF4m5l0ph3fiYMF7Iy4ju4uhOKOUmXt57GOelZC5arNjpAsdyfvqyMFrudiyGIhgcgr58fgaNcEcPGATTwzOXn6tKqAoPPm4bvz7Nph7VakaGg=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Enfin, le centre de la façade est mis en valeur par la saillie du corps de logis principal, qui abrite l'entrée monumentale. C'est le point de convergence de l'ensemble, et c'est aussi là que se situe l'accès à l'escalier à double révolution, le cœur du château."
+      },
+      {
+        title: "Le corps de logis central et le donjon (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOyoH6KhU4oZSnKA5uaqm9V-8xCKYSQdGihJ10Nb4KMdc8cuou58Y8I-SEr6jK6Ne9F6gjRluEOmVz1PRvhWdBSCIklRKHtK3MOfpscYnv6wVwScgQrdzZXFYQMtxWrLcVGNmyyqFQDkTurlvCrH-dCqw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "L'axe central du donjon de Chambord",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPkQeKkxAf9w7VJMDabfgwgL_Ar6UG-3OTmaZp2IAGirRVss7ViMycicEp3JsZmV2PhISiUgOiESjADM_yYuuPjBLoYr0S39jBFJLDwkWmKmMzZbRkToIgoe3AHtgrJLjMOWXycs6pJyP-m3OncNOBuuA=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "L'escalier à double révolution est l'une des caractéristiques les plus fascinantes et les plus célèbres du château de Chambord. Véritable chef-d'œuvre d'ingénierie architecturale, il se situe au cœur même du donjon, tel un axe central autour duquel s'organise le reste de la bâtisse."
+      },
+      {
+        title: "Le concept de double révolution et l'empreinte de Léonard de Vinci",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMDinmQU2W9P1wdPvcOJ_4W_M0HCkPiiyGXPz8R54SHCd9-pH_0Kw2g3wyGPrRuNxIRk7qtU4_4SUZNJj6iQvjg5wTrAwrXcpaVNvS4pZbMdD9MZYxC4hgXJnHJYYVJ1apC8SJHrgmmcVEgqY-NzHpzrA=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNFQcR7FyClFo3-adrFeEsjbLNjN1eE1mVkkKJeOJoXyGtv51lWcLVRWGqTF2qGGhvHc99qxZZLJa4CkoryIcw3P2-f8VWQNv8Qwxm1SCVg9PXEWsGHwebzo-7fJihKzH5BgXl1X0IkVVeHs4BY03eKNw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Le concept : Il est constitué de deux volées de marches qui s'enroulent l'une autour de l'autre, formant une hélice parfaite. Elles ne se rejoignent jamais et se terminent sur des paliers différents à chaque étage. Ainsi, deux personnes peuvent monter et descendre en même temps sans jamais se croiser ni se voir.\n\nL'attribution : Bien que l'architecte exact du château de Chambord soit inconnu, on attribue souvent l'idée de cet escalier à Léonard de Vinci, qui a vécu les dernières années de sa vie en France, à la cour de François Ier, et qui aurait eu une influence majeure sur l'architecture du château. Ce type de conception correspond tout à fait à son génie et à ses recherches sur l'ingénierie et la mécanique."
+      },
+      {
+        title: "Fonctionnalité sociale et circulation de la cour",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN3rWFravHapdIkc0yjqZ7tb8Ekcfp376eiCMF_6B1J03B1IUn2Xngfb1KChF-GhtnAjO6t0uzq7h4CPpAyi86oS3zaklTbeAHHqAhCqyO6Maqa9Hk9rZ1OIyWtZNu35lJ58Y05pwg7QDYKk1UevK-Cjw=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPCDNLujXJ_QGzyxOCAswMgHbNqAAKpbmCSiPM_Lp6Mi1czf04CbLBkUgS8Q-KJsvJcrsAe8eu5Rm4kXV0yMoeqMJHoSCvpI9woIwQRGqVLzSFPs4LUonHltFnTh9qUX9sjUYDi-nicEY8SYhd5Oj-9IA=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "La fonction : Au-delà de son aspect spectaculaire, l'escalier à double révolution avait une utilité pratique. Il permettait à la cour du roi de se déplacer d'un étage à l'autre sans gêner les allées et venues des serviteurs, qui empruntaient l'autre volée de marches. Cela préservait l'intimité et la hiérarchie sociale de l'époque."
+      },
+      {
+        title: "Puits de lumière zénithale et couronnement de la lanterne",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMyJutBx9_JpvnnmVJJk20Gk38FSahF05BSrbb5h8ngdBMVgyD0ORq-F05Edf-n25E2X9Vq7snnI5b_09D5nrETXADxtX0-OQhDh1Sv2E0EoybFa-lu-RRfgPlERR9ttQf-jvijdpW66s8MISM0pwcvfg=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNZrkXgreqYqdKAoDT68kA7RoZKNKtuYLfWA_IcAS0WxEdb98uwCd6z8KERmjWn6t6uTGHvwMOKKIdNcaBVV_zpvCsJ1pLEX104iP_-y5AxUMVz0EpltiyOq6d0Cg_C6lNo0HqMcXRgUGIxwm0X-Lu0Kw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Cet escalier est un véritable puits de lumière. Il est ouvert vers le ciel et couronné d'une tour lanterne, ce qui permet à la lumière naturelle d'illuminer l'ensemble de la structure, depuis le bas jusqu'au sommet. C'est une prouesse esthétique et technique qui renforce la sensation de grandeur du lieu."
+      },
+      {
+        title: "Les cuisines de la Renaissance et l'art des banquets royaux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPpCPNB10KuVHDqAP_QPcDjYIyMP8Qh_ZXYuWwy99n8LO4UoslwW-wE14KUMq3WVyXlfvy8cCw2qyZ4bWxvZVSb1aabLLz9knfqHJRgNcW6cPNcRpiQnByXursb2TAxCyEkaXodYlPH6XJ5I1j6g909vg=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMZ4zU79krL2r2h-hMdA4s7k6OaIyniBbbZ5r6C-_tqfwJIpH59pWU3Q7VVOKG819zftDgYyXdHYF-UrXwPFGckXDXi5Us74sRnKQMz56UDyy1yaFFDh5l6399O6_lkC_rUcKhe6vuSk8KEvKi7E5tLWw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Les cuisines du château de Chambord, restaurées et ouvertes au public, nous donnent un aperçu de la vie à la Renaissance et des festins qui s'y déroulaient.\n\nSous le règne de François Ier, la cuisine était un véritable spectacle, et le repas une mise en scène codifiée.\n\n- Une cuisine de chasse : Chambord étant un pavillon de chasse, le gibier (cerfs, sangliers, faisans) était au cœur des repas, souvent préparé en rôtis. On consommait aussi d'autres animaux, comme le cygne, la grue ou le héron, et des viandes plus maigres comme des escargots et des grenouilles.\n- L'influence italienne : L'ouverture sur l'Italie a profondément transformé la cuisine française. De nouveaux ingrédients comme le sucre, les légumes (artichauts, petits pois, asperges) et la dinde, importée d'Amérique, font leur apparition sur les tables royales. Le sucre est utilisé aussi bien pour les desserts que pour des plats salés.\n- Des saveurs et des épices : Les épices restent très présentes, même si elles sont utilisées avec plus de parcimonie que durant le Moyen Âge. La cannelle, le clou de girofle, le safran et le poivre long étaient très appréciés. On y ajoutait des herbes fraîches comme le romarin ou le persil.\n- Les services : Les repas se déroulaient en plusieurs services, dont les principaux étaient les « potages » (viandes bouillies), les « rôts » (viandes rôties) et l'« issue de table » (les desserts et friandises).\n- La conservation : Pour conserver les aliments, on utilisait des techniques comme le confisage, la salaison, la préparation de pâtés, et la mise en confiture."
+      },
+      {
+        title: "Logis royal et appartements itinérants de François Ier",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM98ikmIrDqu3nHY5pfyGPiPjBKtaNEU9AWWK8JJcchRsfJKIsJhBFHZfqZ6t6b4NWgCUDiec5pwBGU8efMNHiopjraFePZ-fBYayBjYdM97Npw2s793fxyiLszVmvD2xwQtgqYY4EceT-IO-kepvG7Jg=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNOrcJnBoTBpWy_lqwE6_PeWgkwsjUzV2ofUMKyeVvDNQVYBSJpHGtNtWdwZ4vOcQavqmC0wXNRZknn8HOxzqu8MtpTTQtzJXHMC7nq1pbzyqjozxOcQLlhZvEjypwze15qzxNEk07j1TAWGuFDLQKe6g=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMWoBPyxlH5WvgP0-Poz0m_SiHxcygfu6LBMzuHoKTbRI_9P8fJ3l5H8WDuXVuUW-oQHqcYvoyA9jO9qtIXPpr_DyuncHtdkNNyYnrx97lSQzZ4I9jeA0DCmN-TOU4dzs56clBl0UWwyOg2fJ1F1ji3jg=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Dans le château de Chambord, les « chambres » ne sont pas de simples lieux de sommeil, mais des espaces multifonctionnels qui reflètent l'art de vivre et la hiérarchie de l'époque. La cour étant itinérante, le mobilier des appartements était souvent transporté, ce qui a rendu leur aménagement et leur décoration particuliers.\n\n- Chambres multifonctionnelles : Les pièces principales servaient à la fois de chambre à coucher, de salle de réception, de bureau, et de salle à manger. Le lit était généralement placé près de la cheminée pour la chaleur et pouvait être séparé par des rideaux pour plus d'intimité.\n- Le logis royal : Au-delà des chambres d'invités, François Ier se fait aménager un logis royal dans l'aile est du château vers 1540. Il est composé d'une grande salle, d'une chambre, d'un cabinet et d'un oratoire. Ce logis servait à la fois à ses besoins personnels et à ses obligations officielles.\n- La chambre de François Ier : Cette pièce, comme les autres, était couverte de tapisseries pour l'isoler du froid et de l'humidité. Les tapisseries n'étaient pas fixées, ce qui facilitait leur transport. L'ameublement était lui aussi facile à démonter.\n- Les chambres des courtisans : Les chambres des courtisans étaient conçues sur le même modèle que le logis royal, mais sur une plus petite échelle. Elles étaient situées dans le donjon, autour du grand escalier central.\n- Les aménagements ultérieurs : Au XVIIIe siècle, des modifications ont été apportées pour améliorer le confort, comme l'installation de parquets en remplacement des sols en terre cuite ou la réduction de la hauteur sous plafond par des toiles plâtrées. Ces aménagements visaient à rendre les pièces plus faciles à chauffer et plus intimes pour les occupants permanents du château."
+      },
+      {
+        title: "Plafonds à caissons : salamandres et monogrammes royaux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM7-YLjGqncoyV05iLidch68GIu-HZN4V_wo1KGKuboDnMson7z0oseiOPTFIz6gIWVIyXv2PHM5hZkBrZAGE3QVvq358jQO3g0jafU8GcfntbrVPvqruOTNPbp5cllk262rJ52r93Nxd0t89Tryu1eXQ=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOC2Y7g743-tacN9dxrhmn5ZiCT1WrqWHOjOsTF2j-XACjVQmOL3gUSwcS3DDdSn3g4s3HyhbHqlAMYmumBp-Jh_hbaJWj2Y8jxdaH_Ai95Pn-54JJPQOLEr3jgj_qedh2OLs1w6FZ6yYk6FN7o8q8Mig=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPUweFal_Y72NISiNvM4ZN7HC90vtiu7dEVx6xvCI0rQIVHTH77zQvC_1IGEAHEyubAw2kEU_b8w8wNxnxKMLLV7MJChsru3_dpDn4erLHH6VtwxMrmo7_PetdxCwgRHrPFc6FVFFUNuLxNcDMewFt2yQ=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Ces plafonds ne sont pas de simples voûtes. Ils sont composés de caissons, c'est-à-dire de panneaux sculptés qui créent un motif géométrique répété. Chaque caisson est orné de deux symboles majeurs, martelés avec une précision extraordinaire :\n\n- La salamandre, emblème personnel de François Ier. Dans la tradition médiévale, cet animal mythique était réputé pour vivre dans le feu, le traverser sans se consumer. Le roi l'a choisie pour symboliser sa capacité à triompher des épreuves. On la retrouve partout, souvent sous la forme d'un dragon crachant des larmes d'eau.\n- Le monogramme de François Ier, la lettre « F » ornée de ses initiales.\n\nLa répétition de ces motifs sur des centaines de caissons était une manière pour le roi d'affirmer sa présence et sa puissance dans chaque recoin du château, même en son absence."
+      },
+      {
+        title: "La tour lanterne, couronne sommitale de l'escalier",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOEKzqUP-yunz-A5qrC7qGf9zRdB6s5x-hgR37hfxjQ29_kH9bN1aWvt48dvgTri1wYHRBf8afkilPSR9ZucLiREyv6DSgZUDYQk0b-LvxyDBYqH9ZXDGEvgBJXpfeaE9zBtl9hcA9lFVU2dRS8CVjxhA=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM3HH8qPivqFoPKbULZODR2fMDkw5GinFFaHD2IZCsB0AoDRdzH7i7U4GIugsr6ejLH4xYA-bURb-Hrpcxc6-MvV_5m9mLSq9nNoEe99A_1SIUEV2MEGhrep6ZkDHdVu0KuYtstMRl-HdkVwF76vENFNA=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNXe1qsyf3CnJ5DW_2JBrYHvhHLjZrSA8UPVGiOsenAIfAnz3UxLTooA2HvL1kHZtpELIFgSNPPH6Q40FqJS2HE3cqzzneyishfAtdN1cbsCttaHhRsQNB4IOcy3eY5VKSz8X_zuCEIVTWXdmfREvrjMg=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "La lanterne est la structure la plus haute et la plus symbolique du château.\n\n- Couronnant l'escalier : Elle se dresse majestueusement au-dessus de l'escalier à double révolution, qu'elle vient coiffer comme un chef-d'œuvre.\n- Puits de lumière : Sa fonction principale est d'éclairer l'escalier. Elle est ouverte à son sommet, créant un puits de lumière qui inonde de clarté le cœur du château, du rez-de-chaussée jusqu'au toit."
+      },
+      {
+        title: "Fleurons et fleur de lys du faîte royal",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNDRNWE0C0YNN2XSbA8UulcpVP6KpPEsFapOkuCQyrHwY8je87pdA4uXlmijtkHGvhD-DFvRa596GE01kmdTdFIJjxpaGiWuOCb0kdmJV6vqCYisZIMzBl0jRWGmCFfr4iuuhgWfA2eLdm-f_LBRKZc3A=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO0viZ1wgucvb2xwzvabfAJXKe60xdQh6JK1TJe8iKDFzVBkiiaslVR3TWfONXRno25KGuL9dR760pZgsUHTryCbdIyshofZznFNikktqYiuU1H1dQ_hnYDYVgn1THG-k2FV-xsKX5JNqD5_hyVtx_3Cg=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Le point culminant : C'est le point final de la composition architecturale de Chambord. Ornée de fleurons et surmontée d'une fleur de lys sculptée, elle symbolise le pouvoir royal de François Ier. Elle attire le regard vers le ciel et parachève l'aspect unique de la bâtisse."
+      },
+      {
+        title: "Terrasses panoramiques et forêt de cheminées sculptées",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMmrTeP26623RDus161M6SRB2WXYms-YJdoB6UMsIJAYMhB7Zc9xabUbdENUB6uYXWDr7uqsCdaJgsPSWvqF2-Dkh0ANKRjWJ5f8hTE9F1_dtPQEWqD3xS4PTKwl3hDmu0UHYW0hToEFxfLRoR7IqCDEw=w1753-h986-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNx2U2oKUg_VWkTU1OlymWmnGs1EPZvgG6R9OlDnSnEEzrB6UUcP5Syl72Df5eCtl-kZCr4hkXbI8_Zg6GERhhdlQh4Eq2T2E8Iyt5sn-wL7ajcNd3VZR1VBgqDy3Cd86Vv78hed2fhaTRIZzqx9FypIQ=w1753-h747-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "dolmen_pierre_levee_chapelle_vendomoise",
@@ -16219,14 +16373,34 @@ const travelSpots = [
     subdiv: "Malestroit",
     altitude: 21,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Médiévale (XIIe - XVIe siècle)",
     century: "Moyen Âge (XIIe siècle)",
     category: "religieux",
-    lat: 47.8100,
+    counts: {},
+    lat: 47.81,
     lng: -2.3824,
     image: "https://lh3.googleusercontent.com/pw/AP1GczN8DSdTWH6KVBHATJDS9nf3uc55TDucdN9B8iFBsnLVgpzfpoOqPvx3YkfyGAFj-ShPhwdlKmNgPTgXXih1CrqmDsWMp4A6OpiPbdzQtX3lET1dD7lKAhyNPFAEvZZ_UkHjmyg-cb-B1M4Lc_T4uR12WA=w1976-h2635-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNvjhzQQPIrzyXmwYFXnOo0wrC2AEOBSDj_yvXAEmRzo4Gw-besXIQl6jyfigYNaYQriy2OvA0_U4L7qEHSzfJ9cha8YyLtJC6Q98vQkDxD-azbkCz9bLelFogxfZktlKS8FIKIPEcNGtdz4_jwGfr8Yg=w1753-h2338-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOFzWfuuXaOwpjN1ZOHXc6EkZBKOij6KIKLduSYgJuZ8euKz8mbVtTJ7STjAMZRmlSjw8kz_Nfc2TojCWOnamy5NLHE8jH83ECZaljAXMXRwXn6iUo6izG9-bP4r5eFgsU_jRzwQ_AtBa5NYvssweDMaw=w1753-h2338-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOKTCLAe5kKChXwpdfY75uqTP-ssSvNwhJca2STaPf6rKAz_9sKj2AMoBub9oBMhofo75ZbZfNHdUemOqhSvweqPlI2mYoEUiaVfAxjvYfPSUcmC58UxcVGdfdhNBx1KlgquO3bLJyP1x87hQHCEiy6pw=w1753-h1316-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPKdL8PJoPI9-PP6sK-YEZ8OehFDfEFnueyosxEim7zE9I6GOhne1kPIkq8T9_Ecw5InEYVxdObVMGTW9usdrCGxPrs6SW-1a_DJvxSE0qJvP8Ls6_o202cEps2xHYZOS2VWwBaZAUnybCes9OFiKLCxQ=w1753-h2338-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Fleuron architectural de la charmante « Petite Cité de Caractère » de Malestroit au cœur du Morbihan, l'église Saint-Gilles s'impose comme un édifice religieux singulier et profondément ancré dans l'histoire médiévale bretonne. Élevée originellement au milieu du XIIe siècle (vers 1144) sur l'emplacement d'une source sacrée et d'une chapelle primitive dédiée au culte de saint Gilles, l'église connut de multiples campagnes d'agrandissement et de reconstruction suite aux aléas de l'histoire et aux incendies successifs. Son architecture extérieure se remarque par la polychromie saisissante de ses matériaux — associant les teintes sombres du grès local aux pierres de taille calcaires — et par sa rare structure à double nef accolée, coiffée par un double pignon occidental au centre duquel s'élève la gracieuse tourelle hexagonale du beffroi. Classée au titre des Monuments historiques dès 1931, elle offre aux visiteurs un voyage visuel et spirituel saisissant au carrefour de l'art roman et des exubérances gothiques flamboyantes.",
     visiter: "La découverte s'amorce sur la pittoresque place du Bouffay, où l'on contemple la façade occidentale flanquée de ses portails jumeaux finement sculptés et de ses imposants piliers extérieurs ornés des figures symboliques des Évangélistes et d'allégories morales. En franchissant le seuil, le regard est immédiatement captivé par l'atmosphère recueillie de la double nef et par la pureté des voûtes bombées de style angevin conservées dans la croisée du transept et le bras sud. Les passionnés d'art médiéval prêteront une attention particulière aux chapiteaux romans sculptés de chimères et d'animaux fantastiques ainsi qu'aux remarquables peintures murales du XIIIe siècle découvertes lors de récentes restaurations, représentant des figures animalières énigmatiques telles qu'un éléphant de combat et un félin unicorne. La promenade se prolonge le long des ruelles anciennes de Malestroit bordées de maisons à pans de bois, prolongeant cette parenthèse historique hors du temps au bord du canal de Nantes à Brest.",
     link: "https://photos.google.com/share/AF1QipO0jTn-dO4jDmXY8MNR6sDppA4-tBIaecZOuzjWih8pW6aHzKvMmIOLepaCHaKp5w?key=aE1SckM4UDhSWkl0MVZMb210cW9HZ1Joa0RvTHlB"
@@ -16242,14 +16416,26 @@ const travelSpots = [
     subdiv: "Malestroit",
     altitude: 19,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "contemporain",
     era_label: "Époque Contemporaine & Industrielle (XIXe siècle)",
     century: "XIXe siècle",
     category: "pont",
-    lat: 47.8120,
+    counts: {},
+    lat: 47.812,
     lng: -2.3828,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMRq0BVtzKa49cb6RHZPhHvbwR2h4tI57LHD3qR4xOjIMLD9i_HfWgO7wGn7mwsbHdE8NIXnvmemF0Z1nHibrciURpYdEQtH5FwVTx0Veug6_YlGMpACkPI1A0qfIlYknKOU14LR7yq5QjGTpS8D39NOg=w2412-h1809-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNng3sGCp9K-fJAQxLXFqjIATw2u5NqKtSjidtG3OyLQj6xItgzBWLwlRuI8jhr0Qhx_AHn82gTB6LSWeEK4NG0g-PMBi8kTUpz5nwkXm-t-1MnkW6fjf39SEfBi-uZObweci4mgn8c32Iy9fHhR_m_yA=w1753-h1316-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNlX2WEScRfsLp43lkviEfvdRajFlefBKGQDLRu5RlKFxKz55uWxnBfFC5CwyMnWa-rRwLKI1MNFzvWshecmS6xdoH3kSrLOXs90SGEK_Yzx77DbdHqJtBu0jq3F-LYMaQ_vmZx9lHdFzrSaRGSnsUHUQ=w1753-h2338-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Élément pittoresque et fonctionnel du remarquable patrimoine fluvial breton, l'écluse de Malestroit rythme avec une sérénité intemporelle le cours paisible du canal de Nantes à Brest à l'orée de la charmante « Petite Cité de Caractère ». Aménagée au XIXe siècle dans le cadre de la vaste entreprise napoléonienne et royale visant à relier par voie d'eau intérieure les grands ports militaires de l'Ouest tout en contournant le blocus maritime britannique, cette infrastructure hydraulique illustre le génie civil de l'ère industrielle. Ses bajoyers en pierres de taille granitiques, son mécanisme de vanne en fonte d'époque et sa buvette ou maison éclusière aux murs fleuris de roses trémières composent un tableau bucolique d'une rare élégance, où le ballet discret des embarcations de plaisance perpétue l'animation fluviale d'autrefois.",
     visiter: "La découverte s'amorce par une agréable promenade le long du chemin de halage ombragé qui longe les berges verdoyantes du canal à quelques pas seulement du centre historique de Malestroit. En s'approchant de l'ouvrage, le visiteur peut observer le fonctionnement minutieux des portes et des vannes manœuvrées pour réguler le niveau des biefs et permettre aux bateaux de franchir la déclivité topographique. Le site constitue un spot de détente privilégié pour les randonneurs, les cyclistes empruntant la vélovoie et les photographes en quête de reflets aquatiques parfaits, avec en toile de fond les silhouettes anciennes de la cité médiévale. La halte se prolonge idéalement en terrasse le long de l'eau pour savourer la quiétude des lieux et le rythme apaisant de la navigation fluviale au cœur de la Bretagne intérieure.",
     link: "https://photos.google.com/share/AF1QipO0jTn-dO4jDmXY8MNR6sDppA4-tBIaecZOuzjWih8pW6aHzKvMmIOLepaCHaKp5w?key=aE1SckM4UDhSWkl0MVZMb210cW9HZ1Joa0RvTHlB"
@@ -16294,9 +16480,44 @@ const travelSpots = [
     era_label: "Époque Génoise & Pastorale",
     century: "XVIe siècle",
     category: "cascade",
+    counts: {},
     lat: 42.3612,
     lng: 9.5002,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNrsUFdD0qItTqvLjxxr-mtuoXqc_8g4crUQGLnmXt7hAUfoVXrp-MdsOEQqj1TAC2WXu7VRHUZcXHMeABVJCzEhGLZ2wkeEqlo_wOL4I090xq9ikLGa--M3Z1LEGHRUxZvJnsbTOdxr05oRY8RTgdseg=w2441-h1627-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMMDxgsTTWm1WFJE5Y39UMy3HLGp3uZH65MFi6Z7S9qGBi2-5k_sAncQmJehl4md8N2PuecgkjyRBtA0SasTRrJMu2Eg-zawrqaeMejmq11t4g-_r2GzQcdb_Ogi6oLumk6gBiiqZ4WNp4tTlJLru4MMA=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP1VtBJARG5HsUXBHePIE0TgBkEmAQytGNrWwySjYzcenxgHAXW6dociXjARQKE1SgyCvf8as5jSnJDGFnw_AvT-RB-ySBegcvxUk7RRiu4GBF-3DkreoJXt0WhS0NgMzrdq8Bvq-IgCIliG-OA6T_KyQ=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPL32IQrjDdp_kbWI6E8sk2liRo9TBb1fZGZFKQePwe7fcEpxFhV2j7FcnT8TXdJ4OCKTV2508_ZVOespy30YyEdxyyoNuHYr0PUnZMwexqzKheif40E_I0D6rSX1m3yrcc3mt38sjv0ocssndLt4kxWg=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOfrKGgW2Qmi-q_OOmvCztIHts22A5EpwX3TfUqWpVaJMokzXgHlZ51lIFQCEQkrEww2WEEt6iYQxTk7KDeXreBBupRZvESgWSMzI56neElcgoTd8FMVsgVWkLenrlwmhOjeF-GmbKnzKvDEwmVT2ZbRw=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMjuADvSf0LwUznxUKBk0sN3LxRF6yv3MxAOGorUTFwEgqx4vSvC3WYHGYJ4dsGNnS5zt2BsMlyeZoTgh0TUV9S-8LuSr4lUkM7mfOis_TaSQhzmCys4bCUlDO__t3jBeKtrg2LI0rUGCyzswqZMClIhw=w1753-h2338-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMVDKBRwiGYc4jlBdFtYDnBB7rp7kvlbeDlVk1EEDDzrZ0WlghXm23y5c-KHvu8lF4tYtseJbF1YTMsX7DpovvFNpjYRUjr5cnzDUbKaZ8KWQ7Bd_-ggDXoKGjdkZ9jc7iOgNlXBfGViG1atSLQK7EuCQ=w1753-h1319-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNC1TD0peDYICpggyfZ-ixwpJfvczrVtJxbquAQNjzT0zT3YSAUcb613KhhU9Y3S1rCaW667OY5_HK2oGrQDCSBNC-7qsk6OsMDIMqkQUJLpWD8uCir7Sk89Bc8tTqY6yEVKW-ZOHsKubWhHKGxKhQ95g=w1753-h2329-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNsWD2K3vhjuDoVgqdogT8Nzw2hzwvRH68WBgm1O4MFJjkFBmp6t531vFVUljCgn7H0PgIBVn8xZLdAZUzAOVTOBc2DB7sLY8DKQarCoQOV34dPj32qNWHN0pfaEQoVwlJe3TOM0aj2EKK9YTSB_iNJJA=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Niché sur les contreforts orientaux de la Castagniccia au cœur de la verdoyante région de la Costa Verde, le site du Bucatoghju dévoile une harmonie saisissante entre patrimoine d'ingénierie historique et nature insulaire préservée. Encaissé dans une gorge sauvage entre Santa-Maria-Poggio et San-Nicolao, le torrent bondissant du Bucatoghju se fraie un passage impétueux à travers les parois de schiste pour donner naissance à une succession de cascades impétueuses et de vasques cristallines aux reflets émeraude. Fièrement campé au-dessus des eaux vives depuis des siècles, le remarquable pont génois à arche unique en pierres sèches témoigne de l'antique voie de communication pastorale qui reliait jadis les communautés villageoises perchées aux plaines fertiles de la côte tyrrhénienne. Entouré d'une dense châtaigneraie, d'aulnes ombragés et d'un maquis odorant qui embaume l'air humide des sous-bois, cet écrin de fraîcheur offre un contraste saisissant avec la douceur du littoral marin tout proche, invitant à une parenthèse enchantée au son apaisant du ruissellement continu de la rivière.",
     visiter: "La découverte de ce site emblématique s'articule autour d'un agréable itinéraire pédestre ombragé et très accessible, cheminant au fil de l'eau entre ponts de pierre et berges moussues. Le parcours franchit le pont génois du Bucatoghju avant de remonter le long du lit du cours d'eau pour atteindre les piscines naturelles propices à des haltes de baignade vivifiantes durant la période estivale. Les randonneurs plus aguerris pourront poursuivre la marche en boucle pour découvrir les vestiges du hameau en ruine de Raghja, la chapelle Saint-Pancrace ou monter vers les tunnels de la corniche découvrant la célèbre cascade de l'Ucelluline et ses panoramas spectaculaires plongeant directement vers la mer Tyrrhénienne. Des passages aménagés sur des rondins et des galets ponctuent la progression au cœur d'une végétation luxuriante où la lumière filtre délicatement à travers les frondaisons. Cette balade constitue une immersion idéale pour les familles comme pour les passionnés d'histoire corse désireux d'associer fraîcheur montagnarde et découverte patrimoniale.",
     link: "https://photos.google.com/share/AF1QipPPgIE0CNEMhbKL0s6wFIjQQ5PsVF0DmZsFf82B0Z5jUUzkl29-fpUDw9woAze_aA?key=VEYwVzBzcldLd24tUzR1Y0VyeVFpQVlwWlpkMG9R"
@@ -16312,16 +16533,127 @@ const travelSpots = [
     subdiv: "Giverny",
     altitude: 22,
     is_island: false,
+    island_name: "",
     transport: "avion",
     era_group: "contemporain",
     era_label: "Époque Impressionniste (1883)",
     century: "XIXe siècle",
     category: "star",
+    counts: {},
     lat: 49.0753,
     lng: 1.5337,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNzF8a6tNABa-f5GaaYsOwVKQNRnGJWizJSr0pAzoBSI0Q4TvXI1pqtPLD9rBhsU98gYbPid5H40jhwo_u62N8-XTqM007sOoYIyg07iepWzLIVHBfAXnK5WY-4WNPfkOaeaasy_VOtA-ft3E7TlDpvVw=w2441-h1627-s-no-gm?authuser=0",
     description: "Blotti sur les coteaux verdoyants de la vallée de la Seine aux confins de la Normandie et de l'Île-de-France, le village bucolique de Giverny incarne le sanctuaire vivant de l'impressionnisme mondial. C'est dans ce décor préservé que le maître de la lumière, Claude Monet, choisit d'établir sa demeure et son atelier en 1883, fasciné par les subtiles variations atmosphériques et la pureté des reflets d'eau environnants. Entourée d'un somptueux écrin floral sans cesse renouvelé, sa célèbre maison au crépi rose et aux volets vert pomme dialogue harmonieusement avec le Clos Normand, véritable tableau végétal conçu comme une palette vivante à ciel ouvert. Plus bas, par-delà les voies, le jardin d'eau d'inspiration orientale révèle son iconique pont japonais drapé de glycines et son étang orné des célèbres nymphéas qui ont immortalisé son œuvre ultime. Les ruelles fleuries du village, bordées de vieilles bâtisses en pierre calcaire et d'anciennes dépendances artistiques, conservent intacte cette atmosphère poétique où la nature et l'art pictural se confondent dans une harmonie sensorielle intemporelle.",
     visiter: "La découverte débute par la visite intimiste de la maison de l'artiste, dont les pièces chaleureuses aux teintes vives restituent fidèlement le cadre de vie du peintre, depuis la lumineuse cuisine carrelée de bleu de Rouen jusqu'à l'impressionnante collection d'estampes japonaises ornant la salle à manger jaune d'or. La promenade se prolonge à travers les allées rectilignes du Clos Normand où foisonnent roses, capucines, tulipes et iris agencés selon un savant jeu de teintes et de volumes. En empruntant le passage souterrain, les visiteurs découvrent le féerique jardin d'eau, lieu de contemplation bercé par les frémissements des bambous et les reflets mouvants des nénuphars sur le miroir aquatique. Une flânerie dans le village permet ensuite de remonter la rue Claude Monet pour visiter le Musée des Impressionnismes et son jardin paysager contemporain, avant de se recueillir devant la tombe du peintre dans le paisible cimetière de l'église Sainte-Radegonde, parachevant une immersion culturelle d'une rare élégance.",
-    link: "https://photos.google.com/share/AF1QipMrmXqbr4c_CdCIqjU36P_ojhe298d0xYErpGiiRFaHtNB6Zj-iIL9AfJCYRn-XZg?key=ZU1xVXFSMGROVDJTYlE5Q0ZJSXpjMl9odzJjcDB3"
-  }
+    link: "https://photos.google.com/share/AF1QipMrmXqbr4c_CdCIqjU36P_ojhe298d0xYErpGiiRFaHtNB6Zj-iIL9AfJCYRn-XZg?key=ZU1xVXFSMGROVDJTYlE5Q0ZJSXpjMl9odzJjcDB3",
+    sections: [
+      {
+        title: "L'installation de Monet et la colonie artistique de Giverny",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPBrUtdKEXBZtrrI9E8nVpTPvDsN1lBIeo1dLpQ4hhETi8tHwoWkun7AeERpt5laijhAFPPjd3InrNHZu0pLQSAur-Ll5NItpqpC3_laQndSQBV9jRSnX0v9OHwRi-wV_HtVaaV3ljcHKONzc8CLKoVAA=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMqBFeZecBPtbpqsJ4fkEL14bwAbmD01xRvikPekzG55i6a25VEhrtL9m21ADy6ZuJVmFcl5BOd4_Vw-RPnXxUvZtLouMAe73ARSf9beooOkj5Sv0MSnA873BjBGyZQuGZ3zhIw0SJcAR4mjHg7HfINfg=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "L'installation de Monet a attiré d'autres peintres, notamment des Américains, faisant de Giverny une véritable colonie d'artistes. Aujourd'hui, on peut visiter sa maison, son atelier ainsi que le Musée des Impressionnismes Giverny, qui retrace l'histoire de ce mouvement artistique unique."
+      },
+      {
+        title: "Le Clos Normand, premier jardin de l'artiste",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMJZ82SILI2wvzP_RfC1R2yd6xSG_HY8dKyrOb2FsuXk4cJOyICT50Az2-qcUqcxE3JgrP0rQgRkcEv6IBK-cTGb3BvG_sQdvZMjrS8CVruTEuYbahFIzLc62bKMHZ-I6X8mzu4Qojr9MXi8-2cXrsDKw=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOtljY6HIcCPnzvstqlmqB6BvajkR-adb2F94IKnRxCoOT5GgsIoVk3gdU3hfjkO5VHnrZGgumpKq6gNZ7Au7Mggt1QmlCr8zTyRtqVqaZFnQ_rr5csxnZdk-xLC-TqiBAlShjk6crMSmDZsW4xTc7_EQ=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Le Clos Normand est le jardin qui se trouve directement devant la maison de Claude Monet à Giverny. C'est le premier jardin que l'artiste a aménagé après s'être installé en 1883, et il témoigne de son amour pour la nature et de sa vision d'artiste."
+      },
+      {
+        title: "Une palette vivante aux mélanges de fleurs",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOLzId6GblKTmi7w700ks4RaXFidteL8yvE5m_HTiP53HBOnrmePDQIayOJcL87O__6v8JY8YJnOt4MH8K99OhNAxRSDLgDSX6GVhCVi1e6Lk-De3JWIpcSfIWGFCo3Ci3Qu6W7c5LIgoQ73j9WgZEEag=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPt7gY4OX-SCpAFmp63SbreULLF3BsmHe_LpD3VCGAIMpF0UkBXcxs16bR4e5OM8NzMrTsSqRciFAc-Y_DWDAPMXrTYXsqgXMpKTPu8p4a_yKPsC7ec2ZFPhn7MJ9R6OTuIPiT1EMDO0kIVOwn9ZAmjFg=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOyfvq3drfKpTchqUISwUyAMiFhoPtoDqt1LQa6EqrHGsB7pVxVGWUA0J1lFyD9SHWRpIBHpsSPMlzI7hPW_sQpWHnrf6qIO_DDFAJAItb5rEBCo6BwY0I6_wDF323pCvVH_4uxN3v8Svf8AkophS9i0Q=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Contrairement aux jardins traditionnels de l'époque, le Clos Normand n'est pas un jardin à la française, rigide et symétrique. Monet a supprimé le verger d'origine pour le transformer en un jardin de peintre. Il a conçu des massifs de fleurs qui se succèdent, créant une palette de couleurs vivante et changeante au fil des saisons.\n\nUne composition picturale : Les fleurs ne sont pas plantées en rangs ordonnés, mais plutôt en cascades et en mélange, comme des touches de peinture sur une toile. Monet jouait avec les couleurs, les formes et les hauteurs pour créer des effets visuels qui inspiraient directement ses toiles."
+      },
+      {
+        title: "L'allée couverte de capucines et l'art de vivre au jardin",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMEP_sBYvxo4usvIfsNko7-LuOFynHnZNAGS1Yg-JrAjq6vQjgkiA_XlAB1fr3Y5VzhRuq3WOpF1uhPGeQoU-4W9vkAdNG2U0nTxIjRqiIWL9dRLPNhdnlW8idng403lj2HZOju6jhhM1bqvB_gDPfZxQ=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOG-PSMYs4VE2HtcTCMgQrXQh4shdokpIt84oTOlYkPLxn-u28A7NmGZzL7K88oW3o_7v5XZwTy42iY1x5TcolAHVi5ayL5qlzzySHd2JNkZomGAoabZPuVWaZuisSjf-8dfFa-m5M-QmCw16CRyjSryw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Un lieu de vie : L'allée centrale, autrefois un simple chemin, est devenue une allée couverte de capucines, véritable tunnel végétal qui mène à la maison. Le jardin est un lieu de vie et d'inspiration, où l'artiste pouvait observer et peindre en permanence.\n\nLe Clos Normand est un reflet de l'âme de Monet : un jardin à la fois sauvage et maîtrisé, où la nature est mise en scène avec une liberté artistique totale."
+      },
+      {
+        title: "Perspectives florales du Clos Normand",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMG2teIDSnEhHsoGAeLMwC77EH7OfjIGFTwN6BicxzH4HsQ-a3IRGV09hQf0_aknhGZJ8mmU0RC2p6kbyviUJTdqWBApWxSWcpDyY_O7yPYC3oHwvOmeWHYPe72H5YYXHPqzvF37zUqK2P9rsp1r4f7Pw=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMXZk9ZC5Lvl7aLRDrXMtRs08s3EZxyzhkENCCdUvWEfA8HsGOBPDZBDJvz1QTIHiP3iZHWX9EnT929B7Bfl13q-XGtMh1bpgs18mEDrPu1KXHx7ve34jXlFZa9k8bJUE5nKUZX9usD03ZX1gk-Y_XPDw=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNwA5p5JP6PC6JE2aWQvkET9k_LmiQ52j1F4M8F0DbnzHX4P7f9ohP0MqfMJRtXQRF_pR4i8IWTi1Bs9ZS13sPnIKySzMTdFxmwtOfsT-1zuuriXNQ71lVoAq0qHyjNFz6Kfnkum-EmBJoDt5JJdUpVUg=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Les allées du jardin et la maison en arrière-plan (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOurTpcdQZOkgovTPY_43UIoXRwu9EGMzFgVpiluZOJqZnDVyON0XzosvyR-dxIWqqatwQrcqiffA7-OWJ_KX1vvXVo5gTlqDGbpLxXKIfoHHYAKJ6GuL-GeJNthg_0sydcXPC3QAR_v362R-KoXZU4vw=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOpK_2kDHg6g1HTsL3ieGTMlWEaXmSOOy7FmOsqjK0SktW6BKTn6s-Q48rg1X_ItNFsQ1gVw1V3chnr7LCel0TP41gnWprl1Yx_1nTUy-1Oa-dsi5UU6RaCk9eVlhHTl9NeBPeYBhc5n1GrALI-Byc3_w=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP6AmBDVBzMP2oUMT1QgZ5ID2XpOYvjE0lR3f3cCii6Et7_PDFjocumCC9y0BKY36mw2YAB4Mi1-AC6ovw_t11GgTNp87p03vbv3YPOJOmYPtL_5SBsZRWVOBGst2ya6r99VDcrhviuBndD5_h7zQOKCw=w1753-h1170-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Les allées du jardin et la maison en arrière-plan (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMdbsPK8NAi1A925zQUGCx517ncc7myzytYE40jliFwfkRGxgRQwUDdA-FCEEU5BNWJwjmiA7SMAuVSVaFj_9IE78Y7exgOEeuaZyHRJfyWfd709z99L25YXkqcgSBumnG2zhQTm8orcFVpb1sGLm8-nw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le Jardin d'Eau et le détournement de l'Epte",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOhVaEWRLSDHlhnZRY0AkouRE_OIqm9QT0Skt77G2tFiJ5p9R8LGfjLXmmgTayYDYsrM_hlxdkIro9ZdRCFWnH5gHWPgT8kXyJXf2g8Xjnf131eP0Dad_1zPXRxXlHFI7jdgC1QRHpu55IsJWPOYiYdgw=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM4SuvmsB6SBoFWlACbNb-73BCqA-DkRO-NNKMbMyJRxlVO0kuZU62yMEWt03iuASsvnse9Fqx0AIGuT8k5suelZxpmfl1YbJvnScIkFaUNMFYi0PI8vGA7w4bMSM_6ziVGVfntGJvyWvn9BkPVhvGLTA=w1753-h986-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPpwbE901GT8qIdY51vT_nzLaVYMm8Z33X2oa06h3RPrTO3KOyI1UjlRg3XflBIW9awkQTRuujzdXNIwWks-gQpdjVP7Cqwxb1ciHbPRnLCVgO9G9YAue-1s3OHbE7b9BSpoXJFb_gGl5vPJUgAhuhMAw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Si le Clos Normand était le jardin de couleurs de Monet, le Jardin d'Eau était son jardin de lumière et de sérénité. Créé après 1893, il est né de la volonté de l'artiste de creuser un étang sur un terrain qu'il avait acheté, en détournant un bras de la rivière Epte. Monet a conçu ce jardin comme une véritable scène pour ses toiles. Il a importé des espèces rares, plantant des bambous, des saules pleureurs et, surtout, ses fameux nymphéas."
+      },
+      {
+        title: "Le Pont Japonais drapé de végétation",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOQatKqd41VI5aYRTkwX2N6FOKra7VvvvVesEwMp05F38yATs6M2NfUr7wxbz0DXAXVlRD9HIhCCFndouRiPIiBlQULbdH04eaneRGS2nd1EThizVmQV53vgtkHd-aEus3fdshz_AYXkIEgntXMkLAX0g=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN9t2sIjQM-6Sy891Pjv1LQd4nUNnmVXPYDXibaDX7L_GXZMX6vjV2qPLZGPmf_teEy7PpUvexGSrIAmkUC1LAslzdWtfuOrkTEeM07gyYMQpbE116Im75p8ceCDcQ_0mexuKE7iIZaqZfReRUJ24Vmlw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Le Pont Japonais : Inspiré par les estampes japonaises qu'il collectionnait, Monet fait construire un pont en bois qui enjambe le bassin. Ce pont est devenu l'une des images les plus emblématiques de Giverny."
+      },
+      {
+        title: "Le bassin des Nymphéas et la capture des reflets",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNzF8a6tNABa-f5GaaYsOwVKQNRnGJWizJSr0pAzoBSI0Q4TvXI1pqtPLD9rBhsU98gYbPid5H40jhwo_u62N8-XTqM007sOoYIyg07iepWzLIVHBfAXnK5WY-4WNPfkOaeaasy_VOtA-ft3E7TlDpvVw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Les Nymphéas : Les nymphéas, ou lys d'eau, sont la raison d'être du jardin. Ils flottent à la surface de l'eau, et leurs reflets, leurs couleurs changeantes et la manière dont la lumière les transforme au fil des heures et des saisons, ont inspiré la série de toiles la plus célèbre de Monet."
+      },
+      {
+        title: "La maison au crépi rose et aux volets verts",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOhzJOpaMc7NDo8Y62pFHxz-5n4pd_eVQSAxwe0-fOjViauLz_JZRysCqYwhs5w8jHvvnAdZrvpqa9d3gX4g3hfClvbbIXAqTXqebZ70IuekFgiSA5kTMMHJ5mrqn5Gq1cx2ylRsXSQFvsxJXQhoSIb0g=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "La maison de Claude Monet à Giverny, avec sa façade rose et ses volets verts, est un lieu d'une grande intimité qui a été fidèlement restauré."
+      },
+      {
+        title: "Le Salon-Atelier et le Petit Salon Bleu",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPdIAcDhM7qkO5JLKVFuLY46UfZ0INC14Ev4w2D2rXcdro42nGLibsZAnbKSllsKDwAutTNCt-6i7RtTJQPRcrNvMxz4UzsvE_rCAfeoGwlVhrwfj0RV_3O1haww_ssMvEQwFnDIfr6qtnW1S660Wop5A=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM5C1Ol1ldApi1ory4qrPZnBA48ivNpbR5l23EhNEj7lkamw2lwyAu_62OuMaMW6d63_rB8i5JhvD2nta46q22NLWnWQCj91pBtk3w6nBDSKmBsyL4GXNgYXW-hJllU82DxAO_fII23u5hRvSYr9gG5rg=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP5NkCqlV5gVfCKRfn72FkAXqx6PhWOm4Zi-2-8ko9KgcMBXr82CZ1X4fzL9F_O3Vjuz6Ok5JD3CatDUW5sWuByeouW9nMshpEDFL1yLrVxOmj5iS82LifmZ7HBY0xETsWR9R1tua6EgY-mALhrGNrAZA=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Le Salon-Atelier : C'était le premier atelier de Monet. Aujourd'hui, on peut y voir des reproductions de ses œuvres les plus célèbres, offrant une bonne introduction à sa peinture. C'est ici que l'artiste a travaillé sur de nombreuses toiles jusqu'en 1899.\n\nLe « Petit Salon Bleu » (salon de lecture) : Cette pièce, comme le reste de la maison, est décorée avec un goût très personnel. Les murs et les meubles sont peints en différentes nuances de bleu, créant une atmosphère apaisante."
+      },
+      {
+        title: "Salle à manger jaune, cuisine bleue et chambres privées",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPisyUR75pff5b3MYun5Hh3nv-Rw4NUuO5tmG-jc3owoRYpq8FJu-gsta6_yq4oUj_8njcNFhUcYDn1VGldx7Gicne3Z_JKtmONCdmk2fK7wJ8jVipk-8fFNGtqYdCLtciHWNnT_UH__4ugz1s3-LErQw=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOIA41TaA6c1CABYmtqwQmAaRINlHEsD9sNk_UJA5Dwbb2A4uN9Rn1D1L0yQg0Jsamrb8ckQRolUjG2nsJEX89D7AmTrlRhwj8NaRKQvbt5oDTfP7hcGlEJE1VqokBmsBiLnQmYR-nkFm2xXtLKxmdmrA=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOZe-j81sTELqW7xMPGj1osSgAWu_MjUd5kT9WFJlrc6olgigjI73AvCQIPJaeU-kzrH7yxbRFlEPyEdjhIn5DNSa7i26UiwN2eIBerWhwW2JuSpJLApSWndSJ-gMm5KQARRckRGzm1zaYbKq0CJYLUeQ=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "La Salle à Manger Jaune : Une des pièces les plus marquantes. Les murs sont peints en jaune vif et les meubles sont également jaunes, créant un contraste saisissant avec la collection d'estampes japonaises de Monet qui y est exposée.\n\nLa Cuisine Bleue : Un espace moderne pour l'époque, avec des carreaux de faïence bleus de Rouen et de nombreux ustensiles de cuivre suspendus aux murs.\n\nLa Chambre de Monet : Située à l'étage, elle offre une vue imprenable sur le jardin et le Clos Normand. Elle abrite une reconstitution de la chambre du peintre et de son « musée personnel » où il exposait des œuvres de ses amis peintres comme Cézanne, Renoir et Manet.\n\nLa Chambre d'Alice Hoschedé : Située à l'étage, la chambre d'Alice, la seconde épouse de Monet, est également visible."
+      }
+    ]
+  },
 ];
