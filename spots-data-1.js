@@ -15913,14 +15913,34 @@ const travelSpots = [
     subdiv: "Alexandrie",
     altitude: 9,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "ptolemaique",
     era_label: "Époque Romaine Impériale (IIe-IVe siècle)",
     century: "Antiquité (IIe siècle)",
     category: "archeologie",
+    counts: {},
     lat: 31.1948,
     lng: 29.9042,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMXEf0woCHiuDwlAh9mw_qKdwcBNYfmVPixLaGjOuGryfkf7BW4br40FtlCF737093fbbs3S2zKbV8Zwdi4-Yf41ARxj3VRq7DzPvKiCyUm93dmQ4lw1pZZzGNwUoICLii69AalHZNbHFHMAX932dMXtQ=w2650-h1766-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPv5A84dzt-rTTm3mP5O8T-Otv9FvF9mkqQEgrdSBaRWKAxg5PvT0psHyzH4Y3qCmPEZUn5RvPzijgsdw5oDHJ__X6sCMWzyrw3Mz5wR6Y9lrN2SmZ3yeucm8HeU8syc3idvOG_sj0VGNACHoyQdiLvEA=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPnqcFPEBYYMnZjuO0Tqv7jojfd61FAGX66TqwuQ-_7qRDYmcxXq4xZCm-djVgOTfRr0lYRu8sSv0rZRJpzRCMJX0M_21WlaD3qe8Vxhqw6s5rV3ucpdsh64Ky9cuG-T-TZF3bWsBMmjB1D0DjAcZuE1g=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP0dz7rIwqpShn745EMs8ccDmHRiFNzv2z6jyezIlLLs2vUjxedjyKfnlh5HPWWavg3krP_k4UdW_-5GwsHzu8KlciTo07CwMVlYdhJJIJ1ScSp1upYuuwiqKRpmJSFwt34DHZlQeoZfyH1QGIrGn6LZw=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPi_RbexxOKD8x8YWMduZ4VSZjRTS9rcWAatdO8QoucJhWXQz4laK2n2AnsfhYPDbTAzHFhKPFSQWUrj7Cq70Gar5kCOzlrSOrzHWR50C74pKCECVzJc46EE7Q9DUpFaOGHlJfN1KaeJ6TUJDsx6wj9Nw=w1753-h1168-s-no-gm?authuser=0",
+        caption: "Ce sphinx en granit, daté du règne de Psammétique II (vers 595 avant J.-C.), est un exemple remarquable de la « Renaissance saïte ». Durant cette période, les sculpteurs égyptiens ont opéré un retour nostalgique vers les canons de l'Ancien Empire, tout en apportant une finesse de polissage et un modelé plus doux. Le monument représente le roi avec le corps d'un lion puissant, symbolisant la force souveraine et la vigilance, tout en conservant un visage aux traits sereins et légèrement idéalisés."
+      }
+    ],
     description: "Miraculeusement mis au jour au cœur du tissu urbain moderne d'Alexandrie lors de fouilles menées sur la colline archéologique de Kom el-Dikka, le théâtre romain antique s'impose comme l'un des vestiges monumentaux les plus fascinants et inattendus de la métropole méditerranéenne. Édifié originellement au IIe siècle de notre ère sous les Antonins puis profondément remanié à l'époque byzantine pour servir d'odéon ou de salle de concert et de réunions publiques, cet édifice semi-circulaire en marbre blanc et en pierre calcaire pouvait accueillir plus de huit cents spectateurs sur ses gradins étagés. Entouré des vestiges d'un vaste complexe résidentiel et thermal gréco-romain comprenant des bains publics, des villas luxueuses aux sols ornés de superbes mosaïques géométriques ainsi qu'un auditoire antique aux bancs de marbre disposés en fer à cheval, le site illustre le faste intellectuel, architectural et social de la capitale ptolémaïque et romaine au faîte de son rayonnement culturel.",
     visiter: "La découverte s'amorce en cheminant à travers le parc archéologique paysager de Kom el-Dikka, où les vestiges de l'époque romaine affleurent au milieu d'un jardin luxuriant parsemé de fragments de colonnes, de chapiteaux corinthiens et de stèles épigraphiques. En descendant dans la vaste cavea du théâtre, le visiteur peut admirer la régularité géométrique des treize gradins de marbre blanc immaculé importé en grande partie d'Europe, soutenus par de puissants murs de brique rouge et de calcaire. L'exploration se poursuit en contournant la scène pour explorer les vestiges des thermes impériaux adjacents, dont les fours de chauffe, les hypocaustes et les bassins témoignent de l'ingénierie hydraulique sophistiquée de l'Antiquité tardive. Cette étape archéologique incontournable offre aux passionnés d'histoire antique une immersion saisissante et paisible au beau milieu de l'effervescence de la cité alexandrine moderne.",
     link: "https://photos.google.com/share/AF1QipPnYxYd2vfMd4_DmM5RWpIX_sRIZg9egw2MezXjyuS4hRUOZMcQgFW5CKniHiDzTQ?key=eHNQd3I3ZlFiejBtZUtsdWMzam14V2lka1BOZi1R"
@@ -15936,17 +15956,79 @@ const travelSpots = [
     subdiv: "Alexandrie",
     altitude: 5,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "ptolemaique",
     era_label: "Époque Romaine Impériale (IIe-IVe siècle)",
     century: "Antiquité (IIe siècle)",
     category: "archeologie",
+    counts: {},
     lat: 31.1786,
     lng: 29.8932,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNJVvVDfHbc_E1Z0PVN5ygfeSqr5IBLXTIibbMVHrBZ4v3wkPPqqP9msNO4WjDlUX2fYwN3l5NXhmAPUt3OdLDbDQNtT69024LG2VhB9533rrnLZZ_dskTO86WtEuIdBRaTPbmysrrN0eRUpTBoRNLxbg=w2650-h1766-s-no-gm?authuser=0",
     description: "Trésor archéologique souterrain majeur de la Méditerranée antique et chef-d'œuvre de l'architecture funéraire gréco-romaine, les catacombes de Kom el-Chouqafa (« le monticule d'éclats ») s'enfoncent dans le calcaire à l'ouest d'Alexandrie. Édifiées au IIe siècle de notre ère à l'apogée de l'Empire romain avant d'être étendues jusqu'au IVe siècle, ces catacombes monumentales constituent l'une des sept merveilles du Moyen Âge et illustrent la fusion artistique saisissante entre les traditions funéraires pharaoniques et l'esthétique classique hellénistique et romaine. S'étageant sur trois niveaux souterrains dont le plus bas fut longtemps submergé par les infiltrations de la nappe phréatique, le site abrite un impressionnant puits central à vis, une vaste salle de banquet funéraire où les familles venaient honorer leurs défunts en brisant des vases rituels, ainsi qu'une sépulture principale aux superbes reliefs muraux syncrétiques. Le visiteur y contemple avec émerveillement le dieu Anubis vêtu en légionnaire romain et le taureau sacré Apis protégeant les sarcophages, témoignant du dialogue spirituel permanent entre les civilisations de l'antiquité tardive.",
     visiter: "La découverte s'amorce par l'approche de la structure d'accès avant d'emprunter la spirale de l'escalier hélicoïdal s'enfonçant dans la pénombre fraîche et minérale de la nécropole. L'exploration de la rotonde et de la salle de réception (triclinium) permet d'admirer les banquettes de pierre où prenaient place les convives lors des banquets commémoratifs des défunts. En progressant dans le dédale des galeries souterraines, l'émotion atteint son apogée devant la chambre funéraire principale : ses parois sculptées révèlent des bas-reliefs polychromes uniques où l'iconographie funéraire égyptienne épouse les canons anatomiques de l'art romain. La visite se poursuit par la découverte de la fameuse « salle de Caracalla », qui abriterait selon la tradition les ossements de chevaux sacrifiés lors des troubles de 215 apr. J.-C. Cette immersion spéléologique et historique au cœur du sous-sol alexandrin offre une page mémorable et mystérieuse sur les croyances d'éternité en terre d'Égypte.",
-    link: "https://photos.google.com/share/AF1QipPnYxYd2vfMd4_DmM5RWpIX_sRIZg9egw2MezXjyuS4hRUOZMcQgFW5CKniHiDzTQ?key=eHNQd3I3ZlFiejBtZUtsdWMzam14V2lka1BOZi1R"
+    link: "https://photos.google.com/share/AF1QipPnYxYd2vfMd4_DmM5RWpIX_sRIZg9egw2MezXjyuS4hRUOZMcQgFW5CKniHiDzTQ?key=eHNQd3I3ZlFiejBtZUtsdWMzam14V2lka1BOZi1R",
+    sections: [
+      {
+        title: "Histoire de la nécropole et découverte fortuite",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOBx2JLUKhKyBrrrWHfdIvtdmzXP48xbywDoI6Wc8rwCN1FstzTwkDeERsEUHmT_NS4WMvA13BvJUp67PULc0p5UrV9F1kLg06G8LTziYrf1B0UjlkUE_vnk03crRHtmcXCTIQ8d-z8FwV9M75ykvnljQ=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOCbroN2GzXvh0gqVRV6qTSDvjqJqj3ewbm2eAfQfsa53R_EVIOlbAjAAUsObljyWWwMG3OCCAr43VfhQ6Fx6uzoKhMHyypra2wmAlb-Fbu_NgE2qADd8AV0l0ggqkXYXHYHAVU2zzjO-NFIof6mDJc2w=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMnHpTpv9EuwSnVpKVzLiBNg2okVD-72xpemHZ8qiv6wlhPFB7seQ4-JhSKjqT9Ij2BMSscsclc18YEMdOCGkjy9ejdsqbjgOp_P9phQcZn8M8_O3eBaoFqDqg2kPnjt_M8lZzJfDuNFVe70OYh7_vquw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Le site a été créé au cours du IIe siècle après J.-C., durant la période de domination romaine en Égypte, pour servir initialement de tombeau à une seule famille aisée. Il s'est ensuite étendu pour devenir une nécropole publique utilisée jusqu'au IVe siècle.\n\nSa redécouverte fut totalement fortuite : en 1900, un âne tombant accidentellement dans le puits d'accès principal mit au jour l'entrée du complexe funéraire souterrain.\n\nLes catacombes sont entièrement creusées dans la roche (le roc calcaire) et s'étendent sur plusieurs niveaux (trois principaux), atteignant une profondeur d'environ 35 mètres. Le troisième et dernier niveau reste souvent inaccessible en raison des infiltrations d'eau."
+      },
+      {
+        title: "Architecture souterraine : escalier en spirale, rotonde et triclinium",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM3Z5PoawS0IhTSLLzAL7wDDqNykUDiY8bfskgv4zuYLTxnIV7c-RV-mjbFa37CP03uO6qztAI8PF3mgkgPGbnUe6SvIEd4Lf40qYLPEVTgScc3K_XRzsPygUFOyKS7Xvu63CJSYIIJj54IrpZ7ozigYQ=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM9ixlcxU0vQC8qSvIQ95PlY3EZe9NZ-pW7ZMLUdnzUUV4u7wVsMUVuSGu9fwUoIHAOy1f8p4phNTPCgbouCfzv3p6cnJi1DEA4lwYkA7Ewd7Yu0JnlSj92znAjg7WcwXCyWgerI8OVY-jfSOL7b9l-qw=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPXoFSLXeOfT1_Y9cXVhmc-AogWOeprrHBfvK7x8en1wxb_0a0QWF1itqCTKB1k-CfSeKis-7QCStozBYotLlcu7mWolKJm2BnTelOGY_bCrH_P0Na3TTSa0UZE2KWNL8wBYq3dmXfo6SyDoDWf3RJN3g=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Le complexe s'organise autour d'un axe central et se déploie comme un labyrinthe :\n1. L'Accès : On y pénètre par un escalier en colimaçon (ou escalier en spirale), sombre et raide, creusé dans la roche, qui mène aux niveaux inférieurs.\n2. La Rotonde : L'escalier débouche sur une pièce circulaire appelée la Rotonde, dotée d'un puits central et qui servait de salle de réception ou d'accueil.\n3. Le Triclinium : À proximité se trouve le Triclinium, une grande salle de banquet de style romain équipée de banquettes en pierre (les trois lits de table, d'où le nom), où les familles organisaient des repas funéraires en l'honneur des défunts.\n4. La Chambre Funéraire Principale : Le cœur du complexe est la salle funéraire monumentale. Elle contient trois sarcophages massifs taillés directement dans la roche, dont les couvercles sont fixes, ce qui nécessitait d'introduire le corps par une ouverture latérale."
+      },
+      {
+        title: "Syncrétisme alexandrin : fusion égyptienne, grecque et romaine",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOsdZoMSPbFqu34t7qeUsfcxodQxnj0B0Ixmyg1v8ulrrQUyMJRADey0fLBT0uHHDgXDxfmVG1ESo_0e5l30nkkBMUYCK821GEPbYCTfvOpOLXPSkYRnp7Ii_8E3aTtMirw78lEoiSBRWL7tz9swJdSqQ=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP5PZ2ZxWLY9EJlsajJcbvPu1AIRs3i3dUZTj6Zl5_SVl7HwjAG8MEf_YdNiS1wgcpbNDm8U8Md-BzHFjGcQJtGA70rClDqNhl4AnCmZPYx8oSiWgaZvRunEZsHqalw7ayr6AOy0WQgIQO0KpS7L2JqGw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Ce qui rend Kom el-Chouqafa exceptionnel est la fusion artistique et religieuse parfaite entre les trois grandes cultures d'Alexandrie : égyptienne, grecque et romaine.\n- Divinités Hybrides : Les reliefs et les sculptures illustrent un mélange unique. Le meilleur exemple est la figure du dieu funéraire égyptien Anubis, qui est souvent représenté vêtu d'une tenue de soldat romain ou d'une toge, tout en conservant sa tête de chacal.\n- Motifs Funéraires : On trouve des scènes égyptiennes traditionnelles, comme la momification d'un corps sur un lit en forme de lion, mais le défunt est représenté dans un style plus proche de la statuaire grecque ou romaine. Les panneaux décoratifs montrent également le taureau Apis recevant des offrandes.\n- Architecture Fusionnée : L'aménagement général est romain, les banquets sont une pratique romaine, mais les motifs décoratifs (comme les colonnes papyriformes) et la fonction des divinités sont purement égyptiens."
+      },
+      {
+        title: "Le panneau central d'Anubis en légionnaire romain (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNNQ7fsWE3gWn5pnW3likc36lq200RH5rk1j3kP2277TnKy4l0uwtvXspbIuJ09Hmeqzbh1XdzP4VzMc1vEI3rmtdQv_1_zbw9Dc5pn8cbO5XAaLTprrWURAL0XFhR0nQ1LC-nWGiGXsmr2_Qq9w2V_5A=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOI88HROHqFzxnS-Hvvs2o1sET8Cq_FBz6BxdASCXXDrVtCPLMH40p5eRzv3SUTeUKsE5KErmcY23lEVA3lHF7biAsWSawbTHimeP4G-Mfrj9SCIe3ilpsSI9Gmuv8O8xU2qk66Rlw-DLfE_DdMM-n3Og=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPkQs24go8yL0wqNIS8Gd5gGw0ScCk3mJWiUwVqJwpO7-O2Kn_HLe5tlPfBusigP5MuKvnx6feiojgaoNFTWFLQchHTthRdXwRD0hZY0PWpLEllRC_tYblVdqFjqJKPEV_Kqg4Y4VI_ePIH6dxl6ygZbA=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Le Panneau Central (à droite) : Ce relief est le plus célèbre. Il représente le dieu égyptien des morts, Anubis, avec sa tête de chacal, mais revêtu d'une tunique de légionnaire ou d'une armure de soldat romain. Il est en train de procéder à la momification du corps du défunt, qui repose sur un lit funéraire dont les pieds sont sculptés en forme de pattes de lion. Sous ce lit sont placés les traditionnels trois vases canopes (récipients destinés à contenir les viscères du défunt)."
+      },
+      {
+        title: "Le panneau central d'Anubis en légionnaire romain (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMn-TvBIBgze2ghMnStFuU0ebMOwrfZ2oS9eKhcZANYsx_fVcJjaHnG2cSRwY2oGgFECk9STz2gMWt1zjnRnGGtNu-LXlVNWnaLW1_eCtc08K5NGI-oWnr8vm24J65GDTk9qGKK1zEnhYPOC3q0tnwSiQ=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNrt82WumuAiNPGfJ8wpt8_10tjYOYDErXUMvidqPBCRHTyVe_0KGsPotQis3oK99n9i8zlDzXVXYQTLtaOMrhy-Ka_ELWQLsKF2cUciRi7HkDWbQB-xe_8sE-nL_XapcfdnkP-3ufK0Z5ELcWBmrcylw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le culte d'Apis et le décor de la chambre funéraire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMdVgH8rvh-CakY7p7XiFZiczDiXyBmkELjnLEHcu84QxhBM2uPrMcooI_sKDji0_Eb0yZlRrsVw4UJJqcVcx-kGArFf8fVCa0s55UQnPM388SN4hG-vnBze0DDpP6exFLTA46yKFLI9Qm2kB0U3J25Mw=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP3idUWGTwYZ2QSlB55OiAFdYVu7zeCpphw9yEjSSeQ30T5_Hw16YLywhdafROH3uXa0eC2IetqxsbQxz6A133Q-Y0T6_QYM-93Hq_XVFUqB4ugiwA-lHu7ndMygwwhPn0xa3TK_4Yc83mVsIfc1ktD0A=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "De chaque côté du panneau central, les reliefs montrent des scènes d'offrandes. On y voit notamment le taureau sacré Apis, un symbole égyptien vénéré, mais souvent représenté avec des influences hellénistiques dans le traitement de la sculpture.\n\nDans l'ensemble, la Chambre Funéraire Principale est l'endroit où les symboles de l'Égypte antique (Anubis, momification, Apis, canopes) et les formes de l'art romain (vêtements des dieux, guirlandes) s'unissent pour affirmer une croyance locale et multiculturelle en la vie après la mort."
+      },
+      {
+        title: "La chambre funéraire monumentale et les sarcophages taillés",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNJVvVDfHbc_E1Z0PVN5ygfeSqr5IBLXTIibbMVHrBZ4v3wkPPqqP9msNO4WjDlUX2fYwN3l5NXhmAPUt3OdLDbDQNtT69024LG2VhB9533rrnLZZ_dskTO86WtEuIdBRaTPbmysrrN0eRUpTBoRNLxbg=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "lac_de_nino",
@@ -15965,12 +16047,95 @@ const travelSpots = [
     era_label: "Ère Glaciaire & Temps Géologique",
     century: "Temps géologique",
     category: "lac",
+    counts: {},
     lat: 42.2575,
     lng: 8.9405,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOffslg_xvJ4kz3UwA46OCvLiQQ8HgO5_n6LBl4EchL5DDN_DeEkv4EzGRseb3NlTtyLxSXmYezSfQEZhddBZDGpPRyCNKT7Ae_d0KGx89OuDQUCUbU6TbO08b1EsR20nJyjUU2By4_zk96E43aOV2iqQ=w2318-h1546-s-no-gm?authuser=0",
     description: "Perché à 1 743 mètres d'altitude au cœur du Parc Naturel Régional de Corse et dominé par les crêtes granitiques du massif du Rotondo, le lac de Nino constitue l'un des joyaux naturels les plus emblématiques de l'île de Beauté. Ce vaste lac glaciaire s'étend au milieu d'un plateau d'altitude tapissé de pozzines verdoyantes, véritables pelouses tourbeuses constellées d'eaux reliées par de délicats méandres scintillants. Véritable oasis suspendue entre ciel et montagne le long du mythique sentier du GR20, le site offre un spectacle féerique où paissent paisiblement en semi-liberté des chevaux insulaires sauvages accompagnés de leurs poulains. Le contraste saisissant entre la douceur des pelouses spongieuses, la limpidité des eaux calmes et l'austérité minérale des parois rocheuses environnantes confère à cet écrin préservé une atmosphère empreinte d'une poésie et d'une sérénité incomparables.",
     visiter: "L'accès pédestre à ce sanctuaire d'altitude s'effectue principalement depuis la maison forestière de Popaghja dans la forêt territoriale de Valdu Niellu, ou via une traversée spectaculaire par le col de Vergio et la crête de Bocca a Reta. L'ascension débute à l'ombre bienfaisante des grands pins laricio avant de déboucher sur un univers minéral et grandiose récompensé par un panorama exceptionnel s'étirant jusqu'au golfe de Sagone et aux sommets environnants. Sur place, la découverte se poursuit en longeant avec précaution les berges herbeuses et les pozzines afin de préserver cet écosystème montagnard d'une grande fragilité, tout en observant à distance respectueuse la harde de chevaux sauvages en pâture. La luminosité changeante au fil de la journée sublime les reflets des crêtes dans le miroir d'eau, invitant à une halte contemplative inoubliable au cœur des grands espaces corses.",
-    link: "https://photos.google.com/share/AF1QipOcHfU1z-tymFZfCQ5g7e273NPu_R8fhW62j5S8mqfHfOE8BK_jxQ79ANOfhH5n0Q?key=WVpIbVlIbXNrREllVTFMSVk0UmFnVWV6ZlpzZWJn"
+    link: "https://photos.google.com/share/AF1QipOcHfU1z-tymFZfCQ5g7e273NPu_R8fhW62j5S8mqfHfOE8BK_jxQ79ANOfhH5n0Q?key=WVpIbVlIbXNrREllVTFMSVk0UmFnVWV6ZlpzZWJn",
+    sections: [
+      {
+        title: "Départ de Valdu Niellu et la Bergerie de Colga",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPVYd1EISekRhAXYaxbTnndkErl99JS7NR4VkMJs1rnS7BM7uCuCp2J9IRTq1ZdTlwJGb0Zi7eooUKEqvUihXXDhJ-khEXSEGI7J8AJyBwiffwH_92DPS1vJG4-7nYkUl0bSJzJSHtjS1GuVmvss5cGdw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Itinéraire classique et emblématique de la haute montagne corse depuis le Niolo, l'ascension vers le Lac de Nino débute à environ 1 076 mètres d'altitude au niveau de la Maison Forestière de Poppaghia, en bordure de la route du col de Vergio. La première partie de la montée s'élève sous le couvert majestueux de la Forêt de Valdu Niellu, en longeant les eaux vives du ruisseau de Colga à l'ombre des pins laricio centenaires. En franchissant la lisière supérieure des boisements vers 1 400 mètres, le sentier atteint les vestiges en pierre sèche de la Bergerie de Colga, témoin de l'agropastoralisme d'estive séculaire du haut bassin du Tavignano."
+      },
+      {
+        title: "Montée minérale et passage de la Bocca à Stazzona",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP9Jjq_Izu35mpH9v_GkOAZxS-a_V_KyRQasiXDZU_W9OgCrccb7VSk1BIahwZQIO6GZsotF-Tyj7obmf8MPi5Gb4MJnEtz9KTCtqUvJ24RVoW9Pfc_uSdtvUzHF-U1Bcw2HtN054bVssI82LTr-kIljw=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN8Ru2q8m9t5Y6DxJps_FTidHs1bEKtofi0aYZGjUrTuCrh_Vq-GBPNl4feJzmZDR8TzWnMb9LtawvEBs-wsj2be_4JCFCpjrlwFP-QehTUdsVtk0gQidxXFxUJ0aGHc7iUv3FDSEUMrbx8FmSZp15Ggg=w1753-h1316-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNEk25_aZbRXNqwrbF6PQJFe6kXfmWQFhz4XrSvOAxoeHyFmkHEp2VMG6JKJFDyNFLl1IUjHkItqHYdotjqpPalJvmf6HKWRzXBAm51_I-bBhqnZCfo7tJMj1lLkWPwnswTJ6Q1Ji0cIva4WeCP877V8Q=w1753-h2338-s-no-gm?authuser=0"
+        ],
+        text: "Au-delà de la bergerie, le parcours change radicalement de physionomie pour aborder un univers minéral escarpé, serpentant à travers un dédale d'éboulis et de dalles de granite inclinées où la progression se fait plus raide. L'effort culmine au franchissement de la Bocca à Stazzona (1 762 m), un col rocheux qui ménage une rupture saisissante : à l'austérité du couloir d'ascension succède brusquement la vaste cuvette glaciaire du lac de Nino (1 743 m), deuxième plus grand lac naturel de l'île."
+      },
+      {
+        title: "Origine glaciaire würmienne et socle hercynien",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPNfDqpXk0qB01uI3MV8yPyhD2xK6eJ94iWCzMcKK8F3eg4_eO3IteWlrkWqwJyqbVQSqmDfsbK5cmwNajVYcic-LWS2_Ph0qG_yo8eFHmFuRkyzjPPjXQcHeskeNYE-whAFRWFv4i7mjiuzKxYWFcyLQ=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczORlVimZndBqBWvyxPDM4brTo8GMa4iHhrZ7D1GyCNo5LEoh3aLWj65OvyRu-eS0i-mBPu5UfQJqUqTjC9PkF3S4Tr2LjN1VwD8m1hasNMR1zycPO3LSB7l4KVNwqaDqH-lAo942kbl91zwviOXOQbKtw=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMsEOkH45LK5YAzMiqD1iKsprCVAC5XRX-qtc3eb-MnaPQLGO62QBWy2xnTX8QMtWvxVsQabJoAybYcX5O83uA_hyv22ACowiXktcJTOEU4OFkrTd7w53CKZIzfGZang39S6jTJ9Tl9QUr68n888ULnPA=w1600-h1200-s-no-gm?authuser=0"
+        ],
+        text: "Le lac de Nino tire son origine de la dernière grande glaciation du Quaternaire (glaciation de Würm), achevée il y a environ dix à douze mille ans. Établi sur le socle granitique hercynien propre à la Corse occidentale cristalline, le bassin résulte d'un puissant surcreusement mécanique opéré par les appareils glaciaires d'altitude qui recouvraient alors les massifs du Rotondo et du Cinto. Lors de la fonte et du recul progressif des glaces à l'orée de l'Holocène, les moraines de fond et les cordons morainiques frontaux abandonnés ont fait office de verrous naturels, piégeant les eaux de fonte et de ruissellement dans une vaste cuvette d'altitude perchée à 1 743 mètres."
+      },
+      {
+        title: "Atterrissement lacustre et genèse des pozzines",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNNXTTAvLoDun3svHG5TwfvdPfNNpzKrjSLgO0SfCn8n2j7Jf0f1DfLprFjHKc2VViKagyMqpwBzbMWTc5783Xk_62C9hcKPzx9tv97cpY7mi29JxmNmP3Lcwn9bK6HO2cpz07dR0nszKLmLUEsfC326Q=w1600-h1200-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNwEIWWZ8JGRAkcMeGlh5NzRurXgM_Vj9GjvziNX-FlUK0GaQiswJ2Feh862v2gGqMUkW7RQhaGOJsIfzfy47c3bhpcv835F9KmAWx3FN1scAs3WPa3_ZJ5-j2V4kRMNN7xo3BgNleamsigClhpXO4o0w=w1600-h1200-s-no-gm?authuser=0"
+        ],
+        text: "À l'origine bien plus vaste et profond qu'à l'époque actuelle, le plan d'eau a subi au fil des millénaires un atterrissement continu par alluvionnement détritique et sédimentation organique. Cette dynamique post-glaciaire a donné naissance au remarquable réseau de pozzines (i pozzi), d'épaisses tourbières réticulées acides et spongieuses pouvant atteindre plusieurs mètres de profondeur qui ont progressivement comblé le paléo-lac."
+      },
+      {
+        title: "Bassin versant et source du Tavignano",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN7SDl-ZUDesZahxoVsPawrlkMXkV6DjzBmB3mSwXLN5j1Gj0punLPkfdz-yz3qbcGc79xczdhLdYmH0Rnmrhysk0guIT7ch0lWVxCiRmRTq1QDRzMXo4DW8GJ59VZDl9p8Bo1V1MytYBjEGFb8fgclNA=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNG8Xb4wV_oLVmhAP2OVtWMyjDDStBWtzTsYvKf8-86Tyu3O82yMca7OHzsTcDQFwe14NhF9jO6OLZlbWHppsN9jqXlrtTuEwSjpJmF-EFT0OWmWZgWs1RSwUZdHz3MAVzdqNCEiAd43txyWUupWbiI4w=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Alimenté par un bassin versant granitique peu perméable et donnant naissance au Tavignano — le deuxième fleuve de l'île —, l'ensemble constitue un témoin hydrogéologique d'exception illustrant la lente métamorphose d'un ombilic glaciaire würmien en zone humide d'altitude."
+      },
+      {
+        title: "Pastoralisme d'estive : vaches corses et chevaux en semi-liberté",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMcZAzq8NLuDZG0cejqKvwQerk42L3T1z7pqnitft2bxPl_KAMLXcm5-mUpMljOYXc7Q-2CEtb_NbDLt8sAoQfBINQA0SLLCWvCv40JqtDacaIDpJ7PJcTxAQfgOar8iNxocxa8Sc5BA7aE5Xejr2dFsg=w1600-h1200-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMY-dYTQR8SnwhgfvhnO6x9bIZjcVKJmQ5wj_UlmGcET2DoLsJN6V8e_8f3EnW7rs5JYomzt05qfh1Yjpm8fV2vWL_Zp-D0agZTevlK8WVmzJpfCEuk76ywfEg0E56PkYI59yR-c_9TwVVi613t03m22g=w1600-h1200-s-no-gm?authuser=0"
+        ],
+        text: "Sur le plateau du lac de Nino comme sur les grands estives de haute montagne, la présence séculaire des vaches rustiques de race corse et des chevaux (u cavallu corsu) est l'héritage direct de la transhumance estivale (a muntanera). Conduits traditionnellement depuis les villages du Niolo et des vallées adjacentes pour échapper à l'aridité estivale des basses terres, ces troupeaux en semi-liberté exploitent l'herbe grasse et fraîche des pozzines. Les bovins alimentent un élevage extensif traditionnel valorisant le veau et le bœuf insulaires, tandis que les chevaux — jadis indispensables bêtes de bât et de selle pour le transport des vivres, la garde des bêtes et le franchissement des cols escarpés — incarnent désormais une silhouette emblématique du pastoralisme corse le long du GR20."
+      },
+      {
+        title: "Équilibre agropastoral et préservation des tourbières",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOyQWRH1IPnxcKSPLeDaEzxTg20DHwOFfX1Iol6p6PH4AOBc1t52db6Vg5ZAJLjpcULTrsXb1_db-nKTL4YkL3LCLmr19u4stQI-YD19LVuC_ZLhTHWRzOoFrBxoMRhZpj_v0O5xORIveDa6KRiaVWQ4A=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPCVgRbR9R2Nz1xcm7pIxGNKgifku658W4CLWulOanP32s5GqIlUzNq_WZbLyRlOtLhxV28zVX9tlg2uebLM96w62QD2AnhVqM6FZIsIuWOQCZ6LwObwJbkQPGQDYX-b_UfnGtRl7X7dVT6m_FWig8NFA=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Sur le plan écologique, cette faune domestique remplit une fonction régulatrice capitale en maintenant les milieux ouverts et en empêchant l'enfrichement des pelouses d'altitude. En broutant continuellement les poacées et les laîches (Carex), chevaux et bovins participent au renouvellement du tapis végétal et sculptent le profil ras des tourbières réticulées. Cet équilibre agropastoral fait toutefois l'objet d'une surveillance continue par le Parc naturel régional de Corse, afin de prévenir le surpâturage et l'érosion des berges fragiles des trous d'eau sous l'effet d'un piétinement excessif, garantissant ainsi la pérennité de cet écosystème d'altitude unique."
+      },
+      {
+        title: "Panorama sur l'amphithéâtre glaciaire et la Paglia Orba",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOffslg_xvJ4kz3UwA46OCvLiQQ8HgO5_n6LBl4EchL5DDN_DeEkv4EzGRseb3NlTtyLxSXmYezSfQEZhddBZDGpPRyCNKT7Ae_d0KGx89OuDQUCUbU6TbO08b1EsR20nJyjUU2By4_zk96E43aOV2iqQ=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Après l'austérité des couloirs minéraux et des dalles rocheuses franchies depuis la Bocca à Stazzona ou les crêtes de Serra Piana, l’ouverture soudaine sur cette vaste cuvette glaciaire offre un contraste visuel saisissant : une oasis d'eaux calmes et de pelouses d’un vert éclatant, sertie au cœur d’un amphithéâtre de granite déchiqueté dominé par les silhouettes tutélaires de la Punta Artica et de la Paglia Orba."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO01WoxcOvabrbGdmV53zVdlvsUrHlopa3ez2pellkY52tuQFPUts4JNYadiIwZ-uWFYtRgK2jaVoepz3VVmkm-wr7KCc20jJBOWbfw_C2iDA7mqcK3_2833Evctnt7-VWEs58TJT-HAiYd_pZ3QfXLOw=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMkA3wfwDHtoNxBt_FdxX7awq-HdF22Q2r8pbQdHg7uhzF46RSs5j4eikQEUViYW3owWAQNVCXIjDN_H2w-PNZVi99AMDDJMNS-64iCJHGpDHSkeVP-uUpvn3ECtWeAB_zJ9EvnBhEQMuoLvT5YZBHWuQ=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP5M0uWuKMkyg5zoko07P4xy-P8X6SuDoX6g9hsX2V0Hh9IumesMxipeLXot1UwIMRYPZ3966wnMx36zjID4la3VK6W3o-7RQW4gWT3S0jDkf1vwDXXzE13LBrmNJm2sBLMkiLF_szK-QKHN8PP_qvB9A=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM8m0SAacOQoR46HUAaOKNLa46cpSYt_dknho5PKabVyV6ZoNCkdAv9bkxfAxWpOkoi4btyYagrprdiD8Kf0cYejYUDf0tIBemmMIarUJdhknqB_9kbSXuTCrhDC4k1VIr6GnUaUJNfXlPJNNddSoTuNw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "farinole_sentier_douaniers",
