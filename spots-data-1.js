@@ -14962,18 +14962,52 @@ const travelSpots = [
     subdiv: "Gizeh",
     altitude: 22,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    counts: {},
     lat: 29.9753,
     lng: 31.1376,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNOF-n-S3utVbPnDbHcJf-cULebFfhJLRJ6et95I4YoSDJrG-GyQxDSuDbMY5t0DFZKDxQo4QzwDQLVNxheXzusDviBzPND0QzJeXrH9aH2PvTyw3UMyf7VXP33KTNCh8ekhBNf9ySN3YFjcYLfdZVIiw=w2650-h1766-s-no-gm?authuser=0",
     description: "Sentinelle colossale veillant depuis plus de quarante-cinq siècles à l'orée orientale du plateau de Gizeh, le Grand Sphinx constitue la sculpture monumentale monolithique la plus vaste et emblématique jamais conçue par l'Humanité. Sculpté directement dans un promontoire naturel de calcaire émergeant de la carrière ayant fourni les blocs des pyramides voisines, ce lion couchant à tête humaine s'étire sur plus de soixante-treize mètres de longueur et culmine à une vingtaine de mètres de hauteur. Édifié sous la IVe dynastie au XXVIe siècle avant notre ère, l'édifice est traditionnellement associé au pharaon Khéphren, dont les traits royaux idéalisés — coiffés du némès et parés de l'uræus — fusionnent avec la puissance tellurique du félin pour incarner le souverain en gardien vigilant de la cité des morts. Vénéré au Nouvel Empire sous l'aspect du dieu solaire Harmakhis (« Horus dans l'horizon »), le colosse traverse les âges entouré d'une aura de mystère universelle, résistant aux assauts du vent du désert et aux ensablements séculaires qui ensevelirent son corps sous les dunes jusqu'aux dégagements scientifiques majeurs des XIXe et XXe siècles.",
     visiter: "La découverte s'effectue en gravissant la rampe panoramique longeant le temple de la Vallée de Khéphren pour accéder à la terrasse d'observation dominant la fosse d'excavation où repose le colosse. La vue plongeante permet d'apprécier la morphologie hybride de la bête, la texture étagée des assises de calcaire jaune et la finesse résiduelle des traits du visage royal malgré les vicissitudes du temps et la perte de son nez et de sa barbe cérémonielle. En observant attentivement l'espace compris entre les deux monumentales pattes avant de calcaire maçonné, le regard découvre la célèbre Stèle du Songe en granit rouge, érigée sous la XVIIIe dynastie par le jeune pharaon Thoutmosis IV pour commémorer la promesse royale reçue du Sphinx en échange de son désensablement. L'itinéraire contourne ensuite le flanc nord de l'enclos rocheux, révélant la puissante queue recourbée enroulée sur la croupe et offrant un angle de prise de vue spectaculaire où le profil du lion s'aligne exactement avec la silhouette étagée de la pyramide de Khéphren baignée par la lumière dorée du couchant.",
-    link: "https://photos.google.com/share/AF1QipPZ5plJybSHlkaMCg-QIKLkGgV1kgRwxjK-SRbFE3kmL4y6GlisgTQGRQ3BriHiyg?key=akRKZVRKbDFYVGhPQ0V1SDJyaERNMVhDQkdmWDRn"
+    link: "https://photos.google.com/share/AF1QipPZ5plJybSHlkaMCg-QIKLkGgV1kgRwxjK-SRbFE3kmL4y6GlisgTQGRQ3BriHiyg?key=akRKZVRKbDFYVGhPQ0V1SDJyaERNMVhDQkdmWDRn",
+    sections: [
+      {
+        title: "La sentinelle solaire de Gizeh",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNOF-n-S3utVbPnDbHcJf-cULebFfhJLRJ6et95I4YoSDJrG-GyQxDSuDbMY5t0DFZKDxQo4QzwDQLVNxheXzusDviBzPND0QzJeXrH9aH2PvTyw3UMyf7VXP33KTNCh8ekhBNf9ySN3YFjcYLfdZVIiw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Le Grand Sphinx de Gizeh est sans doute l'une des statues les plus célèbres, les plus imposantes et les plus énigmatiques du monde antique. Reposant fièrement sur le plateau de Gizeh, il est le gardien silencieux des grandes pyramides et une icône de la civilisation égyptienne.\n\nIdentification et Conception :\nLe Sphinx représente une créature mythique : un corps de lion couché et une tête humaine coiffée de la coiffe royale Némès. Il est orienté vers l'Est, face au soleil levant, ce qui souligne son lien avec la divinité solaire."
+      },
+      {
+        title: "Attribution à Khéphren et dimensions colossales",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM65QsdnArzAqcMMVbEGE3Q2uSitGEFMjvjLr86o0GrIW5Z-7uHwxcfarHI-lvY3kgCBVosO92fpl9wsQEkhHeo4sdgVrrus2oHuZbiHMfiQnlQ-9NnIpOi38BCuy-CI7iM1j8g7adnhm9_IDcjsxPRWg=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Identité : Bien qu'il ait longtemps été débattu, le Sphinx est largement attribué au pharaon Khéphren (IVe dynastie, vers 2570 av. J.-C.). Sa tête porte les traits idéalisés du roi et il a été sculpté dans un bloc de calcaire naturel encore en place (monolithe) sur le plateau.\n\nDimensions : Il est la plus grande sculpture monolithique du monde : il mesure environ 73 mètres de long et plus de 20 mètres de haut."
+      },
+      {
+        title: "Culte d'Harmakhis, Stèle du Songe et restaurations",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPuxRkmLAo-8vrvy5UCX8vMgEfjuu-GB9jNNtp_L-JJG2CXIRrt4g-K10L_MFJx3e9Y3og0cEs_-nYeyFGyvLSb9EdmKuNl3ko5xJvTbgyVfSu-glEd_NZI757NgGKgEWLSaDocr8EUfBGgupmoL3tJwQ=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN5fyhjHASMzTMoQced1ZLP8jq0Fbe49h0bwmxB0Y0RI5Tk3U0t0JYftXoJ3-7YdCeNMuCeOXVYzMwpiN18ajZY3JdSUKf06niraflQgYepqtoKd2JyJhzuQpiwNECSh1YgvKWQFP4OtaLRAeRDNECZyw=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNNqqZhNaKH9bOhMfWY6OwxWNvo5knJ6PvkWOtnphyVAyZq4JAAU-r9FcAtugGyeuOa5GMwAH92d5Za38mxK2RSD0TMSyPyuKX-IeO7Rb4dvCtkYTyPpYa7TIQl00E0dEVcEj201lpV7DW3JmwsFC6Eiw=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Le rôle exact du Sphinx reste sujet à discussion, mais il est clairement lié au complexe funéraire royal. On pense qu'il incarne une forme du dieu solaire Horus à l'horizon (Harmakhis), veillant sur la nécropole royale et protégeant les pyramides de Khéphren et de Khéops.\n\n- Construction : Le Sphinx fut sculpté directement dans le bedrock du plateau de Gizeh, au sein d'une carrière qui fournit également une partie du calcaire pour le Temple de la Vallée de Khéphren, adjacent au Sphinx.\n- Ensablement et Restauration : Au fil des millénaires, le Sphinx a été régulièrement ensablé et enterré jusqu'au cou. De nombreux pharaons l'ont fait dégager et restaurer. L'épisode le plus célèbre est celui de Thoutmôsis IV (XVIIIe dynastie), qui, après avoir fait un rêve où le Sphinx lui demandait d'être libéré du sable, érigea la Stèle du Songe entre ses pattes.\n- Le Nez Manquant : La cause la plus probable de la perte de son nez et de sa barbe postiche (aujourd'hui conservée au British Museum) est l'érosion naturelle ou le vandalisme délibéré à l'époque médiévale, et non un tir d'artillerie napoléonien comme le veut la légende populaire.\n\nLe Grand Sphinx, avec ses proportions majestueuses et son regard fixé sur l'éternité, continue d'être un puissant symbole de l'histoire et de la permanence de l'Égypte antique."
+      },
+      {
+        title: "Perspective sur la fosse d'excavation et les assises calcaires",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPAj32cHJ17ojvNE5XZPpm-6mT8eXW8v9Lyw1ko2D6gBYUDEC9NjU-Lh-jxfcSg4zknPc9Er4riZnQpmgcO_AEVLEwzKUDgAbrOxlI2vc4H2ZvzD0qQbS9qs4th7qpyFmf17ulJHKYfkmUyFIzz5LApIA=w1753-h1303-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "gizeh_pyramide_kheops",
@@ -14986,18 +15020,53 @@ const travelSpots = [
     subdiv: "Gizeh",
     altitude: 65,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    counts: {},
     lat: 29.9792,
     lng: 31.1342,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOL6UdQ2NgvSXtSJxB1zz2auY4ZqsT2NrlwNUrBsi_6BiP44Vwnz__wBTkmkUFyLA_Ms45SzeK4rBZkYRULi2Q1h-8cOwAKn2isOUGmCYlOmZew4qlF1YSOskg03mndEkfTIVbuOl5GZnLgK9ugSEPSWg=w2650-h1766-s-no-gm?authuser=0",
     description: "Seule survivante des sept merveilles du monde antique et chef-d'œuvre absolu de l'architecture mégalithique universelle, la Grande Pyramide de Khéops domine le plateau calcaire de Gizeh depuis plus de quarante-cinq siècles avec une perfection géométrique qui continue de défier l'entendement. Érigée sous la IVe dynastie au XXVIe siècle avant notre ère par le vizir et maître d'œuvre Hémiounou pour servir de tombeau d'éternité au pharaon Khéops, cette montagne de pierre artificielle culminait à l'origine à plus de cent quarante-six mètres de hauteur, demeurant l'édifice le plus élevé jamais bâti par l'homme jusqu'à l'élévation des cathédrales médiévales. Composée de plus de deux millions trois cent mille blocs de calcaire local pesant chacun en moyenne deux tonnes et demie, la structure était autrefois entièrement revêtue d'un étincelant parement poli de calcaire blanc de Tourah reflétant les rayons du soleil comme un phare cosmique à la lisière du désert libyque. Orientée avec une précision stupéfiante sur les quatre points cardinaux avec une marge d'erreur infime, elle synthétise le savoir astronomique, mathématique et théologique de l'Ancien Empire à son apogée, conçu pour propulser l'âme du souverain défunt vers les étoiles circumpolaires impérissables.",
     visiter: "La découverte commence au pied des gigantesques assises de calcaire de la face nord, où le regard mesure la démesure des blocs avant d'emprunter la brèche historique creusée au IXe siècle par le calife Al-Mamoun pour pénétrer dans les entrailles du géant. L'incursion intérieure procure une expérience physique et sensorielle inoubliable : après s'être courbé dans l'étroit couloir ascendant incliné à vingt-six degrés, le visiteur se redresse avec sidération au seuil de la Grande Galerie, prodigieuse nef en encorbellement haute de près de neuf mètres et longue de quarante-sept mètres, chef-d'œuvre de stéréotomie où les dalles de calcaire glissent dans une pénombre solennelle. Franchissant la chambre des herses, ou pénètre enfin au cœur de la Chambre du Roi, salle sépulcrale entièrement tapissée de monolithes de granit rouge d'Assouan ajustés sans le moindre mortier, surmontée de cinq chambres de décharge destinées à dévier les pressions titanesques de la masse pyramidale. Devant le sarcophage royal monolithique en granit ébréché résonne une acoustique minérale enveloppante chargée de recueillement. De retour au grand jour, le circuit contourne la face sud pour observer la fosse restaurée de la célèbre barque solaire en bois de cèdre avant d'admirer les pyramides satellites des reines sous la lumière dorée du couchant.",
-    link: "https://photos.google.com/share/AF1QipPZ5plJybSHlkaMCg-QIKLkGgV1kgRwxjK-SRbFE3kmL4y6GlisgTQGRQ3BriHiyg?key=akRKZVRKbDFYVGhPQ0V1SDJyaERNMVhDQkdmWDRn"
+    link: "https://photos.google.com/share/AF1QipPZ5plJybSHlkaMCg-QIKLkGgV1kgRwxjK-SRbFE3kmL4y6GlisgTQGRQ3BriHiyg?key=akRKZVRKbDFYVGhPQ0V1SDJyaERNMVhDQkdmWDRn",
+    sections: [
+      {
+        title: "Le règne de Khéops et le chantier d'Hémiounou",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPQ1ajJobVLr9c52MuHc9lU84Bof8IKfhr4m1OhaC0WUn_7ORYQWoV53pGAENuRQ5mXWOQh8lnMyfCLGdgnW6dKFy8tz81eOMEtPZbfQggMDVxvVz7Eux-G0lTrfIhHa3r0YFx-fy6Bub4yRMCGY97ScA=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOL6UdQ2NgvSXtSJxB1zz2auY4ZqsT2NrlwNUrBsi_6BiP44Vwnz__wBTkmkUFyLA_Ms45SzeK4rBZkYRULi2Q1h-8cOwAKn2isOUGmCYlOmZew4qlF1YSOskg03mndEkfTIVbuOl5GZnLgK9ugSEPSWg=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "La pyramide fut construite pour le pharaon Khéops (ou Khoufou), deuxième souverain de la IVe dynastie de l'Ancien Empire, régnant vers 2550 av. J.-C. Le projet de construction fut une entreprise d'une ampleur sans précédent, nécessitant un effort logistique et technique colossal. La durée de sa construction est estimée à environ 20 ans. Son architecte principal est traditionnellement considéré comme étant Hémiounou, un neveu du pharaon. La pyramide a marqué l'apogée de l'architecture monumentale de l'Ancien Empire et a établi les standards des pyramides à faces lisses."
+      },
+      {
+        title: "Perfection géométrique et masse mégalithique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOxU6UWzXCER0WqCIjd_C9_RE9xfo-GFTwq5t-SkGlR8ljEsFSvJS8gBAD_fHclXb2JTribAHex3rAeLnaWB8giJ5-eIEc7HH45I9Szz_OzdboqI_-ZL81cX-BwTU_5dDeoImk_qfZ6KCd3wnC7KT2fYQ=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO2wav-Q_Xg3-RUx-oMx7vgiUoCJIqJ_kQN360uKUsLk-Z5UuoWUSfzOs-0bVVviNIFwITPEZncxtltaHYxozl4YscXMh0AVYjqxqGCBhwH1VpHzvhaD6gGvF2CNfWQcLwXG03w7EwQA1RprQvRvy4SBg=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Le monument fut conçu comme une structure géométrique d'une précision remarquable. Sa base est un carré quasi parfait mesurant à l'origine environ 230,37 mètres de côté, avec une erreur d'orientation par rapport aux quatre points cardinaux d'à peine un dixième de degré. Sa hauteur initiale culminait à 146,6 mètres, bien qu'elle ait perdu près de neuf mètres aujourd'hui, notamment à cause du retrait de son revêtement et de l'absence de son pyramidion sommital. L'angle de ses faces, fixé à 51°50'40\", visait à représenter symboliquement le rayon du soleil solidifié. Le corps de la pyramide est composé d'environ 2,3 millions de blocs de calcaire local pour le noyau."
+      },
+      {
+        title: "Parement de Tourah, complexe funéraire et ouvriers bâtisseurs",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMHmSvYTUjhxI4vFrtJLN3qR6xx9L-B_uomYg-p7wQJPlvo-B3EJHXzzuubp65ozu-XWk8S4L44M8Hmi9O7e40bPB__Ck8NDDAdv_T-nQkwK2eKoXJhpkdMu4_fCgNAd9cghFWxzdO9LBJIqr4GQAxOuQ=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPiOd3ik3bpvdja1na55Q3NNj1YEtlcCyzEqw-VQV0yWCrcToYV2mxZJdF4z_3tCGkvjlCsMXFcqVkWuh_tc3ihEh0y8IzsrkL_Drdca3iamQeKczhmDipe6Vr6kuMBYqqQvP41ALxmf25iUZCVZ5-ywQ=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Initialement, la pyramide était intégralement recouverte d'un parement fait de calcaire blanc fin de Toura, qui était poli pour refléter la lumière du soleil, transformant le monument en un objet étincelant visible de loin. Ce parement a été largement retiré au Moyen Âge. Le sommet était coiffé du pyramidion, probablement fait d'électrum (alliage d'or et d'argent), symbolisant l'union du pharaon au cosmos. La pyramide n'était que l'élément central d'un complexe funéraire plus vaste, comprenant un Temple Funéraire (ou temple haut) à l'Est, un Temple de la Vallée (temple bas) relié par une chaussée, trois petites pyramides satellites pour les reines, et cinq fosses à barques, dont l'une contenait une barque solaire de cèdre de plus de quarante mètres de long, témoignant de son voyage éternel vers l'au-delà.\n\nContrairement à la légende populaire souvent véhiculée dans les films, les pyramides n'ont pas été construites principalement par des esclaves. Les preuves archéologiques, notamment les tombes des ouvriers découvertes à Gizeh et les restes d'installations, indiquent que les bâtisseurs étaient :\n- Travailleurs Qualifiés Permanents : des artisans, tailleurs de pierre et contremaîtres employés à l'année.\n- Main-d'œuvre Saisonnière : des dizaines de milliers de paysans et de fermiers réquisitionnés pendant les trois mois de la crue du Nil (l'inondation annuelle rendait le travail agricole impossible). Ces hommes étaient nourris, logés et recevaient une compensation (souvent en nature, comme de la bière, du pain et des vivres) pour leur travail, ce qui était une forme d'impôt en travail.\nLogistique : la construction était un projet national d'ingénierie et de logistique immense, nécessitant une planification étatique pour la gestion des carrières, le transport des matériaux, le logement et l'alimentation de la main-d'œuvre."
+      },
+      {
+        title: "La fosse rituelle de la barque solaire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOybkTBymhTHbcSwPJwDfM0Y2pZ3U5w0pandqtU17VCXM0uiZtKe2F3mr-jr0l23ERUug6WpdFPupm7tmw-NdFsEZtxM6xpQ7OwMqmkTnXiQVcaFXfH3ZGQ50zM49OMgkp4hjLH5N2PFjScoLFunnvbXw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "La découverte d'une tombe-fosse de près de 14 mètres de profondeur sur le flanc Sud de la Grande Pyramide de Khéops est l'une des révélations majeures du site de Gizeh. Cette structure n'était pas destinée à une inhumation au sens traditionnel, mais servait de fosse rituelle pour un élément funéraire crucial : la barque solaire du pharaon.\n\nCette fosse a livré, en 1954, une barque en bois de cèdre exceptionnelle, mesurant environ 43,6 mètres de long. Le navire avait été soigneusement démonté en plus de mille deux cents pièces par les ouvriers de Khéops, puis méticuleusement réassemblé par les archéologues après sa découverte. L'existence de cette barque est directement liée à la mythologie solaire égyptienne, dans laquelle le pharaon avait besoin d'un navire pour accompagner le dieu-soleil Rê dans sa traversée diurne et nocturne de l'univers, assurant ainsi sa propre résurrection et son intégration au cycle éternel. Le remarquable état de conservation de cette barque, l'un des rares navires funéraires de l'Ancien Empire à avoir survécu, en fait un témoignage inestimable de l'ingénierie navale et des croyances cosmologiques de l'époque. Une deuxième fosse identique, également destinée à abriter une barque, a été découverte à proximité, renforçant l'importance rituelle de ces navires pour le complexe funéraire du roi Khéops."
+      }
+    ]
   },
   {
     id: "gizeh_pyramide_henoutsen",
@@ -15010,15 +15079,31 @@ const travelSpots = [
     subdiv: "Gizeh",
     altitude: 60,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "pharaonique",
     era_label: "Antiquité Pharaonique (Ancien Empire - IVe dynastie)",
     century: "Antiquité (XXVIe siècle av. J.-C.)",
     category: "archeologie",
-     unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    unesco_name: "Memphis et sa nécropole – les zones des pyramides de Gizeh à Dahchour",
+    counts: {},
     lat: 29.9777,
     lng: 31.1365,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPJV6Ii0zGM90Y28LMW9kKLwLbia1w8r_06kB8TkEMGmCWpIobD6VVdwyBlzuCWGtQcCHA5aUzSXQrExrU5s9QS39RFEGmnzCwL5npAEVFM0OdfPN8r8y9IbECvQol0QtCY8JGOejHaa3wOlM-qPI22gg=w2650-h1766-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNFgtp72aepXqj6gYpAVY-6sext_MhXjAeaVNwfpA13L2g_5N7K_6G3MWqhQz2iRsaX243xWD5rdkI-cbKQ19M3DzBTcQRxfbIPwth5DMyPV9t0c0DR6iy60p1hnc-z6kMqskNr4UHZDc_wiOw5yu1jbw=w1753-h2338-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP5FjMq_c_IXAcC73C762Fr2Gup12QdLS8XmGZwQ0_fId1C8EKGLgGwZa-HEqDZgmBisHJGo0hhhX-yrifSeTeX8f-ntZAZkaGg-WfX5AbTJUWOJK0f6vcbbiNV74-q9iFqP9eE90Q0XR0R3E6IDzru_A=w1753-h2338-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNqBgpB-obiWGp4z_oMVtUwaeP-H6xg3fp2pCv6WUYQqiv5udPf6zDKmz387ZAwVi17TsrF_zAqQ6gK9jwfr-DJuiaxWwx8KRr6z0U694yEwe0XeKAYAUs4tUMK1vSLgqOlLVVK2GJSbGdthmfH_W_ZwQ=w1753-h2338-s-no-gm?authuser=0",
+        caption: "L'intérieur de la pyramide G1-c est typique des petites pyramides de reines de l'Ancien Empire, bien que simple dans sa conception. L'entrée se situe, comme d'usage, sur la face Nord du monument. Un couloir descendant et étroit mène à la substructure, qui fut creusée dans le calcaire naturel du plateau de Gizeh. Ce couloir aboutit à une unique chambre funéraire située directement sous l'axe vertical de la pyramide. Cette chambre, relativement petite (environ 3,72 m sur 2,95 m), est taillée dans la roche et était probablement à l'origine recouverte de blocs de calcaire fin. Bien que son état de délabrement et les pillages aient rendu difficile toute conclusion définitive, aucune trace de sarcophage ni d'équipement funéraire n'a été retrouvée in situ, mais la présence d'une chambre unique confirme sa fonction de sépulture royale. Aujourd'hui, on peut voir les vestiges de cette structure interne simple qui contraste avec la complexité architecturale de la Grande Pyramide voisine."
+      }
+    ],
     description: "Dressée sur le plateau calcaire de Gizeh à quelques dizaines de mètres au sud-est de la Grande Pyramide, la sépulture de la reine Hénoutsen — désignée sous la nomenclature archéologique G1-c — constitue la plus méridionale et la mieux préservée de la triade des pyramides satellites de Khéops. Fille du grand roi bâtisseur Snéfrou et épouse de son demi-frère Khéops, Hénoutsen appartenait au cœur du cercle dynastique de l'âge d'or de la IVe dynastie au XXVIe siècle avant notre ère. Culminant à l'origine à près de vingt-neuf mètres de hauteur pour une base carrée d'environ quarante-six mètres, cette montagne de calcaire local présente la particularité remarquable d'avoir conservé sur ses assises inférieures de magnifiques blocs de parement lissé en calcaire fin de Tourah. Légèrement décalée par rapport à l'alignement des deux autres tombes de reines (G1-a et G1-b) pour s'harmoniser avec l'immense mastaba du prince Khoufoukhaf, elle fut également au cœur d'une extraordinaire renaissance religieuse sous les XXIe et XXe dynasties saïtes : sa chapelle funéraire orientale fut alors agrandie et consacrée en temple d'Isis « Maîtresse de la Pyramide », comme l'atteste la célèbre stèle de l'Inventaire découverte en ses murs par Auguste Mariette.",
     visiter: "La découverte s'amorce par l'approche de la face nord du monument, où l'on observe la précision de l'appareillage des assises de base avant d'examiner l'entrée du boyau funéraire plongeant à flanc de colline. L'incursion intérieure permet d'emprunter un couloir descendant incliné à environ vingt-cinq degrés, s'enfonçant sous le niveau rocheux naturel du plateau pour déboucher dans une antichambre puis dans la chambre funéraire royale taillée à même le roc calcaire, pourvue d'une niche à canopes au sud. De retour à l'extérieur, l'exploration se concentre sur le flanc oriental où subsistent les murs de calcaire et les fondations du temple d'Isis d'époque tardive, offrant un émouvant témoignage de la continuité dévotionnelle du site sur plus de deux mille ans. La marche se prolonge vers le déambulatoire séparant la pyramide de la fosse de barque voisine et des mastabas des courtisans du champ Est, livrant un angle photographique spectaculaire où la silhouette étagée de la pyramide d'Hénoutsen s'aligne en contre-plongée avec la masse colossale de la Grande Pyramide baignée par la lumière dorée du désert.",
     link: "https://photos.google.com/share/AF1QipPZ5plJybSHlkaMCg-QIKLkGgV1kgRwxjK-SRbFE3kmL4y6GlisgTQGRQ3BriHiyg?key=akRKZVRKbDFYVGhPQ0V1SDJyaERNMVhDQkdmWDRn"
