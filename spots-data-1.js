@@ -15263,14 +15263,38 @@ const travelSpots = [
     subdiv: "Vieux Caire",
     altitude: 23,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Byzantine & Héritage Romain (Xe-XXe siècle)",
     century: "Moyen Âge (Xe siècle)",
     category: "religieux",
+    counts: {},
     lat: 30.0065,
     lng: 31.2301,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNoyzurir8DknmQ8XtdZ05w7nvqJMDVuvbM4ASyaYfRrYCYXShggFrxomUa1tSTfLCYbncqXIaJMa72OMym1uYNQD0JZLe8g-kKuwHZw_B28LpZHh279oa3xJNy07rtzKPu7nr31MSL3S_BcqDLkvIUPg=w2650-h1766-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOC49GY5puP8B7ZQo2P-D1xn7yqOUbujxFZawtTygw58XJg3p6oXgR3SVHaGCOgALeaHoApr4ExU1dSeAuQI_-ua2fQVMS26lqk2nrw-uXiCMkNSfUXCuwreqr6BwOtugOgT6zaKmXsEjvyzaoaAUcL8Q=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNVni_9JDxtgxH0fHfmQSGORPedSnKBZDPcnUvP2VwgpK-Yr-Q9d4HN6oVaJFTDTiPbUj88V87Dimc5FIVHIGCJugC-jySn3qPYTj7_gRbmyo6ONmil_CtaZsUmK-Oc4G41f82JVJdKRRKzQ9JTdfhLnA=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMGH7tu3wxel-Mn5rEFf-5hBfH07ngFyllNdiiJu8nmUvoXSKj-A7RFhtiS1KpzJf8mQdVb-I--1gfXIyKSbfKrT6o-jEuU8-jMH5zpwgBb3YNU313Q1FqIr0rE-M0EmfVW2N_mQ9v2JyOEf6QX_oiNMA=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNIMEfII31irEtLFGVexNtkfUYUG8oNIY1nyiVKVSXx0lzi8aVrS_TnnN4RrtKqlCRddHh6YyBcm2QSIkmv8gdKf8b4we92QeyHrwrJ_QaxmCHImvHNGOTp5pc33aes4tEO4rAX0mxW49sqi0Mp6MGlyQ=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMCSrR6upJzQRBqhRpq-KIkyLxN14G9KsQUvTM7Yw_mMIemzb8d3NmG5aQ4d4U0jGuj-mE8wsFHpqFvJ8QYYWIPOv96HHZqHGSOJA0Qc4FByp8suaSPqPOkMV5nVtuzkMB2PB8YUqD0ZrKp7IIX040iHQ=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Au cœur du Vieux Caire historique dans le quartier copte de Misr al-Qadima, l'église Saint-Georges (Mar Girgis) constitue l'un des sanctuaires chrétiens les plus singuliers et spectaculaires de toute la vallée du Nil. Édifiée directement au sommet de l'une des imposantes tours rondes romaines de l'antique forteresse de Babylone érigée sous le règne de l'empereur Trajan, cette église grecque orthodoxe — siège patriarcal historique pour l'ensemble de l'Afrique — se distingue par son plan circulaire en rotonde rarissime dans l'architecture chrétienne d'Orient. Témoin d'une ferveur ininterrompue depuis les premiers siècles de notre ère, l'édifice actuel, reconstruit après l'incendie de 1904 sur des substructions remontant au Xe siècle, fusionne avec majesté la monumentalité défensive romaine et la splendeur liturgique byzantine. Dédié au saint cavalier mégalomartyr Georges de Lydda, vénéré avec une intensité égale par les chrétiens et les musulmans d'Égypte pour ses vertus protectrices et thaumaturgiques, le sanctuaire domine le dédale des venelles coptes de son élégant dôme cuivré surmonté de la croix. Inscrite au patrimoine mondial de l'UNESCO au titre du Caire historique, l'église incarne avec éclat la permanence et la vitalité du christianisme oriental au carrefour des civilisations méditerranéennes.",
     visiter: "La découverte commence par l'ascension du grand escalier monumental en hémicycle franchissant le rempart romain en briques et blocs de calcaire chaînés, dont l'épaisseur révèle la vocation militaire originelle du bastion de Babylone. En pénétrant sous l'immense rotonde centrale baignée d'une clarté solennelle filtrée par une couronne de vitraux polychromes, le regard s'élève vers la voûte du dôme où trône une fresque majestueuse du Christ Pantocrator bénissant l'assemblée au milieu des légions célestes. La nef circulaire s'articule autour d'une somptueuse iconostase en bois finement sculpté et doré ornée d'icônes byzantines étincelantes, illustrant avec un grand dynamisme pictural le supplice et le triomphe équestre de saint Georges terrassant le dragon. L'émotion s'intensifie en descendant dans la crypte semi-enterrée et les chapelles aménagées à même le fût de la tour romaine, où les fidèles viennent vénérer les célèbres chaînes de fer historiques réputées miraculeuses ayant entravé le saint martyr. La visite se prolonge paisiblement dans le cloître ombragé et le cimetière attenant bordé de tombeaux sculptés en marbre blanc, offrant un havre de recueillement et de sérénité absolue à l'écart des tumultes de la métropole cairote.",
     link: "https://photos.google.com/share/AF1QipPveY8Q8lsqfxyBwImKztpZTuw9SNuAaXh9jboz_2ggxTkXmszTQoq5Bhp_jLZE8g?key=T280S0p5Wk5jS2VpTThWb250TThqQUpXNV9yZ3Zn"
@@ -15286,17 +15310,46 @@ const travelSpots = [
     subdiv: "Vieux Caire",
     altitude: 20,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Paléochrétienne & Héritage Copte (IVe-XIe siècle)",
     century: "Antiquité tardive (IVe siècle)",
     category: "religieux",
+    counts: {},
     lat: 30.0054,
     lng: 31.2308,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOUXPal2kg9_OYQjZ5gXWntERCgGjAP3JfOw_GAgk4jJookhgvNZlKHGCu1bzuDTL1I0e2v2Ma8VlUedNTfq3l9AjMkM5n0lFwFVCrpy3e2VFCfJnE0DqyzJo-B6NJDV1QsQSHHqYzgcDAGd9aX-2BiRQ=w2650-h1766-s-no-gm?authuser=0",
     description: "Enchâssée dans le dédale millénaire des ruelles piétonnes du quartier copte de Misr al-Qadima à l'abri des antiques remparts de la forteresse romaine de Babylone, l'église Saint-Serge-et-Saint-Bacchus — universellement désignée sous le nom familier d'Abou Serga — constitue l'un des sanctuaires chrétiens les plus vénérables, anciens et sacrés de tout l'Orient. Fondée selon la tradition dès la fin du IVe siècle sur les lieux mêmes où la Sainte Famille (l'Enfant Jésus, la Vierge Marie et saint Joseph guidés par l'archange Gabriel) trouva refuge au terme de sa périlleuse fuite d'Hérode en terre d'Égypte, cette basilique primitive incarne le cœur spirituel battant de l'Église copte orthodoxe. Dédiée à deux hauts officiers romains de Syrie martyrisés sous l'empereur Maximien pour leur fidélité inébranlable au Christ, elle s'enfonce de plusieurs mètres sous le niveau actuel de la voirie urbaine, témoignant de l'épaisseur des siècles et des alluvions du Nil accumulées depuis l'Antiquité. Haut lieu de l'histoire patriarcale où furent élus et ordonnés nombre de pontifes d'Alexandrie jusqu'au transfert du siège vers l'Église Suspendue, l'édifice réunit une architecture basilicale d'une pureté saisissante et une atmosphère mystique d'une rare intensité au confluent des traditions bibliques et méditerranéennes.",
     visiter: "La découverte s'amorce par la descente d'un escalier de pierre abrupt s'enfonçant sous le niveau des ruelles du Vieux Caire pour pénétrer dans un narthex feutré et solennel baigné par la douce lueur des veilleuses à huile. En franchissant la porte intérieure, le regard embrasse la magnifique nef centrale séparée de ses bas-côtés par deux rangées ininterrompues de douze colonnes corinthiennes antiques de marbre blanc réemployées, dont l'une, taillée dans un granit rougeâtre sombre dépourvu de chapiteau sculpté, symbolise selon la tradition la trahison tragique de Judas. Au-dessus, la majestueuse charpente de bois en berceau renversé évoque la coque retournée de l'arche de Noé, tandis que le sanctuaire s'abrite derrière une prodigieuse iconostase en ébène et noyer du XIIIe siècle, finement marquetée d'ivoire ciselé et surmontée d'icônes byzantino-coptes représentant la Cène et les apôtres. Le point culminant de l'émotion spirituelle réside dans l'accès à la crypte souterraine semi-immergée située à une dizaine de mètres sous l'autel majeur : cet humble boyau voûté en briques crues abrite la niche rocheuse et le puits d'eau sacrée où reposa la Sainte Famille durant son séjour de trois mois, offrant un moment de recueillement et de ferveur intemporelle inoubliable.",
-    link: "https://photos.google.com/share/AF1QipPveY8Q8lsqfxyBwImKztpZTuw9SNuAaXh9jboz_2ggxTkXmszTQoq5Bhp_jLZE8g?key=T280S0p5Wk5jS2VpTThWb250TThqQUpXNV9yZ3Zn"
+    link: "https://photos.google.com/share/AF1QipPveY8Q8lsqfxyBwImKztpZTuw9SNuAaXh9jboz_2ggxTkXmszTQoq5Bhp_jLZE8g?key=T280S0p5Wk5jS2VpTThWb250TThqQUpXNV9yZ3Zn",
+    sections: [
+      {
+        title: "Plan basilical paléochrétien et colonnade apostolique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOUXPal2kg9_OYQjZ5gXWntERCgGjAP3JfOw_GAgk4jJookhgvNZlKHGCu1bzuDTL1I0e2v2Ma8VlUedNTfq3l9AjMkM5n0lFwFVCrpy3e2VFCfJnE0DqyzJo-B6NJDV1QsQSHHqYzgcDAGd9aX-2BiRQ=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "L'architecture de l'église est de style basilical, un plan typique des premières églises chrétiennes, avec une nef centrale séparée des deux bas-côtés.\n- Structure interne : Elle est divisée en trois nefs par deux rangées de douze colonnes massives. Selon l'interprétation religieuse, ces douze colonnes représentent les douze Apôtres."
+      },
+      {
+        title: "Le matroneum et l'iconostase marquetée d'ébène",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPXLM_SyrJYv7rTs5QkSxEPwQCwTNlbV0WsAWqstQINpxVSiOXHvt-AbjjlM5iaCu8G2UvnxLujhMzLs7xZuh4H4xYqT_Kk5tGDZvDaTJVVficR-iOSWvdTuCBTcG2iRcsww4qcFtpAbcWDC9-3A60i8A=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMhyYqfv0SmXmOlpT4DK0DDW4BSDMkgE9EhqCHw1LowmDY0FJiuQpSiQFrqkRHfenX44NZGn1MwZ_oAtizTYzcN9-UnY94zkUbL53-VONUxoHN958wNLDrUpJQRimda7qKWOOijcrBjD0m8-hpOeFa2Jw=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMXbSFNq6yNkOr3XLE_tXcBs1xC3rZmrJ3gJASRarbrIhaqneBUB2glfDm2X4Q263BCHAYCkWpWmPP9plsKsCLo6NfRedpi8gDMStMGsOlAmayTkdpqHhbtpeGzdh7Lnx8hMGsPM_CVgMvVfBuaeS0esA=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "- Les galeries : Au-dessus des bas-côtés, on trouve des galeries (ou Matroneum) qui étaient autrefois réservées aux femmes.\n- Décorations : L'église est renommée pour son iconostase (cloison séparant le sanctuaire de la nef) en bois précieux (ébène et ivoire) incrusté, datant du XIIIe siècle. Elle abrite également des icônes précieuses, dont certaines remontent au Xe siècle."
+      },
+      {
+        title: "La crypte sacrée du refuge de la Sainte Famille",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNJzCCjCiGXQy0CuY-vO0b7DKXuQxUO7tclseDHe6pIO4dtihRlQEac4ZzVQc3Le5921jixVh-8JTi_aQSf1uWXh8MsdMT3LObyGQXT5gDlHToc-9EsWO8qa97spbsCwMwaD0hHyGI94l0WbDgKjRgs5w=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPxbYfIFN2Rl4nnblwYYH6ir4XQtp6C_ckt08VrYLEbJkXg3Jt3nLxPNXjmEx95xhU6NnGXXMfC8ry6q4k-cHTxPdk7SMctnS9S1qcJE07thA5G4X-m4VDxpjcU9VADcfP2gWNJkzVT-eWA67vTBnEz3g=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPtO6KXqusdzMeAuXdqInzAH5uPn-2FX_pKbDV6A75y07VJ-KSkmIIZrkKJqQII3Spc36uhOFlctF9Pbuqui3I7I5Pv7Ta_uDQMtpfQJzLVuBsyN2iC2YJIiIRKI9FQGU_3w1588tmTmGXlC8Hbai5QSw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "L'attrait spirituel majeur d'Abou Serga réside dans sa crypte souterraine, accessible depuis la nef principale. Selon la tradition copte, cette grotte ou caverne est l'endroit précis où Joseph, Marie et l'Enfant Jésus auraient trouvé refuge et séjourné pendant une partie de leur voyage en Égypte, fuyant la persécution du roi Hérode. Cette croyance fait de l'église un lieu de pèlerinage fondamental, en particulier le 1er juin de chaque année, lorsque la communauté copte célèbre l'arrivée de la Sainte Famille. La crypte, située à environ 10 mètres sous le niveau de la rue actuelle, est parfois inondée lorsque le niveau du Nil est particulièrement élevé, illustrant son ancienneté et sa connexion au fleuve."
+      }
+    ]
   },
   {
     id: "caire_tombeau_sanctuaire_saint_georges",
@@ -15309,14 +15362,26 @@ const travelSpots = [
     subdiv: "Vieux Caire",
     altitude: 22,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Byzantine & Héritage Copte (Xe-XVIIIe siècle)",
     century: "Moyen Âge (Xe siècle)",
     category: "religieux",
-    lat: 30.0060,
+    counts: {},
+    lat: 30.006,
     lng: 31.2305,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOBDNd25owkNlRakFd2Z4DGoALmOi_VunIQ-NzpF_syiRP2aI2jeqAvQ-nViTkTRKWNl-aCp4sDGKlSFvXc1AGLzsR-qMpGwEZlrdhCO5cKLxePaiGylmR-m1y4oDfEDaM9pn06fRnMj_wZnqqLB7MRpg=w2650-h1766-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOsx3rjkwl1scw0aHqSb22ldvlGvNjrxTx-Tp6_Lgt4RDC85HrscBGppNt1k5BEmiKII6GtWiMYxW0Enj60WbNQsOnZD1auxmMA81_WEUuWAKYe7_96pfMFloE8NM9MPRY89N2AeqheVfY9AjrXBC90JA=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOgoUNOjNEDSRfmqCzH_MnoMXo_eeUOVluTy_iPVMKqkEeSIh2es4GfBu-1_xNpuOP6CxOao7-wznTCDJl7d91rciumwPsLtdyE3vNzz6L-1V9ljWy0auKvddbncTtMBqOnHILPg41xe_IvLQ1owby6wA=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Niché dans l'enceinte sacrée du couvent copte orthodoxe de Mar Girgis (Deir al-Banat), à quelques pas de l'église grecque orthodoxe circulaire et des ruines de la forteresse de Babylone, le tombeau et sanctuaire de Saint-Georges constitue l'un des lieux de pèlerinage les plus vénérés, intenses et mystiques de tout le Caire historique. Bien que la dépouille historique du mégalomartyr Georges de Lydda repose selon la tradition en Terre Sainte, ce sanctuaire millénaire — fondé dès le Xe siècle et embelli à l'époque fatimide et mamelouke — abrite d'insignes reliques du saint cavalier ainsi que ses légendaires chaînes de fer miraculeuses. Célèbre dans tout l'Orient chrétien et fréquenté avec une ferveur égale par les fidèles coptes et les pèlerins musulmans qui attribuent au saint des vertus thaumaturgiques majeures, le site s'articule autour d'une cour feutrée gardée par de monumentales portes sculptées en bois de cèdre. Témoignage poignant d'une dévotion populaire ininterrompue depuis plus d'un millénaire, ce havre de spiritualité monastique incarne l'âme vivante du christianisme égyptien au cœur du dédale immémorial de Misr al-Qadima.",
     visiter: "L'accès au sanctuaire s'effectue en s'engageant dans une allée pavée discrète du quartier copte menant à l'imposante porte en bois sculptée de plus de sept mètres de haut, chef-d'œuvre de menuiserie fatimide qui marque l'entrée du domaine conventuel. En pénétrant dans la pénombre feutrée de la chapelle votive baignée par la lueur dorée de dizaines de cierges et de veilleuses à huile, le voyageur est immédiatement saisi par l'atmosphère de piété silencieuse où résonne le murmure des prières. Le regard est attiré par la majestueuse châsse ornée d'icônes byzantines étincelantes figurant saint Georges à cheval transperçant le dragon, entourée d'ex-voto en argent et de messages d'intercession déposés par les pèlerins. Le moment le plus marquant réside dans la découverte des célèbres chaînes de fer historiques réputées avoir entravé le martyr durant son supplice : la tradition vivante invite les visiteurs et dévots à s'enrouler rituellement les maillons autour du cou, de la taille ou des bras pour invoquer la guérison des maux du corps et de l'âme ainsi que la délivrance spirituelle. La visite se prolonge dans le déambulatoire paisible du couvent fleuri de bougainvilliers, offrant un contraste saisissant de sérénité à l'abri de l'effervescence de la métropole.",
     link: "https://photos.google.com/share/AF1QipPveY8Q8lsqfxyBwImKztpZTuw9SNuAaXh9jboz_2ggxTkXmszTQoq5Bhp_jLZE8g?key=T280S0p5Wk5jS2VpTThWb250TThqQUpXNV9yZ3Zn"
@@ -15355,15 +15420,39 @@ const travelSpots = [
     subdiv: "Vieux Caire",
     altitude: 25,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Paléochrétienne & Fatimide (IIIe-XIe siècle)",
     century: "Antiquité tardive (IIIe siècle)",
     category: "religieux",
-     unesco_name: "Le Caire historique",
+    unesco_name: "Le Caire historique",
+    counts: {},
     lat: 30.0052,
     lng: 31.2312,
     image: "https://lh3.googleusercontent.com/pw/AP1GczP3Tz4rZ2saMfJeMKqyQ9r3-Tu6IPe18ZAsXlJqkjQ1Y-L_abFGpbjsCF-mlFeH6yDQFvC2aKIMQJ0wIJGusEM1acLefBSY7phwM2mCEwo-MEa_CB8LW1oHD9pD4CWj5doUZAJeV2i-7--h9LPRUAkkeA=w1757-h2635-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNW449JoZ71aNRz-4sbPgE8fqUlvypf_YCZ-euN7yTgz32IJFBstawsQ0kyzmMdBxHorJfz4wSCjn4t30r1ur2e84qHNeh9EpFwtSgZu7ntEQoyQ35qO1QNApMBzEV1-G2UAxS-TFpOj1omDXzNFWeavA=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPg5ZQYO7VnlknzHh8WEDQZbBJzm4ajxvMpJyizzYpCctQfXpH0LX2_Wv93D03x_UZQrIPIUtPpmbLoM1C6E38h-MSzSvIxUzWcW_bCu1SIXZS0Az7ENDR3ZJ8UOmFWKbUFtUwUu1aIBZDwnvfO14sw1A=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO8ArZU2h80sWN9wi64FpF5hVj4NzXj-XG1nOU6lJlveKi8V6ZnniaaekeA_JMwhb-EFfk87n-o3lzNzUD14GeJfwYSytz5QiQJQtvURVpVTqlUYL3_-0_-HzMIgfFRneAqGKRqcJJIwJcbX-WUlfGLsg=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNH85YmpGWDweP5aLt3eWnqbCt0cRfwr9CwfAP5_xrzRHbYUqtDULnyKnDm4BskFz0s3hJM7pHeppiez2A0EIO3Y4jaGO8eYc95N0aYX9SsetvmFjzgzdCMeQNaLl0Yq0QONhk73_mpn_ijSxbleYUZCA=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMkKdg_O_ROzEbi1OMcf0sJfEN4A5Q6BjaNcNvZppMFmsUAo841KXDcOX9KRk_H7hF8jeMeLdWIQJDMp0InDfLJKJJaI4_VXtmEBwrFiduw0osQfxTKre4dr0EpTWN83FWJlt8krPaDOkTZDq9lM0LA7g=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Dominant fièrement l'entrée du quartier copte de Misr al-Qadima depuis le sommet des antiques bastions de la forteresse romaine de Babylone, l'église Sainte-Virginie, universellement connue sous le nom de l'Église Suspendue (Al-Moallaqa), constitue l'un des sanctuaires chrétiens les plus célèbres, gracieux et vénérables du Moyen-Orient. Fondée originellement au IIIe siècle ou au IVe siècle sur les substructures monumentales de la porte sud de l'enceinte romaine, elle doit son nom spectaculaire au fait que sa nef centrale est suspendue en porte-à-faux au-dessus du passage voûté de l'antique cité fortifiée, sans reposer directement sur le sol. Siège historique du patriarcat copte d'Alexandrie entre le VIIe et le XIIIe siècle à l'époque où le siège épiscopal fut transféré d'Alexandrie vers Le Caire, ce chef-d'œuvre de l'architecture chrétienne d'Orient fusionne avec élégance la tradition basilicale paléochrétienne et l'art décoratif islamique médiéval. Ses façades blanchies à la chaux surmontées de deux clochers jumeaux et son portail sculpté ouvrent sur un univers de spiritualité intemporelle où se côtoient le bois d'ébène marqueté d'ivoire, les marbres polychromes et les icônes byzantines étincelantes.",
     visiter: "L'accès au sanctuaire s'effectue en gravissant un majestueux escalier en marbre blanc flanqué de colonnes sculptées et de motifs géométriques, menant à une belle cour extérieure bordée de mosaïques bibliques contemporaines. En franchissant le portail d'entrée, le visiteur pénètre dans un narthex baigné par une douce lumière tamisée, ouvrant directement sur la triple nef basilicale soutenue par des colonnes de marbre blanc aux chapiteaux corinthiens finement ciselés — dont l'une, sculptée en noir, symboliserait l'un des apôtres. Le regard est immédiatement captivé par la magnifique charpente en bois apparente en forme de double toit incliné, évoquant la coque inversée de l'arche de Noé, ainsi que par la somptueuse iconostase en bois d'ébène et de cèdre incrusté d'ivoire géométrique datant du XIIe siècle. Les chapelles latérales abritent des reliques précieuses et des dizaines d'icônes séculaires attribuées à de grands maîtres coptes, tandis que les sols transparents aménagés par endroits permettent d'apercevoir les assises romaines en contrebas. Cette immersion au cœur du berceau de la foi copte offre une émotion esthétique et religieuse d'une rare intensité au carrefour de l'histoire égyptienne.",
     link: "https://photos.google.com/share/AF1QipPveY8Q8lsqfxyBwImKztpZTuw9SNuAaXh9jboz_2ggxTkXmszTQoq5Bhp_jLZE8g?key=T280S0p5Wk5jS2VpTThWb250TThqQUpXNV9yZ3Zn"
@@ -15379,14 +15468,34 @@ const travelSpots = [
     subdiv: "Vieux Caire",
     altitude: 23,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "medievale",
     era_label: "Héritage Copte & Art Chrétien d'Orient (IIIe-XXe siècle)",
     century: "Antiquité tardive & Moyen Âge",
     category: "musee",
+    counts: {},
     lat: 30.0051,
     lng: 31.2315,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPxt4hKU8BvVr5Sc3s_Z3UzVNRV6CO9A9JV-CGPJv-xLGHGKWk0F5kiP_m7as1-pwr_nNNX-ycFgKjWRhZCFNu04WOCmA3cTDYKGjkwkVr31Gr7_93vfdcGc2KremJwU9ZKdClAVYhz1V6_oHFHGxB_kQ=w2650-h1766-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM31xkJ9NXwTyi3qOD1e351eGan5d4sS6zgiZ6VF72cabUNwUF-GaS2Qv657fLeErf1H4ftMqa-jijI-yib-9zTHi_PYHNLGf1Ykg6DCjX-1hgz6GrAMy0IPmNFMs6q8NQCLaupZNpOLEVs4SKfnUIUWw=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPm6SZP28wZpVC-cUJHwsrEnO_pKQbmMzraoMHhTtJ6NgZJ93eP459V1G0JzMtnYr7znMmPVXY8X97sLfn2nIouesacptI3rENYfMDSnibTWQ3L5JS3ehU4rY60Iaz2IEAofvqUzeLUFkBngWSF0efewA=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPw5TaTMbH6_sQ-YR5ChYWphfl-Np5bLHqw9bx9VusL-PaFsbI5bYXfikslFkwVR30bt2lZQkCZ1ThuJlXSUslWZ3sMfaorIN0DhBqf6-jInKcuhwk05d24xgctIYOMAwDZ8dI8jcTDf_PYnomnT0YUgA=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP4pytmC4iDEALUj3XA_SN_s2UQgOHmZXxzaNLoeO1TYW2B-JPGOfRzOBoIIj_PSZEfMWq4-AhmBdnfWwy3eqRXCWagqtD45wzuK0VIhUcEboXF_feSHfcfMOoI9n0fnJalYRRy39va1HCKaiB2PQrP8g=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Niché dans l'enceinte verdoyante et feutrée de la forteresse romaine de Babylone au cœur du Vieux Caire historique, le Musée Copte abrite la plus riche, vaste et somptueuse collection d'artefacts d'art chrétien d'Orient au monde. Fondé en 1910 grâce à l'impulsion clairvoyante de Marcus Simaika Pasha pour préserver le patrimoine inestimable de l'Église d'Égypte, cet établissement muséographique fusionne l'histoire spirituelle et artistique du pays depuis les débuts de l'ère chrétienne jusqu'à la période ottomane. À travers des salles lumineuses s'articulant autour de cours intérieures ombragées et de boiseries sculptées de style mamelouk récupérées dans d'anciennes demeures cairosiennes, le parcours met en lumière la fascinante transition culturelle entre l'art pharaonique tardif, l'influence gréco-romaine et l'épanouissement de l'esthétique copte. Des manuscrits enluminés sur papyrus aux somptueuses tentures murales en lin et laine, en passant par les icônes byzantines étincelantes et les frises en calcaire ciselé, le musée dévoile le génie créatif d'une communauté millénaire qui sut maintenir vivante sa foi et son identité au carrefour des civilisations.",
     visiter: "La découverte s'amorce dans le vestibule d'accueil ouvrant sur de superbes patios fleuris où reposent des fragments architecturaux, des chapiteaux corinthiens et des stèles funéraires gravées de crosses et de colombes. Les salles d'exposition se succèdent ensuite par thématiques chronologiques et stylistiques : l'aile des textiles dévoile des tuniques brodées et des tapisseries aux motifs floraux et mythologiques d'une finesse de tissage remarquable, tandis que la section des sculptures sur bois et des icônes expose les chefs-d'œuvre de grands maîtres coptes des siècles passés. Un arrêt prolongé s'impose devant les célèbres manuscrits de Nag Hammadi et les anciennes reliures en cuir repoussé témoignant des origines de la pensée théologique chrétienne en terre d'Égypte. La visite s'achève par une déambulation reposante dans les jardins intérieurs jouxtant les antiques murailles romaines, offrant un havre de paix absolu à quelques pas de l'Église Suspendue et des sanctuaires fondateurs de Misr al-Qadima.",
     link: "https://photos.google.com/share/AF1QipPveY8Q8lsqfxyBwImKztpZTuw9SNuAaXh9jboz_2ggxTkXmszTQoq5Bhp_jLZE8g?key=T280S0p5Wk5jS2VpTThWb250TThqQUpXNV9yZ3Zn"
