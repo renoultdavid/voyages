@@ -15534,15 +15534,35 @@ const travelSpots = [
     subdiv: "Le Caire historique",
     altitude: 21,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Ayyoubide (XIIIe siècle - 1243)",
     century: "XIIIe siècle",
     category: "religieux",
-     unesco_name: "Le Caire historique",
-    lat: 30.0490,
+    unesco_name: "Le Caire historique",
+    counts: {},
+    lat: 30.049,
     lng: 31.2614,
     image: "https://lh3.googleusercontent.com/pw/AP1GczMLNP5gxHW1BTWct9gZZNPJuf6MnLgoTgToFZlGoLuD6R_1iYqxcMUGgHGOSQZSdmBmCyn3mxk6j76v_S5qCCZ7_KPv56LRqfCBWlUQyK2hpKsW9uZ210bfr5-d2oBMYWWtVswgcQxWrx0BDAlkdorQYQ=w2650-h1766-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPKKxvTwN003WMcX22eoAaOeQRBVOqN0tKFt4L0f7SW54IUIawMc_slzn2AZCtTORCmoBtkQBrZeiUunmhdYZBWlvoFWE7uyvE09XDLI_sdew_Y0bq8Mj1Pnlg9h5e_HEu2VViyHd3Ytc4P1Sc25QLRAw=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOLIq8GEfQW_sD-cSt1anuw5wOdEU_65SldfcaSuRTwkNlOvetudtUATsxC38505Beyb2Nhz8l9K-1k3tJNSZu9D4TfVe74a5jZpuwn8HeYQT2VEXommKxQspPJduTNUrc5HrIrTs9yYvxf4yt5KQkbVA=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMLNP5gxHW1BTWct9gZZNPJuf6MnLgoTgToFZlGoLuD6R_1iYqxcMUGgHGOSQZSdmBmCyn3mxk6j76v_S5qCCZ7_KPv56LRqfCBWlUQyK2hpKsW9uZ210bfr5-d2oBMYWWtVswgcQxWrx0BDAlkdorQYQ=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOzT_qZyShhWMr3GZwfzV6e1vtqQp7jAj6YuK_hLK_3cgFCUQAlO7vlCLNOnvzIIZtrfU1aoIJoWrcFVOi_3NIS5uwimpPr58YctCSSfASXG8UwE5uAFzRtNy3NAkuWvoOcVwG-PTdVrX3n7LkYSym_fg=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Édifiée entre 1242 et 1244 en plein cœur du Caire fatimide sur l'emplacement de l'ancien Grand Palais oriental, la madrasa et le mausolée d'al-Salih Najm al-Din Ayyub constituent l'un des témoignages architecturaux et institutionnels les plus précieux, novateurs et émouvants de la dynastie ayyoubide en Égypte. Commandité par le dernier grand sultan ayyoubide al-Salih Ayyub — qui s'illustra en défendant le pays contre les croisades —, ce complexe religieux pionnier fut le tout premier en Égypte à enseigner simultanément les quatre écoles juridiques (madhabs) du sunnisme dans deux ailes distinctes séparées par une ruelle publique. Complété après sa mort par son épouse dévouée Shajarat al-Durr qui y adjoignit en 1250 son splendide mausolée funéraire, l'édifice marque l'acte de naissance du modèle architectural classique des complexes monumentaux mamelouks associant enseignement théologique et tombeau du fondateur. Dominé par son élégant minaret biconique unique de style ayyoubide dit en 'encensoir' (mabkhara), le site incarne le pont monumental entre l'art fatimide finissant et la splendeur des grands complexes islamiques médiévaux du Caire.",
     visiter: "La découverte s'amorce le long de la prestigieuse rue Al-Muizz, où l'on repère la façade sculptée et le superbe minaret ayyoubide s'élançant au-dessus des échoppes, face au complexe de Sultan Qalawun. En s'engageant dans le passage public central couvert à l'origine de madriers de bois, le visiteur accède aux vestiges des iwans et des cours intérieures où s'organisait jadis l'enseignement des oulémas. Le point culminant de la visite réside dans l'approche du mausolée surmonté d'une coupole, dont la zone de transition abrite les plus anciens muqarnas tripartites en brique sculptée du Caire ainsi qu'un mihrab somptueusement incrusté de marbres polychromes. L'atmosphère recueilli de ce sanctuaire chargé d'histoire permet d'imaginer le faste des cérémonies mameloukes où les nouveaux émirs venaient prêter allégeance au sultan. Cette halte incontournable au fil des venelles de la vieille ville offre une leçon magistrale d'architecture sacrée médiévale, dans un état de préservation qui force l'admiration des passionnés d'art oriental.",
     link: "https://photos.google.com/share/AF1QipPveY8Q8lsqfxyBwImKztpZTuw9SNuAaXh9jboz_2ggxTkXmszTQoq5Bhp_jLZE8g?key=T280S0p5Wk5jS2VpTThWb250TThqQUpXNV9yZ3Zn"
@@ -15558,18 +15578,71 @@ const travelSpots = [
     subdiv: "Le Caire historique",
     altitude: 21,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Mamelouke Bahrite (XIIIe siècle - 1285)",
     century: "XIIIe siècle",
     category: "religieux",
-     unesco_name: "Le Caire historique",
+    unesco_name: "Le Caire historique",
+    counts: {},
     lat: 30.0494,
     lng: 31.2608,
     image: "https://lh3.googleusercontent.com/pw/AP1GczN0t98_eJrhGXh5ip1mwuzO_VNVo2fMY3uWXlODYskHluBiZmejmo-Uz5A4UHuEKMngyZbp9r6IRV5EgzphLxijOO4-FaJu6kR16LlcMfMsox22g_PvrKrTNCwAO3WRV_o_WxAhXB0gdkook6E5Pzlcpg=w2650-h1766-s-no-gm?authuser=0",
     description: "Érigé en un temps record entre 1284 et 1285 par le grand sultan mamelouk al-Mansur Saif al-Din Qalawun sur la prestigieuse artère de Bayn al-Qasrayn (rue Al-Muizz), le complexe funéraire de Qalawun constitue l'un des chefs-d'œuvre absolu, fastueux et novateurs de l'architecture islamique médiévale en Égypte. Conçu à l'emplacement de l'ancien palais fatimide, cet immense ensemble pieux et caritatif regroupait jadis une madrasa, une mosquée, un mausolée royal et un hôpital opulent (bimaristan) révolutionnaire pour son époque par ses soins médicaux gratuits et sa disposition pavillonnaire. Témoin de la magnificence de la dynastie des mamelouks bahrites, l'édifice se distingue par sa façade monumentale rythmée de hautes fenêtres à arcs brisés d'inspiration syrienne, son minaret élancé aux superbes étages superposés et un portail d'entrée somptueusement marqueté. À l'intérieur, le mausolée du fondateur surprend par la richesse étourdissante de sa décoration : ses murs sont revêtus de panneaux de marbre polychrome incrustés de nacre et de mosaïques de verre dorées, surpassant par le raffinement de son art décoratif tout ce qui avait été bâti auparavant au Caire.",
     visiter: "La découverte s'amorce en longeant la vibrante rue Al-Muizz, où l'on repère immédiatement la façade colossale et élégante du complexe s'élevant face à la madrasa d'al-Salih Ayyub. En franchissant le portail d'entrée principal, le visiteur s'engage dans un long couloir voûté qui desservait autrefois les différentes ailes de l'ancien hôpital et de l'institution d'enseignement théologique. Le point d'orgue de la visite réside dans l'accès à la salle du mausolée, dont la vaste coupole repose sur des piliers massifs en granit flanqués de colonnes antiques aux chapiteaux corinthiens sculptés. Les jeux de lumière zénithale traversant les vitraux anciens illuminent les frises en stuc ajouré, les boiseries sculptées et les superbes mihrabs incrustés de pierres semi-précieuses. Cette halte incontournable au cœur de la vieille ville offre une leçon magistrale d'architecture sacrée et civile mamelouke, dans un état de préservation qui force l'admiration des passionnés d'art oriental et d'histoire médiévale.",
-    link: "https://photos.google.com/share/AF1QipPveY8Q8lsqfxyBwImKztpZTuw9SNuAaXh9jboz_2ggxTkXmszTQoq5Bhp_jLZE8g?key=T280S0p5Wk5jS2VpTThWb250TThqQUpXNV9yZ3Zn"
+    link: "https://photos.google.com/share/AF1QipPveY8Q8lsqfxyBwImKztpZTuw9SNuAaXh9jboz_2ggxTkXmszTQoq5Bhp_jLZE8g?key=T280S0p5Wk5jS2VpTThWb250TThqQUpXNV9yZ3Zn",
+    sections: [
+      {
+        title: "Façade monumentale sur Al-Muizz et influences croisées",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOBCQ8vhdPXYSoGMsoG-3FG-uIwPL3FUM-AlOKg9f82Ooi5rw7NOmUBIGhraauBEirf1QjE4BYN7qxh0UzJCAlgZOqLPgWQfbfldB-CV75kmV3ytVNWOyozOLK3P2TBSJps35mjSatdgQy2SvRrV7Q8WA=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOKMNyPUO0KJhvOUkQ5w40xg4g4nDOiZR2yJcLbfs1IvRskE85PSMg10wFyuOI_FkP9Mz9WbHe3S8VdJjbeIuR_ZRrI0wVoHpMYVq0J969_y-JRUmOwXweTv9qf2h24SQzs62Th5bZYW2lmUTmX-elR0Q=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP_OeDZEkaqa3G11eJuMkMOl_H09qGXpJJ94Fb3SjCl9IkJ_zTar5NNK1cL_oTcRLZOVZmYO3otRHhQCEevAtNlPtDEZmW2tfblP55ck3tdpgITAk89qAYmo22QaYrMn6p70H5JQK_vRZMuGFcAxaf6og=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Sa façade, longue et majestueuse le long de la rue Al-Muizz, intègre des motifs architecturaux qui rappellent, de manière stylisée, certains éléments architecturaux occidentaux, notamment les arcs et les ouvertures de style européen, probablement un résultat de l'influence artistique et de l'utilisation de matériaux pillés lors des croisades. Il a servi de prototype pour les grands complexes funéraires mamelouks qui ont suivi, combinant les trois fonctions : charité (l'hôpital), éducation (la madrasa) et perpétuation dynastique (le mausolée)."
+      },
+      {
+        title: "Le mausolée royal (Qubba) et la splendeur des marbres",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOmZ-PwuXsahnr-QlX_HcarfO5InhJNb3tmBrbbQFMcEZ9qlgfiY5_Xur9Pkq5eIUdc3JYHGrqNQttxWsE_mrCiUCTqkSZzy_MK_tLejEtsJH1cSfDR7kLVUh2PlIDYAbeWjdPYREm2ej5IBdbtBDMu8g=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOTTj5TDApOrNgeDegpbyFn68bRDjvWbUceLwZGnnvOo5TxEMpleC7pqexspFebi8sSBGVKEFCvyZEkW1ZAhGO_oVfY9uE7DtiL3xks54YLnxXDEKszriVSAqMR-LGT2CLcfv8XGEtJk2GJgV8z_-wV7w=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "Le Mausolée (La Qubba) est la partie la plus spectaculaire et la mieux préservée du complexe, souvent considérée comme l'un des plus beaux mausolées du monde musulman. Il est construit sur un plan carré avec une coupole. Sa conception fut en partie inspirée par le Dôme du Rocher à Jérusalem, bien que le résultat soit unique.\n\nSa décoration Intérieure est d'une richesse stupéfiante, caractérisée par une utilisation somptueuse de matériaux nobles : marbre polychrome, mosaïques de verre (une technique ravivée par les Mamelouks), stucs sculptés, et un magnifique plafond en bois peint et doré. Le mihrab du mausolée est particulièrement célèbre pour sa décoration en mosaïque de verre et marbre. Il abrite les sépultures du Sultan Qalawun et de ses fils."
+      },
+      {
+        title: "La cour centrale et l'organisation des iwans (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNfPhuLUR9XpEKvH8Xok039X9mOs_Bf-2DsQAR8mRSFrh9Qi1LZ5tzV-oX-rgWl-wFV862zEXDHKYEuf1gfhz6igUKcsfQVn6y9m1wFBKnBxHR9rYvm6a7N5BuiPUegen5wYlgE6KkxOAAzF95k1dRMLw=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMT0NDGKXLAlKL4h-qrn_O-dGSugagvtbGAjr8rDKC4McWrVTCAvyFVxMJTyVGE7nDZw-1LVktluRAQksg-RRxJRXXzS4tNKLmXWaKi7oYDjDRvTKRqHt-34t01Bw3UspOI5LVDlnkL1qI0pq40jDGRIg=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOTUu64m28fCMLDbQPbhB2Od2wQVtZncyRbhTNBo59BkJWhDrvEMf90yK2-EUVxsRrBNTTB96BZ2k-fO-P8Rp3vhAhpbZOALktlQD5EIsz7Wsn0wmC7EAtZKCzQtSQnnevwwrww7NtdywBFPOt9jE6loQ=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "La madrasa, partiellement conservée, était une extension directe de l'institution établie plus tôt par Al-Salih Ayyub, et était organisée autour d'une cour à ciel ouvert, avec quatre iwans (salles voûtées) pour les cours. Un Iwan est un grand hall voûté ou ouvert, délimité par trois murs et dont le quatrième côté est entièrement ouvert sur une cour centrale (sahn). Il est généralement rectangulaire et peut être très profond et haut, créant un espace majestueux."
+      },
+      {
+        title: "La cour centrale et l'organisation des iwans (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPThuhr7VBKjm61j0WbJxvVksxcKc36AuaYD-gNtkPn9O4Jm3BrL0TotUAa56d9YqHxNWFSKWlN8CYtEW1-gwPXOYvmhhxdX_30OLsZPuIwxhg54hammvh791j6gOHUnLw2OogTdmod-AFZ2KS8NB-RKg=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO-V5wgl1R3WXAaomQWaClH-Rqm4pPwquKkDoHYdwnYAa06miiw1V_9pBLvcMglrHP00SDd_goWVCFTqFHo-P-7SY3GeIAHk4xL87sfW5YRq-F5gIKPt4bJR-bjLn4WRusEM6sx2fpQ4_fFtTx1vZh6Rw=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "L'enseignement des quatre rites sunnites (Madhabs)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNerTT1xlkjMGK5QKGZshOX4LYsLtHDt9P8ouBwk6aNb8-FTnUIfyZELQCFkQP6rGzpJNy2HDPH0KyQNJ1JYc-iDZPNuqON9i5-skcz3nW0_-joeXKQeA1er22kCyw4nYpFzide3JtZDebVNP3zZhb7zw=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPgzDLBeGSLrSL5qdHFIzimlhgBjL4Rdve4XQx7Zd1bwqcDz5-7AHM21Dp4ea61EKjVF2Pj98X8pLiQ_9coIUv_FTXWzguj1tR7HXA0oNtnQ9WBrDMhf-MLPq2R88FFNsAGazzFzyuuVEl8EgKZQJjJYw=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "La fonction principale des iwans est d'ordre éducatif et juridique.\n- Enseignement des Quatre Écoles (Madhabs) : Dans la Madrasa d'Al-Salih Ayyub (et, par extension, dans celle de Qalawun qui a adopté ce modèle), la cour centrale était entourée de quatre iwans, chacun étant spécifiquement dédié à l'enseignement d'une des quatre écoles de jurisprudence sunnite (Malikite, Chaféite, Hanafite et Hanbalite)."
+      },
+      {
+        title: "Salles de cours et tribunal suprême des cadis",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN0t98_eJrhGXh5ip1mwuzO_VNVo2fMY3uWXlODYskHluBiZmejmo-Uz5A4UHuEKMngyZbp9r6IRV5EgzphLxijOO4-FaJu6kR16LlcMfMsox22g_PvrKrTNCwAO3WRV_o_WxAhXB0gdkook6E5Pzlcpg=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "- Organisation : L'Iwan désigné pour chaque école servait de salle de classe où les professeurs (shaykhs) dispensaient leurs leçons aux étudiants (fuqaha). Les iwans disposaient souvent de bancs ou de niveaux pour les étudiants.\n- Centres de Jugement : les iwans de la madrasa servaient aussi de lieu de rencontre pour les grands juges (qadis), transformant le lieu en le centre judiciaire suprême de la ville."
+      }
+    ]
   },
   {
     id: "caire_madrasa_alkamilia",
@@ -15582,18 +15655,65 @@ const travelSpots = [
     subdiv: "Le Caire historique",
     altitude: 21,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Ayyoubide (XIIIe siècle - 1225)",
     century: "XIIIe siècle",
     category: "religieux",
-     unesco_name: "Le Caire historique",
+    unesco_name: "Le Caire historique",
+    counts: {},
     lat: 30.0485,
     lng: 31.2618,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNhI-w3RZ_6vkvVVLJ-WWjT35yfAmUTP95SaxupyHI_-hSYdFq5h-QTU7UUkw_nQvj84Ac9Vg69DJNnAPYw9MPu7Ib87LIzrXLHZ2lmCg5BW952d9qYiYGfUO4v13oD57aoSfMUBBI3upAEWdswuyLJ1g=w2650-h1766-s-no-gm?authuser=0",
     description: "Édifiée en 1225 en plein cœur du Caire fatimide sur la prestigieuse artère de la rue Al-Muizz par le grand sultan ayyoubide al-Malik al-Kamil — neveu de Saladin —, la Madrasa al-Kamilia s'impose comme l'une des institutions d'enseignement théologique et juridique les plus prestigieuses, pionnières et influentes du Moyen Âge islamique en Égypte. Commanditée pour promouvoir activement le rite sunnite chaféite et dispenser un enseignement érudit des traditions prophétiques (hadiths), cette madrasa historique fut la toute première du pays à abriter une chaire entièrement dédiée à l'étude des sciences du Hadith, attirant les plus grands savants et oulémas du monde musulman. Bien que le temps et les transformations urbaines successives aient altéré une grande partie de sa structure primitive, les vestiges subsistants de ses iwans voûtés et de ses façades sculptées témoignent du raffinement architectural de la dynastie ayyoubide finissante. Témoin d'une époque charnière où le mécénat princier s'attachait à consolider l'orthodoxie religieuse tout en rivalisant de faste urbanistique le long des grands axes de processions, l'édifice incarne un jalon majeur dans l'histoire intellectuelle et monumentale de la capitale égyptienne.",
     visiter: "La découverte s'amorce en cheminant le long de l'animée et historique rue Al-Muizz, à proximité immédiate des grands complexes mamelouks et ayyoubides qui jalonnent l'ancienne artère princière du Caire. En s'approchant des vestiges de la façade et du portail d'entrée, le regard devine l'emplacement de l'ancienne cour intérieure et des salles d'étude où les étudiants en théologie venaient écouter les leçons magistrales des docteurs de la loi. L'atmosphère recueillie du site permet d'imaginer le rayonnement spirituel et académique de cette institution qui forma l'élite administrative et religieuse de l'Empire ayyoubide. Cette halte incontournable au fil des venelles de la vieille ville offre aux passionnés d'histoire médiévale une page fondatrice de l'architecture d'enseignement en terre d'islam, dans le prolongement direct des superbes sanctuaires voisins.",
-    link: "https://photos.google.com/share/AF1QipPveY8Q8lsqfxyBwImKztpZTuw9SNuAaXh9jboz_2ggxTkXmszTQoq5Bhp_jLZE8g?key=T280S0p5Wk5jS2VpTThWb250TThqQUpXNV9yZ3Zn"
+    link: "https://photos.google.com/share/AF1QipPveY8Q8lsqfxyBwImKztpZTuw9SNuAaXh9jboz_2ggxTkXmszTQoq5Bhp_jLZE8g?key=T280S0p5Wk5jS2VpTThWb250TThqQUpXNV9yZ3Zn",
+    sections: [
+      {
+        title: "Fondation ayyoubide et plan primitif à iwans",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMF3z76ZconvkfCJo8dXbgr6DLpsxsSjM1zQdNofFftW6UE_AUC8RiPGM2wgxJtL_rvkserbMtQR_KBgb98v3J5ONpJfsGWIHA3IqzDMsXJzGij6xDmcfBr0dTp7vxaorECgtgnnrXWKKoRWKe8ohH5CA=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOv-qa4EaIEjbOIyrLKBcaEuzW5K6noSW6oP9ckydA2-6gq5t9zMQ0RbR7N7Q4Y2EIesb9So9TnR4to4GSe0XqMQJQF9xnYz5cF3NbZGjsWCpisIWe0GYVyrdKnM8Ifnd8eamhPgwTQoep8SpndBCpaHQ=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNhI-w3RZ_6vkvVVLJ-WWjT35yfAmUTP95SaxupyHI_-hSYdFq5h-QTU7UUkw_nQvj84Ac9Vg69DJNnAPYw9MPu7Ib87LIzrXLHZ2lmCg5BW952d9qYiYGfUO4v13oD57aoSfMUBBI3upAEWdswuyLJ1g=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: "D'un point de vue architectural, elle marque une étape clé dans l'évolution du style du Caire, étant l'une des premières grandes madrasas de l'ère Ayyoubide. Contrairement à son successeur, la Madrasa d'Al-Salih Najm ad-Din Ayyub qui enseignait les quatre écoles de droit, celle d'Al-Kamil a précédé ce modèle. Son plan original était basé sur le concept des deux iwans ou plus autour d'une cour."
+      },
+      {
+        title: "Vestiges médiévaux et mémoire des sciences du Hadith",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP5JJ8AfA_8UTxCAcdo_p5KcpSRfcxqTubO_KRT9wzwXCbZFiTctPejf9NpJ3xEJw01KecCwMK5ktsEj_rAMFtjdPJ6wsp48yhafc0xnKzQbj32Q-UWB63qmdiYDMuhZO2tss23somWylRNKnM10YKOug=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNRIglyeN36-B7mQdb9GTe0S0Ll1-8F1-0wRj_EU3rAzSQXyd_HzZpofeJeJ08_aZC3bWUThyT2mt9eaXfdqA2YEBp81GBnGzGZnNp7tdj48f2y7cPiAgYffZai12c3AoKDj3D8B7A8f4FfvGp3hcKl5w=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNXM4-LQP_PFL5JWphkx5G8TNBiCv_MeceMOvk48wzaZfihPXflVQvAx7ZvVo9rvxN8X-hW9p_3i6WdEU0d5PLawXgPVlzai_65tmozWPfSNVrMTEIWhz9Yew1wRydNBc1xFsQI3hH2P3GP6z1YXvJFkA=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Aujourd'hui, une grande partie du bâtiment original a disparu, endommagée au fil des siècles, notamment par la famine du XVe siècle qui a réduit ses revenus, et par les constructions ultérieures. Seul subsiste un fragment notable de l'un de ses iwans, ainsi qu'une partie de son portail et une structure restaurée de l'époque ottomane (XVIIIe siècle). Malgré sa nature fragmentaire, elle reste un précieux témoignage de l'architecture Ayyoubide et une preuve de l'engagement précoce des sultans Ayyoubides dans le soutien et la promotion de l'érudition islamique au cœur de leur capitale."
+      },
+      {
+        title: "Détails sculptés et maçonnerie ayyoubide (1/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOTjnBYsRdrr70lUZDqBPgek0rSMtm0htuj6Mk8h1WjYwywWb1n29vCekq6sHWPeRi6yt5JIv4KbjOSlSu1Y-GFz9yhdJ8mTprh0YKJqOBM3i8aMF7qZ0Bs_n4YTVx1q1sV7BRUiz81Vs-U_y5O1ll-iQ=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNk1j3BU04N-duaLHecqCmfcKZ8SoPQtllL9ALSg3dmzfTF-oCdgV0OzBF6Jxe7shXGLBOeyd1uOrXZ_6LIa6Jmf-FJKbTjnW0YKwNI664SE6ZmK5Y2jAzs0hmblQ33jpZWQvC_gli6LAeFddVi1TAg_g=w1611-h2416-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOQiPkwjxKswbU68N0Nz-fEXQekdzaJ_Rop7upFRrWEqu0iH4oZONlvoG6mCkeAz2jzFl-cwvpUk9-Ces1lMGo3scDZLUuOZIi4bgim41ZRtPybw3bsI38gxYFva52uqbUKAyOdnsUEC_aLsJRnc444xQ=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Détails sculptés et maçonnerie ayyoubide (2/2)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOmQ2rmHW5-cB_lxDSYYaTcBf6RmFiPBrlpuyddjrRaXEafOiwiEw8b-jvrJHYo4e1eqVepTqPmbU2U_h_X5Tiw-cxEbkMk1aHLJboOl3ARe0SwS5UHgxnmzqQdW-Xvxx1FX8rEzhFAqIUkmNj0u74q-Q=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Structures intérieures et perspectives de la cour",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPtNLTYNEOqIUFj21Gb1QXsqEXdU6LkrzhvGaRybwSJjk4Hr1RA1cAvqyz6g_Qz0WV69XboJjIG-4fuc00Aen7izPQdf74Ltbqw1EwzB7kNLDwDT7zKuYr5YNxafX2KgwkOgjTOarrTSgKEmznXJt9z4Q=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNISj0bhcGbJ32sYZU8nw42vfdEPA6rXe7AHH12gGj1jv8gUhNlPUEwEgSUfElJKwQTYkhH0sEO6KRkeRpSaumu3no3n1DAuUBTmQLx0QfJm28lBmhm2jRQxKV-hR_1XYk-fNen0AHWsiSQSTIwL0gjGA=w1753-h1168-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMqgn41FE_1DT10uA5MXyfCveTyky3P4OemNN10xZUMTIWQ3xCgycNOmyEz4Dz2kcaMgsK1qjwE-4vPgkaPsnYOVTgtvWYwrtd2Pdj_YbK2ujmYIDPAMsj2K-SevFgYR4BIxlIMjKgzGq03G8dnV7KD1g=w1753-h1168-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
   },
   {
     id: "caire_hammam_inal",
@@ -15606,15 +15726,23 @@ const travelSpots = [
     subdiv: "Le Caire historique",
     altitude: 21,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Mamelouke Burkite (XVe siècle - 1456)",
     century: "XVe siècle",
     category: "archeologie",
-     unesco_name: "Le Caire historique",
+    unesco_name: "Le Caire historique",
+    counts: {},
     lat: 30.0505,
     lng: 31.2613,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNxxQP0TTMObkuv0uZlOVNUVwjqG_iuxdHXj3ZtjATouqp9OoBBiJ0qZAyrUiOLtwORTYfOpgNyg9RVC0q_ATKuEhT0tz7ZMrdKUGQqnYFWzamWMbDswtFxH-ECllrm1DLsp4-nexJvFTYRFCzGy2Wvxw=w1757-h2635-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNejxzuSE1mVhIx1fIKMX33cSJt96kizQsMBEpjWsEPPRKzD8fMcpNFqWS5pebstlc0ct93IqbNTjyhTvV-kMLf8pNWpzdmgf9wkzgXQoPBBcBgRzstLG7kboPcEqp_BvdVEGXexew-INQ7JOxxB1kDVQ=w1753-h1168-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Édifié en 1456 en plein cœur du quartier historique de Bayn al-Qasrayn sur la prestigieuse artère de la rue Al-Muizz par le sultan mamelouk al-Ashraf Inal, le hammam d'Inal s'impose comme l'un des témoins architecturaux civils, thermaux et sociaux les plus précieux, élégants et miraculeusement préservés du Caire médiéval. À une époque où la métropole comptait près de quatre-vingts établissements de bains publics dévoués à l'hygiène, à la détente et à la sociabilité urbaine, ce complexe thermal illustre le raffinement de l'art mamelouk burkite à travers ses superbes coupoles ajourées de verres colorés, ses voûtes de brique en étoile et son ingénieux système hydraulique alimenté par des canalisations souterraines. Destiné à accueillir les notables comme les gens du peuple dans des espaces décloisonnés selon les heures, le hammam conjuguait des salles de repos spacieuses, des bassins d'eau tiède et des étuves chaudes où la vapeur parfumée aux essences orientales offrait une parenthèse de bien-être au milieu de l'effervescence des souks et des processions princières.",
     visiter: "La découverte s'amorce en cheminant le long de la vibrante et historique rue Al-Muizz, à quelques pas des complexes de Qalawun et d'al-Salih Ayyub, pour repérer la sobre et élégante façade de pierre du bain public. En franchissant le seuil, le visiteur pénètre dans l'ancienne salle de repos et de déshabillage (bayt al-awwal), vaste espace central dont la lumière zénithale filtre à travers de minuscules ouvertures circulaires percées dans les coupoles pour créer une pénombre apaisante et intimiste. L'exploration se poursuit à travers les différentes salles thermales successives aux températures graduées — du tepidarium au caldarium —, permettant d'admirer les structures de maçonnerie anciennes, les sols en dalles de marbre patinées et les cheminées de chauffe préservées. Cette halte insolite au cœur du patrimoine civique de la vieille ville offre aux passionnés d'histoire orientale une page fascinante sur les arts de la vie quotidienne et l'ingénierie architecturale sous la dynastie des Mamelouks burkites.",
     link: "https://photos.google.com/share/AF1QipPveY8Q8lsqfxyBwImKztpZTuw9SNuAaXh9jboz_2ggxTkXmszTQoq5Bhp_jLZE8g?key=T280S0p5Wk5jS2VpTThWb250TThqQUpXNV9yZ3Zn"
@@ -15630,15 +15758,23 @@ const travelSpots = [
     subdiv: "Le Caire historique",
     altitude: 22,
     is_island: false,
+    island_name: "",
     transport: "route",
     era_group: "medievale",
     era_label: "Époque Mamelouke Bahrite (XIVe siècle - 1334)",
     century: "XIVe siècle",
     category: "chateau",
-     unesco_name: "Le Caire historique",
+    unesco_name: "Le Caire historique",
+    counts: {},
     lat: 30.0506,
     lng: 31.2618,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPMXfyPq1Nzn5OK7IZlmZDBBV2VkKorKY2T115I0zJ65xi_e3gdQcZPK3zrFozbNWeUUYctwm9xgI5zuBAxSOc-9kyzLTyReZEkWy5QKx_V7KVyvdKJzNqr_klK9aBSEbBRTQgDWE7DQUV7W8S1O405Yw=w2650-h1766-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOMLNaxxrzexA7UZPB2jZGMIbbo-8q8VwhXJIJVKpi6twmeaD7qURzSa9s9Um0QcQd0AFUsdcLCbn65QbgWoFXpCcWtIWNueKdhCzR9ZhAQKT4itVvtNVWD6Qa5jJNDHmwIDrroIB8N9TswDUOLORscrQ=w1611-h2416-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
     description: "Édifié entre 1334 et 1339 en plein cœur de la prestigieuse artère de la rue Al-Muizz sur l'emplacement de l'ancien secteur palatial fatimide de Bayn al-Qasrayn par le prince mamelouk et émir Sayf al-Din Bashtak al-Nasiri, le palais de Beshtak s'impose comme l'un des témoins civils et résidentiels princiers les plus somptueux et miraculeusement préservés du Caire médiéval. À l'origine haut de cinq étages et doté d'un système d'adduction d'eau révolutionnaire desservant l'ensemble des niveaux, ce chef-d'œuvre de l'architecture domestique et palatine mamelouke illustre la magnificence du mécénat aristocratique sous le règne du sultan al-Nasir Muhammad ibn Qalawun. Bien que les vicissitudes du temps aient en partie altéré sa structure primitive, le palais conserve son admirable grande salle de réception (qa'a) aux proportions monumentales, encadrée de baies géminées à arcs brisés et surmontée d'un plafond à caissons richement sculpté et doré. Les étages supérieurs se distinguent par leurs superbes balcons de moucharabiehs en bois ajouré, conçus pour permettre aux dames de la cour d'observer discrètement l'animation de la rue et les fastueuses processions princières en contrebas.",
     visiter: "La découverte s'amorce en cheminant le long de l'animée et historique rue Al-Muizz, à proximité immédiate du complexe de Qalawun et de la madrasa d'al-Salih Ayyub, pour repérer la noble façade de pierre rythmée de fenêtres sculptées du palais. En franchissant le seuil, le visiteur pénètre dans l'ancienne cour intérieure et monte vers la grande salle de réception, véritable cœur battant de l'édifice dont l'espace central s'ouvre sur des iwans latéraux rehaussés de frises en stuc ciselé. Le regard est immédiatement captivé par les superbes ouvertures à vitraux colorés et les claires-voies en bois qui diffusent une lumière zénithale tamisée, recréant l'atmosphère feutrée des réceptions de l'élite mamelouke. La visite se prolonge sur les coursives et balcons supérieurs offrant des perspectives saisissantes sur les toits de la vieille ville et les minarets du Caire historique. Cette halte architecturale et civile unique offre aux passionnés d'histoire orientale une immersion fascinante dans l'art de vivre des grands émirs du XIVe siècle.",
     link: "https://photos.google.com/share/AF1QipPveY8Q8lsqfxyBwImKztpZTuw9SNuAaXh9jboz_2ggxTkXmszTQoq5Bhp_jLZE8g?key=T280S0p5Wk5jS2VpTThWb250TThqQUpXNV9yZ3Zn"
