@@ -1,5 +1,49 @@
 const SPOTS_2 = [
  {
+    id: "saint_laurent_daigouze_tour_carbonniere",
+    name: "Saint-Laurent-d'Aigouze - Tour Carbonnière",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Occitanie",
+    department: "Gard (30)",
+    subdiv: "Saint-Laurent-d'Aigouze",
+    altitude: 2,
+    is_island: false,
+    island_name: "",
+    transport: "route",
+    era_group: "medievale",
+    era_label: "Époque Médiévale & Capétienne (XIIIe-XIVe siècle)",
+    century: "Moyen Âge (XIIIe-XIVe siècle)",
+    category: "chateau",
+    counts: {},
+    lat: 43.592143,
+    lng: 4.209351,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMU6PgNnLQfNqzeU7FRAczduBv2VnlcSuYCoxNhBgJq4jIneeqLz_T6IXX2zhknfDuOxkkMGdL5zbb1sWBASziAK9ETnkFX22YSqjONHPjiG-G7FRBZzh45q5GObzH3RAkyTitB0_Ws8rapaiPtSJRzWg=w1320-h880-s-no-gm?authuser=0",
+    description: "Érigée à la fin du XIIIe siècle au milieu des marécages du Vistre et des étangs de la Petite Camargue, la tour Carbonnière constitue l'un des postes de garde fortifiés les plus remarquables du littoral languedocien. Conçue comme l'unique point de passage terrestre et péage fortifié pour accéder à la ville royale d'Aigues-Mortes fondée par saint Louis, cette sentinelle de pierre enjambait littéralement l'ancienne chaussée surélevée reliant le continent aux remparts maritimes. Bâtie en grand appareil calcaire régulier, la forteresse combinait une fonction de surveillance militaire avancée, de contrôle douanier des marchandises et de défense passive contre les incursions ennemies à travers les marais. Classée monument historique, elle offre aujourd'hui un témoignage intact de l'ingénierie défensive capétienne au cœur d'un environnement lagunaire d'une exceptionnelle richesse écologique.",
+    visiter: "La découverte s'amorce par les passerelles sur pilotis aménagées au ras de l'eau et des roseaux, permettant d'approcher l'édifice en toute sécurité tout en observant l'avifaune camarguaise (aigrettes, hérons et flamants roses). En arrivant au pied de la tour, le visiteur franchit l'arche ogivale centrale pour observer l'emplacement des anciennes herses, des rainures de guidage et des assommoirs médiévaux. L'ascension par l'escalier intérieur en vis conduit à la terrasse crénelée sommitale, d'où le regard embrasse un panorama circulaire exceptionnel à 360 degrés sur les marais environnants, les salins étincelants et les remparts d'Aigues-Mortes se découpant sur l'horizon méditerranéen. La visite se prolonge agréablement par le sentier d'interprétation guidé serpentant au milieu de la sansouïre.",
+    link: "",
+    sections: [
+      {
+        title: "Architecture défensive et passage fortifié sur la chaussée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNiJHXnB7JcwlpUMOsJc34y8JCd0fwR597kPjHlspiPfqdhAwnEQcv9dcxRsKObl4uwpeTKcO9xJrrR2wjlc2Mhn3NGzrolUnGP8hoMmd0WyYWtP69nZY6NCHJcmNiES9yQ8lfkI5JKcKeDn8Y_8oH2oQ=w593-h889-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOCuCTML8zw60Islm3Y7X-ORJcSW5ngaF7Ta65iX1F-73wUfwI5aHIBsNFFs0L37CXwECMSUK9F-wpIWzN5MbVx833ugw3kxjJfNdFnA5DF20pnXzNfgyGRo1VYTjn4Z5KcRwy-Wqkb1lmLbBhEX8-kuQ=w593-h889-s-no-gm?authuser=0"
+        ],
+        text: "Érigée en grand appareil régulier de calcaire coquillier d'origine régionale, la tour s'élève sur un plan quadrangulaire massif de plan presque carré, juché au centre d'une chaussée surélevée reliant Saint-Laurent-d'Aigouze à Aigues-Mortes. Sa base est percée d'un passage traversant voûté en berceau brisé, qui enjambait directement l'ancienne route médiévale et était défendu par de lourdes herses, des vantaux de chêne et des assommoirs aménagés dans la voûte. Les étages supérieurs, accessibles par des escaliers intramuraux et réservés au logement d'une petite garnison d'arbalétriers puis d'artilleurs, sont ajourés d'archères cruciformes et de fentes de tir soigneusement disposées pour couvrir la chaussée et les abords marécageux."
+      },
+      {
+        title: "Guerres de Religion, restauration et sentier sur pilotis",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN1OUFEjiz256iEx_dd6086ISdh3y5NORZ7xnGNHvjsLpZWI4jHaqd1wFyy68ev--j4klOspXxGvJerEvjT8YhVJHGs0GX3PSeNPEk1PES7RsNLFMHfU0pyMAxpz07g6uNbvO_HvlK-uorgIdpU9y84tA=w1320-h880-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPkwL8H_hWar7rlLTHhYwDOCfqkZwxtQvCMY4VECFp6S858KNFBguf4oFcN1-AGEmUx87smd5ljEbCMAbdtGIetvmjGBuXIIUTmVoIH9L5vvfe5RVU50ESBPgh6OB5VqtDZQK9eUx5Q4499ZrEA6kWsLA=w1320-h880-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOL8eGyKhhrQjnCHqrWVfUNlIjiRGoT7sCj-mL6GbH-0ckwhO5pwM3_aYkDbpozAlRjJ70ccvRIuUdmEUCDEW04ZfTask7HbtMTDqJtjBfZG9So4zP9oc6klo4o6VVSgITTOs0lwcPJD9d1fQmPcNMl0w=w1320-h880-s-no-gm?authuser=0"
+        ],
+        text: "Transformée et adaptée à l'artillerie au cours des guerres de Religion où elle devint un point d'affrontement âprement disputé entre troupes catholiques et huguenotes, la tour a été classée au titre des monuments historiques dès 1889. Elle a bénéficié de remarquables chantiers de restauration et de mise en valeur environnementale, avec l'aménagement de passerelles piétonnes sur pilotis qui permettent de traverser la roselière et d'observer l'édifice dans son écosystème originel sans dégrader le milieu naturel."
+      }
+    ]
+  },
+ {
     id: "lemans_eglise_notre_dame_du_pre",
     name: "Le Mans - Église Notre-Dame-du-Pré",
     country: "France",
