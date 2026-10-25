@@ -1,5 +1,56 @@
 const SPOTS_2 = [
  {
+    id: "lemans_eglise_notre_dame_du_pre",
+    name: "Le Mans - Église Notre-Dame-du-Pré",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Le Mans",
+    altitude: 47,
+    is_island: false,
+    island_name: "",
+    transport: "route",
+    era_group: "medievale",
+    era_label: "Époque Médiévale & Art Roman Plantagenêt (XIe-XIIe siècle)",
+    century: "Moyen Âge (XIe-XIIe siècle)",
+    category: "religieux",
+    counts: {},
+    lat: 48.009687,
+    lng: 0.192682,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNTiF5eyQyCunDEyzh4rsk_mDyATEII53Es7FxRm75NYScJDsdw5NdltTYN-YMkx1urCNlT5_hP_jrBFs-3YBSR7c_0K1hfR2gdip_pF4P7GqWrYYHEQGOP4FrGh3RMP9-3IFt3lKv1PWdwLZQpEWuErw=w667-h889-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNTiF5eyQyCunDEyzh4rsk_mDyATEII53Es7FxRm75NYScJDsdw5NdltTYN-YMkx1urCNlT5_hP_jrBFs-3YBSR7c_0K1hfR2gdip_pF4P7GqWrYYHEQGOP4FrGh3RMP9-3IFt3lKv1PWdwLZQpEWuErw=w667-h889-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPJX4lFBvf9L_7_93iBc65RHXrT68wQeHSqFc_iSjwEURNRju2hPrm87TtmrXB8bKnFowmnw2X6LaW1-qKi3XLTZB0_OqgVJNpEV_ycGD0a1oboQIS40D46d6PpzHc285otGD-1BliGnEEGE1UhZmL8UA=w667-h889-s-no-gm?authuser=0",
+        caption: "La nef de Notre-Dame-du-Pré, longue et imposante, déploie une élévation sobre caractéristique du plein essor de l'art roman de l'Ouest. Rythmée par de puissantes grandes arcades en plein cintre à double rouleau, elle repose sur une alternance de piliers quadrangulaires cantonnés de colonnes engagées et de piles simples. Les murs hauts, percés de baies étroites ébrasées assurant une lumière directe et rasante, supportent une charpente de bois apparente lambrissée, préservant la sensation de volume et de dépouillement originelle. Les bas-côtés, voûtés d'arêtes dès le premier âge roman, accompagnent la progression vers la croisée par une scansion de travées régulières, où la modénature discrète des tailloirs et la taille soignée du calcaire de roussard et de tuffeau créent un jeu subtil de textures."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOxF-a8t07nqPwVPfXpxA50a1MExxxSj4vif1oeXylJtwM00B4GGT6cbv3AsqwJR37-sxSP6c8BexDEYscXpfB-3EfhTfZnwp2MjUkMvpT1MVGEMBz0aQNEGCSBsrc25yz6_lrKf1D29XTOkblF_FaJOA=w1185-h889-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOhDWe7CU2dWKKduLJ6qYdG-oDK2vwjV75RSRPeVdJnGcQJe3fdQ0-DB1fIADUj53yzGQ8ykiBQnzexSUXl_YCAQRjRchhltu1ELgcuLfF2xdblEwKsQgCFvN4De4-XO9aC9pLXWy1vDn1Es2sHKeyj-w=w667-h889-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNUI06htV6K6Z6LYtVJqaelDjVsLjoc9-_0FLi2-o1MfgNvhGBNCcBy6Jf81pa-XDEhG2754bsWF_iBrMKu5KkB7MliY2FlXLWqS55xNy5TtSKgwwMo62bcIFuqRYvBHKPm10tx8p_-ZLnmUCD-O5pWvw=w667-h889-s-no-gm?authuser=0",
+        caption: "Le chœur, surélevé de plusieurs degrés pour ménager l'espace de la crypte funéraire inférieure, marque l'apogée architectural et liturgique de l'édifice au douzième siècle. Délimité par un rond-point d'arcades cintrées plus étroites et élancées portées par des colonnes monolithes, il s'ouvre sur un déambulatoire fluide distribuant trois chapelles rayonnantes semi-circulaires. La voûte en cul-de-four de l'abside concentre le regard vers l'autel, tandis que le déambulatoire reçoit des voûtes d'arêtes trapézoïdales d'une grande maîtrise stéréotomique. C'est dans cette partie orientale que s'épanouit le décor sculpté, avec une série de chapiteaux ornés de rinceaux végétaux découpés, de palmettes, d'animaux fantastiques affrontés et de motifs géométriques qui soulignent la fonction sacrée et mémorielle de l'ancien sanctuaire reliquaire."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOohFbGOWpy0ypMvRRh7Vc9ftJg1p-3yTNoFqsnByWfI6UByvhFwklSmBbLFyhxpGo6cuTk4y_gkib7mDcU8sqk1NsRcdxyn8gg7ebChOgXxSkSRJKZQ39ef2WxjrnHcxwNbkaxds3SVYjWNWNzH0io-g=w1185-h889-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressée sur la rive droite de la Sarthe face à la cité Plantagenêt et aux murailles romaines du Mans, l'église Notre-Dame-du-Pré constitue l'un des monuments romans les plus insignes et authentiques du Maine. Bâtie sur le site d'une antique nécropole gallo-romaine et d'une basilique funéraire fondée dès le VIe siècle par saint Innocent sous le vocable de Saint-Julien, l'église devint au XIe siècle le cœur d'un prieuré de moniales bénédictines affilié à l'abbaye Saint-Julien de Tours. Reconstruite dans toute son ampleur entre la fin du XIe siècle et la première moitié du XIIe siècle, elle déploie un plan basilical à trois nefs charpentées prolongé par un chevet majeur à déambulatoire et chapelles rayonnantes, établi au-dessus d'une crypte sépulcrale remarquable. L'édifice associe le calcaire gréseux roussard aux assises de tuffeau blanc dans une polychromie sobre, tandis que son élévation intérieure frappe par la pureté de ses arcades en plein cintre et la virtuosité archaïque de ses chapiteaux à rinceaux et entrelacs. Sauvé des dégradations révolutionnaires et restauré au XIXe siècle, ce sanctuaire monastique incarne avec force la permanence de la spiritualité médiévale aux portes historiques de la vieille ville.",
+    visiter: "La découverte s'amorce par la traversée du pont Yssoir offrant une vue d'ensemble sur le chevet étagé et le clocher roman s'élevant au flanc nord du sanctuaire. En franchissant le portail occidental sobrement sculpté, le visiteur pénètre dans une nef monumentale baignée d'une lumière feutrée, où la vue file sans entrave sous la charpente apparente jusqu'à l'abside orientale surélevée. Il convient d'observer attentivement la série de chapiteaux romans de la nef et du rond-point du chœur figurant des palmettes découpées, des masques et des quadrupèdes fantastiques affrontés typiques de la sculpture mancelle du premier XIIe siècle. La visite culmine en descendant dans la crypte voûtée d'arêtes située sous le chœur, espace mystique et recueilli abritant le tombeau vénéré de saint Julien, premier évêque du Mans, ainsi que d'émouvants vestiges lapidaires mérovingiens et carolingiens. La promenade se prolonge agréablement sur le parvis arboré et les quais fluviaux, d'où le regard embrasse la perspective ascendante vers la cathédrale Saint-Julien sur la rive opposée.",
+    link: ""
+  },
+ {
     id: "lemans_lycee_montesquieu",
     name: "Le Mans - Lycée Montesquieu (Ancien Collège de l'Oratoire)",
     country: "France",
