@@ -1,5 +1,36 @@
 const SPOTS_2 = [
  {
+    id: "aigues_mortes_eglise_notre_dame_des_sablons",
+    name: "Aigues-Mortes - Église Notre-Dame-des-Sablons",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Occitanie",
+    department: "Gard (30)",
+    subdiv: "Aigues-Mortes",
+    altitude: 1,
+    is_island: false,
+    island_name: "",
+    transport: "route",
+    era_group: "medievale",
+    era_label: "Époque Médiévale & Gothique Méridional (XIIIe siècle)",
+    century: "Moyen Âge (XIIIe siècle)",
+    category: "religieux",
+    counts: {},
+    lat: 43.566893,
+    lng: 4.190510,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNkVZk3Gp2U6QK1ApRN5d-BN5KCSLqDFBRLVZW0cbJ5yHrACdk_MQDsYriqcwE05ysiKAitgvmdJtOOac9WVCQTY5dT5whZg6I9UcTuwxnQ0AQyD3jGhgXNdeGSCp_le4re2AfSPs0Msxc8DzedClIiZQ=w1320-h880-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNIYp0Szn9cqckFShomfrruy3N6P1NFZ5dhw_mH91QPX0Q958MKo1ZQPS1PTn2k5lz2GGmOLwmWw_QspcUotLfEzqNsQ5OCw1CRNrL3F19W_0OuYs0cwZw_dd2zbShewlgW-JQo4ZsubdwBc65RLVQyAQ=w593-h889-s-no-gm?authuser=0",
+        caption: "La façade occidentale épurée et le clocher-mur en calcaire coquillier de l'église Notre-Dame-des-Sablons, sanctuaire fondateur d'Aigues-Mortes."
+      }
+    ],
+    description: "Édifiée au milieu du XIIIe siècle lors de la fondation de la ville par saint Louis, l'église Notre-Dame-des-Sablons constitue le plus ancien monument conservé de la cité fortifiée d'Aigues-Mortes, antérieure même à l'élévation des remparts de pierre. Établie sur un sol sableux instable au cœur des lagunes de Petite Camargue, cette église paroissiale dédiée à la Vierge Marie incarnait le refuge spirituel des pèlerins et des croisés rassemblés avant les grandes expéditions maritimes de 1248 et 1270 vers l'Orient. D'une facture architecturale sobre et dépouillée typique du premier gothique méridional, l'édifice se compose d'une nef unique charpentée couverte d'arcs diaphragmes en ogive en calcaire coquillier blond, s'achevant sur une abside semi-circulaire voûtée en cul-de-four. Pillée lors des guerres de Religion, transformée en caserne puis en magasin à sel après la Révolution, elle a retrouvé sa pureté d'origine grâce aux restaurations du XXe siècle enrichies par les remarquables vitraux contemporains créés en 1991 par l'artiste Claude Viallat, apportant une douce vibration chromatique et lumineuse aux murs séculaires.",
+    visiter: "La découverte s'amorce depuis l'angle oriental de la place Saint-Louis en abordant la façade occidentale surmontée de son clocher-mur ajouré à trois cloches. En franchissant le portail sous un arc brisé discret, le visiteur est immédiatement saisi par le dépouillement monacal de la nef unique où la pierre nue dialogue avec la lumière méditerranéenne. Il convient d'observer attentivement les verrières contemporaines abstraites conçues par Claude Viallat (mouvement Supports/Surfaces), dont les motifs d'empreintes répétés aux teintes ocres, azurées et violines métamorphosent l'atmosphère intérieure au fil de la journée. Dans le chœur, une sobre statue de saint Louis rappelle le souvenir des prières royales avant les départs pour les croisades, tandis que la charpente de bois apparente confère au lieu une intimité chaleureuse propice au recueillement. La sortie ramène directement sur le parvis pavé ombragé de platanes, à deux pas des terrasses de la place centrale.",
+    link: ""
+  },
+ {
     id: "aigues_mortes_place_saint_louis",
     name: "Aigues-Mortes - Place Saint-Louis",
     country: "France",
