@@ -1,5 +1,75 @@
 const SPOTS_2 = [
  {
+    id: "aigues_mortes_remparts_tour_constance",
+    name: "Aigues-Mortes - Remparts & Tour de Constance",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Occitanie",
+    department: "Gard (30)",
+    subdiv: "Aigues-Mortes",
+    altitude: 5,
+    is_island: false,
+    island_name: "",
+    transport: "route",
+    era_group: "medievale",
+    era_label: "Époque Médiévale & Capétienne (XIIIe-XIVe siècle)",
+    century: "Moyen Âge (XIIIe siècle)",
+    category: "star",
+    unesco_name: "",
+    counts: {},
+    lat: 43.568485,
+    lng: 4.189661,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPGI6KcKGbbgtkTmU5cRYnwRimTKcNxaMD7LIfwhQlSsyrg62VLDq3olr6qGO4oYMBVeOFeJKZ56qDO6FQTPN5c-SHkx06_WC44s_stiODAuk8KExQY1vlJrvEMj8ryfT-q90UVr_naUKYFA6QXia91tw=w1320-h880-s-no-gm?authuser=0",
+    description: "Dressée comme une forteresse minérale souveraine au milieu des lagunes et des étangs de la Petite Camargue, la cité fortifiée d'Aigues-Mortes avec son enceinte quadrangulaire intacte et sa majestueuse tour de Constance constitue l'un des chefs-d'œuvre les plus complets et spectaculaires de l'architecture militaire médiévale en Occident. Conçu au milieu du XIIIe siècle sous l'impulsion directe de saint Louis pour offrir au royaume capétien une fenêtre stratégique ouverte sur le grand commerce transméditerranéen et un point d'embarquement royal vers les croisades d'Orient, le complexe associe un donjon cylindrique colossal de près de trente mètres de haut à un ruban de remparts bastionnés s'étirant sur plus de seize cents mètres. Bâtie en grand appareil régulier de calcaire coquillier blond doré par le soleil du Midi, l'enceinte protège un plan régulier en damier scandé de tours et de portes monumentales à double défense, témoignant d'une virtuosité technique et d'une rigueur stéréotomique exceptionnelles. Marqué par les fastes capétiens, les sièges des guerres de Religion et la mémoire tragique de la captivité des huguenotes au siècle des Lumières, ce monument insigne offre une silhouette intemporelle où la pierre de taille dialogue avec l'azur du ciel et les miroirs scintillants des salins.",
+    visiter: "La découverte commence en franchissant la porte monumentale de la Gardette ou le pont dormant enjambant le fossé pour accéder au châtelet de la tour de Constance. En pénétrant dans les salles basses et hautes du donjon, le visiteur mesure l'épaisseur prodigieuse des maçonneries et contemple la pureté des voûtes gothiques d'ogives reposant sur des culots historiés, avant d'observer le puits central lié au souvenir poignant de Marie Durand. L'ascension débouche sur la terrasse sommitale ceinte de créneaux et couronnée par sa tourelle-phare, dévoilant un panorama grandiose à trois cent soixante degrés sur les toits de tuiles canal, le damier des rues intérieures et la mosaïque des marais salants aux reflets pourpres. L'exploration se prolonge le long de l'intégralité du chemin de ronde des remparts : la promenade aérienne permet d'examiner les archères cruciformes, les assommoirs, les herses et les courtines crénelées tout en embrassant du regard l'immensité sauvage des étangs gardois et les reliefs lointains du mont Ventoux et des Cévennes.",
+    link: "",
+    sections: [
+      {
+        title: "La tour de Constance et le donjon royal de Saint Louis",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOewniZ983Zi7EQiZSXQmTrD4GCAnCXTDXYfd8ULX_Iwxs8kMm25-54MoSr_q4TSmZ7BQQW2Ahby6rt9RpMXx6r2h4XhZLilUDgSEdY9QEbzzW_riUC6xo4WTu0AuPlIHQSWfWG5OrOvAxi-ZpDWSPsbA=w1320-h880-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMuuIam4f0yjXPT7rFHBz18j0fYAxBL43frbNZZzhO13tzSe9cWinqMb62qRj0ynqSEqGtUbmN6AosR5vLbtqX_adJFWhj0QAqHCygTgKCEjHNL9qte8xoei0OeBCgW4VjI0Q8Lt07J7k3mBO6CsxFQfA=w593-h889-s-no-gm?authuser=0"
+        ],
+        text: "La tour de Constance, imposant donjon cylindrique érigé au nord-ouest de l'agglomération sur les fondations de l'ancienne tour Matafère carolingienne, forme un ensemble castral autonome isolé par un profond fossé et relié aux remparts par une passerelle fortifiée. Développant un diamètre de plus de vingt-deux mètres pour une hauteur approchant les trente mètres hors tourelle de guet, l'ouvrage impressionne par l'épaisseur de ses murailles atteignant six mètres à la base."
+      },
+      {
+        title: "Salles voûtées d'ogives, oratoires et terrasse panoramique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPYVhMRZEYmBmknFGtX4PDtWFZu7qF6v1p0CelKwSlWRggUd5IieVkb-SwddeBVE5EQb4bOCIwNrWKVAQqXBSxGEDdGN4Q1ZBY-ebxrX5tdJ5Cx5KWwlLTpS-gjKfbFQiILMNCCwZc-GEqRz9JSAqo9Qw=w1320-h880-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMRU31zKHplcXHv5luFixFM9qmgTv3WvCv80upywJjcbvrT19uJc9NRzD07u93r1-Hv_E74JxapY2PM5d9q4u9SfGyJ7OGXXZOCCVVt8KvwMVyKimT4WwFeN7-OU1S7rHrkU6PoZffSqqQ1pHT1pB2cJg=w1320-h880-s-no-gm?authuser=0"
+        ],
+        text: "L'intérieur comprend deux vastes salles superposées voûtées d'ogives sur culots sculptés, la salle basse dite des gardes et la salle haute dite des chevaliers, pourvues de cheminées monumentales, de puits d'eau douce, de réserves et d'oratoires intégrés à l'épaisseur des parois. Le sommet est couronné d'une terrasse panoramique défendue par un crénelage et sommée d'une tourelle servant de lanterne ou de phare pour guider les navires à travers les étangs et les chenaux côtiers."
+      },
+      {
+        title: "L'enceinte fortifiée et le système de flanquement capétien",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMBrrIsFH8cusIVNdc9XhJ3-Ez39x5fWUF-r3KuCOmhkAMXIo96iwSze7rETyHjVTLlT0-Ttr9K5hvp8pWka3KIOXWGC21Yw2bLqB98ZAAUmxI0xL2ny7Plo9VrVWCeEJ7m9JD8CY8jb9wA-pzw65i5lA=w593-h889-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPjuFdAk7Zi3s9Q4j3cbLQri6EpEe4wqGbLwmxEdMpAMPiSUujviNp2vW1s8CADKgMlrlcIgPuMf-NHuForisPigUbZW7_yQLupMn0wYlpiQVELgiXz-uLjVtnLPIzJ_S2m9-zoVMISDrMbEkQUQevjDQ=w593-h889-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMNX0mnQyiFgIJ5MM3oUalPmtB_svKVBDcbZlnYhL6c-DG7vgRDFWTE-1ELh3EKikFCSemwqInMpmF5ZqffzadmfqT7w6Lf4AIGoAjg4uaqGd-SpBmafiXgCf6pTEZRCEVJa9eCg1Sb4yB5bTnWn1k82w=w593-h889-s-no-gm?authuser=0"
+        ],
+        text: "Les remparts forment un vaste polygone quadrangulaire presque régulier d'environ 1640 mètres de développement, enserrant un tissu urbain en damier caractéristique des bastides et villes neuves du Moyen Âge. Construits en grand appareil régulier de calcaire littoral blond, ils présentent des élévations uniformes d'une dizaine de mètres, scandées par un chemin de ronde continu, un parapet crénelé percé d'archères et une vingtaine de tours et de portes d'accès. La défense associe des tours de flanquement semi-circulaires ouvertes à la gorge ou fermées et des portes monumentales à double tour, à l'image de la porte de la Gardette ou de la porte Saint-Antoine, équipées de herses, de vantaux blindés, d'assommoirs et de couloirs de circulation sous voûtes."
+      },
+      {
+        title: "Mémoire pénitentiaire, Marie Durand et restaurations",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNiv-ilaEJM1NjKV2T_rSIw-ZqBfk6yb-hN6gsN1h6px5i_8fZYQOxCt7F47Yd9BoW8YDBCtlzom1MF17DFtTQ7tflr45SikDOZwvOjyPhmypzlNeIoT9nZ2Ujn7czwnfiqkS6boGtiVfs4VQzujPsmTg=w1320-h880-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPuMi2ZuS3CdhmU2RHRDcDCPvSLI8TdyimpcILE8x1rLM13FYnjIKK2d6spf3oQ3bAOEQbOy8ViaznP5vIup5Na7dmE9KCwhmU2Hq_DxHMKMDaBxPzmGC11KpI8UV1K6rA8ZmWjzMCYjvyKUzLD1XFMKg=w1320-h880-s-no-gm?authuser=0"
+        ],
+        text: "Le site a également traversé l'histoire moderne par sa vocation pénitentiaire, la tour de Constance devenant après la révocation de l'édit de Nantes en 1685 une redoutable prison d'État pour les femmes protestantes récalcitrantes, parmi lesquelles figure Marie Durand, captive durant trente-huit années et associée à l'inscription mémorielle « Register » gravée sur la margelle du puits central. Protégé au titre des monuments historiques dès la liste de 1840, l'ensemble a bénéficié de remarquables travaux de restauration sous la direction d'architectes des monuments historiques, dont Henri Révoil, garantissant la préservation de son homogénéité architecturale d'origine au milieu du paysage préservé des marais salants et des lagunes gardoises."
+      },
+      {
+        title: "Perspective sur les courtines et les portes fortifiées",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOHkxosJVZ7Ip1U1PG1n03Cif6BnSFKj1wUpkBjRWMRf_cIFAcwg1w8p7wM2mfK3Q1WvIHO3gKwezvHdjZa7UXKVcnDeTgmCsRiLJ4M-iCP0fXbjX8_D-4n18cpncR0hSevpyDiGCDtLM9nsW8H0nztUA=w1320-h880-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO-XJC82uIs8oYIVcpjnPWJ2o2ZF-mTm_A8Ugif94FrC6Z5l4XeQPuyMF92cSTE6x92FXqwJKkGPqBxtNef24i-kRPxzdpvFKgvqHXccsiyvROUZPWNa-dWtFpdCjheLLDs_aSGp6A0mk-2YmId3XOsXA=w593-h889-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMiKqv30TwFCmsC9-o4-HB8pUIFi5uTqcK5yLnPEVsn6lmzhrTd-8HMm1lHCCsqJaQPXO9a-thDfJC1br3an3qH_kCaPTrmb_rugUIEXA-Ncd6wj-DiLchFTV49TM4O3LqmX19MMmaDbMTD9E3w50dfjA=w593-h889-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+ {
     id: "aigues_mortes_eglise_notre_dame_des_sablons",
     name: "Aigues-Mortes - Église Notre-Dame-des-Sablons",
     country: "France",
