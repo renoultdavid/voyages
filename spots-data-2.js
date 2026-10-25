@@ -19,10 +19,10 @@ const SPOTS_2 = [
     counts: {},
     lat: 48.009687,
     lng: 0.192682,
-    image: "https://lh3.googleusercontent.com/pw/AP1GczNTiF5eyQyCunDEyzh4rsk_mDyATEII53Es7FxRm75NYScJDsdw5NdltTYN-YMkx1urCNlT5_hP_jrBFs-3YBSR7c_0K1hfR2gdip_pF4P7GqWrYYHEQGOP4FrGh3RMP9-3IFt3lKv1PWdwLZQpEWuErw=w667-h889-s-no-gm?authuser=0",
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPJX4lFBvf9L_7_93iBc65RHXrT68wQeHSqFc_iSjwEURNRju2hPrm87TtmrXB8bKnFowmnw2X6LaW1-qKi3XLTZB0_OqgVJNpEV_ycGD0a1oboQIS40D46d6PpzHc285otGD-1BliGnEEGE1UhZmL8UA=w667-h889-s-no-gm?authuser=0",
     gallery: [
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczPJX4lFBvf9L_7_93iBc65RHXrT68wQeHSqFc_iSjwEURNRju2hPrm87TtmrXB8bKnFowmnw2X6LaW1-qKi3XLTZB0_OqgVJNpEV_ycGD0a1oboQIS40D46d6PpzHc285otGD-1BliGnEEGE1UhZmL8UA=w667-h889-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNTiF5eyQyCunDEyzh4rsk_mDyATEII53Es7FxRm75NYScJDsdw5NdltTYN-YMkx1urCNlT5_hP_jrBFs-3YBSR7c_0K1hfR2gdip_pF4P7GqWrYYHEQGOP4FrGh3RMP9-3IFt3lKv1PWdwLZQpEWuErw=w667-h889-s-no-gm?authuser=0",
         caption: "La nef de Notre-Dame-du-Pré, longue et imposante, déploie une élévation sobre caractéristique du plein essor de l'art roman de l'Ouest. Rythmée par de puissantes grandes arcades en plein cintre à double rouleau, elle repose sur une alternance de piliers quadrangulaires cantonnés de colonnes engagées et de piles simples. Les murs hauts, percés de baies étroites ébrasées assurant une lumière directe et rasante, supportent une charpente de bois apparente lambrissée, préservant la sensation de volume et de dépouillement originelle. Les bas-côtés, voûtés d'arêtes dès le premier âge roman, accompagnent la progression vers la croisée par une scansion de travées régulières, où la modénature discrète des tailloirs et la taille soignée du calcaire de roussard et de tuffeau créent un jeu subtil de textures."
       },
       {
