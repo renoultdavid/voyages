@@ -19,14 +19,14 @@ const SPOTS_2 = [
     counts: {},
     lat: 48.010517,
     lng: 0.200415,
-    image: "https://photos.fife.usercontent.google.com/pw/AP1GczOPs139uee00UDqjpamoZ1g1Gh5JLEOOeOLF1B6EpeIAQaa3V_REKB-xg=w1185-h889-s-no-gm?authuser=0",
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPeJwh1Om11O2CMsSnDAgNV1a25XuDaorm9AbYmWFzBf2jnnSIIeVL77v95C_DSQ8jBPuR5YOK_enYEGnfdo-03b1F18BDntXsfDF662i7QOIX3dgfRjj_6JAb7R1XL2eu8ZDiUBz6BPzy0RzzmwWiQAA=w1185-h889-s-no-gm?authuser=0",
     gallery: [
       {
-        url: "https://photos.fife.usercontent.google.com/pw/AP1GczOPs139uee00UDqjpamoZ1g1Gh5JLEOOeOLF1B6EpeIAQaa3V_REKB-xg=w1185-h889-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPeJwh1Om11O2CMsSnDAgNV1a25XuDaorm9AbYmWFzBf2jnnSIIeVL77v95C_DSQ8jBPuR5YOK_enYEGnfdo-03b1F18BDntXsfDF662i7QOIX3dgfRjj_6JAb7R1XL2eu8ZDiUBz6BPzy0RzzmwWiQAA=w1185-h889-s-no-gm?authuser=0",
         caption: "La cour d'honneur et les corps de logis classiques en tuffeau et pierre de taille, héritage architectural de l'ancien collège des Pères de l'Oratoire au Mans."
       },
       {
-        url: "https://photos.fife.usercontent.google.com/pw/AP1GczOUwVThLKzcyqrYLGJSLm-AKnJmIx_YnSpxPzg0_ECtXMtHb-rIDr8g0w=w1185-h889-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMg66qOB3_1MU5WpryeJkhJ9zLe5lZ_2qqnKYtLNAYgH2P0CHKMrTfJwNKeY2CuZ6n6MMPaRx5xQ_M8LJG5sZfkauJAjEMdyRk4GY2l3dxrU2LO7rhFSEgFykQtTUCCkVn-dIRw06sX3a7L-2kSsMelkw=w1185-h889-s-no-gm?authuser=0",
         caption: ""
       }
     ],
