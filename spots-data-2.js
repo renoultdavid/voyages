@@ -1,5 +1,40 @@
 const SPOTS_2 = [
  {
+    id: "lemans_lycee_montesquieu",
+    name: "Le Mans - Lycée Montesquieu (Ancien Collège de l'Oratoire)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Le Mans",
+    altitude: 82,
+    is_island: false,
+    island_name: "",
+    transport: "route",
+    era_group: "classique",
+    era_label: "Époque Moderne (XVIIe-XVIIIe siècle) & Lycée Impérial",
+    century: "XVIIe siècle",
+    category: "star",
+    counts: {},
+    lat: 48.010517,
+    lng: 0.200415,
+    image: "https://photos.fife.usercontent.google.com/pw/AP1GczOPs139uee00UDqjpamoZ1g1Gh5JLEOOeOLF1B6EpeIAQaa3V_REKB-xg=w1185-h889-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://photos.fife.usercontent.google.com/pw/AP1GczOPs139uee00UDqjpamoZ1g1Gh5JLEOOeOLF1B6EpeIAQaa3V_REKB-xg=w1185-h889-s-no-gm?authuser=0",
+        caption: "La cour d'honneur et les corps de logis classiques en tuffeau et pierre de taille, héritage architectural de l'ancien collège des Pères de l'Oratoire au Mans."
+      },
+      {
+        url: "https://photos.fife.usercontent.google.com/pw/AP1GczOUwVThLKzcyqrYLGJSLm-AKnJmIx_YnSpxPzg0_ECtXMtHb-rIDr8g0w=w1185-h889-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Implanté au cœur de la ville du Mans à proximité immédiate des Quinconces des Jacobins et de la cathédrale Saint-Julien, le lycée Montesquieu représente l'institution scolaire la plus ancienne et prestigieuse du département de la Sarthe. Fondé à l'origine en 1599 sous le règne d'Henri IV puis confié à la congrégation savante des Pères de l'Oratoire en 1624, l'établissement s'est développé autour d'un ensemble architectural classique remarquable associant la blancheur du tuffeau du Val de Loire et les toitures d'ardoise caractéristiques du Maine. Devenu École centrale sous la Révolution puis Lycée impérial en 1803 par décret napoléonien, ce haut lieu de mémoire pédagogique a traversé les régimes politiques en formant des générations de lettrés, d'érudits et de scientifiques renommés. Sa cour d'honneur ordonnancée, ses galeries sobres et son cloître historique témoignent de la vocation éducative séculaire du site, où la rigueur de l'architecture conventuelle du XVIIe siècle s'est harmonieusement adaptée aux exigences de l'enseignement moderne.",
+    visiter: "La découverte des extérieurs s'effectue en abordant la grille d'honneur depuis la place des Jacobins et les allées bordées d'arbres menant à la cour principale. En observant les façades de tuffeau, le promeneur apprécie l'équilibre symétrique des baies régulières, les lucarnes sculptées et la sobre élégance des avant-corps classiques rythmés par le travail des pierres de taille. L'accès à la cour intérieure et aux bâtiments historiques, principalement ouvert lors des Journées européennes du patrimoine, permet d'admirer les anciennes salles de classe voûtées, la chapelle de l'Oratoire et les plaques commémoratives honorant les illustres anciens élèves de l'institution. La visite gagne à être complétée par une déambulation vers les jardins des Quinconces attenants et la promenade des Jacobins, offrant des perspectives dégagées sur les toits du collège et le chevet gothique de la cathédrale dans une atmosphère de sérénité studieuse.",
+    link: ""
+  },
+ {
     id: "yvre_l_eveque_croix_de_boesse",
     name: "Yvré-l'Évêque - Croix de Boëssé",
     country: "France",
