@@ -42,21 +42,21 @@ const SPOTS_2 = [
         text: "L'intérieur comprend deux vastes salles superposées voûtées d'ogives sur culots sculptés, la salle basse dite des gardes et la salle haute dite des chevaliers, pourvues de cheminées monumentales, de puits d'eau douce, de réserves et d'oratoires intégrés à l'épaisseur des parois. Le sommet est couronné d'une terrasse panoramique défendue par un crénelage et sommée d'une tourelle servant de lanterne ou de phare pour guider les navires à travers les étangs et les chenaux côtiers."
       },
       {
-        title: "L'enceinte fortifiée et le système de flanquement capétien",
+        title: "",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczMBrrIsFH8cusIVNdc9XhJ3-Ez39x5fWUF-r3KuCOmhkAMXIo96iwSze7rETyHjVTLlT0-Ttr9K5hvp8pWka3KIOXWGC21Yw2bLqB98ZAAUmxI0xL2ny7Plo9VrVWCeEJ7m9JD8CY8jb9wA-pzw65i5lA=w593-h889-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczPjuFdAk7Zi3s9Q4j3cbLQri6EpEe4wqGbLwmxEdMpAMPiSUujviNp2vW1s8CADKgMlrlcIgPuMf-NHuForisPigUbZW7_yQLupMn0wYlpiQVELgiXz-uLjVtnLPIzJ_S2m9-zoVMISDrMbEkQUQevjDQ=w593-h889-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczMNX0mnQyiFgIJ5MM3oUalPmtB_svKVBDcbZlnYhL6c-DG7vgRDFWTE-1ELh3EKikFCSemwqInMpmF5ZqffzadmfqT7w6Lf4AIGoAjg4uaqGd-SpBmafiXgCf6pTEZRCEVJa9eCg1Sb4yB5bTnWn1k82w=w593-h889-s-no-gm?authuser=0"
         ],
-        text: "Les remparts forment un vaste polygone quadrangulaire presque régulier d'environ 1640 mètres de développement, enserrant un tissu urbain en damier caractéristique des bastides et villes neuves du Moyen Âge. Construits en grand appareil régulier de calcaire littoral blond, ils présentent des élévations uniformes d'une dizaine de mètres, scandées par un chemin de ronde continu, un parapet crénelé percé d'archères et une vingtaine de tours et de portes d'accès. La défense associe des tours de flanquement semi-circulaires ouvertes à la gorge ou fermées et des portes monumentales à double tour, à l'image de la porte de la Gardette ou de la porte Saint-Antoine, équipées de herses, de vantaux blindés, d'assommoirs et de couloirs de circulation sous voûtes."
+        text: ""
       },
       {
-        title: "Mémoire pénitentiaire, Marie Durand et restaurations",
+        title: "L'ensemble des remparts",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczNiv-ilaEJM1NjKV2T_rSIw-ZqBfk6yb-hN6gsN1h6px5i_8fZYQOxCt7F47Yd9BoW8YDBCtlzom1MF17DFtTQ7tflr45SikDOZwvOjyPhmypzlNeIoT9nZ2Ujn7czwnfiqkS6boGtiVfs4VQzujPsmTg=w1320-h880-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczPuMi2ZuS3CdhmU2RHRDcDCPvSLI8TdyimpcILE8x1rLM13FYnjIKK2d6spf3oQ3bAOEQbOy8ViaznP5vIup5Na7dmE9KCwhmU2Hq_DxHMKMDaBxPzmGC11KpI8UV1K6rA8ZmWjzMCYjvyKUzLD1XFMKg=w1320-h880-s-no-gm?authuser=0"
         ],
-        text: "Le site a également traversé l'histoire moderne par sa vocation pénitentiaire, la tour de Constance devenant après la révocation de l'édit de Nantes en 1685 une redoutable prison d'État pour les femmes protestantes récalcitrantes, parmi lesquelles figure Marie Durand, captive durant trente-huit années et associée à l'inscription mémorielle « Register » gravée sur la margelle du puits central. Protégé au titre des monuments historiques dès la liste de 1840, l'ensemble a bénéficié de remarquables travaux de restauration sous la direction d'architectes des monuments historiques, dont Henri Révoil, garantissant la préservation de son homogénéité architecturale d'origine au milieu du paysage préservé des marais salants et des lagunes gardoises."
+        text: "Les remparts forment un vaste polygone quadrangulaire presque régulier d'environ 1640 mètres de développement, enserrant un tissu urbain en damier caractéristique des bastides et villes neuves du Moyen Âge. Construits en grand appareil régulier de calcaire littoral blond, ils présentent des élévations uniformes d'une dizaine de mètres, scandées par un chemin de ronde continu, un parapet crénelé percé d'archères et une vingtaine de tours et de portes d'accès. La défense associe des tours de flanquement semi-circulaires ouvertes à la gorge ou fermées et des portes monumentales à double tour, à l'image de la porte de la Gardette ou de la porte Saint-Antoine, équipées de herses, de vantaux blindés, d'assommoirs et de couloirs de circulation sous voûtes."
       },
       {
         title: "Perspective sur les courtines et les portes fortifiées",
@@ -65,7 +65,7 @@ const SPOTS_2 = [
           "https://lh3.googleusercontent.com/pw/AP1GczO-XJC82uIs8oYIVcpjnPWJ2o2ZF-mTm_A8Ugif94FrC6Z5l4XeQPuyMF92cSTE6x92FXqwJKkGPqBxtNef24i-kRPxzdpvFKgvqHXccsiyvROUZPWNa-dWtFpdCjheLLDs_aSGp6A0mk-2YmId3XOsXA=w593-h889-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczMiKqv30TwFCmsC9-o4-HB8pUIFi5uTqcK5yLnPEVsn6lmzhrTd-8HMm1lHCCsqJaQPXO9a-thDfJC1br3an3qH_kCaPTrmb_rugUIEXA-Ncd6wj-DiLchFTV49TM4O3LqmX19MMmaDbMTD9E3w50dfjA=w593-h889-s-no-gm?authuser=0"
         ],
-        text: ""
+        text: "Le site a également traversé l'histoire moderne par sa vocation pénitentiaire, la tour de Constance devenant après la révocation de l'édit de Nantes en 1685 une redoutable prison d'État pour les femmes protestantes récalcitrantes, parmi lesquelles figure Marie Durand, captive durant trente-huit années et associée à l'inscription mémorielle « Register » gravée sur la margelle du puits central. Protégé au titre des monuments historiques dès la liste de 1840, l'ensemble a bénéficié de remarquables travaux de restauration sous la direction d'architectes des monuments historiques, dont Henri Révoil, garantissant la préservation de son homogénéité architecturale d'origine au milieu du paysage préservé des marais salants et des lagunes gardoises."
       }
     ]
   },
