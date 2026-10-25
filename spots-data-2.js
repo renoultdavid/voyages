@@ -23,11 +23,11 @@ const SPOTS_2 = [
     gallery: [
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczNTiF5eyQyCunDEyzh4rsk_mDyATEII53Es7FxRm75NYScJDsdw5NdltTYN-YMkx1urCNlT5_hP_jrBFs-3YBSR7c_0K1hfR2gdip_pF4P7GqWrYYHEQGOP4FrGh3RMP9-3IFt3lKv1PWdwLZQpEWuErw=w667-h889-s-no-gm?authuser=0",
-        caption: "La nef de Notre-Dame-du-Pré, longue et imposante, déploie une élévation sobre caractéristique du plein essor de l'art roman de l'Ouest. Rythmée par de puissantes grandes arcades en plein cintre à double rouleau, elle repose sur une alternance de piliers quadrangulaires cantonnés de colonnes engagées et de piles simples. Les murs hauts, percés de baies étroites ébrasées assurant une lumière directe et rasante, supportent une charpente de bois apparente lambrissée, préservant la sensation de volume et de dépouillement originelle. Les bas-côtés, voûtés d'arêtes dès le premier âge roman, accompagnent la progression vers la croisée par une scansion de travées régulières, où la modénature discrète des tailloirs et la taille soignée du calcaire de roussard et de tuffeau créent un jeu subtil de textures."
+        caption: ""
       },
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczOxF-a8t07nqPwVPfXpxA50a1MExxxSj4vif1oeXylJtwM00B4GGT6cbv3AsqwJR37-sxSP6c8BexDEYscXpfB-3EfhTfZnwp2MjUkMvpT1MVGEMBz0aQNEGCSBsrc25yz6_lrKf1D29XTOkblF_FaJOA=w1185-h889-s-no-gm?authuser=0",
-        caption: ""
+        caption: "La nef de Notre-Dame-du-Pré, longue et imposante, déploie une élévation sobre caractéristique du plein essor de l'art roman de l'Ouest. Rythmée par de puissantes grandes arcades en plein cintre à double rouleau, elle repose sur une alternance de piliers quadrangulaires cantonnés de colonnes engagées et de piles simples. Les murs hauts, percés de baies étroites ébrasées assurant une lumière directe et rasante, supportent une charpente de bois apparente lambrissée, préservant la sensation de volume et de dépouillement originelle. Les bas-côtés, voûtés d'arêtes dès le premier âge roman, accompagnent la progression vers la croisée par une scansion de travées régulières, où la modénature discrète des tailloirs et la taille soignée du calcaire de roussard et de tuffeau créent un jeu subtil de textures."
       },
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczOhDWe7CU2dWKKduLJ6qYdG-oDK2vwjV75RSRPeVdJnGcQJe3fdQ0-DB1fIADUj53yzGQ8ykiBQnzexSUXl_YCAQRjRchhltu1ELgcuLfF2xdblEwKsQgCFvN4De4-XO9aC9pLXWy1vDn1Es2sHKeyj-w=w667-h889-s-no-gm?authuser=0",
