@@ -2610,7 +2610,19 @@ function renderClassicViewerMode(spot, layout) {
       </button>
 
       <div id="modal-gallery-counter" class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-slate-950/80 border border-cyan-400/40 text-cyan-300 font-mono text-[11px] font-bold shadow-lg backdrop-blur-sm z-20 hidden">1 / 1</div>
-      <div id="modal-gallery-caption" class="absolute bottom-0 left-0 right-0 p-3 pt-6 bg-gradient-to-t from-slate-950/90 via-slate-950/50 to-transparent text-[11px] sm:text-xs text-slate-200 text-center font-medium leading-relaxed backdrop-blur-[1px] z-10 hidden"></div>
+
+      <!-- Bouton pour afficher ou masquer la légende -->
+      <button id="modal-caption-toggle" onclick="toggleCaptionVisibility(event)" class="absolute bottom-3 left-3 z-30 px-3 py-1.5 rounded-xl bg-slate-950/90 hover:bg-cyan-950 border border-cyan-500/40 text-cyan-300 text-xs font-semibold backdrop-blur-md shadow-xl flex items-center gap-1.5 transition cursor-pointer hidden">
+        <i id="modal-caption-icon" class="fa-solid fa-eye-slash"></i>
+        <span id="modal-caption-toggle-text">Masquer la légende</span>
+      </button>
+
+      <!-- Cartouche sombre avec ascenseur pour la lecture -->
+      <div id="modal-gallery-caption" class="absolute bottom-0 left-0 right-0 p-4 pt-10 pb-4 bg-gradient-to-t from-slate-950 via-slate-950/95 to-transparent backdrop-blur-md z-20 transition-all duration-300 ease-in-out transform translate-y-0 opacity-100 hidden">
+        <div class="max-w-4xl mx-auto max-h-48 overflow-y-auto custom-scrollbar pr-2">
+          <p id="modal-gallery-caption-text" class="text-xs sm:text-sm text-slate-100 font-normal leading-relaxed text-justify drop-shadow"></p>
+        </div>
+      </div>
     </div>
 
     <div id="modal-text-wrapper" class="w-full md:w-1/2 lg:w-2/5 h-1/2 md:h-full overflow-y-auto p-4 sm:p-6 space-y-4 custom-scrollbar">
