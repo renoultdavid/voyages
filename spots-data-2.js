@@ -1,5 +1,56 @@
 const SPOTS_2 = [
  {
+    id: "pont_croix_village",
+    name: "Pont-Croix - Cité Médiévale & Petite Cité de Caractère",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Finistère (29)",
+    subdiv: "Pont-Croix",
+    altitude: 29,
+    is_island: false,
+    island_name: "",
+    transport: "route",
+    era_group: "medievale",
+    era_label: "Époque Médiévale (XIIIe-XVe siècle)",
+    century: "Moyen Âge (XIIIe siècle)",
+    category: "star",
+    counts: {},
+    lat: 48.039842,
+    lng: -4.48726,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM95en31DcaFr_VIWmAQKMNH4KNV8x2EcwaiHb3-8o_wfOKlZ0iddcwXFj2X5x9gtKo5OmoB8Nf_gDcHy6tSpY1_HCLvz0kuRsVQbIunhA4cD-duFbRZGQsx7_Nr8z2Mkev84uZo_qLeC7O6zh02yyoNA=w1175-h881-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOqGmGYStnDvUoix1HE_PGVTta0BzrvNiw73DJydeNA8Kg3_0UueYb6UsON9jemxjRuLgOVlzVnTDTpIZ_PYRbynKPFkBvAZUMU3kJB38u6e3yrtDvcbTwJ4WEwoACeQcftR895QlA3545PCYppm-cW9w=w661-h881-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP1a7ZRIPJqkpEYbun4xJSFPGHphqWYc4Ne5ROEm0Koctz_2fYh-mPs03kprfRR7i3pvScCwOiqFDnKfuYdu61M2r7xbP-HVlOnB7z71SWZ4_0Zc6m2oF2qKvWF3_L_s1w_NZOh0LuYUtlbW6EQYB6X7g=w1175-h881-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOXLHtcpm28cVq7VVMuWNK8CbCIFk2FarigT3ycf0hGxYHiN6FqxGWanxVFYCEO1Seu43CpSuveRX_hVUQ8Chw90IC8DXPBOVTc0RpAp9wqFQLwDTRdB39dlyGqT28KMH7QHOPGOUYDX8oSF4KCWCi_sQ=w1175-h881-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO3a9SmjN4grAWVcO4sh139Bk5zYBNf3MQS7VC7FMlTzbfQ6eVdwaQu48g2Qe2Q5uuecmO9YCOR5KRFPS4nyakoroGBH5qLgcX8WVbo-2NJrvkIx8L7-BFoTrGAEM1_2_GQN9obBX_LyMaTk9o-aDNBYw=w661-h881-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMnItTAjZ8GHkXke18aMDIElgo37orECRsWzwGMk3c771Odx1pHXs02NGxIlp1N4rrV84DM1qRPgNPL7vbpdAgJrk0YJodBnTXJ5kf8_R4oPL42MIb4tthwzsllfEoAjkjaPrF2aLoI7QWnBZd53eQc2Q=w661-h881-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNv-WUeYcUdUVIpMRtT7h8SS9MelQNtdEFRlYFFlkNwvQvLuMh_c36VTdS0qYxoLCSmrh-uJHkE9IG1y2MwRiVcBK7-qL9Dldh-B51R6beadhjXA-HpT_-zvwtMdiejsmxUUF4QUBKryYLe_iD4CId3jw=w1175-h881-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Bâtie en amphithéâtre sur un coteau escarpé dominant la ria du Goyen à la croisée des routes maritimes et terrestres du cap Sizun, la cité médiévale de Pont-Croix compte parmi les ensembles urbains anciens les plus harmonieux et pittoresques de Bretagne. Fondée autour du franchissement du fleuve côtier et du château des seigneurs de Rosmadec au début du Moyen Âge, la ville prospéra grâce à son port fluvial, ses foires et son statut de carrefour marchand entre Audierne, Douarnenez et Quimper. Son tissu urbain préservé se caractérise par un réseau remarquable de ruelles pavées en gradins — les « chicanes » —, bordées de riches demeures bourgeoises en pierre de taille granitique des XVe, XVIe et XVIIe siècles aux toits d'ardoise pentus. Couronnée par l'emblématique silhouette de la collégiale Notre-Dame de Roscudon dont la flèche élancée servit de modèle à celle de la cathédrale de Quimper, cette « Petite Cité de Caractère » dégage une authenticité minérale intemporelle où chaque venelle raconte la prospérité passée de la Cornouaille historique.",
+    visiter: "La découverte s'amorce au bas de la cité, le long des rives paisibles du Goyen où mouillaient jadis les gabares et bateaux marchands, avant de grimper les ruelles pavées à gradins typiques comme la venelle Chère ou la rue aux Pavés. En montant vers la place centrale bordée de maisons nobles à pans coupés et d'échoppes anciennes, le promeneur admire le travail soigné des linteaux sculptés, des tourelles d'escalier et des cours intérieures fleuries d'hortensias. Une halte s'impose à la collégiale Notre-Dame de Roscudon pour admirer son porche sud finement sculpté, son clocher ajouré du XIVe siècle et la pureté de sa nef romane de l'école de Pont-Croix ornée de chapiteaux géométriques. La promenade se prolonge vers la maison du marquisat abritant le musée du patrimoine local, puis vers les rives verdoyantes du sentier de halage reliant Pont-Croix au port d'Audierne au fil de l'eau.",
+    link: ""
+  },
+ {
     id: "poullan_sur_mer_allee_couverte_leskonil",
     name: "Poullan-sur-Mer - Allée couverte de Lesconil",
     country: "France",
