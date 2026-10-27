@@ -1,5 +1,52 @@
 const SPOTS_2 = [
  {
+    id: "poullan_sur_mer_chapelle_notre_dame_kerinec",
+    name: "Poullan-sur-Mer - Chapelle Notre-Dame de Kérinec",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Finistère (29)",
+    subdiv: "Poullan-sur-Mer",
+    altitude: 50,
+    is_island: false,
+    island_name: "",
+    transport: "route",
+    era_group: "medievale",
+    era_label: "Époque Médiévale & Gothique Flamboyant (XIIe-XVe siècle)",
+    century: "Moyen Âge (XIIe-XVe siècle)",
+    category: "religieux",
+    counts: {},
+    lat: 48.062994,
+    lng: -4.409003,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMvUs85rn1_TAwkvMLLysmQvfRPhOvEU2klzEEeRziQ72Og8-4JsSnwGcb4KR6t6MGwaeSxXxHT7tC1gUGMYwjCMnd6919REEuGu63Pix0WBBt0bJaEpQ-qQQE99OZig52pBQosFAETQjqbSr4j5s3MKg=w1185-h889-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMAhvw9v43lV_uTMoclj9wlT1jbbWY2ZxXZBjRQGWtbuGEJ5SGX0Qeofk0qy6NYS-ay03JclrDGlhWW_F26EP20yGBy8X83xBPn1YP2rxicyB9LjSmt5sRjGgo8AbjRVyqdRvrESK_RpKP2BNPahcepFw=w1185-h889-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPECkDdqXWB3IcASAtVh_WzWHqGHaVvG6AaF7_ht9YH1a4BtcxzfeZwTN6rAXu7znFNr83wBmsmMNrAQ97z6x9t0mL9VKe2CAbO35kJeVtrFgDy5ucHE7uyYuEwaTzWJNyTBegW-RPhde83gOXzEbNlOg=w667-h889-s-no-gm?authuser=0",
+        caption: "Sur le flanc sud du placître s'élève la chaire extérieure à prêcher, édicule rare et exceptionnellement préservé. Construite en pierre de taille, cette tribune polygonale portée par un soubassement massif est coiffée d'un dais ou abat-voix en pyramide orné de gâbles et de fleurons gothiques flamboyants. Conçue pour permettre aux prédicateurs de s'adresser aux foules immenses de pèlerins réunies en plein air lors du pardon annuel lorsque la chapelle ne pouvait plus les contenir, elle illustre magistralement la liturgie pastorale bretonne du bas Moyen Âge."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO_ohIdjOBJJ9gh6Qyrl6xD8es2lQoni9mWszQKJI0K6kLw9onnCfHtg9-vGjKSz_SomfluK4IjW8vA5_YLBj7QHwSN1ymrg2UYGa7HrsgXDMi_482ooH5c8ZXPfLHBZSWUwcwzEp21nYWvGODJPEuVUw=w667-h889-s-no-gm?authuser=0",
+        caption: "En contrebas du tertre sacré, la fontaine de dévotion de Kérinec parachève cet ensemble patrimonial. Abritée sous une voûte de pierre en berceau protégée par un édicule à fronton triangulaire surmonté d'une croix de granite, elle recueille une eau réputée miraculeuse et bienfaitrice. Les pèlerins venaient y puiser l'eau pour la guérison des maux de tête, des fièvres et la protection des jeunes enfants, associant ainsi le culte immémorial de la source à la dévotion mariale. L'ensemble de la chapelle, de la chaire et de la fontaine bénéficie d'une protection intégrale au titre des monuments historiques depuis 1914."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNHf88CHg2fSMJcOBZLa49Z1CkhxnJ4H7HxMQRvZ7OGGxTUF--AvKL2g68N9np-Xz_z-HfUNUOnxZB-kwTGeZIdpUKdMP8Qzn7IyOqTlHBDgNpPqu0vhgK3f7om5Kv3Q-ocr5ftVkHhkuIZKm585DVePg=w1185-h889-s-no-gm?authuser=0",
+        caption: "L'intérieur déploie un volume chaleureux et intimiste couvert d'une charpente lambrissée en berceau brisé ornée de sablières et d'engoulants sculptés. La nef principale et son bas-côté communiquent par des arcades brisées pénétrant directement dans des piles octogonales sans l'intermédiaire de chapiteaux. Le chœur abrite un riche mobilier cultuel et sculptural en bois et pierre polychromes, comprenant des statues anciennes de la Vierge à l'Enfant, de saint Pierre, de saint Joseph et de saint Fiacre, ainsi qu'un maître-autel encadré de retables baroques rustiques qui témoignent de la continuité des legs et de la piété paroissiale au fil des siècles modernes."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOIFCDkKQt1tBv64O90NNF6sds-UBMcvBvkd6BCkMZRmB7_foLdj0aNIjaoQC1brX9XwceFDpMxmY6ejgaH6kRPGVyz92HvEUfoo8Ppiz88G8R7txdJi76NF-UShOCtBwmk3cdzGcyNFMQM5oS8ocZ09A=w667-h889-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Nichée dans un vallon boisé et retiré de la commune de Poullan-sur-Mer au cœur du cap Sizun, la chapelle Notre-Dame de Kérinec constitue l'un des ensembles monumentaux de dévotion populaire les plus complets et émouvants de Cornouaille. Érigée originellement au XIIe siècle sous l'impulsion de l'ordre des Hospitaliers de Saint-Jean de Jérusalem puis largement reconstruite et embellie aux XIVe et XVe siècles dans le style gothique flamboyant, elle servait de halte majeure sur les routes de pèlerinage médiévales. Bâti en grand appareil de granite armoricain patiné par les siècles, le sanctuaire est entouré d'un placître herbeux d'une rare harmonie qui conserve l'une des très rares chaires à prêcher extérieures de Bretagne, destinée à l'instruction des fidèles lors des grands rassemblements de pardons. En contrebas, une fontaine monumentale complète cet ensemble exceptionnel protégé au titre des monuments historiques dès 1914, témoignant de l'enracinement profond de la ferveur mariale dans le terroir finistérien.",
+    visiter: "La visite s'amorce par la découverte du placître bordé d'arbres séculaires, offrant une perspective admirable sur le clocher ajouré à galerie et les rampants garnis de crochets de pierre. Sur le flanc sud de l'enclos, il convient de s'attarder devant la remarquable chaire extérieure polygonale à dais sculpté, véritable joyau de la statuaire et de la liturgie de plein air. En pénétrant dans la nef par le porche gothique, le promeneur apprécie l'atmosphère intime conférée par la charpente de bois en coque de navire inversée et contemple la polychromie des retables et statues votives. La déambulation se poursuit en descendant le sentier herbeux vers la fontaine sacrée en sous-bois, où s'exprime toute la poésie des croyances d'eau vive bretonnes, avant de poursuivre vers les sites mégalithiques de Lesaff et le bourg de Poullan-sur-Mer.",
+    link: ""
+  },
+ {
     id: "poullan_sur_mer_dolmen_lesaff",
     name: "Poullan-sur-Mer - Dolmen de Lesaff",
     country: "France",
