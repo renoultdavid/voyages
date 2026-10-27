@@ -2737,12 +2737,57 @@ function renderSpotGalleryImage() {
     }
   }
 
-  if (captionEl) {
-    if (currentItem.caption && currentItem.caption.trim() !== '') {
-      captionEl.textContent = currentItem.caption;
-      captionEl.classList.remove('hidden');
+  const captionWrapper = document.getElementById('modal-gallery-caption');
+  const captionText = document.getElementById('modal-gallery-caption-text');
+  const captionToggleBtn = document.getElementById('modal-caption-toggle');
+
+  const hasCaption = currentItem.caption && currentItem.caption.trim() !== '';
+  if (hasCaption) {
+    if (captionText) captionText.innerHTML = currentItem.caption.replace(/\n\n/g, '<br><br>');
+    if (captionWrapper) {
+      captionWrapper.classList.remove('hidden');
+      captionWrapper.classList.remove('translate-y-full', 'opacity-0');
+    }
+    if (captionToggleBtn) {
+      captionToggleBtn.classList.remove('hidden');
+      updateCaptionToggleState(true);
+    }
+  } else {
+    if (captionWrapper) captionWrapper.classList.add('hidden');
+    if (captionToggleBtn) captionToggleBtn.classList.add('hidden');
+  }
+}
+
+let isCaptionVisible = true;
+
+function toggleCaptionVisibility(e) {
+  if (e) e.stopPropagation();
+  const captionWrapper = document.getElementById('modal-gallery-caption');
+  if (!captionWrapper) return;
+
+  isCaptionVisible = !isCaptionVisible;
+
+  if (isCaptionVisible) {
+    captionWrapper.classList.remove('translate-y-full', 'opacity-0', 'pointer-events-none');
+    captionWrapper.classList.add('translate-y-0', 'opacity-100');
+  } else {
+    captionWrapper.classList.add('translate-y-full', 'opacity-0', 'pointer-events-none');
+    captionWrapper.classList.remove('translate-y-0', 'opacity-100');
+  }
+  updateCaptionToggleState(isCaptionVisible);
+}
+
+function updateCaptionToggleState(visible) {
+  isCaptionVisible = visible;
+  const icon = document.getElementById('modal-caption-icon');
+  const label = document.getElementById('modal-caption-toggle-text');
+  if (icon && label) {
+    if (visible) {
+      icon.className = "fa-solid fa-eye-slash text-cyan-400";
+      label.innerText = "Masquer la légende";
     } else {
-      captionEl.classList.add('hidden');
+      icon.className = "fa-solid fa-align-left text-cyan-400";
+      label.innerText = "Lire la légende";
     }
   }
 }
