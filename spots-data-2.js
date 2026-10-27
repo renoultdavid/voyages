@@ -1,5 +1,52 @@
 const SPOTS_2 = [
  {
+    id: "confort_meilars_eglise_notre_dame",
+    name: "Confort-Meilars - Église Notre-Dame de Confort",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Finistère (29)",
+    subdiv: "Confort-Meilars",
+    altitude: 64,
+    is_island: false,
+    island_name: "",
+    transport: "route",
+    era_group: "renaissance",
+    era_label: "Époque Moderne & Renaissance Bretonne (XVIe siècle)",
+    century: "XVIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 48.050471,
+    lng: -4.427895,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPG4ikS7zHm8aUl1uxry9nwJxhM4cUSMpJiVMJ-pQEsy302h132yfw5ed4WlVwdx5xjM8joWMTlBpRkVeWpjqvftGUd5Ez8xnU-K_wvSpEShn5YXyPU6iIfaJlUYX6F4_UZP2ZukD-yT3s_uxJhlHUpIQ=w667-h889-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNQ7pVorIzEtl3L7ZWhMHVR24XA1Ol0gj48cfNeSDHB-brVsz-1NtJqnMhMpYvPkZH0LwI1sGPBT7VRrS6kFaB-fWHRsZO1xjcBngA_xR8b69wjkIXz3cNri-lzWn7IP51REVVwcIvErwaySmrrEd-rGw=w667-h889-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP45szXIyp3YY1NdUIgegmatNVctvKonngx4KSOwJCAR6UV8CNJ7pz0mG3TNN3IbXqSLntwNE0LAPSwP-osm7UNmyDCP0RlWl5E-F77usNsCUOHmNICx5na_NO7HBZwmWqgDMnNEID3mnfJLCt8kklgmw=w1185-h889-s-no-gm?authuser=0",
+        caption: "La nef de l'église Notre-Dame de Confort, située à Confort-Meilars au cœur du cap Sizun, constitue un remarquable témoin de l'épanouissement du gothique flamboyant breton au début de la Renaissance. Érigée sous le mécénat des seigneurs de Pont-Croix et de Tyvarlen, notamment Alain de Rosmadec et Jeanne du Chastel, cette nef paroissiale et de pèlerinage illustre l'adaptation magistrale des formes gothiques tardives aux exigences de taille du granite breton.\n\nL'espace intérieur s'organise en trois vaisseaux séparés par de larges et hautes arcades brisées. Faisant écho à l'esthétique flamboyante, les piles octogonales et polygonales massives sont dépourvues de chapiteaux : les moulures et voussures des arcs pénètrent directement dans les fûts des piliers en une ligne continue et fluide. Cette sobre puissance architecturale est rythmée le long des travées par les statues en bois polychrome des douze apôtres fixées aux piliers, veillant sur l'allée centrale. La nef s'élève directement sous une ample voûte lambrissée en berceau brisé, soutenue par une charpente apparente à entraits et sablières, dont la tonalité sombre canalise le regard vers l'arc triomphal et le chœur baigné de lumière par la célèbre verrière flamboyante de l'Arbre de Jessé.\n\nConçue pour accueillir de grandes foules de fidèles lors des pardons, la nef abrite un riche mobilier cultuel, comprenant une chaire à prêcher sculptée, des bannières brodées de procession ainsi que la célèbre roue à carillons suspendue sous la voûte. Classée au titre des monuments historiques en 1914, l'église Notre-Dame de Confort conserve dans son vaisseau une harmonie spatiale et une ferveur dévotionnelle exemplaires de la Cornouaille monumentale."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOTQajHZyikg1MJnNHAPLxeRdzvNwBC9TrzBBC11LnEH03ucSS-9IdXSBAS5DfVudzXqzqIxqSy43B31IHSQ8NmlPlGdc2HINwBCCXQZun-U6QSWZWYnXnVHnXyTWeNzADg0GmidSpIkYqY7m-ZneEVsg=w667-h889-s-no-gm?authuser=0",
+        caption: "La maîtresse-vitrail de l'Arbre de Jessé de l'église Notre-Dame de Confort, insérée dans l'ample baie axiale du chevet, constitue un chef-d'œuvre de la peinture sur verre en Cornouaille au temps de la Renaissance. Réalisée vers le deuxième quart du seizième siècle, sans doute sous l'égide de la famille seigneuriale de Rosmadec, elle illustre la généalogie royale et prophétique du Christ issue de la prophétie messianique d'Isaïe. L'œuvre se déploie sur plusieurs registres verticaux compartimentés en lancettes, formant une trame monumentale où l'enchevêtrement des rinceaux végétaux sert d'écrin aux ancêtres de la lignée davidique.\n\nLe registre inférieur s'ouvre sur la figure monumentale de Jessé, assoupi sous un riche dais écarlate, d'où jaillit le tronc sinueux de l'arbre mystique. Dans les panneaux superposés, chaque figure royale ou prophétique émerge au cœur des calices floraux et des corolles végétales, identifiée par des phylactères nominatifs. On y reconnaît notamment le roi David jouant de la harpe, revêtu d'un manteau bordé d'hermine, ainsi que les souverains Salomon, Roboam, Abia, Josias ou Ézéchias. Les personnages se distinguent par l'expressivité de leurs visages barbus, leurs coiffes et leurs costumes fastueux caractéristiques du règne de François Ier, combinant pourpoints tailladés, chausses éclatantes et chapeaux Renaissance ornés de médailles.\n\nLa technique verrière témoigne d'une remarquable virtuosité, mariant des verres teintés dans la masse aux tonalités éclatantes de bleu cobalt, de rouge rubis, d'émeraude et d'or à un usage raffiné de la grisaille et du jaune d'argent pour moduler les ombres et les carnations. La composition culmine vers les registres supérieurs et le tympan flamboyant en direction de la Vierge et du Christ, symbole de l'accomplissement divin. Malgré les remaniements et restaurations imposés par le climat maritime, cet ensemble verrier demeure l'une des déclinaisons les plus vigoureuses et colorées de l'iconographie de Jessé dans l'art breton du seizième siècle."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPcqoewSbQXy2zxtrNPNHd-9BflMGiiVhOq6ABdHTIrXHbjwY2pmzkaCV-Vt4mRd9vWxuX7qq-JH7LXjBN0qcl7dImDtEvfWh0CJmIBIbJXA1DcJm3Nf4Kgi7LZKzR_R4CjLReCYzEcpWzuF9W-yCA6Vg=w667-h889-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP9JNYoci-aGXO-woXs6Ufns7DWOJcVyLcJuTRmWNgnpJipRrR5AKgLO0i6-Ng1qGLzBiUCDKXVy7AChOhBRpTp5LR_47nH0zaGmtrctSm5d8obXazi3G37hXS_VOVRnOlHwPvwApiQyhQwWQW4ZNigUA=w667-h889-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Édifiée au début du XVIe siècle sous le patronage des barons de Pont-Croix et de la puissante maison de Rosmadec, l'église Notre-Dame de Confort s'impose comme l'un des sanctuaires de pèlerinage les plus célèbres et originaux de Cornouaille. Implantée dans un vallon verdoyant du cap Sizun sur l'ancienne route reliant Quimper à la pointe du Raz, elle présente un équilibre saisissant entre la persistance des volumes du gothique flamboyant et la virtuosité décorative de la première Renaissance bretonne. Bâti en grand appareil de granite blond sculpté, l'édifice attire immédiatement le regard par sa façade monumentale flanquée d'un clocher ajouré à galerie et balustrade, ainsi que par son calvaire triangulaire monumental érigé sur le placître. À l'intérieur, outre sa nef rythmée par la statuaire polychrome des apôtres et sa célèbre maîtresse-vitrail de l'Arbre de Jessé datant de 1530, le sanctuaire conserve une rarissime roue à carillons du XVIe siècle ornée de clochettes que les pèlerins actionnaient traditionnellement pour obtenir la guérison des enfants muets ou tardant à marcher. Classé au titre des monuments historiques dès 1914, ce sanctuaire perpétue la dévotion mariale profonde des marins et des paysans capistes.",
+    visiter: "La découverte commence sur le placître paroissial en observant le calvaire triangulaire du XVIe siècle, dont les pans sculptés portent les apôtres et les scènes de la Passion surmontés des trois croix du Golgotha. En longeant l'extérieur, on admire les rampants sculptés d'animaux fantastiques, les gargouilles saillantes et la finesse des baies à remplages flamboyants. Le passage sous le porche dévoile la majesté du vaisseau central, où l'on découvre suspendue à la charpente la fameuse roue à carillons (ar rod) en bois sculpté et doré, surmontée de douze clochettes de bronze. La promenade intérieure mène au chevet pour contempler la verrière de l'Arbre de Jessé et ses costumes d'époque François Ier étincelant sous la lumière orientale. Une visite au bas-côté sud permet d'examiner les statues d'apôtres en applique et les sablières sculptées de scènes satiriques, avant de profiter du calme champêtre de Confort-Meilars.",
+    link: ""
+  },
+ {
     id: "pont_croix_eglise_notre_dame_roscudon",
     name: "Pont-Croix - Église Notre-Dame-de-Roscudon",
     country: "France",
