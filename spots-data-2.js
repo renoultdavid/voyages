@@ -1,5 +1,166 @@
 const SPOTS_2 = [
  {
+    id: "poullan_sur_mer_allee_couverte_leskonil",
+    name: "Poullan-sur-Mer - Allée couverte de Lesconil",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Finistère (29)",
+    subdiv: "Poullan-sur-Mer",
+    altitude: 78,
+    is_island: false,
+    island_name: "",
+    transport: "route",
+    era_group: "prehistoire",
+    era_label: "Préhistoire & Mégalithisme (Néolithique - fin du IIIe millénaire av. J.-C.)",
+    century: "Préhistoire",
+    category: "megalithe",
+    counts: {},
+    lat: 48.091782,
+    lng: -4.379571,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPscndCFwsY0kZyzRXSeD6ebmXsv7uEHaS6YVF5pJtcZCr6XHH-oPufiRfHsqdV3qbDHVVnapVr-a2Nyve-32MdEdE6mMdrUyzrfH6vDOa4j1yI717Y_O5XT2qFw-cfx9vBd4Y45fVmcP7lPpCMN8ZuzQ=w1185-h889-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOBOJ9UmYOgQC46zRsZ6XBEGZYsR68SH_JUngct7fKB5fG0so0Ys4auCoRV3uQl-HXK8V5ytfjokb8D74oLBpSJ6-FnqbfwYtc07VQeERE3wqR-ayr9dbiFBTgmBznn_28bipZzyCjOQ-7FteYTnRCrGw=w661-h881-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMupU0kS9VSq9FWxYR1P2JsnxvgBMtTzg_J5kdzApRdLn97mW19dyqcSFUPRYgpaLxzSyndI6IRMeHTVeJWBlJSxrGQMylNaE-LeYPLoVZgT6iXRXdAQvHw2qgI7yVwiCDUs7j40M6oAzZ6lvj72QflnQ=w661-h881-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNQ8z-OILeGILgm53gbMPxCkRINvubjdHpyPcUGjpj67uwJOMIaBCv1HbPRHm2j-E4cYwRgQRndhxSsuKrYrtGZcUHlr23U7qsSGw3fBSo_yCNx0nWwV3-LrEj7VklQNKx9xrxpFW91kgKgTYXXBI9x5w=w661-h881-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMOjyhQEj79h2IK4HksCEtEgYPwPOvQjBvIDBf1lvveeny_ZsAf7ARuFnQsEwbZEuPGrd_UQ2ygGRahBUWSv2Ox2BchMGz_Ha8YdHqy66JLpaJtQhEAYJvJkqWRZU4zkPu8pkYyvHx1sFA5lckuapol4w=w661-h881-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Implantée sur les hauteurs du plateau bocager dominant la baie de Douarnenez au lieu-dit Lesconil, l'allée couverte de Lesconil figure parmi les monuments mégalithiques funéraires les plus représentatifs du cap Sizun. Érigée à la fin du Néolithique (vers 2500 à 2000 avant notre ère) par les populations d'agriculteurs-éleveurs sédentarisées dans la péninsule armoricaine, cette sépulture collective coudée ou rectiligne se compose d'une longue chambre funéraire délimitée par d'imposants orthostates verticaux en granite local soutenant encore plusieurs dalles de couverture massives. Jadis entièrement ensevelie sous un tertre de terre et de pierraille (tumulus ou cairn) dont subsistent de faibles ondulations de terrain, la structure accueillait les inhumations successives des membres d'une même lignée ou communauté pastorale. Classée monument historique, elle offre un témoignage saisissant des rites de mort et de commémoration ancestrale qui structuraient le paysage agraire finistérien il y a plus de quatre millénaires.",
+    visiter: "L'accès à l'allée couverte s'effectue facilement depuis Poullan-sur-Mer ou Tréboul en suivant les petites routes de desserte agricole et les chemins de randonnée pédestre balisés de la commune. En arrivant en bordure de la parcelle boisée et herbeuse, le visiteur peut contempler l'enfilade des dalles dressées et le gigantisme des tables de recouvrement horizontales posées avec une remarquable maîtrise de levage néolithique. Il convient de faire le tour complet de l'édifice pour examiner l'agencement serré des piliers latéraux en granite patiné de lichens et apprécier le calme champêtre de ce sanctuaire millénaire. La visite se prolonge naturellement vers le menhir de Tréota tout proche ou en direction des falaises côtières du cap Sizun.",
+    link: ""
+  },
+  {
+    id: "poullan_sur_mer_eglise_saint_cadoan",
+    name: "Poullan-sur-Mer - Église Saint-Cadoan",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Finistère (29)",
+    subdiv: "Poullan-sur-Mer",
+    altitude: 78,
+    is_island: false,
+    island_name: "",
+    transport: "route",
+    era_group: "medievale",
+    era_label: "Époque Moderne & Gothique Flamboyant (XVIe-XVIIIe siècle)",
+    century: "XVIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 48.080404,
+    lng: -4.4141,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNqKHRxt2kXbgN6dfTK92TOUs0APYTrnT9RQi6fO6G9oLt9AAQAvEwcn_tux9UN189JxmpnDQquznP-0fcY9adprrVhIIPSkwa2Zp0NDMZ9GsbXH5jcsZNQMG6P9I2kfNoriyNzLD6_yRfX-PMV7AdveQ=w661-h881-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPy8UYszwA35EV3L6xLPu_pX1AMIyApL-uVY3D9eplde_BGGcPG-3L-h32HXk-mYOzkZf67PCX5dzyi5YCvOkRtjUkixV2FXCM_Hpr2cX7JLVvec90D9zA-OqknyvMz6X86nrjcNa8c9DRwWmfFLbjYEQ=w661-h881-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Édifiée au cœur du bourg paroissial de Poullan-sur-Mer, l'église Saint-Cadoan s'impose comme un bel exemple d'architecture paroissiale cornouaillaise mêlant réminiscences du gothique flamboyant et embellissements de la Renaissance et de l'âge classique. Dédiée à saint Cadoan (ou Cadou), saint abbé et thaumaturge celte originaire du pays de Galles très vénéré dans l'ancien diocèse de Cornouaille, l'église actuelle fut commencée à la fin du XVIe siècle (vers 1590) puis agrandie et dotée d'un nouveau clocher élancé au XVIIIe siècle. Bâti en grand appareil de granite taillé, l'édifice se distingue par son porche méridional orné de crossettes sculptées, sa nef lambrissée ornée de sablières historiées et son enclos conservant un calvaire et un ossuaire attenant. À l'intérieur, les retables baroques aux colonnes torses, les statues anciennes en bois polychrome et les ex-voto marins rappellent l'attachement viscéral des paysans et marins du cap Sizun à la protection de leurs sanctuaires ancestraux.",
+    visiter: "La découverte débute par la traversée du placître paroissial pour apprécier la silhouette du clocher à chambre de cloches ajourée et flèche pyramidale cantonnée de clochetons d'angle. En observant les extérieurs, on admire le chevet à pans coupés ainsi que les détails sculptés du porche sud abritant des niches à statues et une archivolte finement moulurée. À l'intérieur, la lumière diffuse révèle la vaste charpente en carène de navire renversée ornée de mascarons et d'animaux fantastiques sculptés à la base des entraits. Il convient d'admirer le retable du maître-autel doré du XVIIe siècle et les statues représentant saint Cadoan, sainte Anne et la Vierge Marie. La halte se poursuit par une promenade dans les ruelles calmes du bourg avant d'emprunter les sentiers côtiers ou de rejoindre la vallée arborée de Kerharo.",
+    link: ""
+  },
+  {
+    id: "plouhinec_allee_couverte_kerbalannec",
+    name: "Plouhinec - Allée couverte de Kerbalannec",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Finistère (29)",
+    subdiv: "Plouhinec",
+    altitude: 65,
+    is_island: false,
+    island_name: "",
+    transport: "route",
+    era_group: "prehistoire",
+    era_label: "Préhistoire & Mégalithisme (Néolithique - fin du IIIe millénaire av. J.-C.)",
+    century: "Préhistoire",
+    category: "megalithe",
+    counts: {},
+    lat: 48.083343,
+    lng: -4.454574,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOuY_uP9V4vp1Y6j_GBIHDmz2zfJcYdk5e6BbAd2tngDSNuZtc4Sced18VDttSpNJi8NxDISsQrn-PBvpn15yRSN6-Tqz57wlU6a_TYOSFUNFEnNf48XP4hWk0t8y3TLRRPnswwfhXnMR5eEKu6Jaae9w=w1175-h881-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPN57q_fDY1FkZQVnv78ISatQZGzyKN-fgWcyj8y9-vJhTQ6CMMD25FJUwlsDmL6wjLb4-MlxnT9SE2aU9Yqe0PNsHZH0sd8DTyqarsskCiJSKdhwcYxuABK1O4P6LN04nS_FjW5ENFn-FO4zmanUmCNA=w1175-h881-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPrsGOQVMWmvvm4hzaHRnKlSAJ2FkeQKmcUVcd44P-c5wYzbJ1CqNwWO8jB7CcbTlSFoEScCyNJvEDMHgj_oSHndTGevHUT0KVQIyFsM0KjeumtiTa67r4lw0-Er0Rgf9ud_zbAS0FWJ-7E4qsYa7WqpQ=w661-h881-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressée sur un replat pastoral de la commune de Plouhinec non loin de la vallée du Goyen et du littoral sud du cap Sizun, l'allée couverte de Kerbalannec illustre la remarquable densité architecturale du mégalithisme funéraire de Cornouaille. Datée du Néolithique final (environ 2500 à 2000 avant notre ère), cette sépulture mégalithique de plan allongé est formée d'une galerie de piliers verticaux en granite de pays surmontée de plusieurs lourdes dalles horizontales encore en place ou légèrement décalées. Destinée à l'origine à abriter les ossements des défunts d'un clan pastoral au sein d'un tertre aujourd'hui arasé par les siècles d'agriculture, l'allée témoigne d'une stéréotomie archaïque impressionnante et de l'effort collectif déployé pour transporter et ériger ces masses rocheuses. Classée au titre des monuments historiques, elle s'inscrit au cœur d'un territoire préservé où dolmens, menhirs et stèles jalonnent les confins terrestres de la péninsule finistérienne.",
+    visiter: "La découverte se fait en accédant au lieu-dit Kerbalannec via les chemins vicinaux de la campagne de Plouhinec, à quelques minutes d'Audierne et de la ria du Goyen. En abordant le talus herbeux ceinturant le mégalithe, le promeneur découvre le couloir interne formé par les dalles de chant et la puissance tellurique des tables de couverture en granite usé par l'érosion pluri-millénaire. Le site, niché au bord d'une prairie bordée d'arbres, invite à une contemplation calme de l'archéologie préhistorique bretonne. L'excursion s'associe idéalement à la visite des sites néolithiques voisins de Menez Dregan, de la nécropole de Pointe du Souc'h et des sentiers littoraux de la baie d'Audierne.",
+    link: ""
+  },
+  {
+    id: "plouhinec_menhir_coat_pin",
+    name: "Plouhinec - Menhir de Coat Pin",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Finistère (29)",
+    subdiv: "Plouhinec",
+    altitude: 79,
+    is_island: false,
+    island_name: "",
+    transport: "route",
+    era_group: "prehistoire",
+    era_label: "Préhistoire & Mégalithisme (Néolithique - IVe-IIIe millénaire av. J.-C.)",
+    century: "Préhistoire",
+    category: "megalithe",
+    counts: {},
+    lat: 48.076436,
+    lng: -4.477456,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM4HdklOU5dM1Ulcs2ZyhHJT5lnu4wERWnZkqWb2QZFPLJS0hXJOIEiEHHo-GsNusvalFab0LMcmmF-jCIJnvnXORkRpGMEKDA-FCPNg32M7VMZ1grc7lnfBp7K32KiX5k4olhX0ZxpujmzEp7DL1gUJg=w661-h881-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Érigé sur le plateau élevé de Coat Pin entre lande et pinède sur la commune de Plouhinec, ce menhir de granite constitue le repère vertical d'un remarquable ensemble mégalithique comprenant également un dolmen à proximité immédiate. Élevé au cours du Néolithique moyen ou final (vers 4000 à 2500 avant notre ère), ce monolithe taillé d'une hauteur notable dresse son profil fuselé vers le ciel du cap Sizun à près de quatre-vingts mètres d'altitude. Probablement implanté pour délimiter un territoire communautaire sacré, baliser un itinéraire pastoral antique ou servir de stèle commémorative en lien avec les sépultures voisines, le menhir de Coat Pin a traversé intact les millénaires. Les embruns de l'océan Atlantique tout proche et les intempéries ont tapissé ses flancs d'une croûte de lichens aux nuances ocres et argentées, lui conférant une majesté silencieuse au sein du bocage maritime.",
+    visiter: "La découverte s'effectue en empruntant les sentiers ruraux et pistes forestières desservant le hameau de Coat Pin, dans un cadre végétal apaisant ponctué de pins et de genêts. Le visiteur découvre la stèle dressée à quelques pas de la chaussée, ce qui permet d'apprécier de près le travail d'épannelage du bloc de granite et la fermeté de son implantation dans le socle armoricain. La visite prend toute sa dimension en combinant l'observation de ce menhir avec celle du dolmen situé à quelques dizaines de mètres seulement à l'ouest, offrant une compréhension directe des deux grandes expressions de l'architecture de pierre néolithique bretonne.",
+    link: ""
+  },
+  {
+    id: "plouhinec_dolmen_coat_pin",
+    name: "Plouhinec - Dolmen de Coat Pin",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Finistère (29)",
+    subdiv: "Plouhinec",
+    altitude: 79,
+    is_island: false,
+    island_name: "",
+    transport: "route",
+    era_group: "prehistoire",
+    era_label: "Préhistoire & Mégalithisme (Néolithique - IVe-IIIe millénaire av. J.-C.)",
+    century: "Préhistoire",
+    category: "megalithe",
+    counts: {},
+    lat: 48.076373,
+    lng: -4.477814,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPE_m3bPNmF7X4vY9A8-NnM-H2NiCfOJ4Z3WO1gY78j-1XoTpEv4FPnbrAGCobWWuZX9wlOnGnJNr_eflLT6pGpDMTEquVGcJywqhIAHmA1DNNxnUttR8vrS_6WpMLmKX-cVdf8Svslod464Lfg6t7NlQ=w1175-h881-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Voisin immédiat du menhir éponyme sur le plateau boisé de Coat Pin à Plouhinec, le dolmen de Coat Pin représente une sépulture mégalithique à chambre simple caractéristique du Néolithique armoricain. Composé de plusieurs piliers verticaux supportant une imposante dalle horizontale de couverture en granite de Cornouaille, ce monument funéraire formait originellement le caveau intérieur d'un tertre tumulaire circulaire désormais dispersé par l'érosion et les labours anciens. Utilisé comme sépulture collective pour les membres influents des premières sociétés paysannes du cap Sizun entre 4000 et 2500 avant notre ère, il témoigne de la ferveur funéraire et du génie technique déployé par les populations préhistoriques pour défier le temps. La proximité immédiate entre ce dolmen et la stèle levée confère au site de Coat Pin une haute valeur archéologique, réunissant dans un même périmètre végétal la tombe ancestrale et la borne sacrée.",
+    visiter: "Le site se découvre dans le prolongement direct du menhir de Coat Pin, accessible par le même chemin champêtre ombragé. En contournant la chambre mégalithique, le visiteur peut observer la manière dont la lourde table de granite repose en équilibre sur ses orthostates de soutien et imaginer l'espace clos où étaient déposés les défunts accompagnés de poteries, d'outils en silex et de parures. Le site dégage une quiétude propice à la contemplation, à l'écart des grands circuits touristiques côtiers. La promenade s'associe idéalement à la visite des falaises maritimes de la baie d'Audierne ou du site paléolithique de Menez Dregan sur la côte sud.",
+    link: ""
+  },
+ {
     id: "poullan_sur_mer_menhir_treota",
     name: "Poullan-sur-Mer - Menhir de Tréota",
     country: "France",
