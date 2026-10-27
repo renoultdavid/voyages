@@ -1,5 +1,44 @@
 const SPOTS_2 = [
  {
+    id: "pont_croix_eglise_notre_dame_roscudon",
+    name: "Pont-Croix - Église Notre-Dame-de-Roscudon",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Finistère (29)",
+    subdiv: "Pont-Croix",
+    altitude: 31,
+    is_island: false,
+    island_name: "",
+    transport: "route",
+    era_group: "medievale",
+    era_label: "Époque Médiévale & École de Pont-Croix (XIIIe-XVe siècle)",
+    century: "Moyen Âge (XIIIe siècle)",
+    category: "religieux",
+    counts: {},
+    lat: 48.040952,
+    lng: -4.489608,
+    image: "https://photos.fife.usercontent.google.com/pw/AP1GczM59sZg9Nkz7bNFKknxeqTsN6s-HjXGE4v9IRmp38NqjGnjCJ8ICVbnDQ=w1185-h889-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM-0BsbRf-3BcDJ9nJBe9XMyaHZO1enqDEuy3DPAyjIwr433FeUmDRxI5B4RqCArBwW4bKBw1l-AJ-9n1W19Gs-bKkjLPNxddmdAu1GSumpJJFGJkaAFd1vedzYLe8YmOrNAn2106o52oeANNQgH8JnBQ=w1175-h881-s-no-gm?authuser=0",
+        caption: "La nef de l'église Notre-Dame-de-Roscudon à Pont-Croix, chef-d'œuvre de l'architecture religieuse médiévale en Cornouaille, illustre de manière spectaculaire la transition entre l'art roman finissant et les prémices du gothique breton. Construite en grand appareil de granit local aux nuances beiges et dorées, cette nef romane tardive est célèbre pour avoir défini une typologie architecturale originale propre au pays capiste et au sud du Finistère, souvent qualifiée d'« école de Pont-Croix », dont le modèle a influencé nombre de sanctuaires environnants.\n\nL'élévation intérieure se distingue par un rythme exceptionnellement serré et vertical de grandes arcades en plein cintre à double et triple rouleau, reposant sur de puissants piliers composés. Ces supports complexes, formés de faisceaux de colonnettes engagées baguées et ornées de bases sculptées, confèrent au vaisseau central une monumentalité graphique saisissante malgré des proportions relativement compactes. Les chapiteaux géométriques ou feuillagés, taillés avec vigueur dans le granite, soutiennent des tailloirs polygonaux continus qui scandent harmonieusement la perspective vers la croisée du transept et le grand arc triomphal brisé ouvrant sur le chœur.\n\nAu-dessus de ces arcades trapues mais d'une grande élégance plastique, les murs gouttereaux nus s'élèvent directement jusqu'au comble sans étage intermédiaire de tribune ou de triforium. L'ensemble est couvert d'un berceau lambrissé de bois sombre renforcé par des entraits apparents, structure légère traditionnelle en Bretagne qui évite les poussées latérales sur les piles et permet de baigner la travée centrale d'une lumière douce provenant des bas-côtés et de la haute verrière axiale du chevet. Classée au titre des monuments historiques dès 1862, la nef de Pont-Croix demeure l'un des espaces cultuels les plus harmonieux et originaux du patrimoine finistérien."
+      },
+      {
+        url: "https://photos.fife.usercontent.google.com/pw/AP1GczP3MnbgzTIAc0Vec_1JKJKvRZWBwR3vZ6caRwKUd51psSNlg_9B64_KxQ=w667-h889-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://photos.fife.usercontent.google.com/pw/AP1GczML0MItSO4Pl8PLpc_DT5T9Am8k_YYr-Aez_HR76X7vTg6wm8OJ-SKSJA=w667-h889-s-no-gm?authuser=0",
+        caption: "La grande verrière du chevet de l'église Notre-Dame-de-Roscudon à Pont-Croix, insérée dans un imposant fenestrage de style gothique rayonnant à réseau flamboyant, déploie une riche composition iconographique consacrée au Couronnement de la Vierge et à la gloire de la cour céleste. Réalisée au dix-neuvième siècle pour orner le chœur réaménagé, cette verrière monumentale s'inscrit dans le renouveau du vitrail archéologique néo-gothique, alliant une vive palette d'émaux et de verres teintés dans la masse aux tonalités dominantes de bleu outremer, de rouge rubis et d'or.\n\nLe programme figuratif se structure verticalement sur quatre grandes lancettes surmontées d'un tympan ajouré de nombreux soufflets et mouchettes. Au registre supérieur, au cœur de la mandorle centrale, la Vierge Marie en prière est couronnée par la Trinité, entourée du Christ portant sa croix, de Dieu le Père bénissant et de la colombe du Saint-Esprit. De part et d'autre, les lancettes latérales et le registre médian accueillent le chœur des anges musiciens, les prophètes de l'Ancien Testament, les apôtres et les saints fondateurs ou populaires de Bretagne, parmi lesquels on reconnaît notamment saint Corentin, premier évêque de Quimper, revêtu de ses ornements épiscopaux. Le tympan supérieur est meublé d'allégories mariales issues des litanies de Lorette, de représentations architecturales de la Jérusalem céleste et de symboles mystiques.\n\nAu bas de la composition court une inscription dédicatoire attestant de la commande paroissiale et de la dévotion locale, mentionnant un don de Madame Jeanne Catherine Wessert décédée en octobre 1884. Restauré et mis en valeur dans l'écrin de granite de l'abside, ce vitrail témoigne de la ferveur mariale bretonne de l'époque contemporaine et s'harmonise parfaitement avec l'architecture médiévale de l'église classée au titre des monuments historiques."
+      }
+    ],
+    description: "Dominant le promontoire rocheux et les venelles médiévales de la cité au-dessus de la ria du Goyen, l'église Notre-Dame-de-Roscudon constitue l'un des sommets patrimoniaux de l'art religieux en Bretagne. Fondée au début du XIIIe siècle par les seigneurs de Pont-Croix et achevée au cours des siècles suivants, elle s'impose comme le prototype canonique de l'« école de Pont-Croix », courant architectural original mêlant la rigueur du plein cintre roman à l'élan vertical et à la modénature raffinée du premier gothique breton. Son extérieur est célèbre pour son clocher ajouré du XIVe siècle, dont la flèche de pierre octogonale haute de soixante-sept mètres servit d'inspiration directe pour l'érection des flèches de la cathédrale Saint-Corentin de Quimper. Le porche méridional, orné d'un Jugement dernier sculpté et de fines voussures polylobées, ouvre sur un espace intérieur monumental où les grandes arcades reposent sur des faisceaux de colonnettes engagées baguées d'une extraordinaire virtuosité plastique. Classé dès la liste des monuments historiques de 1862, ce sanctuaire d'exception incarne l'âge d'or architectural de la Cornouaille médiévale.",
+    visiter: "La découverte s'amorce par l'approche du placître en contemplant l'envolée spectaculaire de la flèche gothique ajourée cantonnée de clochetons d'angle et dominée par sa tourelle d'escalier. En longeant le flanc sud, il convient de s'attarder devant le porche gothique rayonnant sculpté en kersanton et granite, orné de ses voussures trilobées et de son tympan figurant le Christ juge entouré d'anges et des symboles des Évangélistes. En franchissant le seuil, le regard est immédiatement saisi par la densité rythmée des piliers composés de la nef romane tardive, avant de cheminer vers le chœur gothique baigné de reflets colorés par la grande verrière axiale du Couronnement de la Vierge. Parmi le mobilier remarquable, on admirera le retable du Rosaire, la chaire à prêcher en chêne sculpté ainsi que les statues anciennes en bois polychrome de saint Corentin et sainte Anne. La visite se prolonge agréablement en redescendant vers les venelles pavées et les jardins en gradins qui descendent vers le port du Goyen.",
+    link: ""
+  },
+ {
     id: "pont_croix_village",
     name: "Pont-Croix - Cité Médiévale & Petite Cité de Caractère",
     country: "France",
