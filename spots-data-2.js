@@ -1,5 +1,113 @@
 const SPOTS_2 = [
   {
+    id: "saint_calais_eglise_notre_dame",
+    name: "Saint-Calais - Église Notre-Dame",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Saint-Calais",
+    altitude: 102,
+    is_island: false,
+    island_name: "",
+    transport: "route",
+    era_group: "renaissance",
+    era_label: "Gothique Flamboyant & Façade Renaissance d'Exception (XVe-XVIe siècle)",
+    century: "XVIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.921380,
+    lng: 0.746081,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOom5oQxjv7YRw-9iW-zQQtMHt2YOS7VvkrYzoorLQiOCpwvsnjArZyht2aEwzLRJmUpfTRVo4lgsmAxTnlW2Cfwx4pkK2-zEwq6BOP7VgYNIhu9fpUWaKPYkD6q_iFpuinOtLsU3xBi6wWriSijpSp5Q=w2309-h1732-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOvecslehPbzuHeGPtWWuElVzVPSjvVyxT9e35L25yWSNpyLvUlFdEaTkq_DeqBKbIPVIyqlRZyG7t1GPvX82qKjB_wjBdrvgXOkKco-Qosk8z2EztpNKLCMf2lWs6EPfCT9HvNutmsYIU8zlJI0PR5jg=w1813-h2417-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMnlVcxf7aPMtj1V6nDoIFx13gyK1dy_awcDZ6izxlv8DJLvHD_lTHpVGGtqq6QQyQV2Bb415aKkrWXg57BUc7trkp1ROALl9S5AjT2U_CspYr6Oro0RrVgG22n7wbr-SOfvTHn-RhRrzRrWeTX9Ex4UQ=w1813-h2417-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN1ns82uxxWhBiMsKxC1nGseEkvOnHuxwkcJfTCyjbxcZ_Rx0tOkr6c11z3vFWcEEDqlWs-RZFfFzWn863KrYdkeJCs7cpm_5dEI9lrEOXl-JX3_TdXFh_AG_yr7zhNueK--o-Gv__OV9YStyUn_mNEZA=w2309-h1732-s-no-gm?authuser=0",
+        caption: "La nef que l'on découvre ici s'articule autour d'un vaisseau central majestueux, dont l'élévation repose sur de grandes arcades brisées aux profils rigoureux. Celles-ci retombent sur des piles circulaires caractéristiques de l'architecture locale, couronnées de chapiteaux finement sculptés qui soutiennent la naissance des voûtes. Les voûtes d'ogives, dotées de nervures finement moulurées, couvrent l'ensemble de la travée centrale selon un rythme harmonieux, témoignant de la maîtrise technique des ateliers de tailleurs de pierre de l'époque. De part et d'autre, les bas-côtés amplifient la perspective et favorisent la pénétration de la lumière naturelle par le biais de baies élancées, dont certaines conservent des vitraux anciens aux teintes chatoyantes.\n\nAu fond du chœur, l'autel et son retable en bois sculpté s'imposent comme le point focal de la perspective architecturale, rassemblant un mobilier liturgique précieux qui reflète la continuité de la vie cultuelle à travers les siècles. Cet ensemble, tout à la fois sobre dans sa structure et fastueux dans ses détails sculptés, illustre la vitalité spirituelle et artistique de Saint-Calais au seuil des temps modernes."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPgX2UMqWbIrkSSgsUD268Sv83nm0ZEHkzt6kJLfFzE8B8aqPRbE1v56VsvXRChQR1j2e_TNxVmuvLMwJjgzpps-FA8lSOt1xdgdkZORZsHxPJoQhZQua2K2Zi3PhAspJCnq2YS79b3KN8Djv49eJInDQ=w1813-h2417-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOdUxPpO-dFGc8k7j2p5VfXh0Y0S7zl_869YDGhwyvn0gehtRtcl-KLJ67oXPF_hyOCLNdsXglQ6e0oXXzdfBFoIxRwz8CSUYMYer_ACRdJDAEi7Ca5784fdX4MS28mB3CXJm2pJxj58dW4kJZ2uDG4cw=w1757-h2417-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressée au cœur de la cité historique de Saint-Calais sur les bords de l'Anille, l'église Notre-Dame s'impose comme l'un des chefs-d'œuvre les plus éblouissants de la première Renaissance française dans le Maine et les confins du Perche. Érigée sur les fondations d'un sanctuaire plus ancien associé à la puissante abbaye bénédictine locale fondée au VIe siècle par saint Calais (Karilef), l'église actuelle fut entièrement reconstruite à la charnière des XVe et XVIe siècles dans un élan de renouveau artistique exceptionnel. Si son vaste chœur et sa nef à trois vaisseaux témoignent de la virtuosité structurelle du gothique flamboyant, c'est sa façade occidentale — édifiée entre 1518 et 1549 sous le mécénat de l'abbé Guillaume de Cheverny et attribuée au maître maçon manceau Guillaume Delorme — qui suscite l'admiration unanime. Véritable retable de pierre calcaire sculpté à ciel ouvert, ce portail monumental déploie une profusion inouïe de motifs antiquisants : pilastres à candélabres, rinceaux d'acanthe, médaillons à l'antique, angelots potelés et trois registres de niches ornées de coquilles Renaissance abritant les statues des apôtres et des prophètes. L'intérieur baigné de lumière séduit par l'équilibre de ses grandes arcades brisées, ses voûtes d'ogives aux liernes délicates et un patrimoine mobilier fastueux comprenant un buffet d'orgues du XVIIe siècle porté par une tribune finement sculptée. Classé monument historique dès la première liste de 1840 par Prosper Mérimée, l'édifice incarne avec splendeur le passage triomphal du Moyen Âge finissant à la Renaissance ligérienne.",
+    visiter: "Prendre d'abord le recul nécessaire sur le parvis pour détailler la dentelle de pierre du portail Renaissance, véritable leçon d'histoire de l'art où cohabitent la monumentalité gothique et la virtuosité ornementale italienne inspirée des châteaux de la Loire. Pénétrer ensuite dans le vaisseau central pour admirer l'élan des grandes arcades retombant sur les piles circulaires et s'attarder sur la tribune d'orgue baroque sculptée en 1660. Avancer le long des collatéraux pour observer les verrières colorées du XIXe siècle et les vestiges de vitraux anciens, avant d'atteindre le chœur pour contempler l'autel majeur et son retable en bois sculpté. Compléter la visite par une flânerie le long des quais de l'Anille bordés de lavoirs anciens menant aux ruines du château fort et aux vestiges de l'abbaye de Saint-Calais.",
+    link: ""
+  },
+  {
+    id: "vendome_chateau_feodal",
+    name: "Vendôme - Château Féodal des Comtes de Vendôme",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Centre-Val de Loire",
+    department: "Loir-et-Cher (41)",
+    subdiv: "Vendôme",
+    altitude: 118,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Forteresse Médiévale des Comtes & Ducs de Vendôme (XIe-XIVe siècle)",
+    century: "XIe siècle",
+    category: "chateau",
+    counts: {},
+    lat: 47.789267,
+    lng: 1.066059,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMYkermrWaGyCCjYq7Gx8DFavxHZxjidDt-NntPyr0PGwAXEcOw191l5_5W4vn5KXmW8_C1rWKtECHW_VXAWGCZLaq4ZlgopZYWehR7JrXwHPWgpTaOJWcm97HTZ64nMiK0gtZ02h-tdWezVDlT4l39Ag=w2309-h1732-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPE_G-9-J_rWbOW_fx6idxtJX0y1ifOljREGBQPFEOHCw1bpGZP_Onyk-F1TgPMLuUt9TYU8-oadjWyPDenXI3r735E18CLJlxVOc467Lv7-cQctNzlO6o0aohutpfHDzN0uznZV46U3ZmbhmNUKS6Zng=w2309-h1732-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOpZDDotp14PwKysbLv1BESXkbQhlE3GMIeuIHBXb4eZgWxRBmkqKgv-tgTYundexPDmOUdn3J5tLaGyWf4QGKyRutUvNnZdAOP8YahwJb3QuuDb6xtZV5jV0pQpTY8aDNPpNFmQrtsVNzrXlcvm8zS0Q=w2309-h1699-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Campé avec majesté au sommet d'un imposant éperon calcaire qui domine la vallée du Loir et le dédale des toits d'ardoise de la cité, le château féodal de Vendôme fut le cœur névralgique et la vitrine militaire des puissants comtes puis ducs de Vendôme. Bâti initialement au XIe siècle par Geoffroy Martel, comte d'Anjou et de Vendôme, ce formidable bastion d'observation et de défense verrouillait les marches stratégiques entre le Maine, la Touraine et l'Orléanais. Sans cesse renforcée jusqu'au XIVe siècle, la place forte se dota d'une formidable enceinte polygonale scandée de tours flanquantes, d'un donjon quadrangulaire primitif et de la célèbre tour de Poitiers, colosse circulaire en pierre de taille qui commandait l'accès oriental. Témoin des affrontements majeurs de l'histoire de France, le château fut assiégé à de multiples reprises, notamment par Philippe Auguste lors des guerres contre les Plantagenêts. Pendant les guerres de Religion, la ville tenue par la Ligue catholique fut prise d'assaut en novembre 1589 par Henri IV, qui ordonna le démantèlement de la forteresse afin d'anéantir son potentiel militaire. Racheté par la municipalité et transformé au XIXe siècle en un sublime parc romantique à l'anglaise bordé d'arbres séculaires, le site classé monument historique en 1840 conjugue avec émotion la puissance des vestiges féodaux et l'un des panoramas les plus spectaculaires sur la vallée du Loir.",
+    visiter: "Gravir les sentiers ombragés de la rampe du château depuis le centre-ville historique ou accéder directement au sommet par le plateau pour pénétrer dans l'enceinte haute métamorphosée en parc paysager. Longer les imposants pans de courtines médiévales et contempler la silhouette massive de la tour de Poitiers dressant sa maçonnerie de calcaire blanc contre le ciel. Découvrir les vestiges de la collégiale Saint-Georges, ancienne nécropole princière des comtes et des premiers Bourbon-Vendôme où reposèrent notamment Antoine de Bourbon et Jeanne d'Albret, parents d'Henri IV. Rejoindre enfin la terrasse panoramique belvédère pour embrasser une vue imprenable à 180 degrés sur les clochers de l'abbaye de la Trinité, les ponts sur le Loir et les collines verdoyantes du Vendômois.",
+    link: ""
+  },
+  {
+    id: "vendome_porte_saint_georges",
+    name: "Vendôme - Porte Saint-Georges",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Centre-Val de Loire",
+    department: "Loir-et-Cher (41)",
+    subdiv: "Vendôme",
+    altitude: 80,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Porte de Ville Fortifiée & Remaniements Renaissance (XIVe-XVIe siècle)",
+    century: "XIVe siècle",
+    category: "chateau",
+    counts: {},
+    lat: 47.790949,
+    lng: 1.063960,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO0yTOfFdzMdozX5jX3Jo2lK-6M1BXgskeE-nhDikXBvIq3RnH8KNGZlmFO6QcPqnVLr58aK8ldra-raGZDOHPhInGQw_K4t6-YMCTEva4-aEq30-gsOnqi0bqc_HHxqvFbeb9i8uT9uuLGfAlr7-v9jw=w2309-h1732-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Enjambant majestueusement le principal bras du Loir à l'entrée méridionale de la vieille ville, la porte Saint-Georges est l'unique témoin subsistant des quatre portes fortifiées qui contrôlaient jadis l'accès à l'enceinte médiévale de Vendôme. Édifiée au cours du XIVe siècle pour protéger la cité des incursions pendant la guerre de Cent Ans, elle combinait une redoutable efficacité défensive — fossé d'eau vive, herses, pont-levis et archères — avec le prestige représentatif de la seigneurie comtale. Encadrée par deux puissantes tours cylindriques à mâchicoulis et surmontée d'un corps de passage crénelé en pierre de taille de tuffeau, l'ouvrage subit une profonde métamorphose décorative à la Renaissance. À la fin du XVe siècle et au début du XVIe siècle, Marie de Luxembourg, comtesse de Vendôme, fit embellir la façade urbaine en y perçant de larges fenêtres à meneaux moulurées et en y faisant sculpter de remarquables médaillons en bas-relief figurant des armes ducales et des motifs antiquisants. Devenue l'hôtel de ville de Vendôme de 1467 jusqu'à la Révolution, la porte Saint-Georges a conservé une salle haute prestigieuse où se réunissait le corps échevinal. Classée monument historique dès 1862, cette porte-châtelet emblématique constitue l'une des images de carte postale les plus poétiques du Val de Loire avec ses reflets argentés tremblant dans les eaux du Loir.",
+    visiter: "Arriver par le pont Saint-Georges pour apprécier la vue frontale sur l'ouvrage fortifié dont les piles plongent directement dans les eaux calmes du Loir, animées par le passage des canards et les reflets des façades à colombages riveraines. Observer les deux tours jumelles couronnées de toitures coniques d'ardoises et lever les yeux pour admirer les fines sculptures Renaissance et les médaillons armoriés qui adoucissent l'austérité guerrière de la courtine. Franchir la voûte en plein cintre sous l'ancien passage charretier pour pénétrer au cœur des rues piétonnes commerçantes de Vendôme, à quelques pas de l'abbaye de la Trinité et des berges aménagées de la promenade des Petits Prés.",
+    link: ""
+  },
+  {
     id: "coudrecieux_eglise_des_loges",
     name: "Coudrecieux - Église des Loges",
     country: "France",
