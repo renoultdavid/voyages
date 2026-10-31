@@ -1,5 +1,63 @@
 const SPOTS_2 = [
   {
+    id: "coudrecieux_eglise_des_loges",
+    name: "Coudrecieux - Église des Loges",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Coudrecieux",
+    altitude: 120,
+    is_island: false,
+    island_name: "",
+    transport: "route",
+    era_group: "medievale",
+    era_label: "Fondation Romane & Peintures Gothiques (XIe-XVe siècle)",
+    century: "XIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.981946,
+    lng: 0.603123,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMM5HUO9MEafRVP3ONyHYrulLHQaGkIUMJ4mcqOmhNEALmQSRDeUtjX3byFsT3bRWuchZiMTAWSfe522tZ5ZIqrctMr-hHnQYZ_AlskWhENKXJ1eGJLBQiNlKYmt1jGGIgekdwlPiiwLiNDsRpp11DnbA=w1832-h2417-s-no-gm?authuser=0",
+    description: "Nichée dans un écrin de verdure préservé aux confins du Haut-Maine et des forêts du Perche sarthois, l'église Notre-Dame des Loges à Coudrecieux est l'un des sanctuaires ruraux les plus émouvants et les plus précieux de la Sarthe. Fondé au XIe siècle dans une clairière liée aux défrichements forestiers, cet édifice roman à nef unique témoigne avec une remarquable authenticité de la vie spirituelle et communautaire des paysans, charbonniers et bûcherons médiévaux. L'église séduit d'abord par sa silhouette rustique et trapue, bâtie en moellons de grès roussard, de calcaire et de silex, coiffée d'une toiture d'ardoises élancée surmontée d'un délicat clocheton en charpente. L'intérieur révèle un volume d'une grande pureté sous une voûte lambrissée en carène de navire renversée, séparée du sanctuaire par un puissant mur-diaphragme percé d'un arc triomphal en plein cintre. Mais le joyau absolu des Loges réside au-dessus de l'espace sacré : un exceptionnel concert céleste peint à la détrempe à la fin du XVe siècle sur le lambris du chœur, où douze anges musiciens et chanteurs déploient avec une grâce naïve l'instrumentarium de la fin du Moyen Âge, dans le sillage des célèbres anges musiciens de la cathédrale du Mans. Magnifié au XVIIe siècle par de remarquables retables de tuffeau et des statues de dévotion mariale en terre cuite mancelle, ce sanctuaire classé Monument Historique en 1952 a miraculeusement traversé les siècles dans son intégrité d'origine.",
+    visiter: "Gagner le paisible vallon des Loges au départ de Coudrecieux pour découvrir le sanctuaire blotti dans son ancien cimetière herbeux ceint de murets de pierre. Après avoir admiré l'appareil de grès roussard des murs romans et la flèche d'ardoises du clocheton, pénétrer dans la nef pour apprécier la volumétrie chaleureuse de la voûte de bois en berceau brisé. Franchir du regard l'arc triomphal flanqué de ses deux retables polychromes du XVIIe siècle, avant de lever les yeux vers la voûte du chœur pour contempler l'extraordinaire symphonie céleste des douze anges musiciens du XVe siècle : détailler à la lumière les ailes déployées, les phylactères hagiographiques et les instruments médiévaux peints avec une minutie fascinante (luth, vièle à archet, chalemies, trompe et tambour). Achever la visite par l'examen du retable du maître-autel de 1669 et de la vénérable statue de Notre-Dame des Loges, protectrice séculaire des lieux.",
+    link: "",
+    sections: [
+      {
+        title: "Architecture extérieure, maçonneries du XIe siècle et clocheton",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMM5HUO9MEafRVP3ONyHYrulLHQaGkIUMJ4mcqOmhNEALmQSRDeUtjX3byFsT3bRWuchZiMTAWSfe522tZ5ZIqrctMr-hHnQYZ_AlskWhENKXJ1eGJLBQiNlKYmt1jGGIgekdwlPiiwLiNDsRpp11DnbA=w1832-h2417-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMwRbkCkaRGIzdyVdVo1yj3yw9ehhimSoO5pDoHMQZlMqV2w1B-DRLoB5--S6H-jWlZ0CUDkI5oa2mkjGVdlaZNTgajrUuetVtICjcgPmM_ctd_H9SjHPwLTnPAwn71oNxSasFxJdmgQTb_yGCD_qdrVw=w1813-h2417-s-no-gm?authuser=0"
+        ],
+        text: "L'extérieur de l'édifice porte la marque directe de cette fondation du XIe siècle. La construction s'appuie sur des maçonneries épaisses et massives constituées de moellons de grès roussard, de calcaire local et de silex liés au mortier de chaux, caractéristiques des méthodes d'appareillage du haut Moyen Âge dans le Maine. Les murs gouttereaux, dépourvus de décor sculpté monumental, sont percés d'étroites baies ébrasées en plein cintre qui rappellent la fonction protectrice et la sobriété des sanctuaires de l'époque romane primitive. La toiture à deux versants, fortement inclinée pour résister aux intempéries et couverte d'ardoises, enveloppe une silhouette trapue entourée par son ancien cimetière herbeux.\n\nLe clocher, posé en bâtière ou en flèche sur la croupe de la toiture occidentale, prend la forme d'un clocheton de charpente couvert d'ardoises. Émergeant au-dessus des frondaisons du vallon, il abrite la chambre de la cloche protégée par des abat-sons en bois, sommé d'une flèche polygonale avec croix en fer forgé et coq de girouette. Ce campanile rustique servait à rythmer la vie liturgique des bûcherons, paysans et pèlerins qui convergeaient vers ce site réputé pour ses vertus protectrices et ses rogations."
+      },
+      {
+        title: "Vaisseau de la nef, voûte en carène de navire et arc triomphal",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMFK0bboDWvB86gAhuXrb-f-R5dAn7nlRtMoJAecTJRKT2tR1a3EVhX3dnyEs5Ww1_dxiY7NVYgPOTo1tRNn3OWQviReHE52juZGMns6aAwuEQj9hGDRudIq-h5f0mUuXbjPbBSlxEHxcFUFZD-ZX1O6Q=w2309-h1732-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM5Fn90VNk2ifuYikLfLYXI77PnXDDYRPiAOnH6EVr5sgrEcpjWID1ZBGIMbun6OM8ZB8VfcC__-rBbzJOafk2c8ZFrx4uYmMnmlZL4ADqfBA4vlzQ-twvrtQeOU_PWlihihdpW4P5ra8-koBhBVgEdfQ=w2309-h1732-s-no-gm?authuser=0"
+        ],
+        text: "Sa nef unique, de plan rectangulaire simple et dépourvue de transept d'origine, séduit d'emblée par la sobriété de ses volumes et l'atmosphère recueillie qui émane de ses murs épais en moellons enduits à la chaux claire. L'élévation latérale gauche porte la trace lisible de l'évolution architecturale du sanctuaire : au centre subsiste une étroite baie romane du XIe siècle, haut perchée et fortement ébrasée à la manière d'une meurtrière, encadrée par deux ouvertures en plein cintre nettement plus amples, percées au XVIe siècle afin d'accroître l'éclairement naturel du vaisseau. Sur la paroi opposée, au sud, une petite porte latérale basse à encadrement de pierre rappelle l'échelle intime de cette architecture paroissiale primitive.\n\nLe couvrement de la nef oppose la chaleur du bois sombre à la blancheur minérale des maçonneries. L'espace est coiffé d'une belle voûte lambrissée en carène de navire renversée, reprise au XVIIe siècle vers 1634 puis restaurée au début du XXe siècle. Sa structure charpentée demeure pleinement lisible grâce aux entraits horizontaux reposant sur les sablières moulurées et reliés au faîtage par des poinçons verticaux qui rythment la perspective aérienne. À l'orient, la nef vient buter contre un puissant mur-diaphragme dont la maçonnerie enduite s'élève jusque dans le cintre de la charpente, au-dessus d'un entrait. Ce mur est percé d'un large arc triomphal en plein cintre qui marque avec netteté le seuil liturgique entre l'espace des fidèles, garni de simples bancs de bois de part et d'autre de l'allée centrale pavée de terre cuite, et le sanctuaire proprement dit.\n\nCette paroi orientale sert d'écrin à un remarquable ensemble mobilier classé des XVIIe et XVIIIe siècles qui théâtralise le passage vers le chœur. De part et d'autre de l'arc triomphal se dressent deux autels-retables secondaires polychromes symétriques aux tonalités bleu-vert marbrées, richement composés de colonnes, d'ailerons sculptés et de frontons cintrés encadrant des niches à statues en terre cuite et bois polychrome, tandis qu'un grand Christ en croix en bois sculpté domine le mur sud de la nef. Dans l'axe de l'arc triomphal, le regard est aspiré par la clarté dorée du chœur où se dévoilent le retable architecturé du maître-autel daté de 1669, surmonté d'une rose polylobée, ainsi que l'amorce de la célèbre voûte lambrissée peinte à la fin du XVe siècle d'un concert céleste de douze anges musiciens."
+      },
+      {
+        title: "Le concert céleste des douze anges musiciens (fin XVe siècle)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMMI1vjSB5WDECEa_QSM_-O8AslSXsxjSYGCYmxPwVruNmROqPVzJXwhcTsN4uyNPQnzjy0gMqXUBIFnXQd_W7O-NKx61QdSTYGA8cZykIZfzA88tEMqCP794L7LJJXSmYEZEZwM-uP9hBfgMhhKEpDdA=w2309-h1732-s-no-gm?authuser=0"
+        ],
+        text: "Ce concert céleste de douze anges musiciens et chanteurs constitue l'un des témoignages les plus attachants de la peinture murale de la fin du Moyen Âge dans l'ancienne province du Maine. Exécuté à l'extrême fin du XVe siècle, probablement entre 1485 et 1500, cet ensemble s'inscrit dans le sillage artistique et spirituel de l'illustre chœur angélique peint un siècle plus tôt sur les voûtes de la chapelle de la Vierge à la cathédrale Saint-Julien du Mans, tout en adoptant une écriture graphique plus spontanée, propre aux ateliers ruraux de la fin de l'époque gothique. Miraculeusement préservé malgré l'abandon prolongé de l'édifice après sa vente comme bien national sous la Révolution, le décor se déploie avec une fraîcheur remarquable sur le badigeon clair de la voûte.\n\nRéalisée selon une palette sobre et chaleureuse dominée par l'ocre jaune, l'ocre rouge, la terre de Sienne et le noir de carbone sur fond de chaux blanche, la composition répartit les figures ailées sur les deux versants de la voûte selon des orientations opposées afin d'envelopper le regard des fidèles réunis devant l'autel. Tous les anges, vêtus de longues aubes liturgiques blanches aux plis souples rehaussées d'une encolure rouge, portent un nimbe d'ocre cerné d'un trait noir et déploient de grandes ailes effilées aux teintes flamboyantes. Leur dessin linéaire, ferme et expressif, privilégie la lisibilité des silhouettes et des gestes musicaux dans la pénombre du sanctuaire.\n\nSur le plan iconographique et organologique, l'ensemble alterne des anges chantant, qui tendent à pleines mains de larges phylactères sinueux inscrits en caractères gothiques reprenant les hymnes de la liturgie céleste, et des anges instrumentistes formant un véritable orchestre médiéval. On y reconnaît avec précision les grandes familles de l'instrumentarium gothique tardif : les cordes pincées et frottées, illustrées par le luth à caisse piriforme et chevillier coudé ainsi que par la vièle à archet appuyée contre l'épaule ; les instruments à vent, tels que les chalemies, flûtes et trompes droites ; et enfin les percussions, représentées par un grand tambour suspendu sur le flanc et frappé d'une mailloche, détail d'une grande rareté iconographique dans les concerts angéliques médiévaux. Au-dessus de l'espace eucharistique, cette symphonie peinte donne corps à la théologie médiévale de la musique sacrée, conçue comme le reflet terrestre de l'harmonie éternelle du Paradis promise aux élus."
+      },
+      {
+        title: "Le retable du maître-autel et le sanctuaire de Notre-Dame des Loges",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPNWrZt4RkKT-_lWtfeOk5DPcX7udB_CUU2eyCghrZIP-ggqBfqj7UgQrWI-8_MUmIe2GCO2sJBcz50H-_52qF9B5LK-PSRnygRzOSL5Bwg63yAw2ZyHi9XBCPr7vSIFtJ7iFudgNdFhiYmwrOerBP3sw=w1813-h2417-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNFmX1nDKf5As97gmnqOaW_2Yx_yeTjOaah9JRz9UQFSHBs-DGFRnuwMwAAfwL-XiyjCWz4_e5rrYF-wPefJAumJOtAQ7qI7eefuMdms9pGw95ozO4LTozkN-n0qMLkijdMaIFfGyH_tKj5peJ-n8seWA=w1813-h2417-s-no-gm?authuser=0"
+        ],
+        text: "Le chœur est magnifié par son retable classique en tuffeau et plâtre façonné, enrichi d'éléments polychromes et complété par la statuaire en terre cuite d'inspiration mancelle du XVIIe siècle. Ce retable ordonnancé s'articule autour de colonnes, d'ailerons et d'un fronton encadrant la niche principale abritant la statue de Notre-Dame des Loges, objet de la dévotion millénaire. Les figures sculptées, dont les visages empreints de ferveur et les drapés rythmés témoignent de l'art religieux de la Contre-Réforme, transfigurent l'abside romane en un retable-décor où s'exprime la continuité du culte marial depuis le Moyen Âge central jusqu'à l'époque classique."
+      }
+    ]
+  },
+  {
     id: "bouloire_chateau_de_bouloire",
     name: "Bouloire - Château de Bouloire",
     country: "France",
