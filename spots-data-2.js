@@ -1,5 +1,71 @@
 const SPOTS_2 = [
- {
+  {
+    id: "bouloire_chateau_de_bouloire",
+    name: "Bouloire - Château de Bouloire",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Bouloire",
+    altitude: 122,
+    is_island: false,
+    island_name: "",
+    transport: "route",
+    era_group: "medievale",
+    era_label: "Fin du Moyen Âge & Transition Renaissance (XVe siècle)",
+    century: "XVe siècle",
+    category: "chateau",
+    counts: {},
+    lat: 47.973047,
+    lng: 0.555926,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP1se-Vwyz7D5GLB9A_9fmeWU77wEKywGC3dsTUQGLik632SN-VtvIIJKWe0gtVRQTL3syGR2vArQN--Vy_7T2_QXYI67o2peBJeoSsay4mJHOi4kll8mecAyb8pkOeTAVtdUZpWRUSohNjewEpm1EsVA=w1813-h2417-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNSpYRZ4-jhI3wwoyE3XD1_a1KWU9KtOyvBx3uJ8XBcSH2-S2EclrYCZTjLk-a1V0WygE43PiJug-6u7sW1jME2ZEZr3NSsSjnwThXJMtjPpEYdoBhKJuzS7nMPg68x9KpZB4WfYyzlDwDLqsMLenE9CQ=w1813-h2417-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressé au cœur du bourg historique de Bouloire en bordure immédiate de l'église paroissiale, le château de Bouloire constitue un remarquable témoin de la transition architecturale entre la forteresse médiévale et la demeure seigneuriale de la première Renaissance dans le Perche sarthois. Édifié à partir de 1466-1467 par François de Lesparvez avec l'autorisation expresse du roi Louis XI, sur les vestiges d'une ancienne place forte dévastée lors de la guerre de Cent Ans, l'édifice se distingue par son étonnant « double visage ». Côté ville, sa façade principale adopte le confort civil et la modernité résidentielle avec ses grandes croisées moulurées en tuffeau et une élégante tour d'escalier polygonale hors-œuvre, rehaussée d'une tourelle en encorbellement et ornée d'un portail flamboyant. À l'arrière, adossé à l'ancienne levée de terre et aux douves primitives, le logis conserve en revanche toute la rigueur défensive d'un rempart médiéval, scandé d'un chemin de ronde sous toiture et de rares ouvertures en demi-croisées. Racheté par la municipalité au XIXe siècle et inscrit au titre des monuments historiques en 1926, ce fier corps de logis en grès roussard et calcaire incarne avec noblesse le renouveau castral du Maine à l'issue des conflits franco-anglais.",
+    visiter: "La découverte s'amorce depuis la place du Château et le parvis de l'église, offrant un point de vue idéal sur la verticalité élancée de la tour d'escalier en vis et les fines sculptures gothiques flamboyantes qui coiffent le portail d'entrée. En faisant le tour du monument par les venelles et les abords des anciens fossés, le visiteur saisit le saisissant contraste entre l'ouverture lumineuse de la façade d'apparat et la silhouette fortifiée et aveugle de la courtine arrière en pierre roussarde. Les promeneurs peuvent apprécier la cohérence urbaine et monumentale formée par le château et le chevet de l'église Saint-Georges voisine, avant de poursuivre leur promenade patrimoniale à travers les ruelles calmes de Bouloire et les paysages bocagers environnants du Haut-Maine.",
+    link: ""
+  },
+  {
+    id: "bouloire_eglise_saint_georges",
+    name: "Bouloire - Église Saint-Georges-et-Saint-Matthieu",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Bouloire",
+    altitude: 122,
+    is_island: false,
+    island_name: "",
+    transport: "route",
+    era_group: "medievale",
+    era_label: "Fondation Romane & Reconstruction Classique (XIe-XVIIe siècle)",
+    century: "XVIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.972775,
+    lng: 0.555960,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOPtfXi5VJrfwHa10iZsgmcjKaF1DFK4vLKoqLnehIoaYr6087Z_IMmHQilv46DyHB-hLf08U9Eh7HBgdjoUPmDFiKNz9CCA7ejVXXwYTtveYFUY6XjL5mxzlhZCk7h2fuq3LAmp7ZsaSgj-hznVSnLtw=w1813-h2417-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN63wWy1kmLgwCSa9YOGhPP_cds5tmtRiJTD0SlR8tvu2-bC_nGNssI3o5h-g1Sf32nQJPUwPQrMT5zsQ6rKUlQh7oMbOUz7ov4HFjzVpQHbGtHkg19FUzbr7W21BDvRp2HTUoAvvANAy3E_r3G0RdLzQ=w1784-h2417-s-no-gm?authuser=0",
+        caption: "Cette grande verrière hagiographique éclaire le bras sud du transept de l'église Saint-Georges-et-Saint-Matthieu de Bouloire, dans la Sarthe. Dévasté par le grand incendie qui ravagea le bourg le 31 août 1680, l'édifice d'origine romane fut relevé en quatre ans grâce au mécénat d'Henri Testu, baron de Bouloire, avant de rouvrir au culte en mai 1684. Lors des campagnes d'embellissement menées à la fin du XIXe siècle, la baie en arc brisé fut dotée de cette composition monumentale à deux lancettes surmontées d'un oculus de tympan, caractéristique du renouveau de l'art du vitrail dans le Maine.\\n\\nLe programme iconographique s'organise sur trois registres superposés réunissant six figures de saints protecteurs et modèles de charité chrétienne, placés sous le regard de la Vierge Marie représentée en prière dans le médaillon circulaire sommital. Au registre supérieur se font face deux figures pastorales et charitables vêtues de bure brune : à gauche, un saint berger appuyé sur sa houlette au milieu de ses brebis, et à droite, une sainte portant dans le pli de son tablier blanc l'aumône du miracle des roses, à l'image de sainte Élisabeth de Hongrie ou de sainte Germaine de Pibrac. Le registre médian met à l'honneur l'autorité épiscopale à travers deux saints évêques mitrés et crossés, drapés de chapes rouges : celui de gauche se tient debout en méditation, tandis que celui de droite bénit un souverain couronné agenouillé à ses pieds, au-dessus d'un petit écu armorié d'azur à la fasce d'or accompagnée de croisettes qui rappelle la mémoire des donateurs. Le registre inférieur associe enfin deux grands intercesseurs traditionnellement invoqués par les paroisses rurales contre les épidémies et les périls : à gauche, saint Louis, roi de France, revêtu du manteau vermeil semé de croix et de fleurs de lys, tenant la main de justice et la couronne d'épines ; à droite, saint Sébastien, attaché au tronc d'un arbre et le corps transpercé de flèches, dont le culte est anciennement implanté à Bouloire où une chapelle lui est également dédiée.\\n\\nSur le plan stylistique, l'œuvre illustre le savoir-faire des ateliers de peintres-verriers manceaux de la seconde moitié du XIXe siècle, qui conjuguent ici la clarté narrative de la peinture sur verre et la structure décorative héritée du Moyen Âge et de la Renaissance. Chaque scène s'inscrit sous une arcature architecturée blanche et dorée à colonnes baguées et écoinçons ornés de coquilles, encadrée d'un filet de perles blanches sur fond rouge. Les personnages se détachent avec netteté sur un fond losangé de verre bleu cobalt intense qui unifie l'ensemble de la baie et exalte par contraste l'éclat des rouges profonds, des ors au jaune d'argent et le modelé délicat des carnations travaillées à la grisaille."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMeM-dWkVMza76wT9Vb1gebW-x6e08AcbJBXayNk-M5FEyBbZmABLgBRuMwVg9iENe12jkt8uhoB2CXRkA3Qs6-6QaqVOMDfMBIY0rTJL-uTsbiwgNV4tYwcX7dbOiOOsSJwNE3u2dQS6uG3-HL0SmXrQ=w2309-h1732-s-no-gm?authuser=0",
+        caption: "La nef de l'Église Saint-Georges de Bouloire, placée sous le double vocable de saint Georges et de saint Matthieu dans la Sarthe, offre le témoignage exemplaire d'un édifice roman réinventé à l'époque moderne. Si le vaisseau unique conserve l'implantation, les volumes simples et la maçonnerie épaisse de sa fondation des XIe et XIIe siècles, sa physionomie intérieure actuelle résulte principalement de la grande campagne de reconstruction menée à la fin du XVIIe siècle. Ravagée le 31 août 1680 par un violent incendie qui détruisit une partie du bourg de Bouloire, l'église fut relevée grâce au mécénat du seigneur local Henry Testu et rendue au culte le 31 mai 1684, inscrivant l'esprit de la Contre-Réforme dans une enveloppe médiévale préservée.\\n\\nPavage traditionnel de tomettes en terre cuite et murs gouttereaux enduits à la chaux dans une tonalité ocre jaune composent un espace lumineux et chaleureux, scandé de hautes baies en plein cintre aux ébrasements appareillés en pierre blanche et ponctué de croix de consécration peintes en rouge. Le vaisseau est entièrement couvert d'une vaste voûte lambrissée en carène de navire renversée, dont le voligeage longitudinal apparent est raidi à intervalles réguliers par des entraits et des poinçons de charpente moulurés. Sur les parois latérales de la nef, au-dessus des stations du chemin de croix, deux bustes sculptés posés sur des consoles sombres se répondent d'un mur à l'autre, figurant le Christ barbu au nord et la Vierge en prière les mains jointes au sud. À l'entrée de la croisée du transept, une poutre de gloire du XVIIe siècle marque le seuil symbolique entre l'assemblée des fidèles et l'espace sacré du sanctuaire, portant un Calvaire où le Christ en croix est entouré des statues polychromes de la Vierge et de saint Jean.\\n\\nAu-delà du transept en croix latine, éclairé au nord par une baie en plein cintre et encadré au sud par l'architecture d'un retable latéral classique, la perspective axiale s'achève dans l'abside semi-circulaire coiffée d'un cul-de-four intégralement lambrissé qui prolonge l'unité boisée du couvrement. Derrière la table de communion ajourée et le maître-autel, le mur tournant du chœur s'organise autour d'une baie axiale ornée d'un vitrail historié flanquée de deux niches cintrées aveugles. Quatre grandes statues du XVIIe siècle en terre cuite, production emblématique des ateliers sculpturaux de la Sarthe à l'âge classique représentant saint Sévère, saint Georges, saint Matthieu et sainte Barbe, y prennent place sur des culots sculptés pour couronner le programme dévotionnel du sanctuaire."
+      }
+    ],
+    description: "Placée sous le double patronage de saint Georges et de saint Matthieu, l'église de Bouloire offre le témoignage émouvant d'un sanctuaire d'origine romane réinventé avec faste à l'âge classique. Fondé aux XIe et XIIe siècles sur un plan en croix latine bâti en grès roussard local, l'édifice fut presque anéanti le 31 août 1680 par le violent incendie qui ravagea une grande partie du bourg. Grâce au mécénat et à la piété d'Henri Testu, seigneur et baron de Bouloire, l'église fut entièrement reconstruite et rendue au culte en mai 1684. L'espace intérieur séduit par son ample vaisseau unique couvert d'une remarquable voûte lambrissée en carène de navire renversée, rythmée par ses entraits et poinçons sculptés. Le sanctuaire abrite un précieux patrimoine mobilier du XVIIe siècle, notamment sa poutre de gloire portant le Calvaire, de somptueux retables classiques dans le transept, ainsi qu'un ensemble insigne de grandes statues de saints en terre cuite sarthoise. Les verrières hagiographiques monumentales créées à la fin du XIXe siècle par les peintres-verriers manceaux parachèvent l'harmonie et l'élévation spirituelle de ce haut lieu patrimonial du Perche sarthois.",
+    visiter: "La visite s'amorce par la contemplation du clocher-porche et des maçonneries en grès roussard qui côtoient le parc du château seigneurial. En franchissant le portail, le regard est immédiatement captivé par la chaleur de la voûte de bois en berceau brisé et par la perspective axiale guidant vers la croisée du transept, marquée par l'émouvante poutre de gloire du XVIIe siècle portant le Christ en croix entre la Vierge et saint Jean. Il convient d'observer attentivement, dans les bras du transept et le chœur lambrissé en cul-de-four, les retables baroques ornés de tableaux anciens (l'Assomption et saint Michel terrassant le dragon) ainsi que les remarquables statues en terre cuite figurant saint Georges, saint Matthieu, saint Sévère et sainte Barbe. Dans le bras sud, la grande verrière du XIXe siècle mérite une halte prolongée pour admirer la finesse de ses six figures de saints sous arcatures et l'éclat de son bleu cobalt. La découverte se conclut en appréciant l'orgue de tribune de 1895 avant de regagner la place ombragée du bourg.",
+    link: ""
+  },
+  {
     id: "douarnenez_eglise_saint_jacques_pouldavid",
     name: "Douarnenez - Église Saint-Jacques de Pouldavid",
     country: "France",
