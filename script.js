@@ -67,7 +67,7 @@ let activeTileLayerKey = 'satellite';
 let isAutoRotating = false;
 let currentSelectedSpot = null;
 let isTransitioningMode = false;
-let activeCursorCoords = { lat: 27.2579, lng: 33.8116 };
+let activeCursorCoords = null;
 let isFiltersPanelOpen = true;
 let clusterDebounceTimeout = null;
 let isCountriesMenuOpen = false;
@@ -174,7 +174,9 @@ function openIslandSummaryCard(islandCluster) {
   card.classList.remove('hidden');
 
   if (currentMode === 'globe' && myGlobe) {
-    myGlobe.pointOfView({ lat: islandCluster.lat, lng: islandCluster.lng, altitude: 0.5 }, 1000);
+    isTransitioningMode = true;
+    myGlobe.pointOfView({ lat: islandCluster.lat, lng: islandCluster.lng, altitude: 0.65 }, 1000);
+    setTimeout(() => { isTransitioningMode = false; }, 1100);
   } else if (currentMode === 'map' && myLeafletMap) {
     myLeafletMap.flyTo([islandCluster.lat, islandCluster.lng], 9, { duration: 1.0 });
   }
@@ -414,7 +416,9 @@ function openUnescoSummaryCard(cluster) {
   card.classList.remove('hidden');
 
   if (currentMode === 'globe' && myGlobe) {
-    myGlobe.pointOfView({ lat: cluster.lat, lng: cluster.lng, altitude: 0.4 }, 1000);
+    isTransitioningMode = true;
+    myGlobe.pointOfView({ lat: cluster.lat, lng: cluster.lng, altitude: 0.65 }, 1000);
+    setTimeout(() => { isTransitioningMode = false; }, 1100);
   } else if (currentMode === 'map' && myLeafletMap) {
     myLeafletMap.flyTo([cluster.lat, cluster.lng], 11, { duration: 1.0 });
   }
@@ -1288,10 +1292,10 @@ function normalizeLongitude(lng) {
 }
 
 function getExactGlobeCenterCoords() {
-  if (!myGlobe) return { lat: 27.2579, lng: 33.8116 };
   if (currentSelectedSpot) {
     return { lat: currentSelectedSpot.lat, lng: currentSelectedSpot.lng };
   }
+  if (!myGlobe) return (typeof HOME_BASE !== 'undefined' ? { lat: HOME_BASE.lat, lng: HOME_BASE.lng } : { lat: 46.603354, lng: 1.888334 });
   const container = document.getElementById('globe-container');
   const width = container ? container.clientWidth : window.innerWidth;
   const height = container ? container.clientHeight : window.innerHeight;
@@ -1324,8 +1328,12 @@ function checkContinuousGlobeZoom() {
   const pov = myGlobe.pointOfView();
   if (pov && typeof pov.altitude === 'number' && pov.altitude <= 0.55) {
     isTransitioningMode = true;
-    const target = activeCursorCoords || getExactGlobeCenterCoords();
-    setViewingMode('map', target, 6);
+    const target = (currentSelectedSpot ? { lat: currentSelectedSpot.lat, lng: currentSelectedSpot.lng } : null)
+      || getExactGlobeCenterCoords()
+      || activeCursorCoords
+      || (typeof HOME_BASE !== 'undefined' ? { lat: HOME_BASE.lat, lng: HOME_BASE.lng } : { lat: 46.603354, lng: 1.888334 });
+    const targetZoom = currentSelectedSpot ? 13 : 6;
+    setViewingMode('map', target, targetZoom);
     setTimeout(() => { isTransitioningMode = false; }, 800);
   }
 }
@@ -1441,7 +1449,9 @@ function initGlobe() {
         `;
         anchor.onclick = (e) => {
           e.stopPropagation();
-          myGlobe.pointOfView({ lat: d.lat, lng: d.lng, altitude: 0.35 }, 900);
+          isTransitioningMode = true;
+          myGlobe.pointOfView({ lat: d.lat, lng: d.lng, altitude: 0.65 }, 900);
+          setTimeout(() => { isTransitioningMode = false; }, 1000);
         };
         return anchor;
       }
@@ -1504,6 +1514,10 @@ function initGlobe() {
         activeCursorCoords = { lat: coords.lat, lng: normalizeLongitude(coords.lng) };
       }
     }
+  });
+
+  container.addEventListener('pointerleave', () => {
+    activeCursorCoords = null;
   });
 
   controls.addEventListener('change', () => {
@@ -1687,9 +1701,12 @@ function setViewingMode(mode, targetCoords = null, targetZoom = null) {
   const btnRotate = document.getElementById('btn-toggle-rotate');
 
   if (mode === 'map') {
-    let lat = targetCoords ? targetCoords.lat : (activeCursorCoords ? activeCursorCoords.lat : 27.2579);
-    let lng = targetCoords ? normalizeLongitude(targetCoords.lng) : (activeCursorCoords ? activeCursorCoords.lng : 33.8116);
-    let zoom = targetZoom || 9;
+    const fallbackMap = currentSelectedSpot 
+      ? { lat: currentSelectedSpot.lat, lng: currentSelectedSpot.lng }
+      : (activeCursorCoords || (typeof HOME_BASE !== 'undefined' ? { lat: HOME_BASE.lat, lng: HOME_BASE.lng } : { lat: 46.603354, lng: 1.888334 }));
+    let lat = targetCoords ? targetCoords.lat : fallbackMap.lat;
+    let lng = targetCoords ? normalizeLongitude(targetCoords.lng) : normalizeLongitude(fallbackMap.lng);
+    let zoom = targetZoom || (currentSelectedSpot ? 13 : 9);
 
     globeView.style.opacity = '0';
     globeView.style.pointerEvents = 'none';
@@ -1716,8 +1733,11 @@ function setViewingMode(mode, targetCoords = null, targetZoom = null) {
       }, 60);
     }
   } else {
-    let lat = targetCoords ? targetCoords.lat : 27.2579;
-    let lng = targetCoords ? normalizeLongitude(targetCoords.lng) : 33.8116;
+    const fallbackGlobe = currentSelectedSpot 
+      ? { lat: currentSelectedSpot.lat, lng: currentSelectedSpot.lng }
+      : (typeof HOME_BASE !== 'undefined' ? { lat: HOME_BASE.lat, lng: HOME_BASE.lng } : { lat: 46.603354, lng: 1.888334 });
+    let lat = targetCoords ? targetCoords.lat : fallbackGlobe.lat;
+    let lng = targetCoords ? normalizeLongitude(targetCoords.lng) : normalizeLongitude(fallbackGlobe.lng);
     let altitude = targetCoords && targetCoords.altitude ? targetCoords.altitude : 2.1;
 
     mapView.style.opacity = '0';
@@ -1756,6 +1776,7 @@ function triggerManualMapSwitch() {
 
 function selectSpot(spot) {
   currentSelectedSpot = spot;
+  activeCursorCoords = { lat: spot.lat, lng: normalizeLongitude(spot.lng) };
   const card = document.getElementById('destination-card');
   const flagEl = document.getElementById('card-flag');
   const regionEl = document.getElementById('card-country-region');
@@ -1822,7 +1843,11 @@ function selectSpot(spot) {
   card.classList.remove('hidden');
 
   if (currentMode === 'globe' && myGlobe) {
-    myGlobe.pointOfView({ lat: spot.lat, lng: spot.lng, altitude: 0.35 }, 1000);
+    isTransitioningMode = true;
+    myGlobe.pointOfView({ lat: spot.lat, lng: spot.lng, altitude: 0.65 }, 1000);
+    setTimeout(() => {
+      isTransitioningMode = false;
+    }, 1100);
   } else if (currentMode === 'map' && myLeafletMap) {
     const currentZoom = myLeafletMap.getZoom();
     const targetZoom = Math.max(currentZoom, 13);
@@ -1843,8 +1868,11 @@ function toggleCurrentSpotViewMode() {
       triggerManualMapSwitch();
     }
   } else {
+    const fallbackGlobe = currentSelectedSpot 
+      ? { lat: currentSelectedSpot.lat, lng: currentSelectedSpot.lng, altitude: 0.65 }
+      : (typeof HOME_BASE !== 'undefined' ? { lat: HOME_BASE.lat, lng: HOME_BASE.lng, altitude: 2.1 } : { lat: 46.603354, lng: 1.888334, altitude: 2.1 });
     closeSpotCard();
-    setViewingMode('globe', { lat: 27.2579, lng: 33.8116, altitude: 2.1 });
+    setViewingMode('globe', fallbackGlobe);
   }
 }
 
@@ -2135,8 +2163,12 @@ function zoomMapIn() {
     const pov = myGlobe.pointOfView();
     const nextAlt = pov.altitude - 0.35;
     if (nextAlt <= 0.60) {
-      const target = activeCursorCoords || getExactGlobeCenterCoords();
-      setViewingMode('map', target, 6);
+      const target = (currentSelectedSpot ? { lat: currentSelectedSpot.lat, lng: currentSelectedSpot.lng } : null)
+        || getExactGlobeCenterCoords()
+        || activeCursorCoords
+        || (typeof HOME_BASE !== 'undefined' ? { lat: HOME_BASE.lat, lng: HOME_BASE.lng } : { lat: 46.603354, lng: 1.888334 });
+      const targetZoom = currentSelectedSpot ? 13 : 6;
+      setViewingMode('map', target, targetZoom);
     } else {
       myGlobe.pointOfView({ altitude: nextAlt }, 250);
     }
@@ -3048,7 +3080,9 @@ function updateLiveRadarPanel() {
 
       item.onclick = () => {
         if (currentMode === 'globe' && myGlobe) {
-          myGlobe.pointOfView({ lat: avgLat, lng: avgLng, altitude: isCloseZoom ? 0.25 : 0.45 }, 900);
+          isTransitioningMode = true;
+          myGlobe.pointOfView({ lat: avgLat, lng: avgLng, altitude: isCloseZoom ? 0.60 : 0.75 }, 900);
+          setTimeout(() => { isTransitioningMode = false; }, 1000);
         } else if (myLeafletMap) {
           myLeafletMap.flyTo([avgLat, avgLng], isCloseZoom ? 11 : 9, { duration: 0.8 });
         }
