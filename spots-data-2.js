@@ -1,5 +1,82 @@
 const SPOTS_2 = [
   {
+    id: "vendome_abbatiale_de_la_trinite",
+    name: "Vendôme - Abbatiale de la Trinité",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Centre-Val de Loire",
+    department: "Loir-et-Cher (41)",
+    subdiv: "Vendôme",
+    altitude: 80,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Fondation Bénédictine de 1032, Clocher Roman & Façade Flamboyante (XIe-XVIe siècle)",
+    century: "XIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.791251,
+    lng: 1.068799,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO1juElrM-S5DaiBT22fwvsDmH10ltx4B2CP0QksI3qqrunS_l_77ume1Q2pOabRyfShy1vhWGbV67GwbgJx-Dgwc8TsdSFF7_kFyHa83yxFTesCAkMt6UA0Ejznagin_0ojsgvjZoY-dm0t1BtsZheJA=w1813-h2417-s-no-gm?authuser=0",
+    description: "Joyau absolu du patrimoine ligérien et sommet de l'art religieux en France, l'abbaye de la Trinité de Vendôme s'impose comme l'un des ensembles monastiques les plus insignes du Moyen Âge occidental. Fondée le 31 mai 1032 par Geoffroy Martel, comte de Vendôme et futur comte d'Anjou, et son épouse Agnès de Bourgogne à la suite de la vision prophétique de trois étoiles tombant dans une fontaine, l'abbaye bénédictine fut directement rattachée au Saint-Siège par le pape Alexandre II, s'affranchissant de toute juridiction épiscopale ou seigneuriale. Dépositaire de la sainte Larme du Christ — relique majeure apportée de Constantinople qui suscita un pèlerinage médiéval d'un rayonnement immense —, la Trinité devint l'un des établissements monastiques les plus opulents et influents du royaume de France. L'édifice actuel offre une saisissante leçon d'architecture sacrée embrassant six siècles de création : il conjugue un transept d'origine romane, un spectaculaire clocher-campanile du XIIe siècle haut de quatre-vingts mètres — dont la flèche d'écailles servit de prototype direct au clocher vieux de Chartres —, un chœur gothique rayonnant baigné de verrières étincelantes et une nef flamboyante d'une pureté aérienne. Ce chef-d'œuvre culmine dans la façade occidentale sculptée entre 1500 et 1507 par Jean de Beauce (le futur bâtisseur du clocher neuf de Chartres), véritable dentelle de tuffeau blanc où le gothique flamboyant déploie une féerie sculptée de voussures, de gâbles à claire-voie et de rinceaux végétaux sans équivalent. Protégée au titre des monuments historiques dès la première liste de 1840 par Prosper Mérimée, l'abbatiale conserve également une rarissime verrière romane du milieu du XIIe siècle figurant la Vierge en majesté ainsi qu'un cloître classique rebâti par la congrégation de Saint-Maur.",
+    visiter: "S'arrêter au centre de la vaste place Saint-Martin et du parvis de l'abbaye pour mesurer le saisissant dialogue architectural entre l'austère puissance minérale du clocher roman du XIIe siècle et la profusion ornementale vertigineuse de la façade flamboyante sculptée par Jean de Beauce. Pénétrer dans le sanctuaire pour apprécier l'élévation lumineuse de la nef en tuffeau blond, ses grandes arcades prismatiques et sa voûte d'ogives élancée scandée par le dallage en damier. Avancer vers le chœur pour admirer les stalles Renaissance aux miséricordes sculptées et lever les yeux vers les verrières rayonnantes du XIVe siècle. Ne pas manquer, dans une chapelle du déambulatoire, la célèbre « Vierge de Vendôme » du XIIe siècle au bleu de cobalt étincelant, avant de ressortir par la salle capitulaire romane aux remarquables fresques murales et de déambuler sous les galeries classiques du cloître mauriste.",
+    link: "",
+    sections: [
+      {
+        title: "Clocher roman du XIIe siècle et façade occidentale flamboyante de Jean de Beauce",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO1juElrM-S5DaiBT22fwvsDmH10ltx4B2CP0QksI3qqrunS_l_77ume1Q2pOabRyfShy1vhWGbV67GwbgJx-Dgwc8TsdSFF7_kFyHa83yxFTesCAkMt6UA0Ejznagin_0ojsgvjZoY-dm0t1BtsZheJA=w1813-h2417-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP1oyl4UV2WmGnSA1zSo-0P171muWizfUtZyzlpJa-V6v84xcC6ks1ua7A7O5WxTfX4t9AkAjbnPO56iZe2oKshDhgnlnK8yn4oliQLxpQhKsrpVTqNwyI56QO1brZps_-Rqr2p-jNNpGIPNJOMDTQ8QA=w1813-h2417-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMgwWev8JhiLpTjXgy8kTS2vyk9oNhTbvW-iVUgGgN_p6BfXHE4fWm0HkP9jeWI24mISiZsoQg7PPRun59yxYnSzpOShNAzm2K3Q7k6J-I4S9TmLAbssHdy0qEa8FR7GQIpQVHzmouYbvbZhOyVBJXP3g=w1813-h2417-s-no-gm?authuser=0"
+        ],
+        text: "À l'extérieur, l'édifice s'impose par le contraste magistral entre son clocher roman et sa façade occidentale. Érigé au XIIe siècle (vers 1130-1160) en tant que campanile isolé avant d'être rattaché aux bas-côtés, le clocher culmine à 80 mètres de hauteur : sa tour carrée massive, allégée dans ses étages supérieurs par de triples baies en plein cintre portées par de fines colonnettes, est coiffée d'une audacieuse flèche octogonale en pierre appareillée à imbrications d'écailles, flanquée à sa base de quatre pyramidions d'angle ajourés. Ce chef-d'œuvre a directement servi de modèle architectural au clocher vieux de la cathédrale Notre-Dame de Chartres. En contrepoint, la façade occidentale, édifiée entre 1500 et 1507 sous la direction du maître-maçon Jean de Beauce (Jean Texier), déploie un tissu de pierre de tuffeau d'une virtuosité extrême : les trois portails s'inscrivent sous des voussures peuplées de statuettes, surmontées de grands arcs en accolade, de gâbles découpés à claire-voie, de pinacles prismatiques et d'un réseau végétal exubérant qui culmine dans l'immense rose-verrière flamboyante."
+      },
+      {
+        title: "Élévation de la nef, grandes arcades prismatiques et voûtes d'ogives",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM0Nlt5P85efA3j97vjfEN17WKvZnKBy231_gbfEdHkI3Zt1Dn0ZG6kFBIxqfv9BQa9gtWuIZZmaKp9tWEMcBUjOjDRARcwPNrRRatX1UFZxbzgav9nr1ReP3rqKSBE6ugEwbNke539T2Lninh-H-6uXQ=w2309-h1732-s-no-gm?authuser=0"
+        ],
+        text: "L'élévation intérieure de la nef de l'abbatiale de la Trinité de Vendôme illustre l'évolution stylistique de l'architecture gothique française, transitionnant de la rigueur du gothique rayonnant vers la virtuosité ornementale du gothique flamboyant. Le vaisseau central s'élève sur un parti à deux niveaux, un choix architectural qui renforce la verticalité et l'ampleur visuelle de l'espace. Les grandes arcades brisées, aux profils prismatiques pénétrants, retombent directement sur des piles fasciculées sans l'intermédiaire de chapiteaux sculptés, caractéristique majeure des phases tardives de l'art gothique où les nervures des supports se fondent continûment dans les voussures. Au-dessus de ces grandes arcades, l'absence de triforium ou de tribune traditionnelle permet le développement d'un étage de fenêtres hautes d'une grande ampleur, pourvues d'un réseau trilobé et flamboyant qui inonde le volume intérieur d'une lumière zénithale continue.\n\nLe système de couverture est constitué de voûtes d'ogives quadripartites dont les nervures retombent sur des culs-de-lampe ou s'étirent le long des murs gouttereaux par des faisceaux de colonnettes engagées. Les arcs-doubleaux, finement moulurés, scandent les travées avec régularité et rythment la perspective longitudinale en direction du chœur et du transept roman préservé des campagnes antérieures. L'appareil de la construction est en tuffeau blanc, pierre calcaire tendre et lumineuse caractéristique de la vallée de la Loire, dont les nuances se marient aux traces d'enduits anciens et de polychromies historiques. Le sol est revêtu d'un dallage bicolore en damier noir et blanc qui accentue l'effet de profondeur optique vers l'abside."
+      },
+      {
+        title: "Architecture flamboyante du vaisseau et mécénat monastique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNiBo2gesWWgnIGLLoLksYhsQNyPzik8h1CnGbO_HUmuvRjW0uPdBK9j1W45mhT2hQdw0gQ49rPp06VROFAZB8KMPrt8VAu1GLH7gsxeTRC_2AbhH5ubzPP5XkGokA7hAwE-_IrEbvwhmi9yY_t1YP2wQ=w1813-h2417-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNPK1_kdj-of0MsYnZDam_LqhiAJ-9cmBD-cARILq14J0nGVWH1FWaY5pYHhweardfOknPo6upkZo_VDuaR9bEGooV7zyxG2haL3D-n3JMbAFwrtp0Bnwpvh7uAReemjcqPEP85qeWLoMKJhwszLtpFWQ=w2309-h1732-s-no-gm?authuser=0"
+        ],
+        text: "Au plan historique et structurel, cette nef témoigne des ambitions des comtes de Vendôme et des abbés bénédictins de la Trinité, désireux d'affirmer la puissance spirituelle et temporelle de l'abbaye malgré les aléas géopolitiques de la guerre de Cent Ans. Les ateliers de maçons et de tailleurs de pierre qui se sont succédé ont su harmoniser les contraintes techniques de contrebutement — assurées par des arcs-boutants extérieurs discrets — avec une recherche constante de dématérialisation de la paroi murale, typique du gothique flamboyant finissant au seuil de l'époque moderne."
+      },
+      {
+        title: "Mobilier liturgique, chœur et perspective intérieure",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPTk4bbpN3fbcjXtYWPcjrsvJshM8uUCkDG1uinRVH5diuPDwqMf1mJbTkScPRS-nEmSY5k5xUKbWOsNQgzPIOTeOY1_0poJ26P6QAbOYzvmPdLm0BUP_kn-WWSTTg4Q-DHhRBgl1hcAwsEuwOFPDHV2A=w1813-h2417-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMwcf0EZc2xsdDS9-BVWLuMcD040vzmSgk-k3xD0ERQRy1tckmOyZiBMDT-N732IRwB-Mfhw7ICE3W5Apiglr_7vf-vfW9x42xcFrRwC5Qc34-JNVXOGkgBLVgntp-J9RfepcoLsThUEDmaId8OmZGrkA=w1813-h2417-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Corpus des verrières médiévales et Vierge romane de Vendôme",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPnC8TUIDtDdkCllmq7ufzDr4zZS9qxkhDbDtQUF7QjCVWvA25hOES42t8CUV_6x1upzyhybrEqcnP4ZiGfxdUiiYS6lIgIG8hMacSy__vuD7d3k1hICMihZqWTLxuxiKHK1M86LniB0LaY8-i7MttJGw=w1813-h2417-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPG9Hhne_gAI2qLuSALlcjwGgbGOzZtxrngFe0_Ecd8_3QLrY3eXfMy_zYIzbbNwdKOmFf6O9dj0z02tn7q407lXhbJtJUXqUhWna-lA709NjYXdwVwrW8yE2CCTtaIO2Ugqzoib0cPXsLp_1M5-SvfRA=w1813-h2417-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM-6ATd9ha39qUwb7ohdmY2QDGJNSHvZtJEA9nKWUpuXpY2KSUUW-q3dryU3mJ6crIif8Y10gVM_CdMkq_b_t7mI6VOe8lDNJ6YzyPa_LPqG4VcrzdoUEVSVpre7fwodccbJeJ00XhN9CovJ4jj1xR80g=w1813-h2417-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPzg8Svx_15btrf_MLmUX8b7AA61YZpYlxMOW-FWhp5vVbNRQpTmaOKVM_t0SPExQYG8JPBQxwfvXx4B7EFjkqCYhCdapBjXGZ0KoKw5mx2KSAlzzZinJsd2ufUySE0Ef-aHgIP1_zrN8vP1FWvXZzmNw=w1813-h2417-s-no-gm?authuser=0"
+        ],
+        text: "Le corpus des verrières de l'abbaye de la Trinité de Vendôme forme l'un des ensembles les plus précieux de la région Centre-Val de Loire, couvrant quatre siècles d'évolution de l'art du vitrail médiéval, du plein épanouissement roman du XIIe siècle jusqu'au gothique flamboyant du début du XVIe siècle.\n\nLa verrière romane de la Vierge de Vendôme (vers 1140-1150)\n\nJoyau de l'édifice situé dans une chapelle rayonnante du déambulatoire, ce panneau roman constitue l'une des plus anciennes et des plus parfaites verrières figurées subsistant en France, contemporaine des créations de l'abbé Suger à Saint-Denis et des premières baies occidentales de la cathédrale de Chartres. L'iconographie met en scène la Vierge en majesté (Sedes Sapientiae), assise de face sur un trône gemmé, tenant sur ses genoux l'Enfant Jésus bénissant et tenant le Livre. Deux anges thuriféraires et céroféraires encadrent la mandorle ou le dais supérieur dans une composition hiératique d'une solennité byzantine. Sur le plan technique, l'œuvre brille par la pureté de son bleu de cobalt limpide et lumineux — le célèbre « bleu roman » —, contrasté par des verres rouge rubis soufflés en manchon, des rehauts d'ocre, de vert et un dessin vigoureux tracé à la grisaille sombre appliquée au pinceau fin pour modeler les plis géométriques des drapés et l'expression des visages.\n\nLes verrières rayonnantes du chœur et du chevet (XIVe siècle)\n\nLes baies du chœur et des chapelles polygonales illustrent la révolution plastique du XIVe siècle sous le gothique rayonnant. Pour répondre au besoin de clarté de l'architecture, les maîtres verriers délaissent les mosaïques sombres du siècle précédent au profit de la formule de la bande figurée encadrée de grisailles décoratives. Des personnages longilignes (apôtres, saints patrons locaux, scènes de la Passion et glorification de la Sainte Trinité) se dressent sous d'élégants dais d'architecture micro-sculptée en trompe-l'œil. Ces panneaux marquent l'apparition précoce et maîtrisée du jaune d'argent, cémentation à base de sels d'argent découverte au début des années 1300, permettant de teinter localement le verre blanc sans surcharge de plombs pour faire scintiller les chevelures, les couronnes, les nimbe et les pinacles architecturaux."
+      },
+      {
+        title: "Le cloître mauriste et les galeries conventuelles",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMUZGg9gLF3C13fdp0FxyNs0yExm9NfjhvaeQF60EJ9qzd-tK0j6CU6DwMfrWD70C6LkpqzNBY91Crtc3tjF6Rm-NtmvXSSENpbw3iqPepmSryHwDPUNw1w87GHvbzp20dVjFPlcMcc604BojaEWnXquw=w2309-h1766-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP6REcYNWNWtUc2KBTCIPPzRJefiWlcM3CZfILd_GQ_Ou0ukYX1Xvm2nvV7BTCru6sCt48Yta31uxa4YjkOIect9PaOayFFkHek1h0qvm095IibN0npy2YwdgoEDtwH_Vqk7WvbCFAdM0Mk72jhj2wNxA=w2309-h1732-s-no-gm?authuser=0"
+        ],
+        text: "Au flanc sud de l'abbatiale s'étend le cloître, cœur de la clôture monastique, reconstruit pour ses galeries et ses ailes conventuelles aux XVIIe et XVIIIe siècles par la congrégation de Saint-Maur dans une ordonnance classique en tuffeau blond rythmée d'arcades en plein cintre."
+      }
+    ]
+  },
+  {
     id: "vendome_tour_saint_martin",
     name: "Vendôme - Tour Saint-Martin",
     country: "France",
