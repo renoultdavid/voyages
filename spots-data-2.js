@@ -1,5 +1,70 @@
 const SPOTS_2 = [
   {
+    id: "figueres_maison_natale_salvador_dali",
+    name: "Figueres - Maison natale de Salvador Dalí",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Gérone",
+    subdiv: "Figueres",
+    altitude: 39,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Immeuble Moderniste de 1898 & Espace Muséal Biographique (Fin XIXe-XXe siècle)",
+    century: "XXe siècle",
+    category: "star",
+    counts: { musee: 1 },
+    lat: 42.26699,
+    lng: 2.96322,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOXNuZozbSpzYaaRkIFxSmjUuXVJ3d_LMZ6iygM2dNmSCIfGTghSlsw8UPNSW0qyVhN6auIx9tevRxJXCdwr6yFwHBfmRvgLgXPdcwQsJfzbXfj6H4nDBA4loQsA2pSlFlzM6-FHeV0Ds9vg2Jmsw7kDQ=w1611-h2417-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Située au numéro 20 de la rue Monturiol au cœur de Figueres, la maison natale de Salvador Dalí (Casa Natal Salvador Dalí) est l'immeuble moderniste où le maître du surréalisme a vu le jour le 11 mai 1904 et a passé les années décisives de son enfance. Conçu en 1898 par l'éminent architecte catalan Josep Azemar Pont — auteur de plusieurs édifices emblématiques de la ville —, ce remarquable hôtel particulier de trois étages se distingue par son élégante façade rythmée d'ouvertures en plein cintre, ses balcons aux garde-corps en fer forgé sinueux d'inspiration végétale, ses parements de céramique vernissée et ses ornements sculptés Art nouveau. C'est à l'entresol que le père de l'artiste, don Salvador Dalí Cusí, notaire respecté et personnalité républicaine et libre-penseuse de premier plan, avait installé son étude notariale, tandis que la famille occupait les étages supérieurs. Récemment restauré et inauguré comme équipement muséal immersif de référence en octobre 2023, l'espace invite à un voyage sensoriel et biographique au sein de l'intimité du jeune prodige, explorant la matrice culturelle de l'Empordà, le traumatisme du frère aîné disparu et la vie quotidienne d'un foyer catalan à l'aube du XXe siècle.",
+    visiter: "Rejoindre la rue piétonne Monturiol pour admirer depuis l'espace public la belle ordonnance moderniste de la façade de Josep Azemar, ses volutes de fer forgé et la plaque commémorative marquant la naissance du peintre. Pénétrer dans le centre muséal de la Casa Natal pour vivre l'expérience immersive audioguidée : traverser l'ancienne étude notariale paternelle, découvrir les appartements familiaux fidèlement reconstitués et monter jusqu'à la terrasse intime où le jeune Dalí réalisa ses premiers dessins. Profiter des projections holographiques, des archives sonores et des installations interactives pour saisir les racines profondes de l'univers dalinien avant de poursuivre vers la Rambla toute proche.",
+    link: ""
+  },
+  {
+    id: "figueres_eglise_sant_pere",
+    name: "Figueres - Église Sant Pere",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Gérone",
+    subdiv: "Figueres",
+    altitude: 50,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Sanctuaire Paroissial, Gothique Catalan & Berceau du Baptême de Dalí (XIVe-XXe siècle)",
+    century: "XIVe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 42.26788,
+    lng: 2.96011,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNrVuOtPfawihDk1YHfZASGwfO_DdO-FUpj0LkSDC7XOXsK-BPnn85PqTicmgezGoUs4XUDrIkpoV6FttxA3VSkVAO01fJDMmSfQhjaQGWaTwlJZvQzE1vRmVy1wwJEH4LvQpJMnH3qSeaI2tmYpqBc2g=w1611-h2417-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNolBgv3rhP-_XPLTCQ0PePWG2qi7jq79e-T-B1OxUey00i_KsgqCif5jJCicJsbcFvWU2504Qr2csapqavTiKpsBEh7EsyKYhgShw48jx_116TJQoELAVuPHazj17NIUE1X81Sqs3b6Iez-suacxZsig=w2309-h1539-s-no-gm?authuser=0",
+        caption: "La nef principale, caractérisée par sa hauteur et son austérité solennelle, est un exemple remarquable du gothique catalan, dont les structures ont été largement remaniées ou reconstruites après les destructions subies au cours des siècles, notamment lors de la guerre civile espagnole. On y observe une élévation puissante soutenue par des arcs brisés massifs et des voûtes d'ogives dont les nervures convergent vers des clés de voûte sculptées, typiques de l'ingénierie médiévale visant à répartir le poids de la toiture vers les contreforts extérieurs.\n\nLe chevet, visible au fond de l'image, présente une abside polygonale percée de hautes fenêtres ogivales ornées de vitraux polychromes. Ces ouvertures, disposées sur deux niveaux, inondent l'espace sacré d'une lumière tamisée, créant une atmosphère de recueillement propre à l'architecture gothique. Le contraste entre la pierre de taille apparente, aux tons gris et ocre, et l'éclat des vitraux souligne la verticalité de l'édifice. L'aménagement liturgique, avec son autel central sobrement éclairé, s'intègre harmonieusement dans ce volume où l'ampleur de la nef permettait d'accueiller la communauté croissante de la ville de Figueras.\n\nL'histoire de cette nef est indissociable de celle de la cité : c'est ici que fut baptisé Salvador Dalí, et l'église jouxte aujourd'hui le célèbre Théâtre-Musée du peintre. L'unité stylistique de l'ensemble, malgré les restaurations du XXème siècle, respecte les canons du gothique languedocien et catalan, privilégiant l'espace intérieur dégagé et la robustesse des supports. Chaque arc de décharge et chaque travée raconte l'adaptation des bâtisseurs aux contraintes du terrain et à la volonté de créer un monument à la fois défensif et spirituel au cœur de la ville."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPddILtXoZEJvrPo3Ju7DXIYfU4_SQP9LqpCpfFoIvZb9CSNXb0L98KZG-VQTigfxJKW5rg8DJqC804VGBAl44bFPdZ1MV-7IfVlu32EpPO19IFxPvEu5zkHeazWX-D2I_4-0bGxJfkPHjly6UEf892cA=w2309-h1539-s-no-gm?authuser=0",
+        caption: "Cette vue en contre-plongée spectaculaire révèle la structure de la croisée du transept de l'église Saint-Pierre de Figueras, couronnée par une coupole octogonale sur trompes. L'architecture témoigne de la transition et de la synthèse entre les volumes romans et la légèreté gothique. Au centre, la voûte est structurée par huit nervures de pierre qui convergent vers une clé de voûte circulaire sculptée, point de rencontre des forces de poussée. Cette conception permet de dégager un espace sommital où sont percées de petites fenêtres hautes, créant une lanterne qui diffuse une lumière céleste directement au-dessus du chœur.\n\nLa transition entre le plan carré de la croisée et l'octogone de la tour-lanterne est assurée par des trompes d'angle (petites voûtes en encorbellement), une solution architecturale robuste typique du Moyen Âge catalan. La précision de l'appareil de pierre, avec ses joints réguliers, souligne la qualité de la stéréotomie (l'art de la coupe des pierres) des bâtisseurs. Les vitraux insérés dans les ouvertures polygonales apportent des touches de couleurs saturées — bleus, rouges et jaunes — qui contrastent avec la tonalité sobre et minérale du calcaire gris, renforçant la symbolique spirituelle de l'élévation.\n\nÀ gauche de l'image, on aperçoit le départ d'une travée de la nef avec sa propre voûte d'ogives, permettant de comprendre comment les différents espaces de l'église s'articulent entre eux. Ce plafond n'est pas seulement une clôture supérieure, mais une véritable démonstration de géométrie sacrée visant à symboliser la perfection divine par la symétrie radiale. Malgré les restaurations contemporaines nécessaires à la consolidation de l'édifice, l'ensemble conserve une unité monumentale qui dialogue avec l'histoire millénaire de la cité."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMA962n7NirDegIn6aIZ433mjTwxFaYYVrGTyPVW5dta8Fv_JRIXI0RKg3-HPTdGNBhcXmXzKGAsPi1136ipW-P-SW1LJQ2Q8b1MKbfWdM47pRdn2Wky9i_w_njYwnuPNwMBo6rLk_VWZCRCnXI1C5E0A=w2309-h1539-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Édifiée au cœur historique de Figueres et directement mitoyenne du Théâtre-Musée Dalí, l'église paroissiale Saint-Pierre (Església Parroquial de Sant Pere) est le principal monument religieux de la capitale de l'Alt Empordà et le témoin de plus de mille ans d'histoire catalane. Attestée dès l'an 1020 comme possession romane dépendant du monastère de Sant Pere de Rodes, elle fut entièrement rebâtie au XIVe siècle sous le règne de Pierre IV d'Aragon selon les préceptes du gothique catalan : une nef unique spacieuse sans bas-côtés, épaulée de contreforts intérieurs délimitant des chapelles latérales pour ménager un volume unifié et monumental. Dévastée et incendiée en 1936 au début de la guerre civile espagnole, elle fut relevée avec rigueur entre 1941 et 1948 par les architectes Raimon Duran i Reynals et Luís Bonet Garí, qui restituèrent son austérité minérale en préservant le chevet et les pans de maçonnerie du XIVe siècle. Sanctuaire d'une immense valeur mémorielle, l'église Sant Pere est intimement liée au destin de Salvador Dalí : il y fut baptisé le 18 mai 1904, y fit sa première communion, et c'est en sa nef que furent célébrées ses funérailles solennelles le 25 janvier 1989 avant son inhumation dans la crypte du musée mitoyen.",
+    visiter: "Admirer depuis la place Sant Pere et le parvis de la place Gala et Salvador Dalí les puissantes maçonneries du chevet polygonal du XIVe siècle et la haute tour de clocher octogonale qui veille sur le quartier médiéval. Pénétrer dans le sanctuaire pour ressentir la majesté épurée de la grande nef gothique à vaisseau unique : contempler la voûte d'ogives élancée, avancer vers la croisée pour lever les yeux vers l'audacieuse tour-lanterne octogonale portée sur trompes d'angle et baignée par la lumière zénithale de ses vitraux colorés. Faire une halte émouvante dans la chapelle des fonts baptismaux qui ont accueilli le baptême du maître du surréalisme, avant de ressortir flâner sur le parvis théâtral du musée Dalí.",
+    link: ""
+  },
+  {
     id: "figueres_place_gala_salvador_dali",
     name: "Figueres - Place Gala et Salvador Dalí",
     country: "Espagne",
