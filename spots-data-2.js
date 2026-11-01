@@ -104,6 +104,108 @@ const SPOTS_2 = [
     link: ""
   },
   {
+    id: "figueres_theatre_musee_dali",
+    name: "Figueres - Théâtre-Musée Dalí",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Gérone",
+    subdiv: "Figueres",
+    altitude: 52,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Ancien Théâtre Néoclassique (1850), Coupole Géodésique & Sanctuaire du Surréalisme (1974)",
+    century: "XXe siècle",
+    category: "musee",
+    counts: { musee: 1 },
+    lat: 42.26812,
+    lng: 2.95957,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM_k1FON5IuQ0nybZajvOVQGtCxExABEBEDCXstCxBFQUjymtUV1yYgj8tvkdzlksgoUr31xpB0MbJkYSPD2tpi9ASEDtpRRq9YO-h_Wm0rmSUntQ-EAmwJD8vgKqGW-D6E0O_RrHTA1alG_mN1eb2lAQ=w2309-h1539-s-no-gm?authuser=0",
+    description: "Inauguré le 28 septembre 1974 au cœur de sa ville natale de Figueres, le Théâtre-Musée Dalí (Teatre-Museu Dalí) s'impose comme « le plus grand objet surréaliste du monde », entièrement conçu et mis en scène par Salvador Dalí lui-même pour offrir au visiteur une immersion totale dans son univers onirique et paranoïaque-critique. L'institution s'élève sur les vestiges de l'ancien Théâtre municipal de Figueres — édifice néoclassique bâti en 1849-1850 par l'architecte Josep Roca i Bros où le jeune Dalí, âgé de quatorze ans, avait présenté sa toute première exposition collective en 1919 —, ravagé par un incendie en février 1939 à la fin de la guerre civile espagnole. Dès 1961, à l'invitation du maire Ramon Guardiola, le peintre décide de métamorphoser ces ruines calcinées en un sanctuaire théâtral et labyrinthique, couronné en 1973 par la célèbre coupole géodésique réticulaire d'Emilio Pérez Piñero et flanqué de la tour Galatea parsemée de pains catalans en stuc et d'œufs monumentaux. Géré par la Fondation Gala-Salvador Dalí, le musée rassemble le plus vaste panorama de la trajectoire artistique du maître catalan, depuis ses premières toiles impressionnistes et cubistes de l'Empordà jusqu'aux chefs-d'œuvre du surréalisme, aux trompe-l'œil optiques, aux installations tridimensionnelles et aux recherches de son mysticisme nucléaire, tout en abritant au sous-sol de l'ancienne scène la crypte funéraire où repose l'artiste depuis janvier 1989.",
+    visiter: "Contempler depuis la place Gala-Salvador Dalí et la tour Galatea les murailles rouge carmin constellées de pains dorés, les œufs géants sur la balustrade et la coupole géodésique étincelant au soleil de l'Empordà. Pénétrer dans l'ancien parterre à ciel ouvert pour activer le mécanisme hydraulique du Taxi pluvieux (Cadillac de Dalí) sous la colonne de pneus et la barque de Gala, puis gagner la vaste scène sous la coupole de verre dominée par la toile monumentale du ballet Labyrinthe et la dalle funéraire du maître. Explorer le labyrinthe des galeries pour gravir l'escalier de la salle Mae West et observer l'anamorphose de son visage à travers la lentille optique, admirer la salle du Trésor abritant l'Autoportrait mou avec du lard grillé et la Corbeille de pain, découvrir la salle du Palais du Vent au plafond peint vertigineux, puis descendre au sous-sol se recueillir devant la sépulture de Dalí entourée des portraits photographiques de Meli, Descharnes et Halsman.",
+    link: "",
+    sections: [
+      {
+        title: "Façades carmin aux pains dorés, tour Galatea et coupole extérieure",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM_k1FON5IuQ0nybZajvOVQGtCxExABEBEDCXstCxBFQUjymtUV1yYgj8tvkdzlksgoUr31xpB0MbJkYSPD2tpi9ASEDtpRRq9YO-h_Wm0rmSUntQ-EAmwJD8vgKqGW-D6E0O_RrHTA1alG_mN1eb2lAQ=w2309-h1539-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOtBMYyK4UyM1gg54J3NWy7Ugge0pnYb6jHTZK0oAmzV1utVBOpVvhnz2r8Hv2mlc8XU-1sCGYjMJqoXCDmfJ0fdu2Lp8TOcMzPP7dEeBdRuZrvW-k-WWXZJDeceD9dFfBYqhHRUaunc1uyD948wWo1hg=w2309-h1539-s-no-gm?authuser=0"
+        ],
+        text: "À l'extérieur, l'édifice combine les vestiges des façades néoclassiques d'origine et des adjonctions baroques et surréalistes spectaculaires. Les hauts murs crénelés peints d'un rouge carmin profond sont rythmés par des alignements réguliers de sculptures en stuc représentant des pains de mie dorés à trois croûtes, emblèmes de la subsistance catalane et de l'obsession plastique du peintre pour la nourriture. La ligne de toiture est couronnée d'œufs géants immaculés alternant avec des figures dorées de mannequins brandissant des baguettes et des symboles alchimiques. Flanquée du bâtiment principal, la tour Galatea — ancien corps de logis municipal réaménagé où l'artiste passa les dernières années de sa vie après la disparition de Gala — arbore la même texture décorative sous un couronnement d'œufs et de cyprès sculptés. Le profil du monument est dominé par la monumentale coupole géodésique réticulaire en verre et fer, conçue par l'architecte murcien Emilio Pérez Piñero et montée en 1973, devenue le signal visuel iconique de la ville et coiffant l'ancienne scène du théâtre."
+      },
+      {
+        title: "Distribution spatiale du théâtre à l'italienne, cour centrale et scène sous coupole",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP_Pe6TTpq4srHNtrdtr2zJRUGB1Q8uOeKvuG15HOWSNqGMsfymsZvrfzYd5fFEuvUfQTxqB847VLWnnWRAKcbTQGaMdImsshS5NQy8CL50rMc_JbWw75Ik5rpOIwfP_Yfin3t5fuw5WZ3QYtpOJNcnLA=w2309-h1539-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPhlSfZYDIYemP8DrYWU4k3JnIjC1-fyZ05eAMxW2dOz7AzKx5HB2q9QlH1mO-y2r1_7NrRHoX9-zk4P5Gmqj84foowCl8jtdKCcLemuq-TAcPTndppueUwqPGjJc_NifvNBoGsfa4y3I6cDPt9NZtElw=w1611-h2417-s-no-gm?authuser=0"
+        ],
+        text: "À l'intérieur, la distribution spatiale exploite la typologie du théâtre à l'italienne pour orchestrer une expérience muséographique continue. L'ancien parterre des spectateurs est transformé en une vaste cour centrale à ciel ouvert où trône l'installation monumentale du Taxi pluvieux (La Cadillac pluvieuse), surmontée d'une colossale colonne de pneus inspirée de la colonne Trajane, d'une barque de pêche de Portlligat et d'une statue de la reine Esther en bronze sculptée par Ernst Fuchs. L'immense scène théâtrale, baignée d'une lumière zénithale continue sous la coupole géodésique, est dominée au fond par la monumentale toile de fond peinte par Dalí pour le ballet Labyrinthe (1941) ; au centre exact de ce plancher repose, sous une sobre dalle funéraire de marbre blanc gravée à son nom, la crypte où est inhumé Salvador Dalí."
+      },
+      {
+        title: "Le Taxi pluvieux (La Cadillac pluvieuse), la reine Esther et la colonne Trajane de pneus",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPjUI3Uk9XVbVQnu87WLZvmCvjdrL62Xl3VW9y_h2dHgJc0kWK5VKjHgHuxZfdYqGapJhWPeKjdFzJddfORMJPJcNe9mKS5giMrqelgd_pOnqT7Ky6XtxAjnIhJEyyN0SL78Dn2PICXa0A5EnAupNIe6w=w1611-h2417-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOvxEfj5TrA7ErUmuvQo0usq50MPSK2l6kt1Npzsl4EEcaaV_iow85UzbqqXZKh21maS-Axtxu9p7J4xHxrLLsAzVMcm9xYSwmALdZd66oTbLKKYihZ0MsLAMJJ25xU11r01x1q2mIqCsiT3kRMgyKSyA=w2309-h1539-s-no-gm?authuser=0"
+        ],
+        text: "Installée au centre de l'ancien parterre à ciel ouvert du théâtre, cette œuvre monumentale réactive la célèbre création surréaliste présentée par Salvador Dalí lors de l'Exposition internationale de Paris en 1938. Le dispositif s'articule autour d'une authentique Cadillac noire ayant appartenu au couple, occupée par deux mannequins vêtus de tenues de soirée et envahis par un réseau de lierre et de vignes où prolifèrent des dizaines d'escargots vivants. Un mécanisme hydraulique sophistiqué, déclenché par une fente à monnaie, actionne une pluie battante continue qui s'abat exclusivement à l'intérieur de l'habitacle, inversant ironiquement la fonction protectrice de l'automobile. Sur le capot avant trône la statue en bronze de la reine Esther sculptée par l'artiste autrichien Ernst Fuchs, reliée par des chaînes à un spectaculaire empilement vertical de pneumatiques évoquant la colonne Trajane. Cette colonne triomphale soutient à son sommet la barque de pêche traditionnelle de Portlligat utilisée par Gala, bordée de béquilles daliniennes et de larmes pétrifiées sous lesquelles est suspendu un grand parapluie noir qui s'ouvre mécaniquement. L'ensemble matérialise l'archétype de l'objet à fonctionnement symbolique, fusionnant le luxe industriel, l'humour macabre, la claustrophobie et le mythe de la fertilité aquatique en plein cœur de l'espace muséal."
+      },
+      {
+        title: "Salle Mae West : appartement surréaliste et anamorphose spatiale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMXopUBdGJQ2L56P2xDQy4Td2Y5lr6grEtjQoKC3JjLRIUaQhKCITlmGAmow7Q5dVs5liyzf1IbRn6nbfF9eHMQHy8WHcm3AXkohi7gAd6UMBSfGx_hfevDp_MHVqL5RY3iOlkFsqYOrcdyKDg_2UfVLg=w2309-h1539-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN-8m33sCGi_RgZSqppxswFMjD2KmzHkDGWnp8BrI-hqkCXR9TYUS77lwIOqMj2u7YRM3nKMjItrOk5lu21JISzTYAwlIYOhMq2VAkUJWFraas9EbUDfy2PKptRfz7fL6qUAwbX0JzLbl2v6mT7kKPCmw=w2309-h1539-s-no-gm?authuser=0"
+        ],
+        text: "Aménagée au cœur du musée avec la complicité de l'architecte Óscar Tusquets, cette installation immersive concrétise pour la première fois en trois dimensions la célèbre gouache peinte par Salvador Dalí en 1934-1935, intitulée Visage de Mae West pouvant être utilisé comme appartement surréaliste. L'espace est pensé comme une vaste chambre meublée où chaque élément de mobilier domestique reproduit scrupuleusement un trait anatomique de l'actrice américaine, icône hollywoodienne et symbole d'érotisme subversif. La bouche sensuelle est incarnée par le mythique canapé en velours rouge carmin moulé en forme de lèvres, le nez prend l'aspect d'une imposante cheminée surmontée de deux horloges marquant les narines, tandis que le regard est figuré par deux toiles encadrées représentant des vues pointillistes de Paris suspendues au mur. Une draperie monumentale en crin de cheval doré imite la chevelure platine de la comédienne, encadrant un sol dallé qui figure le menton et le cou. L'effet optique global ne se révèle toutefois que depuis un promontoire surélevé, accessible par un escalier placé sous le ventre d'un dromadaire sculpté portant une lentille réductrice : à travers cet oculaire, la dispersion des objets mobiliers se recompose instantanément en une parfaite anamorphose spatiale révélant le portrait vivant de la star."
+      },
+      {
+        title: "Crypte funéraire de Salvador Dalí et portraits photographiques en noir et blanc",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP50judDBg9Jffl_9b08lR2o8AUAYPPINSkmNZgRDI2snPXZXJ-dbPp2Q_X1_kn22VKcXySGFbcNrKAynqBzbcJmcAT2_hfGLvK50P48-uByYVqiZVtNw0hxaUrY1LQPRVPhqyDUqNEMhRqagK0sSnYfA=w2309-h1539-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMYeoMZFVcXD2ztaEVKoxlU8YB9LUwx9omrbtCziIA6UQAVasheunFo04LmjTYbiSyYV9N7xOZLhhwYmwtkly7Uoq_xyzU3Wpv0IGh96eTeDlD4HsRCRwLEa6u3-XVdkj3VorrgaR725dGc7f-7xGmhRA=w1611-h2417-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPUUFn12L_0Y290cEgnFjApH8znMXbSpJMa9EVVsimo7Wh1p9_d43zyEk5CkVq2MbIMKqgSsJiOcjMhaCzlh8gApgvTejBwUsraFXKhm2Calv6GTQbHVo_2_e1m6O_lUTNo0WjCSDtvLZPZ5bmW2kuNSQ=w2309-h1539-s-no-gm?authuser=0"
+        ],
+        text: "Au sous-sol du Théâtre-Musée, sous la scène couronnée par la coupole géodésique, repose la sépulture de Salvador Dalí, signalée par une sobre dalle de marbre blanc encastrée à même le sol. L'épitaphe dépouillée rappelle ses titres et ses dates : « Salvador Dalí i Domènech, Marquès de Dalí de Púbol, 1904-1989 », scellant l'ultime demeure du peintre au cœur exact de son œuvre monumentale. Cet espace funéraire empreint de gravité est entouré d'une série de photographies en noir et blanc qui retracent les métamorphoses physiques et artistiques du génie catalan. Réalisés par des complices et grands maîtres de l'objectif tels que Melitó Casals « Meli », Robert Descharnes ou Philippe Halsman, ces tirages argentiques immortalisent la dramaturgie dalinienne : le regard écarquillé, les moustaches cirées dressées vers le ciel et les poses théâtrales lors de la création de ses toiles ou du chantier de son musée. La rigueur contrastée du noir et blanc saisit l'artiste dans son intimité autant que dans son personnage public, conférant aux portraits une dimension spectrale et documentaire. Face à la pureté minérale de la pierre tombale, ces photographies fixent pour l'éternité le mythe d'un homme qui fit de sa propre existence l'incarnation vivante du surréalisme."
+      },
+      {
+        title: "Coupole géodésique d'Emilio Pérez Piñero (1973)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPpRZRIEH1snAOEl-Wpn4yyEVdpuTVt3PwuR5VkiTuAzmz49DveQ1vlLKnHFoz4XC4OYQcC6u6DvXExkuVj-Vq4jVg90ZBBifgTB05i2QI7L2vrBOxfG5zc1B9UeVHlo0o_zuUzRXT6HX_jgmRm05flWw=w2309-h1539-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMVizj-INO7z8Cruh4n22klJxoDpApLNvJ7HxOKaVWiRF8_1YMrzeLk8pQoDe-KBWQWWWc-r77nU1FI6NtgWqcPaJto_AeZqC4rjWnUMOhrMtk6sfaayGi-wKCsg-A6Efi0rnnrXgrHeqEP8WUnEOXYog=w1611-h2417-s-no-gm?authuser=0"
+        ],
+        text: "Érigée en 1973 pour coiffer la scène de l'ancien théâtre municipal, la monumentale coupole géodésique constitue l'emblème architectural et le signal visuel majeur du Théâtre-Musée Dalí à Figueres. Conçue par le pionnier des structures démontables, l'architecte murcien Emilio Pérez Piñero, cette calotte sphérique repose sur une trame réticulaire autoportante formée d'un maillage triangulaire en acier galvanisé enserrant des panneaux de verre translucide. L'ouvrage matérialise la fascination passionnée de Dalí pour les mathématiques, la géométrie spatiale et la physique moléculaire, au cœur de sa période de mysticisme nucléaire. Perchée au-dessus du plancher scénique, la structure capte la lumière zénithale de l'Empordà pour la diffuser généreusement sur la monumentale toile de fond de Labyrinthe et sur la dalle funéraire du peintre située à son aplomb direct. Vue depuis l'extérieur, elle jaillit au-dessus des remparts carmin couronnés de pains et d'œufs géants comme un gigantesque œil d'insecte à facettes ou une bulle cosmique ouverte vers l'infini. À l'intérieur, l'ombre portée des croisillons d'acier dessine sur les murs une résille géométrique mouvante au fil des heures du jour. Cette prouesse d'ingénierie transforme le volume du sanctuaire en un temple de lumière panoptique, où la rigueur du calcul scientifique fusionne parfaitement avec le délire visuel surréaliste."
+      },
+      {
+        title: "Sculptures-objets, Vénus de Milo aux tiroirs et assemblages anthropomorphes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO6QitlXpSd6PD0gTPB6xLGFF2pGe5Z3Q-9qDp9qxrq84KRyw2-80sk98QdZBNw_7SJ93lxD2BeJcPSPuBfde77R1aSqh4HteskwlGPsyWp0rRZtcUix1vlqytUV4cibWGsSyHtnIRk1sDnKjZRezyXmA=w1611-h2417-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPj7mL3K1pS1vStV16DNnjHeRG1TQGD_rd2TaULhgy3RPePErEVjtGBhgSI-ns5RW3iHUuw6OgezDUDvLh1HcY_89TBPyB8fAl03T9PFxB5Ov8pzpug6asp73z6nzqIkS-jwTTRUEplhUhGo30Ln0nGvg=w1611-h2417-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPL7QR5MLNVWz1GUXYb06kqQ3b6WI7nwVYQURKfWrGE_Fz7qPdmYndS-bPB4RMdJC-8S2qI56T0N3ewHssmCG2cR3Kbnwni1hyDp0bB-owG5WOABUkMPiqKRah1fgA4AdtzNSpKwszfofC6T08IdwpCTA=w1611-h2417-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNVYrIfsCT2LT_BgXK0AafchT7FiYLP9CY-r4oK4uT11MFV-NF08gwNQ__vWMeUEjt7HO6BmZn9OFdTdEx4XFK0ncVfhdnvI3pgwrxIz_G8VGUURc0M6Far-eyftHtMwtopJIE-ZlIVoT7DST8gxpwkNA=w1611-h2417-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMDMypD6b0AJgKNv2ejiQHhUyz_uV0a0nsSk8sODN3BFd0jC3O-nkEccCKIV4ztF7M3vqUc5_xnPB_2W7zWI-Q_hWz5kLp1CdlkWyq6LhI0CnbTwz9CmkgmRx3vYCM2br0koo9vAKafph6k508t2YX5Jg=w2309-h1539-s-no-gm?authuser=0"
+        ],
+        text: "Le parcours du Théâtre-Musée Dalí rassemble un ensemble exceptionnel de sculptures-objets et de toiles emblématiques matérialisant toute l'évolution de la méthode paranoïaque-critique. Parmi les créations tridimensionnelles majeures figure la célèbre Vénus de Milo aux tiroirs, réinterprétation subversive du canon classique où le marbre antique est foré de compartiments secrets tapissés de fourrure, métaphore plastique des recoins insoupçonnés de l'inconscient freudien. Les galeries présentent également de saisissants assemblages anthropomorphes, à l'image des bustes et têtes de femmes surmontés ou enrichis d'appendices anatomiques déroutants — telle l'oreille isolée, hypertrophiée ou sculptée comme un pavillon autonome —, qui détournent la statuaire académique en fétiches visuels."
+      },
+      {
+        title: "Chefs-d'œuvre picturaux et Autoportrait mou avec du lard grillé (1941)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNtz8QzLhD6-mqpr6dj9pmyxfgkBuGiJBBoi50qRU68rQdyJ_3FCGN53A9bSbTxJ91VWW-ujPSXwUE82uP8vNkRka_K8B8bcCq4QVIap7ogyhC-Qblxm65tHb2wfP3sVTZBYhbrCk16qA7PQeFZh2Q0SQ=w1991-h2417-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPNqwr5SfgS58m9a5UbFKNpl9zYOZP9nomQa-0UrSHFaCkdC2JjjXhnoiRjhCCKmUFY-HfOOWcofCoV0_1yYI9TrzF36s5FII9foaA9UjiYi7xgtSu0VB7McUApk5VAoSLAUBcODT6wGZ-tjDRc-vYj2A=w1843-h2417-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOKCOvmBOWsDoSUk7IKZ4gXKSgLZjYkuvcMVfBaa92TcoCDSYuELDS6NPzkU9lXMMMaX4c71iabm9-Xn9YbBqjxL2RsUQY21w74cBd_mPZTrQ1nFATqFE4gWr2gXUYZeWZce96JD-vNxJwtEKs9O7z35w=w1852-h2417-s-no-gm?authuser=0"
+        ],
+        text: "Côté peinture, l'incontournable Autoportrait mou avec du lard grillé (1941) déploie une virtuosité technique miniaturiste inspirée des maîtres de la Renaissance flamande pour figurer le visage liquéfié de l'artiste, transformé en une membrane informe maintenue en lévitation par un réseau de béquilles en bois. La tranche de lard croustillante posée en exergue sur le socle de pierre affirme avec ironie la consistance nutritive et périssable de la chair humaine. Ces œuvres phares illustrent la fusion constante entre rigueur illusionniste, obsessions alimentaires et exploration des pulsions oniriques au cœur de la collection permanente."
+      }
+    ]
+  },
+  {
     id: "vendome_abbatiale_de_la_trinite",
     name: "Vendôme - Abbatiale de la Trinité",
     country: "France",
