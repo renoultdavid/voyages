@@ -1,5 +1,44 @@
 const SPOTS_2 = [
   {
+    id: "figueres_place_gala_salvador_dali",
+    name: "Figueres - Place Gala et Salvador Dalí",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Gérone",
+    subdiv: "Figueres",
+    altitude: 51,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Théâtre-Musée Dalí & Surréalisme Catalan (XXe siècle)",
+    century: "XXe siècle",
+    category: "place",
+    counts: { place: 1 },
+    lat: 42.26813,
+    lng: 2.95988,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPgcnpG50HWP5fScHGIpp1xD9yIe9OJjY8weh9scl70kq9DPvtO13wy5wDSuKRJvyyQ6WF6_7KCOKqnMr9qUx192PEMOpqs_JqPfWvGQNLFsgHHRHHP9bW8kUMnyUfbnvSVKrIVWLeX4CcnItP2hylHSg=w2309-h1539-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO-ARs8-nREgXVFVfj4okUZw0TEGhD1b12jy-9-y7IlFG4seC2L0tZoZslJxyeTMyv15BnfWdS2vDxoVobKJ0Deqd_w3aBZ-cg_wOy2RVMMojU9Vf0bEdMJlxFER-lBfVlGIOao2nZaZiI0CY8VbSyFVg=w1611-h2417-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMPyILa9_MMzi95uE2sWwu9w1DSkAnzvfkyBO3Z0bqtb_piFh8HVwa2M2A9UqFLrSjl021VVay_2M6tUmnDuKqYfXj6ycij8eqJYVeKk08EIskuG2PmNe6MXwGLvKQkp0tH6dapt8i8NgW5o-XM2NwPMg=w1611-h2417-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOtBMYyK4UyM1gg54J3NWy7Ugge0pnYb6jHTZK0oAmzV1utVBOpVvhnz2r8Hv2mlc8XU-1sCGYjMJqoXCDmfJ0fdu2Lp8TOcMzPP7dEeBdRuZrvW-k-WWXZJDeceD9dFfBYqhHRUaunc1uyD948wWo1hg=w2309-h1539-s-no-gm?authuser=0",
+        caption: "Trônant sur la place Gala-Salvador Dalí, devant la façade principale du Théâtre-Musée de Figueres, le monument en hommage à Francesc Pujols a été érigé en 1974 par Salvador Dalí pour célébrer l'écrivain et philosophe catalan (1882-1962), figure tutélaire dont l'esprit paradoxal a profondément nourri la pensée de l'artiste. Conçue selon la méthode paranoïaque-critique, cette sculpture monumentale se présente comme un assemblage surréaliste associant la tradition gréco-romaine et les racines telluriques de l'Empordà. Le penseur y apparaît drapé à la manière d'un rhéteur ou d'un sénateur de l'Antiquité classique, son corps émergeant organiquement du tronc noueux et creux d'un olivier centenaire de bronze, métaphore de la sagesse enracinée dans la terre catalane. La figure impassible, ornée d'une couronne de lauriers et entourée de symboles daliniens récurrents tels que l'œuf primordial, le buste antique et les formes en lévitation, incarne le concept d'« hiparxiologi » développé par Pujols. Installée en plein air au cœur de l'espace public, l'œuvre sert de préambule spirituel au musée, marquant la fusion indissociable entre l'héritage classique méditerranéen, l'ironie philosophique et la mythologie personnelle du maître du surréalisme."
+      }
+    ],
+    description: "Aménagée au cœur historique de Figueres, capitale de la comarque de l'Alt Empordà en Catalogne, la place Gala et Salvador Dalí constitue le parvis théâtral et l'antichambre monumentale du célèbre Théâtre-Musée Dalí, l'un des musées d'art les plus emblématiques d'Espagne inauguré le 28 septembre 1974. Aménagée sur l'ancien parvis de l'église paroissiale Sant Pere où Salvador Dalí reçut le baptême en 1904 et où furent célébrées ses funérailles en 1989, cette esplanade piétonne triangulaire forme une scène à ciel ouvert où dialoguent les murs néoclassiques de l'ancien théâtre municipal détruit par un incendie lors de la guerre d'Espagne et reconstruit par Dalí, les sculptures baroques et surréalistes, et les façades colorées catalanes. Bordée de sculptures monumentales signées du maître surréaliste ou d'artistes amis tels qu'Antoni Pitxot et Evarist Vallès, la place est dominée par la grandiose coupole géodésique réticulaire conçue par l'architecte Emilio Pérez Piñero, véritable phare visuel de la ville, et par la tour Galatea couronnée de ses œufs géants et de ses mannequins dorés. Au centre de l'espace public trône le spectaculaire monument en hommage au philosophe catalan Francesc Pujols, incarnant la symbiose dalinienne entre la terre de l'Empordà, la mythologie classique et l'extravagance paranoïaque-critique.",
+    visiter: "Déboucher sur la place Gala et Salvador Dalí pour embrasser d'un regard la féerie visuelle de la façade rouge carmin du Théâtre-Musée, ponctuée de pains dorés et surmontée de ses cyprès et sculptures en stuc. Faire le tour de la place pour examiner en détail le monument à Francesc Pujols, en observant la silhouette du penseur drapé émergeant du tronc creux d'un olivier en bronze sous son œuf totémique. Lever les yeux vers la spectaculaire coupole géodésique transparente d'Emilio Pérez Piñero et les sculptures d'or scintillant sur la balustrade supérieure. S'attarder devant le monument à Antoni Pitxot et admirer le chevet gothique de l'église Sant Pere adjacente, avant de franchir les portes du musée pour plonger dans l'univers onirique et labyrinthique du maître de Figueres.",
+    link: ""
+  },
+  {
     id: "vendome_abbatiale_de_la_trinite",
     name: "Vendôme - Abbatiale de la Trinité",
     country: "France",
