@@ -40,14 +40,122 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 </head>
-<body class="relative w-full h-full bg-slate-950 font-sans antialiased text-slate-100 overflow-hidden">
+<body class="relative w-full h-full bg-[#050608] font-sans antialiased text-slate-100 overflow-hidden">
+
+  <!-- =========================================================================
+       EN-TÊTE GLOBAL FIXE (IDENTIQUE À PANORAMA DES ARTS)
+       ========================================================================= -->
+  <header id="main-header">
+    <div class="museum-insignia">
+      <!-- Accueil général du site (Portail) -->
+      <a href="../accueil/index.html" class="btn-header-nav" title="Accueil général du site">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        <span>Portail</span>
+      </a>
+
+      <!-- Accueil interne (menu des 2 volets) -->
+      <button id="btn-back-hub" class="btn-header-nav" onclick="switchVoyagesView('view-hub')" title="Retour au menu des deux volets" hidden>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="7" height="18" rx="1"/><rect x="14" y="3" width="7" height="18" rx="1"/></svg>
+        <span>Hub</span>
+      </button>
+
+      <div class="insignia-title">Atlas &amp; Carnets de Voyages</div>
+      <div class="insignia-sub" id="insignia-subtitle">Portail &amp; Exploration Géographique</div>
+    </div>
+
+    <div class="header-right-actions">
+      <!-- Bascule rapide entre l'Explorateur Visuel et le Globe 3D quand on est dans un volet -->
+      <button id="btn-switch-opposite-view" class="btn-header-nav" onclick="toggleOppositeVoyagesView()" hidden>
+        <i id="icon-opposite-view" class="fa-solid fa-globe text-xs"></i>
+        <span id="label-opposite-view">Globe 3D</span>
+      </button>
+
+      <button id="btn-fullscreen-toggle" class="btn-header-fullscreen" onclick="toggleFullScreen()" title="Basculer en plein écran">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
+        </svg>
+        <span>Plein Écran</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       VUE 1 : LE HUB D'ACCUEIL À 2 VOLETS (PORTAIL VOYAGES)
+       ========================================================================= -->
+  <section id="view-hub" class="spa-view active">
+    <!-- Volet Gauche : Exploration Visuelle en Cascade -->
+    <div class="portal-panel panel-explorer" onclick="switchVoyagesView('view-explorer')">
+      <div class="portal-panel-bg" id="hub-bg-explorer"></div>
+      <div class="portal-panel-content">
+        <span class="portal-badge">MODULE 01</span>
+        <h2 class="portal-title">Exploration Visuelle par Territoires</h2>
+        <p class="portal-desc">Navigation photographique en cascade : parcourez les continents, pays, régions, gouvernorats, préfectures et communes jusqu'aux carnets détaillés de chaque site.</p>
+        <button class="portal-cta-btn" type="button">
+          <span>Explorer les territoires</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Volet Droit : Globe 3D & Cartographie HD -->
+    <div class="portal-panel panel-cockpit" onclick="switchVoyagesView('view-cockpit')">
+      <div class="portal-panel-bg" id="hub-bg-cockpit"></div>
+      <div class="portal-panel-content">
+        <span class="portal-badge">MODULE 02</span>
+        <h2 class="portal-title">Globe 3D &amp; Cartographie HD</h2>
+        <p class="portal-desc">Cockpit planétaire interactif : exploration sur le globe 3D, cartes satellite et topographiques haute précision, radar de champ de vision et statistiques mondiales.</p>
+        <button class="portal-cta-btn" type="button">
+          <span>Accéder au globe interactif</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       VUE 2 : EXPLORATION VISUELLE PAR TERRITOIRES (CASCADE & EFFET CLUSTER)
+       ========================================================================= -->
+  <section id="view-explorer" class="spa-view" hidden>
+    <!-- Barre de navigation hiérarchique (Fil d'Ariane + Actions) -->
+    <div class="explorer-toolbar">
+      <div class="explorer-nav-left">
+        <button id="btn-explorer-up" class="btn-explorer-back" onclick="navigateExplorerUp()" hidden>
+          <i class="fa-solid fa-arrow-left text-xs"></i>
+          <span>Niveau supérieur</span>
+        </button>
+        <nav id="explorer-breadcrumb" class="explorer-breadcrumb" aria-label="Fil d'Ariane géographique"></nav>
+      </div>
+
+      <div class="explorer-nav-right">
+        <span id="explorer-level-pill" class="explorer-level-pill">3 Continents</span>
+        <button class="btn-explorer-shuffle" onclick="shuffleExplorerPhotos()" title="Tirer de nouvelles photos aléatoires pour ces vignettes">
+          <i class="fa-solid fa-dice"></i>
+          <span>Nouvelles photos</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Scène principale des vignettes -->
+    <div id="explorer-stage" class="explorer-stage custom-scrollbar">
+      <div class="explorer-stage-header">
+        <h2 id="explorer-stage-title" class="explorer-stage-title">Continents Explorés</h2>
+        <span id="explorer-stage-subtitle" class="explorer-stage-subtitle">Cliquez sur un territoire pour déployer ses subdivisions</span>
+      </div>
+      <div id="explorer-grid" class="explorer-grid grid-continents"></div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       VUE 3 : LE COCKPIT CARTOGRAPHIQUE (GLOBE 3D & CARTE HD)
+       ========================================================================= -->
+  <section id="view-cockpit" class="spa-view" hidden>
 
   <!-- Vue Globe 3D -->
   <div id="globe-view" class="absolute inset-0 w-full h-full z-0 transition-opacity duration-500 opacity-100 pointer-events-auto">
     <div id="globe-container" class="w-full h-full"></div>
     <div class="absolute inset-0 pointer-events-none flex items-center justify-center">
-      <div id="aim-reticle" class="relative w-10 h-10 rounded-full border border-cyan-400/25 flex items-center justify-center opacity-30">
-        <div class="w-1.5 h-1.5 rounded-full bg-cyan-400 shadow-[0_0_8px_#22d3ee]"></div>
+      <div id="aim-reticle" class="relative w-10 h-10 rounded-full border border-amber-400/25 flex items-center justify-center opacity-30">
+        <div class="w-1.5 h-1.5 rounded-full bg-amber-400 shadow-[0_0_8px_#d4af37]"></div>
       </div>
     </div>
   </div>
@@ -62,11 +170,11 @@
     <!-- Côté gauche : Marque & Bascule 3D/2D -->
     <div class="flex items-center gap-2 pointer-events-auto shrink-0">
       <div class="glass-panel px-3 py-2 rounded-2xl flex items-center gap-2.5">
-        <div class="w-7 h-7 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center shadow-lg shadow-cyan-500/25 text-white">
+        <div class="w-7 h-7 rounded-xl bg-gradient-to-tr from-amber-600 to-yellow-500 flex items-center justify-center shadow-lg shadow-amber-500/25 text-slate-950">
           <i id="header-mode-icon" class="fa-solid fa-earth-africa text-xs"></i>
         </div>
         <div>
-          <h1 class="text-sm font-bold tracking-tight text-white flex items-center gap-1.5">
+          <h1 class="text-sm font-bold tracking-tight text-white flex items-center gap-1.5" style="font-family: 'Cinzel', serif;">
             Cockpit Voyage <span class="text-cyan-400 font-mono text-[10px] px-1.5 py-0.5 rounded bg-cyan-950/80 border border-cyan-500/30">HD</span>
           </h1>
           <p id="header-subtitle" class="text-[10px] text-slate-400">Vue planétaire 3D</p>
@@ -600,9 +708,11 @@
     </button>
   </div>
 
+  </section>
+
   <!-- MODALE VISIONNEUSE GRAND ÉCRAN (IMMERSIVE VIEWER) -->
   <div id="poi-modal-viewer" class="fixed inset-0 z-[9999] hidden items-center justify-center p-3 sm:p-6 bg-slate-950/85 backdrop-blur-md transition-opacity duration-300">
-    <div id="poi-modal-container" class="relative w-full max-w-6xl h-[92vh] bg-slate-900/95 border border-cyan-500/30 rounded-2xl shadow-[0_0_50px_rgba(6,182,212,0.25)] flex flex-col overflow-hidden text-slate-100">
+    <div id="poi-modal-container" class="relative w-full max-w-6xl h-[92vh] bg-slate-900/95 border border-cyan-500/30 rounded-2xl shadow-[0_0_50px_rgba(212,175,55,0.2)] flex flex-col overflow-hidden text-slate-100">
       
       <!-- BARRE SUPÉRIEURE (NAVIGATION & CONTRÔLES) -->
       <div class="flex items-center justify-between px-4 py-2.5 bg-slate-950/80 border-b border-cyan-500/20 z-10 shrink-0">
@@ -614,6 +724,9 @@
 
         <!-- Commandes de navigation & Fermeture -->
         <div class="flex items-center gap-2 shrink-0">
+          <button id="modal-btn-locate" onclick="locateCurrentModalSpotOnMap()" class="px-2.5 py-1 rounded-lg bg-slate-800/80 hover:bg-amber-500/20 text-amber-200 border border-amber-500/40 transition text-xs font-bold flex items-center gap-1.5 cursor-pointer" title="Localiser ce site sur le Globe / Carte">
+            <i class="fa-solid fa-earth-europe text-[11px]"></i> <span class="hidden md:inline">Voir sur la Carte</span>
+          </button>
           <button id="modal-btn-prev" class="px-2.5 py-1 rounded-lg bg-slate-800/80 hover:bg-cyan-500/30 text-cyan-300 border border-cyan-500/30 transition text-xs font-bold flex items-center gap-1 cursor-pointer">
             <i class="fa-solid fa-chevron-left text-[10px]"></i> <span class="hidden sm:inline">Précédent</span>
           </button>
@@ -623,7 +736,7 @@
           </button>
           <div class="h-4 w-px bg-slate-700 mx-1"></div>
           <button id="modal-btn-close" class="px-2.5 py-1 rounded-lg bg-red-950/60 hover:bg-red-500/40 text-red-300 border border-red-500/40 transition text-xs font-bold flex items-center gap-1.5 cursor-pointer">
-            <i class="fa-solid fa-xmark"></i> <span>Retour Carte</span>
+            <i class="fa-solid fa-xmark"></i> <span id="modal-btn-close-label">Fermer</span>
           </button>
         </div>
       </div>

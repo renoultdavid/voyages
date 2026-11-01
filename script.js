@@ -2224,6 +2224,8 @@ function onWindowResize() {
 
 window.addEventListener('resize', onWindowResize);
 window.onload = function () {
+  initHubPanels();
+  initExplorerView();
   initGlobe();
   renderUnifiedCategoryList();
   updateStats();
@@ -2371,8 +2373,10 @@ let currentModalSpotList = [];
 let currentSpotGallery = [];
 let currentSpotGalleryIndex = 0;
 
-function openPoiModalViewer(spot) {
-  if (typeof getFilteredSpots === 'function') {
+function openPoiModalViewer(spot, customSpotList = null) {
+  if (Array.isArray(customSpotList) && customSpotList.length > 0) {
+    currentModalSpotList = customSpotList;
+  } else if (typeof getFilteredSpots === 'function') {
     currentModalSpotList = getFilteredSpots();
   } else {
     currentModalSpotList = [spot];
@@ -2382,6 +2386,11 @@ function openPoiModalViewer(spot) {
   if (activeModalIndex === -1) {
     currentModalSpotList = [spot];
     activeModalIndex = 0;
+  }
+
+  const closeLabel = document.getElementById('modal-btn-close-label');
+  if (closeLabel) {
+    closeLabel.innerText = (activeVoyagesView === 'view-explorer') ? 'Retour Galerie' : 'Retour Carte';
   }
 
   renderModalSpot(spot);
@@ -2396,6 +2405,17 @@ function openPoiModalViewer(spot) {
   const layout = document.getElementById('modal-body-layout');
   if (layout) {
     layout.scrollTop = 0;
+  }
+}
+
+function locateCurrentModalSpotOnMap() {
+  const spot = currentModalSpotList[activeModalIndex] || currentSelectedSpot;
+  closePoiModalViewer();
+  switchVoyagesView('view-cockpit');
+  if (spot) {
+    setTimeout(() => {
+      selectSpot(spot);
+    }, 120);
   }
 }
 
@@ -3090,4 +3110,704 @@ function updateLiveRadarPanel() {
 
       listEl.appendChild(item);
     });
+}
+
+
+/* =========================================================================
+   GESTION DU PORTAIL À 2 VOLETS (HUB) & ROUTAGE SPA
+   ========================================================================= */
+
+let activeVoyagesView = 'view-hub';
+
+function pickRandomPhotoFromSpots(spots) {
+  if (!Array.isArray(spots) || spots.length === 0) {
+    return 'https://placehold.co/900x600/0f172a/d4af37?text=Voyages';
+  }
+  const withImg = spots.filter(s => s && typeof s.image === 'string' && s.image.trim() !== '');
+  if (withImg.length === 0) {
+    return 'https://placehold.co/900x600/0f172a/d4af37?text=Voyages';
+  }
+  const chosen = withImg[Math.floor(Math.random() * withImg.length)];
+  return chosen.image;
+}
+
+function initHubPanels() {
+  const bgExplorer = document.getElementById('hub-bg-explorer');
+  const bgCockpit = document.getElementById('hub-bg-cockpit');
+
+  if (bgExplorer && travelSpots.length > 0) {
+    const img1 = pickRandomPhotoFromSpots(travelSpots);
+    bgExplorer.style.backgroundImage = `radial-gradient(circle at center, rgba(14, 17, 24, 0.25) 0%, rgba(5, 6, 8, 0.92) 90%), url('${img1}')`;
+  }
+  if (bgCockpit && travelSpots.length > 0) {
+    // Choisit une photo différente ou une vue emblématique pour le volet Globe
+    const img2 = pickRandomPhotoFromSpots(travelSpots);
+    bgCockpit.style.backgroundImage = `radial-gradient(circle at center, rgba(14, 17, 24, 0.25) 0%, rgba(5, 6, 8, 0.92) 90%), url('${img2}')`;
+  }
+}
+
+function switchVoyagesView(targetViewId) {
+  activeVoyagesView = targetViewId;
+  const views = ['view-hub', 'view-explorer', 'view-cockpit'];
+
+  views.forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    if (id === targetViewId) {
+      el.hidden = false;
+      el.classList.add('active');
+    } else {
+      el.hidden = true;
+      el.classList.remove('active');
+    }
+  });
+
+  const btnBackHub = document.getElementById('btn-back-hub');
+  const btnOpposite = document.getElementById('btn-switch-opposite-view');
+  const iconOpposite = document.getElementById('icon-opposite-view');
+  const labelOpposite = document.getElementById('label-opposite-view');
+  const subtitle = document.getElementById('insignia-subtitle');
+
+  if (targetViewId === 'view-hub') {
+    if (btnBackHub) btnBackHub.hidden = true;
+    if (btnOpposite) btnOpposite.hidden = true;
+    if (subtitle) subtitle.textContent = "Portail & Exploration Géographique";
+  } else if (targetViewId === 'view-explorer') {
+    if (btnBackHub) btnBackHub.hidden = false;
+    if (btnOpposite) {
+      btnOpposite.hidden = false;
+      if (iconOpposite) iconOpposite.className = "fa-solid fa-globe text-xs";
+      if (labelOpposite) labelOpposite.textContent = "Globe 3D";
+    }
+    if (subtitle) subtitle.textContent = "Exploration Visuelle par Territoires";
+    renderExplorerView();
+  } else if (targetViewId === 'view-cockpit') {
+    if (btnBackHub) btnBackHub.hidden = false;
+    if (btnOpposite) {
+      btnOpposite.hidden = false;
+      if (iconOpposite) iconOpposite.className = "fa-solid fa-grip text-xs";
+      if (labelOpposite) labelOpposite.textContent = "Vignettes";
+    }
+    if (subtitle) subtitle.textContent = "Globe 3D & Cartographie HD";
+    setTimeout(() => {
+      onWindowResize();
+      updateGlobeDisplay();
+      if (myLeafletMap) myLeafletMap.invalidateSize();
+    }, 60);
+  }
+}
+
+function toggleOppositeVoyagesView() {
+  if (activeVoyagesView === 'view-explorer') {
+    switchVoyagesView('view-cockpit');
+  } else {
+    switchVoyagesView('view-explorer');
+  }
+}
+
+/* =========================================================================
+   VOLET D'EXPLORATION VISUELLE EN CASCADE AVEC EFFET CLUSTER
+   100 % Dynamique : tout nouveau continent, pays, région, gouvernorat,
+   département, commune ou POI ajouté aux données est pris en charge automatiquement.
+   ========================================================================= */
+
+const explorerState = {
+  continent: null,
+  country: null,
+  region: null,
+  department: null,
+  subdiv: null
+};
+
+// Cache de photos aléatoires par clé de groupe (conservé pendant la navigation, réinitialisé via le bouton dé 🎲)
+const explorerPhotoCache = new Map();
+
+// Coordonnées du dernier clic pour l'effet d'éclatement Cluster
+let lastClusterOrigin = null;
+
+const CONTINENT_ICONS = {
+  "Europe": "🌍",
+  "Afrique": "🌍",
+  "Asie": "🌏",
+  "Amériques": "🌎",
+  "Océanie": "🌊"
+};
+
+function getCachedRandomPhoto(cacheKey, spots) {
+  if (!explorerPhotoCache.has(cacheKey)) {
+    explorerPhotoCache.set(cacheKey, pickRandomPhotoFromSpots(spots));
+  }
+  return explorerPhotoCache.get(cacheKey);
+}
+
+function shuffleExplorerPhotos() {
+  explorerPhotoCache.clear();
+  initHubPanels();
+  renderExplorerView();
+}
+
+/**
+ * Détermine automatiquement si un pays / une région possède un échelon "department"
+ * distinct de la région (ex: France -> Régions -> Départements, Japon -> Régions -> Préfectures,
+ * Espagne -> Communautés -> Provinces) OU si le niveau "department" est redondant / absent
+ * (ex: Égypte où region_admin = "Gouvernorat de Louxor" et department = "Louxor", et où
+ * COUNTRY_SUBDIV_TOTALS["Égypte"] n'a pas de depType).
+ */
+function hasDistinctDepartmentStep(country, regionName, regionSpots) {
+  if (!Array.isArray(regionSpots) || regionSpots.length === 0) return false;
+
+  // 1. Si COUNTRY_SUBDIV_TOTALS définit explicitement ce pays SANS depType (ex: Égypte, Maroc, Tunisie...)
+  const ref = (typeof COUNTRY_SUBDIV_TOTALS !== 'undefined') ? COUNTRY_SUBDIV_TOTALS[country] : null;
+  if (ref && !ref.depType) {
+    return false;
+  }
+
+  // 2. Vérifier s'il existe des valeurs department non vides
+  const depts = [...new Set(regionSpots.map(s => (s.department || '').trim()).filter(Boolean))];
+  if (depts.length === 0) return false;
+
+  // 3. Si le seul département porte le même nom que la région / gouvernorat (ex: "Gouvernorat d'Assouan" et "Assouan")
+  if (depts.length === 1 && regionName) {
+    const normReg = regionName.toLowerCase().replace(/gouvernorat\s+(de\s+la\s+|de\s+|d['’])/i, '').trim();
+    const normDept = depts[0].toLowerCase().trim();
+    if (normReg === normDept || regionName.toLowerCase().trim() === normDept) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+/**
+ * Libellés administratifs adaptés au pays sélectionné
+ */
+function getCountrySubdivLabels(country) {
+  const ref = (typeof COUNTRY_SUBDIV_TOTALS !== 'undefined' && COUNTRY_SUBDIV_TOTALS[country])
+    ? COUNTRY_SUBDIV_TOTALS[country]
+    : null;
+  return {
+    regionLabel: ref && ref.type ? ref.type : "Régions / Gouvernorats",
+    regionSingular: ref && ref.type ? ref.type.replace(/s$/i, '') : "Région",
+    deptLabel: ref && ref.depType ? ref.depType : "Départements / Provinces",
+    deptSingular: ref && ref.depType ? ref.depType.replace(/s$/i, '') : "Département"
+  };
+}
+
+function initExplorerView() {
+  renderExplorerView();
+}
+
+function spawnClusterBurstRing(clientX, clientY) {
+  if (typeof clientX !== 'number' || typeof clientY !== 'number') return;
+  const ring = document.createElement('div');
+  ring.className = 'cluster-burst-ring';
+  ring.style.left = `${clientX}px`;
+  ring.style.top = `${clientY}px`;
+  document.body.appendChild(ring);
+  setTimeout(() => {
+    ring.remove();
+  }, 600);
+}
+
+function triggerClusterTransition(mutatorFn, clickEvent) {
+  if (clickEvent && typeof clickEvent.clientX === 'number') {
+    lastClusterOrigin = { x: clickEvent.clientX, y: clickEvent.clientY };
+    spawnClusterBurstRing(clickEvent.clientX, clickEvent.clientY);
+  } else {
+    lastClusterOrigin = null;
+  }
+
+  mutatorFn();
+  renderExplorerView();
+
+  const stage = document.getElementById('explorer-stage');
+  if (stage) {
+    stage.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+}
+
+function navigateExplorerUp() {
+  triggerClusterTransition(() => {
+    if (explorerState.subdiv) {
+      explorerState.subdiv = null;
+    } else if (explorerState.department) {
+      explorerState.department = null;
+    } else if (explorerState.region) {
+      explorerState.region = null;
+    } else if (explorerState.country) {
+      explorerState.country = null;
+    } else if (explorerState.continent) {
+      explorerState.continent = null;
+    }
+  });
+}
+
+function renderExplorerBreadcrumb() {
+  const nav = document.getElementById('explorer-breadcrumb');
+  const btnUp = document.getElementById('btn-explorer-up');
+  if (!nav) return;
+
+  nav.innerHTML = '';
+
+  const crumbs = [
+    {
+      label: '🌍 Continents',
+      active: !explorerState.continent,
+      onClick: () => triggerClusterTransition(() => {
+        explorerState.continent = null;
+        explorerState.country = null;
+        explorerState.region = null;
+        explorerState.department = null;
+        explorerState.subdiv = null;
+      })
+    }
+  ];
+
+  if (explorerState.continent) {
+    crumbs.push({
+      label: explorerState.continent,
+      active: !explorerState.country,
+      onClick: () => triggerClusterTransition(() => {
+        explorerState.country = null;
+        explorerState.region = null;
+        explorerState.department = null;
+        explorerState.subdiv = null;
+      })
+    });
+  }
+
+  if (explorerState.country) {
+    const sampleSpot = travelSpots.find(s => s.country === explorerState.country);
+    const flag = sampleSpot && sampleSpot.flag ? `${sampleSpot.flag} ` : '';
+    crumbs.push({
+      label: `${flag}${explorerState.country}`,
+      active: !explorerState.region,
+      onClick: () => triggerClusterTransition(() => {
+        explorerState.region = null;
+        explorerState.department = null;
+        explorerState.subdiv = null;
+      })
+    });
+  }
+
+  if (explorerState.region) {
+    crumbs.push({
+      label: explorerState.region,
+      active: !explorerState.department && !explorerState.subdiv,
+      onClick: () => triggerClusterTransition(() => {
+        explorerState.department = null;
+        explorerState.subdiv = null;
+      })
+    });
+  }
+
+  if (explorerState.department) {
+    crumbs.push({
+      label: explorerState.department,
+      active: !explorerState.subdiv,
+      onClick: () => triggerClusterTransition(() => {
+        explorerState.subdiv = null;
+      })
+    });
+  }
+
+  if (explorerState.subdiv) {
+    crumbs.push({
+      label: explorerState.subdiv,
+      active: true,
+      onClick: null
+    });
+  }
+
+  if (btnUp) {
+    btnUp.hidden = crumbs.length <= 1;
+  }
+
+  crumbs.forEach((c, idx) => {
+    if (idx > 0) {
+      const sep = document.createElement('span');
+      sep.className = 'crumb-sep';
+      sep.textContent = '›';
+      nav.appendChild(sep);
+    }
+    const span = document.createElement('button');
+    span.type = 'button';
+    span.className = 'crumb-item' + (c.active ? ' active' : '');
+    span.textContent = c.label;
+    if (!c.active && typeof c.onClick === 'function') {
+      span.onclick = c.onClick;
+    }
+    nav.appendChild(span);
+  });
+}
+
+function applyClusterAnimationVars(cardEl, index) {
+  cardEl.style.setProperty('--cluster-delay', `${Math.min(index * 45, 450)}ms`);
+  if (lastClusterOrigin) {
+    // Vecteur d'éclatement radial doux
+    const angle = (index * 1.15) % (Math.PI * 2);
+    const radius = 48 + (index % 4) * 18;
+    const dx = Math.round(Math.cos(angle) * radius);
+    const dy = Math.round(Math.sin(angle) * radius);
+    cardEl.style.setProperty('--cluster-dx', `${dx}px`);
+    cardEl.style.setProperty('--cluster-dy', `${dy}px`);
+  } else {
+    cardEl.style.setProperty('--cluster-dx', '0px');
+    cardEl.style.setProperty('--cluster-dy', '22px');
+  }
+}
+
+function createClusterGroupCard({
+  badgeText,
+  countText,
+  titleHtml,
+  metaText,
+  subitemsText,
+  photoUrl,
+  index,
+  onClick
+}) {
+  const card = document.createElement('article');
+  card.className = 'cluster-card';
+  applyClusterAnimationVars(card, index);
+
+  const fallbackImg = 'https://placehold.co/900x600/0f172a/d4af37?text=Voyage';
+
+  card.innerHTML = `
+    <img class="cluster-card-bg" src="${photoUrl || fallbackImg}" alt="" loading="lazy" onerror="this.src='${fallbackImg}'">
+    <div class="cluster-card-overlay"></div>
+
+    <div class="cluster-card-top">
+      <span class="cluster-type-badge">${badgeText}</span>
+      <span class="cluster-count-pill">${countText}</span>
+    </div>
+
+    <div class="cluster-card-bottom">
+      <h3 class="cluster-card-title">
+        <span>${titleHtml}</span>
+        <i class="fa-solid fa-chevron-right text-xs text-amber-300/80"></i>
+      </h3>
+      <div class="cluster-card-meta">${metaText}</div>
+      ${subitemsText ? `<div class="cluster-card-subitems">${subitemsText}</div>` : ''}
+    </div>
+  `;
+
+  card.onclick = (e) => onClick(e);
+  return card;
+}
+
+function createExplorerPoiCard(spot, spotList, index) {
+  const card = document.createElement('article');
+  card.className = 'cluster-card';
+  applyClusterAnimationVars(card, index);
+
+  const fallbackImg = 'https://placehold.co/900x600/0f172a/d4af37?text=Voyage';
+  const catKey = (typeof getFirstActiveCategoryForSpot === 'function')
+    ? getFirstActiveCategoryForSpot(spot)
+    : spot.category;
+  const cat = (typeof CATEGORIES !== 'undefined' && CATEGORIES[catKey])
+    ? CATEGORIES[catKey]
+    : { label: 'Patrimoine', icon: 'fa-location-dot', color: '#d4af37' };
+
+  const eraText = spot.century || spot.era_label || spot.era_group || 'Patrimoine';
+  const altText = typeof spot.altitude === 'number' ? `${spot.altitude > 0 ? '+' : ''}${spot.altitude} m` : '';
+
+  card.innerHTML = `
+    <img class="cluster-card-bg" src="${spot.image || fallbackImg}" alt="${spot.name}" loading="lazy" onerror="this.src='${fallbackImg}'">
+    <div class="cluster-card-overlay"></div>
+
+    <div class="cluster-card-top">
+      <span class="cluster-type-badge"><i class="fa-solid ${cat.icon} mr-1"></i> ${cat.label}</span>
+      <span class="cluster-count-pill">Fiche POI <i class="fa-solid fa-expand text-[10px]"></i></span>
+    </div>
+
+    <div class="cluster-card-bottom">
+      <h3 class="cluster-card-title">
+        <span>${spot.name}</span>
+      </h3>
+      <div class="cluster-card-meta">${eraText}${altText ? ` · ${altText}` : ''}</div>
+      <div class="cluster-card-subitems">${spot.description || spot.visiter || ''}</div>
+    </div>
+  `;
+
+  card.onclick = () => {
+    openPoiModalViewer(spot, spotList);
+  };
+  return card;
+}
+
+function renderExplorerView() {
+  renderExplorerBreadcrumb();
+
+  const grid = document.getElementById('explorer-grid');
+  const titleEl = document.getElementById('explorer-stage-title');
+  const subEl = document.getElementById('explorer-stage-subtitle');
+  const pillEl = document.getElementById('explorer-level-pill');
+
+  if (!grid) return;
+  grid.innerHTML = '';
+
+  // =======================================================================
+  // ÉCHELON 1 : CONTINENTS (Racine)
+  // =======================================================================
+  if (!explorerState.continent) {
+    grid.className = 'explorer-grid grid-continents';
+
+    const contMap = new Map();
+    travelSpots.forEach(s => {
+      const cont = s.continent || 'Autres Terres';
+      if (!contMap.has(cont)) {
+        contMap.set(cont, { name: cont, spots: [], countries: new Map() });
+      }
+      const entry = contMap.get(cont);
+      entry.spots.push(s);
+      const cName = s.country || 'Autre';
+      if (!entry.countries.has(cName)) {
+        entry.countries.set(cName, s.flag || '📍');
+      }
+    });
+
+    const continents = Array.from(contMap.values()).sort((a, b) => b.spots.length - a.spots.length);
+
+    if (titleEl) titleEl.textContent = 'Continents Explorés';
+    if (subEl) subEl.textContent = 'Sélectionnez un continent pour déployer ses pays avec effet cluster';
+    if (pillEl) pillEl.textContent = `${continents.length} Continent${continents.length > 1 ? 's' : ''} · ${travelSpots.length} POI`;
+
+    continents.forEach((cont, idx) => {
+      const nbCountries = cont.countries.size;
+      const countriesList = Array.from(cont.countries.entries())
+        .map(([name, flag]) => `${flag} ${name}`)
+        .join('  ·  ');
+      const photo = getCachedRandomPhoto(`cont:${cont.name}`, cont.spots);
+      const icon = CONTINENT_ICONS[cont.name] || '🌍';
+
+      const card = createClusterGroupCard({
+        badgeText: `${icon} CONTINENT`,
+        countText: `${nbCountries} pays · ${cont.spots.length} POI`,
+        titleHtml: cont.name,
+        metaText: `${nbCountries} pays exploré${nbCountries > 1 ? 's' : ''} · ${cont.spots.length} site${cont.spots.length > 1 ? 's' : ''} répertorié${cont.spots.length > 1 ? 's' : ''}`,
+        subitemsText: `Pays : ${countriesList}`,
+        photoUrl: photo,
+        index: idx,
+        onClick: (e) => triggerClusterTransition(() => {
+          explorerState.continent = cont.name;
+        }, e)
+      });
+      grid.appendChild(card);
+    });
+    return;
+  }
+
+  grid.className = 'explorer-grid';
+
+  // Filtrer les spots du continent actif
+  const continentSpots = travelSpots.filter(s => (s.continent || 'Autres Terres') === explorerState.continent);
+
+  // =======================================================================
+  // ÉCHELON 2 : PAYS DU CONTINENT
+  // =======================================================================
+  if (!explorerState.country) {
+    const countryMap = new Map();
+    continentSpots.forEach(s => {
+      const c = s.country || 'Autre';
+      if (!countryMap.has(c)) {
+        countryMap.set(c, { name: c, flag: s.flag || '📍', spots: [], regions: new Set(), cities: new Set() });
+      }
+      const entry = countryMap.get(c);
+      entry.spots.push(s);
+      if (s.region_admin || s.region) entry.regions.add(s.region_admin || s.region);
+      if (s.subdiv) entry.cities.add(s.subdiv);
+    });
+
+    const countries = Array.from(countryMap.values()).sort((a, b) => b.spots.length - a.spots.length);
+
+    if (titleEl) titleEl.textContent = `${explorerState.continent} — Pays Explorés`;
+    if (subEl) subEl.textContent = `Cliquez sur un pays pour ouvrir ses régions, gouvernorats ou communautés`;
+    if (pillEl) pillEl.textContent = `${countries.length} Pays · ${continentSpots.length} POI`;
+
+    countries.forEach((c, idx) => {
+      const labels = getCountrySubdivLabels(c.name);
+      const nbRegs = c.regions.size;
+      const nbCities = c.cities.size;
+      const photo = getCachedRandomPhoto(`country:${c.name}`, c.spots);
+      const sampleRegs = Array.from(c.regions).slice(0, 6).join(', ');
+
+      const card = createClusterGroupCard({
+        badgeText: `PAYS`,
+        countText: `${c.spots.length} POI`,
+        titleHtml: `${c.flag} ${c.name}`,
+        metaText: `${nbRegs} ${labels.regionLabel.toLowerCase()} · ${nbCities} localité${nbCities > 1 ? 's' : ''}`,
+        subitemsText: sampleRegs ? `Territoires : ${sampleRegs}${c.regions.size > 6 ? '…' : ''}` : '',
+        photoUrl: photo,
+        index: idx,
+        onClick: (e) => triggerClusterTransition(() => {
+          explorerState.country = c.name;
+        }, e)
+      });
+      grid.appendChild(card);
+    });
+    return;
+  }
+
+  // Filtrer les spots du pays actif
+  const countrySpots = continentSpots.filter(s => (s.country || 'Autre') === explorerState.country);
+  const countryFlag = (countrySpots[0] && countrySpots[0].flag) ? countrySpots[0].flag : '📍';
+  const labels = getCountrySubdivLabels(explorerState.country);
+
+  // =======================================================================
+  // ÉCHELON 3 : RÉGIONS / GOUVERNORATS / COMMUNAUTÉS DU PAYS
+  // =======================================================================
+  if (!explorerState.region) {
+    const regMap = new Map();
+    countrySpots.forEach(s => {
+      const reg = (s.region_admin || s.region || 'Autre région').trim();
+      if (!regMap.has(reg)) {
+        regMap.set(reg, { name: reg, spots: [], depts: new Set(), subdivs: new Set() });
+      }
+      const entry = regMap.get(reg);
+      entry.spots.push(s);
+      if (s.department) entry.depts.add(s.department);
+      if (s.subdiv) entry.subdivs.add(s.subdiv);
+    });
+
+    const regions = Array.from(regMap.values()).sort((a, b) => a.name.localeCompare(b.name, 'fr'));
+
+    if (titleEl) titleEl.textContent = `${countryFlag} ${explorerState.country} — ${labels.regionLabel}`;
+    if (subEl) subEl.textContent = `Sélectionnez un territoire pour afficher ses subdivisions`;
+    if (pillEl) pillEl.textContent = `${regions.length} ${labels.regionLabel} · ${countrySpots.length} POI`;
+
+    regions.forEach((reg, idx) => {
+      const hasDepts = hasDistinctDepartmentStep(explorerState.country, reg.name, reg.spots);
+      const photo = getCachedRandomPhoto(`reg:${explorerState.country}:${reg.name}`, reg.spots);
+
+      const subCountText = hasDepts
+        ? `${reg.depts.size} ${labels.deptLabel.toLowerCase()} · ${reg.subdivs.size} commune${reg.subdivs.size > 1 ? 's' : ''}`
+        : `${reg.subdivs.size} localité${reg.subdivs.size > 1 ? 's' : ''} explorée${reg.subdivs.size > 1 ? 's' : ''}`;
+
+      const previewList = hasDepts
+        ? Array.from(reg.depts).join(', ')
+        : Array.from(reg.subdivs).slice(0, 6).join(', ');
+
+      const card = createClusterGroupCard({
+        badgeText: labels.regionSingular.toUpperCase(),
+        countText: `${reg.spots.length} POI`,
+        titleHtml: reg.name,
+        metaText: subCountText,
+        subitemsText: previewList,
+        photoUrl: photo,
+        index: idx,
+        onClick: (e) => triggerClusterTransition(() => {
+          explorerState.region = reg.name;
+        }, e)
+      });
+      grid.appendChild(card);
+    });
+    return;
+  }
+
+  // Filtrer les spots de la région active
+  const regionSpots = countrySpots.filter(s => ((s.region_admin || s.region || 'Autre région').trim()) === explorerState.region);
+  const useDeptStep = hasDistinctDepartmentStep(explorerState.country, explorerState.region, regionSpots);
+
+  // =======================================================================
+  // ÉCHELON 4 (SI APPLICABLE) : DÉPARTEMENTS / PROVINCES / PRÉFECTURES
+  // =======================================================================
+  if (useDeptStep && !explorerState.department) {
+    const deptMap = new Map();
+    regionSpots.forEach(s => {
+      const d = (s.department || 'Autre département').trim();
+      if (!deptMap.has(d)) {
+        deptMap.set(d, { name: d, spots: [], subdivs: new Set() });
+      }
+      const entry = deptMap.get(d);
+      entry.spots.push(s);
+      if (s.subdiv) entry.subdivs.add(s.subdiv);
+    });
+
+    const depts = Array.from(deptMap.values()).sort((a, b) => a.name.localeCompare(b.name, 'fr'));
+
+    if (titleEl) titleEl.textContent = `${explorerState.region} — ${labels.deptLabel}`;
+    if (subEl) subEl.textContent = `Cliquez sur un ${labels.deptSingular.toLowerCase()} pour découvrir ses communes et localités`;
+    if (pillEl) pillEl.textContent = `${depts.length} ${labels.deptLabel} · ${regionSpots.length} POI`;
+
+    depts.forEach((d, idx) => {
+      const photo = getCachedRandomPhoto(`dept:${explorerState.country}:${explorerState.region}:${d.name}`, d.spots);
+      const previewCities = Array.from(d.subdivs).slice(0, 7).join(', ');
+
+      const card = createClusterGroupCard({
+        badgeText: labels.deptSingular.toUpperCase(),
+        countText: `${d.spots.length} POI`,
+        titleHtml: d.name,
+        metaText: `${d.subdivs.size} commune${d.subdivs.size > 1 ? 's' : ''} · ${d.spots.length} site${d.spots.length > 1 ? 's' : ''}`,
+        subitemsText: `Communes : ${previewCities}${d.subdivs.size > 7 ? '…' : ''}`,
+        photoUrl: photo,
+        index: idx,
+        onClick: (e) => triggerClusterTransition(() => {
+          explorerState.department = d.name;
+        }, e)
+      });
+      grid.appendChild(card);
+    });
+    return;
+  }
+
+  // Filtrer les spots du département actif (ou directement de la région/gouvernorat si pas d'échelon département)
+  const deptSpots = useDeptStep
+    ? regionSpots.filter(s => ((s.department || 'Autre département').trim()) === explorerState.department)
+    : regionSpots;
+
+  // =======================================================================
+  // ÉCHELON 5 : COMMUNES / LOCALITÉS
+  // =======================================================================
+  if (!explorerState.subdiv) {
+    const subdivMap = new Map();
+    deptSpots.forEach(s => {
+      const sub = (s.subdiv || s.name || 'Localité').trim();
+      if (!subdivMap.has(sub)) {
+        subdivMap.set(sub, { name: sub, spots: [] });
+      }
+      subdivMap.get(sub).spots.push(s);
+    });
+
+    const subdivs = Array.from(subdivMap.values()).sort((a, b) => a.name.localeCompare(b.name, 'fr'));
+    const parentTitle = explorerState.department || explorerState.region;
+
+    if (titleEl) titleEl.textContent = `${parentTitle} — Communes & Localités`;
+    if (subEl) subEl.textContent = `Sélectionnez une commune pour afficher ses fiches POI`;
+    if (pillEl) pillEl.textContent = `${subdivs.length} Commune${subdivs.length > 1 ? 's' : ''} · ${deptSpots.length} POI`;
+
+    subdivs.forEach((sub, idx) => {
+      const photo = getCachedRandomPhoto(`subdiv:${explorerState.country}:${parentTitle}:${sub.name}`, sub.spots);
+      const poiNames = sub.spots.map(s => s.name).join(' · ');
+
+      const card = createClusterGroupCard({
+        badgeText: 'COMMUNE / LOCALITÉ',
+        countText: `${sub.spots.length} POI`,
+        titleHtml: sub.name,
+        metaText: `${sub.spots.length} fiche${sub.spots.length > 1 ? 's' : ''} monument / site`,
+        subitemsText: poiNames,
+        photoUrl: photo,
+        index: idx,
+        onClick: (e) => triggerClusterTransition(() => {
+          explorerState.subdiv = sub.name;
+        }, e)
+      });
+      grid.appendChild(card);
+    });
+    return;
+  }
+
+  // =======================================================================
+  // ÉCHELON 6 : FICHES POI DE LA COMMUNE SÉLECTIONNÉE
+  // =======================================================================
+  const localitySpots = deptSpots.filter(s => ((s.subdiv || s.name || 'Localité').trim()) === explorerState.subdiv);
+
+  if (titleEl) titleEl.textContent = `${explorerState.subdiv} — Fiches Patrimoine & Nature`;
+  if (subEl) subEl.textContent = `Cliquez sur une fiche pour ouvrir le carnet photographique complet`;
+  if (pillEl) pillEl.textContent = `${localitySpots.length} Fiche${localitySpots.length > 1 ? 's' : ''} POI`;
+
+  localitySpots.forEach((spot, idx) => {
+    const card = createExplorerPoiCard(spot, localitySpots, idx);
+    grid.appendChild(card);
+  });
 }
