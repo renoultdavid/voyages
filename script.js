@@ -3132,18 +3132,7 @@ function pickRandomPhotoFromSpots(spots) {
 }
 
 function initHubPanels() {
-  const bgExplorer = document.getElementById('hub-bg-explorer');
-  const bgCockpit = document.getElementById('hub-bg-cockpit');
-
-  if (bgExplorer && travelSpots.length > 0) {
-    const img1 = pickRandomPhotoFromSpots(travelSpots);
-    bgExplorer.style.backgroundImage = `radial-gradient(circle at center, rgba(14, 17, 24, 0.25) 0%, rgba(5, 6, 8, 0.92) 90%), url('${img1}')`;
-  }
-  if (bgCockpit && travelSpots.length > 0) {
-    // Choisit une photo différente ou une vue emblématique pour le volet Globe
-    const img2 = pickRandomPhotoFromSpots(travelSpots);
-    bgCockpit.style.backgroundImage = `radial-gradient(circle at center, rgba(14, 17, 24, 0.25) 0%, rgba(5, 6, 8, 0.92) 90%), url('${img2}')`;
-  }
+  // Les deux images du Hub (gauche : Territoires, droite : Globe 3D) sont fixes et définies dans style.css (.bg-explorer et .bg-cockpit)
 }
 
 function switchVoyagesView(targetViewId) {
