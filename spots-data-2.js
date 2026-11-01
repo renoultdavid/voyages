@@ -56,7 +56,7 @@ const SPOTS_2 = [
         caption: "Cette vue en contre-plongée spectaculaire révèle la structure de la croisée du transept de l'église Saint-Pierre de Figueras, couronnée par une coupole octogonale sur trompes. L'architecture témoigne de la transition et de la synthèse entre les volumes romans et la légèreté gothique. Au centre, la voûte est structurée par huit nervures de pierre qui convergent vers une clé de voûte circulaire sculptée, point de rencontre des forces de poussée. Cette conception permet de dégager un espace sommital où sont percées de petites fenêtres hautes, créant une lanterne qui diffuse une lumière céleste directement au-dessus du chœur.\n\nLa transition entre le plan carré de la croisée et l'octogone de la tour-lanterne est assurée par des trompes d'angle (petites voûtes en encorbellement), une solution architecturale robuste typique du Moyen Âge catalan. La précision de l'appareil de pierre, avec ses joints réguliers, souligne la qualité de la stéréotomie (l'art de la coupe des pierres) des bâtisseurs. Les vitraux insérés dans les ouvertures polygonales apportent des touches de couleurs saturées — bleus, rouges et jaunes — qui contrastent avec la tonalité sobre et minérale du calcaire gris, renforçant la symbolique spirituelle de l'élévation.\n\nÀ gauche de l'image, on aperçoit le départ d'une travée de la nef avec sa propre voûte d'ogives, permettant de comprendre comment les différents espaces de l'église s'articulent entre eux. Ce plafond n'est pas seulement une clôture supérieure, mais une véritable démonstration de géométrie sacrée visant à symboliser la perfection divine par la symétrie radiale. Malgré les restaurations contemporaines nécessaires à la consolidation de l'édifice, l'ensemble conserve une unité monumentale qui dialogue avec l'histoire millénaire de la cité."
       },
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczMA962n7NirDegIn6aIZ433mjTwxFaYYVrGTyPVW5dta8Fv_JRIXI0RKg3-HPTdGNBhcXmXzKGAsPi1136ipW-P-SW1LJQ2Q8b1MKbfWdM47pRdn2Wky9i_w_njYwnuPNwMBo6rLk_VWZCRCnXI1C5E0A=w2309-h1539-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMA962n7NirDegIn6aIZ433mjTwfXaYYVrGTyPVW5dta8Fv_JRIXI0RKg3-HPTdGNBhcXmXzKGAsPi1136ipW-P-SW1LJQ2Q8b1MKbfWdM47pRdn2Wky9i_w_njYwnuPNwMBo6rLk_VWZCRCnXI1C5E0A=w2309-h1539-s-no-gm?authuser=0",
         caption: ""
       }
     ],
@@ -259,7 +259,7 @@ const SPOTS_2 = [
         caption: "La perspective centrale de la nef met en évidence le parti constructif adopté pour la couverture du vaisseau principal. L'espace est coiffé d'une vaste et haute charpente apparente lambrissée en berceau brisé, structure de bois lambrissée qui évoque la coque renversée d'un navire, un type de couvrement fréquemment privilégié dans les églises de l'Ouest de la France pour des raisons économiques et techniques. Cette charpente est rythmée par une série de solides poutres transversales, les entraits, ornées de blochets et de pièces sculptées qui soulignent la maîtrise des charpentiers de la fin du XVe siècle.\n\nDe part et d'autre de la travée centrale s'ouvrent de grandes arcades brisées aux profils chanfreinés, retombant sur des piles prismatiques engagées sans chapitres intermédiaires, un parti stylistique typique du gothique tardif régional. Ces arcades desservent les bas-côtés de l'église, dont les volumes latéraux complètent la distribution spatiale de la salle de prière. À l'arrière-plan, la perspective s'achève sur le chevet plat et sa grande verrière gothique flamboyante percée de lancettes et de remplages trilobés, qui baigne le chœur et l'autel d'une lumière zénithale directe.\n\nLe sol de la nef est recouvert de dalles de pierre et longé par les traditionnels chaises de bois paillées alignées de part et d'autre de l'allée centrale, tandis que les élévations latérales accueillent des éléments de mobilier liturgique ancrés dans les piliers, tels que des statues de dévotion et une importante chaire à prêcher en bois sculpté sur le côté droit. L'ensemble de la composition architecturale reflète la sobriété structurelle et l'efficacité constructive des chantiers paroissiaux de la fin de l'époque médiévale, conjuguant la monumentalité des hauteurs sous charpente et la simplicité des appuis muraux."
       },
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczO8ocLaw47_0KREswDx58HYIiVI39pxL-wozLAXeqnGhRyCt8beyPQ0lyb2OsR_pwvpJYbJysmsRRkCjop8rjBiiREgbO9s-YTLAQqmDVCPvFT4eT28KPlDhaQN1SxNXjHXVIM-PUs1es5D1J9UvUJmRQ=w1813-h2417-s-no-gm?authuser=0",
+        url: "https://lh3.googhttps://lh3.googleusercontent.com/pw/AP1GczMA962n7NirDegIn6aIZ433mjTwfXaYYVrGTyPVW5dta8Fv_JRIXI0RKg3-HPTdGNBhcXmXzKGAsPi1136ipW-P-SW1LJQ2Q8b1MKbfWdM47pRdn2Wky9i_w_njYwnuPNwMBo6rLk_VWZCRCnXI1C5E0A=w2309-h1539-s-no-gm?authuser=0leusercontent.com/pw/AP1GczO8ocLaw47_0KREswDx58HYIiVI39pxL-wozLAXeqnGhRyCt8beyPQ0lyb2OsR_pwvpJYbJysmsRRkCjop8rjBiiREgbO9s-YTLAQqmDVCPvFT4eT28KPlDhaQN1SxNXjHXVIM-PUs1es5D1J9UvUJmRQ=w1813-h2417-s-no-gm?authuser=0",
         caption: ""
       }
     ],
@@ -665,7 +665,7 @@ const SPOTS_2 = [
     visiter: "La découverte s'effectue en gravissant les ruelles pentues qui relient les quais du Rosmeur aux hauteurs de la ville. Le promeneur remarque d'abord le sobre portail occidental en anse de panier et le clocher à bulbe typique de l'architecture classique de Basse-Bretagne. À l'intérieur, l'atmosphère recueillie et feutrée met en lumière la charpente lambrissée ornée de motifs géométriques discrets, le maître-autel à retable sculpté et doré ainsi que la statuaire représentant sainte Hélène tenant la sainte Croix. Une halte indispensable pour comprendre l'âme maritime authentique de Douarnenez avant de poursuivre vers les maisons d'armateurs du quartier ou de descendre vers l'animation des halles et de la criée.",
     link: ""
   },
- {
+  {
     id: "poullan_sur_mer_chapelle_notre_dame_kerinec",
     name: "Poullan-sur-Mer - Chapelle Notre-Dame de Kérinec",
     country: "France",
@@ -712,7 +712,7 @@ const SPOTS_2 = [
     visiter: "La visite s'amorce par la découverte du placître bordé d'arbres séculaires, offrant une perspective admirable sur le clocher ajouré à galerie et les rampants garnis de crochets de pierre. Sur le flanc sud de l'enclos, il convient de s'attarder devant la remarquable chaire extérieure polygonale à dais sculpté, véritable joyau de la statuaire et de la liturgie de plein air. En pénétrant dans la nef par le porche gothique, le promeneur apprécie l'atmosphère intime conférée par la charpente de bois en coque de navire inversée et contemple la polychromie des retables et statues votives. La déambulation se poursuit en descendant le sentier herbeux vers la fontaine sacrée en sous-bois, où s'exprime toute la poésie des croyances d'eau vive bretonnes, avant de poursuivre vers les sites mégalithiques de Lesaff et le bourg de Poullan-sur-Mer.",
     link: ""
   },
- {
+  {
     id: "poullan_sur_mer_dolmen_lesaff",
     name: "Poullan-sur-Mer - Dolmen de Lesaff",
     country: "France",
@@ -764,7 +764,7 @@ const SPOTS_2 = [
     visiter: "Le site se découvre dans la continuité immédiate du dolmen de Lesaff, en longeant le chemin rural qui dessert les abords du hameau. Le visiteur peut examiner de près la base puissamment ancrée du monolithe, la finesse de son sommet effilé ainsi que la patine rugueuse de la roche enrichie d'une mosaïque de lichens. L'accès facile permet une lecture conjointe du menhir et du dolmen, concrétisant la dualité emblématique du paysage mégalithique armoricain entre stèle commémorative et chambre funéraire. La visite se combine harmonieusement avec la découverte du patrimoine religieux de Poullan-sur-Mer ou de l'église Notre-Dame de Confort toute proche.",
     link: ""
   },
- {
+  {
     id: "confort_meilars_eglise_notre_dame",
     name: "Confort-Meilars - Église Notre-Dame de Confort",
     country: "France",
@@ -811,7 +811,7 @@ const SPOTS_2 = [
     visiter: "La découverte commence sur le placître paroissial en observant le calvaire triangulaire du XVIe siècle, dont les pans sculptés portent les apôtres et les scènes de la Passion surmontés des trois croix du Golgotha. En longeant l'extérieur, on admire les rampants sculptés d'animaux fantastiques, les gargouilles saillantes et la finesse des baies à remplages flamboyants. Le passage sous le porche dévoile la majesté du vaisseau central, où l'on découvre suspendue à la charpente la fameuse roue à carillons (ar rod) en bois sculpté et doré, surmontée de douze clochettes de bronze. La promenade intérieure mène au chevet pour contempler la verrière de l'Arbre de Jessé et ses costumes d'époque François Ier étincelant sous la lumière orientale. Une visite au bas-côté sud permet d'examiner les statues d'apôtres en applique et les sablières sculptées de scènes satiriques, avant de profiter du calme champêtre de Confort-Meilars.",
     link: ""
   },
- {
+  {
     id: "pont_croix_eglise_notre_dame_roscudon",
     name: "Pont-Croix - Église Notre-Dame-de-Roscudon",
     country: "France",
@@ -850,7 +850,7 @@ const SPOTS_2 = [
     visiter: "La découverte s'amorce par l'approche du placître en contemplant l'envolée spectaculaire de la flèche gothique ajourée cantonnée de clochetons d'angle et dominée par sa tourelle d'escalier. En longeant le flanc sud, il convient de s'attarder devant le porche gothique rayonnant sculpté en kersanton et granite, orné de ses voussures trilobées et de son tympan figurant le Christ juge entouré d'anges et des symboles des Évangélistes. En franchissant le seuil, le regard est immédiatement saisi par la densité rythmée des piliers composés de la nef romane tardive, avant de cheminer vers le chœur gothique baigné de reflets colorés par la grande verrière axiale du Couronnement de la Vierge. Parmi le mobilier remarquable, on admirera le retable du Rosaire, la chaire à prêcher en chêne sculpté ainsi que les statues anciennes en bois polychrome de saint Corentin et sainte Anne. La visite se prolonge agréablement en redescendant vers les venelles pavées et les jardins en gradins qui descendent vers le port du Goyen.",
     link: ""
   },
- {
+  {
     id: "pont_croix_village",
     name: "Pont-Croix - Cité Médiévale & Petite Cité de Caractère",
     country: "France",
@@ -901,7 +901,7 @@ const SPOTS_2 = [
     visiter: "La découverte s'amorce au bas de la cité, le long des rives paisibles du Goyen où mouillaient jadis les gabares et bateaux marchands, avant de grimper les ruelles pavées à gradins typiques comme la venelle Chère ou la rue aux Pavés. En montant vers la place centrale bordée de maisons nobles à pans coupés et d'échoppes anciennes, le promeneur admire le travail soigné des linteaux sculptés, des tourelles d'escalier et des cours intérieures fleuries d'hortensias. Une halte s'impose à la collégiale Notre-Dame de Roscudon pour admirer son porche sud finement sculpté, son clocher ajouré du XIVe siècle et la pureté de sa nef romane de l'école de Pont-Croix ornée de chapiteaux géométriques. La promenade se prolonge vers la maison du marquisat abritant le musée du patrimoine local, puis vers les rives verdoyantes du sentier de halage reliant Pont-Croix au port d'Audierne au fil de l'eau.",
     link: ""
   },
- {
+  {
     id: "poullan_sur_mer_allee_couverte_leskonil",
     name: "Poullan-sur-Mer - Allée couverte de Lesconil",
     country: "France",
@@ -1062,7 +1062,7 @@ const SPOTS_2 = [
     visiter: "Le site se découvre dans le prolongement direct du menhir de Coat Pin, accessible par le même chemin champêtre ombragé. En contournant la chambre mégalithique, le visiteur peut observer la manière dont la lourde table de granite repose en équilibre sur ses orthostates de soutien et imaginer l'espace clos où étaient déposés les défunts accompagnés de poteries, d'outils en silex et de parures. Le site dégage une quiétude propice à la contemplation, à l'écart des grands circuits touristiques côtiers. La promenade s'associe idéalement à la visite des falaises maritimes de la baie d'Audierne ou du site paléolithique de Menez Dregan sur la côte sud.",
     link: ""
   },
- {
+  {
     id: "poullan_sur_mer_menhir_treota",
     name: "Poullan-sur-Mer - Menhir de Tréota",
     country: "France",
@@ -1088,7 +1088,7 @@ const SPOTS_2 = [
     visiter: "La découverte du menhir s'effectue aisément en empruntant les petites routes de campagne et les circuits de petite randonnée qui sillonnent le bocage au départ de Tréboul ou du bourg de Poullan-sur-Mer. En arrivant au lieu-dit Tréota, le visiteur découvre la stèle dressée en bordure de parcelle herbeuse, mise en valeur par la lumière rasante qui souligne les arêtes de taille et la texture rugueuse du granite armoricain. La station offre une halte paisible et bucolique, idéale pour apprécier la sérénité du paysage cornouaillais avant de prolonger l'itinéraire vers la côte rocheuse de la baie de Douarnenez ou vers les allées couvertes et dolmens préservés du secteur.",
     link: ""
   },
- {
+  {
     id: "douarnenez_fontaine_saint_pierre",
     name: "Douarnenez - Fontaine Saint-Pierre (Tréboul)",
     country: "France",
@@ -1179,7 +1179,7 @@ const SPOTS_2 = [
     visiter: "La découverte du mégalithe se fait en empruntant les voies vicinales et les sentiers de randonnée reliant le bourg de Tréboul aux crêtes côtières des Roches Blanches et de la pointe de Leydé. En arrivant au bord de la parcelle, le promeneur peut contempler l'assise puissante du bloc de granite, apprécier ses proportions massives et observer les teintes changeantes de la pierre sous la lumière océanique. Le site gagne à être découvert en combinaison avec le circuit des falaises du GR34 tout proche, reliant la mémoire préhistorique des bâtisseurs de menhirs aux panoramas spectaculaires sur la mer et la presqu'île de Crozon.",
     link: ""
   },
- {
+  {
     id: "douarnenez_menhir_du_moulin",
     name: "Douarnenez - Menhir du Moulin (Tréboul)",
     country: "France",
@@ -1205,7 +1205,7 @@ const SPOTS_2 = [
     visiter: "La découverte s'effectue en empruntant les ruelles calmes et les chemins vicinaux du quartier de Tréboul pour aborder la parcelle verdoyante où se dresse le monolithe. En faisant le tour de la pierre, le visiteur apprécie la robustesse de son assise ancrée dans le socle armoricain, les textures rugueuses du granite à gros grains et le jeu de lumière rasant qui met en valeur son profil élancé. Le site constitue un point de départ ou une halte idéale au cours d'une promenade reliant les vestiges préhistoriques de la commune aux points de vue côtiers sur les roches de l'anse de Tréboul et les rivages de la baie de Douarnenez, offrant une agréable parenthèse archéologique et contemplative à l'écart de l'agitation balnéaire.",
     link: ""
   },
- {
+  {
     id: "douarnenez_port_du_rosmeur",
     name: "Douarnenez - Port du Rosmeur",
     country: "France",
@@ -1231,7 +1231,7 @@ const SPOTS_2 = [
     visiter: "La découverte commence par une flânerie le long des quais bordés de casiers et de filets, où l'on observe le retour des chalutiers côtiers et des ligneurs débarquant bars, rougets et crustacés à la criée. L'itinéraire se poursuit par la promenade piétonne le long de la grande jetée de granit s'avançant en baie de Douarnenez, offrant une vue panoramique grandiose sur les collines du Menez-Hom, la presqu'île de Crozon et la silhouette de l'île Tristan à l'ouest. En grimpant par les venelles escarpées et les escaliers de pierre qui s'élèvent derrière le port, le visiteur rejoint le sentier des Plomarc'h pour contempler les vestiges de cuves à garum gallo-romaines et saisir l'un des plus beaux points de vue en plongée sur l'ensemble du bassin portuaire et ses bateaux bigarrés. La visite s'achève idéalement à la terrasse d'un bistrot de marins face aux flots, savourant l'odeur du grand large et l'animation chaleureuse de ce port de caractère.",
     link: ""
   },
- {
+  {
     id: "aigues_mortes_remparts_tour_constance",
     name: "Aigues-Mortes - Remparts & Tour de Constance",
     country: "France",
@@ -1301,7 +1301,7 @@ const SPOTS_2 = [
       }
     ]
   },
- {
+  {
     id: "aigues_mortes_eglise_notre_dame_des_sablons",
     name: "Aigues-Mortes - Église Notre-Dame-des-Sablons",
     country: "France",
@@ -1332,7 +1332,7 @@ const SPOTS_2 = [
     visiter: "La découverte s'amorce depuis l'angle oriental de la place Saint-Louis en abordant la façade occidentale surmontée de son clocher-mur ajouré à trois cloches. En franchissant le portail sous un arc brisé discret, le visiteur est immédiatement saisi par le dépouillement monacal de la nef unique où la pierre nue dialogue avec la lumière méditerranéenne. Il convient d'observer attentivement les verrières contemporaines abstraites conçues par Claude Viallat (mouvement Supports/Surfaces), dont les motifs d'empreintes répétés aux teintes ocres, azurées et violines métamorphosent l'atmosphère intérieure au fil de la journée. Dans le chœur, une sobre statue de saint Louis rappelle le souvenir des prières royales avant les départs pour les croisades, tandis que la charpente de bois apparente confère au lieu une intimité chaleureuse propice au recueillement. La sortie ramène directement sur le parvis pavé ombragé de platanes, à deux pas des terrasses de la place centrale.",
     link: ""
   },
- {
+  {
     id: "aigues_mortes_place_saint_louis",
     name: "Aigues-Mortes - Place Saint-Louis",
     country: "France",
@@ -1358,7 +1358,7 @@ const SPOTS_2 = [
     visiter: "La découverte commence en abordant la place depuis la porte de la Gardette ou les ruelles pavées de l'intra-muros, pour profiter de la perspective centrale sur le socle sculpté et la statue de saint Louis. En faisant le tour de la fontaine monumentale, on remarque les bas-reliefs historiés du piédestal évoquant le départ pour les croisades et les fondations royales de la cité. La visite se prolonge naturellement vers la façade sobre de l'église Notre-Dame-des-Sablons attenante, le plus ancien sanctuaire d'Aigues-Mortes où le roi vint prier avant d'embarquer pour la septième croisade en 1248. Une halte s'impose à l'ombre des platanes en terrasse pour s'imprégner de l'animation locale avant de rejoindre l'accès aux courtines des remparts pour une vue plongeante sur les toits de tuiles canal entourant la place.",
     link: ""
   },
- {
+  {
     id: "saint_laurent_daigouze_tour_carbonniere",
     name: "Saint-Laurent-d'Aigouze - Tour Carbonnière",
     country: "France",
@@ -1402,7 +1402,7 @@ const SPOTS_2 = [
       }
     ]
   },
- {
+  {
     id: "lemans_eglise_notre_dame_du_pre",
     name: "Le Mans - Église Notre-Dame-du-Pré",
     country: "France",
@@ -1449,7 +1449,7 @@ const SPOTS_2 = [
     visiter: "La découverte s'amorce par la traversée du pont Yssoir offrant une vue d'ensemble sur le chevet étagé et le clocher roman s'élevant au flanc nord du sanctuaire. En franchissant le portail occidental sobrement sculpté, le visiteur pénètre dans une nef monumentale baignée d'une lumière feutrée, où la vue file sans entrave sous la charpente apparente jusqu'à l'abside orientale surélevée. Il convient d'observer attentivement la série de chapiteaux romans de la nef et du rond-point du chœur figurant des palmettes découpées, des masques et des quadrupèdes fantastiques affrontés typiques de la sculpture mancelle du premier XIIe siècle. La visite culmine en descendant dans la crypte voûtée d'arêtes située sous le chœur, espace mystique et recueilli abritant le tombeau vénéré de saint Julien, premier évêque du Mans, ainsi que d'émouvants vestiges lapidaires mérovingiens et carolingiens. La promenade se prolonge agréablement sur le parvis arboré et les quais fluviaux, d'où le regard embrasse la perspective ascendante vers la cathédrale Saint-Julien sur la rive opposée.",
     link: ""
   },
- {
+  {
     id: "lemans_lycee_montesquieu",
     name: "Le Mans - Lycée Montesquieu (Ancien Collège de l'Oratoire)",
     country: "France",
@@ -1480,7 +1480,7 @@ const SPOTS_2 = [
     visiter: "La découverte des extérieurs s'effectue en abordant la grille d'honneur depuis la  des Jacobins et les allées bordées d'arbres menant à la cour principale. En observant les façades de tuffeau, le promeneur apprécie l'équilibre symétrique des baies régulières, les lucarnes sculptées et la sobre élégance des avant-corps classiques rythmés par le travail des pierres de taille. L'accès à la cour intérieure et aux bâtiments historiques, principalement ouvert lors des Journées européennes du patrimoine, permet d'admirer les anciennes salles de classe voûtées, la chapelle de l'Oratoire et les plaques commémoratives honorant les illustres anciens élèves de l'institution. La visite gagne à être complétée par une déambulation vers les jardins des Quinconces attenants et la promenade des Jacobins, offrant des perspectives dégagées sur les toits du collège et le chevet gothique de la cathédrale dans une atmosphère de sérénité studieuse.",
     link: ""
   },
- {
+  {
     id: "yvre_l_eveque_croix_de_boesse",
     name: "Yvré-l'Évêque - Croix de Boëssé",
     country: "France",
@@ -1511,7 +1511,7 @@ const SPOTS_2 = [
     visiter: "S'approcher du monument depuis le bord du chemin pour observer l'emmarchement de pierre et le profil octogonal du fût calcaire patiné par le temps. Détailler à hauteur de regard et en contre-plongée la richesse ornementale des bras de la croix, notamment les choux frisés découpés et les grands fleurons terminaux typiques du XVe siècle. Faire le tour de l'ouvrage pour examiner la sculpture du Christ en croix et apprécier l'harmonieuse intégration de ce repère patrimonial au sein du paysage bocager environnant.",
     link: ""
   },
- {
+  {
     id: "rennes_portes_mordelaises",
     name: "Rennes - Portes Mordelaises",
     country: "France",
@@ -1952,7 +1952,7 @@ const SPOTS_2 = [
     visiter: "Traverser le grand hall d'accueil pour apprécier la luminosité zénithale du patio central avant de monter vers les galeries d'exposition du premier étage. Rechercher impérativement dans les salles du XVIIe siècle le chef-d'œuvre absolu de Georges de La Tour « Le Nouveau-Né » et contempler le saisissant clair-obscur de la chandelle éclairant le visage de l'enfant. Poursuivre le parcours par les riches collections archéologiques et les salles consacrées aux paysages bretons peints par les artistes de l'école de Pont-Aven.",
     link: "https://photos.google.com/share/AF1QipNuFMKeUBF_WMoFKdpcAIXUm-jgFez4Q5CFtAHG2iXVqqoXlCOCeKeysaW7BcwE7w?key=dzBvd05Nd2s0RFBnQlZzdWR4NVo2bFZRV2FxSHlR"
   },
- {
+  {
     id: "ploeren_chapelle_notre_dame_de_bethleem_belean",
     name: "Ploeren - Chapelle Notre-Dame de Bethléem de Béléan",
     country: "France",
@@ -2087,7 +2087,7 @@ const SPOTS_2 = [
     visiter: "Contempler depuis la place du bourg l'imposant clocher-tour en granite et repérer les cadrans solaires gravés dans la pierre sur la façade sud bien exposée. Pénétrer dans le porche pour découvrir la nef tripartite couverte de berceaux lambrissés en bois et s'avancer vers la croisée du transept. Examiner le retable du maître-autel avec ses colonnes torses et ses dorures d'époque classique, puis détailler la statuaire polychrome de saint Pierre aux liens conservée dans les chapelles latérales.",
     link: ""
   },
- {
+  {
     id: "vitre_ville_medievale",
     name: "Vitré - Ville Médiévale",
     country: "France",
@@ -2352,7 +2352,7 @@ const SPOTS_2 = [
       }
     ]
   },
- {
+  {
     id: "illiers_combray_eglise_saint_jacques",
     name: "Illiers-Combray - Église Saint-Jacques",
     country: "France",
@@ -2480,7 +2480,7 @@ const SPOTS_2 = [
     visiter: "S'arrêter au sommet de l'arche centrale pour s'accouder au garde-corps et regarder le courant paisible du Loir faire onduler les herbiers aquatiques rappelant les descriptions de la Vivonne. Observer depuis les berges en contrebas l'appareillage en moellons et les becs protecteurs des piles de pierre plongeant dans l'eau. Poursuivre la marche vers l'ancien lavoir à proximité puis s'engager le long de la berge ombragée par les saules pleureurs en direction du Pré Catelan.",
     link: "https://photos.google.com/share/AF1QipMjye03wc_nB867DkUsyFmmafYJt8nM49txUZ6t2PckjaIGkektAatp-Lb3qoOz_g?key=OE0yT0FPSVhVSUluM05sajFZUGtDemN4WGRPeXRR"
   },
- {
+  {
     id: "vivario_fortin_de_pasciola",
     name: "Vivario - Fortin de Pasciola",
     country: "France",
@@ -2548,7 +2548,7 @@ const SPOTS_2 = [
     visiter: "Franchir l'atrium lumineux du musée pour suivre la scénographie chronologique illustrée par des maquettes volumétriques de la cité antique romaine et des bornes interactives didactiques. Admirer en priorité le célèbre bas-relief tauroctone du culte de Mithra ainsi que les riches mosaïques paléochrétiennes découvertes sur les emprises de la basilique primitive. Prolonger le parcours en montant au niveau supérieur pour profiter de la vaste terrasse panoramique offrant une vue plongeante directe sur le chevet de l'église de la Canonica et le champ de fouilles archéologiques.",
     link: "https://photos.google.com/share/AF1QipMZZAaDB98fr8XWMKluZeJr8cdl7SRYuP9Ki-YfvlLUXrOpTliMMcX-oXv6t3Covg?key=ZU1HeTlMMzVzQnF6cV9jeFJtMzNMQUMxb2Z3RGJ3"
   },
- {
+  {
     id: "cricqueville_en_bessin_pointe_du_hoc",
     name: "Cricqueville-en-Bessin - Pointe du Hoc",
     country: "France",
@@ -3204,7 +3204,7 @@ const SPOTS_2 = [
     visiter: "Marcher sur l'immense estran de sable découvert à marée basse pour prendre la mesure du glacis à découvert que durent traverser les vagues d'assaut canadiennes le 6 juin 1944. Découvrir sur la dune le Centre Juno Beach à l'architecture géométrique remarquable et le char Sherman amphibie exposé sur l'esplanade. Observer à proximité immédiate de la jetée du port les bunkers allemands préservés et les stèles rendant hommage aux différents régiments d'infanterie du Canada.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
   },
- {
+  {
     id: "caen_chateau",
     name: "Caen - Château Ducal",
     country: "France",
@@ -3400,7 +3400,7 @@ const SPOTS_2 = [
     visiter: "Prendre du recul depuis la vaste place Saint-Sauveur pour apprécier l'asymétrie curieuse de la façade et la silhouette massive de la tour romane coiffée d'une toiture en bâtière. Examiner le chevet polygonal donnant sur la rue Pasteur afin de repérer les détails Renaissance sculptés sur les corniches et les remplages flamboyants des fenêtres hautes. Accéder à l'intérieur lors des manifestations artistiques pour observer le double vaisseau dégagé, les culots sculptés et les vestiges des voûtes en croisée d'ogives.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
   },
- {
+  {
     id: "caen_vestiges_eglise_saint_gilles",
     name: "Caen - Vestiges de l'Ancienne Église Saint-Gilles",
     country: "France",
@@ -3524,7 +3524,7 @@ const SPOTS_2 = [
       }
     ]
   },
- {
+  {
     id: "ouistreham_musee_mur_atlantique",
     name: "Ouistreham - Musée du Mur de l'Atlantique",
     country: "France",
@@ -3609,7 +3609,7 @@ const SPOTS_2 = [
     visiter: "Gravir les emmarchements de pierre qui mènent au socle surélevé pour contempler la dynamique verticale des lames de métal poli se reflétant dans la lumière côtière. Faire le tour de la base du monument afin de lire les plaques de bronze énumérant les noms des 177 commandos français du bataillon Kieffer, ainsi que les stèles rendant hommage aux disparus des combats du 6 juin. Tourner le regard vers le nord pour appréhender directement l'axe d'assaut des barges de débarquement arrivant sur l'estran découvert à marée basse.",
     link: "https://photos.google.com/share/AF1QipP_r-RkUhVBFruOXfc_tByvx5Vje8hgDNED4vVuvCKE6Q2NOmmiqdkWxaQaeFwASQ?key=TklDZmxVZGF4ZTJiaDFUbExPRlJXTkRlLXZzemdB"
   },
- {
+  {
     id: "ouistreham_eglise_saint_samson",
     name: "Ouistreham - Église Saint-Samson",
     country: "France",
