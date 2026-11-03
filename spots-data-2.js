@@ -1,5 +1,66 @@
 const SPOTS_2 = [
   {
+    id: "gerone_cases_de_l_onyar",
+    name: "Gérone - Maisons sur l'Onyar (Cases de l'Onyar)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Gérone",
+    subdiv: "Gérone",
+    altitude: 74,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Façades Fluviales Polychromes & Ponts Historiques (XIXe-XXe siècle)",
+    century: "XXe siècle",
+    category: "star",
+    counts: { habitation: 1 },
+    lat: 41.98458,
+    lng: 2.82383,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOfCe1plPaXQiv32sfIc4Hqw-kPYX3qi4GUChbSoEaDcZi87-hp0jIjZQTHL3KZH_LI3B3e6aBdpH1CJWzppYG1JBZFCFkRVnqaM7LSZ65f2IW6NpPWPcxJ-qZH7IljJ7UY-L3C27Z3NTDNg8hp-wY_AA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPBubH-rbspcE6ta_c8E0djYRWeLATo69NomF_dxJVY3neX9KkKRdgk_rMqTcpFRdR5ZPZSGmoOjUJRbSZTITUf_kj5NcepQdiwAvm8krbgfjmFqELkTarV-xSgDWbFRwA6iSBoimEG8QJ51T9k-GeoUw=w1379-h919-s-no-gm?authuser=0",
+        caption: "Perspective pittoresque sur l'enfilade des maisons suspendues bordant la rive droite de l'Onyar, dont les décrochements de toitures et les bow-windows surplombent directement le lit de la rivière."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOCeWMSqT2OHK_jdu8V0Rz9C62t8gCwb-lj8nF3JzxeLve9vDlHunNHwGXnb33509KEIUFLfPQOy2J6uAJ_kAVT_2JpIOBSvmNd2ua5MprDQ9g6kaZi9AIhumQiPVScWgyg43Vo8R_4eII0df8dlxe6EQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'alignement chromatique des façades peintes en camaïeu d'ocres, de jaunes et de terres de Sienne, dominé en arrière-plan par le clocher ajouré de la basilique Sant Feliu et le chevet de la cathédrale."
+      }
+    ],
+    description: "S'étirant le long du tracé sinueux de la rivière qui sépare la ville médiévale historique (Barri Vell) des faubourgs modernes du Mercadal, les maisons suspendues sur l'Onyar (Cases de l'Onyar) forment le paysage urbain le plus emblématique, poétique et célébré de Gérone. Édifiées principalement à partir de la fin du Moyen Âge et au cours des XVIIe et XVIIIe siècles sur les soubassements de l'ancien rempart fluvial démantelé, ces demeures bourgeoises étroites plongent leurs fondations directement dans le cours d'eau. Leurs façades arrières, jadis disparates, ont été magnifiées au début du XXe siècle et lors du projet de rénovation des années 1980 conçu par les architectes Enric Ansesa et Jaume Faixó, instaurant une palette chromatique unifiée d'ocres, de terres de Sienne, de rouges brique et de blancs cassés, inspirée des coloris traditionnels catalans. Parmi cet ensemble d'un charme théâtral se distingue la Casa Masó, maison natale de l'éminent architecte noucentiste Rafael Masó, unique demeure ouverte à la visite conservant ses intérieurs modernistes d'origine. Les façades se reflètent avec éclat dans le miroir de l'Onyar, franchi par plusieurs ouvrages d'art célèbres dont la passerelle rouge en treillis métallique conçue en 1877 par les ateliers de Gustave Eiffel (Pont de les Peixateries Velles).",
+    visiter: "Gagner le pont de Sant Agustí ou le pont de pierre (Pont de Pedra) pour contempler la perspective d'ensemble sur le défilé des façades multicolores se mirant dans l'Onyar. Emprunter la passerelle métallique rouge d'Eiffel afin de saisir des clichés au ras de l'eau, avec le clocher tronqué de Sant Feliu et la cathédrale Sainte-Marie émergeant au-dessus des toitures en tuiles canal. Déambuler ensuite le long de la rue de la Força et des berges pour apprécier les balcons de fer forgé, les bow-windows en bois et les galeries ajourées suspendues au-dessus du fleuve.",
+    link: ""
+  },
+  {
+    id: "gerone_place_de_l_independance",
+    name: "Gérone - Place de l'Indépendance (Plaça de la Independència)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Gérone",
+    subdiv: "Gérone",
+    altitude: 72,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Place Royale Néoclassique & Galeries à Arcades (XIXe siècle)",
+    century: "XIXe siècle",
+    category: "place",
+    counts: { place: 1 },
+    lat: 41.98569,
+    lng: 2.82353,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMyG31jhR1dAMWaoayNsLwHUbs_H94bNT9wabvMjh3QtwqqKVw7DCuJa_Xij2pi3sDSnnoFh3Kt7R4qucPQ5IT_yHO1F8nIO04BFEKCpKeve-pyLHlai_xZFDUM4nXP4_AM4GgBFwKDTCTQ-hIBI5RuJA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Aménagée au cœur du quartier du Mercadal sur la rive gauche de l'Onyar, la place de l'Indépendance (Plaça de la Independència), également connue sous le nom traditionnel de place Saint-Augustin, constitue l'ensemble d'urbanisme néoclassique le plus majestueux de Gérone. Conçue à partir du milieu du XIXe siècle par l'architecte municipal Martí Sureda sur l'emplacement de l'ancien couvent augustin sécularisé après les lois de désamortissement de Mendizábal, la place adopte le parti ordonnancé des grandes places royales espagnoles. Vaste rectangle ceinturé d'immeubles homogènes de trois étages sur rez-de-chaussée à galeries couvertes, elle est rythmée sur son pourtour par une enfilade continue d'arcades en plein cintre en pierre calcaire abritant cafés, terrasses et restaurants renommés. Au centre de l'esplanade pavée s'élève le monument commémoratif en bronze et calcaire inauguré en 1894, œuvre du sculpteur Antoni Parera, rendant hommage aux héroïques défenseurs de Gérone et au général Álvarez de Castro lors des trois terribles sièges napoléoniens soutenus par la cité en 1808 et 1809 pendant la guerre d'indépendance espagnole.",
+    visiter: "Déboucher sur la place depuis le pont de Sant Agustí pour apprécier la rigueur symétrique des arcades néoclassiques et l'ampleur monumentale de l'esplanade piétonne. Rejoindre le terre-plein central pour examiner en détail le monument aux défenseurs de 1809, ses bas-reliefs historiés et sa statue allégorique en bronze dressée face à la ville ancienne. Faire le tour sous les galeries couvertes pour profiter de l'animation des terrasses ombragées avant de poursuivre vers les ruelles commerçantes du Mercadal ou les berges de l'Onyar.",
+    link: ""
+  },
+  {
     id: "gerone_cathedrale_sainte_marie",
     name: "Gérone - Cathédrale Sainte-Marie (Catedral de Santa Maria)",
     country: "Espagne",
