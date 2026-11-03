@@ -1,5 +1,56 @@
 const SPOTS_2 = [
   {
+    id: "gerone_bains_arabes",
+    name: "Gérone - Bains Arabes (Banys Àrabs)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Gérone",
+    subdiv: "Gérone",
+    altitude: 80,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Édifice Thermal Roman d'Inspiration Islamique (XIIe-XIIIe siècle)",
+    century: "XIIe siècle",
+    category: "batiment_culturel",
+    counts: { batiment_culturel: 1 },
+    lat: 41.98815,
+    lng: 2.82572,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN3Bi9nowsHmbDlguQvcWI6LVmZWW7eAmYSQbjgZ6sAEU9EHiYuY6tGO3ufgGNwS4JWecLYnoNqGfCi8Z4Q1EuEqqVDIct5Y1F3BPEZk3du9AdSz7Mq6MlvPrMK4xHRgwO59ht-heJfq23208oNBhMltg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Édifiés à la fin du XIIe siècle, vers 1194, sous le règne d'Alphonse II d'Aragon au pied de la cathédrale et des remparts de la Força Vella, les Bains arabes de Gérone (Banys Àrabs) constituent un chef-d'œuvre exceptionnel et unique d'architecture thermale civile en Catalogne. Malgré leur appellation traditionnelle héritée de l'influence stylistique des hammams d'al-Andalus et d'Afrique du Nord, il s'agit d'un établissement public d'hygiène et de sociabilité entièrement conçu en terre chrétienne selon les canons de l'art roman catalan. Dévasté en 1285 lors du siège de Gérone par les armées françaises de Philippe III le Hardi pendant la croisade d'Aragon, le complexe thermal fut reconstruit dès 1294 par le roi Jacques II avec une fidélité scrupuleuse aux plans d'origine. L'édifice reprend l'ordonnance spatiale séculaire des thermes romains à gradation thermique : le parcours s'amorce par l'emblématique apodyterium (vestiaire et salle de repos) couronné d'un lanterneau octogonal porté par huit colonnes romanes aux chapiteaux délicatement sculptés, entourant une vasque centrale, avant de traverser successivement le frigidarium (salle froide), le tepidarium (salle tiède percée d'oculi étoilés) et le caldarium (salle chaude sur hypocauste alimentée par un foyer de chauffe). Cédé au XVe siècle aux religieuses capucines qui l'intégrèrent à leur clôture conventuelle, le monument a été miraculeusement sauvé des démolitions urbaines avant sa réhabilitation dans les années 1920.",
+    visiter: "Franchir le porche discret situé en contrebas de la cathédrale pour pénétrer immédiatement dans l'éblouissant apodyterium. S'attarder autour de la vasque centrale octogonale pour observer le jeu de lumière zénithale tombant de la coupole et détailler les chapiteaux romans sculptés de sirènes, d'aigles et de feuillages. Suivre ensuite le défilé des salles voûtées en berceau de pierre : ressentir l'atmosphère intime du frigidarium, lever les yeux dans le tepidarium pour contempler les puits de jour étoilés perçant la voûte, puis examiner dans le caldarium les vestiges des conduits de briques de l'hypocauste. Terminer par la visite de la cour extérieure et de l'ancienne chaufferie (propignium) bordée par les jardins en terrasse dominés par le clocher de Sant Feliu.",
+    link: "",
+    sections: [
+      {
+        title: "L'apodyterium : vasque octogonale, colonnes romanes et coupole zénithale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN3Bi9nowsHmbDlguQvcWI6LVmZWW7eAmYSQbjgZ6sAEU9EHiYuY6tGO3ufgGNwS4JWecLYnoNqGfCi8Z4Q1EuEqqVDIct5Y1F3BPEZk3du9AdSz7Mq6MlvPrMK4xHRgwO59ht-heJfq23208oNBhMltg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPDVPd81uk7NyqtIKXkddpcOTihED2AmbK5DH_lIz69sFSp-MKi5dOiNYqu-uT8EIopDhYCQEbVmVDV3NCb_lL50-eMp7AwhuQ8azTjx1q73f3Z19uhPK6v1Ce7KuiGZeL1FLy1dn4zlGJdGw5vnZPqgw=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le parcours débute par la pièce la plus spectaculaire et la plus lumineuse de l'ensemble, l'apodyterium, qui servait à la fois de vestibule, de vestiaire et de salle de repos. Au centre de cet espace quadrangulaire s'élève une vasque octogonale peu profonde, ceinte de huit fines colonnes de calcaire surmontées de chapiteaux romans sculptés de motifs végétaux, d'oiseaux et de figures fantastiques. Ces colonnes soutiennent une série d'arcs en plein cintre qui portent un lanterneau percé d'une coupole, d'où tombe un puits de lumière zénithale directement reflétée dans l'eau. Tout autour de ce noyau central, le pourtour de la salle est couvert d'une voûte en berceau annulaire bordée d'alcôves maçonnées et de bancs de pierre où les usagers déposaient leurs vêtements et se détendaient avant et après le bain."
+      },
+      {
+        title: "Sauvegarde patrimoniale et clôture monastique des capucines",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN7wek0v7YU6V1y8_KjTWlOXq7Q_SDwOWpboAq9aq-bCCr02O_c1D7i9rYoNw9wR3ELla0BcMxsAsPOS_5zdvlcgA7-3j5MX814U-WAR7OvbNFMB6PHpYvRR5nFuOGOIZiqEYQbLChQ-4_zzcQUVAobYQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Après avoir perdu leur usage thermal public au cours du XIVe siècle, les bains furent rachetés au XVe siècle par la communauté des sœurs capucines, qui intégrèrent les structures dans la clôture de leur couvent pour les transformer en cellier, buanderie et réserve. Cette reconversion monastique a paradoxalement sauvé l'édifice des démolitions urbaines jusqu'à son rachat par la députation de Gérone dans les années 1920. Restauré par des architectes et historiens catalans, le monument se dresse aujourd'hui comme le complexe thermal médiéval le mieux préservé de Catalogne."
+      },
+      {
+        title: "Circuit thermal : frigidarium, tepidarium et caldarium à hypocauste",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMAG3Z7feXSpMY7WGH8Du4yWBe6RsKS-VzI3vCAHR8uztffVD0kWwNhDSJLBBGq73lfxD-axf8P0pBk0K31GHPnpCZoiNT4V5fl8zm4L3W9c4roEq_xzEG3Jj5MBP5IPbJm7crXN8blNd2-yrRCMZxCHg=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNLGgFoPx-DF8RmEzQ1Dxku2gAMueIFOPRv0yTv4nSUJLdbf74xakoR5NAN1opUmuQT_QhCc5Knd37JZH8Zhp7T5957DpX67vtU3c5XVqi_JbeA-nIERbL6hihtZ7uuagrGZ19SX7CgX-hG3nFq84hwFQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En franchissant un passage bas cintré conçu pour limiter les échanges d'air, vous pénétrez dans le frigidarium, la salle froide. Cette pièce étroite et sobre, voûtée en berceau de pierres soigneusement taillées, servait de sas de transition thermique et de lieu de friction à l'eau froide. Son dépouillement contraste nettement avec le décor de la pièce précédente, instaurant une atmosphère plus intime où l'éclairage naturel se réduit à quelques petites lucarnes zénithales. Le choc thermique de l'eau froide permettait de tonifier l'organisme et de resserrer les pores après le passage dans les pièces les plus chaudes du circuit.\n\nLa progression mène ensuite au tepidarium, la salle tiède, conçue comme un espace intermédiaire où la température et l'humidité commençaient à s'élever. Couverte d'une solide voûte en berceau continu, cette salle est percée dans sa partie supérieure d'oculi étoilés et circulaires qui laissent filtrer des faisceaux de lumière tamisée tout en permettant l'évacuation de la vapeur d'eau stagnante. C'est ici que les baigneurs s'attardaient longuement pour habituer leur corps à la chaleur, s'enduire d'huiles aromatiques, recevoir des massages ou bénéficier de soins esthétiques dispensés par le personnel des bains.\n\nAu bout du parcours se trouve le caldarium, la salle chaude, véritable cœur thermique de l'édifice. L'air y était saturé d'une vapeur brûlante produite par l'arrosage régulier des dalles surchauffées. La salle repose sur un ingénieux système d'hypocauste hérité de l'Antiquité romaine : le plancher est surélevé sur des piliers de briques et de pierres réfractaires, formant un vide sanitaire sous lequel circulaient les fumées et les gaz brûlants issus du foyer attenant. Des conduits en terre cuite insérés dans l'épaisseur des parois assuraient la montée des gaz chauds, réchauffant ainsi simultanément le sol et les murs. Des niches voûtées accueillaient des vasques d'eau chaude où les baigneurs venaient puiser pour transpirer abondamment et se purifier."
+      }
+    ]
+  },
+  {
     id: "gerone_basilique_sant_feliu",
     name: "Gérone - Basilique Saint-Félix (Sant Feliu)",
     country: "Espagne",
