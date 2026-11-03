@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr" class="h-full bg-slate-950 text-slate-100">
 <head>
+  <!-- Pré-connexion et optimisation réseau pour Google Photos CDN -->
+  <link rel="preconnect" href="https://lh3.googleusercontent.com" crossorigin>
+  <link rel="dns-prefetch" href="https://lh3.googleusercontent.com">
+
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MFL9VN8KZ2"></script>
 <script>
@@ -760,8 +764,30 @@
             1 / 1
           </div>
 
-          <!-- Légende de la photo active masquée si vide -->
-          <div id="modal-gallery-caption" class="absolute bottom-0 left-0 right-0 p-3 pt-6 bg-gradient-to-t from-slate-950/90 via-slate-950/50 to-transparent text-[11px] sm:text-xs text-slate-200 text-center font-medium leading-relaxed backdrop-blur-[1px] z-10 hidden"></div>
+          <!-- Bouton flottant pour réafficher la légende lorsqu'elle est masquée -->
+          <button id="modal-caption-toggle" onclick="toggleCaptionVisibility(event)" class="absolute bottom-3 left-3 z-30 px-3 py-1.5 rounded-xl bg-slate-950/90 hover:bg-cyan-950 border border-cyan-500/40 text-cyan-300 text-xs font-semibold backdrop-blur-md shadow-xl flex items-center gap-1.5 transition cursor-pointer hidden">
+            <i id="modal-caption-icon" class="fa-solid fa-align-left text-cyan-400"></i>
+            <span id="modal-caption-toggle-text">Afficher la légende</span>
+          </button>
+
+          <!-- Cartouche sombre avec ascenseur pour la lecture -->
+          <div id="modal-gallery-caption" class="absolute bottom-0 left-0 right-0 p-3 sm:p-4 bg-gradient-to-t from-slate-950 via-slate-950/95 to-transparent backdrop-blur-md z-20 transition-all duration-300 ease-in-out transform translate-y-0 opacity-100 hidden">
+            <div class="max-w-4xl mx-auto">
+              <div class="flex items-center justify-between gap-3 mb-2 pb-1.5 border-b border-cyan-500/20">
+                <div class="flex items-center gap-1.5 text-cyan-400 text-xs font-bold uppercase tracking-wider">
+                  <i class="fa-solid fa-circle-info text-[11px]"></i>
+                  <span>Légende</span>
+                </div>
+                <button type="button" onclick="toggleCaptionVisibility(event)" class="px-2.5 py-1 rounded-lg bg-slate-900/90 hover:bg-cyan-950 border border-cyan-500/30 text-cyan-300 hover:text-white text-xs font-semibold flex items-center gap-1.5 transition cursor-pointer shadow">
+                  <i class="fa-solid fa-eye-slash text-[11px]"></i>
+                  <span>Masquer la légende</span>
+                </button>
+              </div>
+              <div class="max-h-36 sm:max-h-44 overflow-y-auto custom-scrollbar pr-2">
+                <p id="modal-gallery-caption-text" class="text-xs sm:text-sm text-slate-100 font-normal leading-relaxed text-justify drop-shadow"></p>
+              </div>
+            </div>
+          </div>
 
         
         </div>

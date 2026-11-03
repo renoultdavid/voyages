@@ -834,7 +834,7 @@ function runAdvancedFilter() {
 
       card.innerHTML = `
         <div class="relative w-full h-28 sm:h-32 overflow-hidden bg-slate-950 shrink-0">
-          <img src="${spot.image || fallbackImg}" alt="${spot.name}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.src='${fallbackImg}'">
+          <img src="${getOptimizedThumbUrl(spot.image, 600) || fallbackImg}" alt="${spot.name}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.src='${fallbackImg}'">
           <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
           <div class="absolute top-1.5 left-1.5 flex items-center gap-1">
             <span class="text-xs px-1.5 py-0.5 rounded bg-slate-950/80 backdrop-blur-sm border border-slate-700/80">${spot.flag || '📍'}</span>
@@ -2231,6 +2231,7 @@ window.onload = function () {
   updateStats();
   initAdvancedFiltersCascade();
   runAdvancedFilter();
+  setTimeout(preloadContinentPhotos, 80);
   setTimeout(onWindowResize, 200);
 };
 
@@ -2393,6 +2394,7 @@ function openPoiModalViewer(spot, customSpotList = null) {
     closeLabel.innerText = (activeVoyagesView === 'view-explorer') ? 'Retour Galerie' : 'Retour Carte';
   }
 
+  isCaptionVisible = true;
   renderModalSpot(spot);
 
   const modal = document.getElementById('poi-modal-viewer');
@@ -2663,16 +2665,29 @@ function renderClassicViewerMode(spot, layout) {
 
       <div id="modal-gallery-counter" class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-slate-950/80 border border-cyan-400/40 text-cyan-300 font-mono text-[11px] font-bold shadow-lg backdrop-blur-sm z-20 hidden">1 / 1</div>
 
-      <!-- Bouton pour afficher ou masquer la légende -->
+      <!-- Bouton flottant pour réafficher la légende lorsqu'elle est masquée -->
       <button id="modal-caption-toggle" onclick="toggleCaptionVisibility(event)" class="absolute bottom-3 left-3 z-30 px-3 py-1.5 rounded-xl bg-slate-950/90 hover:bg-cyan-950 border border-cyan-500/40 text-cyan-300 text-xs font-semibold backdrop-blur-md shadow-xl flex items-center gap-1.5 transition cursor-pointer hidden">
-        <i id="modal-caption-icon" class="fa-solid fa-eye-slash"></i>
-        <span id="modal-caption-toggle-text">Masquer la légende</span>
+        <i id="modal-caption-icon" class="fa-solid fa-align-left text-cyan-400"></i>
+        <span id="modal-caption-toggle-text">Afficher la légende</span>
       </button>
 
       <!-- Cartouche sombre avec ascenseur pour la lecture -->
-      <div id="modal-gallery-caption" class="absolute bottom-0 left-0 right-0 p-4 pt-10 pb-4 bg-gradient-to-t from-slate-950 via-slate-950/95 to-transparent backdrop-blur-md z-20 transition-all duration-300 ease-in-out transform translate-y-0 opacity-100 hidden">
-        <div class="max-w-4xl mx-auto max-h-48 overflow-y-auto custom-scrollbar pr-2">
-          <p id="modal-gallery-caption-text" class="text-xs sm:text-sm text-slate-100 font-normal leading-relaxed text-justify drop-shadow"></p>
+      <div id="modal-gallery-caption" class="absolute bottom-0 left-0 right-0 p-3 sm:p-4 bg-gradient-to-t from-slate-950 via-slate-950/95 to-transparent backdrop-blur-md z-20 transition-all duration-300 ease-in-out transform translate-y-0 opacity-100 hidden">
+        <div class="max-w-4xl mx-auto">
+          <!-- Barre d'entête de la légende avec titre et bouton masquer -->
+          <div class="flex items-center justify-between gap-3 mb-2 pb-1.5 border-b border-cyan-500/20">
+            <div class="flex items-center gap-1.5 text-cyan-400 text-xs font-bold uppercase tracking-wider">
+              <i class="fa-solid fa-circle-info text-[11px]"></i>
+              <span>Légende</span>
+            </div>
+            <button type="button" onclick="toggleCaptionVisibility(event)" class="px-2.5 py-1 rounded-lg bg-slate-900/90 hover:bg-cyan-950 border border-cyan-500/30 text-cyan-300 hover:text-white text-xs font-semibold flex items-center gap-1.5 transition cursor-pointer shadow">
+              <i class="fa-solid fa-eye-slash text-[11px]"></i>
+              <span>Masquer la légende</span>
+            </button>
+          </div>
+          <div class="max-h-36 sm:max-h-44 overflow-y-auto custom-scrollbar pr-2">
+            <p id="modal-gallery-caption-text" class="text-xs sm:text-sm text-slate-100 font-normal leading-relaxed text-justify drop-shadow"></p>
+          </div>
         </div>
       </div>
     </div>
@@ -2796,14 +2811,7 @@ function renderSpotGalleryImage() {
   const hasCaption = currentItem.caption && currentItem.caption.trim() !== '';
   if (hasCaption) {
     if (captionText) captionText.innerHTML = currentItem.caption.replace(/\n\n/g, '<br><br>');
-    if (captionWrapper) {
-      captionWrapper.classList.remove('hidden');
-      captionWrapper.classList.remove('translate-y-full', 'opacity-0');
-    }
-    if (captionToggleBtn) {
-      captionToggleBtn.classList.remove('hidden');
-      updateCaptionToggleState(true);
-    }
+    updateCaptionToggleState(isCaptionVisible);
   } else {
     if (captionWrapper) captionWrapper.classList.add('hidden');
     if (captionToggleBtn) captionToggleBtn.classList.add('hidden');
@@ -2814,32 +2822,33 @@ let isCaptionVisible = true;
 
 function toggleCaptionVisibility(e) {
   if (e) e.stopPropagation();
-  const captionWrapper = document.getElementById('modal-gallery-caption');
-  if (!captionWrapper) return;
-
-  isCaptionVisible = !isCaptionVisible;
-
-  if (isCaptionVisible) {
-    captionWrapper.classList.remove('translate-y-full', 'opacity-0', 'pointer-events-none');
-    captionWrapper.classList.add('translate-y-0', 'opacity-100');
-  } else {
-    captionWrapper.classList.add('translate-y-full', 'opacity-0', 'pointer-events-none');
-    captionWrapper.classList.remove('translate-y-0', 'opacity-100');
-  }
-  updateCaptionToggleState(isCaptionVisible);
+  updateCaptionToggleState(!isCaptionVisible);
 }
 
 function updateCaptionToggleState(visible) {
   isCaptionVisible = visible;
+  const captionWrapper = document.getElementById('modal-gallery-caption');
+  const captionToggleBtn = document.getElementById('modal-caption-toggle');
   const icon = document.getElementById('modal-caption-icon');
   const label = document.getElementById('modal-caption-toggle-text');
-  if (icon && label) {
-    if (visible) {
-      icon.className = "fa-solid fa-eye-slash text-cyan-400";
-      label.innerText = "Masquer la légende";
-    } else {
-      icon.className = "fa-solid fa-align-left text-cyan-400";
-      label.innerText = "Lire la légende";
+
+  if (visible) {
+    if (captionWrapper) {
+      captionWrapper.classList.remove('hidden', 'translate-y-full', 'opacity-0', 'pointer-events-none');
+      captionWrapper.classList.add('translate-y-0', 'opacity-100');
+    }
+    if (captionToggleBtn) {
+      captionToggleBtn.classList.add('hidden');
+    }
+  } else {
+    if (captionWrapper) {
+      captionWrapper.classList.add('translate-y-full', 'opacity-0', 'pointer-events-none');
+      captionWrapper.classList.remove('translate-y-0', 'opacity-100');
+    }
+    if (captionToggleBtn) {
+      captionToggleBtn.classList.remove('hidden');
+      if (icon) icon.className = "fa-solid fa-align-left text-cyan-400";
+      if (label) label.innerText = "Afficher la légende";
     }
   }
 }
@@ -2998,7 +3007,7 @@ function updateLiveRadarPanel() {
 
       card.innerHTML = `
         <div class="relative w-16 h-16 rounded-xl overflow-hidden shrink-0 bg-slate-950 border border-slate-700/60 shadow-inner">
-          <img src="${spot.image || fallbackImg}" alt="${spot.name}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.src='${fallbackImg}'">
+          <img src="${getOptimizedThumbUrl(spot.image, 400) || fallbackImg}" alt="${spot.name}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.src='${fallbackImg}'">
           <div class="absolute bottom-0 right-0 px-1 py-0.5 rounded-tl-md flex items-center justify-center text-[9px] text-white font-bold shadow" style="background-color: ${cat.color};">
             <i class="fa-solid ${cat.icon}"></i>
           </div>
@@ -3118,6 +3127,38 @@ function updateLiveRadarPanel() {
    ========================================================================= */
 
 let activeVoyagesView = 'view-hub';
+
+/**
+ * Optimise dynamiquement les URLs d'images (Google Photos CDN lh3.googleusercontent.com)
+ * en adaptant la résolution demandée à la taille réelle d'affichage (vignettes vs HD).
+ * Réduit le poids d'une image de 3-6 Mo à ~50-80 Ko pour un affichage instantané des cartes.
+ */
+function getOptimizedThumbUrl(url, maxDim = 800) {
+  if (!url || typeof url !== 'string') return url;
+  if (url.includes('googleusercontent.com')) {
+    return url.replace(/=w\d+(-h\d+)?/i, `=w${maxDim}`);
+  }
+  return url;
+}
+
+/**
+ * Précharge discrètement en tâche de fond les 5 photos des continents dès l'arrivée sur le Hub.
+ * Évite le délai de connexion froide (DNS/SSL/Edge Google) lors du clic sur le volet gauche.
+ */
+function preloadContinentPhotos() {
+  if (typeof travelSpots === 'undefined' || !Array.isArray(travelSpots) || travelSpots.length === 0) return;
+  const continents = ['Europe', 'Afrique', 'Asie', 'Amériques', 'Océanie'];
+  continents.forEach(contName => {
+    const spots = travelSpots.filter(s => (s.continent || '') === contName);
+    if (spots.length > 0) {
+      const photo = getCachedRandomPhoto(`cont:${contName}`, spots);
+      if (photo) {
+        const img = new Image();
+        img.src = getOptimizedThumbUrl(photo, 800);
+      }
+    }
+  });
+}
 
 function pickRandomPhotoFromSpots(spots) {
   if (!Array.isArray(spots) || spots.length === 0) {
@@ -3461,9 +3502,10 @@ function createClusterGroupCard({
   applyClusterAnimationVars(card, index);
 
   const fallbackImg = 'https://placehold.co/900x600/0f172a/d4af37?text=Voyage';
+  const thumbUrl = getOptimizedThumbUrl(photoUrl, 800);
 
   card.innerHTML = `
-    <img class="cluster-card-bg" src="${photoUrl || fallbackImg}" alt="" loading="lazy" onerror="this.src='${fallbackImg}'">
+    <img class="cluster-card-bg" src="${thumbUrl || fallbackImg}" alt="" loading="lazy" onerror="this.src='${fallbackImg}'">
     <div class="cluster-card-overlay"></div>
 
     <div class="cluster-card-top">
@@ -3500,9 +3542,10 @@ function createExplorerPoiCard(spot, spotList, index) {
 
   const eraText = spot.century || spot.era_label || spot.era_group || 'Patrimoine';
   const altText = typeof spot.altitude === 'number' ? `${spot.altitude > 0 ? '+' : ''}${spot.altitude} m` : '';
+  const thumbUrl = getOptimizedThumbUrl(spot.image, 800);
 
   card.innerHTML = `
-    <img class="cluster-card-bg" src="${spot.image || fallbackImg}" alt="${spot.name}" loading="lazy" onerror="this.src='${fallbackImg}'">
+    <img class="cluster-card-bg" src="${thumbUrl || fallbackImg}" alt="${spot.name}" loading="lazy" onerror="this.src='${fallbackImg}'">
     <div class="cluster-card-overlay"></div>
 
     <div class="cluster-card-top">
