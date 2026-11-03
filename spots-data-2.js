@@ -31,11 +31,11 @@ const SPOTS_2 = [
       },
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczMzicJeH7HtqCvCuxSz8Wdq_hB57GWIdfCRfhP0pI7KpNxc-TiJAuAOImZanjIhhIfZ7Cs9bFzf0ez-ZIF8a8KZD8MJZb1adk2poNQ2MntUMX9bXO_hUpflqKxoD4wVXVyPtsozO8tcf3bYDCGO9-pLBQ=w1379-h919-s-no-gm?authuser=0",
-        caption: "Le portail principal en arc brisé, surmonté d'un tympan sculpté abritant la statue de la Vierge du Pin et entouré de profondes voussures ornées de motifs géométriques et floraux gothiques."
+        caption: ""
       },
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczNJyIcRnbhtAaZoT97zXL0fc56RexM14PoYhe0IE4SVpYWj6gHrTrSvDhkZIu7PAQ8oJQPqq4qmBGOXMl4x87k1w6_I8GWUC9wifOgVsUcwt94JMKIt4-uSMgjeOeEI0UoKiDE5aZpf-oQMY6X61bz9Vg=w1379-h919-s-no-gm?authuser=0",
-        caption: "Perspective extérieure sur l'imposant clocher octogonal haut de cinquante-quatre mètres et la masse minérale austère de la nef gothique bordant la plaça del Pi."
+        caption: ""
       }
     ],
     description: "Édifiée entre 1319 et 1391 au cœur de l'ancien quartier des corporations marchandes et artisanales du Barri Gòtic, la basilique Sainte-Marie-du-Pin (Basílica de Santa Maria del Pi) est l'un des exemples les plus purs et magistraux du gothique catalan à Barcelone. Bâtie sur l'emplacement d'une église paléochrétienne et romane mentionnée dès le Xe siècle — où la tradition rapporte la découverte miraculeuse d'une effigie de la Vierge dans le tronc d'un pin —, elle se caractérise par son austère façade occidentale en pierre calcaire de Montjuïc, dominée par sa colossale rosace de dix mètres de diamètre et flanquée d'une puissante tour de clocher octogonale haute de cinquante-quatre mètres. L'intérieur déploie un vaisseau unique grandiose de dix-sept mètres de largeur sous voûtes d'ogives, dépourvu de piliers intermédiaires et flanqué de chapelles latérales logées entre les contreforts. Éprouvée par le séisme de 1428 et incendiée en 1936 au début de la guerre civile espagnole, la basilique a fait l'objet d'une restauration scrupuleuse, marquée par la restitution fidèle de sa rosace par l'architecte Josep Maria Jujol et la préservation de son remarquable trésor d'orfèvrerie médiévale.",
@@ -123,11 +123,11 @@ const SPOTS_2 = [
     gallery: [
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczN3paylryiZiQBA3PZeielfRNh1WuQDU-HJJLbzY_tC3OYYgmKIMO7jNabk4LuWm4qMUb1sVM7kevk4LIkC95nUYMBtFx0ndh7n5aFS6CNNv23M74rIFpAq7qxbCLwwZ3Y7s_oAoGtGdon2pJhHF32Ekw=w613-h919-s-no-gm?authuser=0",
-        caption: "La majestueuse façade occidentale néo-gothique dressée sur le Pla de la Seu, conçue d'après les dessins médiévaux du XVe siècle et couronnée par son imposant dôme-lanterne ajouré haut de soixante-dix mètres."
+        caption: ""
       },
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczPI4Wn8YjPlaffZbEIJkcySIamuFQfsqsuy6MLQ9tfhp6BLUqstQ86Lbgn30VURXicGf-WrhhtmEv1I8RA55_2vRtkPDySE1drD00IqphxKQsq8dGJ7d4yoVD9fMM3CnjjB1O9toH6O4pxt9Qi8O-g-5A=w1379-h919-s-no-gm?authuser=0",
-        caption: "Perspective sur la nef gothique et le coro central fermé par ses stalles de chêne sculptées du XIVe siècle ornées des blasons des chevaliers de l'ordre de la Toison d'or réunis ici par Charles Quint en 1519."
+        caption: ""
       }
     ],
     description: "Érigée au sommet du mont Tàber au cœur du Barri Gòtic sur les fondations d'une basilique paléochrétienne du IVe siècle et d'une cathédrale romane, la cathédrale de la Sainte-Croix et de Sainte-Eulalie (Catedral de la Santa Creu i Santa Eulàlia, familièrement appelée La Seu) est le cœur spirituel et ecclésial de Barcelone. Construite entre 1298 et 1420 dans un gothique rayonnant catalan d'une rigoureuse perfection stéréotomique, elle présente un vaste vaisseau basilical à trois nefs et déambulatoire à chapelles rayonnantes où repose, dans une crypte souterraine ornée d'un somptueux sarcophage en albâtre d'inspiration pisane, sainte Eulalie, jeune vierge martyrisée en 304 par les Romains. Le chœur conserve les stalles sculptées du XIVe siècle où l'empereur Charles Quint tint en 1519 le prestigieux chapitre de l'ordre de la Toison d'or. L'édifice s'ouvre sur un cloître gothique féerique planté de palmiers, d'orangers et de magnolias, où vivent en permanence treize oies blanches immaculées rappelant l'âge et les treize supplices subis par sainte Eulalie. Sa façade occidentale et son dôme-lanterne central, achevés entre 1887 et 1913 par Josep Oriol Mestres et August Font d'après des dessins originaux du maître rouennais Carlí datant de 1408, confèrent à l'ensemble une monumentalité vertigineuse dominant le Pla de la Seu.",
@@ -184,19 +184,19 @@ const SPOTS_2 = [
     gallery: [
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczNE5dLkiYhKaujdFwSgTcDyNDhcc0FPr-Gfaeo-Qmnv4gSBviTPcG4lxZhmaWpyY6M4Gulo9HxtZ9Ox8jiVk_kLAGvHvxt2frbsGy9N4YTZIUPKejr_3saE7vgpmB0Os_usEDtxdXT7s1aHJ7IVqtRqvQ=w1379-h919-s-no-gm?authuser=0",
-        caption: "La façade baroque de l'église criblée par les impacts d'éclats de shrapnel de la bombe fasciste larguée le 30 janvier 1938, conservée intacte en témoignage mémoriel de la tragédie."
+        caption: ""
       },
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczO3Q4tYS9ugUTIXMRlGqP1DTwIdFE72EbVGuvNvZD-MAlZPJOALEzTS4ZG6Y8AepD5SDoZf0TtpjioSfyIFbxuGyiab2ZzLkYMzCxmFSuS3QklhdrBFhDYw83G6LZRFWgLW6IYjhN0aNqXkP0R04mTVLQ=w1379-h919-s-no-gm?authuser=0",
-        caption: "La paisible plaça de Sant Felip Neri ombragée par des acacias centenaires et centrée sur sa fontaine octogonale en pierre, havre de silence et de recueillement au cœur de l'ancien quartier juif."
+        caption: ""
       },
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczMWzunjh9ztdNrt4jmK_0TFSLXp4RAa0WsVAyIy_B3ClvkSpOtw4GYLB2jgIXn0K9iHznydVyZ6d9v5DXEzQcKDls3jlfb0My6vIyZJT8xtjiCpgeJeDBCzQwmhkwcI__bsUCbxmJvawLvRpALhVj9qnQ=w1379-h919-s-no-gm?authuser=0",
-        caption: "Vue intérieure sur le vaisseau baroque à nef unique et chapelles latérales communicantes, sanctuaire intime où Antoni Gaudí venait quotidiennement prier avant son accident fatal en 1926."
+        caption: ""
       },
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczMnc_IoaYdAkbAE0vIur6vuEISy3-EnLOI4KNifKO_ISYrKfT-qiA6dlxO3rP55W3dO3zaBjYgLDMnAQkREY47H_VgarIENtqTrKjmtrsAvmFTCPJvF1bzazb4am97kRbkzldpzJ7lh6QdhRZVHl4QybQ=w1379-h919-s-no-gm?authuser=0",
-        caption: "Perspective latérale sur les maçonneries anciennes de la place, intégrant les façades déplacées des anciennes corporations des chaudronniers et des cordonniers rescapées des percées urbaines."
+        caption: ""
       }
     ],
     description: "Nichée dans une petite clairière urbaine secrète et silencieuse au cœur de l'ancien quartier juif du Call, l'église Saint-Philippe-Néri (Església de Sant Felip Neri) est l'un des rares et plus purs témoins du baroque de la Contre-Réforme à Barcelone. Édifiée entre 1721 et 1752 pour la congrégation de l'Oratoire selon les plans de Pere Bertran et Salvador Ausich, elle présente une sobre façade en calcaire blond ordonnée en deux registres sommés d'un fronton semi-circulaire concave et d'un portail à pilastres baroques. L'intérieur déploie une nef unique spacieuse couverte d'un berceau à lunettes bordé de chapelles latérales communicantes peu profondes. Le site porte une charge historique et mémorielle poignante : le 30 janvier 1938, l'aviation fasciste italienne bombarda la place, détruisant le couvent adjacent et provoquant la mort de quarante-deux personnes, dont vingt enfants réfugiés dans le sous-sol de l'église. La façade en pierre de taille a été volontairement conservée sans rebouchage avec ses centaines d'impacts d'obus et de mitraille, offrant un cénotaphe silencieux à ciel ouvert. L'église était en outre le refuge spirituel d'Antoni Gaudí, qui s'y rendait à pied chaque après-midi pour prier lorsqu'il fut mortellement heurté par un tramway le 7 juin 1926 sur la Gran Via.",
@@ -397,7 +397,7 @@ const SPOTS_2 = [
       },
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczP0ENyVvPxo5daNDLiyhMBHp2cA7rxf-xBG97o4Kaqa8uqfMmHsFjtMKvuyTEYiKv40zAZdY1uNZu96oTLuSc1I9xu9e6eHP6pIogG1Z4RaUnQm1yzFF2x1pS_UWXtgG4-xh21Wg15NHuLdISggSCSRzw=w613-h919-s-no-gm?authuser=0",
-        caption: "La forêt de colonnes arborescentes de la nef centrale en porphyre et granit, s'évasant en branches sous des voûtes hyperboloïdes baignées par la lumière chatoyante des grandes verrières polychromes."
+        caption: ""
       }
     ],
     description: "Œuvre maîtresse universelle d'Antoni Gaudí et symbole absolu de Barcelone, le temple expiatoire de la Sagrada Família est le monument le plus extraordinaire et novateur de l'architecture sacrée contemporaine. Commencé en 1882 sous la direction de Francisco de Paula del Villar puis repris dès 1883 par Gaudí qui y consacra plus de quarante années de sa vie jusqu'à sa mort en 1926, ce sanctuaire transpose les lois organiques de la nature dans une géométrie spatiale révolutionnaire à base de paraboloïdes et d'hyperboloïdes. Conçu selon un plan basilical à cinq nefs et trois façades monumentales — la Nativité, foisonnante et sculptée du vivant de l'architecte (classée au patrimoine mondial de l'UNESCO), la Passion, austère et dramatique sculptée par Subirachs, et la Gloire en cours d'achèvement —, l'édifice est pensé comme une Bible de pierre dominée par dix-huit tours symbolisant les apôtres, les évangélistes, la Vierge et le Christ. À l'intérieur, l'élévation s'affranchit des contreforts gothiques traditionnels grâce à une forêt féerique de colonnes arborescentes inclinées dont les ramures soutiennent des voûtes ajourées, inondées de gerbes de lumière multicolores filtrées par les vitraux de Joan Vila-Grau.",
@@ -485,7 +485,7 @@ const SPOTS_2 = [
       },
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczPf0dG8eAHxIqdiewZxg5fQGHnPIUJynkDKODOg1DBvnm6fBCiOvCI3a4w7fxUuyEJ6G_L7E7hLh_Tg1WgIzERdnyXhkwshiLSVvPqMqFodhyXde4Gmnoh7DncQkyYtd76jG6JZwAzPgn_pKJzlXEliWw=w1379-h919-s-no-gm?authuser=0",
-        caption: "Le spectaculaire toit-terrasse vallonné et son jardin de cheminées sculpturales anthropomorphes, évoquant une armée de guerriers casqués veillant sur la ville entre tours de ventilation et mosaïques de céramique."
+        caption: ""
       }
     ],
     description: "Édifiée entre 1906 et 1912 au carrefour du prestigieux Passeig de Gràcia et de la rue Provença pour le riche promoteur Pere Milà et son épouse Roser Segimon, la Casa Milà — universellement surnommée La Pedrera (« la carrière de pierre ») en raison de son allure de falaise minérale brute — est le dernier chef-d'œuvre civil d'Antoni Gaudí avant qu'il ne se consacre exclusivement à la Sagrada Família. Révolution architecturale totale, l'immeuble se dispense de tout mur porteur traditionnel grâce à une structure novatrice de piliers en pierre et poutres d'acier, autorisant des plans d'appartements entièrement libres et modulables. Sa façade ondulante en calcaire blond, semblable à une vague pétrifiée sculptée par le vent marin, est ponctuée de trente-deux balcons en fer forgé recyclé aux formes d'algues et de lianes façonnés par Josep Maria Jujol. L'édifice s'organise autour de deux immenses cours intérieures baignées de lumière, un grenier spectaculaire voûté de deux cent soixante-dix arcs caténaires en briques (l'Espai Gaudí) évoquant le squelette d'un cétacé, et culmine sur un toit-terrasse vallonné légendaire peuplé de cheminées et bouches d'aération sculptées comme des sentinelles casquées. Inscrite au patrimoine mondial de l'UNESCO en 1984, La Pedrera incarne le génie absolu de l'architecture organique universelle.",
