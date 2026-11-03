@@ -1,5 +1,137 @@
 const SPOTS_2 = [
   {
+    id: "castellfollit_de_la_roca_mirador",
+    name: "Castellfollit de la Roca - Mirador sur la Falaise Basaltique",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Gérone",
+    subdiv: "Castellfollit de la Roca",
+    altitude: 236,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Coulée Volcanique & Orgues Basaltiques (Temps Géologique)",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 42.21950,
+    lng: 2.55607,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPFZyjyA3pWSYi1lV6aNhA9WvgwI5uM7HmYxx9X-n0C1zQFqsS93ZK0Vu7N1WomYV0RhbZ5keziUcIVuEXFgS3-Zbo7tQjl-6a2YQk-hn2i83giOfLV_AdAubtLaNP7ebGi1wjObms9-EoMAimmY7j7DQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNl_hOp96YM9IfyiukRNeWGe7HhzovKPiiYqPyQx8MtsIaVkah33i4bZFVxHjErJ_G8oIiu9Cz-o4m7LpF9hXImWuSC7Fn60uO9A2_nOD_3F5WX6TZRbeGPpk44ZzYO6py_MtemD9Dz6MyRllQx-L69lQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "Perspective vertigineuse sur la spectaculaire falaise basaltique haute de près de cinquante mètres, sculptée par l'érosion conjointe des rivières Fluvià et Toronell. Les maisons médiévales en moellons volcaniques et la silhouette de la vieille église semblent défier les lois de la gravité au bord de l'abîme prismatique."
+      }
+    ],
+    description: "Aménagé en contrebas du village sur la rive opposée du Fluvià, ce mirador naturel offre l'un des panoramas géologiques et paysagers les plus saisissants d'Espagne, au cœur du parc naturel de la zone volcanique de la Garrotxa. Il fait face à la falaise basaltique monumentale de Castellfollit de la Roca, longue d'un kilomètre et haute de cinquante mètres, née de la superposition de deux coulées de lave successives survenues il y a environ 217 000 et 192 000 ans. L'érosion fluviatile millénaire a patiemment dégagé ce promontoire abrupt, révélant un maillage spectaculaire d'orgues et de colonnes basaltiques hexagonales formées par la contraction thermique de la lave lors de son lent refroidissement. Au sommet de cette crête volcanique étroite s'étirent en un ruban suspendu les maisons médiévales de pierre sombre et le clocher de la vieille église Saint-Sauveur, composant une silhouette vertigineuse devenue l'icône territoriale de la Catalogne intérieure.",
+    visiter: "Rejoindre le belvédère aménagé près des passerelles piétonnes traversant le lit du Fluvià pour saisir dans toute sa démesure l'élévation verticale de la falaise basaltique. Examiner les différentes strates prismatiques de lave solidifiée dont les prismes géométriques soutiennent les fondations des habitations perchées au bord du vide. Poursuivre le sentier de berge ombragé pour observer les potagers traditionnels et remonter par les calades pavées vers le centre historique.",
+    link: ""
+  },
+  {
+    id: "besalu_monastere_saint_pierre",
+    name: "Besalú - Monastère Saint-Pierre (Sant Pere)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Gérone",
+    subdiv: "Besalú",
+    altitude: 151,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Abbaye Bénédictine & Chef-d'œuvre Roman Catalan (Xe-XIIe siècle)",
+    century: "XIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 42.19820,
+    lng: 2.69902,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOGk4q_LC5sfOsX51Xnorolt0hArnFILR_EkSd227E0hZ5eu-Ypaub0OfeXVA0sM7Xhcc4OJvxO98tImf8DRtGU8dUNtSkTXEudqT3KkSB7iG420-wFCcYFSo5mNNoyANM-p2AZCSVu53RcSQNn7P8-yg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNM6Os_2QWhRl5r0ZJNIhrKcYktvySWyKTf4Djob3D1Z8W4gJxzETOHhImDFO0AQiJz6FqhR6AWk8vn8B7CtIImGiR9NYZ8HsCA1WqWEdvvksQ8tfXzlw5xG4omVmIyDxj4yQE6X6taQcvShkmqpsf6bQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "La façade occidentale de l'abbatiale Sant Pere de Besalú, parée de calcaire blond soigneusement taillé, se distingue par son portail en plein cintre à voussures sobres surmonté d'une remarquable fenêtre ornée de deux lions sculptés symbolisant la protection de l'Église et la puissance spirituelle bénédictine."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN9Bq454_-OGU57Ulu8GSWH8Q8dYLcsIGszJPLzF7kGHa5lRUhSSv9gILUOJZyFYI3bFhlRQJmL5wxHS3vEiq-eHBv2jqaDjhQc4ydjaslAGNyWD42QUO8JaZDreM9rEghWgGtpM5gtyjnxkRS_6wdsDA=w1379-h919-s-no-gm?authuser=0",
+        caption: "La nef, élément central de cette structure bénédictine, se distingue par une sobriété monumentale typique de l'art roman catalan à son apogée, alliant une rigueur géométrique à une solidité défensive.\n\nL'espace intérieur s'organise autour d'une nef unique de grandes dimensions, couverte par une imposante voûte en berceau plein cintre. Cette voûte repose sur de puissants arcs-doubleaux qui rythment la perspective et dirigent le regard vers le chœur. L'utilisation de la pierre de taille locale, travaillée avec une grande précision, confère à l'ensemble une unité chromatique et texturale qui accentue le caractère solennel et immuable du lieu. Les murs latéraux, d'une épaisseur remarquable, soutiennent la poussée de la voûte sans l'aide de contreforts extérieurs saillants, renforçant l'aspect massif de l'édifice.\n\nL'éclairage de la nef est volontairement restreint, créant une atmosphère de recueillement où la lumière joue un rôle symbolique. Outre les petites fenêtres ébrasées percées dans les murs collatéraux, la source lumineuse principale provient d'un oculus circulaire situé au sommet de l'abside et de fenêtres hautes qui percent la partie supérieure de la nef. Ce dispositif permet une progression lumineuse depuis la pénombre de l'entrée vers l'éclat relatif de l'autel, soulignant la hiérarchie sacrée de l'espace ecclésial.\n\nL'une des particularités architecturales les plus notables de Sant Pere est le déambulatoire qui entoure le chœur, une caractéristique rare pour une église de cette taille en Catalogne, suggérant une fonction de pèlerinage. Ce passage est séparé du sanctuaire par une série de colonnes aux chapiteaux richement sculptés, dont les motifs représentent des scènes bibliques ou des figures végétales. Ces éléments décoratifs contrastent avec le dépouillement volontaire de la nef, offrant aux fidèles un support visuel à la méditation et à l'enseignement religieux au sein de cette forteresse spirituelle."
+      }
+    ],
+    description: "Fondé en 977 par le comte de Besalú et évêque de Gérone Miró Bonfill au sein de l'ancienne capitale comtale, le monastère bénédictin Saint-Pierre (Monestir de Sant Pere de Besalú) constitue l'un des sommets du premier et second art roman catalan. Reconstruite et consacrée solennellement en 1160 après un développement monastique florissant, l'église abbatiale actuelle se singularise par sa vaste nef en berceau plein cintre scandée d'arcs-doubleaux et, fait exceptionnel pour l'architecture religieuse de la région, par un déambulatoire ceinturant le chœur liturgique. Destiné à canaliser les flux de pèlerins venus vénérer les précieuses reliques de saint Prim et saint Félicien apportées de Rome, ce déambulatoire s'orne de huit colonnes monolithes coiffées de chapiteaux historiés d'une grande vigueur expressive, illustrant des scènes évangéliques dont le massacre des Innocents et des bêtes affrontées. Protégée par des murs d'appareil d'une formidable épaisseur, la façade occidentale déploie un sobre portail encadré d'une baie remarquable flanquée de deux lions sculptés symbolisant la force et la bienveillance du sanctuaire.",
+    visiter: "Déboucher sur la place Saint-Pierre pour embrasser la monumentalité de la façade romane et détailler la fenêtre axiale gardée par ses deux lions en haut-relief. Pénétrer dans le vaisseau pour ressentir la solennité de la nef voûtée en plein cintre et progresser vers le chevet afin d'emprunter le déambulatoire. Examiner attentivement les huit chapiteaux sculptés entourant le maître-autel, véritables chefs-d'œuvre de la sculpture romane du XIIe siècle, avant de ressortir sur le parvis pavé menant au dédale des ruelles médiévales de Besalú.",
+    link: ""
+  },
+  {
+    id: "besalu_place_de_la_liberte",
+    name: "Besalú - Place de la Liberté (Plaça de la Llibertat)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Gérone",
+    subdiv: "Besalú",
+    altitude: 156,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Cœur Urbain Médiéval & Galeries à Arcades (XIIIe-XVIIIe siècle)",
+    century: "XIIIe siècle",
+    category: "place",
+    counts: { place: 1 },
+    lat: 42.19874,
+    lng: 2.69946,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPrePjzSgSZhvA6vDgefMqHrDa0hxCojsn72pQwEjHjf_4VxOpDg0WH-qPXGnRJrx9e8MpaiR0n68r25iHPMJP2k5YFGrPKhR7gZ8AjI3X5UvAbHl8qrh3GclLx3Y9cre3WudiFP_yG9FT2QgZYTwwSFw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMbChvUXItmioqag25_KyMoLyo9FWxuZE47eRJDnYEn_Bg6KYdVlPgxJLg-Lpfg7jvlQWeZow0OGokGXSwnuhuQXdCbL-uU4a0EQAwDYAVAwnfaNMzm6priWNaTu-cgQ-4CWFae5ant1WZRnI9btitspw=w1379-h919-s-no-gm?authuser=0",
+        caption: "Vue sous les galeries couvertes de la place de la Liberté, où alternent voûtes appareillées, arcades cintrées en calcaire et façades médiévales accueillant terrasses et commerces d'artisanat."
+      }
+    ],
+    description: "Centre névralgique et forum historique de la cité comtale, la place de la Liberté (Plaça de la Llibertat) s'impose comme l'un des espaces publics médiévaux les plus pittoresques et harmonieux de Catalogne. Aménagée au XIIIe siècle au cœur de l'ancien bourg marchand et artisanal pour accueillir les marchés agricoles et les foires régionales instituées par les comtes de Besalú, cette place quadrangulaire est bordée sur ses flancs de galeries couvertes à arcades en plein cintre et en anse de panier taillées dans le calcaire local. Ces passages abrités permettaient aux marchands et négociants d'exposer leurs toiles, grains et épices à l'abri des intempéries et du soleil méditerranéen. Les bâtisses ceinturant l'esplanade, surélevées de deux à trois étages aux toitures de tuiles canal, conservent d'anciens logis patriciens médiévaux et Renaissance, dont l'ancienne maison de la Curie royale (Casa de la Cúria). Véritable carrefour d'échanges civiques où se croisent les ruelles menant au quartier juif, à l'abbaye Sant Pere et au pont fortifié, la place conserve une animation vivante rythmée par ses terrasses et son pavage séculaire.",
+    visiter: "Déambuler sous les arcades ombragées de la place pour apprécier le jeu géométrique des piles de pierre et les perspectives sur les façades médiévales ceinturant l'esplanade. Observer les éléments de ferronnerie des balcons et les traces d'anciens linteaux gravés sur les demeures historiques. Faire une halte en terrasse pour s'imprégner de l'atmosphère médiévale catalane avant de s'engager dans la rue du Pont ou vers l'ancien quartier juif de la cité.",
+    link: ""
+  },
+  {
+    id: "besalu_pont_fortifie",
+    name: "Besalú - Pont Fortifié (Pont Vell)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Gérone",
+    subdiv: "Besalú",
+    altitude: 139,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Ouvrage d'Art Fortifié & Péage Comtal (XIe-XIVe siècle)",
+    century: "XIIe siècle",
+    category: "pont",
+    counts: { pont: 1 },
+    lat: 42.19934,
+    lng: 2.70151,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMxFYdhqQ1hkVFSHB7IcD2K_WzDt3fhZ9Mo_7Jz2AsFlKjUIdZdsW-NFjbtnkqmP8OkBPoF-WbYcV33To7s6muIk0dFj6g9MVj2chMdAa6g75a0RDthzihYKRmBGL7JgWgO6XssdXCtHqSaxIgmJ2tYtQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOphbTRL0cRXx-8Jx-uijTDnv3FGMg7ztiGwWSzK1eIyHFwi2MOSuMbmw2Neq8dAfPm3JwtkyxYm8O96fZT_rdEckFt4ehHg-Wtiei6RR8nf5H94EzQkb34znK8vXftwQCPAS3h183UGcQ9529y-YgXiw=w1379-h919-s-no-gm?authuser=0",
+        caption: "Perspective magistrale sur les arches inégales du pont enjambant les eaux calmes du Fluvià, illustrant le profil coudé de l'ouvrage s'appuyant directement sur les bancs de roche du lit fluvial."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOiMO-a4l_UPSS03AQS7jwzd0HKYnANkU16bHGlWXZFfQWh7xWDRl3Hr1pzZ0EfCo7pFk163xSPMIBthXANu_WWAHnMtQDz_DpkoQkz1XRDPoj5A1WVuYnQVtS2_oJ2Wrq7fF0z8lPi3Sm2hDw08ebdeg=w1379-h919-s-no-gm?authuser=0",
+        caption: "La porte fortifiée hexagonale centrale munie de sa herse et de son passage voûté, ancien poste de péage et bastion de contrôle d'accès à la ville comtale fortifiée."
+      }
+    ],
+    description: "Jeté avec une hardiesse magistrale au-dessus des eaux du Fluvià, le pont fortifié de Besalú (Pont Vell) est l'un des ouvrages d'art militaires médiévaux les plus célèbres et spectaculaires d'Europe. Attesté dès le XIe siècle sous le règne comtal puis reconstruit au XIVe siècle sous Pierre IV d'Aragon après d'importantes crues fluviales, ce colosse de calcaire s'étire sur cent trente-cinq mètres au moyen de sept arches en plein cintre inégales. Sa morphologie atypique en double coude répond à une contrainte géologique astucieuse : les piliers massifs ont été ancrés directement sur les bancs de roche affleurant dans le lit de la rivière pour assurer la stabilité de la structure. Doté d'un châtelet d'entrée et d'une imposante tour hexagonale centrale crénelée munie d'une herse, le pont remplissait une double fonction stratégique : verrou défensif inexpugnable contrôlant l'accès à la cité et péage fiscal (barbacanatge) prélevant des taxes sur les marchands et voyageurs entrant dans le comté. Restauré après sa destruction partielle lors de la retraite des troupes républicaines en 1939, ce monument emblématique classé Monument Historique-Artistique National offre une silhouette monumentale dont les reflets dorés baignent dans les eaux du fleuve.",
+    visiter: "Traverser à pied le tablier pavé du pont depuis la rive orientale pour mesurer l'inflexion en angle brisé de ses travées et la puissance de ses becs brise-lames. Franchir la voûte en ogive de la tour de garde centrale en examinant la rainure de la herse et les meurtrières de tir. Marquer une halte au milieu du franchissement pour contempler le panorama imprenable sur la vieille ville médiévale, les vestiges des bains rituels juifs (miqvé) sur la berge et les contreforts pyrénéens à l'horizon.",
+    link: ""
+  },
+  {
     id: "castellfollit_de_la_roca_tour_de_l_horloge",
     name: "Castellfollit de la Roca - Tour de l'Horloge",
     country: "Espagne",
