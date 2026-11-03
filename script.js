@@ -834,7 +834,7 @@ function runAdvancedFilter() {
 
       card.innerHTML = `
         <div class="relative w-full h-28 sm:h-32 overflow-hidden bg-slate-950 shrink-0">
-          <img src="${getOptimizedThumbUrl(spot.image, 600) || fallbackImg}" alt="${spot.name}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.src='${fallbackImg}'">
+          <img src="${spot.image || fallbackImg}" alt="${spot.name}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.src='${fallbackImg}'">
           <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
           <div class="absolute top-1.5 left-1.5 flex items-center gap-1">
             <span class="text-xs px-1.5 py-0.5 rounded bg-slate-950/80 backdrop-blur-sm border border-slate-700/80">${spot.flag || '📍'}</span>
@@ -3130,7 +3130,7 @@ function updateLiveRadarPanel() {
 
       card.innerHTML = `
         <div class="relative w-16 h-16 rounded-xl overflow-hidden shrink-0 bg-slate-950 border border-slate-700/60 shadow-inner">
-          <img src="${getOptimizedThumbUrl(spot.image, 400) || fallbackImg}" alt="${spot.name}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.src='${fallbackImg}'">
+          <img src="${spot.image || fallbackImg}" alt="${spot.name}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.src='${fallbackImg}'">
           <div class="absolute bottom-0 right-0 px-1 py-0.5 rounded-tl-md flex items-center justify-center text-[9px] text-white font-bold shadow" style="background-color: ${cat.color};">
             <i class="fa-solid ${cat.icon}"></i>
           </div>
@@ -3251,16 +3251,8 @@ function updateLiveRadarPanel() {
 
 let activeVoyagesView = 'view-hub';
 
-/**
- * Optimise dynamiquement les URLs d'images (Google Photos CDN lh3.googleusercontent.com)
- * en adaptant la résolution demandée à la taille réelle d'affichage (vignettes vs HD).
- * Réduit le poids d'une image de 3-6 Mo à ~50-80 Ko pour un affichage instantané des cartes.
- */
-function getOptimizedThumbUrl(url, maxDim = 800) {
-  if (!url || typeof url !== 'string') return url;
-  if (url.includes('googleusercontent.com')) {
-    return url.replace(/=w\d+(-h\d+)?/i, `=w${maxDim}`);
-  }
+function getOptimizedThumbUrl(url) {
+  // Conserver l'URL d'origine intacte (les URLs Google Photos /pw/ intègrent une signature stricte)
   return url;
 }
 
@@ -3277,7 +3269,7 @@ function preloadContinentPhotos() {
       const photo = getCachedRandomPhoto(`cont:${contName}`, spots);
       if (photo) {
         const img = new Image();
-        img.src = getOptimizedThumbUrl(photo, 800);
+        img.src = photo;
       }
     }
   });
@@ -3625,10 +3617,9 @@ function createClusterGroupCard({
   applyClusterAnimationVars(card, index);
 
   const fallbackImg = 'https://placehold.co/900x600/0f172a/d4af37?text=Voyage';
-  const thumbUrl = getOptimizedThumbUrl(photoUrl, 800);
 
   card.innerHTML = `
-    <img class="cluster-card-bg" src="${thumbUrl || fallbackImg}" alt="" loading="lazy" onerror="this.src='${fallbackImg}'">
+    <img class="cluster-card-bg" src="${photoUrl || fallbackImg}" alt="" loading="lazy" onerror="this.src='${fallbackImg}'">
     <div class="cluster-card-overlay"></div>
 
     <div class="cluster-card-top">
@@ -3665,10 +3656,9 @@ function createExplorerPoiCard(spot, spotList, index) {
 
   const eraText = spot.century || spot.era_label || spot.era_group || 'Patrimoine';
   const altText = typeof spot.altitude === 'number' ? `${spot.altitude > 0 ? '+' : ''}${spot.altitude} m` : '';
-  const thumbUrl = getOptimizedThumbUrl(spot.image, 800);
 
   card.innerHTML = `
-    <img class="cluster-card-bg" src="${thumbUrl || fallbackImg}" alt="${spot.name}" loading="lazy" onerror="this.src='${fallbackImg}'">
+    <img class="cluster-card-bg" src="${spot.image || fallbackImg}" alt="${spot.name}" loading="lazy" onerror="this.src='${fallbackImg}'">
     <div class="cluster-card-overlay"></div>
 
     <div class="cluster-card-top">
