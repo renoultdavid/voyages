@@ -1,5 +1,96 @@
 const SPOTS_2 = [
   {
+    id: "gerone_basilique_sant_feliu",
+    name: "Gérone - Basilique Saint-Félix (Sant Feliu)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Gérone",
+    subdiv: "Gérone",
+    altitude: 83,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Sanctuaire Paléochrétien, Nef Romane & Gothique (IVe-XIVe siècle)",
+    century: "XIVe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 41.98801,
+    lng: 2.82479,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMbXmGROTbji9NBAm806nwrBMuFxzXY2DkG5gjP4_M5G7hY-e89snZGwvpNodIQzFXS--wjZw8cFJu_y1vR15olD8qy2ZTVFvb2ubCXsBTBJILq4epl9sqy2wL8w1hJG3W5Pw8gx6ZuwzAVkbcNJyItBA=w1379-h919-s-no-gm?authuser=0",
+    description: "Dressée au pied de la colline de la cathédrale en bordure de la rivière Onyar, la basilique Saint-Félix (Basílica de Sant Feliu) est le sanctuaire chrétien le plus vénérable et ancien de Gérone, ayant servi de siège cathédral jusqu'au Xe siècle. Érigée au-dessus du martyrium paléochrétien de saint Félix (martyrisé en 304 sous Dioclétien) et abritant également les reliques de saint Narcisse, patron de la cité, elle illustre une synthèse monumentale entre la sobriété romane des XIe-XIIe siècles et l'essor du gothique catalan des XIIIe et XIVe siècles. Bâti en calcaire blond local, l'édifice se signale au loin par son célèbre clocher gothique octogonal du XIVe siècle, dont la flèche tronquée et les pinacles ajourés veillent sur le pont de Sant Feliu. L'intérieur déploie un vaste vaisseau articulé en trois nefs où de puissantes arcades cintrées d'origine romane supportent de hautes voûtes d'ogives gothiques. Le sanctuaire est universellement réputé pour son exceptionnel trésor lapidaire enchâssé dans les parois du chevet : un ensemble unique de huit sarcophages païens et paléochrétiens des IIIe et IVe siècles, dont le saisissant rapt de Proserpine, ainsi que le magnifique monument funéraire gothique de saint Narcisse sculpté en 1328 par Jean de Tournai.",
+    visiter: "Franchir la place Sant Feliu pour apprécier l'élévation de la tour-clocher octogonale et le dialogue entre les massifs romans et les baies gothiques de la façade. Pénétrer dans la nef pour ressentir la solennité de la voûte d'ogives élancée reposant sur ses piles quadrangulaires sobres. Gagner le chœur liturgique afin d'examiner au plus près la série inestimable de sarcophages romains et paléochrétiens encastrés dans les maçonneries, avant de s'attarder avec recueillement devant le tombeau gothique polychrome de saint Narcisse et son gisant ciselé par Jean de Tournai.",
+    link: "",
+    sections: [
+      {
+        title: "Façade occidentale et clocher gothique tronqué",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMbXmGROTbji9NBAm806nwrBMuFxzXY2DkG5gjP4_M5G7hY-e89snZGwvpNodIQzFXS--wjZw8cFJu_y1vR15olD8qy2ZTVFvb2ubCXsBTBJILq4epl9sqy2wL8w1hJG3W5Pw8gx6ZuwzAVkbcNJyItBA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Vue de la façade extérieure dominée par son célèbre clocher gothique octogonal tronqué, chef-d'œuvre du XIVe siècle percé de baies géminées et de pinacles ajourés qui constitue le signal visuel le plus emblématique de la basse ville de Gérone."
+      },
+      {
+        title: "Élévation de la nef gothique et arcades romanes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP9AZMaZaU--XDMQdlU1U0PMG35mf5CLhbQwnKbpuyh1UkZRxlRb1wcvS3tQMQtJOAnegmV-xHPl4MP-dAXb06eIixB5dmkBocHm-DQkb6GZvedHQnOMTfbUcmkrp90PC9DAOWUMssdNGyMSUVP84lc0A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'espace intérieur se caractérise par une nef principale de style gothique, dont l'élévation est rythmée par de grandes arcades en plein cintre héritées de la période romane. Cette synthèse stylistique est particulièrement visible au niveau des voûtes : la nef est couverte d'une voûte sur croisée d'ogives, typique du gothique, qui s'élève bien au-dessus des bas-côtés plus anciens. Les piliers massifs, robustes et sans fioritures excessives, soutiennent cette structure avec une élégance austère, propre au gothique catalan.\n\nLe chœur, visible en arrière-plan derrière la grille (reja), constitue le point focal spirituel de la basilique. Il abrite un retable remarquable et est éclairé par de hautes fenêtres étroites dont les vitraux filtrent une lumière colorée, contrastant avec la tonalité sobre de la pierre de taille. L'absence de triforium laisse place à des murs nus dans la partie supérieure de la nef, ce qui accentue l'impression de volume et de verticalité, tout en conservant une massivité qui rappelle les racines romanes de l'édifice."
+      },
+      {
+        title: "Sarcophages paléochrétiens et païens du chœur (Rapt de Proserpine)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOLZyx_f38bYne2ffFZBM0StsDWEjelN3JT0d4SUYQI0thFGb-176PIvQ1etKCxMmNQVoGMrFb9oxAAqrXz7j15zqtSgJH7lG3bWgRT_bKtYU0c0piPq7QQvSn1UX9Gp8iuHAy95n9eeMg8iG9xS81Bdw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMUP-nC50iv0TKne_AyPjPGj5IbJ5waY7BaWBg23-xu7Jcc0WZ_C4xWbO3sX57iw5A-QR6jiReWeCYEMdvNpKZqXVtLtm9N7nOU6uG70XyOETvRff1WxHrGIu1GsQ1-ssTJpStXGvuQoqnBnwQIMIVIQw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOf3JoMLfMh5FvhAT-HFIWeh1mzMkwrl6JMdMAyVY-MhgdsDBEzf8qs1UUbVX_4RkT0fhGfKzNaclhCzrHC1Q-xi_Ribj2xxZKec6TBoBB5P7zpKwfAmXxFew-TfLXbhL7JBYOKGtvC_8dqNs-zMuRyHw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La basilique Sant Feliu de Gérone conserve un ensemble exceptionnel de huit sarcophages paléochrétiens et païens, encastrés dans les murs du chœur, dont ce remarquable exemplaire illustrant le rapt de Proserpine. Cette pièce, l'une des plus précieuses de la collection, témoigne de la réutilisation de sépultures de haute qualité issues d'ateliers romains pour l'inhumation des premiers martyrs ou membres éminents de la communauté chrétienne locale.\n\nLe relief, d'une grande virtuosité technique, déploie une composition dynamique et dense caractéristique de la sculpture funéraire romaine. Il représente le mythe de Pluton emportant Proserpine (Perséphone) vers les Enfers sur son char, tandis que des divinités et des personnages tentent de s'interposer ou assistent à la scène dans un tourbillon de drapés et de mouvements athlétiques. La présence de tels motifs mythologiques dans une église chrétienne s'explique par la réinterprétation symbolique du cycle de la vie, de la mort et de la renaissance, thèmes centraux du message chrétien."
+      },
+      {
+        title: "Reliefs sculptés et cuves funéraires antiques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPfJtmu4SBpBSzUrloo6hndwe6B--TEtHdS_yygOlI7SKwriyRuIklUVWlPmDutz31mgW5LK0VvsOrtfkCHMtatyxNIBiDzTkrGW5tlCfSkIk-tP_69Djp2-3MHkOKeofjy0EBe6NuYvBRelSNvL7pl7g=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOG-B5YMFdmLdXfCjmk7MIn98YJ7-7GES6J1y9JaSIL7rEDSnuKJ04B36XuTFaeM1GwFkAKeGJFE2flaWer3Aa8fBXXNZGZx_cSZGZBvYcp-ZsgZPOlDETGc6EWh3Bp2wE6A4-X8t9Qql3LPDkrmuiWtQ=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Tombeau gothique de Saint Narcisse par Jean de Tournai (1328)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPf1Od_Dv7fB8sB4WtjoluCzn7VvyVdaqU7dawzss9C5xOH0lVXY9U8eASr2d2c9EjquRi-6fmSZ7BEBPvSFy3tgMXCaxqhVFIJWo66q8KtJt4d2pn9jfBERghOt8TuwY42HB5a19FY7Fdmm0YPI6-LCg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La tombe de Saint Narcisse, œuvre magistrale réalisée en 1328 par le sculpteur Jean de Tournai, constitue l'un des joyaux de l'art gothique au sein de la basilique Sant Feliu de Gérone. Ce monument funéraire, conçu pour abriter les reliques du saint patron de la ville, illustre parfaitement le passage à un naturalisme plus marqué et une finesse d'exécution propre au XIVe siècle. Le gisant, représentant Saint Narcisse vêtu de ses ornements épiscopaux, repose sur une cuve richement décorée, témoignant de l'importance du culte des saints à cette époque.\n\nLe gisant lui-même est traité avec une attention particulière aux détails : les plis de la chasuble tombent avec une souplesse réaliste, tandis que le visage du saint, serein, est encadré par une mitre délicatement sculptée. À ses pieds, des figures animales symboliques complètent la mise en scène. La structure repose sur une base ornée de reliefs logés sous des arcatures gothiques polylobées, créant une galerie de niches qui abritent des scènes de la vie du saint ou des figures de pleurants, éléments classiques de l'iconographie funéraire du Bas Moyen Âge.\n\nL'utilisation de la polychromie, dont des traces subsistent notamment dans les fonds bleus intenses et les rehauts dorés, jouait un rôle essentiel dans la lisibilité des scènes sculptées. Cette couleur servait à magnifier le monument et à guider la dévotion des fidèles qui venaient se recueillir devant les restes du martyr. L'œuvre de Jean de Tournai reflète l'influence des courants artistiques d'Europe du Nord s'adaptant au contexte catalan, fusionnant élégance courtoise et ferveur religieuse.\n\nCe monument n'est pas seulement une pièce d'orfèvrerie en pierre, il est aussi le réceptacle d'une légende locale forte : celle des \"mouches de Saint Narcisse\" qui, selon la tradition, seraient sorties du tombeau pour chasser les troupes d'invasion, renforçant ainsi le statut protecteur du saint pour la cité de Gérone. La précision des reliefs, la verticalité des pinacles et la noblesse des matériaux utilisés font de ce tombeau un jalon essentiel pour comprendre l'évolution de la sculpture gothique en Catalogne."
+      }
+    ]
+  },
+  {
+    id: "gerone_portail_sobreportes",
+    name: "Gérone - Portail de Sobreportes (Portal de Sobreportes)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Gérone",
+    subdiv: "Gérone",
+    altitude: 87,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Porte Fortifiée des Remparts, Origines Romaines & Réfection Médiévale (IIIe-XIVe siècle)",
+    century: "XIVe siècle",
+    category: "chateau",
+    counts: {},
+    lat: 41.98760,
+    lng: 2.82519,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMVcfTLuCjdv2VEkkcTSKHHhwEjarPAwM0ihWq3IAt8t9ZNlmMhXxreHjMCeMDfiTFUFxm8icjP7UeedJLb3Fb2VcjbT_GDcDMcauG3zJJDiZI11PeGO7F8-Ozs038GCqk8RbyWSuQm_EnyQ9Xbxv-nYA=w613-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Érigé à la charnière entre le quartier de Sant Feliu et l'accès haut vers la cathédrale Sainte-Marie, le portail de Sobreportes (Portal de Sobreportes) est l'une des portes monumentales les plus chargées d'histoire de la cité fortifiée de Gérone. Implanté à l'emplacement exact de la porte septentrionale primitive de la ville romaine (Porta Principalis Septentrionalis de Gerunda), sur le tracé de la Via Augusta au IIIe siècle, l'ouvrage constituait l'accès majeur au cardo maximus. Reconstruite et fortifiée au XIVe siècle sous les comtes-rois d'Aragon lors du renforcement général des remparts médiévaux (la Força Vella), la porte actuelle se compose d'un étroit passage voûté en plein cintre enserré entre deux puissantes tours semi-circulaires en grand appareil de calcaire blond. Surmontée d'une niche abritant une statue protectrice de la Vierge (la Mare de Déu de Bon Consell) devant laquelle prêtaient serment les magistrats royaux avant d'entrer dans la ville, cette porte-châtelet marque le seuil d'accès historique privilégié vers le quartier juif médiéval (el Call) et la ville haute.",
+    visiter: "Arriver par la rue de la Força ou depuis le parvis de la basilique Sant Feliu pour contempler la stature défensive des deux tours en calcaire encadrant la porte. Observer la voûte en plein cintre et lever les yeux vers la niche sculptée abritant l'effigie de la Vierge de Sobreportes. Franchir le passage pavé pour s'engager dans la montée historique menant aux bains arabes, à la cathédrale et au dédale des ruelles du quartier juif.",
+    link: ""
+  },
+  {
     id: "castellfollit_de_la_roca_mirador",
     name: "Castellfollit de la Roca - Mirador sur la Falaise Basaltique",
     country: "Espagne",
