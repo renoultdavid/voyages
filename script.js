@@ -986,17 +986,17 @@ function computeAllStatistics() {
   const homeFarthestNameEl = document.getElementById('stat-home-farthest-name');
   if (homeFarthestDistEl) homeFarthestDistEl.innerText = `${maxDistFromHome.toLocaleString('fr-FR')} km`;
   if (homeFarthestNameEl) {
-    homeFarthestNameEl.innerHTML = `${farthestFromHome.flag || '📍'} <span class="hover:text-amber-300 cursor-pointer underline">${farthestFromHome.name}</span>`;
+    homeFarthestNameEl.innerHTML = `${farthestFromHome.flag || '📍'} <span class="hover:text-amber-300 cursor-pointer underline">${farthestFromHome.name}</span> <span class="text-xs text-slate-400 font-normal">(${farthestFromHome.country})</span>`;
     homeFarthestNameEl.onclick = () => { closeAllPopups(); selectSpot(farthestFromHome); };
   }
 
   const setCardinal = (elementId, spot, suffix) => {
     const el = document.getElementById(elementId);
     if (el) {
-      el.innerText = `${spot.name} (${suffix})`;
+      el.innerHTML = `${spot.flag || '📍'} <span class="hover:text-cyan-300 cursor-pointer">${spot.name}</span> <span class="text-xs text-slate-400 font-mono font-normal">(${suffix})</span>`;
       el.title = `${spot.name} (${spot.country}) - Cliquez pour y aller`;
       el.onclick = () => { closeAllPopups(); selectSpot(spot); };
-      el.classList.add('cursor-pointer', 'hover:underline');
+      el.classList.add('cursor-pointer');
     }
   };
   setCardinal('stat-cardinal-north', northSpot, `${northSpot.lat.toFixed(1)}°N`);
@@ -1018,7 +1018,7 @@ function computeAllStatistics() {
   const maxDistEl = document.getElementById('stat-max-dist');
   const maxPairEl = document.getElementById('stat-max-pair');
   if (maxDistEl) maxDistEl.innerText = `${maxDistPair.toLocaleString('fr-FR')} km`;
-  if (maxPairEl) maxPairEl.innerText = `${bestPair.a.name} ⇄ ${bestPair.b.name}`;
+  if (maxPairEl) maxPairEl.innerHTML = `${bestPair.a.flag || '📍'} ${bestPair.a.name} <span class="text-cyan-400 font-bold">⇄</span> ${bestPair.b.flag || '📍'} ${bestPair.b.name}`;
 
   const onuCount = visitedCountries.size;
   const onuPct = ((onuCount / TOTAL_UN_COUNTRIES) * 100).toFixed(2);
@@ -1039,14 +1039,14 @@ function computeAllStatistics() {
       const pct = Math.round((visitedInCont / totalCountries) * 100);
 
       const row = document.createElement('div');
-      row.className = 'space-y-0.5';
+      row.className = 'p-3 rounded-xl bg-slate-950/70 border border-slate-800 space-y-1.5';
       row.innerHTML = `
-        <div class="flex justify-between items-center text-[10px]">
-          <span class="text-slate-200 font-medium">${continentIcons[cont] || '🌐'} ${cont}</span>
-          <span class="font-mono text-cyan-300 font-bold">${visitedInCont} / ${totalCountries} <span class="text-slate-500 font-normal text-[9px]">(${pct}%)</span></span>
+        <div class="flex justify-between items-center text-xs sm:text-sm">
+          <span class="text-slate-200 font-bold flex items-center gap-2">${continentIcons[cont] || '🌐'} ${cont}</span>
+          <span class="font-mono text-cyan-300 font-black">${visitedInCont} / ${totalCountries} pays <span class="text-slate-500 font-normal text-xs">(${pct}%)</span></span>
         </div>
-        <div class="w-full bg-slate-800 rounded-full h-1 overflow-hidden">
-          <div class="bg-gradient-to-r from-blue-500 to-cyan-400 h-full rounded-full" style="width: ${Math.max(1, pct)}%;"></div>
+        <div class="w-full bg-slate-900 rounded-full h-2 overflow-hidden border border-slate-800">
+          <div class="bg-gradient-to-r from-blue-500 to-cyan-400 h-full rounded-full transition-all duration-500" style="width: ${Math.max(1, pct)}%;"></div>
         </div>
       `;
       contContainer.appendChild(row);
@@ -1064,29 +1064,29 @@ function computeAllStatistics() {
       const mainPct = Math.min(100, Math.round((mainCount / ref.total) * 100));
 
       const card = document.createElement('div');
-      card.className = 'p-2 rounded-xl bg-slate-950/70 border border-slate-800 space-y-1.5';
+      card.className = 'p-3.5 rounded-xl bg-slate-950/70 border border-slate-800 space-y-2';
 
       let secondaryHtml = '';
       if (ref.depTotal && data.depts.size > 0) {
         const depPct = Math.min(100, Math.round((data.depts.size / ref.depTotal) * 100));
         secondaryHtml = `
-          <div class="flex justify-between items-center text-[9px] text-slate-400 mt-1 border-t border-slate-900 pt-1">
-            <span>${ref.depType || 'Subdivisions'} : ${Array.from(data.depts).join(', ')}</span>
-            <span class="font-mono font-bold text-slate-300">${data.depts.size} / ${ref.depTotal} (${depPct}%)</span>
+          <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center text-xs text-slate-400 mt-2 border-t border-slate-850 pt-1.5 gap-1">
+            <span><strong class="text-slate-300">${ref.depType || 'Subdivisions'} :</strong> ${Array.from(data.depts).join(', ')}</span>
+            <span class="font-mono font-bold text-slate-300 shrink-0">${data.depts.size} / ${ref.depTotal} (${depPct}%)</span>
           </div>
         `;
       }
 
       card.innerHTML = `
-        <div class="flex justify-between items-center text-[11px] font-bold">
-          <span class="text-white flex items-center gap-1.5">${data.flag} ${countryName}</span>
-          <span class="font-mono text-cyan-300">${mainCount} / ${ref.total} ${ref.type.toLowerCase()}</span>
+        <div class="flex justify-between items-center text-xs sm:text-sm font-bold">
+          <span class="text-white flex items-center gap-2 text-sm">${data.flag} ${countryName}</span>
+          <span class="font-mono text-cyan-300 font-black">${mainCount} / ${ref.total} ${ref.type.toLowerCase()}</span>
         </div>
-        <div class="w-full bg-slate-800 rounded-full h-1.5 overflow-hidden">
-          <div class="bg-gradient-to-r from-indigo-500 to-cyan-400 h-full rounded-full" style="width: ${Math.max(3, mainPct)}%;"></div>
+        <div class="w-full bg-slate-900 rounded-full h-2 overflow-hidden border border-slate-800">
+          <div class="bg-gradient-to-r from-indigo-500 via-blue-500 to-cyan-400 h-full rounded-full transition-all duration-500" style="width: ${Math.max(3, mainPct)}%;"></div>
         </div>
-        <div class="text-[9px] text-slate-400">
-          <span class="text-slate-300 font-medium">Explorées :</span> ${Array.from(data.regions).join(', ') || 'Non renseigné'}
+        <div class="text-xs text-slate-300 leading-relaxed">
+          <span class="text-cyan-400 font-semibold">Territoires explorés :</span> ${Array.from(data.regions).join(', ') || 'Non renseigné'}
         </div>
         ${secondaryHtml}
       `;
@@ -1105,10 +1105,10 @@ function computeAllStatistics() {
   const altAmp = document.getElementById('stat-alt-amplitude');
 
   if (altMaxVal) altMaxVal.innerText = `${zenithAlt > 0 ? '+' : ''}${zenithAlt} m`;
-  if (altMaxName) altMaxName.innerText = zenithSpot.name;
+  if (altMaxName) altMaxName.innerHTML = `${zenithSpot.flag || '📍'} <span class="hover:text-emerald-300 cursor-pointer underline">${zenithSpot.name}</span> <span class="text-slate-400 font-normal">(${zenithSpot.subdiv || zenithSpot.country})</span>`;
   if (altMinVal) altMinVal.innerText = `${nadirAlt > 0 ? '+' : ''}${nadirAlt} m`;
-  if (altMinName) altMinName.innerText = nadirSpot.name;
-  if (altAmp) altAmp.innerText = `${amplitude} m de dénivelé`;
+  if (altMinName) altMinName.innerHTML = `${nadirSpot.flag || '📍'} <span class="hover:text-cyan-300 cursor-pointer underline">${nadirSpot.name}</span> <span class="text-slate-400 font-normal">(${nadirSpot.subdiv || nadirSpot.country})</span>`;
+  if (altAmp) altAmp.innerText = `${amplitude.toLocaleString('fr-FR')} m de dénivelé`;
 
   const islandPct = Math.round((islandCount / travelSpots.length) * 100);
   const mainlandPct = 100 - islandPct;
@@ -1139,20 +1139,52 @@ function computeAllStatistics() {
       const pct = Math.round((item.count / travelSpots.length) * 100);
 
       const row = document.createElement('div');
-      row.className = 'p-1.5 rounded-lg bg-slate-950/70 border border-slate-800/80 space-y-1';
+      row.className = 'p-3 rounded-xl bg-slate-950/70 border border-slate-800 space-y-2';
       row.innerHTML = `
-        <div class="flex justify-between items-center text-[10px]">
-          <span class="font-medium text-slate-200">${item.icon} ${item.label}</span>
-          <span class="font-mono text-indigo-300 font-bold">${item.count} <span class="text-slate-500 font-normal">(${pct}%)</span></span>
+        <div class="flex justify-between items-center text-xs sm:text-sm">
+          <span class="font-bold text-slate-100 flex items-center gap-2 text-sm">${item.icon} ${item.label}</span>
+          <span class="font-mono text-indigo-300 font-black text-xs sm:text-sm">${item.count} sites <span class="text-slate-500 font-normal">(${pct}%)</span></span>
         </div>
-        <div class="w-full bg-slate-800 rounded-full h-1 overflow-hidden">
+        <div class="w-full bg-slate-900 rounded-full h-2 overflow-hidden border border-slate-800">
           <div class="h-full rounded-full transition-all duration-300" style="background-color: ${item.color}; width: ${Math.max(2, pct)}%;"></div>
         </div>
-        <div class="text-[8px] text-slate-400 italic">${item.span}</div>
+        <div class="text-[11px] text-slate-400 font-mono italic">${item.span}</div>
       `;
       chronoContainer.appendChild(row);
     });
   }
+
+  // MISE À JOUR DU BANDEAU HERO KPIS & DES BADGES DE VIGNETTES
+  const heroTotal = document.getElementById('stat-hero-total-spots');
+  if (heroTotal) heroTotal.innerText = `${travelSpots.length} sites`;
+
+  const heroOnu = document.getElementById('stat-hero-onu');
+  if (heroOnu) heroOnu.innerText = `${onuCount} pays · ${onuPct.replace('.', ',')}%`;
+
+  const heroDist = document.getElementById('stat-hero-dist');
+  if (heroDist) heroDist.innerText = `${maxDistFromHome.toLocaleString('fr-FR')} km`;
+
+  const heroAlt = document.getElementById('stat-hero-alt');
+  if (heroAlt) heroAlt.innerText = `${amplitude.toLocaleString('fr-FR')} m`;
+
+  const heroIslands = document.getElementById('stat-hero-islands');
+  if (heroIslands) heroIslands.innerText = `${islandPct}% (${uniqueIslandsCount} îles)`;
+
+  // Badges des vignettes thématiques
+  const bRadar = document.getElementById('stat-tab-badge-radar');
+  if (bRadar) bRadar.innerText = `${maxDistFromHome.toLocaleString('fr-FR')} km max`;
+
+  const bWorld = document.getElementById('stat-tab-badge-world');
+  if (bWorld) bWorld.innerText = `${onuCount} pays · ${onuPct.replace('.', ',')}%`;
+
+  const bRelief = document.getElementById('stat-tab-badge-relief');
+  if (bRelief) bRelief.innerText = `${amplitude.toLocaleString('fr-FR')} m dénivelé`;
+
+  const bIslands = document.getElementById('stat-tab-badge-islands');
+  if (bIslands) bIslands.innerText = `${islandPct}% (${uniqueIslandsCount} îles)`;
+
+  const bChrono = document.getElementById('stat-tab-badge-chrono');
+  if (bChrono) bChrono.innerText = `5 époques phares`;
 }
 
 function navigateSpot(direction) {
@@ -2235,6 +2267,55 @@ window.onload = function () {
   setTimeout(onWindowResize, 200);
 };
 
+let currentStatsTab = 'radar';
+
+function switchStatsTab(tabId) {
+  currentStatsTab = tabId;
+  const tabs = ['radar', 'world', 'relief', 'islands', 'records', 'chrono'];
+
+  tabs.forEach(id => {
+    const btn = document.getElementById(`stat-tab-btn-${id}`);
+    const panel = document.getElementById(`stat-panel-${id}`);
+    const isTarget = (id === tabId);
+
+    if (btn) {
+      if (isTarget) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    }
+
+    if (panel) {
+      if (tabId === 'all') {
+        panel.classList.remove('hidden');
+      } else {
+        if (isTarget) panel.classList.remove('hidden');
+        else panel.classList.add('hidden');
+      }
+    }
+  });
+
+  const btnAll = document.getElementById('stat-tab-btn-all');
+  if (btnAll) {
+    if (tabId === 'all') {
+      btnAll.classList.add('active', 'border-cyan-400', 'text-white', 'bg-cyan-950/80');
+    } else {
+      btnAll.classList.remove('active', 'border-cyan-400', 'text-white', 'bg-cyan-950/80');
+    }
+  }
+
+  const allContainer = document.getElementById('stat-panels-container');
+  if (allContainer) {
+    if (tabId === 'all') {
+      allContainer.className = 'grid grid-cols-1 md:grid-cols-2 gap-4 pb-6 overflow-y-auto custom-scrollbar flex-1 min-h-0';
+    } else {
+      allContainer.className = 'flex flex-col gap-4 pb-6 overflow-y-auto custom-scrollbar flex-1 min-h-0';
+    }
+    allContainer.scrollTop = 0;
+  }
+}
+
 function toggleStatisticsDashboard() {
   const modal = document.getElementById('statistics-dashboard-modal');
   if (!modal) return;
@@ -2242,6 +2323,7 @@ function toggleStatisticsDashboard() {
   if (!isHidden) {
     computeAllStatistics();
     renderCockpitDashboardDetails();
+    switchStatsTab(currentStatsTab || 'radar');
   }
 }
 
@@ -2263,12 +2345,12 @@ function renderCockpitDashboardDetails() {
     const sortedIslands = Object.entries(islandsMap).sort((a, b) => b[1] - a[1]);
     sortedIslands.forEach(([name, count]) => {
       const row = document.createElement('div');
-      row.className = 'flex items-center justify-between p-2 rounded-xl bg-slate-950/70 border border-slate-800';
+      row.className = 'flex items-center justify-between p-3 rounded-xl bg-slate-950/80 border border-slate-800 hover:border-cyan-500/30 transition';
       row.innerHTML = `
-        <span class="text-slate-200 font-bold flex items-center gap-2">
-          <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 shadow-[0_0_6px_#22d3ee]"></span> ${name}
+        <span class="text-slate-100 font-bold flex items-center gap-2.5 text-xs sm:text-sm">
+          <span class="w-2 h-2 rounded-full bg-cyan-400 shadow-[0_0_8px_#22d3ee]"></span> ${name}
         </span>
-        <span class="font-mono text-cyan-300 font-black text-xs px-2 py-0.5 rounded bg-cyan-950/80 border border-cyan-500/30">${count} POI</span>
+        <span class="font-mono text-cyan-300 font-black text-xs px-2.5 py-1 rounded-lg bg-cyan-950/80 border border-cyan-500/30">${count} POI</span>
       `;
       islandBox.appendChild(row);
     });
@@ -2279,7 +2361,7 @@ function renderCockpitDashboardDetails() {
     altBarsBox.innerHTML = '';
     const tiers = [
       { label: "Littoral & Plaines (≤ 100m)", min: -100, max: 100, color: "from-blue-500 to-cyan-400" },
-      { label: "Collines (101m - 500m)", min: 101, max: 500, color: "from-emerald-500 to-teal-400" },
+      { label: "Collines & Plateaux (101m - 500m)", min: 101, max: 500, color: "from-emerald-500 to-teal-400" },
       { label: "Moyenne Montagne (501m - 1200m)", min: 501, max: 1200, color: "from-amber-500 to-yellow-400" },
       { label: "Haute Altitude (> 1200m)", min: 1201, max: 9999, color: "from-rose-500 to-pink-500" }
     ];
@@ -2291,14 +2373,14 @@ function renderCockpitDashboardDetails() {
       const count = spotsWithAlt.filter(s => s.altitude >= t.min && s.altitude <= t.max).length;
       const pct = Math.round((count / total) * 100);
       const bar = document.createElement('div');
-      bar.className = 'space-y-1';
+      bar.className = 'space-y-1.5 p-3 rounded-xl bg-slate-950/70 border border-slate-800/80';
       bar.innerHTML = `
-        <div class="flex justify-between text-[10px]">
-          <span class="text-slate-300 font-medium">${t.label}</span>
-          <span class="font-mono text-slate-400 font-bold">${count} sites (${pct}%)</span>
+        <div class="flex justify-between text-xs sm:text-sm">
+          <span class="text-slate-200 font-semibold">${t.label}</span>
+          <span class="font-mono text-cyan-300 font-bold">${count} sites <span class="text-slate-500 font-normal">(${pct}%)</span></span>
         </div>
-        <div class="w-full bg-slate-900 rounded-full h-1.5 overflow-hidden">
-          <div class="bg-gradient-to-r ${t.color} h-full rounded-full" style="width: ${pct}%;"></div>
+        <div class="w-full bg-slate-900 rounded-full h-2.5 overflow-hidden border border-slate-800/80">
+          <div class="bg-gradient-to-r ${t.color} h-full rounded-full shadow-[0_0_8px_rgba(34,211,238,0.3)] transition-all duration-500" style="width: ${pct}%;"></div>
         </div>
       `;
       altBarsBox.appendChild(bar);
@@ -2325,41 +2407,64 @@ function renderCockpitDashboardDetails() {
       if (c > topEraCount) { topEraCount = c; topEra = e; }
     });
 
+    // Mettre à jour le badge du sélecteur
+    const bRecords = document.getElementById('stat-tab-badge-records');
+    if (bRecords) bRecords.innerText = `${topReg} (${topRegCount})`;
+
+    const unescoCount = validSpots.filter(s => (s.counts && s.counts.unesco) || s.category === 'unesco').length;
+    const unescoPct = Math.round((unescoCount / validSpots.length) * 100);
+
     recBox.innerHTML = `
-      <div class="p-3 rounded-xl bg-gradient-to-r from-amber-950/40 to-slate-950 border border-amber-500/30 flex items-center justify-between">
-        <div class="flex items-center gap-2.5">
-          <div class="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-300 flex items-center justify-center font-bold text-sm shadow">
+      <div class="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-amber-950/40 via-slate-900 to-slate-950 border border-amber-500/30 flex items-center justify-between shadow-xl">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-300 flex items-center justify-center font-bold text-lg shadow">
             👑
           </div>
           <div>
-            <div class="text-[9px] uppercase font-bold text-amber-300">Région Star des Carnets</div>
-            <div class="text-xs font-extrabold text-white">${topReg}</div>
+            <div class="text-xs uppercase font-bold text-amber-300">Région Star des Carnets</div>
+            <div class="text-sm sm:text-base font-extrabold text-white mt-0.5">${topReg}</div>
           </div>
         </div>
-        <span class="font-mono text-amber-300 font-black text-sm px-2.5 py-1 rounded-lg bg-amber-950/80 border border-amber-500/40">${topRegCount} POI</span>
+        <span class="font-mono text-amber-300 font-black text-base sm:text-lg px-3 py-1.5 rounded-xl bg-amber-950/80 border border-amber-500/40">${topRegCount} POI</span>
       </div>
 
-      <div class="p-3 rounded-xl bg-gradient-to-r from-purple-950/40 to-slate-950 border border-purple-500/30 flex items-center justify-between">
-        <div class="flex items-center gap-2.5">
-          <div class="w-8 h-8 rounded-xl bg-purple-500/20 text-purple-300 flex items-center justify-center font-bold text-sm shadow">
+      <div class="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-purple-950/40 via-slate-900 to-slate-950 border border-purple-500/30 flex items-center justify-between shadow-xl">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-purple-500/20 text-purple-300 flex items-center justify-center font-bold text-lg shadow">
             ⏳
           </div>
           <div>
-            <div class="text-[9px] uppercase font-bold text-purple-300">Époque Dominante</div>
-            <div class="text-xs font-extrabold text-white capitalize">${topEra}</div>
+            <div class="text-xs uppercase font-bold text-purple-300">Époque Dominante</div>
+            <div class="text-sm sm:text-base font-extrabold text-white capitalize mt-0.5">${topEra}</div>
           </div>
         </div>
-        <span class="font-mono text-purple-300 font-black text-sm px-2.5 py-1 rounded-lg bg-purple-950/80 border border-purple-500/40">${topEraCount} POI</span>
+        <span class="font-mono text-purple-300 font-black text-base sm:text-lg px-3 py-1.5 rounded-xl bg-purple-950/80 border border-purple-500/40">${topEraCount} POI</span>
       </div>
 
-      <div class="p-3 rounded-xl bg-slate-950/70 border border-slate-800 space-y-1.5">
-        <div class="text-[9px] uppercase font-bold text-cyan-400 flex items-center gap-1.5">
-          <i class="fa-solid fa-plane-departure text-cyan-400"></i> Densité de Voyage
+      <div class="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-emerald-950/40 via-slate-900 to-slate-950 border border-emerald-500/30 flex items-center justify-between shadow-xl">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-300 flex items-center justify-center font-bold text-lg shadow">
+            🏛️
+          </div>
+          <div>
+            <div class="text-xs uppercase font-bold text-emerald-300">Patrimoine Mondial UNESCO</div>
+            <div class="text-xs sm:text-sm text-slate-300 mt-0.5">Joyaux mondiaux visités répertoriés</div>
+          </div>
         </div>
-        <div class="text-[11px] text-slate-300 flex justify-between items-center">
-          <span>Nombre total de sites indexés</span>
-          <span class="font-mono text-cyan-300 font-black text-xs">${validSpots.length} POI</span>
+        <span class="font-mono text-emerald-300 font-black text-base sm:text-lg px-3 py-1.5 rounded-xl bg-emerald-950/80 border border-emerald-500/40">${unescoCount} POI (${unescoPct}%)</span>
+      </div>
+
+      <div class="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800 flex items-center justify-between shadow-xl">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-300 flex items-center justify-center font-bold text-lg shadow">
+            <i class="fa-solid fa-plane-departure text-base"></i>
+          </div>
+          <div>
+            <div class="text-xs uppercase font-bold text-cyan-400">Densité Globale d'Exploration</div>
+            <div class="text-xs sm:text-sm text-slate-300 mt-0.5">Nombre total de sites indexés et explorés</div>
+          </div>
         </div>
+        <span class="font-mono text-cyan-300 font-black text-base sm:text-lg px-3 py-1.5 rounded-xl bg-cyan-950/80 border border-cyan-500/40">${validSpots.length} POI</span>
       </div>
     `;
   }
@@ -2886,6 +2991,24 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   window.addEventListener('keydown', (e) => {
+    const statsModal = document.getElementById('statistics-dashboard-modal');
+    if (statsModal && !statsModal.classList.contains('hidden')) {
+      if (e.key === 'Escape') {
+        toggleStatisticsDashboard();
+        return;
+      }
+      const tabs = ['radar', 'world', 'relief', 'islands', 'records', 'chrono'];
+      if (e.key >= '1' && e.key <= '6') {
+        const idx = parseInt(e.key, 10) - 1;
+        if (tabs[idx]) switchStatsTab(tabs[idx]);
+        return;
+      }
+      if (e.key === '0') {
+        switchStatsTab('all');
+        return;
+      }
+    }
+
     const modal = document.getElementById('poi-modal-viewer');
     if (!modal || modal.classList.contains('hidden')) return;
 

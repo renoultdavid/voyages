@@ -808,3 +808,24 @@ html, body {
 .panel-transition {
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease, width 0.3s ease;
 }
+
+/* =========================================================================
+   TABLEAU DE BORD STATISTIQUES RESTRUCTURÉ (VIGNETTES ÉLÉGANTES)
+   ========================================================================= */
+.stat-tab-btn {
+  transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  outline: none;
+}
+.stat-tab-btn:hover {
+  transform: translateY(-2px);
+  border-color: rgba(34, 211, 238, 0.4) !important;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+}
+.stat-tab-btn.active {
+  transform: translateY(-2px);
+  border-color: #22d3ee !important;
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.98), rgba(8, 47, 73, 0.55)) !important;
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.3), 0 8px 24px rgba(0, 0, 0, 0.6) !important;
+}
+
