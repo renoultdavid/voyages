@@ -1,5 +1,164 @@
 const SPOTS_2 = [
   {
+    id: "barcelone_parc_guell",
+    name: "Barcelone - Parc Güell",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Barcelone",
+    subdiv: "Barcelone",
+    altitude: 170,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Cité-Jardin Moderniste & Parc Paysager d'Antoni Gaudí (1900-1914)",
+    century: "XXe siècle",
+    category: "parc_naturel",
+    unesco_name: "Œuvres d'Antoni Gaudí",
+    counts: { unesco: 1, parc_naturel: 1 },
+    lat: 41.41418,
+    lng: 2.15325,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPpFA_NXNHkNNcs9-vN1-BlAhds-3w1d76JqXkngdDPkZ6P0jNeJm_tz9EHKXfIzqX-ZHmBOwBFWOmfQ4RNI_FPuSMchWDb_RYv9cKh09pUbLbsbF9WU5ko8w5RaYIi1HeHzsNoCNtEO8Tzyfl33PYZyw=w1367-h911-s-no-gm?authuser=0",
+    description: "Conçu entre 1900 et 1914 par Antoni Gaudí sur les flancs arides de la Muntanya Pelada (colline du Carmel) à l'initiative de son mécène le comte Eusebi Güell, le parc Güell est l'une des réalisations paysagères et architecturales les plus visionnaires et emblématiques du modernisme catalan. Imaginé à l'origine comme une cité-jardin aristocratique exclusive inspirée des modèles résidentiels britanniques — prévoyant soixante parcelles triangulaires —, le projet immobilier se solda par un échec commercial avec seulement deux maisons construites, avant d'être racheté par la municipalité en 1922 pour devenir un parc public féerique. Gaudí y déploie une symbiose totale entre architecture organique, symbolisme spirituel et respect rigoureux de la topographie méditerranéenne : il modèle des viaducs hélicoïdaux en pierre rustique extraite sur place, conçoit une monumentale salle hypostyle de quatre-vingt-six colonnes doriques destinée au marché, et la surmonte de l'immense place de la Nature bordée par le célèbre banc ondulant en mosaïque de céramique brisée (trencadís) réalisé en collaboration avec Josep Maria Jujol. Classé au patrimoine mondial de l'UNESCO en 1984, le parc s'impose comme un hymne intemporel à la géométrie de la nature dominant la baie de Barcelone.",
+    visiter: "Pénétrer par l'entrée principale de la rue Olot pour admirer les pavillons féeriques de la conciergerie coiffés de leurs toits ondulants en trencadís. Gravir l'escalier monumental en marquant un arrêt devant la célèbre salamandre polychrome jaillissant de la fontaine d'eau. Pénétrer dans la forêt minérale de la salle hypostyle pour observer les médaillons abstraits au plafond, avant de monter sur la vaste place de la Nature afin de contempler le panorama sur la ville assis dans les alcôves ergonomiques du banc de Jujol. Prolonger l'exploration le long des viaducs rustiques ombragés de pins et sous le portique incliné de la Lavandière menant aux jardins hauts et à la Casa Trias.",
+    link: "",
+    sections: [
+      {
+        title: "Viaducs étagés et portique de la Lavandière",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNj7uU3_EQhlrF8X9uE15F_thK1akcaC_Svi6cU1Cc2edv18HaomvzUNMM2UXA0RRDpGNMy6OZEZAYEdf_gR45btdSRSXiShec-8K5t64aiQpwKJyLuOn-CQRorF5JmXP-rnAyhgp26HimJkmIYJoPQ9w=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNqpBjK2iE6O8hLdzodv4w7Q0yGTnEo-O5_DsJgmSh5fvYTs82MDS9STAAoQZvmUAPOygArSmcyxAiLDjHb-gVyZfCcgQmq6G5-KYmmV73_RYRetU5cp4eT6Z99obUAzs6zA30EiAl2mGAKWbdwgo_JXQ=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "Le réseau de circulation se déploie à travers la topographie escarpée grâce à un réseau ingénieux de chemins de ronde et de viaducs à plusieurs niveaux qui épousent les courbes de niveau sans défigurer le paysage. Le portique de la Lavandière en constitue le passage le plus spectaculaire : adossé à la roche comme une vague pétrifiée prête à déferler, il se compose de colonnes inclinées taillées dans la pierre brute extraite sur place, évoquant des troncs d'arbres fossilisés, dont l'une est sculptée en forme de cariatide représentant une lavandière portant un panier de linge sur la tête. Les trois grands viaducs étagés, le viaduc inférieur, le viaduc intermédiaire et le viaduc supérieur, reposent sur des arcades obliques et des contreforts rustiques percés de jardinières où la flore méditerranéenne – pins, caroubiers, oliviers et romarins – s'enracine pour lier organiquement la maçonnerie à la terre."
+      },
+      {
+        title: "La Casa Trias et le modèle résidentiel de la cité-jardin",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMxkuxwf9wFP_yJ7uChgE20q0Yiv1hHQYA3PMEK2OnGSDH_10gqjKKbNxk-Mg9H-3NamSyiquU-XyDw9w0_FFckfea4_UbsMYGzpZRNq1RJGsLA9k4wlFo7dJ_e1RjmB2g3WEYZ4sI-QGh8uT-IXl0YWw=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNk0FKHSwwm4OP-Ovqpc8jXsx02N9SEXnffRAbWsmXBhmAGhYRKn-W_b6NKAnA3LoAqX9_Mgiu2vFbOh1hcBGyjhCW5z4bm-7Qjjh0BLYtHQLrEATbmJr_sDBR2QSQb4V1EAXJjuhhc0zIqEI2LSrqDkQ=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "Seule maison vendue et habitée par un acquéreur privé dans le projet de cité-jardin du parc Güell, la Casa Trias a été construite entre 1903 et 1906 par l'architecte moderniste Juli Batllevell pour l'industriel textile Martí Trias i Domènech. Dominant le domaine depuis les hauteurs, cette villa bourgeoise aux façades claires et aux soubassements de pierre brute combine des volumes asymétriques sobres, des baies vitrées orientées vers la mer et de gracieuses toitures en céramique. Les Trias, intimes d'Antoni Gaudí, assistèrent à l'évolution du parc et jouèrent un rôle déterminant en identifiant l'architecte à l'hôpital après son tragique accident de tramway en 1926. Toujours privée et fermée au public, elle constitue l'unique témoin habité du modèle résidentiel initialement projeté sur le site."
+      },
+      {
+        title: "Place de la Nature et banc ondulant en trencadís",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNpuab8iVthRl3mMNEJRuITvup5LgxUHxO_R1RS_4f1JZtjYtzymOS754SSbMAv2KjIlcODgQBN1mPlWA0r4ohI8O3EZK1eO9z4VKWQfVB_qC0EAXRI4__wbmthGKYxqfAHAAtGMlbMjtw4qHcqziei9g=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNF7BxLn4sxpUnkz-pkzcfoUu7oCbhiyGrEKa-4kxMZDqv9lnNnraN3PNAUbSGLsapj4XbNzCnnrKH0V2MK6cvNjZnCa8EjnK_YpEVefhD6Cnzd5pfl7vHC3jq43SdBUbJuFu4oDXddQaqDZOUyfC3Sew=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "Directement au-dessus de la salle hypostyle s'étend la place de la Nature, initialement appelée Théâtre Grec, une immense esplanade de près de trois mille mètres carrés taillée pour moitié dans le flanc de la montagne et reposant pour l'autre moitié sur les colonnes du marché. Destinée aux rassemblements civiques, aux jeux floraux et aux représentations théâtrales en plein air, cette terrasse est bordée par le célèbre banc ondulant long de cent dix mètres qui fait office de balustrade et de couronnement architectural. Conçu de façon ergonomique par moulage direct sur le corps humain, ce ruban sinueux offre une succession d'alcôves intimes décorées par Jujol d'une fresque abstraite de fragments de céramique, d'assiettes de rebut, d'azulejos et de rebus d'ateliers qui composent une partition chromatique ininterrompue face au panorama ouvert sur la Méditerranée."
+      },
+      {
+        title: "Les pavillons féeriques de la conciergerie",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN_sFoprMDN1i6H78a_NPgvgnNc8fB-RIbf_tqwzSazpwl4NdZzdenkwOIc-gZIwO4dkSj7mj6dlzcmRHoHl4hvr8_W4xbjH5UEmCjXrhQOqbu7fKSFnTtW1pLbyS3vvYth0HeiJCF97_8Y6TxqDVJG5Q=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "Deux pavillons féeriques encadrent l'accès, évoquant les chaumières du conte de Hansel et Gretel : à gauche, l'ancienne maison du gardien avec sa tour élancée culminant à vingt-neuf mètres surmontée de la croix tridimensionnelle à quatre branches emblématique de Gaudí, et à droite, le pavillon administratif coiffé d'une toiture ondulante parsemée de disques céramiques et d'un dôme en forme d'amanite tue-mouches inversée. Ces deux édifices manifestent l'usage virtuose de la voûte catalane en briques plates et du trencadís, cette mosaïque de fragments de faïence et de verre brisés qui épouse parfaitement les surfaces courbes tout en captant les reflets de la lumière méditerranéenne."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNETwxDCpBmWedrkFL0RdaDMQTpTaODB78dOxjF6ZPPWtuBg31TvVApzR7KJqlG79wq6Y0HPO7pmJnKo3zyunYSfJlmofo6gsHUpZ3wkJGzX-ngNpIqlY5YZvkWu1C41O3A9X60FRxvMylswXXxjC_erg=w607-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOADetLgrbCW6sL9Vx3UeUEiBM2tlxlU_fJEfjl9RpYE2YrYYuSkabTCSUDaKyTfeHibJNgze4XyK5pJLoe53rLDB71JqtexRS9PKFTgtHIrmTQ_aINz9l_coIk65vL0_pcBjvBjgS_XutT-C76SjNFhg=w607-h911-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La salle hypostyle et le marché couvert dorique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMFxxO1p2ScuSXIsL2UXD_SyNt1zpVdVWkF6m6qzMUQfsHIFZhcBQUENzd_udKeGuwjSIG3XSYWIWTrUuqL95LSaU9R1YwaHc_cgxLJcm6-g0B1L7Onri7Tp2SkqurIFOA1ODApAGIpTvZN0XWzXxfxPw=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMuP2s1IP2KW3TL-mWBtUBUtd75uKQJCSTPAsfXJqe82Nntl5Qb7B7MehHy-E1Kq4miveyM_fS6pnRgqCRX4rbneBPKdLOdUCF9usga99Xhc1ltIAR7-aSp4M008ku9LCqlp-i2Obd09gas7McO5ZTZGg=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "La salle hypostyle, également appelée le temple dorique, fut conçue à l'origine pour abriter le marché couvert de la communauté résidentielle. Cet espace monumental compte quatre-vingt-six colonnes cannelées d'ordre dorique réinterprété, hautes de six mètres, dont les rangées périphériques s'inclinent légèrement vers l'intérieur pour contrer les poussées latérales et renforcer la stabilité de l'ensemble. Le plafond est composé d'une succession de petites coupoles en voûtains blanchis à la chaux et parsemés de trencadís blanc, au milieu desquelles ressortent quatre grands médaillons circulaires et quatorze rosaces plus petites réalisés par le fidèle collaborateur de Gaudí, Josep Maria Jujol. Ces médaillons figurant le soleil, la lune et le cycle des saisons déploient un collage avant-gardiste de céramiques recyclées, de tessons de bouteilles et de morceaux de porcelaine fine annonçant l'art abstrait."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMhhQHUHG8k5dglzwqkGghfBkPcs_qIQPVKNJRIhQ--wkOBdoJY6Hd698HpIc4x7q_KM_shHeOrKKtB4fzuY2RSTrhbk45QnTQv5_oejW3iBAAZgPrqGQwB9mmnG99xmlH9QZ00cKU-of7Q4ksX1RhCFw=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "L'escalier du dragon et la salamandre en trencadís",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPpFA_NXNHkNNcs9-vN1-BlAhds-3w1d76JqXkngdDPkZ6P0jNeJm_tz9EHKXfIzqX-ZHmBOwBFWOmfQ4RNI_FPuSMchWDb_RYv9cKh09pUbLbsbF9WU5ko8w5RaYIi1HeHzsNoCNtEO8Tzyfl33PYZyw=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO0hAfoXoFYpIc_VL51h2y7vLRFYwyCYILmXLSMVDzhVcr2dFwCcWPeLy9gChY8RMQ2mdmWJPXIsOeuMxjnYU7wNvk0WsL0ZG7wXFaJYOJJmVm_cr7Bp7RDo10XywHZNvjx5a4rsKMu9hflYQxwr1HaVg=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "Entre les deux pavillons s'ouvre le grand escalier monumental, double rampe théâtrale flanquée de murs crénelés qui gravit la colline par paliers successifs. L'axe central est rythmé par trois îlots sculpturaux intégrant des fontaines alimentées par un système de récupération des eaux pluviales : le premier niveau présente une composition allégorique évoquant la nature avec des motifs géométriques, le second expose le blason de la Catalogne surmonté de la tête d'un serpent d'airain émergeant d'un disque solaire, et le troisième niveau met en scène la célèbre salamandre polychrome, souvent assimilée au dragon Python ou à l'alchimique dragon du feu, entièrement revêtue de tessons émaillés aux teintes vives. Au sommet des marches, un étrange banc circulaire flanqué d'une pierre d'omphalos invite au recueillement avant de pénétrer dans le sanctuaire couvert."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMqPrHa4FuGimlE2q2SYe2rLUYvM1SVbDVJ6Lus40zhUCuC0aHuW18kv_lBpXvRcZOqJO59s2cjJnlsFH-QinAjItAo-6n3Lw9O3a6rDBHd_6VBczN4ylLReZCINywJem2d77WKA8_rDmuZiFQ-EjbKkQ=w607-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPSR82yJd3STDTvdkw2yFGyhLuL3uxaioSM1ENoC2I8Z1cEx2PlCXk8-rXatPPXDbjEiuMO3UUmy8ht02rdzDH6pJCRuyVW99ALSZw26ykEyIRwqjoAPtRB1pxT7UwaXd2Jrp9PrLVV074dwPX5yAot1g=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNI66mE1OBk2S6ooLwBRV1twkE9ZgX731SBcy-uqjK-t1d_dNtWiXFnOQ9nySpZrXnVKQ9V_cFHPyqXhGSpJ6v2cnXU4sZWjaT3zRvaioipfT8S880YHCAS9w8dJGJcZMTpWMpvI7J96oZr9FeEDy0z6w=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMra2zymDkSL4rIFJFmM2MWCUBDCQzXg6B_02vsJI26uq0l5xZvvu2US_N9fuI3wH9MW1NbsMLuiHlNbw95pWE4o6NvzIcTamiRUqhesqOp2rwjY2ppxplafGU0wgI9epxYeE28srfB7D4W0uXs2ftM2w=w607-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMvSTj5bJsVTOBC1TlLHHG6UGMc7QwMH-dybB-ST_Envg3vG4kUMCap3RfqCctjhkOvvZa57YhD5RZTq2pEhPAi0rIc5bsIbm9KDQGheqTAzdiy62dWKhOhgXau4XjaAAvMhiEQikfIjxOWghWEGEighg=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
+    id: "barcelone_place_d_espagne",
+    name: "Barcelone - Place d'Espagne (Plaça d'Espanya)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Barcelone",
+    subdiv: "Barcelone",
+    altitude: 33,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Carrefour Monumental de l'Exposition Internationale de 1929",
+    century: "XXe siècle",
+    category: "place",
+    counts: { place: 1 },
+    lat: 41.37503,
+    lng: 2.14931,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMttbUCzN96sK0kQmwsW_pRlI0qr-7uKZlI7Vh-rtO2BM6ck0R66nj4EbB4Sy9Vzg0Sl18PK3UbZiz47k0iSxxwLfxzyNTwJtVDFwqQOd7PYQ5dS3_HxDPKzTwH-5KjIiCvupu35R8KWkazaI5yQ432bA=w1367-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Conçue par les architectes Josep Puig i Cadafalch et Guillem Busquets puis achevée par Antoni Darder pour servir d'accès triomphal à l'Exposition internationale de 1929, la place d'Espagne (Plaça d'Espanya) est l'un des espaces publics les plus monumentaux et stratégiques de Barcelone. S'étendant au pied de la colline de Montjuïc sur plus de trente-quatre mille mètres carrés, ce vaste rond-point circulaire articule les grands flux urbains entre la Gran Via, l'Avinguda del Paral·lel et le carrer de la Creu Coberta. Le centre de la place est magnifié par une colossale fontaine monumentale néoclassique conçue par Josep Maria Jujol, ornée de groupes sculptés allégorisant les fleuves d'Espagne se jetant dans les trois mers qui baignent la péninsule (l'Èbre, le Guadalquivir et le Tage), couronnée par un calice de bronze symbolisant la victoire chrétienne. Bordée par les anciennes arènes néo-mudéjares de Las Arenas réhabilitées en centre culturel par Richard Rogers et dominée par l'axe solennel de l'Avinguda de la Reina Maria Cristina, la place compose une perspective grandiose orientée vers la Fontaine magique et la silhouette souveraine du Palais national de Montjuïc.",
+    visiter: "Traverser l'esplanade circulaire pour examiner au centre les imposantes sculptures allégoriques de la fontaine monumentale dessinée par Josep Maria Jujol. Lever les yeux vers la perspective théâtrale encadrée par les deux Tours vénitiennes qui ouvrent sur l'avenue Maria Cristina vers le Palais national. Monter sur le toit-terrasse panoramique circulaire des arènes de Las Arenas situées au bord de la place pour embrasser une vue plongeante à 360 degrés sur Montjuïc et la ville.",
+    link: ""
+  },
+  {
+    id: "barcelone_tours_venitiennes",
+    name: "Barcelone - Tours Vénitiennes (Torres Venecianes)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Barcelone",
+    subdiv: "Barcelone",
+    altitude: 33,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Porte Monumentale de Montjuïc & Campaniles de 1929",
+    century: "XXe siècle",
+    category: "star",
+    counts: {},
+    lat: 41.37411,
+    lng: 2.15002,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM9_vNxj424JaXdnWIer-gTlNY-3LHCtlt98RMCn7pAUD6logypAP_6xNbpK_8MBQNBkPo2RbAaR8XxMpOV2SsSwYMFnxsdT7gOg7u1lv4pgmbH2SskBqoWEmvVjcOO6Ty5zL4l3Ibc7s-HxKnU3wHIRQ=w1367-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Érigées entre 1927 et 1929 par l'architecte Ramon Reventós pour marquer l'entrée monumentale de l'Exposition internationale de 1929, les Tours vénitiennes (Torres Venecianes) se dressent comme deux sentinelles jumelles à l'amorce de l'Avinguda de la Reina Maria Cristina, face à la place d'Espagne. Hautes de quarante-sept mètres et bâties en briques rouges apparentes sur un socle appareillé en pierre calcaire de Montjuïc, elles sont directement inspirées du célèbre campanile de la basilique Saint-Marc de Venise. Bien que conçues à l'origine comme des structures temporaires d'apparat encadrant la grande perspective festive menant aux palais d'exposition, leur immense popularité populaire et leur remarquable intégration paysagère incitèrent la municipalité à les préserver définitivement. Chaque tour est couronnée par une élégante chambre des cloches ouverte par des baies en plein cintre, sommée d'une balustrade ouvragée et d'une toiture pyramidale en cuivre vert. Restaurées avec minutie en 2014, elles forment le porche d'honneur historique invitant les promeneurs à gravir les terrasses monumentales vers le sommet de Montjuïc.",
+    visiter: "Se placer sur l'esplanade pavée au pied des campaniles pour contempler le travail régulier de l'appareillage de briques et la sveltesse de leur profil s'élançant vers le ciel. Observer comment les deux tours encadrent parfaitement la perspective axiale menant à la Fontaine magique et au Palais national (MNAC). Poursuivre la montée piétonne le long de l'avenue Maria Cristina pour assister en soirée aux jeux d'eau et de lumière de la fontaine.",
+    link: ""
+  },
+  {
     id: "badalona_eglise_santa_maria_catifa_corpus",
     name: "Badalona - Église Sainte-Marie & Tapis de Corpus (Santa Maria i Catifa de Corpus)",
     country: "Espagne",
