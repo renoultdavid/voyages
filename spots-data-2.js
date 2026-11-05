@@ -1,5 +1,87 @@
 const SPOTS_2 = [
   {
+    id: "badalona_eglise_santa_maria_catifa_corpus",
+    name: "Badalona - Église Sainte-Marie & Tapis de Corpus (Santa Maria i Catifa de Corpus)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Barcelone",
+    subdiv: "Badalona",
+    altitude: 9,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Paroisse Historique, Reconstruction Néoclassique & Tradition Vivante du Corpus (XVIIIe siècle)",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 41.45262,
+    lng: 2.24619,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP-h4EM_3p5AJ_YsS7A0meRrGmynCHYYHK30rZdyAxWS67XKFM4ImcySFqmOpXOADSssaeTnNtpqWngaRE4JV1ne6Sf_w2A6rxA78JRYSpqPWTTqrvQSD5B7QjcqW8kdQTktXax8_VwbmP3_qyoFr55KA=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPgHyiYSxzgdEPzow1J22QQK8QKsCxbY9U5t969wizb2kI3ITk4gcTX9mRNV30DYKfMEr8EGw2gNdzZzfhl0kmEm303NrpQGkMVfTP1OCSfXPAen9OcqnZ3AQIz8k0nt7s9saR8FX7BZPmASGdPfv2fWQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'église Santa Maria de Badalona, bien que d'origine médiévale, présente aujourd'hui une nef dont l'esthétique dominante résulte d'une reconstruction néoclassique majeure au XVIIIe siècle. Cette nef unique se distingue par son volume spacieux et sa grande clarté, s'éloignant de l'obscurité mystique des édifices gothiques ou romans pour privilégier une architecture de la raison et de la lumière. L'espace est rythmé par de puissants pilastres à chapiteaux corinthiens qui soutiennent une corniche saillante courant tout au long du vaisseau, accentuant la perspective vers le chœur.\n\nLa couverture de la nef est assurée par une vaste voûte en berceau à lunettes, permettant l'insertion de fenêtres hautes qui inondent l'intérieur d'une lumière blanche uniforme. Les murs, peints dans des tons clairs, renforcent cette sensation d'amplitude. De chaque côté, des arcades en plein cintre s'ouvrent sur des chapelles latérales communicantes, créant un plan qui allie la simplicité de la nef unique à la fonctionnalité des espaces de dévotion secondaire. Le traitement des surfaces, sobre et équilibré, reflète l'influence du courant académique qui cherchait à retrouver la pureté des lignes antiques.\n\nLe chœur, au centre duquel se trouve une image de la Vierge, est surmonté d'une coupole sur pendentifs qui marque le point culminant de l'édifice. Cette zone, légèrement surélevée, est baignée par une lumière zénithale qui attire naturellement le regard des fidèles. La décoration, bien que discrète, souligne les éléments structurels de l'édifice, tels que les arcs et les moulures, offrant une lecture claire et ordonnée de l'espace sacré.\n\nUn élément culturel majeur associé à cette nef est la tradition du « Catifa de Corpus » (tapis de fleurs). Lors de la fête du Corpus Christi, le sol de la nef est recouvert de tapis de fleurs élaborés aux motifs complexes et colorés. Cette pratique transforme temporairement l'espace architectural en un jardin intérieur éphémère, créant un contraste saisissant entre la rigueur néoclassique des murs blancs et l'explosion chromatique des pétales au sol. Cette symbiose entre patrimoine bâti et tradition vivante fait de Santa Maria un lieu central de la vie sociale et religieuse de Badalona."
+      }
+    ],
+    description: "Dressée sur les hauteurs de la colline historique de Dalt de la Vila à l'emplacement présumé du forum de l'antique cité romaine de Baetulo, l'église Sainte-Marie (Església de Santa Maria) est la paroisse mère et le berceau spirituel séculaire de Badalona. Mentionnée dans les textes dès l'an 1012, l'église romane primitive fut entièrement reconstruite à partir de 1759 sous la direction de l'architecte Josep Mas d'Ordal pour répondre à la prospérité démographique du bourg, adoptant les canons rigoureux de l'académisme néoclassique. Bâtie en maçonnerie enduite et calcaire blond, elle se signale par une sobre façade à fronton triangulaire dominée par un clocher octogonal élancé. L'intérieur déploie un vaste vaisseau unique voûté en berceau à lunettes, baigné d'une clarté limpide et bordé de chapelles latérales communicantes. Le sanctuaire est le cœur battant de la solennité de la Fête-Dieu, accueillant la confection collective des « catifes de Corpus », splendides tapis éphémères de pétales de fleurs, sciure colorée et graines qui tapissent la nef de motifs géométriques et floraux d'une remarquable inventivité plastique.",
+    visiter: "Gravir les ruelles pavées de Dalt de la Vila jusqu'au parvis de Santa Maria pour admirer la sobre façade néoclassique et son clocher octogonal dominant le vieux quartier. Pénétrer dans le vaisseau pour apprécier la clarté et l'ampleur monumentale de la nef unique rythmée par ses pilastres corinthiens. Découvrir la coupole lumineuse du chœur et, lors des célébrations du Corpus Christi, contempler la féerie chromatique des tapis de fleurs étalés sur le pavement avant de poursuivre vers les vestiges romains du musée de Badalona situé à deux pas.",
+    link: ""
+  },
+  {
+    id: "badalona_musee_archeologique_baetulo",
+    name: "Badalona - Musée de Badalone & Cité Romaine de Baetulo (Museu de Badalona)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Barcelone",
+    subdiv: "Badalona",
+    altitude: 9,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "antique",
+    era_label: "Parc Archéologique Souterrain & Cité Romaine de Baetulo (Ier siècle av. J.-C. - Ier siècle apr. J.-C.)",
+    century: "Antiquité",
+    category: "musee",
+    counts: { musee: 1, archeologie: 1 },
+    lat: 41.45205,
+    lng: 2.24753,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO2PA3idmDZNt08nS6zLvpMLXhf9FRuCIfv-80GiZlZWN89iyxz0UIFlWF_KZ9m_gAsNYt4aCQBiYzBxc5cLtFmW8HzV5lhVa_qVs6q2qN5YH2MwEHVIa-b5FVswO6M_ix_8UfmhhmDwDpxHVqO6PQwvg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNixHsf3ACl_BZMvkKcMZ8X6LzoFKqcFeHXzbySoTJzOjP25mah_ABZ-INzEpdZN4c6fJ244LhvE9Cqg4aLhqeNr395UCwq7XPCBkwC_1mKDzd_nQvW76EcI0fPQxJKxQPWK3YpZ2R-UPvXyYp13kNeVA=w1379-h919-s-no-gm?authuser=0",
+        caption: "Le parcours débute par une déambulation sur des passerelles suspendues au-dessus du tracé viaire antique, où l'on découvre un tronçon monumental du decumanus maximus et son croisement avec un cardo secondaire. Les voies conservent leur dallage d'origine formé de grandes dalles polygonales de pierre locale, bordées de trottoirs surélevés (crepidines) et de bornes chasse-roues. Sous la chaussée court un remarquable réseau d'évacuation des eaux usées constitué de grands collecteurs maçonnés (cloacae) voûtés en berceau, qui témoignent du degré d'ingénierie hydraulique et des normes d'hygiène publique appliquées par les urbanistes romains dès la fondation de la colonie."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNomWq2dh80zkffJ13ZLvOFn19cLXRmDz58hPfRBoquVImi1wI9pEreLasVU_vi-B78Mlr5T6RxJx9JsMnN9R6OnSjX1-ygctPE8BP8UqpOUsjESFVuFOVQuuwCBc6Mve5Vj-IlCE_J4pmyxYM3wd3v0A=w1379-h919-s-no-gm?authuser=0",
+        caption: "De part et d'autre des rues pavées se déploient les façades d'immeubles de rapport (insulae) et les boutiques de plain-pied (tabernae) ouvertes sur l'artère commerçante. On y observe distinctement les seuils de calcaire rainurés qui accueillaient les volets de bois coulissants, les comptoirs de vente en maçonnerie et les arrière-boutiques servant de réserves ou de logements modestes. Plusieurs de ces échoppes illustrent les activités marchandes florissantes de Baetulo, en particulier une taverne (caupona) où subsistent les emplacements d'amphores, ainsi que des ateliers artisanaux et des dépôts liés à la viniculture, rappelant que la région constituait l'un des plus puissants centres exportateurs de vin de Layetanie vers Rome et les frontières rhénanes."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOt0AF1efDCXEE2cT96YM0lMt-BWBtbcYOET6KBd3vagkjXmJFpqNtF71MoT46MWYZ0vuHhDg7HSc4Es6vZx0N3nZ87A7f7lSLhYstBo9qAsMMTHUhjwLhhcJp0nZL40_ETR24H3ysiHZZwW2C-ju0_Og=w1379-h919-s-no-gm?authuser=0",
+        caption: "Au cœur du site souterrain s'élève le complexe des thermes publics, l'élément architectural le plus complet et le plus saisissant de la ville romaine. Édifiés à la fin du Ier siècle avant notre ère, ces bains ont conservé l'intégralité de leur distribution spatiale d'origine. La visite traverse la palestre, vaste cour découverte à portique destinée aux exercices physiques, avant de pénétrer dans l'apodyterium où les baigneurs disposaient de niches murales pour ranger leurs affaires. Le frigidarium, vaste salle froide, présente une impressionnante piscine semi-circulaire (natatio) revêtue d'un mortier d'étanchéité hydraulique (opus signinum) encore parfaitement visible."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOOnlI_SAhLe0JauztgulXLtu26GSKAgiBTxZPdTm_nx5Rw0B6_DqCLPlMnM8hTqYqsbpe7zn0XLkYm1pim_bBIb-r1i5z8_6G5w2abb7URGdBa4aC5gv2pfTB7LV-fmBK-Z0fXPY1BPTgfaOc8pt4smQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "En remontant vers les salles d'exposition permanente du musée, la scénographie met en valeur les chefs-d'œuvre artistiques et les objets mobiliers mis au jour lors des différentes campagnes de fouilles. La pièce maîtresse de la collection est la célèbre Vénus de Badalona, une gracieuse statuette en marbre blanc de Carrare haute d'une cinquantaine de centimètres, sculptée au Ier siècle de notre ère, qui représente la déesse nue esquissant le geste de sortir du bain. À ses côtés trône la Tabula Hospitalitatis, une plaque de bronze gravée datée de l'an 98 de notre ère qui scelle un pacte d'hospitalité et de patronage entre le conseil des décurions de Baetulo et le patricien romain Quintus Licinius Silvanus Granianus."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPUjWd6cLia7CkQ9KHOzxhPsxTsGf6dpC3jaKp7Jt-VrSKiwzGRtzUz_lkawVmjGpFt6aQRxnHBQWODEosuALnIso9jCaUn3JPINM51rHYf0b_TKOUvQFR5TyTp2sWb1DK7iZ2voXIdXFDkbdq7B3q6LQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPV47FWjlNhYWb7F-bC4ThEktJeyjBQgYPcH-UWHpC50H7icqpNWOMwry6BkQaG3wryldqkxEl44pEYDfZGUYNfbdOe08Uju7GDuU01-7vBziWuXSNxUHDAVskb7PVWQ9lVoZwlXblgxrup0nio-WqS3g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Aménagé directement au-dessus des fouilles archéologiques dans le sous-sol du quartier de Dalt de la Vila, le Musée de Badalone (Museu de Badalona) protège et valorise l'un des ensembles urbains romains in situ les plus spectaculaires et vastes de toute la péninsule Ibérique. Découvert à partir de 1954, ce parc archéologique souterrain de plus de trois mille quatre cents mètres carrés restitue le cœur monumental de la cité romaine de Baetulo, fondée vers l'an 100 avant notre ère sur un éperon côtier dominant la mer. Les passerelles muséographiques surplombent un tronçon complet du decumanus maximus et d'un cardo bordés de trottoirs surélevés, d'égouts maçonnés et d'une enfilade de boutiques (tabernae) et tavernes (cauponae) témoignant de l'opulence du commerce du vin layetan exporté dans tout l'Empire. Le complexe abrite des thermes publics remarquablement intacts du Ier siècle avant notre ère comprenant palestre, apodyterium et frigidarium à piscine semi-circulaire, tandis que les salles supérieures exposent les joyaux mobiliers de la cité, dont la célèbre Vénus de Badalona en marbre de Carrare et la Tabula Hospitalitatis en bronze de l'an 98.",
+    visiter: "Pénétrer dans le hall d'accueil du musée sur la plaça de l'Assemblea de Catalunya pour descendre dans les entrailles de la cité antique via un réseau de passerelles suspendues. Parcourir les rues pavées romaines pour observer les pas de portes rainurés des échoppes, les canalisations d'égouts et les bassins des thermes publics remarquablement préservés. Remonter au rez-de-chaussée pour contempler dans les salles du trésor archéologique la Vénus de Badalona, la charte de bronze de la Tabula Hospitalitatis ainsi que la riche collection d'amphores et d'enduits peints avant de poursuivre vers la maison des Dauphins toute proche.",
+    link: ""
+  },
+  {
     id: "barcelone_basilique_santa_maria_del_pi",
     name: "Barcelone - Basilique Sainte-Marie-du-Pin (Santa Maria del Pi)",
     country: "Espagne",
