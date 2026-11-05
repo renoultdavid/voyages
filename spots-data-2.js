@@ -410,7 +410,7 @@ const SPOTS_2 = [
     continent: "Europe",
     flag: "🇪🇸",
     region_admin: "Catalogne",
-    department: "Province de Barcelone",
+    department: "Province de Tarragone",
     subdiv: "Tarragone",
     altitude: 5,
     is_island: false,
