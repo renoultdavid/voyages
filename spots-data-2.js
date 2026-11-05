@@ -1,5 +1,133 @@
 const SPOTS_2 = [
   {
+    id: "siurana_mirador",
+    name: "Siurana - Mirador de Siurana & Saut de la Reine Maure",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Tarragone",
+    subdiv: "Siurana",
+    altitude: 721,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Falaises Calcaires, Canyon du Siurana & Légende Médiévale",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 41.25869,
+    lng: 0.93296,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN7iq-hhIpD9KZCpSnHem8ZUFliaOPJXbk3XcaZlydbXvG-5JhdyddYkw0HmyKwDQ1RWKv0StKP5pIJU68vTMLqCbTNXqBjtQZ8zDmg3oU-Da6gyE7RdsH8ZXaF5m18bKSZfikvgOnk3t_r5GJL4d5klw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPcDLqhmqhirnWC5WZWRlnLxpWgEAoezWoUWw6wLICNJgUoD6tyNCIGYEwwEc3GvQZdXnulVO61HFEcqLC6WARhpQK9lV3GeeD54eqZgqMcs61A0nVa2XL01tgpRrSKPdeS-SIMyJncHouUGxUS7JhJYw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Perché sur un promontoire rocheux vertigineux cerné d'abîmes à l'extrémité de la serra de Prades et dominant la vallée du Priorat, le belvédère de Siurana offre l'un des panoramas naturels les plus sauvages et saisissants de Catalogne. La plateforme calcaire plonge à pic de plus de deux cent cinquante mètres dans les gorges creusées par la rivière Siurana et s'ouvre sur les eaux émeraude du lac de barrage en contrebas, face aux reliefs déchiquetés du parc naturel de la Serra de Montsant. Le site est mondialement réputé pour ses parois verticales de calcaire compact qui constituent l'un des sanctuaires majeurs de l'escalade sportive internationale. La pointe extrême du belvédère est indissociable de la légende tragique du « Saut de la Reine Maure » (Salt de la Reina Mora) : lors de la prise du dernier bastion musulman de Catalogne en 1153 par les troupes chrétiennes, la reine Abdelazia préféra précipiter son cheval dans le gouffre béant plutôt que de tomber captive, laissant selon la tradition populaire la marque indélébile du sabot de sa monture gravée dans la roche au bord de l'à-pic.",
+    visiter: "Suivre la crête calcaire depuis la sortie du village jusqu'à la proue rocheuse du belvédère pour contempler le panorama circulaire grandiose sur le canyon, les eaux scintillantes du réservoir de Siurana et les crêtes rocheuses du Montsant. S'approcher prudemment du bord pour observer les falaises d'escalade vertigineuses et rechercher la trace légendaire du fer à cheval de la reine Abdelazia taillée dans la dalle avant de poursuivre le sentier de ronde ceinturant le village perché.",
+    link: ""
+  },
+  {
+    id: "siurana_chateau_arabe",
+    name: "Siurana - Château Arabe de Siurana (Castell de Siurana)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Tarragone",
+    subdiv: "Siurana",
+    altitude: 715,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Forteresse Islamique d'al-Andalus & Dernier Réduit Musulman de Catalogne (IXe-XIIe siècle)",
+    century: "IXe siècle",
+    category: "chateau",
+    counts: { chateau: 1 },
+    lat: 41.25816,
+    lng: 0.93463,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPxB9vItaG5tdO1P-mC-GmE2Nq9gn0PpXwq97bZnMRr62cfn3Req8qo5J3IHCMcuPr0ysH69lchYtVS1enOLfNAH4H_l3qBdfPf8JnFsLmPTitJ_gdSi4oqXT1r3cO0nwCZU5NcA8qfZl5MX1JgaqdTng=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP4ru9t2UEslAtlWUtAolgg6UH7gG26gOyO0Ot6jD6a2encVT9VoRIT6foWk4eQYsx1ZYqD-cEc66o_RFVZW_2LjZsfGQAY1waQotTc8WCgIhg-t9Bg8_y9mOfle1fhnx9Iy73PGRyLFsrXX_dwt7TtRA=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Érigé au IXe siècle pour verrouiller l'étroit isthme rocheux constituant l'unique voie d'accès terrestre à la presqu'île fortifiée, le château de Siurana (Castell de Siurana) était le centre militaire et administratif du valiat de Siurana, vaste territoire frontalier d'al-Andalus s'étendant sur les actuelles comarques du Priorat, de la Ribera d'Ebre et des garrigues de Tarragone. Bâtie en moellons de calcaire local parfaitement intégrés au socle rocheux naturel, cette forteresse comprenait un donjon rectangulaire, des courtines crénelées, des citernes taillées dans la roche et une robuste tour de garde surveillant les vallées fluviales environnantes. Protégée par des falaises abruptes réputées infranchissables, la place forte fut le tout dernier réduit musulman à résister à la Reconquista en Catalogne, ne capitulant qu'en 1153 après un long siège méthodique mené par les armées chrétiennes de Raimond-Bérenger IV et des comtes de Prades, quatre ans après la chute de Lérida et de Tortosa. Les fouilles archéologiques ont dégagé les assises des casemates, la porte d'entrée en arc outrepassé et les structures d'habitat castral médiéval.",
+    visiter: "Traverser l'isthme d'accès pour pénétrer au cœur des vestiges du site castral en observant l'ancrage des murailles de calcaire blond directement sur la roche vive. Parcourir les fondations du donjon et des tours de flanquement pour appréhender le système défensif islamique et admirer la vue plongeante sur le canyon encaissé de la rivière Siurana. Les panneaux didactiques jalonnant le parcours permettent de situer les différentes phases architecturales andalouses et chrétiennes jusqu'à l'abandon du site au XVIIe siècle.",
+    link: ""
+  },
+  {
+    id: "siurana_eglise_santa_maria",
+    name: "Siurana - Église Sainte-Marie (Església de Santa Maria)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Tarragone",
+    subdiv: "Siurana",
+    altitude: 723,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Art Roman Catalan & Portail Sculpté à Tympan (XIIe siècle)",
+    century: "XIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 41.25776,
+    lng: 0.93236,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNVMyuFfFmF09FnVcmAMS6pY16rAsgPeI_b8K2OiDOg0z5rn3ttR_VXjMaR19iadiuWToaXm4d185Ye1yjZJUWpA8m5feMDXPSC802RJuvnGZWyUHUKeZpOgG3a_DNiGHGx7eguCto7KmIS2Kg9sWooEA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMB_Yx4KlicVHOgWtTR5q_RFl196cqQ2r7B5e1f3ykhqUd2MSbJbkMP-VyD7rwt_ArhQKoiqrF7wK-ErGR95_HrOU1NIOuRrxmwsr468BQbCuFuEFEWTiqpExosbEXRbA5V5u3XLe-LgKdQRAdFn62q7A=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOCOIvrmrWdytUSxZ2T9Ka6Pr3TGPJWej8NK1ziUc_oCJuNHFeVDVB98qkP7c5rVaPoPW1xYFmJrhe_KTbbfgs8yNMWWJqIrLrWf3VlqzwySxSwE-tyOyCVVqbGzQYSZ8v_OiV8GJfkWaNV7b-Y6-cFBA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Édifiée entre le milieu du XIIe et le début du XIIIe siècle au lendemain de la prise de Siurana par les armées chrétiennes en 1153, l'église Sainte-Marie (Església de Santa Maria) constitue l'un des joyaux les plus purs, intègres et émouvants du roman rural catalan. Construite pour affirmer l'implantation de la nouvelle foi sur les ruines de l'ancien pouvoir andalou, elle se compose d'une nef unique voûtée en berceau brisé soutenue par des arcs doubleaux, s'achevant sur une sobre abside semi-circulaire voûtée en cul-de-four. L'édifice se distingue par son exceptionnel portail méridional en plein cintre, chef-d'œuvre de sculpture romane régionale conservant un tympan historié d'une rare finesse : au centre trône le Christ en majesté entouré d'anges thuriféraires et des symboles des quatre évangélistes (le Tétramorphe), encadré par trois voussures toriques retombant sur des colonnettes aux chapiteaux sculptés de motifs végétaux, d'animaux fantastiques et de scènes figuratives. Sa maçonnerie massive en pierre calcaire dorée, exempte de tout remaniement ultérieur d'envergure, dialogue en silence avec le paysage grandiose des falaises du Priorat.",
+    visiter: "S'approcher du flanc sud de l'église pour détailler la riche iconographie du portail roman, en observant la figure centrale du Christ sur le tympan et les décors d'entrelacs et d'animaux sculptés sur les chapiteaux. Faire le tour de l'abside polygonale pour admirer la régularité des assises de calcaire et les modillons sous la corniche du toit. Pénétrer dans le sanctuaire baigné d'une pénombre recueillie pour ressentir la sobriété cistercienne et romane de la nef unique avant de ressortir sur le terre-plein dominant le ravin.",
+    link: ""
+  },
+  {
+    id: "siurana_ruelle_village",
+    name: "Siurana - Ruelle et Village Médiéval (Carrer de Siurana)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Tarragone",
+    subdiv: "Siurana",
+    altitude: 723,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Habitat de Montagne Médiéval, Calades & Maisons en Calcaire (XIIe-XVIIe siècle)",
+    century: "XIIe siècle",
+    category: "star",
+    counts: { habitation: 1 },
+    lat: 41.25805,
+    lng: 0.93228,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNs5nGpQz6HeEt4ha84gmFXkoNkiqT1gXuF6gToij33_VP7LxTWwbm5kej_Tcj0h1MyoJ1J155JIqaexEiXv9_lTvWKEAmBfv2LNUx613oAmEt8HVlzC4kOm712fyydsOTvFn3l7QSTrsKYbHC2uFHN1w=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMDSpF9ov8e0CHhKhBuvIzn0O7NBFzP8uikiDI-z6WuOeLyaE3JzRCrkwKMWrfiKHzeOytCx2AsTCxz737WkDuAU16YXQCRwFYBdLyEhO3Z359rwVhAeTiqh-NTQ-MfkNVovAQoh71ViVODkw1u0J4jwg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Accroché à l'éperon rocheux sommital cerné de précipices vertigineux, le hameau médiéval de Siurana constitue l'un des ensembles villageois traditionnels les plus préservés, authentiques et pittoresques de Catalogne. Articulé autour d'une ruelle maîtresse pavée de dalles de calcaire brut et de petites calades en escalier, le village déploie un tissu urbain dense et homogène né de la réorganisation chrétienne consécutive à la reconquête de 1153. Les bâtisses montagnardes, serrées les unes contre les autres pour résister aux rigueurs des vents d'altitude, sont édifiées en moellons de calcaire ocre soigneusement appareillés, couvertes de toitures en tuiles canal patinées par les siècles et percées de fenêtres aux encadrements de pierre sculptés de linteaux anciens gravés. Épargné par toute urbanisation moderne grâce à son isolement topographique, ce village perché dégage un charme intemporel où chaque venelle débouche sur des échappées visuelles ouvertes sur le vide des falaises et les horizons bleutés de la comarque viticole du Priorat.",
+    visiter: "Déambuler au hasard des venelles pavées en calades pour apprécier l'harmonie minérale des façades en pierre de taille, les portes en bois clouté et les cours intérieures fleuries. Lever les yeux vers les linteaux gravés datés des XVIe et XVIIe siècles témoignant de l'époque moderne du village. S'engager dans les étroits passages menant aux belvédères naturels en bordure de falaise pour profiter des vues plongeantes sur les vignobles et le barrage de Siurana dans un silence absolu.",
+    link: ""
+  },
+  {
     id: "vimbodi_i_poblet_monastere_de_poblet",
     name: "Vimbodí i Poblet - Monastère Royal de Sainte-Marie de Poblet (Reial Monestir de Santa Maria de Poblet)",
     country: "Espagne",
