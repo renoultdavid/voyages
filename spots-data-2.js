@@ -1,5 +1,52 @@
 const SPOTS_2 = [
   {
+    id: "barcelone_palais_national_montjuic",
+    name: "Barcelone - Palais National de Montjuïc (MNAC)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Barcelone",
+    subdiv: "Barcelone",
+    altitude: 80,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Palais Monumental de l'Exposition de 1929 & Musée National d'Art de Catalogne",
+    century: "XXe siècle",
+    category: "star",
+    counts: { musee: 1 },
+    lat: 41.36883,
+    lng: 2.15330,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOEwRaMPYzxr2QWb8FqWtIIAaDo-yTEnqX8rdl28v11t3Ox0gHX6oEadYu2tXWg0KwYCgkdnqlZantfLkTWjLxoKK0hwfwA1zyxKK5xVO4xmdp1H7kAmj85tNUM95xbt08583VB6qlUhhsMSI4_NriR-A=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPQMblI6HB5ndGDv-9amPsXiIs9DrsGPQyxwD0c89zwOB3L60i6qAw8ftECc4zAMGq7icNyAmQe52_86dC3yzMB9ebmk1_q8soH0WEG45Jh2kuDy-SQIMOkGSsxu1fSCJIY1j9eem80NiMDmz_QmWPa6w=w1379-h919-s-no-gm?authuser=0",
+        caption: "Depuis l'esplanade sommitale et les terrasses supérieures aménagées sur les toits du palais, le belvédère ouvre l'une des perspectives les plus saisissantes sur Barcelone et son territoire géographique. L'axe visuel plonge d'abord en ligne droite le long des cascades en terrasses et de la Fontaine Magique de Carles Buïgas, franchissant l'avenue de la Reine Marie-Christine encadrée par les deux tours vénitiennes pour déboucher sur la géométrie circulaire de la place d'Espagne. Au-delà, le regard embrasse toute la trame orthogonale du plan Cerdà de l'Eixample, ponctuée par les flèches dressées de la Sagrada Família et la silhouette cylindrique de la tour Glòries, avant de buter sur la barrière naturelle de la chaîne de Collserola dominée par le mont Tibidabo, tandis que les terrasses orientales dévoilent le front maritime, le port industriel et les reflets de la Méditerranée."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNuu1MIaW29EjQJdAmYCWElHGwi5Q4S-NnAtvt2Rx9wjOrypXg_BrobC1RZoi6mA_dOUBsHjzP9JeWJF-FOPk2-Bf8VoMtIjBtEsAbuwmmbOlo0gzKUzOUvu3X6EzT7OYxKpNHU2MSJpq4E_vRp8CNF5w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMkNn467VCSiBsZOZcjrcEMKhmasbkZuPA6C5z2CJdu-GfGaEpzy2XLBL6t1Wiz-8lmDJwWPXZOw3J4SbZ2WJ1PNl057VPptqlg2uECfgl27qd4t2vvxcaqeioh8nS81F0WS4tR6A221jEKYtNMeY5Zrg=w1379-h919-s-no-gm?authuser=0",
+        caption: "Au cœur du bâtiment se déploie la Grande Salle, également désignée sous le nom de Salle Ovale, l'un des espaces couverts monumentaux les plus vastes d'Europe avec ses deux mille trois cents mètres carrés au sol. Destinée aux cérémonies officielles et inaugurée le 19 mai 1929 par le roi Alphonse XIII pour l'ouverture de l'Exposition universelle, cette nef elliptique est ceinte par un péristyle continu de colonnes colossales d'ordre corinthien cannelé supportant un entablement classique surmonté de tribunes à balustrades. L'espace est coiffé d'une immense voûte en coupole nervurée peinte d'allégories et percée d'ouvertures zénithales qui inondent la salle d'une clarté diffuse, créant une acoustique et un volume intérieur conçus pour accueillir jusqu'à vingt mille personnes lors des grands rassemblements civiques."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPmpUE3-FmcCdHrhbTqlpiAsrSN1b13ctfzpWz9xFUZeEmRME_LsC5LVteILkiodX5ZL-0gbw1r5qCv-Y1pZGf8Vz4UO9ETlAaZ-OnHJhnNSlitC9xhZkQdERPLJYUHlg2dFecqcp8vADzAtcoitT5buA=w1379-h919-s-no-gm?authuser=0",
+        caption: "La paroi courbe méridionale de la Grande Salle accueille l'un des joyaux techniques et musicaux de l'édifice : un orgue monumental conçu par la manufacture allemande Walcker, doté de six claviers, d'un pédalier et de près de onze mille tuyaux, comptant parmi les plus imposants instruments de concert symphoniques jamais construits au début du XXe siècle. Réaménagé avec sobriété par l'architecte italienne Gae Aulenti lors de la restructuration muséale achevée dans les années 1990, le Saló Oval conserve sa majesté théâtrale d'origine, servant de carrefour distributif spectaculaire entre les galeries d'art roman, gothique, Renaissance et moderniste réparties dans les ailes adjacentes du musée."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNcfr5L8Irh6rQyUApSiOfjpOf-BVbNQ5hh6_aNkaFvZImsmKd7u7pTz-mnb_y1-PL6FH3PHQ3AwUfiD37qI6acKXIqVHvdSWuGpzJzs1rUpLoUIgkJ7OjvobvwuI5_Q2z49iFRGMzXdQFjutj6X_3pXw=w1379-h919-s-no-gm?authuser=0",
+        caption: "Surplombant le vestibule d'accès et la croisée monumentale du Palais National, cette coupole centrale a été conçue pour l'Exposition internationale de 1929 sous la direction des architectes Eugenio Cendoya et Enric Catà. Son élévation repose sur quatre imposants pendentifs ornés de figures allégoriques en camaïeu et d'un tambour circulaire à colonnade classique, rythmé par des panneaux peints narrant les hauts faits et les vertus civiques et culturelles de la Catalogne et de l'Espagne.\n\nLa calotte sommitale déploie une vaste fresque allégorique conçue par le peintre et pédagogue noucentiste Francesc d'Assís Galí, entouré de grands maîtres de la scène catalane comme Josep de Togores et Manuel Humbert. Dominée par des tons azur et ocre lumineux, la composition circulaire célèbre la religion, les arts, les sciences et le travail à travers des groupes de figures dynamiques et des symboles spirituels rayonnant autour du zénith."
+      }
+    ],
+    description: "Couronnant les versants septentrionaux de la colline de Montjuïc, le Palais National (Palau Nacional) constitue le bâtiment emblématique majeur érigé pour l'Exposition internationale de 1929. Conçu entre 1926 et 1929 par les architectes Eugenio Cendoya, Enric Catà et Pere Domènech i Roura, ce colosse architectural de plus de trente mille mètres carrés s'inspire du classicisme académique espagnol et de la Renaissance herrerienne, dominé par une grandiose coupole centrale calquée sur celle de Saint-Pierre de Rome et flanqué de quatre tours d'angle évoquant la cathédrale de Saint-Jacques-de-Compostelle. Depuis 1934, le palais abrite le Musée National d'Art de Catalogne (MNAC), institution muséale de premier plan international abritant la plus importante collection de peinture murale romane au monde — chefs-d'œuvre uniques de fresques transférées sur toile provenant des églises isolées des Pyrénées catalanes comme Sant Climent de Taüll —, ainsi qu'un riche panorama du gothique, de la Renaissance, du baroque et du modernisme catalan. Restructuré dans les années 1990 par l'architecte italienne Gae Aulenti pour adapter ses nefs aux exigences muséographiques contemporaines, l'édifice déploie en son cœur le monumental Saló Oval et offre un belvédère souverain sur l'axe triomphal de la place d'Espagne.",
+    visiter: "Gravir les volées d'escaliers mécaniques ou les terrasses en gradins depuis la place d'Espagne en longeant les cascades et la Fontaine Magique de Carles Buïgas. S'arrêter sur le parvis haut pour embrasser le panorama plongeant sur la perspective de l'avenue Maria Cristina et la trame urbaine de l'Eixample. Pénétrer dans le palais pour admirer l'immensité de la Salle Ovale et la coupole peinte par Francesc d'Assís Galí, avant de parcourir impérativement les salles d'art roman afin d'admirer les absides peintes du Christ Pantocrator de Taüll, puis de monter sur les terrasses du toit pour contempler la ville et la mer.",
+    link: ""
+  },
+  {
     id: "barcelone_parc_guell",
     name: "Barcelone - Parc Güell",
     country: "Espagne",
