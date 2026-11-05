@@ -1,5 +1,157 @@
 const SPOTS_2 = [
   {
+    id: "montserrat_pas_dels_francesos",
+    name: "Montserrat - Pas dels Francesos",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Barcelone",
+    subdiv: "Monistrol de Montserrat",
+    altitude: 855,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Sentier de Randonnée, Défilé Rocheux & Mémoire Napoléonienne (XIXe siècle)",
+    century: "XIXe siècle",
+    category: "rando",
+    counts: {},
+    lat: 41.59122,
+    lng: 1.83209,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMpK4uY_XBxB0MA5WyaSpvf4gex20TkvgUTBkUb2JSzE47xHd_5l67AocgBYNvKbwMMGlup0x3DEXA3fkN6EhhoGipzGHRaRi01RLemWKjFPLJScdEHrl3K02sRDb7PJ5k9Hxfjf3q7LToSQ7OFKyGbJw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO_7q5Qflzd944y0vNsmYJc5Ygb1piy2f-MvBmZLz0vIP71SCeYwBp0p70D3mab_OhXU59PI-Fz6S_JQ6Vj2VLzDV7g_qI586GzxIF1SUfuKYFhB41ljTDPW5qmaaLCiaPSiI8XxbVG1M-fXMkpcqS5Pw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNWGXal6A_Z5zX_R8P8k5Izd88iuI1kPQ_y_OYgfUzW-NDE_yI5CUf_DxxXR2-sINlrfJhlcDxPNugOFDnpfO71C4qooYzEOIj8w-4lYST0od5agKjfKw6t8sxmp9kMY-555-4-o4ZSC_zEoTxhrAbwMQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPhs4C652gHd0QEUzhGibMES41fwf95EiJYW0tTm2e-CeF2h20a8D_XujtNYndmXdUg22CW8VAXjDWm4LthfMVNRimjWSXRNc1u0TTEDAd9kamOeyPqBOCdT6Q-D92c3GvEL-RKll_LxtwTBimu-u2dSQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNIRWVqFx-E4u7VBUjWeTGnxpOKCaaW83LEpGBAEUbyEzuRuP9w_ixUMp0xTFUawhDNTDqZ4J37LO8FljKvObUNCyhZWfXiCO1Df5FJ7BtYP0FDKPVl864bKgKZE_W6QhYU8wkaTcH9bfu73tgynUeTFw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Niché au cœur du parc naturel de la montagne de Montserrat sur l'itinéraire pédestre historique reliant l'abbaye au Pla dels Ocells et au sommet de Sant Jeroni, le Pas dels Francesos (le Passage des Français) est un spectaculaire défilé taillé dans le conglomérat calcaire caractéristique du massif. Étroit couloir rocheux gravi par des escaliers escarpés en pierre et en bois (les Escales dels Pobres), ce passage naturel doit son nom aux affrontements de la guerre d'indépendance espagnole (guerre d'Espagne) en 1811, lorsque les troupes impériales napoléoniennes sous les ordres du maréchal Suchet empruntèrent cette gorge abrupte pour surprendre les défenseurs catalans et saccager le sanctuaire de montagne. Encaissé entre de colossales aiguilles rocheuses aux parois verticales lisses sculptées par l'érosion éolienne et fluviale, le sentier serpente sous un couvert d'yeuses, de chênes verts et de buis sauvages. Il offre aux randonneurs une expérience d'immersion minérale saisissante, où l'austérité des parois conglomérées dialogue avec des échappées visuelles vertigineuses plongeant vers le vallon de Santa Maria.",
+    visiter: "S'engager sur le sentier de Sant Jeroni depuis l'esplanade du monastère pour gravir les marches empierrées des Escales dels Pobres jusqu'au Pas dels Francesos. Traverser l'étroit goulet rocheux en observant la texture géologique du poudingue congloméré de Montserrat et la verticalité des parois d'escalade environnantes. Poursuivre l'ascension vers le Pla dels Ocells et l'ermitage de Sant Jeroni pour profiter d'un panorama panoramique à 360 degrés sur toute la Catalogne, des Pyrénées jusqu'à la mer Méditerranée.",
+    link: ""
+  },
+  {
+    id: "montserrat_monastere_santa_cecilia",
+    name: "Montserrat - Monastère Sainte-Cécile (Santa Cecília de Montserrat)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Barcelone",
+    subdiv: "Marganell",
+    altitude: 677,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Abbaye Bénédictine Romane Primitive & Espace d'Art Sean Scully (Xe-XIe siècle)",
+    century: "XIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 41.61165,
+    lng: 1.81716,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNrG5E8nN_zSixBnfhZDOiEO2z3KffOTsd-PrECqYnntCbVU4vHAsCrNZLITe1g_DQmmFskuDHv17aGW9-VrhNUb89IXlbsEXf9ucPv1R5vNKxSIck6e5MDCL_ipC0kVwjM3yX70lip80hYBCbsK2FM2g=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPxZl8SvrOarpFDdcamOc1hOLF-z-0C9pnI_3leiJD1DLFZ-40SShbFRgV0HrCuuZTYDBlnDzhYqn0UUkoChe_JA1XHcNA9K_0PZuSpUA503irmAcQpOJdNT9-TY7VMIdQ6doQ8iwcJ0zSlu2JhgfrNSA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNy4QbEsfwNpR4dZYIGLGVSZuBn87aIO5b1Gbqjav-60-7flvO9E2JOSQrzF1LxMqz5ESIpigBeRq1XFmDNtcVsnp9HyKNXoaJN1QGFY6evUslHiwcmLKB6UeTSTszvw4nn_02uYSsjYEEGT-2pWTeS8w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Accroché au flanc nord de la montagne de Montserrat sous la titanesque paroi rocheuse du Cavall Bernat, le monastère Sainte-Cécile (Monestir de Santa Cecília de Montserrat) est le plus ancien sanctuaire documenté du massif. Fondé vers 945 par l'abbé Cesari avec l'aval du comte Sunyer de Barcelone, le monastère fut le premier grand foyer de vie monastique bénédictine de la montagne, antérieur à l'abbaye de Santa Maria. L'église actuelle, consacrée en 1058, est un chef-d'œuvre du premier art roman catalan (style lombard) d'une exceptionnelle pureté : elle présente un plan basilical à trois nefs voûtées en berceau plein cintre, rythmées par de massifs piliers rectangulaires et terminées par trois absides semi-circulaires ornées d'arcatures aveugles et de bandes lombardes extérieures en calcaire doré. Rattaché au grand monastère voisin au XVe siècle puis incendié lors des guerres napoléoniennes, l'édifice restauré par Josep Puig i Cadafalch au début du XXe siècle a connu une spectaculaire renaissance spirituelle et artistique en 2015 : il abrite désormais l'Institut d'Art Sean Scully, où les toiles abstraites, vitraux monumentaux et fresques minimalistes de l'artiste peintre irlandais dialoguent dans un recueillement saisissant avec l'austérité millénaire de la pierre romane.",
+    visiter: "Rejoindre la terrasse de Santa Cecília le long de la route panoramique de Can Maçana pour admirer le chevet roman lombard aux trois absidioles adossé aux murailles de conglomérat du Cavall Bernat. Pénétrer dans le sanctuaire roman pour ressentir l'intime communion entre les voûtes de pierre du XIe siècle et l'intervention artistique contemporaine de Sean Scully, en contemplant les vibrations chromatiques des vitraux modernes et des retables abstraits éclairant la pénombre médiévale.",
+    link: ""
+  },
+  {
+    id: "montserrat_monastere_santa_maria",
+    name: "Montserrat - Monastère de Montserrat (Santa Maria de Montserrat)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Barcelone",
+    subdiv: "Monistrol de Montserrat",
+    altitude: 732,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Sanctuaire Bénédictin Royal, Trône de la Moreneta & Cœur Spirituel Catalan (XIe-XIXe siècle)",
+    century: "XIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 41.59341,
+    lng: 1.83764,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPb4iyjPHjB1Dd7Yfh8pmpmvGvGURAJJniTaY19Ru007UTej89ZL-h_souizLM8ud-y9EDRgJk1obK9noTHLsaQe_xLyUOEXiKJm0DSjM8AurHuqdMiM96zRe74zUxPKkuXDOexd8keIakAa4hWPhB80Q=w1379-h919-s-no-gm?authuser=0",
+    description: "Véritable cœur spirituel, culturel et identitaire de la Catalogne niché au creux d'un spectaculaire amphithéâtre d'aiguilles conglomérées à plus de sept cents mètres d'altitude, l'abbaye bénédictine royale de Santa Maria de Montserrat est l'un des lieux de pèlerinage les plus célèbres de la chrétienté. Fondée en 1025 par l'abbé Oliba, évêque de Vic, sur le site d'anciens ermitages associés à l'apparition miraculeuse d'une statue de la Vierge dans la Sainte Grotte (Santa Cova), la communauté monastique devint un pôle de rayonnement spirituel et intellectuel majeur doté d'un prestigieux scriptorium et de l'Escolania, l'un des plus anciens chœurs d'enfants chanteurs d'Europe fondé au XIIIe siècle. Reconstruite après son anéantissement par les troupes napoléoniennes en 1811, la basilique conjugue l'architecture gothique et Renaissance du XVIe siècle avec les fastes néo-plateresques et modernistes de la Renaixença catalane. Le sanctuaire est le trône séculaire de la Moreneta, vénérable Vierge noire romane en bois polychrome de la fin du XIIe siècle tenant l'Enfant Jésus et la sphère de l'Univers, proclamée sainte patronne de la Catalogne par le pape Léon XIII en 1881.",
+    visiter: "Franchir la place Santa Maria pour admirer la façade néo-plateresque et pénétrer dans l'atrium d'accueil bordé de statues de rois et de saints. Entrer dans la nef basilicale baignée par la lumière de la lanterne zénithale pour s'imprégner de l'atmosphère recueillie et écouter à treize heures le chant quotidien du Salve Regina entonné par les voix cristallines de l'Escolania. Gravir l'escalier latéral d'albâtre et d'argent menant au camarín pour vénérer au plus près la Vierge noire de la Moreneta, avant de visiter le riche Musée de Montserrat abritant des chefs-d'œuvre du Caravage, du Greco, de Monet et de Picasso.",
+    link: "",
+    sections: [
+      {
+        title: "Accès au sanctuaire, plaça de Santa Maria et façade néo-plateresque",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPb4iyjPHjB1Dd7Yfh8pmpmvGvGURAJJniTaY19Ru007UTej89ZL-h_souizLM8ud-y9EDRgJk1obK9noTHLsaQe_xLyUOEXiKJm0DSjM8AurHuqdMiM96zRe74zUxPKkuXDOexd8keIakAa4hWPhB80Q=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN4xFm4Gf-8xDThC3spGbb0PAPGxGUQlSZU66GkIS0l8iq6OcdWlQUXJd4lqbz7KdTW5E2pKZSA9_CPKG9-_poy9LPih4pInzgV1sNwwYHLsZK6EN_a0w717ggVB9KlOGvHXADxOPRW0cf_vZqirB238g=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'accès au sanctuaire s'effectue par une succession de terrasses étagées taillées dans le roc qui mènent à la plaça de Santa Maria, vaste esplanade pavée délimitée par les bâtiments conventuels et l'austère hôtellerie monastique. La perspective est dominée par la façade principale de la basilique, reconstruite en 1901 d'après les plans de l'architecte Francesc de Paula del Villar dans un style néo-plateresque catalan en calcaire local."
+      },
+      {
+        title: "Atrium d'accueil, narthex et galerie des saints et souverains",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPqfdLkHFu5itCPzzJ5bVZrytyslunVXZ77d6xLx8MGFwM4K7uagox7604cDEwKdbeBDuJ4uDhI_JpwE1ax0KSkf_RxXu6PLX4jTy573w4sOWjAKJMoMvFNqhar60sFNYtXyr52iRiHCwUbqRfb33CXjA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN0kKSbULYR7m2WIn3gHiUwuEkndWu_Czl7FDebshZbteFu28-F7CDnHTlJvGoxQOMC7381gut-EWpxfSTXABOwIpBhITlteG4oKfIL2cGbTCxnPEituSVCDZPc4vjWU3okMej1F4QrZXqBIWxvR2ngzA=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Cette haute façade s'ouvre sur un atrium fermé formant un narthex d'accueil, cour intérieure ceinte de galeries cintrées décorées de reliefs sculptés et de statues monumentales rendant hommage aux papes, aux rois d'Aragon et aux saints dont les pèlerinages ont marqué l'histoire du site, tels saint Ignace de Loyola venu y déposer son épée de chevalier en 1522 avant de fonder la Compagnie de Jésus."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPdcZ-0iMkCeiMHAV8KaD8wsN1GxuCgTcgWDuaLQwbcp6JqLgMXnc8WYMv7Ga29ehB3R3LTdroemGyGWiHq7n3ul66kN9noigxhAEpUyf0Zab-s6RF3L3RoTwVoqAOin8PJ-AkokfGloxNQE92tx9qpyQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMC1G0VdtArz2MVq0qKy5y0UAYFovpsri5s7EDgPLTs0e4JhAJINXq_B-1Op5dlmYJvGfiZQP9Zr1oYnap_QMxRFyZzV22uIKOYvQMRUNL62I81yx_3PdER8KO7geuQ6mVyjCVYloPdozVUEqFNtd24rA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Élévation de la nef unique et lanterne de la croisée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOaWl9LZ3Pa6G7xKQy6jz8zbrwtbqaHqQv05d1Qdl8GhNyl6zVOALDExie4aa14QSPZYKjhkmFC2LfsKKL7uVp4EvhqZbXNcKX20z2TPXmBOS7_qS5HfSlW1yDtqwfnBg-kpyK0-rGhP_SSS5vujgm0hw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Bien que l'origine de l'abbaye remonte au XIe siècle, la structure visible ici témoigne d'une reconstruction majeure entreprise au XIXe siècle après les dévastations des guerres napoléoniennes, suivie d'importantes rénovations modernistes. La perspective offre une vue plongeante sur le vaisseau central, révélant une fusion singulière entre les traditions gothiques catalanes et les apports éclectiques de la Renaissance, le tout magnifié par une ornementation riche et dorée caractéristique de la dévotion locale.\n\nL'espace est structuré par une nef unique de vastes dimensions, bordée de chapelles latérales insérées entre les contreforts. L'élévation est rythmée par des piliers massifs décorés de motifs géométriques et héraldiques, soutenant des arcs brisés qui guident le regard vers la voûte. Au-dessus de la croisée du transept, une lanterne octogonale percée de fenêtres inonde l'intérieur d'une lumière zénithale, créant un contraste dramatique avec les zones d'ombre des bas-côtés. Ce puits de lumière souligne la verticalité de l'édifice et symbolise l'aspiration spirituelle des pèlerins venant honorer la Vierge noire."
+      },
+      {
+        title: "Le chœur liturgique, retable doré et trône de la Moreneta",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNA6csodearrC96Fn8IClxScgrmAODhzfq_fKVtyvmQClPCUrszqgpZNKcqztw9VYJMAoQDogt791wFNKDtbezgzGmEeo9KrJ2etOz0MpwvTZB9dhQGVXkxsfQj4BQpGRm8H4wghGr2koDdWm_xgYu5Ew=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN9zmaY8TlW8dl408j6c2KJE4ktrd0MtnEmzlaex53RmkSKSRbp4DPaZjVbiHQdKWIw8KWTU8aclFp0HBZ1QYkXSrYB9oSL9AzeVBBTPirAhH_C023m2Vp68YmQWT0mbsDgvn6IMGQdddmSG5hMWzfDAA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le chœur, point focal de la composition, abrite un retable monumental baigné d'éclats dorés. On y distingue, au centre de la niche supérieure, le trône de la \"Moreneta\", la Vierge de Montserrat, dont la silhouette se détache contre un fond lumineux. Les murs de l'abside sont ornés de fresques et de mosaïques réalisées par des artistes renommés tels que Joaquim Vayreda ou Alexandre de Riquer, illustrant l'influence du mouvement Renaixença. La présence de la foule au premier plan souligne la fonction vivante de ce sanctuaire, qui demeure l'un des centres culturels et religieux les plus emblématiques de la Catalogne."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP0NUAXKnTnkYSOcmaetT7Wr_YBgYyfUmKztNLTe6K4nkhOcz0sooi8HeWwg32KrEO8lr8mblY0dg2yDv2boy09kuvHVkloXVd2r_SS9QPdepdNwMChyIaN6tm6HVa4wnp9iFCjy09PqQdWXZh08u0ZaA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOWN-7G2cR7NeSNoUYYuTpv-6O1eOW6uEspc1AGVWgkjbp4nOsvl3-gnD1Vkheo75bp_T4r3jK-QaQk0Y-c__htfDif8Wk7_3vbXSZJ5Mf45H-vUUL_QiHIV-OreaJODaqmhz3XXwjxJTWYJ9ujO8hxwA=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
     id: "barcelone_musee_archeologique_catalogne",
     name: "Barcelone - Musée d'Archéologie de Catalogne (MAC)",
     country: "Espagne",
