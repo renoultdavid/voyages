@@ -1,5 +1,109 @@
 const SPOTS_2 = [
   {
+    id: "tarragone_cathedrale_sainte_thecle",
+    name: "Tarragone - Cathédrale Sainte-Thècle (Catedral de Santa Tecla)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Tarragone",
+    subdiv: "Tarragone",
+    altitude: 73,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Transition Romano-Gothique, Siège Métropolitain & Temenos Romain (XIIe-XIVe siècle)",
+    century: "XIVe siècle",
+    category: "religieux",
+    unesco_name: "Ensemble archéologique de Tarraco",
+    counts: { unesco: 1 },
+    lat: 41.11903,
+    lng: 1.25797,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOOTWrEAwJyY85NEyLQKoSkJswQjXnL805Duk6zVEQHxslROS_BRbfF-N8RLBpS0AY-64td_pZFX7Hbs3mmJwM9mpXtJRsgEPOaHkOFWPrHqEGiy4PsGDclmIrHS-7HmVzKqx9lbs2Hv3CUly1hwCA3qQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Érigée au sommet du mont sacré de la Part Alta sur les substructions colossales du temenos romain dédié au culte impérial d'Auguste, la cathédrale primatiale Sainte-Thècle de Tarragone (Catedral de Santa Tecla) constitue l'un des plus insignes chefs-d'œuvre de transition romano-gothique de la péninsule Ibérique. Commencée au milieu du XIIe siècle après la restauration du siège archiépiscopal métropolitain par le pape Urbain II et consacrée en 1331, elle déploie un vaste plan basilical à trois nefs et transept saillant surmonté d'un audacieux cimborrio octogonal sur trompes. Sa façade occidentale inachevée, interrompue par la Peste Noire de 1348, s'ouvre par un portail gothique somptueux sculpté par Bartomeu et Jaume Cascalls, couronné par une immense rosace de onze mètres de diamètre. L'édifice abrite dans son chœur le retable majeur en albâtre dédié à sainte Thècle sculpté par Pere Johan, la chapelle Renaissance du Saint-Sacrement voulue par l'archevêque humaniste Antoni Agustín, ainsi qu'un exceptionnel cloître de la fin du XIIe siècle dont les chapiteaux historiés déploient une verve narrative virtuose, rendue célèbre par la procession des rats. L'intégration directe des assises en grand appareil romain et le réemploi d'inscriptions impériales dans la pierre médiévale font de ce sanctuaire le témoin vivant de deux millénaires de ferveur et de souveraineté méditerranéenne.",
+    visiter: "Gravir les degrés du Pla de la Seu pour contempler la façade gothique tronquée, la Vierge du trumeau central et les sculptures des apôtres sculptées par Cascalls. Pénétrer dans le vaisseau pour ressentir la puissance des piliers fasciculés et lever les yeux vers le cimborrio octogonal zénithal à la croisée du transept. Admirer le retable d'albâtre de sainte Thècle au maître-autel et la chapelle Renaissance à caissons du Saint-Sacrement. Parcourir impérativement les galeries du cloître roman pour détailler les sculptures des chapiteaux, repérer la célèbre procession des rats et observer les massives assises de calcaire de l'ancien temenos romain du Ier siècle affleurant dans les maçonneries.",
+    link: "",
+    sections: [
+      {
+        title: "Façade occidentale inachevée, grande rosace et portail du Jugement dernier",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOOTWrEAwJyY85NEyLQKoSkJswQjXnL805Duk6zVEQHxslROS_BRbfF-N8RLBpS0AY-64td_pZFX7Hbs3mmJwM9mpXtJRsgEPOaHkOFWPrHqEGiy4PsGDclmIrHS-7HmVzKqx9lbs2Hv3CUly1hwCA3qQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOqpaaKG4F1MDagph81Eun6A-SultTeORrISdEuBCf1UMqHlDDo3NDPeb8C9UqTAl4vUMMMZobTDiKFqu0uqm1y87GKAquo99AL2v-q9g7Z9UMUQCs0Ntis_ur31qvXTc8WGN0r_IJgdv3u8xcjVH84Uw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Érigée au sommet du Pla de la Seu, sur l'emplacement de l'ancien temenos romain dédié au culte impérial d'Auguste, la façade occidentale de la cathédrale Sainte-Thècle de Tarragone illustre la transition monumentale entre la fin de l'art roman et l'épanouissement du gothique catalan. Conçue à partir de 1277 par le maître d'œuvre Bartomeu et poursuivie au milieu du XIVe siècle par le grand sculpteur Jaume Cascalls, cette composition en calcaire doré est couronnée par une immense rosace rayonnante de onze mètres de diamètre, dont les remplages géométriques ajourés filtrent la lumière vers la nef. Le couronnement de la façade demeure célèbre pour son profil tronqué : les travaux furent brusquement interrompus par les ravages de l'épidémie de peste noire en 1348, laissant le pignon supérieur inachevé avec son gros œuvre de maçonnerie brute exposé au ciel.\n\nLe grand portail s'enfonce sous une succession d'archivoltes brisées délicatement sculptées, encadrées de niches et de pinacles élancés. Au trumeau central trône la majestueuse statue de la Vierge à l'Enfant foulant aux pieds les bêtes symboliques du mal, abritée sous un dais architectural ouvragé. De part et d'autre, les ébrasements latéraux accueillent une remarquable galerie de prophètes et d'apôtres grandeur nature, animés de drapés amples et de postures expressives annonçant le naturalisme gothique international. Le tympan met en scène avec une intense dramaturgie le Jugement dernier, montrant le Christ en majesté, la résurrection des corps et la séparation des élus et des damnés, encadré par deux portes romanes latérales plus anciennes en plein cintre qui complètent cet ensemble sculptural d'exception."
+      },
+      {
+        title: "Élévation de la nef basilicale et croisée du transept",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOPR5RkiCiPkCjR4O37vTn0027bUAuQeBgMOQpBKGhqLQzewnol68s1BxbGO0DiclYytcpua2DGRpBXIB4rSvZmPsHRqjpNaJldg-rIDa0tWs5wGIXB44_Nb0OiQf1wYo2PV8MZfol8q_5phWk4PcykKA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La construction, entreprise sur le site de l'ancien temple romain d'Auguste, présente un plan basilical à trois vaisseaux. La nef centrale, d'une largeur et d'une hauteur remarquables, est couverte de voûtes d'ogives massives, tandis que les bas-côtés conservent des proportions plus proches du roman tardif, créant un espace intérieur à la fois robuste et élancé.\n\nL'élévation est rythmée par de puissants piliers fasciculés, dont les chapiteaux sont ornés d'un riche répertoire de sculptures allant de motifs végétaux stylisés à des scènes bibliques et fantastiques. La lumière pénètre dans l'édifice par de hautes fenêtres gothiques et par une grande rosace située sur la façade occidentale, projetant des jeux de couleurs sur la pierre calcaire. Au-dessus de la croisée du transept, une lanterne octogonale (cimborrio) magnifie l'espace central et souligne la verticalité de l'édifice, un trait caractéristique du gothique rayonnant.\n\nLe chœur, au fond de la nef, abrite un retable majeur monumental dédié à Sainte Thècle, sainte patronne de la ville, tandis que les murs latéraux sont jalonnés de chapelles richement décorées au fil des siècles. On remarque également la présence de grandes stalles de bois sculpté et d'un orgue majestueux du XVIe siècle, dont les buffets peints ajoutent une touche de couleur à l'austérité des parois de pierre. Cette nef ne constitue pas seulement un chef-d'œuvre architectural ; elle est le cœur spirituel d'une cité millénaire, témoignant de la continuité historique entre l'Antiquité romaine et le Moyen Âge chrétien."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMaGpdunxpNqjpoJ05cHVQw_dKqimVyv1BH7qmtTxeWmrvtC6Ed6IxAZaGSvIE48Y9hd79wkMAWor57yCiceln3euLKWQiYqr2H5pdILqzdygJ30Kkdd2NsxZHox4zyD2QAZZ91Iy-iZ4dtd1nDvPEH2g=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNguDhdpqF-qRSx9WoS9fXd0m8n6hlt86rqf4WXQLnXPL3Cr4Z62qgNhH4-cIkhS62DlmBEPv34ZaDdwMc4R0_kHsK-bU-A4LOw3EZMZZbJsdRlKDMWvBMnTsV7Y2sJjKw0Y3wFVbe77julGUpgm_ev2Q=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La coupole zénithale et le tambour sur trompes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPOBxuKUckLHuzjkAj6pvh9gQD-xuWEyKUHda51C-PB4P49XA7cUGjf_lUniMcBjXv7UMbkZZ0o-FRvz0x8tmSH-6YhMRtijxIHL8iSgoqIJHM5Td8tyzGld79a0k_eViEu2dY5Mt2k0ndo2NoV7VFUsA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Bien que la cathédrale soit de style roman tardif et gothique, la coupole zénithale illustre l'ambition des bâtisseurs médiévaux d'introduire une source de lumière verticale au cœur de l'édifice. La coupole repose sur des trompes décorées, permettant de passer de la base carrée du transept à la forme octogonale du tambour, une solution technique courante dans le gothique catalan.\n\nLe tambour octogonal est percé de fenêtres qui inondent de lumière naturelle le maître-autel et les bras du transept, soulignant ainsi le centre liturgique de la cathédrale. Chaque angle de l'octogone est soutenu par des colonnettes engagées qui rejoignent les nervures de la voûte. Contrairement à de nombreuses coupoles baroques plus tardives, celle-ci conserve une structure nerveuse apparente qui rappelle la fonction structurelle de la pierre, tout en offrant une élégance géométrique qui guide le regard vers le sommet.\n\nL'ornementation intérieure de la coupole a évolué avec le temps. On y distingue des éléments de décor peint et des reliefs sculptés qui célèbrent la hiérarchie céleste, souvent intégrés lors de restaurations ou d'embellissements ultérieurs. La présence de lustres monumentaux suspendus ajoute une dimension théâtrale à cet espace, accentuant la profondeur de la voûte lors des célébrations nocturnes. Cet élément architectural ne remplit pas seulement un rôle esthétique ; il assure la ventilation de l'édifice et symbolise, par sa hauteur, la jonction entre le monde terrestre et le divin."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPQS73xRmTcksi-Flf7qVe9UDO7PJuJBOymWyT9EvDjrsTeUJlmdqOWfr25T4SFFHEebucQqmPAJLPfE6cJYoqg7W8BFAszEHq0I6LC8htP-X-V89BrOLMaLIBsVVLmvvt63b4CDv9wrxX-vFAr6QgVEw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOkNk1SHWUHxBPVs-X9NzK1p-qIGnUC2nWuiwXqOqoNBjmlNUfveDPZSo-RP-6SpH_mTJ6tMRQuLql9lekTdnOC-Del1N6ElEU18lPjAvn5E4l6IMbQwzc9UByvAmGRjBqmRQ16yZdcFjFy906bEyTEQA=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le cimborrio gothique et la géométrie sacrée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPuwr_OExhHyZKa7V9nC5lVQgqVdgwWxXrSmVxPVKRtqnwac1isuPWqyZBt-wu4i813Glsd8RyfeBuir1iSKTkGTs4HBUmA6Yyj_g6qQLHqESPKdyE457SQAWxE99B9S1nWZXfitfu8iKCBys2AbDlK6w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Contrairement à d'autres structures plus tardives et richement ornées, ce « cimborrio » incarne la transition entre le style roman et le premier gothique catalan. L'architecture se caractérise par un tambour octogonal qui permet de passer de la base carrée de la croisée à la forme circulaire de la voûte grâce à l'utilisation de trompes d'angle sculptées.\n\nL'élévation de la coupole est rythmée par une série de seize fenêtres hautes garnies de vitraux colorés, qui inondent le chœur et le maître-autel d'une lumière céleste. La structure interne est soutenue par huit nervures de pierre qui se rejoignent à la clé de voûte, créant un motif étoilé d'une grande pureté géométrique. L'appareillage de la pierre, visible et régulier, souligne la fonction structurelle de l'ouvrage tout en participant à son esthétique sobre et monumentale.\n\nCette coupole joue un rôle central dans la symbolique de l'édifice, agissant comme un phare spirituel qui relie l'espace terrestre des fidèles à la voûte céleste. Les jeux de lumière varient tout au long de la journée, mettant en relief les arcs ogivaux et les chapiteaux sculptés qui marquent la naissance de la structure. Par son équilibre et sa maîtrise technique, elle demeure l'un des éléments les plus emblématiques du patrimoine architectural médiéval de la ville."
+      },
+      {
+        title: "La chapelle Renaissance du Saint-Sacrement (Jaume Amigó, 1582-1592)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOkNk1SHWUHxBPVs-X9NzK1p-qIGnUC2nWuiwXqOqoNBjmlNUfveDPZSo-RP-6SpH_mTJ6tMRQuLql9lekTdnOC-Del1N6ElEU18lPjAvn5E4l6IMbQwzc9UByvAmGRjBqmRQ16yZdcFjFy906bEyTEQA=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOTJJ6O1mzhOLedKCXra-lx7OZxAWKuLQe_3aVYv_5zJuJzP_PaSuXs-wSNzJ7-crEUe3TH1v-WjizixT8ph_2s4qiy3oniPHuhat9nWptAnkDMFaiNxALCKm6_jYGcSPoWuylmjZPSw70irv93GYkTeg=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "À droite, aménagée sur le flanc méridional de la nef à l'emplacement de l'ancien réfectoire canonial médiéval, établi lui-même sur les puissantes substructions du forum provincial romain, la chapelle du Saint-Sacrement incarne l'introduction magistrale du classicisme de la Renaissance tardive au sein de la cathédrale de Tarragone. Commandée à la fin du XVIe siècle par le grand archevêque, humaniste et numismate Antoni Agustín, elle a été édifiée entre 1582 et 1592 d'après les plans de l'architecte Jaume Amigó, rompant délibérément avec le vocabulaire gothique dominant pour instaurer une rigueur spatiale inspirée de l'Antiquité romaine.\n\nL'intérieur déploie un vaste vaisseau rectangulaire couvert d'une voûte en berceau à caissons géométriques et orné de pilastres cannelés d'ordre corinthien, entièrement parementé de calcaire fin, de marbres polychromes et de précieux jaspe de Tortosa. Le sanctuaire est dominé par un monumental tabernacle d'albâtre, de bronze et de marbre, flanqué du tombeau mural de l'archevêque Agustín sculpté avec une grande sobriété classique par Pere Blai. Cet ensemble d'une grande noblesse architecturale illustre parfaitement l'esprit de la Contre-Réforme tout en valorisant le passé impérial de l'antique Tarraco par l'intégration harmonieuse de blocs et d'inscriptions épigraphiques romaines remployés directement dans la maçonnerie."
+      },
+      {
+        title: "Le grand cloître romano-gothique et ses arcades mudéjares",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMTTlSwW7qXFpzmKQn0p5dXaKR2GyQukxdM_Qxh1F0TW6DqreloJsU4E3Mx8dUJ0aTLAOOYFWVZOr8tZ6xPmoMFq9JU8FYgUNLkf9yckzx_yUFVYwEvGzT_UvpYZ9_gj6WtfgRrCg0dLHLYaYyZhw2jWA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOeM51yKJDIBk0txGmKwyguTDlAtMBhYtrMKitIorGB8vEUHjNAP8UFZcZW538qvhzlBKbvvlUCZPrl1Hbq__YI6Dd1cVYB7tzKD45KVcHWpJcanRRZejtkXpu5Jq5ITqXPYacKMDPC36kH07W6-o3JAA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le cloître de Sainte-Thècle s'impose comme l'un des sommets de la sculpture de transition romano-gothique en Catalogne, édifié entre la fin du XIIe siècle et les premières décennies du XIIIe siècle. Ce vaste quadrilatère régulier déploie quatre galeries couvertes de solides voûtes sur croisées d'ogives précoces, dont les poussées retombent sur d'épais piliers maçonnés. Chaque travée s'ouvre sur le préau central ajouré par un triplet d'arcades en plein cintre portées par d'élégantes colonnettes jumelées en marbre et calcaire fin, le tout inscrit sous un grand arc de décharge en tiers-point dont l'écoinçon est percé de deux oculi polylobés ajourés de résilles géométriques révélant une nette influence mudéjare."
+      },
+      {
+        title: "Chapiteaux historiés du cloître et la procession des rats",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM9Qge2wfptck1f4uhSrqjMquPSiLox13ilgdQCNCwWML12VOwIdSpjZUaiyaZ2M890ShqleaYm72p1vauGuPYzjIcMs6T7_tyJjgRn9o7XegDSuubH_ZZz2vh-mmUrqnqzDXqKRkXONq8SdOVfiEPb-w=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNAwhvLZGpZgpMCoCuRAMKi_3baHImHLRIJ06eGItERPhTZf7Tqhx1XLz21nIqbSieXWfvrftLEZk1EvprygK4dVS-HWKmZRMz9SL9jiUk2M1fQmaDyKx-QTizZFl8YFOONw0F-USK24nq-vNiEIkMubQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La renommée universelle de l'ensemble réside dans la virtuosité technique et la verve narrative de ses corbeilles sculptées, chef-d'œuvre lapidaire attribué à des maîtres itinérants imprégnés des ateliers languedociens et toulousains. Le cycle iconographique mêle récits bibliques de la Genèse et du Nouveau Testament, scènes de la vie quotidienne et bestiaire fantastique, dominé par la célèbre procession des rats : cette fable populaire montre un cortège de rongeurs transportant sur une civière funéraire un chat qui fait le mort, avant que le félin ne ressuscite subitement pour bondir sur ses fossoyeurs crédules. Les murs des galeries intègrent de remarquables remplois de l'antique Tarraco, notamment des inscriptions funéraires romaines et des frises antiques, tandis que la communication avec l'église s'opère par un portail de marbre d'une pureté exceptionnelle, couronné par un tympan arborant un chrismon trinitaire flanqué des symboles des quatre évangélistes."
+      },
+      {
+        title: "Les fondations du temenos romain du culte impérial d'Auguste",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPADSI6O4FbeTU0GfJ2oXbBCy7sl9235H63tCxupibXk-CV1Z2Pp-cdb6OgAYhpVyWGKkEs3IWymzY599lKPX-Sg9WbNlz0G4_Shexa7aAmWDFFKWma0VbI3tWTuzLObLHxaw1Qg61AW9hnos5wfWtWrw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Les vestiges massifs de maçonnerie visibles à l'intérieur et aux abords de la cathédrale de Tarragone correspondent aux puissantes structures du temenos romain, l'enceinte sacrée monumentale du culte impérial de la cité antique de Tarraco. Érigée au Ier siècle sous le principat de Tibère pour honorer la mémoire de l'empereur Auguste divinisé, cette vaste esplanade sommitale couronnait la troisième terrasse du forum provincial, le centre politico-religieux le plus élevé de toute la province de Tarraconaise.\n\nCe mur en grand appareil régulier (opus quadratum), constitué d'imposants blocs de calcaire local taillés et ajustés à joints vifs, formait le péribole ou portique d'enceinte qui délimitait le sanctuaire et isolait le temple monumental d'Auguste du reste de la ville. Les fouilles archéologiques menées sous le dallage de la cathédrale, dans le chœur, la nef et le cloître ont confirmé que les bâtisseurs médiévaux ont directement réemployé l'assiette, les fondations et des pans entiers de ces murs antiques pour asseoir les piliers de l'église romane et gothique, laissant aujourd'hui affleurer ces gigantesques assises de pierre romaine à plusieurs endroits du parcours."
+      }
+    ]
+  },
+  {
     id: "tarragone_murailles_romaines",
     name: "Tarragone - Murailles Romaines & Promenade Archéologique (Muralles de Tarragona)",
     country: "Espagne",
