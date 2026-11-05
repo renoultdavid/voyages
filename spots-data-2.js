@@ -1,5 +1,74 @@
 const SPOTS_2 = [
   {
+    id: "barcelone_musee_archeologique_catalogne",
+    name: "Barcelone - Musée d'Archéologie de Catalogne (MAC)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Barcelone",
+    subdiv: "Barcelone",
+    altitude: 60,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "antique",
+    era_label: "Palais des Arts Graphiques de 1929 & Trésors Archéologiques Méditerranéens",
+    century: "Antiquité",
+    category: "musee",
+    counts: { musee: 1, archeologie: 1 },
+    lat: 41.36974,
+    lng: 2.15767,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNnx0iiBmGHuJbr9ey7FNkSWdJ4S7m_o5h5lXQFR04Clg_9G6_aizCGItfMpJQYwjj23lhyNSzdmlN2-tWGB32IWcHfJh17k0re8jyiYuSxChi4_XcCY_iHe5VxjCqf7jp96RyDGdFD_T6apOACSDWpiQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOYJOt4mRH58PmO2_-GdtK3_hQpSprRbjR85PmgUqiqjNTMDcfCBNntS6RN2TlYoZ-5mm6rYpn_dlCOILGo9ri3SXSnJY3WoaurNCT-YW5Br10VGObbD-YmrN7W5K-H3a-JIxVmm1YYTAxWM_aSYtMrRg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPnIFHthvWb9k8YnbMYdVdT4Mw6LMK0bq49tCoaXRYMynWnmbyhtQtiSlQ2FKHYG5rZpuBuOQ4tAPAGG31Sb_gPqS8mw9xpPH8i4ogCYq7A3Q4QGoRH9pDIStagl4Nb93F6jXO99_Xn1VxMsXG_h8CTKw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMvAE3V5wvuqP03zk1DWMABUgvLsIznkszA62Qktu6SCyFkb7OCzycT3IFBJcdeV2uehmo6PN40xY07hE9lq6fyX-8jD1p0tLIN6gtwKGo7JtFCZDl9i4bDSErI-eTQGlpRYufm4I6nvQLiOoqyxyIvZg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPl0_Nl69MyzvzVZSyAi4VwP8sY2BBg9VJimOEIUl0QfisG0IB7msCEzyIuhkg7EudqytGv2jMqICVzEv34LZFP3ivMYdgwk8cF2NqagEM52Ucpt0dAPY6Oibe6QDakP086kfmRtlNk5rNx0U8_R6BcAw=w893-h919-s-no-gm?authuser=0",
+        caption: "Cette œuvre emblématique, conservée au Musée d'Archéologie de Catalogne à Barcelone, est une représentation votive de la déesse Tanit, divinité la plus importante de la culture punique. Provenant de la nécropole du Puig des Molins à Ibiza, cette pièce en terre cuite témoigne du rayonnement spirituel et artistique d'Ebusus (ancienne Ibiza) dans le bassin méditerranéen. Tanit, divinité d'origine phénicienne, était vénérée comme la protectrice de la cité de Carthage et présidait à la fertilité, aux récoltes et à la fortune.\n\nSur le plan iconographique, la déesse est représentée avec une grande sérénité, arborant une coiffure élaborée surmontée d'un polos, une coiffe cylindrique typique des divinités féminines antiques. Ses bras sont entrouverts dans un geste d'accueil ou de bénédiction, une posture classique pour les statuettes funéraires destinées à accompagner les défunts. Un élément remarquable est le collier imposant composé de perles de pâte de verre multicolores, qui souligne le statut royal et divin de la figure tout en illustrant le savoir-faire des artisans verriers de l'époque.\n\nLa facture de cette terre cuite révèle des influences croisées, mêlant les traditions orientales phéniciennes à l'esthétique grecque classique qui se diffusait alors en Méditerranée occidentale. Les traits du visage, bien que stylisés, présentent une régularité et une douceur qui contrastent avec la rigidité hiératique des époques plus anciennes. Ce buste n'était pas seulement une œuvre d'art, mais un objet de dévotion déposé dans les tombes pour solliciter la protection de la \"Grande Dame\" dans l'au-delà."
+      }
+    ],
+    description: "Installé sur les pentes verdoyantes de Montjuïc dans l'ancien Palais des Arts Graphiques édifié par Pelagi Martínez et Raimon Duran i Reynals pour l'Exposition internationale de 1929, le Musée d'Archéologie de Catalogne (Museu d'Arqueologia de Catalunya - MAC) abrite les plus riches collections archéologiques de la région. Fondé en 1935 sous l'égide de la Generalitat républicaine et de l'archéologue Pere Bosch Gimpera, l'édifice d'inspiration classique et noucentiste, ordonné autour d'une rotonde couverte d'une coupole hexagonale, déploie un parcours muséographique de référence embrassant plus d'un million d'années d'histoire humaine. Les galeries permanentes retracent l'évolution des sociétés préhistoriques, de la culture ibère indigène, de la colonisation phénicienne et grecque jusqu'à la romanisation et au royaume wisigothique. Le musée conserve des chefs-d'œuvre insignes mis au jour en Catalogne et aux îles Baléares, notamment les prestigieux vestiges grecs et romains d'Empúries, le trésor ibérique de Tivissa, d'exceptionnelles mosaïques romaines de cirque et la célèbre statue votive punique de la déesse Tanit issue de la nécropole carthaginoise d'Ibiza.",
+    visiter: "Rejoindre le Passeig de Santa Madrona pour contempler la sobre colonnade classique de la façade du musée intégrée dans la végétation de Montjuïc. Pénétrer sous la rotonde centrale pour suivre le circuit chronologique débutant par le paléolithique et les sépultures mégalithiques. Admirer en priorité les salles consacrées au monde ibère et gréco-romain, en s'attardant devant le buste en terre cuite de la déesse Tanit parée de son collier de verre phénicien et devant la statue monumentale d'Asclépios d'Empúries.",
+    link: ""
+  },
+  {
+    id: "barcelone_torre_glories",
+    name: "Barcelone - Tour Glòries (Torre Glòries)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Barcelone",
+    subdiv: "Barcelone",
+    altitude: 17,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Architecture High-Tech & Emblème Contemporain de Jean Nouvel (2005)",
+    century: "XXIe siècle",
+    category: "star",
+    counts: {},
+    lat: 41.40351,
+    lng: 2.18952,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPs3wllbZVEHpTdtAbk-K2QMNzt22sLV-fIiZNA845HM6MKm2aKzlnMAOdZcBbVbkpdAppHglXK0tGasa9FuidFi5OlX4CjOHeZda4vTu2A0TtW5qKrLXNMsaLa_dLkwfiJ8OyfPhSMxTSveprKAaDNPA=w613-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dressée au confluent de l'Avinguda Diagonal, de la Gran Via et de l'Avinguda Meridiana sur la plaça de les Glòries Catalanes, la Tour Glòries (anciennement Torre Agbar) est le gratte-ciel contemporain le plus spectaculaire et emblématique de la silhouette barcelonaise du XXIe siècle. Conçue par l'architecte français Jean Nouvel en collaboration avec le cabinet b720 Arquitectos et inaugurée en 2005 par le roi Juan Carlos Ier, cette tour cylindrique ovoïde culmine à cent quarante-quatre mètres de hauteur sur trente-quatre étages. Inspirée par les reliefs géologiques arrondis du massif de Montserrat et par les clochers en geyser de la Sagrada Família de Gaudí, sa structure en béton armé est enveloppée d'une double peau bioclimatique novatrice : une paroi interne laquée de tôles ondulées déclinant vingt-six teintes d'aluminium, recouverte d'un brise-soleil extérieur composé de près de soixante mille lames de verre translucide orientables. À la nuit tombée, un dispositif de plus de quatre mille cinq cents projecteurs LED illumine la façade de vagues chromatiques mouvantes, faisant scintiller ce phare urbain marquant l'entrée du quartier d'innovation technologique du 22@.",
+    visiter: "Observer depuis la place des Glòries la forme ogivale profilée de la tour et le jeu de reflets métalliques produit par ses milliers de lames de verre sous la lumière catalane. Attendre le crépuscule pour assister aux chorégraphies lumineuses colorées illuminant l'enveloppe extérieure. Accéder au Mirador Torre Glòries au trentième étage pour découvrir l'installation artistique immersive Cloud Cities de Tomás Saraceno et embrasser un panorama exceptionnel à 360 degrés sur toute l'agglomération barcelonaise et la mer.",
+    link: ""
+  },
+  {
     id: "barcelone_palais_national_montjuic",
     name: "Barcelone - Palais National de Montjuïc (MNAC)",
     country: "Espagne",
@@ -15,7 +84,7 @@ const SPOTS_2 = [
     era_group: "contemporain",
     era_label: "Palais Monumental de l'Exposition de 1929 & Musée National d'Art de Catalogne",
     century: "XXe siècle",
-    category: "star",
+    category: "batiment_culturel",
     counts: { musee: 1 },
     lat: 41.36883,
     lng: 2.15330,
