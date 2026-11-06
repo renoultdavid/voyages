@@ -1,5 +1,97 @@
 const SPOTS_2 = [
   {
+    id: "palafrugell_port_bo_les_voltes",
+    name: "Calella de Palafrugell - Port Bo & Les Voltes",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Gérone",
+    subdiv: "Palafrugell",
+    altitude: 1,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Ancien Port de Pêcheurs, Arcades des Voltes & Berceau des Habaneras (XIXe siècle)",
+    century: "XIXe siècle",
+    category: "plage",
+    counts: {},
+    lat: 41.88836,
+    lng: 3.18499,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO-SAgNxgVYgmkwi2Fb2vrH0Pbq6XgSvMjeMd32N-dQDYNv5DMp4oV7pov8_yJFlJgwDm-Y17xOvvB0WXbNX4ZlnUsjc99KzB1JyY_DQrn1r8FjKAFCf5S4wH2shnf8tCrF3GADpGBNl7jTdOBptQvo1w=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNHr2JQ9dwfk9xHXM_urTGQHxQg6JMXo5UNWL5yHpxjJkfFXAKpK5OKbAjsZs05qLejRBLqmf44zeeRonBCkvDUvT07_gQWtL1Ex-7AoMRe4_Ao7J1nClIa0w5iy_wLZDgwRCygwV1H_TelIrugSQIPiw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNVVuFiTEIUG9G97DQU1_5rJvG9fcEP1vq-TLxVZ1FoHP1PAz-a-SrVDfnJh8in2WPLpuwG9hgEDVU72fp8dBEw16FjosLz-LoB5ogkfPRLckK6AtqCHG4NjgbwowlIqRGbv6ZeSSh-eqpZ8qtren17fg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Niché au cœur du littoral du Baix Empordà, le quartier maritime de Port Bo à Calella de Palafrugell est l'un des ensembles côtiers traditionnels les plus préservés, poétiques et célèbres de la Costa Brava. Ancien débouché maritime et port de commerce de la cité drapière et bouchonnière de Palafrugell dès le Moyen Âge, cette anse rocheuse sablonneuse s'est transformée au XIXe siècle en village de pêcheurs d'une rare harmonie architecturale. Sa façade littorale est mondialement connue pour « Les Voltes », remarquable galerie d'arcades en plein cintre voûtées en berceau blanchies à la chaux, aménagée directement en surplomb de l'estran pour abriter les filets de pêche, les cabestans et les ateliers des calfats. Sur le sable doré reposent encore les barques catalanes traditionnelles à proue relevée, tandis que la crique sert chaque premier samedi de juillet de scène flottante mythique pour la Cantada d'Havaneres, grand rassemblement de chants de marins né du souvenir des liaisons maritimes avec Cuba. Déclaré ensemble historique protégé, Port Bo a conservé intacte l'atmosphère sereine et luministe immortalisée par l'écrivain catalan Josep Pla.",
+    visiter: "Déambuler sous les arcades ombragées des Voltes pour observer la mer à travers le cadrage régulier des piles de pierre et apprécier la fraîcheur des passages voûtés. Descendre sur le sable de la plage de Port Bo pour contempler la ligne des barques catalanes traditionnelles échouées au bord de l'eau turquoise, encadrées par les maisons de pêcheurs aux volets vert émeraude. Poursuivre la promenade le long des sentiers côtiers en direction de la plage d'en Calau ou du mirador des Burricaires.",
+    link: ""
+  },
+  {
+    id: "palafrugell_mirador_manuel_juanola",
+    name: "Calella de Palafrugell - Mirador Manuel Juanola i Reixach",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Gérone",
+    subdiv: "Palafrugell",
+    altitude: 7,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Belvédère Maritime, Pointe des Burricaires & Hommage Méditerranéen (XXe siècle)",
+    century: "XXe siècle",
+    category: "star",
+    counts: {},
+    lat: 41.88803,
+    lng: 3.18674,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMWY_sox1dJH4MUuPE6wm3hINnUkD9cLSIzHv4ixnuaHFjjBDoSMML4s_uOmLy2E1hW-DPcxtsUhGt6Tlu23emQLGLikEq8WLGFFYR9uZrxqoNs4nxz_3-UOs3XDag_PR9XpRdvt-g2NjEK7WFocJ48EQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOfqXZJjo-d2V4QyOAqZV49LzC_2KnuPyQn3DySMtNxVLplsnou2eADaTDeXmQ_CQpZsQqnqjObAW370CKFFLl0x96d2pnFXQANf2ds3Ln0QEPCyZWPgZCg3dk6OiHhryJ9L76LubBD0byyTqG1dtfFgQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Avancé en balcon sur l'éperon rocheux de la pointe des Burricaires (Punta dels Burricaires) séparant la crique de Port Bo de celle de la Platgeta, le mirador Manuel Juanola i Reixach offre le panorama de carte postale le plus spectaculaire et emblématique de Calella de Palafrugell. Aménagé en hommage au célèbre pharmacien et bienfaiteur natif de Palafrugell, Manuel Juanola Reixach (1874-1963) — créateur en 1906 des fameuses pastilles Juanola à la réglisse et aux essences méditerranéennes —, ce belvédère dallé de pierre s'avance dans les flots bleus. Il ouvre une perspective splendide sur l'enfilade des arcades blanches des Voltes, la flottille des barques de pêche traditionnelles échouées sur la grève et le clocher de Sant Pere se découpant sur les collines boisées de pins du cap Roig.",
+    visiter: "Gagner l'avancée rocheuse de la pointe des Burricaires par le sentier littoral du Camí de Ronda pour embrasser une vue panoramique complète sur les différentes criques de Calella de Palafrugell. Marquer une halte au bord de la balustrade de pierre pour contempler les eaux cristallines venant caresser les récifs et photographier la courbe harmonieuse de Port Bo avant d'emprunter la passerelle côtière vers les plages du sud.",
+    link: ""
+  },
+  {
+    id: "palafrugell_eglise_sant_pere_calella",
+    name: "Calella de Palafrugell - Église Saint-Pierre (Sant Pere de Calella)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Gérone",
+    subdiv: "Palafrugell",
+    altitude: 10,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Paroisse des Pêcheurs, Architecture Éclectique & Clocher-Amer (1884-1887)",
+    century: "XIXe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 41.88964,
+    lng: 3.18570,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPkfaQJeyGZqRx9xZp1ZaT-C-La8ugj5c5BRiMlxTwVVa1-EPkWUZ5fF948f6DraFHjfXpzsdKwzyqhtYwHKCv5xzwE-9Iuj3IGNUHMEeNOK5b1Me_maFT3GRFGtTewxzTiJ-1TijUpeyqF-YlG7HcsbA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Érigée sur une terrasse surélevée dominant les toitures du village de pêcheurs, l'église paroissiale Saint-Pierre (Església de Sant Pere de Calella) constitue le foyer spirituel et le repère visuel majeur de Calella de Palafrugell. Bâtie entre 1884 et 1887 grâce aux souscriptions des familles de marins et des propriétaires terriens locaux pour doter la communauté maritime d'un lieu de culte autonome évitant le trajet vers l'église paroissiale de l'intérieur, elle fut bénie en 1887 avant d'être agrandie en 1958 avec l'achèvement de son campanile. D'une facture sobre d'esprit éclectique et néo-roman adaptée aux bourgs côtiers catalans, l'église présente une nef unique blanchie à la chaux rythmée de chapelles latérales peu profondes et d'une sobre façade couronnée d'un frontispice triangulaire. Son haut clocher carré à chambre de cloches ajourée et balustrade sommitale s'élève au-dessus du dédale des ruelles pavées, servant historiquement d'amer pour les pêcheurs regagnant la baie à la nuit tombée.",
+    visiter: "Rejoindre la petite place de l'église en gravissant les venelles caladées depuis la plage de Port Bo pour apprécier la volumétrie épurée de la façade blanche se découpant sur le ciel méditerranéen. Pénétrer dans le sanctuaire baigné de clarté pour observer la nef unique dédiée à saint Pierre, patron des pêcheurs, avant de faire le tour du parvis extérieur offrant de jolies perspectives plongeantes sur les toitures en tuiles canal du vieux village.",
+    link: ""
+  },
+  {
     id: "tossa_de_mar_platja_gran",
     name: "Tossa de Mar - Grande Plage (Platja Gran)",
     country: "Espagne",
