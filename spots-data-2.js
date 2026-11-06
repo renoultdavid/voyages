@@ -1,5 +1,88 @@
 const SPOTS_2 = [
   {
+    id: "el_port_de_la_selva_monastere_sant_pere_de_rodes",
+    name: "El Port de la Selva - Monastère Saint-Pierre de Rodes (Sant Pere de Rodes)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Gérone",
+    subdiv: "El Port de la Selva",
+    altitude: 514,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Sentinelle Bénédictine de la Serra de Rodes, Art Roman Monumental & Trésors Carolingiens (Xe-XIIe siècle)",
+    century: "XIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 42.32356,
+    lng: 3.16643,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM9yQUF1u29rdSbj2v4-VqvlsxItOM1pbxgo1QHtMHvUXk9ogHcjkjiYoKlNTw4pnjoBRpLqFUJIcRCOUjO02yABfCNB0vSfW8pmU8x4AneczVvmluSVyBBqh_MFT-isUfQ80hw0OnPyy1u5yTPkVyfGg=w1379-h919-s-no-gm?authuser=0",
+    description: "Sur les contreforts escarpés de la Serra de Rodes, à plus de cinq cents mètres d'altitude au-dessus des eaux d'azur du Cap de Creus et de la baie du Port de la Selva, l'abbaye bénédictine de Sant Pere de Rodes déploie l'une des architectures sacrées les plus grandioses, énigmatiques et novatrices de tout l'art roman catalan. Les premières mentions documentées d'une communauté monastique remontent à l'an 878, bien que la légende fasse remonter la sacralité des lieux aux persécutions du pape Boniface IV au début du VIIe siècle, lorsque les reliques insignes de saint Pierre et d'autres apôtres y auraient été mises à l'abri des barbares. Placé sous la protection directe du Saint-Siège à Rome et bénéficiant du patronage immensément généreux des comtes d'Empúries et du Roussillon, le monastère connut son apogée spirituel et politique entre le Xe et le XIIe siècle, rayonnant sur un vaste réseau de prieurés et de granges agricoles. Consacrée solennellement en 1022 sous l'abbatiat d'Hildesind, l'église abbatiale représente une prouesse stéréotomique sans équivalent dans l'Occident médiéval : son vaisseau central vertigineux à double niveau de colonnes superposées en marbre et en calcaire intègre des chapiteaux corinthiens d'inspiration romaine antique et carolingienne, tout en reposant sur une remarquable crypte semi-circulaire à déambulatoire. L'ensemble monastique, structuré en terrasses fortifiées flanquées d'un beffroi lombard et d'une tour de défense crénelée, témoigne de la puissance souveraine d'une abbaye conçue à la fois comme forteresse maritime face aux pirates sarrasins et phare mystique de la Chrétienté.",
+    visiter: "Gravir les lacets de la route panoramique de la Serra de Rodes pour contempler d'abord la silhouette castrale du monastère suspendu entre le ciel et la Méditerranée, dominé par les ruines du château de Sant Salvador de Verdera. Franchir l'enceinte extérieure pour apprécier le contraste saisissant entre le clocher lombard du XIIe siècle à arcatures aveugles et la puissante tour de défense militaire. Pénétrer dans le vaisseau de l'abbatiale pour ressentir le vertige spatial offert par l'élévation des colonnes corinthiennes superposées et la voûte en berceau brisé. Descendre ensuite dans la crypte du martyrium pour observer les vestiges de fresques romanes à l'ocre rouge représentant le taureau ailé de saint Luc, avant de parcourir les galeries à arcades du cloître supérieur et d'admirer le panorama circulaire embrassant tout le golfe de Roses.",
+    link: "",
+    sections: [
+      {
+        title: "Approche panoramique, terrasses fortifiées et profil castral",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM9yQUF1u29rdSbj2v4-VqvlsxItOM1pbxgo1QHtMHvUXk9ogHcjkjiYoKlNTw4pnjoBRpLqFUJIcRCOUjO02yABfCNB0vSfW8pmU8x4AneczVvmluSVyBBqh_MFT-isUfQ80hw0OnPyy1u5yTPkVyfGg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPCXQtvxHfExFJEt7H-yeZPK0EC8_kEEl37bmLOT7hmKw-qQZfcPs-dB-3qiqrQG30K_f842UWzr-TudNMDSYQdQ-gx519d0FY0KM23_8r0tBoR4DaLtsUCs8zSB4xPIVj-CnyZh7C1JYcCxN01sDkjcA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'approche du sanctuaire met d'emblée en scène sa dimension castrale et défensive, rendue nécessaire par les convoitises féodales et la menace continue des pirates sarrasins écumant la côte. L'ensemble monastique s'organise en terrasses artificielles étagées le long du relief rocheux, dominé par deux puissantes tours médiévales. Au sud-ouest se dresse le campanile roman du XIIe siècle, haute tour carrée de vingt-sept mètres ornée de lésènes et d'arcatures aveugles lombardes, percée dans ses étages supérieurs de baies géminées cintrées qui laissaient porter le son des cloches sur toute la baie du Port de la Selva. À ses côtés s'élève une tour de défense plus archaïque et austère, aveugle à sa base, couronnée de créneaux et de mâchicoulis, qui servait de réduit de protection ultime pour la communauté en cas d'assaut."
+      },
+      {
+        title: "Le campanile roman lombard et son registre architectural",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPJJQMsaEuHaG8uj69jmR5haqiaCkbHiyLBaAAsLIaKg-Gw4y3-FOE0xVAihp3BRmzx8iJz5HG0p8pqESESxfEhhSYfe5W15Bxxb7nQn_Zlf7QKqoHd9Mr04wLza9l3WTnMMx0UFEC43pvghM7-nKtfZw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN-4yBws6as3W2LgrCXu9svMIDw47-XZbHEim3GGFJhNWa3yFaxKWiZABtCuZvtuT4ajNxz2h4xikFl54FShqs-p7tkzNsCapDcDyiSv-7Hg08Hewa_wel9bAbTfEXfM-DARaS2dlqNnZxUgX3oxeiPgA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOpjQDl6aysVXEslQ2uqqVa2zgcGOGG1mhAna3VFq7OCwWSBZajm9eBc_j8YNq4Xp3yURd4QtBhxbQe53uJEflO1u2UiygylRKz86JPgBuQ3Lnoi1b73kCYtf7hQ8gdb8sZs9pUXm66WSHKSP2u_irqVg=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Érigé sur le flanc sud-ouest de l'église abbatiale, en surplomb direct des terrasses inférieures du monastère, le campanile roman de Sant Pere de Rodes s’impose comme l’un des plus purs et majestueux exemples de clocher lombard conservés en Catalogne. Construite au XIIe siècle pour remplacer ou compléter les structures primitives de la consécration de 1022, cette haute tour carrée culmine à vingt-sept mètres de hauteur. Son appareillage soigné de moellons de schiste et de blocs de calcaire et de grès taillés se détache avec une grande puissance sur l'horizon minéral de la Serra de Rodes, servant autrefois d'amer visuel repérable depuis le large pour les marins naviguant le long du Cap de Creus.\n\nLa structure s'élève sur trois registres verticaux distincts, séparés par des cordons de pierre saillants et rythmés selon les principes rigoureux du premier art roman méridional d'influence lombarde. Sur chaque face, la maçonnerie est divisée en lésènes (étroites bandes verticales de faible saillie) reliées à leurs sommets par des séries de petites arcatures aveugles plein cintre retombant sur de délicates consoles ou corbeaux sculptés. Ces frises lombardes, complétées par des bandeaux décoratifs parfois disposés en dents de scie, brisent la monotonie du calcaire et confèrent à la tour une élégance graphique et un élan ascensionnel remarquable sans affaiblir la solidité de ses murs épais.\n\nFidèle aux impératifs de sécurité d'un monastère côtier soumis aux incursions maritimes, la base du campanile est totalement aveugle et massive, ne présentant que de rares et étroites fentes d'éclairage assimilables à des meurtrières. L'ouverture vers l'extérieur s'opère progressivement à mesure que l'on s'élève vers le ciel et les chambres des cloches : les niveaux intermédiaires et supérieurs sont percés de superbes baies géminées en plein cintre. Chaque baie double est séparée par une fine colonnette cylindrique centrale surmontée d'un chapiteau trapézoïdal ou épannelé en forme de coussinet, permettant d'alléger la masse des maçonneries tout en assurant une diffusion sonore circulaire optimale des sonneries liturgiques vers les vallées encaissées et la baie du Port de la Selva."
+      },
+      {
+        title: "Dialogue castral : campanile liturgique et donjon défensif",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN-esV5BgFkb6zsAJTpJmSWudSSMKASjIR7TcMscZJd_o1qKhUfpeeKj-mfbG7QbjA3ga3U0YzkLXAAv2sSSU75sjopIKD2k-4PNXlE6txB3ys3mziyDcVzJGv5zOZMq9XbaSV3Fw1LNPwWTR4ZUTgmGg=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOxdYj8A14lg7c_w0oI3pTe3xOuRO0Zs1GMSlk3Jnd2O3fS8qn1ReFsSiM3TCRGVVMhrX5v4lpvLUYlVK0HxVyB5IgKATyfise1_6nWMfdp8b7KqgNREC1Jkq8YsTX0nkIfP3v98-FC6qYalJGtJGZbmw=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Ce campanile forme un dialogue visuel unique avec la tour de guet quadrangulaire attenante, beaucoup plus austère, aveugle et couronnée de mâchicoulis et de créneaux. Tandis que cette dernière assumait une fonction exclusivement militaire et défensive comme ultime réduit fortifié de la communauté, le campanile mariait la rigueur géométrique sacrée et le rôle de sentinelle territoriale. Il constituait un maillon essentiel du réseau de transmission optique et acoustique reliant le monastère au château de Sant Salvador de Verdera, dressé au sommet du pic surplombant le sanctuaire."
+      },
+      {
+        title: "Élévation monumentale de la nef et colonnes superposées",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOS3drUrbJgKbGIz7SkpIiY-kxcRPvnJh26-WhMKg1XTOQ91FHPyGyN82NE3XOVfyR5izIlDWNsvN50-CwKvKgcu039lDMfmmMhJNWuy29BpSjpf9UoFvVdGmG79rua3pPyW_iODxu0WAiiOAdaO2sGlQ=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOv7vmjctkVcMcOSKGXyXIx4rYrik_pbDqBfvkX0u6lMDjVVXRkvy_6xrqUN0qSSrP0nYdRFOmkTVjvVCc8UvDV-ed_PYipgxYgsyzTcIeuhgcaNg7Q54PD-S2FRkTlCA_6a2xWfwWCmqfhJ4RsWDOZkA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La nef, coeur battant de cet ensemble monastique, frappe d'emblée par sa verticalité inhabituelle et la complexité de son élévation. Conçue pour s'adapter à la topographie escarpée du massif de l'Albera, elle se déploie sur plusieurs niveaux, créant un espace intérieur dont la grandeur semble défier les limites techniques de son époque de construction.\n\nLa structure architecturale se distingue par l'utilisation de colonnes superposées, un dispositif rare dans le roman catalan qui évoque des influences de l'Antiquité tardive ou de l'architecture carolingienne. Ces colonnes, adossées à de puissants piliers, soutiennent des arcs doubleaux en plein cintre qui rythment la voûte en berceau. La présence de chapiteaux finement sculptés, dont certains présentent des motifs de feuilles d'acanthe d'une grande plasticité, témoigne de la persistance d'une tradition classique retravaillée par les maîtres d'œuvre médiévaux."
+      },
+      {
+        title: "Lumière sacrée, appareil de pierre et déambulatoire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP5dZrtNXq89NP4GZQULpCaeNucDMaAt2jdkZDOld8PWoOD6lW5EoBTbV9nYKw4S0lQroej4mh7eqELdJI4ow5GLe-LFREAhqJMIRrW_9f_w0a3R6yiX1kZWizvOuo20nE8Z8XNmSVJNeNHbw_hhvpbJA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'éclairage de la nef joue un rôle symbolique et structurel majeur. La lumière pénètre par des fenêtres hautes et s'engouffre dans le vaisseau central, soulignant la texture de la pierre locale et les nuances chromatiques de l'édifice. Le déambulatoire, qui prolonge les collatéraux autour du chœur, permettait la circulation des pèlerins sans interrompre les offices monastiques, faisant de cette nef un espace à la fois de recueillement spirituel et de passage, emblématique de l'importance du monastère sur les routes de pèlerinage médiévales."
+      },
+      {
+        title: "La crypte du martyrium et la fresque du taureau de saint Luc",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPbgYgOdSiLsxh_0wW_Hi8Q8i1ZD9OYxtqTIR_UuVn1tCbe3fPG2kJEggMJdYNLVyWG3q7sgsMYkkUEa_yyJ8HsxW8e45_naD65xKDIvcmFGAFcASab6TqSZrG6D0VVY4B_j5SfpzjLaD9XNkYvPFrI7Q=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOyDV1a7syCPNE3eB1XhhGuUcOhMOHHbPXPsOcgs4kP9WVLxSzxgkNBrZ8NABYzg5jAT7xRFN9PJtns3eYOU4Xf1jpYiFIiRXy5aejZ7BvGnsnnoJEzUNnLRU60772NXCDHoGnjeFNFRTeHZ3NtJjHT_A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Directement sous le sanctuaire et épousant la déclivité naturelle du rocher se déploie la crypte semi-circulaire, espace secret et obscur entièrement voûté en berceau continu. Couverte d'un appareil de schiste et de mortier grossier où subsistent les traces des cintres de coffrage d'origine, cette chambre basse abritait le martyrium où reposaient les trésors reliquaires de saint Pierre. Une étroite galerie annulaire périphérique permettait aux fidèles de descendre dans les entrailles de la roche pour contempler le tombeau sacré avant de remonter vers la lumière de la nef.\n\nÀ droite : Ce vestige de peinture murale conservé sur l'enduit de chaux de la crypte de Sant Pere de Rodes constitue un précieux témoignage des décors romans primitifs qui ornaient autrefois cet espace souterrain sacré, dédié au martyrium et à la vénération des reliques sous le chevet de l'abbatiale. Bien que l'humidité séculaire et les altérations de la pierre aient estompé une grande partie de la composition originale, la scène conserve une lisibilité graphique remarquable.\n\nLe panneau est structuré sur son flanc droit par une bande d'encadrement verticale ornée d'une frise végétale de rinceaux et de palmettes stylisées aux teintes d'ocre rouge et de blanc. À l'intérieur de ce cadre linéaire se détache, tracé d'un trait sombre et vigoureux, un quadrupède orienté vers la droite surmonté d'une aile déployée au motif central rouge en amande. Il s'agit très probablement du taureau ou bœuf ailé, figure du tétramorphe symbolisant l'évangéliste saint Luc, fréquemment associé aux trois autres figures évangéliques entourant une théophanie ou un Christ en majesté. La silhouette animale, caractérisée par son port massif, sa tête courbée et le dessin de son aile, s'inscrit dans la grande tradition du bestiaire symbolique chrétien et de l'iconographie apocalyptique médiévale."
+      },
+      {
+        title: "Le cloître monastique et la superposition des espaces réguliers",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPU-b-te8387nVnQVDbphnE2eJ5aqvP4Mrnd9maIUcTZC0DvTEgMHxTTzkTGWVtHhw49RhIYJ04L9cGLat5qXj7AICmC7_1L7AyIkeDVXWf2HDFKUlR1T5__wA9uKxljZxS0ByehegFFcBA66fbhvoovg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNqwnj7PCFwV2O04c9m3yZ690ByxuXgO2nj3ezK-Bch_-fiPK5L1I310eOFW_nQLGOloib9HlJEkuVGrlUJ_jaz1vneVQ5bVLk-vqP6MWx0pr6mk72eShw3KrwCYosS9Uxcg8E8YdxSDdS1f7kGZ0mDlA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le cloître du monastère de Sant Pere de Rodes constitue le centre névralgique de la vie communautaire des moines bénédictins, conçu comme un espace de méditation, de transition et de desserte des différents bâtiments conventuels. Sa structure actuelle révèle une superposition complexe d'époques, car le monastère a possédé deux cloîtres superposés pour s'adapter au relief accidenté de la montagne. Le niveau visible aujourd'hui, bien que partiellement restauré et marqué par les outrages du temps, conserve l'austérité et la force de l'architecture romane primitive avec ses arcades en plein cintre portées par des colonnettes doubles.\n\nL'organisation spatiale s'articule autour d'un jardin central où se trouve souvent un élément hydraulique, comme la vasque sculptée encore visible, rappelant l'importance de l'eau dans la symbolique monastique et la survie en milieu isolé. Les galeries présentent une alternance de piliers massifs et de colonnes plus fines, créant un rythme visuel qui encadre les vues sur les bâtiments adjacents et les murs de défense du complexe. Cette structure servait non seulement à la déambulation liturgique, mais aussi à la lecture et au travail manuel à l'abri des intempéries.\n\nLa décoration sculpturale des chapiteaux, bien que moins foisonnante que dans la nef, illustre la transition entre les influences classiques et le style roman propre à la région. On y retrouve une géométrie rigoureuse et des motifs végétaux qui s'intègrent parfaitement à la pierre de granit locale. Ce lieu, autrefois richement orné avant les pillages des siècles passés, demeure un témoignage poignant de l'architecture défensive et religieuse catalane, où la solidité des murs rencontre la spiritualité du vide central."
+      }
+    ]
+  },
+  {
     id: "empuries_murailles_cite_grecque",
     name: "Empúries - Murailles de la Cité Grecque (Neàpolis d'Empúries)",
     country: "Espagne",
