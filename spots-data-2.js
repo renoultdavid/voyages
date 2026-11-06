@@ -4700,7 +4700,7 @@ const SPOTS_2 = [
     flag: "🇫🇷",
     region_admin: "Île-de-France",
     department: "Paris (75)",
-    subdiv: "Paris 7e",
+    subdiv: "Paris",
     altitude: 33,
     is_island: false,
     island_name: "",
