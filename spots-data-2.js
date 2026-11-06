@@ -1,5 +1,135 @@
 const SPOTS_2 = [
   {
+    id: "paris_moulin_radet",
+    name: "Paris - Moulin Radet (Moulin de la Galette)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Île-de-France",
+    department: "Paris",
+    subdiv: "Paris",
+    altitude: 128,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Patrimoine Meunier de Montmartre & Guinguette Historique (1717)",
+    century: "XVIIIe siècle",
+    category: "star",
+    counts: {},
+    lat: 48.88742,
+    lng: 2.33712,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM6H5AJ-LFrTptUBNUE3nKW1nlEDEcd6ZMKedtJgVHIcUJDOvq7IpQKD2e5i1WAxSlJX3PYYHpa8ED4nPbQZALZQQ4bSeA0FOsdwrt00tDMAfWPsp5KKK2nHctAerJ1mZOF3Pjaqb-Cy8oWLDaNLCOdNA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Sur les hauteurs pittoresques de la butte Montmartre, au carrefour de la rue Lepic et de la rue Girardon, la silhouette de bois du Moulin Radet perpétue le souvenir du paysage bucolique et agricole qui caractérisait autrefois ce sommet parisien. Construit initialement en 1717 sur la butte sous le nom de moulin Chapon, cet édifice traditionnel sur pivot en charpente servait à moudre le grain, concasser les oignons d'iris pour les parfumeurs et écraser le gypse extrait des carrières montmartroises pour fabriquer le fameux plâtre de Paris. La famille Debray, meuniers de père en fils, acquiert la structure en 1812 ainsi que le moulin Blute-Fin voisin, formant un ensemble voué à un destin hors du commun lors des invasions de 1814, quand les frères Debray défendirent héroïquement leur colline contre les cosaques russes au prix de leur vie.\n\nLe XIXe siècle transforme radicalement la vocation de ces installations artisanales. Transféré à son emplacement actuel en 1834, le Moulin Radet est intégré au vaste domaine festif du « Moulin de la Galette », où la famille Debray commence à distribuer aux promeneurs du dimanche un petit vin aigrelet issu des vignes locales accompagné d'une galette de seigle chaude. L'établissement se métamorphose rapidement en une guinguette légendaire, attirant sous ses ailes de bois les plus grands maîtres de la peinture impressionniste et moderne, d'Auguste Renoir à Vincent van Gogh, en passant par Henri de Toulouse-Lautrec et Pablo Picasso, tous séduits par la gouaille populaire, les bals en plein air et la lumière unique de ce faubourg d'artistes. Sauvé in extremis de la démolition grâce à sa protection au titre des monuments historiques en 1958, le moulin surmonte aujourd'hui un restaurant gastronomique réputé, dressant fièrement sa voilure de lattes et sa cage de colombages au-dessus des toitures du XVIIIe arrondissement.",
+    visiter: "L'ascension de la rue Lepic permet de voir apparaître au détour d'un virage pavé la charpente en bois sombre du moulin posée sur le toit-terrasse du restaurant. Une observation attentive révèle le mécanisme orientable de la queue de manœuvre et la structure du pivot en chêne qui permettait au meunier d'orienter les ailes face aux caprices du vent. Les promeneurs prennent le temps de contempler la plaque commémorative narrant l'épopée de la famille Debray avant de poursuivre la montée vers le Blute-Fin caché dans les jardins privés ou de faire une pause gourmande sous la tonnelle historique.",
+    link: ""
+  },
+  {
+    id: "paris_le_passe_muraille",
+    name: "Paris - Le Passe-Muraille (Place Marcel-Aymé)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Île-de-France",
+    department: "Paris",
+    subdiv: "Paris",
+    altitude: 128,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Sculpture en Bronze de Jean Marais & Hommage Littéraire à Marcel Aymé (1989)",
+    century: "XXe siècle",
+    category: "star",
+    counts: {},
+    lat: 48.88754,
+    lng: 2.33804,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMSCQa-91_PJPTcBMqJqwvtDqedxAQz2-A0UPTGVyUChTfwiJniIfZovNCfG7WjUbwlnQqpZwgXr9NKGmmBwB-dw7JM_wKQV9fLI6g4VP9-tWl5GXf6R5y5IzcrIXa2ENAPxO886TgSfuCrtzP_LXdrkA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "La modeste place Marcel-Aymé accueille, enchâssée directement dans un mur de soutènement en pierre calcaire le long de la rue Norvins, une création sculpturale insolite et poétique devenue l'un des repères les plus attachants de Montmartre. Inaugurée en 1989 à l'initiative des admirateurs de l'écrivain, cette statue en bronze grandeur nature est l'œuvre du comédien et sculpteur Jean Marais, grand ami de l'auteur des « Contes du chat perché ». L'œuvre matérialise avec une stupéfiante force expressive le dénouement de la célèbre nouvelle fantastique « Le Passe-Muraille », publiée en 1941, mettant en scène un modeste fonctionnaire de ministère nommé Dutilleul.\n\nCe petit employé de bureau découvre un matin qu'il possède le don surnaturel de traverser les murs les plus épais sans encombres physiques. Utilisant d'abord ce pouvoir pour mystifier son tyrannique chef de service sous le pseudonyme de Garou-Garou, puis pour commettre de rocambolesques cambriolages d'orfèvres, Dutilleul finit par perdre son don magique après avoir avalé un médicament prescrit par erreur, se retrouvant subitement immobilisé et pétrifié pour l'éternité au cœur même de la maçonnerie de Montmartre. Jean Marais a donné à la statue les traits émaciés, la chevelure abondante et la moustache fine de Marcel Aymé lui-même, créant une fusion intime entre le romancier et son personnage de fiction. Le bronze montre le buste, la jambe droite et la main tendue émergeant littéralement de la roche, le visage tourné vers le passant avec une résignation mélancolique. L'usure brillante de la main en bronze témoigne de la tradition populaire selon laquelle toucher les doigts tendus du personnage porterait chance aux créateurs et aux amoureux.",
+    visiter: "Une halte sur la placette ombragée permet de s'approcher au plus près du mur de calcaire pour apprécier le remarquable travail de modelé réalisé par Jean Marais dans le drapé du veston et la tension des muscles du visage. Les promeneurs perpétuent le rituel en serrant la main en bronze poli du héros pétrifié avant de lever les yeux vers la maison voisine où Marcel Aymé vécut et écrivit une grande partie de son œuvre jusqu'à sa disparition en 1967.",
+    link: ""
+  },
+  {
+    id: "paris_basilique_sacre_coeur",
+    name: "Paris - Basilique du Sacré-Cœur de Montmartre",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Île-de-France",
+    department: "Paris",
+    subdiv: "Paris",
+    altitude: 126,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Sanctuaire Romano-Byzantin National, Mosaïque du Christ & Dôme Blanc (1875-1923)",
+    century: "XIXe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 48.88662,
+    lng: 2.34305,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNTf32crq42pK86-HcrpRwxtK14yiQr7rM3-ON1Y9N27Fesv1avI7hYdw1jRfkcDMLCVLfjcWGQfmkCNLZKoI013_9aFnKOhJivOkm2klGq9npvjRovkTZfmL0W_GsCO3bmwEDKv7EG3v9_ciL_9nwq5g=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMPHA_Y7jIuqTPsK_AEPGPeR_ZzgB2O3kRsu7IOvjy3yftKqHeDOd0Gk9Ap36qOZRtiWmQJeTOznbPQHC7q7U_Qq4-u-Pvpjc6DuMRUy3lQjHmwSlRf1ax86PRtnyRBhiWQIRAOUl3w0GD_VcD7YrGJcA=w617-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPa9M58zcFUy0En8H-4nzmZSJZxbMPIv6_v1lhgK3Oh2ZxWKdmyz6KCKaILdpfZO54ICukl4nWWWAyfBpXaZ28_wjo0mgLWFU2Q1RpY5Z1wAUUL_aoWLv1D5xtxHRgtzS3WNhp-LtbDZEBFqK_IzN8xnA=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'intérieur de la Basilique du Sacré-Cœur représente l'un des sommets de l'architecture religieuse française de la fin du XIXe et du début du XXe siècle. Conçue par l'architecte Paul Abadie, elle a été érigée en signe de \"pénitence\" nationale après la guerre franco-prussienne et la Commune de Paris.\n\nVoici la nef s'ouvrant sur l'abside, dominée par la célèbre mosaïque du Christ en Gloire (ou Christ en Majesté). Inaugurée en 1923, cette œuvre de Luc-Olivier Merson est l'une des plus grandes mosaïques au monde, couvrant environ 475 m². Le Christ y est représenté les bras ouverts, révélant son cœur sacré, entouré de saints protecteurs et de figures historiques de la France. L'utilisation massive de l'or et de l'émail crée un effet de lumière céleste qui focalise immédiatement le regard vers le sacré.\n\nL'architecture elle-même relève du style romano-byzantin. Ce choix esthétique rompt volontairement avec le style gothique traditionnel des cathédrales françaises pour puiser ses racines dans les églises d'Orient et l'architecture romane du Sud-Ouest de la France (comme la cathédrale de Périgueux). On observe de grandes arcades en plein cintre portées par des piliers massifs en pierre de Château-Landon, une pierre blanche qui a la particularité de s'auto-nettoyer au contact de la pluie.\n\nSous la mosaïque, le déambulatoire est rythmé par une série d'arcades plus petites et de colonnes de marbre, tandis que les vitraux et les fresques des chapelles latérales complètent ce programme iconographique monumental. La coupole centrale, dont on aperçoit la base ornée d'anges sculptés, culmine à une hauteur vertigineuse, renforçant l'acoustique et la majesté de l'espace."
+      }
+    ],
+    description: "Au point culminant de la butte Montmartre, dominant le panorama parisien de sa coupole immaculée perchée à plus de cent trente mètres d'altitude, la basilique du Sacré-Cœur s'affirme comme un chef-d'œuvre éclectique et monumental du patrimoine français. Décidée par l'Assemblée nationale en 1873 au titre de « Vœu national » pour expier les drames de la guerre franco-prussienne de 1870 et les déchirements de la Commune de Paris, sa construction débute en 1875 d'après les dessins de l'architecte Paul Abadie, lauréat du concours public face à plus de soixante-dix concurrents. L'édifice adopte un parti architectural romano-byzantin audacieux inspiré de Sainte-Sophie de Constantinople et de la cathédrale Saint-Front de Périgueux, rompant avec le style néogothique alors prédominant dans les constructions religieuses du XIXe siècle.\n\nLa basilique est entièrement bâtie en calcaire de Château-Landon (travertin de Seine-et-Marne), une roche d'une densité exceptionnelle qui a la propriété unique de sécréter du calcin au contact des eaux de pluie, blanchissant et purifiant constamment l'enveloppe extérieure face aux pollutions de la ville. L'édifice est couronné par un dôme central élancé haut de quatre-vingt-trois mètres, entouré de quatre coupoles secondaires et flanqué d'un campanile culminant à plus de quatre-vingt-dix mètres abritant « La Savoyarde », l'une des plus grosses cloches du monde fondue à Annecy en 1891, pesant près de dix-neuf tonnes. Consacrée au lendemain de la Première Guerre mondiale en octobre 1919 et achevée en 1923 avec la pose de ses mosaïques, la basilique abrite depuis 1885 une prière d'adoration eucharistique continue, perpétuée jour et nuit sans interruption par des relais de fidèles, tandis que son esplanade offre le plus célèbre belvédère panoramique sur la capitale.",
+    visiter: "L'approche de la basilique s'effectue par les terrasses verdoyantes et les escaliers monumentaux du square Louise-Michel, ou par le funiculaire de Montmartre débouchant sur le parvis haut. Les visiteurs contemplent d'abord les deux statues équestres en bronze de saint Louis et Jeanne d'Arc encadrant le porche monumental avant de pénétrer sous les voûtes pour lever les yeux vers la monumentale mosaïque d'or du Christ en Gloire de Luc-Olivier Merson. L'ascension des trois cents marches menant à la galerie extérieure du dôme permet ensuite d'embrasser un panorama vertigineux à 360 degrés s'étendant jusqu'à cinquante kilomètres par temps clair, avant de redescendre explorer la vaste crypte souterraine.",
+    link: ""
+  },
+  {
+    id: "paris_tour_eiffel",
+    name: "Paris - Tour Eiffel (Champ-de-Mars)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Île-de-France",
+    department: "Paris",
+    subdiv: "Paris",
+    altitude: 42,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Prouesse Technique Métallique de l'Exposition Universelle de 1889 & Dame de Fer",
+    century: "XIXe siècle",
+    category: "batiment_culturel",
+    counts: {},
+    lat: 48.85861,
+    lng: 2.29409,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN7MpM-9h1E_CffzxfWmM2c_tM1Y2aZ9QJwvTf2LAyBdcw9qFZTrlZvhj-4NZBah5HLpWPlgMe2PhjC59IgXTc_FMsw8L6WkNMHWMMkpshqsSD3CdPlbwZAyFJ5uLqxz1WUY2CpQDjk-2RBevZLV_Oo8g=w1296-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPOty1g6S9AL_jIB-g1ECb89P6IQfCY8zyEJ_b-ca72SPgSNVXMfSWCn4Drs5oansy6fE339ZiVNwnIkAg4M0y34gFiFVhAaSwjMO49EjETJXR1YSjuda3LLUeu_MjNvoyRE6lKpkh-PVZk953BZ1RE0A=w1369-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN7U9wTGLLQLT84YdQOesco7F5mOItqDFN7Whe67r8wHPjkx7nqIlDdB_ES4rEErIU8FVyfkuxdUxFf6CywdaSvjFe2Crp4uSMlwY1YaPPayCIeumlUmhFScdaZNhGvCDzUCMe1vFKP73H3SVhV6wxyqQ=w617-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNj-TmmMKG95XQwy8LXtGSuH4Y-QtLTDbPxKDFE6_VKKplptX2eDApRg_JRaJ0C5JRBRlZBXfEhwA-MHkBhBY4BOxAZGmCnmAWuknJNDKeOgOWJh3pEA5wUPEzYIKswcPfWsg3t7bouPrWcldrLFK0xdQ=w1369-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOehvmzCgGI7u8U9lhdFbF0gBgfUkj2OA3J3zja700aqDoyTSSG8S5LOw129zfbRgphQhSkYIYuPGVSwDJqN4Z0lcZBC8TEfXX_wBMR4h6oRPxMVGTGiqKIc3gPzOY2ivM0dFyUcT9w9DevHkNcAM0AYg=w1377-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Une immense flèche de fer puddlé domine la rive gauche de la Seine, s'élevant avec une sveltesse prodigieuse au-dessus des jardins du Champ-de-Mars pour incarner le symbole universel de Paris et de l'ingéniosité industrielle française. Imaginée par les ingénieurs Maurice Koechlin et Émile Nouguier, dessinée avec l'architecte Stephen Sauvestre et bâtie de main de maître par Gustave Eiffel en seulement deux ans, deux mois et cinq jours, la tour de trois cents mètres fut le clou magistral de l'Exposition universelle de 1889, célébrant le centenaire de la Révolution française. Malgré les vives protestations d'artistes et d'écrivains éminents de l'époque comme Guy de Maupassant, Charles Gounod et Alexandre Dumas fils dénonçant une « tour vertigineuse et ridicule », la Dame de fer conquit immédiatement le cœur des foules avec près de deux millions de visiteurs dès son année inaugurale.\n\nLa structure métallique, chef-d'œuvre de calcul aérodynamique et de résistance des matériaux, assemble plus de dix-huit mille pièces de fer forgé reliées par deux millions et demi de rivets posés à chaud par des équipes d'ouvriers chevronnés. Conçue initialement pour une durée d'exploitation éphémère de vingt ans, la tour fut sauvée du démantèlement programmé grâce aux expériences scientifiques audacieuses encouragées par Eiffel lui-même : d'abord comme observatoire météorologique et aérodynamique, puis surtout comme gigantesque antenne de transmission pour la télégraphie sans fil (TSF) militaire dès 1903, jouant un rôle stratégique capital lors de la bataille de la Marne en 1914 en interceptant les messages de commandement ennemis. Culminant aujourd'hui à trois cent trente mètres avec ses antennes de radiodiffusion et de télévision, la tour conserve ses quatre monumentaux piliers inclinés posés sur des vérins hydrauliques, ses ascenseurs inclinés à double cabine historiques de 1899 et ses trois plates-formes panoramiques accueillant les voyageurs du monde entier.",
+    visiter: "La découverte du monument commence sur l'esplanade du Trocadéro pour embrasser la perspective monumentale plongeant sur la tour, les fontaines de Varsovie et la passerelle d'Iéna. Traverser la Seine permet de rejoindre le parvis sous les quatre arches colossales pour lever les yeux vers le treillis arachnéen de fer puddlé et distinguer les noms gravés en lettres d'or des soixante-douze savants honorés par Eiffel. Les visiteurs montent ensuite au premier étage pour expérimenter le plancher de verre transparent, gagnent le deuxième étage pour détailler la trame géométrique des avenues haussmanniennes, avant d'emprunter les ascenseurs rapides propulsant au sommet pour contempler le bureau historique reconstitué de Gustave Eiffel et savourer une vue aérienne souveraine sur tout le bassin parisien.",
+    link: ""
+  },
+  {
     id: "castello_d_empuries_basilique_sainte_marie",
     name: "Castelló d'Empúries - Basilique Sainte-Marie (Basílica de Santa Maria)",
     country: "Espagne",
