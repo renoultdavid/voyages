@@ -1,5 +1,71 @@
 const SPOTS_2 = [
   {
+    id: "castello_d_empuries_basilique_sainte_marie",
+    name: "Castelló d'Empúries - Basilique Sainte-Marie (Basílica de Santa Maria)",
+    country: "Espagne",
+    continent: "Europe",
+    flag: "🇪🇸",
+    region_admin: "Catalogne",
+    department: "Province de Gérone",
+    subdiv: "Castelló d'Empúries",
+    altitude: 20,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "La « Cathédrale de l'Empordà », Gothique Catalan Rayonnant & Retable d'Albâtre (XIIIe-XVe siècle)",
+    century: "XIVe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 42.25957,
+    lng: 3.07602,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNbVydVSiJp6XdCF1lqmtPtyF4BPTL6S6WL8MlK0SzLlIPaIwJk9n2GocnMKJLr96cfuGk6ovKeZsuzIBYDaeOX3mtW148i2Jr4O6kRk0vR-S9kzbmQh1UKfdLk5uedeXqlj4-OXHCsuAZnunRHiqyNtQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Au cœur de l'ancienne capitale du comté d'Empúries, la silhouette colossale de la basilique Sainte-Marie déploie une monumentalité digne des plus grands sièges épiscopaux d'Occident, justifiant son titre populaire séculaire de « Cathédrale de l'Empordà ». La volonté tenace des comtes d'Empúries, désireux d'émanciper leur principauté féodale de la tutelle de l'évêché de Gérone en érigeant une cathédrale autonome, poussa les souverains locaux à lancer dès le XIIIe siècle un chantier d'une ampleur vertigineuse sur les bases d'une église romane antérieure dont subsiste l'imposant clocher lombard à cinq étages d'arcatures. Consacré en 1405 au terme de plus d'un siècle de travaux, l'édifice adopte la structure spacieuse d'une église-halle (hallenkirche) à trois vaisseaux d'une égale majesté, où d'immenses piliers cylindriques nus sans chapiteaux saillants s'élancent vers des voûtes sur croisées d'ogives unifiées baignées par une lumière tamisée. La basilique s'impose comme un conservatoire d'art sacré d'exception : son portail occidental en marbre blanc sculpté par Antoni Antigó en 1406 figure parmi les sommets de la statuaire gothique internationale en Catalogne, tandis que l'abside accueille le prestigieux retable majeur sculpté en albâtre de Beuda par l'atelier de Vicenç Borràs entre 1485 et 1493, ainsi que les somptueux tombeaux gothiques des comtes Pons V et Pierre Ier d'Empúries.",
+    visiter: "La découverte de l'édifice commence sur la place de la basilique, où l'on prend le temps de détailler le portail sculpté en marbre blanc d'Antoni Antigó, en observant le modelé expressif des douze apôtres sous leurs dais et la délicate Adoration des Mages du tympan. Franchir le seuil permet de mesurer immédiatement le volume impressionnant de l'église-halle et l'enfilade des grandes colonnes cylindriques portant les voûtes d'ogives. Avancer ensuite vers le maître-autel pour admirer la dentelle minérale du retable d'albâtre flamboyant de Vicenç Borràs scintillant sous les vitraux du chevet, avant de contempler sur les murs du chœur le tombeau gothique en armure du comte Pons V et de visiter le musée paroissial abritant les pièces d'orfèvrerie liturgique comtale.",
+    link: "",
+    sections: [
+      {
+        title: "Portail occidental sculpté et galerie des apôtres (Antoni Antigó, 1406)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNbVydVSiJp6XdCF1lqmtPtyF4BPTL6S6WL8MlK0SzLlIPaIwJk9n2GocnMKJLr96cfuGk6ovKeZsuzIBYDaeOX3mtW148i2Jr4O6kRk0vR-S9kzbmQh1UKfdLk5uedeXqlj4-OXHCsuAZnunRHiqyNtQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOyXlvJaJSzXVbuw-QbMfvgtJn2RErE3JpRaJysHRDeYAdcy7Pcz4PTkuLokPZ01hFeEuwZnNkI_RWQeBV3ieab0DjV7Dvq9uuyVtsz8sur9P5CR-73InvY4zd7QOqwpufu8ARqT4GRKiL7zAPNBJS4zA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Sculpté au tout début du XVe siècle en marbre blanc, le portail occidental de la basilique Sainte-Marie de Castelló d'Empúries constitue l'un des sommets de la sculpture gothique en Catalogne. Commandé en 1406 au maître d'œuvre et sculpteur Antoni Antigó, cet ensemble monumental s'enfonce sous une profonde embrasure brisée rythmée par six archivoltes richement moulurées. De part et d'autre de l'entrée, les ébrasements latéraux abritent, sous des dais architecturaux ajourés à pinacles et gables délicats, les statues en haut-relief des douze apôtres grandeur nature, campés avec une remarquable expressivité et des drapés fluides caractéristiques du gothique international. Le tympan tripartite met en scène une gracieuse Adoration des Mages centrée sur la Vierge à l'Enfant recevant l'hommage des rois, couronnée à la pointe du portail par la résurrection des morts et le Christ en gloire entouré d'anges musiciens."
+      },
+      {
+        title: "Structure d'église-halle et ampleur monumentale du vaisseau",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMQHOrbbY1hdUh7Rt3pD4Pkba-ckMcc_1__dkEhRiLl_beORMbRjMRRc-46-vqXLhLxD0mZ7PpLAYsLg0SpeEg5rW2WRPnLrF6HCq-2JslDPt3_45zDLV-Wgs5Yef-MBMmc4aLgY0D1edN5UmhcQ-kaMQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'espace intérieur se caractérise par une largeur exceptionnelle et une structure de type église-halle, où les collatéraux s'élèvent presque à la même hauteur que le vaisseau central. Cette conception crée une sensation d'unité spatiale et de monumentalité, renforcée par l'élancement des piliers cylindriques massifs qui soutiennent des voûtes sur croisée d'ogives d'une grande pureté structurelle."
+      },
+      {
+        title: "Élévation de la nef centrale et jeux de lumière gothique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNLBh7cbf2WhRg10IFQmZMcWI3uhcfWFEMHgHU8_HQqi0aawOHb3vgcDLItx43PlP_fCd4-fxd4INpPiuCyMehIn1Zqvh8eYGzQ5LAC0u8_pzj-w45a3xNAkDcEe8YM1u5WDwPuLXj2p7HeV88NSeDMiA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM3O5T34AgRnqymWGK60J8m_jwdxZKK7FNOCCwR_9FNHdc0-vuVke42lcfCDWQjsJHebwxDbSigGTCTUNlDdFAWWDVURZUGEKPGqEhHyTrnb1XJZXQpDIgceSbPNHkSVRma6anS0THy0TNH6DVN-kXZ8A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'élévation de la nef privilégie la sobriété des lignes et la clarté des volumes. Les nervures des voûtes convergent vers des clés de voûte sculptées et polychromes, tandis que les grandes arcades brisées ouvrent l'espace vers les chapelles latérales. La lumière, élément central de l'esthétique gothique, pénètre par des fenêtres hautes et d'étroites ouvertures dans l'abside, mettant en valeur la texture de la pierre de taille et créant un jeu d'ombres qui souligne la verticalité de l'édifice. Le choeur, en arrière-plan, abrite un magnifique retable en albâtre, dont la blancheur contraste avec la tonalité grise des piliers de la nef.\n\nAu-delà de ses qualités architecturales, la nef de la basilique témoigne de la puissance historique du comté d'Empúries. L'équilibre entre la rigueur de la construction et l'élégance des détails, comme les chapiteaux simplement épannelés ou les bases moulurées des colonnes, reflète une esthétique propre au gothique méridional. Ce lieu n'était pas seulement un centre de culte, mais aussi un symbole de prestige politique et social, capable d'accueillir les grandes cérémonies de la noblesse et du peuple de la région."
+      },
+      {
+        title: "Tombeau funéraire gothique du comte Pons V d'Empúries",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPHxpmH262T8XW2SudprRgObSodERM6U_8_Rs4vWx64wbOW5k5z8QWLDKWp_N_O59zE29WaK6CiDxqn3l6stNq7Dp37nuChuJgn8a_ekE-5Y-CezUmnVs2Z_tEGjVy2SSff6MrXNzRFR0NyW_tFucqbHQ=w1204-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN840MfRdsPY8Jw0GeGLzzoqED7YnP4NPyGqvuKoprY3KO5zvihilekDE_Jy3Cz9lEcN-5giuMTk8KJvSDk2tkZOOsnh24hToytC1CSdDwh2bhAUYbWquGQ_ztJCOksPSm02GVfutmA5faHDYy_2Q_n-Q=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "A gauche, le tombeau de Pons V, comte d’Empúries, représente un exemple remarquable de la sculpture funéraire du gothique catalan. Ce monument, encastré dans le mur latéral de l’église, se compose d’un sarcophage supporté par des consoles travaillées, surmonté d’un gisant sculpté en ronde-bosse. L'œuvre témoigne de l'importance politique de la lignée comtale d'Empúries et de la volonté de pérenniser la mémoire du défunt à travers une iconographie de chevalerie et de piété.\n\nLe gisant, sculpté dans une pierre claire, représente le comte revêtu de son armure complète, les mains jointes en signe de prière éternelle. La finesse des détails de l’équipement militaire, tels que la cotte de mailles et les spallières, souligne le rang guerrier du personnage. À ses pieds, un chien couché symbolise la fidélité, une convention iconographique fréquente dans les tombeaux de la noblesse médiévale. La tête repose sur un coussin, le visage tourné vers le haut, dans une attitude de repos serein attendant la résurrection.\n\nLa face antérieure du sarcophage est divisée en plusieurs compartiments sous des arcatures gothiques trilobées, ornées de pinacles et de fleurons. Chaque niche abrite un personnage en bas-relief, probablement des membres de la famille comtale ou des pleurants, vêtus de tuniques longues et portant parfois des épées. Ces figures participent à la mise en scène du deuil et à la célébration de la lignée. La structure architecturale du tombeau s'intègre harmonieusement aux murs de pierre de la basilique, créant un lien indissociable entre le pouvoir temporel des comtes et l'espace sacré de l'église."
+      },
+      {
+        title: "Le retable majeur en albâtre de Beuda (Vicenç Borràs, 1485-1493)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPIiAfTuoNlqbcpHo5xVIWqKwQF2ew995lm6ID0ArRf2uS1GsRQhoKjDBWIYs7K4CttM_5RhqDKBJKrRsh4qBzthLN1N-0UbHpqi2BRzEsUuBWjLcx-NYHtS1O65I2sO2hdAxI6IGHswcBCtJQcU4VIJQ=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNp7SwM0OqXA3LOYkEu7eLxzcCfwSRbRLOrHhCXuzO1nbPUeFiMne7F8qgfbAt3RCpxuhXdb34dw5OWtV-w_Hxk7obm4Hj6Lh0mkp2gB2Q_gpuJdbmKVMsFp84PSvM7DXotPxn84cCzt84pgw4ABz9Mew=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le retable majeur est un chef-d’œuvre exceptionnel de l'art gothique tardif, unique en Catalogne par son matériau et sa finesse d'exécution. Sculpté principalement dans l'albâtre de Beuda entre 1485 et 1493 par l'atelier de l'artiste Vicenç Borràs, il s'élève au fond de l'abside comme une dentelle de pierre monumentale. Sa structure pyramidale, couronnée par de hauts pinacles ciselés, illustre parfaitement le style gothique flamboyant, où l'architecture et la sculpture fusionnent pour créer un ensemble d'une grande densité visuelle.\n\nL'iconographie du retable se divise en trois registres horizontaux d'une richesse narrative remarquable. La partie centrale est dominée par une niche profonde abritant la statue de la Vierge à l'Enfant, entourée de figures d'anges et de motifs végétaux. Au-dessus et sur les côtés, une série de scènes en bas-relief relate la Passion du Christ, de l'entrée à Jérusalem à la Crucifixion, chaque épisode étant encadré par des gâbles ajourés et des colonnettes torsadées. La précision du travail sur l'albâtre permet de rendre les expressions des visages et la fluidité des draperies avec une sensibilité quasi picturale.\n\nLa base du retable, ou prédelle, présente une série d'anges musiciens et de bustes de prophètes qui soutiennent symboliquement l'ensemble de la structure sacrée. L'utilisation de l'albâtre, une pierre translucide, permettait à l'origine de capter les rayons du soleil traversant les vitraux de l'abside, conférant à l'œuvre une aura quasi immatérielle lors des offices. Ce retable n'est pas seulement un instrument liturgique, mais aussi le témoin de l'apogée économique et artistique de la région à la fin du Moyen Âge, conservant aujourd'hui encore son éclat originel malgré les siècles."
+      }
+    ]
+  },
+  {
     id: "cadaques_phare_cap_de_creus",
     name: "Cadaqués - Phare du Cap de Creus (Far del Cap de Creus)",
     country: "Espagne",
