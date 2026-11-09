@@ -1,5 +1,78 @@
 const SPOTS_2 = [
   {
+    id: "tenerife_reserve_montana_roja",
+    name: "Tenerife - Réserve Naturelle Spéciale de Montaña Roja (Reserva Natural Especial de Montaña Roja)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Granadilla de Abona",
+    altitude: 173,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cône Volcanique Hydrothermal, Dunes Vivantes & Littoral Protégé de la Tejita",
+    century: "Temps géologique",
+    category: "rando",
+    counts: {},
+    lat: 28.02715,
+    lng: -16.54895,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMZ9lv4m7byn6LZDL4P_1Yh5DzeU69s7we-O-xfxgid21953OeCgNhTSJaQ0-UYHYI7IPweABRT0MxSbagbOTgGBQ0Un9d70kDCCT4sV354h0GnVzwxVMls_YvTjYzk6N1cRjYF_qdAUb8ihLjetd1-ug=w1367-h911-s-no-gm?authuser=0",
+    description: "À l'extrémité méridionale de l'île de Tenerife, sur le territoire de la commune de Granadilla de Abona, la Réserve naturelle spéciale de Montaña Roja déploie sur cent soixante-six hectares l'un des paysages côtiers les plus singuliers et préservés de l'archipel des Canaries. Ce sanctuaire géologique et biologique tire son identité du spectaculaire cône volcanique éponyme, promontoire basaltique haut de cent soixante et onze mètres dont la silhouette rougeoyante émerge directement des eaux de l'Atlantique. Formé au cours du Pléistocène par une succession d'éruptions stromboliennes et phréatomagmatiques où le magma incandescent entra en contact brutal avec l'eau de mer, l'édifice est composé d'une accumulation litée de cendres, de scories et de tufs volcaniques. Les fluides hydrothermaux et l'altération séculaire sous l'action combinée des embruns salins et du soleil ont intensément oxydé les minéraux ferreux des roches, drapant le cône de teintes ocre, cuivre et rouge carmin qui contrastent de façon saisissante avec le turquoise de l'océan.\n\nCe territoire aride abrite également le complexe dunaire le plus représentatif du sud de l'île, façonné par le souffle continu des alizés du nord-est qui balaient les plaines sédimentaires reliant El Médano à la plage de La Tejita. Les dunes mouvantes et les sables fossiles accueillent une flore psammophile hautement spécialisée capable de fixer les sols arides, dominée par le balancón (Traganum moquinii), le raisin de mer canarien et des euphorbes maritimes naines. Cet écosystème fragile constitue un havre vital pour l'avifaune marine et côtière, servant d'aire de nidification pour le gravelot à collier interrompu et d'étape migratoire pour de nombreux passereaux et limicoles. Depuis les crêtes ventées de la montagne, le regard embrasse un panorama grandiose balayant les falaises escarpées du littoral, l'immense arc de sable doré de La Tejita et, au loin vers le nord, le majestueux pic du Teide dominant les brumes de l'océan.",
+    visiter: "Le sentier de randonnée débute au niveau du parking de La Tejita pour longer les dunes avant d'entamer l'ascension régulière du flanc nord de la Montaña Roja le long d'un chemin volcanique rocailleux. Arrivé au sommet près de la borne trigonométrique, le promeneur profite d'une vue circulaire plongeante sur les remous de l'océan Atlantique et la plage sauvage de La Tejita, avec en arrière-plan la silhouette majestueuse du volcan Teide. La descente s'effectue vers l'isthme dunaire pour observer les espèces végétales fixatrices de sable et faire une halte paisible sur le littoral avant de regagner le point de départ.",
+    link: "",
+    sections: [
+      {
+        title: "Le cône volcanique littoral de Montaña Roja",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMZ9lv4m7byn6LZDL4P_1Yh5DzeU69s7we-O-xfxgid21953OeCgNhTSJaQ0-UYHYI7IPweABRT0MxSbagbOTgGBQ0Un9d70kDCCT4sV354h0GnVzwxVMls_YvTjYzk6N1cRjYF_qdAUb8ihLjetd1-ug=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNolZgqOKtXCXBzlI0wV5O3ciAteK5RtcYMJGDNioYcEK2TvLFAA1TMeq3z3A9aNZkJDrVlqCJmtYA8n14yBF6ZjKG20RO8r7qlW1Z2vQ8trHdBxqaJUe-t1UeZ_DJatsYSttjX_9c_GS_90AU2VQ1JrA=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "Le cœur emblématique de la réserve est formé par la Montaña Roja proprement dite, un spectaculaire cône volcanique littoral culminant à cent soixante et onze mètres d'altitude au ras de l'océan Atlantique. Édifié durant le Quaternaire lors d'épisodes éruptifs stromboliens et phréatomagmatiques complexes, cet édifice basaltique est constitué d'une accumulation compacte de scories, de cendres et de lapilli pyroclastiques. Les intenses phénomènes d'oxydation hydrothermale et l'altération météorique des minéraux ferreux ont conféré aux flancs de la montagne cette teinte rougeoyante et ocre caractéristique qui tranche vigoureusement avec le bleu profond de l'océan."
+      },
+      {
+        title: "L'ascension de la crête, falaises maritimes et panorama sur le Teide",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN9rLE3QzOoVMo74NlYtj9wjeAZStLgerMHvEXTyjpsj2rT74Dj3i_FL-T5N2o3HTwwhLQSH7I0Llx6IZbGZ3qacUK2bnmjnxcIvBK1KP5ydmlGrIXqjZ3N44yUceoVj44e3xP1ehfVLFu55-xO39gmug=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPiG1zOnoXJg6-bf9ld4UhncmaEdMGAUuPCu6TyaQZIh0l-IGBgsxZI4fhXOcZEvX8sVoIIkk9b5DS-_e5M3KzGDLbCu8Y5vB8vTZY7xCQyENjDxU-QhCmjzIbIbQm3n9GqSRPaSgAKlYHyvrIQLfj_yQ=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "L'ascension par le sentier balisé serpentant sur sa crête révèle une falaise maritime abrupte constamment battue par la houle, couronnée à son sommet par une borne trigonométrique offrant un panorama grandiose sur le stratovolcan du Teide en toile de fond."
+      },
+      {
+        title: "Plaine sédimentaire, dunes éoliennes et flore psammophile",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczODMg_bU6jq18axxd3u4l7OuuIW7MEoWDgSkbXnUDU79AAgOY6FwFU1mnefahT6RlYEtaiJJrSsDmy3QLWM7Pi854Py8xTdv2Z17e0S52zj1ZxIBY1LsXUOAiDc9esQ-UgZEgqVWQnd20BbavqayRzFNg=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMHfOr23Nwbx7PwDoHQ55RUydSPLFHhbBAqFXzI5JQa8ylIVvhIP5d0sjCi3bkoZYtrduziEGTte0JExkeVxCaK4B8QQIJhziFxqKXNqqKUC77q4oL_DzUWaNc9AHJQkeffLN5u91RP0DiUE00OoJAT6Q=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "Entre les cônes volcaniques et l'intérieur des terres s'étend une vaste plaine sédimentaire façonnée par le vent constant des alizés du nord-est, reliant la réserve à la Playa El Médano. Cet écosystème dunaire d'un grand intérêt écologique abrite des formations de sables fossiles et des dunes vives colonisées par une flore psammophile et halophile hautement spécialisée. On y observe des colonies de balancón (Traganum moquinii), arbuste fixateur des sables endémique de la région macaronésienne, aux côtés du raisin de mer canarien (Zygophyllum fontanesii) et de l'euphorbe maritime."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOPelRDicn-63mdIsqU-HcYP7mL-O5imLaLI7Qs-jc-abh3PTdG-5VhOCYFP-IzumQ-J85ZbmcsGV0KKSOIaLUBHiDdsLmujAmjuWT5FD6r3U-JS8JafqRJeeEzskYa07YfMozgau1DR4TS-LRlWA53qw=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Plage sauvage de la Tejita, lagunes et avifaune côtière",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPeiUyVZjt_apTefbomf0a7cgKPVVIY0HZQ09IroJjl4Ec79O1Bi4xNoQBOg_O9uaLsbAgc4BVb7wcWQVBw3Dw4qJWuEENKEVu4Hiza3RS682DF0gTLpwS_YFqA6qliwOPYH95EX97ByomtTPpispVXDA=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOsmnDOd8ne76Pph_7HuhJ9ERpXfGN1omkmAfnqx8vR15cVCTADP3cATI0BZO8V8MX93eoBzQgsBMQ2aN7F3SP1OtRUpBeggYrmk_yp_lRq7d7g7mBS7iYQjIImglbxPY-1WYau6r6zPDdbodlHcmBdVw=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "À l'ouest du cône volcanique s'étire la majestueuse Playa de la Tejita, l'une des plus vastes plages naturelles de sable blond et gris de l'île, longue de plus d'un kilomètre. Protégée des vents dominants par le rempart naturel de la Montaña Roja, cette anse sauvage est bordée par un cordon dunaire préservé où se forment périodiquement de petites lagunes saumâtres temporaires après les rares épisodes pluvieux hivernaux. Ce littoral vierge constitue un point d'observation privilégié pour la faune marine et les oiseaux pélagiques, notamment le puffin cendré qui fréquente les eaux côtières, concluant un parcours où la force brute du volcanisme rencontre la fragilité des biotopes côtiers canariens."
+      },
+      {
+        title: "Perspective lointaine sur le stratovolcan du Teide",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPYasMSLVS2iznMXZJ_C76h-Ffm9OtHLmfL1WZsiZxRh_8CxQ3cP0GSlf7ICu_NCiWwiawwwq6fi_agZGngFBPrxwr4Vnt-VYDPaVVQZ2GsGO73YyfoxqUj52_ExteDcKM9XLn_7GQRgd6YpTm2tDADAA=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "Vue sur le toit de Tenerife, le Teide."
+      }
+    ]
+  },
+  {
     id: "cabourg_ancien_casino",
     name: "Cabourg - Casino de Cabourg",
     country: "France",
