@@ -1,5 +1,114 @@
 const SPOTS_2 = [
   {
+    id: "tenerife_falaises_los_gigantes_plage_masca",
+    name: "Tenerife - Falaises de Los Gigantes & Plage de Masca (Acantilados de Los Gigantes y Playa de Masca)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 0,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "en_bateau",
+    era_group: "nature",
+    era_label: "Muraille d'Érosion Marine du Massif de Teno, Ravin de Masca & Criques de Sable Noir",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.28674,
+    lng: -16.86465,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOF0OQkVQFfMPq3LY-7vFeDmAIPTeZCCx5gXIADvPT3q_HxsN8Ob6R7Q90IjRT73Sjgwa-TifZNn-K09AB754XSf4UGTju-JEk_MQukfQfLbo_kluA1cK3s1jnJ7O1LWz_2oxsf_ruDGOwDLIRPlPj62Q=w1379-h919-s-no-gm?authuser=0",
+    description: "Le flanc occidental de l'île de Tenerife s'abîme dans les profondeurs océaniques à travers le spectacle tellurique grandiose des Acantilados de Los Gigantes, gigantesque rempart basaltique comptant parmi les falaises maritimes les plus hautes et impressionnantes d'Europe. Ces parois titanesques, qui s'élèvent de manière presque verticale entre trois cents et plus de six cents mètres au-dessus du ressac atlantique, constituent la bordure érodée du massif ancien de Teno, l'un des trois édifices volcaniques primitifs à l'origine de la formation de l'île au Miocène, il y a plus de sept millions d'années. Les strates superposées de laves denses, de brèches et de tufs pyroclastiques alternent avec un lacis serré de dykes volcaniques subverticaux, véritables colonnes vertébrales de magma refroidi ayant résisté à l'assaut séculaire des vagues. Autrefois surnommée la « Muraille de l'Enfer » (Muralla del Infierno) par les aborigènes guanches qui y voyaient le terme infranchissable du monde terrestre habité, cette côte sauvage conserve une inaccessibilité farouche qui a préservé un sanctuaire écologique d'une valeur inestimable, abritant d'importantes colonies d'oiseaux marins pélagiques rares tels que le balbuzard pêcheur insulaire et le pétrel de Bulwer.\n\nLa navigation au pied de cette forteresse minérale mène à l'échancrure spectaculaire de la plage de Masca (Playa de Masca), crique isolée de sable noir volcanique et de gros galets de basalte nichée à l'embouchure terminale des mythiques gorges de Masca (Barranco de Masca). Ce canyon vertigineux, entaillé sur plusieurs kilomètres par une érosion torrentielle acharnée depuis le village montagnard perché de Masca, débouche sur un décor minéral d'une verticalité saisissante où deux éperons rocheux noirs plongent directement dans des eaux turquoise cristallines d'une pureté absolue. Lieu traditionnel de refuge et de contrebande côtière durant les siècles passés, la crique dispose d'un ponton maritime rustique où s'organise l'embarquement des marcheurs après leur descente du canyon. Entre le bleu profond des fosses abyssales et les parois rocheuses monumentales qui bloquent l'horizon, le site procure une sensation d'isolement primitif absolu, illustrant la puissance souveraine du volcanisme insulaire canarien face à l'immensité océanique.",
+    visiter: "Une approche en vedette maritime ou en kayak de mer depuis le port de Los Gigantes offre la perspective la plus vertigineuse sur les six cents mètres de falaises basaltiques dressées au ras de l'eau. Le navire longe les différentes strates volcaniques et les grottes marines naturelles avant de faire escale dans la baie de Masca, où les visiteurs peuvent débarquer sur le ponton pour fouler le sable noir volcanique, contempler la gorge profonde s'enfonçant dans les montagnes de Teno et profiter d'une baignade vivifiante dans des eaux d'une limpidité exceptionnelle.",
+    link: "",
+    sections: [
+      {
+        title: "Structure géologique des falaises et sanctuaire ornithologique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOF0OQkVQFfMPq3LY-7vFeDmAIPTeZCCx5gXIADvPT3q_HxsN8Ob6R7Q90IjRT73Sjgwa-TifZNn-K09AB754XSf4UGTju-JEk_MQukfQfLbo_kluA1cK3s1jnJ7O1LWz_2oxsf_ruDGOwDLIRPlPj62Q=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOE-M8iPGOMOIMEcOTPlzGWDvdytK3vEMoTzpUNcl-G4e19DK2BouUJKfhwO00F2FabPTVvU9Qj79UOGIyeEQWezHqfEfCmJ5HUXAbe95ctJiGUSVpybFY5QzaMGDP5U96BEtFfqfaRmRaN1MNHoKJjsA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Les parois révèlent un empilement spectaculaire de coulées de lave successives, de niveaux de pyroclastes et d'un dense réseau de filons et dykes volcaniques subverticaux qui ont mieux résisté à l'érosion marine et éolienne. Ce rempart inaccessible offre également un biotope protégé pour une faune aviaire menacée, abritant notamment les aires de reproduction du rare balbuzard pêcheur (le guincho canarien), du faucon pèlerin et du pétrel de Bulwer."
+      },
+      {
+        title: "L'échancrure de la plage de Masca et l'embouchure du canyon",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNncREg-9dZkesDc0GoC9Au5xhLEjz0zQ1kOAY_eu517GY89vIREMFVDYAOSMEvj5FPOWJVjOIMMLUECThb8c8ux1N4nPIc2prgY9CNejF2z4hng4mHupT3ZPa_P17IQN73NUPIKDHXLl_pzaMwRVCJ7A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En poursuivant la navigation vers le nord-ouest le long des parois titanesques, le bateau oblique vers une échancrure spectaculaire de la côte où débouche la plage de Masca. Cette crique sauvage de galets et de sable noir volcanique marque l'embouchure terminale des vertigineuses gorges de Masca, canyon colossal creusé par des millénaires d'érosion torrentielle depuis le hameau perché de Masca jusqu'à l'océan. Encaissée entre deux éperons de lave sombre qui s'élancent vers le ciel, la plage est équipée d'un modeste ponton d'accostage où les navettes maritimes débarquent ou récupèrent les randonneurs ayant achevé la périlleuse descente de la gorge."
+      },
+      {
+        title: "Atmosphère de bout du monde et eaux cristallines",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNdgZIct6biAg71LFKf0c5mo7W0nguvfoWf3iIGhNpjOa1AUt5bfIQ2R7pIJ0rr1m10pXFasgAJp7l18aHe6p7RQ_0iFwFMcU_SUk6VWNQwT6rsJlV9mCpc22uU71gY6rkDJ05Z1Np7PrWOOpVzY5Dqpg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOxzXqQ6lcq6LCL2qJqmBP_7qqugY9LcBpFD4qg4wTNk8d_k7wQcYawE8ejQsDtr4n-akbzciOcTMH2AD7MU0BxnRA38OZRTewqsEFISu7Y6TFEzAI_rZHpGwFXBoyU_ZLA_NroM1_9-VexXkF78XwIkg=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'endroit, baigné par des eaux cristallines d'un bleu cobalt qui contrastent avec l'austérité minérale des falaises environnantes, offre une sensation d'isolement total et de bout du monde, dominé par le grondement continu du ressac marin se fracassant contre les dalles de lave polies par le courant."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNto6qZV4jhaAdHcxS6leFiStrrA2lAtKJBcXHOsuWVDhnnseNgJ-h4Cy-RmNwXiFSqpNWSe3Gjt8oGkZQQzdqaH0AIUYZVWcSOB3g4pSJ5vRX7XnD2HDnVqymLoaFVHyH9bNOWgIR0qq61hixQu1Y_Yw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMy1_GTxjjOYlqnRiCIRhMBdAHfcs742rTqV2-8KNbS4I0y7ClAPKpQzoB-4axu5GGffvaeiT5T9UUxh4iEJPXfEa8Q5umqt2bov1EU_ty7CehgzhKkXh83EcLpxZSa3ZFaRrhgnrEOUkxLpfACj6azHg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
+    id: "tenerife_observation_cetaces_los_gigantes",
+    name: "Tenerife - Sanctuaire Pélagique & Observation des Cétacés de Los Gigantes (Whale Watching)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Santiago del Teide",
+    altitude: 0,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "en_bateau",
+    era_group: "nature",
+    era_label: "Frange Marine Protégée Teno-Rasca, Globicéphales Tropicaux & Grands Dauphins",
+    century: "Temps géologique",
+    category: "parc_naturel",
+    counts: {},
+    lat: 28.24433,
+    lng: -16.87538,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOp0qZSLb1fArNHtMkrKyEeyzHKtn9osQJzyGHc_Id0Le-sfmDMdKslNkVEg7GMlO_QO57P4S9ux_T53JH-6uvVecWcFjjKkuMOXY0C6dNzhvbX56NcN2JMKzgt5cyK5pR9zn-Wtj0ogrUtp8yINgqpww=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMlBKgoMCmjPyma9kl79vEhvbIKp3r3CoX7pDdg9CbmXMbHUokPEBcNgfAUwE-YrC0DI0gBcC1z0GZSw0OilUFjOk-eLfjeC-Y2sOkaidxUCLjqhpd9cwmhMlOZY3H012wy8h-9g725A99WKkfVHy6hUw=w1379-h919-s-no-gm?authuser=0",
+        caption: "Le grand dauphin (Tursiops truncatus) est un cétacé odontocète cosmopolite mesurant entre deux et quatre mètres de long, immédiatement identifiable à son rostre court bien individualisé et à sa robe gris anthracite s'éclaircissant sur le ventre. Doté d'une grande intelligence sociale et d'une plasticité comportementale remarquable, il évolue en troupes coordonnées qui patrouillent aussi bien les zones côtières que les grands fonds pélagiques. Utilisant un biosonar sophistiqué pour repérer poissons et céphalopodes, il forme des populations sédentaires florissantes dans les eaux abritées des Canaries, où ses cabrioles et ses navigations dans le sillage des étraves témoignent de sa parfaite adaptation au milieu océanique insulaire."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNunH1_4QzvYaBhotB-F4sNPkB96NBxGfXBhym8Dbn6ROWFy9lgVWsTQCPueg172njaHdwYerfhnh8uV4I5lN1772h7vBpP3INI9cSAOw4Oa2RyRpkwfL1CetuCzufwUt8w7WC2uEAjQDgC7wzZsr3ebQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP-5G4I7joBu4YE1RX3tbRaw91BqMzTkzQPgU3OxwYSBrRpJKlHXDChBrwIoVmjtaeT605PNyC0vSgAhhOTmQ0Tz_VAbR7E7Xc3NFMqiczh3o4MRO4bdRSqDoTDUk7B29IUvSq7Iu8QdJp-vxzNCu_2bA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOkKDa_hvLSUDkgf6xMyEfWZWNKoDTczTIe-rFmizUopmtmbd0K_Xlahn-hqNfgOihHXY-TKeGH9ElZlkNqPZiIkQSW3Vc0pvz-lXLGeBUJedKVL-pDYG_pcnfbru89is-fEjFuwcLhdlkW4YbV2e44cQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "Le globicéphale tropical (Globicephala macrorhynchus), couramment appelé baleine pilote à nageoires courtes, frappe par sa livrée noir d'encre et sa tête globuleuse dominée par un proéminent melon frontal dépourvu de bec distinct. Mesurant jusqu'à six mètres pour les mâles, ce prédateur grégaire est organisé en groupes matrilinéaires soudés et hiérarchisés qui passent de longues périodes immobiles en surface pour réguler leur respiration. Véritable champion de l'apnée profonde, il plonge régulièrement à plus de mille mètres de profondeur dans les fosses du détroit canarien pour traquer les calmars océaniques à vive allure, constituant l'espèce sédentaire emblématique du sanctuaire marin de Los Gigantes."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOj8M88GLax-nxSqD2aJHY24P1C7PMwYkjCxGdqx1SNSvwGjEUB7XO3ZcnkJcsoULyCITJDNazTPfOhlqsMsd3mI8TXTaDbqJxoxEYHlFXsHKvMKCm-3TA65zXDEdvMluvQH5ncD-69LugioLoHO5xNog=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNU9r67Kdmp-36uMstmBznS9mD6fQ3BLsMAzyQoe3ZHi4h7E9wVtN3DJIuduk2avPbqJxigBmhAqUVqtX93pOBt7diVsFxLmveY5kH2lQ3bZS1wB9TI8-FDMuZK0K3pAdUk4a4qvtYreQZEPKxrlRuBNw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Le chenal océanique séparant la côte sud-ouest de Tenerife de l'île de La Gomera constitue l'un des sanctuaires pélagiques les plus réputés de la planète pour l'observation des mammifères marins dans leur environnement naturel. Protégée des fortes déferlantes et des alizés violents par le gigantesque bouclier montagneux du Teide et les falaises de Los Gigantes, cette vaste étendue d'eau calme bénéficie d'une bathymétrie vertigineuse où les fonds marins plongent brusquement à plus de mille cinq cents mètres de profondeur à moins de trois milles nautiques des côtes. Ce relief sous-marin colossal, combiné à la remontée d'eaux profondes riches en nutriments (upwelling), favorise une profusion exceptionnelle de calmars géants et de bancs de poissons pélagiques. La zone spéciale de conservation Teno-Rasca, officiellement intégrée au réseau européen Natura 2000 et reconnue comme le premier site patrimonial des baleines en Europe (Whale Heritage Site), abrite à l'année une colonie sédentaire exceptionnelle de plus de cinq cents globicéphales tropicaux et plusieurs centaines de grands dauphins.\n\nLes sorties d'observation menées au départ du port de Los Gigantes se déroulent dans le respect d'une charte environnementale stricte matérialisée par le pavillon « Barco Azul », garantissant une approche douce à vitesse réduite et à distance réglementaire pour ne pas perturber les groupes familiaux. Les navigateurs ont ainsi le privilège d'assister aux phases de repos en surface (« logging ») des globicéphales flottant paisiblement entre deux apnées abyssales, tandis que les grands dauphins s'élancent volontiers dans des poursuites acrobatiques à la proue des bateaux. Au-delà de ces deux espèces résidentes, le détroit voit défiler au gré des saisons migratoires une vingtaine d'autres espèces de cétacés fascinantes, parmi lesquelles le rorqual commun, le cachalot macrocéphale, le dauphin tacheté de l'Atlantique et le dauphin de Risso. Encadrée par la silhouette titanesque des falaises de basalte et le sommet conique du volcan Teide émergeant des brumes océaniques, cette rencontre marine offre une immersion inoubliable au cœur de la mégafaune atlantique.",
+    visiter: "L'excursion démarre aux pontons du port de plaisance de Los Gigantes à bord d'un catamaran ou d'un voilier agréé « Barco Azul », prenant immédiatement le large vers le chenal profond séparant Tenerife de La Gomera. Les passagers guettent l'apparition des dorsales courbées des globicéphales tropicaux et les souffles d'écume des dauphins évoluant en surface, guidés par les explications des biologistes marins du bord. La navigation se conclut généralement par une approche panoramique au ras des gigantesques falaises basaltiques et une pause baignade dans les eaux calmes de la baie de Masca avant de regagner la marina.",
+    link: ""
+  },
+  {
     id: "tenerife_port_de_los_gigantes",
     name: "Tenerife - Port de Plaisance de Los Gigantes (Puerto Deportivo Los Gigantes)",
     country: "Espagne",
