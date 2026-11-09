@@ -1,5 +1,79 @@
 const SPOTS_2 = [
   {
+    id: "tenerife_rando_volcan_arenas_negras",
+    name: "Tenerife - Randonnée du Volcan Arenas Negras (Volcán de Trevejo)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "El Tanque",
+    altitude: 1314,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cône Strombolien du Volcan de Trevejo, Éruption de 1706 & Pinède des Canaries (XVIIIe siècle)",
+    century: "XVIIIe siècle",
+    category: "rando",
+    counts: {},
+    lat: 28.31635,
+    lng: -16.76416,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP53dyJT_bmVhd8pDAFXMuCpIp1qR8HQ1v01U_mPwlAm1TmneBuki5LYRTdNDvjHvTrSYW6-gEqx0-4_nL24Lgy82iltkdt3SVqfmzp_EOjuNthJ_HwqXUX3huyj_qJeYjsWAyK5GFgHEPuls9Jn3eIyQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Culminant à plus de mille trois cents mètres d'altitude sur les contreforts occidentaux de la dorsale volcanique de Tenerife, le volcan Arenas Negras — également désigné sous le nom historique de volcan de Trevejo ou volcan de Garachico — constitue le théâtre de l'un des cataclysmes géologiques les plus célèbres et déterminants de l'histoire des Canaries. C'est de ce cône strombolien de scories ébène et de lapilli que jaillirent, le 5 mai 1706, les fontaines de magma incandescent et les titanesques fleuves de lave basaltique qui dévalèrent les pentes septentrionales de l'île pendant près de quarante jours. Cette éruption historique détruisit entièrement les vignobles prospères, les couvents et la rade fortifiée de Garachico, anéantissant le premier port marchand et le cœur économique de Tenerife au XVIIIe siècle, tout en façonnant une nouvelle plate-forme littorale de roche noire arrachée à l'océan Atlantique.\n\nAujourd'hui paisible et classé au sein du vaste Parc naturel de la Corona Forestal, le site d'Arenas Negras offre l'un des circuits de randonnée volcanique les plus saisissants de l'archipel, associant une géologie tourmentée à la majesté végétale de la haute montagne insulaire. Au départ du hameau traditionnel de San José de Los Llanos, le sentier s'élève sous le couvert séculaire d'une somptueuse forêt de pins des Canaries (Pinus canariensis), arbre pyrophyte remarquable dont les aiguilles vert tendre créent un contraste chromatique éclatant avec la noirceur austère des sables volcaniques (picón) et des champs de lave chaotiques (malpaís). Entre dalles scoriacées aux arêtes vives, clairières sableuses et belvédères naturels ouvrant sur la cime colossale du pic du Teide d'un côté et sur les falaises plongeant vers l'océan de l'autre, ce parcours d'altitude invite à une immersion contemplative au cœur des forces telluriques qui ont sculpté l'âme de Tenerife.",
+    intro_page: "Accroché aux crêtes forestières de Tenerife à plus de mille trois cents mètres d'altitude, le volcan Arenas Negras — ou volcan de Trevejo — demeure l'un des hauts lieux de l'histoire tellurique des Canaries. Son éruption cataclysmique du 5 mai 1706 déversa des millions de mètres cubes de lave basaltique jusqu'à la côte, anéantissant le port marchand florissant de Garachico et redessinant à jamais la géographie du littoral septentrional. Aujourd'hui traversé par un sentier de randonnée emblématique au cœur du Parc naturel de la Corona Forestal, ce cône de scories sombres s'élève au milieu d'une magnifique pinède canarienne aux aiguilles lumineuses tranchant sur les sables noirs volcaniques. Entre paysages lunaires de malpaís pétrifiés, vue imprenable sur la cime majestueuse du Teide et plongée vertigineuse vers l'Atlantique, ce circuit de haute montagne offre une fascinante traversée au cœur de la renaissance végétale et de la mémoire volcanique de l'île.",
+    visiter: "Au départ du village de San José de Los Llanos, s'engager sur la piste forestière montant à travers les terrasses agricoles avant de pénétrer sous les hautes frondaisons de la pinède canarienne de la Corona Forestal. Suivre le sentier tapissé d'aiguilles rousses et de sables volcaniques noirs pour gravir les flancs du cône strombolien d'Arenas Negras et contempler le champ de malpaís issu de l'éruption destructrice de 1706. Traverser ensuite la clairière sablonneuse de la zone récréative pour admirer la perspective sur le cône du Teide avant de redescendre en boucle face au panorama grandiose embrassant Garachico et l'océan Atlantique.",
+    link: "",
+    sections: [
+      {
+        title: "Départ de San José de Los Llanos et lisière forestière d'altitude",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP53dyJT_bmVhd8pDAFXMuCpIp1qR8HQ1v01U_mPwlAm1TmneBuki5LYRTdNDvjHvTrSYW6-gEqx0-4_nL24Lgy82iltkdt3SVqfmzp_EOjuNthJ_HwqXUX3huyj_qJeYjsWAyK5GFgHEPuls9Jn3eIyQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOCRKFZVO8ua8WdGCQQYSw58MzKnFBdhE-8DGJcnfSmPPvumiqc2ZNqhcFMoE3ZDSSilEa_hsukMLsFhdTKlkH-oSvArLVJ5p4WnknAAodpp4LKUuaiRhRmDDlSvjQEIC3rlMWUwER7AF4eApnQzAv7Ow=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le départ de cet itinéraire volcanique s'effectue depuis le paisible hameau rural de San José de Los Llanos, perché à plus de mille mètres d'altitude sur les hauteurs de la commune d'El Tanque. Ancien carrefour pastoral et agricole de la comarque d'Icod Daute, le village marque la transition géographique entre les terrasses cultivées traditionnelles du versant nord et les vastes espaces forestiers préservés des crêtes. En s'éloignant des dernières habitations de pierre volcanique, la piste caillouteuse s'élève doucement vers le sud-est en direction des hauts reliefs, franchissant rapidement la lisière pour s'enfoncer sous le couvert protecteur de la haute montagne insulaire."
+      },
+      {
+        title: "Immersion dans la pinède canarienne du Parc naturel de la Corona Forestal",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOiZQrlJ3KWZCdgWTQLekqqOJEMEeJ8wPn6yJTXE9qpABABiSx6SEfFhhvs5cD7a0YC6_9kc2r-Nri9dDKlkBF8gtlZyepQAZ7CtivBiG6-sIDjU01PepmyejUYSm2_40GqHiwhqxu5tcoPemqV7upgCw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNGqWvZHoJAORZKZJK2uDr23TBdocJFIi_xVe72k5LVU-U6bQFhOcFwk5QsF9Ve5UZPPrVfzESROVb59CqJ1-eMscFLELdeJ1o0-9qz3_iwOO8lnz0ydb7r2NzqAoU9bOO6e6ZwppO_WeNZAq2WBjcmog=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le sentier pénètre alors au cœur du Corona Forestal Natural Park, le plus vaste espace naturel protégé de l'archipel, dominé par une somptueuse forêt de pins des Canaries (Pinus canariensis). Le sol est tapissé d'un épais tapis d'aiguilles rousses (pinocha) et de sables volcaniques sombres (picón), amortissant le pas dans un silence ouaté que seul interrompt le bruissement du vent dans les hautes frondaisons. Cette essence endémique présente une extraordinaire résilience pyrophyte : son écorce écailleuse épaisse et sa capacité à rejeter directement depuis le tronc lui permettent de survivre aux incendies de forêt récurrents et aux ardeurs du volcanisme. Au sous-bois clairsemé s'associent le ciste de Montpellier, le thym volcanique et des touffes éparses de bruyères arborescentes annonçant les zones de condensation de la mer de nuages, créant un contraste saisissant entre le vert tendre et lumineux des aiguilles triples et la noirceur austère du substrat géologique."
+      },
+      {
+        title: "Approche du cône strombolien du volcan Arenas Negras (Trevejo)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPhX8cuoS8oZZA2W6kR8bRdwqvyrhA0lAeB9s2B2gNl5csqH-HXH_065MQa8K6SJ2CkVtDk8Zg0u-9gIakEHw9Z7n2VW0smPPRJwMDA1WguN5JUbi6smLAFyB71IeJEfEg9yY0DOrtabX5SPyTlZfyhsg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMLUeNSEPznTtZYTbLpETUvT9g95tJQYNBiAKM4LK5r4I9s1YMGx67kdCCZGsvGAPAH4Zy7ZCepVKbSy10sRuwC7-z_SecEtWCMeOI8p6Eb5EcQLn-S1clHxQzcTpcH1syI5Nah-IkxOZk7sw6yYsrkDw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "À mesure que la pente se raidit, la végétation s'éclaircit pour laisser place à un paysage minéral d'une puissance saisissante en approchant du cône du volcan Arenas Negras, également connu sous le nom historique de volcan de Trevejo ou volcan de Garachico. C'est de cette bouche éruptive que jaillirent, le 5 mai 1706, les fontaines de lave et les coulées pyroclastiques dévastatrices qui scellèrent le destin de la région."
+      },
+      {
+        title: "Les champs de lave chaotique (malpaís) et la mémoire de l'éruption de 1706",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMIMFDoowdV9jyUvRCwzrHSxWGcS2MZR2-OS3Qe-DCK_K0aCfB2c4mbRg4How4kYOVPZ6Q-cxIrp3eb1RJYhasdO9nW0dPFAPB6F9odIQfi0JTdDjVGd3nM_RIw8lOeOTYWjFe_cRr0nbKSyNnpa7vZ3A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Pendant près de quarante jours, des millions de mètres cubes de basalte incandescent dévalèrent la pente abrupte sur plus de six kilomètres, anéantissant les vignobles prospères, les couvents et la rade fortifiée de Garachico, alors premier port marchand et poumon économique de l'île. Le sentier serpente aujourd'hui sur le flanc de ce cône strombolien de scories ébène et de bombes volcaniques, contournant les champs de lave chaotique (malpaís) pétrifiés en blocs scoriacés aux arêtes vives, où la colonisation pionnière des lichens blanchâtres (Stereocaulon vesuvianum) entame patiemment son œuvre millénaire de pédogenèse."
+      },
+      {
+        title: "Plateau de la zone récréative et belvédères sur le Teide et l'Atlantique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOBe-OOwVxU8uw8EcgtF55PPg3thpdlmtc7ZbT52hDJEH2TKIUC7EN8bhpYh7GSzuBWTPBruJhByCmknhoHzO2gVFbftnVmXS1YaRHfpnDfdvB6yarUqjr8IjCdabqwbwVgkYIZs4f6ZkVm7iJk84_-jg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMLS0B4TFosFqKhCYb73XARF4IVtG7X4rWgqgsD_RhYkwCYmW28ImXlGjaN35ITBEwIRyQh3aEXxgid5zRAXe56FiDLeItNfyfTQzotH7MqPumdH1RCs9TMx9WaNoYW0dbLurm_5LvVj4jrtFsEsM6WdQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le parcours en boucle gagne ensuite le vaste plateau ensablé qui accueille la zone récréative d'Arenas Negras, clairière monumentale aménagée sous de grands pins séculaires au pied des langues de lave figées. En contournant le cône par les pistes forestières supérieures, l'itinéraire offre des percées visuelles grandioses : vers le sud émerge la silhouette colossale du pic du Teide se détachant sur l'azur, tandis qu'au nord, le regard plonge vertigineusement par-dessus les falaises côtières vers l'océan Atlantique et la langue de basalte noir qui forme la plate-forme actuelle de Garachico."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMNf8eLikKFcKhxjdM0F8wKVeSaRUOvS_IWZ1aMMM2LiS9kn0eyerU4PNLfG-f8akoE1LBlb23Av3sugJDfKaOC-J0My8ihj85TYMeP7rXe4X54pk-9u3U-NPtk2SetMchPO7Lq1XEyf9AZDyfXNtji3Q=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
     id: "garachico_casa_mara_mirador_cote",
     name: "Garachico - Casa Mara & Mirador sur la Côte (Las Cruces - Acantilados de La Culata)",
     country: "Espagne",
