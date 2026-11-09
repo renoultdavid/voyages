@@ -1,5 +1,52 @@
 const SPOTS_2 = [
   {
+    id: "beuvron_en_auge_village_pans_de_bois",
+    name: "Beuvron-en-Auge - Village Historique & Maisons à Pans de Bois",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Normandie",
+    department: "Calvados",
+    subdiv: "Beuvron-en-Auge",
+    altitude: 10,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Joyau du Pays d'Auge, Maisons à Pan de Bois & Halles Marchandes (XVIe-XVIIIe siècle)",
+    century: "XVIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.18787,
+    lng: -0.04608,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMbjofrrJ0mLhEMC0k_JKLl5sIg9I32Qsgaw2dGXWOVjZ_LdaqfrEG6OnvqvLxTaNZ0Av4cvMG7ieiYC1YfO9VhiDLo-f65hso4RMxQW0_Qf3WyXFbnDKLnM7xEdzIrm2Q6BE1-kobfR4kha0qVzkyiQg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMU6klyF0SuxsXbL0Un-CvIysSgjQRzgieqmAYvYf9iHGhlEmfBG2Kkxn_IIcbhLeHatGg94i_lJpFR_wpiRciXieioxbakaH-AIcNOd0v1TSbM-Qjfd3XF8Cu4ITVWT0k3TtJXmTfrymrvWogNx2c0OA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMMUHgFlDtd4zVGfe4XJeBd_fhZtxwV-ID84UcW35qrNeAqNGNv7caAL5NcAxoZXLcnip7jfG2ZAujRa69G1aJNSzjf-ltLAaiTQ3d1SSehG3X1YfvuG9hg4ejxZgxaBiaeLwIvIj3OuPYNdbCgjCsUGQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNYtOMDYaKO7SKixgY6H-vaMRCyJpbjyd2eHP4_fzh1npJUyO7f-R3lhRkAvibkJ1U3BGqhK13wmOFkSVg0RoB1h_DM7DozqL1v2IzuFHITu1QvQmQeP5bgTo6_LjG9cBnFGxGI_dP0OJBqN-ZC38vIVA=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPAMQIAc77od16o2KJI6FdzlyGbld_cK0j9awBXRDSuzTjKvCxagOYQUarq33Rcry7oCBwM68WXQFBaWzTacGxg6i39tT3Zxp-Vl4Ce1GbnsFIE8LIKw7MNgJmrCvV_5xw8me6dUlmV1OfvYgxp33lidg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMcSAbDJsa0pj0N1lxORcI-JMNypnq0BLVzLCX5LuowCKe0PpRb9aIkOopf5828mEzCxhcPmpoTviZf9Ue8uHDQg2qyeg8_XpTpZQPnPSAw4YfdWoHxFg7FD9MPQLSAQQWamFw4hhNnOpKDtdMwYlYvog=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Au creux des vallons bocagers du Pays d'Auge, bordé de vergers de pommiers et d'herbages verdoyants où paissent les chevaux, Beuvron-en-Auge incarne la quintessence du village traditionnel normand. Ancien fief de la puissante famille féodale d'Harcourt qui régna sur les terres environnantes dès le XIe siècle, le bourg s'est structuré le long de son artère marchande principale pour devenir une plaque tournante agricole réputée pour ses foires aux toiles, au bétail et aux produits cidricoles. Son harmonie visuelle exceptionnelle repose sur la préservation remarquable d'un ensemble de maisons à pans de bois s'échelonnant du XVIe au XVIIIe siècle. Ces bâtisses utilisent avec virtuosité la technique de l'ossature en colombages de chêne hourdée de torchis ou de briques de Saint-Jean posées en épis, reposant sur un solin protecteur en silex et grès local pour isoler la charpente de l'humidité des marais environnants. Les toitures pentues en tuiles de terre cuite brune, animées de lucarnes ouvragées, confèrent à la perspective du bourg un rythme architectural pittoresque qui a valu à la commune son classement parmi Les Plus Beaux Villages de France.\n\nLe cœur de la cité bat autour de sa grande place centrale, dominée par les halles marchandes en charpente de bois traditionnellement reconstruites dans les années 1970 avec des matériaux anciens pour restaurer l'esprit commerçant du siècle passé. Parmi les chefs-d'œuvre du patrimoine civil local se distingue l'imposant manoir du XVIe siècle, classé monument historique, dont les sablières sculptées et les corbeaux anthropomorphes témoignent du raffinement de la petite noblesse augeronne de la Renaissance. Menacé d'un déclin inexorable au milieu du XXe siècle en raison de l'exode rural, Beuvron-en-Auge a bénéficié d'un ambitieux programme pionnier de sauvetage patrimonial initié par ses élus et ses habitants, qui ont restauré les enduits à la chaux, enfoui les réseaux aériens et banni les matières modernes au profit d'un fleurissement généreux de rosiers grimpants et de géraniums. Étape incontournable de la célèbre Route du Cidre, le bourg abrite aujourd'hui de nombreuses échoppes d'antiquaires, des ateliers d'artisanat d'art et des distilleries familiales perpétuant l'excellence des savoir-faire normands du calvados et du pommeau.",
+    visiter: "Une déambulation sur la place Michel-Vermeulen invite à contempler l'alignement des façades à colombages colorés et le dessin géométrique des hourdis en briques rouges avant de pénétrer sous la charpente apparente des halles pour découvrir les produits du terroir augeron. La promenade se prolonge le long de l'avenue de la Gare et de la rue principale afin de repérer les détails sculptés du manoir du XVIe siècle, les lucarnes à fronton de bois et les anciennes devantures d'artisans ornées d'enseignes en fer forgé. Les visiteurs s'accordent ensuite une halte gourmande pour déguster fromages d'appellation et nectars de pomme dans les cours fleuries bordant le ruisseau du Doigt.",
+    link: ""
+  },
+  {
     id: "corte_rando_pont_russulinu_gorges_tavignano",
     name: "Corte - Randonnée des Gorges du Tavignano & Pont de Russulinu (Ponte di u Russulinu)",
     country: "France",
