@@ -66,6 +66,7 @@ const SPOTS_2 = [
       }
     ]
   },
+  {
     id: "beuvron_en_auge_village_pans_de_bois",
     name: "Beuvron-en-Auge - Village Historique & Maisons à Pans de Bois",
     country: "France",
