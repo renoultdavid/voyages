@@ -1,5 +1,166 @@
 const SPOTS_2 = [
   {
+    id: "paris_grands_magasins_printemps_lafayette",
+    name: "Paris - Grands Magasins : Printemps Haussmann & Galeries Lafayette",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Île-de-France",
+    department: "Paris",
+    subdiv: "Paris",
+    altitude: 48,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Temples Commerciaux de la Belle Époque, Coupoles Art Nouveau & Verrières (XIXe-XXe siècle)",
+    century: "XIXe siècle",
+    category: "star",
+    counts: {},
+    lat: 48.87347,
+    lng: 2.33152,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMaZxNMpdYWsdEAWkw_2-QrCZ8wfq1fnDSSZR31g5pjD662UMy2ODfGFl6ClwTAHnI-Tbv5Ek34SnNQKCp1KAOJQpxBJTqYz8HH_O-1cMc4SX8diENZy2u_X3tley0cnn05LbyoiTchfehe6-d0nmCnRg=w1373-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM5eNBh1VgCH4iOcjnXyI5mv5TAwpAyC9boOqBpwp-uHWlqZtiUwGx2L4MXBQ7lXwEwoGzHdJSx-WVNbJjP74BdqRw8MRdGlDFP5POfCA50z8B2GIrORAdRii6_g9s4PaGiCIE1-6BUWFe0kUBzalq9iw=w1373-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOOL1Cs_BG_aWYp2B1flmlflsgJw5p08Ok8A2kAxYVnsumojww1VcuZIPNiFV1PYhOatdOOXx5l9vpVVfMf2a1t-Tunn1Qvbx4fQnaqkYF3TFt406SEx3KCuOYlVXGEcq0qbfmkcKBqWw0iVsWNFcKTeA=w1373-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNHr7ioPqFqAVketMRZSaOhz7iYx_1LWM9lvd182U64GvA1ho0re9H_wjRBrlGzWeMUhb-GZ3YySrRkjdZeU0yvVroBWpgZbQH5_3I33SxRPch4htad2PvYM_XBaz24TfrrhshlVskg-SVrItumR_lp8A=w1373-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM8wHtMhTgQE-9ivXuAp0uduCTj-gav4hDx1daA5VtkBAzk1Icn2lV_wznZlT4V20WqGigBnqeJIW-f610jCXPPrlOIY2S2tuBwhIpUralF_JfYjrmfo2DYsv4f2RTywwGlJC7UV_tOruwJ89CTE6opmA=w1373-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMn2I5nhcYGWnGHX6xN9J8uliNINwOT8-CsK5S1FN79WZ0DcvHMKP0VWf70nyzDlKnOVCPkFGx0RkywNhmOtZabN9Xh0eLcZiZwXOmGssKeNPr7QctEPdMG6BP46Qyrfq1hoqhErGkumQJpTDAS-zyKyw=w476-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNzmpW1FMGQ359_M4IgYvi53ZhVTllCYriav2FE-MDs_UUVc90_krO26a0-Kq03ymA5XWFD_M78MguymopMLv1zYkhP4m6hriALlrTz3O9XGff2-G2_TtetiD6ypb3S5OU8OOFMY39M33S28vvNdXDmrw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPQLvGGNGGUejYTFCsg6apBvW0aW6dTolx_Zzk43fcnMqb9jXXyawjTnH1IYRFRcdJfv-ID9sTnU3Az2c8nKUJ3VhzwmAyhipi6hAdsbWQ9VZ31zFUcV6PXnY0zSixn4-Ea0rIkNnbA5AI1IVQz6wnvBw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Le long du boulevard Haussmann, au pied de l'Opéra Garnier, s'étire l'enfilade majestueuse des Grands Magasins parisiens, théâtres monumentaux de l'essor du commerce moderne et vitrines internationales de l'élégance française. C'est en 1865 que Jules Jaluzot fonde le Printemps, confiant à Paul Sédille la reconstruction d'un édifice révolutionnaire en 1881 combinant charpente de fer apparente, mosaïques polychromes et monumentales rotondes d'angle couronnées de coupoles dorées. Quelques mètres plus loin, Alphonse Kahn et Théophile Bader ouvrent en 1893 les Galeries Lafayette, transformées dès 1912 par l'architecte Ferdinand Chanut en un véritable bazar de luxe néo-byzantin. Ces temples de la consommation théorisés par Émile Zola dans « Au Bonheur des Dames » ont bouleversé les habitudes d'achat en introduisant le prix fixe affiché, l'entrée libre sans obligation d'achat, le retour des marchandises et la mise en scène féerique de la mode dans des espaces baignés de clarté zénithale.\n\nLe prodige architectural de ces édifices repose sur leurs coupoles en vitrail, chefs-d'œuvre absolus de l'Art nouveau et des arts décoratifs parisiens. Les Galeries Lafayette s'articulent autour d'un vertigineux hall circulaire couronné à quarante-trois mètres de hauteur par une coupole de verre polychrome conçue par le maître verrier Jacques Grüber, dont les dix tranches d'ogives métalliques aux motifs floraux irradient sur les balcons sculptés par Louis Majorelle. De son côté, le Printemps conserve sa spectaculaire coupole en mosaïque de verre créée en 1923 par René Binet, déposée puis sauvée des bombardements durant la Seconde Guerre mondiale avant d'être patiemment remontée sous le dôme central. Dotés de terrasses panoramiques suspendues offrant un panorama saisissant sur l'Opéra, la tour Eiffel et Montmartre, ces deux monstres sacrés de la vie parisienne continuent de rythmer l'effervescence de la capitale, alliant l'héritage technique des charpentes métalliques du XIXe siècle aux fastes de la création contemporaine.",
+    visiter: "Une promenade le long du boulevard Haussmann invite à contempler les façades sculptées rythmées de cariatides et de mosaïques dorées avant de pénétrer sous les rotondes d'accueil. L'expérience se poursuit sous la monumentale coupole Art nouveau des Galeries Lafayette, où la passerelle de verre suspendue au-dessus du vide procure une sensation d'envol féerique au milieu des balcons de Majorelle. Les promeneurs rejoignent ensuite le Printemps pour admirer les jeux de lumière sous la coupole vitrée de René Binet, avant de gravir les escaliers mécaniques menant aux toits-terrasses accessibles au public, belvédères exceptionnels pour photographier la silhouette de l'Opéra Garnier et le ciel de Paris.",
+    link: ""
+  },
+  {
+    id: "paris_pont_neuf",
+    name: "Paris - Pont Neuf (Île de la Cité)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Île-de-France",
+    department: "Paris",
+    subdiv: "Paris",
+    altitude: 37,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Doyen des Franchissements de la Seine, Mascarons Sculptés & Henri IV (1578-1607)",
+    century: "XVIIe siècle",
+    category: "pont",
+    counts: { pont: 1 },
+    lat: 48.85767,
+    lng: 2.34185,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMYpbj5uS7AZMUSmG-P4nGK05ellCW3IuHJw9X4bzGpiS0tYfkuu7nZOI9SrWrf1EBkTUmgVgCUU_IbJ2nqCTa_bI3vIPBtyZL0KrG7Of4oXyH3f4nAZt2zk_0-uJDRjk_y31BN6lodtMBoHGvu2PbDiQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Enjambant les deux bras de la Seine à la pointe occidentale de l'île de la Cité, le Pont Neuf détient le prestigieux privilège d'être le plus ancien pont en pierre subsistant de la capitale. La pose de sa première pierre par le roi Henri III le 31 mai 1578 intervient en pleines guerres de Religion, mais les désordres politiques et civils retardent son achèvement jusqu'à son inauguration solennelle en 1607 par Henri IV, qui le traverse sur un destrier blanc. L'ouvrage rompt de manière révolutionnaire avec les traditions médiévales : il s'agit du tout premier franchissement parisien entièrement bâti en maçonnerie de pierre sans être encombré d'habitations ou d'échoppes de marchands, ouvrant enfin le regard des promeneurs sur le cours libre du fleuve et le panorama du Louvre. Long de deux cent trente-deux mètres, il se compose de douze arches en plein cintre réparties en deux volées distinctes reposant sur de puissantes piles dotées d'avant-becs triangulaires coiffés de demi-lunes en encorbellement.\n\nLe décor sculptural de l'ouvrage constitue l'un des ensembles lapidaires majeurs de la Renaissance tardive française. Les corniches extérieures sont rythmées par trois cent quatre-vingt-un mascarons grotesques en calcaire sculptés par l'atelier de Germain Pilon, figurant têtes de satyres, divinités champêtres, faunes grimaçants et figures grotesques dont aucune n'est rigoureusement identique à sa voisine. Équipé des tout premiers trottoirs piétonniers surélevés de Paris destinés à protéger les passants de la boue et des carrosses, le pont devint au XVIIe siècle le cœur du tumulte parisien, envahi par les arracheurs de dents, les bateleurs, les marchands de gravures et les théâtres de tréteaux de Tabarin. Le terre-plein central accueillit en 1614 la première statue équestre royale installée sur l'espace public en France, dédiée à Henri IV, détruite à la Révolution puis recréée sous la Restauration en 1818 grâce à une souscription nationale en fondant la statue de Napoléon de la colonne Vendôme.",
+    visiter: "Une traversée à pied du tablier pavé depuis la rive droite vers la rive gauche permet de faire une halte dans les demi-lunes en encorbellement pour contempler la perspective monumentale sur le pont des Arts et l'Institut de France. Les promeneurs descendent par l'escalier situé derrière la statue équestre du Vert-Galant pour rejoindre le square triangulaire de la pointe de l'île de la Cité, d'où l'on observe d'en bas l'enfilade des arcs en plein cintre et l'extraordinaire variété expressive des mascarons sculptés sous la corniche.",
+    link: ""
+  },
+  {
+    id: "paris_cathedrale_notre_dame",
+    name: "Paris - Cathédrale Notre-Dame de Paris (Île de la Cité)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Île-de-France",
+    department: "Paris",
+    subdiv: "Paris",
+    altitude: 42,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Joyau du Premier Art Gothique, Rose Nord Rayonnante & Flèche Restaurée (XIIe-XIXe siècle)",
+    century: "XIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 42.85331,
+    lng: 2.34928,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPmhPDwBijf3oFsFPAPwSuaWBf0h4O0IhncI5FdWLFIfQfwmyCa6BV3HP6T83_X00W7KjDjtCHcqUorT44ij-6U63DNcYMpKHkEfyqjoib4rhWCgxVonPNvaMqsCu3HFVrY3O2JijTMYgrKbcXqamrpcQ=w1373-h919-s-no-gm?authuser=0",
+    description: "Ancrée au berceau de l'île de la Cité au cœur géographique et spirituel de Paris, la cathédrale Notre-Dame s'impose comme le chef-d'œuvre universel du premier art gothique et le témoin magistral de huit siècles d'histoire de France. Lancée en 1163 par l'évêque Maurice de Sully avec le soutien du roi Louis VII, sa construction s'échelonna sur près de deux siècles pour s'achever vers 1345, mobilisant des générations de maîtres d'œuvre anonymes qui inventèrent les solutions techniques les plus novatrices de leur temps, au premier rang desquelles les arcs-boutants audacieux à double volée franchissant d'un seul jet les collatéraux pour épauler la voûte centrale. Théâtre du sacre de Napoléon Ier en 1804, sauvée de la ruine au XIXe siècle par la ferveur populaire née du roman visionnaire de Victor Hugo, elle connut entre 1844 et 1864 une restauration monumentale menée par Eugène Viollet-le-Duc qui recréa la Galerie des Rois décapitée sous la Terreur et érigea sa célèbre flèche culminant à quatre-vingt-seize mètres.\n\nLe monument a surmonté avec une résilience héroïque l'épreuve du dramatique incendie du 15 avril 2019, dont les images de la flèche s'effondrant dans un brasier de braises émurent la planète entière sans parvenir à faire fléchir la solidité de sa nef en calcaire lutétien. Un chantier de reconstruction et de restauration sans précédent dans l'histoire moderne a permis de reconstruire à l'identique la charpente de chêne massif dite « la forêt », d'ériger de nouveau la flèche de Viollet-le-Duc et de nettoyer la blondeur originelle de ses voûtes sexpartites hautes de trente-cinq mètres. Sa façade harmonique occidentale, scannée de trois portails sculptés dont le grandiose Jugement Dernier, abrite la prestigieuse Rose Nord rayonnante du XIIIe siècle restée miraculeusement intacte avec ses verres bleu cobalt, perpétuant à nouveau l'accueil des fidèles et des voyageurs du monde entier au cœur de la capitale.",
+    visiter: "La découverte débute sur le parvis Jean-Paul II en cherchant au sol la dalle de bronze marquant le point zéro des routes de France, avant de contempler l'équilibre parfait de la façade occidentale tripartite et la frise des vingt-huit statues colossales de la Galerie des Rois. Le franchissement du portail central permet de s'engager sous les voûtes de pierre calcaire blonde de la nef pour admirer le déploiement de la double rangée de collatéraux et la verticalité du vaisseau central. Le parcours mène au transept pour s'arrêter en contemplation devant les reflets bleutés légendaires de la Rose Nord de Jean de Chelles, avant de contourner le chevet par le square Jean-XXIII pour détailler l'envolée arachnéenne des arcs-boutants et la silhouette restaurée de la flèche.",
+    link: "",
+    sections: [
+      {
+        title: "Façade occidentale, travées harmoniques et galerie des chimères",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPmhPDwBijf3oFsFPAPwSuaWBf0h4O0IhncI5FdWLFIfQfwmyCa6BV3HP6T83_X00W7KjDjtCHcqUorT44ij-6U63DNcYMpKHkEfyqjoib4rhWCgxVonPNvaMqsCu3HFVrY3O2JijTMYgrKbcXqamrpcQ=w1373-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMTCU_7T22yP_tFfZYXj6BdrDjWr-eM6G-KT0Fg3mEg2_ciP7PlI1CtVoXBrcqrwmnydbvgK3Eiox_ReJkmj_OaeJyuarf-7WlyWYB9uQ2WoCW8C3RKeb2-frWjWRtaqLl4pCxbs4ADF46Onuu0_1awDA=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "La structure se divise en trois travées verticales scandées par quatre puissants contreforts étagés, que coupent deux bandes horizontales majeures créant une balance idéale entre l'élan ascensionnel et la stabilité terrestre.\n\nLe premier niveau s'ouvre sur les trois célèbres portails sculptés, surmontés par la frise continue de la Galerie des Rois, où s'alignent les vingt-huit statues colossales des souverains de Juda et d'Israël, ancêtres bibliques du Christ et figures tutélaires de la royauté chrétienne, détruites à la Révolution puis recréées au XIXe siècle par les sculpteurs réunis autour d'Eugène Viollet-le-Duc. L'étage intermédiaire s'articule autour de la majestueuse rosace occidentale de près de dix mètres de diamètre, véritable nimbe de pierre et de vitrail au centre duquel trône la Vierge à l'Enfant encadrée de deux anges, flanquée de part et d'autre par deux hautes baies géminées en tiers-point percées sous les tours. Au-dessus se déploie la galerie ajourée dite des chimères, délicate colonnade continue reliant les deux beffrois, peuplée de gargouilles d'évacuation et de créatures fantastiques néogothiques qui scrutent la cité, affirmant la vocation de Notre-Dame comme phare spirituel et monumental de la chrétienté occidentale."
+      },
+      {
+        title: "La Galerie des Rois de Juda et d'Israël",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNH36sLbH_PphNOErxXUmaxdaV8Okyg7eSCShlP5s5izwTegp-l5Rq0JWzVBiNKod-dmJTqQvMhF-sJkv_5S4aSn-Bpa1uiV3U7pWiKfKXnfpbwDnJAJ_BCm8gZOkgWtrseFCppaNLvwV7ECpHLqy_UsA=w1373-h919-s-no-gm?authuser=0"
+        ],
+        text: "La galerie des Rois forme une imposante frise horizontale de calcaire qui scande la façade sur toute sa largeur. Cet alignement majestueux réunit vingt-huit statues colossales hautes de plus de trois mètres, figurant la lignée biblique des rois de Juda et d'Israël, ancêtres de la Vierge et du Christ, tout en incarnant dans la théologie politique capétienne la sacralité de la monarchie chrétienne. Confondus à tort avec les souverains de France par les foules révolutionnaires en 1793, les originaux furent précipités sur le parvis et décapités avant d'être dispersés ou enfouis. L'ensemble visible aujourd'hui résulte de la vaste campagne de restauration menée au milieu du XIXe siècle par Eugène Viollet-le-Duc et Jean-Baptiste Lassus, dont l'atelier de sculpteurs, dirigé notamment par Geoffroy-Dechaume, a patiemment restitué les effigies royales vêtues de tuniques antiques et tenant le sceptre ou le phylactère."
+      },
+      {
+        title: "Le portail du Jugement Dernier et la pesée des âmes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOqgKQuU7qy3AiIg0mdeUjX2ikPEV3VmR4qgGIBoUTi_mUDDQI2mQcOzE2QwmnowcB4_8zSf45RHSntPjXIgMzrdTqwPLcpxZuL0wME5BsXyMLSHi1C8Ao7h6g9vVIGOynRAPfJzGTdh9pgHa_Y0_b0Tg=w1373-h919-s-no-gm?authuser=0"
+        ],
+        text: "Cette œuvre magistrale constitue le tympan du portail central de la façade occidentale. Sculpté aux alentours de 1220, ce bas-relief en calcaire s'inscrit dans l'apogée de l'art gothique classique. Il illustre le thème du Jugement Dernier, un sujet théologique central au Moyen Âge destiné à instruire les fidèles sur le salut de l'âme et la fin des temps.\n\nLa composition s'organise sur trois registres superposés qui se lisent de bas en haut. Au niveau inférieur, on observe la scène de la résurrection des morts : réveillés par le son des trompettes angéliques, les défunts sortent de leurs tombeaux, symbolisant l'égalité de tous devant Dieu. Le registre médian présente la pesée des âmes, où l'archange saint Michel dispute une balance à un démon, tandis que les élus sont conduits vers le paradis à gauche et les damnés entraînés vers l'enfer à droite.\n\nLe sommet de la composition, appelé le fronton, est dominé par la figure imposante du Christ en Majesté. Il siège en juge suprême, montrant les plaies de ses mains pour rappeler son sacrifice rédempteur. Il est entouré de deux anges portant les instruments de la Passion — la croix et la lance — et encadré par la Vierge Marie et saint Jean qui intercèdent en faveur de l'humanité. Cet ensemble témoigne de la finesse sculpturale du XIIIe siècle, mêlant réalisme des expressions et clarté didactique.\n\nBien que le portail ait subi d'importantes restaurations au XIXe siècle sous la direction de Viollet-le-Duc, notamment pour réparer les dommages de la Révolution française, il demeure l'un des exemples les plus achevés de la statuaire monumentale médiévale. Sa structure pyramidale et la hiérarchie de ses personnages reflètent l'ordre divin et la complexité de la pensée religieuse de l'époque, faisant de cette pierre une véritable page d'écriture ouverte sur la ville."
+      },
+      {
+        title: "",
+        photos: [
+          "https://photos.fife.usercontent.google.com/pw/AP1GczNIW19QHl8rB-Tnmjr8YKFKd_5bIIyMuM3vX8szPlievx2LCW1gPOKvrw=w1373-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOCJnXp1y5YLt-k1lGqhS5S0isJlrFzttokyUV9yc0p3zlJ4zTiIJ3uvvOmCCRFm0jGTNugS_g8I2xOw-ILqagGWd80d8Mvy2mxap-sw5MzjarG1FkUYyu_N_Z-U4bvu84UGgJWFBEABZRzpZ2FLF39Zg=w1560-h729-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Élévation de la grande nef gothique et voûtes sexpartites",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMTr7Qs_SWwXa7xdj54eRZbmk7MawXulEAbWpF58L71Zx9rITTULWDfsLjxo5sKals2HyrkLaNNIzZ7taKViALVDvjW9zevfU9irhauSByylYpFNxZ960s_Ej8S7MO4Me7QnRyqmjCImsWeTtvFSUInDQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En entrant, on est saisi par la perspective monumentale de la nef, qui s'étire sur environ 60 mètres de long. L'architecture est caractérisée par une élévation à trois niveaux (grandes arcades, tribunes et fenêtres hautes), typique du gothique classique. Les piliers massifs, de forme circulaire et surmontés de chapiteaux à décor de feuillages, supportent des arcs brisés qui élèvent le regard vers les voûtes sexpartites (divisées en six compartiments par des ogives). Cette technique permettait de répartir le poids de la pierre de manière innovante pour l'époque, autorisant une hauteur sous voûte impressionnante de 35 mètres.\n\nL'éclairage est assuré par les fenêtres hautes qui ont été agrandies au XIIIe siècle pour laisser pénétrer davantage de lumière, une caractéristique du style gothique visant à transformer l'église en une \"cité céleste\" baignée de clarté. Au fond, le chœur est entouré d'un double déambulatoire, une prouesse technique qui souligne la complexité du plan. Les lustres majestueux et les écrans modernes visibles sur votre cliché témoignent de la continuité de l'usage liturgique et de l'accueil des foules dans ce monument historique.\n\nMalgré l'incendie de 2019, l'architecture de la nef a conservé sa structure essentielle, et les travaux de restauration ont permis de redonner à la pierre calcaire sa blondeur originelle. Ce cliché fige l'équilibre parfait entre la puissance de la pierre et l'élégance des courbes, faisant de Notre-Dame le symbole universel de la civilisation médiévale française."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN4ZzNV3srUdNMJrMjdMCu51DjrzvkD0dV2QzBcCE_FW-VuspEa0W1O8eNxocq4kVccOkPa0NOXm3M0w1ANa1sCWRA71OVKMbi7R6oiiKfVW9lCg1a02GIkoXiuPdDS_faF4ohqR0kQXc7YkoXUic8fhw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOKTs3anAh-cN2kfrtTWoUBcdvUqfbgrN3iTtvP8lnk7XbjEgSyHyVh9tEkPPRjG74hFQ7zRUEy9GzEL0mbLX92GdDrPC_jfoPs0PbNT2XYtHPIpQW6oYYW7v34cdFK7KxO03CiN0Y6YPXXgcLCqDVfRg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La Rose Nord rayonnante et la cosmogonie mariale (Jean de Chelles, v. 1250)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNop04h4SSjPXLfU0M_5DXnbVsWI0d-ELPv80L69vbGIB7xjlzrewvf7jsfJIFy8S8f5PhKJi7DdGBVKhT_u4SCHa14BsjlFZ4OdKpvtVTIP3EILAyZ694nbqS4Kd5XgOYd254QBvgIehC5HeDHy1Oe7g=w615-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOSe7rueb5Mp6jwxKM8MtvB1P5NoVXVDkYvVG2d-RsGDAEQxdfHZSgqmIHjHK3qBbrAX6hImDw-Ps_lKCHQZiDH3fHYfaQxIr2gtGtqmGzEeuXYrJT6ZqZW10imhvV_paoyo308Z7BvNWyEAcy9yk_Emw=w1373-h919-s-no-gm?authuser=0"
+        ],
+        text: "Voici la Rose Nord de la cathédrale, l'un des chefs-d'œuvre absolus de l'art gothique rayonnant, conçue vers 1250 sous la direction de l'architecte Jean de Chelles. Véritable prouesse de géométrie et de lumière, cette immense structure circulaire de 12,90 mètres de diamètre repose sur une composition mathématique d'une précision remarquable, articulée autour de quatre-vingts rayons qui se déploient depuis un oculus central. Contrairement à la Rose Sud, celle-ci a conservé la quasi-totalité de ses vitraux d'origine du XIIIe siècle, offrant aux spectateurs une palette chromatique dominée par un bleu de cobalt profond et intense, caractéristique de l'époque, qui crée une atmosphère de recueillement et de mystère céleste.\n\nLe programme iconographique de l'œuvre est entièrement dédié à la glorification de la Vierge Marie, figure centrale de l'édifice. Au cœur de la composition, le médaillon central représente la Vierge à l'Enfant trônant, entourée de cercles concentriques qui développent une cosmogonie sacrée. Les différents registres illustrent des prophètes, des rois, des grands prêtres et des juges de l'Ancien Testament, soulignant ainsi la lignée messianique et le lien indéfectible entre les Écritures anciennes et l'Incarnation. En dessous de la rose, la claire-voie présente une série de lancettes verticales où sont figurés dix-huit prophètes, créant une base monumentale qui semble porter la roue céleste. Cette structure de pierre, d'une finesse extrême, témoigne de l'évolution technique permettant d'évider les murs pour laisser place à la lumière transfigurée, symbole de la divinité pénétrant le monde terrestre.\n\nLa conservation exceptionnelle de cet ensemble vitré permet d'admirer la technique du \"vitrail à médaillons\", où chaque scène est isolée dans une forme géométrique propre, tout en participant à une harmonie d'ensemble vibrante. La Rose Nord a miraculeusement survécu aux siècles, aux révolutions et au tragique incendie de 2019, demeurant aujourd'hui le témoin le plus authentique de la spiritualité et du génie artistique du Moyen Âge classique. Elle ne constitue pas seulement une prouesse technique d'ingénierie médiévale, mais une véritable catéchèse visuelle où la lumière, filtrée par le verre teinté, transforme l'espace architectural en une représentation symbolique de la Jérusalem céleste."
+      }
+    ]
+  },
+  {
     id: "paris_arc_de_triomphe",
     name: "Paris - Arc de Triomphe de l'Étoile",
     country: "France",
