@@ -1,5 +1,136 @@
 const SPOTS_2 = [
   {
+    id: "garachico_casa_mara_mirador_cote",
+    name: "Garachico - Casa Mara & Mirador sur la Côte (Las Cruces - Acantilados de La Culata)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Garachico",
+    altitude: 336,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Falaise Marine Fossile des Acantilados de La Culata, Belvédère sur l'Isla Baja & Océan Atlantique",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.36640,
+    lng: -16.77159,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNa-tuA4FJeiwxa33gu0MN4g6dvSNCCztal5CO25IzgvnIvKUvn8_g-dtHL-MshhHDAGa369_D6eM7phkI71jaz19fz1DcYXyhdrf1AiVGBSJVfVLmPTPRuf91AuIrD7K7ENDFFY5_IvIZ_udIznR13GQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPQjrxPzoxB2x1vICurYntE1L1zOOJv-85zMc6UOQWgLdE0K3w8F6Rhv96J1OsIkeHK0CBKmsCLh4mSHKipfEHnJ5yUfdoVp5ZJIhxe1HFqGZZo1rOhVtQIXjAHwnAl3Slm1phxvWGJUc6WGBEDf4ogAg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOzuu9rqXMdoPgfEdFA9RzXf0cWGBDrAKWKauC8TTsrKqaalakj2aZt6-Isrbo45OKt-EUcHORUHItDQvj_ADpe4CnQ-0Mi0nNEBV6Ztc9Kxkgsvs1n1nDgxEFAnG2Kq9b4K0256IS-ywAe21LR4dMdXQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Accroché à flanc de falaise à plus de trois cent trente mètres d'altitude, dans le paisible hameau rural de Las Cruces sur les hauteurs de Garachico, le site de Casa Mara bénéficie d'une situation géographique d'exception au cœur du paysage protégé des Acantilados de La Culata. Ce relief colossal correspond à une paléofalaise marine fossile d'un intérêt géomorphologique majeur, témoin des rivages primitifs de l'île avant que les gigantesques épanchements de laves basaltiques successives ne conquièrent la mer pour former la vaste plate-forme littorale fertile de « l'Isla Baja ». Les escarpements vertigineux qui ceinturent le promontoire abritent un écosystème remarquable de forêt thermophile relique, où les candélabres d'euphorbes canariennes géantes (cardones) et les touffes de tabaibas s'enracinent dans la roche volcanique sombre aux côtés des palmiers des Canaries et des vergers étagés en terrasses traditionnelles de pierre sèche.\n\nDepuis les terrasses et le belvédère naturel dominant le vide, le regard plonge directement sur l'immensité de l'océan Atlantique et sur toute l'échancrure septentrionale de Tenerife. La vue panoramique embrasse avec une grande netteté la mosaïque verdoyante des bananeraies s'étirant au pied des falaises, le tracé des coulées de lave historiques de l'éruption du volcan Trevejo de 1706 ayant remodelé la côte, ainsi que la silhouette blanche de la cité historique de Garachico et son célèbre îlot basaltique (le Roque de Garachico) émergeant des déferlantes océaniques. Vers l'ouest, la ligne de crête guide la vue vers les plaines côtières de Los Silos et de Buenavista del Norte, offrant une immersion contemplative dans la grandeur tellurique des paysages du nord canarien, bercée par la brise marine ascendante et les embruns du grand large.",
+    visiter: "Une halte sur les terrasses du belvédère de Las Cruces permet d'admirer la perspective plongeante sur la falaise fossile des Acantilados de La Culata et le moutonnement végétal des terrasses de culture. Les promeneurs prennent le temps d'observer le contraste saisissant entre les parois basaltiques abruptes et la plaine côtière de l'Isla Baja qui s'avance dans les eaux bleu profond de l'Atlantique, avec en point de mire le Roque de Garachico et les toits du centre historique en contrebas.",
+    link: ""
+  },
+  {
+    id: "tenerife_mirador_de_cherfe",
+    name: "Tenerife - Belvédère de Cherfe (Mirador de Cherfe)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Santiago del Teide",
+    altitude: 1051,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Col de Montagne du Massif de Teno, Crêtes Volcaniques & Belvédère sur le Teide",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.30000,
+    lng: -16.82396,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMRocbTjVNSuubbGIEn3fBJOzAbnYFWLg9EPglxZ3y7VIlIXsksoh5tteN3zcPC13l6Voaps2B03XTppDY23Md7dl5MlpL08-ZBHtfNvrPUXGXYFFu2Rs6NiPpcHg1AtVP_4CT7yT6ye0c5xXwDKMN5rA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPYHElOULOc6dCsl9HdLuZP-TSP7GXjQq1BqXpOOYFTQzvCaLiC821uFbUcyClYvwksG_R9SdMgLm-TBu5w84PO-dweH9a3RGiepGG7Lx73xXnvh0twDtLRMk_C-KJ8tLWjXTfDfHEtRxXeY-A0eA4yYw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNvgUXIip7xj2g9p8x2j95vycl_1KWTxIq4GVQy27WdRhfT06FT44HFHWgs6c5Nkdl58ntZfGD368vU9EInAsI_T_DiTvj6C4TU3kZU1-qK5r6ueFUAc7T_1bIsD9N9V70UwvRaTJ2q4rPccwPmC6GbPA=w1379-h919-s-no-gm?authuser=0",
+        caption: "Vue dégagée sur le Teide."
+      }
+    ],
+    description: "Perché à plus de mille mètres d'altitude sur la ligne de crête reliant Santiago del Teide au fond encaissé de la vallée de Masca, le mirador de Cherfe s'impose comme l'un des postes d'observation géographiques et volcaniques les plus spectaculaires de l'ouest de Tenerife. Aménagé le long des lacets vertigineux de la route panoramique TF-436, ce col naturel constitue une frontière climatique et orographique majeure marquant l'entrée dans le parc rural de Teno. Vers l'ouest, le regard plonge dans un dédale titanesque de ravins abrupts (barrancos), de crêtes basaltiques dentelées et d'arêtes volcaniques acérées issues de l'édification primitive du massif au Miocène, sculptées par des millions d'années d'érosion torrentielle et éolienne. Les pentes arides et caillouteuses sont colonisées par une flore d'altitude xérophile endémique de la région macaronésienne, dominée par les coussins d'agaves, les genêts nains et les candélabres épineux d'euphorbes canariennes (cardones) ancrés dans la roche volcanique sombre.\n\nEn se tournant vers l'est et le sud, le belvédère dévoile l'une des perspectives les plus saisissantes et dégagées de l'île sur le stratovolcan du Teide culminant à 3 715 mètres d'altitude, dont le cône sommital parfait et les contreforts du Pico Viejo dominent souverainement la ligne des crêtes boisées de pins canariens. Par temps limpide, le panorama s'élargit bien au-delà des côtes escarpées de Santiago del Teide pour englober les eaux scintillantes de l'océan Atlantique et la silhouette bleutée de l'île voisine de La Gomera flottant à l'horizon marin, souvent couronnée par la traditionnelle mer de nuages engendrée par les alizés. Fréquenté autrefois par les bergers et chevriers guanches qui empruntaient ces cols ventés pour conduire leurs bêtes entre les pâturages de montagne et les vallées littorales, ce promontoire minéral offre une lecture saisissante des forces telluriques et de l'étagement bioclimatique qui modèlent la diversité des paysages canariens.",
+    visiter: "Une halte sur l'esplanade du belvédère permet d'embrasser simultanément les deux versants de la crête de Teno, en comparant les gorges abyssales de Masca s'enfonçant vers la mer et l'élévation monumentale du volcan Teide couronnant l'horizon oriental. Les promeneurs prennent le temps d'observer les contrastes géologiques entre les dykes volcaniques verticaux et les strates horizontales de laves anciennes avant de poursuivre la route en lacets vers le hameau de Masca.",
+    link: ""
+  },
+  {
+    id: "tenerife_masca_village_et_mirador",
+    name: "Tenerife - Hameau de Masca & Belvédères (Caserío de Masca y Miradores)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 606,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Hameau Perché de Haute Montagne, Architecture Vernaculaire Canarienne & Barranco de Masca",
+    century: "XVIIIe siècle",
+    category: "star",
+    counts: {},
+    lat: 28.30483,
+    lng: -16.83905,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOW0j0k70f0r7oiAYSTTExdBJ2Fzx3n0lp3lvZ07EWEmejCJYesmAonmfg4NGkL484SM7i3QFSP25bzNJxL4BDy9_z37vkSS-FaQ1n7XZ6JiRLQvlJ43GOAuI0BytJhmTo78-XOaMM2NR8eEcHDk40c-g=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMAY93cgr6k8-ie09Pa5IxbloUOxw1I0_15yDBpNFSMRrqfO7Ts6naI80BN1boXUs3n98NgupoC49qyS8GLYgqDW8zaFFBs6tYeIDmRwJ07ARm3uJ3LmJT0o9QlFxgfJ0mBaqZxyTOi5XimYusx-n7ZKQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP5VqNacc8iHK0nJiWzZbGdO3U55OLQo4JWWgBDpxLH_fIOq8vnAZGn_7tgWt1Fnhi-XRXcDTQlv86G9fGZ3Vq2shAMHOhHYODvMgfEemc6JTIVpZQeqcOqEGafVUAQqOOtIWnuSHn1mCYIaAmNxQnx3g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Accroché aux parois vertigineuses d'un cirque volcanique escarpé au cœur du massif de Teno, le hameau de Masca constitue l'un des ensembles ruraux les plus emblématiques, secrets et spectaculaires de l'archipel des Canaries. Fondé à l'époque moderne sur d'anciens établissements pastoraux guanches, ce village de montagne est demeuré dans un isolement quasi total jusqu'à l'ouverture de sa première route carrossable en 1972, n'étant auparavant relié au reste du monde que par d'étroits sentiers muletiers empruntés par les contrebandiers et les paysans locaux. L'habitat s'étage en terrasses audacieuses sur une arête rocheuse centrale dominée par l'emblématique pic conique de La Catana, offrant un exemple magistral d'adaptation humaine à une topographie d'une hostilité extrême. Les maisons traditionnelles en pierre de basalte sombre et mortier de chaux, couvertes de toits à deux pans en tuiles canal et dotées de menuiseries en bois de pin canarien (tea), se fondent harmonieusement dans les terrasses agricoles de culture vivrière plantées de palmiers dattiers, de figuiers de Barbarie et de vergers d'agrumes.\n\nLe mirador naturel aménagé sur l'éperon rocheux du village offre une perspective plongeante vertigineuse vers l'entrée du mythique Barranco de Masca, canyon titanesque creusé par les eaux qui serpente sur plusieurs kilomètres entre des murailles de lave hautes de plus de quatre cents mètres jusqu'à l'océan Atlantique. Classé bien d'intérêt culturel au titre des ensembles historiques, le bourg a su préserver son atmosphère rustique et ses ruelles pavées sinueuses reliant les différents quartiers disséminés sur les pentes. C'est ici que bat le cœur des traditions orales et culinaires de Teno, réputé pour sa production artisanale de miel de palme, ses sauces pimentées (mojos) et ses fromages de chèvre fumés. Entre la majesté minérale des pitons rocheux s'élevant vers les brumes océaniques et la fraîcheur des jardins en terrasses irrigués par d'anciennes rigoles en pierre, Masca incarne la splendeur intemporelle de la vie paysanne canarienne préservée des tumultes de la modernité.",
+    visiter: "La déambulation commence sur la petite place ombragée d'un grand laurier d'Inde au cœur du hameau pour admirer la perspective sur les maisons traditionnelles en pierre de taille accrochées à la crête. Les visiteurs empruntent les ruelles pavées escarpées menant au mirador du village pour contempler la faille monumentale du Barranco de Masca et les terrasses de culture étagées dans le canyon, avant de découvrir les échoppes d'artisanat local proposant miel de palme et produits du terroir.",
+    link: ""
+  },
+  {
+    id: "tenerife_masca_chapelle_immaculee_conception",
+    name: "Tenerife - Chapelle de l'Immaculée Conception de Masca (Ermita de Nuestra Señora de la Concepción)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 590,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Sanctuaire Rural de Montagne, Clocher-Mur en Basalte & Architecture Traditionnelle (XVIIIe siècle)",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.30555,
+    lng: -16.84051,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMj2ekjoda1I81Z-dYlRHyOpPrSd6eHtK2VwceejSUfWSeIKfe90ksz-NIRO2g0PM_jG0maucirUMpspWEvBtTOHna_12praJcCB1BA8W81jeaa9PhqCLFEMgccFFcfxGqYeDSodq9UeVeL31-PXrXUtA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Bordant la placette centrale pavée de galets ombragée par un majestueux ficus bicentenaire, la chapelle de l'Immaculée Conception (Ermita de Nuestra Señora de la Concepción) constitue le cœur spirituel et communautaire du hameau isolé de Masca. Érigée au cours du XVIIIe siècle par les familles paysannes de la vallée pour éviter aux fidèles les périlleuses heures de marche à dos de mulet nécessaires pour rejoindre l'église paroissiale de Buenavista del Norte, cette modeste église rurale incarne avec pureté les canons de l'architecture religieuse vernaculaire des Canaries. Sa maçonnerie robuste en moellons de basalte volcanique local et enduit blanchi à la chaux s'élève sur un plan rectangulaire à nef unique, épaulée par des angles appareillés en pierres de taille apparentes. La toiture traditionnelle à quatre pans en tuiles canal d'argile cuite rougeoyante s'intègre avec une rare harmonie dans le relief tourmenté du cirque rocheux environnant.\n\nLa façade principale, d'une grande sobriété méditerranéenne, s'ouvre par une porte cintrée en bois de cœur de pin canarien (tea) imputrescible, surmontée d'un élégant clocher-mur latéral à une seule arcade campanaire (espadaña) abritant une petite cloche en bronze forgé. L'intérieur déploie un espace recueilli et intime caractérisé par un remarquable plafond à caissons en charpente de bois mudéjare (artesonado), chef-d'œuvre de géométrie charpentière artisanale façonné par les menuisiers de l'île. L'autel principal abrite une précieuse statue polychrome de la Vierge de la Conception datant du XVIIIe siècle, parée de riches draperies brodées et vénérée lors des fêtes patronales de début décembre qui rassemblent les habitants autour des chants traditionnels et des danses au son des tambourins canariens. Havre de paix suspendu au-dessus des gouffres du canyon, le parvis dallé de la chapelle offre un belvédère paisible sur les arêtes minérales et les jardins étagés du village.",
+    visiter: "Une halte sur la petite place pavée de la chapelle permet d'admirer la silhouette rustique de son clocher-mur en basalte et l'élégance de sa porte cintrée en pin canarien taillé. Les visiteurs s'arrêtent sous le grand laurier ombrageant le parvis pour apprécier le calme montagnard du lieu et contempler la charpente mudéjare intérieure lors des ouvertures liturgiques, avant de parcourir les sentiers partant de la place vers le quartier bas du village.",
+    link: ""
+  },
+  {
     id: "tenerife_falaises_los_gigantes_plage_masca",
     name: "Tenerife - Falaises de Los Gigantes & Plage de Masca (Acantilados de Los Gigantes y Playa de Masca)",
     country: "Espagne",
