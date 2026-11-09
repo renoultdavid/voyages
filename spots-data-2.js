@@ -130,7 +130,7 @@ const SPOTS_2 = [
       {
         title: "",
         photos: [
-          "https://photos.fife.usercontent.google.com/pw/AP1GczNIW19QHl8rB-Tnmjr8YKFKd_5bIIyMuM3vX8szPlievx2LCW1gPOKvrw=w1373-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNSE4cBCvQXfMPJwcYaGXn7z6aYUc8PDkYOo3arg47f4cxA_U3-X0wGd5drOuecOGOtpHt_gEszbexVZ75qjIJVcI7AjlA679c8H2z7gKqYTgUxPevGvI2v4DzCa8W2CriyPACskk03L0kiSyl7cd8yfA=w1373-h919-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczOCJnXp1y5YLt-k1lGqhS5S0isJlrFzttokyUV9yc0p3zlJ4zTiIJ3uvvOmCCRFm0jGTNugS_g8I2xOw-ILqagGWd80d8Mvy2mxap-sw5MzjarG1FkUYyu_N_Z-U4bvu84UGgJWFBEABZRzpZ2FLF39Zg=w1560-h729-s-no-gm?authuser=0"
         ],
         text: ""
