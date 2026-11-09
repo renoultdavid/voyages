@@ -1,5 +1,87 @@
 const SPOTS_2 = [
   {
+    id: "tenerife_rando_volcan_chinyero",
+    name: "Tenerife - Randonnée du Volcan Chinyero (Reserva Natural Especial del Chinyero)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Santiago del Teide",
+    altitude: 1431,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Dernière Éruption Historique de Tenerife (1909), Cône Strombolien & Réserve Naturelle",
+    century: "XXe siècle",
+    category: "rando",
+    counts: { rando: 1, volcan: 1 },
+    lat: 28.29482,
+    lng: -16.75812,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM3-v_rZUFgCWpHZCnNx1q-MMgDxEzrQ0hXocEtKqV-HFeWC-2C0Yfw06v3S5edwSpzCXy9sejqfAG7WypoK463bvNY9RXhSWjujVgZxv6skzZ8vfWopI6Z0YX-fTN7qByQqACbh5snym5rRhBg59adFA=w1379-h919-s-no-gm?authuser=0",
+    description: "Dressant sa silhouette tronquée à mille cinq cent soixante mètres d'altitude sur la dorsale volcanique d'Abeque, le volcan Chinyero occupe une place à part dans la mémoire géologique et spirituelle des îles Canaries, incarnant le théâtre de la toute dernière éruption terrestre survenue sur l'île de Tenerife. C'est le 18 novembre 1909, après plusieurs jours de grondements souterrains et d'intense activité sismique ressentie jusqu'à Icod de los Vinos, qu'une longue fissure éruptive de plusieurs centaines de mètres s'ouvrit brutalement au milieu des pinèdes d'altitude. Pendant dix jours d'un paroxysme spectaculaire, les bouches vomirent d'immenses fontaines de lave incandescente, d'épais nuages de cendres assombrissant le ciel et des coulées de basalte fluide qui dévalèrent la pente en deux bras menaçants, fonçant vers les villages terrorisés de Las Manchas et de Santiago del Teide avant de s'immobiliser miraculeusement à quelques encablures des premières demeures sous les prières des villageois portant la statue de sainte Barbe.\n\nClassé aujourd'hui en Réserve naturelle spéciale sur plus de deux mille trois cents hectares, le site du Chinyero propose l'une des randonnées volcanologiques en boucle les plus pures et saisissantes de l'archipel. Le sentier serpente à travers un désert minéral absolu de scories ébène, de lapilli (picón) et de champs de lave chaotique (malpaís de type ʻaʻā) aux arêtes déchiquetées, dont la noirceur austère est magnifiée par les éclats vert tendre des jeunes pins des Canaries (Pinus canariensis) qui percent courageusement la croûte basaltique. Au détour des resserrements rocheux comme le passage de la Montaña del Estrecho, le regard embrasse les géants millénaires de l'île que sont le Pico Viejo et la cime majestueuse du Teide émergeant au-dessus de la mer de nuages. Entre la fragilité d'un écosystème pionnier strictement protégé et l'énergie brute d'un volcan tout juste centenaire, ce parcours hors du temps offre une magistrale leçon de géodynamique et de régénération naturelle en haute montagne.",
+    intro_page: "Dernier volcan entré en éruption sur l'île de Tenerife le 18 novembre 1909, le Chinyero déploie sur la crête d'Abeque un paysage lunaire d'une virginité minérale exceptionnelle. Né d'une fissure basaltique qui déversa des fleuves de feu durant dix jours jusqu'aux portes de Santiago del Teide, ce cône strombolien haut de 1 560 mètres est aujourd'hui au cœur d'une Réserve naturelle spéciale strictement protégée. Le sentier en boucle qui en fait le tour serpente entre coulées de lave pétrifiées, mers de scories sombres et silhouettes héroïques de pins canariens réinvestissant le substrat volcanique. Baigné par un silence solennel sous un ciel d'azur éclatant, le site offre des perspectives magistrales sur les crêtes imposantes du Pico Viejo et du Teide.",
+    visiter: "S'élancer sur la boucle balisée du sentier PR-TF 38 depuis les abords de la route TF-38 ou du village de Santiago del Teide pour entamer le tour du cône volcanique du Chinyero à travers les étendues de sables et de scories noires. Respecter scrupuleusement le balisage de pierres délimitant le sentier afin de ne pas piétiner les surfaces fragiles de lapilli et observer les défilés étroits de la Montaña del Estrecho où la lave de 1909 a butté contre les anciens reliefs. Profiter des trouées d'altitude pour photographier la pyramide du Pico Viejo et le sommet du Teide dominant la pinède canarienne avant de compléter la boucle.",
+    link: "",
+    sections: [
+      {
+        title: "L'éruption historique du 18 novembre 1909 et la mémoire de Sainte-Barbe",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM3-v_rZUFgCWpHZCnNx1q-MMgDxEzrQ0hXocEtKqV-HFeWC-2C0Yfw06v3S5edwSpzCXy9sejqfAG7WypoK463bvNY9RXhSWjujVgZxv6skzZ8vfWopI6Z0YX-fTN7qByQqACbh5snym5rRhBg59adFA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM7_2kSgv4vDyfceakdA0IeM-ovUexu0qkvPXx4W2n8J3UNtNbDhFAeuin6Rx488M6fqaW9cUsddyRHUrXcVkF2-ImQAFKn4V8rN3wZJ9DBfIWkradGzeVxBDdl8KyJktN8942aS0mnCrAQPv5gfRCfKQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "C'est le 18 novembre 1909 que la terre s'ouvrit pour donner naissance au volcan Chinyero, crachant pendant dix jours consécutifs des fontaines de feu, des nuages de cendres et des fleuves de basalte incandescent qui vinrent menacer les villages de Santiago del Teide et de Las Manchas avant de s'immobiliser, un événement qui marqua profondément la mémoire collective locale à travers la procession historique de la statue de Sainte-Barbe, invoquée pour arrêter la progression du feu."
+      },
+      {
+        title: "Désert de scories, colonisation végétale pionnière et pureté minérale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMTubBKn398FxfWaUPCbh5ImmSzs9CB7-Pqn3mkaMhvEcluaQsshqVMkAXoprXMe6n3FbegVFq4sOODmOCMomhr5wwYi7HF2JSaErqB37Yd3xolCZ2KGcUrP9Z-s79UE5IbTVxCSkZAA40ojN157sSgPg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPfuJ1No1wQTauoTNohW4Vyeb33GnHrDBONAdGpYjCKlca2hINVZ22d2-WIz2G6_ywTVhn4z2J5PcRxeJKOVb9Cp0m8QwcDqA57owZkNBX4hB22dkay9GJYh1FQXMdxVx86TLJgfcqfHERP003UIURekg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La marche dans ce désert minéral silencieux permet d'observer la lente installation des premiers lichens et de petites plantes xérophiles qui colonisent patiemment les cavités de scories sous un ciel d'une pureté absolue, bouclant une traversée immersive où se lisent à ciel ouvert les forces telluriques primordiales et la dynamique régénératrice de la nature canarienne."
+      },
+      {
+        title: "Le cône strombolien du Chinyero face au Pico Viejo et au Teide",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM2QHWSat8bmhqgliPdPOMUYseAb2g3EuHwxbxZ79UaRzUWv9-l-Ce-u1xaL1FYtln6la44Y4IBfmOi3ltlifhC2KYFLk0p_fZOiUU3Y6xXO2JVln1lp9P_fwZ7X3qvmFbbAMKFraAgUxCesG73mB1hqw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La silhouette tronquée du Chinyero, cône strombolien s'élevant à mille cinq cent soixante mètres d'altitude, domine le parcours de sa masse sombre zébrée de nuances rougeâtres et violacées dues à l'oxydation des minéraux ferrifères. Lorsque la brise dissipe la mer de nuages poussée par les alizés, le sentier dévoile des échappées visuelles monumentales sur les géants de l'île : en arrière-plan se dressent la masse pyramidale du Pico Viejo et la cime blanche ou dorée du pic du Teide, dialoguant par-delà les siècles avec cette jeune bouche éruptive."
+      },
+      {
+        title: "Le défilé de la Montaña del Estrecho et les murailles de malpaís",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOg3b55fNqc1fjHSmqoi4sAkguDVOCOkcq2z-rrsy_kTj7lNKychleacmuqJxYXCi-yrI00LDOXrwBv6aXbXFMaLa71VDbWO-7RQXw6lB6ZgMapWT-a5_YDqS9M_Vx5NFGmPnVZFzEaPpzUyuw6vdWDnw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMlpY84nxSgDB05QvXB0Mu5O9KyQ-pnsG_ztmdD1k18e2HVeKg0z3oQpcdnwnvTrCTull6oa56dW9yMKMLrWYfpmcCUOGSaWGLC0FK67tc0mfMD1vXygj9fMnzbe2uMF-iGOcI9b6KCcub9Qymkpn4-0A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Voici le défilé spectaculaire de la Montaña del Estrecho, un resserrement topographique où les coulées pétrifiées de 1909 sont venues s'engouffrer et buter contre les flancs d'édifices volcaniques plus anciens. Dans ce passage étroit, la lave a figé sa course en une muraille chaotique de basalte rugueux aux arêtes acérées (malpaís de type ʻaʻā), où quelques pins pionniers, aux troncs noircis par le souffle thermique, réussissent le prodige de percer la carapace de roche refroidie pour affirmer la reconquête végétale."
+      },
+      {
+        title: "Cheminement bordé de pierres et préservation de la réserve naturelle",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOZSekm9ZXvcV1dYrzEER0HXV9shUF0k9VJe87AMN76leF3sb3kjH6g__q3q4kGGbwbG1nM24H6ov38d5H1S-A4emCOyfDMqJH8kcMBVnl_B3jdSj4WOiydMw-SmZ5Rasd5ZNSznl8kK7EDdQYvM41swg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM_r83wqJ-yd7KM7HN0rxvy_fGCqXYcC9elWuIBfpEoplHtuttpG0yQgQfKXA__52jUGt36ucAeU5j7cHZP4X7L-zo1PDM_mCKyo6KBZ622sc6xh-R2UNUZ0549d7yl6c_0RnaKNa4DCVCvClG5aXgakg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En franchissant ce goulet pour contourner le cône par le sud et l'ouest, le marcheur progresse en plein cœur des champs de scories sur un sentier délimité par des alignements de pierres de lave, préservant ainsi la fragilité absolue de ce biotope protégé dont l'ascension des pentes sommitales est strictement interdite."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP4vT71i3uu0VRwBYYT-9aNGBOaGlmq7xbhBOwjR1Q6BJmpihtnrIMo4xfHGgdKaf6MMdOlyJaRPRYzUKZGOoPH5FpkIwUcwtTm0-30Nmkgh7F9awPFP2SQeV0aaic86Ygpevz0ScuVOxvunBQ4SMcUUA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOAVjXWOiz4zXJWeKa7uelz9WMwbn5uDlOrh1GCQ-O4sgAwAVG69feg4tO60QSDtFOtZMuinabNsDtqwgzjQF61BmwSjJ0STBL4wsJGGSGB1HC8L2c1OGWx3GRJJsGpqkeAYDf2DbdcpYlmhx6x7CIpaA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPc4nw-0eYBRxiAqMLogUzPslYZa5ufSRvVoWegj4eN2UFmUmHLS7dkdZqH83DrVPXO6zrI7vEptyYk2Lti5ARNsbOWnYoVHEusLMWk2Okz0lkGjX3M5V239QhHdiXDGtYa5Yt7_dK2UELDxXF_fs0l4g=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
     id: "tenerife_rando_volcan_arenas_negras",
     name: "Tenerife - Randonnée du Volcan Arenas Negras (Volcán de Trevejo)",
     country: "Espagne",
@@ -16,7 +98,7 @@ const SPOTS_2 = [
     era_label: "Cône Strombolien du Volcan de Trevejo, Éruption de 1706 & Pinède des Canaries (XVIIIe siècle)",
     century: "XVIIIe siècle",
     category: "rando",
-    counts: {},
+    counts: { rando: 1, volcan: 1 },
     lat: 28.31635,
     lng: -16.76416,
     image: "https://lh3.googleusercontent.com/pw/AP1GczP53dyJT_bmVhd8pDAFXMuCpIp1qR8HQ1v01U_mPwlAm1TmneBuki5LYRTdNDvjHvTrSYW6-gEqx0-4_nL24Lgy82iltkdt3SVqfmzp_EOjuNthJ_HwqXUX3huyj_qJeYjsWAyK5GFgHEPuls9Jn3eIyQ=w1379-h919-s-no-gm?authuser=0",
