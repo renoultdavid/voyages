@@ -1,5 +1,71 @@
 const SPOTS_2 = [
   {
+    id: "dives_sur_mer_village_guillaume_le_conquerant",
+    name: "Dives-sur-Mer - Village d'Art Guillaume-le-Conquérant",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Normandie",
+    department: "Calvados",
+    subdiv: "Dives-sur-Mer",
+    altitude: 5,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Ancien Relais de Poste du XVIe Siècle, Hostellerie de la Belle Époque & Épis de Faîtage (XVIe-XIXe siècle)",
+    century: "XVIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.28680,
+    lng: -0.09862,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO1USBv3ekIYvTx-qQrvEjoQf7WQZPBkQ7ZGo7U9OeiCZdApwALGVyfq57Mx89VBvqTjutCiQPj471zkQTRSLkKe49ngHJOiIgJBTGAVQymDktQ4o7fsE2RSm04jNeRbSE1ohWF_SpbZRrq1YLK-oAYtQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Implanté au cœur du bourg maritime d'où s'élança en 1066 la gigantesque flotte d'invasion normande vers les rivages d'Angleterre, le Village d'Art Guillaume-le-Conquérant de Dives-sur-Mer forme un ensemble architectural pittoresque absolument unique en Normandie. Les origines de cette vaste enclave remontent à la fin du Moyen Âge et au XVIe siècle, époque où l'endroit servait de relais de poste à chevaux et de grande hôtellerie marchande sur la route littorale reliant Caen à Rouen. Les maîtres des lieux assuraient le gîte et le couvert des voyageurs, l'attelage des diligences et le relais des courriers royaux dans de vastes corps de logis à colombages articulés autour de cours pavées successives. L'ensemble conserve intacte la structure vernaculaire augeronne associant un robuste soubassement en moellons de calcaire et silex à de hautes élévations à pans de bois hourdées de tuileaux et protégées par des essantages d'ardoises et de bardeaux de châtaignier taillés en écailles.\n\nLa physionomie théâtrale et enchanteresse du domaine prend un tournant décisif sous le Second Empire grâce à la vision passionnée d'un aubergiste érudit et futur maire de la cité, Monsieur Le Rémois. Rachetant la propriété au milieu du XIXe siècle pour la baptiser « Hostellerie Guillaume le Conquérant », ce collectionneur infatigable transforme l'ancien relais en un véritable musée à ciel ouvert dédié à la gloire du duc conquérant et au romantisme médiéval. Il incruste sur les façades des centaines de sculptures anciennes sur bois, des statues de plomb et de terre cuite, des linteaux historiés et d'exceptionnels épis de faîtage en céramique vernissée issus des ateliers renommés du Pré-d'Auge. Le lieu devient aussitôt le rendez-vous incontournable de la haute société et des figures artistiques majeures séjournant sur la Côte Fleurie, accueillant Marcel Proust venu y chercher l'inspiration pour ses descriptions de Cabourg-Balbec, mais aussi Colette, Sarah Bernhardt, Guy de Maupassant, Alphonse Allais et les peintres impressionnistes. Aujourd'hui restauré et préservé, ce havre patrimonial abrite les ateliers d'artisans d'art, de céramistes et de galeries perpétuant la vie créative entre ses cours chargées d'histoire.",
+    visiter: "Franchir le porche d'entrée pavé depuis la rue d'Hastings permet de pénétrer d'emblée dans la Cour d'Honneur pour contempler la richesse des façades à colombages, les coursives couvertes à bardeaux de châtaignier et la collection exceptionnelle d'épis de faîtage vernissés étincelant sur les toitures. La déambulation se poursuit sous le passage couvert menant à la Cour des Évangélistes afin d'observer les statues de bois du XVIe siècle, la ferronnerie d'art du puits central et de pousser la porte des ateliers d'artisans d'art. Les visiteurs rejoignent enfin le jardin médiéval planté de buis et de roses pour admirer les moulages en lottinoplastie de Saint-Georges de Boscherville avant de terminer la visite par l'office de tourisme aménagé dans l'ancien logis.",
+    link: "",
+    sections: [
+      {
+        title: "La vision romantique de Monsieur Le Rémois et l'Hostellerie Guillaume le Conquérant",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO1USBv3ekIYvTx-qQrvEjoQf7WQZPBkQ7ZGo7U9OeiCZdApwALGVyfq57Mx89VBvqTjutCiQPj471zkQTRSLkKe49ngHJOiIgJBTGAVQymDktQ4o7fsE2RSm04jNeRbSE1ohWF_SpbZRrq1YLK-oAYtQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM8TVys5I-AHlyTRPCoGu83finUazCo9TF2CfqgPIgF6Q60733mlzl5DnNMcdrObe5bjNikakn7Ik9l2MjXGKtDavumgnDDCSoNrmavtnjPbbuzFfwL49FQt64XI2_A9QtgcuFtN3kl7dM1naY6iqYSMw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La physionomie théâtrale et enchanteresse du site résulte de la passion d'un homme du XIXe siècle, Monsieur Le Rémois. Aubergiste érudit, collectionneur d'antiquités et futur maire de la commune, il rachète les lieux au milieu du XIXe siècle pour transformer l'ancien relais de poste en une somptueuse auberge de villégiature nommée Hostellerie Guillaume le Conquérant. Mettant en scène un véritable décor d'opéra dédié à la gloire du duc de Normandie, il rassemble et intègre aux maçonneries des boiseries sculptées anciennes, des éléments de réemploi, des statues de plomb et de terre cuite, ainsi que des pastiches médiévaux qui séduisirent immédiatement la haute société et les cercles artistiques en villégiature sur la Côte Fleurie, de Marcel Proust à Sarah Bernhardt, en passant par Guy de Maupassant et Alphonse Allais."
+      },
+      {
+        title: "La Cour d'Honneur, coursives à écailles et épis de faîtage du Pré-d'Auge",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMo8xvpYE8vl4geoweACOECuXJQUZrs2NdgHc70pUNJkRAv_5upUta6KksqG6CDEx5OURHRFt_479L11ma_6nRsGygvPvE-hhZAI-f2kQz0Srs0guVOVJtlgncjiBh6MqQ9fiSEVlknQk28cKVdNaaC6g=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPJX59OaLDolOB74SOPtQev9noZELP3cX4I1VZvK_L9wj-mCirH5L3yY7KlCDYfIxB3s3S7hsN4B8QAu_Nko57iPuBfCOk3HoEqB41BRsKn6WBseTyzHec7ixtm5typ4NgtXWjua4CLZnmF5aPOB1Vjfw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le parcours débute par la vaste Cour d'Honneur, ceinte d'admirables façades à pans de bois et colombages traditionnels normands. À l'étage, les pièces en enfilade sont desservies par des coursives extérieures couvertes, protégées par un essentage de bardeaux de châtaignier taillés en écailles arrondies. Le regard est attiré par la profusion d'ornements sculptés sur les sablières et les poteaux corniers, figurant des visages grimaçants, des monstres fabuleux et des scènes mythologiques. Les toitures d'ardoise et de tuiles sont couronnées d'une spectaculaire collection d'épis de faîtage en céramique vernissée aux reflets mordorés et verts, chefs-d'œuvre des potiers du Pré-d'Auge. Au centre de la cour trônent des sculptures monumentales disposées sous les frondaisons, notamment une statue de Louis XIV et un relief représentant saint Georges terrassant le dragon, entourés d'anciennes tables de pierre et d'un cadran solaire."
+      },
+      {
+        title: "La Cour des Évangélistes et les ateliers d'artisanat",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOQc9fj4rbZl9-es3nnuCb92ue6SnB1RziTf79hrt4w3aTa9U5mia4xGwizHhUXEmA3POlYjW7uYJu9X5xGEnaxGmvA_y3ORG_-yCmCVLw9hHwWuka0qCP06EWDg5VeFVyteEzGhKneEVN1v310aoDoOw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPgHh7fJ-tiSU5cxGE1Lqi_v0JMBAhrSKIuW6-Vxo95yILeqWylcIpoVkh4gkFo41IZ10quhHCiTo9mjl55yC84L_j-ZaXcr0VPkkGxElw_0zfGLgh87gOAIhuPisn7aoIZ2CVtpZNIvr-wN9w6ZmSMIQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En traversant les passages charretiers sous auvent, la visite s'enfonce dans la Cour des Évangélistes, également désignée sous le nom de Cour de la Pucelle ou cour Jacques-Bracquemond. Cet espace plus intime doit son appellation aux quatre statues en bois sculpté des apôtres saint Jean, saint Marc, saint Luc et saint Matthieu adossées aux montants de la galerie. Au centre de cette cour pavée s'élève un remarquable puits surmonté d'une ferronnerie d'art travaillée en coupole, entouré d'échoppes où s'activaient jadis les palefreniers et les artisans du domaine. C'est ici que bat aujourd'hui le cœur artisanal du village d'art, où peintres, céramistes, graveurs, maroquiniers et antiquaires ont investi les anciennes écuries et remises pour perpétuer les savoir-faire traditionnels."
+      },
+      {
+        title: "Le jardin médiéval et les moulages en lottinoplastie",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNFQbDKhDyPW4ACoK0unqhcpsTXbyr2ioWh4UKW5hC5MKml5iI2JIlqvJk2jYdNeaXoxfUPNim88kZIFCiYUuvmENtwZPhiyqi3A_pJZnkzNLkzPF5J_B60lU_Wio4SGibleGWoRTdRBw9qK3nQObvhCg=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOu1Bumd0xPjYVE8eEcbGMeBNj2-2qUeXKJrmoi77shIiuPJVgitEwgbA3a4VBa3iim5rgwFsj9Z8eLN5NWc0aResMwSPP9nfhaQ21OlYbvLBOHfj3qVDfzPdQqWgYW9-5qR1NsxYLbClGmP7UnxR9glQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'exploration se prolonge vers la troisième cour qui abrite un paisible jardin d'inspiration médiévale. Aménagé de buis taillés en topiaires, de massifs de rosiers parfumés et de plantes aromatiques médicinales entourant un bassin murmurant, cet enclos végétal offre un havre de calme ombragé où les convives de la Belle Époque aimaient prendre le thé au milieu de bananiers en pot. Les façades qui bordent ce jardin présentent d'intéressantes copies de chapiteaux romans de la salle capitulaire de l'abbaye de Saint-Georges de Boscherville, reproduits au XIXe siècle selon le procédé novateur de la lottinoplastie mis au point par l'archéologue normand Victor Lottin de Laval."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPFNRzrKJA9uokT4XmCe_CQoMPpTEseQHaaDV-FdVwtP7DpvI-6SfOU7AiREyp5QFWivBvFP1-vliUTuJJwxrXYTBCRShnYMboJbhy2wQpglYMjF-zpgYAd3xbf22snL0JEYoYgp8umYVfB-gDLmkb57Q=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMDEoT1wCaPXfjV3FrtFvVhbha4M7JzR4DH58kCLoG_EmkpYRyPwJGlQBfY2L_zLyi7bIIpwSNNdVTn4SWlCJ1P0IHkGYxqzhPRiGS9_8x9W-LQt2ZxeBRUMrN6b3QeUqgv9IPZkGXCVYyHVnWhFtT7Vg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
     id: "beuvron_en_auge_village_pans_de_bois",
     name: "Beuvron-en-Auge - Village Historique & Maisons à Pans de Bois",
     country: "France",
