@@ -1,5 +1,70 @@
 const SPOTS_2 = [
   {
+    id: "parata_eglise_saint_gavin",
+    name: "Parata - Église Paroissiale Saint-Gavin (San Gavinu d'Orezza)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Corse",
+    department: "Haute-Corse",
+    subdiv: "Parata",
+    altitude: 600,
+    is_island: true,
+    island_name: "Corse",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Baroque Rural de Castagniccia, Fondation Romane & Belvédère d'Orezza (XVIIe siècle)",
+    century: "XVIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 42.37241,
+    lng: 9.40635,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNIMFGEGxw5Fpztb7R4-N54ywH8WU9eqH-anZY4nvazHvXURSRX6ab7Mf0mvaphFEgb12x7FVMt0Orku2CNvWieOfkHpxNPL5U2SBfK4PLx9w5pST7Oc7cIWYj7RQeVvanXMpumPxEvxlumaSssnXa7QA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Au cœur de la haute vallée d'Orezza, l'église paroissiale Saint-Gavin (San Gavinu) veille sur le village étagé de Parata depuis l'éperon du Monte della Parata, cerné d'une immense forêt séculaire de châtaigniers. Mentionné dès 1589 lors de la visite pastorale de monseigneur Mascardi, le sanctuaire plonge ses racines dans une modeste chapelle médiévale romane qui fut profondément agrandie et remaniée au cours du XVIIe siècle sous l'influence du baroque liguro-corse. Bâtie en schiste lustré local et couverte d'un toit traditionnel de lauzes sombres (teghje), l'église présente une sobre façade occidentale à deux registres superposés, couronnée par un fronton triangulaire classique que perce une baie campanaire ajourée. Son clocher latéral à trois étages s'élance avec fierté au-dessus des toitures en ardoise du village, dialoguant visuellement avec les reliefs environnants dominés par la crête altière du San Petrone.\n\nL'intérieur déploie un vaisseau unique d'une grande ferveur montagnarde, rythmé de chapelles latérales voûtées en berceau ornées de retables en stuc polychrome, d'autels en maçonnerie peinte et de précieuses bannières de procession de confrérie brodées de fils d'or et de soie. Le saint patron Gavin, martyr chrétien décapité en Sardaigne sous Dioclétien dont le culte fut introduit en Corse à l'époque médiévale, y fait l'objet d'une vénération communautaire très vivace célébrée chaque automne. De son parvis herbeux suspendu entre ciel et maquis, le regard embrasse les hameaux perchés d'Orezza et le moutonnement végétal des crêtes jusqu'aux contreforts de la plaine orientale.",
+    visiter: "Une montée par les ruelles pavées de Parata conduit au parvis surélevé de l'église, offrant un point de vue panoramique remarquable sur la vallée encaissée du Fium'Alto et les châtaigneraies monumentales de Castagniccia. La contemplation de la maçonnerie en moellons de schiste permet d'apprécier la rudesse et l'élégance de l'architecture religieuse rurale corse, avant d'observer les détails du portail sculpté et le campanile carré dominant les jardins en terrasses.",
+    link: ""
+  },
+  {
+    id: "parata_chapelle_san_bartoli_cretes",
+    name: "Parata - Chapelle San Bartoli & Crêtes d'Orezza (San Bertuli)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Corse",
+    department: "Haute-Corse",
+    subdiv: "Parata",
+    altitude: 1060,
+    is_island: true,
+    island_name: "Corse",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Sanctuaire Pastoral d'Altitude, Sentier de Crête & Estive de Castagniccia (Moyen Âge)",
+    century: "Moyen Âge",
+    category: "rando",
+    counts: {},
+    lat: 42.38116,
+    lng: 9.42432,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNHfyQ3l92MIO2fB5-5wZzVxbXfGs4NTRfmWlcTArnya36ECW0VclPBBSvRiQLFfwSBq9W_rDzQoQ8BpA_wFf5pWiNMQwHkowEOz_qI954bjV9ZG4IJH6EdnJXccnGc0xgRms6-5qMvEuhv5MBS5Iybbw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMIZEHZIqa7xHAtxAtYnlG2a18OLJxUr4TjD1AL375WP5ZzfMFArbbGYZZhrOQRctP4-szlpcFljvHSJAoHlSDkRfq4qAI8v2SmprhpFmNtT36VzvBgzKI4POoBp0wuPxNQ-J-QO0E-1pbYTfomm7sSSw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOCfXj189BMWVf0Dh3GB1zsd8_tfMZ34FuXRd4bCCEDB9kaPWxAskxYNp9RcxZ8Avwnp_sIa_360j7pZXJLxtHXj4ETCIQlmyscwazXVbd0Eo6jxEc-hz1t_Uybu1kqubcaf93-rHrkj5xz_dVEPDP2dA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOXCtItw3yLzpdmNntpmIcrJ8O1Tg7GhedkkuQGmuga3odkVE7vZlwj6z5QHOo2NhV6KyFTvfNLoJWrLu1rTs-JHPckG3nAdFcwftaarv2ks_pFbHPOOeMNlvuUrEe3kjR-97RdvNdeVNu7SmOk0JrnlA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Perchée sur une arête herbeuse vertigineuse à plus de mille mètres d'altitude, entre les communes de Parata et de Monacia-d'Orezza, la chapelle médiévale de San Bartoli (ou San Bertuli) incarne avec force la symbiose séculaire entre spiritualité montagnarde et pastoralisme insulaire. Accessible uniquement à pied au terme d'une rude ascension à travers les sous-bois de châtaigniers et les chênaies d'altitude, ce petit édifice votif d'origine médiévale veille sur les zones d'estives où les troupeaux caprins et ovins montent traditionnellement passer les mois d'été. Sa maçonnerie rustique en blocs de schiste brut montés à la chaux et sa toiture à double pan couverte de lauzes épaisses défient les intempéries montagnardes et les bourrasques de neige hivernales.\n\nLe site constitue un haut lieu de dévotion populaire lors du pèlerinage annuel du 24 août, date à laquelle les habitants et bergers de toute la piève d'Orezza convergent sur cette ligne de crête pour honorer saint Barthélemy, partager le repas fraternel et perpétuer les liens communautaires. Autour de la chapelle s'activent les bergeries d'estive (stazzu), où la fabrication artisanale du fromage de chèvre et le séchage traditionnel perpétuent les gestes ancestraux de la transhumance corse. Le belvédère naturel offert par l'arête rocheuse dévoile un panorama circulaire d'une splendeur grandiose : vers l'ouest se découpent les crêtes rocheuses du Monte San Petrone et du Monte San Colombano, tandis que vers l'est, la vue plonge directement vers la mer Tyrrhénienne et les silhouettes bleutées des îles de l'archipel toscan par temps dégagé.",
+    visiter: "L'itinéraire de randonnée démarre à la sortie de Parata pour s'élever le long d'un sentier muletier séculaire ombragé de châtaigniers centenaires avant de déboucher sur les croupes herbeuses dégagées de la crête. À l'arrivée sur le plateau sommital, la halte devant la modeste chapelle en schiste permet de reprendre son souffle tout en admirant la pureté de ses lignes médiévales. Les marcheurs prolongent la découverte en longeant le fil de l'arête vers les bergeries de San Bertuli pour contempler l'immense horizon s'ouvrant simultanément sur les vallées d'Orezza et la côte orientale.",
+    link: ""
+  },
+  {
     id: "paris_grands_magasins_printemps_lafayette",
     name: "Paris - Grands Magasins : Printemps Haussmann & Galeries Lafayette",
     country: "France",
@@ -97,7 +162,8 @@ const SPOTS_2 = [
     era_label: "Joyau du Premier Art Gothique, Rose Nord Rayonnante & Flèche Restaurée (XIIe-XIXe siècle)",
     century: "XIIe siècle",
     category: "religieux",
-    counts: {},
+    unesco_name: "Paris, rives de la Seine",
+    counts: { unesco: 1 },
     lat: 42.85331,
     lng: 2.34928,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPmhPDwBijf3oFsFPAPwSuaWBf0h4O0IhncI5FdWLFIfQfwmyCa6BV3HP6T83_X00W7KjDjtCHcqUorT44ij-6U63DNcYMpKHkEfyqjoib4rhWCgxVonPNvaMqsCu3HFVrY3O2JijTMYgrKbcXqamrpcQ=w1373-h919-s-no-gm?authuser=0",
