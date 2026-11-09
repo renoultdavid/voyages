@@ -1,5 +1,63 @@
 const SPOTS_2 = [
   {
+    id: "corte_rando_pont_russulinu_gorges_tavignano",
+    name: "Corte - Randonnée des Gorges du Tavignano & Pont de Russulinu (Ponte di u Russulinu)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Corse",
+    department: "Haute-Corse",
+    subdiv: "Corte",
+    altitude: 780,
+    is_island: true,
+    island_name: "Corse",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Sentier Muletier de Transhumance, Canyon Granitique du Tavignano & Pont Génois (XVIIIe siècle)",
+    century: "XVIIIe siècle",
+    category: "rando",
+    counts: {},
+    lat: 42.29877,
+    lng: 9.09248,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPUircqCOC2opv_7Gdj5GU6T0a1LnLhGq9UIc5z3yN8Tz8CPgn8f1a52DcbDooZDzJYgQR4I03IWEtR85uf0ILkLZWSMajr_112F-q2Q9kgThIJ3b6aYrtPg49mmTfqCziK9BTBqI48HgcCddjIpRdXWA=w1379-h919-s-no-gm?authuser=0",
+    description: "Sinueuse entaille rocheuse creusée au cœur du massif central corse, la vallée du Tavignano abrite l'un des canyons les plus spectaculaires, sauvages et préservés de l'île, accessible uniquement aux marcheurs par un sentier muletier séculaire. Cette antique voie de communication, foulée pendant des siècles par les bergers transhumants reliant la cité historique de Corte aux hauts plateaux pastoraux du Niolu, serpente en corniche le long des gorges granitiques au-dessus des remous du plus long fleuve de Corse. Le chemin s'élève en balcon régulier au milieu d'un maquis odorant où s'entremêlent arbousiers, cistes cotonneux, bruyères arborescentes et genévriers de Phénicie enracinés dans les anfractuosités des parois de schiste et de granite blond. L'absence totale de piste carrossable confère à cette traversée une atmosphère d'isolement absolu et de sérénité primitive, bercée par le grondement continu du torrent qui résonne au creux des défilés.\n\nLe dénouement de cette marche emblématique révèle le site enchanteur de Russulinu, où se dresse le vénérable pont génois de Russulinu (Ponte di u Russulinu), hardi ouvrage d'art en maçonnerie de pierre sèche franchissant d'une arche unique en plein cintre le lit tumultueux du fleuve. Construit à l'époque génoise pour sécuriser le passage des convois de bêtes de somme et des troupeaux de brebis face aux crues dévastatrices de la fonte des neiges, l'édifice s'intègre avec une noblesse parfaite dans son écrin de pins laricio centenaires et de pitons rocheux déchiquetés. Sous la courbure de la travée de pierre, les eaux cristallines aux reflets vert émeraude s'apaisent dans une succession de vasques naturelles profondes et de piscines rocheuses polies par les millénaires, offrant une oasis de baignade vivifiante au cœur du parc naturel régional de Corse avant d'amorcer le retour ou de poursuivre l'ascension vers le refuge de la Sega.",
+    visiter: "La randonnée débute au pied de la citadelle de Corte par le sentier balisé des gorges du Tavignano, s'élevant en lacets réguliers sur la rive droite pour contempler les échappées plongeantes sur les falaises abruptes et le défilé du fleuve. Les marcheurs franchissent les ruisseaux secondaires ombragés et les terrasses d'anciennes bergeries ruinées avant d'amorcer la descente vers le pont de Russulinu, où une pause s'impose pour contempler l'arche génoise en pierre, se rafraîchir dans les vasques d'eau émeraude et admirer les cimes de granite ceinturant la vallée.",
+    link: "",
+    sections: [
+      {
+        title: "Progression en balcon sur le chemin caladé et flore du maquis",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPUircqCOC2opv_7Gdj5GU6T0a1LnLhGq9UIc5z3yN8Tz8CPgn8f1a52DcbDooZDzJYgQR4I03IWEtR85uf0ILkLZWSMajr_112F-q2Q9kgThIJ3b6aYrtPg49mmTfqCziK9BTBqI48HgcCddjIpRdXWA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOfEf2fqWQ_aIOJQWg3GVQwFX5d0INx243qCkAIEYG-HTbjUO_j7LhrDwy7maDGxDgEZlbSw4k_VIOYgLr-aq8bGZMn2h4a43q8QPW1gfDFpDrIyjv3L-0Qtvzp8Xn9CoalyIhnWUPl6JuJ-feaZG8ZLQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La progression s'effectue en balcon sur un chemin caladé, bordé d'un maquis dense où dominent les cistes de Montpellier, les arbousiers, le myrte, les chênes verts et les genévriers nains accrochés aux dalles de schiste et de granite."
+      },
+      {
+        title: "Panoramas plongeants sur les falaises et les méandres du Tavignano",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMAZkhGKSTlhUW_HF6ZakE5TDg0Xl6c5qsWAFAJrGgrBjsD280KfAifMxmdiGYr_lx7hNXmjtD4DHpy4e2Qz_KCHOyDtB0ncaDslND8eEmO5qgQ3vUIOobV4sWslr22i36M2SIF34zJZdx-VZK8AnZVrw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczObdzF1LZlABsDrwUE7Ct-CnYtHEk6GSp1ZK1lzpvVYYpJS8NWJIfEIqkvcic89gxQ_SgX-nQ6lXiaNh7fcFiWsTEnfDwCU_dt_fiB2dUzfRgbv74Vr7sNIzzYxaBa9Y9svgi1JRD9juNlAyRWyHa6CcA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'itinéraire s'élève d'abord avec constance le long des flancs ensoleillés de la rive droite, offrant des panoramas plongeants et vertigineux sur les méandres encaissés du Tavignano et sur les falaises abruptes qui canalisent la vallée."
+      },
+      {
+        title: "Ravins ombragés, bergeries en pierre sèche et approche de Russulinu",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOMMIrMdNBit4zpbgNOsss7C8ZmUw394QWAs8yCuFslfPQCO_Eknd-QogdnX0Khwr9rFTMFCqytEj7NAdzMwJmhIUMpTOmf3pOuFugOeLkJd7YQ6URDOIVB2NgCiUUbCtEZSMVrvBwPkFw-drPUupATvQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Après avoir franchi plusieurs ravins ombragés et dépassé les ruines de modestes bergeries de pierre sèche, le sentier s'adoucit à l'approche du secteur de Russulinu avant d'amorcer une descente progressive vers le lit du torrent."
+      },
+      {
+        title: "Le Ponte di u Russulinu et les vasques émeraude du Tavignano",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPPBY6jLbD1MjdFXEVWNMR5NWCLocEes4OMp5umtEV6spJtd0YperhWtSRtzV3DWYJPYZhfe-G2IsgLKP9ZOJ3FADLycHck4tXtxugq4KTT0P8JEs41b-y8GWwSwZxz6soMs8RAUFigSl99DvwriHzmGw=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPuQgRQiKqWM0EzaKoan26T4sO5WIvk6GL-v-acga7jErEnJl2Fkt9DX-HVk2F_N17OPTiO_QQ6oWmuc9Ni8ERtk7h9CNzY4QpldxdC9QIJux6wDYDkz5mh4UJiEK1NmDDKjEBDyx-uGmhTimJGO2MVgA=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'arrivée sur le site révèle le Ponte di u Russulinu dressé au milieu d'un cirque de falaises boisées de pins laricio.\n\nSous la voûte du pont, le fleuve s'élargit en une enfilade de vasques naturelles profondes et de cascades limpides, offrant une halte de fraîcheur au cœur d'un environnement montagnard grandiose."
+      }
+    ]
+  },
+  {
     id: "parata_eglise_saint_gavin",
     name: "Parata - Église Paroissiale Saint-Gavin (San Gavinu d'Orezza)",
     country: "France",
@@ -13,7 +71,7 @@ const SPOTS_2 = [
     island_name: "Corse",
     transport: "a_pied",
     era_group: "moderne",
-    era_label: "Baroque Rural de Castagniccia, Fondation Romane & Belvédère d'Orezza (XVIIe siècle)",
+    era_label: "Façade-Retable Baroque en Pierre de Schiste, Niches d'Applique & Belvédère d'Orezza (XVIIe siècle)",
     century: "XVIIe siècle",
     category: "religieux",
     counts: {},
@@ -21,8 +79,8 @@ const SPOTS_2 = [
     lng: 9.40635,
     image: "https://lh3.googleusercontent.com/pw/AP1GczNIMFGEGxw5Fpztb7R4-N54ywH8WU9eqH-anZY4nvazHvXURSRX6ab7Mf0mvaphFEgb12x7FVMt0Orku2CNvWieOfkHpxNPL5U2SBfK4PLx9w5pST7Oc7cIWYj7RQeVvanXMpumPxEvxlumaSssnXa7QA=w1379-h919-s-no-gm?authuser=0",
     gallery: [],
-    description: "Au cœur de la haute vallée d'Orezza, l'église paroissiale Saint-Gavin (San Gavinu) veille sur le village étagé de Parata depuis l'éperon du Monte della Parata, cerné d'une immense forêt séculaire de châtaigniers. Mentionné dès 1589 lors de la visite pastorale de monseigneur Mascardi, le sanctuaire plonge ses racines dans une modeste chapelle médiévale romane qui fut profondément agrandie et remaniée au cours du XVIIe siècle sous l'influence du baroque liguro-corse. Bâtie en schiste lustré local et couverte d'un toit traditionnel de lauzes sombres (teghje), l'église présente une sobre façade occidentale à deux registres superposés, couronnée par un fronton triangulaire classique que perce une baie campanaire ajourée. Son clocher latéral à trois étages s'élance avec fierté au-dessus des toitures en ardoise du village, dialoguant visuellement avec les reliefs environnants dominés par la crête altière du San Petrone.\n\nL'intérieur déploie un vaisseau unique d'une grande ferveur montagnarde, rythmé de chapelles latérales voûtées en berceau ornées de retables en stuc polychrome, d'autels en maçonnerie peinte et de précieuses bannières de procession de confrérie brodées de fils d'or et de soie. Le saint patron Gavin, martyr chrétien décapité en Sardaigne sous Dioclétien dont le culte fut introduit en Corse à l'époque médiévale, y fait l'objet d'une vénération communautaire très vivace célébrée chaque automne. De son parvis herbeux suspendu entre ciel et maquis, le regard embrasse les hameaux perchés d'Orezza et le moutonnement végétal des crêtes jusqu'aux contreforts de la plaine orientale.",
-    visiter: "Une montée par les ruelles pavées de Parata conduit au parvis surélevé de l'église, offrant un point de vue panoramique remarquable sur la vallée encaissée du Fium'Alto et les châtaigneraies monumentales de Castagniccia. La contemplation de la maçonnerie en moellons de schiste permet d'apprécier la rudesse et l'élégance de l'architecture religieuse rurale corse, avant d'observer les détails du portail sculpté et le campanile carré dominant les jardins en terrasses.",
+    description: "La haute vallée d'Orezza dissimule à Parata l'une des façades baroques les plus théâtrales et inattendues de la Castagniccia montagnarde, dressée en belvédère sur une paisible esplanade gazonnée ombragée de marronniers et de mûriers. Bâtie en moellons de schiste et de grès ocre laissés à pierre vue, l'église paroissiale Saint-Gavin (San Gavinu) déploie une façade-retable monumentale à trois registres étagés, dont la composition classique rigoureuse contraste admirablement avec la rudesse minérale du site. Le soubassement s'articule autour d'un portail rectangulaire encadré de pierre appareillée, accosté de hauts pilastres plats et de deux profondes niches aveugles destinées à accueillir la statuaire dévotionnelle. L'étage intermédiaire prolonge ce rythme harmonieux avec une grande baie centrale en plein cintre qui inonde la nef de clarté, flanquée de part et d'autre de niches rectangulaires en ressaut délimitées par des pilastres doriques.\n\nLe couronnement sommital s'achève par un édicule central majestueux formant campanile, percé d'une baie axiale cintrée et coiffé d'un fronton cintré en forme de calotte que surmonte une fine croix en fer forgé. De puissantes volutes baroques adoucissent la transition entre les différents niveaux, ponctuées sur leurs corniches de pots à feu et d'acrotères sculptés qui découpent la silhouette du sanctuaire sur le ciel méditerranéen. Cette scénographie d'inspiration liguro-romaine, conçue au XVIIe siècle pour frapper l'imagination des paroissiens lors des fêtes de la confrérie et de la saint Gavin, témoigne de la vitalité artistique qui animait les communautés villageoises de l'intérieur de l'île. Depuis le banc de pierre installé sous le feuillage doré au pied de la nef, le panorama s'ouvre sur les reliefs boisés de la combe et l'amphithéâtre verdoyant des châtaigneraies séculaires de la piève.",
+    visiter: "Une montée par les ruelles pavées de Parata conduit au parvis herbeux de l'église, offrant un point de vue panoramique exceptionnel sur la vallée encaissée d'Orezza et les crêtes boisées environnantes. L'observation de la façade en pierre apparente permet de détailler la superposition des pilastres plats, les niches murales sculptées et le fronton en dôme couronné de sa croix en fer forgé. Les visiteurs s'assoient sur les bancs de l'esplanade ombragée pour apprécier le calme montagnard avant de contempler l'alignement des villages perchés de Castagniccia.",
     link: ""
   },
   {
@@ -164,8 +222,8 @@ const SPOTS_2 = [
     category: "religieux",
     unesco_name: "Paris, rives de la Seine",
     counts: { unesco: 1 },
-    lat: 42.85331,
-    lng: 2.34928,
+    lat: 48.85331,
+    lng: 2.3497,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPmhPDwBijf3oFsFPAPwSuaWBf0h4O0IhncI5FdWLFIfQfwmyCa6BV3HP6T83_X00W7KjDjtCHcqUorT44ij-6U63DNcYMpKHkEfyqjoib4rhWCgxVonPNvaMqsCu3HFVrY3O2JijTMYgrKbcXqamrpcQ=w1373-h919-s-no-gm?authuser=0",
     description: "Ancrée au berceau de l'île de la Cité au cœur géographique et spirituel de Paris, la cathédrale Notre-Dame s'impose comme le chef-d'œuvre universel du premier art gothique et le témoin magistral de huit siècles d'histoire de France. Lancée en 1163 par l'évêque Maurice de Sully avec le soutien du roi Louis VII, sa construction s'échelonna sur près de deux siècles pour s'achever vers 1345, mobilisant des générations de maîtres d'œuvre anonymes qui inventèrent les solutions techniques les plus novatrices de leur temps, au premier rang desquelles les arcs-boutants audacieux à double volée franchissant d'un seul jet les collatéraux pour épauler la voûte centrale. Théâtre du sacre de Napoléon Ier en 1804, sauvée de la ruine au XIXe siècle par la ferveur populaire née du roman visionnaire de Victor Hugo, elle connut entre 1844 et 1864 une restauration monumentale menée par Eugène Viollet-le-Duc qui recréa la Galerie des Rois décapitée sous la Terreur et érigea sa célèbre flèche culminant à quatre-vingt-seize mètres.\n\nLe monument a surmonté avec une résilience héroïque l'épreuve du dramatique incendie du 15 avril 2019, dont les images de la flèche s'effondrant dans un brasier de braises émurent la planète entière sans parvenir à faire fléchir la solidité de sa nef en calcaire lutétien. Un chantier de reconstruction et de restauration sans précédent dans l'histoire moderne a permis de reconstruire à l'identique la charpente de chêne massif dite « la forêt », d'ériger de nouveau la flèche de Viollet-le-Duc et de nettoyer la blondeur originelle de ses voûtes sexpartites hautes de trente-cinq mètres. Sa façade harmonique occidentale, scannée de trois portails sculptés dont le grandiose Jugement Dernier, abrite la prestigieuse Rose Nord rayonnante du XIIIe siècle restée miraculeusement intacte avec ses verres bleu cobalt, perpétuant à nouveau l'accueil des fidèles et des voyageurs du monde entier au cœur de la capitale.",
     visiter: "La découverte débute sur le parvis Jean-Paul II en cherchant au sol la dalle de bronze marquant le point zéro des routes de France, avant de contempler l'équilibre parfait de la façade occidentale tripartite et la frise des vingt-huit statues colossales de la Galerie des Rois. Le franchissement du portail central permet de s'engager sous les voûtes de pierre calcaire blonde de la nef pour admirer le déploiement de la double rangée de collatéraux et la verticalité du vaisseau central. Le parcours mène au transept pour s'arrêter en contemplation devant les reflets bleutés légendaires de la Rose Nord de Jean de Chelles, avant de contourner le chevet par le square Jean-XXIII pour détailler l'envolée arachnéenne des arcs-boutants et la silhouette restaurée de la flèche.",
