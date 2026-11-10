@@ -1,5 +1,120 @@
 const SPOTS_2 = [
   {
+    id: "buenavista_centro_visitantes_teno_montana_el_palmar",
+    name: "Buenavista del Norte - Centre des Visiteurs du Parc Rural de Teno & Montaña de El Palmar",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 526,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Maison du Parc Rural de Teno, Carrière Volcanique d'El Palmar & Flore Macaronésienne",
+    century: "Temps géologique",
+    category: "parc_naturel",
+    counts: {},
+    lat: 28.34226,
+    lng: -16.85106,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMnSg6gLFb8gTTDQXn3fK-C29ux0FE8ah7FACGTOjzTPXSqMp497O0DrlY9s-p3kAt8OYhv81EuP7QO_TZw_08aEtHw1jRej1X5Co8FGItyI9g9flyn15I5t9XoFjZTFXjVF2pzzQ9oIusiOjuL3pwG1w=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMJNFstqgsAduXuqc8CS0PVS1F1bBQCLxZ-biGrN1EB7N1iWj5ClB5NK_nMFklYvCqnyAkSm6irWR8qmZlcXcKEtD9D7u7bgzSAz6kMYm2o2S2MaASADWnkSbXvfCWJ5vy30dT_5EZCViovid5yataVwQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "Le dragonnier des Canaries (Dracaena draco) est un arbre emblématique de la Macaronésie à la silhouette en parasol caractéristique.\nSa croissance est très lente et il ne possède pas de cernes de bois, formant une ramification dichotome environ tous les 10 à 15 ans après chaque floraison.\nIl sécrète une sève rouge foncé appelée « sang-dragon », traditionnellement utilisée comme colorant, vernis et remède médicinal.\nParticulièrement adapté à la sécheresse, il prospère dans les sols pauvres et bien drainés sous un climat méditerranéen ou subtropical doux.\nCertains spécimens historiques, comme le célèbre Drago Milenario d'Icod de los Vinos à Tenerife, atteindraient plusieurs siècles d'existence."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN7tp-yzVbfKkLt3i4PIfuE2KaBnNqhSYyUSf-NP8dltb0hRGg3LQSRXThJTNzwBTw4zkoKwpuvPTC2oLE7WG7E1zFseI7kiAhJYORLvADaVZYfSxqCsnVTgNyDvmX1_jCDEpBB8W133PFdLN9s__rbkQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOcZ4f0LH6RXGzS9qSC3-j7xHlLTa5VYD1YY_2F3ZdLkGkmkZ-BSydZEjakfn3EpMq6jLlFqcLPPJF7kO57ADuGCimLDv-8H85__CRIT46J8dRva9tV0QE90cYJmivO6aGh1b8NhdZ_HWgU5-YgBJboEg=w1379-h919-s-no-gm?authuser=0",
+        caption: "Sur les coulées de lave brute et les versants arides de l'ouest de Tenerife, le Kleinia neriifolia — ou verode — s'impose comme une silhouette presque architecturale du paysage basaltique. Accroché directement aux fissures de la roche volcanique et aux falaises côtières du Teno ou des pentes du Chinyero, cet arbuste succulent dresse de gros troncs segmentés, cylindriques et d'un gris-vert cendré, marqués par les anneaux réguliers laissés par les anciennes feuilles.\nSon cycle de vie colle étroitement à la rudesse du climat d'altitude basse : dès que l'aridité estivale s'installe, il sacrifie l'intégralité de son feuillage pour éviter tout dessèchement. Il passe alors les mois les plus chauds sous la forme de candélabres squelettiques et nus, la photosynthèse n'étant plus assurée que par l'épiderme charnu de ses tiges gorgées d'eau."
+      }
+    ],
+    description: "Installé dans la haute vallée fertile d'El Palmar au cœur du massif occidental de Tenerife, le Centre des visiteurs du Parc rural de Teno (Centro de Visitantes) constitue le point d'interprétation incontournable pour comprendre l'extraordinaire richesse géologique, écologique et ethnographique de ce territoire montagneux d'exception. Aménagé dans une ancienne bâtisse d'architecture vernaculaire canarienne en pierre volcanique et bois de pin tea, le centre présente au public les spécificités d'un des trois massifs pionniers de l'île, formé au Miocène il y a plus de sept millions d'années. Les expositions et les jardins botaniques entourant le complexe mettent en lumière la végétation d'une diversité saisissante, où alternent les reliques de la forêt primaire de laurisylve dans les vallons humides et les formations xérophiles et thermophiles sur les pentes arides, remarquablement illustrées par des spécimens de dragonniers des Canaries (Dracaena draco) et de verodes (Kleinia neriifolia) dressés en candélabres charnus.\n\nLe paysage est dominé par la silhouette insolite et spectaculaire de la Montaña de El Palmar, un cône volcanique de scories sombres dont les flancs portent les profondes cicatrices d'une ancienne exploitation d'extraction de sables pyroclastiques (picón). Ces gigantesques entailles en gradins, creusées au cours du XXe siècle pour alimenter les besoins en matériaux de drainage des cultures maraîchères de la plaine littorale et les constructions de l'île, composent aujourd'hui un paysage géologique sculptural unique évoquant une carrière antique monumentale à ciel ouvert. Entre les terrasses de culture vivrière étagées au fond de la caldeira d'El Palmar, les haies d'agaves et les sentiers de randonnée rayonnant vers les crêtes de Teno Alto et les gorges de Masca, le site incarne la symbiose historique entre les ressources telluriques insulaires et la patience des communautés paysannes de l'ouest de Tenerife.",
+    visiter: "Une halte au centre des visiteurs d'El Palmar permet de parcourir les salles d'interprétation interactive et d'admirer les collections botaniques de plantes endémiques canariennes réunies dans les jardins pédagogiques. Les promeneurs prennent le temps d'observer le profil entaillé de la Montaña de El Palmar, dont les parois de scories découpées en amphithéâtre géant révèlent la structure interne du cône volcanique, avant d'emprunter les sentiers balisés menant vers le plateau pastoral de Teno Alto.",
+    link: ""
+  },
+  {
+    id: "buenavista_parc_de_teno_alto",
+    name: "Buenavista del Norte - Plateau Pastoral de Teno Alto (Los Bailaderos & Crêtes de Teno)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 707,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Plateau d'Altitude Pastoral, Cultures en Terrasses, Architecture de Crête & Queso de Teno",
+    century: "XVIIIe siècle",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 28.34835,
+    lng: -16.88037,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPTijkEvUGnOG2mqAbu1NX99Dl7TC4lek0X2-or0nmE-TiHyidtjLnzcmuei0JdpYqnT1L_K0ZgqYGqJDB42uDLCgdjdrU3cXbbf_xc0A-vA6egUtyr2Ars4RLdpJLXJAUjDr2onocCtbGs6CHgDVfZSQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Perché sur un haut plateau balayé par les alizés à plus de sept cents mètres d'altitude, à l'extrémité occidentale de l'île de Tenerife, le secteur de Teno Alto constitue l'un des sanctuaires ruraux et ethnographiques les plus authentiques et préservés de tout l'archipel canarien. Isolé pendant des siècles par un relief d'une verticalité vertigineuse, ce terroir montagnard a conservé vivantes les pratiques agropastorales traditionnelles transmises depuis l'époque des populations aborigènes guanches. L'ensemble de la comarque se distingue par un paysage culturel prodigieux façonné par des générations de paysans : les versants des collines basaltiques sont entièrement sculptés d'un lacis dense de murets de soutènement en pierre sèche (bancales), édifiés avec patience pour retenir la terre fertile face aux averses et valoriser l'humidité apportée par la condensation permanente de la mer de nuages. Cette agriculture vivrière séculaire fournissait l'orge et le blé nécessaires à la confection du gofio traditionnel, battus sur de monumentales aires circulaires dallées de pierre (eras) toujours dressées au vent sur les arêtes rocheuses.\n\nLe cœur communautaire du plateau s'articule autour du hameau de Los Bailaderos, dont les maisons basses caractéristiques de haute montagne (casas de cumbre) associent de massifs blocs de basalte montés à la chaux, d'anciennes toitures en tuiles canal cuites sur place dans des fours traditionnels (hornos de teja) et d'épais murs conçus pour amortir les rigueurs du vent océanique. L'économie des lieux demeure intimement liée à un élevage caprin extensif remarquable : les troupeaux de chèvres de race canarienne parcourent les landes de thym volcanique et de bruyères arborescentes pour donner le prestigieux Queso de Teno, fromage artisanal au lait cru réputé pour sa saveur unique. Depuis les lignes de crête bordant le plateau, notamment au mirador d'Altos de Baracán marquant la frontière climatique saisissante entre versant nord brumeux et versant sud solaire, la vue plonge vertigineusement sur les falaises maritimes de la Punta de Teno et les abîmes des gorges de Masca, célébrant la rencontre souveraine d'un pastoralisme d'altitude et d'une géologie volcanique titanesque.",
+    intro_page: "Suspendu à plus de sept cents mètres d'altitude au cœur du massif le plus ancien de Tenerife, le plateau de Teno Alto forme un isolat pastoral d'une saisissante beauté préservée. Façonné par des siècles de traditions rurales, ce paysage d'exception déploie un réseau monumental de terrasses de culture en pierre sèche et d'aires de battage circulaires battues par les alizés. Autour du hameau traditionnel de Los Bailaderos, les maisons basses en basalte côtoient les fours à tuiles séculaires et les bergeries où se perpétue la fabrication artisanale du réputé fromage de chèvre de Teno. Véritable belvédère naturel suspendu entre ciel et terre, la crête offre des perspectives plongeantes vertigineuses reliant les falaises atlantiques de la Punta de Teno aux crêtes déchiquetées du canyon de Masca.",
+    visiter: "Parcourir à pied les sentiers dallés reliant le hameau de Los Bailaderos aux différentes parcelles cultivées pour observer les alignements séculaires de terrasses en pierre sèche et les anciennes aires de battage de céréales. Pousser la porte d'une fromagerie artisanale locale pour déguster le fromage de chèvre au lait cru de Teno Alto, avant de grimper jusqu'aux crêtes du mirador Altos de Baracán afin d'expérimenter la frontière climatique entre brume et soleil tout en contemplant la vue plongeante sur l'océan Atlantique et les falaises de Masca.",
+    link: "",
+    sections: [
+      {
+        title: "Modelé des versants et murets de terrasses en pierre sèche (bancales)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPTijkEvUGnOG2mqAbu1NX99Dl7TC4lek0X2-or0nmE-TiHyidtjLnzcmuei0JdpYqnT1L_K0ZgqYGqJDB42uDLCgdjdrU3cXbbf_xc0A-vA6egUtyr2Ars4RLdpJLXJAUjDr2onocCtbGs6CHgDVfZSQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMmcork3nOeN1n8EGI4aZd_a9FNx6b2Jy4c1SsglZ9c3V31yUmmTBSp0uGI-Ok0nsM4-j1h52_fBD55rVksryDQGbRZmHsuzmvBkUhVz984VWQ1XIvKuBIholq_-SY0FIKrOsp5Dz9VzqpKt5ZDrO4l4g=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le trait marquant de cette haute plaine réside dans le modelé de ses versants, sculptés par un ingénieux système de cultures en terrasses (bancales ou paredones). Pour arracher des terres arables aux pentes rocailleuses et retenir les maigres sols fertiles contre le ravinement des averses, les habitants ont édifié au fil des générations des kilomètres de murets de soutènement en pierre sèche."
+      },
+      {
+        title: "Polyculture vivrière traditionnelle et aires de battage circulaires (eras)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPPnKCk0tgPcsPsiRFbsS_dv1SmEnxHsXA7jEI4ajCv5ji0Exc6bONGwC2pFMt1aDRZoD_iJUyhbQC-bN7LXqFoftvofDl2v0oUiHxh7Weht7yfPaB3fGGi_9HfDEOnD3bP3qDALAJfv7EYh1YlYbFdoA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOsrTGGTBdwvfw1mNg4bnsoCcFzmgTBzqsmoq17BlI8jFL3AL8mPEPupz93iS3DYOwj2Vor1AnvEY7U68_1uhll5OGfRmKq9M3ImfNbmVQP--SEpm9adRj5KnZ6np7C3iI-RjhOOCxXsfWHdRhWNybJ4w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Ces terrasses étagées tirent un parti optimal de l'humidité atmosphérique apportée par la brume orographique des alizés, permettant une polyculture vivrière traditionnelle autrefois essentielle à l'autosuffisance de la comarque : céréales de montagne comme le blé et l'orge destinées à la mouture du gofio, fèves, pois chiches, oignons, ainsi que des variétés anciennes de pommes de terre locales (papas bonitas et papas negras). Sur les crêtes bordant ces parcelles subsistent de remarquables aires de battage circulaires (eras), soigneusement pavées de galets et de dalles volcaniques, où le bétail piétinait les gerbes de céréales au vent pour en séparer le grain de la paille."
+      },
+      {
+        title: "Le hameau de Los Bailaderos, architecture vernaculaire et pastoralisme caprin",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO4h3VvybB39YDoVxt9eb4tkZYMd_tyoeW63uYH530Yj0EM-Ia3lkVgAJa_8Yvv6kIlFKlrk_iMCj0wE29yy2Td7NcCBw9mWLENMyI56Xs_rwZz0FSBCalzcYkEHWQocz8PieRkdm4jhIbSK1FocRNcVA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPAuTdzA5fF4_q8GM3DS2AU2EHDKoYHrffn6bwBUbcdhsu7cRgNvc2BFIT2KRW-8QOkWG3-9KYrzk4RFaVenhReUfRZw6WqKGZcQ_0YV4prxzAHzelskrT_8fad0K0oAM_jOOuEK2Cd3NfbB1NvX4E22A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'agglomération principale s'organise autour du hameau de Los Bailaderos, dont le toponyme évocateur renvoie aux rituels de danses et d'invocations de la pluie pratiqués par les anciens autochtones guanches sur les hauteurs dénudées du plateau. Depuis les abords du Mirador de Teno Alto, le paysage dévoile un ensemble exceptionnel d'architecture vernaculaire canarienne (casas de cumbre), caractérisée par des maisons basses rectangulaires aux épais murs porteurs en blocs de basalte sombre jointoyés à la chaux ou montés à sec, conçues pour résister aux assauts du vent et amortir les écarts thermiques. Ces demeures sont couronnées de toitures à deux ou quatre pans couvertes de tuiles courbes traditionnelles en terre cuite, souvent adossées à d'anciens fours à pain hémisphériques en pierre volcanique et à des fours à tuiles (hornos de teja) qui permettaient aux villageois de produire leurs propres matériaux de construction à partir des argiles rouges locales. L'économie vivante du plateau repose toujours sur un pastoralisme caprin profondément enraciné, structuré autour de petits troupeaux de chèvres canariennes adaptées aux parcours accidentés des crêtes. Ces animaux valorisent les pâturages maigres de thym volcanique, de cistes et d'ajoncs, fournissant la matière première du réputé queso de Teno, fromage artisanal au lait cru de chèvre à pâte pressée, consommé frais ou affiné et parfois légèrement fumé au bois de bruyère arborescente."
+      },
+      {
+        title: "Ligne de partage des crêtes au Mirador Altos de Baracán et vues océaniques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOJVMNnW1whuzBfcT8Lb2DGOZwI6lXj6HLZLQvYKgJGxtRyK7E3Pa0nGcOUTQ6AjmSoskOe4T31LTGJ6sFvJrrQONixzTs1YYWNY4novOXiArA74YMuvZLmROSx1kBRHlhlxANWYtdqxlTN6by0OafPuw=w1378-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNaIsOxgQvkklFEHKqLMw7enRc43juVWTGeWbqFcV-UF6MP1DIVMgEZBp-5ar3HSi35cRPdeZQOYRNa5NnXSZ9RdcaVMAucJ0vnc1t2RLQMHIAN36j82AZ3ar91u7C4DrX_bF3SsauLErdMCD81eJ0Xig=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En gagnant la crête sommitale au niveau du Mirador Altos de Baracán, qui marque la ligne de partage des eaux et la frontière climatique entre le versant nord humide battu par les nuages et le versant sud aride baigné de soleil, le parcours offre des perspectives vertigineuses : vers l'ouest s'ouvrent les falaises maritimes et la plaine côtière de la Punta de Teno, tandis qu'au sud se détachent les crêtes crénelées de Carrizal et de Masca, scellant l'harmonie entre un terroir pastoral millénaire et la rudesse géologique insulaire."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNnF8wL2xE6FDo45mSYXWR2c7qN4h_3wFrskgDT_7uIrt7nVq-Hv91xAWHb4KsvUR4PqEMyfhChs8s7o2em1qAXrD76lk4OD2KZMFgRg_KsWkyfiR6rdYug4Q499_ukMK5DXzy7h3YC2AkgsksPyoHKbw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMqa2rb6vEd87r1QyS4PFi3WSfPa4uZ70Lqw29VSXFL5MUQZJGDdzIi5-tRYyybMhs4184aJXaCNJpNkt2Vnuee0xGHGujaCUYeMPm6Qt4TRYKBLdZ9c64dZnXCbyVDy9GoYVtgZzc8qPtJwq1CFZTlOA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNb7DtuEUq9nT2ITonVhX8_1jTDfY-XIIJtlt1ds7TMOPjZMAu3S_59fbITaUR_fbOSWYRxQXRGbqF5AYKMEk1HgEjmRPt2YFUHbO5803QPbcvYl2PL7vd3hmT9lm7YIzHoztxxX-jAkoCU7NBDyMBorg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNbqoVZHi0qfMd0J4w74HP_6o2q-2cOax0ogPFYBlZgFJXdw_rz6FxhmHf6cAK1xdSV-zqhzS4fFy2yOAcenDSD95U6KBQWtEUAV_PBpbqICehJk9_aqAN5uoVnv7TOd6qDHfd1WfIwQ9EwIDeor-276w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
     id: "la_guancha_charco_del_viento",
     name: "La Guancha - Piscine Naturelle du Charco del Viento",
     country: "Espagne",
