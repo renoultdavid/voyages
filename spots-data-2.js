@@ -1,5 +1,82 @@
 const SPOTS_2 = [
   {
+    id: "anaga_tunel_de_las_hadas",
+    name: "Tenerife - Tunnel des Fées (Túnel de Las Hadas - Camino Viejo al Pico del Inglés)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Santa Cruz de Tenerife",
+    altitude: 987,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Tranchée Forestière Historique, Voûte Végétale de Laurisylve & Chemin Encaissé",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.53495,
+    lng: -16.26856,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPytWOEPpr_Cdy22yP-jACEeFGu6SHbrA1bsiISs3aWN0BlNy4bimBpPzwM-PfHjTjwq3Njl3V6wwA8GZgVmflczar4karjwx3loA2rdtSwDIVvyE-nZPlsoDd0IgbfKOjNoq3IOgG3gvA0nW7T4iZRNg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Niché sur la ligne de crête sommitale du massif d'Anaga, à proximité immédiate de la bifurcation menant au sommet du Pico del Inglés, le site féerique du Túnel de Las Hadas (communément désigné sous le nom de Camino Viejo al Pico del Inglés) constitue l'un des passages paysagers les plus mystiques et emblématiques de l'archipel canarien. Ce boyau encaissé spectaculaire n'est pas un tunnel creusé sous la roche mais une profonde tranchée routière taillée à flanc de crête au cours du XXe siècle dans le substrat meuble d'argiles rouges et de cendres volcaniques altérées, vestige d'une ancienne voie de communication abandonnée au profit du tracé actuel de la route TF-114. Au fil des décennies, la nature sauvage a totalement réinvesti cette entaille artificielle, sculptant un couloir végétal d'une verticalité saisissante où les parois de terre ocre sombre, hautes de plusieurs mètres, sont devenues le support d'un écosystème bryophytique et ptéridophytique foisonnant entièrement tapissé de mousses gorgées d'eau, de lichens et de petites fougères ruisselantes.\n\nAu sommet de ces parois abruptes, les vénérables lauriers des Canaries (Laurus novocanariensis), viñátigos et bruyères arborescentes (Erica arborea) de la forêt primaire de laurisylve étirent leurs branches noueuses et tortueuses d'un bord à l'autre du passage. Leurs couronnes enchevêtrées se rejoignent au-dessus du chemin pour former une voûte végétale continue et translucide filtrant une lumière tamisée verdâtre, accentuée par les lambeaux de brume humide déposés en permanence par les alizés marins. Les racines aériennes des arbres, mises à nu par l'érosion des talus, pendent comme des lianes suspendues le long des parois argileuses, conférant à ce défilé silencieux une atmosphère de conte de fées et de jungle primitive qui en fait l'un des lieux les plus photographiés et poétiques du Parc rural d'Anaga.",
+    visiter: "S'arrêter au croisement de la route menant au Pico del Inglés pour s'engager à pied dans l'allée encaissée du Camino Viejo. Les promeneurs cheminent sous la voûte serrée de branches moussues en observant les parois argileuses verticales tapissées de mousses et les racines d'arbres retombant dans le vide, avant de contempler les jeux de lumière et les volutes de brume glissant à travers le tunnel végétal.",
+    link: ""
+  },
+  {
+    id: "anaga_mirador_pico_del_ingles",
+    name: "Tenerife - Belvédère du Pico del Inglés (Mirador Pico del Inglés)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Santa Cruz de Tenerife",
+    altitude: 971,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Crête Centrale d'Anaga, Balcon Panoramique à 360 Degrés & Avifaune Forestière Endémique",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.53253,
+    lng: -16.26384,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMVpcapf9UfxvCHmcV4ofzDAO6Y6xpCnvgH-CqcVgLjMZTU2D73_v0xpYre08zyNnARCoABXh3ezCmt0TRopTRewYVIt28B8xsPDmgZtSLYTElJWIEFXevz9b_jQQKdpi-gpktoe0qeJHzK45usijisOQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM-il07HPJFowlM4zISE8l3nAwVpz3259uE91dla2mdLFrWyoU8REqy48Bre_puIQjR9KUcrneS5J5YzJXMGUabeOwyGNpqyQQiCbCsXVbiW7ppV6fHqkTQRA3FkTxqOCJYi1kPrXEQYQs0RatiV3_Mgg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPiDN3dSyUtZjNZeFDUwsXFfFRbvDfUBDAwzMttXOi7rd-CwoOODPIBEQwouU201XxrwsqrhNSOlupjo6GpXlsaOUxI4zCCFxcLgHW2OrrsKNU94QzAsNfCdHrnuHAJpw6LgB97SK9q3qfNsQYgY_J_8w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO6PJSwVjcSnk8E7_E8fpXWPnBkgt8sG_N0sluDAuJe6YKqpkFjD1gDSiejitg_SRSzunAZmrCDVu7TpJybd8jpm_p9GSziSKHw0CkQdOBYCr13tVyHTtweCznyXSpLigshi-mCFOSlClvMUV7s7RO3ag=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMWEiA_iaNHqsqGNfsYGUtAzrTwjEnBzfagoBxwzA_pX_kdIe6Pk_qrWGhJG1Ki7e15TvH5f2dBm8GAqyFvsOGRecxJN7_QeDFWRNFiZcIWTSPoRey0o7eJqbap7_-dxUee6ntw6XPjKhM_ACLQStJzWA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMvsL41HJuGPSmiVkHdEvi3wlzpcWZELFqXu1hR0v9PVE469W3oULmNHS_5NwU2F2DRv0D6XAuDDWDU4OcNjT5OkAEQZj9TfNmy92809DXdJGW4lNoEGcjLeOBZuQ32PvtlAy7UK9g2ivXwZTL10m0Y4Q=w1379-h919-s-no-gm?authuser=0",
+        caption: "Le Phylloscopus canariensis, ou pouillot des Canaries (localement mosquitero canario), est un petit passereau vif endémique de l'archipel canarien.\nPlus sombre et plus brun-olive sur le dessus que le pouillot véloce continental, il arbore une poitrine chamoisée et des flancs lavés de roux chaud.\nOmniprésent et très adaptable, il fréquente aussi bien les jardins côtiers et les vergers que la laurisylve humide ou la pinède de moyenne montagne.\nIncessamment en mouvement, il inspecte le feuillage à la recherche de minuscules insectes, de pucerons et de larves qu'il capture en voltigeant.\nSon chant sonore, composé de strophes rythmées plus explosives et rapides que le simple « tsip-tsap » européen, résonne à longueur d'année dans les ravins."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMQFqTVLo7BDf9yUgoqFn57MwPSZ9gsxrmzIKaaMdxx0QLzx2vu0yHlTxGklUYYi-ypMI8OrF8W-oY_bFbvhw3h6D6X6kpHm_kpEciPrtQHrJn1oKCirckEfFOakf5E0uCo8upDLwkqPl7eJ9ij07cMSw=w1382-h919-s-no-gm?authuser=0",
+        caption: "Le Fringilla canariensis, ou pinson des Canaries (localement pinzón vulgar canario), est un fringillidé endémique de la région macaronésienne.\nLe mâle se distingue du pinson d'Europe par son dos d'un vert olive profond, une calotte ardoisée intense et une poitrine beige rosée plus sobre.\nTrès répandu dans les îles boisées, il peuple principalement la laurisylve d'Anaga, les forêts de fayal-brezal et les pinèdes de Pinus canariensis.\nSon régime granivore opportuniste s'enrichit au printemps d'insectes, de chenilles et de bourgeons qu'il glane au sol ou sur les troncs moussus.\nSon chant puissant et territorial, décliné en dialectes subtils selon les îles, structure l'ambiance sonore des sous-bois de moyenne altitude."
+      }
+    ],
+    description: "Culminant à près de mille mètres d'altitude sur l'échine dorsale centrale du massif d'Anaga, le mirador du Pico del Inglés offre l'un des panoramas circulaires les plus spectaculaires, vertigineux et exhaustifs de toute l'île de Tenerife. Ce promontoire stratégique doit son nom historique à un voyageur et naturaliste britannique du XIXe siècle qui avait coutume de gravir cette cime dénudée pour étudier la flore insulaire et contempler le grandiose théâtre géologique de l'archipel. Aménagée sur une arête rocheuse basaltique très étroite dominant deux versants abrupts, l'esplanade sommitale s'avance comme la proue aérienne d'un navire de pierre flottant au-dessus des canopées luxuriantes de la laurisylve et des nappes cotonneuses de la mer de nuages poussée par les alizés.\n\nLe regard embrasse un horizon illimité balayant la complexité orographique d'Anaga : vers le nord et l'est, la vue plonge dans les gouffres des ravins de Taborno, Afur et Taganana, hérissés de pitons volcaniques spectaculaires (roques) et de dykes basaltiques érodés plongeant jusqu'aux rouleaux blancs de l'océan Atlantique. Vers le sud et l'ouest, le panorama dévoile la plaine d'Aguere où s'étend la cité historique de San Cristóbal de La Laguna, le port de Santa Cruz de Tenerife et, fermant majestueusement la ligne de crête par-delà les forêts de pins, la cime pyramidale du pic du Teide dominant souverainement les lointains. Les bosquets de lauriers et de bruyères arborescentes ceinturant le belvédère constituent un biotope d'une grande vitalité ornithologique, régulièrement animé par les trilles sonores du pouillot des Canaries (Phylloscopus canariensis) chassant dans le feuillage et les évolutions vives du pinson des Canaries (Fringilla canariensis) à la robe ardoisée, incarnant l'harmonie parfaite entre la majesté des paysages de crête et la biodiversité précieuse de la réserve de biosphère.",
+    visiter: "Atteindre le parking terminal de la route panoramique TF-114 pour s'avancer sur la terrasse circulaire du mirador du Pico del Inglés. Les visiteurs prennent le temps de contempler le panorama à 360 degrés embrassant les ravins sauvages du nord d'Anaga plongeant vers l'Atlantique et la silhouette du Teide émergeant à l'horizon sud-ouest, tout en prêtant l'oreille aux chants des pinsons et pouillots des Canaries dissimulés dans les frondaisons de la laurisylve bordant le promontoire.",
+    link: ""
+  },
+  {
     id: "tenerife_rando_parc_rural_anaga",
     name: "Tenerife - Randonnée dans la Laurisylve du Parc Rural d'Anaga (Sendero Bosque de Laurisilva)",
     country: "Espagne",
