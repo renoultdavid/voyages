@@ -1,5 +1,67 @@
 const SPOTS_2 = [
   {
+    id: "buenavista_plaza_de_los_remedios",
+    name: "Buenavista del Norte - Place des Remèdes (Plaza de Los Remedios)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 115,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Cœur Historique Colonial, Kiosque Octogonal en Tuiles & Jardins Ombragés (XVIe-XXe siècle)",
+    century: "XVIe siècle",
+    category: "place",
+    counts: {},
+    lat: 28.37219,
+    lng: -16.85136,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP088knWC7Vl0VC3RSfc4kSto62Wp7eNYoBX9gKDinNxU8ZTd7v8VTJLXrsHKkuvLqYvBUoB_uFug7XMJSQFjbDrsgwfbHIZ2rSCXRYSWJ_NQM3wLD1kPJ6lDmHA10j_SvzBg2f3S5vuaejjJydbgPjwQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP6xjZpoD0W-YoCUhJUxNLkICOSPe7-rqQPwPJbDqmxv59T0E_jTlkva_yCrryvc8OxZ351pab1aR59THUGcqLQSksrux8FhajrNZt2vDZglW8xip1xl_XLHccKTOFUza101OgU7z0DsLAJ8JG38qKK0A=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Au cœur de l'Isla Baja, la Plaza de Los Remedios constitue le centre névralgique et civique de la cité historique de Buenavista del Norte, fondée au tout début du XVIe siècle par des colons castillans et andalous séduits par la fertilité de cette plaine littorale adossée aux contreforts du massif de Teno. Conçue selon les canons de l'urbanisme colonial espagnol, cette place publique s'organise en un quadrilatère spacieux ceinturé de belles demeures seigneuriales traditionnelles, caractérisées par de hauts murs blanchis à la chaux, des toitures de tuiles canal en terre cuite et des balcons en encorbellement taillés dans le cœur de pin canarien (tea). L'espace central est aménagé en un jardin public soigné où s'épanouit une végétation généreuse de palmiers des Canaries, d'orangers, de massifs de lauriers-roses et de grands ficus centenaires qui procurent une ombre bienfaisante face au climat doux et ensoleillé de la comarque.\n\nL'élément architectural le plus emblématique de la place réside dans son charmant kiosque central octogonal (quiosco), dont la structure basse en maçonnerie est surmontée d'une toiture pyramidale à pans coupés couverte de tuiles artisanales, faisant office de point de rencontre convivial et de tribune pour la fanfare municipale lors des fêtes patronales d'octobre. Bordée sur son flanc septentrional par l'église paroissiale Notre-Dame des Remèdes et à proximité immédiate de l'hôtel de ville, la place offre un panorama d'une grande sérénité où le regard glisse depuis les pavés de pierre volcanique vers les falaises abruptes et verdoyantes de Teno en toile de fond. Lieu de promenade privilégié des habitants au crépuscule, cet ensemble paysager illustre avec élégance la douceur de vivre et l'harmonie patrimoniale préservée des bourgs traditionnels du nord de Tenerife.",
+    visiter: "Une halte sur les bancs ombragés de la place invite à savourer le calme villageois en contemplant le kiosque traditionnel en tuiles et l'enfilade des demeures coloniales aux balcons de pin tea. Les promeneurs prennent le temps d'observer la façade solennelle de l'église Nuestra Señora de los Remedios qui domine le parvis, avant d'emprunter les ruelles pavées adjacentes pour découvrir l'architecture vernaculaire et les cours intérieures fleuries du centre historique.",
+    link: ""
+  },
+  {
+    id: "buenavista_eglise_notre_dame_des_remedes",
+    name: "Buenavista del Norte - Église Notre-Dame des Remèdes (Iglesia de Nuestra Señora de los Remedios)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 115,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Sanctuaire Paroissial du XVIe Siècle, Charpente Mudéjar en Pin Tea & Reconstitution Historique",
+    century: "XVIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.37261,
+    lng: -16.85136,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNsZRe8L-kp-9sTP_yYPL6LDdtyrCsrvXokVQ03LVCeoOnvycNgBylZhYXf_ARTcrwCxUnuQIgKxw7GbD-RM5qp7ZJhXeJPh4_6YSS7bTqsupHau3IaF-tR3tqRpEiRiGN4rHrgszCUWruhHplOoNC64g=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMJfk77gVdBo-SQw7-nWZbh00qHqsicBvyudL0BorQ9WKUBSh1KR8NnE2tpe-PEq9hLxlPbulJ7rDYI0jNC47o47yPMnV8OUqY1PVYOm_Lq0_PGLroIplpkqaS0eNmabRUh5sG9CpXiFt3UIrbAv7DWRQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'espace intérieur est divisé en trois nefs séparées par des arcs en plein cintre en pierre volcanique sombre, reposant sur des colonnes cylindriques robustes aux chapiteaux simplifiés. L'élément le plus frappant de cette architecture est son plafond en bois de style mudéjar, un travail de charpenterie connu sous le nom d'alfarje ou de par y nudillo. Ces structures de bois sombre, finement assemblées, témoignent de l'héritage artisanal hispano-mauresque qui a persisté aux Canaries bien après la période médiévale. Le contraste entre le blanc pur des murs et la texture profonde du bois et de la pierre volcanique crée une atmosphère de dignité et de paix.\n\nLe chœur est dominé par un imposant retable majeur doré, qui a été fidèlement reconstitué après le sinistre de la fin du XXe siècle. Ce retable, structuré en plusieurs corps et niches, abrite l'image de la sainte patronne, Nuestra Señora de los Remedios. L'éclairage est assuré par des lustres classiques suspendus et des fenêtres hautes et étroites qui diffusent une lumière latérale douce, mettant en valeur les dorures du sanctuaire et la profondeur des nefs latérales. Les chapelles latérales, visibles à travers les arches, abritent d'autres éléments de dévotion qui enrichissent le patrimoine iconographique de la paroisse.\n\nLe mobilier, composé de bancs de bois sobre et d'un dallage sombre, renforce le caractère solennel de l'édifice. Cette église n'est pas seulement un monument historique, mais le cœur battant de la communauté de Buenavista, illustrant la fusion unique entre les traditions européennes et les adaptations locales spécifiques au climat et aux ressources des îles Canaries. La conservation de son plan basilical et de ses plafonds à caissons en fait un site incontournable pour comprendre l'évolution artistique de la région du XVIe au XVIIIe siècle."
+      }
+    ],
+    description: "Bordant le côté nord de la place principale de Buenavista del Norte, l'église paroissiale Notre-Dame des Remèdes (Iglesia de Nuestra Señora de los Remedios) représente l'un des sanctuaires religieux majeurs de l'Isla Baja et un exemple éclatant de dévotion et de résilience communautaire. Fondée vers 1513 sous la houlette des premiers colons et érigée en paroisse autonome en 1515, l'église primitive s'agrandit au fil des XVIIe et XVIIIe siècles pour adopter un vaste plan basilical à trois vaisseaux, typique de l'architecture religieuse canarienne inspirée des modèles mudéjars et de la Renaissance castillane. L'édifice traverse les siècles avant d'être frappé par une immense tragédie le 22 juin 1996, lorsqu'un incendie dévastateur ravage la quasi-totalité de sa charpente historique et consume de précieux retables baroques et statues d'art sacré. Portée par un élan populaire et patrimonial sans précédent, une restauration méticuleuse menée au tournant des années 2000 a permis de reconstruire fidèlement les charpentes en bois de pin tea, de restaurer les colonnes en pierre volcanique et de recréer à l'identique son somptueux retable majeur.\n\nExtérieurement, le monument séduit par l'austérité noble de sa façade blanchie à la chaux rythmée par un élégant portail en pierre de taille basaltique sombre et flanquée d'une robuste tour-clocher carrée à plusieurs registres coiffée d'un toit à quatre pans. À l'intérieur, l'espace se déploie dans une atmosphère de solennité et de clarté, où les arcades en plein cintre en basalte noir reposant sur des colonnes toscanes contrastent avec la blancheur des murs et la magnificence des plafonds à caissons (alfarjes) en bois sombre assemblés selon la technique traditionnelle du « par y nudillo ». Le chevet accueille le retable majeur baroque restitué, étincelant de dorures à la feuille et centré sur la statue vénérée de la Vierge des Remèdes, sainte patronne de la ville. Riche de ses chapelles latérales et de son dallage sombre, cette église incarne l'alliance parfaite entre le savoir-faire des charpentiers de marine d'antan et l'identité spirituelle séculaire de la région de Teno.",
+    visiter: "Franchir le portail en pierre volcanique pour pénétrer dans la grande nef à trois vaisseaux et admirer le contraste entre les colonnes de basalte sombre et les murs immaculés. Les visiteurs lèvent les yeux pour contempler la charpente mudéjare en bois sculpté avant d'avancer vers le chœur pour apprécier la reconstitution minutieuse du retable majeur doré abritant la statue patronale de la Vierge des Remèdes, puis parcourent les chapelles latérales conservant statues de procession et pièces d'orfèvrerie religieuse.",
+    link: ""
+  },
+  {
     id: "buenavista_camino_de_baracan_foret_laurisylve",
     name: "Buenavista del Norte - Sentier des Crêtes de Baracán & Forêt de Laurisylve (Camino de Baracán)",
     country: "Espagne",
