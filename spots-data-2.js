@@ -1,5 +1,79 @@
 const SPOTS_2 = [
   {
+    id: "tenerife_rando_volcan_samara",
+    name: "Tenerife - Randonnée du Volcan de Sámara (Montaña de Sámara)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Guía de Isora",
+    altitude: 1937,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cône Pyroclastique de Sámara, Pinède d'Altitude & Balcon sur le Pico Viejo et le Teide",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1, volcan: 1 },
+    lat: 28.26890,
+    lng: -16.72785,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPu5_kvJcmZu6EHCF5IKrAB-kNIR9gRVZpJXcmAQxDFy1XbVECtujo5EKwTjibOBSVt8C69xX0K_aBYUTC24KnqLoqYTrCa77ZEKDfnG4lsR5ZtpxVImLVVle-e-Kozb1543ZTtIXAB1CtPR6lCgYWikQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Émergeant avec une grâce souveraine aux portes occidentales du Parc national du Teide, à près de deux mille mètres d'altitude, la Montaña de Sámara constitue l'un des belvédères volcanologiques les plus purs, graphiques et saisissants de l'archipel des Canaries. Ce cône strombolien aux flancs réguliers, édifié au cours de phases éruptives quaternaires par l'accumulation de scories denses, de lapilli (picón) et de bombes volcaniques aux reflets violacés, s'élève comme une sentinelle avancée devant la masse titanesque du Pico Viejo. Le sentier en boucle du sentier n° 13 du parc national propose une immersion minérale d'une beauté presque irréelle, où le contraste chromatique atteint son apogée : sur ce manteau de cendres et de roches volcaniques d'un noir d'encre se détachent les silhouettes isolées et lumineuses de vénérables pins des Canaries (Pinus canariensis). Ces géants végétaux solitaires, façonnés par la violence des vents de haute montagne et la morsure du gel hivernal, parviennent à enfoncer leurs racines pivotantes dans les anfractuosités des coulées de lave, incarnant une extraordinaire résilience pyrophyte.\n\nL'ascension jusqu'au cratère sommital tronqué de Sámara dévoile un panorama circulaire d'une immensité grandiose balayant toute la complexité tellurique de Tenerife. Vers l'est et le nord-est s'élèvent les pentes monumentales du Pico Viejo culminant à 3 135 mètres et le dôme sommital du Teide, dont les flancs portent les cicatrices béantes des Narices del Teide (« les narines du Teide »), cratères adventifs nés de la grande éruption historique de 1798. Vers l'ouest, le regard plonge sur les ondulations sombres de la Montaña de la Botija et de la Montaña de la Cruz de Tea avant de franchir la mer de nuages entretenue par les alizés pour contempler, flottant sur l'azur de l'océan Atlantique, les profils découpés des îles de La Gomera et de La Palma. Ponctué de buissons de genêts du Teide et de codesos argentés résistant à l'aridité d'altitude, ce parcours circulaire offre une traversée contemplative inoubliable au cœur d'un univers volcanique où le silence minéral sublime la puissance créatrice de la Terre.",
+    intro_page: "Perché à près de deux mille mètres d'altitude sur le versant occidental du Parc national du Teide, le volcan de Sámara déploie un paysage lunaire d'un graphisme exceptionnel. Ce cône strombolien de scories ébène et de lapilli violacés est sillonné par un sentier en boucle spectaculaire, serpentant entre mer de cendres et silhouettes solitaires de pins canariens centenaires. Depuis son cratère sommital, le marcheur embrasse une vue vertigineuse sur les contreforts du Pico Viejo, les cratères de l'éruption de 1798 et le pic du Teide, tandis qu'à l'ouest émergent au-dessus de la mer de nuages les silhouettes océaniques de La Gomera et La Palma.",
+    visiter: "S'élancer depuis le parking aménagé du mirador de Sámara sur la route TF-38 pour entamer l'ascension en lacets réguliers sur les lapilli noirs jusqu'au rebord du cratère sommital à 1 936 mètres. Après avoir contemplé le panorama circulaire sur le Pico Viejo, le Teide et les îles de La Gomera et La Palma, suivre la ligne de crête nord-ouest pour effectuer la grande boucle contournant la Montaña de la Botija. Le retour chemine à travers les étendues de scories sombres ponctuées de pins des Canaries solitaires et de genêts d'altitude avant de regagner le point de départ.",
+    link: "",
+    sections: [
+      {
+        title: "Ascension sur les lapilli et panorama sommital sur le Pico Viejo et le Teide",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPu5_kvJcmZu6EHCF5IKrAB-kNIR9gRVZpJXcmAQxDFy1XbVECtujo5EKwTjibOBSVt8C69xX0K_aBYUTC24KnqLoqYTrCa77ZEKDfnG4lsR5ZtpxVImLVVle-e-Kozb1543ZTtIXAB1CtPR6lCgYWikQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOXZ89Nu4hBSwfL5b0Rlt-qmkA9-kKPh6FT9tKClZaC9GC0iiVYtgB0T5k6LNk71KueKV5kE6XbIbOPRpQ2xVGi_D6zotUp0hZfuDmC_essM5CEy79K9FSj7d56DXymGMjwjRgC7iPm3ISEO64RCB5cjA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La première partie de l'ascension chemine sur un épais manteau de lapilli noirs et pourpres (picón), gravissant en lacets réguliers la croupe de la Montaña de Samara jusqu'à son cratère sommital culminant à mille neuf cent trente-six mètres d'altitude. Depuis cette cime tronquée, le regard embrasse un panorama circulaire d'une envergure grandiose : vers l'est et le nord-est se dressent les silhouettes colossales du stratovolcan du Pico Viejo et de la caldeira terminale du pic du Teide, flanquées des cratères adventifs des Narices del Teide nés de la violente éruption historique de 1798."
+      },
+      {
+        title: "Plongée sur la mer de nuages et échappées maritimes vers La Gomera et La Palma",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOO0Z0inGPsaSFHr3TujwwgD4SksqWOQ4aJbLKEM_kS9FRfRyPtNueRE5Oro-E6e_HiKPRsAVcUSW-JvzVAPGv0gOmq7KWzbdkPEsk5QjRHSxl3PoF9-mgTPbUARfF7J8-uBDFQbtpyfMI_mfuJPwadtg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOXFy_KSnBer-V5OgrGwruLoZGLUkU8we9BTgDRkzNwg4NZzDOat_3EWD3r-WwU7uZX1q_yr715anxy0MZo1PzS9S62SPYE1O8RStpvZFFyBAUQ-W9wxQCchfOoc80PC9AVNKthbezmHhOo5tO5Pp71bA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Vers l'ouest, le versant plonge vertigineusement par-dessus les bancs cotonneux de la mer de nuages poussée par les alizés, laissant émerger à l'horizon les silhouettes bleutées des îles de La Gomera et de La Palma au milieu de l'océan Atlantique."
+      },
+      {
+        title: "Descente vers la Montaña de la Botija et graphisme minéral",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMi3bk2liZ1oFjfvaSfQRgD9K_SPGqsvrDtCC6ylgmiAPVrCNAY0UeExMvjNO5ALIonhC5dnua2YQwlxVd7_AumCKj4QntjpQwACJDOgyMlQoHPRih4tqMs_jZBmlcYBF2y_biSomm_K4Q-YA8Uz2Shhg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPL6aR8lWFGb1tL8fqY3j-LTD6SVuOhoE4TfMTSE1ftsTRRpuxQvv34_EO230Z3WcTYUj3pQTxvCjNU86qo1jOZkO01ziKeD3JVLhwn8cODzVLEYUsQKO4nEsPxtzO9Pz6e5hTW0KYTkZ9Q-XGmbIjW3A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En redescendant du sommet par la crête nord-ouest pour entamer la boucle en direction de la Montaña de la Botija et de la Montaña de la Cruz de Tea, le marcheur s'enfonce dans un paysage lunaire d'un puissant graphisme minéral."
+      },
+      {
+        title: "Contrastes chromatiques des pins canariens sur le champ de scories",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPkOQDdU6Ncqw-A27pYkqIdliUed2r98s38edxhx61twCGigth-L_Iccyj_Um7QU0nYelvXGbMpRw3UeRgC8WFaQjUx6BWgjc0c-mQCh9QPFnK_-JRVkkuR_G-j5buDR_XtVNtLV_YUEbJrjVpwLozd5w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le sol de cendres et de scories basaltiques d'un noir d'encre est ponctué de vénérables pins des Canaries (Pinus canariensis) solitaires et trapus, dont le vert lumineux des aiguilles triples crée un contraste chromatique saisissant avec la noirceur du substrat pyroclastique."
+      },
+      {
+        title: "Flore xérophile d'altitude : genêts du Teide et codesos des sommets",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPyXvVoT7xpNGBTmIwSkdlW2RDCK8o7F9k3wpIWIW0BV9tHM0sBFwAeCo6yUsztTs8cmpPvETVcZF1zBpKCivaZ1s0IENEMvxBnfMF999LqsBLq_0NOMBXM6aneXxv80pc0au21yxoBT_MEUPaDBIm2jQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Ces arbres pionniers, façonnés par la rigueur des hivers d'altitude et les tempêtes de vent sec, côtoient des arbustes xérophiles endémiques adaptés au rayonnement solaire intense et aux gelées nocturnes, tels que le genêt du Teide (Spartocytisus supranubius) et le codeso des sommets (Adenocarpus viscosus)."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO5KTP_6dut5VGyhVR0KnHuV8g10QQ1fk1OdcIfMqtGODlzCAEc7iuXxAEuFrRD0HJh1TXO4kl04Hd5nSolwXaggd6LySeQFgDN28YWM9XEVzhFoFqiygfH1bi6RrkJT2ta3GG3ktwouqHdSveTpuTpbQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO-WO8oZzwQheZnN2m8RF0NiLLCygrfmyuuIu5zO3vh7W3VMMWT6Xm8xSISPMPs72Qr4OlHz_neE6brjSyCzcS0UySerWJ_caOuGv_Sx-d4EJgxl7OQy9VRiBhEPT8upYDQLrThTwaAnU3iM499KcBw7Q=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
     id: "buenavista_plaza_de_los_remedios",
     name: "Buenavista del Norte - Place des Remèdes (Plaza de Los Remedios)",
     country: "Espagne",
