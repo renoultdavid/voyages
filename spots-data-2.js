@@ -1,5 +1,75 @@
 const SPOTS_2 = [
   {
+    id: "los_realejos_paysage_protege_rambla_de_castro",
+    name: "Los Realejos - Paysage Protégé de la Rambla de Castro (Paisaje Protegido de la Rambla de Castro)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Los Realejos",
+    altitude: 100,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Palmeraie Littorale des Canaries, Falaises Maritimes & Domaine Historique de Castro",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 28.39502,
+    lng: -16.59339,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPSIQ4nTosAUxunZAXChZres4VVHSN02WGt59wV86kCL9NTh6788fWJRK016kGsURq92IgbCpyoIqLFoe8P-ySzYRatCzH3_Qa-fXTeXzt5EmcH7yu6CmLee8HO8QUSbYjdW1ufxzUV0I3oBhpAMjJ4Sw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMcE7McDe6xUOyEJJj-5Gk4_C9vG3fad9NFqC0ScEYOy-twxM-jlQtbhFI7mtrrFhXl-z5gumXQvfoZw6AiT_8DBr_Bgc7P5cGfQqHD3CS6VQ-Hjtym_WLNogAPgHzglQk_S2568ng1mzBUNkETiPn0GQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "S'étirant sur plus de quarante-cinq hectares le long du littoral septentrional escarpé de la commune de Los Realejos, le paysage protégé de la Rambla de Castro forme l'une des enclaves côtières les plus pittoresques, verdoyantes et chargées d'histoire de Tenerife. Cette bande côtière étagée entre la mer et les hautes falaises basaltiques doit sa renommée à son extraordinaire palmeraie de palmiers des Canaries (Phoenix canariensis), considérée comme l'un des peuplements sauvages et sub-naturels les plus denses et les mieux préservés de tout l'archipel. Favorisée par une abondance exceptionnelle d'eaux douces résurgentes filtrées à travers les basaltes poreux depuis les hauteurs de la vallée de La Orotava, une végétation luxuriante s'y épanouit avec exubérance : les palmiers élancés côtoient des vergers traditionnels de bananiers, des dragonniers, des euphorbes maritimes et des lauriers-roses, composant une oasis végétale en balcon direct sur l'océan Atlantique.\n\nLe site tire son toponyme de l'illustre domaine seigneurial fondé au XVIe siècle par le commerçant génois Hernando de Castro, concédé au lendemain de la conquête de l'île pour y établir des cultures sucrières puis de riches vignobles de Malvoisie. Traversé par l'ancien chemin littoral pavé, le paysage abrite un remarquable ensemble de patrimoine bâti historique : la Casona de Castro, vaste manoir colonial aux toitures de tuiles et balcons en bois de pin tea, l'ermitage San Pedro perché sur son promontoire rocheux, ainsi que le petit fortin défensif de San Fernando, batterie d'artillerie côtière érigée à la fin du XVIIIe siècle pour repousser les assauts des corsaires britanniques. Ce havre de biodiversité sert également de sanctuaire aviaire pour de nombreuses espèces marines et terrestres nichant dans les anfractuosités des falaises, offrant un parcours pédestre enchanteur où le bruissement des palmes sous la brise marine répond au fracas perpétuel des rouleaux de l'océan.",
+    visiter: "S'engager sur le sentier pavé de la Rambla de Castro depuis le belvédère de San Pedro pour descendre en pente douce au milieu de l'impressionnante palmeraie canarienne et des bananeraies verdoyantes. Les marcheurs cheminent jusqu'à la Casona seigneuriale de Castro avant de rejoindre la batterie côtière de San Fernando pour contempler ses anciens canons en fer forgé pointés vers le large, profitant d'échappées visuelles spectaculaires sur les criques de galets noirs et les déferlantes atlantiques tout au long de la promenade.",
+    link: ""
+  },
+  {
+    id: "los_realejos_ruines_de_gordejuela",
+    name: "Los Realejos - Ruines de l'Élévateur d'Eau de Gordejuela (Las Ruinas de Gordejuela)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Los Realejos",
+    altitude: 20,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Prouesse de l'Archéologie Industrielle, Station de Pompage à Vapeur & Falaises Maritimes (1903)",
+    century: "XXe siècle",
+    category: "star",
+    counts: {},
+    lat: 28.39882,
+    lng: -16.58561,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNWgB-hF04hX4r1NOBLq-2WJhSIAMRlmbtxFrz2NQUa1WKrTRSNtEeGBQ5XaUiE8hopqQLtgppcuXSbVHWbYyOPIzTCIepK_Gjw1z22xWalM3Rqj6SU2T1DAMgOb0OzvokUqwWus9Op-ix622A9CfdJ3Q=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO8avDoI7yOz2897hQZMSUhZoepbEl3ihvkTYoqHzFdvkHupEGdQOXJiu025assNsfdy32Qb-gL5p4ItQiLwVkQnJOyyd7hA1VPbRIzeGSTSvvXI9gK1ln4h5oXf8yBmN2f5y0x-RglOrkuXIenVNP0Ow=w1377-h919-s-no-gm?authuser=0",
+        caption: "Le Falco tinnunculus ssp. canariensis, appelé localement cernícalo, est une sous-espèce endémique de faucon crécerelle présente sur les îles occidentales et centrales des Canaries (Tenerife, La Palma, La Gomera, El Hierro et Gran Canaria) ainsi qu'à Madère. Plus sombre et légèrement plus compact que le crécerelle continental (Falco tinnunculus tinnunculus), il arbore un plumage aux tons rouille intense plus contrastés, avec des stries ventrales et des mouchetures dorsales noires plus denses et marquées. Le mâle présente une calotte et un croupion d'un gris ardoisé profond, tandis que la femelle conserve une dominante rousse barrée de brun sur l'ensemble du corps."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPlO6zt9jerCRFsW00McBBD1LNl-dZH7-6hov80LvEiwwmBVi_fdMc_OOH14M1LmYOt9oRewrlmkjUl4uX6sdgVPAt6dqZCmoUSQqNOqcf10jyqk4J-Z4p7u4qe3aXZ5KjUO6OBLBZ-xE5PBzZSM6TeBw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMDblW3jJRRgQPZyvOU2j2ZqGyrAcBmxqYBbyhpHU5_03KarOdpz-nd-0HBV6vPsVHCKHHo5IxTGFR24SMYsaA3yZmT_kGF3YFyeP7pTVpwi7y_3idF2ntaSzkS13Vz8hW8RWFSCHUPhKWTDFgZL4u15A=w1381-h919-s-no-gm?authuser=0",
+        caption: "Le Trithemis arteriosa, couramment nommé trithémis artérié, est une libellule de taille moyenne appartenant à la famille des Libellulidae, largement répandue sur le continent africain, dans les îles atlantiques (notamment les Canaries) et le bassin méditerranéen méridional. Le mâle mature se reconnaît à sa coloration rouge écarlate éclatante : son abdomen, grêle et resserré vers l'arrière, se termine par de petites marques noires caractéristiques sur les derniers segments (S8 et S9). Ses yeux composés présentent des reflets pourpres ou violacés, tandis que les ailes, transparentes, sont parcourues d'une résille de nervures d'un rouge vif très visible, rehaussée d'une tache ambrée à la base des ailes postérieures."
+      }
+    ],
+    description: "Accroché de manière spectaculaire à flanc de falaise abrupte face au déferlement des vagues de l'Atlantique, le complexe ruiniforme de l'élévateur d'eau de Gordejuela (Casa del Agua de Gordejuela) constitue l'un des joyaux d'archéologie industrielle les plus saisissants et photogéniques d'Espagne. Construit en 1903 par la compagnie maritime et commerciale britannique Hamilton & Co, cet ensemble monumental fut conçu par l'ingénieur militaire José Galván Balaguer pour abriter la toute première machine à vapeur installée sur l'île de Tenerife. Le défi technique était colossal : capter les eaux douces abondantes des sources côtières de Gordejuela jaillissant au niveau de la mer pour les élever mécaniquement à près de trois cents mètres d'altitude, via un imposant réseau d'aqueducs et de conduites sous pression, afin d'irriguer les vastes bananeraies en pleine expansion de la vallée de La Orotava.\n\nComposé d'un bâtiment principal de cinq niveaux étagés défiant le vide sur une pente vertigineuse de quarante-cinq degrés, le complexe conserve ses hautes façades en maçonnerie de moellons et pierre de taille basaltique percées de régulières baies cintrées, ainsi que la base de son audacieuse cheminée de brique évacuant les fumées de la chaudière. Bien que le coût financier exorbitant de son exploitation au charbon ait précipité la faillite de la société fermière dès 1919, l'édifice est resté figé dans le paysage comme une forteresse fantôme battue par les embruns salins et les vents du large. Les parois décharnées de la ruine et les falaises basaltiques environnantes constituent aujourd'hui un biotope privilégié où nichent le faucon crécerelle des Canaries (cernícalo) et diverses espèces d'oiseaux côtiers, tandis que les ruissellements d'eau douce attirent des invertébrés remarquables comme le trithémis artérié, créant un saisissant dialogue entre le déclin industriel et la reconquête de la nature sauvage.",
+    visiter: "Depuis le sentier littoral reliant la plage de Los Roques à la Rambla de Castro, les marcheurs s'arrêtent au niveau des belvédères sécurisés en surplomb pour admirer l'audace architecturale de cette ruine industrielle suspendue entre ciel et mer. La vue plongeante permet d'observer les cinq étages éventrés de la station de pompage, la précision de ses baies ouvertes sur les vagues turquoise et les évolutions aériennes des faucons crécerelles canariens patrouillant le long des falaises escarpées.",
+    link: ""
+  },
+  {
     id: "icod_drago_milenario",
     name: "Icod de los Vinos - Le Dragonnier Millénaire (Drago Milenario)",
     country: "Espagne",
@@ -236,7 +306,7 @@ const SPOTS_2 = [
         title: "Remontée par La Cascada et boucle sommitale de La Ruleta",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczMjCQ1kkRo9g7clp0BjFngWf553A2zV1K2SXwKwKhvG8Pth-VCj4021ai3YAowCbiRL4XFMCMcarTJV99zrAD3IqFO_4DG2Xh1nB9Wh8zyBnpD8tQduxCleScJfGJ3tK77hUfDB7mOEZU3AG80qbgIn6g=w1379-h919-s-no-gm?authuser=0",
-          "https://https://lh3.googleusercontent.com/pw/AP1GczO0Jx2Cfk8qFVov8qc-nTDh8GJexRIM5h9VqZ8V16qvNUfdyWt1cBFCgnIY9CteAHkINZguSu1WxGrgnYbKuCS_NFjLifUtTf8Qqbi0_BkvRXWb0mNKSM9TGFCNTXE2lUgYVR2Oiqen06CHie-TIbOyVw=w1379-h919-s-no-gm?authuser=0"
+          "https://lh3.googleusercontent.com/pw/AP1GczO0Jx2Cfk8qFVov8qc-nTDh8GJexRIM5h9VqZ8V16qvNUfdyWt1cBFCgnIY9CteAHkINZguSu1WxGrgnYbKuCS_NFjLifUtTf8Qqbi0_BkvRXWb0mNKSM9TGFCNTXE2lUgYVR2Oiqen06CHie-TIbOyVw=w1379-h919-s-no-gm?authuser=0"
         ],
         text: "La boucle s'achève par le franchissement du secteur dit de La Cascada, où le sentier entreprend une remontée vigoureuse en courts lacets pour surmonter le dénivelé et regagner le promontoire de La Ruleta. Cette pente raide traverse une cascade de lave pétrifiée constituée d'une coulée visqueuse de phonolite noire et vitreuse, dont les blocs tourmentés et les fronts de scories témoignent du ralentissement progressif de la matière en fusion. Tout au long de cette ascension finale dans un air pur et sec, le marcheur côtoie les lézards tachetés de Tenerife se chauffant sur les dalles de lave chaude, avant de déboucher à nouveau sur le belvédère sommital après environ trois kilomètres et demi d'un parcours qui concentre toutes les facettes de l'histoire volcanologique et de l'érosion des Cañadas."
       },
