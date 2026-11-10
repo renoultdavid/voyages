@@ -1,5 +1,80 @@
 const SPOTS_2 = [
   {
+    id: "tenerife_rando_volcan_botija",
+    name: "Tenerife - Randonnée du Volcan de la Botija (Montaña de la Botija)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Guía de Isora",
+    altitude: 2085,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cône Pyroclastique de la Botija, Malpaís Basaltique & Belvédère sur le Pico Viejo",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1, volcan: 1 },
+    lat: 28.26538,
+    lng: -16.71486,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPuEhNKRF_mcHZp0jymlzDJCFEtnk4t98XgFb0X23wTltgymq_g-7RkN88iF9BVLky_sauWf5hPxKCUAI0zirD-qFT-O-H5Av-JL9n93cw7k0VO3GDkFJngNvvx-jpj4HmHKi9psiIDKykkbPPYW1T8hA=w1379-h919-s-no-gm?authuser=0",
+    description: "Culminant à plus de deux mille mètres d'altitude au sein du secteur occidental du Parc national du Teide, la Montaña de la Botija dresse sa masse conique sombre et austère au milieu d'un vaste désert de scories volcaniques et de champs de laves pétrifiées. Voisin immédiat du cône de Sámara, cet édifice pyroclastique quaternaire tire son nom traditionnel de sa silhouette trapue évoquant une jarre d'argile (botija), façonnée par l'accumulation explosive de lapilli basaltiques (picón), de bombes volcaniques en fuseau et de projections scoriacées riches en oxydes de fer. Le sentier de randonnée n° 38, qui ceinture les flancs escarpés de la montagne, offre une immersion totale dans un monde tellurique d'une pureté absolue, où la rudesse du climat de haute montagne — caractérisé par une aridité estivale extrême, un rayonnement solaire intense et des gelées hivernales rigoureuses — a limité la végétation à de rares touffes éparses de genêts du Teide et de buissons de codeso argenté.\n\nCe parcours en boucle dévoile un observatoire géomorphologique d'exception sur les manifestations volcaniques majeures ayant sculpté la caldeira de Las Cañadas. Depuis les crêtes et le versant nord-est de la Botija, le regard plonge sur les fleuves de basalte vitrifié et les champs de malpaís rugueux dévalés depuis les Narices del Teide lors de la spectaculaire éruption historique de 1798. En arrière-plan immédiat s'élève la vertigineuse paroi de phonolite du Pico Viejo, dont le cratère sombre colossal domine le paysage minéral, tandis que vers l'ouest, la vue s'échappe au-dessus de la mer de nuages océanique pour révéler les profils découpés de La Gomera et de La Palma. Entre le crissement des pas sur les sables noirs violacés et la contemplation d'un univers minéral intact resté à l'état originel de sa création géologique, la randonnée de la Botija constitue l'une des expériences d'immersion volcanique les plus dépouillées et grandioses de l'archipel canarien.",
+    intro_page: "Dressant son cône de scories à plus de deux mille mètres d'altitude à l'ouest du Parc national du Teide, la Montaña de la Botija incarne la quintessence du paysage lunaire de haute montagne. Ceinturée par un sentier d'altitude spectaculaire cheminant sur d'épaisses couches de lapilli noirs et pourpres, cette sentinelle de basalte offre une vue imprenable sur les coulées pétrifiées de l'éruption des Narices del Teide de 1798 et sur l'imposant cratère terminal du Pico Viejo. Dépourvu de toute couverture forestière et balayé par les vents secs au-dessus de la mer de nuages, le volcan propose une boucle minérale d'une beauté austère, où le silence absolu dialogue avec les silhouettes lointaines des îles de La Gomera et La Palma à l'horizon atlantique.",
+    visiter: "Au départ de la jonction des sentiers n° 13 et n° 38 accessible depuis le parking du mirador de Sámara sur la route TF-38, s'engager sur le sentier balisé serpentant sur les lapilli meubles au pied de la Montaña de la Botija. Suivre le tracé régulier contournant le flanc nord pour admirer la vue rapprochée sur les falaises sombres du Pico Viejo et les cratères des Narices del Teide de 1798. Poursuivre la boucle le long du flanc ouest pour observer les alignements de bombes volcaniques et les panoramas plongeant vers la mer de nuages et l'océan Atlantique avant de regagner le point de bifurcation.",
+    link: "",
+    sections: [
+      {
+        title: "Progression sur les lapilli (picón) et champs de malpaís",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPuEhNKRF_mcHZp0jymlzDJCFEtnk4t98XgFb0X23wTltgymq_g-7RkN88iF9BVLky_sauWf5hPxKCUAI0zirD-qFT-O-H5Av-JL9n93cw7k0VO3GDkFJngNvvx-jpj4HmHKi9psiIDKykkbPPYW1T8hA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczONiexTGLmUmqwDnMuVgdx2K3IbYee8e67px1PZOFHZZOhMGr4JcQpXoSHrGlgvLtstFwQQNYj-ARMmoS9v-zshoCx9HN2JKBj_D9FPENaX_uo-O4agGybHSEqKpf9sF11MVS96-Qbg6RN4msN3wTskgA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La progression débute sur un lit meuble et épais de lapilli noirs et brun violacé (picón), qui amortit chaque pas et met à l'épreuve la motricité sur les faux-plats ascendants. Le sentier serpente entre la base orientale de la Botija et les champs de lave chaotique (malpaís) dévalés depuis les fissures des cratères adventifs plus élevés."
+      },
+      {
+        title: "Flanc septentrional, cratère du Pico Viejo et Narices del Teide (1798)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMtmNy9fJ-mfdjFzhQztowaKFfcpkOaSfmvLjrZ6JmV7BNmCGNAVcFe8mS80tZLo_RG-S56fjmRVXHCwk0AKOIQfImzKttQek7wAXLbcBH-3UMBRUZyVXIZoRxzE2AvK2RBbXPkJB6nUqR6_vv1SXDj6g=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Au point culminant du contournement sur le flanc septentrional du volcan, le panorama s'ouvre avec une monumentalité saisissante sur le complexe stratovolcanique central. En surplomb direct, la gigantesque caldeira sombre du cratère terminal du Pico Viejo dresse ses falaises de phonolite et ses coulées prismatiques, flanquée des cratères jumeaux des Narices del Teide où la terre s'est déchirée lors de l'éruption de 1798."
+      },
+      {
+        title: "Cascades de laves vitrifiées et vue vers l'océan et les îles",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNIS3Ti1D4KsvDOIUXYYcVqQmASY0ScbVMKIVL3Jd5SKmq-q2F3JueTs10iWPYIgvtLZV8dp4V-vXcNbqfhVEpDmlgMrszYxIwmYZajZv0lPDt3y-71Zjs0LGZzUZh46xj-s2WovASkMUOdopOi7CD4Gg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPIutfskr29VF-rZD80lbzRlWCcEWI9EsOz-D0ZJRiWDSE8oOIk3z7xZ0ufHC2DNe56Dyzl5WFu_vzr11L1RKbyGFncSyWfOGh1IuVBDNhAyUk2Mhh8eZdPpTnIQDEgjtulMOF278V2Xo7cPrYvC0JAKw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le regard peut suivre avec netteté les cascades de lave noire vitrifiée qui ont figé leurs vagues minérales sur les pentes de ponces beiges plus anciennes. Vers le couchant, l'horizon s'évase par-delà la barrière naturelle de la mer de nuages étalée sur l'Atlantique, laissant flotter dans les lointains les profils escarpés de La Gomera et de La Palma."
+      },
+      {
+        title: "Flanc occidental, bombes en fuseau et rigoles pyroclastiques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPkMipFJdxGSQViG-5BSdnXbmPqYS6KgWq4IdZHzLVYBNbZdPX__EK4Ar7_Bw0tD5BYqjFxeC-WgSlA_pOZuEK2WiQ4VTzDiYBn6LCYS8ElNXxQIOxCraXzxcD4D-ljGB6dAqg9xXkooFvcPrNRtrq3Jw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPCOOR49G1GOgW6AaA1yl84NhPV7f9D0nZTVf09BSpo25q8eAuKqQWflYyAwSI-mvbiNoglJABYGE1V4qccDGFeLIO3giY7EJ0-XkbfhHfqtg8S2Yw0nsY75dB6aGUD37nhiJqs0GPd-hdyTuwIgqMQhw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La fermeture de la boucle s'effectue le long du flanc occidental de la montagne, où le cheminement traverse des alignements de bombes volcaniques en fuseau et d'anciennes rigoles pyroclastiques sculptées par les orages d'altitude."
+      },
+      {
+        title: "Minéralité absolue, oxydations métalliques et jonction de Sámara",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNHQCIY9JOnTXkbHFavL6QpbtN4JgcysW5xFIgrcvfYxoWBgtfLfR5FFoQL_LhBVJ_ZYU_QRfXHxgbicmMM2qPYn5HpDiuEPAm7DzuwRQ76v9puHRGjXejgQYimjd4zeL7YijY-CsOu17wQ0X8BGXxwPw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMxudjQYkEhVEyAslv2u_N_GDO4N39r0Nr-RuTyM826E4kF2bg131ldCyAIArsnxH98IJSMje4iPIthYXoaSmXpi-CFoJzN--bksWSVgpO64wRpJdxnfkU3GeHHqy8xnkgw5Xq_IM97zV4FspVzHt9AiQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'atmosphère y est imprégnée d'une minéralité totale, les contrastes de lumière zénithale soulignant les micro-reliefs d'oxydation métallique rouille et pourpre incrustés dans les scories. En rejoignant la jonction avec la piste de Samara, le sentier achève une immersion d'une rare intensité dans la mémoire géomorphologique brute du bouclier volcanique canarien."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPU4gPt5nqJKLyKBibeOvuFwHJExzBY21ZfugRclxejnSpo7qVTi2zn7tSQ00OlvntcBsCe-KKaX7d7O7e2OTAobZfN8lohMNsc74pOdbZy0o6b02Y3q8iuHX12zhjqgYHjkMyRX8eaLEq7tgGqC6hgig=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOZtAqs4HSXmzDDz5_OYDnuJtLu63xOfXBhUMl3gOz060i8jKllEX_QEx8JaC9koRqEGH6-K8Kn9685cEcrvn-us3NRCYJCQX6TRCQ-MuV1rxgGH_4NutZLlDcqwyK2mSJja7ckukp0zvTMn5_k5naJVQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
     id: "tenerife_rando_volcan_samara",
     name: "Tenerife - Randonnée du Volcan de Sámara (Montaña de Sámara)",
     country: "Espagne",
