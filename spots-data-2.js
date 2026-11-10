@@ -1,5 +1,167 @@
 const SPOTS_2 = [
   {
+    id: "la_laguna_plaza_del_adelantado",
+    name: "San Cristóbal de La Laguna - Place de l'Adelantado (Plaza del Adelantado)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "San Cristóbal de La Laguna",
+    altitude: 557,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Place d'Armes Fondatrice, Siège Historique du Pouvoir Colonial & Fontaine en Marbre (XVIe siècle)",
+    century: "XVIe siècle",
+    category: "star",
+    counts: {},
+    lat: 28.48765,
+    lng: -16.31354,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMTxJ9-VP_PrU2i4zmmfvhiJaiNWDFUZhwb2DGZFOGGd6JLzefNTgllw0aZa1O75tnkYNNa7PpFQ1MT4pjUC68HUMxhZk4tNYl8PLM6Q-xDC9Ep-5gIXKtITTBH-Owr8__Vkw0HjPqSBPQdessVRDQhSw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Aménagée au lendemain immédiat de la conquête de l'île par le conquérant castillan Alonso Fernández de Lugo à la fin du XVe siècle, la Plaza del Adelantado constitue le cœur politique, administratif et judiciaire originel de San Cristóbal de La Laguna, ancienne capitale historique de Tenerife. Conçue initialement comme une vaste place d'armes et d'exercice militaire bordant la lagune asséchée d'Aguere, elle devint rapidement le centre névralgique de la gouvernance de l'archipel, accueillant les défilés civiques, les marchés hebdomadaires et les célébrations publiques. Ce quadrilatère historique est ceinturé par un ensemble monumental exceptionnel réunissant les symboles de l'autorité coloniale et spirituelle : l'hôtel de ville (Casas Consistoriales), le couvent cloîtré de Santa Catalina de Siena, le palais néoclassique de Nava et l'austère ermitage San Miguel Arcángel, primitivement fondé en 1506 pour abriter les réunions du premier Cabildo insulaire.\n\nAu centre de cette esplanade pavée ombragée de grands lauriers des Indes et de magnolias centenaires s'élève une somptueuse fontaine monumentale en marbre blanc de Carrare, commandée à Marseille et installée en 1870, dont les vasques superposées et les sculptures aquatiques apportent une note de fraîcheur raffinée au cœur minéral de la cité. Déclarée avec l'ensemble du centre historique au Patrimoine mondial de l'UNESCO, la place incarne le prototype par excellence du tracé urbain non fortifié de la Renaissance espagnole, où les proportions régulières et l'ordonnancement civique servirent de modèle direct pour l'édification des grandes métropoles coloniales d'Amérique latine, depuis La Havane jusqu'à Carthagène des Indes.",
+    visiter: "Une halte sur les bancs de pierre ombragés de la place permet d'admirer les détails sculptés de la fontaine en marbre de Carrare et d'observer l'enfilade des façades historiques ceinturant l'esplanade : le balcon en bois et les armoiries de l'Hôtel de Ville, les loggias du couvent Santa Catalina et la façade baroque en basalte du Palais de Nava, avant de s'engager dans la rue piétonne Obispo Rey Redondo vers la cathédrale.",
+    link: ""
+  },
+  {
+    id: "la_laguna_cathedrale_san_cristobal",
+    name: "San Cristóbal de La Laguna - Cathédrale Notre-Dame des Remèdes (Catedral de San Cristóbal de La Laguna)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "San Cristóbal de La Laguna",
+    altitude: 559,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Siège Épiscopal des Canaries, Façade Néoclassique & Voûtes Néogothiques en Béton Armé (XIXe-XXe siècle)",
+    century: "XIXe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.48901,
+    lng: -16.31642,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNq-7bmupIOVjjft8uo383Udl4FIUKX7WkHa9nyUEELVYPqEIBhqWBGlq4Cvp7qxzAUB5IubLGf_QfIKXw0mdCfjtsE4MN-4BEK-btZE5sH2UOODhOXa81f3MDObAOUVWZw0PiEF5kli7ZG4ny2TSgVqA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNAmRp9Nm8rI0xy572EvOrkh5viVndctx-X6usdf1kxrMfwdgdERTMtAm0BGwGJ6l-wmfwJtGPIJ1Jr0TJxirhMWYLh-BxLa2W6MTIpj_xyt0xr1e0XpkUtO77oF9PREBhoRmmErB6ZoI_nkUWLxFJNsQ=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Érigée au cœur du tracé géométrique de la vieille ville, la cathédrale Notre-Dame des Remèdes (Santa Iglesia Catedral de San Cristóbal de La Laguna) constitue le siège du diocèse de San Cristóbal de La Laguna (diocèse Nivariense), créé en 1819 par bulle pontificale du pape Pie VII pour régir l'ensemble de la province ecclésiastique occidentale des Canaries. Bâtie sur l'emplacement de l'ancienne paroisse Notre-Dame des Remèdes fondée dès 1515, la cathédrale présente une fascinante superposition architecturale d'époques et de techniques constructives. Sa monumentale façade principale en pierre de taille basaltique sombre, achevée en 1825 d'après les dessins de l'architecte José de Bethencourt y Castro inspirés de la cathédrale de Pampelune, s'impose comme un chef-d'œuvre du néoclassicisme espagnol, rythmée par un puissant portique à colonnes toscanes et couronnée de frontons triangulaires encadrés par deux tours campaniles jumelles.\n\nÀ l'arrière de cette façade historique, le corps principal de l'édifice s'effondra au début du XXe siècle en raison de la fragilité des matériaux d'origine, entraînant une reconstruction audacieuse menée entre 1904 et 1915 selon les plans de l'ingénieur Rodrigo de Vallabriga. L'intérieur déploie un vaste vaisseau néogothique à trois nefs et déambulatoire, pionnier dans l'histoire de l'architecture religieuse espagnole pour l'utilisation novatrice du béton armé dans ses voûtes sur croisées d'ogives et son dôme sommital. Le sanctuaire abrite des trésors d'art sacré inestimables, au premier rang desquels figure le monumental retable baroque flamand de la chapelle de Los Remedios sculpté à Anvers au XVIe siècle, la chaire en marbre blanc de Carrare réalisée à Gênes par le sculpteur Pasquale Bocciardo en 1767, ainsi que la sépulture monumentale de l'adelantado Alonso Fernández de Lugo, conquérant et fondateur de la cité.",
+    visiter: "Franchir le portique néoclassique en basalte pour pénétrer dans la grande nef lumineuse et admirer l'élancement des voûtes néogothiques en béton armé ainsi que la coupole centrale dominant la croisée du transept. Les visiteurs contemplent la chaire génoise en marbre de Carrare sculpté, le somptueux retable baroque flamand du XVIe siècle dans le déambulatoire et le tombeau historique d'Alonso Fernández de Lugo, avant de découvrir les pièces d'orfèvrerie et peintures flamandes conservées au trésor capitulaire.",
+    link: ""
+  },
+  {
+    id: "la_laguna_torre_de_la_concepcion",
+    name: "San Cristóbal de La Laguna - Tour & Paroisse de la Conception (Torre de la Iglesia de la Concepción)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "San Cristóbal de La Laguna",
+    altitude: 559,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Paroisse Matrice Originelle de Tenerife, Campanile en Pierre de Taille & Style Toscan (XVIIe siècle)",
+    century: "XVIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.49069,
+    lng: -16.32040,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOJbCqSs_E4Qcoe8CL1UR7jCEO7L3JNL-HCzW6B6cp4IQ8Qj1CKAxGoYgpQ5khZ9MSYNdN__WYlAmeILXKeHzW3PTeFH3wvI6hEjGGvzXFlNJu8nUflumfaLehay2QzRz9WMMHwsr8gkc4xgBRyA8c-NQ=w613-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Érigée à l'extrémité occidentale de l'axe urbain historique, sur la place homonyme, l'église matrice de Notre-Dame de la Conception (Parroquia Matriz de Nuestra Señora de la Concepción) constitue le plus ancien sanctuaire paroissial de l'île de Tenerife, fondé dès 1497 par l'adelantado Alonso Fernández de Lugo au terme de la campagne de pacification de l'archipel. Autour de cette église primitive s'est structurée la « Villa de Arriba », premier quartier d'artisans et de marchands de la cité. L'édifice actuel, issu d'agrandissements et de remaniements successifs conduits aux XVIe, XVIIe et XVIIIe siècles, s'articule en un vaste plan basilical à trois vaisseaux séparés par des arcs en plein cintre en basalte sombre, couverts de spectaculaires plafonds mudéjars en bois de pin tea aux entrelacs géométriques d'une rare finesse charpentière.\n\nLe monument doit sa célébrité visuelle à son imposante tour-clocher carrée, érigée à la fin du XVIIe siècle en pierre de taille volcanique sombre soigneusement appareillée. S'élevant à près de trente mètres de hauteur sur sept registres étagés rythmés par des corniches classiques et percée de baies campanaires à son sommet, cette tour toscane inspirée des modèles de la Renaissance italienne est devenue le symbole vertical par excellence et le point de repère visuel de toute la plaine de La Laguna. Déclarée monument historico-artistique national, l'église abrite également de précieuses pièces liturgiques baroques, des fonts baptismaux préhispaniques en céramique où furent baptisés les premiers rois guanches convertis, ainsi que la plus grande cloche de bronze des Canaries, baptisée « la Blanda ».",
+    visiter: "Une halte sur la place de la Conception permet de contempler l'appareillage en pierre de taille de la tour campanile et les façades traditionnelles environnantes. Les visiteurs pénètrent dans l'église pour détailler les plafonds mudéjars en bois de pin tea et le retable baroque, avant de gravir l'escalier intérieur de la tour pour accéder à la plate-forme supérieure du beffroi et profiter d'un panorama circulaire exceptionnel sur la trame en damier des toits de La Laguna et les crêtes d'Anaga.",
+    link: ""
+  },
+  {
+    id: "la_laguna_ermita_san_benito_abad",
+    name: "San Cristóbal de La Laguna - Ermitage Saint-Benoît-Abbé (Ermita de San Benito Abad)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "San Cristóbal de La Laguna",
+    altitude: 573,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Sanctuaire Patronal Agricole, Berceau de la Romería Régionale & Architecture Vernaculaire (XVIe siècle)",
+    century: "XVIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.49021,
+    lng: -16.32629,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMEmD9lJcXyvjKrrqIMK61Ybsm5qXu1Dq8xzgXeJJDS1Fk9pMtJVUmSzHjvwVMrfKwCrv8uo8oMpCfWv2s9BE_P9suzFhkfKBSf-N4b5yBMSDel3Rz90cEu_cN2m6MeyB7Hh3ILZdE05JCSuugo9Qkf0g=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPVZC-drWDBPGXmo4XAjuoxXs0YbdBcubGO1_6qWTElSNKC8K0pXRHAZxw3GTMRPi0HwixVQD99-0bEPNiSRVnlZZL2jr_XRvUZ8C2bdCULX2Dg0k8nPrtIpYK2o5T16IVzVSDwxYEYWXysM8rNsxVDqw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Érigé en 1532 dans la plaine fertile d'Aguere à l'orée nord-occidentale de la ville historique, l'ermitage de San Benito Abad constitue le cœur battant des traditions agropastorales et populaires de l'île de Tenerife. Ce sanctuaire votif fut fondé par les laboureurs et éleveurs de la comarque en accomplissement d'un vœu solennel après que saint Benoît eut été invoqué avec succès pour protéger les récoltes de céréales et le bétail contre des invasions destructrices de criquets et des périodes d'intense sécheresse. L'édifice incarne avec une rare pureté les canons de l'architecture religieuse rurale canarienne des débuts de l'époque moderne : une nef unique en maçonnerie blanchie à la chaux épaulée d'un chaînage d'angle en pierre de basalte, couverte d'un toit à deux versants en tuiles canal d'argile cuite et surmontée d'un clocher-mur latéral à une seule arcade campanaire.\n\nL'intérieur abrite une atmosphère de ferveur recueillie sous une remarquable charpente mudéjare en bois de cœur de pin canarien (tea) assemblée à tenons et mortaises. L'autel principal est dominé par un retable en bois polychrome abritant la statue historique de saint Benoît abbé, saint patron officiel des agriculteurs et des campagnes de Tenerife. Chaque deuxième dimanche de juillet, l'ermitage devient l'épicentre de la célèbre Romería Regional de San Benito Abad, déclarée fête d'intérêt touristique national. Cet événement folklorique majeur rassemble des dizaines de milliers de pèlerins vêtus des costumes traditionnels des différentes îles de l'archipel, accompagnant des chars décorés tirés par des bœufs, des troupeaux de chèvres et des groupes de musique traditionnelle (parrandas) au son des timples et des guitares, célébrant l'attachement indéfectible du peuple canarien à sa terre et à son patrimoine agricole.",
+    visiter: "Une halte sur l'esplanade pavée de l'ermitage permet d'admirer la sobre élégance de son porche cintré en pierre de basalte sombre et son clocher-mur traditionnel. Les visiteurs pénètrent dans la chapelle pour apprécier la chaleur de la charpente mudéjare en pin tea et observer la statue de saint Benoît entourée d'ex-voto agraires, avant de découvrir les ruelles calmes de ce quartier historique autrefois voué au maraîchage.",
+    link: ""
+  },
+  {
+    id: "la_laguna_vieille_ville_et_ruelles",
+    name: "San Cristóbal de La Laguna - Rues Coloniales & Patios de la Cité Historique (Casco Histórico)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "San Cristóbal de La Laguna",
+    altitude: 570,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Premier Tracé Urbain en Damier de la Renaissance, Patios en Pin Tea & Patrimoine Mondial UNESCO",
+    century: "XVIIe siècle",
+    category: "star",
+    counts: { unesco: 1 },
+    unesco_name: "San Cristóbal de La Laguna",
+    lat: 28.48920,
+    lng: -16.31759,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMkjgylYRS7DAdnm4x571lHZvR4K09akn0BODc135ONH9lnID12ZoMSenqdCM2MeIIwx3nhkV3HZdQSE0x8n7E8cChlAgjEnwHTJFcrV0jXJ_pV1QjiYqw19ZFz1iVy548_VQqbp7p4tIklBPsWJFw97A=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNnVRAYNRRomRTRdqbDDH5CDbnDJqsf_HRRncKtx24PjPTv4p7ec1JV9RUc3vHewuOX8gqIfF9uNCT7XYWrWE8VpMSzapIbM9nZ8xRdPx09xbR2n6BSLcYzdESqHAJYW--F-1l2QVHX5izqHg2e4mtNWw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNzoXD830iNpGkI4jksfSvEjul-s2UXStO8SYElSzQWQWoGb7ssxy9Iqk0f2BgEILUUyx9CO5zT2oK0TqDN0Jfu_Q8EVg2rTRwRWf8KyLcEusB-OYQt7D05mBgkXjM03eFf8wOmo7R2q0O79YtmGy7yDA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMJtEtsU30CRPD_jwHX2eCKcSt6BxH1k_W-RufTBi8e1f1pCz1bW20znyQsBFi51ygBgx3Lz5mg3BMZZx39zrdHLbWtsZXXvC3atd8bBbFmE1_nUkFn1BYNRR-twxa0c0sAmNzAZRCxUunH16p8qZyBfQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNc-N4cXaPRfK9LomW90hp0YqPo6p2qjqMVGWvuOyPyo7_bIOVYj-0YQWp4M80rSBtktmf-mP1IG7rVi-qL287fqVu1GNxgGEDW2hV6O-qwOyKa-XT-L8q6ntVprMvcKojkiDYi6BBUq5mnTCtuKBzVQQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN38iOMXC64M0jDtGqOoNc99CQ92PayQNdBEwfURkZJ5XAY4AmcBx5uz2hVz6NHnrjVkQwP_pkFwwl9qMZSZVnXh8Nfew-xK7e1v7vgCx9D6FnRLQY1p81boH3km88BY5yCnslCRBU9yKzvCTQE7w4nXA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Inscrit sur la liste du Patrimoine mondial de l'UNESCO depuis 1999 au titre de bien culturel d'exception, le centre historique de San Cristóbal de La Laguna représente le prototype absolu de la cité coloniale idéale non fortifiée conçue selon les principes philosophiques et géométriques de la Renaissance humaniste. Tracé à partir de la fin du XVe siècle selon un plan en damier rigoureux composé de longues rues droites et régulières, ce modèle urbain visionnaire servit de matrice directe pour l'urbanisme des centaines de villes fondées par l'Empire espagnol dans le Nouveau Monde. Les artères pavées piétonnes, au premier rang desquelles la Calle San Agustín, la Calle Obispo Rey Redondo (La Carrera) et la Calle Herradores, composent un musée d'architecture à ciel ouvert où dialoguent les palais patriciens des XVIe, XVIIe et XVIIIe siècles, les maisons marchandes aux façades badigeonnées de teintes pastel chaleureuses (ocres, terres de Sienne, rouges almagre) et les imposants couvents cloîtrés.\n\nDerrière de massifs portails sculptés en pierre de taille basaltique sombre s'ouvrent des trésors d'intimité domestique : de superbes cours intérieures (patios canarios) pavées de galets marins et ceintes de galeries superposées en encorbellement, soutenues par de robustes colonnes de cœur de pin des Canaries (tea) imputrescible et peuplées de fougères arborescentes et de palmiers. Les toitures d'argile cuite à deux ou quatre pans sont soulignées par des avant-toits ouvragés et des balcons fermés de moucharabiehs d'influence mudéjare conçus pour préserver la fraîcheur face aux brumes de la plaine d'Aguere. Animé aujourd'hui par la vitalité de l'université historique de La Laguna, ses librairies, ses cafés traditionnels et ses ateliers d'artistes, ce tissu urbain séculaire a conservé intacte son harmonie spatiale et son âme aristocratique insulaire.",
+    visiter: "Parcourir à pied les artères piétonnes pavées de la Calle San Agustín et de la Calle Herradores pour admirer l'enfilade des palais seigneuriaux aux façades colorées et leurs encadrements en basalte taillé. Les visiteurs poussent les portes cochères pour contempler les patios traditionnels ombragés de palmiers et ornés de galeries en bois de pin tea, avant de savourer l'animation des terrasses littéraires et des boutiques artisanales du centre historique classé.",
+    link: ""
+  },
+  {
     id: "anaga_tunel_de_las_hadas",
     name: "Tenerife - Tunnel des Fées (Túnel de Las Hadas - Camino Viejo al Pico del Inglés)",
     country: "Espagne",
