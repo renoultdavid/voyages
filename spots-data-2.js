@@ -1,5 +1,228 @@
 const SPOTS_2 = [
   {
+    id: "tenerife_minas_de_san_jose",
+    name: "Tenerife - Désert de Ponce des Minas de San José (Minas de San José)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "La Orotava",
+    altitude: 2300,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Désert de Ponces Felsiques, Retombées Pliniennes & Paysage Lunaire Subalpin",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 28.26472,
+    lng: -16.58827,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPGKqSRc6XAsFpdjARLsmc3qLekFO-0HQv7lekH6PQ-Q5HA61BLVwqn5VjaxTINQz__sur7LO34cCgF3hUeI2KryeeSxMmA2fckwI-fhm1KWvRQWp0o2Hq2imDgTZ7cGDG-ErIenRJOwPKWwzCzAd9nqA=w1379-h919-s-no-gm?authuser=0",
+    description: "Étendue sur plusieurs dizaines d'hectares au cœur de la caldeira de Las Cañadas, à plus de deux mille trois cents mètres d'altitude, la vaste plaine des Minas de San José déploie un paysage lunaire d'un dépouillement et d'une clarté minérale sans équivalent dans l'archipel canarien. Ce désert d'altitude aux teintes blondes, beiges et ocres est né d'anciens cataclysmes volcaniques explosifs de type plinien et sub-plinien déclenchés par le complexe de la Montaña Blanca et du Teide. Au cours de ces éruptions d'une violence inouïe, d'immenses panaches pyroclastiques chargés de gaz propulsèrent dans la haute atmosphère des millions de tonnes de magma dacitique et phonolitique très visqueux ; refroidie instantanément durant sa trajectoire aérienne, cette lave hautement vésiculée est retombée sous la forme d'une pluie torrentielle de fragments de pierre ponce (pumite ou piedra pómez), de lapilli et de cendres vitreuses claires qui ont comblé cette cuvette naturelle sur une épaisseur de plusieurs dizaines de mètres.\n\nLe site doit son nom aux anciennes concessions minières artisanales qui, jusque dans la seconde moitié du XXe siècle avant la protection intégrale du parc national, exploitaient ce gisement à ciel ouvert pour fournir des matériaux légers de construction, des abrasifs et des amendements agricoles destinés aux cultures de l'île. Aujourd'hui totalement rendu à la nature sauvage, ce désert d'altitude offre un contraste chromatique et textuel saisissant entre la luminosité immaculée de ses sables fins de ponce et les langues de lave basaltique noire et d'obsidienne vitrifiée qui viennent s'y échouer depuis les contreforts du pic du Teide. Balayée par les vents secs au-dessus de la mer de nuages et soumise à des amplitudes thermiques extrêmes, cette plaine silencieuse où surnagent quelques touffes éparses de genêts du Teide constitue un décor minéral d'une telle étrangeté qu'elle est régulièrement choisie par les agences spatiales pour tester leurs robots d'exploration martienne et par les cinéastes pour évoquer des planètes lointaines.",
+    intro_page: "Au cœur du Parc national du Teide, à 2 300 mètres d'altitude, les Minas de San José forment une immense plaine de pierre ponce blonde d'une spectaculaire beauté désertique. Née des retombées explosives pliniennes du complexe de Montaña Blanca, cette vaste cuvette sédimentaire comblée de lapilli clairs et de poussières volcaniques tranche vigoureusement avec les coulées d'obsidienne noire et de basalte sombre qui descendent du pic du Teide. Ancien site d'extraction artisanale aujourd'hui sanctuarisé, ce désert subalpin balayé par les vents purs offre une immersion sensorielle saisissante où la marche sur les ponces crissantes s'effectue dans un silence absolu, au milieu d'un paysage lunaire ayant inspiré le cinéma de science-fiction et l'expérimentation spatiale internationale.",
+    visiter: "Stationner sur l'un des parkings aménagés le long de la route TF-21 pour s'élancer à pied dans l'immensité sableuse des Minas de San José en suivant les cheminements naturels tracés sur les ponces claires. Les visiteurs prennent le temps d'apprécier le silence absolu et le crissement des pas sur le substrat de verre volcanique, avant d'observer le contraste saisissant entre les langues de lave noire pétrifiée, les buissons argentés de genêts du Teide et la silhouette colossale du cône sommital du Teide dominant l'horizon.",
+    link: "",
+    sections: [
+      {
+        title: "Traversée de la cuvette de ponce et îlots de végétation subalpine",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPGKqSRc6XAsFpdjARLsmc3qLekFO-0HQv7lekH6PQ-Q5HA61BLVwqn5VjaxTINQz__sur7LO34cCgF3hUeI2KryeeSxMmA2fckwI-fhm1KWvRQWp0o2Hq2imDgTZ7cGDG-ErIenRJOwPKWwzCzAd9nqA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOqs7NmP_jv3W_ZYxDIkR2C4cNQDRS1ejg1XXWOfoczzU-MoRxYlJqb2VdpuiKzFW_nARIBr07sQZnJbV6sRx4vbqgY_VmepZ4_eP_FKAK1hEaqT7Bby71-2ecDNubarpODgC3qVhpuhCu5xike4qClmg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La traversée à pied de cette vaste cuvette offre une expérience sensorielle singulière, accentuée par le crissement sourd sous les pas des milliards de petits fragments de ponce alvéolaire et d'éclats de verre volcanique. Sur cet horizon désertique balayé par les vents secs d'altitude et soumis à des amplitudes thermiques extrêmes entre les gelées hivernales et l'ardeur solaire estivale, la végétation paraît presque absente. Seuls quelques rares buissons arrondis de genêt du Teide (Spartocytisus supranubius) et de bouquets ligneux d'herbe des sommets (Descurainia bourgaeana) parviennent à ancrer leurs racines dans ce substrat mobile et perméable, formant des îlots de vie végétaux d'un vert pâle au milieu de la monochromie sableuse."
+      },
+      {
+        title: "Contraste chromatique avec les laves noires et décor lunaire cinématographique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOtpnYhaDVOB9-na8UuP2Tg1AU44XLkrjF_9tSX5QxdiXjY1k8GQgcffG5eUVBBpo7UllmIk0_LtsdOavLTvEa8gSj68h_rqlwrq_rQqOOvWrBAUty53l9B5h_RrlFlanQvgf0X7YK5e7zztKnKV9cQdQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le spectacle visuel culmine dans le saisissant contraste chromatique qui s'établit entre la clarté lumineuse de cette plaine de ponce et les sombres coulées de lave basaltique et d'obsidienne noire qui sont venues mourir à sa périphérie, issues des flancs de la Montaña Blanca et du cône terminal du Teide qui se dresse en toile de fond majestueuse. La pureté de la lumière zénithale, l'absence d'éléments d'échelle humaine et l'étrangeté de cette texture minérale immaculée ont d'ailleurs valu aux Minas de San José de servir de décor naturel privilégié à de nombreuses productions cinématographiques de science-fiction et de terrain d'expérimentation pour tester les instruments et véhicules d'exploration planétaire destinés à la Lune ou à Mars."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPe0M8CF_oq9y0qe_jDqKBEuG62flO-GvJyyw7J5Fx4ap5p3ZT1cwBRhDkB4SpdeTdRU5JbmLJG8i2p8SANxPG2eMo-LYJ1Cnz7pFs4xSDaGaR-t0bqZjge7qARM2BShLPejVXVCoK82R0za8niU3bFcw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNeLZdL1Eobaw3gFmvC1LIB7NPnbhGxg0mChJkmjWleQpkFts2xkH5VkiXoo_YMKYI4xap4xWQy3iiu9Xwn4f75QKGUj18Dmj3ETiE8i7ZVM9iEFtEQaI8XTgAsb-YSZpsrhijfvCHSnXeeXkDY4MgGmg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le genêt du Teide (Spartocytisus supranubius), seigneur des hautes altitudes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMrKAj-VRQE7HQtUAO_gAjkUGEgdD2v1iIFFL3dq48VGIhz81zD6mIM7leMjL2IDM7VUTT2oOaLadjipZTm-f6Gkupunf6atfZHhfdNsO_sPXl8eOLwrBMJPhr3NLNeasDuPGf1qxaPuY57Qhh6iwgntw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMQmh5lDWk-tswwKQMD_zXrZ2i02Al7sUGqkfMIiEkHiij6AMEilQTFBlNoScksoNxjQzKOBvaPBR6gTjCIqV3HhUxUBl3hoqogVcslFyDuizIpwgixAscMENLbjwiHn5gQKzDTX8Y3IKbUHHVW0FTjFQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "A droite : Le Cytisus supranubius (syn. Spartocytisus supranubius), appelé localement retama del Teide ou genêt du Teide, est un arbuste buissonnant endémique des hautes altitudes des îles Canaries, dominant presque exclusivement le paysage volcanique subalpin de Tenerife (dans la caldeira de Las Cañadas) et de La Palma (autour du Roque de los Muchachos).\nComme son nom l'indique (supra nubius, « au-dessus des nuages »), il prospère entre 1 800 et 3 000 mètres d'altitude, là où l'air dépasse la mer de nuages formée par les alizés. Il y affronte des amplitudes thermiques extrêmes : un ensoleillement impitoyable le jour, la sécheresse estivale et le gel ou la neige en hiver. Pour résister au vent et à l'évapotranspiration, il forme des touffes arrondies et denses d'environ deux mètres d'envergure, aux rameaux striés d'un vert grisâtre qui assurent l'essentiel de la photosynthèse, ses minuscules feuilles trifoliées tombant très rapidement après leur apparition au printemps.\nEntre mai et juin, le paysage minéral de scories et de ponces se métamorphose lorsque la retama se couvre d'une floraison spectaculaire et parfumée. Ses fleurs papilionacées, blanches à délicatement rosées, embaument les cratères et attirent des essaims d'abeilles, à l'origine du réputé miel de retama du Teide. Arbuste structurant de la haute montagne insulaire, il abrite une riche faune d'invertébrés endémiques et stabilise les sols volcaniques meubles."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM46pbYQpeFyIWMNoaggbsNmwrW49Xr08HVXq_q1Uuh8hadBADJaJtcORY1h4Jz_HwDRlbcqOJ9m9te-xgL2x8oBUNhHm_DK-Qet-bteyM7Uio3gHM737lcz17GJOjdlnDymIeSFIsprRhKDCuI31Bt3Q=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN_FZ6nnZecFPZNmtaBtPhWrt2zOVqfrnkolI8j3V0GXVaNQxj9DFA5A-P4quSH7ZPO-Bo3XStAU3usHdJN7RgdDD_TsitZkfIUmLtZtjE7MifACWUNS7i9B0tHgYiA9MPVbkVbJdElKvfEG0zU91ZLmg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Genèse plinienne du complexe Teide-Montaña Blanca et retombées pyroclastiques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNRZwoPCEv1c1WqeCZwnkyTTSxGKA9LmZFRPDOSfbci_Rvu3gY3MjKecyYVClEiiuhQ95OgzUevkxRXOUpjEBDpVmI6_yTJs_WrG7jr1KmMwYJSk9rvclWOHM5ZY2yKJCJCo0iratTRqEk8t7sYW7lEog=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Cet immense désert doré et ocre résulte d'un volcanisme explosif majeur, caractérisé par des éruptions pliniennes et sub-pliniennes violentes du complexe Teide-Montaña Blanca. Au cours de ces cataclysmes, des colonnes éruptives chargées de gaz ont propulsé des milliards de mètres cubes de magma visqueux et felsique qui se sont refroidis brutalement dans l'atmosphère, retombant sous la forme d'une pluie torrentielle de pierre ponce (piedra pómez ou pumite), de lapilli et de cendres vitreuses claires qui ont comblé cette portion de la caldeira sur plusieurs mètres d'épaisseur."
+      }
+    ]
+  },
+  {
+    id: "tenerife_montana_majua",
+    name: "Tenerife - Cône Volcanique de Montaña Majúa (Montaña Majúa)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "La Orotava",
+    altitude: 2316,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Dôme Pyroclastique de Ponce, Sentier n° 16 & Faune Acridienne Subalpine",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 28.25055,
+    lng: -16.62342,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNMdu6wMkmPMwbnGhqCECtHOmH7NbrYvFjmPxtJj26x0fxfBq89uGRzJpFpfj_ULj67FqN9GefpXvIj7UlFV2192jdlGVuybcRMxpBSjvDC3xBuFIYgExOyqyEd8aLn-XEgN0KODM1zhWdWicji6vqn1Q=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPWo00yrTxU1GpXMrtkL5nUhx6FrX5VUxZOjqOuCLtHULgacaVmecJ-L4qYwtxPIDIVWfwx8xQ4pd18bYi_RoCHDHCJxhpTlxWf-XaCgtst70zHJmq0QiMZQO09C2S1Nv_7WXPyEgXQGBDH2EfpNcJ1tA=w1382-h919-s-no-gm?authuser=0",
+        caption: "Le Sphingonotus caerulans, ou criquet rubané, est un orthoptère acridien pionnier, strictement inféodé aux milieux minéraux ouverts, chauds et très xériques.\nSon corps et ses élytres présentent une remarquable homochromie avec les sols caillouteux, déclinant des teintes grises, ocres ou brunes tachetées qui le rendent quasi invisible au repos.\nEn s'envolant brusquement, il dévoile des ailes postérieures d'un bleu ciel pâle ou translucide, dépourvues de la bande sombre marginale typique de l'œdipode bleu (Oedipoda caerulescens).\nCe vol court et rasant, souvent accompagné d'un atterrissage immédiat et d'un plaquage au sol, désoriente visuellement les prédateurs dans les étendues dénudées.\nStrictement psammophile et xérophile, il colonise les bancs de graviers fluviaux, les éboulis ensoleillés, les dalles rocheuses et les coulées volcaniques clairsemées."
+      }
+    ],
+    description: "Émergeant avec douceur au milieu des étendues de ponce claire du plateau central des Cañadas, à quelques encablures du Parador de Turismo et des Roques de García, la Montaña Majúa dresse son cône pyroclastique arrondi à 2 316 mètres d'altitude. Cet édifice volcanique subalpin d'origine explosive est constitué d'une accumulation litée de fragments de pierre ponce dacitique, de lapilli ocres et de blocs de basalte arrachés aux profondeurs de la croûte insulaire. Parcourue par le sentier officiel n° 16 du parc national, la montagne propose une ascension courte et accessible récompensée par une vue circulaire remarquable embrassant le flanc oriental du Teide, le dôme de Montaña Blanca et le gigantesque amphithéâtre naturel formé par les parois verticales de la caldeira de Las Cañadas.\n\nLe biotope de la Montaña Majúa illustre les contraintes écologiques sévères imposées aux organismes vivants à plus de deux mille trois cents mètres d'altitude : aridité extrême des sols pulvérulents, rayonnement ultraviolet intense et vents violents. Dans ce milieu minéral découvert prospère une flore pionnière dominée par les coussins d'herbe à vipère et de genêts du Teide, servant de refuge à une entomofaune hautement spécialisée. Parmi les insectes emblématiques du site se distingue le criquet rubané (Sphingonotus caerulans), orthoptère maître du mimétisme dont la robe tachetée se confond parfaitement avec les sables volcaniques, avant de dévoiler le bleu azur délicat de ses ailes postérieures lors d'envolées courtes au ras des cailloux. Ce promontoire minéral offre une lecture apaisée de la géométrie volcanique des Cañadas dans une atmosphère de haute solitude.",
+    visiter: "S'engager sur le sentier balisé n° 16 depuis la route TF-21 pour gravir la croupe sablonneuse de la Montaña Majúa en suivant les lacets réguliers tracés dans la ponce. Arrivé au sommet aplati, admirer le panorama dégagé sur les coulées de lave du Teide et les falaises méridionales de la caldeira, tout en observant le vol rasant des criquets rubanés se posant sur les dalles chauffées par le soleil.",
+    link: ""
+  },
+  {
+    id: "tenerife_mirador_el_corral_del_nino",
+    name: "Tenerife - Belvédère du Corral del Niño (Mirador El Corral del Niño)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "La Orotava",
+    altitude: 2300,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Crêtes d'Izaña, Cratères d'Éruption Fissurale & Observatoire Astrophysique du Teide",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.30284,
+    lng: -16.51954,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMJLmfH4L8V4b0L0Qwfy6crtsU9HHsXtoQaqK48hx9sCTujkIejZedj1c8xs7eBFJ0jCVHM_B4qlU2mPG29dZmStEC02fpsWEjTSb9in-G2_4RYmWGCwsam9mn5ZKM24fGjE2Rem72kswiLbjoS1bY6Rg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Aménagé sur la ligne de crête sommitale de la cordillère dorsale, le long de la route TF-24 reliant La Esperanza au Teide à 2 300 mètres d'altitude, le mirador El Corral del Niño constitue l'un des belvédères astronomiques et géomorphologiques les plus grandioses de Tenerife. Ce balcon d'altitude surplombe directement le secteur d'Izaña, internationalement reconnu pour la pureté absolue et la transparence de son atmosphère limpide située au-dessus de la couche d'inversion des alizés, accueillant les coupoles immaculées des télescopes de l'Observatoire astrophysique du Teide. Le site offre une plongée vertigineuse sur un alignement spectaculaire de cônes de scories sombres et de petits cratères d'éruption fissurale ouverts lors d'anciens épisodes volcaniques le long de la dorsale de Pedro Gil.\n\nVers l'ouest et le sud-ouest, le regard embrasse toute l'immensité de la caldeira de Las Cañadas, dominée par la pyramide majestueuse du pic du Teide et les arêtes dentelées de la Montaña Blanca émergeant des étendues de ponce dorée. Vers le nord et l'est, lorsque la traditionnelle mer de nuages (mar de nubes) enveloppe les vallées côtières sous un épais manteau d'écume blanche, le belvédère procure la sensation vertigineuse de flotter sur une île minérale suspendue entre le ciel azuréen et l'océan Atlantique. Balayé par des vents vifs et glacés en hiver mais baigné d'un rayonnement solaire éclatant tout au long de l'année, ce promontoire subalpin illustre avec puissance la rencontre entre la géologie volcanique primitive et la contemplation moderne du cosmos.",
+    visiter: "Une halte sur l'aire de stationnement du belvédère le long de la route TF-24 permet d'accéder à la terrasse d'observation pour contempler l'enfilade des cratères volcaniques alignés sur la dorsale et les coupoles blanches de l'Observatoire d'Izaña. Les promeneurs prennent le temps d'admirer la silhouette monumentale du Teide fermant l'horizon occidental et de photographier la mer de nuages s'étendant à perte de vue sur les versants nord.",
+    link: ""
+  },
+  {
+    id: "tenerife_mirador_la_tarta",
+    name: "Tenerife - Belvédère de la Tarte du Teide (Mirador La Tarta)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "La Orotava",
+    altitude: 2110,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Tranchée Géologique de la Tarta del Teide, Stratigraphie Pyroclastique & Mer de Nuages",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.33450,
+    lng: -16.49027,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOSGpdX1e_G0QEMvBlGAb_e6rLG21Evg26lsRzlvu6lV-R8nOS6jE2id2Y7sGg9GOqytTvvV7BUJyCW5iGXWTcTcbIt2xSCIB_REYiABAmGxqGXAV8nxRUtokXznHt0q50M4HeFRHt6_A4ePLW7DqjjIQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczObXkPKThJFRFFF5VF636SPaFwXTQtoSOB4a3zk0ImJT8USDsketGuIbHgQsZEvnJE0CAwbNjKngGXj0wvWpu7l73wm1jsmwzAAXr_Uh-hP8_7aKfFx6cWrnEb_d-WxOyulj7Xa5n26tfIv0I7WxXQCgw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMNUq95Svr3eH36vLOmIZAqXsq8hmZt6C6weXrTOINtLkaJfZZF0HYIPUJpQb8hrvvRycaAOBLxwDTgXRhTeqIjHSj_zOaO5YdxSzIrgOs7ijDZMngxhMNyKYZbkyXFNUujQOD12PfK-aka5q3gb0WzdA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Bordant la route de haute crête TF-24 à plus de deux mille cent mètres d'altitude, le mirador de La Tarta constitue l'une des haltes géologiques et paysagères les plus spectaculaires et didactiques de l'île de Tenerife. Le site tire son appellation gourmande de « Tarte du Teide » (La Tarta del Teide) de la coupe stratigraphique monumentale mise au jour dans la falaise lors du percement de la chaussée routière : la roche y dévoile un empilement régulier de couches sédimentaires volcaniques multicolores évoquant les tranches superposées d'un gigantesque gâteau pâtissier. Cette coupe géologique à ciel ouvert expose des millénaires d'histoire éruptive à travers l'alternance rythmée de strates de ponces blanches et beiges très légères issues de violentes éruptions explosives, de bandes de lapilli de basalte noir dense issus d'émissions stromboliennes, et de niveaux ocres ou rougeâtres d'argiles et de paléosols oxydés par les intempéries entre deux paroxysmes volcaniques.\n\nOutre cette fascinante leçon de volcanologie naturelle, le belvédère offre un panorama d'une ampleur grandiose sur le versant nord-est de l'île. Depuis la terrasse sécurisée, la vue plonge directement au-dessus de la dense mer de nuages entretenue par les alizés, qui s'engouffre dans la haute vallée de La Orotava comme un fleuve de coton blanc immobile. Vers le sud-ouest, la silhouette conique du volcan Teide s'élève majestueusement en arrière-plan, drapée de teintes violacées sous la lumière déclinante de l'après-midi. Point d'arrêt incontournable de la route dorsale, La Tarta conjugue la pédagogie des forces telluriques à la contemplation d'un des plus beaux horizons marins et nébuleux des Canaries.",
+    visiter: "Stationner sur l'aire de stationnement du belvédère pour examiner de près la paroi rocheuse tranchée de « La Tarte » et observer l'alternance remarquable des couches de ponce blanche, de lapilli noir et de scories rouges. Les visiteurs se tournent ensuite vers la rambarde panoramique pour contempler la mer de nuages s'étalant sur la vallée de La Orotava avec le sommet du Teide se dressant au loin sur la ligne de crête.",
+    link: ""
+  },
+  {
+    id: "tenerife_mirador_de_chivisaya",
+    name: "Candelaria - Belvédère de Chivisaya (Mirador de Chivisaya)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Candelaria",
+    altitude: 1090,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Vallée de Güímar, Crêtes de la Dorsale de Pedro Gil & Forêt de Pins Canariens",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.37171,
+    lng: -16.42754,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPYKqaYZhaDqgVvWxk-JO8fCnMk3d5KRacntIXMr4pjKh39iwAlK0GFZq-D_3408jQvkAw8GIXn3oV6Bgtp24V3iNDozJhTqV79E5A__JiARaRP78tu6SYVlQBCpqmSjsMkT3KcYuOy2G3cDCnVFwyknA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Perché à plus de mille mètres d'altitude sur le flanc oriental de la cordillère dorsale de Pedro Gil, le mirador de Chivisaya s'ouvre sur l'immense amphithéâtre géologique de la vallée de Güímar. Ce panorama grandiose permet de contempler l'une des structures d'effondrement gravitaire les plus colossales de Tenerife, façonnée il y a près de huit cent mille ans lorsqu'un pan entier du massif montagneux glissa dans les profondeurs sous-marines de l'Atlantique, créant une gigantesque cicatrice en fer à cheval encadrée par les murailles abruptes du Ladera de Güímar. Entouré par les hautes frondaisons verdoyantes des pins des Canaries (Pinus canariensis) de la Corona Forestal, ce promontoire sauvage offre une vue plongeante embrassant les terrasses agricoles étagées d'Arafo et de Candelaria, le cône volcanique littoral de la Montaña Grande et la plate-forme de lave noire du Malpaís de Güímar s'avançant dans les eaux bleu profond de l'océan.\n\nLe site est également imprégné de la mémoire des chemins de transhumance et des anciennes pistes pastorales qui reliaient les hameaux agricoles des moyennes terres aux alpages d'altitude des Cañadas. Balayé par une brise d'altitude vivifiante, le belvédère se trouve souvent à la limite supérieure de la mer de nuages côtière, permettant d'assister à de magnifiques jeux de lumière lorsque les brumes se déchirent au-dessus des vergers fruitiers et des vignobles en terrasses du sud-est insulaire. Cette terrasse naturelle compose un balcon d'exception pour appréhender la dynamique des grands glissements de terrain canariens et la reconquête forestière qui habille les crêtes rocheuses de l'île.",
+    visiter: "Une halte sur l'aire du belvédère le long de la route menant aux crêtes permet de contempler l'échancrure colossale de la vallée de Güímar descendant vers l'océan Atlantique. Les visiteurs admirent la silhouette conique de la Montaña Grande au bord du littoral et le contraste entre la pinède canarienne d'altitude et les versants arides du sud-est de Tenerife, avant de poursuivre vers les hauts sommets de la dorsale.",
+    link: ""
+  },
+  {
+    id: "guimar_puertito_punta_los_romeros",
+    name: "Güímar - Pointe des Pèlerins & Littoral du Puertito (Punta Los Romeros)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Güímar",
+    altitude: 5,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Pointe Littorale Historique, Pèlerinage de la Virgen del Socorro & Réserve du Malpaís (XVIIIe siècle)",
+    century: "XVIIIe siècle",
+    category: "star",
+    counts: {},
+    lat: 28.29520,
+    lng: -16.37411,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMJB27vr0eUqSVFoBMBHqKyG6XG-6-G3BRHy8U2fTfXRR4m5vm_GBLLGeacLG-HAbn56bo8jRH4jg7z3Si4wBrrslVAJjl8kixyuYyow57xL2kQSpqfuITVVBVPxhHibRV3iR-L4MaBbxdQhFiKEth1Ng=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNtdjyWYGqUMYOjwB94STcmXAWXKyUPWV_NdJY7cUSZwQiUPVOFhrl9oOEWxAurL7tRuW8fkqFHm6mQDd1BRoPVWDzq8wT09Rsr9qWAZzRgFDF-rjmrWqY1OLgkD3wMg2ps5mstH-JKnuAzFUesqei1eQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "S'avançant dans les eaux tumultueuses de l'Atlantique en bordure de la station côtière du Puertito de Güímar, la Punta Los Romeros forme un promontoire littoral d'une grande valeur historique, religieuse et naturelle sur la côte sud-est de Tenerife. Ce cap rocheux de basalte sombre se rattache au secteur protégé de la Réserve naturelle spéciale du Malpaís de Güímar, vaste champ de lave chaotique formé il y a une dizaine de milliers d'années par les épanchements fissuraux de la Montaña Grande. Le site tire son toponyme traditionnel de « Pointe des Pèlerins » de sa proximité avec l'itinéraire séculaire de la Romería del Socorro, l'une des plus anciennes fêtes votives traditionnelles des Canaries célébrant l'apparition originelle de la statue de la Vierge de Candelaria aux bergers aborigènes guanches sur la plage voisine de Chimisay à la fin du XIVe siècle.\n\nLe littoral est aménagé d'une agréable promenade piétonne dallée bordée d'anciennes barques de pêche artisanale et de murets de pierre sèche protégeant les habitations côtières contre les assauts de la houle atlantique. Le biotope environnant est caractérisé par un remarquable tabaibal maritime dominé par la tabaiba douce (Euphorbia balsamifera) et les euphorbes des Canaries, capables de résister à la salinité extrême des embruns et à la forte insolation du versant méridional. Depuis l'esplanade du cap, le regard embrasse un panorama maritime ouvert vers le sud-est jusqu'au phare de Rasca, tout en contemplant vers l'amont les falaises titanesques de la vallée de Güímar qui s'élèvent majestueusement vers les crêtes volcaniques de l'intérieur de l'île, offrant une halte paisible imprégnée d'histoire populaire et de traditions maritimes canariennes.",
+    visiter: "Une promenade sur la jetée piétonne de la Punta Los Romeros permet de longer les criques de galets volcaniques et d'admirer les bateaux de pêche amarrés dans l'anse du Puertito de Güímar. Les visiteurs prennent le temps de contempler l'immensité de l'océan Atlantique et la silhouette sombre de la Montaña Grande dominant le champ de lave du Malpaís, avant d'emprunter les sentiers côtiers menant vers les plages naturelles du littoral de Güímar.",
+    link: ""
+  },
+  {
     id: "la_orotava_mirador_piedra_de_la_rosa",
     name: "La Orotava - Belvédère de la Rose de Pierre (Mirador Piedra de la Rosa)",
     country: "Espagne",
