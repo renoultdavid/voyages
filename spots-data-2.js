@@ -1,5 +1,79 @@
 const SPOTS_2 = [
   {
+    id: "icod_drago_milenario",
+    name: "Icod de los Vinos - Le Dragonnier Millénaire (Drago Milenario)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Icod de los Vinos",
+    altitude: 223,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Monument National Botanique, Dracaena draco Ancestral & Symbole Vivant de la Macaronésie",
+    century: "Moyen Âge",
+    category: "star",
+    counts: {},
+    lat: 28.36663,
+    lng: -16.72225,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMwXp1rUf4ApzU9NqA4zHRZRXkr14OKBacpI-GS5JikvCeq3pYrndeCjUTEDk62PieX9OgBqU-O8DSKVl-gMfLAZfF394RvxOBmpVzCdsOyDknNvIjT15kbbamVNRPuYflbczQu09po-vVY6StMBGygCQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO7pfmNfGt_DaMJq_FVxykj_9PPKf96K9e89E6ftK5Ih0wXYya6gsUGwK_Q6baEt8Ng8c8j8iURetM6Gkm-nt_ZsJR24LL0wz8-H5mnnYqKgT-PNKeNetGMZ7KjiXnQQikfhVDQP00j4nZFmbcdm142LQ=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Enraciné au fond d'un vallon fertile sur les pentes septentrionales de Tenerife, le Drago Milenario d'Icod de los Vinos constitue l'arbre le plus célèbre et emblématique de tout l'archipel des Canaries. Appartenant à l'espèce arborescente monocotylédone Dracaena draco, ce géant végétal présente des dimensions monumentales hors du commun : s'élevant à plus de seize mètres de hauteur, son tronc colossal mesure près de vingt mètres de circonférence à la base et soutient une couronne en parasol composée de plus de trois cents branches maîtresses dont le poids total dépasse les cent quarante tonnes. Ne possédant pas de véritables cernes de croissance concentriques comme les arbres dicotylédones, son âge a longtemps alimenté les légendes locales qui lui prêtaient plusieurs millénaires d'existence ; les expertises botaniques contemporaines estiment aujourd'hui son apparition entre huit cents et mille ans, faisant de lui le plus ancien et le plus imposant spécimen vivant de son espèce au monde.\n\nObjet de vénération sacrée pour les anciens Guanches qui utilisaient sa résine rougeoyante — le mythique « sang-dragon » — pour embaumer leurs défunts et soigner les blessures, le dragonnier fut préservé lors de la colonisation castillane pour devenir le symbole héraldique de la cité d'Icod. Classé monument national en 1917, l'arbre a fait l'objet au cours du XXe siècle d'ambitieux travaux de sauvetage conservatoire, notamment le nettoyage de sa vaste cavité interne assainie par un système de ventilation artificielle pour enrayer la prolifération fongique, ainsi que l'aménagement d'un parc botanique protecteur de trois hectares (Parque del Drago) qui l'entoure de flore endémique canarienne. Dressant ses épaisses ramifications feuillues devant la silhouette solennelle du clocher de San Marcos et la pyramide lointaine du volcan Teide, le patriarche d'Icod incarne la majesté intemporelle de la nature macaronésienne.",
+    visiter: "Une halte sur la balustrade de la place Andrés de Lorenzo Cáceres permet d'admirer la vue d'ensemble la plus classique sur la ramure colossale du dragonnier se détachant sur le versant verdoyant. Les visiteurs peuvent descendre dans le Parque del Drago pour s'approcher au plus près du tronc noueux multicentenaire, explorer les jardins ethnobotaniques dédiés aux espèces médicinales et indigènes des Canaries, et découvrir les grottes sacrées guanches reconstituées au pied du grand arbre.",
+    link: ""
+  },
+  {
+    id: "icod_de_los_vinos_village_historique",
+    name: "Icod de los Vinos - Cité Historique & Paroisse Saint-Marc (Plaza Andrés de Lorenzo Cáceres)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Icod de los Vinos",
+    altitude: 238,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Capitale Viticole Historique du Malvoisie, Architecture Coloniale & Retable de San Marcos (XVIe siècle)",
+    century: "XVIe siècle",
+    category: "star",
+    counts: {},
+    lat: 28.36724,
+    lng: -16.72130,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNJT8LFBud3ow0d5kpp9pzhBnm996QLoNbFdHRtm6YjBRc-Dfh0T8hMN3YQzkQcw4syDmz6sWVkJX053ObWmWWMUwzuA03jjOQ4n3-nC5VLs6meOuX8-141tXefPb6mxRH81qhVb0ZgD4pKt83E7N1S_w=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNODLVaQfBQ0WylCHH0wKyPOo5sL9m0s4EPtgTTM5p8fDwg8wEkfWL4JTHVKpPlx7ZtObEPnGMzEqRUojAmHTbaxREyRNvAH0A87LcNVXiCeqKio1Dgv5Gg4oSSWR566HjlIbr_PGot1xeae2GrJlstCg=w613-h919-s-no-gm?authuser=0",
+        caption: "Bâtie à partir du XVIe siècle en bordure de la Plaza Andrés de Lorenzo Cáceres, la Parroquia Matriz de San Marcos présente une sobre façade blanchie à la chaux, caractéristique de l'architecture coloniale canarienne. Ses murs massifs en maçonnerie traditionnelle sont rythmés par des encadrements et des chaînages d'angle taillés dans le basalte sombre local. Le portail principal s'orne d'éléments maniéristes en pierre de taille, surmonté d'élégants balcons et avant-toits en bois de pin canarien (tea) sculpté. Sur le flanc de l'édifice s'élève une tour-clocher trapue à plusieurs registres superposés, couronnée d'un beffroi ajouré abritant les cloches de bronze."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM-WMIgBBYN_lJxcU4lerZXE0W_wc_uXa_nIRwIuEHo9dzvvXJtWCN0PAR2z8kCAhJSBOrdD7iUbzfQoTN12HW_GcrMdUDI2nh1NfVr8ZREC9GLe77s1uEzjDrFTJ9ISyv7n6vjsDdz2-jwE9jo8EiDnQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMVj0C7kdkqM4HuGJB8ul7ZEXOR9oQAak9WGK_vHJFmWWb4BdOdgQWX7GYlQzaAqbReLNN0uwQfubwmoDRwJ5hLnXF7jZfw6b9hsWmX70cB5caQAYhHWUWMe_luP2Vees8_XualHW-kdmH3wjiTwwOwIw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMu5QMKfgTjWUPuD-aBnuOyGK0UBgEI2ui2fvL8Qr0WONXEIzPlledBzMhPayLX0HsYwW_EyqvPsnZ4_7eZXlAYprIG9ErOcrAhmGhE2c_LEHixwT92xYXZEKnnMc15-YIiLOQU6RwjVCQk6Oi4f9u1QA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Fondée en 1501 au lendemain de la conquête de l'île par l'adelantado Alonso Fernández de Lugo, la cité d'Icod de los Vinos s'étage avec noblesse sur les pentes fertiles de la comarque d'Icod-Daute, face aux déferlantes de l'océan Atlantique. Le bourg connut un développement prodigieux dès le XVIe siècle grâce à la culture de la canne à sucre puis à l'essor flamboyant des vignobles en terrasses, dont les cépages de Malvoisie (malvasía volcanica) donnaient ce vin doré liquoreux célèbre dans toutes les cours européennes, chanté par Shakespeare et exporté par les navires marchands vers l'Angleterre et les Flandres. Cette prospérité commerciale permit à l'aristocratie terrienne et aux ordres religieux de bâtir un ensemble urbain remarquable classé Bien d'Intérêt Culturel, où ruelles pavées en forte pente, fontaines en pierre volcanique et manoirs patriciens aux façades blanchies à la chaux rivalisent d'élégance avec leurs grands balcons en encorbellement et leurs cours intérieures arborées (patios).\n\nLe cœur monumental de la ville se déploie autour de la magnifique Plaza Andrés de Lorenzo Cáceres, terrasse ombragée de lauriers des Indes et de palmiers centenaires bordée par la Parroquia Matriz de San Marcos. Cette église paroissiale majeure, agrandie aux XVIIe et XVIIIe siècles, abrite sous de splendides plafonds à caissons mudéjars en bois de pin tea un inestimable trésor d'art sacré, au premier rang duquel brille la monumentale croix d'argent filigrané de deux mètres de haut forgée à La Havane au XVIIIe siècle, considérée comme la plus grande croix d'orfèvrerie d'argent au monde. Entouré par d'anciennes demeures coloniales comme la Casa de los Cáceres et ponctué de bodegas traditionnelles où se perpétue l'art de la vinification, le centre historique d'Icod illustre avec éclat l'héritage patrimonial d'une ville qui sut allier ferveur spirituelle, prospérité viticole et douceur de vivre canarienne.",
+    visiter: "Flâner sur les terrasses pavées de la Plaza Andrés de Lorenzo Cáceres pour contempler les façades seigneuriales aux balcons de pin tea et le clocher en pierre basaltique de la paroisse San Marcos. Pénétrer dans l'église pour admirer le travail des charpentes mudéjares, le retable baroque doré et la célèbre croix en argent de Cuba au musée d'art sacré, avant de parcourir les ruelles pavées descendant vers la Plaza de la Pila pour pousser la porte des bodegas familiales et déguster les crus de malvoisie locale.",
+    link: ""
+  },
+  {
     id: "tenerife_mirador_de_las_narices_del_teide",
     name: "Tenerife - Belvédère des Narines du Teide (Mirador de las Narices del Teide)",
     country: "Espagne",
@@ -161,7 +235,8 @@ const SPOTS_2 = [
       {
         title: "Remontée par La Cascada et boucle sommitale de La Ruleta",
         photos: [
-          "https://lh3.googleusercontent.com/pw/AP1GczMjCQ1kkRo9g7clp0BjFngWf553A2zV1K2SXwKwKhvG8Pth-VCj4021ai3YAowCbiRL4XFMCMcarTJV99zrAD3IqFO_4DG2Xh1nB9Wh8zyBnpD8tQduxCleScJfGJ3tK77hUhttps://lh3.googleusercontent.com/pw/AP1GczO0Jx2Cfk8qFVov8qc-nTDh8GJexRIM5h9VqZ8V16qvNUfdyWt1cBFCgnIY9CteAHkINZguSu1WxGrgnYbKuCS_NFjLifUtTf8Qqbi0_BkvRXWb0mNKSM9TGFCNTXE2lUgYVR2Oiqen06CHie-TIbOyVw=w1379-h919-s-no-gm?authuser=0"
+          "https://lh3.googleusercontent.com/pw/AP1GczMjCQ1kkRo9g7clp0BjFngWf553A2zV1K2SXwKwKhvG8Pth-VCj4021ai3YAowCbiRL4XFMCMcarTJV99zrAD3IqFO_4DG2Xh1nB9Wh8zyBnpD8tQduxCleScJfGJ3tK77hUfDB7mOEZU3AG80qbgIn6g=w1379-h919-s-no-gm?authuser=0",
+          "https://https://lh3.googleusercontent.com/pw/AP1GczO0Jx2Cfk8qFVov8qc-nTDh8GJexRIM5h9VqZ8V16qvNUfdyWt1cBFCgnIY9CteAHkINZguSu1WxGrgnYbKuCS_NFjLifUtTf8Qqbi0_BkvRXWb0mNKSM9TGFCNTXE2lUgYVR2Oiqen06CHie-TIbOyVw=w1379-h919-s-no-gm?authuser=0"
         ],
         text: "La boucle s'achève par le franchissement du secteur dit de La Cascada, où le sentier entreprend une remontée vigoureuse en courts lacets pour surmonter le dénivelé et regagner le promontoire de La Ruleta. Cette pente raide traverse une cascade de lave pétrifiée constituée d'une coulée visqueuse de phonolite noire et vitreuse, dont les blocs tourmentés et les fronts de scories témoignent du ralentissement progressif de la matière en fusion. Tout au long de cette ascension finale dans un air pur et sec, le marcheur côtoie les lézards tachetés de Tenerife se chauffant sur les dalles de lave chaude, avant de déboucher à nouveau sur le belvédère sommital après environ trois kilomètres et demi d'un parcours qui concentre toutes les facettes de l'histoire volcanologique et de l'érosion des Cañadas."
       },
