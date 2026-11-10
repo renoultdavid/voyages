@@ -1,5 +1,180 @@
 const SPOTS_2 = [
   {
+    id: "tenerife_mirador_de_las_narices_del_teide",
+    name: "Tenerife - Belvédère des Narines du Teide (Mirador de las Narices del Teide)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Guía de Isora",
+    altitude: 2083,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Éruption Historique du Pico Viejo (1798), Cratères Adventifs & Coulées de Malpaís",
+    century: "Temps géologique",
+    category: "star",
+    counts: { volcan: 1 },
+    lat: 28.23852,
+    lng: -16.69853,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOIr5sZIuvG1uokGoQVp8gqgeRkqHLjCYMNml9sZTnUWf20v-7_tcsJmGz9BHIJbz4x8XfI8HWe0rsdU112WOzH-GH4MMbjZCepVR1h-OmZOYHsBw_gnL9n5KPzh8gCVycwxfZrgNjZ9p4HWApXJtIlTA=w1382-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN24tp0Pb6QvcCuohar5duYFviHmG4l4Trdn1bWbL-R0dH6vFgKa4wzM9fGPfExhZmnJXlGb4FBg3mVZKJNMiczYuRtsCMiS1E503ES3UVL9d0OJSgYcNWYjN13qia3sfHccztZGJRyEpQotXYLnig1Zg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNZiGgZgyAZ-6ck-1Gj32whyhdB7sW_Tl9Y-e70maocjvygYjBRoKrRf36MD6nRonlXLfSFDAFza2VHBWz8gDncjJ1oRyjeW_ifx629iKJZkUob3RkLMLqRwhSJ43f6XfWmaIjkyCnKRW9gYVbFkgRRYw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Aménagé en encorbellement sur la route panoramique TF-38 traversant le versant occidental du Parc national du Teide, le mirador de las Narices del Teide offre une vue plongeante et saisissante sur l'un des théâtres éruptifs les plus spectaculaires de l'histoire moderne des Canaries. C'est à cet endroit précis que s'ouvrit, le 9 juin 1798, une formidable fracture éruptive fissurale sur le flanc sud-ouest du stratovolcan du Pico Viejo, donnant naissance à une série d'évents et de cratères adventifs alignés dont la morphologie géométrique évoqua immédiatement aux yeux des habitants de l'île les narines d'un géant endormi (las Narices). Pendant plus de trois mois d'une activité strombolienne et effusive intense qui ne s'éteignit que le 8 septembre, ces bouches vomirent d'impressionnantes colonnes de gaz, des gerbes pyroclastiques incandescentes et d'immenses fleuves de laves basaltiques visqueuses qui dévalèrent les pentes en recouvrant les sédiments anciens sous un chaos pétrifié de roche noire.\n\nLe panorama depuis le belvédère permet de lire à ciel ouvert la trajectoire exacte de ces coulées de malpaís de type ʻaʻā, aux blocs scoriacés et tranchants, qui ont figé leurs vagues minérales sombres sur les couches de ponces ocres et beiges plus anciennes issues des grandes éruptions explosives de la caldeira. En arrière-plan immédiat, la masse colossale du Pico Viejo s'élève à 3 135 mètres d'altitude, flanquée au loin par la cime pyramidale du Teide culminant à 3 715 mètres. Vers l'ouest, le regard plonge vertigineusement par-dessus les moutonnements de la mer de nuages engendrée par les alizés, dévoilant par temps limpide les silhouettes bleutées des îles de La Gomera et de La Palma émergeant au cœur de l'océan Atlantique. Cette terrasse panoramique d'altitude constitue un jalon géologique exceptionnel pour comprendre l'histoire volcanologique récente du complexe Teide-Pico Viejo.",
+    visiter: "Une halte sur l'esplanade du belvédère le long de la route TF-38 permet d'observer avec netteté les cratères jumeaux des Narices del Teide ouverts en 1798 sur le flanc du Pico Viejo et l'enfilade des fleuves de lave noire pétrifiée dévalant la pente. Les visiteurs contemplent le contraste chromatique saisissant entre le basalte sombre et les sables de ponce clairs, tout en admirant la vue dégagée sur l'océan Atlantique et les îles occidentales à l'horizon.",
+    link: ""
+  },
+  {
+    id: "tenerife_mirador_juan_evora",
+    name: "Tenerife - Belvédère & Maison Pastorale Juan Évora (Mirador y Casa de Juan Évora)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Guía de Isora",
+    altitude: 2045,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Mémoire Pastorale des Cañadas, Dernier Habitant Traditionnel & Plaine de Boca Tauce (XXe siècle)",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.21277,
+    lng: -16.68134,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPKtXKzq0O8NpdJuat_ArHR4wvE98_jcx2c0sGVEwqsqjB-rkQaVvBXXcSwAKyN4DUyVVQl6bjeyEwNHXhkV_zCIwEflx_tWORt8LJ9cgdene-VMM4lMZdA4T0j6RAQB0_u8mA9kaH7fd4LhSV6ZnpTAg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOoexPTqa9TtcHesMAptIVjhu18b7Bzq8UfQbAH-xbufaV3f5135rMw7QL952fn1cCTrBg4ezG4mx15tupqHnVz4s4oTnqESYAikEEeWDuCV_NtaNxB6sgbId9OZY6TBT7KkxINKDp-aBfRyW_IDgrVGQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNinS6-HPqQGK7WsXHan--8y4WS4lA3hP4w45yr8A3uOsZgiSX_BpysVlETWqwQfsqAnOD6moPlsPNCdYzUu5upQlycsVURWMT-NfbhEWdHlRoZXwfcvXxAkggbsEWhvnKGmMdxSrX9Wsm1s_nlJzcUDg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Implanté au carrefour stratégique de Boca Tauce, à l'entrée sud-ouest de la monumentale caldeira de Las Cañadas, le mirador de Juan Évora associe un belvédère paysager spectaculaire à un précieux témoignage ethnographique sur la présence humaine dans la haute montagne canarienne. Le site abrite la modeste demeure en pierres sèches et mortier de chaux où vécut jusqu'à sa mort dans les années 1980 Juan Évora, berger solitaire unanimement reconnu comme le tout dernier habitant sédentaire des Cañadas del Teide à avoir perpétué le mode de vie pastoral ancestral sans électricité ni commodités modernes. Réhabilitée par le parc national en un petit centre d'interprétation muséographique, cette bâtisse rustique aux toitures de tuiles et poutres de pin canarien présente les outils agropastoraux, les céramiques et les modes de subsistance des pasteurs qui montaient chaque été faire paître leurs troupeaux de chèvres sur les crêtes volcaniques.\n\nDepuis l'esplanade du belvédère, le regard s'ouvre sur l'immensité minérale de la plaine d'effondrement de Boca Tauce, où viennent mourir en langues abruptes les impressionnantes coulées de lave noire de l'éruption de 1798. Vers le nord s'élève la masse imposante du Pico Viejo, dont les arêtes de phonolite et les champs de scories dominent directement le replat, tandis que vers l'est se dresse le rempart titanesque de la caldeira de Las Cañadas, gigantesque falaise d'effondrement d'origine tectono-volcanique dont les strates multicolores racontent des millions d'années d'éruptions superposées. Ponctué de buissons de genêts du Teide et de rosettes d'herbe à vipère adaptées à l'aridité subalpine, ce point d'arrêt permet de mesurer le courage et l'abnégation des hommes qui surent s'adapter à l'hostilité thermique de cet univers d'altitude.",
+    visiter: "Une halte sur l'aire de Boca Tauce permet de visiter le petit musée ethnographique aménagé dans l'ancienne maison restaurée de Juan Évora pour découvrir le mode de vie des bergers d'altitude et leurs traditions pastorales. Les visiteurs profitent des sentiers aménagés autour de la bâtisse pour contempler la vue panoramique sur les coulées de lave noire de 1798, la muraille de la caldeira et le versant sud du Pico Viejo se découpant sur le ciel limpide de haute montagne.",
+    link: ""
+  },
+  {
+    id: "tenerife_rando_sentier_roques_de_garcia",
+    name: "Tenerife - Randonnée des Roques de García (Sendero Roques de García)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "La Orotava",
+    altitude: 2150,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Arête Ruiniforme des Roques, Roque Cinchado, Muraille de La Catedral & Llano de Ucanca",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 28.22493,
+    lng: -16.63133,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMpI2SAIqfGt6y_F3nGA8lfyQHAGQrla1HrIEebqiVq-ImjV7F-OsfkAoo8fS2cGL1IKsKszvJefad5YRPq-9Pve96QAcmcmJYnnIXKobf64Otqa2xzJwZT7RCICn6TLiTYfxAgC_tkc6bCyq_8PKkx3A=w1379-h919-s-no-gm?authuser=0",
+    description: "Dressée au centre géométrique de la monumentale caldeira de Las Cañadas, à plus de deux mille cent mètres d'altitude, la crête ruiniforme des Roques de García sépare en deux bassins distincts le fond d'effondrement volcanique entre le Llano de Ucanca et les plaines orientales. Cet ensemble colossal de monolithes acérés, d'arêtes dentelées et d'aiguilles de lave constitue le vestige résiduel d'un ancien mur de séparation volcano-tectonique qui ceinturait l'ancien stratovolcan primitif de l'édifice Cañadas avant son effondrement cataclysmique. Le sentier de randonnée n° 3 du parc national effectue une boucle spectaculaire de trois kilomètres et demi autour de ces géants minéraux, révélant la puissance créatrice de l'érosion différentielle : les assauts combinés du gel hivernal, des vents violents et des amplitudes thermiques extrêmes ont patiemment décapé les tufs pyroclastiques et les brèches hydrothermales tendres pour mettre à nu les colonnes magmatiques et les culots de laves phonolitiques denses.\n\nLe parcours est mondialement célèbre pour la silhouette singulière du Roque Cinchado (« l'Arbre de pierre »), équilibre précaire immortalisé jadis sur les billets de banque espagnols, qui se détache majestueusement devant le cône parfait du pic du Teide s'élevant à 3 715 mètres en arrière-plan. En descendant vers l'immense plateau endoréique du Llano de Ucanca, plaine sédimentaire évoquant un lac asséché aux allures lunaires, le marcheur contourne la vertigineuse muraille de La Catedral, titanesque dyke volcanique haut de plus de cent mètres dont les prismes verticaux imitent les contreforts d'une cathédrale gothique cyclopéenne. Entre la floraison printanière flamboyante des vipérines rouges géantes (Echium wildpretii ou tajinaste rojo) émergeant des ponces et la traversée finale de la coulée basaltique noire de La Cascada, ce circuit emblématique concentre toute la dramaturgie géologique et botanique de la haute montagne insulaire.",
+    intro_page: "Au cœur de la gigantesque caldeira de Las Cañadas del Teide, le sentier des Roques de García invite à une boucle spectaculaire autour de sentinelles minérales comptant parmi les plus célèbres de la planète. Dominé par la silhouette gracile du Roque Cinchado posé devant la cime du Teide, ce défilé d'aiguilles et de dykes volcaniques témoigne de millénaires d'érosion différentielle en milieu subalpin. Le circuit descend ensuite vers l'austère plaine sédimentaire du Llano de Ucanca, longeant l'impressionnante muraille basaltique de La Catedral avant de franchir les coulées pétrifiées de La Cascada. Entre floraisons spectaculaires des tajinastes rouges et panoramas vertigineux sur les remparts de la caldeira, ce parcours offre une immersion inoubliable au centre du sanctuaire géologique de Tenerife.",
+    visiter: "S'élancer depuis le belvédère de La Ruleta face au Parador Nacional pour entamer la boucle balisée du sentier n° 3 en longeant la base du Roque Cinchado avec le cône du Teide en arrière-plan. Poursuivre vers le nord le long des aiguilles rocheuses d'El Burro et de Los Gemelos avant d'amorcer la descente vers la dépression sédimentaire du Llano de Ucanca. Admirer la vertigineuse paroi verticale du dyke de La Catedral depuis le replat sablonneux, puis remonter les lacets serrés de la coulée de lave pétrifiée de La Cascada pour boucler la randonnée au point de départ.",
+    link: "",
+    sections: [
+      {
+        title: "Le Roque Cinchado, l'Arbre de pierre devant le cône du Teide",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMpI2SAIqfGt6y_F3nGA8lfyQHAGQrla1HrIEebqiVq-ImjV7F-OsfkAoo8fS2cGL1IKsKszvJefad5YRPq-9Pve96QAcmcmJYnnIXKobf64Otqa2xzJwZT7RCICn6TLiTYfxAgC_tkc6bCyq_8PKkx3A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Dès les premiers mètres, le sentier longe le flanc oriental de la crête dominé par la silhouette mondialement célèbre du Roque Cinchado, familièrement surnommé l'Arbre de pierre ou le Doigt de Dieu, immortalisé jadis sur les billets de mille pesetas."
+      },
+      {
+        title: "Érosion différentielle millénaire et chapeau phonolitique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNJOLmjiWwnmIfpfuwmJ_NdkOFnt6_h-wnGNuu5QgbHDekLBz3hGzbHkpf0UREeSRULlNSO-fupqvUjZP9t74fW7Y1eGzqxrIF4kRNrzOlmdgk_k3N2Ide5Ai6gbKSvL6IxrCYx-VOPvlh4_fxHQ4N-mA=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO833nx0N7GFRzDYSPk3gKZSURmBljpKTdkXIinkr9fcWRKBAs_3-CNLrWBQ5ttoUBLsfRjLo9Ph97p7OswGyN9SpKhRsgB5-UwnRYYJwHJcsxaoq-QniYcvjnZMuw1jnFwg3BMHe8bR5rwWbMMEavabQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Cette formation ruiniforme spectaculaire témoigne d'une érosion différentielle millénaire : sa base plus étroite, composée de brèches volcaniques et de tufs pyroclastiques altérés par d'anciennes circulations hydrothermales, s'est dégradée plus rapidement sous l'action du gel, du dégel et des vents abrasifs que son chapeau sommital, constitué d'un culot de lave phonolitique dense et résistante."
+      },
+      {
+        title: "Le tajinaste rouge (Echium wildpretii), géant floral des Cañadas",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOZHuCDZqH158xCoRMlAcnmX14NmKA15ZSj81Rpbua1_LToET3_5WMQox_sD1NTGOAd6mtvtvneqYRbB1H09bpmFOoclaPY1dnKFdJ1X3d7JEAyjjCHOxECsqgT7l-XY2AOpWTGN0HvmptA_WF3sevwsQ=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOx_pEiyLS2fb-DW9npr22gKnyFXQG0TmH-IE0eSkQb-dyEVnWD57hJjoqU575hR6QCwOuC1QekxgdxdAoo8I9QnfSFm4Jj3J_fcxvNyO0oaBoMbyfgMasDLKomW8CfXaPlUAZ5NUiFgZBpxYqIE53XvA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN_CLPDjwYutaFFUzY-64r4uD49E7fTNQb0JYzzuW7atmqqgcMUKmATdkhXprU4RrTzRu4rgyZ_XR9BZc1BVJYThjoIHngOHBpsXJPRM8We_hXOPwvxhcHD-NZCu_bFgTO9tAc8ouIk-7zG-X4g97kSIg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "A gauche, Le Echium wildpretii, emblématique tajinaste rojo, est une vipérine spectaculaire endémique des zones subalpines des îles Canaries, principalement inféodée à la caldeira de Las Cañadas del Teide à Tenerife et aux sommets de La Palma. Plante bisannuelle ou monocarpique, elle consacre sa première phase de développement à former au ras du sol volcanique une dense rosette argentée de feuilles linéaires très serrées, couvertes d'un duvet soyeux protecteur contre le rayonnement solaire intense et le gel nocturne. Après plusieurs années à accumuler des réserves dans les sols arides de ponce et de scories, elle érige entre mai et juin une hampe florale fuselée et vertigineuse pouvant atteindre deux à trois mètres de hauteur. Ce cône monumental s'embrase alors de milliers de petites fleurs rouge corail à pourpre vif, attirant une myriade d'insectes butineurs dans l'air sec d'altitude. Une fois cette floraison grandiose achevée et la dispersion des graines assurée par le vent, la plante meurt, laissant dressé son squelette ligneux et argenté comme un vestige au milieu du paysage minéral."
+      },
+      {
+        title: "Éperons rocheux fantastiques : El Torrotito, El Burro et Los Gemelos",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPt8OMwaPsYoc9YNBK7YVxGYkF_-Hn1jO_5so22A3Y-MkO3xZ-R7bub_-M-CuPfZzK7ozW_lOtRiHA1jMxG1PVcZMNLnEM7kNN2UMf_VzkS0o1kTChih5sBpy8bj3TdkmI7h0hlO8rYRZzNSw0bx0Sxzw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMNfQX-lsEM3fTBoww1zEe3ftTLfrj0whKuLF6-KWAgixtxlfuQzRyUcSvefndSjhS0073QwzjZHFqopfaiKwL96R7QzjYsdkN3Tjz-kAtpi5nwh6dI_uoIga_3n-edhICzjPc-7Xv2cgCycjri6TvdnQ=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "En progressant vers le nord sur un sentier bien aménagé de graviers volcaniques et de dalles plates, le marcheur découvre une succession d'éperons rocheux aux formes fantastiques, parmi lesquels se détachent El Torrotito, El Burro ou les pinacles jumeaux de Los Gemelos, colonisés dans leurs anfractuosités par des touffes de genêt du Teide (Spartocytisus supranubius) et de rosalillo des sommets."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNbhQqRkZo_IlQ68bjb7WDWizpkWvH_Sr_lYJ1L75ESN56jZEEIv2wqxkUtNGncO4n_hNVjQHlsd7ZmYqENcobdAOW7qaIVAo0LN4c3njM3YPY3Exj1wCd1_OD9kEhcoOZ3LUZQewKK_GLeKwYiEVg-Yw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczONs-cZ50OkEo2xx7f13LZVszGpI0mRH2WuPhIKwmDY-Yo-Ol1RDjSBYdtfNmUl30rAI-_vaAYOD6vHyJQUWAxF6d3NfZGCvr0vee3wtka_72dCpa0-DUYqroPp20DX2a-io4z0PkENkMNCwJueQNGYaA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP85hRkYN3MlZNQFY7R0vtCwMT04Fn99NVAec042cz5PuWHEtiQ2JyRmoxopxDNKbskfYi-BW-xFC5gRFkIWPSYjW3uuH77hUmXNINgKQ9_hkPAc4Fk2sZd_D0NxCl_5k84f_fXstpi4dP4CD70LanarQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOzUGib5FZsaehDOF7iHh5on35BhTqbxfbHHkthbq6cGaMNbrHQDXHiBtGF8Q4GeD32fRXNfzjHrXE7c-ex8OvfeErgVXqODs2eXgkNTfF7OZIEASuL6i_BhAl6UCmUwwTraziHD2xGepizlNGAFN1enQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Bascule vers la dépression sédimentaire du Llano de Ucanca",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOhvWMz4zP9xdPlVgUQr4CYimDme4M1-qqCYiJxcwTn7JqRXWa3-sdEwj-nlWUnSDPhOZGcf4vfGEjDFR1O54GhMGhnoPIv5P1EJHqcqZuesPMp8Zy4548HeZ4DOnDkXupc1eGMFH8ZGpR3SIJKCbTwFw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Après avoir contourné la pointe septentrionale de l'échine rocheuse, le sentier bascule brutalement dans un décor d'une majesté austère en abordant la descente vers la dépression du Llano de Ucanca, dont les perspectives rejoignent celles observables depuis le belvédère du Llano de Ucanca. Cette immense plaine sédimentaire endoréique, aux allures de plateau lunaire tapissé de limons et d'argiles ocres clairs, forme un ancien lac asséché temporairement inondé lors des fontes printanières de neige."
+      },
+      {
+        title: "La Catedral, dyke phonolitique géant et forteresse cyclopéenne",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOGiW7ieElrHfBapsrOkSGLnpauxrLJ7l1h2oq31SrBr7WOD_ZIcSLfMEgcpbxaF_Z3P9vjrhB49n8Jjmgua9nGsA5dNZ0wdfz3-1WY0T6khbOpa3SOdX1z-HrM4dDeomVxDCV8dX8clT00hlTTm7YCTA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPipKbJt-hsZFCXP7tTN7R3RmXYGfYUUsWHmsfPIz7QXjTK6nxPw6b4KpoiTc2LR2AgSabaSMpxIoq-CE2fPTBq4u-Snu3dWAwQJZkwWHrSYjRozwo6oJVFgyW5xcNM_Pbqr-dKaRyFP5LVBuCYqW3fkQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La marche sur le replat permet d'admirer la face occidentale des Roques, révélant la titanesque muraille verticale de La Catedral, un gigantesque dyke phonolitique culminant à plus de cent mètres au-dessus du sol. Cet ancien conduit d'alimentation magmatique, mis à nu par le démantèlement complet de l'édifice qui l'enserrait à l'origine, dresse ses prismes de lave sombre et ses fractures nettes comme les contreforts d'une forteresse gothique cyclopéenne."
+      },
+      {
+        title: "Remontée par La Cascada et boucle sommitale de La Ruleta",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMjCQ1kkRo9g7clp0BjFngWf553A2zV1K2SXwKwKhvG8Pth-VCj4021ai3YAowCbiRL4XFMCMcarTJV99zrAD3IqFO_4DG2Xh1nB9Wh8zyBnpD8tQduxCleScJfGJ3tK77hUhttps://lh3.googleusercontent.com/pw/AP1GczO0Jx2Cfk8qFVov8qc-nTDh8GJexRIM5h9VqZ8V16qvNUfdyWt1cBFCgnIY9CteAHkINZguSu1WxGrgnYbKuCS_NFjLifUtTf8Qqbi0_BkvRXWb0mNKSM9TGFCNTXE2lUgYVR2Oiqen06CHie-TIbOyVw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La boucle s'achève par le franchissement du secteur dit de La Cascada, où le sentier entreprend une remontée vigoureuse en courts lacets pour surmonter le dénivelé et regagner le promontoire de La Ruleta. Cette pente raide traverse une cascade de lave pétrifiée constituée d'une coulée visqueuse de phonolite noire et vitreuse, dont les blocs tourmentés et les fronts de scories témoignent du ralentissement progressif de la matière en fusion. Tout au long de cette ascension finale dans un air pur et sec, le marcheur côtoie les lézards tachetés de Tenerife se chauffant sur les dalles de lave chaude, avant de déboucher à nouveau sur le belvédère sommital après environ trois kilomètres et demi d'un parcours qui concentre toutes les facettes de l'histoire volcanologique et de l'érosion des Cañadas."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPgH04A44xqsU_zN3FzcGw611tJ1aVh5gbdHgLBsZrsAAOLoN6SH4z6liyfyBNskI9FRMFvIGX_CJZyalvqBWEgsHabDRX3RVTo5GflGmQ03QMzqgGXTBk07z-lm19b2E941A9sbTovFvp5zu_CyVwwXw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
     id: "tenerife_rando_volcan_botija",
     name: "Tenerife - Randonnée du Volcan de la Botija (Montaña de la Botija)",
     country: "Espagne",
