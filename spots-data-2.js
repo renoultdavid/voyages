@@ -1,5 +1,162 @@
 const SPOTS_2 = [
   {
+    id: "buenavista_camino_de_baracan_foret_laurisylve",
+    name: "Buenavista del Norte - Sentier des Crêtes de Baracán & Forêt de Laurisylve (Camino de Baracán)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 858,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Ligne de Crête de Teno, Forêt Relique de Laurisylve & Mer de Nuages des Alizés",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 28.33797,
+    lng: -16.87653,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO32Kh8BlFxeaGXKZS_KUoLkQZIokr_ANq5OKLBexJ__lsj6hUC7gFywtBbqBNbWI9kKVi0as1HikPU5F1CuKxJmC4R2xrMRNqvHOctESLlI1sUGQ0WHWgb-KFjpjSEYtiBZkz1P78E7m381lqeASsujw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN3WggektFPktkr7tFK49zzGpO2ZuEkry0VyUkqoU2F4axxEpkVeeyVBXrCxa-qvtkox4g9aOmYDIUBvhnS93XgGA6YpL0CzSiegM6p_4KoX1af6DiPPBb8nghzgf_K7S69nGd7Ir6ApcGFr4zR0RNQZg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMBC1k1RsydxjSQEjoLea4J0wxnAl7chpNdL6WQo3hmdOT_vSxWvWF70Zu58O3KgHBDiZZ4M3h_DjEet9admO4vfmLFyfR28d2Zr9iJUjerX6jz7Y-ds2CNsmFUX2aYM-4PDNrHUmnoxp8ZQkjggWQcow=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPuuNakz4U4uUAlHvJ4S8B--1x6RvVdjyj_uFZ5dC4A3_kIf4w0aBhkrYr4xmBGjfwCKY62C8zMuZLV1WmDtTo2jc1ji8xW2L75MscZuiZ2tX7iVpUKuF4ZO0TZjNqYKAgxlCCUUj6_T1gHhcAvuq2meQ=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Sinuant sur le fil d'arête escarpé reliant le col d'Altos de Baracán aux hauteurs d'El Palmar et de Teno Alto, le sentier du Camino de Baracán constitue l'un des parcours de randonnée les plus saisissants et emblématiques du Parc rural de Teno. Cet itinéraire pédestre historique matérialise une frontière climatique et biogéographique spectaculaire entre deux mondes que tout oppose : d'un côté, le versant septentrional exposé aux alizés humides et enveloppé d'une dense mer de nuages permanente ; de l'autre, le flanc méridional plongeant vers Masca, baigné d'un soleil ardent et caractérisé par une aridité minérale quasi désertique. Le chemin chemine au milieu d'un précieux écosystème relique de laurisylve subtropicale et de fayal-brezal, vestige vivant des forêts humides qui recouvraient le bassin méditerranéen au Tertiaire avant les grandes glaciations quaternaires.\n\nSous les brumes mouvantes s'épanouit une canopée sempervirente luxuriante composée de lauriers des Canaries (Laurus novocanariensis), de viñátigos, de barbusanos et d'imposantes bruyères arborescentes (Erica arborea) dont les troncs tourmentés sont entièrement tapissés de mousses soyeuses, d'hépatiques et de fougères épiphytes profitant de la pluie horizontale générée par la condensation atmosphérique. À mesure que le tracé épouse les ondulations de la crête basaltique, la forêt dense s'ouvre brusquement sur des belvédères vertigineux dominant les ravins abyssaux de Los Carrizales et de Masca d'un côté, et la caldeira fertile d'El Palmar de l'autre. Cette immersion dans la fraîcheur ouatée des sous-bois insulaires offre une fascinante leçon d'écologie végétale et de géomorphologie, où la luxuriance botanique côtoie la verticalité farouche des plus anciens reliefs de Tenerife.",
+    visiter: "S'élancer sur le sentier balisé depuis le col de Baracán en suivant la ligne de crête sommitale pour pénétrer sous les voûtes humides de la laurisylve de Teno. Les marcheurs profitent des trouées entre les bruyères arborescentes moussues pour observer le phénomène saisissant de la mer de nuages se déversant sur le versant nord, tout en contemplant les parois abruptes des gorges de Masca côté sud, avant de poursuivre vers Teno Alto ou d'amorcer le retour en boucle.",
+    link: ""
+  },
+  {
+    id: "buenavista_mirador_punta_del_fraile",
+    name: "Buenavista del Norte - Belvédère de la Punta del Fraile (Mirador Punta del Fraile)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 147,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Corniche Littorale du Massif de Teno, Piton Basaltique du Fraile & Falaise Maritime",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.36671,
+    lng: -16.88457,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPH5MvprFN1a8qXa8WkcdoLE2yV2RSs5AriZcQ6KtW6-0dzsfOTb_VO3qAJgJSGfQ-O-lp-rjXpjDVI_xL9rjWLfCPV3yYJOeJTtHSg4Ym0xKmGScLOg2GS_qRmTdQ8Kxv-mrb9h5V87uy2B29Ha3w0tA=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPBQdCsq1wOvTi1cV5TclynuQ-pTLIMi8v66yjv5foUq6O8H7MiWsv5E9eiqtnJquygczgYLjwGVGuemLlXt-15wyx4CPKE8hiJXnDuAh13QHXDmVA5Y6y-UMsHPGWG2WKaJlQlz4NJ63kO5-aT4q6xqw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNY3jH7YJPXhHHlSLm5vsavGs8rfflBw2bRG5q1mDQAyT0KUUyn2GjVARLiDa1QDpruZpEo56fhM0Y95fHIBYR8OD6k4JL6W5rf-4vSBlHwbu-s9doijCUHUc0b_UgDbDOJ7YHO70SeDPoW6qu9iRbr5Q=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Aménagé en corniche audacieuse le long de la vertigineuse route TF-445 reliant la commune de Buenavista del Norte à la pointe extrême de Teno, le mirador de la Punta del Fraile offre l'un des balcons côtiers les plus spectaculaires et impressionnants de l'archipel canarien. Accroché à près de cent cinquante mètres au-dessus des rouleaux de l'océan Atlantique, ce promontoire tire son nom de l'emblématique monolithe rocheux dressé en contrebas, un piton basaltique élancé sculpté par l'érosion marine dont la silhouette évoque un moine drapé dans sa bure (fraile) contemplant l'immensité océanique. Le site permet d'apprécier la puissance colossale du massif volcanique de Teno, dont les parois basaltiques millénaires plongent de manière abrupte dans des eaux profondes d'un bleu cobalt, révélant la superposition complexe de coulées de laves denses, de brèches volcaniques et de dykes magmatiques subverticaux ayant résisté à l'assaut séculaire des déferlantes.\n\nLe belvédère dévoile un panorama marin grandiose s'étirant vers l'est sur toute la plate-forme littorale fertile de l'Isla Baja, ponctuée par les damiers verts des bananeraies traditionnelles et la côte rocheuse découpée de Buenavista, Los Silos et Garachico. Vers l'ouest, le regard suit la ligne tourmentée des falaises sauvages perfoliées de tunnels routiers creusés dans la roche brute, conduisant vers le phare solitaire de la Punta de Teno. Balayé en permanence par les embruns marins et le souffle puissant des alizés, le promontoire rocheux est colonisé par une flore rupicole côtière très rustique, où s'accrochent des touffes d'euphorbes maritimes, de tabaibas et de cinéraires maritimes, offrant une halte contemplative saisissante face aux forces telluriques et océaniques combinées du nord-ouest de Tenerife.",
+    visiter: "Une halte sur l'aire de stationnement du belvédère permet de s'avancer jusqu'au garde-corps sécurisé pour admirer la plongée vertigineuse sur le piton rocheux du Fraile battu par les vagues. Les visiteurs contemplent l'enfilade des falaises volcaniques du massif de Teno d'un côté et la vaste plaine côtière de l'Isla Baja de l'autre, avant d'emprunter les tunnels rocheux spectaculaires de la route menant vers la Punta de Teno.",
+    link: ""
+  },
+  {
+    id: "buenavista_phare_et_punta_de_teno",
+    name: "Buenavista del Norte - Phare & Réserve Naturelle de la Punta de Teno (Faro de Punta de Teno)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 20,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Bout du Monde Insulaire, Phares Historiques & Sanctuaire du Tabaibal-Cardonal (XIXe-XXe siècle)",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.34200,
+    lng: -16.92307,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOUhEepQK9wBC7ncPebvmfMqd9t3afaPE3h-NMZGCBaGOxy6V0ZmWwds9UUhmRuNsJ4ML_h6lol6ApMYdXOZLU7KtZ9dTgaloq8xzQUrrxH4L9K7uojH_pq5RaoIN5_xeImuMQ5ZlqA-nXS0CHhRV0NtA=w1379-h919-s-no-gm?authuser=0",
+    description: "Ancrée à l'extrémité occidentale absolue de l'île de Tenerife, la Punta de Teno constitue un promontoire tellurique grandiose et farouche où s'achève le continent européen dans les eaux tumultueuses de l'océan Atlantique. Cette avancée de lave basaltique solidifiée, formée par les épanchements volcaniques primitifs du massif de Teno au Miocène, déploie un paysage lunaire d'une virginité absolue, battu par le souffle impétueux des alizés et le fracas perpétuel des déferlantes océaniques. Le site est dominé par la silhouette emblématique de ses deux phares maritimes historiques superposés : la tour trapue en pierre de taille volcanique inaugurée en 1897 selon les plans de l'ingénieur José Luis de León, et la svelte tour moderne rayée de rouge et de blanc érigée en 1976 pour guider la navigation hauturière dans le détroit canarien. Véritable bout du monde d'une minéralité souveraine, cette plate-forme côtière offre un belvédère sans égal sur la muraille titanesque des falaises de Los Gigantes plongeant à pic sur plus de six cents mètres dans les flots turquoise.\n\nCe sanctuaire naturel isolé abrite l'une des communautés végétales semi-désertiques les plus spectaculaires et intactes de toute la région macaronésienne, dominée par le tabaibal-cardonal. Les dalles de scories sombres sont colonisées par de monumentaux candélabres d'euphorbes des Canaries (Euphorbia canariensis) et de tabaibas douces, adaptées à la salinité extrême et à la sécheresse par des tiges charnues gorgées de sucs laiteux. Le biotope héberge une faune remarquable, depuis les grands lézards endémiques (Gallotia galloti) se chauffant sur la lave jusqu'aux colonies de crabes rouges des rochers (Grapsus adscensionis) arpentant la zone intertidale battue par les vagues, tandis que les puffins cendrés nichent dans les anfractuosités des falaises. Doté d'une crique naturelle abritée aux eaux cristallines et d'anciennes salines rustiques, ce cap sauvage incarne l'alliance parfaite entre l'ingénierie maritime de signalisation et la puissance brute des éléments insulaires.",
+    intro_page: "Éperon rocheux s'avançant dans les eaux tumultueuses de l'Atlantique à l'extrême ouest de Tenerife, la Punta de Teno incarne un splendide paysage de bout du monde. Cette plate-forme basaltique balayée par les alizés réunit deux générations de phares emblématiques : la tour historique en pierre volcanique de 1897 et la haute colonne rayée de rouge et de blanc mise en service en 1976. Entouré par un champ d'euphorbes géantes en candélabres et par des criques translucides sculptées dans la lave, le cap offre une vue grandiose sur les monumentales falaises de Los Gigantes et les silhouettes lointaines des îles de La Gomera et La Palma.",
+    visiter: "Accéder à la pointe par la navette réglementée ou à pied le long de la route littorale pour atteindre l'esplanade panoramique des phares de Teno. Prendre le temps d'observer le contraste entre la tour néoclassique en pierre de basalte de 1897 et la lanterne moderne cylindrique peinte en rouge et blanc, avant de contempler la vertigineuse muraille de Los Gigantes plongeant dans l'océan. Les visiteurs poursuivent la promenade vers la crique abritée et la jetée de pêche pour observer les crabes des rochers et les lézards tisons dorant sur les blocs de lave sous le souffle marin.",
+    link: "",
+    sections: [
+      {
+        title: "Les deux générations de signalisation maritime : phares de 1897 et 1976",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOUhEepQK9wBC7ncPebvmfMqd9t3afaPE3h-NMZGCBaGOxy6V0ZmWwds9UUhmRuNsJ4ML_h6lol6ApMYdXOZLU7KtZ9dTgaloq8xzQUrrxH4L9K7uojH_pq5RaoIN5_xeImuMQ5ZlqA-nXS0CHhRV0NtA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPex5hyh4PyQoSbPfo8dGNeG7lvoKZ0HnvvbJRNDpFvRGbeHx11QrEGdV2GREGrc8xpaGY-oFLjeVI_CXTOoVyt_R3Vl1yhbhp4kkFddj875VjNQhNJI2lJSzXQgYAa0lKRabd_ut7tPQeNO8p4PyLHpQ=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le site présente la particularité historique de superposer deux générations de signalisation maritime : le phare primitif, inauguré en 1897 selon les plans de l'ingénieur José Luis de León, se compose d'une tour trapue en pierre de taille volcanique issue des carrières locales de Teno, intégrée à un sobre bâtiment d'habitation rectangulaire de style néoclassique canarien qui abritait autrefois les gardiens et leurs familles. À ses côtés s'élève le phare moderne mis en service en 1976, une svelte tour cylindrique en béton armé haute de vingt mètres, rythmée par des bandes horizontales alternées rouges et blanches, dont la lanterne automatisée culmine à près de soixante mètres au-dessus du niveau de la mer avec une portée lumineuse dépassant les dix-huit milles nautiques."
+      },
+      {
+        title: "Panorama grandiose sur les falaises de Los Gigantes et les îles occidentales",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNkrG6EgWiVZ_oV2a51Bfvtsuj-sRNzUfBJWL_Ip1ubzlQb0sALu-ekN2vg5FvjK2MMYLGarWlgRPddUHayYEnvzQ4KrvMcoQoRUCD1mk0XtzZdT2Qtdyg7RFdCnb6a5bJ4PF3HuCFllz9hX69qjaJ9tw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOFrdLO02a8vxxEPawFktC2JNmFcSb6bdTyy5weIKbMtlj6nKbB-_jODDmWwhX_IKG22-tCXtIG042ZW5juBzq6UsfofR_tu5PgxqyZK6g55JRiqPC5P_h4pHSVlAKzp8Kfl_dThfW4i-FFSsE1N9WWgA=w1378-h919-s-no-gm?authuser=0"
+        ],
+        text: "La vue depuis le phare offre l'un des panoramas les plus grandioses de toute la Macaronésie. Vers le sud, le regard embrasse toute la perspective colossale des falaises de Los Gigantes, gigantesque muraille basaltique noire qui plonge à pic sur plusieurs centaines de mètres dans l'azur de l'océan, tandis que vers l'ouest et le sud-ouest se découpent nettement sur l'horizon les silhouettes montagneuses de La Gomera et, par temps clair, de l'île de La Palma. Ce poste d'observation privilégié permet également de contempler le ballet aérien des oiseaux marins pélagiques, notamment le vol rasant des puffins cendrés qui viennent nicher dans les anfractuosités des parois rocheuses, scellant la rencontre entre la mémoire de l'ingénierie maritime et la puissance tellurique insulaire."
+      },
+      {
+        title: "Écosystème du tabaibal-cardonal, criques sauvages et mares basaltiques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPZ5Sz1YebbRDyHlk-QDKR9b7LKTP6Rkwrplmt2jReigYx-4qPabSVNaM9_fXAaEk1pLyRTh3_QituXmwW85YkfRO0PMayLptU63yhtBBfcXD98KTepRBkEzZffLvR1ChUC_HvNxryHy9wNko2LY5Gsiw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPvrdchVzWsH12M5hvtKwwTCooL8SsPtaSapv_itFMOhOt4OTA2Ino18voVPRMrZwV3TaTd86lww-jWREnx7oAzpS8oDSOJev0HxyLY-IbzH_0_H-6fuLKgJ6v9YrVed3et5cKugDvTZjdTyyyg8E2RtQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Sur cette plate-forme balayée en permanence par les alizés et les embruns marins, le biotope est dominé par un remarquable champ d'euphorbes adapté à une salinité extrême et à une sécheresse prolongée. Le sol de scories et de dalles basaltiques est colonisé par le tabaibal-cardonal, communauté végétale endémique dominée par l'euphorbe des Canaries (Euphorbia canariensis), aux imposantes silhouettes dressées en forme de candélabres, et par la tabaiba douce (Euphorbia balsamifera), dont les troncs noueux épousent le relief pour résister à la violence du vent. Le littoral déchiqueté est ponctué de criques sauvages, de mares résiduelles (charcos) sculptées par le ressac et d'une petite anse abritée dotée d'une rampe de mise à l'eau artisanale, où les eaux d'une limpidité totale dévoilent des fonds marins volcaniques d'une richesse biologique exceptionnelle, très prisés pour l'observation subaquatique."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOIiwVAqmM-xSPUX7DHEmULZRU15r5NCcBpi05D_X2RNQsBHNwAhsMN15EWz-pt95n1OCgKbDrniRSe9NEphG8_ehhpviNYBB5YI2R-OQD2K_VMVUoqSLAjm7vfOfVNrsqcQEQbn64AnX3qcXpB2zk1Mw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNqPJgpAVU6AOx3OWo3QA4l-rM_Fn9K77hyiUg2JiL4kzmu-LMdxatbnrTjEJTN9q9DcPEXy3AQ69pSCh4agIAC3JicpTl4mcv2B8NLj2HzcQNjgaq968d6iMQw6hve-k2qzguB9FNfdE-Ej69JMbsDnw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMepOBYuSP3D7VjIF6qu8KAOlBnBHaAolqdZLzrTscC7UjDriOBwyOD0NMRl7R0BIKscjoWwpUtvW78Z_YsI61s2ktNNuqvVi5Tdll4xzu7RH3Of1_zRu6iVQ3Oam8Ql1sUtW5qlv0siMygQVOPpxjCYA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPRD5eSmzubrLm48xxIL6bd_ygT3rIGmWLAyOWzUQMNtKiRHP7Gfe3otNsZzx7bP52WN4kjvtV6vKw9hT7dvmih0sHdkDXx9EFMSb_1GulJjztRjMB6xzAbNNRMOsuLl-n0vosuHEkumfhdkSXJxJbX8w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le lézard de Tenerife (Gallotia galloti), seigneur des coulées basaltiques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOEmlBip57M8rTYg9km_iL7L5tpPIz7FFL2GJK3OreCdh_ym8K5W3hpXbrZjlTukoiR4kdk3OAIknqrq-9LlhIOx8eBAnTVkAJwo-SNU0nUxQx6nfVvsVifSDIbjZpJxYPe0eJAGImvpb6IHUWuQjl0IA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOnWDNtUEKJiO_48FVMBKnGvnQ-WWMrr_OdQ0BF3bxkXzVgHeMilzKG2AeU_3FgxNRHlqsMs0Ug_DDQLStnTB8oseiLEcY4eguaYmQiO-Q6gDStvsSCTg48iW-lkYUipfcIB8cw709_svitkD024toTVA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Endémique de Tenerife et de La Palma, le Gallotia galloti (ou lagarto tizón) règne en maître sur les milieux volcaniques insulaires. D'allure trapue et vigoureuse, ce grand lacertidé atteint facilement une trentaine de centimètres de longueur totale, queue comprise. L'espèce présente un dimorphisme sexuel spectaculaire, particulièrement frappant lorsqu'il s'expose en plein soleil sur les blocs de basalte. Les mâles dominants arborent une livrée sombre, presque charbonneuse, illuminée sur les flancs et la gorge de vives taches bleu cobalt. Plus discrètes pour échapper aux prédateurs, les femelles et les juvéniles gardent une robe cryptique brun clair striée de bandes longitudinales. Parfaitement taillé pour l'aridité des falaises et des malpaís, il passe de longues heures en thermorégulation active sur la roche chaude. D'une vivacité fulgurante au sol, il se réfugie au moindre danger au fond des fractures de lave ou sous les racines des euphorbes."
+      },
+      {
+        title: "Le crabe des rochers (Grapsus adscensionis) sur la lave intertidale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNSqzBYLtWVKq6-Q9pB_CkSyS3884o7goQ_gdZo-i2BbkIjteJMXSwjFQq98aeXUYumWJi6073zy4kRjUizigTIwPJlfUyCxzBN04JAETtzWY6FKeoE9hRpvxkQv3ssKBizYfJsSzzW5PA4JsWWYsNyDA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le Grapsus adscensionis, communément appelé « cangrejo moro » aux Canaries ou crabe des rochers de l'Atlantique, est un crustacé emblématique de la zone intertidale rocheuse. Arpentant les coulées de basalte sombre battues par la houle, il se distingue par sa carapace plate, presque circulaire et finement striée, arborant chez l'adulte des teintes spectaculaires mêlant rouge écarlate, orangé vif et marbrures sombres, tandis que les juvéniles conservent une livrée verdâtre ou brunâtre pour se camoufler. Extraordinairement agile et rapide, doté de longues pattes épineuses terminées par des griffes acérées, il adhère avec force à la roche verticale même sous l'impact direct des déferlantes. Essentiellement herbivore et détritivore, il passe les heures de marée basse à racler le fin tapis d'algues encroûtantes à l'aide de ses pinces robustes, sans dédaigner les invertébrés ou débris organiques rejetés par l'océan. D'une grande vigilance, guidé par des yeux pédonculés très mobiles, il s'évanouit en un éclair au fond des failles basaltiques ou sous les anfractuosités des bassins de marée dès qu'une ombre ou un prédateur approche."
+      }
+    ]
+  },
+  {
     id: "buenavista_centro_visitantes_teno_montana_el_palmar",
     name: "Buenavista del Norte - Centre des Visiteurs du Parc Rural de Teno & Montaña de El Palmar",
     country: "Espagne",
