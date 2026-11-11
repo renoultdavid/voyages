@@ -27,10 +27,12 @@ const CATEGORIES = {
   parc_naturel: { label: "Parc naturel", icon: "fa-tree", color: "#16a34a", section: "nature", active: true }
 };
 
-// Référentiel chronologique rigoureux : Antiquité puis Ve au XXIe siècle
+// Référentiel chronologique rigoureux : Temps géologique, Préhistoire, Antiquité puis Ve au XXIe siècle
 const CHRONOLOGICAL_CENTURIES = [
+  "Temps géologique",
   "Préhistoire",
-  "Antiquité",
+  "Antiquité (avant J.-C.)",
+  "Antiquité classique & Romaine (Ier - IVe s.)",
   "Ve siècle",
   "VIe siècle",
   "VIIe siècle",
@@ -50,10 +52,13 @@ const CHRONOLOGICAL_CENTURIES = [
   "XXIe siècle"
 ];
 /* =========================================================================
-   Fusion des données POI (Volume 1 + Volume 2)
+   Fusion des données POI (Volume 1 + Volume 2 + Volume 3)
    ========================================================================= */
 if (typeof SPOTS_2 !== 'undefined' && Array.isArray(SPOTS_2)) {
   travelSpots.unshift(...SPOTS_2);
+}
+if (typeof SPOTS_3 !== 'undefined' && Array.isArray(SPOTS_3)) {
+  travelSpots.unshift(...SPOTS_3);
 }
 /* =========================================================================
    Logique d'affichage, Globe 3D, Leaflet, Modales & Filtres
@@ -328,6 +333,14 @@ function getUnescoClustersData() {
     else if (fullName.includes("Shirakawa")) shortName = "Shirakawa-gō";
     else if (fullName.includes("Fujisan")) shortName = "Mont Fuji";
     else if (fullName.includes("Corbusier")) shortName = "Le Corbusier";
+    else if (fullName.includes("Tarraco")) shortName = "Tarraco romaine";
+    else if (fullName.includes("Gaudí")) shortName = "Œuvres de Gaudí";
+    else if (fullName.includes("Poblet")) shortName = "Monastère de Poblet";
+    else if (fullName.includes("Golfe de Porto")) shortName = "Golfe de Porto & Scandola";
+    else if (fullName.includes("Kyoto")) shortName = "Kyoto antique";
+    else if (fullName.includes("Nara")) shortName = "Nara antique";
+    else if (fullName.includes("Himeji")) shortName = "Château de Himeji";
+    else if (fullName.includes("Compostelle")) shortName = "Saint-Jacques-de-Compostelle";
 
     if (!unescoMap.has(fullName)) {
       unescoMap.set(fullName, {
@@ -528,6 +541,7 @@ function initAdvancedFilterOptions() {
 // =========================================================================
 
 const ORDERED_CENTURY_GROUPS = [
+  "Temps géologique",
   "Préhistoire",
   "Antiquité (avant J.-C.)",
   "Antiquité classique & Romaine (Ier - IVe s.)",
@@ -554,7 +568,15 @@ function getSpotCenturyMatches(spot) {
   const c = (spot.century || '').toLowerCase().trim();
   const matched = new Set();
 
-  if (!c) return [];
+  if (!c) {
+    if (spot.era_group === 'nature') matched.add("Temps géologique");
+    else if (spot.era_group === 'prehistoire') matched.add("Préhistoire");
+    return Array.from(matched);
+  }
+
+  if (c.includes('géologique') || c.includes('geologique') || spot.era_group === 'nature') {
+    matched.add("Temps géologique");
+  }
 
   if (c.includes('préhist') || c.includes('mégalith') || c.includes('néolith') || c.includes('paléolith') || c.includes('âge du bronze') || c.includes('millénaire')) {
     matched.add("Préhistoire");
@@ -566,37 +588,50 @@ function getSpotCenturyMatches(spot) {
   }
 
   if (!isBeforeChrist) {
-    if (/\b(i|ii|iii|iv|1|2|3|4)(er|e)?\s+siècle/i.test(c) || c.includes('romain') || c.includes('antiquité tardive')) {
+    if (/\b(i|ii|iii|iv|1|2|3|4)(er|e)?(\s+siècle|\s*-\s*)/i.test(c) || c.includes('romain') || c.includes('antiquité')) {
       matched.add("Antiquité classique & Romaine (Ier - IVe s.)");
     }
   }
 
   if (!isBeforeChrist) {
-    const romanMap = [
-      { label: "Ve siècle", regex: /\b(v|5)(e)?\s+siècle/i },
-      { label: "VIe siècle", regex: /\b(vi|6)(e)?\s+siècle/i },
-      { label: "VIIe siècle", regex: /\b(vii|7)(e)?\s+siècle/i },
-      { label: "VIIIe siècle", regex: /\b(viii|8)(e)?\s+siècle/i },
-      { label: "IXe siècle", regex: /\b(ix|9)(e)?\s+siècle/i },
-      { label: "Xe siècle", regex: /\b(x|10)(e)?\s+siècle/i },
-      { label: "XIe siècle", regex: /\b(xi|11)(e)?\s+siècle/i },
-      { label: "XIIe siècle", regex: /\b(xii|12)(e)?\s+siècle/i },
-      { label: "XIIIe siècle", regex: /\b(xiii|13)(e)?\s+siècle/i },
-      { label: "XIVe siècle", regex: /\b(xiv|14)(e)?\s+siècle/i },
-      { label: "XVe siècle", regex: /\b(xv|15)(e)?\s+siècle/i },
-      { label: "XVIe siècle", regex: /\b(xvi|16)(e)?\s+siècle/i },
-      { label: "XVIIe siècle", regex: /\b(xvii|17)(e)?\s+siècle/i },
-      { label: "XVIIIe siècle", regex: /\b(xviii|18)(e)?\s+siècle/i },
-      { label: "XIXe siècle", regex: /\b(xix|19)(e)?\s+siècle/i },
-      { label: "XXe siècle", regex: /\b(xx|20)(e)?\s+siècle/i },
-      { label: "XXIe siècle", regex: /\b(xxi|21)(e)?\s+siècle/i }
+    const romanOrder = [
+      { num: 5, label: "Ve siècle", token: "v", regex: /\b(v|5)(e)?(\s+siècle|\s*-\s*)/i },
+      { num: 6, label: "VIe siècle", token: "vi", regex: /\b(vi|6)(e)?(\s+siècle|\s*-\s*)/i },
+      { num: 7, label: "VIIe siècle", token: "vii", regex: /\b(vii|7)(e)?(\s+siècle|\s*-\s*)/i },
+      { num: 8, label: "VIIIe siècle", token: "viii", regex: /\b(viii|8)(e)?(\s+siècle|\s*-\s*)/i },
+      { num: 9, label: "IXe siècle", token: "ix", regex: /\b(ix|9)(e)?(\s+siècle|\s*-\s*)/i },
+      { num: 10, label: "Xe siècle", token: "x", regex: /\b(x|10)(e)?(\s+siècle|\s*-\s*)/i },
+      { num: 11, label: "XIe siècle", token: "xi", regex: /\b(xi|11)(e)?(\s+siècle|\s*-\s*)/i },
+      { num: 12, label: "XIIe siècle", token: "xii", regex: /\b(xii|12)(e)?(\s+siècle|\s*-\s*)/i },
+      { num: 13, label: "XIIIe siècle", token: "xiii", regex: /\b(xiii|13)(e)?(\s+siècle|\s*-\s*)/i },
+      { num: 14, label: "XIVe siècle", token: "xiv", regex: /\b(xiv|14)(e)?(\s+siècle|\s*-\s*)/i },
+      { num: 15, label: "XVe siècle", token: "xv", regex: /\b(xv|15)(e)?(\s+siècle|\s*-\s*)/i },
+      { num: 16, label: "XVIe siècle", token: "xvi", regex: /\b(xvi|16)(e)?(\s+siècle|\s*-\s*)/i },
+      { num: 17, label: "XVIIe siècle", token: "xvii", regex: /\b(xvii|17)(e)?(\s+siècle|\s*-\s*)/i },
+      { num: 18, label: "XVIIIe siècle", token: "xviii", regex: /\b(xviii|18)(e)?(\s+siècle|\s*-\s*)/i },
+      { num: 19, label: "XIXe siècle", token: "xix", regex: /\b(xix|19)(e)?(\s+siècle|\s*-\s*)/i },
+      { num: 20, label: "XXe siècle", token: "xx", regex: /\b(xx|20)(e)?(\s+siècle|\s*-\s*)/i },
+      { num: 21, label: "XXIe siècle", token: "xxi", regex: /\b(xxi|21)(e)?(\s+siècle|\s*-\s*)/i }
     ];
 
-    romanMap.forEach(r => {
+    const matchedNums = [];
+    romanOrder.forEach(r => {
       if (r.regex.test(c)) {
         matched.add(r.label);
+        matchedNums.push(r.num);
       }
     });
+
+    // Si intervalle de siècles (ex: "XVe-XVIIe siècle"), inclure les siècles intermédiaires
+    if (matchedNums.length >= 2 && /e\s*-\s*[ivx]+e/i.test(c)) {
+      const minC = Math.min(...matchedNums);
+      const maxC = Math.max(...matchedNums);
+      romanOrder.forEach(r => {
+        if (r.num >= minC && r.num <= maxC) {
+          matched.add(r.label);
+        }
+      });
+    }
   }
 
   return Array.from(matched);
@@ -605,6 +640,9 @@ function getSpotCenturyMatches(spot) {
 function spotMatchesCentury(spot, chosenGroup) {
   if (!chosenGroup || chosenGroup === 'all') return true;
   const matches = getSpotCenturyMatches(spot);
+  if (chosenGroup === 'Antiquité') {
+    return matches.includes("Antiquité (avant J.-C.)") || matches.includes("Antiquité classique & Romaine (Ier - IVe s.)");
+  }
   return matches.includes(chosenGroup);
 }
 
@@ -928,11 +966,15 @@ function computeAllStatistics() {
 
   let unescoCount = 0;
   let chronoMap = {
-    pharaonique: { label: "Antiquité Pharaonique", span: "-1500 à -1200 av. J.-C.", icon: "🏺", count: 0, color: "#f59e0b" },
-    ptolemaique: { label: "Période Ptolémaïque & Romaine", span: "-300 à +300", icon: "🏛️", count: 0, color: "#38bdf8" },
-    medievale: { label: "Époque Médiévale & Génoise", span: "XVIe - XVIIIe s.", icon: "🏰", count: 0, color: "#818cf8" },
-    contemporain: { label: "XIXe - XXIe s.", span: "1883 à nos jours", icon: "🎨", count: 0, color: "#a855f7" },
-    nature: { label: "Temps Géologique & Ère Glaciaire", span: "Temps long", icon: "🌿", count: 0, color: "#10b981" }
+    prehistoire: { label: "Préhistoire & Néolithique", span: "Ve – IIe millénaire av. J.-C.", icon: "🪨", count: 0, color: "#78716c" },
+    pharaonique: { label: "Antiquité Pharaonique", span: "XXVIIe – IVe s. av. J.-C.", icon: "🏺", count: 0, color: "#f59e0b" },
+    ptolemaique: { label: "Égypte Ptolémaïque, Romaine & Copte", span: "IVe s. av. J.-C. – IVe s.", icon: "🏛️", count: 0, color: "#38bdf8" },
+    antique: { label: "Antiquité Grecque, Ibérique & Romaine", span: "VIe s. av. J.-C. – IVe s.", icon: "🏛️", count: 0, color: "#0ea5e9" },
+    medievale: { label: "Moyen Âge (Roman, Gothique & Féodal)", span: "Ve – XVe siècle", icon: "🏰", count: 0, color: "#818cf8" },
+    renaissance: { label: "Renaissance & XVIe siècle", span: "XVe – XVIe siècle", icon: "⚜️", count: 0, color: "#eab308" },
+    moderne: { label: "Époque Moderne, Classique & Edo", span: "XVIIe – XVIIIe siècle", icon: "👑", count: 0, color: "#f97316" },
+    contemporain: { label: "Époque Contemporaine (XIXe – XXIe s.)", span: "1800 à nos jours", icon: "🎨", count: 0, color: "#a855f7" },
+    nature: { label: "Temps Géologique & Sites Naturels", span: "Temps long", icon: "🌿", count: 0, color: "#10b981" }
   };
 
   const visitedCountries = new Set();
@@ -2398,13 +2440,24 @@ function renderCockpitDashboardDetails() {
       if (c > topRegCount) { topRegCount = c; topReg = r; }
     });
 
+    const eraLabels = {
+      prehistoire: "Préhistoire & Néolithique",
+      pharaonique: "Antiquité Pharaonique",
+      ptolemaique: "Égypte Ptolémaïque & Romaine",
+      antique: "Antiquité Classique & Romaine",
+      medievale: "Moyen Âge (Ve – XVe s.)",
+      renaissance: "Renaissance (XVIe s.)",
+      moderne: "Époque Moderne (XVIIe – XVIIIe s.)",
+      contemporain: "Époque Contemporaine (XIXe – XXIe s.)",
+      nature: "Temps Géologique & Nature"
+    };
     const eraCounts = {};
     validSpots.forEach(s => {
       if (s.era_group) eraCounts[s.era_group] = (eraCounts[s.era_group] || 0) + 1;
     });
     let topEra = "Moderne", topEraCount = 0;
     Object.entries(eraCounts).forEach(([e, c]) => {
-      if (c > topEraCount) { topEraCount = c; topEra = e; }
+      if (c > topEraCount) { topEraCount = c; topEra = eraLabels[e] || e; }
     });
 
     // Mettre à jour le badge du sélecteur
