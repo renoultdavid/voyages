@@ -68,6 +68,7 @@ let currentMode = 'globe';
 let myGlobe = null;
 let myLeafletMap = null;
 let leafletMarkersGroup = null;
+let leafletSpecialClustersGroup = null;
 let activeTileLayerKey = 'satellite';
 let isAutoRotating = false;
 let currentSelectedSpot = null;
@@ -333,14 +334,6 @@ function getUnescoClustersData() {
     else if (fullName.includes("Shirakawa")) shortName = "Shirakawa-gō";
     else if (fullName.includes("Fujisan")) shortName = "Mont Fuji";
     else if (fullName.includes("Corbusier")) shortName = "Le Corbusier";
-    else if (fullName.includes("Tarraco")) shortName = "Tarraco romaine";
-    else if (fullName.includes("Gaudí")) shortName = "Œuvres de Gaudí";
-    else if (fullName.includes("Poblet")) shortName = "Monastère de Poblet";
-    else if (fullName.includes("Golfe de Porto")) shortName = "Golfe de Porto & Scandola";
-    else if (fullName.includes("Kyoto")) shortName = "Kyoto antique";
-    else if (fullName.includes("Nara")) shortName = "Nara antique";
-    else if (fullName.includes("Himeji")) shortName = "Château de Himeji";
-    else if (fullName.includes("Compostelle")) shortName = "Saint-Jacques-de-Compostelle";
 
     if (!unescoMap.has(fullName)) {
       unescoMap.set(fullName, {
@@ -999,7 +992,7 @@ function computeAllStatistics() {
     if (alt < (typeof nadirSpot.altitude === 'number' ? nadirSpot.altitude : 50)) nadirSpot = s;
 
     if (s.is_island) islandCount++;
-    if ((s.counts && s.counts.unesco) || s.category === 'unesco') unescoCount++;
+    if (s.unesco_name || (s.counts && s.counts.unesco) || s.category === 'unesco') unescoCount++;
 
     const era = s.era_group || "contemporain";
     if (chronoMap[era]) chronoMap[era].count++;
@@ -1168,10 +1161,11 @@ function computeAllStatistics() {
   if (barMain) barMain.style.width = `${mainlandPct}%`;
   if (noteIsl) noteIsl.innerText = `« ${uniqueIslandsCount} îles explorées : vous passez ${islandPct}% de vos explorations les pieds entourés d'eau ! »`;
 
+  const unescoClustersTotal = getUnescoClustersData().length;
   const unescoCountVal = document.getElementById('stat-unesco-count-val');
   const unescoPctVal = document.getElementById('stat-unesco-pct-val');
-  if (unescoCountVal) unescoCountVal.innerText = unescoCount;
-  if (unescoPctVal) unescoPctVal.innerText = `${Math.round((unescoCount / travelSpots.length) * 100)}%`;
+  if (unescoCountVal) unescoCountVal.innerText = unescoClustersTotal;
+  if (unescoPctVal) unescoPctVal.innerText = `${unescoCount} monuments`;
 
   const chronoContainer = document.getElementById('stat-chrono-breakdown');
   if (chronoContainer) {
@@ -1657,6 +1651,7 @@ function initLeafletMap(initialCenter = [27.2579, 33.8116], initialZoom = 10) {
   }
 
   myLeafletMap.addLayer(leafletMarkersGroup);
+  leafletSpecialClustersGroup = L.layerGroup().addTo(myLeafletMap);
 
   myLeafletMap.on('zoomend', () => {
     if (currentMode === 'map' && myLeafletMap.getZoom() <= 5 && !isTransitioningMode) {
@@ -1674,9 +1669,15 @@ function initLeafletMap(initialCenter = [27.2579, 33.8116], initialZoom = 10) {
 function updateLeafletDisplay() {
   if (!myLeafletMap || !leafletMarkersGroup) return;
   leafletMarkersGroup.clearLayers();
+  if (leafletSpecialClustersGroup) leafletSpecialClustersGroup.clearLayers();
+  const targetSpecialLayer = leafletSpecialClustersGroup || leafletMarkersGroup;
   const markersToAdd = [];
 
-  if (isOnlyIslandFilterActive()) {
+  const isTousActive = Boolean(CATEGORIES.tous && CATEGORIES.tous.active);
+  const useIslandClusters = !isTousActive && Boolean(CATEGORIES.ile && CATEGORIES.ile.active);
+  const useUnescoClusters = !isTousActive && Boolean(CATEGORIES.unesco && CATEGORIES.unesco.active);
+
+  if (useIslandClusters) {
     const islandClusters = getIslandClustersData();
     islandClusters.forEach(cluster => {
       const islandIcon = L.divIcon({
@@ -1699,11 +1700,14 @@ function updateLeafletDisplay() {
         className: 'custom-leaflet-tooltip'
       });
       marker.on('click', () => openIslandSummaryCard(cluster));
-      leafletMarkersGroup.addLayer(marker);
+      targetSpecialLayer.addLayer(marker);
     });
-    return;
+    if (isOnlyIslandFilterActive()) {
+      updateLiveRadarPanel();
+      return;
+    }
   }
-  if (isOnlyUnescoFilterActive()) {
+  if (useUnescoClusters) {
     const unescoClusters = getUnescoClustersData();
     unescoClusters.forEach(cluster => {
       const unescoIcon = L.divIcon({
@@ -1726,12 +1730,19 @@ function updateLeafletDisplay() {
         className: 'custom-leaflet-tooltip'
       });
       marker.on('click', () => openUnescoSummaryCard(cluster));
-      leafletMarkersGroup.addLayer(marker);
+      targetSpecialLayer.addLayer(marker);
     });
-    return;
+    if (isOnlyUnescoFilterActive()) {
+      updateLiveRadarPanel();
+      return;
+    }
   }
 
   getFilteredSpots().forEach(spot => {
+    const isSpotUnesco = Boolean(spot.unesco_name || spot.category === 'unesco' || (spot.counts && spot.counts.unesco));
+    if (useUnescoClusters && isSpotUnesco) return;
+    if (useIslandClusters && spot.is_island) return;
+
     const activeCatKey = getFirstActiveCategoryForSpot(spot);
     const cat = CATEGORIES[activeCatKey] || CATEGORIES[spot.category] || { color: '#06b6d4', icon: 'fa-location-dot' };
     
@@ -1897,6 +1908,9 @@ function selectSpot(spot) {
   if (spot.category === 'ile' && !spotCategories.includes('ile')) {
     spotCategories.push('ile');
   }
+  if (spot.unesco_name && !spotCategories.includes('unesco')) {
+    spotCategories.push('unesco');
+  }
 
   spotCategories.forEach(catKey => {
     const cat = CATEGORIES[catKey];
@@ -2025,6 +2039,10 @@ function getFilteredSpots() {
 function updateGlobeDisplay() {
   if (!myGlobe) return;
 
+  const isTousActive = Boolean(CATEGORIES.tous && CATEGORIES.tous.active);
+  const useIslandClusters = !isTousActive && Boolean(CATEGORIES.ile && CATEGORIES.ile.active);
+  const useUnescoClusters = !isTousActive && Boolean(CATEGORIES.unesco && CATEGORIES.unesco.active);
+
   if (isOnlyIslandFilterActive()) {
     const islandClusters = getIslandClustersData();
     myGlobe.htmlElementsData(islandClusters);
@@ -2037,8 +2055,21 @@ function updateGlobeDisplay() {
     updateStats();
     return;
   }
-  
-  const filteredSpots = getFilteredSpots();
+
+  const specialElements = [];
+  if (useIslandClusters) {
+    specialElements.push(...getIslandClustersData());
+  }
+  if (useUnescoClusters) {
+    specialElements.push(...getUnescoClustersData());
+  }
+
+  const filteredSpots = getFilteredSpots().filter(spot => {
+    const isSpotUnesco = Boolean(spot.unesco_name || spot.category === 'unesco' || (spot.counts && spot.counts.unesco));
+    if (useUnescoClusters && isSpotUnesco) return false;
+    if (useIslandClusters && spot.is_island) return false;
+    return true;
+  });
   const pov = myGlobe.pointOfView();
   const altitude = (pov && typeof pov.altitude === 'number' && !isNaN(pov.altitude)) ? pov.altitude : 2.0;
 
@@ -2053,7 +2084,7 @@ function updateGlobeDisplay() {
   });
 
   if (altitude <= 0.18) {
-    myGlobe.htmlElementsData(visibleSpots.map(spot => ({ spot, lat: spot.lat, lng: spot.lng })));
+    myGlobe.htmlElementsData([...specialElements, ...visibleSpots.map(spot => ({ spot, lat: spot.lat, lng: spot.lng }))]);
     updateStats();
     return;
   }
@@ -2104,7 +2135,7 @@ function updateGlobeDisplay() {
     }
   });
 
-  myGlobe.htmlElementsData(finalElements);
+  myGlobe.htmlElementsData([...specialElements, ...finalElements]);
   updateStats();
   updateLiveRadarPanel();
 }
@@ -2464,8 +2495,8 @@ function renderCockpitDashboardDetails() {
     const bRecords = document.getElementById('stat-tab-badge-records');
     if (bRecords) bRecords.innerText = `${topReg} (${topRegCount})`;
 
-    const unescoCount = validSpots.filter(s => (s.counts && s.counts.unesco) || s.category === 'unesco').length;
-    const unescoPct = Math.round((unescoCount / validSpots.length) * 100);
+    const unescoClustersCount = getUnescoClustersData().length;
+    const unescoMonumentsCount = validSpots.filter(s => s.unesco_name || (s.counts && s.counts.unesco) || s.category === 'unesco').length;
 
     recBox.innerHTML = `
       <div class="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-amber-950/40 via-slate-900 to-slate-950 border border-amber-500/30 flex items-center justify-between shadow-xl">
@@ -2501,10 +2532,10 @@ function renderCockpitDashboardDetails() {
           </div>
           <div>
             <div class="text-xs uppercase font-bold text-emerald-300">Patrimoine Mondial UNESCO</div>
-            <div class="text-xs sm:text-sm text-slate-300 mt-0.5">Joyaux mondiaux visités répertoriés</div>
+            <div class="text-xs sm:text-sm text-slate-300 mt-0.5">Biens mondiaux visités (${unescoMonumentsCount} monuments explorés)</div>
           </div>
         </div>
-        <span class="font-mono text-emerald-300 font-black text-base sm:text-lg px-3 py-1.5 rounded-xl bg-emerald-950/80 border border-emerald-500/40">${unescoCount} POI (${unescoPct}%)</span>
+        <span class="font-mono text-emerald-300 font-black text-base sm:text-lg px-3 py-1.5 rounded-xl bg-emerald-950/80 border border-emerald-500/40">${unescoClustersCount} biens UNESCO</span>
       </div>
 
       <div class="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800 flex items-center justify-between shadow-xl">
