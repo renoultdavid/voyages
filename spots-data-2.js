@@ -1,5 +1,2860 @@
 const SPOTS_2 = [
   {
+    id: "anaga_mirador_tunel_de_anaga",
+    name: "Tenerife - Belvédère du Tunnel d'Anaga (Mirador del Túnel de Anaga)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Santa Cruz de Tenerife",
+    altitude: 578,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Ligne de Partage Nord-Sud d'Anaga, Tunnel Routier & Débouché sur la Vallée de Taganana",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.54767,
+    lng: -16.20318,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM442sYqXfQkgbQXtVOcHlop6eqXeYQIn8ClXoXK-BYqKj5iPQABKNsyPL41TXPCrmnuBbmC6wuz2wWrhXZUNLe-CFqntbXzOdK_9WPWfL7JLjZmXn089LGK6LmgiVr0na7or1lLNa4IrCe3vcdaIq9OA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMP3PgsWPVvK8yhyy9rjsROVqLrIAVsSPMJ7jhnih6HKKoRanIvPrsC1FGaIM6F2474RgBKQptdZ0P5BUXIM5Jf7YJ7cLjMhZrlS0ree0gmLK-dUfmTWgW9o19AT2ssuSGkkS311jyVwxQzxQNnX0vWUg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Aménagé à la sortie septentrionale du tunnel routier percé sous la ligne de crête centrale du massif d'Anaga le long de la route sinueuse TF-134, le mirador du Túnel de Anaga marque l'une des ruptures de paysage les plus spectaculaires et saisissantes de Tenerife. Franchir ce boyau rocheux creusé dans le basalte miocène constitue un véritable voyage sensoriel et climatique instantané : on quitte en quelques secondes la pénombre humide et ouatée de la laurisylve de crête pour basculer brusquement dans l'amphithéâtre grandiose et ensoleillé de la vallée de Taganana. Le belvédère surplombe un réseau vertigineux de ravins abyssaux sculptés par des millions d'années d'érosion torrentielle, plongeant depuis les parois subverticales des sommets jusqu'aux écumes de l'océan Atlantique qui s'étend à perte de vue vers le nord.\n\nDepuis la terrasse sécurisée taillée en balcon au-dessus du vide, le regard embrasse toute la silhouette accidentée de la comarque septentrionale d'Anaga, ponctuée de terrasses agricoles étagées (bancales) où s'accrochent des vignobles en coteaux et de modestes hameaux blancs nichés dans les replis du relief. Les parois rocheuses encadrant le site dévoilent la structure intime du volcanisme primitif de l'île, traversée de part en part par des dizaines de dykes magmatiques sombres et d'anciennes cheminées volcaniques pétrifiées qui ont mieux résisté à l'altération que les couches environnantes de pyroclastes et de cendres altérées. Souvent balayé par les brises d'alizés qui dévalent les crêtes en cascade nébuleuse, ce promontoire constitue la porte d'entrée panoramique incontournable vers le littoral sauvage et isolé de Taganana, Almáciga et Benijo.",
+    visiter: "Une halte sur l'esplanade du belvédère immédiatement à la sortie du tunnel d'Anaga permet de profiter du contraste visuel saisissant entre la fraîcheur de la crête forestière et l'ouverture spectaculaire sur la vallée de Taganana. Les visiteurs contemplent la plongée vertigineuse des crêtes basaltiques descendant vers l'océan Atlantique et les lacets étourdissants de la route descendant vers le village, avant de poursuivre leur trajet le long de la côte nord d'Anaga.",
+    link: ""
+  },
+  {
+    id: "anaga_mirador_risco_amogoje",
+    name: "Tenerife - Belvédère du Risco Amogoje (Mirador Risco Amogoje)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Santa Cruz de Tenerife",
+    altitude: 416,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Piton Basaltique d'Amogoje, Falaise Rupicole & Balcon Plongeant sur la Côte de Taganana",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.55848,
+    lng: -16.20603,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN8pywGso-E7sHNgl7riEzYHl5jfCvVH0D7tjsQ8R4g1SH3YHgka5YbC-KHK-CJrDghXyEtn9a-C1ii8KE02dU5PviQRskNk2fAC0CYm3z3tK8CnHbCghg8KBcDdwRYqPUS8Nb2cY_0L6VJAdduDv9Avw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Accroché en encorbellement vertigineux à plus de quatre cents mètres d'altitude le long de la vertigineuse route TF-134 descendant vers Taganana, le mirador du Risco Amogoje offre l'un des postes d'observation géomorphologiques les plus sauvages et impressionnants du Parc rural d'Anaga. Le site tire son nom de l'imposant éperon rocheux d'Amogoje qui le surplombe directement, un monolithe de basalte noir d'une verticalité titanesque mis au jour par le démantèlement érosif des flancs de l'ancien édifice volcanique miocène. Cette proue de pierre sombre défie le vide au-dessus de la profonde vallée fluviale de Taganana, révélant la puissance herculéenne des processus d'érosion hydrique qui ont creusé ces gouffres insulaires au fil de millions d'années d'averses orographiques et de déferlement atlantique.\n\nLe panorama depuis la plate-forme sécurisée est d'une monumentalité théâtrale : vers l'aval, la vue plonge directement sur les toits blancs et l'église historique de Taganana lovés au fond du vallon, avant de glisser vers les déferlantes blanches de la plage de Roque de las Bodegas et les pointes rocheuses découpées d'Almáciga. Les falaises abruptes et les escarpements rocheux entourant le promontoire constituent un sanctuaire écologique remarquable pour la végétation rupicole canarienne, où s'enracinent dans les failles de basalte des spécimens d'aeoniums endémiques aux rosettes charnues (bejeques), des lauriers-roses sauvages et des tabaibas côtières bravant les embruns marins. Balayé par des courants d'air vifs venus du large et offrant une lecture magistrale du relief en crêtes acérées d'Anaga, ce belvédère incarne l'alliance farouche de la montagne insulaire et de l'abîme océanique.",
+    visiter: "Stationner sur l'échancrure aménagée en bordure de la route en lacet pour accéder à la terrasse panoramique du Risco Amogoje. Les visiteurs s'avancent vers le garde-corps pour apprécier la vue plongeante sur le bourg de Taganana et l'enfilade des falaises côtières battues par la houle atlantique, tout en admirant la verticalité spectaculaire de la muraille basaltique qui domine la chaussée.",
+    link: ""
+  },
+  {
+    id: "la_laguna_plaza_del_adelantado",
+    name: "San Cristóbal de La Laguna - Place de l'Adelantado (Plaza del Adelantado)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "San Cristóbal de La Laguna",
+    altitude: 557,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Place d'Armes Fondatrice, Siège Historique du Pouvoir Colonial & Fontaine en Marbre (XVIe siècle)",
+    century: "XVIe siècle",
+    category: "star",
+    counts: {},
+    lat: 28.48765,
+    lng: -16.31354,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMTxJ9-VP_PrU2i4zmmfvhiJaiNWDFUZhwb2DGZFOGGd6JLzefNTgllw0aZa1O75tnkYNNa7PpFQ1MT4pjUC68HUMxhZk4tNYl8PLM6Q-xDC9Ep-5gIXKtITTBH-Owr8__Vkw0HjPqSBPQdessVRDQhSw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Aménagée au lendemain immédiat de la conquête de l'île par le conquérant castillan Alonso Fernández de Lugo à la fin du XVe siècle, la Plaza del Adelantado constitue le cœur politique, administratif et judiciaire originel de San Cristóbal de La Laguna, ancienne capitale historique de Tenerife. Conçue initialement comme une vaste place d'armes et d'exercice militaire bordant la lagune asséchée d'Aguere, elle devint rapidement le centre névralgique de la gouvernance de l'archipel, accueillant les défilés civiques, les marchés hebdomadaires et les célébrations publiques. Ce quadrilatère historique est ceinturé par un ensemble monumental exceptionnel réunissant les symboles de l'autorité coloniale et spirituelle : l'hôtel de ville (Casas Consistoriales), le couvent cloîtré de Santa Catalina de Siena, le palais néoclassique de Nava et l'austère ermitage San Miguel Arcángel, primitivement fondé en 1506 pour abriter les réunions du premier Cabildo insulaire.\n\nAu centre de cette esplanade pavée ombragée de grands lauriers des Indes et de magnolias centenaires s'élève une somptueuse fontaine monumentale en marbre blanc de Carrare, commandée à Marseille et installée en 1870, dont les vasques superposées et les sculptures aquatiques apportent une note de fraîcheur raffinée au cœur minéral de la cité. Déclarée avec l'ensemble du centre historique au Patrimoine mondial de l'UNESCO, la place incarne le prototype par excellence du tracé urbain non fortifié de la Renaissance espagnole, où les proportions régulières et l'ordonnancement civique servirent de modèle direct pour l'édification des grandes métropoles coloniales d'Amérique latine, depuis La Havane jusqu'à Carthagène des Indes.",
+    visiter: "Une halte sur les bancs de pierre ombragés de la place permet d'admirer les détails sculptés de la fontaine en marbre de Carrare et d'observer l'enfilade des façades historiques ceinturant l'esplanade : le balcon en bois et les armoiries de l'Hôtel de Ville, les loggias du couvent Santa Catalina et la façade baroque en basalte du Palais de Nava, avant de s'engager dans la rue piétonne Obispo Rey Redondo vers la cathédrale.",
+    link: ""
+  },
+  {
+    id: "la_laguna_cathedrale_san_cristobal",
+    name: "San Cristóbal de La Laguna - Cathédrale Notre-Dame des Remèdes (Catedral de San Cristóbal de La Laguna)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "San Cristóbal de La Laguna",
+    altitude: 559,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Siège Épiscopal des Canaries, Façade Néoclassique & Voûtes Néogothiques en Béton Armé (XIXe-XXe siècle)",
+    century: "XIXe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.48901,
+    lng: -16.31642,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNq-7bmupIOVjjft8uo383Udl4FIUKX7WkHa9nyUEELVYPqEIBhqWBGlq4Cvp7qxzAUB5IubLGf_QfIKXw0mdCfjtsE4MN-4BEK-btZE5sH2UOODhOXa81f3MDObAOUVWZw0PiEF5kli7ZG4ny2TSgVqA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNAmRp9Nm8rI0xy572EvOrkh5viVndctx-X6usdf1kxrMfwdgdERTMtAm0BGwGJ6l-wmfwJtGPIJ1Jr0TJxirhMWYLh-BxLa2W6MTIpj_xyt0xr1e0XpkUtO77oF9PREBhoRmmErB6ZoI_nkUWLxFJNsQ=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Érigée au cœur du tracé géométrique de la vieille ville, la cathédrale Notre-Dame des Remèdes (Santa Iglesia Catedral de San Cristóbal de La Laguna) constitue le siège du diocèse de San Cristóbal de La Laguna (diocèse Nivariense), créé en 1819 par bulle pontificale du pape Pie VII pour régir l'ensemble de la province ecclésiastique occidentale des Canaries. Bâtie sur l'emplacement de l'ancienne paroisse Notre-Dame des Remèdes fondée dès 1515, la cathédrale présente une fascinante superposition architecturale d'époques et de techniques constructives. Sa monumentale façade principale en pierre de taille basaltique sombre, achevée en 1825 d'après les dessins de l'architecte José de Bethencourt y Castro inspirés de la cathédrale de Pampelune, s'impose comme un chef-d'œuvre du néoclassicisme espagnol, rythmée par un puissant portique à colonnes toscanes et couronnée de frontons triangulaires encadrés par deux tours campaniles jumelles.\n\nÀ l'arrière de cette façade historique, le corps principal de l'édifice s'effondra au début du XXe siècle en raison de la fragilité des matériaux d'origine, entraînant une reconstruction audacieuse menée entre 1904 et 1915 selon les plans de l'ingénieur Rodrigo de Vallabriga. L'intérieur déploie un vaste vaisseau néogothique à trois nefs et déambulatoire, pionnier dans l'histoire de l'architecture religieuse espagnole pour l'utilisation novatrice du béton armé dans ses voûtes sur croisées d'ogives et son dôme sommital. Le sanctuaire abrite des trésors d'art sacré inestimables, au premier rang desquels figure le monumental retable baroque flamand de la chapelle de Los Remedios sculpté à Anvers au XVIe siècle, la chaire en marbre blanc de Carrare réalisée à Gênes par le sculpteur Pasquale Bocciardo en 1767, ainsi que la sépulture monumentale de l'adelantado Alonso Fernández de Lugo, conquérant et fondateur de la cité.",
+    visiter: "Franchir le portique néoclassique en basalte pour pénétrer dans la grande nef lumineuse et admirer l'élancement des voûtes néogothiques en béton armé ainsi que la coupole centrale dominant la croisée du transept. Les visiteurs contemplent la chaire génoise en marbre de Carrare sculpté, le somptueux retable baroque flamand du XVIe siècle dans le déambulatoire et le tombeau historique d'Alonso Fernández de Lugo, avant de découvrir les pièces d'orfèvrerie et peintures flamandes conservées au trésor capitulaire.",
+    link: ""
+  },
+  {
+    id: "la_laguna_torre_de_la_concepcion",
+    name: "San Cristóbal de La Laguna - Tour & Paroisse de la Conception (Torre de la Iglesia de la Concepción)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "San Cristóbal de La Laguna",
+    altitude: 559,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Paroisse Matrice Originelle de Tenerife, Campanile en Pierre de Taille & Style Toscan (XVIIe siècle)",
+    century: "XVIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.49069,
+    lng: -16.32040,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOJbCqSs_E4Qcoe8CL1UR7jCEO7L3JNL-HCzW6B6cp4IQ8Qj1CKAxGoYgpQ5khZ9MSYNdN__WYlAmeILXKeHzW3PTeFH3wvI6hEjGGvzXFlNJu8nUflumfaLehay2QzRz9WMMHwsr8gkc4xgBRyA8c-NQ=w613-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Érigée à l'extrémité occidentale de l'axe urbain historique, sur la place homonyme, l'église matrice de Notre-Dame de la Conception (Parroquia Matriz de Nuestra Señora de la Concepción) constitue le plus ancien sanctuaire paroissial de l'île de Tenerife, fondé dès 1497 par l'adelantado Alonso Fernández de Lugo au terme de la campagne de pacification de l'archipel. Autour de cette église primitive s'est structurée la « Villa de Arriba », premier quartier d'artisans et de marchands de la cité. L'édifice actuel, issu d'agrandissements et de remaniements successifs conduits aux XVIe, XVIIe et XVIIIe siècles, s'articule en un vaste plan basilical à trois vaisseaux séparés par des arcs en plein cintre en basalte sombre, couverts de spectaculaires plafonds mudéjars en bois de pin tea aux entrelacs géométriques d'une rare finesse charpentière.\n\nLe monument doit sa célébrité visuelle à son imposante tour-clocher carrée, érigée à la fin du XVIIe siècle en pierre de taille volcanique sombre soigneusement appareillée. S'élevant à près de trente mètres de hauteur sur sept registres étagés rythmés par des corniches classiques et percée de baies campanaires à son sommet, cette tour toscane inspirée des modèles de la Renaissance italienne est devenue le symbole vertical par excellence et le point de repère visuel de toute la plaine de La Laguna. Déclarée monument historico-artistique national, l'église abrite également de précieuses pièces liturgiques baroques, des fonts baptismaux préhispaniques en céramique où furent baptisés les premiers rois guanches convertis, ainsi que la plus grande cloche de bronze des Canaries, baptisée « la Blanda ».",
+    visiter: "Une halte sur la place de la Conception permet de contempler l'appareillage en pierre de taille de la tour campanile et les façades traditionnelles environnantes. Les visiteurs pénètrent dans l'église pour détailler les plafonds mudéjars en bois de pin tea et le retable baroque, avant de gravir l'escalier intérieur de la tour pour accéder à la plate-forme supérieure du beffroi et profiter d'un panorama circulaire exceptionnel sur la trame en damier des toits de La Laguna et les crêtes d'Anaga.",
+    link: ""
+  },
+  {
+    id: "la_laguna_ermita_san_benito_abad",
+    name: "San Cristóbal de La Laguna - Ermitage Saint-Benoît-Abbé (Ermita de San Benito Abad)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "San Cristóbal de La Laguna",
+    altitude: 573,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Sanctuaire Patronal Agricole, Berceau de la Romería Régionale & Architecture Vernaculaire (XVIe siècle)",
+    century: "XVIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.49021,
+    lng: -16.32629,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMEmD9lJcXyvjKrrqIMK61Ybsm5qXu1Dq8xzgXeJJDS1Fk9pMtJVUmSzHjvwVMrfKwCrv8uo8oMpCfWv2s9BE_P9suzFhkfKBSf-N4b5yBMSDel3Rz90cEu_cN2m6MeyB7Hh3ILZdE05JCSuugo9Qkf0g=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPVZC-drWDBPGXmo4XAjuoxXs0YbdBcubGO1_6qWTElSNKC8K0pXRHAZxw3GTMRPi0HwixVQD99-0bEPNiSRVnlZZL2jr_XRvUZ8C2bdCULX2Dg0k8nPrtIpYK2o5T16IVzVSDwxYEYWXysM8rNsxVDqw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Érigé en 1532 dans la plaine fertile d'Aguere à l'orée nord-occidentale de la ville historique, l'ermitage de San Benito Abad constitue le cœur battant des traditions agropastorales et populaires de l'île de Tenerife. Ce sanctuaire votif fut fondé par les laboureurs et éleveurs de la comarque en accomplissement d'un vœu solennel après que saint Benoît eut été invoqué avec succès pour protéger les récoltes de céréales et le bétail contre des invasions destructrices de criquets et des périodes d'intense sécheresse. L'édifice incarne avec une rare pureté les canons de l'architecture religieuse rurale canarienne des débuts de l'époque moderne : une nef unique en maçonnerie blanchie à la chaux épaulée d'un chaînage d'angle en pierre de basalte, couverte d'un toit à deux versants en tuiles canal d'argile cuite et surmontée d'un clocher-mur latéral à une seule arcade campanaire.\n\nL'intérieur abrite une atmosphère de ferveur recueillie sous une remarquable charpente mudéjare en bois de cœur de pin canarien (tea) assemblée à tenons et mortaises. L'autel principal est dominé par un retable en bois polychrome abritant la statue historique de saint Benoît abbé, saint patron officiel des agriculteurs et des campagnes de Tenerife. Chaque deuxième dimanche de juillet, l'ermitage devient l'épicentre de la célèbre Romería Regional de San Benito Abad, déclarée fête d'intérêt touristique national. Cet événement folklorique majeur rassemble des dizaines de milliers de pèlerins vêtus des costumes traditionnels des différentes îles de l'archipel, accompagnant des chars décorés tirés par des bœufs, des troupeaux de chèvres et des groupes de musique traditionnelle (parrandas) au son des timples et des guitares, célébrant l'attachement indéfectible du peuple canarien à sa terre et à son patrimoine agricole.",
+    visiter: "Une halte sur l'esplanade pavée de l'ermitage permet d'admirer la sobre élégance de son porche cintré en pierre de basalte sombre et son clocher-mur traditionnel. Les visiteurs pénètrent dans la chapelle pour apprécier la chaleur de la charpente mudéjare en pin tea et observer la statue de saint Benoît entourée d'ex-voto agraires, avant de découvrir les ruelles calmes de ce quartier historique autrefois voué au maraîchage.",
+    link: ""
+  },
+  {
+    id: "la_laguna_vieille_ville_et_ruelles",
+    name: "San Cristóbal de La Laguna - Rues Coloniales & Patios de la Cité Historique (Casco Histórico)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "San Cristóbal de La Laguna",
+    altitude: 570,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Premier Tracé Urbain en Damier de la Renaissance, Patios en Pin Tea & Patrimoine Mondial UNESCO",
+    century: "XVIIe siècle",
+    category: "star",
+    counts: { unesco: 1 },
+    unesco_name: "San Cristóbal de La Laguna",
+    lat: 28.48920,
+    lng: -16.31759,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMkjgylYRS7DAdnm4x571lHZvR4K09akn0BODc135ONH9lnID12ZoMSenqdCM2MeIIwx3nhkV3HZdQSE0x8n7E8cChlAgjEnwHTJFcrV0jXJ_pV1QjiYqw19ZFz1iVy548_VQqbp7p4tIklBPsWJFw97A=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNnVRAYNRRomRTRdqbDDH5CDbnDJqsf_HRRncKtx24PjPTv4p7ec1JV9RUc3vHewuOX8gqIfF9uNCT7XYWrWE8VpMSzapIbM9nZ8xRdPx09xbR2n6BSLcYzdESqHAJYW--F-1l2QVHX5izqHg2e4mtNWw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNzoXD830iNpGkI4jksfSvEjul-s2UXStO8SYElSzQWQWoGb7ssxy9Iqk0f2BgEILUUyx9CO5zT2oK0TqDN0Jfu_Q8EVg2rTRwRWf8KyLcEusB-OYQt7D05mBgkXjM03eFf8wOmo7R2q0O79YtmGy7yDA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMJtEtsU30CRPD_jwHX2eCKcSt6BxH1k_W-RufTBi8e1f1pCz1bW20znyQsBFi51ygBgx3Lz5mg3BMZZx39zrdHLbWtsZXXvC3atd8bBbFmE1_nUkFn1BYNRR-twxa0c0sAmNzAZRCxUunH16p8qZyBfQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNc-N4cXaPRfK9LomW90hp0YqPo6p2qjqMVGWvuOyPyo7_bIOVYj-0YQWp4M80rSBtktmf-mP1IG7rVi-qL287fqVu1GNxgGEDW2hV6O-qwOyKa-XT-L8q6ntVprMvcKojkiDYi6BBUq5mnTCtuKBzVQQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN38iOMXC64M0jDtGqOoNc99CQ92PayQNdBEwfURkZJ5XAY4AmcBx5uz2hVz6NHnrjVkQwP_pkFwwl9qMZSZVnXh8Nfew-xK7e1v7vgCx9D6FnRLQY1p81boH3km88BY5yCnslCRBU9yKzvCTQE7w4nXA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Inscrit sur la liste du Patrimoine mondial de l'UNESCO depuis 1999 au titre de bien culturel d'exception, le centre historique de San Cristóbal de La Laguna représente le prototype absolu de la cité coloniale idéale non fortifiée conçue selon les principes philosophiques et géométriques de la Renaissance humaniste. Tracé à partir de la fin du XVe siècle selon un plan en damier rigoureux composé de longues rues droites et régulières, ce modèle urbain visionnaire servit de matrice directe pour l'urbanisme des centaines de villes fondées par l'Empire espagnol dans le Nouveau Monde. Les artères pavées piétonnes, au premier rang desquelles la Calle San Agustín, la Calle Obispo Rey Redondo (La Carrera) et la Calle Herradores, composent un musée d'architecture à ciel ouvert où dialoguent les palais patriciens des XVIe, XVIIe et XVIIIe siècles, les maisons marchandes aux façades badigeonnées de teintes pastel chaleureuses (ocres, terres de Sienne, rouges almagre) et les imposants couvents cloîtrés.\n\nDerrière de massifs portails sculptés en pierre de taille basaltique sombre s'ouvrent des trésors d'intimité domestique : de superbes cours intérieures (patios canarios) pavées de galets marins et ceintes de galeries superposées en encorbellement, soutenues par de robustes colonnes de cœur de pin des Canaries (tea) imputrescible et peuplées de fougères arborescentes et de palmiers. Les toitures d'argile cuite à deux ou quatre pans sont soulignées par des avant-toits ouvragés et des balcons fermés de moucharabiehs d'influence mudéjare conçus pour préserver la fraîcheur face aux brumes de la plaine d'Aguere. Animé aujourd'hui par la vitalité de l'université historique de La Laguna, ses librairies, ses cafés traditionnels et ses ateliers d'artistes, ce tissu urbain séculaire a conservé intacte son harmonie spatiale et son âme aristocratique insulaire.",
+    visiter: "Parcourir à pied les artères piétonnes pavées de la Calle San Agustín et de la Calle Herradores pour admirer l'enfilade des palais seigneuriaux aux façades colorées et leurs encadrements en basalte taillé. Les visiteurs poussent les portes cochères pour contempler les patios traditionnels ombragés de palmiers et ornés de galeries en bois de pin tea, avant de savourer l'animation des terrasses littéraires et des boutiques artisanales du centre historique classé.",
+    link: ""
+  },
+  {
+    id: "anaga_tunel_de_las_hadas",
+    name: "Tenerife - Tunnel des Fées (Túnel de Las Hadas - Camino Viejo al Pico del Inglés)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Santa Cruz de Tenerife",
+    altitude: 987,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Tranchée Forestière Historique, Voûte Végétale de Laurisylve & Chemin Encaissé",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.53495,
+    lng: -16.26856,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPytWOEPpr_Cdy22yP-jACEeFGu6SHbrA1bsiISs3aWN0BlNy4bimBpPzwM-PfHjTjwq3Njl3V6wwA8GZgVmflczar4karjwx3loA2rdtSwDIVvyE-nZPlsoDd0IgbfKOjNoq3IOgG3gvA0nW7T4iZRNg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Niché sur la ligne de crête sommitale du massif d'Anaga, à proximité immédiate de la bifurcation menant au sommet du Pico del Inglés, le site féerique du Túnel de Las Hadas (communément désigné sous le nom de Camino Viejo al Pico del Inglés) constitue l'un des passages paysagers les plus mystiques et emblématiques de l'archipel canarien. Ce boyau encaissé spectaculaire n'est pas un tunnel creusé sous la roche mais une profonde tranchée routière taillée à flanc de crête au cours du XXe siècle dans le substrat meuble d'argiles rouges et de cendres volcaniques altérées, vestige d'une ancienne voie de communication abandonnée au profit du tracé actuel de la route TF-114. Au fil des décennies, la nature sauvage a totalement réinvesti cette entaille artificielle, sculptant un couloir végétal d'une verticalité saisissante où les parois de terre ocre sombre, hautes de plusieurs mètres, sont devenues le support d'un écosystème bryophytique et ptéridophytique foisonnant entièrement tapissé de mousses gorgées d'eau, de lichens et de petites fougères ruisselantes.\n\nAu sommet de ces parois abruptes, les vénérables lauriers des Canaries (Laurus novocanariensis), viñátigos et bruyères arborescentes (Erica arborea) de la forêt primaire de laurisylve étirent leurs branches noueuses et tortueuses d'un bord à l'autre du passage. Leurs couronnes enchevêtrées se rejoignent au-dessus du chemin pour former une voûte végétale continue et translucide filtrant une lumière tamisée verdâtre, accentuée par les lambeaux de brume humide déposés en permanence par les alizés marins. Les racines aériennes des arbres, mises à nu par l'érosion des talus, pendent comme des lianes suspendues le long des parois argileuses, conférant à ce défilé silencieux une atmosphère de conte de fées et de jungle primitive qui en fait l'un des lieux les plus photographiés et poétiques du Parc rural d'Anaga.",
+    visiter: "S'arrêter au croisement de la route menant au Pico del Inglés pour s'engager à pied dans l'allée encaissée du Camino Viejo. Les promeneurs cheminent sous la voûte serrée de branches moussues en observant les parois argileuses verticales tapissées de mousses et les racines d'arbres retombant dans le vide, avant de contempler les jeux de lumière et les volutes de brume glissant à travers le tunnel végétal.",
+    link: ""
+  },
+  {
+    id: "anaga_mirador_pico_del_ingles",
+    name: "Tenerife - Belvédère du Pico del Inglés (Mirador Pico del Inglés)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Santa Cruz de Tenerife",
+    altitude: 971,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Crête Centrale d'Anaga, Balcon Panoramique à 360 Degrés & Avifaune Forestière Endémique",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.53253,
+    lng: -16.26384,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMVpcapf9UfxvCHmcV4ofzDAO6Y6xpCnvgH-CqcVgLjMZTU2D73_v0xpYre08zyNnARCoABXh3ezCmt0TRopTRewYVIt28B8xsPDmgZtSLYTElJWIEFXevz9b_jQQKdpi-gpktoe0qeJHzK45usijisOQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM-il07HPJFowlM4zISE8l3nAwVpz3259uE91dla2mdLFrWyoU8REqy48Bre_puIQjR9KUcrneS5J5YzJXMGUabeOwyGNpqyQQiCbCsXVbiW7ppV6fHqkTQRA3FkTxqOCJYi1kPrXEQYQs0RatiV3_Mgg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPiDN3dSyUtZjNZeFDUwsXFfFRbvDfUBDAwzMttXOi7rd-CwoOODPIBEQwouU201XxrwsqrhNSOlupjo6GpXlsaOUxI4zCCFxcLgHW2OrrsKNU94QzAsNfCdHrnuHAJpw6LgB97SK9q3qfNsQYgY_J_8w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO6PJSwVjcSnk8E7_E8fpXWPnBkgt8sG_N0sluDAuJe6YKqpkFjD1gDSiejitg_SRSzunAZmrCDVu7TpJybd8jpm_p9GSziSKHw0CkQdOBYCr13tVyHTtweCznyXSpLigshi-mCFOSlClvMUV7s7RO3ag=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMWEiA_iaNHqsqGNfsYGUtAzrTwjEnBzfagoBxwzA_pX_kdIe6Pk_qrWGhJG1Ki7e15TvH5f2dBm8GAqyFvsOGRecxJN7_QeDFWRNFiZcIWTSPoRey0o7eJqbap7_-dxUee6ntw6XPjKhM_ACLQStJzWA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMvsL41HJuGPSmiVkHdEvi3wlzpcWZELFqXu1hR0v9PVE469W3oULmNHS_5NwU2F2DRv0D6XAuDDWDU4OcNjT5OkAEQZj9TfNmy92809DXdJGW4lNoEGcjLeOBZuQ32PvtlAy7UK9g2ivXwZTL10m0Y4Q=w1379-h919-s-no-gm?authuser=0",
+        caption: "Le Phylloscopus canariensis, ou pouillot des Canaries (localement mosquitero canario), est un petit passereau vif endémique de l'archipel canarien.\nPlus sombre et plus brun-olive sur le dessus que le pouillot véloce continental, il arbore une poitrine chamoisée et des flancs lavés de roux chaud.\nOmniprésent et très adaptable, il fréquente aussi bien les jardins côtiers et les vergers que la laurisylve humide ou la pinède de moyenne montagne.\nIncessamment en mouvement, il inspecte le feuillage à la recherche de minuscules insectes, de pucerons et de larves qu'il capture en voltigeant.\nSon chant sonore, composé de strophes rythmées plus explosives et rapides que le simple « tsip-tsap » européen, résonne à longueur d'année dans les ravins."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMQFqTVLo7BDf9yUgoqFn57MwPSZ9gsxrmzIKaaMdxx0QLzx2vu0yHlTxGklUYYi-ypMI8OrF8W-oY_bFbvhw3h6D6X6kpHm_kpEciPrtQHrJn1oKCirckEfFOakf5E0uCo8upDLwkqPl7eJ9ij07cMSw=w1382-h919-s-no-gm?authuser=0",
+        caption: "Le Fringilla canariensis, ou pinson des Canaries (localement pinzón vulgar canario), est un fringillidé endémique de la région macaronésienne.\nLe mâle se distingue du pinson d'Europe par son dos d'un vert olive profond, une calotte ardoisée intense et une poitrine beige rosée plus sobre.\nTrès répandu dans les îles boisées, il peuple principalement la laurisylve d'Anaga, les forêts de fayal-brezal et les pinèdes de Pinus canariensis.\nSon régime granivore opportuniste s'enrichit au printemps d'insectes, de chenilles et de bourgeons qu'il glane au sol ou sur les troncs moussus.\nSon chant puissant et territorial, décliné en dialectes subtils selon les îles, structure l'ambiance sonore des sous-bois de moyenne altitude."
+      }
+    ],
+    description: "Culminant à près de mille mètres d'altitude sur l'échine dorsale centrale du massif d'Anaga, le mirador du Pico del Inglés offre l'un des panoramas circulaires les plus spectaculaires, vertigineux et exhaustifs de toute l'île de Tenerife. Ce promontoire stratégique doit son nom historique à un voyageur et naturaliste britannique du XIXe siècle qui avait coutume de gravir cette cime dénudée pour étudier la flore insulaire et contempler le grandiose théâtre géologique de l'archipel. Aménagée sur une arête rocheuse basaltique très étroite dominant deux versants abrupts, l'esplanade sommitale s'avance comme la proue aérienne d'un navire de pierre flottant au-dessus des canopées luxuriantes de la laurisylve et des nappes cotonneuses de la mer de nuages poussée par les alizés.\n\nLe regard embrasse un horizon illimité balayant la complexité orographique d'Anaga : vers le nord et l'est, la vue plonge dans les gouffres des ravins de Taborno, Afur et Taganana, hérissés de pitons volcaniques spectaculaires (roques) et de dykes basaltiques érodés plongeant jusqu'aux rouleaux blancs de l'océan Atlantique. Vers le sud et l'ouest, le panorama dévoile la plaine d'Aguere où s'étend la cité historique de San Cristóbal de La Laguna, le port de Santa Cruz de Tenerife et, fermant majestueusement la ligne de crête par-delà les forêts de pins, la cime pyramidale du pic du Teide dominant souverainement les lointains. Les bosquets de lauriers et de bruyères arborescentes ceinturant le belvédère constituent un biotope d'une grande vitalité ornithologique, régulièrement animé par les trilles sonores du pouillot des Canaries (Phylloscopus canariensis) chassant dans le feuillage et les évolutions vives du pinson des Canaries (Fringilla canariensis) à la robe ardoisée, incarnant l'harmonie parfaite entre la majesté des paysages de crête et la biodiversité précieuse de la réserve de biosphère.",
+    visiter: "Atteindre le parking terminal de la route panoramique TF-114 pour s'avancer sur la terrasse circulaire du mirador du Pico del Inglés. Les visiteurs prennent le temps de contempler le panorama à 360 degrés embrassant les ravins sauvages du nord d'Anaga plongeant vers l'Atlantique et la silhouette du Teide émergeant à l'horizon sud-ouest, tout en prêtant l'oreille aux chants des pinsons et pouillots des Canaries dissimulés dans les frondaisons de la laurisylve bordant le promontoire.",
+    link: ""
+  },
+  {
+    id: "tenerife_rando_parc_rural_anaga",
+    name: "Tenerife - Randonnée dans la Laurisylve du Parc Rural d'Anaga (Sendero Bosque de Laurisilva)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Santa Cruz de Tenerife",
+    altitude: 950,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Forêt Primaire de Laurisylve Tertiaire, Réserve de Biosphère d'Anaga & Pluie Horizontale",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 28.53121,
+    lng: -16.28000,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNLM69LOD3je2aGiWqqihCVBlMmqmR9ZdrdJ8phWFqnyV_m_CA54c9RoYpKJ3n6OBoYpw2v2d1HKP9F8rc5VDYAhw6lBWCYG_OyDY6YYYE4JfVMBTjcpaA3pgKecW6mIoF0_yyjr8RJlywri72Y2GAN-g=w1379-h919-s-no-gm?authuser=0",
+    description: "Érigé à l'extrémité nord-orientale de l'île de Tenerife, le massif d'Anaga constitue l'un des trois piliers géologiques primitifs de l'archipel canarien, né d'intenses phases volcaniques fissurales au Miocène il y a sept à neuf millions d'années. Soumis à une érosion torrentielle acharnée au fil des millénaires, ce territoire tourmenté déploie un lacis vertigineux de crêtes acérées, de pitons basaltiques verticaux (roques) et de ravins abyssaux plongeant directement dans les déferlantes de l'océan Atlantique. Classé réserve de biosphère par l'UNESCO, le parc rural d'Anaga abrite le sanctuaire le plus étendu et spectaculaire de laurisylve subtropicale (monteverde) de toute la Macaronésie. Ce joyau botanique représente un véritable fossile vivant, précieux témoin des forêts humides et luxuriantes qui recouvraient l'ensemble du bassin méditerranéen et de l'Afrique du Nord à l'ère tertiaire, avant d'être anéanties par les grandes glaciations quaternaires et de trouver refuge sur les reliefs volcaniques tempérés des îles atlantiques.\n\nCeinturée de brumes impalpables à près de mille mètres d'altitude, la forêt puise son exubérance dans le phénomène météorologique vital de la « pluie horizontale », où les alizés océaniques gorgés d'humidité se heurtent aux parois de la cordillère pour condenser leurs gouttelettes au contact des feuillages sempervirents. Le sentier de randonnée serpente au cœur d'une voûte ombragée et féerique où s'entremêlent des troncs centenaires de viñátigos, de lauriers, de tils et de bruyères arborescentes géantes, entièrement gainés de manchons de mousses épaisses, de lichens pendants et de fougères arborescentes. Le sous-bois, tapissé d'un humus sombre et parcouru par des ruisseaux temporaires d'une pureté cristalline, abrite une biodiversité exceptionnelle riche de centaines d'espèces de plantes, d'invertébrés et d'oiseaux endémiques, parmi lesquels le pigeon de Bolle et le pigeon des lauriers. Entre atmosphère sylvestre mystique et échappées imprenables sur les crêtes déchiquetées s'abîmant dans l'azur marin, ce parcours pédestre offre une immersion sensorielle hors du temps dans la jungle primitive des origines insulaires.",
+    intro_page: "Véritable forteresse naturelle dressée au nord-est de Tenerife, le massif d'Anaga abrite un trésor écologique unique au monde, classé réserve de biosphère par l'UNESCO. Ceinturé par les brumes perpétuelles de la mer de nuages entretenue par les alizés, ce relief volcanique miocène conserve la plus vaste forêt relique de laurisylve tertiaire de l'archipel. Le sentier de randonnée traverse une jungle enchantée où d'imposants lauriers et bruyères arborescentes moussues s'abreuvent de la « pluie horizontale », tapissant les crêtes d'une pénombre végétale dense. Entre fougères géantes, troncs noueux enchevêtrés et perspectives vertigineuses sur les ravins basaltiques plongeant vers l'Atlantique, Anaga invite à un voyage fascinant au cœur de la mémoire vivante de la flore européenne préhistorique.",
+    visiter: "S'engager sur le sentier balisé depuis le centre d'accueil de Cruz del Carmen ou les crêtes de la route TF-12 pour pénétrer sous la canopée dense de la laurisylve d'Anaga. Les randonneurs cheminent sur un sol d'humus meuble bordé de mousses et de fougères géantes en expérimentant la fraîcheur ouatée de la pluie horizontale sous la mer de nuages. Prendre le temps d'observer les lichens pendants et les racines aériennes s'enroulant autour des troncs de lauriers centenaires, tout en profitant des trouées forestières pour contempler les crêtes volcaniques déchiquetées du massif descendant vers l'océan.",
+    link: "",
+    sections: [
+      {
+        title: "Pénombre végétale, pluie horizontale des alizés et humus basaltique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNLM69LOD3je2aGiWqqihCVBlMmqmR9ZdrdJ8phWFqnyV_m_CA54c9RoYpKJ3n6OBoYpw2v2d1HKP9F8rc5VDYAhw6lBWCYG_OyDY6YYYE4JfVMBTjcpaA3pgKecW6mIoF0_yyjr8RJlywri72Y2GAN-g=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOgc44ODSZRiJaTHxR33jsqBOsALalzcPW4YTwA5kxZK7Rrn8CvCJuaXbv1LKEyVAEKgz4rHf--nlbkCMPjXQZGyjFCpuSFWO8ynsFhtdcvlQY0OQenPVsi7SYrB9_1GaSbgS_XFygeDMsFT1-EOqz-VQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Dès les premières enjambées, le chemin s'enfonce dans une pénombre végétale dense, constamment enveloppée par la mer de nuages poussée par les vents alizés du nord-est. Ce phénomène météorologique capital génère la « pluie horizontale » (lluvia horizontal) : les gouttelettes d'eau microscopiques en suspension dans le brouillard sont captées par les feuilles persistantes, coriaces et laurifoliées de la canopée, avant de condenser et de ruisseler en goutte-à-goutte continu sur le sol, maintenant un taux d'hygrométrie saturé même en plein été. Le sol est constitué d'un humus meuble et sombre d'une grande fertilité, tapissé de débris ligneux en décomposition et percé par les racines enchevêtrées des arbres qui affleurent sur le substrat basaltique ancien du massif d'Anaga, édifié lors d'intenses phases volcaniques fissurales miocènes il y a environ sept à neuf millions d'années."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPBQGiHRmY6iQLSu3ZMGzg075KL_XE8-QB1t2hVYxlshl0XFM5marjIybTjuRWx1Sq1neNCjen0zT0z2X62GhTJfwwI1csV83LrZukG5z0ZZUpIzr2P_rOrst4P0bZSsVeJMMA5AiRQcvMff6GrjLE1nQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOIw4wSt10tg0JpgvAmOt4GW4qzP3whPyGVFr1ziA19KTHbLtBGiBDK_1L7b-Flfvjo-s-3559C0BaJ47PQjuHZqrwKnm9BsvQM_w6zKbYdHghfgKQ5TfpIrPXq4SgJgcDzTAHAPfa6HlHFFYmNpmr79w=w1382-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO3b2j-dLiY2pVqcsrqqPscupGKvgJZPeL6vgqRMF8gspa4KP5PBc_wLj2A3Bubbj3q1aV2Yrn2yvPKhuVQ6hxYyV7qEvzU6kMLFvHxS4TQgewJlu4d8RLYkjzGphUBVMPSqqxOmX8FE7UD-G54wS13VA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Flore du monteverde humide, lauracées et jungle d'épiphytes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPrpkUhvRi-vH4mjRGpm28qw2KkiRF7qdKkn9yWv6tPD9gBTDscXZ1UAXajrKRbjofwLf3va9MUm3LhxoRBGJHk5jy7jidkhfCg7IAFToz2k795DdgwW2wzuWFl8xm6QOBVqtQnXkqnTri2LTCRj-tA2A=w1381-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM4-0iVpeBh_goDEJ4QngMkG22m-O5d5vm8tY4x22z4Zh7Qhnr60WIAZrRmakIllijh31BreOfQzIiqN-QGVmjYlvJH0jzVYI0E4wgr3NFL192qe82xpkF7Ziv7Dm-XAOc9DW_zZZeasq0JFDuEXIeMtg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOhj95_dmBP79yh3YliFyXiraHn41LyM-of9fIKHJd--CE8TMYCofJGTGskNaR_YCFHwXYBtppXRIsSe8gunjP_IHwDg2RuwYnx9SRWJT9umxYBrxM7ULQSogUrHcrssDN7RdRzKgT7R_yVRW8MvATSvw=w1381-h919-s-no-gm?authuser=0"
+        ],
+        text: "La composition floristique traversée le long du sentier illustre la quintessence du monteverde humide. La strate arborée associe les quatre grands représentants des lauracées canariennes : le laurier des Canaries (Laurus novocanariensis), le viñátigo (Persea indica) aux feuilles rougissantes avant leur chute, le til (Ocotea foetens) aux cavités foliaires caractéristiques et le barbusano (Apollonias barbujana), mêlés à l'acebiño (Ilex canariensis), à la faya (Morella faya) et à des bruyères arborescentes géantes (Erica arborea) atteignant des hauteurs remarquables. Les troncs noueux et tourmentés, recouverts d'un épais manchon de mousses, d'hépatiques et de lichens épiphytes pendants, forment une forêt galerie aux allures de jungle enchantée, où s'accrochent des lianes endémiques comme la salsepareille des Canaries (Smilax canariensis)."
+      }
+    ]
+  },
+  {
+    id: "tenerife_minas_de_san_jose",
+    name: "Tenerife - Désert de Ponce des Minas de San José (Minas de San José)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "La Orotava",
+    altitude: 2300,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Désert de Ponces Felsiques, Retombées Pliniennes & Paysage Lunaire Subalpin",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 28.26472,
+    lng: -16.58827,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPGKqSRc6XAsFpdjARLsmc3qLekFO-0HQv7lekH6PQ-Q5HA61BLVwqn5VjaxTINQz__sur7LO34cCgF3hUeI2KryeeSxMmA2fckwI-fhm1KWvRQWp0o2Hq2imDgTZ7cGDG-ErIenRJOwPKWwzCzAd9nqA=w1379-h919-s-no-gm?authuser=0",
+    description: "Étendue sur plusieurs dizaines d'hectares au cœur de la caldeira de Las Cañadas, à plus de deux mille trois cents mètres d'altitude, la vaste plaine des Minas de San José déploie un paysage lunaire d'un dépouillement et d'une clarté minérale sans équivalent dans l'archipel canarien. Ce désert d'altitude aux teintes blondes, beiges et ocres est né d'anciens cataclysmes volcaniques explosifs de type plinien et sub-plinien déclenchés par le complexe de la Montaña Blanca et du Teide. Au cours de ces éruptions d'une violence inouïe, d'immenses panaches pyroclastiques chargés de gaz propulsèrent dans la haute atmosphère des millions de tonnes de magma dacitique et phonolitique très visqueux ; refroidie instantanément durant sa trajectoire aérienne, cette lave hautement vésiculée est retombée sous la forme d'une pluie torrentielle de fragments de pierre ponce (pumite ou piedra pómez), de lapilli et de cendres vitreuses claires qui ont comblé cette cuvette naturelle sur une épaisseur de plusieurs dizaines de mètres.\n\nLe site doit son nom aux anciennes concessions minières artisanales qui, jusque dans la seconde moitié du XXe siècle avant la protection intégrale du parc national, exploitaient ce gisement à ciel ouvert pour fournir des matériaux légers de construction, des abrasifs et des amendements agricoles destinés aux cultures de l'île. Aujourd'hui totalement rendu à la nature sauvage, ce désert d'altitude offre un contraste chromatique et textuel saisissant entre la luminosité immaculée de ses sables fins de ponce et les langues de lave basaltique noire et d'obsidienne vitrifiée qui viennent s'y échouer depuis les contreforts du pic du Teide. Balayée par les vents secs au-dessus de la mer de nuages et soumise à des amplitudes thermiques extrêmes, cette plaine silencieuse où surnagent quelques touffes éparses de genêts du Teide constitue un décor minéral d'une telle étrangeté qu'elle est régulièrement choisie par les agences spatiales pour tester leurs robots d'exploration martienne et par les cinéastes pour évoquer des planètes lointaines.",
+    intro_page: "Au cœur du Parc national du Teide, à 2 300 mètres d'altitude, les Minas de San José forment une immense plaine de pierre ponce blonde d'une spectaculaire beauté désertique. Née des retombées explosives pliniennes du complexe de Montaña Blanca, cette vaste cuvette sédimentaire comblée de lapilli clairs et de poussières volcaniques tranche vigoureusement avec les coulées d'obsidienne noire et de basalte sombre qui descendent du pic du Teide. Ancien site d'extraction artisanale aujourd'hui sanctuarisé, ce désert subalpin balayé par les vents purs offre une immersion sensorielle saisissante où la marche sur les ponces crissantes s'effectue dans un silence absolu, au milieu d'un paysage lunaire ayant inspiré le cinéma de science-fiction et l'expérimentation spatiale internationale.",
+    visiter: "Stationner sur l'un des parkings aménagés le long de la route TF-21 pour s'élancer à pied dans l'immensité sableuse des Minas de San José en suivant les cheminements naturels tracés sur les ponces claires. Les visiteurs prennent le temps d'apprécier le silence absolu et le crissement des pas sur le substrat de verre volcanique, avant d'observer le contraste saisissant entre les langues de lave noire pétrifiée, les buissons argentés de genêts du Teide et la silhouette colossale du cône sommital du Teide dominant l'horizon.",
+    link: "",
+    sections: [
+      {
+        title: "Traversée de la cuvette de ponce et îlots de végétation subalpine",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPGKqSRc6XAsFpdjARLsmc3qLekFO-0HQv7lekH6PQ-Q5HA61BLVwqn5VjaxTINQz__sur7LO34cCgF3hUeI2KryeeSxMmA2fckwI-fhm1KWvRQWp0o2Hq2imDgTZ7cGDG-ErIenRJOwPKWwzCzAd9nqA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOqs7NmP_jv3W_ZYxDIkR2C4cNQDRS1ejg1XXWOfoczzU-MoRxYlJqb2VdpuiKzFW_nARIBr07sQZnJbV6sRx4vbqgY_VmepZ4_eP_FKAK1hEaqT7Bby71-2ecDNubarpODgC3qVhpuhCu5xike4qClmg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La traversée à pied de cette vaste cuvette offre une expérience sensorielle singulière, accentuée par le crissement sourd sous les pas des milliards de petits fragments de ponce alvéolaire et d'éclats de verre volcanique. Sur cet horizon désertique balayé par les vents secs d'altitude et soumis à des amplitudes thermiques extrêmes entre les gelées hivernales et l'ardeur solaire estivale, la végétation paraît presque absente. Seuls quelques rares buissons arrondis de genêt du Teide (Spartocytisus supranubius) et de bouquets ligneux d'herbe des sommets (Descurainia bourgaeana) parviennent à ancrer leurs racines dans ce substrat mobile et perméable, formant des îlots de vie végétaux d'un vert pâle au milieu de la monochromie sableuse."
+      },
+      {
+        title: "Contraste chromatique avec les laves noires et décor lunaire cinématographique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOtpnYhaDVOB9-na8UuP2Tg1AU44XLkrjF_9tSX5QxdiXjY1k8GQgcffG5eUVBBpo7UllmIk0_LtsdOavLTvEa8gSj68h_rqlwrq_rQqOOvWrBAUty53l9B5h_RrlFlanQvgf0X7YK5e7zztKnKV9cQdQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le spectacle visuel culmine dans le saisissant contraste chromatique qui s'établit entre la clarté lumineuse de cette plaine de ponce et les sombres coulées de lave basaltique et d'obsidienne noire qui sont venues mourir à sa périphérie, issues des flancs de la Montaña Blanca et du cône terminal du Teide qui se dresse en toile de fond majestueuse. La pureté de la lumière zénithale, l'absence d'éléments d'échelle humaine et l'étrangeté de cette texture minérale immaculée ont d'ailleurs valu aux Minas de San José de servir de décor naturel privilégié à de nombreuses productions cinématographiques de science-fiction et de terrain d'expérimentation pour tester les instruments et véhicules d'exploration planétaire destinés à la Lune ou à Mars."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPe0M8CF_oq9y0qe_jDqKBEuG62flO-GvJyyw7J5Fx4ap5p3ZT1cwBRhDkB4SpdeTdRU5JbmLJG8i2p8SANxPG2eMo-LYJ1Cnz7pFs4xSDaGaR-t0bqZjge7qARM2BShLPejVXVCoK82R0za8niU3bFcw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNeLZdL1Eobaw3gFmvC1LIB7NPnbhGxg0mChJkmjWleQpkFts2xkH5VkiXoo_YMKYI4xap4xWQy3iiu9Xwn4f75QKGUj18Dmj3ETiE8i7ZVM9iEFtEQaI8XTgAsb-YSZpsrhijfvCHSnXeeXkDY4MgGmg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le genêt du Teide (Spartocytisus supranubius), seigneur des hautes altitudes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMrKAj-VRQE7HQtUAO_gAjkUGEgdD2v1iIFFL3dq48VGIhz81zD6mIM7leMjL2IDM7VUTT2oOaLadjipZTm-f6Gkupunf6atfZHhfdNsO_sPXl8eOLwrBMJPhr3NLNeasDuPGf1qxaPuY57Qhh6iwgntw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMQmh5lDWk-tswwKQMD_zXrZ2i02Al7sUGqkfMIiEkHiij6AMEilQTFBlNoScksoNxjQzKOBvaPBR6gTjCIqV3HhUxUBl3hoqogVcslFyDuizIpwgixAscMENLbjwiHn5gQKzDTX8Y3IKbUHHVW0FTjFQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "A droite : Le Cytisus supranubius (syn. Spartocytisus supranubius), appelé localement retama del Teide ou genêt du Teide, est un arbuste buissonnant endémique des hautes altitudes des îles Canaries, dominant presque exclusivement le paysage volcanique subalpin de Tenerife (dans la caldeira de Las Cañadas) et de La Palma (autour du Roque de los Muchachos).\nComme son nom l'indique (supra nubius, « au-dessus des nuages »), il prospère entre 1 800 et 3 000 mètres d'altitude, là où l'air dépasse la mer de nuages formée par les alizés. Il y affronte des amplitudes thermiques extrêmes : un ensoleillement impitoyable le jour, la sécheresse estivale et le gel ou la neige en hiver. Pour résister au vent et à l'évapotranspiration, il forme des touffes arrondies et denses d'environ deux mètres d'envergure, aux rameaux striés d'un vert grisâtre qui assurent l'essentiel de la photosynthèse, ses minuscules feuilles trifoliées tombant très rapidement après leur apparition au printemps.\nEntre mai et juin, le paysage minéral de scories et de ponces se métamorphose lorsque la retama se couvre d'une floraison spectaculaire et parfumée. Ses fleurs papilionacées, blanches à délicatement rosées, embaument les cratères et attirent des essaims d'abeilles, à l'origine du réputé miel de retama du Teide. Arbuste structurant de la haute montagne insulaire, il abrite une riche faune d'invertébrés endémiques et stabilise les sols volcaniques meubles."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM46pbYQpeFyIWMNoaggbsNmwrW49Xr08HVXq_q1Uuh8hadBADJaJtcORY1h4Jz_HwDRlbcqOJ9m9te-xgL2x8oBUNhHm_DK-Qet-bteyM7Uio3gHM737lcz17GJOjdlnDymIeSFIsprRhKDCuI31Bt3Q=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN_FZ6nnZecFPZNmtaBtPhWrt2zOVqfrnkolI8j3V0GXVaNQxj9DFA5A-P4quSH7ZPO-Bo3XStAU3usHdJN7RgdDD_TsitZkfIUmLtZtjE7MifACWUNS7i9B0tHgYiA9MPVbkVbJdElKvfEG0zU91ZLmg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Genèse plinienne du complexe Teide-Montaña Blanca et retombées pyroclastiques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNRZwoPCEv1c1WqeCZwnkyTTSxGKA9LmZFRPDOSfbci_Rvu3gY3MjKecyYVClEiiuhQ95OgzUevkxRXOUpjEBDpVmI6_yTJs_WrG7jr1KmMwYJSk9rvclWOHM5ZY2yKJCJCo0iratTRqEk8t7sYW7lEog=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Cet immense désert doré et ocre résulte d'un volcanisme explosif majeur, caractérisé par des éruptions pliniennes et sub-pliniennes violentes du complexe Teide-Montaña Blanca. Au cours de ces cataclysmes, des colonnes éruptives chargées de gaz ont propulsé des milliards de mètres cubes de magma visqueux et felsique qui se sont refroidis brutalement dans l'atmosphère, retombant sous la forme d'une pluie torrentielle de pierre ponce (piedra pómez ou pumite), de lapilli et de cendres vitreuses claires qui ont comblé cette portion de la caldeira sur plusieurs mètres d'épaisseur."
+      }
+    ]
+  },
+  {
+    id: "tenerife_montana_majua",
+    name: "Tenerife - Cône Volcanique de Montaña Majúa (Montaña Majúa)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "La Orotava",
+    altitude: 2316,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Dôme Pyroclastique de Ponce, Sentier n° 16 & Faune Acridienne Subalpine",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 28.25055,
+    lng: -16.62342,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNMdu6wMkmPMwbnGhqCECtHOmH7NbrYvFjmPxtJj26x0fxfBq89uGRzJpFpfj_ULj67FqN9GefpXvIj7UlFV2192jdlGVuybcRMxpBSjvDC3xBuFIYgExOyqyEd8aLn-XEgN0KODM1zhWdWicji6vqn1Q=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPWo00yrTxU1GpXMrtkL5nUhx6FrX5VUxZOjqOuCLtHULgacaVmecJ-L4qYwtxPIDIVWfwx8xQ4pd18bYi_RoCHDHCJxhpTlxWf-XaCgtst70zHJmq0QiMZQO09C2S1Nv_7WXPyEgXQGBDH2EfpNcJ1tA=w1382-h919-s-no-gm?authuser=0",
+        caption: "Le Sphingonotus caerulans, ou criquet rubané, est un orthoptère acridien pionnier, strictement inféodé aux milieux minéraux ouverts, chauds et très xériques.\nSon corps et ses élytres présentent une remarquable homochromie avec les sols caillouteux, déclinant des teintes grises, ocres ou brunes tachetées qui le rendent quasi invisible au repos.\nEn s'envolant brusquement, il dévoile des ailes postérieures d'un bleu ciel pâle ou translucide, dépourvues de la bande sombre marginale typique de l'œdipode bleu (Oedipoda caerulescens).\nCe vol court et rasant, souvent accompagné d'un atterrissage immédiat et d'un plaquage au sol, désoriente visuellement les prédateurs dans les étendues dénudées.\nStrictement psammophile et xérophile, il colonise les bancs de graviers fluviaux, les éboulis ensoleillés, les dalles rocheuses et les coulées volcaniques clairsemées."
+      }
+    ],
+    description: "Émergeant avec douceur au milieu des étendues de ponce claire du plateau central des Cañadas, à quelques encablures du Parador de Turismo et des Roques de García, la Montaña Majúa dresse son cône pyroclastique arrondi à 2 316 mètres d'altitude. Cet édifice volcanique subalpin d'origine explosive est constitué d'une accumulation litée de fragments de pierre ponce dacitique, de lapilli ocres et de blocs de basalte arrachés aux profondeurs de la croûte insulaire. Parcourue par le sentier officiel n° 16 du parc national, la montagne propose une ascension courte et accessible récompensée par une vue circulaire remarquable embrassant le flanc oriental du Teide, le dôme de Montaña Blanca et le gigantesque amphithéâtre naturel formé par les parois verticales de la caldeira de Las Cañadas.\n\nLe biotope de la Montaña Majúa illustre les contraintes écologiques sévères imposées aux organismes vivants à plus de deux mille trois cents mètres d'altitude : aridité extrême des sols pulvérulents, rayonnement ultraviolet intense et vents violents. Dans ce milieu minéral découvert prospère une flore pionnière dominée par les coussins d'herbe à vipère et de genêts du Teide, servant de refuge à une entomofaune hautement spécialisée. Parmi les insectes emblématiques du site se distingue le criquet rubané (Sphingonotus caerulans), orthoptère maître du mimétisme dont la robe tachetée se confond parfaitement avec les sables volcaniques, avant de dévoiler le bleu azur délicat de ses ailes postérieures lors d'envolées courtes au ras des cailloux. Ce promontoire minéral offre une lecture apaisée de la géométrie volcanique des Cañadas dans une atmosphère de haute solitude.",
+    visiter: "S'engager sur le sentier balisé n° 16 depuis la route TF-21 pour gravir la croupe sablonneuse de la Montaña Majúa en suivant les lacets réguliers tracés dans la ponce. Arrivé au sommet aplati, admirer le panorama dégagé sur les coulées de lave du Teide et les falaises méridionales de la caldeira, tout en observant le vol rasant des criquets rubanés se posant sur les dalles chauffées par le soleil.",
+    link: ""
+  },
+  {
+    id: "tenerife_mirador_el_corral_del_nino",
+    name: "Tenerife - Belvédère du Corral del Niño (Mirador El Corral del Niño)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "La Orotava",
+    altitude: 2300,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Crêtes d'Izaña, Cratères d'Éruption Fissurale & Observatoire Astrophysique du Teide",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.30284,
+    lng: -16.51954,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMJLmfH4L8V4b0L0Qwfy6crtsU9HHsXtoQaqK48hx9sCTujkIejZedj1c8xs7eBFJ0jCVHM_B4qlU2mPG29dZmStEC02fpsWEjTSb9in-G2_4RYmWGCwsam9mn5ZKM24fGjE2Rem72kswiLbjoS1bY6Rg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Aménagé sur la ligne de crête sommitale de la cordillère dorsale, le long de la route TF-24 reliant La Esperanza au Teide à 2 300 mètres d'altitude, le mirador El Corral del Niño constitue l'un des belvédères astronomiques et géomorphologiques les plus grandioses de Tenerife. Ce balcon d'altitude surplombe directement le secteur d'Izaña, internationalement reconnu pour la pureté absolue et la transparence de son atmosphère limpide située au-dessus de la couche d'inversion des alizés, accueillant les coupoles immaculées des télescopes de l'Observatoire astrophysique du Teide. Le site offre une plongée vertigineuse sur un alignement spectaculaire de cônes de scories sombres et de petits cratères d'éruption fissurale ouverts lors d'anciens épisodes volcaniques le long de la dorsale de Pedro Gil.\n\nVers l'ouest et le sud-ouest, le regard embrasse toute l'immensité de la caldeira de Las Cañadas, dominée par la pyramide majestueuse du pic du Teide et les arêtes dentelées de la Montaña Blanca émergeant des étendues de ponce dorée. Vers le nord et l'est, lorsque la traditionnelle mer de nuages (mar de nubes) enveloppe les vallées côtières sous un épais manteau d'écume blanche, le belvédère procure la sensation vertigineuse de flotter sur une île minérale suspendue entre le ciel azuréen et l'océan Atlantique. Balayé par des vents vifs et glacés en hiver mais baigné d'un rayonnement solaire éclatant tout au long de l'année, ce promontoire subalpin illustre avec puissance la rencontre entre la géologie volcanique primitive et la contemplation moderne du cosmos.",
+    visiter: "Une halte sur l'aire de stationnement du belvédère le long de la route TF-24 permet d'accéder à la terrasse d'observation pour contempler l'enfilade des cratères volcaniques alignés sur la dorsale et les coupoles blanches de l'Observatoire d'Izaña. Les promeneurs prennent le temps d'admirer la silhouette monumentale du Teide fermant l'horizon occidental et de photographier la mer de nuages s'étendant à perte de vue sur les versants nord.",
+    link: ""
+  },
+  {
+    id: "tenerife_mirador_la_tarta",
+    name: "Tenerife - Belvédère de la Tarte du Teide (Mirador La Tarta)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "La Orotava",
+    altitude: 2110,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Tranchée Géologique de la Tarta del Teide, Stratigraphie Pyroclastique & Mer de Nuages",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.33450,
+    lng: -16.49027,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOSGpdX1e_G0QEMvBlGAb_e6rLG21Evg26lsRzlvu6lV-R8nOS6jE2id2Y7sGg9GOqytTvvV7BUJyCW5iGXWTcTcbIt2xSCIB_REYiABAmGxqGXAV8nxRUtokXznHt0q50M4HeFRHt6_A4ePLW7DqjjIQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczObXkPKThJFRFFF5VF636SPaFwXTQtoSOB4a3zk0ImJT8USDsketGuIbHgQsZEvnJE0CAwbNjKngGXj0wvWpu7l73wm1jsmwzAAXr_Uh-hP8_7aKfFx6cWrnEb_d-WxOyulj7Xa5n26tfIv0I7WxXQCgw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMNUq95Svr3eH36vLOmIZAqXsq8hmZt6C6weXrTOINtLkaJfZZF0HYIPUJpQb8hrvvRycaAOBLxwDTgXRhTeqIjHSj_zOaO5YdxSzIrgOs7ijDZMngxhMNyKYZbkyXFNUujQOD12PfK-aka5q3gb0WzdA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Bordant la route de haute crête TF-24 à plus de deux mille cent mètres d'altitude, le mirador de La Tarta constitue l'une des haltes géologiques et paysagères les plus spectaculaires et didactiques de l'île de Tenerife. Le site tire son appellation gourmande de « Tarte du Teide » (La Tarta del Teide) de la coupe stratigraphique monumentale mise au jour dans la falaise lors du percement de la chaussée routière : la roche y dévoile un empilement régulier de couches sédimentaires volcaniques multicolores évoquant les tranches superposées d'un gigantesque gâteau pâtissier. Cette coupe géologique à ciel ouvert expose des millénaires d'histoire éruptive à travers l'alternance rythmée de strates de ponces blanches et beiges très légères issues de violentes éruptions explosives, de bandes de lapilli de basalte noir dense issus d'émissions stromboliennes, et de niveaux ocres ou rougeâtres d'argiles et de paléosols oxydés par les intempéries entre deux paroxysmes volcaniques.\n\nOutre cette fascinante leçon de volcanologie naturelle, le belvédère offre un panorama d'une ampleur grandiose sur le versant nord-est de l'île. Depuis la terrasse sécurisée, la vue plonge directement au-dessus de la dense mer de nuages entretenue par les alizés, qui s'engouffre dans la haute vallée de La Orotava comme un fleuve de coton blanc immobile. Vers le sud-ouest, la silhouette conique du volcan Teide s'élève majestueusement en arrière-plan, drapée de teintes violacées sous la lumière déclinante de l'après-midi. Point d'arrêt incontournable de la route dorsale, La Tarta conjugue la pédagogie des forces telluriques à la contemplation d'un des plus beaux horizons marins et nébuleux des Canaries.",
+    visiter: "Stationner sur l'aire de stationnement du belvédère pour examiner de près la paroi rocheuse tranchée de « La Tarte » et observer l'alternance remarquable des couches de ponce blanche, de lapilli noir et de scories rouges. Les visiteurs se tournent ensuite vers la rambarde panoramique pour contempler la mer de nuages s'étalant sur la vallée de La Orotava avec le sommet du Teide se dressant au loin sur la ligne de crête.",
+    link: ""
+  },
+  {
+    id: "tenerife_mirador_de_chivisaya",
+    name: "Candelaria - Belvédère de Chivisaya (Mirador de Chivisaya)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Candelaria",
+    altitude: 1090,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Vallée de Güímar, Crêtes de la Dorsale de Pedro Gil & Forêt de Pins Canariens",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.37171,
+    lng: -16.42754,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPYKqaYZhaDqgVvWxk-JO8fCnMk3d5KRacntIXMr4pjKh39iwAlK0GFZq-D_3408jQvkAw8GIXn3oV6Bgtp24V3iNDozJhTqV79E5A__JiARaRP78tu6SYVlQBCpqmSjsMkT3KcYuOy2G3cDCnVFwyknA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Perché à plus de mille mètres d'altitude sur le flanc oriental de la cordillère dorsale de Pedro Gil, le mirador de Chivisaya s'ouvre sur l'immense amphithéâtre géologique de la vallée de Güímar. Ce panorama grandiose permet de contempler l'une des structures d'effondrement gravitaire les plus colossales de Tenerife, façonnée il y a près de huit cent mille ans lorsqu'un pan entier du massif montagneux glissa dans les profondeurs sous-marines de l'Atlantique, créant une gigantesque cicatrice en fer à cheval encadrée par les murailles abruptes du Ladera de Güímar. Entouré par les hautes frondaisons verdoyantes des pins des Canaries (Pinus canariensis) de la Corona Forestal, ce promontoire sauvage offre une vue plongeante embrassant les terrasses agricoles étagées d'Arafo et de Candelaria, le cône volcanique littoral de la Montaña Grande et la plate-forme de lave noire du Malpaís de Güímar s'avançant dans les eaux bleu profond de l'océan.\n\nLe site est également imprégné de la mémoire des chemins de transhumance et des anciennes pistes pastorales qui reliaient les hameaux agricoles des moyennes terres aux alpages d'altitude des Cañadas. Balayé par une brise d'altitude vivifiante, le belvédère se trouve souvent à la limite supérieure de la mer de nuages côtière, permettant d'assister à de magnifiques jeux de lumière lorsque les brumes se déchirent au-dessus des vergers fruitiers et des vignobles en terrasses du sud-est insulaire. Cette terrasse naturelle compose un balcon d'exception pour appréhender la dynamique des grands glissements de terrain canariens et la reconquête forestière qui habille les crêtes rocheuses de l'île.",
+    visiter: "Une halte sur l'aire du belvédère le long de la route menant aux crêtes permet de contempler l'échancrure colossale de la vallée de Güímar descendant vers l'océan Atlantique. Les visiteurs admirent la silhouette conique de la Montaña Grande au bord du littoral et le contraste entre la pinède canarienne d'altitude et les versants arides du sud-est de Tenerife, avant de poursuivre vers les hauts sommets de la dorsale.",
+    link: ""
+  },
+  {
+    id: "guimar_puertito_punta_los_romeros",
+    name: "Güímar - Pointe des Pèlerins & Littoral du Puertito (Punta Los Romeros)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Güímar",
+    altitude: 5,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Pointe Littorale Historique, Pèlerinage de la Virgen del Socorro & Réserve du Malpaís (XVIIIe siècle)",
+    century: "XVIIIe siècle",
+    category: "star",
+    counts: {},
+    lat: 28.29520,
+    lng: -16.37411,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMJB27vr0eUqSVFoBMBHqKyG6XG-6-G3BRHy8U2fTfXRR4m5vm_GBLLGeacLG-HAbn56bo8jRH4jg7z3Si4wBrrslVAJjl8kixyuYyow57xL2kQSpqfuITVVBVPxhHibRV3iR-L4MaBbxdQhFiKEth1Ng=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNtdjyWYGqUMYOjwB94STcmXAWXKyUPWV_NdJY7cUSZwQiUPVOFhrl9oOEWxAurL7tRuW8fkqFHm6mQDd1BRoPVWDzq8wT09Rsr9qWAZzRgFDF-rjmrWqY1OLgkD3wMg2ps5mstH-JKnuAzFUesqei1eQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "S'avançant dans les eaux tumultueuses de l'Atlantique en bordure de la station côtière du Puertito de Güímar, la Punta Los Romeros forme un promontoire littoral d'une grande valeur historique, religieuse et naturelle sur la côte sud-est de Tenerife. Ce cap rocheux de basalte sombre se rattache au secteur protégé de la Réserve naturelle spéciale du Malpaís de Güímar, vaste champ de lave chaotique formé il y a une dizaine de milliers d'années par les épanchements fissuraux de la Montaña Grande. Le site tire son toponyme traditionnel de « Pointe des Pèlerins » de sa proximité avec l'itinéraire séculaire de la Romería del Socorro, l'une des plus anciennes fêtes votives traditionnelles des Canaries célébrant l'apparition originelle de la statue de la Vierge de Candelaria aux bergers aborigènes guanches sur la plage voisine de Chimisay à la fin du XIVe siècle.\n\nLe littoral est aménagé d'une agréable promenade piétonne dallée bordée d'anciennes barques de pêche artisanale et de murets de pierre sèche protégeant les habitations côtières contre les assauts de la houle atlantique. Le biotope environnant est caractérisé par un remarquable tabaibal maritime dominé par la tabaiba douce (Euphorbia balsamifera) et les euphorbes des Canaries, capables de résister à la salinité extrême des embruns et à la forte insolation du versant méridional. Depuis l'esplanade du cap, le regard embrasse un panorama maritime ouvert vers le sud-est jusqu'au phare de Rasca, tout en contemplant vers l'amont les falaises titanesques de la vallée de Güímar qui s'élèvent majestueusement vers les crêtes volcaniques de l'intérieur de l'île, offrant une halte paisible imprégnée d'histoire populaire et de traditions maritimes canariennes.",
+    visiter: "Une promenade sur la jetée piétonne de la Punta Los Romeros permet de longer les criques de galets volcaniques et d'admirer les bateaux de pêche amarrés dans l'anse du Puertito de Güímar. Les visiteurs prennent le temps de contempler l'immensité de l'océan Atlantique et la silhouette sombre de la Montaña Grande dominant le champ de lave du Malpaís, avant d'emprunter les sentiers côtiers menant vers les plages naturelles du littoral de Güímar.",
+    link: ""
+  },
+  {
+    id: "la_orotava_mirador_piedra_de_la_rosa",
+    name: "La Orotava - Belvédère de la Rose de Pierre (Mirador Piedra de la Rosa)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "La Orotava",
+    altitude: 1489,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Curiosité Géologique, Disjonction Prismatique Radiale & Pinède de la Corona Forestal",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.34067,
+    lng: -16.52441,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOSoiCAf8kNrT_EMIvnzwbiwJXg9DuE9GX4FzEiYvT1UTtAoOMXMOgtIzvVEFjaBVasXpd4tCb_fOngqzmVjMq6k-1_P1lPPYgO9MAPefoSncpyetcekMvF9iOjnct3wTmSUlDMK-ewzdbDQ277lF4NQA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "En bordure de la route de haute montagne TF-21 grimpant depuis la vallée de La Orotava vers les crêtes du Teide, le mirador de Piedra de la Rosa dévoile l'une des curiosités géologiques et morphologiques les plus fascinantes et singulières de Tenerife. Mise au jour lors des travaux de terrassement et de percement de la voie routière à travers la pinède de la Corona Forestal, cette formation basaltique spectaculaire évoque avec une troublante fidélité les pétales épanouis d'une immense fleur de pierre taillée dans la roche volcanique sombre. Ce phénomène naturel exceptionnel résulte d'un processus de disjonction prismatique radiale survenu lors du refroidissement lent et homogène d'une coulée de lave basaltique visqueuse ou du remplissage d'un ancien conduit d'alimentation magmatique souterrain. En se contractant sous l'effet de la baisse progressive de température, la matière en fusion s'est fracturée selon des lignes de tension géométriques partant d'un foyer central, dessinant une rosace minérale parfaite de prismes et de feuillets concentriques rayonnant vers l'extérieur.\n\nLe site offre également un point d'observation remarquable sur l'écosystème montagnard de la pinède canarienne d'altitude, où les grands spécimens de pin des Canaries (Pinus canariensis) côtoient un sous-bois résilient de cistes et de bruyères arborescentes baigné par les brumes de condensation de la mer de nuages. Aménagé avec un passage piéton sécurisé et un petit tunnel sous la chaussée permettant d'examiner la roche sculptée sous tous ses angles, le belvédère ouvre vers le nord une vue plongeante sur les versants boisés de la comarque et l'horizon atlantique, illustrant la finesse des géométries minérales forgées par le volcanisme insulaire.",
+    visiter: "Une halte sur l'aire de stationnement du belvédère permet d'emprunter la passerelle piétonne sécurisée pour s'approcher de la paroi rocheuse et détailler la disposition en éventail des prismes basaltiques de la « Rose de pierre ». Les visiteurs prennent le temps de contempler cette géométrie volcanique rare mise au jour par la route, tout en profitant du cadre forestier et de la vue dégagée sur les pentes de la vallée de La Orotava descendant vers la mer.",
+    link: ""
+  },
+  {
+    id: "parc_national_teide_centre_el_portillo_jardin_botanique",
+    name: "Tenerife - Centre d'Accueil & Jardin Botanique d'El Portillo (Centro de Visitantes El Portillo)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "La Orotava",
+    altitude: 2057,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Porte d'Entrée Nord-Est de Las Cañadas, Jardin Botanique Subalpin & Maison du Parc National",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.30454,
+    lng: -16.56652,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN6jZaG5Zz2pWNPIxgm5admhwqcpIX-8TYLxcujtq7k52bK7E7wqZmhZ26XfVuCidQnsnEyIVv_MGMMvCeIijG6RK3cWUC5YczWY1cychf7q6_KW1gbQsQt3UZ7GLxKhO-aTjJ2AUtr5OCI-TBWtlA4tA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN7om66Jym9LbCH9O-vtZSR89sD_A9eMkxnWnElihw6Otv_PlHDCJsE_aGWGE4tlSbFMlLK4LeySAaKBVB14ZiYL535C-sRjVUvjIbjFX0mbpm_kYhIaeF_EMaRHn9Rp7jliXpBtFAxMta-rTkT-Zqssg=w1380-h919-s-no-gm?authuser=0",
+        caption: "Lézard de Ténérife"
+      }
+    ],
+    description: "Positionné stratégiquement à plus de deux mille mètres d'altitude au point d'étranglement naturel marquant l'entrée nord-est de la caldeira de Las Cañadas, le centre des visiteurs d'El Portillo (Centro de Visitantes de El Portillo) constitue le principal pôle d'interprétation scientifique et environnemental du Parc national du Teide. Conçu pour sensibiliser le public à la fragilité et à la genèse du volcanisme canarien, le bâtiment d'accueil propose des espaces muséographiques interactifs et des maquettes géologiques retraçant l'effondrement colossal de l'édifice primitif des Cañadas et la formation successive des stratovolcans du Teide et du Pico Viejo. L'établissement met en valeur la rigueur extrême des conditions climatiques subalpines, où les amplitudes thermiques journalières, la raréfaction de l'oxygène et la forte réverbération solaire imposent des adaptations biologiques prodigieuses à la flore et à la faune d'altitude.\n\nLe complexe est prolongé par un remarquable jardin botanique de quatre hectares entièrement voué à la conservation et à la reproduction de la flore subalpine endémique de la haute montagne de Tenerife. Des sentiers balisés serpentent entre des massifs de ponces beiges et de scories basaltiques pour présenter plus de quatre-vingts espèces indigènes adaptées aux sols volcaniques arides, au premier rang desquelles le genêt du Teide (Spartocytisus supranubius), la marguerite des sommets, le rosalillo de cumbre, ainsi que les spectaculaires vipérines rouges géantes (Echium wildpretii ou tajinaste rojo). Les dalles de pierre volcanique réchauffées par le soleil sont arpentées par une nombreuse population de lézards de Tenerife (Gallotia galloti), dont les mâles arborent de vives ocelles turquoise sur les flancs. Point de convergence des sentiers de randonnée vers la Montaña Blanca ou les crêtes de La Fortaleza, El Portillo constitue une halte pédagogique fondamentale pour appréhender la biodiversité unique du toit de l'Espagne.",
+    visiter: "Pénétrer dans le centre d'accueil pour explorer les salles d'exposition consacrées à la volcanologie et à l'histoire humaine des Cañadas avant de visionner les projections sur l'écosystème du parc. Les visiteurs parcourent ensuite les allées du jardin botanique extérieur pour observer les espèces végétales endémiques d'altitude étiquetées et photographier les lézards de Tenerife se chauffant sur les blocs de basalte, tout en profitant d'une vue dégagée sur les contreforts orientaux du pic du Teide.",
+    link: ""
+  },
+  {
+    id: "puerto_de_la_cruz_playa_del_muelle",
+    name: "Puerto de la Cruz - Plage & Vieux Port de Pêche (Playa del Muelle)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Puerto de la Cruz",
+    altitude: 1,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Ancien Port d'Exportation de la Malvoisie, Digues Historiques & Plage de Galets Noirs (XVIIe siècle)",
+    century: "XVIIe siècle",
+    category: "star",
+    counts: { port: 1 },
+    lat: 28.41766,
+    lng: -16.55065,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO-Y2BOYesKjf09DUHYQfh4pz62FQI6Ua4clPIFokpCdgtz26WAP7eKpfV4rIUMZmKKM0_yKLFMeE1vKpktQKyUAW6kWMvOcaCCaQNsJ1oLlH_HVgmWLzywwyt-xo3jR7YbzdwIG5FMSEFsMu1J_aQzKQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Abritée au creux d'une anse rocheuse naturelle sur le littoral septentrional de Tenerife, la Playa del Muelle incarne le berceau maritime et historique de la cité de Puerto de la Cruz. Anciennement désigné sous le nom de Puerto de La Orotava, ce havre naturel connut un essor commercial spectaculaire à partir du XVIIe siècle, prenant le relais du port de Garachico anéanti par l'éruption volcanique de 1706 pour s'imposer comme la principale porte de sortie des prestigieux vins de Malvoisie vers l'Angleterre et les colonies américaines. Protégé des violentes déferlantes de l'océan Atlantique par une robuste jetée en blocs de basalte sombre édifiée par les ingénieurs royaux et remaniée au cours des siècles, le plan d'eau combine une plage urbaine de sable volcanique noir et de gros galets à un authentique port de pêche artisanal.\n\nLes quais en pierre volcanique accueillent toujours les barques multicolores traditionnelles hissées au sec à l'aide d'anciennes rampes de halage, côtoyant des édifices d'époque remarquables comme l'ancienne Real Aduana (douane royale) fondée en 1620 et la batterie fortifiée de Santa Bárbara, vestige défensif conservant ses canons en fonte orientés vers le large pour repousser les assauts corsaires. C'est également au cœur de cette rade que se déroule chaque mois de juillet le spectaculaire rituel de l'Embarque de la Virgen del Carmen, fête votive au cours de laquelle les pêcheurs portent la statue de leur sainte patronne jusqu'aux flots au milieu d'une foule fervente. Baignée par une atmosphère maritime vivante où se mêlent terrasses animées, effluves iodés et ressac régulier contre la digue de pierre, la plage du Muelle demeure le témoin le plus intime de l'âme portuaire canarienne.",
+    visiter: "Une promenade le long des quais du vieux port permet d'observer les barques de pêche traditionnelles amarrées au pied de la digue en basalte et d'admirer les façades de l'ancienne douane royale du XVIIe siècle. Les visiteurs descendent sur la grève de galets volcaniques pour savourer la quiétude du bassin abrité, avant de s'attabler en terrasse sur la place du Muelle ou d'arpenter la jetée jusqu'au phare pour contempler les vagues de l'Atlantique se brisant contre les enrochements extérieurs.",
+    link: ""
+  },
+  {
+    id: "puerto_de_la_cruz_eglise_san_francisco",
+    name: "Puerto de la Cruz - Église Saint-François (Iglesia de San Francisco)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Puerto de la Cruz",
+    altitude: 16,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Ancien Couvent Franciscain de 1599, Plan en L & Retables Baroques en Pin Tea (XVIe-XVIIIe siècle)",
+    century: "XVIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.41687,
+    lng: -16.54989,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNaHw8rZvl397Qcaea7GiAw7sLdjfQW2nvZOlnCZEgsOhK3lxuLpwIv5kspayDTiiO9GTDtgS8xnf1IWyb3wB1MkUwye_WHarjEEr04b2B2grwb_mAfDwms7-KD2eI56waeUJSQSzy8Gry5wklbDF0zqg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNE2AFMjBkjHNUrZIr1nTiBNUU2ZjhObLh3N3KOmuXgwZFdTxFJS3ECvyPbOamQVFJbmZoqU1xOqb_jjuccJIZON00s0sFkyMPU8CVoa0Kxr3vAAJwxnJxZ4xbU877teD9JLt5vGOX-sBZnzW0oVu3Cjg=w1378-h919-s-no-gm?authuser=0",
+        caption: "L'intérieur se compose d'un plan à deux nefs disposées en \"L\", une configuration atypique qui témoigne des phases successives d'agrandissement et de l'adaptation aux contraintes urbaines de l'époque.\n\nLa structure est définie par de larges arcs en plein cintre taillés dans la pierre volcanique locale (la traquita), qui reposent sur des colonnes robustes aux fûts lisses. L'un des éléments les plus emblématiques de cet espace est sa couverture en bois de style mudéjar. Les plafonds à caissons, ou artesonados, présentent des motifs de lacets géométriques complexes, particulièrement visibles dans la zone du chœur où la charpenterie forme une coupole octogonale richement travaillée. Ce travail du bois, héritage des traditions artisanales andalouses et mauresques, apporte une chaleur chromatique qui équilibre la blancheur immaculée des parois.\n\nLe patrimoine iconographique de l'église est d'une richesse exceptionnelle, abritant des retables qui comptent parmi les plus beaux exemples de l'art baroque de l'archipel. Le retable majeur, ainsi que les retables latéraux comme celui de la Vierge des Douleurs ou du Seigneur de l'Humilité, se caractérisent par l'utilisation de colonnes salomoniques torsadées, de profusion de dorures et de niches accueillant une statuaire de grande qualité. Les contrastes entre les tons sombres du bois sculpté, le vert émeraude des fonds peints et l'éclat de l'or créent une scénographie religieuse immersive."
+      }
+    ],
+    description: "Érigée à partir de 1599 grâce aux donations des familles de marchands de la comarque et confiée à l'ordre des Frères mineurs franciscains, l'église Saint-François (Iglesia de San Francisco) constitue l'un des édifices religieux les plus vénérables et architectoniquement singuliers de Puerto de la Cruz. Bien que le vaste complexe conventuel attenant ait été presque totalement détruit par un incendie catastrophique au XIXe siècle, l'église conventuelle et ses chapelles annexes ont survécu, préservant une silhouette extérieure sobre en maçonnerie blanchie à la chaux rythmée par des encadrements de traquyte volcanique sombre et un clocher-mur latéral à arcades campanaires.\n\nL'édifice se distingue par sa typologie intérieure exceptionnelle en forme de « L », résultant de l'adjonction de la chapelle de la Vierge de la Solitude et du Tiers-Ordre franciscain à la nef primitive. Les voûtes sont couvertes d'admirables plafonds à caissons en charpente de bois mudéjare (artesonados) taillés dans le cœur de pin canarien (tea), dont les entrelacs géométriques culminent dans le chœur sous une somptueuse coupole octogonale. Ce sanctuaire fait office de véritable musée de la sculpture baroque canarienne, conservant une série de retables dorés du XVIIe et du XVIIIe siècle à colonnes salomoniques torsadées et vignes sculptées, parmi lesquels le retable du Señor del Huerto et celui de la Virgen de los Dolores, illustrant la splendeur du baroque insulaire à son apogée.",
+    visiter: "Franchir le portail en pierre volcanique depuis la placette ombragée pour découvrir la disposition originale des nefs en équerre et la pureté des arcades en traquyte. Les visiteurs lèvent les yeux vers la charpente mudéjare du chœur pour admirer la finesse des motifs géométriques en bois de pin tea, avant de contempler les dorures ouvragées et les fonds polychromes des retables baroques latéraux abritant une statuaire processionnelle renommée.",
+    link: ""
+  },
+  {
+    id: "puerto_de_la_cruz_mirador_punta_del_viento",
+    name: "Puerto de la Cruz - Belvédère de la Pointe du Vent (Mirador de la Punta del Viento)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Puerto de la Cruz",
+    altitude: 5,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Promontoire Littoral Urbain, Front de Mer de San Telmo & Panorama sur l'Atlantique",
+    century: "XXe siècle",
+    category: "star",
+    counts: {},
+    lat: 28.41740,
+    lng: -16.54785,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMyNDNtdcNOdcY0_WCsFFoCdM71nvKrxKi9Dy8z3r3y_RHgP0PVXcNBl1z4oiAB-ORsbPAvWj-jaRtrzwq6Ps1Ryc-qUgwpWbLmV01e7XFMr0_H2ld2QRk2-VVrqnSJk_istguMqF_niSZNtx8TAGDQwQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "S'avançant comme une proue de navire minérale au-dessus des rouleaux de l'océan Atlantique, le mirador de la Punta del Viento constitue l'un des belvédères côtiers les plus vivifiants et fréquentés de la promenade maritime piétonne de San Telmo. Ce promontoire rocheux naturel, formé par une antique coulée de laves basaltiques solidifiées ayant résisté à l'assaut séculaire des flots septentrionaux, offre une vue plongeante et dégagée sur toute la frange littorale découpée de Puerto de la Cruz. Aménagé avec un garde-corps soigné, des bancs de pierre et un pavage en dalles volcaniques, l'endroit tire son nom évocateur du souffle constant des alizés marins qui viennent y apporter la fraîcheur des embruns iodés.\n\nDepuis ce balcon marin, le regard balaie un panorama spectaculaire d'est en ouest : vers l'est se dévoilent les falaises escarpées de Martiánez et les structures paysagères du complexe aquatique de César Manrique, tandis que vers l'ouest se dessinent les piscines naturelles rocheuses de la crique de San Telmo, les toitures du centre historique et la silhouette lointaine du phare du Muelle. Fréquenté aussi bien par les promeneurs contemplatifs au coucher du soleil que par les amateurs de photographie marine capturant les gerbes d'écume blanche projetées contre les récifs de basalte noir, ce belvédère urbain résume toute la symbiose entre le dynamisme de la ville touristique et l'énergie brute de l'océan canarien.",
+    visiter: "Une halte sur l'avancée circulaire du mirador le long de la promenade de San Telmo permet d'apprécier la vue panoramique sur les déferlantes de l'océan Atlantique et les récifs basaltiques qui ceinturent la côte. Les promeneurs s'arrêtent pour respirer les embruns marins et observer le ballet des vagues s'engouffrant dans les criques rocheuses en contrebas, tout en profitant d'une vue d'ensemble sur le front de mer animé jusqu'aux falaises de Martiánez.",
+    link: ""
+  },
+  {
+    id: "puerto_de_la_cruz_ermita_de_san_telmo",
+    name: "Puerto de la Cruz - Chapelle Saint-Elme (Ermita de San Telmo)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Puerto de la Cruz",
+    altitude: 10,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Sanctuaire des Gens de Mer, Fresques Maritimes Baroques & Charpente Mudéjar (1780)",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.41756,
+    lng: -16.54559,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPNpmJbtf7_IIAZMXfxPYbjoM48w3_QSUjA0vklzSWsWBx6EIQcbPL0Jt5W4SeTU62ykyL50HqUpAuWB22e0NcwU02FEOklTceVuuIg6odRdwGaTHOI-AtO0tkJpHC7StRZHQam7IJP_rgXnE3sYC7AhA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOHXka2RvdDoDTsdDypk5SlPenmMLLLDnKCMeJFcCgKVL7x6IMDOuXeDmulvv7CbnWeKJhLVJgXpKD4WX0D2ABWDulej6FyrDH6V-_SOwGRKKxTXk1ajl2vKqmii3gxP-PJJJZXlXKQtj_aMBFfNfLuGA=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'espace intérieur se compose d'une nef unique, d'une grande sobriété structurelle, couverte par une charpenterie de bois typiquement canarienne. Le plafond, un artesonado de style mudéjar à trois pans, présente des tirants transversaux qui assurent la stabilité de la toiture tout en ajoutant une note artisanale raffinée. Ce qui rend cette église exceptionnelle est son programme décoratif mural et son retable, où les couleurs vives et les motifs baroques tardifs créent une atmosphère de ferveur presque théâtrale, illuminée par la lumière naturelle provenant des petites fenêtres latérales.\n\nLe retable majeur est une pièce d'orfèvrerie boisée, caractérisée par ses colonnes salomoniques et ses niches abritant une statuaire religieuse expressive. Derrière ce retable, le mur de fond est entièrement peint de motifs floraux et de blasons, une technique de fresque sur bois et plâtre qui rappelle l'esthétique populaire du XVIIIe siècle. La présence de représentations maritimes et d'ex-voto souligne la fonction protectrice du lieu pour les marins. L'autel, souvent orné de nappes blanches et de fleurs, reste le centre névralgique d'une dévotion toujours très active lors des fêtes de la Vierge du Carmen et de San Telmo.\n\nL'harmonie entre le bleu profond des parements décoratifs, l'or des sculptures et le brun sombre du bois de pin canarien (tea) confère à l'Ermita de San Telmo une identité visuelle unique. Ce monument n'est pas seulement un exemple d'art religieux, mais un symbole de l'identité de Puerto de la Cruz, illustrant comment une petite chapelle de quartier peut atteindre une telle densité artistique grâce à la générosité des confréries maritimes de l'époque."
+      }
+    ],
+    description: "Perchée sur un promontoire de roche volcanique noire dominant directement la crique et la promenade maritime éponyme, l'Ermita de San Telmo constitue le symbole spirituel le plus intime de la corporation des pêcheurs et marins de Puerto de la Cruz. Fondée en 1780 par la puissante confrérie maritime locale sous le patronage de saint Pierre Gonzalès Telmo — protecteur universel des navigateurs hispaniques —, cette ravissante chapelle côtière remplaça un sanctuaire plus ancien bâti au début du XVIIe siècle. L'édifice présente une maçonnerie robuste blanchie à la chaux pour résister aux embruns salins permanents, surmontée d'un élégant clocher-mur latéral à une arcade campanaire en pierre de taille sombre et couverte d'une toiture traditionnelle en tuiles canal.\n\nL'intérieur abrite une nef unique intimiste sous une charpente mudéjare en bois de pin tea aux lignes épurées, contrastant avec la luxuriance chromatique de son retable baroque tardif doré à colonnes salomoniques. Le chevet se distingue par un programme décoratif pictural unique aux Canaries : les parois et les boiseries sont ornées de fresques polychromes naïves figurant des navires bravant les tempêtes, des motifs floraux et des ex-voto maritimes offerts par des équipages rescapés de naufrages en haute mer. Véritable sentinelle spirituelle face aux dangers de l'océan, la chapelle demeure le théâtre de ferventes cérémonies maritimes, associant la dévotion populaire à une harmonie visuelle rare où se répondent le bleu marin des boiseries, l'or des retables et la noirceur du littoral basaltique.",
+    visiter: "Une halte sur le parvis dallé de l'ermitage permet d'admirer la silhouette pittoresque de sa façade blanche bordée par la mer et d'observer les piscines naturelles aménagées dans les rochers en contrebas. En franchissant la porte lors des ouvertures liturgiques, les visiteurs découvrent les fresques murales naïves à thème maritime, la chaleur de la charpente mudéjare et le retable baroque doré abritant la statue vénérée de saint Elme tenant son navire votif.",
+    link: ""
+  },
+  {
+    id: "puerto_de_la_cruz_lago_martianez",
+    name: "Puerto de la Cruz - Complexe Balnéaire du Lago Martiánez (Costa Martiánez)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Puerto de la Cruz",
+    altitude: 10,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Chef-d'Œuvre d'Art Public & Architecture Paysagère de César Manrique, Lagune d'Eau de Mer (1977)",
+    century: "XXe siècle",
+    category: "star",
+    counts: {},
+    lat: 28.42012,
+    lng: -16.54372,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMSRdRyibc-GDD33dk_e2opojUNuN41AFhUBj3WSmFqu4Tsv5PVVlHpU2ysI4mphISRBuTKtGi2FYr6sh0h2XwlSRAchnE8Es8eq0HXmihndY0x8hpQJ9qRuZ4CYrBLYkT7JdQgWiAeMHjYXw8f8gDF1w=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOSo45Tp7NlRhRWhd_tKjBC7HvCEsbDuQ3aP76xgpsDUd6hgYd_OargXxNjQScT0wXmciiKn49PbK57p125-B4_MPGjylNx-VzgaDcQmRkkkODMxE8opUKQlGVO2r-ZcwosqTkfG4n-powcbRaIfxp0-A=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMx7tJoaYNhZsaaThqLU0XhLKUixMpI2iEW8i8mH9h2uwmmzpx_eL-kZDUSltEIcOSfqo-AtRSzqwngHWeT7x8HKf_ZIGPpdGeV22Ur9UyW2yCfSgfEtzMwV0UgXTTFarHfVRzr-KifEBtc9IDZ9KALdQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Déployé sur plus de cinquante mille mètres carrés en front d'océan au pied des vertigineuses falaises de Martiánez, le complexe de loisirs marins Costa Martiánez constitue l'un des sommets mondiaux de l'architecture paysagère contemporaine et de l'art intégré à l'environnement. Conçu dans les années 1970 par le génial artiste et architecte lanzarotien César Manrique en collaboration avec les ingénieurs Juan Alfredo Amigó et José Luis Olcina, cet aménagement visionnaire fut pensé pour doter Puerto de la Cruz d'un espace de baignade sécurisé face à la violence récurrente des déferlantes atlantiques, tout en magnifiant l'identité tellurique des Canaries. Inauguré dans sa configuration définitive en 1977, le complexe s'articule autour d'un spectaculaire lac central artificiel d'eau de mer de plus de trente mille mètres cubes, alimenté directement par des prises d'eau sous-marines et ponctué en son centre d'un gigantesque jet d'eau volcanique vertical évoquant un geyser d'écume.\n\nLe site fusionne de façon magistrale la blancheur immaculée des plates-formes de béton courbé, les murets sinueux en moellons de basalte noir montés à sec et une riche végétation subtropicale de palmiers des Canaries, d'agaves et de massifs de fleurs exotiques. L'ensemble est conçu comme un musée de sculptures à ciel ouvert, abritant sept œuvres monumentales conçues par Manrique, parmi lesquelles les mobiles cinétiques « Los Alisios », la sculpture monumentale « La Homenaje a Wilhelm Reich » et les structures organiques formant des îles artificielles avec terrasses et solariums. Sous le lac principal est également aménagé un prestigieux casino de jeux souterrain dont les baies vitrées s'ouvrent au ras de l'eau. Classé Bien d'Intérêt Culturel au titre des monuments historiques et des jardins artistiques, le Lago Martiánez demeure la référence indépassable du tourisme durable et de l'intégration esthétique entre création humaine et monumentalité naturelle insulaire.",
+    visiter: "Pénétrer dans l'enceinte paysagère pour découvrir le lac central d'eau de mer turquoise dominé par son geyser d'écume et entouré de solariums blancs épousant les formes de la lave. Les visiteurs profitent d'une halte détente au bord des différents bassins étagés, flânent le long des allées plantées de palmiers pour admirer les sculptures cinétiques et organiques créées par César Manrique, tout en contemplant les vagues atlantiques se brisant sur la digue extérieure ceinturant le complexe.",
+    link: ""
+  },
+  {
+    id: "puerto_de_la_cruz_eglise_notre_dame_de_la_pena_de_francia",
+    name: "Puerto de la Cruz - Église Notre-Dame de la Peña de Francia (Parroquia de Nuestra Señora de la Peña de Francia)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Puerto de la Cruz",
+    altitude: 18,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Paroisse Matrice Historique, Clocher Néogothique en Basalte & Retable Baroque Majeur (XVIIe-XIXe siècle)",
+    century: "XVIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.41694,
+    lng: -16.54842,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOdZ4ggn8Z_UYjQzFyJbN63Ugbyrbm9Sm0AAy0tHBS4jNvANyCSqIaLIjzl-po0tVlbmh8FM7czYhNnsJocZckGS8Zm3cYD_a5rZmV91fkyjjsHvufeK7YKJ3i0UnRMCQlJb46VjX0vKR5SzQy_jvWhnA=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN56dS2L-bDg6gzpiAQI6KsuUWyvd-L2m_Ks5CavMIwu7i8kfi-KCZwtlLBfh07dCVN0uCuxVN98fDHDzghQPCeDbvEUHVgRJgwJss35Vy2zbI30Ag9FjR87ZL0rCbbzu6EacqWLAmlBf-y_r189jW0rA=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'organisation spatiale repose sur une série d'arcs en plein cintre en pierre de taille sombre qui délimitent les trois nefs. Ces arcs sont supportés par des colonnes toscanes robustes, dont le gris volcanique tranche avec la blancheur lumineuse des murs. Le plafond constitue l'un des trésors de l'édifice : il s'agit d'une charpenterie mudéjare de type par y nudillo, avec des caissons en bois de pin canarien (tea) richement travaillés. Dans la nef centrale et le chœur, ces structures de bois sombre forment des motifs géométriques complexes qui témoignent de la persistance des techniques artisanales hispano-mauresques dans l'archipel bien après la conquête.\n\nLe sanctuaire est dominé par un retable majeur monumental de style baroque, véritable chef-d'œuvre de sculpture dorée. Ce retable, structuré par des colonnes salomoniques torsadées couvertes de motifs végétaux, encadre l'image vénérée de la Vierge de la Peña de Francia. La lumière, diffusée par des lustres en cristal et des fenêtres hautes, fait scintiller les dorures et met en valeur la profondeur des niches. Les chapelles latérales ne sont pas en reste, abritant des retables d'une grande finesse, tels que celui de la Vierge du Carmen ou du Grand Pouvoir de Dieu (Gran Poder de Dios), figures centrales de la ferveur locale.\n\nL'église fonctionne comme un véritable conservatoire d'art sacré, où l'on retrouve des œuvres de peintres et sculpteurs renommés de l'époque baroque canarienne et andalouse. La chaire sculptée, les confessionnaux d'époque et les nombreuses peintures murales et toiles de maître complètent cet ensemble. Au-delà de sa valeur architecturale, l'église demeure le centre spirituel de Puerto de la Cruz, accueillant les célébrations les plus importantes de la communauté maritime, et symbolisant le lien indéfectible entre l'histoire de la ville et sa foi."
+      }
+    ],
+    description: "Dominant la place ombragée de l'Église au cœur du centre historique piétonnier, l'église matrice Notre-Dame de la Peña de Francia s'impose comme le sanctuaire paroissial majeur et le cœur spirituel de Puerto de la Cruz. Fondée en 1684 sous l'impulsion des notables locaux et de la communauté marchande pour remplacer une modeste chapelle devenue trop exigüe face à la croissance démographique du port, elle fut érigée en paroisse autonome au début du XVIIIe siècle. L'édifice adopte un vaste plan basilical à trois nefs séparées par des arcs en plein cintre en pierre volcanique sombre reposant sur des colonnes toscanes. Sa façade principale en maçonnerie blanchie à la chaux est rehaussée par une monumentale tour-clocher centrale à trois registres étagés en pierre de taille basaltique, coiffée d'une flèche ajourée de style néogothique érigée à la fin du XIXe siècle par l'architecte Manuel de Oraá.\n\nL'intérieur abrite l'un des ensembles d'art sacré les plus somptueux et complets de l'île de Tenerife, magnifié par la charpente mudéjare de type « par y nudillo » en bois de pin canarien (tea) dont les caissons géométriques couvrent les nefs et le sanctuaire. Le chevet accueille le majestueux retable majeur baroque étincelant d'or et peuplé de colonnes salomoniques ouvragées, abritant la statue vénérée de la Vierge de la Peña de Francia apportée par les premiers marchands castillans. Les chapelles latérales conservent des œuvres d'une ferveur populaire immense, notamment la statue du Gran Poder de Dios sculptée au XVIIe siècle et celle de la Virgen del Carmen, œuvre maîtresse du sculpteur Ángel Acosta Martín. Entourée d'un jardin public arboré de palmiers, de lauriers des Indes et d'hibiscus où murmure une fontaine en pierre de basalte, cette église incarne avec éclat l'héritage religieux et la mémoire maritime séculaire de la cité portuaire.",
+    visiter: "Une halte sur la place pavée de l'Église permet d'admirer la haute flèche néogothique en pierre basaltique et les jardins fleuris entourant le parvis. Les visiteurs pénètrent dans la grande nef à trois vaisseaux pour observer le contraste entre les colonnes de lave sombre et la richesse des plafonds mudéjars en pin tea, avant de contempler les dorures du retable majeur baroque et les statues vénérées du Señor del Gran Poder et de la Virgen del Carmen dans les chapelles latérales.",
+    link: ""
+  },
+  {
+    id: "puerto_de_la_cruz_barrio_de_la_ranilla",
+    name: "Puerto de la Cruz - Quartier des Pêcheurs de la Ranilla (Barrio de la Ranilla)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Puerto de la Cruz",
+    altitude: 15,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Quartier Maritime Historique, Maisons Traditionnelles Colorées & Galeries d'Art Urbain (XVIIIe siècle)",
+    century: "XVIIIe siècle",
+    category: "star",
+    counts: {},
+    lat: 28.41753,
+    lng: -16.55314,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP3Y0DOKL-rOqaYKnQOUoJCSMDTJnb_BV4pS807FnGy8fiCliOvoPmM_4B1a69kxYQwaTtyQGe-03aXXclyg4nsYC7eaeraJE6j6Guw6kDX8FWSmM2MjEt1Mogm_SIjWt0fN0mIVhr5oO6gezGyb2e1VQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOLPoqJO3i3vObhPZ4rkOBMtib3fgCJSd0ImfIsyA-u3jR4UYNTGpY7Ki6l06rrmSziRPfC1MJzvnmDnTNW6M6TGYYLfWWkymTQbvh3VTYVVV1bRbmnXAKkzkJL9MeMvr9gVD-mrgCCmYEFvLSxnKTwEQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPHJxwj2aPunjL1obwE8y95my97FU4odY4rdrEXko1YdaemzLxB3SioMIg53k1iAGJKXuE1w8cyen2xe3E21P6OCRGHj91Ed8-vnmALq68r1aDse2NJ3tjOWdZZVWACxCu7FvEVNVHTgqq95iaVGCyYZg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Niché entre la place du Charco et le rivage sauvage de la plage Jardín, le quartier de La Ranilla constitue le cœur populaire, maritime et traditionnel le plus authentique de Puerto de la Cruz. Structuré au cours des XVIIIe et XIXe siècles pour loger les familles de marins-pêcheurs, de tonneliers et d'ouvriers du port marchand, ce faubourg se caractérise par son urbanisme à échelle humaine fait d'un quadrilatère de ruelles pavées rectilignes et piétonnes, bordées de maisons basses traditionnelles canariennes (casas terreras) à un ou deux niveaux. Ces demeures pittoresques séduisent par la vivacité de leurs façades peintes de teintes pastel ou éclatantes — ocres, bleu outremer, vert amande et rouge carmin —, rythmées par des soubassements en pierre de basalte, des toits en tuiles canal et des volets intérieurs ajourés en bois de pin canarien taillé.\n\nLongtemps resté en marge du développement hôtelier moderne, le quartier a fait l'objet d'un ambitieux projet de revitalisation culturelle au XXIe siècle avec l'initiative « Puerto Street Art », transformant ses pignons aveugles et ses façades historiques en une immense galerie d'art contemporain à ciel ouvert signée par des fresquistes internationaux renommés. Aujourd'hui totalement piétonnisé, La Ranilla conjugue sa mémoire maritime vivante à une effervescence créative remarquable, accueillant des ateliers d'artisans, des galeries d'art indépendantes, des boutiques d'antiquités et des restaurants traditionnels (tascas) où l'on déguste poissons frais, papas arrugadas et mojos canariens dans une ambiance villageoise chaleureuse et préservée.",
+    visiter: "Flâner au hasard des ruelles pavées piétonnes de la rue Mequinez et de la rue Puerto Viejo pour admirer les façades colorées des maisons basses de pêcheurs et leurs menuiseries en pin tea. Les promeneurs prennent le temps de repérer les grandes fresques murales d'art urbain peintes sur les pignons des bâtisses, avant de faire une halte gourmande dans les patios ombragés des tascas traditionnelles pour savourer la gastronomie canarienne.",
+    link: ""
+  },
+  {
+    id: "la_orotava_mirador_de_mataznos",
+    name: "La Orotava - Belvédère de Mataznos (Mirador de Mataznos)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "La Orotava",
+    altitude: 1272,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Balcon sur la Vallée de La Orotava, Mer de Nuages & Pinède de la Corona Forestal",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.34969,
+    lng: -16.52539,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczODpVz7LfoywYufFKOXLD9xyWxEl0KveIt0WiFGPitf5iPj-H7evnO37c2H9X5eJytJU7A-GzQsASp-pItLjePdXU1NEOHKnSyPXaLiTOTkg9DYZvibWiJV8ahoQL7vM31rI0wCr_TZ9odQGOusOu42EA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Accroché à plus de mille deux cent soixante-dix mètres d'altitude le long des lacets de la route de la dorsale TF-21 reliant la côte au Parc national du Teide, le mirador de Mataznos offre l'un des postes d'observation géographiques les plus grandioses et saisissants sur le nord de Tenerife. Ce balcon d'altitude est aménagé en lisière supérieure du Parc naturel de la Corona Forestal, au cœur d'une forêt majestueuse de pins des Canaries (Pinus canariensis) dont les troncs écailleux et les aiguilles lumineuses filtrent la brume montagnarde. Le site s'ouvre directement sur la titanesque dépression de la vallée de La Orotava, gigantesque amphithéâtre naturel né d'un effondrement gravitaire catastrophique survenu il y a plusieurs centaines de milliers d'années, lorsqu'un flanc entier de l'île glissa dans les profondeurs de l'océan Atlantique.\n\nLe belvédère est réputé pour offrir l'un des plus beaux spectacles d'inversion thermique de l'archipel : lorsque les alizés marins soufflent avec régularité, ils bloquent l'humidité contre les crêtes de la cordillère pour créer une dense mer de nuages (mar de nubes) cotonneuse et ondulante qui submerge la vallée vers mille mètres d'altitude. Depuis la plate-forme baignée d'un soleil limpide, le regard domine ce tapis d'écume blanche d'où émergent les sommets environnants, avant de s'élever vers le sud en direction du stratovolcan du Teide se détachant sur l'azur. Lorsque la couverture nuageuse se déchire, la vue plonge vertigineusement sur les damiers verdoyants des bananeraies, les toits de la ville historique de La Orotava et le littoral atlantique de Puerto de la Cruz, composant une fresque paysagère emblématique de l'étagement bioclimatique insulaire.",
+    visiter: "Une halte sur l'esplanade du belvédère le long de la route forestière montant vers le Teide permet de s'avancer au bord de la terrasse pour contempler la mer de nuages recouvrant la vallée de La Orotava. Les visiteurs prennent le temps d'observer le contraste entre le ciel pur d'altitude, les silhouettes élancées des pins canariens et la vue plongeante vers les rivages de Puerto de la Cruz lorsque la brume s'efface, avant de poursuivre leur ascension vers la caldeira de Las Cañadas.",
+    link: ""
+  },
+  {
+    id: "los_realejos_paysage_protege_rambla_de_castro",
+    name: "Los Realejos - Paysage Protégé de la Rambla de Castro (Paisaje Protegido de la Rambla de Castro)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Los Realejos",
+    altitude: 100,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Palmeraie Littorale des Canaries, Falaises Maritimes & Domaine Historique de Castro",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 28.39502,
+    lng: -16.59339,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPSIQ4nTosAUxunZAXChZres4VVHSN02WGt59wV86kCL9NTh6788fWJRK016kGsURq92IgbCpyoIqLFoe8P-ySzYRatCzH3_Qa-fXTeXzt5EmcH7yu6CmLee8HO8QUSbYjdW1ufxzUV0I3oBhpAMjJ4Sw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMcE7McDe6xUOyEJJj-5Gk4_C9vG3fad9NFqC0ScEYOy-twxM-jlQtbhFI7mtrrFhXl-z5gumXQvfoZw6AiT_8DBr_Bgc7P5cGfQqHD3CS6VQ-Hjtym_WLNogAPgHzglQk_S2568ng1mzBUNkETiPn0GQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "S'étirant sur plus de quarante-cinq hectares le long du littoral septentrional escarpé de la commune de Los Realejos, le paysage protégé de la Rambla de Castro forme l'une des enclaves côtières les plus pittoresques, verdoyantes et chargées d'histoire de Tenerife. Cette bande côtière étagée entre la mer et les hautes falaises basaltiques doit sa renommée à son extraordinaire palmeraie de palmiers des Canaries (Phoenix canariensis), considérée comme l'un des peuplements sauvages et sub-naturels les plus denses et les mieux préservés de tout l'archipel. Favorisée par une abondance exceptionnelle d'eaux douces résurgentes filtrées à travers les basaltes poreux depuis les hauteurs de la vallée de La Orotava, une végétation luxuriante s'y épanouit avec exubérance : les palmiers élancés côtoient des vergers traditionnels de bananiers, des dragonniers, des euphorbes maritimes et des lauriers-roses, composant une oasis végétale en balcon direct sur l'océan Atlantique.\n\nLe site tire son toponyme de l'illustre domaine seigneurial fondé au XVIe siècle par le commerçant génois Hernando de Castro, concédé au lendemain de la conquête de l'île pour y établir des cultures sucrières puis de riches vignobles de Malvoisie. Traversé par l'ancien chemin littoral pavé, le paysage abrite un remarquable ensemble de patrimoine bâti historique : la Casona de Castro, vaste manoir colonial aux toitures de tuiles et balcons en bois de pin tea, l'ermitage San Pedro perché sur son promontoire rocheux, ainsi que le petit fortin défensif de San Fernando, batterie d'artillerie côtière érigée à la fin du XVIIIe siècle pour repousser les assauts des corsaires britanniques. Ce havre de biodiversité sert également de sanctuaire aviaire pour de nombreuses espèces marines et terrestres nichant dans les anfractuosités des falaises, offrant un parcours pédestre enchanteur où le bruissement des palmes sous la brise marine répond au fracas perpétuel des rouleaux de l'océan.",
+    visiter: "S'engager sur le sentier pavé de la Rambla de Castro depuis le belvédère de San Pedro pour descendre en pente douce au milieu de l'impressionnante palmeraie canarienne et des bananeraies verdoyantes. Les marcheurs cheminent jusqu'à la Casona seigneuriale de Castro avant de rejoindre la batterie côtière de San Fernando pour contempler ses anciens canons en fer forgé pointés vers le large, profitant d'échappées visuelles spectaculaires sur les criques de galets noirs et les déferlantes atlantiques tout au long de la promenade.",
+    link: ""
+  },
+  {
+    id: "los_realejos_ruines_de_gordejuela",
+    name: "Los Realejos - Ruines de l'Élévateur d'Eau de Gordejuela (Las Ruinas de Gordejuela)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Los Realejos",
+    altitude: 20,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Prouesse de l'Archéologie Industrielle, Station de Pompage à Vapeur & Falaises Maritimes (1903)",
+    century: "XXe siècle",
+    category: "star",
+    counts: {},
+    lat: 28.39882,
+    lng: -16.58561,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNWgB-hF04hX4r1NOBLq-2WJhSIAMRlmbtxFrz2NQUa1WKrTRSNtEeGBQ5XaUiE8hopqQLtgppcuXSbVHWbYyOPIzTCIepK_Gjw1z22xWalM3Rqj6SU2T1DAMgOb0OzvokUqwWus9Op-ix622A9CfdJ3Q=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO8avDoI7yOz2897hQZMSUhZoepbEl3ihvkTYoqHzFdvkHupEGdQOXJiu025assNsfdy32Qb-gL5p4ItQiLwVkQnJOyyd7hA1VPbRIzeGSTSvvXI9gK1ln4h5oXf8yBmN2f5y0x-RglOrkuXIenVNP0Ow=w1377-h919-s-no-gm?authuser=0",
+        caption: "Le Falco tinnunculus ssp. canariensis, appelé localement cernícalo, est une sous-espèce endémique de faucon crécerelle présente sur les îles occidentales et centrales des Canaries (Tenerife, La Palma, La Gomera, El Hierro et Gran Canaria) ainsi qu'à Madère. Plus sombre et légèrement plus compact que le crécerelle continental (Falco tinnunculus tinnunculus), il arbore un plumage aux tons rouille intense plus contrastés, avec des stries ventrales et des mouchetures dorsales noires plus denses et marquées. Le mâle présente une calotte et un croupion d'un gris ardoisé profond, tandis que la femelle conserve une dominante rousse barrée de brun sur l'ensemble du corps."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPlO6zt9jerCRFsW00McBBD1LNl-dZH7-6hov80LvEiwwmBVi_fdMc_OOH14M1LmYOt9oRewrlmkjUl4uX6sdgVPAt6dqZCmoUSQqNOqcf10jyqk4J-Z4p7u4qe3aXZ5KjUO6OBLBZ-xE5PBzZSM6TeBw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMDblW3jJRRgQPZyvOU2j2ZqGyrAcBmxqYBbyhpHU5_03KarOdpz-nd-0HBV6vPsVHCKHHo5IxTGFR24SMYsaA3yZmT_kGF3YFyeP7pTVpwi7y_3idF2ntaSzkS13Vz8hW8RWFSCHUPhKWTDFgZL4u15A=w1381-h919-s-no-gm?authuser=0",
+        caption: "Le Trithemis arteriosa, couramment nommé trithémis artérié, est une libellule de taille moyenne appartenant à la famille des Libellulidae, largement répandue sur le continent africain, dans les îles atlantiques (notamment les Canaries) et le bassin méditerranéen méridional. Le mâle mature se reconnaît à sa coloration rouge écarlate éclatante : son abdomen, grêle et resserré vers l'arrière, se termine par de petites marques noires caractéristiques sur les derniers segments (S8 et S9). Ses yeux composés présentent des reflets pourpres ou violacés, tandis que les ailes, transparentes, sont parcourues d'une résille de nervures d'un rouge vif très visible, rehaussée d'une tache ambrée à la base des ailes postérieures."
+      }
+    ],
+    description: "Accroché de manière spectaculaire à flanc de falaise abrupte face au déferlement des vagues de l'Atlantique, le complexe ruiniforme de l'élévateur d'eau de Gordejuela (Casa del Agua de Gordejuela) constitue l'un des joyaux d'archéologie industrielle les plus saisissants et photogéniques d'Espagne. Construit en 1903 par la compagnie maritime et commerciale britannique Hamilton & Co, cet ensemble monumental fut conçu par l'ingénieur militaire José Galván Balaguer pour abriter la toute première machine à vapeur installée sur l'île de Tenerife. Le défi technique était colossal : capter les eaux douces abondantes des sources côtières de Gordejuela jaillissant au niveau de la mer pour les élever mécaniquement à près de trois cents mètres d'altitude, via un imposant réseau d'aqueducs et de conduites sous pression, afin d'irriguer les vastes bananeraies en pleine expansion de la vallée de La Orotava.\n\nComposé d'un bâtiment principal de cinq niveaux étagés défiant le vide sur une pente vertigineuse de quarante-cinq degrés, le complexe conserve ses hautes façades en maçonnerie de moellons et pierre de taille basaltique percées de régulières baies cintrées, ainsi que la base de son audacieuse cheminée de brique évacuant les fumées de la chaudière. Bien que le coût financier exorbitant de son exploitation au charbon ait précipité la faillite de la société fermière dès 1919, l'édifice est resté figé dans le paysage comme une forteresse fantôme battue par les embruns salins et les vents du large. Les parois décharnées de la ruine et les falaises basaltiques environnantes constituent aujourd'hui un biotope privilégié où nichent le faucon crécerelle des Canaries (cernícalo) et diverses espèces d'oiseaux côtiers, tandis que les ruissellements d'eau douce attirent des invertébrés remarquables comme le trithémis artérié, créant un saisissant dialogue entre le déclin industriel et la reconquête de la nature sauvage.",
+    visiter: "Depuis le sentier littoral reliant la plage de Los Roques à la Rambla de Castro, les marcheurs s'arrêtent au niveau des belvédères sécurisés en surplomb pour admirer l'audace architecturale de cette ruine industrielle suspendue entre ciel et mer. La vue plongeante permet d'observer les cinq étages éventrés de la station de pompage, la précision de ses baies ouvertes sur les vagues turquoise et les évolutions aériennes des faucons crécerelles canariens patrouillant le long des falaises escarpées.",
+    link: ""
+  },
+  {
+    id: "icod_drago_milenario",
+    name: "Icod de los Vinos - Le Dragonnier Millénaire (Drago Milenario)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Icod de los Vinos",
+    altitude: 223,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Monument National Botanique, Dracaena draco Ancestral & Symbole Vivant de la Macaronésie",
+    century: "Moyen Âge",
+    category: "star",
+    counts: {},
+    lat: 28.36663,
+    lng: -16.72225,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMwXp1rUf4ApzU9NqA4zHRZRXkr14OKBacpI-GS5JikvCeq3pYrndeCjUTEDk62PieX9OgBqU-O8DSKVl-gMfLAZfF394RvxOBmpVzCdsOyDknNvIjT15kbbamVNRPuYflbczQu09po-vVY6StMBGygCQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO7pfmNfGt_DaMJq_FVxykj_9PPKf96K9e89E6ftK5Ih0wXYya6gsUGwK_Q6baEt8Ng8c8j8iURetM6Gkm-nt_ZsJR24LL0wz8-H5mnnYqKgT-PNKeNetGMZ7KjiXnQQikfhVDQP00j4nZFmbcdm142LQ=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Enraciné au fond d'un vallon fertile sur les pentes septentrionales de Tenerife, le Drago Milenario d'Icod de los Vinos constitue l'arbre le plus célèbre et emblématique de tout l'archipel des Canaries. Appartenant à l'espèce arborescente monocotylédone Dracaena draco, ce géant végétal présente des dimensions monumentales hors du commun : s'élevant à plus de seize mètres de hauteur, son tronc colossal mesure près de vingt mètres de circonférence à la base et soutient une couronne en parasol composée de plus de trois cents branches maîtresses dont le poids total dépasse les cent quarante tonnes. Ne possédant pas de véritables cernes de croissance concentriques comme les arbres dicotylédones, son âge a longtemps alimenté les légendes locales qui lui prêtaient plusieurs millénaires d'existence ; les expertises botaniques contemporaines estiment aujourd'hui son apparition entre huit cents et mille ans, faisant de lui le plus ancien et le plus imposant spécimen vivant de son espèce au monde.\n\nObjet de vénération sacrée pour les anciens Guanches qui utilisaient sa résine rougeoyante — le mythique « sang-dragon » — pour embaumer leurs défunts et soigner les blessures, le dragonnier fut préservé lors de la colonisation castillane pour devenir le symbole héraldique de la cité d'Icod. Classé monument national en 1917, l'arbre a fait l'objet au cours du XXe siècle d'ambitieux travaux de sauvetage conservatoire, notamment le nettoyage de sa vaste cavité interne assainie par un système de ventilation artificielle pour enrayer la prolifération fongique, ainsi que l'aménagement d'un parc botanique protecteur de trois hectares (Parque del Drago) qui l'entoure de flore endémique canarienne. Dressant ses épaisses ramifications feuillues devant la silhouette solennelle du clocher de San Marcos et la pyramide lointaine du volcan Teide, le patriarche d'Icod incarne la majesté intemporelle de la nature macaronésienne.",
+    visiter: "Une halte sur la balustrade de la place Andrés de Lorenzo Cáceres permet d'admirer la vue d'ensemble la plus classique sur la ramure colossale du dragonnier se détachant sur le versant verdoyant. Les visiteurs peuvent descendre dans le Parque del Drago pour s'approcher au plus près du tronc noueux multicentenaire, explorer les jardins ethnobotaniques dédiés aux espèces médicinales et indigènes des Canaries, et découvrir les grottes sacrées guanches reconstituées au pied du grand arbre.",
+    link: ""
+  },
+  {
+    id: "icod_de_los_vinos_village_historique",
+    name: "Icod de los Vinos - Cité Historique & Paroisse Saint-Marc (Plaza Andrés de Lorenzo Cáceres)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Icod de los Vinos",
+    altitude: 238,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Capitale Viticole Historique du Malvoisie, Architecture Coloniale & Retable de San Marcos (XVIe siècle)",
+    century: "XVIe siècle",
+    category: "star",
+    counts: {},
+    lat: 28.36724,
+    lng: -16.72130,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNJT8LFBud3ow0d5kpp9pzhBnm996QLoNbFdHRtm6YjBRc-Dfh0T8hMN3YQzkQcw4syDmz6sWVkJX053ObWmWWMUwzuA03jjOQ4n3-nC5VLs6meOuX8-141tXefPb6mxRH81qhVb0ZgD4pKt83E7N1S_w=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNODLVaQfBQ0WylCHH0wKyPOo5sL9m0s4EPtgTTM5p8fDwg8wEkfWL4JTHVKpPlx7ZtObEPnGMzEqRUojAmHTbaxREyRNvAH0A87LcNVXiCeqKio1Dgv5Gg4oSSWR566HjlIbr_PGot1xeae2GrJlstCg=w613-h919-s-no-gm?authuser=0",
+        caption: "Bâtie à partir du XVIe siècle en bordure de la Plaza Andrés de Lorenzo Cáceres, la Parroquia Matriz de San Marcos présente une sobre façade blanchie à la chaux, caractéristique de l'architecture coloniale canarienne. Ses murs massifs en maçonnerie traditionnelle sont rythmés par des encadrements et des chaînages d'angle taillés dans le basalte sombre local. Le portail principal s'orne d'éléments maniéristes en pierre de taille, surmonté d'élégants balcons et avant-toits en bois de pin canarien (tea) sculpté. Sur le flanc de l'édifice s'élève une tour-clocher trapue à plusieurs registres superposés, couronnée d'un beffroi ajouré abritant les cloches de bronze."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM-WMIgBBYN_lJxcU4lerZXE0W_wc_uXa_nIRwIuEHo9dzvvXJtWCN0PAR2z8kCAhJSBOrdD7iUbzfQoTN12HW_GcrMdUDI2nh1NfVr8ZREC9GLe77s1uEzjDrFTJ9ISyv7n6vjsDdz2-jwE9jo8EiDnQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMVj0C7kdkqM4HuGJB8ul7ZEXOR9oQAak9WGK_vHJFmWWb4BdOdgQWX7GYlQzaAqbReLNN0uwQfubwmoDRwJ5hLnXF7jZfw6b9hsWmX70cB5caQAYhHWUWMe_luP2Vees8_XualHW-kdmH3wjiTwwOwIw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMu5QMKfgTjWUPuD-aBnuOyGK0UBgEI2ui2fvL8Qr0WONXEIzPlledBzMhPayLX0HsYwW_EyqvPsnZ4_7eZXlAYprIG9ErOcrAhmGhE2c_LEHixwT92xYXZEKnnMc15-YIiLOQU6RwjVCQk6Oi4f9u1QA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Fondée en 1501 au lendemain de la conquête de l'île par l'adelantado Alonso Fernández de Lugo, la cité d'Icod de los Vinos s'étage avec noblesse sur les pentes fertiles de la comarque d'Icod-Daute, face aux déferlantes de l'océan Atlantique. Le bourg connut un développement prodigieux dès le XVIe siècle grâce à la culture de la canne à sucre puis à l'essor flamboyant des vignobles en terrasses, dont les cépages de Malvoisie (malvasía volcanica) donnaient ce vin doré liquoreux célèbre dans toutes les cours européennes, chanté par Shakespeare et exporté par les navires marchands vers l'Angleterre et les Flandres. Cette prospérité commerciale permit à l'aristocratie terrienne et aux ordres religieux de bâtir un ensemble urbain remarquable classé Bien d'Intérêt Culturel, où ruelles pavées en forte pente, fontaines en pierre volcanique et manoirs patriciens aux façades blanchies à la chaux rivalisent d'élégance avec leurs grands balcons en encorbellement et leurs cours intérieures arborées (patios).\n\nLe cœur monumental de la ville se déploie autour de la magnifique Plaza Andrés de Lorenzo Cáceres, terrasse ombragée de lauriers des Indes et de palmiers centenaires bordée par la Parroquia Matriz de San Marcos. Cette église paroissiale majeure, agrandie aux XVIIe et XVIIIe siècles, abrite sous de splendides plafonds à caissons mudéjars en bois de pin tea un inestimable trésor d'art sacré, au premier rang duquel brille la monumentale croix d'argent filigrané de deux mètres de haut forgée à La Havane au XVIIIe siècle, considérée comme la plus grande croix d'orfèvrerie d'argent au monde. Entouré par d'anciennes demeures coloniales comme la Casa de los Cáceres et ponctué de bodegas traditionnelles où se perpétue l'art de la vinification, le centre historique d'Icod illustre avec éclat l'héritage patrimonial d'une ville qui sut allier ferveur spirituelle, prospérité viticole et douceur de vivre canarienne.",
+    visiter: "Flâner sur les terrasses pavées de la Plaza Andrés de Lorenzo Cáceres pour contempler les façades seigneuriales aux balcons de pin tea et le clocher en pierre basaltique de la paroisse San Marcos. Pénétrer dans l'église pour admirer le travail des charpentes mudéjares, le retable baroque doré et la célèbre croix en argent de Cuba au musée d'art sacré, avant de parcourir les ruelles pavées descendant vers la Plaza de la Pila pour pousser la porte des bodegas familiales et déguster les crus de malvoisie locale.",
+    link: ""
+  },
+  {
+    id: "tenerife_mirador_de_las_narices_del_teide",
+    name: "Tenerife - Belvédère des Narines du Teide (Mirador de las Narices del Teide)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Guía de Isora",
+    altitude: 2083,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Éruption Historique du Pico Viejo (1798), Cratères Adventifs & Coulées de Malpaís",
+    century: "Temps géologique",
+    category: "star",
+    counts: { volcan: 1 },
+    lat: 28.23852,
+    lng: -16.69853,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOIr5sZIuvG1uokGoQVp8gqgeRkqHLjCYMNml9sZTnUWf20v-7_tcsJmGz9BHIJbz4x8XfI8HWe0rsdU112WOzH-GH4MMbjZCepVR1h-OmZOYHsBw_gnL9n5KPzh8gCVycwxfZrgNjZ9p4HWApXJtIlTA=w1382-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN24tp0Pb6QvcCuohar5duYFviHmG4l4Trdn1bWbL-R0dH6vFgKa4wzM9fGPfExhZmnJXlGb4FBg3mVZKJNMiczYuRtsCMiS1E503ES3UVL9d0OJSgYcNWYjN13qia3sfHccztZGJRyEpQotXYLnig1Zg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNZiGgZgyAZ-6ck-1Gj32whyhdB7sW_Tl9Y-e70maocjvygYjBRoKrRf36MD6nRonlXLfSFDAFza2VHBWz8gDncjJ1oRyjeW_ifx629iKJZkUob3RkLMLqRwhSJ43f6XfWmaIjkyCnKRW9gYVbFkgRRYw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Aménagé en encorbellement sur la route panoramique TF-38 traversant le versant occidental du Parc national du Teide, le mirador de las Narices del Teide offre une vue plongeante et saisissante sur l'un des théâtres éruptifs les plus spectaculaires de l'histoire moderne des Canaries. C'est à cet endroit précis que s'ouvrit, le 9 juin 1798, une formidable fracture éruptive fissurale sur le flanc sud-ouest du stratovolcan du Pico Viejo, donnant naissance à une série d'évents et de cratères adventifs alignés dont la morphologie géométrique évoqua immédiatement aux yeux des habitants de l'île les narines d'un géant endormi (las Narices). Pendant plus de trois mois d'une activité strombolienne et effusive intense qui ne s'éteignit que le 8 septembre, ces bouches vomirent d'impressionnantes colonnes de gaz, des gerbes pyroclastiques incandescentes et d'immenses fleuves de laves basaltiques visqueuses qui dévalèrent les pentes en recouvrant les sédiments anciens sous un chaos pétrifié de roche noire.\n\nLe panorama depuis le belvédère permet de lire à ciel ouvert la trajectoire exacte de ces coulées de malpaís de type ʻaʻā, aux blocs scoriacés et tranchants, qui ont figé leurs vagues minérales sombres sur les couches de ponces ocres et beiges plus anciennes issues des grandes éruptions explosives de la caldeira. En arrière-plan immédiat, la masse colossale du Pico Viejo s'élève à 3 135 mètres d'altitude, flanquée au loin par la cime pyramidale du Teide culminant à 3 715 mètres. Vers l'ouest, le regard plonge vertigineusement par-dessus les moutonnements de la mer de nuages engendrée par les alizés, dévoilant par temps limpide les silhouettes bleutées des îles de La Gomera et de La Palma émergeant au cœur de l'océan Atlantique. Cette terrasse panoramique d'altitude constitue un jalon géologique exceptionnel pour comprendre l'histoire volcanologique récente du complexe Teide-Pico Viejo.",
+    visiter: "Une halte sur l'esplanade du belvédère le long de la route TF-38 permet d'observer avec netteté les cratères jumeaux des Narices del Teide ouverts en 1798 sur le flanc du Pico Viejo et l'enfilade des fleuves de lave noire pétrifiée dévalant la pente. Les visiteurs contemplent le contraste chromatique saisissant entre le basalte sombre et les sables de ponce clairs, tout en admirant la vue dégagée sur l'océan Atlantique et les îles occidentales à l'horizon.",
+    link: ""
+  },
+  {
+    id: "tenerife_mirador_juan_evora",
+    name: "Tenerife - Belvédère & Maison Pastorale Juan Évora (Mirador y Casa de Juan Évora)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Guía de Isora",
+    altitude: 2045,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Mémoire Pastorale des Cañadas, Dernier Habitant Traditionnel & Plaine de Boca Tauce (XXe siècle)",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.21277,
+    lng: -16.68134,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPKtXKzq0O8NpdJuat_ArHR4wvE98_jcx2c0sGVEwqsqjB-rkQaVvBXXcSwAKyN4DUyVVQl6bjeyEwNHXhkV_zCIwEflx_tWORt8LJ9cgdene-VMM4lMZdA4T0j6RAQB0_u8mA9kaH7fd4LhSV6ZnpTAg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOoexPTqa9TtcHesMAptIVjhu18b7Bzq8UfQbAH-xbufaV3f5135rMw7QL952fn1cCTrBg4ezG4mx15tupqHnVz4s4oTnqESYAikEEeWDuCV_NtaNxB6sgbId9OZY6TBT7KkxINKDp-aBfRyW_IDgrVGQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNinS6-HPqQGK7WsXHan--8y4WS4lA3hP4w45yr8A3uOsZgiSX_BpysVlETWqwQfsqAnOD6moPlsPNCdYzUu5upQlycsVURWMT-NfbhEWdHlRoZXwfcvXxAkggbsEWhvnKGmMdxSrX9Wsm1s_nlJzcUDg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Implanté au carrefour stratégique de Boca Tauce, à l'entrée sud-ouest de la monumentale caldeira de Las Cañadas, le mirador de Juan Évora associe un belvédère paysager spectaculaire à un précieux témoignage ethnographique sur la présence humaine dans la haute montagne canarienne. Le site abrite la modeste demeure en pierres sèches et mortier de chaux où vécut jusqu'à sa mort dans les années 1980 Juan Évora, berger solitaire unanimement reconnu comme le tout dernier habitant sédentaire des Cañadas del Teide à avoir perpétué le mode de vie pastoral ancestral sans électricité ni commodités modernes. Réhabilitée par le parc national en un petit centre d'interprétation muséographique, cette bâtisse rustique aux toitures de tuiles et poutres de pin canarien présente les outils agropastoraux, les céramiques et les modes de subsistance des pasteurs qui montaient chaque été faire paître leurs troupeaux de chèvres sur les crêtes volcaniques.\n\nDepuis l'esplanade du belvédère, le regard s'ouvre sur l'immensité minérale de la plaine d'effondrement de Boca Tauce, où viennent mourir en langues abruptes les impressionnantes coulées de lave noire de l'éruption de 1798. Vers le nord s'élève la masse imposante du Pico Viejo, dont les arêtes de phonolite et les champs de scories dominent directement le replat, tandis que vers l'est se dresse le rempart titanesque de la caldeira de Las Cañadas, gigantesque falaise d'effondrement d'origine tectono-volcanique dont les strates multicolores racontent des millions d'années d'éruptions superposées. Ponctué de buissons de genêts du Teide et de rosettes d'herbe à vipère adaptées à l'aridité subalpine, ce point d'arrêt permet de mesurer le courage et l'abnégation des hommes qui surent s'adapter à l'hostilité thermique de cet univers d'altitude.",
+    visiter: "Une halte sur l'aire de Boca Tauce permet de visiter le petit musée ethnographique aménagé dans l'ancienne maison restaurée de Juan Évora pour découvrir le mode de vie des bergers d'altitude et leurs traditions pastorales. Les visiteurs profitent des sentiers aménagés autour de la bâtisse pour contempler la vue panoramique sur les coulées de lave noire de 1798, la muraille de la caldeira et le versant sud du Pico Viejo se découpant sur le ciel limpide de haute montagne.",
+    link: ""
+  },
+  {
+    id: "tenerife_rando_sentier_roques_de_garcia",
+    name: "Tenerife - Randonnée des Roques de García (Sendero Roques de García)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "La Orotava",
+    altitude: 2150,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Arête Ruiniforme des Roques, Roque Cinchado, Muraille de La Catedral & Llano de Ucanca",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 28.22493,
+    lng: -16.63133,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMpI2SAIqfGt6y_F3nGA8lfyQHAGQrla1HrIEebqiVq-ImjV7F-OsfkAoo8fS2cGL1IKsKszvJefad5YRPq-9Pve96QAcmcmJYnnIXKobf64Otqa2xzJwZT7RCICn6TLiTYfxAgC_tkc6bCyq_8PKkx3A=w1379-h919-s-no-gm?authuser=0",
+    description: "Dressée au centre géométrique de la monumentale caldeira de Las Cañadas, à plus de deux mille cent mètres d'altitude, la crête ruiniforme des Roques de García sépare en deux bassins distincts le fond d'effondrement volcanique entre le Llano de Ucanca et les plaines orientales. Cet ensemble colossal de monolithes acérés, d'arêtes dentelées et d'aiguilles de lave constitue le vestige résiduel d'un ancien mur de séparation volcano-tectonique qui ceinturait l'ancien stratovolcan primitif de l'édifice Cañadas avant son effondrement cataclysmique. Le sentier de randonnée n° 3 du parc national effectue une boucle spectaculaire de trois kilomètres et demi autour de ces géants minéraux, révélant la puissance créatrice de l'érosion différentielle : les assauts combinés du gel hivernal, des vents violents et des amplitudes thermiques extrêmes ont patiemment décapé les tufs pyroclastiques et les brèches hydrothermales tendres pour mettre à nu les colonnes magmatiques et les culots de laves phonolitiques denses.\n\nLe parcours est mondialement célèbre pour la silhouette singulière du Roque Cinchado (« l'Arbre de pierre »), équilibre précaire immortalisé jadis sur les billets de banque espagnols, qui se détache majestueusement devant le cône parfait du pic du Teide s'élevant à 3 715 mètres en arrière-plan. En descendant vers l'immense plateau endoréique du Llano de Ucanca, plaine sédimentaire évoquant un lac asséché aux allures lunaires, le marcheur contourne la vertigineuse muraille de La Catedral, titanesque dyke volcanique haut de plus de cent mètres dont les prismes verticaux imitent les contreforts d'une cathédrale gothique cyclopéenne. Entre la floraison printanière flamboyante des vipérines rouges géantes (Echium wildpretii ou tajinaste rojo) émergeant des ponces et la traversée finale de la coulée basaltique noire de La Cascada, ce circuit emblématique concentre toute la dramaturgie géologique et botanique de la haute montagne insulaire.",
+    intro_page: "Au cœur de la gigantesque caldeira de Las Cañadas del Teide, le sentier des Roques de García invite à une boucle spectaculaire autour de sentinelles minérales comptant parmi les plus célèbres de la planète. Dominé par la silhouette gracile du Roque Cinchado posé devant la cime du Teide, ce défilé d'aiguilles et de dykes volcaniques témoigne de millénaires d'érosion différentielle en milieu subalpin. Le circuit descend ensuite vers l'austère plaine sédimentaire du Llano de Ucanca, longeant l'impressionnante muraille basaltique de La Catedral avant de franchir les coulées pétrifiées de La Cascada. Entre floraisons spectaculaires des tajinastes rouges et panoramas vertigineux sur les remparts de la caldeira, ce parcours offre une immersion inoubliable au centre du sanctuaire géologique de Tenerife.",
+    visiter: "S'élancer depuis le belvédère de La Ruleta face au Parador Nacional pour entamer la boucle balisée du sentier n° 3 en longeant la base du Roque Cinchado avec le cône du Teide en arrière-plan. Poursuivre vers le nord le long des aiguilles rocheuses d'El Burro et de Los Gemelos avant d'amorcer la descente vers la dépression sédimentaire du Llano de Ucanca. Admirer la vertigineuse paroi verticale du dyke de La Catedral depuis le replat sablonneux, puis remonter les lacets serrés de la coulée de lave pétrifiée de La Cascada pour boucler la randonnée au point de départ.",
+    link: "",
+    sections: [
+      {
+        title: "Le Roque Cinchado, l'Arbre de pierre devant le cône du Teide",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMpI2SAIqfGt6y_F3nGA8lfyQHAGQrla1HrIEebqiVq-ImjV7F-OsfkAoo8fS2cGL1IKsKszvJefad5YRPq-9Pve96QAcmcmJYnnIXKobf64Otqa2xzJwZT7RCICn6TLiTYfxAgC_tkc6bCyq_8PKkx3A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Dès les premiers mètres, le sentier longe le flanc oriental de la crête dominé par la silhouette mondialement célèbre du Roque Cinchado, familièrement surnommé l'Arbre de pierre ou le Doigt de Dieu, immortalisé jadis sur les billets de mille pesetas."
+      },
+      {
+        title: "Érosion différentielle millénaire et chapeau phonolitique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNJOLmjiWwnmIfpfuwmJ_NdkOFnt6_h-wnGNuu5QgbHDekLBz3hGzbHkpf0UREeSRULlNSO-fupqvUjZP9t74fW7Y1eGzqxrIF4kRNrzOlmdgk_k3N2Ide5Ai6gbKSvL6IxrCYx-VOPvlh4_fxHQ4N-mA=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO833nx0N7GFRzDYSPk3gKZSURmBljpKTdkXIinkr9fcWRKBAs_3-CNLrWBQ5ttoUBLsfRjLo9Ph97p7OswGyN9SpKhRsgB5-UwnRYYJwHJcsxaoq-QniYcvjnZMuw1jnFwg3BMHe8bR5rwWbMMEavabQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Cette formation ruiniforme spectaculaire témoigne d'une érosion différentielle millénaire : sa base plus étroite, composée de brèches volcaniques et de tufs pyroclastiques altérés par d'anciennes circulations hydrothermales, s'est dégradée plus rapidement sous l'action du gel, du dégel et des vents abrasifs que son chapeau sommital, constitué d'un culot de lave phonolitique dense et résistante."
+      },
+      {
+        title: "Le tajinaste rouge (Echium wildpretii), géant floral des Cañadas",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOZHuCDZqH158xCoRMlAcnmX14NmKA15ZSj81Rpbua1_LToET3_5WMQox_sD1NTGOAd6mtvtvneqYRbB1H09bpmFOoclaPY1dnKFdJ1X3d7JEAyjjCHOxECsqgT7l-XY2AOpWTGN0HvmptA_WF3sevwsQ=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOx_pEiyLS2fb-DW9npr22gKnyFXQG0TmH-IE0eSkQb-dyEVnWD57hJjoqU575hR6QCwOuC1QekxgdxdAoo8I9QnfSFm4Jj3J_fcxvNyO0oaBoMbyfgMasDLKomW8CfXaPlUAZ5NUiFgZBpxYqIE53XvA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN_CLPDjwYutaFFUzY-64r4uD49E7fTNQb0JYzzuW7atmqqgcMUKmATdkhXprU4RrTzRu4rgyZ_XR9BZc1BVJYThjoIHngOHBpsXJPRM8We_hXOPwvxhcHD-NZCu_bFgTO9tAc8ouIk-7zG-X4g97kSIg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "A gauche, Le Echium wildpretii, emblématique tajinaste rojo, est une vipérine spectaculaire endémique des zones subalpines des îles Canaries, principalement inféodée à la caldeira de Las Cañadas del Teide à Tenerife et aux sommets de La Palma. Plante bisannuelle ou monocarpique, elle consacre sa première phase de développement à former au ras du sol volcanique une dense rosette argentée de feuilles linéaires très serrées, couvertes d'un duvet soyeux protecteur contre le rayonnement solaire intense et le gel nocturne. Après plusieurs années à accumuler des réserves dans les sols arides de ponce et de scories, elle érige entre mai et juin une hampe florale fuselée et vertigineuse pouvant atteindre deux à trois mètres de hauteur. Ce cône monumental s'embrase alors de milliers de petites fleurs rouge corail à pourpre vif, attirant une myriade d'insectes butineurs dans l'air sec d'altitude. Une fois cette floraison grandiose achevée et la dispersion des graines assurée par le vent, la plante meurt, laissant dressé son squelette ligneux et argenté comme un vestige au milieu du paysage minéral."
+      },
+      {
+        title: "Éperons rocheux fantastiques : El Torrotito, El Burro et Los Gemelos",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPt8OMwaPsYoc9YNBK7YVxGYkF_-Hn1jO_5so22A3Y-MkO3xZ-R7bub_-M-CuPfZzK7ozW_lOtRiHA1jMxG1PVcZMNLnEM7kNN2UMf_VzkS0o1kTChih5sBpy8bj3TdkmI7h0hlO8rYRZzNSw0bx0Sxzw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMNfQX-lsEM3fTBoww1zEe3ftTLfrj0whKuLF6-KWAgixtxlfuQzRyUcSvefndSjhS0073QwzjZHFqopfaiKwL96R7QzjYsdkN3Tjz-kAtpi5nwh6dI_uoIga_3n-edhICzjPc-7Xv2cgCycjri6TvdnQ=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "En progressant vers le nord sur un sentier bien aménagé de graviers volcaniques et de dalles plates, le marcheur découvre une succession d'éperons rocheux aux formes fantastiques, parmi lesquels se détachent El Torrotito, El Burro ou les pinacles jumeaux de Los Gemelos, colonisés dans leurs anfractuosités par des touffes de genêt du Teide (Spartocytisus supranubius) et de rosalillo des sommets."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNbhQqRkZo_IlQ68bjb7WDWizpkWvH_Sr_lYJ1L75ESN56jZEEIv2wqxkUtNGncO4n_hNVjQHlsd7ZmYqENcobdAOW7qaIVAo0LN4c3njM3YPY3Exj1wCd1_OD9kEhcoOZ3LUZQewKK_GLeKwYiEVg-Yw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczONs-cZ50OkEo2xx7f13LZVszGpI0mRH2WuPhIKwmDY-Yo-Ol1RDjSBYdtfNmUl30rAI-_vaAYOD6vHyJQUWAxF6d3NfZGCvr0vee3wtka_72dCpa0-DUYqroPp20DX2a-io4z0PkENkMNCwJueQNGYaA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP85hRkYN3MlZNQFY7R0vtCwMT04Fn99NVAec042cz5PuWHEtiQ2JyRmoxopxDNKbskfYi-BW-xFC5gRFkIWPSYjW3uuH77hUmXNINgKQ9_hkPAc4Fk2sZd_D0NxCl_5k84f_fXstpi4dP4CD70LanarQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOzUGib5FZsaehDOF7iHh5on35BhTqbxfbHHkthbq6cGaMNbrHQDXHiBtGF8Q4GeD32fRXNfzjHrXE7c-ex8OvfeErgVXqODs2eXgkNTfF7OZIEASuL6i_BhAl6UCmUwwTraziHD2xGepizlNGAFN1enQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Bascule vers la dépression sédimentaire du Llano de Ucanca",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOhvWMz4zP9xdPlVgUQr4CYimDme4M1-qqCYiJxcwTn7JqRXWa3-sdEwj-nlWUnSDPhOZGcf4vfGEjDFR1O54GhMGhnoPIv5P1EJHqcqZuesPMp8Zy4548HeZ4DOnDkXupc1eGMFH8ZGpR3SIJKCbTwFw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Après avoir contourné la pointe septentrionale de l'échine rocheuse, le sentier bascule brutalement dans un décor d'une majesté austère en abordant la descente vers la dépression du Llano de Ucanca, dont les perspectives rejoignent celles observables depuis le belvédère du Llano de Ucanca. Cette immense plaine sédimentaire endoréique, aux allures de plateau lunaire tapissé de limons et d'argiles ocres clairs, forme un ancien lac asséché temporairement inondé lors des fontes printanières de neige."
+      },
+      {
+        title: "La Catedral, dyke phonolitique géant et forteresse cyclopéenne",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOGiW7ieElrHfBapsrOkSGLnpauxrLJ7l1h2oq31SrBr7WOD_ZIcSLfMEgcpbxaF_Z3P9vjrhB49n8Jjmgua9nGsA5dNZ0wdfz3-1WY0T6khbOpa3SOdX1z-HrM4dDeomVxDCV8dX8clT00hlTTm7YCTA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPipKbJt-hsZFCXP7tTN7R3RmXYGfYUUsWHmsfPIz7QXjTK6nxPw6b4KpoiTc2LR2AgSabaSMpxIoq-CE2fPTBq4u-Snu3dWAwQJZkwWHrSYjRozwo6oJVFgyW5xcNM_Pbqr-dKaRyFP5LVBuCYqW3fkQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La marche sur le replat permet d'admirer la face occidentale des Roques, révélant la titanesque muraille verticale de La Catedral, un gigantesque dyke phonolitique culminant à plus de cent mètres au-dessus du sol. Cet ancien conduit d'alimentation magmatique, mis à nu par le démantèlement complet de l'édifice qui l'enserrait à l'origine, dresse ses prismes de lave sombre et ses fractures nettes comme les contreforts d'une forteresse gothique cyclopéenne."
+      },
+      {
+        title: "Remontée par La Cascada et boucle sommitale de La Ruleta",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMjCQ1kkRo9g7clp0BjFngWf553A2zV1K2SXwKwKhvG8Pth-VCj4021ai3YAowCbiRL4XFMCMcarTJV99zrAD3IqFO_4DG2Xh1nB9Wh8zyBnpD8tQduxCleScJfGJ3tK77hUfDB7mOEZU3AG80qbgIn6g=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO0Jx2Cfk8qFVov8qc-nTDh8GJexRIM5h9VqZ8V16qvNUfdyWt1cBFCgnIY9CteAHkINZguSu1WxGrgnYbKuCS_NFjLifUtTf8Qqbi0_BkvRXWb0mNKSM9TGFCNTXE2lUgYVR2Oiqen06CHie-TIbOyVw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La boucle s'achève par le franchissement du secteur dit de La Cascada, où le sentier entreprend une remontée vigoureuse en courts lacets pour surmonter le dénivelé et regagner le promontoire de La Ruleta. Cette pente raide traverse une cascade de lave pétrifiée constituée d'une coulée visqueuse de phonolite noire et vitreuse, dont les blocs tourmentés et les fronts de scories témoignent du ralentissement progressif de la matière en fusion. Tout au long de cette ascension finale dans un air pur et sec, le marcheur côtoie les lézards tachetés de Tenerife se chauffant sur les dalles de lave chaude, avant de déboucher à nouveau sur le belvédère sommital après environ trois kilomètres et demi d'un parcours qui concentre toutes les facettes de l'histoire volcanologique et de l'érosion des Cañadas."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPgH04A44xqsU_zN3FzcGw611tJ1aVh5gbdHgLBsZrsAAOLoN6SH4z6liyfyBNskI9FRMFvIGX_CJZyalvqBWEgsHabDRX3RVTo5GflGmQ03QMzqgGXTBk07z-lm19b2E941A9sbTovFvp5zu_CyVwwXw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
+    id: "tenerife_rando_volcan_botija",
+    name: "Tenerife - Randonnée du Volcan de la Botija (Montaña de la Botija)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Guía de Isora",
+    altitude: 2085,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cône Pyroclastique de la Botija, Malpaís Basaltique & Belvédère sur le Pico Viejo",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1, volcan: 1 },
+    lat: 28.26538,
+    lng: -16.71486,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPuEhNKRF_mcHZp0jymlzDJCFEtnk4t98XgFb0X23wTltgymq_g-7RkN88iF9BVLky_sauWf5hPxKCUAI0zirD-qFT-O-H5Av-JL9n93cw7k0VO3GDkFJngNvvx-jpj4HmHKi9psiIDKykkbPPYW1T8hA=w1379-h919-s-no-gm?authuser=0",
+    description: "Culminant à plus de deux mille mètres d'altitude au sein du secteur occidental du Parc national du Teide, la Montaña de la Botija dresse sa masse conique sombre et austère au milieu d'un vaste désert de scories volcaniques et de champs de laves pétrifiées. Voisin immédiat du cône de Sámara, cet édifice pyroclastique quaternaire tire son nom traditionnel de sa silhouette trapue évoquant une jarre d'argile (botija), façonnée par l'accumulation explosive de lapilli basaltiques (picón), de bombes volcaniques en fuseau et de projections scoriacées riches en oxydes de fer. Le sentier de randonnée n° 38, qui ceinture les flancs escarpés de la montagne, offre une immersion totale dans un monde tellurique d'une pureté absolue, où la rudesse du climat de haute montagne — caractérisé par une aridité estivale extrême, un rayonnement solaire intense et des gelées hivernales rigoureuses — a limité la végétation à de rares touffes éparses de genêts du Teide et de buissons de codeso argenté.\n\nCe parcours en boucle dévoile un observatoire géomorphologique d'exception sur les manifestations volcaniques majeures ayant sculpté la caldeira de Las Cañadas. Depuis les crêtes et le versant nord-est de la Botija, le regard plonge sur les fleuves de basalte vitrifié et les champs de malpaís rugueux dévalés depuis les Narices del Teide lors de la spectaculaire éruption historique de 1798. En arrière-plan immédiat s'élève la vertigineuse paroi de phonolite du Pico Viejo, dont le cratère sombre colossal domine le paysage minéral, tandis que vers l'ouest, la vue s'échappe au-dessus de la mer de nuages océanique pour révéler les profils découpés de La Gomera et de La Palma. Entre le crissement des pas sur les sables noirs violacés et la contemplation d'un univers minéral intact resté à l'état originel de sa création géologique, la randonnée de la Botija constitue l'une des expériences d'immersion volcanique les plus dépouillées et grandioses de l'archipel canarien.",
+    intro_page: "Dressant son cône de scories à plus de deux mille mètres d'altitude à l'ouest du Parc national du Teide, la Montaña de la Botija incarne la quintessence du paysage lunaire de haute montagne. Ceinturée par un sentier d'altitude spectaculaire cheminant sur d'épaisses couches de lapilli noirs et pourpres, cette sentinelle de basalte offre une vue imprenable sur les coulées pétrifiées de l'éruption des Narices del Teide de 1798 et sur l'imposant cratère terminal du Pico Viejo. Dépourvu de toute couverture forestière et balayé par les vents secs au-dessus de la mer de nuages, le volcan propose une boucle minérale d'une beauté austère, où le silence absolu dialogue avec les silhouettes lointaines des îles de La Gomera et La Palma à l'horizon atlantique.",
+    visiter: "Au départ de la jonction des sentiers n° 13 et n° 38 accessible depuis le parking du mirador de Sámara sur la route TF-38, s'engager sur le sentier balisé serpentant sur les lapilli meubles au pied de la Montaña de la Botija. Suivre le tracé régulier contournant le flanc nord pour admirer la vue rapprochée sur les falaises sombres du Pico Viejo et les cratères des Narices del Teide de 1798. Poursuivre la boucle le long du flanc ouest pour observer les alignements de bombes volcaniques et les panoramas plongeant vers la mer de nuages et l'océan Atlantique avant de regagner le point de bifurcation.",
+    link: "",
+    sections: [
+      {
+        title: "Progression sur les lapilli (picón) et champs de malpaís",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPuEhNKRF_mcHZp0jymlzDJCFEtnk4t98XgFb0X23wTltgymq_g-7RkN88iF9BVLky_sauWf5hPxKCUAI0zirD-qFT-O-H5Av-JL9n93cw7k0VO3GDkFJngNvvx-jpj4HmHKi9psiIDKykkbPPYW1T8hA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczONiexTGLmUmqwDnMuVgdx2K3IbYee8e67px1PZOFHZZOhMGr4JcQpXoSHrGlgvLtstFwQQNYj-ARMmoS9v-zshoCx9HN2JKBj_D9FPENaX_uo-O4agGybHSEqKpf9sF11MVS96-Qbg6RN4msN3wTskgA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La progression débute sur un lit meuble et épais de lapilli noirs et brun violacé (picón), qui amortit chaque pas et met à l'épreuve la motricité sur les faux-plats ascendants. Le sentier serpente entre la base orientale de la Botija et les champs de lave chaotique (malpaís) dévalés depuis les fissures des cratères adventifs plus élevés."
+      },
+      {
+        title: "Flanc septentrional, cratère du Pico Viejo et Narices del Teide (1798)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMtmNy9fJ-mfdjFzhQztowaKFfcpkOaSfmvLjrZ6JmV7BNmCGNAVcFe8mS80tZLo_RG-S56fjmRVXHCwk0AKOIQfImzKttQek7wAXLbcBH-3UMBRUZyVXIZoRxzE2AvK2RBbXPkJB6nUqR6_vv1SXDj6g=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Au point culminant du contournement sur le flanc septentrional du volcan, le panorama s'ouvre avec une monumentalité saisissante sur le complexe stratovolcanique central. En surplomb direct, la gigantesque caldeira sombre du cratère terminal du Pico Viejo dresse ses falaises de phonolite et ses coulées prismatiques, flanquée des cratères jumeaux des Narices del Teide où la terre s'est déchirée lors de l'éruption de 1798."
+      },
+      {
+        title: "Cascades de laves vitrifiées et vue vers l'océan et les îles",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNIS3Ti1D4KsvDOIUXYYcVqQmASY0ScbVMKIVL3Jd5SKmq-q2F3JueTs10iWPYIgvtLZV8dp4V-vXcNbqfhVEpDmlgMrszYxIwmYZajZv0lPDt3y-71Zjs0LGZzUZh46xj-s2WovASkMUOdopOi7CD4Gg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPIutfskr29VF-rZD80lbzRlWCcEWI9EsOz-D0ZJRiWDSE8oOIk3z7xZ0ufHC2DNe56Dyzl5WFu_vzr11L1RKbyGFncSyWfOGh1IuVBDNhAyUk2Mhh8eZdPpTnIQDEgjtulMOF278V2Xo7cPrYvC0JAKw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le regard peut suivre avec netteté les cascades de lave noire vitrifiée qui ont figé leurs vagues minérales sur les pentes de ponces beiges plus anciennes. Vers le couchant, l'horizon s'évase par-delà la barrière naturelle de la mer de nuages étalée sur l'Atlantique, laissant flotter dans les lointains les profils escarpés de La Gomera et de La Palma."
+      },
+      {
+        title: "Flanc occidental, bombes en fuseau et rigoles pyroclastiques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPkMipFJdxGSQViG-5BSdnXbmPqYS6KgWq4IdZHzLVYBNbZdPX__EK4Ar7_Bw0tD5BYqjFxeC-WgSlA_pOZuEK2WiQ4VTzDiYBn6LCYS8ElNXxQIOxCraXzxcD4D-ljGB6dAqg9xXkooFvcPrNRtrq3Jw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPCOOR49G1GOgW6AaA1yl84NhPV7f9D0nZTVf09BSpo25q8eAuKqQWflYyAwSI-mvbiNoglJABYGE1V4qccDGFeLIO3giY7EJ0-XkbfhHfqtg8S2Yw0nsY75dB6aGUD37nhiJqs0GPd-hdyTuwIgqMQhw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La fermeture de la boucle s'effectue le long du flanc occidental de la montagne, où le cheminement traverse des alignements de bombes volcaniques en fuseau et d'anciennes rigoles pyroclastiques sculptées par les orages d'altitude."
+      },
+      {
+        title: "Minéralité absolue, oxydations métalliques et jonction de Sámara",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNHQCIY9JOnTXkbHFavL6QpbtN4JgcysW5xFIgrcvfYxoWBgtfLfR5FFoQL_LhBVJ_ZYU_QRfXHxgbicmMM2qPYn5HpDiuEPAm7DzuwRQ76v9puHRGjXejgQYimjd4zeL7YijY-CsOu17wQ0X8BGXxwPw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMxudjQYkEhVEyAslv2u_N_GDO4N39r0Nr-RuTyM826E4kF2bg131ldCyAIArsnxH98IJSMje4iPIthYXoaSmXpi-CFoJzN--bksWSVgpO64wRpJdxnfkU3GeHHqy8xnkgw5Xq_IM97zV4FspVzHt9AiQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'atmosphère y est imprégnée d'une minéralité totale, les contrastes de lumière zénithale soulignant les micro-reliefs d'oxydation métallique rouille et pourpre incrustés dans les scories. En rejoignant la jonction avec la piste de Samara, le sentier achève une immersion d'une rare intensité dans la mémoire géomorphologique brute du bouclier volcanique canarien."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPU4gPt5nqJKLyKBibeOvuFwHJExzBY21ZfugRclxejnSpo7qVTi2zn7tSQ00OlvntcBsCe-KKaX7d7O7e2OTAobZfN8lohMNsc74pOdbZy0o6b02Y3q8iuHX12zhjqgYHjkMyRX8eaLEq7tgGqC6hgig=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOZtAqs4HSXmzDDz5_OYDnuJtLu63xOfXBhUMl3gOz060i8jKllEX_QEx8JaC9koRqEGH6-K8Kn9685cEcrvn-us3NRCYJCQX6TRCQ-MuV1rxgGH_4NutZLlDcqwyK2mSJja7ckukp0zvTMn5_k5naJVQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
+    id: "tenerife_rando_volcan_samara",
+    name: "Tenerife - Randonnée du Volcan de Sámara (Montaña de Sámara)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Guía de Isora",
+    altitude: 1937,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cône Pyroclastique de Sámara, Pinède d'Altitude & Balcon sur le Pico Viejo et le Teide",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1, volcan: 1 },
+    lat: 28.26890,
+    lng: -16.72785,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPu5_kvJcmZu6EHCF5IKrAB-kNIR9gRVZpJXcmAQxDFy1XbVECtujo5EKwTjibOBSVt8C69xX0K_aBYUTC24KnqLoqYTrCa77ZEKDfnG4lsR5ZtpxVImLVVle-e-Kozb1543ZTtIXAB1CtPR6lCgYWikQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Émergeant avec une grâce souveraine aux portes occidentales du Parc national du Teide, à près de deux mille mètres d'altitude, la Montaña de Sámara constitue l'un des belvédères volcanologiques les plus purs, graphiques et saisissants de l'archipel des Canaries. Ce cône strombolien aux flancs réguliers, édifié au cours de phases éruptives quaternaires par l'accumulation de scories denses, de lapilli (picón) et de bombes volcaniques aux reflets violacés, s'élève comme une sentinelle avancée devant la masse titanesque du Pico Viejo. Le sentier en boucle du sentier n° 13 du parc national propose une immersion minérale d'une beauté presque irréelle, où le contraste chromatique atteint son apogée : sur ce manteau de cendres et de roches volcaniques d'un noir d'encre se détachent les silhouettes isolées et lumineuses de vénérables pins des Canaries (Pinus canariensis). Ces géants végétaux solitaires, façonnés par la violence des vents de haute montagne et la morsure du gel hivernal, parviennent à enfoncer leurs racines pivotantes dans les anfractuosités des coulées de lave, incarnant une extraordinaire résilience pyrophyte.\n\nL'ascension jusqu'au cratère sommital tronqué de Sámara dévoile un panorama circulaire d'une immensité grandiose balayant toute la complexité tellurique de Tenerife. Vers l'est et le nord-est s'élèvent les pentes monumentales du Pico Viejo culminant à 3 135 mètres et le dôme sommital du Teide, dont les flancs portent les cicatrices béantes des Narices del Teide (« les narines du Teide »), cratères adventifs nés de la grande éruption historique de 1798. Vers l'ouest, le regard plonge sur les ondulations sombres de la Montaña de la Botija et de la Montaña de la Cruz de Tea avant de franchir la mer de nuages entretenue par les alizés pour contempler, flottant sur l'azur de l'océan Atlantique, les profils découpés des îles de La Gomera et de La Palma. Ponctué de buissons de genêts du Teide et de codesos argentés résistant à l'aridité d'altitude, ce parcours circulaire offre une traversée contemplative inoubliable au cœur d'un univers volcanique où le silence minéral sublime la puissance créatrice de la Terre.",
+    intro_page: "Perché à près de deux mille mètres d'altitude sur le versant occidental du Parc national du Teide, le volcan de Sámara déploie un paysage lunaire d'un graphisme exceptionnel. Ce cône strombolien de scories ébène et de lapilli violacés est sillonné par un sentier en boucle spectaculaire, serpentant entre mer de cendres et silhouettes solitaires de pins canariens centenaires. Depuis son cratère sommital, le marcheur embrasse une vue vertigineuse sur les contreforts du Pico Viejo, les cratères de l'éruption de 1798 et le pic du Teide, tandis qu'à l'ouest émergent au-dessus de la mer de nuages les silhouettes océaniques de La Gomera et La Palma.",
+    visiter: "S'élancer depuis le parking aménagé du mirador de Sámara sur la route TF-38 pour entamer l'ascension en lacets réguliers sur les lapilli noirs jusqu'au rebord du cratère sommital à 1 936 mètres. Après avoir contemplé le panorama circulaire sur le Pico Viejo, le Teide et les îles de La Gomera et La Palma, suivre la ligne de crête nord-ouest pour effectuer la grande boucle contournant la Montaña de la Botija. Le retour chemine à travers les étendues de scories sombres ponctuées de pins des Canaries solitaires et de genêts d'altitude avant de regagner le point de départ.",
+    link: "",
+    sections: [
+      {
+        title: "Ascension sur les lapilli et panorama sommital sur le Pico Viejo et le Teide",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPu5_kvJcmZu6EHCF5IKrAB-kNIR9gRVZpJXcmAQxDFy1XbVECtujo5EKwTjibOBSVt8C69xX0K_aBYUTC24KnqLoqYTrCa77ZEKDfnG4lsR5ZtpxVImLVVle-e-Kozb1543ZTtIXAB1CtPR6lCgYWikQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOXZ89Nu4hBSwfL5b0Rlt-qmkA9-kKPh6FT9tKClZaC9GC0iiVYtgB0T5k6LNk71KueKV5kE6XbIbOPRpQ2xVGi_D6zotUp0hZfuDmC_essM5CEy79K9FSj7d56DXymGMjwjRgC7iPm3ISEO64RCB5cjA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La première partie de l'ascension chemine sur un épais manteau de lapilli noirs et pourpres (picón), gravissant en lacets réguliers la croupe de la Montaña de Samara jusqu'à son cratère sommital culminant à mille neuf cent trente-six mètres d'altitude. Depuis cette cime tronquée, le regard embrasse un panorama circulaire d'une envergure grandiose : vers l'est et le nord-est se dressent les silhouettes colossales du stratovolcan du Pico Viejo et de la caldeira terminale du pic du Teide, flanquées des cratères adventifs des Narices del Teide nés de la violente éruption historique de 1798."
+      },
+      {
+        title: "Plongée sur la mer de nuages et échappées maritimes vers La Gomera et La Palma",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOO0Z0inGPsaSFHr3TujwwgD4SksqWOQ4aJbLKEM_kS9FRfRyPtNueRE5Oro-E6e_HiKPRsAVcUSW-JvzVAPGv0gOmq7KWzbdkPEsk5QjRHSxl3PoF9-mgTPbUARfF7J8-uBDFQbtpyfMI_mfuJPwadtg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOXFy_KSnBer-V5OgrGwruLoZGLUkU8we9BTgDRkzNwg4NZzDOat_3EWD3r-WwU7uZX1q_yr715anxy0MZo1PzS9S62SPYE1O8RStpvZFFyBAUQ-W9wxQCchfOoc80PC9AVNKthbezmHhOo5tO5Pp71bA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Vers l'ouest, le versant plonge vertigineusement par-dessus les bancs cotonneux de la mer de nuages poussée par les alizés, laissant émerger à l'horizon les silhouettes bleutées des îles de La Gomera et de La Palma au milieu de l'océan Atlantique."
+      },
+      {
+        title: "Descente vers la Montaña de la Botija et graphisme minéral",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMi3bk2liZ1oFjfvaSfQRgD9K_SPGqsvrDtCC6ylgmiAPVrCNAY0UeExMvjNO5ALIonhC5dnua2YQwlxVd7_AumCKj4QntjpQwACJDOgyMlQoHPRih4tqMs_jZBmlcYBF2y_biSomm_K4Q-YA8Uz2Shhg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPL6aR8lWFGb1tL8fqY3j-LTD6SVuOhoE4TfMTSE1ftsTRRpuxQvv34_EO230Z3WcTYUj3pQTxvCjNU86qo1jOZkO01ziKeD3JVLhwn8cODzVLEYUsQKO4nEsPxtzO9Pz6e5hTW0KYTkZ9Q-XGmbIjW3A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En redescendant du sommet par la crête nord-ouest pour entamer la boucle en direction de la Montaña de la Botija et de la Montaña de la Cruz de Tea, le marcheur s'enfonce dans un paysage lunaire d'un puissant graphisme minéral."
+      },
+      {
+        title: "Contrastes chromatiques des pins canariens sur le champ de scories",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPkOQDdU6Ncqw-A27pYkqIdliUed2r98s38edxhx61twCGigth-L_Iccyj_Um7QU0nYelvXGbMpRw3UeRgC8WFaQjUx6BWgjc0c-mQCh9QPFnK_-JRVkkuR_G-j5buDR_XtVNtLV_YUEbJrjVpwLozd5w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le sol de cendres et de scories basaltiques d'un noir d'encre est ponctué de vénérables pins des Canaries (Pinus canariensis) solitaires et trapus, dont le vert lumineux des aiguilles triples crée un contraste chromatique saisissant avec la noirceur du substrat pyroclastique."
+      },
+      {
+        title: "Flore xérophile d'altitude : genêts du Teide et codesos des sommets",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPyXvVoT7xpNGBTmIwSkdlW2RDCK8o7F9k3wpIWIW0BV9tHM0sBFwAeCo6yUsztTs8cmpPvETVcZF1zBpKCivaZ1s0IENEMvxBnfMF999LqsBLq_0NOMBXM6aneXxv80pc0au21yxoBT_MEUPaDBIm2jQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Ces arbres pionniers, façonnés par la rigueur des hivers d'altitude et les tempêtes de vent sec, côtoient des arbustes xérophiles endémiques adaptés au rayonnement solaire intense et aux gelées nocturnes, tels que le genêt du Teide (Spartocytisus supranubius) et le codeso des sommets (Adenocarpus viscosus)."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO5KTP_6dut5VGyhVR0KnHuV8g10QQ1fk1OdcIfMqtGODlzCAEc7iuXxAEuFrRD0HJh1TXO4kl04Hd5nSolwXaggd6LySeQFgDN28YWM9XEVzhFoFqiygfH1bi6RrkJT2ta3GG3ktwouqHdSveTpuTpbQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO-WO8oZzwQheZnN2m8RF0NiLLCygrfmyuuIu5zO3vh7W3VMMWT6Xm8xSISPMPs72Qr4OlHz_neE6brjSyCzcS0UySerWJ_caOuGv_Sx-d4EJgxl7OQy9VRiBhEPT8upYDQLrThTwaAnU3iM499KcBw7Q=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
+    id: "buenavista_plaza_de_los_remedios",
+    name: "Buenavista del Norte - Place des Remèdes (Plaza de Los Remedios)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 115,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Cœur Historique Colonial, Kiosque Octogonal en Tuiles & Jardins Ombragés (XVIe-XXe siècle)",
+    century: "XVIe siècle",
+    category: "place",
+    counts: {},
+    lat: 28.37219,
+    lng: -16.85136,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP088knWC7Vl0VC3RSfc4kSto62Wp7eNYoBX9gKDinNxU8ZTd7v8VTJLXrsHKkuvLqYvBUoB_uFug7XMJSQFjbDrsgwfbHIZ2rSCXRYSWJ_NQM3wLD1kPJ6lDmHA10j_SvzBg2f3S5vuaejjJydbgPjwQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP6xjZpoD0W-YoCUhJUxNLkICOSPe7-rqQPwPJbDqmxv59T0E_jTlkva_yCrryvc8OxZ351pab1aR59THUGcqLQSksrux8FhajrNZt2vDZglW8xip1xl_XLHccKTOFUza101OgU7z0DsLAJ8JG38qKK0A=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Au cœur de l'Isla Baja, la Plaza de Los Remedios constitue le centre névralgique et civique de la cité historique de Buenavista del Norte, fondée au tout début du XVIe siècle par des colons castillans et andalous séduits par la fertilité de cette plaine littorale adossée aux contreforts du massif de Teno. Conçue selon les canons de l'urbanisme colonial espagnol, cette place publique s'organise en un quadrilatère spacieux ceinturé de belles demeures seigneuriales traditionnelles, caractérisées par de hauts murs blanchis à la chaux, des toitures de tuiles canal en terre cuite et des balcons en encorbellement taillés dans le cœur de pin canarien (tea). L'espace central est aménagé en un jardin public soigné où s'épanouit une végétation généreuse de palmiers des Canaries, d'orangers, de massifs de lauriers-roses et de grands ficus centenaires qui procurent une ombre bienfaisante face au climat doux et ensoleillé de la comarque.\n\nL'élément architectural le plus emblématique de la place réside dans son charmant kiosque central octogonal (quiosco), dont la structure basse en maçonnerie est surmontée d'une toiture pyramidale à pans coupés couverte de tuiles artisanales, faisant office de point de rencontre convivial et de tribune pour la fanfare municipale lors des fêtes patronales d'octobre. Bordée sur son flanc septentrional par l'église paroissiale Notre-Dame des Remèdes et à proximité immédiate de l'hôtel de ville, la place offre un panorama d'une grande sérénité où le regard glisse depuis les pavés de pierre volcanique vers les falaises abruptes et verdoyantes de Teno en toile de fond. Lieu de promenade privilégié des habitants au crépuscule, cet ensemble paysager illustre avec élégance la douceur de vivre et l'harmonie patrimoniale préservée des bourgs traditionnels du nord de Tenerife.",
+    visiter: "Une halte sur les bancs ombragés de la place invite à savourer le calme villageois en contemplant le kiosque traditionnel en tuiles et l'enfilade des demeures coloniales aux balcons de pin tea. Les promeneurs prennent le temps d'observer la façade solennelle de l'église Nuestra Señora de los Remedios qui domine le parvis, avant d'emprunter les ruelles pavées adjacentes pour découvrir l'architecture vernaculaire et les cours intérieures fleuries du centre historique.",
+    link: ""
+  },
+  {
+    id: "buenavista_eglise_notre_dame_des_remedes",
+    name: "Buenavista del Norte - Église Notre-Dame des Remèdes (Iglesia de Nuestra Señora de los Remedios)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 115,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Sanctuaire Paroissial du XVIe Siècle, Charpente Mudéjar en Pin Tea & Reconstitution Historique",
+    century: "XVIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.37261,
+    lng: -16.85136,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNsZRe8L-kp-9sTP_yYPL6LDdtyrCsrvXokVQ03LVCeoOnvycNgBylZhYXf_ARTcrwCxUnuQIgKxw7GbD-RM5qp7ZJhXeJPh4_6YSS7bTqsupHau3IaF-tR3tqRpEiRiGN4rHrgszCUWruhHplOoNC64g=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMJfk77gVdBo-SQw7-nWZbh00qHqsicBvyudL0BorQ9WKUBSh1KR8NnE2tpe-PEq9hLxlPbulJ7rDYI0jNC47o47yPMnV8OUqY1PVYOm_Lq0_PGLroIplpkqaS0eNmabRUh5sG9CpXiFt3UIrbAv7DWRQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'espace intérieur est divisé en trois nefs séparées par des arcs en plein cintre en pierre volcanique sombre, reposant sur des colonnes cylindriques robustes aux chapiteaux simplifiés. L'élément le plus frappant de cette architecture est son plafond en bois de style mudéjar, un travail de charpenterie connu sous le nom d'alfarje ou de par y nudillo. Ces structures de bois sombre, finement assemblées, témoignent de l'héritage artisanal hispano-mauresque qui a persisté aux Canaries bien après la période médiévale. Le contraste entre le blanc pur des murs et la texture profonde du bois et de la pierre volcanique crée une atmosphère de dignité et de paix.\n\nLe chœur est dominé par un imposant retable majeur doré, qui a été fidèlement reconstitué après le sinistre de la fin du XXe siècle. Ce retable, structuré en plusieurs corps et niches, abrite l'image de la sainte patronne, Nuestra Señora de los Remedios. L'éclairage est assuré par des lustres classiques suspendus et des fenêtres hautes et étroites qui diffusent une lumière latérale douce, mettant en valeur les dorures du sanctuaire et la profondeur des nefs latérales. Les chapelles latérales, visibles à travers les arches, abritent d'autres éléments de dévotion qui enrichissent le patrimoine iconographique de la paroisse.\n\nLe mobilier, composé de bancs de bois sobre et d'un dallage sombre, renforce le caractère solennel de l'édifice. Cette église n'est pas seulement un monument historique, mais le cœur battant de la communauté de Buenavista, illustrant la fusion unique entre les traditions européennes et les adaptations locales spécifiques au climat et aux ressources des îles Canaries. La conservation de son plan basilical et de ses plafonds à caissons en fait un site incontournable pour comprendre l'évolution artistique de la région du XVIe au XVIIIe siècle."
+      }
+    ],
+    description: "Bordant le côté nord de la place principale de Buenavista del Norte, l'église paroissiale Notre-Dame des Remèdes (Iglesia de Nuestra Señora de los Remedios) représente l'un des sanctuaires religieux majeurs de l'Isla Baja et un exemple éclatant de dévotion et de résilience communautaire. Fondée vers 1513 sous la houlette des premiers colons et érigée en paroisse autonome en 1515, l'église primitive s'agrandit au fil des XVIIe et XVIIIe siècles pour adopter un vaste plan basilical à trois vaisseaux, typique de l'architecture religieuse canarienne inspirée des modèles mudéjars et de la Renaissance castillane. L'édifice traverse les siècles avant d'être frappé par une immense tragédie le 22 juin 1996, lorsqu'un incendie dévastateur ravage la quasi-totalité de sa charpente historique et consume de précieux retables baroques et statues d'art sacré. Portée par un élan populaire et patrimonial sans précédent, une restauration méticuleuse menée au tournant des années 2000 a permis de reconstruire fidèlement les charpentes en bois de pin tea, de restaurer les colonnes en pierre volcanique et de recréer à l'identique son somptueux retable majeur.\n\nExtérieurement, le monument séduit par l'austérité noble de sa façade blanchie à la chaux rythmée par un élégant portail en pierre de taille basaltique sombre et flanquée d'une robuste tour-clocher carrée à plusieurs registres coiffée d'un toit à quatre pans. À l'intérieur, l'espace se déploie dans une atmosphère de solennité et de clarté, où les arcades en plein cintre en basalte noir reposant sur des colonnes toscanes contrastent avec la blancheur des murs et la magnificence des plafonds à caissons (alfarjes) en bois sombre assemblés selon la technique traditionnelle du « par y nudillo ». Le chevet accueille le retable majeur baroque restitué, étincelant de dorures à la feuille et centré sur la statue vénérée de la Vierge des Remèdes, sainte patronne de la ville. Riche de ses chapelles latérales et de son dallage sombre, cette église incarne l'alliance parfaite entre le savoir-faire des charpentiers de marine d'antan et l'identité spirituelle séculaire de la région de Teno.",
+    visiter: "Franchir le portail en pierre volcanique pour pénétrer dans la grande nef à trois vaisseaux et admirer le contraste entre les colonnes de basalte sombre et les murs immaculés. Les visiteurs lèvent les yeux pour contempler la charpente mudéjare en bois sculpté avant d'avancer vers le chœur pour apprécier la reconstitution minutieuse du retable majeur doré abritant la statue patronale de la Vierge des Remèdes, puis parcourent les chapelles latérales conservant statues de procession et pièces d'orfèvrerie religieuse.",
+    link: ""
+  },
+  {
+    id: "buenavista_camino_de_baracan_foret_laurisylve",
+    name: "Buenavista del Norte - Sentier des Crêtes de Baracán & Forêt de Laurisylve (Camino de Baracán)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 858,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Ligne de Crête de Teno, Forêt Relique de Laurisylve & Mer de Nuages des Alizés",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 28.33797,
+    lng: -16.87653,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO32Kh8BlFxeaGXKZS_KUoLkQZIokr_ANq5OKLBexJ__lsj6hUC7gFywtBbqBNbWI9kKVi0as1HikPU5F1CuKxJmC4R2xrMRNqvHOctESLlI1sUGQ0WHWgb-KFjpjSEYtiBZkz1P78E7m381lqeASsujw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN3WggektFPktkr7tFK49zzGpO2ZuEkry0VyUkqoU2F4axxEpkVeeyVBXrCxa-qvtkox4g9aOmYDIUBvhnS93XgGA6YpL0CzSiegM6p_4KoX1af6DiPPBb8nghzgf_K7S69nGd7Ir6ApcGFr4zR0RNQZg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMBC1k1RsydxjSQEjoLea4J0wxnAl7chpNdL6WQo3hmdOT_vSxWvWF70Zu58O3KgHBDiZZ4M3h_DjEet9admO4vfmLFyfR28d2Zr9iJUjerX6jz7Y-ds2CNsmFUX2aYM-4PDNrHUmnoxp8ZQkjggWQcow=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPuuNakz4U4uUAlHvJ4S8B--1x6RvVdjyj_uFZ5dC4A3_kIf4w0aBhkrYr4xmBGjfwCKY62C8zMuZLV1WmDtTo2jc1ji8xW2L75MscZuiZ2tX7iVpUKuF4ZO0TZjNqYKAgxlCCUUj6_T1gHhcAvuq2meQ=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Sinuant sur le fil d'arête escarpé reliant le col d'Altos de Baracán aux hauteurs d'El Palmar et de Teno Alto, le sentier du Camino de Baracán constitue l'un des parcours de randonnée les plus saisissants et emblématiques du Parc rural de Teno. Cet itinéraire pédestre historique matérialise une frontière climatique et biogéographique spectaculaire entre deux mondes que tout oppose : d'un côté, le versant septentrional exposé aux alizés humides et enveloppé d'une dense mer de nuages permanente ; de l'autre, le flanc méridional plongeant vers Masca, baigné d'un soleil ardent et caractérisé par une aridité minérale quasi désertique. Le chemin chemine au milieu d'un précieux écosystème relique de laurisylve subtropicale et de fayal-brezal, vestige vivant des forêts humides qui recouvraient le bassin méditerranéen au Tertiaire avant les grandes glaciations quaternaires.\n\nSous les brumes mouvantes s'épanouit une canopée sempervirente luxuriante composée de lauriers des Canaries (Laurus novocanariensis), de viñátigos, de barbusanos et d'imposantes bruyères arborescentes (Erica arborea) dont les troncs tourmentés sont entièrement tapissés de mousses soyeuses, d'hépatiques et de fougères épiphytes profitant de la pluie horizontale générée par la condensation atmosphérique. À mesure que le tracé épouse les ondulations de la crête basaltique, la forêt dense s'ouvre brusquement sur des belvédères vertigineux dominant les ravins abyssaux de Los Carrizales et de Masca d'un côté, et la caldeira fertile d'El Palmar de l'autre. Cette immersion dans la fraîcheur ouatée des sous-bois insulaires offre une fascinante leçon d'écologie végétale et de géomorphologie, où la luxuriance botanique côtoie la verticalité farouche des plus anciens reliefs de Tenerife.",
+    visiter: "S'élancer sur le sentier balisé depuis le col de Baracán en suivant la ligne de crête sommitale pour pénétrer sous les voûtes humides de la laurisylve de Teno. Les marcheurs profitent des trouées entre les bruyères arborescentes moussues pour observer le phénomène saisissant de la mer de nuages se déversant sur le versant nord, tout en contemplant les parois abruptes des gorges de Masca côté sud, avant de poursuivre vers Teno Alto ou d'amorcer le retour en boucle.",
+    link: ""
+  },
+  {
+    id: "buenavista_mirador_punta_del_fraile",
+    name: "Buenavista del Norte - Belvédère de la Punta del Fraile (Mirador Punta del Fraile)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 147,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Corniche Littorale du Massif de Teno, Piton Basaltique du Fraile & Falaise Maritime",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.36671,
+    lng: -16.88457,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPH5MvprFN1a8qXa8WkcdoLE2yV2RSs5AriZcQ6KtW6-0dzsfOTb_VO3qAJgJSGfQ-O-lp-rjXpjDVI_xL9rjWLfCPV3yYJOeJTtHSg4Ym0xKmGScLOg2GS_qRmTdQ8Kxv-mrb9h5V87uy2B29Ha3w0tA=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPBQdCsq1wOvTi1cV5TclynuQ-pTLIMi8v66yjv5foUq6O8H7MiWsv5E9eiqtnJquygczgYLjwGVGuemLlXt-15wyx4CPKE8hiJXnDuAh13QHXDmVA5Y6y-UMsHPGWG2WKaJlQlz4NJ63kO5-aT4q6xqw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNY3jH7YJPXhHHlSLm5vsavGs8rfflBw2bRG5q1mDQAyT0KUUyn2GjVARLiDa1QDpruZpEo56fhM0Y95fHIBYR8OD6k4JL6W5rf-4vSBlHwbu-s9doijCUHUc0b_UgDbDOJ7YHO70SeDPoW6qu9iRbr5Q=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Aménagé en corniche audacieuse le long de la vertigineuse route TF-445 reliant la commune de Buenavista del Norte à la pointe extrême de Teno, le mirador de la Punta del Fraile offre l'un des balcons côtiers les plus spectaculaires et impressionnants de l'archipel canarien. Accroché à près de cent cinquante mètres au-dessus des rouleaux de l'océan Atlantique, ce promontoire tire son nom de l'emblématique monolithe rocheux dressé en contrebas, un piton basaltique élancé sculpté par l'érosion marine dont la silhouette évoque un moine drapé dans sa bure (fraile) contemplant l'immensité océanique. Le site permet d'apprécier la puissance colossale du massif volcanique de Teno, dont les parois basaltiques millénaires plongent de manière abrupte dans des eaux profondes d'un bleu cobalt, révélant la superposition complexe de coulées de laves denses, de brèches volcaniques et de dykes magmatiques subverticaux ayant résisté à l'assaut séculaire des déferlantes.\n\nLe belvédère dévoile un panorama marin grandiose s'étirant vers l'est sur toute la plate-forme littorale fertile de l'Isla Baja, ponctuée par les damiers verts des bananeraies traditionnelles et la côte rocheuse découpée de Buenavista, Los Silos et Garachico. Vers l'ouest, le regard suit la ligne tourmentée des falaises sauvages perfoliées de tunnels routiers creusés dans la roche brute, conduisant vers le phare solitaire de la Punta de Teno. Balayé en permanence par les embruns marins et le souffle puissant des alizés, le promontoire rocheux est colonisé par une flore rupicole côtière très rustique, où s'accrochent des touffes d'euphorbes maritimes, de tabaibas et de cinéraires maritimes, offrant une halte contemplative saisissante face aux forces telluriques et océaniques combinées du nord-ouest de Tenerife.",
+    visiter: "Une halte sur l'aire de stationnement du belvédère permet de s'avancer jusqu'au garde-corps sécurisé pour admirer la plongée vertigineuse sur le piton rocheux du Fraile battu par les vagues. Les visiteurs contemplent l'enfilade des falaises volcaniques du massif de Teno d'un côté et la vaste plaine côtière de l'Isla Baja de l'autre, avant d'emprunter les tunnels rocheux spectaculaires de la route menant vers la Punta de Teno.",
+    link: ""
+  },
+  {
+    id: "buenavista_phare_et_punta_de_teno",
+    name: "Buenavista del Norte - Phare & Réserve Naturelle de la Punta de Teno (Faro de Punta de Teno)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 20,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Bout du Monde Insulaire, Phares Historiques & Sanctuaire du Tabaibal-Cardonal (XIXe-XXe siècle)",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.34200,
+    lng: -16.92307,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOUhEepQK9wBC7ncPebvmfMqd9t3afaPE3h-NMZGCBaGOxy6V0ZmWwds9UUhmRuNsJ4ML_h6lol6ApMYdXOZLU7KtZ9dTgaloq8xzQUrrxH4L9K7uojH_pq5RaoIN5_xeImuMQ5ZlqA-nXS0CHhRV0NtA=w1379-h919-s-no-gm?authuser=0",
+    description: "Ancrée à l'extrémité occidentale absolue de l'île de Tenerife, la Punta de Teno constitue un promontoire tellurique grandiose et farouche où s'achève le continent européen dans les eaux tumultueuses de l'océan Atlantique. Cette avancée de lave basaltique solidifiée, formée par les épanchements volcaniques primitifs du massif de Teno au Miocène, déploie un paysage lunaire d'une virginité absolue, battu par le souffle impétueux des alizés et le fracas perpétuel des déferlantes océaniques. Le site est dominé par la silhouette emblématique de ses deux phares maritimes historiques superposés : la tour trapue en pierre de taille volcanique inaugurée en 1897 selon les plans de l'ingénieur José Luis de León, et la svelte tour moderne rayée de rouge et de blanc érigée en 1976 pour guider la navigation hauturière dans le détroit canarien. Véritable bout du monde d'une minéralité souveraine, cette plate-forme côtière offre un belvédère sans égal sur la muraille titanesque des falaises de Los Gigantes plongeant à pic sur plus de six cents mètres dans les flots turquoise.\n\nCe sanctuaire naturel isolé abrite l'une des communautés végétales semi-désertiques les plus spectaculaires et intactes de toute la région macaronésienne, dominée par le tabaibal-cardonal. Les dalles de scories sombres sont colonisées par de monumentaux candélabres d'euphorbes des Canaries (Euphorbia canariensis) et de tabaibas douces, adaptées à la salinité extrême et à la sécheresse par des tiges charnues gorgées de sucs laiteux. Le biotope héberge une faune remarquable, depuis les grands lézards endémiques (Gallotia galloti) se chauffant sur la lave jusqu'aux colonies de crabes rouges des rochers (Grapsus adscensionis) arpentant la zone intertidale battue par les vagues, tandis que les puffins cendrés nichent dans les anfractuosités des falaises. Doté d'une crique naturelle abritée aux eaux cristallines et d'anciennes salines rustiques, ce cap sauvage incarne l'alliance parfaite entre l'ingénierie maritime de signalisation et la puissance brute des éléments insulaires.",
+    intro_page: "Éperon rocheux s'avançant dans les eaux tumultueuses de l'Atlantique à l'extrême ouest de Tenerife, la Punta de Teno incarne un splendide paysage de bout du monde. Cette plate-forme basaltique balayée par les alizés réunit deux générations de phares emblématiques : la tour historique en pierre volcanique de 1897 et la haute colonne rayée de rouge et de blanc mise en service en 1976. Entouré par un champ d'euphorbes géantes en candélabres et par des criques translucides sculptées dans la lave, le cap offre une vue grandiose sur les monumentales falaises de Los Gigantes et les silhouettes lointaines des îles de La Gomera et La Palma.",
+    visiter: "Accéder à la pointe par la navette réglementée ou à pied le long de la route littorale pour atteindre l'esplanade panoramique des phares de Teno. Prendre le temps d'observer le contraste entre la tour néoclassique en pierre de basalte de 1897 et la lanterne moderne cylindrique peinte en rouge et blanc, avant de contempler la vertigineuse muraille de Los Gigantes plongeant dans l'océan. Les visiteurs poursuivent la promenade vers la crique abritée et la jetée de pêche pour observer les crabes des rochers et les lézards tisons dorant sur les blocs de lave sous le souffle marin.",
+    link: "",
+    sections: [
+      {
+        title: "Les deux générations de signalisation maritime : phares de 1897 et 1976",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOUhEepQK9wBC7ncPebvmfMqd9t3afaPE3h-NMZGCBaGOxy6V0ZmWwds9UUhmRuNsJ4ML_h6lol6ApMYdXOZLU7KtZ9dTgaloq8xzQUrrxH4L9K7uojH_pq5RaoIN5_xeImuMQ5ZlqA-nXS0CHhRV0NtA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPex5hyh4PyQoSbPfo8dGNeG7lvoKZ0HnvvbJRNDpFvRGbeHx11QrEGdV2GREGrc8xpaGY-oFLjeVI_CXTOoVyt_R3Vl1yhbhp4kkFddj875VjNQhNJI2lJSzXQgYAa0lKRabd_ut7tPQeNO8p4PyLHpQ=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le site présente la particularité historique de superposer deux générations de signalisation maritime : le phare primitif, inauguré en 1897 selon les plans de l'ingénieur José Luis de León, se compose d'une tour trapue en pierre de taille volcanique issue des carrières locales de Teno, intégrée à un sobre bâtiment d'habitation rectangulaire de style néoclassique canarien qui abritait autrefois les gardiens et leurs familles. À ses côtés s'élève le phare moderne mis en service en 1976, une svelte tour cylindrique en béton armé haute de vingt mètres, rythmée par des bandes horizontales alternées rouges et blanches, dont la lanterne automatisée culmine à près de soixante mètres au-dessus du niveau de la mer avec une portée lumineuse dépassant les dix-huit milles nautiques."
+      },
+      {
+        title: "Panorama grandiose sur les falaises de Los Gigantes et les îles occidentales",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNkrG6EgWiVZ_oV2a51Bfvtsuj-sRNzUfBJWL_Ip1ubzlQb0sALu-ekN2vg5FvjK2MMYLGarWlgRPddUHayYEnvzQ4KrvMcoQoRUCD1mk0XtzZdT2Qtdyg7RFdCnb6a5bJ4PF3HuCFllz9hX69qjaJ9tw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOFrdLO02a8vxxEPawFktC2JNmFcSb6bdTyy5weIKbMtlj6nKbB-_jODDmWwhX_IKG22-tCXtIG042ZW5juBzq6UsfofR_tu5PgxqyZK6g55JRiqPC5P_h4pHSVlAKzp8Kfl_dThfW4i-FFSsE1N9WWgA=w1378-h919-s-no-gm?authuser=0"
+        ],
+        text: "La vue depuis le phare offre l'un des panoramas les plus grandioses de toute la Macaronésie. Vers le sud, le regard embrasse toute la perspective colossale des falaises de Los Gigantes, gigantesque muraille basaltique noire qui plonge à pic sur plusieurs centaines de mètres dans l'azur de l'océan, tandis que vers l'ouest et le sud-ouest se découpent nettement sur l'horizon les silhouettes montagneuses de La Gomera et, par temps clair, de l'île de La Palma. Ce poste d'observation privilégié permet également de contempler le ballet aérien des oiseaux marins pélagiques, notamment le vol rasant des puffins cendrés qui viennent nicher dans les anfractuosités des parois rocheuses, scellant la rencontre entre la mémoire de l'ingénierie maritime et la puissance tellurique insulaire."
+      },
+      {
+        title: "Écosystème du tabaibal-cardonal, criques sauvages et mares basaltiques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPZ5Sz1YebbRDyHlk-QDKR9b7LKTP6Rkwrplmt2jReigYx-4qPabSVNaM9_fXAaEk1pLyRTh3_QituXmwW85YkfRO0PMayLptU63yhtBBfcXD98KTepRBkEzZffLvR1ChUC_HvNxryHy9wNko2LY5Gsiw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPvrdchVzWsH12M5hvtKwwTCooL8SsPtaSapv_itFMOhOt4OTA2Ino18voVPRMrZwV3TaTd86lww-jWREnx7oAzpS8oDSOJev0HxyLY-IbzH_0_H-6fuLKgJ6v9YrVed3et5cKugDvTZjdTyyyg8E2RtQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Sur cette plate-forme balayée en permanence par les alizés et les embruns marins, le biotope est dominé par un remarquable champ d'euphorbes adapté à une salinité extrême et à une sécheresse prolongée. Le sol de scories et de dalles basaltiques est colonisé par le tabaibal-cardonal, communauté végétale endémique dominée par l'euphorbe des Canaries (Euphorbia canariensis), aux imposantes silhouettes dressées en forme de candélabres, et par la tabaiba douce (Euphorbia balsamifera), dont les troncs noueux épousent le relief pour résister à la violence du vent. Le littoral déchiqueté est ponctué de criques sauvages, de mares résiduelles (charcos) sculptées par le ressac et d'une petite anse abritée dotée d'une rampe de mise à l'eau artisanale, où les eaux d'une limpidité totale dévoilent des fonds marins volcaniques d'une richesse biologique exceptionnelle, très prisés pour l'observation subaquatique."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOIiwVAqmM-xSPUX7DHEmULZRU15r5NCcBpi05D_X2RNQsBHNwAhsMN15EWz-pt95n1OCgKbDrniRSe9NEphG8_ehhpviNYBB5YI2R-OQD2K_VMVUoqSLAjm7vfOfVNrsqcQEQbn64AnX3qcXpB2zk1Mw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNqPJgpAVU6AOx3OWo3QA4l-rM_Fn9K77hyiUg2JiL4kzmu-LMdxatbnrTjEJTN9q9DcPEXy3AQ69pSCh4agIAC3JicpTl4mcv2B8NLj2HzcQNjgaq968d6iMQw6hve-k2qzguB9FNfdE-Ej69JMbsDnw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMepOBYuSP3D7VjIF6qu8KAOlBnBHaAolqdZLzrTscC7UjDriOBwyOD0NMRl7R0BIKscjoWwpUtvW78Z_YsI61s2ktNNuqvVi5Tdll4xzu7RH3Of1_zRu6iVQ3Oam8Ql1sUtW5qlv0siMygQVOPpxjCYA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPRD5eSmzubrLm48xxIL6bd_ygT3rIGmWLAyOWzUQMNtKiRHP7Gfe3otNsZzx7bP52WN4kjvtV6vKw9hT7dvmih0sHdkDXx9EFMSb_1GulJjztRjMB6xzAbNNRMOsuLl-n0vosuHEkumfhdkSXJxJbX8w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le lézard de Tenerife (Gallotia galloti), seigneur des coulées basaltiques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOEmlBip57M8rTYg9km_iL7L5tpPIz7FFL2GJK3OreCdh_ym8K5W3hpXbrZjlTukoiR4kdk3OAIknqrq-9LlhIOx8eBAnTVkAJwo-SNU0nUxQx6nfVvsVifSDIbjZpJxYPe0eJAGImvpb6IHUWuQjl0IA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOnWDNtUEKJiO_48FVMBKnGvnQ-WWMrr_OdQ0BF3bxkXzVgHeMilzKG2AeU_3FgxNRHlqsMs0Ug_DDQLStnTB8oseiLEcY4eguaYmQiO-Q6gDStvsSCTg48iW-lkYUipfcIB8cw709_svitkD024toTVA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Endémique de Tenerife et de La Palma, le Gallotia galloti (ou lagarto tizón) règne en maître sur les milieux volcaniques insulaires. D'allure trapue et vigoureuse, ce grand lacertidé atteint facilement une trentaine de centimètres de longueur totale, queue comprise. L'espèce présente un dimorphisme sexuel spectaculaire, particulièrement frappant lorsqu'il s'expose en plein soleil sur les blocs de basalte. Les mâles dominants arborent une livrée sombre, presque charbonneuse, illuminée sur les flancs et la gorge de vives taches bleu cobalt. Plus discrètes pour échapper aux prédateurs, les femelles et les juvéniles gardent une robe cryptique brun clair striée de bandes longitudinales. Parfaitement taillé pour l'aridité des falaises et des malpaís, il passe de longues heures en thermorégulation active sur la roche chaude. D'une vivacité fulgurante au sol, il se réfugie au moindre danger au fond des fractures de lave ou sous les racines des euphorbes."
+      },
+      {
+        title: "Le crabe des rochers (Grapsus adscensionis) sur la lave intertidale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNSqzBYLtWVKq6-Q9pB_CkSyS3884o7goQ_gdZo-i2BbkIjteJMXSwjFQq98aeXUYumWJi6073zy4kRjUizigTIwPJlfUyCxzBN04JAETtzWY6FKeoE9hRpvxkQv3ssKBizYfJsSzzW5PA4JsWWYsNyDA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le Grapsus adscensionis, communément appelé « cangrejo moro » aux Canaries ou crabe des rochers de l'Atlantique, est un crustacé emblématique de la zone intertidale rocheuse. Arpentant les coulées de basalte sombre battues par la houle, il se distingue par sa carapace plate, presque circulaire et finement striée, arborant chez l'adulte des teintes spectaculaires mêlant rouge écarlate, orangé vif et marbrures sombres, tandis que les juvéniles conservent une livrée verdâtre ou brunâtre pour se camoufler. Extraordinairement agile et rapide, doté de longues pattes épineuses terminées par des griffes acérées, il adhère avec force à la roche verticale même sous l'impact direct des déferlantes. Essentiellement herbivore et détritivore, il passe les heures de marée basse à racler le fin tapis d'algues encroûtantes à l'aide de ses pinces robustes, sans dédaigner les invertébrés ou débris organiques rejetés par l'océan. D'une grande vigilance, guidé par des yeux pédonculés très mobiles, il s'évanouit en un éclair au fond des failles basaltiques ou sous les anfractuosités des bassins de marée dès qu'une ombre ou un prédateur approche."
+      }
+    ]
+  },
+  {
+    id: "buenavista_centro_visitantes_teno_montana_el_palmar",
+    name: "Buenavista del Norte - Centre des Visiteurs du Parc Rural de Teno & Montaña de El Palmar",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 526,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Maison du Parc Rural de Teno, Carrière Volcanique d'El Palmar & Flore Macaronésienne",
+    century: "Temps géologique",
+    category: "parc_naturel",
+    counts: {},
+    lat: 28.34226,
+    lng: -16.85106,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMnSg6gLFb8gTTDQXn3fK-C29ux0FE8ah7FACGTOjzTPXSqMp497O0DrlY9s-p3kAt8OYhv81EuP7QO_TZw_08aEtHw1jRej1X5Co8FGItyI9g9flyn15I5t9XoFjZTFXjVF2pzzQ9oIusiOjuL3pwG1w=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMJNFstqgsAduXuqc8CS0PVS1F1bBQCLxZ-biGrN1EB7N1iWj5ClB5NK_nMFklYvCqnyAkSm6irWR8qmZlcXcKEtD9D7u7bgzSAz6kMYm2o2S2MaASADWnkSbXvfCWJ5vy30dT_5EZCViovid5yataVwQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "Le dragonnier des Canaries (Dracaena draco) est un arbre emblématique de la Macaronésie à la silhouette en parasol caractéristique.\nSa croissance est très lente et il ne possède pas de cernes de bois, formant une ramification dichotome environ tous les 10 à 15 ans après chaque floraison.\nIl sécrète une sève rouge foncé appelée « sang-dragon », traditionnellement utilisée comme colorant, vernis et remède médicinal.\nParticulièrement adapté à la sécheresse, il prospère dans les sols pauvres et bien drainés sous un climat méditerranéen ou subtropical doux.\nCertains spécimens historiques, comme le célèbre Drago Milenario d'Icod de los Vinos à Tenerife, atteindraient plusieurs siècles d'existence."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN7tp-yzVbfKkLt3i4PIfuE2KaBnNqhSYyUSf-NP8dltb0hRGg3LQSRXThJTNzwBTw4zkoKwpuvPTC2oLE7WG7E1zFseI7kiAhJYORLvADaVZYfSxqCsnVTgNyDvmX1_jCDEpBB8W133PFdLN9s__rbkQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOcZ4f0LH6RXGzS9qSC3-j7xHlLTa5VYD1YY_2F3ZdLkGkmkZ-BSydZEjakfn3EpMq6jLlFqcLPPJF7kO57ADuGCimLDv-8H85__CRIT46J8dRva9tV0QE90cYJmivO6aGh1b8NhdZ_HWgU5-YgBJboEg=w1379-h919-s-no-gm?authuser=0",
+        caption: "Sur les coulées de lave brute et les versants arides de l'ouest de Tenerife, le Kleinia neriifolia — ou verode — s'impose comme une silhouette presque architecturale du paysage basaltique. Accroché directement aux fissures de la roche volcanique et aux falaises côtières du Teno ou des pentes du Chinyero, cet arbuste succulent dresse de gros troncs segmentés, cylindriques et d'un gris-vert cendré, marqués par les anneaux réguliers laissés par les anciennes feuilles.\nSon cycle de vie colle étroitement à la rudesse du climat d'altitude basse : dès que l'aridité estivale s'installe, il sacrifie l'intégralité de son feuillage pour éviter tout dessèchement. Il passe alors les mois les plus chauds sous la forme de candélabres squelettiques et nus, la photosynthèse n'étant plus assurée que par l'épiderme charnu de ses tiges gorgées d'eau."
+      }
+    ],
+    description: "Installé dans la haute vallée fertile d'El Palmar au cœur du massif occidental de Tenerife, le Centre des visiteurs du Parc rural de Teno (Centro de Visitantes) constitue le point d'interprétation incontournable pour comprendre l'extraordinaire richesse géologique, écologique et ethnographique de ce territoire montagneux d'exception. Aménagé dans une ancienne bâtisse d'architecture vernaculaire canarienne en pierre volcanique et bois de pin tea, le centre présente au public les spécificités d'un des trois massifs pionniers de l'île, formé au Miocène il y a plus de sept millions d'années. Les expositions et les jardins botaniques entourant le complexe mettent en lumière la végétation d'une diversité saisissante, où alternent les reliques de la forêt primaire de laurisylve dans les vallons humides et les formations xérophiles et thermophiles sur les pentes arides, remarquablement illustrées par des spécimens de dragonniers des Canaries (Dracaena draco) et de verodes (Kleinia neriifolia) dressés en candélabres charnus.\n\nLe paysage est dominé par la silhouette insolite et spectaculaire de la Montaña de El Palmar, un cône volcanique de scories sombres dont les flancs portent les profondes cicatrices d'une ancienne exploitation d'extraction de sables pyroclastiques (picón). Ces gigantesques entailles en gradins, creusées au cours du XXe siècle pour alimenter les besoins en matériaux de drainage des cultures maraîchères de la plaine littorale et les constructions de l'île, composent aujourd'hui un paysage géologique sculptural unique évoquant une carrière antique monumentale à ciel ouvert. Entre les terrasses de culture vivrière étagées au fond de la caldeira d'El Palmar, les haies d'agaves et les sentiers de randonnée rayonnant vers les crêtes de Teno Alto et les gorges de Masca, le site incarne la symbiose historique entre les ressources telluriques insulaires et la patience des communautés paysannes de l'ouest de Tenerife.",
+    visiter: "Une halte au centre des visiteurs d'El Palmar permet de parcourir les salles d'interprétation interactive et d'admirer les collections botaniques de plantes endémiques canariennes réunies dans les jardins pédagogiques. Les promeneurs prennent le temps d'observer le profil entaillé de la Montaña de El Palmar, dont les parois de scories découpées en amphithéâtre géant révèlent la structure interne du cône volcanique, avant d'emprunter les sentiers balisés menant vers le plateau pastoral de Teno Alto.",
+    link: ""
+  },
+  {
+    id: "buenavista_parc_de_teno_alto",
+    name: "Buenavista del Norte - Plateau Pastoral de Teno Alto (Los Bailaderos & Crêtes de Teno)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 707,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Plateau d'Altitude Pastoral, Cultures en Terrasses, Architecture de Crête & Queso de Teno",
+    century: "XVIIIe siècle",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 28.34835,
+    lng: -16.88037,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPTijkEvUGnOG2mqAbu1NX99Dl7TC4lek0X2-or0nmE-TiHyidtjLnzcmuei0JdpYqnT1L_K0ZgqYGqJDB42uDLCgdjdrU3cXbbf_xc0A-vA6egUtyr2Ars4RLdpJLXJAUjDr2onocCtbGs6CHgDVfZSQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Perché sur un haut plateau balayé par les alizés à plus de sept cents mètres d'altitude, à l'extrémité occidentale de l'île de Tenerife, le secteur de Teno Alto constitue l'un des sanctuaires ruraux et ethnographiques les plus authentiques et préservés de tout l'archipel canarien. Isolé pendant des siècles par un relief d'une verticalité vertigineuse, ce terroir montagnard a conservé vivantes les pratiques agropastorales traditionnelles transmises depuis l'époque des populations aborigènes guanches. L'ensemble de la comarque se distingue par un paysage culturel prodigieux façonné par des générations de paysans : les versants des collines basaltiques sont entièrement sculptés d'un lacis dense de murets de soutènement en pierre sèche (bancales), édifiés avec patience pour retenir la terre fertile face aux averses et valoriser l'humidité apportée par la condensation permanente de la mer de nuages. Cette agriculture vivrière séculaire fournissait l'orge et le blé nécessaires à la confection du gofio traditionnel, battus sur de monumentales aires circulaires dallées de pierre (eras) toujours dressées au vent sur les arêtes rocheuses.\n\nLe cœur communautaire du plateau s'articule autour du hameau de Los Bailaderos, dont les maisons basses caractéristiques de haute montagne (casas de cumbre) associent de massifs blocs de basalte montés à la chaux, d'anciennes toitures en tuiles canal cuites sur place dans des fours traditionnels (hornos de teja) et d'épais murs conçus pour amortir les rigueurs du vent océanique. L'économie des lieux demeure intimement liée à un élevage caprin extensif remarquable : les troupeaux de chèvres de race canarienne parcourent les landes de thym volcanique et de bruyères arborescentes pour donner le prestigieux Queso de Teno, fromage artisanal au lait cru réputé pour sa saveur unique. Depuis les lignes de crête bordant le plateau, notamment au mirador d'Altos de Baracán marquant la frontière climatique saisissante entre versant nord brumeux et versant sud solaire, la vue plonge vertigineusement sur les falaises maritimes de la Punta de Teno et les abîmes des gorges de Masca, célébrant la rencontre souveraine d'un pastoralisme d'altitude et d'une géologie volcanique titanesque.",
+    intro_page: "Suspendu à plus de sept cents mètres d'altitude au cœur du massif le plus ancien de Tenerife, le plateau de Teno Alto forme un isolat pastoral d'une saisissante beauté préservée. Façonné par des siècles de traditions rurales, ce paysage d'exception déploie un réseau monumental de terrasses de culture en pierre sèche et d'aires de battage circulaires battues par les alizés. Autour du hameau traditionnel de Los Bailaderos, les maisons basses en basalte côtoient les fours à tuiles séculaires et les bergeries où se perpétue la fabrication artisanale du réputé fromage de chèvre de Teno. Véritable belvédère naturel suspendu entre ciel et terre, la crête offre des perspectives plongeantes vertigineuses reliant les falaises atlantiques de la Punta de Teno aux crêtes déchiquetées du canyon de Masca.",
+    visiter: "Parcourir à pied les sentiers dallés reliant le hameau de Los Bailaderos aux différentes parcelles cultivées pour observer les alignements séculaires de terrasses en pierre sèche et les anciennes aires de battage de céréales. Pousser la porte d'une fromagerie artisanale locale pour déguster le fromage de chèvre au lait cru de Teno Alto, avant de grimper jusqu'aux crêtes du mirador Altos de Baracán afin d'expérimenter la frontière climatique entre brume et soleil tout en contemplant la vue plongeante sur l'océan Atlantique et les falaises de Masca.",
+    link: "",
+    sections: [
+      {
+        title: "Modelé des versants et murets de terrasses en pierre sèche (bancales)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPTijkEvUGnOG2mqAbu1NX99Dl7TC4lek0X2-or0nmE-TiHyidtjLnzcmuei0JdpYqnT1L_K0ZgqYGqJDB42uDLCgdjdrU3cXbbf_xc0A-vA6egUtyr2Ars4RLdpJLXJAUjDr2onocCtbGs6CHgDVfZSQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMmcork3nOeN1n8EGI4aZd_a9FNx6b2Jy4c1SsglZ9c3V31yUmmTBSp0uGI-Ok0nsM4-j1h52_fBD55rVksryDQGbRZmHsuzmvBkUhVz984VWQ1XIvKuBIholq_-SY0FIKrOsp5Dz9VzqpKt5ZDrO4l4g=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le trait marquant de cette haute plaine réside dans le modelé de ses versants, sculptés par un ingénieux système de cultures en terrasses (bancales ou paredones). Pour arracher des terres arables aux pentes rocailleuses et retenir les maigres sols fertiles contre le ravinement des averses, les habitants ont édifié au fil des générations des kilomètres de murets de soutènement en pierre sèche."
+      },
+      {
+        title: "Polyculture vivrière traditionnelle et aires de battage circulaires (eras)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPPnKCk0tgPcsPsiRFbsS_dv1SmEnxHsXA7jEI4ajCv5ji0Exc6bONGwC2pFMt1aDRZoD_iJUyhbQC-bN7LXqFoftvofDl2v0oUiHxh7Weht7yfPaB3fGGi_9HfDEOnD3bP3qDALAJfv7EYh1YlYbFdoA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOsrTGGTBdwvfw1mNg4bnsoCcFzmgTBzqsmoq17BlI8jFL3AL8mPEPupz93iS3DYOwj2Vor1AnvEY7U68_1uhll5OGfRmKq9M3ImfNbmVQP--SEpm9adRj5KnZ6np7C3iI-RjhOOCxXsfWHdRhWNybJ4w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Ces terrasses étagées tirent un parti optimal de l'humidité atmosphérique apportée par la brume orographique des alizés, permettant une polyculture vivrière traditionnelle autrefois essentielle à l'autosuffisance de la comarque : céréales de montagne comme le blé et l'orge destinées à la mouture du gofio, fèves, pois chiches, oignons, ainsi que des variétés anciennes de pommes de terre locales (papas bonitas et papas negras). Sur les crêtes bordant ces parcelles subsistent de remarquables aires de battage circulaires (eras), soigneusement pavées de galets et de dalles volcaniques, où le bétail piétinait les gerbes de céréales au vent pour en séparer le grain de la paille."
+      },
+      {
+        title: "Le hameau de Los Bailaderos, architecture vernaculaire et pastoralisme caprin",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO4h3VvybB39YDoVxt9eb4tkZYMd_tyoeW63uYH530Yj0EM-Ia3lkVgAJa_8Yvv6kIlFKlrk_iMCj0wE29yy2Td7NcCBw9mWLENMyI56Xs_rwZz0FSBCalzcYkEHWQocz8PieRkdm4jhIbSK1FocRNcVA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPAuTdzA5fF4_q8GM3DS2AU2EHDKoYHrffn6bwBUbcdhsu7cRgNvc2BFIT2KRW-8QOkWG3-9KYrzk4RFaVenhReUfRZw6WqKGZcQ_0YV4prxzAHzelskrT_8fad0K0oAM_jOOuEK2Cd3NfbB1NvX4E22A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'agglomération principale s'organise autour du hameau de Los Bailaderos, dont le toponyme évocateur renvoie aux rituels de danses et d'invocations de la pluie pratiqués par les anciens autochtones guanches sur les hauteurs dénudées du plateau. Depuis les abords du Mirador de Teno Alto, le paysage dévoile un ensemble exceptionnel d'architecture vernaculaire canarienne (casas de cumbre), caractérisée par des maisons basses rectangulaires aux épais murs porteurs en blocs de basalte sombre jointoyés à la chaux ou montés à sec, conçues pour résister aux assauts du vent et amortir les écarts thermiques. Ces demeures sont couronnées de toitures à deux ou quatre pans couvertes de tuiles courbes traditionnelles en terre cuite, souvent adossées à d'anciens fours à pain hémisphériques en pierre volcanique et à des fours à tuiles (hornos de teja) qui permettaient aux villageois de produire leurs propres matériaux de construction à partir des argiles rouges locales. L'économie vivante du plateau repose toujours sur un pastoralisme caprin profondément enraciné, structuré autour de petits troupeaux de chèvres canariennes adaptées aux parcours accidentés des crêtes. Ces animaux valorisent les pâturages maigres de thym volcanique, de cistes et d'ajoncs, fournissant la matière première du réputé queso de Teno, fromage artisanal au lait cru de chèvre à pâte pressée, consommé frais ou affiné et parfois légèrement fumé au bois de bruyère arborescente."
+      },
+      {
+        title: "Ligne de partage des crêtes au Mirador Altos de Baracán et vues océaniques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOJVMNnW1whuzBfcT8Lb2DGOZwI6lXj6HLZLQvYKgJGxtRyK7E3Pa0nGcOUTQ6AjmSoskOe4T31LTGJ6sFvJrrQONixzTs1YYWNY4novOXiArA74YMuvZLmROSx1kBRHlhlxANWYtdqxlTN6by0OafPuw=w1378-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNaIsOxgQvkklFEHKqLMw7enRc43juVWTGeWbqFcV-UF6MP1DIVMgEZBp-5ar3HSi35cRPdeZQOYRNa5NnXSZ9RdcaVMAucJ0vnc1t2RLQMHIAN36j82AZ3ar91u7C4DrX_bF3SsauLErdMCD81eJ0Xig=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En gagnant la crête sommitale au niveau du Mirador Altos de Baracán, qui marque la ligne de partage des eaux et la frontière climatique entre le versant nord humide battu par les nuages et le versant sud aride baigné de soleil, le parcours offre des perspectives vertigineuses : vers l'ouest s'ouvrent les falaises maritimes et la plaine côtière de la Punta de Teno, tandis qu'au sud se détachent les crêtes crénelées de Carrizal et de Masca, scellant l'harmonie entre un terroir pastoral millénaire et la rudesse géologique insulaire."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNnF8wL2xE6FDo45mSYXWR2c7qN4h_3wFrskgDT_7uIrt7nVq-Hv91xAWHb4KsvUR4PqEMyfhChs8s7o2em1qAXrD76lk4OD2KZMFgRg_KsWkyfiR6rdYug4Q499_ukMK5DXzy7h3YC2AkgsksPyoHKbw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMqa2rb6vEd87r1QyS4PFi3WSfPa4uZ70Lqw29VSXFL5MUQZJGDdzIi5-tRYyybMhs4184aJXaCNJpNkt2Vnuee0xGHGujaCUYeMPm6Qt4TRYKBLdZ9c64dZnXCbyVDy9GoYVtgZzc8qPtJwq1CFZTlOA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNb7DtuEUq9nT2ITonVhX8_1jTDfY-XIIJtlt1ds7TMOPjZMAu3S_59fbITaUR_fbOSWYRxQXRGbqF5AYKMEk1HgEjmRPt2YFUHbO5803QPbcvYl2PL7vd3hmT9lm7YIzHoztxxX-jAkoCU7NBDyMBorg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNbqoVZHi0qfMd0J4w74HP_6o2q-2cOax0ogPFYBlZgFJXdw_rz6FxhmHf6cAK1xdSV-zqhzS4fFy2yOAcenDSD95U6KBQWtEUAV_PBpbqICehJk9_aqAN5uoVnv7TOd6qDHfd1WfIwQ9EwIDeor-276w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
+    id: "la_guancha_charco_del_viento",
+    name: "La Guancha - Piscine Naturelle du Charco del Viento",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "La Guancha",
+    altitude: 3,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Piscine Naturelle Volcanique, Bras de Lave Basaltique & Lézard d'Eisentraut",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.40095,
+    lng: -16.67399,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP7HVQMDTCddPYVypjjPuD6zf6OIU0J-o0LZOMcHr0i3kXY5kkyMB8Q-JrB3uxrRfdKmzZMznM2vSLoRYprD0LsywHy936GyBZY4J2a_kCHOpbqSlt7TlV_fWNtdLeKIKZDpL9bYQYRzCLrVzNc2UzyAQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNlqyUtdNLOhaDb5gbGM9_IEnY0ycd-9R_BISYpZa4tytsBwDS2pnq_ViIf6JCLUxEcnQW9v7I6PbAjPPdaerJHKUNVbCVe-u-nXSuYVuU6VXWaEa1Gi9m1fI6OlPAXUazGcGnHQhGCuEUWFiBVs6OUKA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPpTurRRo3CjuIOaZfA3U7f6KyWvWyGg3B_tJrwdefQSnpB571YkvejxL5cZvyK1FDA-653f8H0ddkpxcm77ND3eArBdPAw7UOkkRsntx9GhfA6VcHWwu4y-P9kes3_Eigwah_9sgVt9FWTPTP6O8gl2w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMAkIMne96Z9ThW9UIADMHPUZfHOTD7reexbKgMZu92IqaaRu_W6t00AhQ10KHHXzlWvxhUSma28MFrCyZ_BcKQ6k4ECOdEMHtJjoyVIJG1bBTZKhRF4jClF0fGT--citN_Z8Fo-an8h5_deJxhrgO7PQ=w1377-h919-s-no-gm?authuser=0",
+        caption: "Sous-espèce endémique emblématique du versant septentrional de Tenerife, le lézard d'Eisentraut (Gallotia galloti eisentrauti) se distingue par le spectaculaire dimorphisme chromatique de ses mâles adultes. Ceux-ci arborent sur un fond sombre de saisissantes ocelles bleu turquoise vif alignées sur les flancs, associées à des bandes transversales jaune verdâtre sur le dos et des reflets azurés sous la gorge. Particulièrement robuste et véloce, ce reptile héliophile colonise les falaises littorales, les murets traditionnels de pierre sèche et les coulées basaltiques pour se chauffer au soleil. Son régime omnivore et opportuniste, mêlant petits invertébrés, bourgeons et baies charnues, en fait un dispersseur de graines fondamental pour la régénération de la flore des écosystèmes volcaniques insulaires."
+      }
+    ],
+    description: "Sur le littoral septentrional découpé de Tenerife, au pied des falaises fertiles de la commune de La Guancha, le Charco del Viento compose l'une des piscines naturelles d'origine volcanique les plus spectaculaires et prisées de l'archipel. Ce havre d'eau turquoise résulte de la rencontre cataclysmique entre d'antiques coulées de lave basaltique visqueuse dévalant les pentes du Teide et les eaux fraîches de l'océan Atlantique. Le refroidissement instantané du magma au contact de la mer a figé dans la roche deux monumentaux bras de lave parallèles avançant dans les flots, formant une double barrière naturelle d'enrochements noirs qui brise avec efficacité la violence de la houle du large. À l'intérieur de ce bassin protégé, l'eau de mer se renouvelle constamment au gré des marées, créant une succession de vasques calmes et translucides tapissées d'algues et de rochers polis, propices à la baignade et à la contemplation d'une riche vie marine côtière.\n\nLe site est entouré d'une mosaïque de bananeraies traditionnelles et de murets de pierre sèche où s'épanouit une faune reptilienne remarquable, dominée par le lézard d'Eisentraut (Gallotia galloti eisentrauti). Les mâles de cette sous-espèce endémique au nord de l'île, parés d'éblouissantes ocelles turquoise vif sur les flancs, arpentent avec agilité les dalles basaltiques chauffées par le soleil. Accessible par une route sinueuse traversant les cultures côtières puis par des escaliers et des plates-formes de pierre volcanique discrètement aménagées pour respecter la sauvagerie du littoral, le site offre un panorama ouvert d'une rare intensité sur les falaises sombres du nord de l'île, battues en permanence par les écumes blanches et les alizés marins.",
+    visiter: "La descente s'effectue par des escaliers aménagés à flanc de falaise depuis le parking sommital, offrant des perspectives plongeantes sur les deux jetées de lave noire enserrant le bassin turquoise. Arrivé au niveau de l'eau, on prend le temps d'observer les contrastes minéraux de la roche basaltique et d'admirer les lézards d'Eisentraut se dorant sur les murets de pierre, avant de profiter d'une baignade rafraîchissante dans les vasques calmes à marée descendante, tout en admirant la puissance des déferlantes atlantiques au-delà de la barrière de basalte.",
+    link: ""
+  },
+  {
+    id: "garachico_piscines_naturelles_el_caleton",
+    name: "Garachico - Piscines Naturelles d'El Caletón (Piscinas Naturales de El Caletón)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Garachico",
+    altitude: 3,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Laves Basaltiques Pétrifiées de l'Éruption de 1706, Bassins Marins Naturels & Isla Baja",
+    century: "XVIIIe siècle",
+    category: "star",
+    counts: {},
+    lat: 28.37358,
+    lng: -16.76612,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMUg2HXFLem98OEa969DSmK76jf8KYJgHfC9rCTbX3xwVa-8_UpuB-Dg5bpmZ_6gBv1h5njccW1QmGbqXwpEatbsqY22TnGdO6x9NOP1UiwxmVTAI9m9eA7wXN5bKozhMzTRAWhiKQIiFUDvSOOnwdVuA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Au pied du château fort de San Miguel et le long du front de mer historique de Garachico, les piscines naturelles d'El Caletón incarnent l'une des métamorphoses géologiques les plus spectaculaires nées de la violence volcanique des Canaries. Ce dédale aquatique singulier a vu le jour lors de la fatidique éruption du volcan Trevejo (ou Arenas Negras) en mai 1706, lorsque d'immenses fleuves de basalte en fusion dévalèrent les pentes septentrionales de l'île pour se jeter dans l'océan Atlantique. Le contact thermique brutal entre le magma à plus de mille degrés et les eaux fraîches marines provoqua un refroidissement instantané et un bouillonnement cataclysmique, figeant la lave en une multitude d'arêtes déchiquetées, de cavités sous-marines et d'enrochements noirs qui conquirent une nouvelle frange littorale sur les flots. En se pétrifiant, ces langues de basalte ont façonné un complexe naturel de criques fermées et de bassins marins de profondeurs variées, où les déferlantes de la houle atlantique sont naturellement brisées par des digues de roche volcanique.\n\nL'eau de mer s'y renouvelle en continu au gré du flux et du reflux des marées, offrant des vasques calmes d'une limpidité cristalline où les baigneurs profitent d'une eau tempérée tout en observant les poissons côtiers nageant entre les failles basaltiques. Des cheminements piétons dallés, des escaliers de pierre volcanique et des solariums discrets ont été aménagés avec un soin scrupuleux sur les coulées consolidées pour sécuriser l'accès aux bassins sans altérer l'intégrité sauvage du modelé tellurique. Dominé par la silhouette massive de la tour carrée du château Saint-Michel et encadré par le profil escarpé du Roque de Garachico émergeant des vagues au large, le site d'El Caletón symbolise la renaissance triomphale de la cité, transformant les stigmates de la tragédie volcanique du XVIIIe siècle en un havre de détente marin emblématique du nord de Tenerife.",
+    visiter: "Une promenade le long des passerelles et des escaliers en pierre volcanique aménagés sur les coulées de lave permet de cheminer au plus près des différents bassins d'El Caletón en observant le contraste saisissant entre le noir profond du basalte et la clarté turquoise de l'eau. Les visiteurs profitent d'une halte baignade dans les vasques abritées à marée descendante, tout en admirant la silhouette du château San Miguel qui borde la promenade et l'îlot du Roque de Garachico se dressant fièrement au milieu des écumes de l'océan.",
+    link: ""
+  },
+  {
+    id: "garachico_castillo_de_san_miguel",
+    name: "Garachico - Château Fort Saint-Michel (Castillo de San Miguel)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Garachico",
+    altitude: 5,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Fortin Côtier Renaissance, Défense Anti-Corsaires & Rescapé de l'Éruption de 1706 (1575-1577)",
+    century: "XVIe siècle",
+    category: "chateau",
+    counts: { chateau: 1 },
+    lat: 28.37317,
+    lng: -16.76602,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMmdwEUrVekNIdLnGC6XMkukwkGWSLEPAaUv42lyRn5y7Gdort8INisEbJa0hpUexZBkpLuUEBILH_GowjNcJsi4ZjbvQoE1bhlHu-uPzVd31DU57uM4DnKVArbeRv2zlAcJAW5REKXNV99ogkFhicWLA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOMCGAnK-5HxI5cu6L_QLjq7T7Rt-wqUDyeqgBLagoigjYnIQab4ELuGz49I4s7vYKqmyELf0lf4oLDEsUCjwSrObE5kN9Jlh8_2wVHEbUpFYkP6tqVyCNaqCFGC-SiFqj7mRgA8xu3cOpdDNxog-KMEg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressant sa robuste silhouette carrée en pierre de taille au ras de la roche volcanique du front de mer, le château fort Saint-Michel (Castillo de San Miguel) constitue l'un des rares témoins intacts de l'époque où Garachico régnait sur le commerce maritime des Canaries. Autorisé par décret royal de Philippe II en 1575 et achevé en 1577 sous l'impulsion du maire Fabián Viña Palerma, ce fortin d'artillerie fut conçu pour protéger la rade marchande florissante contre les attaques répétées des corsaires français, anglais et barbaresques attirés par les richesses des entrepôts viticoles et sucriers. Bâtie selon les préceptes de l'architecture militaire de la Renaissance, cette tour-batterie trapue en blocs de basalte sombre présente des murs d'une épaisseur prodigieuse talutés à la base, percés d'embrasures pour canons et couronnés d'un parapet crénelé flanqué d'échauguettes de guet en encorbellement.\n\nLe fort doit sa renommée à un véritable miracle historique survenu lors de l'éruption du volcan Trevejo en 1706 : alors que les fleuves de basalte incandescent dévastèrent la ville et comblèrent le port, les coulées contournèrent miraculeusement la forteresse de part et d'autre avant de se figer dans l'océan, laissant le bastion parfaitement intact au milieu d'un nouveau champ de lave pétrifiée. Au-dessus de la porte d'accès primitive surélevée pour des impératifs défensifs s'admirent les armoiries impériales en marbre blanc de Charles Quint ainsi que celles des familles fondatrices de la cité. Déclaré monument historique et bien d'intérêt culturel, le château abrite aujourd'hui un espace muséographique patrimonial municipal et offre depuis sa plate-forme supérieure un point de vue stratégique sur le littoral battu par les vagues et les bassins d'El Caletón.",
+    visiter: "Une halte devant l'entrée du fortin permet d'observer la précision de son appareillage en pierre de taille basaltique, les armoiries sculptées surmontant le linteau et les échauguettes d'angle surveillant le littoral. Les promeneurs accèdent à la plate-forme de tir pour découvrir les anciens canons en fonte orientés vers le large et profiter d'un panorama circulaire exceptionnel sur les piscines naturelles de lave pétrifiée, le Roque de Garachico et les falaises verdoyantes ceinturant la cité.",
+    link: ""
+  },
+  {
+    id: "garachico_parroquia_de_santa_ana",
+    name: "Garachico - Église Mère Sainte-Anne (Parroquia Matriz de Santa Ana)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Garachico",
+    altitude: 10,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Sanctuaire Paroissial Majeur, Renaissance Canarienne & Tour Campanile Classique (XVIe-XVIIIe siècle)",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.37327,
+    lng: -16.76391,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOYKf7Av-btDdHtW1E1CQ29W03S1lvQjaFdZA-27zCV09Fc62tjX6J0BUAopTQNrjvG9YqU5k3oA_PXDoMULjKWMBgfHjPw3UM120SHEqq0tNWDSUuReKcSQwQPQtuHoMH3my6tJZZRXjERZjseAwAHWg=w613-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dominant souverainement la place de la Liberté et le dédale des toits de tuiles du centre ancien, l'église matrice Sainte-Anne (Parroquia Matriz de Santa Ana) s'impose comme le monument religieux le plus vaste et prestigieux de Garachico. Fondée dès 1520 par le noble Cristóbal de Ponte sur un plan ambitieux de la Renaissance, la paroisse primitive fut quasiment ruinée lors de la tragédie volcanique de 1706, quand les coulées de lave et les incendies consécutifs ravagèrent une grande partie du riche mobilier liturgique. Les habitants et les confréries locales entreprirent avec une ferveur exemplaire sa reconstruction intégrale entre 1714 et 1721 en réutilisant les fondations d'origine, parvenant à ressusciter un édifice d'une élégance souveraine qui associe la rigueur du classicisme insulaire aux réminiscences mudéjares.\n\nLa façade extérieure en maçonnerie blanchie à la chaux s'articule autour de deux portails jumeaux sculptés en pierre de basalte sombre d'un grand raffinement, dominés par une monumentale tour-clocher carrée à six niveaux étagés percée d'arcades campanaires, devenue l'emblème vertical du profil urbain de Garachico. L'intérieur déploie un volume grandiose à trois nefs spacieuses séparées par des arcs en plein cintre portés par des colonnes doriques toscanes en pierre volcanique. Les voûtes sont couvertes de plafonds à caissons en charpente de bois mudéjare (artesonado) d'une finesse d'assemblage remarquable taillée dans le cœur de pin canarien (tea). Le chevet abrite de somptueux retables baroques dorés du XVIIIe siècle, parmi lesquels le retable majeur voué à sainte Anne et la célèbre chapelle du Cristo de la Misericordia, conservant une statue du Christ en croix réalisée au XVIe siècle au Mexique selon la technique indigène de la pâte de moelle de maïs (pasta de caña).",
+    visiter: "Le parvis surélevé de l'église offre une perspective rapprochée sur la haute tour campanile et les portails jumeaux en pierre de basalte sombre finement ciselée. En franchissant la nef, les visiteurs lèvent les yeux vers les riches plafonds mudéjars en bois de pin tea avant d'admirer la dorure des retables baroques du transept et la célèbre sculpture mexicaine en pâte de maïs du Cristo de la Misericordia dans sa chapelle latérale.",
+    link: ""
+  },
+  {
+    id: "garachico_plaza_de_la_libertad",
+    name: "Garachico - Place de la Liberté (Plaza de la Libertad)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Garachico",
+    altitude: 10,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Cœur Civique Historique, Kiosque à Musique en Bois & Jardins Coloniaux (XVIIIe-XIXe siècle)",
+    century: "XVIIIe siècle",
+    category: "place",
+    counts: {},
+    lat: 28.37317,
+    lng: -16.76455,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOMA1ut8MJOce3wBiV3S2XF5y9yGdANC5WIu--3QA-O30g1IVudBV_W_Oz8FKO1TRM19afvjEc17np_E7i-fcMGevVlDayj8m0ePBmUMB0hYXcTV1n0pMsU-C617VAQwXPN95fem7y1G9kW3a4uIijDog=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Cœur battant et centre civique de la cité, la place de la Liberté (Plaza de la Libertad) constitue l'un des espaces publics les plus élégants, harmonieux et verdoyants de l'archipel canarien. Aménagée à l'époque moderne sous le nom initial de Plaza Mayor ou Plaza de Santa Ana, elle s'étend au centre d'un ensemble patrimonial classé exceptionnel, ceinte par les palais aristocratiques des grandes familles nobles d'origine génoise et castillane qui firent la fortune commerciale du port, ainsi que par les façades historiques de l'ancien couvent San Francisco et de l'Hôtel de Ville. Le sol pavé de dalles de basalte et de galets est ombragé par de somptueux spécimens d'arbres centenaires d'essences tropicales et subtropicales, au premier rang desquels de gigantesques ficus des Indes aux racines aériennes monumentales, des palmiers des Canaries et des massifs fleuris d'hibiscus et de lauriers-roses.\n\nAu centre de cette oasis végétale trône un ravissant kiosque à musique octogonal (quiosco de la música) à deux niveaux, érigé au début du XXe siècle, dont le soubassement abrite une cafétéria traditionnelle tandis que l'étage supérieur déploie une galerie de concert en ferronnerie d'art et menuiseries ouvragées en bois de pin canarien. La place est également ponctuée de bancs de pierre volcanique invitant au repos et d'un monument commémoratif dédié à Simón Bolívar, le « Libertador » vénézuélien dont les aïeux paternels appartenaient à l'illustre noblesse commerçante de Garachico avant d'émigrer vers le Nouveau Monde. Lieu de rencontre privilégié des villageois au sortir des offices ou des concerts dominicaux de la fanfare municipale, cette place incarne l'esprit d'ouverture atlantique et le raffinement colonial d'une cité ressuscitée de ses cendres volcaniques.",
+    visiter: "Une halte sous les frondaisons épaisses des lauriers d'Inde et des ficus centenaires permet de savourer la quiétude de cette place coloniale tout en observant le délicat kiosque à musique en bois ouvragé. Les promeneurs prennent le temps d'admirer la perspective monumentale sur le clocher de l'église Santa Ana et les balcons traditionnels en pin tea des palais seigneuriaux ceinturant le parvis, avant de poursuivre la visite vers le couvent San Francisco.",
+    link: ""
+  },
+  {
+    id: "garachico_eglise_notre_dame_des_anges_couvent_san_francisco",
+    name: "Garachico - Église Notre-Dame des Anges & Ancien Couvent Saint-François (Iglesia de Nuestra Señora de los Ángeles y Ex-Convento de San Francisco)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Garachico",
+    altitude: 10,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Fondation Franciscaine de 1524, Cloîtres en Pin Tea & Plafonds Mudéjars (XVIe-XVIIIe siècle)",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.37284,
+    lng: -16.76485,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNxvvTDgDkTyEZOWh6-W587o5FsG6Y8q-DhHnAOdr-GS-GlE5eX-qpF-IGGQjFeoHW-cBWHuRqjP6rx00R3-tH9Z5LljM8s5ZopX35iPnXsEpdy5vBI7oFy1wh09iLNUBygUjheRnbnaJNf94QOxaLI0Q=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Bordant le flanc sud-ouest de la place de la Liberté, l'ensemble conventuel réunissant l'église Notre-Dame des Anges (Iglesia de Nuestra Señora de los Ángeles) et l'ancien couvent Saint-François forme l'un des ensembles monastiques les plus précieux et complets de l'archipel canarien. Fondé en 1524 par le noble Cristóbal de Ponte et son épouse Ana de Vergara pour installer l'ordre des Frères mineurs franciscains, le monastère connut une expansion florissante aux XVIe et XVIIe siècles grâce aux donations des grandes familles de négociants de la cité. Durement éprouvé lors du cataclysme volcanique de 1706 où les laves incandescentes frôlèrent les murs et incendièrent une partie des dépendances, le sanctuaire fut reconstruit avec faste entre 1710 et 1720, préservant la pureté de ses lignes conventuelles qui mêlent la spiritualité franciscaine dépouillée à l'excellence des savoir-faire artisanaux des Canaries.\n\nLa façade extérieure de l'église séduit par son austérité minérale en maçonnerie blanchie à la chaux, percée d'un beau portail en pierre de taille basaltique et coiffée d'un clocher-mur latéral à arcades campanaires. L'intérieur déploie une nef unique spacieuse couverte d'un somptueux plafond mudéjar en charpente de bois de pin canarien (tea), dont les caissons géométriques à tirants décorés de rosaces sculptées figurent parmi les plus beaux spécimens de l'île. Le chevet abrite de magnifiques retables baroques en bois doré et polychrome du XVIIIe siècle dédiés à saint François d'Assise et à la Vierge des Anges. Attenant à l'église, le cloître conventuel s'articule autour de deux cours intérieures d'une grâce absolue, bordées de doubles galeries superposées portées par des colonnes et des balustrades ouvragées en pin tea d'une rare élégance, abritant aujourd'hui la maison de la culture municipale, la bibliothèque et les salles muséographiques d'histoire locale.",
+    visiter: "Le passage du porche d'entrée mène aux deux cloîtres intérieurs pavés du couvent, où l'on prend le temps de détailler les colonnes galbées et les balcons ajourés en bois de pin tea donnant sur les cours plantées de palmiers. Les visiteurs pénètrent ensuite dans la nef de l'église Nuestra Señora de los Ángeles pour admirer le travail d'assemblage géométrique du plafond mudéjar et la dorure des retables baroques, avant de découvrir les expositions temporaires de la Maison de la Culture.",
+    link: ""
+  },
+  {
+    id: "garachico_mirador_de_peralza",
+    name: "Garachico - Belvédère de Peralza (Mirador de Peralza)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Garachico",
+    altitude: 35,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Belvédère Urbain Surélevé, Panorama sur le Centre Historique & Delta de Lave de 1706",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.37157,
+    lng: -16.76383,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMPmYT7DWbrWSnxemP58LrqR97xbfOjkxwNrzOXS2gnM2iNZU4frdu_OqLT4ed9HzCPhHdvu5xQH5ObxIXRffJcKMqmOK3mQKulvwjSyxjH9Z_HPZqgM1bXdkpBACWaRrP2O8yOwk6s0IFrwK9hs71Paw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Accroché aux premières terrasses en pente dominant le flanc méridional de la ville, le mirador de Peralza offre un observatoire urbain et géologique remarquable sur l'ensemble du site de Garachico. Aménagé le long de l'ancien chemin muletier reliant le littoral aux villages d'altitude d'El Tanque et de San José de Los Llanos, ce promontoire belvédère permet de saisir d'un seul coup d'œil la relation intime qui unit la cité renaissante à son environnement volcanique tourmenté. Vers l'amont, la vue s'élève le long des impressionnantes falaises côtières des Acantilados de La Culata, parois abruptes de plus de trois cents mètres de dénivelé tapissées de végétation rupicole, par où dévalèrent en 1706 les torrents de basalte fondu issus du cratère de Trevejo.\n\nEn plongeant le regard vers l'océan, le belvédère révèle avec une clarté cartographique la morphologie singulière de la plate-forme littorale (isla baja) gagnée sur les flots par la lave refroidie. La trame urbaine géométrique des toitures de tuiles canal rougeoyantes s'y détache nettement, rythmée par la haute tour de Sainte-Anne, les cours intérieures ombragées des couvents et les bastions carrés du château de San Miguel gardant les piscines naturelles d'El Caletón. À quelques encablures du rivage émerge la silhouette altière du Roque de Garachico fendant l'écume des déferlantes atlantiques. Lieu privilégié pour photographier la ville dans la lumière dorée du couchant, ce belvédère constitue une halte contemplative incontournable pour apprécier la renaissance héroïque d'une capitale marchande devenue joyau patrimonial des Canaries.",
+    visiter: "L'accès par les ruelles en pente douce ou par la route supérieure permet d'atteindre l'esplanade panoramique du belvédère. Les visiteurs contemplent la vue plongeante sur l'alignement des toits de tuiles, le clocher de Santa Ana et l'avancée de la coulée de lave basaltique s'enfonçant dans l'océan Atlantique autour du château San Miguel, avec en point d'orgue la masse isolée du Roque émergeant des vagues.",
+    link: ""
+  },
+  {
+    id: "tenerife_rando_volcan_chinyero",
+    name: "Tenerife - Randonnée du Volcan Chinyero (Reserva Natural Especial del Chinyero)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Santiago del Teide",
+    altitude: 1431,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Dernière Éruption Historique de Tenerife (1909), Cône Strombolien & Réserve Naturelle",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1, volcan: 1 },
+    lat: 28.29482,
+    lng: -16.75812,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM3-v_rZUFgCWpHZCnNx1q-MMgDxEzrQ0hXocEtKqV-HFeWC-2C0Yfw06v3S5edwSpzCXy9sejqfAG7WypoK463bvNY9RXhSWjujVgZxv6skzZ8vfWopI6Z0YX-fTN7qByQqACbh5snym5rRhBg59adFA=w1379-h919-s-no-gm?authuser=0",
+    description: "Dressant sa silhouette tronquée à mille cinq cent soixante mètres d'altitude sur la dorsale volcanique d'Abeque, le volcan Chinyero occupe une place à part dans la mémoire géologique et spirituelle des îles Canaries, incarnant le théâtre de la toute dernière éruption terrestre survenue sur l'île de Tenerife. C'est le 18 novembre 1909, après plusieurs jours de grondements souterrains et d'intense activité sismique ressentie jusqu'à Icod de los Vinos, qu'une longue fissure éruptive de plusieurs centaines de mètres s'ouvrit brutalement au milieu des pinèdes d'altitude. Pendant dix jours d'un paroxysme spectaculaire, les bouches vomirent d'immenses fontaines de lave incandescente, d'épais nuages de cendres assombrissant le ciel et des coulées de basalte fluide qui dévalèrent la pente en deux bras menaçants, fonçant vers les villages terrorisés de Las Manchas et de Santiago del Teide avant de s'immobiliser miraculeusement à quelques encablures des premières demeures sous les prières des villageois portant la statue de sainte Barbe.\n\nClassé aujourd'hui en Réserve naturelle spéciale sur plus de deux mille trois cents hectares, le site du Chinyero propose l'une des randonnées volcanologiques en boucle les plus pures et saisissantes de l'archipel. Le sentier serpente à travers un désert minéral absolu de scories ébène, de lapilli (picón) et de champs de lave chaotique (malpaís de type ʻaʻā) aux arêtes déchiquetées, dont la noirceur austère est magnifiée par les éclats vert tendre des jeunes pins des Canaries (Pinus canariensis) qui percent courageusement la croûte basaltique. Au détour des resserrements rocheux comme le passage de la Montaña del Estrecho, le regard embrasse les géants millénaires de l'île que sont le Pico Viejo et la cime majestueuse du Teide émergeant au-dessus de la mer de nuages. Entre la fragilité d'un écosystème pionnier strictement protégé et l'énergie brute d'un volcan tout juste centenaire, ce parcours hors du temps offre une magistrale leçon de géodynamique et de régénération naturelle en haute montagne.",
+    intro_page: "Dernier volcan entré en éruption sur l'île de Tenerife le 18 novembre 1909, le Chinyero déploie sur la crête d'Abeque un paysage lunaire d'une virginité minérale exceptionnelle. Né d'une fissure basaltique qui déversa des fleuves de feu durant dix jours jusqu'aux portes de Santiago del Teide, ce cône strombolien haut de 1 560 mètres est aujourd'hui au cœur d'une Réserve naturelle spéciale strictement protégée. Le sentier en boucle qui en fait le tour serpente entre coulées de lave pétrifiées, mers de scories sombres et silhouettes héroïques de pins canariens réinvestissant le substrat volcanique. Baigné par un silence solennel sous un ciel d'azur éclatant, le site offre des perspectives magistrales sur les crêtes imposantes du Pico Viejo et du Teide.",
+    visiter: "S'élancer sur la boucle balisée du sentier PR-TF 38 depuis les abords de la route TF-38 ou du village de Santiago del Teide pour entamer le tour du cône volcanique du Chinyero à travers les étendues de sables et de scories noires. Respecter scrupuleusement le balisage de pierres délimitant le sentier afin de ne pas piétiner les surfaces fragiles de lapilli et observer les défilés étroits de la Montaña del Estrecho où la lave de 1909 a butté contre les anciens reliefs. Profiter des trouées d'altitude pour photographier la pyramide du Pico Viejo et le sommet du Teide dominant la pinède canarienne avant de compléter la boucle.",
+    link: "",
+    sections: [
+      {
+        title: "L'éruption historique du 18 novembre 1909 et la mémoire de Sainte-Barbe",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM3-v_rZUFgCWpHZCnNx1q-MMgDxEzrQ0hXocEtKqV-HFeWC-2C0Yfw06v3S5edwSpzCXy9sejqfAG7WypoK463bvNY9RXhSWjujVgZxv6skzZ8vfWopI6Z0YX-fTN7qByQqACbh5snym5rRhBg59adFA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM7_2kSgv4vDyfceakdA0IeM-ovUexu0qkvPXx4W2n8J3UNtNbDhFAeuin6Rx488M6fqaW9cUsddyRHUrXcVkF2-ImQAFKn4V8rN3wZJ9DBfIWkradGzeVxBDdl8KyJktN8942aS0mnCrAQPv5gfRCfKQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "C'est le 18 novembre 1909 que la terre s'ouvrit pour donner naissance au volcan Chinyero, crachant pendant dix jours consécutifs des fontaines de feu, des nuages de cendres et des fleuves de basalte incandescent qui vinrent menacer les villages de Santiago del Teide et de Las Manchas avant de s'immobiliser, un événement qui marqua profondément la mémoire collective locale à travers la procession historique de la statue de Sainte-Barbe, invoquée pour arrêter la progression du feu."
+      },
+      {
+        title: "Désert de scories, colonisation végétale pionnière et pureté minérale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMTubBKn398FxfWaUPCbh5ImmSzs9CB7-Pqn3mkaMhvEcluaQsshqVMkAXoprXMe6n3FbegVFq4sOODmOCMomhr5wwYi7HF2JSaErqB37Yd3xolCZ2KGcUrP9Z-s79UE5IbTVxCSkZAA40ojN157sSgPg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPfuJ1No1wQTauoTNohW4Vyeb33GnHrDBONAdGpYjCKlca2hINVZ22d2-WIz2G6_ywTVhn4z2J5PcRxeJKOVb9Cp0m8QwcDqA57owZkNBX4hB22dkay9GJYh1FQXMdxVx86TLJgfcqfHERP003UIURekg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La marche dans ce désert minéral silencieux permet d'observer la lente installation des premiers lichens et de petites plantes xérophiles qui colonisent patiemment les cavités de scories sous un ciel d'une pureté absolue, bouclant une traversée immersive où se lisent à ciel ouvert les forces telluriques primordiales et la dynamique régénératrice de la nature canarienne."
+      },
+      {
+        title: "Le cône strombolien du Chinyero face au Pico Viejo et au Teide",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM2QHWSat8bmhqgliPdPOMUYseAb2g3EuHwxbxZ79UaRzUWv9-l-Ce-u1xaL1FYtln6la44Y4IBfmOi3ltlifhC2KYFLk0p_fZOiUU3Y6xXO2JVln1lp9P_fwZ7X3qvmFbbAMKFraAgUxCesG73mB1hqw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La silhouette tronquée du Chinyero, cône strombolien s'élevant à mille cinq cent soixante mètres d'altitude, domine le parcours de sa masse sombre zébrée de nuances rougeâtres et violacées dues à l'oxydation des minéraux ferrifères. Lorsque la brise dissipe la mer de nuages poussée par les alizés, le sentier dévoile des échappées visuelles monumentales sur les géants de l'île : en arrière-plan se dressent la masse pyramidale du Pico Viejo et la cime blanche ou dorée du pic du Teide, dialoguant par-delà les siècles avec cette jeune bouche éruptive."
+      },
+      {
+        title: "Le défilé de la Montaña del Estrecho et les murailles de malpaís",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOg3b55fNqc1fjHSmqoi4sAkguDVOCOkcq2z-rrsy_kTj7lNKychleacmuqJxYXCi-yrI00LDOXrwBv6aXbXFMaLa71VDbWO-7RQXw6lB6ZgMapWT-a5_YDqS9M_Vx5NFGmPnVZFzEaPpzUyuw6vdWDnw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMlpY84nxSgDB05QvXB0Mu5O9KyQ-pnsG_ztmdD1k18e2HVeKg0z3oQpcdnwnvTrCTull6oa56dW9yMKMLrWYfpmcCUOGSaWGLC0FK67tc0mfMD1vXygj9fMnzbe2uMF-iGOcI9b6KCcub9Qymkpn4-0A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Voici le défilé spectaculaire de la Montaña del Estrecho, un resserrement topographique où les coulées pétrifiées de 1909 sont venues s'engouffrer et buter contre les flancs d'édifices volcaniques plus anciens. Dans ce passage étroit, la lave a figé sa course en une muraille chaotique de basalte rugueux aux arêtes acérées (malpaís de type ʻaʻā), où quelques pins pionniers, aux troncs noircis par le souffle thermique, réussissent le prodige de percer la carapace de roche refroidie pour affirmer la reconquête végétale."
+      },
+      {
+        title: "Cheminement bordé de pierres et préservation de la réserve naturelle",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOZSekm9ZXvcV1dYrzEER0HXV9shUF0k9VJe87AMN76leF3sb3kjH6g__q3q4kGGbwbG1nM24H6ov38d5H1S-A4emCOyfDMqJH8kcMBVnl_B3jdSj4WOiydMw-SmZ5Rasd5ZNSznl8kK7EDdQYvM41swg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM_r83wqJ-yd7KM7HN0rxvy_fGCqXYcC9elWuIBfpEoplHtuttpG0yQgQfKXA__52jUGt36ucAeU5j7cHZP4X7L-zo1PDM_mCKyo6KBZ622sc6xh-R2UNUZ0549d7yl6c_0RnaKNa4DCVCvClG5aXgakg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En franchissant ce goulet pour contourner le cône par le sud et l'ouest, le marcheur progresse en plein cœur des champs de scories sur un sentier délimité par des alignements de pierres de lave, préservant ainsi la fragilité absolue de ce biotope protégé dont l'ascension des pentes sommitales est strictement interdite."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP4vT71i3uu0VRwBYYT-9aNGBOaGlmq7xbhBOwjR1Q6BJmpihtnrIMo4xfHGgdKaf6MMdOlyJaRPRYzUKZGOoPH5FpkIwUcwtTm0-30Nmkgh7F9awPFP2SQeV0aaic86Ygpevz0ScuVOxvunBQ4SMcUUA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOAVjXWOiz4zXJWeKa7uelz9WMwbn5uDlOrh1GCQ-O4sgAwAVG69feg4tO60QSDtFOtZMuinabNsDtqwgzjQF61BmwSjJ0STBL4wsJGGSGB1HC8L2c1OGWx3GRJJsGpqkeAYDf2DbdcpYlmhx6x7CIpaA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPc4nw-0eYBRxiAqMLogUzPslYZa5ufSRvVoWegj4eN2UFmUmHLS7dkdZqH83DrVPXO6zrI7vEptyYk2Lti5ARNsbOWnYoVHEusLMWk2Okz0lkGjX3M5V239QhHdiXDGtYa5Yt7_dK2UELDxXF_fs0l4g=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
+    id: "tenerife_rando_volcan_arenas_negras",
+    name: "Tenerife - Randonnée du Volcan Arenas Negras (Volcán de Trevejo)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "El Tanque",
+    altitude: 1314,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cône Strombolien du Volcan de Trevejo, Éruption de 1706 & Pinède des Canaries (XVIIIe siècle)",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1, volcan: 1 },
+    lat: 28.31635,
+    lng: -16.76416,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP53dyJT_bmVhd8pDAFXMuCpIp1qR8HQ1v01U_mPwlAm1TmneBuki5LYRTdNDvjHvTrSYW6-gEqx0-4_nL24Lgy82iltkdt3SVqfmzp_EOjuNthJ_HwqXUX3huyj_qJeYjsWAyK5GFgHEPuls9Jn3eIyQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Culminant à plus de mille trois cents mètres d'altitude sur les contreforts occidentaux de la dorsale volcanique de Tenerife, le volcan Arenas Negras — également désigné sous le nom historique de volcan de Trevejo ou volcan de Garachico — constitue le théâtre de l'un des cataclysmes géologiques les plus célèbres et déterminants de l'histoire des Canaries. C'est de ce cône strombolien de scories ébène et de lapilli que jaillirent, le 5 mai 1706, les fontaines de magma incandescent et les titanesques fleuves de lave basaltique qui dévalèrent les pentes septentrionales de l'île pendant près de quarante jours. Cette éruption historique détruisit entièrement les vignobles prospères, les couvents et la rade fortifiée de Garachico, anéantissant le premier port marchand et le cœur économique de Tenerife au XVIIIe siècle, tout en façonnant une nouvelle plate-forme littorale de roche noire arrachée à l'océan Atlantique.\n\nAujourd'hui paisible et classé au sein du vaste Parc naturel de la Corona Forestal, le site d'Arenas Negras offre l'un des circuits de randonnée volcanique les plus saisissants de l'archipel, associant une géologie tourmentée à la majesté végétale de la haute montagne insulaire. Au départ du hameau traditionnel de San José de Los Llanos, le sentier s'élève sous le couvert séculaire d'une somptueuse forêt de pins des Canaries (Pinus canariensis), arbre pyrophyte remarquable dont les aiguilles vert tendre créent un contraste chromatique éclatant avec la noirceur austère des sables volcaniques (picón) et des champs de lave chaotiques (malpaís). Entre dalles scoriacées aux arêtes vives, clairières sableuses et belvédères naturels ouvrant sur la cime colossale du pic du Teide d'un côté et sur les falaises plongeant vers l'océan de l'autre, ce parcours d'altitude invite à une immersion contemplative au cœur des forces telluriques qui ont sculpté l'âme de Tenerife.",
+    intro_page: "Accroché aux crêtes forestières de Tenerife à plus de mille trois cents mètres d'altitude, le volcan Arenas Negras — ou volcan de Trevejo — demeure l'un des hauts lieux de l'histoire tellurique des Canaries. Son éruption cataclysmique du 5 mai 1706 déversa des millions de mètres cubes de lave basaltique jusqu'à la côte, anéantissant le port marchand florissant de Garachico et redessinant à jamais la géographie du littoral septentrional. Aujourd'hui traversé par un sentier de randonnée emblématique au cœur du Parc naturel de la Corona Forestal, ce cône de scories sombres s'élève au milieu d'une magnifique pinède canarienne aux aiguilles lumineuses tranchant sur les sables noirs volcaniques. Entre paysages lunaires de malpaís pétrifiés, vue imprenable sur la cime majestueuse du Teide et plongée vertigineuse vers l'Atlantique, ce circuit de haute montagne offre une fascinante traversée au cœur de la renaissance végétale et de la mémoire volcanique de l'île.",
+    visiter: "Au départ du village de San José de Los Llanos, s'engager sur la piste forestière montant à travers les terrasses agricoles avant de pénétrer sous les hautes frondaisons de la pinède canarienne de la Corona Forestal. Suivre le sentier tapissé d'aiguilles rousses et de sables volcaniques noirs pour gravir les flancs du cône strombolien d'Arenas Negras et contempler le champ de malpaís issu de l'éruption destructrice de 1706. Traverser ensuite la clairière sablonneuse de la zone récréative pour admirer la perspective sur le cône du Teide avant de redescendre en boucle face au panorama grandiose embrassant Garachico et l'océan Atlantique.",
+    link: "",
+    sections: [
+      {
+        title: "Départ de San José de Los Llanos et lisière forestière d'altitude",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP53dyJT_bmVhd8pDAFXMuCpIp1qR8HQ1v01U_mPwlAm1TmneBuki5LYRTdNDvjHvTrSYW6-gEqx0-4_nL24Lgy82iltkdt3SVqfmzp_EOjuNthJ_HwqXUX3huyj_qJeYjsWAyK5GFgHEPuls9Jn3eIyQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOCRKFZVO8ua8WdGCQQYSw58MzKnFBdhE-8DGJcnfSmPPvumiqc2ZNqhcFMoE3ZDSSilEa_hsukMLsFhdTKlkH-oSvArLVJ5p4WnknAAodpp4LKUuaiRhRmDDlSvjQEIC3rlMWUwER7AF4eApnQzAv7Ow=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le départ de cet itinéraire volcanique s'effectue depuis le paisible hameau rural de San José de Los Llanos, perché à plus de mille mètres d'altitude sur les hauteurs de la commune d'El Tanque. Ancien carrefour pastoral et agricole de la comarque d'Icod Daute, le village marque la transition géographique entre les terrasses cultivées traditionnelles du versant nord et les vastes espaces forestiers préservés des crêtes. En s'éloignant des dernières habitations de pierre volcanique, la piste caillouteuse s'élève doucement vers le sud-est en direction des hauts reliefs, franchissant rapidement la lisière pour s'enfoncer sous le couvert protecteur de la haute montagne insulaire."
+      },
+      {
+        title: "Immersion dans la pinède canarienne du Parc naturel de la Corona Forestal",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOiZQrlJ3KWZCdgWTQLekqqOJEMEeJ8wPn6yJTXE9qpABABiSx6SEfFhhvs5cD7a0YC6_9kc2r-Nri9dDKlkBF8gtlZyepQAZ7CtivBiG6-sIDjU01PepmyejUYSm2_40GqHiwhqxu5tcoPemqV7upgCw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNGqWvZHoJAORZKZJK2uDr23TBdocJFIi_xVe72k5LVU-U6bQFhOcFwk5QsF9Ve5UZPPrVfzESROVb59CqJ1-eMscFLELdeJ1o0-9qz3_iwOO8lnz0ydb7r2NzqAoU9bOO6e6ZwppO_WeNZAq2WBjcmog=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le sentier pénètre alors au cœur du Corona Forestal Natural Park, le plus vaste espace naturel protégé de l'archipel, dominé par une somptueuse forêt de pins des Canaries (Pinus canariensis). Le sol est tapissé d'un épais tapis d'aiguilles rousses (pinocha) et de sables volcaniques sombres (picón), amortissant le pas dans un silence ouaté que seul interrompt le bruissement du vent dans les hautes frondaisons. Cette essence endémique présente une extraordinaire résilience pyrophyte : son écorce écailleuse épaisse et sa capacité à rejeter directement depuis le tronc lui permettent de survivre aux incendies de forêt récurrents et aux ardeurs du volcanisme. Au sous-bois clairsemé s'associent le ciste de Montpellier, le thym volcanique et des touffes éparses de bruyères arborescentes annonçant les zones de condensation de la mer de nuages, créant un contraste saisissant entre le vert tendre et lumineux des aiguilles triples et la noirceur austère du substrat géologique."
+      },
+      {
+        title: "Approche du cône strombolien du volcan Arenas Negras (Trevejo)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPhX8cuoS8oZZA2W6kR8bRdwqvyrhA0lAeB9s2B2gNl5csqH-HXH_065MQa8K6SJ2CkVtDk8Zg0u-9gIakEHw9Z7n2VW0smPPRJwMDA1WguN5JUbi6smLAFyB71IeJEfEg9yY0DOrtabX5SPyTlZfyhsg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMLUeNSEPznTtZYTbLpETUvT9g95tJQYNBiAKM4LK5r4I9s1YMGx67kdCCZGsvGAPAH4Zy7ZCepVKbSy10sRuwC7-z_SecEtWCMeOI8p6Eb5EcQLn-S1clHxQzcTpcH1syI5Nah-IkxOZk7sw6yYsrkDw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "À mesure que la pente se raidit, la végétation s'éclaircit pour laisser place à un paysage minéral d'une puissance saisissante en approchant du cône du volcan Arenas Negras, également connu sous le nom historique de volcan de Trevejo ou volcan de Garachico. C'est de cette bouche éruptive que jaillirent, le 5 mai 1706, les fontaines de lave et les coulées pyroclastiques dévastatrices qui scellèrent le destin de la région."
+      },
+      {
+        title: "Les champs de lave chaotique (malpaís) et la mémoire de l'éruption de 1706",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMIMFDoowdV9jyUvRCwzrHSxWGcS2MZR2-OS3Qe-DCK_K0aCfB2c4mbRg4How4kYOVPZ6Q-cxIrp3eb1RJYhasdO9nW0dPFAPB6F9odIQfi0JTdDjVGd3nM_RIw8lOeOTYWjFe_cRr0nbKSyNnpa7vZ3A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Pendant près de quarante jours, des millions de mètres cubes de basalte incandescent dévalèrent la pente abrupte sur plus de six kilomètres, anéantissant les vignobles prospères, les couvents et la rade fortifiée de Garachico, alors premier port marchand et poumon économique de l'île. Le sentier serpente aujourd'hui sur le flanc de ce cône strombolien de scories ébène et de bombes volcaniques, contournant les champs de lave chaotique (malpaís) pétrifiés en blocs scoriacés aux arêtes vives, où la colonisation pionnière des lichens blanchâtres (Stereocaulon vesuvianum) entame patiemment son œuvre millénaire de pédogenèse."
+      },
+      {
+        title: "Plateau de la zone récréative et belvédères sur le Teide et l'Atlantique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOBe-OOwVxU8uw8EcgtF55PPg3thpdlmtc7ZbT52hDJEH2TKIUC7EN8bhpYh7GSzuBWTPBruJhByCmknhoHzO2gVFbftnVmXS1YaRHfpnDfdvB6yarUqjr8IjCdabqwbwVgkYIZs4f6ZkVm7iJk84_-jg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMLS0B4TFosFqKhCYb73XARF4IVtG7X4rWgqgsD_RhYkwCYmW28ImXlGjaN35ITBEwIRyQh3aEXxgid5zRAXe56FiDLeItNfyfTQzotH7MqPumdH1RCs9TMx9WaNoYW0dbLurm_5LvVj4jrtFsEsM6WdQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le parcours en boucle gagne ensuite le vaste plateau ensablé qui accueille la zone récréative d'Arenas Negras, clairière monumentale aménagée sous de grands pins séculaires au pied des langues de lave figées. En contournant le cône par les pistes forestières supérieures, l'itinéraire offre des percées visuelles grandioses : vers le sud émerge la silhouette colossale du pic du Teide se détachant sur l'azur, tandis qu'au nord, le regard plonge vertigineusement par-dessus les falaises côtières vers l'océan Atlantique et la langue de basalte noir qui forme la plate-forme actuelle de Garachico."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMNf8eLikKFcKhxjdM0F8wKVeSaRUOvS_IWZ1aMMM2LiS9kn0eyerU4PNLfG-f8akoE1LBlb23Av3sugJDfKaOC-J0My8ihj85TYMeP7rXe4X54pk-9u3U-NPtk2SetMchPO7Lq1XEyf9AZDyfXNtji3Q=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
+    id: "garachico_casa_mara_mirador_cote",
+    name: "Garachico - Casa Mara & Mirador sur la Côte (Las Cruces - Acantilados de La Culata)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Garachico",
+    altitude: 336,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Falaise Marine Fossile des Acantilados de La Culata, Belvédère sur l'Isla Baja & Océan Atlantique",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.36640,
+    lng: -16.77159,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNa-tuA4FJeiwxa33gu0MN4g6dvSNCCztal5CO25IzgvnIvKUvn8_g-dtHL-MshhHDAGa369_D6eM7phkI71jaz19fz1DcYXyhdrf1AiVGBSJVfVLmPTPRuf91AuIrD7K7ENDFFY5_IvIZ_udIznR13GQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPQjrxPzoxB2x1vICurYntE1L1zOOJv-85zMc6UOQWgLdE0K3w8F6Rhv96J1OsIkeHK0CBKmsCLh4mSHKipfEHnJ5yUfdoVp5ZJIhxe1HFqGZZo1rOhVtQIXjAHwnAl3Slm1phxvWGJUc6WGBEDf4ogAg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOzuu9rqXMdoPgfEdFA9RzXf0cWGBDrAKWKauC8TTsrKqaalakj2aZt6-Isrbo45OKt-EUcHORUHItDQvj_ADpe4CnQ-0Mi0nNEBV6Ztc9Kxkgsvs1n1nDgxEFAnG2Kq9b4K0256IS-ywAe21LR4dMdXQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Accroché à flanc de falaise à plus de trois cent trente mètres d'altitude, dans le paisible hameau rural de Las Cruces sur les hauteurs de Garachico, le site de Casa Mara bénéficie d'une situation géographique d'exception au cœur du paysage protégé des Acantilados de La Culata. Ce relief colossal correspond à une paléofalaise marine fossile d'un intérêt géomorphologique majeur, témoin des rivages primitifs de l'île avant que les gigantesques épanchements de laves basaltiques successives ne conquièrent la mer pour former la vaste plate-forme littorale fertile de « l'Isla Baja ». Les escarpements vertigineux qui ceinturent le promontoire abritent un écosystème remarquable de forêt thermophile relique, où les candélabres d'euphorbes canariennes géantes (cardones) et les touffes de tabaibas s'enracinent dans la roche volcanique sombre aux côtés des palmiers des Canaries et des vergers étagés en terrasses traditionnelles de pierre sèche.\n\nDepuis les terrasses et le belvédère naturel dominant le vide, le regard plonge directement sur l'immensité de l'océan Atlantique et sur toute l'échancrure septentrionale de Tenerife. La vue panoramique embrasse avec une grande netteté la mosaïque verdoyante des bananeraies s'étirant au pied des falaises, le tracé des coulées de lave historiques de l'éruption du volcan Trevejo de 1706 ayant remodelé la côte, ainsi que la silhouette blanche de la cité historique de Garachico et son célèbre îlot basaltique (le Roque de Garachico) émergeant des déferlantes océaniques. Vers l'ouest, la ligne de crête guide la vue vers les plaines côtières de Los Silos et de Buenavista del Norte, offrant une immersion contemplative dans la grandeur tellurique des paysages du nord canarien, bercée par la brise marine ascendante et les embruns du grand large.",
+    visiter: "Une halte sur les terrasses du belvédère de Las Cruces permet d'admirer la perspective plongeante sur la falaise fossile des Acantilados de La Culata et le moutonnement végétal des terrasses de culture. Les promeneurs prennent le temps d'observer le contraste saisissant entre les parois basaltiques abruptes et la plaine côtière de l'Isla Baja qui s'avance dans les eaux bleu profond de l'Atlantique, avec en point de mire le Roque de Garachico et les toits du centre historique en contrebas.",
+    link: ""
+  },
+  {
+    id: "tenerife_mirador_de_cherfe",
+    name: "Tenerife - Belvédère de Cherfe (Mirador de Cherfe)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Santiago del Teide",
+    altitude: 1051,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Col de Montagne du Massif de Teno, Crêtes Volcaniques & Belvédère sur le Teide",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.30000,
+    lng: -16.82396,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMRocbTjVNSuubbGIEn3fBJOzAbnYFWLg9EPglxZ3y7VIlIXsksoh5tteN3zcPC13l6Voaps2B03XTppDY23Md7dl5MlpL08-ZBHtfNvrPUXGXYFFu2Rs6NiPpcHg1AtVP_4CT7yT6ye0c5xXwDKMN5rA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPYHElOULOc6dCsl9HdLuZP-TSP7GXjQq1BqXpOOYFTQzvCaLiC821uFbUcyClYvwksG_R9SdMgLm-TBu5w84PO-dweH9a3RGiepGG7Lx73xXnvh0twDtLRMk_C-KJ8tLWjXTfDfHEtRxXeY-A0eA4yYw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNvgUXIip7xj2g9p8x2j95vycl_1KWTxIq4GVQy27WdRhfT06FT44HFHWgs6c5Nkdl58ntZfGD368vU9EInAsI_T_DiTvj6C4TU3kZU1-qK5r6ueFUAc7T_1bIsD9N9V70UwvRaTJ2q4rPccwPmC6GbPA=w1379-h919-s-no-gm?authuser=0",
+        caption: "Vue dégagée sur le Teide."
+      }
+    ],
+    description: "Perché à plus de mille mètres d'altitude sur la ligne de crête reliant Santiago del Teide au fond encaissé de la vallée de Masca, le mirador de Cherfe s'impose comme l'un des postes d'observation géographiques et volcaniques les plus spectaculaires de l'ouest de Tenerife. Aménagé le long des lacets vertigineux de la route panoramique TF-436, ce col naturel constitue une frontière climatique et orographique majeure marquant l'entrée dans le parc rural de Teno. Vers l'ouest, le regard plonge dans un dédale titanesque de ravins abrupts (barrancos), de crêtes basaltiques dentelées et d'arêtes volcaniques acérées issues de l'édification primitive du massif au Miocène, sculptées par des millions d'années d'érosion torrentielle et éolienne. Les pentes arides et caillouteuses sont colonisées par une flore d'altitude xérophile endémique de la région macaronésienne, dominée par les coussins d'agaves, les genêts nains et les candélabres épineux d'euphorbes canariennes (cardones) ancrés dans la roche volcanique sombre.\n\nEn se tournant vers l'est et le sud, le belvédère dévoile l'une des perspectives les plus saisissantes et dégagées de l'île sur le stratovolcan du Teide culminant à 3 715 mètres d'altitude, dont le cône sommital parfait et les contreforts du Pico Viejo dominent souverainement la ligne des crêtes boisées de pins canariens. Par temps limpide, le panorama s'élargit bien au-delà des côtes escarpées de Santiago del Teide pour englober les eaux scintillantes de l'océan Atlantique et la silhouette bleutée de l'île voisine de La Gomera flottant à l'horizon marin, souvent couronnée par la traditionnelle mer de nuages engendrée par les alizés. Fréquenté autrefois par les bergers et chevriers guanches qui empruntaient ces cols ventés pour conduire leurs bêtes entre les pâturages de montagne et les vallées littorales, ce promontoire minéral offre une lecture saisissante des forces telluriques et de l'étagement bioclimatique qui modèlent la diversité des paysages canariens.",
+    visiter: "Une halte sur l'esplanade du belvédère permet d'embrasser simultanément les deux versants de la crête de Teno, en comparant les gorges abyssales de Masca s'enfonçant vers la mer et l'élévation monumentale du volcan Teide couronnant l'horizon oriental. Les promeneurs prennent le temps d'observer les contrastes géologiques entre les dykes volcaniques verticaux et les strates horizontales de laves anciennes avant de poursuivre la route en lacets vers le hameau de Masca.",
+    link: ""
+  },
+  {
+    id: "tenerife_masca_village_et_mirador",
+    name: "Tenerife - Hameau de Masca & Belvédères (Caserío de Masca y Miradores)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 606,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Hameau Perché de Haute Montagne, Architecture Vernaculaire Canarienne & Barranco de Masca",
+    century: "XVIIIe siècle",
+    category: "star",
+    counts: {},
+    lat: 28.30483,
+    lng: -16.83905,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOW0j0k70f0r7oiAYSTTExdBJ2Fzx3n0lp3lvZ07EWEmejCJYesmAonmfg4NGkL484SM7i3QFSP25bzNJxL4BDy9_z37vkSS-FaQ1n7XZ6JiRLQvlJ43GOAuI0BytJhmTo78-XOaMM2NR8eEcHDk40c-g=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMAY93cgr6k8-ie09Pa5IxbloUOxw1I0_15yDBpNFSMRrqfO7Ts6naI80BN1boXUs3n98NgupoC49qyS8GLYgqDW8zaFFBs6tYeIDmRwJ07ARm3uJ3LmJT0o9QlFxgfJ0mBaqZxyTOi5XimYusx-n7ZKQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP5VqNacc8iHK0nJiWzZbGdO3U55OLQo4JWWgBDpxLH_fIOq8vnAZGn_7tgWt1Fnhi-XRXcDTQlv86G9fGZ3Vq2shAMHOhHYODvMgfEemc6JTIVpZQeqcOqEGafVUAQqOOtIWnuSHn1mCYIaAmNxQnx3g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Accroché aux parois vertigineuses d'un cirque volcanique escarpé au cœur du massif de Teno, le hameau de Masca constitue l'un des ensembles ruraux les plus emblématiques, secrets et spectaculaires de l'archipel des Canaries. Fondé à l'époque moderne sur d'anciens établissements pastoraux guanches, ce village de montagne est demeuré dans un isolement quasi total jusqu'à l'ouverture de sa première route carrossable en 1972, n'étant auparavant relié au reste du monde que par d'étroits sentiers muletiers empruntés par les contrebandiers et les paysans locaux. L'habitat s'étage en terrasses audacieuses sur une arête rocheuse centrale dominée par l'emblématique pic conique de La Catana, offrant un exemple magistral d'adaptation humaine à une topographie d'une hostilité extrême. Les maisons traditionnelles en pierre de basalte sombre et mortier de chaux, couvertes de toits à deux pans en tuiles canal et dotées de menuiseries en bois de pin canarien (tea), se fondent harmonieusement dans les terrasses agricoles de culture vivrière plantées de palmiers dattiers, de figuiers de Barbarie et de vergers d'agrumes.\n\nLe mirador naturel aménagé sur l'éperon rocheux du village offre une perspective plongeante vertigineuse vers l'entrée du mythique Barranco de Masca, canyon titanesque creusé par les eaux qui serpente sur plusieurs kilomètres entre des murailles de lave hautes de plus de quatre cents mètres jusqu'à l'océan Atlantique. Classé bien d'intérêt culturel au titre des ensembles historiques, le bourg a su préserver son atmosphère rustique et ses ruelles pavées sinueuses reliant les différents quartiers disséminés sur les pentes. C'est ici que bat le cœur des traditions orales et culinaires de Teno, réputé pour sa production artisanale de miel de palme, ses sauces pimentées (mojos) et ses fromages de chèvre fumés. Entre la majesté minérale des pitons rocheux s'élevant vers les brumes océaniques et la fraîcheur des jardins en terrasses irrigués par d'anciennes rigoles en pierre, Masca incarne la splendeur intemporelle de la vie paysanne canarienne préservée des tumultes de la modernité.",
+    visiter: "La déambulation commence sur la petite place ombragée d'un grand laurier d'Inde au cœur du hameau pour admirer la perspective sur les maisons traditionnelles en pierre de taille accrochées à la crête. Les visiteurs empruntent les ruelles pavées escarpées menant au mirador du village pour contempler la faille monumentale du Barranco de Masca et les terrasses de culture étagées dans le canyon, avant de découvrir les échoppes d'artisanat local proposant miel de palme et produits du terroir.",
+    link: ""
+  },
+  {
+    id: "tenerife_masca_chapelle_immaculee_conception",
+    name: "Tenerife - Chapelle de l'Immaculée Conception de Masca (Ermita de Nuestra Señora de la Concepción)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 590,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Sanctuaire Rural de Montagne, Clocher-Mur en Basalte & Architecture Traditionnelle (XVIIIe siècle)",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.30555,
+    lng: -16.84051,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMj2ekjoda1I81Z-dYlRHyOpPrSd6eHtK2VwceejSUfWSeIKfe90ksz-NIRO2g0PM_jG0maucirUMpspWEvBtTOHna_12praJcCB1BA8W81jeaa9PhqCLFEMgccFFcfxGqYeDSodq9UeVeL31-PXrXUtA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Bordant la placette centrale pavée de galets ombragée par un majestueux ficus bicentenaire, la chapelle de l'Immaculée Conception (Ermita de Nuestra Señora de la Concepción) constitue le cœur spirituel et communautaire du hameau isolé de Masca. Érigée au cours du XVIIIe siècle par les familles paysannes de la vallée pour éviter aux fidèles les périlleuses heures de marche à dos de mulet nécessaires pour rejoindre l'église paroissiale de Buenavista del Norte, cette modeste église rurale incarne avec pureté les canons de l'architecture religieuse vernaculaire des Canaries. Sa maçonnerie robuste en moellons de basalte volcanique local et enduit blanchi à la chaux s'élève sur un plan rectangulaire à nef unique, épaulée par des angles appareillés en pierres de taille apparentes. La toiture traditionnelle à quatre pans en tuiles canal d'argile cuite rougeoyante s'intègre avec une rare harmonie dans le relief tourmenté du cirque rocheux environnant.\n\nLa façade principale, d'une grande sobriété méditerranéenne, s'ouvre par une porte cintrée en bois de cœur de pin canarien (tea) imputrescible, surmontée d'un élégant clocher-mur latéral à une seule arcade campanaire (espadaña) abritant une petite cloche en bronze forgé. L'intérieur déploie un espace recueilli et intime caractérisé par un remarquable plafond à caissons en charpente de bois mudéjare (artesonado), chef-d'œuvre de géométrie charpentière artisanale façonné par les menuisiers de l'île. L'autel principal abrite une précieuse statue polychrome de la Vierge de la Conception datant du XVIIIe siècle, parée de riches draperies brodées et vénérée lors des fêtes patronales de début décembre qui rassemblent les habitants autour des chants traditionnels et des danses au son des tambourins canariens. Havre de paix suspendu au-dessus des gouffres du canyon, le parvis dallé de la chapelle offre un belvédère paisible sur les arêtes minérales et les jardins étagés du village.",
+    visiter: "Une halte sur la petite place pavée de la chapelle permet d'admirer la silhouette rustique de son clocher-mur en basalte et l'élégance de sa porte cintrée en pin canarien taillé. Les visiteurs s'arrêtent sous le grand laurier ombrageant le parvis pour apprécier le calme montagnard du lieu et contempler la charpente mudéjare intérieure lors des ouvertures liturgiques, avant de parcourir les sentiers partant de la place vers le quartier bas du village.",
+    link: ""
+  },
+  {
+    id: "tenerife_falaises_los_gigantes_plage_masca",
+    name: "Tenerife - Falaises de Los Gigantes & Plage de Masca (Acantilados de Los Gigantes y Playa de Masca)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Buenavista del Norte",
+    altitude: 0,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "en_bateau",
+    era_group: "nature",
+    era_label: "Muraille d'Érosion Marine du Massif de Teno, Ravin de Masca & Criques de Sable Noir",
+    century: "Temps géologique",
+    category: "star",
+    counts: {},
+    lat: 28.28674,
+    lng: -16.86465,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOF0OQkVQFfMPq3LY-7vFeDmAIPTeZCCx5gXIADvPT3q_HxsN8Ob6R7Q90IjRT73Sjgwa-TifZNn-K09AB754XSf4UGTju-JEk_MQukfQfLbo_kluA1cK3s1jnJ7O1LWz_2oxsf_ruDGOwDLIRPlPj62Q=w1379-h919-s-no-gm?authuser=0",
+    description: "Le flanc occidental de l'île de Tenerife s'abîme dans les profondeurs océaniques à travers le spectacle tellurique grandiose des Acantilados de Los Gigantes, gigantesque rempart basaltique comptant parmi les falaises maritimes les plus hautes et impressionnantes d'Europe. Ces parois titanesques, qui s'élèvent de manière presque verticale entre trois cents et plus de six cents mètres au-dessus du ressac atlantique, constituent la bordure érodée du massif ancien de Teno, l'un des trois édifices volcaniques primitifs à l'origine de la formation de l'île au Miocène, il y a plus de sept millions d'années. Les strates superposées de laves denses, de brèches et de tufs pyroclastiques alternent avec un lacis serré de dykes volcaniques subverticaux, véritables colonnes vertébrales de magma refroidi ayant résisté à l'assaut séculaire des vagues. Autrefois surnommée la « Muraille de l'Enfer » (Muralla del Infierno) par les aborigènes guanches qui y voyaient le terme infranchissable du monde terrestre habité, cette côte sauvage conserve une inaccessibilité farouche qui a préservé un sanctuaire écologique d'une valeur inestimable, abritant d'importantes colonies d'oiseaux marins pélagiques rares tels que le balbuzard pêcheur insulaire et le pétrel de Bulwer.\n\nLa navigation au pied de cette forteresse minérale mène à l'échancrure spectaculaire de la plage de Masca (Playa de Masca), crique isolée de sable noir volcanique et de gros galets de basalte nichée à l'embouchure terminale des mythiques gorges de Masca (Barranco de Masca). Ce canyon vertigineux, entaillé sur plusieurs kilomètres par une érosion torrentielle acharnée depuis le village montagnard perché de Masca, débouche sur un décor minéral d'une verticalité saisissante où deux éperons rocheux noirs plongent directement dans des eaux turquoise cristallines d'une pureté absolue. Lieu traditionnel de refuge et de contrebande côtière durant les siècles passés, la crique dispose d'un ponton maritime rustique où s'organise l'embarquement des marcheurs après leur descente du canyon. Entre le bleu profond des fosses abyssales et les parois rocheuses monumentales qui bloquent l'horizon, le site procure une sensation d'isolement primitif absolu, illustrant la puissance souveraine du volcanisme insulaire canarien face à l'immensité océanique.",
+    visiter: "Une approche en vedette maritime ou en kayak de mer depuis le port de Los Gigantes offre la perspective la plus vertigineuse sur les six cents mètres de falaises basaltiques dressées au ras de l'eau. Le navire longe les différentes strates volcaniques et les grottes marines naturelles avant de faire escale dans la baie de Masca, où les visiteurs peuvent débarquer sur le ponton pour fouler le sable noir volcanique, contempler la gorge profonde s'enfonçant dans les montagnes de Teno et profiter d'une baignade vivifiante dans des eaux d'une limpidité exceptionnelle.",
+    link: "",
+    sections: [
+      {
+        title: "Structure géologique des falaises et sanctuaire ornithologique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOF0OQkVQFfMPq3LY-7vFeDmAIPTeZCCx5gXIADvPT3q_HxsN8Ob6R7Q90IjRT73Sjgwa-TifZNn-K09AB754XSf4UGTju-JEk_MQukfQfLbo_kluA1cK3s1jnJ7O1LWz_2oxsf_ruDGOwDLIRPlPj62Q=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOE-M8iPGOMOIMEcOTPlzGWDvdytK3vEMoTzpUNcl-G4e19DK2BouUJKfhwO00F2FabPTVvU9Qj79UOGIyeEQWezHqfEfCmJ5HUXAbe95ctJiGUSVpybFY5QzaMGDP5U96BEtFfqfaRmRaN1MNHoKJjsA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Les parois révèlent un empilement spectaculaire de coulées de lave successives, de niveaux de pyroclastes et d'un dense réseau de filons et dykes volcaniques subverticaux qui ont mieux résisté à l'érosion marine et éolienne. Ce rempart inaccessible offre également un biotope protégé pour une faune aviaire menacée, abritant notamment les aires de reproduction du rare balbuzard pêcheur (le guincho canarien), du faucon pèlerin et du pétrel de Bulwer."
+      },
+      {
+        title: "L'échancrure de la plage de Masca et l'embouchure du canyon",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNncREg-9dZkesDc0GoC9Au5xhLEjz0zQ1kOAY_eu517GY89vIREMFVDYAOSMEvj5FPOWJVjOIMMLUECThb8c8ux1N4nPIc2prgY9CNejF2z4hng4mHupT3ZPa_P17IQN73NUPIKDHXLl_pzaMwRVCJ7A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En poursuivant la navigation vers le nord-ouest le long des parois titanesques, le bateau oblique vers une échancrure spectaculaire de la côte où débouche la plage de Masca. Cette crique sauvage de galets et de sable noir volcanique marque l'embouchure terminale des vertigineuses gorges de Masca, canyon colossal creusé par des millénaires d'érosion torrentielle depuis le hameau perché de Masca jusqu'à l'océan. Encaissée entre deux éperons de lave sombre qui s'élancent vers le ciel, la plage est équipée d'un modeste ponton d'accostage où les navettes maritimes débarquent ou récupèrent les randonneurs ayant achevé la périlleuse descente de la gorge."
+      },
+      {
+        title: "Atmosphère de bout du monde et eaux cristallines",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNdgZIct6biAg71LFKf0c5mo7W0nguvfoWf3iIGhNpjOa1AUt5bfIQ2R7pIJ0rr1m10pXFasgAJp7l18aHe6p7RQ_0iFwFMcU_SUk6VWNQwT6rsJlV9mCpc22uU71gY6rkDJ05Z1Np7PrWOOpVzY5Dqpg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOxzXqQ6lcq6LCL2qJqmBP_7qqugY9LcBpFD4qg4wTNk8d_k7wQcYawE8ejQsDtr4n-akbzciOcTMH2AD7MU0BxnRA38OZRTewqsEFISu7Y6TFEzAI_rZHpGwFXBoyU_ZLA_NroM1_9-VexXkF78XwIkg=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'endroit, baigné par des eaux cristallines d'un bleu cobalt qui contrastent avec l'austérité minérale des falaises environnantes, offre une sensation d'isolement total et de bout du monde, dominé par le grondement continu du ressac marin se fracassant contre les dalles de lave polies par le courant."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNto6qZV4jhaAdHcxS6leFiStrrA2lAtKJBcXHOsuWVDhnnseNgJ-h4Cy-RmNwXiFSqpNWSe3Gjt8oGkZQQzdqaH0AIUYZVWcSOB3g4pSJ5vRX7XnD2HDnVqymLoaFVHyH9bNOWgIR0qq61hixQu1Y_Yw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMy1_GTxjjOYlqnRiCIRhMBdAHfcs742rTqV2-8KNbS4I0y7ClAPKpQzoB-4axu5GGffvaeiT5T9UUxh4iEJPXfEa8Q5umqt2bov1EU_ty7CehgzhKkXh83EcLpxZSa3ZFaRrhgnrEOUkxLpfACj6azHg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
+    id: "tenerife_observation_cetaces_los_gigantes",
+    name: "Tenerife - Sanctuaire Pélagique & Observation des Cétacés de Los Gigantes (Whale Watching)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Santiago del Teide",
+    altitude: 0,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "en_bateau",
+    era_group: "nature",
+    era_label: "Frange Marine Protégée Teno-Rasca, Globicéphales Tropicaux & Grands Dauphins",
+    century: "Temps géologique",
+    category: "parc_naturel",
+    counts: {},
+    lat: 28.24433,
+    lng: -16.87538,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOp0qZSLb1fArNHtMkrKyEeyzHKtn9osQJzyGHc_Id0Le-sfmDMdKslNkVEg7GMlO_QO57P4S9ux_T53JH-6uvVecWcFjjKkuMOXY0C6dNzhvbX56NcN2JMKzgt5cyK5pR9zn-Wtj0ogrUtp8yINgqpww=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMlBKgoMCmjPyma9kl79vEhvbIKp3r3CoX7pDdg9CbmXMbHUokPEBcNgfAUwE-YrC0DI0gBcC1z0GZSw0OilUFjOk-eLfjeC-Y2sOkaidxUCLjqhpd9cwmhMlOZY3H012wy8h-9g725A99WKkfVHy6hUw=w1379-h919-s-no-gm?authuser=0",
+        caption: "Le grand dauphin (Tursiops truncatus) est un cétacé odontocète cosmopolite mesurant entre deux et quatre mètres de long, immédiatement identifiable à son rostre court bien individualisé et à sa robe gris anthracite s'éclaircissant sur le ventre. Doté d'une grande intelligence sociale et d'une plasticité comportementale remarquable, il évolue en troupes coordonnées qui patrouillent aussi bien les zones côtières que les grands fonds pélagiques. Utilisant un biosonar sophistiqué pour repérer poissons et céphalopodes, il forme des populations sédentaires florissantes dans les eaux abritées des Canaries, où ses cabrioles et ses navigations dans le sillage des étraves témoignent de sa parfaite adaptation au milieu océanique insulaire."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNunH1_4QzvYaBhotB-F4sNPkB96NBxGfXBhym8Dbn6ROWFy9lgVWsTQCPueg172njaHdwYerfhnh8uV4I5lN1772h7vBpP3INI9cSAOw4Oa2RyRpkwfL1CetuCzufwUt8w7WC2uEAjQDgC7wzZsr3ebQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP-5G4I7joBu4YE1RX3tbRaw91BqMzTkzQPgU3OxwYSBrRpJKlHXDChBrwIoVmjtaeT605PNyC0vSgAhhOTmQ0Tz_VAbR7E7Xc3NFMqiczh3o4MRO4bdRSqDoTDUk7B29IUvSq7Iu8QdJp-vxzNCu_2bA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOkKDa_hvLSUDkgf6xMyEfWZWNKoDTczTIe-rFmizUopmtmbd0K_Xlahn-hqNfgOihHXY-TKeGH9ElZlkNqPZiIkQSW3Vc0pvz-lXLGeBUJedKVL-pDYG_pcnfbru89is-fEjFuwcLhdlkW4YbV2e44cQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "Le globicéphale tropical (Globicephala macrorhynchus), couramment appelé baleine pilote à nageoires courtes, frappe par sa livrée noir d'encre et sa tête globuleuse dominée par un proéminent melon frontal dépourvu de bec distinct. Mesurant jusqu'à six mètres pour les mâles, ce prédateur grégaire est organisé en groupes matrilinéaires soudés et hiérarchisés qui passent de longues périodes immobiles en surface pour réguler leur respiration. Véritable champion de l'apnée profonde, il plonge régulièrement à plus de mille mètres de profondeur dans les fosses du détroit canarien pour traquer les calmars océaniques à vive allure, constituant l'espèce sédentaire emblématique du sanctuaire marin de Los Gigantes."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOj8M88GLax-nxSqD2aJHY24P1C7PMwYkjCxGdqx1SNSvwGjEUB7XO3ZcnkJcsoULyCITJDNazTPfOhlqsMsd3mI8TXTaDbqJxoxEYHlFXsHKvMKCm-3TA65zXDEdvMluvQH5ncD-69LugioLoHO5xNog=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNU9r67Kdmp-36uMstmBznS9mD6fQ3BLsMAzyQoe3ZHi4h7E9wVtN3DJIuduk2avPbqJxigBmhAqUVqtX93pOBt7diVsFxLmveY5kH2lQ3bZS1wB9TI8-FDMuZK0K3pAdUk4a4qvtYreQZEPKxrlRuBNw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Le chenal océanique séparant la côte sud-ouest de Tenerife de l'île de La Gomera constitue l'un des sanctuaires pélagiques les plus réputés de la planète pour l'observation des mammifères marins dans leur environnement naturel. Protégée des fortes déferlantes et des alizés violents par le gigantesque bouclier montagneux du Teide et les falaises de Los Gigantes, cette vaste étendue d'eau calme bénéficie d'une bathymétrie vertigineuse où les fonds marins plongent brusquement à plus de mille cinq cents mètres de profondeur à moins de trois milles nautiques des côtes. Ce relief sous-marin colossal, combiné à la remontée d'eaux profondes riches en nutriments (upwelling), favorise une profusion exceptionnelle de calmars géants et de bancs de poissons pélagiques. La zone spéciale de conservation Teno-Rasca, officiellement intégrée au réseau européen Natura 2000 et reconnue comme le premier site patrimonial des baleines en Europe (Whale Heritage Site), abrite à l'année une colonie sédentaire exceptionnelle de plus de cinq cents globicéphales tropicaux et plusieurs centaines de grands dauphins.\n\nLes sorties d'observation menées au départ du port de Los Gigantes se déroulent dans le respect d'une charte environnementale stricte matérialisée par le pavillon « Barco Azul », garantissant une approche douce à vitesse réduite et à distance réglementaire pour ne pas perturber les groupes familiaux. Les navigateurs ont ainsi le privilège d'assister aux phases de repos en surface (« logging ») des globicéphales flottant paisiblement entre deux apnées abyssales, tandis que les grands dauphins s'élancent volontiers dans des poursuites acrobatiques à la proue des bateaux. Au-delà de ces deux espèces résidentes, le détroit voit défiler au gré des saisons migratoires une vingtaine d'autres espèces de cétacés fascinantes, parmi lesquelles le rorqual commun, le cachalot macrocéphale, le dauphin tacheté de l'Atlantique et le dauphin de Risso. Encadrée par la silhouette titanesque des falaises de basalte et le sommet conique du volcan Teide émergeant des brumes océaniques, cette rencontre marine offre une immersion inoubliable au cœur de la mégafaune atlantique.",
+    visiter: "L'excursion démarre aux pontons du port de plaisance de Los Gigantes à bord d'un catamaran ou d'un voilier agréé « Barco Azul », prenant immédiatement le large vers le chenal profond séparant Tenerife de La Gomera. Les passagers guettent l'apparition des dorsales courbées des globicéphales tropicaux et les souffles d'écume des dauphins évoluant en surface, guidés par les explications des biologistes marins du bord. La navigation se conclut généralement par une approche panoramique au ras des gigantesques falaises basaltiques et une pause baignade dans les eaux calmes de la baie de Masca avant de regagner la marina.",
+    link: ""
+  },
+  {
+    id: "tenerife_port_de_los_gigantes",
+    name: "Tenerife - Port de Plaisance de Los Gigantes (Puerto Deportivo Los Gigantes)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Santiago del Teide",
+    altitude: 1,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Marina Littorale, Muraille de l'Enfer des Guanches & Sanctuaire des Cétacés (XXe siècle)",
+    century: "XXe siècle",
+    category: "star",
+    counts: {},
+    lat: 28.24694,
+    lng: -16.84283,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMo88AY5K-8IB8m4rtc_tBM-ZIYncgfk2Hh2hmuUVJEI0EgYH4Bnozk0ITXMZs9LNMfz5qaW74JzUrDQW9fDSidzzX2NUI0JGqxQo1TtCw0X93cqUFL7MXP2JU3UcBVZLiLH2MmdrP0BhvO45XiQpW1Fw=w1367-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Au pied des vertigineuses murailles basaltiques du massif de Teno, le port de plaisance de Los Gigantes offre un saisissant contraste d'échelle entre les infrastructures nautiques contemporaines et la monumentalité brute de la géologie insulaire. Aménagé à la fin des années 1960 et au début des années 1970 pour accompagner le développement balnéaire de la côte sud-ouest de Tenerife, ce havre artificiel s'abrite derrière une robuste digue en enrochements de basalte conçue pour briser la houle puissante du grand large atlantique. Le plan d'eau accueille plus de trois cents anneaux de mouillage où se côtoient voiliers hauturiers, yachts de plaisance, embarcations de pêche artisanale et vedettes d'excursion maritime. Les quais s'adossent directement aux premiers contreforts des mythiques Acantilados de Los Gigantes, remparts volcaniques titanesques qui plongent à pic dans l'océan sur des hauteurs vertigineuses variant de trois cents à près de six cents mètres. Ce paysage dantesque de strates de laves sombres et de dykes volcaniques érodés par l'océan était autrefois désigné par les populations aborigènes guanches sous le nom évocateur de « Muralla del Infierno » (la Muraille de l'Enfer), frontière tellurique inviolable où le monde des vivants rencontrait le néant des flots.\n\nLe bassin portuaire constitue aujourd'hui la porte d'entrée maritime privilégiée de la frange marine Teno-Rasca, déclarée zone spéciale de conservation pour l'extraordinaire biodiversité de ses eaux tempérées. Grâce à la grande profondeur des fosses océaniques ceinturant le chenal séparant Tenerife de l'île voisine de La Gomera, le secteur abrite une colonie sédentaire remarquable de globicéphales tropicaux (baleines pilotes) et de grands dauphins, observable toute l'année à quelques encablures de la sortie de la passe. La promenade piétonne bordant la marina est jalonnée de terrasses animées, de restaurants de poisson frais et de centres de plongée sous-marine attirés par la clarté exceptionnelle des fonds volcaniques tapissés de gorgones noires et de coulées de lave sous-marines. Adjacente aux quais, la petite plage de sable noir volcanique de Los Guíos complète ce décor minéral spectaculaire, offrant un panorama souverain sur le défilé des falaises géantes dorées par les derniers rayons du couchant.",
+    visiter: "Une flânerie le long des pontons de la marina permet d'admirer la silhouette élégante des bateaux de plaisance tout en levant les yeux vers l'immensité écrasante des falaises de basalte qui surplombent directement le bassin. La promenade se prolonge sur la jetée extérieure pour contempler l'échancrure spectaculaire de la côte sauvage et la passe par laquelle naviguent les catamarans d'observation des baleines, avant de rejoindre la crique de sable noir de Los Guíos pour profiter d'une vue dégagée sur les parois rocheuses plongeant dans l'Atlantique.",
+    link: ""
+  },
+  {
+    id: "tenerife_reserve_montana_roja",
+    name: "Tenerife - Réserve Naturelle Spéciale de Montaña Roja (Reserva Natural Especial de Montaña Roja)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Granadilla de Abona",
+    altitude: 173,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cône Volcanique Hydrothermal, Dunes Vivantes & Littoral Protégé de la Tejita",
+    century: "Temps géologique",
+    category: "rando",
+    counts: {},
+    lat: 28.02715,
+    lng: -16.54895,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMZ9lv4m7byn6LZDL4P_1Yh5DzeU69s7we-O-xfxgid21953OeCgNhTSJaQ0-UYHYI7IPweABRT0MxSbagbOTgGBQ0Un9d70kDCCT4sV354h0GnVzwxVMls_YvTjYzk6N1cRjYF_qdAUb8ihLjetd1-ug=w1367-h911-s-no-gm?authuser=0",
+    description: "À l'extrémité méridionale de l'île de Tenerife, sur le territoire de la commune de Granadilla de Abona, la Réserve naturelle spéciale de Montaña Roja déploie sur cent soixante-six hectares l'un des paysages côtiers les plus singuliers et préservés de l'archipel des Canaries. Ce sanctuaire géologique et biologique tire son identité du spectaculaire cône volcanique éponyme, promontoire basaltique haut de cent soixante et onze mètres dont la silhouette rougeoyante émerge directement des eaux de l'Atlantique. Formé au cours du Pléistocène par une succession d'éruptions stromboliennes et phréatomagmatiques où le magma incandescent entra en contact brutal avec l'eau de mer, l'édifice est composé d'une accumulation litée de cendres, de scories et de tufs volcaniques. Les fluides hydrothermaux et l'altération séculaire sous l'action combinée des embruns salins et du soleil ont intensément oxydé les minéraux ferreux des roches, drapant le cône de teintes ocre, cuivre et rouge carmin qui contrastent de façon saisissante avec le turquoise de l'océan.\n\nCe territoire aride abrite également le complexe dunaire le plus représentatif du sud de l'île, façonné par le souffle continu des alizés du nord-est qui balaient les plaines sédimentaires reliant El Médano à la plage de La Tejita. Les dunes mouvantes et les sables fossiles accueillent une flore psammophile hautement spécialisée capable de fixer les sols arides, dominée par le balancón (Traganum moquinii), le raisin de mer canarien et des euphorbes maritimes naines. Cet écosystème fragile constitue un havre vital pour l'avifaune marine et côtière, servant d'aire de nidification pour le gravelot à collier interrompu et d'étape migratoire pour de nombreux passereaux et limicoles. Depuis les crêtes ventées de la montagne, le regard embrasse un panorama grandiose balayant les falaises escarpées du littoral, l'immense arc de sable doré de La Tejita et, au loin vers le nord, le majestueux pic du Teide dominant les brumes de l'océan.",
+    visiter: "Le sentier de randonnée débute au niveau du parking de La Tejita pour longer les dunes avant d'entamer l'ascension régulière du flanc nord de la Montaña Roja le long d'un chemin volcanique rocailleux. Arrivé au sommet près de la borne trigonométrique, le promeneur profite d'une vue circulaire plongeante sur les remous de l'océan Atlantique et la plage sauvage de La Tejita, avec en arrière-plan la silhouette majestueuse du volcan Teide. La descente s'effectue vers l'isthme dunaire pour observer les espèces végétales fixatrices de sable et faire une halte paisible sur le littoral avant de regagner le point de départ.",
+    link: "",
+    sections: [
+      {
+        title: "Le cône volcanique littoral de Montaña Roja",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMZ9lv4m7byn6LZDL4P_1Yh5DzeU69s7we-O-xfxgid21953OeCgNhTSJaQ0-UYHYI7IPweABRT0MxSbagbOTgGBQ0Un9d70kDCCT4sV354h0GnVzwxVMls_YvTjYzk6N1cRjYF_qdAUb8ihLjetd1-ug=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNolZgqOKtXCXBzlI0wV5O3ciAteK5RtcYMJGDNioYcEK2TvLFAA1TMeq3z3A9aNZkJDrVlqCJmtYA8n14yBF6ZjKG20RO8r7qlW1Z2vQ8trHdBxqaJUe-t1UeZ_DJatsYSttjX_9c_GS_90AU2VQ1JrA=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "Le cœur emblématique de la réserve est formé par la Montaña Roja proprement dite, un spectaculaire cône volcanique littoral culminant à cent soixante et onze mètres d'altitude au ras de l'océan Atlantique. Édifié durant le Quaternaire lors d'épisodes éruptifs stromboliens et phréatomagmatiques complexes, cet édifice basaltique est constitué d'une accumulation compacte de scories, de cendres et de lapilli pyroclastiques. Les intenses phénomènes d'oxydation hydrothermale et l'altération météorique des minéraux ferreux ont conféré aux flancs de la montagne cette teinte rougeoyante et ocre caractéristique qui tranche vigoureusement avec le bleu profond de l'océan."
+      },
+      {
+        title: "L'ascension de la crête, falaises maritimes et panorama sur le Teide",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN9rLE3QzOoVMo74NlYtj9wjeAZStLgerMHvEXTyjpsj2rT74Dj3i_FL-T5N2o3HTwwhLQSH7I0Llx6IZbGZ3qacUK2bnmjnxcIvBK1KP5ydmlGrIXqjZ3N44yUceoVj44e3xP1ehfVLFu55-xO39gmug=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPiG1zOnoXJg6-bf9ld4UhncmaEdMGAUuPCu6TyaQZIh0l-IGBgsxZI4fhXOcZEvX8sVoIIkk9b5DS-_e5M3KzGDLbCu8Y5vB8vTZY7xCQyENjDxU-QhCmjzIbIbQm3n9GqSRPaSgAKlYHyvrIQLfj_yQ=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "L'ascension par le sentier balisé serpentant sur sa crête révèle une falaise maritime abrupte constamment battue par la houle, couronnée à son sommet par une borne trigonométrique offrant un panorama grandiose sur le stratovolcan du Teide en toile de fond."
+      },
+      {
+        title: "Plaine sédimentaire, dunes éoliennes et flore psammophile",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczODMg_bU6jq18axxd3u4l7OuuIW7MEoWDgSkbXnUDU79AAgOY6FwFU1mnefahT6RlYEtaiJJrSsDmy3QLWM7Pi854Py8xTdv2Z17e0S52zj1ZxIBY1LsXUOAiDc9esQ-UgZEgqVWQnd20BbavqayRzFNg=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMHfOr23Nwbx7PwDoHQ55RUydSPLFHhbBAqFXzI5JQa8ylIVvhIP5d0sjCi3bkoZYtrduziEGTte0JExkeVxCaK4B8QQIJhziFxqKXNqqKUC77q4oL_DzUWaNc9AHJQkeffLN5u91RP0DiUE00OoJAT6Q=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "Entre les cônes volcaniques et l'intérieur des terres s'étend une vaste plaine sédimentaire façonnée par le vent constant des alizés du nord-est, reliant la réserve à la Playa El Médano. Cet écosystème dunaire d'un grand intérêt écologique abrite des formations de sables fossiles et des dunes vives colonisées par une flore psammophile et halophile hautement spécialisée. On y observe des colonies de balancón (Traganum moquinii), arbuste fixateur des sables endémique de la région macaronésienne, aux côtés du raisin de mer canarien (Zygophyllum fontanesii) et de l'euphorbe maritime."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOPelRDicn-63mdIsqU-HcYP7mL-O5imLaLI7Qs-jc-abh3PTdG-5VhOCYFP-IzumQ-J85ZbmcsGV0KKSOIaLUBHiDdsLmujAmjuWT5FD6r3U-JS8JafqRJeeEzskYa07YfMozgau1DR4TS-LRlWA53qw=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Plage sauvage de la Tejita, lagunes et avifaune côtière",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPeiUyVZjt_apTefbomf0a7cgKPVVIY0HZQ09IroJjl4Ec79O1Bi4xNoQBOg_O9uaLsbAgc4BVb7wcWQVBw3Dw4qJWuEENKEVu4Hiza3RS682DF0gTLpwS_YFqA6qliwOPYH95EX97ByomtTPpispVXDA=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOsmnDOd8ne76Pph_7HuhJ9ERpXfGN1omkmAfnqx8vR15cVCTADP3cATI0BZO8V8MX93eoBzQgsBMQ2aN7F3SP1OtRUpBeggYrmk_yp_lRq7d7g7mBS7iYQjIImglbxPY-1WYau6r6zPDdbodlHcmBdVw=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "À l'ouest du cône volcanique s'étire la majestueuse Playa de la Tejita, l'une des plus vastes plages naturelles de sable blond et gris de l'île, longue de plus d'un kilomètre. Protégée des vents dominants par le rempart naturel de la Montaña Roja, cette anse sauvage est bordée par un cordon dunaire préservé où se forment périodiquement de petites lagunes saumâtres temporaires après les rares épisodes pluvieux hivernaux. Ce littoral vierge constitue un point d'observation privilégié pour la faune marine et les oiseaux pélagiques, notamment le puffin cendré qui fréquente les eaux côtières, concluant un parcours où la force brute du volcanisme rencontre la fragilité des biotopes côtiers canariens."
+      },
+      {
+        title: "Perspective lointaine sur le stratovolcan du Teide",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPYasMSLVS2iznMXZJ_C76h-Ffm9OtHLmfL1WZsiZxRh_8CxQ3cP0GSlf7ICu_NCiWwiawwwq6fi_agZGngFBPrxwr4Vnt-VYDPaVVQZ2GsGO73YyfoxqUj52_ExteDcKM9XLn_7GQRgd6YpTm2tDADAA=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "Vue sur le toit de Tenerife, le Teide."
+      }
+    ]
+  },
+  {
+    id: "cabourg_ancien_casino",
+    name: "Cabourg - Casino de Cabourg",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Normandie",
+    department: "Calvados",
+    subdiv: "Cabourg",
+    altitude: 2,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Foyer Festif de la Belle Époque, Architecture Balnéaire & Théâtre à l'Italienne (1909)",
+    century: "XXe siècle",
+    category: "star",
+    counts: {},
+    lat: 49.29384,
+    lng: -0.11648,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMOfHl6nnWg6HBGrtNrVljzOmU0_X3pN-iJyyd4zXjUPHI7HYJ7cMgcnuLJY44UIAftYdHcyOJKI5jkluUAM6Tc9ZCgnNizmkSIpLWj3ehRFKc8N5ckAkbj3axTnwDxTQifgzbgVd7E6rUhLwwtViDyTg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Le front de mer de Cabourg trouve son point d'ancrage le plus brillant dans la silhouette monumentale du Casino, pièce maîtresse du plan d'urbanisme radioconcentrique imaginé au XIXe siècle par l'homme d'affaires Henri Durand-Morimbau. Pour remplacer le premier établissement thermal en bois devenu trop modeste face à l'engouement de l'aristocratie parisienne, la municipalité et la société fermière confient à l'architecte Lucien Viraut la création d'un complexe de loisirs spectaculaire, inauguré au début de la saison estivale de 1909. L'édifice adopte les fastes de l'éclectisme Belle Époque, associant le calcaire blond de Caen à de vastes baies vitrées cintrées qui ouvrent les salons de jeu et de bal sur les déferlantes de la Manche. Les façades rythmées de pilastres corinthiens, de balustrades ajourées et de mascarons sculptés dialoguent symétriquement avec le Grand Hôtel contigu, formant avec lui un ensemble architectural monumental indissociable de l'identité balnéaire de la Côte Fleurie.\n\nL'intérieur abrite un joyau du spectacle vivant avec son théâtre à l'italienne superbement conservé, doté d'une coupole peinte, de loges d'apparat en velours pourpre et de stucs dorés où se produisirent les plus grandes vedettes du music-hall et de l'art lyrique du XXe siècle. Les salons de danse et les salles de baccara accueillaient chaque soir les villégiateurs fortunés, les souverains étrangers et les écrivains, parmi lesquels Marcel Proust qui venait régulièrement y observer les mœurs mondaines de son époque pour nourrir les pages de « La Recherche ». Entièrement réhabilité tout en préservant le décor d'origine de ses verrières lumineuses et de ses plafonds à caissons, le casino perpétue son double rôle de temple du jeu et de foyer culturel permanent, accueillant chaque année le prestigieux Festival du Film romantique de Cabourg.",
+    visiter: "La découverte s'engage sur les terrasses dallées dominant la promenade Marcel Proust pour contempler les rotondes d'angle, la dentelle des corniches ouvragées et les hautes verrières orientées face à la mer. Les visiteurs peuvent pousser les portes de l'atrium pour admirer les stucs et les lustres Belle Époque des salles de réception avant d'accéder au théâtre historique lors des visites guidées patrimoniales, pour s'imprégner de l'atmosphère feutrée d'un haut lieu de la villégiature normande.",
+    link: ""
+  },
+  {
+    id: "cabourg_grand_hotel",
+    name: "Cabourg - Le Grand Hôtel de Cabourg",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Normandie",
+    department: "Calvados",
+    subdiv: "Cabourg",
+    altitude: 2,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Palace Balnéaire de la Belle Époque, Mémoire Proustienne & Balbec (1907)",
+    century: "XXe siècle",
+    category: "star",
+    counts: {},
+    lat: 49.29399,
+    lng: -0.11565,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNxDENmrNc9G1qXjhh5FvbGEihYLp9u57AB9n1TodVjcIMxmrhNeTAdRVqLlfXXv8hQKEOj3d_Ls-CCPB5k_0idM8OeaSgTHtKW-iXV2my-EqMpN-VHyQ0GD-2_ZIqrT082gIwgvplftn5mQVsBXzEPzg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Le demi-cercle des Jardins du Casino est dominé par l'imposante silhouette immaculée du Grand Hôtel, l'un des palaces historiques les plus illustres d'Europe et le témoin majeur de la naissance du tourisme aristocratique sur les côtes normandes. Reconstruit entre 1906 et 1907 par les architectes Lucien Viraut et Émile Mauclerc à l'emplacement d'un premier hôtel ouvert en 1861, cet édifice prestigieux déploie une façade théâtrale à travées régulières, rythmée par des avant-corps à colonnades, des frontons sculptés et un haut comble à la Mansart percé de lucarnes ouvragées. L'innovation architecturale de l'époque s'incarne dans les monumentales baies vitrées de sa salle de restaurant panoramique, véritable prouesse technique qui abolissait la frontière entre le confort feutré des salons dorés et le spectacle sauvage des tempêtes de la Manche, offrant aux convives l'illusion d'un repas flottant au ras des vagues.\n\nCe palace doit sa renommée universelle à la présence passionnée de Marcel Proust, qui y séjourna fidèlement chaque été de 1907 à 1914 pour soigner son asthme grâce aux bienfaits de l'air marin iodé. Logé au quatrième étage dans la chambre 414 — soigneusement reconstituée aujourd'hui avec son mobilier d'époque —, l'écrivain fit de cet établissement le décor central du « Grand Hôtel de Balbec » dans son chef-d'œuvre « À l'ombre des jeunes filles en fleurs ». Posté derrière les fenêtres de sa chambre ou assis dans le hall à observer la société cosmopolite des têtes couronnées et des diplomates, Proust y forgea les silhouettes inoubliables d'Albertine, de Robert de Saint-Loup et de la marquise de Villeparisis. Classé monument historique, le palace perpétue avec faste l'art de vivre à la française, associant ses salons classés ornés de miroirs biseautés et de lustres en cristal de Bohême à un héritage littéraire vivant.",
+    visiter: "Une halte devant la façade principale depuis les allées fleuries des jardins permet d'apprécier la majesté des colonnades ioniques et l'harmonie des volumes classiques du bâtiment. Franchir le tambour d'entrée permet de découvrir le hall historique baigné de lumière, où les boiseries claires et les souvenirs proustiens évoquent les villégiatures du début du XXe siècle, avant de rejoindre la terrasse marine ouvrant sur l'enfilade de la promenade Marcel Proust.",
+    link: ""
+  },
+  {
+    id: "cabourg_plage_et_cabines",
+    name: "Cabourg - Plage des Romantiques, Cabines & Promenade Marcel Proust",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Normandie",
+    department: "Calvados",
+    subdiv: "Cabourg",
+    altitude: 1,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Étendue de Sable Fin, Cabines Balnéaires Rayées & Plus Longue Promenade Piétonne d'Europe",
+    century: "Temps géologique",
+    category: "plage",
+    counts: {},
+    lat: 49.29413,
+    lng: -0.11726,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNTJQMoFV58Sbd8FuF7cbnyzLMAsPSax5Ec-HSt624FU34Lv8ACAWJIcpzQTBnTJ4UwWjFw7VnZ_9l7l1UxcZdIehI1vgpT6s_lNxtJHtEA-nVQ7OWUdp6do6r_y9D4hDql3S44Emd3u7iKqFNu-F-k0w=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM6RDDUfz5Mj7enn9o8i6Co_ACqOMPP2ejWaAmdNskmG0fuD__eMIACMTpMU70IGl8TxH_j0IEAcJEBMc5FbPxR4HwqGbrDVqMNhYAfpduNEt7UauCGiwriUYTZU2dLSoIjRdKdH6AjUTxWT8fJoJuJ3g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPK6OcTH394pwed6B8IaFPs1n0gtYHDlo4Y9aHZjrLPfhUl8-5Y9MKjeJVN-zIQZjciuFEqCBMQ4L9O6sw0yffPcYgwWmwPFfJ69ih3BYJsMjD4cSAss46LJHFwK5_0dG1ntOmI-Fj6ZqEY8YY7pS_khg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Une vaste étendue de sable fin s'étire sur plus de quatre kilomètres le long de la baie de Seine, formant le rivage mythique de la Plage des Romantiques à Cabourg. Bordée par les eaux vivifiantes de la Manche qui découvrent à marée basse un immense estran propice aux activités nautiques et au char à voile, la plage est célèbre pour ses emblématiques cabines de bain en toile rayée bleue et blanche et ses rangées de petites cabines en bois immaculé alignées au pied de la digue. Ces installations perpétuent la tradition médicale et mondaine des bains de mer thérapeutiques introduits sous le Second Empire par la noblesse et la haute bourgeoisie parisienne, lorsque les tentes servaient de vestiaires discrets pour plonger dans les flots selon les préceptes hygiénistes de l'époque.\n\nLe couronnement de ce littoral d'exception est assuré par la promenade Marcel Proust, considérée comme la plus longue promenade réservée exclusivement aux piétons en Europe avec ses trois kilomètres et six cents mètres de ruban dallé en front de mer. Aménagée en surplomb direct de la grève et dépourvue de toute circulation automobile, cette esplanade maritime offre un belvédère continu exceptionnel sur la mer, encadré d'un côté par les flots changeants de la Manche et de l'autre par une collection remarquable de villas balnéaires Belle Époque rivalisant de fantaisie architecturale avec leurs colombages néo-normands, leurs tourelles médiévales et leurs bow-windows ouvragés. C'est le long de cette digue légendaire que Marcel Proust aimait déambuler au crépuscule pour contempler les variations infinies de lumière sur les vagues, immortalisant pour la postérité ce paysage marin sous les traits poétiques de la plage de Balbec.",
+    visiter: "Une longue promenade à pied sur la digue Marcel Proust permet d'embrasser l'horizon marin depuis l'estuaire de la Dives à l'est jusqu'aux falaises du Calvados à l'ouest, bercé par le ressac régulier des vagues. Descendre sur le sable doré invite à admirer l'alignement géométrique des cabines blanches et des toiles de bain rayées, avant de contempler en contre-plongée les façades sculptées du Casino et du Grand Hôtel qui se dressent avec majesté au-dessus de la plage.",
+    link: ""
+  },
+  {
+    id: "dives_sur_mer_village_guillaume_le_conquerant",
+    name: "Dives-sur-Mer - Village d'Art Guillaume-le-Conquérant",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Normandie",
+    department: "Calvados",
+    subdiv: "Dives-sur-Mer",
+    altitude: 5,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Ancien Relais de Poste du XVIe Siècle, Hostellerie de la Belle Époque & Épis de Faîtage (XVIe-XIXe siècle)",
+    century: "XVIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.28680,
+    lng: -0.09862,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO1USBv3ekIYvTx-qQrvEjoQf7WQZPBkQ7ZGo7U9OeiCZdApwALGVyfq57Mx89VBvqTjutCiQPj471zkQTRSLkKe49ngHJOiIgJBTGAVQymDktQ4o7fsE2RSm04jNeRbSE1ohWF_SpbZRrq1YLK-oAYtQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Implanté au cœur du bourg maritime d'où s'élança en 1066 la gigantesque flotte d'invasion normande vers les rivages d'Angleterre, le Village d'Art Guillaume-le-Conquérant de Dives-sur-Mer forme un ensemble architectural pittoresque absolument unique en Normandie. Les origines de cette vaste enclave remontent à la fin du Moyen Âge et au XVIe siècle, époque où l'endroit servait de relais de poste à chevaux et de grande hôtellerie marchande sur la route littorale reliant Caen à Rouen. Les maîtres des lieux assuraient le gîte et le couvert des voyageurs, l'attelage des diligences et le relais des courriers royaux dans de vastes corps de logis à colombages articulés autour de cours pavées successives. L'ensemble conserve intacte la structure vernaculaire augeronne associant un robuste soubassement en moellons de calcaire et silex à de hautes élévations à pans de bois hourdées de tuileaux et protégées par des essantages d'ardoises et de bardeaux de châtaignier taillés en écailles.",
+    visiter: "Franchir le porche d'entrée pavé depuis la rue d'Hastings permet de pénétrer d'emblée dans la Cour d'Honneur pour contempler la richesse des façades à colombages, les coursives couvertes à bardeaux de châtaignier et la collection exceptionnelle d'épis de faîtage vernissés étincelant sur les toitures. La déambulation se poursuit sous le passage couvert menant à la Cour des Évangélistes afin d'observer les statues de bois du XVIe siècle, la ferronnerie d'art du puits central et de pousser la porte des ateliers d'artisans d'art. Les visiteurs rejoignent enfin le jardin médiéval planté de buis et de roses pour admirer les moulages en lottinoplastie de Saint-Georges de Boscherville avant de terminer la visite par l'office de tourisme aménagé dans l'ancien logis.",
+    link: "",
+    sections: [
+      {
+        title: "La vision romantique de Monsieur Le Rémois et l'Hostellerie Guillaume le Conquérant",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO1USBv3ekIYvTx-qQrvEjoQf7WQZPBkQ7ZGo7U9OeiCZdApwALGVyfq57Mx89VBvqTjutCiQPj471zkQTRSLkKe49ngHJOiIgJBTGAVQymDktQ4o7fsE2RSm04jNeRbSE1ohWF_SpbZRrq1YLK-oAYtQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM8TVys5I-AHlyTRPCoGu83finUazCo9TF2CfqgPIgF6Q60733mlzl5DnNMcdrObe5bjNikakn7Ik9l2MjXGKtDavumgnDDCSoNrmavtnjPbbuzFfwL49FQt64XI2_A9QtgcuFtN3kl7dM1naY6iqYSMw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La physionomie théâtrale et enchanteresse du site résulte de la passion d'un homme du XIXe siècle, Monsieur Le Rémois. Aubergiste érudit, collectionneur d'antiquités et futur maire de la commune, il rachète les lieux au milieu du XIXe siècle pour transformer l'ancien relais de poste en une somptueuse auberge de villégiature nommée Hostellerie Guillaume le Conquérant. Mettant en scène un véritable décor d'opéra dédié à la gloire du duc de Normandie, il rassemble et intègre aux maçonneries des boiseries sculptées anciennes, des éléments de réemploi, des statues de plomb et de terre cuite, ainsi que des pastiches médiévaux qui séduisirent immédiatement la haute société et les cercles artistiques en villégiature sur la Côte Fleurie, de Marcel Proust à Sarah Bernhardt, en passant par Guy de Maupassant et Alphonse Allais."
+      },
+      {
+        title: "La Cour d'Honneur, coursives à écailles et épis de faîtage du Pré-d'Auge",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMo8xvpYE8vl4geoweACOECuXJQUZrs2NdgHc70pUNJkRAv_5upUta6KksqG6CDEx5OURHRFt_479L11ma_6nRsGygvPvE-hhZAI-f2kQz0Srs0guVOVJtlgncjiBh6MqQ9fiSEVlknQk28cKVdNaaC6g=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPJX59OaLDolOB74SOPtQev9noZELP3cX4I1VZvK_L9wj-mCirH5L3yY7KlCDYfIxB3s3S7hsN4B8QAu_Nko57iPuBfCOk3HoEqB41BRsKn6WBseTyzHec7ixtm5typ4NgtXWjua4CLZnmF5aPOB1Vjfw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le parcours débute par la vaste Cour d'Honneur, ceinte d'admirables façades à pans de bois et colombages traditionnels normands. À l'étage, les pièces en enfilade sont desservies par des coursives extérieures couvertes, protégées par un essentage de bardeaux de châtaignier taillés en écailles arrondies. Le regard est attiré par la profusion d'ornements sculptés sur les sablières et les poteaux corniers, figurant des visages grimaçants, des monstres fabuleux et des scènes mythologiques. Les toitures d'ardoise et de tuiles sont couronnées d'une spectaculaire collection d'épis de faîtage en céramique vernissée aux reflets mordorés et verts, chefs-d'œuvre des potiers du Pré-d'Auge. Au centre de la cour trônent des sculptures monumentales disposées sous les frondaisons, notamment une statue de Louis XIV et un relief représentant saint Georges terrassant le dragon, entourés d'anciennes tables de pierre et d'un cadran solaire."
+      },
+      {
+        title: "La Cour des Évangélistes et les ateliers d'artisanat",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOQc9fj4rbZl9-es3nnuCb92ue6SnB1RziTf79hrt4w3aTa9U5mia4xGwizHhUXEmA3POlYjW7uYJu9X5xGEnaxGmvA_y3ORG_-yCmCVLw9hHwWuka0qCP06EWDg5VeFVyteEzGhKneEVN1v310aoDoOw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPgHh7fJ-tiSU5cxGE1Lqi_v0JMBAhrSKIuW6-Vxo95yILeqWylcIpoVkh4gkFo41IZ10quhHCiTo9mjl55yC84L_j-ZaXcr0VPkkGxElw_0zfGLgh87gOAIhuPisn7aoIZ2CVtpZNIvr-wN9w6ZmSMIQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En traversant les passages charretiers sous auvent, la visite s'enfonce dans la Cour des Évangélistes, également désignée sous le nom de Cour de la Pucelle ou cour Jacques-Bracquemond. Cet espace plus intime doit son appellation aux quatre statues en bois sculpté des apôtres saint Jean, saint Marc, saint Luc et saint Matthieu adossées aux montants de la galerie. Au centre de cette cour pavée s'élève un remarquable puits surmonté d'une ferronnerie d'art travaillée en coupole, entouré d'échoppes où s'activaient jadis les palefreniers et les artisans du domaine. C'est ici que bat aujourd'hui le cœur artisanal du village d'art, où peintres, céramistes, graveurs, maroquiniers et antiquaires ont investi les anciennes écuries et remises pour perpétuer les savoir-faire traditionnels."
+      },
+      {
+        title: "Le jardin médiéval et les moulages en lottinoplastie",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNFQbDKhDyPW4ACoK0unqhcpsTXbyr2ioWh4UKW5hC5MKml5iI2JIlqvJk2jYdNeaXoxfUPNim88kZIFCiYUuvmENtwZPhiyqi3A_pJZnkzNLkzPF5J_B60lU_Wio4SGibleGWoRTdRBw9qK3nQObvhCg=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOu1Bumd0xPjYVE8eEcbGMeBNj2-2qUeXKJrmoi77shIiuPJVgitEwgbA3a4VBa3iim5rgwFsj9Z8eLN5NWc0aResMwSPP9nfhaQ21OlYbvLBOHfj3qVDfzPdQqWgYW9-5qR1NsxYLbClGmP7UnxR9glQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'exploration se prolonge vers la troisième cour qui abrite un paisible jardin d'inspiration médiévale. Aménagé de buis taillés en topiaires, de massifs de rosiers parfumés et de plantes aromatiques médicinales entourant un bassin murmurant, cet enclos végétal offre un havre de calme ombragé où les convives de la Belle Époque aimaient prendre le thé au milieu de bananiers en pot. Les façades qui bordent ce jardin présentent d'intéressantes copies de chapiteaux romans de la salle capitulaire de l'abbaye de Saint-Georges de Boscherville, reproduits au XIXe siècle selon le procédé novateur de la lottinoplastie mis au point par l'archéologue normand Victor Lottin de Laval."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPFNRzrKJA9uokT4XmCe_CQoMPpTEseQHaaDV-FdVwtP7DpvI-6SfOU7AiREyp5QFWivBvFP1-vliUTuJJwxrXYTBCRShnYMboJbhy2wQpglYMjF-zpgYAd3xbf22snL0JEYoYgp8umYVfB-gDLmkb57Q=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMDEoT1wCaPXfjV3FrtFvVhbha4M7JzR4DH58kCLoG_EmkpYRyPwJGlQBfY2L_zLyi7bIIpwSNNdVTn4SWlCJ1P0IHkGYxqzhPRiGS9_8x9W-LQt2ZxeBRUMrN6b3QeUqgv9IPZkGXCVYyHVnWhFtT7Vg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
+    id: "beuvron_en_auge_village_pans_de_bois",
+    name: "Beuvron-en-Auge - Village Historique & Maisons à Pans de Bois",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Normandie",
+    department: "Calvados",
+    subdiv: "Beuvron-en-Auge",
+    altitude: 10,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Joyau du Pays d'Auge, Maisons à Pan de Bois & Halles Marchandes (XVIe-XVIIIe siècle)",
+    century: "XVIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.18787,
+    lng: -0.04608,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMbjofrrJ0mLhEMC0k_JKLl5sIg9I32Qsgaw2dGXWOVjZ_LdaqfrEG6OnvqvLxTaNZ0Av4cvMG7ieiYC1YfO9VhiDLo-f65hso4RMxQW0_Qf3WyXFbnDKLnM7xEdzIrm2Q6BE1-kobfR4kha0qVzkyiQg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMU6klyF0SuxsXbL0Un-CvIysSgjQRzgieqmAYvYf9iHGhlEmfBG2Kkxn_IIcbhLeHatGg94i_lJpFR_wpiRciXieioxbakaH-AIcNOd0v1TSbM-Qjfd3XF8Cu4ITVWT0k3TtJXmTfrymrvWogNx2c0OA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMMUHgFlDtd4zVGfe4XJeBd_fhZtxwV-ID84UcW35qrNeAqNGNv7caAL5NcAxoZXLcnip7jfG2ZAujRa69G1aJNSzjf-ltLAaiTQ3d1SSehG3X1YfvuG9hg4ejxZgxaBiaeLwIvIj3OuPYNdbCgjCsUGQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNYtOMDYaKO7SKixgY6H-vaMRCyJpbjyd2eHP4_fzh1npJUyO7f-R3lhRkAvibkJ1U3BGqhK13wmOFkSVg0RoB1h_DM7DozqL1v2IzuFHITu1QvQmQeP5bgTo6_LjG9cBnFGxGI_dP0OJBqN-ZC38vIVA=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPAMQIAc77od16o2KJI6FdzlyGbld_cK0j9awBXRDSuzTjKvCxagOYQUarq33Rcry7oCBwM68WXQFBaWzTacGxg6i39tT3Zxp-Vl4Ce1GbnsFIE8LIKw7MNgJmrCvV_5xw8me6dUlmV1OfvYgxp33lidg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMcSAbDJsa0pj0N1lxORcI-JMNypnq0BLVzLCX5LuowCKe0PpRb9aIkOopf5828mEzCxhcPmpoTviZf9Ue8uHDQg2qyeg8_XpTpZQPnPSAw4YfdWoHxFg7FD9MPQLSAQQWamFw4hhNnOpKDtdMwYlYvog=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Au creux des vallons bocagers du Pays d'Auge, bordé de vergers de pommiers et d'herbages verdoyants où paissent les chevaux, Beuvron-en-Auge incarne la quintessence du village traditionnel normand. Ancien fief de la puissante famille féodale d'Harcourt qui régna sur les terres environnantes dès le XIe siècle, le bourg s'est structuré le long de son artère marchande principale pour devenir une plaque tournante agricole réputée pour ses foires aux toiles, au bétail et aux produits cidricoles. Son harmonie visuelle exceptionnelle repose sur la préservation remarquable d'un ensemble de maisons à pans de bois s'échelonnant du XVIe au XVIIIe siècle. Ces bâtisses utilisent avec virtuosité la technique de l'ossature en colombages de chêne hourdée de torchis ou de briques de Saint-Jean posées en épis, reposant sur un solin protecteur en silex et grès local pour isoler la charpente de l'humidité des marais environnants. Les toitures pentues en tuiles de terre cuite brune, animées de lucarnes ouvragées, confèrent à la perspective du bourg un rythme architectural pittoresque qui a valu à la commune son classement parmi Les Plus Beaux Villages de France.\n\nLe cœur de la cité bat autour de sa grande place centrale, dominée par les halles marchandes en charpente de bois traditionnellement reconstruites dans les années 1970 avec des matériaux anciens pour restaurer l'esprit commerçant du siècle passé. Parmi les chefs-d'œuvre du patrimoine civil local se distingue l'imposant manoir du XVIe siècle, classé monument historique, dont les sablières sculptées et les corbeaux anthropomorphes témoignent du raffinement de la petite noblesse augeronne de la Renaissance. Menacé d'un déclin inexorable au milieu du XXe siècle en raison de l'exode rural, Beuvron-en-Auge a bénéficié d'un ambitieux programme pionnier de sauvetage patrimonial initié par ses élus et ses habitants, qui ont restauré les enduits à la chaux, enfoui les réseaux aériens et banni les matières modernes au profit d'un fleurissement généreux de rosiers grimpants et de géraniums. Étape incontournable de la célèbre Route du Cidre, le bourg abrite aujourd'hui de nombreuses échoppes d'antiquaires, des ateliers d'artisanat d'art et des distilleries familiales perpétuant l'excellence des savoir-faire normands du calvados et du pommeau.",
+    visiter: "Une déambulation sur la place Michel-Vermeulen invite à contempler l'alignement des façades à colombages colorés et le dessin géométrique des hourdis en briques rouges avant de pénétrer sous la charpente apparente des halles pour découvrir les produits du terroir augeron. La promenade se prolonge le long de l'avenue de la Gare et de la rue principale afin de repérer les détails sculptés du manoir du XVIe siècle, les lucarnes à fronton de bois et les anciennes devantures d'artisans ornées d'enseignes en fer forgé. Les visiteurs s'accordent ensuite une halte gourmande pour déguster fromages d'appellation et nectars de pomme dans les cours fleuries bordant le ruisseau du Doigt.",
+    link: ""
+  },
+  {
+    id: "corte_rando_pont_russulinu_gorges_tavignano",
+    name: "Corte - Randonnée des Gorges du Tavignano & Pont de Russulinu (Ponte di u Russulinu)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Corse",
+    department: "Haute-Corse",
+    subdiv: "Corte",
+    altitude: 780,
+    is_island: true,
+    island_name: "Corse",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Sentier Muletier de Transhumance, Canyon Granitique du Tavignano & Passerelle de Russulinu",
+    century: "Temps géologique",
+    category: "rando",
+    counts: {},
+    lat: 42.29877,
+    lng: 9.09248,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPUircqCOC2opv_7Gdj5GU6T0a1LnLhGq9UIc5z3yN8Tz8CPgn8f1a52DcbDooZDzJYgQR4I03IWEtR85uf0ILkLZWSMajr_112F-q2Q9kgThIJ3b6aYrtPg49mmTfqCziK9BTBqI48HgcCddjIpRdXWA=w1379-h919-s-no-gm?authuser=0",
+    description: "Une entaille minérale colossale entaille le cœur montagneux de la Corse pour donner naissance aux gorges du Tavignano, l'un des défilés les plus sauvages, arides et préservés de l'île. Accessible exclusivement aux randonneurs par un sentier muletier séculaire qui servait autrefois d'axe de transhumance vital reliant la cité de Corte aux hauts pâturages d'altitude du Niolu, cet itinéraire d'exception serpente en balcon au-dessus du plus long cours d'eau insulaire. Les dalles de granite blond et de schiste lustré côtoient une végétation de maquis odorante où s'épanouissent le ciste de Montpellier, l'arbousier, le myrte et les chênes verts accrochés aux parois rocheuses abruptes. L'absence absolue de route carrossable préserve dans cette gorge une quiétude primitive saisissante, rythmée par le grondement assourdi des eaux vives qui s'engouffrent dans les défilés rocheux.\n\nLe franchissement du fleuve au secteur de Russulinu constitue le point d'orgue de cette marche montagnarde, où une passerelle moderne suspendue permet d'enjamber le cours impétueux du torrent entre deux rives escarpées. Entouré d'un cirque d'imposantes falaises granitiques couronnées de grands pins laricio, le site offre un spectacle aquatique remarquable : les flots tumultueux s'apaisent dans une succession de vasques naturelles profondes d'une limpidité cristalline et de piscines rocheuses polies aux reflets vert émeraude. Cette halte ombragée, étape privilégiée des marcheurs cheminant vers le refuge de la Sega et les pozzines du lac de Nino, illustre toute la splendeur de l'intérieur corse, où la fraîcheur revigorante des vasques de montagne contraste avec l'aridité solaire des crêtes rocailleuses dominant la vallée.",
+    visiter: "La randonnée démarre au pied de la citadelle de Corte par le sentier balisé des gorges du Tavignano, s'élevant en lacets réguliers sur la rive droite pour contempler les échappées plongeantes sur les falaises abruptes et le défilé du fleuve. Les marcheurs franchissent les ruisseaux secondaires ombragés et les terrasses d'anciennes bergeries ruinées avant d'amorcer la descente vers la passerelle de Russulinu, où une pause s'impose pour franchir le torrent, se rafraîchir dans les vasques d'eau émeraude et admirer les cimes de granite ceinturant la vallée.",
+    link: "",
+    sections: [
+      {
+        title: "Progression en balcon sur le chemin caladé et flore du maquis",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPUircqCOC2opv_7Gdj5GU6T0a1LnLhGq9UIc5z3yN8Tz8CPgn8f1a52DcbDooZDzJYgQR4I03IWEtR85uf0ILkLZWSMajr_112F-q2Q9kgThIJ3b6aYrtPg49mmTfqCziK9BTBqI48HgcCddjIpRdXWA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOfEf2fqWQ_aIOJQWg3GVQwFX5d0INx243qCkAIEYG-HTbjUO_j7LhrDwy7maDGxDgEZlbSw4k_VIOYgLr-aq8bGZMn2h4a43q8QPW1gfDFpDrIyjv3L-0Qtvzp8Xn9CoalyIhnWUPl6JuJ-feaZG8ZLQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La progression s'effectue en balcon sur un chemin caladé, bordé d'un maquis dense où dominent les cistes de Montpellier, les arbousiers, le myrte, les chênes verts et les genévriers nains accrochés aux dalles de schiste et de granite."
+      },
+      {
+        title: "Panoramas plongeants sur les falaises et les méandres du Tavignano",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMAZkhGKSTlhUW_HF6ZakE5TDg0Xl6c5qsWAFAJrGgrBjsD280KfAifMxmdiGYr_lx7hNXmjtD4DHpy4e2Qz_KCHOyDtB0ncaDslND8eEmO5qgQ3vUIOobV4sWslr22i36M2SIF34zJZdx-VZK8AnZVrw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczObdzF1LZlABsDrwUE7Ct-CnYtHEk6GSp1ZK1lzpvVYYpJS8NWJIfEIqkvcic89gxQ_SgX-nQ6lXiaNh7fcFiWsTEnfDwCU_dt_fiB2dUzfRgbv74Vr7sNIzzYxaBa9Y9svgi1JRD9juNlAyRWyHa6CcA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'itinéraire s'élève d'abord avec constance le long des flancs ensoleillés de la rive droite, offrant des panoramas plongeants et vertigineux sur les méandres encaissés du Tavignano et sur les falaises abruptes qui canalisent la vallée."
+      },
+      {
+        title: "Ravins ombragés, bergeries en pierre sèche et approche de Russulinu",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOMMIrMdNBit4zpbgNOsss7C8ZmUw394QWAs8yCuFslfPQCO_Eknd-QogdnX0Khwr9rFTMFCqytEj7NAdzMwJmhIUMpTOmf3pOuFugOeLkJd7YQ6URDOIVB2NgCiUUbCtEZSMVrvBwPkFw-drPUupATvQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Après avoir franchi plusieurs ravins ombragés et dépassé les ruines de modestes bergeries de pierre sèche, le sentier s'adoucit à l'approche du secteur de Russulinu avant d'amorcer une descente progressive vers le lit du torrent."
+      },
+      {
+        title: "Le Ponte di u Russulinu et les vasques émeraude du Tavignano",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPPBY6jLbD1MjdFXEVWNMR5NWCLocEes4OMp5umtEV6spJtd0YperhWtSRtzV3DWYJPYZhfe-G2IsgLKP9ZOJ3FADLycHck4tXtxugq4KTT0P8JEs41b-y8GWwSwZxz6soMs8RAUFigSl99DvwriHzmGw=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPuQgRQiKqWM0EzaKoan26T4sO5WIvk6GL-v-acga7jErEnJl2Fkt9DX-HVk2F_N17OPTiO_QQ6oWmuc9Ni8ERtk7h9CNzY4QpldxdC9QIJux6wDYDkz5mh4UJiEK1NmDDKjEBDyx-uGmhTimJGO2MVgA=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'arrivée sur le site révèle le Ponte di u Russulinu dressé au milieu d'un cirque de falaises boisées de pins laricio.\n\nSous la voûte du pont, le fleuve s'élargit en une enfilade de vasques naturelles profondes et de cascades limpides, offrant une halte de fraîcheur au cœur d'un environnement montagnard grandiose."
+      }
+    ]
+  },
+  {
+    id: "parata_eglise_saint_gavin",
+    name: "Parata - Église Paroissiale Saint-Gavin (San Gavinu d'Orezza)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Corse",
+    department: "Haute-Corse",
+    subdiv: "Parata",
+    altitude: 600,
+    is_island: true,
+    island_name: "Corse",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Façade-Retable Baroque en Pierre de Schiste, Niches d'Applique & Belvédère d'Orezza (XVIIe siècle)",
+    century: "XVIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 42.37241,
+    lng: 9.40635,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNIMFGEGxw5Fpztb7R4-N54ywH8WU9eqH-anZY4nvazHvXURSRX6ab7Mf0mvaphFEgb12x7FVMt0Orku2CNvWieOfkHpxNPL5U2SBfK4PLx9w5pST7Oc7cIWYj7RQeVvanXMpumPxEvxlumaSssnXa7QA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "La haute vallée d'Orezza dissimule à Parata l'une des façades baroques les plus théâtrales et inattendues de la Castagniccia montagnarde, dressée en belvédère sur une paisible esplanade gazonnée ombragée de marronniers et de mûriers. Bâtie en moellons de schiste et de grès ocre laissés à pierre vue, l'église paroissiale Saint-Gavin (San Gavinu) déploie une façade-retable monumentale à trois registres étagés, dont la composition classique rigoureuse contraste admirablement avec la rudesse minérale du site. Le soubassement s'articule autour d'un portail rectangulaire encadré de pierre appareillée, accosté de hauts pilastres plats et de deux profondes niches aveugles destinées à accueillir la statuaire dévotionnelle. L'étage intermédiaire prolonge ce rythme harmonieux avec une grande baie centrale en plein cintre qui inonde la nef de clarté, flanquée de part et d'autre de niches rectangulaires en ressaut délimitées par des pilastres doriques.\n\nLe couronnement sommital s'achève par un édicule central majestueux formant campanile, percé d'une baie axiale cintrée et coiffé d'un fronton cintré en forme de calotte que surmonte une fine croix en fer forgé. De puissantes volutes baroques adoucissent la transition entre les différents niveaux, ponctuées sur leurs corniches de pots à feu et d'acrotères sculptés qui découpent la silhouette du sanctuaire sur le ciel méditerranéen. Cette scénographie d'inspiration liguro-romaine, conçue au XVIIe siècle pour frapper l'imagination des paroissiens lors des fêtes de la confrérie et de la saint Gavin, témoigne de la vitalité artistique qui animait les communautés villageoises de l'intérieur de l'île. Depuis le banc de pierre installé sous le feuillage doré au pied de la nef, le panorama s'ouvre sur les reliefs boisés de la combe et l'amphithéâtre verdoyant des châtaigneraies séculaires de la piève.",
+    visiter: "Une montée par les ruelles pavées de Parata conduit au parvis herbeux de l'église, offrant un point de vue panoramique exceptionnel sur la vallée encaissée d'Orezza et les crêtes boisées environnantes. L'observation de la façade en pierre apparente permet de détailler la superposition des pilastres plats, les niches murales sculptées et le fronton en dôme couronné de sa croix en fer forgé. Les visiteurs s'assoient sur les bancs de l'esplanade ombragée pour apprécier le calme montagnard avant de contempler l'alignement des villages perchés de Castagniccia.",
+    link: ""
+  },
+  {
+    id: "parata_chapelle_san_bartoli_cretes",
+    name: "Parata - Chapelle San Bartoli & Crêtes d'Orezza (San Bertuli)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Corse",
+    department: "Haute-Corse",
+    subdiv: "Parata",
+    altitude: 1060,
+    is_island: true,
+    island_name: "Corse",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Sanctuaire Pastoral d'Altitude, Sentier de Crête & Estive de Castagniccia (Moyen Âge)",
+    century: "Moyen Âge",
+    category: "rando",
+    counts: {},
+    lat: 42.38116,
+    lng: 9.42432,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNHfyQ3l92MIO2fB5-5wZzVxbXfGs4NTRfmWlcTArnya36ECW0VclPBBSvRiQLFfwSBq9W_rDzQoQ8BpA_wFf5pWiNMQwHkowEOz_qI954bjV9ZG4IJH6EdnJXccnGc0xgRms6-5qMvEuhv5MBS5Iybbw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMIZEHZIqa7xHAtxAtYnlG2a18OLJxUr4TjD1AL375WP5ZzfMFArbbGYZZhrOQRctP4-szlpcFljvHSJAoHlSDkRfq4qAI8v2SmprhpFmNtT36VzvBgzKI4POoBp0wuPxNQ-J-QO0E-1pbYTfomm7sSSw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOCfXj189BMWVf0Dh3GB1zsd8_tfMZ34FuXRd4bCCEDB9kaPWxAskxYNp9RcxZ8Avwnp_sIa_360j7pZXJLxtHXj4ETCIQlmyscwazXVbd0Eo6jxEc-hz1t_Uybu1kqubcaf93-rHrkj5xz_dVEPDP2dA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOXCtItw3yLzpdmNntpmIcrJ8O1Tg7GhedkkuQGmuga3odkVE7vZlwj6z5QHOo2NhV6KyFTvfNLoJWrLu1rTs-JHPckG3nAdFcwftaarv2ks_pFbHPOOeMNlvuUrEe3kjR-97RdvNdeVNu7SmOk0JrnlA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Perchée sur une arête herbeuse vertigineuse à plus de mille mètres d'altitude, entre les communes de Parata et de Monacia-d'Orezza, la chapelle médiévale de San Bartoli (ou San Bertuli) incarne avec force la symbiose séculaire entre spiritualité montagnarde et pastoralisme insulaire. Accessible uniquement à pied au terme d'une rude ascension à travers les sous-bois de châtaigniers et les chênaies d'altitude, ce petit édifice votif d'origine médiévale veille sur les zones d'estives où les troupeaux caprins et ovins montent traditionnellement passer les mois d'été. Sa maçonnerie rustique en blocs de schiste brut montés à la chaux et sa toiture à double pan couverte de lauzes épaisses défient les intempéries montagnardes et les bourrasques de neige hivernales.\n\nLe site constitue un haut lieu de dévotion populaire lors du pèlerinage annuel du 24 août, date à laquelle les habitants et bergers de toute la piève d'Orezza convergent sur cette ligne de crête pour honorer saint Barthélemy, partager le repas fraternel et perpétuer les liens communautaires. Autour de la chapelle s'activent les bergeries d'estive (stazzu), où la fabrication artisanale du fromage de chèvre et le séchage traditionnel perpétuent les gestes ancestraux de la transhumance corse. Le belvédère naturel offert par l'arête rocheuse dévoile un panorama circulaire d'une splendeur grandiose : vers l'ouest se découpent les crêtes rocheuses du Monte San Petrone et du Monte San Colombano, tandis que vers l'est, la vue plonge directement vers la mer Tyrrhénienne et les silhouettes bleutées des îles de l'archipel toscan par temps dégagé.",
+    visiter: "L'itinéraire de randonnée démarre à la sortie de Parata pour s'élever le long d'un sentier muletier séculaire ombragé de châtaigniers centenaires avant de déboucher sur les croupes herbeuses dégagées de la crête. À l'arrivée sur le plateau sommital, la halte devant la modeste chapelle en schiste permet de reprendre son souffle tout en admirant la pureté de ses lignes médiévales. Les marcheurs prolongent la découverte en longeant le fil de l'arête vers les bergeries de San Bertuli pour contempler l'immense horizon s'ouvrant simultanément sur les vallées d'Orezza et la côte orientale.",
+    link: ""
+  },
+  {
+    id: "paris_grands_magasins_printemps_lafayette",
+    name: "Paris - Grands Magasins : Printemps Haussmann & Galeries Lafayette",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Île-de-France",
+    department: "Paris",
+    subdiv: "Paris",
+    altitude: 48,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Temples Commerciaux de la Belle Époque, Coupoles Art Nouveau & Verrières (XIXe-XXe siècle)",
+    century: "XIXe siècle",
+    category: "star",
+    counts: {},
+    lat: 48.87347,
+    lng: 2.33152,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMaZxNMpdYWsdEAWkw_2-QrCZ8wfq1fnDSSZR31g5pjD662UMy2ODfGFl6ClwTAHnI-Tbv5Ek34SnNQKCp1KAOJQpxBJTqYz8HH_O-1cMc4SX8diENZy2u_X3tley0cnn05LbyoiTchfehe6-d0nmCnRg=w1373-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM5eNBh1VgCH4iOcjnXyI5mv5TAwpAyC9boOqBpwp-uHWlqZtiUwGx2L4MXBQ7lXwEwoGzHdJSx-WVNbJjP74BdqRw8MRdGlDFP5POfCA50z8B2GIrORAdRii6_g9s4PaGiCIE1-6BUWFe0kUBzalq9iw=w1373-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOOL1Cs_BG_aWYp2B1flmlflsgJw5p08Ok8A2kAxYVnsumojww1VcuZIPNiFV1PYhOatdOOXx5l9vpVVfMf2a1t-Tunn1Qvbx4fQnaqkYF3TFt406SEx3KCuOYlVXGEcq0qbfmkcKBqWw0iVsWNFcKTeA=w1373-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNHr7ioPqFqAVketMRZSaOhz7iYx_1LWM9lvd182U64GvA1ho0re9H_wjRBrlGzWeMUhb-GZ3YySrRkjdZeU0yvVroBWpgZbQH5_3I33SxRPch4htad2PvYM_XBaz24TfrrhshlVskg-SVrItumR_lp8A=w1373-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM8wHtMhTgQE-9ivXuAp0uduCTj-gav4hDx1daA5VtkBAzk1Icn2lV_wznZlT4V20WqGigBnqeJIW-f610jCXPPrlOIY2S2tuBwhIpUralF_JfYjrmfo2DYsv4f2RTywwGlJC7UV_tOruwJ89CTE6opmA=w1373-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMn2I5nhcYGWnGHX6xN9J8uliNINwOT8-CsK5S1FN79WZ0DcvHMKP0VWf70nyzDlKnOVCPkFGx0RkywNhmOtZabN9Xh0eLcZiZwXOmGssKeNPr7QctEPdMG6BP46Qyrfq1hoqhErGkumQJpTDAS-zyKyw=w476-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNzmpW1FMGQ359_M4IgYvi53ZhVTllCYriav2FE-MDs_UUVc90_krO26a0-Kq03ymA5XWFD_M78MguymopMLv1zYkhP4m6hriALlrTz3O9XGff2-G2_TtetiD6ypb3S5OU8OOFMY39M33S28vvNdXDmrw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPQLvGGNGGUejYTFCsg6apBvW0aW6dTolx_Zzk43fcnMqb9jXXyawjTnH1IYRFRcdJfv-ID9sTnU3Az2c8nKUJ3VhzwmAyhipi6hAdsbWQ9VZ31zFUcV6PXnY0zSixn4-Ea0rIkNnbA5AI1IVQz6wnvBw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Le long du boulevard Haussmann, au pied de l'Opéra Garnier, s'étire l'enfilade majestueuse des Grands Magasins parisiens, théâtres monumentaux de l'essor du commerce moderne et vitrines internationales de l'élégance française. C'est en 1865 que Jules Jaluzot fonde le Printemps, confiant à Paul Sédille la reconstruction d'un édifice révolutionnaire en 1881 combinant charpente de fer apparente, mosaïques polychromes et monumentales rotondes d'angle couronnées de coupoles dorées. Quelques mètres plus loin, Alphonse Kahn et Théophile Bader ouvrent en 1893 les Galeries Lafayette, transformées dès 1912 par l'architecte Ferdinand Chanut en un véritable bazar de luxe néo-byzantin. Ces temples de la consommation théorisés par Émile Zola dans « Au Bonheur des Dames » ont bouleversé les habitudes d'achat en introduisant le prix fixe affiché, l'entrée libre sans obligation d'achat, le retour des marchandises et la mise en scène féerique de la mode dans des espaces baignés de clarté zénithale.\n\nLe prodige architectural de ces édifices repose sur leurs coupoles en vitrail, chefs-d'œuvre absolus de l'Art nouveau et des arts décoratifs parisiens. Les Galeries Lafayette s'articulent autour d'un vertigineux hall circulaire couronné à quarante-trois mètres de hauteur par une coupole de verre polychrome conçue par le maître verrier Jacques Grüber, dont les dix tranches d'ogives métalliques aux motifs floraux irradient sur les balcons sculptés par Louis Majorelle. De son côté, le Printemps conserve sa spectaculaire coupole en mosaïque de verre créée en 1923 par René Binet, déposée puis sauvée des bombardements durant la Seconde Guerre mondiale avant d'être patiemment remontée sous le dôme central. Dotés de terrasses panoramiques suspendues offrant un panorama saisissant sur l'Opéra, la tour Eiffel et Montmartre, ces deux monstres sacrés de la vie parisienne continuent de rythmer l'effervescence de la capitale, alliant l'héritage technique des charpentes métalliques du XIXe siècle aux fastes de la création contemporaine.",
+    visiter: "Une promenade le long du boulevard Haussmann invite à contempler les façades sculptées rythmées de cariatides et de mosaïques dorées avant de pénétrer sous les rotondes d'accueil. L'expérience se poursuit sous la monumentale coupole Art nouveau des Galeries Lafayette, où la passerelle de verre suspendue au-dessus du vide procure une sensation d'envol féerique au milieu des balcons de Majorelle. Les promeneurs rejoignent ensuite le Printemps pour admirer les jeux de lumière sous la coupole vitrée de René Binet, avant de gravir les escaliers mécaniques menant aux toits-terrasses accessibles au public, belvédères exceptionnels pour photographier la silhouette de l'Opéra Garnier et le ciel de Paris.",
+    link: ""
+  },
+  {
+    id: "paris_pont_neuf",
+    name: "Paris - Pont Neuf (Île de la Cité)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Île-de-France",
+    department: "Paris",
+    subdiv: "Paris",
+    altitude: 37,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Doyen des Franchissements de la Seine, Mascarons Sculptés & Henri IV (1578-1607)",
+    century: "XVIIe siècle",
+    category: "pont",
+    counts: { pont: 1 },
+    lat: 48.85767,
+    lng: 2.34185,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMYpbj5uS7AZMUSmG-P4nGK05ellCW3IuHJw9X4bzGpiS0tYfkuu7nZOI9SrWrf1EBkTUmgVgCUU_IbJ2nqCTa_bI3vIPBtyZL0KrG7Of4oXyH3f4nAZt2zk_0-uJDRjk_y31BN6lodtMBoHGvu2PbDiQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Enjambant les deux bras de la Seine à la pointe occidentale de l'île de la Cité, le Pont Neuf détient le prestigieux privilège d'être le plus ancien pont en pierre subsistant de la capitale. La pose de sa première pierre par le roi Henri III le 31 mai 1578 intervient en pleines guerres de Religion, mais les désordres politiques et civils retardent son achèvement jusqu'à son inauguration solennelle en 1607 par Henri IV, qui le traverse sur un destrier blanc. L'ouvrage rompt de manière révolutionnaire avec les traditions médiévales : il s'agit du tout premier franchissement parisien entièrement bâti en maçonnerie de pierre sans être encombré d'habitations ou d'échoppes de marchands, ouvrant enfin le regard des promeneurs sur le cours libre du fleuve et le panorama du Louvre. Long de deux cent trente-deux mètres, il se compose de douze arches en plein cintre réparties en deux volées distinctes reposant sur de puissantes piles dotées d'avant-becs triangulaires coiffés de demi-lunes en encorbellement.\n\nLe décor sculptural de l'ouvrage constitue l'un des ensembles lapidaires majeurs de la Renaissance tardive française. Les corniches extérieures sont rythmées par trois cent quatre-vingt-un mascarons grotesques en calcaire sculptés par l'atelier de Germain Pilon, figurant têtes de satyres, divinités champêtres, faunes grimaçants et figures grotesques dont aucune n'est rigoureusement identique à sa voisine. Équipé des tout premiers trottoirs piétonniers surélevés de Paris destinés à protéger les passants de la boue et des carrosses, le pont devint au XVIIe siècle le cœur du tumulte parisien, envahi par les arracheurs de dents, les bateleurs, les marchands de gravures et les théâtres de tréteaux de Tabarin. Le terre-plein central accueillit en 1614 la première statue équestre royale installée sur l'espace public en France, dédiée à Henri IV, détruite à la Révolution puis recréée sous la Restauration en 1818 grâce à une souscription nationale en fondant la statue de Napoléon de la colonne Vendôme.",
+    visiter: "Une traversée à pied du tablier pavé depuis la rive droite vers la rive gauche permet de faire une halte dans les demi-lunes en encorbellement pour contempler la perspective monumentale sur le pont des Arts et l'Institut de France. Les promeneurs descendent par l'escalier situé derrière la statue équestre du Vert-Galant pour rejoindre le square triangulaire de la pointe de l'île de la Cité, d'où l'on observe d'en bas l'enfilade des arcs en plein cintre et l'extraordinaire variété expressive des mascarons sculptés sous la corniche.",
+    link: ""
+  },
+  {
+    id: "paris_cathedrale_notre_dame",
+    name: "Paris - Cathédrale Notre-Dame de Paris (Île de la Cité)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Île-de-France",
+    department: "Paris",
+    subdiv: "Paris",
+    altitude: 42,
+    is_island: false,
+    island_name: "",
+    transport: "a_pied",
+    era_group: "medievale",
+    era_label: "Joyau du Premier Art Gothique, Rose Nord Rayonnante & Flèche Restaurée (XIIe-XIXe siècle)",
+    century: "XIIe siècle",
+    category: "religieux",
+    unesco_name: "Paris, rives de la Seine",
+    counts: { unesco: 1 },
+    lat: 48.85331,
+    lng: 2.3497,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPmhPDwBijf3oFsFPAPwSuaWBf0h4O0IhncI5FdWLFIfQfwmyCa6BV3HP6T83_X00W7KjDjtCHcqUorT44ij-6U63DNcYMpKHkEfyqjoib4rhWCgxVonPNvaMqsCu3HFVrY3O2JijTMYgrKbcXqamrpcQ=w1373-h919-s-no-gm?authuser=0",
+    description: "Ancrée au berceau de l'île de la Cité au cœur géographique et spirituel de Paris, la cathédrale Notre-Dame s'impose comme le chef-d'œuvre universel du premier art gothique et le témoin magistral de huit siècles d'histoire de France. Lancée en 1163 par l'évêque Maurice de Sully avec le soutien du roi Louis VII, sa construction s'échelonna sur près de deux siècles pour s'achever vers 1345, mobilisant des générations de maîtres d'œuvre anonymes qui inventèrent les solutions techniques les plus novatrices de leur temps, au premier rang desquelles les arcs-boutants audacieux à double volée franchissant d'un seul jet les collatéraux pour épauler la voûte centrale. Théâtre du sacre de Napoléon Ier en 1804, sauvée de la ruine au XIXe siècle par la ferveur populaire née du roman visionnaire de Victor Hugo, elle connut entre 1844 et 1864 une restauration monumentale menée par Eugène Viollet-le-Duc qui recréa la Galerie des Rois décapitée sous la Terreur et érigea sa célèbre flèche culminant à quatre-vingt-seize mètres.\n\nLe monument a surmonté avec une résilience héroïque l'épreuve du dramatique incendie du 15 avril 2019, dont les images de la flèche s'effondrant dans un brasier de braises émurent la planète entière sans parvenir à faire fléchir la solidité de sa nef en calcaire lutétien. Un chantier de reconstruction et de restauration sans précédent dans l'histoire moderne a permis de reconstruire à l'identique la charpente de chêne massif dite « la forêt », d'ériger de nouveau la flèche de Viollet-le-Duc et de nettoyer la blondeur originelle de ses voûtes sexpartites hautes de trente-cinq mètres. Sa façade harmonique occidentale, scannée de trois portails sculptés dont le grandiose Jugement Dernier, abrite la prestigieuse Rose Nord rayonnante du XIIIe siècle restée miraculeusement intacte avec ses verres bleu cobalt, perpétuant à nouveau l'accueil des fidèles et des voyageurs du monde entier au cœur de la capitale.",
+    visiter: "La découverte débute sur le parvis Jean-Paul II en cherchant au sol la dalle de bronze marquant le point zéro des routes de France, avant de contempler l'équilibre parfait de la façade occidentale tripartite et la frise des vingt-huit statues colossales de la Galerie des Rois. Le franchissement du portail central permet de s'engager sous les voûtes de pierre calcaire blonde de la nef pour admirer le déploiement de la double rangée de collatéraux et la verticalité du vaisseau central. Le parcours mène au transept pour s'arrêter en contemplation devant les reflets bleutés légendaires de la Rose Nord de Jean de Chelles, avant de contourner le chevet par le square Jean-XXIII pour détailler l'envolée arachnéenne des arcs-boutants et la silhouette restaurée de la flèche.",
+    link: "",
+    sections: [
+      {
+        title: "Façade occidentale, travées harmoniques et galerie des chimères",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPmhPDwBijf3oFsFPAPwSuaWBf0h4O0IhncI5FdWLFIfQfwmyCa6BV3HP6T83_X00W7KjDjtCHcqUorT44ij-6U63DNcYMpKHkEfyqjoib4rhWCgxVonPNvaMqsCu3HFVrY3O2JijTMYgrKbcXqamrpcQ=w1373-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMTCU_7T22yP_tFfZYXj6BdrDjWr-eM6G-KT0Fg3mEg2_ciP7PlI1CtVoXBrcqrwmnydbvgK3Eiox_ReJkmj_OaeJyuarf-7WlyWYB9uQ2WoCW8C3RKeb2-frWjWRtaqLl4pCxbs4ADF46Onuu0_1awDA=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "La structure se divise en trois travées verticales scandées par quatre puissants contreforts étagés, que coupent deux bandes horizontales majeures créant une balance idéale entre l'élan ascensionnel et la stabilité terrestre.\n\nLe premier niveau s'ouvre sur les trois célèbres portails sculptés, surmontés par la frise continue de la Galerie des Rois, où s'alignent les vingt-huit statues colossales des souverains de Juda et d'Israël, ancêtres bibliques du Christ et figures tutélaires de la royauté chrétienne, détruites à la Révolution puis recréées au XIXe siècle par les sculpteurs réunis autour d'Eugène Viollet-le-Duc. L'étage intermédiaire s'articule autour de la majestueuse rosace occidentale de près de dix mètres de diamètre, véritable nimbe de pierre et de vitrail au centre duquel trône la Vierge à l'Enfant encadrée de deux anges, flanquée de part et d'autre par deux hautes baies géminées en tiers-point percées sous les tours. Au-dessus se déploie la galerie ajourée dite des chimères, délicate colonnade continue reliant les deux beffrois, peuplée de gargouilles d'évacuation et de créatures fantastiques néogothiques qui scrutent la cité, affirmant la vocation de Notre-Dame comme phare spirituel et monumental de la chrétienté occidentale."
+      },
+      {
+        title: "La Galerie des Rois de Juda et d'Israël",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNH36sLbH_PphNOErxXUmaxdaV8Okyg7eSCShlP5s5izwTegp-l5Rq0JWzVBiNKod-dmJTqQvMhF-sJkv_5S4aSn-Bpa1uiV3U7pWiKfKXnfpbwDnJAJ_BCm8gZOkgWtrseFCppaNLvwV7ECpHLqy_UsA=w1373-h919-s-no-gm?authuser=0"
+        ],
+        text: "La galerie des Rois forme une imposante frise horizontale de calcaire qui scande la façade sur toute sa largeur. Cet alignement majestueux réunit vingt-huit statues colossales hautes de plus de trois mètres, figurant la lignée biblique des rois de Juda et d'Israël, ancêtres de la Vierge et du Christ, tout en incarnant dans la théologie politique capétienne la sacralité de la monarchie chrétienne. Confondus à tort avec les souverains de France par les foules révolutionnaires en 1793, les originaux furent précipités sur le parvis et décapités avant d'être dispersés ou enfouis. L'ensemble visible aujourd'hui résulte de la vaste campagne de restauration menée au milieu du XIXe siècle par Eugène Viollet-le-Duc et Jean-Baptiste Lassus, dont l'atelier de sculpteurs, dirigé notamment par Geoffroy-Dechaume, a patiemment restitué les effigies royales vêtues de tuniques antiques et tenant le sceptre ou le phylactère."
+      },
+      {
+        title: "Le portail du Jugement Dernier et la pesée des âmes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOqgKQuU7qy3AiIg0mdeUjX2ikPEV3VmR4qgGIBoUTi_mUDDQI2mQcOzE2QwmnowcB4_8zSf45RHSntPjXIgMzrdTqwPLcpxZuL0wME5BsXyMLSHi1C8Ao7h6g9vVIGOynRAPfJzGTdh9pgHa_Y0_b0Tg=w1373-h919-s-no-gm?authuser=0"
+        ],
+        text: "Cette œuvre magistrale constitue le tympan du portail central de la façade occidentale. Sculpté aux alentours de 1220, ce bas-relief en calcaire s'inscrit dans l'apogée de l'art gothique classique. Il illustre le thème du Jugement Dernier, un sujet théologique central au Moyen Âge destiné à instruire les fidèles sur le salut de l'âme et la fin des temps.\n\nLa composition s'organise sur trois registres superposés qui se lisent de bas en haut. Au niveau inférieur, on observe la scène de la résurrection des morts : réveillés par le son des trompettes angéliques, les défunts sortent de leurs tombeaux, symbolisant l'égalité de tous devant Dieu. Le registre médian présente la pesée des âmes, où l'archange saint Michel dispute une balance à un démon, tandis que les élus sont conduits vers le paradis à gauche et les damnés entraînés vers l'enfer à droite.\n\nLe sommet de la composition, appelé le fronton, est dominé par la figure imposante du Christ en Majesté. Il siège en juge suprême, montrant les plaies de ses mains pour rappeler son sacrifice rédempteur. Il est entouré de deux anges portant les instruments de la Passion — la croix et la lance — et encadré par la Vierge Marie et saint Jean qui intercèdent en faveur de l'humanité. Cet ensemble témoigne de la finesse sculpturale du XIIIe siècle, mêlant réalisme des expressions et clarté didactique.\n\nBien que le portail ait subi d'importantes restaurations au XIXe siècle sous la direction de Viollet-le-Duc, notamment pour réparer les dommages de la Révolution française, il demeure l'un des exemples les plus achevés de la statuaire monumentale médiévale. Sa structure pyramidale et la hiérarchie de ses personnages reflètent l'ordre divin et la complexité de la pensée religieuse de l'époque, faisant de cette pierre une véritable page d'écriture ouverte sur la ville."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNSE4cBCvQXfMPJwcYaGXn7z6aYUc8PDkYOo3arg47f4cxA_U3-X0wGd5drOuecOGOtpHt_gEszbexVZ75qjIJVcI7AjlA679c8H2z7gKqYTgUxPevGvI2v4DzCa8W2CriyPACskk03L0kiSyl7cd8yfA=w1373-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOCJnXp1y5YLt-k1lGqhS5S0isJlrFzttokyUV9yc0p3zlJ4zTiIJ3uvvOmCCRFm0jGTNugS_g8I2xOw-ILqagGWd80d8Mvy2mxap-sw5MzjarG1FkUYyu_N_Z-U4bvu84UGgJWFBEABZRzpZ2FLF39Zg=w1560-h729-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Élévation de la grande nef gothique et voûtes sexpartites",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMTr7Qs_SWwXa7xdj54eRZbmk7MawXulEAbWpF58L71Zx9rITTULWDfsLjxo5sKals2HyrkLaNNIzZ7taKViALVDvjW9zevfU9irhauSByylYpFNxZ960s_Ej8S7MO4Me7QnRyqmjCImsWeTtvFSUInDQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En entrant, on est saisi par la perspective monumentale de la nef, qui s'étire sur environ 60 mètres de long. L'architecture est caractérisée par une élévation à trois niveaux (grandes arcades, tribunes et fenêtres hautes), typique du gothique classique. Les piliers massifs, de forme circulaire et surmontés de chapiteaux à décor de feuillages, supportent des arcs brisés qui élèvent le regard vers les voûtes sexpartites (divisées en six compartiments par des ogives). Cette technique permettait de répartir le poids de la pierre de manière innovante pour l'époque, autorisant une hauteur sous voûte impressionnante de 35 mètres.\n\nL'éclairage est assuré par les fenêtres hautes qui ont été agrandies au XIIIe siècle pour laisser pénétrer davantage de lumière, une caractéristique du style gothique visant à transformer l'église en une \"cité céleste\" baignée de clarté. Au fond, le chœur est entouré d'un double déambulatoire, une prouesse technique qui souligne la complexité du plan. Les lustres majestueux et les écrans modernes visibles sur votre cliché témoignent de la continuité de l'usage liturgique et de l'accueil des foules dans ce monument historique.\n\nMalgré l'incendie de 2019, l'architecture de la nef a conservé sa structure essentielle, et les travaux de restauration ont permis de redonner à la pierre calcaire sa blondeur originelle. Ce cliché fige l'équilibre parfait entre la puissance de la pierre et l'élégance des courbes, faisant de Notre-Dame le symbole universel de la civilisation médiévale française."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN4ZzNV3srUdNMJrMjdMCu51DjrzvkD0dV2QzBcCE_FW-VuspEa0W1O8eNxocq4kVccOkPa0NOXm3M0w1ANa1sCWRA71OVKMbi7R6oiiKfVW9lCg1a02GIkoXiuPdDS_faF4ohqR0kQXc7YkoXUic8fhw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOKTs3anAh-cN2kfrtTWoUBcdvUqfbgrN3iTtvP8lnk7XbjEgSyHyVh9tEkPPRjG74hFQ7zRUEy9GzEL0mbLX92GdDrPC_jfoPs0PbNT2XYtHPIpQW6oYYW7v34cdFK7KxO03CiN0Y6YPXXgcLCqDVfRg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La Rose Nord rayonnante et la cosmogonie mariale (Jean de Chelles, v. 1250)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNop04h4SSjPXLfU0M_5DXnbVsWI0d-ELPv80L69vbGIB7xjlzrewvf7jsfJIFy8S8f5PhKJi7DdGBVKhT_u4SCHa14BsjlFZ4OdKpvtVTIP3EILAyZ694nbqS4Kd5XgOYd254QBvgIehC5HeDHy1Oe7g=w615-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOSe7rueb5Mp6jwxKM8MtvB1P5NoVXVDkYvVG2d-RsGDAEQxdfHZSgqmIHjHK3qBbrAX6hImDw-Ps_lKCHQZiDH3fHYfaQxIr2gtGtqmGzEeuXYrJT6ZqZW10imhvV_paoyo308Z7BvNWyEAcy9yk_Emw=w1373-h919-s-no-gm?authuser=0"
+        ],
+        text: "Voici la Rose Nord de la cathédrale, l'un des chefs-d'œuvre absolus de l'art gothique rayonnant, conçue vers 1250 sous la direction de l'architecte Jean de Chelles. Véritable prouesse de géométrie et de lumière, cette immense structure circulaire de 12,90 mètres de diamètre repose sur une composition mathématique d'une précision remarquable, articulée autour de quatre-vingts rayons qui se déploient depuis un oculus central. Contrairement à la Rose Sud, celle-ci a conservé la quasi-totalité de ses vitraux d'origine du XIIIe siècle, offrant aux spectateurs une palette chromatique dominée par un bleu de cobalt profond et intense, caractéristique de l'époque, qui crée une atmosphère de recueillement et de mystère céleste.\n\nLe programme iconographique de l'œuvre est entièrement dédié à la glorification de la Vierge Marie, figure centrale de l'édifice. Au cœur de la composition, le médaillon central représente la Vierge à l'Enfant trônant, entourée de cercles concentriques qui développent une cosmogonie sacrée. Les différents registres illustrent des prophètes, des rois, des grands prêtres et des juges de l'Ancien Testament, soulignant ainsi la lignée messianique et le lien indéfectible entre les Écritures anciennes et l'Incarnation. En dessous de la rose, la claire-voie présente une série de lancettes verticales où sont figurés dix-huit prophètes, créant une base monumentale qui semble porter la roue céleste. Cette structure de pierre, d'une finesse extrême, témoigne de l'évolution technique permettant d'évider les murs pour laisser place à la lumière transfigurée, symbole de la divinité pénétrant le monde terrestre.\n\nLa conservation exceptionnelle de cet ensemble vitré permet d'admirer la technique du \"vitrail à médaillons\", où chaque scène est isolée dans une forme géométrique propre, tout en participant à une harmonie d'ensemble vibrante. La Rose Nord a miraculeusement survécu aux siècles, aux révolutions et au tragique incendie de 2019, demeurant aujourd'hui le témoin le plus authentique de la spiritualité et du génie artistique du Moyen Âge classique. Elle ne constitue pas seulement une prouesse technique d'ingénierie médiévale, mais une véritable catéchèse visuelle où la lumière, filtrée par le verre teinté, transforme l'espace architectural en une représentation symbolique de la Jérusalem céleste."
+      }
+    ]
+  },
+  {
     id: "paris_arc_de_triomphe",
     name: "Paris - Arc de Triomphe de l'Étoile",
     country: "France",
