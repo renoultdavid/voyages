@@ -146,7 +146,7 @@ const SPOTS_3 = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczOINo4AQl3Zzn_cNyPcga3ZAjGqZnScfVfJ8SI-wZd-XfmpUXW6DfdLibTBRX7otECKqbwYVLb9bloRiZ-bh0BepX3M3xRhaddjhiEVOrN92nOgDomfG2QySjfOa2NG13juxU-X27d17iTYF527uLdOfg=w1681-h1121-s-no-gm?authuser=0",
     gallery: [
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczPIX725kAnWe4LeH3DIpoNrMscCd6JQQAVlq-PamxOTataEHI5wYd_r17iF2eHQAEys0MQiuG3RNmKDCX1Eev8uqmC0iqmQuO5YAk8aG5pq8nmBPT9HiKImwsPzANXFRohCvIXsfJBKTmbhdp3SwJA=w1681-h1121-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPIX725kAnWe4LeH3DIpoNrMscCd6JQQAVlq-PamxOTataEHI5wYd_r17iF2eHQAEys0MQiuKjuG3RNmKDCX1Eev8uqmC0iqmQuO5YAk8aG5pq8nmBPT9HiKImwsPzANXFRohCvIXsfJBKTmbhdp3SwJA=w1681-h1121-s-no-gm?authuser=0",
         caption: ""
       }
     ],
