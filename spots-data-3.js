@@ -7,6 +7,401 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "galdar_drago_tricentenario_casas_consistoriales",
+    name: "Gáldar - Dragonnier Tricentenaire de l'Hôtel de Ville (Drago Tricentenario de las Casas Consistoriales)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Gáldar",
+    altitude: 128,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Monocotylédone Arborescent Historique Planté en 1718, Patio Municipal & Symbole Botanique de Macaronésie",
+    century: "XVIIIe siècle",
+    category: "nature",
+    counts: {},
+    lat: 28.14464,
+    lng: -15.65535,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOX2hJ1GMPay6p_fYSB6zcwrkVt02Gl4o1-UbWwAEpj4xFFm0bkdTENb7c9LnoCiywl4WWVp2asougM41a9zIKWLoh7pgpOHux7RHHC63x9X70h2TtwbDyJ4ZCr-VtyzOfGhGfBrfYIvXRkqoI7ihwx7A=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Abrité au cœur de la cour intérieure de l'Hôtel de Ville historique (Casas Consistoriales) de Gáldar, sur la Plaza de Santiago, le Drago Tricentenario constitue le spécimen botanique vivant le plus ancien et vénéré de tout l'archipel de Gran Canaria. Ce vénérable dragonnier des Canaries (Dracaena draco), espèce endémique emblématique de la flore macaronésienne, a été planté en 1718, ce qui en fait l'un des rares arbres d'ornement urbain d'Europe dont l'acte de naissance soit documenté avec une précision historique absolue. Élevant sa silhouette monumentale à plus de douze mètres de hauteur, il déploie un tronc massif et lisse d'un gris argenté qui se divise de manière dichotomique en une couronne dense et sphérique de branches entrelacées couronnées de rosettes de feuilles glauques et coriaces.\n\nVénéré dès l'époque préhispanique par les anciens Canarii qui utilisaient sa résine rougeâtre — le célèbre « sang-dragon » — à des fins médicinales, rituelles et d'embaumement, cet arbre relique issu des forêts tertiaires subtropicales témoigne du lien séculaire entre la cité royale d'Agáldar et son patrimoine naturel. Enserré dans le cadre néoclassique sobre du patio municipal aux galeries blanchies à la chaux, le dragonnier tricentenaire offre un spectacle végétal saisissant de longévité et d'harmonie architecturale.",
+    visiter: "Pénétrer sous le porche des Casas Consistoriales sur la Plaza de Santiago pour accéder librement à la cour intérieure abritant le dragonnier tricentenaire. Les visiteurs contournent son tronc imposant pour admirer la ramification géométrique de sa canopée et observer de près son écorce argentée et ses grappes de feuilles persistantes.",
+    link: ""
+  },
+  {
+    id: "galdar_cueva_pintada_museum_archaeological_park",
+    name: "Gáldar - Musée & Parc Archéologique de la Cueva Pintada (Museo y Parque Arqueológico Cueva Pintada)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Gáldar",
+    altitude: 123,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Joyau de l'Art Rupestre Géométrique Canarii (XIIe-XIVe siècle) & Quartier Préhispanique d'Agáldar",
+    century: "XIIIe siècle",
+    category: "archeologie",
+    counts: { archeologie: 1 },
+    lat: 28.14397,
+    lng: -15.65506,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPVZmh3wdZXczzurZfNmZxNfiZo-WUeLT-o90hUplynNwu2UcF7Z6GDG3TZF7V6dGebkDtl8TQgEj-gU43wPGg6jO-dEgW_3kksQNOo9A5_VBOvOBRYs0dCKFvrALa0yUNLnwgF_aiDAD_covsM9rUKVg=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOhJFIsGWW2inqCngvmwWo2jvOK54q0shrAQCBhgq3-pO1EgI9FEH37gwA31OLPqntl8jPDA8uuMOx1isKCEjzy65cHs0dFwuspa8-QAkcE9TywTWSQMmpVJ1vM9S7vkVZpPOG5KQJZm6ounBXn8eZBsQ=w1351-h755-s-no-gm?authuser=0",
+        caption: "Cette frise décorative, datée principalement du XIIe au XIVe siècle, orne les parois d'une chambre excavée dans le tuf volcanique. Contrairement à de nombreuses expressions artistiques rupestres fondées sur le figuratif, cet ensemble se distingue par une abstraction géométrique rigoureuse. Les motifs se composent de séries de carrés, de triangles et de cercles, organisés selon une symétrie méticuleuse qui témoigne d'une pensée symbolique hautement structurée.\n\nLa technique utilisée repose sur l'application de pigments naturels minéraux. Le rouge provient d'ocres ou de terres ferrugineuses, tandis que le blanc est extrait de calcaires ou de plâtres locaux. Ces couleurs sont appliquées directement sur la roche préalablement lissée. La répétition des motifs géométriques n'est pas simplement ornementale ; de nombreux chercheurs y voient une fonction cosmogonique, peut-être liée à un calendrier lunaire ou solaire, ou à la représentation de l'organisation sociale et territoriale des clans de l'île.\n\nLa conservation de ces peintures est miraculeuse, le site ayant été protégé par des couches de sédiments pendant des siècles avant sa redécouverte à la fin du XIXe siècle. Aujourd'hui, elles représentent le témoignage le plus direct de l'identité visuelle des anciens Canariens, faisant de Gáldar (l'ancienne Agáldar) le centre spirituel et politique majeur de la culture précoloniale avant l'arrivée des Européens au XVe siècle."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOssrHKl0NTCoGPTA7im8g2fE_649_DfyrWOHdLhCGhVzZ6NeAPojFIa7OgTuDI3MQQwZBHIDWo_o44RwHf6P0gWyAwLadgDwnUloHIV1O6Z2SqPM7MW2Nr9YNmHFjkKBC6Jck7exjjagK-_oTax6O_FQ=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPDpStrhcWMA0NpVVDGw33dbr6N5Y7reHEzSrgZZjyfvyksylhuba6g5P32lIdjJsfsWj9SiBbETT3rDDOkKWXOpPakp3GGrI5osmwp9gpgGaAtHVB1S2UIDUzH2ob8xIQvI9rVWynhd06vz-yewHQOIA=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOJeX3Y8l2NXSz7px4tveXxG4YNfqttVE5BchgRu8LAUlg9V4cNC9JMdY23LI129jbFYGqs5AGxuRPhXv_PewplPHy8p5p0HB5RkBDRr8rDn8GktFe99CqkvLebHVMEpG9_-yFSs18oYb9fLxh8IZp7jw=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Implanté au cœur du centre historique de Gáldar, ancienne capitale royale préhispanique d'Agáldar, le Musée et Parc Archéologique de la Cueva Pintada constitue l'un des sites culturels et scientifiques les plus prestigieux des îles Canaries. Redécouverte fortuitement en 1873 lors de travaux agricoles dans une bananeraie, cette chambre troglodytique excavée dans le tuf volcanique abrite l'ensemble le plus exceptionnel d'art pariétal géométrique peint de tout l'archipel macaronésien. Datées entre le XIIe et le XIVe siècle, ses parois lissées sont ornées de frises polychromes d'une rigueur mathématique saisissante associant des damiers, des triangles, des cercles concentriques et des chevrons peints à l'ocre rouge ferrugineux, au blanc calcaire et au noir charbonneux, évoquant un calendrier astronomique ou l'emblématique identitaire des lignages nobles des anciens Canarii.\n\nProtégée par une architecture muséographique contemporaine exemplaire de verre et d'acier conçue pour préserver un microclimat hygrométrique stable autour de la grotte ornée, la visite déploie également un vaste quartier résidentiel aborigène mis au jour par des décennies de fouilles archéologiques. Des passerelles aériennes permettent d'observer plus de soixante habitations préhispaniques en pierre sèche au plan intérieur cruciforme typique, accompagnées de silos, de ruelles et des strates superposées témoignant de la transition historique entre la civilisation aborigène et l'implantation coloniale castillane à la fin du XVe siècle.",
+    visiter: "Parcourir les salles d'exposition introductives présentant les céramiques peintes, les pintaderas (sceaux géométriques en terre cuite) et les objets du quotidien des anciens Canarii. Emprunter ensuite les passerelles surélevées traversant le vaste village excavé d'Agáldar avant d'accéder à la capsule vitrée climatisée permettant d'admirer à courte distance les célèbres fresques géométriques de la Cueva Pintada.",
+    link: ""
+  },
+  {
+    id: "agaete_port_puerto_de_las_nieves",
+    name: "Agaete - Port & Village Côtier de Puerto de las Nieves",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Agaete",
+    altitude: 2,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Port Historique du Nord-Ouest, Maisons Blanches & Bleues et Falaises Basaltiques de Tamadaba",
+    century: "XXe siècle",
+    category: "port",
+    counts: { port: 1 },
+    lat: 28.10031,
+    lng: -15.71050,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPoxqy-bdsFFK1xipbBvnyLPeIY8pc1xicRfDBzCtxWF_zHei0ZrDOphed3k3bzr1_RuOJqST9owk_dvAb2_nHpiV_pXvmu5Q5ZDKCvHXDFasK0HRdRJm8tIDrYjnxd1daa6Y_tsghpLw7fZQ_CJxnOJg=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMYmXOKT6lNOS8bNsi1spYJQGnTmqo_MV9F-6lgPmbB7L6bzJxDPrpjHAi1GOaWI6slV_A6xUqfY-h8k2_E_SpSHMMBb3q1sp42dOXtLM_ZIWMD0N9M12M-4AKOJUdCtU7p0sNAyaoFvxw0NnunwejGKQ=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMMVkCqWo-P9aXA39OegIWnbTCUrYwX56eTW6MNQkOCJmJ0IgQmDu1AjAPZwvv5sWbMBHrS8wa92OtlRKJcxOt5HD2nJHNRvnrOm2smZ7iVmwuvGX3c5HlRUvHPGdhWMr0v3HVWvk8w8ujMmf6hrRwOBA=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOVWdEbQowYYSlL9w7u415Oeyyhma89F3JPO-NV59DkNfQvRXop9AHc4vxTqjGHTZsKP7dvopQ18EDfkKfREuxhGoWQm0LDGivxEgtiAJuIBNdv5iaZH45l1BQl_BYZjgccSArtY7vOGdpYnyFbClBukA=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOkpX9dsFrVApySaLdqsNcYLOoboFmjP3pHrBD9Q6TFDUfoFvJmMQPown3tlOONw-ttDQ3saIc10rOjQQTk917ojzcRrKy5PAQDQAvW1WThOxf_Jz10AZyAzSFnGfE5Vykli--BuH8f_kKRp6Rn2NoCag=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Nichée à l'embouchure maritime de la fertile vallée d'Agaete, sur la côte nord-occidentale de Gran Canaria, l'ancien village de pêcheurs de Puerto de las Nieves déploie un cadre marin d'une beauté dramatique et lumineuse. Ce bourg portuaire historique, qui servit dès le XVIe siècle de débouché maritime pour l'exportation du sucre, des vins et des produits agricoles des terres fertiles du nord-ouest, séduit par ses maisons basses blanchies à la chaux aux volets et balcons peints d'un bleu cobalt éclatant contrastant avec la pierre volcanique sombre des grèves de galets.\n\nLe panorama côtier est dominé par l'imposante muraille basaltique du massif de Tamadaba, dont les falaises vertigineuses de plus de mille mètres de hauteur plongent directement dans l'océan Atlantique au niveau de la pointe de Faneque. Au pied de ces escarpements titanesques s'élève le vestige rocheux célèbre du Dedo de Dios (« le Doigt de Dieu »), aiguille de basalte sculptée par l'érosion marine qui constitua longtemps l'emblème naturel de l'île avant que sa partie sommitale ne soit brisée par une tempête tropicale en 2005. Animé par les ferries assurant la liaison maritime rapide avec Tenerife, les barques de pêche artisanale et les piscines naturelles d'eau de mer de Las Salinas taillées dans la lave, Puerto de las Nieves incarne l'harmonie souveraine entre la tradition maritime canarienne et la majesté minérale de la côte ouest.",
+    visiter: "Flâner le long de la promenade maritime piétonne de Puerto de las Nieves pour admirer les façades blanches et bleues des anciennes maisons de pêcheurs et contempler la verticalité impressionnante des falaises de Tamadaba plongeant dans l'océan. Les visiteurs gagnent ensuite l'extrémité nord du front de mer pour observer les piscines naturelles volcaniques de Las Salinas ainsi que la silhouette érodée du Dedo de Dios battue par les vagues.",
+    link: ""
+  },
+  {
+    id: "agaete_ermita_nuestra_senora_de_las_nieves",
+    name: "Agaete - Ermitage Notre-Dame des Neiges (Ermita de Nuestra Señora de las Nieves)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Agaete",
+    altitude: 13,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Sanctuaire Maritime Historique, Triptyque Flamand de Joos van Cleve (XVIe siècle) & Bajada de la Rama",
+    century: "XVIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.10145,
+    lng: -15.71066,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO5idrOyz0uORuVk8y4BR4IgP40QEfpm1YHfQZ5agDhvdQYAL7-T2MHfn89Hp5FtOH0h-BCMPmsxQioB5-L2I8orWWj0D3W1G7Crkw0h8dyvgHBvGn9jyJ27ACl6UCBWw5OzilAXDsoAVkdh7qDhAM32A=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Érigé à quelques pas du rivage marin de Puerto de las Nieves, sur une placette paisible blanchie par la lumière atlantique, l'ermitage de Nuestra Señora de las Nieves abrite l'un des trésors artistiques les plus précieux et inattendus de tout l'archipel canarien. Ce modeste sanctuaire côtier d'architecture traditionnelle canarienne — présentant une nef unique blanchie à la chaux, encadrée de pierre volcanique grise et surmontée d'un clocher-mur — fut fondé au XVIe siècle par les riches familles liées à l'industrie sucrière florissante de la vallée d'Agaete, qui entretenaient d'intenses échanges commerciaux directs avec les ports des Flandres.\n\nLe cœur de la chapelle conserve une copie fidèle (l'original étant conservé dans l'église paroissiale de la Concepción au bourg d'Agaete) du célèbre Triptyque de Notre-Dame des Neiges, chef-d'œuvre de la peinture flamande de la Renaissance réalisé vers 1530 à Anvers par le maître Joos van Cleve et commandé par le gentilhomme Antón Cerezo. Chaque année au début du mois d'août, l'ermitage devient le point de convergence de la célèbre « Bajada de la Rama », fête populaire déclarée d'Intérêt Touristique National : des milliers de participants descendent des pinèdes de Tamadaba en dansant au son des fanfares tout en brandissant des rameaux parfumés jusqu'au sanctuaire marin pour perpétuer un rite ancestral d'invocation de la pluie hérité des anciens aborigènes Canarii.",
+    visiter: "Une halte sur la placette pavée de Puerto de las Nieves permet d'admirer la sobre architecture blanche et bleue de l'ermitage de Nuestra Señora de las Nieves et son petit clocher-mur côtier. Les visiteurs pénètrent dans la chapelle lorsque les portes sont ouvertes pour contempler le retable inspiré du célèbre triptyque flamand d'Anvers et ressentir la ferveur maritime de ce lieu emblématique d'Agaete.",
+    link: ""
+  },
+  {
+    id: "valsequillo_mirador_caldeira_de_los_marteles",
+    name: "Valsequillo - Belvédère & Cratère Volcanique de la Caldeira de Los Marteles (Caldera de los Marteles)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Valsequillo de Gran Canaria",
+    altitude: 1522,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Maar d'Explosion Phréatomagmatique d'Altitude (1 522 m), Pinède Canarienne & Réserve Naturelle",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: { volcan: 1 },
+    lat: 27.96084,
+    lng: -15.53544,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMHXhpQoCEFe-YFjAky9H8IQWNYux1U3JKZ87LHMk5X3jYegnZ0ZD50uRjVNjA-8GABLJwvTR93xqGjil0mSNFnZlB2CYrPgOLXQhr1PFsotBgJh9VFVra07MZMpflvQ4gQrnuXPPal0DGr_AwhfBzSgw=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM4jO3aF5TGfTKKiokb0FgJxsJDH3R-JxABeU2_QMZa15R64HEOssXFk0vWvttB8yzbZNlfYiUKezSdLqzz7oIslu83PDYG2b5LHAVqxUz-Le2eCFoFPJHg_SGC-ZGKBxQnHjb3mgXjT-Nwc7FEJrPRDw=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Située à plus de mille cinq cents mètres d'altitude sur les hauts plateaux centraux de Gran Canaria, à la jonction des communes de Valsequillo, Telde et San Bartolomé de Tirajana, la Caldera de los Marteles constitue l'un des édifices volcaniques les plus remarquables et singuliers de la Réserve naturelle spéciale de Los Marteles. Ce cratère circulaire parfait — mesurant environ cinq cent cinquante mètres de diamètre pour plus de quatre-vingts mètres de profondeur — est un maar d'explosion phréatomagmatique né lors du cycle volcanique récent de l'île. La rencontre brutale entre une colonne de magma basaltique ascendant et une nappe aquifère souterraine provoqua une explosion hydrovolcanique d'une violence extrême qui excava un profond entonnoir aux parois stratifiées de cendres, de lapilli et de tufs volcaniques.\n\nAménagé sur le rebord occidental de la crête le long de la route de montagne GC-130, le belvédère dévoile une vue plongeante saisissante sur le fond plat et fertile du cratère, autrefois cultivé en terrasses agricoles et aujourd'hui entouré d'une pinède lumineuse de pins des Canaries (Pinus canariensis) et de fourrés d'altitude de genêts jaunes (Teline microphylla) et de sauges blanches endémiques. Souvent baigné par les volutes fraîches de la mer de nuages poussée par les alizés du nord-est, ce promontoire géologique marque également le départ des grands sentiers plongeant vers les gorges spectaculaires du barranco de Guayadeque.",
+    visiter: "Une halte sur l'aire panoramique en bordure de la route GC-130 permet de s'avancer jusqu'à la terrasse sécurisée du belvédère de la Caldera de los Marteles. Les visiteurs admirent la géométrie circulaire parfaite de l'entonnoir volcanique, les strates pyroclastiques de ses parois et les cultures en terrasses tapissant le fond plat du cratère au milieu des pins des Canaries.",
+    link: ""
+  },
+  {
+    id: "san_mateo_randonnee_pico_de_las_nieves",
+    name: "Vega de San Mateo - Randonnée des Crêtes & Sommet du Pico de las Nieves (1 949 m)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Vega de San Mateo",
+    altitude: 1939,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Toit Panoramique de Gran Canaria, Pico La Catedral, Anciens Puits à Neige & Horizon sur le Teide",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1, volcan: 1 },
+    lat: 27.96217,
+    lng: -15.57193,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOpf7TPorSu2yc517jIr1SJSnAWjoglPYmf8yCD-f5qtog1zN7PXct74rtc2Xh-5Rrog_1a9iOINub_ZPLb-RcySXoTIqd2swfAS1PrQlI5QDNPQU3sqfXczNONJKuxWDbQDunwi9eZki7Dq4cyazhTIw=w1681-h1121-s-no-gm?authuser=0",
+    description: "Culminant à près de mille neuf cent cinquante mètres d'altitude au cœur géographique de l'île, le massif du Pico de las Nieves — flanqué de l'aiguille voisine du Morro de la Agujereada qui marque le point culminant absolu de Gran Canaria à 1 956 mètres — offre l'expérience de randonnée d'altitude la plus grandiose et aérienne de tout l'archipel. L'itinéraire en boucle depuis les hauteurs boisées de Llanos de la Pez permet de cheminer sous les futaies résineuses de pins des Canaries (Pinus canariensis) avant de déboucher sur la ligne de crête sommitale balayée par les vents alizés.\n\nLe parcours longe les parois vertigineuses du Pico La Catedral, imposant bastion de brèches volcaniques du cycle pliocène Roque Nublo sculpté en contreforts gothiques par l'érosion différentielle, puis rejoint les anciens puits à neige historiques (pozos de nieve) aménagés dès la fin du XVIIe siècle pour conserver la glace hivernale destinée à la ville de Las Palmas. Depuis le belvédère sommital suspendu au-dessus de la mer de nuages, le panorama circulaire à trois cent soixante degrés embrasse la quasi-totalité des reliefs de l'île : au premier plan surgissent les monolithes sacrés du Roque Nublo et du Roque Bentayga au creux de l'immense caldeira de Tejeda, tandis qu'à l'ouest se profile avec une majesté souveraine le cône volcanique du pic du Teide sur l'île voisine de Tenerife.",
+    intro_page: "Véritable toit panoramique de Gran Canaria culminant à près de mille neuf cent cinquante mètres d'altitude, le massif du Pico de las Nieves dévoile un univers minéral et forestier d'une majesté saisissante. La randonnée au départ des pinèdes de Llanos de la Pez gravit les ravines parfumées jusqu'aux crêtes aériennes dominant la silhouette monumentale du Pico La Catedral, avant de rejoindre le plateau sommital marqué par la mémoire des anciens puits à neige du XVIIe siècle. De là-haut, le regard plane au-dessus de la mer de nuages sur les monolithes du Roque Nublo et du Roque Bentayga, avec la pyramide du pic du Teide se découpant à l'horizon occidental.",
+    visiter: "S'élancer depuis l'aire forestière de Llanos de la Pez pour remonter le sentier balisé à travers la pinède de pins canariens jusqu'à la Degollada de Piedras Blancas, admirer les parois sculptées du Pico La Catedral, puis gagner le belvédère sommital du Pico de las Nieves pour contempler le panorama circulaire sur la caldeira de Tejeda et le Teide avant de redescendre en boucle par la Degollada de los Hornos.",
+    link: "",
+    sections: [
+      {
+        title: "Montée forestière et bastion volcanique du Pico La Catedral",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOpf7TPorSu2yc517jIr1SJSnAWjoglPYmf8yCD-f5qtog1zN7PXct74rtc2Xh-5Rrog_1a9iOINub_ZPLb-RcySXoTIqd2swfAS1PrQlI5QDNPQU3sqfXczNONJKuxWDbQDunwi9eZki7Dq4cyazhTIw=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM48YHII255w87N9OvUZcKQkdIISnpwThjKUWs_y18D3u5j7A0l9dRGbpqTzbl5ZydM1xLMIP8jlR_8vrfKTahd7QaiEzdRf66KF-5udppRHa9D94tagxEjayWEBj_YjNJCmaaUC5GtfiBIgfI4T8GLZg=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "Le cheminement s'élève progressivement en suivant le lit pierreux d'une ancienne ravine (barranquera), franchissant des bancs de conglomérats volcaniques et des nappes d'aiguilles de pin dorées, au milieu d'un sous-bois montagnard dominé par les genêts jaunes des sommets (Teline microphylla), la sauge blanche endémique (Sideritis dasygnaphala) et l'armoise aromatique. En débouchant sur la ligne de crête aérienne au niveau de la Degollada de Piedras Blancas, le paysage bascule brutalement de l'intimité boisée du versant nord vers l'immensité vertigineuse des escarpements méridionaux, ouvrant l'accès hors sentier balisé vers le Pico La Catedral. Culminant à mille neuf cent dix-neuf mètres d'altitude, ce qui en fait le troisième sommet de Gran Canaria, ce bastion minéral doit son nom évocateur à sa silhouette monumentale : ses parois verticales de brèches volcaniques et d'agglomérats du cycle pliocène Roque Nublo, profondément sculptées par l'érosion différentielle, dessinent une succession de contreforts massifs, de cannelures et d'aiguilles rocheuses évoquant la nef et les arcs-boutants d'une cathédrale gothique suspendue au-dessus du vide."
+      },
+      {
+        title: "L'arête sommitale du Pico de las Nieves et la mémoire des puits à neige",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNusdrXR-a90Pm5WUc-ZoHcRhWB_2_7TmydEboBdNeJp3q0ZSmSEPtfzoyBcvG7_bEwQ2TwW3fH_Suw6nJUrkaGQJCzqRT0xGYgDFhcGpzlKAz3vwRK2l_2MZvB7wZL6-FT3Ad96FeJMOZ7jL6nbsLYzw=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNdB8dzjZvbzeyBqv0KwCjDQ39mcA-HO8jq3fSubD5jdV7aRatQYNVYRDtGAf8zSaWdnnlTGfkxGqpj4vrA_0gOh4F5hrNr6njhkajw4KbO1tgbv2PwkskxhgAufYTLQBSoHIg-XeKCwHrXA1BbCn4cEQ=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "En poursuivant le cheminement le long de l'arête sommitale balayée par les alizés d'altitude, le sentier rejoint les abords du Pico de las Nieves, qui dresse son belvédère à mille neuf cent quarante-neuf mètres d'altitude juste face au piton voisin du Morro de la Agujereada (toit absolu de l'île à mille neuf cent cinquante-six mètres). Ce haut plateau minéral tire son toponyme historique des anciens puits à neige (pozos de nieve) creusés dès la fin du XVIIe siècle à l'initiative du chapitre cathédral de Las Palmas : la neige et la grêle tombées durant les hivers d'altitude y étaient tassées et conservées sous des couches de paille et de terre volcanique afin d'approvisionner en glace les hôpitaux, les notables et les apothicaires de la capitale durant l'été."
+      },
+      {
+        title: "Panorama à 360 degrés sur la caldeira de Tejeda, le Roque Nublo et le Teide",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPG_28e0Hwy1ozPBBMHgdwHsMogGhBCG20c8XYH-_K9D2Uns0A8CUQUiElChdmhzq2jQDEwikXOm5HCdOIPCJdba59hePcjYTyFTGAXqRFAX-6NdGNAdJ58-J2smJ3YKUOYcIXjiQEkF_HqyXt5HcMBtQ=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPZIsZxzdEdaWd4SZ_hg0l5-hAWYvKgNhyr1ZNaW7uMvhopZzknR5lBGgmiISje5D7wuH5w9bZr0qyvZ4TYxbSZn2QKykngQJGPWPKBThQeMXuXhQvWJ6-M-BT_OGhdgyTpbpiWYRUSZ7BSw6oHAmhvaQ=w1681-h1120-s-no-gm?authuser=0"
+        ],
+        text: "Depuis ce promontoire panoramique à trois cent soixante degrés, l'horizon embrasse la quasi-totalité de l'archipel : au premier plan émergent au-dessus de la mer de nuages les monolithes emblématiques du Roque Nublo et du Roque Bentayga au cœur de la caldeira de Tejeda, tandis qu'à l'ouest se profile avec netteté la pyramide majestueuse du Teide sur l'île voisine de Tenerife, avant d'amorcer la descente en boucle par la Degollada de los Hornos et les pentes boisées pour retrouver Llanos de La Pez."
+      }
+    ]
+  },
+  {
+    id: "tejeda_ventana_del_nublo",
+    name: "Tejeda - Arche Naturelle de la Ventana del Nublo (La Ventana del Nublo)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Tejeda",
+    altitude: 1690,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Arche Basaltique Sculptée par l'Érosion, Cadre Naturel sur le Roque Nublo & Avifaune des Pinèdes",
+    century: "Temps géologique",
+    category: "nature",
+    counts: {},
+    lat: 27.95211,
+    lng: -15.59690,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNwAa0FpUhV-XdxbMbmf6eUULUin2fcF8n4e92C3RUCGyMsDcWB7_c_7fOWLyBoq8mIydHPm1m-IUjYSPR9sCzBfnyJ65-vh9BQk5uRn6NO6m8Yybtu4q2CohXTWVJwz2ql9dCMGjawo8UNPbWeCiQ7-g=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNRBNnomI7ewAXG9gAirbN34BSDfqc2sioGcL7dXbCh7iC9h51Swqakre2_fw8kekFhnUIYM0ZR0QNJMqdesXb172tlIQ659O1QpGvxNnlcUyexcIFjSZBe1pbqaddvNALRCO8B5pV23b6C1tUeQr6Mcw=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMglWXCg3SDyfHS3IYS33qN4Ut9zLZRSVg1rmxBGfKwqhW16kq-TqRY35X5a4QCnWusbahw_32SaQWisutFoMpMaUb5-5qEHu4ey3FB4UFbzhFntyGbi-VJesxazz9_ltimi5BDXh6YOTgzI05S8OSO7Q=w1681-h1118-s-no-gm?authuser=0",
+        caption: "Le pinson des Canaries (Fringilla canariensis, anciennement rattaché au pinson des arbres) est une espèce endémique des îles Canaries et de Madère, fréquentant principalement les forêts de lauriers (laurisilva) et les pinèdes. Le mâle se distingue par une calotte et une nuque gris-ardoise tirant sur le bleu, un manteau vert olive, une poitrine rose saumoné à roux pâle et deux barres alaires blanches bien marquées. Principalement granivore et frugivore hors période de reproduction, il complète son régime avec des insectes et des larves pour nourrir ses oisillons au printemps. Oiseau sédentaire et peu farouche, il joue un rôle notable dans la régénération forestière et présente plusieurs sous-espèces insulaires distinctes selon les îles (Tenerife, La Gomera, El Hierro, La Palma et Grande Canarie). Contrairement au pinson bleu (Fringilla teydea), strictement inféodé aux forêts de pins des Canaries, il s'adapte plus largement aux zones boisées mixtes et aux lisières agricoles."
+      }
+    ],
+    description: "Dissimulée sur la crête boisée séparant les sommets de Llanos de la Pez des escarpements vertigineux de la caldeira de Tejeda, à près de mille sept cents mètres d'altitude, la Ventana del Nublo (« la Fenêtre du Nublo ») constitue l'une des curiosités géologiques les plus poétiques et photogéniques de Gran Canaria. Cette spectaculaire arche rocheuse naturelle a été dégagée au fil des millénaires par l'érosion différentielle éolienne et hydrique au sein d'un dyke vertical de brèches volcaniques et d'agglomérats du cycle pliocène Roque Nublo : l'altération plus rapide des strates tendres situées à la base de la paroi a ouvert une baie monumentale encadrée de roche sombre.\n\nPar un alignement topographique saisissant, cette ouverture naturelle forme un véritable cadre minéral qui isole au loin les silhouettes emblématiques du Roque Nublo et du Roque Bentayga dressés au-dessus des ravins profonds, avec la cime pyramidale du pic du Teide émergeant à l'horizon marin. Accessible par un sentier paisible serpentant sous une belle futaie de pins des Canaries (Pinus canariensis) animée par les chants territoriaux du pinson des Canaries (Fringilla canariensis), cette fenêtre ouverte sur l'infini incarne l'harmonie parfaite entre la sculpture géologique et la sérénité sylvestre des hautes terres insulaires.",
+    visiter: "Emprunter le sentier forestier balisé au départ de l'aire de Llanos de la Pez pour cheminer sous les pins des Canaries jusqu'à l'affleurement rocheux de la Ventana del Nublo. Les promeneurs s'approchent de l'arche naturelle pour admirer la perspective parfaitement encadrée sur le Roque Nublo, le Roque Bentayga et le Teide au loin, tout en observant les pinsons des Canaries évoluant dans les ramures résineuses environnantes.",
+    link: ""
+  },
+  {
+    id: "teror_ruelles_aux_balcons",
+    name: "Teror - Centre Historique & Maisons à Balcons Traditionnels (Casco Histórico de Teror)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Teror",
+    altitude: 600,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Ensemble Historique Classé, Architecture Domestique Canarienne & Balcons Sculptés en Pin Tea (XVIIe-XVIIIe siècle)",
+    century: "XVIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 28.06030,
+    lng: -15.54686,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMCotWWSk55uy5zBEq73WEEPfmVmyHDDzbhv3_tOG_l77nbaRzbklXQcPVqGgUmAcj9tTvK0Bs-NbN73WR_HUaxVOFqtW5ccTjHOMfRmzW3E3FU-0EpTIJHH5oUKeXShDrn7z7L1GrcnlFcCxtlZ1daGg=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNw25tl_DhKJv4n5cl94U4oqy7ZvBhogn2AM1-0jUHsDc0Q8qgiusVkVH7cmBV0o_JYbYEU9xZrArfI1YI9LSvb_-hKSWWSrRqNcSTiTvCuEbGUwEqlEVZ42D8hKGFukjN_7GG9fQrJnDocnoh2676Qiw=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPkMfW3vt2xcs9MjerPRToEV0IiUK99oGBek4ezb-dTShCO7-xxGvxLsIUgzCTstiqbV4zcB8APEqRXhQmIWk4NZutwQJyJb1_3T66ImcsbH0WRYwVbQKAAUdOPIwhxBvBzKU5NykBVjxCf9xtopUDEng=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPINBBw9GMFQypAbK_E5JeN7GVKUBWp9ZK6-xXPEEjLhZooXUf_q3BShtR5fi4HxXqzhsRkf4wI2eaUdn1smww3MNY6RQi2KX7SbYUhS-VtY2EZcEvrk07kwTQPmTBWNu0drLxayWYfPRI9DysLuWrF2Q=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOxmZbrezPopnFsBi7cwj94MfEJdesl-cEnjKXQ56NEHWUGRwv_b_Qt4QcIFY5ee7lYTW5mUbxO9v6ghpG6RJvC45vCAKCzx1_TKDcxo3dbCzrKyd-DzfX1QZWWJHdgp_JzqyQ83eVGl90ifERAoTwerw=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Niché au cœur des montagnes verdoyantes et humides du nord de Gran Canaria, à six cents mètres d'altitude, le centre historique de Teror constitue le joyau absolu de l'architecture traditionnelle et domestique de l'île. Déclaré Bien d'Intérêt Culturel au titre de Conjunto Histórico-Artístico, ce bourg seigneurial et pèlerin s'est développé à partir de la fin du XVe siècle autour du sanctuaire de la Vierge du Pin, attirant les grandes familles aristocratiques de Las Palmas qui y firent édifier de somptueuses résidences d'été.\n\nL'artère principale pavée de la Calle Real de la Plaza et la Place de Notre-Dame du Pin offrent un ensemble urbain d'une homogénéité esthétique exceptionnelle : les façades blanchies à la chaux ou parées de teintes ocrées et pastel sont scandées par une enfilade ininterrompue de balcons traditionnels en bois de cœur de pin des Canaries (tea) sculptés avec une finesse remarquable. Alternant balcons ouverts à balustres tournés et balcons fermés à jalousies (celosías) hérités de la tradition mudéjare, coiffés de toitures de tuiles courbes en terre cuite aux avant-toits ouvragés, ces demeures historiques incarnent l'âge d'or de l'ébénisterie et de l'architecture vernaculaire canarienne.",
+    visiter: "Flâner à pied le long des pavés de la Calle Real de la Plaza et autour de la Plaza de Nuestra Señora del Pino pour admirer la succession harmonieuse des façades colorées et lever les yeux vers les balcons sculptés en bois de pin tea. Les promeneurs prolongent la découverte dans les ruelles adjacentes telles que la Calle Nueva et la Alameda Pío XII pour apprécier la quiétude montagnarde du bourg.",
+    link: ""
+  },
+  {
+    id: "teror_basilica_nuestra_senora_del_pino",
+    name: "Teror - Basilique Notre-Dame du Pin (Basílica de Nuestra Señora del Pino)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Teror",
+    altitude: 600,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Sanctuaire Patronal de Gran Canaria (1767), Retable Baroque Churrigueresque & Vierge du Pin",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.05944,
+    lng: -15.54773,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP6wSqofStDVShHolYLfByajuttCHzFb4kbld7m6unVVO7_I6BbmZtIK7d0cfH-OFxGVKE-JNqGfpCQLYUFCa4_klopOm1aRdf7Wh_89IkaqcGrS8fjVGG1JvChC4QHiDr7lqp6w_k-iqDUQEkCM46aEg=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNDSJ1Yog7Cy0kN_QjOSu8DG33dEvXiDmxjO04hvjC8FDElhCc8UEX0WEIB-rXJf14pKZBqOA5eSmKpB_UiGliRIbqeYLRLFoTLab_QfSdoR5EOPcmhjclq8mlbPN6dd2ZunJSzvO2H94YAKRftL1gzVA=w1681-h1121-s-no-gm?authuser=0",
+        caption: "L'édifice actuel, dont la construction a débuté en 1767, est un exemple exceptionnel de la fusion des styles aux Canaries. L'image révèle une structure à trois nefs séparées par de robustes colonnes de pierre grise volcanique. L'architecture intérieure combine des éléments du néoclassicisme naissant avec des traditions locales profondément ancrées.\n\nL'élément le plus spectaculaire visible à l'arrière-plan est le retable majeur. Il s'agit d'un chef-d'œuvre du baroque churrigueresque, caractérisé par une profusion de dorures, de colonnes torses et de motifs ornementaux complexes. Au centre de ce retable trône la statue de la Vierge du Pin (Virgen del Pino), datant du XVIe siècle. Le contraste entre la sobriété des piliers en pierre sombre et l'éclat doré de l'autel est une caractéristique majeure de l'esthétique religieuse canarienne de l'époque moderne.\n\nLe plafond est également remarquable : il utilise une charpente en bois de pin canarien, souvent travaillée selon la technique du mudéjar (influence artistique musulmane persistante dans l'art espagnol). Ces plafonds à caissons, ou artesonados, apportent une chaleur visuelle qui équilibre la rigueur de la pierre. La coupole centrale, baignée de lumière, couronne l'espace de la croisée du transept, renforçant la majesté du lieu."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOXgKQ4xFgeaek7R-okJ3WegnV1k1kLlgKh-5dbEbuCAQXPFhqPaFy3flQnz544DXlDzjhJHmvWhhiTE9ZhUCHg2_7wsKfIOcR8EEJlju90njCAhXRbuhEz9zetx85QFWsUJx2zD47BHOJJyM0gxMcNZw=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO-41J1k60CVJc72BBUvjYUJDjtXlAh-Ocms8g77QzVSde9rF6mmtLFGb63WEzcmCVtJUhS5kJd8bFYAUEvuW7UAtuvesY4a42Mubz87mB5xsEm7i8dJb4rpM5zdVvjKHpcZLLyCdtxfk3_bMrodieG0g=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dominant la place historique de Teror, la Basilique Notre-Dame du Pin (Basílica de Nuestra Señora del Pino) constitue le principal sanctuaire marial et le cœur spirituel de toute l'île de Gran Canaria, abritant la statue de la Vierge du Pin, sainte patronne officielle du diocèse des Canaries depuis 1914. Édifiée à partir de 1767 sur les plans du colonel et ingénieur militaire Antonio de la Cruz y Fuentes à l'emplacement de deux anciens ermitages remontant au début du XVIe siècle — liés à la tradition de l'apparition miraculeuse de la Vierge dans les branches d'un pin géant en 1481 —, la basilique déploie une façade harmonieuse mariant la blancheur de la chaux aux encadrements en pierre de taille volcanique sombre et à une tour-clocher latérale octogonale en pierre jaune d'origine portugaise dite « Torre Amarilla ».\n\nL'intérieur révèle un vaste vaisseau basilical à trois nefs séparées par de robustes colonnes en basalte gris d'Arucas soutenant des arcs en plein cintre et des plafonds à caissons mudéjars en bois de pin tea. Au fond du chœur resplendit un monumental retable majeur de style baroque churrigueresque doré à la feuille, au centre duquel trône sur un trône d'argent repoussé la statue gothique tardive de la Virgen del Pino datant du XVIe siècle. Chaque 8 septembre, le sanctuaire devient le théâtre de la plus grande fête religieuse et folklorique de l'île, la Fiesta del Pino, rassemblant des dizaines de milliers de pèlerins venus de toutes les communes de l'archipel.",
+    visiter: "Contempler depuis la Plaza de Nuestra Señora del Pino la façade principale et l'élégante tour octogonale jaune flanquant le sanctuaire, avant de pénétrer sous les trois nefs de pierre volcanique. Les visiteurs admirent l'éclat doré du retable majeur baroque, accèdent au camarín arrière pour observer de près la statue vénérée de la Vierge du Pin et découvrent les sculptures de José Luján Pérez conservées dans les chapelles latérales.",
+    link: ""
+  },
+  {
+    id: "teror_water_steps_calle_de_la_diputacion",
+    name: "Teror - Escalier d'Eau & Promenade Hydraulique (Calle de la Diputación)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Teror",
+    altitude: 610,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Aménagement Urbain & Hydraulique Contemporain, Cascades en Escalier & Mémoire des Sources de Teror",
+    century: "XXIe siècle",
+    category: "parc_jardin",
+    counts: {},
+    lat: 28.06015,
+    lng: -15.54842,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOmQWYEh6l0m1Az6v-bYq3hOiBpYeMD7AXGbjZN2Wm3Cp9rr06maf3kwxaBLpYlxN_ZQlwXcsSaWANCIenk0f39cSTPBTTVPD_2fSP2IYufXXPRoowJFhdo6cjpSe2LUSeOB6PaQn8jBtzC61eMj0I8pg=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMwvzfCWzyccLZ2zbyGG5vv_m9rhL71wqiO89Y9pSUzjX4ZuwMmrVw5rfP0MMdqPb69TE1NrgtwhdKKGhJF2vlef7xkwWC_uUz3tNP1v463zDIXo2qfpqeNAgN6kmAKLLDntQG_AHzob0TQV44isJWgfw=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Situé à proximité immédiate de la Basilique Notre-Dame du Pin au cœur du centre historique de Teror, l'aménagement hydraulique en escalier de la Calle de la Diputación célèbre avec élégance l'identité aquifère et thermale séculaire de cette commune montagnarde verdoyante. Réputée dans tout l'archipel pour la pureté et l'abondance de ses sources minérales naturelles — au premier rang desquelles la célèbre Fuente Agria exploitée depuis le XIXe siècle —, la ville de Teror a toujours entretenu un lien vital avec l'eau dévalant les versants brumeux du nord de Gran Canaria.\n\nCet escalier d'eau contemporain bâti en pierre volcanique sombre s'intègre harmonieusement à la pente naturelle de la rue, déployant une succession de vasques et de gradins en cascade où l'eau ruisselle dans un murmure apaisant au pied des maisons traditionnelles blanchies à la chaux. Bordé de cheminements piétonniers pavés et de plantations fleuries, cet espace public rafraîchissant offre une liaison pittoresque entre les artères historiques du vieux bourg et les promenades ombragées de la cité mariale.",
+    visiter: "Emprunter les marches pavées longeant la cascade en gradins de la Calle de la Diputación pour profiter de la fraîcheur sonore de l'eau ruisselant sur la pierre volcanique et observer l'intégration harmonieuse de cet ouvrage contemporain au milieu des façades traditionnelles du vieux Teror.",
+    link: ""
+  },
+  {
+    id: "teror_mirador_de_la_vuelta_de_los_pajaros",
+    name: "Teror - Belvédère de la Vuelta de los Pájaros (Mirador de la Vuelta de los Pájaros)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Teror",
+    altitude: 850,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Balcon Panoramique sur la Vallée de Teror, Montaña de Osorio & Côte Nord-Est de Gran Canaria",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 28.06473,
+    lng: -15.55943,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczODDH15wWi6PCsYtogpp8d2GXCpUL5pk4rgmJQ_an38Uz8dngTQkeMHVIT4fm9kJpvRORH9UTM8q35h0ZRRVJ0T0qSG0RdPUj0WhwffKdV1Va6wiykVVukhMQy43pHvedW9YqOVq_kTUcdnPjRP8_v8vg=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Perched à huit cent cinquante mètres d'altitude sur les hauteurs occidentales dominant le bourg de Teror, le long de la route de montagne GC-21 reliant la vallée aux sommets de Valleseco et d'Artenara, le mirador de la Vuelta de los Pájaros offre le panorama le plus spectaculaire et complet sur l'ensemble du bassin verdoyant de Teror et le versant nord-est de Gran Canaria. Aménagé dans un large lacet panoramique surplombant directement la cuvette agricole, ce balcon naturel doit son nom poétique (« le Tournant des Oiseaux ») aux nombreux passereaux forestiers et rapaces insulaires qui tournoient dans les courants thermiques remontant la vallée.\n\nDepuis la terrasse sécurisée en pierre volcanique, le regard plonge sur les toits de tuiles rouges et les clochers de la Basilique Notre-Dame du Pin nichés au creux de la vallée fertile, encadrés à gauche par la masse boisée du cône volcanique d'Osorio et ses vestiges de forêt de laurisylve. Au-delà des collines sculptées de terrasses agricoles et de hameaux blancs dispersés, la vue s'étire jusqu'à l'agglomération de Las Palmas de Gran Canaria, la presqu'île volcanique de La Isleta et l'immensité bleu cobalt de l'océan Atlantique scintillant sous les alizés.",
+    visiter: "Une halte sur l'aire de stationnement aménagée dans le virage de la route GC-21 permet d'accéder à la terrasse du belvédère pour contempler la vue plongeante sur le village de Teror, le dôme verdoyant de la Finca de Osorio et le littoral atlantique s'étendant jusqu'à la baie de Las Palmas.",
+    link: ""
+  },
+   {
     id: "santa_maria_de_guia_cenobio_de_valeron",
     name: "Santa María de Guía - Grenier Fortifié Préhispanique du Cenobio de Valerón",
     country: "Espagne",
