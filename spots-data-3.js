@@ -7,6 +7,97 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "santa_brigida_rando_pico_et_caldeira_bandama",
+    name: "Santa Brígida - Randonnée du Pico & de la Caldeira de Bandama (Monumento Natural de Bandama)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Santa Brígida",
+    altitude: 226,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cratère d'Explosion Phréatomagmatique Holocène (1 km de Diamètre), Cueva de los Canarios & Viticulture",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1, volcan: 1 },
+    lat: 28.03247,
+    lng: -15.45579,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOyORzelmfniHI8G7iL0eak80opWCbv8MePEvg9WaHR-GkxlIB_Wf69nB1cdXlvcno2f-c3XKJ2HSlqoEIUFc1SaQUw9sfDyMhIQQvmWrg7OXks5IcXRJo00nDJtSbfR6_2CybKs9dWjYSZR8pY8qGH6A=w1379-h919-s-no-gm?authuser=0",
+    description: "Situé dans le secteur nord-est de Gran Canaria, aux portes de Santa Brígida et de Las Palmas, l'ensemble volcanique formé par le Pico et la caldeira de Bandama constitue l'un des édifices géologiques les plus récents, spectaculaires et pédagogiques de l'archipel canarien. Contrairement à son appellation usuelle de caldeira, cet amphithéâtre circulaire quasi parfait — mesurant plus d'un kilomètre de diamètre pour plus de deux cents mètres de profondeur — est un maar d'explosion phréatomagmatique né il y a moins de cinq mille ans, lors du cycle volcanique récent de l'île. La rencontre violente entre la remontée de magma basaltique incandescent et une nappe phréatique souterraine provoqua une série de détonations titanesques qui pulvérisèrent le socle rocheux en projetant d'énormes quantités de cendres, de lapilli et de bombes volcaniques, tandis que s'édifiait sur sa bordure septentrionale le cône adventif strombolien du Pico de Bandama culminant à 574 mètres d'altitude.\n\nProtégé au titre de Monument Naturel, ce sanctuaire tellurique associe une biodiversité remarquable à une histoire humaine millénaire. L'enceinte fermée du cratère crée un microclimat abrité des alizés qui favorise une forêt thermophile dense d'oliviers sauvages, de lentisques, d'euphorbes et de dragonniers, peuplée par le lézard géant de Gran Canaria (Gallotia stehlini). Dès l'époque préhispanique, les anciens aborigènes Canarii aménagèrent dans la paroi nord les greniers collectifs fortifiés de la Cueva de los Canarios, ornés d'inscriptions libyco-berbères. À partir du XVIe siècle, le marchand flamand Daniel Van Damme — dont le nom hispanisé baptisa le volcan — mit en valeur les terres fertiles du fond du cratère en y implantant des vignobles réputés, dont subsistent encore une ferme ancienne, une aire de battage pavée et un pressoir traditionnel en bois de pin tea.",
+    intro_page: "Véritable joyau géologique du nord-est de Gran Canaria, le complexe volcanique de Bandama associe le cône strombolien du Pico de Bandama à un spectaculaire cratère d'explosion phréatomagmatique de plus d'un kilomètre de diamètre et deux cents mètres de profondeur, formé il y a moins de cinq mille ans. La randonnée permet d'arpenter le rebord panoramique des crêtes avant de plonger par un sentier escarpé jusqu'au fond plat et silencieux de la cuvette. Véritable oasis botanique abritée des vents où évolue le lézard géant de Gran Canaria, ce cirque minéral conserve également la mémoire des greniers troglodytiques préhispaniques de la Cueva de los Canarios et des anciens vignobles implantés dès le XVIe siècle par le marchand flamand Daniel Van Damme.",
+    visiter: "Débuter l'exploration au belvédère sommital du Pico de Bandama pour embrasser la vue plongeante sur l'entonnoir du cratère et le panorama sur Las Palmas et les sommets centraux. Emprunter ensuite le sentier longeant la crête circulaire avant de gagner le hameau de Casas de Fondo pour entamer la descente en lacets serrés jusqu'au fond plat de la caldeira, où l'on découvre les vestiges viticoles historiques et la végétation thermophile avant d'entreprendre la remontée.",
+    link: "",
+    sections: [
+      {
+        title: "Itinéraires complémentaires et départ au Mirador Pico de Bandama",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOyORzelmfniHI8G7iL0eak80opWCbv8MePEvg9WaHR-GkxlIB_Wf69nB1cdXlvcno2f-c3XKJ2HSlqoEIUFc1SaQUw9sfDyMhIQQvmWrg7OXks5IcXRJo00nDJtSbfR6_2CybKs9dWjYSZR8pY8qGH6A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La randonnée s'articule classiquement autour de deux itinéraires complémentaires qui permettent d'appréhender l'édifice sous toutes ses perspectives : le tour intégral de la crête sommitale (environ trois kilomètres et demi) et la descente vertigineuse jusqu'au fond plat du cratère. L'exploration débute idéalement au Mirador Pico Bandama, perché à cinq cent soixante-quatorze mètres d'altitude sur l'arête septentrionale du cône adventif."
+      },
+      {
+        title: "Panorama circulaire et cheminement sur le rebord de scories",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO1BQ58hcd_FI3rvWolm7yycbTGiCPPXX_46cLfEhRE2M0sB5cFAYrgy2B467s9g9l5BokFjPUJqT_OShJ9TvUyr3Y79XQvhPu1PBZNmP3G--HbRNPWrVbUturnxBYIUjItrEgQOs4LezYZRu2wk6IHhQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP4v1jbab0p-BiTc3ibwy1K7lR7RVXd8MXBn9vG6Mq7iTK3h46jHOsviVcDNC6mIlQw6zzP-kUaDpN0l8QVeELNAs_NDVQDy2MOkS4jcF6bDkS0VY3KmDDvy_k5GTrWFK_kRcEMPPXKF7-SE9HZwS_x6w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Depuis ce belvédère balayé par les alizés, le regard plonge directement dans l'entonnoir minéral du cratère tout en embrassant un panorama circulaire saisissant sur les reliefs escarpés du centre de l'île, les ravins verdoyants et le littoral atlantique. Le sentier de crête épouse ensuite le rebord ondulé de la caldeira, cheminant sur un tapis de scories sombres et de pouzzolanes rougeâtres où se lisent les strates géologiques alternant coulées basaltiques anciennes et niveaux de projections volcaniques."
+      },
+      {
+        title: "Descente en lacets depuis Casas de Fondo et stratigraphie volcanique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP_DwhvufVgjkzoMQMinwo9V68oLYO8IHTdNaDeHcfwdKu8hLlW5jYjSMzBRtiFa_JdUnmdxc3nLkRdIHp5g81CfTvOLr5CjgccXucUJ_Ap5kfb1TgHdHckZFmJ3Jetr48OAskIme6lvCPRRxRCjtJhmA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNnuRGcL3ca1xxloWArgyazq3HErZEyNdue9es_3GluX05nrPTkNlTsNHMrEmiNJ5JW2VSQtPYiRVT3VghHc4maLXTG4SWgtoMODVEYWBvfFxyLg_sSWW3ENfeAluwQ43NXNlm6dOaPTk9k34jeFZ0jPpg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Depuis le hameau agricole de Casas de Fondo sur le flanc nord, le sentier officiel s'engage dans les entrailles du volcan en dévalant la paroi abrupte par une succession de lacets serrés taillés à même la roche volcanique et les tufs consolidés. Au fil de la descente de près de deux cents mètres de dénivelé, la paroi dévoile une coupe stratigraphique à ciel ouvert où se superposent les laves compactes du cycle ancien et les brèches d'explosion récentes."
+      },
+      {
+        title: "Microclimat abrité, flore thermophile et avifaune rupicole",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP09nYyiarpC2Y7_pfQmb5U5KjGSHBjYpLLda84FDUYb7znxH4UBna9BhDAe2M9qUoUVPVbhR8PgXOyMxgSLhOuDFqdcIOOU8k-iP3qOgOvUU9BBgPSuUo1I2x9U7RoOWWEtesQpdSsT9GbWTHjUrsZjQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN-SgJXtbQkj8f_OCUPZJCxP38Vhi8Fjs8Ty4KpbOPW0DPbe0fQViCKeuBoeJxKC7EuV8CalyxFd4Gd0xMDqtB7GPnGasGXZv7_e8NhWDQUrlB85PDKz8HwUfhgW6v5FFWv1Fg5lr2Up2ArCVymxkOHUQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'abri offert par l'enceinte fermée du cratère génère un microclimat singulier, protégé des vents dominants et plus humide au pied des falaises ombragées, favorisant la reconquête d'une flore thermophile et rupicole d'une grande richesse : on y observe des oliviers sauvages des Canaries (Olea cerasiformis), des pistachiers lentisques, des euphorbes arborescentes, des Aeonium accrochés aux anfractuosités ainsi que de majestueux exemplaires de dragonniers (Dracaena draco) et de palmiers des Canaries, survolés par le faucon crécerelle et la buse variable."
+      },
+      {
+        title: "Le fond plat de la caldeira et la Cueva de los Canarios préhispanique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNTxGwsmikiMJsKLV5k8fqvGA9ClbL_8nRpfLGc3WIqwBgmY91IMxpnl3lxWaAKEZa6o7CQsFCBnigq_pU56TOy11ajkOZN6e1SC4vEisr4fIAJyiP5vChIFufBKQxq_L-rivdkMADOoGsiSTljwuGH4A=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNhKkg8CAQ0BB9xxVaX7cVAg8zPSAQeHLxBtFuvEoNrwdk5g_IOMtsnkbj3ooGB8Ja6VMCpkY3M_s8k8psb5pQKhe28uwL3gBp_uXs4YCsc0T-oTjwpEqhBjr_FvRx8Jjx2mypTLL0HAtEXtMzsk61X_w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'arrivée sur le fond plat de la caldeira plonge le marcheur dans une atmosphère hors du temps, au cœur d'un amphithéâtre minéral silencieux marqué par une longue occupation humaine. Dès l'époque préhispanique, les anciens aborigènes canariens investirent les cavités naturelles creusées dans la paroi septentrionale — notamment la célèbre Cueva de los Canarios, accessible par une corniche escarpée — pour y aménager des greniers collectifs fortifiés destinés à conserver les récoltes de céréales et ornés d'inscriptions rupestres libyco-berbères."
+      },
+      {
+        title: "Héritage viticole de Daniel Van Damme et vestiges agraires du cratère",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOsqR6ui2THMLqIX1UHi_UM6hG2tn-4GV3HZABZDGhDUeGkl00Gz5gy1npQlQuKkG-qu6WONWgnpUek7WgS5f80RFUSJNvRvIqp9BPSSDoFZFQgfTSvk45Hcn2RG44P_rj2Lfji6MToOjW_o90jp3as6w=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOqNv28dAe1_oDsyGp7zvJRvrxZbjtB4Z9TkwMKVKaoJwjzEqo1Rj1nTDRHIt1kjsgn0ghGrRnGRxUZDWIsVvwW96XlcF4aDhpDowy_Z_pf77FsmlbvewlmzdRsjn4nK5GLRSguDEOob7tAIWtgeEpgMw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "À partir du XVIe siècle, après la conquête castillane, la fertilité des sols volcaniques du fond du cratère attira l'attention de propriétaires terriens, tel le marchand flamand Daniel Van Damme dont le patronyme hispanisé donna son nom au site ; la cuvette fut alors défrichée pour y implanter des vignobles réputés, dont témoignent encore les ruines d'une ancienne ferme agricole, une aire de battage circulaire pavée et un pressoir à vin traditionnel en pierre et bois de pin de tea, avant d'amorcer la remontée soutenue par le même sentier escarpé vers la lumière des crêtes."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM5XQMxm5nYdb6396Hedo9jzlxmDLAXUIVBFkJjZv6zXSKQZnhCJoQEY-dTYQyFzuF-kGOdkafVfD5vWCDN0TqpfopPGzHv2pY2YnrxqEKgajllotxJY0xPAhBwc52DX8Ln9kNxAYenTHXQ4yjpKEyeFA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNqppCdohBg5iYWBXwtQjkINakPnHKf39IHCaxJTMmlFcv-GBQSTcjBrZL23r5Cpi41W9b0X2KfyxD_semCxq8D4H2hJJksV0DDxfo73o6PeXSDCGEnJDsTO1qHxKpUmEcmIbEXUqWbMPfdL1vsf2R02g=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le lézard géant de Grande Canarie (Gallotia stehlini)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP8ORwHH6RZZCB0hRQo_esEBjAfo809rnHGItZXlDYR_CHqNA8rIyevcRxpWe5z_hG6lEMBi8fC2wEShBc09TiPFmCC3OeEb3gfS7-AWEcWiLWRbhM_TbpJE4vcJH4cBQlOOuCjEDH1goQYuuI9f5_y8A=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNzUueEIVTRfrXxCz5hsQe0LCTf5yhaR35PePoFq026l7d4aKo1YEOhPjz4mlEZJ_M96gU7J6itsbfN93xu4c8XrtZrURlRfKkNkppoaJm6maDg4_QYvlfWOY7OhAhgbA1oJl-Q0W95wWNfKR-QmrYQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le Gallotia stehlini (lézard géant de Grande Canarie) est la plus grande espèce vivante du genre Gallotia, pouvant atteindre 80 cm de longueur totale chez les mâles adultes. Endémique de l'île de Grande Canarie (bien qu'introduit à Fuerteventura), il occupe des milieux variés allant des zones côtières arides aux ravins humides jusqu'à plus de 1 800 m d'altitude. Sa robe brun-grisâtre à olivâtre s'accompagne souvent de taches latérales plus claires et d'une gorge orangée ou rougeâtre, particulièrement marquée chez les vieux mâles à la tête massive. Principalement herbivore et frugivore à l'âge adulte (fleurs, fruits de figuier de Barbarie, feuilles), il consomme également des invertébrés et occasionnellement de petits vertébrés. Espèce diurne et territoriale, ce lacertidé joue un rôle écologique clé dans la dispersion des graines de la flore endémique canarienne."
+      }
+    ]
+  },
+   {
     id: "aguimes_maisons_troglodytes_guayadeque",
     name: "Agüimes - Maisons Troglodytes du Barranco de Guayadeque (Cuevas de Guayadeque)",
     country: "Espagne",
