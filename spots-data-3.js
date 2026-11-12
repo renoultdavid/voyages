@@ -7,6 +7,142 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "santa_cruz_tenerife_iglesia_matriz_concepcion",
+    name: "Santa Cruz de Tenerife - Église Matrice de la Conception (Iglesia Matriz de Nuestra Señora de la Concepción)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Santa Cruz de Tenerife",
+    altitude: 11,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Sanctuaire Historique Fondateur de Santa Cruz, Cinq Nefs, Charpente Mudéjare & Campanile Toscan (XVIe-XVIIIe siècle)",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.46448,
+    lng: -16.24893,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNmEEIycpqEN4yOhyNK6x49ADEZG3LOXqER38FcuJewYsBwzEYmZ773arw11XX63Z9pcFUX9wFyLR-Q5RGq7exnLEyAqK5Ztq0SUNk9tKKuRsD680W5BThivPG1p34HHHpITYMrnFaefPxsKMSvo1NrPw=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMOZBvC91rVppZy4R9RpR4iKl7eoalzeM9lfbuKDwydh2ukGRxY86KxtsOh6zyzVy2tdi2Jf9DatNBV6MFbWwTjYrHv-58_JZttMy1tk5Y5uEKuETZ0TKqfg6aedJQZjpsuiciLe1HQzLW1niwEa4W2fg=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNQ3BXV6hZTIgfJJbI7xDrQE-QIj9RQ8ogNr4EhYgx_u56oDsOTCfb7pyk9bvk-gjTCUS0JIOILehoDXODJ8z9ukWJDVO2VA7YE9VdxuRjubmwxf9I7S8syiyPkUDBmNdeIhYbZqXx41wjwvZlqj8H_gw=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Érigée à proximité immédiate du barranco de Santos, à l'emplacement même où l'adelantado Alonso Fernández de Lugo fit célébrer la première messe et dresser la croix de la fondation en mai 1494, l'église matrice de Notre-Dame de la Conception (Iglesia Matriz de Nuestra Señora de la Concepción) constitue le monument religieux le plus ancien et emblématique de la capitale tinerfeña. Surnommée affectueusement « la cathédrale de Santa Cruz », l'église primitive modeste fut progressivement agrandie aux XVIIe et XVIIIe siècles pour accompagner l'essor maritime et démographique de la ville, adoptant un plan basilical exceptionnel à cinq nefs séparées par des arcs en plein cintre en pierre de taille basaltique sombre reposant sur des colonnes toscanes.\n\nL'extérieur séduit par le contraste harmonieux entre la blancheur éclatante des murs enduits à la chaux, les encadrements en pierre volcanique grise et la haute tour-clocher carrée érigée en 1786, véritable repère vertical dominant les toits de la vieille ville. L'intérieur déploie une majestueuse charpente mudéjare en bois de cœur de pin canarien (tea) aux caissons géométriques ouvragés, abritant un patrimoine artistique d'une richesse remarquable. Parmi les pièces maîtresses figurent la célèbre Croix de la Conquête en bois de chêne conservée dans une vitrine de la chapelle Saint-Jacques, un somptueux retable majeur baroque doré, la chaire sculptée et les fonts baptismaux en marbre blanc, témoignant de plus de cinq siècles d'histoire spirituelle et civique au cœur de la cité portuaire.",
+    visiter: "Une halte sur la place pavée de l'Église permet d'admirer l'élancement du clocher en pierre volcanique sombre et les balcons traditionnels en pin tea surplombant la façade latérale. Les visiteurs franchissent le portail pour contempler l'ampleur rare des cinq nefs couvertes de plafonds mudéjars, observer la Croix historique de la Conquête et apprécier le raffinement des retables baroques dorés et de l'argenterie liturgique.",
+    link: ""
+  },
+  {
+    id: "santa_cruz_tenerife_la_charca_plaza_espana",
+    name: "Santa Cruz de Tenerife - Le Miroir d'Eau de La Charca (Plaza de España)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Santa Cruz de Tenerife",
+    subdiv: "Santa Cruz de Tenerife",
+    altitude: 9,
+    is_island: true,
+    island_name: "Tenerife",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Réaménagement Urbain Herzog & de Meuron, Lagune d'Eau de Mer & Geyser Central (2008)",
+    century: "XXIe siècle",
+    category: "parc_jardin",
+    counts: {},
+    lat: 28.46725,
+    lng: -16.24744,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPFVgK0J6wGSnSZmxZHphxNvPiLbsIlbyrYuLxr_8fGQaTrEBL0YWkyPoxkjoFAy7BjK3UAq4Cy6uEwqk1o6Pk2zNxD6AOzIERGr38FPLRjrQm7rsB4bWbCOD_aXGSvW73yArBbrLLXAJwcg3LjaUTTyg=w1367-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Déployé au cœur de la monumentale Plaza de España, trait d'union névralgique entre le centre historique et le front maritime portuaire de Santa Cruz de Tenerife, le bassin de La Charca constitue l'élément central du réaménagement contemporain conçu par les célèbres architectes suisses Jacques Herzog et Pierre de Meuron et inauguré en 2008. Ce vaste lac artificiel peu profond rempli d'eau de mer traitée évoque symboliquement l'ancienne lagune littorale qui bordait jadis le rivage de la ville avant l'extension des quais portuaires, tout en instaurant un miroir aquatique apaisant au milieu de l'animation urbaine.\n\nPonctué en son centre par un puissant geyser vertical projetant un panache d'eau rafraîchissant, le plan d'eau est bordé de pavillons organiques aux toitures végétalisées et de larges esplanades en basalte sombre qui reflètent les façades institutionnelles du Cabildo Insular et le monument commémoratif de la place. Sous le niveau même de l'esplanade subsistent les vestiges archéologiques préservés des murailles souterraines du Castillo de San Cristóbal, la principale forteresse côtière bâtie au XVIe siècle pour défendre la baie contre les flottes corsaires et l'escadre de l'amiral Nelson en 1797, associant ainsi l'architecture contemporaine la plus audacieuse à la mémoire défensive de la capitale.",
+    visiter: "Flâner autour des berges minérales de La Charca pour contempler les reflets changeants des palmiers, du monument de la Plaza de España et des nuages glissant sur les montagnes d'Anaga à la surface du bassin. Les promeneurs profitent de la fraîcheur diffusée par le geyser central avant d'emprunter le passage souterrain menant à la galerie d'interprétation des vestiges historiques du château fort de San Cristóbal.",
+    link: ""
+  },
+  {
+    id: "gran_canaria_village_historique_aguimes",
+    name: "Agüimes - Cité Historique, Rues Coloniales & Église Saint-Sébastien (Casco Histórico de Agüimes)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Agüimes",
+    altitude: 290,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Seigneurie Épiscopale Historique (1491), Architecture en Pierre Grise, Sculptures Urbaines & Néoclassicisme",
+    century: "XVIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 27.90580,
+    lng: -15.44545,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPqlbqLuzb-P8nvglWWQ0bTcebBDdmibI_6MO4kRfLILp0F-aTfq89MomJLYJQEIygQEmNEFuxW-Kd07_Z8N48BkWE4rTYY7ZyyPvCJ30c4sEzlc9MUwK5ELe0_WNrqlB27shqZRAk3YGFUVw6pBnce2A=w1367-h911-s-no-gm?authuser=0",
+    description: "Étagé sur les contreforts ensoleillés du sud-est de l'île de Gran Canaria, au débouché des spectaculaires gorges du barranco de Guayadeque, le centre historique d'Agüimes constitue l'un des ensembles patrimoniaux les mieux préservés et les plus harmonieux de tout l'archipel canarien. Fondée en 1491 sur ordre des Rois Catholiques peu après l'incorporation de l'île à la Couronne de Castille, la cité reçut le statut singulier de seigneurie épiscopale relevant directement des évêques des Canaries, une administration ecclésiastique qui façonna durablement son urbanisme ordonné, son essor agricole et la richesse de son architecture civile et religieuse. Déclaré Ensemble Historique et Artistique, le vieux bourg déploie un lacis enchanteur de ruelles piétonnes pavées de galets basaltiques et de dalles volcaniques, bordées de demeures traditionnelles aux façades blanchies à la chaux ou rehaussées d'enduits ocrés et rosés.\n\nLes bâtisses historiques exposent avec raffinement les savoir-faire des tailleurs de pierre insulaires à travers des encadrements de portes et de fenêtres en pierre de taille volcanique grise (cantería gris), complétés par des toitures de tuiles canal d'argile rouge et d'élégantes menuiseries en bois de cœur de pin des Canaries (tea). Au fil des placettes ombragées et des angles de rues se dévoile un musée d'art public à ciel ouvert ponctué de sculptures de bronze grandeur nature rendant hommage aux métiers d'autrefois et aux figures populaires de la comarque. L'ensemble trouve son couronnement monumental sur la vaste Plaza del Rosario, dominée par la silhouette majestueuse de l'église paroissiale San Sebastián, véritable cathédrale du sud-est insulaire dont l'imposante façade néoclassique en pierre volcanique grise dessinée par Diego Nicolás Eduardo dialogue avec la pureté du ciel canarien.",
+    intro_page: "Niché sur les versants ensoleillés du sud-est de Gran Canaria, le bourg historique d'Agüimes séduit par l'authenticité remarquable de son centre ancien classé. Fondée en 1491 comme seigneurie épiscopale, la ville déploie un dédale paisible de ruelles pavées de basalte bordées de maisons basses aux façades blanchies à la chaux, encadrées de pierre volcanique grise et dotées de menuiseries en pin tea. Ponctuée de sculptures de bronze évoquant les traditions rurales locales, la promenade converge vers la vaste Plaza del Rosario, où trône l'imposante église néoclassique San Sebastián, surnommée la cathédrale du sud-est.",
+    visiter: "Flâner à pied dans les ruelles pavées du quartier ancien depuis la Plaza de San Antón jusqu'à la Plaza del Rosario pour admirer les façades pastel, les encadrements en pierre grise d'Agüimes et les patios intérieurs arborés. Les promeneurs prennent le temps de repérer les nombreuses sculptures de bronze disséminées au détour des rues avant de contempler la façade monumentale à deux tours de l'église San Sebastián et de pénétrer sous sa vaste coupole néoclassique.",
+    link: "",
+    sections: [
+      {
+        title: "Ruelles pavées de basalte et façades traditionnelles du centre ancien",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPqlbqLuzb-P8nvglWWQ0bTcebBDdmibI_6MO4kRfLILp0F-aTfq89MomJLYJQEIygQEmNEFuxW-Kd07_Z8N48BkWE4rTYY7ZyyPvCJ30c4sEzlc9MUwK5ELe0_WNrqlB27shqZRAk3YGFUVw6pBnce2A=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMaWggUCqIWmYNb407myJmXTa6VXdTBFhow1gAKuhlgyQy2c4UHanN1gJ6hj3UWIhqzre7rW8D8bBe0d-a6jXHPPemCXibw_gwVaampoOYPyHxy0KDJYKBjM_4GApwCjpD2qVd0nmvLCvq_e75TUEVc1w=w607-h911-s-no-gm?authuser=0"
+        ],
+        text: "La déambulation à travers le centre ancien révèle un lacis pittoresque de ruelles pavées de galets basaltiques et de dalles de pierre volcanique, bordées de maisons basses traditionnelles aux façades blanchies à la chaux ou parées d'enduits ocrés et rosés."
+      },
+      {
+        title: "Architecture vernaculaire en pierre grise (cantería) et menuiseries en pin tea",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPpp68fN1D-Dr_bgZZaTEBCnIuR5vvLMMZ0qSgdcJBD4PPzO6H0Uq-XAnMv2ZS2M4PiczUclVatT7EwF0q4-i96Kg_4gvdCm-v4VzQ5n6Q1TG0M_0n5jkSFJiG-kU1JDfvx-kejPNnVMbs1XJ_Ssuwqbg=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMkXSF3TigzpgQKbAevY-fPYhY108RLotDgT8oCa0_VAnofojiLankMXXZMTgs2r0WgXi9R0yOs4pPAOzeMWM6LcXetew5yO1pBFv880WrkQefKr37irTd7kit2_09LQERJrRY_5mWdB9NS624uZLhCkA=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "L'architecture vernaculaire canarienne s'y déploie dans toute sa sobriété élégante, caractérisée par des encadrements de portes et de fenêtres en pierre de taille volcanique grise (cantería gris), des toitures à deux ou quatre pans recouvertes de tuiles courbes en terre cuite et d'admirables menuiseries anciennes en bois de cœur de pin des Canaries (tea), telles que des fenêtres à guillotine, des volets ajourés (postigos) et de sobres balcons ouverts sur des patios intérieurs ombragés."
+      },
+      {
+        title: "Galerie de sculptures en bronze à ciel ouvert et mémoire ethnographique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOWYJj4YIRzfgQAx3wNL8RfuXLTwLBjhIMautTuao2POEhu63B2PVbWQO7WBdOqNxlDBIMSmdC__6xs03q5Aq7yVCCNnKlrdMgJwojeLPoWrVyTbRe18_K54FnTIFkwq50AMNDGAfPIKFSxCvOpFWV5-A=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOvFuqWFxtP4H5AVwWH2ZBgHbD_lHrqq1d1QoDfDZstZs0m_OVSjFF2gk-k0ZC8k7AQQtsuRV7UvxHdcZeXybczgGi_4ckwA9vwzoPr6t2VTZ3P8QaNgUfqOayFplENXVS_zVp92ZmhIDYKxibsVKMvtw=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "Ce décor urbain intime est ponctué d'une célèbre galerie à ciel ouvert de sculptures de bronze grandeur nature disséminées au détour des placettes et des angles de rues, rendant hommage aux figures populaires locales, aux anciens métiers ruraux, aux paysans et aux animaux familiers de la comarque, instaurant un dialogue vivant entre la mémoire ethnographique et l'espace public."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPPfzjVoZUgIkDkz5m7FMhuiGSTKi2jcyi827h7IYNEySR_XroI5bPIp6ZP1eP8DKBSbefhjN7B3IY0AYLBxI_r8gWjrubXwCWM0E8DXGG2ziWMOr_tgMEsr-2CsLVQzBacP6lmQlOhbDcGKhzOXU2kIQ=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPbdfUlcQ5rq7n6m1v3wJ9tK8qjUGju0Cn6ekMhrmPZhaX052n9OPX0ien-eiA90k-Y1YYZPKpnM3KOFDP82gRycY-w4hAKm-jT8yroY3nqNPEZTbIdchgHVsNvD0lVdQOmWbLgUm9jOA2uz_yVQxhEOA=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM9QFsf1Kijn-oDbev_VnfZlM1EFwYxCYHPtQxGp-2ixO89fq1AzrU5dsMlcj9JYIJ76u2sPxo3srAqNzvlpxw4Twbly3IyuV3biXqHSgamPbtwfQNTVxgw6q2N48EahoQlD_sHhpElSJIf_v2fo-Qs2Q=w607-h911-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La Plaza del Rosario et l'église néoclassique San Sebastián",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMsFXPfTRnPJyfdsbXOWeroBMHRk6sFamIKHKf4hMGLjmvYYaFv0EdPUnEkAqplMKU6wHBB8b7kowcKAlIJx4QXOklnvMXaFAdcGxKihdyankeUonf55dmKne1nN9CCORA985DZWALRXxXRhNhBdAao1w=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNAiX2tYHmaCsikgf-KTtnX4sye2ttWPWoEeFfHIEimXYLA3pc-z4P30fpxuuqGlxYSYJWQxc2bDT1ZUGE6VMsZYLJUwkrRIuAuq9MNqlxoUpGv_5hqs8lEkvECrb5vtGtnI_Ess28mgrbsHChhblIQ7g=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "Le cœur monumental et spirituel de la cité s'ordonne autour de la vaste Plaza del Rosario, esplanade paisible dominée par la silhouette imposante de l'église San Sebastian, véritable cathédrale du sud-est insulaire déclarée monument historique national. Édifié à partir de 1796 sur l'emplacement d'anciens sanctuaires remontant au début du XVIe siècle et achevé seulement en 1940, cet édifice grandiose constitue l'un des chefs-d'œuvre absolus de l'architecture néoclassique aux Canaries, conçu selon les plans rigoureux de l'architecte Diego Nicolás Eduardo. Sa façade monumentale, entièrement appareillée en pierre de taille basaltique gris bleuté extraite des carrières locales, s'organise sur trois corps horizontaux et trois travées verticales, flanquée de deux hautes tours-clochers symétriques coiffées de coupoles octogonales et couronnée d'un fronton triangulaire central d'inspiration académique."
+      }
+    ]
+  },
+   {
     id: "anaga_playa_roque_de_las_bodegas",
     name: "Santa Cruz de Tenerife - Plage du Roque de las Bodegas (Playa del Roque de las Bodegas)",
     country: "Espagne",
