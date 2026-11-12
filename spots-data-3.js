@@ -7,6 +7,73 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "gran_canaria_puerto_de_mogan",
+    name: "Mogán - Port de Plaisance & Village des Pêcheurs (Puerto de Mogán)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Mogán",
+    altitude: 5,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Marina Architecturale à Canaux (Années 1980), Quartier Historique des Pêcheurs & Plage Abritée",
+    century: "XXe siècle",
+    category: "habitation",
+    counts: {  habitation: 1  },
+    lat: 27.81734,
+    lng: -15.76541,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMMXvnk4HS1xheYkvy9N3pdxofolbvlMQ0KexcU9SpIUYB60G_OvCryOPRtz2hzBIdFiEjJrZK0-nb1PHGIrW3M0DrzW5XUR4QHg6r-Wu5bfbgGu1yu37xTYgOk58fgNVOYCbDBcU8Rj_MJ7f99bKvm8A=w1379-h919-s-no-gm?authuser=0",
+    description: "Niché à l'embouchure méridionale du fertile barranco de Mogán, sur la côte sud-ouest de Gran Canaria réputée pour bénéficier de l'un des microclimats les plus doux et ensoleillés au monde, Puerto de Mogán conjugue le charme séculaire d'un bourg maritime traditionnel à l'élégance d'une marina contemporaine exemplaire. Souvent surnommé la « Petite Venise des Canaries », ce port pittoresque doit sa physionomie singulière à la vision de l'artiste et architecte Raphael Neville qui, dans les années 1980, imagina un complexe portuaire de plaisance à échelle humaine rompant radicalement avec le bétonnage touristique de masse. Soumis à une réglementation architecturale stricte limitant l'élévation des édifices à deux étages, le quartier de la marina déploie un ensemble harmonieux de ruelles piétonnes pavées, de placettes ombragées et de canaux d'eau de mer reliés au bassin principal et enjambés par de gracieux ponts piétonniers en arc.\n\nLes façades immaculées blanchies à la chaux sont rehaussées d'encadrements peints dans des teintes vives et joyeuses — bleu cobalt, ocre doré, vert jade et terre cuite — tandis que des arches entières de bougainvilliers écarlates et violets recouvrent les balcons en fer forgé et les pergolas de bois. À l'ouest de ce lacis fleuri s'accroche directement à la paroi basaltique l'authentique Barrio de los Pescadores, ancien village de pêcheurs aux ruelles escarpées en escaliers témoignant des origines modestes de cette communauté tournée vers l'océan. Protégé des courants atlantiques par une puissante digue où débarquent chaque jour les prises de pêche artisanale, le site s'ouvre sur une anse calme de sable doré aux eaux limpides, composant une escale maritime d'une sérénité et d'une harmonie esthétique incomparables.",
+    intro_page: "Surnommé la « Petite Venise des Canaries », Puerto de Mogán déploie au creux de la côte sud-ouest de Gran Canaria un ensemble maritime d'une harmonie exceptionnelle. Conçue dans les années 1980 selon un cahier des charges strict limitant les bâtiments à deux niveaux, sa marina s'articule autour de canaux d'eau de mer franchis par de petits ponts en arc, bordés de maisons blanches aux encadrements colorés et drapées de bougainvilliers éclatants. Adossé à l'ancien quartier escarpé des pêcheurs et prolongé par une plage de sable doré aux eaux calmes et turquoise, le port offre une atmosphère paisible et lumineuse sous l'un des climats les plus cléments de l'archipel.",
+    visiter: "Flâner à pied le long des quais pavés et des petits ponts enjambant les canaux de la marina pour admirer les façades colorées croulant sous les bougainvilliers en fleurs et les voiliers amarrés au bassin de plaisance. Les promeneurs gagnent ensuite la jetée du port de pêche pour observer l'activité des marins, gravissent les ruelles en escaliers du Barrio de los Pescadores jusqu'au belvédère dominant la baie, avant de profiter des eaux calmes de la plage de Mogán.",
+    link: "",
+    sections: [
+      {
+        title: "Architecture de la marina, canaux d'eau de mer et profusion de bougainvilliers",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMMXvnk4HS1xheYkvy9N3pdxofolbvlMQ0KexcU9SpIUYB60G_OvCryOPRtz2hzBIdFiEjJrZK0-nb1PHGIrW3M0DrzW5XUR4QHg6r-Wu5bfbgGu1yu37xTYgOk58fgNVOYCbDBcU8Rj_MJ7f99bKvm8A=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOEa0qsOTEPEjzK6gdf3rVilIk17v0lENusa1QiTGPyMZbp8MwlDzQeZtcUvqS6_Ef1kv0PCyjqqdLzZYaCPofJpNpJYQxIKmGbYGNJa3vEKim_VnpXXZ9SdocdDO-zn7dAzrp_-jk1evFU-aC40qtwDg=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'architecture de la marina obéit à un cahier des charges esthétique rigoureux qui limite la hauteur des constructions à deux niveaux afin de préserver la lumière et l'intimité des perspectives. Les façades enduites d'un blanc éclatant sont soulignées d'encadrements peints de couleurs vives — bleu cobalt, ocre jaune, vert jade et terre cuite — tandis que les balcons en fer forgé et les pergolas de bois disparaissent sous une profusion végétale luxuriante de bougainvilliers écarlates, d'hibiscus et d'oiseaux de paradis. Le cœur du port est parcouru par un réseau de canaux d'eau de mer reliés directement au bassin de plaisance et franchis par d'élégants petits ponts piétonniers en arc, bordés de quais pavés où s'amarrent voiliers et embarcations de pêche traditionnelle à l'abri d'une puissante digue de protection."
+      },
+      {
+        title: "Anse abritée de la plage de Mogán et quartier escarpé des pêcheurs",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO68WmmbZDhwOo90tM6P8Yn-ydkY0K85re6VY87T8BLjXiCMPAjg0FOfMMko9gbRza5-RiL2_Yy5I84T9sw5VGKvNdXARf2Z43XABBP274NUiYCz8BxEca4UnEhYbLoCMoqJ87qKSi59lHetHEZl6rbOQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNaeFzLYglsPHezaX1fu9AEpCNU6Qx7f3mI7fiAOoImfzr0XGSPAysQ70zgMQhgJ_Oy6VDhWig33vWnpsNv62Q_xGgnhK0a9h_euo4HImv6ErC-WR0kqcn54wtHlIEDvWmu6lDhzOKGEZUxIwRJmCw-Wg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Sur le flanc oriental du port s'étire l'anse abritée de la plage de Mogán, ruban de sable doré protégé de la houle océanique par deux jetées rocheuses qui maintiennent des eaux limpides et calmes d'un bleu turquoise. Dominée à l'ouest par les ruelles escarpées et les escaliers blanchis de l'ancien quartier des pêcheurs (Barrio de los Pescadores), dont les maisons modestes s'accrochent en terrasses aux parois basaltiques de la falaise, la promenade maritime relie harmonieusement l'animation des quais aux belvédères supérieurs offrant une vue plongeante sur le bassin portuaire et l'horizon atlantique."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMEOF1Pc3DDs2k7BSx55Wbfi7xmI59eRmBwHhxOmn212UiBGiUHjE_zG-rcJalRH9HI82f5B0GPOCbLVfP1_deJ-MiUZdqcpWM7uJ9xDr2NnYQlno5rGST8bvVfyrn_3kbxKv5Y4rrnclVLPQfqrweRnA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOUQjqQrIm767mDU5Up8CY0GcR3mVVH4imOhINmRjJ2sl_P4fvVSIPoNqUjGdhQJMqlpkIJrgdyw_s8resm0xXkfxT0A7_NJ6MOyUkzPaVE0wG6X8PgiQwnX7meYzrCupMtUluBzH8UNcih5EQr161ijA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPCl_tucungRzUXAF2m_nJ7A-4OBaCszw3bj6tMSWRYHzxxtKMeBKKMoIAjr9JfBIFGmLJGmq__5xJ61lOgMd_RZXM8lwQhf3CWIs16iFeBDXhZzp7j9Qm1EooppM3s7JUslQUMHK7saYGfFfcqQKb4qQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNvoZXKgPr0KRLfSzTiVTydr-fPPwDSgkKqQsiY2vzoIk-RrFSbMoTxJmKzJR8bz_mggU07GAYrGFdXrFzetyKnrURfshB5zSV95BqqQDIT9dEsG3xeeIjxP4ZZ25aiywybnztl4RTnGsDkDHG3FFc7Pg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Plage de Mogán et vue sur le village",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOqG_tAwkjjHQ41ttMqnNWgPGiQlKQ-vbcZtJk5lXfmYaBOjO4B-1Aef_pAU2urNIiit6GxGgJnY__IZZdvMsDCM84nQtH0q_RsXuSpHdB1slfs5MLhwZ4iG9Oijl0E6MYMrNJzhvJULKDjOOjqE1lCiA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+   {
     id: "gran_canaria_dunes_de_maspalomas",
     name: "San Bartolomé de Tirajana - Réserve Naturelle des Dunes de Maspalomas (Dunas de Maspalomas)",
     country: "Espagne",
