@@ -7,6 +7,181 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "aguimes_maisons_troglodytes_guayadeque",
+    name: "Agüimes - Maisons Troglodytes du Barranco de Guayadeque (Cuevas de Guayadeque)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Agüimes",
+    altitude: 586,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Habitat Troglodytique Séculaire, Héritage Aborigène Canarii & Chapelle Rupestre",
+    century: "XVIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 27.93328,
+    lng: -15.48256,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM6H7MQA6GAbqmBKRQptXhm2Vk3Ey4l1TQ0S8g84x29thR3Q-Ayk8BqToIRTNg4NH62ghl0xmA7VDgE4tY4LA6BEIinF18vPlRXbaL6y2sCppY33bw4WmsyRdRTbyBjs8JhO8zXrrMH1Ubpglp_9EsHXg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPL2jybOMj4Kfb8WnmvMtwQEDOUYaG2t7WiFyAh644XS_U0qWMZ2UCwJmouH1ixcjWg100USnE4O1LV6W41izC8bQfZMdRafbrJVyMqAJnk3A6XCYKN8fyPwCjJIsjSsywCBuNUsE-_-aZJ71okIxmr0w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNVhlyc5mdbT2P9aZk7d7zH7ZihH3J1RO1aztet8i9yKX8_dgamhvdnTVwCLZLLRQlyjBRuF7fSk1cT--vjg3LmCVYaQSEME-kUI7xaEhPKNmzEzYz4gjpeOhpGt4rxMrgE68oQdOmuN7jqokROleRcBw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMFC8nQqR7J0qbjVNTvUxsXhqVu23HGwdHWfrSv4cM9o7KJVRtnTw_wXX6uTAJCst_d-oI8QpRpD8sjR6FcvIZUKQcct177stkZcprgkm-SNng8hX8Z7Xm6NWG488QdrQt2gY6UWdhSEVSGE7JHNqi7Ng=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Creusé tel un sillon monumental sur près de quinze kilomètres entre les communes d'Agüimes et d'Ingenio, le barranco de Guayadeque constitue l'une des gorges fluviales les plus spectaculaires, fertiles et chargées d'histoire de l'île de Gran Canaria. Déclaré Monument Naturel et Bien d'Intérêt Culturel, ce canyon aux parois vertigineuses sculptées dans les formations pyroclastiques du cycle volcanique Roque Nublo abrite une concentration exceptionnelle d'habitats troglodytiques occupés sans interruption depuis l'époque préhispanique jusqu'à nos jours. Les anciens aborigènes Canarii tirèrent parti de la friabilité du tuf volcanique et de l'abondance des sources d'eau douce pour excaver des centaines de grottes servant de logements, de greniers communautaires fortifiés et de nécropoles funéraires.\n\nPerpétuant cet héritage millénaire, les habitants actuels ont aménagé des hameaux troglodytiques complets — tel le noyau pittoresque de Cuevas Bermejas — où des façades blanchies à la chaux, encadrées de pierre volcanique grise et fleuries de géraniums, dissimulent de vastes demeures souterraines conservant une température constante avoisinant dix-huit degrés tout au long de l'année. Le hameau possède même sa propre église rupestre dédiée à l'apôtre saint Barthélemy, entièrement excavée à même la falaise, ainsi qu'un centre d'interprétation archéologique retraçant la continuité remarquable de cette architecture bioclimatique insulaire au cœur d'une végétation luxuriante d'agaves, d'amandiers et d'espèces endémiques rupicoles.",
+    visiter: "Parcourir les ruelles en escaliers du hameau troglodytique de Cuevas Bermejas pour observer l'intégration harmonieuse des façades blanchies à la chaux dans la paroi de tuf volcanique rougeâtre. Les visiteurs pénètrent dans l'étonnante chapelle rupestre creusée dans la roche avant de visiter le centre d'interprétation du barranco de Guayadeque pour découvrir l'histoire des anciens habitants de la gorge.",
+    link: ""
+  },
+  {
+    id: "ingenio_montana_de_las_tierras_guayadeque",
+    name: "Ingenio - Hameau Troglodytique de Montaña de las Tierras (Barranco de Guayadeque)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Ingenio",
+    altitude: 963,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Hameau Troglodytique d'Altitude, Auberges Rupestres & Cirque Terminal de Guayadeque",
+    century: "XIXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 27.93509,
+    lng: -15.51054,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOyTPcMb_eFUG-2mNsN93WS_nU9rZ0FptieXsPHlfh_4Vxxl4BtUWBz24w1sOV9QKFz7vohg3qql4PAREoMYQeSA9tgdXAJWGykUyfKHKS7uhuz31_J3I5Uhc8Q8UQ6sQ1cOQfuI9BGXkEo0wK94N7RgA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Perché à près de mille mètres d'altitude à l'extrémité supérieure et la plus escarpée du barranco de Guayadeque, le hameau troglodytique de Montaña de las Tierras marque le point culminant accessible par la route au fond de cette gorge monumentale. Dominé par les murailles vertigineuses de la caldeira de Los Marteles et les crêtes centrales de Gran Canaria, ce petit noyau rural à l'atmosphère montagnarde authentique perpétue la tradition ancestrale de l'habitat excavé dans les parois de tuf volcanique tendre.\n\nLes anciennes grottes agricoles et pastorales ont été soigneusement réhabilitées en demeures troglodytiques et en auberges traditionnelles creusées à même la montagne, où l'on déguste les spécialités de la gastronomie rurale canarienne — viandes grillées, potage de cresson (potaje de berros) et gofio escaldado — dans des salles voûtées à la fraîcheur naturelle immuable. Entouré de terrasses agricoles plantées d'amandiers, de noyers et d'arbres fruitiers tempérés qui s'épanouissent grâce à l'humidité des brumes d'altitude, Montaña de las Tierras constitue également le point de départ privilégié des sentiers de randonnée gravissant les parois du cirque vers la caldeira de Los Marteles et les sommets de l'île.",
+    visiter: "Atteindre le terminus de la route du barranco de Guayadeque pour explorer à pied les sentiers en escaliers reliant les habitations troglodytiques de Montaña de las Tierras. Les visiteurs profitent d'une halte dans l'une des auberges creusées dans la roche avant de contempler le cirque rocheux abrupt fermant la vallée et la flore endémique accrochée aux escarpements basaltiques.",
+    link: ""
+  },
+  {
+    id: "telde_site_archeologique_cuatro_puertas",
+    name: "Telde - Complexe Archéologique de Cuatro Puertas (Montaña Bermeja)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Telde",
+    altitude: 292,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Sanctuaire Troglodytique Préhispanique des Canarii, Almogarén Sommital & Art Rupestre (Xe-XVe siècle)",
+    century: "XVe siècle",
+    category: "archeologie",
+    counts: { archeologie: 1 },
+    lat: 27.95894,
+    lng: -15.41819,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNec6SOJNAWMwhn8EkLXTQ8mI5KYWGPeYAh_iQqrp4zea4INFuaUpz_poJ52YAevg3rFVgpPYE4ZyEed1lMFCeu7wmQBqJU6U4wbLlrlLTtlbOpZLdX7HS4-k8UciVjmHwNB3JS2H8fYSvvLuZJ5GOw3Q=w1379-h919-s-no-gm?authuser=0",
+    description: "Sculpté au sommet et sur les flancs d'un cône volcanique de scories rougeâtres appelé Montaña Bermeja, sur le territoire de l'ancien royaume préhispanique (guanartemato) de Telde, le gisement de Cuatro Puertas constitue l'un des sanctuaires archéologiques et religieux les plus extraordinaires et complexes des îles Canaries. Déclaré Bien d'Intérêt Culturel, ce complexe troglodytique monumental témoigne de la maîtrise architecturale, rituelle et astronomique atteinte par les anciens aborigènes Canarii avant la conquête castillane de la fin du XVe siècle. L'édifice emblématique qui donne son nom au site est une vaste salle rectangulaire excavée dans le tuf rouge sur le versant nord, ouverte par quatre baies monumentales précédées d'une esplanade à portique dont l'orientation solsticiale suggère une fonction sacerdotale majeure liée au grand prêtre (faycán) de Telde.\n\nLe parcours sur les crêtes et les parois de la montagne révèle une organisation spatiale sacrée et communautaire d'une richesse exceptionnelle : au sommet trône l'Almogarén, sanctuaire à ciel ouvert creusé de rigoles et de cupules destinées aux libations rituelles accomplies par les femmes consacrées (harimaguadas), tandis que le flanc méridional abrite la Cueva de los Papeles, ornée de gravures rupestres symbolisant la fécondité, ainsi que le spectaculaire village troglodytique et grenier fortifié à piliers de la Cueva de los Pilares. Dominé par une vue panoramique embrassant toute la plaine côtière orientale et l'océan Atlantique, Cuatro Puertas incarne le haut lieu spirituel par excellence de la civilisation préhispanique de Gran Canaria.",
+    intro_page: "Dressée à près de trois cents mètres d'altitude sur la côte orientale de Gran Canaria, la Montaña Bermeja abrite le complexe troglodytique de Cuatro Puertas, l'un des sanctuaires archéologiques les plus fascinants de la civilisation préhispanique des Canarii. Creusé à même le tuf volcanique rougeâtre, ce site sacré réunit une spectaculaire salle cérémonielle ouverte par quatre baies monumentales orientées vers le solstice d'été, un sanctuaire sommital à cupules (almogarén) dédié aux libations rituelles, des gravures rupestres liées aux cultes de la fécondité ainsi qu'un vaste ensemble souterrain d'habitations et de greniers collectifs à piliers soutenant la montagne.",
+    visiter: "Gravir le sentier aménagé sur le flanc de la Montaña Bermeja pour découvrir la monumentale grotte aux quatre portes et son esplanade à trous de poteaux, avant de monter jusqu'au sanctuaire circulaire de l'Almogarén au sommet. Emprunter ensuite l'étroit sentier en corniche contournant le versant sud pour observer les gravures rupestres de la Cueva de los Papeles et explorer les salles à piliers et greniers excavés de la Cueva de los Pilares.",
+    link: "",
+    sections: [
+      {
+        title: "La grotte principale aux Quatre Portes et son alignement solsticial",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNec6SOJNAWMwhn8EkLXTQ8mI5KYWGPeYAh_iQqrp4zea4INFuaUpz_poJ52YAevg3rFVgpPYE4ZyEed1lMFCeu7wmQBqJU6U4wbLlrlLTtlbOpZLdX7HS4-k8UciVjmHwNB3JS2H8fYSvvLuZJ5GOw3Q=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPNQ4zSXad9AxjSitNRWAQqY5KrOPnkKrC_u8hEAdT-WiPJxSrdhn_qIxh3FPygN-y_405tImYOuw7wWRHHfH6z82D341dB2NnMyfeElTZKkIt0veBt7eKw-7o33Ba92_SQGbnJ2s2lGvn6c8Auetl-Dg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La grotte principale de Cuatro Puertas, qui donne son nom à l'ensemble du gisement, s'ouvre sur le versant septentrional juste sous la crête sommitale. Il s'agit d'une spectaculaire salle artificielle rectangulaire d'environ dix-sept mètres de long sur sept mètres de profondeur, précédée d'une large esplanade plane taillée à même la roche. Sa façade monumentale est percée de quatre vastes baies d'accès quadrangulaires séparées par d'épais piliers de tuf réservés dans la masse, qui baignent l'intérieur d'une lumière rasante. Sur le sol rocheux de la terrasse extérieure s'alignent une vingtaine de trous de poteaux creusés dans la pierre, attestant l'existence ancienne d'une structure légère en bois et en peaux ou végétaux qui formait un portique couvert prolongeant la cavité. L'ampleur architecturale de cette salle, l'absence de foyers domestiques ainsi que son alignement archéoastronomique précis — permettant aux rayons du soleil autour du solstice d'été de pénétrer par les ouvertures pour illuminer la paroi du fond — conduisent les archéologues à y voir un espace sacré majeur, possiblement la résidence du grand prêtre (faycán) de Telde ou le siège d'un conseil d'assemblée (tagoror)."
+      },
+      {
+        title: "L'Almogarén sommital et les rites de libation des harimaguadas",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPbjxu9vCuNcEt4b7SuJrK6xxQ_JXsJsICnHQFwO7uAgylg-9DuolGvLGy71Te8qWGl-JBIpdk7GhSTyXQWgWc52psng_ZNLDhWnY2eQ8BYJqqjN8HhcpmfcKXWh9rQQbN2OkPf-t3gfd-l77DFQh6xIg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNpDjgxk-7b59cRX16eofs2degtm7D0Z9HRGJKGDM6Bkv_SHKPP_x-0gEON40iF6c-0TkscCFlbtlssMq_-lU93Q7uDBKLHVoXYx1oUBWct0IzcMSIZEZclQTRcjjACvit4QGWrAcGigIOwGr8rhjLrEg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En gravissant les quelques mètres qui mènent au sommet même de la Montaña Bermeja, le parcours débouche sur l'Almogarén, sanctuaire rituel à ciel ouvert caractéristique de la religion des anciens Canariens. Ce recinto circulaire excavé dans le socle rocheux présente un sol soigneusement nivelé, creusé d'un réseau complexe de rigoles (canalillos) reliant plusieurs cupules et bassins hémisphériques (cazoletas), et bordé de banquettes et de niches taillées dans les parois périphériques. Dans ce haut lieu cultuel tourné vers l'horizon océanique, le faycán et les femmes consacrées (harimaguadas) accomplissaient des cérémonies propitiatoires en versant des libations de lait, d'eau ou de beurre fondu afin d'invoquer la fertilité de la terre et la venue des pluies bienfaitrices."
+      },
+      {
+        title: "La Cueva de los Papeles et les gravures rupestres de fécondité",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMMpLwKqerFQEf7I_a9HVfIRpxVXObifIY9TFKEkVNh2v_eWP29WJiFNasDOOegPL4Cr9GKdQLBLUE6V8BLRnI6CYvqdvz01nlxtHrrkK6lG4Ew3h5L67Wj_dOgfSTyZiMGNWSG2qq63yJDKiSDSk4hoQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En basculant sur le versant méridional par un étroit sentier taillé à flanc de falaise qui épouse la courbe de la paroi, on atteint la Cueva de los Papeles (parfois évoquée sous le nom de Curva de los Papeles en raison du tracé sinueux de son accès en corniche). Cette cavité artificielle de dimensions plus intimes abrite l'un des ensembles d'art rupestre les plus significatifs de l'archipel : ses parois internes de tuf rouge sont incisées d'une série de motifs géométriques gravés figurant des triangles pubiens et des représentations vulvaires stylisées, associés à des cupules creusées dans le sol. Ces gravures témoignent de rites ancestraux liés à la fécondité et à la féminité sacrée, hérités des traditions culturelles nord-africaines berbères apportées lors du peuplement originel de l'île."
+      },
+      {
+        title: "Le village troglodytique et les abris sous roche de la Cueva de los Pilares",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPKiIYx3Q5ySebMxUEoDQvZqkWW2QzqvnYM_Sgtmtl0hzkLkAplEpqFaUDa0fEH1ec866NDuO9DvQEY0R0wLOuzKvho6cdo7XKVJq36onxh_zYZ4nko-QF21d9WuLA7sswgjMxkeLsP5HCWRLdvUg3WQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOPAOMiLCnjBsHt3bLV1LyxgR1ktixprUSo_2Gjt2E2grbSlgnLsDBz7x9fWzB3g0A8QxaWP4omYkSGhs2ir68klz4Uslp0_7ITQDNAIv3z6piRKYRaZtMkhU6ywWakvp3eCbXoJGEiSCnTLlva_nMq3w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En poursuivant la progression vers l'est le long du même escarpement sud, le cheminement débouche sur le spectaculaire ensemble de la Cueva de los Pilares, véritable village troglodytique aménagé sur plusieurs niveaux superposés sous d'immenses abris sous roche naturels (solapones)."
+      },
+      {
+        title: "Architecture excavée à piliers, ateliers et greniers collectifs",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMBhlmn1vwr6KnFmX3y9vjwuoQfDC54fvKHj1pTkowrVnN5lsmh_ZNCN4ATf734kgWRUBmyyoMJ3ahniYoYkb03jcBaDTrAwUkn8tdPkFBZYmHRf3_5vF8jjuw7X9EQn3rXIlNIGL0nU63Us8Zzk3lOPg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMxMVFhexiyWj1tAnP4AjVLf9lQXd_QZniTgKnguIsoNgjebeclwjm8b00uEej5A9YQl-DsozVG4tlC0mjSHQ5ssl0DmbVhh4_3Qg65pZckqaLYet8c6zjmjoyBHjfYIu_Jzfr8DUlmGb0Np9tzLXH-A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Reliées entre elles par des escaliers taillés, des corniches étroites et des galeries creusées dans la roche, ces cavités doivent leur nom aux imposants piliers de tuf laissés intacts lors de l'excavation pour soutenir la voûte de la grande salle centrale. Cet ensemble complexe fonctionnait à la fois comme quartier d'habitation, atelier artisanal et complexe de greniers collectifs (silos) destinés à conserver les récoltes de céréales à l'abri de l'humidité et des pillages, offrant une synthèse saisissante de la maîtrise architecturale et de l'adaptation troglodytique des anciens habitants de Gran Canaria."
+      }
+    ]
+  },
+  {
+    id: "telde_village_de_plage_tufia",
+    name: "Telde - Village Côtier Troglodytique & Plage de Tufia (Playa y Poblado de Tufia)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Telde",
+    altitude: 3,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Hameau Maritime Pittoresque, Maisons Troglodytiques Côtières & Site Archéologique Préhispanique",
+    century: "XXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 27.96250,
+    lng: -15.38028,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMkxPQUq2KG0m7_eVE_rGqp3Fe1xStNtufmFYP8BWQWQV4OsG-pqu2onFNkgN3-PWdaFJKaTh1EezQbM8h0SrnhF41CCr-AkCODb-cJgGQkwc_Btt3oq_u-RfzvbnnVnBLIui8oz36YlyiEBo6OJCbA1g=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMqc1egUPDaSRqk0yZo0Bs953j61JR726D8BC_rihCujAnobxUNZCmUwJJenmCovNDZLFdVXqnQJWt-99n4S8xQw3LTDqwdQR0eknJo23Jn58yGMoBF_Os_T3A9AICC_b9sQeTtMlBCmn2by0nQR9JjEg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOf4CguG_mV5JK7aYVfopXPIeOOhpLxoTZoDTPhJ7mfOwf0u6KNNcLcWKXLgkdX6Ch-tUqfk5vmNrFEbo2V9KXR-HjJ80uXwC4HyrX7Uavi9uUaqShuhojYpO9ci70HLl7nEFJO08_JqnVcOaNMt7o2iQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNEZ7UPO5bcw_Xd813Rh3wj_i8SiSL3yrem_wa0XvyvxDg3WqUkwIoGa8g2nmzZooFv2nItANBdIGZntTuuqkkVFjcHo3cPY1KEjaAjWOVLriqmaMbkclwi_-gyBKKql_nX2_Xz5dWzJZegidUbOZvvrg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPPgYmU9STjTWzjgZelxr50J0bHVkrSpyMFhRa4rO1SFt4qChQsdw5d0zsOTNDsNUMnylobHXrI87c6KOWButLpRJmNISyBfGuF7dfbdTdBNCE0x3jW3XeGnlKvYPjY2R2glRNdqP9hgpVyXV8gMmFt0Q=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Blotti au pied d'une falaise volcanique sombre sur le littoral oriental de Telde, le minuscule hameau marin de Tufia compose l'un des tableaux côtiers les plus pittoresques, secrets et authentiques de Gran Canaria. Accessible uniquement par un sentier piétonnier descendant le flanc de l'escarpement basaltique, ce village de pêcheurs hors du temps se compose d'une grappe serrée de maisonnettes blanches et bleues d'un seul niveau, dont plusieurs sont directement excavées à même le tuf volcanique de la falaise tel un habitat troglodytique maritime. Les ruelles étroites, fleuries de géraniums et animées par le séchage des filets de pêche, s'ouvrent sur une petite anse abritée de sable noir volcanique et de galets polie par les vagues limpides de l'océan Atlantique, prisée des plongeurs pour la richesse de ses fonds marins protégés.\n\nJuste au-dessus des habitations actuelles, sur le promontoire rocheux dominant la crique, s'étend le précieux gisement archéologique préhispanique de Tufia, classé Bien d'Intérêt Culturel. Cet ancien village côtier des Canarii réunit à la fois des grottes naturelles et artificielles creusées dans la roche et des maisons de surface en pierre sèche à plan circulaire extérieur et intérieur cruciforme, témoignant d'une occupation maritime millénaire fondée sur la pêche et la collecte des coquillages. Préservé de toute construction moderne grâce à son classement patrimonial et environnemental, Tufia incarne la quintessence de la mémoire littorale et troglodytique canarienne.",
+    visiter: "Descendre à pied le chemin pavé depuis le parking supérieur pour déambuler dans les ruelles minuscules du village de Tufia et admirer les maisons blanches aux volets bleu marin adossées ou creusées dans la falaise. Les visiteurs profitent ensuite de la crique paisible de sable noir avant de grimper sur le promontoire voisin pour observer les vestiges des maisons préhispaniques en pierre sèche surplombant l'océan.",
+    link: ""
+  },
+   {
     id: "tejeda_village_el_toscon_mirador",
     name: "Tejeda - Hameau d'El Toscón & Belvédère de la Caldeira (El Toscón de Tejeda)",
     country: "Espagne",
