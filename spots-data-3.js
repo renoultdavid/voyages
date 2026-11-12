@@ -7,6 +7,106 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "santa_maria_de_guia_cenobio_de_valeron",
+    name: "Santa María de Guía - Grenier Fortifié Préhispanique du Cenobio de Valerón",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Santa María de Guía de Gran Canaria",
+    altitude: 279,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Grenier Collectif Fortifié des Canarii, Plus de 350 Silos Excavés & Arche Naturelle (Xe-XVe siècle)",
+    century: "XVe siècle",
+    category: "archeologie",
+    counts: { archeologie: 1 },
+    lat: 28.13895,
+    lng: -15.60436,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP6x5W4XIyAf7nmxKWfFzgLRjOELWE2U5xOzCUa5XCXBvr6RHbC1Rqtx_FvLfS3fTVmsAiGXFYDI6FMutcUwoFwtVKKaERZplpeRS1YOhs33POC0LkMflVlFQTv9OFXbt91K4XKDs7Q60-odasvyjTqgg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP0adO0eiSboD97Rk3bWDWXSvIKRk59T_QLthgMcDXPJxl_73jJ76wra49vIe9c3cOGwIgtm2xHpccOEJLTDt5vq7HJDX5wTLDNHZmPX9UHbJgDulgkaqogg-pPz1Nik44ED8A7exRqw-RfAUzLYOyd6A=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN8bJ3_sLEHP1AedETjhrPANwFahUmxTsfHM442pjVN-QeZnEEh-d2PNq2eW4cHHNvBYIixxKk4Lzm__NUL4ZQILhvjWBx2ygzNAcjUnp2snTUYwLuiWHSk5SyQeCq2C2w8NJxBBNUbPtMzU8klk0ryYg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNVuB7TutZvyWPg2ytAwnJAgwvGs7UpIswQ2Jhvnony8qutKKLMjmf1GVimmBS2-xAyP8juk2TFmgUECuNRtTkG5jJ0LtMgabKxHRdUlDLtcSh59jS39kUFPeJLz1t3aK_McV3qNi_ylhmmdnnDn61LeA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOz_eci72yFfEEZgFzY-bBuefzEZ0cxJXZQinATqsc94trrGqYA0fX3Vp4yVQR4qWn0my5flfrHCOH0QJo1fiUmUvMWZ4OOrR8cSpA0hamNSp4ZQdFe-i4MaDeC0lI-f9aqtONNJ7Me1aZKuYfeZSA2Bw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Creusé à flanc d'escarpement vertigineux sur le versant occidental de la Cuesta de Silva, dans le nord-ouest de Gran Canaria, le Cenobio de Valerón constitue le plus vaste et le plus spectaculaire grenier collectif fortifié préhispanique de tout l'archipel canarien. Bien que son nom populaire évoque un ancien couvent (cenobio) où l'imaginaire romantique du XIXe siècle crut voir le lieu de réclusion des jeunes prêtresses aborigènes (harimaguadas), les recherches archéologiques ont démontré qu'il s'agit d'un monumental complexe communautaire de stockage agricole (agadir) aménagé par les anciens Canarii entre le Xe et le XVe siècle. Abrité sous une immense arche naturelle de basalte compact surplombant une strate tendre de tuf pyroclastique, cet édifice troglodytique compte plus de trois cent cinquante cavités, silos et chambres creusés à la main à l'aide de pics en pierre dure sur huit niveaux superposés.\n\nLes silos de formes variées — circulaires, quadrangulaires ou piriformes — étaient fermés par des dalles de pierre ajustées ou des couvercles en bois scellés à l'argile afin de préserver les récoltes d'orge, de blé, de fèves et de figues sèches contre l'humidité, les rongeurs et les raids ennemis. Reliées par d'étroites corniches, des marches taillées dans la roche et des échelles amovibles facilitant une défense aisée par un nombre réduit de gardiens, ces alvéoles alvéolaires témoignent d'une organisation sociale, économique et architecturale d'une sophistication remarquable au sein de l'ancien royaume préhispanique d'Agáldar.",
+    visiter: "Gravir l'escalier aménagé depuis l'accueil du parc archéologique pour accéder aux passerelles panoramiques longeant la grande cavité sous roche du Cenobio de Valerón. Les visiteurs observent de près l'agencement en nid d'abeilles des centaines de silos superposés, les traces d'outils préhispaniques sur les parois de tuf ainsi que la vue plongeante sur le barranco de Valerón et l'océan Atlantique.",
+    link: ""
+  },
+  {
+    id: "galdar_plaza_de_santiago",
+    name: "Gáldar - Place Historique de Saint-Jacques (Plaza de Santiago)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Gáldar",
+    altitude: 128,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Cœur Civique d'Agáldar, Allée de Lauriers des Indes Centenaires & Ensemble Monumental Classé",
+    century: "XIXe siècle",
+    category: "parc_jardin",
+    counts: {},
+    lat: 28.14507,
+    lng: -15.65537,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO1WhJ0YlKV4CuDV2ehMwT6yvx5fOBWslQE_6fEUxhgeJfuSSc9KwvryjQBsVoGrwx7XgLOHdx-Hnd2LtYVxD8sj4kQGabX9srlbRLhQA3tp3ocsaEFWGTAjQ6Cel9Jcqsj-dx-bgDSsRtX-rdTMQfccg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Déployée au cœur du centre historique de Gáldar — ancienne capitale préhispanique des rois aborigènes (guanartemes) d'Agáldar et première cité fondée après la conquête castillane de Gran Canaria —, la Plaza de Santiago constitue le salon civique, social et monumental par excellence du nord-ouest insulaire. Déclarée Ensemble Historique, cette vaste esplanade rectangulaire revêt une symbolique fondatrice exceptionnelle puisqu'elle occupe l'emplacement même de l'ancien palais et de l'espace d'assemblée (tagoror) des souverains canarii avant la pacification de 1483.\n\nL'espace central de la place se distingue par son admirable promenade ombragée (alameda) plantée au milieu du XIXe siècle d'imposants lauriers des Indes (Ficus microcarpa) centenaires aux troncs noueux et aux ramures entrelacées formant une véritable cathédrale végétale au-dessus des bancs en pierre sculptée. Ce cadre verdoyant est encadré par les monuments majeurs de la ville : à l'ouest s'élève la façade monumentale en pierre volcanique du Templo Santuario de Santiago de los Caballeros, tandis que les côtés sont bordés par l'Hôtel de Ville historique (Casas Consistoriales) abritant un dragonnier centenaire planté en 1718, l'élégant Théâtre Consistorial néoclassique et d'anciennes demeures patriciennes aux balcons en bois de pin tea.",
+    visiter: "Flâner à l'ombre de la voûte dense des lauriers des Indes centenaires de la Plaza de Santiago pour apprécier l'atmosphère paisible et seigneuriale du cœur de Gáldar. Les promeneurs admirent l'alignement des édifices historiques ceinturant l'esplanade avant de visiter le sanctuaire de Santiago et le célèbre dragonnier bicentenaire visible dans le patio de l'Hôtel de Ville.",
+    link: ""
+  },
+  {
+    id: "galdar_templo_santuario_santiago_de_los_caballeros",
+    name: "Gáldar - Temple Sanctuaire Saint-Jacques-des-Chevaliers (Templo Santuario de Santiago de los Caballeros)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Gáldar",
+    altitude: 127,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Sanctuaire Jacquaire des Canaries, Transition Baroque-Néoclassique & Pierre Grise d'Arucas (1778-1826)",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.14496,
+    lng: -15.65587,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMffe-C54u64XkLZvphd8tbmbjIlh63bgslHlyujWpAoDfJTxHBtVUqL01ZmkDcj_RpLM8UHLoSJNhcWuxBeqzQ7emoE6rFwdagSiYF1uVB3_le3Iq440pbgShgcAuPJKDoPKqYX0-KcuztcDgT5De7MQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOBC6ClPzncaeFsX2Kb9YjCV-ZAf40c9eoeko-Gc0KGR6mlDl5G2QHg2B_PbNC8FvurZ2qnZEOwa7Y99b2VeQJ9baYYgWBLpPW_u87x6B75-ZIUQU0VkDscWcE1L61OHe-aUqooeEqdnWa0TZvOG2bIng=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'architecture intérieure rompt avec le gothique tardif pour embrasser le Néoclassicisme, tout en conservant une certaine influence du baroque tardif espagnol. Les piliers que vous voyez sont de style composite, avec des cannelures verticales marquées qui accentuent la hauteur de la nef. Contrairement aux voûtes nervurées de la cathédrale, nous avons ici des voûtes en berceau avec des arcs-doubleaux, ornées de motifs décoratifs plus sobres et de rosaces en stuc.\n\nL'autel principal, mis en valeur par un grand rideau rouge sur votre photo, est le point focal d'un espace conçu pour la clarté et l'ordre symétrique. L'utilisation de la pierre grise locale pour les éléments structurels (piliers, arcs) contraste avec le blanc des murs, une caractéristique typique du néoclassicisme canarien qui cherche à donner une impression de grandeur et de sérénité."
+      }
+    ],
+    description: "Érigé sur l'emplacement symbolique de l'ancien palais des guanartemes préhispaniques au cœur de Gáldar, le Templo Santuario de Santiago de los Caballeros constitue l'un des édifices religieux les plus majestueux et historiquement significatifs des îles Canaries. Fondée dès la fin du XVe siècle sous le patronage de l'apôtre saint Jacques, l'église actuelle fut bâtie entre 1778 et 1826 selon les plans de l'architecte Diego Nicolás Eduardo et de Antonio José Eduardo, incarnant une synthèse magistrale entre la noblesse du baroque tardif et la rigueur académique du premier néoclassicisme insulaire.\n\nSa façade monumentale en pierre de taille volcanique grise extraite des carrières locales est encadrée par deux puissantes tours campaniles coiffées de dômes et rythmée par des pilastres superposés d'ordres classiques. L'intérieur déploie un vaste vaisseau lumineux à trois nefs et quinze chapelles latérales, où les hauts piliers cannelés en basalte gris portent d'amples voûtes en berceau rehaussées de rosaces en stuc blanc. Doté du privilège exceptionnel de célébrer l'Année Sainte Jacquaire par concession pontificale — faisant de Gáldar l'unique étape officielle du Chemin de Saint-Jacques hors d'Europe continentale —, le sanctuaire abrite un patrimoine artistique de premier ordre, dont des œuvres majeures du sculpteur canarien José Luján Pérez et les célèbres fonts baptismaux verts (Pila Verde) où furent baptisés les premiers aborigènes convertis de l'île.",
+    visiter: "Une halte sur la Plaza de Santiago permet de contempler la symétrie monumentale de la façade en pierre grise encadrée de ses deux tours campaniles. Les visiteurs franchissent le portail pour admirer l'ampleur des trois nefs néoclassiques, observer le maître-autel dédié à saint Jacques le Majeur, découvrir les sculptures de José Luján Pérez ainsi que les historiques fonts baptismaux en faïence verte du XVe siècle.",
+    link: ""
+  },
+   {
     id: "telde_el_bufadero_la_garita",
     name: "Telde - Geyser Marin d'El Bufadero de la Garita",
     country: "Espagne",
