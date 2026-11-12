@@ -7,6 +7,63 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "mogan_moulin_a_vent",
+    name: "Mogán - Moulin à Vent Historique (Molino de Viento de Mogán / Molino Quemado)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Mogán",
+    altitude: 219,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Patrimoine Ethnographique & Pré-Industriel, Mouture du Gofio & Architecture en Pierre Sèche (XIXe siècle)",
+    century: "XIXe siècle",
+    category: "artisanat",
+    counts: {},
+    lat: 27.87593,
+    lng: -15.72945,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPGcZC-ORht8YVGKgkgQ16Tf6ih04fU3PSL2Myt7Uq-6Z9y2Hy8ksFe3gfMceNi1B7am7zSmwcZLAi2myaBcg06qHFkpVLszHmHIlKhYauNuHzk-OwQIPcxPIHxfZMmXSnmfx_hn1I8lEPismHDuxqVxA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dressé au fond de la vallée agricole du barranco de Mogán, à mi-chemin entre le port côtier et le bourg historique de l'intérieur, le moulin à vent de Mogán — communément surnommé « Molino Quemado » (le Moulin Brûlé) à la suite d'un incendie survenu au XXe siècle — constitue l'un des témoins les plus emblématiques et attachants du patrimoine ethnographique et pré-industriel de Gran Canaria. Édifié au XIXe siècle pour capter les brises régulières remontant le couloir naturel de la vallée depuis l'océan Atlantique, cet ouvrage cylindrique trapu bâti en moellons de pierre volcanique sombre et enduit à la chaux incarne l'ingéniosité hydraulique et éolienne des communautés rurales canariennes.\n\nPendant près d'un siècle, ses grandes ailes entoilées actionnèrent de lourdes meules de basalte poreux destinées à moudre les céréales grillées — principalement l'orge, le blé et le maïs — afin de produire le gofio, cette farine torréfiée ancestrale héritée des anciens aborigènes Canarii qui demeura la base incontournable de l'alimentation quotidienne dans tout l'archipel. Restauré avec soin après avoir été délaissé face à l'essor des minoteries électriques modernes, le moulin conserve sa tourelle caractéristique, son mécanisme en bois de cœur de pin canarien (tea) et son esplanade pavée entourée de figuiers de Barbarie, de palmiers et d'agrumes, perpétuant la mémoire vivante des meuniers et des traditions agraires du sud-ouest insulaire.",
+    visiter: "Une halte en bordure de la route GC-200 reliant Puerto de Mogán au village de Mogán permet d'approcher la tour en pierre volcanique du moulin et d'observer de près la charpente de sa toiture conique et de ses ailes. Les visiteurs prennent le temps de découvrir l'esplanade aménagée autour de l'édifice et d'admirer les versants escarpés de la vallée plantés de vergers subtropicaux et d'anciennes terrasses de culture.",
+    link: ""
+  },
+  {
+    id: "san_bartolome_tirajana_mirador_degollada_cruz_grande",
+    name: "San Bartolomé de Tirajana - Col & Belvédère de la Cruz Grande (Mirador Degollada de la Cruz Grande)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "San Bartolomé de Tirajana",
+    altitude: 1251,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Col Montagnard Historique (1 251 m), Pinède de Pilancones & Panorama sur la Caldeira de Tirajana",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 27.92955,
+    lng: -15.59820,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNcLPh08U1J-relMv6WJi3mpfXBeOeP4TKw6W7K7SHgSHN29vLMOyrFASFrsx5oQ3rPUDlnLIrN9cVNSDGwMw8viHH7biuctWtkZOWELtbdfVenj2RKGXGQXzfjO9EJuSCenreqCL6Pk5jvKaE8KRWupA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPCa186q05R-2LwPVGV4sf8ONA2770oN6ei-hU3QJqsgygJDqVjN9karoDQy1efbpRmXBzKgzMLd4JF4Aet_4texvW6890NceKykWV3DKJzhXZOTiyLRVwB4pGLyHWHG3BOB0BcS4d87551dwrrTmQNFg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Culminant à mille deux cent cinquante-et-un mètres d'altitude sur la ligne de partage des eaux entre le bassin méridional de Tirajana et le cœur montagneux central de Gran Canaria, la Degollada de la Cruz Grande constitue l'un des cols routiers et pédestres les plus emblématiques et grandioses de l'île. Ce passage stratégique escarpé doit son nom à la grande croix de pierre dressée de temps immémorial au sommet du col pour guider les voyageurs et muletiers empruntant les anciens chemins royaux (caminos reales) qui reliaient les villages agricoles du sud aux sommets de Tejeda et aux marchés du nord.\n\nAménagé à la lisière du Parc naturel de Pilancones et de la Réserve de biosphère de Gran Canaria, le belvédère dévoile un panorama vertigineux sur deux mondes géologiques spectaculaires : vers le sud-est, le regard plonge dans l'immense amphithéâtre d'érosion de la caldeira de Tirajana, où se nichent les maisons blanches de Tunte entourées d'amandiers et d'oliviers au pied des murailles volcaniques stratifiées ; vers l'ouest et le nord-ouest se déploient les crêtes boisées de pins des Canaries (Pinus canariensis) dominant les lacs de retenue de Chira et de Soria ainsi que les monolithes volcaniques du cycle Roque Nublo. Carrefour privilégié des grands itinéraires de randonnée de l'île, ce balcon d'altitude baigné d'un air pur et résineux offre une lecture magistrale de la structure orographique insulaire.",
+    visiter: "Une halte sur l'aire de stationnement du col le long de la route GC-60 permet de s'avancer jusqu'à la terrasse panoramique du mirador et d'observer la grande croix de pierre marquant le passage historique. Les visiteurs contemplent la vue plongeante sur le village de San Bartolomé de Tirajana au creux de la caldeira ainsi que les forêts de pins canariens s'étendant vers les sommets centraux d'Ayacata et du Roque Nublo.",
+    link: ""
+  },
+   {
     id: "mogan_zona_arqueologica_canada_de_los_gatos",
     name: "Mogán - Site Archéologique de la Cañada de Los Gatos (Zona Arqueológica de Cañada de Los Gatos)",
     country: "Espagne",
