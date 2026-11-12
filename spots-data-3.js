@@ -7,6 +7,66 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "gran_canaria_dunes_de_maspalomas",
+    name: "San Bartolomé de Tirajana - Réserve Naturelle des Dunes de Maspalomas (Dunas de Maspalomas)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "San Bartolomé de Tirajana",
+    altitude: 15,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Système Dunaire Littoral, Lagune Saumâtre de La Charca & Palmeraie Historique des Canaries",
+    century: "Temps géologique",
+    category: "nature",
+    counts: {},
+    lat: 27.73975,
+    lng: -15.57676,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMYjYw29XsTbhTYQ4C9UvLlJfMosJ1328dXFKp3HXlz_wNiMlHdzsK9IfoqK-Iy6eoQXVlBwxaiDROmf3Zog9-c7kxrhwNm64XRHGXBN01vOLlowWUU2tMlHaxsdU61dZL6tahplLcaZcTp4cVjCXpuJQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Déployée sur plus de quatre cents hectares à l'extrémité méridionale de l'île de Gran Canaria, la Réserve naturelle spéciale des Dunes de Maspalomas compose un écosystème littoral unique en Europe et en Macaronésie, où un véritable désert de sable doré vient plonger directement dans les eaux azuréennes de l'océan Atlantique. Contrairement à une légende tenace attribuant son origine aux tempêtes de sable du Sahara voisin, cet édifice éolien massif s'est constitué au fil des millénaires par l'accumulation de sables bioclastiques et calcaires d'origine marine : pulvérisés par le ressac sur les plates-formes côtières lors des variations glaciaires du niveau marin, les débris de coquillages et de coraux ont été repris par les vents alizés dominants pour édifier des cordons successifs de dunes mobiles en croissant (barkhanes) et de dunes transversales culminant jusqu'à vingt mètres de hauteur.\n\nCet espace naturel protégé associe trois milieux écologiques étroitement interdépendants d'une richesse biologique exceptionnelle : les vastes étendues de dunes vives mouvantes, une oasis verdoyante de palmiers des Canaries (Phoenix canariensis) et la lagune côtière d'eau saumâtre de La Charca, alimentée par les résurgences souterraines du barranco de Fataga et les infiltrations des marées. Véritable escale stratégique sur la grande voie de migration aviaire de l'Atlantique Est entre l'Europe et l'Afrique, cette zone humide abrite une avifaune aquatique remarquable tandis que les dépressions interdunaires abritent une flore halophile endémique et des reptiles insulaires comme le lézard géant de Gran Canaria (Gallotia stehlini). Point d'aiguade historique fréquenté dès les XVe et XVIe siècles par les caravelles de Christophe Colomb et les expéditions maritimes avant la grande traversée océanique, Maspalomas incarne la rencontre souveraine entre la dynamique géomorphologique des sables et la mémoire des grandes navigations atlantiques.",
+    intro_page: "Étendue sur plus de quatre cents hectares à la pointe sud de Gran Canaria, la Réserve naturelle spéciale des Dunes de Maspalomas offre le spectacle saisissant d'un désert doré bordé par les eaux turquoise de l'océan Atlantique. Sculpté en permanence par les alizés, ce massif de sable d'origine marine alterne crêtes mouvantes de barkhanes et dépressions humides colonisées par une flore psammophile endémique. À son extrémité occidentale, l'aridité minérale cède brusquement la place à la lagune saumâtre de La Charca et à une palmeraie historique de palmiers canariens, sanctuaire vital pour les oiseaux migrateurs et ancienne escale d'eau douce des navigateurs de la Renaissance.",
+    visiter: "S'élancer à pied depuis le belvédère d'accès de Playa del Inglés pour traverser les crêtes ondoyantes des dunes mobiles en suivant les jalons balisés de protection environnementale. Les promeneurs descendent ensuite vers le rivage rectiligne de la Playa de Maspalomas pour longer l'océan jusqu'au phare historique, avant de contourner la lagune de La Charca et sa palmeraie pour observer les aigrettes, échasses blanches et hérons évoluant dans les roselières.",
+    link: "",
+    sections: [
+      {
+        title: "Traversée des dunes mobiles et architecture éolienne des barkhanes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMYjYw29XsTbhTYQ4C9UvLlJfMosJ1328dXFKp3HXlz_wNiMlHdzsK9IfoqK-Iy6eoQXVlBwxaiDROmf3Zog9-c7kxrhwNm64XRHGXBN01vOLlowWUU2tMlHaxsdU61dZL6tahplLcaZcTp4cVjCXpuJQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOIVh_F0bC2CtsLeU2kP1jq47sqMZdke5X5TyMWinmZ6Iui3-nRWWr1wafRxwKmesjNhjnhfr7_b7DrC876InTu0z_h9qAeVRRi6Nk7mmDktrZQlgtbu9oac1t3AUa_dMu4E1YwA3B0aUSZE974IuhbiQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La traversée du massif dunaire depuis sa bordure orientale, au contact de la Plage Anglaise, révèle un paysage saharien en perpétuelle métamorphose où les crêtes de sable vif sculptées par le vent atteignent entre dix et vingt mètres de hauteur. Le champ dunaire s'organise en plusieurs cordons successifs de dunes mobiles en croissant (barkhanes) et de dunes transversales qui migrent lentement d'est en ouest au rythme des rafales."
+      },
+      {
+        title: "Dépressions interdunaires (hoyas) et flore psammophile endémique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOCj5Yq61cAFXJxBf0BdFlfCXaHpyNysLt_ogNOxUQaiQB4JyfJvzD6oqpkVW9ZF7Tp5CqBT_sWJyrL8D5KZBWDxf5tXj8E2Jyp-tMJk6xStiaClh-oZ1r7XbDhUjITkq8gXRJLnaE3InkmD0lA-OjC7A=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPVkinCkempsa0M3ATD66ZhppAi_OtTjut_-qJQtWaYBTaqSwdYcmKJBgNRhbvla5LDxG6pupGuGoulM8G_ETt9-b_T0nPPWJsa8YcmO_0q5Vq1IQ1VqT4ZdV-xsDQq81nOzwaftVEQRtDRFcvx9MYEdw=w1225-h919-s-no-gm?authuser=0"
+        ],
+        text: "Entre ces vagues minérales dorées se creusent des dépressions interdunaires planes (hoyas) où l'affleurement de l'humidité souterraine permet l'installation d'une flore psammophile et halophile hautement spécialisée. On y observe notamment le balancón (Traganum moquinii), arbuste endémique de Macaronésie capable de piéger les grains de sable transportés par le vent pour édifier de petits monticules végétalisés (nebkhas), accompagné du souchet des sables (Cyperus capitatus) et du jonc piquant (Juncus acutus), qui jouent un rôle décisif dans la rétention du substrat."
+      },
+      {
+        title: "Interface océanique de la Playa de Maspalomas et faune terrestre adaptée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPzw7rKE7TWYq2YHZohlfLzaN1uH7aoJfU3Lr7EC_KxPqkep8lzprlYE8zHrTxNr5YoA1CvhLYITiDoV6lXNW08pXffjLgwrCematpHU0ORpifntYrVBrSjLfYoT8CudCxxy65-MyI1azKvR4ywsL8a2g=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPozRPUmqX64D4KOhP8CXCE-lYzKMdqw_NanOesLYhHiIQh8kNNFKwHR80mddaqyTUvk2wK914k4C8BPf5PW9fsGljo_VXzypt_RQusesOraN0G6RbjLVVPa-wow3MQPgY4w38UjGoeLUzhrYogDzjo-A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Sur son flanc méridional, l'édifice éolien vient mourir directement dans les eaux turquoise de l'océan Atlantique le long de la vaste Playa de Maspalomas, ruban littoral rectiligne de près de trois kilomètres de long exposé aux courants côtiers et à la houle du sud. Cette interface dynamique assure l'alimentation constante de la pointe de Maspalomas en sédiments frais, maintenant l'équilibre fragile d'un écosystème soumis à une aridité extrême et à un ensoleillement quasi permanent. Sous les buissons épineux de la frange dunaire et dans les zones de sable stabilisé évolue une faune terrestre discrète parfaitement adaptée à la chaleur, dominée par le grand lézard endémique de Gran Canaria (Gallotia stehlini), le scinque de Gran Canaria (Chalcides sexlineatus) et de nombreux coléoptères tenebrionidés sabulicoles."
+      },
+      {
+        title: "Oasis de La Charca, palmeraie canarienne et halte migratoire historique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNUaHgGdn-dxFO5XZ6paEFeZlxCNFKBwH6gD97HxdkycAyiYcVy9qNOhqAc0MXFb0Bn7hR2ZyA6GII7N4U5tLMg2-jEPfCX5ttGJNQUXtJiIX-zNMqy3zIhT4zptqnem0t_6u4T5fRnxiXOUcJxB8Qkng=w1382-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPzw7rKE7TWYq2YHZohlfLzaN1uH7aoJfU3Lr7EC_KxPqkep8lzprlYE8zHrTxNr5YoA1CvhLYITiDoV6lXNW08pXffjLgwrCematpHU0ORpifntYrVBrSjLfYoT8CudCxxy65-MyI1azKvR4ywsL8a2g=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "À l'extrémité occidentale de la réserve, le désert minéral cède brusquement la place à un oasis verdoyant articulé autour de La Charca et d'une palmeraie historique de palmiers dattiers des Canaries (Phoenix canariensis). Cette lagune côtière d'eau saumâtre, alimentée à la fois par les résurgences d'eau douce du Barranco de Fataga et par les infiltrations marines lors des grandes marées, constitue l'une des zones humides les plus précieuses des Canaries. Véritable halte vitale sur la voie de migration de l'Atlantique Est entre l'Europe et l'Afrique subsaharienne, ce plan d'eau bordé de roselières sert de refuge et d'aire de nourrissage à une riche avifaune aquatique comprenant aigrettes garzettes, hérons cendrés, échasses blanches, chevaliers, bécasseaux et sternes, perpétuant l'attrait de ce point d'eau naturel où les navigateurs des XVe et XVIe siècles venaient déjà faire aiguade avant d'entreprendre la traversée océanique vers les Amériques."
+      }
+    ]
+  },
+   {
     id: "aguimes_barranco_de_las_vacas",
     name: "Agüimes - Canyon de Tuf Volcanique du Barranco de Las Vacas (Tobas de Colores)",
     country: "Espagne",
