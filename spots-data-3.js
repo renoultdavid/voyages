@@ -7,6 +7,236 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "mogan_zona_arqueologica_canada_de_los_gatos",
+    name: "Mogán - Site Archéologique de la Cañada de Los Gatos (Zona Arqueológica de Cañada de Los Gatos)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Mogán",
+    altitude: 28,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Village Côtier Préhispanique des Canarii, Maisons en Pierre Sèche & Nécropole à Tumulus (Ve-XVe siècle)",
+    century: "XVe siècle",
+    category: "archeologie",
+    counts: { archeologie: 1 },
+    lat: 27.81828,
+    lng: -15.76050,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPrISJO2dtCm18eL6j_LIhrZ5Iah5wTae_wepTOmgtnzxMSYZhNOTyTT6Elz6DjjKfLX1M3uySoyv3zOyRxfHoKjajB3GITbFCE__zrvkGRgz1DqqH9ICTYbBeJiVkbhIPXc4tMKi7vb3yUt_BDjPhaFA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPPaxABfw7i-8iOhnkKzGKO1xbuFz3D5s4I9xWdUEROEuIwdKefgvSgbPnnO3MKzDBADBEswP6upiVXz75dmAlTgRyNGFk3PD8-Ubgg-S-j_gQzWMdbCiDnG5eJaCW4xlQnNB53DxfUK606CtVKqKGV0Q=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMmLEpWWB1nie3nO9p4cL1pPCNyq-wYGF6CRQmsOVMa0AwaGZsPVLfwiS5KgWa0AT__CbSegCN03xVlAzHgSMSpu_OzGBxrKvhinBJqajP_QSYgULRGtk_pCT1LL1KVvLXrSG9D4rEejT-7ZWOc8SDu_g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNNwMMq1VpVz46f6UvrS1nnnvAja9zN4Grsxp7hvWWHZmVIUwo7UhRtBCi-BU36t8r7X3hL8zUXlx9Y1HeCeg9YRv4OZ113m4SCyLMTUZr46Td-e129FGj2MM-W7FMFSYL4YXxZaCZB8tZvvEPLWvCezg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO5JxjL03xOfkHxBC8xk2Xx79qLD3cqBDKt7rjTUvOLaohVBEB8wA8338x27gAHms1qm8EH3W_zCvBkgv1dtGrIFqmbDJXcTOAvGd3dqQHzHC7S416EBOKrY7_-oAPOp8LfEeglrs-jp2R6QzzBUNZCkA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Implanté sur le versant oriental escarpé de l'embouchure du barranco de Mogán, à quelques dizaines de mètres au-dessus des flots de l'océan Atlantique, le site archéologique de la Cañada de Los Gatos constitue l'un des témoignages les plus remarquables et complets de l'habitat côtier préhispanique de l'île de Gran Canaria. Occupé de manière continue pendant plus d'un millénaire, depuis le Ve siècle jusqu'à la conquête castillane de la fin du XVe siècle, cet établissement humain stratégique tirait parti de la confluence exceptionnelle entre les ressources halieutiques d'une baie abritée et les eaux douces permanentes du torrent descendu des sommets centraux. Déclaré Bien d'Intérêt Culturel, le gisement conserve les vestiges parfaitement lisibles d'une vingtaine d'habitations de surface édifiées en blocs de pierre volcanique montés à sec, présentant la typologie caractéristique de l'architecture domestique des anciens Canarii : un plan extérieur circulaire ou ovale dissimulant un espace intérieur cruciforme composé d'une pièce centrale et d'alcôves latérales recouvertes jadis de charpentes en bois et de terre battue.\n\nOutre ce noyau résidentiel ordonné autour d'allées de circulation, le complexe archéologique intègre plusieurs espaces funéraires monumentaux d'un grand intérêt scientifique, comprenant des tombes en ciste et d'imposants tumulus en pierre sèche (túmulos) abritant des sépultures individuelles et collectives orientées vers la mer. L'aménagement de passerelles surélevées et d'un belvédère sommital permet d'appréhender l'organisation spatiale rigoureuse de cette communauté maritime aborigène, tout en offrant une vue plongeante saisissante sur la marina colorée de Puerto de Mogán et l'horizon océanique.",
+    visiter: "Parcourir les passerelles aménagées au cœur du site archéologique pour observer de près le plan cruciforme des anciennes demeures préhispaniques en pierre sèche et les structures funéraires à tumulus. Les visiteurs gravissent ensuite le sentier jusqu'au belvédère supérieur dominant le gisement pour profiter d'un panorama complet sur l'embouchure du barranco, la plage et le port de Mogán.",
+    link: ""
+  },
+  {
+    id: "mogan_mirador_de_veneguera",
+    name: "Mogán - Belvédère de Veneguera (Mirador de Veneguera)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Mogán",
+    altitude: 432,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Balcon sur le Barranco de Veneguera, Montagnes Multicolores & Réserve de Biosphère",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 27.89652,
+    lng: -15.72221,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPUY69cVk2T7Uz9Fqbktv_W358ZhH9XpeZ3Ad3oFARlnawieoJX9xd6rLlmccRTojj9f_crJIFYRjqanvVvW52i6z1qg9KIIzXD-5V-ulGgmfzkNpONiOjrINbwqx9zt4-5ewbgi3-Jc9MI5J4E-eenkg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Perché à plus de quatre cent trente mètres d'altitude le long de la route panoramique GC-200 reliant Mogán à La Aldea de San Nicolás, le mirador de Veneguera dévoile l'un des paysages les plus sauvages, intacts et grandioses du sud-ouest de Gran Canaria. Ce promontoire rocheux domine la profonde vallée fluviale du barranco de Veneguera, gigantesque couloir d'érosion encadré par des murailles volcaniques escarpées appartenant au cycle magmatique ancien du bouclier miocène de l'île. Le regard embrasse l'intégralité de ce vallon préservé de toute urbanisation touristique de masse, où de modestes hameaux agricoles blanchis à la chaux se nichent au milieu de vergers de manguiers, d'avocatiers, de bananeraies et de bosquets de palmiers des Canaries (Phoenix canariensis) s'étirant jusqu'à la plage sauvage éponyme ouverte sur l'océan Atlantique.\n\nIntégré au périmètre de la Réserve de biosphère de Gran Canaria et du Parc rural del Nublo, le belvédère offre une lecture géologique remarquable sur les versants multicolores de la Montaña de los Azulejos et sur la succession des coulées basaltiques, phonolitiques et ignimbritiques sculptées par des millions d'années d'érosion torrentielle. Baigné par la lumière dorée du versant sous le vent et habité par une flore xérophile endémique dominée par les cardons (Euphorbia canariensis) et les tabaibas, ce balcon naturel incarne la quintessence de la Gran Canaria rurale et minérale.",
+    visiter: "Une halte sur l'esplanade aménagée en bordure de la route GC-200 permet d'accéder à la terrasse panoramique pour contempler l'ampleur du barranco de Veneguera descendant vers l'océan Atlantique. Les visiteurs observent le contraste saisissant entre le ruban verdoyant des cultures tropicales au fond du ravin et l'aridité sculpturale des crêtes volcaniques miocènes environnantes.",
+    link: ""
+  },
+  {
+    id: "mogan_los_azulejos_de_veneguera",
+    name: "Mogán - Formation Géologique de Los Azulejos de Veneguera (Fuente de los Azulejos)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Mogán",
+    altitude: 471,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Murailles d'Ignimbrites Polychromes, Altération Hydrothermale & Curiosité Minérale Miocène",
+    century: "Temps géologique",
+    category: "nature",
+    counts: {},
+    lat: 27.92176,
+    lng: -15.72565,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNnZmQd7LWmmB6k3RoQ2CqYDLKwWAmacGV835UTQ4Hb_2gytWJOKXk5Ppa2Ky_JMpruMt7WBRTNUUsIMkLfCN1b-LnPATi1n0wrfGgKCeS9JByyuaeFma8TnGMSP7EFNgD5l9B5WZjSV8FDBsTTAFtVhQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO6jAV8cH-ybXWp_t1T5NNPR5_gEUVrAtlNG5pkP1jnMVCJvGPTYsUGdHp2q6-T210l5SVueO6UVpvbKa6dYy0nFriR-R5n4KkPJRNaaw3J6sJJkJTApdDxKjaaPZfAUCWeXzvDKpy-rxBC3FoTtuR1dw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPYmWTznDi8a6ywdED_bj-QQ5qmNhxRkkq5vtGMhHH9f7z0X2HF5-Ae9msLM11KyaS8CeGec00U46kO_d7x_bZRhD_QLTFwjN7nkVKbL3Auye4thTvgIna552nOuDtu5UkS4kwhdNg7Kp5cr3YPxiF3-Q=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN9yTii8V2UY_0nPoxf1ZSbjribE3xn8jotngKQmQr-gH5fa0TQWWGHyQBriugU9Xyy6unI0TpOafsBFbWBJqA62YPlw1x2W5Kx-MGGqenrrCd_kWraiXavRa9Czc30sckNz6z5e1lR7o_BOuCFzefzqg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressée en bordure immédiate de la route de montagne GC-200 entre Mogán et La Aldea de San Nicolás, la formation rocheuse de Los Azulejos de Veneguera constitue l'une des merveilles minéralogiques et géologiques les plus extraordinaires de tout l'archipel des Canaries. Ces escarpements vertigineux doivent leur surnom évocateur d'« azulejos » (carreaux de faïence émaillée) à l'incroyable palette de couleurs vives qui strie la falaise en bandes horizontales et obliques superposées, déclinant des nuances intenses de vert émeraude, de bleu turquoise, de jaune soufre, d'ocre doré et de rouge pourpre.\n\nCe phénomène chromatique spectaculaire résulte d'un processus d'altération hydrothermale intense survenu il y a environ quatorze millions d'années, lors de la phase volcanique d'effondrement de la caldeira de Tejeda au Miocène. Des fluides magmatiques surchauffés et riches en gaz acides et en silice ont alors circulé à travers les fractures des épaisses couches d'ignimbrites, de tufs trachytiques et de basaltes, provoquant la néoformation de minéraux argileux et de silicates hydratés spécifiques — tels que la céladonite et la chlorite pour les teintes vert bleuté, ou les oxydes et hydroxydes de fer pour les strates rouges et jaunes. Mis au jour par l'érosion torrentielle du barranco et le percement de la voie routière, cet amphithéâtre minéral bariolé offre un spectacle visuel saisissant sous le soleil canarien.",
+    visiter: "Une halte au pied de la paroi rocheuse le long de la route GC-200 permet d'observer de près la stratification multicolore des roches volcaniques altérées et de détailler le contraste entre les bandes vert turquoise et les niveaux ocres et rougeâtres. Les visiteurs admirent également le panorama environnant sur les reliefs escarpés de la réserve naturelle d'Inagua qui dominent ce col sauvage.",
+    link: ""
+  },
+  {
+    id: "la_aldea_charco_de_la_aldea",
+    name: "La Aldea de San Nicolás - Lagune Côtière d'El Charco (El Charco de La Aldea)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "La Aldea de San Nicolás",
+    altitude: 1,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Lagune Littorale d'Eau Saumâtre, Sanctuaire Ornithologique & Tradition Aborigène de l'Embarbascada",
+    century: "Temps géologique",
+    category: "nature",
+    counts: {},
+    lat: 28.00219,
+    lng: -15.81793,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMu8MNacnLwHNxbHRdOMTNiq12i-sWTZliHco_umjklhBGpcOqxKxXAIr2XUAQ1wKFCaK1Nyv7TjT33nuwvjTjkysXfnhF2RIihtBiyhMcAiHe2iTtTwmOmy8riYBbxBjWpHtNof4heO25Jye0x24Xt1Q=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Situé à quelques mètres seulement de la plage de galets de La Aldea de San Nicolás, sur la côte occidentale reculée de Gran Canaria, El Charco constitue une lagune côtière naturelle d'eau saumâtre d'une valeur écologique, ethnographique et historique exceptionnelle. Alimenté par les infiltrations souterraines d'eau douce provenant du vaste bassin versant du barranco de La Aldea ainsi que par les submersions marines lors des grandes marées d'équinoxe, ce plan d'eau bordé de joncs, de tamaris et de palmiers des Canaries forme une oasis humide précieuse au cœur d'un littoral aride. Il sert de halte migratoire et de zone de nidification vitale pour de nombreux oiseaux aquatiques et limicoles tels que la poule d'eau, l'aigrette garzette, le héron cendré et le petit gravelot.\n\nDans le patrimoine immatériel canarien, El Charco est mondialement célèbre pour être le théâtre chaque 11 septembre de la spectaculaire « Fiesta del Charco », déclarée Bien d'Intérêt Culturel. Cette célébration ancestrale perpétue directement la technique de pêche préhispanique aborigène de l'« embarbascada » : les anciens Canarii versaient la sève laiteuse toxique des euphorbes locales (cardón et tabaiba) dans les eaux fermées de la lagune pour étourdir temporairement les poissons (lisas) et les capturer à mains nues. Aujourd'hui encore, au signal d'une fusée tirée à dix-sept heures précises, des milliers de participants vêtus de tenues traditionnelles s'élancent simultanément dans le bassin au milieu d'une effervescence populaire unique dans l'archipel.",
+    visiter: "Une promenade paisible le long des berges aménagées d'El Charco permet d'observer le calme du plan d'eau saumâtre reflétant les falaises basaltiques monumentales qui encadrent la baie de La Aldea. Les visiteurs profitent des cheminements piétonniers reliant la lagune à la plage de galets volcaniques et au petit port de pêche voisin, tout en observant les oiseaux aquatiques évoluant au bord des roselières.",
+    link: ""
+  },
+  {
+    id: "la_aldea_centro_interpretacion_los_caserones",
+    name: "La Aldea de San Nicolás - Centre d'Interprétation Los Caserones (Centro de Interpretación Los Caserones)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "La Aldea de San Nicolás",
+    altitude: 2,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Espace Muséographique Archéologique, Mémoire des Canarii & Valorisation de l'Habitat Côtier",
+    century: "XXIe siècle",
+    category: "musee",
+    counts: {},
+    lat: 28.00386,
+    lng: -15.81685,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNEbnTJ7a3GLvdwFCk8jLz4At4u6AlgOKknOKqJczP1pGuyeIX3Bp70ghr3-023T8RzHLx2y7tW0gHJTkg0avm6jdoYZp-dsJnVSgn70zmL1S3vN6PAMjG6mcDWmnjDpECHNVENynmVv2edu4HI3P8AYg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Implanté au pied même du gisement archéologique de Lomo de Caserones, à proximité immédiate du littoral de La Aldea de San Nicolás, le Centre d'Interprétation Los Caserones constitue un espace muséographique moderne dédié à la découverte et à la compréhension de l'un des plus vastes complexes d'habitat aborigène de Gran Canaria. Conçu pour offrir aux visiteurs les clés de lecture indispensables avant de parcourir les vestiges en plein air, le bâtiment présente une scénographie didactique claire qui retrace l'organisation sociale, économique et spirituelle de l'ancienne communauté préhispanique établie à l'embouchure de la vallée.\n\nÀ travers des maquettes topographiques détaillées, des panneaux graphiques, des reconstitutions architecturales et des supports audiovisuels, l'exposition met en lumière l'adaptation remarquable des anciens Canarii à cet environnement côtier stratégique. Elle dévoile leurs techniques de construction en pierre sèche, leurs pratiques agricoles irriguées dans la plaine alluviale, l'exploitation des ressources marines et les rituels funéraires associés aux grands tumulus de pierre volcanique. Ce pôle culturel assure ainsi le trait d'union vivant entre la recherche archéologique contemporaine et la préservation du patrimoine identitaire de l'extrême ouest de l'île.",
+    visiter: "Débuter la découverte du secteur archéologique par une visite du centre d'interprétation pour consulter les maquettes reconstituant l'étendue originelle du village préhispanique de Los Caserones et comprendre les coutumes des anciens habitants de La Aldea, avant d'emprunter le sentier d'accès grimpant vers les vestiges dégagés sur le promontoire voisin.",
+    link: ""
+  },
+  {
+    id: "la_aldea_yacimiento_lomo_de_caserones",
+    name: "La Aldea de San Nicolás - Site Archéologique de Lomo de Caserones (Yacimiento Arqueológico Lomo de Caserones)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "La Aldea de San Nicolás",
+    altitude: 32,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Grand Village Côtier Préhispanique des Canarii, Maisons Cruciformes & Nécropole Monumentale (XIe-XVe siècle)",
+    century: "XVe siècle",
+    category: "archeologie",
+    counts: { archeologie: 1 },
+    lat: 28.00500,
+    lng: -15.81522,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNS60k-my9wibo9UVPpdcBNF8iH5we6Hq5Pnh-5S44eYSLpItAW269aIusMOwztaXu-69dGD7JXBplBTJjaPRh0naDcRBe2xBi-OK_XBh-gj2nc8WplrfGeJ7gCvKOaiSbGrLd-tSQGSWwoXk_MLnpHzg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOTv5paOD6KNz1qyX7v05_nyFJDNmtlDieH1-nzBUpxjsnDwmr_iPVspsxCaBQM7Kj4D9muBqAHF9_iCswpvtceK6IqvM1heAyLT4YwvUR9h6nc3Jv_wTgnujICOHfuRWYIHCtBckSzNkI7lPmg-_3WKg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dominant l'embouchure maritime du barranco de La Aldea depuis un promontoire rocheux stratégique sur le versant occidental de Gran Canaria, le site archéologique de Lomo de Caserones représente les vestiges de l'un des plus grands établissements côtiers préhispaniques de tout l'archipel canarien. Bien que la mise en culture intensive de la plaine alluviale aux XIXe et XXe siècles ait détruit une grande partie de l'agglomération originelle qui comptait autrefois plusieurs centaines de structures, les fouilles archéologiques et la protection du secteur ont permis de sauvegarder un ensemble monumental d'une valeur patrimoniale inestimable, classé Bien d'Intérêt Culturel.\n\nLe gisement expose des dizaines d'habitations construites en pierre sèche basaltique selon le plan typique des grands villages canarii : de puissants murs curvilignes ou quadrangulaires épais délimitent des pièces intérieures cruciformes soigneusement pavées et dotées de banquettes et de niches murales. À cet espace domestique s'associe une vaste nécropole préhispanique comptant d'imposants tumulus funéraires en pierre volcanique, dont certains monuments collectifs atteignant plus de dix mètres de diamètre abritaient des dizaines de sépultures accompagnées d'offrandes céramiques et d'objets en os. Offrant un panorama dégagé sur la lagune d'El Charco, la plage et les falaises vertigineuses de la côte ouest, Lomo de Caserones témoigne avec force de la maîtrise territoriale et architecturale des anciens peuples insulaires.",
+    visiter: "Gravir le cheminement balisé depuis le centre d'interprétation pour parcourir les allées du gisement archéologique de Lomo de Caserones et observer l'appareillage remarquable des maisons en pierre sèche et des grands tumulus funéraires. Les visiteurs profitent également de la position surélevée du promontoire pour contempler une vue d'ensemble sur l'embouchure de la vallée de La Aldea et l'océan Atlantique.",
+    link: ""
+  },
+  {
+    id: "la_aldea_mirador_del_balcon",
+    name: "La Aldea de San Nicolás - Belvédère du Balcon & Queue du Dragon (Mirador del Balcón)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "La Aldea de San Nicolás",
+    altitude: 350,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Falaises Littorales de Tamadaba, Échine Basaltique de la Cola de Dragón & Océan Atlantique",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 28.01929,
+    lng: -15.78521,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMaL1mExxC9uQ5oCPfurMRTI4OprmjCGWDr6stPDAq4SxyPS54cWJEJmqH85ssMJkYbwU7tIn5Ob9hzTa2bJDLmMrfgyXMVTuk9d7PMEj7U_eWG-kARHU8UmDslzLDvWJNpisXSKJ4acs_4VPuN3Jxegg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPotJox5-VLU4oTBrnC5TL-cMIr28KNUwCaykTf1yxlm74HTW4XPM21vNvIiUi0NUESCcVvenxIQxvnjHyNhRTG1kwgW03QZPsUlvhuT0nkulHJo2xjAN-8_5yHOnL5Jtz6fnsHcCYnyhYsGJY6dUYtdA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOLhvMleqvJFzWFkI6yeIHt-kcRCvXgSiYTfQTnv2_ECoKlEgemKqSxhoILxGAUQVm7aNEUUL5Ju8akNO0la0WF8U2r_n1wCqBPMdcVHA2juDx_06i3uJUVh08uwF4aKVxFe0fZm1bBudNSh9p25mR1xw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOJjjKNJkOg3DKeBUWX8ajvU8SrjIlR1qQo_aG0NxEv5c3R6k19NGdNfp5ZkEKpngudIPk6LYDYGIf6_sYHuRG6-WLSeaiNzf737AQuE28akMzZISnBlVAqRo_fpIHQvExPZXb83-vHl49X8dUSLrZDaw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Suspendu à trois cent cinquante mètres au-dessus des flots tumultueux de l'océan Atlantique, à l'extrémité occidentale sauvage de Gran Canaria au sein du Parc naturel de Tamadaba, le mirador del Balcón offre l'un des panoramas côtiers les plus vertigineux et spectaculaires de tout l'archipel canarien. Aménagée sur une plateforme vitrée avancée en encorbellement au sommet d'une falaise basaltique subverticale, cette terrasse aérienne procure la sensation saisissante de flotter dans le vide entre ciel et mer.\n\nLe regard embrasse vers le nord-est l'enfilade titanesque des falaises maritimes les plus abruptes de l'île, dont les crêtes dentelées et successives plongent à pic dans l'azur profond de l'océan selon une ligne brisée évoquant irrésistiblement la silhouette dorsale d'un reptile géant — formation géomorphologique mondialement célèbre sous le nom de « Cola de Dragón » (la Queue du Dragon). Sculptées dans les empilements de coulées basaltiques du bouclier volcanique miocène de Gran Canaria, âgé de plus de quatorze millions d'années, ces murailles cyclopéennes témoignent de la puissance colossale de l'érosion marine atlantique. Vers le sud, la vue plonge sur la vallée agricole de La Aldea et ses serres blanches scintillantes, tandis qu'à l'horizon occidental émerge par temps limpide la silhouette majestueuse du pic du Teide sur l'île voisine de Tenerife.",
+    visiter: "S'avancer jusqu'à la rambarde vitrée de la plateforme en encorbellement du Mirador del Balcón pour éprouver le vertige de l'à-pic au-dessus de l'océan Atlantique et admirer l'alignement spectaculaire des falaises de la « Queue du Dragon ». Les visiteurs profitent également de la vue plongeante sur la plaine de La Aldea de San Nicolás et scrutent l'horizon marin en direction de l'île de Tenerife.",
+    link: ""
+  },
+   {
     id: "gran_canaria_puerto_de_mogan",
     name: "Mogán - Port de Plaisance & Village des Pêcheurs (Puerto de Mogán)",
     country: "Espagne",
