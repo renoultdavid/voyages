@@ -7,6 +7,144 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "tejeda_village_el_toscon_mirador",
+    name: "Tejeda - Hameau d'El Toscón & Belvédère de la Caldeira (El Toscón de Tejeda)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Tejeda",
+    altitude: 1077,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Hameau Rural Montagnard, Architecture Traditionnelle en Pierre Sèche & Panorama sur le Roque Bentayga",
+    century: "XVIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 27.96878,
+    lng: -15.66576,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMEtUN-g0_QCsbMJ_lmFHgfheZv_71SI0B04lmBBXa9n5kKVjcDMeF37FT78Bf4K6kpui65TJxlL3nmXrnYquoPiBuL0xcLB4rK6Mg6RPExI1Q4FN3qCZo8KL9H4Aw9P7yDcYw3B8329R8BX-MVdZQI9g=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNWZgC11nWhMoC-shoMMmtFS6qUAYizrxWsxnBNmbPPXahG22nAPRYM7iTbuoQbhkP6p4_XKirGgleItLSY7ozLGG-o1qzkrUza6_x8D9_QESkEjgxFYVxSSEnWzm1Ng6C_5oPst_RpNhWkJawOB8at6Q=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczONtCgADuexOwSWAsBp9EH2hRQ-LOA8JgLnPliRxUgR6w8N1cn9Bka06ywdaaSV5Umzp0M3G0m4WfJ7dEag0Nluo6o9McZvDz3jC8byWhbshP2W9J00Nxi9OcbUiGkh3KYYTMhTXRoMHlpG-P6_HF5lAg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOWsNR8Co0DCKC72r20YXELXtlJZgGejPKc6qQ7S8wN8HOKa1HczWXhryh6ubMUTPbWaWeEimVaU7O1ra6nN7qLcHTXPU2c61CI7YQAQGWEU2trX2rXd3DDOwtHX6OPyqQjdThPYsLG_webt2lnEWRWog=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Accroché à plus de mille mètres d'altitude sur les versants occidentaux de l'immense caldeira d'érosion de Tejeda, au cœur de la Réserve de biosphère de Gran Canaria, le petit hameau agricole d'El Toscón incarne avec une authenticité préservée la vie rurale traditionnelle des hautes terres insulaires. Le village tire son toponyme évocateur de « tosca », nom local donné aux roches de tuf volcanique tendre et poreux dans lesquelles les habitants taillèrent jadis des abris troglodytiques, des caves et des dépendances agricoles. Ses modestes demeures paysannes, édifiées en blocs de pierre volcanique apparente ou enduites à la chaux blanche et coiffées de toitures à deux pans en tuiles canal, s'étagent paisiblement au milieu d'anciens murets de pierre sèche délimitant des terrasses plantées d'amandiers, d'arbres fruitiers et de cultures vivrières adaptées au climat montagnard.\n\nAménagé à l'orée du hameau en bordure de la route sinueuse GC-606, le belvédère d'El Toscón offre l'un des panoramas les plus grandioses et complets sur l'amphithéâtre géologique central de Gran Canaria. Depuis ce balcon naturel baigné d'un air pur, le regard embrasse l'intégralité de la dépression monumentale de Tejeda, hérissée au centre par la silhouette sacrée du Roque Bentayga et dominée sur sa crête orientale par le monolithe emblématique du Roque Nublo, tandis que les parois vertigineuses de la Mesa de Acusa ferment l'horizon occidental au-dessus des ravins profonds.",
+    visiter: "Une halte au belvédère aménagé à l'entrée d'El Toscón permet de contempler la vue panoramique circulaire embrassant le Roque Bentayga, le Roque Nublo et le village blanc de Tejeda niché à flanc de montagne. Les visiteurs parcourent ensuite à pied l'unique ruelle calme du hameau pour admirer les maisons traditionnelles en pierre volcanique, les anciens greniers et les vergers d'amandiers qui s'embrasent de fleurs blanches et rosées à la fin de l'hiver.",
+    link: ""
+  },
+  {
+    id: "fataga_eglise_san_jose",
+    name: "San Bartolomé de Tirajana - Église Saint-Joseph de Fataga (Iglesia de San José)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "San Bartolomé de Tirajana",
+    altitude: 610,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Sanctuaire Paroissial Rural, Architecture Traditionnelle Canarienne & Clocher en Pierre (1880)",
+    century: "XIXe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 27.88769,
+    lng: -15.56393,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN9wvFIzbLdW4VAmPy_8BF80KSe6_XZizhiKVHjx8_wQfrv6cn-foxMc92KMpm9IUnPrCVY6nioZGrI2WrXuCrtwp_l7EkHj8ST4XwOWGguC9y8LP9feDFJyJpVw3kDZWQSdhx66Xq1nv_tEU0VPhZ_xA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Érigée sur une placette paisible au cœur du vieux bourg de Fataga, l'église paroissiale Saint-Joseph (Iglesia de San José) constitue le repère spirituel et architectural majeur de cette oasis montagnarde du sud de Gran Canaria. Inauguré en 1880 sur l'emplacement d'un modeste ermitage antérieur devenu trop exigu pour la population agricole de la vallée, l'édifice illustre avec une sobre élégance les canons de l'architecture religieuse rurale canarienne de la fin du XIXe siècle. Sa façade principale blanchie à la chaux, rythmée par des encadrements en pierre de taille volcanique sombre autour du portail cintré et de la rosace centrale, est flanquée d'une tour-clocher latérale carrée coiffée d'un lanternon en pierre apparente qui émerge au-dessus des toitures de tuiles courbes environnantes.\n\nL'intérieur abrite une nef unique lumineuse couverte d'une charpente traditionnelle en bois de pin canarien (tea) à deux versants, créant une atmosphère de recueillement intimiste. Le chevet accueille un retable sobre abritant la statue vénérée de saint Joseph, saint patron du village célébré chaque printemps lors de fêtes populaires animées qui perpétuent les traditions musicales et agricoles des habitants du barranco de Fataga.",
+    visiter: "Une halte sur la placette pavée devant l'église permet d'admirer la pureté de sa façade blanche rehaussée de pierre volcanique et le contraste harmonieux de son clocher avec les falaises rocheuses dominant la vallée. Les visiteurs franchissent le portail lors des ouvertures pour découvrir la charpente en bois de pin tea de la nef et la quiétude de ce sanctuaire villageois.",
+    link: ""
+  },
+  {
+    id: "san_bartolome_tirajana_village_de_fataga",
+    name: "San Bartolomé de Tirajana - Village Historique de Fataga (Pueblo de Fataga)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "San Bartolomé de Tirajana",
+    altitude: 590,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Ensemble Historique Classé, Architecture Vernaculaire Blanche & Oasis de la Vallée des Mille Palmiers",
+    century: "XIXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 27.88780,
+    lng: -15.56487,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM3mNU09-7mk85XC0JHJRfbGXAoi0L9fZgEZ8ZdNZpwcuU6P0DxFfJccsZNYuhbxWZfm-dseZ4DdXx8hIMKXXvoXQENEkT4zfU7TLPXfR96_WEUFwOErxNxOBvDybhu2d4rcuFgggAAI7W8jxA40Qlikg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPmrsVPlFtxr7yLyy5MPvnho3cbxW5Ggf5f2vpyEzyPxURANwAVxz4Q1Q6D_5gtQKbOdysiSWZiDQBcJg8RH1_0iE6k6kzNZBxMHgmudcP2LGSVjF_o3XsHNVXHKNxmCnRhQXLfhFupLVUUSp81RLz9WQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOtbSf4iIsx3p8O9F0MhFfSxbCYY9BixsAbg-2KPf-48v2spoNjDiq9DjeW4IEin_doJCOms9Sbvm0Hdo3FFw1L2fClcshkwiwLll67HhlTY6YGqKSDODMmhiG6UGpJrrkY5oTSbZwWGgm-q0rxCc5bUQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN2OPOwx4tpRBEj_PRBXR5en-4WxPmcI-rqa-X54vw__q0vN40EDbxetGNHgC1xmukljCTRFqRsM77zet2nVoIiXqxFq13S7n-Vxb8iaVsubM3voFSaUCutpV0ucC8F_FYDWQM2TdEVSJyaAh4qqmZTYA=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMTj3Hyn5puqIxiHJJJA8jem5mk3ESAK8_i-7WQZE2lA42Mgrmnr2sNZrI_CqE3Ot8xhMceqJgm2GTExpm2opcjuPUx1GhDkwJGFpucJjV64gXV-aLWCRyu4TL8xXxHmihYs_zs2MhIGi0bYGtPL95X8w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNoUjV_QlPBiOlAftlkINkxoUXGq7zk-o3EsTdq4hRclQE2Bk0jdN_xVFvhj41ilGpdIBynNdbeWhGfBeSCFWjIdiTd1Jwx8txhsc-z3nrZbyuCUmWZqseonF5NSn0RMfLao5kMD92nchJy3623aLi4YQ=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Lové sur un promontoire rocheux au creux de la célèbre « Vallée des Mille Palmiers », sur le versant méridional de Gran Canaria, le village historique de Fataga constitue l'un des ensembles d'architecture vernaculaire les plus pittoresques et préservés de l'archipel canarien. Déclaré Bien d'Intérêt Culturel au titre de Conjunto Histórico, ce bourg rural à l'atmosphère intemporelle déploie un lacis enchanteur d'étroites ruelles piétonnes pavées de galets basaltiques qui serpentent entre des maisons basses traditionnelles blanchies à la chaux. Coiffées de toitures à deux ou quatre pans recouvertes de tuiles courbes en terre cuite patinées par le soleil, les habitations conservent leurs menuiseries anciennes en bois de cœur de pin canarien (tea), leurs balcons ouvragés et leurs patios fleuris débordant de bougainvilliers, de géraniums et de citronniers.\n\nOccupé dès l'époque préhispanique par les anciens aborigènes Canarii attirés par la fertilité exceptionnelle des terres alluviales irriguées par les résurgences du barranco, le terroir de Fataga est entouré d'une oasis luxuriante où prospèrent des milliers de palmiers dattiers des Canaries (Phoenix canariensis), d'abricotiers, d'orangers et d'amandiers. Ce ruban verdoyant contraste de façon saisissante avec les murailles minérales abruptes et arides de roche volcanique ocre qui encadrent la gorge, faisant de ce havre de paix l'une des haltes patrimoniales les plus attachantes de l'intérieur de l'île.",
+    visiter: "Flâner à pied au hasard des ruelles étroites et pavées du vieux village de Fataga pour admirer la blancheur éclatante des façades traditionnelles, les encadrements en pierre volcanique, les balcons en bois de pin tea et les placettes fleuries. Les promeneurs gagnent ensuite les abords du bourg pour contempler la vue d'ensemble sur les toits de tuiles rouges blottis au milieu de la palmeraie et des vergers irrigués du barranco.",
+    link: ""
+  },
+  {
+    id: "san_bartolome_tirajana_mirador_degollada_de_las_yeguas",
+    name: "San Bartolomé de Tirajana - Belvédère de la Degollada de las Yeguas (Mirador Degollada de las Yeguas)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "San Bartolomé de Tirajana",
+    altitude: 473,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Balcon Panoramique sur le Canyon du Barranco de Fataga, Falaises Phonolitiques & Dunes de Maspalomas",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 27.81939,
+    lng: -15.57937,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO_2-c6NYDRmbOqAri_VqDaPTjPTaYUaVGxECWX_82LQsVVaz2f_Q4jZos6MFcgI8Dh9mDo_ibRjmmNJD4lVEttuGy3ubqViVwSp7oT4kHTND6tNIwKrwLgYXUO8VMuOor8C7OhZFO879zJns25euavYg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Perched à quatre cent soixante-treize mètres d'altitude sur la crête occidentale escarpée qui domine la vallée de Fataga, le long de la route sinueuse GC-60 reliant Maspalomas aux sommets centraux de Gran Canaria, le mirador de la Degollada de las Yeguas dévoile l'un des paysages les plus vertigineux et saisissants de l'archipel. Ce belvédère naturel surplombe directement l'immense gorge d'érosion du barranco de Fataga — souvent surnommé le « Grand Canyon de Gran Canaria » — dont le lit sinueux s'enfonce à plusieurs centaines de mètres en contrebas entre des murailles subverticales stratifiées. Ces escarpements monumentaux exposent à ciel ouvert l'empilement des coulées de laves phonolitiques, d'ignimbrites et de brèches volcaniques émises au Miocène il y a plus de dix millions d'années et sculptées par des millénaires de crues torrentielles.\n\nDepuis la terrasse panoramique sécurisée, le regard embrasse une perspective géographique spectaculaire : vers le nord s'étire la gorge sauvage ponctuée d'oasis de palmiers des Canaries et de petites fermes blanches nichées au pied des falaises ocres ; vers le sud, le canyon s'élargit progressivement jusqu'à la côte atlantique où scintillent au loin les crêtes dorées des dunes de Maspalomas bordées par le bleu profond de l'océan. Baigné par la lumière intense du versant méridional et colonisé par une flore xérophile résistante de cardons et de tabaibas, ce balcon rocheux offre une lecture magistrale de la géomorphologie de la moitié sud de l'île.",
+    visiter: "Une halte sur l'esplanade aménagée du col le long de la route GC-60 permet d'accéder à la terrasse du belvédère et de contempler la plongée vertigineuse dans le canyon du barranco de Fataga. Les visiteurs prennent le temps d'observer les strates volcaniques colorées des parois rocheuses ainsi que l'horizon méridional ouvrant sur les dunes de Maspalomas et l'océan Atlantique.",
+    link: ""
+  },
+   {
     id: "tejeda_randonnee_roque_nublo",
     name: "Tejeda - Randonnée & Monolithe Sacré du Roque Nublo (Monumento Natural del Roque Nublo)",
     country: "Espagne",
