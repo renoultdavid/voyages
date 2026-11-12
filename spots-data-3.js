@@ -7,6 +7,37 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "aguimes_eglise_san_sebastian",
+    name: "Agüimes - Église Saint-Sébastien (Iglesia Parroquial de San Sebastián)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Agüimes",
+    altitude: 290,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Cathédrale du Sud-Est de Gran Canaria, Chef-d'Œuvre Néoclassique & Pierre Grise d'Agüimes (1796-1940)",
+    century: "XIXe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 27.90675,
+    lng: -15.44651,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOnE7HUEBedMNGPndny0GSKlxVd-a3IvhSe_iTA5kp3hqf70lSnlXZsEXbES3EIcf_HfiIPIjt6ofJqpBnzCmMWPZq6S7UlT4_9MrlkgZdAHY2N1K7ET2qyrBFl8LkbQL0QUrC--2tDqNVIRZb9-FtsKA=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPNLd6YgN7iQJKrUA6KPFADY6ryz8mwgpA4cawkI_v5bTUXYaeYVytMB0qAhqC1HtejRI2y5fiXSrJyeYofad7pxkpf-Di8fdm_P8oJSAuPkeN_q6Hc8kvU5UHtbZqYl7saTHMXmPskJzlMiErewRC9Bw=w1367-h911-s-no-gm?authuser=0",
+        caption: "L'intérieur, vaste et harmonieux, reflète une transition stylistique où la clarté et l'ordre du néoclassicisme viennent structurer l'espace tout en accueillant des éléments décoratifs hérités du baroque.\n\nL'organisation spatiale repose sur un plan basilical à trois nefs de hauteurs égales, séparées par d'imposantes colonnes d'ordre corinthien. Ces piliers robustes, à la texture de pierre apparente, soutiennent une série d'arcs en plein cintre qui rythment la perspective vers le chœur. Au-dessus de la croisée du transept s'élève une coupole majestueuse sur tambour, percée de fenêtres qui inondent le sanctuaire d'une lumière zénithale blanche. Ce jeu de lumière accentue la sensation de volume et de pureté architecturale, typique de l'esthétique académique de l'époque.\n\nLe chœur est dominé par un retable majeur de style néoclassique, dont la structure architecturée en bois doré et polychrome abrite l'image de saint Sébastien, patron de la ville. Contrairement aux retables baroques plus chargés, celui-ci privilégie les lignes droites, les frontons triangulaires et une symétrie rigoureuse. Les murs du transept et du chœur sont souvent ornés de tentures rouges ou de peintures murales qui réchauffent l'austérité de la pierre grise. La présence de sculptures de grande qualité, issues des ateliers canariens et génois, enrichit les chapelles latérales et témoigne de la richesse historique de cette paroisse."
+      }
+    ],
+    description: "Dominant souverainement la vaste Plaza del Rosario au cœur du centre historique d'Agüimes, l'église paroissiale Saint-Sébastien (Iglesia Parroquial de San Sebastián) est unanimement surnommée la « cathédrale du sud-est » en raison de ses dimensions monumentales et de la pureté académique de ses lignes. Déclaré Monument Historique National en 1981, cet édifice grandiose fut entrepris à partir de 1796 pour remplacer deux anciens sanctuaires remontant à la fin du XVe siècle, sur les plans de l'illustre architecte et chanoine Diego Nicolás Eduardo, figure majeure de l'introduction du néoclassicisme aux îles Canaries. En raison de l'ampleur titanesque du chantier et des vicissitudes économiques du XIXe siècle, la construction s'étira sur près d'un siècle et demi avant son achèvement définitif en 1940, tout en conservant une remarquable unité stylistique.\n\nLa façade principale s'impose par l'appareillage d'une précision chirurgicale de sa pierre de taille volcanique gris bleuté (cantería de Agüimes), extraite des carrières locales de la comarque. Structurée selon une ordonnance rigoureuse à trois corps et trois rues, elle associe un fronton triangulaire central à deux imposantes tours-clochers latérales symétriques coiffées de lanternons octogonaux. L'intérieur déploie un volume solennel à trois vaisseaux de même hauteur (église-halle) rythmés par des colonnes corinthiennes et couronné à la croisée du transept par une majestueuse coupole sur tambour percée de hautes fenêtres diffusant une lumière zénithale éclatante. Sanctuaire d'art sacré de premier plan, l'église abrite un somptueux retable majeur néoclassique doré et une exceptionnelle collection de sculptures religieuses signées par les grands maîtres de l'imagerie canarienne, au premier rang desquels José Luján Pérez.",
+    visiter: "Une halte sur l'esplanade pavée de la Plaza del Rosario permet de prendre du recul pour admirer la symétrie monumentale de la façade en pierre volcanique grise et les deux tours campaniles jumelles. Les visiteurs franchissent le portail néoclassique pour découvrir l'élévation grandiose des trois nefs, lever les yeux vers la lumière zénithale de la coupole centrale et contempler les sculptures d'art sacré de José Luján Pérez conservées dans les chapelles latérales.",
+    link: ""
+  },
+   {
     id: "santa_cruz_tenerife_iglesia_matriz_concepcion",
     name: "Santa Cruz de Tenerife - Église Matrice de la Conception (Iglesia Matriz de Nuestra Señora de la Concepción)",
     country: "Espagne",
