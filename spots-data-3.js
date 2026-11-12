@@ -7,6 +7,95 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "tejeda_randonnee_roque_nublo",
+    name: "Tejeda - Randonnée & Monolithe Sacré du Roque Nublo (Monumento Natural del Roque Nublo)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Tejeda",
+    altitude: 1800,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Monolithe Volcanique Emblématique de Gran Canaria (80 m), Sanctuaire Aborigène & Caldeira de Tejeda",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1, volcan: 1 },
+    lat: 27.97071,
+    lng: -15.61247,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN-tmuOlPmRijeBGTtmcYCWVzEDmbZr7YcD0DLGQQgCX27S1QZOc4BV7rr1jneHtSKZ-MDYCWiWp89CBp5hEyzIYddK2nxNft9ejTlwj_1Om7X8OZx_c_MrgkcUcjpQY7tbcRLXb0yfOC1gQQY4NxUgtw=w1379-h919-s-no-gm?authuser=0",
+    description: "Dressé au cœur géométrique et spirituel de Gran Canaria à plus de mille huit cents mètres d'altitude, le Roque Nublo (« le rocher dans les nuages ») constitue le monument naturel le plus emblématique et vénéré de tout l'archipel canarien. Ce titanesque monolithe basaltique de près de quatre-vingts mètres de hauteur, posé sur une vaste plate-forme rocheuse suspendue au-dessus du vide, représente le vestige résiduel d'un ancien stratovolcan colossal édifié au Pliocène il y a environ quatre millions d'années. Sous l'action acharnée des pluies torrentielles, des glissements gravitaires et du gel hivernal, les formations pyroclastiques plus tendres qui l'entouraient ont été progressivement démantelées, laissant ce culot de brèches volcaniques indurées et ses voisins zoomorphes — El Fraile (« le Moine ») et La Rana (« la Grenouille ») — pointer solennellement vers le ciel.\n\nLieu de culte sacré d'une importance capitale pour les anciens aborigènes Canarii qui y célébraient leurs rituels solaires et agricoles, le site est aujourd'hui protégé au sein du Monument naturel du Roque Nublo et de la Réserve de biosphère de Gran Canaria, intégrée au paysage culturel de Risco Caído et des montagnes sacrées classé au Patrimoine mondial de l'UNESCO. Le sentier de randonnée s'élance depuis le col de La Goleta à travers une pinède lumineuse de pins des Canaries (Pinus canariensis) avant de déboucher sur l'esplanade minérale sommitale. De là, le panorama circulaire d'une envergure grandiose embrasse l'immense caldeira d'érosion de Tejeda, la silhouette sacrée du Roque Bentayga et, par-delà la mer de nuages étalée sur l'océan Atlantique, la pyramide du pic du Teide sur l'île voisine de Tenerife.",
+    intro_page: "Véritable totem minéral dressé au cœur de Gran Canaria à plus de mille huit cents mètres d'altitude, le Roque Nublo doit son nom évocateur aux bancs de brume poussés par les alizés qui viennent souvent envelopper sa base vertigineuse. Ce monolithe basaltique de quatre-vingts mètres de haut, vestige d'un ancien édifice volcanique pliocène sculpté par l'érosion différentielle, fut un sanctuaire sacré majeur pour les anciens aborigènes Canarii. Accessible par un sentier pittoresque traversant une pinède parfumée avant d'émerger sur un plateau rocheux parsemé de sculptures naturelles comme le Moine et la Grenouille, il dévoile un panorama circulaire grandiose sur la caldeira de Tejeda, le Roque Bentayga et le pic du Teide à l'horizon.",
+    visiter: "S'élancer depuis le parking du col de la Degollada de La Goleta sur la route GC-600 pour emprunter le sentier pavé montant régulièrement sous les pins des Canaries. Déboucher sur la grande plate-forme minérale sommitale pour observer les rochers d'El Fraile et de La Rana avant de s'approcher du pied de la paroi verticale du Roque Nublo, en profitant d'une vue circulaire sur la caldeira de Tejeda et le sommet du Teide émergeant au-dessus de l'océan.",
+    link: "",
+    sections: [
+      {
+        title: "Départ depuis la Degollada de La Goleta et traversée de la pinède canarienne",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN-tmuOlPmRijeBGTtmcYCWVzEDmbZr7YcD0DLGQQgCX27S1QZOc4BV7rr1jneHtSKZ-MDYCWiWp89CBp5hEyzIYddK2nxNft9ejTlwj_1Om7X8OZx_c_MrgkcUcjpQY7tbcRLXb0yfOC1gQQY4NxUgtw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOklEBckBxiD4lSz95Bi1-vg53ahYlpIQuiV20UF1Z3fq1oelxqdY8PL_brH_S7R6CGSmFBuNrCKISA76VznnMPrdLsyt_XM_zwZkfIUTeoIWC2_-cXlneDcEyzcvd0hkP12CEEHWdRZ3nuJ5K2XxSUPQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'itinéraire classique en aller-retour (ou en boucle par les crêtes forestières) s'élance depuis les abords de la Degollada de La Goleta, secteur panoramique associé au Mirador de la Goleta situé à environ mille six cents mètres d'altitude le long de la route GC-600. Dès les premiers pas, le chemin bien tracé et historiquement pavé par endroits s'élève en pente régulière sous la frondaison lumineuse d'une pinède reboisée de pins des Canaries (Pinus canariensis). L'atmosphère sylvestre est imprégnée des senteurs résineuses des aiguilles chauffées par le soleil et ponctuée en sous-bois par les touffes argentées d'armoise de montagne (Artemisia thuscula), de genêts jaunes (Teline microphylla) et de sauges endémiques."
+      },
+      {
+        title: "Passage sur le plateau minéral et dalles de brèches polies",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMqMIaVZyEOj0yHmVJ7LEiqntmZHim_y9iH2cUgOgQ31Z6xXjE605_0YVlxfbi9HJE8vbCRTqglMU8Tv8FUcqpimOK35SRT5QquN1k3Solf-jLQS0SGi0sQr5GGk-b3NZlPIhVQfut-9HXV61jG1T26gw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczORUaY5x6Os08x89BCisesUEloQsuX_MY6hRH0k7VfOd9WAZvwB7SUWew5fa_vK0oWdoev2Iad5kwxTJeDI7oQt745Y3k08W6IobiVQlVk9mNDrPF_fJQvdF5Exw8dB5lrVH3_0QyKN6tFzrRkG-2ZtJQ=w1382-h919-s-no-gm?authuser=0"
+        ],
+        text: "À mesure que le sentier franchit les ressauts rocheux en contournant le flanc occidental du massif, les arbres se raréfient pour laisser place à un plateau minéral balayé par les alizés, où affleurent de larges dalles de lave grise et de brèches conglomératiques polies par le vent."
+      },
+      {
+        title: "El Fraile (« le Moine »), sculpture naturelle d'altération météorique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMSU2wANBZvMxEiAdwG1e98MYohfz6act1GE5GOSLAp49JwG5QSr6aXAYCN-0JFBQ0hdBwrZ6aRxrQ5OKtXLJGE69PbhtysO7dX2sx2yvrKeG-3MPGIAhxVRb2e8APRCQng_uND3ip_iNsvfv6c_F78KQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Au sortir de la zone boisée, la progression sur l'esplanade sommitale dévoile les remarquables sculptures naturelles façonnées par l'altération météorique sur les bordures du plateau. Sur le flanc gauche se dresse la silhouette singulière d'El Fraile (« le Moine »), piton rocheux isolé dont le profil évoque avec une précision saisissante la silhouette d'un religieux encapuchonné en prière tourné vers le monolithe principal."
+      },
+      {
+        title: "La Rana (« la Grenouille ») et monolithes zoomorphes du plateau",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPTB9iyn-EWfxlgJ0II6cbiQJ4885LBPqD9ZKLoaDocAnM-5BN3ek9CqOnaMis5MXgJE_Bc9pmtdNh6NGFTwixGCKRGgqjnTl3Ysygx63kIZPLgcOxSF2wIDZnvTduJ6Rn6WsBdSJ_sN9qAa2LY3XWOxQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM5bf3C8MjNI-YqXnxIaCSIsqYWcGvcdxZ6k0nYr_a0ilg3IomaHDS5tmrgGG49zWnl6kfe-KXinu3-qdHYxhIPjhwmjxSK8d52BfVFW0BQqgcMM0nYSM74MgmFsZgxqgtkiihbVo4SMmqx3ZzpmeYSPg=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Plus loin sur la plate-forme, directement au pied du grand piton, émerge la masse plus trapue de La Rana (« la Grenouille »), autre monolithe d'érosion différentielle aux contours zoomorphes qui dialogue avec la verticalité vertigineuse du Roque Nublo."
+      },
+      {
+        title: "Le géant de basalte et la mer de nuages des alizés",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNU9PAVyKHr5inxniM_NBI5ztuLIdctb3rPKXVgTN7l7s8HK6dUUErZdZE5kHR1QKqlNt-a2oC_tYw9YZLEF9zKQQ-keVSF_4_2z-D3gld0Fz9eQODnQLAVZOtZ1V7ZevKNrNPjXaEvnrvhk-2djrmK7A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'arrivée au pied du géant de basalte procure une sensation d'immensité géologique saisissante, particulièrement lorsque les bancs de brume poussés par les alizés viennent envelopper la base du piton, justifiant pleinement son nom de « rocher dans les nuages »."
+      },
+      {
+        title: "Panorama circulaire sur la caldeira de Tejeda, Roque Bentayga et le Teide",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOfNRU1xlKGosL2evfuhWZ4XzRQbeaybuaajPvRgcET_gOiTeogFiV9f8U4qednedroqgihlxEWDBmt_DzSp4avKBWP9pKLg-wystJK6ah2rpZp_saCDWVw5dJVpjhQ983FpfJ48jQmrOLPzEf8pUtAHQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOGQZ8scB80OWvYr0ouQ5eZuLpbHFg1_XeGfT5H_OG8FsKFX_ZuvcoESfqDJR29gaxmnl3xAta9B65YSqykq4MWU77ZWWmO6bkXtsIeY4oQbDO0Jc9cSYNGNIc-0lhfsZ4szbF9vz5YM6htLvOEKBO8zQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Depuis ce belvédère naturel suspendu au-dessus du vide, le panorama circulaire embrasse la quasi-totalité du relief central de Gran Canaria : au premier plan plonge l'immense caldeira d'érosion de Tejeda, hérissée d'autres aiguilles volcaniques célèbres comme le Roque Bentayga, tandis que vers l'ouest, par-delà la mer de nuages étalée sur l'océan Atlantique, se découpe avec une netteté saisissante la silhouette pyramidale du pic du Teide sur l'île voisine de Tenerife."
+      },
+      {
+        title: "Descente panoramique vers le col ou le barrage de Los Hornos",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPkwkHQ1v6JR_sgVu4pU77FwB3jiSZ28LONaFo22DFc0Zwg1zGftkWsXTXzeOSbYDtyNcAHSTDP4YFG7Hw42HMea5MQ2J1PoPEJUm5vmyNe701Z8eQs1q_eiULLtadT7Uqri1PBVhH3HPyXphEhkwMemw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOo5tVQg5BTYFg_dx5ofjjBj-OybBypj6oR750CikXyc7gMWf9q7yxXrh304Hyr439i0n8qygqyAREIGe3TcxIvkqTe-mNc7ILDFfQRZTCUUxwSX-mf0C_6kjOHzk5kV0lYDUr7AzGRbQWrj0rbHF383w=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "La descente s'effectue par le même sentier panoramique ou en prolongeant vers le secteur du barrage de Los Hornos, concluant une marche d'environ trois kilomètres à trois kilomètres et demi au cœur du sanctuaire géologique et culturel de l'île."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPxLtZy9m6BDxtzZxgBX2fMqi0lUkcrz0kv46JGMYnr3OIcpChgcqXgsveQpptrE1qT6Mh-pWKAW1HPdL7f-MaUDGVNuu2irS4UrR6OmNX6guO6R8QSHSIkdC5wrLLMnF-lcamPZ4cf8lER3grz7llczA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+   {
     id: "mogan_moulin_a_vent",
     name: "Mogán - Moulin à Vent Historique (Molino de Viento de Mogán / Molino Quemado)",
     country: "Espagne",
