@@ -8365,7 +8365,7 @@ const travelSpots = [
     era_label: "panorama naturel",
     century: "Temps géologique",
     category: "parc_naturel",
-    counts: { parc_naturel: 1 },
+    counts: { parc_naturel: 1, volcan: 1 },
     image: "https://lh3.googleusercontent.com/pw/AP1GczNyAmGBaH__FFwnim8A9mCB3Roq1OgbRkwmjSaJjzHn-hPn4MAH8LsW3UFGYYcUoB9ELlwKX00Ry-cVQow0iKQsqJ7X_dwsCWWXeW3EZORQHytlwDykiQO_Os8eXDekOYe27gF_scCSwYBxtA7DW32B4A=w2489-h1451-s-no-gm?authuser=0",
     description: "Culminant à plus de mille mètres d'altitude sur la ligne de crête séparant Hakone de Yugawara, le belvédère du mont Taikan offre l'une des perspectives panoramiques les plus grandioses de l'archipel nippon. Nommé en hommage au maître peintre Yokoyama Taikan qui aimait y contempler la perfection des paysages, ce promontoire venteux embrasse d'un seul regard le miroir bleu du lac Ashi encaissé dans son ancienne caldeira, surmonté en arrière-plan par le cône parfait et enneigé du mont Fuji. Par temps clair, la vue s'étire vers le sud jusqu'à la péninsule d'Izu et les eaux scintillantes de la baie de Sagami.",
     visiter: "Accéder à l'aire d'observation par la route scénique d'altitude Anest Iwata Turnpike. Rejoindre la terrasse panoramique extérieure pour saisir le contraste saisissant entre la surface étincelante du lac Ashi en contrebas et la silhouette iconique du mont Fuji se découpant sur l'horizon. Profiter des longues-vues pour scruter les crêtes volcaniques de la caldeira de Hakone et les fumerolles lointaines de la vallée. Découvrir l'espace d'accueil du Taikanzan Lounge pour observer le paysage à l'abri des vents frais de montagne, un spot prisé des photographes de paysages et des passionnés de mécanique automobile venus sillonner les lacets du col.",
