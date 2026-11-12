@@ -106,7 +106,7 @@ const SPOTS_3 = [
         title: "Architecture vernaculaire en amphithéâtre et quartiers historiques",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczNB0EK6rP78JTRV0I3NZyVvC71OhxgOijXl9WsCkE2b7ZKeVINjrrAsVpbGbG0_tn35EQwlSnVXLk1WtqZIHmKsS_pb8O93loIFCEKzdOqPNqgHIjtxEAlR4idI-USaBdF-_hW4mfHzMtURJr8Opg05rA=w1379-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNvy-ASXwlUx6wDsVWuhErbJzU9EWfk8QL3EnpzAUZNSfhOjc9X2pUaOkccrWM4h6gYR_FlyCz8XoyopNF95xj3mn_ad9eLEklPA5eBvczQUAA5Or-PMillI7C3UZV5aT-94QY6Fm_qTIXD8gjO4EtMw=w1379-h919-s-no-gm?authuser=0"
+          "https://lh3.googleusercontent.com/pw/AP1GczNvy-ASXwlUx6wDsVWuhErbJzU9EWfk8QL3EnpzAUZNSfhOjc9X2pUaOkccrWM4h6gYR_FlyCz8XoyopNF95xj3mn8_ad9eLEklPA5eBvczQUAA5Or-PMillI7C3UZV5aT-94QY6Fm_qTIXD8gjO4EtMw=w1367-h911-s-no-gm?authuser=0"
         ],
         text: "L'architecture vernaculaire de Taganana offre une composition pittoresque et organique d'une grande homogénéité, s'étageant en amphithéâtre sur les pentes basaltiques de plusieurs quartiers dispersés tels que El Lomo, Portugal ou Los Naranjos. Les maisons traditionnelles canariennes, édifiées en blocs de pierre volcanique sombre enduits d'un crépi de chaux blanche éclatant qui contraste vigoureusement avec le vert profond des versants et le bleu cobalt de l'océan, sont coiffées de toitures à deux ou quatre pans recouvertes de tuiles courbes en terre cuite."
       },
@@ -153,7 +153,7 @@ const SPOTS_3 = [
         title: "",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczPYnXQhWCxRQDVVEWs1wIABcpbocgXhyzhpidpkr8vmlRImQxaui88cvMojWjfeyvIm_q6RgojixAtddxa4fmc-kW4X0aIO9DQ2J8MHDTbrKrCVfrCxk_sQdwVyYmpDcz2pbJPaCJHB1diSN7Q3AaRXZQ=w1382-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOV3Z_zMnRloJkplVOWnuGfQOv9DpwfdvwH5b7QcbTT75OgstnxH1Gpcs7oI_OiaMLYFl3mDpMYI7HYj7ztUWAocgn5lRkzDi15uIS-npQTi6BBiF3Q0LxPS2nlR5ROA9CCz_gZB015HCXkUg=w1381-h919-s-no-gm?authuser=0"
+          "https://lh3.googleusercontent.com/pw/AP1GczOV3Z_zMnRloJkplVOWnuGfQOv9DpwfdvwH5b7QcbTT75Ogstnxk46lPWo5xxHpcs7oI_OiaMLYFl3mDpMYI7HYj7ztUWAocgn5lRkzDi15uIS-npQTi6BBiF3Q0LxPS2nlR5ROA9CCz_gZB015HCXkUg=w1369-h911-s-no-gm?authuser=0"
         ],
         text: ""
       },
