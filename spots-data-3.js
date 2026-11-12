@@ -7,6 +7,123 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "aguimes_barranco_de_las_vacas",
+    name: "Agüimes - Canyon de Tuf Volcanique du Barranco de Las Vacas (Tobas de Colores)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Agüimes",
+    altitude: 533,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Gorge Étroite Sculptée dans les Tufs Pyroclastiques & Ignimbrites Ocrées (Tobas de Colores)",
+    century: "Temps géologique",
+    category: "nature",
+    counts: {},
+    lat: 27.91499,
+    lng: -15.47550,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMcd99oqSdp7xuP4J2UsxEKkA-mFEBHjNlFJrOsOs8pFvCttVxMazE7GtAFXZBl4qZEXP-C8IwMdUFC3sLyVwblzvTH8oCCVjk-MdWxhD5yjFZKtMcTOGsgrvoOE_71bcsASlxp0Bq1ANZDfGETEo0S-A=w607-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMKgogUmt8DxWq1eLnhIMFYvcejHwqwye5isAhN2ySOrlmcVre51SezEmIOKdhM39_dXIc914vOdWO2DOcEEAgVbCJvkTgaDhsxRhdQ3AlMr3NaeRGBUU3OXZf5R90jEhLKbw2UjunxMNhLsfSYX7mmew=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPCJjSffZOhGRpu1kxuWcILZf7l00LkRWW827OA9aIJFycRN8T9iSDuudy-vD2MuyRkx9tz9vgDZ1Y7jQaGTflYNDUV45YUoyprw4q7wNpoFiWJ6VRkokQgMoInocsb1YOScCXgUu3JLwiBmtYlx1g5aw=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM9zPCXjFyifjWKVSChIR0VJrNbLY_do9o2jtw7e2OUmYUAhkWVk0PAKuIDxgo8aInO3L-w61s4-0hrt7HtbWFBhkOsIw98ZHU3OJ19wZwnJJdhgRGyTwmhxx77AyHxNNLf4ZMYPFbHOgF9lN0PX3wT0g=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dissimulé dans le lit encaissé d'un ravin escarpé du versant sud-est de Gran Canaria, le long de l'ancienne route sinueuse GC-550 reliant Agüimes à Temisas, le Barranco de Las Vacas dévoile l'une des merveilles géologiques les plus photogéniques et surprenantes de l'archipel des Canaries. Ce défilé minéral spectaculaire, également désigné sous le nom évocateur de « Tobas de Colores » (tufs colorés), évoque en miniature les célèbres canyons de grès rouge de l'Ouest américain grâce à ses parois sinueuses aux courbes lisses et ondulantes. La formation de cette gorge étroite résulte de l'action patiente des eaux torrentielles saisonnières qui, au fil de millénaires d'averses orographiques intenses, ont profondément incisé un épais dépôt d'ignimbrites et de tufs pyroclastiques tendres émis lors des grandes phases volcaniques explosives du cycle Roque Nublo.\n\nL'érosion hydrique tourbillonnaire chargée de sables et de graviers volcaniques a poli la roche tendre selon des strates horizontales et obliques d'une finesse remarquable, déclinant une palette chromatique chaleureuse allant du beige sable et de l'ocre doré au brun rougeâtre riche en oxydes de fer. La lumière zénithale pénétrant au fond de ce couloir encaissé rebondit sur les parois cannelées et sculptées en vasques, créant des jeux d'ombres et de reflets dorés d'une grande intensité plastique. Bien que d'une longueur modeste d'une cinquantaine de mètres dans sa section la plus étroite, ce sanctuaire tellurique offre une leçon magistrale d'hydrogéologie volcanique et constitue l'un des sites naturels les plus singuliers de l'île.",
+    visiter: "Accéder au ravin en descendant prudemment le lit asséché sous le pont de la route GC-550 pour pénétrer à pied dans l'étroit défilé des Tobas de Colores. Les visiteurs parcourent le fond sableux du canyon en observant les strates pyroclastiques polies par les crues torrentielles, les ondulations lisses des parois ocrées et les jeux de lumière naturelle filtrant depuis le sommet de la gorge.",
+    link: ""
+  },
+  {
+    id: "santa_lucia_tirajana_la_fortaleza_de_ansite",
+    name: "Santa Lucía de Tirajana - Site Archéologique de La Fortaleza de Ansite",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Santa Lucía de Tirajana",
+    altitude: 564,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Citadelle Troglodytique Aborigène Canarii, Tunnel Naturel & Dernier Bastion de Résistance (XVe siècle)",
+    century: "XVe siècle",
+    category: "archeologie",
+    counts: { archeologie: 1 },
+    lat: 27.88180,
+    lng: -15.52761,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN1uAe1SPuZNSlSKYh5FxW-i0YzNw2wz1PlnXXsUKPE34oZAGGHVOk-pPgTYbdoo0BcGsKMCRQuzH1R0UpMvhAowm2S7a76qvyIadH5EY0x3n3nPjXpxJcXRH4aIdKGJOntfwjnYkZyiWbGtTtW0TelSQ=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOgh4h0OmfXDh5R5PssfQLkGp_RLIY020OlRj7YnEEikNd5VXxFNp1IFG1Xs7u77gnqHR72ljLrUI94rPNnkEwYkSuLbOgQpS9xNui0yMzDYYoeuSIk5gHsWvKs53bYfNF1MQxEZEw-m6JUD_5tAGNMmg=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMFpEev5drr3VUC9LACMVyvPY0daVIRAbSWMZ3HrLfu3FXvwsYcHmxf5vnun9palbvwDLljK_c6STg11Yrg1INi2_akqxbFB7LbXQ8uUodrQ2obMo2rsuZcFsC_VYIpRPUCL09-0x84_U4T0k1B0_RRZw=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPTjSNj895xFb3aT43qg4ohuXrE9ObwGOlkkNQfCISUr2gT3XfxK0fGsT_ZUKIh_NYzNL_onmiE5D-apwOPSrmXx1HMAjvGwiyR39_VdUQl3cygDZQ_fyblskejC31ibeVUJLuIn8LybR1qB0o4LBMTmg=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressé au cœur de l'immense caldeira d'érosion de Tirajana, à plus de cinq cent soixante mètres d'altitude, le massif rocheux de La Fortaleza (comprenant La Fortaleza Grande, La Fortaleza Chica et Titana) constitue l'un des sites archéologiques préhispaniques les plus sacrés et emblématiques de Gran Canaria. Cette forteresse naturelle imprenable, formée d'un piton phonolitique massif isolé au milieu des gorges, est traversée de part en part par un spectaculaire tunnel naturel de soixante-dix mètres de long creusé par l'érosion au cœur de la roche volcanique. Aux époques préhispaniques, les anciens habitants de l'île (les Canarii) aménagèrent les flancs abrupts de ce monolithe en un vaste complexe d'habitat troglodytique et de lieux de culte : des dizaines de grottes artificielles creusées dans le tuf tendre servaient de logements familiaux, de greniers communautaires fortifiés (agadir) pour conserver les céréales, ainsi que de grottes funéraires et d'almogarenes (sanctuaires à ciel ouvert) destinés aux libations rituelles.\n\nDans la mémoire historique de l'archipel, La Fortaleza d'Ansite incarne le théâtre tragique et héroïque de l'ultime résistance aborigène face aux troupes castillanes de Pedro de Vera. C'est du haut de ces falaises vertigineuses que, le 29 avril 1483, après une longue résistance, le chef guerrier Bentejuí et le grand prêtre (faycán) de Telde refusèrent la capitulation et se jetèrent dans le vide aux cris rituels d'« Atis Tirma ! » (« Pour ma terre ! »), scellant la fin de la conquête de Gran Canaria. Déclaré Bien d'Intérêt Culturel et doté d'un remarquable centre d'interprétation moderne, le site permet de parcourir les grottes habitées, de franchir le grand tunnel naturel et de contempler un panorama vertigineux sur le barranco de Tirajana imprégné de la spiritualité des anciens peuples insulaires.",
+    visiter: "Débuter la découverte au centre d'interprétation de La Fortaleza pour appréhender l'organisation sociale, les rites funéraires et l'histoire de la conquête aborigène de Gran Canaria. Emprunter ensuite le sentier aménagé gravissant les pentes de La Fortaleza Grande pour explorer les anciennes grottes d'habitation et greniers troglodytiques, traverser l'impressionnant tunnel naturel perçant la montagne et accéder aux belvédères sommitaux dominant la vallée de Tirajana.",
+    link: ""
+  },
+  {
+    id: "santa_lucia_tirajana_mirador_el_guriete",
+    name: "Santa Lucía de Tirajana - Belvédère d'El Guriete (Mirador de El Guriete)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Santa Lucía de Tirajana",
+    altitude: 550,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Balcon sur la Caldeira de Tirajana, La Fortaleza de Ansite & Palmeraie de Sorrueda",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 27.87711,
+    lng: -15.51639,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOjn4NFmWUTGrRTljco0aHXgLPAvWdVUqLnK6hr52ADwMb1Xcpf8a_2nJIUHMYlcH6ZZAlI54MDtsVBz2H3V7jWecPvSPchSwcNW3PTqhKLoTCuhUJiAnhh5kLpwY1BPNoOR0q9BZj8Pl57klxNkmocfw=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNQw6-x6jLhIpo5Ri0YQZYtoTkEFF6llLTQrXavlatsO93uVU8oJtnOmcSlx9Ygm2vVdvueTrrZ5pRuDzxVfnl3nHB9hHXxUFuUaTrXVpGg3ZBKEmzIT7xxs57s1yhTqZypb37yRbo_IAmJt8mIfGjJCQ=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOggjn1F35va3rjt0cZN2yyUCVI0I2dagmW1OuMD-v5UP99zc5SrV8ANUFVJ2g8TiYOwdlzjDH1pjV9jDbTY6zizlTftIui2RpVSeuYKjlE0WJmFJMiE_quPEY7Q8IC_w4Qtu5vnYXPUwKB5k-gbPBWZQ=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN6R1gcYxyPeffIhne9zDI5y4fkwccwyADjH78M-POR259aB4XzncrGHvc0Roi9Af8rrPTBIxVf7UCS2S312CsovwmRpKxmO3DsbCQpeAcbJ1rBKdhKjVjbSGYY3Sjuxln2hauDzxvLV2w5zQLUAQ51sw=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Suspendu à cinq cent cinquante mètres d'altitude sur la paroi orientale abrupte de la grande dépression de Tirajana, le mirador d'El Guriete offre l'une des vues panoramiques les plus monumentales et saisissantes sur l'intérieur montagneux du sud-est de Gran Canaria. Cet observatoire géomorphologique permet d'embrasser d'un seul regard toute l'ampleur de l'immense caldeira d'érosion de Tirajana, gigantesque cirque naturel aux parois stratifiées sculptées au fil de millions d'années d'action fluviale et de glissements gravitaires dans les formations volcaniques miocènes et pliocènes.\n\nJuste en face du belvédère se dresse la silhouette majestueuse et isolée du piton sacré de La Fortaleza de Ansite, mettant parfaitement en évidence son caractère de citadelle rocheuse naturelle ceinturée par les méandres profonds du barranco. En contrebas immédiat s'étire la luxuriante palmeraie de La Sorrueda, oasis verdoyante peuplée de milliers de palmiers des Canaries (Phoenix canariensis) bordant les eaux turquoise du barrage de Tirajana, tandis que vers l'amont le regard remonte les falaises vertigineuses couronnées par les pitons sommitaux de l'île. Ce promontoire sauvage révèle avec puissance le contraste saisissant entre l'aridité minérale des versants ocres baignés de soleil et la vitalité des oasis agricoles nicheés au fond des ravins.",
+    visiter: "Une halte sur l'aire aménagée le long de la route GC-651 permet d'accéder à la terrasse du belvédère d'El Guriete pour contempler la vue plongeante sur la palmeraie de La Sorrueda et le miroir d'eau du barrage de Tirajana. Les visiteurs prennent le temps d'observer de face la masse imposante du piton archéologique de La Fortaleza de Ansite et la stratification spectaculaire des falaises encadrant la caldeira.",
+    link: ""
+  },
+   {
     id: "aguimes_eglise_san_sebastian",
     name: "Agüimes - Église Saint-Sébastien (Iglesia Parroquial de San Sebastián)",
     country: "Espagne",
