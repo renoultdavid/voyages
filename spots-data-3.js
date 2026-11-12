@@ -7,6 +7,240 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "artenara_mirador_de_pinos_de_galdar",
+    name: "Artenara - Belvédère de Pinos de Gáldar (Mirador de los Pinos de Gáldar)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Artenara",
+    altitude: 1438,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cratère Volcanique Holocène de Los Pinos, Pinède d'Altitude (1 438 m) & Panorama sur la Côte Nord",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: { volcan: 1 },
+    lat: 28.04061,
+    lng: -15.61569,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMNseQ0KAhhURFgyVBIs19E-55ROu3lKFMEGB0jMKX74_NWtDClt3n59JjklburitS1IQd5-RB6cjgTftkftRmoMTJqO9-urH4_WtLdA02b7o6BCl7ZVUNWKbsH7agtA-JT-z6GN5WnAhFvfbIHVCZPKw=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Culminant à mille quatre cent trente-huit mètres d'altitude sur la ligne de crête septentrionale des hautes terres centrales de Gran Canaria, le mirador de Pinos de Gáldar occupe une position stratégique à la lisière d'un spectaculaire cratère volcanique récent d'environ trois cents mètres de diamètre, né lors du cycle éruptif holocène de l'île il y a moins de trois mille ans. Aménagé au cœur d'une futaie parfumée de pins des Canaries (Pinus canariensis) centenaires qui ont donné leur nom au site, ce promontoire rocheux constitue l'un des belvédères les plus saisissants sur le versant nord-ouest et la côte atlantique.\n\nDepuis la terrasse panoramique balayée par les alizés d'altitude, le regard embrasse un amphithéâtre géographique d'une ampleur remarquable : au premier plan s'ouvrent les pentes boisées et les crêtes sculptées des ravins de Moya, Santa María de Guía et Gáldar, ponctuées de hameaux agricoles blancs et de petits lacs de retenue, tandis que l'horizon marin dévoile la presqu'île volcanique de La Isleta à l'est et les falaises vertigineuses d'Agaete à l'ouest. Fréquemment enveloppé par les nappes cotonneuses de la mer de nuages qui viennent mourir au pied des pins, ce balcon montagnard incarne la transition climatique spectaculaire entre les sommets arides des Cumbres et les versants humides du nord insulaire.",
+    visiter: "Une halte sur l'aire aménagée à la croisée des routes GC-21 et GC-70 permet d'accéder à la terrasse du belvédère pour admirer la vue plongeante sur l'entonnoir boisé de la caldeira de Pinos de Gáldar et contempler le panorama circulaire embrassant toute la côte nord de Gran Canaria jusqu'à l'océan Atlantique.",
+    link: ""
+  },
+  {
+    id: "artenara_iglesia_de_san_matias",
+    name: "Artenara - Église Saint-Mathias (Iglesia Parroquial de San Matías)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Artenara",
+    altitude: 1235,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Plus Haute Paroisse de Gran Canaria (1 235 m), Architecture Traditionnelle & Clochers Jumelés (1870)",
+    century: "XIXe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.01995,
+    lng: -15.64680,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPNBNGv6M_LVjyucvTXrdFVXVkjYnyMdAH7XW2QlctjmfBcVVPkcug_jUDc_OBp7xFbIkFSL7HTJXjkUSUCAV_nZEqfYgsQQz945Z4D2SLJxgevVXWTOltiwgSCYE8BJkRPdJLCvshKkE7LELutsjV1fA=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dressée à mille deux cent trente-cinq mètres d'altitude sur la place centrale d'Artenara — la commune la plus élevée de toute l'île de Gran Canaria —, l'église paroissiale Saint-Mathias (Iglesia Parroquial de San Matías) s'impose comme le repère monumental et spirituel majeur de ce village montagnard suspendu au-dessus des abîmes de Tejeda. Inauguré en 1870 pour remplacer un ancien sanctuaire troglodytique et une chapelle devenue trop exiguë face à l'essor de la communauté rurale des Cumbres, l'édifice incarne avec une sobre élégance l'architecture religieuse traditionnelle canarienne de la seconde moitié du XIXe siècle.\n\nSa façade principale blanchie à la chaux, rythmée par des chaînes d'angle et des encadrements en pierre de taille volcanique grise sombre, est flanquée de deux tours campaniles symétriques surmontées de clochetons pyramides qui se détachent avec netteté sur l'azur du ciel d'altitude. L'intérieur déploie un espace lumineux à trois nefs couvertes de charpentes traditionnelles en bois de pin canarien (tea) et abrite d'intéressantes pièces d'art sacré, dont des sculptures issues des ateliers insulaires de l'école de José Luján Pérez, témoignant de la ferveur séculaire des habitants des hautes terres.",
+    visiter: "Une halte sur la place pavée d'Artenara permet de contempler la silhouette blanche à deux clochers de l'église San Matías contrastant avec les parois rocheuses sombres environnantes. Les visiteurs franchissent le portail en pierre volcanique lors des heures d'ouverture pour découvrir la clarté des trois nefs et la charpente en bois de pin tea.",
+    link: ""
+  },
+  {
+    id: "artenara_mirador_de_unamuno",
+    name: "Artenara - Belvédère Miguel de Unamuno (Mirador de Unamuno)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Artenara",
+    altitude: 1228,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Balcon Littéraire & Géomorphologique sur la Caldeira de Tejeda, Roque Bentayga & Roque Nublo",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 28.01943,
+    lng: -15.64634,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNC32tTj8JZltivZ0aVzZNUKsQFThuEUmysxp3mXhT2HV-ubYbEn0ThbqJaSVBRBTbq1h-WQNZ5yRiHF3uX_64Oww-5k8weEalN_vG72c6mbk3PGbWfSD7dLKNjxoea6ewltkBT6N_b0a5wcKFtuO3Sdw=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Suspendu en encorbellement à mille deux cent vingt-huit mètres d'altitude sur la crête abrupte dominant directement l'abîme de la caldeira d'érosion de Tejeda, au cœur du village d'Artenara, le mirador de Unamuno constitue l'un des belvédères les plus célèbres, vertigineux et chargés d'émotion littéraire de tout l'archipel canarien. Ce promontoire rend hommage au grand écrivain et philosophe espagnol Miguel de Unamuno qui, lors de son séjour dans les montagnes de Gran Canaria en 1910, demeura profondément bouleversé devant l'immensité tellurique de ce paysage qu'il immortalisa sous la formule célèbre de « tempête pétrifiée » (tempestad petrificada).\n\nDominée par la statue en bronze de l'écrivain contemplant l'horizon les mains appuyées sur la rambarde, la terrasse panoramique offre une vue plongeante saisissante sur l'amphithéâtre géologique central de l'île : au creux des ravins vertigineux surgissent les monolithes volcaniques emblématiques du Roque Bentayga, du Roque Nublo et de la Mesa de Acusa, tandis qu'à l'arrière-plan se découpe par temps limpide la pyramide majestueuse du pic du Teide émergeant au-dessus de la mer de nuages de l'océan Atlantique.",
+    visiter: "S'avancer sur l'esplanade panoramique au bout de la rue centrale d'Artenara pour rejoindre la sculpture en bronze de Miguel de Unamuno et contempler exactement la même perspective vertigineuse sur la caldeira de Tejeda, le Roque Bentayga, le Roque Nublo et l'horizon du Teide.",
+    link: ""
+  },
+  {
+    id: "artenara_museo_etnografico_casas_cueva",
+    name: "Artenara - Musée Ethnographique des Maisons Troglodytes (Museo Etnográfico Casas Cueva de Artenara)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Artenara",
+    altitude: 1226,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Habitat Troglodytique Bioclimatique des Cumbres, Métiers des Piqueros & Tradition Rupestre",
+    century: "XIXe siècle",
+    category: "musee",
+    counts: { habitation: 1 },
+    lat: 28.01926,
+    lng: -15.64544,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNUDrg3IFZosltwIrWhlN3bBf4tpWFSqMl4z0vYq6qv0HCMDNku73lfjyZ-era_r7Uw3EKAbUsAygjrQBbggYrV1TSCOa2bZOX934I-j13tMRwRcOu4fhm8crTw-tHXqkDDbM72cV-ZIbp_ZPrW42LTeQ=w1681-h1121-s-no-gm?authuser=0",
+    description: "Aménagé au cœur du centre historique d'Artenara, à flanc de paroi volcanique surplombant la caldeira de Tejeda, le Musée Ethnographique des Maisons Troglodytes (Museo Etnográfico Casas Cueva de Artenara) constitue un témoignage vivant et immersif d'une tradition architecturale millénaire unique en Europe. Dans cette commune où une large part de la population réside encore aujourd'hui dans des habitations creusées à même la montagne, l'établissement restitue avec une fidélité scrupuleuse l'organisation domestique, artisanale et agricole de la société rurale des hautes terres de Gran Canaria aux XIXe et XXe siècles, héritière directe des techniques d'excavation des anciens aborigènes Canarii.\n\nArticulé sur deux niveaux superposés dotés de terrasses fleuries offrant une vue grandiose sur le Barranco Grande, le complexe réunit d'authentiques demeures rupestres blanchies à la chaux où règne toute l'année une fraîcheur tempérée constante. La muséographie met en scène les chambres à alcôves meublées en bois de pin tea, le cellier agricole, la cuisine au foyer de pierre et son filtre à eau en pierre poreuse (bernegal), ainsi qu'un espace dédié aux savoir-faire ancestraux des tailleurs de grottes (piqueros), des potières perpétuant le modelage sans tour et des émigrants revenus d'Amérique latine (indianos).",
+    intro_page: "Accroché à plus de mille deux cents mètres d'altitude sur les parois escarpées d'Artenara, le Musée Ethnographique des Maisons Troglodytes dévoile l'ingéniosité bioclimatique de l'habitat excavé dans le tuf volcanique des Cumbres de Gran Canaria. Réparti sur deux niveaux prolongés par des terrasses panoramiques dominant la caldeira de Tejeda, cet ensemble préservé restitue fidèlement le cadre de vie quotidien, les celliers agricoles, les cuisines traditionnelles et les savoir-faire artisanaux des communautés montagnardes insulaires.",
+    visiter: "Parcourir les deux niveaux de cavités blanchies à la chaux du musée pour découvrir la distribution en alcôves des chambres familiales, l'atmosphère fraîche des celliers à provisions et les outils traditionnels des tailleurs de pierre, tisserands et potières, tout en profitant depuis le patio extérieur de la vue plongeante sur le Barranco Grande.",
+    link: "",
+    sections: [
+      {
+        title: "Architecture troglodytique et adaptation bioclimatique aux Cumbres",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNUDrg3IFZosltwIrWhlN3bBf4tpWFSqMl4z0vYq6qv0HCMDNku73lfjyZ-era_r7Uw3EKAbUsAygjrQBbggYrV1TSCOa2bZOX934I-j13tMRwRcOu4fhm8crTw-tHXqkDDbM72cV-ZIbp_ZPrW42LTeQ=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNoDB1BlpcPdcm1B7uMu-d9UVfEbB-WkCJx5RC25YzuUzwI5RImcz4ovcTSZQQVRi1F4CfqxhfdksWWbLkyrSplZhf6cnqRrAXcVcFPf3wufCCsl6DT3VPZsk2LXWwdxSLZxxH8bg_n_m-ZR2Y8oFAtnQ=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "L'architecture de ce complexe troglodytique dévoile une ingénieuse adaptation bioclimatique aux rigueurs du climat montagnard des Cumbres, marqué par de fortes amplitudes thermiques entre les hivers froids et brumeux et les étés secs et brûlants."
+      },
+      {
+        title: "Inertie thermique naturelle et savoir-faire des piqueros",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMbjoC7pjTRtOPNpju3rhhnYtJWZiw3PX0VtU5O3rM3mlb0RhzAgg8O45jIN2GzqJtehbUB4mjfAa3wRS0U7t8z9qzqzdGmwgHygPuqmYYTZbKdevXrcSSxa5n5FDmsDR-pGxLrgQ6DS0eiG9dRbPtweA=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNDoiPQZ7JEQIa7Hk8YDiBQMBxvYVGM3c-6biABzRpqluclRLARVqmc91MxuWehCuDLbgiTcoD31dVgxMNrJ-OcJ1cjswjYEk6G1Dnsz0HK7WNwvnJO10l6dMyY4sqRPBXXybXqVEsa-7LLMYBfFm-otg=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "L'épaisse masse de roche volcanique dans laquelle sont taillées les cavités assure une inertie thermique naturelle exceptionnelle, maintenant à l'intérieur une température quasi constante autour de dix-huit à vingt degrés tout au long de l'année. Les parois intérieures, soigneusement dressées au pic par les tailleurs de pierre locaux (piqueros), sont recouvertes d'épais badigeons de chaux blanche qui assainissent l'atmosphère, préviennent l'humidité et démultiplient la clarté pénétrant par les étroites baies d'entrée, tandis que les sols alternent entre la roche mère nivelée et le pavage de dalles basaltiques."
+      },
+      {
+        title: "Niveau inférieur : habitation traditionnelle à alcôves et patio panoramique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNdGv6tGUfUgAQp5Ei3QtbnjMpy5TCmDqdNMaCrwFrXkXxndtAVvFYwqeS6vfPUiLM7hkTrSCaPFt0KWi53dgZi-SAcOT72VtCH3jyXt8ZDTBohqUJABIF9WhvAEw1J08I5OmEd9Hug5zQHOoQBjP4Q9A=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMpXIk36omVM4EYls8V86T9MeU7CTvycfKQgV6C-ZwcKOR7UTkUKLhqiIhPVo26vYNJLtLxgrHxcZxU1dAtQDAIe0Mf6cvWsz52JmmhddQDIhTitKk71ozrgA9Z3VR3JOAsuCoLqKi7yiPNQeuu5wjQxg=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "Le parcours de visite s'organise sur deux niveaux superposés articulés autour d'un patio extérieur fleuri et d'une terrasse panoramique offrant une vue vertigineuse sur les escarpements du Barranco Grande et les monolithes volcaniques du centre de l'île. Le niveau inférieur (planta baja) s'ouvre sur une première habitation traditionnelle distribuée autour d'une salle centrale modeste d'où rayonnent trois alcôves creusées directement dans la paroi rocheuse (aposentos), abritant des lits en fer forgé, des coffres en bois de cœur de pin des Canaries (tea) et des courtepointes tissées à la main (traperas)."
+      },
+      {
+        title: "Niveau supérieur : cellier, anciens métiers, grotte des Indianos et cuisine rupestre",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMsuH-0E8pU5N8RGtoAz-9owEIa8jwBoopulXvj7DdRJNHn32fI3ynYGKikk2v-zBFDI1of1ykIQI_iMfPLZwB6IiekPdmOzpHpwcYBCA5o7DtI1oauV8cF9xANiy9-5451Yib5Oc54ehMIxZdyr6VCvg=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "À proximité immédiate se déploie la grotte-cellier (bodega) composée de deux chambres fraîches et obscures dédiées au stockage des récoltes de céréales, des pommes de terre de montagne, des outres, des tonneaux de vin et de l'outillage agricole traditionnel, prolongée à l'extérieur par un petit autel domestique et un lavoir de pierre (lavadero) alimenté par les eaux de ruissellement.\n\nLe niveau supérieur (planta alta) illustre à la fois l'évolution sociale de la communauté montagnarde et la richesse de ses savoir-faire artisanaux. Une vaste cavité est entièrement consacrée aux anciens métiers d'Artenara : on y découvre les outils des tailleurs de grottes (piqueros), des métiers à tisser traditionnels en bois, des ruches cylindriques en tronc de palmier évidé témoignant de l'importance de l'apiculture insulaire, ainsi que des pièces de poterie traditionnelle (alfarería), façonnée sans tour selon des techniques préhispaniques à partir des argiles locales et des sables volcaniques. La grotte voisine, dite des Indianos, met en scène une demeure troglodytique plus aisée composée de deux pièces communicantes meublées de mobilier bourgeois importé, reflétant l'ascension sociale des émigrants canariens revenus d'Amérique latine. La visite s'achève dans l'ancienne cuisine creusée dans le roc, où trônent le foyer de pierre, les ustensiles en terre cuite, le filtre à eau en pierre poreuse (bernegal) et les produits emblématiques du terroir tels que le gofio et les fromages affinés de montagne."
+      }
+    ]
+  },
+  {
+    id: "artenara_ermita_de_la_cuevita",
+    name: "Artenara - Sanctuaire Troglodytique de la Virgen de la Cuevita (Ermita de La Cuevita)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Artenara",
+    altitude: 1271,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Sanctuaire Rupestre Excavé dans la Falaise (XVIIIe siècle), Mobilier Taillé dans le Roc & Patronne des Cyclistes",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.01865,
+    lng: -15.64265,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMSDVPLKvqbKLH46XWyLQ7JRZ7d05r8eVmyQzffcnlTa68Li4U1xA1B5NJIK_3aFWzgz3iRYR7ju5EdtM_pm8JgJGabrOorcUESPdzAo8G2aQLau5EKIZyfizrI_Uv0uUHESKVZNqfCLhxy7LKpiHdIdw=w1611-h2416-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPd5F6DLVxSaGRLZP1fnHtg75bOzRyLzA-bF1tH1yjQZrEb_-ldc9n_114r2o9SwQ950BaaTaQD91TGocZuG6QVUFYN6dvYUJxw4b0z6NiHpCI1C1gTijmD-jQ7Wfmgdrk4Ioeh5-DtNurmZtYBCvxxWA=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Excavé directement au cœur d'une falaise vertigineuse de tuf volcanique à mille deux cent soixante-et-onze mètres d'altitude, à quelques centaines de mètres à l'est du centre d'Artenara, l'ermitage de la Virgen de la Cuevita constitue l'un des monuments religieux les plus singuliers, émouvants et spectaculaires de tout l'archipel canarien. Aménagé au XVIIIe siècle à l'emplacement d'anciennes grottes sacrées fréquentées dès l'époque préhispanique par les aborigènes Canarii, ce sanctuaire rupestre témoigne de la symbiose totale entre la foi populaire montagnarde et la roche volcanique de Gran Canaria.\n\nPrécédé d'un parvis aérien suspendu au-dessus des abîmes de la caldeira de Tejeda, l'intérieur surprend par son architecture souterraine intégralement sculptée dans la roche mère : non seulement les parois voûtées et l'arc triomphal du chœur sont taillés dans la pierre volcanique, mais l'autel majeur, la chaire, le confessionnal, les bancs de communion et les bénitiers ont également été dégagés directement dans la masse rocheuse par les artisans tailleurs locaux (piqueros). Abritant une statue vénérée de la Vierge de la Cuevita — vénérée comme sainte patronne des cyclistes et des folklóricos de Gran Canaria —, ce lieu de pèlerinage offre depuis son esplanade extérieure l'un des panoramas les plus vertigineux sur le Roque Bentayga et le Roque Nublo.",
+    visiter: "Suivre le chemin panoramique bordant la falaise depuis le village d'Artenara pour rejoindre le parvis extérieur de l'ermitage et contempler la vue plongeante sur la caldeira de Tejeda. Les visiteurs pénètrent ensuite à l'intérieur de la grotte-sanctuaire pour admirer l'autel, la chaire et le mobilier liturgique entièrement sculptés à même la roche volcanique.",
+    link: ""
+  },
+  {
+    id: "tejeda_village_historique",
+    name: "Tejeda - Village Montagnard Historique & Faune Endémique (Pueblo de Tejeda)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Tejeda",
+    altitude: 1049,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Plus Beau Village d'Espagne, Architecture Blanche des Cumbres, Amandiers & Scinque de Gran Canaria",
+    century: "XVIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 27.99554,
+    lng: -15.61546,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNhR32DcyAlLI0gtUFsH4hBcatENfzOWH9frpsxYq1IX25CAnUjKIHkSSuFvCtvwdWDPja4Ta96IN0ZsO0WgHpFGRjcvBuDX3Lj08jMj5aL4KUYa9yLT66vbW3LYvm8qanu8DqUlajJ0Ak3Oq624TAkjw=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPy-5VNOPGbiK8Ekv--wprXiBACTw2_7h33fK0pS02ceJu2z9yxpwQMU2H1zGfUwbvWRgtOHOBx-qaNNmCbNwyf6mJxIpWwd-xTDA-SIuZoTpjwa9jAOOc1AkBA9vjNGq94o65omPEMeFL6vxJqaI3MEA=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOqOc36I2nCl3MY6wNDwYIiAmUNS9ufusznOB7d0F48KR2ATBgmps46i3ycLArASvXCW0v47QMWJzI84HujPi1IV0KCjF2aDeVp9gi--h-YuAfq_45dC-KSE2jp-YbDGCLYdKJF15kC-ANp4r_-getbDw=w1681-h1120-s-no-gm?authuser=0",
+        caption: "Le seps de Gran Canaria (Chalcides sexlineatus) est un petit lézard de la famille des Scincidae strictement endémique de l'île de Grande Canarie, mesurant environ 15 à 18 cm pour un corps cylindrique aux écailles lisses et brillantes et aux pattes courtes. Il présente un polymorphisme remarquable selon les versants de l'île : son dos brun olive à bronzé est souvent parcouru de fines lignes longitudinales, tandis que les populations du sud et de l'ouest arborent une queue d'un bleu turquoise éclatant. Espèce diurne, terrestre et semi-fouisseuse, il vit sous les pierres, dans la litière végétale ou les murets secs depuis le littoral jusqu'à plus de 1 500 m d'altitude."
+      }
+    ],
+    description: "Accroché en amphithéâtre à mille quarante-neuf mètres d'altitude sur le flanc septentrional de l'immense caldeira d'érosion qui porte son nom, le village de Tejeda figure officiellement parmi les « Plus Beaux Villages d'Espagne » (Los Pueblos Más Bonitos de España) et constitue le cœur pastoral, gastronomique et paysager des hautes terres de Gran Canaria. Ses demeures traditionnelles aux façades blanchies à la chaux, rehaussées d'encadrements en pierre volcanique sombre, de balcons en bois de cœur de pin canarien (tea) et de toitures en tuiles canal d'argile rouge, s'étagent avec une harmonie remarquable face aux silhouettes monumentales du Roque Bentayga et du Roque Nublo.\n\nEntouré de terrasses agricoles plantées d'amandiers dont la floraison hivernale transforme la vallée en un océan de pétales blancs et rosés — célébrée chaque année lors de la célèbre Fiesta del Almendro en Flor —, le terroir de Tejeda est réputé dans tout l'archipel pour ses pâtisseries artisanales à base d'amandes (bienmesabe et mazapanes). Les murets de pierre sèche et les jardins fleuris de Bougainvilliers et d'agaves du bourg abritent également une faune terrestre endémique fascinante, parmi laquelle le discret seps de Gran Canaria (Chalcides sexlineatus) reconnaissable à ses écailles brillantes et à sa queue bleutée.",
+    visiter: "Flâner dans les ruelles piétonnes fleuries et les escaliers pavés du vieux bourg de Tejeda pour admirer les maisons blanches aux balcons en pin tea et profiter depuis les belvédères du village de la vue frontale spectaculaire sur le Roque Bentayga. Les visiteurs font halte dans les pâtisseries artisanales traditionnelles pour déguster les spécialités d'amandes locales tout en observant la flore rupicole et les petits reptiles endémiques le long des murets ensoleillés.",
+    link: ""
+  },
+  {
+    id: "tejeda_parroquia_nuestra_senora_del_socorro",
+    name: "Tejeda - Église Paroissiale Notre-Dame du Secours (Parroquia de Nuestra Señora del Socorro)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Tejeda",
+    altitude: 1050,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Sanctuaire Paroissial des Cumbres, Reconstruction Contemporaine (XXe siècle) & Charpente Mudéjare",
+    century: "XXe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 27.99522,
+    lng: -15.61564,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMcO3G9H4cag3TtI32qQJ9px8QYZspwdA6Y1SuuRV5TcEWAuUTotN2l2trcH38V6pb4QA1DO8jYyBZE5V01cceq2vwn5FiTNwk12_6nz-V-Bc61x-gZb3SK0A7RCP_9bkY9UQOQBVc6PNNIXTjGCd3TxA=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMilu8WQ32rWDLBBkIFlIU-2T9PbM5BvXlsUlri-p7aHkVo5B5G1PeQsYC6vTjWQthbTIYf9B0n6HnrCvVkcnusfUOMIhTk1dm9W1oA8K-UCbJIihKyab9xVPHkBOCV93eLt7VPuM5Zs3Vo14pBmRrG1Q=w1681-h1121-s-no-gm?authuser=0",
+        caption: "L'espace intérieur séduit par la clarté et la sobriété de son plan basilical à trois nefs séparées par des arcs en plein cintre en pierre volcanique grise apparente. Le vaisseau central est couronné d'une remarquable charpente traditionnelle en bois de cœur de pin des Canaries (tea) d'inspiration mudéjare, apportant une chaleur visuelle qui répond à l'austérité minérale des piliers. Le chœur abrite le retable en bois polychrome dédié à Nuestra Señora del Socorro, sainte patronne de Tejeda, entouré de statues religieuses et de vitraux diffusant une lumière douce dans l'ensemble du sanctuaire."
+      }
+    ],
+    description: "Dominant la place principale au cœur du village historique de Tejeda, à mille cinquante mètres d'altitude, l'église paroissiale Notre-Dame du Secours (Parroquia de Nuestra Señora del Socorro) constitue le foyer spirituel et architectural central de la vallée. Édifié au XXe siècle — entre 1930 et 1933 — sur l'emplacement d'anciens sanctuaires successifs remontant au XVIIe siècle et ravagés par des incendies, l'édifice perpétue avec fidélité les canons de l'architecture traditionnelle canarienne des zones montagnardes.\n\nSa façade harmonieuse associe la blancheur lumineuse du crépi à la chaux à des encadrements soignés en pierre de taille volcanique grise sombre, surmontée d'un fronton curviligne et flanquée sur son flanc droit d'une haute tour-clocher carrée couronnée d'un lanternon octogonal et d'une coupole. L'intérieur déploie trois nefs lumineuses couvertes d'une belle charpente en bois de pin canarien (tea) et abrite la statue vénérée de la Virgen del Socorro, sainte patronne de la commune célébrée chaque mois de septembre lors de fêtes populaires animées qui perpétuent les traditions musicales et pastorales de la caldeira.",
+    visiter: "Une halte sur la place pavée devant l'église permet d'admirer l'équilibre architectural de sa façade blanche et grise dominée par le haut clocher latéral et encadrée par les sommets rocheux de Tejeda. Les visiteurs franchissent le portail pour apprécier la clarté des trois nefs, la charpente en bois de pin tea et le retable dédié à Notre-Dame du Secours.",
+    link: ""
+  },
+   {
     id: "galdar_drago_tricentenario_casas_consistoriales",
     name: "Gáldar - Dragonnier Tricentenaire de l'Hôtel de Ville (Drago Tricentenario de las Casas Consistoriales)",
     country: "Espagne",
