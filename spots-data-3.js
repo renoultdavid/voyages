@@ -7,6 +7,256 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "telde_el_bufadero_la_garita",
+    name: "Telde - Geyser Marin d'El Bufadero de la Garita",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Telde",
+    altitude: 1,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Geyser Littoral Naturel, Plate-Forme Basaltique & Dynamique de Compression Marine",
+    century: "Temps géologique",
+    category: "nature",
+    counts: {},
+    lat: 28.00286,
+    lng: -15.37427,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMu78MNUeKvWPQ6Ajwj9yVGHSnmnI75Cug-6HE57Xx2ZS56Y6mUsjZbCODNAd3ezlAT0NuCpjvCPzAUg31L2OaHiAEO0qTk2LO5TG_HC4dlOH3T08axBoGfp1j4VtAzyISbg-ODXIF3SChbU_aRAjNCAw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPcPpouxi709NPRRXIPTH1LTdnPMvNGL1lFSiZLlKhzViUH12QF8ufQKkXURklBZwEFCTy2ME11lBH_RcoZV3QzZRljXDyX9qhFMKu7_j0qZtC8vmcFNfrFLNxwG-_BdhdhFpUAkH0YRf_AAWjNKBS6Tg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Situé sur le littoral oriental de la commune de Telde, entre les plages de La Garita et de Hoya del Pozo, le Bufadero de la Garita offre l'un des phénomènes hydrogéologiques et côtiers les plus spectaculaires et hypnotiques de l'île de Gran Canaria. Cette curiosité naturelle consiste en deux larges cavités circulaires reliées entre elles au cœur d'une plate-forme d'abrasion marine taillée dans d'anciennes coulées de lave basaltique sombre. Sous la roche se déploie un réseau de galeries et de tunnels sous-marins creusés au fil des millénaires par l'action mécanique et chimique de la houle atlantique s'engouffrant dans les fissures de la roche volcanique.\n\nÀ marée montante ou lorsque les vagues du large frappent la côte avec vigueur, l'eau de mer s'engouffre sous haute pression dans ces conduits souterrains, comprimant l'air emprisonné avant d'être propulsée verticalement à travers les cheminées rocheuses. Ce mécanisme naturel génère un impressionnant geyser marin pouvant jaillir à plusieurs mètres de hauteur dans un grondement sourd caractéristique — qui vaut au site son nom espagnol de « bufadero » (souffleur) —, suivi d'un spectaculaire effet de succion et de cascade lorsque l'eau retombe en tourbillonnant dans le bassin rocheux. Bordé d'une promenade maritime aménagée avec des belvédères sécurisés, ce théâtre minéral témoigne de la puissance perpétuelle des éléments façonnant les rivages volcaniques des Canaries.",
+    visiter: "Emprunter la promenade littorale piétonne reliant La Garita à Hoya del Pozo pour atteindre les belvédères sécurisés surplombant les deux vasques basaltiques d'El Bufadero. Les visiteurs observent à distance prudente le cycle fascinant de remplissage, d'explosion verticale d'écume et de vidange tourbillonnante rythmé par les vagues de l'océan Atlantique.",
+    link: ""
+  },
+  {
+    id: "las_palmas_casa_de_colon",
+    name: "Las Palmas de Gran Canaria - Maison-Musée de Christophe Colomb (Casa de Colón)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Las Palmas de Gran Canaria",
+    altitude: 23,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Ancienne Résidence des Gouverneurs, Architecture Canarienne Renaissance & Musée des Traversées Atlantiques (XVIe siècle)",
+    century: "XVIe siècle",
+    category: "musee",
+    counts: {},
+    lat: 28.10154,
+    lng: -15.41408,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNs6GK5a9bhYmy3XM0paPCkM0rtiDVk5QE3TLCRnX8i8O0c4PU2MHyQxaOXmpcvxKYhr_ue2BoU-D4u6aJV6VD_Ao-BirosumJ2LsOhQ5-rb1xolQ08Z47U7rXjBhm5Ehw4MSm-e49wWp7CwxmrO4OflA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOGrpSNFMmN1c6j-99MGAgR53Q4f_GF0G21W-l9vksABLCnkco39hbUSCV1WXO0IsjR6PJ47z5jaCoZ4Gamze3pB8lDpYgBvgIm9FwDhyJj6TqGZp1PphpUeNWawed-yU1DZdZ5SU-X2Y5-EQjUuvCaFg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPcyUCCTXlc6li_75CZBwjMubT1UtQ5icninWCN_FdO9-d1f85-TRh8Tbht-zNt4_uqSvIv_MUpABenlyWeBr_1elzNlivwIojLTYojRVdzqJMP_7bo2ZfBl3iEuEx0_n91UCM6BC8LF0VW4KKZkXixWA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMAadxgNSP7VMQCfwBYcin0zY4Db1v-bfgoIcOuh1z79bvVErdMgn6BKOPaJtqtbRIEpF6PPfmW9u5PgBHby6gdWyukjafXxQyIR8BnAQt0yCREexogE-_d7oON1bT7o5i8gOZNAB3pYCQ0lXiMRTKCeA=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO1eKEeygBWGpxO2nbFW2NdsM56gzX49HnhVS80F1rZUTpWokMqsJOQz_1rlNcNWVcc3dJCKWQCXWXWgaxmcQClri0t8cHyubNUlwtHcuLySBM21EOj0WXMT1AjUMwFxyYU9qz8Wq5eiH4IrE902N2-bA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM59IjrLpRLPgHweo6MKzMnxRLZnNDDKFXBJ2Hc-Xtc7sY7vx-UOaBFXQ8EWyHFnLfKuqPcs4NFUs6iW0t5dT22rMMerBykTfteC6cF_0ibBmB3QUcCrKh3yGgUUOxbJvkW-dPJIGFhe6hSBGh_353rjg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Implantée au cœur du quartier historique fondateur de Vegueta, à quelques pas de la cathédrale Santa Ana, la Casa de Colón constitue l'un des joyaux architecturaux et muséographiques les plus emblématiques de Las Palmas de Gran Canaria. Cet ensemble palatial complexe réunit plusieurs demeures patriciennes des XVIe, XVIIe et XVIIIe siècles articulées autour de l'ancienne résidence des gouverneurs de l'île, où séjourna Christophe Colomb lors de son premier voyage en août 1492 afin de faire réparer le gouvernail de la caravelle La Pinta et d'embarquer des vivres avant la traversée de l'océan Atlantique. Restauré et aménagé en musée à partir des années 1950 sous la direction de l'artiste Néstor Álamo, l'édifice incarne la quintessence de l'architecture traditionnelle seigneuriale canarienne, mêlant gothique tardif, Renaissance plateresque et tradition charpentière mudéjare.\n\nLes façades en maçonnerie blanchie à la chaux sont magnifiées par d'admirables encadrements et portails sculptés en pierre de taille volcanique verte et grise (cantería), d'élégants balcons en bois de cœur de pin canarien (tea) et des fenêtres d'angle d'influence manuéline. À l'intérieur s'ouvrent deux somptueux patios à galeries superposées et arcades en pierre soutenues par des colonnes de bois sculpté, ornés d'un puits central Renaissance et peuplés de palmiers et de perroquets. Ses treize salles d'exposition retracent l'histoire des grandes découvertes maritimes, les relations séculaires entre les îles Canaries et le continent américain, les cultures précolombiennes ainsi que la cartographie nautique ancienne et l'histoire urbaine de Las Palmas.",
+    visiter: "Franchir le portail monumental en pierre volcanique sculptée pour découvrir les deux patios intérieurs aux galeries de bois de pin tea et admirer le puits central Renaissance. Les visiteurs parcourent ensuite les salles du musée abritant des maquettes de caravelles, des portulans et cartes maritimes d'époque, la reconstitution de la cabine de La Niña, des collections précolombiennes et des peintures flamandes et espagnoles des XVIe au XIXe siècles.",
+    link: ""
+  },
+  {
+    id: "las_palmas_plaza_del_pilar_nuevo",
+    name: "Las Palmas de Gran Canaria - Place du Pilar Nuevo & Façade Arrière de la Casa de Colón",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Las Palmas de Gran Canaria",
+    altitude: 22,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Placette Historique de Vegueta, Fontaine en Pierre & Façades Renaissance et Mudéjares (XVIe-XVIIIe siècle)",
+    century: "XVIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 28.10109,
+    lng: -15.41417,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMJnY_ROOpO8togT9_DzEYQIcLcFtlWgtq371G-X-IL1ivgkPWvL2Jxxq3h-rZ4bQo2Py43py3YtwwPKUS5DawOBVQIUUe3QqqcSM3v34ED3XI-t8-vBb9XcbcQdBLt8N7ap_bmqspk44Ojyn1tYSOFYA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMbN20sXnuvxk0NUSGSEB4q_Nd36jxfehHiM4TMSTs0jWT6SOgyDYsrlbjTULkVTaQZao_MmYzk6CP8OByOUpWcd1Af6OwpnZbps5ML-uBNzgUyDKz-LUcjmEWUesESgmPElrxHLeOf4vAp-zwPAR7_pQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMwEtfgUsLGG_k6sKf1wD1SBlQ5W-BtnD7k_ZdeSgYPIyEZ6xUsDXPT9Jk5Y0DX03KA60bNzFs95TtbxT-XXUibiqQ_qwHrJvpjc-Pu7JaJOQrE1aXdm6slP7crGOOKuXsI62KRpoI-smL-fihHEWu_Bw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Nichée immédiatement derrière le chevet de la cathédrale des Canaries au cœur du quartier historique de Vegueta, la Plaza del Pilar Nuevo constitue l'une des placettes les plus intimes, photogéniques et chargées d'histoire de Las Palmas de Gran Canaria. Cet espace urbain pavé à échelle humaine doit son nom à l'imposante fontaine publique adossée en pierre de taille volcanique (pilar) édifiée au XVIIIe siècle pour approvisionner en eau potable les habitants du vieux noyau colonial, témoignant de l'organisation hydraulique de la cité moderne.\n\nLa place est entièrement dominée par la somptueuse façade méridionale de la Casa de Colón, chef-d'œuvre de l'architecture traditionnelle canarienne mettant en scène le contraste raffiné entre la blancheur lumineuse de la chaux et la finesse de la pierre volcanique sculptée. On y admire notamment un remarquable balcon d'angle en bois de cœur de pin canarien (tea) soutenu par des corbeaux sculptés, des fenêtres jumelées de style gothique tardif et Renaissance ainsi qu'un portail monumental en pierre grise d'Arucas orné d'armoiries et de motifs végétaux. Bordée d'anciens immeubles patriciens et de lauriers des Indes ombragés, cette placette paisible offre un condensé saisissant de l'esthétique coloniale qui rayonna depuis les Canaries vers l'Amérique latine.",
+    visiter: "S'attarder sur les pavés de la Plaza del Pilar Nuevo pour contempler l'élégante fontaine historique en pierre volcanique adossée au mur ainsi que l'architecture détaillée de la façade arrière de la Casa de Colón. Les promeneurs prennent le temps d'observer le balcon traditionnel en bois de pin tea et les encadrements sculptés des fenêtres avant de poursuivre leur déambulation dans les ruelles piétonnes adjacentes de Vegueta.",
+    link: ""
+  },
+  {
+    id: "las_palmas_place_et_fontaine_espiritu_santo",
+    name: "Las Palmas de Gran Canaria - Place & Fontaine du Saint-Esprit (Plaza del Espíritu Santo)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Las Palmas de Gran Canaria",
+    altitude: 30,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Placette Patricienne de Vegueta, Kiosque-Fontaine en Pierre de Taille (1869) & Chapelle Historique",
+    century: "XIXe siècle",
+    category: "parc_jardin",
+    counts: {},
+    lat: 28.09993,
+    lng: -15.41635,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMOiY8694cguqehvuStXdoNjFSkAs2zx-OctGbAg-gJs-zpASJzQq1o_msraW497cIUP2OgnZxwnHjzUaHWMK9s1VYXa_QGnaw6t2T54lPKH5mIHx7qW5Wj_xDZD-V-x4WrtmmSHFQ-QXWLk-faET9CVQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP0AaQ8pJqGxIUqtMgUPmUcYThuJ2auPnSMwccGdfBM50Spgo6-HjRL0RjdQXCpuMIT_LkvcIZrL2aT59BtIjU1IkoAjmtxVRvT9PWijUcuSl4Ro1WNN7pJybO7OANPdMwgqE-z22TOtibKWeR9v1Dlrg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Située dans la partie haute et occidentale du quartier historique de Vegueta, à l'intersection de plusieurs artères anciennes bordées de demeures seigneuriales, la Plaza del Espíritu Santo déploie une atmosphère aristocratique et recueillie emblématique de l'urbanisme historique de Las Palmas de Gran Canaria. La place est structurée autour d'un monument hydraulique singulier et raffiné : une fontaine publique monumentale édifiée en 1869 selon les plans de l'architecte insulaire Manuel Ponce de León. Réalisé entièrement en pierre de taille volcanique grise extraite des carrières d'Arucas, ce pavillon octogonal de style néoclassique tardif abrite sous sa coupole surmontée d'un lanternon les anciens robinets de distribution d'eau potable qui alimentaient autrefois le quartier haut de la cité.\n\nL'esplanade pavée est encadrée par un ensemble architectural remarquable dominé par l'ermitage historique du Espíritu Santo, fondé au XVIIe siècle et reconstruit au XIXe siècle, dont la façade sobre s'orne d'un élégant clocher-mur et d'encadrements en basalte sombre. Tout autour s'alignent d'anciennes résidences patriciennes aux façades pastel rehaussées de balcons en bois de pin canarien et de portails sculptés, conférant à cette place ombragée de palmiers et de lauriers le charme intemporel des places coloniales hispaniques.",
+    visiter: "Une halte sur la Plaza del Espíritu Santo permet d'admirer de près la finesse de la taille de pierre volcanique du kiosque-fontaine octogonal de 1869 et d'observer la façade blanche de la chapelle du Saint-Esprit. Les visiteurs profitent de la quiétude ombragée de cette place résidentielle préservée au cœur du vieux quartier de Vegueta.",
+    link: ""
+  },
+  {
+    id: "las_palmas_cathedrale_des_canaries_santa_ana",
+    name: "Las Palmas de Gran Canaria - Cathédrale des Canaries & Patio de los Naranjos (Catedral de Santa Ana)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Las Palmas de Gran Canaria",
+    altitude: 28,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Premier Édifice Religieux des Canaries (1497), Gothique Insulaire à Palmiers & Façade Néoclassique",
+    century: "XVIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.10078,
+    lng: -15.41494,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOCMjI4kl_PZgQMgMb13gexkcOBnk7fAV3Cnti_iyHAJTgi1FJ1G_JaLqMcmyQ0-I_eCM0PYN5PhNIDHZk91rmjgpS1NzqW9TsomYLdvEiKsvq2i6AWT09YtX-cp2ZOGnvPpgWWyhFDhLzEG4fQfZdt7A=w1379-h919-s-no-gm?authuser=0",
+    description: "Dressée face aux célèbres chiens de bronze gardant l'esplanade de la Plaza de Santa Ana au cœur du quartier fondateur de Vegueta, la cathédrale des Canaries (Santa Iglesia Catedral Basílica de Canarias) s'impose comme le monument religieux et architectural le plus prestigieux de tout l'archipel. Entreprise à partir de 1497 sur ordre des Rois Catholiques peu après la conquête de Gran Canaria, sa construction s'étira sur près de quatre siècles, engendrant une superposition magistrale de styles artistiques. Sa façade principale occidentale, édifiée entre la fin du XVIIIe et le début du XIXe siècle selon les plans académiques de Diego Nicolás Eduardo et de José Luján Pérez en pierre volcanique grise d'Arucas, déploie une majestueuse composition néoclassique scandée par deux tours campaniles jumelles.\n\nEn franchissant le portail, le visiteur découvre un contraste saisissant : l'intérieur révèle un chef-d'œuvre lumineux du gothique tardif atlantique (gothique insulaire), organisé en trois nefs d'égale hauteur portées par de sveltes piliers fasciculés dont les nervures s'épanouissent en voûtes étoilées évoquant la silhouette des palmiers des Canaries. Coiffée d'immenses toitures-terrasses blanchies à la chaux (azoteas) conçues pour recueillir l'eau de pluie vers les citernes capitulaires et dominées par le dôme néoclassique de la croisée du transept, la cathédrale abrite également le paisible cloître du Patio de los Naranjos et un remarquable musée diocésain d'Art sacré conservant des sculptures majeures de José Luján Pérez et des pièces d'orfèvrerie d'Amérique.",
+    intro_page: "Véritable cœur spirituel et architectural de Las Palmas de Gran Canaria, la cathédrale Santa Ana domine la Plaza de Santa Ana depuis la fin du XVe siècle. Ce monument majeur de l'art insulaire réunit deux visages spectaculaires : une imposante façade néoclassique en pierre volcanique grise d'Arucas encadrée de deux tours jumelles, et une vaste nef de style gothique tardif dont les colonnes fasciculées se déploient en voûtes nervurées imitant les palmiers des Canaries. L'ascension de ses tours permet également d'arpenter ses étonnantes toitures-terrasses blanchies à la chaux offrant un panorama circulaire sur Vegueta et l'Atlantique, avant de retrouver la sérénité ombragée du cloître du Patio de los Naranjos.",
+    visiter: "Admirer depuis la Plaza de Santa Ana la façade néoclassique en basalte gris avant de pénétrer dans la grande nef pour contempler les hautes colonnes fasciculées et les voûtes étoilées en forme de palmiers. Les visiteurs empruntent ensuite l'ascenseur ou l'escalier de la tour sud pour marcher sur les toitures-terrasses blanches au pied du dôme central et profiter de la vue panoramique sur Las Palmas, avant de descendre visiter le cloître du Patio de los Naranjos et le musée diocésain.",
+    link: "",
+    sections: [
+      {
+        title: "La façade monumentale néoclassique en pierre grise d'Arucas",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOCMjI4kl_PZgQMgMb13gexkcOBnk7fAV3Cnti_iyHAJTgi1FJ1G_JaLqMcmyQ0-I_eCM0PYN5PhNIDHZk91rmjgpS1NzqW9TsomYLdvEiKsvq2i6AWT09YtX-cp2ZOGnvPpgWWyhFDhLzEG4fQfZdt7A=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMvFSHRLJPMBey3QUOfbTduCHbKTnT6-R5srwihp0xvTnlpX8w9ze8qKfeZss9w663d88wqCUOwgpdR97EhmEScjt6GLSGqMDkeH21SzxffYytNshIKWyTED54LSy0UfVQEenae_liJHg6tRq89xOuB1Q=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La façade principale occidentale, réalisée à partir de la fin du XVIIIe siècle et achevée au début du XIXe siècle selon les plans rigoureux de l'architecte néoclassique canarien Diego Nicolás Eduardo et de José Luján Pérez, présente une composition monumentale à trois corps et trois travées entièrement appareillée en pierre de taille basaltique gris bleuté extraite des carrières locales de Arucas. Flanquée de deux imposantes tours-clochers jumelles aux couronnements octogonaux et scandée par de puissantes colonnes corinthiennes et ioniques superposées, cette façade néoclassique d'une austérité solennelle contraste de manière saisissante avec la légèreté gothique de l'intérieur de l'édifice."
+      },
+      {
+        title: "Les trois nefs-halles et le gothique tardif atlantique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOBTJPqvG9NrCdtA-6RL6No8kqnSP91Fb_vk7mPfMUIpjjAlUpGAMHMp7qjS7z-ttGdFcsxD2S47Dpdthj8wfOq87cSN5tKdzgaRzmLX8c50bNn_gy2x2UArzvKJkJxgGGy26ANYBj1qtYAQqbEVe5XzQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'architecture intérieure est un exemple remarquable du gothique tardif atlantique. Les piliers que l'on voit sont particulièrement originaux : ils sont fasciculés (composés de plusieurs colonnettes regroupées) et s'élèvent pour former des voûtes à nervures complexes (ogives). Ces nervures dessinent au plafond des motifs en forme de palmiers, un hommage symbolique à la flore locale de l'île de Grande Canarie. Cette adaptation locale du gothique est parfois appelée « gothique manuelin » ou « gothique des îles ».\n\nL'espace est organisé en trois nefs de hauteur presque égale, une configuration qui rappelle les « églises-halles » (Hallenkirche). Les vitraux colorés et les grandes colonnes en pierre volcanique grise (extraite des carrières de l'île) créent une atmosphère de verticalité et de légèreté, contrastant avec la façade extérieure de l'édifice qui, elle, relève du néoclassicisme plus austère."
+      },
+      {
+        title: "Les voûtes étoilées en palmier et la lumière zénithale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNdTp0NlM0e3OmSUsG9hbVThEamB33davoY8TDWiNCKbpNTeIOufu6AN07X6RaBlutPelxrZwNQPfhfQop08QkdBh1r20wjVi3Taz9F6VboI0kCQA5eDO_vtPZITjFrRB1Uy_-JfjqOIGj4JZLHKNIdWg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPWS3I9kZZZPy8dwByi3dFpt1EZnM2GubSjraZEhulq_MeVSI2N3PnkEetkl0nw4wBr87nYqe3lQtg2qZXgfSdtP26BJ-DXu1s5dhj_wcJZkP2IWcR3sdLumTGXgoKaLjqEyoHCWxlGc-ZTem9VO5uGZQ=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'élément le plus frappant de cette architecture est la conception des voûtes à l'ogive complexe, caractéristiques du style gothique tardif espagnol. À partir des chapiteaux des colonnes fasciculées (ces grands piliers en pierre volcanique grise qui semblent composés de multiples tiges), les nervures se déploient en éventail pour rejoindre le sommet de la voûte. Ce dessin rappelle directement la silhouette des palmiers, l'arbre emblématique de l'île de Grande Canarie.\n\nCes voûtes ne sont pas seulement esthétiques ; elles utilisent une technique de tiercerons et liernes (nervures supplémentaires) qui permettent de créer ces motifs géométriques circulaires et stellaires que vous voyez au centre. Le point culminant est la clef de voûte, ici percée d'un oculus (petite ouverture circulaire) qui laisse passer une lumière zénithale, créant un lien symbolique direct entre le sol de l'église et le ciel.\n\nLes arcs doubleaux qui séparent les travées sont ornés de petites niches abritant des sculptures, et les vitraux polychromes insérés dans les tympans des arcs apportent une dimension chromatique qui contraste avec la pierre sombre. Cet ensemble témoigne de la volonté des bâtisseurs du XVIe siècle d'adapter les canons européens à la réalité géologique et paysagère des Canaries, créant ainsi un \"gothique insulaire\" d'une grande élégance."
+      },
+      {
+        title: "Les toitures-terrasses blanchies à la chaux (azoteas) et la collecte des eaux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPdzNfZCpzG4Biza8VoU5HcPMC8vfJduMLy55P7-TLDOfjWNSryh-DKiOd2bKTIVT5vaTlEDc_g_Z0i-kw7sjm--Y5NJLaUuyYazkyhhZtM6VP3dKFJCb54NPG5ldbqmqpovDhnI8towR_Hdo2gto-2Jw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP7Y9ksOSTdteb8T2vW4JHmExQCJmBZsi5wGwNWKt2GzTIVbtjLkxVa5SuQbdmmCyP-0rQhfJDtiGLy5dqDHFAjo6XXEpAKsRkerfIIiz_eKlAZ4J_t_tsKdpno0jFpr0xXeCrtnwm0P2if9uK3b03I4A=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Accessible par l'ascension de la tour méridionale de la Cathédrale des Canaries, la découverte des toitures-terrasses (azoteas) dévoile une conception architecturale singulière, parfaitement adaptée au climat sec et ensoleillé de l'archipel macaronésien. Contrairement aux cathédrales d'Europe continentale coiffées de charpentes aiguës en bois et d'ardoise, l'édifice de Las Palmas présente un immense toit-terrasse plat et dégagé, enduit à la chaux blanche éclatante et structuré par de légères pentes d'écoulement. Ce système ingénieux permettait autrefois de recueillir la moindre goutte des rares précipitations atlantiques pour alimenter les citernes souterraines (aljibes) du chapitre via un réseau de gargouilles en pierre sculptée. Le visiteur marche littéralement au-dessus de l'extrados des voûtes étoilées du XVIe siècle, dans un paysage minéral ponctué par les sommets des puissants contreforts extérieurs et des pinacles gothiques en pierre volcanique gris bleuté d'Arucas qui rythment le périmètre de l'édifice."
+      },
+      {
+        title: "Le dôme néoclassique (cimborrio) et le panorama sur Vegueta et l'océan",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczODdPV83djl3Ktkhvnbh95OSl2zXlf3AIdAzG3Th7aqDl5oPP1jL_nlDknKqU9c_r1iTE9oxblnZgOj-QcCJM1YCGIyPL3OBZRoT94Wfalb0hTRn3OiIoVRbqPWKyNvBmsEl5cGIutiA9epoPiaYSr0ng=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPfKpn_reWw5T4r8BJoXD97KM4CHKS-NpqggqrjAAjUmYU8R9BpAZS9cGS4Y1xT9sxkAAfu_SSDfJzBDaopzdwgr33O9rs5tW6tft__SY6FmLt5gD6ejRz25djhpLHWLyqEd7V9Rkm0JWql8zS-ADrDKQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Au centre de cette vaste esplanade blanchie surgit l'imposante silhouette du dôme de la croisée du transept (cimborrio), élevé lors de la grande campagne néoclassique de la fin du XVIIIe siècle dirigée par l'architecte Diego Nicolás Eduardo. Sa maçonnerie sombre en pierre de taille volcanique apparente, percée de hautes fenêtres rectangulaires et couronnée d'une lanterne octogonale à nervures blanches, crée un contraste chromatique saisissant avec la blancheur aveuglante des terrasses environnantes. Depuis ce belvédère aérien suspendu entre les deux tours-clochers jumelles, le regard embrasse à trois cent soixante degrés toute la trame historique de la ville fondatrice : au premier plan s'étendent la Plaza de Santa Ana et les toits de tuiles canal des demeures patriciennes du quartier de Vegueta, tandis que l'horizon s'ouvre à l'est sur l'immensité bleu cobalt de l'océan Atlantique et à l'ouest sur les reliefs volcaniques découpés du centre de Gran Canaria."
+      },
+      {
+        title: "Le cloître du Patio de los Naranjos et le musée diocésain d'Art sacré",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMI4_neaR14dfpbCxB_bGq2yjmGzY4oPIIZDkG_l8qqwLdjkPTGQfo1lCnFLPsg9Ggk-v9XifzMG5zxuFMd3WjAZ8GxOchOOCIjp82iK_yhFHaRS9o33bh7tqCEwyFAaiMNXC90nTyxpNuGaHIARLGQbA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOTgrwL5_J9FzwE9fhLDuQgLLls7_avfIoHeXgGrjVFQWq7Uftt7sGJNkPdz_QbfhQLnJK_pdDqP6kWQuDiixyTJAOMqh3qCzRHfOEDpLf6pbQNFF5WHna9T8RdMkrBh0XQbBhEleiZEkGxq2AZkEINEg=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "En redescendant vers le flanc méridional du sanctuaire, le parcours débouche sur l'atmosphère recueillie et ombragée du cloître, connu sous le nom de Patio de los Naranjos, véritable cœur silencieux de l'ensemble cathédralice et du musée diocésain d'Art sacré. Édifié principalement entre le XVIIe et le XVIIIe siècle, cet espace quadrangulaire illustre avec raffinement la synthèse entre la tradition monastique espagnole et l'architecture domestique traditionnelle des Canaries. Les hautes façades intérieures, recouvertes d'un crépi blanc lumineux, sont scandées par de robustes pilastres et contreforts en pierre basaltique grise apparente, tandis que les niveaux supérieurs s'ornent de fenêtres encadrées de pierre sculptée et surmontées de frontons triangulaires sobres."
+      }
+    ]
+  },
+  {
+    id: "las_palmas_plage_del_confital",
+    name: "Las Palmas de Gran Canaria - Plage Sauvage & Espace Naturel d'El Confital (Playa del Confital)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Las Palmas de Gran Canaria",
+    altitude: 2,
+    is_island: true,
+    island_name: "Gran Canaria",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Baie Volcanique Préservée de La Isleta, Plate-Forme Rocheuse & Panorama sur Las Canteras",
+    century: "Temps géologique",
+    category: "plage",
+    counts: {},
+    lat: 28.15962,
+    lng: -15.43549,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMl3io_en2lRVqRRFtljxuBYCIBCMU8SHc_wj7BXqp5wQly1nqVx8V6zRAzRHxALPJDCUDdKip_oMsFyYXH1q1BAGn-TP9BZTwTKgthK6GYnOpekcaztfXfM56XzjzG4JeAen3z1Vp80AIShD4JEehuPA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPFLJJGuRBe4xbpAh1rGpqNVGOs7QmQQKvZ5AV7fZa9biQRS2OCCSIVpIV0p9SAt-7pyjDMt7E68Yz6C8wbtHIoBlULm7Sd3DxpXOIq_GP4khx23u7PklqQ9T3kVfpU6h3dUJ2WJZNfj5IXI7woWgSObg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Nichée au pied des falaises volcaniques du massif protégé de La Isleta, dans le prolongement naturel septentrional de l'illustre plage urbaine de Las Canteras, la baie d'El Confital constitue l'un des espaces littoraux sauvages les plus précieux et emblématiques de Las Palmas de Gran Canaria. Totalement préservée de l'urbanisation touristique et intégrée au Paysage Protégé de La Isleta, cette crique naturelle s'articule autour d'une vaste plate-forme d'abrasion marine composée de coulées de lave basaltique sombre et de dalles rocheuses creusées de mares intertidales limpides, ponctuées de plages de sable doré grossier et de débris coquilliers (confite) qui ont donné leur nom au site.\n\nExposée directement aux houles de l'océan Atlantique nord, la pointe d'El Confital est mondialement réputée auprès des surfeurs pour abriter l'une des vagues droites tubulaires les plus puissantes et techniques d'Europe. Au-delà de son attrait sportif, le littoral aménagé d'une promenade en bois respectueuse de l'environnement offre une immersion saisissante dans le patrimoine naturel et historique insulaire : les versants arides de la Montaña Colorada conservent les vestiges d'anciennes grottes aborigènes et de salines traditionnelles, tandis que le regard embrasse un panorama grandiose embrassant toute l'anse courbe de la plage de Las Canteras, les tours de la capitale et, par temps clair, la silhouette lointaine du pic du Teide émergeant à l'horizon occidental.",
+    visiter: "Suivre le sentier littoral aménagé en caillebotis de bois depuis l'extrémité nord de Las Canteras pour longer les falaises basaltiques de La Isleta jusqu'à la baie d'El Confital. Les promeneurs observent les mares naturelles formées dans la lave noire à marée basse, admirent les évolutions des surfeurs sur la célèbre vague droite et profitent d'une vue panoramique complète sur l'arc de cercle de la plage de Las Canteras.",
+    link: ""
+  },
+   {
     id: "santa_brigida_rando_pico_et_caldeira_bandama",
     name: "Santa Brígida - Randonnée du Pico & de la Caldeira de Bandama (Monumento Natural de Bandama)",
     country: "Espagne",
@@ -51,7 +301,7 @@ const SPOTS_3 = [
         title: "Descente en lacets depuis Casas de Fondo et stratigraphie volcanique",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczP_DwhvufVgjkzoMQMinwo9V68oLYO8IHTdNaDeHcfwdKu8hLlW5jYjSMzBRtiFa_JdUnmdxc3nLkRdIHp5g81CfTvOLr5CjgccXucUJ_Ap5kfb1TgHdHckZFmJ3Jetr48OAskIme6lvCPRRxRCjtJhmA=w1379-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNnuRGcL3ca1xxloWArgyazq3HErZEyNdue9es_3GluX05nrPTkNlTsNHMrEmiNJ5JW2VSQtPYiRVT3VghHc4maLXTG4SWgtoMODVEYWBvfFxyLg_sSWW3ENfeAluwQ43NXNlm6dOaPTk9k34jeFZ0jPpg=w1379-h919-s-no-gm?authuser=0"
+          "https://lh3.googleusercontent.com/pw/AP1GczNnuRGcL3ca1xxloWArgyazq3HErZEyNdue9es_3GluX05nrPTkNlTsNHMrEmiNJ5JW2VSQtPYiRVT3VghHc4maLXTG4SWgtoMODVEYWBvfFxyLg_sSWW3ENfeAluwQ43NXNlm6dOaPT9k34jeFZ0jPpg=w1379-h919-s-no-gm?authuser=0"
         ],
         text: "Depuis le hameau agricole de Casas de Fondo sur le flanc nord, le sentier officiel s'engage dans les entrailles du volcan en dévalant la paroi abrupte par une succession de lacets serrés taillés à même la roche volcanique et les tufs consolidés. Au fil de la descente de près de deux cents mètres de dénivelé, la paroi dévoile une coupe stratigraphique à ciel ouvert où se superposent les laves compactes du cycle ancien et les brèches d'explosion récentes."
       },
@@ -91,7 +341,7 @@ const SPOTS_3 = [
         title: "Le lézard géant de Grande Canarie (Gallotia stehlini)",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczP8ORwHH6RZZCB0hRQo_esEBjAfo809rnHGItZXlDYR_CHqNA8rIyevcRxpWe5z_hG6lEMBi8fC2wEShBc09TiPFmCC3OeEb3gfS7-AWEcWiLWRbhM_TbpJE4vcJH4cBQlOOuCjEDH1goQYuuI9f5_y8A=w1379-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNzUueEIVTRfrXxCz5hsQe0LCTf5yhaR35PePoFq026l7d4aKo1YEOhPjz4mlEZJ_M96gU7J6itsbfN93xu4c8XrtZrURlRfKkNkppoaJm6maDg4_QYvlfWOY7OhAhgbA1oJl-Q0W95wWNfKR-QmrYQ=w1379-h919-s-no-gm?authuser=0"
+          "https://lh3.googleusercontent.com/pw/AP1GczNzUueEIVTRfrXxCz5hsQe0LCTf5yhaR35PePoFq026l7d4aKo1YEOX0hPjz4mlEZJ_M96gU7J6itsbfN93xu4c8XrtZrURlRfKkNkppoaJm6maDg4_QYvlfWOY7OhAhgbA1oJl-Q0W95wWNfKR-QmrYQ=w1379-h919-s-no-gm?authuser=0"
         ],
         text: "Le Gallotia stehlini (lézard géant de Grande Canarie) est la plus grande espèce vivante du genre Gallotia, pouvant atteindre 80 cm de longueur totale chez les mâles adultes. Endémique de l'île de Grande Canarie (bien qu'introduit à Fuerteventura), il occupe des milieux variés allant des zones côtières arides aux ravins humides jusqu'à plus de 1 800 m d'altitude. Sa robe brun-grisâtre à olivâtre s'accompagne souvent de taches latérales plus claires et d'une gorge orangée ou rougeâtre, particulièrement marquée chez les vieux mâles à la tête massive. Principalement herbivore et frugivore à l'âge adulte (fleurs, fruits de figuier de Barbarie, feuilles), il consomme également des invertébrés et occasionnellement de petits vertébrés. Espèce diurne et territoriale, ce lacertidé joue un rôle écologique clé dans la dispersion des graines de la flore endémique canarienne."
       }
