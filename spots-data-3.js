@@ -123,7 +123,7 @@ const SPOTS_3 = [
       {
         title: "Le village troglodytique et les abris sous roche de la Cueva de los Pilares",
         photos: [
-          "https://lh3.googleusercontent.com/pw/AP1GczPKiIYx3Q5ySebMxUEoDQvZqkWW2QzqvnYM_Sgtmtl0hzkLkAplEpqFaUDa0fEH1ec866NDuO9DvQEY0R0wLOuzKvho6cdo7XKVJq36onxh_zYZ4nko-QF21d9WuLA7sswgjMxkeLsP5HCWRLdvUg3WQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPKiIYx3Q5ySebMxUEoDQvZqkWW2QzqvnYM_Sgtmtl0hzkLkAplEpqFaUDa0fEH1ec866NDuO9DvQEY0R0wLOuzKvho6cdo7XKVJqI36onxh_zYZ4nko-QF21d9WuLA7sswgjMxkeLsP5HCWRLdvUg3WQ=w1379-h919-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczOPAOMiLCnjBsHt3bLV1LyxgR1ktixprUSo_2Gjt2E2grbSlgnLsDBz7x9fWzB3g0A8QxaWP4omYkSGhs2ir68klz4Uslp0_7ITQDNAIv3z6piRKYRaZtMkhU6ywWakvp3eCbXoJGEiSCnTLlva_nMq3w=w1379-h919-s-no-gm?authuser=0"
         ],
         text: "En poursuivant la progression vers l'est le long du même escarpement sud, le cheminement débouche sur le spectaculaire ensemble de la Cueva de los Pilares, véritable village troglodytique aménagé sur plusieurs niveaux superposés sous d'immenses abris sous roche naturels (solapones)."
