@@ -51,7 +51,7 @@ const SPOTS_3 = [
       {
         title: "Interface océanique de la Playa de Maspalomas et faune terrestre adaptée",
         photos: [
-          "https://lh3.googleusercontent.com/pw/AP1GczPzw7rKE7TWYq2YHZohlfLzaN1uH7aoJfU3Lr7EC_KxPqkep8lzprlYE8zHrTxNr5YoA1CvhLYITiDoV6lXNW08pXffjLgwrCematpHU0ORpifntYrVBrSjLfYoT8CudCxxy65-MyI1azKvR4ywsL8a2g=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMPOaSgS-hzkZLgNLJNOGaJ4gVUnPAFwbyRZswjv3pNwgOJVfiwPwG_l6590VQ3_eIbjFjKpFzZqcSxSGp3K3W1boE0njvI61mLimjv-8gUQOwIoexTjI4hxkgwwli4tio2Plyg3uAr2_Zy1s0EfrYFKg=w1378-h919-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczPozRPUmqX64D4KOhP8CXCE-lYzKMdqw_NanOesLYhHiIQh8kNNFKwHR80mddaqyTUvk2wK914k4C8BPf5PW9fsGljo_VXzypt_RQusesOraN0G6RbjLVVPa-wow3MQPgY4w38UjGoeLUzhrYogDzjo-A=w1379-h919-s-no-gm?authuser=0"
         ],
         text: "Sur son flanc méridional, l'édifice éolien vient mourir directement dans les eaux turquoise de l'océan Atlantique le long de la vaste Playa de Maspalomas, ruban littoral rectiligne de près de trois kilomètres de long exposé aux courants côtiers et à la houle du sud. Cette interface dynamique assure l'alimentation constante de la pointe de Maspalomas en sédiments frais, maintenant l'équilibre fragile d'un écosystème soumis à une aridité extrême et à un ensoleillement quasi permanent. Sous les buissons épineux de la frange dunaire et dans les zones de sable stabilisé évolue une faune terrestre discrète parfaitement adaptée à la chaleur, dominée par le grand lézard endémique de Gran Canaria (Gallotia stehlini), le scinque de Gran Canaria (Chalcides sexlineatus) et de nombreux coléoptères tenebrionidés sabulicoles."
