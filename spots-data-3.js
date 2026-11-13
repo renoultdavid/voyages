@@ -136,7 +136,7 @@ const SPOTS_3 = [
   },
   {
     id: "haria_mirador_del_rio",
-    name: "Haría - Belvédère Architectural du Mirador del Río (Œuvre de César Manrique)",
+    name: "Haría - Promontoire & Belvédère du Risco de Famara (Mirador del Río)",
     country: "Espagne",
     continent: "Afrique",
     flag: "🇪🇸",
@@ -147,9 +147,9 @@ const SPOTS_3 = [
     is_island: true,
     island_name: "Lanzarote",
     transport: "a_pied",
-    era_group: "contemporain",
-    era_label: "Chef-d'Œuvre d'Architecture Organique de César Manrique (1973), Falaise de Famara & Vue sur l'Archipel Chinijo",
-    century: "XXe siècle",
+    era_group: "nature",
+    era_label: "Falaises Basaltiques du Risco de Famara (471 m), Détroit d'El Río & Panorama sur l'Archipel Chinijo",
+    century: "Temps géologique",
     category: "panorama",
     counts: {},
     lat: 29.21443,
@@ -169,8 +169,8 @@ const SPOTS_3 = [
         caption: ""
       }
     ],
-    description: "Suspendu à près de cinq cents mètres d'altitude au sommet des falaises basaltiques vertigineuses du Risco de Famara, à l'extrémité septentrionale de Lanzarote, le Mirador del Río incarne l'une des créations architecturales les plus emblématiques et magistrales de l'artiste lanzaroteño César Manrique. Inauguré en 1973 sur l'emplacement d'une ancienne batterie d'artillerie côtière (Batería del Río) établie à la fin du XIXe siècle lors de la guerre hispano-américaine, cet édifice d'avant-garde illustre à la perfection la philosophie « Art-Nature / Nature-Art » de son concepteur : entièrement camouflé sous une épaisse couverture de roche volcanique et de scories locales, le bâtiment se fond littéralement dans la paroi minérale de la falaise sans en altérer le profil naturel.\n\nL'intérieur déploie des volumes organiques fluides aux murs blanchis à la chaux d'une pureté sculpturale, ponctués de coupoles acoustiques, d'escaliers hélicoïdaux, de sculptures mobiles suspendues et de deux immenses baies vitrées inclinées conçues comme les yeux géants d'un vaisseau ouvert sur l'infini. Depuis les terrasses extérieures en encorbellement au-dessus du précipice, le panorama plongeant embrasse les anciennes Salinas del Río au pied de la falaise, le bras de mer d'El Río et la silhouette lumineuse de l'île de La Graciosa accompagnée des îlots de Montaña Clara, Alegranza et Roque del Oeste composant la réserve marine de l'archipel Chinijo.",
-    visiter: "Franchir l'entrée sculpturale dissimulée dans la roche volcanique pour découvrir l'architecture intérieure blanche et fluide imaginée par César Manrique, admirer le panorama spectaculaire à travers les grandes verrières inclinées puis emprunter l'escalier menant aux terrasses supérieures dominant le détroit d'El Río et l'île de La Graciosa.",
+    description: "Suspendu à près de cinq cents mètres d'altitude à l'extrémité septentrionale de la muraille basaltique du Risco de Famara, ce promontoire rocheux vertigineux dévoile le panorama marin et géologique le plus grandiose de tout l'archipel des Canaries. Les escarpements subverticaux du massif ancien de Famara — dont les empilements de coulées basaltiques miocènes comptent parmi les formations géologiques les plus anciennes de Lanzarote — plongent à pic vers l'océan Atlantique, encadrant à leur pied le damier géométrique des anciennes Salinas del Río, plus vieux marais salants de l'archipel.\n\nPar-delà l'étroit bras de mer d'El Río aux eaux d'un bleu cobalt intense traversé par les courants atlantiques, le regard embrasse l'intégralité de la réserve marine de l'archipel Chinijo. Au premier plan s'étire l'île lumineuse de La Graciosa, ponctuée de ses plages de sable doré et de ses cônes volcaniques aux teintes ocres et rougeâtres tels que la Montaña Amarilla, la Montaña Bermeja et le massif central de Las Agujas, tandis qu'à l'arrière-plan émergent de l'horizon océanique les silhouettes sauvages des îlots inhabités de Montaña Clara, Alegranza et du Roque del Oeste.",
+    visiter: "S'avancer au bord du promontoire dominant les falaises abruptes du Risco de Famara pour embrasser la vue plongeante sur les bassins géométriques des Salinas del Río en contrebas et contempler le panorama circulaire ouvert sur le détroit d'El Río, l'île de La Graciosa et les îlots de l'archipel Chinijo.",
     link: ""
   },
   {
