@@ -290,7 +290,7 @@ const SPOTS_3 = [
         title: "Coulées cordées pāhoehoe, tunnels de lave et laboratoire naturel",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczOp4edbkdVVKwaPl5ymtnyGzDx-M92qtUJqKUhkmyRfzdw46w7QAOsnmDSpwLnkJgKMndjxsifoTcnKGq4JDXOGO2R6VHRRO1PnIq3bV5xZeqlSJxyxmAvB30Kg-Qn-d7ZNN5t_ljgdWXdkRgS5grrk-w=w1379-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNrbrXarctqIwab0tRCkSTvxeJxmLddaqtvMRWt5C-q5ZHi4T4wv82ZDFyjW1FFhNAtJpofPmurEySCXMBbmleSd24hrjGw9H8xmjfP6fx8ZO-PuiQt7EMKOL71jQPKdTqgFrplUZczERTkr60jhQErmw=w1379-h919-s-no-gm?authuser=0"
+          "https://lh3.googleusercontent.com/pw/AP1GczNrbrXarctqIwab0tRCkSTvxeJxmLddaqtvM9Wt5C-q5ZHi4T4wv82ZDFyjW1FFhNAtJpofPmurEySCXMBbmleSd24hrjGw9H8xmjfP6fx8ZO-PuiQt7EMKOL71jQPKdTqgFrplUZczERTkr60jhQErmw=w1379-h919-s-no-gm?authuser=0"
         ],
         text: "La fin de la boucle contourne la base septentrionale de l'édifice avant de regagner le sentier d'approche à travers les coulées cordées (pāhoehoe) et les tunnels de lave effondrés qui témoignent de la fluidité extrême des magmas basaltiques de 1730. Tout au long du parcours, des panneaux d'interprétation géologique jalonnent le sentier et éclairent la chronologie de ce bouleversement environnemental qui engloutit les terres agricoles les plus fertiles de Lanzarote sous des millions de mètres cubes de roche en fusion, donnant naissance à l'un des laboratoires naturels les plus purs pour observer la genèse des sols volcaniques et la reconquête du vivant en milieu aride."
       },
