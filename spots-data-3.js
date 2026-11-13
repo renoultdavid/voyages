@@ -7,6 +7,88 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "ercolano_mont_vesuve_gran_cono",
+    name: "Ercolano - Randonnée du Mont Vésuve & Cratère du Gran Cono (Parco Nazionale del Vesuvio)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Campanie",
+    department: "Province de Naples",
+    subdiv: "Ercolano",
+    altitude: 1281,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Randonnée sur Volcan Actif de Type Somma (1 281 m), Caldeira de 79 apr. J.-C., Coulées Historiques & Panorama sur le Golfe de Naples",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1, volcan: 1 },
+    lat: 40.82161,
+    lng: 14.42538,
+    image: "https://photos.fife.usercontent.google.com/pw/AP1GczMwW6mKVFNTEEtRSqM8ZG_dAjBoQgPeuuQnV33WbMMxor6FXg9Li6l3PQ=w1681-h1121-s-no-gm?authuser=0",
+    description: "Dominant de sa silhouette bifide emblématique toute la baie de Naples et la plaine fertile de Campanie, le Mont Vésuve (Monte Vesuvio) constitue l'unique volcan actif d'Europe continentale et l'un des édifices géologiques les plus célèbres et étudiés de l'histoire de la Terre. Protégé au sein d'un Parc national créé en 1995 et classé Réserve de biosphère par l'UNESCO, ce stratovolcan complexe de type « Somma » offre une lisibilité tectonique remarquable : son jeune cône terminal actif, le Gran Cono culminant à mille deux cent quatre-vingt-un mètres d'altitude, s'est édifié à l'intérieur même de la vaste caldeira d'effondrement de l'édifice primitif du Mont Somma, dont la muraille rocheuse septentrionale culmine à la Punta Nasone et témoigne d'une activité volcanique vieille de plus de vingt-cinq mille ans.\n\nLa randonnée sur ses flancs escarpés traverse d'impressionnants fleuves de lave basaltique et téphritique solidifiés lors des grands cycles éruptifs récents de 1858, 1872, 1906 et de la dernière éruption majeure de mars 1944, où se déploie une colonisation végétale pionnière dominée par le lichen argenté endémique Stereocaulon vesuvianum et le genêt de l'Etna. Depuis la lèvre sommitale du Gran Cono surplombant un cratère actif de six cents mètres de diamètre animé de discrètes fumerolles sulfureuses, le regard embrasse à trois cent soixante degrés les cités antiques ensevelies lors du cataclysme plinien de 79 apr. J.-C. — Pompéi, Herculanum, Oplontis et Stabies — ainsi que l'arc lumineux du golfe de Naples, la péninsule de Sorrente et les îles de Capri, d'Ischia et de Procida.",
+    intro_page: "Unique volcan actif d'Europe continentale et figure tutélaire de la baie de Naples, le Mont Vésuve incarne depuis l'Antiquité la puissance tellurique et la mémoire tragique de la Campanie. Cet édifice composite de type « Somma » dévoile une architecture géologique d'une clarté saisissante : le cône récent du Gran Cono, culminant à mille deux cent quatre-vingt-un mètres d'altitude, surgit au cœur de l'ancienne caldeira d'effondrement du Mont Somma, vestige d'un volcan primitif vieux de plus de vingt-cinq mille ans décapité par les grandes éruptions pliniennes, dont le célèbre cataclysme de 79 apr. J.-C. qui figea Pompéi et Herculanum sous les cendres et les nuées ardentes. L'ascension pédestre fend les spectaculaires coulées de lave noire des XIXe et XXe siècles — notamment celles de 1858, 1872, 1906 et de mars 1944 — patiemment reconquises par le lichen endémique Stereocaulon vesuvianum et le genêt de l'Etna. Au sommet, le sentier longe la crête vertigineuse d'un cratère large de six cents mètres et profond de deux cent cinquante mètres, révélant les strates de scories oxydées, les filons magmatiques et les fumerolles témoignant de l'activité latente du géant endormi, face à un panorama circulaire grandiose embrassant tout le golfe de Naples, la péninsule sorrentine et les îles de Capri, d'Ischia et de Procida.",
+    visiter: "S'élancer à pied sur les sentiers pédestres du Parc national du Vésuve à travers les coulées de lave historiques jusqu'au belvédère supérieur situé à mille mètres d'altitude, puis gravir en lacets le sentier balisé serpentant dans les cendres et les pouzzolanes du Gran Cono. Longer la crête sommitale sécurisée pour observer l'intérieur stratifié du cratère actif et ses fumerolles avant de contempler la vue panoramique sur le Mont Somma, le golfe de Naples et l'archipel campanien.",
+    link: "",
+    sections: [
+      {
+        title: "Les coulées de lave historiques des XIXe et XXe siècles",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMAL4vBTtCyEDvucNfveaJWC1EshKG7JoEi1vuVibD9HoHVsfbEo9_5FUXJpNiSJJqGzsUb7B_plOWsQlfeHGGzirXIvbVHX_7G9cxd2Npx1Xwx5VSUGwoCvteeFowCZjJLqkPWWH-oR_neqK38SVBw7w=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPB7qaI3qbvZjARXWbcMfRWU_gYiVKXFBmNij3Kx7G88mU3jf-1tz_dxAaT9J3A0ozBB2zGvD2q7LMM8b2D6PNH96JciH-qLuOi7JnNacGompFBvP8hgkaIsVCFsdMvkwu7tTkw_FTIrsa1Jiq2Nz6gog=w1681-h1125-s-no-gm?authuser=0"
+        ],
+        text: "Le sentier d'ascension fend littéralement d'impressionnantes coulées de lave solidifiées datant des grands cycles éruptifs des XIXe et XXe siècles, en particulier les épanchements massifs de 1858, 1872, 1906 et la dernière éruption majeure survenue en mars 1944. Ces fleuves de roche basaltique et téphritique riche en leucite dévoilent toute la diversité morphologique des laves sombres, alternant entre des chaos scoriacés rugueux et déchiquetés (malpaís ou laves de type ʻaʻā) et des surfaces plus fluides et cordées (pāhoehoe), figées en vagues pétrifiées brun anthracite."
+      },
+      {
+        title: "La flore pionnière : le lichen Stereocaulon vesuvianum et le genêt de l'Etna",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNS1drdJW_Jcox21I3d5LE9B3Na1_POSxKyDQoKXAnPPoKmkuPag8SG8RSFseXS3TgG60VTOPefMsYdXMA7bE-SZxgpBX5dBr5RHCN0llFUg7C9JAdw6F-DCOKgTZL4MN3rz1Z_rP9TdOEcHc4OZibM2w=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPgfem0RKwbsTeOQKr4V_QxN3ZjmjCOg_tE6B-M6Otmvh-12XoDSFqT3JmYjfaYeErL4twGhbj1y4ETTkQO3dqWDAZyZuVU6upVYKM-jOxSEMVVVBcTwpdjlW0hs5J6snKzzfQl830lTpmaH8WIG11FoA=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "Sur ce substrat volcanique récent s'observe une remarquable succession écologique pionnière : les blocs de lave sont tapissés d'un duvet gris argenté formé par le lichen endémique Stereocaulon vesuvianum, premier colonisateur capable d'altérer la roche nue, rapidement relayé dans les poches de cendres par les touffes lumineuses du genêt de l'Etna (Genista aetnensis), des valérianes rouges et des armoises sauvages."
+      },
+      {
+        title: "La muraille du Mont Somma, la caldeira de 79 apr. J.-C. et l'Atrio del Cavallo",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOc-rkahuuD7omMjvVB00tla-S2F7D6AupJ8eY1Bf5Mkw42f_HhG_1SzNmm5bGIuXfTaTtFQd6n_GYQHuO_Ga320H2eYtxlI4z3lpU_1EJi2jL0JyEWMbLhslhda1ceoxrWZ_K8lsvC6qzVC1O7fI1eqQ=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPHGBRrtADG38uqx8RD5gggAlBKxkeMy7HsbLqG_JBjmakHTwYdu69OZW1wA2Bf81feNCvwNAHwg87SvxiQ67gAPuxmcaNf2GbiyIRvjOTGMg-n--ukzAvYltv1zB0nD3z6TsxwYC_bgkgrIPCW2eeTDw=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "Avant d'atteindre le cône terminal, le regard embrasse l'imposante muraille semicirculaire du Mont Somma (Monte Somma), vestige monumental de l'édifice volcanique primitif dont l'activité remonte à plus de vingt-cinq mille ans. Ce rempart rocheux déchiqueté, culminant à mille cent trente-deux mètres d'altitude à la Punta Nasone, correspond à la paroi septentrionale d'une gigantesque caldeira d'effondrement formée à la suite des cataclysmes pliniens majeurs, notamment l'éruption d'Avellino à l'âge du Bronze et surtout la célèbre éruption de 79 apr. J.-C. qui ensevelit Pompéi, Herculanum, Oplontis et Stabies sous des mètres de ponces et de nuées ardentes. Entre l'escarpement abrupt du Mont Somma et les flancs du jeune cône vésuvien (Gran Cono) édifié ultérieurement à l'intérieur même de la caldeira s'étire la dépression lunaire de l'Atrio del Cavallo et de la Valle dell'Inferno, couloir minéral où s'engouffrèrent jadis les coulées de lave et qui illustre avec une lisibilité pédagogique exceptionnelle la structure emboîtée des volcans de type Somma."
+      },
+      {
+        title: "L'ascension du Gran Cono et l'arrivée au bord du cratère (1 281 m)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM50d3KQr3gAI-jKSGEOaF1NJ-QfxzS2odVUt7SatD_2FNFnVdXdC-xG2YqS4qB_6SBZ5ROsxu-inFcRaWFdOGv3PvYoyt_AC60lWQqibF13EWNlKFPGlAMzBlQYqCgDR02ErtkEp85tjSoL7oyN-JjmA=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNUnPbNXYivYGO652WygyjfWr9_S9udm8KMa4sKWGjxUfoHeVyFmdMsLwKdiaIxBQkVgkOoUE69lTOXUs1pee7WYp9HocVMGD_liOwPYi5svsdjxS_t-Ev9hMldNdF5y6F3fyOk6hyC1FLJfGV7eK23VA=w1681-h1125-s-no-gm?authuser=0"
+        ],
+        text: "À partir du palier situé à environ mille mètres d'altitude, le sentier pédestre du Gran Cono s'engage en lacets réguliers sur les pentes raides du cône terminal, composées d'une épaisse accumulation de lapilli, de pouzzolanes rougeâtres et de cendres sombres instables. L'arrivée sur la lèvre sommitale, culminant à mille deux cent quatre-vingt-un mètres d'altitude, dévoile brusquement l'immense entonnoir circulaire du cratère actif, large de près de six cents mètres et profond d'environ deux cent cinquante mètres."
+      },
+      {
+        title: "Stratigraphie interne du gouffre, dykes magmatiques et fumerolles",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNU7AadMU3upBGjtmeFliGp6VpZfQVVaeIdzUpo45nBzzgwDT4s_58TCqNZ75hNKFFwnYkBC-kVeh2Gmd0V9KD6QWhlkDVx7PPOZ-LbsGYrIbHt5l_ztiwvZfshMHWBm3i5Cj6l17lvnq2kmEacmNU9yA=w1681-h1125-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM2teznTTplhIqbtteEFcxsaV61CY7aTlwQbaNSTmjqO29G5LdpBJc23Dw3tueDe9fsn5W6KBseVRfd9caIoggU6ZroRFVnR6eQiw40WnqrNUWWZ5Hu1GTxYzZ0ji-azirmlRTSj967QVy3vBa56i3M2w=w1681-h1125-s-no-gm?authuser=0"
+        ],
+        text: "Ses parois intérieures vertigineuses offrent une coupe stratigraphique à ciel ouvert où se superposent les bancs de laves compactes, les couches de scories oxydées aux nuances ocre, rouille et pourpre, ainsi que des filons magmatiques (dykes) injectés verticalement dans l'édifice. Au fond du gouffre encombré d'éboulis et le long des fissures de la paroi orientale s'échappent en permanence de discrètes fumerolles de vapeur d'eau et de gaz sulfureux qui déposent des efflorescences jaunes et blanches sur la roche chaude, rappelant que le volcan demeure en état de repos surveillé."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO9wapfb2LeigtmlKNra3hogFHj1lp0LWVVkCFgvas3-mWZCpQTuZXqIFlkq7uNLJZVXTpTqRTMNhximuZumRm_xUN12IPP9ULfwV0H2FzeYoYWe3pndjwlEKm4j4kdEGWpQJ0cGdf42rywlg2EKodkdw=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMD-0h1rQqYZPTOSt94GMzlIcgdk8XFF3B34UVNTPP-xJzD-9lFikmYxWpHRxLNgPzhTl-qZE7u4sTB2_Qdrew82JWuV8MGDGy9cbI5_xAS6-KclopLTErUlKVBKxRXm_WtR1pF0Oy70YfRU4eiBNX6fA=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Panorama à 360 degrés sur le golfe de Naples, Sorrente et Capri",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPi0s3oXWx9iAVrP6VeenD9BYHtFqCMqYUUOeXfAptSEVslgIjwwnpaLaz1Iqk7SMlELhlH840YJh9Nan7synXgcXo84D7Jk8Hui2b_hMC0WnGLaJgt3Lo0ccS3i2g3L8lYSI2c5Wi4E5Nr7aFxidju5A=w1681-h1121-s-no-gm?authuser=0",
+          "https://photos.fife.usercontent.google.com/pw/AP1GczODqMnVHRCTgHyNDYyTvwCXbUYRLbXXc31J6jLH6nMestSbKtZuBys6lA=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "En cheminant le long de la crête sommitale, le panorama embrasse à trois cent soixante degrés toute la Campanie : au premier plan se dessinent les anciens flots de lave plongeant vers les cités côtières, tandis que l'horizon s'ouvre sur l'arc lumineux du golfe de Naples, la péninsule de Sorrente et les silhouettes découpées des îles de Capri, d'Ischia et de Procida."
+      }
+    ]
+  },
+   {
     id: "caserte_palais_royal_reggia",
     name: "Caserte - Palais Royal de Caserte (Reggia di Caserta)",
     country: "Italie",
