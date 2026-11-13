@@ -8,7 +8,7 @@ const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
     id: "ercolano_mont_vesuve_gran_cono",
-    name: "Ercolano - Randonnée du Mont Vésuve & Cratère du Gran Cono (Parco Nazionale del Vesuvio)",
+    name: "Mont Vésuve (Parco Nazionale del Vesuvio)",
     country: "Italie",
     continent: "Europe",
     flag: "🇮🇹",
