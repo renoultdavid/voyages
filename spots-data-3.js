@@ -7,6 +7,315 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "yaiza_bordure_parc_national_timanfaya",
+    name: "Yaiza - Bordure & Champs de Lave du Parc National de Timanfaya (Montañas del Fuego)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Lanzarote",
+    subdiv: "Yaiza",
+    altitude: 322,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Immense Champ Volcanique des Éruptions de 1730-1736 & 1824, Malpaís Basaltique & Cônes Pyroclastiques",
+    century: "Temps géologique",
+    category: "volcan",
+    counts: {},
+    lat: 28.99211,
+    lng: -13.74252,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczObV_hsf4uOOZgnBrl7xgqYDbA48qdbEieywP41xLrbWxFpNL3CdCbYdECQXOj9vtbYFMygzSP1w-Pn6T8gIjcnTRgxQEg2jzWuPE_B1bIcFd4vDY_hGoMIs6iuc48-ZK8r_JzrsvHoua8TSJaSdzZ8Iw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOY5xo-PKZYnwkaRySe-3u7nDoFVVTNZkf3dxU-Yj7TuJWPnBFEX09a1Wg0bVBg1qEjmcpbdjOghHWrl6gYQcU3bKVcV_C0r_6BPaQDB5YIYAznedAMmR1M1VUD3TuxDmi5mRjIpxvP8aWeSYcQ9J_aPA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Longée par la route panoramique LZ-67 reliant Yaiza à Tinajo, la bordure méridionale du Parc national de Timanfaya offre un saisissant observatoire à ciel ouvert sur l'un des paysages volcaniques les plus purs, spectaculaires et préservés de la planète. Ce désert minéral d'une austérité lunaire est né de deux épisodes éruptifs majeurs qui bouleversèrent la géographie du sud-ouest de Lanzarote : d'abord le cataclysme historique survenu entre septembre 1730 et avril 1736 — l'une des éruptions fissurales les plus longues et volumineuses des temps modernes, qui recouvrit près d'un quart de l'île sous des milliards de mètres cubes de magma —, suivi d'une dernière réplique volcanique en 1824.\n\nDepuis les abords de cette frontière protégée, le regard embrasse à perte de vue un océan figé de malpaís basaltique noir et brun sombre hérissé de crêtes scoriacées acérées, d'où émergent les silhouettes dénudées des cônes pyroclastiques des Montañas del Fuego aux nuances de rouge carmin, d'ocre doré et d'anthracite. En raison de l'aridité extrême du climat et de la jeunesse géologique de ces coulées, l'érosion demeure quasi inexistante et la colonisation végétale se limite aux incrustations pionnières de lichens gris-vert, préservant avec une netteté saisissante l'aspect originel de la Terre au lendemain de sa genèse tellurique.",
+    visiter: "Faire halte sur les aires panoramiques aménagées en bordure de la route LZ-67 à l'entrée du Parc national de Timanfaya pour contempler l'immensité silencieuse des champs de lave noire s'étendant jusqu'aux cônes rouges des Montañas del Fuego et observer le contraste graphique entre le ruban d'asphalte et le chaos basaltique.",
+    link: ""
+  },
+   {
+    id: "haria_cueva_de_la_paloma",
+    name: "Haría - Tube Volcanique de la Cueva de la Paloma (Malpaís de la Corona)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Lanzarote",
+    subdiv: "Haría",
+    altitude: 98,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Jameo & Tunnel Volcanique du Malpaís de la Corona, Puits de Lumière & Formations Basaltiques",
+    century: "Temps géologique",
+    category: "nature",
+    counts: {},
+    lat: 29.16371,
+    lng: -13.45054,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOzol1yFMbuc2Y1tq06pMjlzWona5ZUoCgSAo0mSZJOiu7Us-1YIz2GeCylKUo5Q_rrauW0iTZG1MFMJB2yl6KqQSyjmBLd79F3uzJDX3gpAvTF8np65W5yZmSCCkPlWDOjP5sZGhjVOijjsSF_gyte8A=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNly6b7DON1E6yT81yN-sP9o0BKTRHgpeaPwD6cAQ8PEGWVZcVvjmK4AVKYY91ggqCDSWaCqESh7jJmdGrf_I4JkX3kg_WQi00xUqEpS2RqvdZ8ZG3oqcCKgutFeFKMs8fusCwYg-RlSEGNQAAOHMtUbA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOpcQZP6hV-UIMuDTLWxzsEroujOaiFTyqYSMp8pjq2UqLf5tUIP3ZNr_n6fj-nz0zY7Bg74hztXBwc1qLW96PUYDG8kIS-yXvbPT1X6vd7aPXccn4ThslE3L8rD2hhehTFvI0XQsN6Ffpel41QvL6Hpg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dissimulée au cœur du champ de lave chaotique du Malpaís de la Corona, à proximité de Punta Mujeres et d'Arrieta sur la commune de Haría, la Cueva de la Paloma constitue l'une des sections souterraines les plus authentiques et sauvages du gigantesque réseau volcanique du tunnel de l'Atlantide. Creusé il y a environ vingt-et-un mille ans lors des grandes éruptions effusives du Volcán de la Corona, ce conduit souterrain s'est formé lorsque la croûte superficielle de la coulée de lave basaltique s'est refroidie et solidifiée au contact de l'air tandis que le magma incandescent continuait de s'écouler en profondeur vers l'océan Atlantique.\n\nL'effondrement partiel d'une portion de la voûte basaltique a ouvert un puits d'accès naturel (jameo) par lequel un faisceau de lumière zénithale plonge dans l'obscurité minérale de la galerie. À l'abri des vents alizés et de l'aridité extérieure, cet espace protégé favorise l'installation de fougères rupicoles, de mousses et de figuiers sauvages accrochés aux parois humides. La progression à l'intérieur des galeries révèle la richesse morphologique du volcanisme souterrain lanzaroteño : voûtes hémisphériques tapissées de petites stalactites de lave refondue (estafilitos), banquettes latérales marquant les niveaux successifs du fleuve de magma et parois scoriacées aux nuances ocres et anthracite.",
+    visiter: "Emprunter les sentiers pédestres serpentant à travers les blocs de basalte du Malpaís de la Corona pour atteindre l'ouverture circulaire effondrée de la Cueva de la Paloma. Les visiteurs descendent prudemment l'éboulis d'entrée pour observer le contraste spectaculaire entre le puits de lumière zénithale et l'obscurité des galeries souterraines tapissées de concrétions de lave.",
+    link: ""
+  },
+  {
+    id: "haria_plage_caleton_blanco",
+    name: "Haría - Lagunes & Plage du Caletón Blanco (Órzola)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Lanzarote",
+    subdiv: "Haría",
+    altitude: 2,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Lagunes Littorales Abritées, Sable Blanc Bioclastique & Coulées Basaltiques Noires",
+    century: "Temps géologique",
+    category: "plage",
+    counts: {},
+    lat: 29.21612,
+    lng: -13.44261,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMP2Z4yONsLhHYhUvuyVMNaCbFzCKA7SEX5IKB0wA3d-7Coab3Ebz_4tu08N2IrqlsC6KTzyRrMZGU_7OFWVtMVAAH--tALAd8z730fLkJoocV_0OjHRKlcKoGDEOh73wNQHoWeUghFO4hpxXrQ1oMalw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNcYc47RzMHn-uObK3sCcqliNUUJt0eJPA0jmEvZ8W3SlN_fOjE1UWVync-mGMaYq7koLE5FSPqh5xB0T1oPT29TaHkjMOXkX6eRVbk0mcVRjO2uFNqzOohkynykA8wv2R0Yno7Yhop-kkmrULlCONr_Q=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Situé à l'extrême pointe nord-orientale de Lanzarote, juste au sud du port d'Órzola, le littoral du Caletón Blanco offre l'un des paysages côtiers les plus saisissants et chromatiquement contrastés de tout l'archipel des Canaries. Ce site naturel d'une beauté singulière naît de la rencontre directe entre les langues de lave basaltique noire d'ébène — avancées jusqu'à la mer lors des éruptions anciennes du Volcán de la Corona — et des accumulations de sable marin blanc d'une finesse et d'une pureté éclatantes.\n\nLes récifs de lave sombre qui avancent dans l'océan forment une barrière naturelle brisant la houle atlantique, isolant une multitude de petites criques fermées et de lagunes peu profondes aux eaux cristallines d'un vert émeraude et d'un bleu turquoise lumineux. Ponctué de petits murets circulaires en pierre volcanique sèche (zocos) édifiés par les habitants pour s'abriter des alizés et colonisé par une flore halophile adaptée aux embruns, le Caletón Blanco compose un amphithéâtre littoral paisible d'une harmonie picturale incomparable.",
+    visiter: "S'arrêter en bordure de la route côtière LZ-1 au sud d'Órzola pour parcourir à pied les langues de sable blanc serpentant entre les récifs de basalte noir du Caletón Blanco. Les promeneurs observent la transparence exceptionnelle des lagunes naturelles à marée basse et le contraste graphique entre le blanc éclatant de l'estran et la roche volcanique sombre.",
+    link: ""
+  },
+  {
+    id: "haria_port_orzola",
+    name: "Haría - Port Maritime & Village des Pêcheurs d'Órzola (Puerto de Órzola)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Lanzarote",
+    subdiv: "Haría",
+    altitude: 1,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Port Septentrional de Lanzarote, Maisons Blanches Côtières & Liaison Maritime vers La Graciosa",
+    century: "XXe siècle",
+    category: "port",
+    counts: { port: 1 },
+    lat: 29.22310,
+    lng: -13.45234,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOFO3egiU-xpfbkue2MAbwiiAJC2oUYTH4HQO7Pf46ILjkZ5zD1aqcFu5iNJ-tryPNyexej4T7Vkzs5ZGnMRTKtz9JxxYp82fbyXmagQ53q8iIaw8QeYZtFGoMoURRp8MabXAlmXf_ggNkE1gdGvbPZvw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOxvf_lv5ziea9TtKxPOm74nZupyCIpL1kmQEBpOSGGs7j39anwJ7YnF2zIxbG1X8YHN55-iV7CGwaBTpNGVExIhvHe0AT_YYzkWZdPB8j1TIDyXaifAvAUtbTiTh3RQUsBp9dDpYzZgja7pKzxXqKf-Q=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Implanté à l'extrême pointe septentrionale de Lanzarote, au pied des escarpements vertigineux qui prolongent les falaises de Famara et en bordure des champs de lave du Malpaís de la Corona, le port d'Órzola constitue la localité habitée la plus au nord de l'île. Ce bourg maritime authentique, tourné vers les eaux agitées du détroit d'El Río, a conservé l'allure paisible d'un village de pêcheurs traditionnel avec ses maisons cubiques basses blanchies à la chaux aux volets peints de bleu marin ou de vert, posées directement sur le rivage basaltique.\n\nAbrité par une jetée protégeant le bassin portuaire des courants de l'Atlantique nord, Órzola joue le rôle stratégique de trait d'union maritime unique avec l'archipel Chinijo : c'est depuis ses quais qu'embarquent les liaisons régulières traversant le bras de mer d'El Río vers Caleta de Sebo sur l'île voisine de La Graciosa. Animé par le va-et-vient des barques de pêche artisanale et ouvert sur un horizon marin grandiose dominé par les falaises de la Punta Fariones, le port offre une atmosphère bout-du-monde baignée par le souffle pur des alizés.",
+    visiter: "Flâner le long des quais et de la promenade maritime du port d'Órzola pour observer les embarcations de pêche traditionnelles, admirer les maisons blanches et bleues alignées face au bassin et contempler la vue panoramique sur le détroit d'El Río et les reliefs volcaniques de l'île de La Graciosa au large.",
+    link: ""
+  },
+  {
+    id: "haria_mirador_del_rio",
+    name: "Haría - Belvédère Architectural du Mirador del Río (Œuvre de César Manrique)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Lanzarote",
+    subdiv: "Haría",
+    altitude: 471,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Chef-d'Œuvre d'Architecture Organique de César Manrique (1973), Falaise de Famara & Vue sur l'Archipel Chinijo",
+    century: "XXe siècle",
+    category: "panorama",
+    counts: {},
+    lat: 29.21443,
+    lng: -13.48155,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMJSMkwvBZKwnIDlvDKtrBxXJviJOz9l0J6-95LaWDO_mJVpn-QuD6o-MfT3wQI3g3SCeCdMmM3_iaNu3NHt_na1olPWgmDffKYJ_MhdrTVs9HJi8Zd8ms9EfPNEYkEFf-iBs3jlJZ2PhmmncjxJNMgTA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOvRIrhQob-3JC3kY4nVVR6v9WAnQKo2-cL7Lh6crMctwSlcHKCuZjphBjT5KZyLY5mp6yljMriKHMMU6MVlKq0gve-ObExHSDmU-1aIoEJIOS4mw9a_u8Q3vqUHPtBRpS5dx_bGaCLJUjrUb1Flu23Uw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO2Lyr22mxf_Rxp5wcwFJ8ODBZHdnNfuL_sQvNXcS2iTnS6z2MZeA34f3gBZXPnR77v04MOR6hoPQ7IintQZFHHjNrdjQQr8ch3H2qhZ7d85vp0IFzqU_r830PVfYreyh2t97biTVTYg0riO1_JFS_7sg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPqRqTReKDj3Yqf3XRzoxA7s1VEGJ1pHPQ8RPrBWaK_gvlk1AVXkLs6uV7w_0pqoEXj1VsemS4NOmwMYmu9MD_x111gQTeTNpgSQAc0l1gLgdz1PoUdzzcBKD1wJgYirEftBLmgAwH0F2dM-gC-vuJZdw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Suspendu à près de cinq cents mètres d'altitude au sommet des falaises basaltiques vertigineuses du Risco de Famara, à l'extrémité septentrionale de Lanzarote, le Mirador del Río incarne l'une des créations architecturales les plus emblématiques et magistrales de l'artiste lanzaroteño César Manrique. Inauguré en 1973 sur l'emplacement d'une ancienne batterie d'artillerie côtière (Batería del Río) établie à la fin du XIXe siècle lors de la guerre hispano-américaine, cet édifice d'avant-garde illustre à la perfection la philosophie « Art-Nature / Nature-Art » de son concepteur : entièrement camouflé sous une épaisse couverture de roche volcanique et de scories locales, le bâtiment se fond littéralement dans la paroi minérale de la falaise sans en altérer le profil naturel.\n\nL'intérieur déploie des volumes organiques fluides aux murs blanchis à la chaux d'une pureté sculpturale, ponctués de coupoles acoustiques, d'escaliers hélicoïdaux, de sculptures mobiles suspendues et de deux immenses baies vitrées inclinées conçues comme les yeux géants d'un vaisseau ouvert sur l'infini. Depuis les terrasses extérieures en encorbellement au-dessus du précipice, le panorama plongeant embrasse les anciennes Salinas del Río au pied de la falaise, le bras de mer d'El Río et la silhouette lumineuse de l'île de La Graciosa accompagnée des îlots de Montaña Clara, Alegranza et Roque del Oeste composant la réserve marine de l'archipel Chinijo.",
+    visiter: "Franchir l'entrée sculpturale dissimulée dans la roche volcanique pour découvrir l'architecture intérieure blanche et fluide imaginée par César Manrique, admirer le panorama spectaculaire à travers les grandes verrières inclinées puis emprunter l'escalier menant aux terrasses supérieures dominant le détroit d'El Río et l'île de La Graciosa.",
+    link: ""
+  },
+  {
+    id: "haria_hameau_vallee_des_mille_palmiers",
+    name: "Haría - Bourg Historique & Vallée des Mille Palmiers (Pueblo de Haría)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Lanzarote",
+    subdiv: "Haría",
+    altitude: 285,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Oasis Verdoyante du Nord de Lanzarote, Architecture Blanche & Palmeraie Historique des Canaries",
+    century: "XIXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 29.14677,
+    lng: -13.49784,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP2n9HC-ydY9Zm0M17WxAibQboxWlumFLr2Io3J6BTWJSmVS0SRISId5G3kMnl30atM-SUxBu9fY1fzQRnpaAaZDUArDjmAs7QHGzmMuAEu7cS5aLtqC0yFfIhnO9v73GFw1K1nOSGyGuhMf6m6k23DyA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Lové au creux d'une vallée fertile et abritée des vents dominants au pied des versants orientaux du massif ancien de Famara, le bourg historique de Haría dévoile le visage le plus verdoyant, intime et poétique de l'île de Lanzarote. Universellement surnommé la « Vallée des Mille Palmiers » (Valle de las Mil Palmeras), ce microclimat exceptionnel bénéficie de l'humidité condensée sur les crêtes voisines et des ressources aquifères souterraines qui alimentent une oasis luxuriante de palmiers dattiers des Canaries (Phoenix canariensis), d'amandiers, de figuiers et de vergers en terrasses contrastant de manière saisissante avec l'aridité minérale du reste de l'île.\n\nLe village historique séduit par l'harmonie préservée de son architecture traditionnelle : ses maisons basses blanchies à la chaux aux boiseries vertes ou brunes s'alignent paisiblement le long de ruelles fleuries convergeant vers l'ombre apaisante de la Plaza León y Castillo plantée de lauriers des Indes et d'eucalyptus centenaires. C'est au cœur de cette oasis sereine entourée de murets de pierre sèche que l'artiste César Manrique choisit d'établir sa dernière résidence (aujourd'hui transformée en maison-musée), séduit par le silence pastoral et l'équilibre séculaire entre l'habitat traditionnel et la nature insulaire.",
+    visiter: "Flâner à pied dans les ruelles paisibles du bourg de Haría et sous les grands arbres ombrageant la Plaza León y Castillo pour admirer les maisons traditionnelles blanches nichées au milieu des palmiers des Canaries, avant d'observer depuis les hauteurs environnantes la vue d'ensemble sur l'oasis verdoyante blottie au creux de la vallée.",
+    link: ""
+  },
+  {
+    id: "tinajo_volcan_montana_caldereta",
+    name: "Tinajo - Cratère Éventré de la Montaña Caldereta (Parque Natural de los Volcanes)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Lanzarote",
+    subdiv: "Tinajo",
+    altitude: 200,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cône Volcanique Pléistocène Éventré, Coupe Stratigraphique de Tufs Ocre & Champ de Lave de 1730",
+    century: "Temps géologique",
+    category: "volcan",
+    counts: { volcan: 1 },
+    lat: 29.04258,
+    lng: -13.71785,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOqy7N1qy9z44H8Y8t3vIUJYVhw33aTbSVmkNGw98VEKj4ufIs-kBisi8pn0b-8CtkF66fCi-LmtGfox57iI9xlYA1v3Rq0quETgWg2p8f71MxEqRrMuejym6NsblrnPsZhfSNdn_QxVTse-0iOMroouw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dressée à la base orientale du massif volcanique de la Caldera Blanca, au cœur du Parc naturel des Volcans sur la commune de Tinajo, la Montaña Caldereta constitue un édifice géologique satellite d'une lisibilité stratigraphique remarquable. Formé au Pléistocène bien avant les grandes éruptions historiques de Timanfaya, ce cône volcanique ancien fut encerclé lors du cataclysme de 1730-1736 par les immenses coulées de lave basaltique noire qui submergèrent la plaine environnante sans parvenir à engloutir sa silhouette proéminente, le transformant en un véritable îlot géologique (kipuka) émergeant au milieu du malpaís.\n\nL'édifice se distingue par la large brèche ouverte sur son versant oriental, qui éventre son cratère circulaire et expose à ciel ouvert une coupe géologique spectaculaire de dépôts pyroclastiques, de cendres compactées et de tufs stratifiés aux nuances ocre doré, gris cendré et brun volcanique. Colonisé par des lichens crustacés anciens et des touffes d'euphorbes balsamifères qui témoignent de son ancienneté par rapport aux laves noires environnantes, ce petit volcan constitue une étape privilégiée sur le sentier menant à l'ascension de la Caldera Blanca.",
+    visiter: "Suivre la piste balisée traversant le champ de lave depuis Mancha Blanca jusqu'au pied de la Montaña Caldereta pour observer de près l'ouverture naturelle de son cratère éventré, détailler les strates de tufs volcaniques ocres de ses parois internes et apprécier le contraste entre sa patine végétale ancienne et le malpaís noir de 1730.",
+    link: ""
+  },
+  {
+    id: "tinajo_rando_caldera_blanca",
+    name: "Tinajo - Randonnée & Cratère Géant de la Caldera Blanca (1 200 m de Diamètre)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Lanzarote",
+    subdiv: "Tinajo",
+    altitude: 460,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Plus Grand Cratère Volcanique de Lanzarote (1 200 m), Islote Pléistocène & Panorama sur Timanfaya",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1, volcan: 1 },
+    lat: 29.03444,
+    lng: -13.73227,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMLheyNUJJVig--CkrGTbc1oaipMERhm1cRsrgz9Un_BzMzrXjUNFYCjqFtn4n2CsxO6OFczejUm8MEMakic9egYQqIlTdyULbBIWDVqst2gRylZSXOkgf7pB7i7NsRFnCxeC54mvqdGqRUNjnh7UfvQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Dressée à quatre cent cinquante-huit mètres d'altitude au cœur du Parc naturel des Volcans, en bordure septentrionale du Parc national de Timanfaya, la Caldera Blanca abrite le cratère volcanique le plus vaste et spectaculaire de toute l'île de Lanzarote, mesurant près de mille deux cents mètres de diamètre. Édifié au Pléistocène lors d'une phase éruptive hydromagmatique ancienne, cet imposant massif aux teintes claires doit son nom aux dépôts de cendres patinées et à l'abondante couverture de lichens blanchâtres et gris-vert qui recouvrent ses pentes. Lors des grandes éruptions de 1730-1736, son relief colossal fit obstacle aux fleuves de lave noire qui l'encerclèrent entièrement sans le submerger, le transformant en un gigantesque islote (kipuka) dominant une mer figée de basalte.\n\nLa randonnée de neuf à dix kilomètres au départ de Mancha Blanca offre une traversée fascinante du malpaís entre laves cordées pāhoehoe et scories ʻaʻā, longe le cratère éventré de la Montaña Caldereta puis gravit les pentes extérieures jusqu'à l'arête sommitale de la Caldera Blanca. Le cheminement circulaire autour de ce gouffre monumental au fond argileux plat dévoile un panorama circulaire incomparable embrassant la chaîne rouge des Montañas del Fuego, les falaises de Famara, l'île de La Graciosa et les vignobles de La Geria.",
+    intro_page: "Abrite le plus vaste cratère volcanique de Lanzarote avec près de mille deux cents mètres de diamètre, la Caldera Blanca dresse sa silhouette claire au milieu de l'océan de lave noire né des éruptions de 1730. Au départ de Mancha Blanca, cette randonnée d'environ dix kilomètres traverse d'abord le malpaís chaotique, longe le cône éventré de la Montaña Caldereta puis gravit les pentes tapissées de lichens jusqu'à la crête sommitale. Le tour complet de l'arête offre une vue plongeante vertigineuse sur le fond plat du cratère et un panorama à 360 degrés sur les Montañas del Fuego, Famara et La Graciosa.",
+    visiter: "S'élancer depuis le parking aménagé près de Mancha Blanca sur le sentier balisé traversant le champ de lave noire jusqu'à la Montaña Caldereta, puis gravir le flanc oriental de la Caldera Blanca pour atteindre le rebord du cratère. Effectuer le tour complet de la crête sommitale en profitant de la vue plongeante sur le fond du cratère et les volcans de Timanfaya avant de redescendre par le versant nord vers le sentier du malpaís.",
+    link: "",
+    sections: [
+      {
+        title: "Départ près de Mancha Blanca et entrée dans le malpaís de 1730",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMLheyNUJJVig--CkrGTbc1oaipMERhm1cRsrgz9Un_BzMzrXjUNFYCjqFtn4n2CsxO6OFczejUm8MEMakic9egYQqIlTdyULbBIWDVqst2gRylZSXOkgf7pB7i7NsRFnCxeC54mvqdGqRUNjnh7UfvQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNBHh_9Ckz0dA6VDSAFedJCex_YpCqywzmkCEIKMxnxB3MdH6k6GpQshwShJGilsSAAIdyqaxCcosA6phZnHj-74dtlK-ToADa7PL607rn219jw028PtWjBM2maFr81p2fgWT5uEbWwxQg8rX2Zno-lCA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'itinéraire de randonnée, qui dessine un parcours d'environ neuf à dix kilomètres en aller-retour avec tour intégral de la crête sommitale, s'élance depuis les abords ruraux de Mancha Blanca, à proximité de l'ermitage de Nuestra Señora de los Dolores. Dès les premiers pas, le cheminement s'engage sur une piste bien tracée qui fend un impressionnant malpaís — cette mer figée de lave basaltique noire et brun sombre issue des bouches éruptives de 1730."
+      },
+      {
+        title: "Morphologie des coulées pāhoehoe et ʻaʻā, flore pionnière et murets socos",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczODqrDZFahnSFkv_VM7QAixgOHFbR9JfYUV9g-jJDcuxfyTDwEB392UyNhXpc_WH0qqBOEQp421G3w0XlYQ7GLyrIOluvTFppA1bzS8iv2y4SHnTLhpA3NLIir97YylW4_UxaVA_KMkDwXc_Q4EdS1kdw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMZgMmjX2e6v8MxDIclo5jXIXG2pb_-KAgShJC8Y_zf_FEwk_TxwMPbS-S_3GOoU3tPnV_CpWJbNY2jQyfMUIWMYKGJIspn0Vd3bZzxHl5OaynNh4N4XvryA7qV8xG2KKiqBE05njZa8ATMseW15068HQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La traversée de ce chaos minéral dévoile toute la diversité morphologique des coulées fluides de type pāhoehoe aux surfaces cordées, des tunnels de lave effondrés et des amoncellements scoriacés acérés de type ʻaʻā, sur lesquels s'accroche une flore pionnière résiliente dominée par les lichens fruticuleux (Stereocaulon vesuvianum), l'aulaga épineuse (Launaea arborescens) et la tabaiba douce (Euphorbia balsamifera), ponctuée çà et là d'anciens murets de pierre sèche (socos) témoignant d'anciennes tentatives de culture sur des lambeaux de terre épargnés."
+      },
+      {
+        title: "Passage au pied du cratère éventré de la Montaña Caldereta",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOLNXv0Q8EFKdxNrpbvJoH96WkdIeynKzg2QUmHmSNSeaXe6i3hXhXASj6FmgaHrdQ8Zza2coxx7V12ybmd6MXsIXUPGW1bKYz_D6fDp9emDBnXbGJIKLWE3pB2n1VctvCG3vmC1zEHq2OqqnFGRsGt-lO1jCZ3kw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOqy7N1qy9z44H8Y8t3vIUJYVhw33aTbSVmkNGw98VEKj4ufIs-kBisi8pn0b-8CtkF66fCi-LmtGfox57iI9xlYA1v3Rq0quETgWg2p8f71MxEqRrMuejym6NsblrnPsZhfSNdn_QxVTse-0iOMroouw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Après environ deux kilomètres et demi d'approche à travers les champs de lave, le sentier aborde la bordure orientale de l'ancien massif pléistocène en longeant la Montaña Caldereta, un premier édifice satellite plus modeste dont le cratère circulaire, éventré sur son flanc est, offre une coupe stratigraphique remarquable de tufs stratifiés ocre et gris."
+      },
+      {
+        title: "Ascension des pentes de la Caldera Blanca et végétation rupicole",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPD3QqnQERKjFZiGt8EpYLeZ5nDCy0R0KJSIlPo-0nEsvEoMWeOXKHP-Dp9iXP1QdlhrSz8vL-b2ppRksDd7lJu0LvSCVPhpb2t-MUneJ4IEK00B7f0i4Kjr84Iro6RS9E0-sHzo5JyfdlBy-GJCmb62Q=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOcc8RcJK8mGVyaGId2Z1o3Y86klNqCHhg7xqAwu-EbvsUiRoeSh3IpOmJfqfMld2MhihopYhRwMARN4YmTBkbg2s9CApdhEqFqKA4Sz54MRciWqZKOTdlS6udfXsiHWaq6Xtc2Fs3IapDYgxnzjfMVlg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En contournant ce premier relief, le chemin entame l'ascension soutenue des pentes extérieures de la Caldera Blanca sur un substrat de cendres compactées et de scories claires. L'exposition directe aux alizés humides favorise sur ces versants le développement d'une végétation xérophile et rupicole plus dense que sur les coulées récentes, associant des euphorbes balsamifères, des lavandes des Canaries (Lavandula pinnata), des Aeonium en rosettes charnues et de nombreuses espèces de lichens crustacés qui patinent la roche volcanique."
+      },
+      {
+        title: "Découverte du cratère géant de mille deux cents mètres de diamètre",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNvodL1Jma8mo7EamWh31ngSHGh97OXixFSpsB_E6bzFSxz7jEIZ3gEnDadD1DRqkuA7VwuIu6QWqEdQORdZWAxFqXpKiCjZZtxv9DmKWcUAWApmossIOV6EEIr58gDSS0NRduToqRlD33cxtOFLc4hDw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'arrivée sur le rebord méridional du cratère ouvre brusquement une perspective vertigineuse sur cet amphithéâtre géologique colossal, dont le fond plat, tapissé de sédiments argileux fins, retient parfois temporairement les eaux de pluie hivernales en une fine pellicule miroitante."
+      },
+      {
+        title: "Tour de l'arête sommitale et panorama à 360 degrés sur Lanzarote",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPfTe7AVtFgeTSxRECP0WN36OTOSi8BQhJH5rp9MoO0ALs-R3rku2Ow0TWtSext-mDC6FfnzF2n3PuFixqxpvLIFJ-MwkZfeBOgpDmqTiF_d7INwmUYEmG__3Bn1tNAOAdlNfQlcprGEUmu8ZUxaeTqEg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMMMYHmNZqOukXi2__weWB7HkDu4jQ4Efuf3_SMufrp-Fi2A3Nt9FMz4aWioIjw7U9hUyLn76JAnDNjazQWoR_jttcVWRUt8vKv4g5no0u9COwP924zrP5_WXG7x8wQW8mdJhHbhBpLKz756X6-j75o1Q=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le cheminement circulaire le long de l'arête sommitale étroite — particulièrement exposé aux rafales de vent sur sa crête nord — procure un panorama circulaire exceptionnel sur l'ensemble de Lanzarote : au sud s'alignent les cônes rougeâtres et noirs des Montañas del Fuego au cœur du parc national de Timanfaya, tandis que vers le nord et l'est le regard embrasse les falaises imposantes du massif de Famara, la silhouette de l'île de La Graciosa posée sur l'océan Atlantique et les plaines viticoles de La Geria, avant de redescendre par le flanc septentrional pour retrouver le sentier du malpaís vers Mancha Blanca."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNnVR8gNOf-9rkGjwoHLZqw5gUe_L3ao0wuzsLDgx1Uuza9VInNdn9f2K8YRtczEP3IkNS0aAEJz25_m2QtAPnCzf4h56f_pl9WWIwnVxcCvhdxfsUI0FrPJVYKnNRgJVtfWrHPvHIowrSJi2YmElZ_jQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNeCWtYhUc1lMTUVfUw9A__94K97o8eNsS6hcTQA967CEsofsvNAmaNPi5a-5wi-kJ-M-Z9lHnqUrJPqgTVYy4KKpud8S_2mU3hUCapu62U-yfxbLPf6p34BVwP4NcUfo871R2rt21yyyV4Af-DXaskuw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMs6S3Yks_cPBK8vbUHOkox0zVuVRBXrUSZ9reD1sjerGhh8zcJX-pyhanhN75uvzxSv19SkkRFPsdD1DWiJiVGmzbBp1Q-b_pC6xQZv0KgpRsKmK9wimZNQ_QOyuAuY5QN-rLA_m-Hy7qNG8uKudE1qg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+   {
     id: "tinajo_caldera_colorada_bombe_volcanique",
     name: "Tinajo - Volcan Montaña Colorada & Bombe Volcanique Géante (Caldera Colorada)",
     country: "Espagne",
