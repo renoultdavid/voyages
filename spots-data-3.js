@@ -7,6 +7,194 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "haria_rando_volcan_la_corona",
+    name: "Haría - Randonnée & Cratère du Volcan de la Corona (Volcán de la Corona)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Lanzarote",
+    subdiv: "Haría",
+    altitude: 475,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cône Volcanique Pléistocène (609 m), Origine du Tunnel de l'Atlantide & Panorama sur La Graciosa",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1, volcan: 1 },
+    lat: 29.18592,
+    lng: -13.48279,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN0fGSI3AadMO8Z-F_U17hVwGTuZ4BTihUvGs8Zsejx2cUcvkqH9H_xnjOOHN8XK6aS0bD3xAeB5q_XvpGT3CcU0LT3iRd27a9df6AhtCcM3e7Ju2-U5EeC5Vy-882yq-hX35bh3dkgOe4ow-LCzlFBPA=w1379-h919-s-no-gm?authuser=0",
+    description: "Dressé souverainement à l'extrémité septentrionale de Lanzarote sur la commune de Haría, culminant à plus de six cents mètres d'altitude au-dessus des falaises du massif ancien de Famara, le Volcán de la Corona constitue l'édifice géologique majeur et fondateur du nord de l'île. Né d'une puissante phase éruptive effusive et strombolienne survenue à la fin du Pléistocène supérieur il y a environ vingt-et-un mille ans, ce stratocône pyroclastique parfaitement dessiné a façonné l'intégralité du paysage littoral nord-oriental : ses immenses coulées de lave basaltique fluide ont édifié le vaste champ volcanique du Malpaís de la Corona et creusé le célèbre tunnel volcanique de l'Atlantide, réseau souterrain de plus de sept kilomètres de long abritant les sites spectaculaires de la Cueva de los Verdes et des Jameos del Agua.\n\nL'ascension pédestre au départ du village agricole de Ye offre un condensé magistral des paysages culturels et naturels lanzaroteños : le sentier traverse d'abord un damier géométrique de vignobles et de figuiers cultivés selon la technique ancestrale de l'enarenado sur lits de graviers volcaniques noirs et abrités des alizés par des murets en demi-lune (zocos), avant de gravir les flancs escarpés de scories rougeâtres couverts de lichens d'orseille (Roccella). L'arrivée sur la lèvre sommitale dévoile un cratère circulaire vertigineux de plus de quatre cents mètres de diamètre ainsi qu'un panorama aérien incomparable embrassant le détroit d'El Río, l'archipel Chinijo et l'île lumineuse de La Graciosa.",
+    intro_page: "Édifice volcanique majeur du nord de Lanzarote né il y a environ vingt-et-un mille ans, le Volcán de la Corona est à l'origine de l'immense champ de lave du Malpaís et du célèbre tunnel souterrain de la Cueva de los Verdes et des Jameos del Agua. Au départ du village agricole de Ye, l'itinéraire de randonnée serpente d'abord au milieu des parcelles viticoles traditionnelles abritées par des murets de pierre sèche (zocos), avant de gravir les pentes de scories oxydées tapissées de lichens d'orseille jusqu'au rebord vertigineux du cratère principal, offrant une vue grandiose sur le détroit d'El Río et l'île de La Graciosa.",
+    visiter: "S'élancer depuis l'église du village de Ye pour emprunter le sentier balisé serpentant à travers les vignobles en terrasses sur cendres volcaniques noires, puis gravir la pente raide et rocailleuse menant à l'échancrure sommitale du Volcán de la Corona. Longer avec prudence l'arête du cratère pour admirer le gouffre intérieur et le panorama marin ouvert sur La Graciosa avant de redescendre par le même chemin.",
+    link: "",
+    sections: [
+      {
+        title: "Formation volcanique du cône pyroclastique de la Corona",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN0fGSI3AadMO8Z-F_U17hVwGTuZ4BTihUvGs8Zsejx2cUcvkqH9H_xnjOOHN8XK6aS0bD3xAeB5q_XvpGT3CcU0LT3iRd27a9df6AhtCcM3e7Ju2-U5EeC5Vy-882yq-hX35bh3dkgOe4ow-LCzlFBPA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le majestueux cône pyroclastique est né d'une phase éruptive effusive et strombolienne survenue à la fin du Pléistocène supérieur."
+      },
+      {
+        title: "Départ du village de Ye et paysages agraires d'enarenado et de zocos",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMZUtT-f59q8AQzZVXSVNdfoHxUa0Z61Hdz5-0DPcU7qMSbG6FBbOqHumPSbUX4mJocaDjixd662na4alTJ960Jr2Wv6TiPFGJPGjtJScLuMsFZ_3yxFSpFExjuOpi3jdYaBEBYIvLdN8-GvZ9ZZgMF1Q=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOvvBCfoBUmGbgSPRtD37nT3T26Kk0OXW1qkRCL9FYc6g2n7T39l9x8krbEvSwnMtLBYJfwhgPCL9lg2yKY50RqHbCLHvRsmrv7HWE3TRr-RI2FnorBxFrHRQO7zg44HOTaT46HJtXMUxHiEvI3Tk12Ag=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'itinéraire pédestre classique s'élance depuis le paisible village agricole de Ye, petit bourg aux maisons basses blanchies à la chaux niché au pied même du versant occidental du volcan. Dès la sortie de l'agglomération, le sentier serpente à travers un paysage agraire traditionnel d'une rare élégance géométrique, où les parcelles cultivées sont aménagées sur d'épais lits de graviers volcaniques noirs (picón ou rofe). Ce procédé ingénieux d'enarenado permet de capter et de retenir la rosée nocturne apportée par les alizés tout en limitant l'évaporation diurne, permettant ainsi la culture sèche de la vigne — notamment le cépage Malvoisie volcanique — et des figuiers, protégés des rafales de vent par un labyrinthe de murets semi-circulaires en pierre sèche (zocos) et de terrasses étagées sur les premières pentes."
+      },
+      {
+        title: "Ascension des flancs de scories oxydées, lichens d'orseille et flore rupicole",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPWaKvMjZLTsIdsmRr5brnM33EDHlQ9fwN2KvCVpi5w5x23aJxbdWxHIGbsV3CZLNhV9g7SWOPq1n-yrvtEsd5eOyqr1cx7MkiMjAetDcG6WkaW3pB2n1VctvCG3vmC1zEHq2OqqnFGRsGt-lO1jCZ3kw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMLX1Nm-gQh3X0JrQlScKPp_oEXVMRGBuB1fRf4NjIELi9zZC93UWJwboHjeLJQz42s_FsSnTi3yHXqI64iavLNgKC5rP_hV9EqJTMEKV5K8SzhF5PODIs8UviWA4jsL6s5lolxMijoXFvemc9jbVTPDw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "À mesure que le chemin quitte la zone agricole pour aborder l'ascension directe des flancs du cône, la pente se redresse et le sol se transforme en un chaos minéral de scories sombres, de bombes volcaniques fusiformes et de tufs pyroclastiques fortement oxydés aux nuances ocre, rouille et anthracite. L'exposition privilégiée de cet édifice aux vents humides du nord-est favorise le développement d'une strate pionnière saisissante de lichens fruticuleux et crustacés gris-vert, parmi lesquels l'orseille (Roccella), autrefois récoltée sur ces parois rocheuses pour l'industrie tinctoriale européenne, qui recouvre les blocs de basalte d'une véritable toison végétale. Cette humidité atmosphérique nourrit également une flore rupicole endémique adaptée à la roche volcanique, associant des Aeonium en rosettes charnues, des euphorbes balsamifères, des lavandes des Canaries et des fougères blotties dans les anfractuosités ombragées."
+      },
+      {
+        title: "Découverte du cratère principal de quatre cents mètres de diamètre",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP5SFlAnVLP0pIF212uBqp8iIgbLjfFPzdXopnOVKxb0n0kdV5SKKjPSH37tonWz117isXeUesxMPMoN7HFtaenoI_ombLB_DLk1nZNctcRY9LZx8elg2jtyX1eAgbuGgisKoqvx_NtoCek4Mx-6WMStA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'arrivée sur la lèvre sommitale dévoile brusquement la géométrie spectaculaire du cratère principal, vaste entonnoir quasi circulaire de plus de quatre cents mètres de diamètre et de près de deux cents mètres de profondeur aux parois intérieures abruptes et stratifiées."
+      },
+      {
+        title: "Panorama aérien sur le Malpaís, le détroit d'El Río et l'île de La Graciosa",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM4oVfREUAf0EOzCPaagSl1u5w9TZPzRR8184SQ8XWOv89Arp69C531G4oUnUTv1PlW7t1mkBCuuvU5Yx0r0DmXH53U55Y1itt4L-pfGs2X00rttqldnNZD8p_krYnXYsWyX3anUQS-9OZHkeBW0UB3A=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPezaC8xS-WaSvH_oPsaIeIS3KGdFMuFoTj8nxBGfWk0G0clcYx5PZ4YzRvI1ILdxyXiPeWvf2-G3w1kPKitM4F9Ea0sH031gycsbsnhvU0IU5Fws76jrE5Oz5_bKETPPbPIYdUHPapn_Q9spMTHH_0lQ=w1382-h919-s-no-gm?authuser=0"
+        ],
+        text: "En cheminant prudemment le long de l'arête effilée qui couronne le gouffre, le regard embrasse l'un des panoramas les plus grandioses de tout l'archipel : vers l'est s'étire l'immense nappe sombre du champ de lave plongeant dans les eaux turquoise de l'Atlantique, tandis que vers le nord, par-delà les vertigineuses falaises maritimes et le bras de mer du détroit, se détache avec une netteté saisissante la silhouette lumineuse de l'île de La Graciosa et des îlots inhabités environnants, avant d'amorcer la descente par le même itinéraire panoramique vers les cultures en terrasses de Ye."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNIJBpVqpYROzNzI9mEfGHPnH858EC3cODVDruH0NbLkzU5P-l7_zrmqw8BPjaaht0udZQomv0hmdeuqU92hzG4lqV9pSQKM0mqyCQ6SHWMEO-MEmIVlGiV8qtl5bojsdsYJDZzj8QYMJdbNh8xYxPjag=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOTWTieRyCvKpmhFWXmJd6Ms_Zo3SIQTVWTwS_blVGL0KEmmTH_nwr0Ez3xvjop2vlSHNPxU6LkHW7_-rfO-_RnTSB0Mpd5IFZ1JMQqz3OUUIve-tw52mKZa2zHBZQ4qkyPpKl-5-Q0Gxf0jCI7LA0kXw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
+    id: "haria_playa_del_charcon_arrieta",
+    name: "Haría - Crique Sauvage & Piscines Naturelles de la Playa del Charcón (Arrieta)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Lanzarote",
+    subdiv: "Haría",
+    altitude: 2,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Littoral Basaltique du Malpaís de la Corona, Crique Abritée & Eaux Cristallines de l'Atlantique",
+    century: "Temps géologique",
+    category: "plage",
+    counts: {},
+    lat: 29.13237,
+    lng: -13.45939,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN9A9YiGHSo55laXScuIlFQg3f1qQxpYvrLZVAHNmPENkdxwhTct4JGtLM9pQsp0Gp_yjhLrgt0GV7iV0n3ShcCu6G0uMi_JkJScjVDkbT7JUCWPMAFyRM795ozUd36_IOSGSpcLq3iWT3sOT8l7odbZg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNnjffDrxnkTRsfsLgkUo5AJ9R_mvvNaixij_ld3QjJs-8uiCLUNuqbBMv9WiTnMS3Cv7bC7pQmYjs2I3rmyRjh0GXbROVHvVQ49GMs9efJcmPcOzRtZvlK9aErzwNFYgrqweXIFlY4gnzGcKCc0KbRng=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Nichée sur la côte nord-orientale sauvage de la commune de Haría, entre le village marin d'Arrieta et les coulées littorales du Malpaís de la Corona, la Playa del Charcón compose un havre côtier préservé d'une beauté minérale authentique. Cette crique naturelle s'est formée au point de rencontre entre les langues de lave basaltique noire issues des éruptions anciennes du Volcán de la Corona et les houles limpides de l'océan Atlantique, dessinant un amphithéâtre rocheux découpé abritant des bassins d'eau calme et des grèves de sable sombre et de galets volcaniques.\n\nProtégée des courants du large par des récifs de basalte affleurants qui brisent les vagues en gerbes d'écume blanche, la lagune principale (el charcón) déploie des eaux transparentes aux nuances turquoise et émeraude idéales pour l'observation de la faune marine littorale. Bordée d'une végétation halophile adaptée aux embruns salins et ouverte sur un panorama côtier ponctué des maisons blanches traditionnelles d'Arrieta et des silhouettes volcaniques de l'arrière-pays, cette crique solitaire incarne le visage sauvage et contemplatif du littoral oriental de Lanzarote.",
+    visiter: "Rejoindre à pied la crique rocheuse de la Playa del Charcón par les sentiers longeant la côte basaltique au nord d'Arrieta pour profiter de la quiétude du bassin naturel abrité, observer les vasques de marée sculptées dans la lave noire et admirer le contraste chromatique entre la roche volcanique sombre et les eaux limpides de l'Atlantique.",
+    link: ""
+  },
+  {
+    id: "tinajo_rando_volcan_el_cuervo",
+    name: "Tinajo - Randonnée & Cratère Éventré du Volcan El Cuervo (Caldera de los Cuervos)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Lanzarote",
+    subdiv: "Tinajo",
+    altitude: 321,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Premier Édifice Éruptif de Timanfaya (Septembre 1730), Cratère Accessible à Pied & Champ de Lave",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1, volcan: 1 },
+    lat: 28.99258,
+    lng: -13.69186,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMm3Eh9LyqzbWseFmaqPtT6O94740sdCibjOb5ANTNoE0OvF8dImseN61FZHRR0vrwoEvJdEJPsvftx4YptG1l1uat0HjVsonkwGTMjRjQZ0CpMzW8htiQnBBmQVlpXrTA1Z7t4SHkhDCimJd9O8pYcgw=w1379-h919-s-no-gm?authuser=0",
+    description: "Dressé à la lisière orientale du Parc national de Timanfaya, au cœur du Parc naturel des Volcans sur le territoire de Tinajo, le Volcán El Cuervo — également nommé Caldera de los Cuervos — revêt une importance géologique et historique capitale puisqu'il fut le tout premier édifice à entrer en éruption le 1er septembre 1730, inaugurant le cycle volcanique cataclysmique de six années qui bouleversa à jamais la géographie de Lanzarote. Ce cône pyroclastique parfaitement préservé offre une leçon de volcanologie à ciel ouvert unique dans l'archipel : éventré sur son flanc nord-est par la poussée d'une coulée de lave fluide, il permet aux marcheurs de pénétrer de plain-pied directement jusqu'au cœur même de son cratère principal.\n\nL'itinéraire circulaire en boucle de quatre kilomètres et demi serpente d'abord au milieu d'un océan figé de malpaís basaltique noir colonisé par des lichens pionniers gris-vert (Stereocaulon vesuvianum), avant de contourner le cône pour franchir la brèche monumentale menant au fond plat de la caldeira. Entouré de murailles stratifiées où alternent bombes volcaniques fusiformes et scories oxydées aux nuances carmin, ocre et anthracite, le visiteur ressent toute la puissance tellurique de la genèse terrestre avant de regagner le point de départ à travers les coulées cordées pāhoehoe et les tunnels de lave effondrés.",
+    intro_page: "Premier volcan à s'être éveillé le 1er septembre 1730 lors des grandes éruptions historiques de Lanzarote, le Volcán El Cuervo offre l'expérience rare et saisissante de pouvoir pénétrer à pied au cœur même d'un cratère volcanique. Longue d'environ quatre kilomètres et demi sans difficulté technique, la boucle balisée traverse un océan figé de lave noire tapissé de lichens gris-vert avant de franchir la large brèche ouverte sur le flanc du cône, dévoilant un amphithéâtre minéral silencieux aux parois stratifiées de scories rouges et anthracite.",
+    visiter: "S'élancer depuis le parking aménagé en bordure de la route LZ-56 pour suivre le sentier balisé traversant le champ de lave noire jusqu'au pied du Volcán El Cuervo. Contourner le cône par le sud et l'ouest pour pénétrer à l'intérieur du cratère principal par son ouverture nord-est, puis boucler le tour complet de l'édifice en observant les coulées cordées et les panneaux pédagogiques jalonnant le parcours.",
+    link: "",
+    sections: [
+      {
+        title: "Départ sur la route LZ-56 et immersion dans le malpaís basaltique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMm3Eh9LyqzbWseFmaqPtT6O94740sdCibjOb5ANTNoE0OvF8dImseN61FZHRR0vrwoEvJdEJPsvftx4YptG1l1uat0HjVsonkwGTMjRjQZ0CpMzW8htiQnBBmQVlpXrTA1Z7t4SHkhDCimJd9O8pYcgw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMZ4grkvp3T208VjuZy8sy9kmvDB7j2UalL80WR--XFIg8SmQdK6iiOn6zm6Vzfd4IWPrKRxvN2G4CGk2HsxSSoRWhSDgiq96ZTauTKadaaivnm8AqlyjwRDpuZGvRho5abFviSoWpQvSyXUtFxONxgwg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'itinéraire de randonnée, long d'environ quatre kilomètres et demi pour un dénivelé très doux, s'élance depuis le stationnement aménagé le long de la route LZ-56 reliant Mancha Blanca à La Geria. Dès les premiers mètres, le sentier bien balisé s'enfonce en ligne droite à travers un océan figé de malpaís — ces champs chaotiques de lave basaltique noire de type ʻaʻā issus des bouches éruptives voisines telles que la Montaña Colorada et la Montaña de Ortiz."
+      },
+      {
+        title: "Paysage lunaire, lapilli noirs et lichens pionniers (Stereocaulon vesuvianum)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOLOiMRtdBbtejHYRqnrYbq05soxqjzv0i6KG5pLsd0ei9L6dDei543kfTY7EdGs2Cwfn8BjF4PaCvgp_L3QUie4uwHaNeS17k1qjH8ALQcGNaZmelp2AfMc69cPCLvoC5sq1u_3ODLLfTyD2Te2EYFTQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOsfxnpLAn_VMoFNpvJHfP2E5SZ5Zz2bV2J5nZduuR-LVYcynqatEJ8LnL5hplnHkHo6EULa2XmzYwaeOpHKN1iPQHfcRoC2EhOA7yTCi8EPOCJiXx4yePgLEr7t078iVmBzlUgMDJ70H3Q74De8SsryA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La marche sur ce lit de lapilli noirs et de blocs scoriacés acérés offre une immersion saisissante dans un paysage lunaire d'une austérité absolue, ponctué par d'abondantes incrustations de lichens fruticuleux gris-vert (Stereocaulon vesuvianum) qui colonisent patiemment la roche volcanique en profitant de l'humidité nocturne des alizés, accompagnées de quelques touffes éparses d'aulaga épineuse (Launaea arborescens) et de tabaiba douce."
+      },
+      {
+        title: "La brèche du flanc nord-est et les parois stratifiées du cône",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMx9BhWbtIHfcQuYhVoMGe9DEJqqQqSb9ygdtgeLDHjaJPj4Oscn0iLWNCJiZ4noqqarQvDvyI64gtkgx50Ju8AwVRscfkH7BZ3dpsrAtJnHbfNGOSvqZRrSX834wOK-s7BkJRNt8q4pw49qQLXoQfgEw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczORFnf9fn7rERnq9_gAdTNWSpdiLPLX5fypJdIZSez60JTSkSUuqSr6wP9W4NwEAknwOyxCcd4E6hXnpQPnt2goZ4uJ0JxbT6_wmfjX0eCZreZvmDQZNbztKXvdAZKz-Yw_5fhUNkmn3qlGJlnp9pVegg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En contournant l'édifice par son flanc méridional puis occidental, le cheminement révèle l'architecture interne spectaculaire du volcan, largement éventré sur son versant nord-est par la poussée mécanique d'une puissante coulée de lave qui en a emporté tout un pan. Cette brèche monumentale permet d'accéder de plain-pied à l'intérieur même du cratère principal, vaste amphithéâtre minéral silencieux dont les parois stratifiées dévoilent l'alternance des dépôts de projection pyroclastique, des bombes volcaniques fusiformes et des niveaux de scories fortement oxydées aux teintes rouille, ocre et pourpre."
+      },
+      {
+        title: "Au cœur du fond plat de la caldeira de lapilli noirs",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPTxO3vtgaYmcPDv09-jsmbiEQhja28E95jDE4gRzMPSW7d9gZJP0u_XSrFpHHsX2ZwbJ28GyXbCFvODNRpa09FrMLX5zrDaISnjntqwjb_THJfp6Ky0tQ3qauYYDhttsDNgwO5gdUtwuy-fWqls3ThjA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNrnZxQcbvjyffYKz5Asi8nMVvlIqgKM4UKR8bngCYxpvEWDmYuqvDesA3LOXlcTv9RzXbaX9z30GOB26uMX0YfhB3VchlAfhSsLKdaElgbrRyJYTvT6o0N23x7AYV6J5vLRKA-B_LHpob5gA0T2i_TJg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le fond plat de la caldeira, tapissé d'un épais manteau de cendres fines et de lapilli noirs (picón), procure une sensation d'isolement tellurique hors du temps, abrité des rafales du vent insulaire par la muraille circulaire des crêtes."
+      },
+      {
+        title: "Perspectives intérieures de l'amphithéâtre volcanique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPTxO3vtgaYmcPDv09-jsmbiEQhja28E95jDE4gRzMPSW7d9gZJP0u_XSrFpHHsX2ZwbJ28GyXbCFvODNRpa09FrMLX5zrDaISnjntqwjb_THJfp6Ky0tQ3qauYYDhttsDNgwO5gdUtwuy-fWqls3ThjA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPz_LLilUIuU6BbUyShl7IQ0e9g0usqvXRAuEnzKeSB8uQqUnb7j9mYXyZIL0ktoWcgo4YJRccObIYvaUgqGFmf0e6fNunl9F2aBKusv_8fF8IEIHoRuiarejFuMv0gHUKsS7IaL9aNvmNvG_cM6WrXBg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Coulées cordées pāhoehoe, tunnels de lave et laboratoire naturel",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOp4edbkdVVKwaPl5ymtnyGzDx-M92qtUJqKUhkmyRfzdw46w7QAOsnmDSpwLnkJgKMndjxsifoTcnKGq4JDXOGO2R6VHRRO1PnIq3bV5xZeqlSJxyxmAvB30Kg-Qn-d7ZNN5t_ljgdWXdkRgS5grrk-w=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNrbrXarctqIwab0tRCkSTvxeJxmLddaqtvMRWt5C-q5ZHi4T4wv82ZDFyjW1FFhNAtJpofPmurEySCXMBbmleSd24hrjGw9H8xmjfP6fx8ZO-PuiQt7EMKOL71jQPKdTqgFrplUZczERTkr60jhQErmw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La fin de la boucle contourne la base septentrionale de l'édifice avant de regagner le sentier d'approche à travers les coulées cordées (pāhoehoe) et les tunnels de lave effondrés qui témoignent de la fluidité extrême des magmas basaltiques de 1730. Tout au long du parcours, des panneaux d'interprétation géologique jalonnent le sentier et éclairent la chronologie de ce bouleversement environnemental qui engloutit les terres agricoles les plus fertiles de Lanzarote sous des millions de mètres cubes de roche en fusion, donnant naissance à l'un des laboratoires naturels les plus purs pour observer la genèse des sols volcaniques et la reconquête du vivant en milieu aride."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOVyOhGrD3cOEet2yZBN-5lPqEjMtI1bbkfcRNJ-FGL2zF4M49oNkxDxwKknhfUK2uCgodrZHAX_SlgErwiV_PXtzaUJO-lb5gabUPDcE6r5GKCTMMaHdCT6uPHsu4RU5rhuykQBzSEmdX6f4WjikchDw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+   {
     id: "teguise_ville_historique",
     name: "Teguise - Ancienne Capitale Historique & Ensemble Patrimonial (Villa de Teguise)",
     country: "Espagne",
