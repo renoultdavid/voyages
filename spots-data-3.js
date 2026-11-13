@@ -7,6 +7,440 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "yaiza_eglise_nuestra_senora_de_los_remedios",
+    name: "Yaiza - Église Notre-Dame des Remèdes (Iglesia de Nuestra Señora de los Remedios)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Yaiza",
+    altitude: 182,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Sanctuaire Paroissial de Yaiza (1728), Charpente Mudéjare & Témoin des Éruptions de Timanfaya",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 28.95234,
+    lng: -13.76509,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMIZCJmJA0BqcTTNnY-_GI4mBeasQOUQz6jHpKEHNg7qT9iGud2LEW08cD2dOm6byITn0N6TQpduzGGsbcqEWMStK9t47-uU1-7SlSueXlZTfrZWgfz0fGBjCbV82t6QJV77HVuMtOfeiYOwlQPsFYcLA=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNFdudwZPSpwK2J4em7BGFLEWqzJsGufYR6ZFjC764KSNLjGHJsEvtgJRlk5ZhBu8V3YAERp13ELf-kS4vwpfnQLpvK5-yk77TA77mUJ-jCXt52KPJP0BfUZUy0nF3aKKRWjwkmVYRuG7xUC4ga2CAyBQ=w1681-h1121-s-no-gm?authuser=0",
+        caption: "La nef est structurée par de robustes arcs en plein cintre reposant sur des colonnes massives en pierre basaltique sombre, dont les blocs apparents rappellent la géologie unique de Lanzarote.\n\nL'élément central est le retable majeur, une œuvre polychrome qui se détache du fond blanc des murs. Ce retable abrite la statue de la Vierge des Remèdes (Virgen de los Remedios). On observe également au-dessus du chœur une charpente en bois de type mudéjar (artesonado), dont les motifs géométriques et la structure en berceau renversé sont typiques du savoir-faire artisanal importé de la péninsule ibérique et adapté localement. La nef latérale (à gauche sur la photo) présente un retable plus sobre, encadré par des moulures néoclassiques blanches, créant un contraste avec les textures sombres de la pierre de taille.\n\nCette église se distingue par son atmosphère d'austérité élégante. Contrairement aux grandes cathédrales urbaines, elle privilégie des volumes bas et des murs épais, conçus pour résister au climat aride et aux vents de l'île. Elle constitue un témoignage essentiel de la résilience culturelle et spirituelle de la civilisation canarienne à l'époque coloniale."
+      }
+    ],
+    description: "Érigée sur une placette paisible au cœur du village historique de Yaiza, l'église paroissiale Notre-Dame des Remèdes (Iglesia de Nuestra Señora de los Remedios) constitue l'un des sanctuaires les plus emblématiques et chargés d'histoire de l'île de Lanzarote. Consacrée en 1728 sur l'emplacement d'un ermitage primitif fondé au XVIIe siècle, l'église traversa miraculeusement sans être submergée les cataclysmes volcaniques de Timanfaya qui dévastèrent la région entre 1730 et 1736 ; c'est d'ailleurs son curé de l'époque, Don Andrés Lorenzo Curbelo, qui rédigea la célèbre chronique historique détaillant jour après jour l'avancée des coulées de lave et le sauvetage des statues sacrées.\n\nL'architecture extérieure incarne avec une pureté remarquable les canons de l'esthétique traditionnelle lanzaroteña : ses murs bas et massifs enduits d'un crépi de chaux blanche éclatante sont soulignés par des chaînages d'angle et des encadrements en pierre basaltique sombre, surmontés d'un clocher-mur gracieux à deux arcades campanaires. L'intérieur déploie deux nefs séparées par de robustes colonnes en basalte noir, couvertes d'une admirable charpente mudéjare en bois de cœur de pin des Canaries (tea) et ornées d'un retable majeur baroque doré abritant l'image vénérée de la Virgen de los Remedios, sainte patronne de la commune.",
+    visiter: "Une halte sur l'esplanade pavée de la Plaza de los Remedios permet d'admirer le contraste lumineux entre la blancheur immaculée des murs de chaux, le clocher-mur traditionnel et le basalte volcanique sombre des encadrements. Les visiteurs franchissent le portail pour apprécier la fraîcheur recueillie des deux nefs, la charpente mudéjare du chœur et les retables polychromes.",
+    link: ""
+  },
+  {
+    id: "yaiza_village_historique",
+    name: "Yaiza - Village Historique & Architecture Vernaculaire Blanche (Pueblo de Yaiza)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Yaiza",
+    altitude: 120,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Bourg Historique du Sud de Lanzarote, Maisons Blanches & Volets Verts, & Résilience Volcanique",
+    century: "XIXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 28.95343,
+    lng: -13.76797,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPKjojAxC867vB5f46MQiSEtYT7HrUo8jTBwz8RecT9aicEd4b5pLvfjOnZWjHWPc4lqQdxGsAxiPyKaJxlnPNVfCyeyawSinqKpkPHELKl2-gLOGwH29OktgN69k0gD1YHyOvytBV3jY6e9yhKzNXTXQ=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMgS_Z3_Gn5gE5b2Dq0OHWVrV12Fz2Megm2liBoEyuLp9t2M9MoGp-9CnFFotzkmhcmqsz1eT_g-juahi-KXnzOFskx9dAFfELhhOy8IjQCkDkSbQIiJsSBr1cBrk30h3XnsbtwbkiDam1THOANxafGwQ=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO7bDL9R_KihrhXx41MdsvqN9QDkbYXvaHo-_9fQ4vgSUFbbL1fD1zkSCjKmLqrd1sJzViUIkMr_DG0HVnFsWj803F6tO9Dik2UmrYdzyNG7xIbcjJP1br28uGXLxTZnd8FIkJBMQuAA6Wh38KcndZ37w=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Situé à l'orée méridionale des vastes champs de lave de Timanfaya, au pied du massif volcanique ancien de Los Ajaches, le village de Yaiza s'impose comme l'un des ensembles d'architecture vernaculaire les plus soignés, harmonieux et exemplaires de Lanzarote. Épargné de justesse par les coulées incandescentes lors des grandes éruptions de 1730-1736 qui s'arrêtèrent aux portes mêmes des premières habitations, ce bourg historique maintes fois primé pour son esthétique urbaine incarne à la perfection le code architectural traditionnel de l'île défendu par l'artiste César Manrique.\n\nLes maisons basses aux volumes cubiques épurés, bâties en pierre volcanique recouverte d'un enduit de chaux blanche éclatante, se détachent avec une netteté graphique sur le noir profond des lapilli volcaniques (picón) qui tapissent les jardins. Leurs façades sont rythmées par des portes, des volets et des fenêtres en bois peints d'un vert profond — couleur emblématique des villages intérieurs de Lanzarote — et agrémentées de cheminées cylindriques traditionnelles coiffées de lanternons. Entourées de palmiers des Canaries, de géraniums écarlates et de bougainvilliers qui apportent des touches de couleur vive au cœur du paysage minéral aride, les ruelles paisibles de Yaiza reflètent l'harmonie souveraine entre l'homme et la terre volcanique.",
+    visiter: "Flâner à pied dans les rues calmes et fleuries autour de la Plaza de los Remedios et de l'ancienne Casa de la Cultura Benito Pérez Armas pour admirer l'homogénéité des maisons cubiques blanchies à la chaux, les boiseries vertes traditionnelles et les jardins de cendres volcaniques noires bordant les demeures.",
+    link: ""
+  },
+  {
+    id: "yaiza_mirador_salinas_de_janubio",
+    name: "Yaiza - Belvédère des Marais Salants de Janubio (Mirador de las Salinas de Janubio)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Yaiza",
+    altitude: 22,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Plus Grands Marais Salants des Canaries (1895), Lagune Volcanique & Mosaïque Chromatique",
+    century: "XIXe siècle",
+    category: "panorama",
+    counts: {},
+    lat: 28.94139,
+    lng: -13.81701,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOuFjyE37eWlx9ktAsBa-cWnCe7MCiu2UmwlzypMWlgc1K6BBMPh3FvnhimVA7shNdW4crzCBFCEyQE_JMJzJU-eI71CAjS_chok_23dJeCio80kDpptSPAxBhDhU3fJV-0ElVdYjNsCCLtRlWzskGzAQ=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dominant une vaste lagune côtière sur le littoral sud-occidental de Lanzarote, le mirador des Salinas de Janubio dévoile l'un des paysages culturels et architecturaux les plus extraordinaires et photogéniques de tout l'archipel canarien. Cette lagune d'eau de mer fut isolée de l'océan Atlantique lors des grandes éruptions volcaniques de 1730-1736, lorsque les coulées de lave venues de Timanfaya édifièrent une barre naturelle de sable noir et de basalte fermant l'ancienne baie maritime. À partir de 1895, la famille Padrón entreprit l'aménagement titanesque de ce bassin naturel en un immense complexe salicole s'étendant sur près de quarante-cinq hectares, constituant aujourd'hui les plus vastes marais salants en activité des îles Canaries.\n\nDepuis le belvédère aménagé sur le versant oriental, le regard embrasse un damier géométrique fascinant composé de centaines de bassins de décantation et d'évaporation délimités par des murets de pierre volcanique sombre et de mortier de chaux blanche. Sous l'action du soleil intense et des alizés constants, la concentration progressive de la saumure et le développement de micro-algues halophiles (Dunaliella salina) teintent les bassins d'une palette chromatique spectaculaire allant du bleu azur au rose pourpré, au violet et au blanc éclatant des pyramides de sel récoltées à la main. Protégé au titre de Site d'Intérêt Scientifique, cet ouvrage hydraulique remarquable abrite également une riche avifaune migratrice d'échasses blanches, d'aigrettes et de gravelots.",
+    visiter: "S'arrêter sur l'aire panoramique surplombant la lagune le long de la route LZ-703 pour admirer la géométrie hypnotique des bassins multicolores des salines de Janubio, les monticules de sel blanc fraîchement récoltés et le cordon littoral de sable noir séparant la lagune des vagues de l'océan Atlantique.",
+    link: ""
+  },
+  {
+    id: "yaiza_playa_del_janubio",
+    name: "Yaiza - Plage Sauvage de Sable Noir de Janubio (Playa de Janubio)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Yaiza",
+    altitude: 1,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cordon Littoral Basaltique d'Origine Éruptive (XVIIIe siècle), Sable Noir & Olivine Verte",
+    century: "Temps géologique",
+    category: "plage",
+    counts: {},
+    lat: 28.93487,
+    lng: -13.82992,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPyWDZz0eSruhnTp3OZulvRjdHBkJZnvF-R8K1tURERjFdsYQxdf1sdaRvOcTYiDHrbMahnLsUl6smLa6ucJJqg-_zNwyVQKSgcJmFGM4-wRC2rp2_hXklMOGLxvo5VS5tRRRqHYtbd8OrxoUSgtBNGUA=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Étendant son ruban rectiligne de près d'un kilomètre de longueur entre les falaises basaltiques de la côte sud-ouest de Lanzarote et la lagune des marais salants de Janubio, la Playa de Janubio offre un paysage côtier d'une puissance minérale brute et sauvage. Ce cordon littoral spectaculaire est né directement des grandes éruptions volcaniques de 1730-1736, lorsque les torrents de lave basaltique atteignant l'océan furent fragmentés par les chocs thermiques et remaniés par les courants côtiers pour fermer l'ancien port naturel de Janubio.\n\nL'estran associe un fin sable volcanique d'un noir profond, ponctué de petits graviers de basalte polis et de cristaux translucides d'olivine verte arrachés aux enclaves mantelliques des laves, créant un contraste chromatique saisissant avec le bleu cobalt de l'océan Atlantique et la blancheur éclatante de l'écume des déferlantes. Battue par une houle vigoureuse et des courants marins puissants qui incitent à contempler le rivage depuis la grève plutôt qu'à la baignade, cette plage vierge de toute construction dévoile une atmosphère solennelle et contemplative face à l'immensité océanique.",
+    visiter: "Descendre sur la grève sauvage de la Playa de Janubio depuis le chemin d'accès longeant l'extrémité sud des salines pour marcher sur le sable volcanique noir, observer de près les grains brillants d'olivine et admirer la force du ressac atlantique frappant le cordon littoral.",
+    link: ""
+  },
+  {
+    id: "yaiza_charco_montana_bermeja",
+    name: "Yaiza - Lagune & Plage de la Montaña Bermeja (Charco y Playa de Montaña Bermeja)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Yaiza",
+    altitude: 4,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cône Volcanique Rouge Oxydé (Bermeja), Plage de Sable Noir & Lagune Côtière Émeraude",
+    century: "Temps géologique",
+    category: "plage",
+    counts: {},
+    lat: 28.96131,
+    lng: -13.82989,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOJW9UlMG346RPQehjvduEUkhCh34KURCl7guJTbdIheHEVjNCvzYzDDOPhvMZKKj-vLKGh-Se-_UIK0_2HlXIhQgCVkC1eUVRx5yCwrDqL0WUIUWNHQeEeRqn0ivDwTdObFIB6-NJtayKd4hobsJ09Fg=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN7cChKbeACYHbuoiXagdIK5yYNRNjk3DthWZDjCFytXRfAIpUmF2k9GQ6VzNkKEmyTrdRnGd0rQ-GwxR-83LcGtjF-fgrFtNJBpeFVVTRcsJ3FHp-s8zyA7Vbg9gH4leXn4GriS-R0tJIsDAx91DHFHw=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Nichée au pied des pentes abruptes d'un cône volcanique ancien aux teintes rouge pourpre intenses sur la côte occidentale sauvage de Yaiza, la crique de la Montaña Bermeja compose l'une des harmonies chromatiques les plus saisissantes et surréalistes de toute l'île de Lanzarote. Ce site spectaculaire met en scène la rencontre frontale entre trois éléments géologiques aux couleurs tranchées : la masse rouge brique de la Montaña Bermeja — dont les scories et cendres volcaniques doivent leur coloration écarlate à une intense oxydation du fer lors de l'éruption —, le croissant de sable volcanique d'un noir d'ébène façonné par la houle atlantique, et le petit lagon côtier d'eau saumâtre (el charco) niché en arrière du cordon sableux.\n\nAlimentée par les infiltrations marines lors des grandes marées et enrichie en micro-algues planctoniques, cette petite lagune calme prend une teinte vert émeraude lumineuse qui dialogue avec le rouge ardent du volcan et l'écume blanche des vagues déferlantes. Encadrée au nord et au sud par les coulées de lave chaotiques et noires issues des éruptions de Timanfaya au XVIIIe siècle qui contournèrent cet ancien édifice pléistocène sans le recouvrir, cette anse isolée incarne la puissance picturale brute des paysages volcaniques de Lanzarote.",
+    visiter: "S'arrêter en bordure de la route côtière LZ-703 pour s'approcher du cordon de sable noir de la Playa de Montaña Bermeja et contempler le contraste saisissant entre les flancs rouge carmin du cône volcanique, la lagune verte nichée au pied de la falaise et les rouleaux puissants de l'océan Atlantique.",
+    link: ""
+  },
+  {
+    id: "yaiza_los_hervideros",
+    name: "Yaiza - Falaises Volcaniques & Grottes Marines de Los Hervideros",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Yaiza",
+    altitude: 5,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Coulées Basaltiques Éruptives (1730-1736), Tubes de Lave Marins & Geysers d'Écume",
+    century: "Temps géologique",
+    category: "nature",
+    counts: {},
+    lat: 28.95441,
+    lng: -13.83286,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOxKP7UXRrhLZrBxr1hGgLoP8tp8JaKABIWb5vGcyjwmp-z4AXOnE24iJn97sODpzaor7sI9ySzqini9Bvw35Fly18QQfIaXMtifseq5xKLF7GVB-SNMROQ0bcgny8AMaZMZkjljnRumLJUf3zqZWT6fA=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM5rMK6ihiz6Btw-Yqllg5qA8RRMdK-CGN5qDkO0c_tn1U6rRjp40ciuo1NROSB548XNFBm9N-BjfhR8GS5T9OQ09p0XriM8qSP6yqB0qKNDB1kBs772xeRrqas2ditLQuZT4QCvAgF7Fr-3cSAhPYNmA=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM9lbcUpYn1xbOqb25VZuJwke2PpdlhH7V__DvJuMpkeO_X1XOJeBfISq06CpeNS-m4kN5txKHuACfd06xha8HFiYh_HJaFPf36lu0eNzAg2jQkKNF4Sq6bHo3whWPN32ANq8Bi6cefz8HVvkmDBa4jww=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOnHc6bsJ6TsXTIERSfp7E1286s0-jQiGmOjhFt4PeVKQ3I92np4RegQXC3O3FjRgYIQ4367nxJqyDUDZ-WJ7tn7chD3j6HdaYxwQ46svY4w1u5alsD09KhhBj_UDEdRJTOQZFlss7mcWBRLFGoL7Slog=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Sculpté sur la côte sud-occidentale sauvage de Lanzarote entre les salines de Janubio et le hameau d'El Golfo, le site spectaculaire de Los Hervideros (« les Bouillonnements ») offre l'une des démonstrations les plus grandioses de la rencontre violente entre le feu volcanique et l'océan Atlantique. Cette côte déchiquetée s'est formée lors des grandes éruptions de Timanfaya entre 1730 et 1736, lorsque d'immenses fleuves de lave basaltique fluide atteignirent le littoral et se figèrent brutalement au contact des eaux glacées de l'océan, créant un labyrinthe de falaises noires, de tubes de lave effondrés et de cavités sous-marines.\n\nAu fil des siècles suivants, l'assaut perpétuel des houles atlantiques soulevées par les alizés a élargi ces fractures et cavernes marines en un réseau complexe de grottes, d'arches et de cheminées verticales. Lorsque les vagues s'engouffrent sous haute pression dans ces cavités rocheuses, l'eau comprimée jaillit en puissants geysers d'écume blanche dans un grondement sourd évoquant l'ébullition d'une marmite géante. Aménagé avec un remarquable réseau de sentiers et de balcons en pierre volcanique parfaitement intégrés au relief naturel, le site permet de s'approcher au plus près du fracas des vagues et d'admirer l'architecture fascinante des coulées de lave cordées et prismées.",
+    visiter: "Parcourir les sentiers et escaliers taillés dans la lave noire de Los Hervideros pour gagner les différents balcons naturels surplombant les grottes marines et les arches basaltiques. Les visiteurs observent l'eau de mer bouillonner au fond des gouffres rocheux et jaillir en panaches d'écume sous la poussée des vagues atlantiques.",
+    link: ""
+  },
+  {
+    id: "yaiza_hameau_el_golfo",
+    name: "Yaiza - Village Côtier des Pêcheurs d'El Golfo (Pueblo de El Golfo)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Yaiza",
+    altitude: 10,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Hameau Maritime Pittoresque, Maisons Blanches au Bord des Laves & Terrasses Face à l'Atlantique",
+    century: "XXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 28.98235,
+    lng: -13.83091,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPAiA_u-hrmDUf_krTNiN4u_KGRMBEbT6xBSFhBzKlPqH2AaHz0sVJOUIQEaj5HDeGmhXH_hJmbPpnDGtwzuS6rzK68ttf1wk7FdXUo4ocWy8NGx-SAAoBB8bgDia_L_abmR6nOWrTNlh8c981YKUeEbA=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Blotti à l'extrémité occidentale du Parc naturel des Volcans, au contact direct des vastes champs de lave noire de Timanfaya et des flots tumultueux de l'océan Atlantique, le hameau marin d'El Golfo compose l'un des tableaux littoraux les plus authentiques et attachants de Lanzarote. Cet ancien village de pêcheurs saisonniers, qui servait autrefois de campement aux marins de Yaiza et de Femés venant pêcher la vieja et le mérou le long de cette côte poissonneuse, a su préserver une architecture traditionnelle basse d'une grande pureté.\n\nSes demeures cubiques d'un seul niveau, enduites d'un blanc lumineux qui contraste vigoureusement avec le noir de jais des coulées basaltiques environnantes, s'alignent le long d'une unique artère côtière ponctuée de petites criques de galets volcaniques où reposent les barques de pêche colorées. Réputé dans toute l'île pour ses petites auberges maritimes perchées au-dessus des rochers battus par les embruns ainsi que pour ses couchers de soleil flamboyants sur l'horizon océanique, El Golfo constitue également la porte d'entrée méridionale vers la lagune verte du Charco de los Clicos et les sentiers côtiers du parc national.",
+    visiter: "Flâner le long de l'unique rue piétonne littorale d'El Golfo pour admirer les maisons blanches aux volets verts ou bleus posées à même la roche volcanique noire, observer les barques de pêcheurs tirées sur les petites cales de galets et contempler le spectacle de l'océan Atlantique déferlant sur les récifs.",
+    link: ""
+  },
+  {
+    id: "yaiza_mirador_del_charco_de_los_clicos",
+    name: "Yaiza - Belvédère de la Lagune Verte (Mirador del Charco de los Clicos / Lago Verde)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Yaiza",
+    altitude: 15,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cratère Hydromagmatique Éventré par l'Océan, Lagune Vert Émeraude & Olivine Volcanique",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 28.97806,
+    lng: -13.82873,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM4rJnpCW3lZ4pm9AeDQ1xYoq_pF1mODR3U10JC8-bkKe-ZDdNooIHNxzMSIMiq8xa_2NVPXF8LyvTMUrgSb5lZa9tcWOTzs1hQaNOPKSoXKyq1K4nf_-JPMx3knnOu1CemiY3KwkPG1sMPMUkm5fLMPg=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPDqU3nP8DrWMZNVbRihUvS9gQk7eA84BU3_kuZY04C-W-QNuyEEjhemlyMYEFa7XeJyGy0dvb2pO_TnQ1asbEs9KiflxKAtf1KuVxwglwbFQTF2KQ2gA-8rg8uHJyWeawlN3TX8ihvG0FWEEyhJFpvpA=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMPbMD4U7LutlcWJmgIfywBjiFbh22kllTQVj3OA2CTmoWFUCF-AdsW6KQZtZWV8w2nCpIXBce7z2kVwiPj0winzot_jg0Swzm5ul6n_UwUuv0IGsif5P-SjgMUpElDjHmhEY73uZt4fStWwSQvphqmrg=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Situé immédiatement au sud du hameau d'El Golfo, au cœur d'un ancien cône volcanique littoral éventré par la houle de l'océan Atlantique, le mirador du Charco de los Clicos — universellement célèbre sous le nom de « Lago Verde » (le Lac Vert) — dévoile l'une des merveilles géologiques et chromatiques les plus saisissantes de tout l'archipel canarien. Ce site extraordinaire occupe l'amphithéâtre d'un cratère d'explosion hydromagmatique formé lors des éruptions de 1730 : la moitié occidentale de l'édifice a été entièrement démantelée par l'érosion marine, laissant subsister une spectaculaire muraille stratifiée en demi-cercle de tufs et de cendres sculptée en tuyaux d'orgue aux nuances ocre, jaune soufre et rouge oxydé.\n\nAu pied de cette falaise monumentale, séparé de l'océan Atlantique par une large plage de sable volcanique noir d'ébène, s'étend le plan d'eau calme du Charco de los Clicos — dont le nom rappelle une espèce locale de coquillages comestibles jadis abondante dans la baie. Alimentée par des infiltrations souterraines d'eau de mer, cette lagune doit sa coloration vert émeraude fluorescente extraordinaire à la prolifération d'une micro-algue halophile endémique (Ruppia maritima) et aux dépôts de soufre volcanique, créant un contraste visuel saisissant entre le vert lumineux du lac, le noir profond du sable, le rouge de la falaise et le bleu cobalt de l'océan.",
+    visiter: "Emprunter le court sentier pédestre aménagé depuis le parking sud d'El Golfo pour gagner la terrasse panoramique du Mirador del Charco de los Clicos. Les visiteurs contemplent la vue plongeante sur le lac vert émeraude niché au pied de l'amphithéâtre de tufs volcaniques sculptés et observent le cordon de sable noir riche en petits cristaux d'olivine qui le sépare des vagues de l'Atlantique.",
+    link: ""
+  },
+  {
+    id: "yaiza_randonnee_cotiere_el_golfo_playa_del_paso",
+    name: "Yaiza - Randonnée Côtière entre El Golfo & la Playa del Paso (Ruta del Litoral)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Yaiza",
+    altitude: 15,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Sentier Littoral du Parc National de Timanfaya, Malpaís ʻaʻā, Crique Vierge & Volcans Islotes",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1, volcan: 1 },
+    lat: 28.99744,
+    lng: -13.83014,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN-zfWQ2llObbGN_MqsB3aEfSpBn2iFjcypCRd35r9De5SW3ZmvGquTC3da39lgHK-OVhl9oDgr1qybqsCH1K8fIMAPn4Jl3zzuPTRqG_6DDxJ-78Ko3Nbd0cyBBUl_Dbo-cmgwuPs8hONi_Cy57aQbjA=w1681-h1121-s-no-gm?authuser=0",
+    description: "Déployée le long de la frange littorale sauvage marquant la limite sud-occidentale du Parc national de Timanfaya, la randonnée en boucle reliant le village d'El Golfo à la crique isolée de la Playa del Paso offre l'une des immersions pédestres les plus saisissantes et pédagogiques au cœur des paysages volcaniques récents de Lanzarote. Cet itinéraire d'environ six kilomètres et demi permet de cheminer au plus près des coulées de lave basaltique chaotiques (malpaís) émises lors des grandes éruptions historiques de 1730-1736, là où le magma incandescent rencontra les eaux tumultueuses de l'océan Atlantique.\n\nLe parcours longe d'abord une côte déchiquetée sculptée en arches naturelles, marmites d'érosion et souffleurs marins colonisés par une flore halophile résistante aux embruns et des lichens gris-vert, avant de déboucher sur l'anse vierge de sable noir et de galets de la Playa del Paso. Le retour par l'intérieur des terres contourne d'anciens cônes volcaniques pléistocènes — tels l'Islote del Mojón et la Montaña de Juan Perdomo — qui demeurèrent dressés telles des îles de terre ocre et rougeâtre (kipukas) au milieu des fleuves de lave noire, révélant les vestiges d'anciens murets agricoles en pierre sèche (socos) témoignant de l'ingéniosité des paysans lanzaroteños.",
+    intro_page: "Au départ des maisons blanches d'El Golfo, cette randonnée en boucle d'environ six kilomètres et demi longe la côte volcanique sauvage jusqu'à l'anse solitaire de la Playa del Paso, frontière méridionale stricte du Parc national de Timanfaya. Entre les champs de lave chaotiques battus par les vagues de l'Atlantique et le retour par l'intérieur contournant d'anciens cônes volcaniques épargnés par les coulées du XVIIIe siècle (islotes), le parcours offre une immersion fascinante dans la géologie vivante de Lanzarote.",
+    visiter: "S'élancer depuis l'extrémité nord du village d'El Golfo sur le sentier côtier balisé longeant le littoral de lave noire jusqu'à la crique sauvage de la Playa del Paso. Revenir ensuite en boucle par la piste intérieure contournant les cônes anciens de l'Islote del Mojón et de la Montaña de Juan Perdomo pour observer le contraste chromatique entre les laves récentes sombres et les pentes de lapilli anciens ponctuées de murets agricoles.",
+    link: "",
+    sections: [
+      {
+        title: "Départ d'El Golfo sur la Ruta del Litoral",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN-zfWQ2llObbGN_MqsB3aEfSpBn2iFjcypCRd35r9De5SW3ZmvGquTC3da39lgHK-OVhl9oDgr1qybqsCH1K8fIMAPn4Jl3zzuPTRqG_6DDxJ-78Ko3Nbd0cyBBUl_Dbo-cmgwuPs8hONi_Cy57aQbjA=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO_nrE8BsLetXQQsQzEvjikATf0x1xxbtsqygMhkyn9ke1oeNOFmeQKVmyJu6kl7u9Z4_oJYZdO920XP_dv1Ot9283Txtn0JdYypnJ1_MUoOOuP7ov97RvXVNrzlIf3XqTkzStuVEBY52Y9tG74qEpM_g=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "L'itinéraire s'élance depuis l'extrémité septentrionale de l'agglomération pour emprunter le sentier côtier (Ruta del Litoral) en direction du nord, pénétrant d'emblée dans un univers tellurique d'une austérité grandiose."
+      },
+      {
+        title: "Traversée du malpaís côtier et falaises sculptées par l'Atlantique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMuatAWbdwllyXZiWqL54CeFziXbwzGcZXDhqI1PkAVmeYQ6gkXwoplLESPrke38eN5YjIiYy1yP5zwC9vrurD5kUojyZ1AjboR7eMAfjjqqNq-XCdDOAt0ZqEHqPmRZTXGRiOAYJR1wehAWxJ8uW-jMg=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN9c2IfAKFsmrWCtmMAQ_4L5JkbMn3CMsTs0hGLcAD8c8qYCq2-mZ746zUl5Ml2D7r1wCcxJuyKmaxXK5EXRCmSJG0_mykpP2YCHF6NSzMk2ierJnLECuelbV6fVXeufcVz9JqRwg97nUhpVgnKxPRF-g=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "La première moitié du parcours longe au plus près le littoral déchiqueté, cheminant sur un sentier étroit tracé à travers le malpaís — ces champs chaotiques de lave basaltique noire et brun sombre de type ʻaʻā, hérissés de blocs scoriacés acérés, de boursouflures vitrifiées et de conduits de lave effondrés. Sous l'assaut incessant de la houle atlantique soulevée par les alizés, la frange côtière a été sculptée en un chapelet spectaculaire de falaises basses, d'arches naturelles, de marmites d'érosion et de souffleurs marins d'où jaillissent des panaches d'écume."
+      },
+      {
+        title: "Flore halophile pionnière et lichens des embruns",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN1Xg5Jod7pK-nd6ISzzLHyFl4au2qyzzDj1R9jjhHQ07OHhVK5I5rPdft1P93R1ytlSGe0JbvKVOoaRRGipufbj5FVrQskBQEicWJMbziSy5J7ZhbY6KTFy8cG6QNt4F80dM5RnSiIBwX7ui87XefExA=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO4xg4xRkQKXpX4Ziir0cHS1pvgpOhH9bEc304xjHYATFnnkGPVogQfcpiq7oinAguuqMpYShVb2JfW4slAe-QOLVQJgYT7SZCSSJerMf0FgF0sDwtLKQmj0h-utKA46ZvVVZJwCIm2CaNL9rQZ8C_Nuw=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "Dans cet environnement salin balayé par les embruns, une flore halophile et xérophile hautement spécialisée parvient à coloniser les anfractuosités de la roche volcanique, associant la laitue de mer (Astydamia latifolia) aux feuilles charnues, l'aulaga épineuse (Launaea arborescens), la tabaiba douce (Euphorbia balsamifera) ainsi que d'abondantes incrustations de lichens crustacés et fruticuleux gris-vert qui teintent la pierre noire sous l'effet de l'humidité océanique."
+      },
+      {
+        title: "Arrivée à la Playa del Paso, limite méridionale de Timanfaya",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPX5UBSSeXO1KNkt2lMcR_JeNxaGoYjSPmj2Bdd76U0bCozCFte5i5px4do5b2shOSk2XhnsBWqevLxCidYFk5zN7oBJnb9cEjYxAJPH9yvkRxtpZL0lYqzO_6V5IojLtFBFmNIXxmAgsAI87g6CYZblw=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNNm5Kp_ZH9kvHKLG1zNPcJtDFJAKScaawQtTf4LonAOMPwmFrLb_C4B6XzTgpTxj8ayNrKVqq0IoTeJINHG2Jq32fIPbjCAFDdPwd3l65lcM8dvwbSsOIW2ICdXwLX4PTzqRm-uq10NSF3pIitBeX8DA=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "Après environ trois kilomètres de progression au rythme du ressac, le sentier débouche sur l'anse sauvage et isolée de la Playa del Paso, qui marque la frontière méridionale stricte du parc national de Timanfaya, au-delà de laquelle tout cheminement libre est interdit afin de préserver l'intégrité absolue des champs de lave récents."
+      },
+      {
+        title: "Crique vierge de sable noir et falaises de tufs oxydés",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOXWCn92CNMZYKBDEAHHjPE7wlKL6ODWPHHVvdw4HRRzKxbZUpNLJTIcqwUspfRmmKn1Wxb-BgVxCZv0SJJDR6CgalT_cCV5B88kF7Mujfap_HJxU2Ys_ouxZcOQHKviWzW2deB_A4cr9zGGah6lR763Q=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMN-kDLAGaWMt2WNQh1z6KHtvyYlXd6oWh11-gWTzC68HtuGHFTgaDP_p7ugY1xbuf7LdKbPL5NOWdQPZtfpG4j0q2Rv3GN8X9AIvPsYMeqg9e9DJ5djpxoFL1FZDyHRNvVw04qI8L_BXtpn2XCvzpJxA=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "Encaissée entre deux promontoires de tufs volcaniques stratifiés et de basaltes oxydés aux nuances rougeâtres et anthracite, cette plage vierge déploie un croissant de sable noir volcanique grossier et de galets basaltiques parfaitement polis par les vagues. Battue par des courants marins puissants qui interdisent toute baignade, cette grève solitaire offre un panorama ininterrompu sur les falaises sombres du littoral occidental et les cônes volcaniques alignés à l'arrière-plan dans un silence minéral troublé par le seul fracas de l'océan."
+      },
+      {
+        title: "Retour intérieur vers l'Islote del Mojón et la Montaña de Juan Perdomo",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMZcsmkiQIZoNYyVMbGEwntxoy6reDaGUMlA1FM75mEEjdwFY_kT_NdDboysXKhYOCqsaYhe0n1HDe-FqUKdGIADEHf59dK539GDB-d0yzXcU5rMXx0FLLypIH4Zc8-LIvvUhp4DEbiUmLRkLfPLI89Bg=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOZtsBYEpAXbw9zXyf9TuoZ2wc-RWczxT6xn3rpFxlw8eW2VqxdyjHfRyk5R0DLfijU6nWE_sxRC8HONsRamNBtUs8BSFa8I9LY7lDyZZiKhZzxdWG9mETXtz2lzrN3b0_ftiTNUmYSILe43szhg9liEg=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "Le retour en boucle s'effectue en quittant le rivage pour bifurquer vers l'est et le sud à travers l'intérieur des terres, en contournant les reliefs d'anciens cônes volcaniques pléistocènes tels que l'Islote del Mojón et la Montaña de Juan Perdomo."
+      },
+      {
+        title: "Phénomène volcanologique des islotes (kipukas)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMsP0LZBRjfGmWxoirWOYKmfQkT4I09DNrtPveAPezCVEA_5q5lZk2W6VAa6-hWzUnhMsVPPx4QgC70Jx5RVoyhHFVlrSNY--4P1UyD5ZYmtw0J46gmIeic8AAUcNKqB6orf_1Y2Xs9SdrV1qAmUx3Spg=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOAip_8oQwErMDSi4tVeeAlHHoZimehbFr9cOd5xisw7zKm8HRZEC4Bi-kAksfURfQMvu_cHtoCR3zTs42tNABtpllu1X3bE0iMF9fqEbe40JiLuFxTzVbloZjZhMxCSwso3jewUmCkoF6jnPNzUhaa3A=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "En volcanologie, ces collines plus anciennes portent le nom évocateur d'islotes (ou kipukas) : lors des éruptions du XVIIIe siècle, leur relief proéminent fit obstacle aux fleuves de lave fluide qui les encerclèrent sans parvenir à les submerger, les transformant en véritables îles de terre ocre et rougeâtre émergeant au milieu de la mer de lave noire."
+      },
+      {
+        title: "Contraste des lapilli anciens, murets agricoles (socos) et retour à El Golfo",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO-Yh6mPjFTB0vR5WtobYdoMB-C6YLmydRALuASzr-KdID70jJsAoNGGFUd8YN0QxFOw052HzFKZcuEQgTr--9tRvIjcM9By_9B594GIeR8zi1kVw-FqQQ1lXNfoLdv3NJpjBi70_ks3yVl4sNuslnwRg=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPmEiViP1lKEBJl1AQJue_WZ60-LezzO2QeY9-ZpBGwJbbE1mlbM9OPXKrMIpF7S5v_6Y3YHofthP2yfHE7lgIQ9wE6VVbIuUgvVy3COXqzzunVa5wfj3hdRbFqX1sgdNR51gskdfWLvoxSMPMDhzXUJA=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "La marche sur cette piste intérieure met en lumière ce contraste chromatique et géologique saisissant entre les coulées récentes, encore brutes et presque dépourvues de sol, et les pentes douces de lapilli anciens (picón) où subsistent quelques murets de pierre sèche semi-circulaires (socos) édifiés autrefois par les paysans pour abriter des figuiers et capter l'humidité nocturne. Le sentier redescend finalement en pente douce à travers ce désert lunaire silencieux pour rejoindre les maisons blanches d'El Golfo après environ six kilomètres et demi de marche."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczObwTIA_ug3i8sUhsLSEBJNezQTOv1POufZz9e0y7yLhoHTCRaoiR3CSY-w6zsTDzPr2PmGn2hyN2UyH4JuPV-6phDxs5LyDDbDVe1wre1Qu7FZtz0RlIUWYZhZ3eufsGRjLQCUwTMCPnsq1busKzdBcg=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
+    id: "yaiza_plage_de_papagayo",
+    name: "Yaiza - Crique & Plage de Papagayo (Playa de Papagayo - Monumento Natural de Los Ajaches)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Yaiza",
+    altitude: 10,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Crique Paradisiaque Abritée, Sable Doré Fin, Eaux Cristallines & Massif Ancien de Los Ajaches",
+    century: "Temps géologique",
+    category: "plage",
+    counts: {},
+    lat: 28.84240,
+    lng: -13.78813,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMH1-Mun7eBABEioBlMFcaZruUQPcnmaJ-ovLnul7OO_IYakcWB3XpbCpYLQ9Qx8UuRPjU-XLMjdnFLBDJMKUZx2OcqdAaNyJpXfiN1k08o8mn_HDfUNPXOXBSbRPvLpa2sD4umP3qvS507JkrXf4ohgw=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOLM77JV2TsI36fgP761qSl0Lo7ltnGcYMxgBNy93ViP5KCdGo1sF9iaZFd62-I8J9LLm2ORJkwa1iow51GU031dT-u0x-GjZ1yvn9nYErWCOEghicPJy7t3Xi1uu7M7b98Wzt0aZsvnRe4To7HMwRD-w=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN-kvV-RWoryKeeGGTSDRs4jhROeE9Ke3Thoprc2zCi14rROD0tfkkCN0oD5DbO9Wf2OLrxIin0PiBQzYiTVQ9b-LHruQJAuRU6PBmxuGBXU-q0tQvbmdRAFBhMtrN5iU-b9EZJaCfzN9IHBVGHdcwU6g=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPp9UVGZ4JMf84Da4dcXjLOuBliwxI0gg4mSyb9lJxLbp6yZvGdjVMjrxoR64QEvneuKK5qmGtpgomAXmaPh3sTRLX_n_yt0RbGNhgJ4-5mBIkUi5K61YBvunfWxMeoklujnjrWKECw30XBFEKA3Z94Nw=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Nichée à l'extrême pointe méridionale de Lanzarote au sein du Monument naturel de Los Ajaches — la formation géologique la plus ancienne de l'île, âgée de plus de quatorze millions d'années —, la Playa de Papagayo figure universellement parmi les criques les plus spectaculaires et emblématiques de tout l'archipel canarien. Ce joyau côtier préservé de toute urbanisation moderne dessine une conque parfaite de sable fin blanc et doré, profondément encaissée entre deux promontoires rocheux de basalte sombre et de tufs ocres qui la protègent intégralement des vents alizés et des fortes houles atlantiques.\n\nGrâce à cette configuration naturelle en amphithéâtre fermé, les eaux de la baie demeurent calmes comme un lagon et déploient un dégradé limpide d'une pureté cristalline allant du vert émeraude au bleu turquoise intense. Depuis les sentiers escarpés couronnant les falaises qui encadrent la crique — où se rejoignent les anses voisines de Playa Mujeres, Playa del Pozo et Caleta del Congrio —, le regard embrasse un panorama marin lumineux ouvrant sur le détroit de La Bocaina, l'îlot inhabité de Lobos et les silhouettes montagneuses de l'île voisine de Fuerteventura à l'horizon.",
+    visiter: "Emprunter les pistes de terre traversant le Monument naturel de Los Ajaches jusqu'au parking supérieur dominant les falaises, puis descendre à pied le sentier aménagé jusqu'au croissant de sable doré de la Playa de Papagayo. Les visiteurs profitent des eaux limpides et abritées de la crique avant de gravir les promontoires latéraux pour contempler la vue plongeante sur la baie et l'île de Fuerteventura au large.",
+    link: ""
+  },
+  {
+    id: "yaiza_culture_de_la_vigne_la_geria",
+    name: "Yaiza - Paysage Viticole & Cratères de Culture de La Geria (Paisaje Protegido de La Geria)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Province de Las Palmas",
+    subdiv: "Yaiza",
+    altitude: 312,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Viticulture Héroïque sur Cendres Volcaniques (Picón), Foyers Excavés (Hoyos) & Murets Coupe-Vent (Socos)",
+    century: "XVIIIe siècle",
+    category: "artisanat",
+    counts: {},
+    lat: 28.96883,
+    lng: -13.71498,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPrgdfzdFn5h45sSFaChRwMYBSW3P7io2KEZpAkWiaEmW0baZ7Wn_ic71jjh347q0Fmu0Ysjyk-j9jmuKOZvwjtGS4k15V5Za4ctGzaKNbi6iwWRGLRGyNcvkJfRmvwiy4CMRJCFiWV7WTx2blUgSA4fg=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOdj-o3JL5qJm4kHQzoiREUOlgzkmEfFmaSipvYsYq8xoyjrjqf1-j-S8DVHGygVdvlKOr5kzrlz8BXXJqOHZT3M6PqQfb4um2Hrr1_T2n1yizIQx-L_IKgUHuyDDBp5KEMlFEJymTSrh8NSPK4nyJ8GQ=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMQeLM0sytGJvDLIY-VNzgjquKCoNaSAXqJhUnGXsNDGE_YcUlCXderUc3IaXE1E-pgEN-_grHho6GSML0vvtk9DarYvpUhHzwEmODiSpjAijSFe9y74o5joy18aRpEXk5KKm2nKqV_CC0YS8ryL3yq7Q=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN9Z3H4xZWsBu7UqzrhCxvQXNuVo_3p8K5aPxyLLyJJi9EmgM6VFVEHKO9Y683sF7wcILh6VJvoAZCnh4QrCR-t2Wdixi43r6-Ha0OJVsr2VVBfu3-8Gba_OzNgdbVxKp4a1vsz4468FbZ01omip74fxQ=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMWGqpu0xoSIG5paPpsl9SyyVPy6mk7GAUH1wGqSfvWv87tm0iCN69mclk71S2w3-ovqOnp1CrI66HrYxu6XOCt290p-Uk_T6qjLqI4ostJ3sMRVQdoCj0AMlchipuPTtkw4q5Y1Yp8BhgBOyEob9P9Rg=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNjURNIDhZ1KTxdc9ejnzarBOKGTdLTuAmLmGieMb10Qb4uCgM960NyS5Nx9fJ7E0svep0kWs3lmbrtScA5-4XDZkd3jZQWhYQ_aFqWO0kF8qPI_4TgX8BoJTlGo8qZjbuzjXyQvV3acwPYqnAVSg_WWA=w1681-h1121-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Déployé sur plus de cinq mille hectares dans la vallée centrale séparant les cônes volcaniques de Timanfaya du massif ancien de Los Ajaches, le Paysage Protégé de La Geria offre l'un des exemples les plus extraordinaires et poétiques au monde d'adaptation agricole humaine à un environnement désertique et volcanique extrême. Au lendemain des éruptions cataclysmiques de 1730-1736 qui ensevelirent les meilleures terres arables de Lanzarote sous un épais manteau de cendres et de lapilli basaltiques noirs (picón), les paysans insulaires inventèrent une technique agraire révolutionnaire pour transformer cette désolation minérale en un vignoble d'exception.\n\nPour atteindre la terre végétale fertile enfouie sous la couche de cendres, des milliers d'entonnoirs coniques (hoyos) de deux à trois mètres de profondeur furent creusés à la main à intervalles réguliers, au fond desquels fut planté un unique cep de vigne — principalement du cépage historique Malvoisie volcanique (Malvasía Volcánica). Chaque cavité est protégée des vents alizés desséchants par un muret semi-circulaire en pierre volcanique sèche (soco), tandis que la couche poreuse de lapilli noirs agit comme une éponge thermique qui absorbe l'humidité nocturne de la rosée et empêche l'évaporation sous le soleil brûlant. Cette mosaïque hypnotique d'alvéoles noires ponctuées du vert éclatant des pampres, jalonnée de domaines viticoles historiques (bodegas) blanchis à la chaux, incarne le chef-d'œuvre absolu du paysage culturel de Lanzarote.",
+    visiter: "Parcourir la route sinueuse LZ-30 traversant le cœur de la vallée viticole de La Geria pour contempler à perte de vue le maillage géométrique des entonnoirs de cendres noires et des murets en demi-lune protégeant les ceps de vigne. Les visiteurs font halte dans l'une des caves historiques bordant la route pour observer l'architecture traditionnelle des bodegas et déguster les vins blancs secs ou doux de Malvoisie volcanique.",
+    link: ""
+  },
+   {
     id: "arucas_casa_de_la_cultura_ayuntamiento",
     name: "Arucas - Maison de la Culture & Hôtel de Ville Historique (Casa de la Cultura - Ayuntamiento de Arucas)",
     country: "Espagne",
