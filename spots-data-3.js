@@ -7,6 +7,160 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "teguise_ville_historique",
+    name: "Teguise - Ancienne Capitale Historique & Ensemble Patrimonial (Villa de Teguise)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Lanzarote",
+    subdiv: "Teguise",
+    altitude: 311,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Première Capitale Historique des Canaries (1418), Palais Seigneuriaux, Couvents & Architecture Blanche",
+    century: "XVIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 29.05956,
+    lng: -13.56030,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOsNoZ1X1pJ6IjPvw8cvtgKBP3A0lMyTb3ISf47QqVuhStERsPtSeT26WW71YFW3uJOHmZvt8tMSrxHbOTBnW_JMAat-3-6MTn1ehxyeQx0RkxlSlcxAfxW4cZFob9SBi143b2DDeHAtqSFpBYStztLeA=w1379-h919-s-no-gm?authuser=0",
+    description: "Nichée au cœur de la plaine centrale de Lanzarote, au pied du cône volcanique de Guanapay couronné par le château fort de Santa Bárbara, la Villa de Teguise constitue le joyau historique, architectural et urbain le plus prestigieux de l'île. Fondée dès 1418 par le conquérant normand Maciot de Béthencourt sur l'emplacement de l'ancien village préhispanique majos d'Acantife — et baptisée en hommage à son épouse la princesse aborigène Teguise —, elle demeura la capitale politique, administrative et seigneuriale de Lanzarote pendant plus de quatre siècles jusqu'au transfert du siège gouvernemental vers le port d'Arrecife en 1852. Déclaré Ensemble Historique et Artistique, son centre ancien a miraculeusement conservé intacte l'atmosphère recueillie et aristocratique d'une cité coloniale de l'époque moderne.\n\nSon tissu urbain pavé de galets volcaniques s'articule autour de vastes places minérales et de ruelles silencieuses bordées de demeures patriciennes blanchies à la chaux — à l'image du somptueux Palacio Spínola —, d'anciens couvents fondés par les ordres dominicain et franciscain, ainsi que de la monumentale église paroissiale Nuestra Señora de Guadalupe. Témoin des raids des corsaires barbaresques aux XVIe et XVIIe siècles autant que de la prospérité agricole liée aux céréales, à l'orseille et à la cochenille, Teguise incarne avec une pureté remarquable le dialogue entre l'austérité volcanique lanzaroteña et la noblesse des traditions architecturales canariennes.",
+    intro_page: "Ancienne capitale de Lanzarote de 1418 à 1852, la Villa de Teguise déploie au cœur de l'île un ensemble historique classé d'une élégance minérale saisissante. Ses ruelles pavées de basalte sombre s'articulent autour de places lumineuses bordées de demeures seigneuriales blanchies à la chaux, de palais aristocratiques aux menuiseries en pin tea tels que le Palacio Spínola, d'anciens couvents et de l'imposante église Nuestra Señora de Guadalupe, préservant intacte la mémoire seigneuriale et coloniale de l'archipel.",
+    visiter: "Flâner à pied dans les ruelles pavées autour de la Plaza de la Constitución et de la Plaza Clavijo y Fajardo pour admirer les façades immaculées des palais seigneuriaux, leurs portails en pierre volcanique taillée et leurs menuiseries en pin tea. Les promeneurs visitent l'église Nuestra Señora de Guadalupe, le Palacio Spínola et les anciens couvents de Santo Domingo et de San Francisco avant de profiter de l'atmosphère paisible des placettes ombragées.",
+    link: "",
+    sections: [
+      {
+        title: "Architecture vernaculaire et noble du centre historique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOsNoZ1X1pJ6IjPvw8cvtgKBP3A0lMyTb3ISf47QqVuhStERsPtSeT26WW71YFW3uJOHmZvt8tMSrxHbOTBnW_JMAat-3-6MTn1ehxyeQx0RkxlSlcxAfxW4cZFob9SBi143b2DDeHAtqSFpBYStztLeA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPAAjVj2CP2sV8LdodS_XyPWB3X2IZpv3Iw-pEVYUx93ZNuQu_SA7f8cheGoVdSpGmaaqtFzfpjvagcDRUQsMIPawQIGXT1JbOvnrG6jdZSbFC_UTLxsdFX9NRkJGDXStErJX2UAlYk0XNTpT3WG4_GoA=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "La déambulation à travers le centre ancien dévoile une architecture vernaculaire et noble d'une remarquable sobriété minérale, parfaitement adaptée à l'aridité extrême de Lanzarote. Les ruelles pavées de galets basaltiques et de dalles volcaniques sombres sont bordées de maisons basses et de demeures patriciennes aux épais murs de maçonnerie enduits d'un crépi de chaux blanche éclatant, dont la blancheur immaculée contraste avec la teinte sombre de la pierre volcanique appareillée autour des portails, des angles et des fenêtres."
+      },
+      {
+        title: "Menuiseries en pin tea et demeures seigneuriales : le Palacio Spínola",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN-HD1W3_okS9YvbYQRNXivyQ4urqf-0X6jTOlMeH1OIgBFul5n75tk2ieK4WLpCIrHpZHQJZT8MEo4R-tUjj2R0L_bAT4X5mUfu00_w6W5imaRDEICkpO-t64-JzQ01I7pggf6EeTZJcz6gRwwz7HzUA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP9dCVcLnXagd7MMo-RwT-IXkL4TGgskMKgBRtrdCCOK1MBFh4UITPFsrxtJg-yklp_BByHK2JLq7JhVoy-DiGNR5ficEEPfX5nwEl5wx65A9HBdzce59sZ9WReWnphtg9gD68CAfKKZzJuSXbnuoVXoQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Les façades sont rythmées par des menuiseries traditionnelles en bois de cœur de pin des Canaries (tea), souvent peintes en vert olive ou en brun foncé, comprenant des fenêtres à guillotine, des volets ajourés et des balcons sobres protégeant l'intimité des patios intérieurs. Parmi les édifices civils les plus emblématiques figure le Palacio Spínola, demeure seigneuriale du XVIIIe siècle édifiée pour la famille Feo de Peraza et réaménagée plus tard par l'artiste César Manrique, dont l'élévation ordonnancée témoigne de l'opulence des élites terriennes liées au commerce de l'orseille, des céréales et de la cochenille."
+      },
+      {
+        title: "La Plaza de la Constitución et l'église Nuestra Señora de Guadalupe",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNHF7pOJ7NrdHqnmisPlqvkJpWE8Zw-YN3Hug_Pu80BVSHoG5i3wjUx63Gpbb3kawcryYyq-Hpr3yzfzQHnAjgQ0r0IWmsZaJQ0NeabF_C5dz10SASm69N8EqbGs7oOZ8BfvCQkuUfsWbbelsHhTx6MOg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMGWhFgTrilxx8OL2zPbGJOrltcj2HrQDsjGYrmQUnEfXF3qLJ9pKM99S1I0_i2C78hcCx-mOfYyTKpAKOMHn9MAyJ5jQQsYKRbYDhgxOkKUVxj9jqw5qumys-rVz692DOts-rGmywlEDKc1B-aqhDe6A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le cœur monumental et spirituel de l'ancienne capitale s'articule autour de la vaste Plaza de la Constitución (également appelée Plaza de San Miguel), esplanade minérale dominée par la silhouette majestueuse de l'Iglesia de Nuestra Señora de Guadalupe. Érigée à partir du XVe siècle puis agrandie et reconstruite à plusieurs reprises à la suite des saccages pirates — notamment lors de l'attaque dévastatrice de Morato Arráez en 1618 — et d'un grave incendie au début du XXe siècle, cette église-halle présente une façade blanche austère rehaussée d'encadrements et d'une corniche en pierre volcanique rougeâtre extraite des carrières locales. Sur son angle méridional s'élève un haut clocher carré couronné d'un lanternon octogonal qui constitue le repère visuel majeur de toute la plaine centrale."
+      },
+      {
+        title: "Les ensembles conventuels historiques : le Convento de Santo Domingo",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPLV9XointdJALzup_QhbHVB_xAB35FgShYBNx54mmpL_U89oBzFV_kbTp7p7bVgZyo863lUjSvorrMxO_oftBXyvBomtKc9uneUgrSCiB5uXWdHOBpknP4gcpXPZddavgVIXJCgS_k9Oc1aWjIZLKUOg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPV37drFWyNM2SBJngOuYsYRtpmjy667_yRkaKrmSMXVjjWfSSUN2gB_layOriYtOgZYdmHHI2mOm_HsVdBmF9H1sgv46Bzd3WW6a3Rr__ME6qnt9EpVXYOX73dMQaxAgAa0weJdKPMPZs3H0cIi1IIeQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La vocation religieuse et intellectuelle de la cité se manifeste également à travers ses anciens ensembles conventuels, au premier rang desquels se dresse le Convento de Santo Domingo, fondé à la fin du XVIIe siècle par l'ordre des Prêcheurs sur la limite orientale du bourg."
+      },
+      {
+        title: "Patrimoine conventuel et perspectives urbaines",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMF4uQJCXpNwk4znbrcUAruBFmhkzEe1pZbZwW_XUnPP8xIPpVNyz6YllKArnzLQoqpKOVL2fo3M2rV-0sQc5eYnBHb5xGn8PsEX25T_5PQVt3fdIpyw8nKYeUfUOV7_t-NX4Sjs98zJptuimu4k03rmw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM7HIyhbPC23BgkmU-q3nPaYrPJLpWqRsUe8SIJ5Q9XFIFx0Wg1cMGvIdfXgm5geGK-ve_Lr0YxgNGbhmdhV1nDTjrnABgLKF85KY3fygxH_KZORmHjXl1HBYlTDcT9knGOs51nonrNq7-z6jOlLpMJHw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN0S2lHzYc-sqX5v6rIB9hgInvZdxT__PUwdp4VtRyA5KnU7pr7PdCd_72uxkaNZUnEAmhkV5Ql3RrA_C-9KDsfQFrQ8sd-qu7lxVOfjugSHUaW25Ky96vySLAiQCM-d4eWRiV9J_8RlYF4oDE1U_wDfQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOTGRgvESmdV5OSQIOvEHLEiQo_fQifri1u3Ahg1-ZscvRM5yNWEeau_tJiqNPPIehpVC_igr1g_pjAM-eER6VjIaOi1fE0RhJ_qgZgYay1D6GKi-fmgrvXzT8cn7pQjmAuKACu17oTwRj4qVX5o8BULQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
+    id: "teguise_iglesia_nuestra_senora_de_guadalupe",
+    name: "Teguise - Église Matrice Notre-Dame de Guadalupe (Iglesia de Nuestra Señora de Guadalupe)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Lanzarote",
+    subdiv: "Teguise",
+    altitude: 311,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Sanctuaire Matrice de Lanzarote, Nef Néogothique Blanche & Clocher en Pierre Volcanique Rouge (XXe siècle)",
+    century: "XXe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 29.05948,
+    lng: -13.55990,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNHF7pOJ7NrdHqnmisPlqvkJpWE8Zw-YN3Hug_Pu80BVSHoG5i3wjUx63Gpbb3kawcryYyq-Hpr3yzfzQHnAjgQ0r0IWmsZaJQ0NeabF_C5dz10SASm69N8EqbGs7oOZ8BfvCQkuUfsWbbelsHhTx6MOg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNWgYDcftB-bh32_mQDoHVXYsQQ9ZyH2hM75C2n7B6fd-0o8RCxGE6IGfUjOlHlzzl-d3Hz0sg67XHarv-KUNgFZQBOGH0WV0tY-Lwm__r_gjFAl9EWSBsFn1xC2Yu6wZEaM6TZmQ9Ob4TdNifOfU82Eg=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'intérieur de l'Église de Nuestra Señora de Guadalupe, située au cœur de la ville historique de Teguise à Lanzarote, est un témoignage fascinant de l'adaptation des styles européens aux réalités insulaires. Bien que ses origines remontent au XVIème siècle, l'édifice actuel résulte de nombreuses reconstructions, notamment après les incendies dévastateurs de 1909.\n\nCette église, l'une des plus vastes de Lanzarote, présente une nef imposante qui illustre la transition entre le néo-gothique et le néoclassicisme canarien. L'image met en lumière une structure tripartite où les nefs sont séparées par de puissantes colonnes fasciculées (regroupées en faisceaux) de couleur blanche, dont les chapiteaux corinthiens supportent des arcs brisés. Cette verticalité, typique de l'inspiration gothique, est ici traitée avec une clarté et une sobriété chromatique propres au début du XXème siècle.\n\nLe point focal de la nef est le maître-autel, dominé par un retable monumental d'un blanc immaculé, orné de fines flèches et de détails sculptés qui rappellent l'orfèvrerie gothique. Ce choix du blanc, associé au sol en damier de marbre noir et blanc, confère à l'espace une luminosité et une solennité particulières, tranchant avec les tons sombres de la pierre volcanique souvent utilisés dans d'autres églises de l'archipel.\n\nOn remarque également la présence d'une chaire à prêcher surélevée sur la gauche et de vitraux circulaires (oculi) colorés qui percent les parties hautes des nefs latérales, diffusant une lumière tamisée sur les bancs de bois sombre."
+      }
+    ],
+    description: "Dominant la vaste esplanade de la Plaza de la Constitución au cœur de la ville historique de Teguise, l'église matrice Notre-Dame de Guadalupe (Iglesia Matriz de Nuestra Señora de Guadalupe) constitue le principal monument religieux et historique de Lanzarote. Fondée dès la seconde moitié du XVe siècle sous le vocable de Saint-Michel avant d'être consacrée à la Vierge de Guadalupe au XVIe siècle, cette église-halle monumentale connut une histoire mouvementée marquée par de multiples destructions et reconstructions : incendiée lors des grands raids des corsaires barbaresques de 1569, 1586 et 1618 menés par Morato Arráez, elle fut à nouveau ravagée par un violent incendie en 1909 avant d'être restaurée au début du XXe siècle.\n\nSa façade principale séduit par l'équilibre austère de ses volumes enduits à la chaux blanche, rehaussés d'encadrements en pierre de taille volcanique rougeâtre et flanqués d'un imposant clocher carré surmonté d'une coupole octogonale qui s'élance au-dessus des toits de l'ancienne capitale. L'intérieur déploie trois vastes nefs séparées par de hautes colonnes fasciculées blanches à chapiteaux corinthiens portant des arcs brisés néogothiques, convergeant vers un maître-autel blanc finement sculpté et une statue vénérée de Notre-Dame de Guadalupe, témoignant de la résilience spirituelle et artistique des habitants de l'île.",
+    visiter: "Contempler depuis la Plaza de la Constitución le contraste chromatique entre les murs blanchis à la chaux, les encadrements de pierre volcanique rouge et le haut clocher octogonal de l'église. Les visiteurs franchissent le portail pour admirer l'élancement des trois nefs néogothiques baignées d'une lumière claire, le dallage en damier de marbre et la finesse du retable majeur blanc.",
+    link: ""
+  },
+  {
+    id: "teguise_ciudad_estratificada_los_roferos",
+    name: "Teguise - Formations Érodées de Cendres Volcaniques de Los Roferos (Ciudad Estratificada)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Lanzarote",
+    subdiv: "Teguise",
+    altitude: 170,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Anciennes Carrières de Rofe (Lapilli), Pinacles Pyroclastiques Sculptés par l'Érosion & Architecture Minérale",
+    century: "Temps géologique",
+    category: "nature",
+    counts: {},
+    lat: 29.05754,
+    lng: -13.50517,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMiwgFEzmDXno3TY5JVVzUWlHn7BfBbDwt0kC7vFs699ac_Yt2sF6QhP63pVbQSRyd5lLl9LvMdyoYKjc1-1kJjDYxkzc9zCfukymmD9ApWKhgoNoqlaqauQhiNvUK1cW84LgOJ3z3hRfIPbnUrygo-aw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNrLWe_8-dM8CbjmyW72gERglZ85k4j59srI3tnmT7qLZOfq6aRNnnatNUWIE4D_Zy0dj_AUF2jKW6A5BQYrQxZS0Hpx_sKC3NN8RbqNXtxvFnpL75NyR--Ueov-pvm3l8FB4dMJyOangzjBELN9kdMhw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOVVQvUd15PIaT9SqIsFiXBmh-O_KhgG4JurZtExqxrR-B3IxKM7GPYojtuma_mv_qYU0ACqVPg6f8DxCNjulHeVTVc5YbI2nZXVgCoAO51InqAiiWWJkp8cjL9UH8SDIVqZyKF34S5ipELTRn19E5oIw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMl9vwKfN_F-0cQFxnPaAa1afbI5zytNshFFcuM5UoFlvhuG2ai4R-1y0Jd52apthJWIbEOAaykMw9a-QZt33rqc1XZ9HcTWEGz0F4u6LodmlJF33T25jGdYIxGJQYz8-LkqxWdGLzTAQ2Q2R__UDOBSA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPakKenKMxE5DEl3mFES35fQDPFpWmeE00WnuzCdw0Yv5ohXco9qbw09ibWZh-WcHZXOKqH6086f4z-2cdxPb0kP0kBNKc7vvZ8RFc3X-pjdJf0fZshoA6XuI8cZbCuhHB_MnI4GWos5EKLWmTREw4Dag=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNSbMU03a-e72QQ7XeqhphF3roTfpjvoYaGPL0WwaNhU2WLboXk8j3DAZTS8Dnc7osaJPvDXrAkiC9E863pdYd4kAhKby9HcWCBGjzLB0q0I2AOlXUlhG0aw0UxowYEIDy-0zerUnmoMezs37xAC6COkw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dissimulées à flanc de colline le long de la route LZ-404 reliant Teseguite à El Mojón, sur le versant oriental de la commune de Teguise, les formations minérales de Los Roferos — surnommées poétiquement la « Ciudad Estratificada » (la Cité Stratifiée) — composent l'un des paysages géologiques les plus surréalistes, secrets et photogéniques de Lanzarote. Ce site spectaculaire résulte de la rencontre entre l'activité humaine d'extraction agricole et l'action patiente des agents atmosphériques sur d'anciens dépôts pyroclastiques volcaniques consolidés.\n\nPendant des générations, les paysans de l'île ont exploité ces flancs riches en « rofe » — nom local désignant les cendres et lapilli volcaniques poreux indispensables pour recouvrir les cultures et retenir l'humidité nocturne dans les champs arides. L'extraction irrégulière des couches les plus meubles a mis à nu des niveaux de tufs et de projections volcaniques stratifiés, que les vents alizés chargés d'embruns et les rares pluies torrentielles ont ensuite sculptés avec une virtuosité saisissante. Au fil du temps, l'érosion différentielle a dégagé un véritable labyrinthe onirique de cheminées de fées, de pinacles effilés, d'arches délicates, de cavernes et de parois feuilletées aux nuances d'ocre doré, de gris cendré et de brun volcanique, évoquant les ruines pétrifiées d'une cité antique troglodytique.",
+    visiter: "S'arrêter en bordure de la route LZ-404 entre Teseguite et El Mojón pour parcourir à pied les sentiers sinueux serpentant au cœur de l'amphithéâtre minéral de Los Roferos. Les visiteurs explorent avec précaution ces couloirs de roche volcanique friable pour admirer la finesse des strates pyroclastiques, les arches naturelles et les jeux d'ombres dessinés par le soleil sur ces sculptures géologiques.",
+    link: ""
+  },
+   {
     id: "yaiza_eglise_nuestra_senora_de_los_remedios",
     name: "Yaiza - Église Notre-Dame des Remèdes (Iglesia de Nuestra Señora de los Remedios)",
     country: "Espagne",
