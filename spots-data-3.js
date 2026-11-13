@@ -7,6 +7,115 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "tinajo_caldera_colorada_bombe_volcanique",
+    name: "Tinajo - Volcan Montaña Colorada & Bombe Volcanique Géante (Caldera Colorada)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Lanzarote",
+    subdiv: "Tinajo",
+    altitude: 358,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Dernier Édifice Éruptif du Cycle de Timanfaya (1736), Scories Rouge Carmin & Bombe Volcanique Monumentale",
+    century: "Temps géologique",
+    category: "volcan",
+    counts: { volcan: 1 },
+    lat: 29.00403,
+    lng: -13.67664,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNcnkEFaZi-PBE375YyN6_87GSIs5HfjSlyAkcWhnMCrfQ_C3TpucUpslI9zGH_wvZgqqiEF4e3-Z8f2b-usW2WyoH6RJm9ljyloLzJD8GEb0CYLUQb-ZIYg-gTWR9AUWHQscXrVVZ-w6yKXDSuvB51qg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOT7YFZ4WgqT9Bpqp2LhC1y5EQ11MP3u4StmnXlgE2Wj2EquV9eieSJmS2xUhKJ5L6V1lNmuilWeJKLYFyrJnH_x5alverk5VN1V2eIEekilByYz0-dwVMk9WQvwEHbTM59PjWlNOhLdttF7o9dOs34Yg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMf5Ti6zgVdN6JZM58yRCg61Y74FJX0wOEB0IkEymt6GWwR9HW8wJi11zwjA8U7tsaWz1IbA81T8W3oprFgToJc-Lo_4Jj_nEocJ-VVeuqeQ0vQb5se0mGQB_liaSxWD21ez0-jWeNdMrl7rkZdb7nDvg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressée à la limite nord-orientale du Parc naturel des Volcans sur le territoire de Tinajo, la Montaña Colorada — également désignée sous le nom de Caldera Colorada — occupe une place singulière dans l'histoire géologique de Lanzarote puisqu'elle constitue le tout dernier cône volcanique à s'être édifié à la fin du grand cycle éruptif de Timanfaya en avril 1736. Ce stratocône pyroclastique parfaitement symétrique doit sa dénomination évocatrice aux spectaculaires teintes rouge carmin, ocre vif et rouille ardent qui embrasent ses flancs dénudés, résultant de l'intense oxydation ferrique des cendres et des lapilli au contact des gaz volcaniques et de l'atmosphère.\n\nLe sentier pédestre circulaire qui fait le tour complet de sa base dévoile l'une des curiosités volcanologiques les plus célèbres et impressionnantes de tout l'archipel canarien : posée sur le tapis de scories noires au pied du versant oriental du cône gît une titanesque bombe volcanique sphéroïdale de près de quatre mètres de hauteur. Ce bloc colossal de basalte compact, arraché aux parois de la cheminée et projeté hors du cratère lors des explosions finales de 1736 avant de rouler jusqu'au pied de la pente, témoigne avec une force saisissante de l'énergie cinétique colossale des phénomènes éruptifs lanzaroteños.",
+    visiter: "S'élancer depuis le parking aménagé en bordure de la route LZ-56 pour emprunter le sentier balisé contournant la base de la Montaña Colorada. Les visiteurs observent le contraste chromatique saisissant entre le champ de lave noire et les flancs rouge vermillon du cône avant de faire halte devant l'immense bombe volcanique posée au pied du versant oriental et d'apprécier les panneaux d'interprétation géologique jalonnant la boucle.",
+    link: ""
+  },
+  {
+    id: "tinajo_rando_volcan_santa_catalina",
+    name: "Tinajo - Randonnée & Cratère du Volcan Santa Catalina (Volcán de Santa Catalina)",
+    country: "Espagne",
+    continent: "Afrique",
+    flag: "🇪🇸",
+    region_admin: "Îles Canaries",
+    department: "Lanzarote",
+    subdiv: "Tinajo",
+    altitude: 414,
+    is_island: true,
+    island_name: "Lanzarote",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cône Éruptif Historique (Octobre 1730), Champs de Laves Cordées Pāhoehoe & Panorama sur Timanfaya",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1, volcan: 1 },
+    lat: 29.00414,
+    lng: -13.70651,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMhCLaDwI2WT8IIFHw0_VKDdCIh6mCJHBpywx6S1Uu4rEusAo6empAFcmMT6eljd4Jmi0cPYPO0rkCFqBSXMAlT9zoRjegU0IrSTBd7UOYWnORSRYz6at5t4StJnbtXIfjOpGdYVvxRwM4IV9t_UPkQGQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Dressé au cœur du Parc naturel des Volcans sur le territoire de Tinajo, à plus de quatre cents mètres d'altitude, le Volcán de Santa Catalina constitue l'un des témoins géologiques et historiques les plus saisissants du grand cycle éruptif de Timanfaya (1730-1736). Apparu dès le mois d'octobre 1730 sur l'emplacement même de l'ancien et prospère hameau agricole de Santa Catalina qu'il engloutit intégralement sous ses cendres et ses coulées incandescentes, ce cône pyroclastique imposant offre un observatoire privilégié sur la dynamique volcanique récente de Lanzarote.\n\nL'itinéraire de randonnée en boucle de neuf kilomètres au départ du secteur rural de La Vegueta permet de cheminer d'abord à travers un paysage agraire traditionnel d'enarenado cloisonné de murets semi-circulaires en pierre sèche (zocos), avant de pénétrer au cœur d'un désert minéral lunaire où alternent chaos de laves rugueuses ʻaʻā et vastes étendues de laves fluides lisses et cordées pāhoehoe. L'ascension finale jusqu'au rebord protégé du cratère principal dévoile un entonnoir profond aux parois stratifiées ocres et rougeâtres ainsi qu'un panorama circulaire grandiose embrassant toute la chaîne des Montañas del Fuego et les falaises lointaines du massif de Famara.",
+    intro_page: "Édifié dès le mois d'octobre 1730 sur les terres de l'ancien village agricole qu'il ensevelit lors des grandes éruptions de Lanzarote, le Volcán de Santa Catalina déploie un itinéraire de randonnée de neuf kilomètres d'une richesse géologique exceptionnelle. Au départ de La Vegueta, le sentier quitte progressivement les parcelles viticoles traditionnelles abritées par des murets en demi-lune (zocos) pour s'enfoncer dans un désert de laves noires cordées et scoriacées tapissées de lichens gris-vert, avant de gravir l'arête sommitale dominant le gouffre stratifié du cratère et l'alignement des volcans de Timanfaya.",
+    visiter: "S'élancer depuis les pistes agricoles de La Vegueta pour suivre le sentier balisé traversant les cultures en enarenado puis le champ de lave du Parc naturel des Volcans jusqu'au pied du Volcán Santa Catalina. Gravir le chemin d'accès menant au rebord délimité du cratère principal pour contempler l'entonnoir intérieur et le panorama à 360 degrés sur les volcans de 1730 avant de boucler le retour vers La Vegueta.",
+    link: "",
+    sections: [
+      {
+        title: "Le Volcán Santa Catalina, témoin du cycle éruptif de Timanfaya (1730-1736)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMhCLaDwI2WT8IIFHw0_VKDdCIh6mCJHBpywx6S1Uu4rEusAo6empAFcmMT6eljd4Jmi0cPYPO0rkCFqBSXMAlT9zoRjegU0IrSTBd7UOYWnORSRYz6at5t4StJnbtXIfjOpGdYVvxRwM4IV9t_UPkQGQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le Volcán Santa Catalina constitue l'un des témoins géologiques et historiques les plus saisissants du grand cycle éruptif de Timanfaya (1730-1736)."
+      },
+      {
+        title: "Départ de La Vegueta et traversée des paysages agraires d'enarenado",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM4s1hrCpv83HQbn0oxlhSd9N65joBp44-MbvYG_gBQtIFRkfNajytu3w6dC6AqYv0k29qkUERg_yYIYGUWnI2yg9UvsTMJY5cYOszKv0ZiGLihrVZ9jivQm2AdVFEsnKrHcAIJLjhGEHmAoRlcDU2MpA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNlxOgdnlUyCwYsTkwJFpqfv8uz028hNwTPBcvbXo6Aq4fTPzV4RQnuZPd4AbpIas7L-WlLdUhtBimXaq2ViBX6bp_hlwGxeJ6dXNHOA1f0YVnEyBG5YtonRjYyahiTN8MB5KjDEXWhsVeiDJf-NSmALQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'itinéraire de randonnée, qui dessine une boucle d'environ neuf kilomètres pour un dénivelé modéré et régulier, s'élance depuis les abords ruraux de La Vegueta, en contournant les reliefs plus anciens de la Montaña de los Rodeos. La première section du chemin traverse une zone de transition paysagère remarquable où les cultivateurs de Lanzarote ont reconquis les marges des coulées grâce à la technique traditionnelle de l'enarenado : d'épais tapis de graviers volcaniques noirs (rofe ou picón), cloisonnés par d'innombrables murets semi-circulaires en pierre sèche (zocos), protègent des pieds de vigne et des figuiers contre les rafales des alizés tout en captant la rosée nocturne."
+      },
+      {
+        title: "Immersion dans le malpaís : laves ʻaʻā, laves cordées pāhoehoe et lichens",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOkVWsgGI6hYazAXiG8UbWvixgOCjoofvZ0MJVtIuNjTaZR-reAiaEiF3mTDoxMgyHh4M3J-fwZfSX01rQLVCVTEKtvjyMgWqnm2u4s2j3GolBgwOsfqnlh8S6Bn7mXHCPyEyCPj0XpqBkgdTq4KW6BIA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "À mesure que le sentier s'enfonce dans le périmètre protégé du parc naturel, toute trace d'aménagement agraire disparaît au profit d'un désert minéral d'une austérité lunaire. Le cheminement serpente au milieu d'un vaste champ de lave (malpaís) offrant une véritable leçon de volcanologie à ciel ouvert : aux chaos rugueux et acérés de laves basaltiques de type ʻaʻā succèdent de spectaculaires étendues de laves fluides lisses et cordées (pāhoehoe), figées sous la forme d'anciens lacs de lave solidifiés et de tunnels volcaniques effondrés. Sur cette roche noire vieille de moins de trois siècles, la vie végétale amorce patiemment sa reconquête grâce aux lichens fruticuleux gris-vert (Stereocaulon vesuvianum) qui gainent les scories, accompagnés de rares touffes d'aulaga épineuse (Launaea arborescens) et d'euphorbes blotties dans les fissures abritées du vent."
+      },
+      {
+        title: "Ascension sur l'arête sommitale et découverte du cratère principal",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMU0vRVEUzTbyBYKmw8wYxjF7NNbtNQ7VagtcQnl-JSqag-3XZ6_TxoO7hR_asmOZPuL3gR4ns3nJ-x_6zqAeuuBU7EGhCCFwCqhotBaJ3JTUftS4uOXAEqU2bN4sqGJosULeFrJGUJG9nErkRHuXiG-A=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNz4Xa973nL7PjiPHSVfBSe1YePWKInHKtTr0iSN74LVeAtIRUkpePqJ6cJaWXyO0JX9DyY9QfvhAvMmGqYulZDzrEPJOZUdYXLZ3J__twyqDgUg0LKqIci0t-MxoclnPeiFfJmJGnNWG7kMmS3OVPtDw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La montée finale sur le flanc du cône mène directement sur l'arête sommitale du cratère, dont le périmètre est strictement délimité par des alignements de pierres afin de préserver la fragilité des pentes de cendres et d'en interdire la descente. Depuis ce belvédère balayé par les vents, le regard plonge dans l'entonnoir profond et parfaitement dessiné du cratère principal, aux parois intérieures stratifiées teintées d'ocre, de rouille et d'anthracite par l'oxydation des gaz volcaniques."
+      },
+      {
+        title: "Panorama à 360 degrés sur les édifices de 1730 et le massif de Famara",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOJg3KMe6BMeQSARn2-LT66IQxROVJ1-OXAag4DxBp7uTbGH2-IwPogR60S5ymzXWGpjFfmBUxDAtHFpq39KhByQoqLRiGOcNELG63HINyxprSYqHAZJffSv4zrH23By9iwHrRgYOpai0M1fm4nBMINYA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNUm2RURVg2RVLMukQ7PEUxVyUdPSJ_NgDzHuekWumitoH5nIRunhBt0mHbWUYaXv9cvalmxGVRFLz-fEYUaAg6hKGJ3kcXatnrHHSDHKtGtVtjk9SpBkWUi42cA9sfi6U7GSEHkvjlamyBI8QcUWAw0Q=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le panorama circulaire à trois cent soixante degrés embrasse l'alignement majestueux des édifices de 1730 — de la Montaña Colorada et de la Caldera de Los Cuervos jusqu'aux crêtes rouges des Montañas del Fuego — tout en ouvrant une perspective saisissante vers le nord sur les falaises du massif de Famara, avant de redescendre en boucle par les pistes de lapilli vers les cultures de La Vegueta."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOTD0a5uykTDyHscMTNpNys_spBq2cmsYiRiwwitO5cCEZV6GW_Gr6SZeuvaKOPHK41ezWEgxBTC72FndEGWxZ1edFcGj3Fx22ppsEtm8yjCOIWR2sltMvrJc0waN3th0nC1lKEWT6sR49CQkkmVE5j5g=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMla1syl92cm2ILjYLqqR-WdY1yrvp0KOVkeR_TV6_FZYzZ3R-0F2buLA2PExscBkVNjYl0GqYRmAGMw76S_0hzMn2jMJFY_XZdxLJaiyWzTvUHnX1-E_kXD5eGQEvhIZGiL1y3e-byd09Lm8FlsQEFNA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+   {
     id: "haria_rando_volcan_la_corona",
     name: "Haría - Randonnée & Cratère du Volcan de la Corona (Volcán de la Corona)",
     country: "Espagne",
