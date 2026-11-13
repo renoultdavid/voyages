@@ -254,7 +254,7 @@ const SPOTS_3 = [
       {
         title: "Départ près de Mancha Blanca et entrée dans le malpaís de 1730",
         photos: [
-          "https://lh3.googleusercontent.com/pw/AP1GczMLheyNUJJVig--CkrGTbc1oaipMERhm1cRsrgz9Un_BzMzrXjUNFYCjqFtn4n2CsxO6OFczejUm8MEMakic9egYQqIlTdyULbBIWDVqst2gRylZSXOkgf7pB7i7NsRFnCxeC54mvqdGqRUNjnh7UfvQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMLheyNUJJVig--CkrGTbc1oaipMERhm1cRsrgz9Un_BzMzrXjUNFYCjqFtnR4n2CsxO6OFczejUm8MEMakic9egYQqIlTdyULbBIWDVqst2gRylZSXOkgf7pB7i7NsRFnCxeC54mvqdGqRUNjnh7UfvQ=w1379-h919-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczNBHh_9Ckz0dA6VDSAFedJCex_YpCqywzmkCEIKMxnxB3MdH6k6GpQshwShJGilsSAAIdyqaxCcosA6phZnHj-74dtlK-ToADa7PL607rn219jw028PtWjBM2maFr81p2fgWT5uEbWwxQg8rX2Zno-lCA=w1379-h919-s-no-gm?authuser=0"
         ],
         text: "L'itinéraire de randonnée, qui dessine un parcours d'environ neuf à dix kilomètres en aller-retour avec tour intégral de la crête sommitale, s'élance depuis les abords ruraux de Mancha Blanca, à proximité de l'ermitage de Nuestra Señora de los Dolores. Dès les premiers pas, le cheminement s'engage sur une piste bien tracée qui fend un impressionnant malpaís — cette mer figée de lave basaltique noire et brun sombre issue des bouches éruptives de 1730."
@@ -270,7 +270,7 @@ const SPOTS_3 = [
       {
         title: "Passage au pied du cratère éventré de la Montaña Caldereta",
         photos: [
-          "https://lh3.googleusercontent.com/pw/AP1GczOLNXv0Q8EFKdxNrpbvJoH96WkdIeynKzg2QUmHmSNSeaXe6i3hXhXASj6FmgaHrdQ8Zza2coxx7V12ybmd6MXsIXUPGW1bKYz_D6fDp9emDBnXbGJIKLWE3pB2n1VctvCG3vmC1zEHq2OqqnFGRsGt-lO1jCZ3kw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOLNXv0Q8EFKdxNrpbvJoH96WkdIeynKzg2QUmHmSNSeaXe6i3hXhXASj6FmgaHrdQ8Zza2coxx7V12ybmd6MXsIXUPGW1bKYz_D6fDp9emDBnXbGJIKLWEJ6VzCWPYrtZEWaGP0bst88DeJCRhg_a1yw=w1379-h919-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczOqy7N1qy9z44H8Y8t3vIUJYVhw33aTbSVmkNGw98VEKj4ufIs-kBisi8pn0b-8CtkF66fCi-LmtGfox57iI9xlYA1v3Rq0quETgWg2p8f71MxEqRrMuejym6NsblrnPsZhfSNdn_QxVTse-0iOMroouw=w1379-h919-s-no-gm?authuser=0"
         ],
         text: "Après environ deux kilomètres et demi d'approche à travers les champs de lave, le sentier aborde la bordure orientale de l'ancien massif pléistocène en longeant la Montaña Caldereta, un premier édifice satellite plus modeste dont le cratère circulaire, éventré sur son flanc est, offre une coupe stratigraphique remarquable de tufs stratifiés ocre et gris."
