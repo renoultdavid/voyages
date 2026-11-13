@@ -7,6 +7,126 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "caserte_palais_royal_reggia",
+    name: "Caserte - Palais Royal de Caserte (Reggia di Caserta)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Campanie",
+    department: "Province de Caserte",
+    subdiv: "Caserte",
+    altitude: 71,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Chef-d'Œuvre Baroque & Néoclassique de Luigi Vanvitelli (1752), Résidence des Bourbons de Naples & UNESCO",
+    century: "XVIIIe siècle",
+    category: "chateau",
+    counts: {},
+    lat: 41.07303,
+    lng: 14.32709,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMkzWGiC4QzzJxKUYtr3ZrRfWuPOrAMMHvz-47HZX3eEvYmwmCCylrTb7BppUX5gei5GI7Et9OoAniO93LAqxtK62SWXlV3LRy2GsgqsuX7H7Ct118xAfhh_MPnmWjzmN9n5-EStrtc28UKr8NX2I70kA=w1681-h1121-s-no-gm?authuser=0",
+    description: "Édifié à partir de 1752 à l'initiative du roi Charles VII de Bourbon — futur Charles III d'Espagne — selon les plans grandioses de l'architecte Luigi Vanvitelli, le Palais Royal de Caserte (Reggia di Caserta) constitue la plus vaste résidence royale d'Europe par son volume et l'ultime chef-d'œuvre monumental du baroque tardif et du premier néoclassicisme italien. Conçu pour rivaliser avec Versailles et l'Escurial tout en incarnant l'idéal rationaliste des Lumières, cet immense quadrilatère rectangulaire de deux cent quarante-sept mètres de long sur cent quatre-vingt-quatre mètres de large s'organise autour de quatre cours intérieures monumentales séparées par deux bras orthogonaux en croix. Sa façade imposante marie avec raffinement la chaleur de la brique apparente à la noblesse du travertin de Bellona et du tuf volcanique de San Nicola la Strada, scandée par un ordre colossal de colonnes ioniques surmontant un puissant soubassement à bossages.\n\nL'axe central traversant le palais tel un télescope architectural relie le parvis urbain à la grande perspective hydraulique du parc royal et s'articule autour du prodigieux escalier d'honneur (Scalone d'Onore), merveille scénographique revêtue de marbres polychromes du royaume et couronnée d'une double voûte acoustique abritant jadis les musiciens de la cour. À l'étage noble se déploient la somptueuse Chapelle Palatine inspirée de Versailles, la Bibliothèque Palatine voulue par la reine Marie-Caroline d'Autriche et l'enfilade fastueuse des Appartements Royaux — de la Salle d'Alexandre ornée des fresques de Mariano Rossi à la monumentale Salle du Trône et aux salons des Saisons tendus des soieries royales de San Leucio —, composant un ensemble palatial inscrit au Patrimoine mondial de l'UNESCO depuis 1997.",
+    intro_page: "Chef-d'œuvre absolu de l'architecte Luigi Vanvitelli entrepris en 1752 pour le roi Charles de Bourbon, le Palais Royal de Caserte s'impose comme la plus vaste résidence royale d'Europe et le manifeste monumental du passage entre le baroque tardif et le néoclassicisme des Lumières. Derrière sa façade de près de deux cent cinquante mètres associant la brique ocrée au travertin sculpté, l'édifice s'ordonne autour de quatre cours monumentales et d'un axe perspectif spectaculaire reliant la ville aux cascades du parc royal. L'exploration intérieure dévoile dès le vestibule octogonal l'envolée polychrome du grandiose escalier d'honneur (Scalone d'Onore), gardé par des lions de marbre et coiffé d'une ingénieuse double voûte abritant les musiciens de cour. À l'étage noble se succèdent la Chapelle Palatine inspirée de Versailles, l'enfilade somptueuse des Appartements Royaux — magnifiée par les fresques de la Salle d'Alexandre, l'immense Salle du Trône néoclassique et les salons des Saisons parés des soieries de San Leucio — ainsi que la précieuse Bibliothèque Palatine, témoignant de l'éclat intellectuel et artistique de la cour des Bourbons de Naples au sein de cet ensemble inscrit au Patrimoine mondial de l'UNESCO.",
+    visiter: "Contempler depuis la vaste esplanade elliptique la symétrie monumentale de la façade principale en travertin et brique, puis franchir le portail central pour découvrir l'axe perspectif des vestibules octogonaux et gravir les volées de marbres polychromes du Scalone d'Onore. À l'étage noble, visiter la Chapelle Palatine avant de parcourir l'enfilade des Appartements Royaux — Salle d'Alexandre, Salle du Trône, appartements du XVIIIe siècle et Bibliothèque Palatine — puis déboucher sur le parterre ouvrant la perspective vers la Grande Cascade du parc.",
+    link: "",
+    sections: [
+      {
+        title: "La façade monumentale en travertin et brique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMkzWGiC4QzzJxKUYtr3ZrRfWuPOrAMMHvz-47HZX3eEvYmwmCCylrTb7BppUX5gei5GI7Et9OoAniO93LAqxtK62SWXlV3LRy2GsgqsuX7H7Ct118xAfhh_MPnmWjzmN9n5-EStrtc28UKr8NX2I70kA=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP9JoZYcXsaJNaHenDpSBcPMCETUfJlQkYTNnsC85nq0DrciTsHk_1w4NHel-GsVz8E9ThAOJHpg07kvXa2cTQ2Ojmu2e102jIJYGfwawTrg7tmYAw5UX5EqGe2dyJ6sA9Tx5jsj4cWF11fwmrev7P3MQ=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "Sa façade monumentale, haute de près de trente-huit mètres et percée de centaines de fenêtres réparties sur cinq niveaux, repose sur un puissant soubassement en pierre de taille de travertin à bossages profonds. Au-dessus de cette assise minérale s'élève l'étage noble scandé par un ordre colossal de colonnes et de pilastres ioniques qui rythment les avant-corps central et latéraux surmontés de frontons triangulaires, associant la chaleur ocrée de la brique apparente à la clarté du travertin dans une synthèse remarquable entre grandeur baroque et sobriété néoclassique."
+      },
+      {
+        title: "Le vestibule octogonal et l'axe perspectif du rez-de-chaussée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPLZYzy6vpLMZxihJvcQRoiNhUSS9il4jO6soMFi_yZ4sno8m3sPOaMnYnEqZ1JuceDOC09mOTFohmtPMRjhWdcgOlOaLD3qnmblQ6X6iasxc18UkrRb02jmHv4HV8gJ0Q6g06x-tfhUTw0UBMokmqUAg=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPev6mw24WF1K5Ubken9qWAzPcpzxS48wlvNpEv7Szt2o1fnLA15IRfNGpqjnLsWFHkGCigFmAYTefil_ddYPgFbn_tUkawHl14usCk1vK25hgcDeCPYMufDOUn80lZXj-NGe2PMnhCv4tJlBQ2AXSAsA=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "En franchissant le portail central, le visiteur pénètre dans le vestibule inférieur octogonal qui commande l'axe de perspective traversant tout le rez-de-chaussée à la manière d'un véritable télescope architectural, et s'ouvre sur le prodigieux escalier d'honneur (Scalone d'Onore), chef-d'œuvre scénographique de Luigi Vanvitelli."
+      },
+      {
+        title: "Les marbres polychromes et les lions du Scalone d'Onore",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN9gVk1nY6fTYgm8Zsy2wzS6AwtjN6Rv6KGsdrao3K1moU4bzc1MiG3o7_dvIWQw9M_n0XSzmFkpxQ8nLaY1r1oQNyBMGrXs27I4H3U3136Ae0U_N4kRersoF0WAwURs4-dzaIbm1lOJKgcRl8ZX2o52A=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOtVfR3UEs9KQXg3uxP1YHN0pLyW-YBV0yv63b4b6dRIx3h0QfXWRzYLkpa7cn4qeAy498c4GlLgjyA15ELxa-QCwX2thIUM3aZ8w_vJfC3OOxyNUEq7I-tdt3B_3yKtw-XqaCaQGXL0Tg559p_5zVY9A=w1611-h2416-s-no-gm?authuser=0"
+        ],
+        text: "Entièrement revêtu d'une polychromie raffinée de marbres précieux extraits des carrières du royaume — marbre blanc de Carrare, marbres veinés de Mondragone, rouge de Vitulano et jaune de Castronuovo —, cet escalier monumental s'élance d'abord en une large volée centrale de cent seize marches jusqu'à un vaste palier intermédiaire gardé par deux lions en marbre sculptés par Paolo Persico et Tommaso Solari, symbolisant la force des armes et de la raison."
+      },
+      {
+        title: "Le vestibule supérieur octogonal et la double voûte acoustique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNBhGeLP1X6dsjJABd9L3AK8OZJD2QEXpcR5bFIV5wtkBznuVwhwpn9AqKw-ISwOb3u4rouY_K3Oy2ne_S2SeN45Fkiw50HZAkZ0tfMF67XxvmulyySRK0QVsyGIFoP2eVeRTcXWy7vkX7zl6coVJcx5A=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "De ce palier se déploient deux volées latérales parallèles qui convergent vers le vestibule supérieur octogonal, sous le regard de la statue allégorique de la Majesté Royale entourée du Mérite et de la Vérité. L'ingéniosité architecturale culmine dans la double voûte surplombant l'escalier : percée d'oculi et de baies dissimulées, cette coupole creuse abritait les musiciens de la cour dont les harmonies semblaient descendre du ciel lors des réceptions officielles, tandis que les fresques de Girolamo Starace-Franchis célèbrent le triomphe d'Apollon et des saisons."
+      },
+      {
+        title: "La Chapelle Palatine et son décor de marbres et d'or",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNwu1xEIadLT4wHMIK1fnkMOy866euj2DLPwXFgAf9WYRpvz0z-56gVY6puupMT_J1hdPGyP_iJkuinkSTt7VBPAy99WRG5kCOyCEHRU4KjZ6agF73ZSvnPMn7hTPIRl8uWpcqYp-MYWKe6k0oAtBtBLg=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNoekfSQBVFnkVD2h9g6MLM5m8uozvKR763CmEjcCpcYGIo1K3b6ar88QMnZ3ZTq2iQUO8sUuTb2n4udkIV6x0FjtoBvstLtXa3sDgJKtTVrJQN4eAVuwoW3IUAjtnsmp-VbIB-1O-Qwyqr3x-iVvE8ug=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "Au sommet de l'escalier s'ouvre la Chapelle Palatine, consacrée en 1784 et directement inspirée de la chapelle royale de Versailles tout en affirmant une grandeur romaine souveraine. Son vaisseau unique est bordé de colonnes corinthiennes jumelées en marbre jaune posées sur de hauts piédestaux qui soutiennent la galerie supérieure réservée aux souverains et à la cour, tandis que la voûte en berceau à caissons richement dorés diffuse une lumière solennelle vers le maître-autel dominé par la toile de l'Immaculée Conception peinte par Giuseppe Bonito."
+      },
+      {
+        title: "Les premières salles d'apparat des Appartements Royaux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMAWqvRiiF48YNheLZn_ou8QXkEGEC0ODM8wQSy_ozl8C8kxAaFL3NLPeOyNRiGA6souhrfWZvtoqg3dpuG3av46_iMJ7BjmEcag3BLIrG7BwakD-sgR_TEMZiOKOHcjAL7uhJqmeIy3g38Rz0aMWGmbw=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN_kUB9bzsZQOMjRhKIt4Xv4LyzFW8-qsz-EzOrDYHXnP18KHfYBc9njf0zkQPQj5lKazHJkH2-FW1bS9U_NWZ-0JUoIneE9eJw_ZkTqvh1eja2r283dL2s3TkOmnJ48j_zmobwNZX78bstBYPHdIeAXw=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "Le parcours se poursuit à travers l'enfilade somptueuse des Appartements Royaux (Appartamenti Reali), qui témoignent de l'évolution stylistique de la cour des Bourbons entre le rococo tardif et le néoclassicisme Empire. Les premières antichambres — la Salle des Hallebardiers, la Salle des Gardes du Corps et la somptueuse Salle d'Alexandre — déploient une richesse décorative inouïe de stucs dorés, de sols en marbres marquetés et de fresques célébrant les fastes de la dynastie, notamment le mariage de Ferdinand IV et de Marie-Caroline d'Autriche peint par Mariano Rossi."
+      },
+      {
+        title: "La voûte de la Salle d'Alexandre : Le Mariage d'Alexandre et de Roxane",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM2B5HWA3JYWiI0c2wo5dBcYUBSqOX605xplHQsTE5az80gBEYf6EpiYLG5dxvkv2CXonl5cJmB8JYffTl31o95g3IBemuDOkAX3Kk_DEUeuNEKArPhXVQz2X5HX-ryLE9OBil0tcSU-b7wV5E6ZjkEmQ=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMNdGC-KWI_8IpqmZS3pTYTDvDeD7an2-fotfO2Its-4bRA_IwrL8oc3CrE-RaYYX-z9DelJcDOhgm0MZ8FHhxFxaqe6-dcfa75TJQaqd-C0bqxYJsQYWTdgXJU5MFBSDkDPlnQYDHEP2Uias8kHy80qw=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "Déployée sur près de quatre cents mètres carrés au sommet de la voûte de la salle d'Alexandre, au centre exact de la façade méridionale du Palais de Caserte, la fresque monumentale réalisée en 1787 par le peintre sicilien Mariano Rossi illustre avec un éclat théâtral Le Mariage d'Alexandre le Grand et de Roxane. Ce sujet antique constitue une allégorie transparente célébrant l'union dynastique du roi Ferdinand IV de Bourbon et de Marie-Caroline d'Autriche. Au cœur d'une trouée céleste baignée d'une lumière dorée, le souverain macédonien en cuirasse et manteau pourpre unit sa main à celle de la princesse sous le regard bienveillant d'Hyménée, de Vénus et d'un essaim de génies ailés portant flambeaux et guirlandes nuptiales. L'œuvre conjugue le dynamisme aérien du grand décor baroque tardif avec une harmonie chromatique et une lisibilité déjà néoclassiques, prolongées sur les retombées de la voûte par des allégories de la Force et de la Prospérité enchâssées dans de somptueux stucs dorés."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN3aS-GwfDwjUnxaXZRTOesJuMgCuxsFeBYS4xQ2Q9Cu0SgXPliaqswL-ym85qlTgEJJqYXeZiQPTk1z_mXManpDJsQHOIjumQ8CVazu5j7wcxwt_JniF8Ax6Gmy22gsP7DRBQ9rvnrTkkRNQISQlwzxQ=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPa3rOCGfNC7tT6FUayu1tYob1KRLDISbyhBOEGfjjDUZRJtd7pXVUPN-lIQnSTRrenUQg6F4BKZG2vtB_85Bs4UH68hNyG2eqFo8vhkefkONyOjqZlxCA67QobntJHUbJHUqkTsq79F2oce6ZwYpSYfg=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPGdcnTnS2upYYCsAygSgNtp-mOGEnc7FrS9nSEKbDlXHPVEfHSoxiyIW3q4TiUXdyOI-qrAZFXVRlMVINstQWYZi0R6jc_ResIHVfsEk9yFDgWnBRNXDQyOT4HAnXwYc2SuI7np153XHBwiAWVVKepIg=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPBZee1HVPzUpWgeOzOv7lKze1wGXEcBS95zB3N0biDuBy3AOtwGHtTbvCa78JtmZEM_PsOdtGGAIx5Nett7Ed9gGRewB3um3vNf5rBq1i3c2Fjz02zjvZllk4Gc-Y7O5mm_RMc3aR0Gqxc0ulvLLI50g=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La Salle du Trône et son décor néoclassique et Empire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNq87bG7vW30EZ8jzvdFFGzdf1mjllt0QeNE-jPHR6Wt3chkqmJoREr-J5komhktpBNHYkXxUs0EJWqWuZEJio8cxtF7o6BkfiAbMsTPW3Wp3Vnz1fLd0o_gq2YM38G2XFEdclAXs2dmuFcCzE5NJBcYw=w752-h502-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNVGNoRDLMN_7sPvT-_yD8FMKGE3MGRXaPUp4wpPIbMJ3NGN8WrkKi7KqpSsbX6kGIPRuP9p2j2ahQ6rAVxiZqOzRNbwVEQye0azUv4UXb_ndYKSsgwBb2hxZf96v_b6gktF92TK3ty_u19Fkw6DVZcEQ=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "Vaste galerie d'apparat longue de près de quarante mètres et haute de quinze mètres, la Salle du Trône constitue le cœur solennel et le plus vaste espace des Appartements Royaux du Palais de Caserte. Conçue initialement sous Ferdinand IV, réaménagée à l'époque muratienne puis achevée en 1845 par l'architecte Gaetano Genovese pour Ferdinand II, elle déploie un décor néoclassique et Empire d'une fastueuse rigueur. Ses parois lumineuses sont rythmées par vingt-huit pilastres corinthiens cannelés rehaussés de stucs dorés, entre lesquels s'alignent quarante-quatre médaillons en relief figurant les souverains de Naples depuis Roger II jusqu'aux Bourbons. La voûte monumentale s'orne de la grande fresque peinte en 1844 par Gennaro Maldarelli célébrant la pose de la première pierre du palais par Charles de Bourbon et Luigi Vanvitelli en 1752. Au fond de la salle, sous un baldaquin somptueux, trône le siège royal en bois doré sculpté par Gennaro Fiore et tendu de velours cramoisi brodé d'or, encadré de victoires ailées, de lions et des armoiries dynastiques."
+      },
+      {
+        title: "La Salle de l'Automne et les soieries royales de San Leucio",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOo_YmnO3vGiqVmCD89SgukhAq7fx5QpZTRdu7HM7ASmANP6crDNSgqGmQGS71fERtADjBIqgQLX443Pfm9UIDMLu7nMvEczfne61OMa67MJDVfBHWPIEnCeiGQU3w33ssaHOb54qYJCzh_SNtSZmR3FA=w1681-h1121-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPCoYbfUHxlWqlDBIe0Zyv28TzqKLHAGUe0c-wc7f77aYnoWS2TJnW9QgAoFL4Ws8p3i7-1hxXMfDblzQgRPtabdivHOjJMteMdFRV2UqQKkaqb2ZuF1KuWmyd5HZNcn_fMpnAGKrQNE5NwOzBwG0KKHA=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "Située dans l'enfilade de l'Appartement Ancien (Appartamento Vecchio) des Appartements Royaux du Palais de Caserte, la Salle de l'Automne (Sala dell'Autunno) appartient au célèbre cycle allégorique des Quatre Saisons aménagé à la fin des années 1770 sous le règne de Ferdinand IV et de Marie-Caroline d'Autriche. Cet espace raffiné illustre la transition esthétique du rococo napolitain tardif vers le premier néoclassicisme, mariant des boiseries délicatement sculptées et dorées à de somptueuses tentures murales en soie brochée issues de la manufacture royale voisine de San Leucio. Le regard est immédiatement attiré vers la voûte ornée de stucs blancs et dorés, au centre de laquelle se déploie la fresque lumineuse peinte par Antonio Dominici figurant le triomphe de Bacchus et d'Ariane entourés de satyres, de ménades et de génies portant des pampres de vigne et des corbeilles de vendanges. Le mobilier d'époque, composé de consoles en bois doré surmontées de plateaux en marbre précieux et de grands miroirs trumeaux, dialogue avec le pavage en marbres polychromes de la région et les peintures de paysages champêtres placées en dessus-de-porte, évoquant l'abondance et les plaisirs de l'arrière-saison dans les domaines royaux de Campanie."
+      },
+      {
+        title: "La Bibliothèque Palatine de la reine Marie-Caroline d'Autriche",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOHI1RARJMpvEFa_bdo764mmSK-QnEmHdeGJqNyjq6cBuADJyQbGeqTqIonxSG67484OGY_SisxVKFD5jsJAoEf8PSMmir3OylCbsT0YWixDVEFsdkYF9BmIIGxT-nsu2Hi1ESSpYh35izTfjg4mTNMcw=w1681-h1121-s-no-gm?authuser=0"
+        ],
+        text: "Aménagée à la fin du XVIIIe siècle au cœur des Appartements Royaux du Palais de Caserte à l'initiative éclairée de la reine Marie-Caroline d'Autriche, la Bibliothèque Palatine (Biblioteca Palatina) s'impose comme l'un des joyaux intellectuels et décoratifs de la cour des Bourbons de Naples. Conçue par l'architecte Carlo Vanvitelli dans un esprit néoclassique d'une lumineuse élégance, cette enfilade de trois salles est rythmée par de hautes boiseries blanches rehaussées d'or qui s'élèvent sur deux niveaux desservis par une galerie supérieure en balcon. Ses rayonnages abritent un fonds précieux de plus de quatorze mille volumes anciens, comprenant des incunables, des traités d'architecture, de botanique et de philosophie des Lumières, ainsi que des éditions monumentales telles que les planches de l'Encyclopédie de Diderot et d'Alembert et les antiquités d'Herculanum. La voûte de la grande salle centrale est magnifiée par la fresque allégorique peinte en 1782 par l'artiste autrichien Heinrich Friedrich Füger, célébrant la protection accordée par la souveraine aux Arts et aux Sciences autour du Parnasse, tandis que des globes terrestres et célestes anciens complètent ce sanctuaire du savoir."
+      }
+    ]
+  },
+   {
     id: "caserte_fontaine_de_diane_et_acteon",
     name: "Caserte - Fontaine Monumentale de Diane et Actéon (Fontana di Diana e Atteone)",
     country: "Italie",
