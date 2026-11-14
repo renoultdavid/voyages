@@ -7,6 +7,35 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "castellammare_di_stabia_cathedrale_santa_maria_assunta",
+    name: "Castellammare di Stabia - Concathédrale Santa Maria Assunta e San Catello",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Campanie",
+    department: "Province de Naples",
+    subdiv: "Castellammare di Stabia",
+    altitude: 15,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Concathédrale Néo-Renaissance (1875-1893), Plafond Doré à Caissons & Œuvres de Giuseppe Bonito et Luca Giordano",
+    century: "XIXe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 40.69484,
+    lng: 14.48075,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPWBGbLAX50LgE0tmN-Y8SW-OXDKwqF4LRnml95gOZA6bUkUebff6v1FgZsRv-Umxz-OsSxyzZT8eTqYG6BzoS9Z-oA2-zSJufUyrOeGppmyRVsUNLH_1PRxdThNgi0_RNg57AJj95fVOGd-i7NhfkAXg=w1681-h1121-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOFXs6LQy6wjLM1s5H4gsq1y5khatDQrgI0VY9I5TR3ESJXh71wTCR_OCXsDkoiqVKMYAgs8h32bzm9e_M5KI1snqRrM3mAJQwBZNseuvlB0nbNTH-fqcmWduNZvcreJ4gj8NrdfBwOrF-_lIhHjXqXGQ=w1681-h1121-s-no-gm?authuser=0",
+        caption: "Déployée au cœur du centre historique de Castellammare di Stabia face au golfe de Naples, la nef de la concathédrale Santa Maria Assunta e San Catello offre un espace liturgique d'une ampleur majestueuse et lumineuse, hérité d'un édifice entrepris en 1587 et profondément remanié dans un style néo-Renaissance à la fin du XIXe siècle entre 1875 et 1893. Organisé selon un vaste plan en croix latine à trois vaisseaux, l'espace central s'élève entre deux rangées de puissants piliers rythmés par des pilastres corinthiens cannelés aux chapiteaux dorés qui soutiennent de larges arcs en plein cintre ouvrant sur les bas-côtés et leurs chapelles latérales. Le vaisseau principal est couvert d'un somptueux plafond plat à caissons en bois sculpté et doré, enchâssant des toiles monumentales célébrant l'Assomption de la Vierge et la gloire de saint Catello, patron de la cité. Baignée par la clarté des hautes fenêtres de la nef supérieure qui se reflète sur le pavage en marbres polychromes, la perspective s'élance vers l'arc triomphal et le maître-autel, tandis que les collatéraux abritent de précieux retables baroques signés Giuseppe Bonito et Luca Giordano ainsi qu'un célèbre ensemble sculptural du Presepe stabiese."
+      }
+    ],
+    description: "Érigée sur la Piazza Giovanni XXIII au cœur du centre historique maritime de Castellammare di Stabia, entre les pentes verdoyantes du mont Faito et les rives du golfe de Naples, la concathédrale Santa Maria Assunta e San Catello constitue le principal édifice religieux et patrimonial de la cité. Entreprise à partir de 1587 sur les plans de l'architecte Alessandro Fiorentino et consacrée en 1643, l'église fut profondément transformée et agrandie à la fin du XIXe siècle, entre 1875 et 1893, selon le projet néo-Renaissance de l'architecte Ignazio Rispoli qui lui conféra sa majestueuse façade monumentale à double ordre corinthien en pierre de taille et stuc clair.\n\nL'intérieur déploie un ample plan basilical en croix latine à trois nefs scandées par de puissants piliers à pilastres cannelés dorés et couvertes d'un somptueux plafond plat à caissons sculptés enchâssant des toiles monumentales. Véritable écrin de l'art sacré napolitain des XVIIe et XVIIIe siècles, le sanctuaire conserve dans ses chapelles latérales d'importants chefs-d'œuvre picturaux de Giuseppe Bonito — natif de la ville — et de Luca Giordano, des sculptures en bois polychrome de Nicola Fumo ainsi que le célèbre ensemble du Presepe stabiese et les reliques vénérées de saint Catello, évêque et saint patron de Castellammare.",
+    visiter: "Contempler depuis la Piazza Giovanni XXIII l'élévation symétrique de la façade néo-Renaissance avant de franchir le portail central pour embrasser la perspective lumineuse de la grande nef. Les visiteurs admirent le plafond doré à caissons, le pavage en marbres polychromes ainsi que les retables baroques de Giuseppe Bonito et Luca Giordano et le célèbre Presepe conservés dans les chapelles latérales.",
+    link: ""
+  },
+   {
     id: "ercolano_mont_vesuve_gran_cono",
     name: "Mont Vésuve (Parco Nazionale del Vesuvio)",
     country: "Italie",
