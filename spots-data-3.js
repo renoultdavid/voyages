@@ -7,6 +7,138 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "asnieres_sur_vegre_le_vieux_pont",
+    name: "Asnières-sur-Vègre - Le Vieux Pont Médiéval sur la Vègre",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Asnières-sur-Vègre",
+    altitude: 39,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Pont Médiéval en Maçonnerie de Pierre sur la Vègre, Arches & Avant-Becs Triangulaires",
+    century: "XIIIe siècle",
+    category: "pont",
+    counts: { pont: 1 },
+    lat: 47.88940,
+    lng: -0.23394,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOu9z5ONJCL3bSPejqejE8G5rVePwJtsskyKDtegLtUBeisWXj4oQNqF87-bz_M3Sx26H-ViqU4vYKKhWO8OFw-qwLm_RymVXEFgYHwAd5Q9Z7zcR5mBf06ZltgSqZ2G5QzzQVp3MliL_RyajDMm3GfBg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOpyjVPfBmuMRdAHOyL13nw-9YQdzaYy3PjuYDTbPUR7Ti8o1gzSYm9wGJLKx4dPqmmQUTxx3ciEZ0F14Ddb6R1OEDW6V_gxwGOmZayE37q19-qSM1UHQJTkyVBf3GwpWApcJ5PbKs_ujvWmcI6XVPxrw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Enjambant le cours sinueux et paisible de la Vègre au pied du promontoire rocheux sur lequel s'est développé le bourg historique d'Asnières-sur-Vègre — labellisé Petite Cité de Caractère —, le Vieux Pont constitue l'un des ouvrages d'art médiévaux les plus emblématiques et pittoresques de la Sarthe. Implanté sur un ancien passage stratégique reliant le Haut-Maine à l'Anjou, cet édifice en maçonnerie de pierre calcaire et de moellons du pays — dont les origines remontent au Moyen Âge, avec des reprises aux XVe et XVIIIe siècles — franchit la rivière au moyen d'une succession d'arches en pierre s'appuyant sur des piles massives renforcées en amont par de puissants avant-becs triangulaires conçus pour fendre le courant et résister aux crues hivernales.\n\nBordé de parapets en pierre patinée par les siècles et flanqué immédiatement en aval par les anciens moulins et lavoirs riverains, ce pont étroit offre un cadre architectural et paysager d'une harmonie remarquable. Depuis son tablier pavé ou depuis les berges verdoyantes de la rivière, le regard embrasse l'ensemble du village ancien étagé sur la rive opposée, dominé par les toitures en ardoise des maisons anciennes, la silhouette romane de l'église Saint-Hilaire et les hauts pignons médiévaux du Manoir de la Cour se reflétant dans les eaux calmes de la Vègre.",
+    visiter: "Traverser à pied le Vieux Pont d'Asnières-sur-Vègre pour admirer la maçonnerie de ses arches et de ses avant-becs triangulaires au ras de l'eau, puis longer les berges aménagées de la Vègre afin de profiter de la vue d'ensemble sur le pont, le moulin et le village perché.",
+    link: ""
+  },
+  {
+    id: "asnieres_sur_vegre_eglise_saint_hilaire",
+    name: "Asnières-sur-Vègre - Église Saint-Hilaire & Peintures Murales Médiévales",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Asnières-sur-Vègre",
+    altitude: 41,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Sanctuaire Roman (XIe-XIIe siècles) & Ensemble Exceptionnel de Fresques Médiévales (XIIe-XIIIe siècles)",
+    century: "XIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.88932,
+    lng: -0.23516,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP0IBjmtLDDFqvCq_4MW8-kdSNfn_9fknDowtfu_xzapjbAJF_XXMiwVZ_KYzqT7MSAiZ8hJO7k3I8a0E3F1sOlPqFRhbCRZ6mi2yi2zrAJIPSNWfk56N798s-XhRW2gls6GnB_REPF24-vivToE_hnPA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPnyovNjdrvlaLryGFCk6gJ7oYU3KP2SOYZldxtCbcri11ElavBjc2LVxeF6osc3s0IPYU_ud2LsVOkKS9iYeYeC9gJq7jLWltl1uKalTg5GSAxwdj6SGDvU9XvnNEmtjEVC1N5kaScMsLWge2Fqc44qg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNvTNcaLVxZEjwZAoXnnMazlxNMMaxYZ-zWOnYUahMZ_g0dsgPD3HVn8iBvuHBxRV_2RUC_yZObYY7cJ5ZZIDj-NUm1yF9Bikq8OHtR9rN1ptzf5kyp8cMAzZHAqKzscF0gxEl2QVpLaRTK4GwOI4VKSA=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Édifiée au cœur du bourg ancien d'Asnières-sur-Vègre sur le coteau dominant la vallée de la Vègre, l'église paroissiale Saint-Hilaire renferme l'un des ensembles picturaux médiévaux les plus précieux et spectaculaires de tout l'Ouest de la France. Bâti aux XIe et XIIe siècles selon un plan roman sobre associant une nef unique charpentée, un avant-chœur et une abside voûtée en cul-de-four, l'édifice abrite en effet un décor monumental de peintures murales des XIIe et XIIIe siècles, redécouvert sous les badigeons au milieu du XXe siècle et classé au titre des Monuments historiques.\n\nExécutées à fresque et à la détrempe dans une palette lumineuse d'ocres rouges, de jaunes dorés, de blancs et de noirs sur fond clair, ces compositions exceptionnelles déploient un véritable catéchisme illustré destiné aux fidèles du Moyen Âge : l'Adoration des Mages, l'Entrée du Christ à Jérusalem, le Baptême du Christ, une monumentale vision de l'Enfer peuplée de démons tourmentant les damnés dans des chaudières bouillonnantes, ainsi qu'un Christ en Majesté entouré du Tétramorphe dans la voûte du chœur. L'église conserve également un remarquable retable lavallois en tuffeau et marbre du XVIIe siècle et une charpente lambrissée traditionnelle complétant l'atmosphère recueillie de ce joyau roman.",
+    visiter: "Pénétrer dans l'église Saint-Hilaire au centre du village d'Asnières-sur-Vègre pour admirer le cycle exceptionnel des peintures murales des XIIe et XIIIe siècles ornant la nef et le chœur — notamment les scènes de l'Enfer et l'Adoration des Mages — ainsi que le retable classique en tuffeau et marbre.",
+    link: ""
+  },
+  {
+    id: "asnieres_sur_vegre_le_manoir_de_la_cour",
+    name: "Asnières-sur-Vègre - Le Manoir de la Cour (Logis Seigneurial Médiéval)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Asnières-sur-Vègre",
+    altitude: 41,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Résidence Seigneuriale des Chanoines du Mans (XIIIe Siècle), Grande Salle d'Apparat & Tourelle d'Escalier",
+    century: "XIIIe siècle",
+    category: "chateau",
+    counts: { chateau: 1 },
+    lat: 47.88865,
+    lng: -0.23595,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM5vmilWEI0jQsh9Laur4q7_PkoAvuxBIcgqwqVznwFmlJVEy_8sEOrxewb5l2cE1S1DerBtJDcQ7WlR0atePE-mpY_nErjLU28ruX_QtmueU0v6JVL_QEwqV9QZxd80jXpkbSpjR2tZ6-kygLG5cbJsg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNosORMAImCohWhObokN5emNE3AGgk-Yqy1gsv_c-GTNmLBYkabeZs64qCMPljEgEaKnmwhk5bLjOx2XIO2JyhDdv3LNpTwVgaTbtrWxD9PoH3gjWJNK8WMNCKDErVIhaPjHa4PErSuytJMxtE36f12Gg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO2_udkK3dWlhmNzyf6ESWU621iuHY28-Zs3Lv2Ac4ObSsaFhqb_xe4g_aBALsWli2qGU82wT7iQ2zwjDD-hVNnswDDy1ah2-uy7YMnc96prlo3_RW-mAjjy1lXPaFrNnOLOPQ1DI5YCaf7NTRA8tjnqg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Implanté à deux pas de l'église Saint-Hilaire sur l'éperon calcaire dominant la Vègre au cœur d'Asnières-sur-Vègre, le Manoir de la Cour constitue un témoignage rare et remarquablement conservé d'architecture civile et seigneuriale médiévale dans le Maine. Édifié au XIIIe siècle — peu après 1229, date à laquelle la terre et la seigneurie d'Asnières furent acquises par le chapitre cathédral Saint-Julien du Mans —, ce vaste logis fortifié servait à la fois de résidence d'apparat pour les chanoines du Mans, de siège de justice seigneuriale et de centre d'exploitation agricole où étaient perçues les dîmes et redevances de la paroisse.\n\nClassé au titre des Monuments historiques et restauré avec grand soin, l'édifice impose par l'ampleur de ses façades en pierre calcaire percées de baies géminées gothiques à coussièges, ses hauts pignons aigus coiffés d'ardoise et sa tourelle d'escalier polygonale hors-œuvre desservant les étages. À l'intérieur, la majestueuse aula (grande salle seigneuriale) du rez-de-chaussée et la salle haute sous charpente médiévale en châtaignier — ornée d'un rarissime plafond peint du XIVe siècle à décor de rinceaux et de médaillons — restituent avec authenticité le cadre de vie et le prestige de l'aristocratie ecclésiastique au Moyen Âge.",
+    visiter: "Franchir le portail de la cour du Manoir d'Asnières-sur-Vègre pour admirer la façade médiévale en pierre calcaire, les fenêtres géminées gothiques et la tourelle d'escalier, puis découvrir à l'intérieur la grande salle seigneuriale, les cheminées monumentales et les plafonds peints du XIVe siècle.",
+    link: ""
+  },
+  {
+    id: "juigne_sur_sarthe_eglise_saint_martin",
+    name: "Juigné-sur-Sarthe - Église Paroissiale Saint-Martin",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Juigné-sur-Sarthe",
+    altitude: 52,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Nef Médiévale à Charpente en Carène de Navire & Retable Baroque Sarthois en Tuffeau et Marbre (XVIIe siècle)",
+    century: "XVIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.85963,
+    lng: -0.28738,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPpLaJDZSDpRtPzBLqmM-nnL5AsApVm96BSjYrvnU8k1KMTzcbeDOtRM3ZnoYqhlE7sQFX2PwRaDmMRbiWHX-ZjxfXf7OWtaMUCpxZKwqxv06ChKfgpxRcFeuXTF6lL8QtnNNJb1LJPMXqYjAnkVtkpOA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPTUaOYaLin71BItaYZ93aRLcDI3V2Tvu7NLO7y-bYNlJdpXY_m8-DEsRnqurmmEpoBEHSTmtUsqsUrdNxpup2cPSmebMSb7ivMYU8YSC2Yr7IGxCWgWr-xybkyF-UXU7S00wvWLBwgfp8habQ7CFNfHg=w1379-h919-s-no-gm?authuser=0",
+        caption: "La nef unique est couverte par une impressionnante voûte en lambris de bois en forme de carène de navire renversée. Cette structure, renforcée par des entraits et des poinçons apparents — les grandes poutres horizontales et verticales qui traversent l'espace — est caractéristique des constructions médiévales de la région. Ce choix architectural permettait de couvrir de larges espaces sans avoir recours à des voûtes en pierre, plus lourdes et coûteuses, tout en offrant une acoustique chaleureuse. Les murs, sobres et enduits, sont percés de fenêtres hautes qui diffusent une lumière naturelle douce, mettant en relief la verticalité de l'édifice.\n\nLe point focal de la nef est sans conteste le chœur, encadré par un arc triomphal en ogive. Il abrite un retable majeur du XVIIe siècle, véritable chef-d'œuvre de l'art baroque sarthois. Construit en tuffeau et marbre, ce retable s'organise autour d'un tableau central représentant probablement une scène de la vie de Saint Martin ou une Assomption. Il est flanqué de colonnes corinthiennes et de niches abritant des statues de saints. La blancheur du tuffeau capte la lumière provenant des fenêtres du chœur, créant un effet théâtral qui dirige naturellement le regard des fidèles vers l'autel, centre de la liturgie.\n\nDe part et d'autre de l'arc triomphal, on observe deux autels latéraux secondaires, également de style classique, qui complètent la décoration du sanctuaire. Sur le mur de droite, la chaire à prêcher en bois sculpté témoigne de l'importance de la parole et de l'enseignement au sein de la paroisse après le Concile de Trente. On remarque également, disposées le long des murs de la nef, les stations du Chemin de Croix et des croix de consécration peintes, qui rappellent la sacralisation de l'espace. Le pavage au sol, avec ses motifs géométriques, guide les pas vers le chœur, tandis qu'une poutre de gloire (ou tref) supportant un crucifix marque symboliquement la séparation entre l'espace des fidèles et le sanctuaire."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPBd6hd5DsoGrNIS-XQe3ijug1toQVfosFlcMRvWHTggraKBL-WZZhvEJPiSacYjrhd3P6G86i7gEtAAQUhD-SFuxvd8D8AE2Z14nmgGqpu3LwhR_dINRu9XlBAPpfoRtxbwLLuqNfYTmQwWd6wIBU2uw=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMm4hB7x9Qth7-_3CoddT2YII7ScELCIi4ZqkQoE-99DazvXlXwLEolN1hZCGSoLs2sawm5tYdbKXq6vk7X-dfSXpzRwDl55IhvUJZ4_BpeACUaCJUWWNHWZZCwzhy-8tVW7f-UXwf7WTKdyYCGAGN1FQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Érigée sur un promontoire pittoresque dominant la vallée boisée de la Sarthe à quelques kilomètres en amont de Sablé-sur-Sarthe, l'église paroissiale Saint-Martin de Juigné-sur-Sarthe offre une synthèse remarquable de l'architecture religieuse rurale du Maine entre le Moyen Âge et l'époque moderne. Fondé dès le XIe siècle et largement remanié aux XVe et XVIe siècles, cet édifice classé au titre des Monuments historiques conserve une belle maçonnerie extérieure en pierre calcaire et roussard ponctuée de contreforts, d'un porche accueillant et d'un clocher coiffé d'ardoise veillant sur les maisons anciennes du bourg riverain.\n\nÀ l'intérieur, la vaste nef unique séduit par la chaleur de sa charpente lambrissée en forme de carène de navire renversée aux entraits et poinçons apparents, scandée par une poutre de gloire portant le Christ en croix à l'entrée de l'arc triomphal en ogive. Le chœur abrite un somptueux ensemble de retables du XVIIe siècle caractéristiques de l'école lavalloise et sarthoise associant le tuffeau blanc sculpté et les colonnes de marbre noir et rose de Sablé, encadrant un grand tableau d'autel et des statues polychromes qui témoignent de la vitalité artistique de la Contre-Réforme dans la vallée de la Sarthe.",
+    visiter: "Rejoindre le cœur du village historique de Juigné-sur-Sarthe surplombant la rivière pour admirer l'extérieur de l'église Saint-Martin, puis pénétrer dans la nef afin de contempler sa charpente lambrissée en carène de navire, sa poutre de gloire et son monumental retable baroque en tuffeau et marbre du XVIIe siècle.",
+    link: ""
+  },
+   {
     id: "champagne_eglise_saint_desire",
     name: "Champagné - Église Paroissiale Saint-Désiré",
     country: "France",
