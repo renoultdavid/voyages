@@ -7,6 +7,43 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "pompei_maison_des_ceii",
+    name: "Pompéi - Maison des Ceii (Casa dei Ceii - Regio I)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Campanie",
+    department: "Province de Naples",
+    subdiv: "Pompéi",
+    altitude: 30,
+    transport: "a_pied",
+    era_group: "antiquite",
+    era_label: "Demeure Patricienne du Magistrat Lucius Ceius Secundus (Ier siècle apr. J.-C.), Atrium Tétrastyle & Fresque du Paradeisos",
+    century: "Ier siècle",
+    category: "archeologie",
+    counts: {},
+    lat: 40.74998,
+    lng: 14.48947,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNdFRwIoUO1yhWpzbsY2Yiu060ul9ZlaFcGith5v1SIKxUxpeUij8nwY7d9gN-yT9LORURw7nwKO5jtMV8cdnx-pGmL6EnrckWv7KCImK1lfI7i5k3hhTmSYwdXUfzIqxmXz1SbLkZfa1BNuvTekeq_9A=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO5JSe0HuH3Iiz6MRkDEbn1UeFco9CE8f7O0W__ngHi0wXv2Q8CdWr91eck0h94B6LJR9ACE-5NyOVFcoXZOM4SUSOUOEN5TXzUJgO-0mqh6v4OFbi4GSrL8VKGdV1DPNaVI0OfjXcPw440JmRhUKiiOA=w1379-h919-s-no-gm?authuser=0",
+        caption: "Cette fresque monumentale orne le mur de fond du péristyle de la Maison des Ceii (Regio I, Insula 6, 15) à Pompéi. Datant du IIIe style pompéien final, soit le milieu du Ier siècle de notre ère, elle constitue l'un des exemples les plus spectaculaires de paradeisos, ces représentations de jardins sauvages peuplés d'animaux exotiques qui visaient à transformer l'espace clos du jardin domestique en un paysage lointain et luxuriant. La composition s'articule autour d'une scène centrale dynamique où des prédateurs, notamment des lions et des léopards, poursuivent des taureaux et des herbivores dans un décor de savane idéalisée.\n\nLa technique picturale témoigne d'une grande maîtrise de la profondeur et du mouvement. Le peintre a utilisé une palette de couleurs riches, dominée par les ocres et le rouge pompéien caractéristique des bordures, tout en intégrant des nuances de vert et de bleu pour suggérer l'atmosphère du paysage en arrière-plan. Sur les côtés de la scène principale, des panneaux latéraux représentent des scènes nilotiques, montrant des pygmées dans des barques sur le Nil luttant contre des hippopotames et des crocodiles. Cette thématique égyptisante souligne le goût du propriétaire, probablement Lucius Ceius Secundus, pour l'exotisme et la culture alexandrine, très en vogue dans l'élite romaine de l'époque.\n\nL'état de conservation exceptionnel de cette œuvre résulte d'une campagne de restauration minutieuse achevée en 2021 par le Parc Archéologique de Pompéi. L'utilisation de technologies laser a permis de retirer les dépôts de calcaire et les restaurations anciennes altérées, révélant la vivacité originelle des pigments et des détails anatomiques des animaux. La fresque ne servait pas seulement de décoration, mais visait à agrandir visuellement l'espace du petit jardin intérieur, créant une illusion d'ouverture sur un monde sauvage et domestiqué par le regard du spectateur, symbole du prestige et de l'ouverture culturelle de la famille des Ceii."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN5ZEBk072NBvN--wbcxflKhaC-VBo4eADwheH5O0ssTJhhSFZBXoSCjRWs5fXVt2GUMbscqlcaWeSm7sYV_qaLBDnHdiNf1NTeQNjDXT8CyrwSb7uaMJ2a78pOONVB_Js82lOK2Bfwug3VuaAOg9fSwQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOOeeQ6x77rDyEwQjJ6NIqqiEhkQdGtLup-2scff7v2zusQGNUW8OkbcZUQacNsnI_S6WiFZ7xdWCD2F2c8OXNx1MOHc7EeAbKcy3whXxSAJTD2hq5MPs9w6d3OCiUiR2hDIhdP8C5VDk4UCJZc0kVPjA=w613-h919-s-no-gm?authuser=0",
+        caption: "La composition est divisée en deux registres distincts, séparés par une bordure ocre, illustrant l'harmonie entre les thèmes de la nature sauvage et de la dévotion rituelle. Le registre supérieur présente un décor de jardin luxuriant sur fond clair, où deux paons, symboles d'immortalité et de prestige dans l'iconographie romaine, sont représentés de part et d'autre d'un candélabre végétalisé surmonté d'un disque sacré. Des oiseaux en plein vol complètent cette scène aérienne, soulignant la volonté du propriétaire de créer un espace de sérénité et d'abondance visuelle.\n\nLe registre inférieur, peint sur un fond rouge pompéien profond, contraste avec la légèreté de la partie supérieure par son caractère plus solennel. Il met en scène une figure féminine, probablement une servante de culte ou une divinité mineure, tenant une large vasque ou un patera destiné aux libations. Elle émerge d'un buisson de feuillages sombres, encadrée par deux oiseaux blancs, possiblement des colombes, qui renforcent la dimension sacrée et domestique de l'image. Cette juxtaposition de la faune exotique et de la figure humaine en prière reflète la piété de la classe moyenne supérieure pompéienne, qui intégrait des éléments religieux au cœur même de ses espaces de détente et de réception.\n\nL'exécution de cette fresque montre une attention particulière aux détails naturalistes, typique du passage entre le troisième et le quatrième style pompéien. Les nuances de vert dans le feuillage et le travail sur les plumes des paons témoignent d'une technique de peinture \"à fresque\" maîtrisée, où les pigments étaient appliqués sur l'enduit encore frais pour assurer leur pérennité. Restauré récemment, ce panneau permet de saisir la richesse chromatique originelle qui animait les piliers du péristyle, transformant chaque recoin de la demeure en une fenêtre ouverte sur un monde de symboles et de beauté naturelle."
+      }
+    ],
+    description: "Située dans la Regio I (Insula 6) du parc archéologique de Pompéi, à proximité immédiate du carrefour méridional de la Via dell'Abbondanza, la Maison des Ceii (Casa dei Ceii) offre un témoignage précieux et raffiné de l'architecture domestique de la classe dirigeante municipale romaine au Ier siècle apr. J.-C. Identifiée grâce aux inscriptions électorales peintes sur sa façade mentionnant le magistrat Lucius Ceius Secundus, cette demeure d'origine tardo-républicaine — remontant au IIe siècle av. J.-C. — se distingue dès l'extérieur par sa belle façade enduite de stuc blanc imitant un appareil régulier en pierre de taille du Premier Style pompéien, surmontée d'un portail encadré de pilastres cubiques.\n\nEn franchissant le vestibule, le visiteur découvre un élégant atrium tétrastyle dont la toiture ouverte (compluvium) repose sur quatre hautes colonnes en stuc blanc encadrant un bassin central (impluvium) pavé d'un ingénieux opus signinum incrusté d'éclats d'amphores. Le point d'orgue artistique de la maison se déploie dans le petit jardin intérieur situé au fond de l'axe perspectif : magnifiquement restaurée au laser en 2021, sa paroi principale abrite une fresque monumentale du Troisième Style final représentant un spectaculaire paradeisos peuplé de fauves chassant dans un paysage idéal, encadré sur les murs latéraux par des scènes nilotiques peuplées de pygmées, d'hippopotames et de crocodiles.",
+    visiter: "S'engager dans la ruelle secondaire au sud de la Via dell'Abbondanza (Regio I, Insula 6) pour admirer la façade en stuc à bossages de la Maison des Ceii avant de pénétrer dans son atrium tétrastyle. Les visiteurs rejoignent ensuite le jardin arrière pour contempler de près l'éclat retrouvé de la grande fresque cynégétique du paradeisos ainsi que les panneaux nilotiques et les décors de jardin ornant les piliers.",
+    link: ""
+  },
+   {
     id: "pompei_thermopolium_et_maison_de_vetutius_placidus",
     name: "Pompéi - Thermopolium & Maison de Lucius Vetutius Placidus (Regio I)",
     country: "Italie",
