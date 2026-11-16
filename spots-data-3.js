@@ -7,6 +7,51 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "naples_quartiers_espagnols_largo_maradona",
+    name: "Naples - Quartiers Espagnols & Largo Maradona (Quartieri Spagnoli)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Campanie",
+    department: "Province de Naples",
+    subdiv: "Naples",
+    altitude: 55,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Trame Urbaine Vice-Royale (XVIe siècle), Ruelles Populaires Napolitaines & Sanctuaire Street-Art de Diego Maradona",
+    century: "XXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 40.84145,
+    lng: 14.24521,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPe7tjNwOhga21kLseYqoxfi_JDUAbJSf9d4JdDjTySHSQ_yT5QENtdFmL9g2uYn02E4k4Ni8RW8s-H-dD2oUUpS6qVvruIKTtCnFagCQ5cF1lf_zkDofXAW_U6Kn3HludYEi0vO6L9HTEX5rRd9wnBPA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNxAlsWsKZyuK_4_V92e37EFT2ijRKeSX8OmQkKqflk8-oFvo07icO_HGBqPEavfp2O4OyCIj9mSh7Me7SSvXutDOBthmoDdfpkyXBfT5yTPRJO47etQOrPCOXn7HNb017ctyl1V6ODoFbRu0DwsPlhMA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMhtiHeM3zZvbDhYiRy5ekwXdnbD3PlLi-32zVdxTNEVnXnRhrWUzp_sPbAf5zMXKkrNPzArjjKB5Qhw-BS7O_k53pAtm2zmaitM65R34u_3y2J6aoq3xpJPLNrhihVW-Vl3MFMoFDFOM9woztO5UBeww=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOqezG1CIvEJBvRPt-v1wa8BHXsEnRsQ1nFVoZ6aZcJ-OfjzzfHbSIv7UPr2QbfXctn7EubjMcoByriKoF6DXtoIavPLTUKzM_MfLmggza4rm4HGzLIE2lJpCuxr8TPo0l91OHJ0q8j4km1LyjK-1B7yA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOc3Sy_77pa2b4HI8i5xjw1OoqaMsF1Wb-MTKi17YZzmfvBADOwHgb3gr-YPHbq2UP9uTrMDtHqq48qOsRBwpJxxbcnYN4mgiA9xGxoTDI9WvWFvEuLy1iD0OxgG7F5FRKhJhA4gGD9TAMeIAphjpyMlA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNXbHNFnno7hLQDSe9SDLN-Lmvl0YkUt25zyMCwbfAygkFZlWhdju_JqNaYxymAGeVEnaofJg2ImHzaOqUybNw_xjxwFer3hmrc3rGMIWbzX1iZEt3e6Z5rG4UinGfRqddPeXrhNVaMKYTpl1pvPLZufw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Adossés aux pentes escarpées de la colline du Vomero immédiatement à l'ouest de la Via Toledo, les Quartiers Espagnols (Quartieri Spagnoli) incarnent l'âme populaire la plus vibrante, théâtrale et authentique de Naples. Dessiné à partir de 1536 sur ordre du vice-roi espagnol Don Pedro de Toledo afin de loger les garnisons militaires chargées de maintenir l'ordre dans la cité, ce vaste secteur résidentiel s'organise selon un plan en damier orthogonal rigoureux d'étroites ruelles pavées de basalte (vicoli) et d'escaliers vertigineux bordés de hauts immeubles aux façades patinées. Au-dessus des logements populaires de plain-pied (bassi) ouverts sur la rue, les balcons en fer forgé surplombent un entrelacs pittoresque de fils à linge, de petits autels votifs illuminés (edicole sacre) et d'échoppes artisanales animées.\n\nAu croisement de la Via Emanuele de Deo et de la Via Concordia, la petite placette baptisée Largo Maradona s'est imposée comme l'un des hauts lieux culturels et identitaires les plus célèbres du Naples contemporain. Dominée par la fresque monumentale haute de six étages peinte en 1990 par l'artiste local Mario Filardi à l'occasion du second Scudetto du Napoli — puis restaurée par Salvatore Iodice et complétée par le portrait signé Jorit —, cette esplanade à ciel ouvert déploie un véritable sanctuaire populaire dédié à Diego Armando Maradona, tapissé de maillots bleu ciel, d'écharpes, de fresques murales et d'ex-voto témoignant de la ferveur passionnelle unissant la ville à son idole éternelle.",
+    visiter: "S'engager à pied depuis la Via Toledo dans le dédale rectiligne des ruelles montantes des Quartiers Espagnols pour observer la vie quotidienne des vicoli, les petits autels votifs de façade et les perspectives spectaculaires sur le Vésuve. Rejoindre ensuite le Largo Maradona sur la Via Emanuele de Deo pour admirer le célèbre portrait mural géant de Diego Maradona ainsi que les nombreuses œuvres de street-art et mémoriaux tapissant les murs de la placette.",
+    link: ""
+  },
+   {
     id: "naples_eglise_san_domenico_maggiore",
     name: "Naples - Basilique Saint-Dominique-Majeur (Basilica di San Domenico Maggiore)",
     country: "Italie",
