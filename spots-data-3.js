@@ -7,6 +7,195 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "edimbourg_scott_monument",
+    name: "Édimbourg - Le Scott Monument (Princes Street Gardens)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "City of Edinburgh",
+    subdiv: "Édimbourg",
+    altitude: 68,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Flèche Néogothique Victorienne (1840-1846, 61 m) Dédiée à Sir Walter Scott & Panorama sur la Ville",
+    century: "XIXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 55.95243,
+    lng: -3.19327,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPyRLnfyfCOaF5h0gI-ohzaLvSQAp2Z5GkjxpvhdFP1zs7f-h1TKpiG-lFQ-rqtDlId4aBvMgbGgW95bi_VWjL-lvDQD2QaZo8Dmw9Dtf7rBhpH5a-xtkxhcE1XbOZQ11lYXlGluICgenFBiWrlL34vZA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO6e7etkt15jj3w3z6D_g_ptJ7Mn06GcWPi75JG002hwJNGjF9QSv1rrIzeUlY20mVVMVqP3fWnxW8msk0KwHtSPSZXgLHOCwyruoEof_Py3LBKXIDFUWxytIW-Xg_nkODA1aN88hQLcwuelG2h3qcbYA=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressée en majesté en bordure de Princes Street à l'extrémité orientale des jardins de Princes Street Gardens, la flèche vertigineuse du Scott Monument constitue le plus grand monument au monde jamais érigé à la gloire d'un écrivain. Élevé entre 1840 et 1846 à la suite d'un concours international remporté par l'architecte autodidacte George Meikle Kemp — disparu tragiquement dans le canal de l'Union avant l'achèvement de son chef-d'œuvre —, cet édifice néogothique monumental rend hommage au célèbre romancier et poète écossais Sir Walter Scott, auteur d'Ivanhoé, de Waverley et de La Dame du Lac, mort en 1832. Culminant à soixante-et-un mètres de hauteur, la tour ajourée s'inspire directement de l'architecture médiévale de l'abbaye de Melrose tant aimée de l'écrivain et se distingue par la patine sombre caractéristique de son grès de Binny, riche en bitume naturel qui a noirci la pierre au fil des décennies.\n\nSous l'immense baldaquin gothique central trône la statue monumentale en marbre blanc de Carrare sculptée par Sir John Steell, représentant Walter Scott assis en tenue d'écrivain avec sa plume et son fidèle lévrier Maida couché à ses pieds. Tout autour des contreforts, pinacles et niches de la tour s'étagent soixante-quatre statuettes sculptées figurant les personnages célèbres de ses romans historiques ainsi que seize têtes de grands poètes écossais dont Robert Burns. Un étroit escalier en colimaçon de deux cent quatre-vingt-sept marches permet d'accéder successivement à quatre galeries panoramiques superposées dévoilant une vue circulaire spectaculaire sur la Old Town, le château d'Édimbourg, la New Town et l'estuaire du Firth of Forth.",
+    visiter: "Contempler depuis Princes Street et les allées de Princes Street Gardens l'architecture néogothique en dentelle de grès noirci du Scott Monument et la statue en marbre blanc de Sir Walter Scott sous sa voûte centrale, puis gravir les 287 marches de l'escalier en vis jusqu'aux plateformes panoramiques.",
+    link: ""
+  },
+  {
+    id: "edimbourg_cockburn_street",
+    name: "Édimbourg - Cockburn Street (Liaison Historique entre Old Town et Waverley)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "City of Edinburgh",
+    subdiv: "Édimbourg",
+    altitude: 86,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Artère Courbe Victorienne (1856) de Style Scottish Baronial Reliant le Royal Mile à la Gare de Waverley",
+    century: "XIXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 55.95065,
+    lng: -3.18943,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMHQWuOrwME4g0a-xU0LOsUffR-KNbWOkfkhonb_mqQ0IoC1DaMmN6soJ3q8Eyp-iqc8_4o8c6v5y8n2_qT_PYBs4WFFpNSGNrqYrYB72yNo0d8hJJxangzo0Tj-U-qexCJazO32zeApccvz79ZbtxeFQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN23R5njCiL-EumWZqlVTQTgpK9he_Is5f8Td5x5_ohBBHiBfEi1afkoJcrJTR91licAHnvHZJNiGyYEtKGf67CbCZCQNrMh18Ql97gV-DukU_fz001dPkbThC7VctDs17L-kTjmVT7idXZlKHo1mvozQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOTazK27jp7MgZ7xWqXGDE1EwGWBzYYeUz6gLHBWuVZtX1CHpWf6qm90tWPXR3UTnYRUhR1F5xxSr0OLFpOkLEgdANl2FjYPK5DxOPLgeXJUY-xc7qo4WQeCPmTE9ZoJOPx5L5YaMU84KhSXO6WoqxPyg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Serpentant en une courbe élégante et escarpée sur le flanc septentrional de la crête médiévale d'Édimbourg pour relier la gare centrale de Waverley à la High Street du Royal Mile, Cockburn Street représente l'une des réalisations d'urbanisme victorien les plus réussies et pittoresques de la capitale écossaise. Percée à partir de 1856 sur les plans des architectes Peddie et Kinnear afin de créer une voie carrossable fluide entre la nouvelle gare ferroviaire et le cœur historique de la ville haute sans détruire brutalement la silhouette médiévale environnante, cette rue sinueuse doit son nom au célèbre juge, homme de lettres et défenseur du patrimoine d'Édimbourg Henry Cockburn, Lord Cockburn.\n\nBordée de hauts immeubles d'habitation (tenements) de quatre à six étages bâtis en pierre de taille de grès blond et gris, la rue illustre avec brio le style architectural néo-écossais dit « Scottish Baronial », inspiré des châteaux et manoirs des XVIe et XVIIe siècles : ses façades courbes s'animent de tourelles d'angle en encorbellement, de poivrières coniques en ardoise, de pignons à redents (crow-stepped gables), de lucarnes sculptées et de cheminées monumentales, abritant aujourd'hui une succession vivante d'échoppes indépendantes, de librairies et de cafés.",
+    visiter: "Gravir à pied la courbe pavée de Cockburn Street depuis Waverley Bridge en direction du Royal Mile pour admirer l'harmonie des façades de style Scottish Baronial, leurs tourelles en poivrière et les échappées vers les ruelles étroites (closes) de la Old Town.",
+    link: ""
+  },
+  {
+    id: "edimbourg_cathedrale_saint_giles",
+    name: "Édimbourg - Cathédrale Saint-Gilles (St Giles' Cathedral / High Kirk of Edinburgh)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "City of Edinburgh",
+    subdiv: "Édimbourg",
+    altitude: 95,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Sanctuaire Historique d'Écosse (XIIe-XVe siècles), Clocher-Couronne Gothique, Foyer de John Knox & Chapelle du Chardon",
+    century: "XVe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 55.94959,
+    lng: -3.19079,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOT3ghEPpfeFaVuMTLmMGsNjfkv1_Y_Db_vialmLW5UhIqnYmiOBNBEGbzRYczIShfeyaL-yqZR_P659kavJHYj_1d9qWevN91TKcQ8xYB14_t_0KbeDQvOoFr4KVhqf6t2xIXh8gynSV6UgA-0jJI7FA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOZ67oACFSjsg2XM6teg5U0pLHk1hUDjAEpORrLZic6_eFD_odYx57ptU0k-ADyvw19PGhVcltvOT9uH0kBMvOknjZGUA5R5NAJqetbW5fZbHhxC6QpEgXAj7hPxk6mGCEVnGhBMsft5bi_JJogbSUs8A=w1379-h919-s-no-gm?authuser=0",
+        caption: "Sa nef, dont les parties les plus anciennes remontent au XIIe siècle, témoigne de siècles de transformations, passant du style roman normand au gothique perpendiculaire, tout en conservant une austérité majestueuse propre au culte réformé.\n\nL'architecture de la nef se caractérise par une structure en voûtes d'ogives complexes, dont les nervures s'élancent depuis de puissants piliers octogonaux en pierre de taille. L'impression de verticalité est renforcée par la finesse des arcs-doubleaux et la clarté des clés de voûte souvent ornées de motifs héraldiques ou floraux. Contrairement à certaines cathédrales anglaises plus vastes, Saint-Gilles offre une atmosphère plus intime et recueillie, où la pierre sombre de la région contraste avec les touches de dorures des lustres contemporains et les couleurs vives des vitraux qui ponctuent les bas-côtés.\n\nL'un des éléments les plus saisissants de la perspective intérieure est la présence des grandes orgues et, au fond, du chœur baigné par la lumière de la grande verrière Est. Les vitraux, bien que pour la plupart datant de l'époque victorienne ou du XXe siècle (la Réforme ayant initialement banni les images figuratives), narrent des épisodes bibliques et l'histoire écossaise, projetant des éclats de bleu et de pourpre sur les dalles de pierre. La nef sert également de panthéon national, abritant de nombreux monuments commémoratifs dédiés aux figures illustres de l'Écosse, dont le réformateur John Knox qui y prêcha régulièrement.\n\nHistoriquement, cette nef a été le théâtre d'événements majeurs, des tumultes de la Réforme écossaise aux cérémonies royales les plus récentes. Elle abrite notamment la chapelle de l'Ordre du Chardon (Thistle Chapel), chef-d'œuvre du renouveau gothique situé à l'extrémité sud-est, bien que la nef elle-même reste le lieu principal de rassemblement. Aujourd'hui, cet espace allie la solennité d'un monument historique à la vitalité d'un lieu de culte actif, offrant aux visiteurs un voyage à travers neuf siècles d'identité et de foi écossaises."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMTnTb9TLuhd-NmDxTgas4lFBbGhH0BkspezsH5ABq03rNV_T8zOYsn3Ri5cz6jG4HTrgPpfgx9qVa1Xwtt0yo8udrTH4VInvaW89ut-4TIlEnuAgAviSlSf6kV1iN7Y_cxHjo1EtOh0U-lOtS1W_dBcw=w1379-h919-s-no-gm?authuser=0",
+        caption: "tombe de Robert Louis Stevenson"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNOrbvfa-mCu3jK6YotX9tc5vZP8OaOHhoztuITf3dbHIdIIbocLxNrACG3WMb4MNw-7gg32fj61e3e2_0LKZyl9nCC9hn8Ru7O6mQlPDcX64mle5c-tmcJigLkZEYBg-VEoAbKQvpm7fxpt5XdeFoBUQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOBypxY9p137io3oeaUpVq3xR5yLFTkxKU32TzF83OwFMi9MXnF-nxdlC0fgoFNePpyvNKA5d7oIJNCrhQBYPedGmmyev_vGDxHJOjR1il1uQccnwq46-auNxJXmj8ItcRCSTQ6RzNE9yTZY9O9s_0PEA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressée en majesté sur la High Street au cœur même du Royal Mile d'Édimbourg, la cathédrale Saint-Gilles (St Giles' Cathedral ou High Kirk of Edinburgh) constitue depuis plus de neuf siècles le cœur spirituel, historique et civique de l'Écosse. Fondée vers 1124 sous le règne du roi David Ier et reconstruite aux XIVe et XVe siècles après les destructions des guerres d'Indépendance écossaise, cette vaste église-halle gothique se reconnaît entre toutes à son célèbre clocher central achevé vers 1495, couronné d'une élégante lanterne ajourée en forme de couronne royale supportée par huit arcs-boutants finement sculptés.\n\nHaut lieu de la Réforme écossaise au XVIe siècle lorsque le réformateur John Knox y officia comme ministre à partir de 1559 et prêcha devant Marie Stuart, le sanctuaire déploie sous ses voûtes d'ogives gothiques soutenues par de puissants piliers octogonaux un véritable panthéon national rassemblant vitraux victoriens et contemporains, drapeaux régimentaires, mémorial en bronze dédié à l'écrivain Robert Louis Stevenson sculpté par Augustus Saint-Gaudens et, dans son angle sud-est, la somptueuse Chapelle de l'Ordre du Chardon (Thistle Chapel) édifiée entre 1909 et 1911 par Robert Lorimer dans une dentelle de boiseries en chêne sculpté.",
+    visiter: "Contempler depuis Parliament Square sur le Royal Mile le célèbre clocher-couronne gothique de Saint-Gilles, puis pénétrer dans la nef pour admirer ses voûtes d'ogives, ses verrières historiées, le monument commémoratif de Robert Louis Stevenson et les boiseries ciselées de la Chapelle de l'Ordre du Chardon.",
+    link: ""
+  },
+  {
+    id: "edimbourg_lawnmarket_street",
+    name: "Édimbourg - Lawnmarket (Section Haute du Royal Mile & Demeures Historiques)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "City of Edinburgh",
+    subdiv: "Édimbourg",
+    altitude: 100,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Artère Historique du Royal Mile (XVIe-XVIIIe siècles), Ancien Marché au Lin & Hauts Immeubles Tenements",
+    century: "XVIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 55.94945,
+    lng: -3.19318,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMO52nrCDXURCJ9Vi9-afMFgSUI0cCLid-oUDWkaTuU0j8yXVxMpsljJvyPN5AZZCPR3AE5E9JNEJpC1RNFZEhogp-lUAvmwEwZwPdaXnVexuu8_ISaah-mVeWiSF4USulmaLmPP5hOJq4_fgEqVFQ5XA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Occupant la section supérieure de la grande artère historique du Royal Mile entre la cathédrale Saint-Gilles et Castlehill au pied de la forteresse royale, Lawnmarket tire son nom du marché animé aux étoffes de lin et de laine (« land market » puis « lawn market ») qui s'y tenait dès le Moyen Âge au sommet de l'arête rocheuse d'Édimbourg. Encadrée par d'imposants immeubles anciens en pierre de taille (tenements) culminant jusqu'à six ou sept étages — parmi les premiers véritables « gratte-ciel » urbains d'Europe construits en hauteur faute de place à l'intérieur des remparts de la ville close —, cette voie large et pavée conserve l'atmosphère dense et théâtrale de la capitale écossaise des XVIIe et XVIIIe siècles.\n\nDe part et d'autre de la chaussée s'ouvrent d'étroites ruelles voûtées et des cours intérieures secrètes (closes et wynds) telles que Lady Stair's Close — abritant le Musée des Écrivains consacré à Robert Burns, Walter Scott et Robert Louis Stevenson dans une demeure seigneuriale de 1622 — ou Riddle's Court et Gladstone's Land, maison marchande restaurée du XVIIe siècle conservant ses arcades commerciales du rez-de-chaussée et ses plafonds peints d'époque.",
+    visiter: "Remonter à pied le pavé animé de Lawnmarket le long du Royal Mile depuis Saint-Gilles jusqu'à Castlehill pour admirer les hautes façades historiques en pierre grise, l'architecture de Gladstone's Land et les passages étroits menant aux cours intérieures comme Lady Stair's Close.",
+    link: ""
+  },
+  {
+    id: "edimbourg_esplanade_du_chateau",
+    name: "Édimbourg - L'Esplanade du Château d'Édimbourg (Castle Esplanade)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "City of Edinburgh",
+    subdiv: "Édimbourg",
+    altitude: 104,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Place d'Armes Panoramique au Sommet du Royal Mile, Pont-Levis de la Forteresse & Théâtre du Military Tattoo",
+    century: "XIXe siècle",
+    category: "panorama",
+    counts: {},
+    lat: 55.94859,
+    lng: -3.19822,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPuh8DZvFz0iTPdUoHNQ-ZmCqjwzXxhma5TMF1zEFrXCPOsTMcBxKViCXvXknGHDrhZ6Q_ijFemjMd3jWZryG1D5fv__-5aFtsi6_J_2BC0L-2FIzEoPSzuyoS22MqTe0zDrz5nxWYpcGPbcOPDJql7iQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOn1K7UnTU4wJn908s6nqiGK7HUEMvycQzSPb04l5kiqwCM6IMZT-0IxA0DjNCDiRzcZ7LmWBrpPFEIBuM7jR-66Z68zMLt7ru5c24v7TTrVR-FzGrHwu4s-YTDVwruEbQjsx-q4Qf14l_c5s1mSsxQiQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Couronnant le sommet occidental du Royal Mile à plus de cent mètres d'altitude juste devant le pont-levis et la porte d'entrée fortifiée du château d'Édimbourg, la vaste esplanade pavée de Castle Esplanade forme un belvédère monumental suspendu entre ciel et ville. Aménagée dans sa configuration actuelle au milieu du XVIIIe siècle puis élargie au XIXe siècle comme terrain de parade et d'exercice militaire pour la garnison britannique, cette vaste terrasse trapézoïdale bordée de parapets en pierre et ponctuée de statues équestres et monuments régimentaires écossais occupe l'ancien col étroit reliant la crête de Castlehill au piton basaltique de la forteresse.\n\nMondialement célèbre pour accueillir chaque mois d'août les gradins du prestigieux Royal Edinburgh Military Tattoo au son des cornemuses et tambours des régiments écossais, l'esplanade offre depuis ses parapets nord et sud l'un des panoramas urbains et maritimes les plus grandioses d'Europe : au nord se déploient les jardins de Princes Street Gardens, l'ordonnancement géométrique néoclassique de la New Town et l'estuaire du Firth of Forth jusqu'aux collines du Fife, tandis qu'au sud s'étendent les toits d'ardoise de la Old Town, le dôme de l'université et les reliefs volcaniques d'Arthur's Seat et des Pentland Hills.",
+    visiter: "Déboucher depuis Castlehill sur la vaste esplanade pavée du château d'Édimbourg pour contempler de face la porte monumentale gardée par les statues de Robert the Bruce et William Wallace, puis longer les parapets latéraux afin d'embrasser la vue circulaire sur la New Town, le Firth of Forth et Arthur's Seat.",
+    link: ""
+  },
+  {
+    id: "edimbourg_victoria_street_et_west_bow",
+    name: "Édimbourg - Victoria Street & West Bow (Rue Courbe aux Façades Colorées)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "City of Edinburgh",
+    subdiv: "Édimbourg",
+    altitude: 91,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Artère Courbe à Double Niveau (1829-1834), Terrasses Panoramiques & Devantures Colorées de la Old Town",
+    century: "XIXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 55.94837,
+    lng: -3.19457,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNvTzDvoxdbHrzJ5-LOt9NAJsdblkPM5FXH2gLZj-FseKAsZvSIUv7et2aqW31BRgUhTBV-s-yRKL0hIe_lqN9EoHKEFP-a4Q1egpFMaQ75yFDr2H35NIcFyLW4pbiHkDewmqReeMnbHypNBgmRmQ9VJw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMngciaVXu9l3FSixnhkLeotKXmfNxf_zUcxS6eA5nQs_h0_oUsmP_HxEQPMJ67m8_uN2Siq4b0xTYad5R-lFvQ5C0uoRXW4vNjZYj7I6Q9iK70B6TojM2rhbROwkAK7C77V4N13qM6l9Oqb2lX1k0CMw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPwzCtNL5fWclV8YnJBWt_2RaMHYsKSLDKd7sbkblzcpnQdIIsnDUKOI2jk7Ybtbm9HGspD9T8ytJv5HIVrCTfFbYjO9iAS7xsp1zm5RnNNNttAF6d-_tcJBSovga_hC4qH0_8q_dJtK1y_YCDZNVMwzQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Décrivant une courbe spectaculaire en pente douce reliant le pont George IV Bridge aux abords historiques de Grassmarket par l'ancien tracé médiéval de West Bow, Victoria Street est universellement reconnue comme la rue la plus photogénique et théâtrale de la Old Town d'Édimbourg. Aménagée entre 1829 et 1834 par l'architecte Thomas Hamilton dans le cadre d'un ambitieux programme de modernisation visant à faciliter l'accès entre la ville haute et les quartiers méridionaux, cette artère ingénieuse s'organise sur deux niveaux superposés : au niveau inférieur se succèdent de pittoresques boutiques aux devantures peintes de couleurs vives (bleu cobalt, rouge carmin, jaune safran, vert émeraude), tandis qu'au-dessus court une terrasse piétonne panoramique en pierre bordée de balustrades qui dessert le premier étage des immeubles.\n\nDominée par de hauts bâtiments anciens en grès sombre coiffés de tourelles, de pignons à redents et de cheminées élancées qui se découpent sur le ciel écossais, cette perspective courbe saisissante a notamment inspiré l'atmosphère magique du Chemin de Traverse dans l'univers littéraire de Harry Potter écrit à Édimbourg par J. K. Rowling. À son extrémité basse, la rue rejoint le carrefour historique de West Bow — jadis célèbre pour ses maisons à encorbellements en bois et son passé lié aux procès de sorcellerie — ouvrant directement sur l'esplanade animée de Grassmarket dominée par les falaises abruptes du château.",
+    visiter: "Descendre en flânant le trottoir inférieur de Victoria Street pour admirer l'alignement courbe des devantures colorées et des hautes façades de pierre, puis emprunter les escaliers conduisant à Victoria Terrace afin de surplomber toute la perspective de la rue en direction de West Bow et Grassmarket.",
+    link: ""
+  },
+   {
     id: "edimbourg_dean_village_water_of_leith",
     name: "Édimbourg - Dean Village & Sentier de la Water of Leith (Water of Leith Walkway)",
     country: "Royaume-Uni",
