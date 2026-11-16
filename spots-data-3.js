@@ -35,7 +35,7 @@ const SPOTS_3 = [
         caption: ""
       },
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczPu0Uwr2H_N54DkieZQA51edsgqwI2Td9PcMbxsUoZoN--ZhVveiBFX2OGpYYnV4Aly2m9BNQobjmneFr-JMRKBsV3aMXH6Qv91tfF5v47eeONLpJywlElI6usU3Hafx7smydaXw9Rl54MTrKkNJ-D0w=w1379-h919-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPu0Uwr2H_N54DkieZQA51edsgqwI2Td9PcMbxsUoZoN--ZhVveiBFX2OGpYYnV4Aly2m9BNQobjmneFr-JMRKBsV3aMXH6Qv91tfF5v47eeONLpJyw2lElI6usU3Hafx7smydaXw9Rl54MTrKkNJ-D0w=w1379-h919-s-no-gm?authuser=0",
         caption: ""
       }
     ],
