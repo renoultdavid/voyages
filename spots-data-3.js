@@ -7,6 +7,96 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "pompei_villa_de_diomede",
+    name: "Pompéi - Villa de Diomède (Villa di Diomede - Via dei Sepolcri)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Campanie",
+    department: "Province de Naples",
+    subdiv: "Pompéi",
+    altitude: 30,
+    transport: "a_pied",
+    era_group: "antiquite",
+    era_label: "Grande Villa Suburbaine en Terrasses (IIe-Ier siècle av. J.-C.), Péristyle à Piscine & Cryptoportique",
+    century: "Ier siècle av. J.-C.",
+    category: "archeologie",
+    counts: {},
+    lat: 40.75236,
+    lng: 14.47863,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPRi0Z_NMNUeelB8UObmJwrmmkjpjppAXNoqXgO4mikYIZHfcpD1proupS6aIPbUGZoahRF-d3mcE1rd1VyrLnFKSsxIpXh4YTiylae6ANfs-LfJU2KLfKDPAwAmYBRoi4d-MZ6T-5SHMcXNhgm2dkLbw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN0cbYVPNFClT64wtRFfD-6UUdrXR6zH50QSWcf_jNcPu22Is-pcyzE9IJho-fZKFAf-UqHpkI7RiZAmh5SHvnfyvm8PMFbV8hOoUgwLSe-JPnSanJR0ZyziEV58thCB5mFtkJ4HtmADsq3jrbUBtgSAg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPFmpikST0JH51fW7F4A4gRX1e7C7R9h-Fwoz6EOMVnowrxnTuJ0zP4Squ7_CJDaoFXcVqbs0muiYQohSPALCJd_TFAJAqCFUlR5daYbBrWt2uOi1rgMTkt9sw7jrZzhSHoP3x6K5Dq7blLsxXlKn99ng=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Étagée en terrasses panoramiques hors les murs le long de la Via dei Sepolcri au nord-ouest de la Porte d'Herculanum, la Villa de Diomède (Villa di Diomede) figure parmi les plus vastes et spectaculaires résidences suburbaines de la baie de Naples mises au jour entre 1771 et 1774. Édifiée dès la fin du IIe siècle av. J.-C. et agrandie au Ier siècle apr. J.-C., cette demeure aristocratique de plus de trois mille cinq cents mètres carrés exploite la déclivité naturelle du terrain tourné vers la mer pour superposer deux niveaux résidentiels reliés par des rampes et des escaliers : au niveau supérieur s'organise un péristyle d'entrée entouré d'un complexe thermal privé et de salons de réception ornés d'une élégante abside vitrée ouvrant sur le golfe de Naples.\n\nEn contrebas se déploie l'immense jardin-péristyle inférieur cerné par un portique carré de soixante-huit colonnes en tuf volcanique stucqué, au centre duquel trônent un bassin-piscine de marbre à exèdre et un pavillon d'été (triclinium) soutenu par six colonnes. Sous les quatre ailes de ce jardin s'étend un impressionnant cryptoportique souterrain voûté servant de cave à vin (cella vinaria) où les archéologues découvrirent de nombreuses amphores ainsi que dix-huit victimes réfugiées lors de l'éruption du Vésuve de 79 apr. J.-C. — drame tragique qui inspira à Théophile Gautier sa célèbre nouvelle fantastique Arria Marcella.",
+    visiter: "Suivre la voie antique bordée de monuments funéraires de la Via dei Sepolcri au-delà de la Porte d'Herculanum pour pénétrer dans la Villa de Diomède. Les visiteurs parcourent les salles de réception et les thermes du niveau supérieur avant de descendre vers le vaste jardin-péristyle inférieur entouré de ses portiques, de son bassin central et de son cryptoportique souterrain.",
+    link: ""
+  },
+  {
+    id: "pompei_villa_des_mysteres",
+    name: "Pompéi - Villa des Mystères (Villa dei Misteri)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Campanie",
+    department: "Province de Naples",
+    subdiv: "Pompéi",
+    altitude: 28,
+    transport: "a_pied",
+    era_group: "antiquite",
+    era_label: "Villa Suburbaine Aristocratique (IIe-Ier siècle av. J.-C.) & Mégalographie Dionysiaque du Deuxième Style Pompéien",
+    century: "Ier siècle av. J.-C.",
+    category: "archeologie",
+    counts: {},
+    lat: 40.75366,
+    lng: 14.47749,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNZm2BaQzlbjRkmwmf2AjbshobZ1k3040OE6a5BBj7XjSvlxzObBCm8zr7i6GD0ysYYOpNorsjm984RzFv-6WgDTNoRUjeCMrwUTreAOiF8Uw--cGpUS_IWNREifyaEYvohkp7xZpHvUCZ81Wl5D0Bodg=w1373-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOpBCGsGf8Z6enYHFjyrlEMoY8O5A0fmOfJB6f3y1cKe2PPCx-5hY4YZh5W6fkIsVOMcSUCzc9z332WU0x4kEMB6Z29Qnrdg4y-FnapjNHJFBMt9UwMKsD1PTIURSTRTCFS5PUkOccM4P1f6T_avqsc7Q=w1379-h919-s-no-gm?authuser=0",
+        caption: "Cette célèbre fresque murale orne la salle de réception, ou triclinium, de la Villa des Mystères à Pompéi. Datant du milieu du Ier siècle av. J.-C., elle constitue l'un des exemples les plus spectaculaires du Deuxième Style pompéien, caractérisé ici par une mégalographie, c'est-à-dire une peinture mettant en scène des personnages grandeur nature. Le fond d'un rouge intense, le fameux « rouge pompéien », crée un contraste saisissant avec les figures et confère à la pièce une atmosphère solennelle et mystérieuse.\n\nLa frise se déploie sur les trois murs de la salle, représentant une série de scènes interprétées comme les étapes d'un rite d'initiation aux mystères dionysiaques. On y observe des personnages humains mêlés à des figures mythologiques telles que des satyres et Silène. L'action semble centrée sur le passage d'une jeune femme à l'âge adulte ou au mariage sous le patronage de Dionysos et Ariane, illustrant la ferveur des cultes à mystères très prisés dans l'Italie romaine.\n\nL'exécution technique témoigne d'une maîtrise exceptionnelle du réalisme et de la psychologie des personnages. Les attitudes sont variées, allant de la lecture paisible d'un rituel par un jeune garçon à l'effroi d'une femme devant une scène de flagellation symbolique. La profondeur est suggérée par un podium étroit sur lequel semblent se tenir les acteurs de ce drame sacré, tandis que les pilastres peints divisent l'espace de manière architecturale sans rompre l'unité narrative de la frise.\n\nCette œuvre demeure un témoignage précieux sur la spiritualité privée et les pratiques rituelles de l'élite romaine. Bien que l'interprétation exacte de chaque séquence fasse encore l'objet de débats parmi les historiens de l'art, la force émotionnelle et la qualité esthétique de la Villa des Mystères en font l'un des sommets de la peinture antique universelle. La conservation exceptionnelle de ces pigments, enfouis sous les cendres du Vésuve, permet aujourd'hui d'admirer la vivacité originelle de ce décor magistral."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO1yMNMZDXY7DoNXKyI9k5ywur81egn3G5ixuR5wMlNXjRsn0D3nlgHXzW3odrslkctcGo0dXv7SP09nOlC8WLopv1DNVrFb7Te5feK0jmG2yS-lxvG9SC_irBB87iqcFwWgrcYcbm83oNLW5Gbz8gagQ=w1382-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPn0dOyC3Tmmm6gMbHQ1r_b-x_3o-oHLxTkXHDVrCrmXgKRxDaKpojMHp-c6viee2lHUe1IONNrTruIRLSXEgyfJhqrG8riqtdKQiPjMDQsjN_WzmO7YHseiNmrTnwvp97xxWnWKscT7OA7BVIRSX0alw=w1377-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczODAe6i9leEhbR7XyqzVDtHdzEgMgmjsTsRnPq6laonfXo5t_MScA6E2W46hEOc-XkeCn6hkhGX56CdR8odPYRzQt3seaXPCbXNFP6As5DPsL3SHAMUPiopowSGauqu4G_Xd_I7h008T3IP8Yq_CoJXDw=w1379-h919-s-no-gm?authuser=0",
+        caption: "La villa abrite également des exemples magistraux du second style pompéien (env. 80-20 av. J.-C.). Contrairement aux styles ultérieurs plus plats et ornementaux, ce style \"illusionniste\" cherche à briser la planéité du mur en créant des perspectives architecturales crédibles. La salle présentée ici témoigne de cette volonté de transformer une pièce fermée en un espace ouvert sur des structures monumentales et des jardins imaginaires, reflétant le luxe des résidences aristocratiques de l'époque républicaine.\n\nLa composition murale repose sur une structure architecturale rigoureuse et symétrique. Des colonnes ioniques peintes avec un grand souci du détail — incluant les ombres portées pour accentuer le relief — semblent supporter un entablement complexe qui fait le tour de la pièce. Entre ces colonnes, le peintre a créé des échappées visuelles : sur la paroi latérale, on distingue un mur de jardin surmonté de feuillages sur un fond de ciel bleu, tandis que des guirlandes de feuilles de vigne ou de lierre, traitées en rehauts de jaune et de vert, sont suspendues devant des panneaux sombres. Ce jeu entre le premier plan architectural et l'arrière-plan paysager est une caractéristique fondamentale du second style, visant à agrandir visuellement l'espace habitable.\n\nLe traitement chromatique de cette salle est d'une sophistication, utilisant des pigments naturels qui ont conservé une profondeur remarquable. Les registres inférieurs imitent des marbres précieux et des socles de pierre sombre, tandis que les parties supérieures utilisent des ocres, des rouges terreux et des bleus atmosphériques. La précision des lignes de fuite et l'utilisation de la lumière pour modeler les volumes architecturaux préfigurent les recherches sur la perspective qui ne réapparaîtront qu'à la Renaissance. Cette pièce n'était pas seulement un lieu de vie, mais une véritable démonstration de prestige culturel, affirmant la maîtrise des propriétaires sur les codes de l'architecture et de l'art hellénistique."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPHfItAOKOp6OEXG-gjyCZQW-dBZCxEI4UsrxjCfnNRy9mYI36aLQmbPfXnCKX4UN3u-cDUWxN6UysB01Vk-3oQnRC6o_43LK-JoOWnT-jLNTeaeOTpVGNuV8B0wXTWgGq8aiyCNCbrL3cQ9AEdQmX9EA=w1379-h919-s-no-gm?authuser=0",
+        caption: "Cette salle constitue un exemple magistral du Second Style pompéien, qui a dominé la décoration des villas aristocratiques au cours du Ier siècle av. J.-C. Contrairement au style précédent qui se contentait d'imiter des plaques de marbre, cette technique utilise la perspective pour briser la planéité du mur et créer une illusion de profondeur monumentale. La paroi est rythmée par des colonnes corinthiennes peintes, dont les fûts cannelés et les chapiteaux dorés semblent se détacher physiquement de la surface grâce à un jeu subtil d'ombres et de lumières.\n\nLa composition s'organise autour d'une architecture feinte complexe simulant une triple ouverture en arcades au registre supérieur. Ces arcs en plein cintre, soulignés par des voussures ocre et rouge, encadrent des lunettes vert émeraude qui suggèrent des ouvertures vers le ciel ou des coupoles lointaines. En dessous, des panneaux de rouge cinabre profond sont encadrés par des structures horizontales imitant des entablements de bois précieux et des frises décoratives. Ce dispositif transforme la pièce en une loggia luxueuse, offrant au spectateur une sensation d'espace et de grandeur caractéristique de l'habitat de prestige romain.\n\nL'harmonie chromatique repose sur un contraste entre les rouges terreux, les verts intenses et les touches d'or, une palette qui souligne la richesse des propriétaires de la villa. On retrouve ici la même rigueur géométrique que dans les autres salles de la Villa des Mystères où les colonnes ioniques et les guirlandes végétales participent à une mise en scène théâtrale de l'espace domestique. Cette maîtrise de la perspective héliocentrique et du trompe-l'œil témoigne d'une influence directe des décors de scène du théâtre antique, réinterprététés pour magnifier l'intimité des grandes demeures de Pompéi."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOKq1DkM80Qa62f1VMlKbtYL2oSCtXyxTAIQPKevPgUQmHtpUf3ZtVKl0EOqYor40VTz_JgxqgXdrftZc5BlSwbs81ebI2o7ROLlehLpr7CFrpkr64b_L1tpCbr8P7AHsmsc-x639T59lOJII-L_0MLng=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOil-8VdTsLnMw7Zt1sI-lJBb4P5qQCGqPWKwODJ-eoG-1IVH7ae9UnLQCZ-EjIRnYPhZDQQgw-pfJ9TkVmcCEqoT-D4XlUIoaxCAFiAFicqVJiQRuNqMi_KeodWe2QhijDPm6hXRyNK7pr4gBuReBI6Q=w1379-h919-s-no-gm?authuser=0",
+        caption: "Cette vue d'ensemble présente une transition entre les espaces publics et privés de la Villa des Mystères, mettant en lumière la cohérence du programme décoratif du Second Style pompéien (env. 80-20 av. J.-C.). À travers les ouvertures, on aperçoit une succession de salles dont les parois sont traitées pour nier la structure massive des murs. Contrairement au Quatrième Style plus tardif de la Maison des Vettii, qui privilégie les miniatures et les architectures fantastiques, le décor ici présent utilise des éléments structurels crédibles — socles, colonnes et entablements — pour créer un environnement monumental et solennel.\n\nLe panneau à gauche de l'ouverture centrale illustre parfaitement cette recherche d'illusionnisme par l'insertion de figures humaines dans un cadre architectural feint. Une silhouette féminine drapée de blanc, traitée avec une technique qui rappelle la statuaire, semble se tenir debout sur un podium devant un panneau de rouge cinabre. Ce dispositif, qui place la figure humaine à l'échelle du visiteur, est une caractéristique majeure du Second Style dit \"schématique\" ou \"à figures\". La précision des ombres portées et le modelé des drapés confèrent à ces personnages une présence physique qui anime les zones de passage de la villa.\n\nLa perspective se prolonge vers la salle adjacente, où l'on devine un décor plus léger aux tonalités verdâtres, suggérant peut-être un jardin intérieur ou une zone de repos. Les plinthes et les registres inférieurs conservent une structure de \"marbres\" feints, ancrant la décoration dans une tradition de luxe héritée de l'époque hellénistique. Cette maîtrise de l'espace, où chaque pièce répond à la suivante par des jeux de symétrie et de rappels chromatiques (comme les ocres et les rouges sombres), témoigne du rang social élevé des propriétaires et de leur volonté de transformer leur résidence suburbaine en un palais de culture et de raffinement."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOpo69zbWRTky7sosgtUaoiJCijqQ3KNjedXPT80WkWl2ej2WSdeEn6NUqRSEWjZ_HQpx2B96ZmkeuEGZOO7LPzd5Du8rllffjPwwkMSH1F8lgY3-aKaFzLA1OzTX3bd7Kq3RkztDCRCV0tOMEj3Eh8QQ=w1377-h919-s-no-gm?authuser=0",
+        caption: "une caricature d'époque !"
+      }
+    ],
+    description: "Implantée en position panoramique hors les murs au nord-ouest de Pompéi face à l'ancienne ligne de rivage du golfe de Naples, la Villa des Mystères (Villa dei Misteri) représente l'un des chefs-d'œuvre absolus de l'architecture résidentielle et de la peinture murale de toute l'Antiquité méditerranéenne. Édifiée au IIe siècle av. J.-C. et somptueusement réaménagée vers 70-60 av. J.-C., cette vaste villa suburbaine combine une élégante demeure de villégiature dotée d'une exèdre vitrée ouverte sur la mer (villa d'otium) avec une exploitation viticole complète (villa rustica) abritant un pressoir en bois reconstitué.\n\nLa célébrité universelle de l'édifice repose sur son cycle pictural exceptionnel du Deuxième Style pompéien, et tout particulièrement sur l'extraordinaire mégalographie ornant les trois parois de son grand salon de réception (oecus). Sur un fond de rouge cinabre éclatant rythmée par des pilastres en trompe-l'œil, vingt-neuf figures grandeur nature composent une frise continue d'une intensité psychologique saisissante consacrée aux mystères dionysiaques et à l'initiation nuptiale autour de Dionysos, Ariane, Silène, des satyres et des prêtresses, faisant de cette salle un monument unique de l'histoire de l'art.",
+    visiter: "Poursuivre la promenade au nord-ouest au-delà de la Via dei Sepolcri et de la Villa de Diomède pour atteindre la Villa des Mystères. Les visiteurs parcourent le grand péristyle, la cour agricole du pressoir à vin et les salons décorés d'architectures illusionnistes du Deuxième Style avant de contempler de près la célèbre frise grandeur nature de la salle des Mystères.",
+    link: ""
+  },
+   {
     id: "pompei_maison_de_l_ours_blesse",
     name: "Pompéi - Maison de l'Ours Blessé (Casa dell'Orso Ferito - Regio VII)",
     country: "Italie",
