@@ -7,6 +7,91 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "pompei_maison_de_l_ours_blesse",
+    name: "Pompéi - Maison de l'Ours Blessé (Casa dell'Orso Ferito - Regio VII)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Campanie",
+    department: "Province de Naples",
+    subdiv: "Pompéi",
+    altitude: 30,
+    transport: "a_pied",
+    era_group: "antiquite",
+    era_label: "Demeure Patricienne du Ier Siècle apr. J.-C., Mosaïque de Seuil « HAVE » & Niche-Fontaine en Mosaïque",
+    century: "Ier siècle",
+    category: "archeologie",
+    counts: {},
+    lat: 40.75061,
+    lng: 14.48638,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOMrq6MiBtMcEJZBBi9dgzSVGLg5K70HIfrORM2Myxt6uj2TMJepSBnF45pyb4iSWUEPqVxPYIJ929D4CZcy6EDGFbGv9WNzxB9FweH_PUsmZ5mXwRKhWh56S94qCXhHhq9XFGlTo_U51GxIZCWFlbXmA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Implantée le long de la Via degli Augustali dans la Regio VII (Insula 2) du parc archéologique de Pompéi, à proximité immédiate des Thermes de Stabies et de la rue des Lupanars, la Maison de l'Ours Blessé (Casa dell'Orso Ferito) offre un exemple particulièrement élégant et raffiné de demeure romaine de taille moyenne réaménagée au cours des dernières décennies précédant l'éruption du Vésuve de 79 apr. J.-C. Mise au jour lors des fouilles de 1865, cette habitation doit son appellation célèbre au remarquable pavement en mosaïque polychrome ornant son vestibule d'entrée (fauces), où figure un ours brun percé d'une lance de chasse et accompagné de l'inscription latine de bienvenue « HAVE » (« Salut »), motif à la fois décoratif et apotropaïque destiné à protéger le foyer.\n\nL'organisation intérieure témoigne du goût sophistiqué de la bourgeoisie pompéienne d'époque néronienne et flavienne : autour de l'atrium pavé d'un fin tapis de mosaïque géométrique noire et blanche incrusté de marbres colorés s'ouvrent des salons ornés de fresques délicates du Quatrième Style pompéien mettant en scène des figures mythologiques telles que Narcisse et Danaé. Dans l'axe perspectif de l'entrée, le petit jardin-viridarium situé au fond de la demeure dévoile un spectaculaire nymphée en forme d'édicule entièrement revêtu de mosaïques de pâte de verre multicolore et de coquillages, représentant la naissance de Vénus dans une conque marine et le dieu Neptune entouré de faune aquatique.",
+    visiter: "S'engager dans la Via degli Augustali au cœur de la Regio VII pour franchir le seuil de la Casa dell'Orso Ferito, observer la célèbre mosaïque de l'ours blessé accompagnée de la salutation « HAVE » dans le vestibule d'entrée et embrasser la perspective traversant l'atrium jusqu'à la fontaine en mosaïque du jardin arrière.",
+    link: ""
+  },
+  {
+    id: "pompei_maison_des_vettii",
+    name: "Pompéi - Maison des Vettii (Casa dei Vettii - Regio VI)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Campanie",
+    department: "Province de Naples",
+    subdiv: "Pompéi",
+    altitude: 37,
+    transport: "a_pied",
+    era_group: "antiquite",
+    era_label: "Chef-d'Œuvre Absolu du Quatrième Style Pompéien (Ier siècle apr. J.-C.), Fresque de Priape & Frise des Amours",
+    century: "Ier siècle",
+    category: "archeologie",
+    counts: {},
+    lat: 40.75214,
+    lng: 14.48452,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNPo9OnmropOP6lqc4tluBZZy-Or6TCPYRPqJM4rW6pXYkT828IJxo3yl5B35AdgPfEu1GNZcerTiVUN_hAbNgMo_oA_8uelQBQXMMygll6pSQkt4IUyP4t9-blZ9yh6IYjAfsc81eG_s_36AUlaCNapQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMy69TC2uvuW8vI2lIy7WpdJRS6lFh-dysPaSH6ZCtl2q0UkdohQ3kU1mOUPQh63qXRlSN0_9luhiCTYoVDYDfWPn0ohaMPoawoEo9wSRQE00xNMcpmKiyppUERcHWMxJ12yMOKqAQmYknbMtCWXErcLQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "Cette fresque célèbre, datée du Ier siècle de notre ère, accueille les visiteurs dans le vestibule de la Maison des Vettii à Pompéi. Elle représente Priape, dieu de la fertilité, de la fécondité et de la protection, reconnaissable à son phallus surdimensionné qu'il place avec assurance sur l'un des plateaux d'une balance. Sur l'autre plateau repose un sac lourdement chargé d'argent, symbolisant la richesse et la prospérité matérielle de la demeure. Le dieu est vêtu d'une tunique jaune relevée, coiffé d'un bonnet phrygien et tient un bâton de berger, rappelant ses origines champêtres et son rôle de gardien des jardins. À ses pieds, une corbeille débordante de fruits souligne l'abondance générée par la terre et la bienveillance divine. Au-delà de sa dimension érotique évidente pour un regard moderne, cette œuvre est avant tout un puissant symbole apotropaïque destiné à détourner le mauvais œil (fascinum) et à protéger la fortune des propriétaires, les frères Vettii, deux riches affranchis ayant fait fortune dans le commerce. La composition utilise la technique de la peinture à fresque typique du quatrième style pompéien, caractérisé par un mélange de réalisme et d'ornementation théâtrale. L'image affirme sans détour que la virilité et la puissance génératrice sont les sources mêmes de la croissance économique et du succès social dans le monde romain. Placée stratégiquement à l'entrée, elle servait à la fois de bienvenue et d'avertissement, garantissant que seule la bonne fortune franchisse le seuil de la domus."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMK_VutnmpTPRnyGrU-poaDLqKXAGSenyga-HPTUh-3Rqlk32NHiCbYKiB1tAiKL6VjSRi4STC1G4LcQ7iY7N14UUuOnNLulMbi8jzzB964jqvoOBB5BL74kfoA-QMDLPomPFxbEjtmN5nlvchUJ-L3Vw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPQelE0Alj1dKEIwUJa022yxk0X6NoQK2YwHlUmhzmNbq7rbq7Xt_aXRhK76hNrRGtmgW1QeJ6J1lf3rrnUdVrPwVcANaE79wuOWYlJyg3RQVt749VKmEsVtVly32pOstlydQsXMvDTHrc1Y0MHLOAODQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "Ce panneau révèle la sophistication des détails architecturaux peints, ou trompe-l'œil. Il représente un thymiaterion (brûle-parfum) ou un trépied sacré richement orné d'or, placé dans un édicule aux perspectives fuyantes. La finesse du trait et l'usage de rehauts de blanc pour simuler le reflet du métal précieux témoignent de la qualité exceptionnelle de l'atelier ayant œuvré chez les Vettii. Ces motifs ne sont pas de simples décorations ; ils transforment l'atrium et le péristyle en un espace de représentation où la richesse matérielle des propriétaires est mise en scène à travers un langage artistique complexe et raffiné."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOrxNXKIJvO3ycxgMzdP7r7iX-zN2sPeBuwemtaYwTF_K5Tjtcu0ytAoAK5AvwacOSUt2L8kOAIYqwWT215Z4a6KaBv7qqJpcVg68bYImCv1bvnDHyA550QuyUYcCVfnrmOXNnOV2J4DUEonHzws7mbng=w1379-h919-s-no-gm?authuser=0",
+        caption: "La Maison des Vettii, joyau du IVe style pompéien, se distingue par l'utilisation de grands panneaux centraux à thématique mythologique insérés dans des architectures feintes. Ces œuvres, commandées par les frères Vettii au milieu du Ier siècle de notre ère, illustrent la transition vers une décoration plus narrative et théâtrale. La salle de l'écusson (ou penthée) et les tricliniums de la demeure regroupent des chefs-d'œuvre où la perspective et la richesse des pigments soulignent l'ascension sociale de ces anciens esclaves devenus de riches marchands.\n\nLe panneau central illustre le mythe de Dédale et Pasiphaé, situé dans le triclinium de la maison. On y voit Dédale, l'artisan ingénieux, présentant à la reine de Crète, Pasiphaé, la vache de bois creuse qu'il a conçue pour elle. La composition est remarquable par le jeu des regards et la gestuelle des personnages : Pasiphaé est assise, pensive, tandis que Dédale désigne son œuvre avec fierté. Cette scène témoigne de l'intérêt des pompéiens pour les récits tragiques et complexes de la mythologie grecque, tout en mettant en valeur le savoir-faire artisanal, une thématique chère aux propriétaires.\n\nEn périphérie de ces grandes scènes, le décor se décline en motifs architecturaux et rituels d'une grande finesse. Le détail du thymiaterion ou brûle-parfum (DSC_7206-1.jpg) inséré dans un édicule illustre la maîtrise du trompe-l'œil. L'artiste utilise des rehauts de blanc et de jaune pour simuler l'éclat du bronze doré et la profondeur de l'alcôve. De même, les piliers décoratifs (DSC_7147-1.jpg) alternent entre des registres clairs peuplés de paons et de motifs végétaux et des registres inférieurs sur fond rouge cinabre. Ces derniers mettent en scène des figures rituelles portant des vasques de libation, ancrant ainsi la demeure dans une atmosphère de piété constante et de luxe ostentatoire."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN1B7V2a0iN1h5QjTarHDMSEVRUBc-ANDoLDpirytfXCvDEIa6LhFrsk6Elpz4U4tQfmGT1QKdMM_5oVZ_y_OGSQvP9a_cRBJqLbVIVYkVJtHwpYhpPxNuNNf8bBHBBrlfRmTJRz5H7f0vua9HDi5BRLg=w1379-h919-s-no-gm?authuser=0",
+        caption: "Le panneau central de la paroi de fond dépeint le supplice d'Ixion, condamné par Zeus à être attaché pour l'éternité à une roue ailée et enflammée pour avoir tenté de séduire Héra. La composition est centrée sur la figure d'Ixion, déjà lié à la roue par Hermès, reconnaissable à son caducée. À droite, Héra trône majestueusement, tandis qu'une figure féminine agenouillée implore sa clémence. Cette scène, d'une grande intensité dramatique, souligne le thème de la justice divine et du châtiment de l'hybris, un motif récurrent dans l'art pompéien. Les parois latérales présentent d'autres épisodes célèbres, comme le mythe de Dédale et Pasiphaé où l'ingénieux artisan présente la génisse de bois à la reine de Crète, renforçant le caractère érudit de la décoration."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMmP5ZcqhC1G0CjpkTkBRDj6dUcCf_NFrkLoMCeZXLpY4n49rTPSuujpgYrAjMHZkY1Z9fP5dqhZK6ezySx4uYqZtAzM5vNrK_K8XEnV7CGwCOL1IwbdUVlXjOIt3cqhuKOqFlrjFS7D2Ag4GMJfY0OIg=w1379-h919-s-no-gm?authuser=0",
+        caption: "Le panneau central de cette composition présente une scène de naumachie ou de bataille navale miniature. Sur un fond bleu-gris évoquant une mer agitée, deux galères romaines (trirèmes) sont représentées au moment de l'engagement. On distingue nettement les rangées de rames et les superstructures des navires. L'artiste a utilisé des touches de blanc pour simuler l'écume et le reflet de l'eau, une prouesse technique compte tenu de la taille réduite de l'œuvre. Ce type de représentation célébrait souvent la puissance maritime de Rome ou rappelait des spectacles historiques donnés dans les amphithéâtres, ancrant la décoration intérieure dans l'actualité sociale et politique de l'époque.\n\nAu-dessus de cette scène navale, le décor s'enrichit d'un masque de théâtre et d'éléments de nature morte, posés sur une corniche en trompe-l'œil. Le masque, aux traits accentués et à la chevelure abondante, rappelle l'omniprésence du théâtre grec et latin dans la vie quotidienne des élites pompéiennes. L'encadrement est assuré par des colonnes dorées ornées de rinceaux végétaux et de guirlandes délicates, typiques du style \"fantastique\" de la période. Ces motifs décoratifs ne sont pas de simples ornements ; ils participent à une architecture feinte qui semble repousser les limites physiques des murs, offrant au spectateur une expérience immersive où le sacré, le mythologique et le quotidien s'entremêlent."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNYW5WJE2nGt4ikwSySeB4XlX3abKishq-iA30csnLY95Gt8BlpyNNUhkUHJDHGKHDDa5CfvXGRAbJ0qLLaZhD4u5DbvjJQmS2KSoa-gCXuZRMlo5Ps8CHPaQOc1KVQ8y9USm0hqvqDAGKpfVHH5lDOmA=w1379-h919-s-no-gm?authuser=0",
+        caption: "Cette salle de réception, l'une des plus célèbres de Pompéi, présente un décor emblématique du IVe style qui illustre la richesse et l'érudition des propriétaires. Les parois sont rythmées par d'immenses panneaux de rouge cinabre, une couleur extrêmement coûteuse à l'époque, séparés par de fines bandes noires richement ornées de motifs de candélabres dorés. L'ensemble crée un effet de théâtre où l'architecture peinte semble s'ouvrir sur des espaces imaginaires, tout en maintenant une structure rigoureuse propre aux demeures de l'élite pompéienne.\n\nLa caractéristique la plus originale de cette pièce réside dans sa frise continue située au-dessus de la plinthe noire. Elle met en scène des Amours (Cupidons) et des Psychés engagés dans diverses activités professionnelles et sociales de l'époque. On peut y observer ces petites figures ailées s'adonnant à la fabrication de l'huile, au commerce des fleurs, au travail de l'or ou encore à la préparation du vin. Cette transposition humoristique et raffinée du monde du travail dans l'univers mythologique est une célébration indirecte de la réussite économique des frères Vettii, dont la fortune reposait précisément sur le commerce.\n\nAu centre des panneaux rouges, des tableaux plus petits représentent des couples de divinités ou des scènes galantes, tandis que le registre supérieur simule des galeries ouvertes où apparaissent des figures isolées sur un fond blanc. Les détails décoratifs, comme les trépieds dorés et les brûle-parfums, sont exécutés avec un tel souci de réalisme qu'ils semblent sortir de la paroi. Cette accumulation de motifs précieux et de narrations légères transforme l'oecus en un espace de divertissement intellectuel, où chaque détail est une invitation à la conversation pour les convives des Vettii."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMP8L2ikwzceXe_ZRRS_eEh_DJTuvmJzO6oq3-NDeIvfRHmTl5zRFnK6jI_SAMGVc_ZfyqYhVIZ6K2U80PLATKvY4639IJSoK870EhM-4nnxvynsaXmaX88RtpU7lZ802TtbD70EW5SYezlmewPb_4D4g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOMrKPNXnI1gtyhLqJi9u5xXTdAK8LEBhJen9KVfi6hfg4n-45IUOwaVr5NK2UHJwA0li95NbZaUE5xr2SMHyYZ63vY48XPm3ygUi8-r9Z0fZV4HFCjS2DzLHXxgswf50c_xlwN5n8sB0BLqCs2ypxenQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "Cet oecus (salon), désigné sous le nom de Salle de Penthée, illustre la phase la plus évoluée du IVe style pompéien au sein de la Maison des Vettii. Contrairement aux tonalités rouges de la Salle d'Ixion, les murs sont ici dominés par un jaune ocre lumineux, créant une atmosphère chaleureuse et rayonnante. La structure décorative repose sur une division tripartite classique : une plinthe rouge bordeaux ornée de motifs floraux, une zone médiane jaune accueillant les grands tableaux mythologiques, et une zone supérieure simulant des ouvertures architecturales sur un fond blanc.\n\nLe panneau central représente le supplice de Penthée, roi de Thèbes, mis en pièces par les Bacchantes — parmi lesquelles sa propre mère, Agavé — pour s'être opposé au culte de Dionysos. La scène est d'une violence dramatique saisissante, caractéristique de l'intérêt des Vettii pour les récits de châtiments divins. Sur les parois latérales, d'autres tableaux complètent ce cycle tragique, notamment le supplice de Dircé attachée à un taureau sauvage par les fils d'Antiope. Ces œuvres sont insérées entre des édicules architecturaux qui abritent des fenêtres feintes, renforçant l'aspect théâtral de la pièce.\n\nL'illusionnisme atteint son apogée dans les panneaux latéraux simulant des vues sur des sanctuaires ou des intérieurs de palais. On y observe des plafonds à caissons en perspective et des objets rituels comme des trépieds dorés d'une grande finesse d'exécution. Comme dans les autres salles de la demeure, la piété et le prestige sont intimement liés : les motifs religieux et les scènes de châtiment rappellent la puissance des dieux, tandis que la qualité de la peinture et l'usage de pigments coûteux affichent la puissance financière de ces deux riches affranchis, Conviva et Restitutus."
+      }
+    ],
+    description: "Située dans la Regio VI (Insula 15) du parc archéologique de Pompéi, à proximité de la Porte du Vésuve, la Maison des Vettii (Casa dei Vettii) incarne le sommet absolu de la peinture murale romaine et de l'opulence privée du Ier siècle apr. J.-C. Mise au jour entre 1894 et 1895 et rouverte au public après une restauration magistrale, cette somptueuse résidence appartenait aux frères Aulus Vettius Conviva et Aulus Vettius Restitutus, deux anciens esclaves affranchis ayant bâti une fortune colossale grâce au commerce du vin et des produits agricoles. Désireux d'affirmer leur ascension sociale fulgurante au sein de l'aristocratie municipale, ils firent entièrement redécorer leur demeure après le séisme de 62 apr. J.-C. par les meilleurs ateliers picturaux de Campanie.\n\nDès le vestibule d'entrée accueillant le visiteur par la célèbre fresque apotropaïque de Priape pesant son attribut face à une bourse d'or, la demeure déploie autour de son vaste péristyle à colonnes doriques et de son jardin-viridarium orné de fontaines en marbre et bronze le répertoire le plus éblouissant du Quatrième Style pompéien. Ses grands salons de réception — la Salle des Amours célébrant les métiers artisanaux sur fond rouge cinabre, la Salle d'Ixion, la Salle de Penthée et l'atrium secondaire — conjuguent architectures illusionnistes vertigineuses, candélabres dorés et tableaux mythologiques dramatiques d'une virtuosité technique inégalée avant l'éruption de 79 apr. J.-C.",
+    visiter: "Rejoindre le secteur septentrional de Pompéi (Regio VI, Insula 15) pour franchir l'entrée de la Casa dei Vettii et admirer la fresque célèbre de Priape dans le vestibule. Les visiteurs contournent ensuite le grand péristyle orné de sculptures et de vasques pour contempler successivement les chefs-d'œuvre picturaux des grands salons du Quatrième Style — la Salle d'Ixion, la Salle de Penthée et la Salle des Amours — ainsi que l'atrium principal aux deux coffres-forts.",
+    link: ""
+  },
+   {
     id: "pompei_quadriportique_des_theatres",
     name: "Pompéi - Quadriportique des Théâtres & Caserne des Gladiateurs (Quadriportico dei Teatri - Regio VIII)",
     country: "Italie",
