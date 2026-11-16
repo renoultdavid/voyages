@@ -7,6 +7,126 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "edimbourg_dean_village_water_of_leith",
+    name: "Édimbourg - Dean Village & Sentier de la Water of Leith (Water of Leith Walkway)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "City of Edinburgh",
+    subdiv: "Édimbourg",
+    altitude: 38,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Ancien Village Meunier (XIIe-XIXe siècles), Architecture Écossaise en Grès & Vallée Boisée de la Water of Leith",
+    century: "XIXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 55.95183,
+    lng: -3.21807,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO9ccKsFT4tDNKxcgtUvtBB5YfD8r_V_ryAzBURy4JSMXHp6RE6fRCnYC-XrUtYV5Radyfvc2GHdAgPR7YpQAePSjilHZzhej-h479yVXlrREY1b3tqCicfYS5YIWM7dK0ZnQSsPEEBUjX87Og6TiNopA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPX6HjOPEwICfU3baQwxaxYmiXvADgXOlad52IMvZ3q36vAggmXR1cting4Z0qS9KJooAbZEaD2JbxXfRmUaaKk5cttJi944QFsUNDuHtmyEFGtq9YuVaFroNCwsjvqtsmHSyFQ4C6m5isEcZf84mE56A=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN-RseJRRJ5xFcge_IvWtHQ3iFWNdD_RiNa_pm57i-yvf6vQz4ExNOcXdSiBHPfMoZd_BICn1EdqXjaqZklcvK2bfcewohVqTQHLY4RfuF_xtG8M7HmSAJ-lompOD5g1u1hQrdsz9V67mFFvt_w1f-cUQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPu0Uwr2H_N54DkieZQA51edsgqwI2Td9PcMbxsUoZoN--ZhVveiBFX2OGpYYnV4Aly2m9BNQobjmneFr-JMRKBsV3aMXH6Qv91tfF5v47eeONLpJywlElI6usU3Hafx7smydaXw9Rl54MTrKkNJ-D0w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Niché au creux d'une gorge verdoyante et encaissée traversée par la rivière Water of Leith, à quelques minutes de marche seulement à l'ouest de Princes Street et de la New Town d'Édimbourg, Dean Village — autrefois appelé « Water of Leith Village » — constitue l'un des quartiers historiques les plus pittoresques et préservés d'Écosse. Fondé dès le XIIe siècle par les chanoines de l'abbaye royale de Holyrood, ce bourg autonome prospéra pendant plus de huit siècles grâce à la force hydraulique de ses rapides, abritant jusqu'à onze moulins à grains exploités par la puissante corporation des boulangers d'Édimbourg (Incorporation of Baxters).\n\nEnjambé à plus de trente mètres de hauteur par les quatre arches monumentales du Dean Bridge édifié en 1831 par l'ingénieur Thomas Telford, le village dévoile le long des berges pavées un ensemble architectural d'un charme saisissant : les anciennes demeures de meuniers aux pignons à redents (crow-stepped gables) coiffés d'ardoise écossaise et de tuiles rouges côtoient le spectaculaire Well Court, complexe résidentiel modèle en grès rouge de style Scottish Baronial bâti dans les années 1880 par John Findlay avec sa tour horloge conique et sa cour intérieure. Le sentier pédestre boisé de la Water of Leith Walkway serpente au fil de l'eau entre déversoirs, vieux ponts de pierre et frondaisons jusqu'au St Bernard's Well, temple néoclassique inspiré de Tivoli célébrant les vertus d'une source minérale.",
+    visiter: "Descendre les ruelles pavées depuis Queensferry Street ou le Dean Bridge jusqu'aux berges de la Water of Leith pour contempler les façades en grès et les pignons à redents de Well Court, puis suivre le sentier piétonnier boisé le long de la rivière en direction de Stockbridge et du pavillon néoclassique de St Bernard's Well.",
+    link: ""
+  },
+  {
+    id: "edimbourg_castle_viewing_point",
+    name: "Édimbourg - Belvédère sur le Château d'Édimbourg (Edinburgh Castle Viewing Point)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "City of Edinburgh",
+    subdiv: "Édimbourg",
+    altitude: 58,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Panorama Emblématique sur la Forteresse Royale Écossaise & le Piton Basaltique de Castle Rock",
+    century: "XIIe siècle",
+    category: "panorama",
+    counts: {},
+    lat: 55.95011,
+    lng: -3.20398,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOQxYIzangBOXevhgz8oCfEKQiJt-JsqBdvN_b6yKOvXe0dUWpAfg300dX0T05nuVwasT_dolhzPzxz1FQXhhO4NIxj2cK_jaatxQs52eCCZzriIVmbbBCmNewHNs19HGzuKppKRrJ3pdMUZ29xYS0mQw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMD0pOG8Yj1gsThH6d0wS1X7fazneFvFALCJHMe0ipltyHeNrgsawVC_xNjzrIWGKmPhlodV1e9O3EeG6opU6oHOqx8NBQ3CLCNyG2X7tXxXlZ2MuroKiKPVbvcm5N0aBCRExsMGBh0f-rMplvW3U_y4w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPmJp_t7yLZEIW6NxrrfZ0C4qr4jw_J4VBu3cRySD1B7d4q1cNwvGpLL-o8Z8Bd2s4ns90IBrYT5z-k85qq3QtllZyqpcaw1aLbkWZAWLgD-LDA5sEeOD22KCUYxwsRQJJgb0Lr9bLyCCyqbLZXfIfTHA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Aménagé en contrebas des escarpements occidentaux et septentrionaux de Castle Rock, à la jonction des jardins verdoyants de Princes Street Gardens et des abords de King's Stables Road, ce belvédère offre l'une des perspectives les plus spectaculaires et vertigineuses sur la silhouette héroïque du château d'Édimbourg. D'ici se révèle dans toute sa puissance géologique l'imposant piton volcanique de basalte noir, vestige d'un ancien volcan éteint vieux de trois cent cinquante millions d'années et sculpté par les glaciers quaternaires, dont les falaises quasi verticales culminent à cent trente mètres au-dessus de la vallée.\n\nCouronnant cette citadelle naturelle occupée depuis l'âge du fer, les courtines crénelées, bastions d'artillerie, casernes du XVIIIe siècle et bâtiments royaux de la forteresse se découpent sur le ciel changeant de l'Écosse. C'est dans cet ensemble monumental — qui abrite la chapelle Sainte-Marguerite du XIIe siècle (plus ancien édifice conservé d'Édimbourg), le Grand Hall médiéval, le Palais Royal où naquit Jacques VI d'Écosse et les Joyaux de la Couronne d'Écosse ainsi que la Pierre du Destin — que s'est forgée l'histoire séculaire du royaume d'Écosse au fil de nombreux sièges.",
+    visiter: "S'arrêter aux points de vue aménagés au pied des parois basaltiques de Castle Rock, depuis l'extrémité occidentale de Princes Street Gardens ou le belvédère de King's Stables Road, pour embrasser en contre-plongée les falaises volcaniques et les remparts fortifiés du château d'Édimbourg.",
+    link: ""
+  },
+  {
+    id: "edimbourg_national_gallery_of_scotland",
+    name: "Édimbourg - Galerie Nationale d'Écosse (Scottish National Gallery - The Mound)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "City of Edinburgh",
+    subdiv: "Édimbourg",
+    altitude: 70,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Patrimoine Mondial UNESCO (1995), Temple Néoclassique de W. H. Playfair (1859) & Chefs-d'Œuvre de la Peinture Européenne",
+    century: "XIXe siècle",
+    category: "musee",
+    unesco: true,
+    counts: { musee: 1, unesco: 1 },
+    lat: 55.95084,
+    lng: -3.19566,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP9PPZ8GAP8KWq4bqZOYGXb7Sh_DZl0GMY__NxgVRnecXn_AIneCSd2nfwytx-meFlWWTQ_yHMtih9hyB87ioQRN8CaWIvEmDW35sI5jLiZs6ZrQkRMb8wKsRohz-nGlSbu6DUhWw67xrVtsGPt5toYaA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMGnimykaK7wVpWBx057JrYYdMKL-HlnGVMoGJavlpd5oREbctKQpH7xR7LHFptHjmJdq9jDhvacbZNhyZukdWtb8GskXm-CpSd_oxhZo7cGKKmYxOP0T1WzBUVbjZ0iDv1-Emrqh9wszV70lBn0mXNuw=w1114-h919-s-no-gm?authuser=0",
+        caption: "1889 Van Gogh Vincent - Oliviers Édimbourg"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOsmtG3I6iPyfXkgTt-9nHdtw5_IQLrPHniRvVv8NmoyBs_jpOkAOdczPoRMH5JD4iDlp6pOUot-Ct7azS10np0Cnx3i7aueH0-9VnFYzbX3ClY3WIs2uwDThnP2sd2XiSP6l8LXYb9A-fA8_ZAywgPfw=w1165-h919-s-no-gm?authuser=0",
+        caption: "1899 Gauguin Paul - Trois tahitiens, ou Conversation - Édimbourg"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO6VTzCvMrM6r-PynH4fA7NwNq46cSwJVG0HFSMdEF5LgeSkKE9OlgEp1BtRdqi8N_UArP9ZXfHNqEZ1kCFw4IYKqtLMRus_eM7t2BRl5VvRTmf8IcBzKWa4lRmxZQY_MVOSfLKCD07qmIJ7EQBLIakUw=w933-h919-s-no-gm?authuser=0",
+        caption: "1900 Monet Claude - Peupliers sur l’Epte - Édimbourg"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP611EMQnf2vTIDoIs_NJSuosnHyPmJdyrvz2PDcszl2BTUNBZUs9UZb7DoFwW-B1_KBmAdmOf_CM75oItQlwSU8mnUaADkxevtmHm33akLj4BdQOxCju2_QKyRkYUetFT8K7WtxoPpgMn9qQntT5OjCw=w1177-h919-s-no-gm?authuser=0",
+        caption: "1506 Raphael Ste Famille avec palmier Édimbourg"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOwEICgJXQOIOljp9S5e-xjE6kXQGEQY_lnmiK6vBhM7ZZdxWyPAeXnd5t7Y0yu89l1Hvc3lAVZlbe0cLULg5icUudZg7gCHnptnzbdz1WDxG5ETswfBlLZG_t55i6JjnU0hlUmW90uBgATt5DEeIlBpg=w725-h919-s-no-gm?authuser=0",
+        caption: "1501 Vinci Leonard - Madone aux fuseaux Édimbourg"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczObA8mpMp9eVE_sNLlJnlW-HsexHd-9NN9CGGiLjCwTKqOjrYo9l6IDbWyPjBuOUo7K9-fVHQyjqPWPtbc7php_8EQf6ik11mLF2tAwGRMq3lAHGWbGDMckbhwlH94LsUh-1ItXRdKdlbd6TyCN2leybw=w613-h919-s-no-gm?authuser=0",
+        caption: "1485 Botticelli Sandro - adoration enfant endormi - Édimbourg"
+      }
+    ],
+    description: "Dressée en majesté sur The Mound au cœur des Princes Street Gardens, à la charnière symbolique entre la Old Town médiévale et la New Town géorgienne d'Édimbourg — ensemble urbain inscrit au Patrimoine mondial de l'UNESCO depuis 1995 —, la Scottish National Gallery incarne l'apogée de l'architecture néoclassique qui valut à la capitale écossaise le surnom d'« Athènes du Nord ». Dessiné par l'architecte William Henry Playfair et inauguré en 1859, ce temple monumental de pierre claire aux portiques ioniques élégants abrite la prestigieuse collection nationale des beaux-arts d'Écosse, couvrant l'histoire de la peinture et de la sculpture occidentales de la Renaissance au début du XXe siècle.\n\nDans ses vastes salles octogonales et en enfilade aux murs tendus de damas rouge profond éclairés par des verrières zénithales se côtoient des chefs-d'œuvre absolus de l'art européen : la Renaissance italienne brille à travers la délicate Madone aux fuseaux de Léonard de Vinci (v. 1501), La Sainte Famille au palmier de Raphaël (1506), La Vierge adorant l'Enfant Jésus endormi de Sandro Botticelli (v. 1485) et les grands cycles mythologiques du Titien, tandis que les maîtres flamands, hollandais, espagnols et français dialoguent avec les sommets de l'impressionnisme et du post-impressionnisme représentés par Les Peupliers sur l'Epte de Claude Monet, Les Oliviers de Vincent van Gogh (1889) et Les Trois Tahitiens de Paul Gauguin (1899), aux côtés de la grande école écossaise menée par Henry Raeburn et Allan Ramsay.",
+    visiter: "Gravir les degrés du portique ionique de la Scottish National Gallery sur The Mound au centre d'Édimbourg pour parcourir gratuitement ses salles lumineuses, des retables de la Renaissance italienne (Léonard de Vinci, Raphaël, Botticelli) jusqu'aux toiles impressionnistes et post-impressionnistes (Monet, Van Gogh, Gauguin) et aux galeries souterraines dédiées à l'art écossais.",
+    link: ""
+  },
+   {
     id: "solesmes_eglise_paroissiale_notre_dame",
     name: "Solesmes - Église Paroissiale Notre-Dame",
     country: "France",
