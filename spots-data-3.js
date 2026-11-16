@@ -7,6 +7,84 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "solesmes_eglise_paroissiale_notre_dame",
+    name: "Solesmes - Église Paroissiale Notre-Dame",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Solesmes",
+    altitude: 43,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Sanctuaire Paroissial d'Origine Médiévale & Néogothique, Nef Voûtée d'Ogives & Vitraux du Chœur",
+    century: "XIXe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.85161,
+    lng: -0.30316,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPhDKmnh21KMTJxPE_teIRiVcTTSf-pWmYmdqS-kWYabMrkIqjMKZCIdR-OGVhQ_jTzBt6hPlhEvaJr4KYXb5aLXYPLu_QG3LKxnTo9EdYuwGnjl2g5ROD_rWpkGZRPF-LnZwtKfMfFz3kaqW7KBfocGQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMDkvGzRtvhr5zPq63Hn3taFg8_nv3ab3OPuhc1U4hZZq9e7yOKH2XCGJfAv5fF6TEbd5JrL6YJQXBrsb6YLzoCI36YV9oRJEEmL030rhxZK46D_Bf-jkkyGcALtPptHIVVCEtIkX5I7SRn_fXgr9HJZg=w1379-h919-s-no-gm?authuser=0",
+        caption: "Contrairement à l'architecture boisée de Juillé, cet édifice privilégie la pierre et la voûte maçonnée, offrant une perspective de nef élégante et lumineuse. Bien que moins monumentale que l'abbatiale voisine, elle n'en demeure pas moins un témoin essentiel de la piété locale et de l'architecture religieuse sarthoise.\n\nLa nef se distingue par son système de voûtement en croisée d'ogives, dont les nervures retombent sur des chapiteaux sculptés de motifs végétaux. Cette structure, typique de l'architecture gothique, permet de dégager de larges pans de murs où s'insèrent des fenêtres hautes en plein cintre. La blancheur de l'enduit et la finesse des arcs créent une sensation de clarté et de légèreté. La nef unique dirige le regard sans interruption vers le chœur, soulignant une recherche de verticalité et de pureté des lignes qui contraste avec la chaleur des charpentes en bois de la région.\n\nLe chœur de l'église, plus étroit que la nef, se termine par une abside percée d'une baie axiale ornée de vitraux aux tons bleutés. Cette source lumineuse crée un point de convergence mystique au bout de l'allée centrale. Le mobilier du sanctuaire reste d'une grande sobriété, avec un autel simple qui laisse toute la place à la lecture architecturale du bâtiment. On remarque également la présence d'un arc triomphal marqué, séparant l'espace des fidèles de l'espace sacré, une disposition classique qui structure le rythme de la progression vers l'autel.\n\nLe long des murs latéraux, la décoration est volontairement discrète pour ne pas rompre l'unité de la nef. On y trouve un Chemin de Croix composé de petits tableaux encadrés, ainsi que des statues de saints disposées sur des consoles sculptées. Un détail remarquable est le vestige de litre funéraire ou de décor peint encore visible par endroits sur le mur gauche, rappelant l'histoire ancienne de la paroisse. Le sol est dallé de pierres claires avec une bande centrale plus sombre, renforçant l'effet de perspective qui caractérise cette nef harmonieuse."
+      }
+    ],
+    description: "Érigée au cœur du bourg ancien de Solesmes sur le coteau dominant la vallée de la Sarthe, à quelques dizaines de mètres seulement des hautes murailles de la célèbre abbaye bénédictine Saint-Pierre, l'église paroissiale Notre-Dame incarne la mémoire spirituelle des habitants du village face à l'illustre sanctuaire monastique voisin. Fondée dès le Moyen Âge afin d'assurer le service pastoral des fidèles laïcs de la paroisse — distincts de la communauté des moines —, l'église a connu d'importantes campagnes de restauration et de reconstruction au cours du XIXe siècle, dans le sillage du renouveau religieux et architectural qui transforma profondément la cité sarthoise sous l'impulsion de Dom Prosper Guéranger.\n\nConstruit en pierre calcaire claire du Maine et coiffé d'ardoise, l'édifice séduit par l'équilibre harmonieux de ses proportions et la pureté lumineuse de son espace intérieur. Sa nef unique voûtée en croisée d'ogives reposant sur des chapiteaux à feuillages conduit le regard sans obstacle à travers un arc triomphal marqué vers un chœur plus étroit, éclairé par une baie axiale aux vitraux bleutés. La sobriété du mobilier liturgique, la clarté des enduits blanchis à la chaux, les vestiges d'anciennes litres funéraires peintes et le dallage bicolore confèrent à ce sanctuaire une atmosphère recueillie d'une grande élégance.",
+    visiter: "Rejoindre la place centrale du bourg de Solesmes à proximité immédiate de l'abbaye Saint-Pierre pour observer la façade en pierre calcaire de l'église paroissiale Notre-Dame, puis pénétrer dans sa nef lumineuse voûtée d'ogives afin d'admirer la perspective vers le chœur, les vitraux bleutés de l'abside et les traces d'anciennes peintures murales.",
+    link: ""
+  },
+  {
+    id: "solesmes_abbaye_saint_pierre",
+    name: "Solesmes - Abbaye Bénédictine Saint-Pierre de Solesmes",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Solesmes",
+    altitude: 43,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Abbaye Bénédictine (XIe-XIXe siècles), Chefs-d'Œuvre Sculptés des « Saints de Solesmes » & Chant Grégorien",
+    century: "XVIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.85200,
+    lng: -0.30337,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN_LwPUGuRY6zSJ8TwYP33F6azl5mzQ71PL5gFprjPMuubiMxnl8T4wkpe1p9n3xI6A4tTGO-ymT7kRLyT0e3i6rbpNiC_e5pJwf7mxdjRxFBU0hWKFqaWdwFOTNG1Gd2Sjo_m67WjnNvI1fjcHBg6u-Q=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMu1L-SWWdTvKyqhlG0EfAONOBjDNTCt1VKXt0jNQgzPz5rikEgZctUaBSYe0cI3OCTlYkNfoTyF4xEukyXU1VyxE1OS4b60vQFLNCMSqMc819UVTcMrs2vUYTc1KYEvfSdWArDNpJwUIBzuW-O0efsHA=w1379-h919-s-no-gm?authuser=0",
+        caption: "La nef, telle qu'elle se présente aujourd'hui, est le fruit d'une histoire complexe débutant au XIe siècle par un modeste prieuré, avant de connaître des transformations majeures à la fin du Moyen Âge, puis une restauration profonde au XIXe siècle sous l'impulsion de Dom Guéranger. Cet espace se caractérise par une nef unique, vaste et lumineuse, conçue pour porter la voix des moines et favoriser une liturgie contemplative.\n\nLa nef de l'abbatiale se distingue par ses voûtes d'ogives à liernes et tiercerons, caractéristiques du gothique flamboyant et de la Renaissance. Contrairement aux voûtes plus simples de l'église paroissiale, celles-ci présentent des nervures supplémentaires qui dessinent des motifs étoilés au plafond, augmentant la complexité visuelle et la résistance de la structure. Les clés de voûte sont souvent ornées de blasons ou de symboles religieux sculptés et polychromes. Les murs latéraux, massifs, soutiennent ces voûtes sans l'aide de bas-côtés, créant un volume intérieur unitaire et imposant qui favorise une réverbération acoustique exceptionnelle, idéale pour le chant monastique."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczORf_w8bDjlMmufolYZsperWdsl8I2Iw1gZorKH_B44hBAqDEYqDNlKGMGaeqr_MwtZRdu4KDohC5MM5_iqCwre8PFtbAOl0P0mS1KBsCorvOKUQXvImODFx6YAbd7LPuNIDgnJBISDSA9DfwAClG3mJQ=w613-h919-s-no-gm?authuser=0",
+        caption: "Située dans le bras nord du transept, la chapelle de la Dormition (ou de la Vierge) abrite l'un des ensembles sculptés les plus spectaculaires de la Renaissance française. Daté de la fin du XVe et du milieu du XVIe siècle, ce monument de pierre se déploie comme une véritable scène de théâtre sacré. Il illustre le moment où la Vierge Marie s'éteint entourée des apôtres, avant son Assomption. L'œuvre frappe par la densité de sa composition, le réalisme des expressions et la virtuosité des détails architecturaux qui encadrent les figures.\n\nLe monument s'organise sur deux registres superposés, intégrés dans une structure architecturale complexe de style Renaissance. Le registre inférieur est percé d'une large arcade centrale où repose la Vierge sur son lit de mort. Autour de cette ouverture, des pilastres richement ornés de candélabres, de rinceaux et de figures d'anges soutiennent un entablement massif. Au-dessus, le registre supérieur présente plusieurs niches abritant des scènes complémentaires, le tout couronné par des pinacles et des dais finement ciselés qui rejoignent les nervures des voûtes. Cette structure crée une profondeur de champ qui attire le regard vers le cœur de l'action dramatique.\n\nLa scène principale, située dans l'alcôve inférieure, montre la Vierge Marie allongée, les mains jointes, dans une attitude de paix absolue. Elle est entourée des douze apôtres dont les visages et les gestes expriment une palette d'émotions allant de la douleur recueillie à la stupeur mystique. Les drapés des vêtements sont sculptés avec une fluidité remarquable, donnant une impression de mouvement et de vie à la pierre. On remarque particulièrement la figure de Saint Pierre, souvent représenté en train de lire les prières des défunts, et les détails minutieux des accessoires liturgiques de l'époque, qui font de cette œuvre un document historique précieux sur les rites funéraires.\n\nAu-dessus de la Dormition, le programme iconographique se poursuit avec le couronnement de la Vierge. Cette partie supérieure, réalisée un peu plus tard (vers 1530-1550), témoigne d'une influence italienne plus marquée. On y voit la Vierge s'élevant vers les cieux, accueillie par la Sainte Trinité sous un dais majestueux. Des bustes de prophètes et de sibylles, logés dans des médaillons ou des niches secondaires, complètent l'ensemble en inscrivant l'événement dans la continuité de l'histoire du Salut. La polychromie originelle, bien que partiellement disparue, laisse encore deviner la splendeur passée de ce livre de pierre."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNPxUGKZtMwmw07E9DyeNz7HVS5gn8RHN_qtjYrsIvc41m1MEDGbOFCZYdUvKXsU_wLve8WespRDLedwBJuYezgzOrH4Wg6SXoJT4g37tJm68XLHJDzq3-10D5Iuv7H3QaOlDMeRJ4nRTUL_0Pj-C9AqA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOCuuCk769Jo3vD97Yd6XHGUt1Kgbh20G9Ooiz5pbHPf5JuV5ClU9tmun63CRrT-9CT0TXAtXd1VTSiAF4WET5Lh9gfMaQh2JbLS9qL6W7yXvxy35GrtUpPnXXaFmgHCWWUm2WwCL0L5lwIBu7S0aXKsQ=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMhcX8a6-cd1B8aA6ZxUIeWLsVdfQB1KRYRkY6PjUBqasgVlFsNV3YAHZL_3gnHORsep-gxu_R30Ls3C-nPOfDvWT8mx-o7_GA_1hD56AwpwQVzwy6lvQRV0RL_jV-6V9pNv5qSOT_Gd_6lw6ThjvQOKQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOzbbKFPOKcdZSKfv7Kad6mAQozhZ3BLAiiVZavHiXkxXXFWdMVGNSiD4Bf9EMJaV7INmuUVEaCXJxjDi4haZaTlwmdCY9ph-vp4KBgDU2VLphK6DSVLvZKSkh7Tqttw4HxIOZm6ZkxEe0a-IxzPkLe7w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressant ses puissantes murailles crénelées et ses hauts contreforts de pierre claire tels une citadelle spirituelle au-dessus du cours paisible de la Sarthe, l'abbaye Saint-Pierre de Solesmes constitue l'un des hauts lieux les plus illustres du monachisme bénédictin européen et de la sculpture de la Renaissance française. Fondé en 1010 comme simple prieuré dépendant de l'abbaye de la Couture du Mans par le seigneur Geoffroy de Sablé, l'établissement connut un destin historique exceptionnel lorsqu'il fut racheté et restauré en 1833 par Dom Prosper Guéranger, devenant le berceau de la renaissance de l'ordre bénédictin en France et le foyer mondial de la restauration scientifique et liturgique du chant grégorien.\n\nÀ l'intérieur de l'église abbatiale, dont la vaste nef unique voûtée d'ogives à liernes et tiercerons offre une acoustique remarquable pour les offices chantés par la communauté, les deux bras du transept abritent les célèbres groupes sculptés des « Saints de Solesmes », chefs-d'œuvre absolus de la statuaire française exécutés entre 1496 et le milieu du XVIe siècle. Dans le croisillon sud se déploie la saisissante Mise au Tombeau de 1496, attribuée à l'atelier de Michel Colombe et remarquable par le pathétisme sobre de ses personnages grandeur nature, tandis que le croisillon nord dévoile le monumental retable de la Dormition et du Couronnement de la Vierge (1530-1553), véritable théâtre de pierre en tuffeau sculpté mariant l'élégance ornementale de la Première Renaissance française aux influences italianisantes.",
+    visiter: "Contempler depuis le pont et les berges de la Sarthe l'imposante silhouette fortifiée des bâtiments conventuels de l'abbaye Saint-Pierre surplombant la rivière, puis pénétrer dans l'église abbatiale pour admirer sa nef voûtée d'ogives étoilées et les deux ensembles sculptés monumentaux des Saints de Solesmes dans le transept.",
+    link: ""
+  },
+   {
     id: "asnieres_sur_vegre_le_vieux_pont",
     name: "Asnières-sur-Vègre - Le Vieux Pont Médiéval sur la Vègre",
     country: "France",
