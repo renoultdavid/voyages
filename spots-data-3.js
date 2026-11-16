@@ -7,6 +7,35 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "castellammare_di_stabia_chiesa_santa_croce_via_salario",
+    name: "Castellammare di Stabia - Église Santa Croce / Santissimo Crocifisso (Via Salario)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Campanie",
+    department: "Province de Naples",
+    subdiv: "Castellammare di Stabia",
+    altitude: 56,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Sanctuaire du Baroque Tardif Napolitain (XVIIIe siècle), Nef Unique à Stucs & Maître-Autel en Marbres Polychromes",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 40.69361,
+    lng: 14.48271,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOd3OWASBTzk7KR7IQV7b5vhvE5cwHBNFnCZS1o1eJIlbnNdFCLj0Rc68bKN-VRKV4ok7wmnILLNTW4S1kPZPQMx87bpQTrWnRMLU_CpRlRgZk39-u2QJhl_xZ4CFQcXuQ0kSH7c2B-noICvI0I5WvBpg=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOguX7mxymfnGywnxuldqzpmEX7VrPMEr5iAlUPIORnod1yp4p1Hb55WeLwoCiNnz35RqFxtU1tCgY1Zg167QdTp3IvrMgXNFqhdz_7AZDvuKOQNhqUUjE_7iMj0_s-H2ZSxRdiZ3KXwnPlJdJTkfB9Fw=w1379-h919-s-no-gm?authuser=0",
+        caption: "La Chiesa del Santissimo Crocifisso, située le long de l'ancienne via Salario à Castellammare di Stabia, représente un jalon significatif de l'architecture religieuse de la zone stabienne. L'édifice, dont les origines remontent au XVIIIe siècle, témoigne d'une transition stylistique où la rigueur structurelle rencontre l'élégance ornementale du baroque tardif napolitain. Cette nef unique, que l'on découvre ici, a été conçue pour offrir un espace de recueillement à la fois intime et monumental, servant historiquement de point de repère spirituel pour les voyageurs et les habitants du quartier côtier.\n\nL'organisation spatiale de la nef repose sur un rythme cadencé de pilastres composites massifs qui soutiennent des arcs en plein cintre. Ces éléments structurels, peints dans des tons crème et blanc cassé, contrastent avec la délicatesse des surfaces murales d'un vert amande apaisant. L'architecture est caractérisée par une voûte en berceau segmentée par des arcs-doubleaux, dont les compartiments sont ornés de motifs géométriques et de rosaces stylisées en stuc. L'ensemble dégage une harmonie chromatique et une luminosité qui soulignent la verticalité de l'édifice tout en préservant une atmosphère de sérénité.\n\nL'élément focal de cette perspective est le maître-autel, une pièce magistrale de marbres polychromes typique de la tradition artisanale de la Campanie. Derrière l'autel s'élève un imposant retable en bois sculpté et doré qui encadre une toile représentant probablement le Christ Crucifié, titulaire de l'église. La lumière naturelle pénètre dans le chœur par une fenêtre polylobée située en hauteur, créant un effet dramatique qui attire l'œil vers le sacré. Les luminaires en cristal suspendus, ainsi que la chaire en bois sombre sculpté visible à gauche, ajoutent une dimension domestique et chaleureuse à la grandeur de l'espace liturgique.\n\nSur les côtés de la nef, des niches et des confessionnaux en bois s'intègrent discrètement entre les pilastres, respectant la symétrie de la conception originale. Le mobilier liturgique, notamment les bancs de prière et le petit orgue de tribune, complète cet inventaire d'un lieu qui a su préserver son authenticité malgré les aléas du temps et les restaurations successives. Cette église demeure aujourd'hui un témoignage précieux de la piété populaire stabienne et de l'habileté des maîtres d'œuvre qui ont su transformer la via Salario en un itinéraire de beauté architecturale."
+      }
+    ],
+    description: "Édifiée sur les premières pentes dominant le centre historique et le littoral de Castellammare di Stabia, le long du tracé ancien de la Via Salario, l'église Santa Croce — également connue sous le vocable du Santissimo Crocifisso — constitue un témoignage attachant de l'architecture sacrée du XVIIIe siècle en Campanie. Implantée à cinquante-six mètres d'altitude sur cet axe historique reliant le quartier portuaire aux hauteurs du mont Faito, elle incarnait autrefois une halte spirituelle privilégiée pour les habitants des quartiers hauts et les voyageurs empruntant les voies de la péninsule sorrentine.\n\nDerrière sa façade sobre caractéristique des églises de quartier du royaume de Naples s'ouvre une nef unique harmonieuse illustrant la transition entre le baroque tardif napolitain et le premier néoclassicisme. Rythmée par des pilastres composites clairs encadrant des parois d'un délicat vert amande et coiffée d'une voûte en berceau à arcs-doubleaux ornés de stucs géométriques, la perspective converge vers un remarquable maître-autel en marbres polychromes marquetés surmonté d'un retable en bois sculpté et doré consacré au Christ Crucifié.",
+    visiter: "Gravir les ruelles anciennes de la Via Salario depuis le centre historique de Castellammare di Stabia jusqu'à l'église Santa Croce pour pénétrer dans sa nef unique lumineuse. Les visiteurs admirent l'harmonie chromatique des stucs blancs et des murs vert amande, la chaire en bois sculpté ainsi que le maître-autel campanien en marbres polychromes dominé par le retable doré du chœur.",
+    link: ""
+  },
+   {
     id: "pompei_villa_de_diomede",
     name: "Pompéi - Villa de Diomède (Villa di Diomede - Via dei Sepolcri)",
     country: "Italie",
