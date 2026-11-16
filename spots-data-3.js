@@ -7,6 +7,97 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "la_roche_bernard_centre_historique_village",
+    name: "La Roche-Bernard - Cité Historique, Place du Bouffay & Vieilles Ruelles",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "La Roche-Bernard",
+    altitude: 25,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Petite Cité de Caractère (Xe-XVIIe siècles), Demeures d'Armateurs en Granite & Bastion Protestant",
+    century: "XVIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 47.51833,
+    lng: -2.30282,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNI1cR0z3UGJjA1S7n0BW_nrT7I1XJ3KFWlOHS_aySKC8aNODC8NlRnoRX0JodqS2Q8FJyERz3KEnPojwjNWl8FOhOg3vSZ7fNLRvIJZ5dhd2_0OGBQSw7tEiCx172vwqbSYUYbZeTOLmUNJ2Hd5Pnrpg=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOloHSn-STOtCbOTZFAyoboQbTVySfXgCBP4fbd5AffqwufHRwBlJuSwl-QmNpRflZWqs2HWctp8IShbXTYwDtiBjv46JXADsLvCz-SLAuWmHwDK-ABwyyyD-47e9W7YDyVeBqfjVZrddA0SV1v9_GkgA=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Campée sur un escarpement rocheux abrupt dominant les méandres encaissés de la Vilaine à la frontière méridionale de la Bretagne historique, la cité de La Roche-Bernard doit sa fondation vers l'an 919 au chef viking Bernhart qui choisit ce site défensif naturel comme base stratégique sur l'estuaire. Érigée en baronnie puissante au Moyen Âge puis devenue aux XVIe et XVIIe siècles l'un des principaux foyers du protestantisme breton sous l'impulsion des seigneurs de Coligny et d'Andelot, cette Petite Cité de Caractère a conservé un patrimoine urbain et architectural d'une remarquable authenticité, témoignant de sa double vocation de place forte fluviale et de port marchand prospère.\n\nSes ruelles escarpées et pavées — telles la rue Saint-James, la rue de la Saulnerie ou les venelles plongeant vers le Vieux-Port — s'articulent autour de la pittoresque place du Bouffay et dévoilent une succession harmonieuse de demeures d'armateurs et de négociants des XVIe et XVIIe siècles. Bâties en pierre de taille de granite gris et doré ou en pans de bois encorbellés, ces maisons historiques — parmi lesquelles la célèbre Maison du Canon, l'hôtel de ville installé dans un ancien hôtel particulier ou encore l'église Saint-Michel — arborent lucarnes sculptées, linteaux moulurés et enseignes d'artisans d'art perpétuant aujourd'hui la tradition maritime et créative de la cité.",
+    visiter: "Déambuler depuis la place du Bouffay à travers les ruelles pavées de la vieille ville de La Roche-Bernard pour admirer les façades en granite et à pans de bois des XVIe et XVIIe siècles, notamment la Maison du Canon, avant de rejoindre les venelles en escalier descendant vers les quais de la Vilaine.",
+    link: ""
+  },
+  {
+    id: "le_bono_tumulus_et_dolmen_de_kernours",
+    name: "Le Bono - Tumulus & Dolmen Gravé de Kernours (Rivière du Sal)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Le Bono",
+    altitude: 23,
+    transport: "a_pied",
+    era_group: "prehistoire",
+    era_label: "Dolmen à Couloir & Chambres Latérales du Néolithique Moyen (IVe Millénaire av. J.-C.), Orthostates Gravés",
+    century: "IVe millénaire av. J.-C.",
+    category: "archeologie",
+    counts: { archeologie: 1 },
+    lat: 47.63467,
+    lng: -2.95698,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOHPIjDOl18b-yoT_SIlTuF9xnZqdKcf9ijJpw4liAkWeXCsq4P8XbJGe5FSooxMvmMFuni04PoFPxedu-L7BBcG_pv-2xssWfS0SVmmHTciGslVufgcH8R4XeQbHV4w0SkGmBqjFTbKySb3JFn_n7abg=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMWuCok9uOiMolpFvjlGgvFO1mTLx0W27gEY-k2GPMPuLViN_pcbXOWzk246k5jQ4mGAId2JfPDGESA_wEGVIroMWTbxkLVww-7A3tKNDZe2CavoBZqDAuWXU617sB61fSK_t9H8RG0C3ieHQgWkYIRbA=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dissimulé sous un couvert boisé paisible dominant la ria sinueuse du Sal sur la commune du Bono, à quelques kilomètres au nord du golfe du Morbihan, le tumulus de Kernours abrite l'un des monuments mégalithiques les plus remarquables et singuliers de l'architecture funéraire néolithique armoricaine. Édifié au cours du IVe millénaire av. J.-C. (vers 3500-3000 av. J.-C.) et exploré scientifiquement dès 1866 par la Société polymathique du Morbihan, cet imposant tertre circulaire de terre et de pierres recouvre un vaste dolmen à couloir en pierre sèche et dalles de granite s'ouvrant vers le sud-est et donnant accès à une chambre funéraire subdivisée en cellules latérales.\n\nL'intérêt exceptionnel de ce sanctuaire préhistorique réside dans l'extraordinaire qualité de son art pariétal gravé : plusieurs orthostates en granite de la chambre interne portent en effet des reliefs finement piquetés représentant des figures emblématiques du panthéon néolithique atlantique, notamment le célèbre motif en écusson (scutiforme) rayonnant de franges et de boucles souvent interprété comme la stylisation d'une divinité tutélaire ou d'un poulpe sacré. Ces gravures symboliques, miraculeusement préservées à l'abri des intempéries sous la masse protectrice du cairn, témoignent de la haute sophistication spirituelle des sociétés mégalithiques du littoral morbihannais.",
+    visiter: "Suivre le sentier pédestre ombragé près du hameau de Kernours au Bono jusqu'au tertre boisé pour observer l'entrée du couloir mégalithique en granite et distinguer, à la lumière rasante d'une lampe, les célèbres gravures en écusson ornant les piliers de la chambre funéraire.",
+    link: ""
+  },
+  {
+    id: "locmariaquer_dolmen_du_mane_lud",
+    name: "Locmariaquer - Tumulus & Dolmen Gravé du Mané Lud",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Locmariaquer",
+    altitude: 18,
+    transport: "a_pied",
+    era_group: "prehistoire",
+    era_label: "Grand Tertre Funéraire Néolithique (Ve-IVe Millénaires av. J.-C.), Dalle Géante & Sanctuaire Gravé",
+    century: "Ve millénaire av. J.-C.",
+    category: "archeologie",
+    counts: { archeologie: 1 },
+    lat: 47.57384,
+    lng: -2.95127,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO622Lu02YCK1ymPjk1YkgQ5Mq_U3V5Av1Mm4YBIPJj9EVcWncqrV1EjYyLD0xiM5KZtK4El3DrYw37z8nAgafISVcYdHF9BEkDIWAHIK7yQwCCoAbDIF-lAf-JiRc2tYEqANmKPNGfBvXBXdAQ_n3Tqw=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO58viE6FOe4t6DKP6pZNfTQAgjksqDati77gBtxt_-WM1s3STGRLGEqiV-ux1y75U4XPq6XIWXvjniPJBq-tUaEeKpsAc3sklZYoK5lVW9HeKc55qVQmvdKS6cQ9b1vPvMtDEo3YoyS87-AlFo5R2Ohg=w1367-h911-s-no-gm?authuser=0",
+        caption: "Le monument que l'on découvre en pénétrant sous le tumulus est un dolmen à couloir classique mais de vastes dimensions. La chambre funéraire est de forme sub-rectangulaire, constituée de dalles de granit massives enfoncées verticalement. L'élément le plus spectaculaire est sa dalle de couverture monumentale, d'une seule pièce, qui pèse plusieurs dizaines de tonnes. Ce travail architectural démontre une maîtrise exceptionnelle de la manipulation des masses par les bâtisseurs néolithiques, créant un espace intérieur pérenne destiné à protéger les ossements et les offrandes des ancêtres."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOD96067EA525R7o3FG3064nX_gkYGyIMCux0PUizkY2E1NEgbHh0FSblvilHxtITFjt-DE_YRGwus3IEgzVzppS_D9WQm9DOI4IZ6YlXfplP-om8Wr0qPXl0EbGttBXSpV2G8PJl2j1F6flh-LcpE1zg=w1367-h911-s-no-gm?authuser=0",
+        caption: "Ce qui place le Mané Lud parmi les sites d'exception, c'est l'incroyable richesse de ses gravures intérieures. Presque tous les piliers de la chambre sont ornés de motifs symboliques. On y observe des représentations mystérieuses souvent interprétées comme des \"signes en écusson\" (représentant peut-être une divinité tutélaire), des crosses, ainsi que des motifs de haches emmanchées. Le pilier du fond présente une composition particulièrement célèbre évoquant des oiseaux ou des embarcations, soulignant le lien étroit entre les croyances spirituelles de l'époque et l'environnement maritime du golfe du Morbihan.\n\nLe Mané Lud n'était pas seulement une tombe, mais un véritable centre de pouvoir. Les fouilles du XIXe siècle ont révélé, sous le reste du tertre, d'autres structures funéraires, dont un coffre contenant des ossements de chevaux, fait rarissime pour l'époque. La présence de ces gravures complexes et la taille du tumulus suggèrent que ce lieu était réservé à une élite sociale ou religieuse. En tant que composante du grand ensemble mégalithique de Locmariaquer (avec le Grand Menhir Brisé et la Table des Marchands), il témoigne de l'apogée d'une civilisation qui a marqué la pierre pour l'éternité."
+      }
+    ],
+    description: "Élevé à l'entrée du bourg de Locmariaquer entre le golfe du Morbihan et la baie de Quiberon, à proximité immédiate du Grand Menhir Brisé et de la Table des Marchands, le tumulus du Mané Lud (« la montagne des cendres » en breton) constitue l'un des complexes funéraires néolithiques les plus monumentaux et complexes d'Europe occidentale. Édifié au cours des Ve et IVe millénaires av. J.-C., cet immense tertre allongé de près de quatre-vingts mètres de longueur sur cinquante mètres de largeur recouvrait à l'origine un alignement de petits menhirs, un coffre central renfermant des ossements de chevaux et, à son extrémité occidentale, un spectaculaire dolmen à couloir couvert d'une dalle monolithe de granite pesant plusieurs dizaines de tonnes.\n\nLa célébrité internationale du Mané Lud tient à la densité extraordinaire de son corpus de gravures mégalithiques, qui fait de sa chambre funéraire un véritable livre de pierre de la spiritualité néolithique armoricaine. Sur les orthostates en granite ainsi que sur la face inférieure de la table de couverture (réemploi d'une ancienne stèle gravée d'une hache-charrue), se déploient avec une netteté saisissante des signes en écusson (idoles néolithiques), des crosses pastorales, des haches emmanchées et d'énigmatiques motifs arqués évoquant des embarcations marines ou des oiseaux en vol tournés vers l'océan.",
+    visiter: "Accéder au tumulus du Mané Lud au nord du bourg de Locmariaquer et pénétrer sous le couloir mégalithique pour admirer l'imposante dalle de couverture monolithe ainsi que les nombreuses gravures néolithiques (écussons, crosses, haches et embarcations) sculptées sur les piliers de granite.",
+    link: ""
+  },
+   {
     id: "arradon_iles_logoden",
     name: "Arradon - Les Îles Logoden (Grande et Petite Logoden - Golfe du Morbihan)",
     country: "France",
