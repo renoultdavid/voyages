@@ -7,6 +7,55 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "elven_forteresse_de_largoet_tours_d_elven",
+    name: "Elven - Forteresse de Largoët (Les Tours d'Elven)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan (56)",
+    subdiv: "Elven",
+    altitude: 124,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Forteresse Féodale Bretonne (XIIIe-XVe siècles), Donjon Octogonal Géant (45 m) & Exil d'Henri Tudor",
+    century: "XIVe siècle",
+    category: "chateau",
+    counts: { chateau: 1 },
+    lat: 47.72530,
+    lng: -2.61812,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO6ut-F6XYEo5IA7bgSCkQdgAIw8loScQFw9NAxHKR2Kgkf_v5KbsyPfYTCg5xUpDKtQaQWNRd9naDfa8Ihvqie_tiHhVIhfx3k2kVddeS1r60gke3ckSfEKWVChuVpiw9t13JiMC8k1qvrDGhIt2661Q=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN1nTynhKBMdHyYjKex6w_Jnl6w4bNT_fAjiBMgKqZGMRrhfPnCyEjeumDe8U-Wv6JChvSBdaXaOGO9_sHSLTaL5mb2dgW6SstM_Clo0eYtKW1hngoEnTVomUahrkkFuKL9L6lksgzaUUN4XgrjgVQodg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNXajXqrB0TUjtxl5HzJWneLynodL6se_S3_uURROt9szSkuoUpvNHXnawLgi8-pF4GDw_Y1iZo_axxM1VdP4029WrgifZ5El5_oH6KWGEpdKpSjDwdqkw2XnOpqSIDs-_-HTEdmLp0s6FcvY8a7pbQUQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPsReD756lHTGxZQk8xwLK31HTTf7Z_bvTW90xYzGmwG1rwlcJat8VUsnWdZC8-wy7xUECtauW10S9bIUZHKdBnTAOb1PsQ-egFVblFRwxS8rLAuAnQE9PvKZnlPuG7SGOawV3GoIm42uHluQX9ztu_rQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO7kzak2SvBRBxaedIuGGMtfZsFPhQDHvh-TbkvKaxcHj0O_4sSn2dPTn4UhnV--5qSECUSmSFuWm1XEuo4WYWFU_3z6XDTdeNNX17Ip2_06Oqn8OOF4Veelswzo3zbSOQ1PDhrRpQlQlm8DV6OZ7eIJg=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPMN6h53K0tH5Wr9VpkiqPqYS1-tFZltgw_yeN3zCAP1Q7bgO4H8nxiuahWwQLHRzjytEcT06pIB_9AFhVpt0EN_H9b9sFWHQxlDcD8hM7Cmtf9UB60hbfABKp4fBurbyiA4LGYSukYmm-iidRpUn-91g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOWktWHPh7U2vKQkbKr3w1A5yDYytotMA0B_jt-x_0wqWcKQ4bKsjUsQZeZ6FCtUz6SVcKRxXqVZWtL0UEkxaWwon6mtmf_aBZRYO_wO0JzXXSvz5RaffSiq8JA97QkqEpXCux2O1GdStHL6iDA3kAhhA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Nichée au cœur d'un vaste domaine forestier vallonné sur la commune d'Elven, à une quinzaine de kilomètres au nord-est de Vannes, la forteresse de Largoët — universellement célèbre sous l'appellation des Tours d'Elven — dresse l'un des ensembles castraux médiévaux les plus spectaculaires, puissants et romantiques de toute la Bretagne. Édifiée progressivement entre le XIIIe et le XVe siècle par les puissants seigneurs de Largoët, puis passée aux familles de Malestroit et de Rieux — grands dignitaires et maréchaux du duché de Bretagne —, cette place forte stratégique contrôlait les marches intérieures du Vannetais depuis un promontoire naturel protégé par un large étang faisant office de douve défensive. Le château entra dans l'histoire européenne à la fin du XVe siècle en servant de résidence surveillée et de refuge au jeune comte de Richmond, futur roi d'Angleterre Henri VII Tudor, placé sous la protection du duc François II de Bretagne avant sa reconquête du trône anglais en 1485.\n\nBien que partiellement démantelée en 1490 sur ordre de la duchesse Anne de Bretagne à l'issue de la guerre franco-bretonne afin de punir la félonie du maréchal Jean IV de Rieux, la forteresse conserve des élévations monumentales d'une qualité architecturale exceptionnelle en pierre de taille de granite. Son chef-d'œuvre absolu est le colossal donjon octogonal érigé à la fin du XIVe siècle par Jean II de Malestroit : culminant à près de quarante-cinq mètres de hauteur — ce qui en fait l'un des plus hauts donjons médiévaux conservés en France —, cette tour maîtresse aux murs épais de six à neuf mètres à la base superpose cinq niveaux desservis par un grand escalier à vis de cent quatre-vingt-trois marches, dotés de cheminées monumentales, de fenêtres à meneaux avec coussièges et d'un couronnement de mâchicoulis sur consoles trilobées. À ses côtés s'élèvent l'imposant châtelet d'entrée du XVe siècle encadré de deux tours cylindriques à pont-levis ainsi que la tour ronde dite du Petit Logis, dont les ruines majestueuses reflétées dans l'étang inspirèrent au XIXe siècle le célèbre « Roman d'un jeune homme pauvre » d'Octave Feuillet.",
+    visiter: "Franchir le châtelet d'entrée de la forteresse de Largoët au cœur des bois d'Elven pour accéder à la cour intérieure, contourner l'étang afin d'embrasser la silhouette verticale vertigineuse du grand donjon octogonal et gravir son escalier en vis jusqu'au sommet offrant un vaste panorama sur les landes de Lanvaux.",
+    link: ""
+  },
+   {
     id: "locmariaquer_pointe_de_kerpenhir",
     name: "Locmariaquer - La Pointe de Kerpenhir & Goulet du Golfe du Morbihan",
     country: "France",
