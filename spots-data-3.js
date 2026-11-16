@@ -7,6 +7,68 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "pompei_quadriportique_des_theatres",
+    name: "Pompéi - Quadriportique des Théâtres & Caserne des Gladiateurs (Quadriportico dei Teatri - Regio VIII)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Campanie",
+    department: "Province de Naples",
+    subdiv: "Pompéi",
+    altitude: 18,
+    transport: "a_pied",
+    era_group: "antiquite",
+    era_label: "Portique Monumental Hellénistique (Ier siècle av. J.-C.), Foyer du Grand Théâtre & Caserne des Gladiateurs",
+    century: "Ier siècle av. J.-C.",
+    category: "archeologie",
+    counts: {},
+    lat: 40.74843,
+    lng: 14.48879,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOy_-BSdwTdOIikMh1r6L9KCxjbZUBtS3UR2_xEXu5wgDhIKLFa5pQxR5hPtrEIek4uVzQkTQNlvqsxp3O7C1ae6EGMtAEyIacGn1UKTLh0SiEdOxcJWVdTidCgi41ph3MU9QSximY08UTW1yy1dIbhuA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPZ6Musow6n2USTjEOUnlB0JU4g7YOt5qEOzaautgZPFLpzPIXhOEHE-gHuObyC0ZqrFpkkOfIXhH0tlibNqFtIIgIS7fSTbXm2FzM261YmgCslhtA5ZTkg41EsLvSZH_y0y7Wc1RC2R-NLdnl8WqqPzA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Déployé immédiatement derrière le bâtiment de scène du Grand Théâtre dans la Regio VIII (Insula 7) du parc archéologique de Pompéi, le Quadriportique des Théâtres (Quadriportico dei Teatri) constitue l'un des ensembles monumentaux les plus vastes et spectaculaires de l'urbanisme public pompéien. Édifié au Ier siècle av. J.-C., au début de l'époque romaine, selon les préceptes de l'architecte Vitruve, cet immense péristyle rectangulaire de soixante-quatorze colonnes doriques en tuf volcanique de Nocera recouvertes de stuc cannelé — peint en rouge sur le tiers inférieur et blanc dans la partie supérieure — servait originellement de foyer couvert (porticus post scaenam) permettant aux spectateurs du Grand Théâtre et de l'Odéon voisin de déambuler et de s'abriter lors des averses soudaines.\n\nÀ la suite du violent tremblement de terre de 62 apr. J.-C. qui endommagea gravement les édifices publics de la cité, le complexe connut une reconversion radicale pour devenir le ludus gladiatorius, la caserne d'entraînement et de logement des gladiateurs de Pompéi. Des dizaines de petites cellules réparties sur deux niveaux reliés par une galerie en bois furent alors aménagées le long des portiques autour de la vaste esplanade centrale gazonnée utilisée comme arène d'exercice. Lors des fouilles de 1766-1767, les archéologues y mirent au jour un fabuleux arsenal de casques en bronze finement ciselés de scènes mythologiques, de jambières et d'armes d'apparat aujourd'hui conservés au Musée archéologique national de Naples, ainsi que les corps de dix-huit victimes surprises par l'éruption du Vésuve en 79 apr. J.-C.",
+    visiter: "Descendre depuis l'esplanade du Forum Triangulaire ou la scène du Grand Théâtre dans la vaste cour rectangulaire du Quadriportique des Théâtres pour embrasser la perspective des colonnades doriques en tuf stucqué et observer l'alignement des anciennes cellules des gladiateurs entourant l'aire d'entraînement centrale.",
+    link: ""
+  },
+  {
+    id: "pompei_maison_de_siricus",
+    name: "Pompéi - Maison de Siricus (Casa di Sirico / Domus Vedii Sirici - Regio VII)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Campanie",
+    department: "Province de Naples",
+    subdiv: "Pompéi",
+    altitude: 30,
+    transport: "a_pied",
+    era_group: "antiquite",
+    era_label: "Demeure Aristocratique de Publius Vedius Siricus (Ier siècle apr. J.-C.), Inscription « Salve Lucru » & Fresques Épiques",
+    century: "Ier siècle",
+    category: "archeologie",
+    counts: {},
+    lat: 40.75049,
+    lng: 14.48721,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOKGKtF_k90wSQL_tpgRq1sPIS8USg3VHRFAl1rUgqgEQ_3K41RTsyaTHBY5vvpb6GfRnYT2Mc9ATbLfmYucDTV71x1uD3MiqSKgnGNZQ2rK8bcvkVmUg014Znt_dK_sLfEJniBxlX-6JwessioDd27oA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPH4Aag1wPqyWEkm6qhwcMS8Amdm_fa0b6s2LrPpV8R2HVVgP0uYxhB-cZGy3JjLW9XSh9Pm1ZsvO6xthvEBWLvWOmv-aMEer8HWEKLQQVkVefffK8-FcDtX3vWd8CaomIHEtsEeifB0RrmteZVfiQtXg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPmEjn2sYaecWr6iyHs5aNOYQvHYMxQCk0T2btCOAhDF59jEJOAwQiPmVMavI8V56o9bfmmCJAAQ3hGnxOgDoyiZxLtuNSisIfJ93hhOt0ocOp5Vi7E0zzHwytVr3xU7b4LIe_xVQJvHjqkhecRxcUpVw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Implantée au cœur de la Regio VII (Insula 1) entre le Vicolo del Lupanare et la Via Stabiana, la Maison de Siricus (Casa di Sirico) constitue l'une des résidences patriciennes les plus vastes, complexes et emblématiques de la société marchande et politique de Pompéi au Ier siècle apr. J.-C. Née de la réunion progressive de deux demeures distinctes de l'époque samnite par le riche notable et magistrat municipal Publius Vedius Siricus, cette vaste domus double déploie deux atriums complets autour desquels s'articulent salles de réception, péristyles et quartiers privés.\n\nLa demeure est universellement célèbre pour la devise en mosaïque blanche sur fond noir incrustée sur le seuil de son entrée occidentale — « Salve Lucru » (« Salut au Gain ») —, manifeste décomplexé d'une élite municipale fière de sa réussite commerciale, ainsi que pour le raffinement exceptionnel de son programme pictural du Quatrième Style pompéien. Ses salons d'apparat et son triclinium abritent d'illustres fresques mythologiques inspirées des grands cycles épiques gréco-romains, parmi lesquelles la construction des remparts de Troie par Apollon et Poséidon, Héraclès ivre chez la reine Omphale, Thétis dans la forge d'Héphaïstos et la célèbre scène d'Énée blessé soigné par le médecin Iapyx, témoignant de la culture littéraire et du prestige social de son propriétaire avant l'éruption de 79 apr. J.-C.",
+    visiter: "Accéder à la Maison de Siricus depuis le Vicolo del Lupanare dans la Regio VII pour observer la célèbre inscription en mosaïque « Salve Lucru » sur le seuil d'entrée, puis parcourir les deux atriums communicants et les salles de réception ornées de fresques mythologiques et de pavements en marbres marquetés.",
+    link: ""
+  },
+   {
     id: "pompei_maison_des_ceii",
     name: "Pompéi - Maison des Ceii (Casa dei Ceii - Regio I)",
     country: "Italie",
