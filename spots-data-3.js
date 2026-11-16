@@ -7,6 +7,51 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "pompei_thermopolium_et_maison_de_vetutius_placidus",
+    name: "Pompéi - Thermopolium & Maison de Lucius Vetutius Placidus (Regio I)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Campanie",
+    department: "Province de Naples",
+    subdiv: "Pompéi",
+    altitude: 30,
+    transport: "a_pied",
+    era_group: "antiquite",
+    era_label: "Taverne & Demeure Marchande Romaine (Ier siècle apr. J.-C.), Comptoir à Dolia, Lararium Peint & Triclinium",
+    century: "Ier siècle",
+    category: "archeologie",
+    counts: {},
+    lat: 40.75085,
+    lng: 14.49025,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMdUER_nfGqwQ2ZvtqKwcS6nBHgwgls7ssoAVi39lsW8v8gAJMJ0jK_0Izy8a1dVeQL0Gh8ck5HFI2o2sazVleY_s05VfAHZOrMCJouzNuPXj9QiY-bcGwr7-5p2itU6rcGjsi-zBsSmsypnbmQRe6qhw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNAsx1wz0eWPqAfkHwYHtQQBZ07zBhPqgiKRYtwAzh653nF80ZXjtjYZ-oOb2XlI2tPuKREp8hPOWythhrK3Ob4xrtGry5sVPxJ5OWCK5SbjJiwwhp7GCnCzSQgmDit988iFnAAkyRTB532cataH30y7g=w1377-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMKaspgpTGLSbWx8uAC9bhqBD1yCYBTDp9-j5H6Fq4CBdctsjH4azuZ53uUelUUzvEXcilnfOLHylvCltCxnuriUfafaRrXr8tp1cFm5yjkseZWwzWTMw3hQj5CMQQ_TiTcFgmd_HltTFDsnBSdp3g6iA=w1381-h919-s-no-gm?authuser=0",
+        caption: "Cette fresque exceptionnelle orne le lararium du célèbre Thermopolium de Regio V à Pompéi, une structure de restauration rapide remarquablement conservée. La scène représente les divinités protectrices du lieu, organisées de manière symétrique autour d'une figure centrale féminine, probablement la personnification de l'abondance ou une divinité tutélaire, effectuant une libation au-dessus d'un trépied sacré. À ses côtés se tiennent deux Lares, les dieux du foyer, représentés de manière dynamique en train de danser, vêtus de tuniques courtes et tenant des rhytons (cornes à boire) et des situles (seaux), symbolisant la joie et la générosité domestique. À l'extrémité gauche, on reconnaît Mercure, dieu du commerce et du profit, tenant son caducée et une bourse, tandis qu'à droite figure Bacchus (Dionysos), dieu du vin, couronné de feuilles de vigne et accompagné d'une panthère, soulignant la nature commerciale de l'établissement lié à la vente de boissons et de nourriture. L'ensemble est surmonté d'une guirlande festive et repose sur un registre inférieur où apparaissent deux serpents agathodémons encadrant un autel, symboles de chance et de protection contre le mal. Cette composition picturale du quatrième style ne se contente pas de décorer l'espace ; elle sacralise l'activité économique des propriétaires en plaçant le commerce sous le patronage direct des dieux. L'usage de couleurs vives, dominées par les ocres et le rouge pompéien, témoigne de la vitalité de ce quartier populaire juste avant l'éruption de 79 après J.-C."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNgS5YyIBWdn1XOby7nJXYAnbP0SSAuGADKwQx3jhX-YcaK7QsRQuzlq03lXwcoSeHEWplkat7VIGX3VzgF1pKA5MBSfx9nHbeomaPumQrqk7r3Jg8p5a3xVgCzF1lIDJm6bGOWIgUR8hVgHQOSPO3xSg=w1381-h919-s-no-gm?authuser=0",
+        caption: "Cette œuvre est une fresque murale à l'antique réalisée selon la technique de l'affresco, datant du Ier siècle après J.-C., et mise au jour dans le Thermopolium de Lucius Vetutius Placidus à Pompéi (Regio I, Insula 8). Le panneau central présente une composition naturaliste épurée où un oiseau solitaire, probablement un passereau, est figuré de profil, posé sur une légère ligne de sol verdoyante évoquant de la végétation basse. L'animal est inscrit dans un cadre rectangulaire de couleur ocre rouge qui délimite la scène du reste de la paroi, une caractéristique typique du Quatrième Style pompéien où des tableaux miniatures (pinakes) semblent suspendus sur des fonds de couleur unie. La palette chromatique est dominée par des terres naturelles, des ocres et des pigments minéraux résistants à la chaux, avec des rehauts plus sombres pour le plumage de l'oiseau et des touches de vert pour les éléments botaniques. Des tiges florales stylisées et des rameaux chargés de baies rouges s'échappent délicatement des angles supérieurs et s'étirent verticalement au-dessus et en dessous du cadre, renforçant l'aspect décoratif et la thématique du jardin intérieur. Dans le contexte d'un établissement de restauration rapide romain comme celui de Vetutius Placidus, une telle iconographie visait à créer une atmosphère élégante et accueillante pour la clientèle tout en témoignant du goût des propriétaires pour les motifs bucoliques. L'état de conservation révèle les fissures structurelles liées à l'activité sismique historique de la zone ainsi qu'une patine naturelle due à l'exposition séculaire aux sédiments volcaniques."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPXrMhdixKqA1bQKD_X81fSJ8N04DPc4h4kNSvFWyy8aNhoqV1klUEr_YpGNze_SmGsHp08Dxy81Gv1YezXxHBLayshhmEl2FRa3Lmj-Pd2bMts5qf4So3saj1ZrpfPE4rrlckqyG7-n8PNiuERhf_J8A=w1377-h919-s-no-gm?authuser=0",
+        caption: "Cette paroi monumentale constitue le décor principal du triclinium du Thermopolium de Lucius Vetutius Placidus à Pompéi, datant de l'époque flavienne (v. 70-79 apr. J.-C.). Réalisée selon la technique de la fresque, elle illustre avec éclat le Quatrième Style pompéien, caractérisé par une surcharge ornementale et un mélange de surfaces pleines et d'échappées architecturales fantastiques. Le registre médian est dominé par de larges panneaux d'un rouge pompéien vibrant, séparés par de fines colonnettes et des bandes verticales sombres ornées de motifs de candélabres. Au centre d'un des panneaux principaux se détache un tableau central (pinax) représentant une scène mythologique ou de genre, figurant plusieurs personnages aux silhouettes dynamiques sur un fond clair. La partie supérieure de la composition présente des architectures en trompe-l'œil, avec des édicules, des frontons et des draperies suspendues (velaria) qui créent une illusion de profondeur et de théâtralité, brisant la planéité du mur. Des détails graciles, tels que des oiseaux et des guirlandes, habitent les interstices de cette structure complexe, témoignant du raffinement décoratif des espaces de réception romains. L'œuvre présente une base sombre (socle) qui stabilise visuellement l'ensemble, tandis que les traces de trous de poutres et les fissures rappellent l'histoire mouvementée du bâtiment avant son ensevelissement par le Vésuve."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMduXyzlaLmJ2z3YdfapA2qcGgnd--g5kF_Nuitc-RvALfYyxt_CrIty7r4C3GRdtkfWJYKMEelYYPah7V7ZV3Fbln8J2XizX0I9S9WCrP0hZVFvOfUESMve1Iu1Io6YL9fopcwr8wE5hP85S642x8cJw=w1377-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Situé en bordure de la très animée Via dell'Abbondanza dans la Regio I (Insula 8) de Pompéi, l'ensemble réunissant la boutique-taverne (thermopolium) et la demeure privée de Lucius Vetutius Placidus et de son épouse Ascula constitue l'un des témoignages les plus vivants et complets de l'économie urbaine et de l'ascension sociale des classes moyennes marchandes romaines au Ier siècle apr. J.-C. Ouvert largement sur le trottoir de l'artère commerçante, le thermopolium conserve son spectaculaire comptoir maçonné en forme de L revêtu de plaques de marbres polychromes de remploi, dans lequel sont encastrées de grandes jarres en terre cuite (dolia) destinées à maintenir au chaud ou au frais les mets, les ragoûts, les légumes secs et les vins épicés servis aux passants — l'un des récipients ayant livré lors des fouilles près de trois kilos de pièces de monnaie en bronze représentant la recette des derniers jours avant l'éruption de 79 apr. J.-C.\n\nSur la paroi du fond de la salle de vente s'épanouit un remarquable autel domestique peint (lararium) associant les Lares dansants, le Génie faisant une libation, Mercure dieu du commerce et Bacchus dieu du vin au-dessus des deux serpents agathodémons protecteurs. À l'arrière de l'échoppe s'ouvrent les espaces résidentiels et de réception de la maison, dont un triclinium d'hiver somptueusement orné de fresques d'époque flavienne du Quatrième Style pompéien sur fond rouge vermillon et d'un triclinium d'été ouvrant sur un petit jardin-viridarium ombragé.",
+    visiter: "S'arrêter sur le trottoir de la Via dell'Abbondanza dans la Regio I pour observer le comptoir en L incrusté de marbres colorés et les grandes jarres (dolia) encastrées du thermopolium de Vetutius Placidus. Les visiteurs détaillent ensuite le célèbre lararium peint dédié aux dieux du foyer et du commerce, puis observent les salles intérieures décorées de panneaux du Quatrième Style pompéien à fond rouge.",
+    link: ""
+  },
+   {
     id: "pompei_casa_del_frutteto",
     name: "Pompéi - Maison du Verger (Casa del Frutteto / Casa dei Cubicoli Floreali)",
     country: "Italie",
