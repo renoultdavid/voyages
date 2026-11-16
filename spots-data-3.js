@@ -47,7 +47,7 @@ const SPOTS_3 = [
     altitude: 53,
     transport: "a_pied",
     era_group: "contemporain",
-    era_label: "Ouvrage d'Art en Maçonnerie de Pierre sur l'Huisne (XIXe Siècle), Arches Surbaissées & Perspective Fluviale",
+    era_label: "Pont Métallique à Poutres Latérales en Treillis Riveté (Fin XIXe Siècle) sur Piles de Maçonnerie",
     century: "XIXe siècle",
     category: "pont",
     counts: { pont: 1 },
@@ -55,8 +55,8 @@ const SPOTS_3 = [
     lng: 0.33247,
     image: "https://lh3.googleusercontent.com/pw/AP1GczOVuAJdT4LYR9QYNEzZemfX-H8DFbfuE1BChMR4RpQRQuQY78xojmam1MN8Poa2s2uD7eL93EO8WRmsADBz7ECWvN87AN7KdCUW1bYsu5BcQTTWoOShLSr8B83ZmqYylD7hbUGxYIEgfuvL_uP5pJHVfg=w1379-h919-s-no-gm?authuser=0",
     gallery: [],
-    description: "Enjambant le cours paisible et sinueux de l'Huisne à la sortie septentrionale du bourg historique de Champagné, le pont Leduc-Ladevèze constitue un ouvrage d'art emblématique du patrimoine fluvial et routier de la vallée sarthoise au XIXe siècle. Baptisé en hommage à une figure notable et bienfaitrice de la commune ayant œuvré au désenclavement et à la modernisation des voies de communication locales, cet édifice remplaça d'anciens passages à gué et passerelles fragiles souvent emportés par les crues hivernales de l'affluent de la Sarthe.\n\nConstruit en pierre de taille calcaire soigneusement appareillée, l'ouvrage déploie plusieurs arches élégantes en anse de panier reposant sur de solides piles munies d'avant-becs triangulaires conçus pour fendre le courant et dévier les embâcles flottants. Bordé de parapets minéraux offrant un belvédère privilégié au-dessus de l'eau, le pont compose avec le moulin voisin et les rideaux de saules et d'aulnes bordant les berges un tableau pittoresque d'une grande sérénité.",
-    visiter: "Traverser à pied le pont Leduc-Ladevèze sur l'Huisne à Champagné pour admirer l'appareil en pierre de taille de ses arches et avant-becs ainsi que la vue panoramique sur le bief et l'ancien moulin en aval.",
+    description: "Enjambant le cours de l'Huisne à la sortie septentrionale du bourg historique de Champagné, le pont Leduc-Ladevèze constitue un témoin représentatif des ouvrages d'art métalliques édifiés dans les campagnes françaises à la fin du XIXe siècle. Baptisé en hommage à une personnalité notable de la commune, cet ouvrage franchit la rivière au moyen d'un tablier droit métallique à travées multiples soutenu par deux poutres latérales basses en treillis à croisillons rivetés (en croix de Saint-André), peintes en vert olive et faisant simultanément office de structure porteuse et de garde-corps[cite: 2].\n\nCette superstructure en fer puddlé ou acier assemblé par rivets repose sur de solides piles intermédiaires en maçonnerie de pierre munies d'avant-becs arrondis en pierre de taille destinés à fendre le courant de l'Huisne[cite: 2]. Ponctué de lampadaires de style ancien sur son tablier, le pont offre une perspective dégagée sur le barrage-déversoir du moulin voisin, les berges arborées de saules pleureurs et la flèche de l'église Saint-Désiré émergeant au-dessus des frondaisons[cite: 2].",
+    visiter: "Traverser à pied le pont métallique Leduc-Ladevèze sur l'Huisne à Champagné pour observer la structure riveté en treillis de ses poutres latérales, ses piles en pierre à avant-becs arrondis et la vue sur le déversoir du moulin voisin[cite: 2].",
     link: ""
   },
   {
