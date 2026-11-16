@@ -7,6 +7,41 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "palasca_rando_plage_de_l_acciolu",
+    name: "Palasca - Randonnée & Crique Sauvage de l'Acciolu (Désert des Agriates)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Corse",
+    department: "Haute-Corse (2B)",
+    subdiv: "Palasca",
+    altitude: 10,
+    is_island: true,
+    island_name: "Corse",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Randonnée sur le Sentier des Douaniers des Agriates, Anse de Sable Blanc & Maquis Littoral Préservé",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1, plage: 1 },
+    lat: 42.69153,
+    lng: 9.06875,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMDqVUd1YxFwCvdMB1f0TWIvtlq385Zj-AcW2W4PTHvCo6RyTeL525E8hZ38WEqgNAxBZXd6jn49vWRjlnMxUHdTFHnf4-TDCkGVOJrWg9KUD6hH4YG9Y_yy9sGCBOG8D4hpJTWt0zKzf_dl-VFQMR5Zg=w1543-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOBI-wzJ7TK9oTcTjb28gn5UhvPi9wXzIHjR7XnZ7V208XTKaAyu07j-FRWKexO8Uh_74PIIIYgWNc2hcqPCcbnzxEkj0FxWtXDGTybxKN8NjvqxgCtUZd5CEwcQJx5RmUPKqeUnOGrlsOnaw6WtApASw=w1225-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNSSRMMZwT4mwg5j321pxMuQw6fyvIuYUlPWMwtZHuM6wiQiOTwYI5MVoX5xIXcZ0QWuYsVIXesKwV_80-APcsD40SEtctRZls7nooTif49vMkdMj46e50cZfmrgijbCM1DM9XBFgLLj2L-wG6ulS3VyQ=w1225-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Nichée au cœur du littoral sauvage et protégé du désert des Agriates, entre l'embouchure de l'Ostriconi et l'anse de Malfalcu sur la commune de Palasca, la plage de l'Acciolu incarne l'idéal méditerranéen de la crique secrète préservée de toute urbanisation et accessible uniquement au terme d'une randonnée pédestre. Acquise et sauvegardée par le Conservatoire du littoral, cette échancrure lumineuse s'inscrit dans un ensemble géologique de granites anciens et de formations métamorphiques sculptées par les vents marins et les assauts de la houle du large. Le sentier des douaniers qui y conduit serpente au-dessus des falaises basses et des promontoires rocheux dorés, traversant un maquis littoral dense et aromatique où s'entremêlent les genévriers de Phénicie façonnés par le libecciu, les lentisques, les myrtes, les arbousiers, les cistes et les touffes d'immortelles aux effluves caractéristiques.\n\nEn débouchant au fond de cette anse abritée, le regard découvre un croissant de sable blanc et fin bordé par une eau d'une transparence cristalline déclinant toutes les nuances du turquoise, du vert émeraude et du bleu profond au-dessus des herbiers marins de posidonie. L'absence totale de route carrossable immédiate confère au site un silence et une atmosphère hors du temps, uniquement troublés par le ressac des vagues et le cri des goélands leucophées. Depuis la grève comme depuis les crêtes granitiques encadrant la baie, l'horizon s'ouvre largement vers l'est sur le golfe de Saint-Florent et la longue chaîne montagneuse du Cap Corse plongeant dans la mer Méditerranée.",
+    visiter: "Emprunter le sentier littoral des Agriates depuis la plage de l'Ostriconi ou descendre les pistes pédestres traversant le maquis depuis la Bocca di Vezzu et le secteur de Ghignu pour rejoindre la crique isolée de l'Acciolu, se baigner dans ses eaux turquoise limpides et contempler la vue sur le Cap Corse.",
+    link: ""
+  },
+   {
     id: "elven_forteresse_de_largoet_tours_d_elven",
     name: "Elven - Forteresse de Largoët (Les Tours d'Elven)",
     country: "France",
