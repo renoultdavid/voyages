@@ -7,6 +7,362 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "locmariaquer_pointe_de_kerpenhir",
+    name: "Locmariaquer - La Pointe de Kerpenhir & Goulet du Golfe du Morbihan",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Locmariaquer",
+    altitude: 5,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cap Granitique à l'Entrée du Golfe du Morbihan, Courants de Marée & Vue sur Port-Navalo",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 47.55408,
+    lng: -2.92858,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNnHer9Fko50LuqwEuB2i988vR_XQ0_mlEv8qXQyWzDtzIf4Q-MZwFKmvtiOVd_ihd7f2l2HTqQR107bHh0R_B62Spaq1lIiG2dC4Yt4lD2zozyjOSQim5mcObM7My0c00AKCoHnrjsVnC0HZQksosymQ=w1367-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "S'avançant à l'extrémité sud-est de la presqu'île de Locmariaquer face à la pointe de Port-Navalo sur la presqu'île de Rhuys, la pointe de Kerpenhir marque le verrou occidental de l'étroit goulet par lequel le golfe du Morbihan communique avec l'océan Atlantique. Ce promontoire granitique bas balayé par les vents marins commande un passage maritime large de moins de neuf cents mètres où s'engouffrent à chaque marée des masses d'eau colossales, engendrant certains des courants de marée les plus puissants et spectaculaires d'Europe, pouvant atteindre jusqu'à neuf nœuds lors des vives-eaux.\n\nDominée par la statue monumentale de Notre-Dame de Kerdro veillant sur les gens de mer et ponctuée de vestiges d'ouvrages fortifiés côtiers surveillant la passe depuis le XVIIIe siècle jusqu'au Mur de l'Atlantique, l'esplanade panoramique dévoile un horizon marin d'une ampleur exceptionnelle. Le regard embrasse tout à la fois l'entrée tumultueuse du golfe avec l'île Longue et Gavrinis, la silhouette du phare de Port-Navalo juste en face, l'entrée de la rivière d'Auray ainsi que, vers le large, le profil découpé de la presqu'île de Quiberon et des îles de Houat et Hoëdic.",
+    visiter: "Rejoindre l'extrémité de la pointe de Kerpenhir au sud du bourg de Locmariaquer pour contempler le spectacle impressionnant des remous et courants de marée dans le goulet du golfe du Morbihan face au phare de Port-Navalo, et longer le sentier côtier bordant la plage de Saint-Pierre.",
+    link: ""
+  },
+  {
+    id: "locmariaquer_menhir_men_letionnec",
+    name: "Locmariaquer - Menhir Couché de Men Letionnec (La Pierre du Lait)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Locmariaquer",
+    altitude: 6,
+    transport: "a_pied",
+    era_group: "prehistoire",
+    era_label: "Monolithe Néolithique en Granite (Ve Millénaire av. J.-C.) près de la Pointe de Kerpenhir",
+    century: "Ve millénaire av. J.-C.",
+    category: "megalithe",
+    counts: { megalithe: 1 },
+    lat: 47.55790,
+    lng: -2.92879,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOxirTTjNoujYjFzkL4p59YaPGGCoJh-i1Hp24RNqJIxvHuXY98E7Sy7hriR1u7Hy25X90CWpZz3VQhhgOIdN6lNbsLLmEO4IdhnpBGFIMxEPf-zdEVdf-G9uXDxLrSdKxod6GO2CSBIz2EPoTJRzdthQ=w1367-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "À quelques centaines de mètres au nord-ouest de la pointe de Kerpenhir, non loin des rivages orientaux de la presqu'île de Locmariaquer donnant sur l'entrée du golfe du Morbihan, le menhir de Men Letionnec repose dans un cadre verdoyant discret témoignant de l'omniprésence du phénomène mégalithique sur ce promontoire littoral. Ce monolithe de granite clair long d'environ trois mètres cinquante, aujourd'hui couché sur le sol après avoir été renversé à une époque ancienne, s'inscrivait à l'origine dans le vaste maillage de pierres dressées et d'alignements néolithiques jalonnant la presqu'île au cours du Ve millénaire av. J.-C.\n\nSon appellation bretonne traditionnelle, « Men Letionnec » — littéralement « la pierre du lait » ou « la pierre laiteuse » —, fait directement écho à la teinte claire de son granite ainsi qu'aux anciennes croyances populaires bretonnes qui prêtaient à certains mégalithes des vertus nourricières et protectrices pour les jeunes mères et le bétail, perpétuant la mémoire sacrée de ce monument préhistorique au fil des siècles.",
+    visiter: "Faire halte le long de la route menant à la pointe de Kerpenhir au sud de Locmariaquer pour observer le menhir couché de Men Letionnec dans sa clairière herbeuse à proximité du littoral du golfe.",
+    link: ""
+  },
+  {
+    id: "locmariaquer_dolmen_de_kerlud",
+    name: "Locmariaquer - Dolmen à Couloir de Kerlud",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Locmariaquer",
+    altitude: 9,
+    transport: "a_pied",
+    era_group: "prehistoire",
+    era_label: "Sépulture Mégalithique à Couloir & Chambre Polygonale du Néolithique Moyen (IVe Millénaire av. J.-C.)",
+    century: "IVe millénaire av. J.-C.",
+    category: "megalithe",
+    counts: { megalithe: 1 },
+    lat: 47.56682,
+    lng: -2.95609,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPk-viR1x7ElQdeLlX1DSXUG3hZRN4KLXoM-Z86kWpPF9x3pR_scmbc_tXStBJWh9mDygVs-03XLAs1CDfUtTtchMwNyf8iFt-Yfxs_4csl0LCAAHfOCJ8Oj8QkRGPTl1Im3qk2yAlNofQQSfYQc4Es8g=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO_dyENelf8_CCY_yY7_XlkI0V-rVInO6GATdEyrZj-mhgkLt22diV3Gi8d8GSiecJstBOORF_gEZ_3KriLQHLkv4uE_WsI2EUeJGTDwWss6481avFRIjKIcqnFNg0A0Wle0GzH0G_4DNXUJP1mhGrqQg=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Implanté à l'ouest du bourg de Locmariaquer à proximité de l'anse de Kerlud et des rivages de la baie de Quiberon, le dolmen de Kerlud constitue un exemple particulièrement lisible et harmonieux de tombe à couloir néolithique armoricaine édifiée au cours du IVe millénaire av. J.-C. Dépouillé depuis des siècles de son tumulus de pierres et de terre d'origine, le squelette mégalithique du monument révèle avec une grande clarté pédagogique son architecture interne : un couloir d'accès orienté vers le sud-est, délimité par une double rangée de piliers de granite, conduit vers une vaste chambre funéraire sub-quadrangulaire.\n\nCette chambre sépulcrale demeure coiffée de son imposante dalle de couverture monolithe en granite brut reposant sur de puissants orthostates verticaux, tandis que d'autres dalles affleurent au niveau de l'entrée du corridor. Exploré au XIXe siècle, le site s'intègre pleinement au prestigieux ensemble mégalithique de Locmariaquer classé au titre des Monuments historiques, témoignant de la maîtrise architecturale des communautés néolithiques implantées entre l'océan et le golfe du Morbihan.",
+    visiter: "Rejoindre le hameau de Kerlud à l'ouest de Locmariaquer pour contourner ce dolmen à couloir bien dégagé, observer l'articulation entre le corridor d'entrée et la chambre funéraire couverte de sa grande table de granite.",
+    link: ""
+  },
+  {
+    id: "carnac_dolmens_de_mane_kerioned",
+    name: "Carnac - Dolmens à Couloir & Tertre de Mané-Kerioned",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Carnac",
+    altitude: 22,
+    transport: "a_pied",
+    era_group: "prehistoire",
+    era_label: "Ensemble Funéraire Néolithique à Trois Dolmens (IVe Millénaire av. J.-C.) & Orthostates Gravés",
+    century: "IVe millénaire av. J.-C.",
+    category: "megalithe",
+    counts: { megalithe: 1 },
+    lat: 47.61554,
+    lng: -3.08564,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPAx_Wl2Eq0G0XMfOCe0YrUUbuK1yLxpG8-BQcU45-SiNquV6fUUombaVf9P-Nr0q7ydKPZ-fR79gI4STzyKt04PesEIUbzAaEpd0l5HUv6x2CeR20gWSHa29Rnvple7MJonnqrfvu6AMLCXEjSpj0jrg=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNjfqtz6My_SqjroZUq8lkbKV5rzXJY5hUOvtIezy5h2MTJ_GQXbMEKsdL35BcJKJvx7HOhnb2kYhSaSKRuc0uOAXNci2RecfoFJRcQ5xJSwc2FNqLgKTmKJPCgVaFsXk9uZ0RF4sWCL5E1r8Zz9rguBA=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN0yQpMhcj-wbjXYnY9SFQ6e5_nW1xAEVYXiHpf9M-1MtcEKO6xUz0eTgfNBX4yeCPi3QILhE82voBFXsEWnuKPGpvN_586n5XomVPGzS_gqH7eWtVcBuXKn5C-qW7ncHHy1y6om0xmjaiW1b1d3EqUFg=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNBmyzSwxF_gKIWYwHbwJOWwglV4-t_U5HJnvR9JsYF34ZEzj4u0qNHYBhU7rGwJOdO-VBze345q-rwYZDgafE0qdQ78X9MovdFw9ojokRzVv5WqaWYTGOWWX59DADEDb9yw7qLNXOkC-GuRcnCTUd0w=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMKLD5ybjmwQ_B5pMrOxlD3dwo7Q7LdAO8a5dowPFxZO7kW5uhDCV8FA1uN3jPk2VWnWMwcJ2B_F7ovOBv1N_3v3a6Kr75BatlpLaBmD5lrn9umwfQIMFgEBnLEfytpnz4zu2-PuDVAbL2pAhDV8aqJxw=w1367-h911-s-no-gm?authuser=0",
+        caption: "Contrairement aux structures isolées, ce site regroupe trois dolmens à couloir nichés au sein d'un même tertre. Son nom breton, qui signifie \"La Montagne des Lutins\" (ou des Korrigans), témoigne de la place prépondérante qu'occupent ces monuments dans le folklore local, où les pierres étaient souvent considérées comme les demeures de petits êtres fantastiques.\n\nUne Architecture Unique en \"T\"\nLe site de Mané-Kerioned se distingue par une disposition architecturale rare : trois dolmens dont les axes sont perpendiculaires les uns aux autres. Le dolmen central est particulièrement remarquable par sa structure de pierre sèche complétant les grandes dalles de granit (orthostates). Comme on peut l'observer sur vos clichés pris à l'intérieur du couloir, la construction alterne entre des blocs massifs supportant la table de couverture et des murets de remplissage minutieusement ajustés. Cette technique permettait de créer des chambres funéraires spacieuses et stables, capables de supporter le poids du tumulus de terre qui les recouvrait autrefois."
+      }
+    ],
+    description: "Situé au nord-ouest de Carnac non loin de la ria de Crach, le site mégalithique de Mané-Kerioned (« la butte des lutins » ou « montagne des korrigans » en breton) présente une configuration architecturale rarissime en Bretagne : trois dolmens à couloir distincts réunis sous un même tertre ovalaire d'environ quarante-cinq mètres de longueur. Édifié au cours du IVe millénaire av. J.-C. et restauré par Zacharie Le Rouzic au début du XXe siècle, ce complexe funéraire déploie deux dolmens parallèles orientés vers le sud encadrant un troisième dolmen central disposé perpendiculairement selon un axe est-ouest en forme de T.\n\nLe dolmen central, admirablement conservé, associe de puissants orthostates en granite à d'élégants parements en pierre sèche supportant de lourdes dalles de couverture. Plusieurs piliers de cet édifice portent de précieuses gravures néolithiques piquetées — signes en écusson, crosses, motifs en U et lignes serpentiformes —, tandis que les fouilles du XIXe siècle ont mis au jour un riche mobilier funéraire comprenant des pointes de flèches en silex, des haches polies en diorite et en fibrolite ainsi que des vases campaniformes témoignant d'une occupation prolongée jusqu'à la fin du Néolithique.",
+    visiter: "Parcourir l'enclos du tumulus de Mané-Kerioned au nord de Carnac pour observer la disposition originale des trois dolmens à couloir et pénétrer dans le couloir du monument central afin d'admirer l'assemblage mixte de dalles de granite, de murs en pierre sèche et de piliers gravés.",
+    link: ""
+  },
+  {
+    id: "saint_pierre_quiberon_alignements_de_kerbourgnec",
+    name: "Saint-Pierre-Quiberon - Alignements Mégalithiques de Kerbourgnec",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Saint-Pierre-Quiberon",
+    altitude: 15,
+    transport: "a_pied",
+    era_group: "prehistoire",
+    era_label: "Cinq Files de Menhirs en Granite du Néolithique (Ve-IVe Millénaires av. J.-C.) sur la Presqu'île de Quiberon",
+    century: "Ve millénaire av. J.-C.",
+    category: "megalithe",
+    counts: { megalithe: 1 },
+    lat: 47.51693,
+    lng: -3.12846,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN17aPAqN0_9gp3ejGwAS0LK6WViFJehaxar3hsQ0Iof23nxC4tSDn6Noo6HHokexeEUnTN9MPeDei1yo_iqMPren2aB04_c9B6-C9OzNHc9YAH9ZzhIXp3FuNrno8Ghc1lEpy5L18cNbnMh7Dllaw8yw=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOERKx0GNJ_2FCiN6fA9kEAkwny2eMFbJqXozh-Dk_lrEnB7HN_3Lp5NDRBrSvnVjYk66MF8N24nNSWI4XNz2dVgyBTntS8zd3U8cpDkFcBmj-aM6lbLWN5nQSD8pe71LJOwHcUemmDQW2mTyQOFqBbBQ=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN6xV-F5mp_hpmxqVFCIjJNRo87GYxTf1XVmzf4asUVlIbx02LLpusaPUsiTGv7r6AqyYvK2OquFM0ci0y-Hi8YHrEFmVpycxo83SM9s5_T2QVSb6UKQah-s89cm1Wps6zldRLOq_bAT4HF17Da4X2UXg=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressés au cœur de la presqu'île de Quiberon à quelques centaines de mètres des rivages de la baie sur la commune de Saint-Pierre-Quiberon, les alignements mégalithiques de Kerbourgnec constituent le plus vaste ensemble de pierres levées de la presqu'île et le prolongement méridional naturel des grands champs mégalithiques de Carnac. Érigé au cours des Ve et IVe millénaires av. J.-C., ce monument spectaculaire déploie aujourd'hui une quarantaine de menhirs en granite local disposés selon cinq files parallèles orientées d'ouest en est sur plus d'une centaine de mètres de longueur.\n\nBien que l'urbanisation ancienne et les prélèvements de pierres aient amputé une partie des rangées primitives — qui s'étiraient autrefois jusqu'au rivage oriental de la baie de Quiberon où subsistent encore plusieurs blocs immergés sur l'estran —, la hauteur croissante des monolithes d'ouest en est et leur liaison directe avec l'enceinte mégalithique voisine illustrent la maîtrise géométrique et la dimension astronomique ou processionnelle des grands sanctuaires néolithiques de Bretagne méridionale.",
+    visiter: "Déambuler le long des cinq files de menhirs de l'enclos de Kerbourgnec à Saint-Pierre-Quiberon pour observer l'alignement régulier et la silhouette sculptée des blocs de granite avant de rejoindre l'enceinte mégalithique située à quelques pas à l'ouest.",
+    link: ""
+  },
+  {
+    id: "saint_pierre_quiberon_cromlech_de_kerbourgnec",
+    name: "Saint-Pierre-Quiberon - Enceinte Mégalithique & Cromlech de Kerbourgnec",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Saint-Pierre-Quiberon",
+    altitude: 15,
+    transport: "a_pied",
+    era_group: "prehistoire",
+    era_label: "Enceinte Semi-Circulaire de Menhirs Jointifs du Néolithique (Ve-IVe Millénaires av. J.-C.)",
+    century: "Ve millénaire av. J.-C.",
+    category: "megalithe",
+    counts: { megalithe: 1 },
+    lat: 47.51595,
+    lng: -3.13030,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPQjPY2G1OJFg8x9IRbIcKVEhIF0g1LtaGNBbblJUvUPv-vF0ejo3pUmoPC4Ze02ndSBCVqVia9Ex92bSNrV2Vktd8XlArl2S8F2JkCZvH4jYdhukELQheTjcIpFhknTvzHdNUwtIMsFt1xT-U6EoEgDQ=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNF41j920eKAXtCUgA3TwWeZHV6RwFVVsbIs6r7erP_N1CYSY3AdHW041w3oTvApZDiAlLraJW0MowTcKJxprFzblAguaZVzbRob76x3c-rBkQszV2qySXoNN-yF0hByztQJJoDL-H4on4JHavKkrDiGA=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Située à l'extrémité occidentale des alignements de Kerbourgnec sur la commune de Saint-Pierre-Quiberon, cette remarquable enceinte mégalithique — communément désignée sous le nom de cromlech de Kerbourgnec — couronne l'ensemble monumental en dessinant un vaste hémicycle de pierre face à l'océan. Composé à l'origine d'une quarantaine de menhirs en granite local dont vingt-sept demeurent dressés et alignés bord à bord selon un arc régulier en fer à cheval d'environ soixante-dix mètres d'ouverture, ce sanctuaire néolithique des Ve et IVe millénaires av. J.-C. présente une architecture analogue aux célèbres enceintes terminales des alignements du Ménec et de Kerlescan à Carnac.\n\nConçu comme un espace cérémoniel clos ou un observatoire rituel marquant le point de départ ou d'aboutissement des processions empruntant les files de menhirs voisines, ce demi-cercle de blocs jointifs de hauteur homogène témoigne du rôle social et symbolique majeur de la presqu'île de Quiberon, alors reliée au continent par un vaste plateau littoral aujourd'hui partiellement submergé par la remontée postglaciaire du niveau marin.",
+    visiter: "Poursuivre la visite des alignements de Kerbourgnec vers l'ouest pour contourner l'arc de cercle formé par les vingt-sept menhirs de l'enceinte mégalithique et apprécier la géométrie de ce sanctuaire néolithique en fer à cheval.",
+    link: ""
+  },
+  {
+    id: "quiberon_plage_du_conguel",
+    name: "Quiberon - La Plage du Conguel & Vue sur la Baie de Quiberon",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Quiberon",
+    altitude: 1,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cordon Dunaire & Plage de Sable Fin à l'Extrémité Méridionale de la Presqu'île de Quiberon",
+    century: "Temps géologique",
+    category: "plage",
+    counts: {},
+    lat: 47.47396,
+    lng: -3.09077,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMCxiIpLBxd_Yun1FpZeBKGLALPLH3rKnoTVfXxt_jdg8qv8R8byfCyAKepwgZIHaiZuGcgqhPhyWM35-W3kAj8FZeKkc42oxS-qWEXh1UmMficeR7z73I5sIGGGIVt-f-5sq1DyfmVIkeQ6GdATzUEkg=w1367-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Étirée le long du flanc oriental de l'extrémité sud-est de la presqu'île de Quiberon, juste avant le promontoire sauvage de la pointe du Conguel, la plage du Conguel déploie un long ruban de sable fin doré baigné par les eaux calmes et abritées de la baie de Quiberon. Protégée des fortes houles atlantiques par l'avancée rocheuse de la presqu'île, cette anse lumineuse est bordée d'un cordon dunaire préservé tapissé d'oyats, de chardons bleus des dunes et d'immortelles des sables.\n\nÀ marée basse, l'estran découvre largement en dévoilant des étendues de sable ferme ponctuées d'affleurements granitiques plats et de petites vasques marines, offrant un terrain privilégié pour la pêche à pied et la promenade littorale face au panorama maritime ouvert sur les îles de Houat et Hoëdic, le phare de la Teignouse et l'entrée du golfe du Morbihan.",
+    visiter: "Longer le sentier littoral bordant la dune de la plage du Conguel au sud-est de Quiberon pour profiter du calme abrité de la baie, marcher sur le sable découvert à marée basse et admirer le phare de la Teignouse et les îles morbihannaises au large.",
+    link: ""
+  },
+  {
+    id: "quiberon_pointe_du_conguel",
+    name: "Quiberon - La Pointe du Conguel & Panorama sur la Teignouse et Houat",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Quiberon",
+    altitude: 1,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Cap Granitique Extrême de la Presqu'île de Quiberon, Îlots Roches & Phare de la Teignouse",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 47.46903,
+    lng: -3.07951,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNAnKDBjg1hLl_oc8lPQ-FQMgXnIq1C1LSMVDK8nadFpz4ahtBjA1A_LBdNdx14ucXFgduuy8Xbly6IL6HHeAUpsK-rKUaOCCP2g0CN-YuVKJmoE2s33Fzj4dD-CvMCTI5S0mVN35GIYjygZ07f-81IKA=w1366-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNaZcrtXo_ZSjROP1qYuix7RBwMiR8NZ7SLCtGkJ6xj8ZEoZDqSNlaJd9I92Px-YaXEBgNu0H3WPMxVrlt4_1sRCc6KNXZWjkNdoibEmCpbnCobS6d84wyxMuFF4Fnd0il5eYpMeSrrOhE41-xQYSd7gQ=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMNUm7ncVYGtyx0pfKST5z17P1IX7VANVFjppWc_Ryw3E-tXmJj3vgqS5I7FGYWrgbG2HznU2mLFHiFRfp2OrXS0kYprZ9Qm0-3rsPSdfGBNlJbUQPxLzLO42tcrZSC4XY681UVuf6DL9nSL-p5zauQwA=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Avancée rocheuse la plus méridionale de la presqu'île de Quiberon, la pointe du Conguel — dont le nom breton évoque littéralement « l'extrémité » ou « le bout de terre » — s'avance tel un éperon de granite déchiqueté au point de rencontre entre la baie de Quiberon et le coureau de Belle-Île. Protégé au titre des espaces naturels littoraux remarquables et site archéologique majeur ayant livré un célèbre dolmen néolithique aujourd'hui disparu ainsi que des traces d'occupation romaine, ce cap balayé par les embruns dévoile un paysage minéral saisissant d'écueils, de dalles granitiques sculptées par la mer et de pelouses maritimes rases.\n\nÀ son extrémité, l'archipel miniature des îlots rocheux de Toul-Bihan et de la roche Karek-Pell prolonge la pointe dans les flots brassés par les courants de marée de la passe de la Teignouse, tandis que le célèbre phare en mer de la Teignouse se dresse en sentinelle au milieu des récifs. Le panorama circulaire embrasse à perte de vue les îles de Houat et Hoëdic au sud-est, la silhouette allongée de Belle-Île-en-Mer au sud-ouest et l'entrée du golfe du Morbihan au nord-est.",
+    visiter: "Parcourir les sentiers balisés de l'espace naturel protégé de la pointe du Conguel jusqu'aux rochers de l'extrémité sud-est pour admirer le phare de la Teignouse battu par les courants, les îles de Houat, Hoëdic et Belle-Île ainsi que les oiseaux marins nichant sur les îlots.",
+    link: ""
+  },
+  {
+    id: "quiberon_grande_plage",
+    name: "Quiberon - La Grande Plage & Baie Méridionale de Quiberon",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Quiberon",
+    altitude: 1,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Vaste Anse de Sable Fin Orientée Plein Sud, Station Balnéaire Historique & Panorama sur Belle-Île",
+    century: "Temps géologique",
+    category: "plage",
+    counts: {},
+    lat: 47.47954,
+    lng: -3.12098,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM4Klq6Yig5AReXf2zLs4AweP7bcgMOsB6KoR0MJtjtaRiut__F1m1-f5oSPOvV4TyCCw7c5vUg2v488T6juEkSX5ALwAjUwGUT6LT6NjsfcHqCyROYvN5B5lX98CjYaD3REWjrud8iAU1DdVBqzOTTcg=w1367-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Déployée en un vaste arc de cercle de près d'un kilomètre de longueur au cœur même de la station balnéaire de Quiberon, entre le port maritime de Port-Maria à l'ouest et la pointe de Beg-er-Lan à l'est, la Grande Plage bénéficie d'une orientation exceptionnelle plein sud qui en fait l'une des plages les plus ensoleillées et abritées de Bretagne méridionale. Protégée des vents dominants d'ouest par le relief granitique de la Côte Sauvage, cette large étendue de sable fin blanc et doré descend en pente douce vers les eaux claires de l'Atlantique.\n\nLongée par une élégante promenade piétonne ponctuée de villas balnéaires de la fin du XIXe et du début du XXe siècle témoignant de l'essor touristique consécutif à l'arrivée du chemin de fer en 1882, la Grande Plage offre depuis le rivage un panorama marin remarquable sur le phare de Port-Maria, le ballet des navires assurant la liaison avec les îles et, à l'horizon méridional, la longue silhouette tabulaire de Belle-Île-en-Mer.",
+    visiter: "Se promener le long de l'esplanade piétonne bordant la Grande Plage de Quiberon entre Port-Maria et Beg-er-Lan pour profiter de l'ensoleillement plein sud, admirer les villas balnéaires historiques et contempler Belle-Île-en-Mer à l'horizon.",
+    link: ""
+  },
+  {
+    id: "quiberon_menhir_de_beg_er_goh_lannec",
+    name: "Quiberon - Menhir de Beg-er-Goh-Lannec (La Pointe de la Vieille Lande)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Quiberon",
+    altitude: 5,
+    transport: "a_pied",
+    era_group: "prehistoire",
+    era_label: "Menhir Côtier en Granite (Ve-IVe Millénaires av. J.-C., 4,30 m) Face à l'Océan Atlantique",
+    century: "Ve millénaire av. J.-C.",
+    category: "megalithe",
+    counts: { megalithe: 1 },
+    lat: 47.48354,
+    lng: -3.14169,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNyyFIpl4pJv6VmJcrzW5z85im5e-YU3Cfzy8SBeM72LMbXYUNU1hgSlVcFyWaLa5PiscM1uwrkBMm3WqazCgmQ7HrcelB54iY6kkg5ufZigEQcrMdq-qiMpzJC0LRFivxmjZ55nTQ-b5zP5WXwV-Y7mw=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP3xt0_LkSUVcGBgpRm2jF5_UC2VEHMo5FLbRGteiMxdmVvA31GeYMjiwsXt3nwz0Puto9B6VhYkOAWT-GZFNcx_1siPfqPaSdAWL_nHi95cltPA-hTdWUSdg4Eyr51VdZsl0_nUJcWMr-s9B6Xw3vPmg=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressé en sentinelle solitaire face aux vagues de l'océan Atlantique au début de la Côte Sauvage de Quiberon, non loin du village de Saint-Julien et de la pointe de Beg-er-Goh-Lannec (« la pointe de la vieille lande » en breton), ce remarquable menhir en granite local s'élève à plus de quatre mètres trente de hauteur au-dessus de la lande côtière rase. Érigé au cours des Ve ou IVe millénaires av. J.-C., ce monolithe élancé à la silhouette effilée et légèrement inclinée vers le large a traversé les millénaires malgré l'assaut incessant des tempêtes hivernales et des embruns salins.\n\nClassé au titre des Monuments historiques, ce géant de pierre constitue un repère visuel et marin saisissant entre terre et océan : à l'époque néolithique, lorsque le niveau de la mer était nettement plus bas qu'aujourd'hui, il dominait une vaste plaine littorale s'étendant vers Belle-Île, témoignant de l'occupation préhistorique intense de l'extrémité méridionale de Quiberon.",
+    visiter: "Suivre le sentier côtier au sud de la Côte Sauvage près du village de Saint-Julien à Quiberon pour approcher le menhir élancé de Beg-er-Goh-Lannec dressé face à l'Atlantique et admirer le contraste entre sa silhouette verticale de granite et l'horizon océanique.",
+    link: ""
+  },
+  {
+    id: "saint_pierre_quiberon_plage_de_port_bara",
+    name: "Saint-Pierre-Quiberon - Plage & Criques de Port-Bara (Côte Sauvage)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Saint-Pierre-Quiberon",
+    altitude: 3,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Crique Sablonneuse Encaissée entre Falaises Granitiques Déchiquetées sur la Côte Sauvage",
+    century: "Temps géologique",
+    category: "plage",
+    counts: {},
+    lat: 47.51341,
+    lng: -3.15085,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczORdft_bNSfUE0GZDEiq8QsoLQEzmiiixp5SKXm-87G6_qc2PHoVgYY3HcdOsXNO_DnGUBsOkDvN8ZP29zn_kuVokMYwF003G0eYyORIf3w5uFhP7N40nFgsZzMsJMI_VWJqDgS838zM8aJRtyglbC42Q=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPles2nFKgaPqwTPDZPfhEO_OtnHRbbhg7nEyGRWhoR1t1pUcumqUzxsBkdb-yTOp77sfxBdBpQRcNapr_mey9xoe8bPcWV473qZmWuwVOBQotM-XO_rexWxiO2fxlGruPRtzurGi29bhTL3BuRCxiZTg=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOlbZoOYXSp1fjLsZ1IvmDOgwckFLp7s25iJsIeq2k8AllPl7D60UGlNQOqOwxxrkgEp8ght-ByGtrgXsvnKyjN81nZRPKmumXuTLpUiDBkSy9CplXUwUK9c5N-Kx5DteZqsztijNfwqI2LQn6f90mjkw=w1366-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Nichée au creux d'une échancrure spectaculaire des falaises granitiques de la Côte Sauvage sur la commune de Saint-Pierre-Quiberon, la plage de Port-Bara — dont le nom breton signifie « le port du pain » en souvenir des anciens débarquements de céréales et de vivres provenant des îles voisines — offre l'un des paysages littoraux les plus dramatiques et photogéniques de Bretagne méridionale. Encadrée par de puissants promontoires de granite feuilleté et diaclasé sculptés par les assauts de la houle atlantique, cette crique de sable clair est ponctuée d'écueils rocheux et de grottes marines creusées dans les failles de la falaise.\n\nExposée de plein fouet aux puissantes vagues du large venues de l'Atlantique, Port-Bara constitue un haut lieu réputé pour le surf et les sports de glisse tout en offrant aux promeneurs du sentier des douaniers un spectacle naturel saisissant : le contraste entre l'écume blanche des rouleaux, les teintes turquoise et émeraude de l'eau sur le sable et les parois de granite doré couronnées d'une pelouse maritime rase d'arméries maritimes et d'ajoncs couchés par le vent.",
+    visiter: "Descendre par l'escalier aménagé dans la falaise depuis le sentier côtier de la Côte Sauvage à Saint-Pierre-Quiberon pour fouler le sable de Port-Bara, observer les grottes marines et les écueils granitiques encadrant la crique ainsi que les vagues atlantiques.",
+    link: ""
+  },
+  {
+    id: "saint_pierre_quiberon_arche_de_port_blanc",
+    name: "Saint-Pierre-Quiberon - L'Arche Naturelle de Port-Blanc (Roche Percée - Côte Sauvage)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Saint-Pierre-Quiberon",
+    altitude: 10,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Arche Marine Monumentale Sculptée dans le Granite de la Côte Sauvage par l'Érosion Atlantique",
+    century: "Temps géologique",
+    category: "arche",
+    counts: { arche: 1 },
+    lat: 47.52209,
+    lng: -3.15375,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMsXy0jstThymjWa0HQYXfEWl_RsZJgUSkqwPoJhKBfbMBgB2GrsqgcBSFvLW33eYyAlMDoTICnWKJeVohZj-mKZGoYHqc_k5Wg4A6vI-2vN-_yu6IwFbzQacnZSa5MwXH6boHax-qL1R2Wyi7VUQ759w=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMZg9p5hMSVAzBDR_AkjWl4NFeJt_AtS1qmLCKN6K4MfMNrR-5bRzdIEmaZKiTiLihcwQMkqShIgnRxt35_xt6QloUrw0FaQRXh_X2kv_ZWeNKjkUkJym42o4hPZ1pHAOobn0DrkDLENk_wHfiMmsfJSQ=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMivR7iYAxwZn0Ux9JboSQx0QE_AHX3Lj6Yo0Vy504vvdpOaQAuKownDtUF3Z6T7wzVg_qaBr_pzx3Le4D9RtuUppB24Q9Vf-AZo8hOmpy0rU8u2d152bLafFXoyGo9h87VGIq66d0m4crc100zfCrqww=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Joyau géomorphologique emblématique de la Côte Sauvage de Saint-Pierre-Quiberon, l'arche naturelle de Port-Blanc — également appelée la Roche Percée — dresse sa silhouette sculpturale au-dessus des flots tumultueux de l'océan Atlantique au nord de la plage de Port-Bara. Ce pont de pierre monumental a été patiemment façonné au fil des millénaires par l'action mécanique incessante de la houle, des marées et des tempêtes atlantiques exploitant un réseau de fractures verticales (diaclases) dans le massif de leucogranite armoricain.\n\nÀ marée haute, les vagues s'engouffrent avec fracas sous la voûte rocheuse haute de plusieurs mètres en projetant des gerbes d'écume, tandis qu'à marée basse l'estran découvre une crique secrète de sable et de galets permettant d'admirer de près l'épaisseur de l'arc granitique incrusté de balanes, de patelles et d'algues brunes. Dominée par les falaises tapissées de pelouses aérohalines résistantes aux embruns, cette arche spectaculaire offre un cadre naturel d'une puissance sauvage incomparable face au grand large.",
+    visiter: "Suivre le sentier côtier de la Côte Sauvage jusqu'au belvédère de Port-Blanc à Saint-Pierre-Quiberon pour contempler d'en haut l'arche naturelle de granite enjambant les flots, et descendre sur la crique à marée basse en respectant la sécurité des falaises.",
+    link: ""
+  },
+   {
     id: "locmariaquer_port_et_cale",
     name: "Locmariaquer - Le Port & Les Quais sur le Golfe du Morbihan",
     country: "France",
