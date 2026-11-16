@@ -7,6 +7,92 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "naples_eglise_san_domenico_maggiore",
+    name: "Naples - Basilique Saint-Dominique-Majeur (Basilica di San Domenico Maggiore)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Campanie",
+    department: "Province de Naples",
+    subdiv: "Naples",
+    altitude: 45,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Basilique Gothique Angevine (1283-1324), Plafond Baroque Doré & Panthéon des Rois d'Aragon",
+    century: "XIVe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 40.84886,
+    lng: 14.25441,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPkCOn_pTI6bwIoVOBSKx15Pxz-OskDT5asHWX3GiAceFcy-IigI_Gk3AB0PLbaWsZUm5dX0cV03jbuFmQUB-uASzMGIfayWGHvEFkA1ZQYTVOQw_w5zFKe9rBSuGh0w73KJ4shXzawpXuRxS_blqHWGw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPdgsuoh6uiKjWlQr5MWMYrQx7Du2ghKv8VQ6qLEbHkEagwy9m2po44YnOXuGMIBxjrsAded_g5CTnbG3DiTD-vNKkv5CXzbgXdLKdM6BslJCbaO9fAyxS5M63U2pGa9XPjU6FhQgATLsfAA6JbfxjpNA=w1379-h919-s-no-gm?authuser=0",
+        caption: "La nef principale frappe par ses proportions imposantes et la richesse de son ornementation. Elle est séparée des bas-côtés par de hautes arcades ogivales dont les piliers sont rythmés par des pilastres décorés de stucs et de dorures. L'élément le plus spectaculaire est sans doute le plafond à caissons dorés, un chef-d'œuvre du XVIIe siècle qui porte en son centre les armes des Dominicains. Ce plafond plat masque la charpente d'origine et crée un contraste saisissant avec la verticalité des arcs gothiques, unifiant l'espace par une lumière chaude que les vitraux colorent de reflets pourpres et bleutés sur les colonnes.\n\nAlors que le plan au sol respecte la tradition médiévale, le décor est un hymne au baroque. Chaque arc s'ouvre sur des chapelles latérales (au nombre de 24) qui constituent autant de petits musées privés. Le mobilier liturgique, notamment la chaire à prêcher monumentale et l'orgue massif au fond du chœur, participe à cette mise en scène théâtrale. Le sol, pavé de marbres polychromes, reflète les dorures des arcs et du plafond, créant une impression de richesse inépuisable. C'est ici que se rejoignent la rigueur intellectuelle des Dominicains et l'exubérance décorative de Naples.\n\nLa nef ne servait pas uniquement au culte, mais aussi de lieu de mémoire. Elle mène vers la sacristie et la salle des Arches où sont conservés les cercueils de 45 membres de la dynastie d'Aragon. Dans la nef même, les monuments funéraires sculptés dans le marbre blanc s'adossent aux piliers, rappelant que cette église fut le \"panthéon\" de l'aristocratie napolitaine pendant des siècles. Chaque élément sculpté, chaque tableau d'autel raconte une strate de l'histoire de la cité, faisant de cette nef un livre ouvert sur l'évolution de l'art européen, du Moyen Âge au XIXe siècle."
+      }
+    ],
+    description: "Dominant la place éponyme au cœur du centre historique antique de Naples, le long du tracé millénaire du decumanus inférieur (Spaccanapoli), la basilique San Domenico Maggiore constitue l'un des ensembles monumentaux les plus prestigieux et chargés d'histoire de l'Italie méridionale. Fondée en 1283 à l'initiative du roi Charles II d'Anjou pour l'ordre des Frères Prêcheurs et achevée en 1324 selon les canons du gothique angevin importé de France, l'église devint rapidement le sanctuaire privilégié de la noblesse napolitaine et de la cour royale aragonaise, tout en abritant le couvent où enseigna saint Thomas d'Aquin.\n\nAu fil des siècles, l'austère vaisseau gothique à trois nefs fut habillé d'un somptueux décor baroque et néogothique associant un monumental plafond plat à caissons dorés du XVIIe siècle, un pavement en marbres polychromes et vingt-quatre chapelles latérales ornées de chefs-d'œuvre de Pietro Cavallini, Tino di Camaino, Cosimo Fanzago et Luca Giordano. Sa célèbre sacristie abrite également la galerie suspendue des tombeaux de quarante-cinq princes et souverains de la dynastie d'Aragon, faisant de ce sanctuaire une véritable synthèse de l'histoire artistique et dynastique de Naples.",
+    visiter: "Contempler depuis la Piazza San Domenico Maggiore l'abside polygonale gothique en pierre de piperno et de tuf, puis pénétrer par le portail latéral pour embrasser la perspective de la grande nef ogivale coiffée de son plafond doré à caissons. Les visiteurs parcourent les chapelles nobiliaires latérales et accèdent à la sacristie pour admirer la fresque de Francesco Solimena et la galerie des sarcophages des souverains d'Aragon.",
+    link: ""
+  },
+  {
+    id: "naples_eglise_du_gesu_nuovo",
+    name: "Naples - Église du Gesù Nuovo (Chiesa del Gesù Nuovo)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Campanie",
+    department: "Province de Naples",
+    subdiv: "Naples",
+    altitude: 41,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Façade Renaissance à Bossages en Pointes de Diamant (1470) & Sanctuaire Baroque Jésuite (XVIIe siècle)",
+    century: "XVIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 40.84747,
+    lng: 14.25196,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPYnpFx4UoWmlKw8p8a8k38g8wY7JQV88FAuGkpjMp35AitIA5CX9G5WA4gtxpFQO_zql3eS3hTEVYrVDRuWpemZ78Y9vj-HHjMx7W8ZMJ-9_dd1by9NgjUhRoPFWr5vjeMa9BZswOkRpSspdWEXCpUKQ=w1377-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO7sHOMDlyuPJ1pSofmaj8-ygc2iwjymSbPBCfApwFW5FKkSgvhs6Fra4QZnzyxFdsz1IisVIVmnYde0bLVtYHqh9SUVi7gVwv3U4gFi1YRwqgHLNqpU4RonV11xh8Rmo5KfJrrcELNChFWv2vX-RM_nA=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'intérieur, en croix grecque, offre une profusion décorative inégalée où le marbre polychrome recouvre chaque millimètre des parois. Les piliers colossaux, rythmés par des pilastres composites, supportent une voûte en berceau dont les caissons dorés encadrent des fresques monumentales.\n\nLe chœur, visible au centre de cette vue, est dominé par un maître-autel d'une richesse inouïe, encadré par des colonnes de marbre rare. Au-dessus, la coupole (reconstruite plusieurs fois) laisse filtrer une lumière zénithale qui vient faire scintiller les ors et les incrustations de pierres dures. Les fresques du plafond, œuvres de maîtres tels que Belisario Corenzio et Paolo de Matteis, racontent des cycles bibliques dans une mise en scène théâtrale typique de l'esprit de la Contre-Réforme. On remarque également les tribunes à balustrades dorées qui accueillaient les musiciens, renforçant l'aspect de \"palais céleste\" de ce sanctuaire."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOjaa_ifGZzk7prZFl1JP3vXi9AqZZQkLL2JWpp2HoQfC0rDnSqf9CegJ35_nMxVbvK7Qxq7xwB4KhoPEYdx6S1mdmWtRL1s5u_5J_ERXD8sr7gi-3ocRu1SrpyRAeogeg-2xG47pq2ImX0l5UYAEhjbA=w1379-h919-s-no-gm?authuser=0",
+        caption: "Cette perspective en contre-plongée saisit la majestueuse coupole de l'église du Gesù Nuovo à Naples, l'un des points d'orgue de l'architecture baroque napolitaine du XVIIe siècle.\n\nLa structure actuelle, qui couronne la croisée du transept, est le résultat d'une histoire tourmentée faite d'effondrements et de reconstructions (notamment après des séismes au XVIIe et XVIII siècles). Elle se compose d'un tambour percé de fenêtres qui inondent de lumière le centre de l'église, surmonté d'une calotte ornée d'un réseau complexe de caissons géométriques. Ces motifs en relief, rehaussés d'or et de stucs, créent un effet d'optique qui semble aspirer le regard vers la lanterne centrale, symbolisant l'ascension vers le divin.\n\nAutour de la base de la coupole, les pendentifs sont ornés de fresques monumentales représentant les quatre Évangélistes, œuvres de Paolo de Matteis. Elles s'intègrent dans un programme iconographique foisonnant où les voûtes adjacentes sont recouvertes de peintures de Belisario Corenzio, illustrant des cycles bibliques. La profusion de dorures, de marbres polychromes et d'ornements en \"trompe-l'œil\" qui encadrent la coupole témoigne de la volonté des Jésuites de transformer cet espace en une vision céleste sur terre, propre à l'esprit de la Contre-Réforme."
+      }
+    ],
+    description: "Dressée sur la vibrante Piazza del Gesù Nuovo au seuil occidental de Spaccanapoli, l'église du Gesù Nuovo constitue l'un des monuments les plus singuliers et théâtraux de l'architecture napolitaine, né de la métamorphose spectaculaire d'un palais princier Renaissance en sanctuaire majeur de la Compagnie de Jésus. Sa façade austère et énigmatique en pierre volcanique sombre de piperno, entièrement revêtue de bossages taillés en pointes de diamant et gravés de mystérieux signes lapidaires, appartient en effet à l'ancien Palazzo Sanseverino édifié en 1470 par Novello da San Lucano pour le prince de Salerne.\n\nConfisqué par la couronne espagnole et acquis par les Jésuites en 1584, l'édifice fut transformé entre 1584 et 1601 selon les plans du père architecte Giuseppe Valeriano, qui conserva intacte la façade fortifiée du XVe siècle tout en évidant l'intérieur pour déployer un vaste espace en croix grecque. Derrière la sévérité minérale de l'extérieur éclate l'un des sommets absolus du baroque napolitain : un revêtement intégral de marbres marquetés polychromes, de stucs dorés et de fresques monumentales signées Francesco Solimena, Belisario Corenzio, Jusepe de Ribera et Paolo de Matteis transformant la nef et sa coupole en une vision triomphante de la Contre-Réforme.",
+    visiter: "Observer depuis la Piazza del Gesù Nuovo les blocs de pierre volcanique taillés en pointes de diamant de l'ancienne façade Renaissance, puis franchir le portail de marbre pour ressentir le contraste saisissant avec l'exubérance baroque de l'intérieur. Les visiteurs admirent la marqueterie de marbres colorés, l'abside et la coupole ornée des pendentifs de Paolo de Matteis, ainsi que la grande fresque d'Héliodore chassé du Temple peinte par Francesco Solimena sur la contre-façade.",
+    link: ""
+  },
+  {
+    id: "naples_obelisque_de_l_immacolata",
+    name: "Naples - Flèche & Obélisque de l'Immaculée Conception (Guglia dell'Immacolata)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Campanie",
+    department: "Province de Naples",
+    subdiv: "Naples",
+    altitude: 41,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Chef-d'Œuvre du Baroque Tardif Napolitain (1747-1750), Flèche Votive en Marbre & Piperno (30 m)",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 40.84705,
+    lng: 14.25159,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN7GFUhUCuWjj-pOqlZRQleWnQpRL7NwcmbxN8gAI4qOXZpMorB89pe79Hl7GhWIe3uuyeL_8f9N-9unoDnkPcf1_VcCicIuoVpe0LsZ97NXuDa1iEoTIoDkbgnVJuNz32HXebYVA58IN711RLGSyo0ZQ=w613-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Érigée au centre de la Piazza del Gesù Nuovo face à la façade en pointes de diamant de l'église jésuite éponyme, la Guglia dell'Immacolata (Obélisque de l'Immaculée Conception) s'impose comme la plus haute, la plus somptueuse et la plus audacieuse des célèbres flèches votives baroques de Naples. Commandée par le père jésuite Francesco Pepe et réalisée entre 1747 et 1750 grâce à une souscription publique sur les plans de l'architecte Giuseppe Genoino, cette pyramide sculpturale haute de près de trente mètres incarne l'apogée théâtral et virtuose du baroque tardif et du rococo napolitain.\n\nConçue à la manière d'une immense machine scénographique éphémère pétrifiée dans le marbre blanc de Carrare et la pierre volcanique grise de piperno, la flèche superpose trois registres richement ouvragés peuplés d'une multitude de statues, de volutes, de guirlandes florales, de nuées d'angelots et de bas-reliefs illustrant la vie de la Vierge sculptés par Matteo Bottiglieri et Francesco Pagano. À son sommet, couronnant la pyramide ajourée, se dresse la statue en cuivre doré de l'Immaculée Conception dominatrice, devenue depuis le XVIIIe siècle le théâtre d'une célèbre cérémonie annuelle chaque 8 décembre lorsque les pompiers de Naples hissent une couronne de fleurs jusqu'aux bras de la Vierge.",
+    visiter: "Contourner la balustrade de la Guglia dell'Immacolata au centre de la Piazza del Gesù Nuovo pour admirer sous tous les angles le foisonnement sculptural des registres en marbre blanc et pierre grise, détailler les bas-reliefs mariaux de Matteo Bottiglieri et lever les yeux vers la statue dorée de la Vierge se découpant sur le ciel napolitain.",
+    link: ""
+  },
+   {
     id: "castellammare_di_stabia_cathedrale_santa_maria_assunta",
     name: "Castellammare di Stabia - Concathédrale Santa Maria Assunta e San Catello",
     country: "Italie",
