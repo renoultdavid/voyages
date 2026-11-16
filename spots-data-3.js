@@ -7,6 +7,149 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "locmariaquer_port_et_cale",
+    name: "Locmariaquer - Le Port & Les Quais sur le Golfe du Morbihan",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Locmariaquer",
+    altitude: 1,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Port Ostréicole & Maritime du Golfe du Morbihan, Cales en Granite & Liaisons vers les Îles",
+    century: "XIXe siècle",
+    category: "port",
+    counts: {},
+    lat: 47.56959,
+    lng: -2.94324,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP1ihjIEuWHENkJWWw5PIvujDNrU-jolTF60xbhbwmSHxpD-k43zhrpNre6QQANH-58wJof4snn6zJ2AV4L3efneSxA6vifgWJLXfLacZOOIsjR36pbss984Fyjtb9KHyXdjGhwQ3xw8wsJGV9YM2sSpw=w1367-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Idéalement implanté sur la rive orientale de la presqu'île de Locmariaquer, à l'endroit précis où les eaux intérieures du golfe du Morbihan rejoignent l'océan Atlantique par l'étroit goulet de Port-Navalo, le port de Locmariaquer occupe un site maritime privilégié habité et exploité depuis l'Antiquité gallo-romaine. Jadis port de cabotage actif exportant les produits agricoles et le sel de la presqu'île tout en servant de relais essentiel entre le continent et les îles du golfe, ce havre abrité des houles océaniques s'est affirmé dès la seconde moitié du XIXe siècle comme l'un des berceaux historiques de l'ostréiculture bretonne, bénéficiant de la richesse nutritive des courants de marée brassant les eaux de la rivière d'Auray et du Morbihan.\n\nStructuré autour de ses cales inclinées en pierre de taille de granite — dont la cale du Guilvin —, de ses quais bordés de maisons de pêcheurs blanchies à la chaux et de ses pontons flottants accueillant vedettes de liaison, voiliers traditionnels et chalands ostréicoles, le port offre un observatoire vivant sur l'activité maritime du golfe. À marée haute comme à marée basse, lorsque se découvrent les vastes estrans et les parcs à huîtres environnants, le regard embrasse l'entrée du goulet face à la presqu'île de Rhuys, l'île Longue, Gavrinis et le ballet incessant des embarcations naviguant au gré des puissants courants de marée.",
+    visiter: "Flâner le long des quais et des cales en granite du port de Locmariaquer pour observer l'animation des bateaux ostréicoles et des vedettes desservant les îles du golfe du Morbihan, tout en admirant le panorama ouvert sur le goulet de Port-Navalo et la presqu'île de Rhuys.",
+    link: ""
+  },
+  {
+    id: "locmariaquer_eglise_notre_dame_de_kerdro",
+    name: "Locmariaquer - Église Notre-Dame de Kerdro",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Locmariaquer",
+    altitude: 7,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Sanctuaire Roman Breton (Fin XIe-XIIe siècles), Croisée à Chapiteaux Sculptés & Nef Lambrissée",
+    century: "XIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.56911,
+    lng: -2.94401,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNQOwI5hl6ByDG5x6kpc9qykqDIYUjOmtFuYNPpTX4068-nDPFxnwL7wUCWzuyjW48yyjrftzfQUn9ZU45cVz2Vqaq8SSFpF6oyW7AXdFdOyNfwtxS7LNdQbSnbLDRWe1mxLIA2R_WoyJHgXNFTnqsyHQ=w607-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOiF1hPK_kjUV4uMtG3mitCccyuO-n_H7hanDhuBPjBBxNz193TquwmvkE-ZQPlbxZFFkBcCnUla_WmPKSNdytmtoncDYPKXyCgms8eNSC0___jPxGl0GUsFuFpqWl5f8H5vjlaYT8bVIZzEiSjX0E_0A=w1366-h911-s-no-gm?authuser=0",
+        caption: "La nef, que l'on découvre dans une ambiance de pierre brute et de lumière tamisée, est caractéristique du style roman par sa robustesse. Elle est séparée des bas-côtés par de grandes arcades en plein cintre reposant sur des piliers massifs, pour la plupart de section carrée. Contrairement aux voûtes en pierre des églises plus tardives, la nef est ici couverte d'un lambris de bois en forme de berceau, soutenu par des entraits (poutres horizontales) apparents. Cette structure confère à l'espace une chaleur particulière et une acoustique adaptée au recueillement.\n\nLa partie la plus remarquable de l'édifice est sans doute la croisée du transept. On y observe quatre grands arcs diaphragmes en plein cintre qui supportent la tour-clocher. Les chapiteaux des colonnes engagées offrent un exemple fascinant de la sculpture romane primitive : les motifs sont simples, souvent géométriques ou végétaux stylisés, typiques du XIe siècle. Le chœur, situé dans le prolongement, a conservé son caractère ancien avec une abside en hémicycle, créant un point focal où la pierre de taille, mise à nu lors des restaurations du XXe siècle, exprime toute sa force."
+      }
+    ],
+    description: "Érigée au cœur du bourg historique de Locmariaquer à quelques pas des rives du golfe du Morbihan, sur l'emplacement d'un ancien établissement gallo-romain dont des fragments de briques et de tuiles furent remployés dans ses maçonneries, l'église Notre-Dame de Kerdro constitue l'un des plus précieux témoignages de l'architecture romane primitive en Bretagne méridionale. Édifié entre la fin du XIe siècle et le début du XIIe siècle à l'époque où la paroisse relevait de la puissante abbaye Sainte-Croix de Quimperlé, ce sanctuaire dédié à la Vierge protectrice des marins — « Kerdro » signifiant littéralement « le village du tour » ou du passage — a traversé les siècles en conservant l'essentiel de sa structure médiévale originelle malgré la reconstruction de sa façade occidentale au XVIIe siècle.\n\nClassé au titre des Monuments historiques, l'édifice séduit par la sobriété puissante de son plan en croix latine et la mise en valeur de ses parements de granite mis à nu lors des restaurations du XXe siècle. Sa nef lumineuse à trois vaisseaux, couverte d'une charpente lambrissée en berceau aux entraits apparents, conduit vers une remarquable croisée du transept soutenue par quatre grands arcs diaphragmes en plein cintre, dont les colonnes engagées portent un ensemble rare de chapiteaux romans sculptés de feuillages stylisés, de volutes, d'entrelacs et de motifs géométriques d'inspiration archaïque.",
+    visiter: "Pénétrer dans l'église Notre-Dame de Kerdro au centre du bourg de Locmariaquer pour admirer la sobriété romane de sa nef en granite et de sa voûte lambrissée, puis s'avancer jusqu'à la croisée du transept afin de détailler les chapiteaux sculptés du XIe siècle et le chœur en hémicycle.",
+    link: ""
+  },
+  {
+    id: "locmariaquer_menhir_men_bronzo",
+    name: "Locmariaquer - Menhir Couché de Men Bronzo (La Pierre de la Mamelle)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Locmariaquer",
+    altitude: 10,
+    transport: "a_pied",
+    era_group: "prehistoire",
+    era_label: "Monolithe Néolithique en Granite (Ve Millénaire av. J.-C.) & Tradition Populaire Bretonne",
+    century: "Ve millénaire av. J.-C.",
+    category: "megalithe",
+    counts: { megalithe: 1 },
+    lat: 47.56986,
+    lng: -2.94735,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNhDcsQR9bGhZQ0P7bHHvGjwv6dyu3yKEjKe89V_e5xac75d7eh_-QiztmeeU5P3_zGU3TGEiH85ruNnXVxrBj_SAQlpHH_0yEy84XnY0_vgOa_v1gnv-EJdQSK__oiEH84z-Z3cdUollUI_qfY1ohfLQ=w1367-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Situé à l'écart des grands itinéraires touristiques dans un secteur résidentiel paisible du bourg de Locmariaquer, à proximité du dolmen de Mané Rutual, le menhir de Men Bronzo — également connu sous le nom de menhir de Kerpenhir ou de la Croix-de-Pierre — constitue un témoin discret mais évocateur de l'exceptionnelle densité mégalithique de la presqu'île au Néolithique. Ce bloc monolithe en granite local de près de quatre mètres de longueur, aujourd'hui couché sur le sol après avoir été renversé à une époque indéterminée, appartenait vraisemblablement au vaste réseau de stèles et d'alignements érigés au cours du Ve millénaire av. J.-C. autour du bassin de Locmariaquer, dont le célèbre Grand Menhir Brisé d'Er Grah représentait le point focal monumental.\n\nSon nom breton pittoresque, « Men Bronzo » — que les traditions locales traduisent tantôt par « la pierre des seins » ou « la pierre de la mamelle » en référence à ses protubérances naturelles arrondies, tantôt comme une altération de « Men Braz » (« la grande pierre ») — illustre la manière dont les populations bretonnes ont intégré pendant des millénaires ces géants de pierre dans leur imaginaire, leur toponymie et leurs croyances liées à la fécondité avant que la recherche archéologique moderne ne révèle leur véritable ancienneté préhistorique.",
+    visiter: "S'engager dans les ruelles paisibles à l'ouest du centre de Locmariaquer pour découvrir le menhir couché de Men Bronzo au milieu de son espace arboré, observer les formes arrondies de ce bloc de granite néolithique et le replacer dans l'ensemble mégalithique tout proche de Mané Rutual.",
+    link: ""
+  },
+  {
+    id: "locmariaquer_dolmen_de_mane_rutual",
+    name: "Locmariaquer - Dolmen Gravé de Mané Rutual (Mané Réthual)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Locmariaquer",
+    altitude: 10,
+    transport: "a_pied",
+    era_group: "prehistoire",
+    era_label: "Dolmen à Couloir & Chambre Mégalithique (IVe Millénaire av. J.-C.), Dalle-Menhir Réemployée & Gravures",
+    century: "IVe millénaire av. J.-C.",
+    category: "megalithe",
+    counts: { megalithe: 1 },
+    lat: 47.56902,
+    lng: -2.94767,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOpaIEIzFbrwxe8oY9KKDY3GCbKYUnQIs3-XOj_-3O3qojB6RFHgwaf7W9aa-noL64rXe3pkKaDHOL3tzTUyFJy__UV7kp5izXv9ZGv5iLdPXL7XU9v_i1dYXq9HGsd_X5-PuH9x-MG09hplCgznQWSAQ=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMpxfdtpLnZTuwHTJTErY0hUsQU-3p40Wj2DNinpGFtN6OSQEhg2OyIK6Naj_Lu-zon9vm4J_00ZTq5zcvS0xQCpooqfycset06i8tSdq_bmAmMhc7lnx2iOo9-LcbOvI6mWBlyTnmsZVT_-dzxqBkyDw=w1367-h911-s-no-gm?authuser=0",
+        caption: "Le monument s'étire sur une longueur totale de près de 15 mètres. Il se compose d'un long couloir d'accès, formé de piliers de granit massifs, qui mène à une vaste chambre funéraire terminale. La caractéristique la plus spectaculaire est sans doute la dalle de couverture de la chambre : un bloc monolithique colossal de près de 11 mètres de long, dont le poids est estimé à plus de 30 tonnes. Cette dalle est en réalité un ancien menhir orné, qui a été abattu et réutilisé par les bâtisseurs pour couvrir la sépulture, une pratique courante dans la région de Locmariaquer.\n\nL'intérieur du Mané Réthual recèle des trésors pour les yeux attentifs. Plusieurs piliers, ainsi que la face inférieure de la grande dalle de couverture, portent des gravures néolithiques. On peut y observer des motifs en forme de crosses, de haches et des signes serpentiformes. La grande dalle de couverture présente également un motif célèbre souvent interprété comme une \"idole\" ou une figure anthropomorphe stylisée. Ces gravures transforment la tombe en un espace sacré codifié, où l'art et la mort se rejoignent pour célébrer la mémoire des défunts de haut rang."
+      }
+    ],
+    description: "Nichée dans une clairière paisible à l'ouest du bourg de Locmariaquer, l'allée sépulcrale de Mané Rutual — également orthographiée Mané Réthual et signifiant « la montagne de la fougère » ou « la butte de la ronce » en breton — figure parmi les monuments mégalithiques les plus impressionnants et spectaculaires du littoral morbihannais. Édifié au cours du IVe millénaire av. J.-C. (vers 3800-3500 av. J.-C.) et dépouillé depuis longtemps de son cairn protecteur d'origine, ce vaste dolmen à couloir s'étire sur une quinzaine de mètres selon un axe orienté vers le sud-est, déployant un long corridor de dalles de granite qui débouche sur une chambre funéraire polygonale de grandes dimensions.\n\nL'architecture du monument frappe par le gigantisme de sa table de couverture principale : un bloc monolithe colossal de près de onze mètres de longueur pesant plus de trente tonnes, brisé en deux fragments mais demeuré en place. Les archéologues ont démontré que cette dalle monumentale correspondait à un ancien menhir dressé au Ve millénaire av. J.-C., volontairement abattu puis réemployé comme plafond funéraire, à l'image de la Table des Marchands et de Gavrinis ; sa face inférieure ainsi que plusieurs orthostates conservent d'ailleurs de remarquables gravures piquetées représentant une grande figure en écusson (idole néolithique), des crosses et des signes serpentiformes.",
+    visiter: "Rejoindre l'enclos arboré du dolmen de Mané Rutual à l'ouest du bourg de Locmariaquer pour contourner l'imposante file de dalles de granite et pénétrer sous l'immense table de couverture réemployée, en observant à la lumière rasante les gravures néolithiques ornant le plafond et les piliers.",
+    link: ""
+  },
+  {
+    id: "locmariaquer_tumulus_de_mane_er_hroeck",
+    name: "Locmariaquer - Grand Tumulus & Chambre Gravée de Mané er Hroeck",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Bretagne",
+    department: "Morbihan",
+    subdiv: "Locmariaquer",
+    altitude: 12,
+    transport: "a_pied",
+    era_group: "prehistoire",
+    era_label: "Tumulus Carnacéen Géant (Ve Millénaire av. J.-C., 100 m), Haches en Jadéite & Stèle Gravée",
+    century: "Ve millénaire av. J.-C.",
+    category: "megalithe",
+    counts: { megalithe: 1 },
+    lat: 47.56274,
+    lng: -2.93847,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOLdcQW7yZffi3zDW6Ac4T9ldsV6XaOdSOQMFNBDRJXw7RCiOeuiik9QDbl9AYFshTWb_NZjYGcJnhzgRBS0h5ZVsIPRI9maq0VHObohlIRsq4cEIHQo_-5AXqeWFv41KQu0TJED5LFuCqWFBh7jeW3tA=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOI07zamLh8_i4l0i1ArGY-h1Lwh9BxmnpINi21YcpXiMcysz_wEGpHXRpUym8OY8SQPxgZ0ldv9XWhnOHgskzR6J0IafU-_hHNBuYF_YRS068D1nbMb1Z_XWgt9VcH1LoR2GScRnBuKXzTlN-KUFjodw=w1367-h911-s-no-gm?authuser=0",
+        caption: "À l'intérieur, le monument abrite une chambre funéraire fermée, construite en pierres sèches et recouverte de deux dalles de granit massives. Contrairement aux dolmens à couloir comme le Mané Réthual, cette chambre était originellement inaccessible une fois condamnée, ce qui est typique des grands tumulus dits \"carnacéens\". L'accès actuel se fait par un escalier moderne menant au cœur du tertre, permettant d'observer la précision de l'assemblage des parois.\n\nLes fouilles ont permis de découvrir un trésor archéologique sans équivalent : une centaine de haches en roches rares (fibrolite et jadéite), dont certaines atteignent des dimensions exceptionnelles, ainsi que des parures en callaïs (une pierre verte proche de la turquoise). La pièce maîtresse du site est une grande stèle de granit gravée, placée à l'entrée de la chambre. On y distingue des motifs symboliques complexes, notamment une forme d'écusson surmonté de crosses et de haches, ainsi que des signes serpentiformes. Cette iconographie riche souligne le caractère sacré du lieu et le rang social élevé du personnage qui y fut inhumé."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM1wnO4QrDBFn9nKFozTMZeYJ5ZG4TSkzrTKLD6LTDOtv-db_0wtixOEa8YFhjjBGBfYImkh_xgidq8ivYqwKDwV1RN2dSmEKPlQhE_ISZLUuXLi8ZrJH5Lmr1PTErEUawT8brye-nKk0mk8x-zNJ8Stw=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczORwJ65QfYSf5FWOCmsGQ_v5TOWqxQlAPJMvYAAJ9KbnVofW-PWPs_-BskbunvhMSGTaqISroussC86mzzNPA9oJVvyUQQifpPZQhViDESczT1AnXwz634_v7AznjFjP9nEHfb5EtCq6R1a8Pbi7vvSzg=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressé près de la pointe méridionale de la presqu'île de Locmariaquer face à l'entrée du golfe du Morbihan, le grand tumulus de Mané er Hroeck (« la montagne de la fée » en breton) constitue l'un des trois célèbres tertres géants dits « carnakéens » de Bretagne méridionale, avec le tumulus Saint-Michel de Carnac et le Tumiac d'Arzon. Édifié au milieu du Ve millénaire av. J.-C. (vers 4500 av. J.-C.), cet immense monument ovalaire de pierre sèche et de terre atteint près de cent mètres de longueur sur soixante mètres de largeur pour une hauteur conservée d'une dizaine de mètres, témoignant d'un chantier collectif colossal mobilisant toute une communauté néolithique pour glorifier un personnage de rang exceptionnel.\n\nExploré en 1863 par la Société polymathique du Morbihan, le cœur du tertre révéla un caveau funéraire quadrangulaire hermétiquement clos sans couloir d'accès, couvert de deux énormes dalles de granite et renfermant un dépôt prestigieux sans équivalent en Europe : cent six haches polies en roches précieuses importées des Alpes italiennes (jadéite, éclogite) ou du Massif armoricain (fibrolite), un anneau-disque en jadéite et de nombreuses perles et pendeloques en variscite (callaïs) d'Espagne, accompagnés d'une stèle gravée d'écussons, de crosses et d'une hache emmanchée conservée à l'entrée de la chambre.",
+    visiter: "Gravir les pentes gazonnées du tumulus géant de Mané er Hroeck au sud de Locmariaquer pour embrasser la vue sur l'entrée du golfe du Morbihan, puis descendre par l'escalier aménagé au cœur du tertre afin d'observer la chambre funéraire fermée en pierre sèche et la célèbre stèle gravée de motifs symboliques.",
+    link: ""
+  },
+   {
     id: "la_roche_bernard_centre_historique_village",
     name: "La Roche-Bernard - Cité Historique, Place du Bouffay & Vieilles Ruelles",
     country: "France",
