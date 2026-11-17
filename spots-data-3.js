@@ -32,7 +32,7 @@ const SPOTS_3 = [
     visiter: "Faire halte sur la petite aire de stationnement aménagée le long de la route A855 au bord du Loch Leathan au nord de Portree pour contempler la fine chute verticale de Bride's Veil Falls dévalant la paroi basaltique avec l'Old Man of Storr en arrière-plan.",
     link: ""
   },
-  {
+    {
     id: "trotternish_rando_old_man_of_storr",
     name: "Île de Skye - Randonnée de l'Old Man of Storr & Le Sanctuaire (Trotternish Ridge)",
     country: "Royaume-Uni",
@@ -52,76 +52,76 @@ const SPOTS_3 = [
     counts: { rando: 1 },
     lat: 57.50722,
     lng: -6.17470,
-    layout: "case2",
     image: "https://lh3.googleusercontent.com/pw/AP1GczPN3HTeY9KLg4nco-SjdmIeezFKMoB-KEcujUFFYAuIjgbI7srTwgNO27n16RDAeIhynomgiel4x_e7E3z3S6h_oJakquIJ1RUZSnTFZunJUWT8tjhasP7rtssl2X-3afKqpexzdcxjpm4zrMP88laGhQ=w1379-h919-s-no-gm?authuser=0",
     description: "Dominant la côte orientale de la péninsule de Trotternish au nord de Portree, l'ascension vers l'Old Man of Storr constitue la randonnée la plus célèbre, spectaculaire et emblématique de toute l'île de Skye et des Highlands d'Écosse. Ce parcours pédestre d'environ quatre kilomètres et demi à cinq kilomètres aller-retour pour près de trois cent quarante mètres de dénivelé positif s'élève depuis la route côtière A855 à travers les landes tourbeuses balayées par les vents marins jusqu'à l'amphithéâtre minéral fantastique du « Sanctuaire » (The Sanctuary). Ce chaos grandiose d'aiguilles volcaniques, de tours de pierre sombre et d'éboulis géants est né d'un colossal glissement de terrain postglaciaire ayant fracturé l'épaisse cuirasse de basalte tertiaire reposant sur des sédiments jurassiques plus tendres.\n\nAu cœur de ce décor lunaire et dramatique, le monolithe de l'Old Man of Storr dresse son obélisque vertical de basalte noir haut de cinquante mètres au pied des falaises abruptes du Storr (719 mètres). En poursuivant l'ascension par le sentier raide qui contourne les pinacles par le nord jusqu'au promontoire panoramique culminant vers 481 mètres d'altitude, le randonneur découvre un belvédère vertigineux embrassant à la fois la pointe de l'aiguille rocheuse en contre-plongée, les miroirs argentés des lochs Leathan et Fada, le détroit de Raasay, le sommet tabulaire du Dun Caan sur l'île de Raasay et, à l'horizon, la chaîne dentelée des montagnes de Torridon et d'Applecross.",
     sections: [
       {
         title: "",
-        text: "L'itinéraire de randonnée, qui dessine une boucle d'environ quatre kilomètres et demi à cinq kilomètres pour un dénivelé positif avoisinant trois cent quarante mètres, s'élance depuis le bord de la route côtière A855 au pied du massif de l'Old Man of Storr. Dès les premiers pas, un large chemin graveleux bien aménagé s'élève en lacets réguliers à travers les pentes inférieures autrefois couvertes d'une dense plantation de conifères, dont l'abattage récent a dégagé une perspective grandiose et ininterrompue sur la muraille basaltique.",
-        images: [
+        photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczPU6WlAV42f_COEVrIwl7fC3DXs7yLvvBRBSWiCsaPkt3hTh0cUJZvjBAx_soiFbk9iXnzTogM9BplQ30UrXfkWKOGw2Wu_GfnrpJJ8iHZLJm8EI92RnCOnKBzVFz6J1R_VvQhZefqxtj_KS5Uv39zyrw=w1379-h919-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczN4t3Y2Xj0V8kvH41Spr2vTotS8zVO4eVvsJEF1ZSmsYwLVSt2gE1fY7AZKsFu78rZgDjXa2RtP0FjhRhbXSfQ-pHzEiOvi-AtyN7cmNxaSvNOESMl8rpb4GkQpmh6luiyniuBs8UcKFSqI4YZSJs3Zxg=w1379-h919-s-no-gm?authuser=0"
-        ]
+        ],
+        text: "L'itinéraire de randonnée, qui dessine une boucle d'environ quatre kilomètres et demi à cinq kilomètres pour un dénivelé positif avoisinant trois cent quarante mètres, s'élance depuis le bord de la route côtière A855 au pied du massif de l'Old Man of Storr. Dès les premiers pas, un large chemin graveleux bien aménagé s'élève en lacets réguliers à travers les pentes inférieures autrefois couvertes d'une dense plantation de conifères, dont l'abattage récent a dégagé une perspective grandiose et ininterrompue sur la muraille basaltique."
       },
       {
         title: "",
-        text: "Le sentier franchit plusieurs portillons pastoraux et grimpe sur des dalles de pierre et des marches empierrées au milieu d'une lande atlantique ouverte, tapissée de bruyères callunes, de sphaignes gorgées d'eau, de joncs et de graminées dorées balayées par les vents marins. À mesure que la pente se redresse en approchant de la base des escarpements, le marcheur pénètre dans l'amphithéâtre minéral du Sanctuaire, slalomant entre d'immenses blocs éboulés tapissés de lichens et de mousses verdoyantes au pied même de la paroi verticale du monolithe et de ses aiguilles voisines telles que la Needle Rock.",
-        images: [
+        photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczN5J-rDLulmqPQjGs1aaf5okIDGWExcecGD3KA3uZNDvZSnM5PIokjYcZYfgyVrR8bGGxpfXFvqwKFGT4P3nrp9d6gZyMk4c1gRS8TKVmp5yXf22XOYTmIi23NDczlhjKjaPZKwIdAa7Gh4h2FlTqKx0g=w1379-h919-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczNKKNt0UbksENc13DZLfXI2Y9XXw8REFHAN3fjdvIo9Jqd4WWG90BwCVnoxDKRLKxvMy3s5Cs5cGQCFy4ifySt3UCDkdgg3-tTI3TU9kUOP2GCCWerNfbNBLyege9WFiimhYSUX6L7qYnzmXMOZVkUZ2w=w1379-h919-s-no-gm?authuser=0"
-        ]
+        ],
+        text: "Le sentier franchit plusieurs portillons pastoraux et grimpe sur des dalles de pierre et des marches empierrées au milieu d'une lande atlantique ouverte, tapissée de bruyères callunes, de sphaignes gorgées d'eau, de joncs et de graminées dorées balayées par les vents marins. À mesure que la pente se redresse en approchant de la base des escarpements, le marcheur pénètre dans l'amphithéâtre minéral du Sanctuaire, slalomant entre d'immenses blocs éboulés tapissés de lichens et de mousses verdoyantes au pied même de la paroi verticale du monolithe et de ses aiguilles voisines telles que la Needle Rock."
       },
       {
         title: "",
-        text: "L'effort final emprunte un sentier plus raide et caillouteux qui contourne les pinacles par le nord pour déboucher sur le célèbre promontoire panoramique dominant directement la pointe sommitale de l'aiguille rocheuse.",
-        images: [
+        photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczOlCNaXiTAq80khZyK2PgXCKE4Pg9rQQPXWxalE_oCmPxDQfd4WI3svmCLWDTOlTot4P_QmZBKnH_ypXBFjP1f10ntfScjsPOP4uhyMs4_suv-cHO4EEsPsqHh--UaayZaqBocLnorxC8t5efB2Z07cRg=w1379-h919-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczN97mN7WTq0eTAOk5mxQMyy6Jj_cdbqdcvBbMs1JnB2Rv5ZwcgUjsRa1bpj74eLEazz9FroeHbhuKfpASyjp3h7aLxFmyDy-jpGmw1M0FA3JQvCaERg7bpC1oi4xRflDjIzlRSa5c2LewR3SDgNiwdDIw=w1379-h919-s-no-gm?authuser=0"
-        ]
+        ],
+        text: "L'effort final emprunte un sentier plus raide et caillouteux qui contourne les pinacles par le nord pour déboucher sur le célèbre promontoire panoramique dominant directement la pointe sommitale de l'aiguille rocheuse."
       },
       {
         title: "",
-        text: "",
-        images: [
+        photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczMV7fM7nYQCDGjjv8jifCo2lPZQm_ln1w42UW-DqpycG30iPA-0_3q-b55Qio-pveR8BL34sASOmpnq0NPMzmyvt7MEI_9Htbhj8yj4MajsVlGkv27xqT0XBGGD-3BigXKhAwjSUVDmIzUVB-lgFKetDg=w1379-h919-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczP1v5qwnHCE73S57zFwLUflm4lZ2i2sMVvWDBa50BqRLMivuo8ge3gNO4_rdchb8SFQrad8yCrXCg9byPcrZx3KHKrT5xu6MCNRX9daVUNnv2BPQbShrRVnf1yBTyExBLR8pKbLdh63b__onw7842lbFA=w1379-h919-s-no-gm?authuser=0"
-        ]
+        ],
+        text: ""
       },
       {
         title: "",
-        text: "",
-        images: [
+        photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczPTq8lHAh5sArLcltk-_QJinUTMAERB29nMpPti3hzmE0GhvADPucTTapYAH-UAjLxicKl2yvfF4QYjvtKRstlwvMpYD9ncx63h2PVNInBFkJXa0k-GrWNh43y7dYWFqvzWnDrjBqNGX_kBuMdirkrJrA=w1379-h919-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczNBHDYM2IPuGDwHIsBvURaqdmKuiAxXtfLeYwsCLK_UvOZsSbInG2XgWmQEdQeqOWmH5v_YDfEyhXJh4huRyB3zYDjMssWGDa6Bvn8qRuZNZq0DWjKLGBGfEgavLXIBkvZQ3OqmJVJqw3hRHO8OaMoUSw=w1379-h919-s-no-gm?authuser=0"
-        ]
+        ],
+        text: ""
       },
       {
         title: "",
-        text: "Cette aiguille monolithique de basalte sombre, haute de près de cinquante mètres, jaillit tel un doigt de pierre solitaire au pied de l'imposante falaise du Storr qui culmine à sept cent dix-neuf mètres d'altitude. Sa genèse raconte une histoire tellurique fascinante en deux temps : au Paléogène, il y a environ soixante millions d'années, d'épaisses coulées de laves basaltiques issues de l'activité volcanique de l'Atlantique Nord se sont épanchées sur un socle beaucoup plus tendre de grès et d'argiles du Jurassique. Sous le poids colossal de cette cuirasse volcanique et à la faveur de l'érosion glaciaire du Quaternaire, la bordure orientale du plateau s'est effondrée en une série de glissements de terrain rotationnels gigantesques, isolant ce chaos de pinacles, de lames rocheuses et de tours déchiquetées connu sous le nom de « Sanctuaire ».",
-        images: [
+        photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczMH5obRlNlTV6R0uqW8MnlPu7HPvmWPwoYUhzRYVDx85E8dFLarF9G2C2g-OscMuY2ZwvXByN9xI2SP0KmnqfznPYUwx67mAPBv7WSZwoRlLpXPQRMVOkBu8NeFSt1KjD_uVDnvBqU5Hkqn_UZtcac2xg=w1379-h919-s-no-gm?authuser=0"
-        ]
+        ],
+        text: "Cette aiguille monolithique de basalte sombre, haute de près de cinquante mètres, jaillit tel un doigt de pierre solitaire au pied de l'imposante falaise du Storr qui culmine à sept cent dix-neuf mètres d'altitude. Sa genèse raconte une histoire tellurique fascinante en deux temps : au Paléogène, il y a environ soixante millions d'années, d'épaisses coulées de laves basaltiques issues de l'activité volcanique de l'Atlantique Nord se sont épanchées sur un socle beaucoup plus tendre de grès et d'argiles du Jurassique. Sous le poids colossal de cette cuirasse volcanique et à la faveur de l'érosion glaciaire du Quaternaire, la bordure orientale du plateau s'est effondrée en une série de glissements de terrain rotationnels gigantesques, isolant ce chaos de pinacles, de lames rocheuses et de tours déchiquetées connu sous le nom de « Sanctuaire »."
       },
       {
         title: "",
-        text: "Depuis ce belvédère naturel suspendu au-dessus du vide, le regard embrasse l'un des panoramas les plus emblématiques d'Écosse : au premier plan, la silhouette noire et déchiquetée du monolithe se découpe en contre-plongée sur le miroir argenté des eaux du Loch Leathan et du Loch Fada étirés au fond de la vallée glaciaire. Par-delà le bras de mer du Détroit de Raasay se profile l'île allongée de Raasay dominée par le cône tabulaire du Dun Caan, tandis que l'horizon oriental s'ouvre sur les sommets découpés des montagnes de Torridon et d'Applecross sur la terre ferme écossaise.",
-        images: [
+        photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczM-lQt_SAMbBjhka3UAIgZY1_o7I5bEpVgn-VIU_LQpKjICEaBWavBsDmhiYwzsYMENpYy9UdTFmu9mDpEQnUW6d2J8JDnPyg9ITBSVFcojpifxJ7npNlBfToxskMAqJndOE6wqTS34E7kraCgfY_ejOA=w1379-h919-s-no-gm?authuser=0"
-        ]
+        ],
+        text: "Depuis ce belvédère naturel suspendu au-dessus du vide, le regard embrasse l'un des panoramas les plus emblématiques d'Écosse : au premier plan, la silhouette noire et déchiquetée du monolithe se découpe en contre-plongée sur le miroir argenté des eaux du Loch Leathan et du Loch Fada étirés au fond de la vallée glaciaire. Par-delà le bras de mer du Détroit de Raasay se profile l'île allongée de Raasay dominée par le cône tabulaire du Dun Caan, tandis que l'horizon oriental s'ouvre sur les sommets découpés des montagnes de Torridon et d'Applecross sur la terre ferme écossaise."
       },
       {
         title: "",
-        text: "",
-        images: [
+        photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczNZbhskN1qDsHrCCgZROxMdyMt1pFKcJgZ1bqGmvHuHkMgWsd797itUx0xOErVBeKuO__tMFq6p7tdDHsb3V1jBZKXZK7vkoG6izHTIijJ0YV3VfvXYcROn-aZcNZe7HcG4_GAcs8etA1hny0Zzp_oXvw=w1379-h919-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczPYLu5Sq4gxt_YzxhwKKj2f_0VT12oqJZjR2Cqc6vhVfSz5IPb9lm9pGN43lEE8BCHuAU2HkRY4mGS82mtk1YhZ8m4UtIU8gkNxC8DSN6IRI2X9gYOVB_PrPHKrJPI7Nme6lnhtNAyce3qftf7a6Z7Q-A=w1379-h919-s-no-gm?authuser=0"
-        ]
+        ],
+        text: ""
       }
     ],
     visiter: "S'élancer depuis le parking du Storr sur la route A855 au nord de Portree en empruntant le large sentier graveleux puis les marches empierrées jusqu'au chaos rocheux du Sanctuaire, et poursuivre la montée jusqu'au belvédère nord surplombant l'aiguille de l'Old Man of Storr face à l'île de Raasay.",
     link: ""
   },
+
   {
     id: "trotternish_rigg_viewpoint",
     name: "Île de Skye - Belvédère Côtier de Rigg (Rigg Viewpoint - Trotternish)",
