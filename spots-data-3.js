@@ -7,6 +7,172 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "trotternish_brides_veil_falls",
+    name: "Île de Skye - Cascade du Voile de la Mariée (Bride's Veil Falls - Trotternish)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Portree",
+    altitude: 150,
+    is_island: true,
+    island_name: "Île de Skye",
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Chute d'Eau Élançée sur Escarpement Basaltique (Péninsule de Trotternish) Face à l'Old Man of Storr",
+    century: "Temps géologique",
+    category: "cascade",
+    counts: { cascade: 1 },
+    lat: 57.47959,
+    lng: -6.18103,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMCzk5EPIN8bETnm9v5mhPybIhkcddSVlgtvsDWsRXeLfvulHFR8-SNf34qa8oWMYYnGVqL_4T8IBYL9SivTtDyd1zLR8va5g4a3jFbecVncZhQwP6PMKgj83S6UxcOCm1Ik4_mH1rUlE6IviKGa7fY5g=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Jaillissant au pied des imposantes falaises volcaniques qui bordent la péninsule de Trotternish au nord de Portree, juste au-dessus des rives du Loch Leathan le long de la route panoramique A855, la cascade de Bride's Veil Falls (« les Chutes du Voile de la Mariée ») offre l'un des spectacles naturels les plus gracieux et saisissants de l'île de Skye. Alimenté par les eaux abondantes qui drainent les hauts plateaux tourbeux et les cirques rocheux du massif du Storr, le torrent franchit ici une corniche abrupte de basalte sombre tertiaire en une haute chute verticale étroite et aérienne, dont les filets d'eau claire se déploient en un fin panache d'écume blanche évoquant la légèreté d'un voile de mariée flottant contre la paroi minérale.\n\nPar temps venteux — phénomène fréquent sur cette côte orientale exposée aux rafales s'engouffrant dans le détroit de Raasay —, il n'est pas rare d'observer le spectacle fascinant de la cascade littéralement soufflée vers le haut, ses embruns argentés remontant en volutes brumeuses le long de la falaise avant de retomber sur les éboulis tapissés de mousses émeraude et de bruyères. En arrière-plan immédiat de cette chute élégante se dresse la silhouette monumentale de l'escarpement du Storr et de l'aiguille rocheuse de l'Old Man of Storr, composant un tableau géologique d'une harmonie remarquable.",
+    visiter: "Faire halte sur la petite aire de stationnement aménagée le long de la route A855 au bord du Loch Leathan au nord de Portree pour contempler la fine chute verticale de Bride's Veil Falls dévalant la paroi basaltique avec l'Old Man of Storr en arrière-plan.",
+    link: ""
+  },
+  {
+    id: "trotternish_rando_old_man_of_storr",
+    name: "Île de Skye - Randonnée de l'Old Man of Storr & Le Sanctuaire (Trotternish Ridge)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Portree",
+    altitude: 481,
+    is_island: true,
+    island_name: "Île de Skye",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Ascension Panoramique vers le Monolithe Basaltique (50 m), Chaos Géologique du Sanctuaire & Vue sur Raasay",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 57.50722,
+    lng: -6.17470,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPN3HTeY9KLg4nco-SjdmIeezFKMoB-KEcujUFFYAuIjgbI7srTwgNO27n16RDAeIhynomgiel4x_e7E3z3S6h_oJakquIJ1RUZSnTFZunJUWT8tjhasP7rtssl2X-3afKqpexzdcxjpm4zrMP88laGhQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPU6WlAV42f_COEVrIwl7fC3DXs7yLvvBRBSWiCsaPkt3hTh0cUJZvjBAx_soiFbk9iXnzTogM9BplQ30UrXfkWKOGw2Wu_GfnrpJJ8iHZLJm8EI92RnCOnKBzVFz6J1R_VvQhZefqxtj_KS5Uv39zyrw=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'itinéraire de randonnée, qui dessine une boucle d'environ quatre kilomètres et demi à cinq kilomètres pour un dénivelé positif avoisinant trois cent quarante mètres, s'élance depuis le bord de la route côtière A855 au pied du massif de l'Old Man of Storr. Dès les premiers pas, un large chemin graveleux bien aménagé s'élève en lacets réguliers à travers les pentes inférieures autrefois couvertes d'une dense plantation de conifères, dont l'abattage récent a dégagé une perspective grandiose et ininterrompue sur la muraille basaltique."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN4t3Y2Xj0V8kvH41Spr2vTotS8zVO4eVvsJEF1ZSmsYwLVSt2gE1fY7AZKsFu78rZgDjXa2RtP0FjhRhbXSfQ-pHzEiOvi-AtyN7cmNxaSvNOESMl8rpb4GkQpmh6luiyniuBs8UcKFSqI4YZSJs3Zxg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN5J-rDLulmqPQjGs1aaf5okIDGWExcecGD3KA3uZNDvZSnM5PIokjYcZYfgyVrR8bGGxpfXFvqwKFGT4P3nrp9d6gZyMk4c1gRS8TKVmp5yXf22XOYTmIi23NDczlhjKjaPZKwIdAa7Gh4h2FlTqKx0g=w1379-h919-s-no-gm?authuser=0",
+        caption: "Le sentier franchit plusieurs portillons pastoraux et grimpe sur des dalles de pierre et des marches empierrées au milieu d'une lande atlantique ouverte, tapissée de bruyères callunes, de sphaignes gorgées d'eau, de joncs et de graminées dorées balayées par les vents marins. À mesure que la pente se redresse en approchant de la base des escarpements, le marcheur pénètre dans l'amphithéâtre minéral du Sanctuaire, slalomant entre d'immenses blocs éboulés tapissés de lichens et de mousses verdoyantes au pied même de la paroi verticale du monolithe et de ses aiguilles voisines telles que la Needle Rock."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNKKNt0UbksENc13DZLfXI2Y9XXw8REFHAN3fjdvIo9Jqd4WWG90BwCVnoxDKRLKxvMy3s5Cs5cGQCFy4ifySt3UCDkdgg3-tTI3TU9kUOP2GCCWerNfbNBLyege9WFiimhYSUX6L7qYnzmXMOZVkUZ2w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOlCNaXiTAq80khZyK2PgXCKE4Pg9rQQPXWxalE_oCmPxDQfd4WI3svmCLWDTOlTot4P_QmZBKnH_ypXBFjP1f10ntfScjsPOP4uhyMs4_suv-cHO4EEsPsqHh--UaayZaqBocLnorxC8t5efB2Z07cRg=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'effort final emprunte un sentier plus raide et caillouteux qui contourne les pinacles par le nord pour déboucher sur le célèbre promontoire panoramique dominant directement la pointe sommitale de l'aiguille rocheuse."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN97mN7WTq0eTAOk5mxQMyy6Jj_cdbqdcvBbMs1JnB2Rv5ZwcgUjsRa1bpj74eLEazz9FroeHbhuKfpASyjp3h7aLxFmyDy-jpGmw1M0FA3JQvCaERg7bpC1oi4xRflDjIzlRSa5c2LewR3SDgNiwdDIw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMV7fM7nYQCDGjjv8jifCo2lPZQm_ln1w42UW-DqpycG30iPA-0_3q-b55Qio-pveR8BL34sASOmpnq0NPMzmyvt7MEI_9Htbhj8yj4MajsVlGkv27xqT0XBGGD-3BigXKhAwjSUVDmIzUVB-lgFKetDg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP1v5qwnHCE73S57zFwLUflm4lZ2i2sMVvWDBa50BqRLMivuo8ge3gNO4_rdchb8SFQrad8yCrXCg9byPcrZx3KHKrT5xu6MCNRX9daVUNnv2BPQbShrRVnf1yBTyExBLR8pKbLdh63b__onw7842lbFA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPTq8lHAh5sArLcltk-_QJinUTMAERB29nMpPti3hzmE0GhvADPucTTapYAH-UAjLxicKl2yvfF4QYjvtKRstlwvMpYD9ncx63h2PVNInBFkJXa0k-GrWNh43y7dYWFqvzWnDrjBqNGX_kBuMdirkrJrA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNBHDYM2IPuGDwHIsBvURaqdmKuiAxXtfLeYwsCLK_UvOZsSbInG2XgWmQEdQeqOWmH5v_YDfEyhXJh4huRyB3zYDjMssWGDa6Bvn8qRuZNZq0DWjKLGBGfEgavLXIBkvZQ3OqmJVJqw3hRHO8OaMoUSw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMH5obRlNlTV6R0uqW8MnlPu7HPvmWPwoYUhzRYVDx85E8dFLarF9G2C2g-OscMuY2ZwvXByN9xI2SP0KmnqfznPYUwx67mAPBv7WSZwoRlLpXPQRMVOkBu8NeFSt1KjD_uVDnvBqU5Hkqn_UZtcac2xg=w1379-h919-s-no-gm?authuser=0",
+        caption: "Cette aiguille monolithique de basalte sombre, haute de près de cinquante mètres, jaillit tel un doigt de pierre solitaire au pied de l'imposante falaise du Storr qui culmine à sept cent dix-neuf mètres d'altitude. Sa genèse raconte une histoire tellurique fascinante en deux temps : au Paléogène, il y a environ soixante millions d'années, d'épaisses coulées de laves basaltiques issues de l'activité volcanique de l'Atlantique Nord se sont épanchées sur un socle beaucoup plus tendre de grès et d'argiles du Jurassique. Sous le poids colossal de cette cuirasse volcanique et à la faveur de l'érosion glaciaire du Quaternaire, la bordure orientale du plateau s'est effondrée en une série de glissements de terrain rotationnels gigantesques, isolant ce chaos de pinacles, de lames rocheuses et de tours déchiquetées connu sous le nom de « Sanctuaire »."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM-lQt_SAMbBjhka3UAIgZY1_o7I5bEpVgn-VIU_LQpKjICEaBWavBsDmhiYwzsYMENpYy9UdTFmu9mDpEQnUW6d2J8JDnPyg9ITBSVFcojpifxJ7npNlBfToxskMAqJndOE6wqTS34E7kraCgfY_ejOA=w1379-h919-s-no-gm?authuser=0",
+        caption: "Depuis ce belvédère naturel suspendu au-dessus du vide, le regard embrasse l'un des panoramas les plus emblématiques d'Écosse : au premier plan, la silhouette noire et déchiquetée du monolithe se découpe en contre-plongée sur le miroir argenté des eaux du Loch Leathan et du Loch Fada étirés au fond de la vallée glaciaire. Par-delà le bras de mer du Détroit de Raasay se profile l'île allongée de Raasay dominée par le cône tabulaire du Dun Caan, tandis que l'horizon oriental s'ouvre sur les sommets découpés des montagnes de Torridon et d'Applecross sur la terre ferme écossaise."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNZbhskN1qDsHrCCgZROxMdyMt1pFKcJgZ1bqGmvHuHkMgWsd797itUx0xOErVBeKuO__tMFq6p7tdDHsb3V1jBZKXZK7vkoG6izHTIijJ0YV3VfvXYcROn-aZcNZe7HcG4_GAcs8etA1hny0Zzp_oXvw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPYLu5Sq4gxt_YzxhwKKj2f_0VT12oqJZjR2Cqc6vhVfSz5IPb9lm9pGN43lEE8BCHuAU2HkRY4mGS82mtk1YhZ8m4UtIU8gkNxC8DSN6IRI2X9gYOVB_PrPHKrJPI7Nme6lnhtNAyce3qftf7a6Z7Q-A=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dominant la côte orientale de la péninsule de Trotternish au nord de Portree, l'ascension vers l'Old Man of Storr constitue la randonnée la plus célèbre, spectaculaire et emblématique de toute l'île de Skye et des Highlands d'Écosse. Ce parcours pédestre d'environ quatre kilomètres et demi à cinq kilomètres aller-retour pour près de trois cent quarante mètres de dénivelé positif s'élève depuis la route côtière A855 à travers les landes tourbeuses balayées par les vents marins jusqu'à l'amphithéâtre minéral fantastique du « Sanctuaire » (The Sanctuary). Ce chaos grandiose d'aiguilles volcaniques, de tours de pierre sombre et d'éboulis géants est né d'un colossal glissement de terrain postglaciaire ayant fracturé l'épaisse cuirasse de basalte tertiaire reposant sur des sédiments jurassiques plus tendres.\n\nAu cœur de ce décor lunaire et dramatique, le monolithe de l'Old Man of Storr dresse son obélisque vertical de basalte noir haut de cinquante mètres au pied des falaises abruptes du Storr (719 mètres). En poursuivant l'ascension par le sentier raide qui contourne les pinacles par le nord jusqu'au promontoire panoramique culminant vers 481 mètres d'altitude, le randonneur découvre un belvédère vertigineux embrassant à la fois la pointe de l'aiguille rocheuse en contre-plongée, les miroirs argentés des lochs Leathan et Fada, le détroit de Raasay, le sommet tabulaire du Dun Caan sur l'île de Raasay et, à l'horizon, la chaîne dentelée des montagnes de Torridon et d'Applecross.",
+    visiter: "S'élancer depuis le parking du Storr sur la route A855 au nord de Portree en empruntant le large sentier graveleux puis les marches empierrées jusqu'au chaos rocheux du Sanctuaire, et poursuivre la montée jusqu'au belvédère nord surplombant l'aiguille de l'Old Man of Storr face à l'île de Raasay.",
+    link: ""
+  },
+  {
+    id: "trotternish_rigg_viewpoint",
+    name: "Île de Skye - Belvédère Côtier de Rigg (Rigg Viewpoint - Trotternish)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Portree",
+    altitude: 133,
+    is_island: true,
+    island_name: "Île de Skye",
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Belvédère sur les Falaises Basaltiques de Trotternish, l'Île de Rona & le Détroit de Raasay",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 57.54171,
+    lng: -6.14506,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOXvwgeafiJzWH4CDvjrPLbiCzrVL7SLIo3l1h6nJEUz7vAe1-hrKRDggFwSbdZebeJoGA7Uil7V4qh-YTmyjTODYBOqOnF9AsZy-1g_Cxgbjn7LVxouaH2P9KA1SLoYYO5EjADkE1BxAHGiqFRkrCydg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNAva5H5YFn42LBGUtKSNRyHzPoF_EABZWIDcCthVC4VABQFkSHUh_T6UxGtzvBYY2PZ-dg-8CiokM2a640brClN6h4rHL8nGpUTpkTNHaTmfCLRtOgyRTqr0t1sh5YfHObB4kKnKMwvOEcdGTZ1pQ-Hw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Perché à cent trente-trois mètres d'altitude au sommet des falaises maritimes découpées de la côte orientale de la péninsule de Trotternish, à quelques kilomètres au nord du massif du Storr, le belvédère de Rigg (Rigg Viewpoint) dévoile un panorama maritime et géologique d'une ampleur exceptionnelle sur les Hébrides intérieures. Depuis ce promontoire balayé par les vents marins où affleurent les coulées de lave basaltique prismées plongeant à pic dans l'océan Atlantique, le regard embrasse vers le sud la silhouette déchiquetée de l'escarpement du Storr et de ses pinacles se profilant au-dessus de la ligne côtière.\n\nVers le large, par-delà les eaux profondes et souvent agitées du détroit de Sound of Raasay et de l'Inner Sound, se dessinent avec une netteté saisissante l'extrémité septentrionale de l'île de Raasay, l'archipel rocheux de South Rona et les crêtes montagneuses lointaines de Torridon et de Gairloch sur la côte occidentale des Highlands. Au pied des escarpements verdoyants tapissés de fougères, de bruyères et d'herbes rases où paissent les moutons à tête noire des Hébrides, les criques isolées et les écueils battus par l'écume composent un paysage sauvage d'une beauté boréale saisissante.",
+    visiter: "Faire halte sur le belvédère panoramique de Rigg le long de la route côtière A855 au nord du Storr pour admirer en enfilade les falaises basaltiques de Trotternish, l'île de Rona et le détroit de Raasay.",
+    link: ""
+  },
+  {
+    id: "trotternish_lealt_falls",
+    name: "Île de Skye - Chutes & Gorge de Lealt (Lealt Falls - Péninsule de Trotternish)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Staffin",
+    altitude: 56,
+    is_island: true,
+    island_name: "Île de Skye",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Double Cascade Spectaculaire dans une Gorge Basaltique, Vestiges d'Usine de Diatomite & Falaises Marines",
+    century: "Temps géologique",
+    category: "cascade",
+    counts: { cascade: 1 },
+    lat: 57.56507,
+    lng: -6.15580,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNA0r4qN1I24GvZoUvjkqqZjg4ncPetdwVntSwnAma8wgxq3usweJ11qB45CjyohYGoCApbr9SO0FtCd6AShxOa2woqJN6mJ57v4Mya8ysRhRAjAAlg1t4B55kOAXoBaHWtfSFbhdCqZvyL3SkNx3Hbzw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Entaillant profondément le plateau volcanique oriental de la péninsule de Trotternish avant de déboucher sur les falaises vertigineuses dominant le détroit de Raasay, les chutes de Lealt (Lealt Falls) offrent l'un des sites naturels et géologiques les plus spectaculaires de l'île de Skye. Alimentée par les eaux tourbeuses ambrées de la rivière Lealt descendant des tourbières d'altitude de la crête de Trotternish, la rivière plonge ici en deux ressauts successifs impressionnants au fond d'un canyon étroit aux parois verticales de basalte sombre sculptées par l'érosion torrentielle et glaciaire.\n\nDepuis les deux plateformes d'observation panoramiques aménagées au-dessus du gouffre — dont la plateforme supérieure surplombant directement la grande chute principale haute de près de trente mètres —, le visiteur contemple le bouillonnement d'écume blanche contrastant avec la roche noire tapissée de fougères et de mousses, avant de suivre le cours de la gorge jusqu'aux hautes falaises maritimes face à l'île de Rona. Le site conserve également les vestiges émouvants en pierre sèche d'une ancienne usine de traitement de la diatomite exploitée à la fin du XIXe et au début du XXe siècle, où le minerai extrait des lacs voisins était séché et acheminé par un petit chemin de fer à voie étroite jusqu'au rivage.",
+    visiter: "S'arrêter sur l'aire de stationnement de Lealt Falls le long de la route A855 au sud de Staffin et suivre le sentier aménagé menant aux deux belvédères surplombant la gorge basaltique et les cascades ainsi qu'aux vestiges de l'ancienne usine de diatomite face à la mer.",
+    link: ""
+  },
+   {
     id: "broadford_vue_sommet_beinn_na_caillich",
     name: "Île de Skye - Panorama sur le Sommet Granitique de Beinn na Caillich (Red Cuillin)",
     country: "Royaume-Uni",
