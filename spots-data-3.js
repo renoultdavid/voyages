@@ -84,7 +84,7 @@ const SPOTS_3 = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczORzCM_jgYtjck4-TAqzhuXsauMeo9PREbdYZa-AbsuoG84lQwVafniYzZWHp9AcHoS0CEqE8AwVN1o5tcVIVOFFFMq5PsWzo69jg74UjJ2GUvUxrcdeLaBZjySLJQyrl4nf8nRVxuHVZux4lgq4UGieg=w613-h919-s-no-gm?authuser=0",
     gallery: [
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczPoELJGUvUFQRBOzNeTdgRxUzIyS10ARvik2MWjlbG38-ofHM5tCkwYKdvaJpAo38qJTtEQhoAn_0rRs8HO-v1pOq-xtgF_Fw6ICQj9F_P7psEiOoxa0DJJMK3_XQRInRMB4uGNkl9k6P3F12V5o-g1A=w1379-h919-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPoELJGUvUFQRBOzNeTdgRxUzIyS10ARvik2MWjlbG38-ofHM5tCkwYKdvaJpAo38qJTtEQhoAn_0rRsr8HO-v1pOq-xtgF_Fw6ICQj9F_P7psEiOoxa0DJJMK3_XQRInRMB4uGNkl9k6P3F12V5o-g1A=w1379-h919-s-no-gm?authuser=0",
         caption: ""
       },
       {
