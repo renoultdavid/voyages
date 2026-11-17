@@ -7,6 +7,216 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "dornie_eilean_donan_castle",
+    name: "Dornie - Château d'Eilean Donan (Eilean Donan Castle - Confluence de Trois Lochs)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Dornie",
+    altitude: 3,
+    is_island: true,
+    island_name: "Eilean Donan",
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Forteresse Insulaire des Clans Mackenzie et MacRae (XIIIe Siècle), Pont de Pierre & Restauration de 1919-1932",
+    century: "XIIIe siècle",
+    category: "chateau",
+    counts: { chateau: 1 },
+    lat: 57.27396,
+    lng: -5.51581,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMsalt66_qEiVOOI0fBrSEympmFkzG7CTnJPQZWtFy9F5L2fDnwGkJXDOTyxI0MgmGUltTpqNEhaQDV9EDS5ANDBVrwTOwemDx1fmx-oC2VZyPDZJ-G5u63KXhQKvfFrHoFFzHz5G1fzSbJKQKmshVy-w=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPzyEcizKI9RAVcyHWXuYdsWhqIltQB4CxSRZ18DV9jsuabw9p8GfBYGgq8GcJurIPm3F4tJjFQmpp_bF3jIXgRxFQ3teX1enKNPqQUyS4Jjb2Nqix_l_S0QGwmEpxdioop-jX2rJ0Jot6qRbZQk8Ka2A=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMbYD_18V7-NFrNTa3uX-EIWExjGR2ExQOYdr3rtlqHvkExzmGRIjmpPuNy96HdpgQlj3mYTIm8ToUXLNsNdaEfnUqvmhhJqbX1WpP3MbR4THJ-1u5fwdIAHikm51Z_reybGl8LRdGY-q8p-rPW--qeGw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNh1vuPePCQy_4Td2prp495iNC6AgBdRkGiRsvVyKRDvch_qOn-72bHX7n4T-9Wh7QRzHJPr4DDlhzv4Nk47d9DADoSITNfxPUejUf8P5FoYwdu7N7ye9YzLkr98kDh6dqFDMCGwhDtu8ejY_UN9PGcUQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Posé sur un minuscule îlot rocheux marémoteur au point de rencontre stratégique de trois grands fjords marins des Highlands occidentales — le Loch Duich, le Loch Long et le Loch Alsh —, le château d'Eilean Donan incarne l'archétype absolu de la forteresse médiévale écossaise et l'un des monuments les plus célèbres au monde. Baptisé en hommage à saint Donan d'Eigg, ermite celte du VIIe siècle qui y établit une cellule monastique, l'îlot fut fortifié dès le début du XIIIe siècle sous le règne du roi Alexandre II afin de protéger les côtes de Kintail contre les incursions des Vikings norvégiens. Devenu le bastion principal du puissant clan Mackenzie de Kintail et gardé héréditairement par leurs fidèles connétables du clan MacRae, le château connut un destin tragique en mai 1719 lors d'une insurrection jacobite : occupé par une garnison de soldats espagnols alliés aux partisans des Stuart, il fut pilonné pendant trois jours par trois frégates de la Royal Navy avant d'être dynamité à l'explosif.\n\nDemeurée à l'état de ruines romantiques envahies par les algues et les bruyères pendant près de deux siècles, la forteresse fut rachetée en 1911 par le lieutenant-colonel John MacRae-Gilstrap qui entreprit, entre 1919 et 1932, sa résurrection monumentale sous la direction de l'architecte George Mackie Watson en s'appuyant sur des plans anciens retrouvés dans les archives du château d'Édimbourg. Reliée à la rive par un élégant pont de pierre à trois arches enjambant le chenal de marée, sa silhouette crénelée en pierre sombre dominée par un puissant donjon quadrangulaire se reflète dans les eaux changeantes des lochs entourés des montagnes escarpées de Kintail.",
+    visiter: "Contempler depuis les rives de Dornie et la chaussée du pont de pierre la silhouette iconique d'Eilean Donan Castle posée sur son îlot au confluent des trois lochs, puis franchir le pont pour visiter la cour intérieure, la salle des banquets, les cuisines historiques et les collections du clan MacRae.",
+    link: ""
+  },
+  {
+    id: "lochcarron_loch_carron_viewpoint",
+    name: "Lochcarron - Belvédère sur le Loch Carron (Loch Carron Viewpoint)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Lochcarron",
+    altitude: 108,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Fjord Marin du Wester Ross (Loch Carron), Bassins Glaciaires & Chaîne des Montagnes d'Applecross",
+    century: "Temps géologique",
+    category: "lac",
+    counts: { lac: 1 },
+    lat: 57.35033,
+    lng: -5.54593,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN0fz9vMPCgLaFBK7hEqoZIi_1ob_tGLm2wvr6A-B5zhulCH-2kpkyKrMDO7p1TtvjCEXttDByzq8P-ZPJqbApb5rBpjMZg-u41EBF-gO466Bhe1TAlCZ3cJjzSifidXViB5wov9ZrTsvLT-Yln2JGiug=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dominant à plus de cent mètres d'altitude les rives méridionales du Loch Carron le long de l'itinéraire panoramique de la North Coast 500 entre Stromeferry et Strathcarron, ce belvédère dévoile une perspective saisissante sur l'un des plus vastes et spectaculaires lochs marins du Wester Ross. Profonde vallée glaciaire envahie par les eaux de l'océan Atlantique après le retrait des grands glaciers quaternaires, le Loch Carron s'étire sur près de vingt-cinq kilomètres depuis l'estuaire de la rivière Carron jusqu'au détroit de Kyle of Lochalsh, rétréci en son milieu par l'étroit goulet de Strome Narrows où veillaient jadis les forteresses médiévales des clans MacDonald et Mackenzie.\n\nDepuis cette terrasse naturelle encadrée de landes à bruyère, d'ajoncs et de bouleaux argentés, le regard embrasse l'étendue miroitante du fjord ponctuée d'îlots rocheux, de parcs conchylicoles et de petites embarcations de pêche. Sur la rive septentrionale se détache le long ruban blanc des maisons du village de Lochcarron blotti au pied d'un amphithéâtre grandiose de montagnes en grès torridonien et en gneiss lewisien, ouvrant la voie vers les reliefs sauvages de la péninsule d'Applecross et de Torridon.",
+    visiter: "Faire halte sur le belvédère surplombant la rive sud du Loch Carron à proximité de Stromeferry pour embrasser le panorama sur le fjord marin, le village riverain de Lochcarron et les sommets escarpés du Wester Ross.",
+    link: ""
+  },
+  {
+    id: "applecross_vallee_loch_coire_nan_arr",
+    name: "Applecross - Vallée Glaciaire & Loch Coire nan Arr (Pied du Bealach na Bà)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Applecross",
+    altitude: 105,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Cirque Montagnard de Grès Torridonien, Loch d'Altitude & Versant Oriental du Bealach na Bà",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 57.40896,
+    lng: -5.64037,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNGzjWW1BR0McCXJO8KI9kvPSyB5bKTVskPeJqqi0Df1svSKi8LNMOaTVK6WgCOP54ySRQHFnYgqwBxODDbyGoniu1EJhBGeo19DdJt36z4MDjmr6XYPakmHI2xZWHdT90Qb4E58vWkI0MzWjk4u_HJSA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMcFFYZlbfZFKr-nC_Hbw_D-wiXbRJBhucMRO4OUPY6S_f6yhr2bOs1MHQpQBc5MKOgUSxPWorio2gnKp1z_EiIJy5dF4I7YNM_ziWY76pcmqJxR-LwlMAxA-Yv0RbPzO-0f_OgKeuuNBxxhrK-8m1tuA=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Nichée au pied des impressionnantes murailles rocheuses orientales de la péninsule d'Applecross, au seuil de l'ascension vertigineuse du col du Bealach na Bà, la vallée sauvage du Loch Coire nan Arr offre un spectacle géologique d'une puissance brute incomparable dans les Highlands du Nord-Ouest. Encaissé au fond d'un vaste amphithéâtre glaciaire (corrie) dominé par les escarpements stratifiés du Sgùrr a' Chaorachain (792 mètres) et du Beinn Bhan (896 mètres), ce loch montagnard recueille les eaux limpides et tourbeuses des torrents dévalant les barres rocheuses de grès rouge torridonien âgées de près d'un milliard d'années.\n\nLes strates horizontales monumentales des falaises, sculptées en gradins gigantesques par l'érosion glaciaire, contrastent avec le tapis doré et pourpre des tourbières, des sphaignes et des bruyères tapissant le fond de la vallée où paissent en liberté les cerfs élaphes et les moutons des Highlands. C'est au cœur de ce cirque minéral grandiose que s'engage l'étroite route à voie unique grimpant en lacets spectaculaires vers la ligne de crête d'Applecross.",
+    visiter: "S'arrêter le long de la route d'accès au Bealach na Bà au niveau du Loch Coire nan Arr pour contempler le reflet des imposantes falaises stratifiées de grès torridonien dans les eaux du loch et observer le tracé audacieux de la route gravissant le cirque rocheux.",
+    link: ""
+  },
+  {
+    id: "applecross_col_du_bealach_na_ba",
+    name: "Applecross - Col du Bealach na Bà (Pass of the Cattle - 626 m)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Applecross",
+    altitude: 626,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Plus Fort Dénivelé Routier de Grande-Bretagne (626 m depuis le Niveau de la Mer) & Panorama sur Skye et les Hébrides",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 57.41156,
+    lng: -5.70164,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNdMuZnqsZ6fE7-387nEWy__-7EmFa9iBqtMQRx8aa2uPvuXLDbUin-v-X5qMnf5h4dJmPkBmKylkH2us59MnFlAZu8IMMVBGYEJtFP9jF2wlHF_qcVN_KvQ_cOVwIjyRJz7mu3B097xLkMDw1IF1HVOQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOqA1mdkWkhWG6AHY71q4v3xQFB3DQb5ihshC8bta5qFpcfzUuljPU0BrSvQOxN0fPdmJ9lP1JYsKelIFEgJXbwspkzJ9NqO24vEBgU_-mZvKeO76kVj2OyZqBO5f98d5bq37YoO65yfyboNDhQ01c-qw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNL0OdG9k1eFXcmBaRXsMYzGccfzk4MG_KHHhLtAjCvT_h9-5eSUMGC8eqVCWW-MiucPOoMM-9jBYVJj4DWj1SY5XWGUTos8eacfPZ7mmSRaE218mWNFzAdD_lusUNEF_P9_Etngjmv8MZRWR9b_5TmaA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPuR7fqqmjSHyplwok8tbSc7yI3twOZhBrX523iVdGP0gldrK7cWz6ompbwBWGMk_4HCXAxWy8HRU-fWMuv-PJpn2uiqaOMRTC3aSDJHlmbGNhQWYYJnmPRsOXhUxHqCVtvk-fns3F4I9Exs7IDoX4-7g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO1rNksA2hCiidntM7tnLVIYJ8LH3O87YR8Sozber4mwZ6t8cB3SCzpmRQYucFuSC35JMomXi1pncO_mnmzzO-c2OrU8XAz5UWdnQWOyn3ZLT8VyxPOOjWHlSo3eelSHo7V5KtHXxCUkFsfAaYylp4lBw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Culminant à six cent vingt-six mètres d'altitude au cœur des montagnes sauvages de la péninsule d'Applecross, le célèbre col du Bealach na Bà — dont le nom gaélique signifie littéralement « le Passage du Bétail » en mémoire des troupeaux acheminés jadis par les bouviers (drovers) vers les marchés des Lowlands — constitue la route la plus spectaculaire et audacieuse de toute la Grande-Bretagne. Tracée en 1822 sur les plans de l'ingénieur Thomas Telford avec une allure de col alpin à lacets serrés et des pentes atteignant vingt pour cent sur une étroite chaussée à voie unique ponctuée d'aires de croisement (passing places), cette ascension vertigineuse affiche le plus fort dénivelé continu du Royaume-Uni en s'élevant directement depuis le niveau de la mer jusqu'aux plateaux subarctiques.\n\nAu sommet du col, balayé par les vents atlantiques et souvent fermé en hiver par les congères de neige, s'ouvre par temps clair l'un des panoramas maritimes et montagneux les plus grandioses d'Europe : vers l'ouest et le sud-ouest, par-delà les eaux profondes du détroit d'Inner Sound, se dressent les îles de Raasay, de Rona et la silhouette déchiquetée des montagnes Cuillin de l'île de Skye, tandis qu'à l'horizon lointain se profilent les îles des Hébrides extérieures (Harris et North Uist) et, vers l'est, les cimes escarpées des Highlands du Wester Ross.",
+    visiter: "Gravir avec prudence les lacets de la route à voie unique du Bealach na Bà en respectant les aires de croisement jusqu'au belvédère sommital à 626 mètres d'altitude pour embrasser le panorama exceptionnel sur l'île de Skye, les Cuillin, Raasay et le cirque glaciaire d'Applecross.",
+    link: ""
+  },
+  {
+    id: "applecross_village_et_baie",
+    name: "Applecross - Le Village Côtier d'Applecross & Sa Baie (A' Chomraich)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Applecross",
+    altitude: 35,
+    transport: "voiture",
+    era_group: "moyen_age",
+    era_label: "Sanctuaire Monastique Celte de Saint Maelrubha (673), Maisons Blanchies de Shore Street & Baie Face à Raasay",
+    century: "VIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 57.43197,
+    lng: -5.80959,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNpOaPgIRn20Co5uYPW5AzoStFayF_hazMMXBBe3qpVWquHxSfSPkj6C-A-rU8SzYINkc-nPSZR-ZAuLqyTxt4CyFgPidi3hEYi-_HdLNK3_WUgI4VavljxQ_b0nxNrF8YLiFEfqyzMkB8os7HQxNwGoQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Niché au fond d'une baie paisible tournée vers l'île de Raasay et l'île de Skye sur la côte occidentale de la péninsule éponyme, longtemps isolé du reste de l'Écosse par les montagnes infranchissables du Bealach na Bà et accessible uniquement par la mer jusqu'au XXe siècle, le village d'Applecross possède une histoire spirituelle millénaire exceptionnelle. Son nom gaélique traditionnel, « A' Chomraich » — qui signifie « le Sanctuaire » —, rappelle la fondation en l'an 673 d'un illustre monastère celtique par le moine irlandais saint Maelrubha venu de Bangor, dont l'influence rayonna sur tout le nord-ouest de l'Écosse et qui fut inhumé sur place en 722, comme en témoignent les remarquables croix sculptées pictes et médiévales conservées près de l'ancienne église paroissiale de Clachan.\n\nLe long du rivage de Shore Street s'aligne une rangée pittoresque de cottages traditionnels en pierre blanchis à la chaux coiffés d'ardoise, bordant un vaste estran de sable, de galets et de varech découvrant largement à marée basse. Protégé des vents de l'est par les hauts reliefs de la péninsule et réchauffé par les courants doux de la dérive nord-atlantique, ce havre préservé abrite également les jardins clos historiques d'Applecross House et offre une atmosphère hors du temps où les cerfs sauvages déambulent librement jusqu'aux abords des maisons.",
+    visiter: "Flâner le long du front de mer de Shore Street à Applecross face aux îles de Raasay et de Skye, puis rejoindre le site historique de Clachan au nord de la baie pour découvrir l'ancienne église paroissiale, les pierres sculptées pictes et le domaine boisé d'Applecross.",
+    link: ""
+  },
+  {
+    id: "lochcarron_new_kelso_bout_du_loch_carron",
+    name: "Lochcarron - Extrémité Orientale du Loch Carron & Estuaire de New Kelso",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Lochcarron",
+    altitude: 10,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Fond d'Estuaire du Loch Carron, Prés-Salés & Confluence de la Rivière Carron près de Strathcarron",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 57.42062,
+    lng: -5.45028,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN3Lt2UTq6G18p2_XibEZsbjXo9_L584Tw234ah8vN8Qy5ptgGKrOTfdhwd6SCXRPkOnuVZ8Hbcix4P4GvfETU8IVlbRPmelBFpCgpH-Ymi2CVOMSTC8Xd6oH49yfdmtDrYXNiOczMS7jET9seRY8QCwg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Situé tout au fond de la longue entaille maritime du Loch Carron, à l'endroit précis où les eaux douces de la rivière Carron rejoignent les marées atlantiques au pied des reliefs de Strathcarron, le secteur historique de New Kelso offre un paysage d'estuaire d'une grande sérénité au cœur du Wester Ross. Créé au début du XIXe siècle comme exploitation agricole modèle sur les terres alluviales gagnées sur le fond du loch et desservi depuis 1870 par la célèbre ligne ferroviaire panoramique de Kyle of Lochalsh, ce point de rencontre entre terre et mer dévoile l'ampleur des rythmes de marée des Highlands.\n\nÀ marée haute, les eaux calmes du loch forment un vaste miroir liquide reflétant les pentes boisées de bouleaux, d'aulnes et de conifères ainsi que les cimes dénudées des montagnes environnantes, tandis qu'à marée basse se découvrent de larges vasières dorées et des herbus salés fréquentés par les hérons cendrés, les courlis cendrés, les huîtriers-pies et les loutres côtières.",
+    visiter: "Faire halte le long de la route côtière à New Kelso entre Lochcarron et Strathcarron pour observer le fond d'estuaire du Loch Carron, les jeux de reflets sur les prés-salés et le panorama fermé par les montagnes du Wester Ross.",
+    link: ""
+  },
+  {
+    id: "plockton_village_et_baie",
+    name: "Plockton - Le Village Côtier de Plockton & Sa Baie Abritée (Am Ploc)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Plockton",
+    altitude: 5,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Village de Pêcheurs Planifié (Début XIXe Siècle), Cottages Blanchis à la Chaux & Cordylines Subtropicales",
+    century: "XIXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 57.34158,
+    lng: -5.64657,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMfk_kz-JcaWBX5abW7Ewy4MLy1Txp__MRcOx9ZH_w2_ZVvbag_I1PuFJBmTzbPgQzNIDDZ4Ip-LjWYivvI93PibsQFnVuZW9ykgRYFexzhf921FhjLHwO758VRCMJFk0H4OAhaHpn2hbp0KqxbL-EInA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO67J1kBvC_YFXG6Ixw82ZzmXJRfnhM3bfRHFLcLyzFB-IclB7XyrkSmpXxehx0BbW0ANRd3nkKxuv7J14fyyekblvwoEvoGnkhmmZuvNIiCMEMthohNrW1JSIwxNOxZck_wPpkVBIA5dT62csKUJ6xWg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Blotti au fond d'une baie sinueuse et profondément abritée ouvrant sur le Loch Carron au sud-ouest de la péninsule de Lochalsh, Plockton — surnommé à juste titre le « Joyau des Highlands » — compte parmi les villages côtiers les plus pittoresques et attachants d'Écosse. Aménagé au début du XIXe siècle par le propriétaire terrien Sir Hugh Innes sous la forme d'un village planifié destiné à accueillir les familles des Highlands déplacées lors des Clearances et à développer la pêche au hareng, ce bourg plein de charme déploie le long de Harbour Street un croissant harmonieux de cottages traditionnels blanchis à la chaux coiffés d'ardoise sombre et bordés de murets de pierre sèche.\n\nGrâce à son exposition protégée des vents dominants et à l'influence adoucissante des eaux du Gulf Stream baignant la côte occidentale écossaise, Plockton bénéficie d'un microclimat exceptionnellement doux permettant l'épanouissement insolite de grands palmiers-chou (cordylines australes) et d'essences méditerranéennes tout au long de son front de mer. Face aux quais où se balancent voiliers de plaisance et barques de pêcheurs, la baie ponctuée d'îlots rocheux boisés — dont Eilean a' Chait et Hawk Island — encadre une perspective spectaculaire vers les sommets escarpés des montagnes d'Applecross et du Wester Ross.",
+    visiter: "Se promener à pied le long de Harbour Street au bord de la baie abritée de Plockton pour admirer les cottages blanchis à la chaux, les cordylines exotiques bordant le rivage et la vue sur les îlots boisés et les montagnes d'Applecross au-delà du Loch Carron.",
+    link: ""
+  },
+   {
     id: "loch_ness_wellington_bomber_viewpoint",
     name: "Loch Ness - Belvédère du Bombardier Wellington & Rive Septentrionale du Loch Ness",
     country: "Royaume-Uni",
