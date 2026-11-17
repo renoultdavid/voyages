@@ -7,6 +7,164 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "loch_ness_wellington_bomber_viewpoint",
+    name: "Loch Ness - Belvédère du Bombardier Wellington & Rive Septentrionale du Loch Ness",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Inverness",
+    altitude: 24,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Fosse Tectonique du Great Glen (37 km), Eaux Tourbeuses Profondes & Mémoire du Bombardier Wellington (1940)",
+    century: "Temps géologique",
+    category: "lac",
+    counts: { lac: 1 },
+    lat: 57.39819,
+    lng: -4.35495,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMxqAFUU27KncWPPTiKs29hEVSiXgqs9lFqBhPqkiOiN7ra_SU5wgCLODuTD3Bmlor-I0cL62M1kcTM4l6OfAPBxLZXwot5Y8yR3cMtXx2QWE7KpAjnvTBqQox1SJR2qoYmNTHrXqV6xnYXlFYHtKuSJQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Implanté sur la rive occidentale de l'extrémité septentrionale du célèbre Loch Ness, le long de la route panoramique A82 reliant Inverness à Fort William, ce belvédère offre une première ouverture spectaculaire sur l'immense étendue d'eau douce logée au creux de la faille géologique du Great Glen. Étiré sur trente-sept kilomètres de longueur pour une profondeur maximale atteignant deux cent trente mètres — ce qui en fait le lac le plus volumineux de Grande-Bretagne —, le Loch Ness fascine autant par l'austère majesté de ses versants boisés escarpés que par la teinte sombre et presque noire de ses eaux, chargées en particules de tourbe drainées par les torrents des montagnes environnantes.\n\nCe point de vue commémore également l'un des épisodes aéronautiques les plus célèbres et singuliers de la Seconde Guerre mondiale en Écosse : le 31 décembre 1940, un bombardier bimoteur Vickers Wellington (« R for Robert ») de la Royal Air Force, pris dans une violente tempête de neige lors d'un vol d'entraînement, dut amerrir en urgence sur les eaux glacées du loch juste au large de ce rivage. Miraculeusement préservé dans les profondeurs froides et sombres pendant quarante-cinq ans, l'appareil fut renfloué en 1985 lors d'une opération spectaculaire — devenant l'un des deux seuls exemplaires complets conservés au monde — tandis que le belvédère dévoile une perspective saisissante sur l'alignement rectiligne du loch encadré par les crêtes des Highlands.",
+    visiter: "Faire halte sur l'aire panoramique du Wellington Bomber Viewpoint au nord du Loch Ness le long de la route A82 pour contempler la longue perspective rectiligne du lac encaissé entre les montagnes boisées et découvrir l'histoire du bombardier de 1940 repêché des profondeurs.",
+    link: ""
+  },
+  {
+    id: "loch_ness_sculpture_rive_occidentale",
+    name: "Loch Ness - Sculpture & Belvédère sur la Rive Occidentale du Loch",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Inverness",
+    altitude: 30,
+    transport: "voiture",
+    era_group: "contemporain",
+    era_label: "Œuvre Sculpturale en Plein Air Dominante sur les Eaux Sombres du Loch Ness & Folklore des Highlands",
+    century: "XXIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 57.36437,
+    lng: -4.39309,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPKi2clNySLsMcj9YqvjHqbrV-PxOHRkYGdOA23GmqT-z5pULXiNOi3c6g7fjWT0wRlU3ewNyN2OUGku5f7-EG-dacGobmzKtJJDDwEUwycPVkXyCOmUXPT9X7Mji4IlJUN5LQ8kvPyfX-BRgIKz6bbKQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Installée sur un promontoire dominant les rives boisées de la côte occidentale du Loch Ness entre Lochend et Abriachan, cette sculpture contemporaine en plein air dialogue directement avec l'immensité silencieuse des eaux profondes du Great Glen et avec l'imaginaire légendaire qui entoure ce lieu mythique des Highlands. Dressée face à l'horizon lacustre encadré par des versants escarpés couverts de pins sylvestres, de bouleaux argentés et de bruyères, l'œuvre s'inscrit dans la tradition séculaire des récits populaires écossais qui peuplent les lochs de créatures mystérieuses (kelpies et monstres aquatiques) depuis la première mention écrite attribuée à saint Colomba au VIe siècle.\n\nSous la lumière changeante du ciel écossais, où les reflets argentés des nuages glissent sur la surface sombre agitée par les vents s'engouffrant dans la vallée tectonique, cette halte artistique invite à contempler la rencontre entre création contemporaine, folklore populaire et grandeur sauvage de la nature. Le belvédère permet d'embrasser du regard la largeur du bassin central du Loch Ness ainsi que les sommets arrondis de la rive opposée autour de Dores et de Foyers.",
+    visiter: "S'arrêter sur le belvédère jalonnant la rive ouest du Loch Ness pour admirer la sculpture tournée vers le large, observer les jeux de lumière sur les eaux tourbeuses du loch et profiter de la vue panoramique sur les montagnes du Great Glen.",
+    link: ""
+  },
+  {
+    id: "drumnadrochit_vue_chateau_d_urquhart",
+    name: "Drumnadrochit - Belvédère sur le Château d'Urquhart (Urquhart Castle Viewpoint)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Drumnadrochit",
+    altitude: 45,
+    transport: "voiture",
+    era_group: "moyen_age",
+    era_label: "Panorama sur la Forteresse Médiévale de Strone Point (XIIIe-XVIe siècles) & la Baie d'Urquhart",
+    century: "XIVe siècle",
+    category: "panorama",
+    counts: {},
+    lat: 57.32429,
+    lng: -4.44220,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN73u24CoIKzfVJ1vzr5aVzO6AB4O9DmlMja6wD9rt8fvn1ikii-os_qcHorSB1BETLyCqkGKm_AMYBRozmPMW2qUl4IYYNd24fY-QAaXqSCHU0lgnV9XYz2i5Sv_lTvwU-oefJsW9IlRiq97sp-BJXZw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPSQOZx5tKhwNpwq1IbYARcOLhjXoEucGSbjyajrXt1AQVl-eDvxyidSzffVzNEjpLzGJV03lDDCI75UCD0vb1BVwEPY5eK1r0BDaF_CkbsLv2nvHeCA4R8wjxDf5N6yN7HglBuBgGjU8_M1wlVNEyE8g=w1560-h878-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOfmMuWbLzoPX_7mxU7y1OXZtQl_81Ee6NpSNRMAtTllN_Taivx8iDMXvQ8jwvgfM1YSgqvLjUoZHuOl0fmm5tnv6-rYgE_6nUIj2ABZTIT5fW5hguAHgvv7D2xFpQD62egeHrZwsZoSJfkIIUt6knH-g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNEH-iIFK9S2iVFIzH5EbMR8jAeU02jHpPLT6zCIuM3Q1pOPPndEZZQ3b79VK-rKK3JbkQGJVu52EMS_-LZ7Fy3Ge1jITt_SreoYYH850N4VpFSvdq_9KU_Bv5PUL5Xf-OgtlwTAr0a2ulbIYSxUmTShA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dominant l'échancrure paisible de la baie d'Urquhart juste au sud du village de Drumnadrochit, ce belvédère offre l'une des vues les plus célèbres et romantiques de toute l'Écosse sur les ruines spectaculaires du château d'Urquhart. Campée sur le promontoire rocheux de Strone Point s'avançant comme une proue de navire dans les eaux profondes du Loch Ness, cette forteresse stratégique contrôla pendant plus de cinq siècles l'axe vital du Great Glen. Occupé dès le haut Moyen Âge par un fort picte lié au passage de saint Colomba, le site fut fortifié au XIIIe siècle par la famille Durward avant de devenir l'un des enjeux majeurs des guerres d'Indépendance écossaise face aux armées du roi Édouard Ier d'Angleterre, puis le théâtre d'incessants raids menés par les puissants Seigneurs des Îles du clan MacDonald aux XVe et XVIe siècles.\n\nDepuis les hauteurs dominant la presqu'île se détache avec netteté l'ensemble monumental des vestiges conservés : la haute tour-donjon quadrangulaire de Grant Tower édifiée au début du XVIe siècle, le châtelet d'entrée flanqué de deux tours rondes, les courtines crénelées épousant le relief escarpé du rocher et la basse-cour tournée vers le loch. Sabordé à l'explosif en 1692 par la garnison gouvernementale afin d'éviter qu'il ne tombe aux mains des forces jacobites, le château offre aujourd'hui une silhouette tragique et grandiose se découpant sur le miroir sombre du Loch Ness et les reliefs lointains des monts Monadhliath.",
+    visiter: "S'arrêter sur les points de vue surplombant Strone Point près de Drumnadrochit pour embrasser en plongée l'ensemble de la presqu'île fortifiée du château d'Urquhart, sa Grant Tower et son enceinte se détachant sur les eaux du Loch Ness.",
+    link: ""
+  },
+  {
+    id: "glen_shiel_loch_cluanie_viewpoint",
+    name: "Glen Shiel - Belvédère sur le Loch Cluanie (Loch Cluanie Viewpoint)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Glen Shiel",
+    altitude: 221,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Grand Lac Montagnard de Glen Moriston & Glen Shiel (10 km), Barrage de Cluanie & Chaîne des Munros",
+    century: "Temps géologique",
+    category: "lac",
+    counts: { lac: 1 },
+    lat: 57.14797,
+    lng: -5.01454,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMkeHeGtBLcGNDvm7lSzko23vQfyDN8mVE8qYkPbWMPrz51WqKcNIzdL92rAQ8AoHNCUvx_MksMsjlEWkbj-JpK_aGahZed9usAl0u11Ov7jFFm3YWdc48XXX8frbCYJTHCWzTFqYb-BHl_JSBJWmYa2g=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Étiré sur près de dix kilomètres de longueur au cœur de la haute vallée sauvage reliant Glen Moriston à Glen Shiel sur la route mythique menant vers l'île de Skye, le Loch Cluanie déploie un paysage lacustre et alpin d'une grandeur austère au milieu des Highlands occidentales. Encaissé à plus de deux cents mètres d'altitude entre les parois abruptes et dénudées des montagnes de Kintail et de Glen Shiel, ce vaste plan d'eau aux contours découpés résulte de l'élévation du niveau du loch naturel d'origine lors de la construction du barrage hydroélectrique de Cluanie achevé en 1957 — un ouvrage massif de plus de six cents mètres de crête retenant les eaux abondantes des hauts bassins versants écossais.\n\nDepuis le belvédère surplombant la rive septentrionale, le regard embrasse l'immensité silencieuse des eaux sombres bordées de landes à bruyère rousse, de tourbières et de grèves de galets granitiques, dominées sur la rive opposée par la muraille continue des sept sommets de plus de trois mille pieds (Munros) de la célèbre South Glen Shiel Ridge. Sous les ciels dramatiques des Highlands du Nord-Ouest où les bancs de brume s'accrochent aux crêtes escarpées, l'absence d'habitat humain confère au site une atmosphère de solitude boréale saisissante.",
+    visiter: "Faire halte sur le belvédère aménagé le long de la route panoramique A87 surplombant le Loch Cluanie pour admirer la longue étendue lacustre encadrée par les crêtes abruptes des Munros de Glen Shiel et observer l'imposant barrage en pierre et béton.",
+    link: ""
+  },
+  {
+    id: "glen_shiel_lundie_viewpoint",
+    name: "Glen Shiel - Belvédère de Lundie & Loch Lundie (Lundie Viewpoint)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Glen Shiel",
+    altitude: 223,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Belvédère sur le Loch Lundie, Col de Glen Shiel & Massif Alpin des Five Sisters of Kintail",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 57.14590,
+    lng: -5.06800,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOguKoTMR8tcjPrfi0-NvWBvNffqvki-jjDAau-CKrdC0WvtWleXjdgRObnX37Htep9Qa4Bo9iFXDFw-5VgLmgUBhn-euTP-9Wkmy0ZVIGmtCYaz_57lpuN-PTJq0Uo5dM5L-6ufRlb8AUjwbS87I_WJA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNJdq3P9_S0W2nzKwRL6Rgw8ES81R7ICyk2zNWUJt0JcF8zsZrLSOKh841otUUDx_Y3Xz5mJ-LXIUsK9_xGreLYkoCbHfRXn57AAQ2NfK_m_tBDT8qTU-Zf2g6g7ooaaJPeaff6M14O8efM0AQwzhY4KQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN8w4gZAB5dW4LKUT_FdJSdQuEIlmAA-FzSxEdr-VfR5ToY1S_dsDVwN5ZP1R0R0kdVISd86Iic4MwpZWnjg084SzXoTzZTC3WQ6vpjh1THfy-2sa4xZO5HbWueQHSJDd8xox07y8QVxqLLeQZY14tUYA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMYiMgoZD093SKylJvFQAdFBf407cjYL4n0_WA9Ae6qM2reMk_zpyRmHFfSIEQh7cSeqowJNHSoZ54eOKg2oEPSBAINejhlvZNY2UsUnzQ3-pyKmdqH3NO-TeYQoFu9jUJK_QbbPEDI5Jzgm6yhJK7S-g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNe16dUdgiDIsY5W2SnK5prTs7c-IFH2THPhBI7vyNDlZBpwuRtHWVqAoC8n11I4Yl024d9wvqK-AhEBqHp2_wgDHI3gAiDVIsr6L-3LSrNbTEsahwQpGpiViK_N6k9W9KNZ7oUuZdm-RCjkIw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO9Owxzk5zloN5tXRQCK9LcQviTV1bEoI_baOWBdDNvBRXOZan7FF78D1dklANtQ91E8yJw4YCPrPSw81OJMgy7hU9FxFtp4c4vjgA5mBAbz0BWrQAHblvi8q6_uUKg36G79w1TfY6tBDOgukj-SaQCfg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO5SwS80Znyho28vmScZI_VOCkiSwBhyXLHbzeFn_8T7nB-TK8_Kq1XxfF0-aLIT0qBgy8yM8xetmigpobJC0pFujX5h0ajhgC9KQ_iCY13t27zo_QIvwFeYYL-p1DUqRPMH9iEmZRCOLZI27QoVxaacA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Implanté à l'extrémité occidentale du Loch Cluanie au seuil de l'étroit défilé montagnard de Glen Shiel, le belvédère de Lundie (Lundie Viewpoint) dévoile l'un des panoramas alpins les plus grandioses et sauvages de toute l'Écosse. Dominé par les pentes escarpées et rocheuses des sommets de Kintail — parmi lesquels se dressent les célèbres arêtes dentelées des Five Sisters of Kintail et le massif du Saddle —, ce point d'observation surplombe les eaux paisibles du petit Loch Lundie et les méandres de la rivière Shiel s'engageant entre deux murailles de montagne vertigineuses sculptées par les glaciers quaternaires.\n\nCe passage stratégique entre les Highlands intérieures et la côte atlantique face à l'île de Skye fut également le théâtre le 10 juin 1719 de la célèbre bataille de Glen Shiel, au cours de laquelle les troupes gouvernementales hanovriennes affrontèrent et défirent une coalition de clans jacobites soutenus par un corps expéditionnaire de soldats espagnols retranchés sur les pentes rocheuses de la vallée. Aujourd'hui rendue au silence des hautes terres, cette gorge monumentale offre un spectacle saisissant de cascades dévalant les versants de tourbe et de roche sombre, d'ombres mouvantes sous les nuages bas et de perspectives vertigineuses vers les fjords marins du Loch Duich.",
+    visiter: "S'arrêter sur l'aire panoramique de Lundie Viewpoint le long de la route A87 à l'entrée de Glen Shiel pour embrasser le panorama sur le Loch Lundie, les versants abrupts des montagnes de Kintail et le défilé glaciaire plongeant vers la côte ouest.",
+    link: ""
+  },
+   {
     id: "glenshee_parish_church",
     name: "Glenshee - Église Paroissiale de Glenshee (Glenshee Parish Church - Spittal of Glenshee)",
     country: "Royaume-Uni",
@@ -84,7 +242,7 @@ const SPOTS_3 = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczPiUIANm-B6EW7Ixngzafp1uLTkhQZg5QqVc-MRCTz2rJSvbliLbLnyBC-i98IkyNrZ68q_J1ht3jNAUX8gX6u3Ns_RcOKBW6N0n4YByXHI0Mt_HRjvuLbxo8CaILnQuHzYuiMBv2kPG_mdXTDLAoIvCg=w1379-h919-s-no-gm?authuser=0",
     gallery: [
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczNkMsLL4xVt431Qc6REXsLVp3C_-fSWV_pVdX8HB1-iBkrc0S9mKzrqsPfWscvr1_5zDvztln_MELJt8SVfVa5y5mZRhI-bx_GLZLmvYpwwOjlqjST9A7_jhIVlcCEVzJFLr7ZiEPDLMWxBIreTMlqw=w1379-h919-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNkMsLL4xVt431Qc6REXsLVp3C_-fSWV_pVdX8HB1-iBkrcx0S9mKzrqsPfWscvr1_5zDvztln_MELJt8SVfVa5y5mZRhI-bx_GLZLmvYpwwOjlqjST9A7_jhIVlcCEVzJFLr7ZiEPDLMWxBIreTM1lqw=w1379-h919-s-no-gm?authuser=0",
         caption: ""
       }
     ],
