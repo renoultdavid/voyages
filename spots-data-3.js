@@ -156,10 +156,51 @@ const SPOTS_3 = [
     lat: 57.42360,
     lng: -6.78791,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPASLnBiDZqwZuChs6pFrJdIDAKThOyH4HVc2PxNz_1w5FQNuMbpAVA5HMEYDjxvJ7kQLpUeWWvAG5ZmIPXoIJbqOvkNUkjwHUfQt14xBTzsVyhtVp7pMq3C4GhJeYhBcGVS_tgLT98mqdiTYFzpnPzcw=w1379-h919-s-no-gm?authuser=0",
-    gallery: [],
     description: "Accroché à l'extrémité la plus occidentale de la péninsule de Duirinish sur l'île de Skye, le cap spectaculaire de Neist Point dresse ses hautes falaises de basalte noir face à l'immensité de l'océan Atlantique et du détroit du Little Minch. Ce promontoire sauvage et venté, sculpté par les coulées volcaniques tertiaires et battu sans relâche par les houles océaniques, forme une langue rocheuse étroite s'avançant vers le grand large jusqu'à l'îlot où veille depuis 1909 le célèbre phare blanc conçu par l'ingénieur écossais David Alan Stevenson.\n\nReliant les hauteurs gazonnées du plateau aux abords mêmes de la tour du phare par une descente aménagée et un ancien tracé de voie de ravitaillement, le parcours dévoile tour à tour des orgues basaltiques impressionnantes, des pelouses littorales fleuries d'arméries maritimes, une faune marine et ornithologique remarquable — fous de Bassan, fulmars, guillemots, marsouins et cétacés — ainsi que des vues grandioses sur les îles de North Uist et de Harris à l'horizon occidental.",
+    intro_page: "Accroché à l'extrémité la plus occidentale de la péninsule de Duirinish sur l'île de Skye, le cap spectaculaire de Neist Point dresse ses hautes falaises de basalte noir face à l'immensité de l'océan Atlantique et du détroit du Little Minch. De ses crêtes herbeuses panoramiques jusqu'au phare blanc édifié en 1909 par David Alan Stevenson, ce promontoire volcanique dévoile des orgues basaltiques saisissantes, une faune marine exceptionnelle et un horizon ouvert sur les îles des Hébrides extérieures.",
     visiter: "Emprunter le sentier pédestre descendant depuis les crêtes de Neist Point le long de la falaise basaltique et de l'ancien tracé des rails jusqu'au phare blanc de 1909 pour contempler les orgues volcaniques, la faune marine et les îles des Hébrides extérieures face à l'océan.",
-    link: ""
+    link: "",
+    sections: [
+      {
+        title: "Le belvédère des falaises et le panorama sur le Little Minch",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN79X6XplfetTz8tHg6UhbEne9fYZOmtc0erGZqhbgU10Ufh4xMZ47RR17Ai3-XnWYbGean-0AGTv0ydq5SJYrMLFqgubiYpHT_OCxxhjK2zTbdBpz4F-9rbLBM2-CN96u1DXam4GAOfTuaWYixqQrEvA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOVnnxuA-dcriAgUtI0SZsEMOz1t3pPW0xGs8VUzDr6aP4862UVqfZynJTb28bHpZclqnrKbjVmnmyNWDcFLZ81E7n6Hs1iE_KLZWza5IBU41ClzvHwcXKzBQYjMkXCX7CYVbEAzx9Btz4lNSGBrXR8MA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Dès l'arrivée sur les crêtes herbeuses dominant le site, le belvédère naturel du Neist Point Cliff Lighthouse Viewpoint embrasse l'un des panoramas maritimes les plus grandioses des Hébrides intérieures. De ce promontoire balayé par les vents marins, la perspective plonge d'un seul tenant sur la langue rocheuse étroite qui relie la falaise principale à l'îlot terminal, tandis que l'horizon occidental s'ouvre par-delà les eaux profondes du détroit du Little Minch sur le chapelet découpé des Hébrides extérieures, où se profilent nettement les reliefs de l'île de North Uist et les montagnes de Harris."
+      },
+      {
+        title: "Courants marins, cétacés et colonies d'oiseaux pélagiques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOIfTbPPxrZNXb3eaonLBbBxYx3D0TWe0o1oOEQ1-Pb71tZDkJGifah3t3tVG1z8g8-CB8pceS2j7-6t_fZtQS7H8yvI5UYpDiYObhPHEpdQI1nHtSX1jb7xz26ZcbWxm20slNVsZCsxVXdkmo4e2brAQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Ces courants marins riches en plancton attirent régulièrement une faune pélagique remarquable — petits rorquals, dauphins communs, marsouins et requins pèlerins — survolée par les vols planés des fous de Bassan, des fulmars boréaux et des guillemots nichant dans les corniches rocheuses."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOFvyRrHsmDLDfTXiZep5gkbtCRGfau1dWHxf9kMa9U2nZ88TFuw3NH8628Nnq7UjjigNoc0bMSx1Eza9WdeSIz_rRXwX6qXzXzGPHpG6zGSMHd0cQjSBqH2Q_YtmY9tvR-MZWkK4Ebp_dUaH2uTBkVIw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOa2V5CkfWp98JfQnXA1RA4HL50uAe9wVFbxJZFZlfAmX2JSqZp0bi3OihyJS_vtNANue5ymGPJwe8LyeGGK4OIZI4pudqtImQZMrwq6yefYpu2N152wQnNPNihmOsg5JLim-XokMl8iTMMrGxgC3pGkQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Descente le long des basaltes colonnaires et pelouses aérohalines",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPbENfDVtRFr7Y78aSKKwKuH7WbSTTW9W0r3rZQDn3s4ggEfqRcgwGaBbQVZQ2JrjRzf7OQnEy2Ev2ek6ViBfedl4B2ojVWHGkveESNI2xlC89OEhVQCRnSkXEpPdi6VFcMm4guAJo1VK1F4j39nWRbaA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMwpEzywKjECekKPjcKi4uzvHUJL_D4f2-642POklfNHlylch38-89HVleyv69P_GC4VzxzI4CDvOpSfKvzg1PB7GeT9RtoerycKStfMgcfqtipeWo_FHn11r41TqJp2rlidkUlbQMWeUyz5xZGQNya9g=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La balade pédestre, longue d'environ deux kilomètres et demi aller-retour pour un dénivelé avoisinant cent trente mètres, s'amorce par une descente soutenue le long d'un escalier en béton et d'un sentier aménagé à flanc d'escarpement. À mesure que l'itinéraire perd de l'altitude vers le col étroit reliant le cap au plateau principal, le regard détaille les formations de basaltes colonnaires de l'éperon d'An t-Aigeach et les pelouses aérohalines rases battues par les embruns, piquetées de coussinets roses d'armérie maritime (Armeria maritima), de silènes maritimes et d'incrustations de lichens dorés (Xanthoria parietina) accrochés à la pierre noire. Le chemin franchit ensuite la crête rocheuse basse en suivant l'ancien tracé des rails qui permettaient autrefois d'acheminer le ravitaillement et le charbon depuis le débarcadère côtier jusqu'aux bâtiments techniques."
+      },
+      {
+        title: "Le phare de Neist Point : sentinelle maritime de David Alan Stevenson",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPOBmL-DjdRlPDW-Tm6sVtt8VC4QRewuC6-NKBaRaHukkHfCYI9ntN_H4aHnP7WQzOPFk1vvOIjTKoswTKH8K83nnKJUQilv-yeFT7ioMxqYwJZRjYTzZ_RvSsblMdjZ_JfuITM1LBuMR0ZX2VF4adsUg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMm3hdB9nX9H83McxsOt8-RKfHqhzW9F5m7H4Lpekp6qp8zwDJp2mJLHMePs0hHC5SPQrwWGsy529S9S-3zrEDjQnrmr5nzqmEKIdW9U_o2bEXJr3V8-JbKiF_V8f1Wa_YVcfDeZNgx23IECwee2JAC5Q=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Au terme de cette avancée minérale surgit la silhouette blanche et élancée du Phare de Neist Point, mis en service en novembre 1909 d'après les plans du célèbre ingénieur écossais David Alan Stevenson pour le compte du Northern Lighthouse Board. Érigée à quarante-trois mètres au-dessus du niveau de la mer, sa tour cylindrique en maçonnerie peinte en blanc, haute de dix-neuf mètres et couronnée d'une lanterne noire à coupole et d'une galerie à encorbellement, projetait jadis le faisceau de sa lentille de Fresnel à plus de vingt-cinq milles nautiques à travers les brumes du Minch. Flanqué des anciens logements des gardiens et de ses annexes aux murs blanchis à la chaux ceinturés d'un enclos de pierre conçu pour résister aux rafales atlantiques, cet ouvrage maritime emblématique, entièrement automatisé depuis 1990, veille désormais en solitaire au bout des falaises de Skye, avant que le sentier ne remonte en sens inverse vers les hauteurs panoramiques du plateau."
+      }
+    ]
   },
    {
     id: "trotternish_brides_veil_falls",
@@ -209,9 +250,12 @@ const SPOTS_3 = [
     lng: -6.17470,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPN3HTeY9KLg4nco-SjdmIeezFKMoB-KEcujUFFYAuIjgbI7srTwgNO27n16RDAeIhynomgiel4x_e7E3z3S6h_oJakquIJ1RUZSnTFZunJUWT8tjhasP7rtssl2X-3afKqpexzdcxjpm4zrMP88laGhQ=w1379-h919-s-no-gm?authuser=0",
     description: "Dominant la côte orientale de la péninsule de Trotternish au nord de Portree, l'ascension vers l'Old Man of Storr constitue la randonnée la plus célèbre, spectaculaire et emblématique de toute l'île de Skye et des Highlands d'Écosse. Ce parcours pédestre d'environ quatre kilomètres et demi à cinq kilomètres aller-retour pour près de trois cent quarante mètres de dénivelé positif s'élève depuis la route côtière A855 à travers les landes tourbeuses balayées par les vents marins jusqu'à l'amphithéâtre minéral fantastique du « Sanctuaire » (The Sanctuary). Ce chaos grandiose d'aiguilles volcaniques, de tours de pierre sombre et d'éboulis géants est né d'un colossal glissement de terrain postglaciaire ayant fracturé l'épaisse cuirasse de basalte tertiaire reposant sur des sédiments jurassiques plus tendres.\n\nAu cœur de ce décor lunaire et dramatique, le monolithe de l'Old Man of Storr dresse son obélisque vertical de basalte noir haut de cinquante mètres au pied des falaises abruptes du Storr (719 mètres). En poursuivant l'ascension par le sentier raide qui contourne les pinacles par le nord jusqu'au promontoire panoramique culminant vers 481 mètres d'altitude, le randonneur découvre un belvédère vertigineux embrassant à la fois la pointe de l'aiguille rocheuse en contre-plongée, les miroirs argentés des lochs Leathan et Fada, le détroit de Raasay, le sommet tabulaire du Dun Caan sur l'île de Raasay et, à l'horizon, la chaîne dentelée des montagnes de Torridon et d'Applecross.",
+    intro_page: "Dominant la côte orientale de la péninsule de Trotternish au nord de Portree, l'ascension vers l'Old Man of Storr constitue la randonnée la plus spectaculaire et emblématique de l'île de Skye. S'élevant depuis la route côtière A855 à travers les landes atlantiques jusqu'au chaos volcanique du Sanctuaire et au belvédère sommital dominant l'aiguille basaltique haute de cinquante mètres, ce parcours offre une plongée saisissante dans la géologie des Hébrides face à l'île de Raasay.",
+    visiter: "S'élancer depuis le parking du Storr sur la route A855 au nord de Portree en empruntant le large sentier graveleux puis les marches empierrées jusqu'au chaos rocheux du Sanctuaire, et poursuivre la montée jusqu'au belvédère nord surplombant l'aiguille de l'Old Man of Storr face à l'île de Raasay.",
+    link: "",
     sections: [
       {
-        title: "",
+        title: "Départ depuis la route A855 et ascension des pentes inférieures",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczPU6WlAV42f_COEVrIwl7fC3DXs7yLvvBRBSWiCsaPkt3hTh0cUJZvjBAx_soiFbk9iXnzTogM9BplQ30UrXfkWKOGw2Wu_GfnrpJJ8iHZLJm8EI92RnCOnKBzVFz6J1R_VvQhZefqxtj_KS5Uv39zyrw=w1379-h919-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczN4t3Y2Xj0V8kvH41Spr2vTotS8zVO4eVvsJEF1ZSmsYwLVSt2gE1fY7AZKsFu78rZgDjXa2RtP0FjhRhbXSfQ-pHzEiOvi-AtyN7cmNxaSvNOESMl8rpb4GkQpmh6luiyniuBs8UcKFSqI4YZSJs3Zxg=w1379-h919-s-no-gm?authuser=0"
@@ -219,7 +263,7 @@ const SPOTS_3 = [
         text: "L'itinéraire de randonnée, qui dessine une boucle d'environ quatre kilomètres et demi à cinq kilomètres pour un dénivelé positif avoisinant trois cent quarante mètres, s'élance depuis le bord de la route côtière A855 au pied du massif de l'Old Man of Storr. Dès les premiers pas, un large chemin graveleux bien aménagé s'élève en lacets réguliers à travers les pentes inférieures autrefois couvertes d'une dense plantation de conifères, dont l'abattage récent a dégagé une perspective grandiose et ininterrompue sur la muraille basaltique."
       },
       {
-        title: "",
+        title: "Traversée de la lande atlantique et entrée dans le Sanctuaire",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczN5J-rDLulmqPQjGs1aaf5okIDGWExcecGD3KA3uZNDvZSnM5PIokjYcZYfgyVrR8bGGxpfXFvqwKFGT4P3nrp9d6gZyMk4c1gRS8TKVmp5yXf22XOYTmIi23NDczlhjKjaPZKwIdAa7Gh4h2FlTqKx0g=w1379-h919-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczNKKNt0UbksENc13DZLfXI2Y9XXw8REFHAN3fjdvIo9Jqd4WWG90BwCVnoxDKRLKxvMy3s5Cs5cGQCFy4ifySt3UCDkdgg3-tTI3TU9kUOP2GCCWerNfbNBLyege9WFiimhYSUX6L7qYnzmXMOZVkUZ2w=w1379-h919-s-no-gm?authuser=0"
@@ -227,7 +271,7 @@ const SPOTS_3 = [
         text: "Le sentier franchit plusieurs portillons pastoraux et grimpe sur des dalles de pierre et des marches empierrées au milieu d'une lande atlantique ouverte, tapissée de bruyères callunes, de sphaignes gorgées d'eau, de joncs et de graminées dorées balayées par les vents marins. À mesure que la pente se redresse en approchant de la base des escarpements, le marcheur pénètre dans l'amphithéâtre minéral du Sanctuaire, slalomant entre d'immenses blocs éboulés tapissés de lichens et de mousses verdoyantes au pied même de la paroi verticale du monolithe et de ses aiguilles voisines telles que la Needle Rock."
       },
       {
-        title: "",
+        title: "Montée finale vers le promontoire panoramique nord",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczOlCNaXiTAq80khZyK2PgXCKE4Pg9rQQPXWxalE_oCmPxDQfd4WI3svmCLWDTOlTot4P_QmZBKnH_ypXBFjP1f10ntfScjsPOP4uhyMs4_suv-cHO4EEsPsqHh--UaayZaqBocLnorxC8t5efB2Z07cRg=w1379-h919-s-no-gm?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczN97mN7WTq0eTAOk5mxQMyy6Jj_cdbqdcvBbMs1JnB2Rv5ZwcgUjsRa1bpj74eLEazz9FroeHbhuKfpASyjp3h7aLxFmyDy-jpGmw1M0FA3JQvCaERg7bpC1oi4xRflDjIzlRSa5c2LewR3SDgNiwdDIw=w1379-h919-s-no-gm?authuser=0"
@@ -251,14 +295,14 @@ const SPOTS_3 = [
         text: ""
       },
       {
-        title: "",
+        title: "Genèse volcanique du monolithe et glissement de terrain du Storr",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczMH5obRlNlTV6R0uqW8MnlPu7HPvmWPwoYUhzRYVDx85E8dFLarF9G2C2g-OscMuY2ZwvXByN9xI2SP0KmnqfznPYUwx67mAPBv7WSZwoRlLpXPQRMVOkBu8NeFSt1KjD_uVDnvBqU5Hkqn_UZtcac2xg=w1379-h919-s-no-gm?authuser=0"
         ],
         text: "Cette aiguille monolithique de basalte sombre, haute de près de cinquante mètres, jaillit tel un doigt de pierre solitaire au pied de l'imposante falaise du Storr qui culmine à sept cent dix-neuf mètres d'altitude. Sa genèse raconte une histoire tellurique fascinante en deux temps : au Paléogène, il y a environ soixante millions d'années, d'épaisses coulées de laves basaltiques issues de l'activité volcanique de l'Atlantique Nord se sont épanchées sur un socle beaucoup plus tendre de grès et d'argiles du Jurassique. Sous le poids colossal de cette cuirasse volcanique et à la faveur de l'érosion glaciaire du Quaternaire, la bordure orientale du plateau s'est effondrée en une série de glissements de terrain rotationnels gigantesques, isolant ce chaos de pinacles, de lames rocheuses et de tours déchiquetées connu sous le nom de « Sanctuaire »."
       },
       {
-        title: "",
+        title: "Belvédère sommital sur les lochs, Raasay et les monts de Torridon",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczM-lQt_SAMbBjhka3UAIgZY1_o7I5bEpVgn-VIU_LQpKjICEaBWavBsDmhiYwzsYMENpYy9UdTFmu9mDpEQnUW6d2J8JDnPyg9ITBSVFcojpifxJ7npNlBfToxskMAqJndOE6wqTS34E7kraCgfY_ejOA=w1379-h919-s-no-gm?authuser=0"
         ],
@@ -272,11 +316,8 @@ const SPOTS_3 = [
         ],
         text: ""
       }
-    ],
-    visiter: "S'élancer depuis le parking du Storr sur la route A855 au nord de Portree en empruntant le large sentier graveleux puis les marches empierrées jusqu'au chaos rocheux du Sanctuaire, et poursuivre la montée jusqu'au belvédère nord surplombant l'aiguille de l'Old Man of Storr face à l'île de Raasay.",
-    link: ""
+    ]
   },
-
   {
     id: "trotternish_rigg_viewpoint",
     name: "Île de Skye - Belvédère Côtier de Rigg (Rigg Viewpoint - Trotternish)",
