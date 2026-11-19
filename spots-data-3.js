@@ -7,6 +7,243 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "glen_coe_loch_achtriochtan",
+    name: "Glen Coe - Le Loch Achtriochtan & Vallée Glaciaire (Glen Coe)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Ballachulish",
+    altitude: 90,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Petit Loch Glaciaire au Cœur de Glen Coe, Prairies Tourbeuses & Versants Escarpés du Lochaber",
+    century: "Temps géologique",
+    category: "lac",
+    counts: { lac: 1 },
+    lat: 56.66500,
+    lng: -5.03783,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNQ6Q2EDeVO6x3B2XBsZKtlL87QpIuYjdTxyRu_9NFnz_iGbDyD3DXNNFkk2oPWb0JU0-FxHfIQLHtdc-I8-BEllvya5L5wATKDzZ2kRu8ks5kqmSmXXPasQfz-Al1d5f7IoUtgKB_G2wSxxJWJfVHOew=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMtoprzA822tM7UABM8wdTVSTa-LSvoBIEArbq5Gtl1EwJs25-0l5ahoZ0W7QW7hmAkr65s3RYY1TOge8_AQMoGVGScoER2iSl4eMlrvqHxiMn5CK8IJYJWQyFe4gKfEqQmezgeGrjbi0WAAtlBCKHMBA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO2AvAxhwjUEvYfLH91iiBoO-1OSC0aoGN52Ce8m7IC5FNQAwv4R-0dxIWBo4sUfpB7tgXJe5oF6rNXaSZDxPUwgILHqhBkxrkFW-XpBkpjCUw8C_f5wWStMaD5YcVHbnpiCMhr6r6Dq2hgop8CUDwkPw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPaSb0ndT4VThbUET8eB92kvOlbChN2pWnyuruR87h6OfH7f5PucSzGFNj3waaXp8M5eddIg9qWRWDjt5io1S5w5Q0wAkngu3wja5DCdcTP-Xkzr1JO3vM9azwYqj28GZwa_ekQX1hOPdykgHWJOMYahg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Nichée dans une cuvette paisible et verdoyante au cœur de la vallée mythique de Glen Coe dans le Lochaber, à quelques kilomètres à l'est du belvédère de Hagrid, l'étendue calme du Loch Achtriochtan offre un contraste saisissant entre la douceur pastorale du fond de vallée et la puissance minérale des hautes murailles montagneuses environnantes. Ce petit loch d'eau douce, alimenté par les méandres de la rivière Coe et les torrents descendant des versants escarpés, s'entoure de vastes prairies humides, de joncs, de fougères rousses, de bruyères et de bouquets d'arbres où paissent les cerfs élaphes et le bétail des Highlands.\n\nPar temps calme, lorsque les rafales s'apaisent au fond de l'auge glaciaire, la surface sombre et limpide du loch reflète avec une poésie rare les pentes couvertes de landes, les éboulis rocheux et les ciels changeants de l'Écosse, où les nuages s'accrochent aux crêtes abruptes encadrant la vallée. Chargé de l'histoire dramatique des clans de Glen Coe et du clan MacDonald au XVIIe siècle, ce vallon lumineux constitue l'un des espaces les plus apaisants et emblématiques de la traversée de la route A82.",
+    visiter: "Faire halte le long de la route A82 dans le secteur du Loch Achtriochtan en Glen Coe pour contempler les reflets des versants montagneux sur les eaux calmes du petit loch, observer la faune des prairies humides et apprécier le cadre encaissé de la vallée glaciaire.",
+    link: ""
+  },
+  {
+    id: "glen_coe_coe_river_waterfall",
+    name: "Glen Coe - Cascade de la Rivière Coe (Coe River Waterfall - Glen Coe)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Ballachulish",
+    altitude: 73,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Rapides & Chutes Écumantes de la Rivière Coe, Dalles Rochéuses & Vallée Glaciaire de Glen Coe",
+    century: "Temps géologique",
+    category: "cascade",
+    counts: { cascade: 1 },
+    lat: 56.66354,
+    lng: -5.04594,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMiOhLEaDMaYrniluL8R034zmIEqEGRHE3Sj40enVLLuJbVuFnnmhZzH39j7JFx849rqr2yPsydBPRWsu_v1aH4g3vWHF6ZW2xERJVJmyXQwCnBl5WrCpivzoSKlzh0t7mopFPragagD2MQ-mNFm9ipxg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Creusant son lit tumultueux à travers les roches volcaniques et métamorphiques anciennes de Glen Coe en aval du Loch Achtriochtan, la rivière Coe offre ici un spectacle aquatique plein d'énergie et de fraîcheur au cœur de l'un des paysages les plus célèbres des Highlands. Alimentée par l'abondante pluviométrie atlantique et par les nombreux ruisseaux et cascades dévalant les cirques glaciaires des versants nord et sud de la vallée, la rivière franchit des seuils rocheux sombres et des blocs polis par les glaces en une succession de rapides bouillonnants et de chutes écumantes teintées d'une belle couleur ambrée tourbeuse.\n\nBordées d'herbes hautes, de fougères, de mousses verdoyantes et de galets granitiques et basaltiques, les berges de la rivière Coe révèlent la force constante de l'érosion fluviatile et glaciaire qui a façonné cette gorge emblématique du Lochaber. Le grondement continu de l'eau vive accompagne le voyageur au cœur d'un décor sauvage et grandiose dominé par les pentes abruptes et les éboulis des montagnes de Glen Coe.",
+    visiter: "S'arrêter à proximité de la rivière Coe dans le secteur occidental de Glen Coe pour observer le bouillonnement de ses rapides et cascades ambrées sur les rochers sombres au milieu des landes et des pentes escarpées de la vallée.",
+    link: ""
+  },
+  {
+    id: "glen_coe_three_sisters_viewpoint",
+    name: "Glen Coe - Belvédère des Trois Sœurs (Three Sisters Viewpoint - Bidean nam Bian)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Ballachulish",
+    altitude: 163,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Crêtes Parallèles des Trois Sœurs (Aonach Dubh, Gearr Aonach & Beinn Fhada), Éboulis Glaciaires & Glen Coe",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 56.66784,
+    lng: -4.98725,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPvVnpiCQds8-T09i7-5MVy94rm0JuvG1SHoDce5VtRPKFIpcSpjMUeqgfu1yhIR7QGbkxGR-IPCiDFTfJIFwMxRYMOAzfI_psC48uecmpTZLLUxT8OZxd2Ysj8bYzGj5zwdiA9O6lBJEhCnIGuPyin-Q=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNZ0iE0jkdcbdMcq8_ZBFIjZo9DEFV5OwLx-RXOtFyKnSRrl2HaNjrSDgot2RA6CEWBVvPT283U1UanVi-8iRHNDYTWCXE7kf1p81JT3SYBgJQV8ubB_CeZ9QlX-qsC0z5Q6TboQsD0khJeLitP8N95gg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPsQKgTIimNFlYBbHtOjRl4_ixcoRnxto0KCOruDUphx99DXWXBeq311lXLPmYeiMsr0RyGmjy1L4LrNBwUTyWiFEeyRr1mnK8R9hoZStuvvh5xkEvwaECArIjqf1kq0kj_17ZWLPg5JZ5j8I2D2iWqyQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMi-9YLG2y1iJw50nJ084xylRqd8Y9bItAInEgl1JMemnZ5UP1AaUzAu9vFuiwyjWWTPNKsevvMzM4Ks-AIk_ktPzw6jrMqKWtwneL0lYLz0pLc7jWA43_ol3MqJQVak2CDkHG_UJPQBe906_G0ZLDqsw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dominant le cœur même de la vallée de Glen Coe le long de la route panoramique A82, le belvédère des Trois Sœurs (Three Sisters Viewpoint) offre l'une des visions géologiques et paysagères les plus célèbres et saisissantes de toute l'Écosse. Face au point d'observation s'alignent en rangées parallèles trois contreforts montagneux majestueux détachés du massif du Bidean nam Bian — point culminant d'Argyll et du Lochaber avec mille cent cinquante mètres d'altitude — : d'ouest en est, Aonach Dubh (« la Crête Noire »), Gearr Aonach (« la Courte Crête ») et Beinn Fhada (« la Longue Montagne »), séparés par de profondes entailles glaciaires et coiffés d'immenses cônes d'éboulis pierreux.\n\nCe relief d'une puissance architecturale brute est l'héritier d'une double histoire géologique prodigieuse : d'abord l'effondrement d'une gigantesque caldeira volcanique il y a plus de quatre cents millions d'années au Dévonien, puis le passage répété des calottes glaciaires quaternaires qui ont raboté les parois et accumulé au pied des pentes d'impressionnants tabliers de débris rocheux. Lorsque les rayons du soleil percent à travers les nuages sombres des Highlands pour illuminer l'une des crêtes tout en laissant les autres dans l'ombre, les Trois Sœurs révèlent toute la grandeur dramatique et sauvage de Glen Coe.",
+    visiter: "Faire halte sur l'aire panoramique des Trois Sœurs le long de la route A82 en Glen Coe pour contempler l'alignement monumental des crêtes d'Aonach Dubh, Gearr Aonach et Beinn Fhada, leurs profonds couloirs glaciaires et leurs vastes cônes d'éboulis.",
+    link: ""
+  },
+  {
+    id: "glen_coe_meeting_of_the_three_waters",
+    name: "Glen Coe - La Rencontre des Trois Eaux (Meeting of the Three Waters - Cascade & Gorge)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Ballachulish",
+    altitude: 227,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Confluence Torrentueuse de Trois Torrents Montagnards au Pied des Trois Sœurs, Gorge Basaltique & Cascades",
+    century: "Temps géologique",
+    category: "cascade",
+    counts: { cascade: 1 },
+    lat: 56.66254,
+    lng: -4.96590,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM_sZItca4l4kpr0jTRnzxebWvPnE53WYZ3wrFzsD5XZpfZnACFRZhJUTLzwgnRLqMq3mkAdmczXGuWyxQnkSbmOWBpVkucT1GXnPCqadTZAnoM1ZQgSHsf3yvZcIxWjXaqU0K4vXb5524YyM0wz0sB-Q=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOmiIZM9PBDsN5HMVE3TeSI-C31ZruZNSicuTt5YpU1D1u6lUMBGQ9HET1JAGK-a6WzEbGLyEQuVmixX-bHovu3f0zZbWbKZEEZ0jZJf1kL9wZBhZI2W5WnqWIFw6ZtFdCqBFJPyjK3OIou9djRKD8h7Q=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Blotti au pied des versants escarpés qui séparent les crêtes des Trois Sœurs dans le secteur central de Glen Coe, le site de la Rencontre des Trois Eaux (Meeting of the Three Waters) rassemble en un point spectaculaire la confluence de trois torrents de montagne dévalant les pentes abruptes et les couloirs glaciaires voisins. Par temps de pluie ou après la fonte des neiges d'altitude, ces ruisseaux sauvages chargés d'eaux tourbeuses ambrées se précipitent en chutes écumantes et en cascades successives le long des parois rocheuses sombres avant de se rejoindre au fond d'une gorge étroite et encaissée.\n\nDominé directement par la masse imposante et les éboulis rocheux des Trois Sœurs, ce carrefour hydrographique illustre avec une lisibilité saisissante la dynamique torrentielle des montagnes de Glen Coe, où chaque averse nourrit instantanément l'écume blanche bondissant entre les blocs de roche et les touffes de fougères et de mousses. C'est un arrêt privilégié pour ressentir de près la puissance brute de l'eau et de la roche au cœur de la vallée.",
+    visiter: "S'arrêter le long de la route A82 au niveau de Meeting of the Three Waters en Glen Coe pour observer la confluence des torrents en cascades et cascades de montagne au pied des escarpements des Trois Sœurs.",
+    link: ""
+  },
+  {
+    id: "glen_coe_glencoe_viewpoint",
+    name: "Glen Coe - Grand Belvédère de la Haute Vallée de Glen Coe (Glencoe Viewpoint)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Ballachulish",
+    altitude: 243,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Vue Plongeante sur la Haute Vallée Glaciaire de Glen Coe, Lande Déserte & Approche du Col de Glencoe",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 56.66151,
+    lng: -4.91763,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPNtNP4qhfr0Yk0exLq7t6b88Fe1eGsEUUVfUw4h_kq6IG05d_Rc7ojoR3zjkrSiLqF3bNeQgh1DvJnKbvMInwxpw5mbs2e2AMyXKmW47Km0U2MjUCxwKg1CXJi7erIm0DW2ulABU7dPe1UE1g9rmvFuA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOB9DmPhoL_T6PpSKIaJ2XJk3N005EW8BC5gzGMbuudgO3kA6h-lfYW0wqJGDLvaBWl1W3jY0eYM0TPKZf2GFe49CK27OycC1J7W_9t35125KCmiKfbpXpAY34-vl3a4n_zvGs6ehKjqrEa4RJBjR8Shw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMCa2o219CK2jPu24SpiysCedqmtUYoYb_2FDJ5xHDQJCVAv6Hnp9Nuaj9KJVFymE5f1MaiWTaua_CqAQyWReAkko1lecFe-qjEmM0J1THLUNa1DHO3-HaoBSvta84uINCfb8VSXa9K2vWmsJrGcfMlPw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "S'élevant à près de deux cent quarante mètres d'altitude sur la partie supérieure de Glen Coe à l'approche du col et du plateau tourbeux de Rannoch Moor, ce grand belvédère dévoile l'ampleur monumentale et presque irréelle de la haute vallée glaciaire. Depuis cette position dominante, le regard embrasse l'enfilade majestueuse de l'auge creusée par les glaciers quaternaires, dont les parois abruptes et les pentes d'éboulis s'ouvrent en perspective vers l'ouest et le Loch Leven, tandis qu'en contrebas le ruban de la route et le cours de la rivière s'étirent au milieu d'un espace sauvage et presque désert.\n\nIci, l'absence de forêt dense et d'urbanisation accentue la dimension minérale et austère des Highlands : les versants couverts de bruyères, d'herbes dorées, de tourbières et de blocs rocheux se succèdent sous un ciel immense où se bousculent les nuages atlantiques. Ce panorama synthétise toute la solennité historique et géographique de Glen Coe, vallée de légendes et de tragédies inscrite dans la mémoire collective de l'Écosse.",
+    visiter: "Faire halte sur le belvédère de la haute vallée de Glen Coe le long de la route A82 pour embrasser la perspective ouverte sur l'auge glaciaire, les versants montagneux et les étendues sauvages menant vers le plateau de Rannoch.",
+    link: ""
+  },
+  {
+    id: "glen_coe_wee_white_house",
+    name: "Glen Coe - La Petite Maison Blanche de Glen Coe (Wee White House - Haute Vallée)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Ballachulish",
+    altitude: 292,
+    transport: "voiture",
+    era_group: "contemporain",
+    era_label: "Cottage Blanc Isolé au Pied des Montagnes de Glen Coe, Architecture Traditionnelle & Cadre Alpin Sauvage",
+    century: "XXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 56.66247,
+    lng: -4.90420,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOeXDfeimqtOvzsEP89rASoOKcRpzYfzmfQMTjfrY_2kJX-bPQfJrE1R_0mluCJ5EOusvuat4a_VZbIUENy7qC7NXVR2djD-p117URGI774WfhQD2kRCKRXaeKh9sx0wSWz0QHZY6voVCp5M0IGvmIGEQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Posée à près de trois cents mètres d'altitude dans l'immensité dénudée de la haute vallée de Glen Coe à l'approche du massif du Buachaille Etive Mòr, la célèbre « Wee White House » (« la Petite Maison Blanche ») offre l'un des contrepoints humains les plus poétiques et photogéniques des Highlands d'Écosse. Ce modeste cottage traditionnel aux murs chaulés d'un blanc éclatant et coiffé d'une toiture d'ardoise sombre se détache avec une netteté saisissante sur les tonalités sombres, rousses et vertes des landes tourbeuses et des versants rocheux qui l'entourent de toutes parts.\n\nPar sa taille minuscule face à l'échelle colossale des montagnes et des ciels de Glen Coe, cette humble demeure isolée rappelle la fragilité et la ténacité de la présence humaine dans ces hautes terres soumises aux vents, aux pluies et aux neiges d'altitude. Qu'elle soit baignée par une lumière vive ou enveloppée par les brumes montagnardes, la petite maison blanche compose un repère visuel inoubliable au seuil des grands espaces sauvages de l'Écosse.",
+    visiter: "Repérer depuis la route A82 dans la haute vallée de Glen Coe la silhouette blanche et solitaire de la Wee White House se détachant au milieu des landes et des pentes montagneuses à l'approche du Buachaille Etive Mòr.",
+    link: ""
+  },
+  {
+    id: "glen_coe_buachaille_etive_mor_viewpoint",
+    name: "Glen Coe - Belvédère sur le Buachaille Etive Mòr (Le Grand Berger d'Etive)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Ballachulish",
+    altitude: 225,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Pyramide Rochéuse Emblématique du Buachaille Etive Mòr (1 021 m), Stob Dearg & Vallée d'Etive",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 56.64760,
+    lng: -4.86595,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMG-rK03zm0lAJRS6HtI0zcP0cEWmFF6aehWd0aL-Q-EnltJuK8FG2dGLaPbB20UHnW3zz_EN1SUFrpC8BQ5pym0U2RKJifWjA2mUecTj08L2j93Qn3pHDwrDB-nIwGrV8RpNZwjG_u0tfOjd9sBx-fCA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dressé tel un gardien monumental à la jonction spectaculaire de Glen Coe, de Glen Etive et des vastes étendues tourbeuses de Rannoch Moor, le Buachaille Etive Mòr — dont le nom gaélique signifie « le Grand Berger d'Etive » — déploie depuis ce belvédère sa silhouette pyramidale d'une pureté géométrique saisissante, culminant à mille vingt-et-un mètres d'altitude. Vu depuis l'approche orientale de la vallée, ce sommet emblématique des montagnes d'Écosse présente un profil triangulaire abrupt et symétrique dominé par le sommet de Stob Dearg, dont les pentes rocheuses, les ravines profondes et les éboulis s'élèvent d'un seul élan au-dessus des landes et des torrents.\n\nSculpté dans d'anciennes roches volcaniques et granitiques issues de l'activité caldérico-magmatique du Dévonien puis façonné par les glaciations quaternaires, le massif constitue l'un des hauts lieux de l'alpinisme et de la randonnée en Écosse, offrant un spectacle grandiose à chaque changement de lumière. Qu'il dresse sa crête découpée sous un ciel d'azur, coiffée d'un bonnet nuageux ou partiellement voilée par les brumes atlantiques, le « Grand Berger » incarne l'âme même des Highlands.",
+    visiter: "Faire halte sur le belvédère face au Buachaille Etive Mòr à la jonction de Glen Coe et de Rannoch Moor pour admirer la silhouette pyramidale emblématique du sommet de Stob Dearg et les pentes sauvages descendant vers Glen Etive.",
+    link: ""
+  },
+  {
+    id: "glen_etive_skyfall_viewpoint",
+    name: "Glen Etive - Belvédère de Skyfall dans la Vallée de Glen Etive (James Bond / Skyfall)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Ballachulish",
+    altitude: 178,
+    transport: "voiture",
+    era_group: "contemporain",
+    era_label: "Vallée Solitaire de Glen Etive, Route Panoramique & Lieu de Tournage de Skyfall (2012)",
+    century: "XXIe siècle",
+    category: "panorama",
+    counts: {},
+    lat: 56.61945,
+    lng: -4.93229,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczORKyr2Yp-x6ChBIwZ1jckdqE4DY77unG9USHI3EDzGFOgH27v-Tu95SXh4hbQj4TvSMZyYm6XeDuW6X0njwVY1tYi8xRXKUw4mUccD51gC6n4qGiveImk4wgWDuGexXG_1LSIyZ2H67c40HN5DW44byg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOv-a7kgOoIy0ZrHQSs_4Rzayn6UY5t2ROG7H8XD41BrE7aE8vRB-OPVBsHhtjjaF3BrQh0yraplL7p03CoqFbqsZJUPjep4lfEgTG2XZ8hY6J1Ig3qqnIVT83B60tBfankUCToXR1XVFzv6hk_xohS7A=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "S'enfonçant profondément vers le sud-ouest depuis le pied du Buachaille Etive Mòr jusqu'aux eaux marines du Loch Etive, la vallée isolée et silencieuse de Glen Etive déploie un paysage montagnard d'une grandeur sauvage et cinématographique qui a acquis une renommée mondiale en servant de décor à la route menant au domaine ancestral dans le film « Skyfall » (2012) de la saga James Bond. Empruntée par une étroite route à voie unique ponctuée d'aires de croisement serpentant entre les landes à bruyère, les tourbières, les ruisseaux et les versants abrupts des montagnes d'Etive, cette vallée glaciaire semble coupée du monde moderne.\n\nDepuis ce belvédère à cent soixante-dix-huit mètres d'altitude, le regard embrasse l'enfilade majestueuse et solitaire de la vallée encadrée de hautes crêtes rocheuses, d'éboulis et de pentes dénudées où paissent en liberté les cerfs élaphes des Highlands. Sous les ciels vastes et changeants de l'Écosse — entre éclaircies rasantes, nappes de brume et ombres portées des nuages —, la perspective offre une sensation d'espace, de silence et d'aventure intacte.",
+    visiter: "Emprunter avec prudence l'étroite route à voie unique de Glen Etive depuis l'A82 pour rejoindre le belvédère de Skyfall et contempler la perspective solitaire de la vallée encadrée par les hautes montagnes d'Etive.",
+    link: ""
+  },
+   {
     id: "fort_william_loch_linnhe_picnic_area",
     name: "Fort William - Aire de Pique-Nique & Panorama sur le Loch Linnhe (Linnhe Picnic Area)",
     country: "Royaume-Uni",
