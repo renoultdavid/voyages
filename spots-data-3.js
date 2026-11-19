@@ -65,18 +65,18 @@ const SPOTS_3 = [
   },
   {
     id: "fort_william_hagrids_viewpoint",
-    name: "Fort William - Belvédère de Hagrid (Hagrid's Viewpoint - Lochaber)",
+    name: "Fort William - Belvédère de la Cabane d'Hagrid (Hagrid's Viewpoint - Glen Coe / Lochaber)",
     country: "Royaume-Uni",
     continent: "Europe",
     flag: "🇬🇧",
     region_admin: "Écosse",
     department: "Highland",
-    subdiv: "Fort William",
+    subdiv: "Ballachulish",
     altitude: 85,
     transport: "voiture",
-    era_group: "nature",
-    era_label: "Panorama sur les Vallées Glaciaires du Lochaber, Montagnes Déchiquetées & Horizons Sauvages d'Écosse",
-    century: "Temps géologique",
+    era_group: "contemporain",
+    era_label: "Lieu de Tournage d'Harry Potter (Emplacement de la Cabane de Rubeus Hagrid), Gorge Glaciaire & Sommets du Lochaber",
+    century: "XXIe siècle",
     category: "panorama",
     counts: {},
     lat: 56.66747,
@@ -92,8 +92,8 @@ const SPOTS_3 = [
         caption: ""
       }
     ],
-    description: "Dominant à quatre-vingt-cinq mètres d'altitude les reliefs accidentés et sauvages du Lochaber au sud de Fort William, le belvédère de Hagrid (Hagrid's Viewpoint) embrasse un paysage montagnard et glaciaire d'une ampleur grandiose qui évoque immédiatement l'univers sauvage et mystérieux des Highlands d'Écosse. Sculpté par les glaciers quaternaires dans les roches anciennes du massif grampien, le relief déploie sous le regard une succession de vallons encaissés, de landes à bruyère et à fougères, de boisements clairsemés et de pentes abruptes s'élevant vers des sommets dénudés et balayés par les vents atlantiques.\n\nDepuis ce point d'observation dégagé, la lumière changeante du ciel écossais — alternant éclaircies franches, averses lointaines et nappes de brume accrochées aux hauteurs — révèle toute la palette chromatique des montagnes du Lochaber, des verts profonds des vallées aux ocres, roux et violets des landes d'altitude. Ce cadre naturel puissant, à proximité des grands paysages mythiques de la côte occidentale écossaise, illustre avec force la grandeur austère et inspirante des Highlands.",
-    visiter: "Faire halte sur le belvédère de Hagrid au sud de Fort William pour embrasser le panorama dégagé sur les vallées glaciaires, les landes et les reliefs montagneux du Lochaber sous les ciels changeants des Highlands.",
+    description: "Dominant à quatre-vingt-cinq mètres d'altitude le versant boisé et escarpé du vallon de Torren Lochan à l'entrée occidentale de la mythique vallée de Glen Coe, non loin de Ballachulish et au sud de Fort William, le belvédère de Hagrid (Hagrid's Viewpoint) est mondialement célèbre pour avoir servi de décor naturel extérieur à la saga cinématographique Harry Potter. C'est précisément sur cette pente herbeuse parsemée de rochers affleurants et de bouquets d'arbres, surplombant la gorge torrentueuse de la rivière Coe et le miroir sombre du petit lac voisin, que les équipes de décoration construisirent en 2003 les décors grandeur nature de la cabane de pierre et de bois du garde-chasse Rubeus Hagrid ainsi que son célèbre potager de citrouilles pour le tournage du troisième volet, « Harry Potter et le Prisonnier d'Azkaban » (réalisé par Alfonso Cuarón), avant d'y revenir également pour « Harry Potter et le Prince de Sang-Mêlé ».\n\nBien que les décors temporaires de la cabane et du cercle de menhirs aient été intégralement démontés à l'issue du tournage afin de restituer au site son aspect naturel originel, la topographie exacte du terrain demeure immédiatement reconnaissable pour tous les cinéphiles : au premier plan se dessine l'emplacement exact où reposait la demeure du demi-géant au bord du talus escarpé, tandis qu'en arrière-plan se dressent toujours les murailles verticales et déchiquetées des sommets glaciaires de Glen Coe — notamment le massif du Pap of Glencoe et les crêtes de l'Aonach Eagach — offrant un panorama saisissant sur les Highlands.",
+    visiter: "Rejoindre le belvédère de Hagrid sur les hauteurs de Torren Lochan près de Clachaig et de l'entrée ouest de Glen Coe pour reconnaître l'emplacement précis où fut bâtie la cabane d'Hagrid lors du tournage d'Harry Potter et admirer le panorama grandiose sur les montagnes de Glen Coe.",
     link: ""
   },
    {
