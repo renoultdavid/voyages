@@ -7,6 +7,161 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "trotternish_kilt_rock_waterfall",
+    name: "Île de Skye - Falaise de Kilt Rock & Cascade de Mealt (Kilt Rock Waterfall - Trotternish)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Staffin",
+    altitude: 32,
+    is_island: true,
+    island_name: "Île de Skye",
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Orgues Basaltiques en Forme de Kilt Écossais & Cascade de Mealt Plongeant dans la Mer (55 m)",
+    century: "Temps géologique",
+    category: "cascade",
+    counts: { cascade: 1 },
+    lat: 57.61085,
+    lng: -6.17207,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOVPCM5ey5U6LMnE3sFIIZnBDCZmAysuUautuI0KF9fSIpOJOOcGcV-AD1HLa1evWPotDxloImcrc0zTfd1dZTGjydvnFMdt2XGxMNIKpo1uJiSZzwaU3c49zks4EPwrrGduokaQLgiUSy7WdEfY3EAxA=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM4k6uuDTBjqVj62sfYlSo6bfF6wsK5iOEE0pHB3H_X5jD60VXpQ6TV5PKkU7_ZYOuSsM97aABYxPDLWYMUYR45kG2zIQcw2R7h22yI0_cZVYa-fx4_ZcFKBLEidtGuCwUwPppssgwpSH9R6BAMHg24eg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPXwdBWyH24C_Ii_fm4rBDh9wKZa9FBbm5tIqnnG49CtKvpft1DisqMhzc65ANiVmTPxDFARh_Qn9Q2iu7OQVzA7taJqBOvFNXnAxA8RACzLUktsa5PcKvwh-IYdZsRbFkraFjWhCBevE1jk_ZaKuVTVg=w1377-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressée sur la côte nord-orientale de la péninsule de Trotternish au nord de Staffin, la falaise spectaculaire de Kilt Rock constitue l'un des chefs-d'œuvre géologiques les plus saisissants de l'île de Skye. Haute d'une soixantaine de mètres au-dessus des flots du détroit de Raasay, cette muraille verticale doit son nom évocateur aux colonnes de basalte sombre qui s'entrecroisent avec des strates horizontales de grès jurassique, composant un motif géométrique quadrillé et plissé rappelant les plis et les motifs d'un kilt écossais traditionnel.\n\nJuste en bordure de cet escarpement volcanique, la rivière Mealt — issue du Loch Mealt voisin — s'élance dans le vide par une chute verticale impressionnante de cinquante-cinq mètres directement dans l'océan Atlantique. Par grand vent, les embruns marins remontant de la mer dispersent les filets d'eau de la cascade en une fine brume argentée avant qu'ils n'atteignent les flots, offrant depuis le belvédère grillagé un panorama grandiose sur les falaises, le détroit et les montagnes du Wester Ross.",
+    visiter: "S'arrêter sur le belvédère de Kilt Rock le long de la route A855 au nord de Staffin pour contempler les colonnes basaltiques quadrillées évoquant un kilt et la chute verticale de Mealt Falls plongeant directement dans la mer.",
+    link: ""
+  },
+  {
+    id: "trotternish_stenscholl_falaises_basaltiques",
+    name: "Île de Skye - Stenscholl & Falaises Côtières de Trotternish",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Staffin",
+    altitude: 21,
+    is_island: true,
+    island_name: "Île de Skye",
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Côte Basaltique Découpée du Nord de Trotternish, Landes Littorales & Vue sur le Détroit",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 57.63010,
+    lng: -6.23206,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMlCuLZt-z17yJtnCNn3Qdr9oOXPByfapMjqyucZzAd7TRnYhTn2YrejbEvRKkXs24iKZp6q6coziQg0dfrNyk1fEAo1sl6NnaMC5Q8u0EpfPAZPdQapWEpFwYCfRWiDevOvouq8LyyDgsjkRFqESeeKw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMTXEqTZmzYoSpohuXpxBjIZBHfX3jxm__XFn2Hkytm39aCgTsmKPcYXhgaXQyYQYc2_Xjy4KedcWCqyD2ajbFvLk4Q0yFtGzLfQakijJ1miND5VIbn9O_FZeNN19k64sr2Nw9YKs0775K7j3FyqeKTVQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP43hL3-wWako82Pi1eksKZC5vCIel-abpgVuUm1jHnxnrWLLs8_z-HSLlo6VZmGVOWKcb0kTLRml9Py_GRiQJF3K2AEX-MQAIcvIXJKvy9mDLcBcOONaPaujzQ5nAd8iCEUzBjxxp_1hfwuv3_mj0B_A=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Étiré le long du rivage septentrional de la péninsule de Trotternish au nord de Staffin, à l'approche du col spectaculaire menant au Quiraing, le secteur de Stenscholl dévoile un paysage littoral sauvage et contrasté façonné par les coulées volcaniques paléogènes et l'érosion marine de l'Atlantique Nord. Entre les pentes herbeuses et tourbeuses bordant la route côtière et les barres de basalte sombre plongeant vers les flots, ce tronçon offre une transition saisissante entre la côte orientale face à Raasay et le versant septentrional ouvert sur le Minch.\n\nPonctué de petits hameaux dispersés, de murets de pierre sèche et de pelouses côtières balayées par les embruns où s'épanouissent bruyères, fougères et graminées marines, le site offre de belles échappées visuelles sur les reliefs tourmentés de la crête de Trotternish et les eaux changeantes du Nord de Skye. Sous les ciels mobiles des Hébrides, l'alternance d'éclaircies dorées et de brumes marines confère à ce rivage une atmosphère d'une grande sérénité boréale.",
+    visiter: "Emprunter la route côtière A855 au nord de Staffin dans le secteur de Stenscholl pour admirer les pentes volcaniques rejoignant le littoral, les landes littorales et les vues dégagées sur le nord de Trotternish avant de bifurquer vers le Quiraing.",
+    link: ""
+  },
+  {
+    id: "trotternish_quiraing_walk",
+    name: "Île de Skye - Randonnée & Cirque Géologique du Quiraing (Péninsule de Trotternish)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Staffin",
+    altitude: 248,
+    is_island: true,
+    island_name: "Île de Skye",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Plus Vaste Glissement de Terrain d'Écosse, Aiguilles Basaltiques (The Needle & The Prison) & Table Plane",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 57.62863,
+    lng: -6.28968,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPUpYpiMH7qjK3JreZ5z5U2yhTwFC3hzqSUR6FoAWvQyZD_T75JAsIyx9yxyqVGz8luVRKwsZHysJRZZfyQdsOhuiNBWwhAnuBDCaB3ezNzsHpz4X5vdKgKtaGafhzguocthLpEkar0zeMNvey0fryuwA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNMJKQHLX7miuSG49jBaufogBTALH9-ZLBJDhSXBJKz0LUYfIoAlO6rDCHRz85JyxpjPgrGStt4K7kw0NvEuzkMlLMG2rpO4GJ7pB3uXop8OlSzLX-DaApkBo1Z_EhDZsBdTZgWnUarQPbwWbkNRLmP8g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM0nJloWHH5szD_01qoOCzT-PFkXO3wZhKdBYUY9hEoC4cg8yZ-AcM5SDn-2gMc9kBaz9yI7HlxkRspBW2Hgt8IG0NpBb2dT5jVxg-7fBdEefe-Oph07hj8uEGVaThzpGFUHAGgLbSBJFUP_KKXLJvTmA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Couronnant la partie septentrionale de la péninsule de Trotternish au-dessus de Staffin et d'Uig, le Quiraing déploie un paysage géologique si fantastique et monumental qu'il semble appartenir à un autre monde. Né du plus vaste glissement de terrain encore actif de Grande-Bretagne — où d'épaisses coulées de basalte tertiaire glissent lentement sur des argiles et sédiments jurassiques gorgés d'eau —, ce cirque rocheux rassemble un bestiaire minéral saisissant : l'aiguille verticale effilée de The Needle, le bastion rocheux découpé de The Prison, les falaises abruptes de Bioda Buidhe et le plateau gazonné suspendu de The Table, autrefois utilisé par les bergers locaux pour dissimuler leur bétail des raids de pillards.\n\nEn cheminant sur les sentiers d'altitude serpentant au cœur de ce labyrinthe de lames basaltiques, d'éboulis et de pelouses vert émeraude ou dorées, le randonneur embrasse des perspectives vertigineuses plongeant vers les vallées ondulées du nord de Skye, le détroit du Minch, les îles des Hébrides extérieures et les côtes lointaines. Chaque détour du chemin révèle de nouvelles architectures naturelles sculptées par la gravité, l'eau et les vents marins au fil des millénaires.",
+    visiter: "Emprunter les sentiers panoramiques du Quiraing depuis le col routier au-dessus de Staffin pour longer les escarpements basaltiques, observer les aiguilles de The Needle et The Prison ainsi que le plateau de The Table, et contempler les vues plongeantes sur le nord de l'île de Skye.",
+    link: ""
+  },
+  {
+    id: "duirinish_loch_mor_viewpoint",
+    name: "Île de Skye - Belvédère sur le Loch Mor (Loch Mor Viewpoint - Péninsule de Duirinish)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Dunvegan",
+    altitude: 92,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Petit Loch d'Eau Douce sur la Péninsule de Duirinish, Landes Tourbeuses & Horizons de l'Ouest de Skye",
+    century: "Temps géologique",
+    category: "lac",
+    counts: { lac: 1 },
+    lat: 57.43988,
+    lng: -6.75507,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOJR2MeipTQgL3dKeOc3zuk0rsFl_Brh0_1mLrl_DNO2ICKAjSINIACpA7WcXRaRfDFhc8oIqUdE8gaZqWgB3z9-6j2gSuZkw9NvGyXg4JGyLRomuwD1swDqxJIOz1Uuwsqh3aQtgAkYQC5PULmyV2ftw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Niché au cœur des vastes étendues de landes et de tourbières qui caractérisent la péninsule occidentale de Duirinish sur l'île de Skye, sur l'itinéraire conduisant vers le cap isolé de Neist Point, le Loch Mor offre une halte paisible et authentique au milieu des hautes terres occidentales. Ce lac d'eau douce aux rives basses et sinueuses, entouré de joncs, de sphaignes, de bruyères et de pâturages ouverts parcourus par les troupeaux ovins et bovins des Highlands, reflète les teintes changeantes du ciel des Hébrides et des collines douces environnantes.\n\nLoin de l'agitation des grands sites côtiers, ce belvédère permet d'apprécier le caractère intime et rural de l'ouest de Skye, où les routes étroites à voie unique serpentent à travers des paysages façonnés par les glaciers quaternaires et par des siècles d'activité pastorale. Les reflets des nuages sur la surface calme du loch composent un tableau sobre et lumineux avant d'aborder les falaises maritimes battues par l'Atlantique.",
+    visiter: "Faire halte au bord du Loch Mor sur la route menant à Neist Point dans la péninsule de Duirinish pour admirer le calme des eaux reflétant les landes tourbeuses et les collines de l'ouest de l'île de Skye.",
+    link: ""
+  },
+  {
+    id: "duirinish_neist_point",
+    name: "Île de Skye - Neist Point, Falaise Basaltique & Phare (Péninsule de Duirinish)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Dunvegan",
+    altitude: 77,
+    is_island: true,
+    island_name: "Île de Skye",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Extrémité Occidentale de Skye, Basaltes Colonaires, Phare de David Alan Stevenson (1909) & Panorama sur les Hébrides",
+    century: "XXe siècle",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 57.42360,
+    lng: -6.78791,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPASLnBiDZqwZuChs6pFrJdIDAKThOyH4HVc2PxNz_1w5FQNuMbpAVA5HMEYDjxvJ7kQLpUeWWvAG5ZmIPXoIJbqOvkNUkjwHUfQt14xBTzsVyhtVp7pMq3C4GhJeYhBcGVS_tgLT98mqdiTYFzpnPzcw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Accroché à l'extrémité la plus occidentale de la péninsule de Duirinish sur l'île de Skye, le cap spectaculaire de Neist Point dresse ses hautes falaises de basalte noir face à l'immensité de l'océan Atlantique et du détroit du Little Minch. Ce promontoire sauvage et venté, sculpté par les coulées volcaniques tertiaires et battu sans relâche par les houles océaniques, forme une langue rocheuse étroite s'avançant vers le grand large jusqu'à l'îlot où veille depuis 1909 le célèbre phare blanc conçu par l'ingénieur écossais David Alan Stevenson.\n\nReliant les hauteurs gazonnées du plateau aux abords mêmes de la tour du phare par une descente aménagée et un ancien tracé de voie de ravitaillement, le parcours dévoile tour à tour des orgues basaltiques impressionnantes, des pelouses littorales fleuries d'arméries maritimes, une faune marine et ornithologique remarquable — fous de Bassan, fulmars, guillemots, marsouins et cétacés — ainsi que des vues grandioses sur les îles de North Uist et de Harris à l'horizon occidental.",
+    visiter: "Emprunter le sentier pédestre descendant depuis les crêtes de Neist Point le long de la falaise basaltique et de l'ancien tracé des rails jusqu'au phare blanc de 1909 pour contempler les orgues volcaniques, la faune marine et les îles des Hébrides extérieures face à l'océan.",
+    link: ""
+  },
+   {
     id: "trotternish_brides_veil_falls",
     name: "Île de Skye - Cascade du Voile de la Mariée (Bride's Veil Falls - Trotternish)",
     country: "Royaume-Uni",
