@@ -7,6 +7,101 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "fort_william_glen_nevis_estate",
+    name: "Glen Nevis - Domaine de Glen Nevis & Vallée Glaciaire (Glen Nevis Estate)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Fort William",
+    altitude: 43,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Vallée Glaciaire du Lochaber (Glen Nevis), Forêts Anciennes & Porte d'Entrée du Ben Nevis",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 56.77728,
+    lng: -5.04814,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMIF8kzgfj5vO1J-wqbXuNgSTKSB9OlHnRW67JMXrSd2QrOoyIhVXIsFhqVQdjP3S4U0YMe1bAepu7mAIyPyCDwNL8LIGqzKLPui61sZ6NKC1tVG_Naa25vXv_skEl39vB0DyVwNfKeC-LnSLr7teXRCQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO-kiXJX72I-dowgCanUTv2dBpUxN6C7KgRBt9xt2jUKGg13Bb8L__nXaMcenkmCoASQY5lHBhdahJkClmd3Tkmi-GoXXqvq8cnlYPXDXmbwB6AtxaSRxPavAX9C_fVPJ5kx4yh8OZAM-Lyq4EeT4TujA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "S'ouvrant à quelques kilomètres seulement au sud-est de Fort William au cœur du Lochaber, le domaine de Glen Nevis (« la vallée des neiges » ou « la vallée du ciel » en gaélique écossais) s'étire le long d'une auge glaciaire spectaculaire creusée entre la masse colossale du Ben Nevis (1 345 mètres) au nord et la chaîne abrupte et déchiquetée des sommets de l'Aonach Beag et du Sgùrr a' Mhàim au sud. Façonnée par l'érosion répétée des glaciers quaternaires dans les granites et roches métamorphiques anciennes des Highlands occidentales, cette vallée verdoyante et sauvage réunit sur quelques kilomètres une diversité paysagère exceptionnelle : prairies fluviales bordant la rivière Water of Nevis, versants boisés de chênes, bouleaux, sorbiers et pins calédoniens, éboulis rocheux et parois verticales de plusieurs centaines de mètres.\n\nAu fil de l'histoire des Highlands, le domaine fut le fief du clan Cameron de Lochiel et abrita des exploitations agricoles et pastorales traditionnelles aujourd'hui préservées au sein d'un vaste espace naturel ouvert à la marche et à l'escalade. En suivant la route panoramique et les sentiers qui remontent la vallée au-delà des anciennes fermes et des passages boisés, les eaux limpides et tourbeuses de la Water of Nevis alternent entre larges vasques calmes et rapides écumants au pied des falaises, offrant le point de départ privilégié vers le cirque de Steall et les grands sommets du Lochaber.",
+    visiter: "Parcourir les chemins et sentiers du domaine de Glen Nevis au sud-est de Fort William pour longer la rivière Water of Nevis, admirer les versants boisés et les falaises abruptes encadrant la vallée glaciaire et rejoindre le départ des itinéraires vers Steall Waterfall.",
+    link: ""
+  },
+  {
+    id: "glen_nevis_rando_steall_waterfall",
+    name: "Glen Nevis - Randonnée de Steall Waterfall & Gorge de la Water of Nevis (An Steall Bàn)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Fort William",
+    altitude: 223,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Gorge Forestière Humide, Prairie Glaciaire Suspendue, Chute de 120 m (An Steall Bàn) & Pont de Câbles",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 56.77058,
+    lng: -4.97972,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM8Ucyz_liUjcidjAYwUuHpj1E8q_UhV7c8Mq0T1vaHBxIYf-ATO58cg6zy730R6vKX5byVoi1-QpnHmERJGCprYhMyqlCIYflpgoP7MySvQF2lu996-7RnsWQ0OBWkPys3ucNeQtkeILEEhl7i0jyzpw=w1379-h919-s-no-gm?authuser=0",
+    description: "Pénétrant au cœur de la haute vallée sauvage de Glen Nevis au sud-est de Fort William, la randonnée vers Steall Waterfall — connue en gaélique écossais sous le nom d'An Steall Bàn (« le Haut Torrent Blanc ») — conduit à l'un des sites naturels les plus grandioses et spectaculaires des Highlands d'Écosse. Sur un parcours aller-retour d'environ trois kilomètres et demi à quatre kilomètres, l'itinéraire franchit d'abord une gorge rocheuse encaissée où la rivière bouillonne sous le couvert d'une remarquable forêt tempérée océanique drapée de mousses, de fougères et de lichens humides, avant de déboucher soudainement sur une vaste prairie glaciaire plate et marécageuse encadrée de parois vertigineuses.\n\nAu fond de cet amphithéâtre montagnard se déploie la cascade de Steall Waterfall, deuxième plus haute chute d'eau d'Écosse avec près de cent vingt mètres de dénivelé vertical, dont l'eau écumante jaillit d'une vallée suspendue le long d'une sombre muraille rocheuse en soulevant un nuage de brume argentée. Pour les marcheurs les plus attentifs à l'aventure, le passage de la rivière sur le célèbre pont de câbles métalliques suspendu à trois brins au milieu du vallon permet d'approcher au plus près du pied de la chute et d'embrasser l'ensemble du cirque glaciaire et de sa gorge.",
+    intro_page: "Pénétrant au cœur de la haute vallée sauvage de Glen Nevis au sud-est de Fort William, la randonnée vers Steall Waterfall (An Steall Bàn) conduit à l'un des sites naturels les plus grandioses d'Écosse. Après la traversée d'une gorge boisée et humide façonné par l'érosion post-glaciaire, le sentier s'ouvre sur une vaste prairie glaciaire dominée par une cascade de cent vingt mètres et franchie par un célèbre pont de câbles suspendu.",
+    visiter: "Emprunter le sentier rocailleux remontant la gorge boisée de Glen Nevis jusqu'à la vaste prairie glaciaire face à la chute de cent vingt mètres de Steall Waterfall, et franchir avec prudence le pont de câbles suspendu à trois brins pour approcher la base de la cascade.",
+    link: "",
+    sections: [
+      {
+        title: "Ascension de la gorge rocheuse et forêt tempérée océanique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPJUH4q3mUthLgvEtMTBJfHfrJdbJjPgxFyKqMFqtxZyb2u9dJwFnShdokLuS0ZD3j6iZTm7sMQefcBO8wHZcb0sdDAGgqXl-gtlWv7IieJuKVIC-RmratgBWwli1nnqFJM9dUbTN3mg6orTzkvyxkdWw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPrkQmuYs-4FY1eEHgQvTKDPAN2Qj43bPh1PyaTyS4BaMJgHnpec0SpjmNQt_4A-dANdidNxGtaeXLoWw2L6K8vKldmW8O1Mc5NHtWbVi_CU94n67DcB40POn1PBJUteYRBqhIMCDBpmrRJqWag6ufNmw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Dès les premiers pas, le sentier rocailleux s'élève à flanc d'escarpement pour s'engager dans la gorge sauvage creusée par l'érosion post-glaciaire du torrent. Le cheminement, jalonné de dalles de pierre polies, de racines entrelacées et de passages parfois humides taillés au-dessus du vide, serpente sous le couvert d'une remarquable forêt tempérée océanique. Ce boisement ancien de chênes sessiles, de bouleaux pubescents, de sorbiers des oiseleurs et de noisetiers bénéficie d'une hygrométrie permanente entretenue par les pluies atlantiques et les embruns du cours d'eau : les troncs tortueux et les blocs éboulés disparaissent sous un manteau épais de mousses verdoyantes, de fougères et de lichens fruticuleux, tandis qu'en contrebas les eaux tourbeuses couleur d'ambre bouillonnent entre marmites de géants, cascades et vasques émeraude."
+      },
+      {
+        title: "Ouverture sur la prairie glaciaire suspendue",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMQFnuY19CZDlRUVOWH8Ynzx2g_TPx1kJR5I7FKur4j7EVAwv9mTJNOlfk0DldY8Mhzc2_IKkpEFOqXrkyI-wCcCm1XWQtMkuXi1M1B18sMcqzNqxFexanlw4aneJEw_BCtWr9DQhCTeuxz3kav9Q_RYw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOu0Yjx3QSrDdDkmCzFaIAkSCmAqswKZ2gjpGBFyLBBl7Q52MsRAqT6_-sEoe33BCsfzGRS2G7OF8A2nvNbE4eBzxPNoGztYnrtyqGMdRQmqcW8SGgEkOYNI35nj38Ns7U1WJaPyAAaY_PH8SlY5LBgEA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Au sortir de ce défilé minéral resserré, le paysage bascule de manière spectaculaire : le vallon s'élargit soudainement pour révéler une vaste prairie glaciaire plate et marécageuse, véritable auge suspendue encadrée par un amphithéâtre de parois vertigineuses."
+      },
+      {
+        title: "La grande chute de Steall Waterfall (An Steall Bàn)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNrvaaevd87ENXjQb0gfkM7tYRIvZZ2iS_EgxVvZ8ujqmfJbCeai54sRad3U1UaTl_QrkAq9Zjyv_NK7rziSeq-fjOo1dfPG2_ulfgXVpmYJcRioK0HalxUN0CmtS15z-uC-K23p9lgB518PeWm5mM3RA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNRTdf5zuRu23JiJZeGooXtfWoxlZhFFVM6wdiR8grLw5mgjDTTERmi1vIQQzWbuDLIR4ordGmlA3tLA1nA7xVc_Byny0jzs3dU8JFGiqta-1A_ZaMZ6HmpYJgQ1TMTMk4jQYzIcOajhN7bKyRdeoyQ7w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Sur le versant méridional de ce cirque monumental se déploie dans toute sa majesté la cascade de Steall Waterfall (An Steall Bàn), deuxième plus haute chute d'eau d'Écosse avec près de cent vingt mètres de dénivelé vertical. Ses eaux jaillissent d'une vallée suspendue supérieure pour plonger d'un seul jet écumant le long d'une muraille sombre de schistes et de quartzites striée de filets d'eau secondaires, générant à sa base un nuage permanent de brume fine qui scintille dès que perce un rayon de soleil."
+      },
+      {
+        title: "Le pont de câbles suspendu et retour vers la gorge",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMGthgxjDHkrTSlZENivi5nXcnGWVS5fPONvMMtIHW9gH--kaKufaRPu4jWcC_qbmxLocJ4pN7gMg2aj_yOWg9EfEFtN87SWoR9JgqQcRoOSl1P8_R7zFjAV_olNxpIn-fRMhQy-oEzc9-AXM7ZBPI32Q=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPqYvxYd2vErB9U07nvJqvX5Bx07VRk4w4MyhGCZiZKHuNL1BBe54FxcQvw346lwQODCuSJ2QvvIv77o_5sboVquslreEKsjlEnFMnNKA0v0BCK3H53RbV71EqiTtfVv7Z7qNthTBszIPyvlsYXGmtHEw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Pour approcher au plus près du pied de la chute et de son chaos de blocs rocheux ruisselants, les marcheurs les plus aguerris peuvent franchir le torrent au milieu de la prairie en empruntant le célèbre pont de câbles métalliques suspendu à trois brins, installé au milieu du XXe siècle pour faciliter l'accès des bergers et des équipes de secours en montagne. De cette rive méridionale balayée par le souffle humide de la cascade, le regard embrasse l'intégralité du cirque glaciaire et l'entaille étroite des gorges par lesquelles s'effectue le retour en sens inverse sur un parcours total d'environ trois kilomètres et demi à quatre kilomètres aller-retour."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP_B_3Sk_mjul1gnPPlUQuKdPbCvE-QViLYnrhV7nkCt0vxiaWUf31SI9aK1agGxRH6o8-OGDRZr18hMnNa1XjoT6KK00fYUb41YiHbfsFiPzBgyldcBqScV643XdqhcFs24jY_wsraTciWStvTNRA2yA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOtvk8Pc8FJFQ4WtT-rGkY1cQtOzyLcXcO-c1GMhRDup5lGGCp3QWkoE-lyza9lMB9gVmNtonK0Q-Qak6kQny2wiSnSjo6SffPuytb8oq1Nd-c-_N-rbka_hw1AyrvvPuuwGRmkf33VViW91T06R8RWUQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+   {
     id: "kyle_of_lochalsh_loch_alsh_viewpoint",
     name: "Kyle of Lochalsh - Belvédère sur le Loch Alsh (Loch Alsh Viewpoint)",
     country: "Royaume-Uni",
