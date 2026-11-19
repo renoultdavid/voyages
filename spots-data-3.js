@@ -7,6 +7,186 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "kyle_of_lochalsh_loch_alsh_viewpoint",
+    name: "Kyle of Lochalsh - Belvédère sur le Loch Alsh (Loch Alsh Viewpoint)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Kyle of Lochalsh",
+    altitude: 2,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Fjord Marin Séparant les Highlands de l'Île de Skye, Détroit de Kyle Rhea & Reflets Glaciaires",
+    century: "Temps géologique",
+    category: "lac",
+    counts: { lac: 1 },
+    lat: 57.28099,
+    lng: -5.69864,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMfokAKUU18jfGkSSk6dg3nJzL-L98iApbQ02GY3qZ-2b8bYxjwXnBH1lNXSglMIlpY5TZJYxmoJNhEK6WHxzRwbmYdixMssqGZaNqqo079fxJnZTLtSG1FPY_eSWnadZALYiYYbU5kQCwhp_8MMv8--A=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Implanté au ras des flots sur la rive septentrionale du Loch Alsh entre les villages côtiers de Balmacara et de Kyle of Lochalsh, ce belvédère littoral dévoile une perspective saisissante sur l'un des bras de mer les plus pittoresques, chargés d'histoire et stratégiques de la côte occidentale des Highlands. Profond chenal marin creusé par les puissants glaciers quaternaires du Pléistocène puis envahi par l'océan Atlantique après la fonte des glaces, le Loch Alsh sépare la péninsule continentale de Lochalsh de l'extrémité sud-orientale de l'île de Skye. Ce bras de mer relie les eaux intérieures abritées du Loch Duich et du Loch Long au grand large par deux passages maritimes mythiques : à l'ouest l'étroit goulet de Kyle Akin — aujourd'hui enjambé par le Skye Bridge — et au sud le détroit resserré de Kyle Rhea, parcouru par de violents courants de marée et autrefois emprunté à la nage par les grands troupeaux de bovins noirs des Hébrides guidés par les bouviers (drovers) vers les foires des Lowlands.\n\nBordé d'estrans dorés tapissés de varech brun à marée basse, d'îlots rocheux boisés et de coteaux couverts de bruyères pourpres, de fougères et de bouleaux argentés, ce plan d'eau profond reflète sous la lumière changeante et dramatique des Hébrides les reliefs escarpés de la péninsule de Sleat, les pentes de Kylerhea et les sommets granitiques lointains de l'île de Skye. Tout au long de la journée, le ballet silencieux des bateaux de pêche, des voiliers naviguant entre les lochs, des phoques communs se prélassant sur les récifs et des oiseaux marins anime ce paysage côtier d'une grandeur boréale incomparable.",
+    visiter: "Faire halte sur l'aire panoramique bordant la route A87 le long de la rive nord du Loch Alsh près de Balmacara pour contempler l'étendue marine face aux collines de l'île de Skye et observer les jeux de lumière et de marée sur le détroit.",
+    link: ""
+  },
+  {
+    id: "dornie_loch_long_bridge",
+    name: "Dornie - Pont sur le Loch Long & Panorama sur Eilean Donan (Loch Long Bridge)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Dornie",
+    altitude: 1,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Franchissement du Fjord Marin du Loch Long, Confluence avec le Loch Duich & Vue sur le Château d'Eilean Donan",
+    century: "Temps géologique",
+    category: "lac",
+    counts: { lac: 1 },
+    lat: 57.27808,
+    lng: -5.51818,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPBJtTC-RwXCwnnm4GPjmL59fqMKEDsuXyvtphdRM97Ty8Jolrs0YId9kLSDf0HmPCSOr1bm13zGdiP9p4CbznfdFO2ud66Wl45ZvGseiGme5Jp4r32htQIiMHKyKwjLjXSc0t7Z-UIv4H5-nPQH7Izkw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPAYh80IrIeR3vJ30Rpn53Hgs-35qQyLxcaEr18zTWwsmoil4dmAlj4nF70SlAq2LcwszeH3pwwKoaEphRayA43dPIIMPebGlYPpMglLNT4gpFp8GKmV8Qj-LoZ4DDlMIjzoTPdIJrrlwSlTpK9qG3oJQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNNWz5coMHDyCnldD7z2Y2xPq4IEZX2GHPs9WTK7dONpXlg7Bd8OfRYdYE-DsV2az-QGbAVAIqSNcv8dK_pep8pZZq4aCH3ODhSQF4WzbBDLrmVaInk2-fEq9trDZjm75YI3zOzb1vuMzIhkTmyPSWD4A=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMKokIcVVpKMjmL-LTCWc_p7lnW1nDghBOg-jNkKJp7NUFm-dyeTd_xKke0FQfgDi2UYlZntubSLvQmgnKgu4BOsJT5RD3jhn0FtnZEvG-MaSK8UVKkFssTv132YM9a7lurx_JoAkehyLm_HBUdmNFrVw=w1378-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOp5PLiMgd1V_KXOjX8dfzxA3YuvAw_gcIzuGwdfJwEeg7d8CL_Ux62j_eZ2Wuzu8p6JbSTVcCiJrcJo7-FYG-vjNp4QGRyqy_LAWmiUaaeDHb16Vo6CrYLRBNglon03oOkfrSWRP1bfPh7OcQDS3A5Bw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Enjambant l'embouchure étroite et spectaculaire du Loch Long à l'endroit précis où ce fjord marin sauvage rejoint le Loch Duich et le Loch Alsh au niveau du village côtier de Dornie, le pont du Loch Long (Dornie Bridge) offre l'un des observatoires géographiques et paysagers les plus grandioses des Highlands occidentales. Édifié en 1940 pour remplacer l'ancien bac traversier à vapeur qui assurait depuis des générations la liaison essentielle sur la route menant vers Kyle of Lochalsh et l'île de Skye, cet ouvrage d'art métallique et bétonné domine les puissants courants de marée qui s'engouffrent et se retirent deux fois par jour entre le goulet marin et les eaux intérieures abritées du loch, dessinant des remous argentés à la surface de l'eau.\n\nDepuis le tablier du pont et les rives aménagées de Dornie, le regard embrasse deux panoramas contrastés d'une beauté saisissante : vers le nord-est s'ouvre la perspective profonde, solitaire et presque austère de la longue vallée glaciaire du Loch Long, encaissée sur près de huit kilomètres entre des versants escarpés couverts de landes à bruyère rousse, de bouleaux argentés et de conifères, tandis que vers le sud-ouest se détache en majesté la silhouette crénelée du château d'Eilean Donan posé sur son îlot rocheux au milieu de la confluence des trois lochs, avec en toile de fond les cimes imposantes et souvent coiffées de brume des montagnes de Kintail.",
+    visiter: "S'arrêter aux abords du pont de Dornie enjambant le Loch Long pour contempler d'un côté la perspective glaciaire du fjord s'enfonçant dans les montagnes et, de l'autre, la vue emblématique sur le château d'Eilean Donan et la confluence des trois lochs.",
+    link: ""
+  },
+  {
+    id: "invergarry_glen_garry_viewpoint_west",
+    name: "Glen Garry - Belvédère Occidental sur la Vallée & le Loch Garry (Glen Garry Viewpoint West)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Invergarry",
+    altitude: 241,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Panorama sur le Loch Garry en Forme de Carte de l'Écosse, Vallée Glaciaire & Montagnes de Knoydart",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 57.08195,
+    lng: -4.95315,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPcFm2oQe-4AJYGY1gy26lzG7YDgQOhmwTcv1eOlepQV6whnzrkMTpUsxYSxy4KXJSE1iMzF7s4rvizuN7g7FF1IaAU7dy3AjhVx4O4_K8HlvPxEUb_X0a0j8OtnxceXrUhhMXWkGKcr8Fv4T9BQ_UfZA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Perché à plus de deux cent quarante mètres d'altitude sur les hauteurs dominant la vallée boisée de Glen Garry le long de la route panoramique A87 reliant le Great Glen à Glen Shiel et à l'île de Skye, ce belvédère occidental dévoile l'un des panoramas lacustres et forestiers les plus célèbres et singuliers de toute l'Écosse. En contrebas s'étire le miroir allongé et finement découpé du Loch Garry, alimenté par les torrents descendant des hautes terres sauvages de Knoydart et encadré par des versants boisés de pins calédoniens, de bouleaux argentés et de vastes landes à bruyère pourpre : observé depuis cette hauteur privilégiée, le contour sinueux du lac entouré de ses presqu'îles verdoyantes dessine avec une ressemblance géographique saisissante la carte même de l'Écosse.\n\nAu-delà de cette étendue d'eau aux reflets sombres et argentés ponctuée de petits îlots boisés, le regard embrasse à perte de vue l'immensité sauvage et inhabitée des massifs montagneux du Lochaber et de Knoydart — considérés comme l'une des dernières grandes étendues sauvages d'Europe occidentale —, où s'étagent des chaînes de sommets dénudés sculptés par les calottes glaciaires du Quaternaire, balayés par les vents atlantiques et coiffés de bancs de nuages mouvants sculptant la lumière sur les pentes.",
+    visiter: "Faire halte sur l'aire panoramique du Glen Garry Viewpoint le long de la route A87 à l'ouest d'Invergarry pour admirer la vue plongeante sur le Loch Garry épousant la silhouette géographique de l'Écosse et sur les montagnes sauvages du Lochaber.",
+    link: ""
+  },
+  {
+    id: "invergarry_invergarry_castle",
+    name: "Invergarry - Ruines du Château d'Invergarry (Invergarry Castle - Loch Oich)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Invergarry",
+    altitude: 49,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Bastion Historique du Clan MacDonell de Glengarry (XVIIe Siècle) sur le Rocher du Corbeau (Creagan an Fhithich)",
+    century: "XVIIe siècle",
+    category: "chateau",
+    counts: { chateau: 1 },
+    lat: 57.06558,
+    lng: -4.78076,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPOL6NXm3ct9WQi_nzfJBQRP3h7P7ol9nUhAKeeF0sdzN4sY_r47tHEtFplrBfBzAQH4YqjvUmkzMzyifGdi5lNWZv3ic8VBdi-vMEEGBUaoIBXRueUKu1HaCLjKHXjkrsuHyhkf8hs5WiiUZ67VaNI_w=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN34PUeBa2bW5hyOAYinJJHBxR9ZEiO3sjzjZB4nHFtQWUVEXq2ZNQ8HoclBIRQn3KzZP6fEl9QO_NUamycNb4XSINaCyuxG_R6G2Nmxfwc--xRr9LVVfTsDmkskl7sOR5h8fljFVBauJUfW4fIGOsdtg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressées au milieu d'un bois paisible de feuillus et de conifères centenaires sur un éperon rocheux dominant les eaux calmes de la rive occidentale du Loch Oich au cœur du Great Glen, les ruines imposantes du château d'Invergarry incarnent l'histoire tumultueuse et héroïque des clans jacobites des Highlands. Édifié au début du XVIIe siècle sur le promontoire granitique connu en gaélique sous le nom de « Creagan an Fhithich » (« le Rocher du Corbeau ») — qui devint la devise et le cri de guerre légendaire des chefs du clan MacDonell de Glengarry —, ce puissant logis-tour en pierre grise brute s'élevait sur cinq niveaux flanqués d'une tourelle d'escalier semi-circulaire en saillie et d'une aile en retour, surveillant l'axe stratégique reliant Inverness à Fort William ainsi que le débouché de la vallée de Glen Garry.\n\nBastion indéfectible de la cause des Stuart lors de toutes les insurrections jacobites, le château fut assiégé et incendié une première fois par les troupes de Cromwell en 1654 puis après la bataille de Killiecrankie en 1689, avant d'accueillir le prince Charles Édouard Stuart (« Bonnie Prince Charlie ») aussi bien à l'aube de son expédition de 1745 qu'au soir tragique de sa défaite à Culloden le 16 avril 1746. Quelques semaines plus tard, les troupes gouvernementales du duc de Cumberland incendièrent et dynamitèrent l'édifice à l'explosif, laissant ces hautes murailles éventrées percées de baies à meneaux et de cheminées monumentales se refléter avec mélancolie dans le miroir du Loch Oich.",
+    visiter: "Suivre le sentier boisé dans le parc du Glengarry Castle Hotel au bord du Loch Oich près d'Invergarry pour contourner les hautes ruines de pierre du château d'Invergarry sur le Rocher du Corbeau et admirer la vue dégagée sur le lac.",
+    link: ""
+  },
+  {
+    id: "banavie_escalier_de_neptune_canal_caledonien",
+    name: "Banavie - L'Escalier de Neptune (Neptune's Staircase - Canal Calédonien)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Banavie",
+    altitude: 13,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Plus Long Escalier d'Écluses de Grande-Bretagne (8 Écluses, Thomas Telford, 1803-1822) Face au Ben Nevis",
+    century: "XIXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 56.84509,
+    lng: -5.09574,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN-yCfEbiBfZjQIiOVYJFoUhGVH-iouig9K16iwVh0HacLVNAtKCzV9iPXPL0MN8BCXHTRGZF7VlWs5KPeMFm0K9aFzIaSHp8yDR3AoZUYj7n3IdOC3Mxwwc54tooiZ4xAh_hqOdzoS4WdPf4Nfrsk12Q=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMrrX_0UT-98WRuU3JDNDjseNhJxgs2nnP33bqoD8gFISdmzUUgGzwIdnfcrPfTketGJobLJ3kYs_wVM1r9sHdw21j7mX5yuFZu5gHEBTqBqHslmekZyUFWa2YZsLRjkIeZeX_eSiyzsw5wyjPxKYFAZQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Aménagé à Banavie près de Fort William à l'extrémité méridionale du Canal Calédonien — voie navigable historique longue de près de cent kilomètres reliant la mer du Nord à l'océan Atlantique à travers la faille géologique du Great Glen —, l'Escalier de Neptune (Neptune's Staircase) constitue le plus long escalier d'écluses de toute la Grande-Bretagne et l'un des chefs-d'œuvre absolus du génie civil de la révolution industrielle. Conçu et réalisé entre 1803 et 1822 par le célèbre ingénieur écossais Thomas Telford afin de permettre aux navires de commerce et de pêche d'éviter la navigation périlleuse autour du cap Wrath au nord de l'Écosse, cet ouvrage monumental franchit un dénivelé brutal de près de vingt mètres entre le bassin maritime de Corpach sur le Loch Linnhe et le bief supérieur menant vers le Loch Lochy au moyen de huit vastes sas d'écluses consécutifs en pierre de taille alignés sur plus de quatre cent cinquante mètres de longueur.\n\nOriginairement manœuvrées à la force des bras par une équipe d'éclusiers avant d'être converties à l'énergie hydraulique au début du XXe siècle, ces imposantes portes de bois et parois de granite exigent environ quatre-vingt-dix minutes aux voiliers, yachts et péniches pour gravir ou descendre l'ensemble des huit paliers. Depuis les larges chemins de halage gazonnés bordant les bassins, le panorama s'ouvre directement sur l'imposante face nord du Ben Nevis (1 345 mètres), point culminant des îles Britanniques souvent drapé de nuages et de névés.",
+    visiter: "Longer à pied le chemin de halage bordant les huit bassins successifs de l'Escalier de Neptune à Banavie pour observer les manœuvres d'éclusage des bateaux sur le Canal Calédonien tout en admirant la silhouette majestueuse du Ben Nevis en arrière-plan.",
+    link: ""
+  },
+  {
+    id: "glenfinnan_viaduc_de_glenfinnan",
+    name: "Glenfinnan - Le Viaduc Ferroviaire de Glenfinnan (Glenfinnan Viaduct - West Highland Line)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Glenfinnan",
+    altitude: 46,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Chef-d'Œuvre Courbe en Béton Massif (21 Arches, 380 m, 1897-1901) Dominé par le Loch Shiel & le Jacobite Steam Train",
+    century: "XXe siècle",
+    category: "pont",
+    counts: { pont: 1 },
+    lat: 56.87619,
+    lng: -5.43200,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNx9E6xRyjhkXll5_10lOK218o9GVvQtRjQCwYjxPmjMi5iDAl1Oz8Bj5KuMA41ZiHTxd6D3KmsecmJ0gBJklbitAXegp2REEEo4au6qXtmtx4SWabUGarBs1G1Rhz_kV7DyohpmArMHOFlROAJWJNSFg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNb4s_uARwNJF1pTgcHc7Gx12d17o3ZFKeXT3KYMu_0zwdmv3QxQI7dBQqRB7H8cMKmrPZ3LxpRArVw8st6__MIAGd6_i_lEVgZQ3rwVUI34mzOBWavyyN0aDX-0Eq8NykdZvvpYQmU93XP4ao00tYmWA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMuSX-eW9eoiZLQMl1o378VIAc3AXINu4KU5QQOi_BsyBraZakJ5JXixyxFvBWKqdctyAEJElm8NWc8x3VAFbvOn-GRWweVeqzrK1DBEtEALrOJD5L8n63JmC9gZUPqcsjh5-_fLgVl5jQZZ1ElQ2JvIQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Déployant sa courbe élégante et monumentale au fond de la vallée verdoyante de la rivière Finnan à l'extrémité septentrionale du Loch Shiel, le viaduc de Glenfinnan est devenu l'un des monuments ferroviaires les plus célèbres et photographiés au monde. Édifié entre 1897 et 1901 lors du prolongement de la ligne mythique de la West Highland Line reliant Fort William au port côtier de Mallaig par l'ingénieur Robert McAlpine — surnommé « Concrete Bob » en raison de son usage audacieux et pionnier du béton non armé dans les grands ouvrages d'art britanniques —, cet édifice spectaculaire long de trois cent quatre-vingts mètres s'élève à trente mètres au-dessus du torrent et des pâturages sur vingt-et-une arches en plein cintre dessinant un vaste arc de cercle harmonieux au milieu des collines couvertes de bruyère et de fougères.\n\nRendu universellement iconique auprès du grand public pour avoir incarné le pont aérien emprunté par le Poudlard Express dans la saga cinématographique Harry Potter, le viaduc voit toujours passer chaque jour en saison le célèbre train à vapeur historique « The Jacobite » dans un panache de fumée blanche se détachant sur les montagnes sauvages du Lochaber et les eaux sombres du Loch Shiel, là même où le prince Charles Édouard Stuart (« Bonnie Prince Charlie ») leva son étendard jacobite le 19 août 1745.",
+    visiter: "Gravir les sentiers aménagés sur les coteaux entourant la vallée de Glenfinnan jusqu'aux belvédères panoramiques surplombant le viaduc pour admirer la courbe de ses 21 arches en béton massif face au Loch Shiel et guetter le passage du train à vapeur Jacobite.",
+    link: ""
+  },
+   {
     id: "trotternish_kilt_rock_waterfall",
     name: "Île de Skye - Falaise de Kilt Rock & Cascade de Mealt (Kilt Rock Waterfall - Trotternish)",
     country: "Royaume-Uni",
