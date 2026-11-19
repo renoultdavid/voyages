@@ -7,6 +7,96 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "fort_william_loch_linnhe_picnic_area",
+    name: "Fort William - Aire de Pique-Nique & Panorama sur le Loch Linnhe (Linnhe Picnic Area)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Fort William",
+    altitude: 3,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Fjord Marin du Great Glen (Loch Linnhe), Estran Côtière & Panorama sur les Montagnes d'Ardgour et Morvern",
+    century: "Temps géologique",
+    category: "lac",
+    counts: { lac: 1 },
+    lat: 56.74177,
+    lng: -5.20679,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPDLFYea-kWuZGTaI1L4ekineqNxtgAgw-Lf-nUVY3O8436IXE_lA3rR1c-hXq-dQ5JgCXwDwbyJaQ55yMYkzmvFHjLEYTKT3BTzHqR932v943fofsFNUIJGmm0GWYgScNJHs8z3Cbfl8ovzDpY1rkwIQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM6U2I80s7XhAT7aOcJMrK1IPPR5YM37Qhip2s_ZbcEeDPx09Tdq9djpaKu88Eo5U8xSd3onrf3q46hEeaH2ZpPak-ldro6BQQHi9TFXuOul9CrGyB7ZLpJXkqFO3wYLMogYVfHJTopR-PCgwCPeb91dw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPYWM9wiMLhxAzaBa2WHzLDiPUcNOrCVDZtCwdHdmSnuPzdy7OP06YOPXG0om1qvckrK4R9e-hMiR360PR74EM98-62QCiht5lETWc-An8ARqxMbyUrEwNzo1ficcTYnYcJ-lLZ0Sc4byBcRXXbdIleTQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Aménagée au ras des flots sur la rive orientale du Loch Linnhe au sud de Fort William le long de la route côtière A82, cette aire panoramique et de pique-nique offre une halte paisible et ouverte face à l'un des plus longs et spectaculaires fjords marins d'Écosse. Prolongeant vers le sud-ouest l'axe géologique majeur de la faille du Great Glen où les eaux marines de l'Atlantique pénètrent profondément à l'intérieur des terres sur plus de cinquante kilomètres, le Loch Linnhe sépare les contreforts montagneux du Lochaber et de Glen Nevis des péninsules sauvages et isolées d'Ardgour, de Kingairloch et de Morvern.\n\nDepuis les berges de galets, de rochers et d'herbes littorales bordant l'aire de repos, le regard embrasse l'immensité mouvante du loch marin ponctué d'îlots boisés — dont l'île d'Eilean à Choire — et animé par les courants de marée, les voiliers de croisière, les phoques communs, les loutres côtières et les oiseaux marins. Au-delà de l'étendue liquide, les versants abrupts et boisés de la rive opposée s'élèvent vers les crêtes dénudées des Highlands occidentales, composant un décor marin et montagnard d'une grande sérénité sous les ciels changeants de l'Écosse.",
+    visiter: "Faire halte à la Linnhe Picnic Area le long de la route A82 au sud de Fort William pour profiter du bord de l'eau, observer les jeux de lumière sur le Loch Linnhe et contempler les péninsules sauvages d'Ardgour et de Morvern se découpant sur l'horizon.",
+    link: ""
+  },
+  {
+    id: "fort_william_glen_lochan",
+    name: "Fort William - Glen Lochan & Petit Lac Forestier (Glen Lochan - Cow Hill)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Fort William",
+    altitude: 55,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Vallon Forestier & Petit Lac Paisible au Pied de Cow Hill, Conifères, Fougères & Reflets Silencieux",
+    century: "Temps géologique",
+    category: "lac",
+    counts: { lac: 1 },
+    lat: 56.68926,
+    lng: -5.09767,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMo_s1p1yI3c-W9DTRq6h3qIGMifHyINa0m672fmDuVhffR78EpW0cEUKDXK5nus1_CoZKHv8yxtT9BOUlpkwh_teYi_7_VheZVOZ5lSCJ5BAsVtKTSe0qvwKf6P6YCwvvFp7bO-nZvFlY00D7Z4CvAsQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dissimulé dans un écrin forestier calme et intime au pied des pentes boisées de Cow Hill au sud de Fort William, non loin de la vallée du Loch Linnhe, Glen Lochan offre un tableau lacustre d'une grande douceur au cœur des paysages contrastés du Lochaber. Ce petit lochan d'eau douce, niché dans une cuvette glaciaire abritée des vents dominants, est ceinturé de rives herbeuses, de joncs, de fougères et d'un boisement mêlant épicéas, mélèzes, bouleaux argentés et sorbiers des oiseleurs qui descendent jusqu'au bord de l'eau.\n\nPar temps calme, lorsque le vent s'apaise sous le couvert des arbres, la surface sombre et limpide du petit lac reflète avec netteté les frondaisons environnantes, les nuances de vert et d'or des sous-bois et les nuages glissant lentement au-dessus du vallon. Loin de l'ampleur vertigineuse des grands fjords et des hauts sommets voisins, cette halte forestière séduit par son silence apaisant, sa fraîcheur ombragée et la poésie discrète de ses reflets.",
+    visiter: "Emprunter les sentiers forestiers paisibles de Glen Lochan au sud de Fort William pour longer les rives ombragées du petit lac, observer les reflets des arbres sur l'eau calme et profiter d'une promenade tranquille au pied de Cow Hill.",
+    link: ""
+  },
+  {
+    id: "fort_william_hagrids_viewpoint",
+    name: "Fort William - Belvédère de Hagrid (Hagrid's Viewpoint - Lochaber)",
+    country: "Royaume-Uni",
+    continent: "Europe",
+    flag: "🇬🇧",
+    region_admin: "Écosse",
+    department: "Highland",
+    subdiv: "Fort William",
+    altitude: 85,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Panorama sur les Vallées Glaciaires du Lochaber, Montagnes Déchiquetées & Horizons Sauvages d'Écosse",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 56.66747,
+    lng: -5.06002,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM23QF0BSz9Hk1G1PNBffVLRA28b-AzddJk0eUQHtpZp6uwnzpP-f9FBZUgIM4pTBbJSsc10CM5EHK3kG6UO1bdPiD6upsby0GTh2t8TdPyq8WAjH8h1Cvp9lADT9cZmXk0FYxUT_JuEkTREinu6-iMRA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNOn5jTTLYXbV91VMIFG-jIAq86ZrwN8IjsbIczjOXuuxJXWd2Wtsv3w7yHdYtve6-4z8QilLGCPqfQ2p0D7pxcCJl8UIlVFFGsVR8wJzqM90QTo8vxuWUo1Z8wXo2hM0DuHWywFagwj96JwBgfI9rRvg=w1560-h878-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMuxXSQRX_yNzTGyLaR0CHKi4YI9j8owNxLnNiY0yhMOzylDGnjqYDjYTSSzqysROaizADUFFgpK1t0pEtI0jIXIbaZwYlJd6i01Sx91bDB65MYie4d0ITc-yGwrwDJ3JzGW3IMjP3HNAQdSe8JveZIaQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dominant à quatre-vingt-cinq mètres d'altitude les reliefs accidentés et sauvages du Lochaber au sud de Fort William, le belvédère de Hagrid (Hagrid's Viewpoint) embrasse un paysage montagnard et glaciaire d'une ampleur grandiose qui évoque immédiatement l'univers sauvage et mystérieux des Highlands d'Écosse. Sculpté par les glaciers quaternaires dans les roches anciennes du massif grampien, le relief déploie sous le regard une succession de vallons encaissés, de landes à bruyère et à fougères, de boisements clairsemés et de pentes abruptes s'élevant vers des sommets dénudés et balayés par les vents atlantiques.\n\nDepuis ce point d'observation dégagé, la lumière changeante du ciel écossais — alternant éclaircies franches, averses lointaines et nappes de brume accrochées aux hauteurs — révèle toute la palette chromatique des montagnes du Lochaber, des verts profonds des vallées aux ocres, roux et violets des landes d'altitude. Ce cadre naturel puissant, à proximité des grands paysages mythiques de la côte occidentale écossaise, illustre avec force la grandeur austère et inspirante des Highlands.",
+    visiter: "Faire halte sur le belvédère de Hagrid au sud de Fort William pour embrasser le panorama dégagé sur les vallées glaciaires, les landes et les reliefs montagneux du Lochaber sous les ciels changeants des Highlands.",
+    link: ""
+  },
+   {
     id: "fort_william_glen_nevis_estate",
     name: "Glen Nevis - Domaine de Glen Nevis & Vallée Glaciaire (Glen Nevis Estate)",
     country: "Royaume-Uni",
