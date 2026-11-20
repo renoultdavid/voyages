@@ -244,7 +244,7 @@ const SPOTS_3 = [
         caption: ""
       },
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczMUPNbCC8LWP4ZHQeyPMQJyWwieQnkTXARooHCr_W2kqgzohZFRGscMFVBkwfqtbU_VhQ8PppmMgtl0LarPpI6biYqicMgLUqyKSS92lRhReOdz3glqWP95s1Q6_5M7yygeNb51KpeY3h6gUNSiOzppTw=w1379-h919-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNMEPATN4UF-NPW0YKp9r3DZLQvx_wJ6oQOlN_Vx1bOF-3BBvA8H3x2mELmWgXMnVCKbN7sgylEj_-Gnbyc8Yvh-GQ5_gCEByiXan8Zlfk-nbo9qhZodnQBCtGgjGSZgPZPUX-iH6b3K5nZyn9qGFCvOg=w1379-h919-s-no-gm?authuser=0",
         caption: ""
       },
       {
