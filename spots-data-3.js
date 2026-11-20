@@ -7,6 +7,45 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "olio_di_calvi_rando_tour_du_mont_san_giovanni",
+    name: "Oletta / Poggio-d'Oletta - Randonnée du Tour du Mont San Giovanni (Serra di Pigno / Nebbio)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Corse",
+    department: "Haute-Corse (2B)",
+    subdiv: "Oletta",
+    altitude: 700,
+    is_island: true,
+    island_name: "Corse",
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Boucle Panoramique autour du Monte San Ghjuvanni (700 m), Maquis Corse & Double Vue Golfe de Saint-Florent / Étang de Biguglia",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 42.61371,
+    lng: 9.36792,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPBmNSRGbeh7uST47-V7q-gnkemLbbx7vY57LMFR6UE6eg7g2heP3hnH-0CLhxIN-u1OPPBK7F2weX7KbktzUSG6ZhCe49CHrysSN_fzg06YqLhR6jBGun75IaAUE2411Huf-0SxMwDb_JZ3m087zB7BQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOYiJYDryQjqJDTGlukc2uVzOfACtjpE4Uqny_FO_F1KOaGnr_Hfpgs_ES3X4fXlbyd2irArJkcKekhxoOkfOtk-we-kYfHzHXeyRLEKfQGO-gCyDvz9PBrpsymLsQGE2MSNQk4QFVy6VjKyQQFMqGT8g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPXJtCPeD5itGo9mawDeri99wxoC9ox7c1Q5TngaS7oZ82bQFX2wHw_l7DQOKi5So13d_jl--6QWPhWiBh9Jcy7M4eSaHK4q7qY0xrCFfu-xg3kxqOZcMzJMpoM-OdEDPDzK1cgU0NzuRNg1TMnLa8JFg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN3Ut0K7WfXF1MIcSHolkGNYhNW8eQim-M8qLNfuK0Y-fsh1mLo2Se_eiBF1MDLzl3d3wgjCokeT-d2ggKnJmRb7VQTnUNQnGgi01JGMgRA0PazRUGh0uEVucYa0z2YMd6zk0Ig6_90vQJpGqhRwSljpg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Se déroulant à sept cents mètres d'altitude sur la dorsale montagneuse méridionale de la Serra di Pigno entre le bassin du Nebbio et la plaine orientale bastiaise, au-dessus des villages d'Oletta, de Poggio-d'Oletta et de Furiani, la randonnée du tour du Mont San Giovanni (Monte San Ghjuvanni) offre l'un des balcons panoramiques les plus spectaculaires et contrastés de la Haute-Corse. Cheminant sur des sentiers rocailleux et d'anciennes pistes pastorales serpentant au milieu d'un maquis odorant et lumineux — où se mêlent arbousiers, bruyères arborescentes, cistes, myrtes, immortelles et affleurements de schistes lustrés et d'ophiolites de la Corse alpine —, cet itinéraire en boucle contourne l'éperon rocheux qui domine l'ensemble du pays bastiais et de la Conca d'Oro.\n\nAu fil de la progression autour des crêtes et des replats herbeux, le marcheur embrasse simultanément deux façades maritimes de l'île : à l'ouest se déploient les villages perchés du Nebbio, la plaine viticole de Patrimonio, le golfe azur de Saint-Florent et les reliefs sauvages du désert des Agriates jusqu'au massif du Monte Cinto, tandis qu'à l'est s'étendent en contrebas l'étang de Biguglia séparé de la mer Tyrrhénienne par le fin cordon lagunaire de la Marana et, par temps clair, les silhouettes insulaires de Capraia, d'Elbe et de Montecristo à l'horizon.",
+    visiter: "S'élancer sur les sentiers balisés contournant le Mont San Giovanni depuis les hauteurs d'Oletta, de Poggio-d'Oletta ou de la Serra di Pigno pour parcourir la boucle panoramique à 700 mètres d'altitude et profiter de la double vue sur le golfe de Saint-Florent et l'étang de Biguglia.",
+    link: ""
+  },
+   {
     id: "mont_des_avaloirs_chapelle_sainte_anne",
     name: "Mont des Avaloirs - Chapelle Sainte-Anne (Saint-Céneri-le-Gérei / Pré-en-Pail-Saint-Samson)",
     country: "France",
