@@ -7,6 +7,71 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "ettal_abbaye_d_ettal",
+    name: "Ettal - Abbaye Bénédictine d'Ettal (Kloster Ettal - Baroque & Rococo Bavarois)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Garmisch-Partenkirchen",
+    subdiv: "Ettal",
+    altitude: 873,
+    transport: "voiture",
+    era_group: "moderne",
+    era_label: "Fondation Impériale de Louis IV de Bavière (1330), Coupole Baroque d'Enrico Zuccalli (1752) & Fresque de Johann Jakob Zeiller",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.56968,
+    lng: 11.09426,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPI0zkLzEJsIo7Yi6Qr-ZcOltda4UE3NDRvitq-jdtUHxkT7DG5uM7cecQJckYWgHydD90r7f_NQwDBpKRTXnO2Yi92TQgM7vJjAbF8RvZjrRqDl3e9Z1p__pgy6xgznfZF_dvcFIVJyYGfWjMS_2BLfw=w1379-h919-s-no-gm?authuser=0",
+    description: "Nichée à huit cent soixante-treize mètres d'altitude dans une large vallée alpine verdoyante des Alpes d'Ammergau, entre Oberammergau et Garmisch-Partenkirchen, l'abbaye bénédictine d'Ettal (Kloster Ettal) dresse la silhouette majestueuse de sa coupole verdoyante et de ses clochers à bulbe au pied des parois calcaires escarpées de Haute-Bavière. Fondée le 28 avril 1330 par l'empereur Louis IV de Bavière à son retour de Rome pour abriter la célèbre statue gothique en marbre de la Vierge à l'Enfant (« Frau Stifterin » ou Madone d'Ettal), l'abbaye fut primitivement bâtie sur un plan dodécagonal insolite évoquant le Saint-Sépulcre de Jérusalem et la mythique chapelle du Graal.\n\nRavagée par un incendie dévastateur en 1744, elle fut somptueusement reconstruite au XVIIIe siècle par les plus grands maîtres du baroque et du rococo bavarois — Enrico Zuccalli, Joseph Schmuzer, Johann Baptist Zimmermann, Johann Jakob Zeiller et Martin Knoller — qui transformèrent la rotonde médiévale en un prodigieux théâtre sacré de marbre polychrome, de stucs dorés et de fresques célestes.",
+    intro_page: "Nichée à huit cent soixante-treize mètres d'altitude au cœur des Alpes d'Ammergau en Haute-Bavière, l'abbaye bénédictine d'Ettal réunit la mémoire impériale de sa fondation en 1330 par Louis IV de Bavière et l'éblouissante splendeur du baroque et du rococo d'Allemagne du Sud. Sous sa monumentale coupole verdoyante reconstruite après l'incendie de 1744, sa rotonde lumineuse déploie la fresque céleste de Johann Jakob Zeiller, les stucs de l'école de Wessobrunn et la précieuse Madone gothique d'Ettal.",
+    visiter: "Contempler la façade baroque incurvée et la grande coupole de l'abbatiale d'Ettal dans son écrin des Alpes d'Ammergau, puis entrer dans la vaste rotonde pour admirer la fresque de la coupole par Johann Jakob Zeiller, les stucs rococo, les autels de Martin Knoller et la Madone médiévale du maître-autel.",
+    link: "",
+    sections: [
+      {
+        title: "La façade baroque incurvée d'Enrico Zuccalli et la grande coupole",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPI0zkLzEJsIo7Yi6Qr-ZcOltda4UE3NDRvitq-jdtUHxkT7DG5uM7cecQJckYWgHydD90r7f_NQwDBpKRTXnO2Yi92TQgM7vJjAbF8RvZjrRqDl3e9Z1p__pgy6xgznfZF_dvcFIVJyYGfWjMS_2BLfw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMKN25FexuYr2gqV6OSofFxcbUeO7Wj14qLY94oLoYAjUbpZ_H4rZ3DPylB4uKh-fkDPhmiRWptOzB5kcsdXVeHBOhmHI-LKu2O2zcAF9tF59KHn0QFn7SHtdFgqHoAccA_4Fc6mXVLnyJJz7-nItE0Lg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La façade principale de l'église abbatiale, élevée en 1752 par Enrico Zuccalli, déploie une silhouette théâtrale incurvée en demi-cercle dans le pur esprit du baroque bavarois. Rythmée par des pilastres corinthiens doubles et un portail central surmonté d'un fronton richement sculpté, elle est flanquée de deux tours-clochers latérales coiffées de bulbes élancés et dominée en son centre par l'imposante coupole verdoyante surmontée d'un lanternon doré. Dès que le visiteur franchit le seuil de l'abbatiale, la sobriété claire des bâtiments conventuels cède la place à une véritable explosion de lumière, de couleurs et de mouvement caractéristique du rococo d'Allemagne du Sud."
+      },
+      {
+        title: "Reconstruction du XVIIIe siècle après l'incendie de 1744",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM2NzAnFHUZ-gsBdYSkC4MaveJ7HtfRp-ooFIJm-HzpTTzWJHa4NDENduveTjy_IZpiUX_Yhvl3eVawIEsJnCJk8GtIIEtOAd1JtXGEuX8NKvuDRHKLbAUlcKvQwucsyYHPORSCH_3FNL6H6qMIE4vUKQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPj1Mzto6xPsiJ6MpWM8ri0vtPihJ_K72wze8YzMvYyTOOoYu_fi20T25EZod2JkraiGQh2aUGrKo3zGIVGX-o3mkZ0YjDnKv8I2GJOp1hIWUg1WBUS8qO2REixidI1cSDFHMDFqBkYZ0kcmLnX1qOjMA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Ravagée par un terrible incendie en 1744, l'abbaye fut reconstruite et magnifiée au milieu du XVIIIe siècle sous l'impulsion de l'abbé Placidus Seitz et du génial architecte suisse Enrico Zuccalli, puis par Joseph Schmuzer et Johann Baptist Zimmermann, qui lui donnèrent sa physionomie spectaculaire actuelle."
+      },
+      {
+        title: "La fresque céleste de Johann Jakob Zeiller et les stucs de Zimmermann",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOMiQgS_pT5yqJjeXFWM6zhYcGH7vMIZewN_iYga5yk7l0uo_0F2uswA7u7Nwpy_kbwjT1BDtkZy2sVhvxvZvm0rPbV0MemefchQf6e-lXrduSYM3X0nKwzqEsR-Wjq8mletfASBNYlHUHrRtB_9D2Mqw=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP1axcDaPZCtfUWOBWrAKKW1Ia8Te-2vvhCo6Y2rkCGTPf5nVfOVtgA4eysjNDy0B0oEH6Vp1Gg0lhHtA3lIPxEP1sIyaUwCTOyn4GaVJ60rhVwELiF54hTeE6_3NoSnSSSJMRSw6IIXwz5Z5a4iny1jQ=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "La rotonde centrale, d'un diamètre impressionnant de près de vingt-cinq mètres, est couronnée par la prodigieuse fresque de la coupole peinte entre 1745 et 1748 par le maître tyrolien Johann Jakob Zeiller. Cette composition vertigineuse en trompe-l'œil rassemble plus de quatre cents figures célestes gravitant autour de la Sainte Trinité, de la Vierge Marie et de saint Benoît dans une atmosphère dorée et aérienne d'une virtuosité saisissante. Autour de cet espace circulaire se déploient six autels latéraux somptueusement décorés de stucs délicats par Johann Baptist Zimmermann et de retables peints par Martin Knoller, tandis que la chaire sculptée, les grilles en fer forgé et le grand orgue historique du XVIIIe siècle parachèvent l'harmonie acoustique et visuelle du vaisseau."
+      },
+      {
+        title: "L'espace de la rotonde : marbres polychromes, autels et Madone d'Ettal",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPjVJnNxmXp4caDHcQe31Qx_rKGWM98SDY3yR-c9v75qvvrJun4Sy8jyoCHrWYMuSj6QJb5vBJxt9t8PILVK1ozPcRU2I2rFGC1w7YqwOyPlzECGUqh1c0hYyprrxdNMPfw9MCaT4fiHsgZaobQsZbpdg=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPs3hqGO57Iua6sxYsimF6Ua2RueKlsiUDpXn0C8QMnC3mYIR6W8ml_u2-4IMIr8b5j_moFIhQqo0xlKTPGB990pEyaBXN27chjHMZ3ZzjVg_JcgBOdI4oFhbxdbekEsAlig7MasJV-dc7ekLUWAIyGFQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'intérieur de la nef se présente comme une immense rotonde baignée de lumière, où la rigueur du plan médiéval disparaît sous une décoration luxuriante. Le regard est immédiatement aspiré vers la coupole monumentale, ornée d'une fresque gigantesque de Johann Jakob Zeiller. Cette œuvre représente le triomphe de l'ordre bénédictin et la glorification de la Trinité, peuplée de centaines de figures flottant dans un ciel illusionniste. La transition entre les murs et la voûte est adoucie par des stucs rococo d'une grande finesse, réalisés par l'école de Wessobrunn, qui mêlent des motifs végétaux à des angelots et des dorures étincelantes.\n\nL'articulation de l'espace repose sur des colonnes massives en marbre polychrome qui rythment la rotonde et soutiennent une corniche richement décorée. Entre ces colonnes, des autels latéraux opulents, dont celui de l'Assomption peint par Martin Knoller, créent des points de focalisation dramatiques. Le contraste entre le blanc des parois et la richesse chromatique des peintures et des marbres rouges et gris confère à la nef une atmosphère de fête céleste. Le maître-autel, situé dans le prolongement de la rotonde, focalise la dévotion vers la statue de la \"Madone d'Ettal\", précieux vestige du XIVe siècle intégré avec brio dans cet écrin baroque.\n\nMalgré la profusion de détails, la nef conserve une clarté et une harmonie de proportions qui témoignent du génie des bâtisseurs du XVIIIe siècle. La lumière, abondamment diffusée par de hautes fenêtres cintrées, joue sur les surfaces polies du marbre et de l'or, créant une expérience immersive où le visiteur perd la notion des limites architecturales. Aujourd'hui, cette nef demeure un lieu de pèlerinage vivant où la tradition bénédictine médiévale et la splendeur des Lumières se rejoignent dans une architecture conçue comme un véritable théâtre de la foi."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPHSYnGhXxJ_PBfGL-LpD-RC9vwyhOkryUU9My4k-69gfOdb5dMyMTUua2HR1KLXMzx4re0iuYqGloP37G7GFXpRhJ-4UqK5DsmNNeh38J8zSMemVUyzRyPWxOSM_xie0EWuKWjyHiaJkCQTMa2rhjI1A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+   {
     id: "garmisch_partenkirchen_gorges_de_partnach",
     name: "Garmisch-Partenkirchen - Les Gorges de la Partnach (Partnachklamm - Massif du Wetterstein)",
     country: "Allemagne",
