@@ -7,6 +7,153 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "couture_sur_loir_manoir_de_la_possonniere",
+    name: "Couture-sur-Loir - Manoir de la Possonnière (Maison Natale de Pierre de Ronsard)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Centre-Val de Loire",
+    department: "Loir-et-Cher (41)",
+    subdiv: "Couture-sur-Loir",
+    altitude: 75,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Logis Première Renaissance de Louis de Ronsard (1515), Dépendances Troglodytiques, Devises Stoïciennes & Berceau du Poète",
+    century: "XVIe siècle",
+    category: "chateau",
+    counts: { chateau: 1 },
+    lat: 47.74661,
+    lng: 0.69211,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNCM1W5vt1TM37RLNVYGreguimcf3_TOz5akJG8vgsSr_YVYaf7Rh734rerHpynphs_vylLN_qj-YQFJDSKYlT0cjn_wDPuWc4DrBbtSHQb-y7Kd3kXun835s1pul8pjyX5fkeV-cXuNaJStepxOJ5Axw=w1379-h919-s-no-gm?authuser=0",
+    description: "Adossé aux coteaux lumineux de tuffeau blanc de Couture-sur-Loir au cœur du Bas-Vendômois dans le département du Loir-et-Cher, le manoir de la Possonnière incarne à la fois l'un des plus précoces et raffinés manifestes de la Première Renaissance en vallée du Loir et l'un des hauts lieux de la littérature française en tant que maison natale de Pierre de Ronsard, né ici en septembre 1524. Édifié à partir de 1515 par son père Louis de Ronsard — maître d'hôtel des enfants de France revenu des guerres d'Italie profondément imprégné de l'humanisme néo-platonicien et de l'esthétique antique —, le corps de logis s'allie de manière saisissante à un vaste complexe de communs troglodytiques antérieurs creusés directement dans la paroi calcaire.\n\nDes devises latines stoïciennes gravées sur les linteaux des caves et des façades aux pilastres sculptés de candélabres et d'arabesques, en passant par la salle basse et sa cheminée héraldique aux trois poissons d'argent, la chambre natale du « Prince des poètes » et les jardins inspirés de son œuvre, l'ensemble du domaine compose un véritable poème de pierre célébrant l'accord entre la nature ligérienne et l'érudition humaniste.",
+    intro_page: "Adossé aux coteaux de tuffeau blanc de Couture-sur-Loir dans le Bas-Vendômois, le manoir de la Possonnière est à la fois un joyau de la Première Renaissance édifié dès 1515 par Louis de Ronsard et la maison natale de son fils, le poète Pierre de Ronsard, né en septembre 1524. Des vastes communs troglodytiques creusés dans la craie aux façades sculptées de devises humanistes, de la cheminée monumentale de la salle basse à la chambre natale du poète, la demeure forme un livre d'architecture et de poésie à ciel ouvert.",
+    visiter: "Parcourir la cour d'honneur du manoir de la Possonnière pour explorer les dépendances troglodytiques creusées dans le coteau de tuffeau, déchiffrer les devises latines sculptées sur les façades Renaissance et visiter l'intérieur du logis, de la grande salle basse jusqu'à la chambre natale de Pierre de Ronsard.",
+    link: "",
+    sections: [
+      {
+        title: "Toponymie, légende héraldique et berceau familial des Ronsard",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNCM1W5vt1TM37RLNVYGreguimcf3_TOz5akJG8vgsSr_YVYaf7Rh734rerHpynphs_vylLN_qj-YQFJDSKYlT0cjn_wDPuWc4DrBbtSHQb-y7Kd3kXun835s1pul8pjyX5fkeV-cXuNaJStepxOJ5Axw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPhqQjT_7vpcMpcShon7lijpGi6wApFgU9aPDbvZLAocnEvLQKTtTW8jraaO4HY8IHqXR5hkrHpoaLbh-3buzmDqaI6GB9R__WvwwhWp4BEad5WNHB_FC1-OIk6IyA__DhdDFBaLLH9AXvBntjOOhACfw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Lovée au creux d'un coteau de tuffeau à Couture-sur-Loir, la Possonnière tire historiquement son nom du posson (ou poçon), une mesure ancienne employée pour les grains ou les liquides, bien que l'imaginaire populaire l'ait vite rattachée aux poissons d'eau douce. Cette tentation toponymique a nourri une savoureuse légende héraldique autour des armoiries familiales sculptées sur les lucarnes et la cheminée monumentale du manoir : d'azur à trois poissons d'argent nageant l'un sur l'autre. Selon la tradition locale, ces trois poissons représenteraient des « rosses » (gardons ou petits poissons de rivière), créant avec le nom primitif du lignage — Roussart ou Ronsart — un jeu de mots et d'armoiries parlantes associant les poissons rosses aux « ronces ardentes » bibliques. C'est dans ce fief familial entré au début du XVe siècle chez les Ronsard que Louis, père du poète et maître d'hôtel des enfants de France, fit bâtir dès 1515 le logis Renaissance orné de ces emblèmes. Lieu de naissance de Pierre de Ronsard en septembre 1524, ce berceau vendômois mêle ainsi la verve des légendes de terroir, les symboles sculptés et les premiers éclats de la poésie humaniste."
+      },
+      {
+        title: "Les dépendances troglodytiques taillées dans la falaise de tuffeau",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPOPcPZXf0bO-H__24bw7yLvqOyUl7LEdOXIVaIk9zH1MZpfWkjUh5FES4sYgvi0TNMW9XWKJ2gOjBor3XpyQfjCdgB4z2fIUwks5MoWGYv5whYBYaAEd4_BCZSaTCzDbJQjAxGjIeCaElWPJXzlellKg=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPCDUHxGOjZzaw8jqQPwMvJ6-omQRA9hdxfrZPifIVIwZ5KT1w7D8FqnUgrp3yZDwgT0vdULfxUJuNsoxt_PUB3N03O71EJ4pTslVStUI_kfn89JfXYC7OaMZHB12i9-x2w9Qk57u72a1pED4OmSUDg9w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La découverte du domaine débute par la falaise de tuffeau blanc qui enserre la cour, percée d'un vaste réseau de dépendances troglodytiques antérieures au logis Renaissance. Creusées à même la craie, ces cavités révèlent l'ancienne chapelle souterraine ornée d'arcatures rustiques, le cellier voûté où mûrissait le vin des coteaux, les remises agricoles et l'impressionnante cuisine troglodytique dotée d'une cheminée monumentale dont le conduit traverse la masse rocheuse jusqu'au sommet du coteau. Un pigeonnier troglodytique percé de dizaines de boulins taillés dans la roche côtoie d'anciens pressoirs et étables souterraines, illustrant l'autarcie domestique d'un domaine seigneurial du bas Vendômois."
+      },
+      {
+        title: "La cuisine troglodytique et la devise stoïcienne « Sustine et abstine »",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMgxvYivHwcnip7gimONyQDQ-a6NgGwXCHRMjhF3G7YwUy-L2PuG54t08C0dav8an7npbGL_X6peoK29qMzi8NQDClzoMSmw8lRdiftC9fcKbssQhqpFS3Pqv86kRo5_CofymW5wHbEw_UIQ-sPP4l_Iw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO1b4Lmqke3JvViRlFRchSR5ZImtWJDyD61GuLD4I1VsbzrvSKNj6F9bMfgxLl-UiifhhMtRzWAZpsEdhyWynkOuywRjKOetDZvj8d9gyDZZoY23jTXgX8pTXrU5Q-gA2vdHajOGt431MbD3iTtzMaHRw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMaOfSU5FiLYZtFJqjoPF6yg95hjwKqMmicmVdNSSQBqbxvxNSNlHp0MhYiXOMcqA8J9ajlk3ezJlb2GIRjOAuDIVoLy7QwCDeWtL-F0vrQDBvdYSpw-GikrTtV_S03BjjpvjG8SaHEqNG8o3ZAXoE20w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La découverte s'ouvre par la cuisine troglodytique, vaste salle voûtée ménagée dans le rocher où trône un monumental foyer dont la hotte et le conduit traversent la masse de calcaire jusqu'au sommet du coteau. Sur le linteau de pierre sculpté de son entrée s'affiche la formule en latin : « Sustine et abstine » — devise stoïcienne empruntée à Épictète (« Supporte et abstiens-toi »), rappelant la tempérance et la modération nécessaires à la table et aux appétits."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMx1cv_5VJjcopCi6EC5nsMnusp2OJ-R9Pv5n4NOZUQYknyineaOc5DZ44Ok8wG4rfcr_haiTsfVWzX9VQ8HJRzghn_RR9u2tIwGt4e7t8Yf9_3QkUvOlXWwSu4SDqEMN8At6R-ol3OQ-YdNpCeMClTqQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPJRyTmTBLYLh_8NMIpum7aiEoe9Zy8vdHKTAQfzuH8N5V9D5KOAXF_Cv-Y949CDvDyoCUcGbSVCmknvNyKl8i68qI9fG6rq2AKjQSy2QE56loE9ecON9Z2nIR1S58GaBINyj9c3kCBCRDLpWnP32W7fFtvfAvkqTlw4ln82zIV8P7qLwJXzrV9g=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNqO0cV78ngYRLxo34LsJKVQ-xW0LU0Lp6WMjP56yIbO0Hv6QzVgISs-spjfJlH07gI9KCnXwxtTax4PsLRhuGikWGyBLSQl-gG3ODVk4PXMPaWGJgn_Pf868oXyz3oVisNMt26-mP21yeqpLGnirUy5g=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMN0zymDsiIDvE_EdUq0shVV1IT4XBO4ot_QDtCusdnoNp8VtSe01od5RYlORdjWbhv75VvbXSILFSqX3fNJgfQE0SA6J_ohmZ54uTedCp_IwWJ3_Kd3xY0IwSxcMH84_jWXT9sEVrfhNTDVG2zR_hAYA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPdzNuJrdEggdUtbPau3NiB8Y36kLOeMT8Y8bv-qCIRxVcq4JcR3hERCHO4UcrPywMAMJxmUn1EecKYVLV6TKdyM5tV_qy1xwSf28uv2Vj1W5JBvyRaVmg-xnmMsAa2q71gOgrwrtpx2P7bXDhM7LV0Kg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Un parcours philosophique gravé dans la craie vendômoise",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNkbHcLjUuGJMaVHxTWJo5um0sRMUmHjysZ_SqZvcgUTpMRCgzEB3HVW2U7N9duoARnxw3TatFqplS4jtVkIfMVc4gQTm7EtlPkKRmlGmM4YniaR792hHiHG2vyxBzGBtfjp7x0ZZ4JGRoFLHro8wSB3g=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPu0pNw6TB7FQ7k2dm7MZVMvjdMffHjpoAgHVZeqPiBQ3ZqBnkWbW3sNzCBKR28jhuREQvAM1upT5DYNdJ7vj9_El6Ngr_cYjbFmAkKpNIhjiBjXhnCTr2YUq5W6ssGHoO6W7VbUFydXBAaKyLFoJPhMA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Chacune de ces entrées troglodytiques forme ainsi un dialogue précoce entre l'habitat rural creusé dans le tuffeau médiéval et l'humanisme érudit inspiré de l'Antiquité, transformant les simples communs du manoir en un parcours philosophique gravé dans la pierre."
+      },
+      {
+        title: "Les façades de la Première Renaissance édifiées dès 1515",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOyab_6iwX9ap4waNLgGI4wURbjQZXgVEdRQLFt1WhnYVWUKYYhNWCn65sLGhJ7muhT67QtblaoBD6TzFkTLXHcUWECNLOC-StRps8KTES0EOpyPrME4crduFaCI_giY1SWWqd3t2mfXjV4u_G9Eq9q8Q=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN5JJbLRJ8exLo6neu--0cT7eROYyOiU0nfHczYEzEdP_Y6Jhgmprug2NKVJs-wJxcSFlGJL8mP_AF8BZ7EVNIjFXKR-LH5H4LVH-nmDSCIlPZC46J5iZDQOzGc5iZ8704UdLsb1IGbG8Omx6DhRJ5GMw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Érigées à partir de 1515 dans un calcaire de tuffeau d'une blancheur lumineuse, les façades extérieures du logis de la Possonnière offrent l'un des premiers et plus brillants manifestes de la Première Renaissance dans la vallée du Loir. Louis de Ronsard, rentré des guerres d'Italie nourri d'esthétique classique et d'idéal humaniste, fit sculpter sur les bandeaux, les trumeaux et les linteaux un livre d'architecture à ciel ouvert où dialoguent motifs antiquisants, emblèmes familiaux et maximes morales gravées en capitales romaines."
+      },
+      {
+        title: "Baies à croisées, arabesques sculptées et frises épigraphiques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNlsejlv49UcH88JKtsrXKF8ASIn-YR-e-F0x17anfJQLwCNWQ7Mna2TfKCR5oOj0rzs-w8aFIfXiF4b1ARLxvr6zO4zpq1CL8tWPcrhetND94qEd0oOFV2l2h7VXWEP38uOlE0UaS2lUXL1N1YS6DEJg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPM3LW7t3gwCc7og4v7qs34P73sdlAblD0cjbcyjR3vIsgsv60knvXi4j4wLIX41vOPf4GbGi-6tBkExknLRu_BWoeDjju6ceaiI5-1g4w8h4lxCeYbFTjvD6ZTQhh5h_YdywbJet23I-pgy7IKtiodcQ=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNddf4OGXMmGnC8aAcXw0vnvXrzbtuD4PEhjhHAaKiK0X_cWBqzvbXXzhE-RadIENZhHRzCtmbaYTVEX2Pqz8UnpYZ080DzaJ7o-DkN7-NPAlWC8-4BJvE5CL84zX58aLc29o5fEcrY_-2r3d9OHXaddQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La façade principale sur cour attire immédiatement le regard par sa composition étagée, rythmée par de larges baies à croisées et demi-croisées encadrées de pilastres plats ornés d'arabesques, de candélabres et de rinceaux végétaux d'une grande finesse. Au-dessus des fenêtres du rez-de-chaussée courent des frises épigraphiques délivrant des leçons de stoïcisme et de prudence."
+      },
+      {
+        title: "La grande salle basse d'apparat et sa cheminée héraldique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMXKDbA4YaefHQZAwgY0f90BXiKzYTC4YoXYT0aPTJW98Dt_QD9dBmMjqGk3kBEVI91zmIJhGrwqLVACufx43fMR2uA-JEA9vKZyaB-FPG6lGe6Mf53wPKlxzy7x4r8KMoQcpWcXMoyAWB764z6NywOOg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP0r1xJSI3_x2DpgEP1TLdn_j9JCb_fUiNhPrl8HALUTOQNKi1Uq-lNDSyCnRrMGDABYCUN5_-DQBPoy4DMEX1FCuOQb-a_1cmsdjXoFeG0mhP-12VyywEK-5El6PyK2jFoV2QAV3MLyP9ON-osSVOieQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le franchissement du seuil du corps de logis de la Possonnière fait pénétrer au cœur d'une demeure seigneuriale intime et lumineuse, où la rudesse défensive médiévale s'efface au profit de l'élégance humaniste de la Première Renaissance. L'organisation intérieure s'articule autour de la tourelle d'escalier à vis polygonale, dont les marches de tuffeau hélicoïdales aux arêtes adoucies desservent les différents niveaux du logis en reliant les pièces de réception aux appartements privés. Au rez-de-chaussée s'ouvre la grande salle basse d'apparat, vaste pièce de vie et de réception éclairée par de hautes croisées de pierre ouvrant sur la cour d'honneur. Le plafond à la française laisse apparaître ses maîtresses poutres et ses solives de chêne massif, jadis rehaussées de polychromies et d'armoiries. La pièce est dominée par sa magistrale cheminée monumentale en pierre de taille, véritable morceau de bravoure sculptural de l'artisanat ligérien du début du XVIe siècle. Son manteau richement mouluré déploie des pilastres Renaissance ornés de candélabres, de cornes d'abondance et de rinceaux d'acanthe encadrant l'écu aux armes de Louis de Ronsard — d'azur à trois poissons d'argent nageant l'un sur l'autre — surmonté de nouvelles maximes morales gravées dans la craie rappelant l'éthique stoïcienne et la fidélité royale du maître des lieux."
+      },
+      {
+        title: "La chambre natale de Pierre de Ronsard (11 septembre 1524)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM8d76ksnV9XTHTjrXtSDHElHXwP_7DdzTMpjQV3FEh5tkaJiKh2ogx2uxJ3hEnThNqlEely7V3181y7tW4V_K81BQXmJjtVvbVC1imeGBLopJfLu6hNbDK0bdD5VXJXXTAXfrFib5WJ-TS87cEg82Oog=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMdv_GQPgR_gZ1X05bdvn_gKvUa_QODDLKQJJzEo9r0wfcV_-FnV4mryVMmdzXYx89c_7nZEk2ND1nsZXerIA7KapcBg0IgK4u-s--qUbhzRofAFTmXULKyrOZJ8xHywi_RI6AlUAKGe9CNXddBME5ccQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'ascension de l'escalier à vis conduit au premier étage vers la chambre natale de Pierre de Ronsard, lieu de mémoire où le futur chantre de Cassandre et d'Hélène vit le jour le 11 septembre 1524. Cette pièce feutrée, parquetée de chêne et tendue d'étoffes sobres, conserve une atmosphère de recueillement champêtre avec ses coussièges en pierre aménagés dans l'embrasure des fenêtres, d'où le jeune poète contemplait les jardins, les coteaux de vigne et la lisière de la forêt de Gastines. La chambre s'orne elle aussi d'une admirable cheminée Renaissance sculptée de volutes et de devises humanistes, devant laquelle la tradition veut que le père du poète ait initié son fils aux lettres antiques et à l'exercice des armes."
+      },
+      {
+        title: "Les combles, la charpente chevillée et les souvenirs de la Pléiade",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMqdtgLq8WgbfS1q9q6MxnmnM93aL62tMKkdhLjVcnq3f96cb7X5UELYTS6M4vlfeDDoEKmRqSQPd68iQnR7tmWK906Yy49QaixrwM0HOXwhz60OCixcxX5jx-mXjO649VU-FD1uJWVP2s6XAGn_bRKrA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMajf-CJfoXts6AjgZKhUpRCvQeuuZcxP4bKa8FPR4LtPVv0kM-NQz-o9rA8fCxeFKybrYAh-VZYN9ZGBxNe1jQTJGMZqDDQArz_GoPkbuokajGwtTHDWoIxrsDyxxSNPjPrZe-idR2GIfeBlDzIguMLA=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPu9SMIMRgmSXQTfmCvvisetB7cmyhnAXbO8AIWSIO5ldggdiY9CR-gTYC_c6n6dSPwqiSouzHKnpiaZ25L2i_K6tWE_cBGoZBa5nSRcrK3OW73Tjg9Wqlpu0X68KzoMvj-jMqkpmBdBUyV4TAzCybKoQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Les étages supérieurs et les pièces sous combles, abrités sous les hautes toitures d'ardoise percées des lucarnes monumentales, révèlent la maestria de la charpente d'origine chevillée en chêne. Ces espaces aménagés en salles muséographiques présentent des éditions anciennes des œuvres poétiques de la Pléiade, des fac-similés de manuscrits ronsardiens et des documents d'archives retraçant la vie de cour du poète auprès des rois Henri II et Charles IX. La circulation intérieure, à la fois fluide et mesurée, illustre avec authenticité le mode de vie raffiné d'une famille de petite noblesse provinciale à l'aube du Grand Siècle de la Renaissance française."
+      }
+    ]
+  },
+  {
+    id: "couture_sur_loir_l_isle_verte",
+    name: "Couture-sur-Loir - L'Isle Verte (Île Fluviale du Loir & Mémoire Poétique de Ronsard)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Centre-Val de Loire",
+    department: "Loir-et-Cher (41)",
+    subdiv: "Couture-sur-Loir",
+    altitude: 70,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Île Verdoyante à la Confluence du Loir et de la Braye, Saules, Peupliers & Paysage Célébré par Pierre de Ronsard",
+    century: "XVIe siècle",
+    category: "panorama",
+    counts: {},
+    lat: 47.75821,
+    lng: 0.69699,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOeb6Auqy2SJmvf6mAsawBTCWh5gYQdEzId6k1589d4TjxRpgU10-wReiX4A865p6JOs9FzCYU0jizDN7x03iVdTB9xsfqrsVYjO1rpuR0U25UzWbzfl0ZTDxpIXr8-Ggfe33CeYhqjmP3VXBg8V89PvA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO0Sgdu37UX70JSV0Wt-dohwfo2esOaK5ePn4FtD6OqXC6sI5mpTtZF2CZ9xJnAfnPr4QlbFRTrt7KZSfDhFLkjJ9ibMg7NxssiRSQpsdjJAsqB0DdxD_LCLHTjKYN182DU3sCqe1xinFOOLsP-Q9JFkw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Nichée au cœur des bras paisibles et ombragés du Loir à proximité de sa confluence avec la rivière Braye, sur la commune de Couture-sur-Loir à quelques centaines de mètres seulement du manoir natal de la Possonnière, L'Isle Verte déploie un écrin fluvial d'une douceur bucolique intimement lié à la sensibilité poétique de Pierre de Ronsard. Bordée de prairies humides, de roselières, de saules pleureurs, d'aulnes et de hauts peupliers dont les frondaisons se mirent dans les eaux lentes et verdoyantes de la rivière, cette petite île naturelle incarne l'idéal arcadien et champêtre de la vallée du Loir au XVIe siècle.\n\nC'est précisément ce décor de rives fleuries, d'îlots herbeux et d'eaux murmurantes que le « Prince des poètes » immortalisa dans plusieurs de ses plus célèbres odes et sonnets — exprimant notamment le vœu célèbre d'être inhumé non sous le marbre froid des églises, mais sous le gazon d'une île verte formée par le Loir et la Braye afin que son ombre repose à jamais au milieu de sa terre natale. Accessible par de paisibles cheminements riverains, le site offre aujourd'hui une promenade silencieuse au fil de l'eau, bercée par le bruissement des feuillages et la lumière douce du Bas-Vendômois.",
+    visiter: "Rejoindre les rives paisibles du Loir à Couture-sur-Loir en contrebas du manoir de la Possonnière pour admirer les bras de rivière verdoyants entourant L'Isle Verte, contempler les reflets des saules et des peupliers et évoquer les vers champêtres de Pierre de Ronsard.",
+    link: ""
+  },
+   {
     id: "montmirail_chateau_de_montmirail",
     name: "Montmirail - Château de Montmirail (Perche Sarthois)",
     country: "France",
