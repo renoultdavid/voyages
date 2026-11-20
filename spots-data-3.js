@@ -6,63 +6,7 @@
 
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
-{
-    id: "pietrosella_punta_di_i_setti_navi_isolella",
-    name: "Pietrosella - Punta di i Setti Navi & Presqu'île de l'Isolella (Rive Sud du Golfe d'Ajaccio)",
-    country: "France",
-    continent: "Europe",
-    flag: "🇫🇷",
-    region_admin: "Corse",
-    department: "Corse-du-Sud (2A)",
-    subdiv: "Pietrosella",
-    altitude: 0,
-    is_island: true,
-    island_name: "Corse",
-    transport: "a_pied",
-    era_group: "nature",
-    era_label: "Chaos Granitiques Rose-Ocre Sculptés par l'Érosion Marine, Tour Génoise de l'Isolella & Eaux Cristallines",
-    century: "Temps géologique",
-    category: "panorama",
-    counts: {},
-    lat: 41.84528,
-    lng: 8.74932,
-    image: "https://lh3.googleusercontent.com/pw/AP1GczMKhMfLAaydTeYnZT33is9ZotiMteM6s2rXVbc8Ox8JU5DQhVCkJNP2najqvkD9Vu8cO7qEzkGLzR17rIfvj1dEBbtJRoMiPcFBX74OFInnnPo1VfB_qZbX2pRXwVkRpx4QD1j4ODENedGGpikR-Iuo4A=w1225-h919-s-no-gm?authuser=0",
-    gallery: [
-      {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczMSDrKhdCcEgVEIBJtLDiu71r9wPUvhKhV81HzcvecyQPNs0fQ7DLG7MDK1sSQCKb87NehSb0qGfFkDwdl26XSGkmXUlJEXtzr2tJMi5kRIIAJGAqjIkCdE5gDfoRxuVPd4OjkZ-GL7YtHRLwqOwIaHLg=w1225-h919-s-no-gm?authuser=0",
-        caption: ""
-      }
-    ],
-    description: "S'avançant avec élégance dans les eaux limpides et turquoise de la rive méridionale du golfe d'Ajaccio, sur la commune de Pietrosella, l'extrémité occidentale de la presqu'île de l'Isolella — connue en langue corse sous le nom évocateur de « Punta di i Setti Navi » (« la Pointe des Sept Navires ») — dévoile l'un des paysages côtiers granitiques les plus spectaculaires et sculpturaux de la Corse-du-Sud. Ce cap rocheux bas façonné dans les granites monzonitiques et leucogranites rosés et ocre de la Corse hercynienne doit son nom poétique aux sept grands rochers et écueils alignés juste au large dans le prolongement de la pointe, évoquant une flotte de vaisseaux figés dans la pierre ou, selon la légende locale, les sept navires barbaresques pétrifiés alors qu'ils tentaient d'attaquer la côte.\n\nModelées pendant des millénaires par l'action conjointe des embruns salins, du vent du large et du ressac méditerranéen, les masses granitiques présentent d'extraordinaires formes arrondies, des alvéoles d'érosion (taffoni), des vasques littorales et des dalles polies baignées d'eaux cristallines aux reflets émeraude et cobalt. Dominée à son sommet par la silhouette circulaire de la tour génoise de l'Isolella édifiée vers 1608 pour surveiller le golfe d'Ajaccio, cette pointe sauvage parfumée de maquis littoral — immortelles, lentisques, romarins et cistes — offre une vue panoramique grand angle sur les îles Sanguinaires, le cap Muro et l'ensemble de la baie ajaccienne.",
-    visiter: "Parcourir à pied les sentiers côtiers de la presqu'île de l'Isolella à Pietrosella jusqu'à la Punta di i Setti Navi pour admirer les spectaculaires chaos de granite rose sculptés par la mer, les sept écueils alignés au large et la vue panoramique sur le golfe d'Ajaccio et les îles Sanguinaires.",
-    link: ""
-  },
-  {
-    id: "ajaccio_cala_di_fica",
-    name: "Ajaccio - Crique Sauvage de Cala di Fica (Route des Sanguinaires / Capo di Feno)",
-    country: "France",
-    continent: "Europe",
-    flag: "🇫🇷",
-    region_admin: "Corse",
-    department: "Corse-du-Sud (2A)",
-    subdiv: "Ajaccio",
-    altitude: 0,
-    is_island: true,
-    island_name: "Corse",
-    transport: "a_pied",
-    era_group: "nature",
-    era_label: "Crique Granitique Préservée au Nord de la Pointe de la Parata, Maquis Littoral & Eaux Limpides de Méditerranée",
-    century: "Temps géologique",
-    category: "panorama",
-    counts: {},
-    lat: 41.95136,
-    lng: 8.60635,
-    image: "https://lh3.googleusercontent.com/pw/AP1GczOMIR6_2eY-hnezOamA9keTPSR8xBPajGphAJxZVV6ZJAqJdl3P5dSAps01kxD_Wub9Yj-xNYczQLnSNweo98tvtJur_QiKeGDkbYSCYzj4EppWPWmyYJewzBLGrMKsL-Wsi7skWN-6nYNaC46nr9u4Hg=w1225-h919-s-no-gm?authuser=0",
-    gallery: [],
-    description: "Nichée dans un repli escarpé et sauvage de la côte occidentale du grand site naturel de la Parata et de Capo di Feno, à l'ouest d'Ajaccio, la crique secrète de Cala di Fica (« la Crique du Figuier » en langue corse) constitue un havre minéral et marin d'une pureté intacte, loin des grandes plages fréquentées de la baie. Accessible uniquement par les sentiers pédestres serpentant à travers les coteaux couverts d'un maquis littoral dense et aromatique — où s'épanouissent lentisques, oléastres, genévriers de Phénicie, cistes cotonneux et immortelles balayés par les vents d'ouest —, cette petite anse abritée s'ouvre face à l'immensité bleue de la Méditerranée occidentale.\n\nEncadrée de promontoires rocheux granitiques de couleur grise et dorée plongeant dans des fonds marins d'une transparence cristalline propices aux herbiers de posidonie et à la faune côtière méditerranéenne, la crique mêle grèves de galets polis, petites langues de sable grossier et rochers plats chauffés par le soleil. Loin de toute construction moderne, Cala di Fica incarne le visage authentique et préservé du littoral ajaccien sauvage entre la pointe de la Parata et les plages de Capo di Feno.",
-    visiter: "Emprunter le sentier littoral depuis le secteur de la Parata ou de Capo di Feno à l'ouest d'Ajaccio pour descendre jusqu'à la crique sauvage de Cala di Fica, profiter du calme de son anse rocheuse et contempler la transparence de ses eaux méditerranéennes.",
-    link: ""
-  },
+
    {
     id: "pietrosella_punta_di_i_setti_navi_isolella",
     name: "Pietrosella - Punta di i Setti Navi & Presqu'île de l'Isolella (Rive Sud du Golfe d'Ajaccio)",
