@@ -7,6 +7,121 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "garmisch_partenkirchen_hameau_de_wamberg",
+    name: "Garmisch-Partenkirchen - Le Hameau de Wamberg & Vallée de la Partnach (Alpes de Bavière)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Garmisch-Partenkirchen",
+    subdiv: "Garmisch-Partenkirchen",
+    altitude: 996,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Plus Haut Village d'Église d'Allemagne (996 m), Chapelle Sainte-Anne & Panorama sur le Wetterstein",
+    century: "XIXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 47.47897,
+    lng: 11.15008,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO-JzxnBJqBVyuOPewHj6a9Jp9XiAM7s6YqYouPyW0CPTN_sZod9oc0Xu1tSSJeVZw1JmPdOiDekHeKpSiM7wc_UL8c1uhQXB6LE5R9gKa6FrxgfXzzn9ZhVYB8LvnaacA6nHO8SiqWPo83qG9twUIDUg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNB3ied4K4bIEpiiH-olbbmtUR_8GBKJRzfWiItSHUpVDGpIGHhzGnnNkXx66ZfPkT7GUEE6nzFATbOG0AYHNIRwoCUotnKXQYLkFFaDUi01DPbs0y99ARIbbYb-LN1rU5R7loSSWCCRkZxlmFQm7ySOw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNbxtfxwrGnP7TPgqNCo_csLQfrKRew8btBhh1CuvXk0W5Q77g1nmDsfa8o2ZUKHD_UDpZywhk3ebaCYK6wYERvFP0LiKm4NIMKTpDPnc7SH7IRPzSKQo3t8fXEEymNRsHAoiA9U_QGHOo9msDyUKzyCQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMt6Aks6PMhzO9xmsPJoBYA7LfatMNuEEEgqh6KT_9EtrTDRY4eWUinYhpwxqY3oO7coarXTr29kWKDg8P6WBjGXnE_Qx8kYXoMLyO8boFUYoJzbQjEagelCRtaFmKPGzwrz5kf4yqOHpJvMVWhEFfGGg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNLSwOp_wfMwKNUT4KaW5dRu3gS_I939gpMMKflfcanDupH2wWGMD2kJ9U9tbskCGUs8hKCDwJUwXEyXc0fWgk2JbY2x5U4zZknfCk7IlCiomgIwoPTpxYKpuTRGIRq2FONRnblIp_coJWut_UA6GQivg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNwcH9VM6MCFKHO_cbjuv6SGxGeDVHmkvySeQAKxYl1_uQx4_67puJLg_KToQEPXDtxjcRGPb8Nw_Ui_Rih2hLY6g7gRyssSrupuqMerhti5-MmsDSTH3hXRDqlkqfXwhenTcmxSOg2GxAIUOel_B7rlA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Blotti à près de mille mètres d'altitude sur un replat ensoleillé et boisé surplombant la vallée de la Partnach à l'est de Garmisch-Partenkirchen, au cœur des Alpes bavaroises, le hameau de Wamberg est réputé pour être le plus haut village d'Allemagne doté d'une église et d'une vie paroissiale historique. Accessible uniquement à pied, à vélo ou par des pistes forestières et d'alpage depuis la vallée, cet ensemble montagnard préservé rassemble autour de sa modeste chapelle Sainte-Anne (St. Anna) quelques fermes et demeures alpestres traditionnelles aux murs blanchis à la chaux, larges toitures pentues en bardeaux et balcons en bois fleuris.\n\nEntouré de prairies d'altitude fauchées et de forêts d'épicéas et de hêtres, Wamberg offre un havre de calme et d'authenticité bavaroise face aux imposantes parois calcaires du massif du Wetterstein et aux sommets environnants. Le site constitue à la fois une étape paisible de promenade et un point de départ naturel vers les hauteurs panoramiques de Bergkamm et de l'Eckbauer.",
+    visiter: "Rejoindre à pied ou par les sentiers forestiers le hameau de Wamberg au-dessus de Garmisch-Partenkirchen pour découvrir sa chapelle, ses maisons alpestres traditionnelles et la vue sur la vallée et les montagnes du Wetterstein.",
+    link: ""
+  },
+  {
+    id: "garmisch_partenkirchen_rando_aussichtpunkt_bergkamm",
+    name: "Garmisch-Partenkirchen - Randonnée du Belvédère de la Crête (Aussichtspunkt Bergkamm - Wetterstein)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Garmisch-Partenkirchen",
+    subdiv: "Garmisch-Partenkirchen",
+    altitude: 1219,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Sentier de Crête Panoramique au-dessus de Wamberg (1 219 m), Forêt Subalpine & Vue sur le Wetterstein",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 47.46903,
+    lng: 11.14337,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOfVTjfObh7RjyBaP2J1nei0Bq5XS3ex7Ghml69I1AOtTJ3epBgHvMx_NAITHnqXcvgq1FanFyQqFWDkHjsM1iPkBrXGjeNKe3yZs5x4HYAZa4nslnFlAMtiwS7Jyb3pBKMRkzSEwNjMwdltPa6dYAHLA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOLh_Bko5gtmygEnjjLLCQOP6j-upwBWYJsDI1MIhzsOT60M-NDJ8SKnabf2Wls_k1qBbl3gUykZ_yIJ9_8u5XWRYxAN7xTBkHK9LhzMsDtQXcqkjlJBXU-GqOMtpqYYNNAdh1Zsv9V4UaiZ2GfsArQOA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMef55l7lL2vmUHLjgIVS1QjzyJ4PUEU94Dz_MdXSpbeMJCXlCBXvKmkH1aXqniHk-lSSCvSd2qa3xYSILpL9bKi-zDP_vnXFu2hhCtH4QS_TH6VTUNd33f4R9m2Ho0eoyBEXYhg4wzacyND-hf6KiIFw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNBelTXOOMLUP1_hKalhfH79WGxFSrbejhefF1lGxMop6p9BKdPxAg5Ikvd9mdJxCiScf6H6e42rCslnukYgts3ew-J-fb0FCe0dVech6LVMg1GfXOwSTI-tho6yiXG0SmniyV9kfi39d7_dkhRsV5zdg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPGj8iSKJs-vhQYpoIcad6GvEf1EvtP3eUDca8MlViVjRul4XahM_xzEjGj3vuYSnQ6WpohjosF4ukD-JsmeulP-SIUhjE8TaAP4yiFUWyFDwGIwbTin-xMyHLaJM_aVzKAXZs9D7i1SUbum6a9v9zbRA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "S'élevant à mille deux cent dix-neuf mètres d'altitude sur la ligne de crête boisée et rocheuse dominant le hameau de Wamberg au sud-ouest de Garmisch-Partenkirchen, la randonnée vers l'Aussichtspunkt Bergkamm offre une immersion forestière et alpine tonique au cœur des Préalpes bavaroises. Empruntant des sentiers caillouteux et racinés qui serpentent à travers les futaies d'épicéas, de hêtres et de pins de montagne ponctuées d'éboulis calcaires, de fougères et de mousses, l'itinéraire gagne progressivement en hauteur jusqu'à un belvédère dominant la ligne de crête.\n\nDepuis ce promontoire boisé et dégagé, le regard embrasse l'enfilade des reliefs préalpins et les parois abruptes du Wetterstein qui se dressent face à la vallée, offrant de belles échappées sur les pentes boisées de l'Eckbauer et la vallée de la Partnach. C'est un parcours de moyenne montagne idéal pour allier marche en forêt d'altitude, observation des reliefs calcaires et panoramas alpins.",
+    visiter: "Suivre les sentiers de randonnée montant depuis Wamberg ou l'Eckbauer jusqu'à l'Aussichtspunkt Bergkamm à 1 219 mètres d'altitude pour profiter du cheminement forestier et contempler le panorama depuis la crête sur les montagnes du Wetterstein.",
+    link: ""
+  },
+  {
+    id: "garmisch_partenkirchen_chalet_eckbauer",
+    name: "Garmisch-Partenkirchen - Refuge & Belvédère de l'Eckbauer (Chalet Eckbauer - 1 237 m)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Garmisch-Partenkirchen",
+    subdiv: "Garmisch-Partenkirchen",
+    altitude: 1237,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Refuge Alpin d'Altitude (1 237 m), Terrasse Panoramique Face au Wetterstein & Sentiers de Garmisch-Partenkirchen",
+    century: "XXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 47.46657,
+    lng: 11.13404,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOs7784L7GzAS4gpUotyAmt9rXpQZ8CbvbE-Yw-kbyloGlXWhdV29XAVMPbXxpfSlWnSwcKZrpCVHT9r-2_g__HmO5hgxdviUXNw4IYrUP-OOLtIf_hV-xPDQ9TL_YRM2MAlSVFa7dkRF27jKrrL3UxBg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNZGA8OSxIE8d5BYXji4CrgH0-fqKa6OrPRom69Zl12xDI_FLGBVnQ9ZTQBwdpQBrn4r8pdvkkIGIRf6XYfONhFIi3-5sd1mnh5-6mlPVuA4mGPsvahLr3CBXZCWhSV9f6nrwGFCHpnJd89c21O8KuBOg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Perché à mille deux cent trente-sept mètres d'altitude sur les hauteurs de l'Eckbauer au sud-ouest de Wamberg, à proximité de la vallée de la Partnach et de Garmisch-Partenkirchen en Bavière, le chalet et refuge d'altitude de l'Eckbauer offre une halte montagnarde chaleureuse et panoramique face aux grands sommets calcaires du Wetterstein. Bâti dans l'esprit des refuges et auberges d'alpage bavarois avec ses murs clairs, sa toiture pentue et sa terrasse ouverte sur la montagne, l'établissement constitue un point de ralliement très apprécié des randonneurs et promeneurs sillonnant les sentiers reliant Wamberg, Bergkamm, la gorge de la Partnachklamm et les hauteurs de Partenkirchen.\n\nDepuis ses abords dégagés, la vue s'ouvre largement sur les cimes escarpées du massif du Wetterstein et les contreforts des Alpes de Bavière, baignés par la lumière claire et changeante de la haute vallée. Le site allie ainsi le confort simple d'une étape d'altitude à la proximité immédiate des forêts, crêtes et gorges glaciaires de la région de Garmisch-Partenkirchen.",
+    visiter: "Rejoindre le secteur de l'Eckbauer à 1 237 mètres d'altitude par les sentiers de randonnée depuis Wamberg ou Garmisch-Partenkirchen pour profiter de la terrasse panoramique face au massif du Wetterstein et poursuivre vers les crêtes et vallées voisines.",
+    link: ""
+  },
+   {
     id: "canazei_passo_sella",
     name: "Canazei / Selva di Val Gardena - Le Col Sella (Passo Sella / Sellajoch - 2 240 m)",
     country: "Italie",
