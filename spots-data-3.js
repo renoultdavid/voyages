@@ -7,6 +7,92 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "canazei_passo_sella",
+    name: "Canazei / Selva di Val Gardena - Le Col Sella (Passo Sella / Sellajoch - 2 240 m)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Trentin-Haut-Adige",
+    department: "Trente",
+    subdiv: "Canazei",
+    altitude: 2240,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Col Routier Mythique des Dolomites (2 240 m), Tours du Sella, Massif du Sassolungo & Panorama sur la Marmolada",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 46.50792,
+    lng: 11.76837,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMBb_UkDVvk5GPI70wpTLEYI8kFpZ5mSBA6siiCSd9haUbgAwOUhXOzoU_MNXwC_z94hI2U-oKfjOwxfl5qR6f7o13xNL2GQmg7Iz5ybQa0i3s_GlzQ9FAowv-8JePiDXwNQHOwJckuX4XKjSiOvazWmg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPk_tZIwa3GuR-Uesy8Ip6H-28ZLnIJBd9nbiQyqtbn1FdLxoP1zF7P_QGkn89To8l0btLBUHmyZUyM3HMzeBK-a8wfLe1qNjMmEgA4uq1gzjt-1fHYHmXYeJpikWZonzQ-iItA7biwsKXLrxkJ3OZA5A=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOR2sNVZab6PHhtewT3fUpQNkgqgLSJbEWQbE_OMrCSkJqG7vGM9rZmq3tFAwy9I0UmdjBHLPoU4yS63GtWS1ZKM2LsJZS43QvFsy1Q4mFTS1fXMzCQmSE9RoWfrNoSULR7mir6irKKutrzt9r0lTRfPg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Culminant à deux mille deux cent quarante mètres d'altitude à la frontière géographique entre le Val di Fassa trentin et le Val Gardena sud-tyrolien, le col Sella (Passo Sella ou Sellajoch en allemand, Jëuf de Sela en ladin) constitue l'un des belvédères routiers et alpins les plus spectaculaires de tout l'arc des Dolomites inscrites au patrimoine mondial de l'UNESCO. Tracée au XIXe siècle dans le cadre de la célèbre Grande Route des Dolomites, cette selle d'altitude s'ouvre littéralement au pied de deux géants calcaires légendaires : à l'est s'élancent les murailles verticales et les aiguilles vertigineuses des Tours du Sella (Torri del Sella), tandis qu'à l'ouest se dresse l'imposante cathédrale rocheuse du massif du Sassolungo (Langkofel, 3 181 mètres) et la célèbre « Città dei Sassi » (la Cité des Pierres), chaos monumental de blocs dolomitiques éboulés tapissés de pins cembros et d'éboulis clairs.\n\nDepuis les esplanades panoramiques du col balayées par les vents d'altitude, le regard embrasse un amphithéâtre minéral d'une grandeur saisissante s'étendant jusqu'aux neiges et glaciers de la Marmolada (« la Reine des Dolomites ») au sud et aux cimes du groupe des Odle au nord, offrant un contact direct avec la haute montagne alpine.",
+    visiter: "Rejoindre le col Sella à 2 240 mètres d'altitude entre le Val di Fassa et le Val Gardena pour contempler au plus près les parois verticales des Tours du Sella, les aiguilles du massif du Sassolungo, le chaos rocheux de la Città dei Sassi et le panorama sur la Marmolada.",
+    link: ""
+  },
+  {
+    id: "castelrotto_seis_am_schlern",
+    name: "Castelrotto - Le Village Alpin de Seis am Schlern & Massif du Sciliar (Siusi allo Sciliar)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Trentin-Haut-Adige",
+    department: "Bolzano",
+    subdiv: "Castelrotto",
+    altitude: 996,
+    transport: "voiture",
+    era_group: "contemporain",
+    era_label: "Bourg Montagnard du Tyrol du Sud (996 m), Architecture Tyrolienne & Muraille Emblématique du Sciliar / Schlern",
+    century: "XIXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 46.54406,
+    lng: 11.56201,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPO6Kcj0hffDyWZyrnB6qjSrL_2u4j-CGQojOBFKKrJyCiMI2N9zQVjUXD2lsCy0dbK3EkWh93aN-hYkwMssBR2G9tdGHlpllyIxooKR4R084Ue75Gk4Cr2R-0sbqTYKDSYuMSqXV1Nuys7QxQvb513WQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP7BKjnYCtLrkvzxpQglty9iEG7EQVK3JAG7RnN0rFB6RIeSfhdc5OKZKSo6qR1Ymdy1pbDCxdqfPcuMDRx5EKqjjeWehxtQPs3p-bnHy5EUERDAF-wcLa4ryD8dF9jEtON71tdNFttU3FcwyYPLNEs0A=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Implanté à près de mille mètres d'altitude sur un vaste plateau ensoleillé dominant la vallée de l'Isarco (Eisacktal) au pied de l'Alpe di Siusi (Seiser Alm), le village alpin de Seis am Schlern (Siusi allo Sciliar, commune de Castelrotto) offre l'un des panoramas les plus célèbres et emblématiques du Tyrol du Sud. Dominé directement par la silhouette imposante, tabulaire et crénelée du massif dolomitique du Sciliar (Schlern, 2 563 mètres) — flanqué de ses deux pointes spectaculaires, la Punta Santner et la Punta Euringer, véritable symbole géographique du Haut-Adige —, le bourg déploie ses demeures tyroliennes soignées aux façades blanches ou pastel ornées de fresques traditionnelles, de volets peints et de balcons en bois croulant sous les fleurs.\n\nEntouré de prairies verdoyantes, de vergers d'altitude et de forêts d'épicéas et de mélèzes, ce village historique — lié notamment à la mémoire du poète et chevalier médiéval Oswald von Wolkenstein qui vécut dans les châteaux voisins de Hauenstein et Salegg — conjugue avec harmonie l'art de vivre montagnard sud-tyrolien et la grandeur minérale des Dolomites occidentales.",
+    visiter: "Flâner dans le centre historique de Seis am Schlern à 996 mètres d'altitude pour admirer l'architecture traditionnelle tyrolienne, l'église paroissiale et la vue monumentale sur les parois calcaires et les pointes du massif du Sciliar.",
+    link: ""
+  },
+  {
+    id: "leiblfing_pfarrkirche_leiblfing",
+    name: "Pettnau - L'Église Paroissiale Saint-Georges de Leiblfing (Pfarrkirche Leiblfing - Vallée de l'Inn)",
+    country: "Autriche",
+    continent: "Europe",
+    flag: "🇦🇹",
+    region_admin: "Tyrol",
+    department: "Innsbruck-Land",
+    subdiv: "Pettnau",
+    altitude: 616,
+    transport: "voiture",
+    era_group: "moderne",
+    era_label: "Sanctuaire Paroissial Tyrolien de la Vallée de l'Inn, Clocher à Bulbe Baroque & Parois Calcaires du Karwendel",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.28960,
+    lng: 11.16903,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNIR-dbk65efLyGjccrX0LLn4vrloscVHERsYHlXWMYYSmw0ADMSLQADyOuho3p_MhxkQXc-kK0icFBE_CMsg4yIsp3U4Ir9WPJrrqRT4zbMh_7sMcQ6HObLEjSIZu592P1mNsIs7ggcdI4NkftrOMOgw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Élevée à six cent seize mètres d'altitude au cœur du village tyrolien de Leiblfing (commune de Pettnau), dans la haute vallée de l'Inn (Oberinntal) à l'ouest d'Innsbruck, l'église paroissiale Saint-Georges (Pfarrkirche hl. Georg) dresse sa silhouette élégante et lumineuse au pied des imposantes parois calcaires des Alpes du Karwendel et du massif de la Martinswand. Mentionnée dès le Moyen Âge et profondément remaniée à l'époque baroque au XVIIIe siècle selon la tradition architecturale sacrée du Tyrol autrichien, l'édifice se distingue par la blancheur éclatante de ses façades crépies soulignées de chaînages peints et par son haut clocher-tour coiffé d'un bulbe élancé surmonté d'une lanterne.\n\nCeinturée d'un cimetière paroissial fleuri et entretenu avec soin où se dressent des croix en fer forgé traditionnelles et des chapelles funéraires peintes, l'église compose avec les maisons tyroliennes aux larges toitures débordantes et les vergers de la vallée de l'Inn un ensemble patrimonial d'une grande harmonie, reflétant la ferveur religieuse et l'esthétique baroque rurale des Alpes autrichiennes.",
+    visiter: "S'arrêter dans le village de Leiblfing dans la vallée de l'Inn à l'ouest d'Innsbruck pour admirer l'église paroissiale Saint-Georges, son clocher à bulbe baroque et son cimetière fleuri au pied des montagnes du Tyrol.",
+    link: ""
+  },
+   {
     id: "caldaro_lago_di_caldaro",
     name: "Caldaro - Le Lac de Caldaro & Vignobles de l'Oltradige (Lago di Caldaro / Kalterer See)",
     country: "Italie",
