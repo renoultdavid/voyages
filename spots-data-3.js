@@ -7,6 +7,64 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "ponce_sur_loir_eglise_saint_julien",
+    name: "Poncé-sur-Loir - Église Saint-Julien (Peintures Murales Romanes du XIIe Siècle)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Loir en Vallée",
+    altitude: 84,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Sanctuaire Roman (XIe-XIIe Siècles), Clocher à Flèche Octogonale & Cycle Exceptionnel de Fresques des Croisades",
+    century: "XIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.76313,
+    lng: 0.65786,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNGyaKxV0-Jy7EMaPeuHPD8kZwGmeuCWkAtNapMQNjeBjodp-L8Jy8mAG9Oopch-sbGjYcwFJgjM9YMVQAAgPPAfxlibXZzMsB3WOqv7MGY8MAr4WjGiRotcMeSyhmwwbFMXM_a5egUs5Iuq-FVJNQ4GA=w1379-h919-s-no-gm?authuser=0",
+    description: "Érigée au pied des coteaux de tuffeau blanc de Poncé-sur-Loir au cœur de la vallée du Loir dans le sud-est du département de la Sarthe, l'église Saint-Julien abrite l'un des ensembles de peintures murales romanes les plus précieux, complets et spectaculaires de toute la France occidentale. Édifié dès le XIe siècle puis remanié et agrandi au XIIe siècle sous le patronage des évêques du Mans, cet édifice d'apparence sobre et trapue, dominé par son élégant clocher carré à deux étages de baies géminées et sa flèche de pierre octogonale, dissimule un véritable trésor pictural redécouvert sous les badigeons au XIXe siècle et classé au titre des Monuments historiques dès 1889.\n\nCouvrant les murs hauts de la nef et les écoinçons des grandes arcades sur plusieurs registres superposés, ce cycle peint à la fin du XIIe siècle dans une gamme lumineuse d'ocres jaunes, d'ocres rouges, de bruns et de blancs de chaux déploie un programme iconographique exceptionnel mêlant l'histoire du Salut, le martyre de saint Julien du Mans, une saisissante pesée des âmes au Jugement dernier et un remarquable cycle chevaleresque figurant avec une précision documentaire rare les combats des croisés et des chevaliers de l'époque des Plantagenêts.",
+    intro_page: "Érigée au pied des coteaux de tuffeau de Poncé-sur-Loir dans la vallée du Loir, l'église Saint-Julien abrite l'un des ensembles de peintures murales romanes les plus remarquables de France. Sous sa silhouette trapue couronnée d'un clocher roman à flèche de pierre octogonale, sa nef déploie un vaste cycle peint de la fin du XIIe siècle associant récits évangéliques, pesée des âmes, vie de saint Julien du Mans et scènes épiques de combats de chevaliers croisés.",
+    visiter: "Contempler depuis le bourg de Poncé-sur-Loir l'architecture extérieure et le clocher roman de l'église Saint-Julien, puis pénétrer dans la nef pour admirer les cycles de peintures murales du XIIe siècle couvrant les murs nord et sud ainsi que le pignon de l'arc triomphal.",
+    link: "",
+    sections: [
+      {
+        title: "Architecture romane extérieure et clocher à flèche octogonale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNGyaKxV0-Jy7EMaPeuHPD8kZwGmeuCWkAtNapMQNjeBjodp-L8Jy8mAG9Oopch-sbGjYcwFJgjM9YMVQAAgPPAfxlibXZzMsB3WOqv7MGY8MAr4WjGiRotcMeSyhmwwbFMXM_a5egUs5Iuq-FVJNQ4GA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNz3vPRQTNx9rE3F5ldIMcQk5s868W_uFZNky5u-lxbKjz9u57Rzi-JqngbMrsChTPKzCHBiELgf8OnKEOAYbgLPfN0Wc8TrYveqtq8USMuRsJ07JdzPQ5LGJPyPn88BZZewKC_wZw968VaPCo8CTPdNA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'église primitive, édifiée dès le XIe siècle puis agrandie au XIIe siècle sous le patronage des évêques du Mans, présente une silhouette trapue dominée par un élégant clocher roman carré à deux étages de baies géminées en plein cintre coiffé d'une flèche de pierre octogonale."
+      },
+      {
+        title: "Organisation spatiale de la nef, charpente lambrissée et Crucifixion",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP6BUIlUggN4tGKb7j0TOOlcpL6licj72_Sf_pVYbQyrGp799lvdpKB034truYluT5CpGj-3OG2PmRpCCknLTFldRqYeYv9jzm2aRxMIDppUlJhHy-F2k51wFU3vePbtVoosahoRiH2cNtAsjPT3e2leQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'espace se compose d'une nef principale flanquée de bas-côtés, séparés par de puissantes piles carrées supportant des arcs en plein cintre. Cette structure architecturale robuste sert de support à un cycle de peintures murales romanes d'une ampleur rare, couvrant les murs hauts de la nef ainsi que les écoinçons des grandes arcades.\n\nLe programme iconographique, réalisé à la fin du XIIe siècle, se déploie sur plusieurs registres superposés, relatant des épisodes bibliques et des scènes de la vie de saints. Sur le mur pignon surplombant l'arc triomphal, une imposante Crucifixion accueille le regard des fidèles, créant une transition monumentale vers le chœur absidial. La palette chromatique, dominée par les ocres jaunes, les rouges terreux et les blancs calcaires, s'harmonise avec la blondeur de la pierre de tuffeau locale, conférant à la nef une unité visuelle et une chaleur lumineuse singulières.\n\nLa couverture de la nef est assurée par une voûte lambrissée en bois dont les entraits sont peints de motifs géométriques, faisant écho aux décors muraux. Cette charpente apparente apporte une certaine légèreté au-dessus de la masse imposante des piliers décorés de motifs en damiers et de figures angéliques. Le mobilier, composé de bancs en bois simple et d'un maître-autel sobre, s'efface devant la prédominance du décor peint qui transforme chaque surface maçonnée en un support de dévotion et d'enseignement visuel.\n\nL'organisation spatiale de la nef de Poncé-sur-Loir reflète une conception de l'église comme un espace de narration totale, où l'architecture et la peinture fusionnent pour immerger le visiteur dans l'histoire sainte. La préservation de ce décor de la fin du XIIe siècle fait de cette nef un document historique de première importance, illustrant parfaitement l'esthétique et la spiritualité de l'époque romane tardive dans la vallée du Loir."
+      },
+      {
+        title: "Le cycle des croisades, la Passion et la pesée des âmes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM727oGnU8L7U9470HijXVhUbKQbb2LOQk2hvBOtX7ANQ5RXWpJ77tKqqr1Gwd-SI_7KnP3nmQ7mNitMsueDE5xQ-IxIDJ85LZeXoDcMDWxWasVAYg8uz1k1xKDHVg1Ru0cbUWh9aAt2wDuNrqXL91Lzg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNoRXpVZ_ECSptjCO7m4czT1C_uuwFNrsq115OjX4wIM7gCKRxnKSMckAMGLeqc_YV0GtP8e2U_qB4TF_HMANxFFrSvNnbE6KLQx0uYt7yUx1VcS55AUeIJ_IUimOmjx7VRi-gDWCZT-IZmwfkXaF0k5Q=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le mur nord déroule un cycle chevaleresque et militaire d'une intensité narrative exceptionnelle, figurant avec une minutie documentaire rare des combats de croisés et de chevaliers vêtus de hauberts de mailles, casqués au nasal et armés de lances et d'écus normands en amande, traditionnellement rattachés aux récits des croisades ou aux affrontements féodaux entre Plantagenêts et Capétiens.\n\nLes registres supérieurs et le mur sud illustrent les grands épisodes de l'histoire du Salut et des Évangiles, depuis la Nativité, la Cène et le Baiser de Judas jusqu'au cycle complet de la Passion, du crucifiement et de la Mise au tombeau. On y observe également la légende et le martyre de saint Julien du Mans, ainsi qu'une monumentale et terrifiante pesée des âmes au Jugement dernier où l'archange saint Michel s'oppose à des diables grimaçants."
+      },
+      {
+        title: "L'atelier fresquiste de la vallée du Loir et le classement Monument historique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPkJGop5NDXu0zt_CStREoCPgXSOraGqqFOvBSSFnA1__BBikik_gBEGcEtYNlxawzylJ2GOGm-lrCl6BA1VUiVpc_t-CpSd9wKkkxsMXuT5K7hMuAGsQuiuPXwms5YfsL1tcMteA6015iz2JhFN9fjvQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMCe5jSLXxs8fknO5qbAY9CcIqgjxNSXhtWaxrdtq-t8V88baBU7lF0pARcpZU_Cn_onZdt2HbZiRztWhv8NXm73WMi25XUt6lPhUr9vozo1ZGlUchggTJtUuadLYQe-h2n_jw0Onn5xM984dRUHd_1XA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMKGEcflpihZrvr_0S7Bs4EOULXePrZMaSzyOsSzTT6bJZRbSnuQjCrA5zDKOwMylLKDov-GGKmVUjBUaWf9hooZNcy8IcBl3qMU-4yNiEMFMiRyVRCtTLLQeXngQXwk_FluxDBX_rB-d9_5uXI_pLEeg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le style de ces fresques se caractérise par une puissante expressivité graphique, des silhouettes élancées cernées d'un trait ferme et une harmonie d'ocres rouges, jaunes, bruns et blancs de chaux qui rattache étroitement cet atelier aux maîtres fresquistes de Lavardin et de Saint-Jacques-des-Guérets. Classé au titre des Monuments historiques dès 1889, ce sanctuaire constitue une étape capitale pour la compréhension de l'art figuratif et de l'imaginaire féodal du XIIe siècle dans la vallée du Loir."
+      }
+    ]
+  },
+   {
     id: "couture_sur_loir_manoir_de_la_possonniere",
     name: "Couture-sur-Loir - Manoir de la Possonnière (Maison Natale de Pierre de Ronsard)",
     country: "France",
