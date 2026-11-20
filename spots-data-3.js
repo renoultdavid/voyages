@@ -41,13 +41,13 @@ const SPOTS_3 = [
   },
   {
     id: "chassigne_eglise_saint_michel_de_chavaignes",
-    name: "Chahaignes - Église Saint-Michel de Chahaignes (Vallée du Loir / Sarthe)",
+    name: "Chavaignes - Église Saint-Michel de Chavaignes (Vallée du Loir / Sarthe)",
     country: "France",
     continent: "Europe",
     flag: "🇫🇷",
     region_admin: "Pays de la Loire",
     department: "Sarthe (72)",
-    subdiv: "Chahaignes",
+    subdiv: "Chavaignes",
     altitude: 107,
     transport: "voiture",
     era_group: "moderne",
@@ -68,8 +68,8 @@ const SPOTS_3 = [
         caption: ""
       }
     ],
-    description: "Élevée au cœur du bourg de Chahaignes dans la vallée du Loir au sud-est du département de la Sarthe, aux abords de la forêt de Bercé et des coteaux viticoles des Jasnières, l'église Saint-Michel réunit avec un charme singulier l'architecture rurale traditionnelle du Maine et la richesse d'un décor peint et sculpté conçu comme un véritable catéchisme visuel à l'usage des paroissiens. Implantée dans un territoire marqué par la pierre de tuffeau et le calcaire local, l'édifice s'inscrit dans l'histoire paroissiale de cette vallée fertile jalonnée de châteaux, de manoirs et de villages fleuris.\n\nÀ l'intérieur, la nef frappante par sa vaste voûte lambrissée en carène de navire renversée ornée de panneaux figuratifs, ses entraits apparents, sa statue de saint Michel terrassant le dragon et son chœur monumental doté d'un retable classique, de colonnes peintes en faux marbre et de peintures murales s'élevant jusqu'au pignon compose un ensemble d'une grande expressivité. Ce dialogue entre charpente historiée, statuaire et décors peints confère au sanctuaire une chaleur et une lisibilité remarquables.",
-    visiter: "Pénétrer dans l'église Saint-Michel à Chahaignes dans le sud de la Sarthe pour lever les yeux vers la voûte lambrissée peinte en carène de navire renversée, observer la statue de saint Michel terrassant le dragon et découvrir le retable classique et les décors peints du chœur.",
+    description: "Élevée au cœur du bourg de Chavaignes dans la vallée du Loir au sud-est du département de la Sarthe, aux abords de la forêt de Bercé et des coteaux viticoles des Jasnières, l'église Saint-Michel réunit avec un charme singulier l'architecture rurale traditionnelle du Maine et la richesse d'un décor peint et sculpté conçu comme un véritable catéchisme visuel à l'usage des paroissiens. Implantée dans un territoire marqué par la pierre de tuffeau et le calcaire local, l'édifice s'inscrit dans l'histoire paroissiale de cette vallée fertile jalonnée de châteaux, de manoirs et de villages fleuris.\n\nÀ l'intérieur, la nef frappante par sa vaste voûte lambrissée en carène de navire renversée ornée de panneaux figuratifs, ses entraits apparents, sa statue de saint Michel terrassant le dragon et son chœur monumental doté d'un retable classique, de colonnes peintes en faux marbre et de peintures murales s'élevant jusqu'au pignon compose un ensemble d'une grande expressivité. Ce dialogue entre charpente historiée, statuaire et décors peints confère au sanctuaire une chaleur et une lisibilité remarquables.",
+    visiter: "Pénétrer dans l'église Saint-Michel à Chavaignes dans le sud de la Sarthe pour lever les yeux vers la voûte lambrissée peinte en carène de navire renversée, observer la statue de saint Michel terrassant le dragon et découvrir le retable classique et les décors peints du chœur.",
     link: ""
   },
    {
