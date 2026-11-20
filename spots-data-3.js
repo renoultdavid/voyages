@@ -34,7 +34,7 @@ const SPOTS_3 = [
         title: "Genèse géologique par l'éboulement rocheux (Bergsturz) du Wetterstein",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczMd2WgJQpQvgNwD9plZ0VJWDG1-B_7YJzo4NFoTZV13Vd6TgmroRnVsZiATTmeAFUpJRpjurdwK-8Ivro7QpDon01QI-NnwlTuKbp7yyI8j4v1aGe6fLT_LDBwUe1wgLf6fPVD4VkY3weTUbtVS6O1eDA=w1379-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOwyWaJ_K2aTtaa5f_ijzab780lHUl8hACz-tSy_CW34epmOZEdKf3B_oVKH3X7mtj7SnD_YpfWzpudu3Pm1ftUu0yx5hBWLrZvRmaCy4T_iqk9hxs8LHwER_ofo67QiFMAYVV4rr3L03faJyv7TDi7Q=w1379-h919-s-no-gm?authuser=0"
+          "https://lh3.googleusercontent.com/pw/AP1GczOwdXdFg7wdH1VVI93wm5oxvUL3HttchsWUrlQtBRxm1AWSBKpJYAjcRCBRbCN13Z8ixxHRAQLQHdhIJhajAwgbXinCSmunBQLCq61hfo18386VSEmJa0h_SXvMy8k4bFA9C6-a4MHnFoojC_WlfPrEIA=w1836-h1224-s-no-gm?authuser=0"
         ],
         text: "A la fin de la dernière glaciation de Würm, il y a environ trois mille sept cents ans, un pan colossal de la face nord du massif du Wetterstein s'est effondré en un gigantesque éboulement rocheux (Bergsturz), obstruant le fond de la vallée et donnant naissance à un bassin fermé compartimenté par d'énormes blocs calcaires."
       },
