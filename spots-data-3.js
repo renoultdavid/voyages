@@ -6,7 +6,178 @@
 
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
-
+{
+    id: "caldaro_lago_di_caldaro",
+    name: "Caldaro - Le Lac de Caldaro & Vignobles de l'Oltradige (Lago di Caldaro / Kalterer See)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Trentin-Haut-Adige",
+    department: "Bolzano",
+    subdiv: "Caldaro sulla Strada del Vino",
+    altitude: 210,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Plus Grand Lac Naturel du Tyrol du Sud, Vignobles de la Route des Vins & Réserve de Roseaux",
+    century: "Temps géologique",
+    category: "lac",
+    counts: { lac: 1 },
+    lat: 46.38315,
+    lng: 11.26065,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP6CkJKDcsPafs68gpOcxA-hzlLtQkgP5Xmmiu9pQ6TL4iqWhKEZK2gwf5uS_7zfBVbrZzR1rto5bo8ySs7LbYXMNO_qapvrI7mBaYGPq223ExuXJFeep9tBEkkNio7Njxx7wUTQimjmw9eJ4ukHDntyQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Niché à deux cent dix mètres d'altitude au fond de la vallée de l'Oltradige (Überetsch) au sud de Bolzano, le long d'un ancien bras glaciaire du fleuve Adige, le lac de Caldaro (Lago di Caldaro ou Kalterer See) constitue le plus vaste plan d'eau naturel du Tyrol du Sud et l'un des lacs les plus tempérés de tout l'arc alpin. Alimenté par des sources souterraines limpides et abrité des vents froids du nord par les crêtes abruptes de la chaîne de la Mendola, ce miroir lacustre long de près de deux kilomètres déploie ses eaux vert émeraude et turquoise au cœur d'un amphithéâtre lumineux tapissé de vignobles en terrasses, de vergers de pommiers et de cyprès méditerranéens.\n\nSa rive méridionale conserve une vaste roselière protégée classée biotope naturel, véritable sanctuaire ornithologique accueillant plus d'une centaine d'espèces d'oiseaux aquatiques et migrateurs tels que le héron pourpré, le blongios nain et la rousserolle effarvatte. Dominé par les pentes boisées du massif de la Mendola et les silhouettes historiques des châteaux et manoirs viticoles de l'Oltradige, ce paysage harmonieux incarne la rencontre unique entre douceur méridionale et grandeur alpine.",
+    visiter: "Longer les rives du lac de Caldaro depuis les promenades aménagées et les belvédères de la Strada del Vino pour contempler les reflets des vignobles et des parois calcaires de la Mendola dans les eaux émeraude ainsi que la roselière protégée.",
+    link: ""
+  },
+  {
+    id: "nova_levante_lago_di_carezza",
+    name: "Nova Levante - Le Lac de Carezza & Massif du Latemar (Lago di Carezza / Karersee)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Trentin-Haut-Adige",
+    department: "Bolzano",
+    subdiv: "Nova Levante",
+    altitude: 1540,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Joyau Lacustre des Dolomites (1 540 m), Eaux Arc-en-Ciel & Reflets des Aiguilles du Latemar",
+    century: "Temps géologique",
+    category: "lac",
+    counts: { lac: 1 },
+    lat: 46.40959,
+    lng: 11.57505,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP36JPITBB69uUXPdvQ8fidemTgtfaLOZ57dMb-6fLPqz9w1VOK26-LrzeH3zE18abPgEthnV0J8GZG6Aev0r5_p4cjGWYunaRjHFzFzKn3_RjNYm1HMCOBJdBmFQ9mrIZKKXt2ofW-8ta14ITTv1QTTA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN92QkXNH8RWaCF-hOXoZ06PqqKMfqhlTdtw7ynn2zIrxyk3Num6L0lMMtR2XDbvRwxfRZNbNVDBKf0dMooVkUFjGjp_CuMlqDfANWq5NZCtqcFJTuNGur94FQO_ZZroOCfd9SoYnpXVk7ABkeIxEmXLw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPNmOL5_8MXfCLUH_kbectd-P8j6V2vjruMfSte8wVPeZTARNLl0_Jd7YJD_vnFchAtOYRiwv6i8be_FnBbn9uCR373AbwYcAlweKXr9sgf_f7oSQgAcWyivp_Dyzv9b29NZ7DsU7I_hQ7AB7xa26-BTw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOjsZlrhi_JOsqOfWIO7ZKdJ5DXwTgFdYVuX1vDR6d-E2nP-isOMAso1_PL0fSfGHiC59ZKz1xgd7mEJDWEKKqsflato0nq-1PhBuxqo7-bv-v4ln56a1nOK5fR9u5ewGbbPYnlbCh79LsFiok23ajvaw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOuQ8p_4XpUOatZ7VVOqsg2_qrVw04VELXnLB4IaV_xOZXZACjiSu9bnPRy4OXcE9k4XguasEq0cMJrQ761EWftevOAC8V2PBPFcpkYDpQnfEakPiV02KlvNWWi1dTEkWZT6yLLDHFgi49r1Tpiqojvaw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOOmtD-I2dq_YMl7JoJjKTDvM_2hZtB0f992zkmT4E29B81F-6t6Xbc6Er2vsXc15fe58JWjoVOHeeI3NigLtY68FNl1Y2eyDzJ9Qm2QEIS9vNAK7TUOD-ADyXo0QFnQ4JRtBHuWnPAV7WQGiL5j9tpHQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Nichée à plus de mille cinq cents mètres d'altitude au pied des parois vertigineuses et des flèches dolomitiques dentelées du massif du Latemar, au cœur d'une vaste forêt d'épicéas centenaires de la forêt de Carezza à proximité du col de Costalunga, la perle lacustre du Lago di Carezza (Karersee ou Lec de Ergobando en langue ladine, « le lac de l'Arc-en-Ciel ») compte parmi les joyaux naturels les plus célèbres et féeriques des Dolomites. Dépourvu d'affluent visible en surface et alimenté exclusivement par des sources souterraines glacées filtrant à travers les éboulis calcaires du Latemar, ce petit lac alpin affiche une limpidité cristalline prodigieuse laissant apparaître son fond parsemé de blocs dolomitiques et de troncs engloutis.\n\nSous l'effet de la réfraction de la lumière solaire et des algues microscopiques tapissant ses fonds, ses eaux déploient une palette chromatique iridescente passant du vert émeraude au bleu turquoise, au violet et à l'or — phénomène merveilleux attribué par la légende ladine au sorcier Masaré qui, désespéré de ne pouvoir séduire la nymphe Ondina, brisa un arc-en-ciel en mille éclats au-dessus du lac. Sur sa surface calme se mirent avec une netteté saisissante les aiguilles pâles du Latemar, qui s'embrasent de teintes roses et pourpres au crépuscule lors du phénomène de l'enrosadira.",
+    visiter: "Suivre le sentier aménagé qui fait le tour complet du Lago di Carezza à 1 540 mètres d'altitude pour admirer sous tous les angles les reflets iridescentes de ses eaux cristallines et la muraille dentelée du massif du Latemar se mirant à sa surface.",
+    link: ""
+  },
+  {
+    id: "mazzin_hameau_de_fontanazzo",
+    name: "Mazzin - Le Hameau Alpin de Fontanazzo & Val di Fassa (Dolomites Ladines)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Trentin-Haut-Adige",
+    department: "Trente",
+    subdiv: "Mazzin",
+    altitude: 1397,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Village Traditionnel Ladin du Val di Fassa (1 397 m), Architecture Alpestre en Bois & Sommets Dolomitiques",
+    century: "XIXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 46.47021,
+    lng: 11.72910,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMGASWpbwO1KQcRp43wExXU6x2gb5fnslrxDyqhwXVwYANTxv6sGTWy6WMXj6bmgUdQpV1_rqMathC_hVPmWGT0xAdT9xDgqXrGjjqaigolJubfvmdB5ol3efRwG4GiLgtium3vdj4rOhOFCsznehF10w=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMDf3-xaAneEQnmhpnAN1t6Xm5UgQL0qfReK08t0f6CYO8zEUbcnwIbhu642OpBRnf2Q0ErgxeD6ZiaptUT1NRK-yjsF0jSark3Pc8rcz75bK0Xlp6Vrv8lko4McaGExrlW1rYOGSa6Ps9KB3KqX4BVtQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Blotti à près de mille quatre cents mètres d'altitude au fond de la vallée verdoyante du Val di Fassa, le long des rives limpides du torrent Avisio entre Mazzin et Campitello di Fassa, le hameau traditionnel de Fontanazzo (Fontanac en langue ladine) incarne l'authenticité culturelle et architecturale des vallées ladines des Dolomites. Entouré de prairies alpines fauchées avec soin et de versants boisés de mélèzes et d'épicéas, ce village paisible conserve le charme préservé des communautés montagnardes historiques du Trentin, héritières de la langue et des traditions rhéto-romanes ladines.\n\nSes demeures alpestres et anciennes granges (tobià) associent des soubassements en maçonnerie crépie à des élévations et balcons en bois de mélèze patiné par le soleil et les neiges d'hiver, fleuris de géraniums éclatants durant la belle saison. Au-dessus des toits pentus en bardeaux ou en bois se dressent les imposantes murailles pâles et sculptées des massifs dolomitiques environnants — notamment le Col Rodella et les contreforts du Sassolungo — offrant un cadre montagnard d'une harmonie remarquable.",
+    visiter: "Flâner à pied dans les ruelles calmes du hameau de Fontanazzo dans le Val di Fassa pour admirer l'architecture traditionnelle ladine en bois de mélèze, les granges alpestres (tobià) et la perspective sur les parois des Dolomites.",
+    link: ""
+  },
+  {
+    id: "campitello_di_fassa_village_dolomites",
+    name: "Campitello di Fassa - Village Alpin & Panorama sur le Col Rodella (Val di Fassa)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Trentin-Haut-Adige",
+    department: "Trente",
+    subdiv: "Campitello di Fassa",
+    altitude: 1425,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Bourg Historique Ladin du Haut Val di Fassa (1 425 m), Clocher à Bulbe & Parois du Sassolungo",
+    century: "XIXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 46.47660,
+    lng: 11.74172,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMNqUcQfmbSL_3UxI1rvo43ayjFxmyqoHBBHUVsYlhN-O0a8JZu0iKoQ5Ik71ZC9TTzk6vtXrK1wcPWCw9APUMaFKi6sUhoaFt7S-_bHYXfH1hD5Txxo2op_vhagVpCjoPDNzkL6jDovcovfp0M_JdXow=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO1T5hwqZIrrz8cncmCn_0tT-HgEzlLFllmatbEl0s9YYoOgTWrYZG4gdkbxkpLi_lshsOjDgy9W9RFYPGpgLjR492WLyWQTw5vvlQk5_AYRCnYejS--P1Y_G3TH8HMrOk4o-c9-eRtDF6Wk6-TgA3mDA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Implanté à mille quatre cent vingt-cinq mètres d'altitude dans la haute vallée du Val di Fassa, au pied des escarpements vertigineux du Col Rodella et du massif monumental du Sassolungo (Langkofel), le bourg alpin de Campitello di Fassa (Ciampedel en ladin) constitue l'un des centres historiques les plus anciens et pittoresques des Dolomites trentines. Dominant le cours torrentueux de l'Avisio à l'entrée du sauvage Val Duron, le village se reconnaît de loin à l'élégante flèche élancée de son église paroissiale des Saints-Philippe-et-Jacques, entourée de maisons ladines traditionnelles aux façades peintes, balcons en bois sculpté et toitures pentues.\n\nBerceau historique de l'alpinisme dolomitique dès le XIXe siècle — où séjournèrent les premiers grands explorateurs et géologues fascinés par la composition minérale unique de la dolomie —, Campitello di Fassa offre un contraste saisissant entre la douceur verdoyante de sa cuvette pastorale et la verticalité minérale des tours et aiguilles calcaires qui l'enserrent, prenant des teintes rosées et dorées sous la lumière rasante des montagnes.",
+    visiter: "Se promener dans le centre historique de Campitello di Fassa autour de l'église paroissiale et des ruelles bordées de maisons ladines en bois, tout en contemplant la muraille verticale du Col Rodella et du Sassolungo dominant le village.",
+    link: ""
+  },
+  {
+    id: "canazei_cascate_schiavaneis",
+    name: "Canazei - Les Cascades de Schiavaneis & Massif du Sella (Passo Sella / Dolomites)",
+    country: "Italie",
+    continent: "Europe",
+    flag: "🇮🇹",
+    region_admin: "Trentin-Haut-Adige",
+    department: "Trente",
+    subdiv: "Canazei",
+    altitude: 1920,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Chutes Alpines d'Altitude au Pied des Tours du Sella (1 920 m), Pelouses Subalpines & Marmottes des Alpes",
+    century: "Temps géologique",
+    category: "cascade",
+    counts: { cascade: 1 },
+    lat: 46.50574,
+    lng: 11.79659,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPSlqkPKBPyaQjCQHRed0KMkqrCzZsbhMnt2wX4KtcfyBSxrb19-ulgScjO7uZZ75ZsXSzxtAcYpsZ7qstTUKPJ-EOkO_kg2qwdp4Qrb6zz5rnpEop7H-u9sS7EShnNBraXeqRe6HTXAy_QU6yvqAOccg=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNMEPATN4UF-NPW0YKp9r3DZLQvx_wJ6oQOlN_Vx1bOF-3BBvA8H3x2mELmWgXMnVCKb7sgylEj_-Gnbyc8Yvh-GQ5_gCEByiXan8Zlfk-nbo9qhZodnQBCtGgjGSZgPZPUX-iH6b3K5nZyn9qGFCvOg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMUPNbCC8LWP4ZHQeyPMQJyWwieQnkTXARooHCr_W2kqgzohZFRGscMFVBkwfqtbU_VhQ8PppmMgtl0LarPpI6biYqicMgLUqyKSS92lRhReOdz3glqWP95s1Q6_5M7yygeNb51KpeY3h6gUNSiOzppTw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPYJrpVtdd0BbTyS6Efh2_zVGDTlN40KyURI3JRiCPUUhkLpoP82oStoKzS_TWnlX0pHVVgzp1wHFkd-J9eg8UfGJHeQ6V5JPF7pD6A4kJfDppXQE5DjBldlYMN3ou8uju4tVEtfy16lRIXMTRDeyb_5A=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMZtwnbW_AhfCAbQMPMuYx7t_IFH8J4RwOPmORGBl3XNxhABYNhM4kc0AGWNmeyrp25FdBOCeTDg5dFEjb68hhPv9DYDljJ3GoQ1kCp6-sy-rxulXjl6giv40_JELcPncGrf_45LLQoPNuYbQuLnNELOA=w1380-h919-s-no-gm?authuser=0",
+        caption: "La marmotte des Alpes (Marmota marmota) est un grand rongeur fouisseur vivant dans les pelouses alpines entre 1 300 et 3 000 mètres d'altitude.\nElle vit en colonies familiales hiérarchisées dans de vastes réseaux de terriers souterrains.\nHerbivore, elle accumule d'importantes réserves de graisse durant l'été en consommant plantes, fleurs et graminées.\nD'octobre à avril, elle entre en hibernation profonde : sa température corporelle chute autour de 5 °C et son rythme cardiaque ralentit drastiquement.\nTrès vigilante face aux prédateurs comme l'aigle royal ou le renard, elle alerte le groupe par un sifflement strident caractéristique."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMl3UX_noQqleQD3jr-WzWkgn5InuMayTcLzePjtnZwT-LjXwzpam3-SBfhcDgvHzV2ISLp4wVfw8TQjlRhH-173_V5oDh3Z-SRr01i88tnOAp1pnttoydwJMZsbeBWRqW2WzOCKsae4K4GIslWhDERYw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Jaillissant à près de mille neuf cent vingt mètres d'altitude dans le vallon alpin sauvage de Pian Schiavaneis, sur les lacets spectaculaires reliant Canazei au col du Passo Sella au cœur des Dolomites, les cascades de Schiavaneis déploient leurs rubans d'eau glacée et cristalline directement au pied des vertigineuses murailles verticales du massif du Sella. Alimentées par la fonte des neiges et les eaux infiltrées dans les hauts plateaux karstiques dolomitiques, ces chutes élancées dévalent les parois calcaires claires en plusieurs sauts écumants avant de rejoindre les torrents de la haute vallée du Val di Fassa.\n\nCe cirque d'altitude ouvert entre les tours imposantes du Sella (Torri del Sella) et les contreforts rocheux du Sassolungo offre un biotope subalpin et alpin d'une richesse remarquable : sur les pelouses fleuries ponctuées d'éboulis calcaires et de pins mugos évoluent en liberté les colonies de marmottes des Alpes (Marmota marmota), dont les terriers creusés dans les talus herbeux animent ce décor minéral grandiose inscrit au patrimoine mondial de l'UNESCO.",
+    visiter: "Faire halte dans le vallon de Pian Schiavaneis sur la route du Passo Sella au-dessus de Canazei pour contempler les cascades dévalant les parois du massif du Sella et observer avec discrétion les marmottes des Alpes dans les pelouses rocheuses environnantes.",
+    link: ""
+  },
    {
     id: "pietrosella_punta_di_i_setti_navi_isolella",
     name: "Pietrosella - Punta di i Setti Navi & Presqu'île de l'Isolella (Rive Sud du Golfe d'Ajaccio)",
