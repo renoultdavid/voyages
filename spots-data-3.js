@@ -263,7 +263,7 @@ const SPOTS_3 = [
     description: "Jaillissant à près de mille neuf cent vingt mètres d'altitude dans le vallon alpin sauvage de Pian Schiavaneis, sur les lacets spectaculaires reliant Canazei au col du Passo Sella au cœur des Dolomites, les cascades de Schiavaneis déploient leurs rubans d'eau glacée et cristalline directement au pied des vertigineuses murailles verticales du massif du Sella. Alimentées par la fonte des neiges et les eaux infiltrées dans les hauts plateaux karstiques dolomitiques, ces chutes élancées dévalent les parois calcaires claires en plusieurs sauts écumants avant de rejoindre les torrents de la haute vallée du Val di Fassa.\n\nCe cirque d'altitude ouvert entre les tours imposantes du Sella (Torri del Sella) et les contreforts rocheux du Sassolungo offre un biotope subalpin et alpin d'une richesse remarquable : sur les pelouses fleuries ponctuées d'éboulis calcaires et de pins mugos évoluent en liberté les colonies de marmottes des Alpes (Marmota marmota), dont les terriers creusés dans les talus herbeux animent ce décor minéral grandiose inscrit au patrimoine mondial de l'UNESCO.",
     visiter: "Faire halte dans le vallon de Pian Schiavaneis sur la route du Passo Sella au-dessus de Canazei pour contempler les cascades dévalant les parois du massif du Sella et observer avec discrétion les marmottes des Alpes dans les pelouses rocheuses environnantes.",
     link: ""
-  }
+  },
    {
     id: "pietrosella_punta_di_i_setti_navi_isolella",
     name: "Pietrosella - Punta di i Setti Navi & Presqu'île de l'Isolella (Rive Sud du Golfe d'Ajaccio)",
