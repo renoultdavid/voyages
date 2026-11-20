@@ -7,6 +7,203 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "oberammergau_vieille_ville",
+    name: "Oberammergau - La Vieille Ville, Maisons Peintes à Fresques (Lüftlmalerei) & Tradition du Bois",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Garmisch-Partenkirchen",
+    subdiv: "Oberammergau",
+    altitude: 840,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Façades Peintes en Trompe-l'Œil du XVIIIe Siècle (Franz Seraph Zwinck), Sculpture sur Bois & Jeu de la Passion",
+    century: "XVIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 47.59863,
+    lng: 11.06426,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPua9vA5lropFdD7EW7GqY8Tqh67ESThfs-uOcgzZK6tPB2zEFPUTzvVZDdHSX7bEbmSCCRH_XPghJG_UpSlomwP9oW9wnDCXLy5MO5zGcZTabwjxtNPfoVXRzjfxzT-xmQ35bcF7tFmM_ncSag150cMw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMfa_TjkAykkT-LLbNNlVTGg8zpbzzwxJNkWpWCY4bYnpgqiQ24OvDk6EkkM_wfiKVYVA7S6_62HDczteGSYqZ9Z6T84oVgn7_LjOB2jmQvJ7brUo-IzbOWiMdXtHPY1rRoEBv60RNphNaWZLJAmkLSdA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOi5FAJgNqK3mAYmSdy6Ssql04hBfCdG7-NZhw-wQi6HLQ_Hm01FYi3SNNJcL1Y6MgmmWy7Hz1K3OGX-8IHV9lU7eRuqDySvHxdYsOjvm1oJMnjjzs4RXBUIFTIB4RqF-sT6ouoNGty6ZifqmGjEvJR5w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP367ETi-HDjYCPlF_PgU1BLQMVmPctaQbzO5fiHXCBLkkRFJEKdM7PxoDU3oZiMAUBwCbd-fJSjlXSdelFdYjWqGNWMTKGEqW5WKdTTiq2UzOeQDHZUH5SVhHiwLEc_rAjh6_QR3xgvOhU23eVynIBZQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPuACgqKEyS8fTtfv_Yv1j5jFaTgb_FfWYnuZE70i2AOKvGSxl4c2TSkv3jFzNzFET0AV_UM9zYwBeRxRCuh_XskoPSCJFsvLZjiMglpWNSqw6cToSi0RiLOO7nGW79CQvOuaCNOmVcTiCID0UsXTpMgA=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOqJKnpjqoB8zvloLduESnP1fD4Q3vbnkqQiAF9mNZATpKrjhvt7CWnulWVBkUO6G-ZcQNwL_HKKuXer-d5sLhzqE8JCPSdvLJKUKCoKQ4PYjBYrAZWalihA6d5gpuzh1zgi2wOePnj_XCAchmYVg4tLQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMT-KzMuFx26yQT440WAZsh18FChX2GnkspiIQXkdhrwvCQCRhMMx4FZbMYzvbnvg3cZqTSJpXaF2o8ocXR1ixCjqxwhIeH-IcYQkbWcv_BAwNNjB85MICQgqUf3PAcr0JlmCCc-8QgWkpXnqZSWgW1YQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Nichée à huit cent quarante mètres d'altitude dans la vallée verdoyante de l'Ammer au pied du massif escarpé du Kofel dans les Alpes d'Ammergau en Haute-Bavière, la vieille ville d'Oberammergau offre un ensemble patrimonial et artistique d'un charme féerique, célèbre dans le monde entier pour ses façades peintes en trompe-l'œil, son artisanat séculaire de la sculpture sur bois et son célèbre Jeu de la Passion représenté tous les dix ans depuis le vœu prononcé lors de l'épidémie de peste de 1633. En déambulant le long de ses ruelles bordées de chalets bavarois aux larges toitures débordantes et aux balcons fleuris, le visiteur découvre la maîtrise éblouissante de la « Lüftlmalerei » — cet art mural populaire développé au XVIIIe siècle par le peintre local Franz Seraph Zwinck, dont la maison natale « Zum Lüftl » donna son nom à la technique — qui habille les murs blanchis de fausses architectures baroques, de scènes bibliques, d'épisodes des contes de Grimm tels que Hänsel et Gretel ou le Petit Chaperon rouge, ainsi que d'emblèmes corporatifs.\n\nDes façades historiées de la Pilatushaus, de la Forsthaus ou de l'auberge Alte Post jusqu'aux ateliers de sculpteurs sur bois perpétuant un savoir-faire attesté dès le Moyen Âge et à l'église paroissiale Saint-Pierre-et-Saint-Paul richement décorée par Josef Schmuzer et Matthäus Günther, Oberammergau compose un véritable musée à ciel ouvert de la culture populaire et baroque alpine.",
+    visiter: "Flâner à pied dans les rues historiques du centre d'Oberammergau pour admirer les façades peintes à fresques en trompe-l'œil (Lüftlmalerei) de la Pilatushaus et des demeures anciennes, découvrir les ateliers de sculpture sur bois et observer l'église Saint-Pierre-et-Saint-Paul dominée par le rocher du Kofel.",
+    link: ""
+  },
+   {
+    id: "ettal_linderhof_maison_marocaine",
+    name: "Ettal - La Maison Marocaine du Parc de Linderhof (Marokkanisches Haus)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Garmisch-Partenkirchen",
+    subdiv: "Ettal",
+    altitude: 962,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Pavillon Orientaliste de l'Exposition Universelle de Vienne (1873), Acquis par Louis II de Bavière en 1878",
+    century: "XIXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 47.57147,
+    lng: 10.95711,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMDfXboqMlKAazq4jUYqNCLVryY8nfp8HYo0HH37yw63mCsWAhiLsVWLldh6CzAwIBrjYWL0hot4GpZysHM5-Nmq0ynp8eKyOMSjnGLk94MG8i9HYeGu1fdfPT9Wg7_iDZWe2DF1PIcETWcZw-QuDDC-A=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPYrjGvPaZf5ewuX6AtEtqbn1uCP5SuM7NS5X3AoEHjOgQPxIDxtxodWfwfdoFUgtGEa8kF2IM4N-PxRXzXkoZMe_Xdky9Yf7LvDS4r6Sf9zn5E_BgeLIwU43iPnQ7fYE-T1xm3wGjuFzFb9dVtFMGfvw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Nichée à neuf cent soixante-deux mètres d'altitude dans la lisière boisée occidentale du parc du château de Linderhof, au cœur de la vallée alpine du Graswangtal près d'Ettal en Haute-Bavière, la Maison Marocaine (Marokkanisches Haus) constitue l'un des témoignages les plus singuliers de la passion du roi Louis II de Bavière pour les architectures exotiques et les mondes rêvés de l'Orient. Édifié à l'origine au Maroc par des artisans traditionnels afin de représenter le royaume chérifien lors de l'Exposition universelle de Vienne en 1873, ce pavillon de bois finement ouvragé fut repéré et acquis en 1878 par le souverain bavarois, qui le fit démonter et transporter jusqu'au cœur des Alpes d'Ammergau pour enrichir les fabriques de son domaine privé.\n\nD'apparence extérieure sobre, percée d'ouvertures délicates et coiffée d'une toiture débordante protégeant les boiseries des neiges alpines, la demeure dissimule un intérieur d'un raffinement somptueux que Louis II fit réaménager avec faste : divans recouverts d'étoffes précieuses, tapis d'Orient épais, tables incrustées de nacre, lampes de cuivre ciselé, vitraux colorés et jet d'eau central créent un écrin intime et feutré. Après avoir été déplacée à Oberammergau à la mort du roi, la Maison Marocaine fut rachetée et réinstallée avec soin dans le parc de Linderhof en 1998 pour restituer toute la magie de l'ensemble royal.",
+    visiter: "Emprunter les allées boisées de la partie occidentale du parc de Linderhof pour découvrir la Maison Marocaine acquise en 1878 par Louis II de Bavière, observer ses boiseries traditionnelles et entrevoir l'atmosphère orientale de son salon intérieur.",
+    link: ""
+  },
+  {
+    id: "ettal_linderhof_jardins_et_terrasses",
+    name: "Ettal - Les Jardins en Terrasses & Parterres du Château de Linderhof (Schlosspark Linderhof)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Garmisch-Partenkirchen",
+    subdiv: "Ettal",
+    altitude: 953,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Jardins à la Française & Parc Paysager Créés par Carl von Effner pour Louis II de Bavière (1874-1880)",
+    century: "XIXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 47.57090,
+    lng: 10.96079,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPSStWLrLPZ6ZHEtyM6tAhZDjMLuzsWzcWolABLH0fCdxTe9dLdLkBiOzShWkoIQRdQCmSht2AAu5vXGHI4nBdTDCytMDAHC6fOFMjGc5UyGVY93nTp4EuL9iF9wLo9oRvvmXDh_LonD-fou315c0hu8g=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMYj27FSVKvOACaD9--kCmc-oZBVi51r9y3fsfvgW22NOxBQmCbEi_QajALE2WmlbEGdvvVWyv4EC7_rWJn-OuXCIfT4GvtrgLyjqngyrGccy0wBJfZlR7vVEbOfllma4lePEUT5OEl-SLMiRH60EnBFQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOgPCLViqVoqj7O0F9E9fQHWsvrxkViN59yo8ELzuV-K3Eps7Q-sNfwvqs0mTNII9RESLh9ytmBt_F_Y3hayvHnTbodX7OPp4mf2eo9ZEaBhos6zinhYoOjhd8mctsRswzpFKvFDqko80Vuvu_2HIqZbQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPLCxOx-FBMuYfUCTnX2dGnT7xnjrHIbaQzFd9ctBRkmQlJRp0yjEbkilFsP57ke1PKnWthqfplFbu4s0BaPB8z4uLnFPs6YBPl20_yrJjVfI4HihbneTP4a7x2UtL-TgKWyVPxMOGlG4riGD2M7AsN3A=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Déployés à neuf cent cinquante-trois mètres d'altitude au creux de la vallée sauvage du Graswangtal dans les Alpes d'Ammergau, les jardins et terrasses du château de Linderhof constituent un chef-d'œuvre exceptionnel de l'art des jardins du XIXe siècle, conçu entre 1874 et 1880 par le directeur des jardins royaux Carl von Effner pour le roi Louis II de Bavière. Prenant pour modèle la symétrie rigoureuse des jardins baroques français de Versailles et des résidences italiennes de la Renaissance, cette composition géométrique ordonnée en parterres de broderies florales, escaliers monumentaux, balustrades sculptées et bassins dorés s'enchâsse de façon saisissante au milieu d'un vaste parc paysager à l'anglaise entouré de forêts d'épicéas et de sommets calcaires escarpés.\n\nDe part et d'autre du petit palais néo-rococo — seul château que le souverain vit achevé de son vivant — s'étagent les terrasses méridionales et septentrionales rythmées par des vases en pierre, des statues allégoriques, des tonnelles de verdure et des allées de tilleuls taillés avec une précision architecturale. Ce dialogue spectaculaire entre l'artifice raffiné des jardins de cour et la grandeur abrupte de la nature alpine bavaroise compose un décor théâtral d'une harmonie unique en Europe.",
+    visiter: "Parcourir les parterres fleuris, les escaliers à balustrades et les terrasses symétriques entourant le château de Linderhof pour admirer la composition paysagère imaginée par Carl von Effner au pied des montagnes des Alpes d'Ammergau.",
+    link: ""
+  },
+  {
+    id: "ettal_linderhof_temple_de_venus",
+    name: "Ettal - Le Temple de Vénus des Jardins de Linderhof (Venustempel)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Garmisch-Partenkirchen",
+    subdiv: "Ettal",
+    altitude: 973,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Monoptère Néo-Classique sur la Terrasse Méridionale de Linderhof (973 m), Statue en Marbre de Vénus & Axe Perspectif",
+    century: "XIXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 47.57000,
+    lng: 10.96079,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMcXk4QToJPAeKt2HMhgG8WQOJyEDcPE4RTf2nYpJbMNi8ypwyIqkR7FqAMhH2pImjad8-F1CaGTDJErLNS6yUC94fWGwCQ646ES3JOJ-v9eJv64ao1Nt6yDaQ6VupRCte_qkZRJaZykd3yqLkW4jmSOQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOtlhyuHV50LJUQEssGBSTApwMsvyMN4jgFmqdz-yP0Rl-yxPbmA0Yn53QpZZKgnAVabyWhqTCxO3eHHlDLpAGDBuPmG7AqqHsOksKAr2A8mqNeaXcUqyzMiSsQMwlPHCcwB2ymOgodRco0mpn0tll_Sw=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Couronnant à neuf cent soixante-treize mètres d'altitude le sommet de l'axe perspectif méridional des jardins de Linderhof, au-dessus de l'escalier monumental et du bassin d'eau au milieu des pentes boisées des Alpes d'Ammergau, le Temple de Vénus (Venustempel) constitue le point d'orgue architectural de la composition paysagère imaginée par Carl von Effner et Georg von Dollmann pour Louis II de Bavière. Inspiré des temples antiques circulaires à colonnade ouverte (monoptères) chers aux jardins de la Renaissance italienne et du XVIIIe siècle français — tels ceux de Versailles ou du parc de Schwetzingen —, cet élégant édifice rond repose sur un socle mouluré et déploie douze colonnes corinthiennes soutenant un entablement finement sculpté et une coupole coiffée d'un vase ornemental.\n\nAu centre de cette rotonde ouverte sur la nature alpine se dresse une statue en marbre blanc représentant Vénus surgissant des flots, sculptée d'après des modèles classiques par Johann Nepomuk Hautmann. Depuis les marches du temple, le regard embrasse une perspective plongeante saisissante sur les terrasses fleuries, le grand bassin doré, la façade baroque du château de Linderhof et, plus haut sur le versant opposé, la cascade en gradins dominée par la fontaine de Neptune.",
+    visiter: "Gravir les escaliers monumentaux de la terrasse sud des jardins de Linderhof jusqu'au Temple de Vénus à 973 mètres d'altitude pour admirer sa colonnade circulaire, la statue en marbre de la déesse et la vue axiale plongeante sur le château.",
+    link: ""
+  },
+  {
+    id: "ettal_linderhof_fontaine_de_neptune",
+    name: "Ettal - La Fontaine de Neptune & Grande Cascade de Linderhof (Neptunbrunnen & Kaskade)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Garmisch-Partenkirchen",
+    subdiv: "Ettal",
+    altitude: 952,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Cascade Monumentale en Marbre de Trente Marches, Groupe Sculpté de Neptune & Jeux d'Eau Royaux (XIXe Siècle)",
+    century: "XIXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 47.57198,
+    lng: 10.96076,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN07fy8A43-g55Dm09G1DdM28MxVHZ57Am5fRQt27xf3UDtmvrK59mQsL7mDwq3tUeCXxewh6DFZ95e5NjL0-yg2TLNKetnH6qjHqkk9DMbgruSiMP8Uc21k6AO1iulkxvKitXcRZhxS3-vSFDpzrURnw=w613-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Implantée sur le versant septentrional boisé dominant directement le château de Linderhof dans l'axe exact du Temple de Vénus, la Fontaine de Neptune (Neptunbrunnen) et sa grande cascade monumentale forment l'un des ensembles hydrauliques les plus spectaculaires du domaine créé par Louis II de Bavière. Alimentée naturellement par les torrents de montagne captés sur les hauteurs des Alpes d'Ammergau sans recourir à aucune pompe mécanique, l'installation met en scène le dieu des océans surgissant au sommet de la composition sur un char marin tiré par des hippocampes et entouré de tritons soufflant dans des conques.\n\nDe ce bassin supérieur sculpté, l'eau vive se précipite en nappes argentées et écumantes le long d'une cascade monumentale comptant trente degrés en marbre du Untersberg, encadrée d'allées en lacets ombragées de tilleuls et de hêtres, avant de rejoindre un vaste bassin inférieur au pied de la façade arrière du palais. Le murmure continu des chutes et l'éclat des sculptures blanches sur le fond sombre des sapins alpins confèrent à cet axe nord une majesté théâtrale inspirée des grandes villas d'eau italiennes et des jardins royaux de Versailles et de La Granja.",
+    visiter: "Longer les allées ombragées encadrant la grande cascade au nord du château de Linderhof pour admirer les trente degrés de marbre ruisselants et le groupe sculpté de la Fontaine de Neptune dominant l'ensemble du parc.",
+    link: ""
+  },
+  {
+    id: "ettal_linderhof_kiosque_maure",
+    name: "Ettal - Le Kiosque Maure du Parc de Linderhof (Maurischer Kiosk)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Garmisch-Partenkirchen",
+    subdiv: "Ettal",
+    altitude: 990,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Pavillon Orientaliste de Karl von Diebitsch (1867), Coupole Dorée & Trône aux Paons de Louis II de Bavière",
+    century: "XIXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 47.57286,
+    lng: 10.96434,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOwOAsvnnpd6_HvWyTEvUugw38I0OMmqaK-RDvyRlCDBda1b31RyjlXnM2s38j9BluPduUVN5l-tQrJr3fIpr9yVf5NKXnc9-JuK9CBrlNWt8w05YuofdNdg5tdmLKPtIvkThH7qfNlBxxt16EzDbHEzg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMEvopYxEFJwvIaqJUkGMJHWTV65AQVoy28SmPATfupbz1fIxUnZ_ZRwTwCSHueb8JuR7xv7K-MMZBySCYsKE6fLmDQXrcWlqBVQcFauE2RLbo73GrGXEET3GO4li6t_QLdPZ8xxvX2xMUdm6EycSJ2Bg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Perché à neuf cent quatre-vingt-dix mètres d'altitude sur les hauteurs boisées de la partie orientale du parc de Linderhof près d'Ettal, le Kiosque Maure (Maurischer Kiosk) apparaît tel un mirage d'Orient au cœur des sapins des Alpes bavaroises. Conçu à l'origine par l'architecte berlinois Karl von Diebitsch pour l'Exposition universelle de Paris de 1867 — où il incarnait l'architecture néo-mauresque en fonte ouvragée inspirée de l'Alhambra de Grenade —, ce pavillon féerique fut acquis en 1876 par le roi Louis II de Bavière auprès des héritiers du magnat ferroviaire Bethel Henry Strousberg pour orner son domaine alpestre.\n\nSurmonté d'une grande coupole centrale dorée et de quatre tourelles d'angle à bulbes scintillant au soleil, l'édifice abrite un intérieur d'une richesse éblouissante éclairé par des vitraux colorés, des lustres orientaux et une fontaine en marbre. Louis II y fit installer à Paris le célèbre « Trône aux Paons » — somptueux siège royal entouré de trois paons monumentaux en bronze doré, émaillé et serti de pierres de verre colorées — où le souverain aimait se retirer pour lire et rêver dans le faste des Mille et Une Nuits.",
+    visiter: "Gravir les sentiers boisés du versant oriental du parc de Linderhof jusqu'à 990 mètres d'altitude pour découvrir le Kiosque Maure à coupoles dorées et admirer à travers ses baies le somptueux décor néo-mauresque et le célèbre Trône aux Paons.",
+    link: ""
+  },
+   {
     id: "ettal_abbaye_d_ettal",
     name: "Ettal - Abbaye Bénédictine d'Ettal (Kloster Ettal - Baroque & Rococo Bavarois)",
     country: "Allemagne",
