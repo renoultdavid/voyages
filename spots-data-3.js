@@ -355,7 +355,7 @@ const SPOTS_3 = [
     image: "https://lh3.googleusercontent.com/pw/AP1GczPSlqkPKBPyaQjCQHRed0KMkqrCzZsbhMnt2wX4KtcfyBSxrb19-ulgScjO7uZZ75ZsXSzxtAcYpsZ7qstTUKPJ-EOkO_kg2qwdp4Qrb6zz5rnpEop7H-u9sS7EShnNBraXeqRe6HTXAy_QU6yvqAOccg=w613-h919-s-no-gm?authuser=0",
     gallery: [
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczNMEPATN4UF-NPW0YKp9r3DZLQvx_wJ6oQOlN_Vx1bOF-3BBvA8H3x2mELmWgXMnVCKb7sgylEj_-Gnbyc8Yvh-GQ5_gCEByiXan8Zlfk-nbo9qhZodnQBCtGgjGSZgPZPUX-iH6b3K5nZyn9qGFCvOg=w1379-h919-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNMEPATN4UF-NPW0YKp9r3DZLQvx_wJ6oQOlN_Vx1bOF-3BBvA8H3x2mELmWgXMnVCKbN7sgylEj_-Gnbyc8Yvh-GQ5_gCEByiXan8Zlfk-nbo9qhZodnQBCtGgjGSZgPZPUX-iH6b3K5nZyn9qGFCvOg=w1379-h919-s-no-gm?authuser=0",
         caption: ""
       },
       {
