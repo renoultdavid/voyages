@@ -92,7 +92,7 @@ const SPOTS_3 = [
     visiter: "S'arrêter dans le village de Leiblfing dans la vallée de l'Inn à l'ouest d'Innsbruck pour admirer l'église paroissiale Saint-Georges, son clocher à bulbe baroque et son cimetière fleuri au pied des montagnes du Tyrol.",
     link: ""
   },
-   {
+  {
     id: "caldaro_lago_di_caldaro",
     name: "Caldaro - Le Lac de Caldaro & Vignobles de l'Oltradige (Lago di Caldaro / Kalterer See)",
     country: "Italie",
@@ -149,7 +149,7 @@ const SPOTS_3 = [
         caption: ""
       },
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczOuQ8p_4XpUOatZ7VVOqsg2_qrVw04VELXnLB4IaV_xOZXZACjiSu9bnPRy4OXcE9k4XguasEq0cMJrQ761EWftevOAC8V2PBPFcpkYDpQnfEakPiV02KlvNWWi1dTEkWZT6yLLDHFgi49r1Tpiqoj5kQ=w1379-h919-s-no-gm?authuser=0,
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOuQ8p_4XpUOatZ7VVOqsg2_qrVw04VELXnLB4IaV_xOZXZACjiSu9bnPRy4OXcE9k4XguasEq0cMJrQ761EWftevOAC8V2PBPFcpkYDpQnfEakPiV02KlvNWWi1dTEkWZT6yLLDHFgi49r1Tpiqoj5kQ=w1379-h919-s-no-gm?authuser=0",
         caption: ""
       },
       {
@@ -244,7 +244,7 @@ const SPOTS_3 = [
         caption: ""
       },
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczNMEPATN4UF-NPW0YKp9r3DZLQvx_wJ6oQOlN_Vx1bOF-3BBvA8H3x2mELmWgXMnVCKbN7sgylEj_-Gnbyc8Yvh-GQ5_gCEByiXan8Zlfk-nbo9qhZodnQBCtGgjGSZgPZPUX-iH6b3K5nZyn9qGFCvOg=w1379-h919-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMUPNbCC8LWP4ZHQeyPMQJyWwieQnkTXARooHCr_W2kqgzohZFRGscMFVBkwfqtbU_VhQ8PppmMgtl0LarPpI6biYqicMgLUqyKSS92lRhReOdz3glqWP95s1Q6_5M7yygeNb51KpeY3h6gUNSiOzppTw=w1379-h919-s-no-gm?authuser=0",
         caption: ""
       },
       {
@@ -263,7 +263,7 @@ const SPOTS_3 = [
     description: "Jaillissant à près de mille neuf cent vingt mètres d'altitude dans le vallon alpin sauvage de Pian Schiavaneis, sur les lacets spectaculaires reliant Canazei au col du Passo Sella au cœur des Dolomites, les cascades de Schiavaneis déploient leurs rubans d'eau glacée et cristalline directement au pied des vertigineuses murailles verticales du massif du Sella. Alimentées par la fonte des neiges et les eaux infiltrées dans les hauts plateaux karstiques dolomitiques, ces chutes élancées dévalent les parois calcaires claires en plusieurs sauts écumants avant de rejoindre les torrents de la haute vallée du Val di Fassa.\n\nCe cirque d'altitude ouvert entre les tours imposantes du Sella (Torri del Sella) et les contreforts rocheux du Sassolungo offre un biotope subalpin et alpin d'une richesse remarquable : sur les pelouses fleuries ponctuées d'éboulis calcaires et de pins mugos évoluent en liberté les colonies de marmottes des Alpes (Marmota marmota), dont les terriers creusés dans les talus herbeux animent ce décor minéral grandiose inscrit au patrimoine mondial de l'UNESCO.",
     visiter: "Faire halte dans le vallon de Pian Schiavaneis sur la route du Passo Sella au-dessus de Canazei pour contempler les cascades dévalant les parois du massif du Sella et observer avec discrétion les marmottes des Alpes dans les pelouses rocheuses environnantes.",
     link: ""
-  },
+  }
    {
     id: "pietrosella_punta_di_i_setti_navi_isolella",
     name: "Pietrosella - Punta di i Setti Navi & Presqu'île de l'Isolella (Rive Sud du Golfe d'Ajaccio)",
