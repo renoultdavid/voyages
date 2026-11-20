@@ -149,7 +149,7 @@ const SPOTS_3 = [
         caption: ""
       },
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczOuQ8p_4XpUOatZ7VVOqsg2_qrVw04VELXnLB4IaV_xOZXZACjiSu9bnPRy4OXcE9k4XguasEq0cMJrQ761EWftevOAC8V2PBPFcpkYDpQnfEakPiV02KlvNWWi1dTEkWZT6yLLDHFgi49r1Tpiqojvaw=w1379-h919-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOuQ8p_4XpUOatZ7VVOqsg2_qrVw04VELXnLB4IaV_xOZXZACjiSu9bnPRy4OXcE9k4XguasEq0cMJrQ761EWftevOAC8V2PBPFcpkYDpQnfEakPiV02KlvNWWi1dTEkWZT6yLLDHFgi49r1Tpiqoj5kQ=w1379-h919-s-no-gm?authuser=0,
         caption: ""
       },
       {
