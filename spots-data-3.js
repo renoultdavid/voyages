@@ -7,6 +7,86 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "arville_commanderie_templiere",
+    name: "Arville - Commanderie Templière d'Arville (Porche fortifié, Église Notre-Dame, Pigeonnier & Communs)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Centre-Val de Loire",
+    department: "Loir-et-Cher (41)",
+    subdiv: "Arville",
+    altitude: 168,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Commanderie Fondée vers 1130 par les Templiers, Reconstruite par les Hospitaliers (XVe-XVIe Siècles) & Église Romane",
+    century: "XIIe siècle",
+    category: "chateau",
+    counts: { chateau: 1 },
+    lat: 48.06387,
+    lng: 0.94785,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPB8vL1HH760MDXmqy1i0jz_Mv5nFTkrVq4NUL74oAtT0T9HcGIrzw69aozcx7SduwX9o9aFzCS2JmTBJ744rvj2Y3f9EqYyj3Hz--CEZXxzmYzlCcpm9Rx_aU1UP-CK3KZvlOVOfZCRoKQ9tNVzE_XKw=w1379-h919-s-no-gm?authuser=0",
+    description: "Nichée dans la vallée verdoyante du ruisseau du Couëtron au cœur des collines du Perche vendômois dans le nord du Loir-et-Cher, la commanderie d'Arville constitue l'un des ensembles templiers et hospitaliers les plus complets et les mieux préservés de toute la France. Fondé vers 1130 sur des terres offertes par le seigneur Geoffroy III de Vendôme à l'ordre du Temple — alors en plein essor après le concile de Troyes —, cet établissement rural avait pour vocation essentielle d'assurer le défrichement et la mise en valeur agricole du domaine, le recrutement et la formation des frères chevaliers ainsi que le financement des opérations militaires en Terre sainte grâce aux revenus de ses cultures, de ses moulins et de ses forêts.\n\nAprès la dissolution brutale de l'ordre du Temple en 1312, la commanderie fut dévolue aux Hospitaliers de l'ordre de Saint-Jean de Jérusalem qui relevèrent l'ensemble des ruines laissées par la guerre de Cent Ans aux XVe et XVIe siècles, associant la pierre de grison ferrugineuse d'époque romane à l'élégante brique rouge du Perche pour façonner un ensemble architectural exceptionnel réunissant porche fortifié, église romane à clocher-mur, grange dîmière, pigeonnier monumental et écuries.",
+    intro_page: "Nichée dans la vallée du Couëtron au cœur du Perche vendômois, la commanderie d'Arville figure parmi les ensembles templiers et hospitaliers les mieux conservés de France. Fondée vers 1130 et reconstruite après la guerre de Cent Ans par les Hospitaliers de Saint-Jean de Jérusalem, elle réunit autour de sa cour intérieure son emblématique porche fortifié en grison et brique, l'église romane Notre-Dame à charpente en carène renversée, une vaste grange dîmière, un pigeonnier de deux mille boulins et d'anciennes écuries abritant un musée dédié aux croisades.",
+    visiter: "Franchir le porche fortifié en pierre de grison et brique rouge pour parcourir la cour de la commanderie d'Arville, visiter l'église romane Notre-Dame et sa nef lambrissée, admirer la grange dîmière, le pigeonnier monumental du XVIe siècle et le parcours muséographique aménagé dans les anciennes écuries.",
+    link: "",
+    sections: [
+      {
+        title: "Le porche fortifié : assise templière en grison et châtelet hospitalier en brique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPB8vL1HH760MDXmqy1i0jz_Mv5nFTkrVq4NUL74oAtT0T9HcGIrzw69aozcx7SduwX9o9aFzCS2JmTBJ744rvj2Y3f9EqYyj3Hz--CEZXxzmYzlCcpm9Rx_aU1UP-CK3KZvlOVOfZCRoKQ9tNVzE_XKw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO8UnGIKBlmSh-NJmvTZkX4R6Iw_-uer01zoYDPMr2buyw8J4V0Bnwj1AZygVB_V9me-QdmJpn_5uSlEb6-_Is5ZlQuT8RmPFtIaadEq4tov0haUXL3IV_0Y93rQSIqJr8jP3UpUBxML1Kk_DqeAhZr6A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'accès à l'enceinte s'effectue par le monumental porche d'entrée, véritable châtelet devenu l'emblème visuel du site, qui résume à lui seul la stratification historique des lieux. Sa base centrale conserve un large portail en arc brisé à double voussure appareillé en pierre de grison — ce conglomérat local ferrugineux d'un brun roux caractéristique — remontant au XIIe siècle templier. À la fin du XVe siècle et au début du XVIe siècle, les Hospitaliers surmontèrent cette assise médiévale d'un corps de logis en brique rouge flanqué de deux tourelles cylindriques en encorbellement coiffées d'élégantes poivrières couvertes de bardeaux de châtaignier, affirmant ainsi la puissance seigneuriale de la commanderie reconstituée."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOw3_P3DChaK2V7ebpXdYacQAzfT1GpVjMXYn-0lqrZMl4DZBhRStx8tAwqINk53byRnJPbcjWagAFaMwCDUFApGzhRvM_jSEOdV8hidgLxyp6crZkYq4sQxEISyWvcWyP8wNHl7qQG6B5U-CagyY0jrw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "L'église templière Notre-Dame et son clocher-mur trinitaire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNmon9yqVDfFGQSfqQyB5AFWBjSoF9Yyr6SYcLTK8NDawfrbNxzaAx1j3bv7BTHSq2AKjQSy2QE56loE9ecON9Z2nIR1S58GaBINyj9c3kCBCRDLpWnP32W7fFtvfAvkqTlw4ln82zIV8P7qLwJXzrV9g=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO9nlKUIRHkuN5d44iWvDkUbhIXOo_6tnH5U0Qnnh0DXF1iNU94yqdYQ2oZ9y4bKb6wUsyZhT5i6EnKOlwrb-ddtDg04rh9cNmIMhXaSq-hqjDDUV6RjTtiMbJSkShURybHSx7HXc5vuBpBTWeIkX5XUQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En franchissant ce passage voûté, le visiteur découvre la cour intérieure bordée par l'église templière Notre-Dame, édifiée au XIIe siècle dans le style roman sobre propre aux établissements de l'ordre. Bâtie en pierre de grison et en silex local, cette chapelle à nef unique terminée par un chevet plat se distingue par sa façade occidentale percée d'un portail en plein cintre et d'une baie étroite sous laquelle est sculptée une croix de Malte, rappel de l'occupation hospitalière. Elle est couronnée d'un remarquable clocher-mur (campanile) d'influence méridionale à trois arcades en plein cintre symbolisant la Trinité, tandis que son espace intérieur, d'une austérité lumineuse propice au recueillement des frères chevaliers, est couvert d'une charpente lambrissée en carène de navire renversée."
+      },
+      {
+        title: "La nef de l'église : charpente en carène de navire renversée et sobriété liturgique",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP_NmjRLw1kqTD77i4u02HY7UukS9Dz2uOC1iPL3PwEp0KuBpeZN08Px-UpIW-McCbCzJIyW45bhFClY4rye-5jnXUAVqXjKPfMUci5OI4iwqkrXgjYp40e7SsCHXsbkjON1yfPxeCQ-ZXEADgJIC_6Ww=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'élément le plus remarquable de cette nef est sans conteste sa voûte lambrissée en forme de carène de navire renversée. Cette charpente apparente, rythmée par des entraits et des poinçons massifs, témoigne d'un savoir-faire artisanal exceptionnel et confère au lieu une acoustique et une chaleur visuelle particulières. La structure en bois contraste avec la verticalité des murs, apportant une dimension organique à cet édifice de transition entre le roman et le gothique.\n\nLe long des murs gouttereaux, le mobilier et la décoration se veulent modestes mais chargés d'histoire. On y observe une chaire à prêcher en bois sculpté, fixée sur le côté gauche, dont la sobriété répond aux bancs clos, également en bois sombre, qui occupent la majeure partie de l'espace. Le chemin de croix, constitué de petits tableaux encadrés, ponctue les murs clairs, tandis que quelques statues de saints rappellent la dévotion locale et l'évolution de l'édifice au fil des siècles.\n\nL'éclairage de la nef est assuré par de hautes fenêtres étroites qui diffusent une lumière naturelle douce, mettant en relief les irrégularités des parois et la patine du temps. Cette clarté discrète souligne l'unité de l'espace et la préservation de son caractère authentique. L'ensemble dégage une force spirituelle tranquille, typique des établissements liés aux ordres militaires et religieux du Moyen Âge, où l'architecture servait avant tout la prière et la discipline."
+      },
+      {
+        title: "La grange dîmière et les communs agricoles du XVIe siècle",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNW1-JH9UHCzd5hycxhQdPrXoRqDD_QaFwR1QEsRCSnKmdwX8WbOmXAj_xN48bzmksL7OJDx22-bQEvTW5Tl9QA-dRx1SvB0kAY-YWXLH6jnonDTXFFzfyirRQraeIzzPUoe0lK8w9PUrXT6TLaGqgMkw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOmmV0oS81fFmZbzsWswrxrdsvaQUQ37nKOC8EkkqGymzoTlMHHyCQ_PrYxCvbHYWvBsaZ-8Yd3Jp7sD-8su_lqj-bybSkSwKLQaZ5KbpctcV60brRCp2GmBQSWQIwG0ns5QQtLPfn56F49ltVu3fRKkQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le versant économique et agricole de ce vaste domaine foncier s'exprime avec une ampleur impressionnante à travers la grange dîmière et les bâtiments des communs reconstruits au XVIe siècle par les Hospitaliers. La grange aux dîmes, destinée à engranger les récoltes du domaine ainsi que les redevances en nature perçues auprès des tenanciers, déploie de robustes murs épaulés de contreforts en brique qui abritent une spectaculaire charpente traditionnelle en châtaignier."
+      },
+      {
+        title: "Le pigeonnier seigneurial cylindrique et le four à pain",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNPTRUQZpL2uPfgZas7RCgpohBp7UNw6BV185n6vk8NSW0Jax0Nn_rgCSzhClEMO8OOhCBnsWIHbbwLcDr6lo9_H0uWqVMCu5NqebYUL9emYY2WeNbmU0qQVchz8Od5IdVU24UJIkBRr4CqGvHxBDAp8w=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMRbd8S2DPYseUmmamf8ctJ9S9wKtnaq8OcCUFvy_2mN5V2PKzyFrKs9U2hXO7nTx-TXW13PkNkw9QNMXWM535V6qKukOYn24tX1xKP48KoUB8KDZ1B0WfrD0rQFmHCZQrOcJtPUWCS7TXlwLUwlF1bqQ=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "À proximité se dresse le monumental pigeonnier cylindrique du XVIe siècle, symbole du droit de colombier seigneurial, dont les parois intérieures percées de près de deux mille boulins permettaient d'abriter d'immenses nuées de volatiles fournissant viande et engrais précieux (colombine) à proportion de la superficie des terres cultivées, complété dans le parc par un ancien four à pain restauré."
+      },
+      {
+        title: "Les anciennes écuries et le musée des Templiers et des croisades",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOlo1Bv6_Ldk8MvG7XDS-_3GI0BWQJn_7wrB69Qv244PW9I_RhLBG8umWj6AbSqkfpfc4b-s5S9864UzEtSraoCcAX6P8BjDt9SdeAjvC2CE6qAO_ZGsCxvQhL28jsJh_xu6781CXxIsaIYiUpzgj5wfw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMWNGCT1b_npY3JYMyqueHEB1DWGuE9ZAkMBH3ET6HIH5Gq6FwnZha0_NtNkjdnn6oLMxQfEaSjG_a00m8Gh3AumIcfOYXTBwWnCgC93igJHQz1K1Sk9jHi4Sdbf0XDJfGflnr4amQZWgI94sDp4ylmEg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Enfin, les anciennes écuries du XVIe siècle, allongées le long du ruisseau du Couëtron et capables d'abriter autrefois jusqu'à une soixantaine de montures, accueillent un espace muséographique consacré à l'épopée des Templiers et des croisades. À travers un parcours scénographié articulé autour de sept salles thématiques, la visite intérieure retrace le quotidien spirituel et militaire des frères chevaliers en Occident, l'organisation des commanderies rurales, l'histoire de Jérusalem et des États latins d'Orient ainsi que le procès tragique qui mit fin à l'ordre sous le règne de Philippe le Bel."
+      }
+    ]
+  },
+   {
     id: "olio_di_calvi_rando_tour_du_mont_san_giovanni",
     name: "Oletta / Poggio-d'Oletta - Randonnée du Tour du Mont San Giovanni (Serra di Pigno / Nebbio)",
     country: "France",
