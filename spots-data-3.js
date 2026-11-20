@@ -7,6 +7,72 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "montmirail_chateau_de_montmirail",
+    name: "Montmirail - Château de Montmirail (Perche Sarthois)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Montmirail",
+    altitude: 225,
+    transport: "voiture",
+    era_group: "moyen_age",
+    era_label: "Éperon Féodal des Seigneurs de Montmirail (XIe-XVe Siècles), Logis Renaissance & Panorama sur le Perche Sarthois",
+    century: "XIe siècle",
+    category: "chateau",
+    counts: { chateau: 1 },
+    lat: 48.10312,
+    lng: 0.79009,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOOgJTsy7btYnHTbPvoZOCdYDm5rkiwlQy8b5whGbe2HvYxg90yT3ZsvoP0819AG4fZSDCSXRbHH34kAalcucRYPfqu3RzUOxg182208IjrfZSO0fOYZhUOEzgpPT2a_F3lMu1BUichGbS5XmO3BVbVkQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO4MjPBZdBgQqgd3Co3o_4QcAwtpZ0Cc8iMROcWM7kLQ5UmJ_SUZbknkEqG8gTpKCmhz-N5zsbFcOya6GrwCPxiPfjYYcwOGE7Na6OLSXjvNt_NeTGKQUaBeYTVWNNwuHst-12Ahla1RzfYMWJ06VVFkw=w1378-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOVwkpGfpavnT2iR_YZFCQxwIHracGqvUR2FFJpBBzdFCkAaYARDHWqJqY3f2oSRTjTUfp134KxYv8ffEIiuvU6-tjVYLydT6V-b18QV-DJqS1dadutITeZf-CY5whHMf_ygoQBNoyGwr71Ngg051Gc4w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Campé à deux cent vingt-cinq mètres d'altitude sur un éperon rocheux dominant les collines boisées et les vallons du Perche sarthois à l'extrémité orientale du département de la Sarthe, le château de Montmirail occupe une position stratégique remarquable aux confins du Maine, du Perche et du Vendômois. Établie dès le XIe siècle par la puissante famille des seigneurs de Montmirail — alliée aux grandes maisons féodales d'Albret, de Coucy et d'Orléans-Longueville —, la forteresse contrôlait les routes anciennes reliant Chartres et le Dunois au Mans et à la vallée de l'Huisne, et fut notamment le théâtre en janvier 1169 de la célèbre « paix de Montmirail », entrevue diplomatique solennelle où le roi Louis VII de France et le roi Henri II Plantagenêt tentèrent de régler leurs différends féodaux en présence de Thomas Becket.\n\nRemaniée entre le Moyen Âge, la Renaissance et l'époque classique au fil des successions seigneuriales, la demeure s'organise autour d'une cour haute et de terrasses dominant le bourg et la campagne percheronne, mêlant maçonneries en pierre de grison et en calcaire local, tours d'angle, lucarnes sculptées et hautes toitures d'ardoise. Depuis les abords du château et de son promontoire naturel, le regard embrasse un vaste horizon vallonné de bocages, de haies vives, de futaies et de vallées douces qui caractérise l'identité paysagère et historique du Perche sarthois.",
+    visiter: "Monter jusqu'au château de Montmirail dans l'est de la Sarthe pour observer l'architecture seigneuriale perchée sur son éperon, flâner dans le bourg historique et profiter des vues dégagées sur les collines boisées du Perche sarthois.",
+    link: ""
+  },
+  {
+    id: "chassigne_eglise_saint_michel_de_chavaignes",
+    name: "Chahaignes - Église Saint-Michel de Chahaignes (Vallée du Loir / Sarthe)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Chahaignes",
+    altitude: 107,
+    transport: "voiture",
+    era_group: "moderne",
+    era_label: "Sanctuaire Paroissial de la Vallée du Loir, Nef à Voûte Peinte en Carène Renversée & Retable Classique",
+    century: "XVIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 48.01759,
+    lng: 0.57290,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNA17ABIUBr7FW4xNbNwDVSh0RZlpkCMJ1B1c357jDIrfsWbtDjW5prN6ynOd_ANLG7VSGfv0VzZk6LawfaCavcmnsWtMje6WNeDrwNGOfArfNDdEwBTQnEmw6KpwNuXAdLjd5Yo7xtUB3VMcQS6Wr57A=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPkoL9j8QLep-GknU7_kjz9zlL1RL76O_ufrI9HttLwQK5xFRnnTjzXPtC5BHXjtOtthtEU8z6Frib2uzj0RB5QCFa2y5tGhNW7IITWv6W4eJdvswLydhI3MsSITJCgWuThNZD7NaDGEjh14k5ZyvQX2g=w1379-h919-s-no-gm?authuser=0",
+        caption: "Cette vaste voûte lambrissée en carène de navire renversée est entièrement recouverte de panneaux illustrant une multitude de figures saintes et de personnages bibliques. Chaque caisson semble raconter une partie de l'histoire sacrée, créant un baldaquin céleste coloré qui contraste avec la sobriété des murs de la nef.\n\nL'architecture de la nef reste fidèle à une certaine tradition rurale, avec des murs épais percés de fenêtres en plein cintre qui laissent pénétrer une lumière franche sur l'appareil de pierre apparent, dessiné par un faux jointoiement peint. La structure est rythmée par des poutres transversales massives, ou entraits, qui assurent la stabilité de la charpente tout en traversant l'espace visuel de la nef. Sur le mur de droite, une statue de saint Michel en armure, terrassant le dragon, rappelle le vocable de l'édifice et la protection de l'archange sur la communauté.\n\nVers le chœur, l'église révèle une transition stylistique vers un décor plus monumental avec un imposant retable classique encadrant une statue centrale. Le passage entre la nef et le sanctuaire est marqué par des colonnes peintes imitant le marbre et des fresques murales qui s'étendent jusque sur le mur pignon au-dessus de l'autel. Ce programme décoratif, qui mêle la peinture sur bois du plafond à l'art du retable, témoigne d'une volonté d'offrir aux fidèles un catéchisme visuel d'une grande richesse, faisant de cette nef un véritable livre d'images à ciel ouvert."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN1oGXLfJWyPvPLxF4HXFbHTg33Y9bqk6zOnHUIRDi22_izcuBX-EoBkMK7Z-KjYuYZlc0KG9Aauul2_Z0fD7PfIcrhKvcZfUS-mtVUuDD4fu43aPy1Nr_UxSxVjlXHAC1DJfF-Cy1J6nJTR7F8suPRjw=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Élevée au cœur du bourg de Chahaignes dans la vallée du Loir au sud-est du département de la Sarthe, aux abords de la forêt de Bercé et des coteaux viticoles des Jasnières, l'église Saint-Michel réunit avec un charme singulier l'architecture rurale traditionnelle du Maine et la richesse d'un décor peint et sculpté conçu comme un véritable catéchisme visuel à l'usage des paroissiens. Implantée dans un territoire marqué par la pierre de tuffeau et le calcaire local, l'édifice s'inscrit dans l'histoire paroissiale de cette vallée fertile jalonnée de châteaux, de manoirs et de villages fleuris.\n\nÀ l'intérieur, la nef frappante par sa vaste voûte lambrissée en carène de navire renversée ornée de panneaux figuratifs, ses entraits apparents, sa statue de saint Michel terrassant le dragon et son chœur monumental doté d'un retable classique, de colonnes peintes en faux marbre et de peintures murales s'élevant jusqu'au pignon compose un ensemble d'une grande expressivité. Ce dialogue entre charpente historiée, statuaire et décors peints confère au sanctuaire une chaleur et une lisibilité remarquables.",
+    visiter: "Pénétrer dans l'église Saint-Michel à Chahaignes dans le sud de la Sarthe pour lever les yeux vers la voûte lambrissée peinte en carène de navire renversée, observer la statue de saint Michel terrassant le dragon et découvrir le retable classique et les décors peints du chœur.",
+    link: ""
+  },
+   {
     id: "arville_commanderie_templiere",
     name: "Arville - Commanderie Templière d'Arville (Porche fortifié, Église Notre-Dame, Pigeonnier & Communs)",
     country: "France",
