@@ -7,6 +7,91 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "torce_en_vallee_eglise_notre_dame",
+    name: "Torcé-en-Vallée - Église Notre-Dame (Nef Gothique à Ogives & Vitrail Renaissance de la Crucifixion)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Torcé-en-Vallée",
+    altitude: 90,
+    transport: "voiture",
+    era_group: "moyen_age",
+    era_label: "Sanctuaire Paroissial du Maine, Nef à Voûtes d'Ogives & Verrière Renaissance de la Passion (XVIe Siècle)",
+    century: "XVIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 48.13402,
+    lng: 0.39612,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNeLJ78r0x-SZyRfcOPDmGC1bHSUg9JlAXlQ9g5OZVdNpHmNA-jgt9syi2xP2DgPe1kdACY6_33Nk60gho7BM38mauSgvyqvoGvhAGp1zQFPo3UUmdoa8oUIxVzoh6PBVC3fYz7rZOUCoNCZXyVS5wh8g=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNqr0Ge39Rx-8S-11rrUezb-Mp3uc-G2KhBi89h6_lGoqoLp82rNrJZ836HMNxFTZ1zrnhM6AKLIpbgbI0SBJO3XgTeztiNtbhhrCh5QzaErB7tAKHrhaumrv69X50s_PWFRcdLmYFCwWvzJew7fvqBmw=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOGzGNM353Pv9rt1GP5KIgl3YlJTHyLQ1nRwoFAQsR2yu_-4_zDh7ANPVlfYdsIX1Pv-yUZ8ywoGcuXUT_n3lwdoI95uBluhb-F9RVQVxfG_XzkMx4-86RQvUZkl0HhswzereOOPlNoRKXID4N_vIblWA=w1379-h919-s-no-gm?authuser=0",
+        caption: "Contrairement aux structures romanes massives, cette nef s'ouvre sur des bas-côtés par de grandes arcades brisées reposant sur des colonnes cylindriques aux chapiteaux discrètement moulurés. L'espace central est couvert d'une voûte d'ogives dont les nervures s'entrecroisent avec élégance, témoignant d'une maîtrise technique visant à élever le regard et à libérer les murs de leur fonction porteuse.\n\nLa perspective de la nef est rythmée par une série de voûtes qui conduisent vers un chœur baigné de lumière, où les vitraux colorés projettent des reflets changeants sur les surfaces de pierre claire. Sur le côté gauche, une chaire à prêcher en bois, accessible par un escalier tournant, s'appuie contre l'un des piliers, rappelant l'importance de la parole et de l'enseignement au sein de l'espace paroissial. Les murs latéraux, bien que plus sobres que ceux de Poncé-sur-Loir, accueillent des statues de saints et des tableaux, dont une représentation de la Vierge à l'Enfant qui souligne le vocable marial de l'église.\n\nLe mobilier se compose de bancs clos en bois sombre qui occupent la partie centrale, organisant le cheminement des fidèles vers l'autel majeur situé au fond du sanctuaire. Cette organisation spatiale, alliée à la verticalité des voûtes, crée un équilibre entre la solidité des supports anciens et la légèreté des formes gothiques. L'ensemble dégage une impression de sérénité et de majesté tempérée, caractéristique des grandes églises rurales de la région qui ont su évoluer au fil des siècles tout en préservant une profonde unité architecturale."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMarClSS1Ei9DeiR1gkQB6f-FSLAgyhNUTkcE78H_GazOLbuNBcX-SknbRPm6utNxD63z9-CwvkJcOT1NGQv-zvVg0SWH2aYC1s6YC-LfEoIarGce8UlD3h-fJ6WqY-xOZ17XSCHvbsAWCrI2vqsJfzlA=w613-h919-s-no-gm?authuser=0",
+        caption: "Ce vitrail de l'église Notre-Dame de Torcé-en-Vallée constitue un chef-d'œuvre de l'art verrier de la Renaissance, occupant l'une des larges baies à remplage gothique du sanctuaire. La composition est structurée en trois lancettes verticales surmontées d'un tympan complexe, offrant une lecture à la fois narrative et symbolique de la Passion du Christ. La qualité exceptionnelle des pigments, notamment les bleus profonds, les rouges éclatants et les jaunes d'argent, témoigne de la maîtrise des ateliers de verriers du XVIe siècle qui ont œuvré dans le Maine.\n\nLa scène centrale est dominée par la Crucifixion, où le corps du Christ, d'une anatomie finement détaillée, se détache sur un ciel d'azur et un paysage verdoyant suggérant Jérusalem. Au pied de la croix, s'étendant sur les trois lancettes, les figures iconiques de la Vierge Marie, de saint Jean et de Marie-Madeleine expriment une douleur digne et recueillie. Le registre inférieur intègre des figures de donateurs ou de saints protecteurs agenouillés dans des niches architecturales de style Renaissance, créant un lien direct entre le monde céleste et la communauté paroissiale de Torcé.\n\nLe tympan, dans la partie supérieure de la baie, complète cette vision sacrée par une multitude d'anges musiciens et d'angelots évoluant dans des mouchettes et des soufflets. Ces figures célestes, jouant de la luth ou de la trompette, célèbrent le triomphe spirituel au-delà du sacrifice, apportant une dimension joyeuse qui couronne la composition. L'utilisation de bordures ornementales imitant des colonnes sculptées et des entablements antiques renforce l'aspect monumental de l'œuvre, faisant de ce vitrail une véritable fenêtre ouverte sur la dévotion de la fin du Moyen Âge et du début de l'époque moderne."
+      }
+    ],
+    description: "Dressée au cœur du bourg de Torcé-en-Vallée dans le nord-est du département de la Sarthe, entre Bonnétable, Ballon et les confins du Perche sarthois, l'église Notre-Dame réunit avec une belle harmonie l'élan vertical d'une nef voûtée d'ogives ouverte sur des bas-côtés à grandes arcades brisées et la richesse d'un patrimoine verrier et mobilier témoignant de la vitalité paroissiale du Maine aux XVe et XVIe siècles. Placée sous le vocable marial de Notre-Dame, l'édifice s'inscrit au centre d'une commune rurale au riche passé historique et préhistorique, non loin des monuments mégalithiques de la vallée et des vallons bocagers de la Sarthe.\n\nÀ l'intérieur, les colonnes cylindriques aux chapiteaux sobrement moulurés, les voûtes d'ogives nervurées, la chaire en bois accessible par un escalier tournant, les statues et tableaux dont une Vierge à l'Enfant, les bancs clos en bois sombre et surtout le remarquable vitrail Renaissance de la Crucifixion — déployant trois lancettes et un tympan riche d'anges musiciens et de donateurs dans une palette lumineuse de bleus, rouges et jaunes d'argent — confèrent au sanctuaire une majesté sereine et lumineuse.",
+    visiter: "Pénétrer dans l'église Notre-Dame à Torcé-en-Vallée dans le nord de la Sarthe pour admirer l'élancement des voûtes d'ogives et des grandes arcades brisées de la nef, observer la Vierge à l'Enfant et le mobilier en bois sombre, et contempler la verrière Renaissance de la Crucifixion.",
+    link: ""
+  },
+  {
+    id: "torce_en_vallee_dolmen_de_torce",
+    name: "Torcé-en-Vallée - Le Dolmen de Torcé (Monument Mégalithique du Nord-Sarthe)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Torcé-en-Vallée",
+    altitude: 87,
+    transport: "voiture",
+    era_group: "prehistoire",
+    era_label: "Architecture Mégalithique Néolithique, Dalles de Grès & Paysage Rural du Nord-Sarthe",
+    century: "IVe millénaire av. J.-C.",
+    category: "megalithe",
+    counts: { megalithe: 1 },
+    lat: 48.13345,
+    lng: 0.39085,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPr-DNqv3IQzWZeF-yxSSFF-XfrLTuqfXXDzsd1So6AWiN1xa7ccjhfyBcspBcSxqAeJTYFn5Sugymz2bASQ7LoFVbaYtLLZmnCe5P4msh5J5CfRlQMgkiPtV1duHJ9Io1POJ83gDBH9_-m_qaXGah6Ig=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Implanté dans la campagne bocagère de Torcé-en-Vallée au nord-est du département de la Sarthe, à proximité immédiate du bourg et de l'église Notre-Dame, le dolmen de Torcé témoigne de l'occupation humaine ancienne et des pratiques funéraires et rituelles des sociétés néolithiques dans la vallée de l'Orne saosnoise et du Haut-Maine. Érigé il y a plusieurs millénaires à l'aide de lourdes dalles de grès ou de poudingue locales soigneusement dressées en orthostates et coiffées d'une table de couverture massive, cet édifice mégalithique s'inscrit dans l'ensemble des monuments funéraires collectifs qui jalonnent les plateaux et vallons de l'Ouest de la France.\n\nIntégré au cœur d'un paysage rural paisible fait de champs ouverts, de haies, de prairies et de petits boisements, ce témoin de pierre brute invite à mesurer la permanence de l'empreinte humaine sur ce territoire sarthois, depuis les bâtisseurs de mégalithes du Néolithique jusqu'aux communautés paysannes et paroissiales des siècles suivants. La patine des lichens, des mousses et des saisons sur la roche confère au monument une présence silencieuse et chargée d'histoire.",
+    visiter: "Rejoindre les abords du dolmen de Torcé-en-Vallée dans le nord de la Sarthe pour observer l'assemblage des dalles mégalithiques dans son cadre champêtre et apprécier ce témoignage préhistorique au cœur du paysage sarthois.",
+    link: ""
+  },
+  {
+    id: "torce_en_vallee_la_fosse_aux_saneux",
+    name: "Torcé-en-Vallée - La Fosse aux Saneux (Vallon, Source & Paysage Rural du Nord-Sarthe)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Sarthe (72)",
+    subdiv: "Torcé-en-Vallée",
+    altitude: 84,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Vallon & Dépression Naturelle de la Fosse aux Saneux, Bocage Sarthois & Prés Humides",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 48.10610,
+    lng: 0.39570,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMcCXjGHzQnkHs8jJEofpER6Ej6tR_NXp28-xPdysrL6vJMroP53Fi25vgOK0jav2rgiVEbvJ0wa-GrY8S66oGaCEV-oShcGEVmdJcrvQzT6aCr5cWvmDc5x98sxRJQxZKu1kt7YIKCrB3X01pupmwJAQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Blotti dans la campagne vallonnée au sud de Torcé-en-Vallée dans le nord-est du département de la Sarthe, aux confins des collines du Perche sarthois et de la plaine de Bonnétable, le site de la Fosse aux Saneux offre une halte naturelle discrète et authentique au cœur du bocage manceau. Cette dépression et vallon humide, façonné par le ruissellement et l'érosion des couches sédimentaires et argilo-calcaires de la bordure orientale du Massif armoricain et du bassin parisien, rassemble prairies verdoyantes, haies bocagères, bosquets et zones humides favorables à la biodiversité locale.\n\nSous la lumière douce du ciel de la Sarthe, l'alternance des herbes hautes, des arbres de haie, des petits chemins ruraux et des horizons agricoles composent un paysage serein et préservé, emblématique des terroirs ruraux situés entre le val de Sarthe, l'Huisne et le Perche. C'est un lieu propice à la promenade tranquille et à l'observation de la nature champêtre loin des grands axes.",
+    visiter: "Parcourir les petites routes et chemins ruraux au sud de Torcé-en-Vallée dans la Sarthe pour découvrir le vallon de la Fosse aux Saneux, ses prairies bocagères, ses haies et l'atmosphère paisible de la campagne mancelle.",
+    link: ""
+  },
+   {
     id: "ponce_sur_loir_eglise_saint_julien",
     name: "Poncé-sur-Loir - Église Saint-Julien (Peintures Murales Romanes du XIIe Siècle)",
     country: "France",
