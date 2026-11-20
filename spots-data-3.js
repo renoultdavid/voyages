@@ -59,7 +59,7 @@ const SPOTS_3 = [
         title: "",
         photos: [
           "https://lh3.googleusercontent.com/pw/AP1GczMx1cv_5VJjcopCi6EC5nsMnusp2OJ-R9Pv5n4NOZUQYknyineaOc5DZ44Ok8wG4rfcr_haiTsfVWzX9VQ8HJRzghn_RR9u2tIwGt4e7t8Yf9_3QkUvOlXWwSu4SDqEMN8At6R-ol3OQ-YdNpCeMClTqQ=w1379-h919-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPJRyTmTBLYLh_8NMIpum7aiEoe9Zy8vdHKTAQfzuH8N5V9D5KOAXF_Cv-Y949CDvDyoCUcGbSVCmknvNyKl8i68qI9fG6rq2AKjQSy2QE56loE9ecON9Z2nIR1S58GaBINyj9c3kCBCRDLpWnP32W7fFtvfAvkqTlw4ln82zIV8P7qLwJXzrV9g=w1379-h919-s-no-gm?authuser=0"
+          "https://lh3.googleusercontent.com/pw/AP1GczPJRyTmTBLYLh_8NMIpum7aiEoe9Zy8vdHKTAQfzuH8N5V9D5KOAXF_Cv-Y949CDvDyoCUcGbSVCmknvNyKl8i68qI9fG6rq2AK2t5U1NVC-tZ4qqUWYI9hpP5NRaPCwJ5lOmaMcY8QIp5YBlTgowemdQ=w1379-h919-s-no-gm?authuser=0"
         ],
         text: ""
       },
