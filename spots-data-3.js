@@ -7,6 +7,110 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "grainau_rando_autour_lac_eibsee",
+    name: "Grainau - Randonnée autour du Lac Eibsee (Eibsee Rundweg - Pied de la Zugspitze)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Garmisch-Partenkirchen",
+    subdiv: "Grainau",
+    altitude: 973,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Boucle Pédestre de 7,5 km autour d'un Lac Alpin Né d'un Éboulement (Bergsturz), Huit Îlots Boisés & Zugspitze",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1, lac: 1 },
+    lat: 47.45779,
+    lng: 10.97539,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN2mobFjDBWGR4F8VN2qUn0If_TK7wWRr3ZJcw-_l5hK8zoz6ON8J-Km59DyHNfXohmL60SM9gjaPe3Y4rgFHkv9Yivrm7h41F80mkiHmy6IK0v7JsUZhRK9t0_Obeoh3sfsvZtFdlWs-rHmcK6NXQCmg=w1560-h878-s-no-gm?authuser=0",
+    description: "Blotti à neuf cent soixante-treize mètres d'altitude au pied même de la face septentrionale vertigineuse de la Zugspitze — point culminant de l'Allemagne à deux mille neuf cent soixante-deux mètres — près de Grainau au sud-ouest de Garmisch-Partenkirchen, le lac Eibsee offre l'un des parcours de randonnée pédestre les plus saisissants et célèbres des Alpes bavaroises. Ce bassin lacustre d'une clarté remarquable doit sa genèse à un cataclysme géologique majeur survenu il y a environ trois mille sept cents ans à la fin de la dernière glaciation de Würm, lorsqu'un pan colossal de la montagne s'est effondré en un gigantesque éboulement rocheux (Bergsturz) barrant la vallée.\n\nAu fil d'une boucle accessible d'environ sept kilomètres et demi longeant les eaux vert émeraude et bleu profond parsemées de huit îlots boisés, le marcheur embrasse un contraste saisissant entre la douceur des rives forestières et l'immensité minérale de la Zugspitze et des Waxensteine plongeant directement dans le lac.",
+    intro_page: "Blotti à neuf cent soixante-treize mètres d'altitude au pied de la face nord de la Zugspitze près de Grainau en Haute-Bavière, le lac Eibsee est né il y a environ trois mille sept cents ans d'un gigantesque éboulement rocheux (Bergsturz) issu du massif du Wetterstein. Sa boucle pédestre d'environ sept kilomètres et demi offre une immersion contemplative entre huit îlots boisés, eaux émeraude et bleu profond, forêts d'épicéas et parois calcaires monumentales.",
+    visiter: "Suivre le sentier balisé de l'Eibsee Rundweg autour du lac à 973 mètres d'altitude depuis Grainau pour admirer les huit îlots boisés, les nuances émeraude et bleu profond de l'eau, les anses tranquilles et la muraille verticale de la Zugspitze.",
+    link: "",
+    sections: [
+      {
+        title: "Genèse géologique par l'éboulement rocheux (Bergsturz) du Wetterstein",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMd2WgJQpQvgNwD9plZ0VJWDG1-B_7YJzo4NFoTZV13Vd6TgmroRnVsZiATTmeAFUpJRpjurdwK-8Ivro7QpDon01QI-NnwlTuKbp7yyI8j4v1aGe6fLT_LDBwUe1wgLf6fPVD4VkY3weTUbtVS6O1eDA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOwyWaJ_K2aTtaa5f_ijzab780lHUl8hACz-tSy_CW34epmOZEdKf3B_oVKH3X7mtj7SnD_YpfWzpudu3Pm1ftUu0yx5hBWLrZvRmaCy4T_iqk9hxs8LHwER_ofo67QiFMAYVV4rr3L03faJyv7TDi7Q=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "A la fin de la dernière glaciation de Würm, il y a environ trois mille sept cents ans, un pan colossal de la face nord du massif du Wetterstein s'est effondré en un gigantesque éboulement rocheux (Bergsturz), obstruant le fond de la vallée et donnant naissance à un bassin fermé compartimenté par d'énormes blocs calcaires."
+      },
+      {
+        title: "Huit îlots boisés et palette chromatique entre émeraude et bleu profond",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOONK_fqpNOBcy01qV5KYnsIoAE9oXV2tveCCjpc8xpFSJDvoVtWTKlWnyxBa0TXc78hKIws0ZYkU38CZGKqjByvmqlKlLzVM0fDRwFYBFwBe_-fGRQPdFkx9NyiiG79novvfEKLfE2IL8KRc9sCuSWig=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMt4rlGOOETsoq7ID-PSRbzewERAgUrVSA7nq6IuCQX4PGcOU9_6q4fA9Nt7_l00MV-cXFIGj-vtt6SvsmcRUsJojBoco6WRlGmwH4V0YyHsZgLrjctaZLGg8iE1Ys4JCgcHmSoLgR4WQT9Kdt50Oz0mg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "C'est précisément ce chaos minéral submergé qui confère au lac son chapelet emblématique de huit îlots boisés — dont Maximiliansinsel, Schönbichl et Braxeninsel — ainsi que ses nuances chromatiques irréelles oscillant entre le vert émeraude translucide des hauts-fonds calcaires et le bleu profond de ses fosses atteignant plus de trente-cinq mètres de profondeur."
+      },
+      {
+        title: "Une boucle de 7,5 km accessible et le passage vers l'Untersee",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNUdYadzu_pTCf_UJhLHFv0kMQobq4DjmT5hp_excP3Nf8tzPA7kSdpyyGkaTvvIlY6AeR1700v_WK9CSqQ5cRsm4_zgao-bK1R1Dp0e0Trk1F4C2JxhuSFp4fPHGdisQdNF8mAs0k3omr1HJgtqSLsqA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOaoSvTOl-bsMJPLcjsDufbrgGuI3lPbxuyV85xhCT-Zz47gAlHtQq_15FKgxrxBXVNt-e5VPjd3GiQHJB6T_9vB55tWnfKJlVnVP--pH-lS4PmIms5MGgS_LWxy3vQ2eDMvIOB2TcFvyE-SGf5VRKKPg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La randonnée pédestre faisant le tour complet du lac dessine une boucle harmonieuse d'environ sept kilomètres et demi pour un dénivelé doux et accessible avoisinant cent cinquante mètres, parcourable en deux heures à deux heures trente de marche contemplative. Dès le départ de l'esplanade méridionale située à proximité de la gare de départ du téléphérique de la Zugspitze, le sentier bien entretenu s'engage généralement dans le sens antihoraire le long de la rive orientale en direction du bassin voisin de l'Untersee, relié au lac principal par un étroit goulet franchi par un petit pont pittoresque offrant d'emblée un premier reflet saisissant des crêtes rocheuses."
+      },
+      {
+        title: "Forêt mixte d'altitude et blocs erratiques de la rive septentrionale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOINWGXUAw0oyz6jg17NqV8EtzYkHsMHHIpwkVDmyNN95nlw2EweOsKpnnGh6xmhmqTf51seRt485Tq4AWqB7klnItN3aE60aA61_xVwOaY6yRNQPqATn5ZBiRGBDY3REThT-nJTm6BSgDQDuPFT76Brw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP13huFgQbUfBjRQJqgHRR-9-fIDajSHteWoJyxr9yxXTUn1-FX99Lzwy3C52aRwhcjIXA3BQAPJQgCT9MwrhwZxYJ9inqYnRQSU9n30a5AQAc2GuQoEcalcFbno-ojLtQNzemnBbdj7R4ohmS_lbB1QA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "À mesure que le cheminement progresse vers la rive septentrionale, le sentier serpente sous le couvert d'une forêt alpine mixte parfumée d'épicéas, de pins sylvestres et de hêtres, tandis que d'énormes rochers erratiques issus de l'éboulement préhistorique jalonnent les sous-bois tapissés de mousses et de fougères."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNQvawzoIZ-9TBCnhZYLk0YqtsDCqB2MdbqRflg4cizk1lYdGpwkaAkzXrQFLAdM4VKyZMnV2W1ppH_cklju4BMArUUTN3-ByrU4umsOOEgZtVfO_QTE3RZS8UZsXZT6r3w9QPUQbe_-nMnROmmnULQaQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO1TphZGjmf9jR24bfa3wNo-uPCWOrCNi0GuVv6nTFeQRfhhzUMGjPkjQ9vokobQOBDlnEFFL70dlRoyaIHFUt29lB7bGMNqAIzXCvSnAEoYlWUi9VqTI4WFTuGQYoPykY8VOKhshjclISdusg4sRecfA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Criques miroir de la berge nord et paroi abrupte de la Zugspitze",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP7bfV6DY1f1otcB8rtV-zwAs9e_4YXFzi6xUod8hUNm1M4RMwsz0xdW8UXGNo2deCITsjXo-TIpe4KXjjkExcBtLliP5AqBv84JtILR_kC9ibJuxmpBD7JAn0fuELAJbjqq2puXcUJbjAi2eS_163_eg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPbWxsdlE4xyQKNFLl8MOrHYXvqAEz6iSxKSZczkjN52_vhV_bA-n_0B-FEcshWeJvnl2CAATee_IZ-0AY7K4cx4xVkF2pq_k6pffXfcF3iE-LLoafAYQ7B0xIXR0_wVoNsItAvr3KOe6YCG6ChylRAZw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Tout au long de cette berge nord, de multiples criques sauvages, presqu'îles rocheuses et belvédères naturels dégagent des perspectives grandioses sur l'ensemble du plan d'eau et sur la muraille verticale quasi ininterrompue de la Zugspitze et des Waxensteine qui se dressent de près de deux mille mètres d'un seul jet au-dessus du rivage. Par temps calme, la surface cristalline des anses abritées telles que la Weitsee ou la Kotsee agit comme un miroir parfait où se dédoublent les cimes enneigées et la silhouette des petits îlots couverts de conifères torsadés."
+      },
+      {
+        title: "Retour par la rive méridionale vers les éboulis et le Frillensee",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPguud1LbD7YFzuDJij0T2G9bRN3vY5S-kPzq3EktpEGKjn_WQ5deaKOwY45oSyiMfQBk9AX-8YUFWdRTPODXiqaExi-10QU_k2iMfUwPBSJ2jhsqsrbKxMpJIsTOFF35mFEY2XQ4VNGRcnS2NNtPTEww=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN-YaUDVVWMCJj-V-kO-6N8cmwpcnXZMGtt44q7S7sqgc7ckMWBo0a8zP_fiRnS9F0DqlXqY8DwHFHBpOKbzg_mUBJ7OHlUqfK4HZlNl8TNWZ_xaGaU0oFh0grOAa_M8jqo9A5bI7giDYVIwY-T8Om0Bg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La seconde moitié de la boucle gagne l'extrémité occidentale du bassin avant de revenir par le versant méridional au plus près des éboulis boisés du pied de la montagne — non loin du mystérieux Frillensee, petit lac glaciaire isolé réputé comme l'un des plans d'eau les plus froids d'Allemagne — pour rejoindre le point de départ en longeant les dernières anses lumineuses de la rive sud."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN4heG7YX8QboA55BruEPimfJB6ZjT4Qx68C7NKB76zKQzjGUcOUT0k8i3oTvlKQlEwzActVsBFAT75OloZfGpoaXhDgwTKBEHLI4K-tCXAaqtTE6zphiKasOtwM7TUbrDPxHx2swA1ehG7HOObkCZXeQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNRnmt4-wFOqIDKI4a7jOi1xXlRleUBp4E_X03YpVvgWv4CYB3uE2kh89rxPH6KU7NZ7aL72kRx9KsDhiJyGcql_WzMdBLMyuG_bnZ1NvGPFaUbB0wyW-o9lydoSxuNO1YY-0u3TmJNDgNKm0xuZzzqVA=w1380-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMUZzAbv_zO16_YZecgu5Jm_U4CY8LMZxkSNXzArxKi6Fe6wSbWUAYvma26XJiVvLHTDhRvoWS2bmRkpZVLT9Px4LcV4nOhJsZ0oTCuHfUgMJVvKOQnjJY-KAJXr2vICUxu9vXSTDt_dLH28TCSMJEDlQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP9c--sUgQKmqTyAnptOuY4hGIVPe17Qu8qyoSvHZ82QVD0jHLHOqHfMIjyI_fWZaj02Nwbk0sqT6dWBIjUDrnjG1WFqEh3rOgOqilWBCo1gqhdTX74CxMLteJ8gGOySR96HWxPs2ffTreq0Lwv2XfIfw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+   {
     id: "oberammergau_vieille_ville",
     name: "Oberammergau - La Vieille Ville, Maisons Peintes à Fresques (Lüftlmalerei) & Tradition du Bois",
     country: "Allemagne",
