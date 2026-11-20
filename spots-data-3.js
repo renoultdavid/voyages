@@ -7,6 +7,174 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "mont_des_avaloirs_chapelle_sainte_anne",
+    name: "Mont des Avaloirs - Chapelle Sainte-Anne (Saint-Céneri-le-Gérei / Pré-en-Pail-Saint-Samson)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Mayenne (53)",
+    subdiv: "Mont des Avaloirs",
+    altitude: 258,
+    transport: "voiture",
+    era_group: "contemporain",
+    era_label: "Chapelle Rurale de Hauteur des Collines de Normandie-Maine, Grès Armoricain & Landes d'Altitude",
+    century: "XIXe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 48.43778,
+    lng: -0.09547,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOSIlcAJQoIUs7-EF5gYvG6MlPnZA2UBPT4LdtmgjEI-v3WP5wS-ifLGxpkOP-iI6ie3jKYMpjBC_jQaTBa2y_NKyBZ85l8MqiUVDm3GebtBqdWERi0alphVV4spwzlwKtnNiGazo9xS_FrrELcNeArWA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPn9FUolzr3tVzQtVd04GUOfGEqXnvZoz6HfGnyw2CTyTpZORF1veRd-rzp-u8I8MFceJmk9jfuNIvo7OsaJ4QQNuCE6eoacbmD3zXhf6Hb9kIzyubF2LNSxBfvn4Lk5li8J6euq_5fc-jSUVz85vFn6w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN2xvzA8Lk-j-_xz2WFcv2i1v7Z8t9z_igrCh0HQ70mk-ewmTMhaccNB9VpRfxzKRc6-yb1f_QFnVcAzpznsQmJeJq1EhYhr3R9nnHgacT7sJv25WyFYyRPJd1AfQ0I6WBF3yvMbJsWMD7i4yPTX8inBQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Élevée sur les pentes boisées et vallonnées s'élevant vers le massif du mont des Avaloirs aux confins septentrionaux de la Mayenne et de l'Orne, à la charnière des collines de Normandie et du Maine, la chapelle Sainte-Anne offre une halte spirituelle discrète et chargée de piété rurale au cœur d'un paysage bocager et forestier d'une grande douceur. Implantée à plus de deux cent cinquante mètres d'altitude dans un environnement façonné par le relief ancien du Massif armoricain — où affleurent les grès armoricains, les schistes et les sables tertiaires sous un couvert de chênes, de hêtres, de châtaigniers, de fougères et de bruyères —, cette modeste chapelle dédiée à sainte Anne, mère de la Vierge et patronne vénérée dans tout l'Ouest de la France, témoigne de l'attachement séculaire des communautés paysannes aux lieux élevés et aux sources ou chemins anciens.\n\nConstruite en pierre locale sobre et coiffée d'une toiture à deux versants en ardoise ou tuile harmonieusement intégrée à la lisière des bois et des prairies, l'édifice s'inscrit dans la tradition des chapelles de dévotion et de pèlerinage local qui jalonnent les hauteurs du Nord-Mayenne et des Alpes mancelles voisines. Entourée par le calme des sous-bois, les murets et les chemins creux parcourus par les randonneurs et les pèlerins, la chapelle invite au recueillement et à la contemplation de la nature préservée des confins mayennais et ornais.",
+    visiter: "S'arrêter sur les chemins et petites routes gravissant les contreforts du mont des Avaloirs en Mayenne pour découvrir la chapelle Sainte-Anne dans son cadre forestier et bocager paisible, au cœur des reliefs armoricains.",
+    link: ""
+  },
+  {
+    id: "mont_des_avaloirs_belvedere",
+    name: "Mont des Avaloirs - Belvédère & Point Culminant du Massif Armoricain (416 m)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Pays de la Loire",
+    department: "Mayenne (53)",
+    subdiv: "Mont des Avaloirs",
+    altitude: 416,
+    transport: "voiture",
+    era_group: "nature",
+    era_label: "Point Culminant du Massif Armoricain & du Grand Ouest (416 m), Tour d'Observation, Grès Armoricain & Landes",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 48.45072,
+    lng: -0.14423,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPQk7TydI0yTUSy-Cs5VjSyy4UIjapbp2AicBtD0oCRhEDH09xyZZkScHTLvhC7jh-9YlYmOr8hKhF6-XvE_6bX_zN9Lnszty44jV714gQLrpUdxvzsvMMJFt8vxpo0-7Cb1U8HU-ThYtB_69DqZG0PXg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMcz09I0YJ7FlnVy2-gx_DCSlbX0njxd-CKUOuQjAFvehONlYpCPe_dOjehv0XsqkNj3YApQbWarQgd0UPwpLN56dx1vjQ0EB8Teq8iicuqTvAzEF1VlrpzfZ3KRtuaMwXuxbdO2trS75Ke-Fw5fZC1Hg=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Culminant à quatre cent seize mètres d'altitude dans le nord-est du département de la Mayenne aux confins de l'Orne et de la Sarthe, le mont des Avaloirs constitue le point le plus élevé de tout le Massif armoricain — englobant la Bretagne, la Normandie et les Pays de la Loire — ainsi que le sommet le plus haut de la moitié ouest de la France en dehors des Pyrénées et du Massif central. Façonné dans un synclinal de grès armoricain résistant à l'érosion au cœur d'un paysage de landes à bruyères, d'ajoncs, de tourbières d'altitude et de futaies de hêtres et de conifères, ce sommet arrondi offre un panorama étendu sur les collines de Normandie, les Alpes mancelles et le bocage mayennais.\n\nLe belvédère sommital, équipé d'une tour d'orientation et d'observation dominant la cime boisée et les landes environnantes, permet d'embrasser un horizon vaste et lumineux où se succèdent vallées encaissées, forêts profondes et croupes moutonnantes typiques des hauteurs du Grand Ouest. Véritable haut lieu de promenade, d'observation des paysages et de randonnée pédestre, le site révèle une altitude rare et une atmosphère montagnarde singulière au cœur des Pays de la Loire.",
+    visiter: "Rejoindre le sommet du mont des Avaloirs en Mayenne et monter jusqu'au belvédère et à la tour d'observation à 416 mètres d'altitude pour contempler le panorama sur les collines de Normandie, le bocage mayennais et les landes d'altitude.",
+    link: ""
+  },
+  {
+    id: "carrouges_chateau_de_carrouges",
+    name: "Carrouges - Château de Carrouges (Briques Polychromes, Châtelet Renaissance & Grands Appartements)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Normandie",
+    department: "Orne (61)",
+    subdiv: "Carrouges",
+    altitude: 271,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Châtelet de Jean Le Veneur (1505-1533), Donjon Médiéval (XIVe Siècle), Ailes Classiques & Douves en Eaux Vives",
+    century: "XVIe siècle",
+    category: "chateau",
+    counts: { chateau: 1 },
+    lat: 48.56023,
+    lng: -0.15425,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO1j1EdHgfUFsbbqY7J4ZEeQeBPW0U0zb_6DfzOOMDtJdHo61HQkwx6HFBLxHzStnO2Ibnl6aplTFIR2cCxtt4-ZlsVFvJig0OhMRbm9wI7mBBto0p0oVMQ22CtDD0awQsOOpnuWZRWrk8XpJQaQ5fBfg=w1379-h919-s-no-gm?authuser=0",
+    description: "Dressé en bordure de la forêt d'Écouves dans le département de l'Orne en Normandie, le château de Carrouges offre un parcours architectural et historique d'une richesse exceptionnelle, du donjon médiéval du XIVe siècle aux ailes classiques des XVIIe et XVIIIe siècles, le tout ceinturé de vastes douves en eaux vives et conservant l'essentiel de son mobilier et de ses collections d'origine. Longtemps possession des familles Carrouges et Blosset avant d'entrer au XVe siècle dans le patrimoine de l'illustre lignée des Le Veneur de Tillières, la demeure témoigne de l'ascension politique, diplomatique et économique de cette famille normande qui marqua durablement la province et la cour de France.\n\nDe l'emblématique châtelet d'entrée de style Louis XII aux salles d'apparat meublées et ornées de portraits historiques, chaque aile du quadrilatère raconte plusieurs siècles d'histoire et de savoir-faire artistique au cœur des paysages forestiers et vallonnés du parc naturel régional Normandie-Maine.",
+    intro_page: "Dressé en bordure de la forêt d'Écouves dans l'Orne, le château de Carrouges réunit du XIVe au XVIIIe siècle l'austère donjon médiéval, le châtelet Louis XII à briques polychromes de Jean Le Veneur et des ailes classiques conservant leur mobilier d'origine au milieu de larges douves en eaux vives. Ce domaine emblématique du patrimoine normand allie architecture militaire, élégance de la première Renaissance et faste des grands appartements.",
+    visiter: "Franchir le châtelet d'entrée aux briques polychromes, longer les douves en eaux vives pour admirer l'assemblage des façades médiévales et classiques, puis visiter les communs voûtés, l'escalier à jour central et les Grands Appartements meublés.",
+    link: "",
+    sections: [
+      {
+        title: "Le châtelet d'entrée Louis XII et la première Renaissance normande",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNaflMtlJy7vOfnkke3naYMOMefa6PydGls-cWKB0wxxhude1-cWRXXLcTzh9MgcszXQxVkqCHUQ48ACLIytJ9meEEnCuwtwKeOGJBRSZ2VKFTKeKxcTIF7EzSoedrTo1u1Pj2WitgH5D1xwKsmvBmbzg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP_6ww4r4dna-ByWJK1PFuAoxqNLzCn5VU3_zF4QbiSXwvgtgr1E9arylEQx9ybKgYEQ1Umb6Atz9akIsUukpWX0vokrGXFXrj68zVZ_4RosAqone1UeX-AjyCArqOSmI__rsxyBb8isAw38ch8Vg9vVQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le parcours s'ouvre devant l'emblématique châtelet d'entrée, véritable joyau de transition élevé entre 1505 et 1533 par Jean Le Veneur, évêque-comte de Lisieux, abbé du Mont-Saint-Michel et grand aumônier de France sous François Ier, qui présenta Jacques Cartier au souverain avant de recevoir la pourpre cardinalice. Considéré comme le tout premier manifeste de l'architecture Renaissance en Normandie dans le goût du style Louis XII, ce pavillon d'accueil carré percé d'un passage central est cantonné de quatre tourelles circulaires coiffées de poivrières d'ardoise. Ses élévations inaugurent à Carrouges une savante polychromie de briques roses et noires vitrifiées formant des motifs géométriques et symboliques de losanges, de cœurs, de chevrons ainsi que des mitres et des crosses épiscopales stylisées, tandis que ses hautes lucarnes sculptées marient les pinacles et crochets du gothique flamboyant aux rinceaux et pilastres de la première Renaissance."
+      },
+      {
+        title: "Douves en eaux vives et grilles en fer forgé du XVIIe siècle",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNp7xfKjksyxGEjP6WxrRaYfoibPegbfPxFMAWJvsPDoj4p-HxvY_f8PF7PNESjkC8mN29RU0u5kjQlwndmeVh4b8PAu_XraL0CdgrX2VcgyDV-U6DJbTEc0hiDOv4yYppBCRrAdICnw1hAaooseLkyZw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPFh_5sj-h66KXYdsKbzc-XKqeZef5TVDNB3E6EUVFxmIvmizOUTnTiUM0OxbhRv7EFNMP7bwZrtJZG91QB8Cs70Of03JXYI8LiglMxjdmBzpK94UrdOKLe8W4q7KlWcIMZ1jAvjzu0VRN7jD8z69uMPg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "En franchissant ce portail, le visiteur découvre le château proprement dit posé tel un navire minéral au milieu de larges douves en eaux vives alimentées par les sources du vallon, encadré d'un parc ponctué de somptueuses grilles en fer forgé du XVIIe siècle témoignant de la fortune métallurgique des Le Veneur, maîtres de forges réputés."
+      },
+      {
+        title: "Quadrilatère architectural : donjon médiéval, aile des Blosset et ailes classiques",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO9s7sGiuU_UZrgOEKhZmP-IKZHT_8vQZGGyER0dhbjNBC4tvCyvue1EvkQvElAVgQ_FkF5amXo5x_EcDaOScKav2vyQYMI3q7dT7B1jyTi0X9JosJXY2bm74z_RDHFI01HnmVqEMHbKIn4V4BGhZxULg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO1j1EdHgfUFsbbqY7J4ZEeQeBPW0U0zb_6DfzOOMDtJdHo61HQkwx6HFBLxHzStnO2Ibnl6aplTFIR2cCxtt4-ZlsVFvJig0OhMRbm9wI7mBBto0p0oVMQ22CtDD0awQsOOpnuWZRWrk8XpJQaQ5fBfg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'édifice déploie un vaste quadrilatère irrégulier où chaque époque se lit à livre ouvert sur les façades extérieures : à l'angle nord-ouest se dresse l'austère donjon carré du XIVe siècle en briques sur soubassement de granit, couronné d'un chemin de ronde sur mâchicoulis à arcs ; dans son prolongement s'étire l'aile médiévale des Blosset du XVe siècle flanquée de la tour hexagonale du Chartier ; enfin, les grandes ailes classiques édifiées aux XVIe et XVIIe siècles, notamment sous la conduite des architectes François et Maurice Gabriel, unifient l'ensemble dans un style Henri IV et Louis XIII qui reprend l'appareillage bichrome de briques roses et noires sous de hautes toitures d'ardoise ponctuées de souches de cheminées monumentales."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMq7ScWmW21f6kNQ3V7PiwRHfbc5D_a7uFUIQhB5W60Q37Oai3IWvt2bpjYO7th89klCt3rkrWNDc9rNNaI11lNlYqYQOcgAmcvOeyQCunjPnBtrOMYdjOcAsyRQbKOQDd1OIY3iU-xkRWHzR390wsR3w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Les communs voûtés : cuisines monumentales, boulangerie et salle des gardes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPnUe9omsTPO-i_jlGDUAe8RktU0BaPqK9ZIxwDZ0xOhq3P7EauVtyBZmVfEbA15yiCoxzG6j_g61WO0M6P3-XTnjzJMFRX9hR2fE74En-nSLt6LWL64abCR7dLMb5CyP4w9x975l8jMhmESqRTXLWjHg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOQ3FEdRcZq0wpdoSZ3S9CBUngMLJxsgOzw7yg_NbiUPTwT4pq55DSh40TTYiMm8Lu-RWEgLAcjt-CBx_qOL60X2nnTM1dQ1Zm1CQ83ZYsobasnAR12rn2Vd9MfegHW1ySNyVUdf2MdjeecR0KGkjT6SA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La visite intérieure, d'une authenticité rare puisque la demeure a conservé la quasi-totalité de son mobilier et de ses collections d'origine, débute au rez-de-chaussée par les communs, dévoilant les vastes cuisines voûtées au foyer monumental, l'ancienne boulangerie et la salle des gardes."
+      },
+      {
+        title: "Escalier de François Gabriel, Grands Appartements et Salle des Fêtes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczORPEH6cJBqCF5U2cxNJoMtRW9dc4LNIa3zFp1SaJvxpKSeBOp_H6LifpzKsRy2zZFaE4407w56R_HE9bEmZrA3RfMxo59V7JBZsivWvQMws5FBk1Z26x2Oh1uaaqOFWfqAv3WHiWUB-qzuB0kpXLD49A=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMB-JGRI6B4cTlkS9UHRkhIah5bGTA2svCVPsquKfAeZRJ7SzF0Cw8KGH8n3k_m1yjk1XnSEPbdHFfVHsCrGMII3RFfLLtx6g_RASW-7KaPl-Rmh7K7meWfrg7p0dG4Dwy7Hm9SNFUaLh31Hi2OfA_Hlw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La jonction entre le logis ancien et les ailes classiques s'effectue par le remarquable escalier à jour central sur plan carré, chef-d'œuvre de stéréotomie conçu par François Gabriel dont les murs ont conservé leur enduit peint en trompe-l'œil imitant l'appareil de briques du château. Il introduit à l'enfilade lumineuse des Grands Appartements des XVIIe et XVIIIe siècles : la Salle à manger ornée de boiseries sobres et de faïences anciennes, le délicat Salon d'Été d'angle baigné de lumière par quatre hautes fenêtres ouvertes sur le parc, le Grand Salon d'apparat et le Salon des Portraits, où trône autour d'une cheminée peinte du XVIIe siècle la galerie des ancêtres de la famille Le Veneur, dont le portrait du cardinal Jean Le Veneur cité par Rabelais dans Pantagruel. Le parcours s'achève dans l'immense Salle des Fêtes, ancienne galerie de peintures transformée en salle de musique et de théâtre dotée d'une tribune haute destinée aux musiciens."
+      }
+    ]
+  },
+  {
+    id: "foret_d_ecouves_rochers_du_vignage",
+    name: "Forêt d'Écouves - Les Rochers du Vignage (Écouves / Orne)",
+    country: "France",
+    continent: "Europe",
+    flag: "🇫🇷",
+    region_admin: "Normandie",
+    department: "Orne (61)",
+    subdiv: "Forêt d'Écouves",
+    altitude: 219,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Chaos Rochéux de Grès Armoricain au Cœur de la Forêt d'Écouves, Futaies de Hêtres et Chênes & Sentiers Forestiers",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 48.51049,
+    lng: 0.05762,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMiVkTYurER6Gw_mMHWWWDpFgpBZ2p5QN8AksJwc_R20kneKa3-LPkoN0SnQtTReM0Az0Zh992FNjd8MPO27TJi_KreiD_BZ94VA6R491-Sl4JqOdnNdLEoOQXaw9LMKvjRRKM1IvjgDcPjVhUlym-0Sw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMJks0FPjRLqAQIq4ULOTLVqGaX0jR1idWmmfrWHgi4dWTR9gcgCX5wDKOzeDDTlRmDvcYB1Na6XjqznG7tsVyS7X8rSVUqxcaRpHFhdF_IOmqcZzBXb6tJzVYmEdpXLIAgxJBYisScoqkDzlJ6bLmMhA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOLxfmxTd7GU4W7C8YMyEHaEDxzt2iKaSJcTIiumeHv5dzTpMhq1rS94PUBFu5ZY_49HMO21BSTwcAbHNRDGBFLUKjWghbdyEUYVBnQDGDmJyWCSpKLapPGzdspoVxME2xVGEEYHc_hag4mA7X5Nmjokg=w1378-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dissimulés sous le couvert majestueux de la forêt domaniale d'Écouves dans l'Orne, au cœur du parc naturel régional Normandie-Maine, les Rochers du Vignage déploient un chaos rocheux saisissant façonné dans les bancs durs et stratifiés du grès armoricain de l'Ordovicien. Sur ce versant boisé où dominent les hautes futaies de hêtres et de chênes mêlés aux bouleaux, aux fougères et aux mousses épaisses, d'imposants blocs, dalles et affleurements rocheux émergent des pentes forestières, témoignant de l'histoire géologique ancienne du Massif armoricain et de l'action séculaire de l'érosion sur les reliefs gréseux.\n\nParcourus par des sentiers forestiers paisibles au milieu du silence des sous-bois, ces rochers offrent un spectacle minéral et naturel plein de charme où la clarté filtrée par les frondaisons souligne les stries, les fissures et les teintes grises et ocres de la pierre. C'est une halte privilégiée pour découvrir l'alliance entre la géologie armoricaine et la richesse forestière d'Écouves au nord-ouest d'Alençon.",
+    visiter: "Emprunter les sentiers pédestres de la forêt d'Écouves dans l'Orne pour rejoindre les Rochers du Vignage et observer les affleurements de grès armoricain au milieu des hêtraies, chênaies et fougères des sous-bois.",
+    link: ""
+  },
+   {
     id: "rannoch_moor_viewpoint",
     name: "Rannoch Moor - Belvédère sur le Plateau de Rannoch (Rannoch Moor Viewpoint)",
     country: "Royaume-Uni",
