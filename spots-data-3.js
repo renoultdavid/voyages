@@ -7,6 +7,97 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "garmisch_partenkirchen_gorges_de_partnach",
+    name: "Garmisch-Partenkirchen - Les Gorges de la Partnach (Partnachklamm - Massif du Wetterstein)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Garmisch-Partenkirchen",
+    subdiv: "Garmisch-Partenkirchen",
+    altitude: 862,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Canyon Calcaire Monumental de 700 m de Long et 80 m de Profondeur, Galeries Taillées dans le Roc & Torrents Turquoise",
+    century: "Temps géologique",
+    category: "rando",
+    counts: { rando: 1 },
+    lat: 47.46506,
+    lng: 11.12185,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPF2a_ufuXMLyGJ2pTEeZkVyOVTNpnwdYinb9fYpVohDgeOpkwJyD4KJvcBnt36wTCg6GB0lP_3KR_ZtKkrP5Dp0aaK_UEJJpYyJY0LxddMvHLuok_lD_Amh4YuT0FRf7aMG8uCaiqmPvfFxVtSkw7ZdQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Entaillant profondément les assises calcaires triasiques du massif du Wetterstein au sud de Garmisch-Partenkirchen, au pied des glaciers de la Zugspitze qui lui donnent naissance, les gorges de la Partnach (Partnachklamm) comptent parmi les merveilles géologiques les plus spectaculaires de tout l'arc alpin bavarois. Sur plus de sept cents mètres de longueur et jusqu'à quatre-vingts mètres de hauteur verticale, le torrent fougueux de la Partnach a scié au fil des millénaires post-glaciaires une fissure vertigineuse et sinueuse dans la pierre claire, offrant un spectacle d'une puissance naturelle saisissante.\n\nClassé monument naturel dès 1912 après l'aménagement d'un cheminement audacieux creusé à même la roche par des mineurs venus du Tyrol du Sud, ce défilé grandiose plonge le visiteur entre parois ruisselantes, tunnels obscurs, vasques turquoise bouillonnantes et rideaux d'eau cristalline, tout en conservant la mémoire héroïque des bûcherons flottant jadis les troncs d'arbres à travers le canyon.",
+    intro_page: "Entaillant les calcaires du massif du Wetterstein au sud de Garmisch-Partenkirchen, les gorges de la Partnach (Partnachklamm) déploient sur sept cents mètres de long et jusqu'à quatre-vingts mètres de hauteur un canyon spectaculaire creusé par les eaux glaciaires issues de la Zugspitze. Aménagé dès 1912 le long d'étroites corniches et de tunnels percés dans la roche suintante, ce monument naturel conjugue fracas des eaux turquoise, mémoire du flottage du bois et métamorphoses saisonnières.",
+    visiter: "Remonter la vallée de la Partnach depuis le stade olympique de Garmisch-Partenkirchen pour parcourir à pied les corniches et tunnels taillés dans la paroi calcaire des gorges de la Partnach au-dessus des rapides turquoise du torrent.",
+    link: "",
+    sections: [
+      {
+        title: "Aménagement audacieux de 1912, corniches et galeries dans le calcaire",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPF2a_ufuXMLyGJ2pTEeZkVyOVTNpnwdYinb9fYpVohDgeOpkwJyD4KJvcBnt36wTCg6GB0lP_3KR_ZtKkrP5Dp0aaK_UEJJpYyJY0LxddMvHLuok_lD_Amh4YuT0FRf7aMG8uCaiqmPvfFxVtSkw7ZdQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMszyZ0ANN5-TeE7l64c2fv3WaXJj1VMK0ngeKfvrL304O8tVbtWqTf0oyj_qDeACjx8D6mPTkAU7YTXbyrSXjWp93qkkzTxJ-IRcoQnMJfJXV1Pv7J8dJmPnB-qZhY56Zj647bU1cjgUrXo2RjovcIfg=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "La traversée pédestre de la Gorge de la Partnach (Partnachklamm), classée monument naturel et ouverte au public dès 1912 grâce au travail audacieux de mineurs venus du Tyrol du Sud, constitue une immersion sensorielle hors du commun au cœur de la montagne. Le cheminement s'effectue le long d'étroites corniches taillées à l'explosif directement dans la paroi calcaire et sécurisées par des garde-corps métalliques ancrés dans la roche suintante, alternant avec une succession de tunnels obscurs et bas de plafond percés à même les éperons rocheux — dont une galerie de contournement de cent huit mètres creusée en 1992 à la suite d'un important éboulement survenu l'année précédente."
+      },
+      {
+        title: "Rapides turquoise, marmites de géants et parois suintantes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMFSOVCZrmqFuuGGPppPsTjpZgkQ7PtkRkXB7C8Tn8hyJ7CxbHtj-7oPjblUCXOyWCfSjjTjBhKxIE4QNZpAmHJYtADeGgnmmJ0SyNXNnTuP_lh_ZjpiUuUTpZ-1jHewMG_UFenTQ9iKrxB620zP4F4zg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMPHaPZiAfZVBrzoyvRfl6F4OHTUXIBCvK_Lws8Ys4hwf-ILC1xvWDBFNoqmdVkSuIExkORXeMZcVWM_BJIHdVO97bL2JL5_XkVJdh_ygvff6H-r6uu5gI4DpsLekDlIKfcEPjU0yNAFByPIgq9Dm1U1g=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Tandis que le visiteur progresse dans la pénombre fraîche de ce couloir minéral, le torrent rugit immédiatement sous ses pas dans un fracas assourdissant, précipitant ses eaux tumultueuses couleur turquoise et émeraude à travers d'innombrables rapides, vasques tourbillonnantes et marmites de géants, tandis que d'innombrables filets d'eau ruissellent en rideaux de pluie depuis les strates calcaires tapissées de mousses et de fougères hygrophiles."
+      },
+      {
+        title: "Mémoire périlleuse du flottage du bois (Holztrift) dans le canyon",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMAoIi-6QsMzZ2JQIWXVEtBb-HDO2dvFmKEt6Mh4eVXwBKjOngvqe7vNwXbr6AjSDX3gakwfa-4zXkD1Ma1ALUbTDLmgz7Sb3mIBlJWG4bI_xDDOA19cDbafO8b88p70Z-geJu2OZFg-6cp-3xng2U7Nw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOg1cpnOocFh1zPfruZu2j6FAJnd6SJIRtVSKjWreLcczUqdaWmuwc4qZTJS7XhKJxg2M1y0FHjrf3H7EWYwyOmMgkvNQ-OvHl_7aHMBKYe2u0WCFc48FrsGnkSpI4tDxBtemwZc9FBc0ELf5EGfoyf6A=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Bien avant de devenir un haut lieu de la randonnée alpine, la Partnach Gorge fut le théâtre d'une activité économique aussi périlleuse que vitale pour la vallée jusqu'au début des années 1960 : le flottage du bois (Holztrift). Chaque printemps, lors de la fonte des neiges gonflant le débit du torrent, les grumes abattues dans les forêts d'altitude du Reintal étaient précipitées dans les flots pour rejoindre la plaine ; lorsque des embâcles se formaient dans les goulets les plus étroits, des bûcherons intrépides étaient descendus au bout de cordes depuis le sommet des falaises, assis sur de petits sièges en bois protégés d'un toit contre les chutes de pierres, afin de débloquer les troncs à l'aide de longues gaffes ferrées (Grieshaken)."
+      },
+      {
+        title: "Métamorphoses des saisons : rayons d'été et cathédrale de glace hivernale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPPP6WyxnOB_UUMzvwAC2akih0gzJlBUFljelvPfv4QJUMGxUmJ5kcH5_MU5hHrlW59T_YPJTYiiF_61Wi01G719yIf1PVz9Qs-KAa3vHKFHgVbyvN0aQIoDqnDYgqho66_xOX10aEwlSsaxWl_Er6lLw=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO_WTiUIw3pZNVrabFARgkWuk9Vmxjs5mmIk2PQP-_B44enHVhOvTNE_Ew0KwK1c2rI_0_0O9OiUOrk5owSVMjoR1LlF0KG50ntJXkXphkMmKBA-2d-uzSIS8zHczZhBSVaWpq59rKVX1ECj4ZSSRmwjg=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOJapdNCa6tU34gSgf0P7m1oTaikmOcHV7RYeQbAyfXYcEPRMthYsVFqRwBr7XIE-0F3bxWgod7bCxJ9aDtPeqKX5v1lJtuIOGCdfqpju_OgB81N4_Ae2jG1AAb1OX2oHuIpTJ5Ha4vwS8umRosa3bkXA=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Au fil des saisons, le site révèle deux visages radicalement opposés : en été, les rayons du soleil zénithal percent par intermittence la fente sommitale pour illuminer les embruns d'arcs-en-ciel fugaces avant que le sentier ne débouche sur les alpages lumineux du Reintal ou les chemins montant vers Graseck et l'Eckbauer ; en hiver, les suintements des parois se figent en d'immenses draperies de glace bleutée et en stalactites monumentales transformant le canyon en une cathédrale de cristal."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP_04KjQBvNZy8GlLElm1LP-u8ERlUJLYYDBKvjQH4Q9u9iZrIa_0pKqKC7bGkt-piu2Xozdy2yes5clZOzKr3UTKPFAa1dViNZC_BKmCPIbyACeLK7EafuMdNuWiGTseobGCh_FBzu13IXIbXtS41ldQ=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO2qKdggO_jnxLJexbYfOoZqQ5yjjkgy2skiU0eE0vm-TTlj-t_dGYhsWxPOyZeGXV6pKEyHwEpM0jCSoSb3EJDNbdZ_UOKVmjm7GmHR9aXqsTw2-jZrX6OFadJcpSDe1eCnC2e6N6rnuoibzAp07p_wg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
+    id: "garmisch_partenkirchen_tremplin_olympique",
+    name: "Garmisch-Partenkirchen - Le Grand Tremplin Olympique (Große Olympiaschanze)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Garmisch-Partenkirchen",
+    subdiv: "Garmisch-Partenkirchen",
+    altitude: 735,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Site Historique des Jeux Olympiques d'Hiver de 1936, Piste Moderne en Porte-à-Faux (2007) & Tournée des Quatre-Tremplins",
+    century: "XXIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 47.48117,
+    lng: 11.11824,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOTd0UyhHfUkb3JMPS0Y46Z6MhX9aAX5hBe0dpARCNT-90Nxr5YVnhseAL8Ll4-c1ZlbpE2PUKpNwW91LNl5LEbbrOUDjWHGsKvmYjYjlQIwcsO2gswkuITd5B45kBbzLQHMIBoD_0-jcaJ6qN9rRwmpg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Adossé aux pentes boisées du Gudiberg à l'entrée de la vallée de la Partnach à Garmisch-Partenkirchen, au cœur des Alpes bavaroises, le Grand Tremplin Olympique (Große Olympiaschanze) constitue l'un des hauts lieux mondiaux des sports d'hiver et un spectaculaire jalon d'architecture contemporaine en montagne. Édifié à l'origine pour les Jeux olympiques d'hiver de 1936 et théâtre chaque 1er janvier de la célèbre épreuve du Nouvel An de la Tournée des Quatre-Tremplins, le site a été entièrement métamorphosé en 2007 par la construction d'une structure audacieuse en acier et verre translucide conçue par le cabinet d'architecture terrain:loenhart&mayr.\n\nS'élançant dans le vide en un porte-à-faux de près de soixante-dix mètres sans appui intermédiaire au-dessus de l'aire de réception, sa piste d'élan profilée dessine une ligne futuriste et aérienne se détachant sur les sapins et les cimes calcaires du Wetterstein. Dominant le vaste stade olympique situé à sept cent trente-cinq mètres d'altitude, ce monument sportif symbolise le dialogue entre l'histoire olympique du XXe siècle et l'ingénierie contemporaine de haute précision.",
+    visiter: "Rejoindre l'esplanade du stade olympique de Garmisch-Partenkirchen au pied du Gudiberg pour contempler l'élancement aérien en porte-à-faux du Grand Tremplin Olympique avant de poursuivre vers les gorges de la Partnach.",
+    link: ""
+  },
+   {
     id: "garmisch_partenkirchen_hameau_de_wamberg",
     name: "Garmisch-Partenkirchen - Le Hameau de Wamberg & Vallée de la Partnach (Alpes de Bavière)",
     country: "Allemagne",
