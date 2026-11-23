@@ -7,6 +7,330 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "schwangau_chateau_de_neuschwanstein_marienbruecke",
+    name: "Schwangau - Château de Neuschwanstein depuis le Pont Marienbrücke (Alpes d'Allgäu)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Ostallgäu",
+    subdiv: "Schwangau",
+    altitude: 992,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Forteresse Idéalisée de Louis II de Bavière (1869-1886), Vue Emblématique depuis la Passerelle Suspendue & Gorges de la Pöllat",
+    century: "XIXe siècle",
+    category: "chateau",
+    counts: { chateau: 1 },
+    lat: 47.55502,
+    lng: 10.74924,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOwhw_95_lp-Rdqmh2_gf7YIuRKfA-iP_JzruI9gb1XDXVAUMpRLdh924AN_6Ooppdic_tnHRQXl6QwJpnBN3svTDxbroHh2Gnv_PZj8JzNnrs0TY918BZWjbyxOPhMYUvyLH57Aw7iKcy2Icu6sf8Pmw=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNxMIDMVMfn22Dj9qe0Vor0AJ056hBF49gL-hDMHyYgBuUPPm8A9WYVFGT0ZlPhE4JpRQNOtkH-aKOVO4ma7t_QmtiHJMl2Y870cPhgUYt1Bxd67fltC0IUhL8KLe4NiEItr0fC6nwBW2Us7vyLaYrwRQ=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPAwR055skpC90Joj5rTnqj_JeBKNif_JzL3AMebqf0BpvrpZ5g10rAtgNHsiCsEEFAEHCDbYNLE0WkySPeIryFpDSY_ugsar1PL2B6pzF_7y7JnpWZqZzxzvmnxyosONxIIhJjp2KB1uXY7d6LUgcaQw=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Suspendue à quatre-vingt-dix mètres au-dessus des eaux bouillonnantes des gorges de la Pöllat (Pöllatschlucht) à près de mille mètres d'altitude sur les contreforts des Alpes d'Allgäu près de Schwangau, la passerelle métallique du Marienbrücke offre la perspective la plus célèbre et vertigineuse sur le château de Neuschwanstein. Érigée à l'origine en bois par le roi Maximilien II en 1845 pour l'anniversaire de son épouse Marie de Prusse, puis remplacée en 1866 par une audacieuse arche de fer forgé commandée par son fils Louis II de Bavière, cette passerelle aérienne encadre comme un balcon suspendu la silhouette féerique de la citadelle blanche jaillissant de son éperon rocheux escarpé.\n\nDe ce promontoire spectaculaire, le regard embrasse toute la composition scénographique imaginée dès 1869 par le décorateur de théâtre Christian Jank et l'architecte Eduard Riedel pour incarner l'idéal chevaleresque et wagnérien du souverain : l'élan vertical du Palas roman à cinq niveaux, les tourelles élancées coiffées de toitures d'ardoise, la haute tour carrée de quarante-cinq mètres et le châtelet d'entrée en brique rouge, se détachant devant l'immensité bleutée des lacs Alpsee et Forggensee et les plaines verdoyantes de Bavière.",
+    visiter: "Gravir les sentiers boisés depuis Hohenschwangau jusqu'au pont suspendu du Marienbrücke à 992 mètres d'altitude au-dessus des gorges de la Pöllat pour contempler la vue panoramique emblématique sur la façade méridionale du château de Neuschwanstein et la plaine des lacs bavarois.",
+    link: ""
+  },
+  {
+    id: "fuessen_vieille_ville_altstadt",
+    name: "Füssen - La Vieille Ville Historique & L'Abbaye Saint-Magne (Altstadt Füssen)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Ostallgäu",
+    subdiv: "Füssen",
+    altitude: 806,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Cité Médiévale de la Via Claudia Augusta (806 m), Ruelles Colorées, Haut-Château & Abbaye Bénédictine Saint-Magne",
+    century: "XVIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 47.56821,
+    lng: 10.69959,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNihVVi3hIC65TRStpBYfmeiuelhtQ7IvnUK49M2NN-29a_DLfxVe5Xd60PWWP4dxFf_7tZhGPxKxqhH1ZZLLQdonhFJV0KzVk49ufH0_OC36mucchh9nvSi983osu8sFMnOArnmQCtOYoIH59x6GXk_g=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPfENI6DChQ8MZhfs4qS3GLUcyYIDp_Y8Js4tId6iMSRvObk0Tix_bNnZB_0coy6Xg8KIQaayvwVspEw3nXILEy1W4WS2ftbkPiVdwLPTdc3NZsLnuRajhBU_IrsbIjmDwj0hGj21cAU0CF6kdFwAuHLw=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMD_X65imOQ5SjFBHo7a2TGBf_Fgz6L-w_QCk9RqadDJ__kvcdJX_PqLJHkhAPJbJihbXbX18tEx0nEgzEhINo7LGMdruS2utWF14bdjR9h24rtHYmNlRQbQjLGHu3enCn2qm-YxBmS01J1ZF1QGtTxSQ=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMkbreQF7wOyW1mnyXaOEkcp0Qyhvy94A6igHn3dJXZ_HhnHtANaM_a8p3w8OuyGmgHorwC9bT8N3SB_50bY6CxqFDE6eS97nT7Hr7wR9psBLumoIDWXGP0zMlRJGqC5XZuxOjnq_DHZApyesNc0RaddQ=w1367-h911-s-no-gm?authuser=0",
+        caption: "Abbaye Saint-Magne"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMgmqAMK6NJG-lwCDaKqWHaw6BMuWIDXIxaGO-bKsWZHAWUCW6JD8hD1whkX1NRylmMyBd1ZRy3dIWU9ZRrMFfZHL84lSxm0FDyL3g9rBuay89K-Uc7NGz2nGKFtb2QNusG-Q3vi4MoMufChrlAPRwpRw=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Établie à huit cent six mètres d'altitude sur les rives turquoise du fleuve Lech au débouché des Alpes d'Allgäu, là où l'antique voie romaine Via Claudia Augusta franchissait les premiers contreforts montagneux en direction d'Augsbourg, la vieille ville de Füssen (Altstadt) déploie un ensemble urbain d'une rare élégance historique. Marquée par plus de sept siècles de statut de cité franche et de berceau européen de la lutherie dès le XVIe siècle, l'artère piétonne de la Reichenstraße et ses ruelles adjacentes alignent des maisons patriciennes aux pignons à redents, aux encorbellements gothiques et aux façades peintes de teintes pastel ocres, roses et bleutées.\n\nL'horizon de la cité est dominé par le dialogue architectural saisissant entre deux monuments majeurs juchés au-dessus du Lech : d'une part l'imposant Haut-Château gothique tardif (Hohes Schloss), ancienne résidence d'été des princes-évêques d'Augsbourg célèbre pour ses façades peintes en trompe-l'œil vers 1499, et d'autre part l'ancienne abbaye bénédictine Saint-Magne (Kloster St. Mang), fondée au VIIIe siècle sur l'ermitage de saint Magne de Füssen et somptueusement réaménagée au début du XVIIIe siècle par Johann Jakob Herkomer en un vaste complexe baroque abritant la salle impériale et le musée municipal.",
+    visiter: "Parcourir à pied la Reichenstraße et les ruelles médiévales de la vieille ville de Füssen jusqu'aux rives du Lech pour admirer les maisons bourgeoises colorées, l'ensemble baroque de l'abbaye Saint-Magne et les façades peintes en trompe-l'œil du Hohes Schloss.",
+    link: ""
+  },
+  {
+    id: "fuessen_heilig_geist_spitalkirche",
+    name: "Füssen - Église Hospitalière du Saint-Esprit (Heilig-Geist-Spitalkirche - Rococo Bavarois)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Ostallgäu",
+    subdiv: "Füssen",
+    altitude: 795,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Façade Rococo Rouge et Blanche Peinte à Fresques par Joseph Anton Huber (1748-1749) sur les Rives du Lech",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.56630,
+    lng: 10.70033,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP3jjcsBbzPVPw3fn4kIyhfr0H3LrmqQtSCwB6XJoU8WxEMQTvEHkLzAfbJU3uBvf0830d4rI9Vv1Ww94CzGRJJi9_veeDHr1KqbgEBdJzAPYrCVRlxMrmM9biGHv6NdKvLHrz6RXCbHKzWlfs3Bv3b7A=w607-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dressée à sept cent quatre-vingt-quinze mètres d'altitude au bas de la vieille ville de Füssen, tout près du vieux pont franchissant les eaux émeraude du fleuve Lech, l'église hospitalière du Saint-Esprit (Heilig-Geist-Spitalkirche) attire immédiatement le regard par l'éclat théâtral et la polychromie raffinée de sa façade rococo. Reconstruite entre 1748 et 1749 par le maître d'œuvre Franz Karl Fischer après l'incendie de l'ancien hospice médiéval fondé au XVe siècle pour secourir les voyageurs et pèlerins empruntant la route alpine, cette église-halle se distingue par son pignon chantourné aux courbes ondulantes rehaussé d'un rouge vif intense contrastant avec la blancheur lumineuse de ses pilastres et corniches.\n\nL'ensemble de l'élévation extérieure est magnifié par les fresques en trompe-l'œil (Lüftlmalerei) peintes par Joseph Anton Huber, figurant au centre le miracle de la Pentecôte et la descente du Saint-Esprit entourés de figures d'apôtres, de saint Florian protecteur contre les incendies et de saint Christophe patron des voyageurs. Véritable bijou d'architecture sacrée de l'école de Füssen au XVIIIe siècle, elle accueille le visiteur entrant dans la cité historique depuis les rives du Lech.",
+    visiter: "Rejoindre le bas de la vieille ville de Füssen près du pont sur le Lech pour admirer la façade rococo rouge et blanche de la Heilig-Geist-Spitalkirche, son pignon chantourné et ses fresques en trompe-l'œil de la Pentecôte.",
+    link: ""
+  },
+  {
+    id: "lindau_st_stephan_kirche",
+    name: "Lindau - Église Évangélique Saint-Étienne (St. Stephan Kirche - Île de Lindau)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Lindau (Bodensee)",
+    subdiv: "Lindau (Bodensee)",
+    altitude: 406,
+    is_island: true,
+    island_name: "Île de Lindau (Lac de Constance)",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Plus Ancienne Église Paroissiale de Lindau (Fondée en 1180), Clocher à Bulbe Baroque & Nef Rococo Lumineuse",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.54739,
+    lng: 9.68750,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMm6EqRmtzz7lPeavHD29KqI0KCg6GJNa_5AsrzrkXjGHQWDA1pdqJFAJXbkLFAxbfnCgsi_ULIbcX6zUfbhokHRZclRXaAgTsjL9gvlCevabTTXAl8PLVSqvuUyHF9BCpQdx6gVlh-MfM1XVC3OdNaBQ=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOPCsqg79r8Mvjip7sD-SNwKXon1oBXGk_PfqiYilfI5Qry91c1BXwJWJLFi6-CUbzLNG5-2JvaBmmKTBgZ4G2BG_WFpsPm5UT13zvEZZbwTmg311BYc-35tbwQCGiaotjzGO9F9uGKMNAN7gZ0O71uRA=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Élevée au cœur de l'île historique de Lindau sur le lac de Constance, juste en face de la cathédrale catholique sur la Marktplatz, l'église évangélique Saint-Étienne (St. Stephan) constitue la plus ancienne église paroissiale de l'ancienne ville libre d'Empire. Fondée vers 1180 sur un plan basilical roman à trois nefs avant de connaître plusieurs agrandissements gothiques aux XIVe et XVe siècles puis une profonde transformation baroque et rococo entre 1781 et 1783, l'édifice incarne l'histoire religieuse et civique de la cité insulaire passée à la Réforme protestante au XVIe siècle.\n\nDominée par son haut clocher-tour coiffé d'un élégant bulbe à lanterne qui dialogue dans le ciel de Lindau avec la flèche voisine du Münster, l'église surprend par la clarté apaisante et l'équilibre de son vaste vaisseau intérieur. Sous un plafond plat orné de stucs rococo délicats dans des tons pastel blanc, rose et vert pâle, les hautes tribunes en bois sculpté, les bancs historiques, la chaire baroque et l'orgue monumental composent un espace de recueillement sobre et lumineux typique des grands temples luthériens d'Allemagne du Sud.",
+    visiter: "Traverser la Marktplatz au centre de l'île de Lindau pour admirer la silhouette et le clocher à bulbe de l'église Saint-Étienne, puis entrer découvrir la clarté de sa nef rococo et ses tribunes historiques en bois.",
+    link: ""
+  },
+  {
+    id: "lindau_muenster_unserer_lieben_frau",
+    name: "Lindau - Cathédrale Notre-Dame de Lindau (Münster Unserer Lieben Frau - Île de Lindau)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Lindau (Bodensee)",
+    subdiv: "Lindau (Bodensee)",
+    altitude: 406,
+    is_island: true,
+    island_name: "Île de Lindau (Lac de Constance)",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Ancienne Abbatiale des Chanoinesses Nobles Reconstruite par Johann Caspar Bagnato (1748-1752) & Fresques de Giuseppe Appiani",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.54706,
+    lng: 9.68762,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPVWrVO_jjMgmhBxZwYiyb5IMMGOHO-0N-EisEZng0REcLqxdHAwZZEUKJ_tvJ19jd1pyErIeVV8ONQPI53dQ7ipanOqN5HZ0NPT1xWws2_E4TlQdTDxFlD8V7SYuc56NNdeNRFNlSw3fJ05OK--OVVuw=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMvBeB3wPuda74wiEzk2ZPLEVa4f3cOi1ggg5QEDXIER4GpEXGeWDbIa1Ce8b5LADYTww91ufiZEW4nBGCsVwQY2DZ-30I_IrIzTPZgM6OHe3pikh9Nl234Kpft6DMtgzkILPiwpm0OeeWCh3HqJ8J1Kw=w607-h911-s-no-gm?authuser=0",
+        caption: "L'espace intérieur est conçu comme une véritable « salle de fête » spirituelle, où chaque surface est prétexte à l'ornementation.\n\nLa voûte de la nef est occupée par d'imposantes fresques réalisées par Giuseppe Appiani, qui dépeignent des scènes de la vie de la Vierge Marie, sainte patronne de l'édifice. Ces peintures, caractérisées par des perspectives audacieuses et des couleurs pastel, semblent percer le plafond pour révéler le ciel. Elles sont encadrées par des stucs d'une finesse exceptionnelle, mêlant des motifs de rocailles, de fleurs et de feuillages qui soulignent les lignes de l'architecture tout en apportant une fluidité organique à l'ensemble.\n\nLe mobilier liturgique constitue un ensemble cohérent de style baroque tardif, dominé par le maître-autel monumental qui occupe le fond du chœur. Ce dernier, richement sculpté et doré, attire irrésistiblement le regard par sa structure architecturée et ses statues de saints en mouvement. De part et d'autre, les autels latéraux et la chaire à prêcher, aux décors de faux marbre rouge et rose, complètent cette mise en scène visuelle où la matière semble perdre de sa densité sous l'effet de la dorure et de la lumière.\n\nL'éclairage de la nef est assuré par de larges fenêtres hautes qui diffusent une lumière claire, essentielle pour mettre en valeur la polychromie des peintures et l'éclat des ors. Contrairement à la sobriété de l'église Saint-Étienne voisine, le Munster unserer Lieben Frau cherche à éblouir le visiteur par une accumulation de détails artistiques, faisant de cette nef l'un des témoignages les plus aboutis de l'art religieux de la Contre-Réforme dans la région du lac de Constance."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNPAZDLKYqguRrkawQps1ugM_dQ8Abe-UtPwvE5-jqBQyuWHJektTLP4a4LpukK6LG-ukRo1yX9HJBj54G6Lpx0t__xwZIAtdSxvuu0WPwRljOng5NOhNo9sMChE2zSzTvPqh65gHTbU0gpXg5JMo_uTw=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Érigée sur la Marktplatz au cœur de l'île historique de Lindau sur le lac de Constance, tout contre l'église évangélique Saint-Étienne, la cathédrale Notre-Dame (Münster Unserer Lieben Frau) témoigne du prestige séculaire de l'ancienne abbaye impériale de chanoinesses nobles fondée dès le IXe siècle. Détruit par le grand incendie de ville de 1728, l'édifice fut reconstruit entre 1748 et 1752 par le célèbre architecte baroque Johann Caspar Bagnato — maître d'œuvre de l'ordre Teutonique — qui sut lui conférer une façade sobre et harmonieuse rehaussée d'un fronton gracieux et d'un haut clocher coiffé d'une flèche élancée.\n\nDès le seuil franchi, l'intérieur déploie l'un des plus somptueux décors rococo de toute la région du lac de Constance : conçu comme une véritable salle de fête céleste baignée de lumière, le vaisseau associe les fresques illusionnistes aériennes du maître italien Giuseppe Appiani consacrées à la vie de la Vierge Marie, les stucs délicats en rocailles dorées et le faste théâtral du maître-autel et des autels latéraux en faux marbre rose et rouge.",
+    visiter: "Pénétrer dans le Münster Unserer Lieben Frau sur la Marktplatz de l'île de Lindau pour admirer l'éblouissante décoration rococo conçue par Johann Caspar Bagnato, les fresques célestes de Giuseppe Appiani et le maître-autel baroque.",
+    link: ""
+  },
+  {
+    id: "lindau_vieille_ville_altstadt",
+    name: "Lindau - La Vieille Ville Insulaire & La Maximilianstraße (Île de Lindau - Bodensee)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Lindau (Bodensee)",
+    subdiv: "Lindau (Bodensee)",
+    altitude: 407,
+    is_island: true,
+    island_name: "Île de Lindau (Lac de Constance)",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Ancienne Ville Libre d'Empire sur le Lac de Constance, Ruelles Médiévales, Arcades & Maisons Patriciennes Colorées",
+    century: "XVIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 47.54654,
+    lng: 9.68485,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOqV847lxeE4bzlbuCVve5iShzN7FrrxWFZh-wwrzofJChNZKdZpdhgrD39-qJDU9yylIiAyVTeJ9rJRTO7klcLqHQIy9_KI8ckBgIk7IRrClS2FWrVVwp27tgvnQ_qwBFDLSYxGblsqOPKb2EOln7LJg=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNp_td1K382l3s68hnRkabT4Cr2el0uOESwStjjwju51BFeTKr9_qDx82HhVsOgP2wtfY4nDhm7BI56PCLTlqjrxpEtgHo1w2wEdhq1juKVlDHqEyjhNpYJI6cLB0D9hEdvxFhN0UBvUlSiXBPP_nIkdg=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNfR1ULHRwR9xxj2h0LckvKUjhXfG9NdZUJor16MZQWNPviE0KBLOEVGlxCKAeZsRXBbBDE308dpTPWzBg0M6mkyUrt1qxo6k_t3jXzi_0KWFW7hWSYsxe0EzhVb-6Nf0wpr7-1F2KLZFoADl1t70fwRg=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNX8zVucsMKzCvKM5OGqm52hz0CUY870KGwmSw9P5YliyWRoyWv-ZWE9P4Wemz1rj959XOryw1z8NQpQTri8oLQcvIFXR02FXKWuxZXn27Vt7gmPO_Z5elc5og6qCuxoh5oK5saP6l8V-YXkTNuyCl0cg=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOjzCF-4kXNBv-yDOmBrh-X69mDJv52dNaK4BJVggI6ifTAUc33fqCNL9KmfRr9Wq3PAPyEku3irFkGWCFN2ZV8jS2Oh0c__fSmD6mX0T8PYykUYlxcxHgZBGpSiW6konUtj3rlq7slgfhkgArqsG3qaQ=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Posée sur une île de soixante-huit hectares à l'extrémité orientale du lac de Constance (Bodensee), au carrefour historique des routes commerciales reliant l'Allemagne du Sud, l'Autriche et la Suisse, la vieille ville insulaire de Lindau conserve un charme méridional et patricien exceptionnel hérité de son rang d'ancienne ville libre d'Empire. Dès le Moyen Âge, sa position stratégique sur le grand lac alpin en fit une plaque tournante prospère du commerce des textiles, du sel et des vins, donnant naissance le long de la Maximilianstraße — sa majestueuse artère centrale piétonne — et des ruelles pavées adjacentes à un ensemble remarquablement préservé de demeures bourgeoises des XVe, XVIe et XVIIe siècles.\n\nBordées d'arcades voûtées accueillant échoppes et cafés, ces maisons étroites et hautes déploient des pignons à redents ou chantournés, des encorbellements en bois sculpté (Erker), des façades peintes de couleurs vives et des cours intérieures fleuries, telles que la somptueuse demeure baroque de la Haus zum Cavazzen. L'atmosphère paisible de ses placettes ombragées, de ses quais bordés de platanes et des perspectives constantes sur les eaux scintillantes du lac et les cimes enneigées des Alpes suisses et autrichiennes confère à Lindau une élégance singulière.",
+    visiter: "Flâner à pied le long de la Maximilianstraße et dans les ruelles pavées de l'île de Lindau pour admirer les maisons patriciennes à pignons et encorbellements, les arcades historiques, la Haus zum Cavazzen et les vues sur le lac de Constance et les Alpes.",
+    link: ""
+  },
+  {
+    id: "lindau_altes_rathaus",
+    name: "Lindau - L'Ancien Hôtel de Ville de Lindau (Altes Rathaus - Fresques Renaissance)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Lindau (Bodensee)",
+    subdiv: "Lindau (Bodensee)",
+    altitude: 407,
+    is_island: true,
+    island_name: "Île de Lindau (Lac de Constance)",
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Hôtel de Ville Gothique & Renaissance (1422-1576), Escalier d'Honneur Couvert & Façades Peintes Historiques",
+    century: "XVIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 47.54603,
+    lng: 9.68407,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNGecxLT4bX-P9SmH59ydprXxELAHxlKzc_FexXqBp2_bnS_iHWxuutz1Z9_v55gxpzo-b60rcLd7eHqgFpKxsf4pkZQKxkM4m3_7b_H8s4VDMFfG5PdKgs0JDYSCUbxo_guRwy3QMEz0-bM07MFsjpjg=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPmeYo8oCMAKsfWKOum9ZZzQAukasLFIy1YgVhDqkh7bQ-udzAJQu1m_Vc1X7sLOfaWsWSOhn0aPFVfYaIw668c6i3CDQisMANkQx182oHrCuVEDOwC0SORv7yszFpZjJT5z7QXemxTiWsLA=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressé au cœur de l'île de Lindau entre la Bismarckplatz et la Reichsplatz, l'Ancien Hôtel de Ville (Altes Rathaus) constitue le monument civique le plus prestigieux et coloré de l'ancienne ville libre d'Empire. Édifié initialement en style gothique entre 1422 et 1436, puis profondément remanié et couronné d'un pignon à gradins Renaissance en 1576, cet imposant édifice témoigne de la puissance politique et économique des marchands et magistrats de Lindau — il accueillit même en 1496 la Diète impériale (Reichstag) convoquée par l'empereur Maximilien Ier.\n\nSa façade méridionale donnant sur la Bismarckplatz captive immédiatement le regard par son monumental escalier d'honneur couvert en bois sculpté qui grimpe extérieurement jusqu'à la galerie du premier étage, ainsi que par le spectaculaire cycle de fresques historiques peintes au XIXe siècle retraçant les grands épisodes de l'histoire de la cité, les vertus civiques et l'allégorie des arts et du commerce. Sur la façade nord tournée vers la Reichsplatz et la fontaine Lindavia, les cadrans solaires anciens, les armoiries impériales et les décors peints complètent ce chef-d'œuvre d'architecture municipale d'Allemagne du Sud.",
+    visiter: "Admirer les deux façades de l'Altes Rathaus au centre de l'île de Lindau : côté Bismarckplatz avec son grand escalier couvert en bois et ses fresques narratives colorées, et côté Reichsplatz face à la fontaine Lindavia.",
+    link: ""
+  },
+  {
+    id: "lindau_mangturm",
+    name: "Lindau - La Tour Mangturm & Promenade du Port (Île de Lindau - Lac de Constance)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Lindau (Bodensee)",
+    subdiv: "Lindau (Bodensee)",
+    altitude: 395,
+    is_island: true,
+    island_name: "Île de Lindau (Lac de Constance)",
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Tour de Défense & Ancien Phare Médiéval (Fin XIIe Siècle), Toit en Tuiles Vernissées Polychromes & Quais du Port",
+    century: "XIIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 47.54446,
+    lng: 9.68353,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOGDe3mmkkDip98MoxWqD-nJVK0RS1gLaHRIjqEEuO5WmCQaRVMXzYZUV1abQZZadYuwtDeoLH_Ip0utAtyUGjxgaF7ENWR3hYeOgoRzv0S3lHF3u_2X70ad-zgIjDuU5RlWoOKjeogdAPFkap0H5g3pQ=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMcldQxhT6DYHQnqwaBTki_PKBZOBzjlvTONVpwYBcokW2FCwMuI47rRvJTIg_VIfst8vO7Elo6R8aaJN32tdbNOwlzLv3mW6AETkoPv-mkjBA8d8T1ewC28knGjFzJI5Imq1PvWyRmtAExHXgAH1mvEw=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressée à trois cent quatre-vingt-quinze mètres d'altitude directement sur la promenade du port de l'île de Lindau face aux eaux scintillantes du lac de Constance, la tour Mangturm veille sur l'entrée maritime de la cité depuis plus de huit siècles. Érigée à la fin du XIIe siècle — vraisemblablement entre 1180 et 1200 — en puissants blocs de grès et moellons, cette tour carrée de vingt mètres de hauteur constituait à l'origine l'extrémité méridionale des fortifications médiévales de la ville ainsi que son tout premier phare et tour de guet guidant les embarcations naviguant sur le Bodensee.\n\nJadis entourée d'eau et reliée à la terre ferme uniquement par un pont-levis jusqu'au comblement d'une partie de l'ancien bassin au XIXe siècle, la Mangturm tient son nom de la maison voisine des drapiers (« Manghaus ») où l'on apprêtait les étoffes. Sa silhouette pittoresque est couronnée depuis le XIXe siècle d'une élégante toiture pyramidale élancée recouverte de tuiles vernissées polychromes vertes, jaunes et rouges qui scintillent au soleil sur fond d'horizon alpin, évoquant selon le folklore local la tour de Raiponce.",
+    visiter: "Se promener le long des quais du port de Lindau jusqu'au pied de la tour médiévale Mangturm pour admirer son appareil de pierre du XIIe siècle, sa haute toiture en tuiles vernissées colorées et le panorama sur le bassin portuaire.",
+    link: ""
+  },
+  {
+    id: "lindau_nouveau_phare_et_jetee",
+    name: "Lindau - Le Nouveau Phare & Le Lion de Bavière à l'Entrée du Port (Neuer Leuchtturm)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Lindau (Bodensee)",
+    subdiv: "Lindau (Bodensee)",
+    altitude: 395,
+    is_island: true,
+    island_name: "Île de Lindau (Lac de Constance)",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Plus Méridional Phare d'Allemagne (1853-1856), Jetée du Port & Statue Monumentale du Lion de Bavière",
+    century: "XIXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 47.54297,
+    lng: 9.68361,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMmtmL17iJwimbZYUuWKyuklDO9y2wsLGy096o16ICGcWgFq6PU9VAxUBtFIXMMscAHI1Guof0YRkpKqVToCqNqg-_1NDx4-Ft2z4y9UnWiQi7JmhlIs5XpEM_zNs1bxcAnG7c4dys4xEZpMOo0NoNZ1w=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN0B7sUvK3tnwNyKrEO67CicrnTzzh2fT_ixbAcc9pnEdMCryV3WqM_C8T5hgeskGwhMl4RQ5Tnf7OTPS9PpGQ6bz_mjBQIs88BAcSauXF8k8i-qBSc4PKfAFEtcr-Oogq1g5wrHOMi-gD9qd3N6OFRXA=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Encadrant majestueusement l'entrée maritime du port de l'île de Lindau sur le lac de Constance depuis le milieu du XIXe siècle, l'ensemble monumental formé par le Nouveau Phare (Neuer Leuchtturm) et le Lion de Bavière (Bayerischer Löwe) compose le panorama maritime le plus célèbre et photographié de tout le Bodensee. Édifié entre 1853 et 1856 sous le règne du roi Maximilien II de Bavière lors de la réorganisation du port ferroviaire et lacustre de Lindau, le Nouveau Phare — unique phare de Bavière et le plus méridional d'Allemagne — élève sa tour cylindrique élancée en pierre claire à trente-trois mètres au-dessus des flots, coiffée d'une lanterne rouge et d'un cadran d'horloge tourné vers le bassin portuaire.\n\nFace à lui sur le môle oriental veille l'imposante sculpture du Lion de Bavière, haute de six mètres et sculptée vers 1856 dans le grès de Kelheim par Johann von Halbig, scrutant fièrement le large en direction de la Suisse et de l'Autriche. Depuis la jetée et le chemin de ronde du phare, le regard embrasse un horizon grandiose où les eaux scintillantes du lac de Constance rencontrent les sommets enneigés du massif du Säntis, du Vorarlberg et des Alpes suisses.",
+    visiter: "Avancer jusqu'au bout de la jetée du port de Lindau au pied du Nouveau Phare de 1856 et du monumental Lion de Bavière pour contempler l'entrée maritime du bassin portuaire et le panorama grand angle sur le lac de Constance et les sommets alpins.",
+    link: ""
+  },
+  {
+    id: "lac_de_constance_bodensee",
+    name: "Lac de Constance - Le Grand Lac Alpin (Bodensee - Allemagne, Autriche & Suisse)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Lindau (Bodensee)",
+    subdiv: "Lindau (Bodensee)",
+    altitude: 394,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Troisième Plus Grand Lac d'Europe Centrale (536 km²), Traversé par le Rhin Alpin & Bordé par Trois Pays",
+    century: "Temps géologique",
+    category: "lac",
+    counts: { lac: 1 },
+    lat: 47.66906,
+    lng: 9.32984,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPmSfjrtMMiDzOk4I6MCZ72VMBhLrkm3eMeK_wLkbBQ4Un_EI08rZfsRm1KQs2mEUs73Qu0IJZUrsZCnRfZIKytrVxO4PEjuDNvZPDMW9kBQmDF1uacuL-170HeJcxeYXN_2JKOul5dQeBNiRQrR12pJA=w1367-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Étendu à trois cent quatre-vingt-quatorze mètres d'altitude au pied du versant nord des Alpes, à la croisée des frontières de l'Allemagne, de l'Autriche et de la Suisse, le lac de Constance (Bodensee) déploie une véritable mer intérieure d'eau douce de cinq cent trente-six kilomètres carrés qui en fait le troisième plus vaste lac d'Europe centrale après le lac Balaton et le lac Léman. Façonné durant les grandes glaciations quaternaires par l'immense glacier du Rhin, ce bassin long de soixante-trois kilomètres et profond de plus de deux cent cinquante mètres est alimenté et traversé par le Rhin alpin, qui y déverse ses eaux glaciaires avant de poursuivre son cours vers Bâle et la mer du Nord.\n\nDivisé entre le vaste lac supérieur (Obersee), le lac d'Überlingen et le lac inférieur (Untersee), ponctué d'îles célèbres telles que Lindau, Mainau et Reichenau, le Bodensee bénéficie d'un microclimat lumineux favorisant vergers, vignobles et jardins luxuriants sur ses rives, tandis qu'à l'horizon méridional se dressent les silhouettes majestueuses et enneigées des Alpes suisses d'Appenzell et du Vorarlberg autrichien.",
+    visiter: "Contempler depuis les rives et promenades du lac de Constance l'immensité lumineuse de ses eaux limpides traversées par le Rhin, les silhouettes des embarcations et le panorama lointain sur les cimes alpines de Suisse et d'Autriche.",
+    link: ""
+  },
+   {
     id: "grainau_pfarramt_st_johannes_der_taeufer",
     name: "Grainau - Église Paroissiale Saint-Jean-Baptiste (Kath. Pfarrkirche St. Johannes der Täufer)",
     country: "Allemagne",
