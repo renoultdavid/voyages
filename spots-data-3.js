@@ -7,6 +7,375 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "meersburg_vieille_ville",
+    name: "Meersburg - La Vieille Ville Haute & Basse (Oberstadt & Unterstadt - Lac de Constance)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Bodenseekreis",
+    subdiv: "Meersburg",
+    altitude: 429,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Cité Épiscopale du Lac de Constance, Maisons à Colombages & Pignons à Gradins (Oberstadt & Unterstadt)",
+    century: "XVIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 47.69465,
+    lng: 9.27234,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNKqXNzbz5MtjDSlv0UqCHsh9YleK-DumRp6y42hErRQ2psdxLHWBGYw9L8_NgLZAQWCfu9nWlO5RO488wA3diKG797c5AsjFebsOCMZOba9yMFbYBGp0aGNGIFPXs-o5L2w5Pxt2aMpBSEX0W36YyEjQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOi-x6hvMXqYXa5abf9X47ydnFF3GI3oXIBw6zFEqudqTtDBjmy4fGRfJZGGBmH4MhzRLQVaqLKvQ4pggdz4S_ArdjlBzfiqcb8CgVAkMdRaqcSDVcRyrND5m7wxRh4IEuqC1Rh8rYNmw-bNMzSyTp2yQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNpr3wVUgHPLHEsj5DZMlpTqkjQzd2xRTJeXEpCUZH-8dEzIrxc2jB-sdP77o6fLF_yOSD9J1GsoxI_LDbowRep2yF7YtSJglggYo2fHxVhnfPOM__eL6my4D6e-C-8eQD1XayR0PhfRGK6eq-A6NoHHw=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN8qY_pl5EeYxo9mguy0PXkxSR7YJcX_SHkRVh1MKRt9eTb7tr1O3YZN9dDXKfGLN8wrvQl1MKG-k-bJSTFNEAUHKvpQnZD0_oQ_g1I1Cn0HvU8SSTYZK8gdAj9H55ha9DI3boygxkxCWmlLTClu1uMaA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNp3L3AO0ifa7Y9kO19X-ApjpCwl2kLc-UMdcL4UgVUu9uUAkd97NOMUjavXY6CA1z2XNQhRrpfTFDZhWWdxoLACXC4C4Blv93--V2n5jzNSfd5Z-s7PC_k_YpsYZbUTYjXhZOX1VrXafN_rJA5Zi6wTA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNbv6Egc5HEOQxVaP0YKia9Ezbk4nFZ7hwse__qUay0khvK2fkH_9DaXhwdoY4cXIogkHTO33lWBOxPsdjZ_C9UeEPrc0CP2rnaGQZ5Th3MZH7VAHztd8NVFOQSLD1Y605C91uTtJKkTeI42yKtWQjmEg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPX_kwaBT2qRWas1AqBP0cd6TxV1gWdJhnKhOluzQ42TSR3xsL-GdWJyg-T4oPG-zqhoyF3hlYz4UWRkM8OaMPjSNBIedOK2O5ehtzr8THvNlUVdCiqgcysZJepTrINRB2Q2gRGNBL5eZeI1SiOXm8vHA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Étagée en amphithéâtre sur un coteau abrupt dominant les eaux lumineuses du lac de Constance (Bodensee) au Bade-Wurtemberg, la vieille ville de Meersburg compose l'un des ensembles urbains les plus pittoresques et préservés d'Allemagne du Sud, articulé entre la ville haute (Oberstadt) et la ville basse (Unterstadt) reliées par des escaliers et des ruelles pentues. Pendant près de trois siècles, jusqu'en 1802, la cité servit de résidence aux princes-évêques de Constance, ce qui lui conféra un rayonnement politique et architectural remarquable au cœur d'un terroir viticole réputé s'étendant jusqu'au bord du lac.\n\nDans la ville haute, les places animées et les ruelles bordées de maisons à colombages, de façades pastel et de pignons à gradins entourent le Vieux Château médiéval et le Château Neuf baroque, tandis qu'en contrebas la ville basse déploie ses demeures anciennes, ses cours vigneronnes et ses placettes ombragées à deux pas des rives et du port.",
+    visiter: "Flâner à pied entre la ville haute (Oberstadt) et la ville basse (Unterstadt) de Meersburg pour admirer les maisons à colombages, les pignons à gradins, les ruelles fleuries et les échappées sur le lac de Constance et les vignobles.",
+    link: ""
+  },
+  {
+    id: "meersburg_moulin_historique",
+    name: "Meersburg - Le Moulin Historique de Meersburg (Meersburger Mühle - Lac de Constance)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Bodenseekreis",
+    subdiv: "Meersburg",
+    altitude: 429,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Moulin Traditionnel de la Cité Épiscopale de Meersburg, Architecture Rurale & Mémoire Meunière",
+    century: "XVIIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 47.69386,
+    lng: 9.27134,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPTToaea7b71_bm7lkfTFSuFRE2_NnsItXssL1U5N241vSF4u1DSudp9LU-p2piUk_XTHwLI489zHRWYpZ9-Qo9jLVxgPesYwGq2Cj1bFk6INsMzsSV22YcMwWx_XiGjz8-6ludtVg4Xwi2Vp-5Frr7-w=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOu53UNUnt3SNotVauY7pT5ckZ5sa8MrJg5f_1LzbZFiiWYFtnWxI5I0_5jFOqBaI5JoBsf3tASLPd_NeImEWnzNFFQ-h9HAMdvGNHW_ywLTXUPe2fWR_-sj7F7CWcVPku7-42Blo5BNycgknNNKiRyeg=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Implanté à quatre cent vingt-neuf mètres d'altitude au cœur du tissu historique de Meersburg sur les rives du lac de Constance, le moulin de Meersburg témoigne des activités artisanales et vivrières qui animaient autrefois cette cité épiscopale perchée au-dessus du Bodensee. Dans un bourg où l'économie mêlait étroitement la viticulture sur les coteaux ensoleillés, le commerce lacustre et l'artisanat local au service des châteaux et des habitants, ce bâtiment patrimonial s'intègre harmonieusement au milieu des maisons traditionnelles, des murs de pierre et des toitures pentues de la ville.\n\nSon architecture sobre et fonctionnelle, marquée par la maçonnerie traditionnelle, les encadrements clairs et la patine du temps, rappelle le rôle essentiel des moulins dans la transformation des céréales et la vie quotidienne des communautés riveraines du lac de Constance avant l'ère industrielle.",
+    visiter: "Découvrir le moulin de Meersburg au fil d'une promenade à pied dans les ruelles de la cité pour apprécier ce témoignage d'architecture artisanale et rurale intégré au cœur historique de la ville.",
+    link: ""
+  },
+  {
+    id: "stein_am_rhein_untertor",
+    name: "Stein am Rhein - La Porte Basse (Untertor - Haute Vallée du Rhin)",
+    country: "Suisse",
+    continent: "Europe",
+    flag: "🇨🇭",
+    region_admin: "Schaffhouse",
+    department: "Schaffhouse",
+    subdiv: "Stein am Rhein",
+    altitude: 403,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Porte Fortifiée Médiévale de Stein am Rhein (403 m), Tour-Porte & Accès au Cœur Historique sur le Rhin",
+    century: "XIIIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 47.66088,
+    lng: 8.85771,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPXSWU_iZvEYOdebLykqvXfxv-nMTVk8_aV37CsZa6M3BMqJSfKALCU96UwZSZM2EsPM7EsTGW9kqvZS_KrcA6PnrSr0wDd9uo79Gbs4nEs7TpIqVN9ey0oGR2PVhmMeY3XCXLlepA3wgK9e2NA8aMPGQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNTQAmQsR30AzBHjv9-dCpamzfLf1TXo5JDpP7jHu1gqm5h-4j-KallpgHFOEha_-yWm8623vmJUUmrBfFEqa-3ZmSoXBfWHCnVakPD6uVwie5giDOKk6CCK_rLlIVUZRkD547jgBTxOXxXXWL-EDIugg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM2Uzn2QXsAK7XHPh84u5guLoj7ShwdPtB_v6PSZjqE2Yn-VUQCKem1GoXeZJCJaFvV1IQ8yORHPlN_RcTCMKbtQ2o49mO6sEMIEPmXyyk8WwHJK6U8GUjazX4_u1QFC13drdbz8a2xCmvQYlnwgia9xg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressée à quatre cent trois mètres d'altitude à l'extrémité occidentale de la cité médiévale de Stein am Rhein, dans le canton de Schaffhouse en Suisse, à l'endroit où le Rhin quitte le lac de Constance (Untersee) pour entamer sa descente vers les chutes du Rhin, la porte basse (Untertor) marque l'un des accès historiques majeurs de la vieille ville. Érigée au Moyen Âge dans le cadre de l'enceinte fortifiée protégeant le bourg et le pont sur le fleuve, cette tour-porte massive aux murs épais et aux ouvertures défensives témoigne de l'importance stratégique et marchande de Stein am Rhein sur la voie fluviale rhénane.\n\nFlanquée de maisons anciennes aux façades soignées et couronnée d'une haute toiture traditionnelle, la porte ouvre directement sur les ruelles et les places de la cité historique où se déploient les célèbres maisons à encorbellements et fresques peintes. Franchir l'Untertor, c'est passer des abords fluviaux et ferroviaires à l'atmosphère préservée d'un bourg médiéval et Renaissance d'une rare homogénéité.",
+    visiter: "Franchir à pied l'Untertor à l'entrée occidentale de la vieille ville de Stein am Rhein pour observer l'architecture fortifiée de la porte et pénétrer directement vers la Rathausplatz et les maisons peintes.",
+    link: ""
+  },
+  {
+    id: "stein_am_rhein_vieille_ville",
+    name: "Stein am Rhein - La Vieille Ville Médiévale & Renaissance sur le Rhin (406 m)",
+    country: "Suisse",
+    continent: "Europe",
+    flag: "🇨🇭",
+    region_admin: "Schaffhouse",
+    department: "Schaffhouse",
+    subdiv: "Stein am Rhein",
+    altitude: 406,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Cité Historique Préservée sur les Rives du Rhin, Encorbellements, Colombages & Façades Peintes (XV-XVIIe Siècles)",
+    century: "XVIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 47.65950,
+    lng: 8.85925,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNMZPXUZJQ4eOLsQhmUFnmCy81wx6Sjy44GQkWuUX9bLch1mFQIgMmeXdFIMn5dcabGQ01PFpDCzLsImxQ-QB9TyJ8d6z3d4VDopZ93K-fNg8wZUVUoAs4qk97oOWFaYupf-XIKAPaj10PBtrVtK4odjw=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPAVWgQRBhL7T4qdut1E3d9SarrMVuHdFcaasMyoCgN86Buw-eWvNo827rZlb77MtdyxHROB6xiug5Hpzn7jW8rYDTmdLAniM7E3kPaxSSImGyLl0gB-a5fxgr1i0wIStrkdneCt5nc5OLsafGCBl4C0Q=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Blottie à quatre cent six mètres d'altitude sur la rive droite du Haut-Rhin à la sortie du lac de Constance dans le canton de Schaffhouse, la vieille ville de Stein am Rhein constitue l'un des centres historiques les plus remarquables et photogéniques de Suisse. Prospère dès le Moyen Âge grâce à l'abbaye bénédictine Saint-Georges, à son pont sur le Rhin et à ses privilèges commerciaux, la cité a conservé un tissu urbain d'une authenticité saisissante mêlant maisons à colombages, pignons sculptés, cours intérieures et ruelles pavées.\n\nAu fil des promenades à pied entre le fleuve et les remparts supérieurs dominant les vignobles, les demeures anciennes déploient des boiseries ouvragées, des oriels et des décors peints qui confèrent à l'ensemble une unité visuelle rare. Chaque détour de ruelle ou de placette révèle l'harmonie entre la rivière limpide, l'architecture bourgeoise et monastique et les collines environnantes.",
+    visiter: "Déambuler à pied dans les ruelles pavées de la vieille ville de Stein am Rhein entre les rives du Rhin et les hauteurs viticoles pour admirer les maisons à colombages, les encorbellements et l'atmosphère préservée du bourg.",
+    link: ""
+  },
+  {
+    id: "stein_am_rhein_rathausplatz_et_maisons_peintes",
+    name: "Stein am Rhein - La Rathausplatz & Les Maisons Peintes à Fresques (Haus zum Weißen Adler & Vorderes Rathaus)",
+    country: "Suisse",
+    continent: "Europe",
+    flag: "🇨🇭",
+    region_admin: "Schaffhouse",
+    department: "Schaffhouse",
+    subdiv: "Stein am Rhein",
+    altitude: 406,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Place de l'Hôtel de Ville, Fresques de la Renaissance sur Façades (XVIe Siècle) & Encorbellements Sculptés",
+    century: "XVIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 47.65941,
+    lng: 8.85932,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPq3tHLbwJDma81Tx2AjpuGXsg-2MttPGgl4YaeF7vivRy6iIGZMRUYklRnIVRjckrbq8N_1pqtbjw5FyGKAnKt6oHf4-Gc1RqIj_93Uayg89LIJ1_NNzwvy_VMhz10Jr0It_GQt6171-ScO7vcjWZ5JQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOujUTyQ6AXzAXH8m45GS79TNdOqwgJS2Qy0fxSUEF_8rCTf_UouagNFMrKM-tkkTPCeZLMBmpoKY3qJVIgbxzxsIhNdZH0qR_4wMBd4t-QNpm9c1VTE6BCsFmtGCsmwy277cLUQ7F9NSXbkNpVJHbRoA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOBw7XXt2w0HdP9UbclQPQAyaFi8A3nHQ_dG8WXbzdsNflzqe8syAfGg-dxPHCBCJ_QqRpdz6xIPhVTF0ho9CIfm6wF8eqsOrMO3LDWa97SN8URD8SsvAkfh8Byd_gBE1EXeI_e5T8DpoMuJtiDaVmEkQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMcd_F_hgBzGXixVEmFMcXPM58l5QZ6C3Z8xNaZZYmaY0gpZQg7yRFYZaQ2_QxT73iB0d1WNDJcsOil_QAGRkxtCqKt6lfsvf7GXJFEqL_ll7pijEjkIV7IVwo6ezcdCC931HP7WejSCqtOVNYFLA827g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN4RmyJ1vRfCSUAzuqZ1PlQEXHDfJTx5vMrBmjWkWazPKipXg-JD3GvhrxnNVunOFJluZ660mZuDm7_7cxChp_MNAW-fEGQfaErNu-SGr9EkvZj38-UN8h4ONf6GuvaVig1SV-oMHWKtZeikIR0IrBE6w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOhyXrprQFuA7hnF2e0O-Z3ofxPAVLEIb2BXoQr27R0CH7ihgcgls9p1sLNSfWdqChAmtbrsgnFdV2kLGAgRxgvau2vbx8XEwXcQ7BJgiV_SYLxF9m_TgOMckBbT4a-xjfIA32A_wjufrzp00WuJsX23A=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Au cœur même de la vieille ville de Stein am Rhein, à quatre cent six mètres d'altitude, la Rathausplatz et les rues qui en rayonnent offrent un spectacle architectural et pictural hors du commun grâce à leurs célèbres maisons peintes à fresques dès la Renaissance et l'époque moderne. Autour de l'Hôtel de Ville (Rathaus) et de demeures emblématiques telles que la Haus zum Weißen Adler (« à l'Aigle Blanc ») ou la Haus zum Roten Ochsen, les façades se couvrent de compositions murales foisonnantes mêlant figures mythologiques, scènes allégoriques, motifs végétaux, armoiries et devises inscrites.\n\nCes fresques extérieures, souvent complétées par de larges encorbellements en bois ou en pierre et par de hauts pignons à redents, transforment la place en une véritable galerie d'art à ciel ouvert animée par la lumière changeante du jour. L'ensemble témoigne de la prospérité et du goût raffiné des bourgeois et corporations de Stein am Rhein aux XVIe et XVIIe siècles.",
+    visiter: "S'attarder sur la Rathausplatz à Stein am Rhein pour observer en détail les fresques murales peintes sur les façades des maisons bourgeoises, les encorbellements sculptés et l'architecture de l'Hôtel de Ville.",
+    link: ""
+  },
+  {
+    id: "stein_am_rhein_pont_sur_le_rhin",
+    name: "Stein am Rhein - Le Pont sur le Haut-Rhin & Vue sur la Cité (398 m)",
+    country: "Suisse",
+    continent: "Europe",
+    flag: "🇨🇭",
+    region_admin: "Schaffhouse",
+    department: "Schaffhouse",
+    subdiv: "Stein am Rhein",
+    altitude: 398,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Franchissement du Haut-Rhin à la Sortie du Lac de Constance, Eaux Limpides & Vue d'Ensemble sur Stein am Rhein",
+    century: "Temps géologique",
+    category: "panorama",
+    counts: {},
+    lat: 47.65829,
+    lng: 8.85899,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP7WSTPfUFEybjiVzgOpm7nxYBnUlDpXAHVaADl_xMIZcstO4VI4GNvaBkBluTZmoguXuBcqlQzhwVJnOYOe2HsIiwsGdWtlh522uiE5GFnxG4q1gLgaYU4z4F-SFSfwIocy5xtW7doLWC7pJ7KNvobOA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMx4naFp1OvsWZTpW661Bz_AVTPZngCBbYb4tsNcQhEIWO44_3A9io_b8xk4QbYEqanWZCRxHSjGn5xLtbbA4aCA3-5Kdjz6Y3d9QVN27MXAAGnAnIi8sBTzAE85P17O-y0InMCgNS1DKroTSBrPBM2ww=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Enjambant à trois cent quatre-vingt-dix-huit mètres d'altitude les eaux claires et vives du Haut-Rhin juste à l'aval de la sortie du lac de Constance, le pont de Stein am Rhein relie les rives de la cité dans le canton de Schaffhouse tout en offrant l'un des plus beaux points de vue panoramiques sur l'ensemble urbain et fluvial. Depuis le tablier du pont et les berges voisines, le regard suit le courant limpide où se reflètent les façades anciennes, les toitures et les arbres riverains, tandis qu'en amont s'ouvre l'horizon lacustre de l'Untersee et qu'en aval la rivière s'engage vers la vallée rhénane.\n\nCe passage fluvial rappelle le rôle séculaire du franchissement du Rhin dans l'essor de Stein am Rhein, à la fois lien vital entre les rives et belvédère privilégié pour saisir d'un seul coup d'œil la silhouette de la vieille ville et la quiétude des eaux courantes.",
+    visiter: "Emprunter à pied le pont sur le Rhin à Stein am Rhein pour contempler le courant limpide du fleuve, les reflets des rives boisées et la vue d'ensemble sur la vieille ville et les coteaux environnants.",
+    link: ""
+  },
+  {
+    id: "stein_am_rhein_cloitre_saint_georges",
+    name: "Stein am Rhein - L'Ancien Cloître Bénédictin Saint-Georges (Kloster St. Georgen)",
+    country: "Suisse",
+    continent: "Europe",
+    flag: "🇨🇭",
+    region_admin: "Schaffhouse",
+    department: "Schaffhouse",
+    subdiv: "Stein am Rhein",
+    altitude: 403,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Ensemble Monastique Bénédictin Médiéval & Renaissance (XIe-XVIe Siècles), Cloître, Peintures Murales & Jardin",
+    century: "XVIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.65863,
+    lng: 8.85984,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMp7na-QFZYshvG5Zo-Yj79RTGHGSojIbhT5fuJ6UFu9-sHmaaxzSFJFRdx2tcptVWf3SjFBphKDJpEMp0qdIj4BkBjr6ldKYrowyh5CnnIxm4JZTjh0krcQsyc8KGFI-8JMZb7cRgk8OsRM1Ji6nt9Mg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMbKn2gqdRxWPnQs-t2yHOgWNoHXQYWqzYJfYNiEASAOeQrdDJjmUooOeLhPDUcTzZoZWBNCVNvNnSl672eozuz1qkydXAxJSBJpMue3rbL-wZWYzfe9b6pHMAjts-cSntCWT4li3Q-Pxfyv3UlBrsSXg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNH9C5hw-9THtaCSROEfI6v9QfEYfwWkaUtXc47fy79UV1LKKwUa98rZdo965AtIPlbajW8FkRPW9cMFj5Uxt5LKqC3OQKBCwEidIzeYAvCs84d0_WPBnMEYsYl23jpUgeg7v1ki6M87HSSfCNyQ7cCyA=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Établi à quatre cent trois mètres d'altitude à l'extrémité méridionale de la vieille ville de Stein am Rhein, tout près des rives du Rhin, l'ancien monastère bénédictin Saint-Georges (Kloster St. Georgen) constitue l'un des ensembles monastiques médiévaux et Renaissance les mieux conservés de Suisse. Transféré ici au XIe siècle depuis le Hohentwiel avant d'être profondément reconstruit et agrandi aux XVe et XVIe siècles, le complexe réunit l'église abbatiale, le cloître, la salle capitulaire, les bâtiments conventuels et le jardin abbatial dans un écrin d'une remarquable sérénité.\n\nLes galeries du cloître et les salles historiques conservent de précieux décors peints Renaissance, des boiseries sculptées et des espaces intérieurs illustrant la vie quotidienne et spirituelle des moines bénédictins jusqu'à la Réforme puis la transformation de l'ensemble en musée. Ce sanctuaire de pierre et de bois offre un contraste apaisant avec l'animation des ruelles commerçantes voisines.",
+    visiter: "Découvrir l'ensemble monastique Saint-Georges au bord du Rhin à Stein am Rhein pour parcourir les galeries du cloître, admirer les décors peints anciens et profiter du calme des cours et jardins de l'abbaye.",
+    link: ""
+  },
+  {
+    id: "stein_am_rhein_altes_klosterspital_buergerasyl",
+    name: "Stein am Rhein - L'Altes Klosterspital / Bürgerasyl (Ancien Hôpital & Hospice Bourgeois)",
+    country: "Suisse",
+    continent: "Europe",
+    flag: "🇨🇭",
+    region_admin: "Schaffhouse",
+    department: "Schaffhouse",
+    subdiv: "Stein am Rhein",
+    altitude: 406,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Institution Hospitalière & Caritative Historique de Stein am Rhein, Architecture Urbaine & Vie Civique",
+    century: "XVIIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 47.65943,
+    lng: 8.85996,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNl9lYKogesE-wmSke30sucKemNScSX_x2j3SCKnngwLalarjq_vy-JERFVQHaFTIAtto7eWm542pU3uF0ioPRFDd3DbaErms3FLhQULpycQzbpvpBgVJYzQamxW_w2ex7bNbcoc79HHvG1-D4RhVHuCA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP2rXS3cBaaXwZWaHL9eTlvrCPf_E0uupGmB63GbK6zs3jf3YkZ8XbHPh77xtWB1kc-mzEG4WSrmhlUkS3fvnSZPlnLwN60LMS7fTo7kyLlVceESXJQnCH9Y-KnmR7RWNwZbLiqI93VvmOI7d6Xu4MwBg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOOqGzAu6ocpwm9VBmdFFqNCVT9Ix1Te552DZjzYAD2Vu2svvWkOeQ24jlo1ea7GZgtU1Ri6Li7oYCvROkzBUtSq7tb5QHcYth8Q--HXdkSl4ZKXpvZOP51Exey4oIC7k8Xup9srLhgNFi4cQXC8l34Dg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Situé à quatre cent six mètres d'altitude dans le secteur oriental de la vieille ville de Stein am Rhein, à proximité de l'ensemble abbatial Saint-Georges dans le canton de Schaffhouse, l'Altes Klosterspital / Bürgerasyl perpétue la longue tradition d'assistance, d'accueil et de solidarité civique de la cité rhénane. Héritier des fondations hospitalières et monastiques d'autrefois dédiées aux malades, aux voyageurs et aux bourgeois âgés, l'édifice s'inscrit avec discrétion et dignité dans le tissu urbain historique du bourg.\n\nSes façades traditionnelles, ses volumes sobres et son insertion au cœur de la ville ancienne rappellent l'organisation sociale et caritative des cités suisses de l'époque moderne, où l'assistance aux plus fragiles s'inscrivait au cœur même de la vie communautaire et paroissiale.",
+    visiter: "Observer l'Altes Klosterspital / Bürgerasyl lors d'une promenade à pied dans le quartier oriental de Stein am Rhein pour apprécier ce témoignage de l'histoire hospitalière et civique de la cité.",
+    link: ""
+  },
+  {
+    id: "neuhausen_chutes_du_rhin",
+    name: "Neuhausen am Rheinfall - Les Chutes du Rhin (Rheinfall - Plus Grande Cascade d'Europe en Débit)",
+    country: "Suisse",
+    continent: "Europe",
+    flag: "🇨🇭",
+    region_admin: "Schaffhouse",
+    department: "Schaffhouse",
+    subdiv: "Neuhausen am Rheinfall",
+    altitude: 367,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Plus Grande Chute d'Eau d'Europe par Son Débit (150 m de Large), Verrou Calcaire Jurassique & Châteaux Dominant le Fleuve",
+    century: "Temps géologique",
+    category: "cascade",
+    counts: { cascade: 1 },
+    lat: 47.67774,
+    lng: 8.61536,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOO0yHAn-wMRj6krtt3IHf-t9UHX3MzIsu7JcYZIifE3m9nP_F_x6r__VYo0oyRrhO1yJ3JjDu25DnoIiyg1tON28Mz0LHal1xl_4pB_MZ4OhZnRLpD5j-tWspbuhdAdbfQm1CGM_XX7o44n5AmfsyamA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOHCIdPQY7lHg0IKYqbtyej2REgcBinTs3kFyR6ZOwmYpYqOv51ghWEpMw4NgHX_yGpwGGkRPKhZvQJUu-IgxkoE_8At_JscSE8jSVzoLuQctwkQJ8ynJKK1D7V8zrOEIOA0DjME0GSrPYDEqyIgU78Gg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNZdRvd7QBXfL2JQwEc9zP5bgAK0Q_6sDhZr9jTr5G3EIdUvlK2MNtxENwyB1gMltZagitvTOOUt0ukOPB_0MKnZQ8RBBcguT8c9v5HuKYpVwl9CtrXOnR2OjouocHUshIbtqvmSHj-cmVB8WmMulQntg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO5CPJVAm_W52_C_q5NKu0tXz0IJRYVIAq_lBOhhac6bUOvOMOizOu8fUdbJdKdYeibe084Qg_mFsN2riljH9zyw7ck3b5MRyQ_84lUXfuapLuqllNw9FTu79fRXXmIdWQKaGXzTd1dlaL0WxbTRo8ESg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPSyfEjE7Wzt2ffzMFBijg0hRUfMZB-OcdVockF0yxIDrs1lfHbKxTPhOrstbO5dK2t3Y9htArN0xytZXh7bd_mNQ5iYmKL2ep-w1OwTuVqmhbdv987s0xwMAt5uxHjvKmhwNv8NeiXUzdDFP3W-EHCUQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Précipitant à trois cent soixante-sept mètres d'altitude les eaux puissantes du Haut-Rhin sur une largeur d'environ cent cinquante mètres et une hauteur de vingt-trois mètres entre Neuhausen am Rheinfall et Laufen-Uhwiesen, à l'ouest de Schaffhouse en Suisse, les chutes du Rhin (Rheinfall) constituent la plus grande chute d'eau d'Europe par son débit moyen. Façonnées il y a environ quatorze mille à dix-sept mille ans à la fin de la dernière glaciation lorsque le Rhin fut dévié de son ancien lit vers un seuil de calcaire jurassique résistant, les eaux se fractionnent autour d'un piton rocheux central en nappes écumantes et bouillonnantes dans un grondement continu et spectaculaire.\n\nEncadré par les rives boisées, le château de Laufen dominant l'abîme sur la rive gauche et le château de Wörth à proximité du bassin aval, le site offre un spectacle naturel d'une force saisissante, particulièrement impressionnant au printemps et en été lors de la fonte des neiges alpines qui gonfle considérablement le volume des eaux.",
+    visiter: "Approcher à pied des passerelles et belvédères surplombant les chutes du Rhin à Neuhausen am Rheinfall pour ressentir la puissance du courant, observer les nappes d'écume autour du rocher central et contempler les rives encadrant le fleuve.",
+    link: ""
+  },
+  {
+    id: "titisee_neustadt_lac_de_titisee",
+    name: "Titisee-Neustadt - Le Lac de Titisee (Forêt-Noire - 847 m)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Breisgau-Hochschwarzwald",
+    subdiv: "Titisee-Neustadt",
+    altitude: 847,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Lac Glaciaire Emblématique de la Haute Forêt-Noire (847 m), Sapins d'Altitude & Eaux Limpides",
+    century: "Temps géologique",
+    category: "lac",
+    counts: { lac: 1 },
+    lat: 47.89928,
+    lng: 8.15222,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNXk6Bx0LKRX-LFBBqrzDP8SeFUlECroVC61CdfcYm3t3POeB3ZuHd6maTRog5BDPQyCw1OiOAiBCgSC8AeH2fAUt4_k-OehYYIhPb5XDFXJcukPLXzoDGgi9VtJvINvia-FHj-VfUgp4_-NVdUWbdgbQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Niché à huit cent quarante-sept mètres d'altitude au cœur de la Haute Forêt-Noire (Hochschwarzwald) au Bade-Wurtemberg, à proximité du Feldberg, le lac de Titisee déploie un bassin glaciaire d'une grande pureté entouré de pentes boisées de sapins et d'épicéas sombres qui lui confèrent son atmosphère montagnarde si caractéristique. Façonné durant les glaciations quaternaires par le glacier du Feldberg qui creusa la cuvette avant que des moraines frontales n'en retiennent les eaux, ce lac d'environ deux kilomètres de long offre une surface calme et limpide reflétant la forêt et la lumière changeante du plateau.\n\nBordé de sentiers de promenade, de rives ombragées et de petites embarcations animant le plan d'eau aux beaux jours, le Titisee constitue l'un des sites naturels les plus emblématiques de la Forêt-Noire, alliant fraîcheur forestière d'altitude et douceur des rives lacustres.",
+    visiter: "Longer les rives aménagées et les sentiers boisés entourant le lac de Titisee à 847 mètres d'altitude en Forêt-Noire pour contempler les reflets des sapins dans ses eaux claires et profiter de l'air vivifiant d'altitude.",
+    link: ""
+  },
+  {
+    id: "titisee_neustadt_cuckoo_clock_titisee",
+    name: "Titisee-Neustadt - La Grande Horloge à Coucou du Titisee (Kuckucksuhr - Forêt-Noire)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Breisgau-Hochschwarzwald",
+    subdiv: "Titisee-Neustadt",
+    altitude: 847,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Artisanat Traditionnel de la Forêt-Noire, Sculpture sur Bois & Mécanisme Horloger Régional",
+    century: "XIXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 47.89864,
+    lng: 8.15506,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMIMXRUKnBqq9p6bRFWpPde1dTHBl6Z-AkbwQ6fOTAzb6hP7dl330PXWGXM_iJI0c6Hg4hLhmdbk3KJgzdYlE5OX-bdcyOUlifzP_dKqAdSWatMclG93d-uEIqo7sQvklDND3uVrcMNo3N6BhmqRJSD7g=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Installée à huit cent quarante-sept mètres d'altitude aux abords du lac de Titisee en Forêt-Noire, la grande horloge à coucou (Kuckucksuhr) met à l'honneur l'un des savoir-faire artisanaux les plus célèbres et emblématiques du Bade-Wurtemberg, né au cœur des vallées forestières isolées au XVIIIe siècle avant de s'épanouir au XIXe siècle. Façonnée dans la tradition des chalets et pendules de Forêt-Noire, l'œuvre associe le travail minutieux de la sculpture sur bois — feuilles, animaux forestiers, scènes rurales et toitures débordantes — à la précision des mouvements horlogers régionaux.\n\nSymbole populaire et culturel immédiatement identifiable de la région, cette réalisation rappelle comment l'artisanat du bois et l'horlogerie ont permis aux habitants des hauteurs de la Forêt-Noire de développer un art subtil et reconnu bien au-delà de leurs montagnes.",
+    visiter: "Observer la grande horloge à coucou près du lac de Titisee à Titisee-Neustadt pour apprécier la sculpture sur bois et ce clin d'œil à l'artisanat traditionnel de la Forêt-Noire.",
+    link: ""
+  },
+   {
     id: "schwangau_chateau_de_neuschwanstein_marienbruecke",
     name: "Schwangau - Château de Neuschwanstein depuis le Pont Marienbrücke (Alpes d'Allgäu)",
     country: "Allemagne",
