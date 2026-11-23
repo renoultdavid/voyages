@@ -7,6 +7,151 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "fribourg_en_brisgau_schwabentor",
+    name: "Fribourg-en-Brisgau - La Porte de Souabe (Schwabentor - Forêt-Noire)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Fribourg-en-Brisgau",
+    subdiv: "Fribourg-en-Brisgau",
+    altitude: 287,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Porte Fortifiée Médiévale de la Ville Haute (Vers 1250), Fresque de Saint Georges & Accès aux Coteaux de la Forêt-Noire",
+    century: "XIIIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 47.99296,
+    lng: 7.85414,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPpIRz2ztOPerw8rWIO91eXYQmQwD4ImbUnGbkte52D6G-BlvJ2BAI0oSremFyDUGaduHQqDUO19_le7Ijvm6TXhSZT7Z5rC0pAGdoEN0cH6P3KDlutlrOijQUzbdTUAzFy3qJvrEuUfzi4vUw3ec5YRg=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNtLuLR55jRuKwBaRq1aXyfx1ZuMpVLAOXjjMLINc0w7dnH__wZjlKSYKGwIDA3hS-AAlvq947PL4AxwiYryfDS_2xmaXO8Mzl-lNN7bZyZ_3j1ZM5uQr9Sg0hBuefjFLJCOTpWJbJQAFfaKOb-9ggLeA=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNWwhVUcdsRE6kTfuXqlYA8M5mxz-uUF-FH5DWZhBKmJEAoRBLKcb4ia4Pqqb2N2N9898mILB8x67kQU6oC9lawvWUTNRhwqFG4IehmRADOuBP9YU0EyII6SseEIkjctEFx2S3QPpBtqO5tJNAsdrukFA=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressée à deux cent quatre-vingt-sept mètres d'altitude à l'extrémité orientale de la vieille ville de Fribourg-en-Brisgau dans le Bade-Wurtemberg, au point où la route séculaire franchissait le ruisseau du Gewerbekanal en direction de la Forêt-Noire et de la Souabe, la porte de Souabe (Schwabentor) constitue l'un des plus remarquables vestiges des fortifications médiévales de la cité. Érigée vers le milieu du XIIIe siècle — peu après la fondation de la ville par les ducs de Zähringen au XIIe siècle — pour défendre l'accès oriental et canaliser les flux des marchands, voituriers et voyageurs, cette haute tour-porte carrée fut rehaussée au début du XIVe siècle puis couronnée au XVIe siècle d'une toiture pyramidale pentue coiffée d'un clocheton élancé.\n\nSa façade tournée vers l'extérieur s'orne d'une imposante fresque murale peinte en 1903 par l'artiste fribourgeois Fritz Geiges, représentant saint Georges terrassant le dragon sous le regard des bourgeois et des chevaliers, tandis que le passage voûté conserve le charme des ruelles adjacentes animées par les petits canaux pavés (« Bächle »). Symbole vivant de l'histoire médiévale de Fribourg aux portes de la Forêt-Noire, le Schwabentor marque aujourd'hui la transition entre le centre historique animé et les montées vers le Schlossberg.",
+    visiter: "Franchir à pied la tour-porte médiévale du Schwabentor à l'est de la vieille ville de Fribourg-en-Brisgau pour admirer sa silhouette fortifiée, la fresque de saint Georges sur sa façade extérieure et le quartier historique des Bächle menant vers la Forêt-Noire.",
+    link: ""
+  },
+  {
+    id: "fribourg_en_brisgau_cathedrale_notre_dame",
+    name: "Fribourg-en-Brisgau - Cathédrale Notre-Dame de Fribourg (Freiburger Münster)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Fribourg-en-Brisgau",
+    subdiv: "Fribourg-en-Brisgau",
+    altitude: 277,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Flèche Gothique Ajournée de 116 m (Vers 1330), Portail Sculpté Polychrome, Verrières des Corporations & Polyptyque de Hans Baldung Grien",
+    century: "XIVe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.99561,
+    lng: 7.85258,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN0dkTTPbgIcskB__7p96Mp5cnIhxPvOuHaRuOPt9svMSjn2klZhgiLx4KmGQWaOj7VNIV-wzTOYyD82rOcqBywZPZ03Kv3S1x-6kVuT7f8MKgp68VTbURIFKWF1LWVUHe4FhTl-nDOPJ4V6-8tXPRYIQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Dominant la vaste place du marché (Münsterplatz) à deux cent soixante-dix-sept mètres d'altitude au cœur de Fribourg-en-Brisgau dans le Bade-Wurtemberg, la cathédrale Notre-Dame (Freiburger Münster) déploie l'un des chefs-d'œuvre absolus de l'architecture gothique germanique, bâti en grès rouge des Vosges et de la Forêt-Noire à partir du début du XIIIe siècle sur les fondations d'une église romane antérieure. L'édifice conjugue avec maestria la verticalité élancée de sa nef et de son chœur gothique tardif à la prodigieuse flèche pyramidale octogonale de sa tour occidentale, achevée vers 1330 dans une dentelle de pierre ajourée d'une légèreté et d'une audace structurelle sans pareille dans l'histoire de l'art médiéval.\n\nDe son porche occidental sculpté aux riches verrières financées par les corporations de métiers et au retable Renaissance de Hans Baldung Grien, chaque espace du sanctuaire témoigne de la ferveur civique, de la maîtrise des maîtres d'œuvre et de la splendeur artistique du Rhin supérieur.",
+    intro_page: "Dominant la Münsterplatz au cœur de Fribourg-en-Brisgau en Bade-Wurtemberg, la cathédrale Notre-Dame (Freiburger Münster) réunit trois siècles de création gothique et Renaissance en grès rouge. Célèbre pour sa flèche octogonale ajourée de cent seize mètres achevée vers 1330, l'édifice abrite un porche sculpté d'une rare polychromie, de précieuses verrières médiévales offertes par les corporations et le retable majeur de Hans Baldung Grien.",
+    visiter: "Parcourir la Münsterplatz autour de la cathédrale de Fribourg pour admirer la flèche gothique ajourée de cent seize mètres, observer les sculptures polychromes du porche sous la tour puis entrer découvrir la nef, les vitraux des corporations et le retable de Hans Baldung Grien.",
+    link: "",
+    sections: [
+      {
+        title: "La flèche gothique ajourée de 116 mètres et le porche de la tour",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN0dkTTPbgIcskB__7p96Mp5cnIhxPvOuHaRuOPt9svMSjn2klZhgiLx4KmGQWaOj7VNIV-wzTOYyD82rOcqBywZPZ03Kv3S1x-6kVuT7f8MKgp68VTbURIFKWF1LWVUHe4FhTl-nDOPJ4V6-8tXPRYIQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMVJNDl4t_2u3Eh24kRxYbBRsUTJmXf1u1JcH2EDSA4ffYaGdH2iz-KMzfFyWgZZARHr-CMQUXqyVvYCgOvMt8tWw5xa-WCjkGy8jv5UCO0wP8pYdoL07xKqfzGMkKYtjUH-IXqWmdmjCKZOTxGNQFBog=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'édifice est universellement célèbre pour son unique tour-clocher occidentale haute de cent seize mètres, achevée vers 1330 et couronnée d'une prodigieuse flèche octogonale en pierre entièrement ajourée de dentelle gothique — saluée par l'historien de l'art Jacob Burckhardt comme « la plus belle tour de la chrétienté » et miraculeusement épargnée par les bombardements de novembre 1944. Avant même de pénétrer dans le sanctuaire, le visiteur s'attarde sous le porche occidental du XIIIe siècle aménagé à la base du clocher, véritable bible de pierre ayant conservé d'exceptionnels vestiges de sa polychromie médiévale."
+      },
+      {
+        title: "Le portail occidental polychrome et son programme sculpté",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPWxJtSw8HZspXSpbpTtDAPycvAD0Tin1_kc3HiUtFcK_aeTAfE9mpa3xavKEEhlxXmruZsPHPxOXYGFAg8qYkKOwizCCAILobCbQ2HXqf4b6oT4I88XvvutYWv8kWOevZYHxreVpiLW5uhzADVJeXB0Q=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Unique en son genre, ce portail se distingue par sa conservation exceptionnelle au sein d'un narthex ouvert sous la tour, ce qui a permis de préserver la polychromie originale des statues et des reliefs, offrant un témoignage vibrant de l'esthétique médiévale où la couleur participait activement à la narration théologique.\n\nL’organisation iconographique suit un programme didactique rigoureux destiné à l'édification des fidèles. Le tympan central est consacré au cycle de la Passion et de la Résurrection du Christ, culminant avec la scène du Jugement Dernier. On y observe une densité de personnages remarquable, où le réalisme des expressions et la finesse des drapés soulignent la transition entre le style gothique rayonnant et les prémices d'un naturalisme plus marqué. La figure centrale du Christ Juge, entourée des instruments de la Passion, sépare les élus des damnés dans une composition dramatique et foisonnante de détails symboliques.\n\nSur les piédroits et les ébrasements du portail, une série de statues en ronde-bosse accueille le visiteur. On y retrouve notamment les figures des Vierges Sages et des Vierges Folles, allégories classiques de la vigilance spirituelle, ainsi que les représentations des arts libéraux, des prophètes et des apôtres. Chaque figure est sculptée avec une attention particulière portée à l'individualisation des visages, conférant à cet ensemble une humanité saisissante. La présence de la Vierge à l'Enfant au trumeau central rappelle la dédicace de l'édifice et sert de point d'ancrage spirituel à l'ensemble du portail.\n\nLes voussures qui surmontent le tympan complètent ce récit avec une multitude de petites scènes illustrant l'Ancien et le Nouveau Testament. Cette accumulation de détails, rehaussée par des ors et des pigments profonds, transforme l'architecture de pierre en un véritable livre ouvert. L'influence stylistique des ateliers rhénans et français se fait sentir dans l'élégance des postures, faisant de ce portail l'un des ensembles sculptés les plus significatifs de l'espace germanique médiéval."
+      },
+      {
+        title: "Élancement vertical de la nef, voûtes en réseau et lumière sacrée",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMxsn2islvg4VqFrdd1aROkm6730vUHrRigq0MZCYVqtjc3OF8iBDiXbqaS5bUI19igWiaWlb4IPKA8nscrP34ZIOezDfGh-o93OggrdaDyFTkVydApZHoWiku8xyt7EZD7xx48Pagpozx_vwn-nXP2EQ=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMJBknDZ7neHBoVqf4xdissj6Hphoif1z-B50c0WuInk16hPbv_lrMIdUj-TqCCZ3kCwbyHiCpX8uTm_b9KgUwtQEKYJzi2wH6g2RnV6ayaPqXURh21UCudxHT4HKWRli-VV8PZO7GzcldkCRbolmw_nA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La structure se caractérise par une verticalité audacieuse, où les piliers fasciculés s'élancent sans interruption jusqu'à la naissance des voûtes. Ces piliers, composés de multiples colonnettes engagées, confèrent à l’ensemble une légèreté visuelle qui contraste avec la masse imposante de la pierre de grès rouge typique de la région.\n\nLe système de voûtement constitue l'élément le plus spectaculaire de cette perspective intérieure. On y observe des voûtes d'ogives complexes, notamment des voûtes en étoile et en filet, dont les nervures s'entrecroisent pour former un dessin géométrique raffiné. Les clés de voûte, souvent sculptées et peintes aux armes des corporations ou des familles patriciennes, servent de points de convergence à cette résille de pierre. Cette complexité structurelle témoigne de l'évolution des techniques de construction au fil du XIVe et du XVe siècle, visant à libérer les murs de leur fonction porteuse pour laisser place à la lumière.\n\nL'élévation de la nef suit un rythme tripartite classique mais harmonieux, composé des grandes arcades brisées, d'un triforium aveugle et des fenêtres hautes. Ce dispositif dirige naturellement le regard vers le chœur, où le maître-autel de Hans Baldung Grien forme le point focal liturgique et artistique. La nef abrite également un cycle de statues fixées aux piliers, représentant des apôtres et des saints, qui participent à l'animation de l'espace par leur présence plastique.\n\nEnfin, l'ambiance lumineuse, modulée par les verrières médiévales, joue un rôle crucial dans la perception de l'espace. Les reflets colorés qui se projettent sur le sol et les parois de grès varient selon les heures du jour, créant une atmosphère mystique propre au concept médiéval de la \"lux continua\". Ce dialogue entre l'ombre des bas-côtés et la clarté de la nef centrale souligne la hiérarchie symbolique de l'architecture sacrée, faisant de cette nef l'un des espaces les plus spirituels du Rhin supérieur."
+      },
+      {
+        title: "Les verrières gothiques financées par les corporations de métiers",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMRnu59_78yG7joaB0Y326UaRJnn_eAQhxK8Pm7vvO6uAetlEEEiGuOZ1OzNPQxW__XBo_yHth2uadZni2-47y4N-yi2R9cybxowRyQ8Q81xLKpdmMmWPNMLCHK5cpWDpc85wJll-p1ltmOW5thEBdU-A=w1091-h919-s-no-gm?authuser=0"
+        ],
+        text: "Contrairement à de nombreuses autres cathédrales européennes, Fribourg a conservé une part importante de ses verrières d'origine, datant principalement du XIIIe au XVIe siècle. La photographie montre une fenêtre à lancettes multiples surmontée d'un tympan complexe, typique du gothique rayonnant, où la lumière est utilisée comme un vecteur spirituel pour transfigurer l'espace sacré.\n\nL'aspect le plus singulier de ces vitraux réside dans leur origine sociale. À Fribourg, ce ne sont pas seulement les nobles ou les clercs qui ont financé ces œuvres, mais les puissantes corporations de métiers de la ville. Cette influence se manifeste par la présence, souvent au bas des lancettes, de blasons ou de scènes de travail représentant les donateurs : cordonniers, boulangers, tailleurs de pierre ou vignerons. Ces détails transforment les fenêtres en un précieux document historique sur la vie économique et sociale de la cité médiévale.\n\nSur le plan iconographique, le vitrail présenté s'organise en médaillons circulaires insérés dans une structure géométrique rigoureuse. On y observe des scènes narratives denses, probablement issues de la vie des saints ou de cycles bibliques, caractérisées par l'emploi de couleurs primaires éclatantes. Le \"bleu de Chartres\" et le rouge rubis dominent la composition, créant un contraste saisissant qui permettait de lire les scènes malgré la distance. La technique du jaune d'argent, apparue plus tardivement, vient parfois enrichir les détails des vêtements et des auréoles.\n\nLa structure supérieure, composée de quatre-feuilles et d'écoinçons, couronne l'ensemble par des figures célestes ou symboliques. La précision du dessin à la grisaille sur le verre coloré témoigne de la haute technicité des ateliers de vitraillistes rhénans. Ces verrières ne servent pas seulement à éclairer l'édifice ; elles fonctionnent comme un catéchisme visuel, une \"Bible des pauvres\" destinée à instruire les fidèles par l'image et l'émotion chromatique."
+      },
+      {
+        title: "Le polyptyque de Hans Baldung Grien et le buste-reliquaire de saint Lambert",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP4KqSeov026VQmoQEcP3SGq8xMemkI49ZJ_iISX7k-uC8q-2INFAO0ueFQbMT9r4qZTeVz5yvU35XnLLfg7CO5AAWQA44g84XCNb4-dPohzE2Nw1R52xnQHJR2TKS1kqAjEJI3l2-kh_ax1g3FTQuW9Q=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPf6Gwcl7AWKIWlKoS-x6m7EGFSS1m5fDed_Lt1N3AwW--bSQYsSChGT3e0Cf4EbTu89uqvsWz4Y8_MPyCN6SrYMhy7MlNH2LQwUSgOnf_oIDFr1pmIz6b7qm0BG88dLnsrkDsY3pnFWrHElCY1LHTerA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "A gauche : Ce retable est un polyptyque monumental réalisé par Hans Baldung, dit Grien, l'un des plus talentueux élèves d'Albrecht Dürer. Achevé entre 1512 et 1516, cet ensemble marque l'apogée de la Renaissance rhénane, mêlant la précision technique germanique à une dramaturgie nouvelle. La structure permet de présenter différentes scènes selon le calendrier liturgique, les panneaux peints encadrant une partie centrale richement ornée. A droite : Ce buste-reliquaire de saint Lambert est une pièce d'orfèvrerie exceptionnelle conservée dans le Trésor de la cathédrale. Réalisée au tout début du XVIe siècle, vers 1514-1515, cette œuvre est attribuée à l'orfèvre fribourgeois Hans von Wendelstorf. Elle s'inscrit dans la tradition des reliquaires anthropomorphes destinés à magnifier les restes sacrés tout en offrant aux fidèles une image saisissante du saint protecteur."
+      }
+    ]
+  },
+  {
+    id: "fribourg_en_brisgau_historical_merchants_hall",
+    name: "Fribourg-en-Brisgau - La Maison Historique des Marchands (Historisches Kaufhaus)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Fribourg-en-Brisgau",
+    subdiv: "Fribourg-en-Brisgau",
+    altitude: 277,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Halle Marchande Gothique Tardif & Renaissance (1520-1532), Façade Rouge Sang de Bœuf & Bustes Impériaux des Habsbourg",
+    century: "XVIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 47.99498,
+    lng: 7.85273,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOSODBOpKKw63u1jD6P37KQ7i2qyZyEl4yOL_EE2DSRX9-21u7golh5oMdtKzGpUJXSUuB1YWiQgveK9AsWyxxrcJQAoGC1f1IWim5daDBbJmyu--tGxXGlQLEzs-g7UXwujF-NWkJn-4omwpyTi06suw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dressée à deux cent soixante-dix-sept mètres d'altitude sur le côté méridional de la Münsterplatz, face à la cathédrale Notre-Dame de Fribourg-en-Brisgau dans le Bade-Wurtemberg, la Maison Historique des Marchands (Historisches Kaufhaus) compose l'un des édifices civiques les plus emblématiques et majestueux du Rhin supérieur. Érigée entre 1520 et 1532 sous l'impulsion des magistrats de la cité et de la maison des Habsbourg à l'apogée économique et artistique de la ville, cette ancienne halle aux marchandises et lieu de négoce et de réception unit l'architecture gothique tardive à l'essor des formes de la Renaissance germanique.\n\nSa façade principale se distingue par sa teinte rouge foncé caractéristique (« sang de bœuf »), ses arcades ogivales au rez-de-chaussée, ses deux oriels polygonaux en encorbellement coiffés de hauts toits pentus et de tourelles d'angle surmontées de flèches élancées. Entre les fenêtres du premier étage s'alignent quatre statues en grès figurant les empereurs Maximilien Ier, Charles Quint, Ferdinand Ier et Philippe le Beau, tandis que les armoiries des Habsbourg et de la ville affirment la loyauté impériale de Fribourg et la vitalité de son commerce.",
+    visiter: "Admirer depuis la Münsterplatz à Fribourg-en-Brisgau la façade rouge sang de bœuf de l'Historisches Kaufhaus, ses arcades, ses deux oriels en encorbellement et les statues des souverains des Habsbourg ornant son premier étage.",
+    link: ""
+  },
+  {
+    id: "fribourg_en_brisgau_georgsbrunnen",
+    name: "Fribourg-en-Brisgau - La Fontaine Saint-Georges (Georgsbrunnen - Münsterplatz)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Fribourg-en-Brisgau",
+    subdiv: "Fribourg-en-Brisgau",
+    altitude: 277,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Fontaine Renaissance de la Münsterplatz (Vers 1530-1540), Vasque Octogonale & Statue de Saint Georges en Armure",
+    century: "XVIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 47.99542,
+    lng: 7.85179,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPRL5Am5dztwu0AsFWEqqVqXGjJe3Gub8GW3wUf_hPymH6pR5RfbgW2YvHLxRtcQ2roM0nJ7yv7w8I6IkAkZPzDU4caz6mZ8vYKkTi8FhiWSkz9SlquoiIK8SG-rr8ZaAStNye1qbTmdyXMYewuX18Jig=w613-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "S'élevant à deux cent soixante-dix-sept mètres d'altitude sur la Münsterplatz au cœur de Fribourg-en-Brisgau, à proximité de la cathédrale Notre-Dame et de l'Historisches Kaufhaus, la fontaine Saint-Georges (Georgsbrunnen) constitue l'une des plus belles fontaines monumentales de la Renaissance dans le Bade-Wurtemberg. Réalisée vers les années 1530-1540 dans le prolongement de l'âge d'or artistique de la cité au XVIe siècle, elle associe une vaste vasque octogonale en pierre sculptée à un fût central élancé couronné par la statue en pied de saint Georges revêtu d'une armure de chevalier et tenant sa lance et son écu armorié.\n\nAlimentée par les eaux vives captées sur les pentes voisines de la Forêt-Noire et du Schlossberg, la fontaine anime de son murmure continu la place du marché, où se tiennent traditionnellement les étals de fleurs, de fruits, de légumes et de produits du terroir badois. Par l'équilibre de ses proportions et la finesse de sa sculpture renaissance, le Georgsbrunnen dialogue harmonieusement avec la dentelle gothique de la cathédrale et la façade rouge de la halle aux marchands.",
+    visiter: "S'arrêter sur la Münsterplatz à Fribourg-en-Brisgau autour de la fontaine Saint-Georges pour admirer sa vasque octogonale Renaissance, la statue du saint chevalier et l'animation de la place face à la cathédrale.",
+    link: ""
+  },
+   {
     id: "meersburg_vieille_ville",
     name: "Meersburg - La Vieille Ville Haute & Basse (Oberstadt & Unterstadt - Lac de Constance)",
     country: "Allemagne",
