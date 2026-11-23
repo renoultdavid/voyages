@@ -7,6 +7,259 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "grainau_pfarramt_st_johannes_der_taeufer",
+    name: "Grainau - Église Paroissiale Saint-Jean-Baptiste (Kath. Pfarrkirche St. Johannes der Täufer)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Garmisch-Partenkirchen",
+    subdiv: "Grainau",
+    altitude: 758,
+    transport: "voiture",
+    era_group: "moderne",
+    era_label: "Sanctuaire Paroissial Baroque d'Obergrainau (1736), Clocher à Bulbe & Parois Calcaires de la Zugspitze",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.47072,
+    lng: 11.02523,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO4z5Y2dMqtcOfhGY7tTzfRNJ7HOcNMatdpRVO2KoCLTUTUMrl_CfuOrJbYoS82DjCPVY83oz5BLDraPQTIB-ktJ8vSpCHYpdq0zK0FkIrMuxevzTOOvN-iNx1mM5pNvQiPMfLbgExi5JoFL69Pl55Lqg=w1367-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Élevée à sept cent cinquante-huit mètres d'altitude dans le quartier historique d'Obergrainau au pied des parois calcaires vertigineuses du massif du Wetterstein et de la Zugspitze, l'église paroissiale catholique Saint-Jean-Baptiste (St. Johannes der Täufer) dresse son élégante silhouette blanche au cœur d'un cimetière alpin soigneusement fleuri. Reconstruite vers 1736 dans le style baroque rural de Haute-Bavière à l'emplacement d'un sanctuaire médiéval antérieur, l'édifice se distingue par la pureté de sa nef lumineuse percée de hautes baies cintrées et par son clocher-tour latéral coiffé d'un bulbe traditionnel recouvert de bardeaux ou de cuivre patiné se découpant sur les sommets escarpés des Waxensteine.\n\nÀ l'intérieur, le sanctuaire révèle le raffinement délicat du rococo alpin avec ses stucs blancs rehaussés de touches dorées, son maître-autel baroque dédié à saint Jean-Baptiste, ses peintures de voûte lumineuses et son mobilier liturgique sculpté par les artisans de la vallée de la Loisach. Ceinturée par les pelouses vertes du village et surplombée par les murailles minérales du Wetterstein, l'église incarne l'harmonie séculaire entre spiritualité alpine et paysage montagnard bavarois.",
+    visiter: "S'arrêter à Obergrainau au pied de la Zugspitze pour admirer l'architecture baroque blanche de l'église Saint-Jean-Baptiste, son clocher à bulbe et son cimetière fleuri encadrés par les parois rocheuses des Waxensteine.",
+    link: ""
+  },
+  {
+    id: "grainau_village_de_grainau",
+    name: "Grainau - Le Village Alpin au Pied de la Zugspitze (Zugspitzdorf Grainau)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Garmisch-Partenkirchen",
+    subdiv: "Grainau",
+    altitude: 749,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Bourg Montagnard Traditionnel de Haute-Bavière (749 m), Chalets Fleuris, Prairies Alpines & Massif du Wetterstein",
+    century: "XIXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 47.47747,
+    lng: 11.02326,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOmSgSEGa9AEan4VWEUbl4pADKTc2-wH0VB5tPqs674hcbUab8M7r2JKc2_i9zzq9mOaXdCi1bmdMAJplNoLtlxJFILXRa3DjsX3B_JzVjR2shDzkinlhZgirBdsTmu5XEjPUivmVaIBlHb8uaH3ISn1w=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPkwL9PJ0uOt_YrrLeJKw39fWrzrmg_J-dIK1Q8ISxjkXIAZXsK4Y1360_Feljgd1qzJTcdS3OFMuxmhb-4KSeDtLinpaTSy4iA5B1vFW-8Ou-c7c2zjR6O5jps8St08AkSuBkm29u_tiarYxoOXUV-cQ=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNzDEssW01fAMsJj4DXe3vBw_4olWQzV19AgPaEb2KowJZbVHSXVFeo6bMvZx5esXcjZ-zsSq-5DQwSzY8pmRkfe1wPGK6_8AVgtHkR3sPTbp0TkJM0xjoHDzzPwGiVk6aFFXANneWVcoz0Vc2LYs6Icw=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOZehotMOzmgaWLSIzpcnpeGbzw8zaNM9JBYvOIXJTS3IvFRK_Bxp0YgcO5HCEvaF8KGGtezJUEbOTNKzVPYhpUHNMQ3HTc_IzAuon1VQ3Ls2PoyZ44aaNQHnPOSMWblvZlNnQbcC75kInR7HY9_SqMdw=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Blotti à sept cent quarante-neuf mètres d'altitude dans un vallon verdoyant directement dominé par l'imposante barrière rocheuse de la Zugspitze et des Waxensteine à l'ouest de Garmisch-Partenkirchen, le village de Grainau — surnommé le « Zugspitzdorf » — incarne l'art de vivre montagnard et l'architecture traditionnelle de Haute-Bavière. Réunissant les quartiers historiques d'Obergrainau, d'Untergrainau, de Hammersbach et de Schmölz au milieu d'alpages fauchés et de bois d'épicéas, le bourg déploie ses fermes et chalets bavarois aux façades blanchies parfois ornées de peintures murales (Lüftlmalerei), de boiseries patinées par le soleil, de balcons fleuris de géraniums rouges et de larges toitures à faible pente lestées contre les vents d'altitude.\n\nTraversé par les torrents glaciaires limpides descendant des gorges de la Höllentalklamm et des hauteurs de l'Eibsee, Grainau offre à chaque tournant de ruelle ou de sentier champêtre une perspective saisissante où la douceur pastorale des prés et des vergers contraste avec l'élan vertical de près de deux mille deux cents mètres des parois calcaires du Wetterstein.",
+    visiter: "Flâner à pied à travers les quartiers fleuris d'Obergrainau et d'Untergrainau pour admirer les chalets traditionnels bavarois, les prairies alpines et les vues spectaculaires sur la chaîne de la Zugspitze et des Waxensteine.",
+    link: ""
+  },
+  {
+    id: "garmisch_partenkirchen_eglise_st_sebastian",
+    name: "Garmisch-Partenkirchen - Église Saint-Sébastien de Partenkirchen (St. Sebastian)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Garmisch-Partenkirchen",
+    subdiv: "Garmisch-Partenkirchen",
+    altitude: 713,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Chapelle Votive de la Peste (1637), Clocher à Bulbe Baroque & Carrefour Historique de la Ludwigstraße",
+    century: "XVIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.49537,
+    lng: 11.10879,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNh-sLSowyBUhHZuZ0ozp6XtFyMK1VCwFyZvU21vPcp_GjVJb81QaG62Lx0_jQ9cxek271qEywk2lnRv6VbRReZVU5YkB1buue4kZuR_0170WHt-MhGNWMYC5uyv8VCGAkdVt8ZW8N-8eAUIcR0viv3AA=w1367-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Élevée à sept cent treize mètres d'altitude à l'entrée occidentale de la Ludwigstraße au cœur du bourg historique de Partenkirchen, l'église Saint-Sébastien (St. Sebastian) dresse sa façade lumineuse et son clocher à bulbe baroque tel un repère emblématique de la vieille ville de Garmisch-Partenkirchen. Érigée à partir de 1637 à la suite d'un vœu prononcé par les habitants pour obtenir la protection divine contre la terrible épidémie de peste noire qui ravageait les vallées alpines durant la guerre de Trente Ans, cette église votive dédiée au saint protecteur contre les fléaux fut agrandie et embellie au XVIIIe siècle.\n\nSa silhouette harmonieuse associe des façades enduites de blanc soulignées d'encadrements peints, un porche accueillant et un clocher latéral couronné d'un bulbe élancé typique de l'architecture religieuse de Haute-Bavière, se détachant sur l'arrière-plan montagneux du massif du Wetterstein. À l'intérieur, le sanctuaire conserve un précieux décor baroque et rococo avec son maître-autel consacré à saint Sébastien et les ex-voto rappelant la piété séculaire des habitants du Werdenfelser Land.",
+    visiter: "Admirer l'église Saint-Sébastien à l'extrémité de la Ludwigstraße à Partenkirchen, observer son clocher à bulbe baroque et découvrir son intérieur votif témoignant de l'histoire religieuse de la vallée au XVIIe siècle.",
+    link: ""
+  },
+  {
+    id: "garmisch_partenkirchen_vieille_ville_ludwigstrasse",
+    name: "Garmisch-Partenkirchen - La Vieille Ville de Partenkirchen & La Ludwigstraße (Lüftlmalerei)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Garmisch-Partenkirchen",
+    subdiv: "Garmisch-Partenkirchen",
+    altitude: 714,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Ancienne Voie Commerciale Romaine Via Raetia, Maisons Peintes à Fresques (Lüftlmalerei) & Auberges Historiques",
+    century: "XVIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 47.49433,
+    lng: 11.11044,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPc_3ynloVIntSrsQ6h4E-CrkGp12Dytyoxjq_9qxW7WwZENsyLsnjtADb-KtEzB3PlSz2KNguo8USVKEYCqqYYhLdkXSpyWRVlE3-G2O1NhSLyzY6FChBDP-ZTGkx1yZCbgEJB1MAzw2ICoeeuXuMMog=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPNtv26r52CXo1W2Om9qCZXqJOUk_0rkZnnano-WQFIJzdi_fvz8ChRLcNXnuLx6c8--XDYwGB2WQ2jWLIgNwccGM-ZWBRzN7hvfOEYJ_SmBXe36ef9x9jDCLyPX6kSoV81H1aKFa-AVc-W1lTJklG0eA=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPU8LF8EvsjmME4k01ohYug1kgSNyDmZOHKJguj3zvN7fAkA5Tj33RyLAPQxx2073uzfOY2ZwzVqhtt32HPeTdwl9ISXRFvFE7Wmtl044vXwqzbE50XvhdrmWihDLjxqo0WK5ktayKjc9UwlPf4osGWZw=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNRfymFog5rIf8EP10NK5GAyrI7u3Tz_UwM5ZyE7SouelIYGNtfG2Sc6XJ3veRyKmY_I1Z8hylSSsNYmMfGpQXKH0vtg3xFqXakdYsOG11cTaDn7Kne-WA876ei3473z27L-IeQAjqGFG1IGLYnzZwqdg=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOxy9ZcTZsVL9iHeI5IRezruNuSCy8OtYMSdb7JcSXS07uB7r6bZwVXd-JNRB2DSlNRhxPcGfGUsW2FRgbDUJafmXa-wNQ2rVlQX_4f8ddRGeMvt6bET8AKKrUurscbSwJYLhZ2AGcD543MwA8JdU4SZg=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMvPXySgCtZUW-12l-Sq8-1gg6xZWn6DdVrP3xHSums02lQbDms14MDRI4EHVjU5V5r1vJ6B-1hrLtm7S-arQG-PnpaiVzl44TpY_r8NmxgpjXJ6x74mq2WKjQeZJpR_kIRRGR6ngr-8SsAvZ6JtAVfDg=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMQlEe-cTLSHcYA2Yj-6QOTc00XusNUfA4xqNhrZ_GVBtDuy37y_h6gS35fiPjjjEmfYencnUVRckN9sKqHzwwmsVKj8-SRcb-tiuesIhGsowHpNhJSyLGZEZ09nFBeTPyPoE9j4IhQ2d16bshD2bYyuA=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Suivant le tracé de l'antique voie romaine Via Raetia — qui reliait autrefois Venise et Vérone à Augsbourg à travers les cols alpins et fit la prospérité marchande de l'ancien bourg de Partanum —, la Ludwigstraße forme le cœur historique et pittoresque du quartier de Partenkirchen à Garmisch-Partenkirchen. Bordée de demeures bourgeoises, d'anciennes auberges de rouliers et de chalets alpins aux larges toits débordants et aux balcons en bois fleuris, cette artère emblématique offre un remarquable florilège de « Lüftlmalerei », ces peintures murales baroques en trompe-l'œil caractéristiques de Haute-Bavière.\n\nSur les façades aux teintes pastel, blanches ou ocres s'épanouissent des encadrements architecturaux illusionnistes, des scènes religieuses de la vie du Christ et des saints protecteurs, des épisodes de la vie pastorale et forestière du Werdenfelser Land ainsi que les enseignes et armoiries des anciennes corporations d'artisans et de commerçants. Encadrée en arrière-plan par les cimes calcaires escarpées du massif du Wetterstein, la promenade le long de la Ludwigstraße restitue tout le charme et l'identité culturelle des bourgs alpins bavarois.",
+    visiter: "Parcourir à pied la Ludwigstraße dans le quartier historique de Partenkirchen à Garmisch-Partenkirchen pour admirer les façades ornées de fresques en trompe-l'œil (Lüftlmalerei), les enseignes anciennes et la perspective sur les sommets du Wetterstein.",
+    link: ""
+  },
+  {
+    id: "farchant_kuhfluchtwasserfaelle",
+    name: "Farchant - Les Cascades de Kuhflucht (Kuhfluchtwasserfälle - Massif de l'Estergebirge)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Garmisch-Partenkirchen",
+    subdiv: "Farchant",
+    altitude: 817,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Ensemble Spectaculaire de Trois Chutes d'Eau Karstiques sur 270 m de Dénivelé dans l'Estergebirge",
+    century: "Temps géologique",
+    category: "cascade",
+    counts: { cascade: 1 },
+    lat: 47.52558,
+    lng: 11.13201,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOaqF14SSzdeqdnspRsTdyqzPGq9QBe2QJWxqInGC6LNNL5kedUyaxstL_NTzHekt4tZ2R85Pg3emU875NHpCYPyjFFSaWsOtDe88W6kkBKmhKNN9rbuqTOK2qsNhec-tpnRPvFnnofqbUxf9uJV-7gkA=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMdwG7etxX_TGgj7kGXUQPqpqiwXCzFHt2Nnfd4yNiwsk9mj4ZaxUd08x39UrGFQd25leN-VP9JQRUoQigMGpLtPkAzk33WuT05RB-oRqSuOPfeee66ZqreIKtvsBkhStWcneCCOhFInhPurvJl58d-qA=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNqzJGKHUHHLeC0m3t8UDKHgMmTtCDpJzJDfgfmz_ayhaQdiswk_GHvXT6abV1YNxh1UQGQcTCe7aPJlZsWwP6pLNPtz7Mv1SbpQSTObVGQjluxE17UWl_mA40XIOnfHsmvvQYIghjNEkIw8N6sRvr3Vg=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP2azNnSr7xl-ynKHpY2aVBwuicoCCk7FGN9sWOONa-gJQ2mR-2n0PZNeBc8cm17IYLnWmIRJp6AbuZDnazS2LiIUTRLB1BUXpZI-2vgYRo2VZir-FwPrvP-zGeP7pSVhagOF-E1WSl6H3RvYcAa7wlyA=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Jaillissant à flanc de montagne sur les versants occidentaux escarpés du massif calcaire de l'Estergebirge au-dessus de Farchant, juste au nord de Garmisch-Partenkirchen en Haute-Bavière, les cascades de Kuhflucht (Kuhfluchtwasserfälle) comptent parmi les chutes d'eau les plus hautes et spectaculaires d'Allemagne, dévalant un dénivelé cumulé d'environ deux cent soixante-dix mètres en trois sauts successifs vertigineux. Alimentées par de puissantes résurgences karstiques qui drainent les eaux souterraines du haut plateau calcaire du Krottenkopf et du Simetsberg, ces chutes surgissent directement de parois rocheuses abruptes avant de plonger en voiles d'écume blanche au cœur d'un vallon boisé sauvage.\n\nLeur nom pittoresque proviendrait de la déformation du latin « confluctum » (confluent des eaux) ou de la légende évoquant la fuite des troupeaux de vaches (« Kuhflucht ») lors de l'arrivée des légions romaines dans la vallée de la Loisach. Accessible par le sentier pédagogique forestier du « Walderlebnispfad » serpentant entre hêtres, épicéas, blocs rocheux tapissés de mousse et passerelles en bois au-dessus du torrent bouillonnant, le site offre une immersion rafraîchissante au pied des falaises ruisselantes.",
+    visiter: "Remonter le sentier forestier balisé du Walderlebnispfad depuis Farchant au nord de Garmisch-Partenkirchen jusqu'aux passerelles et belvédères des Kuhfluchtwasserfälle pour admirer les ressauts successifs des cascades jaillissant des parois karstiques de l'Estergebirge.",
+    link: ""
+  },
+  {
+    id: "steingaden_eglise_de_wies",
+    name: "Steingaden - Église de Pèlerinage de Wies (Wieskirche - Patrimoine Mondial de l'UNESCO)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Weilheim-Schongau",
+    subdiv: "Steingaden",
+    altitude: 879,
+    transport: "voiture",
+    era_group: "moderne",
+    era_label: "Chef-d'Œuvre Absolu du Rococo Bavarois par Dominikus et Johann Baptist Zimmermann (1745-1754) - Patrimoine Mondial UNESCO",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: { unesco: 1 },
+    lat: 47.68056,
+    lng: 10.90034,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMUP-M2Y4N5IiOelxi7lw05yJH7gJvZ5i-rsjICpyM7JVVmfTtCPqGABta7dD_MsaNYA-0z40BAZLx8btimWi99I6A__SJwOaGJ76oM9x9Il2LJfpQU0HYz8N3RNydvpDeTA7iMC3fQriXAVLCKzv9n9w=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMVDwJeX3zU3qEbimXL4rsLkHhE-rX-_D1VyUI8iUxk1GppYtYW0n0zRlOfgRxFXZ9M13WF4s31YdDrqN8hrqtT2idPt3M2aLSIUgEYUsAsGwTilR9aIpJmb2jNepCjaJQqfkLGsMv9OyD-sN32aAU8NA=w607-h911-s-no-gm?authuser=0",
+        caption: "L'intérieur de la nef est une célébration de l'art total, où l'architecture et la décoration fusionnent de manière indissociable. Les colonnes géminées, d'un blanc pur et aux chapiteaux dorés, s'élancent avec une grâce aérienne pour soutenir une voûte qui semble se dissoudre dans l'infini. Les décors de stuc, d'une finesse incomparable, déploient des formes organiques, des coquillages et des guirlandes qui s'animent sous la lumière abondante fournie par de larges fenêtres. Cette clarté exceptionnelle, qui évite toute zone d'ombre, est au cœur du concept spirituel des Zimmermann : la nef n'est pas une simple salle de prière, mais une antichambre du paradis.\n\nLe point culminant de la nef est la fresque monumentale du plafond, réalisée par Johann Baptist Zimmermann. Grâce à une maîtrise parfaite de la perspective illusionniste (trompe-l'œil), le plafond semble s'ouvrir directement sur le ciel. On y voit le Christ ressuscité assis sur un arc-en-ciel, trônant au-dessus d'un trône vide prêt pour le Jugement dernier, entouré de figures angéliques et de nuages légers. La palette de couleurs pastels, dominée par le bleu ciel et le rose, renforce cette impression d'immatérialité et de mouvement ascendant qui caractérise le rococo bavarois du XVIIIe siècle.\n\nLe mobilier liturgique, notamment la chaire de vérité monumentale et les autels latéraux, participe à cette dynamique visuelle par ses courbes et ses dorures étincelantes. Le regard est naturellement conduit vers le chœur, où le maître-autel encadre la modeste statue miraculeuse avec un faste théâtral. Malgré la profusion de détails, la nef conserve une harmonie et une légèreté qui transforment la visite en une expérience sensorielle et spirituelle unique, faisant de Wies l'exemple le plus pur de la dévotion joyeuse de l'époque baroque tardive."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPQDb9xmiL0Dti2CWXtHXxoh1HC3VLwZ-x4uqGxWsOSvDazfM_qHgq4h6q34YyfFsIPTl5GGm_eNXTGEmLDXBuZhUNJmskZB0rT90EdYUU6Lba6g1TY19BuDvSp5wm6ZgLmJK6NiwmbEW7b5SpspnTOsg=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOg02blJh0uVzrRiPR7po58di_CuXnOg8guQw_i2UXdUEDjADK_iLMdFPLYWTXTrsgWap0u1e4wUBFe4NaR48nLQp6kw_PGXx_4oZfZLyDGK5_q9BKmfKSpTvbJcB8gtgLieutSFzQZB3qR6YOiPVzBEw=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNhQrNwX7fKE09_SzHAiPTgyeDDa1lom5NBPiycenEBaJsq4B0AMb1u9dYm1uKqH4O9mx_o5WIySM1ukgoma29OM__s6m3lknX0UW-EWp_ufAPUNxsJ8R6yLvgk6tkOYszNMoaWIntAUlmV9RcXLv0wiQ=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMtR_ZUnfaQ6aflBh7Qu311iR6rc4szerm8aphkWmvgnCO9l-SNyvtZf2ORBNd7Qj6n3f1KTQMlIdRHQ7zXxKLGtciXEhJZ9ecDeTR_VWu8n4OFv8GHWNV-sRzNJ6R-EeVUrDmUuXBYL42JAzzYTbaJ5g=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOOtHkC_Lmr86kFQS920OxRJB_upNntMl-upGtBMuJYnKnS6m5YTx-yeiFvu6Bs17zshoWA3uxRKtjKqjXx71WY0CVLQqFfWnoqVlW-j-iCl9kky1sKOYa_Q2qvPZo8ix8TvgsjnjGZpAVLt-BqFx6HQ=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNWGmokT-WBucvE6Y0JFKzvl-J59VXUGzM_EGwapfqvaZdeF-MywYvqjAv_qPCdhb25CQljtb0VRFqwm2iwLM2CwU9oWX2xGuajq7EEe_wxxicMHV4GGAjvcXUsag3Y_VhDUR4gWarkHIBd4E9DP0mGiA=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Isolée à huit cent soixante-dix-neuf mètres d'altitude au milieu des prairies verdoyantes et des collines pastorales du Pfaffenwinkel (« le Coin des Curés »), sur la commune de Steingaden au pied des Préalpes bavaroises, l'église de pèlerinage du Christ flagellé de Wies (Wallfahrtskirche zum Gegeißelten Heiland auf der Wies, plus connue sous le nom de Wieskirche) est universellement reconnue comme l'un des chefs-d'œuvre absolus du rococo européen et figure à ce titre sur la liste du patrimoine mondial de l'UNESCO depuis 1983. Née de l'afflux extraordinaire de pèlerins venus vénérer une statue en bois du Christ à la colonne sur laquelle la paysanne Maria Lori avait observé des larmes en juin 1738, l'église fut édifiée entre 1745 et 1754 par les frères Dominikus et Johann Baptist Zimmermann.\n\nDerrière une enveloppe extérieure aux courbes élégantes peinte en blanc et jaune pâle au milieu des pâturages, la rotonde ovale intérieure s'ouvre sur une féerie de lumière, de stucs sculptés en coquillages et rocailles, de colonnes géminées et de fresques célestes en trompe-l'œil transformant l'espace sacré en une antichambre rayonnante du paradis.",
+    visiter: "Contempler l'église de pèlerinage de Wies dans son écrin de prairies alpines à Steingaden, puis pénétrer dans sa nef ovale classée au patrimoine mondial de l'UNESCO pour admirer les stucs dorés de Dominikus Zimmermann, la grande fresque illusionniste de Johann Baptist Zimmermann et le maître-autel abritant le Christ flagellé.",
+    link: ""
+  },
+  {
+    id: "steingaden_chapelle_de_wies",
+    name: "Steingaden - La Chapelle Primitive de Wies (Ursprungskapelle in der Wies)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Weilheim-Schongau",
+    subdiv: "Steingaden",
+    altitude: 866,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Chapelle de Bois Originelle du Miracle des Larmes (1738-1740), Berceau du Pèlerinage de Wies",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 47.68167,
+    lng: 10.89970,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOIMy_HjkJQZRv0Ch34R15IuZb5gua5HsW_i-4evS-FqhvH2JZ3QEk4Q4S6py-1QrhAyCMUArQeqaET0r2wAMxUFns3cCGQGIB2eUHRnnlxC1AI7NS633EqGMk2-wA3n7v3ebv_nXzRXnZOW_ZL_buuww=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOVvFs5u5oUwBGG5MNgmHuTXnZ7wcxc37Qxq44k9jysa_erlRVfUCh3P3hRSUTGVdBhE7q8FIZ8QUBiDdxP0gRU4A6ADuc7B9J82YOupA_K3m2wkdjwnc3eGChWDTJW8lolPVBe6CBFV5hNLAh0u4y0qw=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "À quelques pas seulement de la monumentale église rococo de Wies, au creux d'un léger repli des prairies du Pfaffenwinkel à Steingaden, la modeste chapelle primitive de Wies (Ursprungskapelle) rappelle les origines humbles et ferventes de ce pèlerinage devenu célèbre dans toute l'Europe. C'est ici, dans la ferme voisine de la famille Lori, que fut accueillie en 1738 la statue du Christ flagellé fabriquée quelques années plus tôt par les moines prémontrés de Steingaden pour une procession du Vendredi saint ; après que Maria Lori eut aperçu des larmes couler sur le visage de bois du Sauveur en juin 1738, les fidèles affluèrent en nombre si considérable que l'abbaye fit construire dès 1740 cette petite chapelle en bois dotée d'un clocheton.\n\nDevenue rapidement trop exiguë face à l'ampleur internationale du pèlerinage — ce qui motiva dès 1745 l'édification du grand sanctuaire des frères Zimmermann à proximité immédiate —, cette chapelle champêtre pleine de simplicité et d'émotion a été préservée comme lieu de recueillement intimiste, témoignant de la ferveur populaire du XVIIIe siècle en Haute-Bavière.",
+    visiter: "Rejoindre à pied la petite chapelle primitive (Ursprungskapelle) située à quelques dizaines de mètres au nord-ouest de la grande église de Wies pour découvrir le lieu originel du miracle de 1738 au milieu des pâturages.",
+    link: ""
+  },
+   {
     id: "grainau_rando_autour_lac_eibsee",
     name: "Grainau - Randonnée autour du Lac Eibsee (Eibsee Rundweg - Pied de la Zugspitze)",
     country: "Allemagne",
