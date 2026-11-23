@@ -7,6 +7,501 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "fribourg_en_brisgau_haus_zum_walfisch",
+    name: "Fribourg-en-Brisgau - La Maison à la Baleine (Haus zum Walfisch - Résidence d'Érasme)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Fribourg-en-Brisgau",
+    subdiv: "Fribourg-en-Brisgau",
+    altitude: 283,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Demeure Patricienne Gothique Flamboyant (1516), Portail & Encorbellement Sculpté, Séjour d'Érasme de Rotterdam",
+    century: "XVIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 47.99641,
+    lng: 7.85063,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOwK4eiaVwkeOoaAlRpc2-z6W3CigmB5uSk31VfAA-bwk5v91a9lO-CF7gJLdKM36RE_3iF-XNo_TuSf5ik7I1LwjPSjH2FCdnbMnkA6qTb-68wv3DBYnYTPo09sDiGXjkZNlkix7jkVC4nphc1RO3JEg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMvetkRswjf1gYzaFIvSeP-PdAzp_T5AUw-YeUGzsCmX47rnY3bb2f-SjkqPLkEeDdio6PbV7NyuMiZro_iVoCQinwSHMTSzSunVUNcC3Xw2EPvEyetp0lWYGDBhJc_fTFiCopQYDuznovkSS6Vhk5pSQ=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Élevée à deux cent quatre-vingt-trois mètres d'altitude dans la Franziskanerstraße au cœur de la vieille ville de Fribourg-en-Brisgau dans le Bade-Wurtemberg, la Maison à la Baleine (Haus zum Walfisch) constitue l'un des chefs-d'œuvre les plus raffinés de l'architecture civile du gothique tardif et de la première Renaissance dans le Rhin supérieur. Édifiée vers 1516 en grès rouge des Vosges pour Jakob Villinger von Schönenberg, trésorier général et conseiller intime de l'empereur Maximilien Ier qui souhaitait y accueillir le souverain lors de ses séjours à Fribourg, cette demeure patricienne tire son nom pittoresque d'une ancienne maison voisine évoquant l'épisode biblique de Jonas et la baleine.\n\nSa façade richement ouvragée captive le regard par son somptueux encorbellement central à deux niveaux (Erker) rehaussé de dorures et de polychromie, surmonté d'un dais ajouré en dentelle de pierre et flanqué d'un portail sculpté de motifs végétaux et héraldiques d'une virtuosité exceptionnelle. C'est entre ces murs prestigieux que le grand humaniste Érasme de Rotterdam trouva refuge et résida de 1529 à 1531 après avoir quitté Bâle lors des troubles de la Réforme, conférant à l'édifice une aura intellectuelle et européenne majeure.",
+    visiter: "S'arrêter dans la Franziskanerstraße au centre de Fribourg-en-Brisgau pour contempler la façade en grès rouge de la Haus zum Walfisch, admirer les sculptures dorées de son oriel gothique flamboyant et évoquer le séjour d'Érasme de Rotterdam.",
+    link: ""
+  },
+  {
+    id: "fribourg_en_brisgau_martinstor",
+    name: "Fribourg-en-Brisgau - La Porte Saint-Martin (Martinstor - Fortifications Médiévales)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Fribourg-en-Brisgau",
+    subdiv: "Fribourg-en-Brisgau",
+    altitude: 286,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Plus Ancienne Porte Fortifiée de Fribourg (Début XIIIe Siècle - 1202), Tour de 66 m & Quartier des Bächle",
+    century: "XIIIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 47.99376,
+    lng: 7.84893,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOFsfHohRPIwxER7jQkRPlb9TyurehdxdiWlaFSkmtdTgW955qqgBKzSBZPXnWOy7fcEqWPSZictCHe64MZhLaBmwgNbVMIk5YkLm3GzVPCFy33fo1CggCrJbHFM8HkJ1DIhhQ8aenAupquClIF3PZU8Q=w613-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dressée à deux cent quatre-vingt-six mètres d'altitude à l'extrémité méridionale de la Kaiser-Joseph-Straße au cœur de Fribourg-en-Brisgau, la porte Saint-Martin (Martinstor) constitue la plus ancienne et la plus haute des deux portes fortifiées subsistant de l'enceinte médiévale de la cité badoise. Attestée dès le début du XIIIe siècle — les analyses dendrochronologiques de ses poutres de chêne situant sa construction initiale vers 1202 sous le règne des ducs de Zähringen —, cette puissante tour-porte contrôlait jadis la route commerciale stratégique menant vers Bâle et la Suisse le long de la bordure occidentale de la Forêt-Noire.\n\nAprès avoir servi de prison municipale à la fin du Moyen Âge et à l'époque moderne, la tour fut considérablement surélevée en 1901 par l'architecte Carl Schäfer pour atteindre soixante-six mètres de hauteur, recevant une superstructure à colombages de style néo-gothique et une haute flèche effilée en harmonie avec les proportions élancées du centre-ville reconstruit. Enjambant le passage des piétons et des tramways au-dessus des petits canaux pavés (« Bächle »), le Martinstor demeure l'un des repères monumentaux les plus familiers et emblématiques de Fribourg.",
+    visiter: "Franchir à pied l'arcade médiévale du Martinstor sur la Kaiser-Joseph-Straße à Fribourg-en-Brisgau pour observer sa maçonnerie ancienne du XIIIe siècle, sa partie haute à colombages et l'animation historique du centre-ville.",
+    link: ""
+  },
+  {
+    id: "fribourg_en_brisgau_konviktstrasse",
+    name: "Fribourg-en-Brisgau - La Ruelle Historique de la Konviktstraße (Vieille Ville & Bächle)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Fribourg-en-Brisgau",
+    subdiv: "Fribourg-en-Brisgau",
+    altitude: 287,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Plus Pittoresque Ruelle de Fribourg-en-Brisgau, Glycines Séculaires, Galets du Rhin & Canaux Bächle",
+    century: "XVIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 47.99431,
+    lng: 7.85469,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPPpvkuxhGg6BOc3EaOwgc0MZDweJ9cZ7EF7_S4Xyyo1TdhO8NuUQPDxaqjNlbrDSHwPAWoadGCSNxPx4YGGAfIdZ66J7LcfoHS8eOiamv5bFKDU3p7i33s7Fc2Tt8h_1VfQRKhHIsIq8DJC86hHQZlcg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Serpentant à deux cent quatre-vingt-sept mètres d'altitude entre le Schwabentor et les abords de la cathédrale au pied des pentes boisées du Schlossberg, la Konviktstraße est unanimement célébrée comme la plus charmante et pittoresque ruelle de la vieille ville de Fribourg-en-Brisgau. Épargnée en grande partie par les destructions de la Seconde Guerre mondiale, cette artère étroite et sinueuse au tracé médiéval dévoile toute la poésie urbaine du vieux Fribourg : des maisons anciennes aux façades pastel ocres, roses et crème, des volets peints, des cours intérieures secrètes, des enseignes en fer forgé et d'immenses glycines centenaires dont les lianes tortueuses enlacent les murs et fleurissent au printemps.\n\nSous les pas des promeneurs s'étirent les célèbres mosaïques de galets du Rhin ornant les trottoirs ainsi que le filet d'eau claire des « Bächle », ces petits canaux alimentés par la rivière Dreisam depuis le XIIIe siècle pour l'approvisionnement en eau et la lutte contre les incendies. Loin de l'agitation des grandes artères commerçantes, la Konviktstraße offre une parenthèse hors du temps entre artisanat local, galeries d'art et architecture traditionnelle badoise.",
+    visiter: "Déambuler tranquillement à pied le long de la Konviktstraße à Fribourg-en-Brisgau entre le Schwabentor et la Münsterplatz pour admirer ses maisons anciennes couvertes de glycines, ses mosaïques de galets et le murmure des Bächle.",
+    link: ""
+  },
+  {
+    id: "triberg_cascades_de_triberg",
+    name: "Triberg im Schwarzwald - Les Cascades de Triberg (Triberger Wasserfälle - Forêt-Noire)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Schwarzwald-Baar-Kreis",
+    subdiv: "Triberg im Schwarzwald",
+    altitude: 807,
+    transport: "a_pied",
+    era_group: "nature",
+    era_label: "Plus Hautes Cascades d'Allemagne (163 m de Chute sur Sept Paliers Granitiques) au Cœur de la Forêt-Noire",
+    century: "Temps géologique",
+    category: "cascade",
+    counts: { cascade: 1 },
+    lat: 48.12609,
+    lng: 8.22737,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOumcaQvoh3-cVucxezA8nFbRowUy5GAUR-MIfuatXw_FOJvvIIwPuapDkPvjoXRszbmZkSJ1CpYTCaD0mrYaFwSe5dNYUA-6-c6Xti6r1dcasVYVx_dNpUlnG1PqZRB7FsNBa8BojC8bO8YRZei4mxg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPd3fd33e3Ad9xpBM5Ju74uZufjdit7WfWmsPBo-RBk4CoLyyAeHm_kWHR1AYeTgvtVV_VY9koAuVv4B6r5CV4hFfzbcmoaYVA3TL76kQfdsr0AYM7nGurcvTEE6Sj5dxaKjLBa8v3fxjjKxggVnpxCg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNM1AHNZfK0DhCH58LubnSi-3GcYpCjmWxe8cwbp4QcPPrydo5_oH6PEc788A1N4g6F9x03I8OKpWbmHkvOkiYunWiv9WlRWIg0js8Kur5F36RZHSv0d9tB-lVOhDfZORge1nXu0o1xroc_W_58mF8WGg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNIpfkbL2tDx8_8nyms-QCNc-e7ZQDP5iauQ4XV_yLFmdbIRI68FCqJi2iw6sHqN6DTEb9pesx7uCJ68dwfINGdE-ZYTkNqHV6SyeMEsa-oneHoAFwNj1xhFF8wgX2yHMvqO5V6c5DBSAv_uw5lJbRJ1w=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Précipitant les eaux fougueuses de la rivière Gutach sur un dénivelé spectaculaire de cent soixante-trois mètres à travers sept ressauts granitiques successifs au-dessus de la petite ville de Triberg im Schwarzwald, au cœur de la Forêt-Noire centrale dans le Bade-Wurtemberg, les cascades de Triberg (Triberger Wasserfälle) comptent parmi les chutes d'eau les plus hautes et célèbres d'Allemagne. Entaillant un imposant verrou rocheux de granite hercynien façonné par les glaciers quaternaires, le torrent dévale de vasque en vasque en d'épais bouillonnements d'écume blanche dans un fracas retentissant qui emplit toute la gorge boisée.\n\nEntourées d'une haute futaie séculaire de sapins pectinés et d'épicéas dont les branches filtrant la lumière créent une atmosphère fraîche et sylvestre typique du Schwarzwald, les cascades se découvrent grâce à un réseau de sentiers aménagés, d'escaliers et de passerelles en bois enjambant directement le torrent. Au fil de l'ascension jusqu'à huit cent sept mètres d'altitude, les belvédères successifs permettent d'admirer au plus près la puissance des flots et la beauté sauvage de ce monument naturel emblématique.",
+    visiter: "Remonter les sentiers et passerelles aménagés le long des cascades de Triberg au cœur de la Forêt-Noire pour contempler les sept paliers granitiques de la chute de la Gutach dans son écrin de sapins centenaires.",
+    link: ""
+  },
+  {
+    id: "triberg_haus_der_1000_uhren",
+    name: "Triberg im Schwarzwald - La Maison aux 1000 Horloges (Haus der 1000 Uhren)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Schwarzwald-Baar-Kreis",
+    subdiv: "Triberg im Schwarzwald",
+    altitude: 686,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Façade Sculptée aux Automates & Horlogerie Traditionnelle de Forêt-Noire au Pied des Cascades de Triberg",
+    century: "XXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 48.12900,
+    lng: 8.23100,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOnlRW83jGsLgyqeKPTr6I-i4gwQ7hX2PkF9L_k8yHIdDMUNgulwdDswE6XI8x5NGvx2GoG2YReppO2BYTyJMx-jeHZL6cDI1CHFMXZdowRIV1r_HLZFkS9YvpafbyLnOUg4eodXUp6kBkQAMHUXbcW5g=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMTpEtg2Zv4Ly91p_PhutQZwA4fPham0NSTJMhYIMXbdDOTMg82fUHdEO8UF46dWdI9dXyeQf1bOJ2LFekmwz67Kn0UXpIwQceXkUuzVe5UMuypcKR4bvngUCLAFF4-nW7fzH37el3vNX512ygBdlydyw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPAfa9oIiIifRva09h1cTSTw76upUU8O18uMNCqxAyIklrIW2dW4oY6Biz4cU4lCsvRq3MANQ29nnhWWnzUSVVRJyeHKtTkNzs_WUunyrz8HBY8p_0GZxTyLFjelgQa0XrbjnsAYUpOgpIYV9qtbuLAqw=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Située à six cent quatre-vingt-six mètres d'altitude au pied même de l'entrée des cascades de Triberg, dans la vallée encaissée de la Gutach au cœur de la Forêt-Noire, la Maison aux 1000 Horloges (Haus der 1000 Uhren) attire immédiatement l'attention des promeneurs par son architecture pittoresque et spectaculaire inspirée des fermes traditionnelles du Schwarzwald. Sa façade en bois sombre à large toiture débordante est animée par une horloge monumentale entourée d'automates sculptés et peints — bûcherons, danseurs en costume traditionnel aux célèbres chapeaux à pompons rouges (Bollenhut), cerfs et coucous — qui prennent vie au rythme des heures.\n\nÀ l'intérieur comme en vitrine se déploie l'extraordinaire diversité de l'horlogerie artisanale de la Forêt-Noire, depuis les pendules à coucou sculptées à la main dans le bois de tilleul jusqu'aux horloges à automates et boîtes à musique perpétuant un savoir-faire né dans les fermes isolées de la région au XVIIIe siècle.",
+    visiter: "S'arrêter devant la Haus der 1000 Uhren au pied des cascades de Triberg pour observer sa façade en bois sculptée, les automates animés de son horloge monumentale et les créations horlogères de la Forêt-Noire.",
+    link: ""
+  },
+  {
+    id: "triberg_schonach_erste_weltgroesste_kuckucksuhr",
+    name: "Schonach / Triberg - La Première Plus Grande Horloge à Coucou du Monde (Erste Weltgrößte Kuckucksuhr)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Schwarzwald-Baar-Kreis",
+    subdiv: "Schonach im Schwarzwald",
+    altitude: 802,
+    transport: "voiture",
+    era_group: "contemporain",
+    era_label: "Maison-Horloge Monumentale Créée par Josef Dold (1980), Mécanisme Géant en Bois & Tradition Horlogère du Schwarzwald",
+    century: "XXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 48.13619,
+    lng: 8.21419,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMQl_SH-F6aOMxXlOgQsEVdzWHdYXq2qOED_tgtE1EXdXM7KMzGSDIy9JodNXlCYx69OScGXO2Ut2Ly7ErbKeT_5ct9lrtb4T0j_4HAO1OGZci_Qnd3U5QJ-PlEQFK5CegcMJ0SEWLTfOnHWS8nYKObKw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOd28hoJB2v3BaMQIYe-EOxDLpWIJwogjjRyE_sRtLv0qlg7jSYaKGKJ7xYeprbqjHvDHYBrnIyZ7uoSdOLI79gnauuDOs_dd3XKoz0qGdEuhgDzj1irZAqGWPPXehZp2KdcGwm4-hbX0daSCYVGu9NtQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Implantée à huit cent deux mètres d'altitude dans le vallon verdoyant de l'Untertal à Schonach im Schwarzwald, sur les hauteurs immédiates de Triberg au cœur de la Forêt-Noire, la « Première plus grande horloge à coucou du monde » (Erste Weltgrößte Kuckucksuhr) constitue une curiosité technique et artisanale unique en son genre. Conçue et réalisée au début des années 1980 par le maître horloger Josef Dold après plusieurs années de travail minutieux, cette œuvre hors norme prend l'apparence d'une authentique maison-chalet de la Forêt-Noire entièrement transformée en une gigantesque horloge mécanique à l'échelle d'un bâtiment habitable.\n\nSon cadran colossal de plus de trois mètres et demi de diamètre, ses aiguilles de plusieurs mètres de long, son balancier de huit mètres et son mécanisme entièrement sculpté en bois abritent un coucou monumental en bois peint qui jaillit à chaque heure et demi-heure pour chanter au-dessus des prairies alpines. Hommage spectaculaire au génie mécanique des horlogers du Schwarzwald, l'édifice permet même d'observer de l'intérieur les rouages géants en bois actionnant ce chef-d'œuvre d'artisanat populaire.",
+    visiter: "Rejoindre le vallon de Schonach juste au-dessus de Triberg pour admirer l'Erste Weltgrößte Kuckucksuhr, observer la sortie du coucou géant à l'heure pile et découvrir l'ingénieux mécanisme en bois à l'intérieur de la maison-horloge.",
+    link: ""
+  },
+  {
+    id: "gengenbach_obertORTURM",
+    name: "Gengenbach - La Porte Haute Fortifiée (Obertorturm - Vallée de la Kinzig)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Ortenaukreis",
+    subdiv: "Gengenbach",
+    altitude: 182,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Tour-Porte Médiévale de l'Enceinte Urbaine (XIIIe-XIVe Siècles), Toiture Baroque & Accès à la Vieille Ville",
+    century: "XIIIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 48.40538,
+    lng: 8.01600,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMuJkL1tGC4fbmiGv2Z7PLNeqoDW1sFIObEXSygO-8fhYBqk5f7eJTO54qXMk7sqFoSbmHOBz1-z3G2ga9ClnG80b8ZIWSHRkFKIve_Ge8AGterAwnLAnBouXDROfZrzaM1TIYkkzcj4atnwzx8pZ-Gbg=w613-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dressée à cent quatre-vingt-deux mètres d'altitude à l'entrée nord-est de la vieille ville de Gengenbach, dans la vallée verdoyante et viticole de la Kinzig au pied de la Forêt-Noire centrale (Ortenaukreis, Bade-Wurtemberg), la Porte Haute (Obertorturm) domine majestueusement la perspective de la Hauptstraße. Érigée dès le XIIIe siècle — vers 1230 — et remaniée au XIVe siècle pour défendre l'accès oriental de l'ancienne ville libre d'Empire, cette haute tour-porte carrée en maçonnerie crépie de blanc conserve ses chaînages d'angle en grès rouge des Vosges et son passage voûté d'origine.\n\nEndommagée lors des conflits de la fin du XVIIe siècle puis couronnée au XVIIIe siècle d'une élégante toiture à la Mansart coiffée d'un clocheton bulbeux et d'un cadran d'horloge doré, la tour abrite aujourd'hui le musée d'histoire militaire et municipale (« Wehrgeschichtliches Museum »). Véritable sentinelle architecturale de la cité, l'Obertorturm ouvre la vue sur la place du marché, les maisons à colombages et les coteaux couverts de vignes surplombant Gengenbach.",
+    visiter: "Franchir à pied le passage voûté de l'Obertorturm à Gengenbach pour admirer la silhouette de cette tour-porte médiévale couronnée de son toit baroque et embrasser la perspective sur la Hauptstraße et la vieille ville.",
+    link: ""
+  },
+  {
+    id: "gengenbach_vieille_ville",
+    name: "Gengenbach - La Vieille Ville Historique & La Marktplatz (Perle de la Forêt-Noire)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Ortenaukreis",
+    subdiv: "Gengenbach",
+    altitude: 177,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Ancienne Ville Libre d'Empire (XVIIIe Siècle), Maisons à Colombages Fleuries, Hôtel de Ville & Ruelles Pavées",
+    century: "XVIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 48.40416,
+    lng: 8.01538,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOnijdFLcPED8ZfS6WVi8zFSJ1yHO0Vp4vGh8nEbzx-TOXTNKNrprargO_UPUd007cfc0yAnQfSJN4nCQ0PbZkHy1eNEyp56VLjuaZdpeaHaQ0CCvsL9y1--F4cXTW5BPPhNjs9_pRzQKu_16M_d0J9dw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPmqfao_TbZH2SnrcV8OC2zLzTgkK3zkp-oYxwlAnZV6yCCxD34K-k8cgM76-ZyzDdtoZocg-o5wRS7bXbPPd89hDLKBnEW_540T0p4sJjFRXB4A3aJQJOu4Y_QO4pc335XncFxI8sUbJFctwWB7C5ybw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOWJw2ts_cKnMvwmVGWdLlZDGs0uaw_L0VyeQIIqMJre4thQRLkbJpOS9iYfAMwHWCdyfFUnJVwGMeNJfMJ7DWds7vIBth3aTidKPT66q2TS7-mZk16dQGF7eJ9ULFXJ95VBoy2WSgoRGYvEhL5nZnROg=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM6d1VEGB4ezJ6ZFQEf5PJMmlrhAoXMLKiG01FfzajFnNEbWJdFdSgGS9Qk2N4R-MbXEfnMOJp6ZIeeeFNdBwKsCCmx6y07nWYHqZYjrvG4PuLB_vuWGMUE9OHvQyBocSxts4OhHDZU8iVKr_qd7Ut8dw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPvw00rdExt-WjSyFX2MKsLpTkSfg1yjndzTyQ1z9oQXkKHG_53s8bK4mNyZNRCSRXaMDjLXeHHyCQQ3E4NRVOgqUqP8BxsXBxawcHXeV9o0zhU0uyxhVGh2juWHxdCh-DYQRRrJWYSKUjolMyY-ZaqEw=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOYBBHkQYGWNt5hyGU9Ei1bbUtVakqJ_bOLVVwfrsExSxSO8HK-B0gACF6XSTA7w4Rwd-rRHucjdG5zl_WO0IUY6NRdaHQhcW0qAWOnf3QJR0xrmfIfDJQMofyBsJ2cF_OMXy8waDZfUGYPm3qgy_ZmYw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Nichée à cent soixante-dix-sept mètres d'altitude dans l'écrin verdoyant et viticole de la vallée de la Kinzig à l'ouest de la Forêt-Noire, la vieille ville de Gengenbach — surnommée la « perle romantique de la Forêt-Noire » — offre un ensemble architectural d'une homogénéité et d'une élégance remarquables. Fondée autour d'une puissante abbaye bénédictine impériale dès le VIIIe siècle avant d'accéder au rang de ville libre d'Empire au XIVe siècle, la cité fut reconstruite avec un raffinement exceptionnel au début du XVIIIe siècle après les ravages de la guerre de la Ligue d'Augsbourg.\n\nAutour de la Marktplatz ornée de la fontaine Renaissance du chevalier (Röhrbrunnen) et dominée par la façade majestueuse du Rathaus de 1784 aux vingt-quatre fenêtres célèbres pour leur calendrier de l'Avent géant, les ruelles pavées telles que la Engelgasse et la Höllengasse alignent de ravissantes maisons à colombages sculptés, des pignons fleuris de géraniums, des tours médiévales et des vestiges de remparts adossés aux coteaux de vignes de l'Ortenau.",
+    visiter: "Flâner à pied sur la Marktplatz et dans les ruelles pavées de l'Engelgasse et de la Höllengasse à Gengenbach pour admirer les maisons à colombages fleuries, l'Hôtel de Ville du XVIIIe siècle et les portes fortifiées de l'ancienne ville libre d'Empire.",
+    link: ""
+  },
+  {
+    id: "baden_baden_chateau_de_hohenbaden",
+    name: "Baden-Baden - Le Vieux Château de Hohenbaden (Altes Schloss - Rocher du Battert)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Baden-Baden",
+    subdiv: "Baden-Baden",
+    altitude: 423,
+    transport: "voiture",
+    era_group: "moyen_age",
+    era_label: "Forteresse des Margraves de Bade (XIIe-XVe Siècles), Ruines Romantiques en Grès Rouge & Panorama sur la Vallée de l'Oos",
+    century: "XVe siècle",
+    category: "chateau",
+    counts: { chateau: 1 },
+    lat: 48.77654,
+    lng: 8.24402,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMHGxZy2ho1sOXOZOCFS3Z5HpzKa8kV95uIoYuue_Dshcrj0N-o7-NkR1U-0WuwTUBEY9ntxVmlS2-ASRVaNFzrY-oJ7s3vCXprSl-mmOeNft22NX1GWdlE-7dPpTjLUhtc2eB1FdH41vLfvWnFlzTInA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN0J9JqsQ3teuNF-d0yXyS4yTtvh3s1W1kYIly_ln-KHwKEzgzW6azHcI_IkZtVhMJQS-4Uor1r6WnhhFv7EZDUDz8kiwo3P01hbf-wAzIUT4l28EKxrC1ZuPjeZApNkYYHi2K7OimzMOh2lzpqKJSvsQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOIBvoiut0gfAxdHXLQMeAFIsjFAqX3HXDJiqRI0R_OXHXsY6N76Ylie1fuE7yzb_o4Sl1Rzxs3bAUhpwTaZHl9Zz6bVAIRjJKzpYh2tj-BMuryb_N43Y-6oeNQ6n4csvpa2bEoYDUU_ldBV2qW18KCzw=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO8v95VTH-A0Wvwz7GVGHkXL4pvKY710msfrgT109bQOV9HB6KNzE2iNhrsAnsY9LQTa2Imul9aaiLktAy6qYohhm42n4007P87eIpFAY7Uz9S_9y-MTh6klZdrpNkf85KOqmVANYFYoJ3xNWB40vNIoQ=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP-A7P3W9Lc6SL34erGAnrYMDCQvXXtQ2kkG6QK6sqrXJY7lAyCdFLFY3CB2jG22Oq1awWWpsYBRxyP9z0F2O7eh57A1PV3VkUkSU4fYKwo0azSgDxYAbz-ykW2nvN3VsswCwPhu8Rkv0-9RR8lJnC1QQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Perché à quatre cent vingt-trois mètres d'altitude sur les escarpements rocheux du Battert au-dessus de la ville thermale de Baden-Baden, à la lisière septentrionale de la Forêt-Noire dans le Bade-Wurtemberg, le Vieux Château de Hohenbaden (Altes Schloss Hohenbaden) dresse les vestiges imposants de ses remparts et logis de grès rouge au milieu d'un écrin forestier spectaculaire. Fondée au début du XIIe siècle par le margrave Hermann II de Bade, la forteresse servit pendant plus de trois siècles de résidence principale aux margraves de Bade, qui l'agrandirent considérablement aux XIVe et XVe siècles — notamment sous Bernard Ier et Jacques Ier — en édifiant le majestueux Palas gothique de style « Bernhardsbau ».\n\nDélaissé à la fin du XVe siècle au profit du Nouveau Château bâti plus bas près de la ville, puis ravagé par un incendie en 1599, l'édifice devint au XIXe siècle l'un des hauts lieux du romantisme rhénan et allemand. Depuis ses cours intérieures ouvertes au ciel, ses hautes fenêtres gothiques évidées et ses chemins de ronde sécurisés, le regard embrasse un panorama grandiose sur toute la vallée de l'Oos, la plaine du Rhin et les crêtes lointaines des Vosges.",
+    visiter: "Monter jusqu'aux ruines du Vieux Château de Hohenbaden à 423 mètres d'altitude sur les hauteurs de Baden-Baden pour parcourir ses cours et salles gothiques en grès rouge et admirer le panorama sur la vallée de l'Oos et la plaine du Rhin.",
+    link: ""
+  },
+  {
+    id: "baden_baden_casino_kurhaus",
+    name: "Baden-Baden - Le Kurhaus & Le Casino de Baden-Baden (Architecture Belle Époque)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Baden-Baden",
+    subdiv: "Baden-Baden",
+    altitude: 163,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Palais Thermal Néo-Classique de Friedrich Weinbrenner (1821-1824), Colonnade Corinthienne & Capitale d'Été Européenne",
+    century: "XIXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 48.76015,
+    lng: 8.23680,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPsKqaPnMfF5BsxfX__c1pfvlyrBlNAU1oF1F6iwgr63twyd_sWBUDlTXx-0tm6EsHFVcwrY3QB2ng3Op5-3eevJW8FJy3pApdxV7JBhDK8LUwia5-rq_bWZGRoBheFUeodcQWWHmFZ-Gr2LnGrsYJgvg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Élevé à cent soixante-trois mètres d'altitude face aux pelouses soignées du Kurgarten et aux promenades ombragées de la Lichtentaler Allee à Baden-Baden dans le Bade-Wurtemberg, le Kurhaus abritant le célèbre Casino de Baden-Baden incarne toute la splendeur aristocratique de la « capitale d'été de l'Europe » au XIXe siècle. Édifié entre 1821 et 1824 selon les plans de l'architecte badois Friedrich Weinbrenner dans un style néo-classique d'une noble sobriété, le bâtiment principal déploie un imposant portique central à fronton triangulaire soutenu par huit colonnes corinthiennes monumentales encadré de deux longues ailes symétriques.\n\nC'est derrière cette façade claire baignée de lumière que les frères Bénazet firent aménager au milieu du XIXe siècle des salons de réception et de jeu d'un faste éblouissant inspirés des palais royaux français de Versailles et de Fontainebleau — fréquentés par les têtes couronnées d'Europe, Victor Hugo, Fiodor Dostoïevski, Johannes Brahms et Clara Schumann — qui firent dire à Marlene Dietrich qu'il s'agissait du plus beau casino du monde.",
+    visiter: "Parcourir l'esplanade du Kurgarten à Baden-Baden pour admirer la majestueuse colonnade néo-classique du Kurhaus et du Casino conçue par Friedrich Weinbrenner au pied des collines boisées de la Forêt-Noire.",
+    link: ""
+  },
+  {
+    id: "baden_baden_trinkhalle",
+    name: "Baden-Baden - La Galerie des Sources (Trinkhalle - Architecture Thermale Néo-Classique)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Baden-Baden",
+    subdiv: "Baden-Baden",
+    altitude: 167,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Portique Thermal de Heinrich Hübsch (1839-1842), Colonnade Corinthienne & Fresques des Légendes de la Forêt-Noire",
+    century: "XIXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 48.76174,
+    lng: 8.23674,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNm-XQvtkkepm7cFxaACFjRms46tLfazXvMEz_s_RptBrdCy1tE1jvJr4Uwsnio6ODuUjPY16xK5LPUvj-kObAvglTahLGFs9DlAkWQCDuJW6voiYn3K3ZOBGV6p6Bqv8j7ePxrR0F0aJ3bhf0LAQFVLA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dressée à cent soixante-sept mètres d'altitude immédiatement au nord du Kurhaus dans le parc thermal de Baden-Baden, au cœur de la grande ville d'eaux inscrite au patrimoine mondial de l'UNESCO parmi les « Grandes villes d'eaux d'Europe », la Trinkhalle (Galerie des Sources) compose un ensemble néo-classique d'une élégance aérienne. Conçue entre 1839 et 1842 par l'architecte Heinrich Hübsch pour offrir aux curistes un promenoir couvert où déguster les eaux thermales chaudes et minéralisées captées sur les pentes voisines du Florentinerberg, l'édifice s'étire sur près de quatre-vingt-dix mètres de longueur derrière une majestueuse colonnade ouverte de seize colonnes corinthiennes soutenant un fronton sculpté.\n\nLe mur du fond de cette galerie lumineuse est orné d'un célèbre cycle de quatorze grandes fresques murales peintes entre 1844 et 1847 par Jakob Götzenberger, illustrant les mythes, contes et légendes populaires de la Forêt-Noire et de la région de Baden-Baden — tels que le rocher d'Engelskanzel, le lac Mummelsee ou l'origine des sources thermales — dans le pur esprit du romantisme allemand.",
+    visiter: "Déambuler sous la colonnade corinthienne de la Trinkhalle à Baden-Baden pour admirer son architecture thermale néo-classique, la salle de dégustation des eaux et les quatorze fresques romantiques illustrant les légendes de la Forêt-Noire.",
+    link: ""
+  },
+  {
+    id: "karlsruhe_chateau_de_karlsruhe_exterieur",
+    name: "Karlsruhe - Le Château de Karlsruhe & L'Urbanisme en Éventail (Schloss Karlsruhe)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Karlsruhe",
+    subdiv: "Karlsruhe",
+    altitude: 120,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Résidence des Margraves et Grands-Ducs de Bade (Fondé en 1715), Plan Radioconcentrique & Tour Octogonale Centrale",
+    century: "XVIIIe siècle",
+    category: "chateau",
+    counts: { chateau: 1 },
+    lat: 49.01341,
+    lng: 8.40436,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMJ9cE0sqcptoe49Qt1z77VVoj3ANNb2tPR_R6euTFw5T_y5M3b0BKpe9dD6D4OlQtGmQC9ijqgmHXRACkasjUQkQUZmBiNVf40KHtMgbosvu1T4MbanhEc2K_PaxrmdAQgyrjKRJyQGmAlWRUl8fqRFA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMFEyJcGh7EVi9eXI8WchIR0WtxKz6qPY0evoSz93_ZasijJ_9z12iDGV7tgXdCMAOAOllZ9RejAhfB5MObvxAR4VAbL4dk24en1kF_kUnVk3Rgbl40k6poG2yD3_8TVhzUsm74Jyls872c_PXz6ScC_w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Érigé à cent vingt mètres d'altitude au centre géométrique exact de Karlsruhe dans le Bade-Wurtemberg, le château de Karlsruhe (Schloss Karlsruhe) constitue à la fois l'ancienne résidence des margraves et grands-ducs de Bade et le point focal originel autour duquel fut tracée la « ville-éventail » (Fächerstadt) fondée le 17 juin 1715 par le margrave Charles-Guillaume de Bade-Durlach. Du sommet de sa haute tour octogonale centrale rayonnent en effet trente-deux avenues et allées rectilignes telles les rayons d'un soleil ou les branches d'un éventail, incarnant l'idéal urbanistique de l'absolutisme éclairé du XVIIIe siècle.\n\nRemanié en pierre entre 1752 et 1785 par les architectes Balthasar Neumann et Albrecht Friedrich von Kesslau dans un style baroque tardif et néo-classique d'une grande harmonie, le palais déploie ses longues ailes peintes en ocre jaune lumineux ouvrant sur la vaste Schlossplatz au sud et sur les pelouses et futaies du Schlossgarten au nord, abritant aujourd'hui les prestigieuses collections du Badisches Landesmuseum.",
+    visiter: "Admirer les façades ocre et la tour octogonale centrale du château de Karlsruhe depuis la Schlossplatz et les jardins du Schlossgarten, et apprécier la perspective unique de ses trente-deux avenues rayonnantes.",
+    link: ""
+  },
+  {
+    id: "karlsruhe_jardin_botanique",
+    name: "Karlsruhe - Le Jardin Botanique & Les Serres Historiques (Botanischer Garten Karlsruhe)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Karlsruhe",
+    subdiv: "Karlsruhe",
+    altitude: 117,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Jardin Princier Fondé au XVIIIe Siècle, Serres en Verre et Fonte de Heinrich Hübsch (1853-1857) & Orangerie",
+    century: "XIXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.01332,
+    lng: 8.39959,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMMzgdPO2DQxFG9yZ3I8TkJDWlQWpP8eaEAsDHl--ukqBwTrskKRm2NoP3X9fpfY2YwbGo0eQ1H7fJ0Yl3iQ9mUZHjN7yLmigt5a-ik1Je3z9_4fNg1ppMqrIhSVOoLWIGK0z76aIDbPAz4cU-jjz3WGw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM1sH1CfvXYTj4576iuXld8yMXdsY_zyMQqwuKHzdpIRIvrYO9-ni08_XT4G3ECFTs0TfZViaFyXmc2Kjly1jZhUs3Wcs5197inyjR-X63ztCiKkvuFG8wsELTZ-7Sqj0cqt-NXiyk5GWk-PROadqx2Ow=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Aménagé à cent dix-sept mètres d'altitude immédiatement à l'ouest du château de Karlsruhe, en bordure du Schlossgarten dans le Bade-Wurtemberg, le Jardin Botanique de Karlsruhe (Botanischer Garten) offre un havre de verdure, de calme et d'architecture horticole au cœur de la cité badoise. Issu des jardins princiers créés dès 1715 par le margrave Charles-Guillaume de Bade-Durlach — grand passionné de botanique et collectionneur de tulipes et d'essences rares — puis réorganisé au début du XIXe siècle, le site conserve un ensemble remarquable de pavillons et de serres monumentales dessinés entre 1853 et 1857 par l'architecte Heinrich Hübsch.\n\nAssociant la pierre claire, la fonte ouvragée et de vastes verrières lumineuses dans une synthèse élégante entre architecture classique et ingénierie du XIXe siècle, l'Orangerie, la serre aux palmiers et la serre aux camélias encadrent des parterres fleuris, des bassins ornés de fontaines, des pergolas ombragées et des arbres remarquables bicentenaires venus de tous les continents.",
+    visiter: "Flâner dans les allées fleuries du Jardin Botanique à l'ouest du château de Karlsruhe pour admirer l'architecture en verre, fonte et pierre des serres historiques conçues par Heinrich Hübsch ainsi que les essences rares du parc.",
+    link: ""
+  },
+  {
+    id: "karlsruhe_quartier_de_durlach",
+    name: "Karlsruhe - La Vieille Ville Historique de Durlach & La Karlsburg (Berceau de Bade-Durlach)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Karlsruhe",
+    subdiv: "Karlsruhe",
+    altitude: 123,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Ancienne Résidence des Margraves de Bade-Durlach (1565-1715), Château de la Karlsburg, Place du Marché & Remparts",
+    century: "XVIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 48.99885,
+    lng: 8.47082,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMvgXMxkH6ZtSQo6RWW165A4QtXNrGohPI10dLYsONW3PFM9ka-0z8MrqAKBqqYYAAQIDMMl51uZQ3OeqXJhTNpwp0-GhAolRuEXAjvKdCSqXcum-eYB4fK3JKW7HvOjskq34unUKtUMy0kc0tZ9hwHyA=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMhOGPXl9bB_9FyyrOJuQ6V6Jx25oYW5LfHbr04G93tkKFWlihn29QlS3-rMYQMyqDFihznAMQNvi_mSXJUYCn5yzCKzxdrsEsanqjlj-GfzG97dpaHKh_lvhjxENftFnKINZU3QdyS3Pao9B8uVUUasg=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Blotti à cent vingt-trois mètres d'altitude au pied de la colline viticole du Turmberg à l'est de Karlsruhe dans le Bade-Wurtemberg, le quartier historique de Durlach possède une identité urbaine beaucoup plus ancienne que la cité-éventail voisine, dont il fut le berceau historique. Capitale de la principauté des margraves de Bade-Durlach de 1565 jusqu'à la fondation de Karlsruhe en 1715, cette ancienne ville fortifiée déploie autour de sa Marktplatz animée et de son Hôtel de Ville des ruelles sinueuses bordées de maisons bourgeoises anciennes aux façades pastel, de portes fortifiées telles que la Basler Tor et de vestiges de remparts médiévaux.\n\nAu cœur du quartier se dresse le château de la Karlsburg, ancienne résidence margraviale reconstruite au début du XVIIIe siècle après les destructions de 1689, dont l'aile baroque ocre jaune donne sur le Schlossplatz et le parc ombragé. Dominé par la tour de guet médiévale du Turmberg offrant une vue étendue sur la plaine du Rhin, Durlach allie avec charme le patrimoine d'une ancienne capitale princière et la convivialité d'un bourg viticole badois.",
+    visiter: "Parcourir à pied le centre historique de Durlach à l'est de Karlsruhe pour découvrir la place du marché, les ruelles anciennes, la porte fortifiée Basler Tor et les façades baroques du château de la Karlsburg au pied du Turmberg.",
+    link: ""
+  },
+  {
+    id: "maulbronn_torturm_et_murailles_kloster",
+    name: "Maulbronn - La Tour-Porte & Les Murailles de l'Abbaye de Maulbronn (Torturm im Kloster Maulbronn)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Enzkreis",
+    subdiv: "Maulbronn",
+    altitude: 260,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Enceinte Monastique Cistercienne Fortifiée (XIIe-XVe Siècles), Tour-Porte d'Entrée & Bâtiments à Colombages",
+    century: "XIIIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.00028,
+    lng: 8.81060,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMDvCgaVHrBmxSVOc4rKuZlDQUQApAsMK5O_tSaTx2jlrU2EVs-1X0PsSDZvKcc_Zd7lGBYKg4-vpwJTgrqfvHhUVbU3YYjN74CMJjdfT4S98uttR5ET6zmyCaPxLy7RfvvnlDiPvUTQXD8n9HdyY_-kg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPuhJqIj6qGbmVmzrD-ww-D4WYcG09xYYJ-rLRM2atL3GKbV_TO_wzbTUDv9mNfF-OldBTAV06BG0YB0WD7pND-OF4d2kTid-8beHtYZCNJaScEyfVp8_0oJN-RZ9Ug-raDPm1MUjpx23A6UI6boEWdOw=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPfWIiYDaGHeH8QCwq7k9Nlu6a7Ln1HAGm21hUNh-BwvZ-X2_9arWHrm5tafsUBG_EmaGflcdKajYJVyxyadklejg32dfJDHK8Jyn3I-d6PbhwoKOMmxa1o9whzXJSIvhTNj2oWeI22vPr1xcUlcRV2UA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Marquant à deux cent soixante mètres d'altitude l'entrée occidentale du prestigieux domaine monastique cistercien de Maulbronn (inscrit au patrimoine mondial de l'UNESCO) dans le Bade-Wurtemberg, la Tour-Porte (Torturm) et les puissantes murailles d'enceinte forment un ensemble fortifié médiéval d'une intégrité exceptionnelle. Fondée en 1147 au creux d'un vallon boisé et irrigué du Stromberg, l'abbaye cistercienne fut entièrement ceinturée dès le XIIIe siècle et renforcée aux XIVe et XVe siècles par près d'un kilomètre de remparts ponctués de tours de défense, de chemins de ronde et de douves protégeant la clôture spirituelle et économique des moines.\n\nDominée par sa haute tour-porte carrée coiffée d'un toit en bâtière et d'un clocheton élancé — jadis précédée d'un pont-levis enjambant le fossé —, l'enceinte s'ouvre sur la vaste cour extérieure bordée de bâtiments conventuels, d'anciens greniers, de forges et de maisons à colombages remarquablement conservés. Ce rempart monumental illustre la puissance temporelle et l'autarcie remarquable d'une grande abbaye cistercienne d'Europe centrale au Moyen Âge.",
+    visiter: "Franchir la Tour-Porte (Torturm) et longer les remparts médiévaux de l'abbaye de Maulbronn pour admirer l'enceinte fortifiée cistercienne, les tours d'angle et l'ensemble des bâtiments historiques de la cour monastique.",
+    link: ""
+  },
+  {
+    id: "maulbronn_stadthalle_et_vieilles_maisons",
+    name: "Maulbronn - La Stadthalle, L'Ancien Hôtel de Ville & Les Maisons Historiques du Klosterhof",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Enzkreis",
+    subdiv: "Maulbronn",
+    altitude: 260,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Ensemble Urbain & Monastique du Klosterhof (XVIe-XVIIIe Siècles), Maisons à Colombages & Architecture Civique",
+    century: "XVIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.00076,
+    lng: 8.81163,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN-VHTWJfV6sEht04poqHZtAEJ2Nre1l3dIDGPV9m6YfX3sfiN7krWMdbUyLTrmRgQu0kIj7fscKjM8LA6mdgB803gE1atWywuL9KWAkYilLCCmZ-mFMOAthNDeQueBGInjp6x_HXwzt9m3s93EbRplnA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPWYLL7JwTqHVzOaShI6FFiuS5DrqZD1sE_a7WIqenYlaCR5o6I-7BMtdq8OzoqqtSm9NZwbq4nA_HDWZjIE9FJ2r7T_NZrzJpV1idqGL88KhQ3R_qwObpzKYAs7Ghlr8EOpotTqsC7g_DLm9xt8CEe2g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNi1Nsbj84rT3i4M9cwdAYXXyXPGdhoH_ouxQLNfD0V9CRSSi2irxh-LqUnm9HkbCRamBTP5RrjGbH-a4Ru86FmIta0WbdHRY9zXmPhFezyNRwa2qn7dNEzEgg-ALIf9gle3rJc9gzv4JHuHj_0u2hpMA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMoWfM5_QwtRSO8mp3-e53f9ZFHT2YUTT_L4skIyTMvXFaeR2QurmWp3w4m1pLpxLU3EzcAQ3RRg37YdF4SoXWzNgn9R9wRY0Cs0H7EXBIy8dFzm0OuyReNuVtS_VKz4xmMHU_szMasjL4yUUED3fcmdA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN9C3I1_tWNMl-xvnfAr29ZZOR0SEq8dil16IJntiYbMKxvy0ibsSYbk38d1LKMkrbjWxq4SGIY5zFbY3wxolT_sVVvKI8mPBi8HmV67h4SSri1zar_8xJW0TLj7ekAH3sXmkO3nKLlAd6Ii6x9bcnuyA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Déployés à deux cent soixante mètres d'altitude autour de la vaste cour intérieure du Klosterhof et des abords immédiats de l'enceinte monastique de Maulbronn dans le Bade-Wurtemberg, la Stadthalle, les anciens bâtiments administratifs et les vieilles maisons à colombages composent un cadre patrimonial d'une remarquable authenticité. Après l'introduction de la Réforme dans le duché de Wurtemberg au XVIe siècle et la transformation de l'abbaye cistercienne en prestigieuse école évangélique (où étudièrent notamment Johannes Kepler, Friedrich Hölderlin et Hermann Hesse), cet ensemble architectural devint le centre administratif et civique de la cité de Maulbronn.\n\nAssociant de robustes soubassements en grès ocre du Stromberg à de hautes élévations à colombages sculptés, de vastes toitures de tuiles anciennes à lucarnes et des cours paisibles bordées d'arbres, ces demeures historiques illustrent avec élégance la continuité entre la vie monastique médiévale, l'administration ducale de la Renaissance et l'architecture traditionnelle souabe.",
+    visiter: "Se promener à pied dans la cour du Klosterhof et autour de la Stadthalle à Maulbronn pour admirer l'harmonie des maisons à colombages, des façades en grès et des anciens bâtiments conventuels et municipaux.",
+    link: ""
+  },
+   {
     id: "fribourg_en_brisgau_schwabentor",
     name: "Fribourg-en-Brisgau - La Porte de Souabe (Schwabentor - Forêt-Noire)",
     country: "Allemagne",
