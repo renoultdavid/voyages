@@ -218,7 +218,7 @@ const SPOTS_3 = [
         caption: ""
       },
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczOOtHkC_Lmr86kFQS920OxRJB_upNntMl-upGtBMuJYnKnS6m5YTx-yeiFvu6Bs17zshoWA3uxRKtjKqjXx71WY0CVLQqFfWnoqVlW-j-iCl9kky1sKOYa_Q2qvPZo8ix8TvgsjnjGZpAVLt-BqFx6HQ=w1367-h911-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOOtHkC_Lmr86kFQS920OxRJB_upNntMl-upGtBMuJYnKnS6m5YTx-yeiFvu6Bs17zshoWA3uxRKtjKqjXx71WY0CVLQqFfWnoqVlW-j-iCl9kkyK1sKOYa_Q2qvPZo8ix8TvgsjnjGZpAVLt-BqFx6HQ=w1367-h911-s-no-gm?authuser=0",
         caption: ""
       },
       {
