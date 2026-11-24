@@ -7,6 +7,140 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "wuerzburg_residence_de_wuerzburg",
+    name: "Wurtzbourg (Würzburg) - Résidence de Würzburg (Würzburger Residenz - Patrimoine Mondial de l'UNESCO)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Basse-Franconie",
+    subdiv: "Wurtzbourg",
+    altitude: 190,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Chef-d'Œuvre Baroque & Rococo de Balthasar Neumann (1720-1780), Escalier & Fresques de Tiepolo - Patrimoine Mondial UNESCO",
+    century: "XVIIIe siècle",
+    category: "chateau",
+    is_unesco: true,
+    counts: { chateau: 1, unesco: 1 },
+    lat: 49.79291,
+    lng: 9.93901,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOkey9ciQqRH6S9P0nXvA9dEyDpOKtrH_LGaEzOR4S76RBXhSYO4lgNPBCYWlp4uIqCVzq0ydsVDdADGOv5wsQi6V9SjHY6itmyaUz5lZYjEuvfjQVEks8FhSyxyFfnTUNwQsgQJEN6PZ4fVVWT-U-Rbg=w1379-h919-s-no-gm?authuser=0",
+    description: "Érigée au cœur de la ville historique de Wurtzbourg en Basse-Franconie, la Résidence de Würzburg (Würzburger Residenz), inscrite au patrimoine mondial de l'UNESCO depuis 1981, s'impose comme l'un des plus prodigieux palais baroques d'Europe et le chef-d'œuvre absolu du génie architectural de Balthasar Neumann. Entrepris en 1720 à l'initiative du prince-évêque Johann Philipp Franz von Schönborn, puis poursuivi avec un faste inégalé par son frère Friedrich Karl von Schönborn jusqu'à l'achèvement du gros œuvre en 1744 et des décors intérieurs vers 1780, cet édifice monumental réunit la quintessence des écoles artistiques allemande, française, autrichienne et italienne — associant autour de Neumann les conseils des architectes français Robert de Cotte et Germain Boffrand, du Viennois Johann Lukas von Hildebrandt, du stucateur tessinois Antonio Bossi et du maître vénitien Giovanni Battista Tiepolo. Gravement sinistré lors du bombardement incendiaire du 16 mars 1945 qui anéantit ses toitures et une grande partie de ses appartements latéraux, le palais a fait l'objet d'une renaissance exemplaire qui a permis de sauvegarder ses voûtes maîtresses et de restituer avec une fidélité remarquable ses décors d'apparat.",
+    intro_page: "Érigée au cœur de la ville historique de Wurtzbourg en Basse-Franconie, la Résidence de Würzburg (Würzburger Residenz), inscrite au patrimoine mondial de l'UNESCO depuis 1981, s'impose comme l'un des plus prodigieux palais baroques d'Europe et le chef-d'œuvre absolu du génie architectural de Balthasar Neumann. Entrepris en 1720 à l'initiative du prince-évêque Johann Philipp Franz von Schönborn, puis poursuivi avec un faste inégalé par son frère Friedrich Karl von Schönborn jusqu'à l'achèvement du gros œuvre en 1744 et des décors intérieurs vers 1780, cet édifice monumental réunit la quintessence des écoles artistiques allemande, française, autrichienne et italienne — associant autour de Neumann les conseils des architectes français Robert de Cotte et Germain Boffrand, du Viennois Johann Lukas von Hildebrandt, du stucateur tessinois Antonio Bossi et du maître vénitien Giovanni Battista Tiepolo. Gravement sinistré lors du bombardement incendiaire du 16 mars 1945 qui anéantit ses toitures et une grande partie de ses appartements latéraux, le palais a fait l'objet d'une renaissance exemplaire qui a permis de sauvegarder ses voûtes maîtresses et de restituer avec une fidélité remarquable ses décors d'apparat.",
+    visiter: "Contempler la façade monumentale en grès blond et la cour d'honneur de la Résidence de Würzburg (UNESCO), gravir le grand escalier d'apparat sous l'immense fresque de Tiepolo, puis parcourir la Salle Blanche, la Salle Impériale, le Cabinet des Miroirs et les Appartements Impériaux.",
+    link: "",
+    sections: [
+      {
+        title: "Façade monumentale sur la Residenzplatz et cour d'honneur",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOkey9ciQqRH6S9P0nXvA9dEyDpOKtrH_LGaEzOR4S76RBXhSYO4lgNPBCYWlp4uIqCVzq0ydsVDdADGOv5wsQi6V9SjHY6itmyaUz5lZYjEuvfjQVEks8FhSyxyFfnTUNwQsgQJEN6PZ4fVVWT-U-Rbg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN4ECiGIuztkpZRQPM9kOK2KAuRsyWAZMPQz6mKuDpi8PVFMFEL7ZLQLs9dnt7m9xXNdZSKAj99M3_ZeqTQjNpcQipfc_UZi_H9C8l7jA_rLvIuMl2_yUIsQIrbaMcwIp-x61FVbFM4OnUl9y1lRh71VQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "De l'extérieur, le palais déploie sur la vaste esplanade de la Residenzplatz une façade monumentale longue de cent soixante-sept mètres, ordonnancée en U autour d'une profonde cour d'honneur (Ehrenhof) autrefois fermée par les somptueuses grilles en fer forgé du maître serrurier Johann Georg Oegg. Bâties en pierre de grès blond de Franconie (Mainfränkischer Sandstein), les élévations conjuguent la noblesse classique inspirée de Versailles au dynamisme sculptural du baroque d'Europe centrale : un soubassement à refends supporte deux étages nobles rythmés par des pilastres colossaux et scandés au centre par un majestueux avant-corps (Mittelrisalit) couronné d'un fronton richement sculpté de trophées, d'allégories et des armes de la maison de Schönborn, tandis que de hautes fenêtres à encadrements moulurés reflètent la lumière sur l'ensemble de l'aile principale et de ses deux ailes en retour."
+      },
+      {
+        title: "Le vestibule d'accueil et l'ouverture vers la Sala Terrena",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPLTycvU0ZJq-kif9HNxtsM9k_cnOhxNP71L5LPUlNFmaKTPEQ2PV2XzeaWCDq9uEtK3t9yOcZUl-mGyqAqEcfgOcTIUuvNY7QuHvQ5aHNrMdgyIX1hsyjxhHpKdPEcG3iLFPhlU9ZWtu5KxueRP9ys7g=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPcoI_mopi6c_BLr8NPHUMmoYEj_wQaDswVP_Cog_BP1fK46u4rSaE9BpIeQkvXVwHPb9KKIRdoAmfDAEAxTOuVh7arpkNgGiGFGMoIPJLigr6nBJRoO8XiUV18PBpoV_nqOQxZeJQN-QGzXP2E_GmOUA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le parcours intérieur débute au rez-de-chaussée par le vaste vestibule d'accueil (Vestibül), conçu pour permettre l'entrée directe des carrosses sous une audacieuse voûte surbaissée dépourvue de supports intermédiaires, et se prolonge dans l'axe par la lumineuse Sala Terrena ou salle du jardin (Gartensaal)."
+      },
+      {
+        title: "La Sala Terrena (Gartensaal), stucs d'Antonio Bossi et fresques de Johann Zick",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN22WCEJn_ArRPg_L9XGfe7gAju94K0GERblaiZpPEojDjhKbCS0MBrqVmsuAzELK0EsxXZBqb5Gw_j6jBH4sZ8iYL7tUFCbiNagSzkZFUMFtlbA-sEK6DD_r1G9ddTvrPtjNzAh9mLknKN5EbGtl9m9A=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPFJuGXn9zUXaLnXEd8HoPyMnOu5t_tc779xDC_HxX8U26jDV-BzzvAXQQ6iTV1F1G3aycdUeqXsx3p48r7DEbwmeaQHTr8eaglnKp54Ly3mnTuz1yUPFBUdpsqn2q-aONS-NkUNgyjfFjhm-oczP0xMQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Cette salle basse à l'atmosphère fraîche et aérienne repose sur douze fines colonnes de marbre rougeâtre et gris d'où jaillissent des voûtes d'ogives garnies des premiers stucs rococo d'Antonio Bossi — guirlandes végétales, oiseaux, putti et rinceaux en haut-relief — encadrant les fresques peintes en 1749-1750 par Johann Zick autour des figures mythologiques d'Apollon et de Diane chasseresse."
+      },
+      {
+        title: "Le grand escalier d'apparat (Treppenhaus) et la voûte en auge de Neumann",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOXf4ag16QoYEWhF6cY4ecoh8GMmaBFKVXSy77e2oMMKSaY2QT_gwXG963bCrEZiJT4ZiU5w8YUnAAbDQRpudgy6sOTKPHWQ-J4TBgFM8KUvi6_gDoisPAYQKVIkvHkezLeivbfBA2Ua8kW7JdI6go6jA=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOo6skJ6QPeb6nLeiMyW5hHxc-T5MHuEnnKM4gJR8fki9YXz9Rf21kyNKXBKXSJWQyVPCwPoIKKNHdEKXLFPDeEtwjlOugOQImwdOnna1KC61qq2qhxjE8RlZzGqRKXLhBIAT_4ZF7GfANp59n26Ec34g=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Depuis le vestibule s'ouvre l'espace le plus célèbre du palais : le grand escalier d'apparat (Treppenhaus), prodige d'architecture spatiale conçu par Balthasar Neumann. Une large volée centrale s'élance vers un palier intermédiaire avant de se dédoubler en deux volées latérales symétriques débouchant sur une galerie haute, l'ensemble étant coiffé d'une immense voûte en auge (Muldengewölbe) d'un seul tenant, longue de trente-deux mètres sur dix-huit mètres de large, qui se maintient sans aucun pilier ni arc-doubleau intermédiaire."
+      },
+      {
+        title: "La plus vaste fresque sur plafond du monde par Giovanni Battista Tiepolo",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN7uU4oId1DWR8IokJm7pb8YT6jP2_3VUdw8YJyoS9xIqduSX98gdDAy-6iqVUbHEg5iCmOwu1xdgbmPXKiXqOHOrVq6gKHQFLB8skwj9Ttof9K9DFKdPL3grb4s6zk-UImxFWf57TErG0-eYPfDzZaew=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Au-dessus de cette cage monumentale se déploie la plus vaste fresque sur plafond du monde, peinte entre 1752 et 1753 par Giovanni Battista Tiepolo assisté de ses fils Giandomenico et Lorenzo : dans un ciel lumineux dominé par Apollon et les dieux de l'Olympe, les quatre continents connus — l'Europe, l'Amérique, l'Asie et l'Afrique — déploient leurs cortèges exotiques, leurs allégories et leurs animaux sur la corniche peinte en trompe-l'œil, où Tiepolo a glissé son propre autoportrait ainsi que le portrait en uniforme d'officier d'artillerie de l'architecte Balthasar Neumann appuyé sur un canon."
+      },
+      {
+        title: "La Salle Blanche (Weißer Saal) et les stucs rococo d'Antonio Bossi",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNe7MXHEDS7jBMlT7r7BF4-dG6OJyCnfBzdHo637Y9WaekE07AXKcmB89Tssud_NqGoPCplxZFtdJofKq56pTEMWnzl2qAdSI-Bn2OlKtYjpI_nCKUb2ubS7Lv_9YBmZCbTbaf2Pf2CHV4zZ4ALN7vPcg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOW6DVDCUEEnWya0n54ZiCQQkauNhfCvHExLiT2bZ6TaEnV3DmMA5aNwTua9IL-0wUZFWeTE9lbzZnfJ6glWphU_iR55uSQSHapTiGajr7Yd5kskirB3M9ZwmczJQxLGUEKRAuczpW9fkivIdV366oM9A=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "À l'étage noble, l'escalier introduit d'abord dans la Salle Blanche (Weißer Saal), vaste antichambre d'apparat conçue comme une pause visuelle épurée avant les ors du sanctuaire impérial. Ici, Antonio Bossi a déployé entre 1744 et 1745 toute la virtuosité du rococo franconien en modelant directement sur un fond gris perle une profusion foisonnante de stucs entièrement blancs — rocailles asymétriques, trophées d'armes et d'arts, guirlandes florales et figures allégoriques en ronde-bosse — dont les reliefs captent et diffractent la lumière naturelle sans le moindre recours à la dorure."
+      },
+      {
+        title: "La Salle Impériale (Kaisersaal), colonnes en scagliola et stucs dorés",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP7TYxttWdVlLGCZJM_OFAI9w16_xhE3FFbsxdhU7nZj4UCLjN2tWe8mDZ_igIyapQQnNXhMN9oybZG0OctSeIax2LRgw_LmW20-5jMFkPZbgRVm76UBdbJdL4fpuIQhGvuTZcULBZn9ptAadaVXq6QmQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Dans le prolongement axial s'épanouit la fastueuse Salle Impériale (Kaisersaal), cœur politique et cérémoniel de la résidence destiné à recevoir l'empereur lors de ses passages à Wurtzbourg. Ce salon octogonal allongé marie avec un éclat théâtral vingt colonnes en stuc marbré (scagliola) rouge et jaune ocre à une débauche de stucs dorés d'Antonio Bossi, de statues d'empereurs romains et de divinités tutélaires."
+      },
+      {
+        title: "Les fresques impériales de Tiepolo dans la coupole et les lunettes du Kaisersaal",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMh95T4ySlvE2w68Cnb16kHNKgCqM4MhV1xUcS5kW8zj4yUSqWUP_NGBLuvenDZWG0rKPR0ugCBiwl-8YeowQwlVzo4g2ibs_gkRqj4d26tePjB1BPQZazWfLFvdJKy0V3X7O4O3YKamBUTjEmUAD-AEA=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOVouF1UyV3p76F2nF5mjXHIkohGH4Nc1n0eAm0ApU17S25FI0bnTcfFOVFz7mJa1nyDlA8z9PsAnm52W5kho10q2c81LglRwIG8qH3X0HbwSldjwKOLj2TLuD2z8XDJs4l0b8-dle6liHZ2xslS18I4g=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Dans les lunettes et au centre de la coupole rayonnent trois chefs-d'œuvre picturaux exécutés en 1751-1752 par Giovanni Battista Tiepolo pour glorifier l'alliance millénaire entre l'Empire et l'évêché : au plafond, Apollon conduit sur son char la jeune Béatrice de Bourgogne vers l'empereur Frédéric Barberousse, tandis que les deux grandes fresques murales représentent le mariage impérial célébré à Wurtzbourg en 1156 et l'investiture solennelle du prince-évêque Harold recevant le duché de Franconie des mains de Barberousse en 1168."
+      },
+      {
+        title: "Les Appartements Impériaux (Kaiserzimmer) : enfilade méridionale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOZyoQamiTmpZR7Z1APpIju67cpo0LpdUFJP9M_wu7CNOR2aemt4Q9hlHiX2zQA8ODbq7U673hPSglLohokdR1Lwq-_Zhg0KBXk4Iy7Hb0mAhdkoY4uFKP_Mj-kFl2l2WLZO1Bb8RnqhFVIc-LtpzT44Q=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNm0-QNURPkbu0wPusqdEjao3g39gTJDKPSwuGlz2-6NhPNg3YEsRxTc6gK833CidptB9hY1r0RB8JsfiIO4iESiqMB6KHDcWZ_jhN4DVCWlM_tinltkrprR6KMgNFJ0bhzTGeW6G1K7FW8Damj6gNfHQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "De part et d'autre de cet axe central se déploient les deux grandes enfilades des Appartements Impériaux (Kaiserzimmer), qui permettent d'admirer l'évolution complète des arts décoratifs du XVIIIe siècle, du baroque tardif au néoclassicisme. L'enfilade méridionale aligne la salle d'audience, la salle des tapisseries des Gobelins et la chambre de parade ornée de soieries damassées et de boiseries sculptées par Ferdinand Hundt, pour culminer dans le prodigieux Cabinet des Miroirs (Spiegelkabinett)."
+      },
+      {
+        title: "Le Cabinet des Miroirs (Spiegelkabinett) et l'enfilade septentrionale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOnRTODPmXsSSvKOqDMNZzhVhbkvEFV55uIlKd-7XpgRHgQ4QzL7JCMMwXcuNvi3DHtsw6_KpwiI4NDgQMovXhtHQSooiw1Z31bJkWNEO7Vfc4YAxOQAWzO_M-Qt1F_NfK5AHPsFumAcPPAvVoNCbHaoA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNhZUyrDNusbnYVzy29VA964lNqR8Aq3SetaoDThr6RBxzUlymWCQXDhNufN08WBQ6nuoeaeG48bbLwmVdijxNiH08Q6QG_Zq1LrRKWzlmzU5bvKQLuEQ7i7vrX55YWIAzDBeoc2mCsprhO0ecGdwG63A=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Véritable joyau du rococo européen reconstitué à l'identique après sa destruction en 1945, ce cabinet intime est entièrement tapissé de glaces peintes à l'envers (Hinterglasmalerei) où s'entrelacent scènes de chinoiseries, arabesques dorées, volières exotiques et consoles sculptées démultipliées à l'infini par le jeu des reflets. L'enfilade septentrionale dévoile quant à elle la Salle Vénitienne (Venezianisches Zimmer) tendue de brocarts et ornée d'un cycle de tapisseries de Bruxelles consacrées aux triomphes d'Alexandre le Grand, le raffiné Cabinet de Laque Verte (Grünes Lackkabinett) aux panneaux inspirés de l'Extrême-Orient, ainsi que les salons aménagés à la fin du XVIIIe siècle par le stucateur Materno Bossi dans un style néoclassique sobre d'inspiration Louis XVI."
+      }
+    ]
+  },
+  {
+    id: "wuerzburg_chapelle_de_la_residence_hofkirche",
+    name: "Wurtzbourg (Würzburg) - La Chapelle de la Résidence (Hofkirche - Balthasar Neumann & Tiepolo)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Basse-Franconie",
+    subdiv: "Wurtzbourg",
+    altitude: 190,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Chef-d'Œuvre de l'Art Total Baroque (1732-1743), Voûtes Complexes de Balthasar Neumann, Stucs d'Antonio Bossi & Retables de Tiepolo",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 49.79221,
+    lng: 9.93799,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO1s_j1JoNalBN6DAgwQDlisqbgosAouyDhc1cY1EFu0xhdLjBiUGqF1udWsNChVXGrOd0qeT2w4_9v7VBp2S0cNXXHg_w_B-aB_7VeF9FNGUTM2ABNhlu0Qb5-Bs7DakR0drY1koWIHwSSsXL4w8GhCw=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNNxUrrBSLTa4cNiJ_4__dUZNEbgqmvkFugK8q7U6F6awEhqRWuBcTAaE3eKiMf9RO7JWLIWJuUJ1tGcvILL3MTZ0Fz26t2yvYjhR_MFyJvGK8tpXj5_VHcvfKA5YZO33KYNj45B5gsk9ffr-IvU-V0fw=w613-h919-s-no-gm?authuser=0",
+        caption: "L'intérieur de la nef offre un spectacle visuel d'une richesse inouïe, où l'architecture, la sculpture et la peinture fusionnent dans ce que l'on appelle l'art total. Les colonnes en marbre rouge de Sicile, aux chapiteaux dorés, soutiennent des voûtes ornées de fresques magistrales de Johann Rudolf Byss. La décoration en stuc, réalisée par Antonio Bossi, déploie des motifs rocaille d'une finesse extrême qui semblent s'animer sous la lumière. Les jeux de miroirs et les dorures omniprésentes démultiplient l'espace, transformant la nef en un écrin de lumière qui célèbre la puissance spirituelle et temporelle du prince-évêque.\n\nContrairement aux édifices gothiques de la région, la nef de la Hofkirche ne cherche pas la verticalité nue mais l'illusion et le faste. Les deux autels latéraux, peints par Giambattista Tiepolo, témoignent de l'influence italienne majeure sur ce chantier exceptionnel. Bien que la chapelle ait été gravement endommagée lors du bombardement de Wurtzbourg en 1945, elle a fait l'objet d'une restauration méticuleuse qui a permis de sauvegarder les œuvres originales de Tiepolo et de reconstituer les décors de stuc disparus. Ce joyau du XVIIIe siècle demeure aujourd'hui l'un des exemples les plus éblouissants du génie baroque européen, où la complexité mathématique de Neumann rencontre la fantaisie décorative du rococo."
+      }
+    ],
+    description: "Intégrée dans l'angle sud-ouest de la Résidence de Würzburg en Basse-Franconie à cent quatre-vingt-dix mètres d'altitude, la Chapelle de la Cour (Hofkirche) constitue l'un des joyaux les plus audacieux et éblouissants de l'architecture sacrée baroque en Europe. Édifiée entre 1732 et 1743 par Balthasar Neumann sous le règne du prince-évêque Friedrich Karl von Schönborn, cette église palatine résout avec une virtuosité géométrique extraordinaire la contrainte d'un espace étroit en articulant trois rotondes ovales entrelacées et cinq voûtes aux courbes complexes, sans interrompre l'ordonnancement extérieur de la façade du palais.\n\nDerrière ses murs sobres s'ouvre une véritable symphonie d'art total où les colonnes en stuc marbré rouge de Sicile, les stucs dorés exubérants d'Antonio Bossi, les fresques de voûte de Johann Rudolf Byss et les deux retables latéraux peints par Giovanni Battista Tiepolo — figurant l'Assomption de la Vierge et la Chute des anges rebelles — composent un écrin de lumière et de mouvement miraculeusement sauvegardé après les bombardements de 1945.",
+    visiter: "Pénétrer dans la Hofkirche à l'angle sud-ouest de la Résidence de Würzburg pour admirer la géométrie courbe des voûtes de Balthasar Neumann, les stucs dorés d'Antonio Bossi, les colonnes en marbre rouge et les retables peints par Tiepolo.",
+    link: ""
+  },
+   {
     id: "francfort_eglise_saint_nicolas",
     name: "Francfort-sur-le-Main - L'Ancienne Église Saint-Nicolas (Alte Nikolaikirche - Römerberg)",
     country: "Allemagne",
