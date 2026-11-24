@@ -7,6 +7,176 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "spire_cathedrale_imperiale_kaiserdom",
+    name: "Spire (Speyer) - Cathédrale Impériale Notre-Dame-de-l'Assomption-et-Saint-Étienne (Kaiserdom zu Speyer - UNESCO)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Rhénanie-Palatinat",
+    department: "Spire",
+    subdiv: "Spire",
+    altitude: 112,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Plus Vaste Édifice Roman d'Europe (Fondé vers 1030 par Conrad II), Nécropole des Empereurs Saliens & Voûtes d'Arêtes Monumentales",
+    century: "XIe siècle",
+    category: "religieux",
+    is_unesco: true,
+    counts: { unesco: 1 },
+    lat: 49.31729,
+    lng: 8.44198,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP2XUIzqNHlUH1hscZiu9yd6FK38kp3BMGSXFcPksUUN1952xk4gdScCvNzg2az2IL9PT7pn_kFRx6pnzN8ma_tWTPFmvm3vO4raeA5NCgUGaPPfj_HxLyI97pWN9_g_-Q_j1zvH3c5tUJXq9TqiASc9w=w1379-h919-s-no-gm?authuser=0",
+    description: "Érigée sur les rives du Rhin dans la ville de Spire (Speyer) en Rhénanie-Palatinat, la cathédrale impériale Notre-Dame-de-l'Assomption-et-Saint-Étienne (Kaiserdom zu Speyer), inscrite au patrimoine mondial de l'UNESCO dès 1981, s'impose comme le plus vaste et le plus emblématique édifice de l'architecture romane encore debout en Europe. Sa fondation répondait à une ambition autant spirituelle que politique : vers 1030, l'empereur Conrad II, premier souverain de la dynastie salienne, décida de bâtir à Spire la plus grande église de la chrétienté occidentale afin d'affirmer la suprématie du Saint-Empire romain germanique face à la papauté et de doter sa lignée d'une nécropole impériale monumentale, où reposent aujourd'hui huit empereurs et rois des Romains — de Conrad II à Rodolphe de Habsbourg — ainsi que quatre reines.\n\nConsacrée une première fois en 1061 sous le règne de Henri IV, la basilique primitive couverte d'une charpente apparente connut dès les années 1082 à 1106 une transformation architecturale décisive connue des historiens de l'art sous le nom de « Spire II ». Henri IV fit alors surélever les murs de la nef centrale et remplacer le plafond plat par un audacieux système de voûtes d'arêtes monumentales, faisant de Spire le laboratoire majeur de l'art roman rhénan. Après avoir traversé le Moyen Âge, l'édifice subit un désastre majeur en mai 1689, lors du sac du Palatinat perpétré par les troupes de Louis XIV : l'incendie provoqué par l'armée française fit s'effondrer toute la moitié occidentale de la nef ainsi que l'avant-corps médiéval. Reconstruite une première fois dans le goût baroque entre 1772 et 1778 par Franz Ignaz Michael Neumann, la façade occidentale retrouva sa silhouette médiévale entre 1854 et 1858 grâce à l'architecte Heinrich Hübsch, qui, à la demande du roi Louis Ier de Bavière, érigea un imposant massif occidental néo-roman en harmonie avec les parties anciennes conservées à l'est.",
+    intro_page: "Érigée sur les rives du Rhin dans la ville de Spire (Speyer) en Rhénanie-Palatinat, la cathédrale impériale Notre-Dame-de-l'Assomption-et-Saint-Étienne (Kaiserdom zu Speyer), inscrite au patrimoine mondial de l'UNESCO dès 1981, s'impose comme le plus vaste et le plus emblématique édifice de l'architecture romane encore debout en Europe. Sa fondation répondait à une ambition autant spirituelle que politique : vers 1030, l'empereur Conrad II, premier souverain de la dynastie salienne, décida de bâtir à Spire la plus grande église de la chrétienté occidentale afin d'affirmer la suprématie du Saint-Empire romain germanique face à la papauté et de doter sa lignée d'une nécropole impériale monumentale, où reposent aujourd'hui huit empereurs et rois des Romains — de Conrad II à Rodolphe de Habsbourg — ainsi que quatre reines.\n\nConsacrée une première fois en 1061 sous le règne de Henri IV, la basilique primitive couverte d'une charpente apparente connut dès les années 1082 à 1106 une transformation architecturale décisive connue des historiens de l'art sous le nom de « Spire II ». Henri IV fit alors surélever les murs de la nef centrale et remplacer le plafond plat par un audacieux système de voûtes d'arêtes monumentales, faisant de Spire le laboratoire majeur de l'art roman rhénan. Après avoir traversé le Moyen Âge, l'édifice subit un désastre majeur en mai 1689, lors du sac du Palatinat perpétré par les troupes de Louis XIV : l'incendie provoqué par l'armée française fit s'effondrer toute la moitié occidentale de la nef ainsi que l'avant-corps médiéval. Reconstruite une première fois dans le goût baroque entre 1772 et 1778 par Franz Ignaz Michael Neumann, la façade occidentale retrouva sa silhouette médiévale entre 1854 et 1858 grâce à l'architecte Heinrich Hübsch, qui, à la demande du roi Louis Ier de Bavière, érigea un imposant massif occidental néo-roman en harmonie avec les parties anciennes conservées à l'est.",
+    visiter: "Contempler les élévations extérieures en grès bichrome et le chevet roman de la cathédrale impériale de Spire (UNESCO), traverser le porche impérial orné des statues des souverains puis découvrir la grande nef à voûtes d'arêtes et la vaste crypte abritant le caveau des empereurs.",
+    link: "",
+    sections: [
+      {
+        title: "Le chevet oriental roman et ses deux tours effilées",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP2XUIzqNHlUH1hscZiu9yd6FK38kp3BMGSXFcPksUUN1952xk4gdScCvNzg2az2IL9PT7pn_kFRx6pnzN8ma_tWTPFmvm3vO4raeA5NCgUGaPPfj_HxLyI97pWN9_g_-Q_j1zvH3c5tUJXq9TqiASc9w=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNPgB2iFxbULLgxryDm4Q9b_CpwYs_eZQutpzsBSxKcIjUW7wyLbShpOzN3ZYWa9eXIPhqvtutjWM4lzIlujmu01g-AAuLNnORowvL8HMSev0OUW5PZrkZNgJzCARr2Mf7GlI9o06qURzD8KivB65m0-Q=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le chevet oriental, demeuré authentiquement roman depuis la fin du XIe siècle, offre l'une des compositions architecturales les plus majestueuses de l'art médiéval européen. Autour de l'abside semi-circulaire centrale, épaulée par des pilastres plats et couronnée d'un fronton triangulaire ajouré d'une haute baie, s'élancent deux tours carrées très effilées culminant à plus de soixante et onze mètres de hauteur, percées sur leurs étages supérieurs de baies géminées et triplées séparées par de fines colonnettes. Entre ces deux beffrois surgit la puissante tour-lanterne octogonale de la croisée du transept, coiffée d'une coupole pyramidale à pans et ceinturée à sa base d'une galerie naine."
+      },
+      {
+        title: "Masse monumentale, grès bichrome du Palatinat et arcatures lombardes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOcX-VXunlNd1LPmhnzWzxzbgIipfTb5D0ZAU5cqKzDc6QBXSP7WimhsxoOiSVxRdF13L_okScXoF4S5-Xv5nvulEgrMQbt6twci21N1CzdVD5Dy38YfGTHKT3YYi8bdvnfBRF7kxFxO3eYdOpnzQMXHA=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPxCFQD8YlX_MKnLmHpxgTj9JYSWIONnevheYHHRuitdLtzTcCccplIG_Kk0Y3Oeaf1fJgfvQvozg8UEIRMI-ZekakG2Wa1jSaaWisPZD28Pi0k116jkSftz7nWiFtKYumjhT2DRi_zPqBNWNCTzCoLZA=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOdTUml6DC8o2KrPq3UNyStivhkudbhPZtAbdVelbIGv2PNpdZuwLdBFdp966bkT0m1_yTW4WxBMrsBwM3YAoSp0sXdIauJvqnWsqc8pMXU5hkgoCW2NNQVvUHYqIj-6XNhc7LzHVnD8UIDVMgJK1XmwA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'aspect extérieur de la cathédrale frappe d'emblée par sa masse colossale — longue de près de cent trente-quatre mètres — et par la polychromie chaleureuse de son appareil de pierre, qui alterne des assises de grès rouge des Vosges et du Palatinat (Rotsandstein) avec des bandeaux de grès jaune clair (Gelbsandstein). Cette bichromie subtile souligne la rigueur géométrique des volumes et rythme les grandes parois latérales de la nef, scandées sur toute leur hauteur par d'immenses arcatures aveugles (Blendarkaden) réunissant deux niveaux de baies en plein cintre sous une frise d'arceaux lombards."
+      },
+      {
+        title: "Le porche impérial (Kaisersaal) et les statues des empereurs",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOGWNzQU8LYjvLtT_B5hJzx_zlnm9Ox9NxFq3JgkWTtM3uq8YacRRgrravshWegqeACh1sSEVBFNWsO7BfZnErt83gojrZBvhytj8NljVjmYK411dy2vYc9tIKVzkNRIPDc28IuxzEoCMdbp_kr-Zbg4g=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOsSu9QCtKSFwiArvly11sBRdkKFwWAEvIw8fKRWHaGV0mqqmRoHI39gqOgCzj6RTk3fLHPaIHyHmyNKVpVL8hBupFcY3oNqvuiSw-CtEAny9OYVPaaExFJYDWNgsCmG0u9hDDCWz47pjw84f7rwSWg5g=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Aménagé à l'intérieur du massif occidental de la cathédrale de Spire lors de sa reconstruction néo-romane conduite entre 1854 et 1858 par l'architecte Heinrich Hübsch à l'initiative du roi Louis Ier de Bavière, le porche d'entrée (Vorhalle ou Kaisersaal) fait office de solennel panthéon impérial introduisant au sanctuaire. Cet espace monumental couvert de voûtes d'arêtes polychromes abrite un célèbre ensemble de huit statues-cénotaphes monumentales en pierre calcaire exécutées entre 1855 et 1858 par les sculpteurs Anton Dominik Fernkorn et Johann von Halbig. Dressées dans de hautes niches en plein cintre rythmant les parois latérales de part et d'autre de l'axe central, ces effigies en pied honorent la mémoire des huit empereurs et rois des Romains inhumés dans la nécropole de la cathédrale, depuis le fondateur Conrad II jusqu'à Rodolphe de Habsbourg et Albert Ier d'Autriche. Vêtus des regalia impériaux — couronne, sceptre, globe crucigère et glaive de justice —, ces souverains dialoguent avec d'anciens reliefs commémoratifs et des inscriptions latines rappelant le destin prestigieux des dynasties salienne, souabe et habsbourgeoise. Ce vestibule d'apparat, baigné par la lumière filtrant depuis la rosace occidentale et les trois portails sculptés, prépare majestueusement le visiteur à l'entrée dans la grande nef romane."
+      },
+      {
+        title: "Le portail principal roman et ses vantaux en bronze de 1971",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMNnZ4dnw8Fo0Dhp-xUmRyXDaXunLcg75xbfmPDwhdcwJUHnZQ2VANne1ppT-mRG87MuOIY-sRYKt6zwVGMng_QpIBYnvABIr89u5ctjPSmV_41PEK3_espx_dFbxmSRaH1mJAY7-T3K7qLYwwx2tgr8g=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Ouvrant le passage solennel entre le vestibule impérial et la grande nef de la cathédrale de Spire, le portail principal marie avec audace l'héritage architectural du XIe siècle à la création sculpturale contemporaine. Son encadrement monumental, demeuré authentiquement roman depuis le chantier de « Spire II » achevé vers 1106, déploie une succession de voussures en plein cintre où alternent avec raffinement les claveaux de grès rouge et de grès jaune du Palatinat. Ces arcs reposent sur des colonnes engagées aux chapiteaux cubiques finement ciselés de palmettes, d'entrelacs et de motifs géométriques d'inspiration lombarde, tandis que le tympan s'orne d'une peinture du XIXe siècle exécutée par Johann Baptist Schraudolph représentant la Vierge entourée des saints patrons du sanctuaire. Fermant cette baie majestueuse, les imposants vantaux de la porte en bronze, réalisés en 1971 par le sculpteur Toni Schneider-Manzell, imposent leur présence grave et texturée. Hérissés de reliefs expressifs évoquant l'Arbre de vie, l'histoire du salut et la mémoire impériale du lieu, ces panneaux métalliques sombres contrastent noblement avec la chaleur polychrome de la pierre romane et s'ornent de poignées monumentales invitant le visiteur à franchir le seuil du sanctuaire."
+      },
+      {
+        title: "La grande nef romane et l'audace des voûtes d'arêtes de Spire II",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN6aMxBX_B912smBdM1Plyf26sReJNw8fAmtG5D9GqRG1iEeEZG4olfutYtMkr1KE6ZWTOv0-W9kjffJ8z6w-jAkBNoTjbVwCrTswypar7zBX6ogAaMsneymH6xuE4WAyGBe7f2Nd9-n0U5YO1XMeZavw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La nef de la cathédrale de Spire représente l'un des sommets de l'architecture romane en Europe, témoignant de la puissance impériale du Saint-Empire romain germanique. Érigée majoritairement au onzième siècle, sa structure impressionne par ses dimensions monumentales et l'utilisation systématique du grès rouge, qui confère à l'espace une unité chromatique profonde et solennelle. La nef se caractérise par une alternance rythmée de piles massives qui soutiennent de grandes arcades en plein cintre, créant une perspective rectiligne vers le chœur et l'abside.\n\nL'innovation architecturale majeure de cette nef réside dans son système de voûtement d'arêtes, mis en place lors de la seconde phase de construction sous le règne d'Henri IV à la fin du onzième siècle. Ces voûtes, parmi les premières de cette ampleur dans l'architecture médiévale, ont remplacé le plafond plat originel, permettant une élévation vertigineuse et une meilleure acoustique. Les arcs doubleaux bicolores, qui soulignent la courbure de la voûte, renforcent la structure tout en apportant une dynamique visuelle qui guide le regard vers les hauteurs de l'édifice."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMOqFEX7j_VUq89IV-XCIShof_nn3bRdV5vAGVry36NfH4br6DB5Q7hV3U3BFhPdYOGd4dKl31S2md9O7qgEf6ZuQLzRzCcioZPvcAJeUmH1S6np5U4zAoT_6Poxtyaa3sNCCKVTTuUHPq24XVO5TiiKQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN4JvJ2CMnQhU8dCqKWpQutK6COq_L54unRFTVf5A_S9DTPfpwb0_VhuI_QrFMntrketwwwXt1OwXnrL2ODpb6-YTcx4QBziyt25r2bOBCMbm22zXF8H35EhCQoaJCL82a_R3aScA6rTVPIhxkY7WYHeA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La grande crypte impériale fondée par Conrad II en 1030",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNJzgI4O6Hojidv8IRXtNdrCLmiQVq0viKs6AHMzUUBbYuVYGIRkAx0k6SS6q0RP4LvlNDfMkbTvnoAbWho7osA4PuI4FTZNaAvrMuiVpAwLf_mU1QZFuivJxIrspH4SgcUxZZyVVxcn3yp7tzouWwGmQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPy5rBd5pjSa6o3vYtvstJEzn_HAGrLFY4YpseJfXcqYET0vrdOwHQflpewfqGAPENueVcCkhziJdtO3cqvXwCxDZBPvzAheoCupg9uN4_1CDS8foN2Ol3kWCfU4JOYcZZKUx-SuNYfmefITMjxvoemsw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Étendue sous l'intégralité du chœur et de la croisée du transept de la cathédrale de Spire, la crypte impériale (Krypta) constitue la plus vaste et la plus impressionnante salle souterraine à colonnes de toute l'architecture romane européenne. Entreprise dès 1030 par l'empereur salien Conrad II et consacrée dès 1041, elle représente la partie originelle la plus ancienne et la mieux préservée de l'édifice, demeurée intacte à travers les siècles malgré les incendies et les reconstructions successives des parties hautes."
+      },
+      {
+        title: "La forêt de vingt colonnes à chapiteaux cubiques et l'avant-crypte",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPpe-Jz8rczvBfr54i-C8OtJmNBF9lgGPXZvOXY1TGG52OxGxwRC7lG1QnLesNC2wC8RHdCiALtOYvu3sLI_rDfsbsJGfynKnt3zkds2MlpqwHR3BTUSYAIvflM66HvZwcr0VjIH61og0uenOrud8vveA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Déployée sur près de trente-cinq mètres de longueur et quarante-six mètres de largeur pour une hauteur sous voûte avoisinant sept mètres, cette forêt minérale saisissante s'organise en un vaisseau central à trois nefs prolongé par les espaces latéraux situés sous les croisillons du transept. L'espace est rythmé par vingt puissantes colonnes de grès couronnées d'imposants chapiteaux cubiques (Würfelkapitelle) et reposant sur des bases attiques, d'où jaillissent des voûtes d'arêtes dépourvues de nervures dont les arcs doubleaux alternent avec raffinement les claveaux de grès rouge et de grès jaune du Palatinat. Baignée d'une lumière tamisée qui accuse la pureté géométrique des volumes et le silence recueilli du lieu, l'avant-crypte occidentale conserve une remarquable cuve baptismale romane du XIIe siècle ainsi que d'anciens sarcophages en pierre."
+      },
+      {
+        title: "Le caveau des empereurs et des reines (Kaisergruft)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMHikSnCTBH2vi9edaoNb52LNjTej6vOEz2ZkP2csJIfyPgqU31TMMctVcurMujfqnrndf6afbUVuYihqqdfLDOLApaD3L_AKRyEQ3ONDIJFTYmJnd215nOtcRMBrGmjJRIRu24cPXqq0NnH2PRI8UBOg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOPtpcsfOspRG0K4N_J7ug7bQo1tSERJUoQXEPCcwL44YiKsxivcXKkfBH2QIPYvEug-l85lOk2QaeWKq6JyPQyd4yO_rvXEsnliiYtuMYQ_6IsIyJXwwejuZU6H48p4wE1_pTw53wtx7tdEQKhixwTHg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Au centre de cette architecture solennelle s'ouvre le caveau des empereurs (Kaisergruft), aménagé lors des fouilles archéologiques de 1900 à 1906 après la profanation des sépultures par les troupes françaises en 1689 : derrière de lourdes grilles de bronze reposent huit empereurs et rois des Romains — les quatre souverains saliens Conrad II, Henri III, Henri IV et Henri V, suivis de Philippe de Souabe, Rodolphe de Habsbourg, Adolphe de Nassau et Albert Ier d'Autriche — accompagnés de quatre impératrices et reines, faisant de cette crypte le sanctuaire dynastique le plus prestigieux du Saint-Empire romain germanique."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMFoiecwKGrYwo7YKeqc5Thli1CGU5waammyFJ6GUbxpGXouyY6OvvO5ST7ePu93EPzzgwsAg-L-ZErXKAXg3bIvDzIhqnhWEjPO9ZmR2pG-OfzzUCTmkh3VXtrPl-SMDAJsCnUB74xlpJN5JktaORMhw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNxIlbsCLhXWTTkvUgsA6_zwkn-hpeUcRO7KOQOgmnRLsynEwD8VcuqLZqf1xbuNMX5aXbDs2Bd5Rj86GHqBdfwJYfcshucsnjXoCdlIU3x_PCGoFC4xLhsV7N-S5viFU3Y2G3hvjVryIXu1_LrddsFwQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczN5iSCp53kSMcY_qTZzUcuDzZQLvu8GbOod2EyS0DA4074kYy21C22qYxhwOEHeuZoIhpGoJ4W-YK_db-xnsWd4N9xZJoLAToQMfd25h_Ly9f8jdOUgUrkReDP1qnVjbDWHKPSwrZGItZOreTOKMkvKkw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM_oZ5cSy9nIAdHAT3sgh1EZV17ZnQgEep-UkBGFV-akyqLWbX62Ofi3dvzV5u-uyGbcVW7x15BFbN9tu-cctNHY5skPsAV32IHn-e4ufy5a-1rY9Tcqm4ms433qKRyAfl_8CW_eSafTKX-9KXpAkjCRA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+  {
+    id: "spire_place_et_georgenbrunnen",
+    name: "Spire (Speyer) - La Maximilianstraße, La Geschirrplätzel & La Fontaine Saint-Georges (St.-Georgs-Brunnen)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Rhénanie-Palatinat",
+    department: "Spire",
+    subdiv: "Spire",
+    altitude: 107,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Artère Triomphale Impériale Reliant la Cathédrale à l'Altpörtel, Maisons Baroques du XVIIIe Siècle & Fontaine Saint-Georges",
+    century: "XVIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.31747,
+    lng: 8.43777,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN5O-ZcHEBUH9Kfe686sNzqscBIK78e7BVMQj_Yi0M_ewDP7VHluxh4FSnPzoizjBsoeTJ0G2vQ2K5WgCcMSP_So2Ec0Q6gHBaluHdSNW1lfya07rXh_cf3D8oXtQ-1QKR_vDmibzhTj97jpznEpy7qRQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOhWUxMCrx8qv0eyeFlKZA9THRZJuHTGqPv7aFQaUFh0p9qpfrwvYGKKSfAsm1GEAAXoctVMg1_RZsibTIVSOUP_d3g06vFGofM5gd3-9dmtNYzDgvXw3eac6AdfBg_Dc5qmo25tly4Pg4n1AKj-L-NQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNY6fPpefrqfFsuspULoI1gKZXkeV7G4b5bjc7C6vDfdjdQsRoRbEDdOgR7VjZ3_F-39-7SI0y9uo3s_oA8eb_Dym6yMisUJS_9ndG2hLJynW9aw9G6ZdRq61LxGVbHd5d-eTlF_XQiHYBTfTJUOLKBkw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Déployée à cent sept mètres d'altitude dans l'axe monumental rectiligne qui unit la façade occidentale de la cathédrale impériale à la tour-porte fortifiée de l'Altpörtel au cœur de Spire (Speyer) en Rhénanie-Palatinat, la Maximilianstraße et les places adjacentes telles que la Geschirrplätzel composent l'artère civique et historique la plus prestigieuse de l'ancienne ville libre d'Empire. Reconstruite avec élégance au XVIIIe siècle après la dévastation systématique de la cité lors de la guerre de la Ligue d'Augsbourg en 1689, cette perspective magistrale aligne de belles façades baroques et classiques aux teintes pastel ocres, roses et crème, rehaussées d'encadrements en grès sculpté du Palatinat et coiffées de toitures mansardées.\n\nAu centre de la Geschirrplätzel — ancienne place du marché aux poteries située à mi-chemin de l'axe historique — s'élève la fontaine Saint-Georges (St.-Georgs-Brunnen), élégant monument en grès rouge surmonté de la statue du saint chevalier terrassant le dragon qui perpétue la mémoire des anciennes fontaines publiques de la cité. Baignée par l'animation des terrasses ombragées de tilleuls et des édifices historiques tels que l'Alte Münze et l'Hôtel de Ville baroque, cette promenade urbaine offre une perspective continue saisissante sur les tours de la cathédrale impériale.",
+    visiter: "Parcourir à pied la Maximilianstraße et la Geschirrplätzel au centre de Spire entre la cathédrale impériale et l'Altpörtel pour admirer les façades baroques reconstituées au XVIIIe siècle, la fontaine Saint-Georges et la perspective sur le Kaiserdom.",
+    link: ""
+  },
+  {
+    id: "spire_altpoertel",
+    name: "Spire (Speyer) - La Porte Occidentale Fortifiée (Altpörtel - XIIIe-XVIe Siècles)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Rhénanie-Palatinat",
+    department: "Spire",
+    subdiv: "Spire",
+    altitude: 107,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Plus Haute Tour-Porte Médiévale Conservée d'Allemagne (55 m - 1230-1250), Loggia Gothique Tardif & Toiture Renaissance",
+    century: "XIIIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.31755,
+    lng: 8.43234,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOgGTQkSlDgxWf5Oqz_zwAjFWPhhvKsc8GoylNgfFF8OfqDbmpdYHr_MjJzHAMrjUa9aFptKQQoANlSMHPc-xCgNcCLVTSzkI3j9E03sjN_OBLasKVWZxYvJiJFUmgyp6loDmYBng9ygUvLM_JrzAHNPA=w613-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dressée à cent sept mètres d'altitude à l'extrémité occidentale de la Maximilianstraße dans l'axe exact de la cathédrale impériale de Spire en Rhénanie-Palatinat, l'Altpörtel (« la Vieille Porte ») s'élève à cinquante-cinq mètres de hauteur, ce qui en fait l'une des plus hautes et des plus imposantes tours-portes médiévales conservées dans toute l'Allemagne. Érigée entre 1230 et 1250 en tant que porte principale de l'enceinte urbaine de la ville libre d'Empire de Spire, sa base puissante associe les grès jaune et rouge du Palatinat autour d'un vaste passage voûté que franchissaient jadis les empereurs, les marchands et les pèlerins entrant dans la cité.\n\nSurélevée entre 1512 et 1514 d'un élégant étage supérieur de style gothique tardif doté d'une galerie ouverte à arcades et balustrades ajourées, puis couronnée au début du XVIIIe siècle (1708) d'une majestueuse toiture à l'impériale en ardoise coiffée d'un lanternon doré, la tour a miraculeusement survécu à l'incendie de 1689 qui ravagea le reste de la ville. Depuis son chemin de ronde supérieur, la vue embrasse toute la perspective rectiligne de la Maximilianstraße jusqu'à la silhouette monumentale du Kaiserdom et aux rives du Rhin.",
+    visiter: "Franchir à pied le passage voûté de l'Altpörtel à l'extrémité ouest de la Maximilianstraße à Spire pour admirer ses cinquante-cinq mètres d'élévation mêlant soubassement roman-gothique du XIIIe siècle, galerie de 1514 et toiture baroque d'ardoise.",
+    link: ""
+  },
+   {
     id: "maulbronn_monastere_cistercien_kloster_maulbronn",
     name: "Maulbronn - Monastère Cistercien de Maulbronn (Kloster Maulbronn - Patrimoine Mondial de l'UNESCO)",
     country: "Allemagne",
