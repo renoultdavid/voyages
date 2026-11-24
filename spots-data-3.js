@@ -7,6 +7,133 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "francfort_eglise_saint_nicolas",
+    name: "Francfort-sur-le-Main - L'Ancienne Église Saint-Nicolas (Alte Nikolaikirche - Römerberg)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Hesse",
+    department: "Francfort-sur-le-Main",
+    subdiv: "Francfort-sur-le-Main",
+    altitude: 105,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Ancienne Chapelle du Conseil Municipal (XIIIe-XVe Siècles), Église-Halle Gothique en Grès Rouge & Carillon sur le Römerberg",
+    century: "XVe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 50.11003,
+    lng: 8.68227,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNZCtLl9fp9IG4f2ODGU7qc08etH7MACdPbc24_OZM2AJRBJkX6XKEYTsvBFUNYzWlRoozLpzCp5qu1pActDWrYy6faBpD6TNKMj_YKQ0kPsaUfz3YgCBPBd9pcVp48APe7PgTDOXorXv0bJOYUnjCjNQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPOQ7qFyz3p5TgL3G1oXMh9EpYCf0f9kaxeKu8nfOdOdCMjel-ENQgFkv7ogdODCk6EE_qPJ4FZUOnDccK6_f1E0pIgmB8In3zSgssN1ci8IyXcCRojqnhJj3UO9SRjoqjOBpoQyRmpmD1cuU8Al3s1Uw=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'espace intérieur se distingue par l'utilisation du grès rouge pour les éléments structurels, tels que les piliers octogonaux et les nervures des voûtes, créant un contraste chaleureux avec les surfaces murales claires. Cette harmonie chromatique et la régularité des travées confèrent au lieu une atmosphère de sérénité, typique des édifices destinés à la fois au culte et à la vie civique de la cité.\n\nLe vaisseau central et les collatéraux s'élèvent à des hauteurs similaires, une caractéristique des églises-halles qui favorise une diffusion homogène de la lumière. Les voûtes d'ogives, d'une grande sobriété, s'élancent sans interruption depuis les piliers massifs pour dessiner un réseau géométrique épuré au plafond. Dans le chœur, les hautes fenêtres à lancettes laissent pénétrer une clarté naturelle qui met en relief la verticalité de l'architecture. Le mobilier, incluant un orgue moderne au buffet en bois clair et un autel minimaliste, s'intègre avec une grande discrétion, respectant les lignes historiques de l'édifice restauré après la Seconde Guerre mondiale.\n\nAncrée dans l'histoire de Francfort, la nef de Saint-Nicolas a longtemps servi de chapelle au conseil municipal, ce qui explique son caractère à la fois solennel et fonctionnel. Elle abrite des éléments sculptés, comme des effigies de saints en pierre rouge, qui ponctuent les murs et témoignent de la continuité artistique du site à travers les siècles. Aujourd'hui, cet espace demeure un témoin privilégié du passé médiéval de la ville, offrant aux visiteurs un havre de paix dont la simplicité architecturale invite à la contemplation au milieu de l'effervescence urbaine."
+      }
+    ],
+    description: "Dressée à cent cinq mètres d'altitude sur le côté méridional de la place du Römerberg au cœur de la vieille ville historique de Francfort-sur-le-Main en Hesse, l'Ancienne Église Saint-Nicolas (Alte Nikolaikirche) affirme son élégante silhouette gothique en grès rouge du Main face aux façades à pignons du Römer. Fondée dès le XIIe siècle comme chapelle palatine avant d'être reconstruite aux XIIIe et XIVe siècles puis agrandie au XVe siècle en une harmonieuse église-halle à deux nefs, elle servit pendant plusieurs siècles de chapelle officielle aux magistrats et conseillers de la ville libre d'Empire de Francfort.\n\nDominée par sa haute tour élancée couronnée d'une galerie ajourée et d'une flèche d'ardoise abritant un célèbre carillon de cinquante et une cloches, l'église dévoile à l'intérieur la clarté apaisante de ses piliers octogonaux et de ses voûtes d'ogives en grès rouge se détachant sur les enduits blancs. Miraculeusement épargnée dans ses structures majeures lors des bombardements de 1944, elle incarne la continuité médiévale et civique du vieux Francfort.",
+    visiter: "Admirer l'Ancienne Église Saint-Nicolas sur la place du Römerberg à Francfort-sur-le-Main, écouter son carillon et pénétrer dans sa nef gothique en grès rouge qui servit de chapelle au conseil municipal.",
+    link: ""
+  },
+  {
+    id: "francfort_roemerberg_et_maisons",
+    name: "Francfort-sur-le-Main - La Place du Römerberg, L'Hôtel de Ville (Römer) & Les Maisons Historiques",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Hesse",
+    department: "Francfort-sur-le-Main",
+    subdiv: "Francfort-sur-le-Main",
+    altitude: 106,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Place Historique des Couronnements Impériaux, Pignons à Gradins du Römer (1405) & Maisons à Colombages Reconstituées",
+    century: "XVe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 50.11043,
+    lng: 8.68207,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPlkc-08bPc_gGCCkogrBnGHtUEMv8gvTpcN_mTbsW5lc-dQw4yo-pgPuObm_VzChTqu1dH1plUYJQ36xD-3EiGOvx-43f59Tz7WdXUm7L7zbOplv2tZaM_N0z_w_bFxCrI3eifC1YwPWOPcHsCTdSbWw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNf50EmEKUTccDwNOBmzL1gPcVwR4KZagp4ltCbiv3We6tnGG3BukgJ3L8HKAwFY-SzFM2B78XeFKcl4aji6zwMUdo73J2nO6zrFrLxrcB8XX4JGp15dYY0kOf3QK0x_ZuAYPct2GPLTVEaguvqctn9cg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPev5C0SlQtvIKXNl1nvsdbEuWk4x3xNUPMur-Ta2WDtunPWvo8esirxpWITT3jdBsVLxOlyjYqJhObg0sS3Ku18o8JzLl37NbnxTc9cWJAT0xLw6Lhf64Dch66ffHMz--cIRioKNhRLatA2wfm3QjZwQ=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Déployée à cent six mètres d'altitude au cœur même de la vieille ville de Francfort-sur-le-Main en Hesse, la place du Römerberg constitue depuis le Moyen Âge le centre civique, politique et festif de la cité. C'est sur cette esplanade pavée que se tenaient les grandes foires commerciales de Francfort et les réjouissances populaires accompagnant l'élection et le couronnement des empereurs du Saint-Empire romain germanique, célébrés dans la prestigieuse salle impériale (Kaisersaal) de l'Hôtel de Ville.\n\nSur le côté occidental de la place se dresse l'emblématique façade tripartite aux pignons à gradins gothiques du Römer — hôtel de ville de Francfort depuis 1405 —, tandis qu'à l'est s'aligne la célèbre rangée de maisons à colombages historiques de l'Ostzeile (« Zum Engel », « Großer Laubenberg », « Schwarzer Stern »), fidèlement reconstruites dans les années 1980 après les destructions de 1944 autour de la fontaine de la Justice (Gerechtigkeitsbrunnen). L'alliance des boiseries sculptées, des pignons en grès rouge et de la proximité des gratte-ciel modernes compose l'image la plus saisissante de Francfort.",
+    visiter: "Parcourir la place pavée du Römerberg au centre de Francfort-sur-le-Main pour admirer les trois pignons à gradins de l'Hôtel de Ville (Römer), la fontaine de la Justice et la rangée de maisons à colombages historiques de l'Ostzeile.",
+    link: ""
+  },
+  {
+    id: "francfort_fontaine_stoltze",
+    name: "Francfort-sur-le-Main - La Fontaine Stoltze (Stoltzebrunnen - Neue Altstadt)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Hesse",
+    department: "Francfort-sur-le-Main",
+    subdiv: "Francfort-sur-le-Main",
+    altitude: 109,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Monument au Poète Satirique Francfortois Friedrich Stoltze (1895) au Cœur de la Nouvelle Vieille Ville Reconstruite",
+    century: "XIXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 50.11082,
+    lng: 8.68389,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM5bnjy4JzNkcmVVTjEdCMzyX-F8OoR5f8KOQjtH_vk-0GnXgXK-EJX7rmn01xhkhYGpaeU3LpT81P05yvJ0YORrao3PVwTeFMsVMeiGfI346mXjgkqPZRh9vLuLgKnK039J1n0isnn9O82zxZTYQGSHQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Élevée à cent neuf mètres d'altitude sur la pittoresque placette du Hühnermarkt au cœur du quartier reconstruit de la « Neue Altstadt » (projet Dom-Römer) entre le Römerberg et la cathédrale de Francfort-sur-le-Main, la Fontaine Stoltze (Stoltzebrunnen) rend un hommage affectueux à l'une des figures littéraires et démocratiques les plus populaires de la cité hessoise. Inaugurée en 1895 d'après les dessins de l'architecte Franz von Hoven et du sculpteur Friedrich Schierholz, cette fontaine monumentale en grès rouge et bronze honore Friedrich Stoltze (1816-1891), poète dialectal francfortois, journaliste satirique engagé pour les libertés civiques de 1848 et fondateur du journal humoristique *Frankfurter Latern*.\n\nCouronné du buste en bronze du poète et orné de reliefs évoquant ses œuvres satiriques ainsi que l'allégorie de Francofurtia, le monument fut réinstallé à son emplacement historique d'origine en 2017 lors de la renaissance architecturale des ruelles et maisons anciennes de la vieille ville entre le Dom et le Römer.",
+    visiter: "S'arrêter sur le Hühnermarkt au cœur de la Neue Altstadt de Francfort-sur-le-Main pour découvrir la fontaine néo-Renaissance dédiée au poète Friedrich Stoltze entourée des maisons reconstituées entre le Römer et la cathédrale.",
+    link: ""
+  },
+  {
+    id: "francfort_cathedrale_saint_barthelemy",
+    name: "Francfort-sur-le-Main - Cathédrale Impériale Saint-Barthélemy (Kaiserdom St. Bartholomäus)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Hesse",
+    department: "Francfort-sur-le-Main",
+    subdiv: "Francfort-sur-le-Main",
+    altitude: 109,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Lieu d'Élection et de Couronnement des Empereurs du Saint-Empire (1356-1792), Nef Gothique en Grès Rouge & Tour de 95 m",
+    century: "XIVe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 50.11067,
+    lng: 8.68515,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMjJ9DAWuK-btjbEQy4Gi8vDRHTHMyNdr4KtpT5Rr8853Wgp3KQNJ9_Q0OPtVDyiZpQDmEBxwYKMliWHzOtG6wcCv0w1vqNUom1CNdMSx5t6mMrZyfxDvCOqboP2pHGXwoO7ZepfmS4zVpzN5qbWZunaA=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM6Ee9Cf2P6fBuUEWz6qmAKER6l9GVnQFG0Q-QBLk0gziHlDIE1aR5I4OR8EZDkqVk4xq-mc3uUF1G_M7PJi3hkfT759yifyuPMnSB7ntCT8iH-OQmksOgFBRDqN-NKNmyB112yApyI_meVWWf7yobyLQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "La nef de la cathédrale Saint-Barthélemy de Francfort constitue un témoignage monumental du gothique impérial allemand, dont la structure actuelle a été principalement édifiée au cours du XIVe siècle. Construite entre 1315 et 1353, elle se présente sous la forme d'une église-halle imposante, dont les dimensions généreuses étaient dictées par la fonction historique prestigieuse de l'édifice : l'élection et le couronnement des empereurs du Saint-Empire romain germanique. L'utilisation du grès rouge pour l'ensemble des éléments porteurs confère au vaisseau une identité visuelle puissante et une chaleur chromatique qui unifie l'espace architectural.\n\nL'organisation interne repose sur de hauts piliers fasciculés qui s'élancent vers la voûte sans l'interruption de chapiteaux traditionnels, accentuant l'impression de verticalité et de légèreté propre au gothique tardif. Les nervures des voûtes d'ogives dessinent au plafond un réseau géométrique qui structure les différentes travées, tandis que les larges collatéraux permettent une circulation fluide et dégagée. Cette conception spatiale ouverte favorise une acoustique remarquable et permet à la lumière naturelle, filtrée par les hautes baies à remplages, de souligner la texture de la pierre taillée et l'élévation des volumes.\n\nBien que la cathédrale ait subi d'importantes restaurations après l'incendie de 1867 et les destructions de la Seconde Guerre mondiale, la nef a retrouvé sa grandeur médiévale originelle."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNMlb4kXNUPgMWHjF55pbMXaHseNOxCh1PUVdJiJ-LaqHXC1GNU1bMpDSkKqj1dcOGS1EuVZDM_bUKkcexvpGnJHGfFL-JLJPXJqitCChW-fbowG06ZJKRVPQtQuVPiT0ELkRQGK-9CuYvPE8GB_KUBCA=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNAHtuAV4v68q9sbnH1vMeY9LC6KSh5xoOt0pCo2AbrLfZAPF0ZQoc2NwTyS7UeM5zLv9IsR6xJFiOtae4CQjpYFQHk119j7KzEF9y_e3tT__oWJOsiWa-uMQqgCJdkhg6Huh70IUNQCh2Fr2g1pQfYrQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "vue du sommet du clocher"
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMzhhkrxc_Ux5eTqI0CzIdOsqpljkz7-dvLVX7P9QZsmWghjrr9C0DHyTCvV5KL5DrYKTbjxjyb8z3sFT5-n3rifhCHiuDiuERVXagQe25azgfc6oDZGhqC2pb-VqSpLgd2l139JsMX-BODthqszUY4Mw=w1560-h877-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dominant la vieille ville historique à cent neuf mètres d'altitude à proximité des rives du Main à Francfort-sur-le-Main en Hesse, la cathédrale impériale Saint-Barthélemy (Kaiserdom St. Bartholomäus) incarne l'un des sanctuaires les plus prestigieux de l'histoire politique et religieuse de l'Allemagne. Bien qu'elle n'ait jamais été le siège d'un évêque, cette vaste collégiale gothique en grès rouge bâtie principalement aux XIVe et XVe siècles reçut le titre honorifique de « Kaiserdom » pour avoir abrité dès 1356 — en vertu de la Bulle d'or de Charles IV — l'élection des rois des Romains puis, entre 1562 et 1792, le couronnement de dix empereurs du Saint-Empire romain germanique.\n\nCouronnée à l'ouest par l'imposante tour gothique conçue par Madern Gerthener à partir de 1415 et culminant à quatre-vingt-quinze mètres de hauteur sous sa couronne ajourée, l'église dévoile une nef ample en grès rouge aux piliers fasciculés élancés, tandis que la plateforme sommitale de son clocher offre un panorama spectaculaire embrassant les toits reconstruis de la vieille ville, les méandres du Main et la forêt de gratte-ciel contemporains de Francfort.",
+    visiter: "Entrer dans le Kaiserdom Saint-Barthélemy au cœur de Francfort-sur-le-Main pour admirer sa nef gothique impériale en grès rouge et gravir les marches de sa tour occidentale jusqu'à la plateforme panoramique dominant la ville et les gratte-ciel.",
+    link: ""
+  },
+   {
     id: "mayence_cathedrale_saint_martin",
     name: "Mayence (Mainz) - Cathédrale Impériale Saint-Martin (Mainzer Dom)",
     country: "Allemagne",
