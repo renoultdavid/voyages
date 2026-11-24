@@ -101,10 +101,10 @@ const SPOTS_3 = [
     counts: { cascade: 1 },
     lat: 48.12609,
     lng: 8.22737,
-    image: "https://lh3.googleusercontent.com/pw/AP1GczOumcaQvoh3-cVucxezA8nFbRowUy5GAUR-MIfuatXw_FOJvvIIwPuapDkPvjoXRszbmZkSJ1CpYTCaD0mrYaFwSe5dNYUA-6-c6Xti6r1dcasVYVx_dNpUlnG1PqZRB7FsNBa8BojC8bO8YRZei4mxg=w1379-h919-s-no-gm?authuser=0",
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOumcaQvoh3-cVucxezA8nFbRowUy5GAUR-MIfuatXw_FOJvvIIwPuapDkPvjoXRszbmZkSJ1CpYTCaD0mrYaFwSe5dNYUA-6-c6Xti6r1dcasVYVx_dNpUlnG1PqZRB7FsNBaW8BojC8bO8YRZei4mxg=w1379-h919-s-no-gm?authuser=0",
     gallery: [
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczPd3fd33e3Ad9xpBM5Ju74uZufjdit7WfWmsPBo-RBk4CoLyyAeHm_kWHR1AYeTgvtVV_VY9koAuVv4B6r5CV4hFfzbcmoaYVA3TL76kQfdsr0AYM7nGurcvTEE6Sj5dxaKjLBa8v3fxjjKxggVnpxCg=w1379-h919-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPd3fd33e3Ad9xpBM5Ju74uZufjdit7WfWmsPBo-RBk4CoLyyAeHm_kWHR1AYeTgvtVV_VY9koAuVv4B6r5CV4hFfzbcmoaYVA3TL76kQfdsr0AYM7nGurcvTEE6Sj5dxaKjLBa8v3fxjjKxggVnpxCgQ=w1379-h919-s-no-gm?authuser=0",
         caption: ""
       },
       {
