@@ -7,6 +7,97 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "mayence_place_du_marche_et_fontaine",
+    name: "Mayence (Mainz) - La Place du Marché (Markt) & La Fontaine du Marché (Marktbrunnen)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Rhénanie-Palatinat",
+    department: "Mayence",
+    subdiv: "Mayence",
+    altitude: 92,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Place Historique au Pied de la Cathédrale Impériale (92 m), Fontaine Renaissance de 1526 & Façades Baroques",
+    century: "XVIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.99946,
+    lng: 8.27409,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM1Uka52azAYyS5Gox2IifY2ek4983qNqgunLCwYOfsaug8gccNUbn1O21uVus-NXAZOjEbXvvSsOY7ZvgTuuv-3HxMgoE4wX-i49jWIUjlcDPmoRpwGN38SPTjvzyAt94SPyDMwGGBTJlsjhBYmadHCg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOHV2VfQutq6YtNUJmv6qTE7Oq3P1nGLhI7bULCNoT5GRRrQo-1NhhPJkUAodkbdn-8stXC3EPHa2gWg7M_Tb8BmfazEcsDjMz-v8Vu6FfBH6Mv1onukSETtkBY9N1JkWytFnryIa8Usx8zRxTsAAevEg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Déployée à quatre-vingt-douze mètres d'altitude directement au pied des tours et de la nef en grès rouge de la cathédrale impériale Saint-Martin, au cœur de la vieille ville de Mayence (Mainz) en Rhénanie-Palatinat, la Place du Marché (Markt) constitue le centre névralgique, commercial et civique de l'ancienne capitale de l'électorat archiépiscopal depuis le Moyen Âge. Bordée de demeures historiques aux façades baroques et rococo reconstituées après la Seconde Guerre mondiale, de toitures mansardées et d'arcades animées par les étals traditionnels du marché des vignerons et maraîchers de Hesse rhénane, la place offre une perspective spectaculaire sur la silhouette monumentale du Kaiserdom.\n\nSon joyau artistique est la célèbre Fontaine du Marché (Marktbrunnen), l'une des toutes premières et des plus raffinées fontaines de la Renaissance en Allemagne : offerte à la ville en 1526 par le cardinal-archevêque Albert de Brandebourg, prince-électeur de Mayence, cette œuvre en grès rouge richement sculptée dans l'atelier du maître Hans Backoffen associe une vasque polylobée à trois piliers ornés de putti, d'arabesques, d'allégories des vertus et d'inscriptions latines célébrant la victoire de Charles Quint à Pavie, le tout surmonté plus tard d'une statue de saint Martin partageant son manteau.",
+    visiter: "Parcourir la Place du Marché au pied de la cathédrale impériale de Mayence pour admirer les sculptures Renaissance de la Marktbrunnen de 1526 en grès rouge ainsi que les façades historiques encadrant la place.",
+    link: ""
+  },
+  {
+    id: "mayence_kirschgarten",
+    name: "Mayence (Mainz) - La Place du Kirschgarten & Les Maisons à Colombages de la Vieille Ville",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Rhénanie-Palatinat",
+    department: "Mayence",
+    subdiv: "Mayence",
+    altitude: 95,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Plus Pittoresque Placette de la Vieille Ville de Mayence (95 m), Maisons à Colombages des XVe-XVIIIe Siècles & Fontaine de la Vierge",
+    century: "XVIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.99733,
+    lng: 8.27342,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOYAxLYT4vpvBWsDzyQ0AuPibN-WAztXXE1zwS-HBDRAjaA3APdYFPa0ywn2kUo4Bap0BCyx5pqYlHw20kZBZinkOBguYa960q6UqWAqeArwqNmmStIHv5I47aXAWbtG54ZFgJlLrTad4uucPDshPAScQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP9-TsziN2XdTgcLwoWnkI2IXMn_-piHcftw9oVwfyLG8dwDoBMet1A6RLvUNEEN9btid0LrzK2fCudgCieA4zOxKtU2tW06Uz0l3CWdFMqF7Rm9D_iKLryGd6lqNzMAvv2mdg_nw-lKWr76NLUybasSw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPtKCMyBgc39d6uQxdovTki5MLOSfZC2Vc0P2jIgPIsUIBoYdhVVz-0kN8XLyP4Adm8_hJwpDw_aPXn_FjQ6sfk9oQU4PvRkvoCkA90RxzTiirzeRCGRmwWNzMEndWUJZ1v2Cq97FDQIg1FJFPuMaPnOQ=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Blottie à quatre-vingt-quinze mètres d'altitude au cœur du quartier sud de la vieille ville historique de Mayence (Altstadt), à deux pas de l'Augustinerstraße et de l'église des Augustins, la petite place du Kirschgarten (« le Jardin des Cerisiers ») compose le coin le plus pittoresque, intime et authentique de la cité rhénane. Épargné par les bombardements qui détruisirent une grande partie du centre-ville en 1945, cet écrin urbain préservé rassemble autour de son pavage ancien un ensemble remarquable de demeures à colombages (Fachwerkhäuser) des XVe, XVIe et XVIIIe siècles aux poutres apparentes sculptées, encorbellements et pignons pointus.\n\nAu premier rang se distingue la célèbre maison « Zum Aschaffenberg », édifiée vers 1500, dont les trois étages en encorbellement successif et les poteaux corniers richement moulurés témoignent de la virtuosité des charpentiers rhénans de la fin du Moyen Âge. Au centre de la placette murmure depuis 1932 la fontaine de la Vierge (Marienbrunnen), ornée d'une gracieuse sculpture gothique tardive de la Madone entourée de fleurs et de terrasses ombragées, offrant un contraste saisissant avec l'animation des grandes artères voisines.",
+    visiter: "Flâner à pied dans les ruelles de la vieille ville de Mayence jusqu'à la placette du Kirschgarten pour admirer la maison à colombages « Zum Aschaffenberg » de 1500, les façades anciennes et la fontaine de la Vierge.",
+    link: ""
+  },
+  {
+    id: "mayence_augustinerkirche",
+    name: "Mayence (Mainz) - L'Église des Augustins (Augustinerkirche - Chef-d'Œuvre Rococo de l'Électorat)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Rhénanie-Palatinat",
+    department: "Mayence",
+    subdiv: "Mayence",
+    altitude: 96,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Ancienne Église des Ermites de Saint-Augustin (1768-1772), Façade Rococo & Fresques Célestes de Johann Baptist Enderle",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 49.99710,
+    lng: 8.27470,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOiaX5LQputL8l0pfZ6rplOETbzUWQLLdGP2UGx01_XURI29k7RnpOzqDwBsfvg87wFdMG7zFz7FSt2hdSrr9FfdckeWAVO_EACZjE7LaTDRRNU892Ly-UUSXbjuvHj6f_OrrqTjnSbjgCss_UiZiH-4w=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNqg9ue-lfyqLG2FMGmit29gVpiPUNArHYGhbMG6LpFh4O4SDlrFSDIbr7FnlVjveGAi1CTYwWrv0zivvSGkq_krzSHEjkX3C68GnnAtQtKUJuzd3khPD1XGjqOM45TtV867xOuknh_UkRlng1z7VS9jg=w1379-h919-s-no-gm?authuser=0",
+        caption: "La nef unique, caractéristique des églises-halles de cette période, frappe d'emblée par sa clarté et l'harmonie de ses proportions, où l'espace architectural semble se dilater sous l'effet de la lumière naturelle abondante et de l'illusionnisme pictural.\n\nLa voûte de la nef déploie un programme iconographique monumental réalisé par Johann Baptist Enderle, maître de la fresque dont le travail fusionne ici architecture réelle et feinte. Ces peintures célèbrent la vie et l'œuvre de saint Augustin, docteur de l'Église, tout en intégrant des perspectives audacieuses qui semblent ouvrir le plafond sur un ciel divin peuplé de figures saintes et d'anges. La transition entre les parois verticales et la courbure de la voûte est adoucie par des cartouches en stuc et des motifs rocaille d'une grande finesse, soulignant la légèreté structurelle recherchée par les bâtisseurs du XVIIIe siècle.\n\nLe mobilier liturgique et décoratif de la nef participe pleinement à cette théâtralité sacrée. Les autels latéraux, sculptés dans des tons de marbre chaud rehaussés d'or, encadrent la perspective menant vers le chœur, tandis que la chaire monumentale s'impose comme une pièce maîtresse de l'ébénisterie baroque. Les jeux de courbes et de contre-courbes, typiques du style rococo, se retrouvent jusque dans le dessin des bancs et des confessionnaux, créant une unité stylistique rare. L'orgue historique, situé en tribune, complète cet ensemble en offrant une façade sculptée qui dialogue avec les motifs ornementaux de la nef, faisant de Saint-Augustin un témoignage vivant de la splendeur spirituelle et artistique de l'électorat de Mayence à la fin de l'Ancien Régime."
+      }
+    ],
+    description: "Dressée à quatre-vingt-seize mètres d'altitude dans l'étroite Augustinerstraße au cœur de la vieille ville de Mayence en Rhénanie-Palatinat, l'église des Augustins (Augustinerkirche) constitue le joyau absolu de l'architecture baroque tardive et rococo conservé dans la cité rhénane. Édifiée entre 1768 et 1772 pour l'ordre des Ermites de Saint-Augustin à l'emplacement d'un sanctuaire gothique du XIIIe siècle, l'église fut miraculeusement épargnée par les bombardements de la Seconde Guerre mondiale, préservant intacte l'éblouissante richesse de son décor du XVIIIe siècle.\n\nSa façade gracieuse et mouvementée en pierre claire et enduit ocre, surmontée d'un pignon chantourné orné des statues du Couronnement de la Vierge, de saint Augustin et de sainte Monique autour du portail sculpté, introduit dans une vaste nef unique baignée de lumière. Couronnée par les fresques célestes en trompe-l'œil de Johann Baptist Enderle, parée de stucs rocaille raffinés, d'autels en marbre polychrome et d'un orgue historique de 1773 signé Johann Philipp Stumm, l'Augustinerkirche incarne toute la splendeur artistique de l'électorat de Mayence à la veille de la Révolution.",
+    visiter: "Contempler la façade rococo sculptée de l'Augustinerkirche dans l'Augustinerstraße à Mayence, puis pénétrer dans sa nef lumineuse miraculeusement préservée pour admirer les fresques de voûte de Johann Baptist Enderle, les stucs dorés et l'orgue historique Stumm.",
+    link: ""
+  },
+   {
     id: "heidelberg_vieux_pont_et_porte",
     name: "Heidelberg - Le Vieux Pont (Alte Brücke / Karl-Theodor-Brücke) & La Porte du Pont (Brückentor)",
     country: "Allemagne",
