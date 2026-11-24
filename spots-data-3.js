@@ -7,6 +7,219 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "heidelberg_vieux_pont_et_porte",
+    name: "Heidelberg - Le Vieux Pont (Alte Brücke / Karl-Theodor-Brücke) & La Porte du Pont (Brückentor)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Rhein-Neckar-Kreis",
+    subdiv: "Heidelberg",
+    altitude: 107,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Pont en Grès Rouge de l'Électeur Charles Théodore (1786-1788), Tours Jumelles Gothiques du XVe Siècle & Vue sur le Neckar",
+    century: "XVIIIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.41444,
+    lng: 8.70956,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOLLya9haWjwSh__CjY4NLQH8PKqniD3wIWtsfYYmtwrCWxpf30MhfX2_4hqFCSWr5GpIwvZ9rFmSEeZL2wFxDePYbvZ67bknC_bokJDgzH_2EJ_o1E56M-ML0wzypGlJidsDmI3ZdkPl9I9i8z6fED_Q=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPOiRJ0U1x9CJQ3X6LERBzvvafiurJeSIvZnBA-Dr7F7N4t-W0BjHAR2_FoODAmhnRu3Kvz3I2LIlp2i7JnB_G1GScZ7Ef0hl56d92-U2hJK04dj3UxNSBoMn4I2nFMSWrIgrJ-PGcd5kPB0KsbdC6AGg=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOTbU5oZADQvC9z-3I1D3EzpD-iQLU2KfjJgmE43Pg9mm_pVTuMkfwGoHAiXsOZHOSARE7-qNAqcAZR_gGMhk_1LXtVEhwnepRAxRAVZJHh0Jnaya-CctQraxZfKkzaCqPqWJ7Wej6vrQHGIoYn0vJcWg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Enjambant à cent sept mètres d'altitude les eaux calmes et verdoyantes de la rivière Neckar entre la vieille ville de Heidelberg et la rive septentrionale menant au Chemin des Philosophes (Philosophenweg) au Bade-Wurtemberg, le Vieux Pont (Alte Brücke ou Karl-Theodor-Brücke) et sa Porte du Pont (Brückentor) composent l'un des ensembles monumentaux les plus célèbres et romantiques d'Allemagne. Après la destruction successive de nombreux ponts antérieurs par les glaces et les guerres — dont le sac de la ville en 1689 et 1693 —, le prince-électeur Charles Théodore fit édifier entre 1786 et 1788 cet élégant ouvrage à neuf arches en grès rouge du Neckar, orné au milieu de son tablier de la statue baroque de Minerve et d'une fontaine dédiée à l'électeur.\n\nCôté vieille ville, le pont s'ouvre sous la majestueuse Brückentor, double tour-porte médiévale bâtie entre 1440 et 1500 avec ses deux tours rondes couronnées de toitures coniques en ardoise qui veillaient jadis sur l'accès fluvial et abritèrent même une prison. De ses arches et de ses rives, le regard embrasse un panorama inoubliable réunissant les flèches de la vieille ville, la silhouette ruinée du château sur le Königstuhl et les coteaux boisés de l'Odenwald.",
+    visiter: "Parcourir à pied le Vieux Pont sur le Neckar à Heidelberg pour franchir les tours jumelles médiévales de la Brückentor, admirer les neuf arches en grès rouge de Charles Théodore et contempler la vue sur le château et la rivière.",
+    link: ""
+  },
+  {
+    id: "heidelberg_richard_hauser_platz",
+    name: "Heidelberg - La Richard-Hauser-Platz & Les Abords de l'Église des Jésuites (Vieille Ville)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Rhein-Neckar-Kreis",
+    subdiv: "Heidelberg",
+    altitude: 123,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Placette Historique de la Vieille Ville de Heidelberg (123 m), Architecture Baroque & Quartier Universitaire",
+    century: "XVIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.41124,
+    lng: 8.70767,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMNXP9y4C_GtXtk5oaFirImfGmA8r5wcDSOrNCaYAEjQcAY85-0esuWrnDXktsiJla7uQggDB8rrZd4_gVlGAnQNtJx4ZrycwQNVCGgzCnCNv-mPl6NFa3wVEAie45J4Zq8Js-ywNpvX8T5KH1NmLi4aA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Nichée à cent vingt-trois mètres d'altitude au cœur de la vieille ville de Heidelberg, à proximité immédiate de l'église des Jésuites, des anciens bâtiments universitaires et des ruelles menant vers le Neckar et la Marktplatz, la Richard-Hauser-Platz offre une halte urbaine paisible au milieu du tissu historique du Bade-Wurtemberg. Ce quartier animé par la présence séculaire de la plus ancienne université d'Allemagne, fondée en 1386, conserve l'empreinte des reconstructions baroques du XVIIIe siècle qui redonnèrent forme à la cité après les dévastations de la guerre de Succession du Palatinat.\n\nSes façades anciennes en grès et enduit clair, ses toitures à pignons et ses abords ombragés composent un cadre familier et vivant où se croisent étudiants, habitants et voyageurs explorant les trésors architecturaux et culturels de la vallée du Neckar.",
+    visiter: "S'arrêter sur la Richard-Hauser-Platz au cœur de la vieille ville de Heidelberg lors d'une promenade à pied entre l'église des Jésuites, la Marktplatz et les rives du Neckar pour apprécier l'atmosphère du quartier historique.",
+    link: ""
+  },
+  {
+    id: "heidelberg_eglise_des_jesuites",
+    name: "Heidelberg - L'Église des Jésuites de Heidelberg (Jesuitenkirche - Baroque Tardif des Wittelsbach)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Rhein-Neckar-Kreis",
+    subdiv: "Heidelberg",
+    altitude: 123,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Plus Grand Sanctuaire Baroque de Heidelberg (1712-1759), Nef Blanche et Dorée & Tombeaux des Princes-Électeurs Wittelsbach",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 49.41102,
+    lng: 8.70770,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNV2WjJqGfwK2R7qgTW9FPWvKtuXTO4sb3xs_FBpDLFi8jHAr0O6__-j0qD4A09n9BA-82WNY06by-CWO10t61Bqiy78nyLPmtFJj6bTErjIcujwAAySkzr-SPgv5w93GB3w6za3o7VZZItZbcFDBtHNg=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNkTZgq2uBvqzI9bpWTuB22oePwkmDSWkPrxN-25mwrK_cXk4yQPWTHiyMzzgfI4DxcZc42k39Uhs1Gw98uyNklP9vS8acGiCDCNgNTwFZZt0mKVVPPgED4hPr73pf0WYMs99DygmIRMiw7C4qssxCK9g=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'intérieur frappe par sa luminosité exceptionnelle, accentuée par la blancheur dominante des murs et des voûtes, typique du baroque tardif d'Allemagne du Sud. Les imposants piliers massifs, ornés de chapiteaux corinthiens rehaussés d'or et de touches de vert, rythment l'espace et soutiennent une voûte en berceau sobre mais élégante. Cette esthétique épurée, proche du classicisme, témoigne de la transition stylistique vers une plus grande clarté architecturale, loin des surcharges décoratives du baroque primitif.\n\nLe chœur, au fond, abrite un maître-autel monumental en marbre rouge et blanc, encadrant un retable imposant qui attire irrésistiblement le regard. Au-dessus, une fresque en demi-lune vient compléter l'iconographie sacrée du sanctuaire. Sur la droite de la nef, on distingue une chaire à prêcher richement ornée, tandis que les lustres en cristal apportent une touche de raffinement civil à cet espace solennel.\n\nL'église remplit également une fonction mémorielle importante, abritant dans sa crypte les restes de l'électeur Frédéric-le-Victorieux, ainsi que le tombeau du prince-électeur Karl Theodor. Cet édifice n'est donc pas seulement un lieu de culte, mais un monument à la gloire de la dynastie des Wittelsbach qui a soutenu le retour du catholicisme à Heidelberg."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNe_0vnf59we0_mZwzj1ZAbOfaXCAVN2FFHKzzkPyLDazFYjHBlUZG1sXhn8OOOpyZ79vzYI6b4TikvEf8yHKQrHDkXl7s3f_30A52BMuoFTgTiHe5HSs4MR0fn0tGJfGTHOd7AWP6VIW0ESy_5mhLlUg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Élevée à cent vingt-trois mètres d'altitude dans le quartier des Jésuites au cœur de la vieille ville de Heidelberg au Bade-Wurtemberg, l'église des Jésuites (Jesuitenkirche) constitue le plus vaste et le plus majestueux sanctuaire baroque de la cité. Édifiée entre 1712 et 1759 — sous la direction successive des maîtres d'œuvre Michael Ludwig Rohrer et Franz Wilhelm Rabaliatti, avant que sa façade occidentale restée longtemps inachevée ne reçoive sa tour néo-baroque en 1868-1872 —, l'église symbolise le renouveau catholique soutenu par la dynastie des Wittelsbach dans le Palatinat.\n\nSon vaisseau intérieur baigné de lumière blanchi à la chaux, rythmée de piliers corinthiens rehaussés d'or et de touches de vert, s'ouvre vers un chœur somptueux dominé par un grand autel en marbre rouge et blanc et abrite dans sa crypte les sépultures princières des Wittelsbach, dont celles de l'électeur Frédéric le Victorieux et de Charles Théodore.",
+    visiter: "Entrer dans l'église des Jésuites au cœur de la vieille ville de Heidelberg pour admirer la clarté de sa nef baroque tardive, les dorures de ses chapiteaux corinthiens, le maître-autel en marbre et la mémoire dynastique des Wittelsbach.",
+    link: ""
+  },
+  {
+    id: "heidelberg_eglise_du_saint_esprit",
+    name: "Heidelberg - L'Église du Saint-Esprit (Heiliggeistkirche - Gothique Tardif & Marktplatz)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Rhein-Neckar-Kreis",
+    subdiv: "Heidelberg",
+    altitude: 120,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Principal Sanctuaire Gothique Tardif de Heidelberg (1398-1544), Nef en Grès Rouge, Ancienne Bibliotheca Palatina & Marktplatz",
+    century: "XVe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 49.41216,
+    lng: 8.70994,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP-meZSS1Rq6i3ZYkqEoIQctrc7jHnEtybSY0ODKvfUWo2Rr0cpXz1Hh2npqSSk23ay8iPx-OZpKkeNpIdn8tIOmVmKpKe2iF7DBdMHllqfzI9GWRPZqkyY67Bu3-2_rCq9f8AfNQHt68sIHSPs-RTX9Q=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPs9_iIBxMc-Cnt2VTQpKudLXlC79uDY-1_m8E3z1AgnR-rTh-RnaT4zhi9mdd95KxzyEnwM2-CBTIimCGfVKFbFgerdAT_ePZcOnqgT0w4GRLEcOdDakelXqB8k0da7DOm-kj9xmXU4QsGjDBdRwiQBQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'espace intérieur est dominé par l'utilisation du grès rouge local, qui habille les puissantes colonnes cylindriques dépourvues de chapiteaux, une transition fluide typique du gothique tardif où les nervures des voûtes semblent jaillir directement des piliers. Les voûtes d'ogives complexes dessinent un réseau géométrique élégant au plafond, tandis que les grandes baies du chœur, visibles au fond, inondent le sanctuaire d'une lumière verticale. Cette verticalité est accentuée par la finesse des meneaux et la hauteur impressionnante des piliers qui rythment la progression vers l'autel.\n\nHistoriquement, cette nef a été le théâtre d'une cohabitation unique et parfois tendue : à la suite de la Réforme, l'église fut divisée par un mur de séparation en 1706 pour permettre aux catholiques d'utiliser le chœur tandis que les protestants occupaient la nef. Ce mur n'a été abattu qu'en 1936, rendant à l'édifice son unité spatiale originelle. C'est également entre ces murs que fut longtemps conservée la célèbre Bibliotheca Palatina, avant d'être emportée à Rome durant la guerre de Trente Ans.\n\nAujourd'hui, l'église du Saint-Esprit demeure un centre spirituel et culturel majeur au cœur de la vieille ville de Heidelberg. L'aménagement intérieur, bien que marqué par le dépouillement iconoclastique de la Réforme, conserve une majesté sobre, où les rares éléments décoratifs et les vitraux contemporains dialoguent avec la structure médiévale. Sa nef est régulièrement le siège de concerts d'orgue, profitant d'une acoustique exceptionnelle générée par ses vastes volumes de pierre."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNj_8zwgl0wbUS9REBIfA-xa-7vLN70_BVFMiE2mTsRdDeeYlJl5QYMJatGSC1TVkue4IKm-9eDOW3gC9MgC3G09ngtmiWDvmFWKuf0OgcTd6scA35TiJxBppXZElakrdPK9FX2cVjd6HdF04xtn97Rjg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM3qSKZvDtReZEsAkilTucsLDT9tFnHlVikYAyAwUy4OYf3vEIAZ6de_EjVhg1vy0nhY6jhxcIFH8kTB9a-vMW-_QtgjiJpvOIjlffaZ4rAElN9CS5lDDtOopF2PGIzD3Jrlksx7hZc8TTRjCa7LF4fZQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressée à cent vingt mètres d'altitude directement sur la Marktplatz au centre de la vieille ville de Heidelberg au Bade-Wurtemberg, l'église du Saint-Esprit (Heiliggeistkirche) constitue le principal édifice gothique tardif de la cité et l'un des plus célèbres repères urbains de la vallée du Neckar. Élevée en grès rouge entre 1398 et 1544 à l'emplacement d'une église romane antérieure pour abriter la nécropole des princes-électeurs palatins et la prestigieuse bibliothèque électorale (Bibliotheca Palatina), l'église se distingue par sa haute nef élancée, son chœur rayonnant inondé de lumière et sa tour occidentale coiffée d'une flèche baroque après l'incendie de 1693.\n\nAutour de ses murs s'accrochaient autrefois de petites échoppes de marchands et de libraires, tandis que l'intérieur conserve la mémoire des querelles confessionnelles du Palatinat — marqué entre 1706 et 1936 par un mur séparant les cultes réformé et catholique — dans un espace de pierre rouge à l'acoustique remarquable.",
+    visiter: "Découvrir l'église du Saint-Esprit sur la Marktplatz de Heidelberg pour admirer son architecture gothique tardive en grès rouge, l'élan vertical de sa nef et de son chœur et l'animation de la place qui l'entoure.",
+    link: ""
+  },
+  {
+    id: "heidelberg_marktplatz",
+    name: "Heidelberg - La Place du Marché (Marktplatz - Fontaine d'Hercule & Hôtel de Ville)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Rhein-Neckar-Kreis",
+    subdiv: "Heidelberg",
+    altitude: 120,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Cœur Historique de la Vieille Ville de Heidelberg (120 m), Fontaine d'Hercule (1709), Hôtel de Ville & Église du Saint-Esprit",
+    century: "XVIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.41221,
+    lng: 8.71047,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOqnaLwIGw-6RRsh043g87C0ZayZVJo7SKBiyDT_V1MA8wVc8aOu711D7dkELWAd3FKndD4tNpZrzLjk0AJYhv25bWX7nd0rHPIyElsEI-buDBnQSIATpXQuSh1tXkBS650itiy4772mDKI7t7HRNXZow=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPbETgzyJSc238u94-UNyEaC1q2N_fuOY6jaef_i_BIIKOMktvSaY6BMg0iqgD9Bm5O2p63JkFb4eZhlPjFbSnhR-ED3Ymz3tOfo6T4eL1YClCX1_NOiyuvGdGlskhjrLx-q5JwsEh7vDnpBKV2d3dnsw=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "S'ouvrant à cent vingt mètres d'altitude au centre géométrique de la vieille ville de Heidelberg, juste au pied des pentes boisées du château et contre l'église du Saint-Esprit, la Marktplatz constitue le cœur historique, civique et animé de la cité du Bade-Wurtemberg. Bordée de maisons anciennes aux façades pastel, de commerces, de cafés et de l'Hôtel de Ville baroque (Rathaus) reconstruit au début du XVIIIe siècle après les destructions de 1689 et 1693, la place fut de tout temps le lieu des marchés, des proclamations électorales et des rassemblements urbains.\n\nEn son centre s'élève depuis 1709 la fontaine d'Hercule (Herkulesbrunnen) en grès rouge du Neckar, dont le fût sculpté soutient la statue du héros mythologique armé de sa massue et de la peau du lion de Némée, tandis que vers l'est s'étirent la Hauptstraße et la place Kornmarkt menant vers le château. L'alliance des façades anciennes, de la pierre rouge et du massif de l'église du Saint-Esprit confère à la Marktplatz un charme urbain immédiat.",
+    visiter: "Flâner sur la Marktplatz au centre de Heidelberg pour observer la fontaine d'Hercule en grès rouge, les façades entourant la place, l'Hôtel de Ville et la silhouette de l'église du Saint-Esprit.",
+    link: ""
+  },
+  {
+    id: "heidelberg_place_kornmarkt",
+    name: "Heidelberg - La Place Kornmarkt & Vue sur le Château de Heidelberg",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Rhein-Neckar-Kreis",
+    subdiv: "Heidelberg",
+    altitude: 122,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Place Historique au Pied du Château de Heidelberg (122 m), Statue de la Vierge & Panorama sur les Ruines Princières",
+    century: "XVIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.41190,
+    lng: 8.71164,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMlNapWkUpmYDNA8Cf5wYL8rH_vZGCzrPwXyzsPCa2FXAKPuwvmskCkwi1yHX8BA2KI1zov57m6AY28lYbWmG7OJ8D0QRn_za2Suo4NuRh6yRJYNJFKg9BoX8qLFk__D3qUI46Rfz8fMR4jX_KZw9Ww1Q=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Blottie à cent vingt-deux mètres d'altitude à l'extrémité orientale de la vieille ville de Heidelberg, juste au sud-est de la Marktplatz et au pied même du versant boisé du Königstuhl où s'élèvent les ruines du château, la place Kornmarkt (ancien marché aux grains) offre l'un des points de vue urbains les plus évocateurs sur la silhouette monumentale du château de Heidelberg. Entourée de maisons anciennes, de demeures baroques et de petits jardins, cette place intime doit une grande partie de son charme à la statue baroque de la Vierge Marie (Mariensäule) dressée en son centre en 1718 sur un piédestal sculpté.\n\nDepuis le Kornmarkt, le regard s'élève directement à travers les frondaisons et les pentes vers les hautes murailles, tours et façades en grès rouge du château qui domine la ville de tout son prestige historique. C'est à la fois un lieu de calme dans la vieille ville et un point de départ privilégié pour rejoindre le château et les sentiers du versant.",
+    visiter: "S'arrêter sur la place Kornmarkt à Heidelberg pour admirer la colonne baroque de la Vierge Marie et lever les yeux vers les façades et tours en grès rouge du château dominant la vieille ville.",
+    link: ""
+  },
+  {
+    id: "heidelberg_chateau_de_heidelberg",
+    name: "Heidelberg - Le Château de Heidelberg (Heidelberger Schloss - Renaissance & Romantisme Rhénan)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Rhein-Neckar-Kreis",
+    subdiv: "Heidelberg",
+    altitude: 188,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Résidence des Princes-Électeurs du Palatinat (XIIIe-XVIIe Siècles), Façades Renaissance en Grès Rouge, Cours & Terrasses",
+    century: "XVIe siècle",
+    category: "chateau",
+    counts: { chateau: 1 },
+    lat: 49.41069,
+    lng: 8.71538,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNOR6RGTJJA4rdUbxKmnJ6cM0cj9YmhGSotO-qt98EAQZ5ZN-TKoIwkSzTXnhhTA_XyMFqQIDA_9bk4oNtaiHIYM8xXjVAR7EgqTbS13xYzOHwHqItePzWJrDbE4xwmA3uYT_bQcgVTYCrz1m1LewvvuQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM6eBb7qeFbIV2fTKwzMZUkUrgTXp_mklya9i1q84pDHgzKNVcI5iLgmVOHqEaszZH5rmc-1D4Do5wBB-JkFEYpB1Tb-ksZ4HGW0ogM2YSAznpWTmBXQfuwC6V1H0z2ltQZ8rsMD6u5FlYvmSsGP6FiYw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNM5rUY0oLgEHCPtQhszfd_rmR9_fkTwDGOdp5R9r8xVFXjvb4_5Y6SkO5P_bFt-4uE-vJRNWLUkQG8vZBoIzMfbnNr7g7tHlhwhqbl9sPTNi8sPxkIE557Cd8RNKkL1f3kPKEbRkrzG9Tj0kagF6DJtg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dominant à cent quatre-vingt-huit mètres d'altitude les toits de la vieille ville et la vallée du Neckar sur les pentes boisées du Königstuhl à Heidelberg dans le Bade-Wurtemberg, le château de Heidelberg (Heidelberger Schloss) incarne avec éclat l'apogée de la Renaissance palatine et la sensibilité romantique du XIXe siècle. Développé à partir d'un château fort médiéval attesté au XIIIe siècle, l'ensemble devint au XVIe et au début du XVIIe siècle la somptueuse résidence des princes-électeurs palatins, qui édifièrent autour de la cour intérieure des ailes monumentales en grès rouge du Neckar — tels l'Ottheinrichsbau et le Friedrichsbau — riches de sculptures, de pignons et d'une prodigieuse profusion ornementale.\n\nRavagé par les guerres de la fin du XVIIe siècle — notamment en 1689 et 1693 — puis frappé par la foudre en 1764, le château fut partiellement conservé en ruines pittoresques qui fascinèrent les poètes, peintres et voyageurs du romantisme. De ses cours, terrasses et belvédères s'ouvre une vue grandiose sur Heidelberg, le Neckar et la plaine du Rhin.",
+    visiter: "Monter jusqu'au château de Heidelberg à 188 mètres d'altitude pour parcourir ses cours et terrasses, admirer les façades Renaissance en grès rouge de l'Ottheinrichsbau et du Friedrichsbau et contempler le panorama sur la vallée du Neckar.",
+    link: ""
+  },
+   {
     id: "spire_musee_des_techniques_speyer",
     name: "Spire (Speyer) - Musée des Techniques de Speyer (Technik Museum Speyer)",
     country: "Allemagne",
