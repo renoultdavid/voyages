@@ -7,6 +7,71 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "wuerzburg_cathedrale_saint_kilian",
+    name: "Wurtzbourg (Würzburg) - Cathédrale Saint-Kilian (Dom St. Kilian - Basilique Romane & Cloître Gothique)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Basse-Franconie",
+    subdiv: "Wurtzbourg",
+    altitude: 185,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Quatrième Plus Vaste Basilique Romane d'Allemagne (Entreprise en 1040), Chapelle Schönborn & Cloître Gothique (1430-1453)",
+    century: "XIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 49.79342,
+    lng: 9.93184,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMDxhyk30wLiLUpScohZCKqUmnTH3jPxpUEA6s7nheE4Ug9titMEZm1WwEHFB4Fg2XmAQbvnU8TA2B7KYBs4_THHDEVosZac9up7aVHNazZBWlNmAODnG-U3TctT34HF9qTztZcm-6bVjcl2XmrtKBLaA=w1379-h919-s-no-gm?authuser=0",
+    description: "Érigée au cœur de la cité épiscopale de Wurtzbourg, à l'extrémité orientale de la Domstraße reliant le vieux pont sur le Main à la Résidence, la Wurzburg Cathedral — officiellement cathédrale Saint-Kilian (Dom St. Kilian) — s'impose comme la quatrième plus vaste basilique romane d'Allemagne avec ses cent trois mètres de longueur et comme le sanctuaire historique des puissants princes-évêques de Franconie. L'édifice actuel, troisième cathédrale bâtie sur ce site après deux sanctuaires carolingiens incendiés au VIIIe et au IXe siècle, fut entrepris en 1040 par l'évêque saint Brunon, achevé dans ses grandes lignes vers 1075 sous l'épiscopat d'Adalbéron puis consacré en 1187 à l'issue de remaniements romans tardifs. Au début du XVIIIe siècle, entre 1701 et 1704, le stucateur tessinois Pietro Magno métamorphosa la nef et le chœur par un fastueux décor baroque, tandis que Balthasar Neumann édifiait contre le croisillon nord la chapelle funéraire des Schönborn. Durement sinistrée lors du bombardement incendiaire du 16 mars 1945 et de l'effondrement partiel de ses murs au cours de l'hiver 1946, la cathédrale fit l'objet d'une vaste reconstruction achevée en 1967, qui prit le parti volontaire de restituer la sobriété romane primitive de la nef tout en conservant les somptueux stucs baroques du transept et du sanctuaire.",
+    intro_page: "Érigée au cœur de la cité épiscopale de Wurtzbourg, à l'extrémité orientale de la Domstraße reliant le vieux pont sur le Main à la Résidence, la Wurzburg Cathedral — officiellement cathédrale Saint-Kilian (Dom St. Kilian) — s'impose comme la quatrième plus vaste basilique romane d'Allemagne avec ses cent trois mètres de longueur et comme le sanctuaire historique des puissants princes-évêques de Franconie. L'édifice actuel, troisième cathédrale bâtie sur ce site après deux sanctuaires carolingiens incendiés au VIIIe et au IXe siècle, fut entrepris en 1040 par l'évêque saint Brunon, achevé dans ses grandes lignes vers 1075 sous l'épiscopat d'Adalbéron puis consacré en 1187 à l'issue de remaniements romans tardifs. Au début du XVIIIe siècle, entre 1701 et 1704, le stucateur tessinois Pietro Magno métamorphosa la nef et le chœur par un fastueux décor baroque, tandis que Balthasar Neumann édifiait contre le croisillon nord la chapelle funéraire des Schönborn. Durement sinistrée lors du bombardement incendiaire du 16 mars 1945 et de l'effondrement partiel de ses murs au cours de l'hiver 1946, la cathédrale fit l'objet d'une vaste reconstruction achevée en 1967, qui prit le parti volontaire de restituer la sobriété romane primitive de la nef tout en conservant les somptueux stucs baroques du transept et du sanctuaire.",
+    visiter: "Parcourir les abords de la cathédrale Saint-Kilian à Wurtzbourg pour admirer sa silhouette à quatre tours et la chapelle Schönborn, puis entrer dans la nef romane restaurée, le chœur orné de stucs, la crypte et le cloître gothique tardif.",
+    link: "",
+    sections: [
+      {
+        title: "Silhouette à quatre tours, façade occidentale et chapelle Schönborn",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMDxhyk30wLiLUpScohZCKqUmnTH3jPxpUEA6s7nheE4Ug9titMEZm1WwEHFB4Fg2XmAQbvnU8TA2B7KYBs4_THHDEVosZac9up7aVHNazZBWlNmAODnG-U3TctT34HF9qTztZcm-6bVjcl2XmrtKBLaA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMBrY5cbw8zesuuTm5KLyIzirFCF8p00ItADCTm0oFWijNTDgvlOkdt-txW8U02o_dc1ch-TUY4zZ2B2pGOAqj6LGrKs99EDfftYT2onh2hem_pjvbt-SsByBj_RJ0Zen26H0HBzL26HKhF2gDSTnYSdg=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNR2SLIyw8-rb20d0aA8wiWXE9PvDO7y5L25_SJSJCJJjchhe3EqHFw4uIyqf4cJefqjnN14pHSVl03v9NntzocbWaYmG_nk4WIra6hisk7aWjRTWJUOBwxA4Cs_1j6m6BBzlJuVxnOyn7vMqRKFKnaLw=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "De l'extérieur, le monument affirme sa puissance architecturale salienne par sa silhouette caractéristique à quatre tours : à l'est, deux beffrois romans élancés édifiés en 1237 flanquent le chevet carré, tandis qu'à l'ouest s'élève la façade occidentale encadrée de deux hautes tours. Masquée après 1945 par un parement lisse de pierre ponce, la façade néo-romane du XIXe siècle a retrouvé en 2006 son visage historique articulé autour d'une grande rosace centrale, d'une galerie tripartite à arcatures et d'une niche abritant l'horloge. Sur le flanc septentrional du transept fait saillie le volume sculptural en grès de la chapelle Schönborn (Schönbornkapelle), rotonde baroque conçue entre 1721 et 1736 par Balthasar Neumann et couronnée d'un dôme à lanternon orné de trophées et de statues de vertus, tandis qu'au sud s'étend le cloître gothique tardif et le bâtiment de la salle capitulaire."
+      },
+      {
+        title: "Contraste entre la sobriété de la nef romane et les stucs baroques du chœur",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNylJ7NRI8JQz6FZ_pgl4Z-DbIZZ9Sxv17gKhhKuyOC-8N3qZHkdAFpUQ_75D03S45PpaBkf-XW0FqHfHKN-DtAqbIwjuGqT5Oh0N1KB4ia4tIrru6-v8Yx6iVQUU27Vm3hrutNo_31IqI8Wf-SWiS16w=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'espace intérieur impressionne par son contraste saisissant entre la rigueur romane de la nef et l'exubérance baroque du chœur. Le vaisseau central est porté par une alternance de piliers massifs et de murs blancs épurés, menant le regard vers une voûte d'un blanc immaculé. Contrairement à la nef de Saint-Étienne de Mayence ou à la cathédrale de Francfort, le plafond ici est plat et boisé dans sa partie romane, respectant la tradition des basiliques précoces, avant de s'ouvrir sur un transept et un chœur richement ornés de stucs.\n\nComme de nombreux monuments de Wurtzbourg, la cathédrale a été presque entièrement détruite par les bombardements du 16 mars 1945. La nef que l'on parcourt aujourd'hui est le résultat d'une reconstruction exemplaire achevée en 1967, qui a fait le choix audacieux de ne pas masquer les blessures de l'histoire. Les murs lisses et blancs mettent en valeur les monuments funéraires des princes-évêques, dont certains chefs-d'œuvre du sculpteur Tilman Riemenschneider, qui ont survécu aux flammes."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNBnBZWYwTPnp7XJ4DKyyoeVD5-QbHpSzbjWc_Wrou2mhum-1t5SfdFEIDj_hBeBKQLJOIL8lUGwVCTQkCOro7B66Ro6w-Hg8T2alCvhTnMHPJ6V0yXX6ffiO6AMXV8wKX92yayFXeKAO2LDGOe2aNUCQ=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOy7jjElJI2s742T9X64veem6kvtBYedkEYfiMPswmfcUjCe8qNMwGJ_a6PvnDz4HNYp5ZWtRQBrvwWsIisWEDuNPrz1P5L42WwcCOX9C0Nekr7CLe2dcm7iCrbWri6w9v3OFeZ0NCl9OX7l6lNuYeFSQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La double crypte des saints apôtres de Franconie et la chapelle Schönborn",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPK6Z-T9WfWjBMdyQPsADvMZaa2P6tsq2F1_Rhmxz_80iTNUKq9DHcw0Sv7Jyh8-8cyqoFgaLnunitFeiPKW8NmCYVte8VgnDt4R9JybWgGdbE_qZl4gpftQwAdpD_wq6emh-6tFR8U_eaJTaTaRMnyQg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMq6K8tIlufeGfebeE79c3jwq54UIPOympWztTW_8y815j33NJADchP4696Jb0iB9bUHaVbi8Ogd-L-lDOAMjtJbLz7G5aaoKmHEQ9onZWm4sGsBeyXLrmGc8UaNhDBeCXr3cGZEbcFO_P033VRJW1M_g=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La visite se prolonge dans la double crypte souterraine, où sont vénérées les reliques des saints apôtres de la Franconie — Kilian, Colman et Totnan — aux côtés d'une ancienne croix sculptée d'époque mérovingienne ou carolingienne, puis dans la chapelle Schönborn toute entière dédiée à la glorification dynastique sous les fresques célestes de Johann Rudolf Byß et les marbres polychromes de Neumann, avant de s'achever dans le cloître gothique et la chapelle sépulcrale illuminée par les vitraux abstraits de Georg Meistermann."
+      },
+      {
+        title: "Le cloître gothique tardif (1430-1453), voûtes en grès rouge et monuments funéraires",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMmOfSljB3zizy-XJEGuU1bPpnjL5GLUfViyYZuSz9b4Rrqx96-2kIHAuNKsHgUpzGwBvIN93gMJv9d5I_PUjTASNlltiyVgJhFg3wXoR6OACAYt-YiUR_Q8upLT2KcciNPv7AfL5Hlill_VSw9B4NnJg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le cloître de la cathédrale Saint-Kilian de Wurtzbourg constitue un espace de transition majeur entre la rigueur de la nef romane et la sérénité du jardin intérieur. Sa structure actuelle relève principalement de la période du gothique tardif, ayant été érigée au cours du XVe siècle, entre 1430 et 1453 environ. Ce lieu servait historiquement d'espace de procession et de méditation pour les chanoines du chapitre cathédral, tout en faisant office de nécropole privilégiée pour les dignitaires ecclésiastiques et les familles nobles de la région.\n\nL'architecture des galeries se caractérise par l'utilisation du grès rouge, typique de la Franconie, qui souligne le dessin des voûtes et des ouvertures. Le système de voûtement repose sur des croisées d'ogives élégantes dont les nervures s'entrecroisent avec une grande précision géométrique. À chaque intersection, des clefs de voûte circulaires, finement sculptées et parfois peintes, arborent des motifs héraldiques ou des symboles religieux, témoignant du faste décoratif du XVe siècle. Ces nervures retombent sur des culots sculptés intégrés aux murs, libérant ainsi l'espace au sol pour faciliter la circulation.\n\nLes ouvertures donnant sur le préau central présentent des remplages gothiques élaborés. Chaque baie est divisée par des meneaux de pierre qui s'épanouissent en partie haute pour former des motifs de trèfles et de mouchettes, créant un jeu d'ombre et de lumière complexe sur le dallage des galeries. Cette dentelle de pierre agit comme un filtre visuel, cadrant les vues sur l'extérieur tout en protégeant l'intimité des galeries. La lumière naturelle, variant au fil des heures, met en relief la texture du grès et la finesse des détails sculptés.\n\nLe long des parois intérieures, le cloître abrite une collection exceptionnelle de monuments funéraires et d'épitaphes s'étalant du Moyen Âge à l'époque baroque. Ces dalles en relief, souvent fixées verticalement, représentent des chanoines en habit de chœur ou des scènes de dévotion. Bien que le cloître ait subi des dommages lors des incendies de 1945, sa restauration minutieuse a permis de préserver son authenticité et son atmosphère de recueillement. Il demeure aujourd'hui l'un des plus beaux exemples de cloître gothique conservé en Allemagne du Sud, alliant maîtrise technique et profondeur historique."
+      }
+    ]
+  },
+   {
     id: "wuerzburg_residence_de_wuerzburg",
     name: "Wurtzbourg (Würzburg) - Résidence de Würzburg (Würzburger Residenz - Patrimoine Mondial de l'UNESCO)",
     country: "Allemagne",
