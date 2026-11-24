@@ -7,6 +7,190 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "mayence_cathedrale_saint_martin",
+    name: "Mayence (Mainz) - Cathédrale Impériale Saint-Martin (Mainzer Dom)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Rhénanie-Palatinat",
+    department: "Mayence",
+    subdiv: "Mayence",
+    altitude: 97,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Cathédrale Impériale Romane Rhénane à Double Chœur (Fondée en 975 par Willigis), Monuments Funéraires & Peintures Nazaréennes",
+    century: "XIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 49.99896,
+    lng: 8.27368,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNPwkx_p0o8i0iQFyNvED-Na6NBXZT4UzNDGPYucNFN9Myq6mAzmhqFKsmp2lh8ZWPUvNdu85U0_Ze_4O02KZusRaRt7KmcJFTGlcXet9rfYuBzjiU4RZv5bGH9w5JX3eqw7UuSmeR2vOx6IrkyvdqnSg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMyidG1dLkjoR6RY4LUKmGO3m7-813lif4gcJ1eGVqvtN4F0ZAgOE6Ve5EFCCga0K2T-oK-2VDlw1z-e97ls4s4LMWn4JZCXbmd7fcI5jwIRV9LhDidT5RvTXyrZJFTFP2Y7P6Eeik_cLzyVeDF7EEhWg=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'élévation de la nef suit un rythme rigoureux de grandes arcades en plein cintre portées par des piliers massifs, séparant le vaisseau central des collatéraux. Au-dessus de ces arcades, les murs hauts sont rythmés par des fenêtres hautes qui diffusent une lumière tamisée, mettant en valeur la texture de la pierre. Les voûtes d'ogives, parmi les plus anciennes d'Allemagne pour un édifice de cette ampleur, assurent la couverture du vaisseau et soulignent l'élan vertical qui guide le regard vers le chœur ouest, pôle liturgique majeur de cette structure \"double-chœur\".\n\nL'aspect artistique de la nef est enrichi par une série exceptionnelle de monuments funéraires adossés aux piliers, formant une véritable galerie de l'histoire de l'électorat de Mayence. Ces sculptures, allant du style gothique au baroque, représentent les archevêques-princes électeurs et témoignent de l'importance politique et religieuse de la ville au sein du Saint-Empire. Sur les parois supérieures, des cycles de peintures murales du XIXe siècle viennent compléter ce décor, illustrant des scènes bibliques dans un style nazaréen qui cherche à renouer avec la ferveur médiévale tout en respectant l'équilibre architectural originel de ce vaisseau millénaire."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMdFbK9c1RmCj4Y8oS5K0P2Scie-tuJYsTCP_fqKw8j5lzoGXYKs-pfLIVcwoqDHUfljws8-F--1fhO31k0RcTB3bQlFCg227YpO0qflf8nDBQCAQBNxF4HetHN748CtgGD_raHry1Nw1lkrhOz4azXrQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPZGtpEHam1-Ji-14LgDqTTKTN9sFjc42kch58PqgIux_0BJwphvsslOEBw_4y7OUw_j515E_jECgn6krDw0jwiPxhYyC5wGAFrH5TOa7tm5mOZzB9GRXVYYIt-kxKFUcfVx67f5zmOaCzADHTC_mCc4g=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPyM5oGUrekktwQP6wIW1wxschFP6YVP4ZsWFhoFO4DNCOs8ahR_HeuqICx8OT9VcJDkBCDKKQweSWJ4JPrMo0XZ0Y8IaIYjiWi4JojOvCuCrwHNS3HWjsE0FH7kGYVKOtRKGpKDkoBcXJAlv74QBNxmQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNqJFigN1A5zPrzy7q3tUvoxsCImTcb5dWXvHULN17uf7PPIg6sXTSdLT__QnDGOw80hKvlDTnEQoexydzFgQPpmpMJ_JfaolKxJsaEpnlK_Id3ALI73y9Y9NqHYT8eLaOOTVuwyM_a_xVNJuaxJXYtoA=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressée à quatre-vingt-dix-sept mètres d'altitude au cœur de la vieille ville de Mayence en Rhénanie-Palatinat, la cathédrale impériale Saint-Martin (Mainzer Dom) forme avec Spire et Worms l'une des trois grandes cathédrales impériales romanes du Rhin, dont la fondation remonte à 975 sous l'archevêque Willigis avant d'être consacrée au XIe siècle puis enrichie d'ajouts gothiques et baroques. Dotée d'une structure à double chœur, d'une haute tour-lanterne octogonale et d'une nef en grès rouge rythmée d'arcades massives et de voûtes d'ogives précoces, elle se distingue par la densité exceptionnelle des monuments funéraires des archevêques-princes électeurs de Mayence adossés à ses piliers.\n\nSes parois supérieures s'animent au XIXe siècle d'un vaste cycle de peintures murales de style nazaréen illustrant l'histoire du salut et la vie de l'Église, tandis que ses chapelles, son cloître et ses autels retracent un millénaire d'histoire religieuse et politique au cœur du Saint-Empire romain germanique.",
+    visiter: "Parcourir les abords et l'intérieur de la cathédrale impériale Saint-Martin à Mayence pour admirer sa nef romane et gothique en grès rouge, les monuments funéraires des archevêques-électeurs, les peintures nazaréennes et la structure à double chœur.",
+    link: ""
+  },
+  {
+    id: "mayence_musee_gutenberg",
+    name: "Mayence (Mainz) - Le Musée Gutenberg (Histoire de l'Imprimerie, Manuscrits & Incunables)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Rhénanie-Palatinat",
+    department: "Mayence",
+    subdiv: "Mayence",
+    altitude: 95,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Musée Dédié à Johannes Gutenberg & à l'Invention des Caractères Mobiles (Vers 1450), Manuscrits Médiévaux & Premiers Imprimés",
+    century: "XVe siècle",
+    category: "musee",
+    counts: { musee: 1 },
+    lat: 50.00390,
+    lng: 8.27050,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNYkvSIHrYoPijGW5YfTWPr3XsSoN90sMDiFdhithA7PdSLz_YlgkHY3MxsdwFx4WfP_RiJtcZvta7Ki6rMRfPKz6qeC_EZKMfTtaljcWvbyOrJ80bwM7LmscqB-R1g7OWq24TbdaO04f-SvQfTWEfaiw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPnspwCv2mtl6wvTLhHVQ3KmNwWtqBg3QiUjmEXxl77271cIPzk8eczI9dhBomBGfhRIdmVmNtn1ZyyQMfDCnhKgthVtAy7Ol3LBSXCDQ0hwTWgWw8BJwNHie6qc108nsPJdMDs0KRAHbD9KB7WKPnsIQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOrp5zOGzsef9KzdYKVrkP-3kId-iJDkscL9VJ6uhfHQcnSNX8kC3zl5E0FYLc4jOKQEg29ZzVLffxqJ9DBlzMoX_8x9ksfp8k2XsPLJ7N632P_VOmT9kVqdiRA_lcd0yk1WPF1ZBWle7UHgPC6ZDVzYA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP-7qyed4NVceqMFcomhnFAxhUKzA8VvZs_gqZ4UsTApqtyeA8TxkGieZCtd6MwyQdugu26blxc13oR3ii4OicP43OkFBCG6F-T8NEdT5bPaMI3lZ2ciu5nm_oT_wFLZBOMYbDRD9-j9J_guhGtTntu2g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNITpIr4zvqhmf1g1edfm5vrEazGpiLIaZYeGkdWhS8-Kxy_LVNiulBuRHaxneCUFDUS_5BQAa5S08rWEyAiAzPJTChoKas6aNw0VqbbsJ2IolrXm66tp-HFrtKf5fpqxhyXoasyKaWE0vrKUU8J6bR6Q=w1379-h919-s-no-gm?authuser=0",
+        caption: "Cette pièce maîtresse de la collection du Musée constitue un témoignage exceptionnel de la production manuscrite de la fin du Moyen Âge, période où l'enluminure atteignait un raffinement extrême. Ce codex, rédigé en latin sur un parchemin de haute qualité, illustre la transition intellectuelle et esthétique entre le style gothique tardif et les premières influences humanistes. L’écriture utilisée est une minuscule humanistique ou une gothique cursive très soignée, caractérisée par une régularité parfaite et l'usage fréquent d'abréviations scribales traditionnelles, destinées à optimiser l'espace précieux du support."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPXPfBrCVim_VoOs3b0ThUkPDTEZiEm6BU9oz3mdDYxZc9GmysjVL41G_fvjUOGejKAoGH4xknanW_ts4pux3rGK8ZVb9xerDAq3WpZUN07nwO1oWmSJAR1flxJAeQznXMCIE5aUy0Q4wRkarpxFPmaiw=w1379-h919-s-no-gm?authuser=0",
+        caption: "Cette pièce illustre une autre facette de la production manuscrite de la fin du XVe siècle : la notation musicale polyphonique. Ce feuillet témoigne de la complexité atteinte par la théorie musicale et la calligraphie à l'époque de la Renaissance, avant que l'imprimerie musicale ne vienne standardiser ces formes."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNyFA619Az3CE4LD6yhviSKn45VVoT4USznI1aQ0SBL8pNUt6MaTO4RBGrgXvW9_GXE7fWchAao5DFym3rK_kcMytGczb-milFn2_s-XjkZVrjMYzB54nnrgXsFk5qA8WPC1iY9wDR1SPstAsWR-ahGqQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "Exemplaire exceptionnel du Gart der Gesundheit (Le Jardin de la Santé), l'un des premiers herbiers imprimés en langue allemande, publié initialement à Mayence en 1485 par Peter Schöffer. Cet ouvrage représente une étape charnière dans l'histoire de la botanique et de la médecine, marquant le passage des croyances médiévales à une volonté de classification scientifique du monde naturel."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO9ztVG4b4tDzqwVUWl5uv5n30YB6z5u5gHaQ1FBDw6o85rlz4-5LCupjRe6YzVUk7TS4uPyfFqpiVYDdSQCf-DoKBXA5xNAi-ENTN7d5hX0zppP9PKqcEL10c_Xnt0taEgqeL2Zit0T0o5a9ixZ6r_lA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMkc5zZteE7JwgnOhWNeMKrn6eW57dSd5133-JK6hNp1q4wlNIvet2zfb4BZAL-fzkQJKrS_5Sz7vZoCuWcChDk8DRlO8OO02Cl77_SBPDKyACX6ir6VqYBdH4gWah2hZ6eZBxU5UlyJ02L4Itq-SIdHA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Situé à quatre-vingt-quinze mètres d'altitude à proximité immédiate de la cathédrale de Mayence en Rhénanie-Palatinat, dans la ville natale de Johannes Gutenberg (né vers 1400), le Musée Gutenberg retrace l'histoire fondamentale de l'écriture, de l'enluminure et de l'invention de l'imprimerie typographique à caractères mobiles en plomb vers 1450. Ses collections réunissent des manuscrits enluminés médiévaux, des incunables des premiers ateliers rhénans — dont le *Gart der Gesundheit* imprimé à Mayence en 1485 par Peter Schöffer —, des feuilles de notation musicale polyphonique et la célèbre reconstitution de l'atelier et de la presse à bras de Gutenberg.\n\nEn parcourant les salles consacrées aux Bibles de quarante-deux lignes, aux matrices typographiques et à la diffusion mondiale du livre imprimé, le visiteur mesure la révolution intellectuelle et culturelle qui transforma l'Europe à l'aube de la Renaissance.",
+    visiter: "Visiter le Musée Gutenberg à Mayence pour découvrir l'histoire de la typographie et de l'imprimerie, observer les manuscrits médiévaux, les incunables et la presse de Gutenberg et apprécier l'impact décisif de cette révolution sur la diffusion des savoirs.",
+    link: ""
+  },
+  {
+    id: "mayence_fontaine_de_carnaval_fastnachtsbrunnen",
+    name: "Mayence (Mainz) - La Fontaine du Carnaval de Mayence (Fastnachtsbrunnen)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Rhénanie-Palatinat",
+    department: "Mayence",
+    subdiv: "Mayence",
+    altitude: 98,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Fontaine Monumentale en Bronze de Blasius Spreng (1966-1967), Plus de Deux Cents Figures & Tradition du Carnaval Rhénan",
+    century: "XXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.99808,
+    lng: 8.26803,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMCH-lIXy-UIWRsInPotrcgzibRd1tIvNkUgtyHdZuhut2r36B5d56mS2O1gMlBvtn_wp1KVxBGNuXCzme6x1qMnjlHWqFGiE3OpT0PP_oU1AFldorTH5KV6euqamNzTwvfKMu7f_aumrZyeREb3zxIgA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Élevée à quatre-vingt-dix-huit mètres d'altitude sur la Schillerplatz au cœur de Mayence en Rhénanie-Palatinat, la Fontaine du Carnaval de Mayence (Fastnachtsbrunnen) célèbre avec humour, foisonnement et virtuosité plastique l'une des traditions populaires les plus vivantes et emblématiques de la vallée du Rhin. Commandée à l'occasion du cent cinquantième anniversaire du carnaval de Mayence et inaugurée en 1967 d'après la maquette du sculpteur mayençais Blasius Spreng, cette monumentale fontaine en bronze s'élève au centre d'un bassin en pierre en un édifice sculptural exubérant haut de plus de neuf mètres.\n\nPlus de deux cents figures en bronze — bouffons, fous, conseillers, personnages historiques et mythologiques, animaux burlesques et allégories de la joie populaire — s'entrelacent en une pyramide vivante où s'écoule l'eau des fontaines. Véritable monument dédié à l'esprit carnavalesque rhénan, mêlant satire joyeuse, fête et théâtre de rue, la Fastnachtsbrunnen constitue un repère singulier et animé entre la vieille ville et le quartier de la Schillerplatz.",
+    visiter: "S'arrêter sur la Schillerplatz à Mayence pour contempler la monumentale Fastnachtsbrunnen en bronze de Blasius Spreng et observer la multitude de personnages et de détails sculptés célébrant le carnaval rhénan.",
+    link: ""
+  },
+  {
+    id: "mayence_eglise_saint_etienne",
+    name: "Mayence (Mainz) - L'Église Saint-Étienne de Mayence (St. Stephan & Vitraux de Marc Chagall)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Rhénanie-Palatinat",
+    department: "Mayence",
+    subdiv: "Mayence",
+    altitude: 117,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Fondation Ottonienne de l'Archevêque Willigis (990), Église-Halle Gothique (1267-1340), Cloître & Vitraux Bleus de Marc Chagall",
+    century: "XVe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 49.99571,
+    lng: 8.26885,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMQ11dXLh6vWXpyTQFtBCAlOmhZTHHJZp-gZ-EjiCn7bzAM6YX7iquH_Dc2iCuJ73MWgT6iFPyg7IeUO8le2axIgb4EfzHVzdGAXRDpzYjq5KTLB-21Q3ka5bd3X9Qw9rW5vxdvomPGCUNojSh4xiBqWA=w613-h919-s-no-gm?authuser=0",
+    description: "Dressée au sommet de la colline du Stephansberg qui domine les toits de la vieille ville de Mayence en Rhénanie-Palatinat, l'Église Saint-Étienne de Mayence (St. Stephan) conjugue un millénaire d'histoire impériale rhénane à l'un des plus émouvants chefs-d'œuvre de l'art sacré du XXe siècle. L'édifice fut fondé en 990 par l'archevêque Willigis — archichancelier du Saint-Empire romain germanique et bâtisseur de la cathédrale de Mayence — qui établit sur cette hauteur un chapitre de chanoines conçu comme un véritable « lieu de prière de l'Empire » (Gebetsstätte des Reiches) et y choisit lui-même sa sépulture à sa mort en 1011. De cette basilique primitive de style ottonien à double abside subsistent les fondations ainsi que les assises inférieures de la tour occidentale, avant que l'église ne soit entièrement reconstruite entre 1267 et 1340 sous la forme d'une vaste église-halle gothique. Durement éprouvée par l'explosion d'une poudrière voisine en 1857 — catastrophe qui conduisit à retirer son riche décor baroque lors des restaurations du XIXe siècle —, puis gravement ravagée par les bombardements aériens de la Seconde Guerre mondiale, notamment en février 1945, Saint-Étienne a connu une renaissance exemplaire marquée par la restitution de la coupole de son clocher en 1962 et l'installation des célèbres vitraux de Marc Chagall.",
+    intro_page: "Dressée au sommet de la colline du Stephansberg qui domine les toits de la vieille ville de Mayence en Rhénanie-Palatinat, l'Église Saint-Étienne de Mayence (St. Stephan) conjugue un millénaire d'histoire impériale rhénane à l'un des plus émouvants chefs-d'œuvre de l'art sacré du XXe siècle. L'édifice fut fondé en 990 par l'archevêque Willigis — archichancelier du Saint-Empire romain germanique et bâtisseur de la cathédrale de Mayence — qui établit sur cette hauteur un chapitre de chanoines conçu comme un véritable « lieu de prière de l'Empire » (Gebetsstätte des Reiches) et y choisit lui-même sa sépulture à sa mort en 1011. De cette basilique primitive de style ottonien à double abside subsistent les fondations ainsi que les assises inférieures de la tour occidentale, avant que l'église ne soit entièrement reconstruite entre 1267 et 1340 sous la forme d'une vaste église-halle gothique. Durement éprouvée par l'explosion d'une poudrière voisine en 1857 — catastrophe qui conduisit à retirer son riche décor baroque lors des restaurations du XIXe siècle —, puis gravement ravagée par les bombardements aériens de la Seconde Guerre mondiale, notamment en février 1945, Saint-Étienne a connu une renaissance exemplaire marquée par la restitution de la coupole de son clocher en 1962 et l'installation des célèbres vitraux de Marc Chagall.",
+    visiter: "Monter sur la colline du Stephansberg à Mayence pour découvrir l'église-halle gothique Saint-Étienne, admirer les vitraux bleus réalisés par Marc Chagall entre 1978 et 1985 et parcourir le cloître gothique tardif et ses dalles funéraires.",
+    link: "",
+    sections: [
+      {
+        title: "La nef en église-halle (Hallenkirche) en grès rouge et ses voûtes d'ogives",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMQ11dXLh6vWXpyTQFtBCAlOmhZTHHJZp-gZ-EjiCn7bzAM6YX7iquH_Dc2iCuJ73MWgT6iFPyg7IeUO8le2axIgb4EfzHVzdGAXRDpzYjq5KTLB-21Q3ka5bd3X9Qw9rW5vxdvomPGCUNojSh4xiBqWA=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMMkmMGBn3s-4zNCjwviCbsvluiX663hcRzXvt4elsQdeGcSlAgzDRbDIz4_pd77-FSuoDK6mctE80hYoIhIozlIPvkTD6gp_jLHHp6df5VMryOBjs4LnFy28AgZwBSTQ33HGPH_MbxyRM-Ktt7EIQvKQ=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La nef actuelle, reconstruite après les ravages de la Seconde Guerre mondiale, se présente comme une église-halle (Hallenkirche) où les trois vaisseaux — le vaisseau central et les deux collatéraux — s'élèvent à une hauteur quasi identique. Cette conception spatiale crée une impression de volume unifié et aéré, renforcée par l'utilisation du grès rouge typique de la région, qui confère à l'édifice une chaleur organique malgré la rigueur des lignes architecturales. Les piliers fasciculés, dépourvus de chapiteaux traditionnels, s'élancent sans interruption jusqu'aux voûtes d'ogives, dont les nervures dessinent un réseau géométrique complexe au plafond, soulignant la verticalité et la légèreté de la structure."
+      },
+      {
+        title: "Les vitraux bleus de Marc Chagall (1978-1985) et la réconciliation franco-allemande",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOa-T3TC7I18O6M1Id6XDJwv77dHtR_cL2gQcsDT-zFD3K9_mXeCPYMzUQbjFYfWTQcrmQxCRochTm_2ZEeMCZFhH0dr-RdQAXJhYIRGlZhMreVl9yFXLFNVLnhspaYlKApTq5zPigOr-zOiW7CyllcUw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOyOXFGYlha23madlKpgZMPD9dGJ0175gMtL4lQnM3WSdOO55hFylPu2YucU0DeRmcKSYyxYF0zukyki_Fs_bfcjZH4iey0jKPgnlqb-hn0a_xji9rhcVQ-P7qYxEsVcSxQGBffNfOtKikfkQjc9GArkA=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Considérés comme le testament artistique de Marc Chagall et un symbole majeur de la réconciliation franco-allemande, les vitraux de l'église Saint-Étienne de Mayence constituent un ensemble unique au monde. Réalisés entre 1978 et la mort de l'artiste en 1985, ces neuf verrières inondent le chœur et le transept d'une lumière azuréenne d'une intensité mystique. L'utilisation dominante du « bleu de Chagall », parsemé de touches de jaune, de rouge et de vert, transforme l'architecture gothique du XIVe siècle en un espace immatériel où la pierre semble s'effacer devant la couleur.\n\nL'iconographie choisie par Chagall ne suit pas une narration linéaire stricte, mais propose plutôt une méditation visuelle sur les thèmes de l'Ancien Testament. On y reconnaît, flottant dans un éther bleu, des épisodes de la Genèse, les prophètes, et des scènes bibliques évoquant l'alliance entre le divin et l'humanité. Le style de l'artiste, caractérisé par des silhouettes oniriques et une fluidité quasi aérienne des formes, s'adapte parfaitement aux hautes lancettes gothiques, créant un dialogue saisissant entre l'art moderne du XXe siècle et les proportions médiévales de l'édifice.\n\nLa réalisation de ces vitraux revêt une importance historique particulière, Chagall ayant longtemps hésité à travailler pour une église allemande après les traumatismes de la Seconde Guerre mondiale. Convaincu par la persévérance du curé de l'époque, Klaus Mayer, l'artiste a finalement conçu cette œuvre comme un message d'espoir et d'unité. La technique employée, notamment le grisaillage et la gravure sur verre, permet d'obtenir des nuances de transparence infinies, donnant l'impression que les vitraux sont en mouvement constant selon l'inclinaison du soleil."
+      },
+      {
+        title: "Le cloître gothique tardif (1462-1499), dalles funéraires et Mont des Oliviers",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNgn_lmjjfcwKkmVuqoc8M4DOCo_-CI5JSszs89MDB5n2Q4x_hkI0jjN8_8tHtQhwRQTiSdJOBlLZBo7GCoMjeCUJiPH6Cd93jbKbV8jjddwwzU2cCf65PyVeg2zitTyM571-k3cMOcorckRPgIg7vYaA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPivlH_9RKhLtQhl2n_XaxjR_UwK1fZ5XXna2bVyt074Rn81Dm69717guxQ8IufpAFzzBGbAyQqbKhrvYDaLZWz_3bVCzHTZPZ8pBM3qfHBvngGISnZ93mCQ_UklvoQWMsXCW7Y_DikwEQWss-Z0DjHqA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Adossé au flanc méridional de l'église, le cloître (Kreuzgang), édifié entre 1462 et 1499 dans le style gothique tardif, prolonge la visite dans une atmosphère de quiétude hors du temps. Ses quatre galeries voûtées d'ogives aux nervures finement entrelacées encadrent un jardin intérieur agrémenté d'un puits ancien et s'éclairent par d'élégantes baies à remplages ajourés (Maßwerk) dessinant soufflets, mouchettes et fleurons. Les murs et le dallage de cette galerie claustrale forment un véritable panthéon lapidaire de l'aristocratie et du clergé mayençais, conservant de nombreuses dalles funéraires sculptées des XIVe au XVIIe siècles — dont l'épitaphe de la famille Gensfleisch, lignée de l'inventeur de l'imprimerie Johannes Gutenberg — ainsi que l'accès à l'ancienne salle capitulaire et à la chapelle Saint-Pancrace. À l'angle nord-est du cloître s'ouvre un vaste porche abritant une lanterne des morts et un groupe sculpté expressif de 1622 figurant l'Agonie du Christ au mont des Oliviers, débouchant sur un délicat portail extérieur de style rococo surmonté de la statuette de saint Étienne entouré d'angelots."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMVOCAA0n-wuhwZGn-_aFCy8eq2YmbzQbWBLHB_JcasTCPL-wXwOBe2zi55li8OQXwKgv8tHOANcR0WcLaej1QVs63Cusdj6mB3KkVGB3w3a29_ATnVUKjUHgdHymUgu6cyuNdQ6l-B7aVfNl2cpTbc5A=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOcF2FVlpxUhRkAJB5RvRX7yHAm5PktmuLPPIbe4qqCf3y56rwiDKLojRU3dw5ojbLBcmg06wnfWX0LStEjItZsQNew7z9FUlVxYuG589fVuValramYuQeXFls8acVMx5ty0WzVddJ-OR3kpQ_0Y2EMaA=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+   {
     id: "mayence_place_du_marche_et_fontaine",
     name: "Mayence (Mainz) - La Place du Marché (Markt) & La Fontaine du Marché (Marktbrunnen)",
     country: "Allemagne",
