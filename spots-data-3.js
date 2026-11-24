@@ -7,6 +7,112 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "spire_musee_des_techniques_speyer",
+    name: "Spire (Speyer) - Musée des Techniques de Speyer (Technik Museum Speyer)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Rhénanie-Palatinat",
+    department: "Spire",
+    subdiv: "Spire",
+    altitude: 97,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Boeing 747-230 Lufthansa sur Pylônes, Antonov An-22, Sous-Marin U9 & Navette Spatiale Buran (Raumfahrthalle)",
+    century: "XXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.31136,
+    lng: 8.44658,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPUzOi_TJnMz1-rW4pilLWujroKKFOVpv78Q8o2Rbnb1Wlgur2BEcVM8AzNgQGV4XtxiDr-4QDhLJpLWFc3vYfB6g9F65R2TxFzuSvFM4knaJrOGb13y6uMhkSTln0rF-trHe5dwsQpGZdqIQfMsaEvTQ=w1379-h919-s-no-gm?authuser=0",
+    description: "Implanté à quelques centaines de mètres au sud de la cathédrale impériale de Spire en Rhénanie-Palatinat, sur le site historique des anciens ateliers aéronautiques Pfalz-Flugzeugwerke, le Musée des techniques de Speyer (Technik Museum Speyer) déploie depuis son ouverture en 1991 l'une des collections de génie mécanique, de transports et d'exploration spatiale les plus spectaculaires d'Europe. Conçu comme le pendant rhénan du musée de Sinsheim sur plus de cent cinquante mille mètres carrés d'espaces couverts et de esplanades en plein air, cet établissement se distingue par une muséographie résolument immersive où le visiteur ne se contente pas d'observer les machines à distance, mais pénètre au cœur même des cockpits, des cabines pressurisées et des compartiments étanches.\n\nDes géants de l'aviation posés sur le tarmac aux entrailles du sous-marin U9 et aux vaisseaux de la Raumfahrthalle autour de la navette Buran, chaque zone du musée révèle la prodigieuse ingénierie humaine appliquée aux airs, aux mers et à l'espace.",
+    intro_page: "Implanté à quelques centaines de mètres au sud de la cathédrale impériale de Spire en Rhénanie-Palatinat, sur le site historique des anciens ateliers aéronautiques Pfalz-Flugzeugwerke, le Musée des techniques de Speyer (Technik Museum Speyer) déploie depuis son ouverture en 1991 l'une des collections de génie mécanique, de transports et d'exploration spatiale les plus spectaculaires d'Europe. Conçu comme le pendant rhénan du musée de Sinsheim sur plus de cent cinquante mille mètres carrés d'espaces couverts et de esplanades en plein air, cet établissement se distingue par une muséographie résolument immersive où le visiteur ne se contente pas d'observer les machines à distance, mais pénètre au cœur même des cockpits, des cabines pressurisées et des compartiments étanches.",
+    visiter: "Parcourir les esplanades et halls du Technik Museum Speyer au sud de la cathédrale pour monter à bord du Boeing 747-230, observer l'Antonov An-22, visiter le sous-marin U9 et découvrir la navette spatiale Buran dans la Raumfahrthalle.",
+    link: "",
+    sections: [
+      {
+        title: "Le Boeing 747-230 de Lufthansa hissé à vingt mètres au-dessus du site",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPUzOi_TJnMz1-rW4pilLWujroKKFOVpv78Q8o2Rbnb1Wlgur2BEcVM8AzNgQGV4XtxiDr-4QDhLJpLWFc3vYfB6g9F65R2TxFzuSvFM4knaJrOGb13y6uMhkSTln0rF-trHe5dwsQpGZdqIQfMsaEvTQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO3AiUg7H1tPiMNkijPoXGf23SgcuD-1TMqNG9FlagR6PZX-bC6AX290ZxHWw0WqexwZJdCpjXiGn8xHSOuCJRAie0Dc_QfjtDLA5lEFvB9Alxe2WaXCQBETg1HZ5JH8Uf_fERcpjhKkW0pOSm3tT5Rhw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Dès l'approche du site, le regard est happé par la silhouette monumentale de l'emblème du musée : un véritable avion long-courrier Boeing 747-230 de la compagnie Lufthansa, hissé sur des pylônes métalliques à vingt mètres au-dessus du sol dans une spectaculaire attitude de décollage incliné"
+      },
+      {
+        title: "Visite intérieure de la carlingue, du pont supérieur et de l'aile",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPeyge7y6Q7yxyBuXBTYX3GInUqocFh2eBKqczua0OaG7WvSHyn2esauUg6BH4D58W1BOiy7aXDhEqbktj6Gi1GXzP31g_6aKasXeEOMNgoowE2bJSzcjrInpZKWgEkPMcz6riqg02UGupcSTam3sV6dw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNhOMKaC4FspWGBWYLksWQPbROj4DFC1eyWPrrEuDs_M0qSh8_UA4axc4qvlwbCCt7fiUq1P6UqjRX-sKGhJszw9r9NEFBQlx5oe7Yj3tlCchQZl_hnzoIr0Dfx_n8jT9UZh-J1LvxYsgxKrPv7CFG2sg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Accessible par une passerelle métallique, ce géant des airs permet de parcourir l'intégralité de son fuselage vidé partiellement de ses cloisons pour révéler la structure interne de sa carlingue, d'accéder au pont supérieur et au poste de pilotage, et même de s'aventurer à l'air libre sur son aile gauche pour embrasser un panorama saisissant sur l'ensemble du parc et sur les tours de la cathédrale voisine."
+      },
+      {
+        title: "Géants de l'aviation sur le tarmac : Antonov An-22, Dassault Mercure et Canadair",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNc8mhe57zbiUOrBvW4apOO-B76icYsyTTzuM-IECQBzCw8TqnQ2rml4fDMTSEFL0raBvWh6871Ar5Ew5EM736c1WrkLBYrmkBresaJbFmAPbNMvkgpXFMnPusNfAuELyEGnCWWkvjJ8SXRQY7Bk8tadQ=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOw-wX_a8xDtFvJNbR7umBJu5_Jq_yZo28fPbX8pV7GoIxFBpXsi-nn09-8TqeqwIJ5962ziGYHksEF0m-dQouKa0F2KDbXcjtJDBacYm_bMb1rZBGeRlks9HfRWHCPGN1O1A7SPtsVvCR7HqCHwWCrHw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "À ses pieds sur le tarmac extérieur s'alignent d'autres colosses de l'histoire aéronautique et navale, au premier rang desquels l'impressionnant avion-cargo soviétique Antonov An-22 Antei — le plus grand appareil à hélices jamais produit en série, doté de quatre turbopropulseurs à hélices contrarotatives —, l'avion de ligne français Dassault Mercure 100, un bombardier d'eau Canadair CL-215 ainsi que plusieurs chasseurs à réaction de la guerre froide."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOdOxtOrqHHUWxDl8ZQ5t_-NnwTBFARn1jMJikCXlnHo4Z0uYwASEE-REy9anqBlfDJ9SCfv8egHUO7i-10A7JOdIUhpX_GeUHnjmE_Npk_47jWXZm9Zv1uBZVk1RN3k7L8Obq_4FNdS9zrw3H3AUl8Qg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP0vKMYUP_j3K_KRmWnBfWAwzi_zXMx600VK1zg_q1cJc_Z28vwwCgkBw3yNpviCP9LFUDjFd_0O26NVa8BpsCnlwcMx88Ra-QxbpO66WjWtlX_XsGdl_x7guVj3fC63FFtEv4heYj3gzNEMNtd53oltA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNvZSB_44_YSanWmYluHnrCmqjeLGT3pwkOY5OrYpBqsry1b6A41mEIiDWiGYHbkdzBEzY_iZqWfHiAcW9D2LagWG95rejRKRy6AwmRX36naLYc2xzzL3Vcho91CRua08GL9paKwXHyXxBd9AZnhV-RMg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPoHAPNiCaDEGvrnhFzWfNaEZr8ZMuJT-4kMe8k54_Q9ysFuB2EEhj_cDIItsaCLWmZg9x-fVNLe6TZvACjvuD56KXyJ0nFAx4bA5hBMLrWTVvzTGCDxr_EeHywJp2FSNRS7ncCmMSlu6ugAshxmBKA8g=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le sous-marin U9 de type 205 (Marine fédérale allemande, 1967)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOXeYBZVBa5M-JR6CwwqhghMriOIinhRV8asv8_yanM91P4PpQnuhYeLYMNzqepIDp7jV3RvOd7gzpuPL4OjRwo8L3royeMooGjmIRGv3g5_6qTFOHlJcaq8KULmWeO7cWaH63pZnJOfwtUp7XDDhmO-A=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNDxj1UmhN5cWe_wY2aiE8aYTFmVZ1-RX8pgGqN48r_StanqG4t5C9Kb78v9w53dQcXriIkBh2bkl8TcyMqOgKyRj2PjeEf3Atd0f4pmDYvVpKNFPm78LVHlcSzKRZRGi_539a2wKVL57R4JpFQHbliPg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le parcours en plein air réserve également une plongée saisissante dans l'univers maritime grâce à la présence du sous-marin authentique U9 de la Marine fédérale allemande, un bâtiment de type 205 mis en service en 1967 et acheminé jusqu'ici par voie fluviale."
+      },
+      {
+        title: "L'exiguïté intérieure de la coque et les équipements du sous-marin",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPeFQhB28Db5JGfpDHri4jVzIw2yKG4Z06jvXjfLSSqYyya6-71DMwzGul4oQ5-wmTNFiJxzYfZzdaXq7y2V4qd5_C--027BHB_QOxdKhtDGJ-fXTRejQ11hWjZldyL3D4rXHDATPl1pOETewQytcEyQA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNuvvLficH505XtgKcotPrM1Cg7rZs5oXad0q5gyolk03aGzkReuv0cnFe58nDwZgvghnV4zeAOpq8XOLn-8RljoGGYFQaTgnsAN8OKbrIu3T63kcL20OwRj2DsjmrFS370kru2tQz2sC8d6z8XB4Ta5A=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "La visite intérieure de sa coque étroite révèle l'exiguïté extrême de la vie à bord au milieu d'un entrelacs de vannes, de cadrans manométriques, de tubes lance-torpilles, de couchettes superposées et de moteurs diesel-électriques."
+      },
+      {
+        title: "La Raumfahrthalle et la navette spatiale soviétique Buran (OK-GLI)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczONbkiUaVuHo3ssgaCurIP4K32hnUk6Mz2Eq2LD1Bxc2nzA-2TrRkj_4IScR3Ds6BcZSSxGgn3PyTA6R9Ry5xdM4hGyIkM15FkTm7OHujY_ib1MtICI6WKsnbtd1vGfpv86p7GgajPoQTebw15F1hf0Rw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPg3sojAgWoanjmfJbjl2j70ytZHUuLihLLRAXkrYW-COe5a6rucNO3XRRU_4ZIbNu0y5zj-oHNkg_fAOy7dsSVSlpSykXZfXCN3-_4qBWXDTWVln25QmUPlnSpX4OQWPQSYeLy0_IpvTOghtvkdRlDjg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Au cœur de la monumentale Halle spatiale (Raumfahrthalle) se déploie l'exposition « Apollo and Beyond », considérée comme la plus vaste collection permanente d'Europe consacrée à la conquête spatiale. La pièce maîtresse de ce vaisseau est l'authentique navette spatiale soviétique Buran (prototype d'essai atmosphérique OK-GLI équipé de quatre turboréacteurs), acheminée en 2008 au terme d'un périple spectaculaire par voie maritime depuis Bahreïn puis sur une barge remontant le cours du Rhin."
+      },
+      {
+        title: "Soute, tuiles thermiques, poste de pilotage et mémoire des programmes spatiaux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM9Au_XPE7D2QLFOgMsitGEwuFzbEYyaPML5WrsFo2ojOmJSvmxToFvAuws5vHmC-hbllqpDGLMv4P6JWNH4_fqNVsG6tNMKYoLn9QES-n03xjL1mO_-BYpQEAmyrI2dO-F0930ukLBN3G81tDXcOMY4g=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMIfewxs-wrMwMDgjh56VD9DkzeK8PYy1MoCxj-AyijPs1gtz1LBZ8ef9rAH97Q0FBjQ7G0jwlT4RqWHnZwybWmkKPFaqNTyWhHmVaNn34iitUFDRHd93DJl-CmJkQj_fuv-YSQZexvm-k-5RjC2bRCWg=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Dressée dans toute son envergure sous la verrière, la navette dévoile sa soute ouverte, ses tuiles de protection thermique et son poste de pilotage, entourée d'une véritable pierre lunaire rapportée par la mission Apollo 15, de la capsule de retour habitée Soyouz TM-19, de scaphandres spatiaux originaux ayant servi à bord de la station Mir, de lanceurs et de maquettes à l'échelle réelle des programmes Mercury, Gemini et Apollo."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczP4YXsoZlHmZiXZMY6DH0DT9LR2bCJZU0Qc_uzivzSUDTKaxj1MMJ6MKGRlUVO3STisGoqdXN-ec3vTd3aFyVla24BLAbE5CI61cMrMEh458tSLOEHg7wkng7N-QzrpgG6aYx47KwSKzFgLvh8swJn1DA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNhXPNu7j0H3jBOaHbNNco1FbTrMa3Mv7tACGzFkln6ccuALG_4I8RHhZv4BWeN5jgMhb1HDIuI6syIqLHTah_8w6UYx0oi1CgrQ8m-qcaD8fkHzUCEKiwDTwH5QdQGuG-A_KN-cmrcUfbyfRWWaNoEsw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+   {
     id: "spire_cathedrale_imperiale_kaiserdom",
     name: "Spire (Speyer) - Cathédrale Impériale Notre-Dame-de-l'Assomption-et-Saint-Étienne (Kaiserdom zu Speyer - UNESCO)",
     country: "Allemagne",
