@@ -7,6 +7,137 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "rothenburg_ob_der_tauber_stadtmauer_nord",
+    name: "Rothenburg ob der Tauber - Les Remparts Nord & Le Chemin de Ronde (Stadtmauer Nord)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Rothenburg ob der Tauber",
+    altitude: 420,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Enceinte Fortifiée Médiévale de Ville Libre d'Empire (XIVe Siècle), Chemin de Ronde Couvert en Bois & Tours de Guet",
+    century: "XIVe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.38017,
+    lng: 10.17751,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOMD2jNHxidj56tkdDsBa3z3UeRzORrswONwkHIpHwmnAEbYTwlKS6YiCJn59mALXm8U7epdXGZjqeR3Cm-kzZ4XZ6xp80kFrZBvDHBCVNWOfrasSKLkCGC_H4FUHKFIr4r6mUjr1vmG8O8P-uKumdh0w=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNMzG7qX0KLxZouKoQa-BAkc2pH5U8zTB3gKGUaI1EEUmFw7UXMhbl_58sGccZrNrlxUQbrjwbcIkFqvydg9V3AdqKDSD9vldZ2s1Hkl0m4arbEWeTLwx6UEiVkr5pGTYCIRZFeWDtx99eSTifHaLPEGQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Ceinturant à quatre cent vingt mètres d'altitude la pointe septentrionale de l'éperon rocheux qui domine les méandres encaissés de la vallée de la Tauber en Moyenne-Franconie, les remparts nord (Stadtmauer Nord) de Rothenburg ob der Tauber constituent l'un des ensembles fortifiés médiévaux les mieux conservés et les plus évocateurs d'Europe. Édifiée au XIVe siècle à l'apogée économique et politique de l'ancienne ville libre d'Empire, cette muraille en pierre calcaire grise est surmontée d'un long chemin de ronde couvert d'une charpente en bois et de tuiles rouges patinées, percé d'archères et jalonné de tours carrées ou polygonales assurant jadis la surveillance des abords septentrionaux et orientaux de la cité.\n\nParcourir à pied cette galerie aérienne en bois — restaurée grâce aux dons de mécènes du monde entier dont les noms gravés ornent les pierres du mur — offre une immersion saisissante dans l'architecture militaire du Moyen Âge : d'un côté se dévoilent les jardins potagers, les vergers et les toitures escarpées des demeures anciennes de la vieille ville, tandis que de l'autre le regard embrasse la campagne vallonnée de Franconie et les tours fortifiées reliant la porte Klingentor à la porte Galgentor.",
+    visiter: "Gravir les escaliers en pierre menant au chemin de ronde couvert en bois des remparts nord de Rothenburg ob der Tauber (Stadtmauer Nord) pour longer l'enceinte médiévale et admirer la vue plongeante sur les toits de tuiles rouges et les tours de défense.",
+    link: ""
+  },
+  {
+    id: "rothenburg_ob_der_tauber_vieille_ville",
+    name: "Rothenburg ob der Tauber - La Vieille Ville Médiévale & Renaissance (Route Romantique)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Rothenburg ob der Tauber",
+    altitude: 433,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Ancienne Ville Libre d'Empire (XIIIe-XVIIe Siècles), Maisons à Colombages, Pignons à Gradins, Enseignes Forgées & Marktplatz",
+    century: "XVIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.37717,
+    lng: 10.17893,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO3D0fuBrQM6iqG4SaGOud3FafdaVAw4-rNCVH_dKU2huTj7EwYW7hGrHlJS2YcL8t9XXoi08n9SZCgeOemJ9Cz-y3j3x58udFE_Z4144zbmZzmhGrh780SkLA_Pb6o3g3VdI6TmC3MTlr6oNHP6C8XIg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN9jobfMulPjDl2vUumfti4nXhUcrANC0aoGBmiv7sDb_h047jTfRjN4F_gQxEABtWIveBRPi4nE89Ay7NBVNLnkljMxQUhxDi7m-Jy8ns9E6oXZeSSjjtxf4V_rCluu_XHQha0UN7BYCy7hi0vdl9KIw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNUlkcpTXx59Tx8FvZTjNmtAZmvQwWe0IGW6gaAPeLzRuwHuBRecikUx-dnM5WiZdX292CZMhdg_ng3rjRcjl_Sd2KLM3BujAaXHfkMXefHqzW7nt7tKGWxYkqyOhZyanRB1gBqlfOWX4oloyAhDn7tkA=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNpX0oDUbGe9R9T992uysVqXnCePUhNO-EvuDautHk0oQPfVQu6v_TpC506hd4dj1lQ2j-C-HEjxjKeD9fWj1gkR0qvQErmxvU0cyY2RksNWLRA7i8ecRf9bUeWAfKuT_JbalBVTPuxIvgDAVVLdcj-qA=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOrBHCkUqK5tV19GbkvgrXcZUJmktTA1SPSZeBLYWsSXmytDRP7sSyuz65eP7DU20QDEdaST-GrFQg8Mw9KT-VXMAF4DdD7Q0lk63d9nOLdo6lt6ITBnu5zd-yLNrW3rnbwEsiIQ1s893I9xMyshaCBUw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOn945YSL0IVR9WA-6GmcsUVcnzMYIR5Fin5qsXHR4tDluV6S7Be7q5SDyU2nfw900RLT25eyvflXtRI7RmRXGO-qXL_4YYILlc6G1SGNfvzWqefOqrOMHAHI_sC3prDtsTDmJnljvkslkm0mBmASWNUw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczORWPK_0yjFbWgRH18pA6m2-5L6yw0NsVhlaOjtOBKCQ2ow3TZuVfoQUPo0aWdSNkRJj72QBHAjqnWQezN4sRlJdExH_xWyzS_0RpfH10f1b86kuFNtBHp2kQZQ-oX1pfLSV6Exv0uPDDJzQMuGbAEl8g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Perchée à quatre cent trente-trois mètres d'altitude sur un promontoire escarpé dominant la vallée sinueuse de la rivière Tauber en Moyenne-Franconie, la vieille ville de Rothenburg ob der Tauber incarne l'image archétypale et féerique de la cité médiévale et Renaissance allemande le long de la célèbre Route Romantique. Ayant obtenu dès 1274 le statut envié de ville libre d'Empire relevant directement de l'empereur, Rothenburg connut un âge d'or architectural du XIVe au début du XVIIe siècle avant d'être figée dans le temps par les ravages de la guerre de Trente Ans, préservant ainsi miraculeusement son urbanisme ancien jusqu'à nos jours.\n\nAutour de la Marktplatz — dominée par le somptueux Hôtel de Ville associant un corps gothique blanc à flèche élancée et une majestueuse façade Renaissance à arcades et pignons volutes, ainsi que par la taverne des conseillers (Ratstrinkstube) — rayonne un dédale de ruelles pavées bordées de maisons à colombages colorées, de demeures patriciennes en pierre à encorbellements, de fontaines sculptées et d'enseignes en fer forgé doré d'une finesse artisanale exceptionnelle.",
+    visiter: "Flâner à pied dans les ruelles pavées de la vieille ville de Rothenburg ob der Tauber autour de la Marktplatz, de la Herrngasse et de la Schmiedgasse pour admirer l'Hôtel de Ville gothique et Renaissance, les maisons à colombages et les enseignes en fer forgé.",
+    link: ""
+  },
+  {
+    id: "rothenburg_ob_der_tauber_ploenlein",
+    name: "Rothenburg ob der Tauber - Le Carrefour Pittoresque du Plönlein & Les Tours Siebers et Kobolzeller",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Rothenburg ob der Tauber",
+    altitude: 412,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Carrefour Médiéval Emblématique sur Deux Niveaux (XIVe Siècle), Maison à Colombages Jaune, Fontaine & Tours Fortifiées",
+    century: "XIVe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.37444,
+    lng: 10.18009,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOyrmIf6zIBvaB5Kh29TXDTXqGreJym4GHgqmVMcnAfiE9kCcjdipW2dWAAyohXvXLUeYt2VVhJSC68sJEhNE4ej0NBfOSB01s7jzqzm8XS6QzcQIEuleYmpN1-pYYmreH_PU4uCRkpglr9m07xwlB8vw=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczONqTQ_UsAymej-4KjVkJfKrl_QW4uEgM-M-KJhQjVUvcfYVi00Fa4-oN1Fs-6Gs2JIFUgyap61_N5kYj3sFNMtSCOayHKkj8RQ304cLk4dbu6HasRZlfglDwoiMcE4YPSSSKQoujOAsQuBlcfoTtXnHg=w1378-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Situé à quatre cent douze mètres d'altitude à l'extrémité méridionale de la vieille ville de Rothenburg ob der Tauber, au point de bifurcation de la Schmiedgasse vers la vallée de la Tauber et vers le quartier du Spital, le Plönlein (« la petite place ») compose le tableau architectural le plus célèbre et photographié de toute l'Allemagne romantique. Cette scénographie urbaine spontanémente parfaite réunit en un seul coup d'œil une étroite et haute maison à colombages ocre jaune coiffée d'un toit pentu en bâtière, précédée d'une petite fontaine en pierre fleurie de géraniums rouges et encadrée de part et d'autre par deux voies pavées à dénivellation différente.\n\nÀ gauche, la rue haute franchit l'arcade médiévale de la tour Siebers (Siebersturm, XIVe siècle), vestige de la première enceinte urbaine, tandis qu'à droite une ruelle en pente raide plonge vers la porte basse du Kobolzeller Tor (1360) ouvrant sur la vallée verdoyante. Ce jeu de plans étagés, de toitures de tuiles anciennes et de tours fortifiées incarne à la perfection la magie intemporelle de Rothenburg.",
+    visiter: "Descendre la Schmiedgasse jusqu'au carrefour emblématique du Plönlein à Rothenburg ob der Tauber pour admirer la maison à colombages jaune, sa petite fontaine et la double perspective encadrée par les tours médiévales Siebersturm et Kobolzeller Tor.",
+    link: ""
+  },
+  {
+    id: "rothenburg_ob_der_tauber_eglise_saint_wolfgang",
+    name: "Rothenburg ob der Tauber - L'Église Fortifiée Saint-Wolfgang (St. Wolfgang am Klingentor)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Rothenburg ob der Tauber",
+    altitude: 417,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Église-Forteresse Gothique Tardif Intégrée aux Remparts Nord (1475-1493), Casemates Défensives & Retables Sculptés",
+    century: "XVe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 49.38062,
+    lng: 10.17616,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPAX2KNPy27OhR9_h8sLT4yKW8LVKE68cHM1ByGq2u6nl5XwFD2muwkziuL8AMHz6rf_omysOpes7-EBML6EvPgaMyX869o9R9EckHFolhfz9OMWWzqyowLn3r2sMY-HB8iypOKFSNpecAKE4aq6DTD4w=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dressée à quatre cent dix-sept mètres d'altitude à l'angle nord-ouest des remparts de Rothenburg ob der Tauber, directement adossée à la puissante tour-porte fortifiée du Klingentor au-dessus du ravin escarpé de la vallée de la Tauber, l'église Saint-Wolfgang (St. Wolfgang) constitue un exemple unique en Europe d'église-forteresse urbaine (Wehrkirche) intégrée au système défensif d'une cité. Édifiée entre 1475 et 1493 à l'initiative de la confrérie des bergers de Franconie en l'honneur de saint Wolfgang, saint patron des pâtres et des troupeaux, cette église de style gothique tardif fut conçue dès l'origine comme un bastion militaire avancé protégeant le flanc nord vulnérable de la ville.\n\nTandis que ses hautes fenêtres gothiques à remplages s'ouvrent uniquement du côté protégé de la ville, son mur extérieur donnant sur le fossé était percé de meurtrières et relié à des casemates souterraines permettant aux défenseurs d'accéder aux créneaux. À l'intérieur, sa nef lumineuse couverte d'une élégante voûte réticulée abrite de précieux retables sculptés de la fin du Moyen Âge, dont le maître-autel dédié à saint Wolfgang.",
+    visiter: "Rejoindre l'extrémité nord-ouest des remparts près du Klingentor à Rothenburg ob der Tauber pour découvrir la singulière église fortifiée Saint-Wolfgang, observer son intégration dans l'enceinte médiévale et admirer ses retables gothiques.",
+    link: ""
+  },
+   {
     id: "wuerzburg_collegiale_de_neumuenster",
     name: "Wurtzbourg (Würzburg) - Collégiale de Neumünster (Stift Neumünster - Baroque Franconien)",
     country: "Allemagne",
