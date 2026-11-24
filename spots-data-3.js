@@ -7,6 +7,121 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "wuerzburg_collegiale_de_neumuenster",
+    name: "Wurtzbourg (Würzburg) - Collégiale de Neumünster (Stift Neumünster - Baroque Franconien)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Basse-Franconie",
+    subdiv: "Wurtzbourg",
+    altitude: 181,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Collégiale Romane Fondée au XIe Siècle, Coupole Baroque en Grès Rouge (1711-1716) & Fresques Franconiennes",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 49.79399,
+    lng: 9.93135,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO6ibv4mW3CXQuf75_tauDLrnB6SqTCBOp8LmuUvaG0rLq1yZbQWKWeSAaiZjrwK4kjut6kCa1-_OcXzED18WUH-BtLgt5ZU4tH-HSEZPbU6mxdHKOVSug1NAjsYdgPvgtLzt_EeG4pXUHyKkEqYDvHNw=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP_6ja1Dbbm-ec40K3nMoggjCYNz9jWB2MKe4mDC_V8SxR1mRVBZ59VInDhp8lcSMBO8JwXIlsgyM00929IYuUMEbF-ReZDyc9gCwjcYcbfov0x6R2Ju7Ba16LCET3WGFzFZoiaskWB1fM9auJZx8NvmQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'intérieur de la nef se distingue par la blancheur immaculée de ses parois, rehaussée par des décors de stuc d'une grande finesse qui encadrent les arcades et les voûtes. Le plafond est orné d'un cycle de fresques baroques illustrant la vie et la glorification des saints patrons de la ville, créant une perspective ascendante vers le ciel. La nef est rythmée par une série de tableaux monumentaux placés au-dessus des grandes arcades, une disposition qui transforme le parcours du fidèle en une galerie d'art sacré invitant à la contemplation.\n\nL'un des éléments les plus remarquables de cette nef est la transition vers le chœur, marquée par un Christ en croix suspendu sous l'arc triomphal, qui semble flotter dans l'espace. Cette mise en scène, typique de la sensibilité baroque, focalise l'attention sur l'autel principal tout en préservant l'ouverture et la clarté du volume basilical. Les piliers sont ornés de chapiteaux corinthiens simplifiés et de statues de saints, dont certaines œuvres attribuées à l'école de Tilman Riemenschneider, intégrant ainsi la sculpture de la Renaissance à l'écrin baroque.\n\nBien que l'édifice ait subi d'importants dommages lors de la Seconde Guerre mondiale, notamment l'effondrement des voûtes, la nef a été restaurée avec une fidélité exemplaire. Le choix de conserver une luminosité naturelle abondante met en relief le contraste entre la rigueur de la structure romane du XIe siècle et la légèreté décorative du XVIIIe siècle. Aujourd'hui, la nef de Neumünster demeure l'un des espaces les plus harmonieux de Wurtzbourg, offrant un havre de paix où le patrimoine médiéval et la splendeur des Lumières se rejoignent dans une même unité spirituelle."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN3iyMTsNkGBFqb355-AY4kXYxuesZWKGzrlqVhR5BaIV0ZVks0cJ35NAzHbqYBcBuK6Z1kWqWZ4p9NI5ak33O9WVl5Sgbtw79DevtrnZKGD5ZeZxgK2e_qHa6bqs7Je5lLn2nhQEnTueN_IS6CctwjMA=w1379-h919-s-no-gm?authuser=0",
+        caption: "Cette fresque monumentale, qui orne la coupole de la collégiale de Neumünster à Wurtzbourg, constitue l'un des sommets de l'art décoratif du XVIIIe siècle en Franconie. Réalisée lors de la transformation baroque de l'édifice, elle couronne l'espace sacré d'une vision céleste en trompe-l'œil, caractéristique de la volonté de l'époque d'effacer les limites physiques de l'architecture pour ouvrir le regard vers l'infini divin. L'œuvre s'organise autour d'un lanternon central octogonal qui laisse pénétrer une lumière zénithale, accentuant l'effet de profondeur et de mouvement ascensionnel des nuées représentées.\n\nLa composition déploie une narration complexe centrée sur la glorification des saints patrons de Wurtzbourg et l'histoire du salut. Les personnages, drapés dans des étoffes aux couleurs vives et aux mouvements dynamiques, semblent flotter au milieu d'architectures feintes et de cieux tourmentés. L'artiste utilise une palette chromatique riche, où les ocres chauds et les rouges profonds répondent aux bleus éthérés, créant une harmonie visuelle qui unifie la structure octogonale de la voûte. Chaque segment de la coupole raconte un épisode de la dévotion locale, liant ainsi le destin de la cité au triomphe de la foi catholique.\n\nSur le plan technique, la fresque démontre une maîtrise parfaite de la perspective \"di sotto in su\" (vue de bas en haut), indispensable pour compenser la courbure du plafond et garantir la cohérence des proportions depuis le sol de la nef. Les jeux d'ombre et de lumière sur les corps et les nuages confèrent une plasticité quasi sculpturale à la peinture, qui semble déborder des cadres de stuc blanc qui la bordent. Cette œuvre monumentale ne se contente pas d'embellir la collégiale ; elle transforme la voûte en un véritable manifeste théologique visuel, invitant le visiteur à une immersion totale dans l'univers baroque du XVIIIe siècle."
+      }
+    ],
+    description: "Élevée à cent quatre-vingt-un mètres d'altitude au nord de la cathédrale Saint-Kilian, à l'emplacement où reposèrent les reliques des saints apôtres de la Franconie — Kilian, Colman et Totnan — avant leur translation vers la cathédrale, la collégiale de Neumünster (Stift Neumünster) associe une structure basilicale romane du XIe siècle à l'un des plus élégants décors baroques de Wurtzbourg en Basse-Franconie. Reconstruite à l'époque baroque entre 1711 et 1716, elle se signale extérieurement par sa monumentale coupole en grès rouge surmontée d'un lanternon qui rythme l'horizon urbain de la vieille ville.\n\nÀ l'intérieur, les parois blanches animées de stucs raffinés, les fresques célestes en perspective « di sotto in su », les tableaux monumentaux au-dessus des grandes arcades, les sculptures de l'école de Tilman Riemenschneider et le Christ en croix suspendu sous l'arc triomphal composent un espace lumineux et apaisé, enrichi au sud par le cloître roman abritant le tombeau du poète et minnesinger Walther von der Vogelweide.",
+    visiter: "Découvrir la collégiale de Neumünster au nord de la cathédrale de Wurtzbourg pour admirer sa coupole baroque en grès rouge, la clarté de sa nef ornée de stucs et de fresques, ses sculptures liées à Tilman Riemenschneider et son cloître roman.",
+    link: ""
+  },
+  {
+    id: "wuerzburg_maison_du_faucon_falkenhaus",
+    name: "Wurtzbourg (Würzburg) - La Maison du Faucon (Falkenhaus - Façade Rococo sur la Marktplatz)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Basse-Franconie",
+    subdiv: "Wurtzbourg",
+    altitude: 181,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Façade Rococo Éclatante Reconstituée (1751), Stucs Dorés & Verts & Cœur Historique de la Marktplatz de Wurtzbourg",
+    century: "XVIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.79496,
+    lng: 9.93021,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMRD8-nPt5oP9FMC-CU3VLSJoWG6RuvfUc2wLTzcTB69U9EJwEiJW_KeTszMDJsyTdfCFc0qYtO8KEfVaoiomnhwR3YwA5vGFlWGZwRioMLmWJcQAJCjOapY-dC_3PKMMC-JgOAPRuFpVTpGJJ4foncqQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dressée à cent quatre-vingt-un mètres d'altitude sur la Marktplatz au cœur de la vieille ville de Wurtzbourg en Basse-Franconie, juste en face de la chapelle gothique Sainte-Marie (Marienkapelle), la Maison du Faucon (Falkenhaus) offre l'une des façades rococo les plus joyeuses et reconnaissables de toute la Franconie. Érigée à l'origine comme auberge (« Zum Falcken ») avant d'être dotée en 1751 d'une exubérante façade rococo par l'architecte Johann Georg Seitz et le stucateur Johann Michael Merck, cette demeure bourgeoise fut fidèlement reconstruite en 1951 après sa destruction lors du bombardement du 16 mars 1945.\n\nSa façade ondulante et lumineuse se distingue par l'éclat de son enduit vert tendre rehaussé de guirlandes, de rocailles, de frontons chantournés et d'encadrements de fenêtres en stuc blanc et doré d'une grande fraîcheur décorative. Véritable point d'ancrage visuel de la place du marché animée par les étals et les terrasses, le Falkenhaus abrite aujourd'hui l'office de tourisme et la bibliothèque municipale, perpétuant la vitalité civique du centre de Wurtzbourg.",
+    visiter: "S'arrêter sur la Marktplatz au centre de Wurtzbourg face à la Marienkapelle pour admirer la façade rococo verte, blanche et dorée du Falkenhaus et l'animation de la place historique.",
+    link: ""
+  },
+  {
+    id: "wuerzburg_marienkapelle",
+    name: "Wurtzbourg (Würzburg) - La Chapelle Sainte-Marie (Marienkapelle - Gothique Tardif & Marktplatz)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Basse-Franconie",
+    subdiv: "Wurtzbourg",
+    altitude: 181,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Église-Halle Gothique en Grès Rouge (1377-1479), Tour Néogothique de 95 m & Sculptures de Tilman Riemenschneider",
+    century: "XVe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 49.79487,
+    lng: 9.92944,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP1ZbA8A8dKEgL7Z1biIQkFwiji2z6CTECy4GofIRb1EVA7d9KKBJA0YE6foPSp2v0gT8goiWvj0sFaPYYAFwEPDm8AEoEqIohoz6jIGLScin8ZJk-1LlZTeNRCYFy7_oLc3y3R__qQkOC3FYbQ4mGWBg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN4l2qaGocYeO5W7myBswZCIo9ETsvwYTkNC9Ql0fiGX2xo3dCwtIibpKWBjX6Qd6TbSL1hsEh3xvd5d5xxgys2JdNAjYIr0qfqdo7khvP0UCsb6e4xS2HIC2SAbeJ0-BSzefWEZpAQLkKAjxj_yjVniA=w1379-h919-s-no-gm?authuser=0",
+        caption: "L'intérieur de la nef se caractérise par une élégance structurelle où la verticalité est reine. Des piliers fasciculés sans chapiteaux, composés de fines colonnettes, s'élancent d'un seul jet du sol jusqu'aux voûtes. Les nervures des voûtes d'ogives dessinent au plafond un réseau complexe et gracieux qui unifie les trois vaisseaux de l'église-halle. La bichromie entre le gris et le rouge des éléments en pierre et le blanc des voûtains accentue la clarté et la légèreté de l'ensemble, créant un espace qui semble aspiré vers le haut.\n\nLe chœur, visible dans le prolongement direct de la nef, constitue le point focal spirituel et artistique de l'édifice. Il est baigné par la lumière colorée des hautes verrières médiévales et contemporaines qui mettent en valeur le retable de l'autel majeur. La nef elle-même servait de cadre à de nombreuses sépultures de nobles et de bourgeois fortunés, comme en témoignent les nombreuses dalles funéraires et épitaphes adossées aux piliers et aux murs, formant une chronique de pierre de la société wurtzbourgeoise de la fin du Moyen Âge et de la Renaissance."
+      }
+    ],
+    description: "Dressée à cent quatre-vingt-un mètres d'altitude sur le côté nord de la Marktplatz au cœur de Wurtzbourg en Basse-Franconie, la Chapelle Sainte-Marie (Marienkapelle) compose avec le Falkenhaus l'ensemble architectural le plus saisissant de la place du marché. Édifiée à partir de 1377 sur l'emplacement d'une ancienne synagogue médiévale et achevée pour l'essentiel au XVe siècle avant de recevoir sa haute tour occidentale en grès rouge de quatre-vingt-quinze mètres couronnée d'une flèche ajourée au XIXe siècle, cette église-halle gothique fut érigée à l'initiative de la bourgeoisie de la ville en contrepoint de la cathédrale épiscopale.\n\nÀ l'extérieur, ses portails et reliefs en grès rouge — notamment la célèbre sculpture d'Adam et Ève attribuée à Tilman Riemenschneider — précèdent une vaste nef à trois vaisseaux d'égale hauteur où de hauts piliers fasciculés sans chapiteaux s'élancent jusqu'aux voûtes d'ogives. Rythmée par la bichromie de la pierre et des voûtains blancs, la nef abrite de nombreuses dalles funéraires de nobles et de bourgeois et s'ouvre vers un chœur lumineux.",
+    visiter: "Découvrir la Marienkapelle sur la Marktplatz de Wurtzbourg pour admirer son grès rouge, sa haute tour néogothique, les reliefs sculptés de Tilman Riemenschneider et l'élan vertical de sa nef-halle gothique.",
+    link: ""
+  },
+  {
+    id: "wuerzburg_vieux_pont_sur_le_main",
+    name: "Wurtzbourg (Würzburg) - Le Vieux Pont sur le Main (Alte Mainbrücke & Statues des Saints)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Basse-Franconie",
+    subdiv: "Wurtzbourg",
+    altitude: 170,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Plus Ancien Pont sur le Main Conservé (Fondé en 1133, Reconstruit au XVe-XVIIIe Siècles), Statues Baroques & Forteresse du Marienberg",
+    century: "XVe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.79308,
+    lng: 9.92614,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOihAi4DRPvYWHFZwlkYRU5VL2LYqUMjV3UdpiE0j5pydjIGFmFRH4HYrCk00bliNvsVj77_2d0WLxI4Gci2dwgyI57-ueLIslj599j9gF73sW4HUH_pubc28LzY9uZJ-FdxY8XFChAUT3kqKHzhCRBnQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNYK6Rjk67PHrMDLmZrig1ix_SgY9R9f7jk2AHrspty-a2LPxGIsqgsX51kSPlNl_I4AEhPKUPE6UvwZID2EyKdbuVvDO_o8D_dKzcEtljoLm1X1WAilS-WemSOE33wep_QbpZlPIrxNRaPV0xYwuRphg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Enjambant à cent soixante-dix mètres d'altitude les eaux du Main entre la vieille ville épiscopale de Wurtzbourg et le coteau viticole dominé par la forteresse du Marienberg en Basse-Franconie, le Vieux Pont (Alte Mainbrücke) constitue le plus ancien pont conservé sur le fleuve et l'un des lieux les plus emblématiques et vivants de la cité. Établi dès 1133 avant d'être rebâti en pierre entre 1473 et 1608 puis restauré et enrichi au XVIIIe siècle, l'ouvrage déploie ses arches massives en grès ponctuées de piles triangulaires brise-glace.\n\nÀ partir de 1725-1730, le tablier fut bordé de douze hautes statues baroques en grès sculptées par des maîtres franconiens — représentant des saints, empereurs et figures tutélaires liés à l'histoire de Wurtzbourg et de la Franconie, dont saint Kilian, saint Burkard, saint Joseph, Charlemagne et Pépin le Bref. Depuis le pont et ses berges, le regard embrasse un panorama majestueux réunissant le courant du Main, les vignobles du Stein, la silhouette fortifiée du Marienberg et les clochers de la vieille ville.",
+    visiter: "Parcourir à pied l'Alte Mainbrücke sur le fleuve à Wurtzbourg pour admirer les statues baroques des saints et souverains jalonnant le tablier et contempler la vue sur la forteresse du Marienberg, les vignobles et les clochers de la ville.",
+    link: ""
+  },
+   {
     id: "wuerzburg_cathedrale_saint_kilian",
     name: "Wurtzbourg (Würzburg) - Cathédrale Saint-Kilian (Dom St. Kilian - Basilique Romane & Cloître Gothique)",
     country: "Allemagne",
