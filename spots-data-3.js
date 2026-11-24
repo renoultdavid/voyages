@@ -7,6 +7,119 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "maulbronn_monastere_cistercien_kloster_maulbronn",
+    name: "Maulbronn - Monastère Cistercien de Maulbronn (Kloster Maulbronn - Patrimoine Mondial de l'UNESCO)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bade-Wurtemberg",
+    department: "Enzkreis",
+    subdiv: "Maulbronn",
+    altitude: 260,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Ensemble Monastique Cistercien Médiéval le Mieux Préservé au Nord des Alpes (Fondé en 1147) - Patrimoine Mondial UNESCO",
+    century: "XIIe siècle",
+    category: "religieux",
+    is_unesco: true,
+    counts: { unesco: 1 },
+    lat: 49.00125,
+    lng: 8.81276,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOHAsX23y4XDSnUr0qM7xemL_dzT4QScsEvD2EUEwCyk_mwq3_hF88YJ2sq-OcHtRPh6bmdl_q1aN_q9PkmTmUhQ4BtJCW8lVgQdIPekZmbBQ6hWNcrG-NpGhMl91gnWs5ZcCqN7s0DZ35WhQZLXaMEEg=w1379-h919-s-no-gm?authuser=0",
+    description: "Blotti au creux d'un vallon boisé et verdoyant en bordure des collines du Stromberg, entre Karlsruhe et Stuttgart dans le Bade-Wurtemberg, le monastère cistercien de Maulbronn (Kloster Maulbronn), inscrit au patrimoine mondial de l'UNESCO depuis 1993, s'impose comme l'ensemble monastique médiéval le mieux préservé au nord des Alpes. Fondée en 1147 par douze moines venus de l'abbaye alsacienne de Neubourg sur des terres offertes par le noble Walter von Lomersheim et sous la protection de l'évêque Günther de Spire, cette abbaye fille de Morimond connut un rayonnement spirituel, intellectuel et économique considérable au Moyen Âge. Après l'introduction de la Réforme dans le duché de Wurtemberg en 1556, le duc Christophe transforma l'établissement en une célèbre école conventuelle protestante (Klosterschule), qui accueillit sur ses bancs des figures illustres telles que l'astronome Johannes Kepler, le poète Friedrich Hölderlin et l'écrivain Hermann Hesse — lequel immortalisa la géométrie silencieuse de ces pierres dans ses romans L'Ornière et Narcisse et Goldmund.",
+    intro_page: "Blotti au creux d'un vallon boisé et verdoyant en bordure des collines du Stromberg, entre Karlsruhe et Stuttgart dans le Bade-Wurtemberg, le monastère cistercien de Maulbronn (Kloster Maulbronn), inscrit au patrimoine mondial de l'UNESCO depuis 1993, s'impose comme l'ensemble monastique médiéval le mieux préservé au nord des Alpes. Fondée en 1147 par douze moines venus de l'abbaye alsacienne de Neubourg sur des terres offertes par le noble Walter von Lomersheim et sous la protection de l'évêque Günther de Spire, cette abbaye fille de Morimond connut un rayonnement spirituel, intellectuel et économique considérable au Moyen Âge. Après l'introduction de la Réforme dans le duché de Wurtemberg en 1556, le duc Christophe transforma l'établissement en une célèbre école conventuelle protestante (Klosterschule), qui accueillit sur ses bancs des figures illustres telles que l'astronome Johannes Kepler, le poète Friedrich Hölderlin et l'écrivain Hermann Hesse — lequel immortalisa la géométrie silencieuse de ces pierres dans ses romans L'Ornière et Narcisse et Goldmund.",
+    visiter: "Parcourir l'enclos sacré et les bâtiments conventuels du monastère cistercien de Maulbronn (UNESCO) pour découvrir l'église abbatiale romane et gothique, le cloître, le pavillon de la fontaine, les réfectoires des convers et des moines, la salle capitulaire et l'ancien cellier.",
+    link: "",
+    sections: [
+      {
+        title: "Architecture extérieure cistercienne et basilique romane en grès du Stromberg",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOHAsX23y4XDSnUr0qM7xemL_dzT4QScsEvD2EUEwCyk_mwq3_hF88YJ2sq-OcHtRPh6bmdl_q1aN_q9PkmTmUhQ4BtJCW8lVgQdIPekZmbBQ6hWNcrG-NpGhMl91gnWs5ZcCqN7s0DZ35WhQZLXaMEEg=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPizcoP7N1ZLRZL-cFHIXDJ9YvB-qsqw8kUspI_El-CU7n7_4lLQCkUcSTEbEmXz1hIUrlKuJujPbOiAfpzlSg-TZyNTj3aWyiqapg8wV44rGHoCvGvique9TTeh41pr6uxkRNzUQUuUJ0L2KJ-vKuhcA=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Vues de l'extérieur au cœur de l'enclos sacré, l'église abbatiale et les bâtiments claustraux du monastère de Maulbronn affirment avec une pureté remarquable l'idéal d'austérité et d'harmonie géométrique de l'ordre cistercien. Édifié en pierre de grès clair et ocré du Stromberg, le corps principal de la basilique romane du XIIe siècle déploie des élévations sobres et massives, rythmées par des lésènes, de petites baies en plein cintre et un chevet plat caractéristique, dépourvu de clocher monumental en pierre au profit d'un simple clocheton d'ardoise à la croisée du transept."
+      },
+      {
+        title: "L'ancien cellier roman (Cellarium) et le lapidarium",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO9jQCm0PGY7JoWOR8ftoe0d82wXRqmmlo5oq--_fIm9Mx31d0vxp9NHZQ3xwDqLPgPHk2esfE_hs-KnfZ2DVV5BE3w7dfqtr_S9OhNgpM2HQX6RUSzzcIWCV9Lj3y9UqO2xHlB9EYlpL1dhNqMZFL-yA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNNTrRn9sWwi41ATsYV4bqZrByrTUoFYlaCWS0Rkf7b7alm3fqEGS27c70Gnr2IR_eK0-EjG-U-Co_d__YvsDn_hlU5211KpSS-sWW-l5uva0GUoUHRX9A3RXHY4swkUep1Fv-M9VwU2jVZSr7w09vDA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Aménagé au rez-de-chaussée de l'aile occidentale des convers du monastère de Maulbronn, dans le prolongement direct de leur réfectoire, l'ancien cellier (cellarium) offre un témoignage saisissant de la rigueur fonctionnelle de l'architecture cistercienne de la fin du XIIe siècle. Cette vaste salle romane à deux vaisseaux est rythmée par une file axiale de puissantes colonnes cylindriques en grès massif, couronnées de chapiteaux sobrement épannelés d'où retombent de solides voûtes d'arêtes dépourvues de tout ornement superflu. Au Moyen Âge, cet espace frais et faiblement éclairé par d'étroites baies ébrasées servait d'entrepôt principal pour conserver les tonneaux de vin issus des vignobles abbatiaux ainsi que les denrées agricoles administrées par les frères convers. Aujourd'hui reconverti en lapidarium, ce volume minéral abrite une précieuse collection de fragments architecturaux et sculptés originaux mis au jour lors des campagnes de restauration du monument : on y découvre notamment d'anciens chapiteaux romans et gothiques, des clés de voûte historiées, des gargouilles, des éléments de remplages ajourés ainsi que des dalles funéraires médiévales, présentés au plus près de leur cadre architectural d'origine."
+      },
+      {
+        title: "Le cloître (Kreuzgang), cœur spirituel et architectural du monastère",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMf1lrp6C9WhecQreLC7jcool8zKC4Ttv-uak443_6bTGSCwjt2NAbxcH049B4IC0ab2a_ewx7KUyS2HQwXgwnoHvpXvrQ8Y6wbpcNJZZPzb37iQMea979-NHGMIECrz3sw7WxSUCuW1qP_v3TLJbhr3g=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPwmO9B_3lMyyXXdmECLhUGV8T6mTnh9QZeUp-XIoigR0xGn7-ZypBbbnSYxIrow3VAn4wwDmm77FY05hqiz6sLyTijXtjMEbPKMWopqeWe-9-X1e5lx7p3SE80qBmL26bQ2gN0WbMBBwyuZfPr47U2Wg=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Adossé au flanc septentrional de l'église abbatiale afin de bénéficier d'une protection naturelle contre les vents froids tout en captant la lumière du midi, le cloître (Kreuzgang) du monastère de Maulbronn constitue le cœur spirituel, géométrique et fonctionnel de l'ensemble cistercien. Conçu comme un espace de silence, de méditation et de lecture, ce quadrilatère minéral articule avec une clarté remarquable la circulation quotidienne des moines entre les différents pôles de la vie régulière : l'église abbatiale au sud, la salle capitulaire et le dortoir à l'est, le réfectoire et le chauffoir au nord, ainsi que l'aile des frères convers à l'ouest. Loin de présenter une uniformité figée, ses quatre galeries voûtées offrent un condensé exceptionnel de l'évolution de l'architecture médiévale en Allemagne méridionale, témoignant du passage progressif de l'art roman tardif au gothique rayonnant."
+      },
+      {
+        title: "Le pavillon de la fontaine (Brunnenhaus) et la légende du mulet assoiffé",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNms6nyRhk1fRI8_oRTtWHDJunCaDzZ8ob5SAC6_wBF-vyZ3yrs2ADkQSBmgtSDMv1AeBR8xLhkcEd7HXCVyeDagBBEldMoBUshEKO08b2Mf5K5m51mo1Gr1uCK0r-Ly4jjrB8XDhxD3D5uHnZDCcsWlw=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOF8IaHhGb7zFxO4YIhqa1xLepd5bgKgujPtaB4FYEW1dD4fGRkHudd7PD3RjtQj90qwARIcSE2TbJ0DAIi0eNa8kJ8Pp7_OMJajg1rrknHTRzqE9nFMbeY4VxHlcS_SEfcL0aB7wrHWZ9__-PtFWnTlA=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Dans le prolongement de la galerie nord, exactement face à l'entrée monumentale du réfectoire des moines (Herrenrefektorium), s'avance vers le jardin du cloître l'emblématique pavillon de la fontaine (Brunnenhaus), véritable joyau architectural du site. Cet édifice répondait à une exigence liturgique et hygiénique fondamentale de la règle bénédictine et cistercienne : permettre aux religieux de procéder aux ablutions rituelles des mains et du visage avant de pénétrer en silence dans le réfectoire pour prendre leur repas ou au retour des travaux manuels. Élevé sur un plan polygonal à neuf pans, le pavillon superpose deux époques parfaitement lisibles de l'extérieur : sa partie inférieure en pierre de grès, édifiée vers 1340-1350, est percée sur chaque face de hautes fenêtres gothiques à remplages trilobés séparées par de fins contreforts à pinacles, tandis que son niveau supérieur, ajouté au début du XVIe siècle, déploie une élégante structure à colombages (Fachwerk) coiffée d'une haute toiture pyramidale à pans coupés.\n\nL'intérieur du pavillon de la fontaine enveloppe le visiteur d'une atmosphère intime et lumineuse, magnifiée par le jeu des rayons du soleil filtrant à travers les vitraux clairs des baies gothiques. La salle est couverte d'une délicate voûte d'ogives rayonnante dont les nervures retombent sur de fines colonnettes engagées dans les angles, et dont les voûtains conservent un précieux décor peint exécuté en 1511 — puis restauré au XIXe siècle — associant rinceaux végétaux, armoiries et scènes narratives illustrant la légende fondatrice de Maulbronn : celle du mulet assoiffé (Maulesel) guidant les moines et l'évêque Günther de Spire jusqu'à une source jaillissante (Brunnen). Au centre exact de cet écrin s'élève la fontaine monumentale à trois vasques superposées (Schalenbrunnen), alimentée en continu par le réseau hydraulique souterrain conçu par les cisterciens : son large bassin inférieur octogonal en grès sculpté remonte au XIVe siècle, tandis que les deux vasques supérieures plus étroites, couronnées d'un amortissement ornemental, furent ajoutées à la Renaissance en 1578, laissant ruisseler l'eau claire dans un murmure continu qui anime la quiétude du cloître."
+      },
+      {
+        title: "Le réfectoire des frères convers (Laienrefektorium) et le réfectoire des moines (Herrenrefektorium)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOLXkwukD5XAAByc1R5Nq36rcIIF_GuPJcctll-n_tlSFxDNVVG_YYT8eEwLXI-2og6sLbWourP1Ou0UI9TCmficWg85rrjdmDey3yvwVFkcaUE74jeSx_ZW99kTX3eHpH0qNtKVdA4vs92stsuuGtTHA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO5DLeYXjUA3KPhG3xbAIjzfkub8X-aojbE7XQQDc8_QOvb8G7Thm0wlkb1VKSUMdEpS2xQ0MlT8O9R9MAl6qqciKdQIWHNRiBm82qlogqyRIktJY_U5pabdMsmUcYQGkKzcuiDFUgKiVn6PrN6zNlpEw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "A gauche : Aménagé au rez-de-chaussée de l'aile occidentale du monastère de Maulbronn vers 1178-1180, le réfectoire des frères convers (Laienrefektorium) incarne toute l'austérité fonctionnelle de l'architecture cistercienne romane. Cette vaste salle rectangulaire divisée en deux vaisseaux est rythmée par une file axiale de puissantes colonnes cylindriques en grès massif, couronnées de chapiteaux cubiques sobrement épannelés qui reçoivent la retombée de solides voûtes d'arêtes dépourvues de tout décor sculpté. Éclairé par d'étroites baies en plein cintre ébrasées, cet espace minéral accueillait quotidiennement les frères laïcs chargés des travaux manuels, artisanaux et agricoles de l'abbaye, strictement séparés des moines de chœur conformément à la règle de l'ordre. A droite : Élevé vers 1220 dans l'aile septentrionale, juste en face du pavillon de la fontaine, le réfectoire des moines (Herrenrefektorium) constitue l'un des chefs-d'œuvre absolus du gothique primitif introduit en Allemagne par le « Maître de Maulbronn ». Cette majestueuse salle lumineuse à deux nefs s'organise autour d'une colonnade centrale de fûts monolithes bagués alternant le grès rouge et le grès jaune du Stromberg, d'où jaillissent d'élégantes voûtes d'ogives aux nervures profilées. Les parois conservent l'ancienne chaire de lecture en pierre encastrée en encorbellement — d'où un moine lisait les textes sacrés pendant les repas silencieux — ainsi que le passe-plat communiquant directement avec la cuisine monastique voisine."
+      },
+      {
+        title: "Le parloir (Parlatorium)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOr-Sk95mY2tlVzEYZD-bbS9K7LX0NitxWBIyUJr2qQ7ebEwU3AFyJj-j79G0kdeiCMLBa5pXUKA-eqqTTF24vLMiwK0whmBElEiV4HfziRYo1RKnBAj6whgMhc5ujf75DDT9kKqulxFF2X3vABdlowEw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Aménagé au rez-de-chaussée de l'aile orientale du monastère de Maulbronn, dans le prolongement direct de la galerie est du cloître gothique et juste au nord de la salle capitulaire, le parloir (Parlatorium) constituait au Moyen Âge l'unique espace de la clôture où les moines rompaient la règle du silence pour échanger brièvement sur les tâches nécessaires de la vie communautaire. Conçu également comme une galerie de passage reliant le cloître aux jardins et bâtiments orientaux, cet espace intime surprend par le contraste saisissant entre la sobriété de ses parois de grès et le faste inouï de sa voûte somptueuse, remaniée à la fin du XVe siècle vers 1493 dans le plus pur style gothique tardif allemand (Spätgotik)."
+      },
+      {
+        title: "La voûte en réseau et en étoile (Netz- und Sterngewölbe) du parloir",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM6QYENlb24a7R0JLsH1R4RqIwa6F-gALk7HBOaGo6B1IzCg5jBRlYt4qodHJZSUJIMf1MBK8VsBYxp0uZGzM19N2js24m5Qx7B8p-via0mZ1XKXLAdtHQ3zHd7knqmXZlqdvbywsmGQ2hP4uYixviUVA=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMG22aeEF1ZprhifFBRA9Y4gQxlv-zKUOeAdHJD0Xn2NCNuck8GYWZp94StvUd-i4mqaW2oat8jBLA5yeKxuHP7TCpJM8_xmgzNZe_Z58YvvHV9nFW7vYT_s2SXZbQdx24bIlP8gKJ6SUM-RXB1Eqz3lQ=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "Déployée à la manière d'une véritable dentelle minérale, cette voûte en réseau et en étoile (Netz- und Sterngewölbe) entrelace une multitude de nervures finement profilées qui jaillissent directement de culots sculptés engagés dans les murs, sans l'intermédiaire de chapiteaux massifs. Les liernes et tiercerons dessinent au plafond une géométrie complexe de losanges, de fleurons et d'étoiles rythmée par des clés de voûte historiées et armoiriées, rehaussée de délicats vestiges de polychromie ocre et rouge qui confèrent à cette galerie monastique l'éclat raffiné d'un écrin seigneurial."
+      },
+      {
+        title: "La salle capitulaire (Kapitelsaal)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczONPfKGcnKnSxNhoDtCu1lm_JbVrz7UareppyXn1dMmkLCOP9FwWTDjIXONA96Dq0lkdxSkRmHC4uR8QV13R2V0B5tIqSyoaC7QyitjUiMb2ynRCdzAfJCJGFvwxgwyLHsMsP6sUkRHXvc0tTX4PIEv6A=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM3oauSS4DU2Z23_ZUqCmmavfkeuNs3crfnwftnS1Ukr1JFVktw2Jib-EGmYyimtNU5UMse-9ITo1CBc9KB845iSvaSqvYLW7NBFnQZNhZpY4BsTVCI6fKemGWJ4GFN7CBrWXC0soxygtNqaEq9t4_pxA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Située au centre de l'aile orientale du monastère de Maulbronn, la salle capitulaire (Kapitelsaal), rebâtie au XIVe siècle dans le style gothique rayonnant, constitue le cœur décisionnel et spirituel de la communauté cistercienne. Cette vaste salle carrée s'articule autour d'une rangée axiale de trois fins piliers octogonaux en grès d'où jaillissent d'élégantes voûtes d'ogives aux nervures profilées ponctuées de clés sculptées. Ceinturée de bancs de pierre adossés aux murs et éclairée par de hautes baies à remplages trilobés, elle réunissait chaque matin les moines autour de l'abbé après l'office de Prime pour la lecture d'un chapitre de la règle de saint Benoît, l'administration des affaires du domaine et la confession publique des fautes."
+      },
+      {
+        title: "La nef de l'église abbatiale et le jubé en pierre du XIIIe siècle",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPap6RNvApdTOu7ECm74Tu30-XcBKfKsjnlxGhGVYAsZRwQoDQDq1qhruVfIxeNvLNqI_ETT7AraT_p_zNlwQcVTuu8wWuzWpapECIaZYVxoNs6hTm4Aqynb0l0CZmxMRWs_eikzheEfGyYAxGkLbW2CA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "La nef de l'église abbatiale de Maulbronn présente une synthèse architecturale remarquable qui s'étend principalement sur trois siècles de construction et de remaniements. La structure de base, comprenant les grandes arcades en plein cintre et les murs extérieurs massifs, appartient au douzième siècle, période de la fondation de l'abbaye en 1147. Cette partie romane reflète l'austérité originelle de l'ordre cistercien, privilégiant la clarté et la solidité sur l'ornementation superflue.\n\nAu fond de la nef, le jubé en pierre, qui servait à séparer le chœur des moines de l'espace réservé aux frères convers, constitue un exemple exceptionnel de la transition vers le style gothique. Le crucifix monumental qui le surmonte, taillé dans un seul bloc de pierre, ainsi que les détails sculptés du jubé lui-même, témoignent d'une évolution artistique majeure survenue au treizième siècle. Cette séparation physique est l'une des mieux conservées d'Europe, permettant de comprendre l'organisation sociale et religieuse stricte de la vie monastique médiévale."
+      },
+      {
+        title: "Les voûtes d'ogives peintes du XVe siècle de l'église abbatiale",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMzEbpBTncHSimRX238qmXEb1Ebp8aPEyQYAiZD2wI1Z08QUBwJC85qL5ks_ADxLns5Ht9v1183gv6jhq6-o96W2ECqe9-aEbwI6X2aEMYhy1U4eLuW3QP4SVnod4w0CMu91vjYDLbohEY9EmDJYPByCA=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le plafond de la nef de l'église abbatiale de Maulbronn constitue un ajout magistral qui a radicalement transformé le volume intérieur de l'édifice originel. Conçues au quinzième siècle, vers 1424, ces voûtes d'ogives de style gothique flamboyant ont remplacé le plafond plat en bois qui couvrait initialement la nef romane du douzième siècle. Cette modification architecturale tardive témoigne de la volonté des abbés de l'époque d'inscrire l'abbaye dans les courants esthétiques les plus prestigieux de la fin du Moyen Âge, tout en respectant l'implantation des piliers préexistants.\n\nLa complexité du réseau de nervures en grès rouge dessine une géométrie rigoureuse qui s'élance depuis les chapiteaux pour se rejoindre au sommet en des clés de voûte sculptées et dorées. Ce système structurel permet de répartir les charges vers les murs latéraux, libérant ainsi un espace visuel aérien. Les voûtains, ou pans de voûte, sont recouverts d'un enduit clair qui met en valeur la finesse du travail de la pierre et favorise la diffusion de la lumière naturelle provenant des fenêtres hautes.\n\nL'ornementation peinte des voûtes est l'un des aspects les plus précieux de cet ensemble. Un semis de fleurs et de motifs végétaux stylisés, restauré avec soin, tapisse les surfaces entre les nervures, évoquant un jardin céleste ou un paradis terrestre. Cette décoration picturale, typique du sud de l'Allemagne à cette période, adoucit la sévérité cistercienne et crée une continuité visuelle entre le sol de pierre et le sommet de l'église. La précision des détails botaniques et la richesse des pigments utilisés font de ce plafond un document historique majeur sur l'art décoratif de la fin du quinzième siècle."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPs-ootBaZ8_JxFOSkhcCCqIA9unYe_q0lp4WEJrkDOnQufZ-VZrjHHI-dYYcQWf_3wmdAcU2yFd3PDa0ZYDbW7B9ss7VWkhSiUILTgGqwvNoy_ZX_9ThkZJPyhh6CZJPqKHY8EYE6B70I4sYTRoRZVgQ=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPuDGbbW9AJ-ctUo4sssRhCiG-lnWllLl0GeE25znf4JhPBAAhH4dvXwWREjvKGWH-1JVE_2JpPmf-WtwEY45xyUE4usGQoYE7Ntq2GKYkXjSbUyVbBCvvdPhzAKgbZZzy3a9GvRznzbzBZ1zaVbSFI8A=w1379-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNoXDxRimp3gwrdMGT2enC_UOV1SV9i5vzlRMctbZqBZ9GtqYC3fqmGEYQg5LZslHyWGnQzki6S2qS7Uy7lmVWIlyTY8sIgZy9rzl0LH1b9eLF73iulSozhLsRRPfyRqdab5KDXaPt5Fn6jiC4ADXyXEw=w1379-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+   {
     id: "fribourg_en_brisgau_haus_zum_walfisch",
     name: "Fribourg-en-Brisgau - La Maison à la Baleine (Haus zum Walfisch - Résidence d'Érasme)",
     country: "Allemagne",
