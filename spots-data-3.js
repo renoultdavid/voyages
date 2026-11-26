@@ -7,6 +7,139 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "bamberg_schleuse_100_ludwig_donau_main_kanal",
+    name: "Bamberg - L'Écluse 100 du Canal Ludwig-Danube-Main (Schleuse 100)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Haute-Franconie",
+    subdiv: "Bamberg",
+    altitude: 237,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Ouvrage Hydraulique Historique du Canal de Louis Ier de Bavière (1836-1846), Sas en Pierre de Taille & Maison d'Éclusier",
+    century: "XIXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.88796,
+    lng: 10.89019,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNeutfvKE0IEXEwX7-MeSJRO7o7c-bb21hg4SmjcrDvwWeFos8dNOFuE7ih0Ohi32b-MBqkHhY-8IFjNX2Cz-No9gHow6FiYrSh9yF1fgifbOT6VzC0YlT2CwWw8ACtmPeFaNOfrXStD2Dwpth9yQDzuw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Située dans un cadre verdoyant et paisible le long du bras calme de la rivière Regnitz au cœur de la ville historique de Bamberg en Haute-Franconie, l'Écluse 100 (Schleuse 100) constitue l'ultime ouvrage hydraulique et l'un des derniers tronçons encore navigables de l'ancien canal Ludwig-Danube-Main (Ludwig-Donau-Main-Kanal). Conçu à l'initiative du roi Louis Ier de Bavière et édifié entre 1836 et 1846 par l'ingénieur Heinrich von Pechmann afin de réaliser le rêve millénaire de relier la mer du Nord et le bassin du Rhin au Danube et à la mer Noire, ce canal historique s'étendait sur plus de cent soixante-douze kilomètres ponctués d'une centaine d'écluses en pierre de taille.\n\nConservée dans son état d'origine avec ses bajoyers en grès appareillé, ses lourdes portes busquées en bois actionnées manuellement à la manivelle et sa charmante maison d'éclusier à l'architecture néo-classique bavaroise bordée d'arbres centenaires, la Schleuse 100 offre un témoignage précieux du génie civil européen du XIXe siècle au cœur même du paysage urbain inscrit au patrimoine mondial de l'UNESCO.",
+    visiter: "Longer les rives ombragées de la Regnitz à Bamberg jusqu'à la Schleuse 100 pour observer ce sas historique parfaitement conservé du canal Ludwig-Danube-Main et sa maison d'éclusier du XIXe siècle.",
+    link: ""
+  },
+  {
+    id: "bamberg_international_artists_villa_concordia",
+    name: "Bamberg - La Villa Concordia (Internationales Künstlerhaus Villa Concordia - Palais Baroque)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Haute-Franconie",
+    subdiv: "Bamberg",
+    altitude: 240,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Palais Baroque sur les Rives de la Regnitz (1716-1722) par Johann Dientzenhofer, Jardins en Terrasses & Résidence d'Artistes",
+    century: "XVIIIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.88810,
+    lng: 10.88856,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPlkWpASai7yvp3EWOvK8Mklnx1PHiB5DAnVLekz8HnKVxrr1CrH_YFYvrOVzglmnjTroKWaZbJMo8wo_rLe2qN8ohxmBwUWaO7kSPb63AW1dGVd8G9uMcB78kljL4_nNNiZfz75OT0xtuae3U9W51qSw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dressée directement au bord des eaux paisibles du bras gauche de la Regnitz dans le quartier de la vieille ville de Bamberg en Haute-Franconie, la Villa Concordia (Internationales Künstlerhaus Villa Concordia) déploie l'une des plus gracieuses façades palatiales baroques au fil de l'eau de toute la Franconie. Érigée entre 1716 et 1722 d'après les plans attribués au grand architecte baroque franconien Johann Dientzenhofer pour le conseiller aulique Ignaz Tobias Böttinger — l'un des plus influents et fortunés fonctionnaires de la cour épiscopale —, cette demeure de plaisance fut conçue comme un véritable palais d'été tourné vers la rivière et la lumière.\n\nSa façade harmonieuse aux teintes pastel ocres et blanches, scandée de pilastres et d'encadrements de fenêtres finement sculptés en grès et couronnée d'un fronton central élégant, se mire directement dans le courant de la Regnitz au-dessus de ses jardins en terrasses. Après avoir abrité au XIXe siècle la société culturelle « Concordia », l'édifice accueille depuis 1998 la maison internationale des artistes de l'État libre de Bavière, perpétuant la vocation littéraire, musicale et artistique de Bamberg.",
+    visiter: "Admirer depuis les quais et ponts de la Regnitz à Bamberg l'élégante façade baroque de la Villa Concordia se reflétant dans la rivière au milieu de ses jardins riverains.",
+    link: ""
+  },
+  {
+    id: "bamberg_boettingerhaus",
+    name: "Bamberg - La Maison Böttinger (Böttingerhaus - Chef-d'Œuvre du Baroque Civil Franconien)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Haute-Franconie",
+    subdiv: "Bamberg",
+    altitude: 253,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Palais Urbain Baroque de Johann Maximilian von Welsch (1707-1713), Grès Sculpté Exubérant & Orangerie",
+    century: "XVIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.88925,
+    lng: 10.88628,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMrDMYpbCAo0srYqgu3mlfg7lvf2TgZfS-DFMiu5lhkZM3YNvwFm5TlEIv2BrY6Q9OAmS-3Ke4F-6qtjsS0HMKzE0W-TpKxS0_wHd2Y1nciY--g9WH1dr8NU29VFIXz2IPPjAtLsqyo8yjWa8ikglwzPA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Nichée dans l'étroite Judenstraße sur les premières pentes menant vers la colline de la cathédrale au cœur de Bamberg en Haute-Franconie, la Böttingerhaus (ou Prellsches Haus) s'impose comme l'un des chefs-d'œuvre les plus somptueux et théâtraux de l'architecture palatiale baroque civile en Allemagne. Édifiée entre 1707 et 1713 selon les plans de l'architecte Johann Maximilian von Welsch pour le conseiller secret de la cour Ignaz Tobias Böttinger, cette demeure aristocratique transpose l'exubérance sculpturale des palais italiens et viennois dans le cadre intime d'une ruelle médiévale franconienne.\n\nSa spectaculaire façade en grès blond doré disparaît presque sous une profusion foisonnante de décors sculptés en haut-relief : atlantes musculeux soutenant les encorbellements, pilastres cannelés, guirlandes de fruits et de fleurs, mascarons expressifs, frontons brisés et armoiries surmontant les trois niveaux d'élévation. Cette richesse plastique se prolonge à l'arrière par une cour intérieure raffinée et un jardin en terrasses aménagé à flanc de coteau, témoignant du faste des grands dignitaires de la principauté épiscopale de Bamberg au début du XVIIIe siècle.",
+    visiter: "Emprunter la Judenstraße au pied de la colline cathédrale de Bamberg pour contempler la spectaculaire façade baroque en grès sculpté de la Böttingerhaus et la virtuosité de ses reliefs.",
+    link: ""
+  },
+  {
+    id: "bamberg_cathedrale_saint_pierre_et_saint_georges",
+    name: "Bamberg - Cathédrale Impériale Saint-Pierre-et-Saint-Georges (Bamberger Dom - Cavalier de Bamberg)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Haute-Franconie",
+    subdiv: "Bamberg",
+    altitude: 270,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Cathédrale Impériale Romane & Gothique à Quatre Tours (XIIIe Siècle), Cavalier de Bamberg & Tombeau Impérial de Riemenschneider",
+    century: "XIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 49.89087,
+    lng: 10.88273,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOGWD-QogDrtt-8-2OzOHX4igNd6JC3aTGaduXfTRV0gtIK5ongw8Jjfy93XJM7rm7GfQSu_bKCXkJoWcYebynJgRgaqMhgDL-_Eg1jlmfuaqa11rNT7eG58hwZzDh4sW6VUpw8IFKNKwNG-vqZuNTgGQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOVWXFWOyK3-KAeeDH5mjifZiDXj6tPalaJxLCFrw1HVGaAdtzTMNM7UKRR-hy6ttMzr62QRnzFfVQ_y-KstV8rATpAD1Xf-0Tex7q95arirViHNNZ8K_k2tQxYXU5stTJd8I3NMHqpsPdBwoTi-91-tw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMxO8ZTKmGzvNDPrBtBsACDN2tVhLGYrrHOEABBHCjFOjOI5xC_B4HUeI_bFtN5FlGeTUNI01f6S6BXqRwnvU70-igCFqwiV5095FbwneDdqvURjlIs4-KTN6ssXan-TBGTKXcydtKHrW_NOACR1mJhrQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "Cette nef basilicale se distingue par son double chœur, une caractéristique typiquement impériale, et par l'union harmonieuse de la puissance romane et de l'élégance gothique naissante.\n\nL'architecture intérieure repose sur un vaisseau central flanqué de collatéraux, portés par des piliers massifs dont les chapiteaux présentent une grande variété de motifs végétaux et figuratifs. La structure témoigne de l'évolution des techniques de construction de l'époque : les murs épais et les arcs en plein cintre d'influence romane soutiennent des voûtes d'ogives dont la courbure annonce déjà le style gothique. L'utilisation d'une pierre calcaire aux nuances chaudes de gris et d'ocre confère à la nef une atmosphère de solennité et de robustesse, fidèle à sa fonction de nécropole impériale.\n\nLe long de la nef et sur les piliers se déploie un programme sculpturaux parmi les plus célèbres de l'art médiéval européen. On y trouve notamment le Cavalier de Bamberg (Bamberger Reiter), première statue équestre monumentale réalisée depuis l'Antiquité, dont le regard semble veiller sur l'espace sacré. Les statues des prophètes, des apôtres et les représentations de l'Église et de la Synagogue illustrent la maîtrise exceptionnelle des ateliers de sculpture du XIIIe siècle, qui ont su insuffler une humanité et un réalisme nouveaux aux figures de pierre.\n\nLa perspective de la nef est rythmée par des luminaires circulaires monumentaux suspendus, qui rappellent les couronnes de lumière médiévales. La clarté provient des fenêtres hautes qui illuminent le vaisseau central, mettant en relief le contraste entre les zones d'ombre des collatéraux et l'élévation des voûtes. En convergeant vers le chœur oriental, la nef conduit le visiteur vers le tombeau en marbre de l'empereur Henri II et de l'impératrice Cunégonde, sculpté plus tard par Tilman Riemenschneider, faisant de cet espace un lieu où l'histoire politique de l'Empire et la dévotion religieuse se fondent dans une architecture d'une rare unité."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOndVY3DtFsxkwav3B1TR7CPWJJHVbrK0OTH7Y2dNOVvnIDMYtc5if73Mwfb4ER3Sxq5vPAR5V2ZkXQb3B3vfQ6cs8OY0M4crkFE-abq9wKjhCD9o1tBd-PmwjtRMcgt47ORV8L9-XGK4HvG4m-d8hA3w=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMLMcEqTRvkcoBv-nMqXjoH2WhmtFYH6MMjPNU1pl6pNxS4CHuBbCa-mqUmQ_fm9Q7IcU--Ndj0f9JgIn4WK3jNNuNDerP-Cnn6SRu9EGnpM_Cs89UzMnQi4_MNhy8xiLpcGFe1e7lGqx_Xv9eFBHKScA=w1379-h919-s-no-gm?authuser=0",
+        caption: "Placé au cœur de la nef de la cathédrale de Bamberg, le tombeau de l'empereur Henri II et de son épouse l'impératrice Cunégonde est l'une des œuvres les plus célèbres de la sculpture allemande. Réalisé entre 1499 et 1513, ce monument funéraire est l'œuvre de Tilman Riemenschneider, le plus grand sculpteur du passage entre le XVe siècle et le XVIe siècle. Bien que le couple impérial appartienne au XIe siècle, ce monument de la Renaissance a été commandé pour magnifier leur mémoire et leur sainteté, Henri II étant le fondateur du diocèse de Bamberg.\n\nLe monument se présente sous la forme d'un imposant sarcophage surélevé, sculpté dans le calcaire du Jura, une pierre dont les nuances dorées et la finesse de grain permettent une précision de détail exceptionnelle. Sur la dalle supérieure, les deux souverains sont représentés grandeur nature, couchés côte à côte dans une attitude de repos éternel. Leurs visages, traités avec un réalisme empreint de sérénité, témoignent de la maîtrise de Riemenschneider pour rendre l'expression humaine. Les drapés complexes de leurs manteaux impériaux et les détails minutieux de leurs attributs régaliens, comme le globe et le sceptre, illustrent la transition entre la spiritualité gothique et l'humanisme de la Renaissance.\n\nLes parois latérales du sarcophage sont ornées de cinq reliefs monumentaux qui racontent les légendes hagiographiques entourant le couple impérial. Ces panneaux sculptés sont des chefs-d'œuvre de composition narrative et de perspective. On y découvre notamment la célèbre scène de l'épreuve du soc de charrue, où Cunégonde prouve son innocence en marchant pieds nus sur des fers brûlants sans être blessée, ainsi que la scène de la guérison miraculeuse de l'empereur. Chaque relief est conçu comme une petite scène de théâtre où les costumes, les décors architecturaux et les expressions des personnages secondaires offrent un témoignage fascinant sur la vie et les croyances du début du XVIe siècle."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOt0Tlfnlb_fY25EoZXGjmLzGkzKaTx2InTdDRDRVgogXWCFtdkro1LmYtuyLwjAbhLTeoqwmBSnz9hw_nCAQK06gcohSwGD3lBSMAMQzp7gDHDq3SytlpGM-g2XIkaPO71v8a-71gwY2LSoJXQXRARaw=w1379-h919-s-no-gm?authuser=0",
+        caption: "Le Cavalier de Bamberg (Bamberger Reiter), situé contre l'un des piliers du chœur oriental de la cathédrale, est sans doute la statue équestre la plus célèbre du Moyen Âge européen. Réalisée vers 1230, elle appartient à la période du XIIIe siècle, marquant l'apogée de la sculpture gothique de transition. Cette œuvre monumentale en grès représente un cavalier couronné, dont l'identité exacte demeure encore aujourd'hui un sujet de débat passionné entre historiens, oscillant entre la figure du roi Étienne 1er de Hongrie et celle d'un idéal de l'empereur chrétien.\n\nSur le plan artistique, le Cavalier de Bamberg rompt avec la raideur des statues romanes pour introduire un naturalisme saisissant. Le sculpteur, probablement formé sur les chantiers des grandes cathédrales françaises comme Reims, a su rendre avec une précision inédite l'anatomie du cheval et la souplesse des drapés du cavalier. Le visage du personnage, avec son regard fier et ses traits individualisés, dégage une présence quasi vivante qui préfigure l'humanisme de la Renaissance. La posture du cheval, à l'arrêt mais suggérant un mouvement imminent, témoigne d'une observation fine du réel.\n\nLa statue est placée sous un baldaquin gothique qui souligne son caractère sacré et royal. Elle est installée à une hauteur considérable, obligeant le visiteur à lever les yeux, ce qui renforce l'aura de majesté du personnage. À l'origine, la sculpture était entièrement polychrome ; des traces de pigments suggèrent que le cheval était gris et que les vêtements du cavalier arboraient des couleurs riches et des dorures, rendant l'ensemble encore plus spectaculaire dans la lumière diffuse de la cathédrale du XIIIe siècle.\n\nAu-delà de sa prouesse technique, le Cavalier incarne les vertus de la chevalerie chrétienne du Moyen Âge : la force, la piété et la justice. Il est situé à proximité immédiate du tombeau de l'empereur Henri II, créant un lien symbolique entre le pouvoir impérial et l'idéal du souverain protecteur de l'Église. Intact malgré les siècles, le Cavalier de Bamberg demeure le témoin silencieux de la splendeur culturelle de la cour épiscopale de Bamberg et reste l'un des points d'intérêt les plus fascinants pour les amateurs d'histoire de l'art du monde entier."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP7C3uN5-YxAmwtPW4PuADcgYz7mFg1UvJHSUwfNHQpQylPz2kr0DtLgbGz8c3VbORyZLgFS3sVhfd8tPeTLtu6FqoZRs6vHIns8ydzOYRMGZIhAtvk1T_fjTMPggh7KzwGtaDxXz7inkKi8hUUA5eucg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOvP44FQW0iDC2RoWPgmxGpNzkM8OZmeCEKJT6-AbQN0CicAUvA1P7XbI9o1h0Dl3F5KYzRMuM6iw46LGWMSaLA8z4kg4Olm5brS8J1kIgG7owDUWkGmHrL1EMSQD0uuWCCl6j_1jTmdTd_bXpRfyQUcQ=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO6SKYdGEegpjzRP11-JbNGWRK7SAocncfA_0rqV8_Q7P2zHQ7R8DbGwFruyzXa6xrpdxItEF6vcUDuPeag4deBZ8RD3FSe36tLJQDf4FEz-htpAJwVCNknjDASUuEpvNWGtesQSyofeOOTOj72h4BM3g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOB902G8xt2yVYt6jw9PP3avhMiJ95Lx0i_zAqVzIemH4ZSosrO3l5Ej_Av-3eFBWW3FO1g_xga5-udNcZyl5ITo0F5aDkngMd_lOaj59in2I2B6bR50trjOf34BWvK_J1bo5S-EjEIVIy_EgFHZghdSg=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dominant la colline cathédrale de Bamberg en Haute-Franconie, au cœur de la vieille ville inscrite au patrimoine mondial de l'UNESCO, la cathédrale impériale Saint-Pierre-et-Saint-Georges (Bamberger Dom) dresse ses quatre hautes tours élancées tel le manifeste architectural de la puissance impériale et épiscopale du Saint-Empire romain germanique. Fondée en 1007 par l'empereur Henri II lors de la création de l'évêché de Bamberg, puis reconstruite après deux incendies au début du XIIIe siècle et consacrée en 1237, la basilique actuelle incarne avec une majesté souveraine la transition entre l'architecture romane tardive et le premier art gothique d'inspiration française.\n\nConçue selon un plan impérial à double chœur opposé, sa nef lumineuse en pierre calcaire dorée abrite d'inestimables chefs-d'œuvre de l'art médiéval et Renaissance, parmi lesquels le célèbre Cavalier de Bamberg (Bamberger Reiter) sculpté vers 1230, le monumental tombeau en calcaire du Jura de l'empereur Henri II et de l'impératrice Cunégonde ciselé par Tilman Riemenschneider, ainsi que l'unique sépulture pontificale située au nord des Alpes, celle du pape Clément II.",
+    visiter: "Contempler les quatre tours et les portails sculptés de la cathédrale impériale de Bamberg sur la Domplatz, puis parcourir sa nef à double chœur pour admirer le Cavalier de Bamberg, le tombeau impérial sculpté par Tilman Riemenschneider et les chœurs roman et gothique.",
+    link: ""
+  },
+   {
     id: "rothenburg_ob_der_tauber_stadtmauer_nord",
     name: "Rothenburg ob der Tauber - Les Remparts Nord & Le Chemin de Ronde (Stadtmauer Nord)",
     country: "Allemagne",
