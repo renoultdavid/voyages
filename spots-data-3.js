@@ -7,6 +7,103 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "nuremberg_chateau_imperial_kaiserburg",
+    name: "Nuremberg - Le Château Impérial (Kaiserburg - Palas, Tour Sinwell & Double Chapelle)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Nuremberg",
+    altitude: 336,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Forteresse Impériale des Hohenstaufen (XIIe-XVIe Siècles), Tour Sinwell, Double Chapelle Romane & Appartements Impériaux",
+    century: "XIIIe siècle",
+    category: "chateau",
+    counts: { chateau: 1 },
+    lat: 49.45792,
+    lng: 11.07591,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPKTmeyqStpRMOZRlnyCBaTYzSzLjVTjP1JoK3KaDVG8NyisS_khuNm-LMiKT56_2mxqEx3f-CDgJDBnScuFHWEoETwEAbzxDTqTY8A9GH-_PakJBrW29KudEyyAz7TcvhgMCDwOw0ytcaG6EDmiTVrIg=w607-h911-s-no-gm?authuser=0",
+    description: "Campé sur un puissant éperon rocheux en grès rouge dominant toute la vieille ville historique de Nuremberg et la vallée de la Pegnitz en Moyenne-Franconie, le Château Impérial de Nuremberg (Kaiserburg) s'impose comme l'une des forteresses les plus prestigieuses du Saint-Empire romain germanique. Attesté dès le milieu du XIe siècle sous le règne de l'empereur Henri III puis considérablement agrandi sous la dynastie des Hohenstaufen — notamment par Frédéric Barberousse et Frédéric II —, ce complexe castral associe le château impérial proprement dit à l'ancien château des burgraves et aux bâtiments municipaux de la cité libre d'Empire. Du XIe au XVIe siècle, presque tous les empereurs et rois des Romains y séjournèrent lors des diètes impériales et des assemblées d'Empire, faisant de ces murailles le cœur symbolique et politique de l'Allemagne médiévale et renaissante.\n\nDe ses puissants bastions d'artillerie édifiés par Antonio Fazuni et de sa tour Sinwell offrant un panorama grandiose sur les toits de tuiles rouges jusqu'à la cour intérieure à colombages, aux salles d'apparat des appartements impériaux et à l'extraordinaire double chapelle romane (Doppelkapelle) de 1200, la forteresse incarne avec éclat l'alliance entre architecture militaire, prestige impérial et art sacré franconien.",
+    intro_page: "Campé sur un puissant éperon rocheux en grès rouge dominant toute la vieille ville historique de Nuremberg et la vallée de la Pegnitz en Moyenne-Franconie, le Château Impérial de Nuremberg (Kaiserburg) s'impose comme l'une des forteresses les plus prestigieuses du Saint-Empire romain germanique. Attesté dès le milieu du XIe siècle sous le règne de l'empereur Henri III puis considérablement agrandi sous la dynastie des Hohenstaufen — notamment par Frédéric Barberousse et Frédéric II —, ce complexe castral associe le château impérial proprement dit à l'ancien château des burgraves et aux bâtiments municipaux de la cité libre d'Empire. Du XIe au XVIe siècle, presque tous les empereurs et rois des Romains y séjournèrent lors des diètes impériales et des assemblées d'Empire, faisant de ces murailles le cœur symbolique et politique de l'Allemagne médiévale et renaissante.\n\nDe ses puissants bastions d'artillerie édifiés par Antonio Fazuni et de sa tour Sinwell offrant un panorama grandiose sur les toits de tuiles rouges jusqu'à la cour intérieure à colombages, aux salles d'apparat des appartements impériaux et à l'extraordinaire double chapelle romane (Doppelkapelle) de 1200, la forteresse incarne avec éclat l'alliance entre architecture militaire, prestige impérial et art sacré franconien.",
+    visiter: "Gravir l'éperon rocheux dominant la vieille ville de Nuremberg pour explorer l'enceinte et les bastions du Château Impérial, monter au sommet de la tour Sinwell, pénétrer dans la cour intérieure puis visiter les appartements impériaux et la double chapelle romane.",
+    link: "",
+    sections: [
+      {
+        title: "Assises en pierre à bosses et élévations gothiques extérieures",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPKTmeyqStpRMOZRlnyCBaTYzSzLjVTjP1JoK3KaDVG8NyisS_khuNm-LMiKT56_2mxqEx3f-CDgJDBnScuFHWEoETwEAbzxDTqTY8A9GH-_PakJBrW29KudEyyAz7TcvhgMCDwOw0ytcaG6EDmiTVrIg=w607-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPXPg8Xs9ub3moG1CxtI9tVYrbGKoOhk7cGTID6LS07M1nx9zjgBta-_t1LSLQ8Dc8gkFEry3lkDBZGSePJniLhVmkOTnV62nbamXa8gvh5jEWa7AcJdiQX543Qlbi61CRVrr6KauA7-6AGc-oCM3FyVg=w607-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP7eEGIS40S8RVvCx_liSvIvBuVuM9bzq7U_7uvD1rhn4k151L7LA7uQRjIGoE6DvDhKq0rJoJwv3dxZUGE1x2xjVnFgmGg5Hb4nQ-BGisK9SNlhhz48HWIxaYWyMyjWPc1IhG4TJE9ZdWyVhrgndqRBQ=w607-h911-s-no-gm?authuser=0"
+        ],
+        text: "De l'extérieur, la silhouette monumentale de la forteresse conjugue la rudesse défensive de ses assises en pierre de taille à bosses (Buckelquader) du XIIe siècle à l'élégance pittoresque des pignons gothiques et des pans de bois franconiens des XVe et XVIe siècles."
+      },
+      {
+        title: "La tour Sinwell, la tour à Cinq Angles et les bastions d'Antonio Fazuni",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPe0_xN0mRuSvHUrHeq7iu_vpMF8x68OBVyVaqWTkJnw-6zA85jt6erj6OyPrkgxm1Aw3oOJKH32trIjuhpoXpKNusPtB_frP1Ihv1bFYeccDj3rUqMaOrpS3lgAHciF3PXH2ee3yIPupnSc35_-i9NTA=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMpULqPxZgFcxwURjokW-jOLLzBNGgScCNChxrgn_-h5Irw4MWQP3yVTdiaM0j7rpI2Msm_Pzm8YatESc8RvaPax5d16eNGAFWuuyifxuDJV3hTVDjZbZ4nljZJI4kIj33SBSnCmFcRwq3MKzJYyUIH-g=w607-h911-s-no-gm?authuser=0"
+        ],
+        text: "L'enceinte est ponctuée par la silhouette emblématique de la tour Sinwell (Sinwellturm), puissant donjon cylindrique de la seconde moitié du XIIIe siècle couronné au XVIe siècle d'un pavillon en encorbellement et d'une flèche d'ardoise, qui offre depuis son sommet un panorama embrassant toute la cité médiévale et la vallée de la Pegnitz. À l'est se dressent également la tour à Cinq Angles (Fünfeckturm), plus ancien ouvrage conservé de la résidence des burgraves remontant au XIIe siècle, ainsi que les puissants bastions d'artillerie édifiés entre 1538 et 1545 par l'ingénieur italien Antonio Fazuni, sur lesquels s'épanouissent aujourd'hui les terrasses fleuries des jardins du château (Burggarten)"
+      },
+      {
+        title: "La Porte du Ciel (Himmelstor) et la cour intérieure à colombages",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO1ivaGMA2j2ybBCsKShdd1uk6rUU009dgBQ-X34xN10IBbiUOnFEmAfMK1OxMRI2-8ViRFzTR63veqGwBYdyrBfO9WaMPSVeyZcS2dHmyuqYyFXKwk1G9iZzNel0qYB20vz162wSA_F9I-QNi9ImNjTw=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "En franchissant le portail de la Porte du Ciel (Himmelstor), le visiteur pénètre dans la cour intérieure cernée par les façades à colombages du palais impérial (Palas) et de la maison des chevaliers (Ritterbau)."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMLZc-CyX3gSiADNO-lLphodYaPAtO3jhnrU7xqSwmiutMZybuX8kfRYg9xNSBJaZ4nRIrQc9bqwuGPxQkUKGiN1lowF8_Nsj53DakOxpXYr6SzSaCil-DqCu4mXJeW4C_v6jk-keSMnUosZ9WqH8lkBg=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPCA-KWtm7zuqbQw7cv8HzqEfT-gmB59Bh0BvlFGjZo7tfHZ9EFL-zrtBnXez35Vf45ZrIvP9iE76flq4zrad77hNVm7XUibK9jdOaTLwNLPBZv_2jQ3qOLUb8lptnbQlk53sYcNlstFAJ_4_D0qCLe1w=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La salle des chevaliers et les appartements impériaux",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM9yyruuklYRZE90hZO9wdBPOTDYWtd-g7aCELtDrx2hjN7_p-YM-_DeGcYCYZdtjRdUpFMj1YuR6Hw2qFfR13xsfC7tdy8TTPqPgnoidsWdmJ7uYtVTdKFoi5qyp9FYdpo76tmDiUHjnHvSseNHOdVoQ=w1365-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMtzuOJqiaFyQqj8urBir1zuc-vIACWFuNers_AFUMENQ2nlfcnUFRLFFHovOHgHk7XekLoh_QTu5hsJeVvNb_z_ct3juA1Z2uW3Afdu0YXYfLEFgFckfZROnGDhGgSLGkQU8WeIEHxKNfxhe2ULBfvGg=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "La visite intérieure des appartements impériaux — fidèlement restaurés après les lourdes destructions des bombardements de 1945 — révèle le cadre solennel de la cour des Hohenstaufen et des Habsbourg : on y parcourt successivement la grande salle des chevaliers (Rittersaal) du rez-de-chaussée, puis la salle impériale (Kaisersaal) et les chambres d'apparat de l'étage noble, ornées de plafonds à caissons en bois sculpté, de lambris gothiques tardifs, d'un remarquable poêle en faïence polychrome de 1516, de tapisseries anciennes et de peintures de maîtres de la Renaissance allemande illustrant les vertus souveraines."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM8erENdvaGcYlzvazkTEz3x_w0-sGJHFqsB5eSFro6RWY_3nEWcsbHfmQag0l2YsrrXImzTS1vanHNEnnf56o0WUllK39l9fD_srZe1IZKBdTs7fdKfsBdRMEcix237aA39rWFe-KJaGq8SDZVBYJK0Q=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOP4rXOC8aq94c53J-AQ65XrWNUx6YzkeiK1FI-QvMIBhNS24NJiACthHjFW16BdCIKm4ZRqbTyZ81wz9ls6gpjqAnnxnPDhmsgd6fnWFXruEE3J2JbBmyZTOULdd19Np63kEAiBxyRAQjHRsjaozGMSQ=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La double chapelle impériale (Doppelkapelle) de 1200",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczM0qfyiLiQePSsxBxkUEEQYsFRtbeRt2fZYVz3iNay-gA5-h-NIZjpq26iVFSoJRw590Qi5I0xTxx2L4d7KY9fcfvhGublnvdPO--iO0xPkJdcu44c_So3lie1jCFZxd2S1R4fXvMscNOPDfvVYv9pB1Q=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP8A0pLZVwDQwtdUc1UGazGm4HPYtwUHwYDnA8koCrC2tLGB8_TsdbNKpCzVrdXjXuMYCGlTT3xCOBRxbIyFQx3blZLghSgjp7kYAtVLIxu-jfg-VjKWJPc7eDKR8iSwG2cnhF38AvCU4zfmIeV8xZzbw=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "Joyau architectural le mieux préservé du château, la double chapelle impériale (Doppelkapelle) édifiée autour de 1200 incarne de façon saisissante la hiérarchie féodale et sacrée du Saint-Empire. Ce sanctuaire roman à deux niveaux superposés communiquant par une ouverture centrale permettait à la cour de participer simultanément à la liturgie : la chapelle inférieure (Margarethenkapelle), sobre et voûtée d'arêtes sur de lourdes colonnes, était destinée à la suite et aux serviteurs ; la chapelle supérieure (Kaiserkapelle), beaucoup plus lumineuse et raffinée avec ses fines colonnes de marbre aux chapiteaux sculptés, était réservée à la haute noblesse, tandis que l'empereur lui-même dominait l'assemblée depuis une tribune occidentale surélevée (Empore) directement reliée à ses appartements privés."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPR11qUC1w9eWkb5JxJO0YYguuwuvuLgBa1VSvbGslnRbEU_kPPiz29njj14DgkHA303w1lSWP6Jrs9HmrMbnCFe-n8QLfJUzrGveMNnVrwxHPCNtUelDne9yVIgms0TUv6Ke9l_-psYsjgzfWj8EfrMQ=w1365-h911-s-no-gm?authuser=0"
+        ],
+        text: "L'espace intérieur se définit par une robustesse et une clarté géométrique typiques de l'époque des Hohenstaufen. La nef est rythmée par des colonnes monolithes en pierre dont les chapiteaux sont sculptés de motifs végétaux et de décors géométriques d'une grande finesse. Une ouverture centrale dans le plafond de la chapelle inférieure permettait une liaison visuelle et acoustique avec le niveau supérieur, symbolisant le lien direct entre les différents ordres de la société médiévale sous l'autorité impériale. L'utilisation du grès local confère à l'ensemble une unité chromatique sobre et puissante."
+      },
+      {
+        title: "Montée à la tour et vue sur la ville",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPSOGHwLpFvGg6jeB5ea1s8hJW0jGaxYTgIOEKaKAm8DR2DrygQxH-9vqo5Sq4gwcxMQlGvuWuD1wuh7GKMcqytAsw7vFjafoW_aNjy2hlLqYahEjqM5UU14sDrUbgyIP_RntwjmfI4ek2zZOramF5nSw=w1365-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNTY_ZVBpkHDq_UthjO80X6JAcGvNsQB8vSAyxy1LJ_eH7QwIVG5Wo1uwzJuyl-xEqagd_pYFjRzzVBJfnEpf4fZNkqNfHPozfGGxa97Ixrc5ZLJNiy7cU8OQ31scdtpg7bH7KEYZw-32CPAPLhjqbbLQ=w1365-h911-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+   {
     id: "bamberg_old_court_alte_hofhaltung",
     name: "Bamberg - L'Ancienne Cour Épiscopale (Alte Hofhaltung - Domplatz)",
     country: "Allemagne",
