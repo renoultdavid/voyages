@@ -7,6 +7,307 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "nuremberg_tiergaertnertorplatz",
+    name: "Nuremberg - La Place de la Porte du Parc aux Animaux (Tiergärtnertorplatz - Quartier Saint-Sébald)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Nuremberg",
+    altitude: 334,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Placette Pittoresque au Pied du Château Impérial (334 m), Maisons à Colombages, Maison Pilatus & Vieille Ville Nord",
+    century: "XVIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.45744,
+    lng: 11.07445,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO8DgH6c4MreYDf8m99cHEoS3OfFXC_p4NfpyPgj3y9cYtEsWCPU4ljTAoO6OAofJPo2FT4fyUnWdPu6mBpPbwfpCAkY7V3y_W013lcWgndHYSJ0_UuoFi6Z-53t7AnuFcKk_FXXSmBlkEuLs7b74HjhA=w1365-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNJTexbdoUI686sGmxRxVNm2g1fmyXQKGc2CEYhdXlEuPDEbApuGXigI_BYYkcbPZHPQOdgtzvMNggSB1Wm6J1Oig2DBjaFTBFwwzvPUT9Weed18uYuGWGnVYZagRPFdArtu2jJF0IbajcnqfPohaWjFA=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPqGRO9ulNB--cXpQ3pZrKwL39CmWKCPOE4zNrv4NeBDMvv6IQnbfI9N6CSRkWDY1eviFIroazQDp525YW0Okk1U5WuZ6MzZS4tGflNnxtfDOS8ngM2EiHeLiW4GedMrj_wLvSkI-qYcXugKj5pGlkOBA=w1365-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczORjy_wS2caCX4wZWns3tJgRjqT4i__MPqpphXsQVpsWWEYYOc1CVbR9irD7bSPeP3r3i2U8z4aQ5Y59gr12_eXPwUcdx2Lou_8WpjJk_eUvBWnDGkxiPeTJcuox_N6_fNWqcoTWfXGmY5U6a6vbL3jLw=w608-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Blottie au pied même de l'éperon rocheux du Château Impérial, dans la partie septentrionale de la vieille ville historique de Nuremberg en Moyenne-Franconie, la Tiergärtnertorplatz compose l'un des carrefours urbains les plus vivants, chaleureux et pittoresques de la cité franconienne. Tirant son nom de l'ancienne porte qui menait jadis vers le parc animalier de la ville (Tiergarten), cette place triangulaire pavée marque la transition naturelle entre les ruelles anciennes du quartier Saint-Sébald, les rampes montant vers la forteresse impériale et les abords de la maison d'Albrecht Dürer.\n\nLa place est dominée par l'imposante silhouette à colombages et tourelle d'angle de la « Pilatushaus », demeure médiévale et Renaissance bâtie en 1489 par le sculpteur et fondeur Hans Beheim l'Ancien, entourée de maisons anciennes aux toitures pentues, de terrasses animées et d'arbres ombragés. Véritable lieu de rencontre apprécié des habitants et des visiteurs dès les premiers rayons de soleil, la Tiergärtnertorplatz concentre toute la convivialité et le charme architectural du vieux Nuremberg.",
+    visiter: "S'arrêter sur la Tiergärtnertorplatz au pied du Château Impérial à Nuremberg pour admirer la maison à colombages Pilatushaus de 1489, profiter de l'animation de la place et rejoindre la maison d'Albrecht Dürer ou les rampes de la forteresse.",
+    link: ""
+  },
+  {
+    id: "nuremberg_der_hase_juergen_goertz",
+    name: "Nuremberg - Le Lièvre en Bronze de Jürgen Goertz (Der Hase - Tiergärtnertorplatz)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Nuremberg",
+    altitude: 334,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Sculpture Contemporaine en Bronze de Jürgen Goertz (1984) sur la Tiergärtnertorplatz, Clin d'Œil au Lièvre de Dürer",
+    century: "XXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.45750,
+    lng: 11.07438,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczP65-39uYHQwscGgtxyqkFl5dm8WtBgyRbAb1Sjw1Tsji8Bud_8CFk2E1j1-XOhpWIMQIba4StBLPS22aaP8_VMI4VV0RfmtAB9R0ulPCLL0O-8lvmvU9KsVKxpSNWX161P7foEDTcEJxxEKew4Ma5zSQ=w1365-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dressée au cœur de la Tiergärtnertorplatz à Nuremberg en Moyenne-Franconie, à quelques pas seulement de la maison où vécut Albrecht Dürer, la sculpture en bronze intitulée *Der Hase* (« Le Lièvre ») fut réalisée en 1984 par l'artiste contemporain Jürgen Goertz en hommage espiègle et poétique à la célèbre aquarelle *Le Jeune Lièvre* peinte par Dürer en 1502. Loin de reproduire avec un naturalisme académique la minutie du pelage et de l'observation scientifique du maître de la Renaissance, Goertz réinterprète l'animal dans un langage sculptural expressif, humoristique et texturé où la matière brute du bronze semble vivante et espiègle.\n\nPosée à même le pavage de la place au pied des maisons anciennes et des terrasses, cette œuvre contemporaine crée un dialogue complice et plein d'esprit entre le patrimoine de la Renaissance nurembergeoise, l'art urbain du XXe siècle et le quotidien animé des promeneurs qui s'y attardent.",
+    visiter: "Observer sur la Tiergärtnertorplatz à Nuremberg la sculpture en bronze *Der Hase* réalisée en 1984 par Jürgen Goertz, clin d'œil contemporain au célèbre lièvre d'Albrecht Dürer à proximité de sa maison.",
+    link: ""
+  },
+  {
+    id: "nuremberg_maison_musee_albrecht_duerer",
+    name: "Nuremberg - La Maison-Musée d'Albrecht Dürer (Albrecht-Dürer-Haus - Tiergärtnertor)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Nuremberg",
+    altitude: 334,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Demeure Historique du Peintre et Graveur Albrecht Dürer (Acquise en 1509), Colombages & Atelier de la Renaissance",
+    century: "XVIe siècle",
+    category: "musee",
+    counts: { musee: 1 },
+    lat: 49.45720,
+    lng: 11.07389,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMcKqxTDRWhVk3JriCwHx3NFlulgsxvARsWQB7ApQWBKkFdhJS5MVXm0PfVlQEVZfyA9v-EeWLxBcz2Bbkzy5IubeKBKuBPyiHmXQ9aK2MXApvQD8hWEkfVZ92d7Fm0HZ92cP_28QbT9PAlLBb44a3aDA=w607-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOwKVTL7LE9_1byPjwkbL9VBqffoskIcbxMBeErQH79zspIDn-slPyNKYgdSekVKgs5aaaefT6KFzSq-QXS_h24oSQpmHOrRdCjwlckXP8P7Ey_9SrTKlNI93M1spkDOiuKVqoEfPpN6lxRkpiJgp2Dew=w1365-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMflZEbzzIkH7Hp_WKn9Lpn9Rdgl4ETMushfFCDL947fbEr83j2L7vOVxSlIRTF14Ykvcxv6PduCOK5YalltNb4XQMZqHHo-wbPg2Nz7RNas8p9NLz-0sKhJm0hyf-JGvUnavLwRPaby4uA5a97vxZwGA=w1365-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNqK-8_G3fzLwl_6qrIZNVJbwZrEUntHxr48vllVOyBu-SmErHk7b6ttiSyOSOlvQ_JJi8OiNHKAsBcEtfXF593pCSj9c1NdOzrmbGSYX_fm3klPseo6CjZvBHwX6Yn0yVQbUrAMqljyda58_s6Gt8v3A=w1365-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Adossée à la pente montant vers le Château Impérial sur la petite place pittoresque de l'Albrecht-Dürer-Platz, juste au sud-ouest de la Tiergärtnertorplatz dans le quartier nord de Nuremberg en Moyenne-Franconie, la Maison d'Albrecht Dürer (Albrecht-Dürer-Haus) constitue l'unique demeure d'artiste de la Renaissance d'Europe du Nord conservée dans son cadre d'origine. Édifiée vers 1420 avec un rez-de-chaussée en grès, deux étages à colombages et un haut pignon à gradins caractéristique de l'architecture nurembergeoise, cette vaste maison bourgeoise fut acquise en 1509 par Albrecht Dürer (1471-1528), qui y vécut, y travailla et y tint son atelier prospère jusqu'à sa mort.\n\nÉpargnée par les bombardements de la Seconde Guerre mondiale, la demeure plonge le visiteur dans le quotidien et l'univers intellectuel du plus grand peintre, dessinateur et graveur de la Renaissance allemande : pièces d'habitation meublées à l'époque, cuisine historique, atelier de gravure où sont présentées les techniques de la taille-douce et de la gravure sur bois, et expositions consacrées à l'homme universel qui renouvela la perspective, les proportions et l'art du portrait.",
+    visiter: "Visiter la Maison d'Albrecht Dürer sur les pentes menant au Château Impérial à Nuremberg pour découvrir ses pièces historiques à colombages, son atelier de gravure et l'univers du grand maître de la Renaissance allemande.",
+    link: ""
+  },
+  {
+    id: "nuremberg_sebalder_pfarrhof",
+    name: "Nuremberg - Le Presbytère de Saint-Sébald (Sebalder Pfarrhof - Ensemble Médiéval & Renaissance)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Nuremberg",
+    altitude: 312,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Ancien Presbytère de l'Église Saint-Sébald (XIVe-XVe Siècles), Façades en Grès & Cœur Historique du Quartier Saint-Sébald",
+    century: "XIVe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.45562,
+    lng: 11.07587,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNv0O8zAmCd6qJqKEhLN-yZefQ4RVIOTPlpQZKKoJq-eL5Uu2kd3ehNQG8_AsBasDCLcparbLeag3M5FU03ON62Ug9QlLoV-l1bwSYVeWPg_UjpsQBOubY08goX4gHsZ71m0seBQAQcWZN0K0KeCoE0hg=w1365-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Situé immédiatement au nord de l'église Saint-Sébald, sur les pentes douces reliant la place du marché aux abords du Château Impérial au cœur de la vieille ville de Nuremberg en Moyenne-Franconie, le Sebalder Pfarrhof forme un ensemble architectural ancien étroitement lié à la vie paroissiale, intellectuelle et humaniste de la cité libre d'Empire. Dès la fin du Moyen Âge et à l'époque de la Réforme, ce presbytère et les édifices canoniaux qui l'entourent accueillirent des pasteurs, théologiens et érudits marquant la vie spirituelle et civique de Nuremberg au contact direct de l'une des deux grandes églises paroissiales historiques de la ville.\n\nAvec ses maçonneries de grès, ses toitures à pignons et son implantation paisible à l'ombre des deux hautes tours de Saint-Sébald et des murailles supérieures du château, le Sebalder Pfarrhof conserve l'atmosphère recueillie et historique de la vieille ville septentrionale de Nuremberg, offrant une halte tranquille au cœur du tissu médiéval et renaissant.",
+    visiter: "Flâner aux abords du Sebalder Pfarrhof juste au nord de l'église Saint-Sébald à Nuremberg pour apprécier l'atmosphère paisible et historique du quartier paroissial au pied du Château Impérial.",
+    link: ""
+  },
+  {
+    id: "nuremberg_eglise_saint_sebald",
+    name: "Nuremberg - L'Église Saint-Sébald (St. Sebalduskirche - Gothique & Tombeau de Peter Vischer)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Nuremberg",
+    altitude: 312,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Grande Église Paroissiale Gothique de Nuremberg (XIIIe-XIVe Siècles), Chœur en Halle, Vitraux & Tombeau en Bronze de Peter Vischer",
+    century: "XIVe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 49.45532,
+    lng: 11.07621,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO6ey2Kuegrui75dV-Ka6yDbaEuWsqjTW82wF5WyIBwepOFu0QuV5-IkzDEvwN6xwmbidFY8jnc7d_5yWlL2AqbeA4LNRrRRvtirUAOGjmfLk_YEXOcMcz-1I1hVYNJaArRic-8AeVpvDBjd1pJS4zaLA=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOJzGeoQCpVUlT8N6_QNLYlPc1MZ8MTvdWVPZh5mm4Pt2YUiMkzEcQTUugLKk9EGkI7-mnUTYrLycBDLLodi_JUe_EYUVyXbUtpnpCuq9dq12TFhh0umxTEPGtsO2pMjqBSKbAcxOQnTKw0bI2PCZihJg=w1365-h911-s-no-gm?authuser=0",
+        caption: "L'intérieur de l'église se distingue par une verticalité impressionnante, portée par des piliers massifs et des voûtes d'ogives élancées. Comme le montre votre cliché, la nef centrale est rythmée par une série d'arcs brisés qui dirigent le regard vers le chœur baigné de lumière. Les murs sont ornés de nombreuses œuvres d'art médiévales et de la Renaissance, dont des épitaphes de familles patriciennes nurembergeoises, témoignant de la richesse historique de la ville. On y aperçoit notamment des statues de saints et des retables peints qui ont survécu, pour beaucoup, aux destructions de la Seconde Guerre mondiale.\n\nL'élément le plus précieux de l'édifice est le tombeau de Saint Sébald, chef-d'œuvre de Peter Vischer l'Ancien. Cette structure monumentale en bronze abrite la châsse contenant les reliques du saint patron de la ville. Bien que l'église soit devenue luthérienne en 1525 lors de la Réforme, elle a conservé la quasi-totalité de son mobilier et de ses œuvres d'art pré-réformistes, ce qui en fait un conservatoire exceptionnel de l'art sacré allemand.\n\nLourdement endommagée par les bombardements en 1945, Saint-Sébald a fait l'objet d'une restauration méticuleuse après la guerre. Elle demeure aujourd'hui un centre spirituel et culturel majeur de Nuremberg, réputée pour son acoustique et ses concerts d'orgue. Sa silhouette, avec ses deux tours élancées dominant le quartier nord de la vieille ville, est l'un des symboles indissociables de la cité impériale."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMfMx8Wp-olxUKz3-tw6yx7HFAge-eajEAtG2OEupCXIgjlsqRnRF-XAD2bJOna8C8LoYdmBaVa5Kbb-nFEEp_TENPkMuKcS4sYTJZdghGBEz91vkPL9q3OTHsLtWte-ViVsUtr_SNajim4Q7iqT-ffZw=w1365-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO-BtVIoOyq-qoYExZUEEmE22h7RylniaRS6o3goqx4UAs3ssEUJE1sGJpDPUGkdhHM4FmPEF5pYySKk8lIJKBamUDYsl8SX9K24uKj4kKt7lB55Dg5pAlPujNXAor1wkLxD--tfftiXie2Ea8b9UbZLg=w1365-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPLtthIKPedrsMVh6zGEo4KVzqhEshIO-bf5mkgsQvTQLm-W-7NqpbWEk3yNbxByeuXfh7PzKO6hMq-e1NcQ3Em-KsCbXoL5A-OA0awkxdg5XaC9j9-G4GDngvcbRWeLkMIjPgYxsfH42tTAqKzpR6AVQ=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNYw01IcmdAwlt-Zy-QvnZUE29pHlZViC2Tcac1ifdxjzI2WHcqzJro7349LPSBOKiFYc86X64e7dX85C8w8JOUSWETtH-LtVwvm8QYECFbFvwpc0VMmhNrdSd2pbjsbffONgpxlMp1JskMnYreOpOXxg=w1367-h911-s-no-gm?authuser=0",
+        caption: "La voûte du chœur de l'église Saint-Sebald est un exemple remarquable du gothique tardif allemand, caractérisé par une complexité géométrique qui dépasse la simple croisée d'ogives traditionnelle. On y observe un réseau dense de nervures qui s'entrecroisent pour former des figures étoilées. Ce système, typique du style \"Hallenkirche\" (église-halle), permet de couvrir de larges espaces tout en conservant une grande élégance visuelle. Les nervures ne se contentent pas de porter le poids du plafond, elles créent un motif décoratif continu qui unifie les différentes travées du chœur.\n\nSur le plan structurel, les arcs brisés très élancés se rejoignent au sommet au niveau de clefs de voûte circulaires et dorées, qui servent de points d'ancrage visuels et techniques. Ces clefs sont souvent ornées d'armoiries ou de motifs religieux liés à l'histoire de la cité impériale de Nuremberg. Le remplissage entre les nervures, appelé voûtain, présente une courbure légère qui accentue la sensation de hauteur et de légèreté, malgré la masse imposante de la pierre de taille utilisée pour la construction.\n\nL'une des particularités visibles sur cette voûte est la manière dont les nervures retombent sur les piliers fasciculés. Au lieu de s'arrêter brusquement sur des chapiteaux massifs, les lignes de force se prolongent le long des colonnettes verticales, donnant l'impression que la voûte prend racine directement dans le sol. Cette continuité verticale est accentuée par la présence de hautes fenêtres à remplages qui encadrent les voûtes, permettant à la lumière de souligner le relief des arcs et la finesse du travail de la pierre."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOVTHgJDVWc8EwFVw5GXpiAj-iUAHHwlVjI9q3fx4PoYMC_2FU8pnIhcgIXko4oXMSt12phUT1vcPDjI4VD7o7HwD9Jmsy-9pDnesPQexJ525yMosvIkl3afSD_gRb7d2iH8R6E6ucy2mXWJmZDI8qfdw=w608-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressée au cœur de la vieille ville septentrionale de Nuremberg en Moyenne-Franconie, entre la place du marché et les pentes du Château Impérial, l'église Saint-Sébald (St. Sebalduskirche) s'impose comme la plus ancienne et l'une des plus prestigieuses églises paroissiales de la cité impériale. Bâtie à partir du XIIIe siècle sur une fondation romane dédiée au saint patron de Nuremberg — avant de recevoir entre 1361 et 1379 son grand chœur oriental gothique en halle inondé de lumière et ses deux hautes tours occidentales —, l'église réunit un patrimoine artistique exceptionnel préservé malgré les destructions de la Seconde Guerre mondiale.\n\nÀ l'intérieur, sous l'élancement des piliers et les voûtes étoilées du chœur, brille le chef-d'œuvre de bronze fondu en 1507-1519 par Peter Vischer l'Ancien et son atelier : le tombeau monumental de saint Sébald, entouré de sculptures de Veit Stoß, de retables peints, de vitraux médiévaux et d'épitaphes des grandes familles patriciennes de Nuremberg.",
+    visiter: "Entrer dans l'église Saint-Sébald au cœur du vieux Nuremberg pour admirer son chœur gothique élancé, le tombeau en bronze de saint Sébald par Peter Vischer l'Ancien, les sculptures de Veit Stoß, les vitraux et les épitaphes patriciennes.",
+    link: ""
+  },
+  {
+    id: "nuremberg_weissgerbergasse",
+    name: "Nuremberg - La Weißgerbergasse & Les Maisons des Mégissiers (Vieille Ville & Pegnitz)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Nuremberg",
+    altitude: 305,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Plus Longue Rue Continue de Maisons à Colombages Préservées de Nuremberg, Ancien Quartier des Mégissiers & Bord de la Pegnitz",
+    century: "XVIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.45524,
+    lng: 11.07279,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPB0-e2jYIh79DFYIxJvVZJkvVoSnpzMN1J3G2FY-NPTilfLSSWZd6Jw65Vfilz0M-dmyi4ZklcRjqUNCwlWGozL-q0eGMdI0KDywrubSxklqfCKiwsElkIrPYfVvx2ZPASL4aCX4F9zL7AtfO-fprJ2w=w1365-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMfe1EK4RLCroYeiNfjNFvfnhWi75TxvGWAHSmL-qslM35nM8C5Gbegm72w92zP9Z0Ks8KUrBLzf_1e94CHUF4o87NV2JJ59Qp4v_4bMbGVcXpmQOgEnVqN3j-pHqZtFuHPVgO2G2aYXZ3jRQ8RCPsdbg=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Étirée sur les pentes descendant doucement vers les rives de la rivière Pegnitz dans la partie occidentale de la vieille ville de Nuremberg en Moyenne-Franconie, la Weißgerbergasse constitue le plus remarquable ensemble continu de maisons à colombages historiques de la cité. Au Moyen Âge et à la Renaissance, cette rue abritait les ateliers des mégissiers et tanneurs (« Weißgerber »), qui travaillaient les peaux fines à proximité de l'eau courante et faisaient sécher les cuirs sous les larges combles aérés et les galeries en bois des maisons.\n\nGrâce au dévouement des habitants et aux campagnes de sauvegarde conduites dès les années 1970, une vingtaine de demeures à colombages des XVe au XVIIe siècle — aux façades peintes de tons pastel, aux encorbellements sculptés, aux lucarnes et aux jardinières fleuries — ont été restaurées avec soin. Flâner le long de la Weißgerbergasse offre une plongée saisissante dans l'architecture artisanale et bourgeoise du vieux Nuremberg, animée aujourd'hui par des ateliers d'artistes, des cafés et des petites boutiques.",
+    visiter: "Parcourir à pied la Weißgerbergasse près de la rivière Pegnitz à Nuremberg pour admirer la plus belle rangée continue de maisons à colombages restaurées de la vieille ville et l'atmosphère artisanale du quartier.",
+    link: ""
+  },
+  {
+    id: "nuremberg_kettensteg",
+    name: "Nuremberg - La Passerelle aux Chaînes sur la Pegnitz (Kettensteg - Plus Ancien Pont à Chaînes d'Europe Continentale)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Nuremberg",
+    altitude: 298,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Plus Ancien Pont Suspendu à Chaînes de Fer d'Europe Continentale (1824) par Conrad Georg Kuppler sur la Pegnitz",
+    century: "XIXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.45418,
+    lng: 11.07070,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPz70khIWqgMdx63JfWF26Ka0nMQbhCnFmLDpG0IX_i0GBp_1Fksk9KtWc6LSDo4BrfEalCCaeTJlFYzuNj1LMcRhaa9ycUSXOGyKxSsVX5cJ-pfD2Qgv5dA_mCLSYaLWQGYat-Madk1D0Xv3NvlkeZpQ=w1365-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Enjambant les eaux calmes de la rivière Pegnitz à l'ouest de la vieille ville de Nuremberg en Moyenne-Franconie, non loin de la Weißgerbergasse et du Maxplatz, le Kettensteg (« pont des chaînes ») occupe une place singulière et pionnière dans l'histoire du génie civil européen : inauguré en 1824 d'après les plans de l'ingénieur et mathématicien Conrad Georg Kuppler, il constitue le plus ancien pont suspendu à chaînes de fer encore existant sur le continent européen. Conçu dans l'élan des innovations métalliques du début du XIXe siècle pour relier les deux rives de la Pegnitz sans entraver l'écoulement fluvial ni la navigation artisanale, l'ouvrage s'appuie sur de solides piles en pierre ancrées dans le lit de la rivière.\n\nSes chaînes en fer forgé, tendues d'une rive à l'autre avec une élégance technique dépouillée de tout artifice, soutiennent un léger tablier en bois emprunté exclusivement par les piétons. Témoin discret mais majeur des débuts de la construction métallique en Bavière, le Kettensteg offre une promenade paisible au fil de l'eau au cœur de Nuremberg.",
+    visiter: "Traverser à pied le Kettensteg sur la rivière Pegnitz à l'ouest de la vieille ville de Nuremberg pour découvrir le plus ancien pont à chaînes d'Europe continentale, achevé en 1824 par Conrad Georg Kuppler.",
+    link: ""
+  },
+  {
+    id: "nuremberg_henkersteg_et_weinstadel",
+    name: "Nuremberg - La Passerelle du Bourreau & La Tour de l'Eau (Henkersteg & Weinstadel - Bords de la Pegnitz)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Nuremberg",
+    altitude: 297,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Passerelle Médiévale en Bois sur la Pegnitz (XVe Siècle), Tour de l'Eau (Wasserturm) & Halle aux Vins Weinstadel",
+    century: "XVe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.45310,
+    lng: 11.07301,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMigpaJlyAw_i-4wU5FaSVPDw6gz2JQ0v-JLyw-QdR860rySA1beo8sv5AZ-20IJZkG7zn65-agt8abNq7eC4vVst-Hecdq0gcn9Il_lXkMe2u-S5rb0uLNune3l6uuUXaEwvgkCUeoHZ7UEn_Lihq4WQ=w1367-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Formant avec la Tour de l'Eau (Wasserturm) et l'imposante halle à colombages du Weinstadel l'un des tableaux fluviaux les plus célèbres et romantiques de Nuremberg en Moyenne-Franconie, le Henkersteg (« passerelle du bourreau ») enjambe les deux bras de la rivière Pegnitz en reliant la vieille ville septentrionale à l'îlot du Trödelmarkt. Attestée dès le milieu du XVe siècle — et reconstruite à plusieurs reprises dans le respect de sa silhouette traditionnelle —, cette étroite passerelle en bois couverte d'un toit de tuiles doit son nom à la maison du bourreau de la ville qui se dressait autrefois sur l'îlot voisin, à l'écart de la société urbaine.\n\nÀ l'extrémité de l'ouvrage s'élève la Tour de l'Eau (Wasserturm), tour fortifiée médiévale coiffée d'une haute toiture conique d'ardoise, tandis que s'étire le long de la rive le Weinstadel, vaste édifice à colombages du XVe siècle qui servit d'entrepôt municipal de vin puis de résidence pour étudiants et lépreux.",
+    visiter: "Emprunter à pied la passerelle couverte du Henkersteg au-dessus de la rivière Pegnitz à Nuremberg pour admirer la vue sur la Tour de l'Eau, la halle à colombages du Weinstadel et les façades riveraines.",
+    link: ""
+  },
+  {
+    id: "nuremberg_eglise_notre_dame_frauenkirche",
+    name: "Nuremberg - L'Église Notre-Dame de Nuremberg (Frauenkirche - Hauptmarkt & Carillon)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Nuremberg",
+    altitude: 298,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Fondation Impériale de Charles IV (1352-1358), Façade Gothique en Grès, Pignon à Gradins & Horloge « Männleinlaufen »",
+    century: "XIVe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 49.45413,
+    lng: 11.07822,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNBQ1HR9-d5U8IPUzRHq5zY5uDYvakUMhX87EpdIU4uPofzIokqSt3Bll987Dhglj0-RDPTA97zbwdX18tysSh8knJBalQcNmNDCABcg4Im7KbC5SMDFv1piIK5hRPAccDK75crVv1B_HeG5dChp_I0Yw=w1365-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dominant le côté oriental de la Hauptmarkt (place du marché principal) au cœur de Nuremberg en Moyenne-Franconie, l'Église Notre-Dame (Frauenkirche) fut édifiée entre 1352 et 1358 à l'initiative de l'empereur Charles IV sur l'emplacement de l'ancienne synagogue de la ville pour servir de chapelle palatine impériale et abriter les insignes et reliques du Saint-Empire lors de leur présentation publique. Sa façade occidentale en grès sculpté, couronnée d'un remarquable pignon à gradins gothique encadré de deux tourelles et ornée d'un riche programme de sculptures médiévales, s'ouvre directement sur l'animation quotidienne des étals et du célèbre marché de Noël de Nuremberg.\n\nAu sommet du pignon se déploie l'horloge artistique à automates du *Männleinlaufen* (attestée dès le XVIe siècle), où chaque jour à midi les sept princes-électeurs défilent autour de l'empereur Charles IV au son des trompettes et des cloches, tandis que l'intérieur gothique-halle conserve des retables anciens, des monuments funéraires et des œuvres d'art de la fin du Moyen Âge et de la Renaissance.",
+    visiter: "Contempler sur la Hauptmarkt à Nuremberg la façade gothique et le pignon à gradins de la Frauenkirche, observer le défilé des automates de l'horloge à midi et entrer découvrir son espace intérieur.",
+    link: ""
+  },
+  {
+    id: "nuremberg_schoener_brunnen",
+    name: "Nuremberg - La Belle Fontaine (Schöner Brunnen - Hauptmarkt)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Nuremberg",
+    altitude: 298,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Flèche Gothique Ajournée de Dix-Neuf Mètres (1385-1396), Quarante Figures Symboliques & Grille en Fer Forgé",
+    century: "XIVe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.45424,
+    lng: 11.07707,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN8alnHfL7yYVe5V026aiFCkoXC8lu76UadfE-Ckg7VAq7Z-U9v1wF1OFXBis0MKazn4HrF2ziMyGcccbR-w4zj5Z2QORjj9r_nZfDJoIcW5cf7cBtSK0S2waMuwPNDUSpK9xzp08uRgqdRu28Z4rurTw=w608-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMua3_ECMUvgKQxk1lQ1pGtcJG5OhR2xypIQuwqnPDwfcQncmTvAvGhekwwYj-N7CmWCg_6t1AJgpFrLAt52q2YhOWsAQW0ExZ1vCffCgabR0aJuZkGnN8qdt8ZvnsWr5C43jLUomr5jZPt_Sev9_k8Ew=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Dressée sur l'angle nord-ouest de la Hauptmarkt au cœur de la vieille ville de Nuremberg en Moyenne-Franconie, à quelques pas de la Frauenkirche et de l'Ancien Hôtel de Ville, la Belle Fontaine (Schöner Brunnen) s'élève à dix-neuf mètres de hauteur sous la forme d'une prodigieuse flèche gothique ajourée en pierre sculptée. Réalisée entre 1385 et 1396 — vraisemblablement par l'architecte et sculpteur Heinrich Beheim — à l'apogée de la cité impériale sous le règne de Charles IV, cette œuvre monumentale évoque la silhouette des clochers gothiques en dentelle de pierre et fut restaurée à l'identique au début du XXe siècle.\n\nSon architecture étagée s'orne de quarante statues polychromes et dorées réparties sur quatre niveaux illustrant la vision du monde médiévale et impériale : les sept princes-électeurs et les neuf Preux au sommet, suivis des prophètes de l'Ancien Testament, des évangélistes, des Pères de l'Église et des sept arts libéraux. Entourée d'une grille en fer forgé du XVIe siècle intégrant deux anneaux de laiton — l'un en laiton, l'autre en fer —, la fontaine constitue l'un des emblèmes les plus célèbres et admirés de Nuremberg.",
+    visiter: "S'arrêter sur la Hauptmarkt à Nuremberg pour admirer la flèche gothique sculptée de dix-neuf mètres du Schöner Brunnen, ses quarante figures polychromes et sa grille en fer forgé du XVIe siècle.",
+    link: ""
+  },
+   {
     id: "nuremberg_chateau_imperial_kaiserburg",
     name: "Nuremberg - Le Château Impérial (Kaiserburg - Palas, Tour Sinwell & Double Chapelle)",
     country: "Allemagne",
