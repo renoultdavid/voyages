@@ -7,6 +7,132 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "munich_karlsplatz_stachus",
+    name: "Munich (München) - La Karlsplatz (Stachus) & La Fontaine Monumentale",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Haute-Bavière",
+    subdiv: "Munich",
+    altitude: 529,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Grande Place Urbaine aux Portes de la Vieille Ville de Munich (Fin XVIIIe Siècle), Fontaine Centrale & Palais de Justice",
+    century: "XIXe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 48.13932,
+    lng: 11.56606,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOZMYcDl3eicldfkS09s1yr7uEWfFIhzXxm68O0zImf1oO58VIJN-u7vxrI0fjqetD9JhgpAeB10kKwn1BzmHgfE9Z-c_TvODfmsfZUHcZ1CSnQ_bIVMlnst2x16BeFDgaAg_dbHG4Pco5fyd9HohyjEg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "À l'entrée occidentale de la vieille ville historique de Munich en Haute-Bavière, la Karlsplatz — universellement surnommée « Stachus » par les Munichois en souvenir d'une ancienne auberge populaire du XVIIIe siècle — s'impose comme l'un des carrefours urbains les plus vastes et animés de la capitale bavaroise. Aménagée à la fin du XVIIIe siècle après le démantèlement des fortifications médiévales sous l'électeur Charles Théodore, cette grande esplanade marque la jonction entre les grands boulevards du XIXe siècle, dominés par l'imposant Palais de Justice néo-baroque, et le début de la zone piétonne menant vers la Marienplatz.\n\nEn son centre s'étend une vaste fontaine circulaire dont les jets d'eau rafraîchissent l'atmosphère aux beaux jours devant les façades en hémicycle des bâtiments des rondelles (Rondellbauten) et la porte fortifiée du Karlstor, tandis que la place se métamorphose en patinoire hivernale durant la saison froide.",
+    visiter: "Traverser la Karlsplatz (Stachus) à Munich pour observer sa grande fontaine circulaire, l'architecture des bâtiments encadrant la place et le passage vers la porte historique du Karlstor.",
+    link: ""
+  },
+  {
+    id: "munich_karlstor",
+    name: "Munich (München) - La Porte de Charles (Karlstor - Neuhauser Straße)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Haute-Bavière",
+    subdiv: "Munich",
+    altitude: 529,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Ancienne Porte Occidentale des Fortifications Médiévales de Munich (XIVe Siècle), Remaniement Néo-Gothique & Neuhauser Straße",
+    century: "XIVe siècle",
+    category: "monument",
+    counts: {},
+    lat: 48.13900,
+    lng: 11.56674,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPLNp5APeP1fIeduRNSy_gaw-pheH5U32ssdEb2eNFQ01YpZf-WHHCu5iru-C54B3-G4xE9Bm7Ll10Vw7JOVvSXLmiZcEGh_nY3X7UXo6ASjSYxi78ppUrOH9kBbiAIlWoxTOL74-W9CgB8wCadGIRTlg=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Entre la Karlsplatz et l'entrée de la Neuhauser Straße au cœur de Munich en Haute-Bavière, le Karlstor (anciennement Neuhauser Tor) dresse sa silhouette fortifiée telle l'une des trois portes médiévales subsistances de la seconde enceinte urbaine de la cité. Édifié au début du XIVe siècle sous le règne de l'empereur Louis IV de Bavière pour contrôler l'axe commercial occidental menant vers Augsbourg et la Souabe, l'ouvrage reçut son nom actuel en 1791 en l'honneur de l'électeur Charles Théodore.\n\nAprès l'explosion d'une réserve de poudre voisine en 1857 qui détruisit la tour centrale d'origine, l'architecte Arnold Zenetti dota le monument de ses deux tours latérales crénelées et de sa façade néo-gothique ornée de sculptures pittoresques figurant des personnages populaires munichois, ouvrant solennellement la grande artère piétonne de la vieille ville.",
+    visiter: "Franchir les arches du Karlstor entre la Karlsplatz et la Neuhauser Straße à Munich pour observer ses tours latérales néo-gothiques et ses sculptures pittoresques marquant l'entrée de la vieille ville.",
+    link: ""
+  },
+  {
+    id: "munich_buergersaalkirche",
+    name: "Munich (München) - L'Église de la Salle des Bourgeois (Bürgersaalkirche - Neuhauser Straße)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Haute-Bavière",
+    subdiv: "Munich",
+    altitude: 531,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Oratoire de la Congrégation Mariale édifié par Giovanni Antonio Viscardi (1709-1710), Église Haute Rococo & Tombeau de Rupert Mayer",
+    century: "XVIIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 48.13900,
+    lng: 11.56826,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNWiFcKtY7w3o7P97IMO4k3yl-1YCuvlYzn-j1x_a-Mddz72b850JPUx7bdeTDBw2ORmnsv23lqp6dPV_d7HCdOY5bK6vAlUJbNZST5alEF-Zh1do_EQNCd-omzsiTOxvDEPATM_0NjbuHv0m84XmqKog=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMMV-EBr4SLFwty08X65rJUssXiT61cPjnjy_SbzCzbCj55xwZhMs9IsP0n2l8gQRUTc3suoerBtmG484vUNapw-fSRCvll3_I358ZI2vCB6cwpsRWUPUxUH2wFTaCrDaT9HuJYjqHX-vmz6uhzimSmeg=w1379-h919-s-no-gm?authuser=0",
+        caption: "Son organisation architecturale est unique : elle se compose d'une \"église basse\" sobre et d'une \"église haute\" (ou salle de prière) d'une grande splendeur. La nef de l'église haute, telle qu'elle se présente aujourd'hui, est une reconstruction fidèle de l'original baroque qui fut lourdement endommagé pendant la Seconde Guerre mondiale. Elle incarne l'élégance du baroque italien adapté au goût munichois, privilégiant la clarté et l'harmonie des proportions.\n\nLe décor intérieur est dominé par un plafond plat richement orné de stucs et de fresques. La fresque centrale, une œuvre magistrale qui attire immédiatement le regard, représente l'Assomption de la Vierge Marie dans un déploiement de nuées et de figures célestes. Le traitement de la lumière, qui pénètre par des fenêtres hautes et des oculus ovales, accentue l'effet de profondeur des peintures et fait ressortir la finesse des motifs de rinceaux et de rocailles qui encadrent les compositions. Les tons pastels et les rehauts dorés confèrent à l'espace une atmosphère à la fois solennelle et accueillante, typique des lieux de dévotion de la Contre-Réforme.\n\nL'aménagement de la nef suit une structure rigoureuse où les pilastres feints en marbre jaune et rose rythment les parois. Entre ces pilastres, on trouve des statues de saints et des tableaux illustrant la vie de la Vierge, renforçant la vocation mariale du lieu. Le mobilier, notamment les bancs de bois sombre et le maître-autel encastré, respecte l'unité de style de l'ensemble. La Bürgersaal est également célèbre pour abriter le tombeau du Bienheureux Rupert Mayer, prêtre jésuite et figure de la résistance spirituelle au nazisme, faisant de cette nef un haut lieu de mémoire et de pèlerinage contemporain au cœur de Munich."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM7vTo4mwUdRzfYE0v5c0ncb-Rcf6HPuRrDdcWfDmvPwBl_dFLCUxaJn1329RVKzQUbHxujI1TRo4Er2j4OTYGd7ZgwGqvYz6lNUB55plHKsV4gCQmsG_EkdE-guwrW_GZCbRuQSBiidHuLonnnBTLoeQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczM7vTo4mwUdRzfYE0v5c0ncb-Rcf6HPuRrDdcWfDmvPwBl_dFLCUxaJn1329RVKzQUbHxujI1TRo4Er2j4OTYGd7ZgwGqvYz6lNUB55plHKsV4gCQmsG_EkdE-guwrW_GZCbRuQSBiidHuLonnnBTLoeQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNqA-oqHoyBV9uCiJByTHDsvWv0WVTKtsWxPOP9lNAkt4CxCU0cnYnsjobmK5jpYxRCzXWI9O47mYD3oeyuEc9iRXgXHjg3mPbeU7XsMkaewd9vmQ5tpRNvBAiyhS_QNFItv1pkA9pk1sUjanzHaKcLZw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOvlxebOvJ2zbDpxGXq9Ky7eJpfpSUS1M5fBAkrYn0Mr-M1Y1JEjoIdhZHNs4EVpL6USKerOQaeKlPYByGQYshgnQBz6nqO_Kux44wIeqtxOrkWokpEXen52guPa5uD6zb_VLTpiuH_sZxAf8jOma1N_Q=w1378-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Le long de la Neuhauser Straße au cœur de la vieille ville de Munich en Haute-Bavière, la Bürgersaalkirche (« Église de la Salle des Bourgeois ») dissimule derrière sa façade baroque rythmée de pilastres rouges et d'un fronton gracieux un sanctuaire double d'une conception tout à fait singulière. L'architecte italien Giovanni Antonio Viscardi édifia cet oratoire en 1709-1710 comme salle de réunion et de prière de la Congrégation mariale des hommes de Munich, superposant une église basse voûtée et une lumineuse salle de prière supérieure.\n\nDans l'église haute, fidèlement restaurée après les bombardements de la Seconde Guerre mondiale, les stucs délicats, les pilastres en faux marbre pastel, les sculptures d'Andreas Faistenberger et la grande fresque centrale de l'Assomption de Martin Knoller créent une atmosphère raffinée, tandis que l'église basse abrite le tombeau vénéré du père jésuite Rupert Mayer, grande figure de la résistance spirituelle au nazisme.",
+    visiter: "Entrer dans la Bürgersaalkirche sur la Neuhauser Straße à Munich pour visiter l'église basse abritant le tombeau de Rupert Mayer puis monter admirer la splendeur baroque et rococo de la salle de prière supérieure.",
+    link: ""
+  },
+  {
+    id: "munich_eglise_saint_michel_st_michael",
+    name: "Munich (München) - L'Église Saint-Michel (St. Michael - Renaissance Bavaroise & Crypte des Wittelsbach)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Haute-Bavière",
+    subdiv: "Munich",
+    altitude: 525,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Plus Vaste Église Renaissance au Nord des Alpes (1583-1597), Voûte en Berceau Monumentale & Nécropole Royale des Wittelsbach",
+    century: "XVIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 48.13880,
+    lng: 11.57036,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMoWrVWpizmkQGRFTu-VSHEJq-Qy67KBJGUI7_5jkngwuMEtYhxaJNqOmjXDJpHtA1a5tSmxbEL4E9ps5m7XA888MWQAn9lC_PyMWKt8bzQPDzpTzGQVcN6whHl72Szgex7znd2Jsz1Nc2x-c3Dq7-Hew=w613-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOy3tqVfDxQsg8__1Mnw_EMMzSJPt3gSlq8o404YE0yqz-ECpiXv3tym89dlL0xvJwGH0Q7jRC5pdR0ghAjXl-qpGvYta96f7VJ3h1E3WHHF04d1LYHu15Mryf-Bd_LUJG3M7cvrtNLuyM3J8_Sl7l3rA=w1379-h919-s-no-gm?authuser=0",
+        caption: "La nef se distingue par sa voûte en berceau monumentale, qui était à l'époque la deuxième plus grande au monde après celle de la basilique Saint-Pierre de Rome. Cette prouesse architecturale crée un volume intérieur d'une unité et d'une puissance saisissantes, conçu pour diriger sans interruption le regard et l'esprit des fidèles vers le maître-autel.\n\nL'élévation de la nef abandonne les structures médiévales compartimentées pour un espace large et ouvert, soutenu par d'imposants pilastres décorés de figures de saints jésuites et de motifs classiques. Le décor de stucs blancs, d'une grande finesse, souligne les lignes de force de l'architecture tout en apportant une clarté lumineuse à l'ensemble. Cette sobriété chromatique contraste avec la richesse du mobilier et des autels latéraux, créant un équilibre entre solennité et splendeur. La transition vers le chœur est marquée par un arc triomphal imposant, qui ouvre sur un maître-autel à plusieurs étages, véritable manifeste théologique illustrant la chute des anges rebelles et le triomphe du Christ.\n\nSous le chœur et une partie de la nef se trouve la crypte royale des Wittelsbach, où reposent de nombreux souverains bavarois, dont le roi Louis II. Cette dimension funéraire et dynastique renforce le statut de Saint-Michel comme église de cour. Malgré les destructions majeures subies lors de la Seconde Guerre mondiale, la nef a été restaurée avec une précision remarquable, préservant son acoustique exceptionnelle et son atmosphère de grandeur. Elle demeure aujourd'hui un centre liturgique et musical majeur, où la clarté de l'espace continue de servir l'idéal de prédication et de célébration pour lequel elle a été conçue il y a plus de quatre siècles."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMX6kwH-izsT7HlqXaKpZmh80xKuIZ5PfcEC_I3_nHkpISnwVJzq4N7aaIEhXA1wMFb4F3mvLCw4SDkCRSabJBhq98kWv-r6Sro9fQL46N8CFL0Ynt3mcHL7Y7r7FhpB6p_RAZvwGBt7aSqMVwJmlXlcw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Sur la Neuhauser Straße au centre de Munich en Haute-Bavière, l'église Saint-Michel (St. Michael) s'impose comme la plus vaste église de la Renaissance édifiée au nord des Alpes et comme le manifeste architectural de la Contre-Réforme en Bavière. Le duc Guillaume V de Bavière fit bâtir ce sanctuaire monumental entre 1583 et 1597 pour l'ordre des Jésuites, en lui donnant une façade à pignon étagé rythmée par quinze statues en bronze des princes de la dynastie des Wittelsbach et dominée entre les deux portails par le groupe dramatique en bronze de l'archange saint Michel terrassant Lucifer, œuvre d'Hubert Gerhard.\n\nÀ l'intérieur, la nef unique d'une ampleur spectaculaire — couverte d'une voûte en berceau sans piliers intermédiaires dépassant vingt mètres de portée — conduit le regard vers le retable monumental du chœur, tandis que la crypte souterraine abrite les sépultures de la maison royale de Wittelsbach, dont celle du roi Louis II de Bavière.",
+    visiter: "Admirer sur la Neuhauser Straße à Munich la façade Renaissance sculptée de l'église Saint-Michel et son bronze de l'archange terrasseur de dragon, puis découvrir l'immense voûte en berceau de sa nef et la crypte des Wittelsbach.",
+    link: ""
+  },
+   {
     id: "augsbourg_cathedrale_visitation_sainte_marie",
     name: "Augsbourg (Augsburg) - Cathédrale de la Visitation de Sainte-Marie (Hoher Dom Mariä Heimsuchung)",
     country: "Allemagne",
