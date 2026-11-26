@@ -61,7 +61,7 @@ const SPOTS_3 = [
         caption: ""
       },
       {
-        url: "https://lh3.googleusercontent.com/pw/AP1GczNG1ztoj9SycJg3n0W9a1UHiEYLdYMk2ha02atuSLHzqGkaYThG_ED8WV2dYU0nYUQ0UqvJ6MyhRRMcxSXVIgxWEFqjN_MLRmF9TLY-vzon0sOQ8pXmTyfNQuwjYnGFtCdd4B9i7K9nIUuILF5xLREVw=w1379-h919-s-no-gm?authuser=0",
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNG1ztoj9SycJg3n0W9a1UHiEYLdYMk2ha02atuSLHzqGkaYThG_ED8WV2dYU0nYUQ0UqvqJ6MyhRRMcxSXVIgxWEFqjN_MLRmF9TLY-vzon0sOQ8pXmTyfNQuwjYnGFtCdd4B9i7K9nIUuILF5xLREVw=w1379-h919-s-no-gm?authuser=0",
         caption: ""
       }
     ],
@@ -87,7 +87,7 @@ const SPOTS_3 = [
     counts: { habitation: 1 },
     lat: 49.02446,
     lng: 12.09731,
-    image: "https://lh3.googleusercontent.com/pw/AP1GczO4FQPXOzAi0_fjc7n-hrLDMv19JudsGdOmVA9ux6xmNkqqCUP8YIzb-91uH5aRshVHjlnUf5Kjg3fOcVC9sw2MQ_SAQC23UeH7uwOAB_VJmj8BMyXVFpG976bm_UrQk9ZjsHwjv_-H72bopQRusd-JQ=w1379-h919-s-no-gm?authuser=0",
+    image: "https://lh3.googleusercontent.com/pw/AP1GczO4FQPXOzAi0_fjc7n-hrLDMv19JudsGdOmVA9ux6xmNkqqCUP8YIzb-91uH5aRshVHjlnUf5Kjg3fOcVC9sw2MQ_SAQC23UeH7uwOAB_VJmjv8BMyXVFpG976bm_UrQk9ZjsHwjv_-H72bopQRusd-JQ=w1379-h919-s-no-gm?authuser=0",
     gallery: [],
     description: "Dans le prolongement immédiat de l'extrémité septentrionale du Pont de Pierre sur l'île formée entre le Danube et le canal de Regen à Ratisbonne dans le Haut-Palatinat, la Hauptstraße de Stadtamhof déploie une perspective urbaine lumineuse et accueillante. Ancienne commune bavaroise indépendante rattachée à Ratisbonne en 1924, Stadtamhof constitua durant des siècles le poste frontière et commercial du duché de Bavière face à la ville libre d'Empire située sur la rive opposée du fleuve.\n\nReconstruite après les destructions des guerres napoléoniennes de 1809, sa large artère principale aligne de belles maisons bourgeoises aux façades pastel jaunes, roses, bleues et ocres, ornées d'encadrements de fenêtres classiques et de pignons harmonieux autour des anciens bâtiments conventuels de Sainte-Croix et de Saint-Magnus. L'atmosphère paisible de cette rue piétonne prolonge naturellement la découverte du centre historique inscrit à l'UNESCO.",
     visiter: "Poursuivre la promenade au-delà de l'extrémité nord du Pont de Pierre à Ratisbonne le long de la Hauptstraße de Stadtamhof pour admirer ses façades colorées classiques et baroques et son ambiance de bourg historique.",
@@ -262,7 +262,7 @@ const SPOTS_3 = [
     counts: {},
     lat: 49.01957,
     lng: 12.09805,
-    image: "https://lh3.googleusercontent.com/pw/AP1GczPL-luFdOM5eBL9eK9vRGMxdNkEzhzfgWfse0_n_mv-U0Np1TYR_k0XbHDb3N8gQ1idcgqOpM-UW49oIDOsueC7G59n0sIFiV2_wQ3zQ7zeCWxwfhPyNKKPpT78oixAGIf17-iSpqo0hGNe1Y3T2DE2Q=w613-h919-s-no-gm?authuser=0",
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPL-luFdOM5eBL9eK9vRGMxdNkEzhzfgWfse0_n_mv-U0Np1TYR_k0XbHDb3N8gQ1idcgqOpvM-UW49oIDOsueC7G59n0sIFiV2_wQ3zQ7zeCWxwfhPyNKKPpT78oixAGIf17-iSpqo0hGNe1Y3T2DE2Q=w613-h919-s-no-gm?authuser=0",
     gallery: [
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczMRpbNYqeSlhNyr_r-ArMaiwHLeCqtNzPUYEcnLK1pn_jq0l_1UbJu5fwrpKLnr_IzLvsqcIvx0VABVuGFlOLKFsVaq5RtnXBY09JictjDeMG1G4lII12Loh3K2P7tVD7CAMU-458PXRsMBqXVVq0AFIw=w1379-h919-s-no-gm?authuser=0",
