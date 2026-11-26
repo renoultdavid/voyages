@@ -7,6 +7,194 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "augsbourg_cathedrale_visitation_sainte_marie",
+    name: "Augsbourg (Augsburg) - Cathédrale de la Visitation de Sainte-Marie (Hoher Dom Mariä Heimsuchung)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Souabe",
+    subdiv: "Augsbourg",
+    altitude: 495,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Basilique Ottonienne & Romane (XIe Siècle), Vitraux des Prophètes, Chœur Gothique & Fresque de Saint Christophe (1491)",
+    century: "XIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 48.37275,
+    lng: 10.89638,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOeun3UTu_xufBiTfhzoqjDSjy8svCgl019px8PkIU7WmHMO_JndEixAXJSWHGmtdxKotDfPxGBU-lzmzhHtX1gK-9jJ70ZPeUb-0LxAe-vBHYUneSiYYlE2ol8cyaiZ7VP7zTGeJxFLzNd7m91dZKqUw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPC0ma3jsLz5MUm8nXolNwvj4NxxFS75mCJ2xJpo04aiahqyRWkeCJ4dKXtBnN2THizY9wcyDWmF7YblN0r-YkQfrssopo__butPp80XUg_ZoL7TkF_Gzoi58hUKiHTHIch3XAXtedrh4QWyNFEVdXLjQ=w1379-h919-s-no-gm?authuser=0",
+        caption: "Le portail sud de la Cathédrale de la Visitation de Sainte-Marie à Augsbourg constitue l'un des ensembles sculpturaux les plus significatifs de l'art gothique en Allemagne du Sud. Édifié au XIVe siècle, ce portail monumental servait d'entrée d'apparat, contrastant avec la structure romane plus ancienne de l'édifice. Son architecture se caractérise par une profonde embrasure à voussures multiples, typique du style gothique rayonnant, qui invite le fidèle à pénétrer dans l'espace sacré tout en l'instruisant par un programme iconographique d'une grande complexité.\n\nLe tympan, divisé en plusieurs registres horizontaux, déploie une narration dense consacrée à la vie de la Vierge Marie, patronne de la cathédrale. On y observe avec une précision remarquable des scènes telles que la Mort de la Vierge, son Assomption et son Couronnement céleste. La finesse des sculptures, autrefois rehaussées de polychromie, témoigne de la virtuosité des ateliers locaux qui ont su insuffler un naturalisme nouveau aux visages et un mouvement fluide aux drapés des personnages, annonçant la sensibilité du gothique tardif.\n\nLe trumeau, le pilier central séparant les deux portes en bois sculpté, accueille une statue de la Vierge à l'Enfant d'une élégance souveraine. De part et d'autre, sur les ébrasements, se tiennent des statues d'apôtres et de saints, dont les socles et les dais sont ornés de motifs architecturaux miniatures et de feuillages stylisés. Les voussures qui surmontent l'ensemble sont peuplées de nombreuses figures de prophètes, d'anges et de rois, créant une hiérarchie céleste qui encadre l'entrée du sanctuaire.\n\nCe portail ne se limite pas à sa fonction décorative ; il agit comme une \"Bible de pierre\" destinée à une population largement analphabète. La structure en arc brisé, surmontée d'un gâble aigu orné de crochets et d'un fleuron, souligne la verticalité propre à l'esthétique médiévale. Bien que la cathédrale ait subi de nombreuses modifications au fil des siècles, ce portail sud demeure un témoin préservé de la splendeur spirituelle et artistique d'Augsbourg à la fin du Moyen Âge."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOT3AuMne7mYO9aCMMwnbrW5Syq9ulhopCVh8Uz9RcjCvVo4VUuRX5I8_8buSCMMSjeySkypeHV1od3jlXuvN1sdPm0r7W4bxX1sRlnFL55qRYhC1t3iqm_gWP2ZSPwXKyORlIxRrP1tC62MtVE29-svw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczP3o9pL07b-tvFunaJLAm5LHSt2q9wjC-dGepa96SN0FF21sSgOrFv0VUkjHQ6y6mdWlCgxedExQubkUuIh4opSUqU0PLtcclCaEtD1VCCJMKhUrzuuZf5VKM-v4Bsq7_YBlpQ-_VVo-vjVrZ081Q3sgg=w1379-h919-s-no-gm?authuser=0",
+        caption: "La nef de la Cathédrale d'Augsbourg témoigne d'une histoire architecturale millénaire, où la rigueur du roman se fond dans l'élégance du gothique. Contrairement à de nombreuses cathédrales européennes qui présentent une nef unique orientée vers l'est, l'édifice d'Augsbourg se distingue par sa structure à double chœur, héritage de son passé carolingien et ottonien. La nef centrale, telle qu'elle apparaît aujourd'hui, conserve les proportions imposantes et les murs massifs de la basilique romane du XIe siècle, tout en ayant été rehaussée de voûtes d'ogives à la fin du Moyen Âge pour s'adapter au goût gothique.\n\nL'élévation de la nef se caractérise par une simplicité solennelle qui met en valeur la verticalité des piliers. Les grandes arcades en arc brisé soutiennent des parois claires, rythmées par les lignes des colonnettes qui montent jusqu'au plafond. Cette architecture crée un espace de recueillement où la lumière est dirigée vers le chœur gothique est, visible en arrière-plan avec ses hautes fenêtres à remplages et ses vitraux colorés. La structure en briques et pierres, souvent soulignée par des joints peints en rouge, rappelle les techniques de construction médiévales de la région.\n\nParmi les trésors que renferme cette nef, les vitraux des prophètes (situés dans les fenêtres hautes du côté sud) sont considérés comme les plus anciens vitraux figuratifs au monde encore en place, datant de la fin du XIe siècle. Ils apportent une profondeur historique exceptionnelle au vaisseau central. Le long des piliers, des autels et des tableaux de maîtres, dont certains de la période de la Renaissance comme ceux de Hans Holbein l'Ancien, enrichissent le parcours liturgique et artistique des fidèles et des visiteurs.\n\nLa nef de la cathédrale d'Augsbourg n'est pas seulement un vestige du passé ; elle reste le cœur battant d'un diocèse historique. La transition fluide entre les éléments romans (les murs et la base des piliers) et les voûtes gothiques (XIVe siècle) illustre la continuité de la foi et de l'art à travers les siècles. Ce lieu incarne l'équilibre parfait entre la puissance terrestre de la pierre médiévale et l'aspiration spirituelle vers la lumière divine."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPw5pq4JHeqAva6BxdLD9_GJNMCyZAJQCOeQPxhO1kCk0WRzfl8qMOhhWjGEiygh15eqExtKKua8PUeA32rlU2EYA6DW7yK7gQKgcQ4tIi5Ijn6jisKf1OZcUSoOsYSOrNNyuWfhfirbwMcsRg-hBb9fA=w1379-h919-s-no-gm?authuser=0",
+        caption: "La fresque monumentale de saint Christophe constitue l'un des exemples les plus impressionnants de la peinture murale du gothique tardif en Allemagne. Mesurant plusieurs mètres de haut, cette représentation colossale répondait à une croyance populaire médiévale très ancrée : quiconque posait le regard sur une image du saint porteur du Christ était protégé de la « malemort » (la mort subite sans confession) pour la journée. C'est pour cette raison que les figures de saint Christophe étaient traditionnellement peintes à une échelle monumentale, souvent près des entrées ou dans des lieux de passage obligé, afin d'être visibles de loin par les fidèles et les voyageurs.\n\nL'œuvre, datée de 1491, frappe par la force de sa composition et le dynamisme de son trait. Le saint est représenté selon l'iconographie traditionnelle, traversant un cours d'eau dangereux, appuyé sur un tronc d'arbre noueux qui lui sert de bâton. Sur ses épaules repose l'Enfant Jésus, dont le poids semble courber le géant, illustrant la légende selon laquelle Christophe, en portant l'enfant, portait en réalité le poids du monde entier. Les drapés rouges de son manteau, larges et anguleux, témoignent de l'influence du style « cassé » typique de la fin du XVe siècle, apportant une sensation de mouvement et de volume à la figure.\n\nUn détail technique et historique remarquable est l'inscription de la date « 1491 » visible au sommet de la composition, sous la voûte d'ogive. La fresque s'intègre parfaitement dans l'architecture gothique de la cathédrale, utilisant la surface murale entre les nervures pour créer une présence quasi vivante. Bien que le temps ait partiellement estompé certaines couleurs, la puissance expressive du visage du saint, avec sa barbe fournie et son regard concentré, demeure intacte. Les phylactères (banderoles portant des inscriptions) qui serpentent au pied du saint ajoutent une dimension textuelle et didactique à l'image, renforçant son rôle de médiateur spirituel."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNR8SVNGqMZisocC_x5PN8QgxP6zeLPbKxNijZMJtQ66ItWaE_g23ItYmPlhEMQTEJb2s40bEMwXIFoHZt50akwp5S9X_5MuScybO3ayTFYs34uQbZHkM7uZ6So3lRzYGqMwVuL5w-UW4hz2z4OjLdzcA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Au nord de la vieille ville historique d'Augsbourg en Souabe bavaroise, la cathédrale de la Visitation de Sainte-Marie (Hoher Dom Mariä Heimsuchung) superpose plus d'un millénaire d'architecture sacrée allemande depuis ses origines carolingiennes et ottoniennes jusqu'aux grandes campagnes gothiques des XIVe et XVe siècles. Sa structure à double chœur, héritée de la basilique romane du XIe siècle, s'ouvre extérieurement par le remarquable portail sud gothique dont le tympan sculpté et le trumeau à la Vierge à l'Enfant déploient une véritable Bible de pierre.\n\nDans la nef lumineuse et solennelle brillent les célèbres vitraux des prophètes de la fin du XIe siècle — les plus anciens vitraux figuratifs au monde encore en place dans leur cadre d'origine —, ainsi que des retables de Hans Holbein l'Ancien et la monumentale fresque gothique tardive de saint Christophe datée de 1491.",
+    visiter: "Contempler le portail sud sculpté de la cathédrale d'Augsbourg, puis parcourir sa nef à double chœur pour admirer les vitraux romans des prophètes, les retables de Hans Holbein l'Ancien et la fresque colossale de saint Christophe.",
+    link: ""
+  },
+  {
+    id: "augsbourg_hotel_de_ville_et_goldener_saal",
+    name: "Augsbourg (Augsburg) - L'Hôtel de Ville Renaissance & La Salle Dorée (Rathaus & Goldener Saal)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Souabe",
+    subdiv: "Augsbourg",
+    altitude: 492,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Chef-d'Œuvre de la Renaissance Allemande par Elias Holl (1615-1624), Pignon à Pomme de Pin & Fastueuse Salle Dorée",
+    century: "XVIIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 48.36880,
+    lng: 10.89862,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMnuWbQ9fddPlpUgplilVGi5fW4PUSucEaTu0euJeGF_yi8f_vQtRupeoIoxj44-ZjWZqC1xPk3xd6peGGt-bnG1aXfmHTfzCCGvzY1FjfPVEXDWnS9eZzSEPt-t69Kd2YbGamVVzC3XVC-soz-JrWoqQ=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMrdJMqigbgogCRKLdzG2CfrCXP3_-vXzJ-GxDBsOJwQjw_XsBJtVgECZa-9ZpfjeZ-EpR3gJNQn1xXcfHAQv3it9muyKrTssTUcpnZGYSViPfQwWXYw7nIBKIprV83LacrU2WCj0w-A9I3R65GHbT0EQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOr5JeL0brPXyrRt4TS7uBVTuEbiumQ8oO7dU64ZBBesY1nPoJgS3g1TZBkBE2JT0qJ6dMKfHAHxiZR-aZpj1csIxtHqoWh6-gFG_yRWHBrs0CrkvMcyWXDsPItJTXi0YqCgRhqQKS1LKGZjD0PrWCv1g=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Sur la vaste Rathausplatz au cœur d'Augsbourg en Souabe bavaroise, l'Hôtel de Ville (Augsburger Rathaus) affirme la puissance financière, politique et artistique de l'ancienne ville libre d'Empire des banquiers Fugger et Welser. L'architecte municipal Elias Holl conçut cet édifice monumental entre 1615 et 1624 comme l'un des sommets de l'architecture civile de la Renaissance allemande, en lui donnant une façade symétrique à fronton triangulaire couronné d'une immense pomme de pin en cuivre (Zirbelnuss), emblème héraldique de la cité depuis l'Antiquité romaine, et en le flanquant de deux tours octogonales à bulbe ainsi que de l'antique tour de guet du Perlachturm.\n\nÀ l'étage noble s'épanouit la célèbre Salle Dorée (Goldener Saal), vaste salon d'apparat haut de quatorze mètres dont les portails monumentaux, les fresques allégoriques de Johann Matthias Kager et le prodigieux plafond à caissons sculpté et doré à la feuille d'or ont été minutieusement reconstitués après l'incendie de 1944.",
+    visiter: "Contempler la façade Renaissance de l'Hôtel de Ville d'Elias Holl sur la Rathausplatz d'Augsbourg puis monter admirer la fastueuse Salle Dorée (Goldener Saal) aux plafonds à caissons dorés et fresques allégoriques.",
+    link: ""
+  },
+  {
+    id: "augsbourg_eglise_saint_maurice",
+    name: "Augsbourg (Augsburg) - L'Église Saint-Maurice (St. Moritz - Maximilianstraße)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Souabe",
+    subdiv: "Augsbourg",
+    altitude: 492,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Collégiale Fondée en 1019, Façade Baroque & Renaissance (Elias Holl) et Intérieur Épuré par John Pawson sur la Maximilianstraße",
+    century: "XVIIe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 48.36700,
+    lng: 10.89791,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMU0k-m56CIr8mr2P7DU9pP6zi0J1VKzhQKp_saxbRIbQmMw6fS_HowHJnHi9CgETLcwWjES_SrM4p2u2RMEVvIAy3FwITOPUp5XREKEzIdQhC84Gnb2xNB5f_ImsS98ek5QD-b8b5BSlV5ufat0N6qVA=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Le long de la prestigieuse Maximilianstraße à Augsbourg en Souabe bavaroise, non loin de l'Hôtel de Ville et de la fontaine de Mercure, l'église Saint-Maurice (St. Moritz) marie une histoire millénaire aux grandes étapes de l'architecture augsbourgeoise. Fondée en 1019 par l'évêque Brunon comme église collégiale, reconstruite en style gothique au XIVe siècle puis dotée au début du XVIIe siècle d'un puissant clocher Renaissance conçu par Elias Holl et d'un décor baroque au XVIIIe siècle, elle fut lourdement endommagée lors des bombardements de 1944.\n\nSa façade claire donnant sur l'artère impériale conserve le charme harmonieux de l'architecture sacrée d'Allemagne du Sud, tandis que son espace intérieur, réaménagé au XXIe siècle selon un projet minimaliste lumineux de l'architecte britannique John Pawson, met en valeur les piliers historiques et les précieuses sculptures baroques de Georg Petel autour d'une atmosphère de pureté et de silence.",
+    visiter: "Observer depuis la Maximilianstraße d'Augsbourg la façade et le clocher de l'église Saint-Maurice avant d'entrer découvrir le dialogue entre ses sculptures baroques historiques et la clarté épurée de sa nef.",
+    link: ""
+  },
+  {
+    id: "augsbourg_fontaine_d_hercule",
+    name: "Augsbourg (Augsburg) - La Fontaine d'Hercule (Herkulesbrunnen - Maximilianstraße)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Souabe",
+    subdiv: "Augsbourg",
+    altitude: 497,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Chef-d'Œuvre Maniériste en Bronze d'Adriaen de Vries (1596-1602), Hercule Terrassant l'Hydre & Système Hydraulique UNESCO",
+    century: "XVIe siècle",
+    category: "monument",
+    is_unesco: true,
+    counts: { unesco: 1 },
+    lat: 48.36508,
+    lng: 10.89954,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPipsK73CfBadPNKL7fu9Hwi8_SBLrbeqlauTCGUC4EGYoPQyPW5kBk2kMPK-rLEE0IATeuMo6dCcyrrwp6l-EB7lVpJy2LvEtseL7M0H5rLRb2AoMQkm0R__ngBQe6nO05f-atPF5KTRXTcu2JY6lb5w=w613-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Au cœur de la Maximilianstraße à Augsbourg en Souabe bavaroise, devant l'ancien palais Schaezler, la Fontaine d'Hercule (Herkulesbrunnen) constitue l'un des trois célèbres monuments hydrauliques de la Renaissance qui célèbrent la richesse civique et la maîtrise technique des eaux d'Augsbourg, inscrites au patrimoine mondial de l'UNESCO. Le sculpteur néerlandais Adriaen de Vries, ancien élève de Giambologna à Florence et maître incontesté du maniérisme européen, modela et fondit entre 1596 et 1602 ce groupe dynamique en bronze d'une virtuosité plastique extraordinaire.\n\nAu sommet de la colonne centrale jaillissant d'un bassin hexagonal, Hercule brandit sa massue dans un mouvement hélicoïdal saisissant pour terrasser l'hydre de Lerne aux sept têtes, accompagné sur les registres inférieurs des trois naïades se coiffant et de putti chevauchant des oies et des dauphins. L'eau qui s'écoule en multiples jets témoigne de l'ingénieux réseau de châteaux d'eau et de canaux qui alimentait la cité impériale dès la Renaissance.",
+    visiter: "S'arrêter devant le palais Schaezler sur la Maximilianstraße d'Augsbourg pour admirer les bronzes maniéristes d'Adriaen de Vries ornant la Fontaine d'Hercule, élément emblématique du système de gestion de l'eau d'Augsbourg inscrit à l'UNESCO.",
+    link: ""
+  },
+  {
+    id: "augsbourg_basilique_saint_ulrich_et_sainte_affre",
+    name: "Augsbourg (Augsburg) - La Basilique Saint-Ulrich-et-Sainte-Affre (Basilika St. Ulrich und Afra)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Souabe",
+    subdiv: "Augsbourg",
+    altitude: 501,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Sanctuaire des Saints Patrons d'Augsbourg (Entrepris en 1474), Voûtes Gothiques Tardives, Autels Maniéristes & Paix d'Augsbourg",
+    century: "XVe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 48.36149,
+    lng: 10.89982,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczN07pwHYRNghAZsmO3Cyped1vlGyShecGZ4M036-77aD3cNXvQGTjQaxtbk-4oTkhNSrielI0y8E23VG5ces4n6vBKT3EqqOk2B4XDj9GadJK78twKOYRZn8DNVxLTOiu_Rk_6kPAw3NRmcKHX6a72ciw=w1379-h919-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOKZ_SfYdRnv2c6vghVRnY54MHYpJLYzTSG7FF9oMeJGD6nNIJnufkMoGVa0ELfBGVZm1d7zkpcEc8_gH-gTs0Q-gaVoDSJG_vJzHFexE98WpP8W6Eso-b1oVTuOdq5y0ZV60dfGWgGbxgqOhao9tqmjg=w1379-h919-s-no-gm?authuser=0",
+        caption: "La nef de la basilique Saint-Ulrich-et-Sainte-Affre représente l'un des exemples les plus aboutis du gothique tardif en Allemagne, tout en marquant la transition vers la Renaissance et le Baroque. Reconstruite à partir de 1474 sur le site d'anciennes abbayes bénédictines, cette nef impressionne par ses dimensions monumentales et la clarté de son architecture. Le vaisseau central, d'une verticalité saisissante, est rythmé par des piliers octogonaux massifs qui s'évasent en une voûte d'ogives complexe. Cette structure en \"résille\" de nervures crée un effet de plafond étoilé qui unifie l'espace tout en lui conférant une légèreté aérienne, typique de l'esthétique du XVe siècle finissant.\n\nL'intérieur de la nef se distingue par son mobilier d'une richesse exceptionnelle, qui contraste avec la sobriété des parois blanches. On y trouve notamment trois autels monumentaux en bois sculpté, chefs-d'œuvre de la sculpture allemande du début du début du XVIIe siècle, qui marquent la transition vers le style baroque. La chaire dorée et les grilles en fer forgé finement travaillées ajoutent à la splendeur de l'édifice. La lumière, abondante grâce aux larges baies des bas-côtés et du clair-étage, met en valeur les détails des chapiteaux sculptés et les armoiries des généreux donateurs de l'abbaye, rappelant l'importance historique et politique de ce lieu de pèlerinage.\n\nLa nef abrite également les tombeaux des deux saints patrons d'Augsbourg, Ulrich et Affre, attirant des fidèles depuis le Moyen Âge. La cohabitation de structures gothiques avec un mobilier baroque tardif illustre la pérennité du sanctuaire à travers les réformes religieuses. La basilique est d'ailleurs célèbre pour sa proximité immédiate avec une église protestante, formant un ensemble architectural unique qui symbolise la Paix d'Augsbourg de 1555. Ce vaste vaisseau de pierre demeure aujourd'hui un témoignage vivant de la puissance spirituelle et de l'excellence artistique de la cité impériale."
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczO_Ei5Mx2U3FAArgad8lNN1dzU7cnUClChsJdXZNwp6hVx4bJJiGO3I_RoVOh_lQ9I0hknxjiYvKd96voHEpIDTiSKrHralmagvR4os58WWvw2syGis10CZd99PWTIc-Trw8oXvMcT5hR7O7FKiCgDfMA=w613-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPCtmbuHRHkv-tLpjIa5H-Ug9C-EquM1Y7rlrNj53uqeC8MHKtkWywvjOB4Q4FNFCCIp4Ddfk5eVzKdkWZpT8GuM7ma5tyd8ALsP2MphmaOvHbpwsQLODoqjLKT-FH0I66k0Ndm8KFQQWaf6is03KNMOQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "À l'extrémité méridionale de la Maximilianstraße à Augsbourg en Souabe bavaroise, l'imposante basilique Saint-Ulrich-et-Sainte-Affre (Basilika St. Ulrich und Afra) ferme la perspective impériale par la silhouette de son haut clocher coiffé d'un bulbe de cuivre. L'édifice gothique tardif actuel fut entrepris en 1474 sur le site vénérable de l'ancienne abbaye bénédictine impériale abritant les tombeaux des deux saints patrons de la ville et du diocèse : sainte Affre, martyre chrétienne de l'époque romaine, et saint Ulrich, évêque d'Augsbourg au Xe siècle.\n\nDans son vaste vaisseau lumineux aux voûtes réticulées, trois retables monumentaux en bois sculpté du début du XVIIe siècle — chefs-d'œuvre de Hans Degler — dialoguent avec les grilles en fer forgé et les cryptes des saints, tandis que l'église protestante voisine rappelle la coexistence confessionnelle consacrée par la Paix d'Augsbourg de 1555.",
+    visiter: "Parcourir la Maximilianstraße jusqu'à son extrémité sud pour visiter la basilique Saint-Ulrich-et-Sainte-Affre à Augsbourg, admirer ses voûtes gothiques tardives, les trois autels sculptés de Hans Degler et les tombeaux des saints patrons.",
+    link: ""
+  },
+  {
+    id: "augsbourg_maximilianstrasse",
+    name: "Augsbourg (Augsburg) - La Maximilianstraße & Les Palais des Banquiers Fugger et Schaezler",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Souabe",
+    subdiv: "Augsbourg",
+    altitude: 496,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Grande Artère Triomphale d'Augsbourg (Via Claudia Augusta), Palais Renaissance des Fugger, Palais Rococo & Fontaines Monumentales",
+    century: "XVIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 48.36397,
+    lng: 10.89986,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPwA7Pg63W1hRwT2LM7nQnUlOlvIgodmOMQ4eI1X7B9xLbx-p-uRcfIppCTp0RiXM_1pLtD4dfIDH5MrBPjPYThu7QuWSZf1GiyGwXKkYou35fcyDIMiB-avNxIFufI31P3kBpMRM681yNBRkl8nBdn4g=w1379-h919-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Du parvis de l'Hôtel de Ville jusqu'au chevet de la basilique Saint-Ulrich-et-Sainte-Affre, la Maximilianstraße déploie l'une des plus majestueuses avenues urbaines d'Europe centrale au cœur d'Augsbourg en Souabe bavaroise. Son tracé rectiligne perpétue directement le souvenir de la *Via Claudia Augusta*, la grande voie impériale romaine qui reliait l'Italie du Nord à la province de Rhétie et à la capitale provinciale *Augusta Vindelicorum* fondée sous l'empereur Auguste en 15 avant Jésus-Christ.\n\nAu XVIe siècle, lorsque Augsbourg rayonnait comme l'une des capitales financières de l'Europe grâce aux dynasties marchandes et bancaires des Fugger et des Welser, cette large promenade bordée de tilleuls se couvrit de somptueux palais patriciens aux façades Renaissance, baroques et rococo — tels les palais Fugger (Fuggerhäuser) ou le palais Schaezler — ponctués par les trois célèbres fontaines Renaissance d'Auguste, de Mercure et d'Hercule.",
+    visiter: "Remonter à pied la Maximilianstraße d'Augsbourg entre l'Hôtel de Ville et la basilique Saint-Ulrich-et-Sainte-Affre pour admirer les palais patriciens Renaissance et rococo des familles Fugger et Schaezler ainsi que les fontaines historiques.",
+    link: ""
+  },
+   {
     id: "nuremberg_handwerkerhof",
     name: "Nuremberg - La Cour des Artisans (Handwerkerhof - Königstor)",
     country: "Allemagne",
