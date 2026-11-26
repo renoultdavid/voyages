@@ -7,6 +7,293 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "bamberg_old_court_alte_hofhaltung",
+    name: "Bamberg - L'Ancienne Cour Épiscopale (Alte Hofhaltung - Domplatz)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Haute-Franconie",
+    subdiv: "Bamberg",
+    altitude: 270,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Ancienne Résidence Épiscopale & Cour Intérieure à Colombages (XVe-XVIe Siècles) sur la Domplatz de Bamberg",
+    century: "XVIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.89118,
+    lng: 10.88139,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOVWKQ28LD6VDQo_9CWu6Pc9qzjZzdCqrClv0PtL78wWVN3s-lLbQalZWBL9ycjU6BcK6PJ2RuGtSyWPQGQ22MVFofD1nmkYOKr2nRMUoSWJzOP9GYw9rlbIQXoFTd-oeGGKxV5b31eVi1pHkf9zj3q8A=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN6XiqKCRx1D3BtiBMIWh5HGTvRJ0G5ylvO97ZZh2spOeAOWQx-lN5Mv173O5BgzSkn5DWQdleQSt2EMaz2oOpN3pNkKf_lIG2o2pG3PsuuUcuVtM0idSVbvgfGoeHuM_FyrhY5SsJobgp58IMtxVJfKQ=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNU_7iRUUUzcc_fSZDUYLyV5ZGQEbS5NqQ2eC1XT6jxjnBJJVM-FcOALfuzYdc6f9CWZJjcakoydF65L-QCAb3pd3rET_UWZGV9UeRH14UnmR6OHwfYaks2Y0jw7kA6Q23nDEHXgYpdpkpvaFIgQAIGxQ=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Blottie directement contre le flanc méridional de la cathédrale impériale sur la Domplatz au cœur de Bamberg en Haute-Franconie, l'Ancienne Cour (Alte Hofhaltung) constitue l'un des ensembles architecturaux les plus évocateurs et pittoresques de l'histoire épiscopale de la ville. Établie dès le XIe siècle comme résidence des princes-évêques de Bamberg avant qu'une nouvelle résidence ne soit édifiée face à la cathédrale à la fin du XVIe siècle, cette cour fermée réunit des corps de logis gothiques et Renaissance aux façades en grès et de superbes galeries à colombages inclinés et balcons en bois ouvragés.\n\nEn franchissant le portail Renaissance en grès sculpté s'ouvrant sur la Domplatz — surmonté des statues de l'empereur Henri II et de l'impératrice Cunégonde —, le visiteur découvre un havre paisible et intime où les poutres anciennes, les pignons, les toitures de tuiles patinées et la fontaine centrale composent un décor médiéval et renaissant d'une rare authenticité, abritant aujourd'hui le musée historique de Bamberg et les vestiges de la chapelle Saint-Pierre.",
+    visiter: "Franchir le portail Renaissance de la Domplatz à Bamberg pour pénétrer dans la cour intérieure de l'Alte Hofhaltung et admirer ses galeries à colombages, ses façades anciennes, sa fontaine et la proximité immédiate de la cathédrale.",
+    link: ""
+  },
+  {
+    id: "bamberg_rosengarten_neue_residenz",
+    name: "Bamberg - La Roseraie de la Nouvelle Résidence (Rosengarten - Domplatz)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Haute-Franconie",
+    subdiv: "Bamberg",
+    altitude: 257,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Jardin Rococo en Terrasse de la Nouvelle Résidence (1733), Rosiers Fleuris & Panorama sur la Vieille Ville et l'Abbaye Michaelsberg",
+    century: "XVIIIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.89208,
+    lng: 10.88189,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPKz4LLeaI9HnMOdeJth-q2jpN1nRA0H7qaK4YGUvLEG-F9ctAbyBVtBQiW-HNuCuB2FU81orz3CiiAxqFohKSwKijwYgNLCVSdBGZxkgVtcT-Gj_zybMCe_JG-MseXJb-8QsCsBTj1eKsAuKrqCN62FA=w1367-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Aménagée en terrasse sur le versant occidental de la colline cathédrale à l'arrière de la Nouvelle Résidence (Neue Residenz) à Bamberg en Haute-Franconie, la Roseraie (Rosengarten) offre l'un des plus charmants jardins baroques et panoramiques de la cité. Dessiné en 1733 selon les plans de l'architecte baroque Johann Jakob Michael Küchel pour les princes-évêques de Bamberg, ce jardin princier déploie ses parterres géométriques, ses allées de gravier, ses pergolas, ses sculptures et ses milliers de rosiers multicolores en fleurs aux beaux jours.\n\nDepuis les balcons et les terrasses bordant le jardin, le regard embrasse une vue dégagée remarquable sur les toitures de tuiles rouges de la vieille ville, les collines boisées environnantes et la silhouette majestueuse de l'ancienne abbaye bénédictine du Michaelsberg couronnant la colline voisine.",
+    visiter: "Parcourir les allées fleuries de la Roseraie à l'arrière de la Nouvelle Résidence de Bamberg pour profiter des parterres de roses, des sculptures de jardin et du panorama sur la vieille ville et l'abbaye du Michaelsberg.",
+    link: ""
+  },
+  {
+    id: "bamberg_petite_venise_klein_venedig",
+    name: "Bamberg - La Petite Venise & Les Maisons de Pêcheurs (Klein-Venedig - Rives de la Regnitz)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Haute-Franconie",
+    subdiv: "Bamberg",
+    altitude: 240,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Anciennes Maisons de Pêcheurs et de Bateliers sur le Bras Gauche de la Regnitz (XIVe-XVIIe Siècles), Colombages & Jardins Riverains",
+    century: "XVIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.89292,
+    lng: 10.88460,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNdRy5tBCG2YAsRh_NVWOHUMn0r31k5MxUgm-uPl2rLCcOhgTNSQ9OTgA2M7DxLfVS15fNTD9R0TsR0jXgWNjgzVd9XX4EB5nF4H4YkE8hT0XhLNt1bilD5OKp4sPXAdDfoWPusTjVxHt-LUdFd0NXRUw=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczMJwYLdbncrWC9P8wEoSlT2WiSeLLONb57iBEvNErnryEdbJ4Z5zfwipZZTgNR7d1g4OyumtKCvOufZ-oxOMLopSXQdq8laHdqVkox0DppDVO2HPZeFJw8YJzA295d9ahzFwVxudu9kgtlOGX0nIpfkWw=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPsxC2V1vWi1YXbO45EH7s-ZChtWkQRr8tPrCD7dmupQAzdstBXTCbIKALQVQ-H2GVmRCx_ajfBmXhedKYV6sLDczDvuT7i3czeqlRo8l40WJEi3IZ6ijC9Wa3oJ7jQk3VzYfRdfmnpqprLC2yAqHTyNg=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOEnb9yysGrPuxMrfCnA31ivjjKgqTunjnJqJyBr0UHYikYejvO-H3ew1zVDLNWrk8NzMER9JpdjyjVY0jnYNOMe2WLiI9S93KSCJtL48i1evR3ed02AoFkEbURK4ecfRQ9NLSoYJ7gaCBz07lYjtJUcQ=w1367-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPHo4xSjvRDQXqb7rXPjRD70TqXy5L3IuYMUykcit_ZyzP2K3xX05kYX4W0m_TvmqgnT5HC_M0bAG0Je-uhyhMjXU5PKYTkmp2c5p0-g3ddDVhhFjxisnPE9wiFhQLJECIAgT-f2FlaRkCr09R6y-GQ5g=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "S'alignant au fil de l'eau le long de la rive gauche du bras principal de la Regnitz dans le quartier insulaire de la ville de Bamberg en Haute-Franconie, le quartier de la Petite Venise (Klein-Venedig) rassemble une rangée pittoresque de maisons à colombages médiévales et modernes aux façades colorées et aux toitures escarpées. Édifiées à partir du XIVe siècle et surtout aux XVIe et XVIIe siècles comme demeures et ateliers des corporations de pêcheurs et de bateliers (« Fischer und Häcker ») qui exploitaient les ressources fluviales et naviguaient sur la Regnitz et le Main, ces habitations étroites plongent directement leurs soubassements en pierre dans le courant.\n\nDevant les façades s'étagent de petits jardins potagers, des terrasses fleuries et des embarcadères en bois reliés à l'eau par des marches et des passerelles, où s'amarraient autrefois les barques de pêche et où glissent aujourd'hui les bateaux de promenade. Ce tableau fluvial plein de charme et de fraîcheur illustre l'adaptation ingénieuse de l'habitat traditionnel franconien aux rives de la rivière.",
+    visiter: "Longer à pied les berges et les passerelles le long de la Regnitz à Bamberg pour contempler la rangée de maisons à colombages de la Petite Venise, leurs jardins au bord de l'eau et les reflets des façades dans la rivière.",
+    link: ""
+  },
+  {
+    id: "bamberg_altes_rathaus",
+    name: "Bamberg - L'Ancien Hôtel de Ville sur la Regnitz (Altes Rathaus - Île de la Regnitz)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Haute-Franconie",
+    subdiv: "Bamberg",
+    altitude: 240,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Édifice Civique Érigé sur un Îlot Artificiel au Milieu de la Regnitz (XIVe-XVIIIe Siècles), Fresques Baroques & Colombages",
+    century: "XVIIIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.89160,
+    lng: 10.88686,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNoLviDFN_INI5fmiAirtQeSqMI7Pr1VjcNglNQYYrBSmcY1Jxp8W5uMSsTiiqwfEgvS2AEy-IOwP7583NMcz1FJx8lxDsuPJzS8uDHW4AenBmxmWn7t4_V1ADg23oKaKTxTQ58yXJ9yimUy3vl7yqhxA=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOJygdyynJPEa-osQag6nX92-xlxnO0y6StrRozw8U1dfZgQyhvu1icyo4Qo1TiJG1h8oOCLUdTJFyel1mpYm1E-qcgAQPnwLf7HjYjMGsUNpRYYXXo1tyR5Y1Nrgd2lThiSTWVDXVBWIy3p0wKqFtNKg=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOl5orTrf7-FXuIRXLtjxt-Z2H1CeqB0Wc4u60rNXbaz4xt8a984a5r_NYXMdTGQKxAwXa9nSLuUUrUVZ-01cTQcVy7euaI-mT4eidZ2F5C0wqxvijkz7DkhfIhD_RJt8G3zE0ZwKlt40TtZL6GdqklCQ=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczOk18RohgdYfd9ln2B1zx5-DfI_SVNsZvN4JuYQJOF7_tcyAFNgRYCyZzKRITbYcLHVyEBjCJhUJ6JBvFypBjiCT8_d67YOl7FqOUeuPJsaoCSOJPXB-V2zvPxbL9eomW0wY_x0xKU2DgFU4FxgrCgzZg=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Juché de manière spectaculaire sur un îlot artificiel aménagé au milieu même du cours de la rivière Regnitz entre les deux bras de pont qui relient la ville épiscopale de la colline cathédrale à la ville bourgeoise de la plaine à Bamberg en Haute-Franconie, l'Ancien Hôtel de Ville (Altes Rathaus) incarne l'un des monuments civiques les plus singuliers et célèbres d'Allemagne. Selon la tradition locale, le prince-évêque ayant refusé aux bourgeois de la cité un terrain pour bâtir leur hôtel de ville, les habitants construisirent l'édifice sur pilotis et remblais au cœur du fleuve dès le XIVe siècle — l'ouvrage étant attesté dès 1386 — afin de matérialiser l'autonomie de la commune face au pouvoir épiscopal.\n\nProfondément remanié au XVIIIe siècle (1744-1756) sous l'impulsion de l'architecte Johann Jakob Michael Küchel, le complexe associe une aile en maçonnerie ornée de fresques baroques et rococo aux couleurs vives et aux trompe-l'œil — où figure notamment une jambe peinte en relief — à la pittoresque maison à colombages « Rotes Rathaus » et à la tour-porte coiffée d'un clocher à bulbe enjambant la rue du pont.",
+    visiter: "Traverser la Regnitz par les ponts encadrant l'Altes Rathaus à Bamberg pour observer l'édifice posé au milieu de l'eau, ses fresques peintes en trompe-l'œil, sa maison à colombages et sa tour-porte à clocher à bulbe.",
+    link: ""
+  },
+  {
+    id: "bayreuth_festspielhaus_richard_wagner",
+    name: "Bayreuth - Le Palais des Festivals de Richard Wagner (Bayreuther Festspielhaus - Colline Verte)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Haute-Franconie",
+    subdiv: "Bayreuth",
+    altitude: 374,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Théâtre Lyrique Conçu par Richard Wagner (Inauguré en 1876), Architecture de Brique & Acoustique Révolutionnaire sur le Grüner Hügel",
+    century: "XIXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.95977,
+    lng: 11.57968,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczOx8npDoErV_x5Uoffsb_BxN64wX6GdwS2CSEhkJM2fuNFBSyMDT1ve2c1bII4_PK2EBpSwgFMl1fGAS3CYDh8THnIDV-uaI5M6Er1GsDFzUBW29rV3ib859kdljwU1BEkbxSqSJp3AhqC-Osk7ClvrOg=w1367-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Dominant la ville de Bayreuth en Haute-Franconie depuis les hauteurs boisées de la « Colline Verte » (Grüner Hügel), le Palais des Festivals de Bayreuth (Bayreuther Festspielhaus) s'impose comme le sanctuaire mondial de l'œuvre lyrique de Richard Wagner et comme l'un des édifices théâtraux les plus novateurs de l'histoire du spectacle vivant. Conçu par Richard Wagner lui-même en collaboration avec l'architecte Otto Brückwald et inauguré en août 1876 pour la création intégrale de la tétralogie *L'Anneau du Nibelung* en présence de l'empereur Guillaume Ier et du roi Louis II de Bavière, le bâtiment privilégie l'efficacité acoustique et scénique sur l'apparat extérieur traditionnel.\n\nÉdifié en brique apparente rehaussée d'éléments en pierre et en bois selon un plan sobre et fonctionnel, le Festspielhaus révolutionna l'architecture théâtrale grâce à sa salle en gradins en éventail offrant à chaque spectateur une vue directe sur la scène et grâce à sa fosse d'orchestre encastrée et dissimulée sous le plateau (« mystischer Abgrund »), fondant les sonorités orchestrales en un flux homogène et enveloppant.",
+    visiter: "Monter jusqu'à la Colline Verte (Grüner Hügel) à Bayreuth pour contempler l'architecture sobre en brique du Festspielhaus de Richard Wagner et son cadre verdoyant dominant la ville.",
+    link: ""
+  },
+  {
+    id: "bayreuth_opera_des_margraves_markgraefliches_opernhaus",
+    name: "Bayreuth - L'Opéra des Margraves (Markgräfliches Opernhaus - Patrimoine Mondial de l'UNESCO)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Haute-Franconie",
+    subdiv: "Bayreuth",
+    altitude: 344,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Théâtre Baroque Italien Conservé Intact (1744-1750) par Giuseppe Galli da Bibiena & Wilhelmine de Prusse - Patrimoine Mondial UNESCO",
+    century: "XVIIIe siècle",
+    category: "monument",
+    is_unesco: true,
+    counts: { unesco: 1 },
+    lat: 49.94437,
+    lng: 11.57841,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczM1gkhv6XeR9OGf4Q9lX3HSvcdMvbArYDcEYq_Up0yNCVvdha8TGwGOyUSMx4h-IQFdwYqNxDH9XCWFzzMht-o6tzRyIHb-B7fdo-f1VpRTxIWaSa30JWkzF007uOqUx5TgeKP_vg6zqB_Oo8balIoxkw=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNJPV9uy2aCFgC7Ng_kxqKHEEeMTdbutMk3U0V33ruIWCu26dnCg67wREaMACnk-jGgw5RNT20A-Ro1wTeY1uELmfm3x_Zv74h4SIOXmD4TNt-PkC5SQIDspkPJY0iqZIT_zdj4EVCO5L9DMwkKFCdpDw=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPQob7UgwEg5AwcDVp0a3E0aitsBqHKolDJPz_SC7mCzB2zraPanMVBLUOkSctKzDOjPDGosM-nV5-cckMorYCVOZ6pRG3GpMI2qn57xt-inJRMygDldXISrGEkcQpC5yXfn7fFS7gQwaJPacFfEWDtWw=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPT2mO_kRtpNSzZBc4pVYzINycc1EALW95i2dbTHugE48pHz7zXUZeaneS1IQmnDuGg1gHr-ALwhRQuPJmriJs8_jE6MWRuhxpOUGx8R5e7cswCxMf81VVuOrD63tp2UDnXiZ_3v92mz2bDb596rbF5zA=w1379-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPzaTzWXt9Hgse1dshxQrZft1bGHj5ey-Ohbt8RFeIf_4sJLoCt7MvXlkf-dwlMcYmJs5-ef8_v2Ms_dJBl3FZ7MBKoq-6d3fz2sYmVHtDg4DydhyoYPi7J5XognaVPJwyZ0wB0SmhXXMLr9XxRs9JUew=w607-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Élevé au cœur de la ville de Bayreuth en Haute-Franconie, l'Opéra des Margraves (Markgräfliches Opernhaus), inscrit au patrimoine mondial de l'UNESCO depuis 2012, constitue l'un des rares théâtres baroques de cour au monde ayant conservé intact son décor scénographique et sa structure en bois du XVIIIe siècle. Commandé par le margrave Frédéric III de Brandebourg-Bayreuth et son épouse Wilhelmine de Prusse — sœur de Frédéric le Grand, artiste accomplie et animatrice brillante de la cour de Bayreuth — et édifié entre 1744 et 1750 d'après les plans du célèbre scénographe et architecte italien Giuseppe Galli da Bibiena, l'édifice déploie derrière une façade discrète en grès un prodigieux théâtre à l'italienne en forme de cloche.\n\nEntièrement façonné en bois de tilleul, de pin et de chêne peint en trompe-l'œil pour imiter le marbre, l'or et les tentures, l'auditorium aligne trois étages de loges finement sculptées et dorées, la loge princière centrale et une fresque de plafond peinte par Carlo Innocenzo Carlone célébrant Apollon et les Muses, offrant un témoignage éblouissant de l'art théâtral et de la culture de cour du XVIIIe siècle.",
+    visiter: "Découvrir à Bayreuth l'Opéra des Margraves (UNESCO) conçu par Giuseppe Galli da Bibiena pour admirer son extraordinaire salle baroque en bois peint en trompe-l'œil, ses trois rangées de loges dorées et sa fresque de plafond.",
+    link: ""
+  },
+  {
+    id: "bayreuth_hermitage_nouveau_palais",
+    name: "Bayreuth - Le Nouveau Palais de l'Ermitage (Neues Schloss Eremitage - Parc & Fontaine en Cascades)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Haute-Franconie",
+    subdiv: "Bayreuth",
+    altitude: 383,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Aile Rococo de Wilhelmine de Prusse (1749-1753) dans le Parc de l'Ermitage, Temple du Soleil & Jeux d'Eau Baroques",
+    century: "XVIIIe siècle",
+    category: "chateau",
+    counts: { chateau: 1 },
+    lat: 49.94849,
+    lng: 11.62346,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPoKRSI8srOAp1teorc_QnmPK8GxTCodiIXaTvq6V56-sfBklIZnwyFOWieN9299rjlVXrFBneRczyyz6Iz0xNGKbZSjPxe7tbCoxrvU12_GgOqy9qnTpTwtjE9aJz4gmqzeXvppBvqsLsT9S4Uwk09BA=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczNLMmlkr1o56BdNS4MzskS4XWaus_-Vv8NCRVoqpctRorWslYZK7UNky77fAxeYsmd2Ug3SHur-odPDtJdfJCqQTHmhmZzO9gK1ZK66LbEk9b34ggYAKHa8dHtDo5rqQ6-M3JIjAxa78YNBG6f_ILPwow=w1367-h919-s-no-gm?authuser=0",
+        caption: ""
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczPBHFuRQF6s7mUC75bedsVe8FUOjPwqwEGDWi1JvHn6zxxHmByEjJm-W773h9ooQ7aXbr-Eowboavg1xFFoprA877_grE2YshX4_ZSe0wbP6O_H_lZfG5ameRC0JVxEfcxTubIQe71Pnrb5FX2fCqgxQw=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Élevé au cœur du vaste domaine paysager de l'Ermitage (Eremitage), à quelques kilomètres à l'est de Bayreuth en Haute-Franconie, le Nouveau Palais (Neues Schloss) fut édifié entre 1749 et 1753 sous la direction de Joseph Saint-Pierre pour la margravine Wilhelmine de Prusse afin de compléter l'ancien ermitage princier. Se déployant en un élégant arc concave de style rococo à un seul niveau noble surmonté d'une balustrade et d'une coupole centrale coiffée d'une statue dorée de la Fortune, le palais s'ouvre face au grand bassin et aux jeux d'eau baroques du parc.\n\nÀ l'intérieur, ses salons intimes et lumineux — tels que le Cabinet Japonais, le Cabinet Chinois ou le salon de musique — illustrent la fantaisie raffinée et le goût encyclopédique de Wilhelmine de Prusse, tandis que le parc environnant mêle allées boisées, grottes artificielles, fontaines en cascade et le temple doré du Soleil.",
+    visiter: "Parcourir le parc de l'Ermitage à l'est de Bayreuth jusqu'au Nouveau Palais rococo de Wilhelmine de Prusse pour admirer sa façade courbe, les bassins et fontaines d'eau jaillissante et les allées ombragées du domaine.",
+    link: ""
+  },
+  {
+    id: "bayreuth_altes_schloss_eremitage",
+    name: "Bayreuth - L'Ancien Château de l'Ermitage (Altes Schloss Eremitage - Grotte & Cour Intérieure)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Haute-Franconie",
+    subdiv: "Bayreuth",
+    altitude: 385,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Pavillon de Plaisance Baroque du Margrave Georges-Guillaume (1715-1718), Grotte aux Coquillages & Cour Rococo",
+    century: "XVIIIe siècle",
+    category: "chateau",
+    counts: { chateau: 1 },
+    lat: 49.94914,
+    lng: 11.62482,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPRe3seb2wvx1CHOCMduylSEp5y5VFVguxUnw3cqLx0h57QwR3ebJ_6d9FFPN0uvbKYaRn2kCAsmVlUZ9RK7ogAokcypkWqF2vPluZb8kMOhLn9ZKlgAE94C1378T4ySYGNyjIiLzIwyxJM31z0mrHU7A=w1367-h911-s-no-gm?authuser=0",
+    gallery: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AP1GczN-cCoE9IwLGHRsTv1QVYLqiL2AU6ISbQry11dT06j82dnNbxan4AEPLrK-qjSRi8S-lSR1sKiRvgwbkNLPrFYHnR09YPFMMfHf-6hdY5M9RB1YobPTb35SwrLt730iGq3ZXEGa1BR4Mz8ZIOr35mtVNw=w1367-h911-s-no-gm?authuser=0",
+        caption: ""
+      }
+    ],
+    description: "Niché dans l'écrin forestier du parc historique de l'Ermitage à l'est de Bayreuth en Haute-Franconie, l'Ancien Château (Altes Schloss Eremitage) fut édifié entre 1715 et 1718 par l'architecte Johann David Räntz pour le margrave Georges-Guillaume de Brandebourg-Bayreuth comme retraite philosophique et galante à l'écart du protocole de la cour. Conçu autour d'une cour intérieure quadrangulaire fermée bordée de façades ocres sobres rehaussées de pilastres clairs et de frontons triangulaires, l'édifice abritait de petites cellules individuelles où le souverain et ses proches se retiraient vêtus d'habits d'ermites pour méditer et se consacrer aux arts et aux lettres.\n\nOffert en 1735 à la margravine Wilhelmine de Prusse, le château fut enrichi de salons rococo somptueux — dont la célèbre grotte intérieure incrustée de tuf volcanique, de cristaux et de coquillages — et entouré d'ermitages champêtres dissimulés sous les frondaisons du parc.",
+    visiter: "Découvrir l'Ancien Château dans le parc de l'Ermitage à Bayreuth pour parcourir sa cour intérieure classique et admirer la fantaisie rococo de ses salons et de sa grotte aux coquillages.",
+    link: ""
+  },
+  {
+    id: "nuremberg_memorial_des_proces_justizpalast",
+    name: "Nuremberg - Le Mémorial des Procès de Nuremberg (Memorium Nürnberger Prozesse - Salle 600)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Nuremberg",
+    altitude: 312,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Palais de Justice de Nuremberg (Salle 600 - 1945-1946), Tribunal Militaire International & Berceau du Droit Pénal International",
+    century: "XXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.45447,
+    lng: 11.04825,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMwh0ZqxmaTRkDtXWw2Nr1de6pfEqZ9gDz7UTmM8HVUJu6J9E6s7ApPtBzP6z5kuqSmNhW1VFzIfhAavUU0zJAcmHzCiFp2lRtKMasxq6ew_IufvP8ohbSxe4l00R2wpencyBKtqkHPdk-d1fCErjkmfg=w1367-h911-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Situé dans l'aile orientale du vaste Palais de Justice néo-Renaissance de la Bärenschanzstraße à l'ouest du centre historique de Nuremberg en Moyenne-Franconie, le Mémorial des Procès de Nuremberg (Memorium Nürnberger Prozesse) préserve l'un des lieux les plus chargés d'histoire du XXe siècle : la célèbre Salle 600. C'est entre ces murs lambrissés de bois sombre et ornés de reliefs en pierre que s'ouvrit le 20 novembre 1945, devant le Tribunal militaire international réuni par les quatre puissances alliées, le procès historique des principaux responsables politiques, militaires et économiques du régime national-socialiste.\n\nPour la première fois dans l'histoire de l'humanité, des dirigeants d'un État furent jugés individuellement pour crimes contre la paix, crimes de guerre et crimes contre l'humanité, posant ainsi les fondements juridiques du droit pénal international moderne et de la Cour pénale internationale. L'exposition permanente installée au-dessus de la salle d'audience historique retrace avec rigueur le déroulement des audiences, les témoignages et la portée universelle de ce jugement fondateur.",
+    visiter: "Visiter le Mémorial des Procès de Nuremberg au Palais de Justice pour découvrir la célèbre Salle 600 et parcourir l'exposition retraçant le déroulement du Tribunal militaire international de 1945-1946 et la naissance du droit pénal international.",
+    link: ""
+  },
+   {
     id: "bamberg_schleuse_100_ludwig_donau_main_kanal",
     name: "Bamberg - L'Écluse 100 du Canal Ludwig-Danube-Main (Schleuse 100)",
     country: "Allemagne",
