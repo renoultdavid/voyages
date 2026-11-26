@@ -7,6 +7,138 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "dachau_memorial_camp_de_concentration",
+    name: "Dachau - Le Mémorial du Camp de Concentration de Dachau (KZ-Gedenkstätte Dachau)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Haute-Bavière",
+    subdiv: "Dachau",
+    altitude: 473,
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Premier Camp de Concentration Nazi (Ouvert en Mars 1933), Jourhaus, Place d'Appel, Baraquements & Mémoriaux",
+    century: "XXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 48.26823,
+    lng: 11.46879,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNuj7ICr-4DXh7C05iheEr3utqXyL8cpM2wDV68SIj5c3rxvGv4N5_vjwNAwW1VcXDlLMlr6Xagh0ma2r1h9PveUS2hYLpaq8Vzr43XnWBBIa8-Hv3UQUsJIXzAPadVFdh8OoKyJoKn0tVyY7dVMBtAHg=w1367-h911-s-no-gm?authuser=0",
+    description: "À une quinzaine de kilomètres au nord-ouest de Munich en Haute-Bavière, sur le terrain d'une ancienne poudrerie désaffectée de la Première Guerre mondiale, le régime national-socialiste ouvrit dès le 22 mars 1933 le camp de concentration de Dachau, quelques semaines seulement après l'accession d'Adolf Hitler au poste de chancelier. Premier camp pérenne édifié par les nazis et seul à demeurer en activité durant l'intégralité des douze années du Troisième Reich jusqu'à sa libération par les troupes américaines le 29 avril 1945, Dachau servit à la fois de laboratoire architectural et administratif du système concentrationnaire et d'école de formation pour les gardiens et commandants SS sous l'autorité de Theodor Eicke.\n\nConçu initialement pour enfermer les opposants politiques allemands — communistes, sociaux-démocrates, syndicalistes, membres du clergé et intellectuels —, le camp vit affluer après 1938 puis au cours de la Seconde Guerre mondiale des déportés venus de toute l'Europe occupée, des Juifs, des Témoins de Jéhovah, des Tsiganes, des homosexuels et des prisonniers de guerre soviétiques. Plus de deux cent mille personnes y furent immatriculées et au moins quarante et un mille cinq cents y périrent d'épuisement, de faim, de maladie, de mauvais traitements ou d'exécutions, faisant de ce mémorial inauguré en 1965 un haut lieu de mémoire, de recueillement et de transmission historique.",
+    intro_page: "À une quinzaine de kilomètres au nord-ouest de Munich en Haute-Bavière, sur le terrain d'une ancienne poudrerie désaffectée de la Première Guerre mondiale, le régime national-socialiste ouvrit dès le 22 mars 1933 le camp de concentration de Dachau, quelques semaines seulement après l'accession d'Adolf Hitler au poste de chancelier. Premier camp pérenne édifié par les nazis et seul à demeurer en activité durant l'intégralité des douze années du Troisième Reich jusqu'à sa libération par les troupes américaines le 29 avril 1945, Dachau servit à la fois de laboratoire architectural et administratif du système concentrationnaire et d'école de formation pour les gardiens et commandants SS sous l'autorité de Theodor Eicke.\n\nConçu initialement pour enfermer les opposants politiques allemands — communistes, sociaux-démocrates, syndicalistes, membres du clergé et intellectuels —, le camp vit affluer après 1938 puis au cours de la Seconde Guerre mondiale des déportés venus de toute l'Europe occupée, des Juifs, des Témoins de Jéhovah, des Tsiganes, des homosexuels et des prisonniers de guerre soviétiques. Plus de deux cent mille personnes y furent immatriculées et au moins quarante et un mille cinq cents y périrent d'épuisement, de faim, de maladie, de mauvais traitements ou d'exécutions, faisant de ce mémorial inauguré en 1965 un haut lieu de mémoire, de recueillement et de transmission historique.",
+    visiter: "Parcourir le Mémorial du camp de concentration de Dachau depuis l'entrée du Jourhaus jusqu'à la place d'appel, l'exposition historique du bâtiment d'intendance, la prison du Bunker, les baraquements reconstitués, les mémoriaux religieux et le secteur de la Baracke X.",
+    link: "",
+    sections: [
+      {
+        title: "Le Jourhaus, la grille « Arbeit macht frei » et la place d'appel (Appellplatz)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNuj7ICr-4DXh7C05iheEr3utqXyL8cpM2wDV68SIj5c3rxvGv4N5_vjwNAwW1VcXDlLMlr6Xagh0ma2r1h9PveUS2hYLpaq8Vzr43XnWBBIa8-Hv3UQUsJIXzAPadVFdh8OoKyJoKn0tVyY7dVMBtAHg=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOuDlFl_oNeCepP1K7f70m0-TCGz_rgNWxKClxh_EGfhZ6KJE0ELW7JMV1uRb9g-X0fnKyvtvF3H5NjwcZApGKaI5RTFJbyxf9HyFGl4bgMvowmyZauKTm4TmiVQEWZ5snL2s63NURw2PkpCntO19wUEA=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "La visite débute le long de l'ancienne voie d'accès bordant le vaste secteur autrefois occupé par la caserne et les bâtiments administratifs de la garnison SS (SS-Lager), avant d'atteindre le Jourhaus, bâtiment-porte érigé en 1936-1937 qui constituait l'unique point de passage vers l'enceinte des détenus (Schutzhaftlager). Sur le vantail métallique de sa grille d'entrée se détache encore la sinistre devise forgée en fer « Arbeit macht frei » (« Le travail rend libre »), symbole du cynisme de l'administration concentrationnaire. Le franchissement de ce seuil débouche immédiatement sur l'immense esplanade gravillonnée de la place d'appel (Appellplatz), espace nu et balayé par les vents où des dizaines de milliers de prisonniers épuisés devaient se tenir alignés durant des heures, matin et soir et par tous les temps, pour les interminables comptages quotidiens."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPQiKWWHNpwe-59PMs-Ehy936hKLkCSEGU7Qh9YSyLDcTO6Gt-L8uYwb4w-MbJ9Ma5m76wQhGwrEf-ZfhDHRvvQVPpwxOq10tnwfgXqxupcJm9xgMhC8tvDdbOK7AJNri3BA9a9nycLgqDD2FzrOo-tyA=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNrvVav4pEIUHFA3t4593H8vKt4lyAHNIxcVYRSLm0rmY7vvlcQkarkb77CKBwre24E4jYdvPH0KX6PAj94sDil7YnmE-Hb1xxQa8AkKTshq5s3O78rg1RJmjrMXwDbX_3ZaKuE2t6JSiJhmlzjnpno_w=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le bâtiment d'intendance (Wirtschaftsgebäude) et la salle de réception (Schubraum)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMY4sCRwAGA539hobzPDbM0V-OX2Wi79nFJ9uarDXACFiznOGumJH8vOSywaJ8hdN6ls8C7jHa-PHMGrOjqR6g14VNin5pGcCeTQkSdY0ITFZE5iBNRMRpqm_2WZQ-aOa4LvXQkaGt3Jg9PQ6Arz81jCA=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNTaqAQZFya9Jk_S6OcLFgIGPcX11LWVAXCZvePyTEyO9xhpp4gtGveYO9UZPa6pg2f94N7osIpJJnbnhgCRJ3skmIIXvLsvmUA8qGXhT2Cyckpid_IeVfgGzy7RXJVB0PoVGjXMXJOVNgz_OHIOk0RIg=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "Fermant le côté méridional de la place d'appel s'étire le long bâtiment d'intendance en forme de U (Wirtschaftsgebäude), construit entre 1937 et 1938 par les détenus eux-mêmes. Cet édifice abritait autrefois les cuisines, la buanderie, les ateliers ainsi que la salle de réception et de bains (Schubraum), étape traumatisante où les nouveaux arrivants étaient dépouillés de leurs effets personnels, tondus, désinfectés et revêtus de l'uniforme rayé porteur d'un numéro matricule et d'un triangle de couleur classant leur catégorie."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMnD_kWXdm42rJIwxSsLuvHJ3pElkV0lDzSfsNTrosl5KNqais7hF4GO7Jwnxep9ZHoohrWKXqAAPxk6Vdv09SiB9Td1lKb4caDILzVN0Va2ZrHfb3icsJxCEAVTFcdi9mBTHtQao1vsH8Hpxp9Zk3IYg=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOCoJnnUKa8m8H21SIG8tgUD7NxfnXXqlmiuZrz9Th5cPXhKaS1vkSGtjaU9aydYhMVZTsrY2Af_NWHAI-EEDcN2mQnYBGDI4JQsabRhrafwn4uX2zBreiR16uewOlScwOocF4CJYO0BnpsJNFhpGPrUA=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "L'exposition permanente du mémorial et le monument international de Nandor Glid",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOOago8rEz0F9m_CtJ2IvT_SKtpJYdsVYCuLiI9P552A6AtcyBEZ38T0G8CmFfeVSQ_XBpK5QaY0d99H1N9VQC6jvrD_FdjDUvZgOFGg4QIl7sXezrTPugZk-WM64k8d8K7n8N6rkZEAHWjgr9il3DoGQ=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczORENuG-A6ytPpEhm5uV6lWyk9uCMH3oY4dPw_wHbMczHEO6cgVCR5JV-m8mqzrMnrsBHnnL4oSF4I2bIIIfAdh3PfLRe_0TLdeGM7uCpY1am8gGic34kUdd7jLKCskhs1F0lJ_dNssyXys2P_vn6Qujg=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "Aujourd'hui, ses vastes salles accueillent l'exposition permanente du mémorial, qui retrace avec une rigueur documentaire implacable la genèse du nazisme, l'évolution du camp de 1933 à 1945, le quotidien des détenus et la libération du site, tandis que devant la façade se dresse le monument international sculpté en bronze par Nandor Glid, figurant un enchevêtrement de corps décharnés pris dans des fils de fer barbelés."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNPcGSmU0VAMolU6xyQUWNRRMUqyxfjiOkc1owV_Sjz2SDRU9qZKSk6jL9NQXcZ__JnTq2pSGYpq3KYCXLBb1CEaxnvbZ_dtVZkDCU3tlXNP5I5YvqHORlX6QU7q3N0b3ktyL0J-yqur40AUOHp3ysBxA=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOcBUD6U8WNIQ8e_ByRBETNq4V_W01-N3h8CrMAM3YClHvSqy7XXn50SSUMzGVuW1V_FZsuMQttMo07lSzkFBrApoDFushjvHtbMg6iY0Eil0Z2DqgqhSNNsg5mRnxrN1Cutp_jCoJrUzP1nwX4VyGlbw=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMnTVMbnX3b4805E6mdz8P7akNFv7zwhQFXdpVncqyrBx9P_auzdNnqK_nCLxrF_80ZdxFgzmxawGm9jocGgxfdpZEgvNLFJk3VaeIbc5rVtU8fiFdhQK0kPI8dJI0IdGZ2KPygFoykAAB4grdxMtsobQ=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMTm5D1VnuGkg_QbIK5WetLXwlrDO4iAVGihZfgQp99BiSo9j_edgBAXNzWVJ1TeJlH6tdxZrnUdKDdg6n3-HUen8l_6X-ViM52aAAb3mylwQoa3Ni2_ypdXBBB2KmKOjzIueETVNNb30nwwN7Ois_32A=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "La prison du camp (le Bunker) et la cour des exécutions",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMn9HQtG9nafvn1ZeVwzsvtiuxl-tweZW7dACR3u5sNHWIpEIw6YRT4pSAd_FPJjqZKkDgXIOwmbotzVapmKK4MERdCXu0oU4Ek1Z8K15d6BjwyKWxyH_87ET62WJyoSAL_hpzINs0ml8aDUv57B1klCg=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOqlolJ632DQ8UV3qWSLlbBWAO83k9U75nsUicgmurwEGcZAFJjYZBfM7WTYAtSLfYOKxVaorXJJpJD-G3hTPRSkvA1xutLLLFiWu3ub7fme_PrLZJXPHx4LaZvZIWFXLb4trX4VB44_7v_NJzZVHp7pw=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "À l'extrémité orientale du bâtiment d'intendance se trouve la prison du camp, surnommée le Bunker, édifiée en 1937-1938. Ce couloir sombre bordé de cellules étroites servait à la fois de lieu d'isolement et de torture pour les détenus punis par la direction du camp et de prison spéciale pour des otages politiques de premier plan, tels que le pasteur Martin Niemöller, l'ancien chancelier autrichien Kurt von Schuschnigg ou l'ancien président du Conseil français Léon Blum, tandis que la cour attenante fut le théâtre de nombreuses exécutions."
+      },
+      {
+        title: "L'allée centrale (Lagerstraße) et les baraquements reconstitués",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNYgIm3scAN8maOBtsOI3_WrJLzHppv9Dv01LLGN0oEteRI52rsHZ7Llb-p1UUaByBAhysoYZw5bEcxdBk292hBhOIpyIgOm1islrdCiDIMna3rufjWtnJ-jzYmc6IN_-Vo3qFAephD75WYoSJWbkURgQ=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMkbZ6zgVk6rMHqrkoAKM3h8Si_IUnmL1rX1JmcT88WMpbwF0VrBNbwDjsDqc6P5Kecgkmmsn5gRRX0a4yrrvrsossuRFIjfM9QRspB0GVzmPiQH2RZDibMcXIuynyUowO6DrmxZuaZVIQapHj30YnYiQ=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMzN0GLB0qo14ERuQf04QOg-F9ahewWS0X3cttrG2v5kBTmOyhAowtYnfEnKE1B_H6v1HU72bqWZ0AtB_jNpTwN_yi0LDErPQNc9uaPuDCre86QgEbEBLFPPgaG8kO_I3M_o5CTLGHNWFFKrWB2uc_HYA=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPcINd2vJUXmny8MpVFuTKFTw7euXDmSXWSy8T88g5mKYXSBnfS_poqSgrQ5JiAGWmXrnRhDtxKE6T0138ksuaenmWIOrDoGvol3Wy5hnOHslqhZYBEJP140WkyUjuN1faa1GwKvrebMb3rJCqodEPblQ=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "En remontant vers le nord depuis la place d'appel s'étend la grande allée centrale (Lagerstraße) bordée de peupliers, de part et d'autre de laquelle s'alignaient trente-quatre baraquements en bois ; démolis dans les années 1960 en raison de leur vétusté, leurs emplacements demeurent matérialisés au sol par des bordures en béton numérotées, encadrées au sud par deux baraquements fidèlement reconstitués permettant de mesurer la dégradation effroyable des conditions de vie, depuis les dortoirs ordonnés présentés à la propagande en 1933 jusqu'aux châlits à trois étages surpeuplés par des centaines d'hommes agonisants à la fin de la guerre."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNe9xSu9WfzqxHOJjS9u0hsEQ8hEPMfqlUgVEjmSUnBvlEZg7LtuQZM1W72E9WDN2VUQZ9Iu5X-fpCIwh0tSXG4WTnS4JWNa6BbttJXOF3WXbKcYxPsouuubFQwdGQGAmfsA9gjSpRIm2QIklYd-bVvpg=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOJpIcGPmz43jC5zTyPwnH603ShQfZJ_IhwvtXe0JVxCoXJZXK16BkHiVEqr8y3RvSbfY0RhOW7-nEkOOaRTiJ9zG8bv4keizYgk9nmkHmimnQkx0KQKKck_kzbrWDTjDVsvysJ1OdM_fm4nGPmKvbivA=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Les édifices religieux commémoratifs à l'extrémité nord",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMayZcJ2PXlN34UeoQMUfOQbwfKOVjSAW--os3OQMixb_c4-Qho8Rba5GPcKlChVltKdJ2Q-w2ycnVYkmZ50fAFWaVDsks6GfwZROXa8bmxtwUatyM3B0_eBvS0Nx0cW6tEpCOUGTRV-D5AGO9Gr8F-aQ=w607-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMGSFUw4Q8c4tKqNTD2vo3WSjcOtdFyJDtF5HkELLznsl8FHGf8yNc4DN0V3Lu_RfXh3Ysz7FFaQySnlNB99NUiNpwcJWBhZGYe_dy4lrnsvCqmHNMsqNzjvoXsPjLUpcJspj3Au14LjMnmVLrx2H6ylQ=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "À l'extrémité septentrionale de l'allée centrale s'élèvent plusieurs édifices religieux commémoratifs bâtis dans les années 1960 — la chapelle catholique de l'Agonie du Christ, l'église protestante de la Réconciliation, le mémorial juif ainsi que le couvent des Carmélites du Précieux-Sang —, juste avant qu'une passerelle en bois franchissant le fossé ne conduise hors de l'enclos vers le secteur boisé de la Baracke X."
+      },
+      {
+        title: "Le secteur isolé de la Baracke X et les crématoires",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPN_UG_YDkqMn1QijtfCbUM2hc8v7Oyu8pv1GtVjnKaY3TURgV_PIidbZyGoomB2ALb4s-yeY73E2l8DyhqQaCPMI_tlJ7iu18oigtoCffr2lor8ivT7vzbU9YvnsfpEkxSaOU7tj36-8BcKPxCfgnEKQ=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNoicaoUTfoHkC_bjL4UT623nB36iae_FzysPh9CRH0sKxeRsNZjsVn9WlNNl9HR4Pflj0xAYbOo7NDYl3HRC8j_sA67oFT23ohPjC_wSJRM-Ns1yu_hrhl607CZQkPWpYCbi5SdQsDAd5h5wK33w_adQ=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: "Cet espace isolé abrite l'ancien crématoire en briques de 1940 ainsi que le grand crématoire construit entre 1942 et 1943, renfermant quatre fours crématoires, des salles de déshabillage et une chambre à gaz dissimulée sous l'apparence d'une salle de douches qui ne fut toutefois pas utilisée pour des gazages de masse à Dachau, contrairement aux exécutions par balles perpétrées dans l'enceinte voisine et au stand de tir SS de Hebertshausen."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPwQKmxWvBdl5MV1AaP-fhX7ATel30V0-bzRqQ5h3GnyS67yX_0cosd1-LmeoYaRjHlNpYQjJELTWcQswfZTtikoFb-GqwI9c-2L_xLpKk6ouc2vf98ITbLmI5OFB9mPiE-xBM7P_oMgdE9DnTaUDgijQ=w1367-h911-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPEoEfDK1bBWKIZgM-mCy4TgHHwXglMEv9AFwYl-5bPSbQLZHwfiblzeq8gXnBEAnZKBWPhAE5vFH7TiCu7J34ORbV3D3Kbom44nM0Ad8MPKCM-_AkVEh97CeaSYVKja23HdmShOFsCzj3kXkaLbMGODw=w1367-h911-s-no-gm?authuser=0"
+        ],
+        text: ""
+      }
+    ]
+  },
+   {
     id: "munich_karlsplatz_stachus",
     name: "Munich (München) - La Karlsplatz (Stachus) & La Fontaine Monumentale",
     country: "Allemagne",
