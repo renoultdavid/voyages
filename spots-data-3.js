@@ -7,6 +7,142 @@
 const SPOTS_3 = [
   // ▼ INSÉRER LES NOUVEAUX POI ICI (EN HAUT DE LA LISTE) ▼
 {
+    id: "nuremberg_pont_du_musee_museumsbruecke",
+    name: "Nuremberg - Le Pont du Musée sur la Pegnitz (Museumsbrücke - Cœur de la Vieille Ville)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Nuremberg",
+    transport: "a_pied",
+    era_group: "contemporain",
+    era_label: "Ouvrage d'Art en Grès Enjambant la Pegnitz au Cœur de Nuremberg, Perspective sur l'Altes Rathaus & Hauptmarkt",
+    century: "XXe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.45278,
+    lng: 11.07799,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNPQDG9BGIhdsWp_931aF5N-kXqbMRcCZMaMuMdgC_wpBY-ZF5T2nJxljeRMy5Koijx1qZxu_NiIrz3SZuVB0A8iXNL1NU6zpUFdOyUMTeOlkw68TYCNkOU93pu7InNvz6-TlI7T0FkzNO-JkHvKECq-w=w1080-h720-s-no-gm?authuser=0",
+    gallery: [],
+    description: "Unissant les deux rives de la Pegnitz dans l'axe même qui relie la Hauptmarkt et l'Altes Rathaus à la Lorenzer Platz au centre historique de Nuremberg en Moyenne-Franconie, le Pont du Musée (Museumsbrücke) occupe une position stratégique et panoramique au cœur de la cité. Son nom rappelle l'ancien « Museum » — société culturelle et littéraire fondée en 1805 et installée dans un édifice voisin — qui anima pendant plus d'un siècle la vie intellectuelle et mondaine de la ville.\n\nReconstruit au XXe siècle dans le respect des traditions de la taille de pierre franconienne après les destructions de la Seconde Guerre mondiale, le pont déploie une arche large et sobre en grès au-dessus du courant de la rivière. Depuis son tablier, les promeneurs jouissent d'un point de vue privilégié : vers le nord s'aperçoit la silhouette insolite de l'Altes Rathaus posé au milieu de l'eau et les hauteurs du Château Impérial, tandis que vers le sud s'ouvre la perspective animée menant à l'église Saint-Laurent et au quartier commerçant.",
+    visiter: "Traverser à pied le Museumsbrücke au centre de Nuremberg pour observer le passage de la Pegnitz entre les deux moitiés de la vieille ville et contempler la vue vers l'Altes Rathaus, le Château Impérial et le quartier Saint-Laurent.",
+    link: ""
+  },
+  {
+    id: "nuremberg_tugendbrunnen",
+    name: "Nuremberg - La Fontaine des Vertus (Tugendbrunnen - Lorenzer Platz)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Nuremberg",
+    altitude: 311,
+    transport: "a_pied",
+    era_group: "moderne",
+    era_label: "Fontaine Renaissance en Bronze de Benedikt Wurzelbauer (1585-1589), Sept Vertus & Justice Couronnée sur la Lorenzer Platz",
+    century: "XVIe siècle",
+    category: "monument",
+    counts: {},
+    lat: 49.45121,
+    lng: 11.07797,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNASpxEfQ0lNKZp4Wt3qH7-jm8sNtv1U8UfP1peALTNrPU2f8S8Wz2KEfgWOAsKhhp4e_BTvo0M3cwuVGy6pg-5QF2vVkB_3VUcx34k6Af2N-MXaOtPYtZCtGc_QZIAZ6y0XfrYm3bRpTcYVmd-xAER_Q=w493-h739-s-no-gm?authuser=0",
+    gallery: [],
+    description: "À quelques pas de la façade occidentale de l'église Saint-Laurent, sur la Lorenzer Platz au cœur de la vieille ville méridionale de Nuremberg en Moyenne-Franconie, la Fontaine des Vertus (Tugendbrunnen) offre l'un des chefs-d'œuvre les plus accomplis de la sculpture Renaissance en bronze d'Allemagne du Sud. Fondue entre 1585 et 1589 par le sculpteur nurembergeois Benedikt Wurzelbauer à la demande du conseil municipal de la ville libre d'Empire, cette fontaine monumentale s'élève au centre d'un bassin en grès selon une architecture verticale riche de symbolisme moral et civique.\n\nAutour du fût central s'épanouissent six statues en bronze figurant les vertus cardinales et théologales — Prudence, Force, Tempérance, Justice, Foi et Espérance —, tandis qu'au sommet trône la statue de la Patience tenant l'agneau pascal et la croix. Chaque figure déverse de fines gerbes d'eau vers le bassin, traduisant en langage plastique l'idéal d'un gouvernement urbain juste, sage et vertueux au cœur de la cité franconienne.",
+    visiter: "S'arrêter sur la Lorenzer Platz devant l'église Saint-Laurent à Nuremberg pour admirer les statues en bronze fondues de 1585 à 1589 par Benedikt Wurzelbauer autour de la Fontaine des Vertus.",
+    link: ""
+  },
+  {
+    id: "nuremberg_nassauer_haus",
+    name: "Nuremberg - La Maison de Nassau (Nassauer Haus - Tour Médiévale & Lorenzer Platz)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Nuremberg",
+    altitude: 311,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Tour Patricienne Médiévale Fortifiée (XIIe-XIVe Siècles), Encorbellement Gothique & Armoiries Impériales sur la Lorenzer Platz",
+    century: "XIIIe siècle",
+    category: "habitation",
+    counts: { habitation: 1 },
+    lat: 49.45115,
+    lng: 11.07764,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMxD7N_qPNh9M9zAmoI2LsK8jh75faPXccpEg-dO74YagxAHgvoSLw2NFaDVIVGg383TUFTBF7vfAFCtWcXJriiirbKNI7R1YTjPjj2mKNS0eV5KcNY1FIor7jmD08QKYGPx_sgpKZOjp1HoPNAOC1y1w=w493-h739-s-no-gm?authuser=0",
+    gallery: [],
+    description: "À l'angle occidental de la Lorenzer Platz, face aux tours de l'église Saint-Laurent et tout près de la Fontaine des Vertus à Nuremberg en Moyenne-Franconie, la Nassauer Haus (« Maison de Nassau ») dresse la silhouette austère et noble d'une authentique tour d'habitation patricienne du Moyen Âge. Ses maçonneries massives en pierre de taille, percées de petites ouvertures étroites et couronnées d'un haut toit escarpé en bâtière flanqué de tourelles d'angle en encorbellement et d'une galerie à créneaux, rappellent l'époque où les riches familles bourgeoises et chevaleresques de la cité érigeaient de véritables maisons-tours fortifiées au cœur de la ville.\n\nL'édifice doit son nom actuel à la famille comtale de Nassau, dont les armoiries figurèrent au XVIIe siècle sur la façade aux côtés de sculptures gothiques et d'une frise d'écussons armoriés illustrant les électeurs et dignitaires de l'Empire. Fidèlement restaurée après les bombardements de 1945 qui avaient laissé subsister ses murs porteurs, la Nassauer Haus demeure l'un des plus rares témoignages d'architecture domestique médiévale fortifiée conservés dans le centre de Nuremberg.",
+    visiter: "Contempler sur la Lorenzer Platz à Nuremberg la tour d'habitation médiévale de la Nassauer Haus, ses tourelles d'angle en encorbellement, ses armoiries sculptées et son dialogue direct avec l'église Saint-Laurent.",
+    link: ""
+  },
+  {
+    id: "nuremberg_eglise_saint_laurent",
+    name: "Nuremberg - L'Église Saint-Laurent (St. Lorenzkirche - Gothique Impérial, Voûtes Étoilées & Adam Kraft)",
+    country: "Allemagne",
+    continent: "Europe",
+    flag: "🇩🇪",
+    region_admin: "Bavière",
+    department: "Moyenne-Franconie",
+    subdiv: "Nuremberg",
+    altitude: 312,
+    transport: "a_pied",
+    era_group: "moyen_age",
+    era_label: "Grande Église Paroissiale Gothique du Sud de Nuremberg (XIIIe-XVe Siècles), Façade à Rosace, Voûtes Étoilées & Sakramenthaus d'Adam Kraft",
+    century: "XIVe siècle",
+    category: "religieux",
+    counts: {},
+    lat: 49.45105,
+    lng: 11.07844,
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPkTzMEBcZtEyrYqTXpUJ6h6VyGl_RZak3N_eoXZ1wbfjqTZ2zj_7MUddtpPUwEZ9N06gclP9egYpH56KFoSley0d-_o4NxvvdceD7VAgCydfhSvuvtJpDr9Ab30dG0sNRYd1CNiDD4BYpUvcg1ZO8Idg=w613-h919-s-no-gm?authuser=0",
+    description: "Dominant la Lorenzer Platz dans la partie méridionale de la vieille ville de Nuremberg en Moyenne-Franconie, l'église Saint-Laurent (St. Lorenzkirche) forme avec Saint-Sébald le second grand sanctuaire paroissial gothique de la cité impériale. Commencée au XIIIe siècle et dotée au XIVe siècle d'une nef élancée et d'une façade occidentale à deux tours ajourées d'une somptueuse rosace, l'église connut son couronnement architectural entre 1439 et 1477 avec l'édification de son vaste chœur-halle oriental conçu par Konrad Heinzelmann et Konrad Roritzer.\n\nDe sa façade sculptée et de ses voûtes d'ogives et nervures étoilées jusqu'à l'extraordinaire tabernacle en dentelle de pierre ciselé par Adam Kraft entre 1493 et 1496, l'édifice concentre la splendeur artistique et civique de la fin du Moyen Âge nurembergeois, magnifiquement restaurée après les destructions de la Seconde Guerre mondiale.",
+    intro_page: "Dominant la Lorenzer Platz dans la partie méridionale de la vieille ville de Nuremberg en Moyenne-Franconie, l'église Saint-Laurent (St. Lorenzkirche) forme avec Saint-Sébald le second grand sanctuaire paroissial gothique de la cité impériale. Commencée au XIIIe siècle et dotée au XIVe siècle d'une nef élancée et d'une façade occidentale à deux tours ajourées d'une somptueuse rosace, l'église connut son couronnement architectural entre 1439 et 1477 avec l'édification de son vaste chœur-halle oriental conçu par Konrad Heinzelmann et Konrad Roritzer.\n\nDe sa façade sculptée et de ses voûtes d'ogives et nervures étoilées jusqu'à l'extraordinaire tabernacle en dentelle de pierre ciselé par Adam Kraft entre 1493 et 1496, l'édifice concentre la splendeur artistique et civique de la fin du Moyen Âge nurembergeois, magnifiquement restaurée après les destructions de la Seconde Guerre mondiale.",
+    visiter: "Parcourir la Lorenzer Platz et entrer dans l'église Saint-Laurent à Nuremberg pour admirer la façade à deux tours et grande rosace, les voûtes d'ogives et étoilées du chœur-halle et le monumental Sakramenthaus sculpté par Adam Kraft.",
+    link: "",
+    sections: [
+      {
+        title: "Façade occidentale à deux tours, grande rosace et portail sculpté du XIVe siècle",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPkTzMEBcZtEyrYqTXpUJ6h6VyGl_RZak3N_eoXZ1wbfjqTZ2zj_7MUddtpPUwEZ9N06gclP9egYpH56KFoSley0d-_o4NxvvdceD7VAgCydfhSvuvtJpDr9Ab30dG0sNRYd1CNiDD4BYpUvcg1ZO8Idg=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPauC0X33YG_PYZjjIH1Mrv2w_OXzio1ye16XXz-YgXdFcxIyjoFS-lhjwvCbUgVHZrXRbPw20JFZdp_SnyvXhSydwRd6I3Gw8DmEBbKHOhog07n4oyXl6iVqvdRaZ-dD27X3a7qydyCQUoMtRY5kRWeA=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "De l'extérieur, la silhouette monumentale de l'édifice domine la Lorenzer Platz par sa spectaculaire façade occidentale du milieu du XIVe siècle, bâtie en grès blond et rougeâtre de Franconie sur le modèle des cathédrales de Bamberg et de Saint-Sébald. Deux tours jumelles élancées culminant à quatre-vingts et quatre-vingt-un mètres de hauteur encadrent un haut pignon central ajouré d'une somptueuse rosace de neuf mètres de diamètre, dont le réseau de pierre combine une roue solaire extérieure et des lancettes tournoyantes évoquant les ailes d'un moulin. Au rez-de-chaussée s'ouvre le grand portail occidental profondément ébrasé, véritable bible sculptée des années 1350 dont les voussures et le tympan déploient avec une verve narrative foisonnante les scènes de l'enfance du Christ, de la Passion et du Jugement dernier autour d'une statue de la Vierge à l'Enfant adossée au trumeau. Sur le flanc oriental s'élève la masse imposante du chœur-halle du XVe siècle, scandé par de puissants contreforts et deux registres superposés de hautes fenêtres gothiques qui baignent le sanctuaire d'une clarté remarquable."
+      },
+      {
+        title: "Élancement vertical de la nef, chœur-halle et épitaphes patriciennes",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMlLWwwrf1nH_EOtM5KNwpVppDkFqU7Ai0sNo4trwzPsWD7kB3NU_1cKwz9SlMZq8hr9xPLFFj8SLSN55JDVAVAWmKIntKWV9duXdP2qtBn4uMKVqWBZgaaTt8at9kJfbiNZemotpauFAu6MQUkoZY3Lg=w1377-h919-s-no-gm?authuser=0"
+        ],
+        text: "L'intérieur de l'église Saint-Laurent se distingue par son architecture gothique imposante, caractérisée par une nef d'une grande hauteur sous voûte. Les piliers fasciculés, composés de multiples colonnettes engagées, s'élancent du sol pour soutenir les arcs brisés des grandes arcades. Ces lignes verticales dirigent le regard vers un plafond voûté sur croisées d'ogives, typique du style médiéval tardif. L'espace est baigné d'une lumière naturelle provenant de hautes fenêtres à remplages, complétée par des luminaires modernes suspendus qui soulignent la profondeur de la nef.\n\nLe chœur de l'édifice présente une complexité architecturale encore plus marquée, avec une voûte dont les nervures s'entrecroisent pour former des motifs étoilés. Au centre de ce chœur, on peut apercevoir des œuvres d'art suspendues et un maître-autel richement orné. Les murs sont décorés de nombreux épitaphes et de blasons circulaires qui témoignent de l'importance historique des familles patriciennes de Nuremberg. Une chaire en pierre finement sculptée, accessible par un escalier monumental, se trouve sur l'un des piliers de la nef, illustrant la maîtrise de la sculpture sur pierre à l'époque gothique."
+      },
+      {
+        title: "Croisées d'ogives de la nef et voûtes étoilées du chœur",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPL3Y9iNOn9GlqZdGlYPvTlrKPkTD8WoBzDrK7V3HU656TobLDNaX30tWEWtF3UAgUx3P65S476NsY8YvZhhIuNchCZeuGym6YD7krISBtOLBiNRMgvDYBoF4js5WHxG2vDgQdyfTbInxg8OLWnjlgMQg=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMCs8L52uXV7QnSV2EhF0K5BPHUzZcGBuVwYzIm8OC01ny1tvXzjhd4qt0v-voMsGc_fsBsRCtugayCkHQjmtytWfl5zl450NDVnVEa_MjtmIhniuxYX8FONhx2QPbUAkJcnrEGH6lcUV5jUbcq0a7WvQ=w613-h919-s-no-gm?authuser=0"
+        ],
+        text: "La couverture intérieure de l'édifice est constituée d'un système de voûtes complexe qui illustre l'évolution du style gothique entre le 13e et le 15e siècle. Dans la nef principale, on observe une voûte sur croisée d'ogives traditionnelle où les nervures de pierre se rejoignent pour former des travées régulières. Ces arcs brisés canalisent les poussées vers les piliers fasciculés, permettant ainsi de maintenir une grande hauteur sous plafond tout en dégageant de larges espaces pour les fenêtres hautes qui illuminent la partie supérieure du vaisseau central.\n\nLe plafond du chœur, visible sur les vues orientées vers le maître-autel, présente une structure beaucoup plus sophistiquée de voûte en étoile ou en réseau, caractéristique du gothique tardif allemand. Les nervures se multiplient et s'entrecroisent pour créer des motifs géométriques denses qui recouvrent toute la surface des voûtains. Cette conception ne répond pas seulement à des nécessités structurelles, mais vise également un effet décoratif spectaculaire, transformant le plafond en une sorte de résille de pierre suspendue qui semble s'alléger malgré sa masse réelle.\n\nL'ensemble du plafond est ponctué de clefs de voûte circulaires et de médaillons peints ou sculptés qui marquent les points d'intersection des nervures. La teinte claire de la pierre et du remplissage contraste avec les lignes sombres des ogives, ce qui accentue la lecture du dessin géométrique. Cette verticalité et cette complexité ornementale participent à la symbolique de l'édifice, orientant le regard des fidèles vers le haut et créant une atmosphère de grandeur majestueuse propre aux grandes églises-halles de cette période."
+      },
+      {
+        title: "",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNLZ0INUhoik_wLem0TPJMsi932GS6rMIQBocexLNqZNQQkEYe-epGYHVGX2shTNkvpRIn6HZ3-1BuPUTspZ-sXQDiSi6tHbeRsnPFlFR_neair85_Um5Hg0OqlGcPJ8DlclFKPpYLzeO6YALWQEoSZ1g=w1377-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMMO6uFq7rKT_1lGCakSETW9ZLSUYp8UdZcozcnQ7O4NgH2RGiVNrNzQoz2ePmVCcmM6LXO1C-3Hvdpv-3OzqEszeKQetyxHazNDE8quKZ5wOGQfAksgydhAyNkyNZ6pSU_zIEmRL1rrkH8hnS3YfMBSQ=w1377-h919-s-no-gm?authuser=0"
+        ],
+        text: ""
+      },
+      {
+        title: "Le tabernacle gothique (Sakramenthaus) sculpté par Adam Kraft (1493-1496)",
+        photos: [
+          "https://lh3.googleusercontent.com/pw/AP1GczO2zvXYAYHPtxfJ2OYCD7YDN61d0E1Qyjr-NJEqmkBN7SsQuXSUGAVu-q6wagpVL60K75gXXJuvuhvTDaGKlXHIgtsZhhFjpAEo5hb7N2aKqIImMZKI1_nUXLUUn1yIsjmnjQHaAk6Sd_engUwdUfqVIw=w613-h919-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOvms0kfv9Dt8XgADgIL6P44_5AZZFy5PF79EmBj--6O6bMIchTO4wE8-4ZK0LiLhoSvLUNpRdY-hMKKguvs5if3Ioi6ELLfq20W5ssqflmqavDWgQvp5tRXnuEGQLuOmkTOssvAiBX9MYQ9FefppnogQ=w1377-h919-s-no-gm?authuser=0"
+        ],
+        text: "Le Sakramenthaus (tabernacle ou maison du Saint-Sacrement) de l'église Saint-Laurent de Nuremberg est un chef-d'œuvre exceptionnel de la sculpture gothique tardive en grès, réalisé par l'artiste Adam Kraft entre 1493 et 1496. Cette structure monumentale se présente comme une tour pyramidale d'une finesse incroyable, s'élevant à plus de 20 mètres de hauteur pour venir s'effiler et se recourber sous la voûte du chœur.\n\nLa base de l'ouvrage est soutenue par trois figures sculptées grandeur nature, dont l'une représente l'artiste lui-même, Adam Kraft, agenouillé et portant ses outils de sculpteur. Ces personnages semblent porter tout le poids de l'édifice sur leurs épaules, illustrant le lien entre le labeur humain et la gloire divine. Juste au-dessus, le réceptacle destiné à conserver l'hostie est entouré de scènes minutieusement sculptées représentant la Passion du Christ.\n\nL'ascension visuelle du tabernacle est marquée par une profusion de détails architecturaux typiques du gothique flamboyant : des pinacles effilés, des arcs brisés et des réseaux de pierre qui imitent la souplesse du bois ou du métal. La partie supérieure s'étire en une flèche de plus en plus étroite, ornée de personnages bibliques et de motifs végétaux, avant de se terminer par une courbure élégante en forme de crosse qui épouse la forme de la voûte étoilée du chœur.\n\nCe monument témoigne d'une maîtrise technique absolue, où la pierre semble perdre sa rigidité pour devenir une dentelle minérale. Sa position à gauche du maître-autel et sa verticalité vertigineuse en font l'un des éléments les plus marquants de l'église, symbolisant l'élévation spirituelle et le respect dû au sacrement qu'il abrite."
+      }
+    ]
+  },
+   {
     id: "nuremberg_tiergaertnertorplatz",
     name: "Nuremberg - La Place de la Porte du Parc aux Animaux (Tiergärtnertorplatz - Quartier Saint-Sébald)",
     country: "Allemagne",
